@@ -1,0 +1,74 @@
+name: 💾 Add misc file
+description: Ask for a new custom data file
+title: "[MISC]: "
+labels: ["misc", "enhancement"]
+assignees:
+  - PixiGeko
+body:
+  - type: dropdown
+    id: download
+    attributes:
+      label: How urgent is it ?
+      options:
+        - Take your time
+        - Pleaaaase I can't live without it
+    validations:
+      required: true
+  - type: input
+    id: filename
+    attributes:
+      label: File name with extension
+      placeholder: blockstate_ids_by_range.json
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Content, format, structure, everything needed to generate the file
+      placeholder: |
+        Every blockstates grouped by id range
+    validations:
+      required: true
+  - type: textarea
+    id: format
+    attributes:
+      label: Format
+      description: Data format
+      render: shell
+      placeholder: |
+        [
+          {
+            "from": 0,
+            "to": 999,
+            "blockstates": [ 
+              "minecraft:air[]",
+              "minecraft:stone[]",
+              ...
+              "minecraft:note_block[instrument=xylophone,note=5,powered=true]"
+              "minecraft:note_block[instrument=xylophone,note=5,powered=false]"
+            ]
+          },
+          {
+            "from": 1000,
+            "to": 1999,
+            "blockstates": [ 
+              ...
+            ]
+          },
+          {
+            "from": 2000,
+            "to": 2999,
+            "blockstates": [ 
+              ...
+            ]
+          }
+        ]
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        <div align="center"><table><tbody><td align="center"><img width="100" height="0">
+        <h3>Adding or updating a file requires to update every branch, and this process can take between 2 and 5 hours.<br/>Please take into account that this can't be done often.</h3>
+        <img width="100" height="0"></td></tbody></table>

@@ -1,0 +1,39 @@
+name: 📝 Add list
+description: Ask for a new list file
+title: "[LISTS]: "
+labels: ["lists", "enhancement"]
+assignees:
+  - PixiGeko
+body:
+  - type: dropdown
+    id: download
+    attributes:
+      label: How urgent is it ?
+      options:
+        - Take your time
+        - Pleaaaase I can't live without it
+    validations:
+      required: true
+  - type: input
+    id: filename
+    attributes:
+      label: File name
+      description: .txt file, with name in the plural
+      placeholder: block_entities.txt
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What do you need ? What values should this file contain ?
+      placeholder: |
+        This file will contain the list of all block entities
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        <div align="center"><table><tbody><td align="center"><img width="100" height="0">
+        <h3>Adding or updating a file requires to update every branch, and this process can take between 2 and 5 hours.<br/>Please take into account that this can't be done often.</h3>
+        <img width="100" height="0"></td></tbody></table>

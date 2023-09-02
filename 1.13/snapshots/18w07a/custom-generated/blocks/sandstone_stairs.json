@@ -1,0 +1,224 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "half": [
+      "top",
+      "bottom"
+    ],
+    "shape": [
+      "straight",
+      "inner_left",
+      "inner_right",
+      "outer_left",
+      "outer_right"
+    ]
+  },
+  "states": {
+    "4100": {
+      "facing": "north",
+      "half": "top",
+      "shape": "straight"
+    },
+    "4101": {
+      "facing": "north",
+      "half": "top",
+      "shape": "inner_left"
+    },
+    "4102": {
+      "facing": "north",
+      "half": "top",
+      "shape": "inner_right"
+    },
+    "4103": {
+      "facing": "north",
+      "half": "top",
+      "shape": "outer_left"
+    },
+    "4104": {
+      "facing": "north",
+      "half": "top",
+      "shape": "outer_right"
+    },
+    "4105": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight"
+    },
+    "4106": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "inner_left"
+    },
+    "4107": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "inner_right"
+    },
+    "4108": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "outer_left"
+    },
+    "4109": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "outer_right"
+    },
+    "4110": {
+      "facing": "east",
+      "half": "top",
+      "shape": "straight"
+    },
+    "4111": {
+      "facing": "east",
+      "half": "top",
+      "shape": "inner_left"
+    },
+    "4112": {
+      "facing": "east",
+      "half": "top",
+      "shape": "inner_right"
+    },
+    "4113": {
+      "facing": "east",
+      "half": "top",
+      "shape": "outer_left"
+    },
+    "4114": {
+      "facing": "east",
+      "half": "top",
+      "shape": "outer_right"
+    },
+    "4115": {
+      "facing": "east",
+      "half": "bottom",
+      "shape": "straight"
+    },
+    "4116": {
+      "facing": "east",
+      "half": "bottom",
+      "shape": "inner_left"
+    },
+    "4117": {
+      "facing": "east",
+      "half": "bottom",
+      "shape": "inner_right"
+    },
+    "4118": {
+      "facing": "east",
+      "half": "bottom",
+      "shape": "outer_left"
+    },
+    "4119": {
+      "facing": "east",
+      "half": "bottom",
+      "shape": "outer_right"
+    },
+    "4120": {
+      "facing": "south",
+      "half": "top",
+      "shape": "straight"
+    },
+    "4121": {
+      "facing": "south",
+      "half": "top",
+      "shape": "inner_left"
+    },
+    "4122": {
+      "facing": "south",
+      "half": "top",
+      "shape": "inner_right"
+    },
+    "4123": {
+      "facing": "south",
+      "half": "top",
+      "shape": "outer_left"
+    },
+    "4124": {
+      "facing": "south",
+      "half": "top",
+      "shape": "outer_right"
+    },
+    "4125": {
+      "facing": "south",
+      "half": "bottom",
+      "shape": "straight"
+    },
+    "4126": {
+      "facing": "south",
+      "half": "bottom",
+      "shape": "inner_left"
+    },
+    "4127": {
+      "facing": "south",
+      "half": "bottom",
+      "shape": "inner_right"
+    },
+    "4128": {
+      "facing": "south",
+      "half": "bottom",
+      "shape": "outer_left"
+    },
+    "4129": {
+      "facing": "south",
+      "half": "bottom",
+      "shape": "outer_right"
+    },
+    "4130": {
+      "facing": "west",
+      "half": "top",
+      "shape": "straight"
+    },
+    "4131": {
+      "facing": "west",
+      "half": "top",
+      "shape": "inner_left"
+    },
+    "4132": {
+      "facing": "west",
+      "half": "top",
+      "shape": "inner_right"
+    },
+    "4133": {
+      "facing": "west",
+      "half": "top",
+      "shape": "outer_left"
+    },
+    "4134": {
+      "facing": "west",
+      "half": "top",
+      "shape": "outer_right"
+    },
+    "4135": {
+      "facing": "west",
+      "half": "bottom",
+      "shape": "straight"
+    },
+    "4136": {
+      "facing": "west",
+      "half": "bottom",
+      "shape": "inner_left"
+    },
+    "4137": {
+      "facing": "west",
+      "half": "bottom",
+      "shape": "inner_right"
+    },
+    "4138": {
+      "facing": "west",
+      "half": "bottom",
+      "shape": "outer_left"
+    },
+    "4139": {
+      "facing": "west",
+      "half": "bottom",
+      "shape": "outer_right"
+    },
+    "default": 4105
+  }
+}

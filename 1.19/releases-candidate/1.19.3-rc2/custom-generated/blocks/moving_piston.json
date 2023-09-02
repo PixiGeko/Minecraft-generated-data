@@ -1,0 +1,67 @@
+{
+  "properties": {
+    "type": [
+      "normal",
+      "sticky"
+    ],
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "2012": {
+      "type": "normal",
+      "facing": "north"
+    },
+    "2013": {
+      "type": "sticky",
+      "facing": "north"
+    },
+    "2014": {
+      "type": "normal",
+      "facing": "east"
+    },
+    "2015": {
+      "type": "sticky",
+      "facing": "east"
+    },
+    "2016": {
+      "type": "normal",
+      "facing": "south"
+    },
+    "2017": {
+      "type": "sticky",
+      "facing": "south"
+    },
+    "2018": {
+      "type": "normal",
+      "facing": "west"
+    },
+    "2019": {
+      "type": "sticky",
+      "facing": "west"
+    },
+    "2020": {
+      "type": "normal",
+      "facing": "up"
+    },
+    "2021": {
+      "type": "sticky",
+      "facing": "up"
+    },
+    "2022": {
+      "type": "normal",
+      "facing": "down"
+    },
+    "2023": {
+      "type": "sticky",
+      "facing": "down"
+    },
+    "default": 2012
+  }
+}

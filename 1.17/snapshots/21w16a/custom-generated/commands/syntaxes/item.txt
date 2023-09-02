@@ -1,0 +1,8 @@
+item block <pos: block_pos> <slot: item_slot> replace <item: item_stack> <count: integer>
+item block <pos: block_pos> <slot: item_slot> modify <modifier: resource_location>
+item block <pos: block_pos> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+item block <pos: block_pos> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
+item entity <targets: entity> <slot: item_slot> replace <item: item_stack> <count: integer>
+item entity <targets: entity> <slot: item_slot> modify <modifier: resource_location>
+item entity <targets: entity> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+item entity <targets: entity> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>

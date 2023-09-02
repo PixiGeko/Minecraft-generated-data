@@ -1,0 +1,6 @@
+data get block <pos: block_pos> <path: nbt_path> <scale: double>
+data get entity <target: entity> <path: nbt_path> <scale: double>
+data merge block <pos: block_pos> <nbt: nbt>
+data merge entity <target: entity> <nbt: nbt>
+data remove block <pos: block_pos> <path: nbt_path>
+data remove entity <target: entity> <path: nbt_path>

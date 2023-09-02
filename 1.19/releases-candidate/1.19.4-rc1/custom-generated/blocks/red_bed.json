@@ -1,0 +1,101 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "1908": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1909": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1910": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1911": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1912": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1913": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1914": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1915": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1916": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1917": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1918": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1919": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1920": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1921": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1922": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1923": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 1911
+  }
+}

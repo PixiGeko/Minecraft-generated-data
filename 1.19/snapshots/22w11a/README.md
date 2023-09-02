@@ -1,0 +1,12043 @@
+<html><table>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w11a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><th>Id</th><td>22w11a</td></tr>
+<tr><th>Type</th><td>snapshots</td></tr>
+<tr><th>Release time</th><td>2022-03-16T15:55:38+00:00</td></tr>
+<tr><th>SHA1</th><td>4f1500bb4141a58c8692224e1157c986c6a00075</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/4f1500bb4141a58c8692224e1157c986c6a00075/22w11a.json">https://piston-meta.mojang.com/v1/packages/4f1500bb4141a58c8692224e1157c986c6a00075/22w11a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json">https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json</a></td></tr>
+<tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/a13b9678c60b0a84767e6cef0086c65cadac036e/server.jar">https://piston-data.mojang.com/v1/objects/a13b9678c60b0a84767e6cef0086c65cadac036e/server.jar</a></td></tr>
+<tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/c88f9683d7ac6490f01e58f6710b91689bb14b26/server.txt">https://piston-data.mojang.com/v1/objects/c88f9683d7ac6490f01e58f6710b91689bb14b26/server.txt</a></td></tr>
+<tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ae97182a5d2b1f1244c529d0a3b29b33c23ed49c/client.jar">https://piston-data.mojang.com/v1/objects/ae97182a5d2b1f1244c529d0a3b29b33c23ed49c/client.jar</a></td></tr>
+<tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/dbb05f0a348f2c76df6916b6aedcf691fb8c11f0/client.txt">https://piston-data.mojang.com/v1/objects/dbb05f0a348f2c76df6916b6aedcf691fb8c11f0/client.txt</a></td></tr>
+</table></html>
+
+<hr/>
+
+# Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.18.2">1.18.2</a>
+## File structure
+
+<details><summary>data/</summary>
+
+```diff
++  minecraft/advancements/recipes/building_blocks/mangrove_fence.json
++  minecraft/advancements/recipes/building_blocks/mangrove_fence_gate.json
++  minecraft/advancements/recipes/building_blocks/mangrove_planks.json
++  minecraft/advancements/recipes/building_blocks/mangrove_slab.json
++  minecraft/advancements/recipes/building_blocks/mangrove_stairs.json
++  minecraft/advancements/recipes/building_blocks/mangrove_wood.json
++  minecraft/advancements/recipes/building_blocks/mud_brick_slab.json
++  minecraft/advancements/recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
++  minecraft/advancements/recipes/building_blocks/mud_brick_stairs.json
++  minecraft/advancements/recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
++  minecraft/advancements/recipes/building_blocks/mud_bricks.json
++  minecraft/advancements/recipes/building_blocks/muddy_mangrove_roots.json
++  minecraft/advancements/recipes/building_blocks/packed_mud.json
++  minecraft/advancements/recipes/building_blocks/stripped_mangrove_wood.json
++  minecraft/advancements/recipes/decorations/mangrove_sign.json
++  minecraft/advancements/recipes/decorations/mud_brick_wall.json
++  minecraft/advancements/recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
++  minecraft/advancements/recipes/redstone/mangrove_button.json
++  minecraft/advancements/recipes/redstone/mangrove_door.json
++  minecraft/advancements/recipes/redstone/mangrove_pressure_plate.json
++  minecraft/advancements/recipes/redstone/mangrove_trapdoor.json
++  minecraft/advancements/recipes/transportation/mangrove_boat.json
++  minecraft/loot_tables/blocks/mangrove_button.json
++  minecraft/loot_tables/blocks/mangrove_door.json
++  minecraft/loot_tables/blocks/mangrove_fence.json
++  minecraft/loot_tables/blocks/mangrove_fence_gate.json
++  minecraft/loot_tables/blocks/mangrove_leaves.json
++  minecraft/loot_tables/blocks/mangrove_log.json
++  minecraft/loot_tables/blocks/mangrove_planks.json
++  minecraft/loot_tables/blocks/mangrove_pressure_plate.json
++  minecraft/loot_tables/blocks/mangrove_propagule.json
++  minecraft/loot_tables/blocks/mangrove_roots.json
++  minecraft/loot_tables/blocks/mangrove_sign.json
++  minecraft/loot_tables/blocks/mangrove_slab.json
++  minecraft/loot_tables/blocks/mangrove_stairs.json
++  minecraft/loot_tables/blocks/mangrove_trapdoor.json
++  minecraft/loot_tables/blocks/mangrove_wood.json
++  minecraft/loot_tables/blocks/mud.json
++  minecraft/loot_tables/blocks/mud_brick_slab.json
++  minecraft/loot_tables/blocks/mud_brick_stairs.json
++  minecraft/loot_tables/blocks/mud_brick_wall.json
++  minecraft/loot_tables/blocks/mud_bricks.json
++  minecraft/loot_tables/blocks/muddy_mangrove_roots.json
++  minecraft/loot_tables/blocks/ochre_froglight.json
++  minecraft/loot_tables/blocks/packed_mud.json
++  minecraft/loot_tables/blocks/pearlescent_froglight.json
++  minecraft/loot_tables/blocks/potted_mangrove_propagule.json
++  minecraft/loot_tables/blocks/sculk.json
++  minecraft/loot_tables/blocks/sculk_catalyst.json
++  minecraft/loot_tables/blocks/sculk_shrieker.json
++  minecraft/loot_tables/blocks/sculk_vein.json
++  minecraft/loot_tables/blocks/stripped_mangrove_log.json
++  minecraft/loot_tables/blocks/stripped_mangrove_wood.json
++  minecraft/loot_tables/blocks/verdant_froglight.json
++  minecraft/loot_tables/entities/frog.json
++  minecraft/loot_tables/entities/tadpole.json
++  minecraft/recipes/mangrove_boat.json
++  minecraft/recipes/mangrove_button.json
++  minecraft/recipes/mangrove_door.json
++  minecraft/recipes/mangrove_fence.json
++  minecraft/recipes/mangrove_fence_gate.json
++  minecraft/recipes/mangrove_planks.json
++  minecraft/recipes/mangrove_pressure_plate.json
++  minecraft/recipes/mangrove_sign.json
++  minecraft/recipes/mangrove_slab.json
++  minecraft/recipes/mangrove_stairs.json
++  minecraft/recipes/mangrove_trapdoor.json
++  minecraft/recipes/mangrove_wood.json
++  minecraft/recipes/mud_brick_slab.json
++  minecraft/recipes/mud_brick_slab_from_mud_bricks_stonecutting.json
++  minecraft/recipes/mud_brick_stairs.json
++  minecraft/recipes/mud_brick_stairs_from_mud_bricks_stonecutting.json
++  minecraft/recipes/mud_brick_wall.json
++  minecraft/recipes/mud_brick_wall_from_mud_bricks_stonecutting.json
++  minecraft/recipes/mud_bricks.json
++  minecraft/recipes/muddy_mangrove_roots.json
++  minecraft/recipes/packed_mud.json
++  minecraft/recipes/stripped_mangrove_wood.json
++  minecraft/tags/blocks/convertable_to_mud.json
++  minecraft/tags/blocks/dragon_transparent.json
++  minecraft/tags/blocks/frog_prefer_jump_to.json
++  minecraft/tags/blocks/mangrove_logs.json
++  minecraft/tags/blocks/polar_bears_spawnable_on_alternate.json
+-  minecraft/tags/blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++  minecraft/tags/blocks/sculk_replaceable.json
++  minecraft/tags/blocks/sculk_replaceable_world_gen.json
++  minecraft/tags/items/mangrove_logs.json
++  minecraft/tags/worldgen/biome/allows_surface_slime_spawns.json
++  minecraft/tags/worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++  minecraft/tags/worldgen/biome/has_closer_water_fog.json
++  minecraft/tags/worldgen/biome/is_end.json
++  minecraft/tags/worldgen/biome/is_overworld.json
++  minecraft/tags/worldgen/biome/is_savanna.json
++  minecraft/tags/worldgen/biome/more_frequent_drowned_spawns.json
++  minecraft/tags/worldgen/biome/only_allows_snow_and_gold_rabbits.json
++  minecraft/tags/worldgen/biome/plays_underwater_music.json
++  minecraft/tags/worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++  minecraft/tags/worldgen/biome/produces_corals_from_bonemeal.json
++  minecraft/tags/worldgen/biome/reduce_water_ambient_spawns.json
++  minecraft/tags/worldgen/biome/required_ocean_monument_surrounding.json
++  minecraft/tags/worldgen/biome/spawns_cold_variant_frogs.json
++  minecraft/tags/worldgen/biome/spawns_warm_variant_frogs.json
++  minecraft/tags/worldgen/biome/stronghold_biased_to.json
++  minecraft/tags/worldgen/biome/water_on_map_outlines.json
++  minecraft/tags/worldgen/biome/without_patrol_spawns.json
++  minecraft/tags/worldgen/biome/without_wandering_trader_spawns.json
++  minecraft/tags/worldgen/biome/without_zombie_sieges.json
+-  minecraft/tags/worldgen/configured_structure_feature
+-  minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
+-  minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
+-  minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
+-  minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
+-  minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+-  minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
+-  minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+-  minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
+-  minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
+-  minecraft/tags/worldgen/configured_structure_feature/village.json
++  minecraft/tags/worldgen/flat_level_generator_preset
++  minecraft/tags/worldgen/flat_level_generator_preset/visible.json
++  minecraft/tags/worldgen/structure
++  minecraft/tags/worldgen/structure/cats_spawn_as_black.json
++  minecraft/tags/worldgen/structure/cats_spawn_in.json
++  minecraft/tags/worldgen/structure/dolphin_located.json
++  minecraft/tags/worldgen/structure/eye_of_ender_located.json
++  minecraft/tags/worldgen/structure/mineshaft.json
++  minecraft/tags/worldgen/structure/ocean_ruin.json
++  minecraft/tags/worldgen/structure/on_ocean_explorer_maps.json
++  minecraft/tags/worldgen/structure/on_treasure_maps.json
++  minecraft/tags/worldgen/structure/on_woodland_explorer_maps.json
++  minecraft/tags/worldgen/structure/ruined_portal.json
++  minecraft/tags/worldgen/structure/shipwreck.json
++  minecraft/tags/worldgen/structure/village.json
++  minecraft/tags/worldgen/world_preset
++  minecraft/tags/worldgen/world_preset/extended.json
++  minecraft/tags/worldgen/world_preset/normal.json
+```
+
+</details>
+
+<details><summary>assets/</summary>
+
+```diff
++  minecraft/blockstates/frogspawn.json
++  minecraft/blockstates/mangrove_button.json
++  minecraft/blockstates/mangrove_door.json
++  minecraft/blockstates/mangrove_fence.json
++  minecraft/blockstates/mangrove_fence_gate.json
++  minecraft/blockstates/mangrove_leaves.json
++  minecraft/blockstates/mangrove_log.json
++  minecraft/blockstates/mangrove_planks.json
++  minecraft/blockstates/mangrove_pressure_plate.json
++  minecraft/blockstates/mangrove_propagule.json
++  minecraft/blockstates/mangrove_roots.json
++  minecraft/blockstates/mangrove_sign.json
++  minecraft/blockstates/mangrove_slab.json
++  minecraft/blockstates/mangrove_stairs.json
++  minecraft/blockstates/mangrove_trapdoor.json
++  minecraft/blockstates/mangrove_wall_sign.json
++  minecraft/blockstates/mangrove_wood.json
++  minecraft/blockstates/mud.json
++  minecraft/blockstates/mud_brick_slab.json
++  minecraft/blockstates/mud_brick_stairs.json
++  minecraft/blockstates/mud_brick_wall.json
++  minecraft/blockstates/mud_bricks.json
++  minecraft/blockstates/muddy_mangrove_roots.json
++  minecraft/blockstates/ochre_froglight.json
++  minecraft/blockstates/packed_mud.json
++  minecraft/blockstates/pearlescent_froglight.json
++  minecraft/blockstates/potted_mangrove_propagule.json
++  minecraft/blockstates/sculk.json
++  minecraft/blockstates/sculk_catalyst.json
++  minecraft/blockstates/sculk_shrieker.json
++  minecraft/blockstates/sculk_vein.json
++  minecraft/blockstates/stripped_mangrove_log.json
++  minecraft/blockstates/stripped_mangrove_wood.json
++  minecraft/blockstates/verdant_froglight.json
+-  minecraft/models/block/acacia_door_bottom.json
+-  minecraft/models/block/acacia_door_bottom_hinge.json
++  minecraft/models/block/acacia_door_bottom_left.json
++  minecraft/models/block/acacia_door_bottom_left_open.json
++  minecraft/models/block/acacia_door_bottom_right.json
++  minecraft/models/block/acacia_door_bottom_right_open.json
+-  minecraft/models/block/acacia_door_top.json
+-  minecraft/models/block/acacia_door_top_hinge.json
++  minecraft/models/block/acacia_door_top_left.json
++  minecraft/models/block/acacia_door_top_left_open.json
++  minecraft/models/block/acacia_door_top_right.json
++  minecraft/models/block/acacia_door_top_right_open.json
+-  minecraft/models/block/birch_door_bottom.json
+-  minecraft/models/block/birch_door_bottom_hinge.json
++  minecraft/models/block/birch_door_bottom_left.json
++  minecraft/models/block/birch_door_bottom_left_open.json
++  minecraft/models/block/birch_door_bottom_right.json
++  minecraft/models/block/birch_door_bottom_right_open.json
+-  minecraft/models/block/birch_door_top.json
+-  minecraft/models/block/birch_door_top_hinge.json
++  minecraft/models/block/birch_door_top_left.json
++  minecraft/models/block/birch_door_top_left_open.json
++  minecraft/models/block/birch_door_top_right.json
++  minecraft/models/block/birch_door_top_right_open.json
+-  minecraft/models/block/crimson_door_bottom.json
+-  minecraft/models/block/crimson_door_bottom_hinge.json
++  minecraft/models/block/crimson_door_bottom_left.json
++  minecraft/models/block/crimson_door_bottom_left_open.json
++  minecraft/models/block/crimson_door_bottom_right.json
++  minecraft/models/block/crimson_door_bottom_right_open.json
+-  minecraft/models/block/crimson_door_top.json
+-  minecraft/models/block/crimson_door_top_hinge.json
++  minecraft/models/block/crimson_door_top_left.json
++  minecraft/models/block/crimson_door_top_left_open.json
++  minecraft/models/block/crimson_door_top_right.json
++  minecraft/models/block/crimson_door_top_right_open.json
++  minecraft/models/block/cube_north_west_mirrored.json
++  minecraft/models/block/cube_north_west_mirrored_all.json
+-  minecraft/models/block/dark_oak_door_bottom.json
+-  minecraft/models/block/dark_oak_door_bottom_hinge.json
++  minecraft/models/block/dark_oak_door_bottom_left.json
++  minecraft/models/block/dark_oak_door_bottom_left_open.json
++  minecraft/models/block/dark_oak_door_bottom_right.json
++  minecraft/models/block/dark_oak_door_bottom_right_open.json
+-  minecraft/models/block/dark_oak_door_top.json
+-  minecraft/models/block/dark_oak_door_top_hinge.json
++  minecraft/models/block/dark_oak_door_top_left.json
++  minecraft/models/block/dark_oak_door_top_left_open.json
++  minecraft/models/block/dark_oak_door_top_right.json
++  minecraft/models/block/dark_oak_door_top_right_open.json
+-  minecraft/models/block/door_bottom.json
++  minecraft/models/block/door_bottom_left.json
++  minecraft/models/block/door_bottom_left_open.json
+-  minecraft/models/block/door_bottom_rh.json
++  minecraft/models/block/door_bottom_right.json
++  minecraft/models/block/door_bottom_right_open.json
+-  minecraft/models/block/door_top.json
++  minecraft/models/block/door_top_left.json
++  minecraft/models/block/door_top_left_open.json
+-  minecraft/models/block/door_top_rh.json
++  minecraft/models/block/door_top_right.json
++  minecraft/models/block/door_top_right_open.json
++  minecraft/models/block/frogspawn.json
+-  minecraft/models/block/iron_door_bottom.json
+-  minecraft/models/block/iron_door_bottom_hinge.json
++  minecraft/models/block/iron_door_bottom_left.json
++  minecraft/models/block/iron_door_bottom_left_open.json
++  minecraft/models/block/iron_door_bottom_right.json
++  minecraft/models/block/iron_door_bottom_right_open.json
+-  minecraft/models/block/iron_door_top.json
+-  minecraft/models/block/iron_door_top_hinge.json
++  minecraft/models/block/iron_door_top_left.json
++  minecraft/models/block/iron_door_top_left_open.json
++  minecraft/models/block/iron_door_top_right.json
++  minecraft/models/block/iron_door_top_right_open.json
+-  minecraft/models/block/jungle_door_bottom.json
+-  minecraft/models/block/jungle_door_bottom_hinge.json
++  minecraft/models/block/jungle_door_bottom_left.json
++  minecraft/models/block/jungle_door_bottom_left_open.json
++  minecraft/models/block/jungle_door_bottom_right.json
++  minecraft/models/block/jungle_door_bottom_right_open.json
+-  minecraft/models/block/jungle_door_top.json
+-  minecraft/models/block/jungle_door_top_hinge.json
++  minecraft/models/block/jungle_door_top_left.json
++  minecraft/models/block/jungle_door_top_left_open.json
++  minecraft/models/block/jungle_door_top_right.json
++  minecraft/models/block/jungle_door_top_right_open.json
++  minecraft/models/block/mangrove_button.json
++  minecraft/models/block/mangrove_button_inventory.json
++  minecraft/models/block/mangrove_button_pressed.json
++  minecraft/models/block/mangrove_door_bottom_left.json
++  minecraft/models/block/mangrove_door_bottom_left_open.json
++  minecraft/models/block/mangrove_door_bottom_right.json
++  minecraft/models/block/mangrove_door_bottom_right_open.json
++  minecraft/models/block/mangrove_door_top_left.json
++  minecraft/models/block/mangrove_door_top_left_open.json
++  minecraft/models/block/mangrove_door_top_right.json
++  minecraft/models/block/mangrove_door_top_right_open.json
++  minecraft/models/block/mangrove_fence_gate.json
++  minecraft/models/block/mangrove_fence_gate_open.json
++  minecraft/models/block/mangrove_fence_gate_wall.json
++  minecraft/models/block/mangrove_fence_gate_wall_open.json
++  minecraft/models/block/mangrove_fence_inventory.json
++  minecraft/models/block/mangrove_fence_post.json
++  minecraft/models/block/mangrove_fence_side.json
++  minecraft/models/block/mangrove_leaves.json
++  minecraft/models/block/mangrove_log.json
++  minecraft/models/block/mangrove_log_horizontal.json
++  minecraft/models/block/mangrove_planks.json
++  minecraft/models/block/mangrove_pressure_plate.json
++  minecraft/models/block/mangrove_pressure_plate_down.json
++  minecraft/models/block/mangrove_propagule.json
++  minecraft/models/block/mangrove_propagule_hanging_0.json
++  minecraft/models/block/mangrove_propagule_hanging_1.json
++  minecraft/models/block/mangrove_propagule_hanging_2.json
++  minecraft/models/block/mangrove_propagule_hanging_3.json
++  minecraft/models/block/mangrove_propagule_hanging_4.json
++  minecraft/models/block/mangrove_roots.json
++  minecraft/models/block/mangrove_sign.json
++  minecraft/models/block/mangrove_slab.json
++  minecraft/models/block/mangrove_slab_top.json
++  minecraft/models/block/mangrove_stairs.json
++  minecraft/models/block/mangrove_stairs_inner.json
++  minecraft/models/block/mangrove_stairs_outer.json
++  minecraft/models/block/mangrove_trapdoor_bottom.json
++  minecraft/models/block/mangrove_trapdoor_open.json
++  minecraft/models/block/mangrove_trapdoor_top.json
++  minecraft/models/block/mangrove_wood.json
++  minecraft/models/block/mud.json
++  minecraft/models/block/mud_brick_slab.json
++  minecraft/models/block/mud_brick_slab_top.json
++  minecraft/models/block/mud_brick_stairs.json
++  minecraft/models/block/mud_brick_stairs_inner.json
++  minecraft/models/block/mud_brick_stairs_outer.json
++  minecraft/models/block/mud_brick_wall_inventory.json
++  minecraft/models/block/mud_brick_wall_post.json
++  minecraft/models/block/mud_brick_wall_side.json
++  minecraft/models/block/mud_brick_wall_side_tall.json
++  minecraft/models/block/mud_bricks.json
++  minecraft/models/block/mud_bricks_north_west_mirrored.json
++  minecraft/models/block/muddy_mangrove_roots.json
+-  minecraft/models/block/oak_door_bottom.json
+-  minecraft/models/block/oak_door_bottom_hinge.json
++  minecraft/models/block/oak_door_bottom_left.json
++  minecraft/models/block/oak_door_bottom_left_open.json
++  minecraft/models/block/oak_door_bottom_right.json
++  minecraft/models/block/oak_door_bottom_right_open.json
+-  minecraft/models/block/oak_door_top.json
+-  minecraft/models/block/oak_door_top_hinge.json
++  minecraft/models/block/oak_door_top_left.json
++  minecraft/models/block/oak_door_top_left_open.json
++  minecraft/models/block/oak_door_top_right.json
++  minecraft/models/block/oak_door_top_right_open.json
++  minecraft/models/block/ochre_froglight.json
++  minecraft/models/block/ochre_froglight_horizontal.json
++  minecraft/models/block/packed_mud.json
++  minecraft/models/block/pearlescent_froglight.json
++  minecraft/models/block/pearlescent_froglight_horizontal.json
++  minecraft/models/block/potted_mangrove_propagule.json
++  minecraft/models/block/sculk.json
++  minecraft/models/block/sculk_catalyst.json
++  minecraft/models/block/sculk_catalyst_bloom.json
++  minecraft/models/block/sculk_mirrored.json
++  minecraft/models/block/sculk_shrieker.json
++  minecraft/models/block/sculk_vein.json
+-  minecraft/models/block/spruce_door_bottom.json
+-  minecraft/models/block/spruce_door_bottom_hinge.json
++  minecraft/models/block/spruce_door_bottom_left.json
++  minecraft/models/block/spruce_door_bottom_left_open.json
++  minecraft/models/block/spruce_door_bottom_right.json
++  minecraft/models/block/spruce_door_bottom_right_open.json
+-  minecraft/models/block/spruce_door_top.json
+-  minecraft/models/block/spruce_door_top_hinge.json
++  minecraft/models/block/spruce_door_top_left.json
++  minecraft/models/block/spruce_door_top_left_open.json
++  minecraft/models/block/spruce_door_top_right.json
++  minecraft/models/block/spruce_door_top_right_open.json
++  minecraft/models/block/stripped_mangrove_log.json
++  minecraft/models/block/stripped_mangrove_log_horizontal.json
++  minecraft/models/block/stripped_mangrove_wood.json
++  minecraft/models/block/verdant_froglight.json
++  minecraft/models/block/verdant_froglight_horizontal.json
+-  minecraft/models/block/warped_door_bottom.json
+-  minecraft/models/block/warped_door_bottom_hinge.json
++  minecraft/models/block/warped_door_bottom_left.json
++  minecraft/models/block/warped_door_bottom_left_open.json
++  minecraft/models/block/warped_door_bottom_right.json
++  minecraft/models/block/warped_door_bottom_right_open.json
+-  minecraft/models/block/warped_door_top.json
+-  minecraft/models/block/warped_door_top_hinge.json
++  minecraft/models/block/warped_door_top_left.json
++  minecraft/models/block/warped_door_top_left_open.json
++  minecraft/models/block/warped_door_top_right.json
++  minecraft/models/block/warped_door_top_right_open.json
++  minecraft/models/item/frog_spawn_egg.json
++  minecraft/models/item/frogspawn.json
++  minecraft/models/item/mangrove_boat.json
++  minecraft/models/item/mangrove_button.json
++  minecraft/models/item/mangrove_door.json
++  minecraft/models/item/mangrove_fence.json
++  minecraft/models/item/mangrove_fence_gate.json
++  minecraft/models/item/mangrove_leaves.json
++  minecraft/models/item/mangrove_log.json
++  minecraft/models/item/mangrove_planks.json
++  minecraft/models/item/mangrove_pressure_plate.json
++  minecraft/models/item/mangrove_propagule.json
++  minecraft/models/item/mangrove_roots.json
++  minecraft/models/item/mangrove_sign.json
++  minecraft/models/item/mangrove_slab.json
++  minecraft/models/item/mangrove_stairs.json
++  minecraft/models/item/mangrove_trapdoor.json
++  minecraft/models/item/mangrove_wood.json
++  minecraft/models/item/mud.json
++  minecraft/models/item/mud_brick_slab.json
++  minecraft/models/item/mud_brick_stairs.json
++  minecraft/models/item/mud_brick_wall.json
++  minecraft/models/item/mud_bricks.json
++  minecraft/models/item/muddy_mangrove_roots.json
++  minecraft/models/item/ochre_froglight.json
++  minecraft/models/item/packed_mud.json
++  minecraft/models/item/pearlescent_froglight.json
++  minecraft/models/item/sculk.json
++  minecraft/models/item/sculk_catalyst.json
++  minecraft/models/item/sculk_shrieker.json
++  minecraft/models/item/sculk_vein.json
++  minecraft/models/item/stripped_mangrove_log.json
++  minecraft/models/item/stripped_mangrove_wood.json
++  minecraft/models/item/tadpole_bucket.json
++  minecraft/models/item/tadpole_spawn_egg.json
++  minecraft/models/item/verdant_froglight.json
++  minecraft/particles/sculk_charge.json
++  minecraft/particles/sculk_charge_pop.json
++  minecraft/particles/sculk_soul.json
++  minecraft/textures/block/frogspawn.png
++  minecraft/textures/block/mangrove_door_bottom.png
++  minecraft/textures/block/mangrove_door_top.png
++  minecraft/textures/block/mangrove_leaves.png
++  minecraft/textures/block/mangrove_log.png
++  minecraft/textures/block/mangrove_log_top.png
++  minecraft/textures/block/mangrove_planks.png
++  minecraft/textures/block/mangrove_propagule.png
++  minecraft/textures/block/mangrove_propagule_hanging.png
++  minecraft/textures/block/mangrove_roots_side.png
++  minecraft/textures/block/mangrove_roots_top.png
++  minecraft/textures/block/mangrove_trapdoor.png
++  minecraft/textures/block/mud.png
++  minecraft/textures/block/mud_bricks.png
++  minecraft/textures/block/muddy_mangrove_roots_side.png
++  minecraft/textures/block/muddy_mangrove_roots_top.png
++  minecraft/textures/block/ochre_froglight_side.png
++  minecraft/textures/block/ochre_froglight_top.png
++  minecraft/textures/block/packed_mud.png
++  minecraft/textures/block/pearlescent_froglight_side.png
++  minecraft/textures/block/pearlescent_froglight_top.png
++  minecraft/textures/block/sculk.png
++  minecraft/textures/block/sculk.png.mcmeta
++  minecraft/textures/block/sculk_catalyst_bottom.png
++  minecraft/textures/block/sculk_catalyst_side.png
++  minecraft/textures/block/sculk_catalyst_side_bloom.png
++  minecraft/textures/block/sculk_catalyst_side_bloom.png.mcmeta
++  minecraft/textures/block/sculk_catalyst_top.png
++  minecraft/textures/block/sculk_catalyst_top_bloom.png
++  minecraft/textures/block/sculk_catalyst_top_bloom.png.mcmeta
++  minecraft/textures/block/sculk_shrieker_bottom.png
++  minecraft/textures/block/sculk_shrieker_inner_top.png
++  minecraft/textures/block/sculk_shrieker_inner_top.png.mcmeta
++  minecraft/textures/block/sculk_shrieker_side.png
++  minecraft/textures/block/sculk_shrieker_top.png
++  minecraft/textures/block/sculk_vein.png
++  minecraft/textures/block/sculk_vein.png.mcmeta
++  minecraft/textures/block/stripped_mangrove_log.png
++  minecraft/textures/block/stripped_mangrove_log_top.png
++  minecraft/textures/block/verdant_froglight_side.png
++  minecraft/textures/block/verdant_froglight_top.png
++  minecraft/textures/entity/boat/mangrove.png
++  minecraft/textures/entity/frog
++  minecraft/textures/entity/frog/cold_frog.png
++  minecraft/textures/entity/frog/temperate_frog.png
++  minecraft/textures/entity/frog/warm_frog.png
++  minecraft/textures/entity/signs/mangrove.png
++  minecraft/textures/entity/tadpole
++  minecraft/textures/entity/tadpole/tadpole.png
++  minecraft/textures/item/mangrove_boat.png
++  minecraft/textures/item/mangrove_door.png
++  minecraft/textures/item/mangrove_propagule.png
++  minecraft/textures/item/mangrove_sign.png
++  minecraft/textures/item/tadpole_bucket.png
++  minecraft/textures/particle/sculk_charge_0.png
++  minecraft/textures/particle/sculk_charge_1.png
++  minecraft/textures/particle/sculk_charge_2.png
++  minecraft/textures/particle/sculk_charge_3.png
++  minecraft/textures/particle/sculk_charge_4.png
++  minecraft/textures/particle/sculk_charge_5.png
++  minecraft/textures/particle/sculk_charge_6.png
++  minecraft/textures/particle/sculk_charge_pop_0.png
++  minecraft/textures/particle/sculk_charge_pop_1.png
++  minecraft/textures/particle/sculk_charge_pop_2.png
++  minecraft/textures/particle/sculk_charge_pop_3.png
++  minecraft/textures/particle/sculk_soul_0.png
++  minecraft/textures/particle/sculk_soul_1.png
++  minecraft/textures/particle/sculk_soul_10.png
++  minecraft/textures/particle/sculk_soul_2.png
++  minecraft/textures/particle/sculk_soul_3.png
++  minecraft/textures/particle/sculk_soul_4.png
++  minecraft/textures/particle/sculk_soul_5.png
++  minecraft/textures/particle/sculk_soul_6.png
++  minecraft/textures/particle/sculk_soul_7.png
++  minecraft/textures/particle/sculk_soul_8.png
++  minecraft/textures/particle/sculk_soul_9.png
+```
+
+</details>
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++  reports/biome_parameters
++  reports/biome_parameters/minecraft
++  reports/biome_parameters/minecraft/nether.json
++  reports/biome_parameters/minecraft/overworld.json
+-  reports/worldgen/minecraft/dimension
+-  reports/worldgen/minecraft/dimension/overworld.json
+-  reports/worldgen/minecraft/dimension/the_end.json
+-  reports/worldgen/minecraft/dimension/the_nether.json
++  reports/worldgen/minecraft/worldgen/biome/deep_dark.json
++  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json
++  reports/worldgen/minecraft/worldgen/configured_feature/sculk_vein.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json
+-  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld/jaggedness.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld/offset.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld/ridges_folded.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/depth.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/factor.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/offset.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
++  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/desert.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/overworld.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/the_void.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
++  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/water_world.json
++  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json
++  reports/worldgen/minecraft/worldgen/placed_feature/sculk_vein.json
++  reports/worldgen/minecraft/worldgen/structure
++  reports/worldgen/minecraft/worldgen/structure/bastion_remnant.json
++  reports/worldgen/minecraft/worldgen/structure/buried_treasure.json
++  reports/worldgen/minecraft/worldgen/structure/desert_pyramid.json
++  reports/worldgen/minecraft/worldgen/structure/end_city.json
++  reports/worldgen/minecraft/worldgen/structure/fortress.json
++  reports/worldgen/minecraft/worldgen/structure/igloo.json
++  reports/worldgen/minecraft/worldgen/structure/jungle_pyramid.json
++  reports/worldgen/minecraft/worldgen/structure/mansion.json
++  reports/worldgen/minecraft/worldgen/structure/mineshaft.json
++  reports/worldgen/minecraft/worldgen/structure/mineshaft_mesa.json
++  reports/worldgen/minecraft/worldgen/structure/monument.json
++  reports/worldgen/minecraft/worldgen/structure/nether_fossil.json
++  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_cold.json
++  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_warm.json
++  reports/worldgen/minecraft/worldgen/structure/pillager_outpost.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_desert.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_jungle.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_mountain.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_nether.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_ocean.json
++  reports/worldgen/minecraft/worldgen/structure/ruined_portal_swamp.json
++  reports/worldgen/minecraft/worldgen/structure/shipwreck.json
++  reports/worldgen/minecraft/worldgen/structure/shipwreck_beached.json
++  reports/worldgen/minecraft/worldgen/structure/stronghold.json
++  reports/worldgen/minecraft/worldgen/structure/swamp_hut.json
++  reports/worldgen/minecraft/worldgen/structure/village_desert.json
++  reports/worldgen/minecraft/worldgen/structure/village_plains.json
++  reports/worldgen/minecraft/worldgen/structure/village_savanna.json
++  reports/worldgen/minecraft/worldgen/structure/village_snowy.json
++  reports/worldgen/minecraft/worldgen/structure/village_taiga.json
++  reports/worldgen/minecraft/worldgen/world_preset
++  reports/worldgen/minecraft/worldgen/world_preset/amplified.json
++  reports/worldgen/minecraft/worldgen/world_preset/debug_all_block_states.json
++  reports/worldgen/minecraft/worldgen/world_preset/flat.json
++  reports/worldgen/minecraft/worldgen/world_preset/large_biomes.json
++  reports/worldgen/minecraft/worldgen/world_preset/normal.json
++  reports/worldgen/minecraft/worldgen/world_preset/single_biome_surface.json
+```
+
+</details>
+
+## Registries
+
+<details><summary>list</summary>
+
+```diff
+- worldgen/structure_feature.txt
++ command_argument_type.txt
++ worldgen/structure_type.txt
+```
+
+</details>
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:tongue
++ minecraft:swim
++ minecraft:lay_spawn
+```
+
+</details>
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:mangrove_planks
++ minecraft:mangrove_propagule
++ minecraft:mangrove_log
++ minecraft:mangrove_roots
++ minecraft:muddy_mangrove_roots
++ minecraft:stripped_mangrove_log
++ minecraft:mangrove_wood
++ minecraft:stripped_mangrove_wood
++ minecraft:mangrove_leaves
++ minecraft:mangrove_sign
++ minecraft:mangrove_wall_sign
++ minecraft:mangrove_pressure_plate
++ minecraft:mangrove_trapdoor
++ minecraft:packed_mud
++ minecraft:mud_bricks
++ minecraft:mud_brick_stairs
++ minecraft:potted_mangrove_propagule
++ minecraft:mangrove_button
++ minecraft:mangrove_stairs
++ minecraft:mangrove_slab
++ minecraft:mud_brick_slab
++ minecraft:mangrove_fence_gate
++ minecraft:mangrove_fence
++ minecraft:mangrove_door
++ minecraft:mud_brick_wall
++ minecraft:sculk
++ minecraft:sculk_vein
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
++ minecraft:mud
++ minecraft:ochre_froglight
++ minecraft:verdant_froglight
++ minecraft:pearlescent_froglight
++ minecraft:frogspawn
+```
+
+</details>
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
+```
+
+</details>
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:frog
++ minecraft:tadpole
+```
+
+</details>
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:entity_dying
+```
+
+</details>
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:mud
++ minecraft:mangrove_planks
++ minecraft:mangrove_propagule
++ minecraft:mangrove_log
++ minecraft:mangrove_roots
++ minecraft:muddy_mangrove_roots
++ minecraft:stripped_mangrove_log
++ minecraft:stripped_mangrove_wood
++ minecraft:mangrove_wood
++ minecraft:mangrove_leaves
++ minecraft:mangrove_slab
++ minecraft:mud_brick_slab
++ minecraft:mangrove_fence
++ minecraft:packed_mud
++ minecraft:mud_bricks
++ minecraft:mud_brick_stairs
++ minecraft:sculk
++ minecraft:sculk_vein
++ minecraft:sculk_catalyst
++ minecraft:mud_brick_wall
++ minecraft:mangrove_stairs
++ minecraft:mangrove_button
++ minecraft:mangrove_pressure_plate
++ minecraft:mangrove_door
++ minecraft:mangrove_trapdoor
++ minecraft:mangrove_fence_gate
++ minecraft:mangrove_boat
++ minecraft:mangrove_sign
++ minecraft:tadpole_bucket
++ minecraft:frog_spawn_egg
++ minecraft:tadpole_spawn_egg
++ minecraft:sculk_shrieker
++ minecraft:ochre_froglight
++ minecraft:verdant_froglight
++ minecraft:pearlescent_froglight
++ minecraft:frogspawn
+```
+
+</details>
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:is_in_water
++ minecraft:is_pregnant
+```
+
+</details>
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:sculk_soul
++ minecraft:sculk_charge
++ minecraft:sculk_charge_pop
+```
+
+</details>
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:frog_temptations
++ minecraft:frog_attackables
++ minecraft:is_in_water
+```
+
+</details>
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:item.bucket.empty_tadpole
++ minecraft:item.bucket.fill_tadpole
++ minecraft:block.froglight.break
++ minecraft:block.froglight.fall
++ minecraft:block.froglight.hit
++ minecraft:block.froglight.place
++ minecraft:block.froglight.step
++ minecraft:block.frogspawn.step
++ minecraft:block.frogspawn.break
++ minecraft:block.frogspawn.fall
++ minecraft:block.frogspawn.hatch
++ minecraft:block.frogspawn.hit
++ minecraft:block.frogspawn.place
++ minecraft:entity.frog.ambient
++ minecraft:entity.frog.death
++ minecraft:entity.frog.eat
++ minecraft:entity.frog.hurt
++ minecraft:entity.frog.lay_spawn
++ minecraft:entity.frog.long_jump
++ minecraft:entity.frog.step
++ minecraft:entity.frog.tounge
++ minecraft:block.mangrove_roots.break
++ minecraft:block.mangrove_roots.fall
++ minecraft:block.mangrove_roots.hit
++ minecraft:block.mangrove_roots.place
++ minecraft:block.mangrove_roots.step
++ minecraft:block.mud.break
++ minecraft:block.mud.fall
++ minecraft:block.mud.hit
++ minecraft:block.mud.place
++ minecraft:block.mud.step
++ minecraft:block.mud_bricks.break
++ minecraft:block.mud_bricks.fall
++ minecraft:block.mud_bricks.hit
++ minecraft:block.mud_bricks.place
++ minecraft:block.mud_bricks.step
++ minecraft:block.muddy_mangrove_roots.break
++ minecraft:block.muddy_mangrove_roots.fall
++ minecraft:block.muddy_mangrove_roots.hit
++ minecraft:block.muddy_mangrove_roots.place
++ minecraft:block.muddy_mangrove_roots.step
++ minecraft:music.overworld.deep_dark
++ minecraft:block.packed_mud.break
++ minecraft:block.packed_mud.fall
++ minecraft:block.packed_mud.hit
++ minecraft:block.packed_mud.place
++ minecraft:block.packed_mud.step
++ minecraft:block.sculk.spread
++ minecraft:block.sculk.charge
++ minecraft:block.sculk.break
++ minecraft:block.sculk.fall
++ minecraft:block.sculk.hit
++ minecraft:block.sculk.place
++ minecraft:block.sculk.step
++ minecraft:block.sculk_catalyst.bloom
++ minecraft:block.sculk_catalyst.break
++ minecraft:block.sculk_catalyst.fall
++ minecraft:block.sculk_catalyst.hit
++ minecraft:block.sculk_catalyst.place
++ minecraft:block.sculk_catalyst.step
++ minecraft:block.sculk_shrieker.break
++ minecraft:block.sculk_shrieker.fall
++ minecraft:block.sculk_shrieker.hit
++ minecraft:block.sculk_shrieker.place
++ minecraft:block.sculk_shrieker.step
++ minecraft:block.sculk_vein.break
++ minecraft:block.sculk_vein.fall
++ minecraft:block.sculk_vein.hit
++ minecraft:block.sculk_vein.place
++ minecraft:block.sculk_vein.step
++ minecraft:entity.tadpole.death
++ minecraft:entity.tadpole.eat
++ minecraft:entity.tadpole.flop
++ minecraft:entity.tadpole.grow_up
++ minecraft:entity.tadpole.hurt
++ minecraft:entity.tadpole.step
+```
+
+</details>
+
+<details><summary>worldgen/density_function_type.txt</summary>
+
+```diff
+- minecraft:terrain_shaper_spline
+```
+
+</details>
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:sculk_patch
+```
+
+</details>
+
+## Tags
+
+<details><summary>list</summary>
+
+```diff
+- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
+- worldgen/configured_structure_feature/dolphin_located.json
+- worldgen/configured_structure_feature/eye_of_ender_located.json
+- worldgen/configured_structure_feature/mineshaft.json
+- worldgen/configured_structure_feature/ocean_ruin.json
+- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+- worldgen/configured_structure_feature/on_treasure_maps.json
+- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+- worldgen/configured_structure_feature/ruined_portal.json
+- worldgen/configured_structure_feature/shipwreck.json
+- worldgen/configured_structure_feature/village.json
++ blocks/convertable_to_mud.json
++ blocks/dragon_transparent.json
++ blocks/frog_prefer_jump_to.json
++ blocks/mangrove_logs.json
++ blocks/polar_bears_spawnable_on_alternate.json
++ blocks/sculk_replaceable.json
++ blocks/sculk_replaceable_world_gen.json
++ items/mangrove_logs.json
++ worldgen/biome/allows_surface_slime_spawns.json
++ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++ worldgen/biome/has_closer_water_fog.json
++ worldgen/biome/is_end.json
++ worldgen/biome/is_overworld.json
++ worldgen/biome/is_savanna.json
++ worldgen/biome/more_frequent_drowned_spawns.json
++ worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/plays_underwater_music.json
++ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++ worldgen/biome/produces_corals_from_bonemeal.json
++ worldgen/biome/reduce_water_ambient_spawns.json
++ worldgen/biome/required_ocean_monument_surrounding.json
++ worldgen/biome/spawns_cold_variant_frogs.json
++ worldgen/biome/spawns_warm_variant_frogs.json
++ worldgen/biome/stronghold_biased_to.json
++ worldgen/biome/water_on_map_outlines.json
++ worldgen/biome/without_patrol_spawns.json
++ worldgen/biome/without_wandering_trader_spawns.json
++ worldgen/biome/without_zombie_sieges.json
++ worldgen/flat_level_generator_preset/visible.json
++ worldgen/structure/cats_spawn_as_black.json
++ worldgen/structure/cats_spawn_in.json
++ worldgen/structure/dolphin_located.json
++ worldgen/structure/eye_of_ender_located.json
++ worldgen/structure/mineshaft.json
++ worldgen/structure/ocean_ruin.json
++ worldgen/structure/on_ocean_explorer_maps.json
++ worldgen/structure/on_treasure_maps.json
++ worldgen/structure/on_woodland_explorer_maps.json
++ worldgen/structure/ruined_portal.json
++ worldgen/structure/shipwreck.json
++ worldgen/structure/village.json
++ worldgen/world_preset/extended.json
++ worldgen/world_preset/normal.json
+```
+
+</details>
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
++ minecraft:mud
+```
+
+</details>
+
+<details><summary>blocks/fence_gates.json</summary>
+
+```diff
++ minecraft:mangrove_fence_gate
+```
+
+</details>
+
+<details><summary>blocks/flowers.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+<details><summary>blocks/flower_pots.json</summary>
+
+```diff
++ minecraft:potted_mangrove_propagule
+```
+
+</details>
+
+<details><summary>blocks/inside_step_sound_blocks.json</summary>
+
+```diff
++ minecraft:sculk_vein
+```
+
+</details>
+
+<details><summary>blocks/leaves.json</summary>
+
+```diff
++ minecraft:mangrove_leaves
+```
+
+</details>
+
+<details><summary>blocks/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:mangrove_logs
+```
+
+</details>
+
+<details><summary>blocks/mineable/axe.json</summary>
+
+```diff
++ minecraft:mangrove_roots
+```
+
+</details>
+
+<details><summary>blocks/mineable/hoe.json</summary>
+
+```diff
++ minecraft:sculk
++ minecraft:sculk_catalyst
++ minecraft:sculk_vein
++ minecraft:sculk_shrieker
+```
+
+</details>
+
+<details><summary>blocks/mineable/pickaxe.json</summary>
+
+```diff
++ minecraft:mud_bricks
++ minecraft:mud_brick_stairs
++ minecraft:mud_brick_slab
++ minecraft:packed_mud
+```
+
+</details>
+
+<details><summary>blocks/mineable/shovel.json</summary>
+
+```diff
++ minecraft:muddy_mangrove_roots
++ minecraft:mud
+```
+
+</details>
+
+<details><summary>blocks/planks.json</summary>
+
+```diff
++ minecraft:mangrove_planks
+```
+
+</details>
+
+<details><summary>blocks/saplings.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ minecraft:mud_brick_slab
+```
+
+</details>
+
+<details><summary>blocks/stairs.json</summary>
+
+```diff
++ minecraft:mud_brick_stairs
+```
+
+</details>
+
+<details><summary>blocks/standing_signs.json</summary>
+
+```diff
++ minecraft:mangrove_sign
+```
+
+</details>
+
+<details><summary>blocks/walls.json</summary>
+
+```diff
++ minecraft:mud_brick_wall
+```
+
+</details>
+
+<details><summary>blocks/wall_signs.json</summary>
+
+```diff
++ minecraft:mangrove_wall_sign
+```
+
+</details>
+
+<details><summary>blocks/wither_immune.json</summary>
+
+```diff
++ minecraft:light
+```
+
+</details>
+
+<details><summary>blocks/wooden_buttons.json</summary>
+
+```diff
++ minecraft:mangrove_button
+```
+
+</details>
+
+<details><summary>blocks/wooden_doors.json</summary>
+
+```diff
++ minecraft:mangrove_door
+```
+
+</details>
+
+<details><summary>blocks/wooden_fences.json</summary>
+
+```diff
++ minecraft:mangrove_fence
+```
+
+</details>
+
+<details><summary>blocks/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:mangrove_pressure_plate
+```
+
+</details>
+
+<details><summary>blocks/wooden_slabs.json</summary>
+
+```diff
++ minecraft:mangrove_slab
+```
+
+</details>
+
+<details><summary>blocks/wooden_stairs.json</summary>
+
+```diff
++ minecraft:mangrove_stairs
+```
+
+</details>
+
+<details><summary>blocks/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:mangrove_trapdoor
+```
+
+</details>
+
+<details><summary>entity_types/axolotl_hunt_targets.json</summary>
+
+```diff
++ minecraft:tadpole
+```
+
+</details>
+
+<details><summary>items/flowers.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+<details><summary>items/leaves.json</summary>
+
+```diff
++ minecraft:mangrove_leaves
+```
+
+</details>
+
+<details><summary>items/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:mangrove_logs
+```
+
+</details>
+
+<details><summary>items/planks.json</summary>
+
+```diff
++ minecraft:mangrove_planks
+```
+
+</details>
+
+<details><summary>items/saplings.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+<details><summary>items/signs.json</summary>
+
+```diff
++ minecraft:mangrove_sign
+```
+
+</details>
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ minecraft:mud_brick_slab
+```
+
+</details>
+
+<details><summary>items/stairs.json</summary>
+
+```diff
++ minecraft:mud_brick_stairs
+```
+
+</details>
+
+<details><summary>items/walls.json</summary>
+
+```diff
++ minecraft:mud_brick_wall
+```
+
+</details>
+
+<details><summary>items/wooden_buttons.json</summary>
+
+```diff
++ minecraft:mangrove_button
+```
+
+</details>
+
+<details><summary>items/wooden_doors.json</summary>
+
+```diff
++ minecraft:mangrove_door
+```
+
+</details>
+
+<details><summary>items/wooden_fences.json</summary>
+
+```diff
++ minecraft:mangrove_fence
+```
+
+</details>
+
+<details><summary>items/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:mangrove_pressure_plate
+```
+
+</details>
+
+<details><summary>items/wooden_slabs.json</summary>
+
+```diff
++ minecraft:mangrove_slab
+```
+
+</details>
+
+<details><summary>items/wooden_stairs.json</summary>
+
+```diff
++ minecraft:mangrove_stairs
+```
+
+</details>
+
+<details><summary>items/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:mangrove_trapdoor
+```
+
+</details>
+
+<details><summary>worldgen/biome/has_structure/stronghold.json</summary>
+
+```diff
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
++ #minecraft:is_overworld
+```
+
+</details>
+
+## Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/mangrove_fence.json
++ recipes/building_blocks/mangrove_fence_gate.json
++ recipes/building_blocks/mangrove_planks.json
++ recipes/building_blocks/mangrove_slab.json
++ recipes/building_blocks/mangrove_stairs.json
++ recipes/building_blocks/mangrove_wood.json
++ recipes/building_blocks/muddy_mangrove_roots.json
++ recipes/building_blocks/mud_bricks.json
++ recipes/building_blocks/mud_brick_slab.json
++ recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
++ recipes/building_blocks/mud_brick_stairs.json
++ recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
++ recipes/building_blocks/packed_mud.json
++ recipes/building_blocks/stripped_mangrove_wood.json
++ recipes/decorations/mangrove_sign.json
++ recipes/decorations/mud_brick_wall.json
++ recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
++ recipes/redstone/mangrove_button.json
++ recipes/redstone/mangrove_door.json
++ recipes/redstone/mangrove_pressure_plate.json
++ recipes/redstone/mangrove_trapdoor.json
++ recipes/transportation/mangrove_boat.json
+```
+
+</details>
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/mangrove_button.json
++ blocks/mangrove_door.json
++ blocks/mangrove_fence.json
++ blocks/mangrove_fence_gate.json
++ blocks/mangrove_leaves.json
++ blocks/mangrove_log.json
++ blocks/mangrove_planks.json
++ blocks/mangrove_pressure_plate.json
++ blocks/mangrove_propagule.json
++ blocks/mangrove_roots.json
++ blocks/mangrove_sign.json
++ blocks/mangrove_slab.json
++ blocks/mangrove_stairs.json
++ blocks/mangrove_trapdoor.json
++ blocks/mangrove_wood.json
++ blocks/mud.json
++ blocks/muddy_mangrove_roots.json
++ blocks/mud_bricks.json
++ blocks/mud_brick_slab.json
++ blocks/mud_brick_stairs.json
++ blocks/mud_brick_wall.json
++ blocks/ochre_froglight.json
++ blocks/packed_mud.json
++ blocks/pearlescent_froglight.json
++ blocks/potted_mangrove_propagule.json
++ blocks/sculk.json
++ blocks/sculk_catalyst.json
++ blocks/sculk_shrieker.json
++ blocks/sculk_vein.json
++ blocks/stripped_mangrove_log.json
++ blocks/stripped_mangrove_wood.json
++ blocks/verdant_froglight.json
++ entities/frog.json
++ entities/tadpole.json
+```
+
+</details>
+
+<details><summary>particles.txt</summary>
+
+```diff
++ sculk_charge.json
++ sculk_charge_pop.json
++ sculk_soul.json
+```
+
+</details>
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ mangrove_boat.json
++ mangrove_button.json
++ mangrove_door.json
++ mangrove_fence.json
++ mangrove_fence_gate.json
++ mangrove_planks.json
++ mangrove_pressure_plate.json
++ mangrove_sign.json
++ mangrove_slab.json
++ mangrove_stairs.json
++ mangrove_trapdoor.json
++ mangrove_wood.json
++ muddy_mangrove_roots.json
++ mud_bricks.json
++ mud_brick_slab.json
++ mud_brick_slab_from_mud_bricks_stonecutting.json
++ mud_brick_stairs.json
++ mud_brick_stairs_from_mud_bricks_stonecutting.json
++ mud_brick_wall.json
++ mud_brick_wall_from_mud_bricks_stonecutting.json
++ packed_mud.json
++ stripped_mangrove_wood.json
+```
+
+</details>
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/froglight/break1.ogg
++ block/froglight/break2.ogg
++ block/froglight/break3.ogg
++ block/froglight/break4.ogg
++ block/froglight/step1.ogg
++ block/froglight/step2.ogg
++ block/froglight/step3.ogg
++ block/froglight/step4.ogg
++ block/froglight/step5.ogg
++ block/froglight/step6.ogg
++ block/frogspawn/break1.ogg
++ block/frogspawn/break2.ogg
++ block/frogspawn/break3.ogg
++ block/frogspawn/break4.ogg
++ block/frogspawn/hatch1.ogg
++ block/frogspawn/hatch2.ogg
++ block/frogspawn/hatch3.ogg
++ block/frogspawn/hatch4.ogg
++ block/frogspawn/hatch5.ogg
++ block/frogspawn/step1.ogg
++ block/frogspawn/step2.ogg
++ block/frogspawn/step3.ogg
++ block/frogspawn/step4.ogg
++ block/frogspawn/step5.ogg
++ block/frogspawn/step6.ogg
++ block/mangrove_roots/break1.ogg
++ block/mangrove_roots/break2.ogg
++ block/mangrove_roots/break3.ogg
++ block/mangrove_roots/break4.ogg
++ block/mangrove_roots/break5.ogg
++ block/mangrove_roots/break6.ogg
++ block/mangrove_roots/step1.ogg
++ block/mangrove_roots/step2.ogg
++ block/mangrove_roots/step3.ogg
++ block/mangrove_roots/step4.ogg
++ block/mangrove_roots/step5.ogg
++ block/mangrove_roots/step6.ogg
++ block/mud/break1.ogg
++ block/mud/break2.ogg
++ block/mud/break3.ogg
++ block/mud/break4.ogg
++ block/mud/break5.ogg
++ block/mud/break6.ogg
++ block/mud/step1.ogg
++ block/mud/step2.ogg
++ block/mud/step3.ogg
++ block/mud/step4.ogg
++ block/mud/step5.ogg
++ block/mud/step6.ogg
++ block/mud_bricks/break1.ogg
++ block/mud_bricks/break2.ogg
++ block/mud_bricks/break3.ogg
++ block/mud_bricks/break4.ogg
++ block/mud_bricks/break5.ogg
++ block/mud_bricks/break6.ogg
++ block/mud_bricks/step1.ogg
++ block/mud_bricks/step2.ogg
++ block/mud_bricks/step3.ogg
++ block/mud_bricks/step4.ogg
++ block/mud_bricks/step5.ogg
++ block/mud_bricks/step6.ogg
++ block/muddy_mangrove_roots/break1.ogg
++ block/muddy_mangrove_roots/break2.ogg
++ block/muddy_mangrove_roots/break3.ogg
++ block/muddy_mangrove_roots/break4.ogg
++ block/muddy_mangrove_roots/break5.ogg
++ block/muddy_mangrove_roots/break6.ogg
++ block/muddy_mangrove_roots/step1.ogg
++ block/muddy_mangrove_roots/step2.ogg
++ block/muddy_mangrove_roots/step3.ogg
++ block/muddy_mangrove_roots/step4.ogg
++ block/muddy_mangrove_roots/step5.ogg
++ block/muddy_mangrove_roots/step6.ogg
++ block/packed_mud/break1.ogg
++ block/packed_mud/break2.ogg
++ block/packed_mud/break3.ogg
++ block/packed_mud/break4.ogg
++ block/packed_mud/break5.ogg
++ block/packed_mud/break6.ogg
++ block/packed_mud/step1.ogg
++ block/packed_mud/step2.ogg
++ block/packed_mud/step3.ogg
++ block/packed_mud/step4.ogg
++ block/packed_mud/step5.ogg
++ block/packed_mud/step6.ogg
++ block/sculk/break1.ogg
++ block/sculk/break10.ogg
++ block/sculk/break11.ogg
++ block/sculk/break12.ogg
++ block/sculk/break13.ogg
++ block/sculk/break14.ogg
++ block/sculk/break2.ogg
++ block/sculk/break3.ogg
++ block/sculk/break4.ogg
++ block/sculk/break5.ogg
++ block/sculk/break6.ogg
++ block/sculk/break7.ogg
++ block/sculk/break8.ogg
++ block/sculk/break9.ogg
++ block/sculk/charge1.ogg
++ block/sculk/charge2.ogg
++ block/sculk/charge3.ogg
++ block/sculk/charge4.ogg
++ block/sculk/charge5.ogg
++ block/sculk/place1.ogg
++ block/sculk/place2.ogg
++ block/sculk/place3.ogg
++ block/sculk/place4.ogg
++ block/sculk/place5.ogg
++ block/sculk/spread1.ogg
++ block/sculk/spread2.ogg
++ block/sculk/spread3.ogg
++ block/sculk/spread4.ogg
++ block/sculk/spread5.ogg
++ block/sculk_catalyst/break1.ogg
++ block/sculk_catalyst/break10.ogg
++ block/sculk_catalyst/break2.ogg
++ block/sculk_catalyst/break3.ogg
++ block/sculk_catalyst/break4.ogg
++ block/sculk_catalyst/break5.ogg
++ block/sculk_catalyst/break6.ogg
++ block/sculk_catalyst/break7.ogg
++ block/sculk_catalyst/break8.ogg
++ block/sculk_catalyst/break9.ogg
++ block/sculk_catalyst/place1.ogg
++ block/sculk_catalyst/place2.ogg
++ block/sculk_catalyst/place3.ogg
++ block/sculk_catalyst/place4.ogg
++ block/sculk_catalyst/place5.ogg
++ block/sculk_catalyst/step1.ogg
++ block/sculk_catalyst/step2.ogg
++ block/sculk_catalyst/step3.ogg
++ block/sculk_catalyst/step4.ogg
++ block/sculk_catalyst/step5.ogg
++ block/sculk_catalyst/step6.ogg
++ block/sculk_shrieker/break1.ogg
++ block/sculk_shrieker/break2.ogg
++ block/sculk_shrieker/break3.ogg
++ block/sculk_shrieker/break4.ogg
++ block/sculk_shrieker/break5.ogg
++ block/sculk_shrieker/break6.ogg
++ block/sculk_shrieker/place1.ogg
++ block/sculk_shrieker/place2.ogg
++ block/sculk_shrieker/place3.ogg
++ block/sculk_shrieker/place4.ogg
++ block/sculk_shrieker/place5.ogg
++ block/sculk_shrieker/shriek1.ogg
++ block/sculk_shrieker/shriek2.ogg
++ block/sculk_shrieker/shriek3.ogg
++ block/sculk_shrieker/shriek4.ogg
++ block/sculk_shrieker/shriek5.ogg
++ block/sculk_vein/break1.ogg
++ block/sculk_vein/break2.ogg
++ block/sculk_vein/break3.ogg
++ block/sculk_vein/break4.ogg
++ block/sculk_vein/break5.ogg
++ item/goat_horn/call0.ogg
++ item/goat_horn/call1.ogg
++ item/goat_horn/call2.ogg
++ item/goat_horn/call3.ogg
++ item/goat_horn/call4.ogg
++ item/goat_horn/call5.ogg
++ item/goat_horn/call6.ogg
++ item/goat_horn/call7.ogg
++ mob/allay/death1.ogg
++ mob/allay/death2.ogg
++ mob/allay/hurt1.ogg
++ mob/allay/hurt2.ogg
++ mob/allay/idle_with_item1.ogg
++ mob/allay/idle_with_item2.ogg
++ mob/allay/idle_with_item3.ogg
++ mob/allay/idle_with_item4.ogg
++ mob/allay/idle_without_item1.ogg
++ mob/allay/idle_without_item2.ogg
++ mob/allay/idle_without_item3.ogg
++ mob/allay/idle_without_item4.ogg
++ mob/allay/item_given1.ogg
++ mob/allay/item_given2.ogg
++ mob/allay/item_given3.ogg
++ mob/allay/item_given4.ogg
++ mob/allay/item_taken1.ogg
++ mob/allay/item_taken2.ogg
++ mob/allay/item_taken3.ogg
++ mob/allay/item_taken4.ogg
++ mob/allay/item_thrown1.ogg
++ mob/frog/death1.ogg
++ mob/frog/death2.ogg
++ mob/frog/death3.ogg
++ mob/frog/eat1.ogg
++ mob/frog/eat2.ogg
++ mob/frog/eat3.ogg
++ mob/frog/eat4.ogg
++ mob/frog/hurt1.ogg
++ mob/frog/hurt2.ogg
++ mob/frog/hurt3.ogg
++ mob/frog/hurt4.ogg
++ mob/frog/hurt5.ogg
++ mob/frog/idle1.ogg
++ mob/frog/idle2.ogg
++ mob/frog/idle3.ogg
++ mob/frog/idle4.ogg
++ mob/frog/idle5.ogg
++ mob/frog/idle6.ogg
++ mob/frog/idle7.ogg
++ mob/frog/idle8.ogg
++ mob/frog/lay_spawn1.ogg
++ mob/frog/lay_spawn2.ogg
++ mob/frog/long_jump1.ogg
++ mob/frog/long_jump2.ogg
++ mob/frog/long_jump3.ogg
++ mob/frog/long_jump4.ogg
++ mob/frog/step1.ogg
++ mob/frog/step2.ogg
++ mob/frog/step3.ogg
++ mob/frog/step4.ogg
++ mob/frog/tongue1.ogg
++ mob/frog/tongue2.ogg
++ mob/frog/tongue3.ogg
++ mob/frog/tongue4.ogg
++ mob/goat/horn_break1.ogg
++ mob/goat/horn_break2.ogg
++ mob/goat/horn_break3.ogg
++ mob/goat/horn_break4.ogg
++ mob/tadpole/death1.ogg
++ mob/tadpole/death2.ogg
++ mob/tadpole/hurt1.ogg
++ mob/tadpole/hurt2.ogg
++ mob/tadpole/hurt3.ogg
++ mob/tadpole/hurt4.ogg
++ mob/warden/agitated_1.ogg
++ mob/warden/agitated_2.ogg
++ mob/warden/agitated_3.ogg
++ mob/warden/agitated_4.ogg
++ mob/warden/agitated_5.ogg
++ mob/warden/agitated_6.ogg
++ mob/warden/ambient_1.ogg
++ mob/warden/ambient_10.ogg
++ mob/warden/ambient_11.ogg
++ mob/warden/ambient_12.ogg
++ mob/warden/ambient_2.ogg
++ mob/warden/ambient_3.ogg
++ mob/warden/ambient_4.ogg
++ mob/warden/ambient_5.ogg
++ mob/warden/ambient_6.ogg
++ mob/warden/ambient_7.ogg
++ mob/warden/ambient_8.ogg
++ mob/warden/ambient_9.ogg
++ mob/warden/angry_1.ogg
++ mob/warden/angry_2.ogg
++ mob/warden/angry_3.ogg
++ mob/warden/angry_4.ogg
++ mob/warden/angry_5.ogg
++ mob/warden/angry_6.ogg
++ mob/warden/attack_impact_1.ogg
++ mob/warden/attack_impact_2.ogg
++ mob/warden/death_1.ogg
++ mob/warden/death_2.ogg
++ mob/warden/dig.ogg
++ mob/warden/emerge.ogg
++ mob/warden/heartbeat_1.ogg
++ mob/warden/heartbeat_2.ogg
++ mob/warden/heartbeat_3.ogg
++ mob/warden/heartbeat_4.ogg
++ mob/warden/hurt_1.ogg
++ mob/warden/hurt_2.ogg
++ mob/warden/hurt_3.ogg
++ mob/warden/hurt_4.ogg
++ mob/warden/listening_1.ogg
++ mob/warden/listening_2.ogg
++ mob/warden/listening_3.ogg
++ mob/warden/listening_4.ogg
++ mob/warden/listening_5.ogg
++ mob/warden/listening_angry_1.ogg
++ mob/warden/listening_angry_2.ogg
++ mob/warden/listening_angry_3.ogg
++ mob/warden/listening_angry_4.ogg
++ mob/warden/listening_angry_5.ogg
++ mob/warden/nearby_close_1.ogg
++ mob/warden/nearby_close_2.ogg
++ mob/warden/nearby_close_3.ogg
++ mob/warden/nearby_close_4.ogg
++ mob/warden/nearby_closer_1.ogg
++ mob/warden/nearby_closer_2.ogg
++ mob/warden/nearby_closer_3.ogg
++ mob/warden/nearby_closest_1.ogg
++ mob/warden/nearby_closest_2.ogg
++ mob/warden/nearby_closest_3.ogg
++ mob/warden/roar_1.ogg
++ mob/warden/roar_2.ogg
++ mob/warden/roar_3.ogg
++ mob/warden/roar_4.ogg
++ mob/warden/roar_5.ogg
++ mob/warden/sniff_1.ogg
++ mob/warden/sniff_2.ogg
++ mob/warden/sniff_3.ogg
++ mob/warden/sniff_4.ogg
++ mob/warden/sonic_boom1.ogg
++ mob/warden/sonic_boom2.ogg
++ mob/warden/sonic_boom3.ogg
++ mob/warden/sonic_boom4.ogg
++ mob/warden/sonic_charge1.ogg
++ mob/warden/sonic_charge2.ogg
++ mob/warden/sonic_charge3.ogg
++ mob/warden/sonic_charge4.ogg
++ mob/warden/step_1.ogg
++ mob/warden/step_2.ogg
++ mob/warden/step_3.ogg
++ mob/warden/step_4.ogg
++ mob/warden/tendril_clicks_1.ogg
++ mob/warden/tendril_clicks_2.ogg
++ mob/warden/tendril_clicks_3.ogg
++ mob/warden/tendril_clicks_4.ogg
++ mob/warden/tendril_clicks_5.ogg
++ mob/warden/tendril_clicks_6.ogg
++ music/game/ancestry.ogg
++ music/game/swamp/aerie.ogg
++ music/game/swamp/firebugs.ogg
++ music/game/swamp/labyrinthine.ogg
++ records/5.ogg
+```
+
+</details>
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
+- worldgen/configured_structure_feature/dolphin_located.json
+- worldgen/configured_structure_feature/eye_of_ender_located.json
+- worldgen/configured_structure_feature/mineshaft.json
+- worldgen/configured_structure_feature/ocean_ruin.json
+- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+- worldgen/configured_structure_feature/on_treasure_maps.json
+- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+- worldgen/configured_structure_feature/ruined_portal.json
+- worldgen/configured_structure_feature/shipwreck.json
+- worldgen/configured_structure_feature/village.json
++ blocks/convertable_to_mud.json
++ blocks/dragon_transparent.json
++ blocks/frog_prefer_jump_to.json
++ blocks/mangrove_logs.json
++ blocks/polar_bears_spawnable_on_alternate.json
++ blocks/sculk_replaceable.json
++ blocks/sculk_replaceable_world_gen.json
++ items/mangrove_logs.json
++ worldgen/biome/allows_surface_slime_spawns.json
++ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++ worldgen/biome/has_closer_water_fog.json
++ worldgen/biome/is_end.json
++ worldgen/biome/is_overworld.json
++ worldgen/biome/is_savanna.json
++ worldgen/biome/more_frequent_drowned_spawns.json
++ worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/plays_underwater_music.json
++ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++ worldgen/biome/produces_corals_from_bonemeal.json
++ worldgen/biome/reduce_water_ambient_spawns.json
++ worldgen/biome/required_ocean_monument_surrounding.json
++ worldgen/biome/spawns_cold_variant_frogs.json
++ worldgen/biome/spawns_warm_variant_frogs.json
++ worldgen/biome/stronghold_biased_to.json
++ worldgen/biome/water_on_map_outlines.json
++ worldgen/biome/without_patrol_spawns.json
++ worldgen/biome/without_wandering_trader_spawns.json
++ worldgen/biome/without_zombie_sieges.json
++ worldgen/flat_level_generator_preset/visible.json
++ worldgen/structure/cats_spawn_as_black.json
++ worldgen/structure/cats_spawn_in.json
++ worldgen/structure/dolphin_located.json
++ worldgen/structure/eye_of_ender_located.json
++ worldgen/structure/mineshaft.json
++ worldgen/structure/ocean_ruin.json
++ worldgen/structure/on_ocean_explorer_maps.json
++ worldgen/structure/on_treasure_maps.json
++ worldgen/structure/on_woodland_explorer_maps.json
++ worldgen/structure/ruined_portal.json
++ worldgen/structure/shipwreck.json
++ worldgen/structure/village.json
++ worldgen/world_preset/extended.json
++ worldgen/world_preset/normal.json
+```
+
+</details>
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/frogspawn.png
++ block/mangrove_door_bottom.png
++ block/mangrove_door_top.png
++ block/mangrove_leaves.png
++ block/mangrove_log.png
++ block/mangrove_log_top.png
++ block/mangrove_planks.png
++ block/mangrove_propagule.png
++ block/mangrove_propagule_hanging.png
++ block/mangrove_roots_side.png
++ block/mangrove_roots_top.png
++ block/mangrove_trapdoor.png
++ block/mud.png
++ block/muddy_mangrove_roots_side.png
++ block/muddy_mangrove_roots_top.png
++ block/mud_bricks.png
++ block/ochre_froglight_side.png
++ block/ochre_froglight_top.png
++ block/packed_mud.png
++ block/pearlescent_froglight_side.png
++ block/pearlescent_froglight_top.png
++ block/sculk.png
++ block/sculk_catalyst_bottom.png
++ block/sculk_catalyst_side.png
++ block/sculk_catalyst_side_bloom.png
++ block/sculk_catalyst_top.png
++ block/sculk_catalyst_top_bloom.png
++ block/sculk_shrieker_bottom.png
++ block/sculk_shrieker_inner_top.png
++ block/sculk_shrieker_side.png
++ block/sculk_shrieker_top.png
++ block/sculk_vein.png
++ block/stripped_mangrove_log.png
++ block/stripped_mangrove_log_top.png
++ block/verdant_froglight_side.png
++ block/verdant_froglight_top.png
++ entity/boat/mangrove.png
++ entity/frog/cold_frog.png
++ entity/frog/temperate_frog.png
++ entity/frog/warm_frog.png
++ entity/signs/mangrove.png
++ entity/tadpole/tadpole.png
++ item/mangrove_boat.png
++ item/mangrove_door.png
++ item/mangrove_propagule.png
++ item/mangrove_sign.png
++ item/tadpole_bucket.png
++ particle/sculk_charge_0.png
++ particle/sculk_charge_1.png
++ particle/sculk_charge_2.png
++ particle/sculk_charge_3.png
++ particle/sculk_charge_4.png
++ particle/sculk_charge_5.png
++ particle/sculk_charge_6.png
++ particle/sculk_charge_pop_0.png
++ particle/sculk_charge_pop_1.png
++ particle/sculk_charge_pop_2.png
++ particle/sculk_charge_pop_3.png
++ particle/sculk_soul_0.png
++ particle/sculk_soul_1.png
++ particle/sculk_soul_10.png
++ particle/sculk_soul_2.png
++ particle/sculk_soul_3.png
++ particle/sculk_soul_4.png
++ particle/sculk_soul_5.png
++ particle/sculk_soul_6.png
++ particle/sculk_soul_7.png
++ particle/sculk_soul_8.png
++ particle/sculk_soul_9.png
+```
+
+</details>
+
+## Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- ca.weblite:java-objc-bridge:1.0.0
+- ca.weblite:java-objc-bridge:1.0.0
+- com.mojang:text2speech:1.12.4
+- com.mojang:text2speech:1.12.4
++ ca.weblite:java-objc-bridge:1.1
++ com.mojang:text2speech:1.13.9
++ com.mojang:text2speech:1.13.9
+```
+
+</details>
+
+## Mappings
+
+
+
+
+
+
+
+
+
+<details><summary>com.mojang.blaze3d.font.GlyphInfo</summary>
+
+```diff
++ BakedGlyph bake(java.util.function.Function)
+- float getBearingX()
+- float getBearingY()
+```
+
+</details>
+
+<details><summary>com.mojang.blaze3d.font.TrueTypeGlyphProvider$Glyph</summary>
+
+```diff
++ BakedGlyph bake(Function)
+- boolean isColored()
+- float getBearingX()
+- float getBearingY()
+- float getOversample()
+- int getPixelHeight()
+- int getPixelWidth()
+- void upload(int,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
+
+```diff
++ boolean lambda$updateTeaserImages$14(ResourceLocation)
+- boolean lambda$updateTeaserImages$14(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.Util$5</summary>
+
+```diff
++ Path val$from
++ Path val$to
+- Path val$target
++ void <init>(Path)
+- void <init>(Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util$9</summary>
+
+```diff
+- Function val$function
+- Map cache
++ void <init>(String)
++ void run()
+- Object apply(Object)
+- String toString()
+- void <init>(Function)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
++ ResourceKey structure
+- ResourceKey feature
++ LocationPredicate$Builder setStructure(ResourceKey)
+- LocationPredicate$Builder setFeature(ResourceKey)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.CycleOption</summary>
+
+```diff
++ CycleButton$Builder lambda$create$0(List)
++ CycleButton$Builder lambda$create$1(Supplier)
++ CycleButton$Builder lambda$create$2(List)
++ CycleButton$Builder lambda$create$3(Object[])
++ CycleButton$Builder lambda$createBinaryOption$4(Component)
++ List lambda$createOnOff$5(Boolean)
++ Option$TooltipSupplier lambda$createOnOff$6(Minecraft)
++ void lambda$createButton$7(Object)
+- CycleButton$Builder lambda$create$2(List)
+- CycleButton$Builder lambda$create$3(Supplier)
+- CycleButton$Builder lambda$create$4(List)
+- CycleButton$Builder lambda$create$5(Object[])
+- CycleButton$Builder lambda$createBinaryOption$6(Component)
+- CycleButton$TooltipSupplier lambda$createOnOff$8(Minecraft)
+- CycleButton$TooltipSupplier lambda$new$1(Minecraft)
+- List lambda$createOnOff$7(Boolean)
+- List lambda$new$0(Object)
+- void lambda$createButton$9(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Minecraft</summary>
+
+```diff
++ double gpuUtilization
++ long savedCpuDuration
++ TimerQuery$FrameProfile currentFrameProfile
++ boolean lambda$tick$31()
++ ChunkProgressListener lambda$doWorldLoad$32(int)
++ CompletionStage lambda$delayTextureReload$43(CompletableFuture)
++ double getGpuUtilization()
++ IntegratedServer lambda$doWorldLoad$33(Thread)
++ PackResources lambda$adaptV3$47(Supplier)
++ PackResources lambda$adaptV4$48(Supplier)
++ String lambda$doWorldLoad$34(WorldStem)
++ String lambda$fillSystemReport$36(String)
++ String lambda$fillSystemReport$37(Minecraft)
++ String lambda$fillSystemReport$38()
++ String lambda$fillSystemReport$39()
++ String lambda$fillSystemReport$40()
++ String lambda$fillSystemReport$41(Options)
++ String lambda$fillSystemReport$42(LanguageManager)
++ Style lambda$debugClientMetricsStart$22(Style)
++ Style lambda$grabHugeScreenshot$46(Style)
++ Style lambda$grabPanoramixScreenshot$45(Style)
++ void debugClientMetricsCancel()
++ void doWorldLoad(WorldStem)
++ void lambda$debugClientMetricsStart$20(Consumer,double,int)
++ void lambda$debugClientMetricsStart$21(ProfileResults)
++ void lambda$debugClientMetricsStart$23(Component)
++ void lambda$debugClientMetricsStart$24(Path)
++ void lambda$debugClientMetricsStart$25(List)
++ void lambda$debugClientMetricsStart$26(Path)
++ void lambda$debugClientMetricsStart$27(CompletableFuture)
++ void lambda$debugClientMetricsStart$28(ProfileResults)
++ void lambda$debugClientMetricsStart$29(ProfileResults)
++ void lambda$doWorldLoad$35(Component)
++ void lambda$grabPanoramixScreenshot$44(Component)
++ void lambda$runTick$19(TimerQuery)
++ void lambda$tick$30()
++ WorldOpenFlows createWorldOpenFlows()
+- boolean lambda$tick$30()
+- ChunkProgressListener lambda$doLoadLevel$37(int)
+- CompletionStage lambda$delayTextureReload$49(CompletableFuture)
+- DataResult lambda$createLevel$32(JsonElement)
+- IntegratedServer lambda$doLoadLevel$38(Thread)
+- PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
+- PackResources lambda$adaptV3$53(Supplier)
+- PackResources lambda$adaptV4$54(Supplier)
+- Pair lambda$createLevel$33(DataPackConfig)
+- String lambda$fillSystemReport$42(String)
+- String lambda$fillSystemReport$43(Minecraft)
+- String lambda$fillSystemReport$44()
+- String lambda$fillSystemReport$45()
+- String lambda$fillSystemReport$46()
+- String lambda$fillSystemReport$47(Options)
+- String lambda$fillSystemReport$48(LanguageManager)
+- Style lambda$debugClientMetricsStart$21(Style)
+- Style lambda$grabHugeScreenshot$52(Style)
+- Style lambda$grabPanoramixScreenshot$51(Style)
+- void createLevel(WorldGenSettings)
+- void displayExperimentalConfirmationDialog(Runnable)
+- void doLoadLevel(Minecraft$ExperimentalDialogType)
+- void lambda$debugClientMetricsStart$19(Consumer,double,int)
+- void lambda$debugClientMetricsStart$20(ProfileResults)
+- void lambda$debugClientMetricsStart$22(Component)
+- void lambda$debugClientMetricsStart$23(Path)
+- void lambda$debugClientMetricsStart$24(List)
+- void lambda$debugClientMetricsStart$25(Path)
+- void lambda$debugClientMetricsStart$26(CompletableFuture)
+- void lambda$debugClientMetricsStart$27(ProfileResults)
+- void lambda$debugClientMetricsStart$28(ProfileResults)
+- void lambda$displayExperimentalConfirmationDialog$40(Runnable,boolean,boolean)
+- void lambda$displayExperimentalConfirmationDialog$41(String,boolean)
+- void lambda$doLoadLevel$35(Minecraft$ExperimentalDialogType)
+- void lambda$doLoadLevel$36(Function,boolean)
+- void lambda$doLoadLevel$39(Component)
+- void lambda$grabPanoramixScreenshot$50(Component)
+- void lambda$tick$29()
+- void loadLevel(String)
+- WorldStem makeWorldStem(LevelStorageSource$LevelStorageAccess,boolean)
+- WorldStem makeWorldStem(WorldStem$WorldDataSupplier)
+- WorldStem$DataPackConfigSupplier lambda$createLevel$31(LevelStorageSource$LevelStorageAccess)
+- WorldStem$WorldDataSupplier lambda$createLevel$34(LevelStorageSource$LevelStorageAccess)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.client.Options</summary>
+
+```diff
++ boolean directionalAudio
++ Component ACCESSIBILITY_TOOLTIP_DARK_MOJANG_BACKGROUND
++ Component ACCESSIBILITY_TOOLTIP_HIDE_LIGHTNING_FLASHES
++ Component PRIORITIZE_CHUNK_TOOLTIP_NEARBY
++ Component PRIORITIZE_CHUNK_TOOLTIP_NONE
++ Component PRIORITIZE_CHUNK_TOOLTIP_PLAYER_AFFECTED
++ OptionInstance ambientOcclusion
++ OptionInstance biomeBlendRadius
++ OptionInstance chatHeightFocused
++ OptionInstance chatHeightUnfocused
++ OptionInstance darkMojangStudiosBackground
++ OptionInstance fov
++ OptionInstance hideLightningFlash
++ OptionInstance mouseWheelSensitivity
++ OptionInstance prioritizeChunkUpdates
++ OptionInstance rawMouseInput
+- AmbientOcclusionStatus ambientOcclusion
+- boolean darkMojangStudiosBackground
+- boolean hideLightningFlashes
+- boolean rawMouseInput
+- double chatHeightFocused
+- double chatHeightUnfocused
+- double fov
+- double mouseWheelSensitivity
+- int biomeBlendRadius
+- PrioritizeChunkUpdates prioritizeChunkUpdates
++ boolean lambda$new$20()
++ boolean lambda$new$21()
++ Component genericValueLabel(Component,int)
++ Component genericValueLabel(Component)
++ Component lambda$new$10(Double)
++ Component lambda$new$12(Double)
++ Component lambda$new$15(Integer)
++ Component lambda$new$17(Double)
++ Component lambda$new$22(Integer)
++ Component lambda$new$4(AmbientOcclusionStatus)
++ Component lambda$new$8(PrioritizeChunkUpdates)
++ Component percentValueLabel(Component,double)
++ Component pixelValueLabel(Component,int)
++ double logMouse(int)
++ Float lambda$processOptions$25(Float)
++ int unlogMouse(double)
++ List lambda$new$0(Boolean)
++ List lambda$new$2(Boolean)
++ List lambda$new$6(PrioritizeChunkUpdates)
++ Option$TooltipSupplier lambda$new$1(Minecraft)
++ Option$TooltipSupplier lambda$new$3(Minecraft)
++ Option$TooltipSupplier lambda$new$7(Minecraft)
++ OptionInstance ambientOcclusion()
++ OptionInstance biomeBlendRadius()
++ OptionInstance chatHeightFocused()
++ OptionInstance chatHeightUnfocused()
++ OptionInstance darkMojangStudiosBackground()
++ OptionInstance fov()
++ OptionInstance hideLightningFlash()
++ OptionInstance mouseWheelSensitivity()
++ OptionInstance prioritizeChunkUpdates()
++ OptionInstance rawMouseInput()
++ String lambda$dumpOptionsForReport$27(Pair)
++ String lambda$processOptions$24(AmbientOcclusionStatus)
++ void lambda$load$26(String)
++ void lambda$new$11(Double)
++ void lambda$new$13(Double)
++ void lambda$new$14(Object2FloatOpenHashMap)
++ void lambda$new$16(Integer)
++ void lambda$new$18(Double)
++ void lambda$new$19(Boolean)
++ void lambda$new$23(Integer)
++ void lambda$new$5(AmbientOcclusionStatus)
++ void lambda$new$9(PrioritizeChunkUpdates)
+- boolean lambda$new$1()
+- boolean lambda$new$2()
+- Float lambda$processOptions$4(Float)
+- String lambda$dumpOptionsForReport$6(Pair)
+- String lambda$processOptions$3(AmbientOcclusionStatus)
+- void lambda$load$5(String)
+- void lambda$new$0(Object2FloatOpenHashMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Options$4</summary>
+
+```diff
++ int[] $SwitchMap$net$minecraft$client$PrioritizeChunkUpdates
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
+
+```diff
++ void drawBar(BossEvent,int,int)
+```
+
+</details>
+
+
+
+
+
+
+<details><summary>net.minecraft.client.gui.components.CycleButton</summary>
+
+```diff
++ Option$TooltipSupplier tooltipSupplier
+- CycleButton$TooltipSupplier tooltipSupplier
++ void <init>(Option$TooltipSupplier,boolean)
+- void <init>(CycleButton$TooltipSupplier,boolean)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
+
+```diff
+- Option[] OPTIONS
++ Option[] options(Options)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
+
+```diff
+- Option[] CHAT_OPTIONS
+- void <clinit>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
+
+```diff
+- Option[] OPTIONS
++ Option[] options(Options)
+- void <clinit>()
+```
+
+</details>
+
+<details><summary>net.minecraft.client.gui.screens.OptionsScreen</summary>
+
+```diff
+- Option[] OPTION_SCREEN_OPTIONS
+- void <clinit>()
+```
+
+</details>
+
+<details><summary>net.minecraft.client.gui.screens.OutOfMemoryScreen</summary>
+
+```diff
++ MultiLineLabel message
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.model.HierarchicalModel</summary>
+
+```diff
++ boolean lambda$getAnyDescendantWithName$0(ModelPart)
++ ModelPart lambda$getAnyDescendantWithName$1(ModelPart)
++ Optional getAnyDescendantWithName(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.client.resources.AssetIndex</summary>
+
+```diff
++ Collection getFiles(Predicate)
+- Collection getFiles(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.DefaultClientPackResources</summary>
+
+```diff
++ Collection getResources(Predicate)
+- Collection getResources(Predicate)
+```
+
+</details>
+
+<details><summary>net.minecraft.client.resources.DirectAssetIndex</summary>
+
+```diff
++ Collection getFiles(Predicate)
++ ResourceLocation lambda$getFiles$2(Path)
+- boolean lambda$getFiles$2(Path)
+- Collection getFiles(Predicate)
+- ResourceLocation lambda$getFiles$3(Path)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.client.resources.PackResourcesAdapterV4</summary>
+
+```diff
++ Collection getResources(Predicate)
+- Collection getResources(Predicate)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceOrTagLocationArgument</summary>
+
+```diff
++ ResourceOrTagLocationArgument$Result getStructure(String)
+- ResourceOrTagLocationArgument$Result getStructureFeature(String)
+```
+
+</details>
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
+
+```diff
++ HolderSet tag
+- TagKey tag
++ boolean requiresNbt()
++ void <init>(CompoundTag)
+- void <init>(CompoundTag)
+```
+
+</details>
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
+
+```diff
++ boolean allowNbt
++ DynamicCommandExceptionType ERROR_UNKNOWN_TAG
++ Function SUGGEST_NOTHING
++ Function suggestions
++ HolderLookup blocks
++ HolderSet tag
+- BiFunction SUGGEST_NOTHING
+- BiFunction suggestions
+- int tagCursor
+- TagKey tag
++ BlockStateParser$BlockResult parseForBlock(String,boolean)
++ BlockStateParser$BlockResult parseForBlock(StringReader,boolean)
++ BlockStateParser$BlockResult parseForBlock(StringReader,boolean)
++ boolean hasBlockEntity()
++ CommandSyntaxException lambda$readTag$7(ResourceLocation)
++ CompletableFuture fillSuggestions(SuggestionsBuilder,boolean,boolean)
++ CompletableFuture lambda$readProperties$8(SuggestionsBuilder)
++ CompletableFuture lambda$readVagueProperties$9(SuggestionsBuilder)
++ CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder)
++ CompletableFuture suggestEquals(SuggestionsBuilder)
++ CompletableFuture suggestItem(SuggestionsBuilder)
++ CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder)
++ CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder)
++ CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder)
++ CompletableFuture suggestPropertyName(SuggestionsBuilder)
++ CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder)
++ CompletableFuture suggestTag(SuggestionsBuilder)
++ CompletableFuture suggestVaguePropertyName(SuggestionsBuilder)
++ CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder)
++ CompletableFuture suggestVaguePropertyValue(String)
++ Either parseForTesting(String,boolean)
++ Either parseForTesting(StringReader,boolean)
++ Either parseForTesting(StringReader,boolean)
++ Message lambda$static$5(Object)
++ String lambda$serialize$10(ResourceKey)
++ void <init>(StringReader,boolean,boolean)
++ void parse()
+- BlockState getState()
+- BlockStateParser parse(boolean)
+- boolean hasBlockEntity(Registry)
+- CompletableFuture fillSuggestions(Registry)
+- CompletableFuture lambda$readProperties$7(Registry)
+- CompletableFuture lambda$readVagueProperties$8(Registry)
+- CompletableFuture lambda$static$5(Registry)
+- CompletableFuture suggestBlockIdOrTag(Registry)
+- CompletableFuture suggestEquals(Registry)
+- CompletableFuture suggestNextPropertyOrEnd(Registry)
+- CompletableFuture suggestOpenNbt(Registry)
+- CompletableFuture suggestOpenPropertiesOrNbt(Registry)
+- CompletableFuture suggestOpenVaguePropertiesOrNbt(Registry)
+- CompletableFuture suggestPropertyName(Registry)
+- CompletableFuture suggestPropertyNameOrEnd(Registry)
+- CompletableFuture suggestTag(Registry)
+- CompletableFuture suggestVaguePropertyName(Registry)
+- CompletableFuture suggestVaguePropertyNameOrEnd(Registry)
+- CompletableFuture suggestVaguePropertyValue(String)
+- CompoundTag getNbt()
+- Map getProperties()
+- Map getVagueProperties()
+- TagKey getTag()
+- void <init>(StringReader,boolean)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemInput</summary>
+
+```diff
++ Holder item
+- Item item
++ Object lambda$getItemName$1()
++ String getItemName()
++ void <init>(CompoundTag)
+- void <init>(CompoundTag)
+```
+
+</details>
+
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
+
+```diff
++ HolderLookup items
+- DynamicCommandExceptionType ERROR_UNKNOWN_TAG
++ boolean lambda$createResult$3(ItemStack)
++ boolean lambda$createResult$4(ItemStack)
++ boolean lambda$parse$0(Holder)
++ ItemPredicateArgument itemPredicate(CommandBuildContext)
++ ItemPredicateArgument$Result createResult(CompoundTag)
++ ItemPredicateArgument$Result lambda$parse$1(ItemParser$ItemResult)
++ ItemPredicateArgument$Result lambda$parse$2(ItemParser$TagResult)
++ void <init>(CommandBuildContext)
+- ItemPredicateArgument itemPredicate()
+- Message lambda$static$0(Object)
+- Predicate lambda$parse$1(CommandContext)
+- Predicate lambda$parse$2(CommandContext)
+- void <init>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.core.Direction</summary>
+
+```diff
++ Collection allShuffled(Random)
++ Stream stream()
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.core.Direction8</summary>
+
+```diff
++ Vec3i step
++ int getStepX()
++ int getStepZ()
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
++ Set registryKeySet()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
+
+```diff
++ ModelTemplate CUBE_NORTH_WEST_MIRRORED_ALL
++ ModelTemplate DOOR_BOTTOM_LEFT
++ ModelTemplate DOOR_BOTTOM_LEFT_OPEN
++ ModelTemplate DOOR_BOTTOM_RIGHT
++ ModelTemplate DOOR_BOTTOM_RIGHT_OPEN
++ ModelTemplate DOOR_TOP_LEFT
++ ModelTemplate DOOR_TOP_LEFT_OPEN
++ ModelTemplate DOOR_TOP_RIGHT
++ ModelTemplate DOOR_TOP_RIGHT_OPEN
+- ModelTemplate DOOR_BOTTOM
+- ModelTemplate DOOR_BOTTOM_HINGE
+- ModelTemplate DOOR_TOP
+- ModelTemplate DOOR_TOP_HINGE
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.data.tags.BlockTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+<details><summary>net.minecraft.data.tags.GameEventTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
+
+```diff
++ boolean lambda$listResources$0(Map$Entry)
++ DataResult lambda$getResource$3(Decoder)
++ Map listResources(ResourceKey)
++ Optional getResource(ResourceKey)
++ RegistryResourceAccess$EntryThunk lambda$listResources$2(Map$Entry)
++ ResourceKey lambda$listResources$1(Map$Entry)
+- Collection listResources(ResourceKey)
+- Optional parseElement(Decoder)
+- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(Object)
+- Stream lambda$listResources$0(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
+
+```diff
++ String toLanguageKey()
++ String toLanguageKey(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.ReloadableServerResources</summary>
+
+```diff
++ CommandBuildContext commandBuildContext
++ List lambda$updateRegistryTags$4(Map$Entry)
++ ReloadableServerResources lambda$loadResources$1(Object)
++ TagKey lambda$updateRegistryTags$3(Map$Entry)
++ void lambda$loadResources$0(Throwable)
++ void lambda$updateRegistryTags$2(TagManager$LoadResult)
+- List lambda$updateRegistryTags$3(Map$Entry)
+- ReloadableServerResources lambda$loadResources$0(Object)
+- TagKey lambda$updateRegistryTags$2(Map$Entry)
+- void lambda$updateRegistryTags$1(TagManager$LoadResult)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.CloneCommands</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.FillCommand</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.LootCommand</summary>
+
+```diff
++ ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
++ void register(CommandBuildContext)
+- ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.SetBlockCommand</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ int getMaxChainedNeighborUpdates()
+```
+
+</details>
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ int maxChainedNeighborUpdates
++ Logger LOGGER
++ void <clinit>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.level.DemoMode</summary>
+
+```diff
++ void handleBlockBreakAction(Direction,int,int)
+- void handleBlockBreakAction(Direction,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.level.ThreadedLevelLightEngine</summary>
+
+```diff
++ ChunkAccess lambda$lightChunk$23(ChunkPos)
++ ChunkAccess lambda$retainData$17(ChunkAccess)
++ CompletableFuture retainData(ChunkAccess)
++ String lambda$lightChunk$22(ChunkPos,boolean)
++ String lambda$retainData$18(ChunkPos)
++ void lambda$lightChunk$20(BlockPos)
++ void lambda$lightChunk$21(ChunkPos,boolean)
++ void lambda$lightChunk$24(Runnable)
++ void lambda$retainData$19(Runnable)
++ void lambda$tryScheduleUpdate$25()
+- ChunkAccess lambda$lightChunk$20(ChunkPos)
+- String lambda$lightChunk$19(ChunkPos,boolean)
+- void lambda$lightChunk$17(BlockPos)
+- void lambda$lightChunk$18(ChunkPos,boolean)
+- void lambda$lightChunk$21(Runnable)
+- void lambda$tryScheduleUpdate$22()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ double MAX_INTERACTION_DISTANCE
++ int ackBlockChangesUpTo
++ int NO_BLOCK_UPDATES_TO_ACK
++ void ackBlockChangesUpTo(int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.packs.FolderPackResources</summary>
+
+```diff
++ Collection getResources(Predicate)
++ void listResources(Predicate)
+- Collection getResources(Predicate)
+- void listResources(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
++ boolean lambda$getResources$1(Path)
++ Collection getResources(Predicate)
++ void getResources(Predicate)
+- boolean lambda$getResources$1(Path)
+- Collection getResources(Predicate)
+- void getResources(Predicate)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
+
+```diff
++ List getResourceStack(ResourceLocation)
++ Map listResources(Predicate)
++ Map listResourceStacks(Predicate)
+- Collection listResources(Predicate)
+- List getResources(ResourceLocation)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleResource</summary>
+
+```diff
+- boolean triedMetadata
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.sounds.SoundEvents</summary>
+
+```diff
++ SoundEvent BUCKET_EMPTY_TADPOLE
++ SoundEvent BUCKET_FILL_TADPOLE
++ SoundEvent FROG_AMBIENT
++ SoundEvent FROG_DEATH
++ SoundEvent FROG_EAT
++ SoundEvent FROG_HURT
++ SoundEvent FROG_LAY_SPAWN
++ SoundEvent FROG_LONG_JUMP
++ SoundEvent FROG_STEP
++ SoundEvent FROG_TOUNGE
++ SoundEvent FROGLIGHT_BREAK
++ SoundEvent FROGLIGHT_FALL
++ SoundEvent FROGLIGHT_HIT
++ SoundEvent FROGLIGHT_PLACE
++ SoundEvent FROGLIGHT_STEP
++ SoundEvent FROGSPAWN_BREAK
++ SoundEvent FROGSPAWN_FALL
++ SoundEvent FROGSPAWN_HATCH
++ SoundEvent FROGSPAWN_HIT
++ SoundEvent FROGSPAWN_PLACE
++ SoundEvent FROGSPAWNSTEP
++ SoundEvent MANGROVE_ROOTS_BREAK
++ SoundEvent MANGROVE_ROOTS_FALL
++ SoundEvent MANGROVE_ROOTS_HIT
++ SoundEvent MANGROVE_ROOTS_PLACE
++ SoundEvent MANGROVE_ROOTS_STEP
++ SoundEvent MUD_BREAK
++ SoundEvent MUD_BRICKS_BREAK
++ SoundEvent MUD_BRICKS_FALL
++ SoundEvent MUD_BRICKS_HIT
++ SoundEvent MUD_BRICKS_PLACE
++ SoundEvent MUD_BRICKS_STEP
++ SoundEvent MUD_FALL
++ SoundEvent MUD_HIT
++ SoundEvent MUD_PLACE
++ SoundEvent MUD_STEP
++ SoundEvent MUDDY_MANGROVE_ROOTS_BREAK
++ SoundEvent MUDDY_MANGROVE_ROOTS_FALL
++ SoundEvent MUDDY_MANGROVE_ROOTS_HIT
++ SoundEvent MUDDY_MANGROVE_ROOTS_PLACE
++ SoundEvent MUDDY_MANGROVE_ROOTS_STEP
++ SoundEvent MUSIC_BIOME_DEEP_DARK
++ SoundEvent PACKED_MUD_BREAK
++ SoundEvent PACKED_MUD_FALL
++ SoundEvent PACKED_MUD_HIT
++ SoundEvent PACKED_MUD_PLACE
++ SoundEvent PACKED_MUD_STEP
++ SoundEvent SCULK_BLOCK_BREAK
++ SoundEvent SCULK_BLOCK_CHARGE
++ SoundEvent SCULK_BLOCK_FALL
++ SoundEvent SCULK_BLOCK_HIT
++ SoundEvent SCULK_BLOCK_PLACE
++ SoundEvent SCULK_BLOCK_SPREAD
++ SoundEvent SCULK_BLOCK_STEP
++ SoundEvent SCULK_CATALYST_BLOOM
++ SoundEvent SCULK_CATALYST_BREAK
++ SoundEvent SCULK_CATALYST_FALL
++ SoundEvent SCULK_CATALYST_HIT
++ SoundEvent SCULK_CATALYST_PLACE
++ SoundEvent SCULK_CATALYST_STEP
++ SoundEvent SCULK_SHRIEKER_BREAK
++ SoundEvent SCULK_SHRIEKER_FALL
++ SoundEvent SCULK_SHRIEKER_HIT
++ SoundEvent SCULK_SHRIEKER_PLACE
++ SoundEvent SCULK_SHRIEKER_STEP
++ SoundEvent SCULK_VEIN_BREAK
++ SoundEvent SCULK_VEIN_FALL
++ SoundEvent SCULK_VEIN_HIT
++ SoundEvent SCULK_VEIN_PLACE
++ SoundEvent SCULK_VEIN_STEP
++ SoundEvent TADPOLE_DEATH
++ SoundEvent TADPOLE_EAT
++ SoundEvent TADPOLE_FLOP
++ SoundEvent TADPOLE_GROW_UP
++ SoundEvent TADPOLE_HURT
++ SoundEvent TADPOLE_STEP
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.tags.BiomeTags</summary>
+
+```diff
++ TagKey ALLOWS_SURFACE_SLIME_SPAWNS
++ TagKey ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT
++ TagKey HAS_CLOSER_WATER_FOG
++ TagKey IS_END
++ TagKey IS_OVERWORLD
++ TagKey IS_SAVANNA
++ TagKey MORE_FREQUENT_DROWNED_SPAWNS
++ TagKey ONLY_ALLOWS_SNOW_AND_GOLD_RABBITS
++ TagKey PLAYS_UNDERWATER_MUSIC
++ TagKey POLAR_BEARS_SPAWN_ON_ALTERNATE_BLOCKS
++ TagKey PRODUCES_CORALS_FROM_BONEMEAL
++ TagKey REDUCED_WATER_AMBIENT_SPAWNS
++ TagKey REQUIRED_OCEAN_MONUMENT_SURROUNDING
++ TagKey SPAWNS_COLD_VARIANT_FROGS
++ TagKey SPAWNS_WARM_VARIANT_FROGS
++ TagKey STRONGHOLD_BIASED_TO
++ TagKey WATER_ON_MAP_OUTLINES
++ TagKey WITHOUT_PATROL_SPAWNS
++ TagKey WITHOUT_WANDERING_TRADER_SPAWNS
++ TagKey WITHOUT_ZOMBIE_SIEGES
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.ItemTags</summary>
+
+```diff
++ TagKey MANGROVE_LOGS
+```
+
+</details>
+
+
+
+
+
+
+<details><summary>net.minecraft.util.CubicSpline</summary>
+
+```diff
+- float max()
+- float min()
+```
+
+</details>
+
+<details><summary>net.minecraft.util.CubicSpline$Builder</summary>
+
+```diff
++ CubicSpline$Builder addPoint(CubicSpline)
++ CubicSpline$Builder addPoint(float,float)
+- float lambda$new$0(Float)
+```
+
+</details>
+
+<details><summary>net.minecraft.util.CubicSpline$CoordinateVisitor</summary>
+
+```diff
++ Object visit(java.lang.Object)
+- ToFloatFunction visit(net.minecraft.util.ToFloatFunction)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ Codec PATTERN
++ DataResult lambda$static$27(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float catmullrom(float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ParticleUtils</summary>
+
+```diff
++ Vec3 getRandomSpeedRanges(Random)
++ Vec3 lambda$spawnParticlesOnBlockFaces$0(Level)
++ void spawnParticleOnFace(Vec3,double)
++ void spawnParticlesOnBlockFace(Supplier,double)
++ void spawnParticlesOnBlockFaces(IntProvider)
+- void spawnParticleOnFace(ParticleOptions)
+- void spawnParticlesOnBlockFaces(UniformInt)
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.ToFloatFunction</summary>
+
+```diff
++ float maxValue()
++ float minValue()
++ ToFloatFunction IDENTITY
++ float lambda$static$0(float)
++ ToFloatFunction comap(Function)
++ ToFloatFunction createUnlimited(Float2FloatFunction)
++ void <clinit>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.profiling.metrics.profiling.ActiveMetricsRecorder</summary>
+
+```diff
++ void cancel()
++ void cleanup(Collection)
+```
+
+</details>
+
+<details><summary>net.minecraft.util.profiling.metrics.profiling.MetricsRecorder</summary>
+
+```diff
++ void cancel()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
+
+```diff
++ Activity LAY_SPAWN
++ Activity SWIM
++ Activity TONGUE
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
+
+```diff
++ void updateEffects(MobEffect)
+- void updateEffects(int,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.item.Items</summary>
+
+```diff
++ Item FROG_SPAWN_EGG
++ Item FROGSPAWN
++ Item MANGROVE_BOAT
++ Item MANGROVE_BUTTON
++ Item MANGROVE_DOOR
++ Item MANGROVE_FENCE
++ Item MANGROVE_FENCE_GATE
++ Item MANGROVE_LEAVES
++ Item MANGROVE_LOG
++ Item MANGROVE_PLANKS
++ Item MANGROVE_PRESSURE_PLATE
++ Item MANGROVE_PROPAGULE
++ Item MANGROVE_ROOTS
++ Item MANGROVE_SIGN
++ Item MANGROVE_SLAB
++ Item MANGROVE_STAIRS
++ Item MANGROVE_TRAPDOOR
++ Item MANGROVE_WOOD
++ Item MUD
++ Item MUD_BRICK_SLAB
++ Item MUD_BRICK_STAIRS
++ Item MUD_BRICK_WALL
++ Item MUD_BRICKS
++ Item MUDDY_MANGROVE_ROOTS
++ Item OCHRE_FROGLIGHT
++ Item PACKED_MUD
++ Item PEARLESCENT_FROGLIGHT
++ Item SCULK
++ Item SCULK_CATALYST
++ Item SCULK_SHRIEKER
++ Item SCULK_VEIN
++ Item STRIPPED_MANGROVE_LOG
++ Item STRIPPED_MANGROVE_WOOD
++ Item TADPOLE_BUCKET
++ Item TADPOLE_SPAWN_EGG
++ Item VERDANT_FROGLIGHT
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
+
+```diff
++ MultifaceSpreader getSpreader()
++ boolean isValidStateForPlacement(Direction)
++ boolean lambda$hasAnyFace$2(Direction)
++ boolean lambda$hasAnyVacantFace$3(Direction)
++ byte pack(Collection)
++ Set availableFaces(BlockState)
++ Set unpack(byte)
+- boolean canSpread(Direction)
+- boolean canSpreadInto(BlockState)
+- boolean canSpreadToFace(Direction)
+- boolean lambda$canSpread$5(Direction)
+- boolean lambda$hasAnyFace$6(Direction)
+- boolean lambda$hasAnyVacantFace$7(Direction)
+- boolean lambda$spreadFromFaceTowardRandomDirection$4(Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(Direction)
+- boolean spreadFromFaceTowardDirection(Direction,boolean)
+- boolean spreadFromFaceTowardRandomDirection(Random,boolean)
+- boolean spreadFromRandomFaceTowardRandomDirection(Random)
+- boolean spreadToFace(Direction,boolean)
+- Optional getSpreadFromFaceTowardDirection(Direction)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
+
+```diff
++ LongSet getReferencesForStructure(Structure)
++ StructureStart getStartForStructure(Structure)
++ void addReferenceForStructure(Structure,long)
++ void setStartForStructure(StructureStart)
+- LongSet getReferencesForFeature(ConfiguredStructureFeature)
+- StructureStart getStartForFeature(ConfiguredStructureFeature)
+- void addReferenceForFeature(ConfiguredStructureFeature,long)
+- void setStartForFeature(StructureStart)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
+
+```diff
++ boolean lambda$keysInOrder$1(ResourceKey)
++ boolean stable(Registry)
++ Stream keysInOrder(Stream)
++ void lambda$sortMap$2(ResourceKey)
+- boolean stable(Registry)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
+
+```diff
++ boolean processing
++ List listenersToAdd
++ Set listenersToRemove
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
++ void <init>(ChunkAccess)
++ void lambda$new$1(StructureStart)
+- boolean lambda$new$1(ConfiguredStructureFeature)
+- void <init>(ChunkAccess)
+- void lambda$new$2(StructureStart)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
++ CompletableFuture fillFromNoise(ChunkAccess)
++ int getBaseHeight(RandomState)
++ NoiseColumn getBaseColumn(RandomState)
++ void addDebugScreenInfo(BlockPos)
++ void applyBiomeDecoration(StructureManager)
++ void applyCarvers(GenerationStep$Carving)
++ void buildSurface(ChunkAccess)
+- ChunkGenerator withSeed(long)
+- Climate$Sampler climateSampler()
+- CompletableFuture fillFromNoise(ChunkAccess)
+- int getBaseHeight(LevelHeightAccessor)
+- NoiseColumn getBaseColumn(LevelHeightAccessor)
+- void addDebugScreenInfo(BlockPos)
+- void applyBiomeDecoration(StructureFeatureManager)
+- void applyCarvers(GenerationStep$Carving)
+- void buildSurface(ChunkAccess)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions</summary>
+
+```diff
++ DensityFunction spline(CubicSpline)
+- DensityFunction terrainShaperSpline(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
+```
+
+</details>
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
+
+```diff
++ float ISLAND_THRESHOLD
++ float getHeightValue(SimplexNoise,int,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
+
+```diff
++ Codec SPLINE_CODEC
+- double maxValue
+- double minValue
++ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunctions$Spline$Coordinate)
++ void <init>(CubicSpline)
+- App lambda$static$0(RecordCodecBuilder$Instance)
+- ToFloatFunction lambda$mapAll$1(ToFloatFunction)
+- void <init>(CubicSpline,double,double)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
+
+```diff
++ RandomState randomState
++ SurfaceRules$RuleSource surfaceRule
+- NoiseBasedChunkGenerator generator
++ RandomState randomState()
++ void <init>(SurfaceRules$RuleSource)
+- void <init>(NoiseChunk)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
+
+```diff
++ boolean place(Random,boolean)
++ BoundingBox getBoundingBox(Rotation)
++ List getShuffledJigsawBlocks(Random)
++ Vec3i getSize(Rotation)
+- boolean place(Random,boolean)
+- BoundingBox getBoundingBox(Rotation)
+- List getShuffledJigsawBlocks(Random)
+- Vec3i getSize(Rotation)
+```
+
+</details>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
+
+```diff
++ Optional addPieces(Optional)
++ void addPieces(RandomState)
++ void lambda$addPieces$0(StructurePiecesBuilder)
+- Optional addPieces(BlockPos,boolean,boolean)
+- void addPieces(LevelHeightAccessor)
+- void lambda$addPieces$0(PieceGenerator$Context)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
+
+```diff
++ boolean place(Random,boolean)
++ BoundingBox getBoundingBox(Rotation)
++ List getDataMarkers(Rotation,boolean)
++ List getShuffledJigsawBlocks(Random)
++ StructureTemplate getTemplate(StructureTemplateManager)
++ Vec3i getSize(Rotation)
+- boolean place(Random,boolean)
+- BoundingBox getBoundingBox(Rotation)
+- List getDataMarkers(Rotation,boolean)
+- List getShuffledJigsawBlocks(Random)
+- StructureTemplate getTemplate(StructureManager)
+- Vec3i getSize(Rotation)
+```
+
+</details>
+
+
+
+
+
+
+
+
+<details><summary>Added and removed classes</summary>
+
+```diff
++ com.mojang.blaze3d.font.package-info
+- com.mojang.blaze3d.font.RawGlyph
++ com.mojang.blaze3d.font.SheetGlyphInfo
++ com.mojang.blaze3d.font.SpaceProvider$SpaceGlyphInfo
+- com.mojang.blaze3d.package-info
++ com.mojang.blaze3d.pipeline.MainTarget
+- com.mojang.blaze3d.pipeline.MainTarget$AttachmentState
++ com.mojang.blaze3d.pipeline.MainTarget$Dimension
+- com.mojang.blaze3d.pipeline.package-info
+- com.mojang.blaze3d.pipeline.RenderCall
++ com.mojang.blaze3d.pipeline.RenderPipeline
+- com.mojang.blaze3d.pipeline.RenderTarget
++ com.mojang.blaze3d.pipeline.TextureTarget
++ com.mojang.blaze3d.platform.ClipboardManager
+- com.mojang.blaze3d.platform.DebugMemoryUntracker
++ com.mojang.blaze3d.platform.DisplayData
++ com.mojang.blaze3d.platform.GlConst
+- com.mojang.blaze3d.platform.GlDebug
++ com.mojang.blaze3d.platform.GlDebug$LogEntry
+- com.mojang.blaze3d.platform.GlStateManager
++ com.mojang.blaze3d.platform.GlStateManager$BlendState
+- com.mojang.blaze3d.platform.GlStateManager$BooleanState
++ com.mojang.blaze3d.platform.GlStateManager$ColorLogicState
+- com.mojang.blaze3d.platform.GlStateManager$ColorMask
++ com.mojang.blaze3d.platform.GlStateManager$CullState
+- com.mojang.blaze3d.platform.GlStateManager$DepthState
++ com.mojang.blaze3d.platform.GlStateManager$DestFactor
+- com.mojang.blaze3d.platform.GlStateManager$LogicOp
++ com.mojang.blaze3d.platform.GlStateManager$PolygonOffsetState
+- com.mojang.blaze3d.platform.GlStateManager$ScissorState
++ com.mojang.blaze3d.platform.GlStateManager$SourceFactor
+- com.mojang.blaze3d.platform.GlStateManager$StencilFunc
++ com.mojang.blaze3d.platform.GlStateManager$StencilState
+- com.mojang.blaze3d.platform.GlStateManager$TextureState
++ com.mojang.blaze3d.platform.GlStateManager$Viewport
+- com.mojang.blaze3d.platform.GlUtil
+- com.mojang.blaze3d.platform.GLX
++ com.mojang.blaze3d.platform.InputConstants
+- com.mojang.blaze3d.platform.InputConstants$Key
++ com.mojang.blaze3d.platform.InputConstants$Type
+- com.mojang.blaze3d.platform.Lighting
++ com.mojang.blaze3d.platform.MacosUtil
+- com.mojang.blaze3d.platform.MemoryTracker
++ com.mojang.blaze3d.platform.Monitor
+- com.mojang.blaze3d.platform.MonitorCreator
++ com.mojang.blaze3d.platform.NativeImage
+- com.mojang.blaze3d.platform.NativeImage$Format
++ com.mojang.blaze3d.platform.NativeImage$InternalGlFormat
+- com.mojang.blaze3d.platform.NativeImage$WriteCallback
++ com.mojang.blaze3d.platform.package-info
++ com.mojang.blaze3d.platform.PngInfo
+- com.mojang.blaze3d.platform.PngInfo$StbReader
++ com.mojang.blaze3d.platform.PngInfo$StbReaderBufferedChannel
+- com.mojang.blaze3d.platform.PngInfo$StbReaderSeekableByteChannel
++ com.mojang.blaze3d.platform.ScreenManager
+- com.mojang.blaze3d.platform.TextureUtil
++ com.mojang.blaze3d.platform.VideoMode
+- com.mojang.blaze3d.platform.Window
++ com.mojang.blaze3d.platform.Window$WindowInitFailed
+- com.mojang.blaze3d.platform.WindowEventHandler
+- com.mojang.blaze3d.preprocessor.GlslPreprocessor
++ com.mojang.blaze3d.preprocessor.GlslPreprocessor$Context
+- com.mojang.blaze3d.preprocessor.package-info
++ com.mojang.blaze3d.shaders.AbstractUniform
+- com.mojang.blaze3d.shaders.BlendMode
++ com.mojang.blaze3d.shaders.Effect
+- com.mojang.blaze3d.shaders.EffectProgram
++ com.mojang.blaze3d.shaders.EffectProgram$1
+- com.mojang.blaze3d.shaders.FogShape
+- com.mojang.blaze3d.shaders.package-info
++ com.mojang.blaze3d.shaders.Program
+- com.mojang.blaze3d.shaders.Program$Type
++ com.mojang.blaze3d.shaders.ProgramManager
+- com.mojang.blaze3d.shaders.Shader
++ com.mojang.blaze3d.shaders.Uniform
++ com.mojang.blaze3d.systems.RenderSystem
+- com.mojang.blaze3d.systems.RenderSystem$1
++ com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer
+- com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer$IndexGenerator
++ com.mojang.blaze3d.systems.TimerQuery
++ com.mojang.blaze3d.systems.TimerQuery$TimerQueryLazyLoader
++ net.minecraft.client.animation.AnimationChannel
++ net.minecraft.client.animation.AnimationChannel$Interpolations
++ net.minecraft.client.animation.AnimationChannel$Targets
++ net.minecraft.client.animation.AnimationDefinition$Builder
++ net.minecraft.client.animation.definitions.package-info
++ net.minecraft.client.animation.KeyframeAnimations
+- net.minecraft.client.Game
++ net.minecraft.client.Game$Metrics
+- net.minecraft.client.GraphicsStatus
++ net.minecraft.client.GraphicsStatus$1
+- net.minecraft.client.gui.components.CycleButton$ValueListSupplier
++ net.minecraft.client.gui.components.CycleButton$ValueListSupplier$1
+- net.minecraft.client.gui.components.CycleButton$ValueListSupplier$2
++ net.minecraft.client.gui.components.DebugScreenOverlay
+- net.minecraft.client.gui.components.DebugScreenOverlay$1
++ net.minecraft.client.gui.components.EditBox
+- net.minecraft.client.gui.components.events.AbstractContainerEventHandler
++ net.minecraft.client.gui.components.events.ContainerEventHandler
+- net.minecraft.client.gui.components.events.GuiEventListener
++ net.minecraft.client.gui.components.events.package-info
+- net.minecraft.client.gui.components.ImageButton
++ net.minecraft.client.gui.components.LerpingBossEvent
+- net.minecraft.client.gui.components.LockIconButton
++ net.minecraft.client.gui.components.LockIconButton$Icon
+- net.minecraft.client.gui.components.MultiLineLabel
++ net.minecraft.client.gui.components.MultiLineLabel$1
+- net.minecraft.client.gui.components.MultiLineLabel$2
++ net.minecraft.client.gui.components.MultiLineLabel$TextWithWidth
+- net.minecraft.client.gui.components.ObjectSelectionList
++ net.minecraft.client.gui.components.ObjectSelectionList$Entry
+- net.minecraft.client.gui.components.OptionsList
++ net.minecraft.client.gui.components.OptionsList$Entry
+- net.minecraft.client.gui.components.package-info
+- net.minecraft.client.gui.components.PlainTextButton
++ net.minecraft.client.gui.components.PlayerTabOverlay
+- net.minecraft.client.gui.components.PlayerTabOverlay$PlayerInfoComparator
++ net.minecraft.client.gui.components.SliderButton
+- net.minecraft.client.gui.components.spectator.package-info
++ net.minecraft.client.gui.components.spectator.SpectatorGui
+- net.minecraft.client.gui.components.StateSwitchingButton
++ net.minecraft.client.gui.components.SubtitleOverlay
+- net.minecraft.client.gui.components.SubtitleOverlay$Subtitle
++ net.minecraft.client.gui.components.toasts.AdvancementToast
++ net.minecraft.client.gui.components.toasts.package-info
+- net.minecraft.client.gui.components.toasts.RecipeToast
++ net.minecraft.client.gui.components.toasts.SystemToast
+- net.minecraft.client.gui.components.toasts.SystemToast$SystemToastIds
++ net.minecraft.client.gui.components.toasts.Toast
+- net.minecraft.client.gui.components.toasts.Toast$Visibility
++ net.minecraft.client.gui.components.toasts.ToastComponent
+- net.minecraft.client.gui.components.toasts.ToastComponent$ToastInstance
++ net.minecraft.client.gui.components.toasts.TutorialToast
+- net.minecraft.client.gui.components.toasts.TutorialToast$Icons
++ net.minecraft.client.gui.components.TooltipAccessor
+- net.minecraft.client.gui.components.VolumeSlider
++ net.minecraft.client.gui.components.Widget
+- net.minecraft.client.gui.font.AllMissingGlyphProvider
++ net.minecraft.client.gui.font.FontManager
+- net.minecraft.client.gui.font.FontManager$1
++ net.minecraft.client.gui.font.FontSet
+- net.minecraft.client.gui.font.FontTexture
++ net.minecraft.client.gui.font.FontTexture$Node
++ net.minecraft.client.gui.font.glyphs.BakedGlyph
+- net.minecraft.client.gui.font.glyphs.BakedGlyph$1
++ net.minecraft.client.gui.font.glyphs.BakedGlyph$Effect
+- net.minecraft.client.gui.font.glyphs.EmptyGlyph
++ net.minecraft.client.gui.font.glyphs.SpecialGlyphs
++ net.minecraft.client.gui.font.glyphs.SpecialGlyphs$PixelProvider
+- net.minecraft.client.gui.font.glyphs.WhiteGlyph
++ net.minecraft.client.gui.font.providers.BitmapProvider$Glyph$1
+- net.minecraft.client.gui.font.providers.GlyphProviderBuilder
++ net.minecraft.client.gui.font.providers.GlyphProviderBuilderType
+- net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider
++ net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider$Builder
+- net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider$Glyph
++ net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider$Glyph$1
+- net.minecraft.client.gui.font.TextFieldHelper
+- net.minecraft.client.gui.screens.achievement.package-info
++ net.minecraft.client.gui.screens.achievement.StatsScreen
+- net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList
++ net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList$Entry
+- net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList
++ net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow
+- net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList$ItemRowComparator
++ net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList
+- net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList$MobRow
++ net.minecraft.client.gui.screens.achievement.StatsUpdateListener
+- net.minecraft.client.gui.screens.advancements.AdvancementsScreen
++ net.minecraft.client.gui.screens.advancements.AdvancementTab
+- net.minecraft.client.gui.screens.advancements.AdvancementTabType
++ net.minecraft.client.gui.screens.advancements.AdvancementTabType$1
+- net.minecraft.client.gui.screens.advancements.AdvancementWidget
++ net.minecraft.client.gui.screens.advancements.AdvancementWidgetType
++ net.minecraft.client.gui.screens.advancements.package-info
+- net.minecraft.client.gui.screens.controls.ControlsScreen
++ net.minecraft.client.gui.screens.controls.KeyBindsList
+- net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry
++ net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry$1
+- net.minecraft.client.gui.screens.controls.KeyBindsList$Entry
++ net.minecraft.client.gui.screens.controls.KeyBindsList$KeyEntry
+- net.minecraft.client.gui.screens.controls.KeyBindsList$KeyEntry$1
++ net.minecraft.client.gui.screens.controls.KeyBindsList$KeyEntry$2
+- net.minecraft.client.gui.screens.controls.KeyBindsScreen
++ net.minecraft.client.gui.screens.controls.package-info
+- net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen
++ net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$1
+- net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeIcon
++ net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeSlot
+- net.minecraft.client.gui.screens.debug.package-info
++ net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen
+- net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen$1
++ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
+- net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen
++ net.minecraft.client.gui.screens.inventory.AnvilScreen
+- net.minecraft.client.gui.screens.inventory.BeaconScreen
++ net.minecraft.client.gui.screens.inventory.BeaconScreen$1
+- net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconButton
++ net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconCancelButton
+- net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconConfirmButton
++ net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconPowerButton
+- net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconScreenButton
++ net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconSpriteScreenButton
+- net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconUpgradePowerButton
++ net.minecraft.client.gui.screens.inventory.BlastFurnaceScreen
+- net.minecraft.client.gui.screens.inventory.BookEditScreen
++ net.minecraft.client.gui.screens.inventory.BookEditScreen$DisplayCache
+- net.minecraft.client.gui.screens.inventory.BookEditScreen$LineInfo
++ net.minecraft.client.gui.screens.inventory.BookEditScreen$Pos2i
+- net.minecraft.client.gui.screens.inventory.BookViewScreen
++ net.minecraft.client.gui.screens.inventory.BookViewScreen$1
+- net.minecraft.client.gui.screens.inventory.BookViewScreen$BookAccess
++ net.minecraft.client.gui.screens.inventory.BookViewScreen$WritableBookAccess
+- net.minecraft.client.gui.screens.inventory.BookViewScreen$WrittenBookAccess
++ net.minecraft.client.gui.screens.inventory.BrewingStandScreen
+- net.minecraft.client.gui.screens.inventory.CartographyTableScreen
++ net.minecraft.client.gui.screens.inventory.CommandBlockEditScreen
+- net.minecraft.client.gui.screens.inventory.CommandBlockEditScreen$1
++ net.minecraft.client.gui.screens.inventory.ContainerScreen
+- net.minecraft.client.gui.screens.inventory.CraftingScreen
++ net.minecraft.client.gui.screens.inventory.CreativeInventoryListener
+- net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen
++ net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen$CustomCreativeSlot
+- net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen$ItemPickerMenu
++ net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen$SlotWrapper
+- net.minecraft.client.gui.screens.inventory.DispenserScreen
++ net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen
+- net.minecraft.client.gui.screens.inventory.EnchantmentNames
++ net.minecraft.client.gui.screens.inventory.EnchantmentScreen
+- net.minecraft.client.gui.screens.inventory.FurnaceScreen
++ net.minecraft.client.gui.screens.inventory.GrindstoneScreen
+- net.minecraft.client.gui.screens.inventory.HopperScreen
++ net.minecraft.client.gui.screens.inventory.HorseInventoryScreen
+- net.minecraft.client.gui.screens.inventory.InventoryScreen
++ net.minecraft.client.gui.screens.inventory.ItemCombinerScreen
+- net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen
++ net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen$1
+- net.minecraft.client.gui.screens.inventory.LecternScreen
++ net.minecraft.client.gui.screens.inventory.LecternScreen$1
+- net.minecraft.client.gui.screens.inventory.LoomScreen
++ net.minecraft.client.gui.screens.inventory.MenuAccess
+- net.minecraft.client.gui.screens.inventory.MerchantScreen
++ net.minecraft.client.gui.screens.inventory.MerchantScreen$TradeOfferButton
+- net.minecraft.client.gui.screens.inventory.MinecartCommandBlockEditScreen
+- net.minecraft.client.gui.screens.inventory.package-info
++ net.minecraft.client.gui.screens.inventory.PageButton
+- net.minecraft.client.gui.screens.inventory.ShulkerBoxScreen
++ net.minecraft.client.gui.screens.inventory.SignEditScreen
+- net.minecraft.client.gui.screens.inventory.SmithingScreen
++ net.minecraft.client.gui.screens.inventory.SmokerScreen
+- net.minecraft.client.gui.screens.inventory.StonecutterScreen
++ net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen
+- net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen$1
++ net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen$2
++ net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip
+- net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip$Texture
++ net.minecraft.client.gui.screens.inventory.tooltip.ClientTextTooltip
+- net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent
++ net.minecraft.client.gui.screens.inventory.tooltip.package-info
+- net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
++ net.minecraft.client.gui.screens.multiplayer.package-info
++ net.minecraft.client.gui.screens.multiplayer.Realms32bitWarningScreen
+- net.minecraft.client.gui.screens.multiplayer.SafetyScreen
++ net.minecraft.client.gui.screens.multiplayer.ServerSelectionList
+- net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$Entry
++ net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$LANHeader
+- net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$NetworkServerEntry
++ net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry
+- net.minecraft.client.gui.screens.multiplayer.WarningScreen
+- net.minecraft.client.gui.screens.package-info
++ net.minecraft.client.gui.screens.packs.package-info
++ net.minecraft.client.gui.screens.packs.PackSelectionModel
+- net.minecraft.client.gui.screens.packs.PackSelectionModel$Entry
++ net.minecraft.client.gui.screens.packs.PackSelectionModel$EntryBase
+- net.minecraft.client.gui.screens.packs.PackSelectionModel$SelectedPackEntry
++ net.minecraft.client.gui.screens.packs.PackSelectionModel$UnselectedPackEntry
+- net.minecraft.client.gui.screens.packs.PackSelectionScreen
++ net.minecraft.client.gui.screens.packs.PackSelectionScreen$1
+- net.minecraft.client.gui.screens.packs.PackSelectionScreen$Watcher
++ net.minecraft.client.gui.screens.packs.TransferableSelectionList
+- net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry
+- net.minecraft.client.gui.screens.PresetFlatWorldScreen$PresetInfo
++ net.minecraft.client.gui.screens.PresetFlatWorldScreen$PresetsList
+- net.minecraft.client.gui.screens.PresetFlatWorldScreen$PresetsList$Entry
++ net.minecraft.client.gui.screens.ProgressScreen
+- net.minecraft.client.gui.screens.ReceivingLevelScreen
+- net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent
++ net.minecraft.client.gui.screens.recipebook.BlastingRecipeBookComponent
+- net.minecraft.client.gui.screens.recipebook.GhostRecipe
++ net.minecraft.client.gui.screens.recipebook.GhostRecipe$GhostIngredient
+- net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent
++ net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent$OverlayRecipeButton
+- net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent$OverlayRecipeButton$Pos
++ net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent$OverlaySmeltingRecipeButton
++ net.minecraft.client.gui.screens.recipebook.package-info
+- net.minecraft.client.gui.screens.recipebook.RecipeBookComponent
++ net.minecraft.client.gui.screens.recipebook.RecipeBookPage
+- net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton
++ net.minecraft.client.gui.screens.recipebook.RecipeButton
+- net.minecraft.client.gui.screens.recipebook.RecipeCollection
++ net.minecraft.client.gui.screens.recipebook.RecipeShownListener
+- net.minecraft.client.gui.screens.recipebook.RecipeUpdateListener
++ net.minecraft.client.gui.screens.recipebook.SmeltingRecipeBookComponent
+- net.minecraft.client.gui.screens.recipebook.SmokingRecipeBookComponent
++ net.minecraft.client.gui.screens.Screen
+- net.minecraft.client.gui.screens.Screen$NarratableSearchResult
++ net.minecraft.client.gui.screens.ShareToLanScreen
+- net.minecraft.client.gui.screens.SimpleOptionsSubScreen
++ net.minecraft.client.gui.screens.SkinCustomizationScreen
++ net.minecraft.client.gui.screens.social.package-info
+- net.minecraft.client.gui.screens.social.PlayerEntry
++ net.minecraft.client.gui.screens.social.PlayerEntry$1
+- net.minecraft.client.gui.screens.social.PlayerEntry$2
++ net.minecraft.client.gui.screens.social.PlayerEntry$3
+- net.minecraft.client.gui.screens.social.PlayerEntry$4
++ net.minecraft.client.gui.screens.social.PlayerSocialManager
+- net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList
++ net.minecraft.client.gui.screens.social.SocialInteractionsScreen
+- net.minecraft.client.gui.screens.social.SocialInteractionsScreen$1
++ net.minecraft.client.gui.screens.social.SocialInteractionsScreen$2
+- net.minecraft.client.gui.screens.social.SocialInteractionsScreen$Page
+- net.minecraft.client.gui.screens.SoundOptionsScreen
++ net.minecraft.client.gui.screens.TitleScreen
+- net.minecraft.client.gui.screens.TitleScreen$1
++ net.minecraft.client.gui.screens.TitleScreen$Warning32Bit
+- net.minecraft.client.gui.screens.VideoSettingsScreen
++ net.minecraft.client.gui.screens.WinScreen
+- net.minecraft.client.gui.screens.WinScreen$CreditsReader
+- net.minecraft.client.gui.screens.worldselection.CreateWorldScreen
++ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$1
+- net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$OperationFailedException
+- net.minecraft.client.gui.screens.worldselection.package-info
++ net.minecraft.client.gui.screens.worldselection.PresetEditor
+- net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
++ net.minecraft.client.gui.screens.worldselection.WorldCreationContext
++ net.minecraft.client.gui.screens.worldselection.WorldCreationContext$Updater
++ net.minecraft.client.gui.screens.worldselection.WorldOpenFlows
+- net.minecraft.client.gui.screens.worldselection.WorldPreset
+- net.minecraft.client.gui.screens.worldselection.WorldPreset$2
+- net.minecraft.client.gui.screens.worldselection.WorldPreset$4
+- net.minecraft.client.gui.screens.worldselection.WorldPreset$6
+- net.minecraft.client.gui.screens.worldselection.WorldSelectionList
++ net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry
+- net.minecraft.client.gui.spectator.categories.package-info
+- net.minecraft.client.gui.spectator.categories.SpectatorPage
++ net.minecraft.client.gui.spectator.categories.TeleportToPlayerMenuCategory
+- net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory
++ net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem
++ net.minecraft.client.gui.spectator.package-info
++ net.minecraft.client.gui.spectator.PlayerMenuItem
+- net.minecraft.client.gui.spectator.RootSpectatorMenuCategory
++ net.minecraft.client.gui.spectator.SpectatorMenu
+- net.minecraft.client.gui.spectator.SpectatorMenu$1
++ net.minecraft.client.gui.spectator.SpectatorMenu$CloseSpectatorItem
+- net.minecraft.client.gui.spectator.SpectatorMenu$ScrollMenuItem
++ net.minecraft.client.gui.spectator.SpectatorMenuCategory
+- net.minecraft.client.gui.spectator.SpectatorMenuItem
++ net.minecraft.client.gui.spectator.SpectatorMenuListener
+- net.minecraft.client.GuiMessage
++ net.minecraft.client.HotbarManager
++ net.minecraft.client.KeyboardHandler
+- net.minecraft.client.KeyboardHandler$1
+- net.minecraft.client.KeyMapping
+- net.minecraft.client.main.GameConfig
++ net.minecraft.client.main.GameConfig$FolderData
+- net.minecraft.client.main.GameConfig$GameData
++ net.minecraft.client.main.GameConfig$ServerData
+- net.minecraft.client.main.GameConfig$UserData
++ net.minecraft.client.main.Main
+- net.minecraft.client.main.Main$1
++ net.minecraft.client.main.Main$2
+- net.minecraft.client.main.Main$3
+- net.minecraft.client.main.package-info
++ net.minecraft.client.main.SilentInitException
++ net.minecraft.client.model.AbstractZombieModel
+- net.minecraft.client.model.AgeableListModel
++ net.minecraft.client.model.AnimationUtils
+- net.minecraft.client.model.ArmedModel
++ net.minecraft.client.model.ArmorStandArmorModel
+- net.minecraft.client.model.ArmorStandModel
++ net.minecraft.client.model.AxolotlModel
+- net.minecraft.client.model.BatModel
++ net.minecraft.client.model.BeeModel
+- net.minecraft.client.model.BlazeModel
++ net.minecraft.client.model.BoatModel
+- net.minecraft.client.model.BookModel
++ net.minecraft.client.model.CatModel
+- net.minecraft.client.model.ChestedHorseModel
++ net.minecraft.client.model.ChickenModel
+- net.minecraft.client.model.CodModel
++ net.minecraft.client.model.ColorableAgeableListModel
+- net.minecraft.client.model.ColorableHierarchicalModel
++ net.minecraft.client.model.CowModel
+- net.minecraft.client.model.CreeperModel
++ net.minecraft.client.model.DolphinModel
++ net.minecraft.client.model.dragon.DragonHeadModel
+- net.minecraft.client.model.dragon.package-info
+- net.minecraft.client.model.DrownedModel
++ net.minecraft.client.model.ElytraModel
+- net.minecraft.client.model.EndermanModel
++ net.minecraft.client.model.EndermiteModel
+- net.minecraft.client.model.EntityModel
++ net.minecraft.client.model.EvokerFangsModel
+- net.minecraft.client.model.FoxModel
++ net.minecraft.client.model.FrogModel
+- net.minecraft.client.model.geom.builders.CubeDefinition
++ net.minecraft.client.model.geom.builders.CubeDeformation
+- net.minecraft.client.model.geom.builders.CubeListBuilder
++ net.minecraft.client.model.geom.builders.LayerDefinition
+- net.minecraft.client.model.geom.builders.MaterialDefinition
++ net.minecraft.client.model.geom.builders.MeshDefinition
+- net.minecraft.client.model.geom.builders.package-info
+- net.minecraft.client.model.geom.builders.PartDefinition
++ net.minecraft.client.model.geom.builders.UVPair
++ net.minecraft.client.model.geom.EntityModelSet
+- net.minecraft.client.model.geom.LayerDefinitions
++ net.minecraft.client.model.geom.ModelLayerLocation
+- net.minecraft.client.model.geom.ModelLayers
++ net.minecraft.client.model.geom.ModelPart
+- net.minecraft.client.model.geom.ModelPart$Cube
++ net.minecraft.client.model.geom.ModelPart$Polygon
+- net.minecraft.client.model.geom.ModelPart$Vertex
++ net.minecraft.client.model.geom.ModelPart$Visitor
++ net.minecraft.client.model.geom.package-info
+- net.minecraft.client.model.geom.PartNames
++ net.minecraft.client.model.geom.PartPose
+- net.minecraft.client.model.package-info
++ net.minecraft.client.model.TridentModel
+- net.minecraft.client.model.TropicalFishModelA
++ net.minecraft.client.model.TropicalFishModelB
+- net.minecraft.client.model.TurtleModel
++ net.minecraft.client.model.VexModel
+- net.minecraft.client.model.VillagerHeadModel
++ net.minecraft.client.model.VillagerModel
+- net.minecraft.client.model.WitchModel
++ net.minecraft.client.model.WitherBossModel
+- net.minecraft.client.model.WolfModel
++ net.minecraft.client.model.ZombieModel
+- net.minecraft.client.model.ZombieVillagerModel
+- net.minecraft.client.MouseHandler
++ net.minecraft.client.multiplayer.ClientAdvancements
+- net.minecraft.client.multiplayer.ClientAdvancements$Listener
++ net.minecraft.client.multiplayer.ClientChunkCache
+- net.minecraft.client.multiplayer.ClientChunkCache$Storage
++ net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl
+- net.minecraft.client.multiplayer.ClientLevel
++ net.minecraft.client.multiplayer.ClientLevel$1
+- net.minecraft.client.multiplayer.ClientLevel$ClientLevelData
++ net.minecraft.client.multiplayer.ClientLevel$EntityCallbacks
+- net.minecraft.client.multiplayer.ClientPacketListener
++ net.minecraft.client.multiplayer.ClientPacketListener$1
+- net.minecraft.client.multiplayer.ClientSuggestionProvider
++ net.minecraft.client.multiplayer.MultiPlayerGameMode
+- net.minecraft.client.multiplayer.package-info
+- net.minecraft.client.multiplayer.PlayerInfo
++ net.minecraft.client.multiplayer.prediction.BlockStatePredictionHandler
++ net.minecraft.client.multiplayer.prediction.PredictiveAction
++ net.minecraft.client.multiplayer.resolver.AddressCheck
+- net.minecraft.client.multiplayer.resolver.AddressCheck$1
++ net.minecraft.client.multiplayer.resolver.package-info
++ net.minecraft.client.multiplayer.resolver.ResolvedServerAddress
+- net.minecraft.client.multiplayer.resolver.ResolvedServerAddress$1
++ net.minecraft.client.multiplayer.resolver.ServerAddress
+- net.minecraft.client.multiplayer.resolver.ServerAddressResolver
++ net.minecraft.client.multiplayer.resolver.ServerNameResolver
+- net.minecraft.client.multiplayer.resolver.ServerRedirectHandler
++ net.minecraft.client.multiplayer.ServerData
+- net.minecraft.client.multiplayer.ServerData$ServerPackStatus
++ net.minecraft.client.multiplayer.ServerList
+- net.minecraft.client.multiplayer.ServerStatusPinger
++ net.minecraft.client.multiplayer.ServerStatusPinger$1
+- net.minecraft.client.multiplayer.ServerStatusPinger$2
++ net.minecraft.client.multiplayer.ServerStatusPinger$2$1
++ net.minecraft.client.NarratorStatus
+- net.minecraft.client.Option
++ net.minecraft.client.Option$1
++ net.minecraft.client.OptionInstance
++ net.minecraft.client.OptionInstance$IntRange
++ net.minecraft.client.OptionInstance$OptionInstanceSliderButton
++ net.minecraft.client.OptionInstance$UnitDouble
+- net.minecraft.client.package-info
++ net.minecraft.client.particle.AshParticle
+- net.minecraft.client.particle.AshParticle$Provider
++ net.minecraft.client.particle.AttackSweepParticle
+- net.minecraft.client.particle.AttackSweepParticle$Provider
++ net.minecraft.client.particle.BaseAshSmokeParticle
+- net.minecraft.client.particle.BlockMarker
++ net.minecraft.client.particle.BlockMarker$Provider
+- net.minecraft.client.particle.BreakingItemParticle
++ net.minecraft.client.particle.BreakingItemParticle$Provider
+- net.minecraft.client.particle.BreakingItemParticle$SlimeProvider
++ net.minecraft.client.particle.BreakingItemParticle$SnowballProvider
+- net.minecraft.client.particle.BubbleColumnUpParticle
++ net.minecraft.client.particle.BubbleColumnUpParticle$Provider
+- net.minecraft.client.particle.BubbleParticle
++ net.minecraft.client.particle.BubbleParticle$Provider
+- net.minecraft.client.particle.BubblePopParticle
++ net.minecraft.client.particle.BubblePopParticle$Provider
+- net.minecraft.client.particle.CampfireSmokeParticle
++ net.minecraft.client.particle.CampfireSmokeParticle$CosyProvider
+- net.minecraft.client.particle.CampfireSmokeParticle$SignalProvider
++ net.minecraft.client.particle.CritParticle
+- net.minecraft.client.particle.CritParticle$DamageIndicatorProvider
++ net.minecraft.client.particle.CritParticle$MagicProvider
+- net.minecraft.client.particle.CritParticle$Provider
++ net.minecraft.client.particle.DragonBreathParticle
+- net.minecraft.client.particle.DragonBreathParticle$Provider
++ net.minecraft.client.particle.DripParticle
+- net.minecraft.client.particle.DripParticle$CoolingDripHangParticle
++ net.minecraft.client.particle.DripParticle$DripHangParticle
+- net.minecraft.client.particle.DripParticle$DripLandParticle
++ net.minecraft.client.particle.DripParticle$DripstoneFallAndLandParticle
+- net.minecraft.client.particle.DripParticle$DripstoneLavaFallProvider
++ net.minecraft.client.particle.DripParticle$DripstoneLavaHangProvider
+- net.minecraft.client.particle.DripParticle$DripstoneWaterFallProvider
++ net.minecraft.client.particle.DripParticle$DripstoneWaterHangProvider
+- net.minecraft.client.particle.DripParticle$FallAndLandParticle
++ net.minecraft.client.particle.DripParticle$FallingParticle
+- net.minecraft.client.particle.DripParticle$HoneyFallAndLandParticle
++ net.minecraft.client.particle.DripParticle$HoneyFallProvider
+- net.minecraft.client.particle.DripParticle$HoneyHangProvider
++ net.minecraft.client.particle.DripParticle$HoneyLandProvider
+- net.minecraft.client.particle.DripParticle$LavaFallProvider
++ net.minecraft.client.particle.DripParticle$LavaHangProvider
+- net.minecraft.client.particle.DripParticle$LavaLandProvider
++ net.minecraft.client.particle.DripParticle$NectarFallProvider
+- net.minecraft.client.particle.DripParticle$ObsidianTearFallProvider
++ net.minecraft.client.particle.DripParticle$ObsidianTearHangProvider
+- net.minecraft.client.particle.DripParticle$ObsidianTearLandProvider
++ net.minecraft.client.particle.DripParticle$SporeBlossomFallProvider
+- net.minecraft.client.particle.DripParticle$WaterFallProvider
++ net.minecraft.client.particle.DripParticle$WaterHangProvider
+- net.minecraft.client.particle.DustColorTransitionParticle
++ net.minecraft.client.particle.DustColorTransitionParticle$Provider
+- net.minecraft.client.particle.DustParticle
++ net.minecraft.client.particle.DustParticle$Provider
+- net.minecraft.client.particle.DustParticleBase
++ net.minecraft.client.particle.EnchantmentTableParticle
+- net.minecraft.client.particle.EnchantmentTableParticle$NautilusProvider
++ net.minecraft.client.particle.EnchantmentTableParticle$Provider
+- net.minecraft.client.particle.EndRodParticle
++ net.minecraft.client.particle.EndRodParticle$Provider
+- net.minecraft.client.particle.ExplodeParticle
++ net.minecraft.client.particle.ExplodeParticle$Provider
+- net.minecraft.client.particle.FallingDustParticle
++ net.minecraft.client.particle.FallingDustParticle$Provider
+- net.minecraft.client.particle.FireworkParticles
++ net.minecraft.client.particle.FireworkParticles$1
+- net.minecraft.client.particle.FireworkParticles$FlashProvider
++ net.minecraft.client.particle.FireworkParticles$OverlayParticle
+- net.minecraft.client.particle.FireworkParticles$SparkParticle
++ net.minecraft.client.particle.FireworkParticles$SparkProvider
+- net.minecraft.client.particle.FireworkParticles$Starter
++ net.minecraft.client.particle.FlameParticle
+- net.minecraft.client.particle.FlameParticle$Provider
++ net.minecraft.client.particle.FlameParticle$SmallFlameProvider
+- net.minecraft.client.particle.GlowParticle
++ net.minecraft.client.particle.GlowParticle$ElectricSparkProvider
+- net.minecraft.client.particle.GlowParticle$GlowSquidProvider
++ net.minecraft.client.particle.GlowParticle$ScrapeProvider
+- net.minecraft.client.particle.GlowParticle$WaxOffProvider
++ net.minecraft.client.particle.GlowParticle$WaxOnProvider
+- net.minecraft.client.particle.HeartParticle
++ net.minecraft.client.particle.HeartParticle$AngryVillagerProvider
+- net.minecraft.client.particle.HeartParticle$Provider
++ net.minecraft.client.particle.HugeExplosionParticle
+- net.minecraft.client.particle.HugeExplosionParticle$Provider
++ net.minecraft.client.particle.HugeExplosionSeedParticle
+- net.minecraft.client.particle.HugeExplosionSeedParticle$Provider
++ net.minecraft.client.particle.ItemPickupParticle
+- net.minecraft.client.particle.LargeSmokeParticle
++ net.minecraft.client.particle.LargeSmokeParticle$Provider
+- net.minecraft.client.particle.LavaParticle
++ net.minecraft.client.particle.LavaParticle$Provider
+- net.minecraft.client.particle.MobAppearanceParticle
++ net.minecraft.client.particle.MobAppearanceParticle$Provider
+- net.minecraft.client.particle.NoRenderParticle
++ net.minecraft.client.particle.NoteParticle
+- net.minecraft.client.particle.NoteParticle$Provider
++ net.minecraft.client.particle.Particle
+- net.minecraft.client.particle.ParticleDescription
++ net.minecraft.client.particle.ParticleEngine
+- net.minecraft.client.particle.ParticleEngine$MutableSpriteSet
++ net.minecraft.client.particle.ParticleEngine$SpriteParticleRegistration
+- net.minecraft.client.particle.ParticleProvider
++ net.minecraft.client.particle.ParticleRenderType
+- net.minecraft.client.particle.ParticleRenderType$1
++ net.minecraft.client.particle.ParticleRenderType$2
+- net.minecraft.client.particle.ParticleRenderType$3
++ net.minecraft.client.particle.ParticleRenderType$4
+- net.minecraft.client.particle.ParticleRenderType$5
++ net.minecraft.client.particle.ParticleRenderType$6
+- net.minecraft.client.particle.PlayerCloudParticle
++ net.minecraft.client.particle.PlayerCloudParticle$Provider
+- net.minecraft.client.particle.PlayerCloudParticle$SneezeProvider
++ net.minecraft.client.particle.PortalParticle
+- net.minecraft.client.particle.PortalParticle$Provider
++ net.minecraft.client.particle.ReversePortalParticle
+- net.minecraft.client.particle.ReversePortalParticle$ReversePortalProvider
++ net.minecraft.client.particle.RisingParticle
++ net.minecraft.client.particle.SculkChargeParticle$Provider
++ net.minecraft.client.particle.SculkChargePopParticle$Provider
+- net.minecraft.client.particle.SimpleAnimatedParticle
++ net.minecraft.client.particle.SingleQuadParticle
+- net.minecraft.client.particle.SmokeParticle
++ net.minecraft.client.particle.SmokeParticle$Provider
+- net.minecraft.client.particle.SnowflakeParticle
++ net.minecraft.client.particle.SnowflakeParticle$Provider
+- net.minecraft.client.particle.SoulParticle
++ net.minecraft.client.particle.SoulParticle$EmissiveProvider
++ net.minecraft.client.renderer.entity.GhastRenderer
+- net.minecraft.client.renderer.entity.GiantMobRenderer
++ net.minecraft.client.renderer.entity.GlowSquidRenderer
+- net.minecraft.client.renderer.entity.GoatRenderer
++ net.minecraft.client.renderer.entity.GuardianRenderer
+- net.minecraft.client.renderer.entity.HoglinRenderer
++ net.minecraft.client.renderer.entity.HorseRenderer
+- net.minecraft.client.renderer.entity.HumanoidMobRenderer
++ net.minecraft.client.renderer.entity.HuskRenderer
+- net.minecraft.client.renderer.entity.IllagerRenderer
++ net.minecraft.client.renderer.entity.IllusionerRenderer
+- net.minecraft.client.renderer.entity.IllusionerRenderer$1
++ net.minecraft.client.renderer.entity.IronGolemRenderer
+- net.minecraft.client.renderer.entity.ItemEntityRenderer
++ net.minecraft.client.renderer.entity.ItemFrameRenderer
+- net.minecraft.client.renderer.entity.ItemRenderer
++ net.minecraft.client.renderer.entity.LeashKnotRenderer
+- net.minecraft.client.renderer.entity.LightningBoltRenderer
++ net.minecraft.client.renderer.entity.LivingEntityRenderer
+- net.minecraft.client.renderer.entity.LivingEntityRenderer$1
++ net.minecraft.client.renderer.entity.LlamaRenderer
+- net.minecraft.client.renderer.entity.LlamaSpitRenderer
++ net.minecraft.client.renderer.entity.MagmaCubeRenderer
+- net.minecraft.client.renderer.entity.MinecartRenderer
++ net.minecraft.client.renderer.entity.MobRenderer
+- net.minecraft.client.renderer.entity.MushroomCowRenderer
++ net.minecraft.client.renderer.entity.NoopRenderer
+- net.minecraft.client.renderer.entity.OcelotRenderer
++ net.minecraft.client.renderer.entity.PaintingRenderer
+- net.minecraft.client.renderer.entity.PandaRenderer
++ net.minecraft.client.renderer.entity.ParrotRenderer
+- net.minecraft.client.renderer.entity.PhantomRenderer
+- net.minecraft.client.renderer.entity.PiglinRenderer
++ net.minecraft.client.renderer.entity.PigRenderer
++ net.minecraft.client.renderer.entity.PillagerRenderer
+- net.minecraft.client.renderer.entity.PolarBearRenderer
++ net.minecraft.client.renderer.entity.PufferfishRenderer
+- net.minecraft.client.renderer.entity.RabbitRenderer
++ net.minecraft.client.renderer.entity.RavagerRenderer
+- net.minecraft.client.renderer.entity.RenderLayerParent
++ net.minecraft.client.renderer.entity.SalmonRenderer
+- net.minecraft.client.renderer.entity.SheepRenderer
++ net.minecraft.client.renderer.entity.ShulkerBulletRenderer
+- net.minecraft.client.renderer.entity.ShulkerRenderer
++ net.minecraft.client.renderer.entity.SilverfishRenderer
+- net.minecraft.client.renderer.entity.SkeletonRenderer
++ net.minecraft.client.renderer.entity.SlimeRenderer
+- net.minecraft.client.renderer.entity.SnowGolemRenderer
++ net.minecraft.client.renderer.entity.SpectralArrowRenderer
+- net.minecraft.client.renderer.entity.SpiderRenderer
++ net.minecraft.client.renderer.entity.SquidRenderer
+- net.minecraft.client.renderer.entity.StrayRenderer
++ net.minecraft.client.renderer.entity.StriderRenderer
+- net.minecraft.commands.arguments.blocks.BlockPredicateArgument$1
++ net.minecraft.commands.arguments.blocks.BlockStateParser$TagResult
++ net.minecraft.commands.arguments.EntityArgument$Info
+- net.minecraft.commands.arguments.EntityArgument$Serializer
++ net.minecraft.commands.arguments.EntitySummonArgument
+- net.minecraft.commands.arguments.GameProfileArgument
++ net.minecraft.commands.arguments.GameProfileArgument$Result
+- net.minecraft.commands.arguments.GameProfileArgument$SelectorResult
++ net.minecraft.commands.arguments.item.ItemParser$ItemResult
+- net.minecraft.commands.arguments.item.ItemPredicateArgument$Result
++ net.minecraft.commands.arguments.ItemEnchantmentArgument
+- net.minecraft.commands.arguments.MessageArgument
++ net.minecraft.commands.arguments.MessageArgument$Message
+- net.minecraft.commands.arguments.MessageArgument$Part
++ net.minecraft.commands.arguments.MobEffectArgument
+- net.minecraft.commands.arguments.NbtPathArgument
++ net.minecraft.commands.arguments.NbtPathArgument$AllElementsNode
+- net.minecraft.commands.arguments.NbtPathArgument$CompoundChildNode
++ net.minecraft.commands.arguments.NbtPathArgument$IndexedElementNode
+- net.minecraft.commands.arguments.NbtPathArgument$MatchElementNode
++ net.minecraft.commands.arguments.NbtPathArgument$MatchObjectNode
+- net.minecraft.commands.arguments.NbtPathArgument$MatchRootObjectNode
++ net.minecraft.commands.arguments.NbtPathArgument$NbtPath
+- net.minecraft.commands.arguments.NbtPathArgument$Node
++ net.minecraft.commands.arguments.NbtTagArgument
+- net.minecraft.commands.arguments.ObjectiveArgument
++ net.minecraft.commands.arguments.ObjectiveCriteriaArgument
+- net.minecraft.commands.arguments.OperationArgument
++ net.minecraft.commands.arguments.OperationArgument$Operation
+- net.minecraft.commands.arguments.OperationArgument$SimpleOperation
++ net.minecraft.commands.arguments.ParticleArgument
+- net.minecraft.commands.arguments.RangeArgument
++ net.minecraft.commands.arguments.RangeArgument$Floats
+- net.minecraft.commands.arguments.RangeArgument$Ints
++ net.minecraft.commands.arguments.ResourceKeyArgument
++ net.minecraft.commands.arguments.ResourceKeyArgument$Info$Template
+- net.minecraft.commands.arguments.ResourceKeyArgument$Serializer
++ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Info$Template
+- net.minecraft.commands.arguments.ResourceOrTagLocationArgument$TagResult
++ net.minecraft.commands.arguments.ScoreHolderArgument
++ net.minecraft.commands.arguments.ScoreHolderArgument$Info$Template
+- net.minecraft.commands.arguments.ScoreHolderArgument$Result
++ net.minecraft.commands.arguments.ScoreHolderArgument$SelectorResult
+- net.minecraft.commands.arguments.ScoreHolderArgument$Serializer
++ net.minecraft.commands.CommandBuildContext
++ net.minecraft.commands.CommandBuildContext$2
++ net.minecraft.commands.synchronization.ArgumentTypeInfo$Template
+- net.minecraft.commands.synchronization.ArgumentTypes
++ net.minecraft.commands.synchronization.ArgumentUtils
++ net.minecraft.commands.synchronization.brigadier.DoubleArgumentInfo$Template
+- net.minecraft.commands.synchronization.brigadier.DoubleArgumentSerializer
++ net.minecraft.commands.synchronization.brigadier.FloatArgumentInfo$Template
++ net.minecraft.commands.synchronization.brigadier.IntegerArgumentInfo$Template
+- net.minecraft.commands.synchronization.brigadier.IntegerArgumentSerializer
++ net.minecraft.commands.synchronization.brigadier.LongArgumentInfo$Template
+- net.minecraft.commands.synchronization.brigadier.StringArgumentSerializer
++ net.minecraft.commands.synchronization.brigadier.StringArgumentSerializer$1
+- net.minecraft.commands.synchronization.EmptyArgumentSerializer
++ net.minecraft.commands.synchronization.SingletonArgumentInfo$Template
++ net.minecraft.core.dispenser.DispenseItemBehavior$27
+- net.minecraft.core.dispenser.DispenseItemBehavior$3
++ net.minecraft.core.dispenser.DispenseItemBehavior$4
+- net.minecraft.core.dispenser.DispenseItemBehavior$5
++ net.minecraft.core.dispenser.DispenseItemBehavior$6
+- net.minecraft.core.dispenser.DispenseItemBehavior$7
++ net.minecraft.core.dispenser.DispenseItemBehavior$7$1
+- net.minecraft.core.dispenser.DispenseItemBehavior$8
++ net.minecraft.core.dispenser.DispenseItemBehavior$8$1
+- net.minecraft.core.dispenser.DispenseItemBehavior$9
++ net.minecraft.core.dispenser.OptionalDispenseItemBehavior
+- net.minecraft.core.dispenser.package-info
+- net.minecraft.core.dispenser.ShearsDispenseItemBehavior
++ net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior
++ net.minecraft.core.HolderLookup
++ net.minecraft.core.package-info
+- net.minecraft.core.particles.BlockParticleOption
++ net.minecraft.core.particles.BlockParticleOption$1
+- net.minecraft.core.particles.DustColorTransitionOptions
++ net.minecraft.core.particles.DustColorTransitionOptions$1
+- net.minecraft.core.particles.DustParticleOptions
++ net.minecraft.core.particles.DustParticleOptions$1
+- net.minecraft.core.particles.DustParticleOptionsBase
++ net.minecraft.core.particles.ItemParticleOption
+- net.minecraft.core.particles.ItemParticleOption$1
++ net.minecraft.core.particles.package-info
++ net.minecraft.core.particles.ParticleGroup
+- net.minecraft.core.particles.ParticleOptions
++ net.minecraft.core.particles.ParticleOptions$Deserializer
+- net.minecraft.core.particles.ParticleType
++ net.minecraft.core.particles.ParticleTypes
+- net.minecraft.core.particles.ParticleTypes$1
++ net.minecraft.core.particles.SculkChargeParticleOptions
++ net.minecraft.core.particles.SimpleParticleType
+- net.minecraft.core.particles.SimpleParticleType$1
++ net.minecraft.core.particles.VibrationParticleOption
+- net.minecraft.core.particles.VibrationParticleOption$1
++ net.minecraft.data.advancements.AdvancementProvider
+- net.minecraft.data.advancements.AdventureAdvancements
++ net.minecraft.data.advancements.HusbandryAdvancements
+- net.minecraft.data.advancements.NetherAdvancements
++ net.minecraft.data.advancements.package-info
++ net.minecraft.data.advancements.StoryAdvancements
+- net.minecraft.data.advancements.TheEndAdvancements
+- net.minecraft.data.BlockFamilies
++ net.minecraft.data.BlockFamily
+- net.minecraft.data.BlockFamily$Builder
++ net.minecraft.data.BlockFamily$Variant
+- net.minecraft.data.BuiltinRegistries
++ net.minecraft.data.DataGenerator
+- net.minecraft.data.DataProvider
++ net.minecraft.data.HashCache
+- net.minecraft.data.Main
+- net.minecraft.data.tags.EntityTypeTagsProvider
++ net.minecraft.data.tags.FlatLevelGeneratorPresetTagsProvider
++ net.minecraft.data.tags.StructureTagsProvider
+- net.minecraft.data.tags.TagsProvider
++ net.minecraft.data.tags.TagsProvider$TagAppender
++ net.minecraft.data.worldgen.biome.Biomes
+- net.minecraft.data.worldgen.biome.EndBiomes
++ net.minecraft.data.worldgen.biome.NetherBiomes
+- net.minecraft.data.worldgen.biome.OverworldBiomes
++ net.minecraft.data.worldgen.biome.package-info
++ net.minecraft.data.worldgen.DimensionTypes
+- net.minecraft.data.worldgen.features.AquaticFeatures
++ net.minecraft.data.worldgen.features.CaveFeatures
+- net.minecraft.data.worldgen.features.EndFeatures
++ net.minecraft.data.worldgen.features.FeatureUtils
+- net.minecraft.data.worldgen.features.MiscOverworldFeatures
++ net.minecraft.data.worldgen.features.NetherFeatures
+- net.minecraft.data.worldgen.features.OreFeatures
+- net.minecraft.data.worldgen.features.package-info
++ net.minecraft.data.worldgen.features.PileFeatures
+- net.minecraft.data.worldgen.features.TreeFeatures
++ net.minecraft.data.worldgen.features.VegetationFeatures
+- net.minecraft.data.worldgen.NoiseData
++ net.minecraft.data.worldgen.package-info
++ net.minecraft.data.worldgen.PillagerOutpostPools
+- net.minecraft.data.worldgen.placement.AquaticPlacements
++ net.minecraft.data.worldgen.placement.CavePlacements
+- net.minecraft.data.worldgen.placement.EndPlacements
++ net.minecraft.data.worldgen.placement.MiscOverworldPlacements
+- net.minecraft.data.worldgen.placement.NetherPlacements
++ net.minecraft.data.worldgen.placement.OrePlacements
+- net.minecraft.data.worldgen.placement.package-info
+- net.minecraft.data.worldgen.placement.PlacementUtils
++ net.minecraft.data.worldgen.placement.TreePlacements
+- net.minecraft.data.worldgen.placement.VegetationPlacements
++ net.minecraft.data.worldgen.placement.VillagePlacements
+- net.minecraft.data.worldgen.PlainVillagePools
++ net.minecraft.data.worldgen.Pools
+- net.minecraft.data.worldgen.ProcessorLists
++ net.minecraft.data.worldgen.SavannaVillagePools
+- net.minecraft.data.worldgen.SnowyVillagePools
++ net.minecraft.data.worldgen.SurfaceRuleData
+- net.minecraft.data.worldgen.TaigaVillagePools
++ net.minecraft.data.worldgen.TerrainProvider
+- net.minecraft.data.worldgen.VillagePools
++ net.minecraft.gametest.framework.AfterBatch
+- net.minecraft.gametest.framework.BeforeBatch
++ net.minecraft.gametest.framework.ExhaustedAttemptsException
+- net.minecraft.gametest.framework.GameTest
++ net.minecraft.gametest.framework.GameTestAssertException
+- net.minecraft.gametest.framework.GameTestAssertPosException
++ net.minecraft.gametest.framework.GameTestBatch
+- net.minecraft.gametest.framework.GameTestBatchRunner
++ net.minecraft.gametest.framework.GameTestBatchRunner$1
+- net.minecraft.gametest.framework.GameTestEvent
++ net.minecraft.gametest.framework.GameTestGenerator
+- net.minecraft.gametest.framework.GameTestHelper
++ net.minecraft.gametest.framework.GameTestHelper$1
+- net.minecraft.gametest.framework.GameTestInfo
++ net.minecraft.gametest.framework.GameTestListener
+- net.minecraft.gametest.framework.GameTestRegistry
++ net.minecraft.gametest.framework.GameTestRunner
+- net.minecraft.gametest.framework.GameTestSequence
++ net.minecraft.gametest.framework.GameTestSequence$Condition
+- net.minecraft.gametest.framework.GameTestServer
++ net.minecraft.gametest.framework.GameTestServer$1
+- net.minecraft.gametest.framework.GameTestTicker
++ net.minecraft.gametest.framework.GameTestTimeoutException
+- net.minecraft.gametest.framework.GlobalTestReporter
++ net.minecraft.gametest.framework.JUnitLikeTestReporter
+- net.minecraft.gametest.framework.LogTestReporter
++ net.minecraft.gametest.framework.MultipleTestTracker
+- net.minecraft.gametest.framework.MultipleTestTracker$1
++ net.minecraft.gametest.framework.package-info
++ net.minecraft.gametest.framework.ReportGameListener
+- net.minecraft.gametest.framework.StructureUtils
++ net.minecraft.gametest.framework.StructureUtils$1
+- net.minecraft.gametest.framework.TeamcityTestReporter
++ net.minecraft.gametest.framework.TestClassNameArgument
+- net.minecraft.gametest.framework.TestCommand
++ net.minecraft.gametest.framework.TestCommand$TestSummaryDisplayer
+- net.minecraft.gametest.framework.TestFunction
++ net.minecraft.gametest.framework.TestFunctionArgument
+- net.minecraft.gametest.framework.TestReporter
+- net.minecraft.locale.Language
++ net.minecraft.locale.Language$1
+- net.minecraft.locale.package-info
++ net.minecraft.nbt.ByteArrayTag
+- net.minecraft.nbt.ByteArrayTag$1
++ net.minecraft.nbt.ByteTag
+- net.minecraft.nbt.ByteTag$1
++ net.minecraft.nbt.ByteTag$Cache
+- net.minecraft.nbt.CollectionTag
++ net.minecraft.nbt.CompoundTag
+- net.minecraft.nbt.CompoundTag$1
++ net.minecraft.nbt.CompoundTag$2
+- net.minecraft.nbt.DoubleTag
++ net.minecraft.nbt.DoubleTag$1
+- net.minecraft.nbt.EndTag
++ net.minecraft.nbt.EndTag$1
+- net.minecraft.nbt.FloatTag
++ net.minecraft.nbt.FloatTag$1
+- net.minecraft.nbt.IntArrayTag
++ net.minecraft.nbt.IntArrayTag$1
+- net.minecraft.nbt.IntTag
++ net.minecraft.nbt.IntTag$1
+- net.minecraft.nbt.IntTag$Cache
++ net.minecraft.nbt.ListTag
+- net.minecraft.nbt.ListTag$1
++ net.minecraft.nbt.ListTag$2
+- net.minecraft.nbt.LongArrayTag
++ net.minecraft.nbt.LongArrayTag$1
+- net.minecraft.nbt.LongTag
++ net.minecraft.nbt.LongTag$1
+- net.minecraft.nbt.LongTag$Cache
++ net.minecraft.nbt.NbtAccounter
+- net.minecraft.nbt.NbtAccounter$1
++ net.minecraft.nbt.NbtIo
+- net.minecraft.nbt.NbtIo$1
++ net.minecraft.nbt.NbtOps
+- net.minecraft.nbt.NbtOps$1
++ net.minecraft.nbt.NbtOps$NbtRecordBuilder
+- net.minecraft.nbt.NbtUtils
++ net.minecraft.nbt.NumericTag
+- net.minecraft.nbt.package-info
+- net.minecraft.nbt.ShortTag
++ net.minecraft.nbt.ShortTag$1
+- net.minecraft.nbt.ShortTag$Cache
++ net.minecraft.nbt.SnbtPrinterTagVisitor
+- net.minecraft.nbt.StreamTagVisitor
++ net.minecraft.nbt.StreamTagVisitor$EntryResult
+- net.minecraft.nbt.StreamTagVisitor$ValueResult
++ net.minecraft.nbt.StringTag
+- net.minecraft.nbt.StringTag$1
++ net.minecraft.nbt.StringTagVisitor
+- net.minecraft.nbt.Tag
++ net.minecraft.nbt.TagParser
+- net.minecraft.nbt.TagType
++ net.minecraft.nbt.TagType$1
+- net.minecraft.nbt.TagType$2
++ net.minecraft.nbt.TagType$StaticSize
+- net.minecraft.nbt.TagType$VariableSize
++ net.minecraft.nbt.TagTypes
+- net.minecraft.nbt.TagVisitor
++ net.minecraft.nbt.TextComponentTagVisitor
++ net.minecraft.nbt.visitors.CollectFields
+- net.minecraft.nbt.visitors.CollectToTag
++ net.minecraft.nbt.visitors.FieldSelector
+- net.minecraft.nbt.visitors.FieldTree
+- net.minecraft.nbt.visitors.package-info
++ net.minecraft.nbt.visitors.SkipAll
+- net.minecraft.nbt.visitors.SkipAll$1
++ net.minecraft.nbt.visitors.SkipFields
++ net.minecraft.network.chat.BaseComponent
+- net.minecraft.network.chat.ChatType
++ net.minecraft.network.chat.ClickEvent
+- net.minecraft.network.chat.ClickEvent$Action
++ net.minecraft.network.chat.CommonComponents
+- net.minecraft.network.chat.Component
++ net.minecraft.network.chat.Component$Serializer
+- net.minecraft.network.chat.ComponentUtils
++ net.minecraft.network.chat.ContextAwareComponent
+- net.minecraft.network.chat.FormattedText
++ net.minecraft.network.chat.FormattedText$1
+- net.minecraft.network.chat.FormattedText$2
++ net.minecraft.network.chat.FormattedText$3
+- net.minecraft.network.chat.FormattedText$4
++ net.minecraft.network.chat.FormattedText$ContentConsumer
+- net.minecraft.network.chat.FormattedText$StyledContentConsumer
++ net.minecraft.network.chat.HoverEvent
+- net.minecraft.network.chat.HoverEvent$Action
++ net.minecraft.network.chat.HoverEvent$EntityTooltipInfo
+- net.minecraft.network.chat.HoverEvent$ItemStackInfo
++ net.minecraft.network.chat.KeybindComponent
+- net.minecraft.network.chat.MutableComponent
++ net.minecraft.network.chat.NbtComponent
+- net.minecraft.network.chat.NbtComponent$BlockNbtComponent
++ net.minecraft.network.chat.NbtComponent$EntityNbtComponent
+- net.minecraft.network.chat.NbtComponent$StorageNbtComponent
++ net.minecraft.network.chat.package-info
++ net.minecraft.network.chat.ScoreComponent
+- net.minecraft.network.chat.SelectorComponent
++ net.minecraft.network.chat.Style
+- net.minecraft.network.chat.Style$1
++ net.minecraft.network.chat.Style$Serializer
+- net.minecraft.network.chat.SubStringSource
++ net.minecraft.network.chat.TextColor
+- net.minecraft.network.chat.TextComponent
++ net.minecraft.network.chat.TranslatableComponent
+- net.minecraft.network.chat.TranslatableFormatException
++ net.minecraft.network.CipherBase
+- net.minecraft.network.CipherDecoder
++ net.minecraft.network.CipherEncoder
+- net.minecraft.network.CompressionDecoder
++ net.minecraft.network.CompressionEncoder
+- net.minecraft.network.Connection
++ net.minecraft.network.Connection$1
+- net.minecraft.network.Connection$2
++ net.minecraft.network.Connection$PacketHolder
+- net.minecraft.network.ConnectionProtocol
++ net.minecraft.network.ConnectionProtocol$PacketSet
+- net.minecraft.network.ConnectionProtocol$ProtocolBuilder
++ net.minecraft.network.FriendlyByteBuf
+- net.minecraft.network.package-info
+- net.minecraft.network.PacketDecoder
++ net.minecraft.network.PacketEncoder
+- net.minecraft.network.PacketListener
++ net.minecraft.network.protocol.game.ClientboundAddEntityPacket
+- net.minecraft.network.protocol.game.ClientboundAddExperienceOrbPacket
++ net.minecraft.network.protocol.game.ClientboundAddMobPacket
+- net.minecraft.network.protocol.game.ClientboundAddPaintingPacket
++ net.minecraft.network.protocol.game.ClientboundAddPlayerPacket
+- net.minecraft.network.protocol.game.ClientboundAddVibrationSignalPacket
++ net.minecraft.network.protocol.game.ClientboundAnimatePacket
+- net.minecraft.network.protocol.game.ClientboundAwardStatsPacket
++ net.minecraft.network.protocol.game.ClientboundBlockChangedAckPacket
+- net.minecraft.network.protocol.game.ClientboundBlockDestructionPacket
++ net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket
+- net.minecraft.network.protocol.game.ClientboundBlockEventPacket
++ net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$1
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$AddOperation
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$Handler
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$Operation
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$OperationType
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateNameOperation
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateProgressOperation
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateStyleOperation
+- net.minecraft.network.protocol.game.ClientboundChangeDifficultyPacket
++ net.minecraft.network.protocol.game.ClientboundChatPacket
+- net.minecraft.network.protocol.game.ClientboundClearTitlesPacket
+- net.minecraft.network.protocol.game.ClientboundCommandsPacket
++ net.minecraft.network.protocol.game.ClientboundCommandsPacket$ArgumentNodeStub
++ net.minecraft.network.protocol.game.ClientboundCommandsPacket$LiteralNodeStub
++ net.minecraft.network.protocol.game.ClientboundCommandsPacket$NodeStub
++ net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket
+- net.minecraft.network.protocol.game.ClientboundContainerClosePacket
++ net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket
+- net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket
++ net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket
+- net.minecraft.network.protocol.game.ClientboundCooldownPacket
++ net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket
+- net.minecraft.network.protocol.game.ClientboundCustomSoundPacket
++ net.minecraft.network.protocol.game.ClientboundDisconnectPacket
+- net.minecraft.network.protocol.game.ClientboundEntityEventPacket
++ net.minecraft.network.protocol.game.ClientboundExplodePacket
+- net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket
++ net.minecraft.network.protocol.game.ClientboundGameEventPacket
+- net.minecraft.network.protocol.game.ClientboundGameEventPacket$Type
++ net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket
+- net.minecraft.network.protocol.game.ClientboundInitializeBorderPacket
++ net.minecraft.network.protocol.game.ClientboundKeepAlivePacket
+- net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData
++ net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData$BlockEntityInfo
+- net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData$BlockEntityTagOutput
++ net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket
+- net.minecraft.network.protocol.game.ClientboundLevelEventPacket
++ net.minecraft.network.protocol.game.ClientboundLevelParticlesPacket
+- net.minecraft.network.protocol.game.ClientboundLightUpdatePacket
++ net.minecraft.network.protocol.game.ClientboundLightUpdatePacketData
+- net.minecraft.network.protocol.game.ClientboundLoginPacket
++ net.minecraft.network.protocol.game.ClientboundMapItemDataPacket
+- net.minecraft.network.protocol.game.ClientboundMerchantOffersPacket
++ net.minecraft.network.protocol.game.ClientboundMoveEntityPacket
+- net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$Pos
++ net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$PosRot
+- net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$Rot
++ net.minecraft.network.protocol.game.ClientboundMoveVehiclePacket
+- net.minecraft.network.protocol.game.ClientboundOpenBookPacket
++ net.minecraft.network.protocol.game.ClientboundOpenScreenPacket
+- net.minecraft.network.protocol.game.ClientboundOpenSignEditorPacket
++ net.minecraft.network.protocol.game.ClientboundPingPacket
+- net.minecraft.network.protocol.game.ClientboundPlaceGhostRecipePacket
++ net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerCombatEndPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerCombatEnterPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerCombatKillPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$1
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$2
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$3
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$4
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$5
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate
++ net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument
+- net.minecraft.network.protocol.game.ClientboundRecipePacket
++ net.minecraft.network.protocol.game.ClientboundRecipePacket$State
+- net.minecraft.network.protocol.game.ClientboundRemoveEntitiesPacket
++ net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket
+- net.minecraft.network.protocol.game.ClientboundResourcePackPacket
++ net.minecraft.network.protocol.game.ClientboundRespawnPacket
+- net.minecraft.network.protocol.game.ClientboundRotateHeadPacket
++ net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket
+- net.minecraft.network.protocol.game.ClientboundSelectAdvancementsTabPacket
++ net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket
+- net.minecraft.network.protocol.game.ClientboundSetBorderCenterPacket
++ net.minecraft.network.protocol.game.ClientboundSetBorderLerpSizePacket
+- net.minecraft.network.protocol.game.ClientboundSetBorderSizePacket
++ net.minecraft.network.protocol.game.ClientboundSetBorderWarningDelayPacket
+- net.minecraft.network.protocol.game.ClientboundSetBorderWarningDistancePacket
++ net.minecraft.network.protocol.game.ClientboundSetCameraPacket
+- net.minecraft.network.protocol.game.ClientboundSetCarriedItemPacket
++ net.minecraft.network.protocol.game.ClientboundSetChunkCacheCenterPacket
+- net.minecraft.network.protocol.game.ClientboundSetChunkCacheRadiusPacket
++ net.minecraft.network.protocol.game.ClientboundSetDefaultSpawnPositionPacket
+- net.minecraft.network.protocol.game.ClientboundSetDisplayObjectivePacket
++ net.minecraft.network.protocol.game.ClientboundSetEntityDataPacket
+- net.minecraft.network.protocol.game.ClientboundSetEntityLinkPacket
++ net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket
+- net.minecraft.network.protocol.game.ClientboundSetEquipmentPacket
++ net.minecraft.network.protocol.game.ClientboundSetExperiencePacket
+- net.minecraft.network.protocol.game.ClientboundSetHealthPacket
++ net.minecraft.network.protocol.game.ClientboundSetObjectivePacket
+- net.minecraft.network.protocol.game.ClientboundSetPassengersPacket
++ net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket
+- net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket$Action
++ net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket$Parameters
+- net.minecraft.network.protocol.game.ClientboundSetScorePacket
++ net.minecraft.network.protocol.game.ClientboundSetSimulationDistancePacket
+- net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket
++ net.minecraft.network.protocol.game.ClientboundSetTimePacket
++ net.minecraft.network.protocol.game.ClientboundSetTitlesAnimationPacket
+- net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket
+- net.minecraft.network.protocol.game.ClientboundSoundEntityPacket
++ net.minecraft.network.protocol.game.ClientboundSoundPacket
+- net.minecraft.network.protocol.game.ClientboundStopSoundPacket
++ net.minecraft.network.protocol.game.ClientboundTabListPacket
+- net.minecraft.network.protocol.game.ClientboundTagQueryPacket
++ net.minecraft.network.protocol.game.ClientboundTakeItemEntityPacket
+- net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket
++ net.minecraft.network.protocol.game.ClientboundUpdateAdvancementsPacket
+- net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket
++ net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket$AttributeSnapshot
+- net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket
++ net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket
+- net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket
+- net.minecraft.network.protocol.game.ClientGamePacketListener
++ net.minecraft.network.protocol.game.DebugEntityNameGenerator
+- net.minecraft.network.protocol.game.DebugPackets
++ net.minecraft.network.protocol.game.package-info
++ net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket
+- net.minecraft.network.protocol.game.ServerboundBlockEntityTagQuery
++ net.minecraft.network.protocol.game.ServerboundChangeDifficultyPacket
+- net.minecraft.network.protocol.game.ServerboundChatPacket
++ net.minecraft.network.protocol.game.ServerboundClientCommandPacket
+- net.minecraft.network.protocol.game.ServerboundClientCommandPacket$Action
++ net.minecraft.network.protocol.game.ServerboundClientInformationPacket
+- net.minecraft.network.protocol.game.ServerboundCommandSuggestionPacket
++ net.minecraft.network.protocol.game.ServerboundContainerButtonClickPacket
+- net.minecraft.network.protocol.game.ServerboundContainerClickPacket
++ net.minecraft.network.protocol.game.ServerboundContainerClosePacket
+- net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket
++ net.minecraft.network.protocol.game.ServerboundEditBookPacket
+- net.minecraft.network.protocol.game.ServerboundEntityTagQuery
++ net.minecraft.network.protocol.game.ServerboundInteractPacket
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$1
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$Action
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$ActionType
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$Handler
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAtLocationAction
+- net.minecraft.network.protocol.game.ServerboundJigsawGeneratePacket
++ net.minecraft.network.protocol.game.ServerboundKeepAlivePacket
+- net.minecraft.network.protocol.game.ServerboundLockDifficultyPacket
++ net.minecraft.network.protocol.game.ServerboundMovePlayerPacket
+- net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos
++ net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot
+- net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Rot
++ net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$StatusOnly
+- net.minecraft.network.protocol.game.ServerboundMoveVehiclePacket
++ net.minecraft.network.protocol.game.ServerboundPaddleBoatPacket
+- net.minecraft.network.protocol.game.ServerboundPickItemPacket
++ net.minecraft.network.protocol.game.ServerboundPlaceRecipePacket
+- net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket
++ net.minecraft.network.protocol.game.ServerboundPlayerActionPacket
+- net.minecraft.network.protocol.game.ServerboundPlayerActionPacket$Action
++ net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket
+- net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket$Action
++ net.minecraft.network.protocol.game.ServerboundPlayerInputPacket
+- net.minecraft.network.protocol.game.ServerboundPongPacket
++ net.minecraft.network.protocol.game.ServerboundRecipeBookChangeSettingsPacket
+- net.minecraft.network.protocol.game.ServerboundRecipeBookSeenRecipePacket
++ net.minecraft.network.protocol.game.ServerboundRenameItemPacket
+- net.minecraft.network.protocol.game.ServerboundResourcePackPacket
++ net.minecraft.network.protocol.game.ServerboundResourcePackPacket$Action
+- net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket
++ net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket$Action
+- net.minecraft.network.protocol.game.ServerboundSelectTradePacket
++ net.minecraft.network.protocol.game.ServerboundSetBeaconPacket
+- net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket
++ net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket
+- net.minecraft.network.protocol.game.ServerboundSetCommandMinecartPacket
++ net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket
+- net.minecraft.network.protocol.game.ServerboundSetJigsawBlockPacket
++ net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket
+- net.minecraft.network.protocol.game.ServerboundSignUpdatePacket
++ net.minecraft.network.protocol.game.ServerboundSwingPacket
+- net.minecraft.network.protocol.game.ServerboundTeleportToEntityPacket
++ net.minecraft.network.protocol.game.ServerboundUseItemOnPacket
+- net.minecraft.network.protocol.game.ServerboundUseItemPacket
++ net.minecraft.network.protocol.game.ServerGamePacketListener
+- net.minecraft.network.protocol.game.ServerPacketListener
+- net.minecraft.network.protocol.handshake.ClientIntentionPacket
+- net.minecraft.network.protocol.handshake.package-info
++ net.minecraft.network.protocol.handshake.ServerHandshakePacketListener
+- net.minecraft.network.protocol.login.ClientboundCustomQueryPacket
++ net.minecraft.network.protocol.login.ClientboundGameProfilePacket
+- net.minecraft.network.protocol.login.ClientboundHelloPacket
++ net.minecraft.network.protocol.login.ClientboundLoginCompressionPacket
+- net.minecraft.network.protocol.login.ClientboundLoginDisconnectPacket
++ net.minecraft.network.protocol.login.ClientLoginPacketListener
++ net.minecraft.network.protocol.login.package-info
+- net.minecraft.network.protocol.login.ServerboundCustomQueryPacket
++ net.minecraft.network.protocol.login.ServerboundHelloPacket
+- net.minecraft.network.protocol.login.ServerboundKeyPacket
++ net.minecraft.network.protocol.login.ServerLoginPacketListener
+- net.minecraft.network.protocol.package-info
++ net.minecraft.network.protocol.Packet
+- net.minecraft.network.protocol.PacketFlow
++ net.minecraft.network.protocol.PacketUtils
+- net.minecraft.network.protocol.status.ClientboundPongResponsePacket
++ net.minecraft.network.protocol.status.ClientboundStatusResponsePacket
++ net.minecraft.network.protocol.status.ClientStatusPacketListener
++ net.minecraft.network.protocol.status.package-info
++ net.minecraft.network.protocol.status.ServerboundPingRequestPacket
+- net.minecraft.network.protocol.status.ServerboundStatusRequestPacket
+- net.minecraft.network.protocol.status.ServerStatus
++ net.minecraft.network.protocol.status.ServerStatus$Players
+- net.minecraft.network.protocol.status.ServerStatus$Players$Serializer
++ net.minecraft.network.protocol.status.ServerStatus$Serializer
+- net.minecraft.network.protocol.status.ServerStatus$Version
++ net.minecraft.network.protocol.status.ServerStatus$Version$Serializer
+- net.minecraft.network.protocol.status.ServerStatusPacketListener
++ net.minecraft.network.RateKickingConnection
+- net.minecraft.network.SkipPacketException
+- net.minecraft.network.syncher.EntityDataAccessor
++ net.minecraft.network.syncher.EntityDataSerializer
+- net.minecraft.network.syncher.EntityDataSerializers
++ net.minecraft.network.syncher.EntityDataSerializers$1
+- net.minecraft.network.syncher.EntityDataSerializers$10
++ net.minecraft.network.syncher.EntityDataSerializers$11
+- net.minecraft.network.syncher.EntityDataSerializers$12
++ net.minecraft.network.syncher.EntityDataSerializers$13
+- net.minecraft.network.syncher.EntityDataSerializers$14
++ net.minecraft.network.syncher.EntityDataSerializers$15
+- net.minecraft.network.syncher.EntityDataSerializers$16
++ net.minecraft.network.syncher.EntityDataSerializers$17
+- net.minecraft.network.syncher.EntityDataSerializers$18
++ net.minecraft.network.syncher.EntityDataSerializers$19
+- net.minecraft.network.syncher.EntityDataSerializers$2
++ net.minecraft.network.syncher.EntityDataSerializers$3
+- net.minecraft.network.syncher.EntityDataSerializers$4
++ net.minecraft.network.syncher.EntityDataSerializers$5
+- net.minecraft.network.syncher.EntityDataSerializers$6
++ net.minecraft.network.syncher.EntityDataSerializers$7
+- net.minecraft.network.syncher.EntityDataSerializers$8
++ net.minecraft.network.syncher.EntityDataSerializers$9
+- net.minecraft.network.syncher.package-info
+- net.minecraft.network.syncher.SynchedEntityData
++ net.minecraft.network.syncher.SynchedEntityData$DataItem
++ net.minecraft.network.Varint21FrameDecoder
+- net.minecraft.network.Varint21LengthFieldPrepender
++ net.minecraft.obfuscate.DontObfuscate
+- net.minecraft.obfuscate.package-info
++ net.minecraft.package-info
+- net.minecraft.realms.DisconnectedRealmsScreen
+- net.minecraft.realms.package-info
++ net.minecraft.realms.RealmsConnect
+- net.minecraft.realms.RealmsConnect$1
++ net.minecraft.realms.RealmsLabel
+- net.minecraft.realms.RealmsObjectSelectionList
++ net.minecraft.realms.RealmsScreen
+- net.minecraft.realms.RepeatedNarrator
++ net.minecraft.realms.RepeatedNarrator$Params
++ net.minecraft.recipebook.package-info
++ net.minecraft.recipebook.PlaceRecipe
+- net.minecraft.recipebook.ServerPlaceRecipe
+- net.minecraft.resources.DelegatingOps
++ net.minecraft.resources.HolderSetCodec
+- net.minecraft.resources.RegistryFileCodec
++ net.minecraft.resources.RegistryFixedCodec
+- net.minecraft.resources.RegistryLoader
++ net.minecraft.resources.RegistryLoader$Bound
+- net.minecraft.resources.RegistryLoader$ReadCache
++ net.minecraft.resources.RegistryOps
+- net.minecraft.resources.RegistryResourceAccess
++ net.minecraft.resources.RegistryResourceAccess$1
++ net.minecraft.server.packs.resources.FallbackResourceManager$EntryStack
+- net.minecraft.server.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream
++ net.minecraft.server.packs.resources.FallbackResourceManager$PackEntry
++ net.minecraft.server.packs.resources.MultiPackResourceManager
+- net.minecraft.server.packs.resources.PreparableReloadListener
++ net.minecraft.server.packs.resources.PreparableReloadListener$PreparationBarrier
+- net.minecraft.server.packs.resources.ProfiledReloadInstance
++ net.minecraft.server.packs.resources.ProfiledReloadInstance$State
++ net.minecraft.server.packs.resources.ReloadableResourceManager
+- net.minecraft.server.packs.resources.ReloadInstance
+- net.minecraft.server.packs.resources.Resource
++ net.minecraft.server.packs.resources.ResourceFilterSection
++ net.minecraft.server.packs.resources.ResourceFilterSection$ResourceLocationPattern
++ net.minecraft.server.packs.resources.ResourceThunk$ResourceSupplier
++ net.minecraft.server.WorldLoader
++ net.minecraft.server.WorldLoader$PackConfig
++ net.minecraft.server.WorldLoader$WorldDataSupplier
+- net.minecraft.server.WorldStem
+- net.minecraft.server.WorldStem$InitConfig
+- net.minecraft.tags.ConfiguredStructureTags
++ net.minecraft.tags.EntityTypeTags
++ net.minecraft.tags.Tag
+- net.minecraft.tags.Tag$Builder
++ net.minecraft.tags.Tag$BuilderEntry
+- net.minecraft.tags.Tag$ElementEntry
++ net.minecraft.tags.Tag$Entry
+- net.minecraft.tags.Tag$OptionalElementEntry
++ net.minecraft.tags.Tag$OptionalTagEntry
+- net.minecraft.tags.Tag$TagEntry
++ net.minecraft.tags.TagKey
+- net.minecraft.tags.TagLoader
++ net.minecraft.tags.TagManager
+- net.minecraft.tags.TagManager$LoadResult
++ net.minecraft.tags.TagNetworkSerialization
+- net.minecraft.tags.TagNetworkSerialization$NetworkPayload
++ net.minecraft.tags.TagNetworkSerialization$TagOutput
++ net.minecraft.util.datafix.fixes.BlockEntityBannerColorFix
+- net.minecraft.util.datafix.fixes.BlockEntityBlockStateFix
++ net.minecraft.util.datafix.fixes.BlockEntityCustomNameToComponentFix
+- net.minecraft.util.datafix.fixes.BlockEntityIdFix
++ net.minecraft.util.datafix.fixes.BlockEntityJukeboxFix
+- net.minecraft.util.datafix.fixes.BlockEntityKeepPacked
++ net.minecraft.util.datafix.fixes.BlockEntityShulkerBoxColorFix
+- net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix
++ net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix$1
+- net.minecraft.util.datafix.fixes.BlockEntityUUIDFix
++ net.minecraft.util.datafix.fixes.BlockNameFlatteningFix
+- net.minecraft.util.datafix.fixes.BlockRenameFix
++ net.minecraft.util.datafix.fixes.BlockRenameFix$1
+- net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw
++ net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw$1
+- net.minecraft.util.datafix.fixes.BlockStateData
++ net.minecraft.util.datafix.fixes.BlockStateStructureTemplateFix
+- net.minecraft.util.datafix.fixes.CatTypeFix
++ net.minecraft.util.datafix.fixes.CauldronRenameFix
+- net.minecraft.util.datafix.fixes.CavesAndCliffsRenames
++ net.minecraft.util.datafix.fixes.ChunkBedBlockEntityInjecterFix
+- net.minecraft.util.datafix.fixes.ChunkBiomeFix
++ net.minecraft.util.datafix.fixes.ChunkDeleteIgnoredLightDataFix
++ net.minecraft.util.datafix.schemas.V3076
++ net.minecraft.util.ToFloatFunction$2
++ net.minecraft.Util$11
+- net.minecraft.Util$2
++ net.minecraft.world.entity.ai.attributes.Attribute
+- net.minecraft.world.entity.ai.attributes.AttributeInstance
++ net.minecraft.world.entity.ai.attributes.AttributeMap
+- net.minecraft.world.entity.ai.attributes.AttributeModifier
++ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation
+- net.minecraft.world.entity.ai.attributes.Attributes
+- net.minecraft.world.entity.ai.attributes.AttributeSupplier
++ net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder
++ net.minecraft.world.entity.ai.attributes.DefaultAttributes
++ net.minecraft.world.entity.ai.attributes.package-info
+- net.minecraft.world.entity.ai.attributes.RangedAttribute
+- net.minecraft.world.entity.ai.behavior.AcquirePoi
++ net.minecraft.world.entity.ai.behavior.AcquirePoi$JitteredLinearRetry
+- net.minecraft.world.entity.ai.behavior.AnimalMakeLove
++ net.minecraft.world.entity.ai.behavior.AnimalPanic
+- net.minecraft.world.entity.ai.behavior.AssignProfessionFromJobSite
++ net.minecraft.world.entity.ai.behavior.BabyFollowAdult
+- net.minecraft.world.entity.ai.behavior.BackUpIfTooClose
++ net.minecraft.world.entity.ai.behavior.BecomePassiveIfMemoryPresent
+- net.minecraft.world.entity.ai.behavior.Behavior
++ net.minecraft.world.entity.ai.behavior.Behavior$Status
+- net.minecraft.world.entity.ai.behavior.BehaviorUtils
++ net.minecraft.world.entity.ai.behavior.BlockPosTracker
+- net.minecraft.world.entity.ai.behavior.CelebrateVillagersSurvivedRaid
++ net.minecraft.world.entity.ai.behavior.CopyMemoryWithExpiry
+- net.minecraft.world.entity.ai.behavior.CountDownCooldownTicks
++ net.minecraft.world.entity.ai.behavior.Croak
++ net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos
+- net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos$PossibleJump
++ net.minecraft.world.entity.ai.behavior.LookAndFollowTradingPlayerSink
+- net.minecraft.world.entity.ai.behavior.LookAtTargetSink
++ net.minecraft.world.entity.ai.behavior.MeleeAttack
+- net.minecraft.world.entity.ai.behavior.Mount
++ net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot
+- net.minecraft.world.entity.ai.behavior.MoveToTargetSink
++ net.minecraft.world.entity.ai.behavior.PlayTagWithOtherKids
+- net.minecraft.world.entity.ai.behavior.PoiCompetitorScan
++ net.minecraft.world.entity.ai.behavior.PositionTracker
+- net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget
++ net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget$RamCandidate
+- net.minecraft.world.entity.ai.behavior.RamTarget
++ net.minecraft.world.entity.ai.behavior.RandomStroll
+- net.minecraft.world.entity.ai.behavior.RandomSwim
++ net.minecraft.world.entity.ai.behavior.ReactToBell
+- net.minecraft.world.entity.ai.behavior.ResetProfession
++ net.minecraft.world.entity.ai.behavior.ResetRaidStatus
+- net.minecraft.world.entity.ai.behavior.RingBell
++ net.minecraft.world.entity.ai.behavior.RunIf
+- net.minecraft.world.entity.ai.behavior.RunOne
++ net.minecraft.world.entity.ai.behavior.RunSometimes
+- net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget
++ net.minecraft.world.entity.ai.behavior.SetEntityLookTarget
+- net.minecraft.world.entity.ai.behavior.SetHiddenState
++ net.minecraft.world.entity.ai.behavior.SetLookAndInteract
+- net.minecraft.world.entity.ai.behavior.SetRaidStatus
++ net.minecraft.world.entity.ai.behavior.SetWalkTargetAwayFrom
+- net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach
++ net.minecraft.world.entity.ai.behavior.SetWalkTargetFromBlockMemory
+- net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget
++ net.minecraft.world.entity.ai.behavior.ShowTradesToPlayer
+- net.minecraft.world.entity.ai.behavior.ShufflingList
++ net.minecraft.world.entity.ai.behavior.ShufflingList$WeightedEntry
+- net.minecraft.world.entity.ai.behavior.ShufflingList$WeightedEntry$1
++ net.minecraft.world.entity.ai.behavior.SleepInBed
+- net.minecraft.world.entity.ai.behavior.SocializeAtBell
++ net.minecraft.world.entity.ai.behavior.StartAttacking
+- net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead
++ net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid
+- net.minecraft.world.entity.ai.behavior.StopBeingAngryIfTargetDead
++ net.minecraft.world.entity.ai.behavior.StrollAroundPoi
+- net.minecraft.world.entity.ai.behavior.StrollToPoi
++ net.minecraft.world.entity.ai.behavior.StrollToPoiList
+- net.minecraft.world.entity.ai.behavior.Swim
++ net.minecraft.world.entity.ai.behavior.TradeWithVillager
++ net.minecraft.world.entity.ai.behavior.TryFindLandNearWater
+- net.minecraft.world.entity.ai.behavior.TryFindWater
++ net.minecraft.world.entity.ai.behavior.TryLaySpawnOnWaterNearLand
++ net.minecraft.world.entity.ai.Brain
+- net.minecraft.world.entity.ai.Brain$1
++ net.minecraft.world.entity.ai.Brain$MemoryValue
+- net.minecraft.world.entity.ai.Brain$Provider
++ net.minecraft.world.entity.ai.sensing.FrogAttackablesSensor
+- net.minecraft.world.entity.ai.sensing.GolemSensor
++ net.minecraft.world.entity.ai.sensing.HoglinSpecificSensor
+- net.minecraft.world.entity.ai.sensing.HurtBySensor
++ net.minecraft.world.entity.ai.sensing.IsInWaterSensor
++ net.minecraft.world.entity.animal.frog.Frog$FrogLookControl
++ net.minecraft.world.entity.animal.frog.Frog$FrogPathNavigation
++ net.minecraft.world.entity.animal.frog.FrogAi
++ net.minecraft.world.entity.animal.frog.package-info
++ net.minecraft.world.entity.animal.frog.ShootTongue$1
++ net.minecraft.world.entity.animal.frog.Tadpole
++ net.minecraft.world.entity.AreaEffectCloud
+- net.minecraft.world.entity.Entity
++ net.minecraft.world.entity.Entity$1
+- net.minecraft.world.entity.Entity$MoveFunction
++ net.minecraft.world.entity.Entity$MovementEmission
+- net.minecraft.world.entity.Entity$RemovalReason
++ net.minecraft.world.entity.EntityDimensions
+- net.minecraft.world.entity.EntityEvent
++ net.minecraft.world.entity.EntitySelector
+- net.minecraft.world.entity.EntitySelector$MobCanWearArmorEntitySelector
++ net.minecraft.world.entity.EntityType
+- net.minecraft.world.entity.EntityType$1
++ net.minecraft.world.entity.EntityType$Builder
+- net.minecraft.world.entity.EntityType$EntityFactory
++ net.minecraft.world.entity.EquipmentSlot
+- net.minecraft.world.entity.EquipmentSlot$Type
++ net.minecraft.world.entity.ExperienceOrb
+- net.minecraft.world.entity.FlyingMob
++ net.minecraft.world.entity.GlowSquid
+- net.minecraft.world.entity.HumanoidArm
++ net.minecraft.world.entity.ItemBasedSteering
+- net.minecraft.world.entity.ItemSteerable
++ net.minecraft.world.entity.LerpingModel
+- net.minecraft.world.entity.LightningBolt
++ net.minecraft.world.entity.LivingEntity
+- net.minecraft.world.entity.LivingEntity$1
++ net.minecraft.world.entity.LivingEntity$Fallsounds
+- net.minecraft.world.entity.Marker
++ net.minecraft.world.entity.Mob
+- net.minecraft.world.entity.Mob$1
++ net.minecraft.world.entity.MobCategory
+- net.minecraft.world.entity.MobSpawnType
++ net.minecraft.world.entity.MobType
+- net.minecraft.world.entity.MoverType
++ net.minecraft.world.entity.NeutralMob
+- net.minecraft.world.entity.OwnableEntity
++ net.minecraft.world.entity.PathfinderMob
+- net.minecraft.world.entity.PlayerRideable
++ net.minecraft.world.entity.PlayerRideableJumping
+- net.minecraft.world.entity.Pose
++ net.minecraft.world.entity.PowerableMob
+- net.minecraft.world.entity.ReputationEventHandler
++ net.minecraft.world.entity.Saddleable
+- net.minecraft.world.entity.Shearable
++ net.minecraft.world.entity.SlotAccess
+- net.minecraft.world.entity.SlotAccess$1
++ net.minecraft.world.entity.SlotAccess$2
+- net.minecraft.world.entity.SlotAccess$3
++ net.minecraft.world.entity.SpawnGroupData
+- net.minecraft.world.entity.SpawnPlacements
++ net.minecraft.world.entity.SpawnPlacements$Data
+- net.minecraft.world.entity.SpawnPlacements$SpawnPredicate
++ net.minecraft.world.entity.SpawnPlacements$Type
+- net.minecraft.world.entity.TamableAnimal
++ net.minecraft.world.item.PlayerHeadItem
+- net.minecraft.world.item.PotionItem
++ net.minecraft.world.item.ProjectileWeaponItem
+- net.minecraft.world.item.Rarity
++ net.minecraft.world.item.RecordItem
+- net.minecraft.world.item.SaddleItem
++ net.minecraft.world.item.ScaffoldingBlockItem
+- net.minecraft.world.item.ServerItemCooldowns
++ net.minecraft.world.item.ShearsItem
+- net.minecraft.world.item.ShieldItem
++ net.minecraft.world.item.ShovelItem
+- net.minecraft.world.item.SignItem
++ net.minecraft.world.item.SimpleFoiledItem
+- net.minecraft.world.item.SnowballItem
++ net.minecraft.world.item.SolidBucketItem
+- net.minecraft.world.item.SpawnEggItem
++ net.minecraft.world.item.SpectralArrowItem
+- net.minecraft.world.item.SplashPotionItem
++ net.minecraft.world.item.SpyglassItem
+- net.minecraft.world.item.StandingAndWallBlockItem
++ net.minecraft.world.item.SuspiciousStewItem
+- net.minecraft.world.item.SwordItem
++ net.minecraft.world.item.ThrowablePotionItem
+- net.minecraft.world.item.Tier
++ net.minecraft.world.item.TieredItem
+- net.minecraft.world.item.Tiers
++ net.minecraft.world.item.TippedArrowItem
+- net.minecraft.world.item.TooltipFlag
++ net.minecraft.world.item.TooltipFlag$Default
+- net.minecraft.world.item.TridentItem
++ net.minecraft.world.item.UseAnim
+- net.minecraft.world.item.Vanishable
+- net.minecraft.world.level.biome.Biome$BiomeCategory
++ net.minecraft.world.level.biome.Biome$ClimateSettings
+- net.minecraft.world.level.biome.Biome$Precipitation
++ net.minecraft.world.level.biome.Biome$TemperatureModifier
+- net.minecraft.world.level.biome.Biome$TemperatureModifier$1
++ net.minecraft.world.level.biome.Biome$TemperatureModifier$2
+- net.minecraft.world.level.biome.BiomeGenerationSettings
++ net.minecraft.world.level.biome.BiomeGenerationSettings$Builder
+- net.minecraft.world.level.biome.BiomeManager
++ net.minecraft.world.level.biome.BiomeManager$NoiseBiomeSource
+- net.minecraft.world.level.biome.BiomeResolver
+- net.minecraft.world.level.biome.Biomes
++ net.minecraft.world.level.biome.BiomeSource
+- net.minecraft.world.level.biome.BiomeSource$1FeatureData
++ net.minecraft.world.level.biome.BiomeSource$StepFeatureData
+- net.minecraft.world.level.biome.BiomeSpecialEffects
++ net.minecraft.world.level.biome.BiomeSpecialEffects$Builder
+- net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier
++ net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$1
+- net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$2
++ net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$3
++ net.minecraft.world.level.biome.CheckerboardColumnBiomeSource
+- net.minecraft.world.level.biome.Climate
++ net.minecraft.world.level.biome.Climate$DistanceMetric
+- net.minecraft.world.level.biome.Climate$Parameter
++ net.minecraft.world.level.biome.Climate$ParameterList
+- net.minecraft.world.level.biome.Climate$ParameterPoint
++ net.minecraft.world.level.biome.Climate$RTree
+- net.minecraft.world.level.biome.Climate$RTree$Leaf
++ net.minecraft.world.level.biome.Climate$RTree$Node
+- net.minecraft.world.level.biome.Climate$RTree$SubTree
++ net.minecraft.world.level.biome.Climate$Sampler
+- net.minecraft.world.level.biome.Climate$SpawnFinder
++ net.minecraft.world.level.biome.Climate$SpawnFinder$Result
+- net.minecraft.world.level.biome.Climate$TargetPoint
++ net.minecraft.world.level.biome.FixedBiomeSource
+- net.minecraft.world.level.biome.MobSpawnSettings
++ net.minecraft.world.level.biome.MobSpawnSettings$Builder
+- net.minecraft.world.level.biome.MobSpawnSettings$MobSpawnCost
++ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData
+- net.minecraft.world.level.biome.MultiNoiseBiomeSource
++ net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset
+- net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance
++ net.minecraft.world.level.biome.OverworldBiomeBuilder
+- net.minecraft.world.level.biome.TerrainShaper
+- net.minecraft.world.level.biome.TerrainShaper$CoordinateCustom
+- net.minecraft.world.level.biome.TerrainShaper$PointCustom
++ net.minecraft.world.level.block.DropperBlock
+- net.minecraft.world.level.block.EnchantmentTableBlock
++ net.minecraft.world.level.block.EnderChestBlock
++ net.minecraft.world.level.block.EndGatewayBlock
+- net.minecraft.world.level.block.EndPortalBlock
++ net.minecraft.world.level.block.EndPortalFrameBlock
+- net.minecraft.world.level.block.EndRodBlock
+- net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
++ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$1
+- net.minecraft.world.level.block.entity.BannerBlockEntity
++ net.minecraft.world.level.block.entity.BannerPattern
+- net.minecraft.world.level.block.entity.BannerPattern$Builder
++ net.minecraft.world.level.block.entity.BarrelBlockEntity
+- net.minecraft.world.level.block.entity.BarrelBlockEntity$1
++ net.minecraft.world.level.block.entity.BaseContainerBlockEntity
+- net.minecraft.world.level.block.entity.BeaconBlockEntity
++ net.minecraft.world.level.block.entity.BeaconBlockEntity$1
+- net.minecraft.world.level.block.entity.BeaconBlockEntity$BeaconBeamSection
++ net.minecraft.world.level.block.entity.BedBlockEntity
+- net.minecraft.world.level.block.entity.BeehiveBlockEntity
++ net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeData
+- net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeReleaseStatus
++ net.minecraft.world.level.block.entity.BellBlockEntity
+- net.minecraft.world.level.block.entity.BellBlockEntity$ResonationEndAction
++ net.minecraft.world.level.block.entity.BlastFurnaceBlockEntity
+- net.minecraft.world.level.block.entity.BlockEntity
++ net.minecraft.world.level.block.entity.BlockEntityTicker
+- net.minecraft.world.level.block.entity.BlockEntityType
++ net.minecraft.world.level.block.entity.BlockEntityType$BlockEntitySupplier
+- net.minecraft.world.level.block.entity.BlockEntityType$Builder
++ net.minecraft.world.level.block.entity.BrewingStandBlockEntity
+- net.minecraft.world.level.block.entity.BrewingStandBlockEntity$1
++ net.minecraft.world.level.block.entity.CampfireBlockEntity
+- net.minecraft.world.level.block.entity.ChestBlockEntity
++ net.minecraft.world.level.block.entity.ChestBlockEntity$1
+- net.minecraft.world.level.block.entity.ChestLidController
++ net.minecraft.world.level.block.entity.CommandBlockEntity
+- net.minecraft.world.level.block.entity.CommandBlockEntity$1
++ net.minecraft.world.level.block.entity.CommandBlockEntity$Mode
+- net.minecraft.world.level.block.entity.ComparatorBlockEntity
++ net.minecraft.world.level.block.entity.ConduitBlockEntity
+- net.minecraft.world.level.block.entity.ContainerOpenersCounter
++ net.minecraft.world.level.block.entity.DaylightDetectorBlockEntity
+- net.minecraft.world.level.block.entity.DispenserBlockEntity
++ net.minecraft.world.level.block.entity.DropperBlockEntity
+- net.minecraft.world.level.block.entity.EnchantmentTableBlockEntity
++ net.minecraft.world.level.block.entity.EnderChestBlockEntity
+- net.minecraft.world.level.block.entity.EnderChestBlockEntity$1
++ net.minecraft.world.level.block.entity.FurnaceBlockEntity
+- net.minecraft.world.level.block.entity.Hopper
++ net.minecraft.world.level.block.entity.HopperBlockEntity
+- net.minecraft.world.level.block.entity.JigsawBlockEntity
++ net.minecraft.world.level.block.entity.JigsawBlockEntity$JointType
+- net.minecraft.world.level.block.entity.JukeboxBlockEntity
++ net.minecraft.world.level.block.entity.LecternBlockEntity
+- net.minecraft.world.level.block.entity.LecternBlockEntity$1
++ net.minecraft.world.level.block.entity.LecternBlockEntity$2
+- net.minecraft.world.level.block.entity.LidBlockEntity
++ net.minecraft.world.level.block.entity.package-info
++ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity
++ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity
+- net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$1
++ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$AnimationStatus
+- net.minecraft.world.level.block.entity.SignBlockEntity
++ net.minecraft.world.level.block.entity.SkullBlockEntity
+- net.minecraft.world.level.block.entity.SmokerBlockEntity
++ net.minecraft.world.level.block.entity.SpawnerBlockEntity
+- net.minecraft.world.level.block.entity.SpawnerBlockEntity$1
++ net.minecraft.world.level.block.entity.StructureBlockEntity
+- net.minecraft.world.level.block.entity.StructureBlockEntity$UpdateType
++ net.minecraft.world.level.block.entity.TheEndGatewayBlockEntity
+- net.minecraft.world.level.block.entity.TheEndPortalBlockEntity
++ net.minecraft.world.level.block.entity.TickingBlockEntity
+- net.minecraft.world.level.block.entity.TrappedChestBlockEntity
+- net.minecraft.world.level.block.EntityBlock
++ net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock
+- net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock$1
++ net.minecraft.world.level.block.Fallable
+- net.minecraft.world.level.block.FallingBlock
++ net.minecraft.world.level.block.FarmBlock
+- net.minecraft.world.level.block.FenceBlock
++ net.minecraft.world.level.block.FenceGateBlock
+- net.minecraft.world.level.block.FenceGateBlock$1
++ net.minecraft.world.level.block.FireBlock
+- net.minecraft.world.level.block.FletchingTableBlock
++ net.minecraft.world.level.block.FlowerBlock
+- net.minecraft.world.level.block.FlowerPotBlock
++ net.minecraft.world.level.block.FrogspawnBlock
+- net.minecraft.world.level.block.grower.AbstractMegaTreeGrower
++ net.minecraft.world.level.block.grower.AbstractTreeGrower
+- net.minecraft.world.level.block.grower.AcaciaTreeGrower
++ net.minecraft.world.level.block.grower.AzaleaTreeGrower
+- net.minecraft.world.level.block.grower.BirchTreeGrower
++ net.minecraft.world.level.block.grower.DarkOakTreeGrower
+- net.minecraft.world.level.block.grower.JungleTreeGrower
++ net.minecraft.world.level.block.grower.OakTreeGrower
++ net.minecraft.world.level.block.grower.package-info
+- net.minecraft.world.level.block.grower.SpruceTreeGrower
++ net.minecraft.world.level.block.MangroveLeavesBlock
++ net.minecraft.world.level.block.MangroveRootsBlock
+- net.minecraft.world.level.block.MelonBlock
++ net.minecraft.world.level.block.Mirror
+- net.minecraft.world.level.block.Mirror$1
++ net.minecraft.world.level.block.MossBlock
++ net.minecraft.world.level.block.MultifaceSpreader$DefaultSpreaderConfig
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadPos
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadType
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadType$2
++ net.minecraft.world.level.block.MushroomBlock
+- net.minecraft.world.level.block.MyceliumBlock
++ net.minecraft.world.level.block.NetherPortalBlock
+- net.minecraft.world.level.block.NetherPortalBlock$1
+- net.minecraft.world.level.block.NetherrackBlock
++ net.minecraft.world.level.block.NetherSproutsBlock
+- net.minecraft.world.level.block.NetherVines
++ net.minecraft.world.level.block.NetherWartBlock
++ net.minecraft.world.level.block.NoteBlock
+- net.minecraft.world.level.block.NyliumBlock
++ net.minecraft.world.level.block.ObserverBlock
+- net.minecraft.world.level.block.OreBlock
+- net.minecraft.world.level.block.package-info
++ net.minecraft.world.level.block.piston.MovingPistonBlock
++ net.minecraft.world.level.block.piston.package-info
+- net.minecraft.world.level.block.piston.PistonBaseBlock
++ net.minecraft.world.level.block.piston.PistonBaseBlock$1
+- net.minecraft.world.level.block.piston.PistonHeadBlock
++ net.minecraft.world.level.block.piston.PistonHeadBlock$1
+- net.minecraft.world.level.block.piston.PistonMath
++ net.minecraft.world.level.block.piston.PistonMath$1
+- net.minecraft.world.level.block.piston.PistonMovingBlockEntity
++ net.minecraft.world.level.block.piston.PistonMovingBlockEntity$1
+- net.minecraft.world.level.block.piston.PistonStructureResolver
++ net.minecraft.world.level.block.SculkBehaviour$1
++ net.minecraft.world.level.block.SculkCatalystBlock
++ net.minecraft.world.level.block.SculkShriekerBlock
++ net.minecraft.world.level.block.SculkSpreader$ChargeCursor
++ net.minecraft.world.level.block.SculkVeinBlock$SculkVeinSpreaderConfig
++ net.minecraft.world.level.block.SeagrassBlock
+- net.minecraft.world.level.block.SeaPickleBlock
+- net.minecraft.world.level.block.ShulkerBoxBlock
++ net.minecraft.world.level.block.ShulkerBoxBlock$1
+- net.minecraft.world.level.block.SignBlock
++ net.minecraft.world.level.block.SimpleWaterloggedBlock
+- net.minecraft.world.level.block.SkullBlock
++ net.minecraft.world.level.block.SkullBlock$Type
+- net.minecraft.world.level.block.SkullBlock$Types
++ net.minecraft.world.level.block.SlabBlock
+- net.minecraft.world.level.block.SlabBlock$1
++ net.minecraft.world.level.block.SlimeBlock
+- net.minecraft.world.level.block.SmallDripleafBlock
++ net.minecraft.world.level.block.SmithingTableBlock
+- net.minecraft.world.level.block.SmokerBlock
++ net.minecraft.world.level.block.SnowLayerBlock
+- net.minecraft.world.level.block.SnowLayerBlock$1
++ net.minecraft.world.level.block.SnowyDirtBlock
+- net.minecraft.world.level.block.SoulFireBlock
++ net.minecraft.world.level.block.SoulSandBlock
+- net.minecraft.world.level.block.SoundType
++ net.minecraft.world.level.block.SpawnerBlock
+- net.minecraft.world.level.block.SpongeBlock
++ net.minecraft.world.level.block.SporeBlossomBlock
+- net.minecraft.world.level.block.SpreadingSnowyDirtBlock
++ net.minecraft.world.level.block.StainedGlassBlock
+- net.minecraft.world.level.block.StainedGlassPaneBlock
++ net.minecraft.world.level.block.StairBlock
+- net.minecraft.world.level.block.StairBlock$1
++ net.minecraft.world.level.block.StandingSignBlock
+- net.minecraft.world.level.block.state.BlockBehaviour
++ net.minecraft.world.level.block.state.BlockBehaviour$1
+- net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
++ net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase$Cache
+- net.minecraft.world.level.block.state.BlockBehaviour$OffsetType
++ net.minecraft.world.level.block.state.BlockBehaviour$Properties
+- net.minecraft.world.level.block.state.BlockBehaviour$StateArgumentPredicate
++ net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate
+- net.minecraft.world.level.block.state.BlockState
+- net.minecraft.world.level.block.state.package-info
++ net.minecraft.world.level.block.state.pattern.BlockInWorld
+- net.minecraft.world.level.block.state.pattern.BlockPattern
++ net.minecraft.world.level.block.state.pattern.BlockPattern$BlockCacheLoader
+- net.minecraft.world.level.block.state.pattern.BlockPattern$BlockPatternMatch
++ net.minecraft.world.level.block.state.pattern.BlockPatternBuilder
+- net.minecraft.world.level.block.state.pattern.package-info
++ net.minecraft.world.level.block.state.predicate.BlockMaterialPredicate
+- net.minecraft.world.level.block.state.predicate.BlockMaterialPredicate$1
++ net.minecraft.world.level.block.state.predicate.BlockPredicate
+- net.minecraft.world.level.block.state.predicate.BlockStatePredicate
++ net.minecraft.world.level.block.state.predicate.package-info
+- net.minecraft.world.level.block.state.properties.AttachFace
++ net.minecraft.world.level.block.state.properties.BambooLeaves
+- net.minecraft.world.level.block.state.properties.BedPart
++ net.minecraft.world.level.block.state.properties.BellAttachType
+- net.minecraft.world.level.block.state.properties.BlockStateProperties
++ net.minecraft.world.level.block.state.properties.BooleanProperty
+- net.minecraft.world.level.block.state.properties.ChestType
++ net.minecraft.world.level.block.state.properties.ComparatorMode
+- net.minecraft.world.level.block.state.properties.DirectionProperty
++ net.minecraft.world.level.block.state.properties.DoorHingeSide
+- net.minecraft.world.level.block.state.properties.DoubleBlockHalf
++ net.minecraft.world.level.block.state.properties.DripstoneThickness
+- net.minecraft.world.level.block.state.properties.EnumProperty
++ net.minecraft.world.level.block.state.properties.Half
+- net.minecraft.world.level.block.state.properties.IntegerProperty
++ net.minecraft.world.level.block.state.properties.NoteBlockInstrument
+- net.minecraft.world.level.block.state.properties.package-info
+- net.minecraft.world.level.block.state.properties.PistonType
++ net.minecraft.world.level.block.state.properties.Property
+- net.minecraft.world.level.block.state.properties.Property$Value
++ net.minecraft.world.level.block.state.properties.RailShape
+- net.minecraft.world.level.block.state.properties.RedstoneSide
++ net.minecraft.world.level.block.state.properties.SculkSensorPhase
+- net.minecraft.world.level.block.state.properties.SlabType
++ net.minecraft.world.level.block.state.properties.StairsShape
+- net.minecraft.world.level.block.state.properties.StructureMode
++ net.minecraft.world.level.block.state.properties.Tilt
+- net.minecraft.world.level.block.state.properties.WallSide
++ net.minecraft.world.level.block.state.properties.WoodType
++ net.minecraft.world.level.block.state.StateDefinition
+- net.minecraft.world.level.block.state.StateDefinition$Builder
++ net.minecraft.world.level.block.state.StateDefinition$Factory
+- net.minecraft.world.level.block.state.StateHolder
++ net.minecraft.world.level.block.state.StateHolder$1
+- net.minecraft.world.level.block.StemBlock
++ net.minecraft.world.level.block.StemGrownBlock
+- net.minecraft.world.level.block.StoneButtonBlock
++ net.minecraft.world.level.block.StonecutterBlock
+- net.minecraft.world.level.block.StructureBlock
++ net.minecraft.world.level.block.StructureBlock$1
+- net.minecraft.world.level.block.StructureVoidBlock
++ net.minecraft.world.level.block.SugarCaneBlock
+- net.minecraft.world.level.block.SupportType
++ net.minecraft.world.level.block.SupportType$1
+- net.minecraft.world.level.block.SupportType$2
++ net.minecraft.world.level.block.SupportType$3
+- net.minecraft.world.level.block.SweetBerryBushBlock
++ net.minecraft.world.level.block.TallFlowerBlock
+- net.minecraft.world.level.block.TallGrassBlock
++ net.minecraft.world.level.block.TallSeagrassBlock
+- net.minecraft.world.level.block.TargetBlock
++ net.minecraft.world.level.block.TintedGlassBlock
+- net.minecraft.world.level.block.TntBlock
++ net.minecraft.world.level.block.TorchBlock
+- net.minecraft.world.level.block.TrapDoorBlock
++ net.minecraft.world.level.block.TrapDoorBlock$1
+- net.minecraft.world.level.block.TrappedChestBlock
++ net.minecraft.world.level.block.TripWireBlock
+- net.minecraft.world.level.block.TripWireBlock$1
++ net.minecraft.world.level.block.TripWireHookBlock
+- net.minecraft.world.level.block.TripWireHookBlock$1
++ net.minecraft.world.level.block.TurtleEggBlock
+- net.minecraft.world.level.block.TwistingVinesBlock
++ net.minecraft.world.level.block.TwistingVinesPlantBlock
+- net.minecraft.world.level.block.VineBlock
++ net.minecraft.world.level.block.VineBlock$1
+- net.minecraft.world.level.block.WallBannerBlock
++ net.minecraft.world.level.block.WallBlock
+- net.minecraft.world.level.block.WallBlock$1
++ net.minecraft.world.level.block.WallSignBlock
+- net.minecraft.world.level.block.WallSkullBlock
++ net.minecraft.world.level.block.WallTorchBlock
+- net.minecraft.world.level.block.WaterlilyBlock
++ net.minecraft.world.level.block.WeatheringCopper
+- net.minecraft.world.level.block.WeatheringCopper$WeatherState
++ net.minecraft.world.level.block.WeatheringCopperFullBlock
+- net.minecraft.world.level.block.WeatheringCopperSlabBlock
++ net.minecraft.world.level.block.WeatheringCopperStairBlock
+- net.minecraft.world.level.block.WebBlock
++ net.minecraft.world.level.block.WeepingVinesBlock
+- net.minecraft.world.level.block.WeepingVinesPlantBlock
++ net.minecraft.world.level.block.WeightedPressurePlateBlock
+- net.minecraft.world.level.block.WetSpongeBlock
++ net.minecraft.world.level.block.WitherRoseBlock
+- net.minecraft.world.level.block.WitherSkullBlock
++ net.minecraft.world.level.block.WitherWallSkullBlock
+- net.minecraft.world.level.block.WoodButtonBlock
++ net.minecraft.world.level.block.WoolCarpetBlock
++ net.minecraft.world.level.border.BorderChangeListener
+- net.minecraft.world.level.border.BorderChangeListener$DelegateBorderChangeListener
++ net.minecraft.world.level.border.BorderStatus
++ net.minecraft.world.level.border.package-info
+- net.minecraft.world.level.border.WorldBorder
++ net.minecraft.world.level.border.WorldBorder$BorderExtent
+- net.minecraft.world.level.border.WorldBorder$MovingBorderExtent
++ net.minecraft.world.level.border.WorldBorder$Settings
+- net.minecraft.world.level.border.WorldBorder$StaticBorderExtent
+- net.minecraft.world.level.chunk.BlockColumn
++ net.minecraft.world.level.chunk.BulkSectionAccess
+- net.minecraft.world.level.chunk.CarvingMask
++ net.minecraft.world.level.chunk.CarvingMask$Mask
+- net.minecraft.world.level.chunk.ChunkAccess
++ net.minecraft.world.level.chunk.ChunkAccess$TicksToSave
+- net.minecraft.world.level.chunk.ChunkGenerator
++ net.minecraft.world.level.chunk.ChunkSource
+- net.minecraft.world.level.chunk.ChunkStatus
++ net.minecraft.world.level.chunk.ChunkStatus$ChunkType
+- net.minecraft.world.level.chunk.ChunkStatus$GenerationTask
++ net.minecraft.world.level.chunk.ChunkStatus$LoadingTask
+- net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask
++ net.minecraft.world.level.chunk.DataLayer
+- net.minecraft.world.level.chunk.EmptyLevelChunk
++ net.minecraft.world.level.chunk.package-info
+- net.minecraft.world.level.chunk.storage.ChunkScanAccess
++ net.minecraft.world.level.chunk.storage.ChunkSerializer
+- net.minecraft.world.level.chunk.storage.ChunkStorage
++ net.minecraft.world.level.chunk.storage.EntityStorage
+- net.minecraft.world.level.chunk.storage.IOWorker
++ net.minecraft.world.level.chunk.storage.IOWorker$PendingStore
+- net.minecraft.world.level.chunk.storage.IOWorker$Priority
++ net.minecraft.world.level.chunk.storage.package-info
++ net.minecraft.world.level.chunk.storage.RegionBitmap
+- net.minecraft.world.level.chunk.storage.RegionFile
++ net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer
+- net.minecraft.world.level.chunk.storage.RegionFile$CommitOp
++ net.minecraft.world.level.chunk.storage.RegionFileStorage
+- net.minecraft.world.level.chunk.storage.RegionFileVersion
++ net.minecraft.world.level.chunk.storage.RegionFileVersion$StreamWrapper
+- net.minecraft.world.level.chunk.storage.SectionStorage
++ net.minecraft.world.level.chunk.UpgradeData
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixer
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$1
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers$2
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$3
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers$4
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$5
++ net.minecraft.world.level.levelgen.blending.Blender
+- net.minecraft.world.level.levelgen.blending.Blender$1
++ net.minecraft.world.level.levelgen.blending.Blender$BlendingOutput
+- net.minecraft.world.level.levelgen.blending.Blender$CellValueGetter
++ net.minecraft.world.level.levelgen.blending.Blender$DistanceGetter
+- net.minecraft.world.level.levelgen.blending.BlendingData
++ net.minecraft.world.level.levelgen.DensityFunctions$Spline$Point
+- net.minecraft.world.level.levelgen.DensityFunctions$TerrainShaperSpline$Spline
+- net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext
++ net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction
+- net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction$Type
++ net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler
+- net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler$RarityValueMapper
++ net.minecraft.world.level.levelgen.DensityFunctions$YClampedGradient
+- net.minecraft.world.level.levelgen.feature.BlockBlobFeature
++ net.minecraft.world.level.levelgen.feature.BlockColumnFeature
+- net.minecraft.world.level.levelgen.feature.BlockPileFeature
++ net.minecraft.world.level.levelgen.feature.BlueIceFeature
+- net.minecraft.world.level.levelgen.feature.BonusChestFeature
+- net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.MultifaceGrowthConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration$TargetBlockState
+- net.minecraft.world.level.levelgen.feature.configurations.package-info
+- net.minecraft.world.level.levelgen.feature.configurations.PointedDripstoneConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.RandomBooleanFeatureConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.ShipwreckConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.SpringConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder
++ net.minecraft.world.level.levelgen.feature.configurations.TwistingVinesConfig
+- net.minecraft.world.level.levelgen.feature.configurations.UnderwaterMagmaConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration
+- net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature
++ net.minecraft.world.level.levelgen.feature.CoralClawFeature
+- net.minecraft.world.level.levelgen.feature.CoralFeature
++ net.minecraft.world.level.levelgen.feature.CoralMushroomFeature
+- net.minecraft.world.level.levelgen.feature.CoralTreeFeature
++ net.minecraft.world.level.levelgen.feature.DeltaFeature
+- net.minecraft.world.level.levelgen.feature.DesertPyramidFeature
+- net.minecraft.world.level.levelgen.feature.EndGatewayFeature
++ net.minecraft.world.level.levelgen.feature.EndIslandFeature
+- net.minecraft.world.level.levelgen.feature.EndPodiumFeature
++ net.minecraft.world.level.levelgen.feature.Feature
+- net.minecraft.world.level.levelgen.feature.FeatureCountTracker
++ net.minecraft.world.level.levelgen.feature.FeatureCountTracker$1
+- net.minecraft.world.level.levelgen.feature.FeatureCountTracker$FeatureData
++ net.minecraft.world.level.levelgen.feature.FeatureCountTracker$LevelData
+- net.minecraft.world.level.levelgen.feature.FeaturePlaceContext
++ net.minecraft.world.level.levelgen.feature.featuresize.FeatureSize
+- net.minecraft.world.level.levelgen.feature.featuresize.FeatureSizeType
++ net.minecraft.world.level.levelgen.feature.featuresize.package-info
++ net.minecraft.world.level.levelgen.feature.featuresize.ThreeLayersFeatureSize
+- net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize
++ net.minecraft.world.level.levelgen.feature.FillLayerFeature
+- net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment
++ net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType
+- net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.package-info
+- net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.FossilFeature
++ net.minecraft.world.level.levelgen.feature.FossilFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.GeodeFeature
+- net.minecraft.world.level.levelgen.feature.IglooFeature
+- net.minecraft.world.level.levelgen.feature.JunglePyramidFeature
++ net.minecraft.world.level.levelgen.feature.KelpFeature
+- net.minecraft.world.level.levelgen.feature.LakeFeature
++ net.minecraft.world.level.levelgen.feature.LakeFeature$Configuration
+- net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature
++ net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$LargeDripstone
+- net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter
+- net.minecraft.world.level.levelgen.feature.MineshaftFeature$Type
++ net.minecraft.world.level.levelgen.feature.MonsterRoomFeature
++ net.minecraft.world.level.levelgen.feature.NoiseEffect
+- net.minecraft.world.level.levelgen.feature.NoOpFeature
+- net.minecraft.world.level.levelgen.feature.OceanMonumentFeature
+- net.minecraft.world.level.levelgen.feature.package-info
+- net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature
++ net.minecraft.world.level.levelgen.feature.PointedDripstoneFeature
+- net.minecraft.world.level.levelgen.feature.RandomBooleanSelectorFeature
++ net.minecraft.world.level.levelgen.feature.RandomPatchFeature
+- net.minecraft.world.level.levelgen.feature.RandomSelectorFeature
++ net.minecraft.world.level.levelgen.feature.ReplaceBlobsFeature
+- net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature
++ net.minecraft.world.level.levelgen.feature.RootSystemFeature
+- net.minecraft.world.level.levelgen.feature.RuinedPortalFeature
+- net.minecraft.world.level.levelgen.feature.ScatteredOreFeature
++ net.minecraft.world.level.levelgen.feature.SculkPatchFeature
+- net.minecraft.world.level.levelgen.feature.SimpleBlockFeature
++ net.minecraft.world.level.levelgen.feature.SimpleRandomSelectorFeature
+- net.minecraft.world.level.levelgen.feature.SnowAndFreezeFeature
++ net.minecraft.world.level.levelgen.feature.SpikeFeature
+- net.minecraft.world.level.levelgen.feature.SpikeFeature$EndSpike
++ net.minecraft.world.level.levelgen.feature.SpikeFeature$SpikeCacheLoader
+- net.minecraft.world.level.levelgen.feature.SpringFeature
++ net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType
++ net.minecraft.world.level.levelgen.feature.stateproviders.DualNoiseProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.NoiseBasedStateProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.NoiseProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.NoiseThresholdProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.package-info
++ net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.RotatedBlockProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider
+- net.minecraft.world.level.levelgen.feature.StructureFeature
+- net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator
+- net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.package-info
+- net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType
+- net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator
+- net.minecraft.world.level.levelgen.feature.trunkplacers.BendingTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords
+- net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.package-info
++ net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType
+- net.minecraft.world.level.levelgen.feature.VillageFeature
++ net.minecraft.world.level.levelgen.feature.VinesFeature
+- net.minecraft.world.level.levelgen.feature.VoidStartPlatformFeature
++ net.minecraft.world.level.levelgen.feature.WaterloggedVegetationPatchFeature
+- net.minecraft.world.level.levelgen.feature.WeepingVinesFeature
++ net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature
+- net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature
++ net.minecraft.world.level.levelgen.flat.FlatLayerInfo
++ net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPresets
+- net.minecraft.world.level.levelgen.FlatLevelSource
++ net.minecraft.world.level.levelgen.GenerationStep
+- net.minecraft.world.level.levelgen.GenerationStep$Carving
++ net.minecraft.world.level.levelgen.GenerationStep$Decoration
+- net.minecraft.world.level.levelgen.GeodeBlockSettings
++ net.minecraft.world.level.levelgen.GeodeCrackSettings
+- net.minecraft.world.level.levelgen.GeodeLayerSettings
++ net.minecraft.world.level.levelgen.Heightmap
+- net.minecraft.world.level.levelgen.Heightmap$Types
++ net.minecraft.world.level.levelgen.Heightmap$Usage
+- net.minecraft.world.level.levelgen.LegacyRandomSource
++ net.minecraft.world.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory
+- net.minecraft.world.level.levelgen.MarsagliaPolarGaussian
++ net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator
+- net.minecraft.world.level.levelgen.NoiseChunk
++ net.minecraft.world.level.levelgen.NoiseChunk$1
+- net.minecraft.world.level.levelgen.NoiseChunk$2
++ net.minecraft.world.level.levelgen.NoiseChunk$BlendAlpha
+- net.minecraft.world.level.levelgen.NoiseChunk$BlendOffset
++ net.minecraft.world.level.levelgen.NoiseChunk$BlockStateFiller
+- net.minecraft.world.level.levelgen.NoiseChunk$Cache2D
++ net.minecraft.world.level.levelgen.NoiseChunk$CacheAllInCell
+- net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce
++ net.minecraft.world.level.levelgen.NoiseChunk$FlatCache
+- net.minecraft.world.level.levelgen.NoiseChunk$NoiseChunkDensityFunction
++ net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator
+- net.minecraft.world.level.levelgen.NoiseGeneratorSettings
++ net.minecraft.world.level.levelgen.NoiseRouter
+- net.minecraft.world.level.levelgen.NoiseRouterData
++ net.minecraft.world.level.levelgen.NoiseRouterData$1NoiseWiringHelper
+- net.minecraft.world.level.levelgen.NoiseRouterWithOnlyNoises
+- net.minecraft.world.level.levelgen.Noises
++ net.minecraft.world.level.levelgen.NoiseSamplingSettings
+- net.minecraft.world.level.levelgen.NoiseSettings
++ net.minecraft.world.level.levelgen.NoiseSlider
++ net.minecraft.world.level.levelgen.OreVeinifier
+- net.minecraft.world.level.levelgen.OreVeinifier$VeinType
++ net.minecraft.world.level.levelgen.PatrolSpawner
+- net.minecraft.world.level.levelgen.PhantomSpawner
++ net.minecraft.world.level.levelgen.PositionalRandomFactory
++ net.minecraft.world.level.levelgen.presets.WorldPresets
+- net.minecraft.world.level.levelgen.RandomSource
++ net.minecraft.world.level.levelgen.RandomState
++ net.minecraft.world.level.levelgen.SingleThreadedRandomSource
++ net.minecraft.world.level.levelgen.structure.BoundingBox
+- net.minecraft.world.level.levelgen.structure.BoundingBox$1
+- net.minecraft.world.level.levelgen.structure.BuiltinStructures
++ net.minecraft.world.level.levelgen.structure.BuiltinStructureSets
+- net.minecraft.world.level.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece
+- net.minecraft.world.level.levelgen.structure.EndCityPieces
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$2
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$4
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$SectionGenerator
+- net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece
+- net.minecraft.world.level.levelgen.structure.JunglePyramidPiece$MossStoneSelector
++ net.minecraft.world.level.levelgen.structure.LegacyStructureDataHandler
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$1
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$PieceWeight
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom
+- net.minecraft.world.level.levelgen.structure.NetherFossilFeature
+- net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$1
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitSimpleRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$MonumentBuilding
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$RoomDefinition
+- net.minecraft.world.level.levelgen.structure.OceanRuinFeature$Type
+- net.minecraft.world.level.levelgen.structure.OceanRuinPieces$1
+- net.minecraft.world.level.levelgen.structure.package-info
++ net.minecraft.world.level.levelgen.structure.pieces.package-info
++ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator
+- net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context
++ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier
+- net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context
++ net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext
++ net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType$ContextlessType
++ net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType$StructureTemplateType
+- net.minecraft.world.level.levelgen.structure.placement.ConcentricRingsStructurePlacement
++ net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement
+- net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType
++ net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType$1
+- net.minecraft.world.level.levelgen.structure.placement.StructurePlacement
++ net.minecraft.world.level.levelgen.structure.placement.StructurePlacement$ExclusionZone
++ net.minecraft.world.level.levelgen.structure.placement.StructurePlacement$FrequencyReductionMethod
+- net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece
++ net.minecraft.world.level.levelgen.structure.PostPlacementProcessor
+- net.minecraft.world.level.levelgen.structure.RuinedPortalPiece
+- net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$VerticalPlacement
+- net.minecraft.world.level.levelgen.structure.ShipwreckPieces
++ net.minecraft.world.level.levelgen.structure.SinglePieceStructure
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$2
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$ChestCorridor
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$FiveCrossing
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$Library
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$PortalRoom
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$RightTurn
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$SmoothStoneSelector
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StartPiece
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StraightStairsDown
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType
++ net.minecraft.world.level.levelgen.structure.Structure
++ net.minecraft.world.level.levelgen.structure.Structure$GenerationStub
+- net.minecraft.world.level.levelgen.structure.StructureCheck
++ net.minecraft.world.level.levelgen.structure.StructureCheckResult
+- net.minecraft.world.level.levelgen.structure.StructureFeatureIndexSavedData
++ net.minecraft.world.level.levelgen.structure.StructurePiece
+- net.minecraft.world.level.levelgen.structure.StructurePiece$1
++ net.minecraft.world.level.levelgen.structure.StructurePiece$BlockSelector
+- net.minecraft.world.level.levelgen.structure.StructurePieceAccessor
++ net.minecraft.world.level.levelgen.structure.structures.BuriedTreasurePieces
++ net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure
++ net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$3
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$EndCityPiece
++ net.minecraft.world.level.levelgen.structure.structures.EndCityStructure
++ net.minecraft.world.level.levelgen.structure.structures.IglooPieces$IglooPiece
++ net.minecraft.world.level.levelgen.structure.structures.JigsawStructure
++ net.minecraft.world.level.levelgen.structure.structures.JungleTemplePiece$MossStoneSelector
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCorridor
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftPiece
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftStairs
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure$Type
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeEndFiller
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleCorridorStairsPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleEntrance
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorLeftTurnPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorRightTurnPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$MonsterThrone
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$PieceWeight
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$StairsRoom
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressStructure
++ net.minecraft.world.level.levelgen.structure.structures.NetherFossilPieces$NetherFossilPiece
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleZRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleTopRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentRoomFitter
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleZRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentPenthouse
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentWingRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentStructure
++ net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure
++ net.minecraft.world.level.levelgen.structure.structures.package-info
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece$VerticalPlacement
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure$Setup
++ net.minecraft.world.level.levelgen.structure.structures.ShipwreckPieces$ShipwreckPiece
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$2
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$ChestCorridor
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FiveCrossing
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Library
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PortalRoom
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RightTurn
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$SmoothStoneSelector
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StartPiece
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StraightStairsDown
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece$SmallDoorType
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdStructure
++ net.minecraft.world.level.levelgen.structure.structures.SwampHutStructure
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$FirstFloorRoomCollection
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionGrid
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$PlacementData
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SimpleGrid
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$WoodlandMansionPiece
++ net.minecraft.world.level.levelgen.structure.StructureSet
+- net.minecraft.world.level.levelgen.structure.StructureSet$StructureSelectionEntry
++ net.minecraft.world.level.levelgen.structure.StructureSpawnOverride
+- net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType
++ net.minecraft.world.level.levelgen.structure.StructureStart
+- net.minecraft.world.level.levelgen.structure.SwamplandHutPiece
++ net.minecraft.world.level.levelgen.structure.TemplateStructurePiece
+- net.minecraft.world.level.levelgen.structure.templatesystem.AlwaysTrueTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.AxisAlignedLinearPosTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlackstoneReplaceProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockAgeProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockStateMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.GravityProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.JigsawReplacementProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.LavaSubmergedBlockProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.LinearPosTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.NopProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.package-info
++ net.minecraft.world.level.levelgen.structure.templatesystem.PosAlwaysTrueTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTestType
+- net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule
++ net.minecraft.world.level.levelgen.structure.templatesystem.ProtectedBlockProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockMatchTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockStateMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.RuleProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.RuleTestType
++ net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager
+- net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$FloorRoomCollection
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$MansionPiecePlacer
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$SecondFloorRoomCollection
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$ThirdFloorRoomCollection
+- net.minecraft.world.level.levelgen.SurfaceRules
++ net.minecraft.world.level.levelgen.SurfaceRules$AbovePreliminarySurface
+- net.minecraft.world.level.levelgen.SurfaceRules$Bandlands
++ net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$BlockRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$Condition
++ net.minecraft.world.level.levelgen.SurfaceRules$ConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$Context
++ net.minecraft.world.level.levelgen.SurfaceRules$Context$AbovePreliminarySurfaceCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$Context$HoleCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$Context$SteepMaterialCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$Hole
+- net.minecraft.world.level.levelgen.SurfaceRules$LazyCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$LazyXZCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$LazyYCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$NotCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$NotConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$RuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$SequenceRule
++ net.minecraft.world.level.levelgen.SurfaceRules$SequenceRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$StateRule
++ net.minecraft.world.level.levelgen.SurfaceRules$Steep
+- net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck
++ net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck$1StoneDepthCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$SurfaceRule
++ net.minecraft.world.level.levelgen.SurfaceRules$Temperature
+- net.minecraft.world.level.levelgen.SurfaceRules$TestRule
++ net.minecraft.world.level.levelgen.SurfaceRules$TestRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$VerticalGradientConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$VerticalGradientConditionSource$1VerticalGradientCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$WaterConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$WaterConditionSource$1WaterCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$YConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$YConditionSource$1YCondition
+- net.minecraft.world.level.levelgen.SurfaceSystem
++ net.minecraft.world.level.levelgen.SurfaceSystem$1
+- net.minecraft.world.level.levelgen.synth.BlendedNoise
++ net.minecraft.world.level.levelgen.synth.ImprovedNoise
+- net.minecraft.world.level.levelgen.synth.NoiseUtils
++ net.minecraft.world.level.levelgen.synth.NormalNoise
+- net.minecraft.world.level.levelgen.synth.NormalNoise$NoiseParameters
+- net.minecraft.world.level.levelgen.synth.package-info
++ net.minecraft.world.level.levelgen.synth.PerlinNoise
+- net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise
++ net.minecraft.world.level.levelgen.synth.SimplexNoise
+- net.minecraft.world.level.levelgen.VerticalAnchor
++ net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom
+- net.minecraft.world.level.levelgen.VerticalAnchor$Absolute
++ net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop
++ net.minecraft.world.level.levelgen.WorldGenerationContext
+- net.minecraft.world.level.levelgen.WorldgenRandom
++ net.minecraft.world.level.levelgen.WorldgenRandom$Algorithm
+- net.minecraft.world.level.levelgen.WorldGenSettings
+- net.minecraft.world.level.levelgen.Xoroshiro128PlusPlus
++ net.minecraft.world.level.levelgen.XoroshiroRandomSource
+- net.minecraft.world.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory
++ net.minecraft.world.level.lighting.BlockLightEngine
+- net.minecraft.world.level.lighting.BlockLightSectionStorage
++ net.minecraft.world.level.lighting.BlockLightSectionStorage$BlockDataLayerStorageMap
+- net.minecraft.world.level.lighting.DataLayerStorageMap
++ net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint
+- net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint$1
++ net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint$2
+- net.minecraft.world.level.lighting.LayerLightEngine
++ net.minecraft.world.level.lighting.LayerLightEventListener
+- net.minecraft.world.level.lighting.LayerLightEventListener$DummyLightLayerEventListener
++ net.minecraft.world.level.lighting.LayerLightSectionStorage
+- net.minecraft.world.level.lighting.LayerLightSectionStorage$1
++ net.minecraft.world.level.lighting.LevelLightEngine
+- net.minecraft.world.level.lighting.LightEventListener
++ net.minecraft.world.level.lighting.package-info
++ net.minecraft.world.level.lighting.SkyLightEngine
+- net.minecraft.world.level.lighting.SkyLightSectionStorage
++ net.minecraft.world.level.lighting.SkyLightSectionStorage$1
+- net.minecraft.world.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap
++ net.minecraft.world.level.lighting.SpatialLongSet
+- net.minecraft.world.level.lighting.SpatialLongSet$InternalMap
+- net.minecraft.world.level.material.EmptyFluid
++ net.minecraft.world.level.material.FlowingFluid
+- net.minecraft.world.level.material.FlowingFluid$1
++ net.minecraft.world.level.material.Fluid
++ net.minecraft.world.level.material.Fluids
+- net.minecraft.world.level.material.FluidState
+- net.minecraft.world.level.material.FogType
++ net.minecraft.world.level.material.LavaFluid
+- net.minecraft.world.level.material.LavaFluid$Flowing
++ net.minecraft.world.level.material.LavaFluid$Source
+- net.minecraft.world.level.material.Material
++ net.minecraft.world.level.material.Material$Builder
+- net.minecraft.world.level.material.MaterialColor
++ net.minecraft.world.level.material.MaterialColor$Brightness
+- net.minecraft.world.level.material.package-info
+- net.minecraft.world.level.material.PushReaction
++ net.minecraft.world.level.material.WaterFluid
+- net.minecraft.world.level.material.WaterFluid$Flowing
++ net.minecraft.world.level.material.WaterFluid$Source
++ net.minecraft.world.level.package-info
+- net.minecraft.world.level.pathfinder.AmphibiousNodeEvaluator
++ net.minecraft.world.level.pathfinder.BinaryHeap
+- net.minecraft.world.level.pathfinder.BlockPathTypes
++ net.minecraft.world.level.pathfinder.FlyNodeEvaluator
+- net.minecraft.world.level.pathfinder.Node
++ net.minecraft.world.level.pathfinder.NodeEvaluator
+- net.minecraft.world.level.pathfinder.package-info
+- net.minecraft.world.level.pathfinder.Path
++ net.minecraft.world.level.pathfinder.PathComputationType
+- net.minecraft.world.level.pathfinder.PathFinder
++ net.minecraft.world.level.pathfinder.SwimNodeEvaluator
+- net.minecraft.world.level.pathfinder.Target
++ net.minecraft.world.level.pathfinder.WalkNodeEvaluator
+- net.minecraft.world.level.portal.package-info
++ net.minecraft.world.level.portal.PortalForcer
+- net.minecraft.world.level.portal.PortalInfo
++ net.minecraft.world.level.portal.PortalShape
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate
++ net.minecraft.world.level.redstone.NeighborUpdater
+- net.minecraft.world.level.redstone.package-info
++ net.minecraft.world.level.redstone.Redstone
+- net.minecraft.world.level.saveddata.maps.MapBanner
++ net.minecraft.world.level.saveddata.maps.MapBanner$1
+- net.minecraft.world.level.saveddata.maps.MapDecoration
++ net.minecraft.world.level.saveddata.maps.MapDecoration$Type
+- net.minecraft.world.level.saveddata.maps.MapFrame
++ net.minecraft.world.level.saveddata.maps.MapIndex
+- net.minecraft.world.level.saveddata.maps.MapItemSavedData
++ net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer
+- net.minecraft.world.level.saveddata.maps.MapItemSavedData$MapPatch
++ net.minecraft.world.level.saveddata.maps.package-info
+- net.minecraft.world.level.saveddata.package-info
++ net.minecraft.world.level.saveddata.SavedData
++ net.minecraft.world.level.storage.CommandStorage
+- net.minecraft.world.level.storage.CommandStorage$Container
++ net.minecraft.world.level.storage.DataVersion
+- net.minecraft.world.level.storage.DerivedLevelData
++ net.minecraft.world.level.storage.DimensionDataStorage
+- net.minecraft.world.level.storage.LevelData
++ net.minecraft.world.level.storage.LevelResource
+- net.minecraft.world.level.storage.LevelStorageException
++ net.minecraft.world.level.storage.LevelStorageSource
+- net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess
++ net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess$1
+- net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess$2
++ net.minecraft.world.level.storage.LevelSummary
+- net.minecraft.world.level.storage.LevelSummary$BackupStatus
++ net.minecraft.world.level.storage.LevelVersion
++ net.minecraft.world.level.storage.loot.BuiltInLootTables
+- net.minecraft.world.level.storage.loot.Deserializers
++ net.minecraft.world.level.storage.loot.entries.AlternativesEntry
+- net.minecraft.world.level.storage.loot.entries.AlternativesEntry$Builder
++ net.minecraft.world.level.storage.loot.entries.ComposableEntryContainer
+- net.minecraft.world.level.storage.loot.entries.CompositeEntryBase
++ net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1
+- net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$CompositeEntryConstructor
++ net.minecraft.world.level.storage.loot.entries.DynamicLoot
+- net.minecraft.world.level.storage.loot.entries.DynamicLoot$Serializer
++ net.minecraft.world.level.storage.loot.entries.EmptyLootItem
+- net.minecraft.world.level.storage.loot.entries.EmptyLootItem$Serializer
++ net.minecraft.world.level.storage.loot.entries.EntryGroup
+- net.minecraft.world.level.storage.loot.entries.EntryGroup$Builder
++ net.minecraft.world.level.storage.loot.entries.LootItem
+- net.minecraft.world.level.storage.loot.entries.LootItem$Serializer
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntries
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntry
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Builder
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntryType
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$DummyBuilder
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$EntryBase
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$EntryConstructor
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer
+- net.minecraft.world.level.storage.loot.entries.LootTableReference
++ net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer
++ net.minecraft.world.level.storage.loot.entries.package-info
+- net.minecraft.world.level.storage.loot.entries.SequentialEntry
++ net.minecraft.world.level.storage.loot.entries.SequentialEntry$Builder
+- net.minecraft.world.level.storage.loot.entries.TagEntry
++ net.minecraft.world.level.storage.loot.entries.TagEntry$1
+- net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$BinomialWithBonusCount
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Formula
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$FormulaDeserializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$OreDrops
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Serializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount
++ net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay
+- net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay$Serializer
++ net.minecraft.world.level.storage.loot.functions.CopyBlockState
+- net.minecraft.world.level.storage.loot.functions.CopyBlockState$Builder
++ net.minecraft.world.level.storage.loot.functions.CopyBlockState$Serializer
+- net.minecraft.world.level.storage.loot.functions.CopyNameFunction
++ net.minecraft.world.level.storage.loot.functions.CopyNameFunction$NameSource
+- net.minecraft.world.level.storage.loot.functions.CopyNameFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$CopyOperation
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$1
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$2
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$3
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction
+- net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction
++ net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction
+- net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.FillPlayerHead
++ net.minecraft.world.level.storage.loot.functions.FillPlayerHead$Serializer
+- net.minecraft.world.level.storage.loot.functions.FunctionUserBuilder
++ net.minecraft.world.level.storage.loot.functions.LimitCount
+- net.minecraft.world.level.storage.loot.functions.LimitCount$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction
+- net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction
+- net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$DummyBuilder
+- net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootItemFunction
+- net.minecraft.world.level.storage.loot.functions.LootItemFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.LootItemFunctions
++ net.minecraft.world.level.storage.loot.functions.LootItemFunctionType
++ net.minecraft.world.level.storage.loot.functions.package-info
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$1
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Modifier
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$ModifierBuilder
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction
++ net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetContainerContents
+- net.minecraft.world.level.storage.loot.functions.SetContainerContents$Builder
++ net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetContainerLootTable
++ net.minecraft.world.level.storage.loot.functions.SetContainerLootTable$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction
++ net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetItemCountFunction
+- net.minecraft.world.level.storage.loot.functions.SetItemCountFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction
+- net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetLoreFunction
+- net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetNameFunction
++ net.minecraft.world.level.storage.loot.functions.SetNameFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetNbtFunction
++ net.minecraft.world.level.storage.loot.functions.SetNbtFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetPotionFunction
++ net.minecraft.world.level.storage.loot.functions.SetPotionFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction
++ net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SmeltItemFunction
+- net.minecraft.world.level.storage.loot.functions.SmeltItemFunction$Serializer
++ net.minecraft.world.level.storage.loot.GsonAdapterFactory
+- net.minecraft.world.level.storage.loot.GsonAdapterFactory$Builder
++ net.minecraft.world.level.storage.loot.GsonAdapterFactory$InlineSerializer
+- net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter
++ net.minecraft.world.level.storage.loot.IntRange
+- net.minecraft.world.level.storage.loot.IntRange$IntChecker
++ net.minecraft.world.level.storage.loot.IntRange$IntLimiter
+- net.minecraft.world.level.storage.loot.IntRange$Serializer
++ net.minecraft.world.level.storage.loot.ItemModifierManager
+- net.minecraft.world.level.storage.loot.ItemModifierManager$FunctionSequence
++ net.minecraft.world.level.storage.loot.LootContext
+- net.minecraft.world.level.storage.loot.LootContext$Builder
++ net.minecraft.world.level.storage.loot.LootContext$DynamicDrop
+- net.minecraft.world.level.storage.loot.LootContext$EntityTarget
++ net.minecraft.world.level.storage.loot.LootContext$EntityTarget$Serializer
+- net.minecraft.world.level.storage.loot.LootContextUser
++ net.minecraft.world.level.storage.loot.LootPool
+- net.minecraft.world.level.storage.loot.LootPool$Builder
++ net.minecraft.world.level.storage.loot.LootPool$Serializer
+- net.minecraft.world.level.storage.loot.LootTable
++ net.minecraft.world.level.storage.loot.LootTable$Builder
+- net.minecraft.world.level.storage.loot.LootTable$Serializer
++ net.minecraft.world.level.storage.loot.LootTables
+- net.minecraft.world.level.storage.loot.package-info
++ net.minecraft.world.level.storage.loot.parameters.LootContextParam
++ net.minecraft.world.level.storage.loot.parameters.LootContextParams
+- net.minecraft.world.level.storage.loot.parameters.LootContextParamSet
++ net.minecraft.world.level.storage.loot.parameters.LootContextParamSet$Builder
+- net.minecraft.world.level.storage.loot.parameters.LootContextParamSets
+- net.minecraft.world.level.storage.loot.parameters.package-info
+- net.minecraft.world.level.storage.loot.PredicateManager
++ net.minecraft.world.level.storage.loot.PredicateManager$CompositePredicate
++ net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition
+- net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Builder
++ net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition
++ net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ConditionReference
++ net.minecraft.world.level.storage.loot.predicates.ConditionReference$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ConditionUserBuilder
++ net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition
+- net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition
+- net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Builder
++ net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ExplosionCondition
++ net.minecraft.world.level.storage.loot.predicates.ExplosionCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition
++ net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.LocationCheck
++ net.minecraft.world.level.storage.loot.predicates.LocationCheck$Serializer
+- net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition
++ net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Builder
+- net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemCondition$Builder
+- net.minecraft.world.level.storage.loot.predicates.LootItemConditions
++ net.minecraft.world.level.storage.loot.predicates.LootItemConditionType
++ net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.MatchTool
+- net.minecraft.world.level.storage.loot.predicates.MatchTool$Serializer
++ net.minecraft.world.level.storage.loot.predicates.package-info
++ net.minecraft.world.level.storage.loot.predicates.TimeCheck
+- net.minecraft.world.level.storage.loot.predicates.TimeCheck$Builder
++ net.minecraft.world.level.storage.loot.predicates.TimeCheck$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ValueCheckCondition
++ net.minecraft.world.level.storage.loot.predicates.ValueCheckCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.WeatherCheck
++ net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder
+- net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Serializer
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$1
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$2
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$Getter
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$InlineSerializer
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.nbt.LootNbtProviderType
++ net.minecraft.world.level.storage.loot.providers.nbt.NbtProvider
+- net.minecraft.world.level.storage.loot.providers.nbt.NbtProviders
++ net.minecraft.world.level.storage.loot.providers.nbt.package-info
++ net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider
+- net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator
++ net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.ConstantValue
++ net.minecraft.world.level.storage.loot.providers.number.ConstantValue$InlineSerializer
+- net.minecraft.world.level.storage.loot.providers.number.ConstantValue$Serializer
++ net.minecraft.world.level.storage.loot.providers.number.LootNumberProviderType
+- net.minecraft.world.level.storage.loot.providers.number.NumberProvider
++ net.minecraft.world.level.storage.loot.providers.number.NumberProviders
+- net.minecraft.world.level.storage.loot.providers.number.package-info
+- net.minecraft.world.level.storage.loot.providers.number.ScoreboardValue
++ net.minecraft.world.level.storage.loot.providers.number.ScoreboardValue$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.UniformGenerator
++ net.minecraft.world.level.storage.loot.providers.number.UniformGenerator$Serializer
++ net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider
+- net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider$InlineSerializer
++ net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.score.FixedScoreboardNameProvider
++ net.minecraft.world.level.storage.loot.providers.score.FixedScoreboardNameProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.score.LootScoreProviderType
++ net.minecraft.world.level.storage.loot.providers.score.package-info
++ net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProvider
+- net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProviders
+- net.minecraft.world.level.storage.loot.Serializer
++ net.minecraft.world.level.storage.loot.SerializerType
+- net.minecraft.world.level.storage.loot.ValidationContext
+- net.minecraft.world.level.storage.package-info
+- net.minecraft.world.level.storage.PlayerDataStorage
++ net.minecraft.world.level.storage.PrimaryLevelData
+- net.minecraft.world.level.storage.ServerLevelData
++ net.minecraft.world.level.storage.WorldData
+- net.minecraft.world.level.storage.WritableLevelData
+- net.minecraft.world.level.StructureFeatureManager
++ net.minecraft.world.level.StructureManager
++ net.minecraft.world.level.timers.FunctionCallback
+- net.minecraft.world.level.timers.FunctionCallback$Serializer
++ net.minecraft.world.level.timers.FunctionTagCallback
+- net.minecraft.world.level.timers.FunctionTagCallback$Serializer
+- net.minecraft.world.level.timers.package-info
++ net.minecraft.world.level.timers.TimerCallback
+- net.minecraft.world.level.timers.TimerCallback$Serializer
++ net.minecraft.world.level.timers.TimerCallbacks
+- net.minecraft.world.level.timers.TimerQueue
++ net.minecraft.world.level.timers.TimerQueue$Event
++ net.minecraft.world.package-info
+- net.minecraft.world.phys.AABB
++ net.minecraft.world.phys.BlockHitResult
+- net.minecraft.world.phys.EntityHitResult
++ net.minecraft.world.phys.HitResult
+- net.minecraft.world.phys.HitResult$Type
++ net.minecraft.world.phys.package-info
+- net.minecraft.world.phys.shapes.ArrayVoxelShape
++ net.minecraft.world.phys.shapes.ArrayVoxelShape$1
+- net.minecraft.world.phys.shapes.BitSetDiscreteVoxelShape
++ net.minecraft.world.phys.shapes.BooleanOp
+- net.minecraft.world.phys.shapes.CollisionContext
++ net.minecraft.world.phys.shapes.CubePointRange
+- net.minecraft.world.phys.shapes.CubeVoxelShape
++ net.minecraft.world.phys.shapes.DiscreteCubeMerger
+- net.minecraft.world.phys.shapes.DiscreteVoxelShape
++ net.minecraft.world.phys.shapes.DiscreteVoxelShape$IntFaceConsumer
+- net.minecraft.world.phys.shapes.DiscreteVoxelShape$IntLineConsumer
++ net.minecraft.world.phys.shapes.EntityCollisionContext
+- net.minecraft.world.phys.shapes.EntityCollisionContext$1
++ net.minecraft.world.phys.shapes.IdenticalMerger
+- net.minecraft.world.phys.shapes.IndexMerger
++ net.minecraft.world.phys.shapes.IndexMerger$IndexConsumer
+- net.minecraft.world.phys.shapes.IndirectMerger
++ net.minecraft.world.phys.shapes.NonOverlappingMerger
+- net.minecraft.world.phys.shapes.OffsetDoubleList
+- net.minecraft.world.phys.shapes.package-info
++ net.minecraft.world.phys.shapes.Shapes
+- net.minecraft.world.phys.shapes.Shapes$DoubleLineConsumer
++ net.minecraft.world.phys.shapes.SliceShape
+- net.minecraft.world.phys.shapes.SubShape
++ net.minecraft.world.phys.shapes.VoxelShape
++ net.minecraft.world.phys.Vec2
+- net.minecraft.world.phys.Vec3
++ net.minecraft.world.scores.criteria.ObjectiveCriteria
+- net.minecraft.world.scores.criteria.ObjectiveCriteria$RenderType
++ net.minecraft.world.scores.criteria.package-info
++ net.minecraft.world.scores.Objective
+- net.minecraft.world.scores.package-info
+- net.minecraft.world.scores.PlayerTeam
++ net.minecraft.world.scores.Score
+- net.minecraft.world.scores.Scoreboard
++ net.minecraft.world.scores.ScoreboardSaveData
+- net.minecraft.world.scores.Team
++ net.minecraft.world.scores.Team$CollisionRule
+- net.minecraft.world.scores.Team$Visibility
++ net.minecraft.world.ticks.BlackholeTickAccess
+- net.minecraft.world.ticks.BlackholeTickAccess$1
++ net.minecraft.world.ticks.BlackholeTickAccess$2
+- net.minecraft.world.ticks.LevelChunkTicks
++ net.minecraft.world.ticks.LevelTickAccess
+- net.minecraft.world.ticks.LevelTicks
++ net.minecraft.world.ticks.LevelTicks$PosAndContainerConsumer
+- net.minecraft.world.ticks.package-info
+- net.minecraft.world.ticks.ProtoChunkTicks
++ net.minecraft.world.ticks.SavedTick
+- net.minecraft.world.ticks.SavedTick$1
++ net.minecraft.world.ticks.ScheduledTick
+- net.minecraft.world.ticks.ScheduledTick$1
++ net.minecraft.world.ticks.SerializableTickContainer
+- net.minecraft.world.ticks.TickAccess
++ net.minecraft.world.ticks.TickContainerAccess
+- net.minecraft.world.ticks.TickPriority
++ net.minecraft.world.ticks.WorldGenTickAccess
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.Util$5</summary>
+
+```diff
++ Path val$from
++ Path val$to
+- Path val$target
++ void <init>(Path)
+- void <init>(Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util$9</summary>
+
+```diff
+- Function val$function
+- Map cache
++ void <init>(String)
++ void run()
+- Object apply(Object)
+- String toString()
+- void <init>(Function)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
++ ResourceKey structure
+- ResourceKey feature
++ LocationPredicate$Builder setStructure(ResourceKey)
+- LocationPredicate$Builder setFeature(ResourceKey)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
++ boolean lambda$createValidator$5(String)
++ boolean lambda$fillUsableCommands$3(SharedSuggestionProvider)
++ int lambda$fillUsableCommands$4(CommandContext)
++ Style lambda$performCommand$1(Style)
++ Style lambda$performCommand$2(Style)
++ void <init>(CommandBuildContext)
++ void lambda$new$0(CommandContext,boolean,int)
++ void lambda$validate$6(Collection)
+- boolean lambda$createValidator$6(String)
+- boolean lambda$fillUsableCommands$4(SharedSuggestionProvider)
+- int lambda$fillUsableCommands$5(CommandContext)
+- Style lambda$performCommand$2(Style)
+- Style lambda$performCommand$3(Style)
+- void <init>(Commands$CommandSelection)
+- void lambda$new$0(Collection)
+- void lambda$new$1(CommandContext,boolean,int)
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.EntityArgument</summary>
+
+```diff
+- byte FLAG_PLAYERS_ONLY
+- byte FLAG_SINGLE
+```
+
+</details>
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+
+```diff
++ HolderLookup blocks
+- DynamicCommandExceptionType ERROR_UNKNOWN_TAG
++ BlockPredicateArgument blockPredicate(CommandBuildContext)
++ BlockPredicateArgument$Result lambda$parse$0(BlockStateParser$BlockResult)
++ BlockPredicateArgument$Result lambda$parse$1(BlockStateParser$TagResult)
++ BlockPredicateArgument$Result parse(StringReader)
++ void <init>(CommandBuildContext)
+- BlockPredicateArgument blockPredicate()
+- Message lambda$static$0(Object)
+- void <init>()
+```
+
+</details>
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$Result</summary>
+
+```diff
+- Predicate create(net.minecraft.core.Registry)
+```
+
+</details>
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateArgument</summary>
+
+```diff
++ HolderLookup blocks
++ BlockStateArgument block(CommandBuildContext)
++ void <init>(CommandBuildContext)
+- BlockStateArgument block()
+- void <init>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemArgument</summary>
+
+```diff
++ HolderLookup items
++ ItemArgument item(CommandBuildContext)
++ void <init>(CommandBuildContext)
+- ItemArgument item()
+- void <init>()
+```
+
+</details>
+
+<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+
+```diff
++ boolean allowTags
++ DynamicCommandExceptionType ERROR_UNKNOWN_TAG
++ Either result
++ Function SUGGEST_NOTHING
++ Function suggestions
++ HolderLookup items
+- BiFunction SUGGEST_NOTHING
+- BiFunction suggestions
+- boolean forTesting
+- int tagCursor
+- Item item
+- TagKey tag
++ CommandSyntaxException lambda$readItem$5(ResourceLocation)
++ CommandSyntaxException lambda$readTag$6(ResourceLocation)
++ CompletableFuture fillSuggestions(SuggestionsBuilder,boolean)
++ CompletableFuture suggestItem(SuggestionsBuilder)
++ CompletableFuture suggestItemIdOrTag(SuggestionsBuilder)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder)
++ CompletableFuture suggestTag(SuggestionsBuilder)
++ Either parseForTesting(StringReader)
++ IllegalStateException lambda$parseForItem$2()
++ ItemParser$ItemResult lambda$parseForTesting$3(Holder)
++ ItemParser$ItemResult parseForItem(StringReader)
++ ItemParser$TagResult lambda$parseForTesting$4(HolderSet)
++ Message lambda$static$1(Object)
++ void <init>(StringReader,boolean)
++ void parse()
+- CommandSyntaxException lambda$readItem$2(ResourceLocation)
+- CompletableFuture fillSuggestions(Registry)
+- CompletableFuture lambda$static$1(Registry)
+- CompletableFuture suggestItemIdOrTag(Registry)
+- CompletableFuture suggestOpenNbt(Registry)
+- CompletableFuture suggestTag(Registry)
+- CompoundTag getNbt()
+- Item getItem()
+- ItemParser parse()
+- TagKey getTag()
+- void <init>(StringReader,boolean)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
++ Registry COMMAND_ARGUMENT_TYPE
++ Registry STRUCTURE_TYPES
++ ResourceKey COMMAND_ARGUMENT_TYPE_REGISTRY
++ ResourceKey FLAT_LEVEL_GENERATOR_PRESET_REGISTRY
++ ResourceKey STRUCTURE_REGISTRY
++ ResourceKey STRUCTURE_TYPE_REGISTRY
++ ResourceKey WORLD_PRESET_REGISTRY
++ Set registryKeySet()
+- Registry STRUCTURE_FEATURE
+- ResourceKey CONFIGURED_STRUCTURE_FEATURE_REGISTRY
+- ResourceKey STRUCTURE_FEATURE_REGISTRY
++ StructurePieceType lambda$static$42(Registry)
++ StructurePlacementType lambda$static$41(Registry)
++ StructureType lambda$static$43(Registry)
+- StructureFeature lambda$static$41(Registry)
+- StructurePieceType lambda$static$43(Registry)
+- StructurePlacementType lambda$static$42(Registry)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ BlockStateGenerator createDoor(ResourceLocation)
++ BlockStateGenerator createNorthWestMirroredCubeGenerator(BiConsumer)
++ PropertyDispatch$C4 configureDoorHalf(ResourceLocation)
++ Variant lambda$createJigsaw$48(FrontAndTop)
++ Variant lambda$createRespawnAnchor$47(Integer)
++ Variant lambda$createSculkCatalyst$46(Boolean)
++ void createFrogspawnBlock()
++ void createMangrovePropagule()
++ void createMuddyMangroveRoots()
++ void createSculkCatalyst()
++ void createSculkShrieker()
++ void lambda$run$49(BlockFamily)
++ void lambda$run$50(SpawnEggItem)
+- BlockStateGenerator createDoor(ResourceLocation)
+- PropertyDispatch$C4 configureDoorHalf(ResourceLocation)
+- Variant lambda$createJigsaw$47(FrontAndTop)
+- Variant lambda$createRespawnAnchor$46(Integer)
+- void lambda$run$48(BlockFamily)
+- void lambda$run$49(SpawnEggItem)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.data.tags.BiomeTagsProvider</summary>
+
+```diff
++ void lambda$addTags$0(ResourceKey)
++ void lambda$addTags$1(ResourceKey)
+- String getName()
+```
+
+</details>
+
+<details><summary>net.minecraft.data.tags.FluidTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addSculk(BiomeGenerationSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket$Entry</summary>
+
+```diff
++ ClientboundCommandsPacket$NodeStub stub
++ int flags
+- ArgumentBuilder builder
+- byte flags
+- CommandNode node
++ boolean canBuild(IntSet)
++ boolean canResolve(IntSet)
++ void <init>(ClientboundCommandsPacket$NodeStub,int,int,int[])
++ void write(FriendlyByteBuf)
+- boolean build(List)
+- int lambda$build$0(CommandContext)
+- void <init>(ArgumentBuilder,byte,int,int[])
+```
+
+</details>
+
+<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
+
+```diff
++ boolean lambda$listResources$0(Map$Entry)
++ DataResult lambda$getResource$3(Decoder)
++ Map listResources(ResourceKey)
++ Optional getResource(ResourceKey)
++ RegistryResourceAccess$EntryThunk lambda$listResources$2(Map$Entry)
++ ResourceKey lambda$listResources$1(Map$Entry)
+- Collection listResources(ResourceKey)
+- Optional parseElement(Decoder)
+- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(Object)
+- Stream lambda$listResources$0(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
+
+```diff
++ String toLanguageKey()
++ String toLanguageKey(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.ReloadableServerResources</summary>
+
+```diff
++ CommandBuildContext commandBuildContext
++ List lambda$updateRegistryTags$4(Map$Entry)
++ ReloadableServerResources lambda$loadResources$1(Object)
++ TagKey lambda$updateRegistryTags$3(Map$Entry)
++ void lambda$loadResources$0(Throwable)
++ void lambda$updateRegistryTags$2(TagManager$LoadResult)
+- List lambda$updateRegistryTags$3(Map$Entry)
+- ReloadableServerResources lambda$loadResources$0(Object)
+- TagKey lambda$updateRegistryTags$2(Map$Entry)
+- void lambda$updateRegistryTags$1(TagManager$LoadResult)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.CloneCommands</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.FillCommand</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.LootCommand</summary>
+
+```diff
++ ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
++ void register(CommandBuildContext)
+- ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.commands.SetBlockCommand</summary>
+
+```diff
++ void register(CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ int getMaxChainedNeighborUpdates()
+```
+
+</details>
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ int maxChainedNeighborUpdates
++ Logger LOGGER
++ void <clinit>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.level.DemoMode</summary>
+
+```diff
++ void handleBlockBreakAction(Direction,int,int)
+- void handleBlockBreakAction(Direction,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.level.ThreadedLevelLightEngine</summary>
+
+```diff
++ ChunkAccess lambda$lightChunk$23(ChunkPos)
++ ChunkAccess lambda$retainData$17(ChunkAccess)
++ CompletableFuture retainData(ChunkAccess)
++ String lambda$lightChunk$22(ChunkPos,boolean)
++ String lambda$retainData$18(ChunkPos)
++ void lambda$lightChunk$20(BlockPos)
++ void lambda$lightChunk$21(ChunkPos,boolean)
++ void lambda$lightChunk$24(Runnable)
++ void lambda$retainData$19(Runnable)
++ void lambda$tryScheduleUpdate$25()
+- ChunkAccess lambda$lightChunk$20(ChunkPos)
+- String lambda$lightChunk$19(ChunkPos,boolean)
+- void lambda$lightChunk$17(BlockPos)
+- void lambda$lightChunk$18(ChunkPos,boolean)
+- void lambda$lightChunk$21(Runnable)
+- void lambda$tryScheduleUpdate$22()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ double MAX_INTERACTION_DISTANCE
++ int ackBlockChangesUpTo
++ int NO_BLOCK_UPDATES_TO_ACK
++ void ackBlockChangesUpTo(int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.packs.FolderPackResources</summary>
+
+```diff
++ Collection getResources(Predicate)
++ void listResources(Predicate)
+- Collection getResources(Predicate)
+- void listResources(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
++ boolean lambda$getResources$1(Path)
++ Collection getResources(Predicate)
++ void getResources(Predicate)
+- boolean lambda$getResources$1(Path)
+- Collection getResources(Predicate)
+- void getResources(Predicate)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
+
+```diff
++ List getResourceStack(ResourceLocation)
++ Map listResources(Predicate)
++ Map listResourceStacks(Predicate)
+- Collection listResources(Predicate)
+- List getResources(ResourceLocation)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleResource</summary>
+
+```diff
+- boolean triedMetadata
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.sounds.SoundEvents</summary>
+
+```diff
++ SoundEvent BUCKET_EMPTY_TADPOLE
++ SoundEvent BUCKET_FILL_TADPOLE
++ SoundEvent FROG_AMBIENT
++ SoundEvent FROG_DEATH
++ SoundEvent FROG_EAT
++ SoundEvent FROG_HURT
++ SoundEvent FROG_LAY_SPAWN
++ SoundEvent FROG_LONG_JUMP
++ SoundEvent FROG_STEP
++ SoundEvent FROG_TOUNGE
++ SoundEvent FROGLIGHT_BREAK
++ SoundEvent FROGLIGHT_FALL
++ SoundEvent FROGLIGHT_HIT
++ SoundEvent FROGLIGHT_PLACE
++ SoundEvent FROGLIGHT_STEP
++ SoundEvent FROGSPAWN_BREAK
++ SoundEvent FROGSPAWN_FALL
++ SoundEvent FROGSPAWN_HATCH
++ SoundEvent FROGSPAWN_HIT
++ SoundEvent FROGSPAWN_PLACE
++ SoundEvent FROGSPAWNSTEP
++ SoundEvent MANGROVE_ROOTS_BREAK
++ SoundEvent MANGROVE_ROOTS_FALL
++ SoundEvent MANGROVE_ROOTS_HIT
++ SoundEvent MANGROVE_ROOTS_PLACE
++ SoundEvent MANGROVE_ROOTS_STEP
++ SoundEvent MUD_BREAK
++ SoundEvent MUD_BRICKS_BREAK
++ SoundEvent MUD_BRICKS_FALL
++ SoundEvent MUD_BRICKS_HIT
++ SoundEvent MUD_BRICKS_PLACE
++ SoundEvent MUD_BRICKS_STEP
++ SoundEvent MUD_FALL
++ SoundEvent MUD_HIT
++ SoundEvent MUD_PLACE
++ SoundEvent MUD_STEP
++ SoundEvent MUDDY_MANGROVE_ROOTS_BREAK
++ SoundEvent MUDDY_MANGROVE_ROOTS_FALL
++ SoundEvent MUDDY_MANGROVE_ROOTS_HIT
++ SoundEvent MUDDY_MANGROVE_ROOTS_PLACE
++ SoundEvent MUDDY_MANGROVE_ROOTS_STEP
++ SoundEvent MUSIC_BIOME_DEEP_DARK
++ SoundEvent PACKED_MUD_BREAK
++ SoundEvent PACKED_MUD_FALL
++ SoundEvent PACKED_MUD_HIT
++ SoundEvent PACKED_MUD_PLACE
++ SoundEvent PACKED_MUD_STEP
++ SoundEvent SCULK_BLOCK_BREAK
++ SoundEvent SCULK_BLOCK_CHARGE
++ SoundEvent SCULK_BLOCK_FALL
++ SoundEvent SCULK_BLOCK_HIT
++ SoundEvent SCULK_BLOCK_PLACE
++ SoundEvent SCULK_BLOCK_SPREAD
++ SoundEvent SCULK_BLOCK_STEP
++ SoundEvent SCULK_CATALYST_BLOOM
++ SoundEvent SCULK_CATALYST_BREAK
++ SoundEvent SCULK_CATALYST_FALL
++ SoundEvent SCULK_CATALYST_HIT
++ SoundEvent SCULK_CATALYST_PLACE
++ SoundEvent SCULK_CATALYST_STEP
++ SoundEvent SCULK_SHRIEKER_BREAK
++ SoundEvent SCULK_SHRIEKER_FALL
++ SoundEvent SCULK_SHRIEKER_HIT
++ SoundEvent SCULK_SHRIEKER_PLACE
++ SoundEvent SCULK_SHRIEKER_STEP
++ SoundEvent SCULK_VEIN_BREAK
++ SoundEvent SCULK_VEIN_FALL
++ SoundEvent SCULK_VEIN_HIT
++ SoundEvent SCULK_VEIN_PLACE
++ SoundEvent SCULK_VEIN_STEP
++ SoundEvent TADPOLE_DEATH
++ SoundEvent TADPOLE_EAT
++ SoundEvent TADPOLE_FLOP
++ SoundEvent TADPOLE_GROW_UP
++ SoundEvent TADPOLE_HURT
++ SoundEvent TADPOLE_STEP
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.tags.BiomeTags</summary>
+
+```diff
++ TagKey ALLOWS_SURFACE_SLIME_SPAWNS
++ TagKey ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT
++ TagKey HAS_CLOSER_WATER_FOG
++ TagKey IS_END
++ TagKey IS_OVERWORLD
++ TagKey IS_SAVANNA
++ TagKey MORE_FREQUENT_DROWNED_SPAWNS
++ TagKey ONLY_ALLOWS_SNOW_AND_GOLD_RABBITS
++ TagKey PLAYS_UNDERWATER_MUSIC
++ TagKey POLAR_BEARS_SPAWN_ON_ALTERNATE_BLOCKS
++ TagKey PRODUCES_CORALS_FROM_BONEMEAL
++ TagKey REDUCED_WATER_AMBIENT_SPAWNS
++ TagKey REQUIRED_OCEAN_MONUMENT_SURROUNDING
++ TagKey SPAWNS_COLD_VARIANT_FROGS
++ TagKey SPAWNS_WARM_VARIANT_FROGS
++ TagKey STRONGHOLD_BIASED_TO
++ TagKey WATER_ON_MAP_OUTLINES
++ TagKey WITHOUT_PATROL_SPAWNS
++ TagKey WITHOUT_WANDERING_TRADER_SPAWNS
++ TagKey WITHOUT_ZOMBIE_SIEGES
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.ItemTags</summary>
+
+```diff
++ TagKey MANGROVE_LOGS
+```
+
+</details>
+
+
+
+
+
+
+<details><summary>net.minecraft.util.CubicSpline</summary>
+
+```diff
+- float max()
+- float min()
+```
+
+</details>
+
+<details><summary>net.minecraft.util.CubicSpline$Builder</summary>
+
+```diff
++ CubicSpline$Builder addPoint(CubicSpline)
++ CubicSpline$Builder addPoint(float,float)
+- float lambda$new$0(Float)
+```
+
+</details>
+
+<details><summary>net.minecraft.util.CubicSpline$CoordinateVisitor</summary>
+
+```diff
++ Object visit(java.lang.Object)
+- ToFloatFunction visit(net.minecraft.util.ToFloatFunction)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ Codec PATTERN
++ DataResult lambda$static$27(String)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float catmullrom(float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ParticleUtils</summary>
+
+```diff
++ Vec3 getRandomSpeedRanges(Random)
++ Vec3 lambda$spawnParticlesOnBlockFaces$0(Level)
++ void spawnParticleOnFace(Vec3,double)
++ void spawnParticlesOnBlockFace(Supplier,double)
++ void spawnParticlesOnBlockFaces(IntProvider)
+- void spawnParticleOnFace(ParticleOptions)
+- void spawnParticlesOnBlockFaces(UniformInt)
+```
+
+</details>
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.ToFloatFunction</summary>
+
+```diff
++ float maxValue()
++ float minValue()
++ ToFloatFunction IDENTITY
++ float lambda$static$0(float)
++ ToFloatFunction comap(Function)
++ ToFloatFunction createUnlimited(Float2FloatFunction)
++ void <clinit>()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.util.profiling.metrics.profiling.ActiveMetricsRecorder</summary>
+
+```diff
++ void cancel()
++ void cleanup(Collection)
+```
+
+</details>
+
+<details><summary>net.minecraft.util.profiling.metrics.profiling.MetricsRecorder</summary>
+
+```diff
++ void cancel()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
+
+```diff
++ Activity LAY_SPAWN
++ Activity SWIM
++ Activity TONGUE
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
+
+```diff
++ void updateEffects(MobEffect)
+- void updateEffects(int,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.item.Items</summary>
+
+```diff
++ Item FROG_SPAWN_EGG
++ Item FROGSPAWN
++ Item MANGROVE_BOAT
++ Item MANGROVE_BUTTON
++ Item MANGROVE_DOOR
++ Item MANGROVE_FENCE
++ Item MANGROVE_FENCE_GATE
++ Item MANGROVE_LEAVES
++ Item MANGROVE_LOG
++ Item MANGROVE_PLANKS
++ Item MANGROVE_PRESSURE_PLATE
++ Item MANGROVE_PROPAGULE
++ Item MANGROVE_ROOTS
++ Item MANGROVE_SIGN
++ Item MANGROVE_SLAB
++ Item MANGROVE_STAIRS
++ Item MANGROVE_TRAPDOOR
++ Item MANGROVE_WOOD
++ Item MUD
++ Item MUD_BRICK_SLAB
++ Item MUD_BRICK_STAIRS
++ Item MUD_BRICK_WALL
++ Item MUD_BRICKS
++ Item MUDDY_MANGROVE_ROOTS
++ Item OCHRE_FROGLIGHT
++ Item PACKED_MUD
++ Item PEARLESCENT_FROGLIGHT
++ Item SCULK
++ Item SCULK_CATALYST
++ Item SCULK_SHRIEKER
++ Item SCULK_VEIN
++ Item STRIPPED_MANGROVE_LOG
++ Item STRIPPED_MANGROVE_WOOD
++ Item TADPOLE_BUCKET
++ Item TADPOLE_SPAWN_EGG
++ Item VERDANT_FROGLIGHT
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
+
+```diff
++ MultifaceSpreader getSpreader()
++ boolean isValidStateForPlacement(Direction)
++ boolean lambda$hasAnyFace$2(Direction)
++ boolean lambda$hasAnyVacantFace$3(Direction)
++ byte pack(Collection)
++ Set availableFaces(BlockState)
++ Set unpack(byte)
+- boolean canSpread(Direction)
+- boolean canSpreadInto(BlockState)
+- boolean canSpreadToFace(Direction)
+- boolean lambda$canSpread$5(Direction)
+- boolean lambda$hasAnyFace$6(Direction)
+- boolean lambda$hasAnyVacantFace$7(Direction)
+- boolean lambda$spreadFromFaceTowardRandomDirection$4(Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(Direction)
+- boolean spreadFromFaceTowardDirection(Direction,boolean)
+- boolean spreadFromFaceTowardRandomDirection(Random,boolean)
+- boolean spreadFromRandomFaceTowardRandomDirection(Random)
+- boolean spreadToFace(Direction,boolean)
+- Optional getSpreadFromFaceTowardDirection(Direction)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
+
+```diff
++ LongSet getReferencesForStructure(Structure)
++ StructureStart getStartForStructure(Structure)
++ void addReferenceForStructure(Structure,long)
++ void setStartForStructure(StructureStart)
+- LongSet getReferencesForFeature(ConfiguredStructureFeature)
+- StructureStart getStartForFeature(ConfiguredStructureFeature)
+- void addReferenceForFeature(ConfiguredStructureFeature,long)
+- void setStartForFeature(StructureStart)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
+
+```diff
++ boolean lambda$keysInOrder$1(ResourceKey)
++ boolean stable(Registry)
++ Stream keysInOrder(Stream)
++ void lambda$sortMap$2(ResourceKey)
+- boolean stable(Registry)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
+
+```diff
++ boolean processing
++ List listenersToAdd
++ Set listenersToRemove
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
++ void <init>(ChunkAccess)
++ void lambda$new$1(StructureStart)
+- boolean lambda$new$1(ConfiguredStructureFeature)
+- void <init>(ChunkAccess)
+- void lambda$new$2(StructureStart)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
++ CompletableFuture fillFromNoise(ChunkAccess)
++ int getBaseHeight(RandomState)
++ NoiseColumn getBaseColumn(RandomState)
++ void addDebugScreenInfo(BlockPos)
++ void applyBiomeDecoration(StructureManager)
++ void applyCarvers(GenerationStep$Carving)
++ void buildSurface(ChunkAccess)
+- ChunkGenerator withSeed(long)
+- Climate$Sampler climateSampler()
+- CompletableFuture fillFromNoise(ChunkAccess)
+- int getBaseHeight(LevelHeightAccessor)
+- NoiseColumn getBaseColumn(LevelHeightAccessor)
+- void addDebugScreenInfo(BlockPos)
+- void applyBiomeDecoration(StructureFeatureManager)
+- void applyCarvers(GenerationStep$Carving)
+- void buildSurface(ChunkAccess)
+```
+
+</details>
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions</summary>
+
+```diff
++ DensityFunction spline(CubicSpline)
+- DensityFunction terrainShaperSpline(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
+```
+
+</details>
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
+
+```diff
++ float ISLAND_THRESHOLD
++ float getHeightValue(SimplexNoise,int,int)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
+
+```diff
++ Codec SPLINE_CODEC
+- double maxValue
+- double minValue
++ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunctions$Spline$Coordinate)
++ void <init>(CubicSpline)
+- App lambda$static$0(RecordCodecBuilder$Instance)
+- ToFloatFunction lambda$mapAll$1(ToFloatFunction)
+- void <init>(CubicSpline,double,double)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
+
+```diff
++ RandomState randomState
++ SurfaceRules$RuleSource surfaceRule
+- NoiseBasedChunkGenerator generator
++ RandomState randomState()
++ void <init>(SurfaceRules$RuleSource)
+- void <init>(NoiseChunk)
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
+
+```diff
++ boolean place(Random,boolean)
++ BoundingBox getBoundingBox(Rotation)
++ List getShuffledJigsawBlocks(Random)
++ Vec3i getSize(Rotation)
+- boolean place(Random,boolean)
+- BoundingBox getBoundingBox(Rotation)
+- List getShuffledJigsawBlocks(Random)
+- Vec3i getSize(Rotation)
+```
+
+</details>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
+
+```diff
++ Optional addPieces(Optional)
++ void addPieces(RandomState)
++ void lambda$addPieces$0(StructurePiecesBuilder)
+- Optional addPieces(BlockPos,boolean,boolean)
+- void addPieces(LevelHeightAccessor)
+- void lambda$addPieces$0(PieceGenerator$Context)
+```
+
+</details>
+
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
+
+```diff
++ boolean place(Random,boolean)
++ BoundingBox getBoundingBox(Rotation)
++ List getDataMarkers(Rotation,boolean)
++ List getShuffledJigsawBlocks(Random)
++ StructureTemplate getTemplate(StructureTemplateManager)
++ Vec3i getSize(Rotation)
+- boolean place(Random,boolean)
+- BoundingBox getBoundingBox(Rotation)
+- List getDataMarkers(Rotation,boolean)
+- List getShuffledJigsawBlocks(Random)
+- StructureTemplate getTemplate(StructureManager)
+- Vec3i getSize(Rotation)
+```
+
+</details>
+
+
+
+
+
+
+
+
+<details><summary>Added and removed classes</summary>
+
+```diff
+- net.minecraft.commands.arguments.blocks.BlockPredicateArgument$2
++ net.minecraft.commands.arguments.blocks.BlockStateParser$BlockResult
++ net.minecraft.commands.arguments.EntityArgument$Info$Template
+- net.minecraft.commands.arguments.EntitySummonArgument
++ net.minecraft.commands.arguments.GameProfileArgument
+- net.minecraft.commands.arguments.GameProfileArgument$Result
++ net.minecraft.commands.arguments.GameProfileArgument$SelectorResult
++ net.minecraft.commands.arguments.item.ItemParser$TagResult
+- net.minecraft.commands.arguments.item.ItemPredicateArgument$ItemPredicate
++ net.minecraft.commands.arguments.item.ItemPredicateArgument$Result
+- net.minecraft.commands.arguments.item.ItemPredicateArgument$TagPredicate
+- net.minecraft.commands.arguments.ItemEnchantmentArgument
++ net.minecraft.commands.arguments.MessageArgument
+- net.minecraft.commands.arguments.MessageArgument$Message
++ net.minecraft.commands.arguments.MessageArgument$Part
+- net.minecraft.commands.arguments.MobEffectArgument
++ net.minecraft.commands.arguments.NbtPathArgument
+- net.minecraft.commands.arguments.NbtPathArgument$AllElementsNode
++ net.minecraft.commands.arguments.NbtPathArgument$CompoundChildNode
+- net.minecraft.commands.arguments.NbtPathArgument$IndexedElementNode
++ net.minecraft.commands.arguments.NbtPathArgument$MatchElementNode
+- net.minecraft.commands.arguments.NbtPathArgument$MatchObjectNode
++ net.minecraft.commands.arguments.NbtPathArgument$MatchRootObjectNode
+- net.minecraft.commands.arguments.NbtPathArgument$NbtPath
++ net.minecraft.commands.arguments.NbtPathArgument$Node
+- net.minecraft.commands.arguments.NbtTagArgument
++ net.minecraft.commands.arguments.ObjectiveArgument
+- net.minecraft.commands.arguments.ObjectiveCriteriaArgument
++ net.minecraft.commands.arguments.OperationArgument
+- net.minecraft.commands.arguments.OperationArgument$Operation
++ net.minecraft.commands.arguments.OperationArgument$SimpleOperation
+- net.minecraft.commands.arguments.ParticleArgument
++ net.minecraft.commands.arguments.RangeArgument
+- net.minecraft.commands.arguments.RangeArgument$Floats
++ net.minecraft.commands.arguments.RangeArgument$Ints
+- net.minecraft.commands.arguments.ResourceKeyArgument
++ net.minecraft.commands.arguments.ResourceKeyArgument$Info
++ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Info
+- net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Serializer
++ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$TagResult
+- net.minecraft.commands.arguments.ScoreHolderArgument
++ net.minecraft.commands.arguments.ScoreHolderArgument$Info
++ net.minecraft.commands.arguments.ScoreHolderArgument$Result
+- net.minecraft.commands.arguments.ScoreHolderArgument$SelectorResult
++ net.minecraft.commands.CommandBuildContext$1
++ net.minecraft.commands.CommandBuildContext$MissingTagAccessPolicy
+- net.minecraft.commands.synchronization.ArgumentSerializer
++ net.minecraft.commands.synchronization.ArgumentTypeInfo
++ net.minecraft.commands.synchronization.ArgumentTypeInfos
+- net.minecraft.commands.synchronization.ArgumentTypes$Entry
+- net.minecraft.commands.synchronization.brigadier.BrigadierArgumentSerializers
++ net.minecraft.commands.synchronization.brigadier.DoubleArgumentInfo
++ net.minecraft.commands.synchronization.brigadier.FloatArgumentInfo
+- net.minecraft.commands.synchronization.brigadier.FloatArgumentSerializer
++ net.minecraft.commands.synchronization.brigadier.IntegerArgumentInfo
++ net.minecraft.commands.synchronization.brigadier.LongArgumentInfo
+- net.minecraft.commands.synchronization.brigadier.LongArgumentSerializer
++ net.minecraft.commands.synchronization.brigadier.StringArgumentSerializer
+- net.minecraft.commands.synchronization.brigadier.StringArgumentSerializer$1
++ net.minecraft.commands.synchronization.brigadier.StringArgumentSerializer$Template
++ net.minecraft.commands.synchronization.SingletonArgumentInfo
++ net.minecraft.core.dispenser.DispenseItemBehavior$3
+- net.minecraft.core.dispenser.DispenseItemBehavior$4
++ net.minecraft.core.dispenser.DispenseItemBehavior$5
+- net.minecraft.core.dispenser.DispenseItemBehavior$6
++ net.minecraft.core.dispenser.DispenseItemBehavior$7
+- net.minecraft.core.dispenser.DispenseItemBehavior$7$1
++ net.minecraft.core.dispenser.DispenseItemBehavior$8
+- net.minecraft.core.dispenser.DispenseItemBehavior$8$1
++ net.minecraft.core.dispenser.DispenseItemBehavior$9
+- net.minecraft.core.dispenser.OptionalDispenseItemBehavior
++ net.minecraft.core.dispenser.package-info
++ net.minecraft.core.dispenser.ShearsDispenseItemBehavior
+- net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior
++ net.minecraft.core.HolderLookup$RegistryLookup
+- net.minecraft.core.package-info
++ net.minecraft.core.particles.BlockParticleOption
+- net.minecraft.core.particles.BlockParticleOption$1
++ net.minecraft.core.particles.DustColorTransitionOptions
+- net.minecraft.core.particles.DustColorTransitionOptions$1
++ net.minecraft.core.particles.DustParticleOptions
+- net.minecraft.core.particles.DustParticleOptions$1
++ net.minecraft.core.particles.DustParticleOptionsBase
+- net.minecraft.core.particles.ItemParticleOption
++ net.minecraft.core.particles.ItemParticleOption$1
+- net.minecraft.core.particles.package-info
+- net.minecraft.core.particles.ParticleGroup
++ net.minecraft.core.particles.ParticleOptions
+- net.minecraft.core.particles.ParticleOptions$Deserializer
++ net.minecraft.core.particles.ParticleType
+- net.minecraft.core.particles.ParticleTypes
++ net.minecraft.core.particles.ParticleTypes$1
++ net.minecraft.core.particles.SculkChargeParticleOptions$1
+- net.minecraft.core.particles.SimpleParticleType
++ net.minecraft.core.particles.SimpleParticleType$1
+- net.minecraft.core.particles.VibrationParticleOption
++ net.minecraft.core.particles.VibrationParticleOption$1
+- net.minecraft.data.advancements.AdvancementProvider
++ net.minecraft.data.advancements.AdventureAdvancements
+- net.minecraft.data.advancements.HusbandryAdvancements
++ net.minecraft.data.advancements.NetherAdvancements
+- net.minecraft.data.advancements.package-info
+- net.minecraft.data.advancements.StoryAdvancements
++ net.minecraft.data.advancements.TheEndAdvancements
++ net.minecraft.data.BlockFamilies
+- net.minecraft.data.BlockFamily
++ net.minecraft.data.BlockFamily$Builder
+- net.minecraft.data.BlockFamily$Variant
++ net.minecraft.data.BuiltinRegistries
+- net.minecraft.data.DataGenerator
++ net.minecraft.data.DataProvider
+- net.minecraft.data.HashCache
++ net.minecraft.data.info.BiomeParametersDumpReport
++ net.minecraft.data.Main
+- net.minecraft.data.tags.ConfiguredStructureTagsProvider
++ net.minecraft.data.tags.EntityTypeTagsProvider
++ net.minecraft.data.tags.TagsProvider
+- net.minecraft.data.tags.TagsProvider$TagAppender
++ net.minecraft.data.tags.WorldPresetTagsProvider
+- net.minecraft.data.worldgen.biome.Biomes
++ net.minecraft.data.worldgen.biome.EndBiomes
+- net.minecraft.data.worldgen.biome.NetherBiomes
++ net.minecraft.data.worldgen.biome.OverworldBiomes
+- net.minecraft.data.worldgen.biome.package-info
++ net.minecraft.data.worldgen.features.AquaticFeatures
+- net.minecraft.data.worldgen.features.CaveFeatures
++ net.minecraft.data.worldgen.features.EndFeatures
+- net.minecraft.data.worldgen.features.FeatureUtils
++ net.minecraft.data.worldgen.features.MiscOverworldFeatures
+- net.minecraft.data.worldgen.features.NetherFeatures
++ net.minecraft.data.worldgen.features.OreFeatures
++ net.minecraft.data.worldgen.features.package-info
+- net.minecraft.data.worldgen.features.PileFeatures
++ net.minecraft.data.worldgen.features.TreeFeatures
+- net.minecraft.data.worldgen.features.VegetationFeatures
++ net.minecraft.data.worldgen.NoiseData
+- net.minecraft.data.worldgen.package-info
+- net.minecraft.data.worldgen.PillagerOutpostPools
++ net.minecraft.data.worldgen.placement.AquaticPlacements
+- net.minecraft.data.worldgen.placement.CavePlacements
++ net.minecraft.data.worldgen.placement.EndPlacements
+- net.minecraft.data.worldgen.placement.MiscOverworldPlacements
++ net.minecraft.data.worldgen.placement.NetherPlacements
+- net.minecraft.data.worldgen.placement.OrePlacements
++ net.minecraft.data.worldgen.placement.package-info
++ net.minecraft.data.worldgen.placement.PlacementUtils
+- net.minecraft.data.worldgen.placement.TreePlacements
++ net.minecraft.data.worldgen.placement.VegetationPlacements
+- net.minecraft.data.worldgen.placement.VillagePlacements
++ net.minecraft.data.worldgen.PlainVillagePools
+- net.minecraft.data.worldgen.Pools
++ net.minecraft.data.worldgen.ProcessorLists
+- net.minecraft.data.worldgen.SavannaVillagePools
++ net.minecraft.data.worldgen.SnowyVillagePools
+- net.minecraft.data.worldgen.StructureFeatures
++ net.minecraft.data.worldgen.Structures
+- net.minecraft.data.worldgen.SurfaceRuleData
++ net.minecraft.data.worldgen.TaigaVillagePools
+- net.minecraft.data.worldgen.TerrainProvider
++ net.minecraft.data.worldgen.VillagePools
+- net.minecraft.gametest.framework.AfterBatch
++ net.minecraft.gametest.framework.BeforeBatch
+- net.minecraft.gametest.framework.ExhaustedAttemptsException
++ net.minecraft.gametest.framework.GameTest
+- net.minecraft.gametest.framework.GameTestAssertException
++ net.minecraft.gametest.framework.GameTestAssertPosException
+- net.minecraft.gametest.framework.GameTestBatch
++ net.minecraft.gametest.framework.GameTestBatchRunner
+- net.minecraft.gametest.framework.GameTestBatchRunner$1
++ net.minecraft.gametest.framework.GameTestEvent
+- net.minecraft.gametest.framework.GameTestGenerator
++ net.minecraft.gametest.framework.GameTestHelper
+- net.minecraft.gametest.framework.GameTestHelper$1
++ net.minecraft.gametest.framework.GameTestInfo
+- net.minecraft.gametest.framework.GameTestListener
++ net.minecraft.gametest.framework.GameTestRegistry
+- net.minecraft.gametest.framework.GameTestRunner
++ net.minecraft.gametest.framework.GameTestSequence
+- net.minecraft.gametest.framework.GameTestSequence$Condition
++ net.minecraft.gametest.framework.GameTestServer
+- net.minecraft.gametest.framework.GameTestServer$1
++ net.minecraft.gametest.framework.GameTestTicker
+- net.minecraft.gametest.framework.GameTestTimeoutException
++ net.minecraft.gametest.framework.GlobalTestReporter
+- net.minecraft.gametest.framework.JUnitLikeTestReporter
++ net.minecraft.gametest.framework.LogTestReporter
+- net.minecraft.gametest.framework.MultipleTestTracker
++ net.minecraft.gametest.framework.MultipleTestTracker$1
+- net.minecraft.gametest.framework.package-info
+- net.minecraft.gametest.framework.ReportGameListener
++ net.minecraft.gametest.framework.StructureUtils
+- net.minecraft.gametest.framework.StructureUtils$1
++ net.minecraft.gametest.framework.TeamcityTestReporter
+- net.minecraft.gametest.framework.TestClassNameArgument
++ net.minecraft.gametest.framework.TestCommand
+- net.minecraft.gametest.framework.TestCommand$TestSummaryDisplayer
++ net.minecraft.gametest.framework.TestFunction
+- net.minecraft.gametest.framework.TestFunctionArgument
++ net.minecraft.gametest.framework.TestReporter
++ net.minecraft.locale.Language
+- net.minecraft.locale.Language$1
++ net.minecraft.locale.package-info
+- net.minecraft.nbt.ByteArrayTag
++ net.minecraft.nbt.ByteArrayTag$1
+- net.minecraft.nbt.ByteTag
++ net.minecraft.nbt.ByteTag$1
+- net.minecraft.nbt.ByteTag$Cache
++ net.minecraft.nbt.CollectionTag
+- net.minecraft.nbt.CompoundTag
++ net.minecraft.nbt.CompoundTag$1
+- net.minecraft.nbt.CompoundTag$2
++ net.minecraft.nbt.DoubleTag
+- net.minecraft.nbt.DoubleTag$1
++ net.minecraft.nbt.EndTag
+- net.minecraft.nbt.EndTag$1
++ net.minecraft.nbt.FloatTag
+- net.minecraft.nbt.FloatTag$1
++ net.minecraft.nbt.IntArrayTag
+- net.minecraft.nbt.IntArrayTag$1
++ net.minecraft.nbt.IntTag
+- net.minecraft.nbt.IntTag$1
++ net.minecraft.nbt.IntTag$Cache
+- net.minecraft.nbt.ListTag
++ net.minecraft.nbt.ListTag$1
+- net.minecraft.nbt.ListTag$2
++ net.minecraft.nbt.LongArrayTag
+- net.minecraft.nbt.LongArrayTag$1
++ net.minecraft.nbt.LongTag
+- net.minecraft.nbt.LongTag$1
++ net.minecraft.nbt.LongTag$Cache
+- net.minecraft.nbt.NbtAccounter
++ net.minecraft.nbt.NbtAccounter$1
+- net.minecraft.nbt.NbtIo
++ net.minecraft.nbt.NbtIo$1
+- net.minecraft.nbt.NbtOps
++ net.minecraft.nbt.NbtOps$1
+- net.minecraft.nbt.NbtOps$NbtRecordBuilder
++ net.minecraft.nbt.NbtUtils
+- net.minecraft.nbt.NumericTag
++ net.minecraft.nbt.package-info
++ net.minecraft.nbt.ShortTag
+- net.minecraft.nbt.ShortTag$1
++ net.minecraft.nbt.ShortTag$Cache
+- net.minecraft.nbt.SnbtPrinterTagVisitor
++ net.minecraft.nbt.StreamTagVisitor
+- net.minecraft.nbt.StreamTagVisitor$EntryResult
++ net.minecraft.nbt.StreamTagVisitor$ValueResult
+- net.minecraft.nbt.StringTag
++ net.minecraft.nbt.StringTag$1
+- net.minecraft.nbt.StringTagVisitor
++ net.minecraft.nbt.Tag
+- net.minecraft.nbt.TagParser
++ net.minecraft.nbt.TagType
+- net.minecraft.nbt.TagType$1
++ net.minecraft.nbt.TagType$2
+- net.minecraft.nbt.TagType$StaticSize
++ net.minecraft.nbt.TagType$VariableSize
+- net.minecraft.nbt.TagTypes
++ net.minecraft.nbt.TagVisitor
+- net.minecraft.nbt.TextComponentTagVisitor
+- net.minecraft.nbt.visitors.CollectFields
++ net.minecraft.nbt.visitors.CollectToTag
+- net.minecraft.nbt.visitors.FieldSelector
++ net.minecraft.nbt.visitors.FieldTree
++ net.minecraft.nbt.visitors.package-info
+- net.minecraft.nbt.visitors.SkipAll
++ net.minecraft.nbt.visitors.SkipAll$1
+- net.minecraft.nbt.visitors.SkipFields
+- net.minecraft.network.chat.BaseComponent
++ net.minecraft.network.chat.ChatType
+- net.minecraft.network.chat.ClickEvent
++ net.minecraft.network.chat.ClickEvent$Action
+- net.minecraft.network.chat.CommonComponents
++ net.minecraft.network.chat.Component
+- net.minecraft.network.chat.Component$Serializer
++ net.minecraft.network.chat.ComponentUtils
+- net.minecraft.network.chat.ContextAwareComponent
++ net.minecraft.network.chat.FormattedText
+- net.minecraft.network.chat.FormattedText$1
++ net.minecraft.network.chat.FormattedText$2
+- net.minecraft.network.chat.FormattedText$3
++ net.minecraft.network.chat.FormattedText$4
+- net.minecraft.network.chat.FormattedText$ContentConsumer
++ net.minecraft.network.chat.FormattedText$StyledContentConsumer
+- net.minecraft.network.chat.HoverEvent
++ net.minecraft.network.chat.HoverEvent$Action
+- net.minecraft.network.chat.HoverEvent$EntityTooltipInfo
++ net.minecraft.network.chat.HoverEvent$ItemStackInfo
+- net.minecraft.network.chat.KeybindComponent
++ net.minecraft.network.chat.MutableComponent
+- net.minecraft.network.chat.NbtComponent
++ net.minecraft.network.chat.NbtComponent$BlockNbtComponent
+- net.minecraft.network.chat.NbtComponent$EntityNbtComponent
++ net.minecraft.network.chat.NbtComponent$StorageNbtComponent
+- net.minecraft.network.chat.package-info
+- net.minecraft.network.chat.ScoreComponent
++ net.minecraft.network.chat.SelectorComponent
+- net.minecraft.network.chat.Style
++ net.minecraft.network.chat.Style$1
+- net.minecraft.network.chat.Style$Serializer
++ net.minecraft.network.chat.SubStringSource
+- net.minecraft.network.chat.TextColor
++ net.minecraft.network.chat.TextComponent
+- net.minecraft.network.chat.TranslatableComponent
++ net.minecraft.network.chat.TranslatableFormatException
+- net.minecraft.network.CipherBase
++ net.minecraft.network.CipherDecoder
+- net.minecraft.network.CipherEncoder
++ net.minecraft.network.CompressionDecoder
+- net.minecraft.network.CompressionEncoder
++ net.minecraft.network.Connection
+- net.minecraft.network.Connection$1
++ net.minecraft.network.Connection$2
+- net.minecraft.network.Connection$PacketHolder
++ net.minecraft.network.ConnectionProtocol
+- net.minecraft.network.ConnectionProtocol$PacketSet
++ net.minecraft.network.ConnectionProtocol$ProtocolBuilder
+- net.minecraft.network.FriendlyByteBuf
++ net.minecraft.network.package-info
++ net.minecraft.network.PacketDecoder
+- net.minecraft.network.PacketEncoder
++ net.minecraft.network.PacketListener
+- net.minecraft.network.protocol.game.ClientboundAddEntityPacket
++ net.minecraft.network.protocol.game.ClientboundAddExperienceOrbPacket
+- net.minecraft.network.protocol.game.ClientboundAddMobPacket
++ net.minecraft.network.protocol.game.ClientboundAddPaintingPacket
+- net.minecraft.network.protocol.game.ClientboundAddPlayerPacket
++ net.minecraft.network.protocol.game.ClientboundAddVibrationSignalPacket
+- net.minecraft.network.protocol.game.ClientboundAnimatePacket
++ net.minecraft.network.protocol.game.ClientboundAwardStatsPacket
+- net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket
++ net.minecraft.network.protocol.game.ClientboundBlockDestructionPacket
+- net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket
++ net.minecraft.network.protocol.game.ClientboundBlockEventPacket
+- net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$1
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$AddOperation
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$Handler
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$Operation
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$OperationType
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateNameOperation
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateProgressOperation
++ net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation
+- net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateStyleOperation
++ net.minecraft.network.protocol.game.ClientboundChangeDifficultyPacket
+- net.minecraft.network.protocol.game.ClientboundChatPacket
++ net.minecraft.network.protocol.game.ClientboundClearTitlesPacket
++ net.minecraft.network.protocol.game.ClientboundCommandsPacket
++ net.minecraft.network.protocol.game.ClientboundCommandsPacket$NodeResolver
+- net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket
++ net.minecraft.network.protocol.game.ClientboundContainerClosePacket
+- net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket
++ net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket
+- net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket
++ net.minecraft.network.protocol.game.ClientboundCooldownPacket
+- net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket
++ net.minecraft.network.protocol.game.ClientboundCustomSoundPacket
+- net.minecraft.network.protocol.game.ClientboundDisconnectPacket
++ net.minecraft.network.protocol.game.ClientboundEntityEventPacket
+- net.minecraft.network.protocol.game.ClientboundExplodePacket
++ net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket
+- net.minecraft.network.protocol.game.ClientboundGameEventPacket
++ net.minecraft.network.protocol.game.ClientboundGameEventPacket$Type
+- net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket
++ net.minecraft.network.protocol.game.ClientboundInitializeBorderPacket
+- net.minecraft.network.protocol.game.ClientboundKeepAlivePacket
++ net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData
+- net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData$BlockEntityInfo
++ net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData$BlockEntityTagOutput
+- net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket
++ net.minecraft.network.protocol.game.ClientboundLevelEventPacket
+- net.minecraft.network.protocol.game.ClientboundLevelParticlesPacket
++ net.minecraft.network.protocol.game.ClientboundLightUpdatePacket
+- net.minecraft.network.protocol.game.ClientboundLightUpdatePacketData
++ net.minecraft.network.protocol.game.ClientboundLoginPacket
+- net.minecraft.network.protocol.game.ClientboundMapItemDataPacket
++ net.minecraft.network.protocol.game.ClientboundMerchantOffersPacket
+- net.minecraft.network.protocol.game.ClientboundMoveEntityPacket
++ net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$Pos
+- net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$PosRot
++ net.minecraft.network.protocol.game.ClientboundMoveEntityPacket$Rot
+- net.minecraft.network.protocol.game.ClientboundMoveVehiclePacket
++ net.minecraft.network.protocol.game.ClientboundOpenBookPacket
+- net.minecraft.network.protocol.game.ClientboundOpenScreenPacket
++ net.minecraft.network.protocol.game.ClientboundOpenSignEditorPacket
+- net.minecraft.network.protocol.game.ClientboundPingPacket
++ net.minecraft.network.protocol.game.ClientboundPlaceGhostRecipePacket
+- net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerCombatEndPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerCombatEnterPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerCombatKillPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$1
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$2
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$3
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$4
+- net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$5
++ net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate
+- net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket
++ net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket
+- net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument
++ net.minecraft.network.protocol.game.ClientboundRecipePacket
+- net.minecraft.network.protocol.game.ClientboundRecipePacket$State
++ net.minecraft.network.protocol.game.ClientboundRemoveEntitiesPacket
+- net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket
++ net.minecraft.network.protocol.game.ClientboundResourcePackPacket
+- net.minecraft.network.protocol.game.ClientboundRespawnPacket
++ net.minecraft.network.protocol.game.ClientboundRotateHeadPacket
+- net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket
++ net.minecraft.network.protocol.game.ClientboundSelectAdvancementsTabPacket
+- net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket
++ net.minecraft.network.protocol.game.ClientboundSetBorderCenterPacket
+- net.minecraft.network.protocol.game.ClientboundSetBorderLerpSizePacket
++ net.minecraft.network.protocol.game.ClientboundSetBorderSizePacket
+- net.minecraft.network.protocol.game.ClientboundSetBorderWarningDelayPacket
++ net.minecraft.network.protocol.game.ClientboundSetBorderWarningDistancePacket
+- net.minecraft.network.protocol.game.ClientboundSetCameraPacket
++ net.minecraft.network.protocol.game.ClientboundSetCarriedItemPacket
+- net.minecraft.network.protocol.game.ClientboundSetChunkCacheCenterPacket
++ net.minecraft.network.protocol.game.ClientboundSetChunkCacheRadiusPacket
+- net.minecraft.network.protocol.game.ClientboundSetDefaultSpawnPositionPacket
++ net.minecraft.network.protocol.game.ClientboundSetDisplayObjectivePacket
+- net.minecraft.network.protocol.game.ClientboundSetEntityDataPacket
++ net.minecraft.network.protocol.game.ClientboundSetEntityLinkPacket
+- net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket
++ net.minecraft.network.protocol.game.ClientboundSetEquipmentPacket
+- net.minecraft.network.protocol.game.ClientboundSetExperiencePacket
++ net.minecraft.network.protocol.game.ClientboundSetHealthPacket
+- net.minecraft.network.protocol.game.ClientboundSetObjectivePacket
++ net.minecraft.network.protocol.game.ClientboundSetPassengersPacket
+- net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket
++ net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket$Action
+- net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket$Parameters
++ net.minecraft.network.protocol.game.ClientboundSetScorePacket
+- net.minecraft.network.protocol.game.ClientboundSetSimulationDistancePacket
++ net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket
+- net.minecraft.network.protocol.game.ClientboundSetTimePacket
+- net.minecraft.network.protocol.game.ClientboundSetTitlesAnimationPacket
++ net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket
++ net.minecraft.network.protocol.game.ClientboundSoundEntityPacket
+- net.minecraft.network.protocol.game.ClientboundSoundPacket
++ net.minecraft.network.protocol.game.ClientboundStopSoundPacket
+- net.minecraft.network.protocol.game.ClientboundTabListPacket
++ net.minecraft.network.protocol.game.ClientboundTagQueryPacket
+- net.minecraft.network.protocol.game.ClientboundTakeItemEntityPacket
++ net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket
+- net.minecraft.network.protocol.game.ClientboundUpdateAdvancementsPacket
++ net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket
+- net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket$AttributeSnapshot
++ net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket
+- net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket
++ net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket
++ net.minecraft.network.protocol.game.ClientGamePacketListener
+- net.minecraft.network.protocol.game.DebugEntityNameGenerator
++ net.minecraft.network.protocol.game.DebugPackets
+- net.minecraft.network.protocol.game.package-info
+- net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket
++ net.minecraft.network.protocol.game.ServerboundBlockEntityTagQuery
+- net.minecraft.network.protocol.game.ServerboundChangeDifficultyPacket
++ net.minecraft.network.protocol.game.ServerboundChatPacket
+- net.minecraft.network.protocol.game.ServerboundClientCommandPacket
++ net.minecraft.network.protocol.game.ServerboundClientCommandPacket$Action
+- net.minecraft.network.protocol.game.ServerboundClientInformationPacket
++ net.minecraft.network.protocol.game.ServerboundCommandSuggestionPacket
+- net.minecraft.network.protocol.game.ServerboundContainerButtonClickPacket
++ net.minecraft.network.protocol.game.ServerboundContainerClickPacket
+- net.minecraft.network.protocol.game.ServerboundContainerClosePacket
++ net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket
+- net.minecraft.network.protocol.game.ServerboundEditBookPacket
++ net.minecraft.network.protocol.game.ServerboundEntityTagQuery
+- net.minecraft.network.protocol.game.ServerboundInteractPacket
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$1
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$Action
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$ActionType
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$Handler
++ net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction
+- net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAtLocationAction
++ net.minecraft.network.protocol.game.ServerboundJigsawGeneratePacket
+- net.minecraft.network.protocol.game.ServerboundKeepAlivePacket
++ net.minecraft.network.protocol.game.ServerboundLockDifficultyPacket
+- net.minecraft.network.protocol.game.ServerboundMovePlayerPacket
++ net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos
+- net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$PosRot
++ net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Rot
+- net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$StatusOnly
++ net.minecraft.network.protocol.game.ServerboundMoveVehiclePacket
+- net.minecraft.network.protocol.game.ServerboundPaddleBoatPacket
++ net.minecraft.network.protocol.game.ServerboundPickItemPacket
+- net.minecraft.network.protocol.game.ServerboundPlaceRecipePacket
++ net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket
+- net.minecraft.network.protocol.game.ServerboundPlayerActionPacket
++ net.minecraft.network.protocol.game.ServerboundPlayerActionPacket$Action
+- net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket
++ net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket$Action
+- net.minecraft.network.protocol.game.ServerboundPlayerInputPacket
++ net.minecraft.network.protocol.game.ServerboundPongPacket
+- net.minecraft.network.protocol.game.ServerboundRecipeBookChangeSettingsPacket
++ net.minecraft.network.protocol.game.ServerboundRecipeBookSeenRecipePacket
+- net.minecraft.network.protocol.game.ServerboundRenameItemPacket
++ net.minecraft.network.protocol.game.ServerboundResourcePackPacket
+- net.minecraft.network.protocol.game.ServerboundResourcePackPacket$Action
++ net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket
+- net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket$Action
++ net.minecraft.network.protocol.game.ServerboundSelectTradePacket
+- net.minecraft.network.protocol.game.ServerboundSetBeaconPacket
++ net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket
+- net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket
++ net.minecraft.network.protocol.game.ServerboundSetCommandMinecartPacket
+- net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket
++ net.minecraft.network.protocol.game.ServerboundSetJigsawBlockPacket
+- net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket
++ net.minecraft.network.protocol.game.ServerboundSignUpdatePacket
+- net.minecraft.network.protocol.game.ServerboundSwingPacket
++ net.minecraft.network.protocol.game.ServerboundTeleportToEntityPacket
+- net.minecraft.network.protocol.game.ServerboundUseItemOnPacket
++ net.minecraft.network.protocol.game.ServerboundUseItemPacket
+- net.minecraft.network.protocol.game.ServerGamePacketListener
++ net.minecraft.network.protocol.game.ServerPacketListener
++ net.minecraft.network.protocol.handshake.ClientIntentionPacket
++ net.minecraft.network.protocol.handshake.package-info
+- net.minecraft.network.protocol.handshake.ServerHandshakePacketListener
++ net.minecraft.network.protocol.login.ClientboundCustomQueryPacket
+- net.minecraft.network.protocol.login.ClientboundGameProfilePacket
++ net.minecraft.network.protocol.login.ClientboundHelloPacket
+- net.minecraft.network.protocol.login.ClientboundLoginCompressionPacket
++ net.minecraft.network.protocol.login.ClientboundLoginDisconnectPacket
+- net.minecraft.network.protocol.login.ClientLoginPacketListener
+- net.minecraft.network.protocol.login.package-info
++ net.minecraft.network.protocol.login.ServerboundCustomQueryPacket
+- net.minecraft.network.protocol.login.ServerboundHelloPacket
++ net.minecraft.network.protocol.login.ServerboundKeyPacket
+- net.minecraft.network.protocol.login.ServerLoginPacketListener
++ net.minecraft.network.protocol.package-info
+- net.minecraft.network.protocol.Packet
++ net.minecraft.network.protocol.PacketFlow
+- net.minecraft.network.protocol.PacketUtils
++ net.minecraft.network.protocol.status.ClientboundPongResponsePacket
+- net.minecraft.network.protocol.status.ClientboundStatusResponsePacket
+- net.minecraft.network.protocol.status.ClientStatusPacketListener
+- net.minecraft.network.protocol.status.package-info
+- net.minecraft.network.protocol.status.ServerboundPingRequestPacket
++ net.minecraft.network.protocol.status.ServerboundStatusRequestPacket
++ net.minecraft.network.protocol.status.ServerStatus
+- net.minecraft.network.protocol.status.ServerStatus$Players
++ net.minecraft.network.protocol.status.ServerStatus$Players$Serializer
+- net.minecraft.network.protocol.status.ServerStatus$Serializer
++ net.minecraft.network.protocol.status.ServerStatus$Version
+- net.minecraft.network.protocol.status.ServerStatus$Version$Serializer
++ net.minecraft.network.protocol.status.ServerStatusPacketListener
+- net.minecraft.network.RateKickingConnection
++ net.minecraft.network.SkipPacketException
++ net.minecraft.network.syncher.EntityDataAccessor
+- net.minecraft.network.syncher.EntityDataSerializer
++ net.minecraft.network.syncher.EntityDataSerializers
+- net.minecraft.network.syncher.EntityDataSerializers$1
++ net.minecraft.network.syncher.EntityDataSerializers$10
+- net.minecraft.network.syncher.EntityDataSerializers$11
++ net.minecraft.network.syncher.EntityDataSerializers$12
+- net.minecraft.network.syncher.EntityDataSerializers$13
++ net.minecraft.network.syncher.EntityDataSerializers$14
+- net.minecraft.network.syncher.EntityDataSerializers$15
++ net.minecraft.network.syncher.EntityDataSerializers$16
+- net.minecraft.network.syncher.EntityDataSerializers$17
++ net.minecraft.network.syncher.EntityDataSerializers$18
+- net.minecraft.network.syncher.EntityDataSerializers$19
++ net.minecraft.network.syncher.EntityDataSerializers$2
+- net.minecraft.network.syncher.EntityDataSerializers$3
++ net.minecraft.network.syncher.EntityDataSerializers$4
+- net.minecraft.network.syncher.EntityDataSerializers$5
++ net.minecraft.network.syncher.EntityDataSerializers$6
+- net.minecraft.network.syncher.EntityDataSerializers$7
++ net.minecraft.network.syncher.EntityDataSerializers$8
+- net.minecraft.network.syncher.EntityDataSerializers$9
++ net.minecraft.network.syncher.package-info
++ net.minecraft.network.syncher.SynchedEntityData
+- net.minecraft.network.syncher.SynchedEntityData$DataItem
+- net.minecraft.network.Varint21FrameDecoder
++ net.minecraft.network.Varint21LengthFieldPrepender
+- net.minecraft.obfuscate.DontObfuscate
++ net.minecraft.obfuscate.package-info
+- net.minecraft.package-info
++ net.minecraft.recipebook.package-info
++ net.minecraft.recipebook.PlaceRecipe
+- net.minecraft.recipebook.ServerPlaceRecipe
+- net.minecraft.resources.DelegatingOps
++ net.minecraft.resources.HolderSetCodec
+- net.minecraft.resources.RegistryFileCodec
++ net.minecraft.resources.RegistryFixedCodec
+- net.minecraft.resources.RegistryLoader
++ net.minecraft.resources.RegistryLoader$Bound
+- net.minecraft.resources.RegistryLoader$ReadCache
++ net.minecraft.resources.RegistryOps
+- net.minecraft.resources.RegistryResourceAccess
++ net.minecraft.resources.RegistryResourceAccess$1
++ net.minecraft.server.packs.resources.FallbackResourceManager$EntryStack
+- net.minecraft.server.packs.resources.FallbackResourceManager$LeakedResourceWarningInputStream
++ net.minecraft.server.packs.resources.FallbackResourceManager$PackEntry
++ net.minecraft.server.packs.resources.MultiPackResourceManager
+- net.minecraft.server.packs.resources.PreparableReloadListener
++ net.minecraft.server.packs.resources.PreparableReloadListener$PreparationBarrier
+- net.minecraft.server.packs.resources.ProfiledReloadInstance
++ net.minecraft.server.packs.resources.ProfiledReloadInstance$State
++ net.minecraft.server.packs.resources.ReloadableResourceManager
+- net.minecraft.server.packs.resources.ReloadInstance
+- net.minecraft.server.packs.resources.Resource
++ net.minecraft.server.packs.resources.ResourceFilterSection
++ net.minecraft.server.packs.resources.ResourceFilterSection$ResourceLocationPattern
++ net.minecraft.server.packs.resources.ResourceThunk$ResourceSupplier
++ net.minecraft.server.WorldLoader
++ net.minecraft.server.WorldLoader$PackConfig
++ net.minecraft.server.WorldLoader$WorldDataSupplier
+- net.minecraft.server.WorldStem
+- net.minecraft.server.WorldStem$InitConfig
+- net.minecraft.tags.ConfiguredStructureTags
++ net.minecraft.tags.EntityTypeTags
++ net.minecraft.tags.Tag
+- net.minecraft.tags.Tag$Builder
++ net.minecraft.tags.Tag$BuilderEntry
+- net.minecraft.tags.Tag$ElementEntry
++ net.minecraft.tags.Tag$Entry
+- net.minecraft.tags.Tag$OptionalElementEntry
++ net.minecraft.tags.Tag$OptionalTagEntry
+- net.minecraft.tags.Tag$TagEntry
++ net.minecraft.tags.TagKey
+- net.minecraft.tags.TagLoader
++ net.minecraft.tags.TagManager
+- net.minecraft.tags.TagManager$LoadResult
++ net.minecraft.tags.TagNetworkSerialization
+- net.minecraft.tags.TagNetworkSerialization$NetworkPayload
++ net.minecraft.tags.TagNetworkSerialization$TagOutput
++ net.minecraft.util.datafix.fixes.BlockEntityBannerColorFix
+- net.minecraft.util.datafix.fixes.BlockEntityBlockStateFix
++ net.minecraft.util.datafix.fixes.BlockEntityCustomNameToComponentFix
+- net.minecraft.util.datafix.fixes.BlockEntityIdFix
++ net.minecraft.util.datafix.fixes.BlockEntityJukeboxFix
+- net.minecraft.util.datafix.fixes.BlockEntityKeepPacked
++ net.minecraft.util.datafix.fixes.BlockEntityShulkerBoxColorFix
+- net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix
++ net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix$1
+- net.minecraft.util.datafix.fixes.BlockEntityUUIDFix
++ net.minecraft.util.datafix.fixes.BlockNameFlatteningFix
+- net.minecraft.util.datafix.fixes.BlockRenameFix
++ net.minecraft.util.datafix.fixes.BlockRenameFix$1
+- net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw
++ net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw$1
+- net.minecraft.util.datafix.fixes.BlockStateData
++ net.minecraft.util.datafix.fixes.BlockStateStructureTemplateFix
+- net.minecraft.util.datafix.fixes.CatTypeFix
++ net.minecraft.util.datafix.fixes.CauldronRenameFix
+- net.minecraft.util.datafix.fixes.CavesAndCliffsRenames
++ net.minecraft.util.datafix.fixes.ChunkBedBlockEntityInjecterFix
+- net.minecraft.util.datafix.fixes.ChunkBiomeFix
++ net.minecraft.util.datafix.fixes.ChunkDeleteIgnoredLightDataFix
++ net.minecraft.util.datafix.schemas.V3076
++ net.minecraft.util.ToFloatFunction$2
++ net.minecraft.Util$11
+- net.minecraft.Util$2
++ net.minecraft.world.entity.ai.attributes.Attribute
+- net.minecraft.world.entity.ai.attributes.AttributeInstance
++ net.minecraft.world.entity.ai.attributes.AttributeMap
+- net.minecraft.world.entity.ai.attributes.AttributeModifier
++ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation
+- net.minecraft.world.entity.ai.attributes.Attributes
+- net.minecraft.world.entity.ai.attributes.AttributeSupplier
++ net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder
++ net.minecraft.world.entity.ai.attributes.DefaultAttributes
++ net.minecraft.world.entity.ai.attributes.package-info
+- net.minecraft.world.entity.ai.attributes.RangedAttribute
+- net.minecraft.world.entity.ai.behavior.AcquirePoi
++ net.minecraft.world.entity.ai.behavior.AcquirePoi$JitteredLinearRetry
+- net.minecraft.world.entity.ai.behavior.AnimalMakeLove
++ net.minecraft.world.entity.ai.behavior.AnimalPanic
+- net.minecraft.world.entity.ai.behavior.AssignProfessionFromJobSite
++ net.minecraft.world.entity.ai.behavior.BabyFollowAdult
+- net.minecraft.world.entity.ai.behavior.BackUpIfTooClose
++ net.minecraft.world.entity.ai.behavior.BecomePassiveIfMemoryPresent
+- net.minecraft.world.entity.ai.behavior.Behavior
++ net.minecraft.world.entity.ai.behavior.Behavior$Status
+- net.minecraft.world.entity.ai.behavior.BehaviorUtils
++ net.minecraft.world.entity.ai.behavior.BlockPosTracker
+- net.minecraft.world.entity.ai.behavior.CelebrateVillagersSurvivedRaid
++ net.minecraft.world.entity.ai.behavior.CopyMemoryWithExpiry
+- net.minecraft.world.entity.ai.behavior.CountDownCooldownTicks
++ net.minecraft.world.entity.ai.behavior.Croak
++ net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos
+- net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos$PossibleJump
++ net.minecraft.world.entity.ai.behavior.LookAndFollowTradingPlayerSink
+- net.minecraft.world.entity.ai.behavior.LookAtTargetSink
++ net.minecraft.world.entity.ai.behavior.MeleeAttack
+- net.minecraft.world.entity.ai.behavior.Mount
++ net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot
+- net.minecraft.world.entity.ai.behavior.MoveToTargetSink
++ net.minecraft.world.entity.ai.behavior.PlayTagWithOtherKids
+- net.minecraft.world.entity.ai.behavior.PoiCompetitorScan
++ net.minecraft.world.entity.ai.behavior.PositionTracker
+- net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget
++ net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget$RamCandidate
+- net.minecraft.world.entity.ai.behavior.RamTarget
++ net.minecraft.world.entity.ai.behavior.RandomStroll
+- net.minecraft.world.entity.ai.behavior.RandomSwim
++ net.minecraft.world.entity.ai.behavior.ReactToBell
+- net.minecraft.world.entity.ai.behavior.ResetProfession
++ net.minecraft.world.entity.ai.behavior.ResetRaidStatus
+- net.minecraft.world.entity.ai.behavior.RingBell
++ net.minecraft.world.entity.ai.behavior.RunIf
+- net.minecraft.world.entity.ai.behavior.RunOne
++ net.minecraft.world.entity.ai.behavior.RunSometimes
+- net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget
++ net.minecraft.world.entity.ai.behavior.SetEntityLookTarget
+- net.minecraft.world.entity.ai.behavior.SetHiddenState
++ net.minecraft.world.entity.ai.behavior.SetLookAndInteract
+- net.minecraft.world.entity.ai.behavior.SetRaidStatus
++ net.minecraft.world.entity.ai.behavior.SetWalkTargetAwayFrom
+- net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach
++ net.minecraft.world.entity.ai.behavior.SetWalkTargetFromBlockMemory
+- net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget
++ net.minecraft.world.entity.ai.behavior.ShowTradesToPlayer
+- net.minecraft.world.entity.ai.behavior.ShufflingList
++ net.minecraft.world.entity.ai.behavior.ShufflingList$WeightedEntry
+- net.minecraft.world.entity.ai.behavior.ShufflingList$WeightedEntry$1
++ net.minecraft.world.entity.ai.behavior.SleepInBed
+- net.minecraft.world.entity.ai.behavior.SocializeAtBell
++ net.minecraft.world.entity.ai.behavior.StartAttacking
+- net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead
++ net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid
+- net.minecraft.world.entity.ai.behavior.StopBeingAngryIfTargetDead
++ net.minecraft.world.entity.ai.behavior.StrollAroundPoi
+- net.minecraft.world.entity.ai.behavior.StrollToPoi
++ net.minecraft.world.entity.ai.behavior.StrollToPoiList
+- net.minecraft.world.entity.ai.behavior.Swim
++ net.minecraft.world.entity.ai.behavior.TradeWithVillager
++ net.minecraft.world.entity.ai.behavior.TryFindLandNearWater
+- net.minecraft.world.entity.ai.behavior.TryFindWater
++ net.minecraft.world.entity.ai.behavior.TryLaySpawnOnWaterNearLand
++ net.minecraft.world.entity.ai.Brain
+- net.minecraft.world.entity.ai.Brain$1
++ net.minecraft.world.entity.ai.Brain$MemoryValue
+- net.minecraft.world.entity.ai.Brain$Provider
++ net.minecraft.world.entity.ai.sensing.FrogAttackablesSensor
+- net.minecraft.world.entity.ai.sensing.GolemSensor
++ net.minecraft.world.entity.ai.sensing.HoglinSpecificSensor
+- net.minecraft.world.entity.ai.sensing.HurtBySensor
++ net.minecraft.world.entity.ai.sensing.IsInWaterSensor
++ net.minecraft.world.entity.animal.frog.Frog$FrogLookControl
++ net.minecraft.world.entity.animal.frog.Frog$FrogPathNavigation
++ net.minecraft.world.entity.animal.frog.FrogAi
++ net.minecraft.world.entity.animal.frog.package-info
++ net.minecraft.world.entity.animal.frog.ShootTongue$1
++ net.minecraft.world.entity.animal.frog.Tadpole
++ net.minecraft.world.entity.AreaEffectCloud
+- net.minecraft.world.entity.Entity
++ net.minecraft.world.entity.Entity$1
+- net.minecraft.world.entity.Entity$MoveFunction
++ net.minecraft.world.entity.Entity$MovementEmission
+- net.minecraft.world.entity.Entity$RemovalReason
++ net.minecraft.world.entity.EntityDimensions
+- net.minecraft.world.entity.EntityEvent
++ net.minecraft.world.entity.EntitySelector
+- net.minecraft.world.entity.EntitySelector$MobCanWearArmorEntitySelector
++ net.minecraft.world.entity.EntityType
+- net.minecraft.world.entity.EntityType$1
++ net.minecraft.world.entity.EntityType$Builder
+- net.minecraft.world.entity.EntityType$EntityFactory
++ net.minecraft.world.entity.EquipmentSlot
+- net.minecraft.world.entity.EquipmentSlot$Type
++ net.minecraft.world.entity.ExperienceOrb
+- net.minecraft.world.entity.FlyingMob
++ net.minecraft.world.entity.GlowSquid
+- net.minecraft.world.entity.HumanoidArm
++ net.minecraft.world.entity.ItemBasedSteering
+- net.minecraft.world.entity.ItemSteerable
++ net.minecraft.world.entity.LerpingModel
+- net.minecraft.world.entity.LightningBolt
++ net.minecraft.world.entity.LivingEntity
+- net.minecraft.world.entity.LivingEntity$1
++ net.minecraft.world.entity.LivingEntity$Fallsounds
+- net.minecraft.world.entity.Marker
++ net.minecraft.world.entity.Mob
+- net.minecraft.world.entity.Mob$1
++ net.minecraft.world.entity.MobCategory
+- net.minecraft.world.entity.MobSpawnType
++ net.minecraft.world.entity.MobType
+- net.minecraft.world.entity.MoverType
++ net.minecraft.world.entity.NeutralMob
+- net.minecraft.world.entity.OwnableEntity
++ net.minecraft.world.entity.PathfinderMob
+- net.minecraft.world.entity.PlayerRideable
++ net.minecraft.world.entity.PlayerRideableJumping
+- net.minecraft.world.entity.Pose
++ net.minecraft.world.entity.PowerableMob
+- net.minecraft.world.entity.ReputationEventHandler
++ net.minecraft.world.entity.Saddleable
+- net.minecraft.world.entity.Shearable
++ net.minecraft.world.entity.SlotAccess
+- net.minecraft.world.entity.SlotAccess$1
++ net.minecraft.world.entity.SlotAccess$2
+- net.minecraft.world.entity.SlotAccess$3
++ net.minecraft.world.entity.SpawnGroupData
+- net.minecraft.world.entity.SpawnPlacements
++ net.minecraft.world.entity.SpawnPlacements$Data
+- net.minecraft.world.entity.SpawnPlacements$SpawnPredicate
++ net.minecraft.world.entity.SpawnPlacements$Type
+- net.minecraft.world.entity.TamableAnimal
++ net.minecraft.world.item.PlayerHeadItem
+- net.minecraft.world.item.PotionItem
++ net.minecraft.world.item.ProjectileWeaponItem
+- net.minecraft.world.item.Rarity
++ net.minecraft.world.item.RecordItem
+- net.minecraft.world.item.SaddleItem
++ net.minecraft.world.item.ScaffoldingBlockItem
+- net.minecraft.world.item.ServerItemCooldowns
++ net.minecraft.world.item.ShearsItem
+- net.minecraft.world.item.ShieldItem
++ net.minecraft.world.item.ShovelItem
+- net.minecraft.world.item.SignItem
++ net.minecraft.world.item.SimpleFoiledItem
+- net.minecraft.world.item.SnowballItem
++ net.minecraft.world.item.SolidBucketItem
+- net.minecraft.world.item.SpawnEggItem
++ net.minecraft.world.item.SpectralArrowItem
+- net.minecraft.world.item.SplashPotionItem
++ net.minecraft.world.item.SpyglassItem
+- net.minecraft.world.item.StandingAndWallBlockItem
++ net.minecraft.world.item.SuspiciousStewItem
+- net.minecraft.world.item.SwordItem
++ net.minecraft.world.item.ThrowablePotionItem
+- net.minecraft.world.item.Tier
++ net.minecraft.world.item.TieredItem
+- net.minecraft.world.item.Tiers
++ net.minecraft.world.item.TippedArrowItem
+- net.minecraft.world.item.TooltipFlag
++ net.minecraft.world.item.TooltipFlag$Default
+- net.minecraft.world.item.TridentItem
++ net.minecraft.world.item.UseAnim
+- net.minecraft.world.item.Vanishable
+- net.minecraft.world.level.biome.Biome$BiomeCategory
++ net.minecraft.world.level.biome.Biome$ClimateSettings
+- net.minecraft.world.level.biome.Biome$Precipitation
++ net.minecraft.world.level.biome.Biome$TemperatureModifier
+- net.minecraft.world.level.biome.Biome$TemperatureModifier$1
++ net.minecraft.world.level.biome.Biome$TemperatureModifier$2
+- net.minecraft.world.level.biome.BiomeGenerationSettings
++ net.minecraft.world.level.biome.BiomeGenerationSettings$Builder
+- net.minecraft.world.level.biome.BiomeManager
++ net.minecraft.world.level.biome.BiomeManager$NoiseBiomeSource
+- net.minecraft.world.level.biome.BiomeResolver
+- net.minecraft.world.level.biome.Biomes
++ net.minecraft.world.level.biome.BiomeSource
+- net.minecraft.world.level.biome.BiomeSource$1FeatureData
++ net.minecraft.world.level.biome.BiomeSource$StepFeatureData
+- net.minecraft.world.level.biome.BiomeSpecialEffects
++ net.minecraft.world.level.biome.BiomeSpecialEffects$Builder
+- net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier
++ net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$1
+- net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$2
++ net.minecraft.world.level.biome.BiomeSpecialEffects$GrassColorModifier$3
++ net.minecraft.world.level.biome.CheckerboardColumnBiomeSource
+- net.minecraft.world.level.biome.Climate
++ net.minecraft.world.level.biome.Climate$DistanceMetric
+- net.minecraft.world.level.biome.Climate$Parameter
++ net.minecraft.world.level.biome.Climate$ParameterList
+- net.minecraft.world.level.biome.Climate$ParameterPoint
++ net.minecraft.world.level.biome.Climate$RTree
+- net.minecraft.world.level.biome.Climate$RTree$Leaf
++ net.minecraft.world.level.biome.Climate$RTree$Node
+- net.minecraft.world.level.biome.Climate$RTree$SubTree
++ net.minecraft.world.level.biome.Climate$Sampler
+- net.minecraft.world.level.biome.Climate$SpawnFinder
++ net.minecraft.world.level.biome.Climate$SpawnFinder$Result
+- net.minecraft.world.level.biome.Climate$TargetPoint
++ net.minecraft.world.level.biome.FixedBiomeSource
+- net.minecraft.world.level.biome.MobSpawnSettings
++ net.minecraft.world.level.biome.MobSpawnSettings$Builder
+- net.minecraft.world.level.biome.MobSpawnSettings$MobSpawnCost
++ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData
+- net.minecraft.world.level.biome.MultiNoiseBiomeSource
++ net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset
+- net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance
++ net.minecraft.world.level.biome.OverworldBiomeBuilder
+- net.minecraft.world.level.biome.TerrainShaper
+- net.minecraft.world.level.biome.TerrainShaper$CoordinateCustom
+- net.minecraft.world.level.biome.TerrainShaper$PointCustom
++ net.minecraft.world.level.block.DropperBlock
+- net.minecraft.world.level.block.EnchantmentTableBlock
++ net.minecraft.world.level.block.EnderChestBlock
++ net.minecraft.world.level.block.EndGatewayBlock
+- net.minecraft.world.level.block.EndPortalBlock
++ net.minecraft.world.level.block.EndPortalFrameBlock
+- net.minecraft.world.level.block.EndRodBlock
+- net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
++ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$1
+- net.minecraft.world.level.block.entity.BannerBlockEntity
++ net.minecraft.world.level.block.entity.BannerPattern
+- net.minecraft.world.level.block.entity.BannerPattern$Builder
++ net.minecraft.world.level.block.entity.BarrelBlockEntity
+- net.minecraft.world.level.block.entity.BarrelBlockEntity$1
++ net.minecraft.world.level.block.entity.BaseContainerBlockEntity
+- net.minecraft.world.level.block.entity.BeaconBlockEntity
++ net.minecraft.world.level.block.entity.BeaconBlockEntity$1
+- net.minecraft.world.level.block.entity.BeaconBlockEntity$BeaconBeamSection
++ net.minecraft.world.level.block.entity.BedBlockEntity
+- net.minecraft.world.level.block.entity.BeehiveBlockEntity
++ net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeData
+- net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeReleaseStatus
++ net.minecraft.world.level.block.entity.BellBlockEntity
+- net.minecraft.world.level.block.entity.BellBlockEntity$ResonationEndAction
++ net.minecraft.world.level.block.entity.BlastFurnaceBlockEntity
+- net.minecraft.world.level.block.entity.BlockEntity
++ net.minecraft.world.level.block.entity.BlockEntityTicker
+- net.minecraft.world.level.block.entity.BlockEntityType
++ net.minecraft.world.level.block.entity.BlockEntityType$BlockEntitySupplier
+- net.minecraft.world.level.block.entity.BlockEntityType$Builder
++ net.minecraft.world.level.block.entity.BrewingStandBlockEntity
+- net.minecraft.world.level.block.entity.BrewingStandBlockEntity$1
++ net.minecraft.world.level.block.entity.CampfireBlockEntity
+- net.minecraft.world.level.block.entity.ChestBlockEntity
++ net.minecraft.world.level.block.entity.ChestBlockEntity$1
+- net.minecraft.world.level.block.entity.ChestLidController
++ net.minecraft.world.level.block.entity.CommandBlockEntity
+- net.minecraft.world.level.block.entity.CommandBlockEntity$1
++ net.minecraft.world.level.block.entity.CommandBlockEntity$Mode
+- net.minecraft.world.level.block.entity.ComparatorBlockEntity
++ net.minecraft.world.level.block.entity.ConduitBlockEntity
+- net.minecraft.world.level.block.entity.ContainerOpenersCounter
++ net.minecraft.world.level.block.entity.DaylightDetectorBlockEntity
+- net.minecraft.world.level.block.entity.DispenserBlockEntity
++ net.minecraft.world.level.block.entity.DropperBlockEntity
+- net.minecraft.world.level.block.entity.EnchantmentTableBlockEntity
++ net.minecraft.world.level.block.entity.EnderChestBlockEntity
+- net.minecraft.world.level.block.entity.EnderChestBlockEntity$1
++ net.minecraft.world.level.block.entity.FurnaceBlockEntity
+- net.minecraft.world.level.block.entity.Hopper
++ net.minecraft.world.level.block.entity.HopperBlockEntity
+- net.minecraft.world.level.block.entity.JigsawBlockEntity
++ net.minecraft.world.level.block.entity.JigsawBlockEntity$JointType
+- net.minecraft.world.level.block.entity.JukeboxBlockEntity
++ net.minecraft.world.level.block.entity.LecternBlockEntity
+- net.minecraft.world.level.block.entity.LecternBlockEntity$1
++ net.minecraft.world.level.block.entity.LecternBlockEntity$2
+- net.minecraft.world.level.block.entity.LidBlockEntity
++ net.minecraft.world.level.block.entity.package-info
++ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity
++ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity
+- net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$1
++ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$AnimationStatus
+- net.minecraft.world.level.block.entity.SignBlockEntity
++ net.minecraft.world.level.block.entity.SkullBlockEntity
+- net.minecraft.world.level.block.entity.SmokerBlockEntity
++ net.minecraft.world.level.block.entity.SpawnerBlockEntity
+- net.minecraft.world.level.block.entity.SpawnerBlockEntity$1
++ net.minecraft.world.level.block.entity.StructureBlockEntity
+- net.minecraft.world.level.block.entity.StructureBlockEntity$UpdateType
++ net.minecraft.world.level.block.entity.TheEndGatewayBlockEntity
+- net.minecraft.world.level.block.entity.TheEndPortalBlockEntity
++ net.minecraft.world.level.block.entity.TickingBlockEntity
+- net.minecraft.world.level.block.entity.TrappedChestBlockEntity
+- net.minecraft.world.level.block.EntityBlock
++ net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock
+- net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock$1
++ net.minecraft.world.level.block.Fallable
+- net.minecraft.world.level.block.FallingBlock
++ net.minecraft.world.level.block.FarmBlock
+- net.minecraft.world.level.block.FenceBlock
++ net.minecraft.world.level.block.FenceGateBlock
+- net.minecraft.world.level.block.FenceGateBlock$1
++ net.minecraft.world.level.block.FireBlock
+- net.minecraft.world.level.block.FletchingTableBlock
++ net.minecraft.world.level.block.FlowerBlock
+- net.minecraft.world.level.block.FlowerPotBlock
++ net.minecraft.world.level.block.FrogspawnBlock
+- net.minecraft.world.level.block.grower.AbstractMegaTreeGrower
++ net.minecraft.world.level.block.grower.AbstractTreeGrower
+- net.minecraft.world.level.block.grower.AcaciaTreeGrower
++ net.minecraft.world.level.block.grower.AzaleaTreeGrower
+- net.minecraft.world.level.block.grower.BirchTreeGrower
++ net.minecraft.world.level.block.grower.DarkOakTreeGrower
+- net.minecraft.world.level.block.grower.JungleTreeGrower
++ net.minecraft.world.level.block.grower.OakTreeGrower
++ net.minecraft.world.level.block.grower.package-info
+- net.minecraft.world.level.block.grower.SpruceTreeGrower
++ net.minecraft.world.level.block.MangroveLeavesBlock
++ net.minecraft.world.level.block.MangroveRootsBlock
+- net.minecraft.world.level.block.MelonBlock
++ net.minecraft.world.level.block.Mirror
+- net.minecraft.world.level.block.Mirror$1
++ net.minecraft.world.level.block.MossBlock
++ net.minecraft.world.level.block.MultifaceSpreader$DefaultSpreaderConfig
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadPos
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadType
++ net.minecraft.world.level.block.MultifaceSpreader$SpreadType$2
++ net.minecraft.world.level.block.MushroomBlock
+- net.minecraft.world.level.block.MyceliumBlock
++ net.minecraft.world.level.block.NetherPortalBlock
+- net.minecraft.world.level.block.NetherPortalBlock$1
+- net.minecraft.world.level.block.NetherrackBlock
++ net.minecraft.world.level.block.NetherSproutsBlock
+- net.minecraft.world.level.block.NetherVines
++ net.minecraft.world.level.block.NetherWartBlock
++ net.minecraft.world.level.block.NoteBlock
+- net.minecraft.world.level.block.NyliumBlock
++ net.minecraft.world.level.block.ObserverBlock
+- net.minecraft.world.level.block.OreBlock
+- net.minecraft.world.level.block.package-info
++ net.minecraft.world.level.block.piston.MovingPistonBlock
++ net.minecraft.world.level.block.piston.package-info
+- net.minecraft.world.level.block.piston.PistonBaseBlock
++ net.minecraft.world.level.block.piston.PistonBaseBlock$1
+- net.minecraft.world.level.block.piston.PistonHeadBlock
++ net.minecraft.world.level.block.piston.PistonHeadBlock$1
+- net.minecraft.world.level.block.piston.PistonMath
++ net.minecraft.world.level.block.piston.PistonMath$1
+- net.minecraft.world.level.block.piston.PistonMovingBlockEntity
++ net.minecraft.world.level.block.piston.PistonMovingBlockEntity$1
+- net.minecraft.world.level.block.piston.PistonStructureResolver
++ net.minecraft.world.level.block.SculkBehaviour$1
++ net.minecraft.world.level.block.SculkCatalystBlock
++ net.minecraft.world.level.block.SculkShriekerBlock
++ net.minecraft.world.level.block.SculkSpreader$ChargeCursor
++ net.minecraft.world.level.block.SculkVeinBlock$SculkVeinSpreaderConfig
++ net.minecraft.world.level.block.SeagrassBlock
+- net.minecraft.world.level.block.SeaPickleBlock
+- net.minecraft.world.level.block.ShulkerBoxBlock
++ net.minecraft.world.level.block.ShulkerBoxBlock$1
+- net.minecraft.world.level.block.SignBlock
++ net.minecraft.world.level.block.SimpleWaterloggedBlock
+- net.minecraft.world.level.block.SkullBlock
++ net.minecraft.world.level.block.SkullBlock$Type
+- net.minecraft.world.level.block.SkullBlock$Types
++ net.minecraft.world.level.block.SlabBlock
+- net.minecraft.world.level.block.SlabBlock$1
++ net.minecraft.world.level.block.SlimeBlock
+- net.minecraft.world.level.block.SmallDripleafBlock
++ net.minecraft.world.level.block.SmithingTableBlock
+- net.minecraft.world.level.block.SmokerBlock
++ net.minecraft.world.level.block.SnowLayerBlock
+- net.minecraft.world.level.block.SnowLayerBlock$1
++ net.minecraft.world.level.block.SnowyDirtBlock
+- net.minecraft.world.level.block.SoulFireBlock
++ net.minecraft.world.level.block.SoulSandBlock
+- net.minecraft.world.level.block.SoundType
++ net.minecraft.world.level.block.SpawnerBlock
+- net.minecraft.world.level.block.SpongeBlock
++ net.minecraft.world.level.block.SporeBlossomBlock
+- net.minecraft.world.level.block.SpreadingSnowyDirtBlock
++ net.minecraft.world.level.block.StainedGlassBlock
+- net.minecraft.world.level.block.StainedGlassPaneBlock
++ net.minecraft.world.level.block.StairBlock
+- net.minecraft.world.level.block.StairBlock$1
++ net.minecraft.world.level.block.StandingSignBlock
+- net.minecraft.world.level.block.state.BlockBehaviour
++ net.minecraft.world.level.block.state.BlockBehaviour$1
+- net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
++ net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase$Cache
+- net.minecraft.world.level.block.state.BlockBehaviour$OffsetType
++ net.minecraft.world.level.block.state.BlockBehaviour$Properties
+- net.minecraft.world.level.block.state.BlockBehaviour$StateArgumentPredicate
++ net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate
+- net.minecraft.world.level.block.state.BlockState
+- net.minecraft.world.level.block.state.package-info
++ net.minecraft.world.level.block.state.pattern.BlockInWorld
+- net.minecraft.world.level.block.state.pattern.BlockPattern
++ net.minecraft.world.level.block.state.pattern.BlockPattern$BlockCacheLoader
+- net.minecraft.world.level.block.state.pattern.BlockPattern$BlockPatternMatch
++ net.minecraft.world.level.block.state.pattern.BlockPatternBuilder
+- net.minecraft.world.level.block.state.pattern.package-info
++ net.minecraft.world.level.block.state.predicate.BlockMaterialPredicate
+- net.minecraft.world.level.block.state.predicate.BlockMaterialPredicate$1
++ net.minecraft.world.level.block.state.predicate.BlockPredicate
+- net.minecraft.world.level.block.state.predicate.BlockStatePredicate
++ net.minecraft.world.level.block.state.predicate.package-info
+- net.minecraft.world.level.block.state.properties.AttachFace
++ net.minecraft.world.level.block.state.properties.BambooLeaves
+- net.minecraft.world.level.block.state.properties.BedPart
++ net.minecraft.world.level.block.state.properties.BellAttachType
+- net.minecraft.world.level.block.state.properties.BlockStateProperties
++ net.minecraft.world.level.block.state.properties.BooleanProperty
+- net.minecraft.world.level.block.state.properties.ChestType
++ net.minecraft.world.level.block.state.properties.ComparatorMode
+- net.minecraft.world.level.block.state.properties.DirectionProperty
++ net.minecraft.world.level.block.state.properties.DoorHingeSide
+- net.minecraft.world.level.block.state.properties.DoubleBlockHalf
++ net.minecraft.world.level.block.state.properties.DripstoneThickness
+- net.minecraft.world.level.block.state.properties.EnumProperty
++ net.minecraft.world.level.block.state.properties.Half
+- net.minecraft.world.level.block.state.properties.IntegerProperty
++ net.minecraft.world.level.block.state.properties.NoteBlockInstrument
+- net.minecraft.world.level.block.state.properties.package-info
+- net.minecraft.world.level.block.state.properties.PistonType
++ net.minecraft.world.level.block.state.properties.Property
+- net.minecraft.world.level.block.state.properties.Property$Value
++ net.minecraft.world.level.block.state.properties.RailShape
+- net.minecraft.world.level.block.state.properties.RedstoneSide
++ net.minecraft.world.level.block.state.properties.SculkSensorPhase
+- net.minecraft.world.level.block.state.properties.SlabType
++ net.minecraft.world.level.block.state.properties.StairsShape
+- net.minecraft.world.level.block.state.properties.StructureMode
++ net.minecraft.world.level.block.state.properties.Tilt
+- net.minecraft.world.level.block.state.properties.WallSide
++ net.minecraft.world.level.block.state.properties.WoodType
++ net.minecraft.world.level.block.state.StateDefinition
+- net.minecraft.world.level.block.state.StateDefinition$Builder
++ net.minecraft.world.level.block.state.StateDefinition$Factory
+- net.minecraft.world.level.block.state.StateHolder
++ net.minecraft.world.level.block.state.StateHolder$1
+- net.minecraft.world.level.block.StemBlock
++ net.minecraft.world.level.block.StemGrownBlock
+- net.minecraft.world.level.block.StoneButtonBlock
++ net.minecraft.world.level.block.StonecutterBlock
+- net.minecraft.world.level.block.StructureBlock
++ net.minecraft.world.level.block.StructureBlock$1
+- net.minecraft.world.level.block.StructureVoidBlock
++ net.minecraft.world.level.block.SugarCaneBlock
+- net.minecraft.world.level.block.SupportType
++ net.minecraft.world.level.block.SupportType$1
+- net.minecraft.world.level.block.SupportType$2
++ net.minecraft.world.level.block.SupportType$3
+- net.minecraft.world.level.block.SweetBerryBushBlock
++ net.minecraft.world.level.block.TallFlowerBlock
+- net.minecraft.world.level.block.TallGrassBlock
++ net.minecraft.world.level.block.TallSeagrassBlock
+- net.minecraft.world.level.block.TargetBlock
++ net.minecraft.world.level.block.TintedGlassBlock
+- net.minecraft.world.level.block.TntBlock
++ net.minecraft.world.level.block.TorchBlock
+- net.minecraft.world.level.block.TrapDoorBlock
++ net.minecraft.world.level.block.TrapDoorBlock$1
+- net.minecraft.world.level.block.TrappedChestBlock
++ net.minecraft.world.level.block.TripWireBlock
+- net.minecraft.world.level.block.TripWireBlock$1
++ net.minecraft.world.level.block.TripWireHookBlock
+- net.minecraft.world.level.block.TripWireHookBlock$1
++ net.minecraft.world.level.block.TurtleEggBlock
+- net.minecraft.world.level.block.TwistingVinesBlock
++ net.minecraft.world.level.block.TwistingVinesPlantBlock
+- net.minecraft.world.level.block.VineBlock
++ net.minecraft.world.level.block.VineBlock$1
+- net.minecraft.world.level.block.WallBannerBlock
++ net.minecraft.world.level.block.WallBlock
+- net.minecraft.world.level.block.WallBlock$1
++ net.minecraft.world.level.block.WallSignBlock
+- net.minecraft.world.level.block.WallSkullBlock
++ net.minecraft.world.level.block.WallTorchBlock
+- net.minecraft.world.level.block.WaterlilyBlock
++ net.minecraft.world.level.block.WeatheringCopper
+- net.minecraft.world.level.block.WeatheringCopper$WeatherState
++ net.minecraft.world.level.block.WeatheringCopperFullBlock
+- net.minecraft.world.level.block.WeatheringCopperSlabBlock
++ net.minecraft.world.level.block.WeatheringCopperStairBlock
+- net.minecraft.world.level.block.WebBlock
++ net.minecraft.world.level.block.WeepingVinesBlock
+- net.minecraft.world.level.block.WeepingVinesPlantBlock
++ net.minecraft.world.level.block.WeightedPressurePlateBlock
+- net.minecraft.world.level.block.WetSpongeBlock
++ net.minecraft.world.level.block.WitherRoseBlock
+- net.minecraft.world.level.block.WitherSkullBlock
++ net.minecraft.world.level.block.WitherWallSkullBlock
+- net.minecraft.world.level.block.WoodButtonBlock
++ net.minecraft.world.level.block.WoolCarpetBlock
++ net.minecraft.world.level.border.BorderChangeListener
+- net.minecraft.world.level.border.BorderChangeListener$DelegateBorderChangeListener
++ net.minecraft.world.level.border.BorderStatus
++ net.minecraft.world.level.border.package-info
+- net.minecraft.world.level.border.WorldBorder
++ net.minecraft.world.level.border.WorldBorder$BorderExtent
+- net.minecraft.world.level.border.WorldBorder$MovingBorderExtent
++ net.minecraft.world.level.border.WorldBorder$Settings
+- net.minecraft.world.level.border.WorldBorder$StaticBorderExtent
+- net.minecraft.world.level.chunk.BlockColumn
++ net.minecraft.world.level.chunk.BulkSectionAccess
+- net.minecraft.world.level.chunk.CarvingMask
++ net.minecraft.world.level.chunk.CarvingMask$Mask
+- net.minecraft.world.level.chunk.ChunkAccess
++ net.minecraft.world.level.chunk.ChunkAccess$TicksToSave
+- net.minecraft.world.level.chunk.ChunkGenerator
++ net.minecraft.world.level.chunk.ChunkSource
+- net.minecraft.world.level.chunk.ChunkStatus
++ net.minecraft.world.level.chunk.ChunkStatus$ChunkType
+- net.minecraft.world.level.chunk.ChunkStatus$GenerationTask
++ net.minecraft.world.level.chunk.ChunkStatus$LoadingTask
+- net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask
++ net.minecraft.world.level.chunk.DataLayer
+- net.minecraft.world.level.chunk.EmptyLevelChunk
++ net.minecraft.world.level.chunk.package-info
+- net.minecraft.world.level.chunk.storage.ChunkScanAccess
++ net.minecraft.world.level.chunk.storage.ChunkSerializer
+- net.minecraft.world.level.chunk.storage.ChunkStorage
++ net.minecraft.world.level.chunk.storage.EntityStorage
+- net.minecraft.world.level.chunk.storage.IOWorker
++ net.minecraft.world.level.chunk.storage.IOWorker$PendingStore
+- net.minecraft.world.level.chunk.storage.IOWorker$Priority
++ net.minecraft.world.level.chunk.storage.package-info
++ net.minecraft.world.level.chunk.storage.RegionBitmap
+- net.minecraft.world.level.chunk.storage.RegionFile
++ net.minecraft.world.level.chunk.storage.RegionFile$ChunkBuffer
+- net.minecraft.world.level.chunk.storage.RegionFile$CommitOp
++ net.minecraft.world.level.chunk.storage.RegionFileStorage
+- net.minecraft.world.level.chunk.storage.RegionFileVersion
++ net.minecraft.world.level.chunk.storage.RegionFileVersion$StreamWrapper
+- net.minecraft.world.level.chunk.storage.SectionStorage
++ net.minecraft.world.level.chunk.UpgradeData
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixer
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$1
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers$2
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$3
++ net.minecraft.world.level.chunk.UpgradeData$BlockFixers$4
+- net.minecraft.world.level.chunk.UpgradeData$BlockFixers$5
++ net.minecraft.world.level.levelgen.blending.Blender
+- net.minecraft.world.level.levelgen.blending.Blender$1
++ net.minecraft.world.level.levelgen.blending.Blender$BlendingOutput
+- net.minecraft.world.level.levelgen.blending.Blender$CellValueGetter
++ net.minecraft.world.level.levelgen.blending.Blender$DistanceGetter
+- net.minecraft.world.level.levelgen.blending.BlendingData
++ net.minecraft.world.level.levelgen.DensityFunctions$Spline$Point
+- net.minecraft.world.level.levelgen.DensityFunctions$TerrainShaperSpline$Spline
+- net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext
++ net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction
+- net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction$Type
++ net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler
+- net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler$RarityValueMapper
++ net.minecraft.world.level.levelgen.DensityFunctions$YClampedGradient
+- net.minecraft.world.level.levelgen.feature.BlockBlobFeature
++ net.minecraft.world.level.levelgen.feature.BlockColumnFeature
+- net.minecraft.world.level.levelgen.feature.BlockPileFeature
++ net.minecraft.world.level.levelgen.feature.BlueIceFeature
+- net.minecraft.world.level.levelgen.feature.BonusChestFeature
+- net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.MultifaceGrowthConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration$TargetBlockState
+- net.minecraft.world.level.levelgen.feature.configurations.package-info
+- net.minecraft.world.level.levelgen.feature.configurations.PointedDripstoneConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.RandomBooleanFeatureConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.ShipwreckConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.SpringConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration
+- net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder
++ net.minecraft.world.level.levelgen.feature.configurations.TwistingVinesConfig
+- net.minecraft.world.level.levelgen.feature.configurations.UnderwaterMagmaConfiguration
++ net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration
+- net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature
++ net.minecraft.world.level.levelgen.feature.CoralClawFeature
+- net.minecraft.world.level.levelgen.feature.CoralFeature
++ net.minecraft.world.level.levelgen.feature.CoralMushroomFeature
+- net.minecraft.world.level.levelgen.feature.CoralTreeFeature
++ net.minecraft.world.level.levelgen.feature.DeltaFeature
+- net.minecraft.world.level.levelgen.feature.DesertPyramidFeature
+- net.minecraft.world.level.levelgen.feature.EndGatewayFeature
++ net.minecraft.world.level.levelgen.feature.EndIslandFeature
+- net.minecraft.world.level.levelgen.feature.EndPodiumFeature
++ net.minecraft.world.level.levelgen.feature.Feature
+- net.minecraft.world.level.levelgen.feature.FeatureCountTracker
++ net.minecraft.world.level.levelgen.feature.FeatureCountTracker$1
+- net.minecraft.world.level.levelgen.feature.FeatureCountTracker$FeatureData
++ net.minecraft.world.level.levelgen.feature.FeatureCountTracker$LevelData
+- net.minecraft.world.level.levelgen.feature.FeaturePlaceContext
++ net.minecraft.world.level.levelgen.feature.featuresize.FeatureSize
+- net.minecraft.world.level.levelgen.feature.featuresize.FeatureSizeType
++ net.minecraft.world.level.levelgen.feature.featuresize.package-info
++ net.minecraft.world.level.levelgen.feature.featuresize.ThreeLayersFeatureSize
+- net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize
++ net.minecraft.world.level.levelgen.feature.FillLayerFeature
+- net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment
++ net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType
+- net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.package-info
+- net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer
++ net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer
+- net.minecraft.world.level.levelgen.feature.FossilFeature
++ net.minecraft.world.level.levelgen.feature.FossilFeatureConfiguration
+- net.minecraft.world.level.levelgen.feature.GeodeFeature
+- net.minecraft.world.level.levelgen.feature.IglooFeature
+- net.minecraft.world.level.levelgen.feature.JunglePyramidFeature
++ net.minecraft.world.level.levelgen.feature.KelpFeature
+- net.minecraft.world.level.levelgen.feature.LakeFeature
++ net.minecraft.world.level.levelgen.feature.LakeFeature$Configuration
+- net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature
++ net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$LargeDripstone
+- net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter
+- net.minecraft.world.level.levelgen.feature.MineshaftFeature$Type
++ net.minecraft.world.level.levelgen.feature.MonsterRoomFeature
++ net.minecraft.world.level.levelgen.feature.NoiseEffect
+- net.minecraft.world.level.levelgen.feature.NoOpFeature
+- net.minecraft.world.level.levelgen.feature.OceanMonumentFeature
+- net.minecraft.world.level.levelgen.feature.package-info
+- net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature
++ net.minecraft.world.level.levelgen.feature.PointedDripstoneFeature
+- net.minecraft.world.level.levelgen.feature.RandomBooleanSelectorFeature
++ net.minecraft.world.level.levelgen.feature.RandomPatchFeature
+- net.minecraft.world.level.levelgen.feature.RandomSelectorFeature
++ net.minecraft.world.level.levelgen.feature.ReplaceBlobsFeature
+- net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature
++ net.minecraft.world.level.levelgen.feature.RootSystemFeature
+- net.minecraft.world.level.levelgen.feature.RuinedPortalFeature
+- net.minecraft.world.level.levelgen.feature.ScatteredOreFeature
++ net.minecraft.world.level.levelgen.feature.SculkPatchFeature
+- net.minecraft.world.level.levelgen.feature.SimpleBlockFeature
++ net.minecraft.world.level.levelgen.feature.SimpleRandomSelectorFeature
+- net.minecraft.world.level.levelgen.feature.SnowAndFreezeFeature
++ net.minecraft.world.level.levelgen.feature.SpikeFeature
+- net.minecraft.world.level.levelgen.feature.SpikeFeature$EndSpike
++ net.minecraft.world.level.levelgen.feature.SpikeFeature$SpikeCacheLoader
+- net.minecraft.world.level.levelgen.feature.SpringFeature
++ net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType
++ net.minecraft.world.level.levelgen.feature.stateproviders.DualNoiseProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.NoiseBasedStateProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.NoiseProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.NoiseThresholdProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.package-info
++ net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.RotatedBlockProvider
++ net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider
+- net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider
+- net.minecraft.world.level.levelgen.feature.StructureFeature
+- net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator
+- net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.package-info
+- net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator
++ net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType
+- net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator
+- net.minecraft.world.level.levelgen.feature.trunkplacers.BendingTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer$FoliageCoords
+- net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.package-info
++ net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer
+- net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer
++ net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType
+- net.minecraft.world.level.levelgen.feature.VillageFeature
++ net.minecraft.world.level.levelgen.feature.VinesFeature
+- net.minecraft.world.level.levelgen.feature.VoidStartPlatformFeature
++ net.minecraft.world.level.levelgen.feature.WaterloggedVegetationPatchFeature
+- net.minecraft.world.level.levelgen.feature.WeepingVinesFeature
++ net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature
+- net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature
++ net.minecraft.world.level.levelgen.flat.FlatLayerInfo
++ net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPresets
+- net.minecraft.world.level.levelgen.FlatLevelSource
++ net.minecraft.world.level.levelgen.GenerationStep
+- net.minecraft.world.level.levelgen.GenerationStep$Carving
++ net.minecraft.world.level.levelgen.GenerationStep$Decoration
+- net.minecraft.world.level.levelgen.GeodeBlockSettings
++ net.minecraft.world.level.levelgen.GeodeCrackSettings
+- net.minecraft.world.level.levelgen.GeodeLayerSettings
++ net.minecraft.world.level.levelgen.Heightmap
+- net.minecraft.world.level.levelgen.Heightmap$Types
++ net.minecraft.world.level.levelgen.Heightmap$Usage
+- net.minecraft.world.level.levelgen.LegacyRandomSource
++ net.minecraft.world.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory
+- net.minecraft.world.level.levelgen.MarsagliaPolarGaussian
++ net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator
+- net.minecraft.world.level.levelgen.NoiseChunk
++ net.minecraft.world.level.levelgen.NoiseChunk$1
+- net.minecraft.world.level.levelgen.NoiseChunk$2
++ net.minecraft.world.level.levelgen.NoiseChunk$BlendAlpha
+- net.minecraft.world.level.levelgen.NoiseChunk$BlendOffset
++ net.minecraft.world.level.levelgen.NoiseChunk$BlockStateFiller
+- net.minecraft.world.level.levelgen.NoiseChunk$Cache2D
++ net.minecraft.world.level.levelgen.NoiseChunk$CacheAllInCell
+- net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce
++ net.minecraft.world.level.levelgen.NoiseChunk$FlatCache
+- net.minecraft.world.level.levelgen.NoiseChunk$NoiseChunkDensityFunction
++ net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator
+- net.minecraft.world.level.levelgen.NoiseGeneratorSettings
++ net.minecraft.world.level.levelgen.NoiseRouter
+- net.minecraft.world.level.levelgen.NoiseRouterData
++ net.minecraft.world.level.levelgen.NoiseRouterData$1NoiseWiringHelper
+- net.minecraft.world.level.levelgen.NoiseRouterWithOnlyNoises
+- net.minecraft.world.level.levelgen.Noises
++ net.minecraft.world.level.levelgen.NoiseSamplingSettings
+- net.minecraft.world.level.levelgen.NoiseSettings
++ net.minecraft.world.level.levelgen.NoiseSlider
++ net.minecraft.world.level.levelgen.OreVeinifier
+- net.minecraft.world.level.levelgen.OreVeinifier$VeinType
++ net.minecraft.world.level.levelgen.PatrolSpawner
+- net.minecraft.world.level.levelgen.PhantomSpawner
++ net.minecraft.world.level.levelgen.PositionalRandomFactory
++ net.minecraft.world.level.levelgen.presets.WorldPresets
+- net.minecraft.world.level.levelgen.RandomSource
++ net.minecraft.world.level.levelgen.RandomState
++ net.minecraft.world.level.levelgen.SingleThreadedRandomSource
++ net.minecraft.world.level.levelgen.structure.BoundingBox
+- net.minecraft.world.level.levelgen.structure.BoundingBox$1
+- net.minecraft.world.level.levelgen.structure.BuiltinStructures
++ net.minecraft.world.level.levelgen.structure.BuiltinStructureSets
+- net.minecraft.world.level.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece
+- net.minecraft.world.level.levelgen.structure.EndCityPieces
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$2
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$4
+- net.minecraft.world.level.levelgen.structure.EndCityPieces$SectionGenerator
+- net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece
+- net.minecraft.world.level.levelgen.structure.JunglePyramidPiece$MossStoneSelector
++ net.minecraft.world.level.levelgen.structure.LegacyStructureDataHandler
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece
+- net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$1
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$PieceWeight
+- net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom
+- net.minecraft.world.level.levelgen.structure.NetherFossilFeature
+- net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$1
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitSimpleRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$MonumentBuilding
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom
+- net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$RoomDefinition
+- net.minecraft.world.level.levelgen.structure.OceanRuinFeature$Type
+- net.minecraft.world.level.levelgen.structure.OceanRuinPieces$1
+- net.minecraft.world.level.levelgen.structure.package-info
++ net.minecraft.world.level.levelgen.structure.pieces.package-info
++ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator
+- net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context
++ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier
+- net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context
++ net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext
++ net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType
+- net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType$ContextlessType
++ net.minecraft.world.level.levelgen.structure.pieces.StructurePieceType$StructureTemplateType
+- net.minecraft.world.level.levelgen.structure.placement.ConcentricRingsStructurePlacement
++ net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement
+- net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType
++ net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType$1
+- net.minecraft.world.level.levelgen.structure.placement.StructurePlacement
++ net.minecraft.world.level.levelgen.structure.placement.StructurePlacement$ExclusionZone
++ net.minecraft.world.level.levelgen.structure.placement.StructurePlacement$FrequencyReductionMethod
+- net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece
++ net.minecraft.world.level.levelgen.structure.PostPlacementProcessor
+- net.minecraft.world.level.levelgen.structure.RuinedPortalPiece
+- net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$VerticalPlacement
+- net.minecraft.world.level.levelgen.structure.ShipwreckPieces
++ net.minecraft.world.level.levelgen.structure.SinglePieceStructure
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$2
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$ChestCorridor
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$FiveCrossing
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$Library
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$PortalRoom
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$RightTurn
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$SmoothStoneSelector
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StartPiece
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StraightStairsDown
+- net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType
++ net.minecraft.world.level.levelgen.structure.Structure
++ net.minecraft.world.level.levelgen.structure.Structure$GenerationStub
+- net.minecraft.world.level.levelgen.structure.StructureCheck
++ net.minecraft.world.level.levelgen.structure.StructureCheckResult
+- net.minecraft.world.level.levelgen.structure.StructureFeatureIndexSavedData
++ net.minecraft.world.level.levelgen.structure.StructurePiece
+- net.minecraft.world.level.levelgen.structure.StructurePiece$1
++ net.minecraft.world.level.levelgen.structure.StructurePiece$BlockSelector
+- net.minecraft.world.level.levelgen.structure.StructurePieceAccessor
++ net.minecraft.world.level.levelgen.structure.structures.BuriedTreasurePieces
++ net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure
++ net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$3
++ net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$EndCityPiece
++ net.minecraft.world.level.levelgen.structure.structures.EndCityStructure
++ net.minecraft.world.level.levelgen.structure.structures.IglooPieces$IglooPiece
++ net.minecraft.world.level.levelgen.structure.structures.JigsawStructure
++ net.minecraft.world.level.levelgen.structure.structures.JungleTemplePiece$MossStoneSelector
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCorridor
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftPiece
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftStairs
++ net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure$Type
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeEndFiller
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleCorridorStairsPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleEntrance
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorLeftTurnPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorRightTurnPiece
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$MonsterThrone
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$PieceWeight
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$StairsRoom
++ net.minecraft.world.level.levelgen.structure.structures.NetherFortressStructure
++ net.minecraft.world.level.levelgen.structure.structures.NetherFossilPieces$NetherFossilPiece
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleZRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleTopRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentRoomFitter
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleZRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentPenthouse
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentWingRoom
++ net.minecraft.world.level.levelgen.structure.structures.OceanMonumentStructure
++ net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$1
++ net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure
++ net.minecraft.world.level.levelgen.structure.structures.package-info
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece$VerticalPlacement
++ net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure$Setup
++ net.minecraft.world.level.levelgen.structure.structures.ShipwreckPieces$ShipwreckPiece
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$2
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$ChestCorridor
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FiveCrossing
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Library
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PortalRoom
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RightTurn
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$SmoothStoneSelector
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StartPiece
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StraightStairsDown
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece$SmallDoorType
++ net.minecraft.world.level.levelgen.structure.structures.StrongholdStructure
++ net.minecraft.world.level.levelgen.structure.structures.SwampHutStructure
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$FirstFloorRoomCollection
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionGrid
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$PlacementData
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SimpleGrid
++ net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$WoodlandMansionPiece
++ net.minecraft.world.level.levelgen.structure.StructureSet
+- net.minecraft.world.level.levelgen.structure.StructureSet$StructureSelectionEntry
++ net.minecraft.world.level.levelgen.structure.StructureSpawnOverride
+- net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType
++ net.minecraft.world.level.levelgen.structure.StructureStart
+- net.minecraft.world.level.levelgen.structure.SwamplandHutPiece
++ net.minecraft.world.level.levelgen.structure.TemplateStructurePiece
+- net.minecraft.world.level.levelgen.structure.templatesystem.AlwaysTrueTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.AxisAlignedLinearPosTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlackstoneReplaceProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockAgeProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.BlockStateMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.GravityProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.JigsawReplacementProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.LavaSubmergedBlockProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.LinearPosTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.NopProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.package-info
++ net.minecraft.world.level.levelgen.structure.templatesystem.PosAlwaysTrueTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTestType
+- net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule
++ net.minecraft.world.level.levelgen.structure.templatesystem.ProtectedBlockProcessor
+- net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockMatchTest
++ net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockStateMatchTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.RuleProcessor
++ net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest
+- net.minecraft.world.level.levelgen.structure.templatesystem.RuleTestType
++ net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager
+- net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$FloorRoomCollection
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$MansionPiecePlacer
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$SecondFloorRoomCollection
+- net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$ThirdFloorRoomCollection
+- net.minecraft.world.level.levelgen.SurfaceRules
++ net.minecraft.world.level.levelgen.SurfaceRules$AbovePreliminarySurface
+- net.minecraft.world.level.levelgen.SurfaceRules$Bandlands
++ net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$BlockRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$Condition
++ net.minecraft.world.level.levelgen.SurfaceRules$ConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$Context
++ net.minecraft.world.level.levelgen.SurfaceRules$Context$AbovePreliminarySurfaceCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$Context$HoleCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$Context$SteepMaterialCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$Hole
+- net.minecraft.world.level.levelgen.SurfaceRules$LazyCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$LazyXZCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$LazyYCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource
+- net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition
++ net.minecraft.world.level.levelgen.SurfaceRules$NotCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$NotConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$RuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$SequenceRule
++ net.minecraft.world.level.levelgen.SurfaceRules$SequenceRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$StateRule
++ net.minecraft.world.level.levelgen.SurfaceRules$Steep
+- net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck
++ net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck$1StoneDepthCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$SurfaceRule
++ net.minecraft.world.level.levelgen.SurfaceRules$Temperature
+- net.minecraft.world.level.levelgen.SurfaceRules$TestRule
++ net.minecraft.world.level.levelgen.SurfaceRules$TestRuleSource
+- net.minecraft.world.level.levelgen.SurfaceRules$VerticalGradientConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$VerticalGradientConditionSource$1VerticalGradientCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$WaterConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$WaterConditionSource$1WaterCondition
+- net.minecraft.world.level.levelgen.SurfaceRules$YConditionSource
++ net.minecraft.world.level.levelgen.SurfaceRules$YConditionSource$1YCondition
+- net.minecraft.world.level.levelgen.SurfaceSystem
++ net.minecraft.world.level.levelgen.SurfaceSystem$1
+- net.minecraft.world.level.levelgen.synth.BlendedNoise
++ net.minecraft.world.level.levelgen.synth.ImprovedNoise
+- net.minecraft.world.level.levelgen.synth.NoiseUtils
++ net.minecraft.world.level.levelgen.synth.NormalNoise
+- net.minecraft.world.level.levelgen.synth.NormalNoise$NoiseParameters
+- net.minecraft.world.level.levelgen.synth.package-info
++ net.minecraft.world.level.levelgen.synth.PerlinNoise
+- net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise
++ net.minecraft.world.level.levelgen.synth.SimplexNoise
+- net.minecraft.world.level.levelgen.VerticalAnchor
++ net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom
+- net.minecraft.world.level.levelgen.VerticalAnchor$Absolute
++ net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop
++ net.minecraft.world.level.levelgen.WorldGenerationContext
+- net.minecraft.world.level.levelgen.WorldgenRandom
++ net.minecraft.world.level.levelgen.WorldgenRandom$Algorithm
+- net.minecraft.world.level.levelgen.WorldGenSettings
+- net.minecraft.world.level.levelgen.Xoroshiro128PlusPlus
++ net.minecraft.world.level.levelgen.XoroshiroRandomSource
+- net.minecraft.world.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory
++ net.minecraft.world.level.lighting.BlockLightEngine
+- net.minecraft.world.level.lighting.BlockLightSectionStorage
++ net.minecraft.world.level.lighting.BlockLightSectionStorage$BlockDataLayerStorageMap
+- net.minecraft.world.level.lighting.DataLayerStorageMap
++ net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint
+- net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint$1
++ net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint$2
+- net.minecraft.world.level.lighting.LayerLightEngine
++ net.minecraft.world.level.lighting.LayerLightEventListener
+- net.minecraft.world.level.lighting.LayerLightEventListener$DummyLightLayerEventListener
++ net.minecraft.world.level.lighting.LayerLightSectionStorage
+- net.minecraft.world.level.lighting.LayerLightSectionStorage$1
++ net.minecraft.world.level.lighting.LevelLightEngine
+- net.minecraft.world.level.lighting.LightEventListener
++ net.minecraft.world.level.lighting.package-info
++ net.minecraft.world.level.lighting.SkyLightEngine
+- net.minecraft.world.level.lighting.SkyLightSectionStorage
++ net.minecraft.world.level.lighting.SkyLightSectionStorage$1
+- net.minecraft.world.level.lighting.SkyLightSectionStorage$SkyDataLayerStorageMap
++ net.minecraft.world.level.lighting.SpatialLongSet
+- net.minecraft.world.level.lighting.SpatialLongSet$InternalMap
+- net.minecraft.world.level.material.EmptyFluid
++ net.minecraft.world.level.material.FlowingFluid
+- net.minecraft.world.level.material.FlowingFluid$1
++ net.minecraft.world.level.material.Fluid
++ net.minecraft.world.level.material.Fluids
+- net.minecraft.world.level.material.FluidState
+- net.minecraft.world.level.material.FogType
++ net.minecraft.world.level.material.LavaFluid
+- net.minecraft.world.level.material.LavaFluid$Flowing
++ net.minecraft.world.level.material.LavaFluid$Source
+- net.minecraft.world.level.material.Material
++ net.minecraft.world.level.material.Material$Builder
+- net.minecraft.world.level.material.MaterialColor
++ net.minecraft.world.level.material.MaterialColor$Brightness
+- net.minecraft.world.level.material.package-info
+- net.minecraft.world.level.material.PushReaction
++ net.minecraft.world.level.material.WaterFluid
+- net.minecraft.world.level.material.WaterFluid$Flowing
++ net.minecraft.world.level.material.WaterFluid$Source
++ net.minecraft.world.level.package-info
+- net.minecraft.world.level.pathfinder.AmphibiousNodeEvaluator
++ net.minecraft.world.level.pathfinder.BinaryHeap
+- net.minecraft.world.level.pathfinder.BlockPathTypes
++ net.minecraft.world.level.pathfinder.FlyNodeEvaluator
+- net.minecraft.world.level.pathfinder.Node
++ net.minecraft.world.level.pathfinder.NodeEvaluator
+- net.minecraft.world.level.pathfinder.package-info
+- net.minecraft.world.level.pathfinder.Path
++ net.minecraft.world.level.pathfinder.PathComputationType
+- net.minecraft.world.level.pathfinder.PathFinder
++ net.minecraft.world.level.pathfinder.SwimNodeEvaluator
+- net.minecraft.world.level.pathfinder.Target
++ net.minecraft.world.level.pathfinder.WalkNodeEvaluator
+- net.minecraft.world.level.portal.package-info
++ net.minecraft.world.level.portal.PortalForcer
+- net.minecraft.world.level.portal.PortalInfo
++ net.minecraft.world.level.portal.PortalShape
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate
++ net.minecraft.world.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate
++ net.minecraft.world.level.redstone.NeighborUpdater
+- net.minecraft.world.level.redstone.package-info
++ net.minecraft.world.level.redstone.Redstone
+- net.minecraft.world.level.saveddata.maps.MapBanner
++ net.minecraft.world.level.saveddata.maps.MapBanner$1
+- net.minecraft.world.level.saveddata.maps.MapDecoration
++ net.minecraft.world.level.saveddata.maps.MapDecoration$Type
+- net.minecraft.world.level.saveddata.maps.MapFrame
++ net.minecraft.world.level.saveddata.maps.MapIndex
+- net.minecraft.world.level.saveddata.maps.MapItemSavedData
++ net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer
+- net.minecraft.world.level.saveddata.maps.MapItemSavedData$MapPatch
++ net.minecraft.world.level.saveddata.maps.package-info
+- net.minecraft.world.level.saveddata.package-info
++ net.minecraft.world.level.saveddata.SavedData
++ net.minecraft.world.level.storage.CommandStorage
+- net.minecraft.world.level.storage.CommandStorage$Container
++ net.minecraft.world.level.storage.DataVersion
+- net.minecraft.world.level.storage.DerivedLevelData
++ net.minecraft.world.level.storage.DimensionDataStorage
+- net.minecraft.world.level.storage.LevelData
++ net.minecraft.world.level.storage.LevelResource
+- net.minecraft.world.level.storage.LevelStorageException
++ net.minecraft.world.level.storage.LevelStorageSource
+- net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess
++ net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess$1
+- net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess$2
++ net.minecraft.world.level.storage.LevelSummary
+- net.minecraft.world.level.storage.LevelSummary$BackupStatus
++ net.minecraft.world.level.storage.LevelVersion
++ net.minecraft.world.level.storage.loot.BuiltInLootTables
+- net.minecraft.world.level.storage.loot.Deserializers
++ net.minecraft.world.level.storage.loot.entries.AlternativesEntry
+- net.minecraft.world.level.storage.loot.entries.AlternativesEntry$Builder
++ net.minecraft.world.level.storage.loot.entries.ComposableEntryContainer
+- net.minecraft.world.level.storage.loot.entries.CompositeEntryBase
++ net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1
+- net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$CompositeEntryConstructor
++ net.minecraft.world.level.storage.loot.entries.DynamicLoot
+- net.minecraft.world.level.storage.loot.entries.DynamicLoot$Serializer
++ net.minecraft.world.level.storage.loot.entries.EmptyLootItem
+- net.minecraft.world.level.storage.loot.entries.EmptyLootItem$Serializer
++ net.minecraft.world.level.storage.loot.entries.EntryGroup
+- net.minecraft.world.level.storage.loot.entries.EntryGroup$Builder
++ net.minecraft.world.level.storage.loot.entries.LootItem
+- net.minecraft.world.level.storage.loot.entries.LootItem$Serializer
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntries
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntry
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Builder
++ net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer
+- net.minecraft.world.level.storage.loot.entries.LootPoolEntryType
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$DummyBuilder
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$EntryBase
+- net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$EntryConstructor
++ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer
+- net.minecraft.world.level.storage.loot.entries.LootTableReference
++ net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer
++ net.minecraft.world.level.storage.loot.entries.package-info
+- net.minecraft.world.level.storage.loot.entries.SequentialEntry
++ net.minecraft.world.level.storage.loot.entries.SequentialEntry$Builder
+- net.minecraft.world.level.storage.loot.entries.TagEntry
++ net.minecraft.world.level.storage.loot.entries.TagEntry$1
+- net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$BinomialWithBonusCount
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Formula
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$FormulaDeserializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$OreDrops
++ net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Serializer
+- net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount
++ net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay
+- net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay$Serializer
++ net.minecraft.world.level.storage.loot.functions.CopyBlockState
+- net.minecraft.world.level.storage.loot.functions.CopyBlockState$Builder
++ net.minecraft.world.level.storage.loot.functions.CopyBlockState$Serializer
+- net.minecraft.world.level.storage.loot.functions.CopyNameFunction
++ net.minecraft.world.level.storage.loot.functions.CopyNameFunction$NameSource
+- net.minecraft.world.level.storage.loot.functions.CopyNameFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$CopyOperation
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$1
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$2
++ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$3
+- net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction
+- net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction
++ net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction
+- net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.FillPlayerHead
++ net.minecraft.world.level.storage.loot.functions.FillPlayerHead$Serializer
+- net.minecraft.world.level.storage.loot.functions.FunctionUserBuilder
++ net.minecraft.world.level.storage.loot.functions.LimitCount
+- net.minecraft.world.level.storage.loot.functions.LimitCount$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction
+- net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction
+- net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$DummyBuilder
+- net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.LootItemFunction
+- net.minecraft.world.level.storage.loot.functions.LootItemFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.LootItemFunctions
++ net.minecraft.world.level.storage.loot.functions.LootItemFunctionType
++ net.minecraft.world.level.storage.loot.functions.package-info
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$1
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Modifier
+- net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$ModifierBuilder
++ net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction
++ net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetContainerContents
+- net.minecraft.world.level.storage.loot.functions.SetContainerContents$Builder
++ net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetContainerLootTable
++ net.minecraft.world.level.storage.loot.functions.SetContainerLootTable$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction
++ net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetItemCountFunction
+- net.minecraft.world.level.storage.loot.functions.SetItemCountFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction
+- net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SetLoreFunction
+- net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Builder
++ net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetNameFunction
++ net.minecraft.world.level.storage.loot.functions.SetNameFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetNbtFunction
++ net.minecraft.world.level.storage.loot.functions.SetNbtFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetPotionFunction
++ net.minecraft.world.level.storage.loot.functions.SetPotionFunction$Serializer
+- net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction
++ net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Builder
+- net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Serializer
++ net.minecraft.world.level.storage.loot.functions.SmeltItemFunction
+- net.minecraft.world.level.storage.loot.functions.SmeltItemFunction$Serializer
++ net.minecraft.world.level.storage.loot.GsonAdapterFactory
+- net.minecraft.world.level.storage.loot.GsonAdapterFactory$Builder
++ net.minecraft.world.level.storage.loot.GsonAdapterFactory$InlineSerializer
+- net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter
++ net.minecraft.world.level.storage.loot.IntRange
+- net.minecraft.world.level.storage.loot.IntRange$IntChecker
++ net.minecraft.world.level.storage.loot.IntRange$IntLimiter
+- net.minecraft.world.level.storage.loot.IntRange$Serializer
++ net.minecraft.world.level.storage.loot.ItemModifierManager
+- net.minecraft.world.level.storage.loot.ItemModifierManager$FunctionSequence
++ net.minecraft.world.level.storage.loot.LootContext
+- net.minecraft.world.level.storage.loot.LootContext$Builder
++ net.minecraft.world.level.storage.loot.LootContext$DynamicDrop
+- net.minecraft.world.level.storage.loot.LootContext$EntityTarget
++ net.minecraft.world.level.storage.loot.LootContext$EntityTarget$Serializer
+- net.minecraft.world.level.storage.loot.LootContextUser
++ net.minecraft.world.level.storage.loot.LootPool
+- net.minecraft.world.level.storage.loot.LootPool$Builder
++ net.minecraft.world.level.storage.loot.LootPool$Serializer
+- net.minecraft.world.level.storage.loot.LootTable
++ net.minecraft.world.level.storage.loot.LootTable$Builder
+- net.minecraft.world.level.storage.loot.LootTable$Serializer
++ net.minecraft.world.level.storage.loot.LootTables
+- net.minecraft.world.level.storage.loot.package-info
++ net.minecraft.world.level.storage.loot.parameters.LootContextParam
++ net.minecraft.world.level.storage.loot.parameters.LootContextParams
+- net.minecraft.world.level.storage.loot.parameters.LootContextParamSet
++ net.minecraft.world.level.storage.loot.parameters.LootContextParamSet$Builder
+- net.minecraft.world.level.storage.loot.parameters.LootContextParamSets
+- net.minecraft.world.level.storage.loot.parameters.package-info
+- net.minecraft.world.level.storage.loot.PredicateManager
++ net.minecraft.world.level.storage.loot.PredicateManager$CompositePredicate
++ net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition
+- net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Builder
++ net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition
++ net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ConditionReference
++ net.minecraft.world.level.storage.loot.predicates.ConditionReference$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ConditionUserBuilder
++ net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition
+- net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition
+- net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Builder
++ net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ExplosionCondition
++ net.minecraft.world.level.storage.loot.predicates.ExplosionCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition
++ net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.LocationCheck
++ net.minecraft.world.level.storage.loot.predicates.LocationCheck$Serializer
+- net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition
++ net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Builder
+- net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemCondition$Builder
+- net.minecraft.world.level.storage.loot.predicates.LootItemConditions
++ net.minecraft.world.level.storage.loot.predicates.LootItemConditionType
++ net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition
+- net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition$Serializer
++ net.minecraft.world.level.storage.loot.predicates.MatchTool
+- net.minecraft.world.level.storage.loot.predicates.MatchTool$Serializer
++ net.minecraft.world.level.storage.loot.predicates.package-info
++ net.minecraft.world.level.storage.loot.predicates.TimeCheck
+- net.minecraft.world.level.storage.loot.predicates.TimeCheck$Builder
++ net.minecraft.world.level.storage.loot.predicates.TimeCheck$Serializer
+- net.minecraft.world.level.storage.loot.predicates.ValueCheckCondition
++ net.minecraft.world.level.storage.loot.predicates.ValueCheckCondition$Serializer
+- net.minecraft.world.level.storage.loot.predicates.WeatherCheck
++ net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder
+- net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Serializer
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$1
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$2
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$Getter
+- net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$InlineSerializer
++ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.nbt.LootNbtProviderType
++ net.minecraft.world.level.storage.loot.providers.nbt.NbtProvider
+- net.minecraft.world.level.storage.loot.providers.nbt.NbtProviders
++ net.minecraft.world.level.storage.loot.providers.nbt.package-info
++ net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider
+- net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator
++ net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.ConstantValue
++ net.minecraft.world.level.storage.loot.providers.number.ConstantValue$InlineSerializer
+- net.minecraft.world.level.storage.loot.providers.number.ConstantValue$Serializer
++ net.minecraft.world.level.storage.loot.providers.number.LootNumberProviderType
+- net.minecraft.world.level.storage.loot.providers.number.NumberProvider
++ net.minecraft.world.level.storage.loot.providers.number.NumberProviders
+- net.minecraft.world.level.storage.loot.providers.number.package-info
+- net.minecraft.world.level.storage.loot.providers.number.ScoreboardValue
++ net.minecraft.world.level.storage.loot.providers.number.ScoreboardValue$Serializer
+- net.minecraft.world.level.storage.loot.providers.number.UniformGenerator
++ net.minecraft.world.level.storage.loot.providers.number.UniformGenerator$Serializer
++ net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider
+- net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider$InlineSerializer
++ net.minecraft.world.level.storage.loot.providers.score.ContextScoreboardNameProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.score.FixedScoreboardNameProvider
++ net.minecraft.world.level.storage.loot.providers.score.FixedScoreboardNameProvider$Serializer
+- net.minecraft.world.level.storage.loot.providers.score.LootScoreProviderType
++ net.minecraft.world.level.storage.loot.providers.score.package-info
++ net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProvider
+- net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProviders
+- net.minecraft.world.level.storage.loot.Serializer
++ net.minecraft.world.level.storage.loot.SerializerType
+- net.minecraft.world.level.storage.loot.ValidationContext
+- net.minecraft.world.level.storage.package-info
+- net.minecraft.world.level.storage.PlayerDataStorage
++ net.minecraft.world.level.storage.PrimaryLevelData
+- net.minecraft.world.level.storage.ServerLevelData
++ net.minecraft.world.level.storage.WorldData
+- net.minecraft.world.level.storage.WritableLevelData
+- net.minecraft.world.level.StructureFeatureManager
++ net.minecraft.world.level.StructureManager
++ net.minecraft.world.level.timers.FunctionCallback
+- net.minecraft.world.level.timers.FunctionCallback$Serializer
++ net.minecraft.world.level.timers.FunctionTagCallback
+- net.minecraft.world.level.timers.FunctionTagCallback$Serializer
+- net.minecraft.world.level.timers.package-info
++ net.minecraft.world.level.timers.TimerCallback
+- net.minecraft.world.level.timers.TimerCallback$Serializer
++ net.minecraft.world.level.timers.TimerCallbacks
+- net.minecraft.world.level.timers.TimerQueue
++ net.minecraft.world.level.timers.TimerQueue$Event
++ net.minecraft.world.package-info
+- net.minecraft.world.phys.AABB
++ net.minecraft.world.phys.BlockHitResult
+- net.minecraft.world.phys.EntityHitResult
++ net.minecraft.world.phys.HitResult
+- net.minecraft.world.phys.HitResult$Type
++ net.minecraft.world.phys.package-info
+- net.minecraft.world.phys.shapes.ArrayVoxelShape
++ net.minecraft.world.phys.shapes.ArrayVoxelShape$1
+- net.minecraft.world.phys.shapes.BitSetDiscreteVoxelShape
++ net.minecraft.world.phys.shapes.BooleanOp
+- net.minecraft.world.phys.shapes.CollisionContext
++ net.minecraft.world.phys.shapes.CubePointRange
+- net.minecraft.world.phys.shapes.CubeVoxelShape
++ net.minecraft.world.phys.shapes.DiscreteCubeMerger
+- net.minecraft.world.phys.shapes.DiscreteVoxelShape
++ net.minecraft.world.phys.shapes.DiscreteVoxelShape$IntFaceConsumer
+- net.minecraft.world.phys.shapes.DiscreteVoxelShape$IntLineConsumer
++ net.minecraft.world.phys.shapes.EntityCollisionContext
+- net.minecraft.world.phys.shapes.EntityCollisionContext$1
++ net.minecraft.world.phys.shapes.IdenticalMerger
+- net.minecraft.world.phys.shapes.IndexMerger
++ net.minecraft.world.phys.shapes.IndexMerger$IndexConsumer
+- net.minecraft.world.phys.shapes.IndirectMerger
++ net.minecraft.world.phys.shapes.NonOverlappingMerger
+- net.minecraft.world.phys.shapes.OffsetDoubleList
+- net.minecraft.world.phys.shapes.package-info
++ net.minecraft.world.phys.shapes.Shapes
+- net.minecraft.world.phys.shapes.Shapes$DoubleLineConsumer
++ net.minecraft.world.phys.shapes.SliceShape
+- net.minecraft.world.phys.shapes.SubShape
++ net.minecraft.world.phys.shapes.VoxelShape
++ net.minecraft.world.phys.Vec2
+- net.minecraft.world.phys.Vec3
++ net.minecraft.world.scores.criteria.ObjectiveCriteria
+- net.minecraft.world.scores.criteria.ObjectiveCriteria$RenderType
++ net.minecraft.world.scores.criteria.package-info
++ net.minecraft.world.scores.Objective
+- net.minecraft.world.scores.package-info
+- net.minecraft.world.scores.PlayerTeam
++ net.minecraft.world.scores.Score
+- net.minecraft.world.scores.Scoreboard
++ net.minecraft.world.scores.ScoreboardSaveData
+- net.minecraft.world.scores.Team
++ net.minecraft.world.scores.Team$CollisionRule
+- net.minecraft.world.scores.Team$Visibility
++ net.minecraft.world.ticks.BlackholeTickAccess
+- net.minecraft.world.ticks.BlackholeTickAccess$1
++ net.minecraft.world.ticks.BlackholeTickAccess$2
+- net.minecraft.world.ticks.LevelChunkTicks
++ net.minecraft.world.ticks.LevelTickAccess
+- net.minecraft.world.ticks.LevelTicks
++ net.minecraft.world.ticks.LevelTicks$PosAndContainerConsumer
+- net.minecraft.world.ticks.package-info
+- net.minecraft.world.ticks.ProtoChunkTicks
++ net.minecraft.world.ticks.SavedTick
+- net.minecraft.world.ticks.SavedTick$1
++ net.minecraft.world.ticks.ScheduledTick
+- net.minecraft.world.ticks.ScheduledTick$1
++ net.minecraft.world.ticks.SerializableTickContainer
+- net.minecraft.world.ticks.TickAccess
++ net.minecraft.world.ticks.TickContainerAccess
+- net.minecraft.world.ticks.TickPriority
++ net.minecraft.world.ticks.WorldGenTickAccess
+```
+
+</details>
+
+<br/>
+<html><table>
+<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
+<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
+<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
+</table></html>
+<br/>
