@@ -93,36 +93,24 @@
 
 ## Misc
 
-<details><summary>list</summary>
+<details><summary>tags.txt</summary>
 
 ```diff
-- advancements.txt
-- atlases.txt
-- chat_types.txt
-- damage_types.txt
-- datapacks.txt
-- dimension_types.txt
-- loot_tables.txt
-- particles.txt
-- recipes.txt
-- structures.txt
-- tags.txt
-- texts.txt
-- textures.txt
-- worldgen/biome.txt
-- worldgen/configured_carver.txt
-- worldgen/configured_feature.txt
-- worldgen/density_function.txt
-- worldgen/flat_level_generator_preset.txt
-- worldgen/multi_noise_biome_source_parameter_list.txt
-- worldgen/noise.txt
-- worldgen/noise_settings.txt
-- worldgen/placed_feature.txt
-- worldgen/processor_list.txt
-- worldgen/structure.txt
-- worldgen/structure_set.txt
-- worldgen/template_pool.txt
-- worldgen/world_preset.txt
++ worldgen/structure/on_desert_village_maps.json
++ worldgen/structure/on_jungle_explorer_maps.json
++ worldgen/structure/on_plains_village_maps.json
++ worldgen/structure/on_savanna_village_maps.json
++ worldgen/structure/on_snowy_village_maps.json
++ worldgen/structure/on_swamp_explorer_maps.json
++ worldgen/structure/on_taiga_village_maps.json
+```
+
+</details>
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/sprites/container/loom/error.png
 ```
 
 </details>
