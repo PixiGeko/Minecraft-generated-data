@@ -1,5 +1,5 @@
 {
-  "latest": "1.20.2",
+  "latest": "23w40a",
   "latest_release": "1.20.2",
   "versions": {
     "18w01a": {
@@ -4124,6 +4124,18 @@
         {
           "id": "1.20.2-rc2",
           "path": "1.20/releases-candidate/1.20.2-rc2"
+        }
+      ]
+    },
+    "23w40a": {
+      "id": "23w40a",
+      "version": "1.20",
+      "type": "snapshots",
+      "path": "1.20/snapshots/23w40a",
+      "comparisons": [
+        {
+          "id": "1.20.2",
+          "path": "1.20/releases/1.20.2"
         }
       ]
     }
