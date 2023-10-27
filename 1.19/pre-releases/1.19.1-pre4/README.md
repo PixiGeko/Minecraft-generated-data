@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19.1-pre4 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.19.1-pre4</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2022-07-08T11:41:59+00:00</td></tr>
@@ -10,1113 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/000d3e6fa2d830cd3a1612ab42f56bea224fb2b6/server.txt">https://piston-data.mojang.com/v1/objects/000d3e6fa2d830cd3a1612ab42f56bea224fb2b6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/bb3e72a47ea72c2de1ed0b926166ea9b36fd666e/client.jar">https://piston-data.mojang.com/v1/objects/bb3e72a47ea72c2de1ed0b926166ea9b36fd666e/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7f968bcafddf9df3a8d5eb0f93a48a64b1ab1a84/client.txt">https://piston-data.mojang.com/v1/objects/7f968bcafddf9df3a8d5eb0f93a48a64b1ab1a84/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19.1-pre3">1.19.1-pre3</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.GuiMessage</summary>
-
-```diff
-+ MessageSignature headerSignature
-+ MessageSignature headerSignature()
-+ void <init>(GuiMessageTag)
-- void <init>(GuiMessageTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ void addMessage(GuiMessageTag,boolean)
-+ void addMessage(GuiMessageTag)
-+ void deleteMessage(MessageSignature)
-+ void refreshTrimmedMessage()
-- void addMessage(GuiMessageTag,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ SignedMessageChain$Encoder signedMessageEncoder
-+ SignedMessageChain$Encoder signedMessageEncoder()
-+ void handleDeleteChat(ClientboundDeleteChatPacket)
-+ void handlePlayerChatHeader(ClientboundPlayerChatHeaderPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.ChatListener$Message</summary>
-
-```diff
-+ BooleanSupplier processMessage
-+ MessageSignature headerSignature
-- boolean accept()
-+ boolean accept()
-+ boolean equals(Object)
-+ BooleanSupplier processMessage()
-+ int hashCode()
-+ MessageSignature getHeaderSignature()
-+ MessageSignature headerSignature()
-+ String toString()
-+ void <init>(BooleanSupplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
-
-```diff
-- String encodeSignature(byte[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.LocalPlayer</summary>
-
-```diff
-+ MessageSignature lambda$signCommandArguments$0(Component)
-+ MessageSigner createMessageSigner()
-+ void sendChat(Component)
-+ void sendCommand(Component)
-- void chatSigned(String)
-- void lambda$signCommandArguments$0(Component)
-- void sendChat(Component)
-- void sendCommand(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSigningContext</summary>
-
-```diff
-+ boolean signedArgumentPreview(java.lang.String)
-+ MessageSigner argumentSigner()
-+ SignedMessageChain$Decoder decoder()
-- CommandSigningContext NONE
-+ CommandSigningContext anonymous()
-- boolean signedArgumentPreview(String)
-- MessageSignature lambda$static$0(String)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.AngleArgument
@@ -5905,131 +4820,100 @@
 </details>
 
 
+<details><summary>net.minecraft.client.GuiMessage</summary>
 
+```diff
++ MessageSignature headerSignature()
+- void <init>(int,Component,GuiMessageTag)
++ void <init>(int,Component,MessageSignature,GuiMessageTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
 
+```diff
+- void addMessage(Component,int,GuiMessageTag,boolean)
++ void addMessage(Component,MessageSignature,GuiMessageTag)
++ void addMessage(Component,MessageSignature,int,GuiMessageTag,boolean)
++ void deleteMessage(MessageSignature)
++ void refreshTrimmedMessage()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
+```diff
++ SignedMessageChain$Encoder signedMessageEncoder()
++ void handleDeleteChat(ClientboundDeleteChatPacket)
++ void handlePlayerChatHeader(ClientboundPlayerChatHeaderPacket)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.chat.ChatListener$Message</summary>
 
+```diff
++ boolean accept()
++ boolean equals(Object)
++ BooleanSupplier processMessage()
++ int hashCode()
++ MessageSignature getHeaderSignature()
++ MessageSignature headerSignature()
++ String toString()
++ void <init>(MessageSignature,BooleanSupplier)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
 
+```diff
+- String encodeSignature(byte[])
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.player.LocalPlayer</summary>
 
+```diff
++ MessageSignature lambda$signCommandArguments$0(Component,Signer,MessageSigner,String,Component)
++ MessageSigner createMessageSigner()
+- void chatSigned(String)
+- void lambda$signCommandArguments$0(Component,MessageSigner,Signer,ImmutableMap$Builder,String,Component)
+- void sendChat(MessageSigner,String,Component)
++ void sendChat(String,Component)
+- void sendCommand(MessageSigner,String,Component)
++ void sendCommand(String,Component)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.commands.CommandSigningContext</summary>
 
+```diff
+- boolean signedArgumentPreview(String)
++ CommandSigningContext anonymous()
+- MessageSignature lambda$static$0(String)
+- void <clinit>()
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.AngleArgument
@@ -10810,14 +9694,3 @@
 ```
 
 </details>
-
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>

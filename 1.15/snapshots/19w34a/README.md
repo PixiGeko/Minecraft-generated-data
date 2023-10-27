@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w34a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w34a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-08-22T12:06:21+00:00</td></tr>
@@ -8,90 +11,98 @@
 <tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/58c12b1e2878e0a78719778acb803746450b3f1c/1.15.json">https://piston-meta.mojang.com/v1/packages/58c12b1e2878e0a78719778acb803746450b3f1c/1.15.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/288962c67d083e35d4313cf0eba8ad1e27173d17/server.jar">https://piston-data.mojang.com/v1/objects/288962c67d083e35d4313cf0eba8ad1e27173d17/server.jar</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/9d74a00192ffc6b83c8b3c754619d057a9353754/client.jar">https://piston-data.mojang.com/v1/objects/9d74a00192ffc6b83c8b3c754619d057a9353754/client.jar</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.14.4">1.14.4</a>
-## File structure
+
+# Folder structure
 
 <details><summary>data/</summary>
 
 ```diff
-+  minecraft/advancements/recipes/decorations/bee_hive.json
--  minecraft/advancements/recipes/misc/sugar.json
-+  minecraft/advancements/recipes/misc/sugar_from_honey_bottle.json
-+  minecraft/advancements/recipes/misc/sugar_from_sugar_cane.json
-+  minecraft/loot_tables/blocks/bee_hive.json
-+  minecraft/loot_tables/blocks/bee_nest.json
-+  minecraft/loot_tables/entities/bee.json
-+  minecraft/recipes/bee_hive.json
--  minecraft/recipes/sugar.json
-+  minecraft/recipes/sugar_from_honey_bottle.json
-+  minecraft/recipes/sugar_from_sugar_cane.json
-+  minecraft/tags/blocks/bee_growables.json
-+  minecraft/tags/blocks/beehives.json
-+  minecraft/tags/blocks/crops.json
-+  minecraft/tags/blocks/flowers.json
-+  minecraft/tags/blocks/tall_flowers.json
-+  minecraft/tags/items/flowers.json
-+  minecraft/tags/items/tall_flowers.json
++ minecraft/advancements/recipes/decorations/bee_hive.json
++ minecraft/advancements/recipes/misc/sugar_from_honey_bottle.json
++ minecraft/advancements/recipes/misc/sugar_from_sugar_cane.json
+- minecraft/advancements/recipes/misc/sugar.json
++ minecraft/loot_tables/blocks/bee_hive.json
++ minecraft/loot_tables/blocks/bee_nest.json
++ minecraft/loot_tables/entities/bee.json
++ minecraft/recipes/bee_hive.json
++ minecraft/recipes/sugar_from_honey_bottle.json
++ minecraft/recipes/sugar_from_sugar_cane.json
+- minecraft/recipes/sugar.json
++ minecraft/tags/blocks/bee_growables.json
++ minecraft/tags/blocks/beehives.json
++ minecraft/tags/blocks/crops.json
++ minecraft/tags/blocks/flowers.json
++ minecraft/tags/blocks/tall_flowers.json
++ minecraft/tags/items/flowers.json
++ minecraft/tags/items/tall_flowers.json
 ```
 
 </details>
+
 
 <details><summary>assets/</summary>
 
 ```diff
-+  minecraft/blockstates/bee_hive.json
-+  minecraft/blockstates/bee_nest.json
-+  minecraft/models/block/bee_hive.json
-+  minecraft/models/block/bee_hive_honey.json
-+  minecraft/models/block/bee_nest.json
-+  minecraft/models/block/bee_nest_honey.json
-+  minecraft/models/item/bee_hive.json
-+  minecraft/models/item/bee_nest.json
-+  minecraft/models/item/bee_spawn_egg.json
-+  minecraft/models/item/honey_bottle.json
-+  minecraft/models/item/honeycomb.json
-+  minecraft/particles/dripping_honey.json
-+  minecraft/particles/falling_honey.json
-+  minecraft/particles/falling_nectar.json
-+  minecraft/particles/landing_honey.json
-+  minecraft/textures/block/bee_hive_bottom.png
-+  minecraft/textures/block/bee_hive_front.png
-+  minecraft/textures/block/bee_hive_front_honey.png
-+  minecraft/textures/block/bee_hive_side.png
-+  minecraft/textures/block/bee_hive_top.png
-+  minecraft/textures/block/bee_nest_bottom.png
-+  minecraft/textures/block/bee_nest_front.png
-+  minecraft/textures/block/bee_nest_front_honey.png
-+  minecraft/textures/block/bee_nest_side.png
-+  minecraft/textures/block/bee_nest_top.png
-+  minecraft/textures/block/wax_block.png
-+  minecraft/textures/entity/bee
-+  minecraft/textures/entity/bee/bee.png
-+  minecraft/textures/entity/bee/bee_angry.png
-+  minecraft/textures/entity/bee/bee_angry_nectar.png
-+  minecraft/textures/entity/bee/bee_nectar.png
-+  minecraft/textures/entity/bee/bee_stinger.png
-+  minecraft/textures/item/crystallized_honey.png
-+  minecraft/textures/item/honey_bottle.png
-+  minecraft/textures/item/honeycomb.png
++ minecraft/blockstates/bee_hive.json
++ minecraft/blockstates/bee_nest.json
++ minecraft/models/block/bee_hive_honey.json
++ minecraft/models/block/bee_hive.json
++ minecraft/models/block/bee_nest_honey.json
++ minecraft/models/block/bee_nest.json
++ minecraft/models/item/bee_hive.json
++ minecraft/models/item/bee_nest.json
++ minecraft/models/item/bee_spawn_egg.json
++ minecraft/models/item/honey_bottle.json
++ minecraft/models/item/honeycomb.json
++ minecraft/particles/dripping_honey.json
++ minecraft/particles/falling_honey.json
++ minecraft/particles/falling_nectar.json
++ minecraft/particles/landing_honey.json
++ minecraft/textures/block/bee_hive_bottom.png
++ minecraft/textures/block/bee_hive_front_honey.png
++ minecraft/textures/block/bee_hive_front.png
++ minecraft/textures/block/bee_hive_side.png
++ minecraft/textures/block/bee_hive_top.png
++ minecraft/textures/block/bee_nest_bottom.png
++ minecraft/textures/block/bee_nest_front_honey.png
++ minecraft/textures/block/bee_nest_front.png
++ minecraft/textures/block/bee_nest_side.png
++ minecraft/textures/block/bee_nest_top.png
++ minecraft/textures/block/wax_block.png
++ minecraft/textures/entity/bee/bee_angry_nectar.png
++ minecraft/textures/entity/bee/bee_angry.png
++ minecraft/textures/entity/bee/bee_nectar.png
++ minecraft/textures/entity/bee/bee_stinger.png
++ minecraft/textures/entity/bee/bee.png
++ minecraft/textures/item/crystallized_honey.png
++ minecraft/textures/item/honey_bottle.png
++ minecraft/textures/item/honeycomb.png
 ```
 
 </details>
 
-## Registries
+
+# Registries
 
 <details><summary>block.txt</summary>
 
 ```diff
-+ minecraft:bee_nest
 + minecraft:bee_hive
++ minecraft:bee_nest
 ```
 
 </details>
+
 
 <details><summary>block_entity_type.txt</summary>
 
@@ -101,6 +112,7 @@
 
 </details>
 
+
 <details><summary>entity_type.txt</summary>
 
 ```diff
@@ -109,17 +121,19 @@
 
 </details>
 
+
 <details><summary>item.txt</summary>
 
 ```diff
-+ minecraft:bee_spawn_egg
-+ minecraft:honeycomb
-+ minecraft:bee_nest
 + minecraft:bee_hive
++ minecraft:bee_nest
++ minecraft:bee_spawn_egg
 + minecraft:honey_bottle
++ minecraft:honeycomb
 ```
 
 </details>
+
 
 <details><summary>menu.txt</summary>
 
@@ -130,16 +144,18 @@
 
 </details>
 
+
 <details><summary>particle_type.txt</summary>
 
 ```diff
 + minecraft:dripping_honey
 + minecraft:falling_honey
-+ minecraft:landing_honey
 + minecraft:falling_nectar
++ minecraft:landing_honey
 ```
 
 </details>
+
 
 <details><summary>point_of_interest_type.txt</summary>
 
@@ -150,32 +166,34 @@
 
 </details>
 
+
 <details><summary>sound_event.txt</summary>
 
 ```diff
-+ minecraft:entity.bee.death
-+ minecraft:entity.bee.hurt
-+ minecraft:entity.bee.loop_aggressive
-+ minecraft:entity.bee.loop
-+ minecraft:entity.bee.sting
-+ minecraft:entity.bee.pollinate
 + minecraft:block.beehive.drip
 + minecraft:block.beehive.enter
 + minecraft:block.beehive.exit
 + minecraft:block.beehive.shear
 + minecraft:block.beehive.work
++ minecraft:entity.bee.death
++ minecraft:entity.bee.hurt
++ minecraft:entity.bee.loop
++ minecraft:entity.bee.loop_aggressive
++ minecraft:entity.bee.pollinate
++ minecraft:entity.bee.sting
 + minecraft:item.honey_bottle.drink
 ```
 
 </details>
 
-## Tags
 
-<details><summary>list</summary>
+# Tags
+
+<details><summary>List</summary>
 
 ```diff
-+ blocks/beehives.json
 + blocks/bee_growables.json
++ blocks/beehives.json
 + blocks/crops.json
 + blocks/flowers.json
 + blocks/tall_flowers.json
@@ -185,49 +203,83 @@
 
 </details>
 
-## Misc
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.bee_hive
++ block.minecraft.bee_nest
++ death.attack.sting
++ death.attack.sting.player
++ entity.minecraft.bee
++ item.minecraft.bee_spawn_egg
++ item.minecraft.honey_bottle
++ item.minecraft.honeycomb
++ subtitles.block.beehive.drip
++ subtitles.block.beehive.enter
++ subtitles.block.beehive.exit
++ subtitles.block.beehive.shear
++ subtitles.block.beehive.work
++ subtitles.entity.bee.ambient
++ subtitles.entity.bee.death
++ subtitles.entity.bee.hurt
++ subtitles.entity.bee.loop
++ subtitles.entity.bee.loop_aggressive
++ subtitles.entity.bee.pollinate
++ subtitles.entity.bee.sting
++ subtitles.item.honey_bottle.drink
+```
+
+</details>
+
+
+# Misc
 
 <details><summary>advancements.txt</summary>
 
 ```diff
-- recipes/misc/sugar.json
 + recipes/decorations/bee_hive.json
 + recipes/misc/sugar_from_honey_bottle.json
 + recipes/misc/sugar_from_sugar_cane.json
+- recipes/misc/sugar.json
 ```
 
 </details>
+
 
 <details><summary>languages.txt</summary>
 
 ```diff
 - got_de.json
 - kab_kab.json
++ lmo.json
++ lzh.json
 - moh_ca.json
 - nuk.json
 - oj_ca.json
-- scn.json
-- swg.json
-- tzl_tzl.json
 - realms/lang/got_de.json
 - realms/lang/kab_kab.json
++ realms/lang/lmo.json
++ realms/lang/lzh.json
 - realms/lang/moh_ca.json
 - realms/lang/nuk.json
 - realms/lang/oj_ca.json
++ realms/lang/rpr.json
 - realms/lang/scn.json
 - realms/lang/swg.json
 - realms/lang/tzl_tzl.json
-+ lmo.json
-+ lzh.json
-+ rpr.json
-+ zh_hk.json
-+ realms/lang/lmo.json
-+ realms/lang/lzh.json
-+ realms/lang/rpr.json
 + realms/lang/zh_hk.json
++ rpr.json
+- scn.json
+- swg.json
+- tzl_tzl.json
++ zh_hk.json
 ```
 
 </details>
+
 
 <details><summary>loot_tables.txt</summary>
 
@@ -238,6 +290,7 @@
 ```
 
 </details>
+
 
 <details><summary>particles.txt</summary>
 
@@ -250,16 +303,18 @@
 
 </details>
 
+
 <details><summary>recipes.txt</summary>
 
 ```diff
-- sugar.json
 + bee_hive.json
 + sugar_from_honey_bottle.json
 + sugar_from_sugar_cane.json
+- sugar.json
 ```
 
 </details>
+
 
 <details><summary>sounds.txt</summary>
 
@@ -319,11 +374,12 @@
 
 </details>
 
+
 <details><summary>tags.txt</summary>
 
 ```diff
-+ blocks/beehives.json
 + blocks/bee_growables.json
++ blocks/beehives.json
 + blocks/crops.json
 + blocks/flowers.json
 + blocks/tall_flowers.json
@@ -333,39 +389,29 @@
 
 </details>
 
+
 <details><summary>textures.txt</summary>
 
 ```diff
 + block/bee_hive_bottom.png
-+ block/bee_hive_front.png
 + block/bee_hive_front_honey.png
++ block/bee_hive_front.png
 + block/bee_hive_side.png
 + block/bee_hive_top.png
 + block/bee_nest_bottom.png
-+ block/bee_nest_front.png
 + block/bee_nest_front_honey.png
++ block/bee_nest_front.png
 + block/bee_nest_side.png
 + block/bee_nest_top.png
 + block/wax_block.png
-+ entity/bee/bee.png
-+ entity/bee/bee_angry.png
 + entity/bee/bee_angry_nectar.png
++ entity/bee/bee_angry.png
 + entity/bee/bee_nectar.png
 + entity/bee/bee_stinger.png
++ entity/bee/bee.png
 + item/crystallized_honey.png
-+ item/honeycomb.png
 + item/honey_bottle.png
++ item/honeycomb.png
 ```
 
 </details>
-
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>

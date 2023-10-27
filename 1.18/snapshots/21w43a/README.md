@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w43a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w43a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-10-27T14:38:55+00:00</td></tr>
@@ -10,1457 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/c8ad3102e97c03cfa15bd7bb3e7c8bff6797e922/server.txt">https://piston-data.mojang.com/v1/objects/c8ad3102e97c03cfa15bd7bb3e7c8bff6797e922/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ad67ea7db46f4ebbb1d8d5f9286401660a26ebbf/client.jar">https://piston-data.mojang.com/v1/objects/ad67ea7db46f4ebbb1d8d5f9286401660a26ebbf/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4e269077dc7847d754cd0a827347f5423798dafe/client.txt">https://piston-data.mojang.com/v1/objects/4e269077dc7847d754cd0a827347f5423798dafe/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w42a">21w42a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/big_dripleaf_placeable.json
-```
+### Client
 
-</details>
 
-<details><summary>minecraft-generated/</summary>
 
-```diff
--  reports/biomes/deep_warm_ocean.json
-```
 
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/big_dripleaf_placeable.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/big_dripleaf_placeable.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlUtil</summary>
-
-```diff
-- void populateSnooperWithOpenGL(SnooperAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
-
-```diff
-- Biome deepWarmOcean()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-- boolean isSnooperEnabled()
-- void populateSnooper(Snooper)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-- boolean snooperEnabled
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder</summary>
-
-```diff
-- Either lambda$updateFutures$8(Either)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ Integer lambda$dumpChunks$44(LevelChunk)
-+ Integer lambda$dumpChunks$45(LevelChunk)
-+ String lambda$printFuture$46(LevelChunk)
-+ String lambda$printFuture$47(ChunkHolder$ChunkLoadingFailure)
-- CompletableFuture packTicks(LevelChunk)
-- String lambda$printFuture$44(LevelChunk)
-- String lambda$printFuture$45(ChunkHolder$ChunkLoadingFailure)
-- void lambda$packTicks$46(LevelChunk)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ int MAX_SCHEDULED_TICKS_PER_TICK
-+ LevelTicks blockTicks
-+ LevelTicks fluidTicks
-- ServerTickList blockTicks
-- ServerTickList liquidTicks
-+ BlockPos lambda$findLightningRod$7(BlockPos)
-+ boolean isPositionTickingWithEntitiesLoaded(long)
-+ boolean lambda$clearBlockEvents$18(BlockEventData)
-+ boolean lambda$findLightningRod$5(PoiType)
-+ boolean lambda$findLightningRod$6(BlockPos)
-+ boolean lambda$findLightningTargetAround$8(LivingEntity)
-+ boolean lambda$findNearestBiome$13(Biome)
-+ DimensionDataStorage lambda$new$0(MinecraftServer)
-+ LevelTickAccess getBlockTicks()
-+ LevelTickAccess getFluidTicks()
-+ LevelTicks getBlockTicks()
-+ LevelTicks getFluidTicks()
-+ Raids lambda$new$1(CompoundTag)
-+ Raids lambda$new$2()
-+ String lambda$getTypeCount$20(Object2IntMap$Entry)
-+ String lambda$getWatchdogStats$19(Entity)
-+ String lambda$tickNonPassenger$9(Entity)
-+ String lambda$tickPassenger$10(Entity)
-+ void lambda$getEntities$11(Entity)
-+ void lambda$makeObsidianPlatform$21(BlockPos)
-+ void lambda$makeObsidianPlatform$22(BlockPos)
-+ void lambda$onBlockStateChange$14(BlockPos)
-+ void lambda$onBlockStateChange$15(PoiType)
-+ void lambda$onBlockStateChange$16(PoiType)
-+ void lambda$sendVibrationParticle$12(ServerPlayer)
-+ void lambda$tick$3(Entity)
-+ void lambda$wakeUpAllPlayers$4(ServerPlayer)
-+ void startTickingChunk(LevelChunk)
-+ void tickBlock(Block)
-+ void tickFluid(Fluid)
-- BlockPos lambda$findLightningRod$9(BlockPos)
-- boolean isPositionTickingWithEntitiesLoaded(BlockPos)
-- boolean lambda$clearBlockEvents$20(BlockEventData)
-- boolean lambda$findLightningRod$7(PoiType)
-- boolean lambda$findLightningRod$8(BlockPos)
-- boolean lambda$findLightningTargetAround$10(LivingEntity)
-- boolean lambda$findNearestBiome$15(Biome)
-- boolean lambda$new$0(Block)
-- boolean lambda$new$1(Fluid)
-- DimensionDataStorage lambda$new$2(MinecraftServer)
-- Raids lambda$new$3(CompoundTag)
-- Raids lambda$new$4()
-- ServerTickList getBlockTicks()
-- ServerTickList getLiquidTicks()
-- String lambda$getTypeCount$22(Object2IntMap$Entry)
-- String lambda$getWatchdogStats$21(Entity)
-- String lambda$tickNonPassenger$11(Entity)
-- String lambda$tickPassenger$12(Entity)
-- TickList getBlockTicks()
-- TickList getLiquidTicks()
-- void lambda$getEntities$13(Entity)
-- void lambda$makeObsidianPlatform$23(BlockPos)
-- void lambda$makeObsidianPlatform$24(BlockPos)
-- void lambda$onBlockStateChange$16(BlockPos)
-- void lambda$onBlockStateChange$18(PoiType)
-- void lambda$onBlockStateChange$19(PoiType)
-- void lambda$sendVibrationParticle$14(ServerPlayer)
-- void lambda$tick$5(Entity)
-- void lambda$wakeUpAllPlayers$6(ServerPlayer)
-- void tickBlock(TickNextTickData)
-- void tickLiquid(TickNextTickData)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ AtomicLong subTickCount
-+ WorldGenTickAccess blockTicks
-+ WorldGenTickAccess fluidTicks
-- TickList blockTicks
-- TickList liquidTicks
-+ LevelTickAccess getBlockTicks()
-+ LevelTickAccess getFluidTicks()
-+ long nextSubTickCount()
-+ TickContainerAccess lambda$new$0(BlockPos)
-+ TickContainerAccess lambda$new$1(BlockPos)
-- TickList getBlockTicks()
-- TickList getLiquidTicks()
-- TickList lambda$new$0(BlockPos)
-- TickList lambda$new$1(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.CubicSpline$Constant</summary>
-
-```diff
-+ boolean equals(Object)
-+ float value()
-+ int hashCode()
-+ String parityString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ double length(int,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkHeightAndBiomeFix</summary>
-
-```diff
-+ Set STATUSES_WITH_NOISE_DATA
-+ String DATAFIXER_CONTEXT_TAG
-- String DIMENSION_UPGRADE_TAG
-+ ChunkProtoTickListFix$PoorMansPalettedContainer lambda$makeRule$0()
-+ ChunkProtoTickListFix$PoorMansPalettedContainer lambda$makeRule$4(Dynamic)
-+ Dynamic lambda$makeBiomeContainer$18(Integer)
-+ Dynamic lambda$makeRule$2(Dynamic)
-+ Dynamic lambda$makeRule$5(Dynamic)
-+ Dynamic lambda$makeRule$8(Dynamic)
-+ Dynamic lambda$updateHeightmaps$16(Dynamic)
-+ Dynamic updateChunkTag(Supplier)
-+ IllegalStateException lambda$makeRule$1()
-+ IllegalStateException lambda$makeRule$6()
-+ int lambda$getBiomeContainers$11(int[],int,int)
-+ int lambda$getBiomeContainers$12(int[],int,int)
-+ int lambda$getBiomeContainers$13(int[],int)
-+ int lambda$getBiomeContainers$14(int[],int)
-+ long lambda$getFixedHeightmap$17(long)
-+ Optional lambda$makeRule$3(Dynamic)
-+ Pair lambda$updateCarvingMasks$15(Pair)
-+ Typed lambda$makeRule$10(Typed)
-+ Typed lambda$makeRule$7(Typed)
-+ Typed lambda$makeRule$9(Typed)
-- Dynamic lambda$makeBiomeContainer$16(Integer)
-- Dynamic lambda$makeRule$1(Dynamic)
-- Dynamic lambda$makeRule$3(Dynamic)
-- Dynamic lambda$makeRule$6(Dynamic)
-- Dynamic lambda$updateHeightmaps$14(Dynamic)
-- Dynamic updateChunkTag(Dynamic,boolean,boolean)
-- IllegalStateException lambda$makeRule$0()
-- IllegalStateException lambda$makeRule$4()
-- int lambda$getBiomeContainers$10(int[],int,int)
-- int lambda$getBiomeContainers$11(int[],int)
-- int lambda$getBiomeContainers$12(int[],int)
-- int lambda$getBiomeContainers$9(int[],int,int)
-- long lambda$getFixedHeightmap$15(long)
-- Optional lambda$makeRule$2(Dynamic)
-- Pair lambda$updateCarvingMasks$13(Pair)
-- Typed lambda$makeRule$5(Typed)
-- Typed lambda$makeRule$7(Typed)
-- Typed lambda$makeRule$8(Typed)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.InactiveProfiler</summary>
-
-```diff
-+ void incrementCounter(String,int)
-+ void incrementCounter(Supplier,int)
-- void incrementCounter(String)
-- void incrementCounter(Supplier)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.profiling.ProfilerFiller$1</summary>
-
-```diff
-+ void incrementCounter(String,int)
-+ void incrementCounter(Supplier,int)
-- void incrementCounter(String)
-- void incrementCounter(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
-
-```diff
-+ WorldGenSettings worldGenSettings
-- ImmutableSet levels
-+ void <init>(WorldGenSettings,boolean)
-- void <init>(ImmutableSet,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ boolean lambda$new$2(BiomeSource$1FeatureData)
-+ int lambda$new$0(Object)
-+ Set lambda$new$1(BiomeSource$1FeatureData)
-- boolean lambda$new$1(BiomeSource$1FeatureData)
-- Set lambda$new$0(BiomeSource$1FeatureData)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
-
-```diff
-- ResourceKey DEEP_WARM_OCEAN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
-
-```diff
-+ Codec CODEC
-+ Codec SPLINE_CODEC
-- ToFloatFunction CONTINENTS_EXTRACTOR
-- ToFloatFunction EROSION_EXTRACTOR
-- ToFloatFunction RIDGES_EXTRACTOR
-- ToFloatFunction WEIRDNESS_EXTRACTOR
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ CubicSpline jaggednessSampler()
-+ CubicSpline lambda$static$0(TerrainShaper)
-+ void <init>(CubicSpline)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
-
-```diff
-+ LevelChunkTicks blockTicks
-+ LevelChunkTicks fluidTicks
-+ ChunkAccess$TicksToSave getTicksForSerialization()
-+ LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$7(LevelChunk$RebindableTickingBlockEntityWrapper)
-+ TickContainerAccess getBlockTicks()
-+ TickContainerAccess getFluidTicks()
-+ void <init>(GenerationUpgradeData)
-+ void lambda$clearAllBlockEntities$5(LevelChunk$RebindableTickingBlockEntityWrapper)
-+ void lambda$registerAllBlockEntitiesAfterLevelLoad$6(BlockEntity)
-+ void registerTickContainerInLevel(ServerLevel)
-+ void unpackTicks(long)
-+ void unregisterTickContainerFromLevel(ServerLevel)
-- Block lambda$unpackTicks$5(BlockPos)
-- Fluid lambda$unpackTicks$6(BlockPos)
-- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$9(LevelChunk$RebindableTickingBlockEntityWrapper)
-- void <init>(Consumer)
-- void lambda$clearAllBlockEntities$7(LevelChunk$RebindableTickingBlockEntityWrapper)
-- void lambda$registerAllBlockEntitiesAfterLevelLoad$8(BlockEntity)
-- void packTicks(ServerLevel)
-- void unpackTicks()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
-+ BelowZeroRetrogen belowZeroRetrogen
-+ ProtoChunkTicks blockTicks
-+ ProtoChunkTicks fluidTicks
-- Logger LOGGER
-+ BelowZeroRetrogen getBelowZeroRetrogen()
-+ CarvingMask lambda$getOrCreateCarvingMask$0(GenerationStep$Carving)
-+ ChunkAccess$TicksToSave getTicksForSerialization()
-+ LevelChunkTicks unpackBlockTicks()
-+ LevelChunkTicks unpackFluidTicks()
-+ LevelChunkTicks unpackTicks(ProtoChunkTicks)
-+ TickContainerAccess getBlockTicks()
-+ TickContainerAccess getFluidTicks()
-+ void <init>(GenerationUpgradeData)
-+ void <init>(GenerationUpgradeData)
-+ void setBelowZeroRetrogen(BelowZeroRetrogen)
-- boolean lambda$new$0(Block)
-- boolean lambda$new$1(Fluid)
-- CarvingMask lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
-- void <clinit>()
-- void <init>(Registry)
-- void <init>(Registry)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ CompletableFuture fillFromNoise(ChunkAccess)
-- CompletableFuture fillFromNoise(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk</summary>
-
-```diff
-+ Blender blender
-+ NoiseSampler$FlatNoiseData[][] noiseData
-- double[][] continentalness
-- double[][] erosion
-- double[][] shiftedX
-- double[][] shiftedZ
-- double[][] weirdness
-- TerrainInfo[][] terrainInfoBuffer
-+ Blender getBlender()
-+ NoiseSampler$FlatNoiseData noiseData(int,int)
-+ void <init>(Blender)
-- double continentalness(int,int)
-- double erosion(int,int)
-- double shiftedX(int,int)
-- double shiftedZ(int,int)
-- double weirdness(int,int)
-- NoiseChunk$FlatNoiseData noiseData(NoiseSampler,int,int)
-- TerrainInfo terrainInfo(int,int)
-- void <init>(Aquifer$FluidPicker)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSettings</summary>
-
-```diff
-+ TerrainShaper terrainShaper
-+ NoiseSettings create(TerrainShaper)
-+ TerrainShaper terrainShaper()
-+ void <init>(TerrainShaper)
-- NoiseSettings create(NoiseSlider,int,int,double,double,boolean,boolean)
-- void <init>(NoiseSlider,int,int,double,double,boolean,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.Noises</summary>
-
-```diff
-+ ResourceKey BADLANDS_PILLAR
-+ ResourceKey BADLANDS_PILLAR_ROOF
-+ ResourceKey BADLANDS_SURFACE
-+ ResourceKey ICEBERG_PILLAR
-+ ResourceKey ICEBERG_PILLAR_ROOF
-+ ResourceKey ICEBERG_SURFACE
-- ResourceKey ICEBERG_AND_BADLANDS_PILLAR
-- ResourceKey ICEBERG_AND_BADLANDS_PILLAR_ROOF
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.RandomSource</summary>
-
-```diff
-+ int nextIntBetweenInclusive(int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
-
-```diff
-- boolean hasCeilingRules
-- boolean hasCeilingRules()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.package-info
@@ -5686,1459 +4257,388 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+<details><summary>com.mojang.blaze3d.platform.GlUtil</summary>
 
 ```diff
-+ void addFrozenSprings(BiomeGenerationSettings$Builder)
+- void populateSnooperWithOpenGL(SnooperAccess)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.worldgen.Features$Configs</summary>
+<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
 
 ```diff
-+ SpringConfiguration LAVA_SPRING_FROZEN
+- Biome deepWarmOcean()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.data.worldgen.SurfaceRuleData</summary>
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
 
 ```diff
-+ SurfaceRules$RuleSource RED_SANDSTONE
-+ SurfaceRules$RuleSource SANDSTONE
+- boolean isSnooperEnabled()
+- void populateSnooper(Snooper)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CubicSpline</summary>
+<details><summary>net.minecraft.server.level.ChunkHolder</summary>
 
 ```diff
-+ String parityString()
-- float[] derivatives
-- float[] locations
-- List values
-- ToFloatFunction coordinate
-+ App lambda$codec$1(RecordCodecBuilder$Instance)
-+ App lambda$codec$5(RecordCodecBuilder$Instance)
-+ Codec codec(Codec)
-+ CubicSpline lambda$codec$7(Either)
-+ CubicSpline$1Point lambda$codec$0(CubicSpline,float)
-+ CubicSpline$1Point lambda$codec$2(CubicSpline$Multipoint,int)
-+ CubicSpline$Multipoint lambda$codec$4(List)
-+ Either lambda$codec$8(CubicSpline)
-+ List lambda$codec$3(CubicSpline$Multipoint)
-+ Record lambda$codec$6(CubicSpline$Multipoint)
-- boolean lambda$apply$0(float,int)
-- double lambda$toString$1(float[],int)
-- float apply(Object)
-- float debugDerivative(int)
-- List debugLocations()
-- String lambda$toString$2(double)
-- String toString()
-- String toString(float[])
-- ToFloatFunction coordinate()
-- ToFloatFunction debugValue(int)
-- void <init>(List,float[])
+- Either lambda$updateFutures$8(ChunkMap,Either)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
 
 ```diff
-+ BlendingData blendingData
-+ ChunkAccess$TicksToSave getTicksForSerialization()
-+ GenerationUpgradeData generationUpgradeData
-+ TickContainerAccess getBlockTicks()
-+ TickContainerAccess getFluidTicks()
-- TickList blockTicks
-- TickList liquidTicks
-+ BelowZeroRetrogen getBelowZeroRetrogen()
-+ BlendingData getBlendingData()
-+ boolean hasPrimedHeightmap(Heightmap$Types)
-+ boolean isOldNoiseGeneration()
-+ GenerationUpgradeData getGenerationUpgradeData()
-+ NoiseChunk noiseChunk(Blender)
-+ void <init>(GenerationUpgradeData)
-+ void setBlendingData(BlendingData)
-- NoiseChunk noiseChunk(Aquifer$FluidPicker)
+- CompletableFuture packTicks(LevelChunk)
++ Integer lambda$dumpChunks$44(LevelChunk)
++ Integer lambda$dumpChunks$45(LevelChunk)
+- String lambda$printFuture$44(LevelChunk)
+- String lambda$printFuture$45(ChunkHolder$ChunkLoadingFailure)
++ String lambda$printFuture$46(LevelChunk)
++ String lambda$printFuture$47(ChunkHolder$ChunkLoadingFailure)
+- void lambda$packTicks$46(LevelChunk)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ BlockPos lambda$findLightningRod$7(BlockPos)
+- BlockPos lambda$findLightningRod$9(BlockPos)
+- boolean isPositionTickingWithEntitiesLoaded(BlockPos)
++ boolean isPositionTickingWithEntitiesLoaded(long)
++ boolean lambda$clearBlockEvents$18(BoundingBox,BlockEventData)
+- boolean lambda$clearBlockEvents$20(BoundingBox,BlockEventData)
++ boolean lambda$findLightningRod$5(PoiType)
++ boolean lambda$findLightningRod$6(BlockPos)
+- boolean lambda$findLightningRod$7(PoiType)
+- boolean lambda$findLightningRod$8(BlockPos)
+- boolean lambda$findLightningTargetAround$10(LivingEntity)
++ boolean lambda$findLightningTargetAround$8(LivingEntity)
++ boolean lambda$findNearestBiome$13(Biome,Biome)
+- boolean lambda$findNearestBiome$15(Biome,Biome)
+- boolean lambda$new$0(Block)
+- boolean lambda$new$1(Fluid)
++ DimensionDataStorage lambda$new$0(MinecraftServer)
+- DimensionDataStorage lambda$new$2(MinecraftServer)
++ LevelTickAccess getBlockTicks()
++ LevelTickAccess getFluidTicks()
++ LevelTicks getBlockTicks()
++ LevelTicks getFluidTicks()
++ Raids lambda$new$1(CompoundTag)
++ Raids lambda$new$2()
+- Raids lambda$new$3(CompoundTag)
+- Raids lambda$new$4()
+- ServerTickList getBlockTicks()
+- ServerTickList getLiquidTicks()
++ String lambda$getTypeCount$20(Object2IntMap$Entry)
+- String lambda$getTypeCount$22(Object2IntMap$Entry)
++ String lambda$getWatchdogStats$19(Entity)
+- String lambda$getWatchdogStats$21(Entity)
+- String lambda$tickNonPassenger$11(Entity)
++ String lambda$tickNonPassenger$9(Entity)
++ String lambda$tickPassenger$10(Entity)
+- String lambda$tickPassenger$12(Entity)
 - TickList getBlockTicks()
 - TickList getLiquidTicks()
-- void <init>(TickList)
++ void lambda$getEntities$11(Predicate,List,Entity)
+- void lambda$getEntities$13(Predicate,List,Entity)
++ void lambda$makeObsidianPlatform$21(ServerLevel,BlockPos)
++ void lambda$makeObsidianPlatform$22(ServerLevel,BlockPos)
+- void lambda$makeObsidianPlatform$23(ServerLevel,BlockPos)
+- void lambda$makeObsidianPlatform$24(ServerLevel,BlockPos)
++ void lambda$onBlockStateChange$14(BlockPos)
++ void lambda$onBlockStateChange$15(BlockPos,PoiType)
++ void lambda$onBlockStateChange$16(BlockPos,PoiType)
+- void lambda$onBlockStateChange$16(BlockPos)
+- void lambda$onBlockStateChange$18(BlockPos,PoiType)
+- void lambda$onBlockStateChange$19(BlockPos,PoiType)
++ void lambda$sendVibrationParticle$12(BlockPos,ClientboundAddVibrationSignalPacket,ServerPlayer)
+- void lambda$sendVibrationParticle$14(BlockPos,ClientboundAddVibrationSignalPacket,ServerPlayer)
++ void lambda$tick$3(ProfilerFiller,Entity)
+- void lambda$tick$5(ProfilerFiller,Entity)
++ void lambda$wakeUpAllPlayers$4(ServerPlayer)
+- void lambda$wakeUpAllPlayers$6(ServerPlayer)
++ void startTickingChunk(LevelChunk)
++ void tickBlock(BlockPos,Block)
+- void tickBlock(TickNextTickData)
++ void tickFluid(BlockPos,Fluid)
+- void tickLiquid(TickNextTickData)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
 
 ```diff
-+ String BLOCK_TICKS_TAG
-+ String FLUID_TICKS_TAG
-+ boolean lambda$unpackStructureReferences$10(String,long)
-+ Optional lambda$read$2(String)
-+ Optional lambda$read$3(String)
-+ Optional lambda$read$5(String)
-+ Optional lambda$read$6(String)
-+ String lambda$saveTicks$8(Block)
-+ String lambda$saveTicks$9(Fluid)
-+ void lambda$read$0(String)
-+ void lambda$read$1(String)
-+ void lambda$write$7(Tag)
-+ void saveTicks(ChunkAccess$TicksToSave)
-- boolean lambda$read$0(Block)
-- boolean lambda$read$1(Fluid)
-- boolean lambda$unpackStructureReferences$5(String,long)
-- void lambda$read$2(String)
-- void lambda$read$3(String)
++ LevelTickAccess getBlockTicks()
++ LevelTickAccess getFluidTicks()
++ long nextSubTickCount()
++ TickContainerAccess lambda$new$0(BlockPos)
++ TickContainerAccess lambda$new$1(BlockPos)
+- TickList getBlockTicks()
+- TickList getLiquidTicks()
+- TickList lambda$new$0(BlockPos)
+- TickList lambda$new$1(BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+<details><summary>net.minecraft.util.CubicSpline$Constant</summary>
 
 ```diff
-+ int WAY_ABOVE_MAX_Y
-+ int WAY_BELOW_MIN_Y
++ boolean equals(Object)
++ float value()
++ int hashCode()
++ String parityString()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Aquifer</summary>
+<details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
-- int EMPTY_FLUID_LEVEL
++ double length(int,double)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
+<details><summary>net.minecraft.util.datafix.fixes.ChunkHeightAndBiomeFix</summary>
 
 ```diff
-+ Climate$TargetPoint target(NoiseSampler$FlatNoiseData)
-+ double calculateBaseNoise(Blender)
-+ double calculateBaseNoise(Blender)
-+ double computeBaseDensity(TerrainInfo)
-+ NoiseSampler$FlatNoiseData noiseData(Blender)
-+ TerrainInfo terrainInfo(Blender)
-- Climate$TargetPoint target(int,int,int,double,double,float,float,float,double)
-- double calculateBaseNoise(TerrainInfo,double,boolean,boolean)
-- double calculateBaseNoise(TerrainInfo)
-- double computeDimensionDensity(double)
-- TerrainInfo terrainInfo(int,int,float,float,float)
++ ChunkProtoTickListFix$PoorMansPalettedContainer lambda$makeRule$0()
++ ChunkProtoTickListFix$PoorMansPalettedContainer lambda$makeRule$4(Dynamic)
+- Dynamic lambda$makeBiomeContainer$16(Dynamic,Integer)
++ Dynamic lambda$makeBiomeContainer$18(Dynamic,Integer)
+- Dynamic lambda$makeRule$1(Dynamic,Dynamic)
++ Dynamic lambda$makeRule$2(Dynamic,Dynamic)
+- Dynamic lambda$makeRule$3(Dynamic,int,Dynamic[],IntSet,Dynamic)
++ Dynamic lambda$makeRule$5(Dynamic,int,Dynamic[],IntSet,MutableObject,Dynamic)
+- Dynamic lambda$makeRule$6(boolean,MutableBoolean,Dynamic)
++ Dynamic lambda$makeRule$8(boolean,MutableBoolean,String,MutableObject,Dynamic)
+- Dynamic lambda$updateHeightmaps$14(Dynamic)
++ Dynamic lambda$updateHeightmaps$16(Dynamic)
++ Dynamic updateChunkTag(Dynamic,boolean,boolean,boolean,Supplier)
+- Dynamic updateChunkTag(Dynamic,boolean,boolean)
+- IllegalStateException lambda$makeRule$0()
++ IllegalStateException lambda$makeRule$1()
+- IllegalStateException lambda$makeRule$4()
++ IllegalStateException lambda$makeRule$6()
+- int lambda$getBiomeContainers$10(int[],int,int)
++ int lambda$getBiomeContainers$11(int[],int,int)
+- int lambda$getBiomeContainers$11(int[],int)
++ int lambda$getBiomeContainers$12(int[],int,int)
+- int lambda$getBiomeContainers$12(int[],int)
++ int lambda$getBiomeContainers$13(int[],int)
++ int lambda$getBiomeContainers$14(int[],int)
+- int lambda$getBiomeContainers$9(int[],int,int)
+- long lambda$getFixedHeightmap$15(long)
++ long lambda$getFixedHeightmap$17(long)
+- Optional lambda$makeRule$2(Dynamic,Dynamic)
++ Optional lambda$makeRule$3(Dynamic,Dynamic)
+- Pair lambda$updateCarvingMasks$13(int,int,Dynamic,Pair)
++ Pair lambda$updateCarvingMasks$15(int,int,Dynamic,Pair)
++ Typed lambda$makeRule$10(OpticFinder,Type,OpticFinder,Type,Typed)
+- Typed lambda$makeRule$5(Dynamic,int,Dynamic[],Dynamic,Type,Typed)
++ Typed lambda$makeRule$7(Dynamic,int,Dynamic[],MutableObject,Dynamic,Type,Typed)
+- Typed lambda$makeRule$7(OpticFinder,Type,Typed)
+- Typed lambda$makeRule$8(OpticFinder,Type,OpticFinder,Type,Typed)
++ Typed lambda$makeRule$9(Typed,OpticFinder,Type,Typed)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+<details><summary>net.minecraft.util.profiling.InactiveProfiler</summary>
+
+```diff
++ void incrementCounter(String,int)
+- void incrementCounter(String)
++ void incrementCounter(Supplier,int)
+- void incrementCounter(Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.ProfilerFiller$1</summary>
+
+```diff
++ void incrementCounter(String,int)
+- void incrementCounter(String)
++ void incrementCounter(Supplier,int)
+- void incrementCounter(Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
+
+```diff
+- void <init>(LevelStorageSource$LevelStorageAccess,DataFixer,ImmutableSet,boolean)
++ void <init>(LevelStorageSource$LevelStorageAccess,DataFixer,WorldGenSettings,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
+
+```diff
+- boolean lambda$new$1(int,BiomeSource$1FeatureData)
++ boolean lambda$new$2(int,BiomeSource$1FeatureData)
++ int lambda$new$0(MutableInt,Object)
+- Set lambda$new$0(BiomeSource$1FeatureData)
++ Set lambda$new$1(Comparator,BiomeSource$1FeatureData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ CubicSpline jaggednessSampler()
++ CubicSpline lambda$static$0(TerrainShaper)
++ void <init>(CubicSpline,CubicSpline,CubicSpline)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+
+```diff
+- Block lambda$unpackTicks$5(BlockPos)
++ ChunkAccess$TicksToSave getTicksForSerialization()
+- Fluid lambda$unpackTicks$6(BlockPos)
++ LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$7(BlockEntity,BlockEntityTicker,BlockPos,LevelChunk$RebindableTickingBlockEntityWrapper)
+- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$9(BlockEntity,BlockEntityTicker,BlockPos,LevelChunk$RebindableTickingBlockEntityWrapper)
++ TickContainerAccess getBlockTicks()
++ TickContainerAccess getFluidTicks()
++ void <init>(Level,ChunkPos,UpgradeData,LevelChunkTicks,LevelChunkTicks,long,LevelChunkSection[],Consumer,GenerationUpgradeData)
+- void <init>(Level,ChunkPos,UpgradeData,TickList,TickList,long,LevelChunkSection[],Consumer)
++ void lambda$clearAllBlockEntities$5(LevelChunk$RebindableTickingBlockEntityWrapper)
+- void lambda$clearAllBlockEntities$7(LevelChunk$RebindableTickingBlockEntityWrapper)
++ void lambda$registerAllBlockEntitiesAfterLevelLoad$6(BlockEntity)
+- void lambda$registerAllBlockEntitiesAfterLevelLoad$8(BlockEntity)
+- void packTicks(ServerLevel)
++ void registerTickContainerInLevel(ServerLevel)
+- void unpackTicks()
++ void unpackTicks(long)
++ void unregisterTickContainerFromLevel(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
++ BelowZeroRetrogen getBelowZeroRetrogen()
+- boolean lambda$new$0(Block)
+- boolean lambda$new$1(Fluid)
++ CarvingMask lambda$getOrCreateCarvingMask$0(GenerationStep$Carving)
+- CarvingMask lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
++ ChunkAccess$TicksToSave getTicksForSerialization()
++ LevelChunkTicks unpackBlockTicks()
++ LevelChunkTicks unpackFluidTicks()
++ LevelChunkTicks unpackTicks(ProtoChunkTicks)
++ TickContainerAccess getBlockTicks()
++ TickContainerAccess getFluidTicks()
+- void <clinit>()
++ void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoChunkTicks,ProtoChunkTicks,LevelHeightAccessor,Registry,GenerationUpgradeData)
+- void <init>(ChunkPos,UpgradeData,LevelChunkSection[],ProtoTickList,ProtoTickList,LevelHeightAccessor,Registry)
++ void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,GenerationUpgradeData)
+- void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry)
++ void setBelowZeroRetrogen(BelowZeroRetrogen)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
++ CompletableFuture fillFromNoise(Executor,Blender,StructureFeatureManager,ChunkAccess)
+- CompletableFuture fillFromNoise(Executor,StructureFeatureManager,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk</summary>
+
+```diff
++ Blender getBlender()
+- double continentalness(int,int)
+- double erosion(int,int)
+- double shiftedX(int,int)
+- double shiftedZ(int,int)
+- double weirdness(int,int)
+- NoiseChunk$FlatNoiseData noiseData(NoiseSampler,int,int)
++ NoiseSampler$FlatNoiseData noiseData(int,int)
+- TerrainInfo terrainInfo(int,int)
++ void <init>(int,int,int,int,int,NoiseSampler,int,int,NoiseChunk$NoiseFiller,Supplier,Aquifer$FluidPicker,Blender)
+- void <init>(int,int,int,int,int,NoiseSampler,int,int,NoiseChunk$NoiseFiller,Supplier,Aquifer$FluidPicker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSettings</summary>
+
+```diff
++ NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,double,double,boolean,boolean,TerrainShaper)
+- NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,double,double,boolean,boolean)
++ TerrainShaper terrainShaper()
++ void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,double,double,boolean,boolean,TerrainShaper)
+- void <init>(int,int,NoiseSamplingSettings,NoiseSlider,NoiseSlider,int,int,double,double,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.RandomSource</summary>
+
+```diff
++ int nextIntBetweenInclusive(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
+
+```diff
+- boolean hasCeilingRules()
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.worldgen.biome.BiomeReport
@@ -9110,13 +6610,163 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addFrozenSprings(BiomeGenerationSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.CubicSpline</summary>
+
+```diff
++ App lambda$codec$1(MutableObject,RecordCodecBuilder$Instance)
++ App lambda$codec$5(Codec,Codec,RecordCodecBuilder$Instance)
+- boolean lambda$apply$0(float,int)
++ Codec codec(Codec)
++ CubicSpline lambda$codec$7(Either)
++ CubicSpline$1Point lambda$codec$0(float,CubicSpline,float)
++ CubicSpline$1Point lambda$codec$2(CubicSpline$Multipoint,int)
++ CubicSpline$Multipoint lambda$codec$4(ToFloatFunction,List)
+- double lambda$toString$1(float[],int)
++ Either lambda$codec$8(CubicSpline)
+- float apply(Object)
+- float debugDerivative(int)
+- List debugLocations()
++ List lambda$codec$3(CubicSpline$Multipoint)
++ Record lambda$codec$6(CubicSpline$Multipoint)
+- String lambda$toString$2(double)
+- String toString()
+- String toString(float[])
+- ToFloatFunction coordinate()
+- ToFloatFunction debugValue(int)
+- void <init>(ToFloatFunction,float[],List,float[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
++ BelowZeroRetrogen getBelowZeroRetrogen()
++ BlendingData getBlendingData()
++ boolean hasPrimedHeightmap(Heightmap$Types)
++ boolean isOldNoiseGeneration()
++ GenerationUpgradeData getGenerationUpgradeData()
++ NoiseChunk noiseChunk(int,int,int,int,int,int,NoiseSampler,Supplier,Supplier,Aquifer$FluidPicker,Blender)
+- NoiseChunk noiseChunk(int,int,int,int,int,int,NoiseSampler,Supplier,Supplier,Aquifer$FluidPicker)
+- TickList getBlockTicks()
+- TickList getLiquidTicks()
++ void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,long,LevelChunkSection[],GenerationUpgradeData)
+- void <init>(ChunkPos,UpgradeData,LevelHeightAccessor,Registry,long,LevelChunkSection[],TickList,TickList)
++ void setBlendingData(BlendingData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+
+```diff
+- boolean lambda$read$0(Block)
+- boolean lambda$read$1(Fluid)
++ boolean lambda$unpackStructureReferences$10(ChunkPos,String,long)
+- boolean lambda$unpackStructureReferences$5(ChunkPos,String,long)
++ Optional lambda$read$2(String)
++ Optional lambda$read$3(String)
++ Optional lambda$read$5(String)
++ Optional lambda$read$6(String)
++ String lambda$saveTicks$8(Block)
++ String lambda$saveTicks$9(Fluid)
++ void lambda$read$0(ChunkPos,int,String)
++ void lambda$read$1(ChunkPos,int,String)
+- void lambda$read$2(ChunkPos,int,String)
+- void lambda$read$3(ChunkPos,int,String)
++ void lambda$write$7(CompoundTag,Tag)
++ void saveTicks(ServerLevel,CompoundTag,ChunkAccess$TicksToSave)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
+
+```diff
+- Climate$TargetPoint target(int,int,int,double,double,float,float,float,double)
++ Climate$TargetPoint target(int,int,int,NoiseSampler$FlatNoiseData)
++ double calculateBaseNoise(int,int,int,TerrainInfo,Blender)
++ double calculateBaseNoise(int,int,int,TerrainInfo,double,boolean,boolean,Blender)
+- double calculateBaseNoise(int,int,int,TerrainInfo,double,boolean,boolean)
+- double calculateBaseNoise(int,int,int,TerrainInfo)
++ double computeBaseDensity(int,TerrainInfo)
+- double computeDimensionDensity(double)
++ NoiseSampler$FlatNoiseData noiseData(int,int,Blender)
++ TerrainInfo terrainInfo(int,int,float,float,float,Blender)
+- TerrainInfo terrainInfo(int,int,float,float,float)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/big_dripleaf_placeable.json
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
+- reports/biomes/deep_warm_ocean.json
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/big_dripleaf_placeable.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- biome.minecraft.deep_warm_ocean
++ options.prioritizeChunkUpdates.byPlayer.tooltip
++ options.prioritizeChunkUpdates.nearby.tooltip
++ options.prioritizeChunkUpdates.none.tooltip
+- options.snooper
+- options.snooper.desc
+- options.snooper.title
+- options.snooper.view
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/big_dripleaf_placeable.json
+```
+
+</details>

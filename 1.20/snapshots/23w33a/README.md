@@ -1,1055 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w33a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w33a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-08-17T11:39:08+00:00</td></tr>
-<tr><th>SHA1</th><td>92f4679d70aaeae7c0a379d4f604b2875ae93c0d</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/92f4679d70aaeae7c0a379d4f604b2875ae93c0d/23w33a.json">https://piston-meta.mojang.com/v1/packages/92f4679d70aaeae7c0a379d4f604b2875ae93c0d/23w33a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json">https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json</a></td></tr>
+<tr><th>SHA1</th><td>b3019f4162e32440e3669da219dc3e116a0b9c68</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/b3019f4162e32440e3669da219dc3e116a0b9c68/23w33a.json">https://piston-meta.mojang.com/v1/packages/b3019f4162e32440e3669da219dc3e116a0b9c68/23w33a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json">https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/0254dde460b23861840cff6e80fc7fdbbccad88e/server.jar">https://piston-data.mojang.com/v1/objects/0254dde460b23861840cff6e80fc7fdbbccad88e/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9a8dacfac454415387007ce564d7a06d07e7ac0f/server.txt">https://piston-data.mojang.com/v1/objects/9a8dacfac454415387007ce564d7a06d07e7ac0f/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/94e539731458bd2e98a204892b0ed55f715a5011/client.jar">https://piston-data.mojang.com/v1/objects/94e539731458bd2e98a204892b0ed55f715a5011/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d4a7844ac9c07c66e1a4b6f4983e03b661dbbe55/client.txt">https://piston-data.mojang.com/v1/objects/d4a7844ac9c07c66e1a4b6f4983e03b661dbbe55/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w32a">23w32a</a>
-## Registries
 
-<details><summary>sound_event.txt</summary>
+# Mappings
 
-```diff
-+ minecraft:block.sponge.break
-+ minecraft:block.sponge.fall
-+ minecraft:block.sponge.hit
-+ minecraft:block.sponge.place
-+ minecraft:block.sponge.step
-+ minecraft:block.wet_sponge.break
-+ minecraft:block.wet_sponge.fall
-+ minecraft:block.wet_sponge.hit
-+ minecraft:block.wet_sponge.place
-+ minecraft:block.wet_sponge.step
-```
+### Client
 
-</details>
 
-## Tags
 
-<details><summary>blocks/flowers.json</summary>
 
-```diff
-+ minecraft:chorus_flower
-+ minecraft:spore_blossom
-```
-
-</details>
-
-<details><summary>items/flowers.json</summary>
-
-```diff
-+ minecraft:chorus_flower
-+ minecraft:spore_blossom
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:5.0.46
-+ com.mojang:authlib:5.0.47
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
-
-```diff
-- WorldTemplate get(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-- SampleLogger bandwidthLogger
-- SampleLogger frameTimeLogger
-- SampleLogger pingLogger
-+ boolean isNameBanned()
-+ boolean lambda$createSearchTrees$13(String)
-+ boolean lambda$createSearchTrees$21(String)
-+ boolean lambda$tick$46()
-+ ChunkProgressListener lambda$doWorldLoad$47(int)
-+ CompletableFuture reloadResourcePacks(Minecraft$GameLoadCookie)
-+ CompletionStage lambda$delayTextureReload$58(CompletableFuture)
-+ CrashReport lambda$delayCrash$27(CrashReport)
-+ CrashReport lambda$delayCrashRaw$28(CrashReport)
-+ DebugScreenOverlay getDebugOverlay()
-+ IntegratedServer lambda$doWorldLoad$48(Thread)
-+ ProfileResult lambda$new$1()
-+ RefreshableSearchTree lambda$createSearchTrees$16(List)
-+ RefreshableSearchTree lambda$createSearchTrees$18(List)
-+ RefreshableSearchTree lambda$createSearchTrees$25(List)
-+ ResourceLocation lambda$createSearchTrees$23(Recipe)
-+ Runnable buildInitialScreens(Minecraft$GameLoadCookie)
-+ Screen lambda$addInitialScreens$10(Runnable)
-+ Screen lambda$addInitialScreens$7(Runnable)
-+ Screen lambda$addInitialScreens$9(Runnable)
-+ Stream lambda$createSearchTrees$14(ItemStack)
-+ Stream lambda$createSearchTrees$15(ItemStack)
-+ Stream lambda$createSearchTrees$17(ItemStack)
-+ Stream lambda$createSearchTrees$19(Recipe)
-+ Stream lambda$createSearchTrees$22(RecipeCollection)
-+ Stream lambda$createSearchTrees$24(RecipeCollection)
-+ String lambda$createSearchTrees$12(Component)
-+ String lambda$createSearchTrees$20(Component)
-+ String lambda$doWorldLoad$49(WorldStem)
-+ String lambda$fillSystemReport$51(String)
-+ String lambda$fillSystemReport$52(Minecraft)
-+ String lambda$fillSystemReport$53()
-+ String lambda$fillSystemReport$54()
-+ String lambda$fillSystemReport$55()
-+ String lambda$fillSystemReport$56(Options)
-+ String lambda$fillSystemReport$57(LanguageManager)
-+ Style lambda$debugClientMetricsStart$37(Style)
-+ Style lambda$grabHugeScreenshot$61(Style)
-+ Style lambda$grabPanoramixScreenshot$60(Style)
-+ void addInitialScreens(List)
-+ void clearResourcePacksOnError(Minecraft$GameLoadCookie)
-+ void lambda$addInitialScreens$8(Runnable,boolean)
-+ void lambda$buildInitialScreens$5(Minecraft$GameLoadCookie)
-+ void lambda$buildInitialScreens$6(Screen)
-+ void lambda$clearResourcePacksOnError$11(Component)
-+ void lambda$createSearchTrees$26(List)
-+ void lambda$debugClientMetricsStart$35(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$36(ProfileResults)
-+ void lambda$debugClientMetricsStart$38(Component)
-+ void lambda$debugClientMetricsStart$39(Path)
-+ void lambda$debugClientMetricsStart$40(List)
-+ void lambda$debugClientMetricsStart$41(Path)
-+ void lambda$debugClientMetricsStart$42(CompletableFuture)
-+ void lambda$debugClientMetricsStart$43(ProfileResults)
-+ void lambda$debugClientMetricsStart$44(ProfileResults)
-+ void lambda$doWorldLoad$50(Component)
-+ void lambda$grabPanoramixScreenshot$59(Component)
-+ void lambda$new$2(Throwable)
-+ void lambda$new$3(Minecraft$GameLoadCookie)
-+ void lambda$new$4(Optional)
-+ void lambda$openChatScreen$32(boolean)
-+ void lambda$reloadResourcePacks$29(Throwable)
-+ void lambda$reloadResourcePacks$30(Minecraft$GameLoadCookie)
-+ void lambda$reloadResourcePacks$31(Optional)
-+ void lambda$runTick$33(CompletableFuture)
-+ void lambda$runTick$34(TimerQuery)
-+ void lambda$tick$45()
-+ void onGameLoadFinished(Minecraft$GameLoadCookie)
-+ void onResourceLoadFinished(Minecraft$GameLoadCookie)
-+ void rollbackResourcePacks(Minecraft$GameLoadCookie)
-- boolean lambda$createSearchTrees$15(String)
-- boolean lambda$createSearchTrees$7(String)
-- boolean lambda$tick$40()
-- boolean shouldRenderFpsPie()
-- boolean shouldShowBanNotice()
-- ChunkProgressListener lambda$doWorldLoad$41(int)
-- CompletableFuture reloadResourcePacks(boolean)
-- CompletionStage lambda$delayTextureReload$52(CompletableFuture)
-- CrashReport lambda$delayCrash$21(CrashReport)
-- CrashReport lambda$delayCrashRaw$22(CrashReport)
-- GameProfile lambda$new$1()
-- IntegratedServer lambda$doWorldLoad$42(Thread)
-- RefreshableSearchTree lambda$createSearchTrees$10(List)
-- RefreshableSearchTree lambda$createSearchTrees$12(List)
-- RefreshableSearchTree lambda$createSearchTrees$19(List)
-- ResourceLocation lambda$createSearchTrees$17(Recipe)
-- SampleLogger getFrameTimeLogger()
-- Stream lambda$createSearchTrees$11(ItemStack)
-- Stream lambda$createSearchTrees$13(Recipe)
-- Stream lambda$createSearchTrees$16(RecipeCollection)
-- Stream lambda$createSearchTrees$18(RecipeCollection)
-- Stream lambda$createSearchTrees$8(ItemStack)
-- Stream lambda$createSearchTrees$9(ItemStack)
-- String lambda$createSearchTrees$14(Component)
-- String lambda$createSearchTrees$6(Component)
-- String lambda$doWorldLoad$43(WorldStem)
-- String lambda$fillSystemReport$45(String)
-- String lambda$fillSystemReport$46(Minecraft)
-- String lambda$fillSystemReport$47()
-- String lambda$fillSystemReport$48()
-- String lambda$fillSystemReport$49()
-- String lambda$fillSystemReport$50(Options)
-- String lambda$fillSystemReport$51(LanguageManager)
-- Style lambda$debugClientMetricsStart$31(Style)
-- Style lambda$grabHugeScreenshot$55(Style)
-- Style lambda$grabPanoramixScreenshot$54(Style)
-- void clearResourcePacksOnError(Component)
-- void lambda$clearResourcePacksOnError$5(Component)
-- void lambda$createSearchTrees$20(List)
-- void lambda$debugClientMetricsStart$29(Consumer,double,int)
-- void lambda$debugClientMetricsStart$30(ProfileResults)
-- void lambda$debugClientMetricsStart$32(Component)
-- void lambda$debugClientMetricsStart$33(Path)
-- void lambda$debugClientMetricsStart$34(List)
-- void lambda$debugClientMetricsStart$35(Path)
-- void lambda$debugClientMetricsStart$36(CompletableFuture)
-- void lambda$debugClientMetricsStart$37(ProfileResults)
-- void lambda$debugClientMetricsStart$38(ProfileResults)
-- void lambda$doWorldLoad$44(Component)
-- void lambda$grabPanoramixScreenshot$53(Component)
-- void lambda$new$2()
-- void lambda$new$3(Optional)
-- void lambda$new$4(GameConfig,boolean)
-- void lambda$openChatScreen$26(boolean)
-- void lambda$reloadResourcePacks$23(Throwable)
-- void lambda$reloadResourcePacks$24(CompletableFuture)
-- void lambda$reloadResourcePacks$25(Optional)
-- void lambda$runTick$27(CompletableFuture)
-- void lambda$runTick$28(TimerQuery)
-- void lambda$tick$39()
-- void onGameLoadFinished()
-- void onResourceLoadFinished()
-- void rollbackResourcePacks(Throwable)
-- void setInitialScreen(GameConfig$QuickPlayData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen$SlotWrapper</summary>
-
-```diff
-+ void setByPlayer(ItemStack)
-- void setByPlayer(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.AbuseReportSender$Services</summary>
-
-```diff
-+ CompletableFuture send(AbuseReport)
-+ Unit lambda$send$0(ReportType)
-- CompletableFuture send(AbuseReport)
-- Unit lambda$send$0(AbuseReport)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.MeleeAttackGoal</summary>
-
-```diff
-+ void checkAndPerformAttack(LivingEntity)
-- double getAttackReachSqr(LivingEntity)
-- void checkAndPerformAttack(LivingEntity,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Spider$SpiderAttackGoal</summary>
-
-```diff
-- double getAttackReachSqr(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.animation.AnimationChannel
@@ -7016,2589 +5998,205 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
 
 ```diff
-+ AABB rowBounds
-+ int count
+- WorldTemplate get(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-- SampleLogger tickTimeLogger
-+ void logTickTime(long)
-- SampleLogger getTickTimeLogger()
++ boolean isNameBanned()
++ boolean lambda$createSearchTrees$13(String)
+- boolean lambda$createSearchTrees$15(String)
++ boolean lambda$createSearchTrees$21(String)
+- boolean lambda$createSearchTrees$7(String)
+- boolean lambda$tick$40()
++ boolean lambda$tick$46()
+- boolean shouldRenderFpsPie()
+- boolean shouldShowBanNotice()
+- ChunkProgressListener lambda$doWorldLoad$41(int)
++ ChunkProgressListener lambda$doWorldLoad$47(int)
++ CompletableFuture reloadResourcePacks(boolean,Minecraft$GameLoadCookie)
+- CompletableFuture reloadResourcePacks(boolean)
+- CompletionStage lambda$delayTextureReload$52(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$58(CompletableFuture)
+- CrashReport lambda$delayCrash$21(CrashReport)
++ CrashReport lambda$delayCrash$27(CrashReport)
+- CrashReport lambda$delayCrashRaw$22(CrashReport)
++ CrashReport lambda$delayCrashRaw$28(CrashReport)
++ DebugScreenOverlay getDebugOverlay()
+- GameProfile lambda$new$1()
+- IntegratedServer lambda$doWorldLoad$42(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ IntegratedServer lambda$doWorldLoad$48(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ ProfileResult lambda$new$1()
+- RefreshableSearchTree lambda$createSearchTrees$10(List)
+- RefreshableSearchTree lambda$createSearchTrees$12(List)
++ RefreshableSearchTree lambda$createSearchTrees$16(List)
++ RefreshableSearchTree lambda$createSearchTrees$18(List)
+- RefreshableSearchTree lambda$createSearchTrees$19(List)
++ RefreshableSearchTree lambda$createSearchTrees$25(List)
+- ResourceLocation lambda$createSearchTrees$17(RecipeCollection,Recipe)
++ ResourceLocation lambda$createSearchTrees$23(RecipeCollection,Recipe)
++ Runnable buildInitialScreens(Minecraft$GameLoadCookie)
+- SampleLogger getFrameTimeLogger()
++ Screen lambda$addInitialScreens$10(GameProfile,Runnable)
++ Screen lambda$addInitialScreens$7(Runnable)
++ Screen lambda$addInitialScreens$9(BanDetails,Runnable)
+- Stream lambda$createSearchTrees$11(ItemStack)
+- Stream lambda$createSearchTrees$13(RecipeCollection,Recipe)
++ Stream lambda$createSearchTrees$14(ItemStack)
++ Stream lambda$createSearchTrees$15(ItemStack)
+- Stream lambda$createSearchTrees$16(RecipeCollection)
++ Stream lambda$createSearchTrees$17(ItemStack)
+- Stream lambda$createSearchTrees$18(RecipeCollection)
++ Stream lambda$createSearchTrees$19(RecipeCollection,Recipe)
++ Stream lambda$createSearchTrees$22(RecipeCollection)
++ Stream lambda$createSearchTrees$24(RecipeCollection)
+- Stream lambda$createSearchTrees$8(ItemStack)
+- Stream lambda$createSearchTrees$9(ItemStack)
++ String lambda$createSearchTrees$12(Component)
+- String lambda$createSearchTrees$14(Component)
++ String lambda$createSearchTrees$20(Component)
+- String lambda$createSearchTrees$6(Component)
+- String lambda$doWorldLoad$43(WorldStem)
++ String lambda$doWorldLoad$49(WorldStem)
+- String lambda$fillSystemReport$45(String)
+- String lambda$fillSystemReport$46(Minecraft)
+- String lambda$fillSystemReport$47()
+- String lambda$fillSystemReport$48()
+- String lambda$fillSystemReport$49()
+- String lambda$fillSystemReport$50(Options)
+- String lambda$fillSystemReport$51(LanguageManager)
++ String lambda$fillSystemReport$51(String)
++ String lambda$fillSystemReport$52(Minecraft)
++ String lambda$fillSystemReport$53()
++ String lambda$fillSystemReport$54()
++ String lambda$fillSystemReport$55()
++ String lambda$fillSystemReport$56(Options)
++ String lambda$fillSystemReport$57(LanguageManager)
+- Style lambda$debugClientMetricsStart$31(Path,Style)
++ Style lambda$debugClientMetricsStart$37(Path,Style)
+- Style lambda$grabHugeScreenshot$55(File,Style)
++ Style lambda$grabHugeScreenshot$61(File,Style)
+- Style lambda$grabPanoramixScreenshot$54(File,Style)
++ Style lambda$grabPanoramixScreenshot$60(File,Style)
++ void addInitialScreens(List)
++ void clearResourcePacksOnError(Throwable,Component,Minecraft$GameLoadCookie)
+- void clearResourcePacksOnError(Throwable,Component)
++ void lambda$addInitialScreens$8(Runnable,boolean)
++ void lambda$buildInitialScreens$5(Minecraft$GameLoadCookie)
++ void lambda$buildInitialScreens$6(Screen)
++ void lambda$clearResourcePacksOnError$11(Component)
+- void lambda$clearResourcePacksOnError$5(Component)
+- void lambda$createSearchTrees$20(List)
++ void lambda$createSearchTrees$26(List)
+- void lambda$debugClientMetricsStart$29(Consumer,double,int)
+- void lambda$debugClientMetricsStart$30(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$32(Consumer,Component)
+- void lambda$debugClientMetricsStart$33(Consumer,Path)
+- void lambda$debugClientMetricsStart$34(SystemReport,Consumer,List)
++ void lambda$debugClientMetricsStart$35(Consumer,double,int)
+- void lambda$debugClientMetricsStart$35(Consumer,Path)
+- void lambda$debugClientMetricsStart$36(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$36(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$37(ProfileResults)
++ void lambda$debugClientMetricsStart$38(Consumer,Component)
+- void lambda$debugClientMetricsStart$38(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$39(Consumer,Path)
++ void lambda$debugClientMetricsStart$40(SystemReport,Consumer,List)
++ void lambda$debugClientMetricsStart$41(Consumer,Path)
++ void lambda$debugClientMetricsStart$42(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$43(ProfileResults)
++ void lambda$debugClientMetricsStart$44(Consumer,ProfileResults)
+- void lambda$doWorldLoad$44(Component)
++ void lambda$doWorldLoad$50(Component)
+- void lambda$grabPanoramixScreenshot$53(Component)
++ void lambda$grabPanoramixScreenshot$59(Component)
+- void lambda$new$2()
++ void lambda$new$2(Minecraft$GameLoadCookie,Throwable)
++ void lambda$new$3(Minecraft$GameLoadCookie)
+- void lambda$new$3(Optional)
++ void lambda$new$4(Minecraft$GameLoadCookie,Optional)
+- void lambda$new$4(RealmsClient,ReloadInstance,GameConfig,boolean)
+- void lambda$openChatScreen$26(boolean)
++ void lambda$openChatScreen$32(boolean)
+- void lambda$reloadResourcePacks$23(boolean,Throwable)
+- void lambda$reloadResourcePacks$24(CompletableFuture)
+- void lambda$reloadResourcePacks$25(boolean,CompletableFuture,Optional)
++ void lambda$reloadResourcePacks$29(boolean,Minecraft$GameLoadCookie,Throwable)
++ void lambda$reloadResourcePacks$30(CompletableFuture,Minecraft$GameLoadCookie)
++ void lambda$reloadResourcePacks$31(boolean,Minecraft$GameLoadCookie,CompletableFuture,Optional)
+- void lambda$runTick$27(CompletableFuture)
+- void lambda$runTick$28(TimerQuery)
++ void lambda$runTick$33(CompletableFuture)
++ void lambda$runTick$34(TimerQuery)
+- void lambda$tick$39()
++ void lambda$tick$45()
+- void onGameLoadFinished()
++ void onGameLoadFinished(Minecraft$GameLoadCookie)
+- void onResourceLoadFinished()
++ void onResourceLoadFinished(Minecraft$GameLoadCookie)
++ void rollbackResourcePacks(Throwable,Minecraft$GameLoadCookie)
+- void rollbackResourcePacks(Throwable)
+- void setInitialScreen(RealmsClient,ReloadInstance,GameConfig$QuickPlayData)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen$SlotWrapper</summary>
 
 ```diff
-+ AABB getHitbox()
-- Vec3 getMeleeAttackReferencePosition()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ double DEFAULT_ATTACK_REACH
-+ AABB getAttackBoundingBox()
-- double getMeleeAttackRangeSqr(LivingEntity)
-- double getPerceivedTargetDistanceSquareForMeleeAttack(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
-
-```diff
-- double getMeleeAttackRangeSqr(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
-
-```diff
-+ void setByPlayer(ItemStack)
++ void setByPlayer(ItemStack,ItemStack)
 - void setByPlayer(ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.armortrim.TrimPattern</summary>
+<details><summary>net.minecraft.client.multiplayer.chat.report.AbuseReportSender$Services</summary>
 
 ```diff
-+ boolean decal
-+ boolean decal()
-+ void <init>(Component,boolean)
-- void <init>(Component)
+- CompletableFuture send(UUID,AbuseReport)
++ CompletableFuture send(UUID,ReportType,AbuseReport)
++ Unit lambda$send$0(UUID,AbuseReport,ReportType)
+- Unit lambda$send$0(UUID,AbuseReport)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.MeleeAttackGoal</summary>
 
 ```diff
-+ SoundType SPONGE
-+ SoundType WET_SPONGE
+- double getAttackReachSqr(LivingEntity)
+- void checkAndPerformAttack(LivingEntity,double)
++ void checkAndPerformAttack(LivingEntity)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.entity.monster.Spider$SpiderAttackGoal</summary>
 
+```diff
+- double getAttackReachSqr(LivingEntity)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.world.entity.ai.attributes.Attribute
@@ -10067,13 +6665,165 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
+- SampleLogger getTickTimeLogger()
++ void logTickTime(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ AABB getHitbox()
+- Vec3 getMeleeAttackReferencePosition()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ AABB getAttackBoundingBox()
+- double getMeleeAttackRangeSqr(LivingEntity)
+- double getPerceivedTargetDistanceSquareForMeleeAttack(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
+
+```diff
+- double getMeleeAttackRangeSqr(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
+
+```diff
++ void setByPlayer(ItemStack,ItemStack)
+- void setByPlayer(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.armortrim.TrimPattern</summary>
+
+```diff
++ boolean decal()
++ void <init>(ResourceLocation,Holder,Component,boolean)
+- void <init>(ResourceLocation,Holder,Component)
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sponge.break
++ minecraft:block.sponge.fall
++ minecraft:block.sponge.hit
++ minecraft:block.sponge.place
++ minecraft:block.sponge.step
++ minecraft:block.wet_sponge.break
++ minecraft:block.wet_sponge.fall
++ minecraft:block.wet_sponge.hit
++ minecraft:block.wet_sponge.place
++ minecraft:block.wet_sponge.step
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/flowers.json</summary>
+
+```diff
++ minecraft:chorus_flower
++ minecraft:spore_blossom
+```
+
+</details>
+
+
+<details><summary>items/flowers.json</summary>
+
+```diff
++ minecraft:chorus_flower
++ minecraft:spore_blossom
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ gui.abuseReport.comments
++ gui.abuseReport.describe
++ gui.abuseReport.discard.content
++ gui.abuseReport.discard.discard
++ gui.abuseReport.discard.draft
++ gui.abuseReport.discard.return
++ gui.abuseReport.discard.title
++ gui.abuseReport.draft.content
++ gui.abuseReport.draft.discard
++ gui.abuseReport.draft.edit
++ gui.abuseReport.draft.quittotitle.content
++ gui.abuseReport.draft.quittotitle.title
++ gui.abuseReport.draft.title
++ gui.abuseReport.message
++ gui.abuseReport.more_comments
++ gui.abuseReport.name.reporting
++ gui.abuseReport.name.title
++ gui.abuseReport.observed_what
++ gui.abuseReport.read_info
++ gui.abuseReport.reason.generic
++ gui.abuseReport.reason.generic.description
++ gui.abuseReport.report_sent_msg
++ gui.abuseReport.select_reason
++ gui.abuseReport.send
++ gui.abuseReport.send.comment_too_long
++ gui.abuseReport.send.no_reason
++ gui.abuseReport.skin.title
++ gui.abuseReport.title
++ gui.abuseReport.type.chat
++ gui.abuseReport.type.name
++ gui.abuseReport.type.skin
++ gui.banned.name.description
++ gui.banned.name.title
++ gui.banned.skin.description
++ gui.banned.skin.title
++ options.accessibility.narrator_hotkey
++ options.accessibility.narrator_hotkey.tooltip
++ title.multiplayer.disabled.banned.name
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:5.0.46
++ com.mojang:authlib:5.0.47
+```
+
+</details>

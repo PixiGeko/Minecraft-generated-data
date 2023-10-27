@@ -1,2053 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19.3-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.19.3-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2022-11-22T13:59:37+00:00</td></tr>
-<tr><th>SHA1</th><td>817ef24139059322cda8a61c8c7f6ff7629758d4</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/817ef24139059322cda8a61c8c7f6ff7629758d4/1.19.3-pre1.json">https://piston-meta.mojang.com/v1/packages/817ef24139059322cda8a61c8c7f6ff7629758d4/1.19.3-pre1.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>d35d8da23a377d7db6fccca292ae7b52368c7e01</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/d35d8da23a377d7db6fccca292ae7b52368c7e01/1.19.3-pre1.json">https://piston-meta.mojang.com/v1/packages/d35d8da23a377d7db6fccca292ae7b52368c7e01/1.19.3-pre1.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/046fee78cd174105cb9b958a8459c0405ab19959/server.jar">https://piston-data.mojang.com/v1/objects/046fee78cd174105cb9b958a8459c0405ab19959/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b2cf842b08789a8ac4748969c2cec2eae48b6101/server.txt">https://piston-data.mojang.com/v1/objects/b2cf842b08789a8ac4748969c2cec2eae48b6101/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/57a23e575a34f24aa84f3d54fbf4ddf9940a2c24/client.jar">https://piston-data.mojang.com/v1/objects/57a23e575a34f24aa84f3d54fbf4ddf9940a2c24/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a20bf6c75fb17e98812e01828c0ef47bf22e1c88/client.txt">https://piston-data.mojang.com/v1/objects/a20bf6c75fb17e98812e01828c0ef47bf22e1c88/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w46a">22w46a</a>
-## Commands
 
-<details><summary>fillbiome.txt</summary>
+# Mappings
 
-```diff
-- fillbiome <from: block_pos> <to: block_pos> <biome: resource>
-+ fillbiome <from: block_pos> <to: block_pos> <biome: resource> replace <filter: resource_or_tag>
-```
+### Client
 
-</details>
 
-## Misc
 
-<details><summary>dimensions.txt</summary>
 
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.3-pre1\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntitySubPredicate$Types</summary>
-
-```diff
-+ EntityVariantPredicate AXOLOTL
-+ EntityVariantPredicate BOAT
-+ EntityVariantPredicate FOX
-+ EntityVariantPredicate HORSE
-+ EntityVariantPredicate LLAMA
-+ EntityVariantPredicate MOOSHROOM
-+ EntityVariantPredicate PAINTING
-+ EntityVariantPredicate PARROT
-+ EntityVariantPredicate RABBIT
-+ EntityVariantPredicate TROPICAL_FISH
-+ EntityVariantPredicate VILLAGER
-+ Optional lambda$static$10(Entity)
-+ Optional lambda$static$11(Entity)
-+ Optional lambda$static$12(Entity)
-+ Optional lambda$static$13(Entity)
-+ Optional lambda$static$3(Entity)
-+ Optional lambda$static$4(Entity)
-+ Optional lambda$static$5(Entity)
-+ Optional lambda$static$6(Entity)
-+ Optional lambda$static$7(Entity)
-+ Optional lambda$static$8(Entity)
-+ Optional lambda$static$9(Entity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityVariantPredicate$1</summary>
-
-```diff
-+ JsonParseException lambda$serializeCustomData$1(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PauseScreen</summary>
-
-```diff
-+ Component ADVANCEMENTS
-+ Component DISCONNECT
-+ Component GAME
-+ Component OPTIONS
-+ Component PAUSED
-+ Component PLAYER_REPORTING
-+ Component REPORT_BUGS
-+ Component RETURN_TO_GAME
-+ Component RETURN_TO_MENU
-+ Component SAVING_LEVEL
-+ Component SEND_FEEDBACK
-+ Component SHARE_TO_LAN
-+ Component STATS
-+ int BUTTON_PADDING
-+ int BUTTON_WIDTH_FULL
-+ int BUTTON_WIDTH_HALF
-+ int COLUMNS
-+ int MENU_PADDING_TOP
-+ Button openLinkButton(String)
-+ Button openScreenButton(Supplier)
-+ Screen lambda$createPauseMenu$1()
-+ Screen lambda$createPauseMenu$2()
-+ Screen lambda$createPauseMenu$3()
-+ Screen lambda$createPauseMenu$4()
-+ Screen lambda$openLinkButton$8(String)
-+ void <clinit>()
-+ void lambda$createPauseMenu$5(Button)
-+ void lambda$openLinkButton$7(String,boolean)
-+ void lambda$openScreenButton$6(Button)
-- void lambda$createPauseMenu$1(Button)
-- void lambda$createPauseMenu$10(Button)
-- void lambda$createPauseMenu$2(Button)
-- void lambda$createPauseMenu$3(String,boolean)
-- void lambda$createPauseMenu$4(Button)
-- void lambda$createPauseMenu$5(boolean)
-- void lambda$createPauseMenu$6(Button)
-- void lambda$createPauseMenu$7(Button)
-- void lambda$createPauseMenu$8(Button)
-- void lambda$createPauseMenu$9(Button)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
-
-```diff
-+ int PORT_HIGHER_BOUND
-+ int PORT_LOWER_BOUND
-+ void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.LlamaRenderer</summary>
-
-```diff
-+ ResourceLocation BROWN
-+ ResourceLocation CREAMY
-+ ResourceLocation GRAY
-+ ResourceLocation WHITE
-- ResourceLocation[] LLAMA_LOCATIONS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.ParrotOnShoulderLayer</summary>
-
-```diff
-+ void lambda$render$1(EntityType)
-- void lambda$render$1(EntityType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
-
-```diff
-+ boolean lambda$removeAllGoals$0(WrappedGoal)
-+ boolean lambda$removeGoal$2(WrappedGoal)
-+ void removeAllGoals(Predicate)
-- boolean lambda$removeGoal$0(WrappedGoal)
-- void removeAllGoals()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.FlyingPathNavigation</summary>
-
-```diff
-+ boolean canMoveDirectly(Vec3)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
-
-```diff
-+ float STUCK_THRESHOLD_DISTANCE_FACTOR
-+ int STUCK_CHECK_INTERVAL
-+ boolean isClearForMovementBetween(Vec3,boolean)
-- boolean isClearForMovementBetween(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ Fox$Type getVariant()
-+ Object getVariant()
-+ void setVariant(Fox$Type)
-+ void setVariant(Object)
-- Fox$Type getFoxType()
-- void setFoxType(Fox$Type)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox$Type</summary>
-
-```diff
-+ StringRepresentable$EnumCodec CODEC
-- Map BY_NAME
-+ String getSerializedName()
-- Fox$Type lambda$static$1(Fox$Type)
-- String getName()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
-
-```diff
-+ MushroomCow$MushroomType getVariant()
-+ Object getVariant()
-+ void setVariant(MushroomCow$MushroomType)
-+ void setVariant(Object)
-- MushroomCow$MushroomType getMushroomType()
-- void setMushroomType(MushroomCow$MushroomType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
-
-```diff
-- int VARIANTS
-+ Object getVariant()
-+ Parrot$Variant getVariant()
-+ void setVariant(Object)
-+ void setVariant(Parrot$Variant)
-- int getVariant()
-- void setVariant(int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.TropicalFish</summary>
-
-```diff
-+ List COMMON_VARIANTS
-- int BASE_LARGE
-- int BASE_SMALL
-- int BASES
-- int COLORS
-- int PATTERNS
-- int[] COMMON_VARIANTS
-- ResourceLocation[] BASE_TEXTURE_LOCATIONS
-- ResourceLocation[] PATTERN_A_TEXTURE_LOCATIONS
-- ResourceLocation[] PATTERN_B_TEXTURE_LOCATIONS
-+ DyeColor getBaseColor()
-+ DyeColor getPatternColor()
-+ int getPackedVariant()
-+ int packVariant(DyeColor)
-+ Object getVariant()
-+ TropicalFish$Pattern getPattern(int)
-+ TropicalFish$Pattern getVariant()
-+ void setPackedVariant(int)
-+ void setVariant(Object)
-+ void setVariant(TropicalFish$Pattern)
-- float[] getBaseColor()
-- float[] getPatternColor()
-- int calculateVariant(DyeColor)
-- int getBaseColorIdx(int)
-- int getBaseVariant()
-- int getBaseVariant(int)
-- int getPatternColorIdx(int)
-- int getPatternVariant(int)
-- int getVariant()
-- ResourceLocation getBaseTextureLocation()
-- ResourceLocation getPatternTextureLocation()
-- String getFishTypeName(int)
-- void setVariant(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
-
-```diff
-+ Object getVariant()
-+ void setVariant(Object)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl$Variant</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
-
-```diff
-+ Object getVariant()
-+ void setVariant(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.AmphibiousNodeEvaluator</summary>
-
-```diff
-- double getFloorLevel(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.renderer.entity.layers.package-info
@@ -5687,74 +3671,9 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.EntitySubPredicate$Types</summary>
 
 ```diff
-+ EntityVariantPredicate AXOLOTL
-+ EntityVariantPredicate BOAT
-+ EntityVariantPredicate FOX
-+ EntityVariantPredicate HORSE
-+ EntityVariantPredicate LLAMA
-+ EntityVariantPredicate MOOSHROOM
-+ EntityVariantPredicate PAINTING
-+ EntityVariantPredicate PARROT
-+ EntityVariantPredicate RABBIT
-+ EntityVariantPredicate TROPICAL_FISH
-+ EntityVariantPredicate VILLAGER
 + Optional lambda$static$10(Entity)
 + Optional lambda$static$11(Entity)
 + Optional lambda$static$12(Entity)
@@ -5771,1855 +3690,223 @@
 </details>
 
 
-
 <details><summary>net.minecraft.advancements.critereon.EntityVariantPredicate$1</summary>
 
 ```diff
-+ JsonParseException lambda$serializeCustomData$1(String)
++ JsonParseException lambda$serializeCustomData$1(Object,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.FillBiomeCommand</summary>
+<details><summary>net.minecraft.client.gui.screens.PauseScreen</summary>
 
 ```diff
-+ BiomeResolver makeResolver(Predicate)
-+ boolean lambda$register$2(Holder)
-+ Holder lambda$makeResolver$5(Climate$Sampler)
-+ int fill(Predicate)
-+ int lambda$register$3(CommandContext)
-+ int lambda$register$4(CommandContext)
-- BiomeResolver makeResolver(Holder)
-- Holder lambda$makeResolver$3(Climate$Sampler)
-- int fill(Holder$Reference)
-- int lambda$register$2(CommandContext)
++ Button openLinkButton(Component,String)
++ Button openScreenButton(Component,Supplier)
++ Screen lambda$createPauseMenu$1()
++ Screen lambda$createPauseMenu$2()
++ Screen lambda$createPauseMenu$3()
++ Screen lambda$createPauseMenu$4()
++ Screen lambda$openLinkButton$8(String)
++ void <clinit>()
+- void lambda$createPauseMenu$1(Button)
+- void lambda$createPauseMenu$10(Button)
+- void lambda$createPauseMenu$2(Button)
+- void lambda$createPauseMenu$3(String,boolean)
+- void lambda$createPauseMenu$4(String,Button)
+- void lambda$createPauseMenu$5(boolean)
++ void lambda$createPauseMenu$5(Button)
+- void lambda$createPauseMenu$6(Button)
+- void lambda$createPauseMenu$7(Button)
+- void lambda$createPauseMenu$8(Button)
+- void lambda$createPauseMenu$9(Button)
++ void lambda$openLinkButton$7(String,boolean)
++ void lambda$openScreenButton$6(Supplier,Button)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
+<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
 
 ```diff
-+ boolean lambda$removeFreeWill$3(Goal)
-+ void lambda$removeAfterChangingDimensions$4(ItemStack)
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.ParrotOnShoulderLayer</summary>
+
+```diff
++ void lambda$render$1(PoseStack,boolean,Player,CompoundTag,MultiBufferSource,int,float,float,float,float,EntityType)
+- void lambda$render$1(PoseStack,boolean,Player,MultiBufferSource,CompoundTag,int,float,float,float,float,EntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
+
+```diff
++ boolean lambda$removeAllGoals$0(Predicate,WrappedGoal)
+- boolean lambda$removeGoal$0(Goal,WrappedGoal)
++ boolean lambda$removeGoal$2(Goal,WrappedGoal)
+- void removeAllGoals()
 + void removeAllGoals(Predicate)
-- void lambda$removeAfterChangingDimensions$3(ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit$RabbitGroupData</summary>
+<details><summary>net.minecraft.world.entity.ai.navigation.FlyingPathNavigation</summary>
 
 ```diff
-+ Rabbit$Variant variant
-- int rabbitType
-+ void <init>(Rabbit$Variant)
-- void <init>(int)
++ boolean canMoveDirectly(Vec3,Vec3)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.animal.TropicalFish$TropicalFishGroupData</summary>
+<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
 
 ```diff
-+ TropicalFish$Variant variant
-- int base
-- int baseColor
-- int pattern
-- int patternColor
-+ void <init>(TropicalFish$Variant)
-- void <init>(TropicalFish,int,int,int,int)
++ boolean isClearForMovementBetween(Mob,Vec3,Vec3,boolean)
+- boolean isClearForMovementBetween(Mob,Vec3,Vec3)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
 
 ```diff
-+ double RIDING_OFFSET
-+ double getMyRidingOffset()
+- Fox$Type getFoxType()
++ Fox$Type getVariant()
++ Object getVariant()
+- void setFoxType(Fox$Type)
++ void setVariant(Fox$Type)
++ void setVariant(Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
+<details><summary>net.minecraft.world.entity.animal.Fox$Type</summary>
 
 ```diff
-+ float ZOMBIFIED_PIGLIN_BABY_EYE_HEIGHT_ADJUSTMENT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Boat$Type</summary>
-
-```diff
-+ StringRepresentable$EnumCodec CODEC
+- Fox$Type lambda$static$1(Fox$Type)
+- String getName()
 + String getSerializedName()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeColor</summary>
+<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
 
 ```diff
-+ StringRepresentable$EnumCodec CODEC
+- MushroomCow$MushroomType getMushroomType()
++ MushroomCow$MushroomType getVariant()
++ Object getVariant()
+- void setMushroomType(MushroomCow$MushroomType)
++ void setVariant(MushroomCow$MushroomType)
++ void setVariant(Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChiseledBookShelfBlock</summary>
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
 
 ```diff
-+ void addBook(ItemStack,int)
-+ void removeBook(ChiseledBookShelfBlockEntity,int)
-- InteractionResult tryAddBook(ItemStack,int)
-- InteractionResult tryRemoveBook(ChiseledBookShelfBlockEntity,int)
+- int getVariant()
++ Object getVariant()
++ Parrot$Variant getVariant()
+- void setVariant(int)
++ void setVariant(Object)
++ void setVariant(Parrot$Variant)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+<details><summary>net.minecraft.world.entity.animal.TropicalFish</summary>
 
 ```diff
-+ SoundEvent getCustomSoundEvent(BlockPos)
-- boolean hasMobHead(BlockState)
++ DyeColor getBaseColor()
++ DyeColor getPatternColor()
+- float[] getBaseColor()
+- float[] getPatternColor()
+- int calculateVariant(TropicalFish$Pattern,DyeColor,DyeColor)
+- int getBaseColorIdx(int)
+- int getBaseVariant()
+- int getBaseVariant(int)
++ int getPackedVariant()
+- int getPatternColorIdx(int)
+- int getPatternVariant(int)
+- int getVariant()
++ int packVariant(TropicalFish$Pattern,DyeColor,DyeColor)
++ Object getVariant()
+- ResourceLocation getBaseTextureLocation()
+- ResourceLocation getPatternTextureLocation()
+- String getFishTypeName(int)
++ TropicalFish$Pattern getPattern(int)
++ TropicalFish$Pattern getVariant()
++ void setPackedVariant(int)
+- void setVariant(int)
++ void setVariant(Object)
++ void setVariant(TropicalFish$Pattern)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity</summary>
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
 
 ```diff
-+ int lastInteractedSlot
-+ int getLastInteractedSlot()
-- ClientboundBlockEntityDataPacket getUpdatePacket()
-- CompoundTag getUpdateTag()
-- Packet getUpdatePacket()
++ Object getVariant()
++ void setVariant(Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl$Variant</summary>
 
 ```diff
-+ ResourceLocation noteBlockSound
-+ String TAG_NOTE_BLOCK_SOUND
-+ ResourceLocation getNoteBlockSound()
++ String getSerializedName()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
+<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
 
 ```diff
-- IntegerProperty CHISELED_BOOKSHELF_LAST_INTERACTION_BOOK_SLOT
++ Object getVariant()
++ void setVariant(Object)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.pathfinder.AmphibiousNodeEvaluator</summary>
+
+```diff
+- double getFloorLevel(BlockPos)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.world.entity.ai.attributes.Attribute
@@ -9330,13 +5617,166 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.EntitySubPredicate$Types</summary>
+
+```diff
++ Optional lambda$static$10(Entity)
++ Optional lambda$static$11(Entity)
++ Optional lambda$static$12(Entity)
++ Optional lambda$static$13(Entity)
++ Optional lambda$static$3(Entity)
++ Optional lambda$static$4(Entity)
++ Optional lambda$static$5(Entity)
++ Optional lambda$static$6(Entity)
++ Optional lambda$static$7(Entity)
++ Optional lambda$static$8(Entity)
++ Optional lambda$static$9(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityVariantPredicate$1</summary>
+
+```diff
++ JsonParseException lambda$serializeCustomData$1(Object,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.FillBiomeCommand</summary>
+
+```diff
+- BiomeResolver makeResolver(ChunkAccess,BoundingBox,Holder)
++ BiomeResolver makeResolver(MutableInt,ChunkAccess,BoundingBox,Holder,Predicate)
++ boolean lambda$register$2(Holder)
+- Holder lambda$makeResolver$3(BoundingBox,Holder,ChunkAccess,int,int,int,Climate$Sampler)
++ Holder lambda$makeResolver$5(ChunkAccess,BoundingBox,Predicate,MutableInt,Holder,int,int,int,Climate$Sampler)
++ int fill(CommandSourceStack,BlockPos,BlockPos,Holder$Reference,Predicate)
+- int fill(CommandSourceStack,BlockPos,BlockPos,Holder$Reference)
+- int lambda$register$2(CommandContext)
++ int lambda$register$3(CommandContext)
++ int lambda$register$4(CommandContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ boolean lambda$removeFreeWill$3(Goal)
+- void lambda$removeAfterChangingDimensions$3(ItemStack)
++ void lambda$removeAfterChangingDimensions$4(ItemStack)
++ void removeAllGoals(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit$RabbitGroupData</summary>
+
+```diff
+- void <init>(int)
++ void <init>(Rabbit$Variant)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.TropicalFish$TropicalFishGroupData</summary>
+
+```diff
+- void <init>(TropicalFish,int,int,int,int)
++ void <init>(TropicalFish,TropicalFish$Variant)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+
+```diff
++ double getMyRidingOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.Boat$Type</summary>
+
+```diff
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChiseledBookShelfBlock</summary>
+
+```diff
+- InteractionResult tryAddBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack,int)
+- InteractionResult tryRemoveBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,int)
++ void addBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack,int)
++ void removeBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+
+```diff
+- boolean hasMobHead(BlockState)
++ SoundEvent getCustomSoundEvent(NoteBlockInstrument,Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity</summary>
+
+```diff
+- ClientboundBlockEntityDataPacket getUpdatePacket()
+- CompoundTag getUpdateTag()
++ int getLastInteractedSlot()
+- Packet getUpdatePacket()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
++ ResourceLocation getNoteBlockSound()
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>fillbiome.txt</summary>
+
+```diff
+- fillbiome <from: block_pos> <to: block_pos> <biome: resource>
++ fillbiome <from: block_pos> <to: block_pos> <biome: resource> replace <filter: resource_or_tag>
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.fillbiome.success.count
++ lanServer.port.invalid.new
++ lanServer.port.unavailable.new
+```
+
+</details>

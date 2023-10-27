@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w21a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w21a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-05-20T12:07:18+00:00</td></tr>
@@ -10,4331 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a7eef9f3b307821d130bf2e7cfcb4c7b49107c88/server.txt">https://piston-data.mojang.com/v1/objects/a7eef9f3b307821d130bf2e7cfcb4c7b49107c88/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/96efb012b75620e881d5b97deb6fd9f02caab4e5/client.jar">https://piston-data.mojang.com/v1/objects/96efb012b75620e881d5b97deb6fd9f02caab4e5/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/2e8b706ba47e95ab24565c7d6a488eb7e75ce564/client.txt">https://piston-data.mojang.com/v1/objects/2e8b706ba47e95ab24565c7d6a488eb7e75ce564/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w20b">20w20b</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
--  minecraft/textures/gui/title/mojang.png
-+  minecraft/textures/gui/title/mojangstudios.png
-+  minecraft/textures/item/nether_sprouts.png
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>list</summary>
 
-```diff
-- biome_source_type.txt
-- dimension_type.txt
-+ biome_source.txt
-+ chunk_generator.txt
-```
-
-</details>
-
-<details><summary>block_state_provider_type.txt</summary>
-
-```diff
-+ minecraft:rotated_block_provider
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-- minecraft:pillager_outpost
-- minecraft:mineshaft
-- minecraft:woodland_mansion
-- minecraft:jungle_temple
-- minecraft:desert_pyramid
-- minecraft:igloo
-- minecraft:ruined_portal
-- minecraft:shipwreck
-- minecraft:swamp_hut
-- minecraft:stronghold
-- minecraft:ocean_monument
-- minecraft:ocean_ruin
-- minecraft:nether_bridge
-- minecraft:end_city
-- minecraft:buried_treasure
-- minecraft:village
-- minecraft:nether_fossil
-- minecraft:bastion_remnant
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.donkey.eat
-+ minecraft:entity.fox.teleport
-+ minecraft:entity.mule.angry
-+ minecraft:entity.mule.eat
-+ minecraft:entity.parrot.imitate.hoglin
-+ minecraft:entity.parrot.imitate.piglin
-+ minecraft:entity.parrot.imitate.zoglin
-```
-
-</details>
-
-## Commands
-
-<details><summary>locate.txt</summary>
-
-```diff
-- locate Bastion_Remnant
-- locate Buried_Treasure
-- locate Desert_Pyramid
-- locate EndCity
-- locate Fortress
-- locate Igloo
-- locate Jungle_Pyramid
-- locate Mansion
-- locate Mineshaft
-- locate Monument
-- locate Nether_Fossil
-- locate Ocean_Ruin
-- locate Pillager_Outpost
-- locate Ruined_Portal
-- locate Shipwreck
-- locate Stronghold
-- locate Swamp_Hut
-- locate Village
-+ locate bastion_remnant
-+ locate buried_treasure
-+ locate desert_pyramid
-+ locate endcity
-+ locate fortress
-+ locate igloo
-+ locate jungle_pyramid
-+ locate mansion
-+ locate mineshaft
-+ locate monument
-+ locate nether_fossil
-+ locate ocean_ruin
-+ locate pillager_outpost
-+ locate ruined_portal
-+ locate shipwreck
-+ locate stronghold
-+ locate swamp_hut
-+ locate village
-```
-
-</details>
-
-<details><summary>spreadplayers.txt</summary>
-
-```diff
-+ spreadplayers <center: vec2> <spreadDistance: float> <maxRange: float> under <maxHeight: integer> <respectTeams: bool> <targets: entity>
-```
-
-</details>
-
-## Tags
-
-<details><summary>blocks/prevent_mob_spawning_inside.json</summary>
-
-```diff
-- minecraft:wither_rose
-```
-
-</details>
-
-## Misc
-
-<details><summary>textures.txt</summary>
-
-```diff
-- gui/title/mojang.png
-+ gui/title/mojangstudios.png
-+ item/nether_sprouts.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:datafixerupper:2.0.24
-+ com.mojang:datafixerupper:3.0.25
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean CHECK_DATA_FIXER_SCHEMA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
-
-```diff
-+ ResourceKey from
-+ ResourceKey to
-- DimensionType from
-- DimensionType to
-+ boolean matches(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
-+ void <init>(ResourceKey)
-- boolean matches(DimensionType)
-- ChangeDimensionTrigger$TriggerInstance changedDimension(DimensionType)
-- ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(DimensionType)
-- ChangeDimensionTrigger$TriggerInstance changedDimensionTo(DimensionType)
-- void <init>(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
-
-```diff
-+ Logger LOGGER
-+ ResourceKey dimension
-- DimensionType dimension
-+ JsonSyntaxException lambda$fromJson$2(ResourceLocation)
-+ LocationPredicate inDimension(ResourceKey)
-+ ResourceKey lambda$fromJson$1(ResourceLocation)
-+ void <init>(FluidPredicate)
-+ void lambda$serializeToJson$0(JsonElement)
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-- LocationPredicate inDimension(DimensionType)
-- void <init>(FluidPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean allowsChat
-+ boolean allowsMultiplayer
-+ boolean allowsChat()
-+ boolean allowsMultiplayer()
-+ boolean isBlocked(UUID)
-+ void openChatScreen(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ void fillGradient(BufferBuilder,int,int,int,int,int,int,int)
-- void fillGradient(Matrix4f,int,int,int,int,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.chat.ChatListener</summary>
-
-```diff
-+ void handle(net.minecraft.network.chat.ChatType,net.minecraft.network.chat.Component,java.util.UUID)
-- void handle(net.minecraft.network.chat.ChatType,net.minecraft.network.chat.Component)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.chat.OverlayChatListener</summary>
-
-```diff
-+ void handle(UUID)
-- void handle(Component)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.Button</summary>
-
-```diff
-+ Button$OnTooltip NO_TOOLTIP
-+ Button$OnTooltip onTooltip
-+ void <clinit>()
-+ void <init>(Button$OnTooltip)
-+ void lambda$static$0(PoseStack,int,int)
-+ void renderButton(PoseStack,int,int,float)
-+ void renderToolTip(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-+ RegistryAccess registryAccess()
-+ void setGameTime(long)
-+ void tickTime()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSource$1</summary>
-
-```diff
-+ void sendMessage(UUID)
-- void sendMessage(Component)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
-
-```diff
-+ RegistryAccess registryAccess()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Codec CODEC
-+ BlockPos lambda$null$0(int[])
-+ DataResult lambda$static$1(IntStream)
-+ IntStream lambda$static$2(BlockPos)
-- BlockPos deserialize(Dynamic)
-- Object serialize(DynamicOps)
-- void lambda$deserialize$0(int[],int)
-- void lambda$deserialize$1(int[],int)
-- void lambda$deserialize$2(int[],int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction$Axis</summary>
-
-```diff
-+ Codec CODEC
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.core.GlobalPos</summary>
-
-```diff
-+ Codec CODEC
-+ ResourceKey dimension
-- DimensionType dimension
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ GlobalPos of(BlockPos)
-+ ResourceKey dimension()
-+ void <clinit>()
-+ void <init>(BlockPos)
-- DimensionType dimension()
-- GlobalPos lambda$null$0(BlockPos)
-- GlobalPos of(BlockPos)
-- GlobalPos of(Dynamic)
-- IllegalArgumentException lambda$of$2()
-- Object serialize(DynamicOps)
-- Optional lambda$of$1(DimensionType)
-- void <init>(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.SerializableUUID</summary>
-
-```diff
-+ Codec CODEC
-+ DataResult lambda$static$1(IntStream)
-+ IntStream lambda$static$2(SerializableUUID)
-+ SerializableUUID lambda$null$0(int[])
-+ SerializableUUID of(Dynamic)
-+ UUID readUUID(Dynamic)
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- Object serialize(UUID)
-- SerializableUUID of(Dynamic)
-- UUID readUUID(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Vec3i</summary>
-
-```diff
-+ Codec CODEC
-+ DataResult lambda$static$1(IntStream)
-+ IntStream lambda$static$2(Vec3i)
-+ Vec3i lambda$null$0(int[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.BlockParticleOption</summary>
-
-```diff
-+ BlockParticleOption lambda$codec$0(BlockState)
-+ BlockState lambda$codec$1(BlockParticleOption)
-+ Codec codec(ParticleType)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Float lambda$null$0(DustParticleOptions)
-+ Float lambda$null$1(DustParticleOptions)
-+ Float lambda$null$2(DustParticleOptions)
-+ Float lambda$null$3(DustParticleOptions)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.particles.ItemParticleOption</summary>
-
-```diff
-+ Codec codec(ParticleType)
-+ ItemParticleOption lambda$codec$0(ItemStack)
-+ ItemStack lambda$codec$1(ItemParticleOption)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.core.particles.ParticleType</summary>
-
-```diff
-+ Codec codec()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.Main</summary>
-
-```diff
-+ void forceUpgrade(BooleanSupplier)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ RegistryAccess$RegistryHolder registryHolder
-+ RegistryAccess registryAccess()
-+ ServerLevel getLevel(ResourceKey)
-+ void convertFromRegionFormatIfNeeded(LevelStorageSource$LevelStorageAccess)
-+ void sendMessage(UUID)
-+ void setInitialSpawn(ServerLevelData,boolean,boolean,boolean)
-- ServerLevel getLevel(DimensionType)
-- void ensureLevelConversion(BooleanSupplier)
-- void sendMessage(Component)
-- void setInitialSpawn(ServerLevelData,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LocateCommand</summary>
-
-```diff
-+ int lambda$register$1(CommandContext)
-+ int locate(StructureFeature)
-+ Style lambda$showLocateResult$2(Style)
-- int lambda$register$1(CommandContext)
-- int lambda$register$10(CommandContext)
-- int lambda$register$11(CommandContext)
-- int lambda$register$12(CommandContext)
-- int lambda$register$13(CommandContext)
-- int lambda$register$14(CommandContext)
-- int lambda$register$15(CommandContext)
-- int lambda$register$16(CommandContext)
-- int lambda$register$17(CommandContext)
-- int lambda$register$18(CommandContext)
-- int lambda$register$2(CommandContext)
-- int lambda$register$3(CommandContext)
-- int lambda$register$4(CommandContext)
-- int lambda$register$5(CommandContext)
-- int lambda$register$6(CommandContext)
-- int lambda$register$7(CommandContext)
-- int lambda$register$8(CommandContext)
-- int lambda$register$9(CommandContext)
-- int locate(String)
-- Style lambda$showLocateResult$19(Style)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SpreadPlayersCommand</summary>
-
-```diff
-+ double setPlayerPositions(SpreadPlayersCommand$Position[],int,boolean)
-+ int lambda$register$4(CommandContext)
-+ int spreadPlayers(Collection)
-+ void spreadPositions(SpreadPlayersCommand$Position[],boolean)
-- double setPlayerPositions(SpreadPlayersCommand$Position[],boolean)
-- int spreadPlayers(Collection)
-- void spreadPositions(SpreadPlayersCommand$Position[],boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedPlayerList</summary>
-
-```diff
-+ void <init>(PlayerDataStorage)
-- void <init>(PlayerDataStorage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ BlockPos END_SPAWN_POINT
-+ boolean tickTime
-+ EndDragonFight dragonFight
-+ List customSpawners
-- WanderingTraderSpawner wanderingTraderSpawner
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ EndDragonFight dragonFight()
-+ RegistryAccess registryAccess()
-+ void <init>(List,boolean)
-+ void lambda$makeObsidianPlatform$16(BlockPos)
-+ void lambda$makeObsidianPlatform$17(BlockPos)
-+ void makeObsidianPlatform(ServerLevel)
-+ void setDayTime(long)
-+ void tickCustomSpawners(boolean,boolean)
-+ void tickTime()
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- BlockPos getDimensionSpecificSpawn()
-- void <init>(ChunkGenerator,boolean,long)
-- void setGameTime(long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
-
-```diff
-+ void sendMessage(UUID)
-- void sendMessage(Component)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.sounds.Music</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$3(Music)
-+ Integer lambda$null$1(Music)
-+ Integer lambda$null$2(Music)
-+ SoundEvent lambda$null$0(Music)
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.sounds.SoundEvent</summary>
-
-```diff
-+ Codec CODEC
-+ ResourceLocation lambda$static$0(SoundEvent)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.AddNewChoices</summary>
-
-```diff
-+ Function lambda$cap$1(DynamicOps)
-- Function lambda$cap$1(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.AdvancementsRenameFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Pair lambda$null$1(Pair)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Pair lambda$null$1(Pair)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BedBlockEntityInjecter</summary>
-
-```diff
-+ Function lambda$cap$1(DynamicOps)
-+ Integer lambda$null$2(Dynamic)
-- Function lambda$cap$1(DynamicOps)
-- Integer lambda$null$2(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BitStorageAlignFix</summary>
-
-```diff
-+ Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$null$7(Dynamic)
-+ Dynamic lambda$null$8(Dynamic)
-+ Dynamic lambda$updateHeightmaps$5(Dynamic)
-+ Dynamic updateBitStorage(Dynamic,int,int)
-+ Pair lambda$null$3(Pair)
-- Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$null$7(Dynamic)
-- Dynamic lambda$null$8(Dynamic)
-- Dynamic lambda$updateHeightmaps$5(Dynamic)
-- Dynamic updateBitStorage(Dynamic,int,int)
-- Pair lambda$null$3(Pair)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityIdFix</summary>
-
-```diff
-+ Function lambda$makeRule$3(DynamicOps)
-- Function lambda$makeRule$3(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityKeepPacked</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix</summary>
-
-```diff
-+ Dynamic lambda$fix$0(Dynamic)
-+ Dynamic updateLine(String)
-- Dynamic lambda$fix$0(Dynamic)
-- Dynamic updateLine(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$updateSkull$1(Dynamic)
-+ Dynamic lambda$updateSkull$2(Dynamic)
-+ Dynamic updateConduit(Dynamic)
-+ Dynamic updateSkull(Dynamic)
-- Dynamic lambda$updateSkull$1(Dynamic)
-- Dynamic lambda$updateSkull$2(Dynamic)
-- Dynamic updateConduit(Dynamic)
-- Dynamic updateSkull(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockRenameFix</summary>
-
-```diff
-+ Dynamic lambda$null$2(Dynamic)
-+ Function lambda$makeRule$1(DynamicOps)
-- Dynamic lambda$null$2(Dynamic)
-- Function lambda$makeRule$1(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockStateData</summary>
-
-```diff
-+ Dynamic[] BLOCK_DEFAULTS
-+ Dynamic[] MAP
-- Dynamic[] BLOCK_DEFAULTS
-- Dynamic[] MAP
-+ Dynamic getTag(int)
-+ Dynamic parse(String)
-+ Dynamic upgradeBlockStateTag(Dynamic)
-- Dynamic getTag(int)
-- Dynamic parse(String)
-- Dynamic upgradeBlockStateTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.CatTypeFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkLightRemoveFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk</summary>
-
-```diff
-+ Dynamic level
-- Dynamic level
-+ Dynamic getBlock(int)
-+ Dynamic getBlockEntity(int)
-+ Dynamic removeBlockEntity(int)
-+ Dynamic write()
-+ void <init>(Dynamic)
-+ void lambda$null$0(Dynamic)
-+ void lambda$null$2(Dynamic)
-+ void setBlock(Dynamic)
-- Dynamic getBlock(int)
-- Dynamic getBlockEntity(int)
-- Dynamic removeBlockEntity(int)
-- Dynamic write()
-- void <init>(Dynamic)
-- void lambda$null$0(Dynamic)
-- void lambda$null$2(Dynamic)
-- void setBlock(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkToProtochunkFix</summary>
-
-```diff
-+ Dynamic lambda$null$4(ShortList)
-+ IllegalStateException lambda$null$5()
-+ Optional lambda$null$0(Typed)
-+ Optional lambda$null$1(Dynamic)
-+ ShortArrayList lambda$null$2(int)
-+ Typed lambda$makeRule$7(Typed)
-+ Typed lambda$null$6(Typed)
-+ void lambda$null$3(Dynamic)
-- Dynamic lambda$null$0(Dynamic,int)
-- IllegalStateException lambda$null$2()
-- Typed lambda$makeRule$4(Typed)
-- Typed lambda$null$3(Typed)
-- void lambda$null$1(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityBlockStateFix</summary>
-
-```diff
-+ Either lambda$updateFallingBlock$10(Either)
-+ Integer lambda$null$8(Dynamic)
-+ Integer lambda$null$9(Unit)
-+ Pair lambda$updateBlockToBlockState$12(Pair)
-- Either lambda$updateFallingBlock$10(Either)
-- Integer lambda$null$8(Dynamic)
-- Integer lambda$null$9(Unit)
-- Pair lambda$updateBlockToBlockState$12(Pair)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityElderGuardianSplitFix</summary>
-
-```diff
-+ Pair getNewNameAndTag(Dynamic)
-- Pair getNewNameAndTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityHealthFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityItemFrameDirectionFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityPaintingItemFrameDirectionFix</summary>
-
-```diff
-+ Dynamic doFix(Dynamic,boolean,boolean)
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
-- Dynamic doFix(Dynamic,boolean,boolean)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$3(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityProjectileOwnerFix</summary>
-
-```diff
-+ Dynamic setUUID(Dynamic,long,long)
-+ Dynamic updateItemPotion(Dynamic)
-+ Dynamic updateOwnerArrow(Dynamic)
-+ Dynamic updateOwnerLlamaSpit(Dynamic)
-+ Dynamic updateOwnerThrowable(Dynamic)
-- Dynamic setUUID(Dynamic,long,long)
-- Dynamic updateItemPotion(Dynamic)
-- Dynamic updateOwnerArrow(Dynamic)
-- Dynamic updateOwnerLlamaSpit(Dynamic)
-- Dynamic updateOwnerThrowable(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityRenameFix</summary>
-
-```diff
-+ Function lambda$makeRule$1(DynamicOps)
-+ Pair lambda$null$0(Pair)
-+ Typed getEntity(Type)
-- Function lambda$makeRule$1(DynamicOps)
-- Pair lambda$null$0(Pair)
-- Typed getEntity(Type)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityShulkerColorFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntitySkeletonSplitFix</summary>
-
-```diff
-+ Pair getNewNameAndTag(Dynamic)
-- Pair getNewNameAndTag(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$10(Dynamic)
-+ Dynamic lambda$null$11(Dynamic)
-+ Dynamic lambda$null$12(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
-+ Dynamic lambda$null$5(Dynamic)
-+ Dynamic lambda$null$6(Dynamic)
-+ Dynamic lambda$updateFox$7(Dynamic)
-+ Dynamic lambda$updateFox$8(Dynamic)
-+ Dynamic lambda$updateLivingEntity$13(Dynamic)
-+ Dynamic lambda$updateMob$9(Dynamic)
-+ Dynamic lambda$updatePiglin$4(Dynamic)
-+ Dynamic lambda$updateProjectile$14(Dynamic)
-+ Dynamic updateAnimal(Dynamic)
-+ Dynamic updateAnimalOwner(Dynamic)
-+ Dynamic updateAreaEffectCloud(Dynamic)
-+ Dynamic updateEntityUUID(Dynamic)
-+ Dynamic updateEvokerFangs(Dynamic)
-+ Dynamic updateFox(Dynamic)
-+ Dynamic updateHurtBy(Dynamic)
-+ Dynamic updateItem(Dynamic)
-+ Dynamic updateLivingEntity(Dynamic)
-+ Dynamic updateMob(Dynamic)
-+ Dynamic updatePiglin(Dynamic)
-+ Dynamic updateProjectile(Dynamic)
-+ Dynamic updateShulkerBullet(Dynamic)
-+ Dynamic updateZombieVillager(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$10(Dynamic)
-- Dynamic lambda$null$11(Dynamic)
-- Dynamic lambda$null$12(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
-- Dynamic lambda$null$6(Dynamic)
-- Dynamic lambda$updateFox$7(Dynamic)
-- Dynamic lambda$updateFox$8(Dynamic)
-- Dynamic lambda$updateLivingEntity$13(Dynamic)
-- Dynamic lambda$updateMob$9(Dynamic)
-- Dynamic lambda$updatePiglin$4(Dynamic)
-- Dynamic lambda$updateProjectile$14(Dynamic)
-- Dynamic updateAnimal(Dynamic)
-- Dynamic updateAnimalOwner(Dynamic)
-- Dynamic updateAreaEffectCloud(Dynamic)
-- Dynamic updateEntityUUID(Dynamic)
-- Dynamic updateEvokerFangs(Dynamic)
-- Dynamic updateFox(Dynamic)
-- Dynamic updateHurtBy(Dynamic)
-- Dynamic updateItem(Dynamic)
-- Dynamic updateLivingEntity(Dynamic)
-- Dynamic updateMob(Dynamic)
-- Dynamic updatePiglin(Dynamic)
-- Dynamic updateProjectile(Dynamic)
-- Dynamic updateShulkerBullet(Dynamic)
-- Dynamic updateZombieVillager(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityZombieSplitFix</summary>
-
-```diff
-+ Pair getNewNameAndTag(Dynamic)
-- Pair getNewNameAndTag(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.FurnaceRecipeFix</summary>
-
-```diff
-+ void lambda$null$4(Pair)
-+ void lambda$updateFurnaceContents$5(Dynamic)
-- void lambda$null$4(Object)
-- void lambda$updateFurnaceContents$5(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.HeightmapRenamingFix</summary>
-
-```diff
-+ Dynamic fix(Dynamic)
-- Dynamic fix(Dynamic)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemSpawnEggFix</summary>
-
-```diff
-+ DataResult lambda$null$4(Dynamic)
-+ IllegalStateException lambda$null$5()
-+ Typed lambda$makeRule$6(Typed)
-- IllegalStateException lambda$null$4()
-- Typed lambda$makeRule$5(Typed)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.JigsawPropertiesFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.LeavesFix</summary>
-
-```diff
-+ Dynamic lambda$null$5(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.LeavesFix$Section</summary>
-
-```diff
-+ PackedBitStorage storage
-- BitStorage storage
-+ Dynamic lambda$write$1(Dynamic)
-+ Pair lambda$write$2(Dynamic)
-+ void readStorage(Dynamic)
-- Dynamic lambda$write$1(Dynamic)
-- Pair lambda$write$2(Dynamic)
-- void readStorage(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.LevelFlatGeneratorInfoFix</summary>
-
-```diff
-+ Dynamic fix(Dynamic)
-+ Dynamic lambda$fix$1(Dynamic)
-- Dynamic fix(Dynamic)
-- Dynamic lambda$fix$1(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.MapIdFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.MobSpawnerEntityIdentifiersFix</summary>
-
-```diff
-+ Dynamic fix(Dynamic)
-+ Dynamic lambda$fix$0(Dynamic)
-- Dynamic fix(Dynamic)
-- Dynamic lambda$fix$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.NewVillageFix</summary>
-
-```diff
-+ Dynamic lambda$null$11(Dynamic)
-+ Dynamic lambda$null$12(Dynamic)
-+ Dynamic lambda$null$5(Dynamic)
-+ Dynamic lambda$null$6(Dynamic)
-+ Dynamic lambda$null$7(Dynamic)
-- Dynamic lambda$null$11(Dynamic)
-- Dynamic lambda$null$12(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
-- Dynamic lambda$null$6(Dynamic)
-- Dynamic lambda$null$7(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ObjectiveRenderTypeFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-+ Function lambda$makeRule$2(DynamicOps)
-- Dynamic lambda$null$0(Dynamic)
-- Function lambda$makeRule$2(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.OptionsForceVBOFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.OptionsKeyTranslationFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Map)
-+ Dynamic lambda$null$2(Dynamic)
-+ Pair lambda$null$0(Map$Entry)
-- Dynamic lambda$null$1(Map)
-- Dynamic lambda$null$2(Dynamic)
-- Pair lambda$null$0(Map$Entry)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.PlayerUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.References</summary>
-
-```diff
-+ DSL$TypeReference WORLD_GEN_SETTINGS
-- DSL$TypeReference CHUNK_GENERATOR_SETTINGS
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ReorganizePoi</summary>
-
-```diff
-+ Dynamic cap(Dynamic)
-+ Function lambda$makeRule$1(DynamicOps)
-- Dynamic cap(Dynamic)
-- Function lambda$makeRule$1(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.SavedDataVillageCropFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic lambda$updateChildren$0(Dynamic)
-+ Dynamic updateChildren(Dynamic)
-+ Dynamic updateCrop(String)
-+ Dynamic updateDoubleField(Dynamic)
-+ Dynamic updateSingleField(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic lambda$updateChildren$0(Dynamic)
-- Dynamic updateChildren(Dynamic)
-- Dynamic updateCrop(String)
-- Dynamic updateDoubleField(Dynamic)
-- Dynamic updateSingleField(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.SimplestEntityRenameFix</summary>
-
-```diff
-+ Function lambda$makeRule$2(DynamicOps)
-+ Function lambda$makeRule$4(DynamicOps)
-- Function lambda$makeRule$2(DynamicOps)
-- Function lambda$makeRule$4(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.StriderGravityFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.VillagerRebuildLevelAndXpFix</summary>
-
-```diff
-+ Dynamic lambda$addLevel$5(Dynamic)
-+ Dynamic lambda$addXpFromLevel$6(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$addLevel$5(Dynamic)
-- Dynamic lambda$addXpFromLevel$6(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.WallPropertyFix</summary>
-
-```diff
-+ Dynamic fixWallProperty(String)
-+ Dynamic lambda$fixWallProperty$1(Dynamic)
-+ Dynamic lambda$upgradeBlockStateTag$2(Dynamic)
-+ Dynamic upgradeBlockStateTag(Dynamic)
-- Dynamic fixWallProperty(String)
-- Dynamic lambda$fixWallProperty$1(Dynamic)
-- Dynamic lambda$upgradeBlockStateTag$2(Dynamic)
-- Dynamic upgradeBlockStateTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ZombieVillagerRebuildXpFix</summary>
-
-```diff
-+ Dynamic lambda$fix$0(Dynamic)
-- Dynamic lambda$fix$0(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V99$1</summary>
-
-```diff
-+ Object apply(Object)
-- Object apply(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
-
-```diff
-+ ImmutableMap dimensionTypes
-+ boolean lambda$getAllChunkPos$3(String)
-+ DimensionDataStorage lambda$work$2()
-+ DimensionType lambda$new$0(Map$Entry)
-+ ImmutableMap dimensionTypes()
-+ List getAllChunkPos(ResourceKey)
-+ void lambda$new$1(Throwable)
-- boolean lambda$getAllChunkPos$2(String)
-- DimensionDataStorage lambda$work$1()
-- List getAllChunkPos(DimensionType)
-- void lambda$new$0(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-- Logger access$000()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ Boolean lambda$checkBedExists$7(BlockPos)
-+ boolean lambda$isHolding$5(Item)
-+ Brain makeBrain(Dynamic)
-+ Brain$Provider brainProvider()
-+ Vec3 lambda$null$8(BlockPos)
-+ void lambda$addAdditionalSaveData$2(Tag)
-+ void lambda$hurt$4(LivingEntity)
-+ void lambda$stopSleeping$9(BlockPos)
-+ void lambda$tickEffects$3(MobEffectInstance)
-+ void lambda$updateFallFlying$6(LivingEntity)
-- Boolean lambda$checkBedExists$6(BlockPos)
-- boolean lambda$isHolding$4(Item)
-- Brain makeBrain(Dynamic)
-- Vec3 lambda$null$7(BlockPos)
-- void lambda$hurt$3(LivingEntity)
-- void lambda$stopSleeping$8(BlockPos)
-- void lambda$tickEffects$2(MobEffectInstance)
-- void lambda$updateFallFlying$5(LivingEntity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.MobCategory</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer$GossipEntry</summary>
-
-```diff
-+ SerializableUUID target
-- UUID target
-+ DataResult load(Dynamic)
-+ Dynamic store(DynamicOps)
-+ void <init>(GossipType,int)
-- Dynamic store(DynamicOps)
-- GossipContainer$GossipEntry lambda$null$0(Number)
-- Optional lambda$load$2(GossipType)
-- Optional lambda$null$1(UUID)
-- Optional load(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ Optional codec
-- Optional deserializer
-+ MemoryModuleType register(Codec)
-+ Optional getCodec()
-- MemoryModuleType register(Optional)
-- Optional getDeserializer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
-
-```diff
-+ App lambda$codec$3(RecordCodecBuilder$Instance)
-+ BlockPos lambda$null$0(PoiRecord)
-+ Codec codec(Runnable)
-+ Integer lambda$null$2(PoiRecord)
-+ PoiType lambda$null$1(PoiRecord)
-- Object serialize(DynamicOps)
-- void <init>(Runnable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ SoundEvent getEatingSound()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
-
-```diff
-+ SoundEvent getEatingSound()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ SoundEvent getEatingSound()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Mule</summary>
-
-```diff
-+ SoundEvent getAngrySound()
-+ SoundEvent getEatingSound()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ Entity changeDimension(ResourceKey)
-- Entity changeDimension(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
-
-```diff
-+ Brain makeBrain(Dynamic)
-+ Brain$Provider brainProvider()
-- Brain makeBrain(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
-
-```diff
-+ void lambda$addAdditionalSaveData$0(Tag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ Brain makeBrain(Dynamic)
-+ Brain$Provider brainProvider()
-- Brain makeBrain(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
-
-```diff
-+ Entity changeDimension(ResourceKey)
-- Entity changeDimension(DimensionType)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerData</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Integer lambda$null$2(VillagerData)
-+ VillagerProfession lambda$null$1(VillagerData)
-+ VillagerType lambda$null$0(VillagerData)
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds</summary>
-
-```diff
-+ StructureFeature destination
-- String destination
-+ void <init>(MapDecoration$Type,int,int)
-- void <init>(MapDecoration$Type,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
-
-```diff
-+ Entity changeDimension(ResourceKey)
-- Entity changeDimension(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.MapItem</summary>
-
-```diff
-+ MapItemSavedData createAndStoreSavedData(ResourceKey)
-- MapItemSavedData createAndStoreSavedData(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseCommandBlock</summary>
-
-```diff
-+ void sendMessage(UUID)
-- void sendMessage(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ DimensionType dimensionType
-+ RegistryAccess registryAccess()
-- Dimension dimension
-+ ResourceKey dimension()
-- Dimension getDimension()
-- void setDayTime(long)
-- void setGameTime(long)
-- void tickTime()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.CheckerboardColumnBiomeSource</summary>
-
-```diff
-+ Codec CODEC
-+ int size
-+ List allowedBiomes
-- Biome[] allowedBiomes
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Codec codec()
-+ Integer lambda$null$1(CheckerboardColumnBiomeSource)
-+ List lambda$null$0(CheckerboardColumnBiomeSource)
-+ void <clinit>()
-+ void <init>(List,int)
-- void <init>(Biome[],int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.CrimsonForestBiome</summary>
-
-```diff
-- Double lambda$new$0(Random)
-- Double lambda$new$1(Random)
-- Double lambda$new$2(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.StateHolder</summary>
-
-```diff
-+ Function PROPERTY_ENTRY_TO_STRING_FUNCTION
-+ ImmutableMap values
-+ MapCodec propertiesCodec
-+ Object owner
-+ Table neighbours
-- boolean hasProperty(net.minecraft.world.level.block.state.properties.Property)
-- Collection getProperties()
-- Comparable getValue(net.minecraft.world.level.block.state.properties.Property)
-- ImmutableMap getValues()
-- Logger LOGGER
-- Object cycle(net.minecraft.world.level.block.state.properties.Property)
-- Object setValue(net.minecraft.world.level.block.state.properties.Property,java.lang.Comparable)
-- Optional getOptionalValue(net.minecraft.world.level.block.state.properties.Property)
-+ boolean hasProperty(Property)
-+ Codec codec(Function)
-+ Codec lambda$codec$1(Object)
-+ Collection getProperties()
-+ Comparable getValue(Property)
-+ ImmutableMap getValues()
-+ Map makeNeighbourValues(Comparable)
-+ Object cycle(Property)
-+ Object findNextInCollection(Object)
-+ Object lambda$codec$0(StateHolder)
-+ Object setValue(Comparable)
-+ Optional getOptionalValue(Property)
-+ String toString()
-+ void <init>(MapCodec)
-+ void populateNeighbours(Map)
-- StateHolder setValueHelper(String)
-- String getName(Comparable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
-
-```diff
-- BitSet getCarvingMask(GenerationStep$Carving)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ BiomeSource runtimeBiomeSource
-+ Codec CODEC
-+ Codec codec()
-+ List strongholdPositions
-+ long strongholdSeed
-+ StructureSettings settings
-- ChunkGeneratorSettings settings
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ boolean hasStronghold(ChunkPos)
-+ StructureSettings getSettings()
-+ void <clinit>()
-+ void <init>(StructureSettings,long)
-+ void <init>(StructureSettings)
-+ void createStructure(Biome)
-+ void createStructures(StructureManager,long)
-+ void generateStrongholds()
-- Biome getCarvingOrDecorationBiome(BlockPos)
-- Biome lambda$applyCarvers$0(BlockPos)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- boolean canGenerateStructure(StructureFeature)
-- boolean isBiomeValidStartForStructure(StructureFeature)
-- ChunkGeneratorSettings getSettings()
-- FeatureConfiguration getStructureConfiguration(StructureFeature)
-- void <init>(ChunkGeneratorSettings)
-- void createStructures(StructureManager,long)
-- void tickCustomSpawners(ServerLevel,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-+ BitSet getOrCreateCarvingMask(GenerationStep$Carving)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ Codec CODEC
-- Biome biomeWrapper
-- CatSpawner catSpawner
-- PhantomSpawner phantomSpawner
-+ Codec codec()
-+ FlatLevelGeneratorSettings settings()
-+ void <clinit>()
-- Biome getBiomeFromSettings()
-- Biome getCarvingOrDecorationBiome(BlockPos)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- boolean canGenerateStructure(StructureFeature)
-- boolean isBiomeValidStartForStructure(StructureFeature)
-- FeatureConfiguration getStructureConfiguration(StructureFeature)
-- void tickCustomSpawners(ServerLevel,boolean,boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
-
-```diff
-- Dynamic serialize(com.mojang.datafixers.types.DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
-
-```diff
-+ Codec CODEC
-+ void <clinit>()
-+ WorldCarver lambda$static$0(ConfiguredWorldCarver)
-- ConfiguredWorldCarver deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.NoneCarverConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ NoneCarverConfiguration INSTANCE
-+ NoneCarverConfiguration lambda$static$0()
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- NoneCarverConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCaveWorldCarver</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractHugeMushroomFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltColumnsFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(MultiJigsawConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BonusChestFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
-
-```diff
-+ void generatePieces(BuriedTreasureConfiguration)
-+ void generatePieces(FeatureConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
-
-```diff
-+ Codec CODEC
-+ ConfiguredFeature NOPE
-+ Feature lambda$static$0(ConfiguredFeature)
-- ConfiguredFeature deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlobsFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$Type</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SeaPickleFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SimpleBlockFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
-
-```diff
-- boolean isSpotSelected
-- ChunkPos[] strongholdPos
-- List discoveredStarts
-- long currentSeed
-+ boolean isFeatureChunk(FeatureConfiguration)
-+ boolean isFeatureChunk(NoneFeatureConfiguration)
-+ void <init>(Codec)
-- BlockPos getNearestGeneratedFeature(BlockPos,int,boolean)
-- boolean featureChunk(Biome)
-- boolean isFeatureChunk(ChunkPos)
-- int getLookupRange()
-- List access$000(StrongholdFeature)
-- String getFeatureName()
-- void <init>(Function)
-- void generatePositions(ChunkGenerator,long)
-- void reset()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ BiMap STRUCTURES_REGISTRY
-+ Codec configuredStructureCodec
-+ List NOISE_AFFECTING_FEATURES
-+ Map STEP
-+ StructureFeature BASTION_REMNANT
-+ StructureFeature BURIED_TREASURE
-+ StructureFeature DESERT_PYRAMID
-+ StructureFeature END_CITY
-+ StructureFeature IGLOO
-+ StructureFeature JUNGLE_TEMPLE
-+ StructureFeature MINESHAFT
-+ StructureFeature NETHER_BRIDGE
-+ StructureFeature NETHER_FOSSIL
-+ StructureFeature OCEAN_MONUMENT
-+ StructureFeature OCEAN_RUIN
-+ StructureFeature PILLAGER_OUTPOST
-+ StructureFeature RUINED_PORTAL
-+ StructureFeature SHIPWRECK
-+ StructureFeature STRONGHOLD
-+ StructureFeature VILLAGE
-+ StructureFeature WOODLAND_MANSION
-+ SwamplandHutFeature SWAMP_HUT
-- int getLookupRange()
-- String getFeatureName()
-+ BlockPos getNearestGeneratedFeature(StructureFeatureConfiguration)
-+ boolean isFeatureChunk(FeatureConfiguration)
-+ ChunkPos getPotentialFeatureChunk(WorldgenRandom,int,int)
-+ Codec configuredStructureCodec()
-+ ConfiguredStructureFeature configured(FeatureConfiguration)
-+ ConfiguredStructureFeature lambda$new$0(FeatureConfiguration)
-+ FeatureConfiguration lambda$new$1(ConfiguredStructureFeature)
-+ GenerationStep$Decoration step()
-+ List getSpecialAnimals()
-+ List getSpecialEnemies()
-+ String getFeatureName()
-+ StructureFeature register(GenerationStep$Decoration)
-+ StructureStart createStart(BoundingBox,int,long)
-+ StructureStart generate(FeatureConfiguration)
-+ StructureStart loadStaticStart(CompoundTag,long)
-+ void <init>(Codec)
-+ void bootstrap()
-- BlockPos getNearestGeneratedFeature(BlockPos,int,boolean)
-- boolean featureChunk(Biome)
-- boolean isFeatureChunk(ChunkPos)
-- boolean isInsideBoundingFeature(BlockPos)
-- boolean isInsideFeature(BlockPos)
-- boolean lambda$getStructureAt$1(StructureStart)
-- boolean lambda$getStructureAt$3(StructureStart)
-- boolean lambda$null$2(StructurePiece)
-- boolean place(FeatureConfiguration)
-- boolean supportsProjection()
-- ChunkPos getPotentialFeatureChunk(WorldgenRandom,int,int)
-- ConfiguredFeature configured(FeatureConfiguration)
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- Object lambda$place$0(StructureStart)
-- StructureStart getStructureAt(BlockPos,boolean)
-- void <init>(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- boolean supportsProjection()
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VinesFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WeepingVinesFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(FeatureConfiguration)
-+ boolean isFeatureChunk(NoneFeatureConfiguration)
-+ void <init>(Codec)
-- boolean isFeatureChunk(ChunkPos)
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.BlockPlacer</summary>
-
-```diff
-+ BlockPlacerType type()
-+ Codec CODEC
-- BlockPlacerType type
-+ void <clinit>()
-+ void <init>()
-- void <init>(BlockPlacerType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.ColumnPlacer</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ BlockPlacerType type()
-+ Integer lambda$null$0(ColumnPlacer)
-+ Integer lambda$null$1(ColumnPlacer)
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.SimpleBlockPlacer</summary>
-
-```diff
-+ Codec CODEC
-+ SimpleBlockPlacer INSTANCE
-+ BlockPlacerType type()
-+ SimpleBlockPlacer lambda$static$0()
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockBlobConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(BlockBlobConfiguration)
-+ Integer lambda$null$1(BlockBlobConfiguration)
-+ void <clinit>()
-- BlockBlobConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockStateConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ BlockState lambda$static$0(BlockStateConfiguration)
-+ void <clinit>()
-- BlockStateConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ChanceRangeDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Float lambda$null$0(ChanceRangeDecoratorConfiguration)
-+ Integer lambda$null$1(ChanceRangeDecoratorConfiguration)
-+ Integer lambda$null$2(ChanceRangeDecoratorConfiguration)
-+ Integer lambda$null$3(ChanceRangeDecoratorConfiguration)
-+ void <clinit>()
-- ChanceRangeDecoratorConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountRangeDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Integer lambda$null$0(CountRangeDecoratorConfiguration)
-+ Integer lambda$null$1(CountRangeDecoratorConfiguration)
-+ Integer lambda$null$2(CountRangeDecoratorConfiguration)
-+ Integer lambda$null$3(CountRangeDecoratorConfiguration)
-+ void <clinit>()
-- CountRangeDecoratorConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratorConfiguration</summary>
-
-```diff
-- Dynamic serialize(com.mojang.datafixers.types.DynamicOps)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$1(EndGatewayConfiguration)
-+ Optional lambda$null$0(EndGatewayConfiguration)
-+ void <clinit>()
-- BlockPos lambda$null$1(Number)
-- Dynamic serialize(DynamicOps)
-- EndGatewayConfiguration deserialize(Dynamic)
-- Object lambda$serialize$0(BlockPos)
-- Optional lambda$deserialize$3(Number)
-- Optional lambda$null$2(Number)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.FeatureRadiusConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Integer lambda$static$0(FeatureRadiusConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- FeatureRadiusConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.JigsawConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ ResourceLocation getStartPool()
-+ void <clinit>()
-+ void <init>(ResourceLocation,int)
-- Dynamic serialize(DynamicOps)
-- JigsawConfiguration deserialize(Dynamic)
-- String getStartPool()
-- void <init>(String,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Double lambda$null$0(MineshaftConfiguration)
-+ MineshaftFeature$Type lambda$null$1(MineshaftConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- MineshaftConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoiseDependantDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Double lambda$null$0(NoiseDependantDecoratorConfiguration)
-+ Integer lambda$null$1(NoiseDependantDecoratorConfiguration)
-+ Integer lambda$null$2(NoiseDependantDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- NoiseDependantDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ NoneFeatureConfiguration INSTANCE
-+ NoneFeatureConfiguration lambda$static$0()
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- NoneFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$1(OreConfiguration)
-+ Integer lambda$null$2(OreConfiguration)
-+ OreConfiguration$Predicates lambda$null$0(OreConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- OreConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ Float lambda$null$0(ProbabilityFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- ProbabilityFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ ConfiguredFeature lambda$null$1(RandomFeatureConfiguration)
-+ List lambda$null$0(RandomFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(WeightedConfiguredFeature)
-- RandomFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomRandomFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Integer lambda$null$1(RandomRandomFeatureConfiguration)
-+ List lambda$null$0(RandomRandomFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(ConfiguredFeature)
-- RandomRandomFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceSpheroidConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(ReplaceSpheroidConfiguration)
-+ BlockState lambda$null$1(ReplaceSpheroidConfiguration)
-+ Vec3i lambda$null$2(ReplaceSpheroidConfiguration)
-+ Vec3i lambda$null$3(ReplaceSpheroidConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- ReplaceSpheroidConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RuinedPortalConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ RuinedPortalFeature$Type lambda$static$0(RuinedPortalConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- RuinedPortalConfiguration deserialize(Dynamic)
-- void <init>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ShipwreckConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Boolean lambda$static$0(ShipwreckConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- ShipwreckConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ List lambda$static$0(SimpleRandomFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(ConfiguredFeature)
-- SimpleRandomFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpringConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$1(SpringConfiguration)
-+ FluidState lambda$null$0(SpringConfiguration)
-+ Integer lambda$null$2(SpringConfiguration)
-+ Integer lambda$null$3(SpringConfiguration)
-+ Set lambda$null$4(SpringConfiguration)
-+ void <clinit>()
-- Block lambda$deserialize$0(Dynamic)
-- Dynamic serialize(DynamicOps)
-- SpringConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.FeatureSize</summary>
-
-```diff
-+ Codec CODEC
-+ FeatureSizeType type()
-- FeatureSizeType type
-+ Optional lambda$minClippedHeightCodec$1(OptionalInt)
-+ OptionalInt lambda$minClippedHeightCodec$0(Optional)
-+ OptionalInt lambda$minClippedHeightCodec$2(FeatureSize)
-+ RecordCodecBuilder minClippedHeightCodec()
-+ void <clinit>()
-+ void <init>(OptionalInt)
-- Object serialize(DynamicOps)
-- void <init>(OptionalInt)
-- void lambda$serialize$0(DynamicOps,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.ThreeLayersFeatureSize</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ FeatureSizeType type()
-+ Integer lambda$null$0(ThreeLayersFeatureSize)
-+ Integer lambda$null$1(ThreeLayersFeatureSize)
-+ Integer lambda$null$2(ThreeLayersFeatureSize)
-+ Integer lambda$null$3(ThreeLayersFeatureSize)
-+ Integer lambda$null$4(ThreeLayersFeatureSize)
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- OptionalInt lambda$new$0(Number)
-- void <init>(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ FoliagePlacerType type()
-+ Integer lambda$blobParts$1(BlobFoliagePlacer)
-+ Products$P5 blobParts(RecordCodecBuilder$Instance)
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ FoliagePlacerType type()
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
-
-```diff
-+ Codec CODEC
-+ FoliagePlacerType type()
-- FoliagePlacerType type
-+ Integer lambda$foliagePlacerParts$0(FoliagePlacer)
-+ Integer lambda$foliagePlacerParts$1(FoliagePlacer)
-+ Integer lambda$foliagePlacerParts$2(FoliagePlacer)
-+ Integer lambda$foliagePlacerParts$3(FoliagePlacer)
-+ Products$P4 foliagePlacerParts(RecordCodecBuilder$Instance)
-+ void <clinit>()
-+ void <init>(int,int,int,int)
-- Object serialize(DynamicOps)
-- void <init>(FoliagePlacerType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChanceDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Integer lambda$static$0(ChanceDecoratorConfiguration)
-+ void <clinit>()
-- ChanceDecoratorConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChanceHeightmapDoubleDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChanceTopSolidHeightmapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ConfiguredDecorator</summary>
-
-```diff
-+ Codec CODEC
-+ FeatureDecorator lambda$static$0(ConfiguredDecorator)
-+ void <clinit>()
-- ConfiguredDecorator deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountChanceHeightmapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountDepthAverageDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountHeight64Decorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountHeightmapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountVeryBiasedRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.DarkOakTreePlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.EmeraldPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.EndIslandPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ForestRockPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Integer lambda$static$0(FrequencyDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- FrequencyDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.IcebergPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.LakeWaterPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseCountFactorDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Logger LOGGER
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Double lambda$null$1(NoiseCountFactorDecoratorConfiguration)
-+ Double lambda$null$2(NoiseCountFactorDecoratorConfiguration)
-+ Heightmap$Types lambda$null$3(NoiseCountFactorDecoratorConfiguration)
-+ Integer lambda$null$0(NoiseCountFactorDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- NoiseCountFactorDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmapDoubleDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.RangeDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Integer lambda$null$0(RangeDecoratorConfiguration)
-+ Integer lambda$null$1(RangeDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- RangeDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.CountRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.LightGemChanceDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.RandomCountRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces</summary>
-
-```diff
-+ void addPieces(Random)
-- void addPieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- int getLookupRange()
-- int getRandomSalt(ChunkGeneratorSettings)
-- int getSeparation(ChunkGeneratorSettings)
-- int getSpacing(ChunkGeneratorSettings)
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$Type</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece</summary>
-
-```diff
-+ Logger LOGGER
-+ void <clinit>()
-+ void lambda$addAdditionalSaveData$0(Tag)
-+ void lambda$postProcess$1(BlockPos)
-- void lambda$postProcess$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
-
-```diff
-+ Gson WORLD_GEN_SETTINGS_GSON
-+ ImmutableList OLD_SETTINGS_KEYS
-+ BiFunction access$800(File,boolean)
-+ BiFunction levelSummaryReader(File,boolean)
-+ Gson access$900()
-+ LevelSummary lambda$levelSummaryReader$0(DataFixer)
-+ Object access$300(BiFunction)
-+ Object readLevelData(BiFunction)
-+ Pair readWorldGenSettings(DataFixer,int)
-+ WorldData access$1000(DataFixer)
-- WorldData access$300(File)
-- WorldData getLevelData(File)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
-
-```diff
-+ LevelSettings settings
-+ LevelVersion levelVersion
-+ Lifecycle lifecycle
-- boolean hardcore
-- boolean hasCheats
-- boolean snapshot
-- GameType gameMode
-- int worldVersion
-- long lastPlayed
-- long sizeOnDisk
-- String levelName
-- String worldVersionName
-- WorldGenSettings worldGenSettings
-+ boolean experimental()
-+ void <init>(Lifecycle)
-+ WorldGenSettings worldGenSettings()
-- long getSizeOnDisk()
-- void <init>(File)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.components.Button$OnTooltip
@@ -6319,676 +2016,404 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean CHECK_DATA_FIXER_SCHEMA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
 
 ```diff
-+ ResourceKey from
-+ ResourceKey to
-- DimensionType from
-- DimensionType to
-+ boolean matches(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
-+ ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
-+ void <init>(ResourceKey)
-- boolean matches(DimensionType)
-- ChangeDimensionTrigger$TriggerInstance changedDimension(DimensionType)
+- boolean matches(DimensionType,DimensionType)
++ boolean matches(ResourceKey,ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimension(DimensionType,DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey,ResourceKey)
 - ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
 - ChangeDimensionTrigger$TriggerInstance changedDimensionTo(DimensionType)
-- void <init>(DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
+- void <init>(EntityPredicate$Composite,DimensionType,DimensionType)
++ void <init>(EntityPredicate$Composite,ResourceKey,ResourceKey)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
 
 ```diff
-+ Logger LOGGER
-+ ResourceKey dimension
-- DimensionType dimension
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
 + JsonSyntaxException lambda$fromJson$2(ResourceLocation)
+- LocationPredicate inDimension(DimensionType)
 + LocationPredicate inDimension(ResourceKey)
 + ResourceKey lambda$fromJson$1(ResourceLocation)
-+ void <init>(FluidPredicate)
-+ void lambda$serializeToJson$0(JsonElement)
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-- LocationPredicate inDimension(DimensionType)
-- void <init>(FluidPredicate)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
++ void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
++ void lambda$serializeToJson$0(JsonObject,JsonElement)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSource</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ void sendMessage(net.minecraft.network.chat.Component,java.util.UUID)
-- void sendMessage(net.minecraft.network.chat.Component)
++ boolean allowsChat()
++ boolean allowsMultiplayer()
++ boolean isBlocked(UUID)
++ void openChatScreen(String)
 ```
 
 </details>
 
-<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
+
+```diff
++ void fillGradient(Matrix4f,BufferBuilder,int,int,int,int,int,int,int)
+- void fillGradient(Matrix4f,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.chat.OverlayChatListener</summary>
+
+```diff
++ void handle(ChatType,Component,UUID)
+- void handle(ChatType,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.Button</summary>
+
+```diff
++ void <clinit>()
++ void <init>(int,int,int,int,Component,Button$OnPress,Button$OnTooltip)
++ void lambda$static$0(Button,PoseStack,int,int)
++ void renderButton(PoseStack,int,int,float)
++ void renderToolTip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
 
 ```diff
 + RegistryAccess registryAccess()
++ void setGameTime(long)
++ void tickTime()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.commands.arguments.DimensionTypeArgument</summary>
+<details><summary>net.minecraft.commands.CommandSource$1</summary>
 
 ```diff
-+ ResourceKey getDimension(String)
-+ ResourceLocation parse(StringReader)
-+ String lambda$static$0(ResourceKey)
-- CommandSyntaxException lambda$parse$2(ResourceLocation)
-- DimensionType getDimension(String)
-- DimensionType parse(StringReader)
-- String lambda$static$0(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.DefaultedRegistry</summary>
-
-```diff
-+ Object registerMapping(Object)
-+ void <init>(Lifecycle)
-- Object registerMapping(Object)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.SerializableLong</summary>
-
-```diff
-+ Codec CODEC
-+ Long lambda$static$0(SerializableLong)
-+ void <clinit>()
-- Object serialize(DynamicOps)
-- SerializableLong of(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.core.WritableRegistry</summary>
-
-```diff
-+ Object register(net.minecraft.resources.ResourceKey,java.lang.Object)
-+ Object registerMapping(int,net.minecraft.resources.ResourceKey,java.lang.Object)
-- Object register(net.minecraft.resources.ResourceLocation,java.lang.Object)
-- Object registerMapping(int,net.minecraft.resources.ResourceLocation,java.lang.Object)
-+ String toString()
-+ void <init>(Lifecycle)
-- void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ Codec CODEC
-+ Codec lambda$static$0(ParticleType)
-+ ParticleType register(Function)
-- ParticleType register(ParticleOptions$Deserializer)
-```
-
-</details>
-
-<details><summary>net.minecraft.resources.ResourceLocation</summary>
-
-```diff
-+ Codec CODEC
-+ boolean validNamespaceChar(char)
-+ boolean validPathChar(char)
-+ DataResult read(String)
-+ String toDebugFileName()
-- boolean lambda$isValidNamespace$1(int)
-- boolean lambda$isValidPath$0(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SpreadPlayersCommand$Position</summary>
-
-```diff
-+ boolean isSafe(BlockGetter,int)
-+ int getSpawnY(BlockGetter,int)
-- boolean isSafe(BlockGetter)
-- int getSpawnY(BlockGetter)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ ResourceKey respawnDimension
-- DimensionType respawnDimension
-+ boolean lambda$startSleepInBed$4(Monster)
-+ Entity changeDimension(ResourceKey)
-+ ResourceKey getRespawnDimension()
-+ Style lambda$null$2(Style)
-+ void lambda$addAdditionalSaveData$0(Tag)
-+ void lambda$awardStat$6(Score)
-+ void lambda$die$3(Future)
-+ void lambda$sendMessage$7(Future)
-+ void lambda$startSleepInBed$5(Unit)
-+ void lambda$updateScoreForCriteria$1(Score)
-+ void sendMessage(UUID)
-+ void sendMessage(UUID)
-+ void setRespawnPosition(BlockPos,boolean,boolean)
-- boolean lambda$startSleepInBed$3(Monster)
-- DimensionType getRespawnDimension()
-- Entity changeDimension(DimensionType)
-- Style lambda$null$1(Style)
-- void lambda$awardStat$5(Score)
-- void lambda$die$2(Future)
-- void lambda$sendMessage$6(Future)
-- void lambda$startSleepInBed$4(Unit)
-- void lambda$updateScoreForCriteria$0(Score)
-- void sendMessage(ChatType)
++ void sendMessage(Component,UUID)
 - void sendMessage(Component)
-- void setRespawnPosition(BlockPos,boolean,boolean)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+<details><summary>net.minecraft.core.BlockPos</summary>
 
 ```diff
-+ DimensionType dimensionType
-- Dimension dimension
-- Dimension getDimension()
+- BlockPos deserialize(Dynamic)
++ BlockPos lambda$null$0(int[])
++ DataResult lambda$static$1(IntStream)
++ IntStream lambda$static$2(BlockPos)
+- Object serialize(DynamicOps)
+- void lambda$deserialize$0(int[],int)
+- void lambda$deserialize$1(int[],int)
+- void lambda$deserialize$2(int[],int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
+<details><summary>net.minecraft.core.GlobalPos</summary>
 
 ```diff
-+ RegistryAccess$RegistryHolder registryHolder
-+ void <init>(PlayerDataStorage,int)
-+ void broadcast(Packet)
-+ void broadcastAll(ResourceKey)
-+ void broadcastMessage(UUID)
-- void <init>(PlayerDataStorage,int)
-- void broadcast(Packet)
-- void broadcastAll(DimensionType)
-- void broadcastMessage(Component,boolean)
-- void broadcastMessage(Component)
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- DimensionType dimension()
+- GlobalPos lambda$null$0(DimensionType,BlockPos)
+- GlobalPos of(DimensionType,BlockPos)
+- GlobalPos of(Dynamic)
++ GlobalPos of(ResourceKey,BlockPos)
+- IllegalArgumentException lambda$of$2()
+- Object serialize(DynamicOps)
+- Optional lambda$of$1(Dynamic,DimensionType)
++ ResourceKey dimension()
++ void <clinit>()
+- void <init>(DimensionType,BlockPos)
++ void <init>(ResourceKey,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
+<details><summary>net.minecraft.core.SerializableUUID</summary>
 
 ```diff
-+ SoundEvent DONKEY_EAT
-+ SoundEvent FOX_TELEPORT
-+ SoundEvent MULE_ANGRY
-+ SoundEvent MULE_EAT
-+ SoundEvent PARROT_IMITATE_HOGLIN
-+ SoundEvent PARROT_IMITATE_PIGLIN
-+ SoundEvent PARROT_IMITATE_ZOGLIN
++ DataResult lambda$static$1(IntStream)
++ IntStream lambda$static$2(SerializableUUID)
+- Object serialize(DynamicOps,UUID)
+- Object serialize(DynamicOps)
++ SerializableUUID lambda$null$0(int[])
++ SerializableUUID of(Dynamic)
+- SerializableUUID of(Dynamic)
++ UUID readUUID(Dynamic)
+- UUID readUUID(Dynamic)
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.Tag</summary>
+<details><summary>net.minecraft.core.Vec3i</summary>
 
 ```diff
-+ Codec codec(Supplier)
-+ DataResult lambda$codec$1(ResourceLocation)
-+ DataResult lambda$codec$3(Tag)
-+ DataResult lambda$null$0(ResourceLocation)
-+ DataResult lambda$null$2(Tag)
++ DataResult lambda$static$1(IntStream)
++ IntStream lambda$static$2(Vec3i)
++ Vec3i lambda$null$0(int[])
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.AbstractUUIDFix</summary>
+<details><summary>net.minecraft.core.particles.BlockParticleOption</summary>
 
 ```diff
-+ Dynamic lambda$replaceUUIDLeastMost$3(Dynamic)
-+ Dynamic lambda$replaceUUIDMLTag$2(Dynamic)
-+ Dynamic lambda$replaceUUIDString$1(Dynamic)
-+ Optional createUUIDFromLongs(String)
-+ Optional createUUIDFromML(Dynamic)
-+ Optional createUUIDFromString(String)
-+ Optional createUUIDTag(Dynamic,long,long)
-+ Optional lambda$createUUIDFromString$4(Dynamic)
-+ Optional replaceUUIDLeastMost(String)
-+ Optional replaceUUIDMLTag(String)
-+ Optional replaceUUIDString(String)
-- Dynamic lambda$replaceUUIDLeastMost$3(Dynamic)
-- Dynamic lambda$replaceUUIDMLTag$2(Dynamic)
-- Dynamic lambda$replaceUUIDString$1(Dynamic)
-- Optional createUUIDFromLongs(String)
-- Optional createUUIDFromML(Dynamic)
-- Optional createUUIDFromString(String)
-- Optional createUUIDTag(Dynamic,long,long)
-- Optional lambda$createUUIDFromString$4(Dynamic)
-- Optional replaceUUIDLeastMost(String)
-- Optional replaceUUIDMLTag(String)
-- Optional replaceUUIDString(String)
++ BlockParticleOption lambda$codec$0(ParticleType,BlockState)
++ BlockState lambda$codec$1(BlockParticleOption)
++ Codec codec(ParticleType)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.AttributesRename</summary>
+<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
 
 ```diff
-+ Dynamic fixName(Dynamic)
-+ Dynamic lambda$fixEntity$9(Dynamic)
-+ Dynamic lambda$fixItemStackTag$5(Dynamic)
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ Float lambda$null$0(DustParticleOptions)
++ Float lambda$null$1(DustParticleOptions)
++ Float lambda$null$2(DustParticleOptions)
++ Float lambda$null$3(DustParticleOptions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.particles.ItemParticleOption</summary>
+
+```diff
++ Codec codec(ParticleType)
++ ItemParticleOption lambda$codec$0(ParticleType,ItemStack)
++ ItemStack lambda$codec$1(ItemParticleOption)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.Main</summary>
+
+```diff
++ void forceUpgrade(LevelStorageSource$LevelStorageAccess,DataFixer,boolean,BooleanSupplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
++ RegistryAccess registryAccess()
+- ServerLevel getLevel(DimensionType)
++ ServerLevel getLevel(ResourceKey)
++ void convertFromRegionFormatIfNeeded(LevelStorageSource$LevelStorageAccess)
+- void ensureLevelConversion(LevelStorageSource$LevelStorageAccess,DataFixer,boolean,boolean,BooleanSupplier)
++ void sendMessage(Component,UUID)
+- void sendMessage(Component)
+- void setInitialSpawn(ServerLevel,Dimension,ServerLevelData,boolean,boolean)
++ void setInitialSpawn(ServerLevel,ServerLevelData,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.LocateCommand</summary>
+
+```diff
+- int lambda$register$1(CommandContext)
++ int lambda$register$1(Map$Entry,CommandContext)
+- int lambda$register$10(CommandContext)
+- int lambda$register$11(CommandContext)
+- int lambda$register$12(CommandContext)
+- int lambda$register$13(CommandContext)
+- int lambda$register$14(CommandContext)
+- int lambda$register$15(CommandContext)
+- int lambda$register$16(CommandContext)
+- int lambda$register$17(CommandContext)
+- int lambda$register$18(CommandContext)
+- int lambda$register$2(CommandContext)
+- int lambda$register$3(CommandContext)
+- int lambda$register$4(CommandContext)
+- int lambda$register$5(CommandContext)
+- int lambda$register$6(CommandContext)
+- int lambda$register$7(CommandContext)
+- int lambda$register$8(CommandContext)
+- int lambda$register$9(CommandContext)
+- int locate(CommandSourceStack,String)
++ int locate(CommandSourceStack,StructureFeature)
+- Style lambda$showLocateResult$19(BlockPos,Style)
++ Style lambda$showLocateResult$2(BlockPos,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SpreadPlayersCommand</summary>
+
+```diff
+- double setPlayerPositions(Collection,ServerLevel,SpreadPlayersCommand$Position[],boolean)
++ double setPlayerPositions(Collection,ServerLevel,SpreadPlayersCommand$Position[],int,boolean)
++ int lambda$register$4(CommandContext)
+- int spreadPlayers(CommandSourceStack,Vec2,float,float,boolean,Collection)
++ int spreadPlayers(CommandSourceStack,Vec2,float,float,int,boolean,Collection)
++ void spreadPositions(Vec2,double,ServerLevel,Random,double,double,double,double,int,SpreadPlayersCommand$Position[],boolean)
+- void spreadPositions(Vec2,double,ServerLevel,Random,double,double,double,double,SpreadPlayersCommand$Position[],boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedPlayerList</summary>
+
+```diff
+- void <init>(DedicatedServer,PlayerDataStorage)
++ void <init>(DedicatedServer,RegistryAccess$RegistryHolder,PlayerDataStorage)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- BlockPos findNearestMapFeature(String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(StructureFeature,BlockPos,int,boolean)
+- BlockPos getDimensionSpecificSpawn()
++ EndDragonFight dragonFight()
++ RegistryAccess registryAccess()
++ void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,DimensionType,ChunkProgressListener,ChunkGenerator,boolean,long,List,boolean)
+- void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,DimensionType,ChunkProgressListener,ChunkGenerator,boolean,long)
++ void lambda$makeObsidianPlatform$16(ServerLevel,BlockPos)
++ void lambda$makeObsidianPlatform$17(ServerLevel,BlockPos)
++ void makeObsidianPlatform(ServerLevel)
++ void setDayTime(long)
+- void setGameTime(long)
++ void tickCustomSpawners(boolean,boolean)
++ void tickTime()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
+
+```diff
++ void sendMessage(Component,UUID)
+- void sendMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.sounds.Music</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ Boolean lambda$null$3(Music)
++ Integer lambda$null$1(Music)
++ Integer lambda$null$2(Music)
++ SoundEvent lambda$null$0(Music)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.sounds.SoundEvent</summary>
+
+```diff
++ ResourceLocation lambda$static$0(SoundEvent)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.AddNewChoices</summary>
+
+```diff
++ Function lambda$cap$1(TaggedChoice$TaggedChoiceType,DynamicOps)
+- Function lambda$cap$1(TaggedChoice$TaggedChoiceType,DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.AdvancementsRenameFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic,String,Dynamic)
+- Dynamic lambda$null$0(Dynamic,String,Dynamic)
 + Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$null$6(Dynamic)
-+ Dynamic lambda$null$8(Dynamic)
-- Dynamic fixName(Dynamic)
-- Dynamic lambda$fixEntity$9(Dynamic)
-- Dynamic lambda$fixItemStackTag$5(Dynamic)
 - Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$null$6(Dynamic)
-- Dynamic lambda$null$8(Dynamic)
++ Pair lambda$null$1(Dynamic,Pair)
+- Pair lambda$null$1(Dynamic,Pair)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityBannerColorFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.BedBlockEntityInjecter</summary>
 
 ```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic lambda$fixTag$0(Dynamic)
-+ Dynamic lambda$fixTag$4(Dynamic)
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic lambda$fixTag$0(Dynamic)
-- Dynamic lambda$fixTag$4(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
++ Function lambda$cap$1(DynamicOps)
+- Function lambda$cap$1(DynamicOps)
++ Integer lambda$null$2(Dynamic)
+- Integer lambda$null$2(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityCustomNameToComponentFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.BitStorageAlignFix</summary>
 
 ```diff
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$2(Dynamic,Dynamic)
+- Dynamic lambda$null$2(Dynamic,Dynamic)
++ Dynamic lambda$null$4(Dynamic,Dynamic)
+- Dynamic lambda$null$4(Dynamic,Dynamic)
++ Dynamic lambda$null$7(Dynamic,int,Dynamic)
+- Dynamic lambda$null$7(Dynamic,int,Dynamic)
++ Dynamic lambda$null$8(int,Dynamic)
+- Dynamic lambda$null$8(int,Dynamic)
++ Dynamic lambda$updateHeightmaps$5(Dynamic)
+- Dynamic lambda$updateHeightmaps$5(Dynamic)
++ Dynamic updateBitStorage(Dynamic,Dynamic,int,int)
+- Dynamic updateBitStorage(Dynamic,Dynamic,int,int)
++ Pair lambda$null$3(Dynamic,Pair)
+- Pair lambda$null$3(Dynamic,Pair)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntityShulkerBoxColorFix</summary>
-
-```diff
-+ Dynamic lambda$fix$0(Dynamic)
-- Dynamic lambda$fix$0(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockNameFlatteningFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityIdFix</summary>
 
 ```diff
 + Function lambda$makeRule$3(DynamicOps)
@@ -6998,9 +2423,93 @@
 </details>
 
 
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityKeepPacked</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.ChunkBiomeFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix</summary>
+
+```diff
++ Dynamic lambda$fix$0(Dynamic)
+- Dynamic lambda$fix$0(Dynamic)
++ Dynamic updateLine(Dynamic,String)
+- Dynamic updateLine(Dynamic,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityUUIDFix</summary>
+
+```diff
++ Dynamic lambda$updateSkull$1(Dynamic)
+- Dynamic lambda$updateSkull$1(Dynamic)
++ Dynamic lambda$updateSkull$2(Dynamic,Dynamic)
+- Dynamic lambda$updateSkull$2(Dynamic,Dynamic)
++ Dynamic updateConduit(Dynamic)
+- Dynamic updateConduit(Dynamic)
++ Dynamic updateSkull(Dynamic)
+- Dynamic updateSkull(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockRenameFix</summary>
+
+```diff
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockRenameFixWithJigsaw</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic,Dynamic)
+- Dynamic lambda$null$1(Dynamic,Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockStateData</summary>
+
+```diff
++ Dynamic getTag(int)
+- Dynamic getTag(int)
++ Dynamic parse(String)
+- Dynamic parse(String)
++ Dynamic upgradeBlockStateTag(Dynamic)
+- Dynamic upgradeBlockStateTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.CatTypeFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkLightRemoveFix</summary>
 
 ```diff
 + Dynamic lambda$null$0(Dynamic)
@@ -7009,170 +2518,79 @@
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix$UpgradeChunk</summary>
 
 ```diff
-+ Dynamic AIR
-+ Dynamic PUMPKIN
-+ Dynamic SNOWY_GRASS
-+ Dynamic SNOWY_MYCELIUM
-+ Dynamic SNOWY_PODZOL
-+ Dynamic UPPER_LARGE_FERN
-+ Dynamic UPPER_LILAC
-+ Dynamic UPPER_PEONY
-+ Dynamic UPPER_ROSE_BUSH
-+ Dynamic UPPER_SUNFLOWER
-+ Dynamic UPPER_TALL_GRASS
-- Dynamic AIR
-- Dynamic PUMPKIN
-- Dynamic SNOWY_GRASS
-- Dynamic SNOWY_MYCELIUM
-- Dynamic SNOWY_PODZOL
-- Dynamic UPPER_LARGE_FERN
-- Dynamic UPPER_LILAC
-- Dynamic UPPER_PEONY
-- Dynamic UPPER_ROSE_BUSH
-- Dynamic UPPER_SUNFLOWER
-- Dynamic UPPER_TALL_GRASS
-+ Dynamic access$000()
-+ Dynamic access$1000()
-+ Dynamic access$1400()
-+ Dynamic access$1500()
-+ Dynamic access$1600()
-+ Dynamic access$1700()
-+ Dynamic access$1800()
-+ Dynamic access$1900()
-+ Dynamic access$400()
-+ Dynamic access$500()
-+ Dynamic access$600()
-+ Dynamic fix(Dynamic)
-+ int idFor(Dynamic)
-+ String getName(Dynamic)
-+ String getProperty(String)
-- Dynamic access$000()
-- Dynamic access$1000()
-- Dynamic access$1400()
-- Dynamic access$1500()
-- Dynamic access$1600()
-- Dynamic access$1700()
-- Dynamic access$1800()
-- Dynamic access$1900()
-- Dynamic access$400()
-- Dynamic access$500()
-- Dynamic access$600()
-- Dynamic fix(Dynamic)
-- int idFor(Dynamic)
-- String getName(Dynamic)
-- String getProperty(String)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix$Section</summary>
-
-```diff
-+ Dynamic section
-+ List listTag
-- Dynamic listTag
-- Dynamic section
 + Dynamic getBlock(int)
-+ Dynamic write()
-+ void <init>(Dynamic)
-+ void setBlock(Dynamic)
 - Dynamic getBlock(int)
++ Dynamic getBlockEntity(int)
+- Dynamic getBlockEntity(int)
++ Dynamic removeBlockEntity(int)
+- Dynamic removeBlockEntity(int)
++ Dynamic write()
 - Dynamic write()
++ void <init>(Dynamic)
 - void <init>(Dynamic)
-- void setBlock(Dynamic)
++ void lambda$null$0(Dynamic)
+- void lambda$null$0(Dynamic)
++ void lambda$null$2(Dynamic)
+- void lambda$null$2(Dynamic)
++ void setBlock(int,Dynamic)
+- void setBlock(int,Dynamic)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.ChunkStructuresTemplateRenameFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.ChunkToProtochunkFix</summary>
 
 ```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic,int)
++ Dynamic lambda$null$4(Dynamic,ShortList)
+- IllegalStateException lambda$null$2()
++ IllegalStateException lambda$null$5()
++ Optional lambda$null$0(Typed)
++ Optional lambda$null$1(Dynamic)
++ ShortArrayList lambda$null$2(int)
+- Typed lambda$makeRule$4(OpticFinder,Type,OpticFinder,Typed)
++ Typed lambda$makeRule$7(OpticFinder,Type,OpticFinder,Typed)
+- Typed lambda$null$3(OpticFinder,Type,Typed)
++ Typed lambda$null$6(OpticFinder,Type,Typed)
+- void lambda$null$1(List,Dynamic,Dynamic)
++ void lambda$null$3(List,Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.ColorlessShulkerEntityFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityBlockStateFix</summary>
 
 ```diff
-+ Dynamic lambda$fix$0(Dynamic)
-- Dynamic lambda$fix$0(Dynamic)
++ Either lambda$updateFallingBlock$10(Dynamic,Either)
+- Either lambda$updateFallingBlock$10(Dynamic,Either)
++ Integer lambda$null$8(Dynamic)
+- Integer lambda$null$8(Dynamic)
++ Integer lambda$null$9(Dynamic,Unit)
+- Integer lambda$null$9(Dynamic,Unit)
++ Pair lambda$updateBlockToBlockState$12(Dynamic,String,Pair)
+- Pair lambda$updateBlockToBlockState$12(Dynamic,String,Pair)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.EntityArmorStandSilentFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityElderGuardianSplitFix</summary>
 
 ```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityCatSplitFix</summary>
-
-```diff
-+ Pair getNewNameAndTag(Dynamic)
-- Pair getNewNameAndTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityCustomNameToComponentFix</summary>
-
-```diff
-+ Dynamic fixTagCustomName(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic fixTagCustomName(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityEquipmentToArmorAndHandFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
++ Pair getNewNameAndTag(String,Dynamic)
+- Pair getNewNameAndTag(String,Dynamic)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.EntityIdFix</summary>
-
-```diff
-+ Function lambda$makeRule$3(DynamicOps)
-- Function lambda$makeRule$3(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityMinecartIdentifiersFix</summary>
-
-```diff
-+ DataResult lambda$null$0(Dynamic)
-+ Function lambda$makeRule$3(DynamicOps)
-+ IllegalStateException lambda$null$1()
-+ Pair lambda$null$2(Pair)
-- Function lambda$makeRule$2(DynamicOps)
-- IllegalStateException lambda$null$0()
-- Pair lambda$null$1(Pair)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityPaintingMotiveFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.EntityHealthFix</summary>
 
 ```diff
 + Dynamic fixTag(Dynamic)
@@ -7182,389 +2600,282 @@
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.EntityRedundantChanceTagsFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.EntityItemFrameDirectionFix</summary>
 
 ```diff
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityRidingToPassengersFix</summary>
-
-```diff
-+ Either lambda$null$2(Pair)
-+ Function lambda$cap$6(DynamicOps)
-+ Pair lambda$null$5(Pair)
-- Either lambda$null$2(Pair)
-- Function lambda$cap$6(DynamicOps)
-- Pair lambda$null$5(Pair)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityShulkerRotationFix</summary>
-
-```diff
-+ Double lambda$fixTag$0(Dynamic)
 + Dynamic fixTag(Dynamic)
-- Double lambda$fixTag$0(Dynamic)
 - Dynamic fixTag(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.EntityStringUuidFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityPaintingItemFrameDirectionFix</summary>
 
 ```diff
++ Dynamic doFix(Dynamic,boolean,boolean)
+- Dynamic doFix(Dynamic,boolean,boolean)
 + Dynamic lambda$null$0(Dynamic)
 - Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityWolfColorFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic lambda$fixTag$0(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic lambda$fixTag$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityZombieVillagerTypeFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ForcePoiRebuild</summary>
-
-```diff
-+ Dynamic cap(Dynamic)
-+ Dynamic lambda$cap$4(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Function lambda$makeRule$1(DynamicOps)
-- Dynamic cap(Dynamic)
-- Dynamic lambda$cap$4(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Function lambda$makeRule$1(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.GossipUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$fix$3(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$fix$3(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.IglooMetadataRemovalFix</summary>
-
-```diff
-+ boolean isIglooPiece(Dynamic)
-+ boolean lambda$null$1(Dynamic)
-+ Dynamic fixTag(Dynamic)
-+ Dynamic removeIglooPieces(Dynamic)
-- boolean isIglooPiece(Dynamic)
-- boolean lambda$null$1(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic removeIglooPieces(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemCustomNameToComponentFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-- Dynamic fixTag(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemLoreFix</summary>
-
-```diff
-+ Dynamic lambda$fixLoreList$5(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$fixLoreList$5(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemRenameFix</summary>
-
-```diff
-+ Function lambda$makeRule$1(DynamicOps)
-- Function lambda$makeRule$1(DynamicOps)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemStackEnchantmentNamesFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic lambda$fixTag$7(Dynamic)
 + Dynamic lambda$null$3(Dynamic)
-+ Dynamic lambda$null$5(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic lambda$fixTag$7(Dynamic)
 - Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.ItemStackUUIDFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.EntityProjectileOwnerFix</summary>
 
 ```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$updateAttributeModifiers$5(Dynamic)
-+ Dynamic lambda$updateSkullOwner$6(Dynamic)
-+ Dynamic updateAttributeModifiers(Dynamic)
-+ Dynamic updateSkullOwner(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$updateAttributeModifiers$5(Dynamic)
-- Dynamic lambda$updateSkullOwner$6(Dynamic)
-- Dynamic updateAttributeModifiers(Dynamic)
-- Dynamic updateSkullOwner(Dynamic)
++ Dynamic setUUID(Dynamic,long,long)
+- Dynamic setUUID(Dynamic,long,long)
++ Dynamic updateItemPotion(Dynamic)
+- Dynamic updateItemPotion(Dynamic)
++ Dynamic updateOwnerArrow(Dynamic)
+- Dynamic updateOwnerArrow(Dynamic)
++ Dynamic updateOwnerLlamaSpit(Dynamic)
+- Dynamic updateOwnerLlamaSpit(Dynamic)
++ Dynamic updateOwnerThrowable(Dynamic)
+- Dynamic updateOwnerThrowable(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.ItemWrittenBookPagesStrictJsonFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityRenameFix</summary>
+
+```diff
++ Function lambda$makeRule$1(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
+- Function lambda$makeRule$1(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
++ Pair lambda$null$0(TaggedChoice$TaggedChoiceType,DynamicOps,TaggedChoice$TaggedChoiceType,Pair)
+- Pair lambda$null$0(TaggedChoice$TaggedChoiceType,DynamicOps,TaggedChoice$TaggedChoiceType,Pair)
++ Typed getEntity(Object,DynamicOps,Type)
+- Typed getEntity(Object,DynamicOps,Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityShulkerColorFix</summary>
 
 ```diff
 + Dynamic fixTag(Dynamic)
-+ Dynamic lambda$fixTag$2(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
 - Dynamic fixTag(Dynamic)
-- Dynamic lambda$fixTag$2(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.JigsawRotationFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.EntitySkeletonSplitFix</summary>
+
+```diff
++ Pair getNewNameAndTag(String,Dynamic)
+- Pair getNewNameAndTag(String,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityUUIDFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$10(Dynamic)
+- Dynamic lambda$null$10(Dynamic)
++ Dynamic lambda$null$11(Dynamic,Dynamic)
+- Dynamic lambda$null$11(Dynamic,Dynamic)
++ Dynamic lambda$null$12(Dynamic)
+- Dynamic lambda$null$12(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$5(Dynamic)
+- Dynamic lambda$null$5(Dynamic)
++ Dynamic lambda$null$6(Dynamic)
+- Dynamic lambda$null$6(Dynamic)
++ Dynamic lambda$updateFox$7(Dynamic,Dynamic)
+- Dynamic lambda$updateFox$7(Dynamic,Dynamic)
++ Dynamic lambda$updateFox$8(Dynamic,Dynamic)
+- Dynamic lambda$updateFox$8(Dynamic,Dynamic)
++ Dynamic lambda$updateLivingEntity$13(Dynamic,Dynamic)
+- Dynamic lambda$updateLivingEntity$13(Dynamic,Dynamic)
++ Dynamic lambda$updateMob$9(Dynamic)
+- Dynamic lambda$updateMob$9(Dynamic)
++ Dynamic lambda$updatePiglin$4(Dynamic)
+- Dynamic lambda$updatePiglin$4(Dynamic)
++ Dynamic lambda$updateProjectile$14(Dynamic,Dynamic)
+- Dynamic lambda$updateProjectile$14(Dynamic,Dynamic)
++ Dynamic updateAnimal(Dynamic)
+- Dynamic updateAnimal(Dynamic)
++ Dynamic updateAnimalOwner(Dynamic)
+- Dynamic updateAnimalOwner(Dynamic)
++ Dynamic updateAreaEffectCloud(Dynamic)
+- Dynamic updateAreaEffectCloud(Dynamic)
++ Dynamic updateEntityUUID(Dynamic)
+- Dynamic updateEntityUUID(Dynamic)
++ Dynamic updateEvokerFangs(Dynamic)
+- Dynamic updateEvokerFangs(Dynamic)
++ Dynamic updateFox(Dynamic)
+- Dynamic updateFox(Dynamic)
++ Dynamic updateHurtBy(Dynamic)
+- Dynamic updateHurtBy(Dynamic)
++ Dynamic updateItem(Dynamic)
+- Dynamic updateItem(Dynamic)
++ Dynamic updateLivingEntity(Dynamic)
+- Dynamic updateLivingEntity(Dynamic)
++ Dynamic updateMob(Dynamic)
+- Dynamic updateMob(Dynamic)
++ Dynamic updatePiglin(Dynamic)
+- Dynamic updatePiglin(Dynamic)
++ Dynamic updateProjectile(Dynamic)
+- Dynamic updateProjectile(Dynamic)
++ Dynamic updateShulkerBullet(Dynamic)
+- Dynamic updateShulkerBullet(Dynamic)
++ Dynamic updateZombieVillager(Dynamic)
+- Dynamic updateZombieVillager(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityZombieSplitFix</summary>
+
+```diff
++ Pair getNewNameAndTag(String,Dynamic)
+- Pair getNewNameAndTag(String,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.FurnaceRecipeFix</summary>
+
+```diff
+- void lambda$null$4(List,int,Object)
++ void lambda$null$4(List,int,Pair)
++ void lambda$updateFurnaceContents$5(Type,List,int,Dynamic)
+- void lambda$updateFurnaceContents$5(Type,List,int,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.HeightmapRenamingFix</summary>
 
 ```diff
 + Dynamic fix(Dynamic)
-+ Dynamic lambda$fix$0(Dynamic)
 - Dynamic fix(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemSpawnEggFix</summary>
+
+```diff
++ DataResult lambda$null$4(Type,Dynamic,String,Dynamic)
+- IllegalStateException lambda$null$4()
++ IllegalStateException lambda$null$5()
+- Typed lambda$makeRule$5(OpticFinder,OpticFinder,OpticFinder,OpticFinder,OpticFinder,Typed)
++ Typed lambda$makeRule$6(OpticFinder,OpticFinder,OpticFinder,OpticFinder,OpticFinder,Type,Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.JigsawPropertiesFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LeavesFix</summary>
+
+```diff
++ Dynamic lambda$null$5(int[],Dynamic)
+- Dynamic lambda$null$5(int[],Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LeavesFix$Section</summary>
+
+```diff
++ Dynamic lambda$write$1(Dynamic)
+- Dynamic lambda$write$1(Dynamic)
++ Pair lambda$write$2(Dynamic)
+- Pair lambda$write$2(Dynamic)
++ void readStorage(Dynamic)
+- void readStorage(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LevelFlatGeneratorInfoFix</summary>
+
+```diff
++ Dynamic fix(Dynamic)
+- Dynamic fix(Dynamic)
++ Dynamic lambda$fix$1(Dynamic)
+- Dynamic lambda$fix$1(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.MapIdFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.MobSpawnerEntityIdentifiersFix</summary>
+
+```diff
++ Dynamic fix(Dynamic)
+- Dynamic fix(Dynamic)
++ Dynamic lambda$fix$0(Dynamic)
 - Dynamic lambda$fix$0(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.LeavesFix$LeavesSection</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.NewVillageFix</summary>
 
 ```diff
-+ Dynamic makeLeafTag(String,boolean,int)
-- Dynamic makeLeafTag(String,boolean,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.LevelDataGeneratorOptionsFix</summary>
-
-```diff
-+ DataResult lambda$null$1(Dynamic)
-+ Dynamic convert(DynamicOps)
-+ IllegalStateException lambda$null$2()
-+ Object lambda$convert$4(Pair)
-+ Pair lambda$convert$6(Map$Entry)
-+ Pair lambda$null$5(Map$Entry)
-+ Typed lambda$makeRule$3(Typed)
-- Dynamic convert(DynamicOps)
-- IllegalStateException lambda$null$1()
-- Object lambda$convert$3(Pair)
-- Pair lambda$convert$5(Map$Entry)
-- Pair lambda$null$4(Map$Entry)
-- Typed lambda$makeRule$2(Typed)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.LevelUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$10(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$null$7(Dynamic)
-+ Dynamic lambda$null$8(Dynamic)
-+ Dynamic lambda$null$9(Dynamic)
-+ Dynamic lambda$updateCustomBossEvents$12(Dynamic)
-+ Dynamic lambda$updateDragonFight$6(Dynamic)
-+ Dynamic updateCustomBossEvents(Dynamic)
-+ Dynamic updateDragonFight(Dynamic)
-+ Dynamic updateWanderingTrader(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$10(Dynamic)
-- Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$null$7(Dynamic)
-- Dynamic lambda$null$8(Dynamic)
-- Dynamic lambda$null$9(Dynamic)
-- Dynamic lambda$updateCustomBossEvents$12(Dynamic)
-- Dynamic lambda$updateDragonFight$6(Dynamic)
-- Dynamic updateCustomBossEvents(Dynamic)
-- Dynamic updateDragonFight(Dynamic)
-- Dynamic updateWanderingTrader(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.MemoryExpiryDataFix</summary>
-
-```diff
-+ Dynamic fixTag(Dynamic)
-+ Dynamic updateBrain(Dynamic)
-+ Dynamic updateMemories(Dynamic)
-+ Dynamic wrapMemoryValue(Dynamic)
-- Dynamic fixTag(Dynamic)
-- Dynamic updateBrain(Dynamic)
-- Dynamic updateMemories(Dynamic)
-- Dynamic wrapMemoryValue(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ObjectiveDisplayNameFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Function lambda$makeRule$4(DynamicOps)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Function lambda$makeRule$4(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.OptionsAddTextBackgroundFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(String)
-+ Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$0(String)
-- Dynamic lambda$null$1(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.OptionsKeyLwjgl3Fix</summary>
-
-```diff
-+ Dynamic lambda$null$2(Map)
-+ Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$2(Map)
-- Dynamic lambda$null$3(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.OptionsLowerCaseLanguageFix</summary>
-
-```diff
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.PoiTypeRename</summary>
-
-```diff
-+ Dynamic cap(Dynamic)
-+ Dynamic lambda$cap$5(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$11(Dynamic)
+- Dynamic lambda$null$11(Dynamic)
++ Dynamic lambda$null$12(Dynamic)
+- Dynamic lambda$null$12(Dynamic)
++ Dynamic lambda$null$5(Dynamic,Dynamic)
+- Dynamic lambda$null$5(Dynamic,Dynamic)
 + Dynamic lambda$null$6(Dynamic)
+- Dynamic lambda$null$6(Dynamic)
 + Dynamic lambda$null$7(Dynamic)
-+ Dynamic lambda$renameRecords$8(Stream)
-+ Function lambda$makeRule$1(DynamicOps)
-+ Optional renameRecords(Dynamic)
-- Dynamic cap(Dynamic)
-- Dynamic lambda$cap$5(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$6(Dynamic)
 - Dynamic lambda$null$7(Dynamic)
-- Dynamic lambda$renameRecords$8(Stream)
-- Function lambda$makeRule$1(DynamicOps)
-- Optional renameRecords(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.RecipesRenameFix</summary>
+
+<details><summary>net.minecraft.util.datafix.fixes.ObjectiveRenderTypeFix</summary>
 
 ```diff
-+ Function lambda$makeRule$1(DynamicOps)
-- Function lambda$makeRule$1(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.RedstoneWireConnectionsFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$updateRedstoneConnections$5(Dynamic)
-+ Dynamic updateRedstoneConnections(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
-- Dynamic lambda$null$6(Dynamic)
-- Dynamic lambda$null$7(Dynamic)
-- Dynamic lambda$null$8(Dynamic)
-- Dynamic lambda$updateRedstoneConnections$9(Dynamic)
-- Dynamic updateRedstoneConnections(Dynamic)
-- String lambda$null$1()
-- String lambda$null$2()
-- String lambda$null$3()
-- String lambda$null$4()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.RenameBiomesFix</summary>
-
-```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
 + Function lambda$makeRule$2(DynamicOps)
 - Function lambda$makeRule$2(DynamicOps)
 ```
@@ -7572,458 +2883,279 @@
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.SavedDataUUIDFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.OptionsForceVBOFix</summary>
 
 ```diff
 + Dynamic lambda$null$0(Dynamic)
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$2(Dynamic)
-+ Dynamic lambda$null$3(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$null$5(Dynamic)
 - Dynamic lambda$null$0(Dynamic)
-- Dynamic lambda$null$1(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.OptionsKeyTranslationFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic,Map)
+- Dynamic lambda$null$1(Dynamic,Map)
++ Dynamic lambda$null$2(Dynamic)
 - Dynamic lambda$null$2(Dynamic)
-- Dynamic lambda$null$3(Dynamic)
-- Dynamic lambda$null$4(Dynamic)
-- Dynamic lambda$null$5(Dynamic)
++ Pair lambda$null$0(Dynamic,Map$Entry)
+- Pair lambda$null$0(Dynamic,Map$Entry)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.datafix.fixes.SimpleEntityRenameFix</summary>
 
-```diff
-+ Pair getNewNameAndTag(java.lang.String,com.mojang.serialization.Dynamic)
-- Pair getNewNameAndTag(java.lang.String,com.mojang.datafixers.Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.StatsCounterFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.PlayerUUIDFix</summary>
 
 ```diff
 + Dynamic lambda$null$0(Dynamic)
 - Dynamic lambda$null$0(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.StructureReferenceCountFix</summary>
-
-```diff
-+ Dynamic lambda$setCountToAtLeastOne$2(Dynamic)
-+ Dynamic setCountToAtLeastOne(Dynamic)
-- Dynamic lambda$setCountToAtLeastOne$2(Dynamic)
-- Dynamic setCountToAtLeastOne(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.TeamDisplayNameFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
 + Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ReorganizePoi</summary>
+
+```diff
++ Dynamic cap(Dynamic)
+- Dynamic cap(Dynamic)
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.SavedDataVillageCropFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic lambda$updateChildren$0(Dynamic)
+- Dynamic lambda$updateChildren$0(Dynamic)
++ Dynamic updateChildren(Dynamic)
+- Dynamic updateChildren(Dynamic)
++ Dynamic updateCrop(Dynamic,String)
+- Dynamic updateCrop(Dynamic,String)
++ Dynamic updateDoubleField(Dynamic)
+- Dynamic updateDoubleField(Dynamic)
++ Dynamic updateSingleField(Dynamic)
+- Dynamic updateSingleField(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.SimplestEntityRenameFix</summary>
+
+```diff
++ Function lambda$makeRule$2(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
+- Function lambda$makeRule$2(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
 + Function lambda$makeRule$4(DynamicOps)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
 - Function lambda$makeRule$4(DynamicOps)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.datafix.fixes.VillagerFollowRangeFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.StriderGravityFix</summary>
 
 ```diff
-+ Dynamic fixValue(Dynamic)
-+ Dynamic lambda$fixValue$1(Dynamic)
-+ Dynamic lambda$null$0(Dynamic)
-- Dynamic fixValue(Dynamic)
-- Dynamic lambda$fixValue$1(Dynamic)
-- Dynamic lambda$null$0(Dynamic)
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.util.datafix.schemas.NamespacedSchema</summary>
+<details><summary>net.minecraft.util.datafix.fixes.VillagerRebuildLevelAndXpFix</summary>
 
 ```diff
-+ PrimitiveCodec NAMESPACED_STRING_CODEC
-+ Type NAMESPACED_STRING
-+ Type namespacedString()
-+ void <clinit>()
++ Dynamic lambda$addLevel$5(int,Dynamic)
+- Dynamic lambda$addLevel$5(int,Dynamic)
++ Dynamic lambda$addXpFromLevel$6(int,Dynamic)
+- Dynamic lambda$addXpFromLevel$6(int,Dynamic)
++ Dynamic lambda$null$4(int,Dynamic)
+- Dynamic lambda$null$4(int,Dynamic)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V704$1</summary>
+<details><summary>net.minecraft.util.datafix.fixes.WallPropertyFix</summary>
 
 ```diff
-+ Object apply(Object)
-- Object apply(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V705$1</summary>
-
-```diff
-+ Object apply(Object)
-- Object apply(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V99</summary>
-
-```diff
-+ Dynamic lambda$addNames$35(Dynamic)
-+ Dynamic lambda$null$33(Dynamic)
-+ Dynamic lambda$null$34(Dynamic)
-+ Object addNames(String)
-- Dynamic lambda$addNames$35(Dynamic)
-- Dynamic lambda$null$33(Dynamic)
-- Dynamic lambda$null$34(Dynamic)
-- Object addNames(String)
++ Dynamic fixWallProperty(Dynamic,String)
+- Dynamic fixWallProperty(Dynamic,String)
++ Dynamic lambda$fixWallProperty$1(Dynamic)
+- Dynamic lambda$fixWallProperty$1(Dynamic)
++ Dynamic lambda$upgradeBlockStateTag$2(Dynamic)
+- Dynamic lambda$upgradeBlockStateTag$2(Dynamic)
++ Dynamic upgradeBlockStateTag(Dynamic)
+- Dynamic upgradeBlockStateTag(Dynamic)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.util.datafix.fixes.ZombieVillagerRebuildXpFix</summary>
 
 ```diff
-- DimensionType dimension
-+ Entity changeDimension(ResourceKey)
-+ void sendMessage(UUID)
-- Entity changeDimension(DimensionType)
-- void sendMessage(Component)
++ Dynamic lambda$fix$0(Dynamic)
+- Dynamic lambda$fix$0(Dynamic)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.Brain</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V99$1</summary>
 
 ```diff
-+ Logger LOGGER
-+ Supplier codec
-+ boolean lambda$isMemoryValue$1(Object)
-+ Brain$MemoryValue lambda$memories$0(Map$Entry)
-+ Brain$Provider provider(Collection)
-+ Codec codec(Collection)
-+ DataResult serializeStart(DynamicOps)
-+ Logger access$000()
-+ Map lambda$addActivityAndRemoveMemoriesWhenStopped$2(Integer)
-+ Set lambda$addActivityAndRemoveMemoriesWhenStopped$3(Activity)
-+ Stream access$200(Brain)
-+ Stream memories()
-+ void <clinit>()
-+ void <init>(Supplier)
-+ void access$500(Optional)
-- boolean lambda$isMemoryValue$0(Object)
-- Map lambda$addActivityAndRemoveMemoriesWhenStopped$1(Integer)
-- Object serialize(DynamicOps)
-- Set lambda$addActivityAndRemoveMemoriesWhenStopped$2(Activity)
-- void <init>(Dynamic)
-- void readMemory(Dynamic)
++ Object apply(DynamicOps,Object)
+- Object apply(DynamicOps,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.MeleeAttackGoal</summary>
+<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
 
 ```diff
-+ boolean followingTargetEvenIfNotSeen
-+ int ticksUntilNextAttack
-+ int ticksUntilNextPathRecalculation
-+ long lastCanUseCheck
-- boolean trackTarget
-- int attackTime
-- int timeToRecalcPath
-- long lastUpdate
-+ boolean isTimeToAttack()
-+ int getAttackInterval()
-+ int getTicksUntilNextAttack()
-+ void resetAttackCooldown()
+- boolean lambda$getAllChunkPos$2(File,String)
++ boolean lambda$getAllChunkPos$3(File,String)
+- DimensionDataStorage lambda$work$1()
++ DimensionDataStorage lambda$work$2()
++ DimensionType lambda$new$0(Map$Entry)
++ ImmutableMap dimensionTypes()
+- List getAllChunkPos(DimensionType)
++ List getAllChunkPos(ResourceKey)
+- void lambda$new$0(Thread,Throwable)
++ void lambda$new$1(Thread,Throwable)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer</summary>
+<details><summary>net.minecraft.world.entity.EntityType</summary>
 
 ```diff
-+ Dynamic lambda$store$6(GossipContainer$GossipEntry)
+- Logger access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
+- Boolean lambda$checkBedExists$6(BlockPos)
++ Boolean lambda$checkBedExists$7(BlockPos)
+- boolean lambda$isHolding$4(Item,Item)
++ boolean lambda$isHolding$5(Item,Item)
++ Brain makeBrain(Dynamic)
+- Brain makeBrain(Dynamic)
++ Brain$Provider brainProvider()
+- Vec3 lambda$null$7(BlockPos)
++ Vec3 lambda$null$8(BlockPos)
++ void lambda$addAdditionalSaveData$2(CompoundTag,Tag)
+- void lambda$hurt$3(LivingEntity)
++ void lambda$hurt$4(LivingEntity)
+- void lambda$stopSleeping$8(BlockPos)
++ void lambda$stopSleeping$9(BlockPos)
+- void lambda$tickEffects$2(MobEffectInstance)
++ void lambda$tickEffects$3(MobEffectInstance)
+- void lambda$updateFallFlying$5(LivingEntity)
++ void lambda$updateFallFlying$6(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.MobCategory</summary>
+
+```diff
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer$GossipEntry</summary>
+
+```diff
++ DataResult load(Dynamic)
 + Dynamic store(DynamicOps)
-+ Stream lambda$update$7(DataResult)
-+ void lambda$update$8(GossipContainer$GossipEntry)
-+ void update(Dynamic)
-- Dynamic lambda$store$6(GossipContainer$GossipEntry)
 - Dynamic store(DynamicOps)
-- void lambda$update$7(GossipContainer$GossipEntry)
-- void update(Dynamic)
+- GossipContainer$GossipEntry lambda$null$0(UUID,GossipType,Number)
+- Optional lambda$load$2(Dynamic,GossipType)
+- Optional lambda$null$1(Dynamic,GossipType,UUID)
+- Optional load(Dynamic)
++ void <init>(SerializableUUID,GossipType,int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.ai.memory.ExpirableValue</summary>
+<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
 
 ```diff
-+ App lambda$codec$3(RecordCodecBuilder$Instance)
-+ Codec codec(Codec)
-+ ExpirableValue lambda$null$2(Optional)
-+ Object lambda$null$0(ExpirableValue)
-+ Optional lambda$null$1(ExpirableValue)
-- Object serialize(DynamicOps)
-- void <init>(Dynamic)
-- void <init>(Object)
++ MemoryModuleType register(String,Codec)
+- MemoryModuleType register(String,Optional)
++ Optional getCodec()
+- Optional getDeserializer()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiSection</summary>
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
 
 ```diff
-+ App lambda$codec$2(RecordCodecBuilder$Instance)
-+ boolean lambda$getRecords$4(Map$Entry)
-+ Boolean lambda$null$0(PoiSection)
++ App lambda$codec$3(Runnable,RecordCodecBuilder$Instance)
++ BlockPos lambda$null$0(PoiRecord)
 + Codec codec(Runnable)
-+ List lambda$null$1(PoiSection)
-+ Object lambda$add$6(PoiType)
-+ Object lambda$add$7(BlockPos)
-+ PoiRecord lambda$null$9(PoiType,int)
-+ PoiSection lambda$codec$3(Runnable)
-+ Set lambda$add$8(PoiType)
-+ Stream lambda$getRecords$5(Map$Entry)
-+ void <init>(List)
-+ void lambda$refresh$10(PoiType)
-- boolean lambda$getRecords$1(Map$Entry)
-- Object lambda$add$3(PoiType)
-- Object lambda$add$4(BlockPos)
-- Object lambda$serialize$6(PoiRecord)
++ Integer lambda$null$2(PoiRecord)
 - Object serialize(DynamicOps)
-- PoiRecord lambda$null$7(PoiType,int)
-- Set lambda$add$5(PoiType)
-- Stream lambda$getRecords$2(Map$Entry)
-- void <init>(Dynamic)
-- void lambda$new$0(Dynamic)
-- void lambda$refresh$8(PoiType)
++ PoiType lambda$null$1(PoiRecord)
+- void <init>(Dynamic,Runnable)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.animal.AbstractFish</summary>
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
 
 ```diff
-+ void playStepSound(BlockState)
++ SoundEvent getEatingSound()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
+<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
 
 ```diff
-- SoundEvent getAngrySound()
++ SoundEvent getEatingSound()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.animal.horse.Donkey</summary>
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
++ SoundEvent getEatingSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Mule</summary>
 
 ```diff
 + SoundEvent getAngrySound()
@@ -8033,714 +3165,264 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
 
 ```diff
-+ Brain makeBrain(Brain)
-- Brain makeBrain(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-+ Brain makeBrain(Dynamic)
-+ Brain$Provider brainProvider()
-- Brain makeBrain(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-- IntRange RANDOM_STROLL_INTERVAL_WHEN_ADMIRING
-+ Brain makeBrain(Brain)
-- Behavior admireHeldItem()
-- Brain makeBrain(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.Villager</summary>
-
-```diff
-+ boolean lambda$getPlayerReputation$7(GossipType)
-+ boolean lambda$spawnGolemIfNeeded$9(Villager)
-+ boolean lambda$tellWitnessesThatIWasMurdered$4(LivingEntity)
-+ Brain makeBrain(Dynamic)
-+ Brain$Provider brainProvider()
-+ int lambda$countFoodPointsInInventory$8(Map$Entry)
-+ void lambda$addAdditionalSaveData$3(Tag)
-+ void lambda$releasePoi$6(GlobalPos)
-+ void lambda$spawnGolemIfNeeded$10(Villager)
-+ void lambda$tellWitnessesThatIWasMurdered$5(LivingEntity)
-- boolean lambda$getPlayerReputation$6(GossipType)
-- boolean lambda$spawnGolemIfNeeded$8(Villager)
-- boolean lambda$tellWitnessesThatIWasMurdered$3(LivingEntity)
-- Brain makeBrain(Dynamic)
-- int lambda$countFoodPointsInInventory$7(Map$Entry)
-- void lambda$releasePoi$5(GlobalPos)
-- void lambda$spawnGolemIfNeeded$9(Villager)
-- void lambda$tellWitnessesThatIWasMurdered$4(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
-
-```diff
-- ServerLevel level
-+ BlockPos findSpawnPositionNear(BlockPos,int)
-+ boolean hasEnoughSpace(BlockPos)
-+ boolean spawn(ServerLevel)
-+ int tick(ServerLevel,boolean,boolean)
-+ void <init>(ServerLevelData)
-- BlockPos findSpawnPositionNear(BlockPos,int)
-- boolean hasEnoughSpace(BlockPos)
-- boolean spawn()
-- void <init>(ServerLevelData)
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownEnderpearl</summary>
-
-```diff
-+ Entity changeDimension(ResourceKey)
 - Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
+<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
 
 ```diff
-+ Logger LOGGER
-+ void <clinit>()
-+ void addLodestoneTags(CompoundTag)
-+ void lambda$addLodestoneTags$0(Tag)
-- void addLodestoneTags(CompoundTag)
++ Brain makeBrain(Dynamic)
+- Brain makeBrain(Dynamic)
++ Brain$Provider brainProvider()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
+<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
 
 ```diff
-+ Codec CODEC
++ void lambda$addAdditionalSaveData$0(CompoundTag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
++ Brain makeBrain(Dynamic)
+- Brain makeBrain(Dynamic)
++ Brain$Provider brainProvider()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+
+```diff
+- Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.VillagerData</summary>
+
+```diff
 + App lambda$static$3(RecordCodecBuilder$Instance)
-+ Integer lambda$null$1(ItemStack)
-+ Item lambda$null$0(ItemStack)
-+ MutableComponent lambda$expandBlockState$6(MutableComponent)
-+ Optional lambda$null$2(ItemStack)
-+ Style lambda$getDisplayName$7(Style)
-+ void <init>(Optional)
-+ void lambda$appendEnchantmentNames$5(Enchantment)
-+ void lambda$static$4(DecimalFormat)
-- MutableComponent lambda$expandBlockState$2(MutableComponent)
-- Style lambda$getDisplayName$3(Style)
-- void lambda$appendEnchantmentNames$1(Enchantment)
-- void lambda$static$0(DecimalFormat)
++ Integer lambda$null$2(VillagerData)
+- Object serialize(DynamicOps)
++ VillagerProfession lambda$null$1(VillagerData)
++ VillagerType lambda$null$0(VillagerData)
+- void <init>(Dynamic)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds</summary>
 
 ```diff
-+ void <init>(DynamicLike)
-+ void <init>(MinecraftServer)
-+ void lambda$loadFromTag$5(GameRules$Value)
-+ void loadFromTag(DynamicLike)
-- void lambda$loadFromTag$5(GameRules$Value)
-- void loadFromTag(CompoundTag)
+- void <init>(int,String,MapDecoration$Type,int,int)
++ void <init>(int,StructureFeature,MapDecoration$Type,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$8(RecordCodecBuilder$Instance)
-+ Integer lambda$null$0(BiomeSpecialEffects)
-+ Integer lambda$null$1(BiomeSpecialEffects)
-+ Integer lambda$null$2(BiomeSpecialEffects)
-+ Optional lambda$null$3(BiomeSpecialEffects)
-+ Optional lambda$null$4(BiomeSpecialEffects)
-+ Optional lambda$null$5(BiomeSpecialEffects)
-+ Optional lambda$null$6(BiomeSpecialEffects)
-+ Optional lambda$null$7(BiomeSpecialEffects)
-+ void <clinit>()
+- Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
+<details><summary>net.minecraft.world.item.MapItem</summary>
 
 ```diff
-+ Codec CODEC
-+ Biome lambda$static$0(FixedBiomeSource)
+- MapItemSavedData createAndStoreSavedData(ItemStack,Level,int,int,int,boolean,boolean,DimensionType)
++ MapItemSavedData createAndStoreSavedData(ItemStack,Level,int,int,int,boolean,boolean,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BaseCommandBlock</summary>
+
+```diff
++ void sendMessage(Component,UUID)
+- void sendMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
+- Dimension getDimension()
++ ResourceKey dimension()
+- void setDayTime(long)
+- void setGameTime(long)
+- void tickTime()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.CheckerboardColumnBiomeSource</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
 + Codec codec()
++ Integer lambda$null$1(CheckerboardColumnBiomeSource)
++ List lambda$null$0(CheckerboardColumnBiomeSource)
 + void <clinit>()
+- void <init>(Biome[],int)
++ void <init>(List,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+<details><summary>net.minecraft.world.level.biome.CrimsonForestBiome</summary>
 
 ```diff
-+ Codec CODEC
-+ long seed
-+ MapCodec DIRECT_CODEC
-+ Optional preset
-+ App lambda$null$1(RecordCodecBuilder$Instance)
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ boolean stable(long)
-+ Codec codec()
-+ Either lambda$null$6(MultiNoiseBiomeSource$Preset)
-+ Either lambda$null$7(MultiNoiseBiomeSource)
-+ Either lambda$static$8(MultiNoiseBiomeSource)
-+ Float lambda$getNoiseBiome$11(Pair)
-+ List lambda$null$2(MultiNoiseBiomeSource)
-+ Long lambda$null$0(MultiNoiseBiomeSource)
-+ MultiNoiseBiomeSource access$000(long)
-+ MultiNoiseBiomeSource defaultNether(long)
-+ MultiNoiseBiomeSource lambda$null$4(Pair)
-+ MultiNoiseBiomeSource lambda$static$5(Either)
-+ Pair lambda$null$9(Biome$ClimateParameters)
-+ Stream lambda$defaultNether$10(Biome)
-+ void <clinit>()
-+ void <init>(Optional)
-- Float lambda$getNoiseBiome$2(Pair)
-- MultiNoiseBiomeSource of(List)
-- Pair lambda$null$0(Biome$ClimateParameters)
-- Stream lambda$of$1(Biome)
+- Double lambda$new$0(Random)
+- Double lambda$new$1(Random)
+- Double lambda$new$2(Random)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.Property</summary>
+<details><summary>net.minecraft.world.level.block.state.StateHolder</summary>
 
 ```diff
-+ Class clazz
-+ Codec codec
-+ Integer hashCode
-+ String name
-- Class getValueClass()
-- String getName()
-+ boolean equals(Object)
-+ Class getValueClass()
-+ Codec codec()
-+ DataResult lambda$new$1(String)
-+ DataResult lambda$null$0(String)
-+ DataResult parseValue(Object)
-+ int generateHashCode()
-+ int hashCode()
-+ StateHolder lambda$parseValue$2(Comparable)
-+ String getName()
++ boolean hasProperty(Property)
++ Codec codec(Codec,Function)
++ Codec lambda$codec$1(Function,Object)
++ Collection getProperties()
++ Comparable getValue(Property)
++ ImmutableMap getValues()
++ Map makeNeighbourValues(Property,Comparable)
++ Object cycle(Property)
++ Object findNextInCollection(Collection,Object)
++ Object lambda$codec$0(StateHolder)
++ Object setValue(Property,Comparable)
++ Optional getOptionalValue(Property)
+- StateHolder setValueHelper(StateHolder,Property,String,String,String)
+- String getName(Property,Comparable)
 + String toString()
-+ void <init>(Class)
++ void <init>(Object,ImmutableMap,MapCodec)
++ void populateNeighbours(Map)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.border.WorldBorder$Settings</summary>
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
 
 ```diff
-+ WorldBorder$Settings read(WorldBorder$Settings)
-- WorldBorder$Settings read(WorldBorder$Settings)
+- BitSet getCarvingMask(GenerationStep$Carving)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
+- Biome getCarvingOrDecorationBiome(BiomeManager,BlockPos)
+- Biome lambda$applyCarvers$0(BiomeManager,BlockPos)
+- BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(ServerLevel,StructureFeature,BlockPos,int,boolean)
+- boolean canGenerateStructure(StructureFeature)
++ boolean hasStronghold(ChunkPos)
+- boolean isBiomeValidStartForStructure(Biome,StructureFeature)
+- ChunkGeneratorSettings getSettings()
+- FeatureConfiguration getStructureConfiguration(Biome,StructureFeature)
++ StructureSettings getSettings()
++ void <clinit>()
++ void <init>(BiomeSource,BiomeSource,StructureSettings,long)
+- void <init>(BiomeSource,ChunkGeneratorSettings)
++ void <init>(BiomeSource,StructureSettings)
++ void createStructure(ConfiguredStructureFeature,StructureFeatureManager,ChunkAccess,StructureManager,long,ChunkPos,Biome)
+- void createStructures(StructureFeatureManager,BiomeManager,ChunkAccess,ChunkGenerator,StructureManager,long)
++ void createStructures(StructureFeatureManager,ChunkAccess,StructureManager,long)
++ void generateStrongholds()
+- void tickCustomSpawners(ServerLevel,boolean,boolean)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
 
 ```diff
 + BitSet getOrCreateCarvingMask(GenerationStep$Carving)
-+ BitSet lambda$getOrCreateCarvingMask$5(GenerationStep$Carving)
-- BitSet lambda$getCarvingMask$5(GenerationStep$Carving)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
 
 ```diff
-+ Function codec
-- BiFunction deserializer
-- Serializer serializer
-+ Dynamic writeColumn(DynamicOps)
-+ int getVersion(Dynamic)
-+ Optional lambda$readColumn$2(Dynamic)
-+ void <init>(DataFixTypes,boolean)
-+ void lambda$writeColumn$4(long)
-+ void lambda$writeColumn$5(Object)
-+ void readColumn(Object)
-- Dynamic writeColumn(DynamicOps)
-- int getVersion(Dynamic)
-- Object lambda$readColumn$2(Dynamic)
-- void <init>(DataFixTypes,boolean)
-- void readColumn(Object)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ Codec CODEC
-+ DebugLevelSource INSTANCE
-- ChunkGenerator INSTANCE
+- Biome getBiomeFromSettings()
+- Biome getCarvingOrDecorationBiome(BiomeManager,BlockPos)
+- BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
+- boolean canGenerateStructure(StructureFeature)
+- boolean isBiomeValidStartForStructure(Biome,StructureFeature)
 + Codec codec()
-+ DebugLevelSource lambda$static$0()
-+ Stream lambda$static$1(Block)
-- Stream lambda$static$0(Block)
+- FeatureConfiguration getStructureConfiguration(Biome,StructureFeature)
++ FlatLevelGeneratorSettings settings()
++ void <clinit>()
+- void tickCustomSpawners(ServerLevel,boolean,boolean)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
+<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
 
 ```diff
-+ Codec CODEC
-+ LinkedHashMap dimensions
-+ Optional legacyCustomOptions
-- boolean isOldCustomizedWorld
-- ChunkGenerator FLAT
-- ChunkGenerator generator
-- Dynamic EMPTY_SETTINGS
-- Dynamic settings
-- Map PRESETS
-- String legacyCustomOptions
-- WorldGenSettings$LevelType type
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ boolean stable()
-+ DataResult guardExperimental()
-+ LinkedHashMap dimensions()
-+ LinkedHashMap withOverworld(ChunkGenerator)
-+ NoiseBasedChunkGenerator makeDefaultOverworld(long)
-+ Optional lambda$null$0(WorldGenSettings)
-+ String lambda$create$2(String)
-+ void <init>(LinkedHashMap)
-+ void <init>(Optional)
-+ WorldGenSettings create(Properties)
-- Biome lambda$null$1(Dynamic)
-- Biome[] lambda$createBuffetBiomeSource$3(int)
-- BiomeSource createBuffetBiomeSource(DynamicLike,long)
-- ChunkGenerator defaultEndGenerator(long)
-- ChunkGenerator defaultNetherGenerator(long)
-- ChunkGenerator make(Dynamic,long)
-- CompoundTag serialize()
-- Dynamic createBuffetSettings(Set)
-- FlatLevelGeneratorSettings parseFlatSettings()
-- Map access$300()
-- Map generators()
-- Object getRegistryValue(Object)
-- Optional lambda$make$0(String)
-- Pair parseBuffetSettings()
-- Stream lambda$createBuffetBiomeSource$2(Stream)
-- void <init>(ChunkGenerator)
-- void <init>(String,boolean)
-- WorldGenSettings fromBuffetSettings(Set)
-- WorldGenSettings fromFlatSettings(FlatLevelGeneratorSettings)
-- WorldGenSettings read(Properties)
-- WorldGenSettings readWorldGenSettings(DataFixer,int)
-- WorldGenSettings withPreset(WorldGenSettings$Preset)
-- WorldGenSettings withProvider(ChunkGenerator)
-- WorldGenSettings$Preset preset()
+- ConfiguredWorldCarver deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ void <clinit>()
+- void <init>(WorldCarver,Dynamic)
++ WorldCarver lambda$static$0(ConfiguredWorldCarver)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.carver.NoneCarverConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- NoneCarverConfiguration deserialize(Dynamic)
++ NoneCarverConfiguration lambda$static$0()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCaveWorldCarver</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8749,16 +3431,8 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
 
-```diff
-+ void <init>(Codec,int)
-- void <init>(Function,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractHugeMushroomFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8767,7 +3441,8 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BasaltColumnsFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8776,22 +3451,19 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature$FeatureStart</summary>
 
 ```diff
-+ Codec configuredCodec
-- Function configurationFactory
-+ CarverConfiguration lambda$new$1(ConfiguredWorldCarver)
-+ Codec configuredCodec()
-+ ConfiguredWorldCarver lambda$new$0(CarverConfiguration)
-+ void <init>(Codec,int)
-- CarverConfiguration createSettings(Dynamic)
-- void <init>(Function,int)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,MultiJigsawConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8800,7 +3472,8 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BambooFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BonusChestFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8809,7 +3482,31 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,BuriedTreasureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
+
+```diff
+- ConfiguredFeature deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Feature lambda$static$0(ConfiguredFeature)
+- void <init>(Feature,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlobsFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8818,28 +3515,167 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(FeatureConfiguration)
-+ boolean isFeatureChunk(MultiJigsawConfiguration)
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
+- String getFeatureName()
 + void <init>(Codec)
-- boolean isFeatureChunk(ChunkPos)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$Type</summary>
+
+```diff
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SeaPickleFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature</summary>
+
+```diff
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SimpleBlockFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
+
+```diff
+- BlockPos getNearestGeneratedFeature(ServerLevel,ChunkGenerator,BlockPos,int,boolean)
+- boolean featureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration)
+- int getLookupRange()
+- List access$000(StrongholdFeature)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+- void generatePositions(ChunkGenerator,long)
+- void reset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
+
+```diff
++ BlockPos getNearestGeneratedFeature(LevelReader,StructureFeatureManager,BlockPos,int,boolean,long,StructureFeatureConfiguration)
+- BlockPos getNearestGeneratedFeature(ServerLevel,ChunkGenerator,BlockPos,int,boolean)
+- boolean featureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
+- boolean isInsideBoundingFeature(StructureFeatureManager,BlockPos)
+- boolean isInsideFeature(StructureFeatureManager,BlockPos)
+- boolean lambda$getStructureAt$1(BlockPos,StructureStart)
+- boolean lambda$getStructureAt$3(boolean,BlockPos,StructureStart)
+- boolean lambda$null$2(BlockPos,StructurePiece)
+- boolean place(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean supportsProjection()
+- ChunkPos getPotentialFeatureChunk(ChunkGeneratorSettings,long,WorldgenRandom,int,int)
++ ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,WorldgenRandom,int,int)
++ Codec configuredStructureCodec()
+- ConfiguredFeature configured(FeatureConfiguration)
++ ConfiguredStructureFeature configured(FeatureConfiguration)
++ ConfiguredStructureFeature lambda$new$0(FeatureConfiguration)
++ FeatureConfiguration lambda$new$1(ConfiguredStructureFeature)
++ GenerationStep$Decoration step()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
++ List getSpecialAnimals()
++ List getSpecialEnemies()
+- Object lambda$place$0(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,int,int,int,int,StructureStart)
++ String getFeatureName()
++ StructureFeature register(String,StructureFeature,GenerationStep$Decoration)
++ StructureStart createStart(int,int,BoundingBox,int,long)
++ StructureStart generate(ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,Biome,int,WorldgenRandom,StructureFeatureConfiguration,FeatureConfiguration)
+- StructureStart getStructureAt(StructureFeatureManager,BlockPos,boolean)
++ StructureStart loadStaticStart(StructureManager,CompoundTag,long)
++ void <init>(Codec)
+- void <init>(Function)
++ void bootstrap()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature</summary>
+
+```diff
 - boolean supportsProjection()
 - int getLookupRange()
 - int getRandomSalt(ChunkGeneratorSettings)
 - int getSeparation(ChunkGeneratorSettings)
 - int getSpacing(ChunkGeneratorSettings)
 - String getFeatureName()
++ void <init>(Codec)
 - void <init>(Function)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BlockBlobFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.VinesFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8848,7 +3684,8 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BlueIceFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeepingVinesFeature</summary>
 
 ```diff
 + void <init>(Codec)
@@ -8857,1064 +3694,785 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(BuriedTreasureConfiguration)
-+ boolean isFeatureChunk(FeatureConfiguration)
-+ void <init>(Codec)
-- boolean isFeatureChunk(ChunkPos)
-- int getLookupRange()
-- String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RandomSelectorFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(RuinedPortalConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SeagrassFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(ShipwreckConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SimpleRandomSelectorFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SnowAndFreezeFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature$EndSpike</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$4(SpikeFeature$EndSpike)
-+ Integer lambda$null$0(SpikeFeature$EndSpike)
-+ Integer lambda$null$1(SpikeFeature$EndSpike)
-+ Integer lambda$null$2(SpikeFeature$EndSpike)
-+ Integer lambda$null$3(SpikeFeature$EndSpike)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- SpikeFeature$EndSpike deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpringFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
-
-```diff
-+ void <init>(Codec)
-- boolean isSwamphut(BlockPos)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration)
 - int getLookupRange()
 - int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
 - String getFeatureName()
-- void <init>(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TwistingVinesFeature</summary>
-
-```diff
 + void <init>(Codec)
 - void <init>(Function)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature$FeatureStart</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.BlockPlacer</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(JigsawConfiguration)
-- void generatePieces(Biome)
++ void <clinit>()
++ void <init>()
+- void <init>(BlockPlacerType)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.VoidStartPlatformFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.ColumnPlacer</summary>
 
 ```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
-
-```diff
-+ Codec CODEC
 + App lambda$static$2(RecordCodecBuilder$Instance)
-+ ConfiguredFeature lambda$null$0(WeightedConfiguredFeature)
-+ Float lambda$null$1(WeightedConfiguredFeature)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- WeightedConfiguredFeature deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-+ void placeInChunk(ChunkPos)
-- void generatePieces(Biome)
-- void postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.BlockPlacerType</summary>
-
-```diff
-+ Codec codec
-- Function deserializer
-+ BlockPlacerType register(Codec)
-+ Codec codec()
-+ void <init>(Codec)
-- BlockPlacer deserialize(Dynamic)
-- BlockPlacerType register(Function)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.DoublePlantPlacer</summary>
-
-```diff
-+ Codec CODEC
-+ DoublePlantPlacer INSTANCE
 + BlockPlacerType type()
-+ DoublePlantPlacer lambda$static$0()
-+ void <clinit>()
++ Integer lambda$null$0(ColumnPlacer)
++ Integer lambda$null$1(ColumnPlacer)
 - Object serialize(DynamicOps)
++ void <clinit>()
 - void <init>(Dynamic)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockPileConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.SimpleBlockPlacer</summary>
 
 ```diff
-+ Codec CODEC
-+ BlockStateProvider lambda$static$0(BlockPileConfiguration)
++ BlockPlacerType type()
+- Object serialize(DynamicOps)
++ SimpleBlockPlacer lambda$static$0()
 + void <clinit>()
-- BlockPileConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
+- void <init>(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BuriedTreasureConfiguration</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockBlobConfiguration</summary>
 
 ```diff
-+ Codec CODEC
-+ Float lambda$static$0(BuriedTreasureConfiguration)
-+ void <clinit>()
-- BuriedTreasureConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ Integer lambda$null$0(ColumnFeatureConfiguration)
-+ Integer lambda$null$1(ColumnFeatureConfiguration)
-+ Integer lambda$null$2(ColumnFeatureConfiguration)
-+ Integer lambda$null$3(ColumnFeatureConfiguration)
-+ void <clinit>()
-- ColumnFeatureConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ Integer lambda$static$0(CountFeatureConfiguration)
-+ void <clinit>()
-- CountFeatureConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratedFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
 + App lambda$static$2(RecordCodecBuilder$Instance)
-+ ConfiguredDecorator lambda$null$1(DecoratedFeatureConfiguration)
-+ ConfiguredFeature lambda$null$0(DecoratedFeatureConfiguration)
-+ void <clinit>()
-- DecoratedFeatureConfiguration deserialize(Dynamic)
+- BlockBlobConfiguration deserialize(Dynamic)
++ BlockState lambda$null$0(BlockBlobConfiguration)
 - Dynamic serialize(DynamicOps)
++ Integer lambda$null$1(BlockBlobConfiguration)
++ void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockStateConfiguration</summary>
 
 ```diff
-+ Codec CODEC
++ BlockState lambda$static$0(BlockStateConfiguration)
+- BlockStateConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ChanceRangeDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
+- ChanceRangeDecoratorConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$0(ChanceRangeDecoratorConfiguration)
++ Integer lambda$null$1(ChanceRangeDecoratorConfiguration)
++ Integer lambda$null$2(ChanceRangeDecoratorConfiguration)
++ Integer lambda$null$3(ChanceRangeDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountRangeDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
+- CountRangeDecoratorConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(CountRangeDecoratorConfiguration)
++ Integer lambda$null$1(CountRangeDecoratorConfiguration)
++ Integer lambda$null$2(CountRangeDecoratorConfiguration)
++ Integer lambda$null$3(CountRangeDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- BlockPos lambda$null$1(Number,Number,Number)
++ Boolean lambda$null$1(EndGatewayConfiguration)
+- Dynamic serialize(DynamicOps)
+- EndGatewayConfiguration deserialize(Dynamic)
+- Object lambda$serialize$0(DynamicOps,BlockPos)
+- Optional lambda$deserialize$3(Dynamic,Number)
++ Optional lambda$null$0(EndGatewayConfiguration)
+- Optional lambda$null$2(Dynamic,Number,Number)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.FeatureRadiusConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- FeatureRadiusConfiguration deserialize(Dynamic)
++ Integer lambda$static$0(FeatureRadiusConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.JigsawConfiguration</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
+- JigsawConfiguration deserialize(Dynamic)
++ ResourceLocation getStartPool()
+- String getStartPool()
++ void <clinit>()
++ void <init>(ResourceLocation,int)
+- void <init>(String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Double lambda$null$0(MineshaftConfiguration)
+- Dynamic serialize(DynamicOps)
+- MineshaftConfiguration deserialize(Dynamic)
++ MineshaftFeature$Type lambda$null$1(MineshaftConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoiseDependantDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ Double lambda$null$0(NoiseDependantDecoratorConfiguration)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$1(NoiseDependantDecoratorConfiguration)
++ Integer lambda$null$2(NoiseDependantDecoratorConfiguration)
+- NoiseDependantDecoratorConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- NoneFeatureConfiguration deserialize(Dynamic)
++ NoneFeatureConfiguration lambda$static$0()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ BlockState lambda$null$1(OreConfiguration)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$2(OreConfiguration)
+- OreConfiguration deserialize(Dynamic)
++ OreConfiguration$Predicates lambda$null$0(OreConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ProbabilityFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$0(ProbabilityFeatureConfiguration)
+- ProbabilityFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ ConfiguredFeature lambda$null$1(RandomFeatureConfiguration)
+- Dynamic serialize(DynamicOps)
++ List lambda$null$0(RandomFeatureConfiguration)
+- Object lambda$serialize$0(DynamicOps,WeightedConfiguredFeature)
+- RandomFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomRandomFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$1(RandomRandomFeatureConfiguration)
++ List lambda$null$0(RandomRandomFeatureConfiguration)
+- Object lambda$serialize$0(DynamicOps,ConfiguredFeature)
+- RandomRandomFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceSpheroidConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ BlockState lambda$null$0(ReplaceSpheroidConfiguration)
++ BlockState lambda$null$1(ReplaceSpheroidConfiguration)
+- Dynamic serialize(DynamicOps)
+- ReplaceSpheroidConfiguration deserialize(Dynamic)
++ Vec3i lambda$null$2(ReplaceSpheroidConfiguration)
++ Vec3i lambda$null$3(ReplaceSpheroidConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RuinedPortalConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- RuinedPortalConfiguration deserialize(Dynamic)
++ RuinedPortalFeature$Type lambda$static$0(RuinedPortalConfiguration)
++ void <clinit>()
+- void <init>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ShipwreckConfiguration</summary>
+
+```diff
++ Boolean lambda$static$0(ShipwreckConfiguration)
+- Dynamic serialize(DynamicOps)
+- ShipwreckConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
++ List lambda$static$0(SimpleRandomFeatureConfiguration)
+- Object lambda$serialize$0(DynamicOps,ConfiguredFeature)
+- SimpleRandomFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpringConfiguration</summary>
+
+```diff
 + App lambda$static$5(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(DeltaFeatureConfiguration)
-+ BlockState lambda$null$1(DeltaFeatureConfiguration)
-+ Integer lambda$null$2(DeltaFeatureConfiguration)
-+ Integer lambda$null$3(DeltaFeatureConfiguration)
-+ Integer lambda$null$4(DeltaFeatureConfiguration)
-+ void <clinit>()
-- DeltaFeatureConfiguration deserialize(Dynamic)
+- Block lambda$deserialize$0(Dynamic)
++ Boolean lambda$null$1(SpringConfiguration)
 - Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(DiskConfiguration)
-+ Integer lambda$null$1(DiskConfiguration)
-+ Integer lambda$null$2(DiskConfiguration)
-+ List lambda$null$3(DiskConfiguration)
++ FluidState lambda$null$0(SpringConfiguration)
++ Integer lambda$null$2(SpringConfiguration)
++ Integer lambda$null$3(SpringConfiguration)
++ Set lambda$null$4(SpringConfiguration)
+- SpringConfiguration deserialize(Dynamic)
 + void <clinit>()
-- DiskConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(BlockState)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.FeatureSize</summary>
 
 ```diff
-- Dynamic serialize(com.mojang.datafixers.types.DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ BlockStateProvider lambda$null$0(HugeMushroomFeatureConfiguration)
-+ BlockStateProvider lambda$null$1(HugeMushroomFeatureConfiguration)
-+ Integer lambda$null$2(HugeMushroomFeatureConfiguration)
+- Object serialize(DynamicOps)
++ Optional lambda$minClippedHeightCodec$1(OptionalInt)
++ OptionalInt lambda$minClippedHeightCodec$0(Optional)
++ OptionalInt lambda$minClippedHeightCodec$2(FeatureSize)
++ RecordCodecBuilder minClippedHeightCodec()
 + void <clinit>()
-- Dynamic serialize(DynamicOps)
-- HugeMushroomFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LayerConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$1(LayerConfiguration)
-+ Integer lambda$null$0(LayerConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- LayerConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MultiJigsawConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ JigsawConfiguration lambda$new$1(Map$Entry)
-+ List lambda$static$0(MultiJigsawConfiguration)
-+ void <clinit>()
-+ void <init>(List)
-- Dynamic serialize(DynamicOps)
-- JigsawConfiguration lambda$new$0(Map$Entry)
-- MultiJigsawConfiguration deserialize(Dynamic)
-- Object lambda$serialize$1(JigsawConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoneDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ NoneDecoratorConfiguration INSTANCE
-+ NoneDecoratorConfiguration lambda$static$0()
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- NoneDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OceanRuinConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Float lambda$null$1(OceanRuinConfiguration)
-+ Float lambda$null$2(OceanRuinConfiguration)
-+ OceanRuinFeature$Type lambda$null$0(OceanRuinConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- OceanRuinConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration$Predicates</summary>
-
-```diff
-+ Codec CODEC
-+ OreConfiguration$Predicates NETHER_ORE_REPLACEABLES
-+ boolean lambda$static$1(BlockState)
-+ OreConfiguration$Predicates lambda$static$2(OreConfiguration$Predicates)
-+ String getSerializedName()
-- OreConfiguration$Predicates lambda$static$1(OreConfiguration$Predicates)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomBooleanFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ ConfiguredFeature lambda$null$0(RandomBooleanFeatureConfiguration)
-+ ConfiguredFeature lambda$null$1(RandomBooleanFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- RandomBooleanFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$11(RecordCodecBuilder$Instance)
-+ BlockPlacer lambda$null$1(RandomPatchConfiguration)
-+ BlockStateProvider lambda$null$0(RandomPatchConfiguration)
-+ Boolean lambda$null$10(RandomPatchConfiguration)
-+ Boolean lambda$null$8(RandomPatchConfiguration)
-+ Boolean lambda$null$9(RandomPatchConfiguration)
-+ Integer lambda$null$4(RandomPatchConfiguration)
-+ Integer lambda$null$5(RandomPatchConfiguration)
-+ Integer lambda$null$6(RandomPatchConfiguration)
-+ Integer lambda$null$7(RandomPatchConfiguration)
-+ List lambda$null$2(RandomPatchConfiguration)
-+ List lambda$null$3(RandomPatchConfiguration)
-+ void <clinit>()
-+ void <init>(List,int,int,int,int,boolean,boolean,boolean)
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(Block)
-- Object lambda$serialize$1(BlockState)
-- RandomPatchConfiguration deserialize(Dynamic)
+- void <init>(FeatureSizeType,OptionalInt)
++ void <init>(OptionalInt)
+- void lambda$serialize$0(ImmutableMap$Builder,DynamicOps,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.ThreeLayersFeatureSize</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(ReplaceBlockConfiguration)
-+ BlockState lambda$null$1(ReplaceBlockConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- ReplaceBlockConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SeagrassFeatureConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Double lambda$null$1(SeagrassFeatureConfiguration)
-+ Integer lambda$null$0(SeagrassFeatureConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- SeagrassFeatureConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ BlockState lambda$null$0(SimpleBlockConfiguration)
-+ List lambda$null$1(SimpleBlockConfiguration)
-+ List lambda$null$2(SimpleBlockConfiguration)
-+ List lambda$null$3(SimpleBlockConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(BlockState)
-- Object lambda$serialize$1(BlockState)
-- Object lambda$serialize$2(BlockState)
-- SimpleBlockConfiguration deserialize(Dynamic)
-- void <init>(BlockState[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$0(SpikeConfiguration)
-+ List lambda$null$1(SpikeConfiguration)
-+ Optional lambda$null$2(SpikeConfiguration)
-+ void <clinit>()
-+ void <init>(Optional)
-- Dynamic serialize(DynamicOps)
-- Integer lambda$deserialize$1(Dynamic)
-- Object lambda$serialize$0(SpikeFeature$EndSpike)
-- SpikeConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$9(RecordCodecBuilder$Instance)
-+ BlockStateProvider lambda$null$0(TreeConfiguration)
-+ BlockStateProvider lambda$null$1(TreeConfiguration)
-+ Boolean lambda$null$7(TreeConfiguration)
-+ FeatureSize lambda$null$4(TreeConfiguration)
-+ FoliagePlacer lambda$null$2(TreeConfiguration)
-+ Heightmap$Types lambda$null$8(TreeConfiguration)
-+ Integer lambda$null$6(TreeConfiguration)
-+ List lambda$null$5(TreeConfiguration)
-+ TrunkPlacer lambda$null$3(TreeConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- Object lambda$serialize$0(TreeDecorator)
-- TreeConfiguration deserialize(Dynamic)
-- TreeDecorator lambda$deserialize$1(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.FeatureSizeType</summary>
-
-```diff
-+ Codec codec
-- Function deserializer
-+ Codec codec()
-+ FeatureSizeType register(Codec)
-+ void <init>(Codec)
-- FeatureSize deserialize(Dynamic)
-- FeatureSizeType register(Function)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
++ App lambda$static$5(RecordCodecBuilder$Instance)
 + FeatureSizeType type()
-+ Integer lambda$null$0(TwoLayersFeatureSize)
-+ Integer lambda$null$1(TwoLayersFeatureSize)
-+ Integer lambda$null$2(TwoLayersFeatureSize)
-+ void <clinit>()
++ Integer lambda$null$0(ThreeLayersFeatureSize)
++ Integer lambda$null$1(ThreeLayersFeatureSize)
++ Integer lambda$null$2(ThreeLayersFeatureSize)
++ Integer lambda$null$3(ThreeLayersFeatureSize)
++ Integer lambda$null$4(ThreeLayersFeatureSize)
 - Object serialize(DynamicOps)
 - OptionalInt lambda$new$0(Number)
++ void <clinit>()
 - void <init>(Dynamic)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
 
 ```diff
-+ Codec CODEC
 + App lambda$static$0(RecordCodecBuilder$Instance)
 + FoliagePlacerType type()
-+ void <clinit>()
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ FoliagePlacerType type()
-+ void <clinit>()
-- void <init>(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ void <clinit>()
-- void <init>(Dynamic)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Float lambda$null$1(CarvingMaskDecoratorConfiguration)
-+ GenerationStep$Carving lambda$null$0(CarvingMaskDecoratorConfiguration)
-+ void <clinit>()
-- CarvingMaskDecoratorConfiguration deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChanceHeightmapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChancePassthroughDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChorusPlantPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountBiasedRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountChanceHeightmapDoubleDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountHeighmapDoubleDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountHeightmap32Decorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountTopSolidDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountWithExtraChanceHeightmapDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.DepthAverageConfigation</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Integer lambda$null$0(DepthAverageConfigation)
-+ Integer lambda$null$1(DepthAverageConfigation)
-+ Integer lambda$null$2(DepthAverageConfigation)
-+ void <clinit>()
-- DepthAverageConfigation deserialize(Dynamic)
-- Dynamic serialize(DynamicOps)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.EndGatewayPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ Codec configuredCodec
-- Function configurationFactory
-+ Codec configuredCodec()
-+ ConfiguredDecorator lambda$new$0(DecoratorConfiguration)
-+ DecoratorConfiguration lambda$new$1(ConfiguredDecorator)
-+ void <init>(Codec)
-+ void lambda$placeFeature$2(BlockPos)
-- DecoratorConfiguration createSettings(Dynamic)
-- void <init>(Function)
-- void lambda$placeFeature$0(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyChanceDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Float lambda$null$1(FrequencyChanceDecoratorConfiguration)
-+ Integer lambda$null$0(FrequencyChanceDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- FrequencyChanceDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Float lambda$null$1(FrequencyWithExtraChanceDecoratorConfiguration)
-+ Integer lambda$null$0(FrequencyWithExtraChanceDecoratorConfiguration)
-+ Integer lambda$null$2(FrequencyWithExtraChanceDecoratorConfiguration)
-+ void <clinit>()
-- Dynamic serialize(DynamicOps)
-- FrequencyWithExtraChanceDecoratorConfiguration deserialize(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.MonsterRoomPlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmap32Decorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NopePlacementDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.SimpleFeatureDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapNoiseBasedDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.ChanceRangeDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.FireDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.nether.MagmaDecorator</summary>
-
-```diff
-+ void <init>(Codec)
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(OceanRuinConfiguration)
-- void generatePieces(Biome)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
-
-```diff
-+ Logger LOGGER
-+ void <clinit>()
-+ void lambda$addAdditionalSaveData$1(Tag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$Properties</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$6(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$0(RuinedPortalPiece$Properties)
-+ Boolean lambda$null$2(RuinedPortalPiece$Properties)
-+ Boolean lambda$null$3(RuinedPortalPiece$Properties)
-+ Boolean lambda$null$4(RuinedPortalPiece$Properties)
-+ Boolean lambda$null$5(RuinedPortalPiece$Properties)
-+ Float lambda$null$1(RuinedPortalPiece$Properties)
-+ void <clinit>()
-+ void <init>(boolean,float,boolean,boolean,boolean,boolean)
++ Integer lambda$blobParts$1(BlobFoliagePlacer)
 - Object serialize(DynamicOps)
++ Products$P5 blobParts(RecordCodecBuilder$Instance)
++ void <clinit>()
 - void <init>(Dynamic)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
 
 ```diff
-+ Logger LOGGER
-+ ResourceKey dimension
-- DimensionType dimension
-+ IllegalArgumentException lambda$load$0(CompoundTag)
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ FoliagePlacerType type()
+- Object serialize(DynamicOps)
 + void <clinit>()
-+ void lambda$save$1(Tag)
-+ void setProperties(ResourceKey)
-- void setProperties(DimensionType)
+- void <init>(Dynamic)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
 
 ```diff
-- CompoundTag getDimensionData()
-- void setDimensionData(CompoundTag)
++ Integer lambda$foliagePlacerParts$0(FoliagePlacer)
++ Integer lambda$foliagePlacerParts$1(FoliagePlacer)
++ Integer lambda$foliagePlacerParts$2(FoliagePlacer)
++ Integer lambda$foliagePlacerParts$3(FoliagePlacer)
+- Object serialize(DynamicOps)
++ Products$P4 foliagePlacerParts(RecordCodecBuilder$Instance)
++ void <clinit>()
+- void <init>(int,int,int,int,FoliagePlacerType)
++ void <init>(int,int,int,int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
 
 ```diff
-+ DataResult exportWorldGenSettings()
-+ DataResult lambda$exportWorldGenSettings$2(JsonElement)
-+ File getDimensionPath(ResourceKey)
-+ WorldData lambda$getDataTag$1(DataFixer)
-- File getDimensionPath(DimensionType)
++ void <init>(Codec)
+- void <init>(Function)
 ```
 
 </details>
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.ChanceDecoratorConfiguration</summary>
+
+```diff
+- ChanceDecoratorConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$static$0(ChanceDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ChanceHeightmapDoubleDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ChanceTopSolidHeightmapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ConfiguredDecorator</summary>
+
+```diff
+- ConfiguredDecorator deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ FeatureDecorator lambda$static$0(ConfiguredDecorator)
++ void <clinit>()
+- void <init>(FeatureDecorator,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountChanceHeightmapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountDepthAverageDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountHeight64Decorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountHeightmapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountVeryBiasedRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.DarkOakTreePlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EmeraldPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EndIslandPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ForestRockPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyDecoratorConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- FrequencyDecoratorConfiguration deserialize(Dynamic)
++ Integer lambda$static$0(FrequencyDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.IcebergPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.LakeWaterPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseCountFactorDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ Double lambda$null$1(NoiseCountFactorDecoratorConfiguration)
++ Double lambda$null$2(NoiseCountFactorDecoratorConfiguration)
+- Dynamic serialize(DynamicOps)
++ Heightmap$Types lambda$null$3(NoiseCountFactorDecoratorConfiguration)
++ Integer lambda$null$0(NoiseCountFactorDecoratorConfiguration)
+- NoiseCountFactorDecoratorConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmapDoubleDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.RangeDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(RangeDecoratorConfiguration)
++ Integer lambda$null$1(RangeDecoratorConfiguration)
+- RangeDecoratorConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.CountRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.LightGemChanceDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.RandomCountRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces</summary>
+
+```diff
+- void addPieces(StructureManager,BlockPos,Rotation,List,Random,NoneFeatureConfiguration)
++ void addPieces(StructureManager,BlockPos,Rotation,List,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature</summary>
+
+```diff
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
+
+```diff
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$Type</summary>
+
+```diff
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece</summary>
+
+```diff
++ void <clinit>()
++ void lambda$addAdditionalSaveData$0(CompoundTag,Tag)
+- void lambda$postProcess$0(Random,WorldGenLevel,BlockPos)
++ void lambda$postProcess$1(Random,WorldGenLevel,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
+
+```diff
++ BiFunction access$800(LevelStorageSource,File,boolean)
++ BiFunction levelSummaryReader(File,boolean)
++ Gson access$900()
++ LevelSummary lambda$levelSummaryReader$0(File,boolean,File,DataFixer)
++ Object access$300(LevelStorageSource,File,BiFunction)
++ Object readLevelData(File,BiFunction)
++ Pair readWorldGenSettings(Dynamic,DataFixer,int)
++ WorldData access$1000(File,DataFixer)
+- WorldData access$300(LevelStorageSource,File)
+- WorldData getLevelData(File)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
+
+```diff
++ boolean experimental()
+- long getSizeOnDisk()
++ void <init>(LevelSettings,LevelVersion,String,boolean,boolean,File,Lifecycle)
+- void <init>(WorldData,String,String,long,boolean,boolean,File)
++ WorldGenSettings worldGenSettings()
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.core.MapFiller
@@ -11596,13 +6154,2765 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
+
+```diff
+- boolean matches(DimensionType,DimensionType)
++ boolean matches(ResourceKey,ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimension(DimensionType,DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey,ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimensionTo(DimensionType)
++ ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
+- void <init>(EntityPredicate$Composite,DimensionType,DimensionType)
++ void <init>(EntityPredicate$Composite,ResourceKey,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
+
+```diff
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ JsonSyntaxException lambda$fromJson$2(ResourceLocation)
+- LocationPredicate inDimension(DimensionType)
++ LocationPredicate inDimension(ResourceKey)
++ ResourceKey lambda$fromJson$1(ResourceLocation)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
++ void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
++ void lambda$serializeToJson$0(JsonObject,JsonElement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+
+```diff
++ RegistryAccess registryAccess()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.DimensionTypeArgument</summary>
+
+```diff
+- CommandSyntaxException lambda$parse$2(ResourceLocation)
+- DimensionType getDimension(CommandContext,String)
+- DimensionType parse(StringReader)
++ ResourceKey getDimension(CommandContext,String)
++ ResourceLocation parse(StringReader)
+- String lambda$static$0(DimensionType)
++ String lambda$static$0(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+
+```diff
++ Object registerMapping(int,ResourceKey,Object)
+- Object registerMapping(int,ResourceLocation,Object)
++ void <init>(String,ResourceKey,Lifecycle)
+- void <init>(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.SerializableLong</summary>
+
+```diff
++ Long lambda$static$0(SerializableLong)
+- Object serialize(DynamicOps)
+- SerializableLong of(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.WritableRegistry</summary>
+
+```diff
++ String toString()
+- void <init>()
++ void <init>(ResourceKey,Lifecycle)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
+
+```diff
++ Codec lambda$static$0(ParticleType)
++ ParticleType register(String,ParticleOptions$Deserializer,Function)
+- ParticleType register(String,ParticleOptions$Deserializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
+
+```diff
+- boolean lambda$isValidNamespace$1(int)
+- boolean lambda$isValidPath$0(int)
++ boolean validNamespaceChar(char)
++ boolean validPathChar(char)
++ DataResult read(String)
++ String toDebugFileName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SpreadPlayersCommand$Position</summary>
+
+```diff
++ boolean isSafe(BlockGetter,int)
+- boolean isSafe(BlockGetter)
++ int getSpawnY(BlockGetter,int)
+- int getSpawnY(BlockGetter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
+- boolean lambda$startSleepInBed$3(Monster)
++ boolean lambda$startSleepInBed$4(Monster)
+- DimensionType getRespawnDimension()
+- Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
++ ResourceKey getRespawnDimension()
+- Style lambda$null$1(Component,Style)
++ Style lambda$null$2(Component,Style)
++ void lambda$addAdditionalSaveData$0(CompoundTag,Tag)
+- void lambda$awardStat$5(int,Score)
++ void lambda$awardStat$6(int,Score)
+- void lambda$die$2(Component,Future)
++ void lambda$die$3(Component,Future)
+- void lambda$sendMessage$6(ChatType,Component,Future)
++ void lambda$sendMessage$7(ChatType,Component,UUID,Future)
+- void lambda$startSleepInBed$4(Unit)
++ void lambda$startSleepInBed$5(Unit)
+- void lambda$updateScoreForCriteria$0(int,Score)
++ void lambda$updateScoreForCriteria$1(int,Score)
++ void sendMessage(Component,ChatType,UUID)
+- void sendMessage(Component,ChatType)
++ void sendMessage(Component,UUID)
+- void sendMessage(Component)
+- void setRespawnPosition(DimensionType,BlockPos,boolean,boolean)
++ void setRespawnPosition(ResourceKey,BlockPos,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
+- Dimension getDimension()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- void <init>(MinecraftServer,PlayerDataStorage,int)
++ void <init>(MinecraftServer,RegistryAccess$RegistryHolder,PlayerDataStorage,int)
+- void broadcast(Player,double,double,double,double,DimensionType,Packet)
++ void broadcast(Player,double,double,double,double,ResourceKey,Packet)
+- void broadcastAll(Packet,DimensionType)
++ void broadcastAll(Packet,ResourceKey)
+- void broadcastMessage(Component,boolean)
++ void broadcastMessage(Component,ChatType,UUID)
+- void broadcastMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag</summary>
+
+```diff
++ Codec codec(Supplier)
++ DataResult lambda$codec$1(Supplier,ResourceLocation)
++ DataResult lambda$codec$3(Supplier,Tag)
++ DataResult lambda$null$0(ResourceLocation)
++ DataResult lambda$null$2(Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.AbstractUUIDFix</summary>
+
+```diff
++ Dynamic lambda$replaceUUIDLeastMost$3(Dynamic,String,String,String,Dynamic)
+- Dynamic lambda$replaceUUIDLeastMost$3(Dynamic,String,String,String,Dynamic)
++ Dynamic lambda$replaceUUIDMLTag$2(Dynamic,String,String,Dynamic)
+- Dynamic lambda$replaceUUIDMLTag$2(Dynamic,String,String,Dynamic)
++ Dynamic lambda$replaceUUIDString$1(Dynamic,String,String,Dynamic)
+- Dynamic lambda$replaceUUIDString$1(Dynamic,String,String,Dynamic)
++ Optional createUUIDFromLongs(Dynamic,String,String)
+- Optional createUUIDFromLongs(Dynamic,String,String)
++ Optional createUUIDFromML(Dynamic)
+- Optional createUUIDFromML(Dynamic)
++ Optional createUUIDFromString(Dynamic,String)
+- Optional createUUIDFromString(Dynamic,String)
++ Optional createUUIDTag(Dynamic,long,long)
+- Optional createUUIDTag(Dynamic,long,long)
++ Optional lambda$createUUIDFromString$4(Dynamic,Dynamic)
+- Optional lambda$createUUIDFromString$4(Dynamic,Dynamic)
++ Optional replaceUUIDLeastMost(Dynamic,String,String)
+- Optional replaceUUIDLeastMost(Dynamic,String,String)
++ Optional replaceUUIDMLTag(Dynamic,String,String)
+- Optional replaceUUIDMLTag(Dynamic,String,String)
++ Optional replaceUUIDString(Dynamic,String,String)
+- Optional replaceUUIDString(Dynamic,String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.AttributesRename</summary>
+
+```diff
++ Dynamic fixName(Dynamic)
+- Dynamic fixName(Dynamic)
++ Dynamic lambda$fixEntity$9(Dynamic)
+- Dynamic lambda$fixEntity$9(Dynamic)
++ Dynamic lambda$fixItemStackTag$5(Dynamic)
+- Dynamic lambda$fixItemStackTag$5(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Dynamic lambda$null$4(Dynamic)
+- Dynamic lambda$null$4(Dynamic)
++ Dynamic lambda$null$6(Dynamic)
+- Dynamic lambda$null$6(Dynamic)
++ Dynamic lambda$null$8(Dynamic)
+- Dynamic lambda$null$8(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityBannerColorFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic lambda$fixTag$0(Dynamic)
+- Dynamic lambda$fixTag$0(Dynamic)
++ Dynamic lambda$fixTag$4(Dynamic)
+- Dynamic lambda$fixTag$4(Dynamic)
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityCustomNameToComponentFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Typed,OpticFinder,Dynamic)
+- Dynamic lambda$null$0(Typed,OpticFinder,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntityShulkerBoxColorFix</summary>
+
+```diff
++ Dynamic lambda$fix$0(Dynamic)
+- Dynamic lambda$fix$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockNameFlatteningFix</summary>
+
+```diff
++ Function lambda$makeRule$3(DynamicOps)
+- Function lambda$makeRule$3(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkBiomeFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix</summary>
+
+```diff
++ Dynamic access$000()
+- Dynamic access$000()
++ Dynamic access$1000()
+- Dynamic access$1000()
++ Dynamic access$1400()
+- Dynamic access$1400()
++ Dynamic access$1500()
+- Dynamic access$1500()
++ Dynamic access$1600()
+- Dynamic access$1600()
++ Dynamic access$1700()
+- Dynamic access$1700()
++ Dynamic access$1800()
+- Dynamic access$1800()
++ Dynamic access$1900()
+- Dynamic access$1900()
++ Dynamic access$400()
+- Dynamic access$400()
++ Dynamic access$500()
+- Dynamic access$500()
++ Dynamic access$600()
+- Dynamic access$600()
++ Dynamic fix(Dynamic)
+- Dynamic fix(Dynamic)
++ int idFor(CrudeIncrementalIntIdentityHashBiMap,Dynamic)
+- int idFor(CrudeIncrementalIntIdentityHashBiMap,Dynamic)
++ String getName(Dynamic)
+- String getName(Dynamic)
++ String getProperty(Dynamic,String)
+- String getProperty(Dynamic,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix$Section</summary>
+
+```diff
++ Dynamic getBlock(int)
+- Dynamic getBlock(int)
++ Dynamic write()
+- Dynamic write()
++ void <init>(Dynamic)
+- void <init>(Dynamic)
++ void setBlock(int,Dynamic)
+- void setBlock(int,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkStructuresTemplateRenameFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic,Dynamic)
+- Dynamic fixTag(Dynamic,Dynamic)
++ Dynamic lambda$null$0(Typed,Dynamic)
+- Dynamic lambda$null$0(Typed,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ColorlessShulkerEntityFix</summary>
+
+```diff
++ Dynamic lambda$fix$0(Dynamic)
+- Dynamic lambda$fix$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityArmorStandSilentFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityCatSplitFix</summary>
+
+```diff
++ Pair getNewNameAndTag(String,Dynamic)
+- Pair getNewNameAndTag(String,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityCustomNameToComponentFix</summary>
+
+```diff
++ Dynamic fixTagCustomName(Dynamic)
+- Dynamic fixTagCustomName(Dynamic)
++ Dynamic lambda$null$0(Typed,OpticFinder,Dynamic)
+- Dynamic lambda$null$0(Typed,OpticFinder,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityEquipmentToArmorAndHandFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityIdFix</summary>
+
+```diff
++ Function lambda$makeRule$3(DynamicOps)
+- Function lambda$makeRule$3(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityMinecartIdentifiersFix</summary>
+
+```diff
++ DataResult lambda$null$0(TaggedChoice$TaggedChoiceType,String,Dynamic)
+- Function lambda$makeRule$2(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
++ Function lambda$makeRule$3(TaggedChoice$TaggedChoiceType,TaggedChoice$TaggedChoiceType,DynamicOps)
+- IllegalStateException lambda$null$0()
++ IllegalStateException lambda$null$1()
+- Pair lambda$null$1(TaggedChoice$TaggedChoiceType,DynamicOps,TaggedChoice$TaggedChoiceType,Pair)
++ Pair lambda$null$2(TaggedChoice$TaggedChoiceType,DynamicOps,TaggedChoice$TaggedChoiceType,Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityPaintingMotiveFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityRedundantChanceTagsFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityRidingToPassengersFix</summary>
+
+```diff
++ Either lambda$null$2(Type,DynamicOps,OpticFinder,OpticFinder,Pair)
+- Either lambda$null$2(Type,DynamicOps,OpticFinder,OpticFinder,Pair)
++ Function lambda$cap$6(Type,OpticFinder,OpticFinder,Type,OpticFinder,DynamicOps)
+- Function lambda$cap$6(Type,OpticFinder,OpticFinder,Type,OpticFinder,DynamicOps)
++ Pair lambda$null$5(Type,DynamicOps,OpticFinder,OpticFinder,Type,OpticFinder,Pair)
+- Pair lambda$null$5(Type,DynamicOps,OpticFinder,OpticFinder,Type,OpticFinder,Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityShulkerRotationFix</summary>
+
+```diff
++ Double lambda$fixTag$0(Dynamic)
+- Double lambda$fixTag$0(Dynamic)
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityStringUuidFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityWolfColorFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic lambda$fixTag$0(Dynamic)
+- Dynamic lambda$fixTag$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.EntityZombieVillagerTypeFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ForcePoiRebuild</summary>
+
+```diff
++ Dynamic cap(Dynamic)
+- Dynamic cap(Dynamic)
++ Dynamic lambda$cap$4(Dynamic)
+- Dynamic lambda$cap$4(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.GossipUUIDFix</summary>
+
+```diff
++ Dynamic lambda$fix$3(Dynamic)
+- Dynamic lambda$fix$3(Dynamic)
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.IglooMetadataRemovalFix</summary>
+
+```diff
++ boolean isIglooPiece(Dynamic)
+- boolean isIglooPiece(Dynamic)
++ boolean lambda$null$1(Dynamic)
+- boolean lambda$null$1(Dynamic)
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic removeIglooPieces(Dynamic)
+- Dynamic removeIglooPieces(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemCustomNameToComponentFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemLoreFix</summary>
+
+```diff
++ Dynamic lambda$fixLoreList$5(Dynamic)
+- Dynamic lambda$fixLoreList$5(Dynamic)
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemRenameFix</summary>
+
+```diff
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemStackEnchantmentNamesFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic lambda$fixTag$7(Dynamic)
+- Dynamic lambda$fixTag$7(Dynamic)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$5(Dynamic)
+- Dynamic lambda$null$5(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemStackUUIDFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Typed,OpticFinder,Dynamic)
+- Dynamic lambda$null$1(Typed,OpticFinder,Dynamic)
++ Dynamic lambda$null$4(Dynamic)
+- Dynamic lambda$null$4(Dynamic)
++ Dynamic lambda$updateAttributeModifiers$5(Dynamic,Dynamic)
+- Dynamic lambda$updateAttributeModifiers$5(Dynamic,Dynamic)
++ Dynamic lambda$updateSkullOwner$6(Dynamic)
+- Dynamic lambda$updateSkullOwner$6(Dynamic)
++ Dynamic updateAttributeModifiers(Dynamic)
+- Dynamic updateAttributeModifiers(Dynamic)
++ Dynamic updateSkullOwner(Dynamic)
+- Dynamic updateSkullOwner(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemWrittenBookPagesStrictJsonFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic lambda$fixTag$2(Dynamic,Dynamic)
+- Dynamic lambda$fixTag$2(Dynamic,Dynamic)
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.JigsawRotationFix</summary>
+
+```diff
++ Dynamic fix(Dynamic)
+- Dynamic fix(Dynamic)
++ Dynamic lambda$fix$0(Dynamic)
+- Dynamic lambda$fix$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LeavesFix$LeavesSection</summary>
+
+```diff
++ Dynamic makeLeafTag(Dynamic,String,boolean,int)
+- Dynamic makeLeafTag(Dynamic,String,boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LevelDataGeneratorOptionsFix</summary>
+
+```diff
++ DataResult lambda$null$1(Type,Dynamic)
++ Dynamic convert(String,DynamicOps)
+- Dynamic convert(String,DynamicOps)
+- IllegalStateException lambda$null$1()
++ IllegalStateException lambda$null$2()
+- Object lambda$convert$3(DynamicOps,Pair)
++ Object lambda$convert$4(DynamicOps,Pair)
+- Pair lambda$convert$5(DynamicOps,Map$Entry)
++ Pair lambda$convert$6(DynamicOps,Map$Entry)
+- Pair lambda$null$4(DynamicOps,Map$Entry)
++ Pair lambda$null$5(DynamicOps,Map$Entry)
+- Typed lambda$makeRule$2(Type,Typed)
++ Typed lambda$makeRule$3(Type,Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.LevelUUIDFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$10(Dynamic)
+- Dynamic lambda$null$10(Dynamic)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$4(Dynamic)
+- Dynamic lambda$null$4(Dynamic)
++ Dynamic lambda$null$7(Dynamic)
+- Dynamic lambda$null$7(Dynamic)
++ Dynamic lambda$null$8(Dynamic)
+- Dynamic lambda$null$8(Dynamic)
++ Dynamic lambda$null$9(Dynamic,Dynamic)
+- Dynamic lambda$null$9(Dynamic,Dynamic)
++ Dynamic lambda$updateCustomBossEvents$12(Dynamic)
+- Dynamic lambda$updateCustomBossEvents$12(Dynamic)
++ Dynamic lambda$updateDragonFight$6(Dynamic)
+- Dynamic lambda$updateDragonFight$6(Dynamic)
++ Dynamic updateCustomBossEvents(Dynamic)
+- Dynamic updateCustomBossEvents(Dynamic)
++ Dynamic updateDragonFight(Dynamic)
+- Dynamic updateDragonFight(Dynamic)
++ Dynamic updateWanderingTrader(Dynamic)
+- Dynamic updateWanderingTrader(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.MemoryExpiryDataFix</summary>
+
+```diff
++ Dynamic fixTag(Dynamic)
+- Dynamic fixTag(Dynamic)
++ Dynamic updateBrain(Dynamic)
+- Dynamic updateBrain(Dynamic)
++ Dynamic updateMemories(Dynamic)
+- Dynamic updateMemories(Dynamic)
++ Dynamic wrapMemoryValue(Dynamic)
+- Dynamic wrapMemoryValue(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ObjectiveDisplayNameFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic,Dynamic)
+- Dynamic lambda$null$1(Dynamic,Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Function lambda$makeRule$4(DynamicOps)
+- Function lambda$makeRule$4(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.OptionsAddTextBackgroundFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic,String)
+- Dynamic lambda$null$0(Dynamic,String)
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.OptionsKeyLwjgl3Fix</summary>
+
+```diff
++ Dynamic lambda$null$2(Dynamic,Map)
+- Dynamic lambda$null$2(Dynamic,Map)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.OptionsLowerCaseLanguageFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.PoiTypeRename</summary>
+
+```diff
++ Dynamic cap(Dynamic)
+- Dynamic cap(Dynamic)
++ Dynamic lambda$cap$5(Dynamic)
+- Dynamic lambda$cap$5(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$6(Dynamic)
+- Dynamic lambda$null$6(Dynamic)
++ Dynamic lambda$null$7(Dynamic)
+- Dynamic lambda$null$7(Dynamic)
++ Dynamic lambda$renameRecords$8(Dynamic,Stream)
+- Dynamic lambda$renameRecords$8(Dynamic,Stream)
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
++ Optional renameRecords(Dynamic)
+- Optional renameRecords(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RecipesRenameFix</summary>
+
+```diff
++ Function lambda$makeRule$1(DynamicOps)
+- Function lambda$makeRule$1(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RedstoneWireConnectionsFix</summary>
+
+```diff
++ Dynamic lambda$null$1(String,Dynamic)
++ Dynamic lambda$null$2(String,Dynamic)
++ Dynamic lambda$null$3(String,Dynamic)
++ Dynamic lambda$null$4(String,Dynamic)
+- Dynamic lambda$null$5(String,Dynamic)
+- Dynamic lambda$null$6(String,Dynamic)
+- Dynamic lambda$null$7(String,Dynamic)
+- Dynamic lambda$null$8(String,Dynamic)
++ Dynamic lambda$updateRedstoneConnections$5(Dynamic)
+- Dynamic lambda$updateRedstoneConnections$9(Dynamic)
++ Dynamic updateRedstoneConnections(Dynamic)
+- Dynamic updateRedstoneConnections(Dynamic)
+- String lambda$null$1()
+- String lambda$null$2()
+- String lambda$null$3()
+- String lambda$null$4()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RenameBiomesFix</summary>
+
+```diff
++ Function lambda$makeRule$2(DynamicOps)
+- Function lambda$makeRule$2(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.SavedDataUUIDFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
++ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Dynamic lambda$null$3(Dynamic)
+- Dynamic lambda$null$3(Dynamic)
++ Dynamic lambda$null$4(Dynamic)
+- Dynamic lambda$null$4(Dynamic)
++ Dynamic lambda$null$5(Dynamic)
+- Dynamic lambda$null$5(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.StatsCounterFix</summary>
+
+```diff
++ Dynamic lambda$null$0(Dynamic,Dynamic)
+- Dynamic lambda$null$0(Dynamic,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.StructureReferenceCountFix</summary>
+
+```diff
++ Dynamic lambda$setCountToAtLeastOne$2(Dynamic)
+- Dynamic lambda$setCountToAtLeastOne$2(Dynamic)
++ Dynamic setCountToAtLeastOne(Dynamic)
+- Dynamic setCountToAtLeastOne(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.TeamDisplayNameFix</summary>
+
+```diff
++ Dynamic lambda$null$1(Dynamic,Dynamic)
+- Dynamic lambda$null$1(Dynamic,Dynamic)
++ Dynamic lambda$null$2(Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Function lambda$makeRule$4(DynamicOps)
+- Function lambda$makeRule$4(DynamicOps)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.VillagerFollowRangeFix</summary>
+
+```diff
++ Dynamic fixValue(Dynamic)
+- Dynamic fixValue(Dynamic)
++ Dynamic lambda$fixValue$1(Dynamic,Dynamic)
+- Dynamic lambda$fixValue$1(Dynamic,Dynamic)
++ Dynamic lambda$null$0(Dynamic)
+- Dynamic lambda$null$0(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.NamespacedSchema</summary>
+
+```diff
++ Type namespacedString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V704$1</summary>
+
+```diff
++ Object apply(DynamicOps,Object)
+- Object apply(DynamicOps,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V705$1</summary>
+
+```diff
++ Object apply(DynamicOps,Object)
+- Object apply(DynamicOps,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V99</summary>
+
+```diff
++ Dynamic lambda$addNames$35(Dynamic,Map,String,Dynamic)
+- Dynamic lambda$addNames$35(Dynamic,Map,String,Dynamic)
++ Dynamic lambda$null$33(Dynamic,Map,Dynamic)
+- Dynamic lambda$null$33(Dynamic,Map,Dynamic)
++ Dynamic lambda$null$34(Dynamic,String,Dynamic)
+- Dynamic lambda$null$34(Dynamic,String,Dynamic)
++ Object addNames(Dynamic,Map,String)
+- Object addNames(Dynamic,Map,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
++ void sendMessage(Component,UUID)
+- void sendMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.Brain</summary>
+
+```diff
+- boolean lambda$isMemoryValue$0(Object,Object)
++ boolean lambda$isMemoryValue$1(Object,Object)
++ Brain$MemoryValue lambda$memories$0(Map$Entry)
++ Brain$Provider provider(Collection,Collection)
++ Codec codec(Collection,Collection)
++ DataResult serializeStart(DynamicOps)
++ Logger access$000()
+- Map lambda$addActivityAndRemoveMemoriesWhenStopped$1(Integer)
++ Map lambda$addActivityAndRemoveMemoriesWhenStopped$2(Integer)
+- Object serialize(DynamicOps)
+- Set lambda$addActivityAndRemoveMemoriesWhenStopped$2(Activity)
++ Set lambda$addActivityAndRemoveMemoriesWhenStopped$3(Activity)
++ Stream access$200(Brain)
++ Stream memories()
++ void <clinit>()
+- void <init>(Collection,Collection,Dynamic)
++ void <init>(Collection,Collection,ImmutableList,Supplier)
++ void access$500(Brain,MemoryModuleType,Optional)
+- void readMemory(MemoryModuleType,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.MeleeAttackGoal</summary>
+
+```diff
++ boolean isTimeToAttack()
++ int getAttackInterval()
++ int getTicksUntilNextAttack()
++ void resetAttackCooldown()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer</summary>
+
+```diff
++ Dynamic lambda$store$6(DynamicOps,GossipContainer$GossipEntry)
+- Dynamic lambda$store$6(DynamicOps,GossipContainer$GossipEntry)
++ Dynamic store(DynamicOps)
+- Dynamic store(DynamicOps)
++ Stream lambda$update$7(DataResult)
+- void lambda$update$7(GossipContainer$GossipEntry)
++ void lambda$update$8(GossipContainer$GossipEntry)
++ void update(Dynamic)
+- void update(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.memory.ExpirableValue</summary>
+
+```diff
++ App lambda$codec$3(Codec,RecordCodecBuilder$Instance)
++ Codec codec(Codec)
++ ExpirableValue lambda$null$2(Object,Optional)
++ Object lambda$null$0(ExpirableValue)
+- Object serialize(DynamicOps)
++ Optional lambda$null$1(ExpirableValue)
+- void <init>(Function,Dynamic)
+- void <init>(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiSection</summary>
+
+```diff
++ App lambda$codec$2(Runnable,RecordCodecBuilder$Instance)
+- boolean lambda$getRecords$1(Predicate,Map$Entry)
++ boolean lambda$getRecords$4(Predicate,Map$Entry)
++ Boolean lambda$null$0(PoiSection)
++ Codec codec(Runnable)
++ List lambda$null$1(PoiSection)
+- Object lambda$add$3(PoiType)
+- Object lambda$add$4(BlockPos)
++ Object lambda$add$6(PoiType)
++ Object lambda$add$7(BlockPos)
+- Object lambda$serialize$6(DynamicOps,PoiRecord)
+- Object serialize(DynamicOps)
+- PoiRecord lambda$null$7(BlockPos,PoiType,int)
++ PoiRecord lambda$null$9(BlockPos,PoiType,int)
++ PoiSection lambda$codec$3(Runnable)
+- Set lambda$add$5(PoiType)
++ Set lambda$add$8(PoiType)
+- Stream lambda$getRecords$2(Map$Entry)
++ Stream lambda$getRecords$5(Map$Entry)
++ void <init>(Runnable,boolean,List)
+- void <init>(Runnable,Dynamic)
+- void lambda$new$0(Runnable,Dynamic)
++ void lambda$refresh$10(Short2ObjectMap,BlockPos,PoiType)
+- void lambda$refresh$8(Short2ObjectMap,BlockPos,PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.AbstractFish</summary>
+
+```diff
++ void playStepSound(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
+
+```diff
+- SoundEvent getAngrySound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Donkey</summary>
+
+```diff
++ SoundEvent getAngrySound()
++ SoundEvent getEatingSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
+
+```diff
++ Brain makeBrain(Brain)
+- Brain makeBrain(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ Brain makeBrain(Dynamic)
+- Brain makeBrain(Dynamic)
++ Brain$Provider brainProvider()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
+
+```diff
+- Behavior admireHeldItem()
++ Brain makeBrain(Piglin,Brain)
+- Brain makeBrain(Piglin,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.Villager</summary>
+
+```diff
+- boolean lambda$getPlayerReputation$6(GossipType)
++ boolean lambda$getPlayerReputation$7(GossipType)
+- boolean lambda$spawnGolemIfNeeded$8(long,Villager)
++ boolean lambda$spawnGolemIfNeeded$9(long,Villager)
+- boolean lambda$tellWitnessesThatIWasMurdered$3(LivingEntity)
++ boolean lambda$tellWitnessesThatIWasMurdered$4(LivingEntity)
++ Brain makeBrain(Dynamic)
+- Brain makeBrain(Dynamic)
++ Brain$Provider brainProvider()
+- int lambda$countFoodPointsInInventory$7(SimpleContainer,Map$Entry)
++ int lambda$countFoodPointsInInventory$8(SimpleContainer,Map$Entry)
++ void lambda$addAdditionalSaveData$3(CompoundTag,Tag)
+- void lambda$releasePoi$5(MinecraftServer,MemoryModuleType,GlobalPos)
++ void lambda$releasePoi$6(MinecraftServer,MemoryModuleType,GlobalPos)
++ void lambda$spawnGolemIfNeeded$10(long,Villager)
+- void lambda$spawnGolemIfNeeded$9(long,Villager)
+- void lambda$tellWitnessesThatIWasMurdered$4(ServerLevel,Entity,LivingEntity)
++ void lambda$tellWitnessesThatIWasMurdered$5(ServerLevel,Entity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
+
+```diff
+- BlockPos findSpawnPositionNear(BlockPos,int)
++ BlockPos findSpawnPositionNear(LevelReader,BlockPos,int)
++ boolean hasEnoughSpace(BlockGetter,BlockPos)
+- boolean hasEnoughSpace(BlockPos)
+- boolean spawn()
++ boolean spawn(ServerLevel)
++ int tick(ServerLevel,boolean,boolean)
+- void <init>(ServerLevel,ServerLevelData)
++ void <init>(ServerLevelData)
+- void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ThrownEnderpearl</summary>
+
+```diff
+- Entity changeDimension(DimensionType)
++ Entity changeDimension(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CompassItem</summary>
+
+```diff
++ void <clinit>()
+- void addLodestoneTags(Dimension,BlockPos,CompoundTag)
++ void addLodestoneTags(RegistryAccess,DimensionType,BlockPos,CompoundTag)
++ void lambda$addLodestoneTags$0(CompoundTag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ Integer lambda$null$1(ItemStack)
++ Item lambda$null$0(ItemStack)
+- MutableComponent lambda$expandBlockState$2(MutableComponent)
++ MutableComponent lambda$expandBlockState$6(MutableComponent)
++ Optional lambda$null$2(ItemStack)
+- Style lambda$getDisplayName$3(Style)
++ Style lambda$getDisplayName$7(Style)
++ void <init>(ItemLike,int,Optional)
+- void lambda$appendEnchantmentNames$1(List,CompoundTag,Enchantment)
++ void lambda$appendEnchantmentNames$5(List,CompoundTag,Enchantment)
+- void lambda$static$0(DecimalFormat)
++ void lambda$static$4(DecimalFormat)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules</summary>
+
+```diff
++ void <init>(DynamicLike)
++ void <init>(GameRules,MinecraftServer)
+- void lambda$loadFromTag$5(CompoundTag,GameRules$Key,GameRules$Value)
++ void lambda$loadFromTag$5(DynamicLike,GameRules$Key,GameRules$Value)
+- void loadFromTag(CompoundTag)
++ void loadFromTag(DynamicLike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
+
+```diff
++ App lambda$static$8(RecordCodecBuilder$Instance)
++ Integer lambda$null$0(BiomeSpecialEffects)
++ Integer lambda$null$1(BiomeSpecialEffects)
++ Integer lambda$null$2(BiomeSpecialEffects)
++ Optional lambda$null$3(BiomeSpecialEffects)
++ Optional lambda$null$4(BiomeSpecialEffects)
++ Optional lambda$null$5(BiomeSpecialEffects)
++ Optional lambda$null$6(BiomeSpecialEffects)
++ Optional lambda$null$7(BiomeSpecialEffects)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
+
+```diff
++ Biome lambda$static$0(FixedBiomeSource)
++ Codec codec()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+
+```diff
++ App lambda$null$1(RecordCodecBuilder$Instance)
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ boolean stable(long)
++ Codec codec()
++ Either lambda$null$6(MultiNoiseBiomeSource,MultiNoiseBiomeSource$Preset)
++ Either lambda$null$7(MultiNoiseBiomeSource)
++ Either lambda$static$8(MultiNoiseBiomeSource)
++ Float lambda$getNoiseBiome$11(Biome$ClimateParameters,Pair)
+- Float lambda$getNoiseBiome$2(Biome$ClimateParameters,Pair)
++ List lambda$null$2(MultiNoiseBiomeSource)
++ Long lambda$null$0(MultiNoiseBiomeSource)
++ MultiNoiseBiomeSource access$000(long)
++ MultiNoiseBiomeSource defaultNether(long)
++ MultiNoiseBiomeSource lambda$null$4(Pair)
++ MultiNoiseBiomeSource lambda$static$5(Either)
+- MultiNoiseBiomeSource of(long,List)
+- Pair lambda$null$0(Biome,Biome$ClimateParameters)
++ Pair lambda$null$9(Biome,Biome$ClimateParameters)
++ Stream lambda$defaultNether$10(Biome)
+- Stream lambda$of$1(Biome)
++ void <clinit>()
++ void <init>(long,List,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.Property</summary>
+
+```diff
++ boolean equals(Object)
++ Class getValueClass()
++ Codec codec()
++ DataResult lambda$new$1(String)
++ DataResult lambda$null$0(String)
++ DataResult parseValue(DynamicOps,StateHolder,Object)
++ int generateHashCode()
++ int hashCode()
++ StateHolder lambda$parseValue$2(StateHolder,Comparable)
++ String getName()
++ String toString()
++ void <init>(String,Class)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.border.WorldBorder$Settings</summary>
+
+```diff
+- WorldBorder$Settings read(CompoundTag,WorldBorder$Settings)
++ WorldBorder$Settings read(DynamicLike,WorldBorder$Settings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
++ BitSet getOrCreateCarvingMask(GenerationStep$Carving)
+- BitSet lambda$getCarvingMask$5(GenerationStep$Carving)
++ BitSet lambda$getOrCreateCarvingMask$5(GenerationStep$Carving)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
+
+```diff
++ Dynamic writeColumn(ChunkPos,DynamicOps)
+- Dynamic writeColumn(ChunkPos,DynamicOps)
++ int getVersion(Dynamic)
+- int getVersion(Dynamic)
+- Object lambda$readColumn$2(long,Dynamic)
++ Optional lambda$readColumn$2(long,Dynamic)
++ void <init>(File,Function,Function,DataFixer,DataFixTypes,boolean)
+- void <init>(File,Serializer,BiFunction,Function,DataFixer,DataFixTypes,boolean)
++ void lambda$writeColumn$4(long)
++ void lambda$writeColumn$5(Map,DynamicOps,String,Object)
++ void readColumn(ChunkPos,DynamicOps,Object)
+- void readColumn(ChunkPos,DynamicOps,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
++ Codec codec()
++ DebugLevelSource lambda$static$0()
+- Stream lambda$static$0(Block)
++ Stream lambda$static$1(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- Biome lambda$null$1(Dynamic)
+- Biome[] lambda$createBuffetBiomeSource$3(int)
+- BiomeSource createBuffetBiomeSource(DynamicLike,long)
++ boolean stable()
+- ChunkGenerator defaultEndGenerator(long)
+- ChunkGenerator defaultNetherGenerator(long)
+- ChunkGenerator make(WorldGenSettings$LevelType,Dynamic,long)
+- CompoundTag serialize()
++ DataResult guardExperimental()
+- Dynamic createBuffetSettings(WorldGenSettings$BuffetGeneratorType,Set)
+- FlatLevelGeneratorSettings parseFlatSettings()
++ LinkedHashMap dimensions()
++ LinkedHashMap withOverworld(LinkedHashMap,ChunkGenerator)
+- Map access$300()
+- Map generators()
++ NoiseBasedChunkGenerator makeDefaultOverworld(long)
+- Object getRegistryValue(DynamicLike,Registry,Object)
+- Optional lambda$make$0(String)
++ Optional lambda$null$0(WorldGenSettings)
+- Pair parseBuffetSettings()
+- Stream lambda$createBuffetBiomeSource$2(Stream)
++ String lambda$create$2(String)
++ void <init>(long,boolean,boolean,LinkedHashMap,Optional)
++ void <init>(long,boolean,boolean,LinkedHashMap)
+- void <init>(long,boolean,boolean,WorldGenSettings$LevelType,Dynamic,ChunkGenerator,String,boolean)
+- void <init>(long,boolean,boolean,WorldGenSettings$LevelType,Dynamic,ChunkGenerator)
++ WorldGenSettings create(Properties)
+- WorldGenSettings fromBuffetSettings(WorldGenSettings$BuffetGeneratorType,Set)
+- WorldGenSettings fromFlatSettings(FlatLevelGeneratorSettings)
+- WorldGenSettings read(Properties)
+- WorldGenSettings readWorldGenSettings(CompoundTag,DataFixer,int)
+- WorldGenSettings withPreset(WorldGenSettings$Preset)
+- WorldGenSettings withProvider(WorldGenSettings$LevelType,Dynamic,ChunkGenerator)
+- WorldGenSettings$Preset preset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
+
+```diff
++ void <init>(Codec,int)
+- void <init>(Function,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
+
+```diff
+- CarverConfiguration createSettings(Dynamic)
++ CarverConfiguration lambda$new$1(ConfiguredWorldCarver)
++ Codec configuredCodec()
++ ConfiguredWorldCarver lambda$new$0(CarverConfiguration)
++ void <init>(Codec,int)
+- void <init>(Function,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BambooFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
+
+```diff
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,MultiJigsawConfiguration)
+- boolean supportsProjection()
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- int getSeparation(ChunkGeneratorSettings)
+- int getSpacing(ChunkGeneratorSettings)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlockBlobFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlueIceFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+```diff
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,long,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,BuriedTreasureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
+- int getLookupRange()
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RandomSelectorFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,RuinedPortalConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SeagrassFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SimpleRandomSelectorFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SnowAndFreezeFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature$EndSpike</summary>
+
+```diff
++ App lambda$static$5(RecordCodecBuilder$Instance)
++ Boolean lambda$null$4(SpikeFeature$EndSpike)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(SpikeFeature$EndSpike)
++ Integer lambda$null$1(SpikeFeature$EndSpike)
++ Integer lambda$null$2(SpikeFeature$EndSpike)
++ Integer lambda$null$3(SpikeFeature$EndSpike)
+- SpikeFeature$EndSpike deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpringFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
+
+```diff
+- boolean isSwamphut(StructureFeatureManager,BlockPos)
+- int getLookupRange()
+- int getRandomSalt(ChunkGeneratorSettings)
+- String getFeatureName()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TwistingVinesFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,JigsawConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.VoidStartPlatformFeature</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ ConfiguredFeature lambda$null$0(WeightedConfiguredFeature)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$1(WeightedConfiguredFeature)
++ void <clinit>()
+- WeightedConfiguredFeature deserialize(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
++ void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
+- void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.BlockPlacerType</summary>
+
+```diff
+- BlockPlacer deserialize(Dynamic)
++ BlockPlacerType register(String,Codec)
+- BlockPlacerType register(String,Function)
++ Codec codec()
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.DoublePlantPlacer</summary>
+
+```diff
++ BlockPlacerType type()
++ DoublePlantPlacer lambda$static$0()
+- Object serialize(DynamicOps)
++ void <clinit>()
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockPileConfiguration</summary>
+
+```diff
+- BlockPileConfiguration deserialize(Dynamic)
++ BlockStateProvider lambda$static$0(BlockPileConfiguration)
+- Dynamic serialize(DynamicOps)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BuriedTreasureConfiguration</summary>
+
+```diff
+- BuriedTreasureConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Float lambda$static$0(BuriedTreasureConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
+- ColumnFeatureConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(ColumnFeatureConfiguration)
++ Integer lambda$null$1(ColumnFeatureConfiguration)
++ Integer lambda$null$2(ColumnFeatureConfiguration)
++ Integer lambda$null$3(ColumnFeatureConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountFeatureConfiguration</summary>
+
+```diff
+- CountFeatureConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$static$0(CountFeatureConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratedFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ ConfiguredDecorator lambda$null$1(DecoratedFeatureConfiguration)
++ ConfiguredFeature lambda$null$0(DecoratedFeatureConfiguration)
+- DecoratedFeatureConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$5(RecordCodecBuilder$Instance)
++ BlockState lambda$null$0(DeltaFeatureConfiguration)
++ BlockState lambda$null$1(DeltaFeatureConfiguration)
+- DeltaFeatureConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$2(DeltaFeatureConfiguration)
++ Integer lambda$null$3(DeltaFeatureConfiguration)
++ Integer lambda$null$4(DeltaFeatureConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ BlockState lambda$null$0(DiskConfiguration)
+- DiskConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$1(DiskConfiguration)
++ Integer lambda$null$2(DiskConfiguration)
++ List lambda$null$3(DiskConfiguration)
+- Object lambda$serialize$0(DynamicOps,BlockState)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ BlockStateProvider lambda$null$0(HugeMushroomFeatureConfiguration)
++ BlockStateProvider lambda$null$1(HugeMushroomFeatureConfiguration)
+- Dynamic serialize(DynamicOps)
+- HugeMushroomFeatureConfiguration deserialize(Dynamic)
++ Integer lambda$null$2(HugeMushroomFeatureConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LayerConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ BlockState lambda$null$1(LayerConfiguration)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(LayerConfiguration)
+- LayerConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MultiJigsawConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- JigsawConfiguration lambda$new$0(Map$Entry)
++ JigsawConfiguration lambda$new$1(Map$Entry)
++ List lambda$static$0(MultiJigsawConfiguration)
+- MultiJigsawConfiguration deserialize(Dynamic)
+- Object lambda$serialize$1(DynamicOps,JigsawConfiguration)
++ void <clinit>()
++ void <init>(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.NoneDecoratorConfiguration</summary>
+
+```diff
+- Dynamic serialize(DynamicOps)
+- NoneDecoratorConfiguration deserialize(Dynamic)
++ NoneDecoratorConfiguration lambda$static$0()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OceanRuinConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$1(OceanRuinConfiguration)
++ Float lambda$null$2(OceanRuinConfiguration)
+- OceanRuinConfiguration deserialize(Dynamic)
++ OceanRuinFeature$Type lambda$null$0(OceanRuinConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration$Predicates</summary>
+
+```diff
++ boolean lambda$static$1(BlockState)
+- OreConfiguration$Predicates lambda$static$1(OreConfiguration$Predicates)
++ OreConfiguration$Predicates lambda$static$2(OreConfiguration$Predicates)
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomBooleanFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ ConfiguredFeature lambda$null$0(RandomBooleanFeatureConfiguration)
++ ConfiguredFeature lambda$null$1(RandomBooleanFeatureConfiguration)
+- Dynamic serialize(DynamicOps)
+- RandomBooleanFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration</summary>
+
+```diff
++ App lambda$static$11(RecordCodecBuilder$Instance)
++ BlockPlacer lambda$null$1(RandomPatchConfiguration)
++ BlockStateProvider lambda$null$0(RandomPatchConfiguration)
++ Boolean lambda$null$10(RandomPatchConfiguration)
++ Boolean lambda$null$8(RandomPatchConfiguration)
++ Boolean lambda$null$9(RandomPatchConfiguration)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$4(RandomPatchConfiguration)
++ Integer lambda$null$5(RandomPatchConfiguration)
++ Integer lambda$null$6(RandomPatchConfiguration)
++ Integer lambda$null$7(RandomPatchConfiguration)
++ List lambda$null$2(RandomPatchConfiguration)
++ List lambda$null$3(RandomPatchConfiguration)
+- Object lambda$serialize$0(DynamicOps,Block)
+- Object lambda$serialize$1(DynamicOps,BlockState)
+- RandomPatchConfiguration deserialize(Dynamic)
++ void <clinit>()
++ void <init>(BlockStateProvider,BlockPlacer,List,List,int,int,int,int,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ BlockState lambda$null$0(ReplaceBlockConfiguration)
++ BlockState lambda$null$1(ReplaceBlockConfiguration)
+- Dynamic serialize(DynamicOps)
+- ReplaceBlockConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SeagrassFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Double lambda$null$1(SeagrassFeatureConfiguration)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(SeagrassFeatureConfiguration)
+- SeagrassFeatureConfiguration deserialize(Dynamic)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ BlockState lambda$null$0(SimpleBlockConfiguration)
+- Dynamic serialize(DynamicOps)
++ List lambda$null$1(SimpleBlockConfiguration)
++ List lambda$null$2(SimpleBlockConfiguration)
++ List lambda$null$3(SimpleBlockConfiguration)
+- Object lambda$serialize$0(DynamicOps,BlockState)
+- Object lambda$serialize$1(DynamicOps,BlockState)
+- Object lambda$serialize$2(DynamicOps,BlockState)
+- SimpleBlockConfiguration deserialize(Dynamic)
++ void <clinit>()
+- void <init>(BlockState,BlockState[],BlockState[],BlockState[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ Boolean lambda$null$0(SpikeConfiguration)
+- Dynamic serialize(DynamicOps)
+- Integer lambda$deserialize$1(Dynamic)
++ List lambda$null$1(SpikeConfiguration)
+- Object lambda$serialize$0(DynamicOps,SpikeFeature$EndSpike)
++ Optional lambda$null$2(SpikeConfiguration)
+- SpikeConfiguration deserialize(Dynamic)
++ void <clinit>()
++ void <init>(boolean,List,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
++ App lambda$static$9(RecordCodecBuilder$Instance)
++ BlockStateProvider lambda$null$0(TreeConfiguration)
++ BlockStateProvider lambda$null$1(TreeConfiguration)
++ Boolean lambda$null$7(TreeConfiguration)
+- Dynamic serialize(DynamicOps)
++ FeatureSize lambda$null$4(TreeConfiguration)
++ FoliagePlacer lambda$null$2(TreeConfiguration)
++ Heightmap$Types lambda$null$8(TreeConfiguration)
++ Integer lambda$null$6(TreeConfiguration)
++ List lambda$null$5(TreeConfiguration)
+- Object lambda$serialize$0(DynamicOps,TreeDecorator)
+- TreeConfiguration deserialize(Dynamic)
+- TreeDecorator lambda$deserialize$1(Dynamic)
++ TrunkPlacer lambda$null$3(TreeConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.FeatureSizeType</summary>
+
+```diff
++ Codec codec()
+- FeatureSize deserialize(Dynamic)
++ FeatureSizeType register(String,Codec)
+- FeatureSizeType register(String,Function)
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ FeatureSizeType type()
++ Integer lambda$null$0(TwoLayersFeatureSize)
++ Integer lambda$null$1(TwoLayersFeatureSize)
++ Integer lambda$null$2(TwoLayersFeatureSize)
+- Object serialize(DynamicOps)
+- OptionalInt lambda$new$0(Number)
++ void <clinit>()
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ FoliagePlacerType type()
++ void <clinit>()
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ FoliagePlacerType type()
++ void <clinit>()
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ void <clinit>()
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- CarvingMaskDecoratorConfiguration deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$1(CarvingMaskDecoratorConfiguration)
++ GenerationStep$Carving lambda$null$0(CarvingMaskDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ChanceHeightmapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ChancePassthroughDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ChorusPlantPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountBiasedRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountChanceHeightmapDoubleDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountHeighmapDoubleDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountHeightmap32Decorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountTopSolidDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountWithExtraChanceHeightmapDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.DepthAverageConfigation</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
+- DepthAverageConfigation deserialize(Dynamic)
+- Dynamic serialize(DynamicOps)
++ Integer lambda$null$0(DepthAverageConfigation)
++ Integer lambda$null$1(DepthAverageConfigation)
++ Integer lambda$null$2(DepthAverageConfigation)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EndGatewayPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
+
+```diff
++ Codec configuredCodec()
++ ConfiguredDecorator lambda$new$0(DecoratorConfiguration)
+- DecoratorConfiguration createSettings(Dynamic)
++ DecoratorConfiguration lambda$new$1(ConfiguredDecorator)
++ void <init>(Codec)
+- void <init>(Function)
+- void lambda$placeFeature$0(ConfiguredFeature,WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,AtomicBoolean,BlockPos)
++ void lambda$placeFeature$2(ConfiguredFeature,WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,AtomicBoolean,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyChanceDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$1(FrequencyChanceDecoratorConfiguration)
+- FrequencyChanceDecoratorConfiguration deserialize(Dynamic)
++ Integer lambda$null$0(FrequencyChanceDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FrequencyWithExtraChanceDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
+- Dynamic serialize(DynamicOps)
++ Float lambda$null$1(FrequencyWithExtraChanceDecoratorConfiguration)
+- FrequencyWithExtraChanceDecoratorConfiguration deserialize(Dynamic)
++ Integer lambda$null$0(FrequencyWithExtraChanceDecoratorConfiguration)
++ Integer lambda$null$2(FrequencyWithExtraChanceDecoratorConfiguration)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.MonsterRoomPlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmap32Decorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NopePlacementDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.SimpleFeatureDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.TopSolidHeightMapNoiseBasedDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.ChanceRangeDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.FireDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.nether.MagmaDecorator</summary>
+
+```diff
++ void <init>(Codec)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+```diff
++ void <clinit>()
++ void lambda$addAdditionalSaveData$1(CompoundTag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$Properties</summary>
+
+```diff
++ App lambda$static$6(RecordCodecBuilder$Instance)
++ Boolean lambda$null$0(RuinedPortalPiece$Properties)
++ Boolean lambda$null$2(RuinedPortalPiece$Properties)
++ Boolean lambda$null$3(RuinedPortalPiece$Properties)
++ Boolean lambda$null$4(RuinedPortalPiece$Properties)
++ Boolean lambda$null$5(RuinedPortalPiece$Properties)
++ Float lambda$null$1(RuinedPortalPiece$Properties)
+- Object serialize(DynamicOps)
++ void <clinit>()
++ void <init>(boolean,float,boolean,boolean,boolean,boolean)
+- void <init>(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
+
+```diff
++ IllegalArgumentException lambda$load$0(CompoundTag)
++ void <clinit>()
++ void lambda$save$1(CompoundTag,Tag)
+- void setProperties(int,int,int,boolean,boolean,DimensionType)
++ void setProperties(int,int,int,boolean,boolean,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
+
+```diff
+- CompoundTag getDimensionData()
+- void setDimensionData(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
+
+```diff
++ DataResult exportWorldGenSettings()
++ DataResult lambda$exportWorldGenSettings$2(JsonElement)
+- File getDimensionPath(DimensionType)
++ File getDimensionPath(ResourceKey)
++ WorldData lambda$getDataTag$1(File,DataFixer)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/textures/gui/title/mojang.png
++ minecraft/textures/gui/title/mojangstudios.png
++ minecraft/textures/item/nether_sprouts.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- biome_source_type.txt
++ biome_source.txt
++ chunk_generator.txt
+- dimension_type.txt
+```
+
+</details>
+
+
+<details><summary>block_state_provider_type.txt</summary>
+
+```diff
++ minecraft:rotated_block_provider
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
+- minecraft:bastion_remnant
+- minecraft:buried_treasure
+- minecraft:desert_pyramid
+- minecraft:end_city
+- minecraft:igloo
+- minecraft:jungle_temple
+- minecraft:mineshaft
+- minecraft:nether_bridge
+- minecraft:nether_fossil
+- minecraft:ocean_monument
+- minecraft:ocean_ruin
+- minecraft:pillager_outpost
+- minecraft:ruined_portal
+- minecraft:shipwreck
+- minecraft:stronghold
+- minecraft:swamp_hut
+- minecraft:village
+- minecraft:woodland_mansion
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.donkey.eat
++ minecraft:entity.fox.teleport
++ minecraft:entity.mule.angry
++ minecraft:entity.mule.eat
++ minecraft:entity.parrot.imitate.hoglin
++ minecraft:entity.parrot.imitate.piglin
++ minecraft:entity.parrot.imitate.zoglin
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>locate.txt</summary>
+
+```diff
++ locate bastion_remnant
+- locate Bastion_Remnant
++ locate buried_treasure
+- locate Buried_Treasure
++ locate desert_pyramid
+- locate Desert_Pyramid
++ locate endcity
+- locate EndCity
++ locate fortress
+- locate Fortress
++ locate igloo
+- locate Igloo
++ locate jungle_pyramid
+- locate Jungle_Pyramid
++ locate mansion
+- locate Mansion
++ locate mineshaft
+- locate Mineshaft
++ locate monument
+- locate Monument
++ locate nether_fossil
+- locate Nether_Fossil
++ locate ocean_ruin
+- locate Ocean_Ruin
++ locate pillager_outpost
+- locate Pillager_Outpost
++ locate ruined_portal
+- locate Ruined_Portal
++ locate shipwreck
+- locate Shipwreck
++ locate stronghold
+- locate Stronghold
++ locate swamp_hut
+- locate Swamp_Hut
++ locate village
+- locate Village
+```
+
+</details>
+
+
+<details><summary>spreadplayers.txt</summary>
+
+```diff
++ spreadplayers <center: vec2> <spreadDistance: float> <maxRange: float> under <maxHeight: integer> <respectTeams: bool> <targets: entity>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/prevent_mob_spawning_inside.json</summary>
+
+```diff
+- minecraft:wither_rose
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- createWorld.customize.buffet.generator
+- createWorld.customize.buffet.generatortype
+- generator.buffet
++ generator.custom
++ generator.large_biomes
+- generator.largeBiomes
+- generator.minecraft.caves
+- generator.minecraft.floating_islands
+- generator.minecraft.surface
++ generator.single_biome_caves
++ generator.single_biome_floating_islands
++ generator.single_biome_surface
++ selectWorld.backupQuestion.experimental
++ selectWorld.backupWarning.experimental
++ selectWorld.edit.export_worldgen_settings
++ selectWorld.edit.export_worldgen_settings.failure
++ selectWorld.edit.export_worldgen_settings.success
++ selectWorld.import_worldgen_settings
++ selectWorld.import_worldgen_settings.deprecated.question
++ selectWorld.import_worldgen_settings.deprecated.title
++ selectWorld.import_worldgen_settings.experimental.question
++ selectWorld.import_worldgen_settings.experimental.title
++ selectWorld.import_worldgen_settings.failure
++ selectWorld.import_worldgen_settings.select_file
++ selectWorld.tooltip.experimental
++ subtitles.block.portal.travel
++ subtitles.block.portal.trigger
++ subtitles.entity.cat.purr
++ subtitles.entity.donkey.eat
++ subtitles.entity.fox.teleport
+- subtitles.entity.horse.land
++ subtitles.entity.mule.angry
++ subtitles.entity.mule.eat
++ subtitles.entity.parrot.imitate.hoglin
++ subtitles.entity.parrot.imitate.piglin
++ subtitles.entity.parrot.imitate.zoglin
++ subtitles.entity.zombie.attack_wooden_door
++ subtitles.entity.zombie.break_wooden_door
++ subtitles.ui.cartography_table.take_result
++ subtitles.ui.loom.take_result
++ subtitles.ui.stonecutter.take_result
++ title.multiplayer.disabled
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>textures.txt</summary>
+
+```diff
+- gui/title/mojang.png
++ gui/title/mojangstudios.png
++ item/nether_sprouts.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:datafixerupper:2.0.24
++ com.mojang:datafixerupper:3.0.25
+```
+
+</details>

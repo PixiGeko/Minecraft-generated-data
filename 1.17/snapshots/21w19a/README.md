@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w19a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w19a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-05-12T11:19:15+00:00</td></tr>
@@ -10,4929 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/8d8524fd057a410dbc680f8f46b967b39ad3f1d8/server.txt">https://piston-data.mojang.com/v1/objects/8d8524fd057a410dbc680f8f46b967b39ad3f1d8/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ec029994171ba8e3d9a68458d7d307a67a84faac/client.jar">https://piston-data.mojang.com/v1/objects/ec029994171ba8e3d9a68458d7d307a67a84faac/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7de88c6a5342a640d905ea008a1ad364bdcd63a5/client.txt">https://piston-data.mojang.com/v1/objects/7de88c6a5342a640d905ea008a1ad364bdcd63a5/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w18a">21w18a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/recipes/decorations/black_candle.json
--  minecraft/advancements/recipes/decorations/blue_candle.json
--  minecraft/advancements/recipes/decorations/brown_candle.json
--  minecraft/advancements/recipes/decorations/candle.json
--  minecraft/advancements/recipes/decorations/cyan_candle.json
--  minecraft/advancements/recipes/decorations/gray_candle.json
--  minecraft/advancements/recipes/decorations/green_candle.json
--  minecraft/advancements/recipes/decorations/light_blue_candle.json
--  minecraft/advancements/recipes/decorations/light_gray_candle.json
--  minecraft/advancements/recipes/decorations/lime_candle.json
--  minecraft/advancements/recipes/decorations/magenta_candle.json
--  minecraft/advancements/recipes/decorations/orange_candle.json
--  minecraft/advancements/recipes/decorations/pink_candle.json
--  minecraft/advancements/recipes/decorations/purple_candle.json
--  minecraft/advancements/recipes/decorations/red_candle.json
--  minecraft/advancements/recipes/decorations/white_candle.json
--  minecraft/advancements/recipes/decorations/yellow_candle.json
--  minecraft/advancements/recipes/tools/bundle.json
--  minecraft/recipes/black_candle.json
--  minecraft/recipes/blue_candle.json
--  minecraft/recipes/brown_candle.json
--  minecraft/recipes/bundle.json
--  minecraft/recipes/candle.json
--  minecraft/recipes/cyan_candle.json
--  minecraft/recipes/gray_candle.json
--  minecraft/recipes/green_candle.json
--  minecraft/recipes/light_blue_candle.json
--  minecraft/recipes/light_gray_candle.json
--  minecraft/recipes/lime_candle.json
--  minecraft/recipes/magenta_candle.json
--  minecraft/recipes/orange_candle.json
--  minecraft/recipes/pink_candle.json
--  minecraft/recipes/purple_candle.json
--  minecraft/recipes/red_candle.json
--  minecraft/recipes/white_candle.json
--  minecraft/recipes/yellow_candle.json
-+  minecraft/tags/blocks/mineable
-+  minecraft/tags/blocks/mineable/axe.json
-+  minecraft/tags/blocks/mineable/hoe.json
-+  minecraft/tags/blocks/mineable/pickaxe.json
-+  minecraft/tags/blocks/mineable/shovel.json
-+  minecraft/tags/blocks/needs_diamond_tool.json
-+  minecraft/tags/blocks/needs_iron_tool.json
-+  minecraft/tags/blocks/needs_stone_tool.json
-```
+### Client
 
-</details>
 
-## Commands
 
-<details><summary>item.txt</summary>
 
-```diff
-- item block <pos: block_pos> <slot: item_slot> replace <item: item_stack> <count: integer>
-- item block <pos: block_pos> <slot: item_slot> modify <modifier: resource_location>
-- item block <pos: block_pos> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
-- item block <pos: block_pos> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
-- item entity <targets: entity> <slot: item_slot> replace <item: item_stack> <count: integer>
-- item entity <targets: entity> <slot: item_slot> modify <modifier: resource_location>
-- item entity <targets: entity> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
-- item entity <targets: entity> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
-+ item replace block <pos: block_pos> <slot: item_slot> with <item: item_stack> <count: integer>
-+ item replace block <pos: block_pos> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
-+ item replace block <pos: block_pos> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
-+ item replace entity <targets: entity> <slot: item_slot> with <item: item_stack> <count: integer>
-+ item replace entity <targets: entity> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
-+ item replace entity <targets: entity> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
-+ item modify block <pos: block_pos> <slot: item_slot> <modifier: resource_location>
-+ item modify entity <targets: entity> <slot: item_slot> <modifier: resource_location>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/mineable/axe.json
-+ blocks/mineable/hoe.json
-+ blocks/mineable/pickaxe.json
-+ blocks/mineable/shovel.json
-+ blocks/needs_diamond_tool.json
-+ blocks/needs_iron_tool.json
-+ blocks/needs_stone_tool.json
-```
-
-</details>
-
-<details><summary>blocks/bee_growables.json</summary>
-
-```diff
-+ minecraft:cave_vines
-```
-
-</details>
-
-<details><summary>blocks/lush_ground_replaceable.json</summary>
-
-```diff
-- minecraft:moss_block
-```
-
-</details>
-
-<details><summary>blocks/saplings.json</summary>
-
-```diff
-+ minecraft:azalea
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>items/saplings.json</summary>
-
-```diff
-+ minecraft:azalea
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/decorations/black_candle.json
-- recipes/decorations/blue_candle.json
-- recipes/decorations/brown_candle.json
-- recipes/decorations/candle.json
-- recipes/decorations/cyan_candle.json
-- recipes/decorations/gray_candle.json
-- recipes/decorations/green_candle.json
-- recipes/decorations/light_blue_candle.json
-- recipes/decorations/light_gray_candle.json
-- recipes/decorations/lime_candle.json
-- recipes/decorations/magenta_candle.json
-- recipes/decorations/orange_candle.json
-- recipes/decorations/pink_candle.json
-- recipes/decorations/purple_candle.json
-- recipes/decorations/red_candle.json
-- recipes/decorations/white_candle.json
-- recipes/decorations/yellow_candle.json
-- recipes/tools/bundle.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- black_candle.json
-- blue_candle.json
-- brown_candle.json
-- bundle.json
-- candle.json
-- cyan_candle.json
-- gray_candle.json
-- green_candle.json
-- light_blue_candle.json
-- light_gray_candle.json
-- lime_candle.json
-- magenta_candle.json
-- orange_candle.json
-- pink_candle.json
-- purple_candle.json
-- red_candle.json
-- white_candle.json
-- yellow_candle.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/mineable/axe.json
-+ blocks/mineable/hoe.json
-+ blocks/mineable/pickaxe.json
-+ blocks/mineable/shovel.json
-+ blocks/needs_diamond_tool.json
-+ blocks/needs_iron_tool.json
-+ blocks/needs_stone_tool.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:patchy:1.3.9
-+ com.mojang:blocklist:1.0.5
-+ com.mojang:patchy:2.0.5
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.audio.OggAudioStream$OutputConcat</summary>
-
-```diff
-- int access$000(OggAudioStream$OutputConcat)
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
-
-```diff
-+ float[] lambda$new$0()
-+ void <init>(boolean)
-+ void lambda$bindWrite$2(boolean)
-+ void lambda$blitToScreen$4(int,int,boolean)
-+ void lambda$resize$1(int,int,boolean)
-+ void lambda$unbindWrite$3()
-- void <init>(int,int,boolean,boolean)
-- void lambda$bindWrite$1(boolean)
-- void lambda$blitToScreen$3(int,int,boolean)
-- void lambda$resize$0(int,int,boolean)
-- void lambda$unbindWrite$2()
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.platform.InputConstants$Key</summary>
-
-```diff
-- Map access$200()
-- void <init>(InputConstants$1)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.PngInfo$StbReaderBufferedChannel</summary>
-
-```diff
-- void <init>(PngInfo$1)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.platform.Window</summary>
-
-```diff
-+ void setWindowed(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-- Logger access$200()
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
-
-```diff
-- void <init>(RenderSystem$1)
-- void access$100(RenderSystem$AutoStorageIndexBuffer,int)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
-
-```diff
-- float access$400(BufferBuilder$SortState)
-- float access$500(BufferBuilder$SortState)
-- float access$600(BufferBuilder$SortState)
-- int access$200(BufferBuilder$SortState)
-- Vector3f[] access$300(BufferBuilder$SortState)
-- VertexFormat$Mode access$100(BufferBuilder$SortState)
-- void <init>(BufferBuilder$1)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.client.FileDownload$ResourcePackProgressListener</summary>
-
-```diff
-- void <init>(FileDownload$1)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.client.Ping$Region</summary>
-
-```diff
-+ Ping$Region[] $values()
-- String access$000(Ping$Region)
-- String access$100(Ping$Region)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.client.RealmsClient$CompatibleVersionResponse</summary>
-
-```diff
-+ RealmsClient$CompatibleVersionResponse[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.RealmsServer$WorldType</summary>
-
-```diff
-+ RealmsServer$WorldType[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.WorldTemplate$WorldTemplateType</summary>
-
-```diff
-+ WorldTemplate$WorldTemplateType[] $values()
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.RealmsDataFetcher$Task</summary>
-
-```diff
-+ RealmsDataFetcher$Task[] $values()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton$Action</summary>
-
-```diff
-+ RealmsWorldSlotButton$Action[] $values()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
-
-```diff
-- Backup access$200(RealmsBackupInfoScreen)
-- Component access$100(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongConfirmationScreen$Type</summary>
-
-```diff
-+ RealmsLongConfirmationScreen$Type[] $values()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
-
-```diff
-- boolean access$002(boolean)
-- boolean access$102(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$UserAction</summary>
-
-```diff
-+ RealmsPlayerScreen$UserAction[] $values()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
-
-```diff
-- Logger access$100()
-- void access$600(ResourceLocation,boolean,boolean)
-- WorldTemplatePaginatedList access$202(WorldTemplatePaginatedList)
-- WorldTemplatePaginatedList access$302(WorldTemplatePaginatedList)
-- WorldTemplatePaginatedList access$402(WorldTemplatePaginatedList)
-- WorldTemplatePaginatedList access$502(WorldTemplatePaginatedList)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
-
-```diff
-+ Font access$200(RealmsSelectWorldTemplateScreen)
-+ Font access$300(RealmsSelectWorldTemplateScreen)
-+ Font access$400(RealmsSelectWorldTemplateScreen)
-+ Font access$500(RealmsSelectWorldTemplateScreen)
-+ Font access$600(RealmsSelectWorldTemplateScreen)
-+ Font access$700(RealmsSelectWorldTemplateScreen)
-+ int access$100(int)
-+ Minecraft access$000(RealmsSelectWorldTemplateScreen)
-- boolean access$500(RealmsSelectWorldTemplateScreen)
-- Component access$2202(Component)
-- Component access$2300()
-- Component access$2400()
-- Either access$000(RealmsClient)
-- Font access$1300(RealmsSelectWorldTemplateScreen)
-- Font access$1400(RealmsSelectWorldTemplateScreen)
-- Font access$1500(RealmsSelectWorldTemplateScreen)
-- Font access$1600(RealmsSelectWorldTemplateScreen)
-- Font access$1800(RealmsSelectWorldTemplateScreen)
-- Font access$1900(RealmsSelectWorldTemplateScreen)
-- int access$1002(RealmsSelectWorldTemplateScreen,int)
-- int access$600(int)
-- int access$800(RealmsSelectWorldTemplateScreen)
-- int access$802(RealmsSelectWorldTemplateScreen,int)
-- List access$402(List)
-- Logger access$200()
-- Minecraft access$100(RealmsSelectWorldTemplateScreen)
-- RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$300(RealmsSelectWorldTemplateScreen)
-- ResourceLocation access$1700()
-- ResourceLocation access$2000()
-- ResourceLocation access$2100()
-- String access$700(RealmsSelectWorldTemplateScreen)
-- String access$702(String)
-- void access$1100(RealmsSelectWorldTemplateScreen)
-- void access$900(RealmsSelectWorldTemplateScreen)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$Entry</summary>
-
-```diff
-- WorldTemplate access$1200(RealmsSelectWorldTemplateScreen$Entry)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSettingsScreen</summary>
-
-```diff
-+ void lambda$init$2(boolean)
-- void lambda$null$2(boolean)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
-
-```diff
-+ void lambda$upload$3(UploadResult)
-- void lambda$null$3(UploadResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
-
-```diff
-- void <init>(Advancement$1)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.FrameType</summary>
-
-```diff
-+ FrameType[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.AmbientOcclusionStatus</summary>
-
-```diff
-+ AmbientOcclusionStatus[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.ResourceLoadStateTracker$ReloadReason</summary>
-
-```diff
-+ ResourceLoadStateTracker$ReloadReason[] $values()
-- String access$400(ResourceLoadStateTracker$ReloadReason)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.Screenshot</summary>
-
-```diff
-+ Style lambda$_grab$1(Style)
-- Style lambda$null$1(Style)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter</summary>
-
-```diff
-- StringSplitter$WidthProvider access$000(StringSplitter)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter$FlatComponents</summary>
-
-```diff
-- List access$300(StringSplitter$FlatComponents)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter$LineComponent</summary>
-
-```diff
-- String access$100(StringSplitter$LineComponent)
-- Style access$200(StringSplitter$LineComponent)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.color.block.BlockTintCache</summary>
-
-```diff
-- BlockTintCache$LatestCacheInfo lambda$new$0()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.PlayerTabOverlay$PlayerInfoComparator</summary>
-
-```diff
-- void <init>(PlayerTabOverlay$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent</summary>
-
-```diff
-- Minecraft access$100(ToastComponent)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.font.FontTexture$Node</summary>
-
-```diff
-- int access$100(FontTexture$Node)
-- int access$200(FontTexture$Node)
-- void <init>(FontTexture$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.font.glyphs.WhiteGlyph</summary>
-
-```diff
-+ WhiteGlyph[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider$Glyph</summary>
-
-```diff
-- void <init>(LegacyUnicodeBitmapsProvider$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
-
-```diff
-+ void lambda$createFooter$0(boolean)
-- void lambda$null$0(boolean)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ConnectScreen$1</summary>
-
-```diff
-+ Minecraft val$minecraft
-+ ServerAddress val$hostAndPort
-- int val$port
-- String val$hostname
-+ void <init>(Minecraft)
-+ void lambda$run$0(Minecraft)
-+ void lambda$run$1(String)
-- void <init>(String,int)
-- void lambda$run$0(Component)
-- void lambda$run$1()
-- void lambda$run$2(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList$Entry</summary>
-
-```diff
-- void <init>(CreateFlatWorldScreen$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
-
-```diff
-- LanguageManager access$000(LanguageSelectScreen)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
-
-```diff
-- LanguageInfo access$100(LanguageSelectScreen$LanguageSelectionList$Entry)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
-
-```diff
-- ResourceLocation access$000()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ Biome lambda$preset$4(ResourceKey)
-- Biome lambda$null$4(ResourceKey)
-- CreateFlatWorldScreen access$200(PresetFlatWorldScreen)
-- EditBox access$500(PresetFlatWorldScreen)
-- FlatLevelGeneratorSettings access$300(PresetFlatWorldScreen)
-- FlatLevelGeneratorSettings access$302(FlatLevelGeneratorSettings)
-- List access$000()
-- String access$400(FlatLevelGeneratorSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen</summary>
-
-```diff
-+ Font access$000(StatsScreen)
-+ Font access$100(StatsScreen)
-+ Font access$1200(StatsScreen)
-+ Font access$300(StatsScreen)
-+ Font access$600(StatsScreen)
-+ Font access$700(StatsScreen)
-+ Font access$800(StatsScreen)
-+ Font access$900(StatsScreen)
-- Font access$1400(StatsScreen)
-- Font access$1500(StatsScreen)
-- Font access$1600(StatsScreen)
-- Font access$1700(StatsScreen)
-- Font access$1800(StatsScreen)
-- Font access$1900(StatsScreen)
-- Font access$2000(StatsScreen)
-- Font access$2100(StatsScreen)
-- int access$800(StatsScreen,int)
-- StatsCounter access$300(StatsScreen)
-- StatsScreen$ItemStatisticsList access$1200(StatsScreen)
-- String access$100(Stat)
-- void access$1300(Item)
-- void access$900(PoseStack,int,int,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry</summary>
-
-```diff
-- void <init>(ControlList$1)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeSlot</summary>
-
-```diff
-- GameModeSwitcherScreen$GameModeIcon access$100(GameModeSwitcherScreen$GameModeSlot)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen</summary>
-
-```diff
-+ List access$000(BeaconScreen)
-+ List access$100(BeaconScreen)
-+ Minecraft access$200(BeaconScreen)
-+ Minecraft access$300(BeaconScreen)
-+ Minecraft access$400(BeaconScreen)
-- boolean access$202(BeaconScreen,boolean)
-- List access$400(BeaconScreen)
-- List access$500(BeaconScreen)
-- Minecraft access$600(BeaconScreen)
-- Minecraft access$700(BeaconScreen)
-- Minecraft access$800(BeaconScreen)
-- MobEffect access$000(BeaconScreen)
-- MobEffect access$002(MobEffect)
-- MobEffect access$100(BeaconScreen)
-- MobEffect access$102(MobEffect)
-- ResourceLocation access$300()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen</summary>
-
-```diff
-- int access$1000(int[],int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen$LineInfo</summary>
-
-```diff
-- Component access$200(BookEditScreen$LineInfo)
-- int access$300(BookEditScreen$LineInfo)
-- int access$400(BookEditScreen$LineInfo)
-- String access$800(BookEditScreen$LineInfo)
-- Style access$900(BookEditScreen$LineInfo)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
-
-```diff
-- List access$000(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen</summary>
-
-```diff
-- SimpleContainer access$000()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen</summary>
-
-```diff
-- int access$000(JigsawBlockEditScreen)
-- int access$002(JigsawBlockEditScreen,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.LecternScreen</summary>
-
-```diff
-- void access$000(LecternScreen)
-- void access$100(LecternScreen)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen</summary>
-
-```diff
-+ void access$000(ItemStack,int,int)
-- int access$000(MerchantScreen)
-- void access$300(ItemStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip$Texture</summary>
-
-```diff
-+ ClientBundleTooltip$Texture[] $values()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
-
-```diff
-- Function access$000(PackSelectionModel)
-- List access$200(PackSelectionModel)
-- List access$300(PackSelectionModel)
-- Runnable access$100(PackSelectionModel)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.GhostRecipe</summary>
-
-```diff
-- float access$000(GhostRecipe)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
-
-```diff
-+ float ITEM_RENDER_SCALE
-- boolean access$200(OverlayRecipeComponent)
-- float access$300(OverlayRecipeComponent)
-- Minecraft access$400(OverlayRecipeComponent)
-- ResourceLocation access$100()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.social.PlayerEntry</summary>
-
-```diff
-+ void lambda$new$1(PoseStack,int,int)
-+ void lambda$new$4(PoseStack,int,int)
-- MutableComponent access$000(MutableComponent)
-- void lambda$null$1(PoseStack,int,int)
-- void lambda$null$4(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen$Page</summary>
-
-```diff
-+ SocialInteractionsScreen$Page[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ void lambda$init$7(GameRules)
-+ void lambda$init$8(Optional)
-+ void lambda$tryApplyNewDataPacks$15(boolean)
-+ void lambda$tryApplyNewDataPacks$16()
-+ void lambda$tryApplyNewDataPacks$17(ServerResources)
-- String access$000(CreateWorldScreen)
-- void lambda$null$15(boolean)
-- void lambda$null$16()
-- void lambda$null$17(ServerResources)
-- void lambda$null$7(GameRules)
-- void lambda$null$8(Optional)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen</summary>
-
-```diff
-+ Font access$700(EditGameRulesScreen)
-+ Minecraft access$600(EditGameRulesScreen)
-- Font access$900(EditGameRulesScreen)
-- Minecraft access$800(EditGameRulesScreen)
-- void access$1100(List)
-- void access$600(EditGameRulesScreen$RuleEntry)
-- void access$700(EditGameRulesScreen$RuleEntry)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$RuleEntry</summary>
-
-```diff
-- List access$1000(EditGameRulesScreen$RuleEntry)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
-
-```diff
-+ void lambda$init$8(WorldGenSettings,boolean)
-+ void lambda$init$9(WorldGenSettings)
-- void lambda$null$8(WorldGenSettings,boolean)
-- void lambda$null$9(WorldGenSettings)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
-
-```diff
-+ String lambda$editWorld$5()
-+ void lambda$joinWorld$1()
-- LevelSummary access$000(WorldSelectionList$WorldListEntry)
-- String lambda$null$5()
-- void lambda$null$1()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu</summary>
-
-```diff
-- Component access$100()
-- Component access$300()
-- Component access$400()
-- int access$200(SpectatorMenu)
-- int access$202(SpectatorMenu,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu$CloseSpectatorItem</summary>
-
-```diff
-- void <init>(SpectatorMenu$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.main.Main</summary>
-
-```diff
-- Logger access$000()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.HumanoidModel$ArmPose</summary>
-
-```diff
-+ HumanoidModel$ArmPose[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
-
-```diff
-- ClientChunkCache$Storage access$900(ClientChunkCache)
-- ClientLevel access$800(ClientChunkCache)
-- Logger access$1000()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ServerData$ServerPackStatus</summary>
-
-```diff
-+ ServerData$ServerPackStatus[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger</summary>
-
-```diff
-+ Component CANT_CONNECT_MESSAGE
-+ void onPingFailed(ServerData)
-+ void pingLegacyServer(ServerData)
-- Component access$000(int,int)
-- Logger access$100()
-- Splitter access$300()
-- void access$200(ServerData)
-- void pingLegacyServer(ServerData)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$2</summary>
-
-```diff
-+ InetSocketAddress val$address
-- ServerAddress val$address
-+ void <init>(ServerData)
-- void <init>(ServerData)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.particle.BreakingItemParticle</summary>
-
-```diff
-- void <init>(BreakingItemParticle$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.particle.BubbleParticle</summary>
-
-```diff
-- void <init>(BubbleParticle$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.particle.CampfireSmokeParticle</summary>
-
-```diff
-- void <init>(CampfireSmokeParticle$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.particle.DripParticle$CoolingDripHangParticle</summary>
-
-```diff
-- void <init>(DripParticle$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.particle.DripParticle$DripLandParticle</summary>
-
-```diff
-- void <init>(DripParticle$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.particle.DripParticle$FallAndLandParticle</summary>
-
-```diff
-- void <init>(DripParticle$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.particle.DripParticle$HoneyFallAndLandParticle</summary>
-
-```diff
-- void <init>(DripParticle$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.FallingDustParticle</summary>
-
-```diff
-- void <init>(FallingDustParticle$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.particle.GlowParticle</summary>
-
-```diff
-- Random access$000()
-- void <init>(GlowParticle$1)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.particle.LavaParticle</summary>
-
-```diff
-- void <init>(LavaParticle$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.particle.ParticleEngine$MutableSpriteSet</summary>
-
-```diff
-- void <init>(ParticleEngine$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.PlayerCloudParticle</summary>
-
-```diff
-- void <init>(PlayerCloudParticle$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.SoulParticle</summary>
-
-```diff
-- void <init>(SoulParticle$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.particle.SpitParticle</summary>
-
-```diff
-- void <init>(SpitParticle$1)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.WakeParticle</summary>
-
-```diff
-- void <init>(WakeParticle$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.profiling.metric.MetricSampler</summary>
-
-```diff
-- void <init>(MetricSampler$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.FaceInfo$VertexInfo</summary>
-
-```diff
-- void <init>(FaceInfo$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.FogRenderer$FogMode</summary>
-
-```diff
-+ FogRenderer$FogMode[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.LevelRenderer$RenderChunkInfo</summary>
-
-```diff
-- byte access$500(LevelRenderer$RenderChunkInfo)
-- ChunkRenderDispatcher$RenderChunk access$100(LevelRenderer$RenderChunkInfo)
-- int access$400(LevelRenderer$RenderChunkInfo)
-- void <init>(LevelRenderer$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderStateShard$ShaderStateShard</summary>
-
-```diff
-+ ShaderInstance lambda$new$2()
-- ShaderInstance lambda$null$2()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides$PropertyMatcher</summary>
-
-```diff
-- void <init>(ItemOverrides$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemTransforms$TransformType</summary>
-
-```diff
-+ ItemTransforms$TransformType[] $values()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.multipart.Condition</summary>
-
-```diff
-+ boolean lambda$static$0(BlockState)
-+ boolean lambda$static$2(BlockState)
-- boolean lambda$null$0(BlockState)
-- boolean lambda$null$2(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.block.model.multipart.OrCondition</summary>
-
-```diff
-+ boolean lambda$getPredicate$1(Predicate)
-- boolean lambda$null$1(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
-
-```diff
-+ void lambda$runTask$2(ChunkBufferBuilderPack)
-- ChunkBufferBuilderPack access$300(ChunkRenderDispatcher)
-- Level access$000(ChunkRenderDispatcher)
-- LevelRenderer access$200(ChunkRenderDispatcher)
-- void lambda$null$2(ChunkBufferBuilderPack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$CompiledChunk</summary>
-
-```diff
-- boolean access$702(ChunkRenderDispatcher$CompiledChunk,boolean)
-- BufferBuilder$SortState access$900(ChunkRenderDispatcher$CompiledChunk)
-- BufferBuilder$SortState access$902(BufferBuilder$SortState)
-- List access$1100(ChunkRenderDispatcher$CompiledChunk)
-- Set access$100(ChunkRenderDispatcher$CompiledChunk)
-- Set access$800(ChunkRenderDispatcher$CompiledChunk)
-- VisibilitySet access$1002(VisibilitySet)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
-
-```diff
-- BlockPos$MutableBlockPos access$500(ChunkRenderDispatcher$RenderChunk)
-- void access$400(Set)
-- void access$600(BufferBuilder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.ChunkDebugRenderer</summary>
-
-```diff
-- Minecraft access$300(ChunkDebugRenderer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite$FrameInfo</summary>
-
-```diff
-- int access$600(TextureAtlasSprite$FrameInfo)
-- int access$700(TextureAtlasSprite$FrameInfo)
-- void <init>(TextureAtlasSprite$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite$InterpolationData</summary>
-
-```diff
-- void <init>(TextureAtlasSprite$1)
-- void access$1700(TextureAtlasSprite$AnimatedTexture)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.SkinManager</summary>
-
-```diff
-+ void lambda$registerSkins$1(MinecraftProfileTexture$Type)
-+ void lambda$registerSkins$2(SkinManager$SkinTextureCallback)
-+ void lambda$registerSkins$3(SkinManager$SkinTextureCallback)
-- void lambda$null$1(MinecraftProfileTexture$Type)
-- void lambda$null$2(SkinManager$SkinTextureCallback)
-- void lambda$null$3(SkinManager$SkinTextureCallback)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.BlockModelRotation</summary>
-
-```diff
-+ BlockModelRotation[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.BiomeAmbientSoundsHandler</summary>
-
-```diff
-+ BiomeAmbientSoundsHandler$LoopSoundInstance lambda$tick$0(BiomeAmbientSoundsHandler$LoopSoundInstance)
-- BiomeAmbientSoundsHandler$LoopSoundInstance lambda$null$0(BiomeAmbientSoundsHandler$LoopSoundInstance)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.Sound$Type</summary>
-
-```diff
-+ Sound$Type[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.SoundInstance$Attenuation</summary>
-
-```diff
-+ SoundInstance$Attenuation[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.ChannelAccess$ChannelHandle</summary>
-
-```diff
-- Channel access$200(ChannelAccess$ChannelHandle)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.commands.CommandFunction</summary>
-
-```diff
-- ResourceLocation access$000(CommandFunction)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands$CommandSelection</summary>
-
-```diff
-+ Commands$CommandSelection[] $values()
-- boolean access$000(Commands$CommandSelection)
-- boolean access$100(Commands$CommandSelection)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
-
-```diff
-- void <init>(BlockPredicateArgument$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
-
-```diff
-+ CommandSyntaxException lambda$parse$2(ResourceLocation)
-- CommandSyntaxException lambda$null$2(ResourceLocation)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
-
-```diff
-+ int lambda$static$3(Entity)
-+ int lambda$static$5(Entity)
-- int lambda$null$3(Entity)
-- int lambda$null$5(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.commands.synchronization.SuggestionProviders$Wrapper</summary>
-
-```diff
-- ResourceLocation access$000(SuggestionProviders$Wrapper)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.AxisCycle</summary>
-
-```diff
-+ AxisCycle[] $values()
-- void <init>(AxisCycle$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
-
-```diff
-+ Direction[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction$Axis</summary>
-
-```diff
-+ Direction$Axis[] $values()
-- void <init>(Direction$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.core.Direction$AxisDirection</summary>
-
-```diff
-+ Direction$AxisDirection[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction8</summary>
-
-```diff
-+ Direction8[] $values()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
-
-```diff
-+ boolean lambda$static$3(ResourceKey)
-+ void lambda$static$4(ResourceKey)
-- boolean lambda$null$3(ResourceKey)
-- Map access$000()
-- void lambda$null$4(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
-
-```diff
-+ boolean lambda$captureMap$3(Map$Entry)
-+ Codec lambda$makeNetworkCodec$1(Codec)
-- boolean lambda$null$3(Map$Entry)
-- Codec lambda$null$1(Codec)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.SectionPos</summary>
-
-```diff
-- void <init>(SectionPos$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.VibrationParticleOption</summary>
-
-```diff
-+ VibrationPath lambda$static$0(VibrationParticleOption)
-- VibrationPath lambda$null$0(VibrationParticleOption)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.BlockFamily</summary>
-
-```diff
-- boolean access$202(BlockFamily,boolean)
-- boolean access$302(BlockFamily,boolean)
-- Map access$100(BlockFamily)
-- String access$402(String)
-- String access$502(String)
-- void <init>(BlockFamily$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.blockstates.Condition$CompositeCondition</summary>
-
-```diff
-- void <init>(Condition$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C1</summary>
-
-```diff
-- void <init>(PropertyDispatch$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C3</summary>
-
-```diff
-+ void lambda$generate$0(Comparable)
-+ void lambda$generate$1(Comparable)
-+ void lambda$generateList$3(Comparable)
-+ void lambda$generateList$4(Comparable)
-- void <init>(PropertyDispatch$1)
-- void lambda$null$0(Comparable)
-- void lambda$null$1(Comparable)
-- void lambda$null$3(Comparable)
-- void lambda$null$4(Comparable)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C5</summary>
-
-```diff
-+ void lambda$generate$0(Comparable)
-+ void lambda$generate$1(Comparable)
-+ void lambda$generate$2(Comparable)
-+ void lambda$generate$3(Comparable)
-+ void lambda$generateList$5(Comparable)
-+ void lambda$generateList$6(Comparable)
-+ void lambda$generateList$7(Comparable)
-+ void lambda$generateList$8(Comparable)
-- void <init>(PropertyDispatch$1)
-- void lambda$null$0(Comparable)
-- void lambda$null$1(Comparable)
-- void lambda$null$2(Comparable)
-- void lambda$null$3(Comparable)
-- void lambda$null$5(Comparable)
-- void lambda$null$6(Comparable)
-- void lambda$null$7(Comparable)
-- void lambda$null$8(Comparable)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.models.blockstates.VariantProperty</summary>
-
-```diff
-- Function access$100(VariantProperty)
-- String access$000(VariantProperty)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ String lambda$generateRecipes$4(ItemLike)
-+ void lambda$generateRecipes$3(String)
-- String lambda$null$4(ItemLike)
-- void lambda$null$3(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
-
-```diff
-- byte[] access$300(SnbtToNbt$TaskResult)
-- String access$000(SnbtToNbt$TaskResult)
-- String access$100(SnbtToNbt$TaskResult)
-- String access$200(SnbtToNbt$TaskResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ boolean lambda$run$0(Tag$BuilderEntry)
-- boolean lambda$null$0(Tag$BuilderEntry)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.ConnectionProtocol$ProtocolBuilder</summary>
-
-```diff
-- Map access$200(ConnectionProtocol$ProtocolBuilder)
-- void <init>(ConnectionProtocol$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ChatType</summary>
-
-```diff
-+ ChatType[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.ClickEvent$Action</summary>
-
-```diff
-+ ClickEvent$Action[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.HoverEvent$Action</summary>
-
-```diff
-+ HoverEvent$Action lambda$static$0(HoverEvent$Action)
-- HoverEvent$Action lambda$static$3(HoverEvent$Action)
-- HoverEvent$ItemStackInfo lambda$static$0(JsonElement)
-- HoverEvent$ItemStackInfo lambda$static$2(Component)
-- JsonElement lambda$static$1(Object)
-- Object access$000(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.HoverEvent$ItemStackInfo</summary>
-
-```diff
-- HoverEvent$ItemStackInfo access$200(Component)
-- HoverEvent$ItemStackInfo access$400(JsonElement)
-- JsonElement access$300(HoverEvent$ItemStackInfo)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.SubStringSource</summary>
-
-```diff
-+ boolean lambda$create$2(Style,int)
-- boolean lambda$null$2(Style,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.PacketFlow</summary>
-
-```diff
-+ PacketFlow[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handlePing(net.minecraft.network.protocol.game.ClientboundPingPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket</summary>
-
-```diff
-- ClientboundBossEventPacket$Operation access$1000()
-- int access$1200(boolean,boolean,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$AddOperation</summary>
-
-```diff
-- void <init>(ClientboundBossEventPacket$1)
-- void <init>(ClientboundBossEventPacket$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateNameOperation</summary>
-
-```diff
-- void <init>(ClientboundBossEventPacket$1)
-- void <init>(ClientboundBossEventPacket$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation</summary>
-
-```diff
-- void <init>(ClientboundBossEventPacket$1)
-- void <init>(ClientboundBossEventPacket$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
-
-```diff
-- void lambda$run$2(DisconnectedRealmsScreen)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager$QueuedCommand</summary>
-
-```diff
-- int access$400(ServerFunctionManager$QueuedCommand)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.DebugCommand$Tracer</summary>
-
-```diff
-- void <init>(DebugCommand$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
-
-```diff
-+ Component lambda$register$0(ServerPlayer)
-+ void lambda$register$1(TextFilter$FilteredText)
-- Component lambda$null$0(ServerPlayer)
-- void lambda$null$1(TextFilter$FilteredText)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
-
-```diff
-+ boolean lambda$addConditionals$40(Integer)
-+ boolean lambda$addConditionals$42(Integer)
-+ boolean lambda$addConditionals$44(Integer)
-+ boolean lambda$addConditionals$46(Integer)
-+ Collection lambda$addConditionals$52(CommandContext)
-+ CommandSourceStack lambda$wrapStores$22(CommandContext)
-+ CommandSourceStack lambda$wrapStores$24(CommandContext)
-+ CommandSourceStack lambda$wrapStores$26(CommandContext)
-+ CommandSourceStack lambda$wrapStores$28(CommandContext)
-+ CommandSourceStack lambda$wrapStores$30(CommandContext)
-+ CommandSourceStack lambda$wrapStores$32(CommandContext)
-+ int lambda$addConditionals$53(CommandContext)
-+ Tag lambda$storeData$36(IntFunction,int)
-+ Tag lambda$wrapStores$21(CommandContext,int)
-+ Tag lambda$wrapStores$23(CommandContext,int)
-+ Tag lambda$wrapStores$25(CommandContext,int)
-+ Tag lambda$wrapStores$27(CommandContext,int)
-+ Tag lambda$wrapStores$29(CommandContext,int)
-+ Tag lambda$wrapStores$31(CommandContext,int)
-+ void lambda$static$2(CommandContext,boolean,int)
-- boolean lambda$null$40(Integer)
-- boolean lambda$null$42(Integer)
-- boolean lambda$null$44(Integer)
-- boolean lambda$null$46(Integer)
-- Collection lambda$null$52(CommandContext)
-- CommandSourceStack lambda$null$22(CommandContext)
-- CommandSourceStack lambda$null$24(CommandContext)
-- CommandSourceStack lambda$null$26(CommandContext)
-- CommandSourceStack lambda$null$28(CommandContext)
-- CommandSourceStack lambda$null$30(CommandContext)
-- CommandSourceStack lambda$null$32(CommandContext)
-- int lambda$null$53(CommandContext)
-- Tag lambda$null$21(CommandContext,int)
-- Tag lambda$null$23(CommandContext,int)
-- Tag lambda$null$25(CommandContext,int)
-- Tag lambda$null$27(CommandContext,int)
-- Tag lambda$null$29(CommandContext,int)
-- Tag lambda$null$31(CommandContext,int)
-- Tag lambda$null$36(IntFunction,int)
-- void lambda$null$2(CommandContext,boolean,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.commands.ExperienceCommand$Type</summary>
-
-```diff
-+ ExperienceCommand$Type[] $values()
-- ToIntFunction access$000(ExperienceCommand$Type)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.commands.FillCommand$Mode</summary>
-
-```diff
-+ FillCommand$Mode[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.commands.GameRuleCommand</summary>
-
-```diff
-- int access$000(GameRules$Key)
-- int access$100(GameRules$Key)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LootCommand</summary>
-
-```diff
-+ int lambda$register$10(CommandContext)
-+ int lambda$register$11(CommandContext)
-+ int lambda$register$12(CommandContext)
-+ int lambda$register$13(CommandContext)
-+ int lambda$register$4(CommandContext)
-+ int lambda$register$5(CommandContext)
-+ int lambda$register$6(CommandContext)
-+ int lambda$register$7(CommandContext)
-+ int lambda$register$8(CommandContext)
-+ int lambda$register$9(CommandContext)
-- int lambda$null$10(CommandContext)
-- int lambda$null$11(CommandContext)
-- int lambda$null$12(CommandContext)
-- int lambda$null$13(CommandContext)
-- int lambda$null$4(CommandContext)
-- int lambda$null$5(CommandContext)
-- int lambda$null$6(CommandContext)
-- int lambda$null$7(CommandContext)
-- int lambda$null$8(CommandContext)
-- int lambda$null$9(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SeedCommand</summary>
-
-```diff
-+ Style lambda$register$1(Style)
-- Style lambda$null$1(Style)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.Settings$MutableValue</summary>
-
-```diff
-- void <init>(Settings$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.gui.MinecraftServerGui</summary>
-
-```diff
-- AtomicBoolean access$000(MinecraftServerGui)
-- void access$100(MinecraftServerGui)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder$FullChunkStatus</summary>
-
-```diff
-+ ChunkHolder$FullChunkStatus[] $values()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkTaskPriorityQueue</summary>
-
-```diff
-+ Either lambda$pop$5(long)
-- Either lambda$null$5(long)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.level.ServerChunkCache$MainThreadExecutor</summary>
-
-```diff
-- void <init>(ServerChunkCache$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ void lambda$onBlockStateChange$16(BlockPos)
-+ void lambda$onBlockStateChange$18(PoiType)
-- EntityTickList access$100(ServerLevel)
-- Int2ObjectMap access$400(ServerLevel)
-- List access$200(ServerLevel)
-- Set access$300(ServerLevel)
-- void lambda$null$16(BlockPos)
-- void lambda$null$18(PoiType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.network.TextFilterClient$RequestFailedException</summary>
-
-```diff
-- void <init>(TextFilterClient$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.Pack$Position</summary>
-
-```diff
-+ Pack$Position[] $values()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.StaticTagHelper$Wrapper</summary>
-
-```diff
-- void <init>(StaticTagHelper$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.Tag</summary>
-
-```diff
-+ DataResult lambda$codec$0(ResourceLocation)
-+ DataResult lambda$codec$2(Tag)
-- DataResult lambda$null$0(ResourceLocation)
-- DataResult lambda$null$2(Tag)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.TagManager$LoaderInfo</summary>
-
-```diff
-- CompletableFuture access$100(TagManager$LoaderInfo)
-- void <init>(TagManager$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.util.LowerCaseEnumTypeAdapterFactory</summary>
-
-```diff
-- String access$000(Object)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.SortedArraySet</summary>
-
-```diff
-- int access$000(SortedArraySet)
-- Object[] access$100(SortedArraySet)
-- void access$200(SortedArraySet,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.profiling.ActiveProfiler$PathEntry</summary>
-
-```diff
-- long access$000(ActiveProfiler$PathEntry)
-- long access$002(ActiveProfiler$PathEntry,long)
-- long access$100(ActiveProfiler$PathEntry)
-- long access$102(ActiveProfiler$PathEntry,long)
-- Object2LongOpenHashMap access$200(ActiveProfiler$PathEntry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.registry.MeasurementCategory</summary>
-
-```diff
-+ MeasurementCategory[] $values()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy</summary>
-
-```diff
-+ GateBehavior$RunningPolicy[] $values()
-- void <init>(GateBehavior$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.PoiCompetitorScan</summary>
-
-```diff
-+ boolean lambda$start$0(Villager)
-- boolean lambda$null$0(Villager)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget</summary>
-
-```diff
-+ boolean lambda$start$0(LivingEntity)
-- boolean lambda$null$0(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
-
-```diff
-- double lambda$shuffle$2(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestVisibleLivingEntitySensor</summary>
-
-```diff
-+ boolean lambda$getNearestEntity$0(LivingEntity)
-- boolean lambda$null$0(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.targeting.TargetingConditions</summary>
-
-```diff
-+ boolean checkLineOfSight
-+ boolean isCombat
-- boolean allowInvulnerable
-- boolean allowNonAttackable
-- boolean allowSameTeam
-- boolean allowUnseeable
-+ TargetingConditions forCombat()
-+ TargetingConditions forNonCombat()
-+ TargetingConditions ignoreLineOfSight()
-+ void <init>(boolean)
-- TargetingConditions allowInvulnerable()
-- TargetingConditions allowNonAttackable()
-- TargetingConditions allowSameTeam()
-- TargetingConditions allowUnseeable()
-- void <init>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.util.HoverRandomPos</summary>
-
-```diff
-+ boolean lambda$getPos$0(BlockPos)
-- boolean lambda$null$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
-
-```diff
-+ BlockPos lambda$codec$0(PoiRecord)
-+ Integer lambda$codec$2(PoiRecord)
-+ PoiType lambda$codec$1(PoiRecord)
-- BlockPos lambda$null$0(PoiRecord)
-- Integer lambda$null$2(PoiRecord)
-- PoiType lambda$null$1(PoiRecord)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
-
-```diff
-+ PathNavigation access$000(Bee)
-+ PathNavigation access$1000(Bee)
-+ PathNavigation access$1400(Bee)
-+ PathNavigation access$1500(Bee)
-+ PathNavigation access$1600(Bee)
-+ PathNavigation access$1700(Bee)
-+ PathNavigation access$1800(Bee)
-+ PathNavigation access$200(Bee)
-+ PathNavigation access$300(Bee)
-+ PathNavigation access$400(Bee)
-+ PathNavigation access$500(Bee)
-+ PathNavigation access$600(Bee)
-+ PathNavigation access$700(Bee)
-+ PathNavigation access$800(Bee)
-+ Random access$100(Bee)
-+ Random access$1900(Bee)
-+ Random access$2000(Bee)
-+ Random access$2200(Bee)
-+ Random access$2400(Bee)
-+ Random access$2500(Bee)
-+ Random access$2600(Bee)
-+ Random access$2700(Bee)
-+ Random access$2800(Bee)
-- Bee$BeeGoToHiveGoal access$4800(Bee)
-- Bee$BeePollinateGoal access$700(Bee)
-- BlockPos access$1500(Bee)
-- BlockPos access$1502(BlockPos)
-- BlockPos access$3200(Bee)
-- BlockPos access$3202(BlockPos)
-- boolean access$1400(Bee)
-- boolean access$1600(BlockPos,int)
-- boolean access$1800(Bee)
-- boolean access$2400(BlockPos)
-- boolean access$3300(BlockPos)
-- boolean access$5100(BlockPos)
-- int access$3000(Bee)
-- int access$3002(Bee,int)
-- int access$3700(Bee)
-- int access$3800(Bee)
-- int access$3802(Bee,int)
-- int access$5200(Bee)
-- PathNavigation access$1900(Bee)
-- PathNavigation access$2000(Bee)
-- PathNavigation access$2200(Bee)
-- PathNavigation access$2600(Bee)
-- PathNavigation access$2700(Bee)
-- PathNavigation access$2800(Bee)
-- PathNavigation access$2900(Bee)
-- PathNavigation access$3100(Bee)
-- PathNavigation access$3400(Bee)
-- PathNavigation access$3500(Bee)
-- PathNavigation access$3600(Bee)
-- PathNavigation access$3900(Bee)
-- PathNavigation access$4300(Bee)
-- PathNavigation access$4500(Bee)
-- Random access$1000(Bee)
-- Random access$4000(Bee)
-- Random access$4100(Bee)
-- Random access$4400(Bee)
-- Random access$4600(Bee)
-- Random access$4700(Bee)
-- Random access$5300(Bee)
-- Random access$5400(Bee)
-- void access$2500(BlockPos)
-- void access$4200(Bee,boolean)
-- void access$5500(Bee)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BaseBeeGoal</summary>
-
-```diff
-- void <init>(Bee$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal</summary>
-
-```diff
-- boolean access$4900(BlockPos)
-- int access$300(Bee$BeeGoToHiveGoal)
-- List access$500(Bee$BeeGoToHiveGoal)
-- void access$5000(Bee$BeeGoToHiveGoal)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal</summary>
-
-```diff
-- void <init>(Bee$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
-
-```diff
-+ double lambda$findNearbyHivesWithSpace$1(BlockPos)
-- boolean lambda$findNearbyHivesWithSpace$1(BlockPos)
-- double lambda$findNearbyHivesWithSpace$2(BlockPos)
-- void <init>(Bee$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
-
-```diff
-- boolean access$600(Bee$BeePollinateGoal)
-- void access$800(Bee$BeePollinateGoal)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Dolphin</summary>
-
-```diff
-+ Random access$000(Dolphin)
-- Random access$300(Dolphin)
-- TargetingConditions access$400()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-- boolean access$000(Ocelot)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Panda$Gene</summary>
-
-```diff
-+ Panda$Gene[] $values()
-- Panda$Gene access$000(Panda$Gene)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
-
-```diff
-- Map access$000()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Pufferfish</summary>
-
-```diff
-+ Predicate SCARY_MOB
-- Predicate NO_CREATIVE_OR_WATER_MOB
-- int access$002(Pufferfish,int)
-- int access$102(Pufferfish,int)
-- TargetingConditions access$200()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-- boolean access$300(Rabbit)
-- int access$402(Rabbit,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Squid</summary>
-
-```diff
-+ boolean access$000(Squid)
-+ boolean canBeLeashed(Player)
-- boolean access$100(Squid)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.TropicalFish$Pattern</summary>
-
-```diff
-+ TropicalFish$Pattern[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
-
-```diff
-+ Random access$000(Turtle)
-+ Random access$100(Turtle)
-- BlockPos access$600(Turtle)
-- BlockPos access$700(Turtle)
-- boolean access$1300(Turtle)
-- boolean access$1400(Turtle)
-- int access$1000(Turtle)
-- int access$1008(Turtle)
-- Random access$1200(Turtle)
-- Random access$300(Turtle)
-- void access$1100(Turtle,boolean)
-- void access$400(BlockPos)
-- void access$500(Turtle,boolean)
-- void access$800(Turtle,boolean)
-- void access$900(Turtle,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat$GoatNodeEvaluator</summary>
-
-```diff
-- void <init>(Goat$1)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Evoker$EvokerAttackSpellGoal</summary>
-
-```diff
-- void <init>(Evoker$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Evoker$EvokerSummonSpellGoal</summary>
-
-```diff
-- void <init>(Evoker$1)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
-
-```diff
-- void access$000(Guardian,int)
-- void access$100(Guardian,boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Phantom$PhantomAttackPlayerTargetGoal</summary>
-
-```diff
-- void <init>(Phantom$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-+ boolean hasLineOfSight(Entity)
-- boolean canSee(Entity)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-+ boolean access$000(Slime)
-- boolean access$100(Slime)
-- float access$000(Slime)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.SpellcasterIllager</summary>
-
-```diff
-+ PathNavigation access$000(SpellcasterIllager)
-- PathNavigation access$200(SpellcasterIllager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ClickAction</summary>
-
-```diff
-+ ClickAction[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.GrindstoneMenu</summary>
-
-```diff
-- Container access$000(GrindstoneMenu)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.RecipeBookType</summary>
-
-```diff
-+ RecipeBookType[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorMaterials</summary>
-
-```diff
-+ ArmorMaterials[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DiggerItem</summary>
-
-```diff
-+ Tag blocks
-- Set blocks
-+ boolean isCorrectToolForDrops(BlockState)
-+ void <init>(Item$Properties)
-- void <init>(Item$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoeItem</summary>
-
-```diff
-- Set DIGGABLES
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.Item$Properties</summary>
-
-```diff
-- boolean access$600(Item$Properties)
-- CreativeModeTab access$000(Item$Properties)
-- FoodProperties access$500(Item$Properties)
-- int access$300(Item$Properties)
-- int access$400(Item$Properties)
-- Item access$200(Item$Properties)
-- Rarity access$100(Item$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient$ItemValue</summary>
-
-```diff
-- void <init>(Ingredient$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
-
-```diff
-+ Map lambda$replaceRecipes$10(RecipeType)
-- Map lambda$null$10(RecipeType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.UpgradeRecipe</summary>
-
-```diff
-- Ingredient access$000(UpgradeRecipe)
-- Ingredient access$100(UpgradeRecipe)
-- ItemStack access$200(UpgradeRecipe)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory</summary>
-
-```diff
-+ EnchantmentCategory[] $values()
-- void <init>(EnchantmentCategory$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.ProtectionEnchantment$Type</summary>
-
-```diff
-+ ProtectionEnchantment$Type[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules$Category</summary>
-
-```diff
-+ GameRules$Category[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.GameRules$IntegerValue</summary>
-
-```diff
-- GameRules$Type access$100(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.GameRules$Type</summary>
-
-```diff
-- BiConsumer access$300(GameRules$Type)
-- void <init>(GameRules$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LightLayer</summary>
-
-```diff
-+ LightLayer[] $values()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner$SpawnState</summary>
-
-```diff
-- boolean access$300(MobCategory)
-- boolean access$500(ChunkAccess)
-- void <init>(NaturalSpawner$1)
-- void access$400(ChunkAccess)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
-
-```diff
-+ boolean lambda$getStructureAt$3(StructurePiece)
-- boolean lambda$null$3(StructurePiece)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.biome.AmbientMoodSettings</summary>
-
-```diff
-+ Double lambda$static$3(AmbientMoodSettings)
-+ Integer lambda$static$1(AmbientMoodSettings)
-+ Integer lambda$static$2(AmbientMoodSettings)
-+ SoundEvent lambda$static$0(AmbientMoodSettings)
-- Double lambda$null$3(AmbientMoodSettings)
-- Integer lambda$null$1(AmbientMoodSettings)
-- Integer lambda$null$2(AmbientMoodSettings)
-- SoundEvent lambda$null$0(AmbientMoodSettings)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ Biome lambda$static$13(BiomeSpecialEffects)
-+ Biome$BiomeCategory lambda$static$1(Biome)
-+ Biome$BiomeCategory lambda$static$9(Biome)
-+ Biome$ClimateSettings lambda$static$0(Biome)
-+ Biome$ClimateSettings lambda$static$8(Biome)
-+ BiomeGenerationSettings lambda$static$5(Biome)
-+ BiomeSpecialEffects lambda$static$12(Biome)
-+ BiomeSpecialEffects lambda$static$4(Biome)
-+ Float lambda$static$10(Biome)
-+ Float lambda$static$11(Biome)
-+ Float lambda$static$2(Biome)
-+ Float lambda$static$3(Biome)
-+ Long2FloatLinkedOpenHashMap lambda$new$16()
-+ MobSpawnSettings lambda$static$6(Biome)
-- Biome lambda$null$13(BiomeSpecialEffects)
-- Biome$BiomeCategory lambda$null$1(Biome)
-- Biome$BiomeCategory lambda$null$9(Biome)
-- Biome$ClimateSettings lambda$null$0(Biome)
-- Biome$ClimateSettings lambda$null$8(Biome)
-- BiomeGenerationSettings lambda$null$5(Biome)
-- BiomeSpecialEffects lambda$null$12(Biome)
-- BiomeSpecialEffects lambda$null$4(Biome)
-- Float lambda$null$10(Biome)
-- Float lambda$null$11(Biome)
-- Float lambda$null$2(Biome)
-- Float lambda$null$3(Biome)
-- Long2FloatLinkedOpenHashMap lambda$null$16()
-- MobSpawnSettings lambda$null$6(Biome)
-- PerlinSimplexNoise access$100()
-- void <init>(Biome$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.biome.Biome$ClimateParameters</summary>
-
-```diff
-+ Float lambda$static$0(Biome$ClimateParameters)
-+ Float lambda$static$1(Biome$ClimateParameters)
-+ Float lambda$static$2(Biome$ClimateParameters)
-+ Float lambda$static$3(Biome$ClimateParameters)
-+ Float lambda$static$4(Biome$ClimateParameters)
-- Float lambda$null$0(Biome$ClimateParameters)
-- Float lambda$null$1(Biome$ClimateParameters)
-- Float lambda$null$2(Biome$ClimateParameters)
-- Float lambda$null$3(Biome$ClimateParameters)
-- Float lambda$null$4(Biome$ClimateParameters)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome$Precipitation</summary>
-
-```diff
-+ Biome$Precipitation[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
-
-```diff
-+ List lambda$static$3(BiomeGenerationSettings)
-+ List lambda$static$4(BiomeGenerationSettings)
-+ Map lambda$static$2(BiomeGenerationSettings)
-+ Supplier lambda$static$1(BiomeGenerationSettings)
-- List lambda$null$3(BiomeGenerationSettings)
-- List lambda$null$4(BiomeGenerationSettings)
-- Map lambda$null$2(BiomeGenerationSettings)
-- Supplier lambda$null$1(BiomeGenerationSettings)
-- void <init>(BiomeGenerationSettings$1)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FuzzyOffsetConstantColumnBiomeZoomer</summary>
-
-```diff
-+ FuzzyOffsetConstantColumnBiomeZoomer[] $values()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance</summary>
-
-```diff
-+ DataResult lambda$static$0(ResourceLocation)
-+ DataResult lambda$static$1(ResourceLocation)
-+ DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
-- DataResult lambda$null$0(ResourceLocation)
-- DataResult lambda$null$1(ResourceLocation)
-- DataResult lambda$null$2(MultiNoiseBiomeSource$Preset)
-- void <init>(MultiNoiseBiomeSource$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.OverworldBiomeSource</summary>
-
-```diff
-+ Biome lambda$new$5(ResourceKey)
-+ Boolean lambda$static$1(OverworldBiomeSource)
-+ Boolean lambda$static$2(OverworldBiomeSource)
-+ Long lambda$static$0(OverworldBiomeSource)
-+ Registry lambda$static$3(OverworldBiomeSource)
-- Biome lambda$null$5(ResourceKey)
-- Boolean lambda$null$1(OverworldBiomeSource)
-- Boolean lambda$null$2(OverworldBiomeSource)
-- Long lambda$null$0(OverworldBiomeSource)
-- Registry lambda$null$3(OverworldBiomeSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
-
-```diff
-- BlockState access$000(BlockPos)
-- BlockState access$100(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoubleBlockCombiner$BlockType</summary>
-
-```diff
-+ DoubleBlockCombiner$BlockType[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LightBlock</summary>
-
-```diff
-+ int MAX_LEVEL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PowderSnowBlock</summary>
-
-```diff
-+ float HORIZONTAL_PARTICLE_MOMENTUM_FACTOR
-- int HORIZONTAL_PARTICLE_MOMENTUM_FACTOR
-- void spawnPowderSnowParticles(Vec3)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.PressurePlateBlock$Sensitivity</summary>
-
-```diff
-+ PressurePlateBlock$Sensitivity[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BannerPattern</summary>
-
-```diff
-+ BannerPattern[] $values()
-- String access$000(BannerPattern)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.BarrelBlockEntity</summary>
-
-```diff
-- void access$000(SoundEvent)
-- void access$100(BlockState,boolean)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.RailShape</summary>
-
-```diff
-+ RailShape[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
-
-```diff
-+ SculkSensorPhase[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.properties.StairsShape</summary>
-
-```diff
-+ StairsShape[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.properties.Tilt</summary>
-
-```diff
-+ Tilt[] $values()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.border.BorderStatus</summary>
-
-```diff
-+ BorderStatus[] $values()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.IOWorker$PendingStore</summary>
-
-```diff
-- CompletableFuture access$100(IOWorker$PendingStore)
-- CompoundTag access$000(IOWorker$PendingStore)
-- CompoundTag access$002(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.RegionFile</summary>
-
-```diff
-- RegionFileVersion access$000(RegionFile)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
-
-```diff
-+ void lambda$readColumn$1(long)
-- void lambda$null$1(long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.Visibility</summary>
-
-```diff
-+ Visibility[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
-
-```diff
-+ Optional lambda$static$0(BlockPositionSource)
-- Optional access$000(BlockPositionSource)
-- Optional lambda$null$0(BlockPositionSource)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.gameevent.EntityPositionSource</summary>
-
-```diff
-+ Integer lambda$static$0(EntityPositionSource)
-- int access$000(EntityPositionSource)
-- Integer lambda$null$0(EntityPositionSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer$AquiferStatus</summary>
-
-```diff
-- BlockState access$100(Aquifer$NoiseBasedAquifer$AquiferStatus)
-- int access$000(Aquifer$NoiseBasedAquifer$AquiferStatus)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.Cavifier$QuantizedSpaghettiRarity</summary>
-
-```diff
-- double access$000(double)
-- double access$100(double)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.Column$Line</summary>
-
-```diff
-- Column$Line access$000()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Carving</summary>
-
-```diff
-+ GenerationStep$Carving[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
-
-```diff
-+ BlockStateProvider lambda$static$0(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$1(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$2(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$3(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$4(GeodeBlockSettings)
-+ List lambda$static$5(GeodeBlockSettings)
-- BlockStateProvider lambda$null$0(GeodeBlockSettings)
-- BlockStateProvider lambda$null$1(GeodeBlockSettings)
-- BlockStateProvider lambda$null$2(GeodeBlockSettings)
-- BlockStateProvider lambda$null$3(GeodeBlockSettings)
-- BlockStateProvider lambda$null$4(GeodeBlockSettings)
-- List lambda$null$5(GeodeBlockSettings)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.GeodeLayerSettings</summary>
-
-```diff
-+ Double lambda$static$0(GeodeLayerSettings)
-+ Double lambda$static$1(GeodeLayerSettings)
-+ Double lambda$static$2(GeodeLayerSettings)
-+ Double lambda$static$3(GeodeLayerSettings)
-- Double lambda$null$0(GeodeLayerSettings)
-- Double lambda$null$1(GeodeLayerSettings)
-- Double lambda$null$2(GeodeLayerSettings)
-- Double lambda$null$3(GeodeLayerSettings)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.Heightmap$Types</summary>
-
-```diff
-+ Heightmap$Types[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ BiomeSource lambda$static$0(NoiseBasedChunkGenerator)
-+ Long lambda$static$1(NoiseBasedChunkGenerator)
-+ Supplier lambda$static$2(NoiseBasedChunkGenerator)
-- BiomeSource lambda$null$0(NoiseBasedChunkGenerator)
-- int access$000(NoiseBasedChunkGenerator)
-- int access$100(NoiseBasedChunkGenerator)
-- int access$200(NoiseBasedChunkGenerator)
-- Long lambda$null$1(NoiseBasedChunkGenerator)
-- NoodleCavifier access$400(NoiseBasedChunkGenerator)
-- OreVeinifier access$300(NoiseBasedChunkGenerator)
-- Supplier lambda$null$2(NoiseBasedChunkGenerator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
-
-```diff
-+ Optional lambda$static$0(WorldGenSettings)
-- Optional lambda$null$0(WorldGenSettings)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration$CanyonShapeConfiguration</summary>
-
-```diff
-+ Float lambda$static$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ Float lambda$static$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ Integer lambda$static$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- Float lambda$null$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- Float lambda$null$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- FloatProvider lambda$null$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- FloatProvider lambda$null$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- FloatProvider lambda$null$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- Integer lambda$null$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
-
-```diff
-+ Boolean lambda$static$4(CarverConfiguration)
-+ CarverDebugSettings lambda$static$5(CarverConfiguration)
-+ Float lambda$static$0(CarverConfiguration)
-+ FloatProvider lambda$static$2(CarverConfiguration)
-+ HeightProvider lambda$static$1(CarverConfiguration)
-+ VerticalAnchor lambda$static$3(CarverConfiguration)
-- Boolean lambda$null$4(CarverConfiguration)
-- CarverDebugSettings lambda$null$5(CarverConfiguration)
-- Float lambda$null$0(CarverConfiguration)
-- FloatProvider lambda$null$2(CarverConfiguration)
-- HeightProvider lambda$null$1(CarverConfiguration)
-- VerticalAnchor lambda$null$3(CarverConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeatureConfiguration</summary>
-
-```diff
-+ Integer lambda$static$4(FossilFeatureConfiguration)
-+ List lambda$static$0(FossilFeatureConfiguration)
-+ List lambda$static$1(FossilFeatureConfiguration)
-+ Supplier lambda$static$2(FossilFeatureConfiguration)
-+ Supplier lambda$static$3(FossilFeatureConfiguration)
-- Integer lambda$null$4(FossilFeatureConfiguration)
-- List lambda$null$0(FossilFeatureConfiguration)
-- List lambda$null$1(FossilFeatureConfiguration)
-- Supplier lambda$null$2(FossilFeatureConfiguration)
-- Supplier lambda$null$3(FossilFeatureConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusConfiguration</summary>
-
-```diff
-+ BlockState lambda$static$0(HugeFungusConfiguration)
-+ BlockState lambda$static$1(HugeFungusConfiguration)
-+ BlockState lambda$static$2(HugeFungusConfiguration)
-+ BlockState lambda$static$3(HugeFungusConfiguration)
-+ Boolean lambda$static$4(HugeFungusConfiguration)
-- BlockState lambda$null$0(HugeFungusConfiguration)
-- BlockState lambda$null$1(HugeFungusConfiguration)
-- BlockState lambda$null$2(HugeFungusConfiguration)
-- BlockState lambda$null$3(HugeFungusConfiguration)
-- Boolean lambda$null$4(HugeFungusConfiguration)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature</summary>
-
-```diff
-- boolean access$100(JigsawFeature)
-- boolean access$200(JigsawFeature)
-- int access$000(JigsawFeature)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature$SpikeCacheLoader</summary>
-
-```diff
-- void <init>(SpikeFeature$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
-
-```diff
-+ Float lambda$static$1(WeightedConfiguredFeature)
-+ Supplier lambda$static$0(WeightedConfiguredFeature)
-- Float lambda$null$1(WeightedConfiguredFeature)
-- Supplier lambda$null$0(WeightedConfiguredFeature)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
-
-```diff
-+ BlockState lambda$static$0(DiskConfiguration)
-+ Integer lambda$static$2(DiskConfiguration)
-+ IntProvider lambda$static$1(DiskConfiguration)
-+ List lambda$static$3(DiskConfiguration)
-- BlockState lambda$null$0(DiskConfiguration)
-- Integer lambda$null$2(DiskConfiguration)
-- IntProvider lambda$null$1(DiskConfiguration)
-- List lambda$null$3(DiskConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration</summary>
-
-```diff
-+ Boolean lambda$static$1(EndGatewayConfiguration)
-+ Optional lambda$static$0(EndGatewayConfiguration)
-- Boolean lambda$null$1(EndGatewayConfiguration)
-- Optional lambda$null$0(EndGatewayConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GeodeConfiguration</summary>
-
-```diff
-+ Boolean lambda$static$5(GeodeConfiguration)
-+ Double lambda$static$11(GeodeConfiguration)
-+ Double lambda$static$3(GeodeConfiguration)
-+ Double lambda$static$4(GeodeConfiguration)
-+ GeodeBlockSettings lambda$static$0(GeodeConfiguration)
-+ GeodeCrackSettings lambda$static$2(GeodeConfiguration)
-+ GeodeLayerSettings lambda$static$1(GeodeConfiguration)
-+ Integer lambda$static$10(GeodeConfiguration)
-+ Integer lambda$static$12(GeodeConfiguration)
-+ Integer lambda$static$9(GeodeConfiguration)
-+ IntProvider lambda$static$6(GeodeConfiguration)
-+ IntProvider lambda$static$7(GeodeConfiguration)
-+ IntProvider lambda$static$8(GeodeConfiguration)
-- Boolean lambda$null$5(GeodeConfiguration)
-- Double lambda$null$11(GeodeConfiguration)
-- Double lambda$null$3(GeodeConfiguration)
-- Double lambda$null$4(GeodeConfiguration)
-- GeodeBlockSettings lambda$null$0(GeodeConfiguration)
-- GeodeCrackSettings lambda$null$2(GeodeConfiguration)
-- GeodeLayerSettings lambda$null$1(GeodeConfiguration)
-- Integer lambda$null$10(GeodeConfiguration)
-- Integer lambda$null$12(GeodeConfiguration)
-- Integer lambda$null$9(GeodeConfiguration)
-- IntProvider lambda$null$6(GeodeConfiguration)
-- IntProvider lambda$null$7(GeodeConfiguration)
-- IntProvider lambda$null$8(GeodeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GrowingPlantConfiguration</summary>
-
-```diff
-+ BlockStateProvider lambda$static$2(GrowingPlantConfiguration)
-+ BlockStateProvider lambda$static$3(GrowingPlantConfiguration)
-+ Boolean lambda$static$4(GrowingPlantConfiguration)
-+ Direction lambda$static$1(GrowingPlantConfiguration)
-+ SimpleWeightedRandomList lambda$static$0(GrowingPlantConfiguration)
-- BlockStateProvider lambda$null$2(GrowingPlantConfiguration)
-- BlockStateProvider lambda$null$3(GrowingPlantConfiguration)
-- Boolean lambda$null$4(GrowingPlantConfiguration)
-- Direction lambda$null$1(GrowingPlantConfiguration)
-- SimpleWeightedRandomList lambda$null$0(GrowingPlantConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration</summary>
-
-```diff
-+ BlockStateProvider lambda$static$0(HugeMushroomFeatureConfiguration)
-+ BlockStateProvider lambda$static$1(HugeMushroomFeatureConfiguration)
-+ Integer lambda$static$2(HugeMushroomFeatureConfiguration)
-- BlockStateProvider lambda$null$0(HugeMushroomFeatureConfiguration)
-- BlockStateProvider lambda$null$1(HugeMushroomFeatureConfiguration)
-- Integer lambda$null$2(HugeMushroomFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration</summary>
-
-```diff
-+ Float lambda$static$3(LargeDripstoneConfiguration)
-+ Float lambda$static$8(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$2(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$4(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$5(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$6(LargeDripstoneConfiguration)
-+ Integer lambda$static$0(LargeDripstoneConfiguration)
-+ Integer lambda$static$7(LargeDripstoneConfiguration)
-+ IntProvider lambda$static$1(LargeDripstoneConfiguration)
-- Float lambda$null$3(LargeDripstoneConfiguration)
-- Float lambda$null$8(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$2(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$4(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$5(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$6(LargeDripstoneConfiguration)
-- Integer lambda$null$0(LargeDripstoneConfiguration)
-- Integer lambda$null$7(LargeDripstoneConfiguration)
-- IntProvider lambda$null$1(LargeDripstoneConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration</summary>
-
-```diff
-+ Float lambda$static$0(MineshaftConfiguration)
-+ MineshaftFeature$Type lambda$static$1(MineshaftConfiguration)
-- Float lambda$null$0(MineshaftConfiguration)
-- MineshaftFeature$Type lambda$null$1(MineshaftConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OceanRuinConfiguration</summary>
-
-```diff
-+ Float lambda$static$1(OceanRuinConfiguration)
-+ Float lambda$static$2(OceanRuinConfiguration)
-+ OceanRuinFeature$Type lambda$static$0(OceanRuinConfiguration)
-- Float lambda$null$1(OceanRuinConfiguration)
-- Float lambda$null$2(OceanRuinConfiguration)
-- OceanRuinFeature$Type lambda$null$0(OceanRuinConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
-
-```diff
-+ List lambda$static$0(ReplaceBlockConfiguration)
-- List lambda$null$0(ReplaceBlockConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration</summary>
-
-```diff
-+ BlockStateProvider lambda$static$4(RootSystemConfiguration)
-+ BlockStateProvider lambda$static$9(RootSystemConfiguration)
-+ Integer lambda$static$1(RootSystemConfiguration)
-+ Integer lambda$static$10(RootSystemConfiguration)
-+ Integer lambda$static$11(RootSystemConfiguration)
-+ Integer lambda$static$2(RootSystemConfiguration)
-+ Integer lambda$static$5(RootSystemConfiguration)
-+ Integer lambda$static$6(RootSystemConfiguration)
-+ Integer lambda$static$7(RootSystemConfiguration)
-+ Integer lambda$static$8(RootSystemConfiguration)
-+ ResourceLocation lambda$static$3(RootSystemConfiguration)
-+ Supplier lambda$static$0(RootSystemConfiguration)
-- BlockStateProvider lambda$null$4(RootSystemConfiguration)
-- BlockStateProvider lambda$null$9(RootSystemConfiguration)
-- Integer lambda$null$1(RootSystemConfiguration)
-- Integer lambda$null$10(RootSystemConfiguration)
-- Integer lambda$null$11(RootSystemConfiguration)
-- Integer lambda$null$2(RootSystemConfiguration)
-- Integer lambda$null$5(RootSystemConfiguration)
-- Integer lambda$null$6(RootSystemConfiguration)
-- Integer lambda$null$7(RootSystemConfiguration)
-- Integer lambda$null$8(RootSystemConfiguration)
-- ResourceLocation lambda$null$3(RootSystemConfiguration)
-- Supplier lambda$null$0(RootSystemConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration</summary>
-
-```diff
-+ Boolean lambda$static$0(SpikeConfiguration)
-+ List lambda$static$1(SpikeConfiguration)
-+ Optional lambda$static$2(SpikeConfiguration)
-- Boolean lambda$null$0(SpikeConfiguration)
-- List lambda$null$1(SpikeConfiguration)
-- Optional lambda$null$2(SpikeConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
-
-```diff
-+ BlockStateProvider lambda$static$0(TreeConfiguration)
-+ BlockStateProvider lambda$static$2(TreeConfiguration)
-+ BlockStateProvider lambda$static$4(TreeConfiguration)
-+ Boolean lambda$static$7(TreeConfiguration)
-+ Boolean lambda$static$8(TreeConfiguration)
-+ FeatureSize lambda$static$5(TreeConfiguration)
-+ FoliagePlacer lambda$static$3(TreeConfiguration)
-+ List lambda$static$6(TreeConfiguration)
-+ TrunkPlacer lambda$static$1(TreeConfiguration)
-- BlockStateProvider lambda$null$0(TreeConfiguration)
-- BlockStateProvider lambda$null$2(TreeConfiguration)
-- BlockStateProvider lambda$null$4(TreeConfiguration)
-- Boolean lambda$null$7(TreeConfiguration)
-- Boolean lambda$null$8(TreeConfiguration)
-- FeatureSize lambda$null$5(TreeConfiguration)
-- FoliagePlacer lambda$null$3(TreeConfiguration)
-- List lambda$null$6(TreeConfiguration)
-- TrunkPlacer lambda$null$1(TreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.UnderwaterMagmaConfiguration</summary>
-
-```diff
-+ Float lambda$static$2(UnderwaterMagmaConfiguration)
-+ Integer lambda$static$0(UnderwaterMagmaConfiguration)
-+ Integer lambda$static$1(UnderwaterMagmaConfiguration)
-- Float lambda$null$2(UnderwaterMagmaConfiguration)
-- Integer lambda$null$0(UnderwaterMagmaConfiguration)
-- Integer lambda$null$1(UnderwaterMagmaConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize</summary>
-
-```diff
-+ Integer lambda$static$0(TwoLayersFeatureSize)
-+ Integer lambda$static$1(TwoLayersFeatureSize)
-+ Integer lambda$static$2(TwoLayersFeatureSize)
-- Integer lambda$null$0(TwoLayersFeatureSize)
-- Integer lambda$null$1(TwoLayersFeatureSize)
-- Integer lambda$null$2(TwoLayersFeatureSize)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
-
-```diff
-+ Integer lambda$static$0(MegaJungleFoliagePlacer)
-- Integer lambda$null$0(MegaJungleFoliagePlacer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
-
-```diff
-+ IntProvider lambda$static$0(PineFoliagePlacer)
-- IntProvider lambda$null$0(PineFoliagePlacer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
-
-```diff
-+ IntProvider lambda$static$0(SpruceFoliagePlacer)
-- IntProvider lambda$null$0(SpruceFoliagePlacer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece$MossStoneSelector</summary>
-
-```diff
-- void <init>(JunglePyramidPiece$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
-
-```diff
-- Logger access$000()
-- MineShaftPieces$MineShaftPiece access$100(Direction,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom</summary>
-
-```diff
-- void <init>(OceanMonumentPieces$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom</summary>
-
-```diff
-- void <init>(OceanMonumentPieces$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitSimpleRoom</summary>
-
-```diff
-- void <init>(OceanMonumentPieces$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$RoomDefinition</summary>
-
-```diff
-- boolean access$100(OceanMonumentPieces$RoomDefinition)
-- boolean access$102(OceanMonumentPieces$RoomDefinition,boolean)
-- boolean access$902(OceanMonumentPieces$RoomDefinition,boolean)
-- boolean[] access$1100(OceanMonumentPieces$RoomDefinition)
-- int access$000(OceanMonumentPieces$RoomDefinition)
-- OceanMonumentPieces$RoomDefinition[] access$1000(OceanMonumentPieces$RoomDefinition)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$VerticalPlacement</summary>
-
-```diff
-+ RuinedPortalPiece$VerticalPlacement[] $values()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces</summary>
-
-```diff
-- BlockPos access$000()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces</summary>
-
-```diff
-- Class access$102(Class)
-- StrongholdPieces$SmoothStoneSelector access$200()
-- StructurePiece access$000(Direction,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$SmoothStoneSelector</summary>
-
-```diff
-- void <init>(StrongholdPieces$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType</summary>
-
-```diff
-+ StrongholdPieces$StrongholdPiece$SmallDoorType[] $values()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer</summary>
-
-```diff
-- Packet access$200(MapItemSavedData$HoldingPlayer,int)
-- void <init>(MapItemSavedData$1)
-- void access$300(MapItemSavedData$HoldingPlayer,int,int)
-- void access$400(MapItemSavedData$HoldingPlayer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.IntRange</summary>
-
-```diff
-- NumberProvider access$100(IntRange)
-- NumberProvider access$200(IntRange)
-- void <init>(IntRange$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
-
-```diff
-- LootItemCondition[] access$400(LootPool)
-- LootItemFunction[] access$500(LootPool)
-- LootPoolEntryContainer[] access$300(LootPool)
-- NumberProvider access$100(LootPool)
-- NumberProvider access$200(LootPool)
-- void <init>(LootPool$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
-
-```diff
-- void <init>(EmptyLootItem$1)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer</summary>
-
-```diff
-- BiFunction access$000(LootPoolSingletonContainer)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
-
-```diff
-- void <init>(ApplyExplosionDecay$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$CopyOperation</summary>
-
-```diff
-- void <init>(CopyNbtFunction$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$3</summary>
-
-```diff
-+ void lambda$merge$0(Tag)
-- void lambda$null$0(Tag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
-
-```diff
-- List access$100(EnchantRandomlyFunction)
-- void <init>(EnchantRandomlyFunction$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
-
-```diff
-- boolean access$500(ExplorationMapFunction)
-- byte access$300(ExplorationMapFunction)
-- int access$400(ExplorationMapFunction)
-- Logger access$600()
-- MapDecoration$Type access$200(ExplorationMapFunction)
-- StructureFeature access$100(ExplorationMapFunction)
-- void <init>(ExplorationMapFunction$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
-
-```diff
-- boolean access$200(LootingEnchantFunction)
-- int access$300(LootingEnchantFunction)
-- NumberProvider access$100(LootingEnchantFunction)
-- void <init>(LootingEnchantFunction$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder</summary>
-
-```diff
-- void <init>(SetBannerPatternFunction$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents</summary>
-
-```diff
-+ void lambda$run$0(LootPoolEntry)
-- List access$100(SetContainerContents)
-- void <init>(SetContainerContents$1)
-- void lambda$null$0(LootPoolEntry)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction</summary>
-
-```diff
-- boolean access$100(SetItemDamageFunction)
-- NumberProvider access$000(SetItemDamageFunction)
-- void <init>(SetItemDamageFunction$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SmeltItemFunction</summary>
-
-```diff
-- void <init>(SmeltItemFunction$1)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition</summary>
-
-```diff
-- LootItemCondition[] access$100(AlternativeLootItemCondition)
-- void <init>(AlternativeLootItemCondition$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition</summary>
-
-```diff
-- LootContext$EntityTarget access$200(EntityHasScoreCondition)
-- Map access$100(EntityHasScoreCondition)
-- void <init>(EntityHasScoreCondition$1)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition</summary>
-
-```diff
-- EntityPredicate access$000(LootItemEntityPropertyCondition)
-- LootContext$EntityTarget access$100(LootItemEntityPropertyCondition)
-- void <init>(LootItemEntityPropertyCondition$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition</summary>
-
-```diff
-- float access$000(LootItemRandomChanceWithLootingCondition)
-- float access$100(LootItemRandomChanceWithLootingCondition)
-- void <init>(LootItemRandomChanceWithLootingCondition$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider</summary>
-
-```diff
-- ResourceLocation access$000(StorageNbtProvider)
-- void <init>(StorageNbtProvider$1)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.timers.TimerQueue$Event</summary>
-
-```diff
-- void <init>(TimerQueue$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
-
-```diff
-+ boolean lambda$joinIsNotEmpty$1(DiscreteVoxelShape,int,int,int,int,int)
-+ boolean lambda$joinIsNotEmpty$2(DiscreteVoxelShape,int,int,int,int)
-- boolean lambda$null$1(DiscreteVoxelShape,int,int,int,int,int)
-- boolean lambda$null$2(DiscreteVoxelShape,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.scores.Team$CollisionRule</summary>
-
-```diff
-+ Team$CollisionRule[] $values()
-```
-
-</details>
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.font.package-info
@@ -7893,69 +2992,303 @@
 </details>
 
 
-
-
-
-<details><summary>com.mojang.math.SymmetricGroup3</summary>
+<details><summary>com.mojang.blaze3d.audio.OggAudioStream$OutputConcat</summary>
 
 ```diff
-+ boolean lambda$static$0(SymmetricGroup3)
-+ SymmetricGroup3[] $values()
-- boolean lambda$null$0(SymmetricGroup3)
+- int access$000(OggAudioStream$OutputConcat)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.ChatFormatting</summary>
+<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
 
 ```diff
-+ ChatFormatting[] $values()
++ float[] lambda$new$0()
++ void <init>(boolean)
+- void <init>(int,int,boolean,boolean)
+- void lambda$bindWrite$1(boolean)
++ void lambda$bindWrite$2(boolean)
+- void lambda$blitToScreen$3(int,int,boolean)
++ void lambda$blitToScreen$4(int,int,boolean)
+- void lambda$resize$0(int,int,boolean)
++ void lambda$resize$1(int,int,boolean)
+- void lambda$unbindWrite$2()
++ void lambda$unbindWrite$3()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
+<details><summary>com.mojang.blaze3d.platform.InputConstants$Key</summary>
 
 ```diff
-+ List lambda$sequence$4(List)
-+ List lambda$sequence$6(List)
-+ void lambda$sequenceFailFast$8(Throwable)
-- List lambda$null$4(List)
-- List lambda$null$6(List)
+- Map access$200()
+- void <init>(String,InputConstants$Type,int,InputConstants$1)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.platform.PngInfo$StbReaderBufferedChannel</summary>
+
+```diff
+- void <init>(ReadableByteChannel,PngInfo$1)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.platform.Window</summary>
+
+```diff
++ void setWindowed(int,int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
+
+```diff
+- Logger access$200()
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
+
+```diff
+- void <init>(int,int,RenderSystem$AutoStorageIndexBuffer$IndexGenerator,RenderSystem$1)
+- void access$100(RenderSystem$AutoStorageIndexBuffer,int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
+
+```diff
+- float access$400(BufferBuilder$SortState)
+- float access$500(BufferBuilder$SortState)
+- float access$600(BufferBuilder$SortState)
+- int access$200(BufferBuilder$SortState)
+- Vector3f[] access$300(BufferBuilder$SortState)
+- VertexFormat$Mode access$100(BufferBuilder$SortState)
+- void <init>(VertexFormat$Mode,int,Vector3f[],float,float,float,BufferBuilder$1)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.client.FileDownload$ResourcePackProgressListener</summary>
+
+```diff
+- void <init>(FileDownload,File,RealmsDownloadLatestWorldScreen$DownloadStatus,WorldDownload,FileDownload$1)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.client.Ping$Region</summary>
+
+```diff
++ Ping$Region[] $values()
+- String access$000(Ping$Region)
+- String access$100(Ping$Region)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.client.RealmsClient$CompatibleVersionResponse</summary>
+
+```diff
++ RealmsClient$CompatibleVersionResponse[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.dto.RealmsServer$WorldType</summary>
+
+```diff
++ RealmsServer$WorldType[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.dto.WorldTemplate$WorldTemplateType</summary>
+
+```diff
++ WorldTemplate$WorldTemplateType[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.RealmsDataFetcher$Task</summary>
+
+```diff
++ RealmsDataFetcher$Task[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton$Action</summary>
+
+```diff
++ RealmsWorldSlotButton$Action[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
+
+```diff
+- Backup access$200(RealmsBackupInfoScreen)
+- Component access$100(RealmsBackupInfoScreen,String,String)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongConfirmationScreen$Type</summary>
+
+```diff
++ RealmsLongConfirmationScreen$Type[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
+
+```diff
+- boolean access$002(boolean)
+- boolean access$102(boolean)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$UserAction</summary>
+
+```diff
++ RealmsPlayerScreen$UserAction[] $values()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
+
+```diff
 - Logger access$100()
-- void lambda$null$8(Throwable)
+- void access$600(RealmsResetWorldScreen,PoseStack,int,int,Component,ResourceLocation,boolean,boolean)
+- WorldTemplatePaginatedList access$202(RealmsResetWorldScreen,WorldTemplatePaginatedList)
+- WorldTemplatePaginatedList access$302(RealmsResetWorldScreen,WorldTemplatePaginatedList)
+- WorldTemplatePaginatedList access$402(RealmsResetWorldScreen,WorldTemplatePaginatedList)
+- WorldTemplatePaginatedList access$502(RealmsResetWorldScreen,WorldTemplatePaginatedList)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.Util$OS</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
 
 ```diff
-+ Util$OS[] $values()
-- void <init>(Util$1)
+- boolean access$500(RealmsSelectWorldTemplateScreen)
+- Component access$2202(RealmsSelectWorldTemplateScreen,Component)
+- Component access$2300()
+- Component access$2400()
+- Either access$000(RealmsSelectWorldTemplateScreen,WorldTemplatePaginatedList,RealmsClient)
+- Font access$1300(RealmsSelectWorldTemplateScreen)
+- Font access$1400(RealmsSelectWorldTemplateScreen)
+- Font access$1500(RealmsSelectWorldTemplateScreen)
+- Font access$1600(RealmsSelectWorldTemplateScreen)
+- Font access$1800(RealmsSelectWorldTemplateScreen)
+- Font access$1900(RealmsSelectWorldTemplateScreen)
++ Font access$200(RealmsSelectWorldTemplateScreen)
++ Font access$300(RealmsSelectWorldTemplateScreen)
++ Font access$400(RealmsSelectWorldTemplateScreen)
++ Font access$500(RealmsSelectWorldTemplateScreen)
++ Font access$600(RealmsSelectWorldTemplateScreen)
++ Font access$700(RealmsSelectWorldTemplateScreen)
++ int access$100(int)
+- int access$1002(RealmsSelectWorldTemplateScreen,int)
+- int access$600(int)
+- int access$800(RealmsSelectWorldTemplateScreen)
+- int access$802(RealmsSelectWorldTemplateScreen,int)
+- List access$402(RealmsSelectWorldTemplateScreen,List)
+- Logger access$200()
++ Minecraft access$000(RealmsSelectWorldTemplateScreen)
+- Minecraft access$100(RealmsSelectWorldTemplateScreen)
+- RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$300(RealmsSelectWorldTemplateScreen)
+- ResourceLocation access$1700()
+- ResourceLocation access$2000()
+- ResourceLocation access$2100()
+- String access$700(RealmsSelectWorldTemplateScreen)
+- String access$702(RealmsSelectWorldTemplateScreen,String)
+- void access$1100(RealmsSelectWorldTemplateScreen)
+- void access$900(RealmsSelectWorldTemplateScreen)
 ```
 
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$Entry</summary>
+
+```diff
+- WorldTemplate access$1200(RealmsSelectWorldTemplateScreen$Entry)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSettingsScreen</summary>
 
-<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
+```diff
++ void lambda$init$2(boolean)
+- void lambda$null$2(boolean)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
+
+```diff
+- void lambda$null$3(long,UploadResult)
++ void lambda$upload$3(long,UploadResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
+
+```diff
+- void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],Advancement$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.FrameType</summary>
+
+```diff
++ FrameType[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
 
 ```diff
 - ResourceLocation access$000()
@@ -7964,20 +3297,7 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
 
 ```diff
 - ResourceLocation access$000()
@@ -7986,8 +3306,7 @@
 </details>
 
 
-
-<details><summary>net.minecraft.advancements.critereon.SlideDownBlockTrigger</summary>
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
 
 ```diff
 - ResourceLocation access$000()
@@ -7995,480 +3314,1362 @@
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.StatePropertiesPredicate</summary>
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
 
 ```diff
-- void <init>(StatePropertiesPredicate$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.AngleArgument$SingleAngle</summary>
-
-```diff
-- void <init>(AngleArgument$1)
+- ResourceLocation access$000()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.commands.arguments.EntityAnchorArgument$Anchor</summary>
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
 
 ```diff
-+ EntityAnchorArgument$Anchor[] $values()
-- Map access$000()
+- ResourceLocation access$000()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.NbtPathArgument</summary>
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
 
 ```diff
-- Predicate access$000(CompoundTag)
+- ResourceLocation access$000()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ScoreHolderArgument</summary>
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
 
 ```diff
-+ void lambda$static$0(SuggestionsBuilder)
-- boolean access$000(ScoreHolderArgument)
-- void lambda$null$0(SuggestionsBuilder)
+- ResourceLocation access$000()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
 
 ```diff
-+ CommandSyntaxException lambda$parse$2(ResourceLocation)
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.AmbientOcclusionStatus</summary>
+
+```diff
++ AmbientOcclusionStatus[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.ResourceLoadStateTracker$ReloadReason</summary>
+
+```diff
++ ResourceLoadStateTracker$ReloadReason[] $values()
+- String access$400(ResourceLoadStateTracker$ReloadReason)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Screenshot</summary>
+
+```diff
++ Style lambda$_grab$1(File,Style)
+- Style lambda$null$1(File,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter</summary>
+
+```diff
+- StringSplitter$WidthProvider access$000(StringSplitter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter$FlatComponents</summary>
+
+```diff
+- List access$300(StringSplitter$FlatComponents)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter$LineComponent</summary>
+
+```diff
+- String access$100(StringSplitter$LineComponent)
+- Style access$200(StringSplitter$LineComponent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.color.block.BlockTintCache</summary>
+
+```diff
+- BlockTintCache$LatestCacheInfo lambda$new$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.PlayerTabOverlay$PlayerInfoComparator</summary>
+
+```diff
+- void <init>(PlayerTabOverlay$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent</summary>
+
+```diff
+- Minecraft access$100(ToastComponent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.FontTexture$Node</summary>
+
+```diff
+- int access$100(FontTexture$Node)
+- int access$200(FontTexture$Node)
+- void <init>(int,int,int,int,FontTexture$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.glyphs.WhiteGlyph</summary>
+
+```diff
++ WhiteGlyph[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider$Glyph</summary>
+
+```diff
+- void <init>(int,int,int,int,NativeImage,LegacyUnicodeBitmapsProvider$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
+
+```diff
++ void lambda$createFooter$0(boolean)
+- void lambda$null$0(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ConnectScreen$1</summary>
+
+```diff
++ void <init>(ConnectScreen,String,ServerAddress,Minecraft)
+- void <init>(ConnectScreen,String,String,int)
+- void lambda$run$0(ConnectScreen,Component)
++ void lambda$run$0(Minecraft)
+- void lambda$run$1()
++ void lambda$run$1(Minecraft,String)
+- void lambda$run$2(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList$Entry</summary>
+
+```diff
+- void <init>(CreateFlatWorldScreen$DetailsList,CreateFlatWorldScreen$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
+
+```diff
+- LanguageManager access$000(LanguageSelectScreen)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
+
+```diff
+- LanguageInfo access$100(LanguageSelectScreen$LanguageSelectionList$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
+
+```diff
+- Biome lambda$null$4(Registry,ResourceKey)
++ Biome lambda$preset$4(Registry,ResourceKey)
+- CreateFlatWorldScreen access$200(PresetFlatWorldScreen)
+- EditBox access$500(PresetFlatWorldScreen)
+- FlatLevelGeneratorSettings access$300(PresetFlatWorldScreen)
+- FlatLevelGeneratorSettings access$302(PresetFlatWorldScreen,FlatLevelGeneratorSettings)
+- List access$000()
+- String access$400(Registry,FlatLevelGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen</summary>
+
+```diff
++ Font access$000(StatsScreen)
++ Font access$100(StatsScreen)
++ Font access$1200(StatsScreen)
+- Font access$1400(StatsScreen)
+- Font access$1500(StatsScreen)
+- Font access$1600(StatsScreen)
+- Font access$1700(StatsScreen)
+- Font access$1800(StatsScreen)
+- Font access$1900(StatsScreen)
+- Font access$2000(StatsScreen)
+- Font access$2100(StatsScreen)
++ Font access$300(StatsScreen)
++ Font access$600(StatsScreen)
++ Font access$700(StatsScreen)
++ Font access$800(StatsScreen)
++ Font access$900(StatsScreen)
+- int access$800(StatsScreen,int)
+- StatsCounter access$300(StatsScreen)
+- StatsScreen$ItemStatisticsList access$1200(StatsScreen)
+- String access$100(Stat)
+- void access$1300(StatsScreen,PoseStack,int,int,Item)
+- void access$900(StatsScreen,PoseStack,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry</summary>
+
+```diff
+- void <init>(ControlList,KeyMapping,Component,ControlList$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeSlot</summary>
+
+```diff
+- GameModeSwitcherScreen$GameModeIcon access$100(GameModeSwitcherScreen$GameModeSlot)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen</summary>
+
+```diff
+- boolean access$202(BeaconScreen,boolean)
++ List access$000(BeaconScreen)
++ List access$100(BeaconScreen)
+- List access$400(BeaconScreen)
+- List access$500(BeaconScreen)
++ Minecraft access$200(BeaconScreen)
++ Minecraft access$300(BeaconScreen)
++ Minecraft access$400(BeaconScreen)
+- Minecraft access$600(BeaconScreen)
+- Minecraft access$700(BeaconScreen)
+- Minecraft access$800(BeaconScreen)
+- MobEffect access$000(BeaconScreen)
+- MobEffect access$002(BeaconScreen,MobEffect)
+- MobEffect access$100(BeaconScreen)
+- MobEffect access$102(BeaconScreen,MobEffect)
+- ResourceLocation access$300()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen</summary>
+
+```diff
+- int access$1000(int[],int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen$LineInfo</summary>
+
+```diff
+- Component access$200(BookEditScreen$LineInfo)
+- int access$300(BookEditScreen$LineInfo)
+- int access$400(BookEditScreen$LineInfo)
+- String access$800(BookEditScreen$LineInfo)
+- Style access$900(BookEditScreen$LineInfo)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
+
+```diff
+- List access$000(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen</summary>
+
+```diff
+- SimpleContainer access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen</summary>
+
+```diff
+- int access$000(JigsawBlockEditScreen)
+- int access$002(JigsawBlockEditScreen,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.LecternScreen</summary>
+
+```diff
+- void access$000(LecternScreen)
+- void access$100(LecternScreen)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen</summary>
+
+```diff
+- int access$000(MerchantScreen)
++ void access$000(MerchantScreen,PoseStack,ItemStack,int,int)
+- void access$300(MerchantScreen,PoseStack,ItemStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip$Texture</summary>
+
+```diff
++ ClientBundleTooltip$Texture[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
+
+```diff
+- Function access$000(PackSelectionModel)
+- List access$200(PackSelectionModel)
+- List access$300(PackSelectionModel)
+- Runnable access$100(PackSelectionModel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.GhostRecipe</summary>
+
+```diff
+- float access$000(GhostRecipe)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
+
+```diff
+- boolean access$200(OverlayRecipeComponent)
+- float access$300(OverlayRecipeComponent)
+- Minecraft access$400(OverlayRecipeComponent)
+- ResourceLocation access$100()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.social.PlayerEntry</summary>
+
+```diff
+- MutableComponent access$000(PlayerEntry,MutableComponent)
++ void lambda$new$1(SocialInteractionsScreen,PoseStack,int,int)
++ void lambda$new$4(SocialInteractionsScreen,PoseStack,int,int)
+- void lambda$null$1(SocialInteractionsScreen,PoseStack,int,int)
+- void lambda$null$4(SocialInteractionsScreen,PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen$Page</summary>
+
+```diff
++ SocialInteractionsScreen$Page[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
+
+```diff
+- String access$000(CreateWorldScreen)
++ void lambda$init$7(GameRules)
++ void lambda$init$8(Optional)
+- void lambda$null$15(boolean)
+- void lambda$null$16()
+- void lambda$null$17(DataPackConfig,ServerResources)
+- void lambda$null$7(GameRules)
+- void lambda$null$8(Optional)
++ void lambda$tryApplyNewDataPacks$15(boolean)
++ void lambda$tryApplyNewDataPacks$16()
++ void lambda$tryApplyNewDataPacks$17(DataPackConfig,ServerResources)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen</summary>
+
+```diff
++ Font access$700(EditGameRulesScreen)
+- Font access$900(EditGameRulesScreen)
++ Minecraft access$600(EditGameRulesScreen)
+- Minecraft access$800(EditGameRulesScreen)
+- void access$1100(EditGameRulesScreen,List)
+- void access$600(EditGameRulesScreen,EditGameRulesScreen$RuleEntry)
+- void access$700(EditGameRulesScreen,EditGameRulesScreen$RuleEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$RuleEntry</summary>
+
+```diff
+- List access$1000(EditGameRulesScreen$RuleEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
+
+```diff
++ void lambda$init$8(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,WorldGenSettings,boolean)
++ void lambda$init$9(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,Lifecycle,WorldGenSettings)
+- void lambda$null$8(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,WorldGenSettings,boolean)
+- void lambda$null$9(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,Lifecycle,WorldGenSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
+
+```diff
+- LevelSummary access$000(WorldSelectionList$WorldListEntry)
++ String lambda$editWorld$5()
+- String lambda$null$5()
++ void lambda$joinWorld$1()
+- void lambda$null$1()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu</summary>
+
+```diff
+- Component access$100()
+- Component access$300()
+- Component access$400()
+- int access$200(SpectatorMenu)
+- int access$202(SpectatorMenu,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu$CloseSpectatorItem</summary>
+
+```diff
+- void <init>(SpectatorMenu$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.main.Main</summary>
+
+```diff
+- Logger access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.HumanoidModel$ArmPose</summary>
+
+```diff
++ HumanoidModel$ArmPose[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
+
+```diff
+- ClientChunkCache$Storage access$900(ClientChunkCache)
+- ClientLevel access$800(ClientChunkCache)
+- Logger access$1000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ServerData$ServerPackStatus</summary>
+
+```diff
++ ServerData$ServerPackStatus[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger</summary>
+
+```diff
+- Component access$000(int,int)
+- Logger access$100()
+- Splitter access$300()
+- void access$200(ServerStatusPinger,ServerData)
++ void onPingFailed(Component,ServerData)
++ void pingLegacyServer(InetSocketAddress,ServerData)
+- void pingLegacyServer(ServerData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$2</summary>
+
+```diff
++ void <init>(ServerStatusPinger,InetSocketAddress,ServerData)
+- void <init>(ServerStatusPinger,ServerAddress,ServerData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.BreakingItemParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,ItemStack,BreakingItemParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.BubbleParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,BubbleParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.CampfireSmokeParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,boolean,CampfireSmokeParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.DripParticle$CoolingDripHangParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,Fluid,ParticleOptions,DripParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.DripParticle$DripLandParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,Fluid,DripParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.DripParticle$FallAndLandParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,Fluid,ParticleOptions,DripParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.DripParticle$HoneyFallAndLandParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,Fluid,ParticleOptions,DripParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.FallingDustParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,float,float,float,SpriteSet,FallingDustParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.GlowParticle</summary>
+
+```diff
+- Random access$000()
+- void <init>(ClientLevel,double,double,double,double,double,double,SpriteSet,GlowParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.LavaParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,LavaParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.ParticleEngine$MutableSpriteSet</summary>
+
+```diff
+- void <init>(ParticleEngine,ParticleEngine$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.PlayerCloudParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,SpriteSet,PlayerCloudParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.SoulParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,SpriteSet,SoulParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.SpitParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,SpriteSet,SpitParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.WakeParticle</summary>
+
+```diff
+- void <init>(ClientLevel,double,double,double,double,double,double,SpriteSet,WakeParticle$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.profiling.metric.MetricSampler</summary>
+
+```diff
+- void <init>(Metric,DoubleSupplier,Runnable,MetricSampler$ThresholdAlerter,MetricSampler$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.FaceInfo$VertexInfo</summary>
+
+```diff
+- void <init>(int,int,int,FaceInfo$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.FogRenderer$FogMode</summary>
+
+```diff
++ FogRenderer$FogMode[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.LevelRenderer$RenderChunkInfo</summary>
+
+```diff
+- byte access$500(LevelRenderer$RenderChunkInfo)
+- ChunkRenderDispatcher$RenderChunk access$100(LevelRenderer$RenderChunkInfo)
+- int access$400(LevelRenderer$RenderChunkInfo)
+- void <init>(ChunkRenderDispatcher$RenderChunk,Direction,int,LevelRenderer$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.RenderStateShard$ShaderStateShard</summary>
+
+```diff
++ ShaderInstance lambda$new$2()
+- ShaderInstance lambda$null$2()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides$PropertyMatcher</summary>
+
+```diff
+- void <init>(int,float,ItemOverrides$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.ItemTransforms$TransformType</summary>
+
+```diff
++ ItemTransforms$TransformType[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.multipart.Condition</summary>
+
+```diff
+- boolean lambda$null$0(BlockState)
+- boolean lambda$null$2(BlockState)
++ boolean lambda$static$0(BlockState)
++ boolean lambda$static$2(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.multipart.OrCondition</summary>
+
+```diff
++ boolean lambda$getPredicate$1(BlockState,Predicate)
+- boolean lambda$null$1(BlockState,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
+
+```diff
+- ChunkBufferBuilderPack access$300(ChunkRenderDispatcher)
+- Level access$000(ChunkRenderDispatcher)
+- LevelRenderer access$200(ChunkRenderDispatcher)
+- void lambda$null$2(ChunkRenderDispatcher$ChunkTaskResult,ChunkBufferBuilderPack)
++ void lambda$runTask$2(ChunkRenderDispatcher$ChunkTaskResult,ChunkBufferBuilderPack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$CompiledChunk</summary>
+
+```diff
+- boolean access$702(ChunkRenderDispatcher$CompiledChunk,boolean)
+- BufferBuilder$SortState access$900(ChunkRenderDispatcher$CompiledChunk)
+- BufferBuilder$SortState access$902(ChunkRenderDispatcher$CompiledChunk,BufferBuilder$SortState)
+- List access$1100(ChunkRenderDispatcher$CompiledChunk)
+- Set access$100(ChunkRenderDispatcher$CompiledChunk)
+- Set access$800(ChunkRenderDispatcher$CompiledChunk)
+- VisibilitySet access$1002(ChunkRenderDispatcher$CompiledChunk,VisibilitySet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
+
+```diff
+- BlockPos$MutableBlockPos access$500(ChunkRenderDispatcher$RenderChunk)
+- void access$400(ChunkRenderDispatcher$RenderChunk,Set)
+- void access$600(ChunkRenderDispatcher$RenderChunk,BufferBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.ChunkDebugRenderer</summary>
+
+```diff
+- Minecraft access$300(ChunkDebugRenderer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite$FrameInfo</summary>
+
+```diff
+- int access$600(TextureAtlasSprite$FrameInfo)
+- int access$700(TextureAtlasSprite$FrameInfo)
+- void <init>(int,int,TextureAtlasSprite$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite$InterpolationData</summary>
+
+```diff
+- void <init>(TextureAtlasSprite,TextureAtlasSprite$Info,int,TextureAtlasSprite$1)
+- void access$1700(TextureAtlasSprite$InterpolationData,TextureAtlasSprite$AnimatedTexture)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.SkinManager</summary>
+
+```diff
+- void lambda$null$1(Map,SkinManager$SkinTextureCallback,MinecraftProfileTexture$Type)
+- void lambda$null$2(Map,SkinManager$SkinTextureCallback)
+- void lambda$null$3(Map,SkinManager$SkinTextureCallback)
++ void lambda$registerSkins$1(Map,SkinManager$SkinTextureCallback,MinecraftProfileTexture$Type)
++ void lambda$registerSkins$2(Map,SkinManager$SkinTextureCallback)
++ void lambda$registerSkins$3(Map,SkinManager$SkinTextureCallback)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.model.BlockModelRotation</summary>
+
+```diff
++ BlockModelRotation[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.sounds.BiomeAmbientSoundsHandler</summary>
+
+```diff
+- BiomeAmbientSoundsHandler$LoopSoundInstance lambda$null$0(SoundEvent,Biome,BiomeAmbientSoundsHandler$LoopSoundInstance)
++ BiomeAmbientSoundsHandler$LoopSoundInstance lambda$tick$0(SoundEvent,Biome,BiomeAmbientSoundsHandler$LoopSoundInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.sounds.Sound$Type</summary>
+
+```diff
++ Sound$Type[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.sounds.SoundInstance$Attenuation</summary>
+
+```diff
++ SoundInstance$Attenuation[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.sounds.ChannelAccess$ChannelHandle</summary>
+
+```diff
+- Channel access$200(ChannelAccess$ChannelHandle)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandFunction</summary>
+
+```diff
+- ResourceLocation access$000(CommandFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.Commands$CommandSelection</summary>
+
+```diff
+- boolean access$000(Commands$CommandSelection)
+- boolean access$100(Commands$CommandSelection)
++ Commands$CommandSelection[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
+
+```diff
+- void <init>(Tag,Map,CompoundTag,BlockPredicateArgument$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
+
+```diff
 - CommandSyntaxException lambda$null$2(ResourceLocation)
++ CommandSyntaxException lambda$parse$2(ResourceLocation)
 ```
 
 </details>
 
-<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions$Option</summary>
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
 
 ```diff
-- void <init>(EntitySelectorOptions$1)
+- int lambda$null$3(Vec3,Entity,Entity)
+- int lambda$null$5(Vec3,Entity,Entity)
++ int lambda$static$3(Vec3,Entity,Entity)
++ int lambda$static$5(Vec3,Entity,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.commands.synchronization.SuggestionProviders$Wrapper</summary>
 
 ```diff
-+ List lambda$createTurtleEgg$35(Integer)
-+ ResourceLocation lambda$createCropBlock$11(Block,int,int)
-+ TextureMapping lambda$createChorusFlower$14(ResourceLocation)
-+ TextureMapping lambda$createCommandBlock$7(ResourceLocation)
-+ Variant lambda$createActiveRail$6(RailShape)
-+ Variant lambda$createBambooModels$8(String,int)
-+ Variant lambda$createCropBlock$12(Integer)
-+ Variant lambda$createEmptyOrFullDispatch$10(Comparable)
-+ Variant lambda$createFire$16(Variant)
-+ Variant lambda$createFire$17(Variant)
-+ Variant lambda$createFire$18(Variant)
-+ Variant lambda$createFire$19(Variant)
-+ Variant lambda$createJigsaw$45(FrontAndTop)
-+ Variant lambda$createRepeater$30(Boolean)
-+ Variant lambda$createRespawnAnchor$44(Integer)
-+ Variant lambda$createSculkSensor$29(SculkSensorPhase)
-+ Variant lambda$createSnowBlocks$31(Integer)
-+ Variant lambda$createSoulFire$22(Variant)
-+ Variant lambda$createSoulFire$23(Variant)
-+ Variant lambda$createSoulFire$24(Variant)
-+ Variant lambda$createSoulFire$25(Variant)
-+ Variant lambda$createStems$5(Integer)
-+ Variant lambda$createStructureBlock$32(StructureMode)
-+ Variant lambda$createSweetBerryBush$33(Integer)
-+ Variant lambda$createTripwireHook$34(Boolean)
-+ Variant lambda$static$36(ResourceLocation)
-+ Variant lambda$static$37(ResourceLocation)
-+ Variant lambda$static$38(ResourceLocation)
-+ Variant lambda$static$39(ResourceLocation)
-+ Variant lambda$static$40(ResourceLocation)
-+ Variant lambda$static$41(ResourceLocation)
-+ Variant lambda$wrapModels$15(ResourceLocation)
-+ void lambda$createBarrel$9(TextureMapping)
-+ void lambda$createFurnace$13(TextureMapping)
-+ void lambda$createGrassBlocks$27(TextureMapping)
-+ void lambda$createGrassBlocks$28(TextureMapping)
-+ void lambda$createMultiface$43(Function)
-+ void lambda$run$46(BlockFamily)
-+ void lambda$run$47(SpawnEggItem)
-+ void lambda$static$42(HashMap)
-- BiConsumer access$000(BlockModelGenerators)
-- BlockStateGenerator access$1200(ResourceLocation)
-- BlockStateGenerator access$1300(ResourceLocation)
-- BlockStateGenerator access$2000(ResourceLocation)
-- BlockStateGenerator access$2100(ResourceLocation)
-- BlockStateGenerator access$500(ResourceLocation)
-- BlockStateGenerator access$600(ResourceLocation)
-- BlockStateGenerator access$700(ResourceLocation)
-- BlockStateGenerator access$800(ResourceLocation)
-- BlockStateGenerator access$900(ResourceLocation)
-- Consumer access$200(BlockModelGenerators)
-- List access$1600(BlockModelGenerators)
-- List lambda$createTurtleEgg$39(Integer)
-- Map access$100(BlockModelGenerators)
-- Map access$1400(BlockModelGenerators)
-- Map access$1900()
-- MultiVariantGenerator access$300(ResourceLocation)
-- ResourceLocation lambda$null$15(Block,int,int)
-- TextureMapping lambda$createChorusFlower$18(ResourceLocation)
-- TextureMapping lambda$createCommandBlock$11(ResourceLocation)
-- Variant lambda$createActiveRail$10(RailShape)
-- Variant lambda$createBambooModels$12(String,int)
-- Variant lambda$createCropBlock$16(Integer)
-- Variant lambda$createEmptyOrFullDispatch$14(Comparable)
-- Variant lambda$createFire$22(Variant)
-- Variant lambda$createFire$23(Variant)
-- Variant lambda$createFire$24(Variant)
-- Variant lambda$createFire$25(Variant)
-- Variant lambda$createJigsaw$49(FrontAndTop)
-- Variant lambda$createRepeater$34(Boolean)
-- Variant lambda$createRespawnAnchor$48(Integer)
-- Variant lambda$createSculkSensor$33(SculkSensorPhase)
-- Variant lambda$createSnowBlocks$35(Integer)
-- Variant lambda$createSoulFire$27(Variant)
-- Variant lambda$createSoulFire$28(Variant)
-- Variant lambda$createSoulFire$29(Variant)
-- Variant lambda$createSoulFire$30(Variant)
-- Variant lambda$createStems$9(Integer)
-- Variant lambda$createStructureBlock$36(StructureMode)
-- Variant lambda$createSweetBerryBush$37(Integer)
-- Variant lambda$createTripwireHook$38(Boolean)
-- Variant lambda$null$40(ResourceLocation)
-- Variant lambda$null$41(ResourceLocation)
-- Variant lambda$null$42(ResourceLocation)
-- Variant lambda$null$43(ResourceLocation)
-- Variant lambda$null$44(ResourceLocation)
-- Variant lambda$null$45(ResourceLocation)
-- Variant lambda$wrapModels$19(ResourceLocation)
-- void access$1000(Item)
-- void access$1100(Block)
-- void access$1500(Block)
-- void access$1700(Block)
-- void access$1800(Block)
-- void access$400(ResourceLocation)
-- void lambda$createBarrel$13(TextureMapping)
-- void lambda$createFurnace$17(TextureMapping)
-- void lambda$createGrassBlocks$31(TextureMapping)
-- void lambda$createGrassBlocks$32(TextureMapping)
-- void lambda$createMultiface$47(Function)
-- void lambda$run$50(BlockFamily)
-- void lambda$run$51(SpawnEggItem)
-- void lambda$static$46(HashMap)
-- void lambda$static$5(Block)
-- void lambda$static$6(Block)
-- void lambda$static$7(Block)
-- void lambda$static$8(Block)
+- ResourceLocation access$000(SuggestionProviders$Wrapper)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.data.models.blockstates.MultiPartGenerator$Entry</summary>
+<details><summary>net.minecraft.core.AxisCycle</summary>
 
 ```diff
-- void <init>(MultiPartGenerator$1)
++ AxisCycle[] $values()
+- void <init>(String,int,AxisCycle$1)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.tags.TagsProvider$TagAppender</summary>
+<details><summary>net.minecraft.core.Direction</summary>
 
 ```diff
-- void <init>(TagsProvider$1)
++ Direction[] $values()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
+<details><summary>net.minecraft.core.Direction$Axis</summary>
 
 ```diff
-+ GameTestInfo lambda$new$0(TestFunction)
-- GameTestInfo lambda$null$0(TestFunction)
-- ServerLevel access$000(GameTestBatchRunner)
-- void access$100(GameTestBatchRunner,int)
++ Direction$Axis[] $values()
+- void <init>(String,int,String,Direction$1)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestSequence</summary>
+<details><summary>net.minecraft.core.Direction$AxisDirection</summary>
 
 ```diff
-- GameTestInfo access$000(GameTestSequence)
++ Direction$AxisDirection[] $values()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.TestCommand</summary>
+<details><summary>net.minecraft.core.Direction8</summary>
 
 ```diff
-- void access$000(MultipleTestTracker)
++ Direction8[] $values()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ListTag</summary>
+<details><summary>net.minecraft.core.RegistryAccess</summary>
 
 ```diff
-- void <init>(ListTag$1)
+- boolean lambda$null$3(ResourceKey)
++ boolean lambda$static$3(ResourceKey)
+- Map access$000()
+- void lambda$null$4(RegistryAccess$RegistryHolder,ResourceKey)
++ void lambda$static$4(RegistryAccess$RegistryHolder,ResourceKey)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.nbt.LongTag</summary>
+<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
 
 ```diff
-- void <init>(LongTag$1)
++ boolean lambda$captureMap$3(Map$Entry)
+- boolean lambda$null$3(Map$Entry)
++ Codec lambda$makeNetworkCodec$1(ResourceKey,Codec)
+- Codec lambda$null$1(ResourceKey,Codec)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.nbt.NbtOps</summary>
+<details><summary>net.minecraft.core.SectionPos</summary>
 
 ```diff
-+ void lambda$getMapEntries$7(String)
-- void lambda$null$7(String)
+- void <init>(int,int,int,SectionPos$1)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.Connection$PacketHolder</summary>
+<details><summary>net.minecraft.core.particles.VibrationParticleOption</summary>
 
 ```diff
-- GenericFutureListener access$100(Connection$PacketHolder)
-- Packet access$000(Connection$PacketHolder)
+- VibrationPath lambda$null$0(VibrationParticleOption)
++ VibrationPath lambda$static$0(VibrationParticleOption)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket$Entry</summary>
+
+<details><summary>net.minecraft.data.BlockFamily</summary>
 
 ```diff
-- CommandNode access$000(ClientboundCommandsPacket$Entry)
-- void <init>(ClientboundCommandsPacket$1)
+- boolean access$202(BlockFamily,boolean)
+- boolean access$302(BlockFamily,boolean)
+- Map access$100(BlockFamily)
+- String access$402(BlockFamily,String)
+- String access$502(BlockFamily,String)
+- void <init>(Block,BlockFamily$1)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument</summary>
+<details><summary>net.minecraft.data.models.blockstates.Condition$CompositeCondition</summary>
 
 ```diff
-+ ClientboundPlayerPositionPacket$RelativeArgument[] $values()
+- void <init>(Condition$Operation,List,Condition$1)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.protocol.game.ClientboundRecipePacket$State</summary>
+
+<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C1</summary>
 
 ```diff
-+ ClientboundRecipePacket$State[] $values()
+- void <init>(Property,PropertyDispatch$1)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket</summary>
+<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C3</summary>
 
 ```diff
-+ AttributeModifier lambda$new$0(FriendlyByteBuf)
-+ void lambda$write$2(AttributeModifier)
-- AttributeModifier lambda$null$0(FriendlyByteBuf)
-- void lambda$null$2(AttributeModifier)
+- void <init>(Property,Property,Property,PropertyDispatch$1)
++ void lambda$generate$0(Comparable,Comparable,PropertyDispatch$TriFunction,Comparable)
++ void lambda$generate$1(Comparable,PropertyDispatch$TriFunction,Comparable)
++ void lambda$generateList$3(Comparable,Comparable,PropertyDispatch$TriFunction,Comparable)
++ void lambda$generateList$4(Comparable,PropertyDispatch$TriFunction,Comparable)
+- void lambda$null$0(Comparable,Comparable,PropertyDispatch$TriFunction,Comparable)
+- void lambda$null$1(Comparable,PropertyDispatch$TriFunction,Comparable)
+- void lambda$null$3(Comparable,Comparable,PropertyDispatch$TriFunction,Comparable)
+- void lambda$null$4(Comparable,PropertyDispatch$TriFunction,Comparable)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
+<details><summary>net.minecraft.data.models.blockstates.PropertyDispatch$C5</summary>
 
 ```diff
-+ void lambda$writeBrain$6(Integer)
-- void lambda$null$6(Integer)
+- void <init>(Property,Property,Property,Property,Property,PropertyDispatch$1)
++ void lambda$generate$0(Comparable,Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generate$1(Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generate$2(Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generate$3(Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generateList$5(Comparable,Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generateList$6(Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generateList$7(Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
++ void lambda$generateList$8(Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$0(Comparable,Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$1(Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$2(Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$3(Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$5(Comparable,Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$6(Comparable,Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$7(Comparable,Comparable,PropertyDispatch$PentaFunction,Comparable)
+- void lambda$null$8(Comparable,PropertyDispatch$PentaFunction,Comparable)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundInteractPacket</summary>
+<details><summary>net.minecraft.data.models.blockstates.VariantProperty</summary>
 
 ```diff
-- ServerboundInteractPacket$Action access$400()
+- Function access$100(VariantProperty)
+- String access$000(VariantProperty)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAtLocationAction</summary>
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
 
 ```diff
-- void <init>(ServerboundInteractPacket$1)
-- void <init>(ServerboundInteractPacket$1)
++ String lambda$generateRecipes$4(ItemLike)
+- String lambda$null$4(ItemLike)
++ void lambda$generateRecipes$3(RecipeBuilder,BlockFamily$Variant,String)
+- void lambda$null$3(RecipeBuilder,BlockFamily$Variant,String)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
+
+```diff
+- byte[] access$300(SnbtToNbt$TaskResult)
+- String access$000(SnbtToNbt$TaskResult)
+- String access$100(SnbtToNbt$TaskResult)
+- String access$200(SnbtToNbt$TaskResult)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
+
+```diff
+- boolean lambda$null$0(Tag$BuilderEntry)
++ boolean lambda$run$0(Tag$BuilderEntry)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.ConnectionProtocol$ProtocolBuilder</summary>
+
+```diff
+- Map access$200(ConnectionProtocol$ProtocolBuilder)
+- void <init>(ConnectionProtocol$1)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.chat.ChatType</summary>
+
+```diff
++ ChatType[] $values()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.chat.ClickEvent$Action</summary>
+
+```diff
++ ClickEvent$Action[] $values()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.chat.HoverEvent$Action</summary>
+
+```diff
++ HoverEvent$Action lambda$static$0(HoverEvent$Action)
+- HoverEvent$Action lambda$static$3(HoverEvent$Action)
+- HoverEvent$ItemStackInfo lambda$static$0(JsonElement)
+- HoverEvent$ItemStackInfo lambda$static$2(Component)
+- JsonElement lambda$static$1(Object)
+- Object access$000(HoverEvent$Action,Object)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.chat.HoverEvent$ItemStackInfo</summary>
+
+```diff
+- HoverEvent$ItemStackInfo access$200(Component)
+- HoverEvent$ItemStackInfo access$400(JsonElement)
+- JsonElement access$300(HoverEvent$ItemStackInfo)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SubStringSource</summary>
+
+```diff
++ boolean lambda$create$2(StringBuilder,List,int,Style,int)
+- boolean lambda$null$2(StringBuilder,List,int,Style,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.PacketFlow</summary>
+
+```diff
++ PacketFlow[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket</summary>
+
+```diff
+- ClientboundBossEventPacket$Operation access$1000()
+- int access$1200(boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$AddOperation</summary>
+
+```diff
+- void <init>(BossEvent,ClientboundBossEventPacket$1)
+- void <init>(FriendlyByteBuf,ClientboundBossEventPacket$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdateNameOperation</summary>
+
+```diff
+- void <init>(Component,ClientboundBossEventPacket$1)
+- void <init>(FriendlyByteBuf,ClientboundBossEventPacket$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$UpdatePropertiesOperation</summary>
+
+```diff
+- void <init>(boolean,boolean,boolean,ClientboundBossEventPacket$1)
+- void <init>(FriendlyByteBuf,ClientboundBossEventPacket$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
+
+```diff
+- void lambda$run$2(Minecraft,DisconnectedRealmsScreen)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.server.ServerFunctionManager$QueuedCommand</summary>
@@ -8480,66 +4681,54 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.server.commands.DebugCommand$Tracer</summary>
 
 ```diff
-- void <init>(DebugCommand$1)
+- void <init>(PrintWriter,DebugCommand$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.server.commands.EmoteCommands</summary>
 
 ```diff
-+ Component lambda$register$0(ServerPlayer)
-+ void lambda$register$1(TextFilter$FilteredText)
-- Component lambda$null$0(ServerPlayer)
-- void lambda$null$1(TextFilter$FilteredText)
+- Component lambda$null$0(ServerPlayer,Component,Component,ServerPlayer)
++ Component lambda$register$0(ServerPlayer,Component,Component,ServerPlayer)
+- void lambda$null$1(CommandContext,MinecraftServer,ServerPlayer,Entity,TextFilter$FilteredText)
++ void lambda$register$1(CommandContext,MinecraftServer,ServerPlayer,Entity,TextFilter$FilteredText)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
 
 ```diff
-+ boolean lambda$addConditionals$40(Integer)
-+ boolean lambda$addConditionals$42(Integer)
-+ boolean lambda$addConditionals$44(Integer)
-+ boolean lambda$addConditionals$46(Integer)
-+ Collection lambda$addConditionals$52(CommandContext)
-+ CommandSourceStack lambda$wrapStores$22(CommandContext)
-+ CommandSourceStack lambda$wrapStores$24(CommandContext)
-+ CommandSourceStack lambda$wrapStores$26(CommandContext)
-+ CommandSourceStack lambda$wrapStores$28(CommandContext)
-+ CommandSourceStack lambda$wrapStores$30(CommandContext)
-+ CommandSourceStack lambda$wrapStores$32(CommandContext)
-+ int lambda$addConditionals$53(CommandContext)
-+ Tag lambda$storeData$36(IntFunction,int)
-+ Tag lambda$wrapStores$21(CommandContext,int)
-+ Tag lambda$wrapStores$23(CommandContext,int)
-+ Tag lambda$wrapStores$25(CommandContext,int)
-+ Tag lambda$wrapStores$27(CommandContext,int)
-+ Tag lambda$wrapStores$29(CommandContext,int)
-+ Tag lambda$wrapStores$31(CommandContext,int)
-+ void lambda$static$2(CommandContext,boolean,int)
-- boolean lambda$null$40(Integer)
-- boolean lambda$null$42(Integer)
-- boolean lambda$null$44(Integer)
-- boolean lambda$null$46(Integer)
-- Collection lambda$null$52(CommandContext)
-- CommandSourceStack lambda$null$22(CommandContext)
-- CommandSourceStack lambda$null$24(CommandContext)
-- CommandSourceStack lambda$null$26(CommandContext)
-- CommandSourceStack lambda$null$28(CommandContext)
-- CommandSourceStack lambda$null$30(CommandContext)
-- CommandSourceStack lambda$null$32(CommandContext)
-- int lambda$null$53(CommandContext)
++ boolean lambda$addConditionals$40(Integer,Integer)
++ boolean lambda$addConditionals$42(Integer,Integer)
++ boolean lambda$addConditionals$44(Integer,Integer)
++ boolean lambda$addConditionals$46(Integer,Integer)
+- boolean lambda$null$40(Integer,Integer)
+- boolean lambda$null$42(Integer,Integer)
+- boolean lambda$null$44(Integer,Integer)
+- boolean lambda$null$46(Integer,Integer)
++ Collection lambda$addConditionals$52(boolean,DataCommands$DataProvider,CommandContext)
+- Collection lambda$null$52(boolean,DataCommands$DataProvider,CommandContext)
+- CommandSourceStack lambda$null$22(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$24(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$26(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$28(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$30(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$32(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$22(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$24(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$26(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$28(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$30(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$32(DataCommands$DataProvider,boolean,CommandContext)
++ int lambda$addConditionals$53(DataCommands$DataProvider,CommandContext)
+- int lambda$null$53(DataCommands$DataProvider,CommandContext)
 - Tag lambda$null$21(CommandContext,int)
 - Tag lambda$null$23(CommandContext,int)
 - Tag lambda$null$25(CommandContext,int)
@@ -8547,7 +4736,15 @@
 - Tag lambda$null$29(CommandContext,int)
 - Tag lambda$null$31(CommandContext,int)
 - Tag lambda$null$36(IntFunction,int)
-- void lambda$null$2(CommandContext,boolean,int)
++ Tag lambda$storeData$36(IntFunction,int)
++ Tag lambda$wrapStores$21(CommandContext,int)
++ Tag lambda$wrapStores$23(CommandContext,int)
++ Tag lambda$wrapStores$25(CommandContext,int)
++ Tag lambda$wrapStores$27(CommandContext,int)
++ Tag lambda$wrapStores$29(CommandContext,int)
++ Tag lambda$wrapStores$31(CommandContext,int)
+- void lambda$null$2(ResultConsumer,ResultConsumer,CommandContext,boolean,int)
++ void lambda$static$2(ResultConsumer,ResultConsumer,CommandContext,boolean,int)
 ```
 
 </details>
@@ -8562,6 +4759,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.server.commands.FillCommand$Mode</summary>
 
 ```diff
@@ -8574,72 +4772,59 @@
 <details><summary>net.minecraft.server.commands.GameRuleCommand</summary>
 
 ```diff
-- int access$000(GameRules$Key)
-- int access$100(GameRules$Key)
+- int access$000(CommandContext,GameRules$Key)
+- int access$100(CommandSourceStack,GameRules$Key)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.LootCommand</summary>
 
 ```diff
-+ int lambda$register$10(CommandContext)
-+ int lambda$register$11(CommandContext)
-+ int lambda$register$12(CommandContext)
-+ int lambda$register$13(CommandContext)
-+ int lambda$register$4(CommandContext)
-+ int lambda$register$5(CommandContext)
-+ int lambda$register$6(CommandContext)
-+ int lambda$register$7(CommandContext)
-+ int lambda$register$8(CommandContext)
-+ int lambda$register$9(CommandContext)
-- int lambda$null$10(CommandContext)
-- int lambda$null$11(CommandContext)
-- int lambda$null$12(CommandContext)
-- int lambda$null$13(CommandContext)
-- int lambda$null$4(CommandContext)
-- int lambda$null$5(CommandContext)
-- int lambda$null$6(CommandContext)
-- int lambda$null$7(CommandContext)
-- int lambda$null$8(CommandContext)
-- int lambda$null$9(CommandContext)
+- int lambda$null$10(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$11(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$12(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$13(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$4(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$5(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$6(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$7(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$8(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$9(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$10(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$11(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$12(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$13(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$4(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$5(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$6(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$7(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$8(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$9(LootCommand$DropConsumer,CommandContext)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.SeedCommand</summary>
 
 ```diff
-+ Style lambda$register$1(Style)
-- Style lambda$null$1(Style)
+- Style lambda$null$1(long,Style)
++ Style lambda$register$1(long,Style)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.server.dedicated.Settings$MutableValue</summary>
 
 ```diff
-- void <init>(Settings$1)
+- void <init>(Settings,String,Object,Function,Settings$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.server.gui.MinecraftServerGui</summary>
 
@@ -8651,10 +4836,6 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.server.level.ChunkHolder$FullChunkStatus</summary>
 
 ```diff
@@ -8664,36 +4845,36 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.server.level.ChunkTaskPriorityQueue</summary>
 
 ```diff
-+ Either lambda$pop$5(long)
 - Either lambda$null$5(long)
++ Either lambda$pop$5(long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.server.level.ServerChunkCache$MainThreadExecutor</summary>
 
 ```diff
-- void <init>(ServerChunkCache$1)
+- void <init>(ServerChunkCache,Level,ServerChunkCache$1)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.server.level.ServerLevel</summary>
 
 ```diff
-+ void lambda$onBlockStateChange$16(BlockPos)
-+ void lambda$onBlockStateChange$18(PoiType)
 - EntityTickList access$100(ServerLevel)
 - Int2ObjectMap access$400(ServerLevel)
 - List access$200(ServerLevel)
 - Set access$300(ServerLevel)
 - void lambda$null$16(BlockPos)
-- void lambda$null$18(PoiType)
+- void lambda$null$18(BlockPos,PoiType)
++ void lambda$onBlockStateChange$16(BlockPos)
++ void lambda$onBlockStateChange$18(BlockPos,PoiType)
 ```
 
 </details>
@@ -8702,18 +4883,10 @@
 <details><summary>net.minecraft.server.network.TextFilterClient$RequestFailedException</summary>
 
 ```diff
-- void <init>(TextFilterClient$1)
+- void <init>(String,TextFilterClient$1)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.packs.repository.Pack$Position</summary>
@@ -8725,17 +4898,14 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.tags.StaticTagHelper$Wrapper</summary>
 
 ```diff
-- void <init>(StaticTagHelper$1)
+- void <init>(ResourceLocation,StaticTagHelper$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.tags.Tag</summary>
 
@@ -8748,28 +4918,24 @@
 
 </details>
 
+
 <details><summary>net.minecraft.tags.TagManager$LoaderInfo</summary>
 
 ```diff
 - CompletableFuture access$100(TagManager$LoaderInfo)
-- void <init>(TagManager$1)
+- void <init>(StaticTagHelper,CompletableFuture,TagManager$1)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.util.LowerCaseEnumTypeAdapterFactory</summary>
 
 ```diff
-- String access$000(Object)
+- String access$000(LowerCaseEnumTypeAdapterFactory,Object)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.util.SortedArraySet</summary>
@@ -8796,12 +4962,6 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.util.profiling.registry.MeasurementCategory</summary>
 
 ```diff
@@ -8811,56 +4971,34 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy</summary>
 
 ```diff
 + GateBehavior$RunningPolicy[] $values()
-- void <init>(GateBehavior$1)
+- void <init>(String,int,GateBehavior$1)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.PoiCompetitorScan</summary>
 
 ```diff
-+ boolean lambda$start$0(Villager)
-- boolean lambda$null$0(Villager)
+- boolean lambda$null$0(GlobalPos,PoiType,Villager)
++ boolean lambda$start$0(GlobalPos,PoiType,Villager)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget</summary>
 
 ```diff
-+ boolean lambda$start$0(LivingEntity)
-- boolean lambda$null$0(LivingEntity)
+- boolean lambda$null$0(PathfinderMob,LivingEntity)
++ boolean lambda$start$0(PathfinderMob,LivingEntity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
@@ -8872,91 +5010,78 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.sensing.NearestVisibleLivingEntitySensor</summary>
 
 ```diff
-+ boolean lambda$getNearestEntity$0(LivingEntity)
-- boolean lambda$null$0(LivingEntity)
++ boolean lambda$getNearestEntity$0(LivingEntity,LivingEntity)
+- boolean lambda$null$0(LivingEntity,LivingEntity)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.targeting.TargetingConditions</summary>
 
 ```diff
-+ boolean checkLineOfSight
-+ boolean isCombat
-- boolean allowInvulnerable
-- boolean allowNonAttackable
-- boolean allowSameTeam
-- boolean allowUnseeable
-+ TargetingConditions forCombat()
-+ TargetingConditions forNonCombat()
-+ TargetingConditions ignoreLineOfSight()
-+ void <init>(boolean)
 - TargetingConditions allowInvulnerable()
 - TargetingConditions allowNonAttackable()
 - TargetingConditions allowSameTeam()
 - TargetingConditions allowUnseeable()
++ TargetingConditions forCombat()
++ TargetingConditions forNonCombat()
++ TargetingConditions ignoreLineOfSight()
 - void <init>()
++ void <init>(boolean)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.entity.ai.util.HoverRandomPos</summary>
 
 ```diff
-+ boolean lambda$getPos$0(BlockPos)
-- boolean lambda$null$0(BlockPos)
++ boolean lambda$getPos$0(PathfinderMob,BlockPos)
+- boolean lambda$null$0(PathfinderMob,BlockPos)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
 
 ```diff
 + BlockPos lambda$codec$0(PoiRecord)
-+ Integer lambda$codec$2(PoiRecord)
-+ PoiType lambda$codec$1(PoiRecord)
 - BlockPos lambda$null$0(PoiRecord)
++ Integer lambda$codec$2(PoiRecord)
 - Integer lambda$null$2(PoiRecord)
++ PoiType lambda$codec$1(PoiRecord)
 - PoiType lambda$null$1(PoiRecord)
 ```
 
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Bee</summary>
 
 ```diff
+- Bee$BeeGoToHiveGoal access$4800(Bee)
+- Bee$BeePollinateGoal access$700(Bee)
+- BlockPos access$1500(Bee)
+- BlockPos access$1502(Bee,BlockPos)
+- BlockPos access$3200(Bee)
+- BlockPos access$3202(Bee,BlockPos)
+- boolean access$1400(Bee)
+- boolean access$1600(Bee,BlockPos,int)
+- boolean access$1800(Bee)
+- boolean access$2400(Bee,BlockPos)
+- boolean access$3300(Bee,BlockPos)
+- boolean access$5100(Bee,BlockPos)
+- int access$3000(Bee)
+- int access$3002(Bee,int)
+- int access$3700(Bee)
+- int access$3800(Bee)
+- int access$3802(Bee,int)
+- int access$5200(Bee)
 + PathNavigation access$000(Bee)
 + PathNavigation access$1000(Bee)
 + PathNavigation access$1400(Bee)
@@ -8964,14 +5089,29 @@
 + PathNavigation access$1600(Bee)
 + PathNavigation access$1700(Bee)
 + PathNavigation access$1800(Bee)
+- PathNavigation access$1900(Bee)
 + PathNavigation access$200(Bee)
+- PathNavigation access$2000(Bee)
+- PathNavigation access$2200(Bee)
+- PathNavigation access$2600(Bee)
+- PathNavigation access$2700(Bee)
+- PathNavigation access$2800(Bee)
+- PathNavigation access$2900(Bee)
 + PathNavigation access$300(Bee)
+- PathNavigation access$3100(Bee)
+- PathNavigation access$3400(Bee)
+- PathNavigation access$3500(Bee)
+- PathNavigation access$3600(Bee)
+- PathNavigation access$3900(Bee)
 + PathNavigation access$400(Bee)
+- PathNavigation access$4300(Bee)
+- PathNavigation access$4500(Bee)
 + PathNavigation access$500(Bee)
 + PathNavigation access$600(Bee)
 + PathNavigation access$700(Bee)
 + PathNavigation access$800(Bee)
 + Random access$100(Bee)
+- Random access$1000(Bee)
 + Random access$1900(Bee)
 + Random access$2000(Bee)
 + Random access$2200(Bee)
@@ -8980,39 +5120,6 @@
 + Random access$2600(Bee)
 + Random access$2700(Bee)
 + Random access$2800(Bee)
-- Bee$BeeGoToHiveGoal access$4800(Bee)
-- Bee$BeePollinateGoal access$700(Bee)
-- BlockPos access$1500(Bee)
-- BlockPos access$1502(BlockPos)
-- BlockPos access$3200(Bee)
-- BlockPos access$3202(BlockPos)
-- boolean access$1400(Bee)
-- boolean access$1600(BlockPos,int)
-- boolean access$1800(Bee)
-- boolean access$2400(BlockPos)
-- boolean access$3300(BlockPos)
-- boolean access$5100(BlockPos)
-- int access$3000(Bee)
-- int access$3002(Bee,int)
-- int access$3700(Bee)
-- int access$3800(Bee)
-- int access$3802(Bee,int)
-- int access$5200(Bee)
-- PathNavigation access$1900(Bee)
-- PathNavigation access$2000(Bee)
-- PathNavigation access$2200(Bee)
-- PathNavigation access$2600(Bee)
-- PathNavigation access$2700(Bee)
-- PathNavigation access$2800(Bee)
-- PathNavigation access$2900(Bee)
-- PathNavigation access$3100(Bee)
-- PathNavigation access$3400(Bee)
-- PathNavigation access$3500(Bee)
-- PathNavigation access$3600(Bee)
-- PathNavigation access$3900(Bee)
-- PathNavigation access$4300(Bee)
-- PathNavigation access$4500(Bee)
-- Random access$1000(Bee)
 - Random access$4000(Bee)
 - Random access$4100(Bee)
 - Random access$4400(Bee)
@@ -9020,17 +5127,18 @@
 - Random access$4700(Bee)
 - Random access$5300(Bee)
 - Random access$5400(Bee)
-- void access$2500(BlockPos)
+- void access$2500(Bee,BlockPos)
 - void access$4200(Bee,boolean)
 - void access$5500(Bee)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Bee$BaseBeeGoal</summary>
 
 ```diff
-- void <init>(Bee$1)
+- void <init>(Bee,Bee$1)
 ```
 
 </details>
@@ -9039,7 +5147,7 @@
 <details><summary>net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal</summary>
 
 ```diff
-- boolean access$4900(BlockPos)
+- boolean access$4900(Bee$BeeGoToHiveGoal,BlockPos)
 - int access$300(Bee$BeeGoToHiveGoal)
 - List access$500(Bee$BeeGoToHiveGoal)
 - void access$5000(Bee$BeeGoToHiveGoal)
@@ -9047,24 +5155,27 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal</summary>
 
 ```diff
-- void <init>(Bee$1)
+- void <init>(Bee,Bee$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
 
 ```diff
-+ double lambda$findNearbyHivesWithSpace$1(BlockPos)
-- boolean lambda$findNearbyHivesWithSpace$1(BlockPos)
-- double lambda$findNearbyHivesWithSpace$2(BlockPos)
-- void <init>(Bee$1)
+- boolean lambda$findNearbyHivesWithSpace$1(Bee,BlockPos)
++ double lambda$findNearbyHivesWithSpace$1(BlockPos,BlockPos)
+- double lambda$findNearbyHivesWithSpace$2(BlockPos,BlockPos)
+- void <init>(Bee,Bee$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
 
@@ -9076,9 +5187,6 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Dolphin</summary>
 
 ```diff
@@ -9088,18 +5196,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
@@ -9114,15 +5210,11 @@
 <details><summary>net.minecraft.world.entity.animal.Panda$Gene</summary>
 
 ```diff
+- Panda$Gene access$000(Panda$Gene,Panda$Gene)
 + Panda$Gene[] $values()
-- Panda$Gene access$000(Panda$Gene)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Parrot</summary>
@@ -9134,19 +5226,16 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.entity.animal.Pufferfish</summary>
 
 ```diff
-+ Predicate SCARY_MOB
-- Predicate NO_CREATIVE_OR_WATER_MOB
 - int access$002(Pufferfish,int)
 - int access$102(Pufferfish,int)
 - TargetingConditions access$200()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
 
@@ -9158,20 +5247,16 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Squid</summary>
 
 ```diff
 + boolean access$000(Squid)
-+ boolean canBeLeashed(Player)
 - boolean access$100(Squid)
++ boolean canBeLeashed(Player)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.TropicalFish$Pattern</summary>
 
@@ -9181,27 +5266,29 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Turtle</summary>
 
 ```diff
-+ Random access$000(Turtle)
-+ Random access$100(Turtle)
 - BlockPos access$600(Turtle)
 - BlockPos access$700(Turtle)
 - boolean access$1300(Turtle)
 - boolean access$1400(Turtle)
 - int access$1000(Turtle)
 - int access$1008(Turtle)
++ Random access$000(Turtle)
++ Random access$100(Turtle)
 - Random access$1200(Turtle)
 - Random access$300(Turtle)
 - void access$1100(Turtle,boolean)
-- void access$400(BlockPos)
+- void access$400(Turtle,BlockPos)
 - void access$500(Turtle,boolean)
 - void access$800(Turtle,boolean)
 - void access$900(Turtle,boolean)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.goat.Goat$GoatNodeEvaluator</summary>
 
@@ -9212,27 +5299,22 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.world.entity.monster.Evoker$EvokerAttackSpellGoal</summary>
 
 ```diff
-- void <init>(Evoker$1)
+- void <init>(Evoker,Evoker$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.monster.Evoker$EvokerSummonSpellGoal</summary>
 
 ```diff
-- void <init>(Evoker$1)
+- void <init>(Evoker,Evoker$1)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Guardian</summary>
@@ -9245,30 +5327,23 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.monster.Phantom$PhantomAttackPlayerTargetGoal</summary>
 
 ```diff
-- void <init>(Phantom$1)
+- void <init>(Phantom,Phantom$1)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Ravager</summary>
 
 ```diff
-+ boolean hasLineOfSight(Entity)
 - boolean canSee(Entity)
++ boolean hasLineOfSight(Entity)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Slime</summary>
@@ -9282,7 +5357,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.monster.SpellcasterIllager</summary>
 
 ```diff
@@ -9291,20 +5365,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.inventory.ClickAction</summary>
@@ -9316,15 +5376,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.inventory.GrindstoneMenu</summary>
 
 ```diff
@@ -9332,20 +5383,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.inventory.RecipeBookType</summary>
@@ -9357,15 +5394,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.ArmorMaterials</summary>
 
 ```diff
@@ -9375,53 +5403,15 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.DiggerItem</summary>
 
 ```diff
-+ Tag blocks
-- Set blocks
 + boolean isCorrectToolForDrops(BlockState)
-+ void <init>(Item$Properties)
-- void <init>(Item$Properties)
+- void <init>(float,float,Tier,Set,Item$Properties)
++ void <init>(float,float,Tier,Tag,Item$Properties)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoeItem</summary>
-
-```diff
-- Set DIGGABLES
-```
-
-</details>
-
 
 
 <details><summary>net.minecraft.world.item.Item$Properties</summary>
@@ -9438,33 +5428,24 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.item.crafting.Ingredient$ItemValue</summary>
 
 ```diff
-- void <init>(Ingredient$1)
+- void <init>(ItemStack,Ingredient$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
 
 ```diff
-+ Map lambda$replaceRecipes$10(RecipeType)
 - Map lambda$null$10(RecipeType)
++ Map lambda$replaceRecipes$10(RecipeType)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.crafting.UpgradeRecipe</summary>
@@ -9478,31 +5459,14 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory</summary>
 
 ```diff
 + EnchantmentCategory[] $values()
-- void <init>(EnchantmentCategory$1)
+- void <init>(String,int,EnchantmentCategory$1)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.enchantment.ProtectionEnchantment$Type</summary>
@@ -9514,18 +5478,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.GameRules$Category</summary>
 
 ```diff
@@ -9533,6 +5485,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.GameRules$IntegerValue</summary>
 
@@ -9542,20 +5495,15 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.GameRules$Type</summary>
 
 ```diff
 - BiConsumer access$300(GameRules$Type)
-- void <init>(GameRules$1)
+- void <init>(Supplier,Function,BiConsumer,GameRules$VisitorCaller,GameRules$1)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.LightLayer</summary>
@@ -9567,80 +5515,77 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.NaturalSpawner$SpawnState</summary>
 
 ```diff
-- boolean access$300(MobCategory)
-- boolean access$500(ChunkAccess)
-- void <init>(NaturalSpawner$1)
-- void access$400(ChunkAccess)
+- boolean access$300(NaturalSpawner$SpawnState,MobCategory)
+- boolean access$500(NaturalSpawner$SpawnState,EntityType,BlockPos,ChunkAccess)
+- void <init>(int,Object2IntOpenHashMap,PotentialCalculator,NaturalSpawner$1)
+- void access$400(NaturalSpawner$SpawnState,Mob,ChunkAccess)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
 
 ```diff
-+ boolean lambda$getStructureAt$3(StructurePiece)
-- boolean lambda$null$3(StructurePiece)
++ boolean lambda$getStructureAt$3(BlockPos,StructurePiece)
+- boolean lambda$null$3(BlockPos,StructurePiece)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.biome.AmbientMoodSettings</summary>
 
 ```diff
-+ Double lambda$static$3(AmbientMoodSettings)
-+ Integer lambda$static$1(AmbientMoodSettings)
-+ Integer lambda$static$2(AmbientMoodSettings)
-+ SoundEvent lambda$static$0(AmbientMoodSettings)
 - Double lambda$null$3(AmbientMoodSettings)
++ Double lambda$static$3(AmbientMoodSettings)
 - Integer lambda$null$1(AmbientMoodSettings)
 - Integer lambda$null$2(AmbientMoodSettings)
++ Integer lambda$static$1(AmbientMoodSettings)
++ Integer lambda$static$2(AmbientMoodSettings)
 - SoundEvent lambda$null$0(AmbientMoodSettings)
++ SoundEvent lambda$static$0(AmbientMoodSettings)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.biome.Biome</summary>
 
 ```diff
-+ Biome lambda$static$13(BiomeSpecialEffects)
+- Biome lambda$null$13(Biome$ClimateSettings,Biome$BiomeCategory,Float,Float,BiomeSpecialEffects)
++ Biome lambda$static$13(Biome$ClimateSettings,Biome$BiomeCategory,Float,Float,BiomeSpecialEffects)
+- Biome$BiomeCategory lambda$null$1(Biome)
+- Biome$BiomeCategory lambda$null$9(Biome)
 + Biome$BiomeCategory lambda$static$1(Biome)
 + Biome$BiomeCategory lambda$static$9(Biome)
+- Biome$ClimateSettings lambda$null$0(Biome)
+- Biome$ClimateSettings lambda$null$8(Biome)
 + Biome$ClimateSettings lambda$static$0(Biome)
 + Biome$ClimateSettings lambda$static$8(Biome)
+- BiomeGenerationSettings lambda$null$5(Biome)
 + BiomeGenerationSettings lambda$static$5(Biome)
+- BiomeSpecialEffects lambda$null$12(Biome)
+- BiomeSpecialEffects lambda$null$4(Biome)
 + BiomeSpecialEffects lambda$static$12(Biome)
 + BiomeSpecialEffects lambda$static$4(Biome)
+- Float lambda$null$10(Biome)
+- Float lambda$null$11(Biome)
+- Float lambda$null$2(Biome)
+- Float lambda$null$3(Biome)
 + Float lambda$static$10(Biome)
 + Float lambda$static$11(Biome)
 + Float lambda$static$2(Biome)
 + Float lambda$static$3(Biome)
 + Long2FloatLinkedOpenHashMap lambda$new$16()
-+ MobSpawnSettings lambda$static$6(Biome)
-- Biome lambda$null$13(BiomeSpecialEffects)
-- Biome$BiomeCategory lambda$null$1(Biome)
-- Biome$BiomeCategory lambda$null$9(Biome)
-- Biome$ClimateSettings lambda$null$0(Biome)
-- Biome$ClimateSettings lambda$null$8(Biome)
-- BiomeGenerationSettings lambda$null$5(Biome)
-- BiomeSpecialEffects lambda$null$12(Biome)
-- BiomeSpecialEffects lambda$null$4(Biome)
-- Float lambda$null$10(Biome)
-- Float lambda$null$11(Biome)
-- Float lambda$null$2(Biome)
-- Float lambda$null$3(Biome)
 - Long2FloatLinkedOpenHashMap lambda$null$16()
 - MobSpawnSettings lambda$null$6(Biome)
++ MobSpawnSettings lambda$static$6(Biome)
 - PerlinSimplexNoise access$100()
-- void <init>(Biome$1)
+- void <init>(Biome$ClimateSettings,Biome$BiomeCategory,float,float,BiomeSpecialEffects,BiomeGenerationSettings,MobSpawnSettings,Biome$1)
 ```
 
 </details>
@@ -9649,19 +5594,20 @@
 <details><summary>net.minecraft.world.level.biome.Biome$ClimateParameters</summary>
 
 ```diff
-+ Float lambda$static$0(Biome$ClimateParameters)
-+ Float lambda$static$1(Biome$ClimateParameters)
-+ Float lambda$static$2(Biome$ClimateParameters)
-+ Float lambda$static$3(Biome$ClimateParameters)
-+ Float lambda$static$4(Biome$ClimateParameters)
 - Float lambda$null$0(Biome$ClimateParameters)
 - Float lambda$null$1(Biome$ClimateParameters)
 - Float lambda$null$2(Biome$ClimateParameters)
 - Float lambda$null$3(Biome$ClimateParameters)
 - Float lambda$null$4(Biome$ClimateParameters)
++ Float lambda$static$0(Biome$ClimateParameters)
++ Float lambda$static$1(Biome$ClimateParameters)
++ Float lambda$static$2(Biome$ClimateParameters)
++ Float lambda$static$3(Biome$ClimateParameters)
++ Float lambda$static$4(Biome$ClimateParameters)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.biome.Biome$Precipitation</summary>
 
@@ -9675,22 +5621,18 @@
 <details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
 
 ```diff
-+ List lambda$static$3(BiomeGenerationSettings)
-+ List lambda$static$4(BiomeGenerationSettings)
-+ Map lambda$static$2(BiomeGenerationSettings)
-+ Supplier lambda$static$1(BiomeGenerationSettings)
 - List lambda$null$3(BiomeGenerationSettings)
 - List lambda$null$4(BiomeGenerationSettings)
++ List lambda$static$3(BiomeGenerationSettings)
++ List lambda$static$4(BiomeGenerationSettings)
 - Map lambda$null$2(BiomeGenerationSettings)
++ Map lambda$static$2(BiomeGenerationSettings)
 - Supplier lambda$null$1(BiomeGenerationSettings)
-- void <init>(BiomeGenerationSettings$1)
++ Supplier lambda$static$1(BiomeGenerationSettings)
+- void <init>(Supplier,Map,List,List,BiomeGenerationSettings$1)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.FuzzyOffsetConstantColumnBiomeZoomer</summary>
@@ -9705,94 +5647,44 @@
 <details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance</summary>
 
 ```diff
-+ DataResult lambda$static$0(ResourceLocation)
-+ DataResult lambda$static$1(ResourceLocation)
-+ DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
 - DataResult lambda$null$0(ResourceLocation)
 - DataResult lambda$null$1(ResourceLocation)
 - DataResult lambda$null$2(MultiNoiseBiomeSource$Preset)
-- void <init>(MultiNoiseBiomeSource$1)
++ DataResult lambda$static$0(ResourceLocation)
++ DataResult lambda$static$1(ResourceLocation)
++ DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
+- void <init>(MultiNoiseBiomeSource$Preset,Registry,long,MultiNoiseBiomeSource$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.biome.OverworldBiomeSource</summary>
 
 ```diff
-+ Biome lambda$new$5(ResourceKey)
-+ Boolean lambda$static$1(OverworldBiomeSource)
-+ Boolean lambda$static$2(OverworldBiomeSource)
-+ Long lambda$static$0(OverworldBiomeSource)
-+ Registry lambda$static$3(OverworldBiomeSource)
-- Biome lambda$null$5(ResourceKey)
++ Biome lambda$new$5(Registry,ResourceKey)
+- Biome lambda$null$5(Registry,ResourceKey)
 - Boolean lambda$null$1(OverworldBiomeSource)
 - Boolean lambda$null$2(OverworldBiomeSource)
++ Boolean lambda$static$1(OverworldBiomeSource)
++ Boolean lambda$static$2(OverworldBiomeSource)
 - Long lambda$null$0(OverworldBiomeSource)
++ Long lambda$static$0(OverworldBiomeSource)
 - Registry lambda$null$3(OverworldBiomeSource)
++ Registry lambda$static$3(OverworldBiomeSource)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
 
 ```diff
-- BlockState access$000(BlockPos)
-- BlockState access$100(ItemStack)
+- BlockState access$000(BlockState,LevelAccessor,BlockPos)
+- BlockState access$100(BlockState,LevelAccessor,BlockPos,ItemStack)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.DoubleBlockCombiner$BlockType</summary>
@@ -9804,69 +5696,13 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LightBlock</summary>
-
-```diff
-+ int MAX_LEVEL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.PowderSnowBlock</summary>
 
 ```diff
-+ float HORIZONTAL_PARTICLE_MOMENTUM_FACTOR
-- int HORIZONTAL_PARTICLE_MOMENTUM_FACTOR
-- void spawnPowderSnowParticles(Vec3)
+- void spawnPowderSnowParticles(Level,Vec3)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.block.PressurePlateBlock$Sensitivity</summary>
@@ -9878,62 +5714,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.entity.BannerPattern</summary>
 
 ```diff
@@ -9943,16 +5723,15 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.entity.BarrelBlockEntity</summary>
 
 ```diff
-- void access$000(SoundEvent)
-- void access$100(BlockState,boolean)
+- void access$000(BarrelBlockEntity,BlockState,SoundEvent)
+- void access$100(BarrelBlockEntity,BlockState,boolean)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.block.state.properties.RailShape</summary>
@@ -9963,6 +5742,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
 
 ```diff
@@ -9970,6 +5750,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.state.properties.StairsShape</summary>
 
@@ -9979,6 +5760,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.state.properties.Tilt</summary>
 
 ```diff
@@ -9986,7 +5768,6 @@
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.border.BorderStatus</summary>
@@ -9998,21 +5779,15 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.chunk.storage.IOWorker$PendingStore</summary>
 
 ```diff
 - CompletableFuture access$100(IOWorker$PendingStore)
 - CompoundTag access$000(IOWorker$PendingStore)
-- CompoundTag access$002(CompoundTag)
+- CompoundTag access$002(IOWorker$PendingStore,CompoundTag)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.chunk.storage.RegionFile</summary>
@@ -10024,28 +5799,14 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
 
 ```diff
-+ void lambda$readColumn$1(long)
 - void lambda$null$1(long)
++ void lambda$readColumn$1(long)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.entity.Visibility</summary>
@@ -10056,32 +5817,27 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
 
 ```diff
-+ Optional lambda$static$0(BlockPositionSource)
 - Optional access$000(BlockPositionSource)
 - Optional lambda$null$0(BlockPositionSource)
++ Optional lambda$static$0(BlockPositionSource)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.gameevent.EntityPositionSource</summary>
 
 ```diff
-+ Integer lambda$static$0(EntityPositionSource)
 - int access$000(EntityPositionSource)
 - Integer lambda$null$0(EntityPositionSource)
++ Integer lambda$static$0(EntityPositionSource)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer$AquiferStatus</summary>
@@ -10103,6 +5859,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.Column$Line</summary>
 
 ```diff
@@ -10110,8 +5867,6 @@
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.GenerationStep$Carving</summary>
@@ -10122,39 +5877,42 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
 
 ```diff
-+ BlockStateProvider lambda$static$0(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$1(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$2(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$3(GeodeBlockSettings)
-+ BlockStateProvider lambda$static$4(GeodeBlockSettings)
-+ List lambda$static$5(GeodeBlockSettings)
 - BlockStateProvider lambda$null$0(GeodeBlockSettings)
 - BlockStateProvider lambda$null$1(GeodeBlockSettings)
 - BlockStateProvider lambda$null$2(GeodeBlockSettings)
 - BlockStateProvider lambda$null$3(GeodeBlockSettings)
 - BlockStateProvider lambda$null$4(GeodeBlockSettings)
++ BlockStateProvider lambda$static$0(GeodeBlockSettings)
++ BlockStateProvider lambda$static$1(GeodeBlockSettings)
++ BlockStateProvider lambda$static$2(GeodeBlockSettings)
++ BlockStateProvider lambda$static$3(GeodeBlockSettings)
++ BlockStateProvider lambda$static$4(GeodeBlockSettings)
 - List lambda$null$5(GeodeBlockSettings)
++ List lambda$static$5(GeodeBlockSettings)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.GeodeLayerSettings</summary>
 
 ```diff
-+ Double lambda$static$0(GeodeLayerSettings)
-+ Double lambda$static$1(GeodeLayerSettings)
-+ Double lambda$static$2(GeodeLayerSettings)
-+ Double lambda$static$3(GeodeLayerSettings)
 - Double lambda$null$0(GeodeLayerSettings)
 - Double lambda$null$1(GeodeLayerSettings)
 - Double lambda$null$2(GeodeLayerSettings)
 - Double lambda$null$3(GeodeLayerSettings)
++ Double lambda$static$0(GeodeLayerSettings)
++ Double lambda$static$1(GeodeLayerSettings)
++ Double lambda$static$2(GeodeLayerSettings)
++ Double lambda$static$3(GeodeLayerSettings)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.Heightmap$Types</summary>
 
@@ -10164,40 +5922,31 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
 
 ```diff
-+ BiomeSource lambda$static$0(NoiseBasedChunkGenerator)
-+ Long lambda$static$1(NoiseBasedChunkGenerator)
-+ Supplier lambda$static$2(NoiseBasedChunkGenerator)
 - BiomeSource lambda$null$0(NoiseBasedChunkGenerator)
++ BiomeSource lambda$static$0(NoiseBasedChunkGenerator)
 - int access$000(NoiseBasedChunkGenerator)
 - int access$100(NoiseBasedChunkGenerator)
 - int access$200(NoiseBasedChunkGenerator)
 - Long lambda$null$1(NoiseBasedChunkGenerator)
++ Long lambda$static$1(NoiseBasedChunkGenerator)
 - NoodleCavifier access$400(NoiseBasedChunkGenerator)
 - OreVeinifier access$300(NoiseBasedChunkGenerator)
 - Supplier lambda$null$2(NoiseBasedChunkGenerator)
++ Supplier lambda$static$2(NoiseBasedChunkGenerator)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
 
 ```diff
-+ Optional lambda$static$0(WorldGenSettings)
 - Optional lambda$null$0(WorldGenSettings)
++ Optional lambda$static$0(WorldGenSettings)
 ```
 
 </details>
@@ -10206,102 +5955,77 @@
 <details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration$CanyonShapeConfiguration</summary>
 
 ```diff
-+ Float lambda$static$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ Float lambda$static$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ FloatProvider lambda$static$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ Integer lambda$static$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - Float lambda$null$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - Float lambda$null$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Float lambda$static$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Float lambda$static$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - FloatProvider lambda$null$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - FloatProvider lambda$null$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - FloatProvider lambda$null$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
 - Integer lambda$null$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Integer lambda$static$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
 
 ```diff
-+ Boolean lambda$static$4(CarverConfiguration)
-+ CarverDebugSettings lambda$static$5(CarverConfiguration)
-+ Float lambda$static$0(CarverConfiguration)
-+ FloatProvider lambda$static$2(CarverConfiguration)
-+ HeightProvider lambda$static$1(CarverConfiguration)
-+ VerticalAnchor lambda$static$3(CarverConfiguration)
 - Boolean lambda$null$4(CarverConfiguration)
++ Boolean lambda$static$4(CarverConfiguration)
 - CarverDebugSettings lambda$null$5(CarverConfiguration)
++ CarverDebugSettings lambda$static$5(CarverConfiguration)
 - Float lambda$null$0(CarverConfiguration)
++ Float lambda$static$0(CarverConfiguration)
 - FloatProvider lambda$null$2(CarverConfiguration)
++ FloatProvider lambda$static$2(CarverConfiguration)
 - HeightProvider lambda$null$1(CarverConfiguration)
++ HeightProvider lambda$static$1(CarverConfiguration)
 - VerticalAnchor lambda$null$3(CarverConfiguration)
++ VerticalAnchor lambda$static$3(CarverConfiguration)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.FossilFeatureConfiguration</summary>
 
 ```diff
-+ Integer lambda$static$4(FossilFeatureConfiguration)
-+ List lambda$static$0(FossilFeatureConfiguration)
-+ List lambda$static$1(FossilFeatureConfiguration)
-+ Supplier lambda$static$2(FossilFeatureConfiguration)
-+ Supplier lambda$static$3(FossilFeatureConfiguration)
 - Integer lambda$null$4(FossilFeatureConfiguration)
++ Integer lambda$static$4(FossilFeatureConfiguration)
 - List lambda$null$0(FossilFeatureConfiguration)
 - List lambda$null$1(FossilFeatureConfiguration)
++ List lambda$static$0(FossilFeatureConfiguration)
++ List lambda$static$1(FossilFeatureConfiguration)
 - Supplier lambda$null$2(FossilFeatureConfiguration)
 - Supplier lambda$null$3(FossilFeatureConfiguration)
++ Supplier lambda$static$2(FossilFeatureConfiguration)
++ Supplier lambda$static$3(FossilFeatureConfiguration)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusConfiguration</summary>
 
 ```diff
-+ BlockState lambda$static$0(HugeFungusConfiguration)
-+ BlockState lambda$static$1(HugeFungusConfiguration)
-+ BlockState lambda$static$2(HugeFungusConfiguration)
-+ BlockState lambda$static$3(HugeFungusConfiguration)
-+ Boolean lambda$static$4(HugeFungusConfiguration)
 - BlockState lambda$null$0(HugeFungusConfiguration)
 - BlockState lambda$null$1(HugeFungusConfiguration)
 - BlockState lambda$null$2(HugeFungusConfiguration)
 - BlockState lambda$null$3(HugeFungusConfiguration)
++ BlockState lambda$static$0(HugeFungusConfiguration)
++ BlockState lambda$static$1(HugeFungusConfiguration)
++ BlockState lambda$static$2(HugeFungusConfiguration)
++ BlockState lambda$static$3(HugeFungusConfiguration)
 - Boolean lambda$null$4(HugeFungusConfiguration)
++ Boolean lambda$static$4(HugeFungusConfiguration)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature</summary>
@@ -10315,8 +6039,6 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature$SpikeCacheLoader</summary>
 
 ```diff
@@ -10326,152 +6048,145 @@
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
 
 ```diff
-+ Float lambda$static$1(WeightedConfiguredFeature)
-+ Supplier lambda$static$0(WeightedConfiguredFeature)
 - Float lambda$null$1(WeightedConfiguredFeature)
++ Float lambda$static$1(WeightedConfiguredFeature)
 - Supplier lambda$null$0(WeightedConfiguredFeature)
++ Supplier lambda$static$0(WeightedConfiguredFeature)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
 
 ```diff
-+ BlockState lambda$static$0(DiskConfiguration)
-+ Integer lambda$static$2(DiskConfiguration)
-+ IntProvider lambda$static$1(DiskConfiguration)
-+ List lambda$static$3(DiskConfiguration)
 - BlockState lambda$null$0(DiskConfiguration)
++ BlockState lambda$static$0(DiskConfiguration)
 - Integer lambda$null$2(DiskConfiguration)
++ Integer lambda$static$2(DiskConfiguration)
 - IntProvider lambda$null$1(DiskConfiguration)
++ IntProvider lambda$static$1(DiskConfiguration)
 - List lambda$null$3(DiskConfiguration)
++ List lambda$static$3(DiskConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration</summary>
 
 ```diff
-+ Boolean lambda$static$1(EndGatewayConfiguration)
-+ Optional lambda$static$0(EndGatewayConfiguration)
 - Boolean lambda$null$1(EndGatewayConfiguration)
++ Boolean lambda$static$1(EndGatewayConfiguration)
 - Optional lambda$null$0(EndGatewayConfiguration)
++ Optional lambda$static$0(EndGatewayConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.GeodeConfiguration</summary>
 
 ```diff
-+ Boolean lambda$static$5(GeodeConfiguration)
-+ Double lambda$static$11(GeodeConfiguration)
-+ Double lambda$static$3(GeodeConfiguration)
-+ Double lambda$static$4(GeodeConfiguration)
-+ GeodeBlockSettings lambda$static$0(GeodeConfiguration)
-+ GeodeCrackSettings lambda$static$2(GeodeConfiguration)
-+ GeodeLayerSettings lambda$static$1(GeodeConfiguration)
-+ Integer lambda$static$10(GeodeConfiguration)
-+ Integer lambda$static$12(GeodeConfiguration)
-+ Integer lambda$static$9(GeodeConfiguration)
-+ IntProvider lambda$static$6(GeodeConfiguration)
-+ IntProvider lambda$static$7(GeodeConfiguration)
-+ IntProvider lambda$static$8(GeodeConfiguration)
 - Boolean lambda$null$5(GeodeConfiguration)
++ Boolean lambda$static$5(GeodeConfiguration)
 - Double lambda$null$11(GeodeConfiguration)
 - Double lambda$null$3(GeodeConfiguration)
 - Double lambda$null$4(GeodeConfiguration)
++ Double lambda$static$11(GeodeConfiguration)
++ Double lambda$static$3(GeodeConfiguration)
++ Double lambda$static$4(GeodeConfiguration)
 - GeodeBlockSettings lambda$null$0(GeodeConfiguration)
++ GeodeBlockSettings lambda$static$0(GeodeConfiguration)
 - GeodeCrackSettings lambda$null$2(GeodeConfiguration)
++ GeodeCrackSettings lambda$static$2(GeodeConfiguration)
 - GeodeLayerSettings lambda$null$1(GeodeConfiguration)
++ GeodeLayerSettings lambda$static$1(GeodeConfiguration)
 - Integer lambda$null$10(GeodeConfiguration)
 - Integer lambda$null$12(GeodeConfiguration)
 - Integer lambda$null$9(GeodeConfiguration)
++ Integer lambda$static$10(GeodeConfiguration)
++ Integer lambda$static$12(GeodeConfiguration)
++ Integer lambda$static$9(GeodeConfiguration)
 - IntProvider lambda$null$6(GeodeConfiguration)
 - IntProvider lambda$null$7(GeodeConfiguration)
 - IntProvider lambda$null$8(GeodeConfiguration)
++ IntProvider lambda$static$6(GeodeConfiguration)
++ IntProvider lambda$static$7(GeodeConfiguration)
++ IntProvider lambda$static$8(GeodeConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.GrowingPlantConfiguration</summary>
 
 ```diff
-+ BlockStateProvider lambda$static$2(GrowingPlantConfiguration)
-+ BlockStateProvider lambda$static$3(GrowingPlantConfiguration)
-+ Boolean lambda$static$4(GrowingPlantConfiguration)
-+ Direction lambda$static$1(GrowingPlantConfiguration)
-+ SimpleWeightedRandomList lambda$static$0(GrowingPlantConfiguration)
 - BlockStateProvider lambda$null$2(GrowingPlantConfiguration)
 - BlockStateProvider lambda$null$3(GrowingPlantConfiguration)
++ BlockStateProvider lambda$static$2(GrowingPlantConfiguration)
++ BlockStateProvider lambda$static$3(GrowingPlantConfiguration)
 - Boolean lambda$null$4(GrowingPlantConfiguration)
++ Boolean lambda$static$4(GrowingPlantConfiguration)
 - Direction lambda$null$1(GrowingPlantConfiguration)
++ Direction lambda$static$1(GrowingPlantConfiguration)
 - SimpleWeightedRandomList lambda$null$0(GrowingPlantConfiguration)
++ SimpleWeightedRandomList lambda$static$0(GrowingPlantConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration</summary>
 
 ```diff
-+ BlockStateProvider lambda$static$0(HugeMushroomFeatureConfiguration)
-+ BlockStateProvider lambda$static$1(HugeMushroomFeatureConfiguration)
-+ Integer lambda$static$2(HugeMushroomFeatureConfiguration)
 - BlockStateProvider lambda$null$0(HugeMushroomFeatureConfiguration)
 - BlockStateProvider lambda$null$1(HugeMushroomFeatureConfiguration)
++ BlockStateProvider lambda$static$0(HugeMushroomFeatureConfiguration)
++ BlockStateProvider lambda$static$1(HugeMushroomFeatureConfiguration)
 - Integer lambda$null$2(HugeMushroomFeatureConfiguration)
++ Integer lambda$static$2(HugeMushroomFeatureConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration</summary>
 
 ```diff
-+ Float lambda$static$3(LargeDripstoneConfiguration)
-+ Float lambda$static$8(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$2(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$4(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$5(LargeDripstoneConfiguration)
-+ FloatProvider lambda$static$6(LargeDripstoneConfiguration)
-+ Integer lambda$static$0(LargeDripstoneConfiguration)
-+ Integer lambda$static$7(LargeDripstoneConfiguration)
-+ IntProvider lambda$static$1(LargeDripstoneConfiguration)
 - Float lambda$null$3(LargeDripstoneConfiguration)
 - Float lambda$null$8(LargeDripstoneConfiguration)
++ Float lambda$static$3(LargeDripstoneConfiguration)
++ Float lambda$static$8(LargeDripstoneConfiguration)
 - FloatProvider lambda$null$2(LargeDripstoneConfiguration)
 - FloatProvider lambda$null$4(LargeDripstoneConfiguration)
 - FloatProvider lambda$null$5(LargeDripstoneConfiguration)
 - FloatProvider lambda$null$6(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$2(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$4(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$5(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$6(LargeDripstoneConfiguration)
 - Integer lambda$null$0(LargeDripstoneConfiguration)
 - Integer lambda$null$7(LargeDripstoneConfiguration)
++ Integer lambda$static$0(LargeDripstoneConfiguration)
++ Integer lambda$static$7(LargeDripstoneConfiguration)
 - IntProvider lambda$null$1(LargeDripstoneConfiguration)
++ IntProvider lambda$static$1(LargeDripstoneConfiguration)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration</summary>
 
 ```diff
-+ Float lambda$static$0(MineshaftConfiguration)
-+ MineshaftFeature$Type lambda$static$1(MineshaftConfiguration)
 - Float lambda$null$0(MineshaftConfiguration)
++ Float lambda$static$0(MineshaftConfiguration)
 - MineshaftFeature$Type lambda$null$1(MineshaftConfiguration)
++ MineshaftFeature$Type lambda$static$1(MineshaftConfiguration)
 ```
 
 </details>
@@ -10480,12 +6195,12 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.OceanRuinConfiguration</summary>
 
 ```diff
-+ Float lambda$static$1(OceanRuinConfiguration)
-+ Float lambda$static$2(OceanRuinConfiguration)
-+ OceanRuinFeature$Type lambda$static$0(OceanRuinConfiguration)
 - Float lambda$null$1(OceanRuinConfiguration)
 - Float lambda$null$2(OceanRuinConfiguration)
++ Float lambda$static$1(OceanRuinConfiguration)
++ Float lambda$static$2(OceanRuinConfiguration)
 - OceanRuinFeature$Type lambda$null$0(OceanRuinConfiguration)
++ OceanRuinFeature$Type lambda$static$0(OceanRuinConfiguration)
 ```
 
 </details>
@@ -10494,29 +6209,20 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
 
 ```diff
-+ List lambda$static$0(ReplaceBlockConfiguration)
 - List lambda$null$0(ReplaceBlockConfiguration)
++ List lambda$static$0(ReplaceBlockConfiguration)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration</summary>
 
 ```diff
-+ BlockStateProvider lambda$static$4(RootSystemConfiguration)
-+ BlockStateProvider lambda$static$9(RootSystemConfiguration)
-+ Integer lambda$static$1(RootSystemConfiguration)
-+ Integer lambda$static$10(RootSystemConfiguration)
-+ Integer lambda$static$11(RootSystemConfiguration)
-+ Integer lambda$static$2(RootSystemConfiguration)
-+ Integer lambda$static$5(RootSystemConfiguration)
-+ Integer lambda$static$6(RootSystemConfiguration)
-+ Integer lambda$static$7(RootSystemConfiguration)
-+ Integer lambda$static$8(RootSystemConfiguration)
-+ ResourceLocation lambda$static$3(RootSystemConfiguration)
-+ Supplier lambda$static$0(RootSystemConfiguration)
 - BlockStateProvider lambda$null$4(RootSystemConfiguration)
 - BlockStateProvider lambda$null$9(RootSystemConfiguration)
++ BlockStateProvider lambda$static$4(RootSystemConfiguration)
++ BlockStateProvider lambda$static$9(RootSystemConfiguration)
 - Integer lambda$null$1(RootSystemConfiguration)
 - Integer lambda$null$10(RootSystemConfiguration)
 - Integer lambda$null$11(RootSystemConfiguration)
@@ -10525,23 +6231,32 @@
 - Integer lambda$null$6(RootSystemConfiguration)
 - Integer lambda$null$7(RootSystemConfiguration)
 - Integer lambda$null$8(RootSystemConfiguration)
++ Integer lambda$static$1(RootSystemConfiguration)
++ Integer lambda$static$10(RootSystemConfiguration)
++ Integer lambda$static$11(RootSystemConfiguration)
++ Integer lambda$static$2(RootSystemConfiguration)
++ Integer lambda$static$5(RootSystemConfiguration)
++ Integer lambda$static$6(RootSystemConfiguration)
++ Integer lambda$static$7(RootSystemConfiguration)
++ Integer lambda$static$8(RootSystemConfiguration)
 - ResourceLocation lambda$null$3(RootSystemConfiguration)
++ ResourceLocation lambda$static$3(RootSystemConfiguration)
 - Supplier lambda$null$0(RootSystemConfiguration)
++ Supplier lambda$static$0(RootSystemConfiguration)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration</summary>
 
 ```diff
-+ Boolean lambda$static$0(SpikeConfiguration)
-+ List lambda$static$1(SpikeConfiguration)
-+ Optional lambda$static$2(SpikeConfiguration)
 - Boolean lambda$null$0(SpikeConfiguration)
++ Boolean lambda$static$0(SpikeConfiguration)
 - List lambda$null$1(SpikeConfiguration)
++ List lambda$static$1(SpikeConfiguration)
 - Optional lambda$null$2(SpikeConfiguration)
++ Optional lambda$static$2(SpikeConfiguration)
 ```
 
 </details>
@@ -10550,92 +6265,85 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
 
 ```diff
-+ BlockStateProvider lambda$static$0(TreeConfiguration)
-+ BlockStateProvider lambda$static$2(TreeConfiguration)
-+ BlockStateProvider lambda$static$4(TreeConfiguration)
-+ Boolean lambda$static$7(TreeConfiguration)
-+ Boolean lambda$static$8(TreeConfiguration)
-+ FeatureSize lambda$static$5(TreeConfiguration)
-+ FoliagePlacer lambda$static$3(TreeConfiguration)
-+ List lambda$static$6(TreeConfiguration)
-+ TrunkPlacer lambda$static$1(TreeConfiguration)
 - BlockStateProvider lambda$null$0(TreeConfiguration)
 - BlockStateProvider lambda$null$2(TreeConfiguration)
 - BlockStateProvider lambda$null$4(TreeConfiguration)
++ BlockStateProvider lambda$static$0(TreeConfiguration)
++ BlockStateProvider lambda$static$2(TreeConfiguration)
++ BlockStateProvider lambda$static$4(TreeConfiguration)
 - Boolean lambda$null$7(TreeConfiguration)
 - Boolean lambda$null$8(TreeConfiguration)
++ Boolean lambda$static$7(TreeConfiguration)
++ Boolean lambda$static$8(TreeConfiguration)
 - FeatureSize lambda$null$5(TreeConfiguration)
++ FeatureSize lambda$static$5(TreeConfiguration)
 - FoliagePlacer lambda$null$3(TreeConfiguration)
++ FoliagePlacer lambda$static$3(TreeConfiguration)
 - List lambda$null$6(TreeConfiguration)
++ List lambda$static$6(TreeConfiguration)
 - TrunkPlacer lambda$null$1(TreeConfiguration)
++ TrunkPlacer lambda$static$1(TreeConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.UnderwaterMagmaConfiguration</summary>
 
 ```diff
-+ Float lambda$static$2(UnderwaterMagmaConfiguration)
-+ Integer lambda$static$0(UnderwaterMagmaConfiguration)
-+ Integer lambda$static$1(UnderwaterMagmaConfiguration)
 - Float lambda$null$2(UnderwaterMagmaConfiguration)
++ Float lambda$static$2(UnderwaterMagmaConfiguration)
 - Integer lambda$null$0(UnderwaterMagmaConfiguration)
 - Integer lambda$null$1(UnderwaterMagmaConfiguration)
++ Integer lambda$static$0(UnderwaterMagmaConfiguration)
++ Integer lambda$static$1(UnderwaterMagmaConfiguration)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize</summary>
 
 ```diff
-+ Integer lambda$static$0(TwoLayersFeatureSize)
-+ Integer lambda$static$1(TwoLayersFeatureSize)
-+ Integer lambda$static$2(TwoLayersFeatureSize)
 - Integer lambda$null$0(TwoLayersFeatureSize)
 - Integer lambda$null$1(TwoLayersFeatureSize)
 - Integer lambda$null$2(TwoLayersFeatureSize)
++ Integer lambda$static$0(TwoLayersFeatureSize)
++ Integer lambda$static$1(TwoLayersFeatureSize)
++ Integer lambda$static$2(TwoLayersFeatureSize)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
 
 ```diff
-+ Integer lambda$static$0(MegaJungleFoliagePlacer)
 - Integer lambda$null$0(MegaJungleFoliagePlacer)
++ Integer lambda$static$0(MegaJungleFoliagePlacer)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
 
 ```diff
-+ IntProvider lambda$static$0(PineFoliagePlacer)
 - IntProvider lambda$null$0(PineFoliagePlacer)
++ IntProvider lambda$static$0(PineFoliagePlacer)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
 
 ```diff
-+ IntProvider lambda$static$0(SpruceFoliagePlacer)
 - IntProvider lambda$null$0(SpruceFoliagePlacer)
++ IntProvider lambda$static$0(SpruceFoliagePlacer)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece$MossStoneSelector</summary>
@@ -10646,29 +6354,15 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
 
 ```diff
 - Logger access$000()
-- MineShaftPieces$MineShaftPiece access$100(Direction,int)
+- MineShaftPieces$MineShaftPiece access$100(StructurePiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom</summary>
@@ -10679,6 +6373,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom</summary>
 
 ```diff
@@ -10687,6 +6382,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitSimpleRoom</summary>
 
 ```diff
@@ -10694,12 +6390,6 @@
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$RoomDefinition</summary>
@@ -10716,9 +6406,6 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$VerticalPlacement</summary>
 
 ```diff
@@ -10726,6 +6413,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces</summary>
 
@@ -10735,20 +6423,16 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces</summary>
 
 ```diff
 - Class access$102(Class)
 - StrongholdPieces$SmoothStoneSelector access$200()
-- StructurePiece access$000(Direction,int)
+- StructurePiece access$000(StrongholdPieces$StartPiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$SmoothStoneSelector</summary>
@@ -10760,7 +6444,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType</summary>
 
 ```diff
@@ -10770,15 +6453,11 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer</summary>
 
 ```diff
 - Packet access$200(MapItemSavedData$HoldingPlayer,int)
-- void <init>(MapItemSavedData$1)
+- void <init>(MapItemSavedData,Player,MapItemSavedData$1)
 - void access$300(MapItemSavedData$HoldingPlayer,int,int)
 - void access$400(MapItemSavedData$HoldingPlayer)
 ```
@@ -10786,18 +6465,15 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.level.storage.loot.IntRange</summary>
 
 ```diff
 - NumberProvider access$100(IntRange)
 - NumberProvider access$200(IntRange)
-- void <init>(IntRange$1)
+- void <init>(NumberProvider,NumberProvider,IntRange$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
@@ -10808,22 +6484,19 @@
 - LootPoolEntryContainer[] access$300(LootPool)
 - NumberProvider access$100(LootPool)
 - NumberProvider access$200(LootPool)
-- void <init>(LootPool$1)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider,LootPool$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
 
 ```diff
-- void <init>(EmptyLootItem$1)
+- void <init>(int,int,LootItemCondition[],LootItemFunction[],EmptyLootItem$1)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer</summary>
@@ -10835,15 +6508,10 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
 
 ```diff
-- void <init>(ApplyExplosionDecay$1)
+- void <init>(LootItemCondition[],ApplyExplosionDecay$1)
 ```
 
 </details>
@@ -10852,7 +6520,7 @@
 <details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$CopyOperation</summary>
 
 ```diff
-- void <init>(CopyNbtFunction$1)
+- void <init>(String,String,CopyNbtFunction$MergeStrategy,CopyNbtFunction$1)
 ```
 
 </details>
@@ -10861,17 +6529,18 @@
 <details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$3</summary>
 
 ```diff
-+ void lambda$merge$0(Tag)
-- void lambda$null$0(Tag)
++ void lambda$merge$0(Tag,Tag)
+- void lambda$null$0(Tag,Tag)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
 
 ```diff
 - List access$100(EnchantRandomlyFunction)
-- void <init>(EnchantRandomlyFunction$1)
+- void <init>(LootItemCondition[],Collection,EnchantRandomlyFunction$1)
 ```
 
 </details>
@@ -10886,13 +6555,10 @@
 - Logger access$600()
 - MapDecoration$Type access$200(ExplorationMapFunction)
 - StructureFeature access$100(ExplorationMapFunction)
-- void <init>(ExplorationMapFunction$1)
+- void <init>(LootItemCondition[],StructureFeature,MapDecoration$Type,byte,int,boolean,ExplorationMapFunction$1)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
@@ -10901,26 +6567,28 @@
 - boolean access$200(LootingEnchantFunction)
 - int access$300(LootingEnchantFunction)
 - NumberProvider access$100(LootingEnchantFunction)
-- void <init>(LootingEnchantFunction$1)
+- void <init>(LootItemCondition[],NumberProvider,int,LootingEnchantFunction$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder</summary>
 
 ```diff
-- void <init>(SetBannerPatternFunction$1)
+- void <init>(boolean,SetBannerPatternFunction$1)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents</summary>
 
 ```diff
-+ void lambda$run$0(LootPoolEntry)
 - List access$100(SetContainerContents)
-- void <init>(SetContainerContents$1)
-- void lambda$null$0(LootPoolEntry)
+- void <init>(LootItemCondition[],List,SetContainerContents$1)
+- void lambda$null$0(NonNullList,LootContext,LootPoolEntry)
++ void lambda$run$0(NonNullList,LootContext,LootPoolEntry)
 ```
 
 </details>
@@ -10931,28 +6599,26 @@
 ```diff
 - boolean access$100(SetItemDamageFunction)
 - NumberProvider access$000(SetItemDamageFunction)
-- void <init>(SetItemDamageFunction$1)
+- void <init>(LootItemCondition[],NumberProvider,boolean,SetItemDamageFunction$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.functions.SmeltItemFunction</summary>
 
 ```diff
-- void <init>(SmeltItemFunction$1)
+- void <init>(LootItemCondition[],SmeltItemFunction$1)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition</summary>
 
 ```diff
 - LootItemCondition[] access$100(AlternativeLootItemCondition)
-- void <init>(AlternativeLootItemCondition$1)
+- void <init>(LootItemCondition[],AlternativeLootItemCondition$1)
 ```
 
 </details>
@@ -10963,13 +6629,10 @@
 ```diff
 - LootContext$EntityTarget access$200(EntityHasScoreCondition)
 - Map access$100(EntityHasScoreCondition)
-- void <init>(EntityHasScoreCondition$1)
+- void <init>(Map,LootContext$EntityTarget,EntityHasScoreCondition$1)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition</summary>
@@ -10977,76 +6640,52 @@
 ```diff
 - EntityPredicate access$000(LootItemEntityPropertyCondition)
 - LootContext$EntityTarget access$100(LootItemEntityPropertyCondition)
-- void <init>(LootItemEntityPropertyCondition$1)
+- void <init>(EntityPredicate,LootContext$EntityTarget,LootItemEntityPropertyCondition$1)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition</summary>
 
 ```diff
 - float access$000(LootItemRandomChanceWithLootingCondition)
 - float access$100(LootItemRandomChanceWithLootingCondition)
-- void <init>(LootItemRandomChanceWithLootingCondition$1)
+- void <init>(float,float,LootItemRandomChanceWithLootingCondition$1)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider</summary>
 
 ```diff
 - ResourceLocation access$000(StorageNbtProvider)
-- void <init>(StorageNbtProvider$1)
+- void <init>(ResourceLocation,StorageNbtProvider$1)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.timers.TimerQueue$Event</summary>
 
 ```diff
-- void <init>(TimerQueue$1)
+- void <init>(long,UnsignedLong,String,TimerCallback,TimerQueue$1)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
 
 ```diff
-+ boolean lambda$joinIsNotEmpty$1(DiscreteVoxelShape,int,int,int,int,int)
-+ boolean lambda$joinIsNotEmpty$2(DiscreteVoxelShape,int,int,int,int)
-- boolean lambda$null$1(DiscreteVoxelShape,int,int,int,int,int)
-- boolean lambda$null$2(DiscreteVoxelShape,int,int,int,int)
++ boolean lambda$joinIsNotEmpty$1(BooleanOp,DiscreteVoxelShape,int,int,DiscreteVoxelShape,int,int,int,int,int)
++ boolean lambda$joinIsNotEmpty$2(IndexMerger,BooleanOp,DiscreteVoxelShape,int,DiscreteVoxelShape,int,int,int,int)
+- boolean lambda$null$1(BooleanOp,DiscreteVoxelShape,int,int,DiscreteVoxelShape,int,int,int,int,int)
+- boolean lambda$null$2(IndexMerger,BooleanOp,DiscreteVoxelShape,int,DiscreteVoxelShape,int,int,int,int)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.scores.Team$CollisionRule</summary>
@@ -11058,8 +6697,12 @@
 </details>
 
 
+### Server
 
-<details><summary>Added and removed classes</summary>
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.Advancement$1
@@ -13384,13 +9027,2662 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.SymmetricGroup3</summary>
+
+```diff
+- boolean lambda$null$0(int[],SymmetricGroup3)
++ boolean lambda$static$0(int[],SymmetricGroup3)
++ SymmetricGroup3[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.ChatFormatting</summary>
+
+```diff
++ ChatFormatting[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
+- List lambda$null$4(Object,List)
+- List lambda$null$6(List,List)
++ List lambda$sequence$4(Object,List)
++ List lambda$sequence$6(List,List)
+- Logger access$100()
+- void lambda$null$8(CompletableFuture,List,int,Object,Throwable)
++ void lambda$sequenceFailFast$8(CompletableFuture,List,int,Object,Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util$OS</summary>
+
+```diff
++ Util$OS[] $values()
+- void <init>(String,int,Util$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.SlideDownBlockTrigger</summary>
+
+```diff
+- ResourceLocation access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.StatePropertiesPredicate</summary>
+
+```diff
+- void <init>(List,StatePropertiesPredicate$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.AngleArgument$SingleAngle</summary>
+
+```diff
+- void <init>(float,boolean,AngleArgument$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.EntityAnchorArgument$Anchor</summary>
+
+```diff
++ EntityAnchorArgument$Anchor[] $values()
+- Map access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.NbtPathArgument</summary>
+
+```diff
+- Predicate access$000(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ScoreHolderArgument</summary>
+
+```diff
+- boolean access$000(ScoreHolderArgument)
+- void lambda$null$0(CommandContext,SuggestionsBuilder)
++ void lambda$static$0(CommandContext,SuggestionsBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+
+```diff
+- CommandSyntaxException lambda$null$2(ResourceLocation)
++ CommandSyntaxException lambda$parse$2(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions$Option</summary>
+
+```diff
+- void <init>(EntitySelectorOptions$Modifier,Predicate,Component,EntitySelectorOptions$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
+- BiConsumer access$000(BlockModelGenerators)
+- BlockStateGenerator access$1200(Block,ResourceLocation,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$1300(Block,ResourceLocation,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$2000(Block,ResourceLocation)
+- BlockStateGenerator access$2100(Block,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$500(Block,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$600(Block,ResourceLocation,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$700(Block,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$800(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
+- BlockStateGenerator access$900(Block,ResourceLocation,ResourceLocation)
+- Consumer access$200(BlockModelGenerators)
+- List access$1600(BlockModelGenerators)
++ List lambda$createTurtleEgg$35(Integer,Integer)
+- List lambda$createTurtleEgg$39(Integer,Integer)
+- Map access$100(BlockModelGenerators)
+- Map access$1400(BlockModelGenerators)
+- Map access$1900()
+- MultiVariantGenerator access$300(Block,ResourceLocation)
++ ResourceLocation lambda$createCropBlock$11(Block,int,int)
+- ResourceLocation lambda$null$15(Block,int,int)
++ TextureMapping lambda$createChorusFlower$14(TextureMapping,ResourceLocation)
+- TextureMapping lambda$createChorusFlower$18(TextureMapping,ResourceLocation)
+- TextureMapping lambda$createCommandBlock$11(TextureMapping,ResourceLocation)
++ TextureMapping lambda$createCommandBlock$7(TextureMapping,ResourceLocation)
+- Variant lambda$createActiveRail$10(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
++ Variant lambda$createActiveRail$6(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
+- Variant lambda$createBambooModels$12(String,int)
++ Variant lambda$createBambooModels$8(String,int)
++ Variant lambda$createCropBlock$12(int[],Int2ObjectMap,Block,Integer)
+- Variant lambda$createCropBlock$16(int[],Int2ObjectMap,Block,Integer)
++ Variant lambda$createEmptyOrFullDispatch$10(Comparable,Variant,Variant,Comparable)
+- Variant lambda$createEmptyOrFullDispatch$14(Comparable,Variant,Variant,Comparable)
++ Variant lambda$createFire$16(Variant)
++ Variant lambda$createFire$17(Variant)
++ Variant lambda$createFire$18(Variant)
++ Variant lambda$createFire$19(Variant)
+- Variant lambda$createFire$22(Variant)
+- Variant lambda$createFire$23(Variant)
+- Variant lambda$createFire$24(Variant)
+- Variant lambda$createFire$25(Variant)
++ Variant lambda$createJigsaw$45(FrontAndTop)
+- Variant lambda$createJigsaw$49(FrontAndTop)
++ Variant lambda$createRepeater$30(Integer,Boolean,Boolean)
+- Variant lambda$createRepeater$34(Integer,Boolean,Boolean)
++ Variant lambda$createRespawnAnchor$44(ResourceLocation[],Integer)
+- Variant lambda$createRespawnAnchor$48(ResourceLocation[],Integer)
++ Variant lambda$createSculkSensor$29(ResourceLocation,ResourceLocation,SculkSensorPhase)
+- Variant lambda$createSculkSensor$33(ResourceLocation,ResourceLocation,SculkSensorPhase)
++ Variant lambda$createSnowBlocks$31(ResourceLocation,Integer)
+- Variant lambda$createSnowBlocks$35(ResourceLocation,Integer)
++ Variant lambda$createSoulFire$22(Variant)
++ Variant lambda$createSoulFire$23(Variant)
++ Variant lambda$createSoulFire$24(Variant)
++ Variant lambda$createSoulFire$25(Variant)
+- Variant lambda$createSoulFire$27(Variant)
+- Variant lambda$createSoulFire$28(Variant)
+- Variant lambda$createSoulFire$29(Variant)
+- Variant lambda$createSoulFire$30(Variant)
++ Variant lambda$createStems$5(Block,TextureMapping,Integer)
+- Variant lambda$createStems$9(Block,TextureMapping,Integer)
++ Variant lambda$createStructureBlock$32(StructureMode)
+- Variant lambda$createStructureBlock$36(StructureMode)
++ Variant lambda$createSweetBerryBush$33(Integer)
+- Variant lambda$createSweetBerryBush$37(Integer)
++ Variant lambda$createTripwireHook$34(Boolean,Boolean)
+- Variant lambda$createTripwireHook$38(Boolean,Boolean)
+- Variant lambda$null$40(ResourceLocation)
+- Variant lambda$null$41(ResourceLocation)
+- Variant lambda$null$42(ResourceLocation)
+- Variant lambda$null$43(ResourceLocation)
+- Variant lambda$null$44(ResourceLocation)
+- Variant lambda$null$45(ResourceLocation)
++ Variant lambda$static$36(ResourceLocation)
++ Variant lambda$static$37(ResourceLocation)
++ Variant lambda$static$38(ResourceLocation)
++ Variant lambda$static$39(ResourceLocation)
++ Variant lambda$static$40(ResourceLocation)
++ Variant lambda$static$41(ResourceLocation)
++ Variant lambda$wrapModels$15(ResourceLocation)
+- Variant lambda$wrapModels$19(ResourceLocation)
+- void access$1000(BlockModelGenerators,Item)
+- void access$1100(BlockModelGenerators,Block)
+- void access$1500(BlockModelGenerators,Block)
+- void access$1700(BlockModelGenerators,Block)
+- void access$1800(BlockModelGenerators,Block)
+- void access$400(BlockModelGenerators,Block,ResourceLocation)
+- void lambda$createBarrel$13(ResourceLocation,TextureMapping)
++ void lambda$createBarrel$9(ResourceLocation,TextureMapping)
++ void lambda$createFurnace$13(ResourceLocation,TextureMapping)
+- void lambda$createFurnace$17(ResourceLocation,TextureMapping)
++ void lambda$createGrassBlocks$27(ResourceLocation,TextureMapping)
++ void lambda$createGrassBlocks$28(ResourceLocation,TextureMapping)
+- void lambda$createGrassBlocks$31(ResourceLocation,TextureMapping)
+- void lambda$createGrassBlocks$32(ResourceLocation,TextureMapping)
++ void lambda$createMultiface$43(Block,MultiPartGenerator,ResourceLocation,BooleanProperty,Function)
+- void lambda$createMultiface$47(Block,MultiPartGenerator,ResourceLocation,BooleanProperty,Function)
++ void lambda$run$46(BlockFamily)
++ void lambda$run$47(SpawnEggItem)
+- void lambda$run$50(BlockFamily)
+- void lambda$run$51(SpawnEggItem)
++ void lambda$static$42(HashMap)
+- void lambda$static$46(HashMap)
+- void lambda$static$5(Object,Block)
+- void lambda$static$6(Object,Block)
+- void lambda$static$7(Object,Block)
+- void lambda$static$8(Object,Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.blockstates.MultiPartGenerator$Entry</summary>
+
+```diff
+- void <init>(List,MultiPartGenerator$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.TagsProvider$TagAppender</summary>
+
+```diff
+- void <init>(Tag$Builder,Registry,String,TagsProvider$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
+
+```diff
++ GameTestInfo lambda$new$0(Rotation,ServerLevel,TestFunction)
+- GameTestInfo lambda$null$0(Rotation,ServerLevel,TestFunction)
+- ServerLevel access$000(GameTestBatchRunner)
+- void access$100(GameTestBatchRunner,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestSequence</summary>
+
+```diff
+- GameTestInfo access$000(GameTestSequence)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.TestCommand</summary>
+
+```diff
+- void access$000(ServerLevel,MultipleTestTracker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.ListTag</summary>
+
+```diff
+- void <init>(List,byte,ListTag$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.LongTag</summary>
+
+```diff
+- void <init>(long,LongTag$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtOps</summary>
+
+```diff
++ void lambda$getMapEntries$7(BiConsumer,CompoundTag,String)
+- void lambda$null$7(BiConsumer,CompoundTag,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.Connection$PacketHolder</summary>
+
+```diff
+- GenericFutureListener access$100(Connection$PacketHolder)
+- Packet access$000(Connection$PacketHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket$Entry</summary>
+
+```diff
+- CommandNode access$000(ClientboundCommandsPacket$Entry)
+- void <init>(ArgumentBuilder,byte,int,int[],ClientboundCommandsPacket$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument</summary>
+
+```diff
++ ClientboundPlayerPositionPacket$RelativeArgument[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundRecipePacket$State</summary>
+
+```diff
++ ClientboundRecipePacket$State[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket</summary>
+
+```diff
++ AttributeModifier lambda$new$0(FriendlyByteBuf)
+- AttributeModifier lambda$null$0(FriendlyByteBuf)
+- void lambda$null$2(FriendlyByteBuf,AttributeModifier)
++ void lambda$write$2(FriendlyByteBuf,AttributeModifier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
+
+```diff
+- void lambda$null$6(List,String,GossipType,Integer)
++ void lambda$writeBrain$6(List,String,GossipType,Integer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundInteractPacket</summary>
+
+```diff
+- ServerboundInteractPacket$Action access$400()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAtLocationAction</summary>
+
+```diff
+- void <init>(FriendlyByteBuf,ServerboundInteractPacket$1)
+- void <init>(InteractionHand,Vec3,ServerboundInteractPacket$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionManager$QueuedCommand</summary>
+
+```diff
+- int access$400(ServerFunctionManager$QueuedCommand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.DebugCommand$Tracer</summary>
+
+```diff
+- void <init>(PrintWriter,DebugCommand$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
+
+```diff
+- Component lambda$null$0(ServerPlayer,Component,Component,ServerPlayer)
++ Component lambda$register$0(ServerPlayer,Component,Component,ServerPlayer)
+- void lambda$null$1(CommandContext,MinecraftServer,ServerPlayer,Entity,TextFilter$FilteredText)
++ void lambda$register$1(CommandContext,MinecraftServer,ServerPlayer,Entity,TextFilter$FilteredText)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+
+```diff
++ boolean lambda$addConditionals$40(Integer,Integer)
++ boolean lambda$addConditionals$42(Integer,Integer)
++ boolean lambda$addConditionals$44(Integer,Integer)
++ boolean lambda$addConditionals$46(Integer,Integer)
+- boolean lambda$null$40(Integer,Integer)
+- boolean lambda$null$42(Integer,Integer)
+- boolean lambda$null$44(Integer,Integer)
+- boolean lambda$null$46(Integer,Integer)
++ Collection lambda$addConditionals$52(boolean,DataCommands$DataProvider,CommandContext)
+- Collection lambda$null$52(boolean,DataCommands$DataProvider,CommandContext)
+- CommandSourceStack lambda$null$22(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$24(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$26(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$28(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$30(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$32(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$22(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$24(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$26(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$28(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$30(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$32(DataCommands$DataProvider,boolean,CommandContext)
++ int lambda$addConditionals$53(DataCommands$DataProvider,CommandContext)
+- int lambda$null$53(DataCommands$DataProvider,CommandContext)
+- Tag lambda$null$21(CommandContext,int)
+- Tag lambda$null$23(CommandContext,int)
+- Tag lambda$null$25(CommandContext,int)
+- Tag lambda$null$27(CommandContext,int)
+- Tag lambda$null$29(CommandContext,int)
+- Tag lambda$null$31(CommandContext,int)
+- Tag lambda$null$36(IntFunction,int)
++ Tag lambda$storeData$36(IntFunction,int)
++ Tag lambda$wrapStores$21(CommandContext,int)
++ Tag lambda$wrapStores$23(CommandContext,int)
++ Tag lambda$wrapStores$25(CommandContext,int)
++ Tag lambda$wrapStores$27(CommandContext,int)
++ Tag lambda$wrapStores$29(CommandContext,int)
++ Tag lambda$wrapStores$31(CommandContext,int)
+- void lambda$null$2(ResultConsumer,ResultConsumer,CommandContext,boolean,int)
++ void lambda$static$2(ResultConsumer,ResultConsumer,CommandContext,boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ExperienceCommand$Type</summary>
+
+```diff
++ ExperienceCommand$Type[] $values()
+- ToIntFunction access$000(ExperienceCommand$Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.FillCommand$Mode</summary>
+
+```diff
++ FillCommand$Mode[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.GameRuleCommand</summary>
+
+```diff
+- int access$000(CommandContext,GameRules$Key)
+- int access$100(CommandSourceStack,GameRules$Key)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.LootCommand</summary>
+
+```diff
+- int lambda$null$10(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$11(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$12(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$13(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$4(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$5(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$6(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$7(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$8(LootCommand$DropConsumer,CommandContext)
+- int lambda$null$9(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$10(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$11(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$12(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$13(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$4(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$5(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$6(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$7(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$8(LootCommand$DropConsumer,CommandContext)
++ int lambda$register$9(LootCommand$DropConsumer,CommandContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SeedCommand</summary>
+
+```diff
+- Style lambda$null$1(long,Style)
++ Style lambda$register$1(long,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.Settings$MutableValue</summary>
+
+```diff
+- void <init>(Settings,String,Object,Function,Settings$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.gui.MinecraftServerGui</summary>
+
+```diff
+- AtomicBoolean access$000(MinecraftServerGui)
+- void access$100(MinecraftServerGui)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkHolder$FullChunkStatus</summary>
+
+```diff
++ ChunkHolder$FullChunkStatus[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkTaskPriorityQueue</summary>
+
+```diff
+- Either lambda$null$5(long)
++ Either lambda$pop$5(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache$MainThreadExecutor</summary>
+
+```diff
+- void <init>(ServerChunkCache,Level,ServerChunkCache$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- EntityTickList access$100(ServerLevel)
+- Int2ObjectMap access$400(ServerLevel)
+- List access$200(ServerLevel)
+- Set access$300(ServerLevel)
+- void lambda$null$16(BlockPos)
+- void lambda$null$18(BlockPos,PoiType)
++ void lambda$onBlockStateChange$16(BlockPos)
++ void lambda$onBlockStateChange$18(BlockPos,PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.TextFilterClient$RequestFailedException</summary>
+
+```diff
+- void <init>(String,TextFilterClient$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.Pack$Position</summary>
+
+```diff
++ Pack$Position[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.StaticTagHelper$Wrapper</summary>
+
+```diff
+- void <init>(ResourceLocation,StaticTagHelper$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag</summary>
+
+```diff
++ DataResult lambda$codec$0(ResourceLocation)
++ DataResult lambda$codec$2(Tag)
+- DataResult lambda$null$0(ResourceLocation)
+- DataResult lambda$null$2(Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagManager$LoaderInfo</summary>
+
+```diff
+- CompletableFuture access$100(TagManager$LoaderInfo)
+- void <init>(StaticTagHelper,CompletableFuture,TagManager$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.LowerCaseEnumTypeAdapterFactory</summary>
+
+```diff
+- String access$000(LowerCaseEnumTypeAdapterFactory,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.SortedArraySet</summary>
+
+```diff
+- int access$000(SortedArraySet)
+- Object[] access$100(SortedArraySet)
+- void access$200(SortedArraySet,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.ActiveProfiler$PathEntry</summary>
+
+```diff
+- long access$000(ActiveProfiler$PathEntry)
+- long access$002(ActiveProfiler$PathEntry,long)
+- long access$100(ActiveProfiler$PathEntry)
+- long access$102(ActiveProfiler$PathEntry,long)
+- Object2LongOpenHashMap access$200(ActiveProfiler$PathEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.registry.MeasurementCategory</summary>
+
+```diff
++ MeasurementCategory[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy</summary>
+
+```diff
++ GateBehavior$RunningPolicy[] $values()
+- void <init>(String,int,GateBehavior$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.PoiCompetitorScan</summary>
+
+```diff
+- boolean lambda$null$0(GlobalPos,PoiType,Villager)
++ boolean lambda$start$0(GlobalPos,PoiType,Villager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.PrepareRamNearestTarget</summary>
+
+```diff
+- boolean lambda$null$0(PathfinderMob,LivingEntity)
++ boolean lambda$start$0(PathfinderMob,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
+
+```diff
+- double lambda$shuffle$2(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.NearestVisibleLivingEntitySensor</summary>
+
+```diff
++ boolean lambda$getNearestEntity$0(LivingEntity,LivingEntity)
+- boolean lambda$null$0(LivingEntity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.targeting.TargetingConditions</summary>
+
+```diff
+- TargetingConditions allowInvulnerable()
+- TargetingConditions allowNonAttackable()
+- TargetingConditions allowSameTeam()
+- TargetingConditions allowUnseeable()
++ TargetingConditions forCombat()
++ TargetingConditions forNonCombat()
++ TargetingConditions ignoreLineOfSight()
+- void <init>()
++ void <init>(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.util.HoverRandomPos</summary>
+
+```diff
++ boolean lambda$getPos$0(PathfinderMob,BlockPos)
+- boolean lambda$null$0(PathfinderMob,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
+
+```diff
++ BlockPos lambda$codec$0(PoiRecord)
+- BlockPos lambda$null$0(PoiRecord)
++ Integer lambda$codec$2(PoiRecord)
+- Integer lambda$null$2(PoiRecord)
++ PoiType lambda$codec$1(PoiRecord)
+- PoiType lambda$null$1(PoiRecord)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
+- Bee$BeeGoToHiveGoal access$4800(Bee)
+- Bee$BeePollinateGoal access$700(Bee)
+- BlockPos access$1500(Bee)
+- BlockPos access$1502(Bee,BlockPos)
+- BlockPos access$3200(Bee)
+- BlockPos access$3202(Bee,BlockPos)
+- boolean access$1400(Bee)
+- boolean access$1600(Bee,BlockPos,int)
+- boolean access$1800(Bee)
+- boolean access$2400(Bee,BlockPos)
+- boolean access$3300(Bee,BlockPos)
+- boolean access$5100(Bee,BlockPos)
+- int access$3000(Bee)
+- int access$3002(Bee,int)
+- int access$3700(Bee)
+- int access$3800(Bee)
+- int access$3802(Bee,int)
+- int access$5200(Bee)
++ PathNavigation access$000(Bee)
++ PathNavigation access$1000(Bee)
++ PathNavigation access$1400(Bee)
++ PathNavigation access$1500(Bee)
++ PathNavigation access$1600(Bee)
++ PathNavigation access$1700(Bee)
++ PathNavigation access$1800(Bee)
+- PathNavigation access$1900(Bee)
++ PathNavigation access$200(Bee)
+- PathNavigation access$2000(Bee)
+- PathNavigation access$2200(Bee)
+- PathNavigation access$2600(Bee)
+- PathNavigation access$2700(Bee)
+- PathNavigation access$2800(Bee)
+- PathNavigation access$2900(Bee)
++ PathNavigation access$300(Bee)
+- PathNavigation access$3100(Bee)
+- PathNavigation access$3400(Bee)
+- PathNavigation access$3500(Bee)
+- PathNavigation access$3600(Bee)
+- PathNavigation access$3900(Bee)
++ PathNavigation access$400(Bee)
+- PathNavigation access$4300(Bee)
+- PathNavigation access$4500(Bee)
++ PathNavigation access$500(Bee)
++ PathNavigation access$600(Bee)
++ PathNavigation access$700(Bee)
++ PathNavigation access$800(Bee)
++ Random access$100(Bee)
+- Random access$1000(Bee)
++ Random access$1900(Bee)
++ Random access$2000(Bee)
++ Random access$2200(Bee)
++ Random access$2400(Bee)
++ Random access$2500(Bee)
++ Random access$2600(Bee)
++ Random access$2700(Bee)
++ Random access$2800(Bee)
+- Random access$4000(Bee)
+- Random access$4100(Bee)
+- Random access$4400(Bee)
+- Random access$4600(Bee)
+- Random access$4700(Bee)
+- Random access$5300(Bee)
+- Random access$5400(Bee)
+- void access$2500(Bee,BlockPos)
+- void access$4200(Bee,boolean)
+- void access$5500(Bee)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BaseBeeGoal</summary>
+
+```diff
+- void <init>(Bee,Bee$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeGoToHiveGoal</summary>
+
+```diff
+- boolean access$4900(Bee$BeeGoToHiveGoal,BlockPos)
+- int access$300(Bee$BeeGoToHiveGoal)
+- List access$500(Bee$BeeGoToHiveGoal)
+- void access$5000(Bee$BeeGoToHiveGoal)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeGrowCropGoal</summary>
+
+```diff
+- void <init>(Bee,Bee$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
+
+```diff
+- boolean lambda$findNearbyHivesWithSpace$1(Bee,BlockPos)
++ double lambda$findNearbyHivesWithSpace$1(BlockPos,BlockPos)
+- double lambda$findNearbyHivesWithSpace$2(BlockPos,BlockPos)
+- void <init>(Bee,Bee$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
+
+```diff
+- boolean access$600(Bee$BeePollinateGoal)
+- void access$800(Bee$BeePollinateGoal)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Dolphin</summary>
+
+```diff
++ Random access$000(Dolphin)
+- Random access$300(Dolphin)
+- TargetingConditions access$400()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
+- boolean access$000(Ocelot)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Panda$Gene</summary>
+
+```diff
+- Panda$Gene access$000(Panda$Gene,Panda$Gene)
++ Panda$Gene[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
+- Map access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Pufferfish</summary>
+
+```diff
+- int access$002(Pufferfish,int)
+- int access$102(Pufferfish,int)
+- TargetingConditions access$200()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
+- boolean access$300(Rabbit)
+- int access$402(Rabbit,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Squid</summary>
+
+```diff
++ boolean access$000(Squid)
+- boolean access$100(Squid)
++ boolean canBeLeashed(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.TropicalFish$Pattern</summary>
+
+```diff
++ TropicalFish$Pattern[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
+
+```diff
+- BlockPos access$600(Turtle)
+- BlockPos access$700(Turtle)
+- boolean access$1300(Turtle)
+- boolean access$1400(Turtle)
+- int access$1000(Turtle)
+- int access$1008(Turtle)
++ Random access$000(Turtle)
++ Random access$100(Turtle)
+- Random access$1200(Turtle)
+- Random access$300(Turtle)
+- void access$1100(Turtle,boolean)
+- void access$400(Turtle,BlockPos)
+- void access$500(Turtle,boolean)
+- void access$800(Turtle,boolean)
+- void access$900(Turtle,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.goat.Goat$GoatNodeEvaluator</summary>
+
+```diff
+- void <init>(Goat$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Evoker$EvokerAttackSpellGoal</summary>
+
+```diff
+- void <init>(Evoker,Evoker$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Evoker$EvokerSummonSpellGoal</summary>
+
+```diff
+- void <init>(Evoker,Evoker$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
+
+```diff
+- void access$000(Guardian,int)
+- void access$100(Guardian,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Phantom$PhantomAttackPlayerTargetGoal</summary>
+
+```diff
+- void <init>(Phantom,Phantom$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
+
+```diff
+- boolean canSee(Entity)
++ boolean hasLineOfSight(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Slime</summary>
+
+```diff
++ boolean access$000(Slime)
+- boolean access$100(Slime)
+- float access$000(Slime)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.SpellcasterIllager</summary>
+
+```diff
++ PathNavigation access$000(SpellcasterIllager)
+- PathNavigation access$200(SpellcasterIllager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.ClickAction</summary>
+
+```diff
++ ClickAction[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.GrindstoneMenu</summary>
+
+```diff
+- Container access$000(GrindstoneMenu)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.RecipeBookType</summary>
+
+```diff
++ RecipeBookType[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ArmorMaterials</summary>
+
+```diff
++ ArmorMaterials[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.DiggerItem</summary>
+
+```diff
++ boolean isCorrectToolForDrops(BlockState)
+- void <init>(float,float,Tier,Set,Item$Properties)
++ void <init>(float,float,Tier,Tag,Item$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item$Properties</summary>
+
+```diff
+- boolean access$600(Item$Properties)
+- CreativeModeTab access$000(Item$Properties)
+- FoodProperties access$500(Item$Properties)
+- int access$300(Item$Properties)
+- int access$400(Item$Properties)
+- Item access$200(Item$Properties)
+- Rarity access$100(Item$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.Ingredient$ItemValue</summary>
+
+```diff
+- void <init>(ItemStack,Ingredient$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
+
+```diff
+- Map lambda$null$10(RecipeType)
++ Map lambda$replaceRecipes$10(RecipeType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.UpgradeRecipe</summary>
+
+```diff
+- Ingredient access$000(UpgradeRecipe)
+- Ingredient access$100(UpgradeRecipe)
+- ItemStack access$200(UpgradeRecipe)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory</summary>
+
+```diff
++ EnchantmentCategory[] $values()
+- void <init>(String,int,EnchantmentCategory$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.enchantment.ProtectionEnchantment$Type</summary>
+
+```diff
++ ProtectionEnchantment$Type[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules$Category</summary>
+
+```diff
++ GameRules$Category[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules$IntegerValue</summary>
+
+```diff
+- GameRules$Type access$100(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules$Type</summary>
+
+```diff
+- BiConsumer access$300(GameRules$Type)
+- void <init>(Supplier,Function,BiConsumer,GameRules$VisitorCaller,GameRules$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LightLayer</summary>
+
+```diff
++ LightLayer[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NaturalSpawner$SpawnState</summary>
+
+```diff
+- boolean access$300(NaturalSpawner$SpawnState,MobCategory)
+- boolean access$500(NaturalSpawner$SpawnState,EntityType,BlockPos,ChunkAccess)
+- void <init>(int,Object2IntOpenHashMap,PotentialCalculator,NaturalSpawner$1)
+- void access$400(NaturalSpawner$SpawnState,Mob,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
+
+```diff
++ boolean lambda$getStructureAt$3(BlockPos,StructurePiece)
+- boolean lambda$null$3(BlockPos,StructurePiece)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.AmbientMoodSettings</summary>
+
+```diff
+- Double lambda$null$3(AmbientMoodSettings)
++ Double lambda$static$3(AmbientMoodSettings)
+- Integer lambda$null$1(AmbientMoodSettings)
+- Integer lambda$null$2(AmbientMoodSettings)
++ Integer lambda$static$1(AmbientMoodSettings)
++ Integer lambda$static$2(AmbientMoodSettings)
+- SoundEvent lambda$null$0(AmbientMoodSettings)
++ SoundEvent lambda$static$0(AmbientMoodSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
+- Biome lambda$null$13(Biome$ClimateSettings,Biome$BiomeCategory,Float,Float,BiomeSpecialEffects)
++ Biome lambda$static$13(Biome$ClimateSettings,Biome$BiomeCategory,Float,Float,BiomeSpecialEffects)
+- Biome$BiomeCategory lambda$null$1(Biome)
+- Biome$BiomeCategory lambda$null$9(Biome)
++ Biome$BiomeCategory lambda$static$1(Biome)
++ Biome$BiomeCategory lambda$static$9(Biome)
+- Biome$ClimateSettings lambda$null$0(Biome)
+- Biome$ClimateSettings lambda$null$8(Biome)
++ Biome$ClimateSettings lambda$static$0(Biome)
++ Biome$ClimateSettings lambda$static$8(Biome)
+- BiomeGenerationSettings lambda$null$5(Biome)
++ BiomeGenerationSettings lambda$static$5(Biome)
+- BiomeSpecialEffects lambda$null$12(Biome)
+- BiomeSpecialEffects lambda$null$4(Biome)
++ BiomeSpecialEffects lambda$static$12(Biome)
++ BiomeSpecialEffects lambda$static$4(Biome)
+- Float lambda$null$10(Biome)
+- Float lambda$null$11(Biome)
+- Float lambda$null$2(Biome)
+- Float lambda$null$3(Biome)
++ Float lambda$static$10(Biome)
++ Float lambda$static$11(Biome)
++ Float lambda$static$2(Biome)
++ Float lambda$static$3(Biome)
++ Long2FloatLinkedOpenHashMap lambda$new$16()
+- Long2FloatLinkedOpenHashMap lambda$null$16()
+- MobSpawnSettings lambda$null$6(Biome)
++ MobSpawnSettings lambda$static$6(Biome)
+- PerlinSimplexNoise access$100()
+- void <init>(Biome$ClimateSettings,Biome$BiomeCategory,float,float,BiomeSpecialEffects,BiomeGenerationSettings,MobSpawnSettings,Biome$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome$ClimateParameters</summary>
+
+```diff
+- Float lambda$null$0(Biome$ClimateParameters)
+- Float lambda$null$1(Biome$ClimateParameters)
+- Float lambda$null$2(Biome$ClimateParameters)
+- Float lambda$null$3(Biome$ClimateParameters)
+- Float lambda$null$4(Biome$ClimateParameters)
++ Float lambda$static$0(Biome$ClimateParameters)
++ Float lambda$static$1(Biome$ClimateParameters)
++ Float lambda$static$2(Biome$ClimateParameters)
++ Float lambda$static$3(Biome$ClimateParameters)
++ Float lambda$static$4(Biome$ClimateParameters)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome$Precipitation</summary>
+
+```diff
++ Biome$Precipitation[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
+
+```diff
+- List lambda$null$3(BiomeGenerationSettings)
+- List lambda$null$4(BiomeGenerationSettings)
++ List lambda$static$3(BiomeGenerationSettings)
++ List lambda$static$4(BiomeGenerationSettings)
+- Map lambda$null$2(BiomeGenerationSettings)
++ Map lambda$static$2(BiomeGenerationSettings)
+- Supplier lambda$null$1(BiomeGenerationSettings)
++ Supplier lambda$static$1(BiomeGenerationSettings)
+- void <init>(Supplier,Map,List,List,BiomeGenerationSettings$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FuzzyOffsetConstantColumnBiomeZoomer</summary>
+
+```diff
++ FuzzyOffsetConstantColumnBiomeZoomer[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance</summary>
+
+```diff
+- DataResult lambda$null$0(ResourceLocation)
+- DataResult lambda$null$1(ResourceLocation)
+- DataResult lambda$null$2(MultiNoiseBiomeSource$Preset)
++ DataResult lambda$static$0(ResourceLocation)
++ DataResult lambda$static$1(ResourceLocation)
++ DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
+- void <init>(MultiNoiseBiomeSource$Preset,Registry,long,MultiNoiseBiomeSource$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.OverworldBiomeSource</summary>
+
+```diff
++ Biome lambda$new$5(Registry,ResourceKey)
+- Biome lambda$null$5(Registry,ResourceKey)
+- Boolean lambda$null$1(OverworldBiomeSource)
+- Boolean lambda$null$2(OverworldBiomeSource)
++ Boolean lambda$static$1(OverworldBiomeSource)
++ Boolean lambda$static$2(OverworldBiomeSource)
+- Long lambda$null$0(OverworldBiomeSource)
++ Long lambda$static$0(OverworldBiomeSource)
+- Registry lambda$null$3(OverworldBiomeSource)
++ Registry lambda$static$3(OverworldBiomeSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
+
+```diff
+- BlockState access$000(BlockState,LevelAccessor,BlockPos)
+- BlockState access$100(BlockState,LevelAccessor,BlockPos,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoubleBlockCombiner$BlockType</summary>
+
+```diff
++ DoubleBlockCombiner$BlockType[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PowderSnowBlock</summary>
+
+```diff
+- void spawnPowderSnowParticles(Level,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PressurePlateBlock$Sensitivity</summary>
+
+```diff
++ PressurePlateBlock$Sensitivity[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BannerPattern</summary>
+
+```diff
++ BannerPattern[] $values()
+- String access$000(BannerPattern)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BarrelBlockEntity</summary>
+
+```diff
+- void access$000(BarrelBlockEntity,BlockState,SoundEvent)
+- void access$100(BarrelBlockEntity,BlockState,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.RailShape</summary>
+
+```diff
++ RailShape[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
+
+```diff
++ SculkSensorPhase[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.StairsShape</summary>
+
+```diff
++ StairsShape[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.Tilt</summary>
+
+```diff
++ Tilt[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.border.BorderStatus</summary>
+
+```diff
++ BorderStatus[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.IOWorker$PendingStore</summary>
+
+```diff
+- CompletableFuture access$100(IOWorker$PendingStore)
+- CompoundTag access$000(IOWorker$PendingStore)
+- CompoundTag access$002(IOWorker$PendingStore,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.RegionFile</summary>
+
+```diff
+- RegionFileVersion access$000(RegionFile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
+
+```diff
+- void lambda$null$1(long)
++ void lambda$readColumn$1(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.entity.Visibility</summary>
+
+```diff
++ Visibility[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
+
+```diff
+- Optional access$000(BlockPositionSource)
+- Optional lambda$null$0(BlockPositionSource)
++ Optional lambda$static$0(BlockPositionSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.EntityPositionSource</summary>
+
+```diff
+- int access$000(EntityPositionSource)
+- Integer lambda$null$0(EntityPositionSource)
++ Integer lambda$static$0(EntityPositionSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer$AquiferStatus</summary>
+
+```diff
+- BlockState access$100(Aquifer$NoiseBasedAquifer$AquiferStatus)
+- int access$000(Aquifer$NoiseBasedAquifer$AquiferStatus)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Cavifier$QuantizedSpaghettiRarity</summary>
+
+```diff
+- double access$000(double)
+- double access$100(double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Column$Line</summary>
+
+```diff
+- Column$Line access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Carving</summary>
+
+```diff
++ GenerationStep$Carving[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
+
+```diff
+- BlockStateProvider lambda$null$0(GeodeBlockSettings)
+- BlockStateProvider lambda$null$1(GeodeBlockSettings)
+- BlockStateProvider lambda$null$2(GeodeBlockSettings)
+- BlockStateProvider lambda$null$3(GeodeBlockSettings)
+- BlockStateProvider lambda$null$4(GeodeBlockSettings)
++ BlockStateProvider lambda$static$0(GeodeBlockSettings)
++ BlockStateProvider lambda$static$1(GeodeBlockSettings)
++ BlockStateProvider lambda$static$2(GeodeBlockSettings)
++ BlockStateProvider lambda$static$3(GeodeBlockSettings)
++ BlockStateProvider lambda$static$4(GeodeBlockSettings)
+- List lambda$null$5(GeodeBlockSettings)
++ List lambda$static$5(GeodeBlockSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GeodeLayerSettings</summary>
+
+```diff
+- Double lambda$null$0(GeodeLayerSettings)
+- Double lambda$null$1(GeodeLayerSettings)
+- Double lambda$null$2(GeodeLayerSettings)
+- Double lambda$null$3(GeodeLayerSettings)
++ Double lambda$static$0(GeodeLayerSettings)
++ Double lambda$static$1(GeodeLayerSettings)
++ Double lambda$static$2(GeodeLayerSettings)
++ Double lambda$static$3(GeodeLayerSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Heightmap$Types</summary>
+
+```diff
++ Heightmap$Types[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- BiomeSource lambda$null$0(NoiseBasedChunkGenerator)
++ BiomeSource lambda$static$0(NoiseBasedChunkGenerator)
+- int access$000(NoiseBasedChunkGenerator)
+- int access$100(NoiseBasedChunkGenerator)
+- int access$200(NoiseBasedChunkGenerator)
+- Long lambda$null$1(NoiseBasedChunkGenerator)
++ Long lambda$static$1(NoiseBasedChunkGenerator)
+- NoodleCavifier access$400(NoiseBasedChunkGenerator)
+- OreVeinifier access$300(NoiseBasedChunkGenerator)
+- Supplier lambda$null$2(NoiseBasedChunkGenerator)
++ Supplier lambda$static$2(NoiseBasedChunkGenerator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
+
+```diff
+- Optional lambda$null$0(WorldGenSettings)
++ Optional lambda$static$0(WorldGenSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration$CanyonShapeConfiguration</summary>
+
+```diff
+- Float lambda$null$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
+- Float lambda$null$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Float lambda$static$4(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Float lambda$static$5(CanyonCarverConfiguration$CanyonShapeConfiguration)
+- FloatProvider lambda$null$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
+- FloatProvider lambda$null$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
+- FloatProvider lambda$null$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$0(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$1(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ FloatProvider lambda$static$3(CanyonCarverConfiguration$CanyonShapeConfiguration)
+- Integer lambda$null$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
++ Integer lambda$static$2(CanyonCarverConfiguration$CanyonShapeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
+
+```diff
+- Boolean lambda$null$4(CarverConfiguration)
++ Boolean lambda$static$4(CarverConfiguration)
+- CarverDebugSettings lambda$null$5(CarverConfiguration)
++ CarverDebugSettings lambda$static$5(CarverConfiguration)
+- Float lambda$null$0(CarverConfiguration)
++ Float lambda$static$0(CarverConfiguration)
+- FloatProvider lambda$null$2(CarverConfiguration)
++ FloatProvider lambda$static$2(CarverConfiguration)
+- HeightProvider lambda$null$1(CarverConfiguration)
++ HeightProvider lambda$static$1(CarverConfiguration)
+- VerticalAnchor lambda$null$3(CarverConfiguration)
++ VerticalAnchor lambda$static$3(CarverConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeatureConfiguration</summary>
+
+```diff
+- Integer lambda$null$4(FossilFeatureConfiguration)
++ Integer lambda$static$4(FossilFeatureConfiguration)
+- List lambda$null$0(FossilFeatureConfiguration)
+- List lambda$null$1(FossilFeatureConfiguration)
++ List lambda$static$0(FossilFeatureConfiguration)
++ List lambda$static$1(FossilFeatureConfiguration)
+- Supplier lambda$null$2(FossilFeatureConfiguration)
+- Supplier lambda$null$3(FossilFeatureConfiguration)
++ Supplier lambda$static$2(FossilFeatureConfiguration)
++ Supplier lambda$static$3(FossilFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusConfiguration</summary>
+
+```diff
+- BlockState lambda$null$0(HugeFungusConfiguration)
+- BlockState lambda$null$1(HugeFungusConfiguration)
+- BlockState lambda$null$2(HugeFungusConfiguration)
+- BlockState lambda$null$3(HugeFungusConfiguration)
++ BlockState lambda$static$0(HugeFungusConfiguration)
++ BlockState lambda$static$1(HugeFungusConfiguration)
++ BlockState lambda$static$2(HugeFungusConfiguration)
++ BlockState lambda$static$3(HugeFungusConfiguration)
+- Boolean lambda$null$4(HugeFungusConfiguration)
++ Boolean lambda$static$4(HugeFungusConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature</summary>
+
+```diff
+- boolean access$100(JigsawFeature)
+- boolean access$200(JigsawFeature)
+- int access$000(JigsawFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature$SpikeCacheLoader</summary>
+
+```diff
+- void <init>(SpikeFeature$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
+
+```diff
+- Float lambda$null$1(WeightedConfiguredFeature)
++ Float lambda$static$1(WeightedConfiguredFeature)
+- Supplier lambda$null$0(WeightedConfiguredFeature)
++ Supplier lambda$static$0(WeightedConfiguredFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+
+```diff
+- BlockState lambda$null$0(DiskConfiguration)
++ BlockState lambda$static$0(DiskConfiguration)
+- Integer lambda$null$2(DiskConfiguration)
++ Integer lambda$static$2(DiskConfiguration)
+- IntProvider lambda$null$1(DiskConfiguration)
++ IntProvider lambda$static$1(DiskConfiguration)
+- List lambda$null$3(DiskConfiguration)
++ List lambda$static$3(DiskConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration</summary>
+
+```diff
+- Boolean lambda$null$1(EndGatewayConfiguration)
++ Boolean lambda$static$1(EndGatewayConfiguration)
+- Optional lambda$null$0(EndGatewayConfiguration)
++ Optional lambda$static$0(EndGatewayConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GeodeConfiguration</summary>
+
+```diff
+- Boolean lambda$null$5(GeodeConfiguration)
++ Boolean lambda$static$5(GeodeConfiguration)
+- Double lambda$null$11(GeodeConfiguration)
+- Double lambda$null$3(GeodeConfiguration)
+- Double lambda$null$4(GeodeConfiguration)
++ Double lambda$static$11(GeodeConfiguration)
++ Double lambda$static$3(GeodeConfiguration)
++ Double lambda$static$4(GeodeConfiguration)
+- GeodeBlockSettings lambda$null$0(GeodeConfiguration)
++ GeodeBlockSettings lambda$static$0(GeodeConfiguration)
+- GeodeCrackSettings lambda$null$2(GeodeConfiguration)
++ GeodeCrackSettings lambda$static$2(GeodeConfiguration)
+- GeodeLayerSettings lambda$null$1(GeodeConfiguration)
++ GeodeLayerSettings lambda$static$1(GeodeConfiguration)
+- Integer lambda$null$10(GeodeConfiguration)
+- Integer lambda$null$12(GeodeConfiguration)
+- Integer lambda$null$9(GeodeConfiguration)
++ Integer lambda$static$10(GeodeConfiguration)
++ Integer lambda$static$12(GeodeConfiguration)
++ Integer lambda$static$9(GeodeConfiguration)
+- IntProvider lambda$null$6(GeodeConfiguration)
+- IntProvider lambda$null$7(GeodeConfiguration)
+- IntProvider lambda$null$8(GeodeConfiguration)
++ IntProvider lambda$static$6(GeodeConfiguration)
++ IntProvider lambda$static$7(GeodeConfiguration)
++ IntProvider lambda$static$8(GeodeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GrowingPlantConfiguration</summary>
+
+```diff
+- BlockStateProvider lambda$null$2(GrowingPlantConfiguration)
+- BlockStateProvider lambda$null$3(GrowingPlantConfiguration)
++ BlockStateProvider lambda$static$2(GrowingPlantConfiguration)
++ BlockStateProvider lambda$static$3(GrowingPlantConfiguration)
+- Boolean lambda$null$4(GrowingPlantConfiguration)
++ Boolean lambda$static$4(GrowingPlantConfiguration)
+- Direction lambda$null$1(GrowingPlantConfiguration)
++ Direction lambda$static$1(GrowingPlantConfiguration)
+- SimpleWeightedRandomList lambda$null$0(GrowingPlantConfiguration)
++ SimpleWeightedRandomList lambda$static$0(GrowingPlantConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.HugeMushroomFeatureConfiguration</summary>
+
+```diff
+- BlockStateProvider lambda$null$0(HugeMushroomFeatureConfiguration)
+- BlockStateProvider lambda$null$1(HugeMushroomFeatureConfiguration)
++ BlockStateProvider lambda$static$0(HugeMushroomFeatureConfiguration)
++ BlockStateProvider lambda$static$1(HugeMushroomFeatureConfiguration)
+- Integer lambda$null$2(HugeMushroomFeatureConfiguration)
++ Integer lambda$static$2(HugeMushroomFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration</summary>
+
+```diff
+- Float lambda$null$3(LargeDripstoneConfiguration)
+- Float lambda$null$8(LargeDripstoneConfiguration)
++ Float lambda$static$3(LargeDripstoneConfiguration)
++ Float lambda$static$8(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$2(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$4(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$5(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$6(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$2(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$4(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$5(LargeDripstoneConfiguration)
++ FloatProvider lambda$static$6(LargeDripstoneConfiguration)
+- Integer lambda$null$0(LargeDripstoneConfiguration)
+- Integer lambda$null$7(LargeDripstoneConfiguration)
++ Integer lambda$static$0(LargeDripstoneConfiguration)
++ Integer lambda$static$7(LargeDripstoneConfiguration)
+- IntProvider lambda$null$1(LargeDripstoneConfiguration)
++ IntProvider lambda$static$1(LargeDripstoneConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MineshaftConfiguration</summary>
+
+```diff
+- Float lambda$null$0(MineshaftConfiguration)
++ Float lambda$static$0(MineshaftConfiguration)
+- MineshaftFeature$Type lambda$null$1(MineshaftConfiguration)
++ MineshaftFeature$Type lambda$static$1(MineshaftConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OceanRuinConfiguration</summary>
+
+```diff
+- Float lambda$null$1(OceanRuinConfiguration)
+- Float lambda$null$2(OceanRuinConfiguration)
++ Float lambda$static$1(OceanRuinConfiguration)
++ Float lambda$static$2(OceanRuinConfiguration)
+- OceanRuinFeature$Type lambda$null$0(OceanRuinConfiguration)
++ OceanRuinFeature$Type lambda$static$0(OceanRuinConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
+
+```diff
+- List lambda$null$0(ReplaceBlockConfiguration)
++ List lambda$static$0(ReplaceBlockConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration</summary>
+
+```diff
+- BlockStateProvider lambda$null$4(RootSystemConfiguration)
+- BlockStateProvider lambda$null$9(RootSystemConfiguration)
++ BlockStateProvider lambda$static$4(RootSystemConfiguration)
++ BlockStateProvider lambda$static$9(RootSystemConfiguration)
+- Integer lambda$null$1(RootSystemConfiguration)
+- Integer lambda$null$10(RootSystemConfiguration)
+- Integer lambda$null$11(RootSystemConfiguration)
+- Integer lambda$null$2(RootSystemConfiguration)
+- Integer lambda$null$5(RootSystemConfiguration)
+- Integer lambda$null$6(RootSystemConfiguration)
+- Integer lambda$null$7(RootSystemConfiguration)
+- Integer lambda$null$8(RootSystemConfiguration)
++ Integer lambda$static$1(RootSystemConfiguration)
++ Integer lambda$static$10(RootSystemConfiguration)
++ Integer lambda$static$11(RootSystemConfiguration)
++ Integer lambda$static$2(RootSystemConfiguration)
++ Integer lambda$static$5(RootSystemConfiguration)
++ Integer lambda$static$6(RootSystemConfiguration)
++ Integer lambda$static$7(RootSystemConfiguration)
++ Integer lambda$static$8(RootSystemConfiguration)
+- ResourceLocation lambda$null$3(RootSystemConfiguration)
++ ResourceLocation lambda$static$3(RootSystemConfiguration)
+- Supplier lambda$null$0(RootSystemConfiguration)
++ Supplier lambda$static$0(RootSystemConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SpikeConfiguration</summary>
+
+```diff
+- Boolean lambda$null$0(SpikeConfiguration)
++ Boolean lambda$static$0(SpikeConfiguration)
+- List lambda$null$1(SpikeConfiguration)
++ List lambda$static$1(SpikeConfiguration)
+- Optional lambda$null$2(SpikeConfiguration)
++ Optional lambda$static$2(SpikeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
+- BlockStateProvider lambda$null$0(TreeConfiguration)
+- BlockStateProvider lambda$null$2(TreeConfiguration)
+- BlockStateProvider lambda$null$4(TreeConfiguration)
++ BlockStateProvider lambda$static$0(TreeConfiguration)
++ BlockStateProvider lambda$static$2(TreeConfiguration)
++ BlockStateProvider lambda$static$4(TreeConfiguration)
+- Boolean lambda$null$7(TreeConfiguration)
+- Boolean lambda$null$8(TreeConfiguration)
++ Boolean lambda$static$7(TreeConfiguration)
++ Boolean lambda$static$8(TreeConfiguration)
+- FeatureSize lambda$null$5(TreeConfiguration)
++ FeatureSize lambda$static$5(TreeConfiguration)
+- FoliagePlacer lambda$null$3(TreeConfiguration)
++ FoliagePlacer lambda$static$3(TreeConfiguration)
+- List lambda$null$6(TreeConfiguration)
++ List lambda$static$6(TreeConfiguration)
+- TrunkPlacer lambda$null$1(TreeConfiguration)
++ TrunkPlacer lambda$static$1(TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.UnderwaterMagmaConfiguration</summary>
+
+```diff
+- Float lambda$null$2(UnderwaterMagmaConfiguration)
++ Float lambda$static$2(UnderwaterMagmaConfiguration)
+- Integer lambda$null$0(UnderwaterMagmaConfiguration)
+- Integer lambda$null$1(UnderwaterMagmaConfiguration)
++ Integer lambda$static$0(UnderwaterMagmaConfiguration)
++ Integer lambda$static$1(UnderwaterMagmaConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize</summary>
+
+```diff
+- Integer lambda$null$0(TwoLayersFeatureSize)
+- Integer lambda$null$1(TwoLayersFeatureSize)
+- Integer lambda$null$2(TwoLayersFeatureSize)
++ Integer lambda$static$0(TwoLayersFeatureSize)
++ Integer lambda$static$1(TwoLayersFeatureSize)
++ Integer lambda$static$2(TwoLayersFeatureSize)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
+
+```diff
+- Integer lambda$null$0(MegaJungleFoliagePlacer)
++ Integer lambda$static$0(MegaJungleFoliagePlacer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
+
+```diff
+- IntProvider lambda$null$0(PineFoliagePlacer)
++ IntProvider lambda$static$0(PineFoliagePlacer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
+
+```diff
+- IntProvider lambda$null$0(SpruceFoliagePlacer)
++ IntProvider lambda$static$0(SpruceFoliagePlacer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece$MossStoneSelector</summary>
+
+```diff
+- void <init>(JunglePyramidPiece$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
+
+```diff
+- Logger access$000()
+- MineShaftPieces$MineShaftPiece access$100(StructurePiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleXYRoom</summary>
+
+```diff
+- void <init>(OceanMonumentPieces$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitDoubleYZRoom</summary>
+
+```diff
+- void <init>(OceanMonumentPieces$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$FitSimpleRoom</summary>
+
+```diff
+- void <init>(OceanMonumentPieces$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$RoomDefinition</summary>
+
+```diff
+- boolean access$100(OceanMonumentPieces$RoomDefinition)
+- boolean access$102(OceanMonumentPieces$RoomDefinition,boolean)
+- boolean access$902(OceanMonumentPieces$RoomDefinition,boolean)
+- boolean[] access$1100(OceanMonumentPieces$RoomDefinition)
+- int access$000(OceanMonumentPieces$RoomDefinition)
+- OceanMonumentPieces$RoomDefinition[] access$1000(OceanMonumentPieces$RoomDefinition)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece$VerticalPlacement</summary>
+
+```diff
++ RuinedPortalPiece$VerticalPlacement[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces</summary>
+
+```diff
+- BlockPos access$000()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces</summary>
+
+```diff
+- Class access$102(Class)
+- StrongholdPieces$SmoothStoneSelector access$200()
+- StructurePiece access$000(StrongholdPieces$StartPiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$SmoothStoneSelector</summary>
+
+```diff
+- void <init>(StrongholdPieces$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece$SmallDoorType</summary>
+
+```diff
++ StrongholdPieces$StrongholdPiece$SmallDoorType[] $values()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer</summary>
+
+```diff
+- Packet access$200(MapItemSavedData$HoldingPlayer,int)
+- void <init>(MapItemSavedData,Player,MapItemSavedData$1)
+- void access$300(MapItemSavedData$HoldingPlayer,int,int)
+- void access$400(MapItemSavedData$HoldingPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.IntRange</summary>
+
+```diff
+- NumberProvider access$100(IntRange)
+- NumberProvider access$200(IntRange)
+- void <init>(NumberProvider,NumberProvider,IntRange$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+
+```diff
+- LootItemCondition[] access$400(LootPool)
+- LootItemFunction[] access$500(LootPool)
+- LootPoolEntryContainer[] access$300(LootPool)
+- NumberProvider access$100(LootPool)
+- NumberProvider access$200(LootPool)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider,LootPool$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
+
+```diff
+- void <init>(int,int,LootItemCondition[],LootItemFunction[],EmptyLootItem$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer</summary>
+
+```diff
+- BiFunction access$000(LootPoolSingletonContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
+
+```diff
+- void <init>(LootItemCondition[],ApplyExplosionDecay$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$CopyOperation</summary>
+
+```diff
+- void <init>(String,String,CopyNbtFunction$MergeStrategy,CopyNbtFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$MergeStrategy$3</summary>
+
+```diff
++ void lambda$merge$0(Tag,Tag)
+- void lambda$null$0(Tag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
+
+```diff
+- List access$100(EnchantRandomlyFunction)
+- void <init>(LootItemCondition[],Collection,EnchantRandomlyFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
+
+```diff
+- boolean access$500(ExplorationMapFunction)
+- byte access$300(ExplorationMapFunction)
+- int access$400(ExplorationMapFunction)
+- Logger access$600()
+- MapDecoration$Type access$200(ExplorationMapFunction)
+- StructureFeature access$100(ExplorationMapFunction)
+- void <init>(LootItemCondition[],StructureFeature,MapDecoration$Type,byte,int,boolean,ExplorationMapFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
+
+```diff
+- boolean access$200(LootingEnchantFunction)
+- int access$300(LootingEnchantFunction)
+- NumberProvider access$100(LootingEnchantFunction)
+- void <init>(LootItemCondition[],NumberProvider,int,LootingEnchantFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder</summary>
+
+```diff
+- void <init>(boolean,SetBannerPatternFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents</summary>
+
+```diff
+- List access$100(SetContainerContents)
+- void <init>(LootItemCondition[],List,SetContainerContents$1)
+- void lambda$null$0(NonNullList,LootContext,LootPoolEntry)
++ void lambda$run$0(NonNullList,LootContext,LootPoolEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction</summary>
+
+```diff
+- boolean access$100(SetItemDamageFunction)
+- NumberProvider access$000(SetItemDamageFunction)
+- void <init>(LootItemCondition[],NumberProvider,boolean,SetItemDamageFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SmeltItemFunction</summary>
+
+```diff
+- void <init>(LootItemCondition[],SmeltItemFunction$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition</summary>
+
+```diff
+- LootItemCondition[] access$100(AlternativeLootItemCondition)
+- void <init>(LootItemCondition[],AlternativeLootItemCondition$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition</summary>
+
+```diff
+- LootContext$EntityTarget access$200(EntityHasScoreCondition)
+- Map access$100(EntityHasScoreCondition)
+- void <init>(Map,LootContext$EntityTarget,EntityHasScoreCondition$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition</summary>
+
+```diff
+- EntityPredicate access$000(LootItemEntityPropertyCondition)
+- LootContext$EntityTarget access$100(LootItemEntityPropertyCondition)
+- void <init>(EntityPredicate,LootContext$EntityTarget,LootItemEntityPropertyCondition$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition</summary>
+
+```diff
+- float access$000(LootItemRandomChanceWithLootingCondition)
+- float access$100(LootItemRandomChanceWithLootingCondition)
+- void <init>(float,float,LootItemRandomChanceWithLootingCondition$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.providers.nbt.StorageNbtProvider</summary>
+
+```diff
+- ResourceLocation access$000(StorageNbtProvider)
+- void <init>(ResourceLocation,StorageNbtProvider$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.timers.TimerQueue$Event</summary>
+
+```diff
+- void <init>(long,UnsignedLong,String,TimerCallback,TimerQueue$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
+
+```diff
++ boolean lambda$joinIsNotEmpty$1(BooleanOp,DiscreteVoxelShape,int,int,DiscreteVoxelShape,int,int,int,int,int)
++ boolean lambda$joinIsNotEmpty$2(IndexMerger,BooleanOp,DiscreteVoxelShape,int,DiscreteVoxelShape,int,int,int,int)
+- boolean lambda$null$1(BooleanOp,DiscreteVoxelShape,int,int,DiscreteVoxelShape,int,int,int,int,int)
+- boolean lambda$null$2(IndexMerger,BooleanOp,DiscreteVoxelShape,int,DiscreteVoxelShape,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.scores.Team$CollisionRule</summary>
+
+```diff
++ Team$CollisionRule[] $values()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/decorations/black_candle.json
+- minecraft/advancements/recipes/decorations/blue_candle.json
+- minecraft/advancements/recipes/decorations/brown_candle.json
+- minecraft/advancements/recipes/decorations/candle.json
+- minecraft/advancements/recipes/decorations/cyan_candle.json
+- minecraft/advancements/recipes/decorations/gray_candle.json
+- minecraft/advancements/recipes/decorations/green_candle.json
+- minecraft/advancements/recipes/decorations/light_blue_candle.json
+- minecraft/advancements/recipes/decorations/light_gray_candle.json
+- minecraft/advancements/recipes/decorations/lime_candle.json
+- minecraft/advancements/recipes/decorations/magenta_candle.json
+- minecraft/advancements/recipes/decorations/orange_candle.json
+- minecraft/advancements/recipes/decorations/pink_candle.json
+- minecraft/advancements/recipes/decorations/purple_candle.json
+- minecraft/advancements/recipes/decorations/red_candle.json
+- minecraft/advancements/recipes/decorations/white_candle.json
+- minecraft/advancements/recipes/decorations/yellow_candle.json
+- minecraft/advancements/recipes/tools/bundle.json
+- minecraft/recipes/black_candle.json
+- minecraft/recipes/blue_candle.json
+- minecraft/recipes/brown_candle.json
+- minecraft/recipes/bundle.json
+- minecraft/recipes/candle.json
+- minecraft/recipes/cyan_candle.json
+- minecraft/recipes/gray_candle.json
+- minecraft/recipes/green_candle.json
+- minecraft/recipes/light_blue_candle.json
+- minecraft/recipes/light_gray_candle.json
+- minecraft/recipes/lime_candle.json
+- minecraft/recipes/magenta_candle.json
+- minecraft/recipes/orange_candle.json
+- minecraft/recipes/pink_candle.json
+- minecraft/recipes/purple_candle.json
+- minecraft/recipes/red_candle.json
+- minecraft/recipes/white_candle.json
+- minecraft/recipes/yellow_candle.json
++ minecraft/tags/blocks/mineable/axe.json
++ minecraft/tags/blocks/mineable/hoe.json
++ minecraft/tags/blocks/mineable/pickaxe.json
++ minecraft/tags/blocks/mineable/shovel.json
++ minecraft/tags/blocks/needs_diamond_tool.json
++ minecraft/tags/blocks/needs_iron_tool.json
++ minecraft/tags/blocks/needs_stone_tool.json
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>item.txt</summary>
+
+```diff
+- item block <pos: block_pos> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+- item block <pos: block_pos> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
+- item block <pos: block_pos> <slot: item_slot> modify <modifier: resource_location>
+- item block <pos: block_pos> <slot: item_slot> replace <item: item_stack> <count: integer>
+- item entity <targets: entity> <slot: item_slot> copy block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+- item entity <targets: entity> <slot: item_slot> copy entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
+- item entity <targets: entity> <slot: item_slot> modify <modifier: resource_location>
+- item entity <targets: entity> <slot: item_slot> replace <item: item_stack> <count: integer>
++ item modify block <pos: block_pos> <slot: item_slot> <modifier: resource_location>
++ item modify entity <targets: entity> <slot: item_slot> <modifier: resource_location>
++ item replace block <pos: block_pos> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
++ item replace block <pos: block_pos> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
++ item replace block <pos: block_pos> <slot: item_slot> with <item: item_stack> <count: integer>
++ item replace entity <targets: entity> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
++ item replace entity <targets: entity> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
++ item replace entity <targets: entity> <slot: item_slot> with <item: item_stack> <count: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/mineable/axe.json
++ blocks/mineable/hoe.json
++ blocks/mineable/pickaxe.json
++ blocks/mineable/shovel.json
++ blocks/needs_diamond_tool.json
++ blocks/needs_iron_tool.json
++ blocks/needs_stone_tool.json
+```
+
+</details>
+
+
+<details><summary>blocks/bee_growables.json</summary>
+
+```diff
++ minecraft:cave_vines
+```
+
+</details>
+
+
+<details><summary>blocks/lush_ground_replaceable.json</summary>
+
+```diff
+- minecraft:moss_block
+```
+
+</details>
+
+
+<details><summary>blocks/saplings.json</summary>
+
+```diff
++ minecraft:azalea
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>items/saplings.json</summary>
+
+```diff
++ minecraft:azalea
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ disconnect.unknownHost
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/decorations/black_candle.json
+- recipes/decorations/blue_candle.json
+- recipes/decorations/brown_candle.json
+- recipes/decorations/candle.json
+- recipes/decorations/cyan_candle.json
+- recipes/decorations/gray_candle.json
+- recipes/decorations/green_candle.json
+- recipes/decorations/light_blue_candle.json
+- recipes/decorations/light_gray_candle.json
+- recipes/decorations/lime_candle.json
+- recipes/decorations/magenta_candle.json
+- recipes/decorations/orange_candle.json
+- recipes/decorations/pink_candle.json
+- recipes/decorations/purple_candle.json
+- recipes/decorations/red_candle.json
+- recipes/decorations/white_candle.json
+- recipes/decorations/yellow_candle.json
+- recipes/tools/bundle.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- black_candle.json
+- blue_candle.json
+- brown_candle.json
+- bundle.json
+- candle.json
+- cyan_candle.json
+- gray_candle.json
+- green_candle.json
+- light_blue_candle.json
+- light_gray_candle.json
+- lime_candle.json
+- magenta_candle.json
+- orange_candle.json
+- pink_candle.json
+- purple_candle.json
+- red_candle.json
+- white_candle.json
+- yellow_candle.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/mineable/axe.json
++ blocks/mineable/hoe.json
++ blocks/mineable/pickaxe.json
++ blocks/mineable/shovel.json
++ blocks/needs_diamond_tool.json
++ blocks/needs_iron_tool.json
++ blocks/needs_stone_tool.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
++ com.mojang:blocklist:1.0.5
+- com.mojang:patchy:1.3.9
++ com.mojang:patchy:2.0.5
+```
+
+</details>

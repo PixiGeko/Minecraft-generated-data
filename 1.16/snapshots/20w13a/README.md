@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w13a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w13a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-03-25T17:05:33+00:00</td></tr>
@@ -10,1289 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/56e0a1cac850bcbe64e429619fcfcddb0180acd3/server.txt">https://piston-data.mojang.com/v1/objects/56e0a1cac850bcbe64e429619fcfcddb0180acd3/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/dbabcec822dc4cd7fff60793facab0f346d1b734/client.jar">https://piston-data.mojang.com/v1/objects/dbabcec822dc4cd7fff60793facab0f346d1b734/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/aeb8b29220c46a0620dd671c0148c383a6caeea1/client.txt">https://piston-data.mojang.com/v1/objects/aeb8b29220c46a0620dd671c0148c383a6caeea1/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w12a">20w12a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/polished_basalt_from_basalt_stonecutting.json
-+  minecraft/advancements/recipes/decorations/lodestone.json
-+  minecraft/advancements/recipes/transportation/warped_fungus_on_a_stick.json
-+  minecraft/loot_tables/blocks/lodestone.json
-+  minecraft/loot_tables/entities/strider.json
-+  minecraft/recipes/lodestone.json
-+  minecraft/recipes/polished_basalt_from_basalt_stonecutting.json
-+  minecraft/recipes/warped_fungus_on_a_stick.json
-+  minecraft/tags/blocks/logs_that_burn.json
-+  minecraft/tags/blocks/non_flammable_wood.json
-+  minecraft/tags/blocks/strider_warm_blocks.json
-+  minecraft/tags/items/logs_that_burn.json
-+  minecraft/tags/items/non_flammable_wood.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/lodestone.json
-+  minecraft/models/block/lodestone.json
-+  minecraft/models/item/lodestone.json
-+  minecraft/models/item/strider_spawn_egg.json
-+  minecraft/models/item/warped_fungus_on_a_stick.json
-+  minecraft/textures/block/jigsaw_lock.png
-+  minecraft/textures/block/lodestone_side.png
-+  minecraft/textures/block/lodestone_top.png
-+  minecraft/textures/entity/strider
-+  minecraft/textures/entity/strider/strider.png
-+  minecraft/textures/entity/strider/strider_saddle.png
-+  minecraft/textures/item/warped_fungus_on_a_stick.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ pos_rule_test.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:lodestone
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:strider
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:strider_spawn_egg
-+ minecraft:warped_fungus_on_a_stick
-+ minecraft:lodestone
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:nearest_adult_piglins
-```
-
-</details>
-
-<details><summary>point_of_interest_type.txt</summary>
-
-```diff
-+ minecraft:lodestone
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.lodestone.break
-+ minecraft:block.lodestone.step
-+ minecraft:block.lodestone.place
-+ minecraft:block.lodestone.hit
-+ minecraft:block.lodestone.fall
-+ minecraft:item.lodestone_compass.lock
-+ minecraft:entity.strider.ambient
-+ minecraft:entity.strider.happy
-+ minecraft:entity.strider.retreat
-+ minecraft:entity.strider.death
-+ minecraft:entity.strider.hurt
-+ minecraft:entity.strider.step
-+ minecraft:entity.strider.step_lava
-+ minecraft:entity.strider.eat
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/logs_that_burn.json
-+ blocks/non_flammable_wood.json
-+ blocks/strider_warm_blocks.json
-+ items/logs_that_burn.json
-+ items/non_flammable_wood.json
-```
-
-</details>
-
-<details><summary>blocks/dragon_immune.json</summary>
-
-```diff
-+ minecraft:respawn_anchor
-```
-
-</details>
-
-<details><summary>blocks/logs.json</summary>
-
-```diff
-- #minecraft:dark_oak_logs
-- #minecraft:oak_logs
-- #minecraft:acacia_logs
-- #minecraft:birch_logs
-- #minecraft:jungle_logs
-- #minecraft:spruce_logs
-+ #minecraft:logs_that_burn
-+ #minecraft:crimson_stems
-+ #minecraft:warped_stems
-```
-
-</details>
-
-<details><summary>items/logs.json</summary>
-
-```diff
-- #minecraft:dark_oak_logs
-- #minecraft:oak_logs
-- #minecraft:acacia_logs
-- #minecraft:birch_logs
-- #minecraft:jungle_logs
-- #minecraft:spruce_logs
-+ #minecraft:logs_that_burn
-+ #minecraft:crimson_stems
-+ #minecraft:warped_stems
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/polished_basalt_from_basalt_stonecutting.json
-+ recipes/decorations/lodestone.json
-+ recipes/transportation/warped_fungus_on_a_stick.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/lodestone.json
-+ entities/strider.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ lodestone.json
-+ polished_basalt_from_basalt_stonecutting.json
-+ warped_fungus_on_a_stick.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/logs_that_burn.json
-+ blocks/non_flammable_wood.json
-+ blocks/strider_warm_blocks.json
-+ items/logs_that_burn.json
-+ items/non_flammable_wood.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/jigsaw_lock.png
-+ block/lodestone_side.png
-+ block/lodestone_top.png
-+ entity/strider/strider.png
-+ entity/strider/strider_saddle.png
-+ item/warped_fungus_on_a_stick.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.math.Matrix3f</summary>
-
-```diff
-+ void set(int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ItemStackUUIDFix</summary>
-
-```diff
-+ Dynamic lambda$null$1(Dynamic)
-+ Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$updateAttributeModifiers$5(Dynamic)
-+ Dynamic lambda$updateSkullOwner$6(Dynamic)
-+ Dynamic updateAttributeModifiers(Dynamic)
-+ Dynamic updateSkullOwner(Dynamic)
-+ Typed lambda$makeRule$3(Typed)
-+ Typed lambda$null$2(Typed)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Typed lambda$makeRule$4(Typed)
-- Typed lambda$null$3(Typed)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
-
-```diff
-+ BlockPos access$100(CompoundTag)
-+ BlockPos access$200(Level)
-+ BlockPos getLodestonePosition(CompoundTag)
-+ BlockPos getSpawnPosition(Level)
-+ boolean access$000(CompoundTag)
-+ boolean hasLodestoneData(CompoundTag)
-+ boolean isFoil(ItemStack)
-+ boolean isLodestoneCompass(ItemStack)
-+ double access$300(ItemFrame)
-+ double access$400(Entity)
-+ double getAngleTo(Entity)
-+ double getFrameRotation(ItemFrame)
-+ InteractionResult useOn(UseOnContext)
-+ Optional getLodestoneDimension(CompoundTag)
-+ String getDescriptionId(ItemStack)
-+ void inventoryTick(Entity,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DiggerItem</summary>
-
-```diff
-+ float getAttackDamage()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
-
-```diff
-+ void load(CompoundTag)
-- void load(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
-
-```diff
-+ void load(CompoundTag)
-- void load(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ void load(CompoundTag)
-- void load(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
-
-```diff
-+ void load(CompoundTag)
-- void load(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
-
-```diff
-+ void load(CompoundTag)
-- void load(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ EnumProperty ORIENTATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoTickList</summary>
-
-```diff
-- void addAll(Stream)
-- void lambda$addAll$0(TickNextTickData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.EmptyPoolElement</summary>
-
-```diff
-+ boolean place(Random)
-- boolean place(Random)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
-
-```diff
-+ boolean place(Random)
-- boolean place(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
-
-```diff
-+ boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random)
-- boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.OctahedralGroup
@@ -5388,6 +4127,7 @@
 
 </details>
 
+
 <details><summary>com.mojang.math.Matrix3f</summary>
 
 ```diff
@@ -5397,133 +4137,48 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.util.datafix.fixes.ItemStackUUIDFix</summary>
 
 ```diff
-+ Dynamic lambda$null$1(Dynamic)
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$1(Typed,OpticFinder,Dynamic)
+- Dynamic lambda$null$2(Dynamic)
 + Dynamic lambda$null$4(Dynamic)
-+ Dynamic lambda$updateAttributeModifiers$5(Dynamic)
++ Dynamic lambda$updateAttributeModifiers$5(Dynamic,Dynamic)
 + Dynamic lambda$updateSkullOwner$6(Dynamic)
 + Dynamic updateAttributeModifiers(Dynamic)
 + Dynamic updateSkullOwner(Dynamic)
-+ Typed lambda$makeRule$3(Typed)
-+ Typed lambda$null$2(Typed)
-- Dynamic lambda$null$1(Dynamic)
-- Dynamic lambda$null$2(Dynamic)
-- Typed lambda$makeRule$4(Typed)
++ Typed lambda$makeRule$3(OpticFinder,Typed)
+- Typed lambda$makeRule$4(OpticFinder,Typed)
++ Typed lambda$null$2(Typed,OpticFinder,Typed)
 - Typed lambda$null$3(Typed)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.CompassItem</summary>
 
 ```diff
-+ BlockPos access$100(CompoundTag)
-+ BlockPos access$200(Level)
-+ BlockPos getLodestonePosition(CompoundTag)
++ BlockPos access$100(CompassItem,Level,CompoundTag)
++ BlockPos access$200(CompassItem,Level)
++ BlockPos getLodestonePosition(Level,CompoundTag)
 + BlockPos getSpawnPosition(Level)
 + boolean access$000(CompoundTag)
 + boolean hasLodestoneData(CompoundTag)
 + boolean isFoil(ItemStack)
 + boolean isLodestoneCompass(ItemStack)
 + double access$300(ItemFrame)
-+ double access$400(Entity)
-+ double getAngleTo(Entity)
++ double access$400(Vec3,Entity)
++ double getAngleTo(Vec3,Entity)
 + double getFrameRotation(ItemFrame)
 + InteractionResult useOn(UseOnContext)
 + Optional getLodestoneDimension(CompoundTag)
 + String getDescriptionId(ItemStack)
-+ void inventoryTick(Entity,int,boolean)
++ void inventoryTick(ItemStack,Level,Entity,int,boolean)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.DiggerItem</summary>
@@ -5535,32 +4190,20 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
 
 ```diff
-+ void load(CompoundTag)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
 
 ```diff
-+ void load(CompoundTag)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
 ```
 
@@ -5570,94 +4213,31 @@
 <details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
 
 ```diff
-+ void load(CompoundTag)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
 
 ```diff
-+ void load(CompoundTag)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
 
 ```diff
-+ void load(CompoundTag)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ EnumProperty ORIENTATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.ProtoTickList</summary>
@@ -5670,225 +4250,51 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.structures.EmptyPoolElement</summary>
 
 ```diff
-+ boolean place(Random)
-- boolean place(Random)
++ boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+- boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,Rotation,BoundingBox,Random)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
 
 ```diff
-+ boolean place(Random)
-- boolean place(Random)
++ boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+- boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,Rotation,BoundingBox,Random)
 ```
 
 </details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
-
-```diff
-+ boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random)
-- boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
@@ -5897,8 +4303,8 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
@@ -5907,53 +4313,58 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
@@ -5962,112 +4373,108 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
@@ -6076,61 +4483,59 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(ChunkPos)
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.OctahedralGroup
@@ -9369,13 +7774,673 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Matrix3f</summary>
+
+```diff
++ void set(int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ItemStackUUIDFix</summary>
+
+```diff
+- Dynamic lambda$null$1(Dynamic)
++ Dynamic lambda$null$1(Typed,OpticFinder,Dynamic)
+- Dynamic lambda$null$2(Dynamic)
++ Dynamic lambda$null$4(Dynamic)
++ Dynamic lambda$updateAttributeModifiers$5(Dynamic,Dynamic)
++ Dynamic lambda$updateSkullOwner$6(Dynamic)
++ Dynamic updateAttributeModifiers(Dynamic)
++ Dynamic updateSkullOwner(Dynamic)
++ Typed lambda$makeRule$3(OpticFinder,Typed)
+- Typed lambda$makeRule$4(OpticFinder,Typed)
++ Typed lambda$null$2(Typed,OpticFinder,Typed)
+- Typed lambda$null$3(Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CompassItem</summary>
+
+```diff
++ BlockPos access$100(CompassItem,Level,CompoundTag)
++ BlockPos access$200(CompassItem,Level)
++ BlockPos getLodestonePosition(Level,CompoundTag)
++ BlockPos getSpawnPosition(Level)
++ boolean access$000(CompoundTag)
++ boolean hasLodestoneData(CompoundTag)
++ boolean isFoil(ItemStack)
++ boolean isLodestoneCompass(ItemStack)
++ double access$300(ItemFrame)
++ double access$400(Vec3,Entity)
++ double getAngleTo(Vec3,Entity)
++ double getFrameRotation(ItemFrame)
++ InteractionResult useOn(UseOnContext)
++ Optional getLodestoneDimension(CompoundTag)
++ String getDescriptionId(ItemStack)
++ void inventoryTick(ItemStack,Level,Entity,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.DiggerItem</summary>
+
+```diff
++ float getAttackDamage()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
+
+```diff
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
+
+```diff
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
+
+```diff
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoTickList</summary>
+
+```diff
+- void addAll(Stream)
+- void lambda$addAll$0(TickNextTickData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.EmptyPoolElement</summary>
+
+```diff
++ boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+- boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,Rotation,BoundingBox,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
+
+```diff
++ boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+- boolean place(StructureManager,LevelAccessor,ChunkGenerator,BlockPos,Rotation,BoundingBox,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
+
+```diff
++ boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/polished_basalt_from_basalt_stonecutting.json
++ minecraft/advancements/recipes/decorations/lodestone.json
++ minecraft/advancements/recipes/transportation/warped_fungus_on_a_stick.json
++ minecraft/loot_tables/blocks/lodestone.json
++ minecraft/loot_tables/entities/strider.json
++ minecraft/recipes/lodestone.json
++ minecraft/recipes/polished_basalt_from_basalt_stonecutting.json
++ minecraft/recipes/warped_fungus_on_a_stick.json
++ minecraft/tags/blocks/logs_that_burn.json
++ minecraft/tags/blocks/non_flammable_wood.json
++ minecraft/tags/blocks/strider_warm_blocks.json
++ minecraft/tags/items/logs_that_burn.json
++ minecraft/tags/items/non_flammable_wood.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/lodestone.json
++ minecraft/models/block/lodestone.json
++ minecraft/models/item/lodestone.json
++ minecraft/models/item/strider_spawn_egg.json
++ minecraft/models/item/warped_fungus_on_a_stick.json
++ minecraft/textures/block/jigsaw_lock.png
++ minecraft/textures/block/lodestone_side.png
++ minecraft/textures/block/lodestone_top.png
++ minecraft/textures/entity/strider/strider_saddle.png
++ minecraft/textures/entity/strider/strider.png
++ minecraft/textures/item/warped_fungus_on_a_stick.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ pos_rule_test.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:lodestone
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:strider
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:lodestone
++ minecraft:strider_spawn_egg
++ minecraft:warped_fungus_on_a_stick
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:nearest_adult_piglins
+```
+
+</details>
+
+
+<details><summary>point_of_interest_type.txt</summary>
+
+```diff
++ minecraft:lodestone
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.lodestone.break
++ minecraft:block.lodestone.fall
++ minecraft:block.lodestone.hit
++ minecraft:block.lodestone.place
++ minecraft:block.lodestone.step
++ minecraft:entity.strider.ambient
++ minecraft:entity.strider.death
++ minecraft:entity.strider.eat
++ minecraft:entity.strider.happy
++ minecraft:entity.strider.hurt
++ minecraft:entity.strider.retreat
++ minecraft:entity.strider.step
++ minecraft:entity.strider.step_lava
++ minecraft:item.lodestone_compass.lock
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/logs_that_burn.json
++ blocks/non_flammable_wood.json
++ blocks/strider_warm_blocks.json
++ items/logs_that_burn.json
++ items/non_flammable_wood.json
+```
+
+</details>
+
+
+<details><summary>blocks/dragon_immune.json</summary>
+
+```diff
++ minecraft:respawn_anchor
+```
+
+</details>
+
+
+<details><summary>blocks/logs.json</summary>
+
+```diff
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
++ #minecraft:crimson_stems
+- #minecraft:dark_oak_logs
+- #minecraft:jungle_logs
++ #minecraft:logs_that_burn
+- #minecraft:oak_logs
+- #minecraft:spruce_logs
++ #minecraft:warped_stems
+```
+
+</details>
+
+
+<details><summary>items/logs.json</summary>
+
+```diff
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
++ #minecraft:crimson_stems
+- #minecraft:dark_oak_logs
+- #minecraft:jungle_logs
++ #minecraft:logs_that_burn
+- #minecraft:oak_logs
+- #minecraft:spruce_logs
++ #minecraft:warped_stems
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.lodestone
++ death.attack.badRespawnPoint.link
++ death.attack.badRespawnPoint.message
+- death.attack.netherBed.link
+- death.attack.netherBed.message
++ entity.minecraft.strider
++ item.minecraft.lodestone_compass
++ item.minecraft.strider_spawn_egg
++ item.minecraft.warped_fungus_on_a_stick
+- jigsaw_block.attachement_type
++ jigsaw_block.joint_label
++ jigsaw_block.joint.aligned
++ jigsaw_block.joint.rollable
++ jigsaw_block.name
++ jigsaw_block.pool
++ jigsaw_block.target
+- jigsaw_block.target_pool
++ subtitles.item.lodestone_compass.lock
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/polished_basalt_from_basalt_stonecutting.json
++ recipes/decorations/lodestone.json
++ recipes/transportation/warped_fungus_on_a_stick.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/lodestone.json
++ entities/strider.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ lodestone.json
++ polished_basalt_from_basalt_stonecutting.json
++ warped_fungus_on_a_stick.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/logs_that_burn.json
++ blocks/non_flammable_wood.json
++ blocks/strider_warm_blocks.json
++ items/logs_that_burn.json
++ items/non_flammable_wood.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/jigsaw_lock.png
++ block/lodestone_side.png
++ block/lodestone_top.png
++ entity/strider/strider_saddle.png
++ entity/strider/strider.png
++ item/warped_fungus_on_a_stick.png
+```
+
+</details>

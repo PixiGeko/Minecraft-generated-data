@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.16-pre3 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.16-pre3</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2020-06-10T14:57:43+00:00</td></tr>
@@ -10,2321 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/37b4c644ae0e8340b5867f985582dfe9941f5abd/server.txt">https://piston-data.mojang.com/v1/objects/37b4c644ae0e8340b5867f985582dfe9941f5abd/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/0d7c195c685f8a6172696c9a7f8f4e5d76185528/client.jar">https://piston-data.mojang.com/v1/objects/0d7c195c685f8a6172696c9a7f8f4e5d76185528/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9664872669ae2d743b0af62ac49fc78e1f3ee4e8/client.txt">https://piston-data.mojang.com/v1/objects/9664872669ae2d743b0af62ac49fc78e1f3ee4e8/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.16-pre2">1.16-pre2</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/blocks/nether_portal.json
--  minecraft/structures/bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
--  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2.nbt
--  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3.nbt
-+  minecraft/tags/blocks/infiniburn_end.json
-+  minecraft/tags/blocks/infiniburn_nether.json
-+  minecraft/tags/blocks/infiniburn_overworld.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/textures/models/armor/chainmail_piglin_helmet.png
--  minecraft/textures/models/armor/diamond_piglin_helmet.png
--  minecraft/textures/models/armor/gold_piglin_helmet.png
--  minecraft/textures/models/armor/iron_piglin_helmet.png
--  minecraft/textures/models/armor/leather_piglin_helmet.png
--  minecraft/textures/models/armor/leather_piglin_helmet_overlay.png
--  minecraft/textures/models/armor/netherite_piglin_helmet.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- attributes.txt
-+ attribute.txt
-```
-
-</details>
-
-<details><summary>structure_processor.txt</summary>
-
-```diff
-+ minecraft:lava_submerged_block
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/infiniburn_end.json
-+ blocks/infiniburn_nether.json
-+ blocks/infiniburn_overworld.json
-```
-
-</details>
-
-<details><summary>items/piglin_loved.json</summary>
-
-```diff
-- minecraft:gold_nugget
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/nether_portal.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-- bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
-- bastion/hoglin_stable/stairs/stairs_2.nbt
-- bastion/hoglin_stable/stairs/stairs_3.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/infiniburn_end.json
-+ blocks/infiniburn_nether.json
-+ blocks/infiniburn_overworld.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- models/armor/chainmail_piglin_helmet.png
-- models/armor/diamond_piglin_helmet.png
-- models/armor/gold_piglin_helmet.png
-- models/armor/iron_piglin_helmet.png
-- models/armor/leather_piglin_helmet.png
-- models/armor/leather_piglin_helmet_overlay.png
-- models/armor/netherite_piglin_helmet.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ FlatLevelGeneratorSettings settings
-- StructureSettings structureSettings
-+ FlatLevelGeneratorSettings access$402(FlatLevelGeneratorSettings)
-+ FlatLevelGeneratorSettings fromString(FlatLevelGeneratorSettings)
-- FlatLevelGeneratorSettings fromString(StructureSettings)
-- StructureSettings access$402(StructureSettings)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ResourcePackSelectScreen</summary>
-
-```diff
-+ PackSelectionModel lambda$new$0(Runnable)
-+ void <init>(File)
-- PackSelectionModel lambda$new$1(Runnable)
-- void <init>(Runnable)
-- void lambda$null$0(List,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
-
-```diff
-+ void lambda$renderEntityInInventory$1(MultiBufferSource$BufferSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
-
-```diff
-+ Consumer output
-+ PackRepository repository
-- PackSelectionModel$CommitHandler output
-+ void <init>(Consumer)
-+ void commit()
-+ void findNewPacks()
-- void <init>(PackSelectionModel$CommitHandler)
-- void commit(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$IntegerRuleEntry</summary>
-
-```diff
-- Component label
-- List children
-- List children()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
-
-```diff
-+ void makeBackupAndShowToast(String)
-- boolean makeBackupAndShowToast(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
-
-```diff
-+ void queueLoadScreen()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
-
-```diff
-+ ModelPart createShallowCopy()
-+ void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger</summary>
-
-```diff
-+ void pingServer(Runnable)
-- void pingServer(ServerData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.WritableRegistry</summary>
-
-```diff
-+ void setPersistent(net.minecraft.resources.ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
-
-```diff
-+ ItemEntity spawnItem(Item,float,float,float)
-+ LivingEntity makeAboutToDrown(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtIo</summary>
-
-```diff
-- void safeWrite(File)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component</summary>
-
-```diff
-+ MutableComponent copy()
-+ MutableComponent plainCopy()
-- MutableComponent mutableCopy()
-- MutableComponent toMutable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
-
-```diff
-+ BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ NbtComponent$BlockNbtComponent plainCopy()
-- BaseComponent toMutable()
-- MutableComponent toMutable()
-- NbtComponent$BlockNbtComponent toMutable()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
-
-```diff
-+ BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ NbtComponent$StorageNbtComponent plainCopy()
-- BaseComponent toMutable()
-- MutableComponent toMutable()
-- NbtComponent$StorageNbtComponent toMutable()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
-
-```diff
-+ BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ SelectorComponent plainCopy()
-- BaseComponent toMutable()
-- MutableComponent toMutable()
-- SelectorComponent toMutable()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
-
-```diff
-+ BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ TranslatableComponent plainCopy()
-- BaseComponent toMutable()
-- MutableComponent toMutable()
-- TranslatableComponent toMutable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.Tag$1</summary>
-
-```diff
-- ImmutableList val$valuesList
-- Set val$valuesSet
-- boolean contains(Object)
-- List getValues()
-- void <init>(ImmutableList)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Codecs</summary>
-
-```diff
-+ MapCodec mapResult(Codecs$ResultFunction)
-+ MapCodec withDefault(Supplier)
-+ MapCodec withName(MapCodec)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
-
-```diff
-+ long nextScheduledStart
-+ Long2ObjectMap batchCache
-- int triedCount
-- long lastUpdate
-- Long2LongMap batchCache
-+ AcquirePoi$JitteredLinearRetry lambda$start$4(PathfinderMob,long,long)
-+ boolean lambda$null$2(BlockPos)
-+ boolean lambda$start$0(Long2ObjectMap$Entry)
-+ boolean lambda$start$1(BlockPos)
-+ void lambda$start$3(PoiType)
-- boolean lambda$null$1(BlockPos)
-- boolean lambda$start$0(BlockPos)
-- boolean lambda$start$3(Long2LongMap$Entry)
-- void lambda$start$2(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
-
-```diff
-+ Path createPath(Set,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
-
-```diff
-+ Optional lambda$getInChunk$2(Integer)
-+ Stream lambda$getInChunk$3(Optional)
-- Stream getInSection(PoiManager$Occupancy)
-- Stream lambda$getInChunk$2(Integer)
-- Stream lambda$getInSection$3(PoiSection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeHurtByOtherGoal</summary>
-
-```diff
-+ boolean canContinueToUse()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.SnowGolem</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Strider</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ boolean getSpawnAsBabyOdds(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Zombie$ZombieGroupData</summary>
-
-```diff
-+ boolean canSpawnJockey
-+ void <init>(boolean,boolean)
-- void <init>(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-+ int ticksUntilNextAlert
-+ IntRange ALERT_INTERVAL
-+ boolean isAlwaysExperienceDropper()
-+ boolean lambda$alertOthers$0(ZombifiedPiglin)
-+ boolean lambda$alertOthers$1(ZombifiedPiglin)
-+ boolean lambda$alertOthers$2(ZombifiedPiglin)
-+ void alertOthers()
-+ void lambda$alertOthers$3(ZombifiedPiglin)
-+ void maybeAlertOthers()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-+ boolean lambda$angerNearbyPiglins$3(Piglin)
-+ Optional getNearestVisibleTargetablePlayer(Piglin)
-+ void angerNearbyPiglins(Player,boolean)
-+ void broadcastUniversalAnger(Piglin)
-+ void lambda$angerNearbyPiglins$4(Piglin)
-+ void lambda$broadcastRetreat$11(Piglin)
-+ void lambda$broadcastUniversalAnger$10(Piglin)
-+ void lambda$null$9(Player)
-+ void setAngerTargetToNearestTargetablePlayerIfFound(LivingEntity)
-- boolean lambda$angerNearbyPiglinsThatSee$3(Piglin)
-- void angerNearbyPiglinsThatSee(Player)
-- void lambda$angerNearbyPiglinsThatSee$4(Piglin)
-- void lambda$broadcastRetreat$9(Piglin)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean isAffectedByFluids()
-+ void removeVehicle()
-- void stopRiding()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownEnderpearl</summary>
-
-```diff
-- LivingEntity originalOwner
-+ Entity changeDimension(ServerLevel)
-- Entity changeDimension(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
-
-```diff
-+ LevelAccessor level
-- ServerLevel level
-+ StructureFeatureManager forWorldGenRegion(WorldGenRegion)
-+ void <init>(WorldGenSettings)
-- void <init>(WorldGenSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
-
-```diff
-- boolean useShapeForLightOcclusion(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ boolean bedWorks
-+ boolean hasRaids
-+ boolean piglinSafe
-+ boolean respawnAnchorWorks
-+ DimensionType DEFAULT_OVERWORLD_CAVES
-+ int logicalHeight
-+ MapCodec DIRECT_CODEC
-+ ResourceKey OVERWORLD_CAVES_LOCATION
-+ ResourceLocation infiniburn
-- Codec BUILTIN_CODEC
-- Codec BUILTIN_OR_DIRECT_CODEC
-- Codec DIRECT_CODEC
-- Codec RESOURCE_KEY_CODEC
-- Map BUILTIN
-- Optional builtinKey
-- String fileSuffix
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ boolean bedWorks()
-+ boolean hasFixedTime()
-+ boolean hasRaids()
-+ boolean piglinSafe()
-+ boolean respawnAnchorWorks()
-+ DimensionType defaultOverworldCaves()
-+ DimensionType lambda$defaultDimensions$6()
-+ DimensionType lambda$defaultDimensions$7()
-+ Float lambda$null$4(DimensionType)
-+ int logicalHeight()
-+ ResourceLocation lambda$null$3(DimensionType)
-+ Tag infiniburn()
-+ void <init>(ResourceLocation,float)
-+ void <init>(ResourceLocation,float)
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- boolean isEnd()
-- boolean isNether()
-- boolean isOverworld()
-- DataResult lambda$null$5(ResourceKey)
-- DataResult lambda$null$7(DimensionType)
-- DataResult lambda$null$9(DimensionType)
-- DataResult lambda$static$10(Either)
-- DataResult lambda$static$11(DimensionType)
-- DataResult lambda$static$6(ResourceKey)
-- DataResult lambda$static$8(DimensionType)
-- DimensionType lambda$defaultDimensions$12()
-- DimensionType lambda$defaultDimensions$13()
-- Float lambda$null$3(DimensionType)
-- void <init>(Optional,float)
-- void <init>(OptionalLong,boolean,boolean,boolean,boolean,boolean,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ boolean validTreePos(BlockPos)
-+ int getMaxFreeTreeHeight(TreeConfiguration)
-- boolean validTreePos(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
-
-```diff
-+ FlatLevelGeneratorSettings withLayers(StructureSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.GlStateManager$ClearState
@@ -4503,1774 +2210,434 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
 
 ```diff
-- void trigger(PlayerAdvancements)
++ FlatLevelGeneratorSettings access$402(PresetFlatWorldScreen,FlatLevelGeneratorSettings)
++ FlatLevelGeneratorSettings fromString(String,FlatLevelGeneratorSettings)
+- FlatLevelGeneratorSettings fromString(String,StructureSettings)
+- StructureSettings access$402(PresetFlatWorldScreen,StructureSettings)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.DimensionArgument</summary>
+<details><summary>net.minecraft.client.gui.screens.ResourcePackSelectScreen</summary>
 
 ```diff
-+ ServerLevel getDimension(String)
-- ResourceKey getDimension(String)
++ PackSelectionModel lambda$new$0(PackRepository,Consumer,Runnable)
+- PackSelectionModel lambda$new$1(PackRepository,Options,Runnable,Runnable)
+- void <init>(Screen,Options,PackRepository,Runnable)
++ void <init>(Screen,PackRepository,Consumer,File)
+- void lambda$null$0(PackRepository,Options,Runnable,List,List,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
 
 ```diff
-+ Codec dataPackCodec(MapCodec)
-+ Codec directCodec(MapCodec)
-+ Codec networkCodec(MapCodec)
-- Codec dataPackCodec(Codec)
-- Codec directCodec(Codec)
-- Codec networkCodec(Codec)
++ void lambda$renderEntityInInventory$1(EntityRenderDispatcher,LivingEntity,PoseStack,MultiBufferSource$BufferSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
 
 ```diff
-+ boolean persistent(net.minecraft.resources.ResourceKey)
-+ Registry ATTRIBUTE
-+ ResourceKey ATTRIBUTE_REGISTRY
-- Registry ATTRIBUTES
-- ResourceKey ATTRIBUTES_REGISTRY
+- void <init>(Runnable,BiConsumer,Collection,Collection,PackSelectionModel$CommitHandler)
++ void <init>(Runnable,BiConsumer,PackRepository,Consumer)
++ void commit()
+- void commit(boolean)
++ void findNewPacks()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$IntegerRuleEntry</summary>
 
+```diff
+- List children()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
 
+```diff
+- boolean makeBackupAndShowToast(LevelStorageSource,String)
++ void makeBackupAndShowToast(LevelStorageSource,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
 
+```diff
++ void queueLoadScreen()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
 
+```diff
++ ModelPart createShallowCopy()
++ void <init>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger</summary>
 
+```diff
++ void pingServer(ServerData,Runnable)
+- void pingServer(ServerData)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
 
+```diff
++ ItemEntity spawnItem(Item,float,float,float)
++ LivingEntity makeAboutToDrown(LivingEntity)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.nbt.NbtIo</summary>
 
+```diff
+- void safeWrite(CompoundTag,File)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.BaseComponent</summary>
+<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
 
 ```diff
 + BaseComponent plainCopy()
 - BaseComponent toMutable()
-+ MutableComponent copy()
 + MutableComponent plainCopy()
-- MutableComponent mutableCopy()
 - MutableComponent toMutable()
++ NbtComponent$BlockNbtComponent plainCopy()
+- NbtComponent$BlockNbtComponent toMutable()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.KeybindComponent</summary>
+<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
 
 ```diff
 + BaseComponent plainCopy()
-+ KeybindComponent plainCopy()
-+ MutableComponent plainCopy()
 - BaseComponent toMutable()
-- KeybindComponent toMutable()
++ MutableComponent plainCopy()
 - MutableComponent toMutable()
++ NbtComponent$StorageNbtComponent plainCopy()
+- NbtComponent$StorageNbtComponent toMutable()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
+<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
 
 ```diff
 + BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ NbtComponent$EntityNbtComponent plainCopy()
 - BaseComponent toMutable()
++ MutableComponent plainCopy()
 - MutableComponent toMutable()
-- NbtComponent$EntityNbtComponent toMutable()
++ SelectorComponent plainCopy()
+- SelectorComponent toMutable()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.ScoreComponent</summary>
+
+<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
 
 ```diff
 + BaseComponent plainCopy()
-+ MutableComponent plainCopy()
-+ ScoreComponent plainCopy()
 - BaseComponent toMutable()
-- MutableComponent toMutable()
-- ScoreComponent toMutable()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.chat.TextComponent</summary>
-
-```diff
-+ BaseComponent plainCopy()
 + MutableComponent plainCopy()
-+ TextComponent plainCopy()
-- BaseComponent toMutable()
 - MutableComponent toMutable()
-- TextComponent toMutable()
++ TranslatableComponent plainCopy()
+- TranslatableComponent toMutable()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
+<details><summary>net.minecraft.tags.Tag$1</summary>
 
 ```diff
-+ ClientboundGameEventPacket$Type ARROW_HIT_PLAYER
-+ ClientboundGameEventPacket$Type CHANGE_GAME_MODE
-+ ClientboundGameEventPacket$Type DEMO_EVENT
-+ ClientboundGameEventPacket$Type event
-+ ClientboundGameEventPacket$Type GUARDIAN_ELDER_EFFECT
-+ ClientboundGameEventPacket$Type IMMEDIATE_RESPAWN
-+ ClientboundGameEventPacket$Type NO_RESPAWN_BLOCK_AVAILABLE
-+ ClientboundGameEventPacket$Type PUFFER_FISH_STING
-+ ClientboundGameEventPacket$Type RAIN_LEVEL_CHANGE
-+ ClientboundGameEventPacket$Type START_RAINING
-+ ClientboundGameEventPacket$Type STOP_RAINING
-+ ClientboundGameEventPacket$Type THUNDER_LEVEL_CHANGE
-+ ClientboundGameEventPacket$Type WIN_GAME
-- int event
-- String[] EVENT_LANGUAGE_ID
-+ ClientboundGameEventPacket$Type getEvent()
-+ void <init>(ClientboundGameEventPacket$Type,float)
-- int getEvent()
-- void <init>(int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.StaticTagHelper</summary>
-
-```diff
-+ List getWrappers()
+- boolean contains(Object)
+- List getValues()
+- void <init>(Set,ImmutableList)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ClassInstanceMultiMap</summary>
+<details><summary>net.minecraft.util.Codecs</summary>
 
 ```diff
-+ List getAllInstances()
++ MapCodec mapResult(MapCodec,Codecs$ResultFunction)
++ MapCodec withDefault(MapCodec,Consumer,Supplier)
++ MapCodec withName(ResourceKey,MapCodec)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.WorldGenSettingsFix</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
 
 ```diff
-+ Dynamic defaultOverworld(Dynamic,long)
-+ Object vanillaLevels(Dynamic,boolean)
++ AcquirePoi$JitteredLinearRetry lambda$start$4(PathfinderMob,long,long)
+- boolean lambda$null$1(BlockPos,BlockPos)
++ boolean lambda$null$2(BlockPos,BlockPos)
+- boolean lambda$start$0(BlockPos)
++ boolean lambda$start$0(long,Long2ObjectMap$Entry)
++ boolean lambda$start$1(long,BlockPos)
+- boolean lambda$start$3(Long2LongMap$Entry)
+- void lambda$start$2(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
++ void lambda$start$3(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
 
 ```diff
-+ boolean isTouchingLava
-+ boolean wasEyeInWater
-+ boolean wasTouchingWater
-+ Tag fluidOnEyes
-- boolean isInLava
-- boolean wasInWater
-- boolean wasUnderWater
-+ boolean isEyeInFluid(Tag)
-+ Entity changeDimension(ServerLevel)
-+ String lambda$fillCrashReportCategory$2()
-+ Style lambda$getDisplayName$6(Style)
++ Path createPath(Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
+
+```diff
++ Optional lambda$getInChunk$2(ChunkPos,Integer)
+- Stream getInSection(Predicate,long,PoiManager$Occupancy)
+- Stream lambda$getInChunk$2(Predicate,ChunkPos,PoiManager$Occupancy,Integer)
++ Stream lambda$getInChunk$3(Predicate,PoiManager$Occupancy,Optional)
+- Stream lambda$getInSection$3(Predicate,PoiManager$Occupancy,PoiSection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeHurtByOtherGoal</summary>
+
+```diff
++ boolean canContinueToUse()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.SnowGolem</summary>
+
+```diff
 + Vec3 getLeashOffset()
-+ void lambda$teleportTo$7(Entity)
-+ void updateFluidOnEyes()
-- boolean isUnderLiquid(Tag)
-- Entity changeDimension(ResourceKey)
-- String lambda$fillCrashReportCategory$6()
-- Style lambda$getDisplayName$7(Style)
-- Style lambda$removeAction$2(Style)
-- void lambda$teleportTo$8(Entity)
-- void updateUnderWaterState()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.Strider</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
+
+```diff
++ boolean getSpawnAsBabyOdds(Random)
+```
+
+</details>
 
 
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+<details><summary>net.minecraft.world.entity.monster.Zombie$ZombieGroupData</summary>
+
+```diff
++ void <init>(boolean,boolean)
+- void <init>(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
+
+```diff
++ boolean isAlwaysExperienceDropper()
++ boolean lambda$alertOthers$0(ZombifiedPiglin)
++ boolean lambda$alertOthers$1(ZombifiedPiglin)
++ boolean lambda$alertOthers$2(ZombifiedPiglin)
++ void alertOthers()
++ void lambda$alertOthers$3(ZombifiedPiglin)
++ void maybeAlertOthers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
+
+```diff
++ boolean lambda$angerNearbyPiglins$3(boolean,Player,Piglin)
+- boolean lambda$angerNearbyPiglinsThatSee$3(Player,Piglin)
++ Optional getNearestVisibleTargetablePlayer(Piglin)
++ void angerNearbyPiglins(Player,boolean)
+- void angerNearbyPiglinsThatSee(Player)
++ void broadcastUniversalAnger(Piglin)
++ void lambda$angerNearbyPiglins$4(Player,Piglin)
+- void lambda$angerNearbyPiglinsThatSee$4(Player,Piglin)
++ void lambda$broadcastRetreat$11(LivingEntity,Piglin)
+- void lambda$broadcastRetreat$9(LivingEntity,Piglin)
++ void lambda$broadcastUniversalAnger$10(Piglin)
++ void lambda$null$9(Piglin,Player)
++ void setAngerTargetToNearestTargetablePlayerIfFound(Piglin,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
 + boolean isAffectedByFluids()
++ void removeVehicle()
+- void stopRiding()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.NeutralMob</summary>
+<details><summary>net.minecraft.world.entity.projectile.ThrownEnderpearl</summary>
 
 ```diff
-+ boolean isAngryAtAllPlayers(Level)
-+ void forgetCurrentTargetAndRefreshUniversalAnger()
-+ void readPersistentAngerSaveData(CompoundTag)
-+ void stopBeingAngry()
-+ void updatePersistentAnger(ServerLevel,boolean)
-- void readPersistentAngerSaveData(CompoundTag)
-- void updatePersistentAnger()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Pig</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-+ Vec3 getLeashOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ Entity changeDimension(ServerLevel)
 - Entity changeDimension(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
-
-```diff
 + Entity changeDimension(ServerLevel)
-- Entity changeDimension(ResourceKey)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.npc.VillagerData</summary>
+<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
 
 ```diff
++ StructureFeatureManager forWorldGenRegion(WorldGenRegion)
++ void <init>(LevelAccessor,WorldGenSettings)
+- void <init>(ServerLevel,WorldGenSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
+
+```diff
+- boolean useShapeForLightOcclusion(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+
+```diff
+- App lambda$static$4(RecordCodecBuilder$Instance)
 + App lambda$static$5(RecordCodecBuilder$Instance)
-+ Integer lambda$null$4(VillagerData)
-+ VillagerProfession lambda$null$2()
-+ VillagerProfession lambda$null$3(VillagerData)
-+ VillagerType lambda$null$0()
-+ VillagerType lambda$null$1(VillagerData)
-- App lambda$static$3(RecordCodecBuilder$Instance)
-- Integer lambda$null$2(VillagerData)
-- VillagerProfession lambda$null$1(VillagerData)
-- VillagerType lambda$null$0(VillagerData)
++ boolean bedWorks()
++ boolean hasFixedTime()
++ boolean hasRaids()
+- boolean isEnd()
+- boolean isNether()
+- boolean isOverworld()
++ boolean piglinSafe()
++ boolean respawnAnchorWorks()
+- DataResult lambda$null$5(ResourceKey)
+- DataResult lambda$null$7(DimensionType)
+- DataResult lambda$null$9(DimensionType)
+- DataResult lambda$static$10(Either)
+- DataResult lambda$static$11(DimensionType)
+- DataResult lambda$static$6(ResourceKey)
+- DataResult lambda$static$8(DimensionType)
++ DimensionType defaultOverworldCaves()
+- DimensionType lambda$defaultDimensions$12()
+- DimensionType lambda$defaultDimensions$13()
++ DimensionType lambda$defaultDimensions$6()
++ DimensionType lambda$defaultDimensions$7()
+- Float lambda$null$3(DimensionType)
++ Float lambda$null$4(DimensionType)
++ int logicalHeight()
++ ResourceLocation lambda$null$3(DimensionType)
++ Tag infiniburn()
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,int,BiomeZoomer,ResourceLocation,float)
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean,int,ResourceLocation,float)
+- void <init>(OptionalLong,boolean,boolean,boolean,boolean,boolean,float)
+- void <init>(String,OptionalLong,boolean,boolean,boolean,boolean,boolean,boolean,BiomeZoomer,Optional,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
 
 ```diff
-+ Entity changeDimension(ServerLevel)
-- Entity changeDimension(ResourceKey)
++ boolean validTreePos(LevelSimulatedReader,BlockPos)
+- boolean validTreePos(LevelSimulatedRW,BlockPos)
++ int getMaxFreeTreeHeight(LevelSimulatedReader,int,BlockPos,TreeConfiguration)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BlockPlaceContext</summary>
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
 
 ```diff
-+ void <init>(BlockHitResult)
++ FlatLevelGeneratorSettings withLayers(List,StructureSettings)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.EntityGetter</summary>
-
-```diff
-+ Stream lambda$getEntityCollisions$1(Entity)
-- Stream lambda$getEntityCollisions$1(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
-
-```diff
-+ List mobsAt(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ boolean canSetSpawn(Level)
-- boolean canSetSpawn(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
-
-```diff
-+ boolean isSand(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
-
-```diff
-+ MapCodec CODEC
-- Codec CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
-
-```diff
-+ DimensionType lambda$withOverworld$2(LevelStem)
-+ MappedRegistry withOverworld(ChunkGenerator)
-- DimensionType lambda$withOverworld$2(DimensionType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket
@@ -7617,13 +3984,495 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
+
+```diff
+- void trigger(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.DimensionArgument</summary>
+
+```diff
+- ResourceKey getDimension(CommandContext,String)
++ ServerLevel getDimension(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
+- Codec dataPackCodec(ResourceKey,Lifecycle,Codec)
++ Codec dataPackCodec(ResourceKey,Lifecycle,MapCodec)
+- Codec directCodec(ResourceKey,Lifecycle,Codec)
++ Codec directCodec(ResourceKey,Lifecycle,MapCodec)
+- Codec networkCodec(ResourceKey,Lifecycle,Codec)
++ Codec networkCodec(ResourceKey,Lifecycle,MapCodec)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.BaseComponent</summary>
+
+```diff
++ MutableComponent copy()
+- MutableComponent mutableCopy()
++ MutableComponent plainCopy()
+- MutableComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.KeybindComponent</summary>
+
+```diff
++ BaseComponent plainCopy()
+- BaseComponent toMutable()
++ KeybindComponent plainCopy()
+- KeybindComponent toMutable()
++ MutableComponent plainCopy()
+- MutableComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
+
+```diff
++ BaseComponent plainCopy()
+- BaseComponent toMutable()
++ MutableComponent plainCopy()
+- MutableComponent toMutable()
++ NbtComponent$EntityNbtComponent plainCopy()
+- NbtComponent$EntityNbtComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ScoreComponent</summary>
+
+```diff
++ BaseComponent plainCopy()
+- BaseComponent toMutable()
++ MutableComponent plainCopy()
+- MutableComponent toMutable()
++ ScoreComponent plainCopy()
+- ScoreComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.TextComponent</summary>
+
+```diff
++ BaseComponent plainCopy()
+- BaseComponent toMutable()
++ MutableComponent plainCopy()
+- MutableComponent toMutable()
++ TextComponent plainCopy()
+- TextComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
+
+```diff
++ ClientboundGameEventPacket$Type getEvent()
+- int getEvent()
++ void <init>(ClientboundGameEventPacket$Type,float)
+- void <init>(int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.StaticTagHelper</summary>
+
+```diff
++ List getWrappers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ClassInstanceMultiMap</summary>
+
+```diff
++ List getAllInstances()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.WorldGenSettingsFix</summary>
+
+```diff
++ Dynamic defaultOverworld(Dynamic,long)
++ Object vanillaLevels(Dynamic,long,Dynamic,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean isEyeInFluid(Tag)
+- boolean isUnderLiquid(Tag)
+- Entity changeDimension(ResourceKey)
++ Entity changeDimension(ServerLevel)
++ String lambda$fillCrashReportCategory$2()
+- String lambda$fillCrashReportCategory$6()
++ Style lambda$getDisplayName$6(Style)
+- Style lambda$getDisplayName$7(Style)
+- Style lambda$removeAction$2(Style)
++ Vec3 getLeashOffset()
++ void lambda$teleportTo$7(ServerLevel,Entity)
+- void lambda$teleportTo$8(ServerLevel,Entity)
++ void updateFluidOnEyes()
+- void updateUnderWaterState()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean isAffectedByFluids()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.NeutralMob</summary>
+
+```diff
++ boolean isAngryAtAllPlayers(Level)
++ void forgetCurrentTargetAndRefreshUniversalAnger()
+- void readPersistentAngerSaveData(Level,CompoundTag)
++ void readPersistentAngerSaveData(ServerLevel,CompoundTag)
++ void stopBeingAngry()
+- void updatePersistentAnger()
++ void updatePersistentAnger(ServerLevel,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Pig</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
+- Entity changeDimension(ResourceKey)
++ Entity changeDimension(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+
+```diff
+- Entity changeDimension(ResourceKey)
++ Entity changeDimension(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.VillagerData</summary>
+
+```diff
+- App lambda$static$3(RecordCodecBuilder$Instance)
++ App lambda$static$5(RecordCodecBuilder$Instance)
+- Integer lambda$null$2(VillagerData)
++ Integer lambda$null$4(VillagerData)
+- VillagerProfession lambda$null$1(VillagerData)
++ VillagerProfession lambda$null$2()
++ VillagerProfession lambda$null$3(VillagerData)
++ VillagerType lambda$null$0()
+- VillagerType lambda$null$0(VillagerData)
++ VillagerType lambda$null$1(VillagerData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
+
+```diff
+- Entity changeDimension(ResourceKey)
++ Entity changeDimension(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BlockPlaceContext</summary>
+
+```diff
++ void <init>(Player,InteractionHand,ItemStack,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.EntityGetter</summary>
+
+```diff
++ Stream lambda$getEntityCollisions$1(Entity,AABB,Entity)
+- Stream lambda$getEntityCollisions$1(Entity,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
+
+```diff
++ List mobsAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,BlockPos,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+
+```diff
+- boolean canSetSpawn(Level,BlockPos)
++ boolean canSetSpawn(Level)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
+
+```diff
++ boolean isSand(BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
+
+```diff
+- DimensionType lambda$withOverworld$2(DimensionType)
++ DimensionType lambda$withOverworld$2(LevelStem)
++ MappedRegistry withOverworld(MappedRegistry,Supplier,ChunkGenerator)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/blocks/nether_portal.json
+- minecraft/structures/bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
+- minecraft/structures/bastion/hoglin_stable/stairs/stairs_2.nbt
+- minecraft/structures/bastion/hoglin_stable/stairs/stairs_3.nbt
++ minecraft/tags/blocks/infiniburn_end.json
++ minecraft/tags/blocks/infiniburn_nether.json
++ minecraft/tags/blocks/infiniburn_overworld.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/textures/models/armor/chainmail_piglin_helmet.png
+- minecraft/textures/models/armor/diamond_piglin_helmet.png
+- minecraft/textures/models/armor/gold_piglin_helmet.png
+- minecraft/textures/models/armor/iron_piglin_helmet.png
+- minecraft/textures/models/armor/leather_piglin_helmet_overlay.png
+- minecraft/textures/models/armor/leather_piglin_helmet.png
+- minecraft/textures/models/armor/netherite_piglin_helmet.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ attribute.txt
+- attributes.txt
+```
+
+</details>
+
+
+<details><summary>structure_processor.txt</summary>
+
+```diff
++ minecraft:lava_submerged_block
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/infiniburn_end.json
++ blocks/infiniburn_nether.json
++ blocks/infiniburn_overworld.json
+```
+
+</details>
+
+
+<details><summary>items/piglin_loved.json</summary>
+
+```diff
+- minecraft:gold_nugget
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ createWorld.preparing
+- key.swapHands
++ key.swapOffhand
++ selectWorld.data_read
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/nether_portal.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
+- bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
+- bastion/hoglin_stable/stairs/stairs_2.nbt
+- bastion/hoglin_stable/stairs/stairs_3.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/infiniburn_end.json
++ blocks/infiniburn_nether.json
++ blocks/infiniburn_overworld.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- models/armor/chainmail_piglin_helmet.png
+- models/armor/diamond_piglin_helmet.png
+- models/armor/gold_piglin_helmet.png
+- models/armor/iron_piglin_helmet.png
+- models/armor/leather_piglin_helmet_overlay.png
+- models/armor/leather_piglin_helmet.png
+- models/armor/netherite_piglin_helmet.png
+```
+
+</details>

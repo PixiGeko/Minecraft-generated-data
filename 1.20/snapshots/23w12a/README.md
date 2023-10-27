@@ -1,5153 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w12a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w12a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-03-22T13:28:42+00:00</td></tr>
-<tr><th>SHA1</th><td>67419a7dfcfe5fd53cbcefdaf5ab863286b6091d</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/67419a7dfcfe5fd53cbcefdaf5ab863286b6091d/23w12a.json">https://piston-meta.mojang.com/v1/packages/67419a7dfcfe5fd53cbcefdaf5ab863286b6091d/23w12a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json">https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json</a></td></tr>
+<tr><th>SHA1</th><td>089d1bae1ff223115903181ed6291a421e35d8c7</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/089d1bae1ff223115903181ed6291a421e35d8c7/23w12a.json">https://piston-meta.mojang.com/v1/packages/089d1bae1ff223115903181ed6291a421e35d8c7/23w12a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json">https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/92fdef90109e534d47e378124ab86e2d6d7b3a42/server.jar">https://piston-data.mojang.com/v1/objects/92fdef90109e534d47e378124ab86e2d6d7b3a42/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1e74e50869a8510dff62dc2d78d57c81ca7363f9/server.txt">https://piston-data.mojang.com/v1/objects/1e74e50869a8510dff62dc2d78d57c81ca7363f9/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ae5c2b421148e263f81720a1d5d14fbc3db45f53/client.jar">https://piston-data.mojang.com/v1/objects/ae5c2b421148e263f81720a1d5d14fbc3db45f53/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ce4b36810722e22e76c858dcf8edd09f15ea17a7/client.txt">https://piston-data.mojang.com/v1/objects/ce4b36810722e22e76c858dcf8edd09f15ea17a7/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19.4">1.19.4</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/bamboo_block.json
-+  minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
-+  minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
-+  minecraft/advancements/recipes/building_blocks/bamboo_planks.json
-+  minecraft/advancements/recipes/building_blocks/bamboo_slab.json
-+  minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
-+  minecraft/advancements/recipes/building_blocks/cherry_planks.json
-+  minecraft/advancements/recipes/building_blocks/cherry_slab.json
-+  minecraft/advancements/recipes/building_blocks/cherry_stairs.json
-+  minecraft/advancements/recipes/building_blocks/cherry_wood.json
-+  minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
-+  minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
-+  minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/bamboo_fence.json
-+  minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/bamboo_mosaic.json
-+  minecraft/advancements/recipes/decorations/bamboo_sign.json
-+  minecraft/advancements/recipes/decorations/birch_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/cherry_fence.json
-+  minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/cherry_sign.json
-+  minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/decorated_pot_simple.json
-+  minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/oak_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
-+  minecraft/advancements/recipes/decorations/warped_hanging_sign.json
-+  minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/cyan_dye_from_pitcher_plant.json
-+  minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/host_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/host_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
-+  minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
-+  minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
-+  minecraft/advancements/recipes/misc/raiser_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/raiser_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/shaper_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/shaper_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/silence_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/silence_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/wayfinder_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
-+  minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/advancements/recipes/redstone/bamboo_button.json
-+  minecraft/advancements/recipes/redstone/bamboo_door.json
-+  minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
-+  minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
-+  minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
-+  minecraft/advancements/recipes/redstone/calibrated_sculk_sensor.json
-+  minecraft/advancements/recipes/redstone/cherry_button.json
-+  minecraft/advancements/recipes/redstone/cherry_door.json
-+  minecraft/advancements/recipes/redstone/cherry_fence_gate.json
-+  minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
-+  minecraft/advancements/recipes/redstone/cherry_trapdoor.json
-+  minecraft/advancements/recipes/tools/brush.json
-+  minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
-+  minecraft/advancements/recipes/transportation/bamboo_raft.json
-+  minecraft/advancements/recipes/transportation/cherry_boat.json
-+  minecraft/advancements/recipes/transportation/cherry_chest_boat.json
--  minecraft/datapacks/update_1_20
--  minecraft/datapacks/update_1_20/data
--  minecraft/datapacks/update_1_20/data/minecraft
--  minecraft/datapacks/update_1_20/data/minecraft/advancements
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure/adventuring_time.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/bred_all_animals.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_block.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_boots_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_sword_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_mosaic.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/birch_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/decorated_pot_simple.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/warped_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/brush.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_axe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_raft.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_boat.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_chest_boat.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_pyramid.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_well.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/acacia_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_block.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/birch_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_leaves.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_log.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sapling.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/chiseled_bookshelf.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/crimson_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/decorated_pot.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/jungle_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/mangrove_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/piglin_head.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/pink_petals.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_cherry_sapling.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_torchflower.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/spruce_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_bamboo_block.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_log.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/suspicious_sand.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower_crop.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/warped_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/ancient_city.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_bridge.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_other.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_treasure.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/desert_pyramid.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/end_city_treasure.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/jungle_temple.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/nether_bridge.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/pillager_outpost.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_map.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_supply.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_treasure.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_corridor.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_library.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/woodland_mansion.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/camel.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/elder_guardian.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/sniffer.json
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing
--  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing/fish.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/acacia_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_block.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_chest_raft.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_raft.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/birch_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/brush.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_boat.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_button.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_chest_boat.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_door.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence_gate.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_pressure_plate.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_slab.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_trapdoor.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/chiseled_bookshelf.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/crimson_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/dark_oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot_simple.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/jungle_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/mangrove_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_axe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_boots_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_chestplate_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_helmet_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_hoe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_leggings_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_pickaxe_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_shovel_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_sword_smithing.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_upgrade_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/oak_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/orange_dye_from_torchflower.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/pink_dye_from_pink_petals.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/spruce_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/stripped_cherry_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/warped_hanging_sign.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template.json
--  minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/axe.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/hoe.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_hanging_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/bamboo_blocks.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/ceiling_hanging_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/cherry_logs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/crops.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/fence_gates.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flower_pots.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flowers.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/inside_step_sound_blocks.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/leaves.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/logs_that_burn.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/overworld_natural_logs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sand.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/saplings.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/small_flowers.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sniffer_diggable_block.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/standing_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_hanging_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_buttons.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_doors.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_fences.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_pressure_plates.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_slabs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_trapdoors.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/bamboo_blocks.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/boats.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/bookshelf_books.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/breaks_decorated_pots.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/cherry_logs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/chest_boats.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/decorated_pot_shards.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/fence_gates.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/flowers.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/hanging_signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/leaves.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/logs_that_burn.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/non_flammable_wood.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/noteblock_top_instruments.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/sand.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/saplings.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/signs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/small_flowers.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/sniffer_food.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_materials.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_templates.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trimmable_armor.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_buttons.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_doors.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_fences.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_pressure_plates.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_slabs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_trapdoors.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen
--  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome
--  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome/is_mountain.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/amethyst.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/copper.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/diamond.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/emerald.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/gold.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/iron.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/lapis.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/netherite.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/quartz.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_material/redstone.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/coast.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/dune.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/eye.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/rib.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/sentry.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/snout.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/spire.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/tide.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/vex.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/ward.json
--  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/wild.json
--  minecraft/datapacks/update_1_20/data/minecraft/worldgen
--  minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome
--  minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome/cherry_grove.json
--  minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list
--  minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
--  minecraft/datapacks/update_1_20/pack.mcmeta
-+  minecraft/loot_tables/archaeology
-+  minecraft/loot_tables/archaeology/desert_pyramid.json
-+  minecraft/loot_tables/archaeology/desert_well.json
-+  minecraft/loot_tables/archaeology/ocean_ruin_cold.json
-+  minecraft/loot_tables/archaeology/ocean_ruin_warm.json
-+  minecraft/loot_tables/archaeology/trail_ruins.json
-+  minecraft/loot_tables/blocks/calibrated_sculk_sensor.json
-+  minecraft/loot_tables/blocks/pitcher_crop.json
-+  minecraft/loot_tables/blocks/pitcher_plant.json
-+  minecraft/loot_tables/blocks/sniffer_egg.json
-+  minecraft/loot_tables/blocks/suspicious_gravel.json
-+  minecraft/recipes/acacia_hanging_sign.json
-+  minecraft/recipes/bamboo_block.json
-+  minecraft/recipes/bamboo_button.json
-+  minecraft/recipes/bamboo_chest_raft.json
-+  minecraft/recipes/bamboo_door.json
-+  minecraft/recipes/bamboo_fence.json
-+  minecraft/recipes/bamboo_fence_gate.json
-+  minecraft/recipes/bamboo_hanging_sign.json
-+  minecraft/recipes/bamboo_mosaic.json
-+  minecraft/recipes/bamboo_mosaic_slab.json
-+  minecraft/recipes/bamboo_mosaic_stairs.json
-+  minecraft/recipes/bamboo_planks.json
-+  minecraft/recipes/bamboo_pressure_plate.json
-+  minecraft/recipes/bamboo_raft.json
-+  minecraft/recipes/bamboo_sign.json
-+  minecraft/recipes/bamboo_slab.json
-+  minecraft/recipes/bamboo_stairs.json
-+  minecraft/recipes/bamboo_trapdoor.json
-+  minecraft/recipes/birch_hanging_sign.json
-+  minecraft/recipes/brush.json
-+  minecraft/recipes/calibrated_sculk_sensor.json
-+  minecraft/recipes/cherry_boat.json
-+  minecraft/recipes/cherry_button.json
-+  minecraft/recipes/cherry_chest_boat.json
-+  minecraft/recipes/cherry_door.json
-+  minecraft/recipes/cherry_fence.json
-+  minecraft/recipes/cherry_fence_gate.json
-+  minecraft/recipes/cherry_hanging_sign.json
-+  minecraft/recipes/cherry_planks.json
-+  minecraft/recipes/cherry_pressure_plate.json
-+  minecraft/recipes/cherry_sign.json
-+  minecraft/recipes/cherry_slab.json
-+  minecraft/recipes/cherry_stairs.json
-+  minecraft/recipes/cherry_trapdoor.json
-+  minecraft/recipes/cherry_wood.json
-+  minecraft/recipes/chiseled_bookshelf.json
-+  minecraft/recipes/coast_armor_trim_smithing_template.json
-+  minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/crimson_hanging_sign.json
-+  minecraft/recipes/cyan_dye_from_pitcher_plant.json
-+  minecraft/recipes/dark_oak_hanging_sign.json
-+  minecraft/recipes/decorated_pot.json
-+  minecraft/recipes/decorated_pot_simple.json
-+  minecraft/recipes/dune_armor_trim_smithing_template.json
-+  minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/eye_armor_trim_smithing_template.json
-+  minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/host_armor_trim_smithing_template.json
-+  minecraft/recipes/host_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/jungle_hanging_sign.json
-+  minecraft/recipes/mangrove_hanging_sign.json
-+  minecraft/recipes/netherite_upgrade_smithing_template.json
-+  minecraft/recipes/oak_hanging_sign.json
-+  minecraft/recipes/orange_dye_from_torchflower.json
-+  minecraft/recipes/pink_dye_from_pink_petals.json
-+  minecraft/recipes/raiser_armor_trim_smithing_template.json
-+  minecraft/recipes/raiser_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/rib_armor_trim_smithing_template.json
-+  minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/sentry_armor_trim_smithing_template.json
-+  minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/shaper_armor_trim_smithing_template.json
-+  minecraft/recipes/shaper_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/silence_armor_trim_smithing_template.json
-+  minecraft/recipes/silence_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/snout_armor_trim_smithing_template.json
-+  minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/spire_armor_trim_smithing_template.json
-+  minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/spruce_hanging_sign.json
-+  minecraft/recipes/stripped_cherry_wood.json
-+  minecraft/recipes/tide_armor_trim_smithing_template.json
-+  minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/vex_armor_trim_smithing_template.json
-+  minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/ward_armor_trim_smithing_template.json
-+  minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/warped_hanging_sign.json
-+  minecraft/recipes/wayfinder_armor_trim_smithing_template.json
-+  minecraft/recipes/wayfinder_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/recipes/wild_armor_trim_smithing_template.json
-+  minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/structures/trail_ruins
-+  minecraft/structures/trail_ruins/buildings
-+  minecraft/structures/trail_ruins/buildings/group_entrance_three_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_entrance_two_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_entrance_two_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_one_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_one_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_two_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_two_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_two_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_two_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_two_5.nbt
-+  minecraft/structures/trail_ruins/buildings/large_room_1.nbt
-+  minecraft/structures/trail_ruins/buildings/large_room_2.nbt
-+  minecraft/structures/trail_ruins/buildings/large_room_3.nbt
-+  minecraft/structures/trail_ruins/buildings/one_room_1.nbt
-+  minecraft/structures/trail_ruins/buildings/one_room_2.nbt
-+  minecraft/structures/trail_ruins/buildings/one_room_3.nbt
-+  minecraft/structures/trail_ruins/buildings/one_room_4.nbt
-+  minecraft/structures/trail_ruins/decor
-+  minecraft/structures/trail_ruins/decor/decor_1.nbt
-+  minecraft/structures/trail_ruins/decor/decor_2.nbt
-+  minecraft/structures/trail_ruins/decor/decor_3.nbt
-+  minecraft/structures/trail_ruins/decor/decor_4.nbt
-+  minecraft/structures/trail_ruins/decor/decor_5.nbt
-+  minecraft/structures/trail_ruins/decor/decor_6.nbt
-+  minecraft/structures/trail_ruins/roads
-+  minecraft/structures/trail_ruins/roads/long_road_end.nbt
-+  minecraft/structures/trail_ruins/roads/road_end_1.nbt
-+  minecraft/structures/trail_ruins/roads/road_end_1s.nbt
-+  minecraft/structures/trail_ruins/roads/road_section_1.nbt
-+  minecraft/structures/trail_ruins/roads/road_section_2.nbt
-+  minecraft/structures/trail_ruins/roads/road_section_3.nbt
-+  minecraft/structures/trail_ruins/roads/road_section_4.nbt
-+  minecraft/structures/trail_ruins/roads/road_spacer_1.nbt
-+  minecraft/structures/trail_ruins/tower
-+  minecraft/structures/trail_ruins/tower/hall_1.nbt
-+  minecraft/structures/trail_ruins/tower/hall_2.nbt
-+  minecraft/structures/trail_ruins/tower/large_hall_1.nbt
-+  minecraft/structures/trail_ruins/tower/large_hall_2.nbt
-+  minecraft/structures/trail_ruins/tower/one_room_1.nbt
-+  minecraft/structures/trail_ruins/tower/platform_1.nbt
-+  minecraft/structures/trail_ruins/tower/stable_1.nbt
-+  minecraft/structures/trail_ruins/tower/tower_1.nbt
-+  minecraft/structures/trail_ruins/tower/tower_2.nbt
-+  minecraft/structures/trail_ruins/tower/tower_3.nbt
-+  minecraft/tags/blocks/all_hanging_signs.json
-+  minecraft/tags/blocks/bamboo_blocks.json
-+  minecraft/tags/blocks/ceiling_hanging_signs.json
-+  minecraft/tags/blocks/cherry_logs.json
-+  minecraft/tags/blocks/combination_step_sound_blocks.json
-+  minecraft/tags/blocks/sniffer_diggable_block.json
-+  minecraft/tags/blocks/sniffer_egg_hatch_boost.json
-+  minecraft/tags/blocks/trail_ruins_replaceable.json
-+  minecraft/tags/blocks/vibration_resonators.json
-+  minecraft/tags/blocks/wall_hanging_signs.json
-+  minecraft/tags/items/bamboo_blocks.json
-+  minecraft/tags/items/bookshelf_books.json
-+  minecraft/tags/items/breaks_decorated_pots.json
-+  minecraft/tags/items/cherry_logs.json
-+  minecraft/tags/items/decorated_pot_shards.json
-+  minecraft/tags/items/hanging_signs.json
-+  minecraft/tags/items/noteblock_top_instruments.json
-+  minecraft/tags/items/sniffer_food.json
-+  minecraft/tags/items/trim_materials.json
-+  minecraft/tags/items/trim_templates.json
-+  minecraft/tags/items/trimmable_armor.json
-+  minecraft/tags/worldgen/biome/has_structure/trail_ruins.json
-+  minecraft/trim_material
-+  minecraft/trim_material/amethyst.json
-+  minecraft/trim_material/copper.json
-+  minecraft/trim_material/diamond.json
-+  minecraft/trim_material/emerald.json
-+  minecraft/trim_material/gold.json
-+  minecraft/trim_material/iron.json
-+  minecraft/trim_material/lapis.json
-+  minecraft/trim_material/netherite.json
-+  minecraft/trim_material/quartz.json
-+  minecraft/trim_material/redstone.json
-+  minecraft/trim_pattern
-+  minecraft/trim_pattern/coast.json
-+  minecraft/trim_pattern/dune.json
-+  minecraft/trim_pattern/eye.json
-+  minecraft/trim_pattern/host.json
-+  minecraft/trim_pattern/raiser.json
-+  minecraft/trim_pattern/rib.json
-+  minecraft/trim_pattern/sentry.json
-+  minecraft/trim_pattern/shaper.json
-+  minecraft/trim_pattern/silence.json
-+  minecraft/trim_pattern/snout.json
-+  minecraft/trim_pattern/spire.json
-+  minecraft/trim_pattern/tide.json
-+  minecraft/trim_pattern/vex.json
-+  minecraft/trim_pattern/ward.json
-+  minecraft/trim_pattern/wayfinder.json
-+  minecraft/trim_pattern/wild.json
-+  minecraft/worldgen/biome/cherry_grove.json
-+  minecraft/worldgen/processor_list/trail_ruins_suspicious_sand.json
-+  minecraft/worldgen/structure/trail_ruins.json
-+  minecraft/worldgen/structure_set/trail_ruins.json
-+  minecraft/worldgen/template_pool/trail_ruins
-+  minecraft/worldgen/template_pool/trail_ruins/buildings
-+  minecraft/worldgen/template_pool/trail_ruins/buildings/grouped.json
-+  minecraft/worldgen/template_pool/trail_ruins/tower
-+  minecraft/worldgen/template_pool/trail_ruins/tower/additions.json
-+  minecraft/worldgen/template_pool/trail_ruins/buildings.json
-+  minecraft/worldgen/template_pool/trail_ruins/decor.json
-+  minecraft/worldgen/template_pool/trail_ruins/roads.json
-+  minecraft/worldgen/template_pool/trail_ruins/tower.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/calibrated_sculk_sensor.json
-+  minecraft/blockstates/pitcher_crop.json
-+  minecraft/blockstates/pitcher_plant.json
-+  minecraft/blockstates/sniffer_egg.json
-+  minecraft/blockstates/suspicious_gravel.json
-+  minecraft/models/block/calibrated_sculk_sensor.json
-+  minecraft/models/block/calibrated_sculk_sensor_active.json
-+  minecraft/models/block/calibrated_sculk_sensor_inactive.json
-+  minecraft/models/block/pitcher_crop_bottom_stage_0.json
-+  minecraft/models/block/pitcher_crop_bottom_stage_1.json
-+  minecraft/models/block/pitcher_crop_bottom_stage_2.json
-+  minecraft/models/block/pitcher_crop_bottom_stage_3.json
-+  minecraft/models/block/pitcher_crop_bottom_stage_4.json
-+  minecraft/models/block/pitcher_crop_top_stage_0.json
-+  minecraft/models/block/pitcher_crop_top_stage_1.json
-+  minecraft/models/block/pitcher_crop_top_stage_2.json
-+  minecraft/models/block/pitcher_crop_top_stage_3.json
-+  minecraft/models/block/pitcher_crop_top_stage_4.json
-+  minecraft/models/block/pitcher_plant_bottom.json
-+  minecraft/models/block/pitcher_plant_top.json
-+  minecraft/models/block/sniffer_egg.json
-+  minecraft/models/block/sniffer_egg_not_cracked.json
-+  minecraft/models/block/sniffer_egg_slightly_cracked.json
-+  minecraft/models/block/sniffer_egg_very_cracked.json
-+  minecraft/models/block/suspicious_gravel_0.json
-+  minecraft/models/block/suspicious_gravel_1.json
-+  minecraft/models/block/suspicious_gravel_2.json
-+  minecraft/models/block/suspicious_gravel_3.json
-+  minecraft/models/item/angler_pottery_shard.json
-+  minecraft/models/item/archer_pottery_shard.json
-+  minecraft/models/item/arms_up_pottery_shard.json
-+  minecraft/models/item/blade_pottery_shard.json
-+  minecraft/models/item/brewer_pottery_shard.json
-+  minecraft/models/item/burn_pottery_shard.json
-+  minecraft/models/item/calibrated_sculk_sensor.json
-+  minecraft/models/item/danger_pottery_shard.json
-+  minecraft/models/item/explorer_pottery_shard.json
-+  minecraft/models/item/friend_pottery_shard.json
-+  minecraft/models/item/heart_pottery_shard.json
-+  minecraft/models/item/heartbreak_pottery_shard.json
-+  minecraft/models/item/host_armor_trim_smithing_template.json
-+  minecraft/models/item/howl_pottery_shard.json
-+  minecraft/models/item/miner_pottery_shard.json
-+  minecraft/models/item/mourner_pottery_shard.json
-+  minecraft/models/item/pitcher_plant.json
-+  minecraft/models/item/pitcher_pod.json
-+  minecraft/models/item/plenty_pottery_shard.json
--  minecraft/models/item/pottery_shard_archer.json
--  minecraft/models/item/pottery_shard_arms_up.json
--  minecraft/models/item/pottery_shard_prize.json
--  minecraft/models/item/pottery_shard_skull.json
-+  minecraft/models/item/prize_pottery_shard.json
-+  minecraft/models/item/raiser_armor_trim_smithing_template.json
-+  minecraft/models/item/shaper_armor_trim_smithing_template.json
-+  minecraft/models/item/sheaf_pottery_shard.json
-+  minecraft/models/item/shelter_pottery_shard.json
-+  minecraft/models/item/silence_armor_trim_smithing_template.json
-+  minecraft/models/item/skull_pottery_shard.json
-+  minecraft/models/item/sniffer_egg.json
-+  minecraft/models/item/snort_pottery_shard.json
-+  minecraft/models/item/suspicious_gravel.json
-+  minecraft/models/item/wayfinder_armor_trim_smithing_template.json
-+  minecraft/particles/cherry_leaves.json
--  minecraft/particles/dripping_cherry_leaves.json
-+  minecraft/particles/egg_crack.json
--  minecraft/particles/falling_cherry_leaves.json
--  minecraft/particles/landing_cherry_leaves.json
-+  minecraft/textures/block/calibrated_sculk_sensor_amethyst.png
-+  minecraft/textures/block/calibrated_sculk_sensor_input_side.png
-+  minecraft/textures/block/calibrated_sculk_sensor_top.png
-+  minecraft/textures/block/pitcher_crop_bottom.png
-+  minecraft/textures/block/pitcher_crop_bottom_stage_1.png
-+  minecraft/textures/block/pitcher_crop_bottom_stage_2.png
-+  minecraft/textures/block/pitcher_crop_bottom_stage_3.png
-+  minecraft/textures/block/pitcher_crop_bottom_stage_4.png
-+  minecraft/textures/block/pitcher_crop_side.png
-+  minecraft/textures/block/pitcher_crop_top.png
-+  minecraft/textures/block/pitcher_crop_top_stage_3.png
-+  minecraft/textures/block/pitcher_crop_top_stage_4.png
-+  minecraft/textures/block/sniffer_egg_not_cracked.png
-+  minecraft/textures/block/sniffer_egg_slightly_cracked.png
-+  minecraft/textures/block/sniffer_egg_very_cracked.png
-+  minecraft/textures/block/suspicious_gravel_0.png
-+  minecraft/textures/block/suspicious_gravel_1.png
-+  minecraft/textures/block/suspicious_gravel_2.png
-+  minecraft/textures/block/suspicious_gravel_3.png
-+  minecraft/textures/entity/decorated_pot/angler_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/archer_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/arms_up_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/blade_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/brewer_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/burn_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/danger_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/explorer_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/friend_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/heart_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/heartbreak_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/howl_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/miner_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/mourner_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/plenty_pottery_pattern.png
--  minecraft/textures/entity/decorated_pot/pottery_pattern_archer.png
--  minecraft/textures/entity/decorated_pot/pottery_pattern_arms_up.png
--  minecraft/textures/entity/decorated_pot/pottery_pattern_prize.png
--  minecraft/textures/entity/decorated_pot/pottery_pattern_skull.png
-+  minecraft/textures/entity/decorated_pot/prize_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/sheaf_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/shelter_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/skull_pottery_pattern.png
-+  minecraft/textures/entity/decorated_pot/snort_pottery_pattern.png
-+  minecraft/textures/item/angler_pottery_shard.png
-+  minecraft/textures/item/archer_pottery_shard.png
-+  minecraft/textures/item/arms_up_pottery_shard.png
-+  minecraft/textures/item/blade_pottery_shard.png
-+  minecraft/textures/item/brewer_pottery_shard.png
-+  minecraft/textures/item/burn_pottery_shard.png
-+  minecraft/textures/item/danger_pottery_shard.png
-+  minecraft/textures/item/explorer_pottery_shard.png
-+  minecraft/textures/item/friend_pottery_shard.png
-+  minecraft/textures/item/heart_pottery_shard.png
-+  minecraft/textures/item/heartbreak_pottery_shard.png
-+  minecraft/textures/item/host_armor_trim_smithing_template.png
-+  minecraft/textures/item/howl_pottery_shard.png
-+  minecraft/textures/item/miner_pottery_shard.png
-+  minecraft/textures/item/mourner_pottery_shard.png
-+  minecraft/textures/item/pitcher_plant.png
-+  minecraft/textures/item/pitcher_pod.png
-+  minecraft/textures/item/plenty_pottery_shard.png
--  minecraft/textures/item/pottery_shard_archer.png
--  minecraft/textures/item/pottery_shard_arms_up.png
--  minecraft/textures/item/pottery_shard_prize.png
--  minecraft/textures/item/pottery_shard_skull.png
-+  minecraft/textures/item/prize_pottery_shard.png
-+  minecraft/textures/item/raiser_armor_trim_smithing_template.png
-+  minecraft/textures/item/shaper_armor_trim_smithing_template.png
-+  minecraft/textures/item/sheaf_pottery_shard.png
-+  minecraft/textures/item/shelter_pottery_shard.png
-+  minecraft/textures/item/silence_armor_trim_smithing_template.png
-+  minecraft/textures/item/skull_pottery_shard.png
-+  minecraft/textures/item/sniffer_egg.png
-+  minecraft/textures/item/snort_pottery_shard.png
-+  minecraft/textures/item/wayfinder_armor_trim_smithing_template.png
-+  minecraft/textures/particle/cherry_0.png
-+  minecraft/textures/particle/cherry_1.png
-+  minecraft/textures/particle/cherry_10.png
-+  minecraft/textures/particle/cherry_11.png
-+  minecraft/textures/particle/cherry_2.png
-+  minecraft/textures/particle/cherry_3.png
-+  minecraft/textures/particle/cherry_4.png
-+  minecraft/textures/particle/cherry_5.png
-+  minecraft/textures/particle/cherry_6.png
-+  minecraft/textures/particle/cherry_7.png
-+  minecraft/textures/particle/cherry_8.png
-+  minecraft/textures/particle/cherry_9.png
-+  minecraft/textures/particle/goldheart_0.png
-+  minecraft/textures/particle/goldheart_1.png
-+  minecraft/textures/particle/goldheart_2.png
-+  minecraft/textures/trims/models/armor/host.png
-+  minecraft/textures/trims/models/armor/host_leggings.png
-+  minecraft/textures/trims/models/armor/raiser.png
-+  minecraft/textures/trims/models/armor/raiser_leggings.png
-+  minecraft/textures/trims/models/armor/shaper.png
-+  minecraft/textures/trims/models/armor/shaper_leggings.png
-+  minecraft/textures/trims/models/armor/silence.png
-+  minecraft/textures/trims/models/armor/silence_leggings.png
-+  minecraft/textures/trims/models/armor/wayfinder.png
-+  minecraft/textures/trims/models/armor/wayfinder_leggings.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
--  reports/biome_parameters/minecraft/overworld_update_1_20.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ rule_block_entity_modifier.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:calibrated_sculk_sensor
-+ minecraft:pitcher_crop
-+ minecraft:pitcher_plant
-+ minecraft:sniffer_egg
-+ minecraft:suspicious_gravel
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-- minecraft:suspicious_sand
-+ minecraft:brushable_block
-+ minecraft:calibrated_sculk_sensor
-```
-
-</details>
-
-<details><summary>decorated_pot_patterns.txt</summary>
-
-```diff
-- minecraft:pottery_pattern_archer
-- minecraft:pottery_pattern_arms_up
-- minecraft:pottery_pattern_prize
-- minecraft:pottery_pattern_skull
-+ minecraft:angler_pottery_pattern
-+ minecraft:archer_pottery_pattern
-+ minecraft:arms_up_pottery_pattern
-+ minecraft:blade_pottery_pattern
-+ minecraft:brewer_pottery_pattern
-+ minecraft:burn_pottery_pattern
-+ minecraft:danger_pottery_pattern
-+ minecraft:explorer_pottery_pattern
-+ minecraft:friend_pottery_pattern
-+ minecraft:heart_pottery_pattern
-+ minecraft:heartbreak_pottery_pattern
-+ minecraft:howl_pottery_pattern
-+ minecraft:miner_pottery_pattern
-+ minecraft:mourner_pottery_pattern
-+ minecraft:plenty_pottery_pattern
-+ minecraft:prize_pottery_pattern
-+ minecraft:sheaf_pottery_pattern
-+ minecraft:shelter_pottery_pattern
-+ minecraft:skull_pottery_pattern
-+ minecraft:snort_pottery_pattern
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-- minecraft:dispense_fail
-- minecraft:piston_contract
-- minecraft:piston_extend
-+ minecraft:resonate_1
-+ minecraft:resonate_10
-+ minecraft:resonate_11
-+ minecraft:resonate_12
-+ minecraft:resonate_13
-+ minecraft:resonate_14
-+ minecraft:resonate_15
-+ minecraft:resonate_2
-+ minecraft:resonate_3
-+ minecraft:resonate_4
-+ minecraft:resonate_5
-+ minecraft:resonate_6
-+ minecraft:resonate_7
-+ minecraft:resonate_8
-+ minecraft:resonate_9
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:pottery_shard_archer
-- minecraft:pottery_shard_arms_up
-- minecraft:pottery_shard_prize
-- minecraft:pottery_shard_skull
-+ minecraft:angler_pottery_shard
-+ minecraft:archer_pottery_shard
-+ minecraft:arms_up_pottery_shard
-+ minecraft:blade_pottery_shard
-+ minecraft:brewer_pottery_shard
-+ minecraft:burn_pottery_shard
-+ minecraft:calibrated_sculk_sensor
-+ minecraft:danger_pottery_shard
-+ minecraft:explorer_pottery_shard
-+ minecraft:friend_pottery_shard
-+ minecraft:heart_pottery_shard
-+ minecraft:heartbreak_pottery_shard
-+ minecraft:host_armor_trim_smithing_template
-+ minecraft:howl_pottery_shard
-+ minecraft:miner_pottery_shard
-+ minecraft:mourner_pottery_shard
-+ minecraft:pitcher_plant
-+ minecraft:pitcher_pod
-+ minecraft:plenty_pottery_shard
-+ minecraft:prize_pottery_shard
-+ minecraft:raiser_armor_trim_smithing_template
-+ minecraft:shaper_armor_trim_smithing_template
-+ minecraft:sheaf_pottery_shard
-+ minecraft:shelter_pottery_shard
-+ minecraft:silence_armor_trim_smithing_template
-+ minecraft:skull_pottery_shard
-+ minecraft:sniffer_egg
-+ minecraft:snort_pottery_shard
-+ minecraft:suspicious_gravel
-+ minecraft:wayfinder_armor_trim_smithing_template
-```
-
-</details>
-
-<details><summary>menu.txt</summary>
-
-```diff
-- minecraft:legacy_smithing
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-- minecraft:dripping_cherry_leaves
-- minecraft:falling_cherry_leaves
-- minecraft:landing_cherry_leaves
-+ minecraft:cherry_leaves
-+ minecraft:egg_crack
-```
-
-</details>
-
-<details><summary>recipe_serializer.txt</summary>
-
-```diff
-- minecraft:smithing
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:item.brush.brush_sand_completed
-- minecraft:item.brush.brushing
-+ minecraft:block.amethyst_block.resonate
-+ minecraft:block.sign.waxed_interact_fail
-+ minecraft:block.suspicious_gravel.break
-+ minecraft:block.suspicious_gravel.fall
-+ minecraft:block.suspicious_gravel.hit
-+ minecraft:block.suspicious_gravel.place
-+ minecraft:block.suspicious_gravel.step
-+ minecraft:entity.sniffer.egg_crack
-+ minecraft:entity.sniffer.egg_hatch
-+ minecraft:item.brush.brushing.generic
-+ minecraft:item.brush.brushing.gravel
-+ minecraft:item.brush.brushing.gravel.complete
-+ minecraft:item.brush.brushing.sand
-+ minecraft:item.brush.brushing.sand.complete
-```
-
-</details>
-
-<details><summary>worldgen/structure_processor.txt</summary>
-
-```diff
-+ minecraft:capped
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/all_hanging_signs.json
-+ blocks/bamboo_blocks.json
-+ blocks/ceiling_hanging_signs.json
-+ blocks/cherry_logs.json
-+ blocks/combination_step_sound_blocks.json
-+ blocks/sniffer_diggable_block.json
-+ blocks/sniffer_egg_hatch_boost.json
-+ blocks/trail_ruins_replaceable.json
-+ blocks/vibration_resonators.json
-+ blocks/wall_hanging_signs.json
-+ items/bamboo_blocks.json
-+ items/bookshelf_books.json
-+ items/breaks_decorated_pots.json
-+ items/cherry_logs.json
-+ items/decorated_pot_shards.json
-+ items/hanging_signs.json
-+ items/noteblock_top_instruments.json
-+ items/sniffer_food.json
-+ items/trimmable_armor.json
-+ items/trim_materials.json
-+ items/trim_templates.json
-+ worldgen/biome/has_structure/trail_ruins.json
-```
-
-</details>
-
-<details><summary>blocks/all_signs.json</summary>
-
-```diff
-+ #minecraft:all_hanging_signs
-```
-
-</details>
-
-<details><summary>blocks/crops.json</summary>
-
-```diff
-+ minecraft:torchflower_crop
-```
-
-</details>
-
-<details><summary>blocks/fence_gates.json</summary>
-
-```diff
-+ minecraft:bamboo_fence_gate
-+ minecraft:cherry_fence_gate
-```
-
-</details>
-
-<details><summary>blocks/flowers.json</summary>
-
-```diff
-+ minecraft:cherry_leaves
-+ minecraft:pink_petals
-```
-
-</details>
-
-<details><summary>blocks/flower_pots.json</summary>
-
-```diff
-+ minecraft:potted_cherry_sapling
-```
-
-</details>
-
-<details><summary>blocks/inside_step_sound_blocks.json</summary>
-
-```diff
-- minecraft:snow
-- minecraft:nether_sprouts
-- minecraft:warped_roots
-- minecraft:crimson_roots
-- minecraft:moss_carpet
-- #minecraft:wool_carpets
-+ minecraft:pink_petals
-```
-
-</details>
-
-<details><summary>blocks/leaves.json</summary>
-
-```diff
-+ minecraft:cherry_leaves
-```
-
-</details>
-
-<details><summary>blocks/logs_that_burn.json</summary>
-
-```diff
-+ #minecraft:cherry_logs
-```
-
-</details>
-
-<details><summary>blocks/mineable/axe.json</summary>
-
-```diff
-+ #minecraft:all_hanging_signs
-+ minecraft:bamboo_mosaic
-+ minecraft:bamboo_mosaic_slab
-+ minecraft:bamboo_mosaic_stairs
-+ #minecraft:bamboo_blocks
-+ minecraft:chiseled_bookshelf
-```
-
-</details>
-
-<details><summary>blocks/mineable/hoe.json</summary>
-
-```diff
-+ minecraft:calibrated_sculk_sensor
-+ minecraft:pink_petals
-+ minecraft:cherry_leaves
-```
-
-</details>
-
-<details><summary>blocks/overworld_natural_logs.json</summary>
-
-```diff
-+ minecraft:cherry_log
-```
-
-</details>
-
-<details><summary>blocks/planks.json</summary>
-
-```diff
-+ minecraft:bamboo_planks
-+ minecraft:cherry_planks
-```
-
-</details>
-
-<details><summary>blocks/sand.json</summary>
-
-```diff
-+ minecraft:suspicious_sand
-+ minecraft:suspicious_sand
-```
-
-</details>
-
-<details><summary>blocks/saplings.json</summary>
-
-```diff
-+ minecraft:cherry_sapling
-```
-
-</details>
-
-<details><summary>blocks/small_flowers.json</summary>
-
-```diff
-+ minecraft:torchflower
-```
-
-</details>
-
-<details><summary>blocks/standing_signs.json</summary>
-
-```diff
-+ minecraft:bamboo_sign
-+ minecraft:cherry_sign
-```
-
-</details>
-
-<details><summary>blocks/wall_signs.json</summary>
-
-```diff
-+ minecraft:bamboo_wall_sign
-+ minecraft:cherry_wall_sign
-```
-
-</details>
-
-<details><summary>blocks/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:bamboo_button
-+ minecraft:cherry_button
-```
-
-</details>
-
-<details><summary>blocks/wooden_doors.json</summary>
-
-```diff
-+ minecraft:bamboo_door
-+ minecraft:cherry_door
-```
-
-</details>
-
-<details><summary>blocks/wooden_fences.json</summary>
-
-```diff
-+ minecraft:bamboo_fence
-+ minecraft:cherry_fence
-```
-
-</details>
-
-<details><summary>blocks/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:bamboo_pressure_plate
-+ minecraft:cherry_pressure_plate
-```
-
-</details>
-
-<details><summary>blocks/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:bamboo_slab
-+ minecraft:cherry_slab
-```
-
-</details>
-
-<details><summary>blocks/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:bamboo_stairs
-+ minecraft:cherry_stairs
-```
-
-</details>
-
-<details><summary>blocks/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:bamboo_trapdoor
-+ minecraft:cherry_trapdoor
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-- minecraft:dispense_fail
-- minecraft:piston_contract
-- minecraft:piston_extend
-+ minecraft:resonate_1
-+ minecraft:resonate_2
-+ minecraft:resonate_3
-+ minecraft:resonate_4
-+ minecraft:resonate_5
-+ minecraft:resonate_6
-+ minecraft:resonate_7
-+ minecraft:resonate_8
-+ minecraft:resonate_9
-+ minecraft:resonate_10
-+ minecraft:resonate_11
-+ minecraft:resonate_12
-+ minecraft:resonate_13
-+ minecraft:resonate_14
-+ minecraft:resonate_15
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-- minecraft:dispense_fail
-- minecraft:piston_contract
-- minecraft:piston_extend
-+ minecraft:resonate_1
-+ minecraft:resonate_2
-+ minecraft:resonate_3
-+ minecraft:resonate_4
-+ minecraft:resonate_5
-+ minecraft:resonate_6
-+ minecraft:resonate_7
-+ minecraft:resonate_8
-+ minecraft:resonate_9
-+ minecraft:resonate_10
-+ minecraft:resonate_11
-+ minecraft:resonate_12
-+ minecraft:resonate_13
-+ minecraft:resonate_14
-+ minecraft:resonate_15
-```
-
-</details>
-
-<details><summary>items/boats.json</summary>
-
-```diff
-+ minecraft:bamboo_raft
-+ minecraft:cherry_boat
-```
-
-</details>
-
-<details><summary>items/chest_boats.json</summary>
-
-```diff
-+ minecraft:bamboo_chest_raft
-+ minecraft:cherry_chest_boat
-```
-
-</details>
-
-<details><summary>items/fence_gates.json</summary>
-
-```diff
-+ minecraft:bamboo_fence_gate
-+ minecraft:cherry_fence_gate
-```
-
-</details>
-
-<details><summary>items/flowers.json</summary>
-
-```diff
-+ minecraft:cherry_leaves
-+ minecraft:pink_petals
-```
-
-</details>
-
-<details><summary>items/leaves.json</summary>
-
-```diff
-+ minecraft:cherry_leaves
-```
-
-</details>
-
-<details><summary>items/logs_that_burn.json</summary>
-
-```diff
-+ #minecraft:cherry_logs
-```
-
-</details>
-
-<details><summary>items/non_flammable_wood.json</summary>
-
-```diff
-+ minecraft:warped_hanging_sign
-+ minecraft:crimson_hanging_sign
-```
-
-</details>
-
-<details><summary>items/planks.json</summary>
-
-```diff
-+ minecraft:bamboo_planks
-+ minecraft:cherry_planks
-```
-
-</details>
-
-<details><summary>items/sand.json</summary>
-
-```diff
-+ minecraft:suspicious_sand
-+ minecraft:suspicious_sand
-```
-
-</details>
-
-<details><summary>items/saplings.json</summary>
-
-```diff
-+ minecraft:cherry_sapling
-```
-
-</details>
-
-<details><summary>items/signs.json</summary>
-
-```diff
-+ minecraft:bamboo_sign
-+ minecraft:cherry_sign
-```
-
-</details>
-
-<details><summary>items/small_flowers.json</summary>
-
-```diff
-+ minecraft:torchflower
-```
-
-</details>
-
-<details><summary>items/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:bamboo_button
-+ minecraft:cherry_button
-```
-
-</details>
-
-<details><summary>items/wooden_doors.json</summary>
-
-```diff
-+ minecraft:bamboo_door
-+ minecraft:cherry_door
-```
-
-</details>
-
-<details><summary>items/wooden_fences.json</summary>
-
-```diff
-+ minecraft:bamboo_fence
-+ minecraft:cherry_fence
-```
-
-</details>
-
-<details><summary>items/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:bamboo_pressure_plate
-+ minecraft:cherry_pressure_plate
-```
-
-</details>
-
-<details><summary>items/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:bamboo_slab
-+ minecraft:cherry_slab
-```
-
-</details>
-
-<details><summary>items/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:bamboo_stairs
-+ minecraft:cherry_stairs
-```
-
-</details>
-
-<details><summary>items/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:bamboo_trapdoor
-+ minecraft:cherry_trapdoor
-```
-
-</details>
-
-<details><summary>worldgen/biome/is_mountain.json</summary>
-
-```diff
-+ minecraft:cherry_grove
-```
-
-</details>
-
-<details><summary>worldgen/biome/is_overworld.json</summary>
-
-```diff
-+ minecraft:cherry_grove
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/bamboo_block.json
-+ recipes/building_blocks/bamboo_mosaic_slab.json
-+ recipes/building_blocks/bamboo_mosaic_stairs.json
-+ recipes/building_blocks/bamboo_planks.json
-+ recipes/building_blocks/bamboo_slab.json
-+ recipes/building_blocks/bamboo_stairs.json
-+ recipes/building_blocks/cherry_planks.json
-+ recipes/building_blocks/cherry_slab.json
-+ recipes/building_blocks/cherry_stairs.json
-+ recipes/building_blocks/cherry_wood.json
-+ recipes/building_blocks/chiseled_bookshelf.json
-+ recipes/building_blocks/stripped_cherry_wood.json
-+ recipes/decorations/acacia_hanging_sign.json
-+ recipes/decorations/bamboo_fence.json
-+ recipes/decorations/bamboo_hanging_sign.json
-+ recipes/decorations/bamboo_mosaic.json
-+ recipes/decorations/bamboo_sign.json
-+ recipes/decorations/birch_hanging_sign.json
-+ recipes/decorations/cherry_fence.json
-+ recipes/decorations/cherry_hanging_sign.json
-+ recipes/decorations/cherry_sign.json
-+ recipes/decorations/crimson_hanging_sign.json
-+ recipes/decorations/dark_oak_hanging_sign.json
-+ recipes/decorations/decorated_pot_simple.json
-+ recipes/decorations/jungle_hanging_sign.json
-+ recipes/decorations/mangrove_hanging_sign.json
-+ recipes/decorations/oak_hanging_sign.json
-+ recipes/decorations/spruce_hanging_sign.json
-+ recipes/decorations/warped_hanging_sign.json
-+ recipes/misc/coast_armor_trim_smithing_template.json
-+ recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/cyan_dye_from_pitcher_plant.json
-+ recipes/misc/dune_armor_trim_smithing_template.json
-+ recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/eye_armor_trim_smithing_template.json
-+ recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/host_armor_trim_smithing_template.json
-+ recipes/misc/host_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/netherite_upgrade_smithing_template.json
-+ recipes/misc/orange_dye_from_torchflower.json
-+ recipes/misc/pink_dye_from_pink_petals.json
-+ recipes/misc/raiser_armor_trim_smithing_template.json
-+ recipes/misc/raiser_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/rib_armor_trim_smithing_template.json
-+ recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/sentry_armor_trim_smithing_template.json
-+ recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/shaper_armor_trim_smithing_template.json
-+ recipes/misc/shaper_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/silence_armor_trim_smithing_template.json
-+ recipes/misc/silence_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/snout_armor_trim_smithing_template.json
-+ recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/spire_armor_trim_smithing_template.json
-+ recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/tide_armor_trim_smithing_template.json
-+ recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/vex_armor_trim_smithing_template.json
-+ recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/ward_armor_trim_smithing_template.json
-+ recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/wayfinder_armor_trim_smithing_template.json
-+ recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim.json
-+ recipes/misc/wild_armor_trim_smithing_template.json
-+ recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
-+ recipes/redstone/bamboo_button.json
-+ recipes/redstone/bamboo_door.json
-+ recipes/redstone/bamboo_fence_gate.json
-+ recipes/redstone/bamboo_pressure_plate.json
-+ recipes/redstone/bamboo_trapdoor.json
-+ recipes/redstone/calibrated_sculk_sensor.json
-+ recipes/redstone/cherry_button.json
-+ recipes/redstone/cherry_door.json
-+ recipes/redstone/cherry_fence_gate.json
-+ recipes/redstone/cherry_pressure_plate.json
-+ recipes/redstone/cherry_trapdoor.json
-+ recipes/tools/brush.json
-+ recipes/transportation/bamboo_chest_raft.json
-+ recipes/transportation/bamboo_raft.json
-+ recipes/transportation/cherry_boat.json
-+ recipes/transportation/cherry_chest_boat.json
-```
-
-</details>
-
-<details><summary>datapacks.txt</summary>
-
-```diff
-- update_1_20
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.4\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w12a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ archaeology/desert_pyramid.json
-+ archaeology/desert_well.json
-+ archaeology/ocean_ruin_cold.json
-+ archaeology/ocean_ruin_warm.json
-+ archaeology/trail_ruins.json
-+ blocks/calibrated_sculk_sensor.json
-+ blocks/pitcher_crop.json
-+ blocks/pitcher_plant.json
-+ blocks/sniffer_egg.json
-+ blocks/suspicious_gravel.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-- dripping_cherry_leaves.json
-- falling_cherry_leaves.json
-- landing_cherry_leaves.json
-+ cherry_leaves.json
-+ egg_crack.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ acacia_hanging_sign.json
-+ bamboo_block.json
-+ bamboo_button.json
-+ bamboo_chest_raft.json
-+ bamboo_door.json
-+ bamboo_fence.json
-+ bamboo_fence_gate.json
-+ bamboo_hanging_sign.json
-+ bamboo_mosaic.json
-+ bamboo_mosaic_slab.json
-+ bamboo_mosaic_stairs.json
-+ bamboo_planks.json
-+ bamboo_pressure_plate.json
-+ bamboo_raft.json
-+ bamboo_sign.json
-+ bamboo_slab.json
-+ bamboo_stairs.json
-+ bamboo_trapdoor.json
-+ birch_hanging_sign.json
-+ brush.json
-+ calibrated_sculk_sensor.json
-+ cherry_boat.json
-+ cherry_button.json
-+ cherry_chest_boat.json
-+ cherry_door.json
-+ cherry_fence.json
-+ cherry_fence_gate.json
-+ cherry_hanging_sign.json
-+ cherry_planks.json
-+ cherry_pressure_plate.json
-+ cherry_sign.json
-+ cherry_slab.json
-+ cherry_stairs.json
-+ cherry_trapdoor.json
-+ cherry_wood.json
-+ chiseled_bookshelf.json
-+ coast_armor_trim_smithing_template.json
-+ coast_armor_trim_smithing_template_smithing_trim.json
-+ crimson_hanging_sign.json
-+ cyan_dye_from_pitcher_plant.json
-+ dark_oak_hanging_sign.json
-+ decorated_pot.json
-+ decorated_pot_simple.json
-+ dune_armor_trim_smithing_template.json
-+ dune_armor_trim_smithing_template_smithing_trim.json
-+ eye_armor_trim_smithing_template.json
-+ eye_armor_trim_smithing_template_smithing_trim.json
-+ host_armor_trim_smithing_template.json
-+ host_armor_trim_smithing_template_smithing_trim.json
-+ jungle_hanging_sign.json
-+ mangrove_hanging_sign.json
-+ netherite_upgrade_smithing_template.json
-+ oak_hanging_sign.json
-+ orange_dye_from_torchflower.json
-+ pink_dye_from_pink_petals.json
-+ raiser_armor_trim_smithing_template.json
-+ raiser_armor_trim_smithing_template_smithing_trim.json
-+ rib_armor_trim_smithing_template.json
-+ rib_armor_trim_smithing_template_smithing_trim.json
-+ sentry_armor_trim_smithing_template.json
-+ sentry_armor_trim_smithing_template_smithing_trim.json
-+ shaper_armor_trim_smithing_template.json
-+ shaper_armor_trim_smithing_template_smithing_trim.json
-+ silence_armor_trim_smithing_template.json
-+ silence_armor_trim_smithing_template_smithing_trim.json
-+ snout_armor_trim_smithing_template.json
-+ snout_armor_trim_smithing_template_smithing_trim.json
-+ spire_armor_trim_smithing_template.json
-+ spire_armor_trim_smithing_template_smithing_trim.json
-+ spruce_hanging_sign.json
-+ stripped_cherry_wood.json
-+ tide_armor_trim_smithing_template.json
-+ tide_armor_trim_smithing_template_smithing_trim.json
-+ vex_armor_trim_smithing_template.json
-+ vex_armor_trim_smithing_template_smithing_trim.json
-+ ward_armor_trim_smithing_template.json
-+ ward_armor_trim_smithing_template_smithing_trim.json
-+ warped_hanging_sign.json
-+ wayfinder_armor_trim_smithing_template.json
-+ wayfinder_armor_trim_smithing_template_smithing_trim.json
-+ wild_armor_trim_smithing_template.json
-+ wild_armor_trim_smithing_template_smithing_trim.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-+ trail_ruins/buildings/group_entrance_three_1.nbt
-+ trail_ruins/buildings/group_entrance_two_1.nbt
-+ trail_ruins/buildings/group_entrance_two_2.nbt
-+ trail_ruins/buildings/group_room_one_1.nbt
-+ trail_ruins/buildings/group_room_one_2.nbt
-+ trail_ruins/buildings/group_room_two_1.nbt
-+ trail_ruins/buildings/group_room_two_2.nbt
-+ trail_ruins/buildings/group_room_two_3.nbt
-+ trail_ruins/buildings/group_room_two_4.nbt
-+ trail_ruins/buildings/group_room_two_5.nbt
-+ trail_ruins/buildings/large_room_1.nbt
-+ trail_ruins/buildings/large_room_2.nbt
-+ trail_ruins/buildings/large_room_3.nbt
-+ trail_ruins/buildings/one_room_1.nbt
-+ trail_ruins/buildings/one_room_2.nbt
-+ trail_ruins/buildings/one_room_3.nbt
-+ trail_ruins/buildings/one_room_4.nbt
-+ trail_ruins/decor/decor_1.nbt
-+ trail_ruins/decor/decor_2.nbt
-+ trail_ruins/decor/decor_3.nbt
-+ trail_ruins/decor/decor_4.nbt
-+ trail_ruins/decor/decor_5.nbt
-+ trail_ruins/decor/decor_6.nbt
-+ trail_ruins/roads/long_road_end.nbt
-+ trail_ruins/roads/road_end_1.nbt
-+ trail_ruins/roads/road_end_1s.nbt
-+ trail_ruins/roads/road_section_1.nbt
-+ trail_ruins/roads/road_section_2.nbt
-+ trail_ruins/roads/road_section_3.nbt
-+ trail_ruins/roads/road_section_4.nbt
-+ trail_ruins/roads/road_spacer_1.nbt
-+ trail_ruins/tower/hall_1.nbt
-+ trail_ruins/tower/hall_2.nbt
-+ trail_ruins/tower/large_hall_1.nbt
-+ trail_ruins/tower/large_hall_2.nbt
-+ trail_ruins/tower/one_room_1.nbt
-+ trail_ruins/tower/platform_1.nbt
-+ trail_ruins/tower/stable_1.nbt
-+ trail_ruins/tower/tower_1.nbt
-+ trail_ruins/tower/tower_2.nbt
-+ trail_ruins/tower/tower_3.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/all_hanging_signs.json
-+ blocks/bamboo_blocks.json
-+ blocks/ceiling_hanging_signs.json
-+ blocks/cherry_logs.json
-+ blocks/combination_step_sound_blocks.json
-+ blocks/sniffer_diggable_block.json
-+ blocks/sniffer_egg_hatch_boost.json
-+ blocks/trail_ruins_replaceable.json
-+ blocks/vibration_resonators.json
-+ blocks/wall_hanging_signs.json
-+ items/bamboo_blocks.json
-+ items/bookshelf_books.json
-+ items/breaks_decorated_pots.json
-+ items/cherry_logs.json
-+ items/decorated_pot_shards.json
-+ items/hanging_signs.json
-+ items/noteblock_top_instruments.json
-+ items/sniffer_food.json
-+ items/trimmable_armor.json
-+ items/trim_materials.json
-+ items/trim_templates.json
-+ worldgen/biome/has_structure/trail_ruins.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- entity/decorated_pot/pottery_pattern_archer.png
-- entity/decorated_pot/pottery_pattern_arms_up.png
-- entity/decorated_pot/pottery_pattern_prize.png
-- entity/decorated_pot/pottery_pattern_skull.png
-- item/pottery_shard_archer.png
-- item/pottery_shard_arms_up.png
-- item/pottery_shard_prize.png
-- item/pottery_shard_skull.png
-+ block/calibrated_sculk_sensor_amethyst.png
-+ block/calibrated_sculk_sensor_input_side.png
-+ block/calibrated_sculk_sensor_top.png
-+ block/pitcher_crop_bottom.png
-+ block/pitcher_crop_bottom_stage_1.png
-+ block/pitcher_crop_bottom_stage_2.png
-+ block/pitcher_crop_bottom_stage_3.png
-+ block/pitcher_crop_bottom_stage_4.png
-+ block/pitcher_crop_side.png
-+ block/pitcher_crop_top.png
-+ block/pitcher_crop_top_stage_3.png
-+ block/pitcher_crop_top_stage_4.png
-+ block/sniffer_egg_not_cracked.png
-+ block/sniffer_egg_slightly_cracked.png
-+ block/sniffer_egg_very_cracked.png
-+ block/suspicious_gravel_0.png
-+ block/suspicious_gravel_1.png
-+ block/suspicious_gravel_2.png
-+ block/suspicious_gravel_3.png
-+ entity/decorated_pot/angler_pottery_pattern.png
-+ entity/decorated_pot/archer_pottery_pattern.png
-+ entity/decorated_pot/arms_up_pottery_pattern.png
-+ entity/decorated_pot/blade_pottery_pattern.png
-+ entity/decorated_pot/brewer_pottery_pattern.png
-+ entity/decorated_pot/burn_pottery_pattern.png
-+ entity/decorated_pot/danger_pottery_pattern.png
-+ entity/decorated_pot/explorer_pottery_pattern.png
-+ entity/decorated_pot/friend_pottery_pattern.png
-+ entity/decorated_pot/heartbreak_pottery_pattern.png
-+ entity/decorated_pot/heart_pottery_pattern.png
-+ entity/decorated_pot/howl_pottery_pattern.png
-+ entity/decorated_pot/miner_pottery_pattern.png
-+ entity/decorated_pot/mourner_pottery_pattern.png
-+ entity/decorated_pot/plenty_pottery_pattern.png
-+ entity/decorated_pot/prize_pottery_pattern.png
-+ entity/decorated_pot/sheaf_pottery_pattern.png
-+ entity/decorated_pot/shelter_pottery_pattern.png
-+ entity/decorated_pot/skull_pottery_pattern.png
-+ entity/decorated_pot/snort_pottery_pattern.png
-+ item/angler_pottery_shard.png
-+ item/archer_pottery_shard.png
-+ item/arms_up_pottery_shard.png
-+ item/blade_pottery_shard.png
-+ item/brewer_pottery_shard.png
-+ item/burn_pottery_shard.png
-+ item/danger_pottery_shard.png
-+ item/explorer_pottery_shard.png
-+ item/friend_pottery_shard.png
-+ item/heartbreak_pottery_shard.png
-+ item/heart_pottery_shard.png
-+ item/host_armor_trim_smithing_template.png
-+ item/howl_pottery_shard.png
-+ item/miner_pottery_shard.png
-+ item/mourner_pottery_shard.png
-+ item/pitcher_plant.png
-+ item/pitcher_pod.png
-+ item/plenty_pottery_shard.png
-+ item/prize_pottery_shard.png
-+ item/raiser_armor_trim_smithing_template.png
-+ item/shaper_armor_trim_smithing_template.png
-+ item/sheaf_pottery_shard.png
-+ item/shelter_pottery_shard.png
-+ item/silence_armor_trim_smithing_template.png
-+ item/skull_pottery_shard.png
-+ item/sniffer_egg.png
-+ item/snort_pottery_shard.png
-+ item/wayfinder_armor_trim_smithing_template.png
-+ particle/cherry_0.png
-+ particle/cherry_1.png
-+ particle/cherry_10.png
-+ particle/cherry_11.png
-+ particle/cherry_2.png
-+ particle/cherry_3.png
-+ particle/cherry_4.png
-+ particle/cherry_5.png
-+ particle/cherry_6.png
-+ particle/cherry_7.png
-+ particle/cherry_8.png
-+ particle/cherry_9.png
-+ particle/goldheart_0.png
-+ particle/goldheart_1.png
-+ particle/goldheart_2.png
-+ trims/models/armor/host.png
-+ trims/models/armor/host_leggings.png
-+ trims/models/armor/raiser.png
-+ trims/models/armor/raiser_leggings.png
-+ trims/models/armor/shaper.png
-+ trims/models/armor/shaper_leggings.png
-+ trims/models/armor/silence.png
-+ trims/models/armor/silence_leggings.png
-+ trims/models/armor/wayfinder.png
-+ trims/models/armor/wayfinder_leggings.png
-```
-
-</details>
-
-<details><summary>worldgen/biome.txt</summary>
-
-```diff
-+ cherry_grove.json
-```
-
-</details>
-
-<details><summary>worldgen/processor_list.txt</summary>
-
-```diff
-+ trail_ruins_suspicious_sand.json
-```
-
-</details>
-
-<details><summary>worldgen/structure.txt</summary>
-
-```diff
-+ trail_ruins.json
-```
-
-</details>
-
-<details><summary>worldgen/structure_set.txt</summary>
-
-```diff
-+ trail_ruins.json
-```
-
-</details>
-
-<details><summary>worldgen/template_pool.txt</summary>
-
-```diff
-+ trail_ruins/buildings/grouped.json
-+ trail_ruins/buildings.json
-+ trail_ruins/decor.json
-+ trail_ruins/roads.json
-+ trail_ruins/tower/additions.json
-+ trail_ruins/tower.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:datafixerupper:6.0.6
-+ com.mojang:datafixerupper:6.0.8
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ VertexSorting savedVertexSorting
-+ VertexSorting vertexSorting
-+ VertexSorting getVertexSorting()
-+ void lambda$setProjectionMatrix$65(VertexSorting)
-+ void setProjectionMatrix(VertexSorting)
-- void lambda$setProjectionMatrix$65(Matrix4f)
-- void setProjectionMatrix(Matrix4f)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
-
-```diff
-- void lambda$intConsumer$1(ByteBuffer,int)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
-
-```diff
-+ VertexSorting sorting
-- float sortX
-- float sortY
-- float sortZ
-+ void setQuadSorting(VertexSorting)
-- int lambda$putSortedQuadIndices$3(float[],int,int)
-- void lambda$intConsumer$2(MutableInt,int)
-- void setQuadSortOrigin(float,float,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
-
-```diff
-+ VertexSorting sorting
-- float sortX
-- float sortY
-- float sortZ
-+ void <init>(VertexSorting)
-- void <init>(Vector3f[],float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.HangingSignEditScreen</summary>
-
-```diff
-+ void <init>(SignBlockEntity,boolean,boolean)
-- void <init>(SignBlockEntity,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.DripParticle</summary>
-
-```diff
-- DripParticle setCherryColor(DripParticle)
-- TextureSheetParticle createCherryLeavesFallParticle(ClientLevel,double,double,double,double,double,double)
-- TextureSheetParticle createCherryLeavesHangParticle(ClientLevel,double,double,double,double,double,double)
-- TextureSheetParticle createCherryLeavesLandParticle(ClientLevel,double,double,double,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
-
-```diff
-+ LootItemFunction$Builder lambda$generate$107(Integer)
-+ LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
-+ LootPoolEntryContainer$Builder lambda$generate$230(Integer)
-+ LootPoolEntryContainer$Builder lambda$generate$231(Integer)
-+ LootTable$Builder createDecoratedPotTable(Block)
-+ LootTable$Builder createPitcherCropLoot()
-+ LootTable$Builder lambda$generate$102(Block)
-+ LootTable$Builder lambda$generate$108(Block)
-+ LootTable$Builder lambda$generate$109(Block)
-+ LootTable$Builder lambda$generate$110(Block)
-+ LootTable$Builder lambda$generate$111(Block)
-+ LootTable$Builder lambda$generate$169(Block)
-+ LootTable$Builder lambda$generate$170(Block)
-+ LootTable$Builder lambda$generate$171(Block)
-+ LootTable$Builder lambda$generate$172(Block)
-+ LootTable$Builder lambda$generate$173(Block)
-+ LootTable$Builder lambda$generate$191(Block)
-+ LootTable$Builder lambda$generate$192(Block)
-+ LootTable$Builder lambda$generate$197(Block)
-+ LootTable$Builder lambda$generate$199(Block)
-+ LootTable$Builder lambda$generate$202(Block)
-+ LootTable$Builder lambda$generate$203(Block)
-+ LootTable$Builder lambda$generate$204(Block)
-+ LootTable$Builder lambda$generate$205(Block)
-+ LootTable$Builder lambda$generate$206(Block)
-+ LootTable$Builder lambda$generate$207(Block)
-+ LootTable$Builder lambda$generate$208(ItemLike)
-+ LootTable$Builder lambda$generate$209(ItemLike)
-+ LootTable$Builder lambda$generate$210(ItemLike)
-+ LootTable$Builder lambda$generate$212(ItemLike)
-+ LootTable$Builder lambda$generate$213(ItemLike)
-+ LootTable$Builder lambda$generate$214(Block)
-+ LootTable$Builder lambda$generate$216(Block)
-+ LootTable$Builder lambda$generate$217(Block)
-+ LootTable$Builder lambda$generate$220(Block)
-+ LootTable$Builder lambda$generate$221(Block)
-+ LootTable$Builder lambda$generate$222(Block)
-+ LootTable$Builder lambda$generate$223(Block)
-+ LootTable$Builder lambda$generate$224(Block)
-+ LootTable$Builder lambda$generate$225(Block)
-+ LootTable$Builder lambda$generate$226(Block)
-+ LootTable$Builder lambda$generate$227(Block)
-+ LootTable$Builder lambda$generate$232(Block)
-+ LootTable$Builder lambda$generate$233(Block)
-+ LootTable$Builder lambda$generate$234(Block)
-+ LootTable$Builder lambda$generate$235(Block)
-+ LootTable$Builder lambda$generate$236(Block)
-+ LootTable$Builder lambda$generate$237(Block)
-+ LootTable$Builder lambda$generate$81(Block)
-+ LootTable$Builder lambda$generate$82(Block)
-+ LootTable$Builder lambda$generate$83(Block)
-+ LootTable$Builder lambda$generate$84(Block)
-+ LootTable$Builder lambda$generate$85(Block)
-- LootItemFunction$Builder lambda$generate$102(Integer)
-- LootPoolEntryContainer$Builder lambda$generate$224(Integer)
-- LootPoolEntryContainer$Builder lambda$generate$225(Integer)
-- LootTable$Builder lambda$generate$107(Block)
-- LootTable$Builder lambda$generate$108(Block)
-- LootTable$Builder lambda$generate$109(Block)
-- LootTable$Builder lambda$generate$110(Block)
-- LootTable$Builder lambda$generate$111(Block)
-- LootTable$Builder lambda$generate$169(Block)
-- LootTable$Builder lambda$generate$170(Block)
-- LootTable$Builder lambda$generate$171(Block)
-- LootTable$Builder lambda$generate$172(Block)
-- LootTable$Builder lambda$generate$173(Block)
-- LootTable$Builder lambda$generate$191(Block)
-- LootTable$Builder lambda$generate$192(Block)
-- LootTable$Builder lambda$generate$197(Block)
-- LootTable$Builder lambda$generate$199(Block)
-- LootTable$Builder lambda$generate$202(ItemLike)
-- LootTable$Builder lambda$generate$203(ItemLike)
-- LootTable$Builder lambda$generate$204(ItemLike)
-- LootTable$Builder lambda$generate$205(Block)
-- LootTable$Builder lambda$generate$206(ItemLike)
-- LootTable$Builder lambda$generate$207(ItemLike)
-- LootTable$Builder lambda$generate$208(Block)
-- LootTable$Builder lambda$generate$209(Block)
-- LootTable$Builder lambda$generate$210(Block)
-- LootTable$Builder lambda$generate$212(Block)
-- LootTable$Builder lambda$generate$213(Block)
-- LootTable$Builder lambda$generate$214(Block)
-- LootTable$Builder lambda$generate$216(Block)
-- LootTable$Builder lambda$generate$217(Block)
-- LootTable$Builder lambda$generate$220(Block)
-- LootTable$Builder lambda$generate$221(Block)
-- LootTable$Builder lambda$generate$222(Block)
-- LootTable$Builder lambda$generate$223(Block)
-- LootTable$Builder lambda$generate$226(Block)
-- LootTable$Builder lambda$generate$227(Block)
-- LootTable$Builder lambda$generate$230(Block)
-- LootTable$Builder lambda$generate$231(Block)
-- LootTable$Builder lambda$generate$81(Block)
-- LootTable$Builder lambda$generate$82(Block)
-- LootTable$Builder lambda$generate$83(Block)
-- LootTable$Builder lambda$generate$84(Block)
-- LootTable$Builder lambda$generate$85(Block)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ List lambda$createTurtleEgg$39(Integer)
-+ ResourceLocation lambda$addBookSlotModel$53(BlockModelGenerators$BookSlotModelCacheKey)
-+ ResourceLocation lambda$createCropBlock$14(Block,int,int)
-+ ResourceLocation lambda$createSnifferEgg$40(Integer)
-+ TextureMapping lambda$createChorusFlower$17(ResourceLocation)
-+ TextureMapping lambda$createCommandBlock$10(ResourceLocation)
-+ Variant lambda$createActiveRail$9(RailShape)
-+ Variant lambda$createBambooModels$11(String,int)
-+ Variant lambda$createBrushableBlock$5(Integer)
-+ Variant lambda$createCalibratedSculkSensor$33(SculkSensorPhase)
-+ Variant lambda$createCropBlock$15(Integer)
-+ Variant lambda$createEmptyOrFullDispatch$13(Comparable)
-+ Variant lambda$createFire$24(Variant)
-+ Variant lambda$createJigsaw$55(FrontAndTop)
-+ Variant lambda$createPitcherCrop$8(DoubleBlockHalf)
-+ Variant lambda$createRepeater$34(Boolean)
-+ Variant lambda$createRespawnAnchor$54(Integer)
-+ Variant lambda$createSculkCatalyst$50(Boolean)
-+ Variant lambda$createSculkSensor$32(SculkSensorPhase)
-+ Variant lambda$createSnifferEgg$41(Integer)
-+ Variant lambda$createSnowBlocks$35(Integer)
-+ Variant lambda$createSoulFire$29(Variant)
-+ Variant lambda$createStructureBlock$36(StructureMode)
-+ Variant lambda$createSweetBerryBush$37(Integer)
-+ Variant lambda$createTripwireHook$38(Boolean)
-+ Variant lambda$static$44(ResourceLocation)
-+ Variant lambda$static$45(ResourceLocation)
-+ Variant lambda$static$46(ResourceLocation)
-+ Variant lambda$static$47(ResourceLocation)
-+ Variant lambda$wrapModels$18(ResourceLocation)
-+ void createBrushableBlock(Block)
-+ void createCalibratedSculkSensor()
-+ void createPitcherCrop()
-+ void createPitcherPlant()
-+ void createSnifferEgg()
-+ void lambda$addSlotStateAndRotationVariants$52(ModelTemplate)
-+ void lambda$createBarrel$12(TextureMapping)
-+ void lambda$createChiseledBookshelf$51(VariantProperties$Rotation)
-+ void lambda$createFurnace$16(TextureMapping)
-+ void lambda$createGrassBlocks$31(TextureMapping)
-+ void lambda$createMultiface$48(BooleanProperty)
-+ void lambda$createMultiface$49(Condition$TerminalCondition)
-+ void lambda$run$56(BlockFamily)
-+ void lambda$run$57(SpawnEggItem)
-- List lambda$createTurtleEgg$37(Integer)
-- ResourceLocation lambda$addBookSlotModel$49(BlockModelGenerators$BookSlotModelCacheKey)
-- ResourceLocation lambda$createCropBlock$13(Block,int,int)
-- TextureMapping lambda$createChorusFlower$16(ResourceLocation)
-- TextureMapping lambda$createCommandBlock$9(ResourceLocation)
-- Variant lambda$createActiveRail$8(RailShape)
-- Variant lambda$createBambooModels$10(String,int)
-- Variant lambda$createCropBlock$14(Integer)
-- Variant lambda$createEmptyOrFullDispatch$12(Comparable)
-- Variant lambda$createFire$18(Variant)
-- Variant lambda$createJigsaw$51(FrontAndTop)
-- Variant lambda$createRepeater$32(Boolean)
-- Variant lambda$createRespawnAnchor$50(Integer)
-- Variant lambda$createSculkCatalyst$46(Boolean)
-- Variant lambda$createSculkSensor$31(SculkSensorPhase)
-- Variant lambda$createSnowBlocks$33(Integer)
-- Variant lambda$createSoulFire$24(Variant)
-- Variant lambda$createStructureBlock$34(StructureMode)
-- Variant lambda$createSuspiciousSandBlock$5(Integer)
-- Variant lambda$createSweetBerryBush$35(Integer)
-- Variant lambda$createTripwireHook$36(Boolean)
-- Variant lambda$static$38(ResourceLocation)
-- Variant lambda$static$39(ResourceLocation)
-- Variant lambda$static$40(ResourceLocation)
-- Variant lambda$static$41(ResourceLocation)
-- Variant lambda$wrapModels$17(ResourceLocation)
-- void createSuspiciousSandBlock()
-- void lambda$addSlotStateAndRotationVariants$48(ModelTemplate)
-- void lambda$createBarrel$11(TextureMapping)
-- void lambda$createChiseledBookshelf$47(VariantProperties$Rotation)
-- void lambda$createFurnace$15(TextureMapping)
-- void lambda$createGrassBlocks$29(TextureMapping)
-- void lambda$createMultiface$44(BooleanProperty)
-- void lambda$createMultiface$45(Condition$TerminalCondition)
-- void lambda$run$52(BlockFamily)
-- void lambda$run$53(SpawnEggItem)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate SNIFFER_EGG
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-- void legacyNetheriteSmithing(Item)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
-
-```diff
-+ boolean lambda$assertBlockProperty$10(BlockState)
-+ void assertFalse(String)
-- boolean lambda$assertBlockProperty$10(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSignUpdatePacket</summary>
-
-```diff
-+ boolean isFrontText
-+ boolean isFrontText()
-+ void <init>(String)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerEntity</summary>
-
-```diff
-+ boolean lambda$removedPassengers$1(Entity)
-+ Stream removedPassengers(List)
-+ void lambda$sendChanges$0(Entity)
-- boolean lambda$changedPassengers$1(Entity)
-- boolean lambda$changedPassengers$2(Entity)
-- Stream changedPassengers(List)
-- void lambda$sendChanges$0(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent AMETHYST_BLOCK_RESONATE
-+ SoundEvent BRUSH_GENERIC
-+ SoundEvent BRUSH_GRAVEL
-+ SoundEvent BRUSH_GRAVEL_COMPLETED
-+ SoundEvent BRUSH_SAND
-+ SoundEvent BRUSH_SAND_COMPLETED
-+ SoundEvent SNIFFER_EGG_CRACK
-+ SoundEvent SNIFFER_EGG_HATCH
-+ SoundEvent SUSPICIOUS_GRAVEL_BREAK
-+ SoundEvent SUSPICIOUS_GRAVEL_FALL
-+ SoundEvent SUSPICIOUS_GRAVEL_HIT
-+ SoundEvent SUSPICIOUS_GRAVEL_PLACE
-+ SoundEvent SUSPICIOUS_GRAVEL_STEP
-+ SoundEvent WAXED_SIGN_INTERACT_FAIL
-- SoundEvent BRUSH_BRUSH_SAND_COMPLETED
-- SoundEvent BRUSH_BRUSHING
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey COMBINATION_STEP_SOUND_BLOCKS
-+ TagKey SNIFFER_EGG_HATCH_BOOST
-+ TagKey TRAIL_RUINS_REPLACEABLE
-+ TagKey VIBRATION_RESONATORS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BiomeFix</summary>
-
-```diff
-+ void <init>()
-- void <init>(Schema,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.RecipesRenameningFix</summary>
-
-```diff
-+ void <init>()
-- String lambda$new$0(String)
-- void <init>(Schema,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.fixes.References</summary>
-
-```diff
-+ DSL$TypeReference MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST
-+ String lambda$static$27()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V2832</summary>
-
-```diff
-+ TypeTemplate lambda$registerTypes$1()
-+ TypeTemplate lambda$registerTypes$7(Schema)
-- TypeTemplate lambda$registerTypes$1(Schema)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Display$BlockDisplay</summary>
-
-```diff
-+ Display$BlockDisplay$BlockRenderState blockRenderState
-+ Display$BlockDisplay$BlockRenderState blockRenderState()
-+ void onSyncedDataUpdated(EntityDataAccessor)
-+ void updateRenderSubState(boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Display$ItemDisplay</summary>
-
-```diff
-+ Display$ItemDisplay$ItemRenderState itemRenderState
-+ Display$ItemDisplay$ItemRenderState itemRenderState()
-+ void onSyncedDataUpdated(EntityDataAccessor)
-+ void updateRenderSubState(boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Display$TextDisplay</summary>
-
-```diff
-+ Display$TextDisplay$TextRenderState textRenderState
-+ IntSet TEXT_RENDER_STATE_IDS
-- Display$IntInterpolator backgroundColor
-- Display$IntInterpolator textOpacity
-+ Display$TextDisplay$TextRenderState createFreshTextRenderState()
-+ Display$TextDisplay$TextRenderState createInterpolatedTextRenderState(Display$TextDisplay$TextRenderState,float)
-+ Display$TextDisplay$TextRenderState textRenderState()
-+ void lambda$addAdditionalSaveData$0(Tag)
-+ void updateRenderSubState(boolean,float)
-- byte getTextOpacity(float)
-- int getBackgroundColor(float)
-- void lambda$addAdditionalSaveData$1(Tag)
-- void lambda$new$0(SynchedEntityData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToTargetSink</summary>
-
-```diff
-+ boolean isWalkTargetSpectator(WalkTarget)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Animal</summary>
-
-```diff
-+ Optional lambda$finalizeSpawnChildFromBreeding$0(Animal)
-+ void finalizeSpawnChildFromBreeding(AgeableMob)
-+ void lambda$finalizeSpawnChildFromBreeding$1(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-+ VibrationListener$Config vibrationListenerConfig
-- int VIBRATION_EVENT_LISTENER_RANGE
-- VibrationListener$VibrationListenerConfig vibrationListenerConfig
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-+ int getListenerRadius()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades</summary>
-
-```diff
-- Int2ObjectMap WANDERING_TRADER_TRADES_1_20
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoneycombItem</summary>
-
-```diff
-+ boolean canApplyToSign(Player)
-+ boolean tryApplyToSign(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeSerializer</summary>
-
-```diff
-- RecipeSerializer SMITHING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelReader</summary>
-
-```diff
-- int getDirectSignal(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterLists</summary>
-
-```diff
-- void nextUpdate(BootstapContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WallHangingSignBlock</summary>
-
-```diff
-+ float getYRotationDegrees(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WallSignBlock</summary>
-
-```diff
-+ float getYRotationDegrees(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
-
-```diff
-+ boolean getNeighborSignal(Direction)
-- boolean getNeighborSignal(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ BooleanProperty CRACKED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
-
-```diff
-+ GameEvent[] RESONANCE_EVENTS
-+ VibrationListener$Config config
-- int listenerRange
-- VibrationListener$VibrationListenerConfig config
-+ App lambda$codec$5(RecordCodecBuilder$Instance)
-+ boolean lambda$isOccluded$9(BlockState)
-+ Codec codec(VibrationListener$Config)
-+ GameEvent getResonanceEventByFrequency(int)
-+ Integer lambda$codec$3(VibrationListener)
-+ Optional lambda$codec$1(VibrationListener)
-+ VibrationListener lambda$codec$4(Integer)
-+ VibrationListener$Config getConfig()
-+ VibrationSelector lambda$codec$2(VibrationListener)
-+ void <init>(VibrationListener$Config)
-+ void <init>(VibrationSelector,int)
-+ void lambda$forceGameEvent$8(Vec3)
-+ void lambda$static$6(Object2IntOpenHashMap)
-+ void lambda$tick$7(VibrationInfo)
-- App lambda$codec$6(RecordCodecBuilder$Instance)
-- boolean lambda$isOccluded$10(BlockState)
-- Codec codec(VibrationListener$VibrationListenerConfig)
-- Integer lambda$codec$1(VibrationListener)
-- Integer lambda$codec$4(VibrationListener)
-- Optional lambda$codec$2(VibrationListener)
-- VibrationListener lambda$codec$5(Integer)
-- VibrationSelector lambda$codec$3(VibrationListener)
-- void <init>(VibrationListener$VibrationListenerConfig)
-- void <init>(VibrationSelector,int)
-- void lambda$forceGameEvent$9(Vec3)
-- void lambda$static$7(Object2IntOpenHashMap)
-- void lambda$tick$8(VibrationInfo)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
-
-```diff
-+ boolean tryPlaceExtension(BlockPos$MutableBlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BuiltinStructures</summary>
-
-```diff
-+ ResourceKey TRAIL_RUINS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure</summary>
-
-```diff
-+ void lambda$afterPlace$0(BrushableBlockEntity)
-- void lambda$afterPlace$0(SuspiciousSandBlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces</summary>
-
-```diff
-+ StructureProcessor COLD_SUSPICIOUS_BLOCK_PROCESSOR
-+ StructureProcessor WARM_SUSPICIOUS_BLOCK_PROCESSOR
-+ StructureProcessor archyRuleProcessor(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$OceanRuinPiece</summary>
-
-```diff
-+ OceanRuinPieces$OceanRuinPiece create(CompoundTag)
-+ StructurePlaceSettings lambda$new$0(ResourceLocation)
-+ StructurePlaceSettings makeSettings(OceanRuinStructure$Type)
-+ void <init>(OceanRuinStructure$Type,boolean)
-- StructurePlaceSettings lambda$new$0(ResourceLocation)
-- StructurePlaceSettings makeSettings(Rotation)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.Material</summary>
-
-```diff
-+ Material FRAGILE_EGG
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.BlockPathTypes</summary>
-
-```diff
-+ BlockPathTypes DAMAGE_CAUTIOUS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.WorldData</summary>
-
-```diff
-+ Set getRemovedFeatureFlags()
-+ String lambda$fillCrashReportCategory$3()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.BuiltInLootTables</summary>
-
-```diff
-+ ResourceLocation DESERT_PYRAMID_ARCHAEOLOGY
-+ ResourceLocation DESERT_WELL_ARCHAEOLOGY
-+ ResourceLocation OCEAN_RUIN_COLD_ARCHAEOLOGY
-+ ResourceLocation OCEAN_RUIN_WARM_ARCHAEOLOGY
-+ ResourceLocation TRAIL_RUINS_ARCHAEOLOGY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.vertex.VertexSorting$DistanceFunction
@@ -7399,818 +2283,449 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ int breadthFirstTraversal(Predicate)
-+ void lambda$breadthFirstTraversal$7(BlockPos)
++ VertexSorting getVertexSorting()
++ void lambda$setProjectionMatrix$65(Matrix4f,VertexSorting)
+- void lambda$setProjectionMatrix$65(Matrix4f)
++ void setProjectionMatrix(Matrix4f,VertexSorting)
+- void setProjectionMatrix(Matrix4f)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
 
 ```diff
-+ SimpleParticleType CHERRY_LEAVES
-+ SimpleParticleType EGG_CRACK
-- SimpleParticleType DRIPPING_CHERRY_LEAVES
-- SimpleParticleType FALLING_CHERRY_LEAVES
-- SimpleParticleType LANDING_CHERRY_LEAVES
+- void lambda$intConsumer$1(ByteBuffer,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.Main</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
 
 ```diff
-- PackMetadataGenerator lambda$createStandardGenerator$8(PackOutput)
-- UpdateOneTwentyBlockTagsProvider lambda$createStandardGenerator$6(PackOutput)
-- UpdateOneTwentyItemTagsProvider lambda$createStandardGenerator$7(PackOutput)
+- int lambda$putSortedQuadIndices$3(float[],int,int)
+- void lambda$intConsumer$2(MutableInt,int)
++ void setQuadSorting(VertexSorting)
+- void setQuadSortOrigin(float,float,float)
 ```
 
 </details>
 
 
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
+
+```diff
+- void <init>(VertexFormat$Mode,int,Vector3f[],float,float,float)
++ void <init>(VertexFormat$Mode,int,Vector3f[],VertexSorting)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.HangingSignEditScreen</summary>
+
+```diff
++ void <init>(SignBlockEntity,boolean,boolean)
+- void <init>(SignBlockEntity,boolean)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.particle.DripParticle</summary>
+
+```diff
+- DripParticle setCherryColor(DripParticle)
+- TextureSheetParticle createCherryLeavesFallParticle(SimpleParticleType,ClientLevel,double,double,double,double,double,double)
+- TextureSheetParticle createCherryLeavesHangParticle(SimpleParticleType,ClientLevel,double,double,double,double,double,double)
+- TextureSheetParticle createCherryLeavesLandParticle(SimpleParticleType,ClientLevel,double,double,double,double,double,double)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
+
+```diff
+- LootItemFunction$Builder lambda$generate$102(Block,Integer)
++ LootItemFunction$Builder lambda$generate$107(Block,Integer)
++ LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
+- LootPoolEntryContainer$Builder lambda$generate$224(Block,Integer)
+- LootPoolEntryContainer$Builder lambda$generate$225(Block,Integer)
++ LootPoolEntryContainer$Builder lambda$generate$230(Block,Integer)
++ LootPoolEntryContainer$Builder lambda$generate$231(Block,Integer)
++ LootTable$Builder createDecoratedPotTable(Block)
++ LootTable$Builder createPitcherCropLoot()
++ LootTable$Builder lambda$generate$102(Block)
+- LootTable$Builder lambda$generate$107(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$108(Block)
+- LootTable$Builder lambda$generate$108(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$109(Block)
+- LootTable$Builder lambda$generate$109(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$110(Block)
+- LootTable$Builder lambda$generate$110(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$111(Block)
+- LootTable$Builder lambda$generate$111(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$169(Block)
++ LootTable$Builder lambda$generate$169(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$170(Block)
++ LootTable$Builder lambda$generate$170(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$171(Block)
++ LootTable$Builder lambda$generate$171(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$172(Block)
++ LootTable$Builder lambda$generate$172(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$173(Block)
++ LootTable$Builder lambda$generate$173(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$191(Block)
+- LootTable$Builder lambda$generate$191(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$192(Block)
+- LootTable$Builder lambda$generate$192(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$197(Block)
++ LootTable$Builder lambda$generate$197(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$199(Block)
+- LootTable$Builder lambda$generate$199(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$202(Block)
+- LootTable$Builder lambda$generate$202(ItemLike)
++ LootTable$Builder lambda$generate$203(Block)
+- LootTable$Builder lambda$generate$203(ItemLike)
+- LootTable$Builder lambda$generate$204(ItemLike)
++ LootTable$Builder lambda$generate$204(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$205(Block)
++ LootTable$Builder lambda$generate$205(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$206(Block)
+- LootTable$Builder lambda$generate$206(ItemLike)
++ LootTable$Builder lambda$generate$207(Block)
+- LootTable$Builder lambda$generate$207(ItemLike)
++ LootTable$Builder lambda$generate$208(ItemLike)
+- LootTable$Builder lambda$generate$208(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$209(Block)
++ LootTable$Builder lambda$generate$209(ItemLike)
+- LootTable$Builder lambda$generate$210(Block)
++ LootTable$Builder lambda$generate$210(ItemLike)
+- LootTable$Builder lambda$generate$212(Block)
++ LootTable$Builder lambda$generate$212(ItemLike)
+- LootTable$Builder lambda$generate$213(Block)
++ LootTable$Builder lambda$generate$213(ItemLike)
+- LootTable$Builder lambda$generate$214(Block)
++ LootTable$Builder lambda$generate$214(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$216(Block)
+- LootTable$Builder lambda$generate$216(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$217(Block)
+- LootTable$Builder lambda$generate$217(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$220(Block)
+- LootTable$Builder lambda$generate$220(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$221(Block)
+- LootTable$Builder lambda$generate$221(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$222(Block)
++ LootTable$Builder lambda$generate$222(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$223(Block)
++ LootTable$Builder lambda$generate$223(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$224(Block)
++ LootTable$Builder lambda$generate$225(Block)
+- LootTable$Builder lambda$generate$226(Block)
++ LootTable$Builder lambda$generate$226(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$227(Block)
++ LootTable$Builder lambda$generate$227(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$230(Block)
+- LootTable$Builder lambda$generate$231(Block)
++ LootTable$Builder lambda$generate$232(Block)
++ LootTable$Builder lambda$generate$233(Block)
++ LootTable$Builder lambda$generate$234(Block)
++ LootTable$Builder lambda$generate$235(Block)
++ LootTable$Builder lambda$generate$236(Block)
++ LootTable$Builder lambda$generate$237(Block)
+- LootTable$Builder lambda$generate$81(Block)
++ LootTable$Builder lambda$generate$81(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$82(Block)
++ LootTable$Builder lambda$generate$82(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$83(Block)
++ LootTable$Builder lambda$generate$83(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$84(Block)
++ LootTable$Builder lambda$generate$84(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$85(Block)
++ LootTable$Builder lambda$generate$85(VanillaBlockLoot,Block)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
+- List lambda$createTurtleEgg$37(Integer,Integer)
++ List lambda$createTurtleEgg$39(Integer,Integer)
+- ResourceLocation lambda$addBookSlotModel$49(ModelTemplate,String,TextureMapping,BlockModelGenerators$BookSlotModelCacheKey)
++ ResourceLocation lambda$addBookSlotModel$53(ModelTemplate,String,TextureMapping,BlockModelGenerators$BookSlotModelCacheKey)
+- ResourceLocation lambda$createCropBlock$13(Block,int,int)
++ ResourceLocation lambda$createCropBlock$14(Block,int,int)
++ ResourceLocation lambda$createSnifferEgg$40(Integer)
+- TextureMapping lambda$createChorusFlower$16(TextureMapping,ResourceLocation)
++ TextureMapping lambda$createChorusFlower$17(TextureMapping,ResourceLocation)
++ TextureMapping lambda$createCommandBlock$10(TextureMapping,ResourceLocation)
+- TextureMapping lambda$createCommandBlock$9(TextureMapping,ResourceLocation)
+- Variant lambda$createActiveRail$8(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
++ Variant lambda$createActiveRail$9(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
+- Variant lambda$createBambooModels$10(String,int)
++ Variant lambda$createBambooModels$11(String,int)
++ Variant lambda$createBrushableBlock$5(Block,Integer)
++ Variant lambda$createCalibratedSculkSensor$33(ResourceLocation,ResourceLocation,SculkSensorPhase)
+- Variant lambda$createCropBlock$14(int[],Int2ObjectMap,Block,Integer)
++ Variant lambda$createCropBlock$15(int[],Int2ObjectMap,Block,Integer)
+- Variant lambda$createEmptyOrFullDispatch$12(Comparable,Variant,Variant,Comparable)
++ Variant lambda$createEmptyOrFullDispatch$13(Comparable,Variant,Variant,Comparable)
+- Variant lambda$createFire$18(Variant)
++ Variant lambda$createFire$24(Variant)
+- Variant lambda$createJigsaw$51(FrontAndTop)
++ Variant lambda$createJigsaw$55(FrontAndTop)
++ Variant lambda$createPitcherCrop$8(Block,Integer,DoubleBlockHalf)
+- Variant lambda$createRepeater$32(Integer,Boolean,Boolean)
++ Variant lambda$createRepeater$34(Integer,Boolean,Boolean)
+- Variant lambda$createRespawnAnchor$50(ResourceLocation[],Integer)
++ Variant lambda$createRespawnAnchor$54(ResourceLocation[],Integer)
+- Variant lambda$createSculkCatalyst$46(ResourceLocation,ResourceLocation,Boolean)
++ Variant lambda$createSculkCatalyst$50(ResourceLocation,ResourceLocation,Boolean)
+- Variant lambda$createSculkSensor$31(ResourceLocation,ResourceLocation,SculkSensorPhase)
++ Variant lambda$createSculkSensor$32(ResourceLocation,ResourceLocation,SculkSensorPhase)
++ Variant lambda$createSnifferEgg$41(Function,Integer)
+- Variant lambda$createSnowBlocks$33(ResourceLocation,Integer)
++ Variant lambda$createSnowBlocks$35(ResourceLocation,Integer)
+- Variant lambda$createSoulFire$24(Variant)
++ Variant lambda$createSoulFire$29(Variant)
+- Variant lambda$createStructureBlock$34(StructureMode)
++ Variant lambda$createStructureBlock$36(StructureMode)
+- Variant lambda$createSuspiciousSandBlock$5(Integer)
+- Variant lambda$createSweetBerryBush$35(Integer)
++ Variant lambda$createSweetBerryBush$37(Integer)
+- Variant lambda$createTripwireHook$36(Boolean,Boolean)
++ Variant lambda$createTripwireHook$38(Boolean,Boolean)
+- Variant lambda$static$38(ResourceLocation)
+- Variant lambda$static$39(ResourceLocation)
+- Variant lambda$static$40(ResourceLocation)
+- Variant lambda$static$41(ResourceLocation)
++ Variant lambda$static$44(ResourceLocation)
++ Variant lambda$static$45(ResourceLocation)
++ Variant lambda$static$46(ResourceLocation)
++ Variant lambda$static$47(ResourceLocation)
+- Variant lambda$wrapModels$17(ResourceLocation)
++ Variant lambda$wrapModels$18(ResourceLocation)
++ void createBrushableBlock(Block)
++ void createCalibratedSculkSensor()
++ void createPitcherCrop()
++ void createPitcherPlant()
++ void createSnifferEgg()
+- void createSuspiciousSandBlock()
+- void lambda$addSlotStateAndRotationVariants$48(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate)
++ void lambda$addSlotStateAndRotationVariants$52(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate)
+- void lambda$createBarrel$11(ResourceLocation,TextureMapping)
++ void lambda$createBarrel$12(ResourceLocation,TextureMapping)
+- void lambda$createChiseledBookshelf$47(MultiPartGenerator,ResourceLocation,Direction,VariantProperties$Rotation)
++ void lambda$createChiseledBookshelf$51(MultiPartGenerator,ResourceLocation,Direction,VariantProperties$Rotation)
+- void lambda$createFurnace$15(ResourceLocation,TextureMapping)
++ void lambda$createFurnace$16(ResourceLocation,TextureMapping)
+- void lambda$createGrassBlocks$29(ResourceLocation,TextureMapping)
++ void lambda$createGrassBlocks$31(ResourceLocation,TextureMapping)
+- void lambda$createMultiface$44(Block,Condition$TerminalCondition,BooleanProperty)
+- void lambda$createMultiface$45(Block,Condition$TerminalCondition)
++ void lambda$createMultiface$48(Block,Condition$TerminalCondition,BooleanProperty)
++ void lambda$createMultiface$49(Block,Condition$TerminalCondition)
+- void lambda$run$52(BlockFamily)
+- void lambda$run$53(SpawnEggItem)
++ void lambda$run$56(BlockFamily)
++ void lambda$run$57(SpawnEggItem)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
+- void legacyNetheriteSmithing(Consumer,Item,RecipeCategory,Item)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
+- boolean lambda$assertBlockProperty$10(Predicate,Property,BlockState)
++ boolean lambda$assertBlockProperty$10(Property,Predicate,BlockState)
++ void assertFalse(boolean,String)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.network.protocol.game.ServerboundSignUpdatePacket</summary>
+
+```diff
++ boolean isFrontText()
++ void <init>(BlockPos,boolean,String,String,String,String)
+- void <init>(BlockPos,String,String,String,String)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.level.ServerEntity</summary>
+
+```diff
+- boolean lambda$changedPassengers$1(List,Entity)
+- boolean lambda$changedPassengers$2(List,Entity)
++ boolean lambda$removedPassengers$1(List,Entity)
+- Stream changedPassengers(List,List)
++ Stream removedPassengers(List,List)
++ void lambda$sendChanges$0(Entity)
+- void lambda$sendChanges$0(List,Entity)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.RecipesFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.BiomeFix</summary>
 
 ```diff
 + void <init>()
-- String lambda$new$0(String)
 - void <init>(Schema,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Display</summary>
+<details><summary>net.minecraft.util.datafix.fixes.RecipesRenameningFix</summary>
 
 ```diff
-+ boolean updateInterpolationDuration
-+ boolean updateRenderState
-+ boolean updateStartTick
-+ Display$RenderState renderState
-+ int interpolationDuration
-+ IntSet RENDER_STATE_IDS
+- String lambda$new$0(String)
++ void <init>()
+- void <init>(Schema,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.References</summary>
+
+```diff
++ String lambda$static$27()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V2832</summary>
+
+```diff
++ TypeTemplate lambda$registerTypes$1()
+- TypeTemplate lambda$registerTypes$1(Schema)
++ TypeTemplate lambda$registerTypes$7(Schema)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Display$BlockDisplay</summary>
+
+```diff
++ Display$BlockDisplay$BlockRenderState blockRenderState()
++ void onSyncedDataUpdated(EntityDataAccessor)
 + void updateRenderSubState(boolean,float)
-- boolean updateInterpolators
-- boolean updateTime
-- Display$FloatInterpolator shadowRadius
-- Display$FloatInterpolator shadowStrength
-- Display$GenericInterpolator transformation
-- Display$InterpolatorSet interpolators
-- float INITIAL_UPDATE_PROGRESS
-+ Display$RenderState createFreshRenderState()
-+ Display$RenderState createInterpolatedRenderState(Display$RenderState,float)
-+ Display$RenderState renderState()
-+ void lambda$addAdditionalSaveData$3(Tag)
-+ void lambda$readAdditionalSaveData$0(Pair)
-- float getShadowRadius(float)
-- float getShadowStrength(float)
-- Transformation transformation(float)
-- void lambda$addAdditionalSaveData$6(Tag)
-- void lambda$new$0(SynchedEntityData)
-- void lambda$readAdditionalSaveData$3(Pair)
-- void onSyncedDataUpdated(List)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.Display$FloatInterpolator</summary>
+
+<details><summary>net.minecraft.world.entity.Display$ItemDisplay</summary>
 
 ```diff
-+ float get(float)
-+ Display$FloatInterpolator constant(float)
-+ float lambda$constant$0(float,float)
-- float get(float)
-- Float getGeneric(float)
-- float interpolate(float,float,float)
-- Object getGeneric(float)
-- void <init>(float)
++ Display$ItemDisplay$ItemRenderState itemRenderState()
++ void onSyncedDataUpdated(EntityDataAccessor)
++ void updateRenderSubState(boolean,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.Display$IntInterpolator</summary>
+
+<details><summary>net.minecraft.world.entity.Display$TextDisplay</summary>
 
 ```diff
-+ int get(float)
-+ Display$IntInterpolator constant(int)
-+ int lambda$constant$0(int,float)
-- int get(float)
-- int interpolate(float,int,int)
-- Integer getGeneric(float)
-- Object getGeneric(float)
-- void <init>(int)
+- byte getTextOpacity(float)
++ Display$TextDisplay$TextRenderState createFreshTextRenderState()
++ Display$TextDisplay$TextRenderState createInterpolatedTextRenderState(Display$TextDisplay$TextRenderState,float)
++ Display$TextDisplay$TextRenderState textRenderState()
+- int getBackgroundColor(float)
++ void lambda$addAdditionalSaveData$0(CompoundTag,Tag)
+- void lambda$addAdditionalSaveData$1(CompoundTag,Tag)
+- void lambda$new$0(float,SynchedEntityData)
++ void updateRenderSubState(boolean,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeItem</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.MoveToTargetSink</summary>
 
 ```diff
-+ boolean tryApplyToSign(Player)
-+ SignText lambda$tryApplyToSign$0(SignText)
++ boolean isWalkTargetSpectator(WalkTarget)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
+<details><summary>net.minecraft.world.entity.animal.Animal</summary>
 
 ```diff
-+ Item ANGLER_POTTERY_SHARD
-+ Item ARCHER_POTTERY_SHARD
-+ Item ARMS_UP_POTTERY_SHARD
-+ Item BLADE_POTTERY_SHARD
-+ Item BREWER_POTTERY_SHARD
-+ Item BURN_POTTERY_SHARD
-+ Item CALIBRATED_SCULK_SENSOR
-+ Item DANGER_POTTERY_SHARD
-+ Item EXPLORER_POTTERY_SHARD
-+ Item FRIEND_POTTERY_SHARD
-+ Item HEART_POTTERY_SHARD
-+ Item HEARTBREAK_POTTERY_SHARD
-+ Item HOST_ARMOR_TRIM_SMITHING_TEMPLATE
-+ Item HOWL_POTTERY_SHARD
-+ Item MINER_POTTERY_SHARD
-+ Item MOURNER_POTTERY_SHARD
-+ Item PITCHER_PLANT
-+ Item PITCHER_POD
-+ Item PLENTY_POTTERY_SHARD
-+ Item PRIZE_POTTERY_SHARD
-+ Item RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
-+ Item SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
-+ Item SHEAF_POTTERY_SHARD
-+ Item SHELTER_POTTERY_SHARD
-+ Item SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
-+ Item SKULL_POTTERY_SHARD
-+ Item SNIFFER_EGG
-+ Item SNORT_POTTERY_SHARD
-+ Item SUSPICIOUS_GRAVEL
-+ Item WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
-- Item POTTERY_SHARD_ARCHER
-- Item POTTERY_SHARD_ARMS_UP
-- Item POTTERY_SHARD_PRIZE
-- Item POTTERY_SHARD_SKULL
++ Optional lambda$finalizeSpawnChildFromBreeding$0(Animal)
++ void finalizeSpawnChildFromBreeding(ServerLevel,Animal,AgeableMob)
++ void lambda$finalizeSpawnChildFromBreeding$1(Animal,AgeableMob,ServerPlayer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
 
 ```diff
-+ boolean sideInputDiodesOnly()
-+ int getAlternateSignal(BlockState)
-- boolean isAlternateInput(BlockState)
-- int getAlternateSignal(BlockState)
-- int getAlternateSignalAt(Direction)
++ int getListenerRadius()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LevelEvent</summary>
+<details><summary>net.minecraft.world.item.HoneycombItem</summary>
 
 ```diff
-+ int PARTICLES_EGG_CRACK
++ boolean canApplyToSign(SignText,Player)
++ boolean tryApplyToSign(Level,SignBlockEntity,boolean,Player)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.MagmaBlock</summary>
+<details><summary>net.minecraft.world.level.LevelReader</summary>
 
 ```diff
-- void randomTick(RandomSource)
+- int getDirectSignal(BlockPos,Direction)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterLists</summary>
+
+```diff
+- void nextUpdate(BootstapContext)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StandingSignBlock</summary>
+<details><summary>net.minecraft.world.level.block.WallHangingSignBlock</summary>
 
 ```diff
 + float getYRotationDegrees(BlockState)
@@ -8219,109 +2734,118 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.DecoratedPotBlockEntity</summary>
+<details><summary>net.minecraft.world.level.block.WallSignBlock</summary>
 
 ```diff
-- boolean isBroken
-- boolean isBroken()
-- void playerDestroy(Player)
++ float getYRotationDegrees(BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
 
 ```diff
-+ VibrationListener$Config vibrationConfig
-+ VibrationListener$Config createVibrationConfig()
-+ void <init>(BlockState)
-- boolean canTriggerAvoidVibration()
-- boolean shouldListen(GameEvent$Context)
-- int getRedstoneStrengthForDistance(float,int)
-- void onSignalReceive(Entity,float)
-- void onSignalSchedule()
+- boolean getNeighborSignal(Level,BlockPos,Direction)
++ boolean getNeighborSignal(SignalGetter,BlockPos,Direction)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.NopProcessor</summary>
+<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
 
 ```diff
-- StructureTemplate$StructureBlockInfo processBlock(StructurePlaceSettings)
++ App lambda$codec$5(VibrationListener$Config,RecordCodecBuilder$Instance)
+- App lambda$codec$6(VibrationListener$VibrationListenerConfig,RecordCodecBuilder$Instance)
+- boolean lambda$isOccluded$10(BlockState)
++ boolean lambda$isOccluded$9(BlockState)
++ Codec codec(VibrationListener$Config)
+- Codec codec(VibrationListener$VibrationListenerConfig)
++ GameEvent getResonanceEventByFrequency(int)
+- Integer lambda$codec$1(VibrationListener)
++ Integer lambda$codec$3(VibrationListener)
+- Integer lambda$codec$4(VibrationListener)
++ Optional lambda$codec$1(VibrationListener)
+- Optional lambda$codec$2(VibrationListener)
++ VibrationListener lambda$codec$4(VibrationListener$Config,PositionSource,Optional,VibrationSelector,Integer)
+- VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,VibrationSelector,Integer)
++ VibrationListener$Config getConfig()
++ VibrationSelector lambda$codec$2(VibrationListener)
+- VibrationSelector lambda$codec$3(VibrationListener)
+- void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationInfo,VibrationSelector,int)
+- void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig)
++ void <init>(PositionSource,VibrationListener$Config,VibrationInfo,VibrationSelector,int)
++ void <init>(PositionSource,VibrationListener$Config)
++ void lambda$forceGameEvent$8(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
+- void lambda$forceGameEvent$9(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
++ void lambda$static$6(Object2IntOpenHashMap)
+- void lambda$static$7(Object2IntOpenHashMap)
++ void lambda$tick$7(ServerLevel,VibrationInfo)
+- void lambda$tick$8(ServerLevel,VibrationInfo)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
 
 ```diff
-+ Passthrough DEFAULT_BLOCK_ENTITY_MODIFIER
-+ RuleBlockEntityModifier blockEntityModifier
-- CompoundTag outputTag
-+ CompoundTag getOutputTag(CompoundTag)
-+ RuleBlockEntityModifier lambda$static$4(ProcessorRule)
-+ void <init>(RuleBlockEntityModifier)
-- CompoundTag getOutputTag()
-- Optional lambda$static$4(ProcessorRule)
-- void <init>(Optional)
++ boolean tryPlaceExtension(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,float,BlockPos,BlockPos$MutableBlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessor</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure</summary>
 
 ```diff
-- StructureTemplate$StructureBlockInfo processBlock(net.minecraft.world.level.LevelReader,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$StructureBlockInfo,net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$StructureBlockInfo,net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings)
-+ List finalizeProcessing(StructurePlaceSettings)
-+ StructureTemplate$StructureBlockInfo processBlock(StructurePlaceSettings)
-- void finalizeStructure(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType</summary>
-
-```diff
-+ StructureProcessorType CAPPED
++ void lambda$afterPlace$0(BlockPos,BrushableBlockEntity)
+- void lambda$afterPlace$0(BlockPos,SuspiciousSandBlockEntity)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces</summary>
+
+```diff
++ StructureProcessor archyRuleProcessor(Block,Block,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$OceanRuinPiece</summary>
+
+```diff
++ OceanRuinPieces$OceanRuinPiece create(StructureTemplateManager,CompoundTag)
+- StructurePlaceSettings lambda$new$0(CompoundTag,ResourceLocation)
++ StructurePlaceSettings lambda$new$0(Rotation,float,OceanRuinStructure$Type,ResourceLocation)
++ StructurePlaceSettings makeSettings(Rotation,float,OceanRuinStructure$Type)
+- StructurePlaceSettings makeSettings(Rotation)
++ void <init>(StructureTemplateManager,CompoundTag,Rotation,float,OceanRuinStructure$Type,boolean)
+- void <init>(StructureTemplateManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.WorldData</summary>
+
+```diff
++ String lambda$fillCrashReportCategory$3()
+```
+
+</details>
+
+
+### Server
 
 
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.data.advancements.packs.package-info
@@ -12360,13 +6884,2222 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
++ int breadthFirstTraversal(BlockPos,int,int,BiConsumer,Predicate)
++ void lambda$breadthFirstTraversal$7(Queue,int,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.Main</summary>
+
+```diff
+- PackMetadataGenerator lambda$createStandardGenerator$8(PackOutput)
+- UpdateOneTwentyBlockTagsProvider lambda$createStandardGenerator$6(CompletableFuture,TagsProvider,PackOutput)
+- UpdateOneTwentyItemTagsProvider lambda$createStandardGenerator$7(CompletableFuture,TagsProvider,TagsProvider,PackOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RecipesFix</summary>
+
+```diff
+- String lambda$new$0(String)
++ void <init>()
+- void <init>(Schema,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Display</summary>
+
+```diff
++ Display$RenderState createFreshRenderState()
++ Display$RenderState createInterpolatedRenderState(Display$RenderState,float)
++ Display$RenderState renderState()
+- float getShadowRadius(float)
+- float getShadowStrength(float)
+- Transformation transformation(float)
++ void lambda$addAdditionalSaveData$3(CompoundTag,Tag)
+- void lambda$addAdditionalSaveData$6(CompoundTag,Tag)
+- void lambda$new$0(float,SynchedEntityData)
++ void lambda$readAdditionalSaveData$0(Pair)
+- void lambda$readAdditionalSaveData$3(Pair)
+- void onSyncedDataUpdated(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Display$FloatInterpolator</summary>
+
+```diff
++ Display$FloatInterpolator constant(float)
+- float get(float)
+- Float getGeneric(float)
+- float interpolate(float,float,float)
++ float lambda$constant$0(float,float)
+- Object getGeneric(float)
+- void <init>(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Display$IntInterpolator</summary>
+
+```diff
++ Display$IntInterpolator constant(int)
+- int get(float)
+- int interpolate(float,int,int)
++ int lambda$constant$0(int,float)
+- Integer getGeneric(float)
+- Object getGeneric(float)
+- void <init>(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.DyeItem</summary>
+
+```diff
++ boolean tryApplyToSign(Level,SignBlockEntity,boolean,Player)
++ SignText lambda$tryApplyToSign$0(SignText)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+
+```diff
+- boolean isAlternateInput(BlockState)
++ boolean sideInputDiodesOnly()
+- int getAlternateSignal(LevelReader,BlockPos,BlockState)
++ int getAlternateSignal(SignalGetter,BlockPos,BlockState)
+- int getAlternateSignalAt(LevelReader,BlockPos,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MagmaBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StandingSignBlock</summary>
+
+```diff
++ float getYRotationDegrees(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.DecoratedPotBlockEntity</summary>
+
+```diff
+- boolean isBroken()
+- void playerDestroy(Level,BlockPos,ItemStack,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+
+```diff
+- boolean canTriggerAvoidVibration()
+- boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,GameEvent$Context)
+- int getRedstoneStrengthForDistance(float,int)
++ VibrationListener$Config createVibrationConfig()
++ void <init>(BlockEntityType,BlockPos,BlockState)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,float)
+- void onSignalSchedule()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.NopProcessor</summary>
+
+```diff
+- StructureTemplate$StructureBlockInfo processBlock(LevelReader,BlockPos,BlockPos,StructureTemplate$StructureBlockInfo,StructureTemplate$StructureBlockInfo,StructurePlaceSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule</summary>
+
+```diff
+- CompoundTag getOutputTag()
++ CompoundTag getOutputTag(RandomSource,CompoundTag)
+- Optional lambda$static$4(ProcessorRule)
++ RuleBlockEntityModifier lambda$static$4(ProcessorRule)
+- void <init>(RuleTest,RuleTest,PosRuleTest,BlockState,Optional)
++ void <init>(RuleTest,RuleTest,PosRuleTest,BlockState,RuleBlockEntityModifier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessor</summary>
+
+```diff
++ List finalizeProcessing(LevelAccessor,BlockPos,BlockPos,List,List,StructurePlaceSettings)
++ StructureTemplate$StructureBlockInfo processBlock(LevelReader,BlockPos,BlockPos,StructureTemplate$StructureBlockInfo,StructureTemplate$StructureBlockInfo,StructurePlaceSettings)
+- void finalizeStructure(LevelAccessor,BlockPos,BlockPos,StructurePlaceSettings,List)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/bamboo_block.json
++ minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
++ minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
++ minecraft/advancements/recipes/building_blocks/bamboo_planks.json
++ minecraft/advancements/recipes/building_blocks/bamboo_slab.json
++ minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
++ minecraft/advancements/recipes/building_blocks/cherry_planks.json
++ minecraft/advancements/recipes/building_blocks/cherry_slab.json
++ minecraft/advancements/recipes/building_blocks/cherry_stairs.json
++ minecraft/advancements/recipes/building_blocks/cherry_wood.json
++ minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
++ minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
++ minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
++ minecraft/advancements/recipes/decorations/bamboo_fence.json
++ minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
++ minecraft/advancements/recipes/decorations/bamboo_mosaic.json
++ minecraft/advancements/recipes/decorations/bamboo_sign.json
++ minecraft/advancements/recipes/decorations/birch_hanging_sign.json
++ minecraft/advancements/recipes/decorations/cherry_fence.json
++ minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
++ minecraft/advancements/recipes/decorations/cherry_sign.json
++ minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
++ minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
++ minecraft/advancements/recipes/decorations/decorated_pot_simple.json
++ minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
++ minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
++ minecraft/advancements/recipes/decorations/oak_hanging_sign.json
++ minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
++ minecraft/advancements/recipes/decorations/warped_hanging_sign.json
++ minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/cyan_dye_from_pitcher_plant.json
++ minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/host_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/host_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
++ minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
++ minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
++ minecraft/advancements/recipes/misc/raiser_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/raiser_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/shaper_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/shaper_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/silence_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/silence_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/wayfinder_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
++ minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
++ minecraft/advancements/recipes/redstone/bamboo_button.json
++ minecraft/advancements/recipes/redstone/bamboo_door.json
++ minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
++ minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
++ minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
++ minecraft/advancements/recipes/redstone/calibrated_sculk_sensor.json
++ minecraft/advancements/recipes/redstone/cherry_button.json
++ minecraft/advancements/recipes/redstone/cherry_door.json
++ minecraft/advancements/recipes/redstone/cherry_fence_gate.json
++ minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
++ minecraft/advancements/recipes/redstone/cherry_trapdoor.json
++ minecraft/advancements/recipes/tools/brush.json
++ minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
++ minecraft/advancements/recipes/transportation/bamboo_raft.json
++ minecraft/advancements/recipes/transportation/cherry_boat.json
++ minecraft/advancements/recipes/transportation/cherry_chest_boat.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure/adventuring_time.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/bred_all_animals.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_block.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_boots_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_sword_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_mosaic.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/birch_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/decorated_pot_simple.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/warped_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/brush.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_axe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_raft.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_boat.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_chest_boat.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_pyramid.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_well.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/acacia_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_block.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/birch_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_leaves.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_log.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sapling.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/chiseled_bookshelf.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/crimson_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/decorated_pot.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/jungle_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/mangrove_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/piglin_head.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/pink_petals.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_cherry_sapling.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_torchflower.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/spruce_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_bamboo_block.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_log.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/suspicious_sand.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower_crop.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/warped_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/ancient_city.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_bridge.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_other.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_treasure.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/desert_pyramid.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/end_city_treasure.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/jungle_temple.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/nether_bridge.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/pillager_outpost.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_map.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_supply.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_treasure.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_corridor.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_library.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/woodland_mansion.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/camel.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/elder_guardian.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/sniffer.json
+- minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing/fish.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/acacia_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_block.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_chest_raft.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_raft.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/birch_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/brush.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_boat.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_button.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_chest_boat.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_door.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence_gate.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_pressure_plate.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_slab.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_trapdoor.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/chiseled_bookshelf.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/crimson_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/dark_oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot_simple.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/jungle_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/mangrove_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_axe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_boots_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_chestplate_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_helmet_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_hoe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_leggings_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_pickaxe_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_shovel_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_sword_smithing.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_upgrade_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/oak_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/orange_dye_from_torchflower.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/pink_dye_from_pink_petals.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/spruce_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/stripped_cherry_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/warped_hanging_sign.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
+- minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_hanging_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/bamboo_blocks.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/ceiling_hanging_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/cherry_logs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/crops.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/fence_gates.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flower_pots.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flowers.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/inside_step_sound_blocks.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/leaves.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/logs_that_burn.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/axe.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/hoe.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/overworld_natural_logs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sand.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/saplings.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/small_flowers.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sniffer_diggable_block.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/standing_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_hanging_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_buttons.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_doors.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_fences.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_pressure_plates.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_slabs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_trapdoors.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/bamboo_blocks.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/boats.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/bookshelf_books.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/breaks_decorated_pots.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/cherry_logs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/chest_boats.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/decorated_pot_shards.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/fence_gates.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/flowers.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/hanging_signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/leaves.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/logs_that_burn.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/non_flammable_wood.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/noteblock_top_instruments.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/sand.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/saplings.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/signs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/small_flowers.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/sniffer_food.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_materials.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_templates.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/trimmable_armor.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_buttons.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_doors.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_fences.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_pressure_plates.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_slabs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_trapdoors.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome/is_mountain.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/amethyst.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/copper.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/diamond.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/emerald.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/gold.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/iron.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/lapis.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/netherite.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/quartz.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_material/redstone.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/coast.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/dune.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/eye.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/rib.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/sentry.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/snout.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/spire.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/tide.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/vex.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/ward.json
+- minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/wild.json
+- minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome/cherry_grove.json
+- minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
+- minecraft/datapacks/update_1_20/pack.mcmeta
++ minecraft/loot_tables/archaeology/desert_pyramid.json
++ minecraft/loot_tables/archaeology/desert_well.json
++ minecraft/loot_tables/archaeology/ocean_ruin_cold.json
++ minecraft/loot_tables/archaeology/ocean_ruin_warm.json
++ minecraft/loot_tables/archaeology/trail_ruins.json
++ minecraft/loot_tables/blocks/calibrated_sculk_sensor.json
++ minecraft/loot_tables/blocks/pitcher_crop.json
++ minecraft/loot_tables/blocks/pitcher_plant.json
++ minecraft/loot_tables/blocks/sniffer_egg.json
++ minecraft/loot_tables/blocks/suspicious_gravel.json
++ minecraft/recipes/acacia_hanging_sign.json
++ minecraft/recipes/bamboo_block.json
++ minecraft/recipes/bamboo_button.json
++ minecraft/recipes/bamboo_chest_raft.json
++ minecraft/recipes/bamboo_door.json
++ minecraft/recipes/bamboo_fence_gate.json
++ minecraft/recipes/bamboo_fence.json
++ minecraft/recipes/bamboo_hanging_sign.json
++ minecraft/recipes/bamboo_mosaic_slab.json
++ minecraft/recipes/bamboo_mosaic_stairs.json
++ minecraft/recipes/bamboo_mosaic.json
++ minecraft/recipes/bamboo_planks.json
++ minecraft/recipes/bamboo_pressure_plate.json
++ minecraft/recipes/bamboo_raft.json
++ minecraft/recipes/bamboo_sign.json
++ minecraft/recipes/bamboo_slab.json
++ minecraft/recipes/bamboo_stairs.json
++ minecraft/recipes/bamboo_trapdoor.json
++ minecraft/recipes/birch_hanging_sign.json
++ minecraft/recipes/brush.json
++ minecraft/recipes/calibrated_sculk_sensor.json
++ minecraft/recipes/cherry_boat.json
++ minecraft/recipes/cherry_button.json
++ minecraft/recipes/cherry_chest_boat.json
++ minecraft/recipes/cherry_door.json
++ minecraft/recipes/cherry_fence_gate.json
++ minecraft/recipes/cherry_fence.json
++ minecraft/recipes/cherry_hanging_sign.json
++ minecraft/recipes/cherry_planks.json
++ minecraft/recipes/cherry_pressure_plate.json
++ minecraft/recipes/cherry_sign.json
++ minecraft/recipes/cherry_slab.json
++ minecraft/recipes/cherry_stairs.json
++ minecraft/recipes/cherry_trapdoor.json
++ minecraft/recipes/cherry_wood.json
++ minecraft/recipes/chiseled_bookshelf.json
++ minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/coast_armor_trim_smithing_template.json
++ minecraft/recipes/crimson_hanging_sign.json
++ minecraft/recipes/cyan_dye_from_pitcher_plant.json
++ minecraft/recipes/dark_oak_hanging_sign.json
++ minecraft/recipes/decorated_pot_simple.json
++ minecraft/recipes/decorated_pot.json
++ minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/dune_armor_trim_smithing_template.json
++ minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/eye_armor_trim_smithing_template.json
++ minecraft/recipes/host_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/host_armor_trim_smithing_template.json
++ minecraft/recipes/jungle_hanging_sign.json
++ minecraft/recipes/mangrove_hanging_sign.json
++ minecraft/recipes/netherite_upgrade_smithing_template.json
++ minecraft/recipes/oak_hanging_sign.json
++ minecraft/recipes/orange_dye_from_torchflower.json
++ minecraft/recipes/pink_dye_from_pink_petals.json
++ minecraft/recipes/raiser_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/raiser_armor_trim_smithing_template.json
++ minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/rib_armor_trim_smithing_template.json
++ minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/sentry_armor_trim_smithing_template.json
++ minecraft/recipes/shaper_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/shaper_armor_trim_smithing_template.json
++ minecraft/recipes/silence_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/silence_armor_trim_smithing_template.json
++ minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/snout_armor_trim_smithing_template.json
++ minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/spire_armor_trim_smithing_template.json
++ minecraft/recipes/spruce_hanging_sign.json
++ minecraft/recipes/stripped_cherry_wood.json
++ minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/tide_armor_trim_smithing_template.json
++ minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/vex_armor_trim_smithing_template.json
++ minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/ward_armor_trim_smithing_template.json
++ minecraft/recipes/warped_hanging_sign.json
++ minecraft/recipes/wayfinder_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/wayfinder_armor_trim_smithing_template.json
++ minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
++ minecraft/recipes/wild_armor_trim_smithing_template.json
++ minecraft/structures/trail_ruins/buildings/group_entrance_three_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_entrance_two_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_entrance_two_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_one_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_one_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_two_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_two_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_two_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_two_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_two_5.nbt
++ minecraft/structures/trail_ruins/buildings/large_room_1.nbt
++ minecraft/structures/trail_ruins/buildings/large_room_2.nbt
++ minecraft/structures/trail_ruins/buildings/large_room_3.nbt
++ minecraft/structures/trail_ruins/buildings/one_room_1.nbt
++ minecraft/structures/trail_ruins/buildings/one_room_2.nbt
++ minecraft/structures/trail_ruins/buildings/one_room_3.nbt
++ minecraft/structures/trail_ruins/buildings/one_room_4.nbt
++ minecraft/structures/trail_ruins/decor/decor_1.nbt
++ minecraft/structures/trail_ruins/decor/decor_2.nbt
++ minecraft/structures/trail_ruins/decor/decor_3.nbt
++ minecraft/structures/trail_ruins/decor/decor_4.nbt
++ minecraft/structures/trail_ruins/decor/decor_5.nbt
++ minecraft/structures/trail_ruins/decor/decor_6.nbt
++ minecraft/structures/trail_ruins/roads/long_road_end.nbt
++ minecraft/structures/trail_ruins/roads/road_end_1.nbt
++ minecraft/structures/trail_ruins/roads/road_end_1s.nbt
++ minecraft/structures/trail_ruins/roads/road_section_1.nbt
++ minecraft/structures/trail_ruins/roads/road_section_2.nbt
++ minecraft/structures/trail_ruins/roads/road_section_3.nbt
++ minecraft/structures/trail_ruins/roads/road_section_4.nbt
++ minecraft/structures/trail_ruins/roads/road_spacer_1.nbt
++ minecraft/structures/trail_ruins/tower/hall_1.nbt
++ minecraft/structures/trail_ruins/tower/hall_2.nbt
++ minecraft/structures/trail_ruins/tower/large_hall_1.nbt
++ minecraft/structures/trail_ruins/tower/large_hall_2.nbt
++ minecraft/structures/trail_ruins/tower/one_room_1.nbt
++ minecraft/structures/trail_ruins/tower/platform_1.nbt
++ minecraft/structures/trail_ruins/tower/stable_1.nbt
++ minecraft/structures/trail_ruins/tower/tower_1.nbt
++ minecraft/structures/trail_ruins/tower/tower_2.nbt
++ minecraft/structures/trail_ruins/tower/tower_3.nbt
++ minecraft/tags/blocks/all_hanging_signs.json
++ minecraft/tags/blocks/bamboo_blocks.json
++ minecraft/tags/blocks/ceiling_hanging_signs.json
++ minecraft/tags/blocks/cherry_logs.json
++ minecraft/tags/blocks/combination_step_sound_blocks.json
++ minecraft/tags/blocks/sniffer_diggable_block.json
++ minecraft/tags/blocks/sniffer_egg_hatch_boost.json
++ minecraft/tags/blocks/trail_ruins_replaceable.json
++ minecraft/tags/blocks/vibration_resonators.json
++ minecraft/tags/blocks/wall_hanging_signs.json
++ minecraft/tags/items/bamboo_blocks.json
++ minecraft/tags/items/bookshelf_books.json
++ minecraft/tags/items/breaks_decorated_pots.json
++ minecraft/tags/items/cherry_logs.json
++ minecraft/tags/items/decorated_pot_shards.json
++ minecraft/tags/items/hanging_signs.json
++ minecraft/tags/items/noteblock_top_instruments.json
++ minecraft/tags/items/sniffer_food.json
++ minecraft/tags/items/trim_materials.json
++ minecraft/tags/items/trim_templates.json
++ minecraft/tags/items/trimmable_armor.json
++ minecraft/tags/worldgen/biome/has_structure/trail_ruins.json
++ minecraft/trim_material/amethyst.json
++ minecraft/trim_material/copper.json
++ minecraft/trim_material/diamond.json
++ minecraft/trim_material/emerald.json
++ minecraft/trim_material/gold.json
++ minecraft/trim_material/iron.json
++ minecraft/trim_material/lapis.json
++ minecraft/trim_material/netherite.json
++ minecraft/trim_material/quartz.json
++ minecraft/trim_material/redstone.json
++ minecraft/trim_pattern/coast.json
++ minecraft/trim_pattern/dune.json
++ minecraft/trim_pattern/eye.json
++ minecraft/trim_pattern/host.json
++ minecraft/trim_pattern/raiser.json
++ minecraft/trim_pattern/rib.json
++ minecraft/trim_pattern/sentry.json
++ minecraft/trim_pattern/shaper.json
++ minecraft/trim_pattern/silence.json
++ minecraft/trim_pattern/snout.json
++ minecraft/trim_pattern/spire.json
++ minecraft/trim_pattern/tide.json
++ minecraft/trim_pattern/vex.json
++ minecraft/trim_pattern/ward.json
++ minecraft/trim_pattern/wayfinder.json
++ minecraft/trim_pattern/wild.json
++ minecraft/worldgen/biome/cherry_grove.json
++ minecraft/worldgen/processor_list/trail_ruins_suspicious_sand.json
++ minecraft/worldgen/structure_set/trail_ruins.json
++ minecraft/worldgen/structure/trail_ruins.json
++ minecraft/worldgen/template_pool/trail_ruins/buildings.json
++ minecraft/worldgen/template_pool/trail_ruins/buildings/grouped.json
++ minecraft/worldgen/template_pool/trail_ruins/decor.json
++ minecraft/worldgen/template_pool/trail_ruins/roads.json
++ minecraft/worldgen/template_pool/trail_ruins/tower.json
++ minecraft/worldgen/template_pool/trail_ruins/tower/additions.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/calibrated_sculk_sensor.json
++ minecraft/blockstates/pitcher_crop.json
++ minecraft/blockstates/pitcher_plant.json
++ minecraft/blockstates/sniffer_egg.json
++ minecraft/blockstates/suspicious_gravel.json
++ minecraft/models/block/calibrated_sculk_sensor_active.json
++ minecraft/models/block/calibrated_sculk_sensor_inactive.json
++ minecraft/models/block/calibrated_sculk_sensor.json
++ minecraft/models/block/pitcher_crop_bottom_stage_0.json
++ minecraft/models/block/pitcher_crop_bottom_stage_1.json
++ minecraft/models/block/pitcher_crop_bottom_stage_2.json
++ minecraft/models/block/pitcher_crop_bottom_stage_3.json
++ minecraft/models/block/pitcher_crop_bottom_stage_4.json
++ minecraft/models/block/pitcher_crop_top_stage_0.json
++ minecraft/models/block/pitcher_crop_top_stage_1.json
++ minecraft/models/block/pitcher_crop_top_stage_2.json
++ minecraft/models/block/pitcher_crop_top_stage_3.json
++ minecraft/models/block/pitcher_crop_top_stage_4.json
++ minecraft/models/block/pitcher_plant_bottom.json
++ minecraft/models/block/pitcher_plant_top.json
++ minecraft/models/block/sniffer_egg_not_cracked.json
++ minecraft/models/block/sniffer_egg_slightly_cracked.json
++ minecraft/models/block/sniffer_egg_very_cracked.json
++ minecraft/models/block/sniffer_egg.json
++ minecraft/models/block/suspicious_gravel_0.json
++ minecraft/models/block/suspicious_gravel_1.json
++ minecraft/models/block/suspicious_gravel_2.json
++ minecraft/models/block/suspicious_gravel_3.json
++ minecraft/models/item/angler_pottery_shard.json
++ minecraft/models/item/archer_pottery_shard.json
++ minecraft/models/item/arms_up_pottery_shard.json
++ minecraft/models/item/blade_pottery_shard.json
++ minecraft/models/item/brewer_pottery_shard.json
++ minecraft/models/item/burn_pottery_shard.json
++ minecraft/models/item/calibrated_sculk_sensor.json
++ minecraft/models/item/danger_pottery_shard.json
++ minecraft/models/item/explorer_pottery_shard.json
++ minecraft/models/item/friend_pottery_shard.json
++ minecraft/models/item/heart_pottery_shard.json
++ minecraft/models/item/heartbreak_pottery_shard.json
++ minecraft/models/item/host_armor_trim_smithing_template.json
++ minecraft/models/item/howl_pottery_shard.json
++ minecraft/models/item/miner_pottery_shard.json
++ minecraft/models/item/mourner_pottery_shard.json
++ minecraft/models/item/pitcher_plant.json
++ minecraft/models/item/pitcher_pod.json
++ minecraft/models/item/plenty_pottery_shard.json
+- minecraft/models/item/pottery_shard_archer.json
+- minecraft/models/item/pottery_shard_arms_up.json
+- minecraft/models/item/pottery_shard_prize.json
+- minecraft/models/item/pottery_shard_skull.json
++ minecraft/models/item/prize_pottery_shard.json
++ minecraft/models/item/raiser_armor_trim_smithing_template.json
++ minecraft/models/item/shaper_armor_trim_smithing_template.json
++ minecraft/models/item/sheaf_pottery_shard.json
++ minecraft/models/item/shelter_pottery_shard.json
++ minecraft/models/item/silence_armor_trim_smithing_template.json
++ minecraft/models/item/skull_pottery_shard.json
++ minecraft/models/item/sniffer_egg.json
++ minecraft/models/item/snort_pottery_shard.json
++ minecraft/models/item/suspicious_gravel.json
++ minecraft/models/item/wayfinder_armor_trim_smithing_template.json
++ minecraft/particles/cherry_leaves.json
+- minecraft/particles/dripping_cherry_leaves.json
++ minecraft/particles/egg_crack.json
+- minecraft/particles/falling_cherry_leaves.json
+- minecraft/particles/landing_cherry_leaves.json
++ minecraft/textures/block/calibrated_sculk_sensor_amethyst.png
++ minecraft/textures/block/calibrated_sculk_sensor_input_side.png
++ minecraft/textures/block/calibrated_sculk_sensor_top.png
++ minecraft/textures/block/pitcher_crop_bottom_stage_1.png
++ minecraft/textures/block/pitcher_crop_bottom_stage_2.png
++ minecraft/textures/block/pitcher_crop_bottom_stage_3.png
++ minecraft/textures/block/pitcher_crop_bottom_stage_4.png
++ minecraft/textures/block/pitcher_crop_bottom.png
++ minecraft/textures/block/pitcher_crop_side.png
++ minecraft/textures/block/pitcher_crop_top_stage_3.png
++ minecraft/textures/block/pitcher_crop_top_stage_4.png
++ minecraft/textures/block/pitcher_crop_top.png
++ minecraft/textures/block/sniffer_egg_not_cracked.png
++ minecraft/textures/block/sniffer_egg_slightly_cracked.png
++ minecraft/textures/block/sniffer_egg_very_cracked.png
++ minecraft/textures/block/suspicious_gravel_0.png
++ minecraft/textures/block/suspicious_gravel_1.png
++ minecraft/textures/block/suspicious_gravel_2.png
++ minecraft/textures/block/suspicious_gravel_3.png
++ minecraft/textures/entity/decorated_pot/angler_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/archer_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/arms_up_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/blade_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/brewer_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/burn_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/danger_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/explorer_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/friend_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/heart_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/heartbreak_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/howl_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/miner_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/mourner_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/plenty_pottery_pattern.png
+- minecraft/textures/entity/decorated_pot/pottery_pattern_archer.png
+- minecraft/textures/entity/decorated_pot/pottery_pattern_arms_up.png
+- minecraft/textures/entity/decorated_pot/pottery_pattern_prize.png
+- minecraft/textures/entity/decorated_pot/pottery_pattern_skull.png
++ minecraft/textures/entity/decorated_pot/prize_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/sheaf_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/shelter_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/skull_pottery_pattern.png
++ minecraft/textures/entity/decorated_pot/snort_pottery_pattern.png
++ minecraft/textures/item/angler_pottery_shard.png
++ minecraft/textures/item/archer_pottery_shard.png
++ minecraft/textures/item/arms_up_pottery_shard.png
++ minecraft/textures/item/blade_pottery_shard.png
++ minecraft/textures/item/brewer_pottery_shard.png
++ minecraft/textures/item/burn_pottery_shard.png
++ minecraft/textures/item/danger_pottery_shard.png
++ minecraft/textures/item/explorer_pottery_shard.png
++ minecraft/textures/item/friend_pottery_shard.png
++ minecraft/textures/item/heart_pottery_shard.png
++ minecraft/textures/item/heartbreak_pottery_shard.png
++ minecraft/textures/item/host_armor_trim_smithing_template.png
++ minecraft/textures/item/howl_pottery_shard.png
++ minecraft/textures/item/miner_pottery_shard.png
++ minecraft/textures/item/mourner_pottery_shard.png
++ minecraft/textures/item/pitcher_plant.png
++ minecraft/textures/item/pitcher_pod.png
++ minecraft/textures/item/plenty_pottery_shard.png
+- minecraft/textures/item/pottery_shard_archer.png
+- minecraft/textures/item/pottery_shard_arms_up.png
+- minecraft/textures/item/pottery_shard_prize.png
+- minecraft/textures/item/pottery_shard_skull.png
++ minecraft/textures/item/prize_pottery_shard.png
++ minecraft/textures/item/raiser_armor_trim_smithing_template.png
++ minecraft/textures/item/shaper_armor_trim_smithing_template.png
++ minecraft/textures/item/sheaf_pottery_shard.png
++ minecraft/textures/item/shelter_pottery_shard.png
++ minecraft/textures/item/silence_armor_trim_smithing_template.png
++ minecraft/textures/item/skull_pottery_shard.png
++ minecraft/textures/item/sniffer_egg.png
++ minecraft/textures/item/snort_pottery_shard.png
++ minecraft/textures/item/wayfinder_armor_trim_smithing_template.png
++ minecraft/textures/particle/cherry_0.png
++ minecraft/textures/particle/cherry_1.png
++ minecraft/textures/particle/cherry_10.png
++ minecraft/textures/particle/cherry_11.png
++ minecraft/textures/particle/cherry_2.png
++ minecraft/textures/particle/cherry_3.png
++ minecraft/textures/particle/cherry_4.png
++ minecraft/textures/particle/cherry_5.png
++ minecraft/textures/particle/cherry_6.png
++ minecraft/textures/particle/cherry_7.png
++ minecraft/textures/particle/cherry_8.png
++ minecraft/textures/particle/cherry_9.png
++ minecraft/textures/particle/goldheart_0.png
++ minecraft/textures/particle/goldheart_1.png
++ minecraft/textures/particle/goldheart_2.png
++ minecraft/textures/trims/models/armor/host_leggings.png
++ minecraft/textures/trims/models/armor/host.png
++ minecraft/textures/trims/models/armor/raiser_leggings.png
++ minecraft/textures/trims/models/armor/raiser.png
++ minecraft/textures/trims/models/armor/shaper_leggings.png
++ minecraft/textures/trims/models/armor/shaper.png
++ minecraft/textures/trims/models/armor/silence_leggings.png
++ minecraft/textures/trims/models/armor/silence.png
++ minecraft/textures/trims/models/armor/wayfinder_leggings.png
++ minecraft/textures/trims/models/armor/wayfinder.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
+- reports/biome_parameters/minecraft/overworld_update_1_20.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ rule_block_entity_modifier.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:calibrated_sculk_sensor
++ minecraft:pitcher_crop
++ minecraft:pitcher_plant
++ minecraft:sniffer_egg
++ minecraft:suspicious_gravel
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:brushable_block
++ minecraft:calibrated_sculk_sensor
+- minecraft:suspicious_sand
+```
+
+</details>
+
+
+<details><summary>decorated_pot_patterns.txt</summary>
+
+```diff
++ minecraft:angler_pottery_pattern
++ minecraft:archer_pottery_pattern
++ minecraft:arms_up_pottery_pattern
++ minecraft:blade_pottery_pattern
++ minecraft:brewer_pottery_pattern
++ minecraft:burn_pottery_pattern
++ minecraft:danger_pottery_pattern
++ minecraft:explorer_pottery_pattern
++ minecraft:friend_pottery_pattern
++ minecraft:heart_pottery_pattern
++ minecraft:heartbreak_pottery_pattern
++ minecraft:howl_pottery_pattern
++ minecraft:miner_pottery_pattern
++ minecraft:mourner_pottery_pattern
++ minecraft:plenty_pottery_pattern
+- minecraft:pottery_pattern_archer
+- minecraft:pottery_pattern_arms_up
+- minecraft:pottery_pattern_prize
+- minecraft:pottery_pattern_skull
++ minecraft:prize_pottery_pattern
++ minecraft:sheaf_pottery_pattern
++ minecraft:shelter_pottery_pattern
++ minecraft:skull_pottery_pattern
++ minecraft:snort_pottery_pattern
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
+- minecraft:dispense_fail
+- minecraft:piston_contract
+- minecraft:piston_extend
++ minecraft:resonate_1
++ minecraft:resonate_10
++ minecraft:resonate_11
++ minecraft:resonate_12
++ minecraft:resonate_13
++ minecraft:resonate_14
++ minecraft:resonate_15
++ minecraft:resonate_2
++ minecraft:resonate_3
++ minecraft:resonate_4
++ minecraft:resonate_5
++ minecraft:resonate_6
++ minecraft:resonate_7
++ minecraft:resonate_8
++ minecraft:resonate_9
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:angler_pottery_shard
++ minecraft:archer_pottery_shard
++ minecraft:arms_up_pottery_shard
++ minecraft:blade_pottery_shard
++ minecraft:brewer_pottery_shard
++ minecraft:burn_pottery_shard
++ minecraft:calibrated_sculk_sensor
++ minecraft:danger_pottery_shard
++ minecraft:explorer_pottery_shard
++ minecraft:friend_pottery_shard
++ minecraft:heart_pottery_shard
++ minecraft:heartbreak_pottery_shard
++ minecraft:host_armor_trim_smithing_template
++ minecraft:howl_pottery_shard
++ minecraft:miner_pottery_shard
++ minecraft:mourner_pottery_shard
++ minecraft:pitcher_plant
++ minecraft:pitcher_pod
++ minecraft:plenty_pottery_shard
+- minecraft:pottery_shard_archer
+- minecraft:pottery_shard_arms_up
+- minecraft:pottery_shard_prize
+- minecraft:pottery_shard_skull
++ minecraft:prize_pottery_shard
++ minecraft:raiser_armor_trim_smithing_template
++ minecraft:shaper_armor_trim_smithing_template
++ minecraft:sheaf_pottery_shard
++ minecraft:shelter_pottery_shard
++ minecraft:silence_armor_trim_smithing_template
++ minecraft:skull_pottery_shard
++ minecraft:sniffer_egg
++ minecraft:snort_pottery_shard
++ minecraft:suspicious_gravel
++ minecraft:wayfinder_armor_trim_smithing_template
+```
+
+</details>
+
+
+<details><summary>menu.txt</summary>
+
+```diff
+- minecraft:legacy_smithing
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:cherry_leaves
+- minecraft:dripping_cherry_leaves
++ minecraft:egg_crack
+- minecraft:falling_cherry_leaves
+- minecraft:landing_cherry_leaves
+```
+
+</details>
+
+
+<details><summary>recipe_serializer.txt</summary>
+
+```diff
+- minecraft:smithing
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.amethyst_block.resonate
++ minecraft:block.sign.waxed_interact_fail
++ minecraft:block.suspicious_gravel.break
++ minecraft:block.suspicious_gravel.fall
++ minecraft:block.suspicious_gravel.hit
++ minecraft:block.suspicious_gravel.place
++ minecraft:block.suspicious_gravel.step
++ minecraft:entity.sniffer.egg_crack
++ minecraft:entity.sniffer.egg_hatch
+- minecraft:item.brush.brush_sand_completed
+- minecraft:item.brush.brushing
++ minecraft:item.brush.brushing.generic
++ minecraft:item.brush.brushing.gravel
++ minecraft:item.brush.brushing.gravel.complete
++ minecraft:item.brush.brushing.sand
++ minecraft:item.brush.brushing.sand.complete
+```
+
+</details>
+
+
+<details><summary>worldgen/structure_processor.txt</summary>
+
+```diff
++ minecraft:capped
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/all_hanging_signs.json
++ blocks/bamboo_blocks.json
++ blocks/ceiling_hanging_signs.json
++ blocks/cherry_logs.json
++ blocks/combination_step_sound_blocks.json
++ blocks/sniffer_diggable_block.json
++ blocks/sniffer_egg_hatch_boost.json
++ blocks/trail_ruins_replaceable.json
++ blocks/vibration_resonators.json
++ blocks/wall_hanging_signs.json
++ items/bamboo_blocks.json
++ items/bookshelf_books.json
++ items/breaks_decorated_pots.json
++ items/cherry_logs.json
++ items/decorated_pot_shards.json
++ items/hanging_signs.json
++ items/noteblock_top_instruments.json
++ items/sniffer_food.json
++ items/trim_materials.json
++ items/trim_templates.json
++ items/trimmable_armor.json
++ worldgen/biome/has_structure/trail_ruins.json
+```
+
+</details>
+
+
+<details><summary>blocks/all_signs.json</summary>
+
+```diff
++ #minecraft:all_hanging_signs
+```
+
+</details>
+
+
+<details><summary>blocks/crops.json</summary>
+
+```diff
++ minecraft:torchflower_crop
+```
+
+</details>
+
+
+<details><summary>blocks/fence_gates.json</summary>
+
+```diff
++ minecraft:bamboo_fence_gate
++ minecraft:cherry_fence_gate
+```
+
+</details>
+
+
+<details><summary>blocks/flowers.json</summary>
+
+```diff
++ minecraft:cherry_leaves
++ minecraft:pink_petals
+```
+
+</details>
+
+
+<details><summary>blocks/flower_pots.json</summary>
+
+```diff
++ minecraft:potted_cherry_sapling
+```
+
+</details>
+
+
+<details><summary>blocks/inside_step_sound_blocks.json</summary>
+
+```diff
+- #minecraft:wool_carpets
+- minecraft:crimson_roots
+- minecraft:moss_carpet
+- minecraft:nether_sprouts
++ minecraft:pink_petals
+- minecraft:snow
+- minecraft:warped_roots
+```
+
+</details>
+
+
+<details><summary>blocks/leaves.json</summary>
+
+```diff
++ minecraft:cherry_leaves
+```
+
+</details>
+
+
+<details><summary>blocks/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:cherry_logs
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/axe.json</summary>
+
+```diff
++ #minecraft:all_hanging_signs
++ #minecraft:bamboo_blocks
++ minecraft:bamboo_mosaic
++ minecraft:bamboo_mosaic_slab
++ minecraft:bamboo_mosaic_stairs
++ minecraft:chiseled_bookshelf
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/hoe.json</summary>
+
+```diff
++ minecraft:calibrated_sculk_sensor
++ minecraft:cherry_leaves
++ minecraft:pink_petals
+```
+
+</details>
+
+
+<details><summary>blocks/overworld_natural_logs.json</summary>
+
+```diff
++ minecraft:cherry_log
+```
+
+</details>
+
+
+<details><summary>blocks/planks.json</summary>
+
+```diff
++ minecraft:bamboo_planks
++ minecraft:cherry_planks
+```
+
+</details>
+
+
+<details><summary>blocks/sand.json</summary>
+
+```diff
++ minecraft:suspicious_sand
++ minecraft:suspicious_sand
+```
+
+</details>
+
+
+<details><summary>blocks/saplings.json</summary>
+
+```diff
++ minecraft:cherry_sapling
+```
+
+</details>
+
+
+<details><summary>blocks/small_flowers.json</summary>
+
+```diff
++ minecraft:torchflower
+```
+
+</details>
+
+
+<details><summary>blocks/standing_signs.json</summary>
+
+```diff
++ minecraft:bamboo_sign
++ minecraft:cherry_sign
+```
+
+</details>
+
+
+<details><summary>blocks/wall_signs.json</summary>
+
+```diff
++ minecraft:bamboo_wall_sign
++ minecraft:cherry_wall_sign
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_buttons.json</summary>
+
+```diff
++ minecraft:bamboo_button
++ minecraft:cherry_button
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_doors.json</summary>
+
+```diff
++ minecraft:bamboo_door
++ minecraft:cherry_door
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_fences.json</summary>
+
+```diff
++ minecraft:bamboo_fence
++ minecraft:cherry_fence
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:bamboo_pressure_plate
++ minecraft:cherry_pressure_plate
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_slabs.json</summary>
+
+```diff
++ minecraft:bamboo_slab
++ minecraft:cherry_slab
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_stairs.json</summary>
+
+```diff
++ minecraft:bamboo_stairs
++ minecraft:cherry_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:bamboo_trapdoor
++ minecraft:cherry_trapdoor
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
+- minecraft:dispense_fail
+- minecraft:piston_contract
+- minecraft:piston_extend
++ minecraft:resonate_1
++ minecraft:resonate_10
++ minecraft:resonate_11
++ minecraft:resonate_12
++ minecraft:resonate_13
++ minecraft:resonate_14
++ minecraft:resonate_15
++ minecraft:resonate_2
++ minecraft:resonate_3
++ minecraft:resonate_4
++ minecraft:resonate_5
++ minecraft:resonate_6
++ minecraft:resonate_7
++ minecraft:resonate_8
++ minecraft:resonate_9
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
+- minecraft:dispense_fail
+- minecraft:piston_contract
+- minecraft:piston_extend
++ minecraft:resonate_1
++ minecraft:resonate_10
++ minecraft:resonate_11
++ minecraft:resonate_12
++ minecraft:resonate_13
++ minecraft:resonate_14
++ minecraft:resonate_15
++ minecraft:resonate_2
++ minecraft:resonate_3
++ minecraft:resonate_4
++ minecraft:resonate_5
++ minecraft:resonate_6
++ minecraft:resonate_7
++ minecraft:resonate_8
++ minecraft:resonate_9
+```
+
+</details>
+
+
+<details><summary>items/boats.json</summary>
+
+```diff
++ minecraft:bamboo_raft
++ minecraft:cherry_boat
+```
+
+</details>
+
+
+<details><summary>items/chest_boats.json</summary>
+
+```diff
++ minecraft:bamboo_chest_raft
++ minecraft:cherry_chest_boat
+```
+
+</details>
+
+
+<details><summary>items/fence_gates.json</summary>
+
+```diff
++ minecraft:bamboo_fence_gate
++ minecraft:cherry_fence_gate
+```
+
+</details>
+
+
+<details><summary>items/flowers.json</summary>
+
+```diff
++ minecraft:cherry_leaves
++ minecraft:pink_petals
+```
+
+</details>
+
+
+<details><summary>items/leaves.json</summary>
+
+```diff
++ minecraft:cherry_leaves
+```
+
+</details>
+
+
+<details><summary>items/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:cherry_logs
+```
+
+</details>
+
+
+<details><summary>items/non_flammable_wood.json</summary>
+
+```diff
++ minecraft:crimson_hanging_sign
++ minecraft:warped_hanging_sign
+```
+
+</details>
+
+
+<details><summary>items/planks.json</summary>
+
+```diff
++ minecraft:bamboo_planks
++ minecraft:cherry_planks
+```
+
+</details>
+
+
+<details><summary>items/sand.json</summary>
+
+```diff
++ minecraft:suspicious_sand
++ minecraft:suspicious_sand
+```
+
+</details>
+
+
+<details><summary>items/saplings.json</summary>
+
+```diff
++ minecraft:cherry_sapling
+```
+
+</details>
+
+
+<details><summary>items/signs.json</summary>
+
+```diff
++ minecraft:bamboo_sign
++ minecraft:cherry_sign
+```
+
+</details>
+
+
+<details><summary>items/small_flowers.json</summary>
+
+```diff
++ minecraft:torchflower
+```
+
+</details>
+
+
+<details><summary>items/wooden_buttons.json</summary>
+
+```diff
++ minecraft:bamboo_button
++ minecraft:cherry_button
+```
+
+</details>
+
+
+<details><summary>items/wooden_doors.json</summary>
+
+```diff
++ minecraft:bamboo_door
++ minecraft:cherry_door
+```
+
+</details>
+
+
+<details><summary>items/wooden_fences.json</summary>
+
+```diff
++ minecraft:bamboo_fence
++ minecraft:cherry_fence
+```
+
+</details>
+
+
+<details><summary>items/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:bamboo_pressure_plate
++ minecraft:cherry_pressure_plate
+```
+
+</details>
+
+
+<details><summary>items/wooden_slabs.json</summary>
+
+```diff
++ minecraft:bamboo_slab
++ minecraft:cherry_slab
+```
+
+</details>
+
+
+<details><summary>items/wooden_stairs.json</summary>
+
+```diff
++ minecraft:bamboo_stairs
++ minecraft:cherry_stairs
+```
+
+</details>
+
+
+<details><summary>items/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:bamboo_trapdoor
++ minecraft:cherry_trapdoor
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/is_mountain.json</summary>
+
+```diff
++ minecraft:cherry_grove
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/is_overworld.json</summary>
+
+```diff
++ minecraft:cherry_grove
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.calibrated_sculk_sensor
++ block.minecraft.pitcher_crop
++ block.minecraft.pitcher_plant
++ block.minecraft.sniffer_egg
++ block.minecraft.suspicious_gravel
++ item.minecraft.angler_pottery_shard
++ item.minecraft.archer_pottery_shard
++ item.minecraft.arms_up_pottery_shard
++ item.minecraft.blade_pottery_shard
++ item.minecraft.brewer_pottery_shard
++ item.minecraft.burn_pottery_shard
++ item.minecraft.danger_pottery_shard
++ item.minecraft.explorer_pottery_shard
++ item.minecraft.friend_pottery_shard
++ item.minecraft.heart_pottery_shard
++ item.minecraft.heartbreak_pottery_shard
++ item.minecraft.howl_pottery_shard
++ item.minecraft.miner_pottery_shard
++ item.minecraft.mourner_pottery_shard
++ item.minecraft.pitcher_plant
++ item.minecraft.pitcher_pod
++ item.minecraft.plenty_pottery_shard
+- item.minecraft.pottery_shard_archer
+- item.minecraft.pottery_shard_arms_up
+- item.minecraft.pottery_shard_prize
+- item.minecraft.pottery_shard_skull
++ item.minecraft.prize_pottery_shard
++ item.minecraft.sheaf_pottery_shard
++ item.minecraft.shelter_pottery_shard
++ item.minecraft.skull_pottery_shard
++ item.minecraft.snort_pottery_shard
++ subtitles.block.amethyst_block.resonate
++ subtitles.entity.sniffer.egg_crack
++ subtitles.entity.sniffer.egg_hatch
+- subtitles.item.brush.brush_sand_completed
+- subtitles.item.brush.brushing
++ subtitles.item.brush.brushing.generic
++ subtitles.item.brush.brushing.gravel
++ subtitles.item.brush.brushing.gravel.complete
++ subtitles.item.brush.brushing.sand
++ subtitles.item.brush.brushing.sand.complete
++ trim_pattern.minecraft.host
++ trim_pattern.minecraft.raiser
++ trim_pattern.minecraft.shaper
++ trim_pattern.minecraft.silence
++ trim_pattern.minecraft.wayfinder
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/bamboo_block.json
++ recipes/building_blocks/bamboo_mosaic_slab.json
++ recipes/building_blocks/bamboo_mosaic_stairs.json
++ recipes/building_blocks/bamboo_planks.json
++ recipes/building_blocks/bamboo_slab.json
++ recipes/building_blocks/bamboo_stairs.json
++ recipes/building_blocks/cherry_planks.json
++ recipes/building_blocks/cherry_slab.json
++ recipes/building_blocks/cherry_stairs.json
++ recipes/building_blocks/cherry_wood.json
++ recipes/building_blocks/chiseled_bookshelf.json
++ recipes/building_blocks/stripped_cherry_wood.json
++ recipes/decorations/acacia_hanging_sign.json
++ recipes/decorations/bamboo_fence.json
++ recipes/decorations/bamboo_hanging_sign.json
++ recipes/decorations/bamboo_mosaic.json
++ recipes/decorations/bamboo_sign.json
++ recipes/decorations/birch_hanging_sign.json
++ recipes/decorations/cherry_fence.json
++ recipes/decorations/cherry_hanging_sign.json
++ recipes/decorations/cherry_sign.json
++ recipes/decorations/crimson_hanging_sign.json
++ recipes/decorations/dark_oak_hanging_sign.json
++ recipes/decorations/decorated_pot_simple.json
++ recipes/decorations/jungle_hanging_sign.json
++ recipes/decorations/mangrove_hanging_sign.json
++ recipes/decorations/oak_hanging_sign.json
++ recipes/decorations/spruce_hanging_sign.json
++ recipes/decorations/warped_hanging_sign.json
++ recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/coast_armor_trim_smithing_template.json
++ recipes/misc/cyan_dye_from_pitcher_plant.json
++ recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/dune_armor_trim_smithing_template.json
++ recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/eye_armor_trim_smithing_template.json
++ recipes/misc/host_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/host_armor_trim_smithing_template.json
++ recipes/misc/netherite_upgrade_smithing_template.json
++ recipes/misc/orange_dye_from_torchflower.json
++ recipes/misc/pink_dye_from_pink_petals.json
++ recipes/misc/raiser_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/raiser_armor_trim_smithing_template.json
++ recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/rib_armor_trim_smithing_template.json
++ recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/sentry_armor_trim_smithing_template.json
++ recipes/misc/shaper_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/shaper_armor_trim_smithing_template.json
++ recipes/misc/silence_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/silence_armor_trim_smithing_template.json
++ recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/snout_armor_trim_smithing_template.json
++ recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/spire_armor_trim_smithing_template.json
++ recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/tide_armor_trim_smithing_template.json
++ recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/vex_armor_trim_smithing_template.json
++ recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/ward_armor_trim_smithing_template.json
++ recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/wayfinder_armor_trim_smithing_template.json
++ recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
++ recipes/misc/wild_armor_trim_smithing_template.json
++ recipes/redstone/bamboo_button.json
++ recipes/redstone/bamboo_door.json
++ recipes/redstone/bamboo_fence_gate.json
++ recipes/redstone/bamboo_pressure_plate.json
++ recipes/redstone/bamboo_trapdoor.json
++ recipes/redstone/calibrated_sculk_sensor.json
++ recipes/redstone/cherry_button.json
++ recipes/redstone/cherry_door.json
++ recipes/redstone/cherry_fence_gate.json
++ recipes/redstone/cherry_pressure_plate.json
++ recipes/redstone/cherry_trapdoor.json
++ recipes/tools/brush.json
++ recipes/transportation/bamboo_chest_raft.json
++ recipes/transportation/bamboo_raft.json
++ recipes/transportation/cherry_boat.json
++ recipes/transportation/cherry_chest_boat.json
+```
+
+</details>
+
+
+<details><summary>datapacks.txt</summary>
+
+```diff
+- update_1_20
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ archaeology/desert_pyramid.json
++ archaeology/desert_well.json
++ archaeology/ocean_ruin_cold.json
++ archaeology/ocean_ruin_warm.json
++ archaeology/trail_ruins.json
++ blocks/calibrated_sculk_sensor.json
++ blocks/pitcher_crop.json
++ blocks/pitcher_plant.json
++ blocks/sniffer_egg.json
++ blocks/suspicious_gravel.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ cherry_leaves.json
+- dripping_cherry_leaves.json
++ egg_crack.json
+- falling_cherry_leaves.json
+- landing_cherry_leaves.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ acacia_hanging_sign.json
++ bamboo_block.json
++ bamboo_button.json
++ bamboo_chest_raft.json
++ bamboo_door.json
++ bamboo_fence_gate.json
++ bamboo_fence.json
++ bamboo_hanging_sign.json
++ bamboo_mosaic_slab.json
++ bamboo_mosaic_stairs.json
++ bamboo_mosaic.json
++ bamboo_planks.json
++ bamboo_pressure_plate.json
++ bamboo_raft.json
++ bamboo_sign.json
++ bamboo_slab.json
++ bamboo_stairs.json
++ bamboo_trapdoor.json
++ birch_hanging_sign.json
++ brush.json
++ calibrated_sculk_sensor.json
++ cherry_boat.json
++ cherry_button.json
++ cherry_chest_boat.json
++ cherry_door.json
++ cherry_fence_gate.json
++ cherry_fence.json
++ cherry_hanging_sign.json
++ cherry_planks.json
++ cherry_pressure_plate.json
++ cherry_sign.json
++ cherry_slab.json
++ cherry_stairs.json
++ cherry_trapdoor.json
++ cherry_wood.json
++ chiseled_bookshelf.json
++ coast_armor_trim_smithing_template_smithing_trim.json
++ coast_armor_trim_smithing_template.json
++ crimson_hanging_sign.json
++ cyan_dye_from_pitcher_plant.json
++ dark_oak_hanging_sign.json
++ decorated_pot_simple.json
++ decorated_pot.json
++ dune_armor_trim_smithing_template_smithing_trim.json
++ dune_armor_trim_smithing_template.json
++ eye_armor_trim_smithing_template_smithing_trim.json
++ eye_armor_trim_smithing_template.json
++ host_armor_trim_smithing_template_smithing_trim.json
++ host_armor_trim_smithing_template.json
++ jungle_hanging_sign.json
++ mangrove_hanging_sign.json
++ netherite_upgrade_smithing_template.json
++ oak_hanging_sign.json
++ orange_dye_from_torchflower.json
++ pink_dye_from_pink_petals.json
++ raiser_armor_trim_smithing_template_smithing_trim.json
++ raiser_armor_trim_smithing_template.json
++ rib_armor_trim_smithing_template_smithing_trim.json
++ rib_armor_trim_smithing_template.json
++ sentry_armor_trim_smithing_template_smithing_trim.json
++ sentry_armor_trim_smithing_template.json
++ shaper_armor_trim_smithing_template_smithing_trim.json
++ shaper_armor_trim_smithing_template.json
++ silence_armor_trim_smithing_template_smithing_trim.json
++ silence_armor_trim_smithing_template.json
++ snout_armor_trim_smithing_template_smithing_trim.json
++ snout_armor_trim_smithing_template.json
++ spire_armor_trim_smithing_template_smithing_trim.json
++ spire_armor_trim_smithing_template.json
++ spruce_hanging_sign.json
++ stripped_cherry_wood.json
++ tide_armor_trim_smithing_template_smithing_trim.json
++ tide_armor_trim_smithing_template.json
++ vex_armor_trim_smithing_template_smithing_trim.json
++ vex_armor_trim_smithing_template.json
++ ward_armor_trim_smithing_template_smithing_trim.json
++ ward_armor_trim_smithing_template.json
++ warped_hanging_sign.json
++ wayfinder_armor_trim_smithing_template_smithing_trim.json
++ wayfinder_armor_trim_smithing_template.json
++ wild_armor_trim_smithing_template_smithing_trim.json
++ wild_armor_trim_smithing_template.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
++ trail_ruins/buildings/group_entrance_three_1.nbt
++ trail_ruins/buildings/group_entrance_two_1.nbt
++ trail_ruins/buildings/group_entrance_two_2.nbt
++ trail_ruins/buildings/group_room_one_1.nbt
++ trail_ruins/buildings/group_room_one_2.nbt
++ trail_ruins/buildings/group_room_two_1.nbt
++ trail_ruins/buildings/group_room_two_2.nbt
++ trail_ruins/buildings/group_room_two_3.nbt
++ trail_ruins/buildings/group_room_two_4.nbt
++ trail_ruins/buildings/group_room_two_5.nbt
++ trail_ruins/buildings/large_room_1.nbt
++ trail_ruins/buildings/large_room_2.nbt
++ trail_ruins/buildings/large_room_3.nbt
++ trail_ruins/buildings/one_room_1.nbt
++ trail_ruins/buildings/one_room_2.nbt
++ trail_ruins/buildings/one_room_3.nbt
++ trail_ruins/buildings/one_room_4.nbt
++ trail_ruins/decor/decor_1.nbt
++ trail_ruins/decor/decor_2.nbt
++ trail_ruins/decor/decor_3.nbt
++ trail_ruins/decor/decor_4.nbt
++ trail_ruins/decor/decor_5.nbt
++ trail_ruins/decor/decor_6.nbt
++ trail_ruins/roads/long_road_end.nbt
++ trail_ruins/roads/road_end_1.nbt
++ trail_ruins/roads/road_end_1s.nbt
++ trail_ruins/roads/road_section_1.nbt
++ trail_ruins/roads/road_section_2.nbt
++ trail_ruins/roads/road_section_3.nbt
++ trail_ruins/roads/road_section_4.nbt
++ trail_ruins/roads/road_spacer_1.nbt
++ trail_ruins/tower/hall_1.nbt
++ trail_ruins/tower/hall_2.nbt
++ trail_ruins/tower/large_hall_1.nbt
++ trail_ruins/tower/large_hall_2.nbt
++ trail_ruins/tower/one_room_1.nbt
++ trail_ruins/tower/platform_1.nbt
++ trail_ruins/tower/stable_1.nbt
++ trail_ruins/tower/tower_1.nbt
++ trail_ruins/tower/tower_2.nbt
++ trail_ruins/tower/tower_3.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/all_hanging_signs.json
++ blocks/bamboo_blocks.json
++ blocks/ceiling_hanging_signs.json
++ blocks/cherry_logs.json
++ blocks/combination_step_sound_blocks.json
++ blocks/sniffer_diggable_block.json
++ blocks/sniffer_egg_hatch_boost.json
++ blocks/trail_ruins_replaceable.json
++ blocks/vibration_resonators.json
++ blocks/wall_hanging_signs.json
++ items/bamboo_blocks.json
++ items/bookshelf_books.json
++ items/breaks_decorated_pots.json
++ items/cherry_logs.json
++ items/decorated_pot_shards.json
++ items/hanging_signs.json
++ items/noteblock_top_instruments.json
++ items/sniffer_food.json
++ items/trim_materials.json
++ items/trim_templates.json
++ items/trimmable_armor.json
++ worldgen/biome/has_structure/trail_ruins.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/calibrated_sculk_sensor_amethyst.png
++ block/calibrated_sculk_sensor_input_side.png
++ block/calibrated_sculk_sensor_top.png
++ block/pitcher_crop_bottom_stage_1.png
++ block/pitcher_crop_bottom_stage_2.png
++ block/pitcher_crop_bottom_stage_3.png
++ block/pitcher_crop_bottom_stage_4.png
++ block/pitcher_crop_bottom.png
++ block/pitcher_crop_side.png
++ block/pitcher_crop_top_stage_3.png
++ block/pitcher_crop_top_stage_4.png
++ block/pitcher_crop_top.png
++ block/sniffer_egg_not_cracked.png
++ block/sniffer_egg_slightly_cracked.png
++ block/sniffer_egg_very_cracked.png
++ block/suspicious_gravel_0.png
++ block/suspicious_gravel_1.png
++ block/suspicious_gravel_2.png
++ block/suspicious_gravel_3.png
++ entity/decorated_pot/angler_pottery_pattern.png
++ entity/decorated_pot/archer_pottery_pattern.png
++ entity/decorated_pot/arms_up_pottery_pattern.png
++ entity/decorated_pot/blade_pottery_pattern.png
++ entity/decorated_pot/brewer_pottery_pattern.png
++ entity/decorated_pot/burn_pottery_pattern.png
++ entity/decorated_pot/danger_pottery_pattern.png
++ entity/decorated_pot/explorer_pottery_pattern.png
++ entity/decorated_pot/friend_pottery_pattern.png
++ entity/decorated_pot/heart_pottery_pattern.png
++ entity/decorated_pot/heartbreak_pottery_pattern.png
++ entity/decorated_pot/howl_pottery_pattern.png
++ entity/decorated_pot/miner_pottery_pattern.png
++ entity/decorated_pot/mourner_pottery_pattern.png
++ entity/decorated_pot/plenty_pottery_pattern.png
+- entity/decorated_pot/pottery_pattern_archer.png
+- entity/decorated_pot/pottery_pattern_arms_up.png
+- entity/decorated_pot/pottery_pattern_prize.png
+- entity/decorated_pot/pottery_pattern_skull.png
++ entity/decorated_pot/prize_pottery_pattern.png
++ entity/decorated_pot/sheaf_pottery_pattern.png
++ entity/decorated_pot/shelter_pottery_pattern.png
++ entity/decorated_pot/skull_pottery_pattern.png
++ entity/decorated_pot/snort_pottery_pattern.png
++ item/angler_pottery_shard.png
++ item/archer_pottery_shard.png
++ item/arms_up_pottery_shard.png
++ item/blade_pottery_shard.png
++ item/brewer_pottery_shard.png
++ item/burn_pottery_shard.png
++ item/danger_pottery_shard.png
++ item/explorer_pottery_shard.png
++ item/friend_pottery_shard.png
++ item/heart_pottery_shard.png
++ item/heartbreak_pottery_shard.png
++ item/host_armor_trim_smithing_template.png
++ item/howl_pottery_shard.png
++ item/miner_pottery_shard.png
++ item/mourner_pottery_shard.png
++ item/pitcher_plant.png
++ item/pitcher_pod.png
++ item/plenty_pottery_shard.png
+- item/pottery_shard_archer.png
+- item/pottery_shard_arms_up.png
+- item/pottery_shard_prize.png
+- item/pottery_shard_skull.png
++ item/prize_pottery_shard.png
++ item/raiser_armor_trim_smithing_template.png
++ item/shaper_armor_trim_smithing_template.png
++ item/sheaf_pottery_shard.png
++ item/shelter_pottery_shard.png
++ item/silence_armor_trim_smithing_template.png
++ item/skull_pottery_shard.png
++ item/sniffer_egg.png
++ item/snort_pottery_shard.png
++ item/wayfinder_armor_trim_smithing_template.png
++ particle/cherry_0.png
++ particle/cherry_1.png
++ particle/cherry_10.png
++ particle/cherry_11.png
++ particle/cherry_2.png
++ particle/cherry_3.png
++ particle/cherry_4.png
++ particle/cherry_5.png
++ particle/cherry_6.png
++ particle/cherry_7.png
++ particle/cherry_8.png
++ particle/cherry_9.png
++ particle/goldheart_0.png
++ particle/goldheart_1.png
++ particle/goldheart_2.png
++ trims/models/armor/host_leggings.png
++ trims/models/armor/host.png
++ trims/models/armor/raiser_leggings.png
++ trims/models/armor/raiser.png
++ trims/models/armor/shaper_leggings.png
++ trims/models/armor/shaper.png
++ trims/models/armor/silence_leggings.png
++ trims/models/armor/silence.png
++ trims/models/armor/wayfinder_leggings.png
++ trims/models/armor/wayfinder.png
+```
+
+</details>
+
+
+<details><summary>worldgen/biome.txt</summary>
+
+```diff
++ cherry_grove.json
+```
+
+</details>
+
+
+<details><summary>worldgen/processor_list.txt</summary>
+
+```diff
++ trail_ruins_suspicious_sand.json
+```
+
+</details>
+
+
+<details><summary>worldgen/structure.txt</summary>
+
+```diff
++ trail_ruins.json
+```
+
+</details>
+
+
+<details><summary>worldgen/structure_set.txt</summary>
+
+```diff
++ trail_ruins.json
+```
+
+</details>
+
+
+<details><summary>worldgen/template_pool.txt</summary>
+
+```diff
++ trail_ruins/buildings.json
++ trail_ruins/buildings/grouped.json
++ trail_ruins/decor.json
++ trail_ruins/roads.json
++ trail_ruins/tower.json
++ trail_ruins/tower/additions.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:datafixerupper:6.0.6
++ com.mojang:datafixerupper:6.0.8
+```
+
+</details>

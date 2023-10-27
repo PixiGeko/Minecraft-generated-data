@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w38a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w38a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-09-23T14:36:06+00:00</td></tr>
@@ -10,2112 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/eb442d7286b2c4372cd2c6dabf369947e02dd4d2/server.txt">https://piston-data.mojang.com/v1/objects/eb442d7286b2c4372cd2c6dabf369947e02dd4d2/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/4e7c161ec40c9928ebfcc1f96be407d71de4b50d/client.jar">https://piston-data.mojang.com/v1/objects/4e7c161ec40c9928ebfcc1f96be407d71de4b50d/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/48909520218e7d855af4c88aea724b7cc456899a/client.txt">https://piston-data.mojang.com/v1/objects/48909520218e7d855af4c88aea724b7cc456899a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w37a">21w37a</a>
-## Registries
 
-<details><summary>sound_event.txt</summary>
+# Mappings
 
-```diff
-+ minecraft:block.growing_plant.crop
-```
+### Client
 
-</details>
 
-<details><summary>worldgen/block_state_provider_type.txt</summary>
 
-```diff
-- minecraft:noise_2d_cutoff_provider
-- minecraft:noise_2d_provider
-- minecraft:dual_noise_2d_provider
-+ minecraft:noise_threshold_provider
-+ minecraft:noise_provider
-+ minecraft:dual_noise_provider
-```
 
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-+ minecraft:block_survives_filter
-+ minecraft:block_filter
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:2.3.31
-- commons-codec:commons-codec:1.10
-+ com.mojang:authlib:3.0.35
-+ commons-codec:commons-codec:1.15
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util$OS$1</summary>
-
-```diff
-+ void <init>(String)
-- void <init>(String,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ int simulationDistance
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DistanceManager</summary>
-
-```diff
-+ int BLOCK_TICKING_LEVEL_THRESHOLD
-+ int ENTITY_TICKING_LEVEL_THRESHOLD
-+ int simulationDistance
-+ TickingTracker tickingTicketsTracker
-+ boolean inBlockTickingRange(long)
-+ boolean inEntityTickingRange(long)
-+ boolean lambda$runAllUpdates$1(Ticket)
-+ int getPlayerTicketLevel()
-+ ObjectSet lambda$addPlayer$6(long)
-+ SortedArraySet lambda$getTickets$5(long)
-+ TickingTracker tickingTracker()
-+ void lambda$runAllUpdates$0(ChunkHolder)
-+ void lambda$runAllUpdates$2()
-+ void lambda$runAllUpdates$3(long)
-+ void lambda$runAllUpdates$4(Either)
-+ void updateSimulationDistance(int)
-- boolean lambda$purgeStaleTickets$0(Ticket)
-- boolean lambda$runAllUpdates$2(Ticket)
-- ObjectSet lambda$addPlayer$7(long)
-- SortedArraySet lambda$getTickets$6(long)
-- void lambda$runAllUpdates$1(ChunkHolder)
-- void lambda$runAllUpdates$3()
-- void lambda$runAllUpdates$4(long)
-- void lambda$runAllUpdates$5(Either)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
-
-```diff
-+ void <init>(Supplier)
-+ void setSimulationDistance(int)
-- void <init>(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.serialize.JfrResultJsonSerializer</summary>
-
-```diff
-+ double lambda$serverTicks$7(TickTimeStat)
-+ JsonObject lambda$cpu$11(ToDoubleFunction)
-+ void lambda$fileIoSummary$9(Pair)
-+ void lambda$packets$10(Pair)
-+ void lambda$serverTicks$8(Double)
-- JsonObject lambda$cpu$10(ToDoubleFunction)
-- void lambda$fileIoSummary$8(Pair)
-- void lambda$packets$9(Pair)
-- void lambda$serverTicks$7(Double)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.jfr.stats.ChunkGenStat</summary>
-
-```diff
-- boolean success
-+ void <init>(String)
-- boolean success()
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean minorHorizontalCollision
-+ float SPRINT_STOPPING_COLLISION_RATIO
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Climate</summary>
-
-```diff
-+ float unquantizeCoord(long)
-+ long quantizeCoord(float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Climate$Parameter</summary>
-
-```diff
-+ long max
-+ long min
-- float max
-- float min
-+ Float lambda$static$1(Climate$Parameter)
-+ Float lambda$static$2(Climate$Parameter)
-+ long distance(Climate$Parameter)
-+ long distance(long)
-+ long max()
-+ long min()
-+ void <init>(long,long)
-- float distance(Climate$Parameter)
-- float distance(float)
-- float max()
-- float min()
-- void <init>(float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Climate$ParameterPoint</summary>
-
-```diff
-+ long offset
-- float offset
-+ long fitness(Climate$TargetPoint)
-+ Long lambda$static$6(Climate$ParameterPoint)
-+ long offset()
-+ void <init>(Climate$Parameter,long)
-- float fitness(Climate$TargetPoint)
-- Float lambda$static$6(Climate$ParameterPoint)
-- float offset()
-- void <init>(Climate$Parameter,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Climate$RTree$Leaf</summary>
-
-```diff
-+ Climate$RTree$Leaf search(Climate$DistanceMetric)
-- Climate$RTree$Leaf search(Climate$DistanceMetric)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Climate$RTree$SubTree</summary>
-
-```diff
-+ Climate$RTree$Leaf search(Climate$DistanceMetric)
-- Climate$RTree$Leaf search(Climate$DistanceMetric)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Climate$TargetPoint</summary>
-
-```diff
-+ long continentalness
-+ long depth
-+ long erosion
-+ long humidity
-+ long temperature
-+ long weirdness
-- float continentalness
-- float depth
-- float erosion
-- float humidity
-- float temperature
-- float weirdness
-+ boolean equals(Object)
-+ int hashCode()
-+ long continentalness()
-+ long depth()
-+ long erosion()
-+ long humidity()
-+ long temperature()
-+ long weirdness()
-+ long[] toParameterArray()
-+ String toString()
-+ void <init>(long,long,long,long,long,long)
-- float continentalness()
-- float depth()
-- float erosion()
-- float humidity()
-- float temperature()
-- float weirdness()
-- float[] toParameterArray()
-- void <init>(float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ boolean lambda$createStructures$6(Biome)
-+ Stream lambda$findNearestMapFeature$1(Biome)
-+ String lambda$applyBiomeDecoration$5(ConfiguredFeature)
-+ String lambda$createReferences$7(StructureStart)
-+ void lambda$applyBiomeDecoration$4(StructureStart)
-- boolean canGenerateStructure(StructureFeature)
-- boolean lambda$applyBiomeDecoration$4(Biome)
-- boolean lambda$createStructures$7(Biome)
-- Stream lambda$canGenerateStructure$1(Biome)
-- String lambda$applyBiomeDecoration$6(ConfiguredFeature)
-- String lambda$createReferences$10(StructureStart)
-- void lambda$applyBiomeDecoration$5(StructureStart)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
-
-```diff
-+ Either lambda$generate$19(Either)
-- Either lambda$generate$20(Either)
-- void lambda$generate$19(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
-
-```diff
-+ void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration</summary>
-
-```diff
-+ void <init>(FloatProvider)
-- void <init>(FloatProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
-
-```diff
-+ BlockPos getLocatePos(ChunkPos)
-+ void generatePieces(PieceGenerator$Context)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
-
-```diff
-+ void generatePieces(PieceGenerator$Context)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature</summary>
-
-```diff
-+ void generatePieces(PieceGenerator$Context)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
-
-```diff
-+ void afterPlace(PiecesContainer)
-+ void generatePieces(PieceGenerator$Context)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder</summary>
-
-```diff
-- BlockStateProvider saplingProvider
-+ void <init>(FeatureSize)
-- void <init>(FeatureSize)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
-
-```diff
-+ void generatePieces(PieceGenerator$Context)
-- boolean access$000(Heightmap$Types,int,int)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext,net.minecraft.nbt.CompoundTag)
-+ void postProcess(net.minecraft.world.level.WorldGenLevel,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.ChunkPos,net.minecraft.core.BlockPos)
-- boolean postProcess(net.minecraft.world.level.WorldGenLevel,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.ChunkPos,net.minecraft.core.BlockPos)
-- void addAdditionalSaveData(net.minecraft.server.level.ServerLevel,net.minecraft.nbt.CompoundTag)
-+ BoundingBox createBoundingBox(Stream)
-+ CompoundTag createTag(StructurePieceSerializationContext)
-+ IllegalStateException lambda$createBoundingBox$2()
-+ StructurePiece findCollisionPiece(BoundingBox)
-- CompoundTag createTag(ServerLevel)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
-
-```diff
-+ PiecesContainer pieceContainer
-- List pieces
-- Logger LOGGER
-- void generatePieces(net.minecraft.core.RegistryAccess,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration,net.minecraft.world.level.LevelHeightAccessor,java.util.function.Predicate)
-- WorldgenRandom random
-+ CompoundTag createTag(ChunkPos)
-+ void <init>(PiecesContainer)
-+ void placeInChunk(ChunkPos)
-- BlockPos getLocatePos()
-- boolean hasNoPieces()
-- boolean isInsidePiece(BlockPos)
-- BoundingBox createBoundingBox()
-- CompoundTag createTag(ChunkPos)
-- IllegalStateException lambda$createBoundingBox$0()
-- StructurePiece findCollisionPiece(BoundingBox)
-- StructurePiece findCollisionPiece(BoundingBox)
-- void <init>(ChunkPos,int,long)
-- void addPiece(StructurePiece)
-- void clearPieces()
-- void invalidateCache()
-- void moveBelowSeaLevel(Random,int)
-- void moveInsideHeights(Random,int,int)
-- void offsetPiecesVertically(int)
-- void placeInChunk(ChunkPos)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.ClientTelemetryManager
@@ -5177,1268 +3093,536 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.Util$OS$1</summary>
 
 ```diff
-+ void <init>(String)
++ void <init>(String,int,String)
 - void <init>(String,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
+<details><summary>net.minecraft.server.level.DistanceManager</summary>
 
 ```diff
-+ ConfiguredWorldCarver CAVE_EXTRA_UNDERGROUND
-- ConfiguredWorldCarver OCEAN_CAVE
-- ConfiguredWorldCarver PROTOTYPE_CANYON
-- ConfiguredWorldCarver PROTOTYPE_CAVE
-- ConfiguredWorldCarver PROTOTYPE_CAVE_EXTRA_UNDERGROUND
-- ConfiguredWorldCarver UNDERWATER_CANYON
-- ConfiguredWorldCarver UNDERWATER_CAVE
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature ACACIA_CHECKED
-+ ConfiguredFeature BIRCH_CHECKED
-+ ConfiguredFeature DARK_OAK_CHECKED
-+ ConfiguredFeature FANCY_OAK_CHECKED
-+ ConfiguredFeature FOSSIL_LOWER
-+ ConfiguredFeature FOSSIL_UPPER
-+ ConfiguredFeature GROVE_VEGETATION
-+ ConfiguredFeature JUNGLE_TREE_CHECKED
-+ ConfiguredFeature MEGA_JUNGLE_TREE_CHECKED
-+ ConfiguredFeature MEGA_PINE_CHECKED
-+ ConfiguredFeature MEGA_SPRUCE_CHECKED
-+ ConfiguredFeature OAK_CHECKED
-+ ConfiguredFeature ORE_ANDESITE_LOWER
-+ ConfiguredFeature ORE_ANDESITE_UPPER
-+ ConfiguredFeature ORE_COAL_LOWER
-+ ConfiguredFeature ORE_COAL_UPPER
-+ ConfiguredFeature ORE_COPPER_LARGE
-+ ConfiguredFeature ORE_DIAMOND_LARGE
-+ ConfiguredFeature ORE_DIORITE_LOWER
-+ ConfiguredFeature ORE_DIORITE_UPPER
-+ ConfiguredFeature ORE_GRANITE_LOWER
-+ ConfiguredFeature ORE_GRANITE_UPPER
-+ ConfiguredFeature ORE_IRON_MIDDLE
-+ ConfiguredFeature ORE_IRON_SMALL
-+ ConfiguredFeature ORE_IRON_UPPER
-+ ConfiguredFeature ORE_LAPIS_BURIED
-+ ConfiguredFeature ORE_REDSTONE_LOWER
-+ ConfiguredFeature PINE_CHECKED
-+ ConfiguredFeature PINE_ON_SNOW
-+ ConfiguredFeature SPRUCE_CHECKED
-+ ConfiguredFeature SPRUCE_ON_SNOW
-+ ConfiguredFeature UNDERWATER_MAGMA
-- ConfiguredFeature FOSSIL
-- ConfiguredFeature JUNGLE_TREE
-- ConfiguredFeature ORE_ANDESITE
-- ConfiguredFeature ORE_COAL
-- ConfiguredFeature ORE_DEEPSLATE
-- ConfiguredFeature ORE_DIORITE
-- ConfiguredFeature ORE_GRANITE
-- ConfiguredFeature ORE_IRON
-- ConfiguredFeature PROTOTYPE_FOSSIL_LOWER
-- ConfiguredFeature PROTOTYPE_FOSSIL_UPPER
-- ConfiguredFeature PROTOTYPE_GLOW_LICHEN
-- ConfiguredFeature PROTOTYPE_ORE_ANDESITE_LOWER
-- ConfiguredFeature PROTOTYPE_ORE_ANDESITE_UPPER
-- ConfiguredFeature PROTOTYPE_ORE_COAL_LOWER
-- ConfiguredFeature PROTOTYPE_ORE_COAL_UPPER
-- ConfiguredFeature PROTOTYPE_ORE_COPPER
-- ConfiguredFeature PROTOTYPE_ORE_COPPER_LARGE
-- ConfiguredFeature PROTOTYPE_ORE_DIAMOND
-- ConfiguredFeature PROTOTYPE_ORE_DIAMOND_LARGE
-- ConfiguredFeature PROTOTYPE_ORE_DIORITE_LOWER
-- ConfiguredFeature PROTOTYPE_ORE_DIORITE_UPPER
-- ConfiguredFeature PROTOTYPE_ORE_DIRT
-- ConfiguredFeature PROTOTYPE_ORE_EMERALD
-- ConfiguredFeature PROTOTYPE_ORE_GOLD
-- ConfiguredFeature PROTOTYPE_ORE_GRANITE_LOWER
-- ConfiguredFeature PROTOTYPE_ORE_GRANITE_UPPER
-- ConfiguredFeature PROTOTYPE_ORE_GRAVEL
-- ConfiguredFeature PROTOTYPE_ORE_INFESTED
-- ConfiguredFeature PROTOTYPE_ORE_IRON_MIDDLE
-- ConfiguredFeature PROTOTYPE_ORE_IRON_SMALL
-- ConfiguredFeature PROTOTYPE_ORE_IRON_UPPER
-- ConfiguredFeature PROTOTYPE_ORE_LAPIS
-- ConfiguredFeature PROTOTYPE_ORE_LAPIS_BURIED
-- ConfiguredFeature PROTOTYPE_ORE_REDSTONE
-- ConfiguredFeature PROTOTYPE_ORE_REDSTONE_LOWER
-- ConfiguredFeature PROTOTYPE_ORE_TUFF
-- ConfiguredFeature PROTOTYPE_SPRING_WATER
-- ConfiguredFeature PROTOTYPE_UNDERWATER_MAGMA
-- ConfiguredFeature PROTOTYPE_VINES
-- ConfiguredFeature RARE_DRIPSTONE_CLUSTER_FEATURE
-- ConfiguredFeature RARE_SMALL_DRIPSTONE_FEATURE
-+ TreeConfiguration$TreeConfigurationBuilder createBirch()
-+ TreeConfiguration$TreeConfigurationBuilder createFancyOak()
-+ TreeConfiguration$TreeConfigurationBuilder createJungleTree()
-+ TreeConfiguration$TreeConfigurationBuilder createOak()
-+ TreeConfiguration$TreeConfigurationBuilder createStraightBlobTree(Block,int,int,int,int)
-+ TreeConfiguration$TreeConfigurationBuilder createSuperBirch()
++ boolean inBlockTickingRange(long)
++ boolean inEntityTickingRange(long)
+- boolean lambda$purgeStaleTickets$0(Ticket)
++ boolean lambda$runAllUpdates$1(Ticket)
+- boolean lambda$runAllUpdates$2(Ticket)
++ int getPlayerTicketLevel()
++ ObjectSet lambda$addPlayer$6(long)
+- ObjectSet lambda$addPlayer$7(long)
++ SortedArraySet lambda$getTickets$5(long)
+- SortedArraySet lambda$getTickets$6(long)
++ TickingTracker tickingTracker()
++ void lambda$runAllUpdates$0(ChunkMap,ChunkHolder)
+- void lambda$runAllUpdates$1(ChunkMap,ChunkHolder)
++ void lambda$runAllUpdates$2()
+- void lambda$runAllUpdates$3()
++ void lambda$runAllUpdates$3(long)
++ void lambda$runAllUpdates$4(long,Either)
+- void lambda$runAllUpdates$4(long)
+- void lambda$runAllUpdates$5(long,Either)
++ void updateSimulationDistance(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.PacketEncoder</summary>
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
 
 ```diff
-+ String lambda$encode$0(Packet)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ int simulationDistance
-+ int getSimulationDistance()
+- void <init>(ServerLevel,LevelStorageSource$LevelStorageAccess,DataFixer,StructureManager,Executor,ChunkGenerator,int,boolean,ChunkProgressListener,ChunkStatusUpdateListener,Supplier)
++ void <init>(ServerLevel,LevelStorageSource$LevelStorageAccess,DataFixer,StructureManager,Executor,ChunkGenerator,int,int,boolean,ChunkProgressListener,ChunkStatusUpdateListener,Supplier)
 + void setSimulationDistance(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature</summary>
+<details><summary>net.minecraft.util.profiling.jfr.serialize.JfrResultJsonSerializer</summary>
 
 ```diff
-+ void generatePieces(PieceGenerator$Context)
++ double lambda$serverTicks$7(TickTimeStat)
+- JsonObject lambda$cpu$10(List,ToDoubleFunction)
++ JsonObject lambda$cpu$11(List,ToDoubleFunction)
+- void lambda$fileIoSummary$8(JsonArray,Pair)
++ void lambda$fileIoSummary$9(JsonArray,Pair)
++ void lambda$packets$10(JsonArray,Pair)
+- void lambda$packets$9(JsonArray,Pair)
+- void lambda$serverTicks$7(JsonObject,Integer,Double)
++ void lambda$serverTicks$8(JsonObject,Integer,Double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.stats.ChunkGenStat</summary>
+
+```diff
+- boolean success()
+- void <init>(Duration,ChunkPos,ColumnPos,ChunkStatus,boolean,String)
++ void <init>(Duration,ChunkPos,ColumnPos,ChunkStatus,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate</summary>
+
+```diff
++ float unquantizeCoord(long)
++ long quantizeCoord(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate$Parameter</summary>
+
+```diff
+- float distance(Climate$Parameter)
+- float distance(float)
++ Float lambda$static$1(Climate$Parameter)
++ Float lambda$static$2(Climate$Parameter)
+- float max()
+- float min()
++ long distance(Climate$Parameter)
++ long distance(long)
++ long max()
++ long min()
+- void <init>(float,float)
++ void <init>(long,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate$ParameterPoint</summary>
+
+```diff
+- float fitness(Climate$TargetPoint)
+- Float lambda$static$6(Climate$ParameterPoint)
+- float offset()
++ long fitness(Climate$TargetPoint)
++ Long lambda$static$6(Climate$ParameterPoint)
++ long offset()
+- void <init>(Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,float)
++ void <init>(Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,Climate$Parameter,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate$RTree$Leaf</summary>
+
+```diff
+- Climate$RTree$Leaf search(float[],Climate$RTree$Leaf,Climate$DistanceMetric)
++ Climate$RTree$Leaf search(long[],Climate$RTree$Leaf,Climate$DistanceMetric)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate$RTree$SubTree</summary>
+
+```diff
+- Climate$RTree$Leaf search(float[],Climate$RTree$Leaf,Climate$DistanceMetric)
++ Climate$RTree$Leaf search(long[],Climate$RTree$Leaf,Climate$DistanceMetric)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate$TargetPoint</summary>
+
+```diff
++ boolean equals(Object)
+- float continentalness()
+- float depth()
+- float erosion()
+- float humidity()
+- float temperature()
+- float weirdness()
+- float[] toParameterArray()
++ int hashCode()
++ long continentalness()
++ long depth()
++ long erosion()
++ long humidity()
++ long temperature()
++ long weirdness()
++ long[] toParameterArray()
++ String toString()
+- void <init>(float,float,float,float,float,float)
++ void <init>(long,long,long,long,long,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
+- boolean canGenerateStructure(ServerLevel,StructureFeature)
+- boolean lambda$applyBiomeDecoration$4(Registry,ImmutableMultimap,Biome)
++ boolean lambda$createStructures$6(Registry,Map$Entry,Biome)
+- boolean lambda$createStructures$7(Registry,Map$Entry,Biome)
+- Stream lambda$canGenerateStructure$1(Registry,Biome)
++ Stream lambda$findNearestMapFeature$1(Registry,Biome)
++ String lambda$applyBiomeDecoration$5(Registry,ConfiguredFeature)
+- String lambda$applyBiomeDecoration$6(Registry,ConfiguredFeature)
+- String lambda$createReferences$10(StructureStart)
++ String lambda$createReferences$7(StructureStart)
++ void lambda$applyBiomeDecoration$4(WorldGenLevel,StructureFeatureManager,WorldgenRandom,int,int,int,int,int,int,StructureStart)
+- void lambda$applyBiomeDecoration$5(WorldGenLevel,StructureFeatureManager,WorldgenRandom,Predicate,int,int,int,int,int,int,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
+
+```diff
++ Either lambda$generate$19(ProfiledDuration,Either)
+- Either lambda$generate$20(ChunkGenerationEvent,Either)
+- void lambda$generate$19(ChunkGenerationEvent,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
+
+```diff
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration</summary>
+
+```diff
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+```diff
++ BlockPos getLocatePos(ChunkPos)
 - StructureFeature$StructureStartFactory getStartFactory()
++ void generatePieces(StructurePiecesBuilder,ProbabilityFeatureConfiguration,PieceGenerator$Context)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
 
 ```diff
-- WeightedRandomList getSpecialEnemies()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
-
-```diff
-+ void generatePieces(PieceGenerator$Context)
 - StructureFeature$StructureStartFactory getStartFactory()
-- WeightedRandomList getSpecialAnimals()
-- WeightedRandomList getSpecialEnemies()
++ void generatePieces(StructurePiecesBuilder,NoneFeatureConfiguration,PieceGenerator$Context)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature</summary>
 
 ```diff
+- StructureFeature$StructureStartFactory getStartFactory()
++ void generatePieces(StructurePiecesBuilder,MineshaftConfiguration,PieceGenerator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
+
+```diff
+- StructureFeature$StructureStartFactory getStartFactory()
++ void afterPlace(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,PiecesContainer)
++ void generatePieces(StructurePiecesBuilder,NoneFeatureConfiguration,PieceGenerator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder</summary>
+
+```diff
+- void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,BlockStateProvider,FoliagePlacer,FeatureSize)
++ void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,FeatureSize)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- void <init>(ServerLevel,CompoundTag)
++ void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
 
 ```diff
+- boolean access$000(ChunkGenerator,LevelHeightAccessor,Predicate,Heightmap$Types,int,int)
+- StructureFeature$StructureStartFactory getStartFactory()
++ void generatePieces(StructurePiecesBuilder,OceanRuinConfiguration,PieceGenerator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
+
+```diff
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- void <init>(ServerLevel,CompoundTag)
++ void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
 
 ```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
 
 ```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
-
-```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 + void <init>(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StartPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void place(BlockPos,boolean)
-+ void postProcess(BlockPos)
-- boolean place(BlockPos,boolean)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
++ BoundingBox createBoundingBox(Stream)
+- CompoundTag createTag(ServerLevel)
++ CompoundTag createTag(StructurePieceSerializationContext)
++ IllegalStateException lambda$createBoundingBox$2()
++ StructurePiece findCollisionPiece(List,BoundingBox)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
+- BlockPos getLocatePos()
+- boolean hasNoPieces()
+- boolean isInsidePiece(BlockPos)
+- BoundingBox createBoundingBox()
+- CompoundTag createTag(ServerLevel,ChunkPos)
++ CompoundTag createTag(StructurePieceSerializationContext,ChunkPos)
+- IllegalStateException lambda$createBoundingBox$0()
+- StructurePiece findCollisionPiece(BoundingBox)
+- StructurePiece findCollisionPiece(List,BoundingBox)
+- void <init>(StructureFeature,ChunkPos,int,long)
++ void <init>(StructureFeature,ChunkPos,int,PiecesContainer)
+- void addPiece(StructurePiece)
+- void clearPieces()
+- void invalidateCache()
+- void moveBelowSeaLevel(int,int,Random,int)
+- void moveInsideHeights(Random,int,int)
+- void offsetPiecesVertically(int)
++ void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
+- void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,Predicate,BoundingBox,ChunkPos)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.server.chase.ChaseClient
@@ -9093,13 +6277,339 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util$OS$1</summary>
+
+```diff
++ void <init>(String,int,String)
+- void <init>(String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.Features</summary>
+
+```diff
++ TreeConfiguration$TreeConfigurationBuilder createBirch()
++ TreeConfiguration$TreeConfigurationBuilder createFancyOak()
++ TreeConfiguration$TreeConfigurationBuilder createJungleTree()
++ TreeConfiguration$TreeConfigurationBuilder createOak()
++ TreeConfiguration$TreeConfigurationBuilder createStraightBlobTree(Block,Block,int,int,int,int)
++ TreeConfiguration$TreeConfigurationBuilder createSuperBirch()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.PacketEncoder</summary>
+
+```diff
++ String lambda$encode$0(int,Integer,Packet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
++ int getSimulationDistance()
++ void setSimulationDistance(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature</summary>
+
+```diff
+- StructureFeature$StructureStartFactory getStartFactory()
++ void generatePieces(StructurePiecesBuilder,NoneFeatureConfiguration,PieceGenerator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
+
+```diff
+- WeightedRandomList getSpecialEnemies()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
+
+```diff
+- StructureFeature$StructureStartFactory getStartFactory()
++ void generatePieces(StructurePiecesBuilder,NoneFeatureConfiguration,PieceGenerator$Context)
+- WeightedRandomList getSpecialAnimals()
+- WeightedRandomList getSpecialEnemies()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
+
+```diff
+- void <init>(ServerLevel,CompoundTag)
++ void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
+
+```diff
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StartPiece</summary>
+
+```diff
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+```diff
+- boolean place(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,BlockPos,boolean)
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+- void <init>(ServerLevel,CompoundTag)
++ void <init>(StructurePieceSerializationContext,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void place(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,BlockPos,boolean)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
+
+```diff
+- boolean postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void <init>(CompoundTag)
+- void <init>(ServerLevel,CompoundTag)
+- void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void addAdditionalSaveData(StructurePieceSerializationContext,CompoundTag)
++ void postProcess(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.growing_plant.crop
+```
+
+</details>
+
+
+<details><summary>worldgen/block_state_provider_type.txt</summary>
+
+```diff
+- minecraft:dual_noise_2d_provider
++ minecraft:dual_noise_provider
+- minecraft:noise_2d_cutoff_provider
+- minecraft:noise_2d_provider
++ minecraft:noise_provider
++ minecraft:noise_threshold_provider
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
++ minecraft:block_filter
++ minecraft:block_survives_filter
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ options.simulationDistance
++ subtitles.block.growing_plant.crop
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:2.3.31
++ com.mojang:authlib:3.0.35
+- commons-codec:commons-codec:1.10
++ commons-codec:commons-codec:1.15
+```
+
+</details>

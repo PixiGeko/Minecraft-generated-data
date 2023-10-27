@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w38a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w38a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-09-18T10:03:22+00:00</td></tr>
@@ -10,2321 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/df2f5f21b2681f88536066a808dae05dd5be8748/server.txt">https://piston-data.mojang.com/v1/objects/df2f5f21b2681f88536066a808dae05dd5be8748/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/33e153dbada31777c9344d3e21398f825bd92064/client.jar">https://piston-data.mojang.com/v1/objects/33e153dbada31777c9344d3e21398f825bd92064/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/84ee8264e58ce485d6906b63aab6fbc949a5ecd1/client.txt">https://piston-data.mojang.com/v1/objects/84ee8264e58ce485d6906b63aab6fbc949a5ecd1/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w37a">19w37a</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
-+  minecraft/textures/entity/conduit/wind.png.mcmeta
-+  minecraft/textures/entity/conduit/wind_vertical.png.mcmeta
-```
+### Client
 
-</details>
 
-## Commands
 
-<details><summary>data.txt</summary>
 
-```diff
-+ data get storage <target: resource_location> <path: nbt_path> <scale: double>
-+ data merge storage <target: resource_location> <nbt: nbt_compound_tag>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify entity <target: entity> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify entity <target: entity> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify entity <target: entity> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify entity <target: entity> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append from block <sourcePos: block_pos> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append value <value: nbt_tag>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge from block <sourcePos: block_pos> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge value <value: nbt_tag>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from block <sourcePos: block_pos> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend value <value: nbt_tag>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set from block <sourcePos: block_pos> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set value <value: nbt_tag>
-+ data remove storage <target: resource_location> <path: nbt_path>
-```
-
-</details>
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute if data storage <source: resource_location> <path: nbt_path>
-+ execute if predicate <predicate: resource_location>
-+ execute store result storage <target: resource_location> <path: nbt_path> byte <scale: double>
-+ execute store result storage <target: resource_location> <path: nbt_path> double <scale: double>
-+ execute store result storage <target: resource_location> <path: nbt_path> float <scale: double>
-+ execute store result storage <target: resource_location> <path: nbt_path> int <scale: double>
-+ execute store result storage <target: resource_location> <path: nbt_path> long <scale: double>
-+ execute store result storage <target: resource_location> <path: nbt_path> short <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> byte <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> double <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> float <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> int <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> long <scale: double>
-+ execute store success storage <target: resource_location> <path: nbt_path> short <scale: double>
-+ execute unless data storage <source: resource_location> <path: nbt_path>
-+ execute unless predicate <predicate: resource_location>
-```
-
-</details>
-
-<details><summary>schedule.txt</summary>
-
-```diff
-- schedule function <function: function> <time: time>
-+ schedule clear <function: string>
-+ schedule function <function: function> <time: time> append
-+ schedule function <function: function> <time: time> replace
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.Window</summary>
-
-```diff
-+ WindowEventHandler eventHandler
-- WindowEventHandler minecraft
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
-
-```diff
-+ Deque poseStack
-+ int lastRenderedCountIndex
-+ int totalRenderedBytes
-+ int totalUploadedBytes
-+ List vertexCounts
-- ShortBuffer shortBuffer
-+ int getIndex()
-+ int lambda$sortQuads$1(float[],int,int)
-+ int nextVertexIntPosition()
-+ Matrix4f getPose()
-+ Pair popNextBuffer()
-+ void lambda$new$0(ArrayDeque)
-+ void limitToVertex(int)
-+ void multiplyPose(Matrix4f)
-+ void multiplyPose(Quaternion)
-+ void popPose()
-+ void pushPose()
-+ void scale(float,float,float)
-+ void translate(double,double,double)
-- ByteBuffer getBuffer()
-- int getBufferIndex()
-- int getDrawMode()
-- int getVertexCount()
-- int lambda$sortQuads$0(Integer)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.Tesselator</summary>
-
-```diff
-- BufferUploader uploader
-+ void <init>()
-```
-
-</details>
-
-<details><summary>com.mojang.math.Matrix4f</summary>
-
-```diff
-+ float get(int,int)
-+ Matrix4f copy()
-+ void <init>(float[],boolean)
-+ void <init>(float[])
-+ void multiply(Matrix4f)
-+ void multiply(Quaternion)
-+ void setIdentity()
-+ void translate(Vector3f)
-```
-
-</details>
-
-
-<details><summary>com.mojang.math.Vector4f</summary>
-
-```diff
-+ void transform(Matrix4f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(BredAnimalsTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(ChangeDimensionTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(ConstructBeaconTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(CuredZombieVillagerTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(EntityHurtPlayerTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.NetherTravelTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(NetherTravelTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(PlayerHurtEntityTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(ShotCrossbowTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.KeyboardHandler</summary>
-
-```diff
-+ void lambda$getClipboard$11(int,long)
-+ void lambda$null$7(long,int,int,int,int)
-+ void lambda$null$9(long,int,int)
-+ void lambda$setup$10(long,int,int)
-+ void lambda$setup$8(long,int,int,int,int)
-- void lambda$getClipboard$7(int,long)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.MouseHandler</summary>
-
-```diff
-+ void lambda$null$2(long,double,double)
-+ void lambda$null$4(long,int,int,int)
-+ void lambda$null$6(long,double,double)
-+ void lambda$onMove$8(GuiEventListener,double,double)
-+ void lambda$onMove$9(GuiEventListener,double,double,double,double)
-+ void lambda$setup$3(long,double,double)
-+ void lambda$setup$5(long,int,int,int)
-+ void lambda$setup$7(long,double,double)
-- void lambda$onMove$2(GuiEventListener,double,double)
-- void lambda$onMove$3(GuiEventListener,double,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ int getBlitOffset()
-+ void setBlitOffset(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-- int access$400(PresetFlatWorldScreen)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.LoomScreen</summary>
-
-```diff
-+ BannerBlockEntity resultBanner
-- DyeColor PATTERN_BASE_COLOR
-- DyeColor PATTERN_OVERLAY_COLOR
-- int loadNextTextureIndex
-- List PATTERN_COLORS
-- ResourceLocation resultBannerTexture
-- ResourceLocation[] patternTextures
-+ void renderPattern(int,int,int)
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.ChunkBufferBuilderPack</summary>
-
-```diff
-+ Map builders
-- BufferBuilder[] builders
-+ BufferBuilder builder(RenderType)
-+ BufferBuilder lambda$new$1(RenderType)
-+ RenderType lambda$new$0(RenderType)
-+ void clearAll()
-- BufferBuilder builder(BlockLayer)
-- BufferBuilder builder(int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.LevelRenderer$1</summary>
-
-```diff
-- int[] $SwitchMap$com$mojang$blaze3d$vertex$VertexFormatElement$Usage
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.ViewArea</summary>
-
-```diff
-+ ChunkRenderDispatcher$RenderChunk[] chunks
-- RenderChunk[] chunks
-+ ChunkRenderDispatcher$RenderChunk getRenderChunkAt(BlockPos)
-+ void <init>(LevelRenderer)
-+ void createChunks(ChunkRenderDispatcher)
-- RenderChunk getRenderChunkAt(BlockPos)
-- void <init>(RenderChunkFactory)
-- void createChunks(RenderChunkFactory)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.banner.BannerTextures</summary>
-
-```diff
-- BannerTextures$TextureCache BANNER_CACHE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.BannerRenderer</summary>
-
-```diff
-+ Logger LOGGER
-+ ModelPart bar
-+ ModelPart flag
-+ ModelPart pole
-- BannerModel bannerModel
-+ void <clinit>()
-+ void renderToBuffer(BufferBuilder,int,int)
-+ void renderToBuffer(BufferBuilder,int,int)
-- ResourceLocation getTextureLocation(BannerBlockEntity)
-- void render(BannerBlockEntity,double,double,double,float,int)
-- void render(BlockEntity,double,double,double,float,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
-
-```diff
-+ ChunkBufferBuilderPack fixedBuffers
-+ Executor executor
-+ Level level
-+ LevelRenderer renderer
-+ ProcessorMailbox mailbox
-+ Queue availableChunkBuffers
-- BlockingQueue availableChunkBuffers
-- BufferUploader uploader
-- ChunkRenderWorker localWorker
-- int bufferCount
-- List threads
-- List workers
-- ThreadFactory THREAD_FACTORY
-- VertexBufferUploader vboUploader
-+ boolean uploadAllPendingUploads()
-+ ChunkBufferBuilderPack access$300(ChunkRenderDispatcher)
-+ CompletableFuture doUploadChunkLayer(VertexBuffer)
-+ CompletableFuture uploadChunkLayer(VertexBuffer)
-+ CompletionStage lambda$runTask$1(Void)
-+ CompletionStage lambda$uploadChunkLayer$5(Void)
-+ Level access$000(ChunkRenderDispatcher)
-+ LevelRenderer access$200(ChunkRenderDispatcher)
-+ void <init>(Executor,boolean)
-+ void lambda$null$2(ChunkBufferBuilderPack)
-+ void lambda$runTask$0()
-+ void lambda$runTask$3(Throwable)
-+ void lambda$uploadChunkLayer$4()
-+ void rebuildChunkSync(ChunkRenderDispatcher$RenderChunk)
-+ void runTask()
-+ void schedule(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
-+ void setLevel(Level)
-- boolean rebuildChunkAsync(RenderChunk)
-- boolean rebuildChunkSync(RenderChunk)
-- boolean resortChunkTransparencyAsync(RenderChunk)
-- boolean resortChunkTransparencySync(RenderChunk)
-- boolean uploadAllPendingUploadsUntil(long)
-- ChunkBufferBuilderPack takeChunkBufferBuilder()
-- ChunkCompileTask takeChunk()
-- ListenableFuture uploadChunkLayer(CompiledChunk,double)
-- void <init>(boolean)
-- void compileChunkLayerIntoGlList(BufferBuilder,int)
-- void lambda$rebuildChunkAsync$0(ChunkCompileTask)
-- void lambda$resortChunkTransparencyAsync$1(ChunkCompileTask)
-- void lambda$uploadChunkLayer$2(CompiledChunk,double)
-- void releaseChunkBufferBuilder(ChunkBufferBuilderPack)
-- void uploadChunkLayer(VertexBuffer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
-
-```diff
-+ ResourceLocation lambda$static$0(ResourceLocation)
-+ ResourceLocation[] lambda$static$1(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.LayeredColorMaskTexture</summary>
-
-```diff
-+ void doLoad(NativeImage)
-+ void lambda$load$0(NativeImage)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.texture.SimpleTexture</summary>
-
-```diff
-+ void doLoad(NativeImage,boolean,boolean)
-+ void lambda$load$0(NativeImage,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.ModelBakery</summary>
-
-```diff
-+ List DESTROY_STAGES
-+ List SHULKER_TEXTURE_LOCATION
-+ ResourceLocation BANNER_BASE
-+ ResourceLocation DEFAULT_SHULKER_TEXTURE_LOCATION
-- ResourceLocation DESTROY_STAGE_0
-- ResourceLocation DESTROY_STAGE_1
-- ResourceLocation DESTROY_STAGE_2
-- ResourceLocation DESTROY_STAGE_3
-- ResourceLocation DESTROY_STAGE_4
-- ResourceLocation DESTROY_STAGE_5
-- ResourceLocation DESTROY_STAGE_6
-- ResourceLocation DESTROY_STAGE_7
-- ResourceLocation DESTROY_STAGE_8
-- ResourceLocation DESTROY_STAGE_9
-+ boolean lambda$null$19(Map$Entry)
-+ boolean lambda$predicate$11(BlockState)
-+ ModelBakery$ModelGroupKey lambda$loadModel$14(ModelBakery$ModelGroupKey)
-+ ModelBakery$ModelGroupKey lambda$null$16(List)
-+ ModelBakery$ModelGroupKey lambda$null$18(List)
-+ Pair lambda$loadModel$15(Resource)
-+ ResourceLocation lambda$static$0(int)
-+ Set lambda$null$22(ModelBakery$ModelGroupKey)
-+ StateDefinition lambda$loadModel$12(ResourceLocation)
-+ Stream lambda$new$8(UnbakedModel)
-+ void lambda$loadModel$13(BlockState)
-+ void lambda$loadModel$17(BlockState)
-+ void lambda$loadModel$21(MultiVariant)
-+ void lambda$loadModel$23(BlockState)
-+ void lambda$loadModel$24(Set)
-+ void lambda$new$4(Object2IntOpenHashMap)
-+ void lambda$new$6(StateDefinition)
-+ void lambda$new$7(BlockState)
-+ void lambda$new$9(String)
-+ void lambda$null$20(BlockState)
-+ void lambda$null$5(BlockState)
-+ void lambda$registerModelGroup$25(BlockState)
-+ void lambda$static$1(HashSet)
-+ void lambda$static$2(BlockModel)
-+ void lambda$static$3(BlockModel)
-+ void lambda$uploadTextures$10(ResourceLocation)
-- boolean lambda$null$17(Map$Entry)
-- boolean lambda$predicate$9(BlockState)
-- ModelBakery$ModelGroupKey lambda$loadModel$12(ModelBakery$ModelGroupKey)
-- ModelBakery$ModelGroupKey lambda$null$14(List)
-- ModelBakery$ModelGroupKey lambda$null$16(List)
-- Pair lambda$loadModel$13(Resource)
-- Set lambda$null$20(ModelBakery$ModelGroupKey)
-- StateDefinition lambda$loadModel$10(ResourceLocation)
-- Stream lambda$new$6(UnbakedModel)
-- void lambda$loadModel$11(BlockState)
-- void lambda$loadModel$15(BlockState)
-- void lambda$loadModel$19(MultiVariant)
-- void lambda$loadModel$21(BlockState)
-- void lambda$loadModel$22(Set)
-- void lambda$new$2(Object2IntOpenHashMap)
-- void lambda$new$4(StateDefinition)
-- void lambda$new$5(BlockState)
-- void lambda$new$7(String)
-- void lambda$null$18(BlockState)
-- void lambda$null$3(BlockState)
-- void lambda$registerModelGroup$23(BlockState)
-- void lambda$static$0(BlockModel)
-- void lambda$static$1(BlockModel)
-- void lambda$uploadTextures$8(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions</summary>
-
-```diff
-+ boolean lambda$bootStrap$63(EntitySelectorParser)
-+ boolean lambda$null$61(Entity)
-+ void lambda$bootStrap$62(EntitySelectorParser)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
-
-```diff
-+ LootItemCondition lambda$run$2(ResourceLocation)
-+ void lambda$run$3(LootTable)
-+ void lambda$run$4(String)
-+ void lambda$run$5(LootTable)
-- void lambda$run$2(LootTable)
-- void lambda$run$3(String)
-- void lambda$run$4(LootTable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ float diffuseLight(float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.PatrollingMonster$LongDistancePatrolGoal</summary>
-
-```diff
-+ long cooldownUntil
-+ boolean moveRandomly()
-- void moveRandomly()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item JIGSAW
-- Item JIGSAW_BLOCK
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTables</summary>
-
-```diff
-+ PredicateManager predicateManager
-+ void <init>(PredicateManager)
-+ void lambda$apply$1(LootTable)
-+ void validate(LootTable)
-- void <init>()
-- void lambda$apply$1(LootTable)
-- void validate(Function)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
-
-```diff
-+ void validate(ValidationContext)
-- void validate(LootContextParamSet)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer</summary>
-
-```diff
-+ void validate(ValidationContext)
-- void validate(LootContextParamSet)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
-
-```diff
-+ void validate(ValidationContext)
-- void validate(LootContextParamSet)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction</summary>
-
-```diff
-+ void validate(ValidationContext)
-- void validate(LootContextParamSet)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
-
-```diff
-+ LootContextParamSet COMMAND
-+ LootContextParamSet SELECTOR
-+ void lambda$static$8(LootContextParamSet$Builder)
-+ void lambda$static$9(LootContextParamSet$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition</summary>
-
-```diff
-+ void validate(ValidationContext)
-- void validate(LootContextParamSet)
-```
-
-</details>
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.pipeline.RenderCall
@@ -4266,1641 +1973,527 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
 
 ```diff
-- Map players
-+ boolean lambda$trigger$0(EnchantedItemTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ StatePropertiesPredicate state
-- Map state
-+ void <init>(StatePropertiesPredicate)
-- void <init>(Map)
+- ByteBuffer getBuffer()
+- int getBufferIndex()
+- int getDrawMode()
++ int getIndex()
+- int getVertexCount()
+- int lambda$sortQuads$0(float[],Integer,Integer)
++ int lambda$sortQuads$1(float[],int,int)
++ int nextVertexIntPosition()
++ Matrix4f getPose()
++ Pair popNextBuffer()
++ void lambda$new$0(ArrayDeque)
++ void limitToVertex(int)
++ void multiplyPose(Matrix4f)
++ void multiplyPose(Quaternion)
++ void popPose()
++ void pushPose()
++ void scale(float,float,float)
++ void translate(double,double,double)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
+<details><summary>com.mojang.blaze3d.vertex.Tesselator</summary>
 
 ```diff
-- Map players
-+ boolean lambda$trigger$0(FishingRodHookedTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
++ void <init>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger</summary>
+
+<details><summary>com.mojang.math.Matrix4f</summary>
 
 ```diff
-- Map players
-+ boolean lambda$trigger$0(ItemDurabilityTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
++ float get(int,int)
++ Matrix4f copy()
++ void <init>(float[],boolean)
++ void <init>(float[])
++ void multiply(Matrix4f)
++ void multiply(Quaternion)
++ void setIdentity()
++ void translate(Vector3f)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.KilledTrigger</summary>
+
+<details><summary>com.mojang.math.Vector4f</summary>
 
 ```diff
-- Map players
-+ boolean lambda$trigger$0(KilledTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
++ void transform(Matrix4f)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ServerPlayer,Animal,Animal,AgableMob,BredAnimalsTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
 - void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PlacedBlockTrigger$TriggerInstance</summary>
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
 
 ```diff
-+ StatePropertiesPredicate state
-- Map state
-+ void <init>(ItemPredicate)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(SummonedEntityTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TickTrigger</summary>
-
-```diff
-- Map players
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
-- void removePlayerListeners(PlayerAdvancements)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
-
-```diff
-- Map players
-+ boolean lambda$trigger$0(UsedEnderEyeTrigger$TriggerInstance)
-- void addPlayerListener(CriterionTrigger$Listener)
-- void removePlayerListener(CriterionTrigger$Listener)
++ boolean lambda$trigger$0(DimensionType,DimensionType,ChangeDimensionTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
 - void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
 
 ```diff
-+ LootTable$Builder lambda$accept$51(Block)
-+ LootTable$Builder lambda$accept$52(Block)
-+ LootTable$Builder lambda$accept$53(Block)
-+ LootTable$Builder lambda$accept$54(Block)
-+ LootTable$Builder lambda$dropPottedContents$72(Block)
-- LootTable$Builder lambda$accept$51(Block)
-- LootTable$Builder lambda$accept$52(Block)
-- LootTable$Builder lambda$accept$53(Block)
-- LootTable$Builder lambda$accept$54(Block)
-- LootTable$Builder lambda$accept$72(Block)
-- LootTable$Builder lambda$accept$73(Block)
-- LootTable$Builder lambda$accept$74(Block)
-- LootTable$Builder lambda$accept$75(Block)
-- LootTable$Builder lambda$accept$76(Block)
-- LootTable$Builder lambda$accept$77(Block)
-- LootTable$Builder lambda$dropPottedContents$78(Block)
++ boolean lambda$trigger$0(BeaconBlockEntity,ConstructBeaconTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundMoveEntityPacket</summary>
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
 
 ```diff
-+ boolean hasPos
-+ boolean hasPosition()
++ boolean lambda$trigger$0(ServerPlayer,Zombie,Villager,CuredZombieVillagerTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
 
 ```diff
-+ SuggestionProvider SUGGEST_PREDICATE
-+ ArgumentBuilder lambda$addConditionals$54(ArgumentBuilder)
-+ ArgumentBuilder lambda$wrapStores$33(ArgumentBuilder)
-+ boolean checkCustomPredicate(ResourceLocation)
-+ boolean lambda$addConditionals$39(CommandContext)
-+ boolean lambda$addConditionals$41(CommandContext)
-+ boolean lambda$addConditionals$43(CommandContext)
-+ boolean lambda$addConditionals$45(CommandContext)
-+ boolean lambda$addConditionals$48(CommandContext)
-+ boolean lambda$addConditionals$51(CommandContext)
-+ boolean lambda$null$40(Integer)
-+ boolean lambda$null$42(Integer)
-+ boolean lambda$null$44(Integer)
-+ boolean lambda$null$46(Integer)
-+ boolean lambda$register$6(CommandSourceStack)
-+ Collection lambda$addConditional$57(CommandContext)
-+ Collection lambda$addConditionals$49(CommandContext)
-+ Collection lambda$addIfBlocksConditional$59(CommandContext)
-+ Collection lambda$null$52(CommandContext)
-+ Collection lambda$register$10(CommandContext)
-+ Collection lambda$register$13(CommandContext)
-+ Collection lambda$register$8(CommandContext)
-+ CommandSourceStack lambda$null$22(CommandContext)
-+ CommandSourceStack lambda$null$24(CommandContext)
-+ CommandSourceStack lambda$null$26(CommandContext)
-+ CommandSourceStack lambda$null$28(CommandContext)
-+ CommandSourceStack lambda$null$30(CommandContext)
-+ CommandSourceStack lambda$null$32(CommandContext)
-+ CommandSourceStack lambda$register$11(CommandContext)
-+ CommandSourceStack lambda$register$17(CommandContext)
-+ CommandSourceStack lambda$register$9(CommandContext)
-+ CommandSourceStack lambda$wrapStores$20(CommandContext)
-+ CompletableFuture lambda$static$4(SuggestionsBuilder)
-+ int lambda$addConditional$58(CommandContext)
-+ int lambda$addConditionals$50(CommandContext)
-+ int lambda$addIfBlocksConditional$60(CommandContext)
-+ int lambda$addIfBlocksConditional$61(CommandContext)
-+ int lambda$createNumericConditionalHandler$55(CommandContext)
-+ int lambda$createNumericConditionalHandler$56(CommandContext)
-+ int lambda$null$53(CommandContext)
-+ Tag lambda$null$21(CommandContext,int)
-+ Tag lambda$null$23(CommandContext,int)
-+ Tag lambda$null$25(CommandContext,int)
-+ Tag lambda$null$27(CommandContext,int)
-+ Tag lambda$null$29(CommandContext,int)
-+ Tag lambda$null$31(CommandContext,int)
-+ Tag lambda$null$36(IntFunction,int)
-+ void lambda$storeData$37(CommandContext,boolean,int)
-+ void lambda$storeValue$34(CommandContext,boolean,int)
-+ void lambda$storeValue$35(CommandContext,boolean,int)
-- ArgumentBuilder lambda$addConditionals$52(ArgumentBuilder)
-- ArgumentBuilder lambda$wrapStores$32(ArgumentBuilder)
-- boolean lambda$addConditionals$37(CommandContext)
-- boolean lambda$addConditionals$40(CommandContext)
-- boolean lambda$addConditionals$42(CommandContext)
-- boolean lambda$addConditionals$44(CommandContext)
-- boolean lambda$addConditionals$46(CommandContext)
-- boolean lambda$null$39(Integer)
-- boolean lambda$null$41(Integer)
-- boolean lambda$null$43(Integer)
-- boolean lambda$null$45(Integer)
-- boolean lambda$register$4(CommandSourceStack)
-- Collection lambda$addConditional$55(CommandContext)
-- Collection lambda$addConditionals$48(CommandContext)
-- Collection lambda$addIfBlocksConditional$57(CommandContext)
-- Collection lambda$null$50(CommandContext)
-- Collection lambda$register$11(CommandContext)
-- Collection lambda$register$6(CommandContext)
-- Collection lambda$register$9(CommandContext)
-- CommandSourceStack lambda$null$21(CommandContext)
-- CommandSourceStack lambda$null$23(CommandContext)
-- CommandSourceStack lambda$null$25(CommandContext)
-- CommandSourceStack lambda$null$27(CommandContext)
-- CommandSourceStack lambda$null$29(CommandContext)
-- CommandSourceStack lambda$null$31(CommandContext)
-- CommandSourceStack lambda$register$10(CommandContext)
-- CommandSourceStack lambda$register$13(CommandContext)
-- CommandSourceStack lambda$register$8(CommandContext)
-- CommandSourceStack lambda$wrapStores$17(CommandContext)
-- int lambda$addConditional$56(CommandContext)
-- int lambda$addConditionals$49(CommandContext)
-- int lambda$addIfBlocksConditional$58(CommandContext)
-- int lambda$addIfBlocksConditional$59(CommandContext)
-- int lambda$createNumericConditionalHandler$53(CommandContext)
-- int lambda$createNumericConditionalHandler$54(CommandContext)
-- int lambda$null$51(CommandContext)
-- Tag lambda$null$20(CommandContext,int)
-- Tag lambda$null$22(CommandContext,int)
-- Tag lambda$null$24(CommandContext,int)
-- Tag lambda$null$26(CommandContext,int)
-- Tag lambda$null$28(CommandContext,int)
-- Tag lambda$null$30(CommandContext,int)
-- Tag lambda$null$35(IntFunction,int)
-- void lambda$storeData$36(CommandContext,boolean,int)
-- void lambda$storeValue$33(CommandContext,boolean,int)
-- void lambda$storeValue$34(CommandContext,boolean,int)
++ boolean lambda$trigger$0(ServerPlayer,DamageSource,float,float,boolean,EntityHurtPlayerTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap$TrackedEntity</summary>
+<details><summary>net.minecraft.advancements.critereon.NetherTravelTrigger</summary>
 
 ```diff
-+ int getEffectiveRange()
++ boolean lambda$trigger$0(ServerPlayer,Vec3,NetherTravelTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.RecipeBook</summary>
+<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
 
 ```diff
-+ boolean contains(ResourceLocation)
++ boolean lambda$trigger$0(ServerPlayer,Entity,DamageSource,float,float,boolean,PlayerHurtEntityTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ boolean lambda$trigger$0(ItemStack,ShotCrossbowTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
+<details><summary>net.minecraft.client.KeyboardHandler</summary>
 
 ```diff
-- boolean canOcclude(BlockState)
++ void lambda$getClipboard$11(int,long)
+- void lambda$getClipboard$7(int,long)
++ void lambda$null$7(long,int,int,int,int)
++ void lambda$null$9(long,int,int)
++ void lambda$setup$10(long,int,int)
++ void lambda$setup$8(long,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+<details><summary>net.minecraft.client.MouseHandler</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ void lambda$null$2(long,double,double)
++ void lambda$null$4(long,int,int,int)
++ void lambda$null$6(long,double,double)
+- void lambda$onMove$2(GuiEventListener,double,double)
+- void lambda$onMove$3(GuiEventListener,double,double,double,double)
++ void lambda$onMove$8(GuiEventListener,double,double)
++ void lambda$onMove$9(GuiEventListener,double,double,double,double)
++ void lambda$setup$3(long,double,double)
++ void lambda$setup$5(long,int,int,int)
++ void lambda$setup$7(long,double,double)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
 
 ```diff
-+ boolean canOcclude
-+ boolean access$1200(Block)
-+ boolean access$1300(Block)
-- BlockLayer getRenderLayer()
-- boolean access$1100(Block)
++ int getBlitOffset()
++ void setBlitOffset(int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.Block$Properties</summary>
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
 
 ```diff
-+ boolean canOcclude
-+ Block$Properties noOcclusion()
-+ boolean access$1100(Block$Properties)
+- int access$400(PresetFlatWorldScreen)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.LoomScreen</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BushBlock</summary>
-
-```diff
-- BlockLayer getRenderLayer()
++ void renderPattern(int,int,int)
+- void tick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
+<details><summary>net.minecraft.client.renderer.ChunkBufferBuilderPack</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
-
-```diff
-- BlockLayer getRenderLayer()
+- BufferBuilder builder(BlockLayer)
+- BufferBuilder builder(int)
++ BufferBuilder builder(RenderType)
++ BufferBuilder lambda$new$1(RenderType)
++ RenderType lambda$new$0(RenderType)
++ void clearAll()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+<details><summary>net.minecraft.client.renderer.LevelRenderer$1</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
-- boolean canOcclude(BlockState)
+- void <clinit>()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
+<details><summary>net.minecraft.client.renderer.ViewArea</summary>
 
 ```diff
-- boolean canOcclude(BlockState)
++ ChunkRenderDispatcher$RenderChunk getRenderChunkAt(BlockPos)
+- RenderChunk getRenderChunkAt(BlockPos)
++ void <init>(ChunkRenderDispatcher,Level,int,LevelRenderer)
+- void <init>(Level,int,LevelRenderer,RenderChunkFactory)
++ void createChunks(ChunkRenderDispatcher)
+- void createChunks(RenderChunkFactory)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+<details><summary>net.minecraft.client.renderer.blockentity.BannerRenderer</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
+- ResourceLocation getTextureLocation(BannerBlockEntity)
++ void <clinit>()
+- void render(BannerBlockEntity,double,double,double,float,int)
+- void render(BlockEntity,double,double,double,float,int)
++ void renderToBuffer(BannerBlockEntity,double,double,double,float,int,RenderType,BufferBuilder,int,int)
++ void renderToBuffer(BlockEntity,double,double,double,float,int,RenderType,BufferBuilder,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
+- boolean rebuildChunkAsync(RenderChunk)
+- boolean rebuildChunkSync(RenderChunk)
+- boolean resortChunkTransparencyAsync(RenderChunk)
+- boolean resortChunkTransparencySync(RenderChunk)
++ boolean uploadAllPendingUploads()
+- boolean uploadAllPendingUploadsUntil(long)
++ ChunkBufferBuilderPack access$300(ChunkRenderDispatcher)
+- ChunkBufferBuilderPack takeChunkBufferBuilder()
+- ChunkCompileTask takeChunk()
++ CompletableFuture doUploadChunkLayer(BufferBuilder,VertexBuffer)
++ CompletableFuture uploadChunkLayer(BufferBuilder,VertexBuffer)
++ CompletionStage lambda$runTask$1(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask,ChunkBufferBuilderPack,Void)
++ CompletionStage lambda$uploadChunkLayer$5(BufferBuilder,VertexBuffer,Void)
++ Level access$000(ChunkRenderDispatcher)
++ LevelRenderer access$200(ChunkRenderDispatcher)
+- ListenableFuture uploadChunkLayer(BlockLayer,BufferBuilder,RenderChunk,CompiledChunk,double)
+- void <init>(boolean)
++ void <init>(Level,LevelRenderer,Executor,boolean)
+- void compileChunkLayerIntoGlList(BufferBuilder,int)
++ void lambda$null$2(ChunkBufferBuilderPack)
+- void lambda$rebuildChunkAsync$0(ChunkCompileTask)
+- void lambda$resortChunkTransparencyAsync$1(ChunkCompileTask)
++ void lambda$runTask$0()
++ void lambda$runTask$3(ChunkBufferBuilderPack,Unit,Throwable)
+- void lambda$uploadChunkLayer$2(BlockLayer,BufferBuilder,RenderChunk,CompiledChunk,double)
++ void lambda$uploadChunkLayer$4()
++ void rebuildChunkSync(ChunkRenderDispatcher$RenderChunk)
+- void releaseChunkBufferBuilder(ChunkBufferBuilderPack)
++ void runTask()
++ void schedule(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
++ void setLevel(Level)
+- void uploadChunkLayer(BufferBuilder,VertexBuffer)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ ResourceLocation lambda$static$0(ResourceLocation)
++ ResourceLocation[] lambda$static$1(int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.IceBlock</summary>
+<details><summary>net.minecraft.client.renderer.texture.LayeredColorMaskTexture</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
-
-```diff
-- BlockLayer getRenderLayer()
++ void doLoad(NativeImage)
++ void lambda$load$0(NativeImage)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
+<details><summary>net.minecraft.client.renderer.texture.SimpleTexture</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ void doLoad(NativeImage,boolean,boolean)
++ void lambda$load$0(NativeImage,boolean,boolean)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
+<details><summary>net.minecraft.client.resources.model.ModelBakery</summary>
 
 ```diff
-- boolean renderCutout
-- BlockLayer getRenderLayer()
-- boolean canOcclude(BlockState)
-- void setFancy(boolean)
+- boolean lambda$null$17(Pair,Map$Entry)
++ boolean lambda$null$19(Pair,Map$Entry)
++ boolean lambda$predicate$11(Block,Map,BlockState)
+- boolean lambda$predicate$9(Block,Map,BlockState)
+- ModelBakery$ModelGroupKey lambda$loadModel$12(ModelBakery$ModelGroupKey)
++ ModelBakery$ModelGroupKey lambda$loadModel$14(ModelBakery$ModelGroupKey)
+- ModelBakery$ModelGroupKey lambda$null$14(BlockState,MultiPart,List)
++ ModelBakery$ModelGroupKey lambda$null$16(BlockState,MultiPart,List)
+- ModelBakery$ModelGroupKey lambda$null$16(BlockState,MultiVariant,List)
++ ModelBakery$ModelGroupKey lambda$null$18(BlockState,MultiVariant,List)
+- Pair lambda$loadModel$13(Resource)
++ Pair lambda$loadModel$15(Resource)
++ ResourceLocation lambda$static$0(int)
+- Set lambda$null$20(ModelBakery$ModelGroupKey)
++ Set lambda$null$22(ModelBakery$ModelGroupKey)
+- StateDefinition lambda$loadModel$10(ResourceLocation)
++ StateDefinition lambda$loadModel$12(ResourceLocation)
+- Stream lambda$new$6(Set,UnbakedModel)
++ Stream lambda$new$8(Set,UnbakedModel)
+- void lambda$loadModel$11(Map,ResourceLocation,BlockState)
++ void lambda$loadModel$13(Map,ResourceLocation,BlockState)
+- void lambda$loadModel$15(Map,MultiPart,List,BlockState)
++ void lambda$loadModel$17(Map,MultiPart,List,BlockState)
+- void lambda$loadModel$19(ImmutableList,StateDefinition,Map,List,MultiPart,Pair,BlockModelDefinition,ResourceLocation,Pair,String,MultiVariant)
++ void lambda$loadModel$21(ImmutableList,StateDefinition,Map,List,MultiPart,Pair,BlockModelDefinition,ResourceLocation,Pair,String,MultiVariant)
+- void lambda$loadModel$21(Map,ResourceLocation,Pair,Map,ModelResourceLocation,BlockState)
+- void lambda$loadModel$22(ModelBakery$ModelGroupKey,Set)
++ void lambda$loadModel$23(Map,ResourceLocation,Pair,Map,ModelResourceLocation,BlockState)
++ void lambda$loadModel$24(ModelBakery$ModelGroupKey,Set)
+- void lambda$new$2(Object2IntOpenHashMap)
++ void lambda$new$4(Object2IntOpenHashMap)
+- void lambda$new$4(ResourceLocation,StateDefinition)
+- void lambda$new$5(BlockState)
++ void lambda$new$6(ResourceLocation,StateDefinition)
++ void lambda$new$7(BlockState)
+- void lambda$new$7(String)
++ void lambda$new$9(String)
+- void lambda$null$18(Map,MultiVariant,List,MultiPart,Pair,BlockModelDefinition,BlockState)
++ void lambda$null$20(Map,MultiVariant,List,MultiPart,Pair,BlockModelDefinition,BlockState)
+- void lambda$null$3(ResourceLocation,BlockState)
++ void lambda$null$5(ResourceLocation,BlockState)
+- void lambda$registerModelGroup$23(int,BlockState)
++ void lambda$registerModelGroup$25(int,BlockState)
+- void lambda$static$0(BlockModel)
+- void lambda$static$1(BlockModel)
++ void lambda$static$1(HashSet)
++ void lambda$static$2(BlockModel)
++ void lambda$static$3(BlockModel)
++ void lambda$uploadTextures$10(ResourceLocation)
+- void lambda$uploadTextures$8(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
+<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ boolean lambda$bootStrap$63(EntitySelectorParser)
++ boolean lambda$null$61(ResourceLocation,boolean,Entity)
++ void lambda$bootStrap$62(EntitySelectorParser)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SlimeBlock</summary>
+<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ LootItemCondition lambda$run$2(ResourceLocation)
+- void lambda$run$2(LootTableProblemCollector,Map,ResourceLocation,LootTable)
+- void lambda$run$3(String,String)
++ void lambda$run$3(ValidationContext,ResourceLocation,LootTable)
+- void lambda$run$4(Path,HashCache,ResourceLocation,LootTable)
++ void lambda$run$4(String,String)
++ void lambda$run$5(Path,HashCache,ResourceLocation,LootTable)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
+<details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ float diffuseLight(float,float,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.PatrollingMonster$LongDistancePatrolGoal</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
++ boolean moveRandomly()
+- void moveRandomly()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+<details><summary>net.minecraft.world.level.storage.loot.LootTables</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
+- void <init>()
++ void <init>(PredicateManager)
+- void lambda$apply$1(LootTableProblemCollector,ImmutableMap,ResourceLocation,LootTable)
++ void lambda$apply$1(ValidationContext,ResourceLocation,LootTable)
+- void validate(LootTableProblemCollector,ResourceLocation,LootTable,Function)
++ void validate(ValidationContext,ResourceLocation,LootTable)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.VineBlock</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
 
 ```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WebBlock</summary>
-
-```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BannerBlockEntity</summary>
-
-```diff
-+ boolean onlyRenderPattern
-+ boolean onlyRenderPattern()
-+ void setOnlyRenderPattern(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
-
-```diff
-- boolean canOcclude(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.EmptyFluid</summary>
-
-```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.material.FluidState</summary>
-
-```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.WaterFluid</summary>
-
-```diff
-- BlockLayer getRenderLayer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
-
-```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
 + void validate(ValidationContext)
-- void validate(LootContextParamSet)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer</summary>
 
 ```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
 + void validate(ValidationContext)
-- void validate(LootContextParamSet)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
 
 ```diff
-+ IllegalArgumentException lambda$deserialize$0(ResourceLocation)
-+ void lambda$deserialize$1(String)
-- IllegalArgumentException lambda$deserialize$1(ResourceLocation)
-- IllegalArgumentException lambda$null$2(String)
-- void lambda$deserialize$3(Map$Entry)
-- void lambda$serialize$0(Object)
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
++ void validate(ValidationContext)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction</summary>
+
+```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
++ void validate(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
+
+```diff
++ void lambda$static$8(LootContextParamSet$Builder)
++ void lambda$static$9(LootContextParamSet$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition</summary>
+
+```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
++ void validate(ValidationContext)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.BlockPredicate$Builder
@@ -7406,13 +3999,678 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ItemStack,int,EnchantedItemTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
+
+```diff
+- void <init>(Block,Map)
++ void <init>(Block,StatePropertiesPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ServerPlayer,ItemStack,FishingHook,Collection,FishingRodHookedTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ItemStack,int,ItemDurabilityTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.KilledTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ServerPlayer,Entity,DamageSource,KilledTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlacedBlockTrigger$TriggerInstance</summary>
+
+```diff
+- void <init>(Block,Map,LocationPredicate,ItemPredicate)
++ void <init>(Block,StatePropertiesPredicate,LocationPredicate,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ServerPlayer,Entity,SummonedEntityTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TickTrigger</summary>
+
+```diff
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(double,UsedEnderEyeTrigger$TriggerInstance)
+- void addPlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListener(PlayerAdvancements,CriterionTrigger$Listener)
+- void removePlayerListeners(PlayerAdvancements)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder lambda$accept$51(Block)
+- LootTable$Builder lambda$accept$51(LootItemCondition$Builder,Block)
++ LootTable$Builder lambda$accept$52(Block)
+- LootTable$Builder lambda$accept$52(LootItemCondition$Builder,Block)
++ LootTable$Builder lambda$accept$53(Block)
+- LootTable$Builder lambda$accept$53(LootItemCondition$Builder,Block)
++ LootTable$Builder lambda$accept$54(Block)
+- LootTable$Builder lambda$accept$54(LootItemCondition$Builder,Block)
+- LootTable$Builder lambda$accept$72(Block)
+- LootTable$Builder lambda$accept$73(Block)
+- LootTable$Builder lambda$accept$74(Block)
+- LootTable$Builder lambda$accept$75(Block)
+- LootTable$Builder lambda$accept$76(Block)
+- LootTable$Builder lambda$accept$77(Block)
++ LootTable$Builder lambda$dropPottedContents$72(Block)
+- LootTable$Builder lambda$dropPottedContents$78(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundMoveEntityPacket</summary>
+
+```diff
++ boolean hasPosition()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+
+```diff
+- ArgumentBuilder lambda$addConditionals$52(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$addConditionals$54(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)
+- ArgumentBuilder lambda$wrapStores$32(LiteralCommandNode,DataCommands$DataProvider,boolean,ArgumentBuilder)
++ ArgumentBuilder lambda$wrapStores$33(LiteralCommandNode,DataCommands$DataProvider,boolean,ArgumentBuilder)
++ boolean checkCustomPredicate(CommandSourceStack,ResourceLocation)
+- boolean lambda$addConditionals$37(CommandContext)
++ boolean lambda$addConditionals$39(CommandContext)
+- boolean lambda$addConditionals$40(CommandContext)
++ boolean lambda$addConditionals$41(CommandContext)
+- boolean lambda$addConditionals$42(CommandContext)
++ boolean lambda$addConditionals$43(CommandContext)
+- boolean lambda$addConditionals$44(CommandContext)
++ boolean lambda$addConditionals$45(CommandContext)
+- boolean lambda$addConditionals$46(CommandContext)
++ boolean lambda$addConditionals$48(CommandContext)
++ boolean lambda$addConditionals$51(CommandContext)
+- boolean lambda$null$39(Integer,Integer)
++ boolean lambda$null$40(Integer,Integer)
+- boolean lambda$null$41(Integer,Integer)
++ boolean lambda$null$42(Integer,Integer)
+- boolean lambda$null$43(Integer,Integer)
++ boolean lambda$null$44(Integer,Integer)
+- boolean lambda$null$45(Integer,Integer)
++ boolean lambda$null$46(Integer,Integer)
+- boolean lambda$register$4(CommandSourceStack)
++ boolean lambda$register$6(CommandSourceStack)
+- Collection lambda$addConditional$55(boolean,ExecuteCommand$CommandPredicate,CommandContext)
++ Collection lambda$addConditional$57(boolean,ExecuteCommand$CommandPredicate,CommandContext)
+- Collection lambda$addConditionals$48(boolean,CommandContext)
++ Collection lambda$addConditionals$49(boolean,CommandContext)
+- Collection lambda$addIfBlocksConditional$57(boolean,boolean,CommandContext)
++ Collection lambda$addIfBlocksConditional$59(boolean,boolean,CommandContext)
+- Collection lambda$null$50(boolean,DataCommands$DataProvider,CommandContext)
++ Collection lambda$null$52(boolean,DataCommands$DataProvider,CommandContext)
++ Collection lambda$register$10(CommandContext)
+- Collection lambda$register$11(CommandContext)
++ Collection lambda$register$13(CommandContext)
+- Collection lambda$register$6(CommandContext)
++ Collection lambda$register$8(CommandContext)
+- Collection lambda$register$9(CommandContext)
+- CommandSourceStack lambda$null$21(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$22(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$23(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$24(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$25(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$26(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$27(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$28(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$29(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$30(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$null$31(DataCommands$DataProvider,boolean,CommandContext)
++ CommandSourceStack lambda$null$32(DataCommands$DataProvider,boolean,CommandContext)
+- CommandSourceStack lambda$register$10(CommandContext)
++ CommandSourceStack lambda$register$11(CommandContext)
+- CommandSourceStack lambda$register$13(CommandContext)
++ CommandSourceStack lambda$register$17(CommandContext)
+- CommandSourceStack lambda$register$8(CommandContext)
++ CommandSourceStack lambda$register$9(CommandContext)
+- CommandSourceStack lambda$wrapStores$17(boolean,CommandContext)
++ CommandSourceStack lambda$wrapStores$20(boolean,CommandContext)
++ CompletableFuture lambda$static$4(CommandContext,SuggestionsBuilder)
+- int lambda$addConditional$56(boolean,ExecuteCommand$CommandPredicate,CommandContext)
++ int lambda$addConditional$58(boolean,ExecuteCommand$CommandPredicate,CommandContext)
+- int lambda$addConditionals$49(CommandContext)
++ int lambda$addConditionals$50(CommandContext)
+- int lambda$addIfBlocksConditional$58(boolean,CommandContext)
+- int lambda$addIfBlocksConditional$59(boolean,CommandContext)
++ int lambda$addIfBlocksConditional$60(boolean,CommandContext)
++ int lambda$addIfBlocksConditional$61(boolean,CommandContext)
+- int lambda$createNumericConditionalHandler$53(ExecuteCommand$CommandNumericPredicate,CommandContext)
+- int lambda$createNumericConditionalHandler$54(ExecuteCommand$CommandNumericPredicate,CommandContext)
++ int lambda$createNumericConditionalHandler$55(ExecuteCommand$CommandNumericPredicate,CommandContext)
++ int lambda$createNumericConditionalHandler$56(ExecuteCommand$CommandNumericPredicate,CommandContext)
+- int lambda$null$51(DataCommands$DataProvider,CommandContext)
++ int lambda$null$53(DataCommands$DataProvider,CommandContext)
+- Tag lambda$null$20(CommandContext,int)
++ Tag lambda$null$21(CommandContext,int)
+- Tag lambda$null$22(CommandContext,int)
++ Tag lambda$null$23(CommandContext,int)
+- Tag lambda$null$24(CommandContext,int)
++ Tag lambda$null$25(CommandContext,int)
+- Tag lambda$null$26(CommandContext,int)
++ Tag lambda$null$27(CommandContext,int)
+- Tag lambda$null$28(CommandContext,int)
++ Tag lambda$null$29(CommandContext,int)
+- Tag lambda$null$30(CommandContext,int)
++ Tag lambda$null$31(CommandContext,int)
+- Tag lambda$null$35(IntFunction,int)
++ Tag lambda$null$36(IntFunction,int)
+- void lambda$storeData$36(DataAccessor,boolean,NbtPathArgument$NbtPath,IntFunction,CommandContext,boolean,int)
++ void lambda$storeData$37(DataAccessor,boolean,NbtPathArgument$NbtPath,IntFunction,CommandContext,boolean,int)
+- void lambda$storeValue$33(Collection,Scoreboard,Objective,boolean,CommandContext,boolean,int)
+- void lambda$storeValue$34(boolean,boolean,CustomBossEvent,CommandContext,boolean,int)
++ void lambda$storeValue$34(Collection,Scoreboard,Objective,boolean,CommandContext,boolean,int)
++ void lambda$storeValue$35(boolean,boolean,CustomBossEvent,CommandContext,boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap$TrackedEntity</summary>
+
+```diff
++ int getEffectiveRange()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.stats.RecipeBook</summary>
+
+```diff
++ boolean contains(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
+
+```diff
+- boolean canOcclude(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+- boolean access$1100(Block)
++ boolean access$1200(Block)
++ boolean access$1300(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block$Properties</summary>
+
+```diff
++ Block$Properties noOcclusion()
++ boolean access$1100(Block$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BushBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+- boolean canOcclude(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
+
+```diff
+- boolean canOcclude(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.IceBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+- boolean canOcclude(BlockState)
+- void setFancy(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SlimeBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.VineBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WebBlock</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BannerBlockEntity</summary>
+
+```diff
++ boolean onlyRenderPattern()
++ void setOnlyRenderPattern(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+
+```diff
+- boolean canOcclude(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.EmptyFluid</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.FluidState</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.WaterFluid</summary>
+
+```diff
+- BlockLayer getRenderLayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+
+```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
++ void validate(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
+
+```diff
+- void validate(LootTableProblemCollector,Function,Set,LootContextParamSet)
++ void validate(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer</summary>
+
+```diff
++ IllegalArgumentException lambda$deserialize$0(ResourceLocation)
+- IllegalArgumentException lambda$deserialize$1(ResourceLocation)
+- IllegalArgumentException lambda$null$2(Block,String,String)
++ void lambda$deserialize$1(Block,String)
+- void lambda$deserialize$3(StateDefinition,Block,Map,Map$Entry)
+- void lambda$serialize$0(JsonObject,Property,Object)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/textures/entity/conduit/wind_vertical.png.mcmeta
++ minecraft/textures/entity/conduit/wind.png.mcmeta
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>data.txt</summary>
+
+```diff
++ data get storage <target: resource_location> <path: nbt_path> <scale: double>
++ data merge storage <target: resource_location> <nbt: nbt_compound_tag>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify entity <target: entity> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify entity <target: entity> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify entity <target: entity> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify entity <target: entity> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append from block <sourcePos: block_pos> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append value <value: nbt_tag>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge from block <sourcePos: block_pos> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge value <value: nbt_tag>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from block <sourcePos: block_pos> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend value <value: nbt_tag>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set from block <sourcePos: block_pos> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set value <value: nbt_tag>
++ data remove storage <target: resource_location> <path: nbt_path>
+```
+
+</details>
+
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute if data storage <source: resource_location> <path: nbt_path>
++ execute if predicate <predicate: resource_location>
++ execute store result storage <target: resource_location> <path: nbt_path> byte <scale: double>
++ execute store result storage <target: resource_location> <path: nbt_path> double <scale: double>
++ execute store result storage <target: resource_location> <path: nbt_path> float <scale: double>
++ execute store result storage <target: resource_location> <path: nbt_path> int <scale: double>
++ execute store result storage <target: resource_location> <path: nbt_path> long <scale: double>
++ execute store result storage <target: resource_location> <path: nbt_path> short <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> byte <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> double <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> float <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> int <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> long <scale: double>
++ execute store success storage <target: resource_location> <path: nbt_path> short <scale: double>
++ execute unless data storage <source: resource_location> <path: nbt_path>
++ execute unless predicate <predicate: resource_location>
+```
+
+</details>
+
+
+<details><summary>schedule.txt</summary>
+
+```diff
++ schedule clear <function: string>
+- schedule function <function: function> <time: time>
++ schedule function <function: function> <time: time> append
++ schedule function <function: function> <time: time> replace
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.entity.options.predicate.description
++ commands.data.storage.get
++ commands.data.storage.modified
++ commands.data.storage.query
++ commands.schedule.cleared.failure
++ commands.schedule.cleared.success
+```
+
+</details>

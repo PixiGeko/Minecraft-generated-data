@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w20a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w20a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-05-19T15:22:02+00:00</td></tr>
@@ -10,2496 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/8d6960e996a40b8350f5973d8a237469a9a6a7bc/server.txt">https://piston-data.mojang.com/v1/objects/8d6960e996a40b8350f5973d8a237469a9a6a7bc/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/f756009979e33058d57695a3599b4a2544d856ca/client.jar">https://piston-data.mojang.com/v1/objects/f756009979e33058d57695a3599b4a2544d856ca/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e6bf5879f4ae3778540cf304483e035ef72416a3/client.txt">https://piston-data.mojang.com/v1/objects/e6bf5879f4ae3778540cf304483e035ef72416a3/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w19a">21w19a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/features_cannot_replace.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>sound_event.txt</summary>
 
-```diff
-- minecraft:item.sweet_berries.pick_from_bush
-+ minecraft:block.sweet_berry_bush.pick_berries
-```
-
-</details>
-
-<details><summary>worldgen/structure_processor.txt</summary>
-
-```diff
-+ minecraft:protected_blocks
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/features_cannot_replace.json
-```
-
-</details>
-
-<details><summary>blocks/bee_growables.json</summary>
-
-```diff
-+ minecraft:cave_vines_plant
-```
-
-</details>
-
-<details><summary>items/axolotl_tempt_items.json</summary>
-
-```diff
-- minecraft:tropical_fish
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/features_cannot_replace.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen$BackupInfoListEntry</summary>
-
-```diff
-+ Component getNarration()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
-
-```diff
-+ Component getNarration()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsCreateRealmScreen</summary>
-
-```diff
-- RealmsLabel createRealmLabel
-+ void lambda$createWorld$4()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongConfirmationScreen$Type</summary>
-
-```diff
-+ Component text
-- String text
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsParentalConsentScreen</summary>
-
-```diff
-+ Component getNarrationMessage()
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$Entry</summary>
-
-```diff
-+ Component getNarration()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
-
-```diff
-- Component title
-- RealmsLabel subtitleLabel
-- RealmsLabel titleLabel
-+ Component getNarrationMessage()
-+ void <init>(Runnable)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$Entry</summary>
-
-```diff
-+ Component getNarration()
-+ void renderItem(PoseStack,int,int,int)
-- void renderItem(LevelSummary,int,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
-
-```diff
-- Component title
-+ Component getNarrationMessage()
-+ void <init>(RealmsServer$WorldType)
-+ void <init>(WorldTemplatePaginatedList)
-- void <init>(RealmsServer$WorldType)
-- void <init>(WorldTemplatePaginatedList)
-- void setTitle(Component)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$Entry</summary>
-
-```diff
-+ Component getNarration()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSettingsScreen</summary>
-
-```diff
-- RealmsLabel titleLabel
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
-
-```diff
-+ Component createProgressNarrationMessage()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
-
-```diff
-+ MinMaxBounds$Doubles dealtDamage
-+ MinMaxBounds$Doubles takenDamage
-- MinMaxBounds$Floats dealtDamage
-- MinMaxBounds$Floats takenDamage
-+ void <init>(DamageSourcePredicate)
-- void <init>(DamageSourcePredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
-
-```diff
-+ MinMaxBounds$Doubles x
-+ MinMaxBounds$Doubles y
-+ MinMaxBounds$Doubles z
-- MinMaxBounds$Floats x
-- MinMaxBounds$Floats y
-- MinMaxBounds$Floats z
-+ LocationPredicate$Builder setX(MinMaxBounds$Doubles)
-+ LocationPredicate$Builder setY(MinMaxBounds$Doubles)
-+ LocationPredicate$Builder setZ(MinMaxBounds$Doubles)
-- LocationPredicate$Builder setX(MinMaxBounds$Floats)
-- LocationPredicate$Builder setY(MinMaxBounds$Floats)
-- LocationPredicate$Builder setZ(MinMaxBounds$Floats)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger$TriggerInstance</summary>
-
-```diff
-+ MinMaxBounds$Doubles level
-- MinMaxBounds$Floats level
-+ void <init>(MinMaxBounds$Doubles)
-- void <init>(MinMaxBounds$Floats)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.KeyboardHandler</summary>
-
-```diff
-+ void lambda$keyPress$6(Screen,boolean[],int,int,int)
-- void lambda$keyPress$6(ContainerEventHandler,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.MouseHandler</summary>
-
-```diff
-+ void lambda$onMove$10(Screen,double,double)
-+ void lambda$onMove$11(Screen,double,double,double,double)
-+ void lambda$onPress$0(Screen,double,double,int)
-+ void lambda$onPress$1(Screen,double,double,int)
-- void lambda$onMove$10(GuiEventListener,double,double)
-- void lambda$onMove$11(GuiEventListener,double,double,double,double)
-- void lambda$onPress$0(boolean[],double,double,int)
-- void lambda$onPress$1(boolean[],double,double,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
-
-```diff
-- boolean wasHovered
-- int NARRATE_DELAY_FOCUS
-- int NARRATE_DELAY_MOUSE
-- long nextNarration
-+ NarratableEntry$NarrationPriority narrationPriority()
-+ void defaultButtonNarrationText(NarrationElementOutput)
-- void narrate()
-- void queueNarration(int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry</summary>
-
-```diff
-+ List narratables()
-+ NarratableEntry lastNarratable
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.EditBox</summary>
-
-```diff
-- long NARRATE_DELAY_TYPING_MS
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ObjectSelectionList$Entry</summary>
-
-```diff
-+ Component getNarration()
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.OptionsList$Entry</summary>
-
-```diff
-+ List narratables()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
-
-```diff
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.SubtitleOverlay$Subtitle</summary>
-
-```diff
-- SubtitleOverlay this$0
-+ void <init>(Vec3)
-- void <init>(Vec3)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry</summary>
-
-```diff
-+ List narratables()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeSlot</summary>
-
-```diff
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconCancelButton</summary>
-
-```diff
-+ void updateStatus(int)
-- void renderToolTip(PoseStack,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconPowerButton</summary>
-
-```diff
-+ int tier
-+ MutableComponent createEffectDescription(MobEffect)
-+ MutableComponent createNarrationMessage()
-+ void <init>(MobEffect,boolean,int)
-+ void setEffect(MobEffect)
-+ void updateStatus(int)
-- Component createTooltip(MobEffect,boolean)
-- void <init>(MobEffect,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconSpriteScreenButton</summary>
-
-```diff
-+ BeaconScreen this$0
-+ void <init>(Component)
-+ void renderToolTip(PoseStack,int,int)
-- void <init>(int,int,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
-
-```diff
-+ Component getNarration()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
-
-```diff
-+ NarratableEntry$NarrationPriority narrationPriority()
-+ void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.social.PlayerEntry</summary>
-
-```diff
-+ Component hideText
-+ Component showText
-+ List narratables()
-+ void lambda$new$1(Button)
-- void lambda$new$1(PoseStack,int,int)
-- void lambda$new$2(PoseStack,int,int)
-- void lambda$new$3(Button)
-- void lambda$new$4(PoseStack,int,int)
-- void lambda$new$5(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ boolean lambda$copyTempDataPackDirToNewWorld$21(Path)
-+ boolean lambda$createTempDataPackDirFromExistingWorld$23(Path)
-+ GuiEventListener addRenderableWidget(GuiEventListener)
-+ Object lambda$tryApplyNewDataPacks$19(Throwable)
-+ void lambda$copyTempDataPackDirToNewWorld$22(Path)
-+ void lambda$createTempDataPackDirFromExistingWorld$24(Path)
-+ void lambda$removeTempDataPackDir$20(Path)
-+ void lambda$tryApplyNewDataPacks$15(ServerResources)
-+ void lambda$tryApplyNewDataPacks$16(boolean)
-+ void lambda$tryApplyNewDataPacks$17()
-+ void lambda$tryApplyNewDataPacks$18()
-- AbstractWidget addButton(AbstractWidget)
-- boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
-- boolean lambda$createTempDataPackDirFromExistingWorld$22(Path)
-- Object lambda$tryApplyNewDataPacks$18(Throwable)
-- void lambda$copyTempDataPackDirToNewWorld$21(Path)
-- void lambda$createTempDataPackDirFromExistingWorld$23(Path)
-- void lambda$removeTempDataPackDir$19(Path)
-- void lambda$tryApplyNewDataPacks$15(boolean)
-- void lambda$tryApplyNewDataPacks$16()
-- void lambda$tryApplyNewDataPacks$17(ServerResources)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$CategoryRuleEntry</summary>
-
-```diff
-+ List narratables()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.item.ItemProperties</summary>
-
-```diff
-+ ClampedItemPropertyFunction PROPERTY_DAMAGE
-+ ClampedItemPropertyFunction PROPERTY_DAMAGED
-- ItemPropertyFunction PROPERTY_DAMAGE
-- ItemPropertyFunction PROPERTY_DAMAGED
-+ ClampedItemPropertyFunction registerGeneric(ClampedItemPropertyFunction)
-+ void register(ClampedItemPropertyFunction)
-+ void registerCustomModelData(ItemPropertyFunction)
-- ItemPropertyFunction registerGeneric(ItemPropertyFunction)
-- void register(ItemPropertyFunction)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.item.ItemProperties$2</summary>
-
-```diff
-+ float unclampedCall(LivingEntity,int)
-- float call(LivingEntity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.RangeArgument$Floats</summary>
-
-```diff
-+ MinMaxBounds$Doubles getRange(String)
-+ MinMaxBounds$Doubles parse(StringReader)
-- MinMaxBounds$Floats getRange(String)
-- MinMaxBounds$Floats parse(StringReader)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
-
-```diff
-+ MinMaxBounds$Doubles range
-- MinMaxBounds$Floats range
-+ void <init>(EntityType,boolean)
-- void <init>(EntityType,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
-
-```diff
-+ MinMaxBounds$Doubles distance
-- MinMaxBounds$Floats distance
-+ MinMaxBounds$Doubles getDistance()
-+ void setDistance(MinMaxBounds$Doubles)
-- MinMaxBounds$Floats getDistance()
-- void setDistance(MinMaxBounds$Floats)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
-
-```diff
-+ Component formatList(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
-
-```diff
-- Component title
-+ Component getNarrationMessage()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.realms.RepeatedNarrator</summary>
-
-```diff
-+ RepeatedNarrator$Params lambda$narrate$0(RepeatedNarrator$Params)
-+ void narrate(Component)
-- RepeatedNarrator$Params lambda$narrate$0(RepeatedNarrator$Params)
-- void narrate(String)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryReadOps$ResourceAccess</summary>
-
-```diff
-+ Optional parseElement(com.mojang.serialization.DynamicOps,net.minecraft.resources.ResourceKey,net.minecraft.resources.ResourceKey,com.mojang.serialization.Decoder)
-- DataResult parseElement(com.mojang.serialization.DynamicOps,net.minecraft.resources.ResourceKey,net.minecraft.resources.ResourceKey,com.mojang.serialization.Decoder)
-```
-
-</details>
-
-<details><summary>net.minecraft.resources.RegistryReadOps$ResourceAccess$MemoryMap</summary>
-
-```diff
-+ Optional parseElement(Decoder)
-- DataResult parseElement(Decoder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ boolean mayInteract(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named FEATURES_CANNOT_REPLACE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ Boolean lambda$checkBedExists$7(BlockPos)
-+ boolean lambda$createEquipmentSlotAccess$10(ItemStack)
-+ boolean lambda$isHolding$4(ItemStack)
-+ Vec3 lambda$stopSleeping$8(BlockPos)
-+ void hurtHelmet(DamageSource,float)
-+ void lambda$handleEquipmentChanges$5(ItemStack)
-+ void lambda$stopSleeping$9(BlockPos)
-+ void lambda$updateFallFlying$6(LivingEntity)
-- Boolean lambda$checkBedExists$8(BlockPos)
-- boolean lambda$createEquipmentSlotAccess$11(ItemStack)
-- boolean lambda$isHolding$5(ItemStack)
-- Vec3 lambda$stopSleeping$9(BlockPos)
-- void lambda$handleEquipmentChanges$6(ItemStack)
-- void lambda$hurt$4(LivingEntity)
-- void lambda$stopSleeping$10(BlockPos)
-- void lambda$updateFallFlying$7(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.TryFindWater</summary>
-
-```diff
-+ long nextOkStartTime
-+ void stop(LivingEntity,long)
-+ void stop(PathfinderMob,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.LookAtPlayerGoal</summary>
-
-```diff
-+ boolean onlyHorizontal
-+ float DEFAULT_PROBABILITY
-+ void <init>(Class,float,float,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_VISIBLE_ATTACKABLE_PLAYER
-- MemoryModuleType NEAREST_VISIBLE_TARGETABLE_PLAYER
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.AxolotlAttackablesSensor</summary>
-
-```diff
-+ boolean isHostileTarget(LivingEntity)
-- boolean isHostileTarget(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.Sensor</summary>
-
-```diff
-+ TargetingConditions ATTACK_TARGET_CONDITIONS
-+ TargetingConditions ATTACK_TARGET_CONDITIONS_IGNORE_INVISIBILITY_TESTING
-+ boolean isEntityAttackable(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
-```diff
-+ Vector3f FORWARD
-+ boolean lambda$onPeekAmountChange$1(Entity)
-+ Vector3f lambda$static$0()
-- boolean lambda$onPeekAmountChange$0(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
-
-```diff
-- void setHeightmap(net.minecraft.world.level.levelgen.Heightmap$Types,long[])
-+ void setHeightmap(Heightmap$Types,long[])
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
-
-```diff
-+ void lambda$static$1(ChunkAccess)
-+ void lambda$static$13(ChunkAccess)
-+ void lambda$static$14(ChunkAccess)
-+ void lambda$static$3(ChunkAccess)
-+ void lambda$static$4(ChunkAccess)
-+ void lambda$static$7(ChunkAccess)
-+ void lambda$static$8(ChunkAccess)
-+ void lambda$static$9(ChunkAccess)
-- void lambda$static$1(ChunkAccess)
-- void lambda$static$13(ChunkAccess)
-- void lambda$static$14(ChunkAccess)
-- void lambda$static$3(ChunkAccess)
-- void lambda$static$4(ChunkAccess)
-- void lambda$static$7(ChunkAccess)
-- void lambda$static$8(ChunkAccess)
-- void lambda$static$9(ChunkAccess)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask</summary>
-
-```diff
-+ void doWork(net.minecraft.world.level.chunk.ChunkStatus,net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,java.util.List,net.minecraft.world.level.chunk.ChunkAccess)
-- void doWork(net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,java.util.List,net.minecraft.world.level.chunk.ChunkAccess)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
-
-```diff
-- void setHeightmap(Heightmap$Types,long[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
-
-```diff
-+ ResourceLocation cannotReplace
-+ App lambda$static$7(RecordCodecBuilder$Instance)
-+ ResourceLocation lambda$static$6(GeodeBlockSettings)
-+ void <init>(ResourceLocation)
-- App lambda$static$6(RecordCodecBuilder$Instance)
-- void <init>(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
-
-```diff
-+ String lambda$toString$2()
-+ String toString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ boolean lambda$isReplaceable$2(BlockState)
-+ boolean lambda$isReplaceable$3(BlockState)
-+ Predicate isReplaceable(ResourceLocation)
-+ void safeSetBlock(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.MinMaxBounds$Doubles
@@ -4936,1361 +2468,539 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen$BackupInfoListEntry</summary>
 
 ```diff
-+ MinMaxBounds$Doubles dealtDamage
-+ MinMaxBounds$Doubles takenDamage
-- MinMaxBounds$Floats dealtDamage
-- MinMaxBounds$Floats takenDamage
-+ void <init>(DamageSourcePredicate)
-- void <init>(DamageSourcePredicate)
++ Component getNarration()
 ```
 
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
+
+```diff
++ Component getNarration()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsCreateRealmScreen</summary>
+
+```diff
++ void lambda$createWorld$4()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsParentalConsentScreen</summary>
+
+```diff
++ Component getNarrationMessage()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$Entry</summary>
+
+```diff
++ Component getNarration()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
+
+```diff
++ Component getNarrationMessage()
++ void <init>(Screen,RealmsServer,Component,Runnable,Runnable)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$Entry</summary>
+
+```diff
++ Component getNarration()
++ void renderItem(PoseStack,int,int,int)
+- void renderItem(PoseStack,LevelSummary,int,int,int)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
+
+```diff
++ Component getNarrationMessage()
++ void <init>(Component,Consumer,RealmsServer$WorldType,WorldTemplatePaginatedList)
++ void <init>(Component,Consumer,RealmsServer$WorldType)
+- void <init>(Consumer,RealmsServer$WorldType,WorldTemplatePaginatedList)
+- void <init>(Consumer,RealmsServer$WorldType)
+- void setTitle(Component)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$Entry</summary>
+
+```diff
++ Component getNarration()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
+
+```diff
++ Component createProgressNarrationMessage()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
 
+```diff
++ void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,EntityPredicate,Boolean,DamageSourcePredicate)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,EntityPredicate,Boolean,DamageSourcePredicate)
+```
 
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
 
 ```diff
-+ MinMaxBounds$Doubles x
-+ MinMaxBounds$Doubles y
-+ MinMaxBounds$Doubles z
-- MinMaxBounds$Floats x
-- MinMaxBounds$Floats y
-- MinMaxBounds$Floats z
 + LocationPredicate$Builder setX(MinMaxBounds$Doubles)
-+ LocationPredicate$Builder setY(MinMaxBounds$Doubles)
-+ LocationPredicate$Builder setZ(MinMaxBounds$Doubles)
 - LocationPredicate$Builder setX(MinMaxBounds$Floats)
++ LocationPredicate$Builder setY(MinMaxBounds$Doubles)
 - LocationPredicate$Builder setY(MinMaxBounds$Floats)
++ LocationPredicate$Builder setZ(MinMaxBounds$Doubles)
 - LocationPredicate$Builder setZ(MinMaxBounds$Floats)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger$TriggerInstance</summary>
 
 ```diff
-+ MinMaxBounds$Doubles level
-- MinMaxBounds$Floats level
-+ void <init>(MinMaxBounds$Doubles)
-- void <init>(MinMaxBounds$Floats)
++ void <init>(EntityPredicate$Composite,MinMaxBounds$Doubles)
+- void <init>(EntityPredicate$Composite,MinMaxBounds$Floats)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.client.KeyboardHandler</summary>
 
 ```diff
-+ LootTable$Builder createGlowLichenDrops(Block)
+- void lambda$keyPress$6(int,boolean[],ContainerEventHandler,int,int,int)
++ void lambda$keyPress$6(int,Screen,boolean[],int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+<details><summary>net.minecraft.client.MouseHandler</summary>
 
 ```diff
-+ Component NARRATION_SEPARATOR
-+ Component NEW_LINE
-+ Component joinLines(Collection)
-+ Component joinLines(Component[])
-+ MutableComponent joinForNarration(Component)
+- void lambda$onMove$10(GuiEventListener,double,double)
++ void lambda$onMove$10(Screen,double,double)
+- void lambda$onMove$11(GuiEventListener,double,double,double,double)
++ void lambda$onMove$11(Screen,double,double,double,double)
+- void lambda$onPress$0(boolean[],double,double,int)
++ void lambda$onPress$0(boolean[],Screen,double,double,int)
+- void lambda$onPress$1(boolean[],double,double,int)
++ void lambda$onPress$1(boolean[],Screen,double,double,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryReadOps$ResourceAccess</summary>
+<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
 
 ```diff
-+ Optional parseElement(com.mojang.serialization.DynamicOps,net.minecraft.resources.ResourceKey,net.minecraft.resources.ResourceKey,com.mojang.serialization.Decoder)
-- DataResult parseElement(com.mojang.serialization.DynamicOps,net.minecraft.resources.ResourceKey,net.minecraft.resources.ResourceKey,com.mojang.serialization.Decoder)
++ NarratableEntry$NarrationPriority narrationPriority()
++ void defaultButtonNarrationText(NarrationElementOutput)
+- void narrate()
+- void queueNarration(int)
 ```
 
 </details>
+
+
+<details><summary>net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry</summary>
+
+```diff
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.EditBox</summary>
+
+```diff
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.ObjectSelectionList$Entry</summary>
+
+```diff
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.OptionsList$Entry</summary>
+
+```diff
++ List narratables()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
+
+```diff
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.SubtitleOverlay$Subtitle</summary>
+
+```diff
++ void <init>(Component,Vec3)
+- void <init>(SubtitleOverlay,Component,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry</summary>
+
+```diff
++ List narratables()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeSlot</summary>
+
+```diff
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconCancelButton</summary>
+
+```diff
+- void renderToolTip(PoseStack,int,int)
++ void updateStatus(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconPowerButton</summary>
+
+```diff
+- Component createTooltip(MobEffect,boolean)
++ MutableComponent createEffectDescription(MobEffect)
++ MutableComponent createNarrationMessage()
++ void <init>(BeaconScreen,int,int,MobEffect,boolean,int)
+- void <init>(BeaconScreen,int,int,MobEffect,boolean)
++ void setEffect(MobEffect)
++ void updateStatus(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconSpriteScreenButton</summary>
+
+```diff
++ void <init>(BeaconScreen,int,int,int,int,Component)
+- void <init>(int,int,int,int)
++ void renderToolTip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
+
+```diff
++ Component getNarration()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
+
+```diff
++ NarratableEntry$NarrationPriority narrationPriority()
++ void updateNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.social.PlayerEntry</summary>
+
+```diff
++ List narratables()
++ void lambda$new$1(PlayerSocialManager,UUID,String,Button)
+- void lambda$new$1(SocialInteractionsScreen,PoseStack,int,int)
+- void lambda$new$2(Minecraft,SocialInteractionsScreen,Button,PoseStack,int,int)
+- void lambda$new$3(PlayerSocialManager,UUID,String,Button)
+- void lambda$new$4(SocialInteractionsScreen,PoseStack,int,int)
+- void lambda$new$5(Minecraft,SocialInteractionsScreen,Button,PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
+
+```diff
+- AbstractWidget addButton(AbstractWidget)
+- boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
++ boolean lambda$copyTempDataPackDirToNewWorld$21(Path)
+- boolean lambda$createTempDataPackDirFromExistingWorld$22(Path,Path)
++ boolean lambda$createTempDataPackDirFromExistingWorld$23(Path,Path)
++ GuiEventListener addRenderableWidget(GuiEventListener)
+- Object lambda$tryApplyNewDataPacks$18(DataPackConfig,ServerResources,Throwable)
++ Object lambda$tryApplyNewDataPacks$19(Void,Throwable)
+- void lambda$copyTempDataPackDirToNewWorld$21(Path,Path)
++ void lambda$copyTempDataPackDirToNewWorld$22(Path,Path)
+- void lambda$createTempDataPackDirFromExistingWorld$23(MutableObject,Path,Path)
++ void lambda$createTempDataPackDirFromExistingWorld$24(MutableObject,Path,Path)
+- void lambda$removeTempDataPackDir$19(Path)
++ void lambda$removeTempDataPackDir$20(Path)
+- void lambda$tryApplyNewDataPacks$15(boolean)
++ void lambda$tryApplyNewDataPacks$15(DataPackConfig,ServerResources)
+- void lambda$tryApplyNewDataPacks$16()
++ void lambda$tryApplyNewDataPacks$16(boolean)
++ void lambda$tryApplyNewDataPacks$17()
+- void lambda$tryApplyNewDataPacks$17(DataPackConfig,ServerResources)
++ void lambda$tryApplyNewDataPacks$18()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$CategoryRuleEntry</summary>
+
+```diff
++ List narratables()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.item.ItemProperties</summary>
+
+```diff
++ ClampedItemPropertyFunction registerGeneric(ResourceLocation,ClampedItemPropertyFunction)
+- ItemPropertyFunction registerGeneric(ResourceLocation,ItemPropertyFunction)
++ void register(Item,ResourceLocation,ClampedItemPropertyFunction)
+- void register(Item,ResourceLocation,ItemPropertyFunction)
++ void registerCustomModelData(ItemPropertyFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.item.ItemProperties$2</summary>
+
+```diff
+- float call(ItemStack,ClientLevel,LivingEntity,int)
++ float unclampedCall(ItemStack,ClientLevel,LivingEntity,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.RangeArgument$Floats</summary>
+
+```diff
++ MinMaxBounds$Doubles getRange(CommandContext,String)
++ MinMaxBounds$Doubles parse(StringReader)
+- MinMaxBounds$Floats getRange(CommandContext,String)
+- MinMaxBounds$Floats parse(StringReader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+
+```diff
++ void <init>(int,boolean,boolean,Predicate,MinMaxBounds$Doubles,Function,AABB,BiConsumer,boolean,String,UUID,EntityType,boolean)
+- void <init>(int,boolean,boolean,Predicate,MinMaxBounds$Floats,Function,AABB,BiConsumer,boolean,String,UUID,EntityType,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
+
+```diff
++ MinMaxBounds$Doubles getDistance()
+- MinMaxBounds$Floats getDistance()
++ void setDistance(MinMaxBounds$Doubles)
+- void setDistance(MinMaxBounds$Floats)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
+
+```diff
++ Component formatList(Collection,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
+
+```diff
++ Component getNarrationMessage()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.RepeatedNarrator</summary>
+
+```diff
++ RepeatedNarrator$Params lambda$narrate$0(Component,RepeatedNarrator$Params)
+- RepeatedNarrator$Params lambda$narrate$0(String,RepeatedNarrator$Params)
++ void narrate(Component)
+- void narrate(String)
+```
+
+</details>
+
 
 <details><summary>net.minecraft.resources.RegistryReadOps$ResourceAccess$MemoryMap</summary>
 
 ```diff
-+ Optional parseElement(Decoder)
-- DataResult parseElement(Decoder)
+- DataResult parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
++ Optional parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.ServerPlayer</summary>
 
 ```diff
-+ boolean mayInteract(BlockPos)
++ boolean mayInteract(Level,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named FEATURES_CANNOT_REPLACE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
 + Boolean lambda$checkBedExists$7(BlockPos)
-+ boolean lambda$createEquipmentSlotAccess$10(ItemStack)
-+ boolean lambda$isHolding$4(ItemStack)
-+ Vec3 lambda$stopSleeping$8(BlockPos)
-+ void hurtHelmet(DamageSource,float)
-+ void lambda$handleEquipmentChanges$5(ItemStack)
-+ void lambda$stopSleeping$9(BlockPos)
-+ void lambda$updateFallFlying$6(LivingEntity)
 - Boolean lambda$checkBedExists$8(BlockPos)
-- boolean lambda$createEquipmentSlotAccess$11(ItemStack)
-- boolean lambda$isHolding$5(ItemStack)
++ boolean lambda$createEquipmentSlotAccess$10(EquipmentSlot,ItemStack)
+- boolean lambda$createEquipmentSlotAccess$11(EquipmentSlot,ItemStack)
++ boolean lambda$isHolding$4(Item,ItemStack)
+- boolean lambda$isHolding$5(Item,ItemStack)
++ Vec3 lambda$stopSleeping$8(BlockPos)
 - Vec3 lambda$stopSleeping$9(BlockPos)
-- void lambda$handleEquipmentChanges$6(ItemStack)
++ void hurtHelmet(DamageSource,float)
++ void lambda$handleEquipmentChanges$5(List,EquipmentSlot,ItemStack)
+- void lambda$handleEquipmentChanges$6(List,EquipmentSlot,ItemStack)
 - void lambda$hurt$4(LivingEntity)
 - void lambda$stopSleeping$10(BlockPos)
++ void lambda$stopSleeping$9(BlockPos)
++ void lambda$updateFallFlying$6(LivingEntity)
 - void lambda$updateFallFlying$7(LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.TryFindWater</summary>
 
 ```diff
-+ long nextOkStartTime
-+ void stop(LivingEntity,long)
-+ void stop(PathfinderMob,long)
++ void stop(ServerLevel,LivingEntity,long)
++ void stop(ServerLevel,PathfinderMob,long)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.goal.LookAtPlayerGoal</summary>
 
 ```diff
-+ boolean onlyHorizontal
-+ float DEFAULT_PROBABILITY
-+ void <init>(Class,float,float,boolean)
++ void <init>(Mob,Class,float,float,boolean)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_VISIBLE_ATTACKABLE_PLAYER
-- MemoryModuleType NEAREST_VISIBLE_TARGETABLE_PLAYER
-```
-
-</details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.sensing.AxolotlAttackablesSensor</summary>
 
 ```diff
+- boolean isHostileTarget(LivingEntity,LivingEntity)
 + boolean isHostileTarget(LivingEntity)
-- boolean isHostileTarget(LivingEntity)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.sensing.Sensor</summary>
 
 ```diff
-+ TargetingConditions ATTACK_TARGET_CONDITIONS
-+ TargetingConditions ATTACK_TARGET_CONDITIONS_IGNORE_INVISIBILITY_TESTING
-+ boolean isEntityAttackable(LivingEntity)
++ boolean isEntityAttackable(LivingEntity,LivingEntity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Shulker</summary>
 
 ```diff
-+ Vector3f FORWARD
+- boolean lambda$onPeekAmountChange$0(Entity)
 + boolean lambda$onPeekAmountChange$1(Entity)
 + Vector3f lambda$static$0()
-- boolean lambda$onPeekAmountChange$0(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
 
 ```diff
-- void setHeightmap(net.minecraft.world.level.levelgen.Heightmap$Types,long[])
 + void setHeightmap(Heightmap$Types,long[])
 ```
 
@@ -6300,37 +3010,25 @@
 <details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
 
 ```diff
-+ void lambda$static$1(ChunkAccess)
-+ void lambda$static$13(ChunkAccess)
-+ void lambda$static$14(ChunkAccess)
-+ void lambda$static$3(ChunkAccess)
-+ void lambda$static$4(ChunkAccess)
-+ void lambda$static$7(ChunkAccess)
-+ void lambda$static$8(ChunkAccess)
-+ void lambda$static$9(ChunkAccess)
-- void lambda$static$1(ChunkAccess)
-- void lambda$static$13(ChunkAccess)
-- void lambda$static$14(ChunkAccess)
-- void lambda$static$3(ChunkAccess)
-- void lambda$static$4(ChunkAccess)
-- void lambda$static$7(ChunkAccess)
-- void lambda$static$8(ChunkAccess)
-- void lambda$static$9(ChunkAccess)
++ void lambda$static$1(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$1(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$13(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$13(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$14(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$14(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$3(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$3(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$4(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$4(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$7(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$7(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$8(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$8(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$9(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$9(ServerLevel,ChunkGenerator,List,ChunkAccess)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask</summary>
-
-```diff
-+ void doWork(net.minecraft.world.level.chunk.ChunkStatus,net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,java.util.List,net.minecraft.world.level.chunk.ChunkAccess)
-- void doWork(net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,java.util.List,net.minecraft.world.level.chunk.ChunkAccess)
-```
-
-</details>
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
@@ -6342,101 +3040,17 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
 
 ```diff
-+ ResourceLocation cannotReplace
+- App lambda$static$6(RecordCodecBuilder$Instance)
 + App lambda$static$7(RecordCodecBuilder$Instance)
 + ResourceLocation lambda$static$6(GeodeBlockSettings)
-+ void <init>(ResourceLocation)
-- App lambda$static$6(RecordCodecBuilder$Instance)
-- void <init>(List)
++ void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation)
+- void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
@@ -6449,221 +3063,24 @@
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
 
 ```diff
 + boolean lambda$isReplaceable$2(BlockState)
-+ boolean lambda$isReplaceable$3(BlockState)
++ boolean lambda$isReplaceable$3(Tag,BlockState)
 + Predicate isReplaceable(ResourceLocation)
-+ void safeSetBlock(Predicate)
++ void safeSetBlock(WorldGenLevel,BlockPos,BlockState,Predicate)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.MinMaxBounds$Doubles
@@ -8142,13 +4559,329 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
+
+```diff
++ void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,EntityPredicate,Boolean,DamageSourcePredicate)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,EntityPredicate,Boolean,DamageSourcePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
++ LocationPredicate$Builder setX(MinMaxBounds$Doubles)
+- LocationPredicate$Builder setX(MinMaxBounds$Floats)
++ LocationPredicate$Builder setY(MinMaxBounds$Doubles)
+- LocationPredicate$Builder setY(MinMaxBounds$Floats)
++ LocationPredicate$Builder setZ(MinMaxBounds$Doubles)
+- LocationPredicate$Builder setZ(MinMaxBounds$Floats)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(EntityPredicate$Composite,MinMaxBounds$Doubles)
+- void <init>(EntityPredicate$Composite,MinMaxBounds$Floats)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder createGlowLichenDrops(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+
+```diff
++ Component joinLines(Collection)
++ Component joinLines(Component[])
++ MutableComponent joinForNarration(Component,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryReadOps$ResourceAccess$MemoryMap</summary>
+
+```diff
+- DataResult parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
++ Optional parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
++ boolean mayInteract(Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ Boolean lambda$checkBedExists$7(BlockPos)
+- Boolean lambda$checkBedExists$8(BlockPos)
++ boolean lambda$createEquipmentSlotAccess$10(EquipmentSlot,ItemStack)
+- boolean lambda$createEquipmentSlotAccess$11(EquipmentSlot,ItemStack)
++ boolean lambda$isHolding$4(Item,ItemStack)
+- boolean lambda$isHolding$5(Item,ItemStack)
++ Vec3 lambda$stopSleeping$8(BlockPos)
+- Vec3 lambda$stopSleeping$9(BlockPos)
++ void hurtHelmet(DamageSource,float)
++ void lambda$handleEquipmentChanges$5(List,EquipmentSlot,ItemStack)
+- void lambda$handleEquipmentChanges$6(List,EquipmentSlot,ItemStack)
+- void lambda$hurt$4(LivingEntity)
+- void lambda$stopSleeping$10(BlockPos)
++ void lambda$stopSleeping$9(BlockPos)
++ void lambda$updateFallFlying$6(LivingEntity)
+- void lambda$updateFallFlying$7(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.TryFindWater</summary>
+
+```diff
++ void stop(ServerLevel,LivingEntity,long)
++ void stop(ServerLevel,PathfinderMob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.LookAtPlayerGoal</summary>
+
+```diff
++ void <init>(Mob,Class,float,float,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.AxolotlAttackablesSensor</summary>
+
+```diff
+- boolean isHostileTarget(LivingEntity,LivingEntity)
++ boolean isHostileTarget(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.Sensor</summary>
+
+```diff
++ boolean isEntityAttackable(LivingEntity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
+
+```diff
+- boolean lambda$onPeekAmountChange$0(Entity)
++ boolean lambda$onPeekAmountChange$1(Entity)
++ Vector3f lambda$static$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
++ void setHeightmap(Heightmap$Types,long[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
+
+```diff
++ void lambda$static$1(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$1(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$13(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$13(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$14(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$14(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$3(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$3(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$4(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$4(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$7(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$7(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$8(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$8(ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$9(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$9(ServerLevel,ChunkGenerator,List,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+
+```diff
+- void setHeightmap(Heightmap$Types,long[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
+
+```diff
+- App lambda$static$6(RecordCodecBuilder$Instance)
++ App lambda$static$7(RecordCodecBuilder$Instance)
++ ResourceLocation lambda$static$6(GeodeBlockSettings)
++ void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation)
+- void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
+
+```diff
++ String lambda$toString$2()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+
+```diff
++ boolean lambda$isReplaceable$2(BlockState)
++ boolean lambda$isReplaceable$3(Tag,BlockState)
++ Predicate isReplaceable(ResourceLocation)
++ void safeSetBlock(WorldGenLevel,BlockPos,BlockState,Predicate)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/features_cannot_replace.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sweet_berry_bush.pick_berries
+- minecraft:item.sweet_berries.pick_from_bush
+```
+
+</details>
+
+
+<details><summary>worldgen/structure_processor.txt</summary>
+
+```diff
++ minecraft:protected_blocks
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/features_cannot_replace.json
+```
+
+</details>
+
+
+<details><summary>blocks/bee_growables.json</summary>
+
+```diff
++ minecraft:cave_vines_plant
+```
+
+</details>
+
+
+<details><summary>items/axolotl_tempt_items.json</summary>
+
+```diff
+- minecraft:tropical_fish
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ narration.button
++ narration.button.usage.focused
++ narration.button.usage.hovered
++ narration.checkbox
++ narration.checkbox.usage.focused
++ narration.checkbox.usage.hovered
++ narration.component_list.usage
++ narration.cycle_button.usage.focused
++ narration.cycle_button.usage.hovered
++ narration.edit_box
++ narration.recipe
++ narration.recipe.usage
++ narration.recipe.usage.more
++ narration.selection.usage
++ narration.slider.usage.focused
++ narration.slider.usage.hovered
++ narrator.position.list
++ narrator.position.object_list
++ narrator.position.screen
++ narrator.screen.usage
++ subtitles.block.sweet_berry_bush.pick_berries
+- subtitles.item.berries.pick
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/features_cannot_replace.json
+```
+
+</details>

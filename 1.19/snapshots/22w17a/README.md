@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w17a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w17a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-04-27T15:54:15+00:00</td></tr>
@@ -10,2167 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/40b2889924cf4b85394d97b2005c05ed79686827/server.txt">https://piston-data.mojang.com/v1/objects/40b2889924cf4b85394d97b2005c05ed79686827/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ec14ab7dbf0869bde3147b0700cb82b1a0b9b6d0/client.jar">https://piston-data.mojang.com/v1/objects/ec14ab7dbf0869bde3147b0700cb82b1a0b9b6d0/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1c96e8f819952dc4b2667c293cb44fd3e4ce0efd/client.txt">https://piston-data.mojang.com/v1/objects/1c96e8f819952dc4b2667c293cb44fd3e4ce0efd/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w16b">22w16b</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/overworld_natural_logs.json
-+  minecraft/tags/blocks/snaps_goat_horn.json
-+  minecraft/tags/game_events/allay_can_listen.json
--  minecraft/tags/game_events/dampenable_vibrations.json
-+  minecraft/tags/items/overworld_natural_logs.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/goat_horn.json
-+  minecraft/models/item/tooting_goat_horn.json
-+  minecraft/textures/item/goat_horn.png
-+  realms/textures/gui/realms/checkmark.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:goat_horn
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-+ minecraft:set_goat_horn_sound
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.goat.horn_break
-+ minecraft:item.goat_horn.play
-+ minecraft:entity.goat.screaming.horn_break
-+ minecraft:item.goat_horn.sound.0
-+ minecraft:item.goat_horn.sound.1
-+ minecraft:item.goat_horn.sound.2
-+ minecraft:item.goat_horn.sound.3
-+ minecraft:item.goat_horn.sound.4
-+ minecraft:item.goat_horn.sound.5
-+ minecraft:item.goat_horn.sound.6
-+ minecraft:item.goat_horn.sound.7
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- game_events/dampenable_vibrations.json
-+ blocks/overworld_natural_logs.json
-+ blocks/snaps_goat_horn.json
-+ game_events/allay_can_listen.json
-+ items/overworld_natural_logs.json
-```
-
-</details>
-
-<details><summary>blocks/sculk_replaceable_world_gen.json</summary>
-
-```diff
-+ minecraft:polished_deepslate
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-- game_events/dampenable_vibrations.json
-+ blocks/overworld_natural_logs.json
-+ blocks/snaps_goat_horn.json
-+ game_events/allay_can_listen.json
-+ items/overworld_natural_logs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ item/goat_horn.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.3.39
-+ com.mojang:authlib:3.4.40
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
-
-```diff
-+ int renderedBufferCount
-+ int renderedBufferPointer
-- int lastPoppedStateIndex
-- int totalRenderedBytes
-- int totalUploadedBytes
-- List drawStates
-+ boolean isCurrentBatchEmpty()
-+ BufferBuilder$RenderedBuffer end()
-+ BufferBuilder$RenderedBuffer endOrDiscardIfEmpty()
-+ BufferBuilder$RenderedBuffer storeRenderedBuffer()
-+ ByteBuffer bufferSlice(int,int)
-+ IntConsumer intConsumer(VertexFormat$IndexType)
-+ void ensureDrawing()
-+ void lambda$intConsumer$0(MutableInt,int)
-+ void lambda$intConsumer$1(MutableInt,int)
-+ void lambda$intConsumer$2(MutableInt,int)
-+ void releaseRenderedBuffer()
-+ void reset()
-- IntConsumer intConsumer(VertexFormat$IndexType)
-- Pair popNextBuffer()
-- void end()
-- void lambda$intConsumer$0(int)
-- void lambda$intConsumer$1(int)
-- void lambda$intConsumer$2(int)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$DrawState</summary>
-
-```diff
-+ boolean equals(Object)
-+ int hashCode()
-+ String toString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.RemotePlayer</summary>
-
-```diff
-+ void sendSystemMessage(Component)
-- void sendMessage(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.ModelBlockRenderer$AmbientOcclusionFace</summary>
-
-```diff
-- ModelBlockRenderer this$0
-+ void <init>()
-- void <init>(ModelBlockRenderer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
-
-```diff
-+ CompletableFuture uploadChunkLayer(VertexBuffer)
-+ void lambda$runTask$2(ChunkBufferBuilderPack)
-+ void lambda$runTask$3(Throwable)
-+ void lambda$schedule$4(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
-+ void lambda$uploadChunkLayer$5(BufferBuilder$RenderedBuffer)
-- CompletableFuture doUploadChunkLayer(VertexBuffer)
-- CompletableFuture uploadChunkLayer(VertexBuffer)
-- CompletionStage lambda$uploadChunkLayer$7(Void)
-- CrashReport lambda$runTask$2(CrashReport)
-- void lambda$runTask$3(ChunkBufferBuilderPack)
-- void lambda$runTask$4(Throwable)
-- void lambda$schedule$5(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
-- void lambda$uploadChunkLayer$6()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
-
-```diff
-+ void updateGlobalBlockEntities(Collection)
-- void updateGlobalBlockEntities(Set)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask</summary>
-
-```diff
-+ ChunkRenderDispatcher$ChunkTaskResult lambda$doTask$1(Throwable)
-+ ChunkRenderDispatcher$RenderChunk$RebuildTask$CompileResults compile(ChunkBufferBuilderPack)
-+ void handleBlockEntity(BlockEntity)
-+ void lambda$doTask$0(BufferBuilder$RenderedBuffer)
-- ChunkRenderDispatcher$ChunkTaskResult lambda$doTask$2(Throwable)
-- CrashReport lambda$doTask$1(CrashReport)
-- Set compile(ChunkBufferBuilderPack)
-- void handleBlockEntity(BlockEntity)
-- void lambda$doTask$0(RenderType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
-
-```diff
-+ Either nonceOrSaltSignature
-- byte[] nonce
-+ boolean isChallengeSignatureValid(ProfilePublicKey$Trusted)
-+ boolean isNonceValid(PrivateKey)
-+ Boolean lambda$isChallengeSignatureValid$1(byte[])
-+ Boolean lambda$isChallengeSignatureValid$2(Crypt$SaltSignaturePair)
-+ void <init>(PublicKey,long,byte[])
-+ void lambda$write$0(Crypt$SaltSignaturePair)
-- byte[] getNonce(PrivateKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SayCommand</summary>
-
-```diff
-+ Component lambda$register$1(ServerPlayer)
-+ int lambda$register$2(CommandContext)
-- int lambda$register$1(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ void handleMessageDeliveryFailure(ChatType)
-+ void lambda$drop$11(Inventory,int)
-+ void lambda$sendSystemMessage$9(Future)
-+ void lambda$sendUnsignedMessageFrom$10(Future)
-+ void sendPlayerMessage(Crypt$SaltSignaturePair)
-+ void sendSystemMessage(ChatType)
-+ void sendSystemMessage(Component)
-+ void sendUnsignedMessageFrom(UUID)
-+ void sendUnsignedMessageFrom(UUID)
-- void lambda$drop$10(Inventory,int)
-- void lambda$sendMessage$9(Future)
-- void sendMessage(UUID)
-- void sendMessage(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-+ DamageSource SONIC_BOOM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ void sendSystemMessage(Component)
-- void sendMessage(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
-
-```diff
-+ boolean shouldDepositItemsAtLikedNoteblock(GlobalPos)
-- boolean shouldDepositItemsAtLikedNoteblock(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
-
-```diff
-+ double UNIHORN_CHANCE
-+ EntityDataAccessor DATA_HAS_LEFT_HORN
-+ EntityDataAccessor DATA_HAS_RIGHT_HORN
-+ boolean dropHorn()
-+ boolean hasLeftHorn()
-+ boolean hasRightHorn()
-+ void addHorns()
-+ void removeHorns()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
-
-```diff
-+ SimpleContainer getInventory()
-- Container getInventory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-+ SimpleContainer getInventory()
-- Container getInventory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.InventoryCarrier</summary>
-
-```diff
-+ SimpleContainer getInventory()
-- Container getInventory()
-+ void pickUpItem(ItemEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
-
-```diff
-+ void spawnAfterBreak(ItemStack,boolean)
-- void spawnAfterBreak(ItemStack)
-- void wasExploded(Explosion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
-
-```diff
-+ void spawnAfterBreak(ItemStack,boolean)
-- void spawnAfterBreak(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkSensorBlock</summary>
-
-```diff
-+ void spawnAfterBreak(ItemStack,boolean)
-- void spawnAfterBreak(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
-
-```diff
-+ boolean lambda$generate$1(Holder)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
-
-```diff
-+ void shriek(Entity)
-- void shriek(ServerLevel)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacer</summary>
-
-```diff
-+ boolean canPlaceRoot(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.vertex.BufferBuilder$SortState
@@ -5250,1031 +3111,285 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
 
 ```diff
-+ CompletableFuture blockUntilDone(Function)
-+ Object blockUntilDone(Predicate)
++ boolean isCurrentBatchEmpty()
++ BufferBuilder$RenderedBuffer end()
++ BufferBuilder$RenderedBuffer endOrDiscardIfEmpty()
++ BufferBuilder$RenderedBuffer storeRenderedBuffer()
++ ByteBuffer bufferSlice(int,int)
++ IntConsumer intConsumer(int,VertexFormat$IndexType)
+- IntConsumer intConsumer(VertexFormat$IndexType)
+- Pair popNextBuffer()
+- void end()
++ void ensureDrawing()
+- void lambda$intConsumer$0(int)
++ void lambda$intConsumer$0(MutableInt,int)
+- void lambda$intConsumer$1(int)
++ void lambda$intConsumer$1(MutableInt,int)
+- void lambda$intConsumer$2(int)
++ void lambda$intConsumer$2(MutableInt,int)
++ void releaseRenderedBuffer()
++ void reset()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSource$1</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$DrawState</summary>
 
 ```diff
++ boolean equals(Object)
++ int hashCode()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.player.RemotePlayer</summary>
+
+```diff
+- void sendMessage(Component,UUID)
 + void sendSystemMessage(Component)
-- void sendMessage(UUID)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+<details><summary>net.minecraft.client.renderer.block.ModelBlockRenderer$AmbientOcclusionFace</summary>
 
 ```diff
-+ Either readEither(Function)
-+ GameProfile readGameProfile()
-+ Property readProperty()
-+ void lambda$readGameProfile$6(FriendlyByteBuf)
-+ void lambda$writeEither$4(Object)
-+ void lambda$writeEither$5(Object)
-+ void writeEither(BiConsumer)
-+ void writeGameProfile(GameProfile)
-+ void writeProperty(Property)
++ void <init>()
+- void <init>(ModelBlockRenderer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
 
 ```diff
-+ Component lambda$broadcastSystemMessage$2(ServerPlayer)
-+ void broadcastPlayerMessage(Crypt$SaltSignaturePair)
-+ void broadcastSystemMessage(ChatType)
-+ void broadcastSystemMessage(ChatType)
-+ void broadcastUnsignedMessage(UUID)
-- void broadcastMessage(UUID)
-- void broadcastMessage(UUID)
+- CompletableFuture doUploadChunkLayer(BufferBuilder,VertexBuffer)
+- CompletableFuture uploadChunkLayer(BufferBuilder,VertexBuffer)
++ CompletableFuture uploadChunkLayer(BufferBuilder$RenderedBuffer,VertexBuffer)
+- CompletionStage lambda$uploadChunkLayer$7(BufferBuilder,VertexBuffer,Void)
+- CrashReport lambda$runTask$2(CrashReport)
++ void lambda$runTask$2(ChunkRenderDispatcher$ChunkTaskResult,ChunkBufferBuilderPack)
++ void lambda$runTask$3(ChunkBufferBuilderPack,ChunkRenderDispatcher$ChunkTaskResult,Throwable)
+- void lambda$runTask$3(ChunkRenderDispatcher$ChunkTaskResult,ChunkBufferBuilderPack)
+- void lambda$runTask$4(ChunkBufferBuilderPack,ChunkRenderDispatcher$ChunkTaskResult,Throwable)
++ void lambda$schedule$4(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
+- void lambda$schedule$5(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
++ void lambda$uploadChunkLayer$5(VertexBuffer,BufferBuilder$RenderedBuffer)
+- void lambda$uploadChunkLayer$6()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
 
 ```diff
++ void updateGlobalBlockEntities(Collection)
+- void updateGlobalBlockEntities(Set)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask</summary>
+
+```diff
++ ChunkRenderDispatcher$ChunkTaskResult lambda$doTask$1(ChunkRenderDispatcher$CompiledChunk,List,Throwable)
+- ChunkRenderDispatcher$ChunkTaskResult lambda$doTask$2(ChunkRenderDispatcher$CompiledChunk,List,Throwable)
++ ChunkRenderDispatcher$RenderChunk$RebuildTask$CompileResults compile(float,float,float,ChunkBufferBuilderPack)
+- CrashReport lambda$doTask$1(CrashReport)
+- Set compile(float,float,float,ChunkRenderDispatcher$CompiledChunk,ChunkBufferBuilderPack)
+- void handleBlockEntity(ChunkRenderDispatcher$CompiledChunk,Set,BlockEntity)
++ void handleBlockEntity(ChunkRenderDispatcher$RenderChunk$RebuildTask$CompileResults,BlockEntity)
+- void lambda$doTask$0(List,ChunkBufferBuilderPack,RenderType)
++ void lambda$doTask$0(List,ChunkRenderDispatcher$CompiledChunk,RenderType,BufferBuilder$RenderedBuffer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+
+```diff
++ boolean isChallengeSignatureValid(byte[],ProfilePublicKey$Trusted)
++ boolean isNonceValid(byte[],PrivateKey)
++ Boolean lambda$isChallengeSignatureValid$1(byte[])
++ Boolean lambda$isChallengeSignatureValid$2(ProfilePublicKey$Trusted,byte[],Crypt$SaltSignaturePair)
+- byte[] getNonce(PrivateKey)
++ void <init>(SecretKey,PublicKey,long,byte[])
++ void lambda$write$0(FriendlyByteBuf,Crypt$SaltSignaturePair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SayCommand</summary>
+
+```diff
++ Component lambda$register$1(Component,ServerPlayer)
+- int lambda$register$1(CommandContext)
++ int lambda$register$2(CommandContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
++ void handleMessageDeliveryFailure(Component,ChatType)
+- void lambda$drop$10(Inventory,int)
++ void lambda$drop$11(Inventory,int)
+- void lambda$sendMessage$9(ChatType,Component,UUID,Future)
++ void lambda$sendSystemMessage$9(Component,ChatType,Future)
++ void lambda$sendUnsignedMessageFrom$10(Component,ChatType,Future)
+- void sendMessage(Component,ChatType,UUID)
+- void sendMessage(Component,UUID)
++ void sendPlayerMessage(Component,ChatType,ChatSender,Instant,Crypt$SaltSignaturePair)
++ void sendSystemMessage(Component,ChatType)
 + void sendSystemMessage(Component)
-- void sendMessage(UUID)
++ void sendUnsignedMessageFrom(Component,ChatType,UUID)
++ void sendUnsignedMessageFrom(Component,UUID)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ TagKey OVERWORLD_NATURAL_LOGS
-+ TagKey SNAPS_GOAT_HORN
+- void sendMessage(Component,UUID)
++ void sendSystemMessage(Component)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
+<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
 
 ```diff
-+ TagKey OVERWORLD_NATURAL_LOGS
+- boolean shouldDepositItemsAtLikedNoteblock(LivingEntity,Brain,BlockPos)
++ boolean shouldDepositItemsAtLikedNoteblock(LivingEntity,Brain,GlobalPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.LecternMenu</summary>
+<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
 
 ```diff
-+ ItemStack quickMoveStack(Player,int)
++ boolean dropHorn()
++ boolean hasLeftHorn()
++ boolean hasRightHorn()
++ void addHorns()
++ void removeHorns()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer</summary>
+<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
 
 ```diff
-- JigsawPlacement$PieceFactory factory
-+ void <init>(RandomSource)
-- void <init>(RandomSource)
+- Container getInventory()
++ SimpleContainer getInventory()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.NodeEvaluator</summary>
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
 
 ```diff
-+ Target getTargetFromNode(Node)
+- Container getInventory()
++ SimpleContainer getInventory()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
+<details><summary>net.minecraft.world.entity.npc.InventoryCarrier</summary>
 
 ```diff
-+ Node getBlockedNode(int,int,int)
-+ Node getNodeAndUpdateCostToMax(BlockPathTypes,float)
++ void pickUpItem(Mob,InventoryCarrier,ItemEntity)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
 
+```diff
++ void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack,boolean)
+- void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack)
+- void wasExploded(Level,BlockPos,Explosion)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
 
+```diff
++ void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack,boolean)
+- void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.SculkSensorBlock</summary>
 
+```diff
++ void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack,boolean)
+- void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
 
+```diff
++ boolean lambda$generate$1(Holder)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
 
+```diff
++ void shriek(ServerLevel,Entity)
+- void shriek(ServerLevel)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacer</summary>
 
+```diff
++ boolean canPlaceRoot(LevelSimulatedReader,BlockPos)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.chat.ChatSender
@@ -9367,13 +6482,254 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ CompletableFuture blockUntilDone(Function)
++ Object blockUntilDone(Function,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSource$1</summary>
+
+```diff
+- void sendMessage(Component,UUID)
++ void sendSystemMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ Either readEither(Function,Function)
++ GameProfile readGameProfile()
++ Property readProperty()
++ void lambda$readGameProfile$6(PropertyMap,FriendlyByteBuf)
++ void lambda$writeEither$4(BiConsumer,Object)
++ void lambda$writeEither$5(BiConsumer,Object)
++ void writeEither(Either,BiConsumer,BiConsumer)
++ void writeGameProfile(GameProfile)
++ void writeProperty(Property)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
++ Component lambda$broadcastSystemMessage$2(Component,ServerPlayer)
+- void broadcastMessage(Component,ChatType,UUID)
+- void broadcastMessage(Component,Function,ChatType,UUID)
++ void broadcastPlayerMessage(Component,Function,ChatType,ChatSender,Instant,Crypt$SaltSignaturePair)
++ void broadcastSystemMessage(Component,ChatType)
++ void broadcastSystemMessage(Component,Function,ChatType)
++ void broadcastUnsignedMessage(Component,ChatType,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
+
+```diff
+- void sendMessage(Component,UUID)
++ void sendSystemMessage(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.LecternMenu</summary>
+
+```diff
++ ItemStack quickMoveStack(Player,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer</summary>
+
+```diff
++ void <init>(Registry,int,ChunkGenerator,StructureTemplateManager,List,RandomSource)
+- void <init>(Registry,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,List,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.NodeEvaluator</summary>
+
+```diff
++ Target getTargetFromNode(Node)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
+
+```diff
++ Node getBlockedNode(int,int,int)
++ Node getNodeAndUpdateCostToMax(int,int,int,BlockPathTypes,float)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/overworld_natural_logs.json
++ minecraft/tags/blocks/snaps_goat_horn.json
++ minecraft/tags/game_events/allay_can_listen.json
+- minecraft/tags/game_events/dampenable_vibrations.json
++ minecraft/tags/items/overworld_natural_logs.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/goat_horn.json
++ minecraft/models/item/tooting_goat_horn.json
++ minecraft/textures/item/goat_horn.png
++ realms/textures/gui/realms/checkmark.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:goat_horn
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
++ minecraft:set_goat_horn_sound
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.goat.horn_break
++ minecraft:entity.goat.screaming.horn_break
++ minecraft:item.goat_horn.play
++ minecraft:item.goat_horn.sound.0
++ minecraft:item.goat_horn.sound.1
++ minecraft:item.goat_horn.sound.2
++ minecraft:item.goat_horn.sound.3
++ minecraft:item.goat_horn.sound.4
++ minecraft:item.goat_horn.sound.5
++ minecraft:item.goat_horn.sound.6
++ minecraft:item.goat_horn.sound.7
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/overworld_natural_logs.json
++ blocks/snaps_goat_horn.json
++ game_events/allay_can_listen.json
+- game_events/dampenable_vibrations.json
++ items/overworld_natural_logs.json
+```
+
+</details>
+
+
+<details><summary>blocks/sculk_replaceable_world_gen.json</summary>
+
+```diff
++ minecraft:polished_deepslate
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ death.attack.sonic_boom
++ death.attack.sonic_boom.player
++ item.minecraft.goat_horn
++ item.minecraft.goat_horn.sound.0
++ item.minecraft.goat_horn.sound.1
++ item.minecraft.goat_horn.sound.2
++ item.minecraft.goat_horn.sound.3
++ item.minecraft.goat_horn.sound.4
++ item.minecraft.goat_horn.sound.5
++ item.minecraft.goat_horn.sound.6
++ item.minecraft.goat_horn.sound.7
++ multiplayer.disconnect.invalid_public_key
++ multiplayer.disconnect.invalid_public_key_signature
++ multiplayer.disconnect.missing_public_key
++ subtitles.entity.goat.horn_break
++ subtitles.item.goat_horn.play
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/overworld_natural_logs.json
++ blocks/snaps_goat_horn.json
++ game_events/allay_can_listen.json
+- game_events/dampenable_vibrations.json
++ items/overworld_natural_logs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ item/goat_horn.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.3.39
++ com.mojang:authlib:3.4.40
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.16-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.16-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2020-06-04T18:17:51+00:00</td></tr>
@@ -10,1267 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/0950c8a0a10d6e6460bb0f1466c215c06125cb57/server.txt">https://piston-data.mojang.com/v1/objects/0950c8a0a10d6e6460bb0f1466c215c06125cb57/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/a0041360ae7579fb553d26aa5e8bdb869815e54a/client.jar">https://piston-data.mojang.com/v1/objects/a0041360ae7579fb553d26aa5e8bdb869815e54a/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/74c4f92b68b522823c912fa2c6d92036c6763864/client.txt">https://piston-data.mojang.com/v1/objects/74c4f92b68b522823c912fa2c6d92036c6763864/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w22a">20w22a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/husbandry/break_diamond_hoe.json
-+  minecraft/advancements/husbandry/obtain_netherite_hoe.json
-+  minecraft/advancements/recipes/combat/netherite_boots_smithing.json
-+  minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
-+  minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
-+  minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
-+  minecraft/advancements/recipes/combat/netherite_sword_smithing.json
-+  minecraft/advancements/recipes/tools/netherite_axe_smithing.json
-+  minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
-+  minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
-+  minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
-+  minecraft/recipes/netherite_axe_smithing.json
-+  minecraft/recipes/netherite_boots_smithing.json
-+  minecraft/recipes/netherite_chestplate_smithing.json
-+  minecraft/recipes/netherite_helmet_smithing.json
-+  minecraft/recipes/netherite_hoe_smithing.json
-+  minecraft/recipes/netherite_leggings_smithing.json
-+  minecraft/recipes/netherite_pickaxe_smithing.json
-+  minecraft/recipes/netherite_shovel_smithing.json
-+  minecraft/recipes/netherite_sword_smithing.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>memory_module_type.txt</summary>
 
-```diff
-- minecraft:nearest_visible_wither_skeleton
-+ minecraft:nearest_visible_adult
-+ minecraft:nearest_visible_nemesis
-+ minecraft:universal_anger
-```
-
-</details>
-
-<details><summary>recipe_serializer.txt</summary>
-
-```diff
-+ minecraft:smithing
-```
-
-</details>
-
-<details><summary>recipe_type.txt</summary>
-
-```diff
-+ minecraft:smithing
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:nearest_adult
-```
-
-</details>
-
-## Commands
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule forgiveDeadPlayers <value: bool>
-+ gamerule universalAnger <value: bool>
-```
-
-</details>
-
-## Tags
-
-<details><summary>blocks/prevent_mob_spawning_inside.json</summary>
-
-```diff
-- minecraft:sweet_berry_bush
-```
-
-</details>
-
-<details><summary>items/piglin_loved.json</summary>
-
-```diff
-- minecraft:gold_ore
-- minecraft:nether_gold_ore
-+ #minecraft:gold_ores
-+ minecraft:gold_nugget
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- husbandry/break_diamond_hoe.json
-+ husbandry/obtain_netherite_hoe.json
-+ recipes/combat/netherite_boots_smithing.json
-+ recipes/combat/netherite_chestplate_smithing.json
-+ recipes/combat/netherite_helmet_smithing.json
-+ recipes/combat/netherite_leggings_smithing.json
-+ recipes/combat/netherite_sword_smithing.json
-+ recipes/tools/netherite_axe_smithing.json
-+ recipes/tools/netherite_hoe_smithing.json
-+ recipes/tools/netherite_pickaxe_smithing.json
-+ recipes/tools/netherite_shovel_smithing.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ netherite_axe_smithing.json
-+ netherite_boots_smithing.json
-+ netherite_chestplate_smithing.json
-+ netherite_helmet_smithing.json
-+ netherite_hoe_smithing.json
-+ netherite_leggings_smithing.json
-+ netherite_pickaxe_smithing.json
-+ netherite_shovel_smithing.json
-+ netherite_sword_smithing.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.VideoSettingsScreen</summary>
-
-```diff
-+ List tooltip
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
-
-```diff
-- void setCurrentEntity(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Stream betweenClosedStream(AABB)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
-
-```diff
-+ Optional registry(net.minecraft.resources.ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.Main</summary>
-
-```diff
-+ DedicatedServer lambda$main$1(Thread)
-+ void forceUpgrade(ImmutableSet)
-- void forceUpgrade(BooleanSupplier)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ boolean lambda$getSelectedPacks$11(String)
-+ boolean lambda$waitUntilNextTick$3()
-+ CompletionStage lambda$reloadResources$9(ImmutableList)
-+ DataPackConfig configurePackRepository(DataPackConfig,boolean)
-+ DataPackConfig getSelectedPacks(PackRepository)
-+ IllegalStateException lambda$createLevels$2(DimensionType)
-+ ImmutableList lambda$reloadResources$8(Collection)
-+ MinecraftServer spin(Function)
-+ String lambda$fillReport$7()
-+ String lambda$tickChildren$4(ServerLevel)
-+ void <init>(ChunkProgressListenerFactory)
-+ void lambda$reloadResources$10(ServerResources)
-+ void lambda$spin$0(AtomicReference)
-+ void lambda$spin$1(Throwable)
-+ void runServer()
-- boolean lambda$storeSelectedPacks$10(String)
-- boolean lambda$waitUntilNextTick$2()
-- CompletionStage lambda$reloadResources$8(ImmutableList)
-- ImmutableList lambda$reloadResources$7(Collection)
-- PackRepository createPackRepository(WorldData,boolean)
-- String lambda$fillReport$4()
-- String lambda$tickChildren$3(ServerLevel)
-- void <init>(ChunkProgressListenerFactory)
-- void forkAndRun()
-- void lambda$new$1(Thread)
-- void lambda$null$0(Throwable)
-- void lambda$reloadResources$9(ServerResources)
-- void run()
-- void storeSelectedPacks(WorldData)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager</summary>
-
-```diff
-+ void postReload(ServerFunctionLibrary)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.DataPackCommand$Inserter</summary>
-
-```diff
-+ void apply(java.util.List,net.minecraft.server.packs.repository.Pack)
-- void apply(java.util.List,net.minecraft.server.packs.repository.UnopenedPack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SeedCommand</summary>
-
-```diff
-+ boolean lambda$register$0(CommandSourceStack)
-+ void register(CommandDispatcher,boolean)
-- boolean lambda$register$0(CommandSourceStack)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-- String language
-+ boolean lambda$startSleepInBed$6(Monster)
-+ boolean lambda$tellNeutralMobsThatIDied$4(Mob)
-+ void lambda$awardStat$8(Score)
-+ void lambda$sendMessage$9(Future)
-+ void lambda$startSleepInBed$7(Unit)
-+ void lambda$tellNeutralMobsThatIDied$5(Mob)
-+ void tellNeutralMobsThatIDied()
-- boolean lambda$startSleepInBed$4(Monster)
-- void lambda$awardStat$6(Score)
-- void lambda$sendMessage$7(Future)
-- void lambda$startSleepInBed$5(Unit)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
-
-```diff
-+ PackSource packSource
-+ PackResources lambda$createSupplier$1(File)
-+ PackResources lambda$createSupplier$2(File)
-+ void <init>(PackSource)
-+ void loadPacks(Pack$PackConstructor)
-- Pack lambda$createSupplier$1(File)
-- Pack lambda$createSupplier$2(File)
-- void <init>(File)
-- void loadPacks(UnopenedPack$UnopenedPackConstructor)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
-
-```diff
-+ VanillaPackResources vanillaPack
-- VanillaPack vanillaPack
-+ PackResources lambda$loadPacks$0()
-+ void loadPacks(Pack$PackConstructor)
-- Pack lambda$loadPacks$0()
-- void loadPacks(UnopenedPack$UnopenedPackConstructor)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.resources.ResourceManagerReloadListener</summary>
-
-```diff
-+ void lambda$reload$0(ResourceManager)
-- void lambda$reload$0(ResourceManager)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
-
-```diff
-+ Collection listResources(Predicate)
-+ Object lambda$createFullReload$0(List)
-+ void add(PackResources)
-+ void close()
-- void add(Pack)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager$ResourcePackLoadingFailure</summary>
-
-```diff
-+ PackResources pack
-- Pack pack
-+ PackResources getPack()
-+ void <init>(Throwable)
-- Pack getPack()
-- void <init>(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.DirectoryLock</summary>
-
-```diff
-+ ByteBuffer DUMMY
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GoToPotentialJobSite</summary>
-
-```diff
-+ boolean canStillUse(LivingEntity,long)
-+ boolean canStillUse(Villager,long)
-+ void lambda$stop$1(GlobalPos)
-+ void stop(LivingEntity,long)
-+ void stop(Villager,long)
-+ void tick(LivingEntity,long)
-+ void tick(Villager,long)
-- void start(LivingEntity,long)
-- void start(Villager,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer$GossipEntry</summary>
-
-```diff
-+ UUID target
-- SerializableUUID target
-- void <init>(GossipType,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_VISIBLE_ADULT
-+ MemoryModuleType NEAREST_VISIBLE_NEMESIS
-+ MemoryModuleType UNIVERSAL_ANGER
-- MemoryModuleType NEAREST_VISIBLE_WITHER_SKELETON
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Explosion</summary>
-
-```diff
-+ ExplosionDamageCalculator damageCalculator
-+ ExplosionDamageCalculator makeDamageCalculator(Entity)
-+ void <init>(Explosion$BlockInteraction)
-- void setDamageSource(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
-
-```diff
-+ void setBeeReleaseData(Bee)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ Codec BUILTIN_OR_DIRECT_CODEC
-+ DimensionType DEFAULT_END
-+ DimensionType DEFAULT_NETHER
-+ DimensionType DEFAULT_OVERWORLD
-- LinkedHashSet BUILTIN_ORDER
-+ DimensionType defaultOverworld()
-+ DimensionType lambda$defaultDimensions$12()
-+ DimensionType lambda$defaultDimensions$13()
-+ MappedRegistry defaultDimensions(long)
-- boolean stable(LinkedHashMap)
-- DimensionType makeDefaultEnd()
-- DimensionType makeDefaultNether()
-- DimensionType makeDefaultOverworld()
-- LinkedHashMap defaultDimensions(long)
-- LinkedHashMap sortMap(Map)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.color.block.BlockColor
@@ -5277,1895 +4038,254 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
 
 ```diff
-+ void <init>(Commands$CommandSelection)
-- void <init>(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.SerializableUUID</summary>
-
-```diff
-- UUID value
-+ DataResult lambda$static$0(IntStream)
-+ IntStream lambda$static$1(UUID)
-+ void <init>()
-- DataResult lambda$static$1(IntStream)
-- IntStream lambda$static$2(SerializableUUID)
-- SerializableUUID lambda$null$0(int[])
-- SerializableUUID of(Dynamic)
-- String toString()
-- UUID value()
-- void <init>(UUID)
+- void setCurrentEntity(boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.core.BlockPos</summary>
 
 ```diff
-+ void netheriteSmithing(Item)
++ Stream betweenClosedStream(AABB)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
+<details><summary>net.minecraft.server.Main</summary>
 
 ```diff
-+ Pack$PackConstructor constructor
-- UnopenedPack$UnopenedPackConstructor constructor
-+ Pack getPack(String)
-+ void <init>(RepositorySource[])
-+ void lambda$discoverAvailable$0(Pack)
-- UnopenedPack getPack(String)
-- void <init>(RepositorySource[])
++ DedicatedServer lambda$main$1(RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,WorldData,DedicatedServerSettings,MinecraftSessionService,GameProfileRepository,GameProfileCache,OptionSet,OptionSpec,OptionSpec,OptionSpec,OptionSpec,OptionSpec,OptionSpec,Thread)
++ void forceUpgrade(LevelStorageSource$LevelStorageAccess,DataFixer,boolean,BooleanSupplier,ImmutableSet)
+- void forceUpgrade(LevelStorageSource$LevelStorageAccess,DataFixer,boolean,BooleanSupplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-+ boolean lambda$collide$1(Entity)
-+ boolean lambda$move$0(BlockState)
-+ InteractionResult interact(InteractionHand)
-+ String lambda$fillCrashReportCategory$6()
-+ Style lambda$getDisplayName$7(Style)
-+ Style lambda$removeAction$2(Style)
-+ void lambda$teleportTo$8(Entity)
-+ void moveTo(Vec3)
-+ void thunderHit(LightningBolt)
-- boolean interact(InteractionHand)
-- boolean lambda$collide$0(Entity)
-- String lambda$fillCrashReportCategory$2()
-- Style lambda$getDisplayName$6(Style)
-- Style lambda$removeAction$1(Style)
-- void lambda$teleportTo$7(Entity)
-- void thunderHit(LightningBolt)
++ boolean lambda$getSelectedPacks$11(Collection,String)
+- boolean lambda$storeSelectedPacks$10(Set,String)
+- boolean lambda$waitUntilNextTick$2()
++ boolean lambda$waitUntilNextTick$3()
+- CompletionStage lambda$reloadResources$8(ImmutableList)
++ CompletionStage lambda$reloadResources$9(ImmutableList)
++ DataPackConfig configurePackRepository(PackRepository,DataPackConfig,boolean)
++ DataPackConfig getSelectedPacks(PackRepository)
++ IllegalStateException lambda$createLevels$2(DimensionType)
+- ImmutableList lambda$reloadResources$7(Collection)
++ ImmutableList lambda$reloadResources$8(Collection)
++ MinecraftServer spin(Function)
+- PackRepository createPackRepository(Path,WorldData,boolean)
+- String lambda$fillReport$4()
++ String lambda$fillReport$7()
+- String lambda$tickChildren$3(ServerLevel)
++ String lambda$tickChildren$4(ServerLevel)
+- void <init>(LevelStorageSource$LevelStorageAccess,WorldData,PackRepository,Proxy,DataFixer,ServerResources,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void <init>(Thread,RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,WorldData,PackRepository,Proxy,DataFixer,ServerResources,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void forkAndRun()
+- void lambda$new$1(Thread)
+- void lambda$null$0(Thread,Throwable)
++ void lambda$reloadResources$10(Collection,ServerResources)
+- void lambda$reloadResources$9(Collection,ServerResources)
++ void lambda$spin$0(AtomicReference)
++ void lambda$spin$1(Thread,Throwable)
+- void run()
++ void runServer()
+- void storeSelectedPacks(PackRepository,WorldData)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.EntityType$Builder</summary>
+<details><summary>net.minecraft.server.ServerFunctionManager</summary>
 
 ```diff
-+ ImmutableSet immuneTo
-+ EntityType$Builder immuneTo(Block[])
++ void postReload(ServerFunctionLibrary)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.SensorType</summary>
+<details><summary>net.minecraft.server.commands.SeedCommand</summary>
 
 ```diff
-+ SensorType NEAREST_ADULT
++ boolean lambda$register$0(boolean,CommandSourceStack)
+- boolean lambda$register$0(CommandSourceStack)
++ void register(CommandDispatcher,boolean)
+- void register(CommandDispatcher)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
 
 ```diff
-+ EntityDataAccessor DATA_REMAINING_ANGER_TIME
-+ IntRange PERSISTENT_ANGER_TIME
-+ UUID persistentAngerTarget
-- EntityDataAccessor ANGER_TIME
-- UUID lastHurtByUUID
-+ int getRemainingPersistentAngerTime()
-+ UUID getPersistentAngerTarget()
-+ void setPersistentAngerTarget(UUID)
-+ void setRemainingPersistentAngerTime(int)
-+ void startPersistentAngerTimer()
-- boolean isAngry()
-- boolean makeAngry(Entity)
-- int getAngerTime()
-- void setAngerTime(int)
-- void setLastHurtByMob(LivingEntity)
+- boolean lambda$startSleepInBed$4(Monster)
++ boolean lambda$startSleepInBed$6(Monster)
++ boolean lambda$tellNeutralMobsThatIDied$4(Mob)
+- void lambda$awardStat$6(int,Score)
++ void lambda$awardStat$8(int,Score)
+- void lambda$sendMessage$7(ChatType,Component,UUID,Future)
++ void lambda$sendMessage$9(ChatType,Component,UUID,Future)
+- void lambda$startSleepInBed$5(Unit)
++ void lambda$startSleepInBed$7(Unit)
++ void lambda$tellNeutralMobsThatIDied$5(Mob)
++ void tellNeutralMobsThatIDied()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
+<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
 
 ```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
+- Pack lambda$createSupplier$1(File)
+- Pack lambda$createSupplier$2(File)
++ PackResources lambda$createSupplier$1(File)
++ PackResources lambda$createSupplier$2(File)
++ void <init>(File,PackSource)
+- void <init>(File)
++ void loadPacks(Consumer,Pack$PackConstructor)
+- void loadPacks(Map,UnopenedPack$UnopenedPackConstructor)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.animal.Cow</summary>
+<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
 
 ```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
+- Pack lambda$loadPacks$0()
++ PackResources lambda$loadPacks$0()
++ void loadPacks(Consumer,Pack$PackConstructor)
+- void loadPacks(Map,UnopenedPack$UnopenedPackConstructor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
+<details><summary>net.minecraft.server.packs.resources.ResourceManagerReloadListener</summary>
 
 ```diff
-+ int remainingPersistentAngerTime
-+ IntRange PERSISTENT_ANGER_TIME
-+ UUID persistentAngerTarget
-+ int getRemainingPersistentAngerTime()
-+ InteractionResult mobInteract(InteractionHand)
-+ UUID getPersistentAngerTarget()
-+ void setPersistentAngerTarget(UUID)
-+ void setRemainingPersistentAngerTime(int)
-+ void startPersistentAngerTimer()
-- boolean mobInteract(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
-
-```diff
-+ InteractionResult mobInteract(InteractionHand)
-+ void thunderHit(LightningBolt)
-- boolean mobInteract(InteractionHand)
-- void thunderHit(LightningBolt)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
++ void lambda$reload$0(ProfilerFiller,ResourceManager)
+- void lambda$reload$0(ResourceManager)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
 
 ```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Pig</summary>
-
-```diff
-+ InteractionResult mobInteract(InteractionHand)
-+ void thunderHit(LightningBolt)
-- boolean mobInteract(InteractionHand)
-- void thunderHit(LightningBolt)
++ Collection listResources(ResourceLocation,Predicate)
++ Object lambda$createFullReload$0(List)
+- void add(Pack)
++ void add(PackResources)
++ void close()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager$ResourcePackLoadingFailure</summary>
 
 ```diff
-+ void thunderHit(LightningBolt)
-- void thunderHit(LightningBolt)
+- Pack getPack()
++ PackResources getPack()
+- void <init>(Pack,Throwable)
++ void <init>(PackResources,Throwable)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+<details><summary>net.minecraft.util.DirectoryLock</summary>
 
 ```diff
-+ Ingredient FOOD_ITEMS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
-
-```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ Ingredient FOOD_ITEMS
-+ boolean isFood(ItemStack)
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.GoToPotentialJobSite</summary>
 
 ```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
++ boolean canStillUse(ServerLevel,LivingEntity,long)
++ boolean canStillUse(ServerLevel,Villager,long)
++ void lambda$stop$1(ServerLevel,GlobalPos)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
++ void stop(ServerLevel,LivingEntity,long)
++ void stop(ServerLevel,Villager,long)
++ void tick(ServerLevel,LivingEntity,long)
++ void tick(ServerLevel,Villager,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
+<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer$GossipEntry</summary>
 
 ```diff
-+ boolean isSensitiveToWater()
+- void <init>(SerializableUUID,GossipType,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
+<details><summary>net.minecraft.world.level.Explosion</summary>
 
 ```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ InteractionResult mobInteract(InteractionHand)
-- boolean mobInteract(InteractionHand)
++ ExplosionDamageCalculator makeDamageCalculator(Entity)
++ void <init>(Level,Entity,DamageSource,ExplosionDamageCalculator,double,double,double,float,boolean,Explosion$BlockInteraction)
+- void setDamageSource(DamageSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
+<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
 
 ```diff
-+ InteractionResult interact(InteractionHand)
-- boolean interact(InteractionHand)
++ void setBeeReleaseData(int,Bee)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.vehicle.Minecart</summary>
-
-```diff
-+ InteractionResult interact(InteractionHand)
-- boolean interact(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
 
 ```diff
-+ InteractionResult interact(InteractionHand)
-- boolean interact(InteractionHand)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartFurnace</summary>
-
-```diff
-+ InteractionResult interact(InteractionHand)
-- boolean interact(InteractionHand)
+- boolean stable(long,LinkedHashMap)
++ DimensionType defaultOverworld()
++ DimensionType lambda$defaultDimensions$12()
++ DimensionType lambda$defaultDimensions$13()
+- DimensionType makeDefaultEnd()
+- DimensionType makeDefaultNether()
+- DimensionType makeDefaultOverworld()
+- LinkedHashMap defaultDimensions(long)
+- LinkedHashMap sortMap(Map)
++ MappedRegistry defaultDimensions(long)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeType</summary>
-
-```diff
-+ RecipeType SMITHING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
-
-```diff
-+ GameRules$Key RULE_FORGIVE_DEAD_PLAYERS
-+ GameRules$Key RULE_UNIVERSAL_ANGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelReader</summary>
-
-```diff
-+ Stream getBlockStatesIfLoaded(AABB)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
-
-```diff
-+ MappedRegistry dimensions
-- LinkedHashMap dimensions
-- WorldGenSettings TEST_SETTINGS
-+ DimensionType lambda$withOverworld$2(DimensionType)
-+ ImmutableSet levels()
-+ MappedRegistry dimensions()
-+ MappedRegistry withOverworld(ChunkGenerator)
-+ ResourceKey lambda$levels$3(Map$Entry)
-+ String lambda$create$4(String)
-+ void <init>(MappedRegistry)
-+ void <init>(Optional)
-+ WorldGenSettings withDimensions(MappedRegistry)
-- LinkedHashMap dimensions()
-- LinkedHashMap withOverworld(ChunkGenerator)
-- String lambda$create$2(String)
-- void <init>(LinkedHashMap)
-- void <init>(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.BlockPathTypes</summary>
-
-```diff
-+ BlockPathTypes UNPASSABLE_RAIL
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ boolean canReachWithoutCollision(Node)
-+ boolean isNeighborValid(Node)
-+ Node getLandNode(BlockPathTypes)
-- Node getLandNode(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
-
-```diff
-- DimensionType dimensionType
-+ void <init>(ServerLevelData)
-- void <init>(ServerLevelData)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
-
-```diff
-+ DataPackConfig getDataPacks()
-+ DataPackConfig lambda$getDataPacks$1(DataFixer)
-+ DirectoryLock access$800(LevelStorageSource$LevelStorageAccess)
-+ LevelSummary getSummary()
-+ Path access$700(LevelStorageSource$LevelStorageAccess)
-+ void saveDataTag(CompoundTag)
-+ void saveDataTag(WorldData)
-+ WorldData getDataTag(DataPackConfig)
-- DataResult exportWorldGenSettings()
-- DataResult lambda$exportWorldGenSettings$2(JsonElement)
-- DirectoryLock access$600(LevelStorageSource$LevelStorageAccess)
-- Path access$500(LevelStorageSource$LevelStorageAccess)
-- void saveDataTag(CompoundTag)
-- void saveDataTag(WorldData)
-- WorldData getDataTag()
-- WorldData lambda$getDataTag$1(DataFixer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockInput
@@ -8302,13 +5422,565 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
+- void <init>(boolean)
++ void <init>(Commands$CommandSelection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.SerializableUUID</summary>
+
+```diff
++ DataResult lambda$static$0(IntStream)
+- DataResult lambda$static$1(IntStream)
++ IntStream lambda$static$1(UUID)
+- IntStream lambda$static$2(SerializableUUID)
+- SerializableUUID lambda$null$0(int[])
+- SerializableUUID of(Dynamic)
+- String toString()
+- UUID value()
++ void <init>()
+- void <init>(UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ void netheriteSmithing(Consumer,Item,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
+
+```diff
++ Pack getPack(String)
+- UnopenedPack getPack(String)
++ void <init>(Pack$PackConstructor,RepositorySource[])
+- void <init>(UnopenedPack$UnopenedPackConstructor,RepositorySource[])
++ void lambda$discoverAvailable$0(Map,Pack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- boolean interact(Player,InteractionHand)
+- boolean lambda$collide$0(Entity)
++ boolean lambda$collide$1(Entity)
++ boolean lambda$move$0(BlockState)
++ InteractionResult interact(Player,InteractionHand)
+- String lambda$fillCrashReportCategory$2()
++ String lambda$fillCrashReportCategory$6()
+- Style lambda$getDisplayName$6(Style)
++ Style lambda$getDisplayName$7(Style)
+- Style lambda$removeAction$1(Style)
++ Style lambda$removeAction$2(Style)
+- void lambda$teleportTo$7(ServerLevel,Entity)
++ void lambda$teleportTo$8(ServerLevel,Entity)
++ void moveTo(Vec3)
++ void thunderHit(LightningBolt)
+- void thunderHit(LightningBolt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.EntityType$Builder</summary>
+
+```diff
++ EntityType$Builder immuneTo(Block[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
+- boolean isAngry()
+- boolean makeAngry(Entity)
+- int getAngerTime()
++ int getRemainingPersistentAngerTime()
++ UUID getPersistentAngerTarget()
+- void setAngerTime(int)
+- void setLastHurtByMob(LivingEntity)
++ void setPersistentAngerTarget(UUID)
++ void setRemainingPersistentAngerTime(int)
++ void startPersistentAngerTimer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cow</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ int getRemainingPersistentAngerTime()
++ InteractionResult mobInteract(Player,InteractionHand)
++ UUID getPersistentAngerTarget()
++ void setPersistentAngerTarget(UUID)
++ void setRemainingPersistentAngerTime(int)
++ void startPersistentAngerTimer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
++ void thunderHit(LightningBolt)
+- void thunderHit(LightningBolt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Pig</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
++ void thunderHit(LightningBolt)
+- void thunderHit(LightningBolt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
+
+```diff
++ void thunderHit(LightningBolt)
+- void thunderHit(LightningBolt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
++ boolean isFood(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
+
+```diff
++ boolean isSensitiveToWater()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
+- boolean mobInteract(Player,InteractionHand)
++ InteractionResult mobInteract(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
+
+```diff
+- boolean interact(Player,InteractionHand)
++ InteractionResult interact(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.Minecart</summary>
+
+```diff
+- boolean interact(Player,InteractionHand)
++ InteractionResult interact(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
+
+```diff
+- boolean interact(Player,InteractionHand)
++ InteractionResult interact(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartFurnace</summary>
+
+```diff
+- boolean interact(Player,InteractionHand)
++ InteractionResult interact(Player,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelReader</summary>
+
+```diff
++ Stream getBlockStatesIfLoaded(AABB)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
+
+```diff
++ DimensionType lambda$withOverworld$2(DimensionType)
++ ImmutableSet levels()
+- LinkedHashMap dimensions()
+- LinkedHashMap withOverworld(LinkedHashMap,ChunkGenerator)
++ MappedRegistry dimensions()
++ MappedRegistry withOverworld(MappedRegistry,ChunkGenerator)
++ ResourceKey lambda$levels$3(Map$Entry)
+- String lambda$create$2(String)
++ String lambda$create$4(String)
+- void <init>(long,boolean,boolean,LinkedHashMap,Optional)
+- void <init>(long,boolean,boolean,LinkedHashMap)
++ void <init>(long,boolean,boolean,MappedRegistry,Optional)
++ void <init>(long,boolean,boolean,MappedRegistry)
++ WorldGenSettings withDimensions(MappedRegistry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
+
+```diff
++ boolean canReachWithoutCollision(Node)
++ boolean isNeighborValid(Node,Node)
++ Node getLandNode(int,int,int,int,double,Direction,BlockPathTypes)
+- Node getLandNode(int,int,int,int,double,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
+
+```diff
+- void <init>(DimensionType,WorldData,ServerLevelData)
++ void <init>(WorldData,ServerLevelData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
+
+```diff
++ DataPackConfig getDataPacks()
++ DataPackConfig lambda$getDataPacks$1(File,DataFixer)
+- DataResult exportWorldGenSettings()
+- DataResult lambda$exportWorldGenSettings$2(JsonElement)
+- DirectoryLock access$600(LevelStorageSource$LevelStorageAccess)
++ DirectoryLock access$800(LevelStorageSource$LevelStorageAccess)
++ LevelSummary getSummary()
+- Path access$500(LevelStorageSource$LevelStorageAccess)
++ Path access$700(LevelStorageSource$LevelStorageAccess)
++ void saveDataTag(RegistryAccess,WorldData,CompoundTag)
++ void saveDataTag(RegistryAccess,WorldData)
+- void saveDataTag(WorldData,CompoundTag)
+- void saveDataTag(WorldData)
+- WorldData getDataTag()
++ WorldData getDataTag(DynamicOps,DataPackConfig)
+- WorldData lambda$getDataTag$1(File,DataFixer)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/husbandry/break_diamond_hoe.json
++ minecraft/advancements/husbandry/obtain_netherite_hoe.json
++ minecraft/advancements/recipes/combat/netherite_boots_smithing.json
++ minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
++ minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
++ minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
++ minecraft/advancements/recipes/combat/netherite_sword_smithing.json
++ minecraft/advancements/recipes/tools/netherite_axe_smithing.json
++ minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
++ minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
++ minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
++ minecraft/recipes/netherite_axe_smithing.json
++ minecraft/recipes/netherite_boots_smithing.json
++ minecraft/recipes/netherite_chestplate_smithing.json
++ minecraft/recipes/netherite_helmet_smithing.json
++ minecraft/recipes/netherite_hoe_smithing.json
++ minecraft/recipes/netherite_leggings_smithing.json
++ minecraft/recipes/netherite_pickaxe_smithing.json
++ minecraft/recipes/netherite_shovel_smithing.json
++ minecraft/recipes/netherite_sword_smithing.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:nearest_visible_adult
++ minecraft:nearest_visible_nemesis
+- minecraft:nearest_visible_wither_skeleton
++ minecraft:universal_anger
+```
+
+</details>
+
+
+<details><summary>recipe_serializer.txt</summary>
+
+```diff
++ minecraft:smithing
+```
+
+</details>
+
+
+<details><summary>recipe_type.txt</summary>
+
+```diff
++ minecraft:smithing
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:nearest_adult
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule forgiveDeadPlayers <value: bool>
++ gamerule universalAnger <value: bool>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/prevent_mob_spawning_inside.json</summary>
+
+```diff
+- minecraft:sweet_berry_bush
+```
+
+</details>
+
+
+<details><summary>items/piglin_loved.json</summary>
+
+```diff
++ #minecraft:gold_ores
++ minecraft:gold_nugget
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ dataPack.title
++ dataPack.validation.back
++ dataPack.validation.failed
++ dataPack.validation.reset
++ dataPack.validation.working
++ gamerule.forgiveDeadPlayers
++ gamerule.forgiveDeadPlayers.description
++ gamerule.universalAnger
++ gamerule.universalAnger.description
++ options.graphics.fabulous
++ options.graphics.fabulous.tooltip
++ options.graphics.fancy.tooltip
++ options.graphics.fast.tooltip
++ pack.available.title
++ pack.copyFailure
++ pack.dropConfirm
++ pack.dropInfo
++ pack.folderInfo
++ pack.incompatible
++ pack.incompatible.confirm.new
++ pack.incompatible.confirm.old
++ pack.incompatible.confirm.title
++ pack.incompatible.new
++ pack.incompatible.old
++ pack.nameAndSource
++ pack.openFolder
++ pack.selected.title
++ pack.source.builtin
++ pack.source.local
++ pack.source.server
++ pack.source.world
+- resourcePack.available.title
+- resourcePack.folderInfo
+- resourcePack.incompatible
+- resourcePack.incompatible.confirm.new
+- resourcePack.incompatible.confirm.old
+- resourcePack.incompatible.confirm.title
+- resourcePack.incompatible.new
+- resourcePack.incompatible.old
+- resourcePack.openFolder
+- resourcePack.selected.title
++ selectWorld.dataPacks
+- selectWorld.tooltip.experimental
+- selectWorld.tooltip.unsupported
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- husbandry/break_diamond_hoe.json
++ husbandry/obtain_netherite_hoe.json
++ recipes/combat/netherite_boots_smithing.json
++ recipes/combat/netherite_chestplate_smithing.json
++ recipes/combat/netherite_helmet_smithing.json
++ recipes/combat/netherite_leggings_smithing.json
++ recipes/combat/netherite_sword_smithing.json
++ recipes/tools/netherite_axe_smithing.json
++ recipes/tools/netherite_hoe_smithing.json
++ recipes/tools/netherite_pickaxe_smithing.json
++ recipes/tools/netherite_shovel_smithing.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ netherite_axe_smithing.json
++ netherite_boots_smithing.json
++ netherite_chestplate_smithing.json
++ netherite_helmet_smithing.json
++ netherite_hoe_smithing.json
++ netherite_leggings_smithing.json
++ netherite_pickaxe_smithing.json
++ netherite_shovel_smithing.json
++ netherite_sword_smithing.json
+```
+
+</details>

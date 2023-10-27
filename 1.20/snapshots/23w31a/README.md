@@ -1,3872 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w31a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w31a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-08-01T10:03:13+00:00</td></tr>
-<tr><th>SHA1</th><td>3d5a206c65d87213a4587e7990f491f0332178c7</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/3d5a206c65d87213a4587e7990f491f0332178c7/23w31a.json">https://piston-meta.mojang.com/v1/packages/3d5a206c65d87213a4587e7990f491f0332178c7/23w31a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/dcc823fbd8a0c7584979762a72e405b182f2648c/6.json">https://piston-meta.mojang.com/v1/packages/dcc823fbd8a0c7584979762a72e405b182f2648c/6.json</a></td></tr>
+<tr><th>SHA1</th><td>9a4f93cf7dbb59769f9c2ac378ced61ef64ea45b</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/9a4f93cf7dbb59769f9c2ac378ced61ef64ea45b/23w31a.json">https://piston-meta.mojang.com/v1/packages/9a4f93cf7dbb59769f9c2ac378ced61ef64ea45b/23w31a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/5bc553847f78ff337c22b4910799429360aced83/6.json">https://piston-meta.mojang.com/v1/packages/5bc553847f78ff337c22b4910799429360aced83/6.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/11ef2ae139b0badda80a1ea07c2dd0cf9034a32f/server.jar">https://piston-data.mojang.com/v1/objects/11ef2ae139b0badda80a1ea07c2dd0cf9034a32f/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9c53d6835200aa4e6d771f774ee499e37864f4e6/server.txt">https://piston-data.mojang.com/v1/objects/9c53d6835200aa4e6d771f774ee499e37864f4e6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ca51bf36913a7333c055096a52a3a96fbdb11813/client.jar">https://piston-data.mojang.com/v1/objects/ca51bf36913a7333c055096a52a3a96fbdb11813/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1c17aca622d87e393aae115137dcfd570b9c5d7b/client.txt">https://piston-data.mojang.com/v1/objects/1c17aca622d87e393aae115137dcfd570b9c5d7b/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.20.1">1.20.1</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/trade_rebalance
-+  minecraft/datapacks/trade_rebalance/pack.mcmeta
-+  minecraft/tags/blocks/camel_sand_step_sound_blocks.json
-+  minecraft/tags/blocks/concrete_powder.json
-+  minecraft/tags/damage_type/no_knockback.json
-+  minecraft/tags/entity_types/non_controlling_rider.json
-+  minecraft/worldgen/configured_feature/ore_diamond_medium.json
-+  minecraft/worldgen/placed_feature/ore_diamond_medium.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/atlases/gui.json
--  minecraft/textures/gui/advancements/tabs.png
--  minecraft/textures/gui/advancements/widgets.png
--  minecraft/textures/gui/container/creative_inventory/tabs.png
--  minecraft/textures/gui/container/bundle.png
--  minecraft/textures/gui/container/legacy_smithing.png
--  minecraft/textures/gui/container/stats_icons.png
-+  minecraft/textures/gui/container/villager.png
--  minecraft/textures/gui/container/villager2.png
-+  minecraft/textures/gui/realms
-+  minecraft/textures/gui/realms/adventure.png
-+  minecraft/textures/gui/realms/empty_frame.png
-+  minecraft/textures/gui/realms/experience.png
-+  minecraft/textures/gui/realms/inspiration.png
-+  minecraft/textures/gui/realms/new_world.png
-+  minecraft/textures/gui/realms/no_realms.png
-+  minecraft/textures/gui/realms/survival_spawn.png
-+  minecraft/textures/gui/realms/upload.png
-+  minecraft/textures/gui/sprites
-+  minecraft/textures/gui/sprites/advancements
-+  minecraft/textures/gui/sprites/advancements/box_obtained.png
-+  minecraft/textures/gui/sprites/advancements/box_unobtained.png
-+  minecraft/textures/gui/sprites/advancements/challenge_frame_obtained.png
-+  minecraft/textures/gui/sprites/advancements/challenge_frame_unobtained.png
-+  minecraft/textures/gui/sprites/advancements/goal_frame_obtained.png
-+  minecraft/textures/gui/sprites/advancements/goal_frame_unobtained.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_left.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_left_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_middle.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_middle_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_right.png
-+  minecraft/textures/gui/sprites/advancements/tab_above_right_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_left.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_left_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_middle.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_middle_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_right.png
-+  minecraft/textures/gui/sprites/advancements/tab_below_right_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_bottom.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_bottom_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_middle.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_middle_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_top.png
-+  minecraft/textures/gui/sprites/advancements/tab_left_top_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_bottom.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_bottom_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_middle.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_middle_selected.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_top.png
-+  minecraft/textures/gui/sprites/advancements/tab_right_top_selected.png
-+  minecraft/textures/gui/sprites/advancements/task_frame_obtained.png
-+  minecraft/textures/gui/sprites/advancements/task_frame_unobtained.png
-+  minecraft/textures/gui/sprites/advancements/title_box.png
-+  minecraft/textures/gui/sprites/advancements/title_box.png.mcmeta
-+  minecraft/textures/gui/sprites/backup
-+  minecraft/textures/gui/sprites/backup/changes.png
-+  minecraft/textures/gui/sprites/backup/changes_highlighted.png
-+  minecraft/textures/gui/sprites/backup/restore.png
-+  minecraft/textures/gui/sprites/backup/restore_highlighted.png
-+  minecraft/textures/gui/sprites/boss_bar
-+  minecraft/textures/gui/sprites/boss_bar/blue_background.png
-+  minecraft/textures/gui/sprites/boss_bar/blue_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/green_background.png
-+  minecraft/textures/gui/sprites/boss_bar/green_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_10_background.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_10_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_12_background.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_12_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_20_background.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_20_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_6_background.png
-+  minecraft/textures/gui/sprites/boss_bar/notched_6_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/pink_background.png
-+  minecraft/textures/gui/sprites/boss_bar/pink_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/purple_background.png
-+  minecraft/textures/gui/sprites/boss_bar/purple_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/red_background.png
-+  minecraft/textures/gui/sprites/boss_bar/red_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/white_background.png
-+  minecraft/textures/gui/sprites/boss_bar/white_progress.png
-+  minecraft/textures/gui/sprites/boss_bar/yellow_background.png
-+  minecraft/textures/gui/sprites/boss_bar/yellow_progress.png
-+  minecraft/textures/gui/sprites/bundle
-+  minecraft/textures/gui/sprites/bundle/background.png.mcmeta
-+  minecraft/textures/gui/sprites/container
-+  minecraft/textures/gui/sprites/container/anvil
-+  minecraft/textures/gui/sprites/container/anvil/error.png
-+  minecraft/textures/gui/sprites/container/anvil/text_field.png
-+  minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png
-+  minecraft/textures/gui/sprites/container/beacon
-+  minecraft/textures/gui/sprites/container/beacon/button.png
-+  minecraft/textures/gui/sprites/container/beacon/button_disabled.png
-+  minecraft/textures/gui/sprites/container/beacon/button_highlighted.png
-+  minecraft/textures/gui/sprites/container/beacon/button_selected.png
-+  minecraft/textures/gui/sprites/container/beacon/cancel.png
-+  minecraft/textures/gui/sprites/container/beacon/confirm.png
-+  minecraft/textures/gui/sprites/container/blast_furnace
-+  minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png
-+  minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png
-+  minecraft/textures/gui/sprites/container/brewing_stand
-+  minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png
-+  minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png
-+  minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png
-+  minecraft/textures/gui/sprites/container/bundle
-+  minecraft/textures/gui/sprites/container/bundle/background.png
-+  minecraft/textures/gui/sprites/container/bundle/blocked_slot.png
-+  minecraft/textures/gui/sprites/container/bundle/slot.png
-+  minecraft/textures/gui/sprites/container/cartography_table
-+  minecraft/textures/gui/sprites/container/cartography_table/duplicated_map.png
-+  minecraft/textures/gui/sprites/container/cartography_table/error.png
-+  minecraft/textures/gui/sprites/container/cartography_table/locked.png
-+  minecraft/textures/gui/sprites/container/cartography_table/map.png
-+  minecraft/textures/gui/sprites/container/cartography_table/scaled_map.png
-+  minecraft/textures/gui/sprites/container/creative_inventory
-+  minecraft/textures/gui/sprites/container/creative_inventory/scroller.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png
-+  minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png
-+  minecraft/textures/gui/sprites/container/enchanting_table
-+  minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_1.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_1_disabled.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_2.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_2_disabled.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_3.png
-+  minecraft/textures/gui/sprites/container/enchanting_table/level_3_disabled.png
-+  minecraft/textures/gui/sprites/container/furnace
-+  minecraft/textures/gui/sprites/container/furnace/burn_progress.png
-+  minecraft/textures/gui/sprites/container/furnace/lit_progress.png
-+  minecraft/textures/gui/sprites/container/grindstone
-+  minecraft/textures/gui/sprites/container/grindstone/error.png
-+  minecraft/textures/gui/sprites/container/horse
-+  minecraft/textures/gui/sprites/container/horse/armor_slot.png
-+  minecraft/textures/gui/sprites/container/horse/chest_slots.png
-+  minecraft/textures/gui/sprites/container/horse/llama_armor_slot.png
-+  minecraft/textures/gui/sprites/container/horse/saddle_slot.png
-+  minecraft/textures/gui/sprites/container/inventory
-+  minecraft/textures/gui/sprites/container/inventory/effect_background_large.png
-+  minecraft/textures/gui/sprites/container/inventory/effect_background_small.png
-+  minecraft/textures/gui/sprites/container/loom
-+  minecraft/textures/gui/sprites/container/loom/banner_slot.png
-+  minecraft/textures/gui/sprites/container/loom/dye_slot.png
-+  minecraft/textures/gui/sprites/container/loom/pattern.png
-+  minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png
-+  minecraft/textures/gui/sprites/container/loom/pattern_selected.png
-+  minecraft/textures/gui/sprites/container/loom/pattern_slot.png
-+  minecraft/textures/gui/sprites/container/loom/scroller.png
-+  minecraft/textures/gui/sprites/container/loom/scroller_disabled.png
-+  minecraft/textures/gui/sprites/container/smithing
-+  minecraft/textures/gui/sprites/container/smithing/error.png
-+  minecraft/textures/gui/sprites/container/smoker
-+  minecraft/textures/gui/sprites/container/smoker/burn_progress.png
-+  minecraft/textures/gui/sprites/container/smoker/lit_progress.png
-+  minecraft/textures/gui/sprites/container/stonecutter
-+  minecraft/textures/gui/sprites/container/stonecutter/recipe.png
-+  minecraft/textures/gui/sprites/container/stonecutter/recipe_highlighted.png
-+  minecraft/textures/gui/sprites/container/stonecutter/recipe_selected.png
-+  minecraft/textures/gui/sprites/container/stonecutter/scroller.png
-+  minecraft/textures/gui/sprites/container/stonecutter/scroller_disabled.png
-+  minecraft/textures/gui/sprites/container/villager
-+  minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png
-+  minecraft/textures/gui/sprites/container/villager/experience_bar_background.png
-+  minecraft/textures/gui/sprites/container/villager/experience_bar_current.png
-+  minecraft/textures/gui/sprites/container/villager/experience_bar_result.png
-+  minecraft/textures/gui/sprites/container/villager/out_of_stock.png
-+  minecraft/textures/gui/sprites/container/villager/scroller.png
-+  minecraft/textures/gui/sprites/container/villager/scroller_disabled.png
-+  minecraft/textures/gui/sprites/container/villager/trade_arrow.png
-+  minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png
-+  minecraft/textures/gui/sprites/container/slot.png
-+  minecraft/textures/gui/sprites/gamemode_switcher
-+  minecraft/textures/gui/sprites/gamemode_switcher/selection.png
-+  minecraft/textures/gui/sprites/gamemode_switcher/slot.png
-+  minecraft/textures/gui/sprites/hud
-+  minecraft/textures/gui/sprites/hud/heart
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_full.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_half.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half.png
-+  minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/container.png
-+  minecraft/textures/gui/sprites/hud/heart/container_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/container_hardcore.png
-+  minecraft/textures/gui/sprites/hud/heart/container_hardcore_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_full.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_half.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half.png
-+  minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/full.png
-+  minecraft/textures/gui/sprites/hud/heart/full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/half.png
-+  minecraft/textures/gui/sprites/hud/heart/half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/hardcore_full.png
-+  minecraft/textures/gui/sprites/hud/heart/hardcore_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/hardcore_half.png
-+  minecraft/textures/gui/sprites/hud/heart/hardcore_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_full.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_half.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half.png
-+  minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/vehicle_container.png
-+  minecraft/textures/gui/sprites/hud/heart/vehicle_full.png
-+  minecraft/textures/gui/sprites/hud/heart/vehicle_half.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_full.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_half.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half.png
-+  minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half_blinking.png
-+  minecraft/textures/gui/sprites/hud/air.png
-+  minecraft/textures/gui/sprites/hud/air_bursting.png
-+  minecraft/textures/gui/sprites/hud/armor_empty.png
-+  minecraft/textures/gui/sprites/hud/armor_full.png
-+  minecraft/textures/gui/sprites/hud/armor_half.png
-+  minecraft/textures/gui/sprites/hud/crosshair.png
-+  minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_background.png
-+  minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_full.png
-+  minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_progress.png
-+  minecraft/textures/gui/sprites/hud/effect_background.png
-+  minecraft/textures/gui/sprites/hud/effect_background_ambient.png
-+  minecraft/textures/gui/sprites/hud/experience_bar_background.png
-+  minecraft/textures/gui/sprites/hud/experience_bar_progress.png
-+  minecraft/textures/gui/sprites/hud/food_empty.png
-+  minecraft/textures/gui/sprites/hud/food_empty_hunger.png
-+  minecraft/textures/gui/sprites/hud/food_full.png
-+  minecraft/textures/gui/sprites/hud/food_full_hunger.png
-+  minecraft/textures/gui/sprites/hud/food_half.png
-+  minecraft/textures/gui/sprites/hud/food_half_hunger.png
-+  minecraft/textures/gui/sprites/hud/hotbar.png
-+  minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_background.png
-+  minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_progress.png
-+  minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png
-+  minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png
-+  minecraft/textures/gui/sprites/hud/hotbar_selection.png
-+  minecraft/textures/gui/sprites/hud/jump_bar_background.png
-+  minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png
-+  minecraft/textures/gui/sprites/hud/jump_bar_progress.png
-+  minecraft/textures/gui/sprites/icon
-+  minecraft/textures/gui/sprites/icon/accessibility.png
-+  minecraft/textures/gui/sprites/icon/chat_modified.png
-+  minecraft/textures/gui/sprites/icon/checkmark.png
-+  minecraft/textures/gui/sprites/icon/draft_report.png
-+  minecraft/textures/gui/sprites/icon/info.png
-+  minecraft/textures/gui/sprites/icon/invite.png
-+  minecraft/textures/gui/sprites/icon/language.png
-+  minecraft/textures/gui/sprites/icon/link.png
-+  minecraft/textures/gui/sprites/icon/link_highlighted.png
-+  minecraft/textures/gui/sprites/icon/new_realm.png
-+  minecraft/textures/gui/sprites/icon/news.png
-+  minecraft/textures/gui/sprites/icon/ping_1.png
-+  minecraft/textures/gui/sprites/icon/ping_2.png
-+  minecraft/textures/gui/sprites/icon/ping_3.png
-+  minecraft/textures/gui/sprites/icon/ping_4.png
-+  minecraft/textures/gui/sprites/icon/ping_5.png
-+  minecraft/textures/gui/sprites/icon/ping_unknown.png
-+  minecraft/textures/gui/sprites/icon/search.png
-+  minecraft/textures/gui/sprites/icon/trial_available.png
-+  minecraft/textures/gui/sprites/icon/trial_available.png.mcmeta
-+  minecraft/textures/gui/sprites/icon/unseen_notification.png
-+  minecraft/textures/gui/sprites/icon/video_link.png
-+  minecraft/textures/gui/sprites/icon/video_link_highlighted.png
-+  minecraft/textures/gui/sprites/notification
-+  minecraft/textures/gui/sprites/notification/1.png
-+  minecraft/textures/gui/sprites/notification/2.png
-+  minecraft/textures/gui/sprites/notification/3.png
-+  minecraft/textures/gui/sprites/notification/4.png
-+  minecraft/textures/gui/sprites/notification/5.png
-+  minecraft/textures/gui/sprites/notification/more.png
-+  minecraft/textures/gui/sprites/pending_invite
-+  minecraft/textures/gui/sprites/pending_invite/accept.png
-+  minecraft/textures/gui/sprites/pending_invite/accept_highlighted.png
-+  minecraft/textures/gui/sprites/pending_invite/reject.png
-+  minecraft/textures/gui/sprites/pending_invite/reject_highlighted.png
-+  minecraft/textures/gui/sprites/player_list
-+  minecraft/textures/gui/sprites/player_list/make_operator.png
-+  minecraft/textures/gui/sprites/player_list/make_operator_highlighted.png
-+  minecraft/textures/gui/sprites/player_list/remove_operator.png
-+  minecraft/textures/gui/sprites/player_list/remove_operator_highlighted.png
-+  minecraft/textures/gui/sprites/player_list/remove_player.png
-+  minecraft/textures/gui/sprites/player_list/remove_player_highlighted.png
-+  minecraft/textures/gui/sprites/popup
-+  minecraft/textures/gui/sprites/popup/background.png
-+  minecraft/textures/gui/sprites/popup/background.png.mcmeta
-+  minecraft/textures/gui/sprites/realm_status
-+  minecraft/textures/gui/sprites/realm_status/closed.png
-+  minecraft/textures/gui/sprites/realm_status/expired.png
-+  minecraft/textures/gui/sprites/realm_status/expires_soon.png
-+  minecraft/textures/gui/sprites/realm_status/expires_soon.png.mcmeta
-+  minecraft/textures/gui/sprites/realm_status/open.png
-+  minecraft/textures/gui/sprites/recipe_book
-+  minecraft/textures/gui/sprites/recipe_book/button.png
-+  minecraft/textures/gui/sprites/recipe_book/button_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png
-+  minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png
-+  minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/filter_disabled.png
-+  minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/filter_enabled.png
-+  minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png
-+  minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta
-+  minecraft/textures/gui/sprites/recipe_book/page_backward.png
-+  minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/page_forward.png
-+  minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png
-+  minecraft/textures/gui/sprites/recipe_book/slot_craftable.png
-+  minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png
-+  minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png
-+  minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png
-+  minecraft/textures/gui/sprites/recipe_book/tab.png
-+  minecraft/textures/gui/sprites/recipe_book/tab_selected.png
-+  minecraft/textures/gui/sprites/server_list
-+  minecraft/textures/gui/sprites/server_list/incompatible.png
-+  minecraft/textures/gui/sprites/server_list/join.png
-+  minecraft/textures/gui/sprites/server_list/join_highlighted.png
-+  minecraft/textures/gui/sprites/server_list/move_down.png
-+  minecraft/textures/gui/sprites/server_list/move_down_highlighted.png
-+  minecraft/textures/gui/sprites/server_list/move_up.png
-+  minecraft/textures/gui/sprites/server_list/move_up_highlighted.png
-+  minecraft/textures/gui/sprites/server_list/ping_1.png
-+  minecraft/textures/gui/sprites/server_list/ping_2.png
-+  minecraft/textures/gui/sprites/server_list/ping_3.png
-+  minecraft/textures/gui/sprites/server_list/ping_4.png
-+  minecraft/textures/gui/sprites/server_list/ping_5.png
-+  minecraft/textures/gui/sprites/server_list/pinging_1.png
-+  minecraft/textures/gui/sprites/server_list/pinging_2.png
-+  minecraft/textures/gui/sprites/server_list/pinging_3.png
-+  minecraft/textures/gui/sprites/server_list/pinging_4.png
-+  minecraft/textures/gui/sprites/server_list/pinging_5.png
-+  minecraft/textures/gui/sprites/server_list/unreachable.png
-+  minecraft/textures/gui/sprites/social_interactions
-+  minecraft/textures/gui/sprites/social_interactions/background.png
-+  minecraft/textures/gui/sprites/social_interactions/background.png.mcmeta
-+  minecraft/textures/gui/sprites/social_interactions/mute_button.png
-+  minecraft/textures/gui/sprites/social_interactions/mute_button_highlighted.png
-+  minecraft/textures/gui/sprites/social_interactions/report_button.png
-+  minecraft/textures/gui/sprites/social_interactions/report_button_disabled.png
-+  minecraft/textures/gui/sprites/social_interactions/report_button_highlighted.png
-+  minecraft/textures/gui/sprites/social_interactions/unmute_button.png
-+  minecraft/textures/gui/sprites/social_interactions/unmute_button_highlighted.png
-+  minecraft/textures/gui/sprites/spectator
-+  minecraft/textures/gui/sprites/spectator/close.png
-+  minecraft/textures/gui/sprites/spectator/scroll_left.png
-+  minecraft/textures/gui/sprites/spectator/scroll_right.png
-+  minecraft/textures/gui/sprites/spectator/teleport_to_player.png
-+  minecraft/textures/gui/sprites/spectator/teleport_to_team.png
-+  minecraft/textures/gui/sprites/statistics
-+  minecraft/textures/gui/sprites/statistics/block_mined.png
-+  minecraft/textures/gui/sprites/statistics/header.png
-+  minecraft/textures/gui/sprites/statistics/item_broken.png
-+  minecraft/textures/gui/sprites/statistics/item_crafted.png
-+  minecraft/textures/gui/sprites/statistics/item_dropped.png
-+  minecraft/textures/gui/sprites/statistics/item_picked_up.png
-+  minecraft/textures/gui/sprites/statistics/item_used.png
-+  minecraft/textures/gui/sprites/statistics/sort_down.png
-+  minecraft/textures/gui/sprites/statistics/sort_up.png
-+  minecraft/textures/gui/sprites/toast
-+  minecraft/textures/gui/sprites/toast/advancement.png
-+  minecraft/textures/gui/sprites/toast/mouse.png
-+  minecraft/textures/gui/sprites/toast/movement_keys.png
-+  minecraft/textures/gui/sprites/toast/recipe.png
-+  minecraft/textures/gui/sprites/toast/recipe_book.png
-+  minecraft/textures/gui/sprites/toast/right_click.png
-+  minecraft/textures/gui/sprites/toast/social_interactions.png
-+  minecraft/textures/gui/sprites/toast/system.png
-+  minecraft/textures/gui/sprites/toast/tree.png
-+  minecraft/textures/gui/sprites/toast/tutorial.png
-+  minecraft/textures/gui/sprites/toast/wooden_planks.png
-+  minecraft/textures/gui/sprites/transferable_list
-+  minecraft/textures/gui/sprites/transferable_list/move_down.png
-+  minecraft/textures/gui/sprites/transferable_list/move_down_highlighted.png
-+  minecraft/textures/gui/sprites/transferable_list/move_up.png
-+  minecraft/textures/gui/sprites/transferable_list/move_up_highlighted.png
-+  minecraft/textures/gui/sprites/transferable_list/select.png
-+  minecraft/textures/gui/sprites/transferable_list/select_highlighted.png
-+  minecraft/textures/gui/sprites/transferable_list/unselect.png
-+  minecraft/textures/gui/sprites/transferable_list/unselect_highlighted.png
-+  minecraft/textures/gui/sprites/widget
-+  minecraft/textures/gui/sprites/widget/button.png
-+  minecraft/textures/gui/sprites/widget/button.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/button_disabled.png
-+  minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/button_highlighted.png
-+  minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/checkbox.png
-+  minecraft/textures/gui/sprites/widget/checkbox_highlighted.png
-+  minecraft/textures/gui/sprites/widget/checkbox_selected.png
-+  minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png
-+  minecraft/textures/gui/sprites/widget/cross_button.png
-+  minecraft/textures/gui/sprites/widget/cross_button_highlighted.png
-+  minecraft/textures/gui/sprites/widget/locked_button.png
-+  minecraft/textures/gui/sprites/widget/locked_button_disabled.png
-+  minecraft/textures/gui/sprites/widget/locked_button_highlighted.png
-+  minecraft/textures/gui/sprites/widget/page_backward.png
-+  minecraft/textures/gui/sprites/widget/page_backward_highlighted.png
-+  minecraft/textures/gui/sprites/widget/page_forward.png
-+  minecraft/textures/gui/sprites/widget/page_forward_highlighted.png
-+  minecraft/textures/gui/sprites/widget/slider.png
-+  minecraft/textures/gui/sprites/widget/slider.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/slider_handle.png
-+  minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png
-+  minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/slider_highlighted.png
-+  minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/slot_frame.png
-+  minecraft/textures/gui/sprites/widget/tab.png
-+  minecraft/textures/gui/sprites/widget/tab.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/tab_highlighted.png
-+  minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/tab_selected.png
-+  minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png
-+  minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/unlocked_button.png
-+  minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png
-+  minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png
-+  minecraft/textures/gui/sprites/world_list
-+  minecraft/textures/gui/sprites/world_list/error.png
-+  minecraft/textures/gui/sprites/world_list/error_highlighted.png
-+  minecraft/textures/gui/sprites/world_list/join.png
-+  minecraft/textures/gui/sprites/world_list/join_highlighted.png
-+  minecraft/textures/gui/sprites/world_list/marked_join.png
-+  minecraft/textures/gui/sprites/world_list/marked_join_highlighted.png
-+  minecraft/textures/gui/sprites/world_list/warning.png
-+  minecraft/textures/gui/sprites/world_list/warning_highlighted.png
-+  minecraft/textures/gui/title/realms.png
-+  minecraft/textures/gui/title/realms.png.mcmeta
--  minecraft/textures/gui/accessibility.png
--  minecraft/textures/gui/bars.png
--  minecraft/textures/gui/chat_tags.png
--  minecraft/textures/gui/checkbox.png
--  minecraft/textures/gui/checkmark.png
--  minecraft/textures/gui/icons.png
--  minecraft/textures/gui/info_icon.png
--  minecraft/textures/gui/recipe_button.png
--  minecraft/textures/gui/report_button.png
--  minecraft/textures/gui/resource_packs.png
--  minecraft/textures/gui/server_selection.png
--  minecraft/textures/gui/slider.png
--  minecraft/textures/gui/social_interactions.png
--  minecraft/textures/gui/spectator_widgets.png
--  minecraft/textures/gui/stream_indicator.png
--  minecraft/textures/gui/tab_button.png
--  minecraft/textures/gui/toasts.png
--  minecraft/textures/gui/unseen_notification.png
--  minecraft/textures/gui/widgets.png
--  minecraft/textures/gui/world_selection.png
--  /realms
--  realms/textures
--  realms/textures/gui
--  realms/textures/gui/realms
--  realms/textures/gui/realms/accept_icon.png
--  realms/textures/gui/realms/adventure.png
--  realms/textures/gui/realms/cross_icon.png
--  realms/textures/gui/realms/cross_player_icon.png
--  realms/textures/gui/realms/darken.png
--  realms/textures/gui/realms/empty_frame.png
--  realms/textures/gui/realms/experience.png
--  realms/textures/gui/realms/expired_icon.png
--  realms/textures/gui/realms/expires_soon_icon.png
--  realms/textures/gui/realms/inspiration.png
--  realms/textures/gui/realms/invitation_icons.png
--  realms/textures/gui/realms/invite_icon.png
--  realms/textures/gui/realms/link_icons.png
--  realms/textures/gui/realms/new_world.png
--  realms/textures/gui/realms/news_icon.png
--  realms/textures/gui/realms/news_notification_mainscreen.png
--  realms/textures/gui/realms/off_icon.png
--  realms/textures/gui/realms/on_icon.png
--  realms/textures/gui/realms/op_icon.png
--  realms/textures/gui/realms/plus_icon.png
--  realms/textures/gui/realms/popup.png
--  realms/textures/gui/realms/reject_icon.png
--  realms/textures/gui/realms/restore_icon.png
--  realms/textures/gui/realms/slot_frame.png
--  realms/textures/gui/realms/survival_spawn.png
--  realms/textures/gui/realms/trailer_icons.png
--  realms/textures/gui/realms/trial_icon.png
--  realms/textures/gui/realms/upload.png
--  realms/textures/gui/realms/user_icon.png
--  realms/textures/gui/realms/world_icon.png
--  realms/textures/gui/title
--  realms/textures/gui/title/realms.png
--  realms/textures/gui/title/realms.png.mcmeta
-```
 
-</details>
-
-## Registries
-
-<details><summary>attribute.txt</summary>
-
-```diff
-+ minecraft:generic.max_absorption
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-- minecraft:entity_roar
-- minecraft:entity_shake
-+ minecraft:entity_action
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.sponge.absorb
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ random.txt
-```
-
-</details>
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute if function <function: function>
-+ execute unless function <function: function>
-```
-
-</details>
-
-<details><summary>function.txt</summary>
-
-```diff
-- function <name: function>
-+ function <name: function> <arguments: nbt_compound_tag>
-+ function <name: function> with block <sourcePos: block_pos> <path: nbt_path>
-+ function <name: function> with entity <source: entity> <path: nbt_path>
-+ function <name: function> with storage <source: resource_location> <path: nbt_path>
-```
-
-</details>
-
-<details><summary>return.txt</summary>
-
-```diff
-+ return run
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/camel_sand_step_sound_blocks.json
-+ blocks/concrete_powder.json
-+ damage_type/no_knockback.json
-+ entity_types/non_controlling_rider.json
-```
-
-</details>
-
-<details><summary>blocks/mineable/shovel.json</summary>
-
-```diff
-- minecraft:white_concrete_powder
-- minecraft:orange_concrete_powder
-- minecraft:magenta_concrete_powder
-- minecraft:light_blue_concrete_powder
-- minecraft:yellow_concrete_powder
-- minecraft:lime_concrete_powder
-- minecraft:pink_concrete_powder
-- minecraft:gray_concrete_powder
-- minecraft:light_gray_concrete_powder
-- minecraft:cyan_concrete_powder
-- minecraft:purple_concrete_powder
-- minecraft:blue_concrete_powder
-- minecraft:brown_concrete_powder
-- minecraft:green_concrete_powder
-- minecraft:red_concrete_powder
-- minecraft:black_concrete_powder
-+ #minecraft:concrete_powder
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-- minecraft:entity_roar
-- minecraft:entity_shake
-+ minecraft:entity_action
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-- minecraft:entity_roar
-- minecraft:entity_shake
-+ minecraft:entity_action
-```
-
-</details>
-
-## Misc
-
-<details><summary>atlases.txt</summary>
-
-```diff
-+ gui.json
-```
-
-</details>
-
-<details><summary>datapacks.txt</summary>
-
-```diff
-+ trade_rebalance
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\releases\1.20.1\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/camel_sand_step_sound_blocks.json
-+ blocks/concrete_powder.json
-+ damage_type/no_knockback.json
-+ entity_types/non_controlling_rider.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- gui/accessibility.png
-- gui/advancements/tabs.png
-- gui/advancements/widgets.png
-- gui/bars.png
-- gui/chat_tags.png
-- gui/checkbox.png
-- gui/checkmark.png
-- gui/container/bundle.png
-- gui/container/creative_inventory/tabs.png
-- gui/container/legacy_smithing.png
-- gui/container/stats_icons.png
-- gui/container/villager2.png
-- gui/icons.png
-- gui/info_icon.png
-- gui/recipe_button.png
-- gui/report_button.png
-- gui/resource_packs.png
-- gui/server_selection.png
-- gui/slider.png
-- gui/social_interactions.png
-- gui/spectator_widgets.png
-- gui/stream_indicator.png
-- gui/tab_button.png
-- gui/toasts.png
-- gui/unseen_notification.png
-- gui/widgets.png
-- gui/world_selection.png
-+ gui/container/villager.png
-+ gui/realms/adventure.png
-+ gui/realms/empty_frame.png
-+ gui/realms/experience.png
-+ gui/realms/inspiration.png
-+ gui/realms/new_world.png
-+ gui/realms/no_realms.png
-+ gui/realms/survival_spawn.png
-+ gui/realms/upload.png
-+ gui/sprites/advancements/box_obtained.png
-+ gui/sprites/advancements/box_unobtained.png
-+ gui/sprites/advancements/challenge_frame_obtained.png
-+ gui/sprites/advancements/challenge_frame_unobtained.png
-+ gui/sprites/advancements/goal_frame_obtained.png
-+ gui/sprites/advancements/goal_frame_unobtained.png
-+ gui/sprites/advancements/tab_above_left.png
-+ gui/sprites/advancements/tab_above_left_selected.png
-+ gui/sprites/advancements/tab_above_middle.png
-+ gui/sprites/advancements/tab_above_middle_selected.png
-+ gui/sprites/advancements/tab_above_right.png
-+ gui/sprites/advancements/tab_above_right_selected.png
-+ gui/sprites/advancements/tab_below_left.png
-+ gui/sprites/advancements/tab_below_left_selected.png
-+ gui/sprites/advancements/tab_below_middle.png
-+ gui/sprites/advancements/tab_below_middle_selected.png
-+ gui/sprites/advancements/tab_below_right.png
-+ gui/sprites/advancements/tab_below_right_selected.png
-+ gui/sprites/advancements/tab_left_bottom.png
-+ gui/sprites/advancements/tab_left_bottom_selected.png
-+ gui/sprites/advancements/tab_left_middle.png
-+ gui/sprites/advancements/tab_left_middle_selected.png
-+ gui/sprites/advancements/tab_left_top.png
-+ gui/sprites/advancements/tab_left_top_selected.png
-+ gui/sprites/advancements/tab_right_bottom.png
-+ gui/sprites/advancements/tab_right_bottom_selected.png
-+ gui/sprites/advancements/tab_right_middle.png
-+ gui/sprites/advancements/tab_right_middle_selected.png
-+ gui/sprites/advancements/tab_right_top.png
-+ gui/sprites/advancements/tab_right_top_selected.png
-+ gui/sprites/advancements/task_frame_obtained.png
-+ gui/sprites/advancements/task_frame_unobtained.png
-+ gui/sprites/advancements/title_box.png
-+ gui/sprites/backup/changes.png
-+ gui/sprites/backup/changes_highlighted.png
-+ gui/sprites/backup/restore.png
-+ gui/sprites/backup/restore_highlighted.png
-+ gui/sprites/boss_bar/blue_background.png
-+ gui/sprites/boss_bar/blue_progress.png
-+ gui/sprites/boss_bar/green_background.png
-+ gui/sprites/boss_bar/green_progress.png
-+ gui/sprites/boss_bar/notched_10_background.png
-+ gui/sprites/boss_bar/notched_10_progress.png
-+ gui/sprites/boss_bar/notched_12_background.png
-+ gui/sprites/boss_bar/notched_12_progress.png
-+ gui/sprites/boss_bar/notched_20_background.png
-+ gui/sprites/boss_bar/notched_20_progress.png
-+ gui/sprites/boss_bar/notched_6_background.png
-+ gui/sprites/boss_bar/notched_6_progress.png
-+ gui/sprites/boss_bar/pink_background.png
-+ gui/sprites/boss_bar/pink_progress.png
-+ gui/sprites/boss_bar/purple_background.png
-+ gui/sprites/boss_bar/purple_progress.png
-+ gui/sprites/boss_bar/red_background.png
-+ gui/sprites/boss_bar/red_progress.png
-+ gui/sprites/boss_bar/white_background.png
-+ gui/sprites/boss_bar/white_progress.png
-+ gui/sprites/boss_bar/yellow_background.png
-+ gui/sprites/boss_bar/yellow_progress.png
-+ gui/sprites/container/anvil/error.png
-+ gui/sprites/container/anvil/text_field.png
-+ gui/sprites/container/anvil/text_field_disabled.png
-+ gui/sprites/container/beacon/button.png
-+ gui/sprites/container/beacon/button_disabled.png
-+ gui/sprites/container/beacon/button_highlighted.png
-+ gui/sprites/container/beacon/button_selected.png
-+ gui/sprites/container/beacon/cancel.png
-+ gui/sprites/container/beacon/confirm.png
-+ gui/sprites/container/blast_furnace/burn_progress.png
-+ gui/sprites/container/blast_furnace/lit_progress.png
-+ gui/sprites/container/brewing_stand/brew_progress.png
-+ gui/sprites/container/brewing_stand/bubbles.png
-+ gui/sprites/container/brewing_stand/fuel_length.png
-+ gui/sprites/container/bundle/background.png
-+ gui/sprites/container/bundle/blocked_slot.png
-+ gui/sprites/container/bundle/slot.png
-+ gui/sprites/container/cartography_table/duplicated_map.png
-+ gui/sprites/container/cartography_table/error.png
-+ gui/sprites/container/cartography_table/locked.png
-+ gui/sprites/container/cartography_table/map.png
-+ gui/sprites/container/cartography_table/scaled_map.png
-+ gui/sprites/container/creative_inventory/scroller.png
-+ gui/sprites/container/creative_inventory/scroller_disabled.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_1.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_2.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_3.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_4.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_5.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_6.png
-+ gui/sprites/container/creative_inventory/tab_bottom_selected_7.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png
-+ gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_1.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_2.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_3.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_4.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_5.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_6.png
-+ gui/sprites/container/creative_inventory/tab_top_selected_7.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_1.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_2.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_3.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_4.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_5.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_6.png
-+ gui/sprites/container/creative_inventory/tab_top_unselected_7.png
-+ gui/sprites/container/enchanting_table/enchantment_slot.png
-+ gui/sprites/container/enchanting_table/enchantment_slot_disabled.png
-+ gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png
-+ gui/sprites/container/enchanting_table/level_1.png
-+ gui/sprites/container/enchanting_table/level_1_disabled.png
-+ gui/sprites/container/enchanting_table/level_2.png
-+ gui/sprites/container/enchanting_table/level_2_disabled.png
-+ gui/sprites/container/enchanting_table/level_3.png
-+ gui/sprites/container/enchanting_table/level_3_disabled.png
-+ gui/sprites/container/furnace/burn_progress.png
-+ gui/sprites/container/furnace/lit_progress.png
-+ gui/sprites/container/grindstone/error.png
-+ gui/sprites/container/horse/armor_slot.png
-+ gui/sprites/container/horse/chest_slots.png
-+ gui/sprites/container/horse/llama_armor_slot.png
-+ gui/sprites/container/horse/saddle_slot.png
-+ gui/sprites/container/inventory/effect_background_large.png
-+ gui/sprites/container/inventory/effect_background_small.png
-+ gui/sprites/container/loom/banner_slot.png
-+ gui/sprites/container/loom/dye_slot.png
-+ gui/sprites/container/loom/pattern.png
-+ gui/sprites/container/loom/pattern_highlighted.png
-+ gui/sprites/container/loom/pattern_selected.png
-+ gui/sprites/container/loom/pattern_slot.png
-+ gui/sprites/container/loom/scroller.png
-+ gui/sprites/container/loom/scroller_disabled.png
-+ gui/sprites/container/slot.png
-+ gui/sprites/container/smithing/error.png
-+ gui/sprites/container/smoker/burn_progress.png
-+ gui/sprites/container/smoker/lit_progress.png
-+ gui/sprites/container/stonecutter/recipe.png
-+ gui/sprites/container/stonecutter/recipe_highlighted.png
-+ gui/sprites/container/stonecutter/recipe_selected.png
-+ gui/sprites/container/stonecutter/scroller.png
-+ gui/sprites/container/stonecutter/scroller_disabled.png
-+ gui/sprites/container/villager/discount_strikethrough.png
-+ gui/sprites/container/villager/experience_bar_background.png
-+ gui/sprites/container/villager/experience_bar_current.png
-+ gui/sprites/container/villager/experience_bar_result.png
-+ gui/sprites/container/villager/out_of_stock.png
-+ gui/sprites/container/villager/scroller.png
-+ gui/sprites/container/villager/scroller_disabled.png
-+ gui/sprites/container/villager/trade_arrow.png
-+ gui/sprites/container/villager/trade_arrow_out_of_stock.png
-+ gui/sprites/gamemode_switcher/selection.png
-+ gui/sprites/gamemode_switcher/slot.png
-+ gui/sprites/hud/air.png
-+ gui/sprites/hud/air_bursting.png
-+ gui/sprites/hud/armor_empty.png
-+ gui/sprites/hud/armor_full.png
-+ gui/sprites/hud/armor_half.png
-+ gui/sprites/hud/crosshair.png
-+ gui/sprites/hud/crosshair_attack_indicator_background.png
-+ gui/sprites/hud/crosshair_attack_indicator_full.png
-+ gui/sprites/hud/crosshair_attack_indicator_progress.png
-+ gui/sprites/hud/effect_background.png
-+ gui/sprites/hud/effect_background_ambient.png
-+ gui/sprites/hud/experience_bar_background.png
-+ gui/sprites/hud/experience_bar_progress.png
-+ gui/sprites/hud/food_empty.png
-+ gui/sprites/hud/food_empty_hunger.png
-+ gui/sprites/hud/food_full.png
-+ gui/sprites/hud/food_full_hunger.png
-+ gui/sprites/hud/food_half.png
-+ gui/sprites/hud/food_half_hunger.png
-+ gui/sprites/hud/heart/absorbing_full.png
-+ gui/sprites/hud/heart/absorbing_full_blinking.png
-+ gui/sprites/hud/heart/absorbing_half.png
-+ gui/sprites/hud/heart/absorbing_half_blinking.png
-+ gui/sprites/hud/heart/absorbing_hardcore_full.png
-+ gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png
-+ gui/sprites/hud/heart/absorbing_hardcore_half.png
-+ gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png
-+ gui/sprites/hud/heart/container.png
-+ gui/sprites/hud/heart/container_blinking.png
-+ gui/sprites/hud/heart/container_hardcore.png
-+ gui/sprites/hud/heart/container_hardcore_blinking.png
-+ gui/sprites/hud/heart/frozen_full.png
-+ gui/sprites/hud/heart/frozen_full_blinking.png
-+ gui/sprites/hud/heart/frozen_half.png
-+ gui/sprites/hud/heart/frozen_half_blinking.png
-+ gui/sprites/hud/heart/frozen_hardcore_full.png
-+ gui/sprites/hud/heart/frozen_hardcore_full_blinking.png
-+ gui/sprites/hud/heart/frozen_hardcore_half.png
-+ gui/sprites/hud/heart/frozen_hardcore_half_blinking.png
-+ gui/sprites/hud/heart/full.png
-+ gui/sprites/hud/heart/full_blinking.png
-+ gui/sprites/hud/heart/half.png
-+ gui/sprites/hud/heart/half_blinking.png
-+ gui/sprites/hud/heart/hardcore_full.png
-+ gui/sprites/hud/heart/hardcore_full_blinking.png
-+ gui/sprites/hud/heart/hardcore_half.png
-+ gui/sprites/hud/heart/hardcore_half_blinking.png
-+ gui/sprites/hud/heart/poisoned_full.png
-+ gui/sprites/hud/heart/poisoned_full_blinking.png
-+ gui/sprites/hud/heart/poisoned_half.png
-+ gui/sprites/hud/heart/poisoned_half_blinking.png
-+ gui/sprites/hud/heart/poisoned_hardcore_full.png
-+ gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png
-+ gui/sprites/hud/heart/poisoned_hardcore_half.png
-+ gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png
-+ gui/sprites/hud/heart/vehicle_container.png
-+ gui/sprites/hud/heart/vehicle_full.png
-+ gui/sprites/hud/heart/vehicle_half.png
-+ gui/sprites/hud/heart/withered_full.png
-+ gui/sprites/hud/heart/withered_full_blinking.png
-+ gui/sprites/hud/heart/withered_half.png
-+ gui/sprites/hud/heart/withered_half_blinking.png
-+ gui/sprites/hud/heart/withered_hardcore_full.png
-+ gui/sprites/hud/heart/withered_hardcore_full_blinking.png
-+ gui/sprites/hud/heart/withered_hardcore_half.png
-+ gui/sprites/hud/heart/withered_hardcore_half_blinking.png
-+ gui/sprites/hud/hotbar.png
-+ gui/sprites/hud/hotbar_attack_indicator_background.png
-+ gui/sprites/hud/hotbar_attack_indicator_progress.png
-+ gui/sprites/hud/hotbar_offhand_left.png
-+ gui/sprites/hud/hotbar_offhand_right.png
-+ gui/sprites/hud/hotbar_selection.png
-+ gui/sprites/hud/jump_bar_background.png
-+ gui/sprites/hud/jump_bar_cooldown.png
-+ gui/sprites/hud/jump_bar_progress.png
-+ gui/sprites/icon/accessibility.png
-+ gui/sprites/icon/chat_modified.png
-+ gui/sprites/icon/checkmark.png
-+ gui/sprites/icon/draft_report.png
-+ gui/sprites/icon/info.png
-+ gui/sprites/icon/invite.png
-+ gui/sprites/icon/language.png
-+ gui/sprites/icon/link.png
-+ gui/sprites/icon/link_highlighted.png
-+ gui/sprites/icon/news.png
-+ gui/sprites/icon/new_realm.png
-+ gui/sprites/icon/ping_1.png
-+ gui/sprites/icon/ping_2.png
-+ gui/sprites/icon/ping_3.png
-+ gui/sprites/icon/ping_4.png
-+ gui/sprites/icon/ping_5.png
-+ gui/sprites/icon/ping_unknown.png
-+ gui/sprites/icon/search.png
-+ gui/sprites/icon/trial_available.png
-+ gui/sprites/icon/unseen_notification.png
-+ gui/sprites/icon/video_link.png
-+ gui/sprites/icon/video_link_highlighted.png
-+ gui/sprites/notification/1.png
-+ gui/sprites/notification/2.png
-+ gui/sprites/notification/3.png
-+ gui/sprites/notification/4.png
-+ gui/sprites/notification/5.png
-+ gui/sprites/notification/more.png
-+ gui/sprites/pending_invite/accept.png
-+ gui/sprites/pending_invite/accept_highlighted.png
-+ gui/sprites/pending_invite/reject.png
-+ gui/sprites/pending_invite/reject_highlighted.png
-+ gui/sprites/player_list/make_operator.png
-+ gui/sprites/player_list/make_operator_highlighted.png
-+ gui/sprites/player_list/remove_operator.png
-+ gui/sprites/player_list/remove_operator_highlighted.png
-+ gui/sprites/player_list/remove_player.png
-+ gui/sprites/player_list/remove_player_highlighted.png
-+ gui/sprites/popup/background.png
-+ gui/sprites/realm_status/closed.png
-+ gui/sprites/realm_status/expired.png
-+ gui/sprites/realm_status/expires_soon.png
-+ gui/sprites/realm_status/open.png
-+ gui/sprites/recipe_book/button.png
-+ gui/sprites/recipe_book/button_highlighted.png
-+ gui/sprites/recipe_book/crafting_overlay.png
-+ gui/sprites/recipe_book/crafting_overlay_disabled.png
-+ gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png
-+ gui/sprites/recipe_book/crafting_overlay_highlighted.png
-+ gui/sprites/recipe_book/filter_disabled.png
-+ gui/sprites/recipe_book/filter_disabled_highlighted.png
-+ gui/sprites/recipe_book/filter_enabled.png
-+ gui/sprites/recipe_book/filter_enabled_highlighted.png
-+ gui/sprites/recipe_book/furnace_filter_disabled.png
-+ gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png
-+ gui/sprites/recipe_book/furnace_filter_enabled.png
-+ gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png
-+ gui/sprites/recipe_book/furnace_overlay.png
-+ gui/sprites/recipe_book/furnace_overlay_disabled.png
-+ gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png
-+ gui/sprites/recipe_book/furnace_overlay_highlighted.png
-+ gui/sprites/recipe_book/overlay_recipe.png
-+ gui/sprites/recipe_book/page_backward.png
-+ gui/sprites/recipe_book/page_backward_highlighted.png
-+ gui/sprites/recipe_book/page_forward.png
-+ gui/sprites/recipe_book/page_forward_highlighted.png
-+ gui/sprites/recipe_book/slot_craftable.png
-+ gui/sprites/recipe_book/slot_many_craftable.png
-+ gui/sprites/recipe_book/slot_many_uncraftable.png
-+ gui/sprites/recipe_book/slot_uncraftable.png
-+ gui/sprites/recipe_book/tab.png
-+ gui/sprites/recipe_book/tab_selected.png
-+ gui/sprites/server_list/incompatible.png
-+ gui/sprites/server_list/join.png
-+ gui/sprites/server_list/join_highlighted.png
-+ gui/sprites/server_list/move_down.png
-+ gui/sprites/server_list/move_down_highlighted.png
-+ gui/sprites/server_list/move_up.png
-+ gui/sprites/server_list/move_up_highlighted.png
-+ gui/sprites/server_list/pinging_1.png
-+ gui/sprites/server_list/pinging_2.png
-+ gui/sprites/server_list/pinging_3.png
-+ gui/sprites/server_list/pinging_4.png
-+ gui/sprites/server_list/pinging_5.png
-+ gui/sprites/server_list/ping_1.png
-+ gui/sprites/server_list/ping_2.png
-+ gui/sprites/server_list/ping_3.png
-+ gui/sprites/server_list/ping_4.png
-+ gui/sprites/server_list/ping_5.png
-+ gui/sprites/server_list/unreachable.png
-+ gui/sprites/social_interactions/background.png
-+ gui/sprites/social_interactions/mute_button.png
-+ gui/sprites/social_interactions/mute_button_highlighted.png
-+ gui/sprites/social_interactions/report_button.png
-+ gui/sprites/social_interactions/report_button_disabled.png
-+ gui/sprites/social_interactions/report_button_highlighted.png
-+ gui/sprites/social_interactions/unmute_button.png
-+ gui/sprites/social_interactions/unmute_button_highlighted.png
-+ gui/sprites/spectator/close.png
-+ gui/sprites/spectator/scroll_left.png
-+ gui/sprites/spectator/scroll_right.png
-+ gui/sprites/spectator/teleport_to_player.png
-+ gui/sprites/spectator/teleport_to_team.png
-+ gui/sprites/statistics/block_mined.png
-+ gui/sprites/statistics/header.png
-+ gui/sprites/statistics/item_broken.png
-+ gui/sprites/statistics/item_crafted.png
-+ gui/sprites/statistics/item_dropped.png
-+ gui/sprites/statistics/item_picked_up.png
-+ gui/sprites/statistics/item_used.png
-+ gui/sprites/statistics/sort_down.png
-+ gui/sprites/statistics/sort_up.png
-+ gui/sprites/toast/advancement.png
-+ gui/sprites/toast/mouse.png
-+ gui/sprites/toast/movement_keys.png
-+ gui/sprites/toast/recipe.png
-+ gui/sprites/toast/recipe_book.png
-+ gui/sprites/toast/right_click.png
-+ gui/sprites/toast/social_interactions.png
-+ gui/sprites/toast/system.png
-+ gui/sprites/toast/tree.png
-+ gui/sprites/toast/tutorial.png
-+ gui/sprites/toast/wooden_planks.png
-+ gui/sprites/transferable_list/move_down.png
-+ gui/sprites/transferable_list/move_down_highlighted.png
-+ gui/sprites/transferable_list/move_up.png
-+ gui/sprites/transferable_list/move_up_highlighted.png
-+ gui/sprites/transferable_list/select.png
-+ gui/sprites/transferable_list/select_highlighted.png
-+ gui/sprites/transferable_list/unselect.png
-+ gui/sprites/transferable_list/unselect_highlighted.png
-+ gui/sprites/widget/button.png
-+ gui/sprites/widget/button_disabled.png
-+ gui/sprites/widget/button_highlighted.png
-+ gui/sprites/widget/checkbox.png
-+ gui/sprites/widget/checkbox_highlighted.png
-+ gui/sprites/widget/checkbox_selected.png
-+ gui/sprites/widget/checkbox_selected_highlighted.png
-+ gui/sprites/widget/cross_button.png
-+ gui/sprites/widget/cross_button_highlighted.png
-+ gui/sprites/widget/locked_button.png
-+ gui/sprites/widget/locked_button_disabled.png
-+ gui/sprites/widget/locked_button_highlighted.png
-+ gui/sprites/widget/page_backward.png
-+ gui/sprites/widget/page_backward_highlighted.png
-+ gui/sprites/widget/page_forward.png
-+ gui/sprites/widget/page_forward_highlighted.png
-+ gui/sprites/widget/slider.png
-+ gui/sprites/widget/slider_handle.png
-+ gui/sprites/widget/slider_handle_highlighted.png
-+ gui/sprites/widget/slider_highlighted.png
-+ gui/sprites/widget/slot_frame.png
-+ gui/sprites/widget/tab.png
-+ gui/sprites/widget/tab_highlighted.png
-+ gui/sprites/widget/tab_selected.png
-+ gui/sprites/widget/tab_selected_highlighted.png
-+ gui/sprites/widget/unlocked_button.png
-+ gui/sprites/widget/unlocked_button_disabled.png
-+ gui/sprites/widget/unlocked_button_highlighted.png
-+ gui/sprites/world_list/error.png
-+ gui/sprites/world_list/error_highlighted.png
-+ gui/sprites/world_list/join.png
-+ gui/sprites/world_list/join_highlighted.png
-+ gui/sprites/world_list/marked_join.png
-+ gui/sprites/world_list/marked_join_highlighted.png
-+ gui/sprites/world_list/warning.png
-+ gui/sprites/world_list/warning_highlighted.png
-+ gui/title/realms.png
-```
-
-</details>
-
-<details><summary>worldgen/configured_feature.txt</summary>
-
-```diff
-+ ore_diamond_medium.json
-```
-
-</details>
-
-<details><summary>worldgen/placed_feature.txt</summary>
-
-```diff
-+ ore_diamond_medium.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:4.0.43
-+ com.mojang:authlib:5.0.46
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.client.RealmsClient</summary>
-
-```diff
-+ RealmsClient$Environment ENVIRONMENT
-- boolean initialized
-- RealmsClient$Environment currentEnvironment
-- String PATH_STAGE_AVAILABLE
-+ boolean hasParentalConsent()
-+ Ops deop(UUID)
-+ Ops op(UUID)
-+ Optional lambda$static$0()
-+ void uninvite(UUID)
-- Boolean mcoEnabled()
-- Boolean stageAvailable()
-- Ops deop(String)
-- Ops op(String)
-- Optional lambda$create$0()
-- String getHttpCodeDescription(int)
-- void lambda$create$1(RealmsClient$Environment)
-- void switchToLocal()
-- void switchToProd()
-- void switchToStage()
-- void uninvite(String)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.client.RealmsError</summary>
-
-```diff
-+ Component errorMessage()
-+ Component NO_MESSAGE
-+ int errorCode()
-+ String logMessage()
-- int errorCode
-- String errorMessage
-+ RealmsError parse(String)
-- int getErrorCode()
-- RealmsError parse(String)
-- String getErrorMessage()
-- void <init>(String,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.PendingInvite</summary>
-
-```diff
-+ UUID worldOwnerUuid
-- String worldOwnerUuid
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.RealmsServer</summary>
-
-```diff
-+ UUID ownerUUID
-- String ownerUUID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.ErrorCallback</summary>
-
-```diff
-+ void error(Exception)
-+ void error(RealmsServiceException)
-- void error(String)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton</summary>
-
-```diff
-+ ResourceLocation CHECKMARK_SPRITE
-+ ResourceLocation SLOT_FRAME_SPRITE
-- ResourceLocation CHECK_MARK_LOCATION
-- ResourceLocation SLOT_FRAME_LOCATION
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen</summary>
-
-```diff
-- ResourceLocation PLUS_ICON_LOCATION
-- ResourceLocation RESTORE_ICON_LOCATION
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
-
-```diff
-- void renderBackground(GuiGraphics)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBrokenWorldScreen</summary>
-
-```diff
-+ ResourceLocation SLOT_FRAME_SPRITE
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
-
-```diff
-+ ResourceLocation CLOSED_SPRITE
-+ ResourceLocation EXPIRED_SPRITE
-+ ResourceLocation EXPIRES_SOON_SPRITE
-+ ResourceLocation OPEN_SPRITE
-- int animTick
-- ResourceLocation EXPIRED_ICON_LOCATION
-- ResourceLocation EXPIRES_SOON_ICON_LOCATION
-- ResourceLocation OFF_ICON_LOCATION
-- ResourceLocation ON_ICON_LOCATION
-- void renderMousehoverTooltip(Component,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsInviteScreen</summary>
-
-```diff
-- void tick()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
-
-```diff
-+ CompletableFuture validClient
-+ ResourceLocation INVITE_SPRITE
-+ ResourceLocation NEWS_SPRITE
-+ ResourceLocation TRIAL_AVAILABLE_SPRITE
-+ ResourceLocation UNSEEN_NOTIFICATION_SPRITE
-- boolean checkedMcoAvailability
-- boolean validClient
-- ResourceLocation INVITE_ICON_LOCATION
-- ResourceLocation NEWS_ICON_LOCATION
-- ResourceLocation TRIAL_ICON_LOCATION
-- ResourceLocation UNSEEN_NOTIFICATION_ICON_LOCATION
-+ Boolean lambda$new$0(RealmsAvailability$Result)
-+ void lambda$addNewsAndInvitesSubscriptions$1(Integer)
-+ void lambda$addNewsAndInvitesSubscriptions$2(Boolean)
-+ void lambda$addNewsAndInvitesSubscriptions$3(RealmsNews)
-+ void lambda$addNotificationsSubscriptions$4(List)
-+ void renderBackground(GuiGraphics,int,int,float)
-- void checkIfMcoEnabled()
-- void lambda$addNewsAndInvitesSubscriptions$0(Integer)
-- void lambda$addNewsAndInvitesSubscriptions$1(Boolean)
-- void lambda$addNewsAndInvitesSubscriptions$2(RealmsNews)
-- void lambda$addNotificationsSubscriptions$3(List)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-- ResourceLocation CROSS_ICON_LOCATION
-- ResourceLocation OP_ICON_LOCATION
-- ResourceLocation USER_ICON_LOCATION
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
-
-```diff
-- void renderBackground(GuiGraphics)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSelectionList</summary>
-
-```diff
-- boolean renderTopAndBottom
-+ boolean mouseScrolled(double,double,double,double)
-- boolean mouseScrolled(double,double,double)
-- void renderBackground(GuiGraphics)
-- void setRenderTopAndBottom(boolean)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSliderButton</summary>
-
-```diff
-+ ResourceLocation HIGHLIGHTED_SPRITE
-+ ResourceLocation SLIDER_HANDLE_HIGHLIGHTED_SPRITE
-+ ResourceLocation SLIDER_HANDLE_SPRITE
-+ ResourceLocation SLIDER_SPRITE
-- int BACKGROUND
-- int BACKGROUND_FOCUSED
-- int HANDLE
-- int HANDLE_FOCUSED
-- int TEXTURE_BORDER_X
-- int TEXTURE_BORDER_Y
-- int TEXTURE_HEIGHT
-- int TEXTURE_WIDTH
-- ResourceLocation SLIDER_LOCATION
-+ ResourceLocation getHandleSprite()
-+ ResourceLocation getSprite()
-- int getHandleTextureY()
-- int getTextureY()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
-
-```diff
-- ResourceLocation ACCESSIBILITY_TEXTURE
-- ResourceLocation WIDGETS_LOCATION
-+ void renderScrollingString(Component,int,int,int,int,int,int)
-- void <clinit>()
-- void renderTexture(ResourceLocation,int,int,int,int,int,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.ImageWidget</summary>
-
-```diff
-- ResourceLocation imageLocation
-+ boolean isActive()
-+ ComponentPath nextFocusPath(FocusNavigationEvent)
-+ ImageWidget sprite(ResourceLocation)
-+ ImageWidget texture(ResourceLocation,int,int)
-+ void <init>(int,int,int,int)
-+ void playDownSound(SoundManager)
-- void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
-- void renderWidget(GuiGraphics,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.events.ContainerEventHandler</summary>
-
-```diff
-+ boolean lambda$mouseScrolled$1(GuiEventListener)
-+ boolean mouseScrolled(double,double,double,double)
-- boolean lambda$mouseScrolled$1(GuiEventListener)
-- boolean mouseScrolled(double,double,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.spectator.SpectatorGui</summary>
-
-```diff
-+ ResourceLocation HOTBAR_SELECTION_SPRITE
-+ ResourceLocation HOTBAR_SPRITE
-- ResourceLocation SPECTATOR_LOCATION
-- ResourceLocation WIDGETS_LOCATION
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.tabs.TabManager</summary>
-
-```diff
-- void tickCurrent()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.AdvancementToast</summary>
-
-```diff
-+ ResourceLocation BACKGROUND_SPRITE
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.toasts.SystemToast</summary>
-
-```diff
-+ ResourceLocation BACKGROUND_SPRITE
-+ void <clinit>()
-+ void renderBackgroundRow(GuiGraphics,int,int,int,int)
-- void renderBackgroundRow(ToastComponent,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.toasts.Toast</summary>
-
-```diff
-- ResourceLocation TEXTURE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.TutorialToast</summary>
-
-```diff
-+ ResourceLocation BACKGROUND_SPRITE
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.providers.TrueTypeGlyphProviderDefinition</summary>
-
-```diff
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ String lambda$static$0(List)
-- App lambda$static$3(RecordCodecBuilder$Instance)
-- String lambda$static$0(String)
-- String lambda$static$1(List)
-- String lambda$static$2(Either)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.layouts.FrameLayout</summary>
-
-```diff
-+ LayoutElement addChild(Consumer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.layouts.GridLayout</summary>
-
-```diff
-+ LayoutElement addChild(Consumer)
-+ LayoutElement addChild(Consumer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.layouts.LinearLayout</summary>
-
-```diff
-+ GridLayout wrapped
-+ int nextChildIndex
-- LayoutSettings defaultChildLayoutSettings
-- List children
-+ int getHeight()
-+ int getWidth()
-+ int getX()
-+ int getY()
-+ LayoutElement addChild(Consumer)
-+ LayoutSettings defaultCellSetting()
-+ LayoutSettings newCellSettings()
-+ LinearLayout horizontal()
-+ LinearLayout spacing(int)
-+ LinearLayout vertical()
-+ void <init>(LinearLayout$Orientation)
-+ void setX(int)
-+ void setY(int)
-- LayoutSettings defaultChildLayoutSetting()
-- LayoutSettings newChildLayoutSettings()
-- void <init>(LinearLayout$Orientation)
-- void lambda$visitChildren$0(LinearLayout$ChildContainer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PauseScreen</summary>
-
-```diff
-+ ResourceLocation DRAFT_REPORT_SPRITE
-- Component DISCONNECT
-+ void renderBackground(GuiGraphics,int,int,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.Screen</summary>
-
-```diff
-+ void renderBackground(GuiGraphics,int,int,float)
-+ void renderTransparentBackground(GuiGraphics)
-- void renderBackground(GuiGraphics)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.SimpleOptionsSubScreen</summary>
-
-```diff
-+ void renderBackground(GuiGraphics,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.SoundOptionsScreen</summary>
-
-```diff
-+ void renderBackground(GuiGraphics,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementWidget</summary>
-
-```diff
-+ ResourceLocation TITLE_BOX_SPRITE
-- ResourceLocation WIDGETS_LOCATION
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionScreen</summary>
-
-```diff
-+ ResourceLocation lambda$getPackIcon$7(String)
-+ Stream extractPackNames(Collection)
-+ void lambda$onFilesDrop$5()
-+ void lambda$onFilesDrop$6(List,boolean)
-+ void renderBackground(GuiGraphics,int,int,float)
-- ResourceLocation lambda$getPackIcon$6(String)
-- void lambda$onFilesDrop$5(List,boolean)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$1</summary>
-
-```diff
-+ ServerAddress val$rawAddress
-+ void <init>(ServerAddress)
-- void <init>(InetSocketAddress)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.BeeDebugRenderer</summary>
-
-```diff
-+ boolean isBeeSelected(BeeDebugPayload$BeeInfo)
-+ boolean isPlayerCloseEnoughToMob(BeeDebugPayload$BeeInfo)
-+ boolean lambda$getHiveMembers$12(BeeDebugPayload$BeeInfo)
-+ boolean lambda$removeBeeInfo$0(BeeDebugPayload$BeeInfo)
-+ Set getHiveMemberNames(HiveDebugPayload$HiveInfo)
-+ String getPosDescription(BlockPos)
-+ void addOrUpdateBeeInfo(BeeDebugPayload$BeeInfo)
-+ void addOrUpdateHiveInfo(HiveDebugPayload$HiveInfo,long)
-+ void lambda$createHiveBlacklistMap$7(BlockPos)
-+ void lambda$createHiveBlacklistMap$8(BeeDebugPayload$BeeInfo)
-+ void lambda$doRender$3(BeeDebugPayload$BeeInfo)
-+ void lambda$doRender$4(BeeDebugRenderer$HiveDebugInfo)
-+ void lambda$renderFlowerInfos$10(BeeDebugPayload$BeeInfo)
-+ void lambda$renderFlowerInfos$11(Set)
-+ void renderBeeInfo(BeeDebugPayload$BeeInfo)
-+ void renderHiveInfo(Collection)
-+ void renderPath(BeeDebugPayload$BeeInfo)
-+ void renderTextOverHive(HiveDebugPayload$HiveInfo,int,int)
-- boolean isBeeSelected(BeeDebugRenderer$BeeInfo)
-- boolean isPlayerCloseEnoughToMob(BeeDebugRenderer$BeeInfo)
-- boolean lambda$getHiveMembers$12(BeeDebugRenderer$BeeInfo)
-- boolean lambda$removeBeeInfo$0(BeeDebugRenderer$BeeInfo)
-- Set getHiveMemberNames(BeeDebugRenderer$HiveInfo)
-- String getPosDescription(BlockPos)
-- void addOrUpdateBeeInfo(BeeDebugRenderer$BeeInfo)
-- void addOrUpdateHiveInfo(BeeDebugRenderer$HiveInfo)
-- void lambda$createHiveBlacklistMap$7(BlockPos)
-- void lambda$createHiveBlacklistMap$8(BeeDebugRenderer$BeeInfo)
-- void lambda$doRender$3(BeeDebugRenderer$BeeInfo)
-- void lambda$doRender$4(BeeDebugRenderer$HiveInfo)
-- void lambda$renderFlowerInfos$10(BeeDebugRenderer$BeeInfo)
-- void lambda$renderFlowerInfos$11(Map$Entry)
-- void renderBeeInfo(BeeDebugRenderer$BeeInfo)
-- void renderHiveInfo(Collection)
-- void renderPath(BeeDebugRenderer$BeeInfo)
-- void renderTextOverHive(BeeDebugRenderer$HiveInfo,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.GameEventListenerRenderer</summary>
-
-```diff
-+ void trackGameEvent(Vec3)
-- void trackGameEvent(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.MissingTextureAtlasSprite</summary>
-
-```diff
-+ ResourceMetadata SPRITE_METADATA
-- AnimationMetadataSection EMPTY_ANIMATION_META
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.SpriteLoader</summary>
-
-```diff
-+ Set DEFAULT_METADATA_SECTIONS
-+ CompletableFuture lambda$runSpriteSuppliers$4(Function)
-+ CompletableFuture loadAndStitch(Collection)
-+ CompletableFuture runSpriteSuppliers(Executor)
-+ CompletionStage lambda$loadAndStitch$7(List)
-+ List lambda$loadAndStitch$6(ResourceLocation)
-+ List lambda$runSpriteSuppliers$5(List)
-+ SpriteContents lambda$runSpriteSuppliers$3(SpriteResourceLoader)
-+ SpriteLoader$Preparations lambda$loadAndStitch$8(List)
-+ void lambda$getStitchedSprites$9(SpriteContents,int,int)
-- CompletableFuture lambda$runSpriteSuppliers$3(Supplier)
-- CompletableFuture runSpriteSuppliers(Executor)
-- CompletionStage lambda$loadAndStitch$6(List)
-- List lambda$loadAndStitch$5(ResourceLocation)
-- List lambda$runSpriteSuppliers$4(List)
-- SpriteContents loadSprite(Resource)
-- SpriteLoader$Preparations lambda$loadAndStitch$7(List)
-- void lambda$getStitchedSprites$8(SpriteContents,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite</summary>
-
-```diff
-+ float getU(float)
-+ float getV(float)
-- float getU(double)
-- float getV(double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.features.OreFeatures</summary>
-
-```diff
-+ ResourceKey ORE_DIAMOND_MEDIUM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
-
-```diff
-+ void assertLivingEntityHasMobEffect(MobEffect,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.TestCommand</summary>
-
-```diff
-+ Logger LOGGER
-+ boolean lambda$say$29(ServerPlayer)
-+ Component lambda$say$28(String)
-+ Component lambda$showPos$25(Component)
-+ int exportAllNearbyTests(CommandSourceStack)
-+ int lambda$register$24(CommandContext)
-+ void <clinit>()
-+ void lambda$runAllNearbyTests$26(BlockPos)
-+ void lambda$runTests$27(GameTestInfo)
-+ void lambda$say$30(ServerPlayer)
-- boolean lambda$say$28(ServerPlayer)
-- Component lambda$say$27(String)
-- Component lambda$showPos$24(Component)
-- void lambda$runAllNearbyTests$25(BlockPos)
-- void lambda$runTests$26(GameTestInfo)
-- void lambda$say$29(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
-
-```diff
-+ boolean isKnownPacket(Class)
-- boolean lambda$listAllPackets$2(Class)
-- void listAllPackets(Consumer)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
-
-```diff
-- int MAX_VARINT_SIZE
-- int MAX_VARLONG_SIZE
-+ boolean isContiguous()
-+ DecoderException lambda$readWithCodec$0(String)
-+ FriendlyByteBuf capacity(int)
-+ FriendlyByteBuf clear()
-+ FriendlyByteBuf discardReadBytes()
-+ FriendlyByteBuf discardSomeReadBytes()
-+ FriendlyByteBuf ensureWritable(int)
-+ FriendlyByteBuf getBytes(ByteBuf,int,int)
-+ FriendlyByteBuf getBytes(ByteBuf,int)
-+ FriendlyByteBuf getBytes(ByteBuf)
-+ FriendlyByteBuf getBytes(ByteBuffer)
-+ FriendlyByteBuf getBytes(int,byte[],int,int)
-+ FriendlyByteBuf getBytes(int,byte[])
-+ FriendlyByteBuf getBytes(OutputStream,int)
-+ FriendlyByteBuf markReaderIndex()
-+ FriendlyByteBuf markWriterIndex()
-+ FriendlyByteBuf readBytes(byte[],int,int)
-+ FriendlyByteBuf readBytes(byte[])
-+ FriendlyByteBuf readBytes(ByteBuf,int,int)
-+ FriendlyByteBuf readBytes(ByteBuf,int)
-+ FriendlyByteBuf readBytes(ByteBuf)
-+ FriendlyByteBuf readBytes(ByteBuffer)
-+ FriendlyByteBuf readBytes(OutputStream,int)
-+ FriendlyByteBuf readerIndex(int)
-+ FriendlyByteBuf resetReaderIndex()
-+ FriendlyByteBuf resetWriterIndex()
-+ FriendlyByteBuf retain()
-+ FriendlyByteBuf retain(int)
-+ FriendlyByteBuf setBoolean(int,boolean)
-+ FriendlyByteBuf setByte(int,int)
-+ FriendlyByteBuf setBytes(ByteBuf,int,int)
-+ FriendlyByteBuf setBytes(ByteBuf,int)
-+ FriendlyByteBuf setBytes(ByteBuf)
-+ FriendlyByteBuf setBytes(ByteBuffer)
-+ FriendlyByteBuf setBytes(int,byte[],int,int)
-+ FriendlyByteBuf setBytes(int,byte[])
-+ FriendlyByteBuf setChar(int,int)
-+ FriendlyByteBuf setDouble(int,double)
-+ FriendlyByteBuf setFloat(int,float)
-+ FriendlyByteBuf setIndex(int,int)
-+ FriendlyByteBuf setInt(int,int)
-+ FriendlyByteBuf setIntLE(int,int)
-+ FriendlyByteBuf setLong(int,long)
-+ FriendlyByteBuf setLongLE(int,long)
-+ FriendlyByteBuf setMedium(int,int)
-+ FriendlyByteBuf setMediumLE(int,int)
-+ FriendlyByteBuf setShort(int,int)
-+ FriendlyByteBuf setShortLE(int,int)
-+ FriendlyByteBuf setZero(int,int)
-+ FriendlyByteBuf skipBytes(int)
-+ FriendlyByteBuf touch()
-+ FriendlyByteBuf touch(Object)
-+ FriendlyByteBuf writeBoolean(boolean)
-+ FriendlyByteBuf writeById(Object)
-+ FriendlyByteBuf writeByte(int)
-+ FriendlyByteBuf writeBytes(byte[],int,int)
-+ FriendlyByteBuf writeBytes(byte[])
-+ FriendlyByteBuf writeBytes(ByteBuf,int,int)
-+ FriendlyByteBuf writeBytes(ByteBuf,int)
-+ FriendlyByteBuf writeBytes(ByteBuf)
-+ FriendlyByteBuf writeBytes(ByteBuffer)
-+ FriendlyByteBuf writeChar(int)
-+ FriendlyByteBuf writeDouble(double)
-+ FriendlyByteBuf writeFloat(float)
-+ FriendlyByteBuf writeInt(int)
-+ FriendlyByteBuf writeIntLE(int)
-+ FriendlyByteBuf writeLong(long)
-+ FriendlyByteBuf writeLongLE(long)
-+ FriendlyByteBuf writeMedium(int)
-+ FriendlyByteBuf writeMediumLE(int)
-+ FriendlyByteBuf writeNbt(Tag)
-+ FriendlyByteBuf writerIndex(int)
-+ FriendlyByteBuf writeShort(int)
-+ FriendlyByteBuf writeShortLE(int)
-+ FriendlyByteBuf writeWithCodec(Object)
-+ FriendlyByteBuf writeZero(int)
-+ int maxFastWritableBytes()
-+ Object readById(IntFunction)
-+ Object readWithCodec(NbtAccounter)
-+ Object readWithCodecTrusted(Codec)
-+ ResourceKey readRegistryKey()
-+ Tag readNbt(NbtAccounter)
-+ Vec3 readVec3()
-+ void writeVec3(Vec3)
-- byte[] accessByteBufWithCorrectSize()
-- CompoundTag readAnySizeNbt()
-- CompoundTag readNbt(NbtAccounter)
-- DecoderException lambda$readWithCodec$0(String)
-- FriendlyByteBuf writeNbt(CompoundTag)
-- int getMaxEncodedUtfLength(int)
-- int getVarIntSize(int)
-- int getVarLongSize(long)
-- Object readWithCodec(Codec)
-- void writeWithCodec(Object)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.PacketBundlePacker</summary>
-
-```diff
-+ AttributeKey bundlerAttributeKey
-- PacketFlow flow
-+ void <init>(AttributeKey)
-- void <init>(PacketFlow)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.PacketDecoder</summary>
-
-```diff
-+ AttributeKey codecKey
-- PacketFlow flow
-+ void <init>(AttributeKey)
-- void <init>(PacketFlow)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.Varint21LengthFieldPrepender</summary>
-
-```diff
-+ int MAX_VARINT21_BYTES
-- int MAX_BYTES
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
-
-```diff
-+ Component GUI_DISCONNECT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.BundlerInfo$Provider</summary>
-
-```diff
-+ BundlerInfo bundlerInfo()
-- BundlerInfo getBundlerInfo(net.minecraft.network.protocol.PacketFlow)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
-
-```diff
-+ CommonPlayerSpawnInfo commonPlayerSpawnInfo
-- boolean isDebug
-- boolean isFlat
-- GameType gameType
-- GameType previousGameType
-- int portalCooldown
-- long seed
-- Optional lastDeathLocation
-- RegistryAccess$Frozen registryHolder
-- RegistryOps BUILTIN_CONTEXT_OPS
-- ResourceKey dimension
-- ResourceKey dimensionType
-+ CommonPlayerSpawnInfo commonPlayerSpawnInfo()
-+ void <init>(CommonPlayerSpawnInfo)
-- boolean isDebug()
-- boolean isFlat()
-- GameType gameType()
-- GameType previousGameType()
-- int portalCooldown()
-- long seed()
-- Optional lastDeathLocation()
-- RegistryAccess$Frozen registryHolder()
-- ResourceKey dimension()
-- ResourceKey dimensionType()
-- void <clinit>()
-- void <init>(Optional,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
-
-```diff
-+ CommonPlayerSpawnInfo commonPlayerSpawnInfo
-- boolean isDebug
-- boolean isFlat
-- GameType playerGameType
-- GameType previousPlayerGameType
-- int portalCooldown
-- long seed
-- Optional lastDeathLocation
-- ResourceKey dimension
-- ResourceKey dimensionType
-+ boolean equals(Object)
-+ byte dataToKeep()
-+ CommonPlayerSpawnInfo commonPlayerSpawnInfo()
-+ int hashCode()
-+ String toString()
-+ void <init>(CommonPlayerSpawnInfo,byte)
-- boolean isDebug()
-- boolean isFlat()
-- GameType getPlayerGameType()
-- GameType getPreviousPlayerGameType()
-- int getPortalCooldown()
-- long getSeed()
-- Optional getLastDeathLocation()
-- ResourceKey getDimension()
-- ResourceKey getDimensionType()
-- void <init>(Optional,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSetDisplayObjectivePacket</summary>
-
-```diff
-+ DisplaySlot slot
-- int slot
-+ DisplaySlot getSlot()
-+ void <init>(Objective)
-- int getSlot()
-- void <init>(Objective)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
-
-```diff
-+ String lambda$sendEntityBrain$4(String)
-+ void lambda$sendEntityBrain$5(Integer)
-+ void lambda$sendEntityBrain$6(Object2IntMap)
-+ void lambda$sendGoalSelector$3(WrappedGoal)
-+ void sendPacketToAllPlayers(CustomPacketPayload)
-- void lambda$sendBeeInfo$5(Path)
-- void lambda$sendGoalSelector$3(WrappedGoal)
-- void lambda$sendRaids$4(Raid)
-- void lambda$writeBrain$10(Object2IntMap)
-- void lambda$writeBrain$6(Path)
-- void lambda$writeBrain$7(Activity)
-- void lambda$writeBrain$8(String)
-- void lambda$writeBrain$9(Integer)
-- void sendPacketToAllPlayers(ResourceLocation)
-- void writeBrain(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerScoreboard</summary>
-
-```diff
-+ SavedData$Factory dataFactory()
-+ void setDisplayObjective(Objective)
-- void setDisplayObjective(Objective)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.ChaseCommand</summary>
-
-```diff
-+ Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerEntity</summary>
-
-```diff
-+ double TOLERANCE_LEVEL_POSITION
-+ int FORCED_POS_UPDATE_PERIOD
-+ int FORCED_TELEPORT_PERIOD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ boolean waitingForSwitchToConfig
-+ PlayerChunkSender chunkSender
-- boolean keepAlivePending
-- Connection connection
-- int LATENCY_CHECK_INTERVAL
-- long keepAliveChallenge
-- long keepAliveTime
-- MinecraftServer server
-+ boolean shouldHandleMessage(Packet)
-+ CommandSourceStack lambda$performChatCommand$10(CommandSourceStack)
-+ CompletableFuture lambda$handleChat$7(Executor)
-+ CompletableFuture lambda$resetPlayerChatState$13(Executor)
-+ GameProfile playerProfile()
-+ Object lambda$filterTextPacket$0(Object)
-+ String lambda$signBook$4(String)
-+ StringTag lambda$updateBookPages$5(FilteredText)
-+ void <init>(ServerPlayer,int)
-+ void handleChunkBatchReceived(ServerboundChunkBatchReceivedPacket)
-+ void handleConfigurationAcknowledged(ServerboundConfigurationAcknowledgedPacket)
-+ void lambda$handleChat$6(Void)
-+ void lambda$handleChat$8(Optional)
-+ void lambda$handleChatCommand$9(Optional)
-+ void lambda$handleCustomCommandSuggestions$1(Suggestions)
-+ void lambda$handleEditBook$2(List)
-+ void lambda$handlePlaceRecipe$11(Recipe)
-+ void lambda$handleSignUpdate$12(List)
-+ void removePlayerFromWorld()
-+ void switchToConfig()
-- boolean isSingleplayerOwner()
-- CommandSourceStack lambda$performChatCommand$12(CommandSourceStack)
-- CompletableFuture lambda$handleChat$9(Executor)
-- CompletableFuture lambda$resetPlayerChatState$15(Executor)
-- Object lambda$filterTextPacket$1(Object)
-- String lambda$send$7(Packet)
-- String lambda$signBook$5(String)
-- StringTag lambda$updateBookPages$6(FilteredText)
-- void <init>(ServerPlayer)
-- void disconnect(Component)
-- void handleCustomPayload(ServerboundCustomPayloadPacket)
-- void handleKeepAlive(ServerboundKeepAlivePacket)
-- void handlePong(ServerboundPongPacket)
-- void handleResourcePackResponse(ServerboundResourcePackPacket)
-- void lambda$disconnect$0(Component)
-- void lambda$handleChat$10(Optional)
-- void lambda$handleChat$8(Void)
-- void lambda$handleChatCommand$11(Optional)
-- void lambda$handleCustomCommandSuggestions$2(Suggestions)
-- void lambda$handleEditBook$4(List)
-- void lambda$handlePlaceRecipe$13(Recipe)
-- void lambda$handleSignUpdate$14(List)
-- void send(Packet)
-- void send(PacketSendListener)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
-
-```diff
-+ Component DISCONNECT_UNEXPECTED_QUERY
-+ GameProfile authenticatedProfile
-+ String requestedUsername
-- GameProfile gameProfile
-- RandomSource RANDOM
-- ServerPlayer delayedAcceptPlayer
-+ boolean isPlayerAlreadyInWorld(GameProfile)
-+ GameProfile createOfflineProfile(String)
-+ void finishLoginAndWaitForClient(GameProfile)
-+ void handleCustomQueryPacket(ServerboundCustomQueryAnswerPacket)
-+ void handleLoginAcknowledgement(ServerboundLoginAcknowledgedPacket)
-+ void lambda$verifyLoginAndFinishConnectionSetup$0()
-+ void startClientVerification(GameProfile)
-+ void verifyLoginAndFinishConnectionSetup(GameProfile)
-- GameProfile createFakeProfile(GameProfile)
-- void handleAcceptedLogin()
-- void handleCustomQueryPacket(ServerboundCustomQueryPacket)
-- void lambda$handleAcceptedLogin$0()
-- void placeNewPlayer(ServerPlayer)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl$State</summary>
-
-```diff
-+ ServerLoginPacketListenerImpl$State PROTOCOL_SWITCHING
-+ ServerLoginPacketListenerImpl$State VERIFYING
-+ ServerLoginPacketListenerImpl$State WAITING_FOR_DUPE_DISCONNECT
-- ServerLoginPacketListenerImpl$State DELAY_ACCEPT
-- ServerLoginPacketListenerImpl$State READY_TO_ACCEPT
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.FilePackResources</summary>
-
-```diff
-+ FilePackResources$SharedZipFileAccess zipFileAccess
-+ String prefix
-- boolean failedToLoad
-- File file
-- Splitter SPLITTER
-- ZipFile zipFile
-+ String addPrefix(String)
-+ String extractNamespace(String)
-+ void <init>(String)
-- void <init>(File,boolean)
-- void finalize()
-- ZipFile getOrCreateZipFile()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.Pack$Info</summary>
-
-```diff
-+ List overlays
-+ PackCompatibility compatibility
-- int format
-+ List overlays()
-+ PackCompatibility compatibility()
-+ void <init>(List)
-- int format()
-- PackCompatibility compatibility(PackType)
-- void <init>(FeatureFlagSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.Pack$ResourcesSupplier</summary>
-
-```diff
-+ PackResources openFull(java.lang.String,net.minecraft.server.packs.repository.Pack$Info)
-+ PackResources openPrimary(java.lang.String)
-- PackResources open(java.lang.String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
-
-```diff
-+ void onEffectStarted(LivingEntity)
-- void applyEffect(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.GlowSquid</summary>
-
-```diff
-+ boolean checkGlowSquidSpawnRules(RandomSource)
-- boolean checkGlowSquideSpawnRules(RandomSource)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
-
-```diff
-+ Codec CODEC
-+ String translationKey
-+ String getSerializedName()
-+ void <init>(String)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.Attributes</summary>
-
-```diff
-+ Attribute MAX_ABSORPTION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Animal</summary>
-
-```diff
-- double getMyRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Panda</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-- double RIDING_OFFSET
-+ float ridingOffset(Entity)
-- boolean isPanicking()
-- double getMyRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
-
-```diff
-+ float BABY_SCALE
-+ boolean canCamelChangePose()
-+ double getBodyAnchorAnimationYOffset(EntityDimensions,float)
-+ float getScale()
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- boolean isPanicking()
-- double getBodyAnchorAnimationYOffset(boolean,float)
-- double getPassengersRidingOffset()
-- LivingEntity getControllingPassenger()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-- LivingEntity getControllingPassenger()
-- void positionRider(Entity$MoveFunction)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
-
-```diff
-+ float getPassengersRidingOffsetY(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
-
-```diff
-+ void lerpTo(double,double,double,float,float,int)
-- void lerpTo(double,double,double,float,float,int,boolean)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.AbstractIllager</summary>
-
-```diff
-+ float ridingOffset(Entity)
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.EnderMan</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ghast</summary>
-
-```diff
-+ float ridingOffset(Entity)
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Husk</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.PatrollingMonster</summary>
-
-```diff
-- double getMyRidingOffset()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
-
-```diff
-+ float ridingOffset(Entity)
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-- LivingEntity getControllingPassenger()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
-```diff
-+ void lerpTo(double,double,double,float,float,int)
-- double getMyRidingOffset()
-- void lerpTo(double,double,double,float,float,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Strider</summary>
-
-```diff
-- PanicGoal panicGoal
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- boolean isPanicking()
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Witch</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-- double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-+ Vector3f getPassengerAttachmentPoint(EntityDimensions,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
-
-```diff
-+ Node[] lambda$findPath$3(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.realmsclient.client.RealmsError$CustomError
@@ -8488,2872 +4653,1096 @@
 </details>
 
 
-
-
-
-
-<details><summary>com.mojang.math.Transformation</summary>
+<details><summary>com.mojang.realmsclient.client.RealmsClient</summary>
 
 ```diff
-+ Transformation lambda$static$5()
-- Transformation lambda$static$5(Transformation)
-- Transformation lambda$static$6(Transformation)
-- Transformation lambda$static$7(Either)
-- Transformation lambda$static$8()
++ boolean hasParentalConsent()
+- Boolean mcoEnabled()
+- Boolean stageAvailable()
+- Ops deop(long,String)
++ Ops deop(long,UUID)
+- Ops op(long,String)
++ Ops op(long,UUID)
+- Optional lambda$create$0()
++ Optional lambda$static$0()
+- String getHttpCodeDescription(int)
+- void lambda$create$1(RealmsClient$Environment)
+- void switchToLocal()
+- void switchToProd()
+- void switchToStage()
+- void uninvite(long,String)
++ void uninvite(long,UUID)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
+<details><summary>com.mojang.realmsclient.client.RealmsError</summary>
 
 ```diff
-+ int MILLIS_PER_TICK
+- int getErrorCode()
++ RealmsError parse(int,String)
+- RealmsError parse(String)
+- String getErrorMessage()
+- void <init>(String,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.FrameType</summary>
+<details><summary>com.mojang.realmsclient.gui.ErrorCallback</summary>
 
 ```diff
-- int texture
-+ void <init>(ChatFormatting)
-- int getTexture()
-- void <init>(ChatFormatting)
++ void error(Exception)
++ void error(RealmsServiceException)
+- void error(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.CompressionDecoder</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
 
 ```diff
-+ ByteBuf inflate(ChannelHandlerContext,int)
-+ void setupInflaterInput(ByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.Connection</summary>
-
-```diff
-+ AttributeKey ATTRIBUTE_CLIENTBOUND_PROTOCOL
-+ AttributeKey ATTRIBUTE_SERVERBOUND_PROTOCOL
-+ PacketListener disconnectListener
-+ Queue pendingActions
-+ Supplier LOCAL_WORKER_GROUP
-+ Supplier NETWORK_EPOLL_WORKER_GROUP
-+ Supplier NETWORK_WORKER_GROUP
-- AttributeKey ATTRIBUTE_PROTOCOL
-- LazyLoadedValue LOCAL_WORKER_GROUP
-- LazyLoadedValue NETWORK_EPOLL_WORKER_GROUP
-- LazyLoadedValue NETWORK_WORKER_GROUP
-- Queue queue
-+ AttributeKey getProtocolKey(PacketFlow)
-+ Component lambda$handleDisconnection$12()
-+ String getLoggableAddress(boolean)
-+ void configureInMemoryPacketValidation(PacketFlow)
-+ void configureInMemoryPipeline(PacketFlow)
-+ void doSendPacket(PacketSendListener,boolean)
-+ void flush()
-+ void flushChannel()
-+ void initiateServerboundConnection(ClientIntent)
-+ void initiateServerboundPlayConnection(ClientLoginPacketListener)
-+ void initiateServerboundStatusConnection(ClientStatusPacketListener)
-+ void lambda$doSendPacket$10(Future)
-+ void lambda$flush$11()
-+ void lambda$initiateServerboundConnection$7(Connection)
-+ void lambda$send$8(Connection)
-+ void lambda$sendPacket$9(PacketSendListener,boolean)
-+ void resumeInboundAfterProtocolChange()
-+ void runOnceConnected(Consumer)
-+ void send(PacketSendListener,boolean)
-+ void sendNoFlush(Packet)
-+ void sendNoFlush(PacketSendListener)
-+ void sendPacket(PacketSendListener,boolean)
-+ void setClientboundProtocolAfterHandshake(ClientIntent)
-+ void setInitialProtocolAttributes(Channel)
-+ void setListenerForServerboundHandshake(PacketListener)
-+ void suspendInboundAfterProtocolChange()
-- ConnectionProtocol getCurrentProtocol()
-- void doSendPacket(ConnectionProtocol)
-- void lambda$doSendPacket$8(Future)
-- void lambda$sendPacket$7(ConnectionProtocol)
-- void sendPacket(PacketSendListener)
-- void setProtocol(ConnectionProtocol)
+- void renderBackground(GuiGraphics)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.ConnectionProtocol</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
 
 ```diff
-+ ConnectionProtocol CONFIGURATION
-+ String id
-- ConnectionProtocol[] LOOKUP
-- int id
-- int MAX_PROTOCOL_ID
-- int MIN_PROTOCOL_ID
-- Map PROTOCOL_BY_PACKET
-+ ConnectionProtocol$CodecData codec(PacketFlow)
-+ String id()
-+ void <init>(ConnectionProtocol$ProtocolBuilder)
-- BundlerInfo getBundlerInfo(PacketFlow)
-- ConnectionProtocol getById(int)
-- ConnectionProtocol getProtocolForPacket(Packet)
-- int getId()
-- int getPacketId(Packet)
-- Packet createPacket(FriendlyByteBuf)
-- void <init>(ConnectionProtocol$ProtocolBuilder)
-- void lambda$getPacketsByIds$0(Integer)
-- void lambda$static$1(Class)
-- void lambda$static$2(ConnectionProtocol$PacketSet)
+- void renderMousehoverTooltip(GuiGraphics,Component,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsInviteScreen</summary>
 
 ```diff
-+ ChunkPos pos
-- int x
-- int z
+- void tick()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
+
+```diff
++ Boolean lambda$new$0(RealmsAvailability$Result)
+- void checkIfMcoEnabled()
+- void lambda$addNewsAndInvitesSubscriptions$0(Integer)
+- void lambda$addNewsAndInvitesSubscriptions$1(Boolean)
++ void lambda$addNewsAndInvitesSubscriptions$1(Integer)
++ void lambda$addNewsAndInvitesSubscriptions$2(Boolean)
+- void lambda$addNewsAndInvitesSubscriptions$2(RealmsDataFetcher,RealmsNews)
++ void lambda$addNewsAndInvitesSubscriptions$3(RealmsDataFetcher,RealmsNews)
+- void lambda$addNotificationsSubscriptions$3(List)
++ void lambda$addNotificationsSubscriptions$4(List)
++ void renderBackground(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
+
+```diff
+- void renderBackground(GuiGraphics)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.AbstractSelectionList</summary>
+
+```diff
++ boolean mouseScrolled(double,double,double,double)
+- boolean mouseScrolled(double,double,double)
+- void renderBackground(GuiGraphics)
+- void setRenderTopAndBottom(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.AbstractSliderButton</summary>
+
+```diff
+- int getHandleTextureY()
+- int getTextureY()
++ ResourceLocation getHandleSprite()
++ ResourceLocation getSprite()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
+
+```diff
+- void <clinit>()
++ void renderScrollingString(GuiGraphics,Font,Component,int,int,int,int,int,int)
+- void renderTexture(GuiGraphics,ResourceLocation,int,int,int,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.ImageWidget</summary>
+
+```diff
++ boolean isActive()
++ ComponentPath nextFocusPath(FocusNavigationEvent)
++ ImageWidget sprite(int,int,ResourceLocation)
++ ImageWidget texture(int,int,ResourceLocation,int,int)
+- void <init>(int,int,int,int,ResourceLocation)
++ void <init>(int,int,int,int)
+- void <init>(int,int,ResourceLocation)
++ void playDownSound(SoundManager)
+- void renderWidget(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.events.ContainerEventHandler</summary>
+
+```diff
++ boolean lambda$mouseScrolled$1(double,double,double,double,GuiEventListener)
+- boolean lambda$mouseScrolled$1(double,double,double,GuiEventListener)
++ boolean mouseScrolled(double,double,double,double)
+- boolean mouseScrolled(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.tabs.TabManager</summary>
+
+```diff
+- void tickCurrent()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.toasts.AdvancementToast</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.toasts.SystemToast</summary>
+
+```diff
++ void <clinit>()
++ void renderBackgroundRow(GuiGraphics,int,int,int,int)
+- void renderBackgroundRow(GuiGraphics,ToastComponent,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.toasts.TutorialToast</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.providers.TrueTypeGlyphProviderDefinition</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- App lambda$static$3(RecordCodecBuilder$Instance)
++ String lambda$static$0(List)
+- String lambda$static$0(String)
+- String lambda$static$1(List)
+- String lambda$static$2(Either)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.layouts.FrameLayout</summary>
+
+```diff
++ LayoutElement addChild(LayoutElement,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.layouts.GridLayout</summary>
+
+```diff
++ LayoutElement addChild(LayoutElement,int,int,Consumer)
++ LayoutElement addChild(LayoutElement,int,int,int,int,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.layouts.LinearLayout</summary>
+
+```diff
++ int getHeight()
++ int getWidth()
++ int getX()
++ int getY()
++ LayoutElement addChild(LayoutElement,Consumer)
++ LayoutSettings defaultCellSetting()
+- LayoutSettings defaultChildLayoutSetting()
++ LayoutSettings newCellSettings()
+- LayoutSettings newChildLayoutSettings()
++ LinearLayout horizontal()
++ LinearLayout spacing(int)
++ LinearLayout vertical()
+- void <init>(int,int,int,int,LinearLayout$Orientation)
++ void <init>(LinearLayout$Orientation)
+- void lambda$visitChildren$0(Consumer,LinearLayout$ChildContainer)
++ void setX(int)
++ void setY(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.PauseScreen</summary>
+
+```diff
++ void renderBackground(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.Screen</summary>
+
+```diff
++ void renderBackground(GuiGraphics,int,int,float)
+- void renderBackground(GuiGraphics)
++ void renderTransparentBackground(GuiGraphics)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.SimpleOptionsSubScreen</summary>
+
+```diff
++ void renderBackground(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.SoundOptionsScreen</summary>
+
+```diff
++ void renderBackground(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionScreen</summary>
+
+```diff
+- ResourceLocation lambda$getPackIcon$6(Pack,String)
++ ResourceLocation lambda$getPackIcon$7(Pack,String)
++ Stream extractPackNames(Collection)
++ void lambda$onFilesDrop$5()
+- void lambda$onFilesDrop$5(List,boolean)
++ void lambda$onFilesDrop$6(List,boolean)
++ void renderBackground(GuiGraphics,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$1</summary>
+
+```diff
++ void <init>(ServerStatusPinger,Connection,ServerData,Runnable,InetSocketAddress,ServerAddress)
+- void <init>(ServerStatusPinger,Connection,ServerData,Runnable,InetSocketAddress)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.BeeDebugRenderer</summary>
+
+```diff
++ boolean isBeeSelected(BeeDebugPayload$BeeInfo)
+- boolean isBeeSelected(BeeDebugRenderer$BeeInfo)
++ boolean isPlayerCloseEnoughToMob(BeeDebugPayload$BeeInfo)
+- boolean isPlayerCloseEnoughToMob(BeeDebugRenderer$BeeInfo)
++ boolean lambda$getHiveMembers$12(BlockPos,BeeDebugPayload$BeeInfo)
+- boolean lambda$getHiveMembers$12(BlockPos,BeeDebugRenderer$BeeInfo)
++ boolean lambda$removeBeeInfo$0(int,BeeDebugPayload$BeeInfo)
+- boolean lambda$removeBeeInfo$0(int,BeeDebugRenderer$BeeInfo)
+- Set getHiveMemberNames(BeeDebugRenderer$HiveInfo)
++ Set getHiveMemberNames(HiveDebugPayload$HiveInfo)
++ String getPosDescription(BeeDebugPayload$BeeInfo,BlockPos)
+- String getPosDescription(BeeDebugRenderer$BeeInfo,BlockPos)
++ void addOrUpdateBeeInfo(BeeDebugPayload$BeeInfo)
+- void addOrUpdateBeeInfo(BeeDebugRenderer$BeeInfo)
+- void addOrUpdateHiveInfo(BeeDebugRenderer$HiveInfo)
++ void addOrUpdateHiveInfo(HiveDebugPayload$HiveInfo,long)
++ void lambda$createHiveBlacklistMap$7(Map,BeeDebugPayload$BeeInfo,BlockPos)
+- void lambda$createHiveBlacklistMap$7(Map,BeeDebugRenderer$BeeInfo,BlockPos)
++ void lambda$createHiveBlacklistMap$8(Map,BeeDebugPayload$BeeInfo)
+- void lambda$createHiveBlacklistMap$8(Map,BeeDebugRenderer$BeeInfo)
++ void lambda$doRender$3(PoseStack,MultiBufferSource,BeeDebugPayload$BeeInfo)
+- void lambda$doRender$3(PoseStack,MultiBufferSource,BeeDebugRenderer$BeeInfo)
++ void lambda$doRender$4(BlockPos,Map,PoseStack,MultiBufferSource,BeeDebugRenderer$HiveDebugInfo)
+- void lambda$doRender$4(BlockPos,Map,PoseStack,MultiBufferSource,BeeDebugRenderer$HiveInfo)
++ void lambda$renderFlowerInfos$10(Map,BeeDebugPayload$BeeInfo)
+- void lambda$renderFlowerInfos$10(Map,BeeDebugRenderer$BeeInfo)
++ void lambda$renderFlowerInfos$11(PoseStack,MultiBufferSource,BlockPos,Set)
+- void lambda$renderFlowerInfos$11(PoseStack,MultiBufferSource,Map$Entry)
++ void renderBeeInfo(PoseStack,MultiBufferSource,BeeDebugPayload$BeeInfo)
+- void renderBeeInfo(PoseStack,MultiBufferSource,BeeDebugRenderer$BeeInfo)
+- void renderHiveInfo(PoseStack,MultiBufferSource,BeeDebugRenderer$HiveInfo,Collection)
++ void renderHiveInfo(PoseStack,MultiBufferSource,HiveDebugPayload$HiveInfo,Collection)
++ void renderPath(PoseStack,MultiBufferSource,BeeDebugPayload$BeeInfo)
+- void renderPath(PoseStack,MultiBufferSource,BeeDebugRenderer$BeeInfo)
+- void renderTextOverHive(PoseStack,MultiBufferSource,String,BeeDebugRenderer$HiveInfo,int,int)
++ void renderTextOverHive(PoseStack,MultiBufferSource,String,HiveDebugPayload$HiveInfo,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.GameEventListenerRenderer</summary>
+
+```diff
+- void trackGameEvent(GameEvent,Vec3)
++ void trackGameEvent(ResourceKey,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.SpriteLoader</summary>
+
+```diff
+- CompletableFuture lambda$runSpriteSuppliers$3(Executor,Supplier)
++ CompletableFuture lambda$runSpriteSuppliers$4(SpriteResourceLoader,Executor,Function)
++ CompletableFuture loadAndStitch(ResourceManager,ResourceLocation,int,Executor,Collection)
+- CompletableFuture runSpriteSuppliers(List,Executor)
++ CompletableFuture runSpriteSuppliers(SpriteResourceLoader,List,Executor)
+- CompletionStage lambda$loadAndStitch$6(Executor,List)
++ CompletionStage lambda$loadAndStitch$7(SpriteResourceLoader,Executor,List)
+- List lambda$loadAndStitch$5(ResourceManager,ResourceLocation)
++ List lambda$loadAndStitch$6(ResourceManager,ResourceLocation)
+- List lambda$runSpriteSuppliers$4(List)
++ List lambda$runSpriteSuppliers$5(List)
++ SpriteContents lambda$runSpriteSuppliers$3(Function,SpriteResourceLoader)
+- SpriteContents loadSprite(ResourceLocation,Resource)
+- SpriteLoader$Preparations lambda$loadAndStitch$7(int,Executor,List)
++ SpriteLoader$Preparations lambda$loadAndStitch$8(int,Executor,List)
+- void lambda$getStitchedSprites$8(Map,int,int,SpriteContents,int,int)
++ void lambda$getStitchedSprites$9(Map,int,int,SpriteContents,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite</summary>
+
+```diff
+- float getU(double)
++ float getU(float)
+- float getV(double)
++ float getV(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
++ void assertLivingEntityHasMobEffect(LivingEntity,MobEffect,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.TestCommand</summary>
+
+```diff
+- boolean lambda$say$28(ServerPlayer)
++ boolean lambda$say$29(ServerPlayer)
+- Component lambda$say$27(String)
++ Component lambda$say$28(String)
+- Component lambda$showPos$24(String,Component)
++ Component lambda$showPos$25(String,Component)
++ int exportAllNearbyTests(CommandSourceStack)
++ int lambda$register$24(CommandContext)
++ void <clinit>()
+- void lambda$runAllNearbyTests$25(ServerLevel,MultipleTestTracker,BlockPos)
++ void lambda$runAllNearbyTests$26(ServerLevel,MultipleTestTracker,BlockPos)
+- void lambda$runTests$26(GameTestInfo)
++ void lambda$runTests$27(GameTestInfo)
+- void lambda$say$29(ChatFormatting,String,ServerPlayer)
++ void lambda$say$30(ChatFormatting,String,ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
+
+```diff
++ boolean isKnownPacket(Class)
+- boolean lambda$listAllPackets$2(Class)
+- void listAllPackets(Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ boolean isContiguous()
+- byte[] accessByteBufWithCorrectSize()
+- CompoundTag readAnySizeNbt()
+- CompoundTag readNbt(NbtAccounter)
+- DecoderException lambda$readWithCodec$0(CompoundTag,String)
++ DecoderException lambda$readWithCodec$0(Tag,String)
++ FriendlyByteBuf capacity(int)
++ FriendlyByteBuf clear()
++ FriendlyByteBuf discardReadBytes()
++ FriendlyByteBuf discardSomeReadBytes()
++ FriendlyByteBuf ensureWritable(int)
++ FriendlyByteBuf getBytes(int,byte[],int,int)
++ FriendlyByteBuf getBytes(int,byte[])
++ FriendlyByteBuf getBytes(int,ByteBuf,int,int)
++ FriendlyByteBuf getBytes(int,ByteBuf,int)
++ FriendlyByteBuf getBytes(int,ByteBuf)
++ FriendlyByteBuf getBytes(int,ByteBuffer)
++ FriendlyByteBuf getBytes(int,OutputStream,int)
++ FriendlyByteBuf markReaderIndex()
++ FriendlyByteBuf markWriterIndex()
++ FriendlyByteBuf readBytes(byte[],int,int)
++ FriendlyByteBuf readBytes(byte[])
++ FriendlyByteBuf readBytes(ByteBuf,int,int)
++ FriendlyByteBuf readBytes(ByteBuf,int)
++ FriendlyByteBuf readBytes(ByteBuf)
++ FriendlyByteBuf readBytes(ByteBuffer)
++ FriendlyByteBuf readBytes(OutputStream,int)
++ FriendlyByteBuf readerIndex(int)
++ FriendlyByteBuf resetReaderIndex()
++ FriendlyByteBuf resetWriterIndex()
++ FriendlyByteBuf retain()
++ FriendlyByteBuf retain(int)
++ FriendlyByteBuf setBoolean(int,boolean)
++ FriendlyByteBuf setByte(int,int)
++ FriendlyByteBuf setBytes(int,byte[],int,int)
++ FriendlyByteBuf setBytes(int,byte[])
++ FriendlyByteBuf setBytes(int,ByteBuf,int,int)
++ FriendlyByteBuf setBytes(int,ByteBuf,int)
++ FriendlyByteBuf setBytes(int,ByteBuf)
++ FriendlyByteBuf setBytes(int,ByteBuffer)
++ FriendlyByteBuf setChar(int,int)
++ FriendlyByteBuf setDouble(int,double)
++ FriendlyByteBuf setFloat(int,float)
++ FriendlyByteBuf setIndex(int,int)
++ FriendlyByteBuf setInt(int,int)
++ FriendlyByteBuf setIntLE(int,int)
++ FriendlyByteBuf setLong(int,long)
++ FriendlyByteBuf setLongLE(int,long)
++ FriendlyByteBuf setMedium(int,int)
++ FriendlyByteBuf setMediumLE(int,int)
++ FriendlyByteBuf setShort(int,int)
++ FriendlyByteBuf setShortLE(int,int)
++ FriendlyByteBuf setZero(int,int)
++ FriendlyByteBuf skipBytes(int)
++ FriendlyByteBuf touch()
++ FriendlyByteBuf touch(Object)
++ FriendlyByteBuf writeBoolean(boolean)
++ FriendlyByteBuf writeById(ToIntFunction,Object)
++ FriendlyByteBuf writeByte(int)
++ FriendlyByteBuf writeBytes(byte[],int,int)
++ FriendlyByteBuf writeBytes(byte[])
++ FriendlyByteBuf writeBytes(ByteBuf,int,int)
++ FriendlyByteBuf writeBytes(ByteBuf,int)
++ FriendlyByteBuf writeBytes(ByteBuf)
++ FriendlyByteBuf writeBytes(ByteBuffer)
++ FriendlyByteBuf writeChar(int)
++ FriendlyByteBuf writeDouble(double)
++ FriendlyByteBuf writeFloat(float)
++ FriendlyByteBuf writeInt(int)
++ FriendlyByteBuf writeIntLE(int)
++ FriendlyByteBuf writeLong(long)
++ FriendlyByteBuf writeLongLE(long)
++ FriendlyByteBuf writeMedium(int)
++ FriendlyByteBuf writeMediumLE(int)
+- FriendlyByteBuf writeNbt(CompoundTag)
++ FriendlyByteBuf writeNbt(Tag)
++ FriendlyByteBuf writerIndex(int)
++ FriendlyByteBuf writeShort(int)
++ FriendlyByteBuf writeShortLE(int)
++ FriendlyByteBuf writeWithCodec(DynamicOps,Codec,Object)
++ FriendlyByteBuf writeZero(int)
+- int getMaxEncodedUtfLength(int)
+- int getVarIntSize(int)
+- int getVarLongSize(long)
++ int maxFastWritableBytes()
++ Object readById(IntFunction)
++ Object readWithCodec(DynamicOps,Codec,NbtAccounter)
+- Object readWithCodec(DynamicOps,Codec)
++ Object readWithCodecTrusted(DynamicOps,Codec)
++ ResourceKey readRegistryKey()
++ Tag readNbt(NbtAccounter)
++ Vec3 readVec3()
++ void writeVec3(Vec3)
+- void writeWithCodec(DynamicOps,Codec,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.PacketBundlePacker</summary>
+
+```diff
++ void <init>(AttributeKey)
+- void <init>(PacketFlow)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.PacketDecoder</summary>
+
+```diff
++ void <init>(AttributeKey)
+- void <init>(PacketFlow)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
+
+```diff
+- boolean isDebug()
+- boolean isFlat()
++ CommonPlayerSpawnInfo commonPlayerSpawnInfo()
+- GameType gameType()
+- GameType previousGameType()
+- int portalCooldown()
+- long seed()
+- Optional lastDeathLocation()
+- RegistryAccess$Frozen registryHolder()
+- ResourceKey dimension()
+- ResourceKey dimensionType()
+- void <clinit>()
+- void <init>(int,boolean,GameType,GameType,Set,RegistryAccess$Frozen,ResourceKey,ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean,Optional,int)
++ void <init>(int,boolean,Set,int,int,int,boolean,boolean,CommonPlayerSpawnInfo)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
+
+```diff
 + boolean equals(Object)
-+ ChunkPos pos()
+- boolean isDebug()
+- boolean isFlat()
++ byte dataToKeep()
++ CommonPlayerSpawnInfo commonPlayerSpawnInfo()
+- GameType getPlayerGameType()
+- GameType getPreviousPlayerGameType()
+- int getPortalCooldown()
 + int hashCode()
+- long getSeed()
+- Optional getLastDeathLocation()
+- ResourceKey getDimension()
+- ResourceKey getDimensionType()
 + String toString()
-+ void <init>(ChunkPos)
-- int getX()
-- int getZ()
-- void <init>(int,int)
++ void <init>(CommonPlayerSpawnInfo,byte)
+- void <init>(ResourceKey,ResourceKey,long,GameType,GameType,boolean,boolean,byte,Optional,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.handshake.ServerHandshakePacketListener</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundSetDisplayObjectivePacket</summary>
 
 ```diff
-+ ConnectionProtocol protocol()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.login.ClientLoginPacketListener</summary>
-
-```diff
-+ ConnectionProtocol protocol()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.login.ClientboundGameProfilePacket</summary>
-
-```diff
-+ ConnectionProtocol nextProtocol()
++ DisplaySlot getSlot()
+- int getSlot()
++ void <init>(DisplaySlot,Objective)
+- void <init>(int,Objective)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.protocol.login.ServerLoginPacketListener</summary>
+<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
 
 ```diff
-+ void handleCustomQueryPacket(net.minecraft.network.protocol.login.ServerboundCustomQueryAnswerPacket)
-+ void handleLoginAcknowledgement(net.minecraft.network.protocol.login.ServerboundLoginAcknowledgedPacket)
-- void handleCustomQueryPacket(net.minecraft.network.protocol.login.ServerboundCustomQueryPacket)
-+ ConnectionProtocol protocol()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundHelloPacket</summary>
-
-```diff
-+ UUID profileId
-- Optional profileId
-+ UUID profileId()
-+ void <init>(UUID)
-- Optional profileId()
-- void <init>(Optional)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.status.ClientStatusPacketListener</summary>
-
-```diff
-+ ConnectionProtocol protocol()
++ String lambda$sendEntityBrain$4(String)
+- void lambda$sendBeeInfo$5(FriendlyByteBuf,Path)
++ void lambda$sendEntityBrain$5(List,String,GossipType,Integer)
++ void lambda$sendEntityBrain$6(List,UUID,Object2IntMap)
+- void lambda$sendGoalSelector$3(FriendlyByteBuf,WrappedGoal)
++ void lambda$sendGoalSelector$3(List,WrappedGoal)
+- void lambda$sendRaids$4(FriendlyByteBuf,Raid)
+- void lambda$writeBrain$10(List,UUID,Object2IntMap)
+- void lambda$writeBrain$6(FriendlyByteBuf,Path)
+- void lambda$writeBrain$7(FriendlyByteBuf,Activity)
+- void lambda$writeBrain$8(FriendlyByteBuf,String)
+- void lambda$writeBrain$9(List,String,GossipType,Integer)
++ void sendPacketToAllPlayers(ServerLevel,CustomPacketPayload)
+- void sendPacketToAllPlayers(ServerLevel,FriendlyByteBuf,ResourceLocation)
+- void writeBrain(LivingEntity,FriendlyByteBuf)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+<details><summary>net.minecraft.server.ServerScoreboard</summary>
 
 ```diff
-+ int execute(CompoundTag)
-- int execute(ServerFunctionManager$TraceCallbacks)
++ SavedData$Factory dataFactory()
++ void setDisplayObjective(DisplaySlot,Objective)
+- void setDisplayObjective(int,Objective)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-+ ArgumentBuilder lambda$addConditionals$59(ArgumentBuilder)
-+ boolean checkFunction(Collection)
-+ boolean lambda$addConditionals$56(CommandContext)
-+ boolean lambda$expandOneToManyEntityRelation$75(Entity)
-+ boolean lambda$expandOneToOneEntityRelation$72(Entity)
-+ Collection lambda$addConditional$64(CommandContext)
-+ Collection lambda$addConditionals$57(CommandContext)
-+ Collection lambda$addIfBlocksConditional$67(CommandContext)
-+ Collection lambda$expandOneToManyEntityRelation$76(CommandContext)
-+ Collection lambda$expandOneToOneEntityRelation$74(CommandContext)
-+ Component lambda$addConditional$65()
-+ Component lambda$checkIfRegions$70(OptionalInt)
-+ Component lambda$checkUnlessRegions$71()
-+ Component lambda$createNumericConditionalHandler$60(int)
-+ Component lambda$createNumericConditionalHandler$62()
-+ int lambda$addConditional$66(CommandContext)
-+ int lambda$addConditionals$58(CommandContext)
-+ int lambda$addIfBlocksConditional$69(CommandContext)
-+ int lambda$createNumericConditionalHandler$61(CommandContext)
-+ int lambda$createNumericConditionalHandler$63(CommandContext)
-+ List lambda$expandOneToOneEntityRelation$73(Entity)
-+ Optional lambda$createRelationOperations$83(Entity)
-+ Stream lambda$createRelationOperations$84(Entity)
-- ArgumentBuilder lambda$addConditionals$58(ArgumentBuilder)
-- boolean lambda$expandOneToManyEntityRelation$74(Entity)
-- boolean lambda$expandOneToOneEntityRelation$71(Entity)
-- Collection lambda$addConditional$63(CommandContext)
-- Collection lambda$addConditionals$56(CommandContext)
-- Collection lambda$addIfBlocksConditional$66(CommandContext)
-- Collection lambda$expandOneToManyEntityRelation$75(CommandContext)
-- Collection lambda$expandOneToOneEntityRelation$73(CommandContext)
-- Component lambda$addConditional$64()
-- Component lambda$checkIfRegions$69(OptionalInt)
-- Component lambda$checkUnlessRegions$70()
-- Component lambda$createNumericConditionalHandler$59(int)
-- Component lambda$createNumericConditionalHandler$61()
-- int lambda$addConditional$65(CommandContext)
-- int lambda$addConditionals$57(CommandContext)
-- int lambda$addIfBlocksConditional$67(CommandContext)
-- int lambda$createNumericConditionalHandler$60(CommandContext)
-- int lambda$createNumericConditionalHandler$62(CommandContext)
-- List lambda$expandOneToOneEntityRelation$72(Entity)
-- Optional lambda$createRelationOperations$76(Entity)
-- Stream lambda$createRelationOperations$83(Entity)
+- boolean isSingleplayerOwner()
++ boolean shouldHandleMessage(Packet)
++ CommandSourceStack lambda$performChatCommand$10(CommandSigningContext,CommandSourceStack)
+- CommandSourceStack lambda$performChatCommand$12(CommandSigningContext,CommandSourceStack)
++ CompletableFuture lambda$handleChat$7(CompletableFuture,CompletableFuture,PlayerChatMessage,Executor)
+- CompletableFuture lambda$handleChat$9(CompletableFuture,CompletableFuture,PlayerChatMessage,Executor)
++ CompletableFuture lambda$resetPlayerChatState$13(RemoteChatSession,Executor)
+- CompletableFuture lambda$resetPlayerChatState$15(RemoteChatSession,Executor)
++ GameProfile playerProfile()
++ Object lambda$filterTextPacket$0(Object)
+- Object lambda$filterTextPacket$1(Object)
+- String lambda$send$7(Packet)
++ String lambda$signBook$4(String)
+- String lambda$signBook$5(String)
++ StringTag lambda$updateBookPages$5(UnaryOperator,FilteredText)
+- StringTag lambda$updateBookPages$6(UnaryOperator,FilteredText)
++ void <init>(MinecraftServer,Connection,ServerPlayer,int)
+- void <init>(MinecraftServer,Connection,ServerPlayer)
+- void disconnect(Component)
++ void handleChunkBatchReceived(ServerboundChunkBatchReceivedPacket)
++ void handleConfigurationAcknowledged(ServerboundConfigurationAcknowledgedPacket)
+- void handleCustomPayload(ServerboundCustomPayloadPacket)
+- void handleKeepAlive(ServerboundKeepAlivePacket)
+- void handlePong(ServerboundPongPacket)
+- void handleResourcePackResponse(ServerboundResourcePackPacket)
+- void lambda$disconnect$0(Component)
+- void lambda$handleChat$10(ServerboundChatPacket,Optional)
++ void lambda$handleChat$6(PlayerChatMessage,CompletableFuture,CompletableFuture,Void)
+- void lambda$handleChat$8(PlayerChatMessage,CompletableFuture,CompletableFuture,Void)
++ void lambda$handleChat$8(ServerboundChatPacket,Optional)
+- void lambda$handleChatCommand$11(ServerboundChatCommandPacket,Optional)
++ void lambda$handleChatCommand$9(ServerboundChatCommandPacket,Optional)
++ void lambda$handleCustomCommandSuggestions$1(ServerboundCommandSuggestionPacket,Suggestions)
+- void lambda$handleCustomCommandSuggestions$2(ServerboundCommandSuggestionPacket,Suggestions)
++ void lambda$handleEditBook$2(int,List)
+- void lambda$handleEditBook$4(int,List)
++ void lambda$handlePlaceRecipe$11(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handlePlaceRecipe$13(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handleSignUpdate$12(ServerboundSignUpdatePacket,List)
+- void lambda$handleSignUpdate$14(ServerboundSignUpdatePacket,List)
++ void removePlayerFromWorld()
+- void send(Packet,PacketSendListener)
+- void send(Packet)
++ void switchToConfig()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.server.commands.ReturnCommand</summary>
+<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
 
 ```diff
-+ CommandSourceStack lambda$register$2(CommandContext)
-+ int writeResultToReturnValue(CommandContext,boolean,int)
++ boolean isPlayerAlreadyInWorld(GameProfile)
+- GameProfile createFakeProfile(GameProfile)
++ GameProfile createOfflineProfile(String)
++ void finishLoginAndWaitForClient(GameProfile)
+- void handleAcceptedLogin()
++ void handleCustomQueryPacket(ServerboundCustomQueryAnswerPacket)
+- void handleCustomQueryPacket(ServerboundCustomQueryPacket)
++ void handleLoginAcknowledgement(ServerboundLoginAcknowledgedPacket)
+- void lambda$handleAcceptedLogin$0()
++ void lambda$verifyLoginAndFinishConnectionSetup$0()
+- void placeNewPlayer(ServerPlayer)
++ void startClientVerification(GameProfile)
++ void verifyLoginAndFinishConnectionSetup(GameProfile)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+<details><summary>net.minecraft.server.packs.FilePackResources</summary>
 
 ```diff
-+ boolean logIPs()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ boolean logIPs
++ String addPrefix(String)
++ String extractNamespace(String,String)
+- void <init>(String,File,boolean)
++ void <init>(String,FilePackResources$SharedZipFileAccess,boolean,String)
+- void finalize()
+- ZipFile getOrCreateZipFile()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
+<details><summary>net.minecraft.server.packs.repository.Pack$Info</summary>
 
 ```diff
-+ int serverViewDistance
-- int viewDistance
-+ boolean isChunkOnTrackedBorder(ServerPlayer,int,int)
-+ boolean isChunkTracked(ServerPlayer,int,int)
-+ Either lambda$prepareAccessibleChunk$45(Either)
-+ int getPlayerViewDistance(ServerPlayer)
-+ Integer lambda$dumpChunks$48(LevelChunk)
-+ Integer lambda$dumpChunks$49(LevelChunk)
-+ Integer lambda$dumpChunks$50(LevelChunk)
-+ LevelChunk getTickingChunkIfPresent(long)
-+ LevelChunk lambda$prepareAccessibleChunk$44(List)
-+ List lambda$resendBiomesForChunks$56(ServerPlayer)
-+ Optional lambda$dumpChunks$47(ChunkAccess)
-+ Optional lambda$readChunk$53(Optional)
-+ String lambda$printFuture$51(LevelChunk)
-+ String lambda$printFuture$52(ChunkHolder$ChunkLoadingFailure)
-+ void applyChunkTrackingView(ChunkTrackingView)
-+ void dropChunk(ChunkPos)
-+ void lambda$applyChunkTrackingView$54(ChunkPos)
-+ void lambda$applyChunkTrackingView$55(ChunkPos)
-+ void lambda$prepareAccessibleChunk$46(Runnable)
-+ void lambda$resendBiomesForChunks$57(List)
-+ void markChunkPendingToSend(ChunkPos)
-+ void markChunkPendingToSend(LevelChunk)
-+ void onChunkAvailable(LevelChunk)
-+ void setServerViewDistance(int)
-+ void updateChunkTracking(ServerPlayer)
-+ void updatePlayerPos(ServerPlayer)
-- boolean isChunkInRange(int,int,int,int,int)
-- boolean isChunkOnRangeBorder(int,int,int,int,int)
-- Either lambda$prepareAccessibleChunk$49(Either)
-- Integer lambda$dumpChunks$53(LevelChunk)
-- Integer lambda$dumpChunks$54(LevelChunk)
-- Integer lambda$dumpChunks$55(LevelChunk)
-- LevelChunk lambda$prepareAccessibleChunk$48(List)
-- List lambda$resendBiomesForChunks$59(ServerPlayer)
-- Optional lambda$dumpChunks$52(ChunkAccess)
-- Optional lambda$readChunk$58(Optional)
-- SectionPos updatePlayerPos(ServerPlayer)
-- String lambda$printFuture$56(LevelChunk)
-- String lambda$printFuture$57(ChunkHolder$ChunkLoadingFailure)
-- void lambda$prepareAccessibleChunk$50(Runnable)
-- void lambda$prepareTickingChunk$44(ServerPlayer)
-- void lambda$prepareTickingChunk$45(LevelChunk)
-- void lambda$prepareTickingChunk$46(Either)
-- void lambda$prepareTickingChunk$47(Runnable)
-- void lambda$resendBiomesForChunks$60(List)
-- void lambda$setViewDistance$51(ServerPlayer)
-- void playerLoadedChunk(LevelChunk)
-- void setViewDistance(int)
-- void updateChunkTracking(MutableObject,boolean,boolean)
+- int format()
++ List overlays()
++ PackCompatibility compatibility()
+- PackCompatibility compatibility(PackType)
+- void <init>(Component,int,FeatureFlagSet)
++ void <init>(Component,PackCompatibility,FeatureFlagSet,List)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.metadata.pack.PackMetadataSection</summary>
+<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
 
 ```diff
-+ Codec CODEC
-+ Optional supportedFormats
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ Component description()
-+ int hashCode()
-+ int packFormat()
-+ Optional supportedFormats()
-+ String toString()
-+ void <init>(Optional)
-- Component getDescription()
-- int getPackFormat()
-- void <init>(Component,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
-
-```diff
-+ DirectoryValidator validator
-+ void <init>(DirectoryValidator)
-+ void discoverPacks(BiConsumer)
-- Pack$ResourcesSupplier detectPackResources(Path,boolean)
-- PackResources lambda$detectPackResources$1(String)
-- PackResources lambda$detectPackResources$2(String)
-- void <init>(PackSource)
-- void discoverPacks(BiConsumer)
+- void applyEffect(LivingEntity)
++ void onEffectStarted(LivingEntity)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
+<details><summary>net.minecraft.world.entity.GlowSquid</summary>
 
 ```diff
-+ boolean lambda$createVanillaTrustedRepository$0(Path)
-+ PackRepository createPackRepository(DirectoryValidator)
-+ PackRepository createVanillaTrustedRepository()
-+ void <init>(DirectoryValidator)
-- PackRepository createPackRepository(Path)
-- PackResources lambda$createVanillaPack$0(String)
-- void <init>()
+- boolean checkGlowSquideSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
++ boolean checkGlowSquidSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ResourceMetadata</summary>
+<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
 
 ```diff
-+ ResourceMetadata copySections(Collection)
-+ void copySection(MetadataSectionSerializer)
-+ void lambda$copySection$1(Object)
++ String getSerializedName()
++ void <init>(String,int,int,String,String)
+- void <init>(String,int,int,String)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.server.players.GameProfileCache$1</summary>
+<details><summary>net.minecraft.world.entity.animal.Animal</summary>
 
 ```diff
-+ void onProfileLookupFailed(Exception)
-- void onProfileLookupFailed(Exception)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.players.OldUsersConverter$2</summary>
-
-```diff
-+ void onProfileLookupFailed(Exception)
-- void onProfileLookupFailed(Exception)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.players.OldUsersConverter$4</summary>
-
-```diff
-+ void onProfileLookupFailed(Exception)
-- void onProfileLookupFailed(Exception)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent SPONGE_ABSORB
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey CAMEL_SAND_STEP_SOUND_BLOCKS
-+ TagKey CONCRETE_POWDER
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.DamageTypeTags</summary>
-
-```diff
-+ TagKey NO_KNOCKBACK
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CommonColors</summary>
-
-```diff
-+ int LIGHT_GRAY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ Codec RESOURCE_PATH_CODEC
-+ MapCodec GAME_PROFILE_WITHOUT_PROPERTIES
-+ App lambda$intervalCodec$21(RecordCodecBuilder$Instance)
-+ App lambda$static$67(RecordCodecBuilder$Instance)
-+ App lambda$static$76(RecordCodecBuilder$Instance)
-+ BitSet lambda$static$63(LongStream)
-+ Codec withAlternative(Codec)
-+ Codec withAlternative(Function)
-+ DataResult lambda$ensureHomogenous$51(Collection)
-+ DataResult lambda$floatRangeMinExclusiveWithMessage$44(Float)
-+ DataResult lambda$idResolverCodec$28(Integer)
-+ DataResult lambda$idResolverCodec$29(Integer)
-+ DataResult lambda$idResolverCodec$31(Object)
-+ DataResult lambda$instantCodec$54(String)
-+ DataResult lambda$intervalCodec$18(List)
-+ DataResult lambda$intervalCodec$19(List)
-+ DataResult lambda$intervalCodec$22(Pair)
-+ DataResult lambda$intervalCodec$24(Object)
-+ DataResult lambda$intervalCodec$25(Either)
-+ DataResult lambda$intRangeWithMessage$39(Integer)
-+ DataResult lambda$nonEmptyHolderSet$49(HolderSet)
-+ DataResult lambda$nonEmptyList$47(List)
-+ DataResult lambda$sizeLimitedString$83(String)
-+ DataResult lambda$static$16(List)
-+ DataResult lambda$static$53(String)
-+ DataResult lambda$static$56(String)
-+ DataResult lambda$static$60(String)
-+ DataResult lambda$static$78(String)
-+ DataResult lambda$static$80(String)
-+ DataResult lambda$stringResolverCodec$33(String)
-+ DataResult lambda$stringResolverCodec$34(String)
-+ DataResult lambda$stringResolverCodec$36(Object)
-+ DataResult lambda$stringResolverCodec$37(Object)
-+ Either lambda$intervalCodec$26(Object)
-+ Either lambda$static$72(PropertyMap)
-+ ExtraCodecs$TagOrElementLocation lambda$static$58(ResourceLocation)
-+ ExtraCodecs$TagOrElementLocation lambda$static$59(ResourceLocation)
-+ GameProfile lambda$static$75(PropertyMap)
-+ List lambda$intervalCodec$20(Object)
-+ List lambda$static$17(Matrix4f)
-+ LongStream lambda$static$64(BitSet)
-+ Matrix4f lambda$static$15(List)
-+ Object lambda$withAlternative$86(Object)
-+ Object lambda$withAlternative$87(Object)
-+ Object lambda$withAlternative$88(Either)
-+ Object lambda$withAlternative$89(Object)
-+ Object lambda$withAlternative$90(Either)
-+ Optional lambda$static$62(OptionalLong)
-+ Optional lambda$static$65(Property)
-+ OptionalLong lambda$static$61(Optional)
-+ Pair lambda$intervalCodec$23(Object)
-+ Property lambda$static$66(Optional)
-+ PropertyMap lambda$static$71(Either)
-+ String lambda$ensureHomogenous$50(Object)
-+ String lambda$floatRangeMinExclusiveWithMessage$43(Float)
-+ String lambda$idResolverCodec$27(Integer)
-+ String lambda$idResolverCodec$30(Object)
-+ String lambda$intRange$42(Integer)
-+ String lambda$intRangeWithMessage$38(Integer)
-+ String lambda$nonEmptyHolderSet$48()
-+ String lambda$nonEmptyList$46()
-+ String lambda$sizeLimitedString$81(String,int,int,int)
-+ String lambda$sizeLimitedString$82(String,int,int,int)
-+ String lambda$static$40(Integer)
-+ String lambda$static$41(Integer)
-+ String lambda$static$45(Float)
-+ String lambda$static$52(PatternSyntaxException)
-+ String lambda$static$55()
-+ String lambda$static$57(byte[])
-+ String lambda$static$77()
-+ String lambda$static$79(String)
-+ String lambda$static$84(String)
-+ String lambda$stringResolverCodec$32(String)
-+ String lambda$stringResolverCodec$35(Object)
-+ void lambda$static$68(List)
-+ void lambda$static$69(Map)
-+ void lambda$static$70(List)
-+ void lambda$static$74(Property)
-- App lambda$intervalCodec$24(RecordCodecBuilder$Instance)
-- App lambda$static$83(RecordCodecBuilder$Instance)
-- BitSet lambda$static$69(LongStream)
-- DataResult lambda$ensureHomogenous$57(Collection)
-- DataResult lambda$floatRangeMinExclusiveWithMessage$50(Float)
-- DataResult lambda$idResolverCodec$34(Integer)
-- DataResult lambda$idResolverCodec$35(Integer)
-- DataResult lambda$idResolverCodec$37(Object)
-- DataResult lambda$instantCodec$60(String)
-- DataResult lambda$intervalCodec$21(List)
-- DataResult lambda$intervalCodec$22(List)
-- DataResult lambda$intervalCodec$25(Pair)
-- DataResult lambda$intervalCodec$30(Object)
-- DataResult lambda$intervalCodec$31(Either)
-- DataResult lambda$intRangeWithMessage$45(Integer)
-- DataResult lambda$nonEmptyHolderSet$55(HolderSet)
-- DataResult lambda$nonEmptyList$53(List)
-- DataResult lambda$sizeLimitedString$90(String)
-- DataResult lambda$static$19(List)
-- DataResult lambda$static$59(String)
-- DataResult lambda$static$62(String)
-- DataResult lambda$static$66(String)
-- DataResult lambda$static$87(String)
-- DataResult lambda$stringResolverCodec$39(String)
-- DataResult lambda$stringResolverCodec$40(String)
-- DataResult lambda$stringResolverCodec$42(Object)
-- DataResult lambda$stringResolverCodec$43(Object)
-- DataResult mapGameProfileToIdName(GameProfile)
-- DataResult mapIdNameToGameProfile(Pair)
-- Either lambda$intervalCodec$32(Object)
-- Either lambda$static$78(PropertyMap)
-- ExtraCodecs$TagOrElementLocation lambda$static$64(ResourceLocation)
-- ExtraCodecs$TagOrElementLocation lambda$static$65(ResourceLocation)
-- GameProfile lambda$static$82(PropertyMap)
-- List lambda$intervalCodec$23(Object)
-- List lambda$static$20(Matrix4f)
-- LongStream lambda$static$70(BitSet)
-- Matrix4f lambda$static$18(List)
-- Object lambda$intervalCodec$27(Object)
-- Object lambda$intervalCodec$28(Object)
-- Object lambda$intervalCodec$29(Either)
-- Optional lambda$static$68(OptionalLong)
-- Optional lambda$static$71(Property)
-- OptionalLong lambda$static$67(Optional)
-- Pair lambda$intervalCodec$26(Object)
-- Property lambda$static$72(Optional)
-- PropertyMap lambda$static$77(Either)
-- Quaternionf lambda$static$15(Quaternionf)
-- Quaternionf lambda$static$16(Quaternionf)
-- Quaternionf lambda$static$17(Either)
-- String lambda$ensureHomogenous$56(Object)
-- String lambda$floatRangeMinExclusiveWithMessage$49(Float)
-- String lambda$idResolverCodec$33(Integer)
-- String lambda$idResolverCodec$36(Object)
-- String lambda$intRange$48(Integer)
-- String lambda$intRangeWithMessage$44(Integer)
-- String lambda$nonEmptyHolderSet$54()
-- String lambda$nonEmptyList$52()
-- String lambda$sizeLimitedString$88(String,int,int,int)
-- String lambda$sizeLimitedString$89(String,int,int,int)
-- String lambda$static$46(Integer)
-- String lambda$static$47(Integer)
-- String lambda$static$51(Float)
-- String lambda$static$58(PatternSyntaxException)
-- String lambda$static$61()
-- String lambda$static$63(byte[])
-- String lambda$static$80(Optional)
-- String lambda$static$84()
-- String lambda$static$86(String)
-- String lambda$stringResolverCodec$38(String)
-- String lambda$stringResolverCodec$41(Object)
-- UUID lambda$static$79(Optional)
-- void lambda$static$74(List)
-- void lambda$static$75(Map)
-- void lambda$static$76(List)
-- void lambda$static$81(Property)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.InclusiveRange</summary>
-
-```diff
-+ void <init>(Comparable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.References</summary>
-
-```diff
-+ DSL$TypeReference SAVED_DATA_COMMAND_STORAGE
-+ DSL$TypeReference SAVED_DATA_FORCED_CHUNKS
-+ DSL$TypeReference SAVED_DATA_MAP_DATA
-+ DSL$TypeReference SAVED_DATA_MAP_INDEX
-+ DSL$TypeReference SAVED_DATA_RAIDS
-+ DSL$TypeReference SAVED_DATA_RANDOM_SEQUENCES
-+ DSL$TypeReference SAVED_DATA_SCOREBOARD
-+ DSL$TypeReference SAVED_DATA_STRUCTURE_FEATURE_INDICES
-- DSL$TypeReference SAVED_DATA
-+ String lambda$static$28()
-+ String lambda$static$29()
-+ String lambda$static$30()
-+ String lambda$static$31()
-+ String lambda$static$32()
-+ String lambda$static$33()
-+ String lambda$static$34()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V1451_6</summary>
-
-```diff
-+ String packNamespacedWithDot(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V1451_6$2</summary>
-
-```diff
-- String packWithDot(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.JvmProfiler$NoOpProfiler</summary>
-
-```diff
-+ void onPacketReceived(SocketAddress,int)
-+ void onPacketSent(SocketAddress,int)
-- void onPacketReceived(SocketAddress,int)
-- void onPacketSent(SocketAddress,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.event.PacketEvent</summary>
-
-```diff
-+ String protocolId
-- int protocolId
-+ void <init>(SocketAddress,int)
-- void <init>(SocketAddress,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.jfr.event.PacketReceivedEvent</summary>
-
-```diff
-+ void <init>(SocketAddress,int)
-- void <init>(SocketAddress,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.ConstantFloat</summary>
-
-```diff
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- ConstantFloat lambda$static$2(ConstantFloat)
-- ConstantFloat lambda$static$3(Either)
-- Either lambda$static$4(ConstantFloat)
-- Float lambda$static$0(ConstantFloat)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.RandomSequence</summary>
-
-```diff
-+ void <init>(Optional)
-+ XoroshiroRandomSource createSequence(Optional)
-- XoroshiroRandomSource createSequence(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffect</summary>
-
-```diff
-+ boolean shouldApplyEffectTickThisTick(int,int)
-+ void addAttributeModifiers(AttributeMap,int)
-+ void onEffectStarted(LivingEntity,int)
-+ void removeAttributeModifiers(AttributeMap)
-- boolean isDurationEffectTick(int,int)
-- double getAttributeModifierValue(AttributeModifier)
-- void addAttributeModifiers(AttributeMap,int)
-- void removeAttributeModifiers(AttributeMap,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTrader</summary>
-
-```diff
-+ void experimentalUpdateTrades()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean canPlayerFitWithinBlocksAndEntitiesWhen(Pose)
-+ float ridingOffset(Entity)
-+ void internalSetAbsorptionAmount(float)
 - double getMyRidingOffset()
-- void setAbsorptionAmount(float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raids</summary>
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
 
 ```diff
-+ boolean lambda$createOrExtendRaid$2(Holder)
-+ Raids lambda$factory$0(ServerLevel)
-+ Raids lambda$factory$1(CompoundTag)
-+ SavedData$Factory factory(ServerLevel)
-- boolean lambda$createOrExtendRaid$0(Holder)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.flag.FeatureFlags</summary>
+<details><summary>net.minecraft.world.entity.animal.Panda</summary>
 
 ```diff
-+ FeatureFlag TRADE_REBALANCE
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.EnchantmentMenu$3</summary>
+<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
 
 ```diff
-+ Pair getNoItemIcon()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
 
 ```diff
-+ boolean lambda$findSlotToQuickMoveTo$8(int)
-+ IntStream lambda$findSlotToQuickMoveTo$7(SmithingRecipe)
-+ OptionalInt findSlotMatchingIngredient(ItemStack)
-+ OptionalInt findSlotToQuickMoveTo(ItemStack)
-- Optional findSlotMatchingIngredient(ItemStack)
-- Optional lambda$canMoveIntoInputSlots$8(SmithingRecipe)
-- Optional lambda$getSlotToQuickMoveTo$7(SmithingRecipe)
+- boolean isPanicking()
+- double getMyRidingOffset()
++ float ridingOffset(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.DecoratedPotRecipe</summary>
+<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
 
 ```diff
-- ItemStack createDecoratedPotItem(DecoratedPotBlockEntity$Decorations)
++ boolean canCamelChangePose()
+- boolean isPanicking()
++ double getBodyAnchorAnimationYOffset(boolean,float,EntityDimensions,float)
+- double getBodyAnchorAnimationYOffset(boolean,float)
+- double getPassengersRidingOffset()
++ float getScale()
+- LivingEntity getControllingPassenger()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CollisionGetter</summary>
+<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
 
 ```diff
-+ boolean noBlockCollision(AABB)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.ForcedChunksSavedData</summary>
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
 
 ```diff
-+ SavedData$Factory factory()
+- double getPassengersRidingOffset()
+- LivingEntity getControllingPassenger()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
+- void positionRider(Entity,Entity$MoveFunction)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
+<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
++ float getPassengersRidingOffsetY(EntityDimensions,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
 
 ```diff
-+ BooleanProperty WATERLOGGED
-+ BlockState getStateForPlacement(BlockPlaceContext)
-+ BlockState updateShape(BlockPos)
-+ boolean canPlaceLiquid(Fluid)
-+ FluidState getFluidState(BlockState)
-+ ItemStack pickupBlock(BlockState)
-+ void <clinit>()
-+ void createBlockStateDefinition(StateDefinition$Builder)
+- double getPassengersRidingOffset()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BigDripleafBlock</summary>
+<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- void lerpTo(double,double,double,float,float,int,boolean)
++ void lerpTo(double,double,double,float,float,int)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
+<details><summary>net.minecraft.world.entity.monster.AbstractIllager</summary>
 
 ```diff
-+ Block register(Block)
++ float ridingOffset(Entity)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.EnderMan</summary>
 
 ```diff
-+ ItemStack pickupBlock(BlockState)
-- ItemStack pickupBlock(BlockState)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CaveVinesBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Ghast</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
++ float ridingOffset(Entity)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CropBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
 
 ```diff
-+ boolean hasSufficientLight(BlockPos)
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.DecoratedPotBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Husk</summary>
 
 ```diff
-+ ItemStack getCloneItemStack(BlockState)
-+ void lambda$appendHoverText$2(Item)
-+ void lambda$getDrops$1(Consumer)
-+ void lambda$setPlacedBy$0(DecoratedPotBlockEntity)
-+ void setPlacedBy(ItemStack)
-- void lambda$appendHoverText$1(Item)
-- void lambda$getDrops$0(Consumer)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GlowLichenBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.PatrollingMonster</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- double getMyRidingOffset()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- double getPassengersRidingOffset()
++ float ridingOffset(Entity)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
 
 ```diff
-+ boolean canPlaceLiquid(Fluid)
-- boolean canPlaceLiquid(Fluid)
+- double getPassengersRidingOffset()
+- LivingEntity getControllingPassenger()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LiquidBlockContainer</summary>
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
 
 ```diff
-+ boolean canPlaceLiquid(net.minecraft.world.entity.player.Player,net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState,net.minecraft.world.level.material.Fluid)
-- boolean canPlaceLiquid(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState,net.minecraft.world.level.material.Fluid)
+- double getMyRidingOffset()
+- void lerpTo(double,double,double,float,float,int,boolean)
++ void lerpTo(double,double,double,float,float,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.MangrovePropaguleBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Strider</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- boolean isPanicking()
+- double getPassengersRidingOffset()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NetherrackBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Witch</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.NyliumBlock</summary>
+
+<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- double getPassengersRidingOffset()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PowderSnowBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
 
 ```diff
-+ ItemStack pickupBlock(BlockState)
-- ItemStack pickupBlock(BlockState)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RootedDirtBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
 
 ```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- double getPassengersRidingOffset()
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SeagrassBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
 
 ```diff
-+ boolean canPlaceLiquid(Fluid)
-+ boolean isValidBonemealTarget(BlockState)
-- boolean canPlaceLiquid(Fluid)
-- boolean isValidBonemealTarget(BlockState,boolean)
+- double getPassengersRidingOffset()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SimpleWaterloggedBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
 
 ```diff
-+ boolean canPlaceLiquid(Fluid)
-+ ItemStack pickupBlock(BlockState)
-- boolean canPlaceLiquid(Fluid)
-- ItemStack pickupBlock(BlockState)
++ Vector3f getPassengerAttachmentPoint(Entity,EntityDimensions,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SlabBlock</summary>
+<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
 
 ```diff
-+ boolean canPlaceLiquid(Fluid)
-- boolean canPlaceLiquid(Fluid)
++ Node[] lambda$findPath$3(int)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StemBlock</summary>
-
-```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
-
-```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
-
-```diff
-+ boolean isValidBonemealTarget(BlockState)
-- boolean isValidBonemealTarget(BlockState,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ Executor CHECKED_MAIN_THREAD_EXECUTOR
-+ boolean hasTextures(GameProfile)
-+ CompletableFuture fetchGameProfile(String)
-+ CompletableFuture fillProfileTextures(GameProfile)
-+ CompletionStage lambda$fetchGameProfile$3(Optional)
-+ GameProfile getOrResolveGameProfile(CompoundTag)
-+ Optional lambda$fetchGameProfile$4(Optional)
-+ Optional lambda$fillProfileTextures$5(GameProfile)
-+ void <clinit>()
-+ void lambda$resolveGameProfile$2(Optional)
-+ void lambda$static$0(Runnable)
-+ void lambda$updateOwnerProfile$1(Optional)
-+ void resolveGameProfile(CompoundTag)
-+ void resolveGameProfile(String)
-- void lambda$updateGameprofile$1(Consumer)
-- void lambda$updateGameprofile$2(GameProfile)
-- void lambda$updateGameprofile$3(GameProfile)
-- void lambda$updateGameprofile$4(GameProfile)
-- void lambda$updateGameprofile$5(GameProfile)
-- void lambda$updateGameprofile$6(Optional)
-- void lambda$updateOwnerProfile$0(GameProfile)
-- void updateGameprofile(Consumer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.ConstantHeight</summary>
-
-```diff
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- ConstantHeight lambda$static$2(ConstantHeight)
-- ConstantHeight lambda$static$3(Either)
-- Either lambda$static$4(ConstantHeight)
-- VerticalAnchor lambda$static$0(ConstantHeight)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces</summary>
-
-```diff
-- void main(String[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
-
-```diff
-+ Path$DebugData debugData
-- Node[] closedSet
-- Node[] openSet
-- Set targetNodes
-+ Node[] readNodeArray(FriendlyByteBuf)
-+ Path copy()
-+ Path$DebugData debugData()
-+ void lambda$writeToStream$0(Node)
-+ void writeNodeArray(Node[])
-- Node[] getClosedSet()
-- Node[] getOpenSet()
-- void lambda$writeToStream$0(Target)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
-
-```diff
-+ IllegalArgumentException lambda$load$1(CompoundTag)
-+ MapItemSavedData lambda$factory$0()
-+ SavedData$Factory factory()
-+ void lambda$save$2(Tag)
-- IllegalArgumentException lambda$load$0(CompoundTag)
-- void lambda$save$1(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
-
-```diff
-+ LevelStorageSource parent()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.validation.DirectoryValidator</summary>
-
-```diff
-+ PathMatcher symlinkTargetAllowList
-- PathAllowList symlinkTargetAllowList
-+ List validateDirectory(Path,boolean)
-+ List validateSymlink(Path)
-+ void <init>(PathMatcher)
-+ void validateKnownDirectory(List)
-- List validateSave(Path,boolean)
-- void <init>(PathAllowList)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.scores.Scoreboard</summary>
-
-```diff
-+ Map displayObjectives
-- int DISPLAY_SLOT_BELOW_NAME
-- int DISPLAY_SLOT_LIST
-- int DISPLAY_SLOT_SIDEBAR
-- int DISPLAY_SLOT_TEAMS_SIDEBAR_END
-- int DISPLAY_SLOT_TEAMS_SIDEBAR_START
-- int DISPLAY_SLOTS
-- Objective[] displayObjectives
-- String[] displaySlotNames
-+ Objective getDisplayObjective(DisplaySlot)
-+ void lambda$savePlayerScores$4(Score)
-+ void lambda$savePlayerScores$5(Collection)
-+ void setDisplayObjective(Objective)
-- boolean hasObjective(String)
-- boolean lambda$savePlayerScores$4(Score)
-- int getDisplaySlotByName(String)
-- Objective getDisplayObjective(int)
-- Objective getOrCreateObjective(String)
-- String getDisplaySlotName(int)
-- String[] getDisplaySlotNames()
-- void lambda$savePlayerScores$5(Score)
-- void lambda$savePlayerScores$6(Collection)
-- void setDisplayObjective(Objective)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.AngleArgument
@@ -13322,13 +7711,2327 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Transformation</summary>
+
+```diff
++ Transformation lambda$static$5()
+- Transformation lambda$static$5(Transformation)
+- Transformation lambda$static$6(Transformation)
+- Transformation lambda$static$7(Either)
+- Transformation lambda$static$8()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.FrameType</summary>
+
+```diff
+- int getTexture()
++ void <init>(String,int,String,ChatFormatting)
+- void <init>(String,int,String,int,ChatFormatting)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.CompressionDecoder</summary>
+
+```diff
++ ByteBuf inflate(ChannelHandlerContext,int)
++ void setupInflaterInput(ByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.Connection</summary>
+
+```diff
++ AttributeKey getProtocolKey(PacketFlow)
++ Component lambda$handleDisconnection$12()
+- ConnectionProtocol getCurrentProtocol()
++ String getLoggableAddress(boolean)
++ void configureInMemoryPacketValidation(ChannelPipeline,PacketFlow)
++ void configureInMemoryPipeline(ChannelPipeline,PacketFlow)
++ void doSendPacket(Packet,PacketSendListener,boolean)
+- void doSendPacket(Packet,PacketSendListener,ConnectionProtocol,ConnectionProtocol)
++ void flush()
++ void flushChannel()
++ void initiateServerboundConnection(String,int,PacketListener,ClientIntent)
++ void initiateServerboundPlayConnection(String,int,ClientLoginPacketListener)
++ void initiateServerboundStatusConnection(String,int,ClientStatusPacketListener)
++ void lambda$doSendPacket$10(PacketSendListener,Future)
+- void lambda$doSendPacket$8(PacketSendListener,Future)
++ void lambda$flush$11()
++ void lambda$initiateServerboundConnection$7(ClientIntent,PacketListener,String,int,Connection)
++ void lambda$send$8(Packet,PacketSendListener,boolean,Connection)
+- void lambda$sendPacket$7(Packet,PacketSendListener,ConnectionProtocol,ConnectionProtocol)
++ void lambda$sendPacket$9(Packet,PacketSendListener,boolean)
++ void resumeInboundAfterProtocolChange()
++ void runOnceConnected(Consumer)
++ void send(Packet,PacketSendListener,boolean)
++ void sendNoFlush(Packet,PacketSendListener)
++ void sendNoFlush(Packet)
++ void sendPacket(Packet,PacketSendListener,boolean)
+- void sendPacket(Packet,PacketSendListener)
++ void setClientboundProtocolAfterHandshake(ClientIntent)
++ void setInitialProtocolAttributes(Channel)
++ void setListenerForServerboundHandshake(PacketListener)
+- void setProtocol(ConnectionProtocol)
++ void suspendInboundAfterProtocolChange()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.ConnectionProtocol</summary>
+
+```diff
+- BundlerInfo getBundlerInfo(PacketFlow)
+- ConnectionProtocol getById(int)
+- ConnectionProtocol getProtocolForPacket(Packet)
++ ConnectionProtocol$CodecData codec(PacketFlow)
+- int getId()
+- int getPacketId(PacketFlow,Packet)
+- Packet createPacket(PacketFlow,int,FriendlyByteBuf)
++ String id()
+- void <init>(String,int,int,ConnectionProtocol$ProtocolBuilder)
++ void <init>(String,int,String,ConnectionProtocol$ProtocolBuilder)
+- void lambda$getPacketsByIds$0(Int2ObjectMap,Class,Integer)
+- void lambda$static$1(ConnectionProtocol,Class)
+- void lambda$static$2(ConnectionProtocol,PacketFlow,ConnectionProtocol$PacketSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket</summary>
+
+```diff
++ boolean equals(Object)
++ ChunkPos pos()
+- int getX()
+- int getZ()
++ int hashCode()
++ String toString()
++ void <init>(ChunkPos)
+- void <init>(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.handshake.ServerHandshakePacketListener</summary>
+
+```diff
++ ConnectionProtocol protocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ClientLoginPacketListener</summary>
+
+```diff
++ ConnectionProtocol protocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ClientboundGameProfilePacket</summary>
+
+```diff
++ ConnectionProtocol nextProtocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerLoginPacketListener</summary>
+
+```diff
++ ConnectionProtocol protocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundHelloPacket</summary>
+
+```diff
+- Optional profileId()
++ UUID profileId()
+- void <init>(String,Optional)
++ void <init>(String,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ClientStatusPacketListener</summary>
+
+```diff
++ ConnectionProtocol protocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+
+```diff
++ int execute(CommandFunction,CommandSourceStack,ServerFunctionManager$TraceCallbacks,CompoundTag)
+- int execute(CommandFunction,CommandSourceStack,ServerFunctionManager$TraceCallbacks)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+
+```diff
+- ArgumentBuilder lambda$addConditionals$58(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$addConditionals$59(CommandNode,boolean,DataCommands$DataProvider,ArgumentBuilder)
++ boolean checkFunction(CommandSourceStack,Collection)
++ boolean lambda$addConditionals$56(CommandContext)
+- boolean lambda$expandOneToManyEntityRelation$74(Entity)
++ boolean lambda$expandOneToManyEntityRelation$75(Entity)
+- boolean lambda$expandOneToOneEntityRelation$71(Entity)
++ boolean lambda$expandOneToOneEntityRelation$72(Entity)
+- Collection lambda$addConditional$63(boolean,ExecuteCommand$CommandPredicate,CommandContext)
++ Collection lambda$addConditional$64(boolean,ExecuteCommand$CommandPredicate,CommandContext)
+- Collection lambda$addConditionals$56(boolean,DataCommands$DataProvider,CommandContext)
++ Collection lambda$addConditionals$57(boolean,DataCommands$DataProvider,CommandContext)
+- Collection lambda$addIfBlocksConditional$66(boolean,boolean,CommandContext)
++ Collection lambda$addIfBlocksConditional$67(boolean,boolean,CommandContext)
+- Collection lambda$expandOneToManyEntityRelation$75(Function,CommandContext)
++ Collection lambda$expandOneToManyEntityRelation$76(Function,CommandContext)
+- Collection lambda$expandOneToOneEntityRelation$73(Function,CommandContext)
++ Collection lambda$expandOneToOneEntityRelation$74(Function,CommandContext)
+- Component lambda$addConditional$64()
++ Component lambda$addConditional$65()
+- Component lambda$checkIfRegions$69(OptionalInt)
++ Component lambda$checkIfRegions$70(OptionalInt)
+- Component lambda$checkUnlessRegions$70()
++ Component lambda$checkUnlessRegions$71()
+- Component lambda$createNumericConditionalHandler$59(int)
++ Component lambda$createNumericConditionalHandler$60(int)
+- Component lambda$createNumericConditionalHandler$61()
++ Component lambda$createNumericConditionalHandler$62()
+- int lambda$addConditional$65(boolean,ExecuteCommand$CommandPredicate,CommandContext)
++ int lambda$addConditional$66(boolean,ExecuteCommand$CommandPredicate,CommandContext)
+- int lambda$addConditionals$57(DataCommands$DataProvider,CommandContext)
++ int lambda$addConditionals$58(DataCommands$DataProvider,CommandContext)
+- int lambda$addIfBlocksConditional$67(boolean,CommandContext)
++ int lambda$addIfBlocksConditional$69(boolean,CommandContext)
+- int lambda$createNumericConditionalHandler$60(ExecuteCommand$CommandNumericPredicate,CommandContext)
++ int lambda$createNumericConditionalHandler$61(ExecuteCommand$CommandNumericPredicate,CommandContext)
+- int lambda$createNumericConditionalHandler$62(ExecuteCommand$CommandNumericPredicate,CommandContext)
++ int lambda$createNumericConditionalHandler$63(ExecuteCommand$CommandNumericPredicate,CommandContext)
+- List lambda$expandOneToOneEntityRelation$72(CommandSourceStack,Entity)
++ List lambda$expandOneToOneEntityRelation$73(CommandSourceStack,Entity)
+- Optional lambda$createRelationOperations$76(Entity)
++ Optional lambda$createRelationOperations$83(Entity)
+- Stream lambda$createRelationOperations$83(Entity)
++ Stream lambda$createRelationOperations$84(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ReturnCommand</summary>
+
+```diff
++ CommandSourceStack lambda$register$2(CommandContext)
++ int writeResultToReturnValue(CommandContext,boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ boolean logIPs()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
+- boolean isChunkInRange(int,int,int,int,int)
+- boolean isChunkOnRangeBorder(int,int,int,int,int)
++ boolean isChunkOnTrackedBorder(ServerPlayer,int,int)
++ boolean isChunkTracked(ServerPlayer,int,int)
++ Either lambda$prepareAccessibleChunk$45(Either)
+- Either lambda$prepareAccessibleChunk$49(Either)
++ int getPlayerViewDistance(ServerPlayer)
++ Integer lambda$dumpChunks$48(LevelChunk)
++ Integer lambda$dumpChunks$49(LevelChunk)
++ Integer lambda$dumpChunks$50(LevelChunk)
+- Integer lambda$dumpChunks$53(LevelChunk)
+- Integer lambda$dumpChunks$54(LevelChunk)
+- Integer lambda$dumpChunks$55(LevelChunk)
++ LevelChunk getTickingChunkIfPresent(long)
++ LevelChunk lambda$prepareAccessibleChunk$44(List)
+- LevelChunk lambda$prepareAccessibleChunk$48(List)
++ List lambda$resendBiomesForChunks$56(ServerPlayer)
+- List lambda$resendBiomesForChunks$59(ServerPlayer)
++ Optional lambda$dumpChunks$47(ChunkAccess)
+- Optional lambda$dumpChunks$52(ChunkAccess)
++ Optional lambda$readChunk$53(Optional)
+- Optional lambda$readChunk$58(Optional)
+- SectionPos updatePlayerPos(ServerPlayer)
++ String lambda$printFuture$51(LevelChunk)
++ String lambda$printFuture$52(ChunkHolder$ChunkLoadingFailure)
+- String lambda$printFuture$56(LevelChunk)
+- String lambda$printFuture$57(ChunkHolder$ChunkLoadingFailure)
++ void applyChunkTrackingView(ServerPlayer,ChunkTrackingView)
++ void dropChunk(ServerPlayer,ChunkPos)
++ void lambda$applyChunkTrackingView$54(ServerPlayer,ChunkPos)
++ void lambda$applyChunkTrackingView$55(ServerPlayer,ChunkPos)
++ void lambda$prepareAccessibleChunk$46(ChunkHolder,Runnable)
+- void lambda$prepareAccessibleChunk$50(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$44(MutableObject,LevelChunk,ServerPlayer)
+- void lambda$prepareTickingChunk$45(ChunkHolder,LevelChunk)
+- void lambda$prepareTickingChunk$46(ChunkHolder,Either)
+- void lambda$prepareTickingChunk$47(ChunkHolder,Runnable)
++ void lambda$resendBiomesForChunks$57(ServerPlayer,List)
+- void lambda$resendBiomesForChunks$60(ServerPlayer,List)
+- void lambda$setViewDistance$51(ChunkPos,int,MutableObject,ServerPlayer)
++ void markChunkPendingToSend(ServerPlayer,ChunkPos)
++ void markChunkPendingToSend(ServerPlayer,LevelChunk)
++ void onChunkAvailable(LevelChunk)
+- void playerLoadedChunk(ServerPlayer,MutableObject,LevelChunk)
++ void setServerViewDistance(int)
+- void setViewDistance(int)
+- void updateChunkTracking(ServerPlayer,ChunkPos,MutableObject,boolean,boolean)
++ void updateChunkTracking(ServerPlayer)
++ void updatePlayerPos(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.metadata.pack.PackMetadataSection</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ Component description()
+- Component getDescription()
+- int getPackFormat()
++ int hashCode()
++ int packFormat()
++ Optional supportedFormats()
++ String toString()
++ void <init>(Component,int,Optional)
+- void <init>(Component,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
+
+```diff
+- Pack$ResourcesSupplier detectPackResources(Path,boolean)
+- PackResources lambda$detectPackResources$1(Path,boolean,String)
+- PackResources lambda$detectPackResources$2(File,boolean,String)
++ void <init>(Path,PackType,PackSource,DirectoryValidator)
+- void <init>(Path,PackType,PackSource)
+- void discoverPacks(Path,boolean,BiConsumer)
++ void discoverPacks(Path,DirectoryValidator,boolean,BiConsumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
+
+```diff
++ boolean lambda$createVanillaTrustedRepository$0(Path)
++ PackRepository createPackRepository(Path,DirectoryValidator)
+- PackRepository createPackRepository(Path)
++ PackRepository createVanillaTrustedRepository()
+- PackResources lambda$createVanillaPack$0(PackResources,String)
+- void <init>()
++ void <init>(DirectoryValidator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceMetadata</summary>
+
+```diff
++ ResourceMetadata copySections(Collection)
++ void copySection(ResourceMetadata$Builder,MetadataSectionSerializer)
++ void lambda$copySection$1(ResourceMetadata$Builder,MetadataSectionSerializer,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.GameProfileCache$1</summary>
+
+```diff
+- void onProfileLookupFailed(GameProfile,Exception)
++ void onProfileLookupFailed(String,Exception)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.OldUsersConverter$2</summary>
+
+```diff
+- void onProfileLookupFailed(GameProfile,Exception)
++ void onProfileLookupFailed(String,Exception)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.OldUsersConverter$4</summary>
+
+```diff
+- void onProfileLookupFailed(GameProfile,Exception)
++ void onProfileLookupFailed(String,Exception)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ App lambda$intervalCodec$21(Codec,String,String,RecordCodecBuilder$Instance)
+- App lambda$intervalCodec$24(Codec,String,String,RecordCodecBuilder$Instance)
++ App lambda$static$67(RecordCodecBuilder$Instance)
++ App lambda$static$76(RecordCodecBuilder$Instance)
+- App lambda$static$83(RecordCodecBuilder$Instance)
++ BitSet lambda$static$63(LongStream)
+- BitSet lambda$static$69(LongStream)
++ Codec withAlternative(Codec,Codec,Function)
++ Codec withAlternative(Codec,Codec)
++ DataResult lambda$ensureHomogenous$51(Function,Collection)
+- DataResult lambda$ensureHomogenous$57(Function,Collection)
++ DataResult lambda$floatRangeMinExclusiveWithMessage$44(float,float,Function,Float)
+- DataResult lambda$floatRangeMinExclusiveWithMessage$50(float,float,Function,Float)
++ DataResult lambda$idResolverCodec$28(Integer)
++ DataResult lambda$idResolverCodec$29(IntFunction,Integer)
++ DataResult lambda$idResolverCodec$31(ToIntFunction,int,Object)
+- DataResult lambda$idResolverCodec$34(Integer)
+- DataResult lambda$idResolverCodec$35(IntFunction,Integer)
+- DataResult lambda$idResolverCodec$37(ToIntFunction,int,Object)
++ DataResult lambda$instantCodec$54(DateTimeFormatter,String)
+- DataResult lambda$instantCodec$60(DateTimeFormatter,String)
++ DataResult lambda$intervalCodec$18(BiFunction,List)
++ DataResult lambda$intervalCodec$19(BiFunction,List)
+- DataResult lambda$intervalCodec$21(BiFunction,List)
+- DataResult lambda$intervalCodec$22(BiFunction,List)
++ DataResult lambda$intervalCodec$22(BiFunction,Pair)
++ DataResult lambda$intervalCodec$24(BiFunction,Object)
++ DataResult lambda$intervalCodec$25(BiFunction,Either)
+- DataResult lambda$intervalCodec$25(BiFunction,Pair)
+- DataResult lambda$intervalCodec$30(BiFunction,Object)
+- DataResult lambda$intervalCodec$31(BiFunction,Either)
++ DataResult lambda$intRangeWithMessage$39(int,int,Function,Integer)
+- DataResult lambda$intRangeWithMessage$45(int,int,Function,Integer)
++ DataResult lambda$nonEmptyHolderSet$49(HolderSet)
+- DataResult lambda$nonEmptyHolderSet$55(HolderSet)
++ DataResult lambda$nonEmptyList$47(List)
+- DataResult lambda$nonEmptyList$53(List)
++ DataResult lambda$sizeLimitedString$83(int,int,String)
+- DataResult lambda$sizeLimitedString$90(int,int,String)
++ DataResult lambda$static$16(List)
+- DataResult lambda$static$19(List)
++ DataResult lambda$static$53(String)
++ DataResult lambda$static$56(String)
+- DataResult lambda$static$59(String)
++ DataResult lambda$static$60(String)
+- DataResult lambda$static$62(String)
+- DataResult lambda$static$66(String)
++ DataResult lambda$static$78(String)
++ DataResult lambda$static$80(String)
+- DataResult lambda$static$87(String)
++ DataResult lambda$stringResolverCodec$33(String)
++ DataResult lambda$stringResolverCodec$34(Function,String)
++ DataResult lambda$stringResolverCodec$36(Object)
++ DataResult lambda$stringResolverCodec$37(Function,Object)
+- DataResult lambda$stringResolverCodec$39(String)
+- DataResult lambda$stringResolverCodec$40(Function,String)
+- DataResult lambda$stringResolverCodec$42(Object)
+- DataResult lambda$stringResolverCodec$43(Function,Object)
+- DataResult mapGameProfileToIdName(GameProfile)
+- DataResult mapIdNameToGameProfile(Pair)
++ Either lambda$intervalCodec$26(Function,Function,Object)
+- Either lambda$intervalCodec$32(Function,Function,Object)
++ Either lambda$static$72(PropertyMap)
+- Either lambda$static$78(PropertyMap)
++ ExtraCodecs$TagOrElementLocation lambda$static$58(ResourceLocation)
++ ExtraCodecs$TagOrElementLocation lambda$static$59(ResourceLocation)
+- ExtraCodecs$TagOrElementLocation lambda$static$64(ResourceLocation)
+- ExtraCodecs$TagOrElementLocation lambda$static$65(ResourceLocation)
++ GameProfile lambda$static$75(GameProfile,PropertyMap)
+- GameProfile lambda$static$82(GameProfile,PropertyMap)
++ List lambda$intervalCodec$20(Function,Function,Object)
+- List lambda$intervalCodec$23(Function,Function,Object)
++ List lambda$static$17(Matrix4f)
+- List lambda$static$20(Matrix4f)
++ LongStream lambda$static$64(BitSet)
+- LongStream lambda$static$70(BitSet)
++ Matrix4f lambda$static$15(List)
+- Matrix4f lambda$static$18(List)
+- Object lambda$intervalCodec$27(Object)
+- Object lambda$intervalCodec$28(Object)
+- Object lambda$intervalCodec$29(Either)
++ Object lambda$withAlternative$86(Object)
++ Object lambda$withAlternative$87(Object)
++ Object lambda$withAlternative$88(Either)
++ Object lambda$withAlternative$89(Object)
++ Object lambda$withAlternative$90(Function,Either)
++ Optional lambda$static$62(OptionalLong)
++ Optional lambda$static$65(Property)
+- Optional lambda$static$68(OptionalLong)
+- Optional lambda$static$71(Property)
++ OptionalLong lambda$static$61(Optional)
+- OptionalLong lambda$static$67(Optional)
++ Pair lambda$intervalCodec$23(Function,Function,Object)
+- Pair lambda$intervalCodec$26(Function,Function,Object)
++ Property lambda$static$66(String,String,Optional)
+- Property lambda$static$72(String,String,Optional)
++ PropertyMap lambda$static$71(Either)
+- PropertyMap lambda$static$77(Either)
+- Quaternionf lambda$static$15(Quaternionf)
+- Quaternionf lambda$static$16(Quaternionf)
+- Quaternionf lambda$static$17(Either)
++ String lambda$ensureHomogenous$50(Object,Object,Object)
+- String lambda$ensureHomogenous$56(Object,Object,Object)
++ String lambda$floatRangeMinExclusiveWithMessage$43(Function,Float)
+- String lambda$floatRangeMinExclusiveWithMessage$49(Function,Float)
++ String lambda$idResolverCodec$27(Integer)
++ String lambda$idResolverCodec$30(Object)
+- String lambda$idResolverCodec$33(Integer)
+- String lambda$idResolverCodec$36(Object)
++ String lambda$intRange$42(int,int,Integer)
+- String lambda$intRange$48(int,int,Integer)
++ String lambda$intRangeWithMessage$38(Function,Integer)
+- String lambda$intRangeWithMessage$44(Function,Integer)
++ String lambda$nonEmptyHolderSet$48()
+- String lambda$nonEmptyHolderSet$54()
++ String lambda$nonEmptyList$46()
+- String lambda$nonEmptyList$52()
++ String lambda$sizeLimitedString$81(String,int,int,int)
++ String lambda$sizeLimitedString$82(String,int,int,int)
+- String lambda$sizeLimitedString$88(String,int,int,int)
+- String lambda$sizeLimitedString$89(String,int,int,int)
++ String lambda$static$40(Integer)
++ String lambda$static$41(Integer)
++ String lambda$static$45(Float)
+- String lambda$static$46(Integer)
+- String lambda$static$47(Integer)
+- String lambda$static$51(Float)
++ String lambda$static$52(String,PatternSyntaxException)
++ String lambda$static$55()
++ String lambda$static$57(byte[])
+- String lambda$static$58(String,PatternSyntaxException)
+- String lambda$static$61()
+- String lambda$static$63(byte[])
++ String lambda$static$77()
++ String lambda$static$79(String)
+- String lambda$static$80(Optional)
+- String lambda$static$84()
++ String lambda$static$84(String)
+- String lambda$static$86(String)
++ String lambda$stringResolverCodec$32(String)
++ String lambda$stringResolverCodec$35(Object)
+- String lambda$stringResolverCodec$38(String)
+- String lambda$stringResolverCodec$41(Object)
+- UUID lambda$static$79(Optional)
++ void lambda$static$68(PropertyMap,String,List)
++ void lambda$static$69(PropertyMap,Map)
++ void lambda$static$70(PropertyMap,List)
++ void lambda$static$74(GameProfile,String,Property)
+- void lambda$static$74(PropertyMap,String,List)
+- void lambda$static$75(PropertyMap,Map)
+- void lambda$static$76(PropertyMap,List)
+- void lambda$static$81(GameProfile,String,Property)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.InclusiveRange</summary>
+
+```diff
++ void <init>(Comparable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.References</summary>
+
+```diff
++ String lambda$static$28()
++ String lambda$static$29()
++ String lambda$static$30()
++ String lambda$static$31()
++ String lambda$static$32()
++ String lambda$static$33()
++ String lambda$static$34()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V1451_6</summary>
+
+```diff
++ String packNamespacedWithDot(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V1451_6$2</summary>
+
+```diff
+- String packWithDot(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.JvmProfiler$NoOpProfiler</summary>
+
+```diff
++ void onPacketReceived(ConnectionProtocol,int,SocketAddress,int)
+- void onPacketReceived(int,int,SocketAddress,int)
++ void onPacketSent(ConnectionProtocol,int,SocketAddress,int)
+- void onPacketSent(int,int,SocketAddress,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.event.PacketEvent</summary>
+
+```diff
+- void <init>(int,int,SocketAddress,int)
++ void <init>(String,int,SocketAddress,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.event.PacketReceivedEvent</summary>
+
+```diff
+- void <init>(int,int,SocketAddress,int)
++ void <init>(String,int,SocketAddress,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ConstantFloat</summary>
+
+```diff
+- App lambda$static$1(RecordCodecBuilder$Instance)
+- ConstantFloat lambda$static$2(ConstantFloat)
+- ConstantFloat lambda$static$3(Either)
+- Either lambda$static$4(ConstantFloat)
+- Float lambda$static$0(ConstantFloat)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.RandomSequence</summary>
+
+```diff
++ void <init>(long,Optional)
++ XoroshiroRandomSource createSequence(long,Optional)
+- XoroshiroRandomSource createSequence(long,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.effect.MobEffect</summary>
+
+```diff
+- boolean isDurationEffectTick(int,int)
++ boolean shouldApplyEffectTickThisTick(int,int)
+- double getAttributeModifierValue(int,AttributeModifier)
++ void addAttributeModifiers(AttributeMap,int)
+- void addAttributeModifiers(LivingEntity,AttributeMap,int)
++ void onEffectStarted(LivingEntity,int)
++ void removeAttributeModifiers(AttributeMap)
+- void removeAttributeModifiers(LivingEntity,AttributeMap,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.WanderingTrader</summary>
+
+```diff
++ void experimentalUpdateTrades()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ boolean canPlayerFitWithinBlocksAndEntitiesWhen(Pose)
+- double getMyRidingOffset()
++ float ridingOffset(Entity)
++ void internalSetAbsorptionAmount(float)
+- void setAbsorptionAmount(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.raid.Raids</summary>
+
+```diff
+- boolean lambda$createOrExtendRaid$0(Holder)
++ boolean lambda$createOrExtendRaid$2(Holder)
++ Raids lambda$factory$0(ServerLevel)
++ Raids lambda$factory$1(ServerLevel,CompoundTag)
++ SavedData$Factory factory(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.EnchantmentMenu$3</summary>
+
+```diff
++ Pair getNoItemIcon()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+
+```diff
++ boolean lambda$findSlotToQuickMoveTo$8(int)
++ IntStream lambda$findSlotToQuickMoveTo$7(ItemStack,SmithingRecipe)
+- Optional findSlotMatchingIngredient(SmithingRecipe,ItemStack)
+- Optional lambda$canMoveIntoInputSlots$8(ItemStack,SmithingRecipe)
+- Optional lambda$getSlotToQuickMoveTo$7(ItemStack,SmithingRecipe)
++ OptionalInt findSlotMatchingIngredient(SmithingRecipe,ItemStack)
++ OptionalInt findSlotToQuickMoveTo(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.DecoratedPotRecipe</summary>
+
+```diff
+- ItemStack createDecoratedPotItem(DecoratedPotBlockEntity$Decorations)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.CollisionGetter</summary>
+
+```diff
++ boolean noBlockCollision(Entity,AABB)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.ForcedChunksSavedData</summary>
+
+```diff
++ SavedData$Factory factory()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
++ BlockState updateShape(BlockState,Direction,BlockState,LevelAccessor,BlockPos,BlockPos)
++ boolean canPlaceLiquid(Player,BlockGetter,BlockPos,BlockState,Fluid)
++ FluidState getFluidState(BlockState)
++ ItemStack pickupBlock(Player,LevelAccessor,BlockPos,BlockState)
++ void <clinit>()
++ void createBlockStateDefinition(StateDefinition$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BigDripleafBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ Block register(ResourceLocation,Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+
+```diff
+- ItemStack pickupBlock(LevelAccessor,BlockPos,BlockState)
++ ItemStack pickupBlock(Player,LevelAccessor,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CaveVinesBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CropBlock</summary>
+
+```diff
++ boolean hasSufficientLight(LevelReader,BlockPos)
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DecoratedPotBlock</summary>
+
+```diff
++ ItemStack getCloneItemStack(BlockGetter,BlockPos,BlockState)
+- void lambda$appendHoverText$1(List,Item)
++ void lambda$appendHoverText$2(List,Item)
+- void lambda$getDrops$0(DecoratedPotBlockEntity,Consumer)
++ void lambda$getDrops$1(DecoratedPotBlockEntity,Consumer)
++ void lambda$setPlacedBy$0(ItemStack,DecoratedPotBlockEntity)
++ void setPlacedBy(Level,BlockPos,BlockState,LivingEntity,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GlowLichenBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
+
+```diff
+- boolean canPlaceLiquid(BlockGetter,BlockPos,BlockState,Fluid)
++ boolean canPlaceLiquid(Player,BlockGetter,BlockPos,BlockState,Fluid)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MangrovePropaguleBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NetherrackBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NyliumBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PowderSnowBlock</summary>
+
+```diff
+- ItemStack pickupBlock(LevelAccessor,BlockPos,BlockState)
++ ItemStack pickupBlock(Player,LevelAccessor,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RootedDirtBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SeagrassBlock</summary>
+
+```diff
+- boolean canPlaceLiquid(BlockGetter,BlockPos,BlockState,Fluid)
++ boolean canPlaceLiquid(Player,BlockGetter,BlockPos,BlockState,Fluid)
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SimpleWaterloggedBlock</summary>
+
+```diff
+- boolean canPlaceLiquid(BlockGetter,BlockPos,BlockState,Fluid)
++ boolean canPlaceLiquid(Player,BlockGetter,BlockPos,BlockState,Fluid)
+- ItemStack pickupBlock(LevelAccessor,BlockPos,BlockState)
++ ItemStack pickupBlock(Player,LevelAccessor,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SlabBlock</summary>
+
+```diff
+- boolean canPlaceLiquid(BlockGetter,BlockPos,BlockState,Fluid)
++ boolean canPlaceLiquid(Player,BlockGetter,BlockPos,BlockState,Fluid)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StemBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
+
+```diff
+- boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState,boolean)
++ boolean isValidBonemealTarget(LevelReader,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
++ boolean hasTextures(GameProfile)
++ CompletableFuture fetchGameProfile(String)
++ CompletableFuture fillProfileTextures(GameProfile)
++ CompletionStage lambda$fetchGameProfile$3(Optional)
++ GameProfile getOrResolveGameProfile(CompoundTag)
++ Optional lambda$fetchGameProfile$4(Optional)
++ Optional lambda$fillProfileTextures$5(GameProfile)
++ void <clinit>()
++ void lambda$resolveGameProfile$2(CompoundTag,String,Optional)
++ void lambda$static$0(Runnable)
+- void lambda$updateGameprofile$1(GameProfile,Consumer)
+- void lambda$updateGameprofile$2(Consumer,GameProfile)
+- void lambda$updateGameprofile$3(Consumer,GameProfile)
+- void lambda$updateGameprofile$4(Consumer,GameProfile)
+- void lambda$updateGameprofile$5(Optional,Consumer,GameProfile)
+- void lambda$updateGameprofile$6(Consumer,GameProfile,Optional)
+- void lambda$updateOwnerProfile$0(GameProfile)
++ void lambda$updateOwnerProfile$1(Optional)
++ void resolveGameProfile(CompoundTag,String)
++ void resolveGameProfile(CompoundTag)
+- void updateGameprofile(GameProfile,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.heightproviders.ConstantHeight</summary>
+
+```diff
+- App lambda$static$1(RecordCodecBuilder$Instance)
+- ConstantHeight lambda$static$2(ConstantHeight)
+- ConstantHeight lambda$static$3(Either)
+- Either lambda$static$4(ConstantHeight)
+- VerticalAnchor lambda$static$0(ConstantHeight)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces</summary>
+
+```diff
+- void main(String[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
+
+```diff
+- Node[] getClosedSet()
+- Node[] getOpenSet()
++ Node[] readNodeArray(FriendlyByteBuf)
++ Path copy()
++ Path$DebugData debugData()
++ void lambda$writeToStream$0(FriendlyByteBuf,Node)
+- void lambda$writeToStream$0(FriendlyByteBuf,Target)
++ void writeNodeArray(FriendlyByteBuf,Node[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
+
+```diff
+- IllegalArgumentException lambda$load$0(CompoundTag)
++ IllegalArgumentException lambda$load$1(CompoundTag)
++ MapItemSavedData lambda$factory$0()
++ SavedData$Factory factory()
+- void lambda$save$1(CompoundTag,Tag)
++ void lambda$save$2(CompoundTag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
+
+```diff
++ LevelStorageSource parent()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.validation.DirectoryValidator</summary>
+
+```diff
++ List validateDirectory(Path,boolean)
+- List validateSave(Path,boolean)
++ List validateSymlink(Path)
+- void <init>(PathAllowList)
++ void <init>(PathMatcher)
++ void validateKnownDirectory(Path,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.scores.Scoreboard</summary>
+
+```diff
+- boolean hasObjective(String)
+- boolean lambda$savePlayerScores$4(Score)
+- int getDisplaySlotByName(String)
++ Objective getDisplayObjective(DisplaySlot)
+- Objective getDisplayObjective(int)
+- Objective getOrCreateObjective(String)
+- String getDisplaySlotName(int)
+- String[] getDisplaySlotNames()
++ void lambda$savePlayerScores$4(ListTag,Score)
++ void lambda$savePlayerScores$5(ListTag,Collection)
+- void lambda$savePlayerScores$5(ListTag,Score)
+- void lambda$savePlayerScores$6(ListTag,Collection)
++ void setDisplayObjective(DisplaySlot,Objective)
+- void setDisplayObjective(int,Objective)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/trade_rebalance/pack.mcmeta
++ minecraft/tags/blocks/camel_sand_step_sound_blocks.json
++ minecraft/tags/blocks/concrete_powder.json
++ minecraft/tags/damage_type/no_knockback.json
++ minecraft/tags/entity_types/non_controlling_rider.json
++ minecraft/worldgen/configured_feature/ore_diamond_medium.json
++ minecraft/worldgen/placed_feature/ore_diamond_medium.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/atlases/gui.json
+- minecraft/textures/gui/accessibility.png
+- minecraft/textures/gui/advancements/tabs.png
+- minecraft/textures/gui/advancements/widgets.png
+- minecraft/textures/gui/bars.png
+- minecraft/textures/gui/chat_tags.png
+- minecraft/textures/gui/checkbox.png
+- minecraft/textures/gui/checkmark.png
+- minecraft/textures/gui/container/bundle.png
+- minecraft/textures/gui/container/creative_inventory/tabs.png
+- minecraft/textures/gui/container/legacy_smithing.png
+- minecraft/textures/gui/container/stats_icons.png
++ minecraft/textures/gui/container/villager.png
+- minecraft/textures/gui/container/villager2.png
+- minecraft/textures/gui/icons.png
+- minecraft/textures/gui/info_icon.png
++ minecraft/textures/gui/realms/adventure.png
++ minecraft/textures/gui/realms/empty_frame.png
++ minecraft/textures/gui/realms/experience.png
++ minecraft/textures/gui/realms/inspiration.png
++ minecraft/textures/gui/realms/new_world.png
++ minecraft/textures/gui/realms/no_realms.png
++ minecraft/textures/gui/realms/survival_spawn.png
++ minecraft/textures/gui/realms/upload.png
+- minecraft/textures/gui/recipe_button.png
+- minecraft/textures/gui/report_button.png
+- minecraft/textures/gui/resource_packs.png
+- minecraft/textures/gui/server_selection.png
+- minecraft/textures/gui/slider.png
+- minecraft/textures/gui/social_interactions.png
+- minecraft/textures/gui/spectator_widgets.png
++ minecraft/textures/gui/sprites/advancements/box_obtained.png
++ minecraft/textures/gui/sprites/advancements/box_unobtained.png
++ minecraft/textures/gui/sprites/advancements/challenge_frame_obtained.png
++ minecraft/textures/gui/sprites/advancements/challenge_frame_unobtained.png
++ minecraft/textures/gui/sprites/advancements/goal_frame_obtained.png
++ minecraft/textures/gui/sprites/advancements/goal_frame_unobtained.png
++ minecraft/textures/gui/sprites/advancements/tab_above_left_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_above_left.png
++ minecraft/textures/gui/sprites/advancements/tab_above_middle_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_above_middle.png
++ minecraft/textures/gui/sprites/advancements/tab_above_right_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_above_right.png
++ minecraft/textures/gui/sprites/advancements/tab_below_left_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_below_left.png
++ minecraft/textures/gui/sprites/advancements/tab_below_middle_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_below_middle.png
++ minecraft/textures/gui/sprites/advancements/tab_below_right_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_below_right.png
++ minecraft/textures/gui/sprites/advancements/tab_left_bottom_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_left_bottom.png
++ minecraft/textures/gui/sprites/advancements/tab_left_middle_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_left_middle.png
++ minecraft/textures/gui/sprites/advancements/tab_left_top_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_left_top.png
++ minecraft/textures/gui/sprites/advancements/tab_right_bottom_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_right_bottom.png
++ minecraft/textures/gui/sprites/advancements/tab_right_middle_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_right_middle.png
++ minecraft/textures/gui/sprites/advancements/tab_right_top_selected.png
++ minecraft/textures/gui/sprites/advancements/tab_right_top.png
++ minecraft/textures/gui/sprites/advancements/task_frame_obtained.png
++ minecraft/textures/gui/sprites/advancements/task_frame_unobtained.png
++ minecraft/textures/gui/sprites/advancements/title_box.png
++ minecraft/textures/gui/sprites/advancements/title_box.png.mcmeta
++ minecraft/textures/gui/sprites/backup/changes_highlighted.png
++ minecraft/textures/gui/sprites/backup/changes.png
++ minecraft/textures/gui/sprites/backup/restore_highlighted.png
++ minecraft/textures/gui/sprites/backup/restore.png
++ minecraft/textures/gui/sprites/boss_bar/blue_background.png
++ minecraft/textures/gui/sprites/boss_bar/blue_progress.png
++ minecraft/textures/gui/sprites/boss_bar/green_background.png
++ minecraft/textures/gui/sprites/boss_bar/green_progress.png
++ minecraft/textures/gui/sprites/boss_bar/notched_10_background.png
++ minecraft/textures/gui/sprites/boss_bar/notched_10_progress.png
++ minecraft/textures/gui/sprites/boss_bar/notched_12_background.png
++ minecraft/textures/gui/sprites/boss_bar/notched_12_progress.png
++ minecraft/textures/gui/sprites/boss_bar/notched_20_background.png
++ minecraft/textures/gui/sprites/boss_bar/notched_20_progress.png
++ minecraft/textures/gui/sprites/boss_bar/notched_6_background.png
++ minecraft/textures/gui/sprites/boss_bar/notched_6_progress.png
++ minecraft/textures/gui/sprites/boss_bar/pink_background.png
++ minecraft/textures/gui/sprites/boss_bar/pink_progress.png
++ minecraft/textures/gui/sprites/boss_bar/purple_background.png
++ minecraft/textures/gui/sprites/boss_bar/purple_progress.png
++ minecraft/textures/gui/sprites/boss_bar/red_background.png
++ minecraft/textures/gui/sprites/boss_bar/red_progress.png
++ minecraft/textures/gui/sprites/boss_bar/white_background.png
++ minecraft/textures/gui/sprites/boss_bar/white_progress.png
++ minecraft/textures/gui/sprites/boss_bar/yellow_background.png
++ minecraft/textures/gui/sprites/boss_bar/yellow_progress.png
++ minecraft/textures/gui/sprites/bundle/background.png.mcmeta
++ minecraft/textures/gui/sprites/container/anvil/error.png
++ minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png
++ minecraft/textures/gui/sprites/container/anvil/text_field.png
++ minecraft/textures/gui/sprites/container/beacon/button_disabled.png
++ minecraft/textures/gui/sprites/container/beacon/button_highlighted.png
++ minecraft/textures/gui/sprites/container/beacon/button_selected.png
++ minecraft/textures/gui/sprites/container/beacon/button.png
++ minecraft/textures/gui/sprites/container/beacon/cancel.png
++ minecraft/textures/gui/sprites/container/beacon/confirm.png
++ minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png
++ minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png
++ minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png
++ minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png
++ minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png
++ minecraft/textures/gui/sprites/container/bundle/background.png
++ minecraft/textures/gui/sprites/container/bundle/blocked_slot.png
++ minecraft/textures/gui/sprites/container/bundle/slot.png
++ minecraft/textures/gui/sprites/container/cartography_table/duplicated_map.png
++ minecraft/textures/gui/sprites/container/cartography_table/error.png
++ minecraft/textures/gui/sprites/container/cartography_table/locked.png
++ minecraft/textures/gui/sprites/container/cartography_table/map.png
++ minecraft/textures/gui/sprites/container/cartography_table/scaled_map.png
++ minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png
++ minecraft/textures/gui/sprites/container/creative_inventory/scroller.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png
++ minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png
++ minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png
++ minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png
++ minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_1_disabled.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_1.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_2_disabled.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_2.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_3_disabled.png
++ minecraft/textures/gui/sprites/container/enchanting_table/level_3.png
++ minecraft/textures/gui/sprites/container/furnace/burn_progress.png
++ minecraft/textures/gui/sprites/container/furnace/lit_progress.png
++ minecraft/textures/gui/sprites/container/grindstone/error.png
++ minecraft/textures/gui/sprites/container/horse/armor_slot.png
++ minecraft/textures/gui/sprites/container/horse/chest_slots.png
++ minecraft/textures/gui/sprites/container/horse/llama_armor_slot.png
++ minecraft/textures/gui/sprites/container/horse/saddle_slot.png
++ minecraft/textures/gui/sprites/container/inventory/effect_background_large.png
++ minecraft/textures/gui/sprites/container/inventory/effect_background_small.png
++ minecraft/textures/gui/sprites/container/loom/banner_slot.png
++ minecraft/textures/gui/sprites/container/loom/dye_slot.png
++ minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png
++ minecraft/textures/gui/sprites/container/loom/pattern_selected.png
++ minecraft/textures/gui/sprites/container/loom/pattern_slot.png
++ minecraft/textures/gui/sprites/container/loom/pattern.png
++ minecraft/textures/gui/sprites/container/loom/scroller_disabled.png
++ minecraft/textures/gui/sprites/container/loom/scroller.png
++ minecraft/textures/gui/sprites/container/slot.png
++ minecraft/textures/gui/sprites/container/smithing/error.png
++ minecraft/textures/gui/sprites/container/smoker/burn_progress.png
++ minecraft/textures/gui/sprites/container/smoker/lit_progress.png
++ minecraft/textures/gui/sprites/container/stonecutter/recipe_highlighted.png
++ minecraft/textures/gui/sprites/container/stonecutter/recipe_selected.png
++ minecraft/textures/gui/sprites/container/stonecutter/recipe.png
++ minecraft/textures/gui/sprites/container/stonecutter/scroller_disabled.png
++ minecraft/textures/gui/sprites/container/stonecutter/scroller.png
++ minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png
++ minecraft/textures/gui/sprites/container/villager/experience_bar_background.png
++ minecraft/textures/gui/sprites/container/villager/experience_bar_current.png
++ minecraft/textures/gui/sprites/container/villager/experience_bar_result.png
++ minecraft/textures/gui/sprites/container/villager/out_of_stock.png
++ minecraft/textures/gui/sprites/container/villager/scroller_disabled.png
++ minecraft/textures/gui/sprites/container/villager/scroller.png
++ minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png
++ minecraft/textures/gui/sprites/container/villager/trade_arrow.png
++ minecraft/textures/gui/sprites/gamemode_switcher/selection.png
++ minecraft/textures/gui/sprites/gamemode_switcher/slot.png
++ minecraft/textures/gui/sprites/hud/air_bursting.png
++ minecraft/textures/gui/sprites/hud/air.png
++ minecraft/textures/gui/sprites/hud/armor_empty.png
++ minecraft/textures/gui/sprites/hud/armor_full.png
++ minecraft/textures/gui/sprites/hud/armor_half.png
++ minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_background.png
++ minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_full.png
++ minecraft/textures/gui/sprites/hud/crosshair_attack_indicator_progress.png
++ minecraft/textures/gui/sprites/hud/crosshair.png
++ minecraft/textures/gui/sprites/hud/effect_background_ambient.png
++ minecraft/textures/gui/sprites/hud/effect_background.png
++ minecraft/textures/gui/sprites/hud/experience_bar_background.png
++ minecraft/textures/gui/sprites/hud/experience_bar_progress.png
++ minecraft/textures/gui/sprites/hud/food_empty_hunger.png
++ minecraft/textures/gui/sprites/hud/food_empty.png
++ minecraft/textures/gui/sprites/hud/food_full_hunger.png
++ minecraft/textures/gui/sprites/hud/food_full.png
++ minecraft/textures/gui/sprites/hud/food_half_hunger.png
++ minecraft/textures/gui/sprites/hud/food_half.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_full.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_half.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_full.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/absorbing_hardcore_half.png
++ minecraft/textures/gui/sprites/hud/heart/container_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/container_hardcore_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/container_hardcore.png
++ minecraft/textures/gui/sprites/hud/heart/container.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_full.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_half.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_full.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/frozen_hardcore_half.png
++ minecraft/textures/gui/sprites/hud/heart/full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/full.png
++ minecraft/textures/gui/sprites/hud/heart/half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/half.png
++ minecraft/textures/gui/sprites/hud/heart/hardcore_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/hardcore_full.png
++ minecraft/textures/gui/sprites/hud/heart/hardcore_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/hardcore_half.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_full.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_half.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_full.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/poisoned_hardcore_half.png
++ minecraft/textures/gui/sprites/hud/heart/vehicle_container.png
++ minecraft/textures/gui/sprites/hud/heart/vehicle_full.png
++ minecraft/textures/gui/sprites/hud/heart/vehicle_half.png
++ minecraft/textures/gui/sprites/hud/heart/withered_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/withered_full.png
++ minecraft/textures/gui/sprites/hud/heart/withered_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/withered_half.png
++ minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/withered_hardcore_full.png
++ minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half_blinking.png
++ minecraft/textures/gui/sprites/hud/heart/withered_hardcore_half.png
++ minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_background.png
++ minecraft/textures/gui/sprites/hud/hotbar_attack_indicator_progress.png
++ minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png
++ minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png
++ minecraft/textures/gui/sprites/hud/hotbar_selection.png
++ minecraft/textures/gui/sprites/hud/hotbar.png
++ minecraft/textures/gui/sprites/hud/jump_bar_background.png
++ minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png
++ minecraft/textures/gui/sprites/hud/jump_bar_progress.png
++ minecraft/textures/gui/sprites/icon/accessibility.png
++ minecraft/textures/gui/sprites/icon/chat_modified.png
++ minecraft/textures/gui/sprites/icon/checkmark.png
++ minecraft/textures/gui/sprites/icon/draft_report.png
++ minecraft/textures/gui/sprites/icon/info.png
++ minecraft/textures/gui/sprites/icon/invite.png
++ minecraft/textures/gui/sprites/icon/language.png
++ minecraft/textures/gui/sprites/icon/link_highlighted.png
++ minecraft/textures/gui/sprites/icon/link.png
++ minecraft/textures/gui/sprites/icon/new_realm.png
++ minecraft/textures/gui/sprites/icon/news.png
++ minecraft/textures/gui/sprites/icon/ping_1.png
++ minecraft/textures/gui/sprites/icon/ping_2.png
++ minecraft/textures/gui/sprites/icon/ping_3.png
++ minecraft/textures/gui/sprites/icon/ping_4.png
++ minecraft/textures/gui/sprites/icon/ping_5.png
++ minecraft/textures/gui/sprites/icon/ping_unknown.png
++ minecraft/textures/gui/sprites/icon/search.png
++ minecraft/textures/gui/sprites/icon/trial_available.png
++ minecraft/textures/gui/sprites/icon/trial_available.png.mcmeta
++ minecraft/textures/gui/sprites/icon/unseen_notification.png
++ minecraft/textures/gui/sprites/icon/video_link_highlighted.png
++ minecraft/textures/gui/sprites/icon/video_link.png
++ minecraft/textures/gui/sprites/notification/1.png
++ minecraft/textures/gui/sprites/notification/2.png
++ minecraft/textures/gui/sprites/notification/3.png
++ minecraft/textures/gui/sprites/notification/4.png
++ minecraft/textures/gui/sprites/notification/5.png
++ minecraft/textures/gui/sprites/notification/more.png
++ minecraft/textures/gui/sprites/pending_invite/accept_highlighted.png
++ minecraft/textures/gui/sprites/pending_invite/accept.png
++ minecraft/textures/gui/sprites/pending_invite/reject_highlighted.png
++ minecraft/textures/gui/sprites/pending_invite/reject.png
++ minecraft/textures/gui/sprites/player_list/make_operator_highlighted.png
++ minecraft/textures/gui/sprites/player_list/make_operator.png
++ minecraft/textures/gui/sprites/player_list/remove_operator_highlighted.png
++ minecraft/textures/gui/sprites/player_list/remove_operator.png
++ minecraft/textures/gui/sprites/player_list/remove_player_highlighted.png
++ minecraft/textures/gui/sprites/player_list/remove_player.png
++ minecraft/textures/gui/sprites/popup/background.png
++ minecraft/textures/gui/sprites/popup/background.png.mcmeta
++ minecraft/textures/gui/sprites/realm_status/closed.png
++ minecraft/textures/gui/sprites/realm_status/expired.png
++ minecraft/textures/gui/sprites/realm_status/expires_soon.png
++ minecraft/textures/gui/sprites/realm_status/expires_soon.png.mcmeta
++ minecraft/textures/gui/sprites/realm_status/open.png
++ minecraft/textures/gui/sprites/recipe_book/button_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/button.png
++ minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png
++ minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png
++ minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/filter_disabled.png
++ minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/filter_enabled.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png
++ minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png
++ minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta
++ minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/page_backward.png
++ minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png
++ minecraft/textures/gui/sprites/recipe_book/page_forward.png
++ minecraft/textures/gui/sprites/recipe_book/slot_craftable.png
++ minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png
++ minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png
++ minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png
++ minecraft/textures/gui/sprites/recipe_book/tab_selected.png
++ minecraft/textures/gui/sprites/recipe_book/tab.png
++ minecraft/textures/gui/sprites/server_list/incompatible.png
++ minecraft/textures/gui/sprites/server_list/join_highlighted.png
++ minecraft/textures/gui/sprites/server_list/join.png
++ minecraft/textures/gui/sprites/server_list/move_down_highlighted.png
++ minecraft/textures/gui/sprites/server_list/move_down.png
++ minecraft/textures/gui/sprites/server_list/move_up_highlighted.png
++ minecraft/textures/gui/sprites/server_list/move_up.png
++ minecraft/textures/gui/sprites/server_list/ping_1.png
++ minecraft/textures/gui/sprites/server_list/ping_2.png
++ minecraft/textures/gui/sprites/server_list/ping_3.png
++ minecraft/textures/gui/sprites/server_list/ping_4.png
++ minecraft/textures/gui/sprites/server_list/ping_5.png
++ minecraft/textures/gui/sprites/server_list/pinging_1.png
++ minecraft/textures/gui/sprites/server_list/pinging_2.png
++ minecraft/textures/gui/sprites/server_list/pinging_3.png
++ minecraft/textures/gui/sprites/server_list/pinging_4.png
++ minecraft/textures/gui/sprites/server_list/pinging_5.png
++ minecraft/textures/gui/sprites/server_list/unreachable.png
++ minecraft/textures/gui/sprites/social_interactions/background.png
++ minecraft/textures/gui/sprites/social_interactions/background.png.mcmeta
++ minecraft/textures/gui/sprites/social_interactions/mute_button_highlighted.png
++ minecraft/textures/gui/sprites/social_interactions/mute_button.png
++ minecraft/textures/gui/sprites/social_interactions/report_button_disabled.png
++ minecraft/textures/gui/sprites/social_interactions/report_button_highlighted.png
++ minecraft/textures/gui/sprites/social_interactions/report_button.png
++ minecraft/textures/gui/sprites/social_interactions/unmute_button_highlighted.png
++ minecraft/textures/gui/sprites/social_interactions/unmute_button.png
++ minecraft/textures/gui/sprites/spectator/close.png
++ minecraft/textures/gui/sprites/spectator/scroll_left.png
++ minecraft/textures/gui/sprites/spectator/scroll_right.png
++ minecraft/textures/gui/sprites/spectator/teleport_to_player.png
++ minecraft/textures/gui/sprites/spectator/teleport_to_team.png
++ minecraft/textures/gui/sprites/statistics/block_mined.png
++ minecraft/textures/gui/sprites/statistics/header.png
++ minecraft/textures/gui/sprites/statistics/item_broken.png
++ minecraft/textures/gui/sprites/statistics/item_crafted.png
++ minecraft/textures/gui/sprites/statistics/item_dropped.png
++ minecraft/textures/gui/sprites/statistics/item_picked_up.png
++ minecraft/textures/gui/sprites/statistics/item_used.png
++ minecraft/textures/gui/sprites/statistics/sort_down.png
++ minecraft/textures/gui/sprites/statistics/sort_up.png
++ minecraft/textures/gui/sprites/toast/advancement.png
++ minecraft/textures/gui/sprites/toast/mouse.png
++ minecraft/textures/gui/sprites/toast/movement_keys.png
++ minecraft/textures/gui/sprites/toast/recipe_book.png
++ minecraft/textures/gui/sprites/toast/recipe.png
++ minecraft/textures/gui/sprites/toast/right_click.png
++ minecraft/textures/gui/sprites/toast/social_interactions.png
++ minecraft/textures/gui/sprites/toast/system.png
++ minecraft/textures/gui/sprites/toast/tree.png
++ minecraft/textures/gui/sprites/toast/tutorial.png
++ minecraft/textures/gui/sprites/toast/wooden_planks.png
++ minecraft/textures/gui/sprites/transferable_list/move_down_highlighted.png
++ minecraft/textures/gui/sprites/transferable_list/move_down.png
++ minecraft/textures/gui/sprites/transferable_list/move_up_highlighted.png
++ minecraft/textures/gui/sprites/transferable_list/move_up.png
++ minecraft/textures/gui/sprites/transferable_list/select_highlighted.png
++ minecraft/textures/gui/sprites/transferable_list/select.png
++ minecraft/textures/gui/sprites/transferable_list/unselect_highlighted.png
++ minecraft/textures/gui/sprites/transferable_list/unselect.png
++ minecraft/textures/gui/sprites/widget/button_disabled.png
++ minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta
++ minecraft/textures/gui/sprites/widget/button_highlighted.png
++ minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/button.png
++ minecraft/textures/gui/sprites/widget/button.png.mcmeta
++ minecraft/textures/gui/sprites/widget/checkbox_highlighted.png
++ minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png
++ minecraft/textures/gui/sprites/widget/checkbox_selected.png
++ minecraft/textures/gui/sprites/widget/checkbox.png
++ minecraft/textures/gui/sprites/widget/cross_button_highlighted.png
++ minecraft/textures/gui/sprites/widget/cross_button.png
++ minecraft/textures/gui/sprites/widget/locked_button_disabled.png
++ minecraft/textures/gui/sprites/widget/locked_button_highlighted.png
++ minecraft/textures/gui/sprites/widget/locked_button.png
++ minecraft/textures/gui/sprites/widget/page_backward_highlighted.png
++ minecraft/textures/gui/sprites/widget/page_backward.png
++ minecraft/textures/gui/sprites/widget/page_forward_highlighted.png
++ minecraft/textures/gui/sprites/widget/page_forward.png
++ minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png
++ minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/slider_handle.png
++ minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta
++ minecraft/textures/gui/sprites/widget/slider_highlighted.png
++ minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/slider.png
++ minecraft/textures/gui/sprites/widget/slider.png.mcmeta
++ minecraft/textures/gui/sprites/widget/slot_frame.png
++ minecraft/textures/gui/sprites/widget/tab_highlighted.png
++ minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png
++ minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/tab_selected.png
++ minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta
++ minecraft/textures/gui/sprites/widget/tab.png
++ minecraft/textures/gui/sprites/widget/tab.png.mcmeta
++ minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png
++ minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png
++ minecraft/textures/gui/sprites/widget/unlocked_button.png
++ minecraft/textures/gui/sprites/world_list/error_highlighted.png
++ minecraft/textures/gui/sprites/world_list/error.png
++ minecraft/textures/gui/sprites/world_list/join_highlighted.png
++ minecraft/textures/gui/sprites/world_list/join.png
++ minecraft/textures/gui/sprites/world_list/marked_join_highlighted.png
++ minecraft/textures/gui/sprites/world_list/marked_join.png
++ minecraft/textures/gui/sprites/world_list/warning_highlighted.png
++ minecraft/textures/gui/sprites/world_list/warning.png
+- minecraft/textures/gui/stream_indicator.png
+- minecraft/textures/gui/tab_button.png
++ minecraft/textures/gui/title/realms.png
++ minecraft/textures/gui/title/realms.png.mcmeta
+- minecraft/textures/gui/toasts.png
+- minecraft/textures/gui/unseen_notification.png
+- minecraft/textures/gui/widgets.png
+- minecraft/textures/gui/world_selection.png
+- realms/textures/gui/realms/accept_icon.png
+- realms/textures/gui/realms/adventure.png
+- realms/textures/gui/realms/cross_icon.png
+- realms/textures/gui/realms/cross_player_icon.png
+- realms/textures/gui/realms/darken.png
+- realms/textures/gui/realms/empty_frame.png
+- realms/textures/gui/realms/experience.png
+- realms/textures/gui/realms/expired_icon.png
+- realms/textures/gui/realms/expires_soon_icon.png
+- realms/textures/gui/realms/inspiration.png
+- realms/textures/gui/realms/invitation_icons.png
+- realms/textures/gui/realms/invite_icon.png
+- realms/textures/gui/realms/link_icons.png
+- realms/textures/gui/realms/new_world.png
+- realms/textures/gui/realms/news_icon.png
+- realms/textures/gui/realms/news_notification_mainscreen.png
+- realms/textures/gui/realms/off_icon.png
+- realms/textures/gui/realms/on_icon.png
+- realms/textures/gui/realms/op_icon.png
+- realms/textures/gui/realms/plus_icon.png
+- realms/textures/gui/realms/popup.png
+- realms/textures/gui/realms/reject_icon.png
+- realms/textures/gui/realms/restore_icon.png
+- realms/textures/gui/realms/slot_frame.png
+- realms/textures/gui/realms/survival_spawn.png
+- realms/textures/gui/realms/trailer_icons.png
+- realms/textures/gui/realms/trial_icon.png
+- realms/textures/gui/realms/upload.png
+- realms/textures/gui/realms/user_icon.png
+- realms/textures/gui/realms/world_icon.png
+- realms/textures/gui/title/realms.png
+- realms/textures/gui/title/realms.png.mcmeta
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>attribute.txt</summary>
+
+```diff
++ minecraft:generic.max_absorption
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:entity_action
+- minecraft:entity_roar
+- minecraft:entity_shake
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sponge.absorb
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ random.txt
+```
+
+</details>
+
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute if function <function: function>
++ execute unless function <function: function>
+```
+
+</details>
+
+
+<details><summary>function.txt</summary>
+
+```diff
+- function <name: function>
++ function <name: function> <arguments: nbt_compound_tag>
++ function <name: function> with block <sourcePos: block_pos> <path: nbt_path>
++ function <name: function> with entity <source: entity> <path: nbt_path>
++ function <name: function> with storage <source: resource_location> <path: nbt_path>
+```
+
+</details>
+
+
+<details><summary>return.txt</summary>
+
+```diff
++ return run
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/camel_sand_step_sound_blocks.json
++ blocks/concrete_powder.json
++ damage_type/no_knockback.json
++ entity_types/non_controlling_rider.json
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/shovel.json</summary>
+
+```diff
++ #minecraft:concrete_powder
+- minecraft:black_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:white_concrete_powder
+- minecraft:yellow_concrete_powder
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
++ minecraft:entity_action
+- minecraft:entity_roar
+- minecraft:entity_shake
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
++ minecraft:entity_action
+- minecraft:entity_roar
+- minecraft:entity_shake
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ attribute.name.generic.max_absorption
++ commands.function.error.argument_not_compound
++ commands.function.error.missing_argument
++ commands.function.error.missing_arguments
++ commands.function.error.parse
++ commands.random.error.range_too_large
++ commands.random.error.range_too_small
++ commands.random.reset.all.success
++ commands.random.reset.success
++ commands.random.roll
++ commands.random.sample.success
++ connect.reconfiging
++ dataPack.trade_rebalance.description
++ dataPack.trade_rebalance.name
++ item.minecraft.coast_armor_trim_smithing_template
++ item.minecraft.dune_armor_trim_smithing_template
++ item.minecraft.eye_armor_trim_smithing_template
++ item.minecraft.host_armor_trim_smithing_template
++ item.minecraft.netherite_upgrade_smithing_template
++ item.minecraft.raiser_armor_trim_smithing_template
++ item.minecraft.rib_armor_trim_smithing_template
++ item.minecraft.sentry_armor_trim_smithing_template
++ item.minecraft.shaper_armor_trim_smithing_template
++ item.minecraft.silence_armor_trim_smithing_template
++ item.minecraft.snout_armor_trim_smithing_template
++ item.minecraft.spire_armor_trim_smithing_template
++ item.minecraft.tide_armor_trim_smithing_template
++ item.minecraft.vex_armor_trim_smithing_template
++ item.minecraft.ward_armor_trim_smithing_template
++ item.minecraft.wayfinder_armor_trim_smithing_template
++ item.minecraft.wild_armor_trim_smithing_template
++ mco.errorMessage.noDetails
++ mco.errorMessage.realmsService.connectivity
++ mco.errorMessage.realmsService.unknownCompatibility
++ mco.errorMessage.retry
++ mco.selectServer.loading
++ mco.selectServer.noRealms
++ pack.dropRejected.message
++ pack.dropRejected.title
++ subtitles.block.sponge.absorb
++ symlink_warning.message.pack
++ symlink_warning.message.world
++ symlink_warning.title.pack
++ symlink_warning.title.world
++ telemetry_info.button.privacy_statement
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>atlases.txt</summary>
+
+```diff
++ gui.json
+```
+
+</details>
+
+
+<details><summary>datapacks.txt</summary>
+
+```diff
++ trade_rebalance
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/camel_sand_step_sound_blocks.json
++ blocks/concrete_powder.json
++ damage_type/no_knockback.json
++ entity_types/non_controlling_rider.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- gui/accessibility.png
+- gui/advancements/tabs.png
+- gui/advancements/widgets.png
+- gui/bars.png
+- gui/chat_tags.png
+- gui/checkbox.png
+- gui/checkmark.png
+- gui/container/bundle.png
+- gui/container/creative_inventory/tabs.png
+- gui/container/legacy_smithing.png
+- gui/container/stats_icons.png
++ gui/container/villager.png
+- gui/container/villager2.png
+- gui/icons.png
+- gui/info_icon.png
++ gui/realms/adventure.png
++ gui/realms/empty_frame.png
++ gui/realms/experience.png
++ gui/realms/inspiration.png
++ gui/realms/new_world.png
++ gui/realms/no_realms.png
++ gui/realms/survival_spawn.png
++ gui/realms/upload.png
+- gui/recipe_button.png
+- gui/report_button.png
+- gui/resource_packs.png
+- gui/server_selection.png
+- gui/slider.png
+- gui/social_interactions.png
+- gui/spectator_widgets.png
++ gui/sprites/advancements/box_obtained.png
++ gui/sprites/advancements/box_unobtained.png
++ gui/sprites/advancements/challenge_frame_obtained.png
++ gui/sprites/advancements/challenge_frame_unobtained.png
++ gui/sprites/advancements/goal_frame_obtained.png
++ gui/sprites/advancements/goal_frame_unobtained.png
++ gui/sprites/advancements/tab_above_left_selected.png
++ gui/sprites/advancements/tab_above_left.png
++ gui/sprites/advancements/tab_above_middle_selected.png
++ gui/sprites/advancements/tab_above_middle.png
++ gui/sprites/advancements/tab_above_right_selected.png
++ gui/sprites/advancements/tab_above_right.png
++ gui/sprites/advancements/tab_below_left_selected.png
++ gui/sprites/advancements/tab_below_left.png
++ gui/sprites/advancements/tab_below_middle_selected.png
++ gui/sprites/advancements/tab_below_middle.png
++ gui/sprites/advancements/tab_below_right_selected.png
++ gui/sprites/advancements/tab_below_right.png
++ gui/sprites/advancements/tab_left_bottom_selected.png
++ gui/sprites/advancements/tab_left_bottom.png
++ gui/sprites/advancements/tab_left_middle_selected.png
++ gui/sprites/advancements/tab_left_middle.png
++ gui/sprites/advancements/tab_left_top_selected.png
++ gui/sprites/advancements/tab_left_top.png
++ gui/sprites/advancements/tab_right_bottom_selected.png
++ gui/sprites/advancements/tab_right_bottom.png
++ gui/sprites/advancements/tab_right_middle_selected.png
++ gui/sprites/advancements/tab_right_middle.png
++ gui/sprites/advancements/tab_right_top_selected.png
++ gui/sprites/advancements/tab_right_top.png
++ gui/sprites/advancements/task_frame_obtained.png
++ gui/sprites/advancements/task_frame_unobtained.png
++ gui/sprites/advancements/title_box.png
++ gui/sprites/backup/changes_highlighted.png
++ gui/sprites/backup/changes.png
++ gui/sprites/backup/restore_highlighted.png
++ gui/sprites/backup/restore.png
++ gui/sprites/boss_bar/blue_background.png
++ gui/sprites/boss_bar/blue_progress.png
++ gui/sprites/boss_bar/green_background.png
++ gui/sprites/boss_bar/green_progress.png
++ gui/sprites/boss_bar/notched_10_background.png
++ gui/sprites/boss_bar/notched_10_progress.png
++ gui/sprites/boss_bar/notched_12_background.png
++ gui/sprites/boss_bar/notched_12_progress.png
++ gui/sprites/boss_bar/notched_20_background.png
++ gui/sprites/boss_bar/notched_20_progress.png
++ gui/sprites/boss_bar/notched_6_background.png
++ gui/sprites/boss_bar/notched_6_progress.png
++ gui/sprites/boss_bar/pink_background.png
++ gui/sprites/boss_bar/pink_progress.png
++ gui/sprites/boss_bar/purple_background.png
++ gui/sprites/boss_bar/purple_progress.png
++ gui/sprites/boss_bar/red_background.png
++ gui/sprites/boss_bar/red_progress.png
++ gui/sprites/boss_bar/white_background.png
++ gui/sprites/boss_bar/white_progress.png
++ gui/sprites/boss_bar/yellow_background.png
++ gui/sprites/boss_bar/yellow_progress.png
++ gui/sprites/container/anvil/error.png
++ gui/sprites/container/anvil/text_field_disabled.png
++ gui/sprites/container/anvil/text_field.png
++ gui/sprites/container/beacon/button_disabled.png
++ gui/sprites/container/beacon/button_highlighted.png
++ gui/sprites/container/beacon/button_selected.png
++ gui/sprites/container/beacon/button.png
++ gui/sprites/container/beacon/cancel.png
++ gui/sprites/container/beacon/confirm.png
++ gui/sprites/container/blast_furnace/burn_progress.png
++ gui/sprites/container/blast_furnace/lit_progress.png
++ gui/sprites/container/brewing_stand/brew_progress.png
++ gui/sprites/container/brewing_stand/bubbles.png
++ gui/sprites/container/brewing_stand/fuel_length.png
++ gui/sprites/container/bundle/background.png
++ gui/sprites/container/bundle/blocked_slot.png
++ gui/sprites/container/bundle/slot.png
++ gui/sprites/container/cartography_table/duplicated_map.png
++ gui/sprites/container/cartography_table/error.png
++ gui/sprites/container/cartography_table/locked.png
++ gui/sprites/container/cartography_table/map.png
++ gui/sprites/container/cartography_table/scaled_map.png
++ gui/sprites/container/creative_inventory/scroller_disabled.png
++ gui/sprites/container/creative_inventory/scroller.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_1.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_2.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_3.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_4.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_5.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_6.png
++ gui/sprites/container/creative_inventory/tab_bottom_selected_7.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png
++ gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png
++ gui/sprites/container/creative_inventory/tab_top_selected_1.png
++ gui/sprites/container/creative_inventory/tab_top_selected_2.png
++ gui/sprites/container/creative_inventory/tab_top_selected_3.png
++ gui/sprites/container/creative_inventory/tab_top_selected_4.png
++ gui/sprites/container/creative_inventory/tab_top_selected_5.png
++ gui/sprites/container/creative_inventory/tab_top_selected_6.png
++ gui/sprites/container/creative_inventory/tab_top_selected_7.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_1.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_2.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_3.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_4.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_5.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_6.png
++ gui/sprites/container/creative_inventory/tab_top_unselected_7.png
++ gui/sprites/container/enchanting_table/enchantment_slot_disabled.png
++ gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png
++ gui/sprites/container/enchanting_table/enchantment_slot.png
++ gui/sprites/container/enchanting_table/level_1_disabled.png
++ gui/sprites/container/enchanting_table/level_1.png
++ gui/sprites/container/enchanting_table/level_2_disabled.png
++ gui/sprites/container/enchanting_table/level_2.png
++ gui/sprites/container/enchanting_table/level_3_disabled.png
++ gui/sprites/container/enchanting_table/level_3.png
++ gui/sprites/container/furnace/burn_progress.png
++ gui/sprites/container/furnace/lit_progress.png
++ gui/sprites/container/grindstone/error.png
++ gui/sprites/container/horse/armor_slot.png
++ gui/sprites/container/horse/chest_slots.png
++ gui/sprites/container/horse/llama_armor_slot.png
++ gui/sprites/container/horse/saddle_slot.png
++ gui/sprites/container/inventory/effect_background_large.png
++ gui/sprites/container/inventory/effect_background_small.png
++ gui/sprites/container/loom/banner_slot.png
++ gui/sprites/container/loom/dye_slot.png
++ gui/sprites/container/loom/pattern_highlighted.png
++ gui/sprites/container/loom/pattern_selected.png
++ gui/sprites/container/loom/pattern_slot.png
++ gui/sprites/container/loom/pattern.png
++ gui/sprites/container/loom/scroller_disabled.png
++ gui/sprites/container/loom/scroller.png
++ gui/sprites/container/slot.png
++ gui/sprites/container/smithing/error.png
++ gui/sprites/container/smoker/burn_progress.png
++ gui/sprites/container/smoker/lit_progress.png
++ gui/sprites/container/stonecutter/recipe_highlighted.png
++ gui/sprites/container/stonecutter/recipe_selected.png
++ gui/sprites/container/stonecutter/recipe.png
++ gui/sprites/container/stonecutter/scroller_disabled.png
++ gui/sprites/container/stonecutter/scroller.png
++ gui/sprites/container/villager/discount_strikethrough.png
++ gui/sprites/container/villager/experience_bar_background.png
++ gui/sprites/container/villager/experience_bar_current.png
++ gui/sprites/container/villager/experience_bar_result.png
++ gui/sprites/container/villager/out_of_stock.png
++ gui/sprites/container/villager/scroller_disabled.png
++ gui/sprites/container/villager/scroller.png
++ gui/sprites/container/villager/trade_arrow_out_of_stock.png
++ gui/sprites/container/villager/trade_arrow.png
++ gui/sprites/gamemode_switcher/selection.png
++ gui/sprites/gamemode_switcher/slot.png
++ gui/sprites/hud/air_bursting.png
++ gui/sprites/hud/air.png
++ gui/sprites/hud/armor_empty.png
++ gui/sprites/hud/armor_full.png
++ gui/sprites/hud/armor_half.png
++ gui/sprites/hud/crosshair_attack_indicator_background.png
++ gui/sprites/hud/crosshair_attack_indicator_full.png
++ gui/sprites/hud/crosshair_attack_indicator_progress.png
++ gui/sprites/hud/crosshair.png
++ gui/sprites/hud/effect_background_ambient.png
++ gui/sprites/hud/effect_background.png
++ gui/sprites/hud/experience_bar_background.png
++ gui/sprites/hud/experience_bar_progress.png
++ gui/sprites/hud/food_empty_hunger.png
++ gui/sprites/hud/food_empty.png
++ gui/sprites/hud/food_full_hunger.png
++ gui/sprites/hud/food_full.png
++ gui/sprites/hud/food_half_hunger.png
++ gui/sprites/hud/food_half.png
++ gui/sprites/hud/heart/absorbing_full_blinking.png
++ gui/sprites/hud/heart/absorbing_full.png
++ gui/sprites/hud/heart/absorbing_half_blinking.png
++ gui/sprites/hud/heart/absorbing_half.png
++ gui/sprites/hud/heart/absorbing_hardcore_full_blinking.png
++ gui/sprites/hud/heart/absorbing_hardcore_full.png
++ gui/sprites/hud/heart/absorbing_hardcore_half_blinking.png
++ gui/sprites/hud/heart/absorbing_hardcore_half.png
++ gui/sprites/hud/heart/container_blinking.png
++ gui/sprites/hud/heart/container_hardcore_blinking.png
++ gui/sprites/hud/heart/container_hardcore.png
++ gui/sprites/hud/heart/container.png
++ gui/sprites/hud/heart/frozen_full_blinking.png
++ gui/sprites/hud/heart/frozen_full.png
++ gui/sprites/hud/heart/frozen_half_blinking.png
++ gui/sprites/hud/heart/frozen_half.png
++ gui/sprites/hud/heart/frozen_hardcore_full_blinking.png
++ gui/sprites/hud/heart/frozen_hardcore_full.png
++ gui/sprites/hud/heart/frozen_hardcore_half_blinking.png
++ gui/sprites/hud/heart/frozen_hardcore_half.png
++ gui/sprites/hud/heart/full_blinking.png
++ gui/sprites/hud/heart/full.png
++ gui/sprites/hud/heart/half_blinking.png
++ gui/sprites/hud/heart/half.png
++ gui/sprites/hud/heart/hardcore_full_blinking.png
++ gui/sprites/hud/heart/hardcore_full.png
++ gui/sprites/hud/heart/hardcore_half_blinking.png
++ gui/sprites/hud/heart/hardcore_half.png
++ gui/sprites/hud/heart/poisoned_full_blinking.png
++ gui/sprites/hud/heart/poisoned_full.png
++ gui/sprites/hud/heart/poisoned_half_blinking.png
++ gui/sprites/hud/heart/poisoned_half.png
++ gui/sprites/hud/heart/poisoned_hardcore_full_blinking.png
++ gui/sprites/hud/heart/poisoned_hardcore_full.png
++ gui/sprites/hud/heart/poisoned_hardcore_half_blinking.png
++ gui/sprites/hud/heart/poisoned_hardcore_half.png
++ gui/sprites/hud/heart/vehicle_container.png
++ gui/sprites/hud/heart/vehicle_full.png
++ gui/sprites/hud/heart/vehicle_half.png
++ gui/sprites/hud/heart/withered_full_blinking.png
++ gui/sprites/hud/heart/withered_full.png
++ gui/sprites/hud/heart/withered_half_blinking.png
++ gui/sprites/hud/heart/withered_half.png
++ gui/sprites/hud/heart/withered_hardcore_full_blinking.png
++ gui/sprites/hud/heart/withered_hardcore_full.png
++ gui/sprites/hud/heart/withered_hardcore_half_blinking.png
++ gui/sprites/hud/heart/withered_hardcore_half.png
++ gui/sprites/hud/hotbar_attack_indicator_background.png
++ gui/sprites/hud/hotbar_attack_indicator_progress.png
++ gui/sprites/hud/hotbar_offhand_left.png
++ gui/sprites/hud/hotbar_offhand_right.png
++ gui/sprites/hud/hotbar_selection.png
++ gui/sprites/hud/hotbar.png
++ gui/sprites/hud/jump_bar_background.png
++ gui/sprites/hud/jump_bar_cooldown.png
++ gui/sprites/hud/jump_bar_progress.png
++ gui/sprites/icon/accessibility.png
++ gui/sprites/icon/chat_modified.png
++ gui/sprites/icon/checkmark.png
++ gui/sprites/icon/draft_report.png
++ gui/sprites/icon/info.png
++ gui/sprites/icon/invite.png
++ gui/sprites/icon/language.png
++ gui/sprites/icon/link_highlighted.png
++ gui/sprites/icon/link.png
++ gui/sprites/icon/new_realm.png
++ gui/sprites/icon/news.png
++ gui/sprites/icon/ping_1.png
++ gui/sprites/icon/ping_2.png
++ gui/sprites/icon/ping_3.png
++ gui/sprites/icon/ping_4.png
++ gui/sprites/icon/ping_5.png
++ gui/sprites/icon/ping_unknown.png
++ gui/sprites/icon/search.png
++ gui/sprites/icon/trial_available.png
++ gui/sprites/icon/unseen_notification.png
++ gui/sprites/icon/video_link_highlighted.png
++ gui/sprites/icon/video_link.png
++ gui/sprites/notification/1.png
++ gui/sprites/notification/2.png
++ gui/sprites/notification/3.png
++ gui/sprites/notification/4.png
++ gui/sprites/notification/5.png
++ gui/sprites/notification/more.png
++ gui/sprites/pending_invite/accept_highlighted.png
++ gui/sprites/pending_invite/accept.png
++ gui/sprites/pending_invite/reject_highlighted.png
++ gui/sprites/pending_invite/reject.png
++ gui/sprites/player_list/make_operator_highlighted.png
++ gui/sprites/player_list/make_operator.png
++ gui/sprites/player_list/remove_operator_highlighted.png
++ gui/sprites/player_list/remove_operator.png
++ gui/sprites/player_list/remove_player_highlighted.png
++ gui/sprites/player_list/remove_player.png
++ gui/sprites/popup/background.png
++ gui/sprites/realm_status/closed.png
++ gui/sprites/realm_status/expired.png
++ gui/sprites/realm_status/expires_soon.png
++ gui/sprites/realm_status/open.png
++ gui/sprites/recipe_book/button_highlighted.png
++ gui/sprites/recipe_book/button.png
++ gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png
++ gui/sprites/recipe_book/crafting_overlay_disabled.png
++ gui/sprites/recipe_book/crafting_overlay_highlighted.png
++ gui/sprites/recipe_book/crafting_overlay.png
++ gui/sprites/recipe_book/filter_disabled_highlighted.png
++ gui/sprites/recipe_book/filter_disabled.png
++ gui/sprites/recipe_book/filter_enabled_highlighted.png
++ gui/sprites/recipe_book/filter_enabled.png
++ gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png
++ gui/sprites/recipe_book/furnace_filter_disabled.png
++ gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png
++ gui/sprites/recipe_book/furnace_filter_enabled.png
++ gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png
++ gui/sprites/recipe_book/furnace_overlay_disabled.png
++ gui/sprites/recipe_book/furnace_overlay_highlighted.png
++ gui/sprites/recipe_book/furnace_overlay.png
++ gui/sprites/recipe_book/overlay_recipe.png
++ gui/sprites/recipe_book/page_backward_highlighted.png
++ gui/sprites/recipe_book/page_backward.png
++ gui/sprites/recipe_book/page_forward_highlighted.png
++ gui/sprites/recipe_book/page_forward.png
++ gui/sprites/recipe_book/slot_craftable.png
++ gui/sprites/recipe_book/slot_many_craftable.png
++ gui/sprites/recipe_book/slot_many_uncraftable.png
++ gui/sprites/recipe_book/slot_uncraftable.png
++ gui/sprites/recipe_book/tab_selected.png
++ gui/sprites/recipe_book/tab.png
++ gui/sprites/server_list/incompatible.png
++ gui/sprites/server_list/join_highlighted.png
++ gui/sprites/server_list/join.png
++ gui/sprites/server_list/move_down_highlighted.png
++ gui/sprites/server_list/move_down.png
++ gui/sprites/server_list/move_up_highlighted.png
++ gui/sprites/server_list/move_up.png
++ gui/sprites/server_list/ping_1.png
++ gui/sprites/server_list/ping_2.png
++ gui/sprites/server_list/ping_3.png
++ gui/sprites/server_list/ping_4.png
++ gui/sprites/server_list/ping_5.png
++ gui/sprites/server_list/pinging_1.png
++ gui/sprites/server_list/pinging_2.png
++ gui/sprites/server_list/pinging_3.png
++ gui/sprites/server_list/pinging_4.png
++ gui/sprites/server_list/pinging_5.png
++ gui/sprites/server_list/unreachable.png
++ gui/sprites/social_interactions/background.png
++ gui/sprites/social_interactions/mute_button_highlighted.png
++ gui/sprites/social_interactions/mute_button.png
++ gui/sprites/social_interactions/report_button_disabled.png
++ gui/sprites/social_interactions/report_button_highlighted.png
++ gui/sprites/social_interactions/report_button.png
++ gui/sprites/social_interactions/unmute_button_highlighted.png
++ gui/sprites/social_interactions/unmute_button.png
++ gui/sprites/spectator/close.png
++ gui/sprites/spectator/scroll_left.png
++ gui/sprites/spectator/scroll_right.png
++ gui/sprites/spectator/teleport_to_player.png
++ gui/sprites/spectator/teleport_to_team.png
++ gui/sprites/statistics/block_mined.png
++ gui/sprites/statistics/header.png
++ gui/sprites/statistics/item_broken.png
++ gui/sprites/statistics/item_crafted.png
++ gui/sprites/statistics/item_dropped.png
++ gui/sprites/statistics/item_picked_up.png
++ gui/sprites/statistics/item_used.png
++ gui/sprites/statistics/sort_down.png
++ gui/sprites/statistics/sort_up.png
++ gui/sprites/toast/advancement.png
++ gui/sprites/toast/mouse.png
++ gui/sprites/toast/movement_keys.png
++ gui/sprites/toast/recipe_book.png
++ gui/sprites/toast/recipe.png
++ gui/sprites/toast/right_click.png
++ gui/sprites/toast/social_interactions.png
++ gui/sprites/toast/system.png
++ gui/sprites/toast/tree.png
++ gui/sprites/toast/tutorial.png
++ gui/sprites/toast/wooden_planks.png
++ gui/sprites/transferable_list/move_down_highlighted.png
++ gui/sprites/transferable_list/move_down.png
++ gui/sprites/transferable_list/move_up_highlighted.png
++ gui/sprites/transferable_list/move_up.png
++ gui/sprites/transferable_list/select_highlighted.png
++ gui/sprites/transferable_list/select.png
++ gui/sprites/transferable_list/unselect_highlighted.png
++ gui/sprites/transferable_list/unselect.png
++ gui/sprites/widget/button_disabled.png
++ gui/sprites/widget/button_highlighted.png
++ gui/sprites/widget/button.png
++ gui/sprites/widget/checkbox_highlighted.png
++ gui/sprites/widget/checkbox_selected_highlighted.png
++ gui/sprites/widget/checkbox_selected.png
++ gui/sprites/widget/checkbox.png
++ gui/sprites/widget/cross_button_highlighted.png
++ gui/sprites/widget/cross_button.png
++ gui/sprites/widget/locked_button_disabled.png
++ gui/sprites/widget/locked_button_highlighted.png
++ gui/sprites/widget/locked_button.png
++ gui/sprites/widget/page_backward_highlighted.png
++ gui/sprites/widget/page_backward.png
++ gui/sprites/widget/page_forward_highlighted.png
++ gui/sprites/widget/page_forward.png
++ gui/sprites/widget/slider_handle_highlighted.png
++ gui/sprites/widget/slider_handle.png
++ gui/sprites/widget/slider_highlighted.png
++ gui/sprites/widget/slider.png
++ gui/sprites/widget/slot_frame.png
++ gui/sprites/widget/tab_highlighted.png
++ gui/sprites/widget/tab_selected_highlighted.png
++ gui/sprites/widget/tab_selected.png
++ gui/sprites/widget/tab.png
++ gui/sprites/widget/unlocked_button_disabled.png
++ gui/sprites/widget/unlocked_button_highlighted.png
++ gui/sprites/widget/unlocked_button.png
++ gui/sprites/world_list/error_highlighted.png
++ gui/sprites/world_list/error.png
++ gui/sprites/world_list/join_highlighted.png
++ gui/sprites/world_list/join.png
++ gui/sprites/world_list/marked_join_highlighted.png
++ gui/sprites/world_list/marked_join.png
++ gui/sprites/world_list/warning_highlighted.png
++ gui/sprites/world_list/warning.png
+- gui/stream_indicator.png
+- gui/tab_button.png
++ gui/title/realms.png
+- gui/toasts.png
+- gui/unseen_notification.png
+- gui/widgets.png
+- gui/world_selection.png
+```
+
+</details>
+
+
+<details><summary>worldgen/configured_feature.txt</summary>
+
+```diff
++ ore_diamond_medium.json
+```
+
+</details>
+
+
+<details><summary>worldgen/placed_feature.txt</summary>
+
+```diff
++ ore_diamond_medium.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:4.0.43
++ com.mojang:authlib:5.0.46
+```
+
+</details>

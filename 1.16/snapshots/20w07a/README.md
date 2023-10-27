@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w07a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w07a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-02-14T13:20:49+00:00</td></tr>
@@ -10,2335 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/fc342efdfe0432498192916a6a15f04b39c994ed/server.txt">https://piston-data.mojang.com/v1/objects/fc342efdfe0432498192916a6a15f04b39c994ed/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/421d3171259d100d25c9579ac4d6fdbd1d364294/client.jar">https://piston-data.mojang.com/v1/objects/421d3171259d100d25c9579ac4d6fdbd1d364294/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/eadd964b26a5ae7c38bdfcc937e4e47f3fc57b2f/client.txt">https://piston-data.mojang.com/v1/objects/eadd964b26a5ae7c38bdfcc937e4e47f3fc57b2f/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w06a">20w06a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/entities/piglin.json
-+  minecraft/loot_tables/gameplay/piglin_bartering.json
-+  minecraft/tags/blocks/beacon_base_blocks.json
-+  minecraft/tags/blocks/wall_post_override.json
-+  minecraft/tags/blocks/wither_summon_base_blocks.json
-+  minecraft/tags/items/beacon_payment_items.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/piglin_spawn_egg.json
-+  minecraft/textures/entity/piglin
-+  minecraft/textures/entity/piglin/piglin.png
-+  minecraft/textures/entity/piglin/zombie_piglin.png
-+  minecraft/textures/models/armor/chainmail_piglin_helmet.png
-+  minecraft/textures/models/armor/diamond_piglin_helmet.png
-+  minecraft/textures/models/armor/gold_piglin_helmet.png
-+  minecraft/textures/models/armor/iron_piglin_helmet.png
-+  minecraft/textures/models/armor/leather_piglin_helmet.png
-+  minecraft/textures/models/armor/leather_piglin_helmet_overlay.png
-+  minecraft/textures/models/armor/netherite_piglin_helmet.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:fight
-+ minecraft:celebrate
-+ minecraft:admire_item
-+ minecraft:avoid
-+ minecraft:ride
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:piglin
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:piglin_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:nearest_visible_targetable_player
-+ minecraft:attack_target
-+ minecraft:ride_target
-+ minecraft:avoid_target
-+ minecraft:nearest_visible_wanted_item
-+ minecraft:angry_at
-+ minecraft:admiring_item
-+ minecraft:was_hit_by_player
-+ minecraft:hunted_recently
-+ minecraft:celebrate_location
-+ minecraft:nearest_visible_wither_skeleton
-+ minecraft:nearest_visible_adult_hoglin
-+ minecraft:nearest_visible_baby_hoglin
-+ minecraft:nearest_visible_baby_piglin
-+ minecraft:nearest_targetable_player_not_wearing_gold
-+ minecraft:nearest_visible_adult_piglins
-+ minecraft:nearest_visible_adult_hoglins
-+ minecraft:nearest_visible_adult_piglin
-+ minecraft:nearest_visible_zombified_piglin
-+ minecraft:visible_adult_piglin_count
-+ minecraft:visible_adult_hoglin_count
-+ minecraft:nearest_player_holding_wanted_item
-+ minecraft:ate_recently
-+ minecraft:nearest_visible_warped_fungi
-+ minecraft:nearest_visible_soul_fire_item
-+ minecraft:pacified
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:nearest_items
-+ minecraft:piglin_specific_sensor
-+ minecraft:hoglin_specific_sensor
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:block.soul_sand.break
-- minecraft:block.soul_sand.step
-- minecraft:block.soul_sand.place
-- minecraft:block.soul_sand.hit
-- minecraft:block.soul_sand.fall
-- minecraft:block.soul_soil.break
-- minecraft:block.soul_soil.step
-- minecraft:block.soul_soil.place
-- minecraft:block.soul_soil.hit
-- minecraft:block.soul_soil.fall
-+ minecraft:entity.hoglin.ambient
-+ minecraft:entity.hoglin.angry
-+ minecraft:entity.hoglin.attack
-+ minecraft:entity.hoglin.death
-+ minecraft:entity.hoglin.hurt
-+ minecraft:entity.hoglin.retreat
-+ minecraft:entity.hoglin.step
-+ minecraft:entity.piglin.admiring_item
-+ minecraft:entity.piglin.ambient
-+ minecraft:entity.piglin.angry
-+ minecraft:entity.piglin.celebrate
-+ minecraft:entity.piglin.death
-+ minecraft:entity.piglin.jealous
-+ minecraft:entity.piglin.hurt
-+ minecraft:entity.piglin.retreat
-+ minecraft:entity.piglin.step
-+ minecraft:entity.piglin.converted_to_zombified
-+ minecraft:block.soul_sand_break
-+ minecraft:block.soul_sand_step
-+ minecraft:block.soul_sand_place
-+ minecraft:block.soul_sand_hit
-+ minecraft:block.soul_sand_fall
-+ minecraft:block.soul_soil_break
-+ minecraft:block.soul_soil_step
-+ minecraft:block.soul_soil_place
-+ minecraft:block.soul_soil_hit
-+ minecraft:block.soul_soil_fall
-+ minecraft:entity.snow_golem.shear
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/beacon_base_blocks.json
-+ blocks/wall_post_override.json
-+ blocks/wither_summon_base_blocks.json
-+ items/beacon_payment_items.json
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:netherrack
-+ minecraft:crimson_fungi
-+ minecraft:crimson_nylium
-+ minecraft:crimson_roots
-+ minecraft:warped_fungi
-+ minecraft:warped_nylium
-+ minecraft:warped_roots
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ entities/piglin.json
-+ gameplay/piglin_bartering.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/beacon_base_blocks.json
-+ blocks/wall_post_override.json
-+ blocks/wither_summon_base_blocks.json
-+ items/beacon_payment_items.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ entity/piglin/piglin.png
-+ entity/piglin/zombie_piglin.png
-+ models/armor/chainmail_piglin_helmet.png
-+ models/armor/diamond_piglin_helmet.png
-+ models/armor/gold_piglin_helmet.png
-+ models/armor/iron_piglin_helmet.png
-+ models/armor/leather_piglin_helmet.png
-+ models/armor/leather_piglin_helmet_overlay.png
-+ models/armor/netherite_piglin_helmet.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.IronGolemModel</summary>
-
-```diff
-- float triangleWave(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.DebugRenderer</summary>
-
-```diff
-+ BrainDebugRenderer brainDebugRenderer
-+ VillageSectionsDebugRenderer villageSectionsDebugRenderer
-- VillageDebugRenderer villageDebugRenderer
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
-
-```diff
-+ List getMemoryDescriptions(LivingEntity,long)
-+ String getShortDescription(Object)
-- List getMemoryDescriptions(Brain)
-- String getShortDescription(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent HOGLIN_AMBIENT
-+ SoundEvent HOGLIN_ANGRY
-+ SoundEvent HOGLIN_ATTACK
-+ SoundEvent HOGLIN_DEATH
-+ SoundEvent HOGLIN_HURT
-+ SoundEvent HOGLIN_RETREAT
-+ SoundEvent HOGLIN_STEP
-+ SoundEvent PIGLIN_ADMIRING_ITEM
-+ SoundEvent PIGLIN_AMBIENT
-+ SoundEvent PIGLIN_ANGRY
-+ SoundEvent PIGLIN_CELEBRATE
-+ SoundEvent PIGLIN_CONVERTED_TO_ZOMBIFIED
-+ SoundEvent PIGLIN_DEATH
-+ SoundEvent PIGLIN_HURT
-+ SoundEvent PIGLIN_JEALOUS
-+ SoundEvent PIGLIN_RETREAT
-+ SoundEvent PIGLIN_STEP
-+ SoundEvent SNOW_GOLEM_SHEAR
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag BEACON_BASE_BLOCKS
-+ Tag WALL_POST_OVERRIDE
-+ Tag WITHER_SUMMON_BASE_BLOCKS
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag BEACON_PAYMENT_ITEMS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.InteractWith</summary>
-
-```diff
-+ boolean isTargetValid(LivingEntity)
-+ boolean lambda$of$2(LivingEntity)
-+ boolean seesAtLeastOneValidTarget(LivingEntity)
-+ InteractWith of(MemoryModuleType,float,int)
-- boolean lambda$checkExtraStartConditions$2(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
-
-```diff
-+ boolean lambda$start$0(BlockPos)
-+ boolean lambda$start$1(Long2LongMap$Entry)
-- boolean lambda$checkExtraStartConditions$0(BlockPos)
-- boolean lambda$start$1(BlockPos)
-- boolean lambda$start$2(Long2LongMap$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal</summary>
-
-```diff
-+ void setTarget(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
-
-```diff
-+ boolean lambda$ensureLoadedAndValid$16(Pair)
-+ boolean lambda$ensureLoadedAndValid$18(ChunkPos)
-+ Boolean lambda$exists$8(PoiSection)
-+ boolean lambda$getRandom$7(PoiRecord)
-+ Boolean lambda$isVillageCenter$9(PoiSection)
-+ ChunkPos lambda$ensureLoadedAndValid$17(Pair)
-+ Optional findClosest(PoiManager$Occupancy)
-+ Pair lambda$ensureLoadedAndValid$15(SectionPos)
-+ void lambda$checkConsistencyWithBlocks$11(PoiSection)
-+ void lambda$checkConsistencyWithBlocks$12(SectionPos)
-+ void lambda$ensureLoadedAndValid$19(ChunkPos)
-+ void lambda$null$10(BiConsumer)
-+ void lambda$null$13(PoiType)
-+ void lambda$updateFromSection$14(BlockPos)
-- BlockPos lambda$takeClosest$9(PoiRecord)
-- boolean lambda$ensureLoadedAndValid$19(Pair)
-- boolean lambda$ensureLoadedAndValid$21(ChunkPos)
-- Boolean lambda$exists$11(PoiSection)
-- boolean lambda$getRandom$10(PoiRecord)
-- Boolean lambda$isVillageCenter$12(PoiSection)
-- boolean lambda$takeClosest$8(PoiRecord)
-- ChunkPos lambda$ensureLoadedAndValid$20(Pair)
-- double lambda$takeClosest$7(PoiRecord)
-- Optional findClosest(PoiManager$Occupancy)
-- Optional takeClosest(BlockPos,int)
-- Pair lambda$ensureLoadedAndValid$18(SectionPos)
-- void lambda$checkConsistencyWithBlocks$14(PoiSection)
-- void lambda$checkConsistencyWithBlocks$15(SectionPos)
-- void lambda$ensureLoadedAndValid$22(ChunkPos)
-- void lambda$null$13(BiConsumer)
-- void lambda$null$16(PoiType)
-- void lambda$updateFromSection$17(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Animal</summary>
-
-```diff
-+ void spawnChildFromBreeding(Animal)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.fishing.FishingHook</summary>
-
-```diff
-- boolean inGround
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.CrossbowAttackMob</summary>
-
-```diff
-+ void onCrossbowAttackPerformed()
-+ void shootCrossbowProjectile(net.minecraft.world.entity.LivingEntity,net.minecraft.world.item.ItemStack,net.minecraft.world.entity.projectile.Projectile,float)
-- void shootProjectile(net.minecraft.world.entity.LivingEntity,net.minecraft.world.item.ItemStack,net.minecraft.world.entity.projectile.Projectile,float)
-+ Vector3f getProjectileShotVector(Vec3,float)
-+ void performCrossbowAttack(LivingEntity,float)
-+ void shootCrossbowProjectile(Projectile,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
-
-```diff
-- Set closedSet
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.BuiltInLootTables</summary>
-
-```diff
-+ ResourceLocation PIGLIN_BARTERING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.Vec3</summary>
-
-```diff
-+ boolean closerThan(Position,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.model.dragon.DragonHeadModel
@@ -3990,1482 +1683,137 @@
 </details>
 
 
+<details><summary>net.minecraft.client.model.IronGolemModel</summary>
 
+```diff
+- float triangleWave(float,float)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
 
 ```diff
 + List getMemoryDescriptions(LivingEntity,long)
-+ String getShortDescription(Object)
-- List getMemoryDescriptions(Brain)
+- List getMemoryDescriptions(long,Brain)
 - String getShortDescription(Object)
++ String getShortDescription(ServerLevel,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.InteractWith</summary>
 
 ```diff
-+ float triangleWave(float,float)
++ boolean isTargetValid(LivingEntity)
+- boolean lambda$checkExtraStartConditions$2(LivingEntity)
++ boolean lambda$of$2(LivingEntity)
++ boolean seesAtLeastOneValidTarget(LivingEntity)
++ InteractWith of(EntityType,int,Predicate,MemoryModuleType,float,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
 
 ```diff
-+ boolean lambda$new$3(LivingEntity)
-+ boolean lambda$null$4(LivingEntity)
-+ void <init>(float)
-+ void lambda$null$5(LivingEntity)
-+ void lambda$start$6(List)
-- boolean lambda$null$3(LivingEntity)
-- void lambda$null$4(LivingEntity)
-- void lambda$start$5(List)
+- boolean lambda$checkExtraStartConditions$0(BlockPos)
++ boolean lambda$start$0(BlockPos)
+- boolean lambda$start$1(BlockPos)
++ boolean lambda$start$1(Long2LongMap$Entry)
+- boolean lambda$start$2(Long2LongMap$Entry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.DoorInteractGoal</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal</summary>
 
 ```diff
-- boolean isDoor(BlockPos)
++ void setTarget(LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.HurtBySensor</summary>
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
 
 ```diff
-+ void lambda$doTick$0(LivingEntity)
+- BlockPos lambda$takeClosest$9(PoiRecord)
++ boolean lambda$ensureLoadedAndValid$16(Pair)
++ boolean lambda$ensureLoadedAndValid$18(ChunkPos)
+- boolean lambda$ensureLoadedAndValid$19(Pair)
+- boolean lambda$ensureLoadedAndValid$21(ChunkPos)
+- Boolean lambda$exists$11(BlockPos,Predicate,PoiSection)
++ Boolean lambda$exists$8(BlockPos,Predicate,PoiSection)
+- boolean lambda$getRandom$10(Predicate,PoiRecord)
++ boolean lambda$getRandom$7(Predicate,PoiRecord)
+- Boolean lambda$isVillageCenter$12(PoiSection)
++ Boolean lambda$isVillageCenter$9(PoiSection)
+- boolean lambda$takeClosest$8(Predicate,PoiRecord)
++ ChunkPos lambda$ensureLoadedAndValid$17(Pair)
+- ChunkPos lambda$ensureLoadedAndValid$20(Pair)
+- double lambda$takeClosest$7(BlockPos,PoiRecord)
++ Optional findClosest(Predicate,BlockPos,int,PoiManager$Occupancy)
+- Optional findClosest(Predicate,Predicate,BlockPos,int,PoiManager$Occupancy)
+- Optional takeClosest(Predicate,Predicate,BlockPos,int)
++ Pair lambda$ensureLoadedAndValid$15(SectionPos)
+- Pair lambda$ensureLoadedAndValid$18(SectionPos)
++ void lambda$checkConsistencyWithBlocks$11(LevelChunkSection,SectionPos,PoiSection)
++ void lambda$checkConsistencyWithBlocks$12(LevelChunkSection,SectionPos)
+- void lambda$checkConsistencyWithBlocks$14(LevelChunkSection,SectionPos,PoiSection)
+- void lambda$checkConsistencyWithBlocks$15(LevelChunkSection,SectionPos)
++ void lambda$ensureLoadedAndValid$19(LevelReader,ChunkPos)
+- void lambda$ensureLoadedAndValid$22(LevelReader,ChunkPos)
++ void lambda$null$10(LevelChunkSection,SectionPos,BiConsumer)
++ void lambda$null$13(BiConsumer,BlockPos,PoiType)
+- void lambda$null$13(LevelChunkSection,SectionPos,BiConsumer)
+- void lambda$null$16(BiConsumer,BlockPos,PoiType)
++ void lambda$updateFromSection$14(LevelChunkSection,BiConsumer,BlockPos)
+- void lambda$updateFromSection$17(LevelChunkSection,BiConsumer,BlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.SensorType</summary>
+<details><summary>net.minecraft.world.entity.animal.Animal</summary>
 
 ```diff
-+ SensorType HOGLIN_SPECIFIC_SENSOR
-+ SensorType NEAREST_ITEMS
-+ SensorType PIGLIN_SPECIFIC_SENSOR
++ void spawnChildFromBreeding(Level,Animal)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+<details><summary>net.minecraft.world.entity.monster.CrossbowAttackMob</summary>
 
 ```diff
-+ void onOffspringSpawnedFromEgg(Mob)
-- void onOffspringSpawnedFromEgg(AgableMob)
++ Vector3f getProjectileShotVector(LivingEntity,Vec3,float)
++ void performCrossbowAttack(LivingEntity,float)
++ void shootCrossbowProjectile(LivingEntity,LivingEntity,Projectile,float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+<details><summary>net.minecraft.world.phys.Vec3</summary>
 
 ```diff
-+ Container getInventory()
++ boolean closerThan(Position,double)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
-
-```diff
-+ void spawnInfestation(BlockPos)
-+ void wasExploded(Explosion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WallBlock</summary>
-
-```diff
-- boolean specialPostBlock(Block)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WitherSkullBlock</summary>
-
-```diff
-+ boolean lambda$getOrCreateWitherBase$1(BlockInWorld)
-+ boolean lambda$getOrCreateWitherFull$0(BlockInWorld)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
-
-```diff
-+ LootContextParamSet PIGLIN_BARTER
-+ void lambda$static$10(LootContextParamSet$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior
@@ -6642,13 +2990,372 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
+
+```diff
++ List getMemoryDescriptions(LivingEntity,long)
+- List getMemoryDescriptions(long,Brain)
+- String getShortDescription(Object)
++ String getShortDescription(ServerLevel,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float triangleWave(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
+
+```diff
++ boolean lambda$new$3(LivingEntity)
+- boolean lambda$null$3(LivingEntity,LivingEntity)
++ boolean lambda$null$4(LivingEntity,LivingEntity)
++ void <init>(float)
+- void lambda$null$4(Brain,LivingEntity)
++ void lambda$null$5(Brain,LivingEntity)
+- void lambda$start$5(LivingEntity,Brain,List)
++ void lambda$start$6(LivingEntity,Brain,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.DoorInteractGoal</summary>
+
+```diff
+- boolean isDoor(Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.HurtBySensor</summary>
+
+```diff
++ void lambda$doTick$0(ServerLevel,Brain,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
+- void onOffspringSpawnedFromEgg(Player,AgableMob)
++ void onOffspringSpawnedFromEgg(Player,Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+
+```diff
++ Container getInventory()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
+
+```diff
++ void spawnInfestation(Level,BlockPos)
++ void wasExploded(Level,BlockPos,Explosion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallBlock</summary>
+
+```diff
+- boolean specialPostBlock(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WitherSkullBlock</summary>
+
+```diff
++ boolean lambda$getOrCreateWitherBase$1(BlockInWorld)
++ boolean lambda$getOrCreateWitherFull$0(BlockInWorld)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
+
+```diff
++ void lambda$static$10(LootContextParamSet$Builder)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/entities/piglin.json
++ minecraft/loot_tables/gameplay/piglin_bartering.json
++ minecraft/tags/blocks/beacon_base_blocks.json
++ minecraft/tags/blocks/wall_post_override.json
++ minecraft/tags/blocks/wither_summon_base_blocks.json
++ minecraft/tags/items/beacon_payment_items.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/piglin_spawn_egg.json
++ minecraft/textures/entity/piglin/piglin.png
++ minecraft/textures/entity/piglin/zombie_piglin.png
++ minecraft/textures/models/armor/chainmail_piglin_helmet.png
++ minecraft/textures/models/armor/diamond_piglin_helmet.png
++ minecraft/textures/models/armor/gold_piglin_helmet.png
++ minecraft/textures/models/armor/iron_piglin_helmet.png
++ minecraft/textures/models/armor/leather_piglin_helmet_overlay.png
++ minecraft/textures/models/armor/leather_piglin_helmet.png
++ minecraft/textures/models/armor/netherite_piglin_helmet.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:admire_item
++ minecraft:avoid
++ minecraft:celebrate
++ minecraft:fight
++ minecraft:ride
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:piglin
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:piglin_spawn_egg
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:admiring_item
++ minecraft:angry_at
++ minecraft:ate_recently
++ minecraft:attack_target
++ minecraft:avoid_target
++ minecraft:celebrate_location
++ minecraft:hunted_recently
++ minecraft:nearest_player_holding_wanted_item
++ minecraft:nearest_targetable_player_not_wearing_gold
++ minecraft:nearest_visible_adult_hoglin
++ minecraft:nearest_visible_adult_hoglins
++ minecraft:nearest_visible_adult_piglin
++ minecraft:nearest_visible_adult_piglins
++ minecraft:nearest_visible_baby_hoglin
++ minecraft:nearest_visible_baby_piglin
++ minecraft:nearest_visible_soul_fire_item
++ minecraft:nearest_visible_targetable_player
++ minecraft:nearest_visible_wanted_item
++ minecraft:nearest_visible_warped_fungi
++ minecraft:nearest_visible_wither_skeleton
++ minecraft:nearest_visible_zombified_piglin
++ minecraft:pacified
++ minecraft:ride_target
++ minecraft:visible_adult_hoglin_count
++ minecraft:visible_adult_piglin_count
++ minecraft:was_hit_by_player
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:hoglin_specific_sensor
++ minecraft:nearest_items
++ minecraft:piglin_specific_sensor
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.soul_sand_break
++ minecraft:block.soul_sand_fall
++ minecraft:block.soul_sand_hit
++ minecraft:block.soul_sand_place
++ minecraft:block.soul_sand_step
+- minecraft:block.soul_sand.break
+- minecraft:block.soul_sand.fall
+- minecraft:block.soul_sand.hit
+- minecraft:block.soul_sand.place
+- minecraft:block.soul_sand.step
++ minecraft:block.soul_soil_break
++ minecraft:block.soul_soil_fall
++ minecraft:block.soul_soil_hit
++ minecraft:block.soul_soil_place
++ minecraft:block.soul_soil_step
+- minecraft:block.soul_soil.break
+- minecraft:block.soul_soil.fall
+- minecraft:block.soul_soil.hit
+- minecraft:block.soul_soil.place
+- minecraft:block.soul_soil.step
++ minecraft:entity.hoglin.ambient
++ minecraft:entity.hoglin.angry
++ minecraft:entity.hoglin.attack
++ minecraft:entity.hoglin.death
++ minecraft:entity.hoglin.hurt
++ minecraft:entity.hoglin.retreat
++ minecraft:entity.hoglin.step
++ minecraft:entity.piglin.admiring_item
++ minecraft:entity.piglin.ambient
++ minecraft:entity.piglin.angry
++ minecraft:entity.piglin.celebrate
++ minecraft:entity.piglin.converted_to_zombified
++ minecraft:entity.piglin.death
++ minecraft:entity.piglin.hurt
++ minecraft:entity.piglin.jealous
++ minecraft:entity.piglin.retreat
++ minecraft:entity.piglin.step
++ minecraft:entity.snow_golem.shear
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/beacon_base_blocks.json
++ blocks/wall_post_override.json
++ blocks/wither_summon_base_blocks.json
++ items/beacon_payment_items.json
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
++ minecraft:crimson_fungi
++ minecraft:crimson_nylium
++ minecraft:crimson_roots
+- minecraft:netherrack
++ minecraft:warped_fungi
++ minecraft:warped_nylium
++ minecraft:warped_roots
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ death.attack.magic.player
++ entity.minecraft.piglin
++ item.minecraft.piglin_spawn_egg
++ subtitles.entity.hoglin.ambient
++ subtitles.entity.hoglin.angry
++ subtitles.entity.hoglin.attack
++ subtitles.entity.hoglin.death
++ subtitles.entity.hoglin.hurt
++ subtitles.entity.hoglin.retreat
++ subtitles.entity.hoglin.step
++ subtitles.entity.piglin.admiring_item
++ subtitles.entity.piglin.ambient
++ subtitles.entity.piglin.angry
++ subtitles.entity.piglin.celebrate
++ subtitles.entity.piglin.converted_to_zombified
++ subtitles.entity.piglin.death
++ subtitles.entity.piglin.hurt
++ subtitles.entity.piglin.jealous
++ subtitles.entity.piglin.retreat
++ subtitles.entity.piglin.step
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ entities/piglin.json
++ gameplay/piglin_bartering.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/beacon_base_blocks.json
++ blocks/wall_post_override.json
++ blocks/wither_summon_base_blocks.json
++ items/beacon_payment_items.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ entity/piglin/piglin.png
++ entity/piglin/zombie_piglin.png
++ models/armor/chainmail_piglin_helmet.png
++ models/armor/diamond_piglin_helmet.png
++ models/armor/gold_piglin_helmet.png
++ models/armor/iron_piglin_helmet.png
++ models/armor/leather_piglin_helmet_overlay.png
++ models/armor/leather_piglin_helmet.png
++ models/armor/netherite_piglin_helmet.png
+```
+
+</details>

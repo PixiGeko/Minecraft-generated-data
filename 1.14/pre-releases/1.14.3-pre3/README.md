@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.14.3-pre3 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.14.3-pre3</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2019-06-14T08:03:33+00:00</td></tr>
@@ -8,22 +11,29 @@
 <tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/43b2f3021fe9f7d768378de95538e22da3ee8301/1.14.json">https://piston-meta.mojang.com/v1/packages/43b2f3021fe9f7d768378de95538e22da3ee8301/1.14.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/a46e49e1541cf24a75aabe2756514565de83634a/server.jar">https://piston-data.mojang.com/v1/objects/a46e49e1541cf24a75aabe2756514565de83634a/server.jar</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/360c54d41522541f6eb303771192433de4ea1235/client.jar">https://piston-data.mojang.com/v1/objects/360c54d41522541f6eb303771192433de4ea1235/client.jar</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.14.3-pre2">1.14.3-pre2</a>
-## File structure
+
+# Folder structure
 
 <details><summary>data/</summary>
 
 ```diff
-+  minecraft/recipes/repair_item.json
++ minecraft/recipes/repair_item.json
 ```
 
 </details>
 
-## Registries
+
+# Registries
 
 <details><summary>recipe_serializer.txt</summary>
 
@@ -33,7 +43,8 @@
 
 </details>
 
-## Commands
+
+# Commands
 
 <details><summary>gamerule.txt</summary>
 
@@ -43,7 +54,8 @@
 
 </details>
 
-## Misc
+
+# Misc
 
 <details><summary>recipes.txt</summary>
 
@@ -52,14 +64,3 @@
 ```
 
 </details>
-
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>

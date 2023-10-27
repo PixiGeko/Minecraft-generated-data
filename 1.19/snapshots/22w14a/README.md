@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w14a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w14a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-04-06T13:37:12+00:00</td></tr>
@@ -10,4422 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7b9857a6a7f3d7910700528627a8912947512178/server.txt">https://piston-data.mojang.com/v1/objects/7b9857a6a7f3d7910700528627a8912947512178/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/1d186d967576d4e6043e5b1664da242c1b686a85/client.jar">https://piston-data.mojang.com/v1/objects/1d186d967576d4e6043e5b1664da242c1b686a85/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9b86041edb4aa515fc8951f16e3d3be3e0c0533e/client.txt">https://piston-data.mojang.com/v1/objects/9b86041edb4aa515fc8951f16e3d3be3e0c0533e/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w13a">22w13a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/husbandry/allay_deliver_cake_to_noteblock.json
-+  minecraft/advancements/husbandry/allay_deliver_item_to_player.json
-+  minecraft/advancements/recipes/tools/recovery_compass.json
-+  minecraft/recipes/recovery_compass.json
--  minecraft/structures/ancient_city/city/entrance/bottom_piece.nbt
--  minecraft/structures/ancient_city/city/entrance/bottom_piece_1.nbt
--  minecraft/structures/ancient_city/city/entrance/bottom_piece_2.nbt
--  minecraft/structures/ancient_city/city/entrance/bottom_piece_3.nbt
--  minecraft/structures/ancient_city/city/entrance/top_piece.nbt
--  minecraft/structures/ancient_city/structures/small_portal_statue.nbt
--  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
--  minecraft/tags/blocks/ancient_city_center_replaceable.json
-+  minecraft/tags/blocks/dead_bush_may_place_on.json
-+  minecraft/tags/blocks/mangrove_logs_can_grow_through.json
-+  minecraft/tags/blocks/mangrove_roots_can_grow_through.json
-+  minecraft/tags/cat_variant
-+  minecraft/tags/cat_variant/default_spawns.json
-+  minecraft/tags/cat_variant/full_moon_spawns.json
-+  minecraft/tags/entity_types/frog_food.json
-+  minecraft/tags/game_events/shrieker_can_listen.json
-+  minecraft/tags/game_events/warden_can_listen.json
--  minecraft/tags/game_events/warden_events_can_listen.json
-+  minecraft/tags/items/compasses.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/echo_shard.json
-+  minecraft/models/item/recovery_compass.json
-+  minecraft/models/item/recovery_compass_00.json
-+  minecraft/models/item/recovery_compass_01.json
-+  minecraft/models/item/recovery_compass_02.json
-+  minecraft/models/item/recovery_compass_03.json
-+  minecraft/models/item/recovery_compass_04.json
-+  minecraft/models/item/recovery_compass_05.json
-+  minecraft/models/item/recovery_compass_06.json
-+  minecraft/models/item/recovery_compass_07.json
-+  minecraft/models/item/recovery_compass_08.json
-+  minecraft/models/item/recovery_compass_09.json
-+  minecraft/models/item/recovery_compass_10.json
-+  minecraft/models/item/recovery_compass_11.json
-+  minecraft/models/item/recovery_compass_12.json
-+  minecraft/models/item/recovery_compass_13.json
-+  minecraft/models/item/recovery_compass_14.json
-+  minecraft/models/item/recovery_compass_15.json
-+  minecraft/models/item/recovery_compass_17.json
-+  minecraft/models/item/recovery_compass_18.json
-+  minecraft/models/item/recovery_compass_19.json
-+  minecraft/models/item/recovery_compass_20.json
-+  minecraft/models/item/recovery_compass_21.json
-+  minecraft/models/item/recovery_compass_22.json
-+  minecraft/models/item/recovery_compass_23.json
-+  minecraft/models/item/recovery_compass_24.json
-+  minecraft/models/item/recovery_compass_25.json
-+  minecraft/models/item/recovery_compass_26.json
-+  minecraft/models/item/recovery_compass_27.json
-+  minecraft/models/item/recovery_compass_28.json
-+  minecraft/models/item/recovery_compass_29.json
-+  minecraft/models/item/recovery_compass_30.json
-+  minecraft/models/item/recovery_compass_31.json
-+  minecraft/textures/item/echo_shard.png
-+  minecraft/textures/item/recovery_compass_00.png
-+  minecraft/textures/item/recovery_compass_01.png
-+  minecraft/textures/item/recovery_compass_02.png
-+  minecraft/textures/item/recovery_compass_03.png
-+  minecraft/textures/item/recovery_compass_04.png
-+  minecraft/textures/item/recovery_compass_05.png
-+  minecraft/textures/item/recovery_compass_06.png
-+  minecraft/textures/item/recovery_compass_07.png
-+  minecraft/textures/item/recovery_compass_08.png
-+  minecraft/textures/item/recovery_compass_09.png
-+  minecraft/textures/item/recovery_compass_10.png
-+  minecraft/textures/item/recovery_compass_11.png
-+  minecraft/textures/item/recovery_compass_12.png
-+  minecraft/textures/item/recovery_compass_13.png
-+  minecraft/textures/item/recovery_compass_14.png
-+  minecraft/textures/item/recovery_compass_15.png
-+  minecraft/textures/item/recovery_compass_16.png
-+  minecraft/textures/item/recovery_compass_17.png
-+  minecraft/textures/item/recovery_compass_18.png
-+  minecraft/textures/item/recovery_compass_19.png
-+  minecraft/textures/item/recovery_compass_20.png
-+  minecraft/textures/item/recovery_compass_21.png
-+  minecraft/textures/item/recovery_compass_22.png
-+  minecraft/textures/item/recovery_compass_23.png
-+  minecraft/textures/item/recovery_compass_24.png
-+  minecraft/textures/item/recovery_compass_25.png
-+  minecraft/textures/item/recovery_compass_26.png
-+  minecraft/textures/item/recovery_compass_27.png
-+  minecraft/textures/item/recovery_compass_28.png
-+  minecraft/textures/item/recovery_compass_29.png
-+  minecraft/textures/item/recovery_compass_30.png
-+  minecraft/textures/item/recovery_compass_31.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/worldgen/minecraft/worldgen/biome/mangrove_swamp.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/disk_grass.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/mangrove.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/mangrove_vegetation.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/tall_mangrove.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/disk_grass.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/mangrove_checked.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/trees_mangrove.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ cat_variant.txt
-+ frog_variant.txt
-+ worldgen/root_placer_type.txt
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:echo_shard
-+ minecraft:recovery_compass
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:glow_lichen
-+ minecraft:multiface_growth
-+ minecraft:surface_disk
-```
-
-</details>
-
-<details><summary>worldgen/tree_decorator_type.txt</summary>
-
-```diff
-+ minecraft:attached_to_leaves
-```
-
-</details>
-
-<details><summary>worldgen/trunk_placer_type.txt</summary>
-
-```diff
-+ minecraft:upwards_branching_trunk_placer
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/ancient_city_center_replaceable.json
-- game_events/warden_events_can_listen.json
-+ blocks/dead_bush_may_place_on.json
-+ blocks/mangrove_logs_can_grow_through.json
-+ blocks/mangrove_roots_can_grow_through.json
-+ cat_variant/default_spawns.json
-+ cat_variant/full_moon_spawns.json
-+ entity_types/frog_food.json
-+ game_events/shrieker_can_listen.json
-+ game_events/warden_can_listen.json
-+ items/compasses.json
-```
-
-</details>
-
-<details><summary>blocks/ancient_city_replaceable.json</summary>
-
-```diff
-- #minecraft:ancient_city_center_replaceable
-+ minecraft:deepslate
-+ minecraft:deepslate_bricks
-+ minecraft:deepslate_tiles
-+ minecraft:deepslate_brick_slab
-+ minecraft:deepslate_tile_slab
-+ minecraft:deepslate_brick_stairs
-+ minecraft:deepslate_tile_wall
-+ minecraft:deepslate_brick_wall
-+ minecraft:cobbled_deepslate
-+ minecraft:cracked_deepslate_bricks
-+ minecraft:cracked_deepslate_tiles
-```
-
-</details>
-
-<details><summary>worldgen/biome/allows_surface_slime_spawns.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/has_closer_water_fog.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/has_structure/mineshaft.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/has_structure/ruined_portal_swamp.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/is_overworld.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/spawns_warm_variant_frogs.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-<details><summary>worldgen/biome/water_on_map_outlines.json</summary>
-
-```diff
-+ minecraft:mangrove_swamp
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ husbandry/allay_deliver_cake_to_noteblock.json
-+ husbandry/allay_deliver_item_to_player.json
-+ recipes/tools/recovery_compass.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ recovery_compass.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-- ancient_city/city/entrance/bottom_piece.nbt
-- ancient_city/city/entrance/bottom_piece_1.nbt
-- ancient_city/city/entrance/bottom_piece_2.nbt
-- ancient_city/city/entrance/bottom_piece_3.nbt
-- ancient_city/city/entrance/top_piece.nbt
-- ancient_city/structures/small_portal_statue.nbt
-- ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/ancient_city_center_replaceable.json
-- game_events/warden_events_can_listen.json
-+ blocks/dead_bush_may_place_on.json
-+ blocks/mangrove_logs_can_grow_through.json
-+ blocks/mangrove_roots_can_grow_through.json
-+ cat_variant/default_spawns.json
-+ cat_variant/full_moon_spawns.json
-+ entity_types/frog_food.json
-+ game_events/shrieker_can_listen.json
-+ game_events/warden_can_listen.json
-+ items/compasses.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ item/echo_shard.png
-+ item/recovery_compass_00.png
-+ item/recovery_compass_01.png
-+ item/recovery_compass_02.png
-+ item/recovery_compass_03.png
-+ item/recovery_compass_04.png
-+ item/recovery_compass_05.png
-+ item/recovery_compass_06.png
-+ item/recovery_compass_07.png
-+ item/recovery_compass_08.png
-+ item/recovery_compass_09.png
-+ item/recovery_compass_10.png
-+ item/recovery_compass_11.png
-+ item/recovery_compass_12.png
-+ item/recovery_compass_13.png
-+ item/recovery_compass_14.png
-+ item/recovery_compass_15.png
-+ item/recovery_compass_16.png
-+ item/recovery_compass_17.png
-+ item/recovery_compass_18.png
-+ item/recovery_compass_19.png
-+ item/recovery_compass_20.png
-+ item/recovery_compass_21.png
-+ item/recovery_compass_22.png
-+ item/recovery_compass_23.png
-+ item/recovery_compass_24.png
-+ item/recovery_compass_25.png
-+ item/recovery_compass_26.png
-+ item/recovery_compass_27.png
-+ item/recovery_compass_28.png
-+ item/recovery_compass_29.png
-+ item/recovery_compass_30.png
-+ item/recovery_compass_31.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.shaders.Program</summary>
-
-```diff
-- Logger LOGGER
-- Program createProgram(String,int)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ int getRandom(RandomSource)
-+ List shuffledCopy(RandomSource)
-+ Object getRandom(RandomSource)
-+ Object getRandom(RandomSource)
-+ Optional getRandomSafe(RandomSource)
-+ void shuffle(RandomSource)
-- int getRandom(Random)
-- Object getRandom(Random)
-- Object getRandom(Random)
-- Optional getRandomSafe(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
-
-```diff
-+ EntitySubPredicate subPredicate
-- FishingHookPredicate fishingHook
-- LighthingBoltPredicate lighthingBolt
-- PlayerPredicate player
-- ResourceLocation catType
-+ EntityPredicate$Builder subPredicate(EntitySubPredicate)
-- EntityPredicate$Builder catType(ResourceLocation)
-- EntityPredicate$Builder fishingHook(FishingHookPredicate)
-- EntityPredicate$Builder lighthingBolt(LighthingBoltPredicate)
-- EntityPredicate$Builder of(ResourceLocation)
-- EntityPredicate$Builder player(PlayerPredicate)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FishingHookPredicate</summary>
-
-```diff
-+ boolean matches(Vec3)
-+ EntitySubPredicate$Type type()
-+ FishingHookPredicate fromJson(JsonObject)
-+ JsonObject serializeCustomData()
-- boolean matches(Entity)
-- FishingHookPredicate fromJson(JsonElement)
-- JsonElement serializeToJson()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PlayerPredicate</summary>
-
-```diff
-- PlayerPredicate ANY
-+ boolean matches(Vec3)
-+ EntitySubPredicate$Type type()
-+ JsonObject serializeCustomData()
-+ PlayerPredicate fromJson(JsonObject)
-+ void lambda$serializeCustomData$2(MinMaxBounds$Ints)
-+ void lambda$serializeCustomData$3(Boolean)
-+ void lambda$serializeCustomData$4(PlayerPredicate$AdvancementPredicate)
-- boolean matches(Entity)
-- JsonElement serializeToJson()
-- PlayerPredicate fromJson(JsonElement)
-- void <clinit>()
-- void lambda$serializeToJson$2(MinMaxBounds$Ints)
-- void lambda$serializeToJson$3(Boolean)
-- void lambda$serializeToJson$4(PlayerPredicate$AdvancementPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.item.ItemProperties</summary>
-
-```diff
-+ float lambda$static$18(LivingEntity,int)
-+ float lambda$static$19(LivingEntity,int)
-+ GlobalPos lambda$static$10(Entity)
-+ GlobalPos lambda$static$9(Entity)
-- float lambda$static$10(LivingEntity,int)
-- float lambda$static$9(LivingEntity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.WeightedBakedModel</summary>
-
-```diff
-+ List getQuads(RandomSource)
-+ List lambda$getQuads$0(WeightedEntry$Wrapper)
-- List getQuads(Random)
-- List lambda$getQuads$0(WeightedEntry$Wrapper)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
-
-```diff
-+ RandomSource random
-+ void <init>(RandomSource)
-+ void <init>(RandomSource)
-- void <init>(SoundSource)
-- void <init>(SoundSource)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.BiomeAmbientSoundsHandler</summary>
-
-```diff
-+ RandomSource random
-- Random random
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.EntityBoundSoundInstance</summary>
-
-```diff
-+ void <init>(Entity,long)
-- void <init>(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.SimpleSoundInstance</summary>
-
-```diff
-+ SimpleSoundInstance forAmbientMood(RandomSource,double,double,double)
-+ void <init>(BlockPos)
-+ void <init>(RandomSource,double,double,double)
-+ void <init>(SoundInstance$Attenuation,double,double,double,boolean)
-+ void <init>(SoundInstance$Attenuation,double,double,double)
-- SimpleSoundInstance forAmbientMood(SoundEvent,double,double,double)
-- void <init>(BlockPos)
-- void <init>(SoundInstance$Attenuation,double,double,double,boolean)
-- void <init>(SoundInstance$Attenuation,double,double,double)
-- void <init>(SoundSource,float,float,double,double,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.SoundEventRegistrationSerializer</summary>
-
-```diff
-+ FloatProvider DEFAULT_FLOAT
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.WeighedSoundEvents</summary>
-
-```diff
-+ RandomSource random
-- Random random
-+ Object getSound(RandomSource)
-+ Sound getSound(RandomSource)
-- Object getSound()
-- Sound getSound()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos$1</summary>
-
-```diff
-+ RandomSource val$random
-- Random val$random
-+ void <init>(RandomSource,int,int,int,int,int)
-- void <init>(Random,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
-
-```diff
-+ Collection allShuffled(RandomSource)
-+ Direction getRandom(RandomSource)
-- Collection allShuffled(Random)
-- Direction getRandom(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction$Axis</summary>
-
-```diff
-+ Direction$Axis getRandom(RandomSource)
-- Direction$Axis getRandom(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.HolderSet</summary>
-
-```diff
-+ Optional getRandomElement(net.minecraft.util.RandomSource)
-- Optional getRandomElement(java.util.Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.HolderSet$ListBacked</summary>
-
-```diff
-+ Optional getRandomElement(RandomSource)
-- Optional getRandomElement(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ Optional getRandom(RandomSource)
-- Optional getRandom(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
-
-```diff
-+ void lambda$addCatVariants$0(Map$Entry)
-- void lambda$addCatVariants$0(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.ItemModelGenerators</summary>
-
-```diff
-+ void generateClockItem(Item)
-+ void generateCompassItem(Item)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCustomSoundPacket</summary>
-
-```diff
-+ long seed
-+ long getSeed()
-+ void <init>(Vec3,float,float,long)
-- void <init>(Vec3,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSoundEntityPacket</summary>
-
-```diff
-+ long seed
-+ long getSeed()
-+ void <init>(Entity,float,float,long)
-- void <init>(Entity,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.FallbackResourceManager$PackEntry</summary>
-
-```diff
-- boolean hasResource(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.resources.MultiPackResourceManager</summary>
-
-```diff
-+ Optional getResource(ResourceLocation)
-- boolean hasResource(ResourceLocation)
-- Resource getResource(ResourceLocation)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
-
-```diff
-+ Optional getResource(ResourceLocation)
-- boolean hasResource(ResourceLocation)
-- Resource getResource(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.resources.ResourceProvider</summary>
-
-```diff
-+ Optional getResource(net.minecraft.resources.ResourceLocation)
-- Resource getResource(net.minecraft.resources.ResourceLocation)
-+ BufferedReader openAsReader(ResourceLocation)
-+ FileNotFoundException lambda$getResourceOrThrow$0(ResourceLocation)
-+ InputStream open(ResourceLocation)
-+ Resource getResourceOrThrow(ResourceLocation)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-+ TagKey FROG_FOOD
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey COMPASSES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ RandomSource RANDOM
-- Random RANDOM
-+ double nextDouble(RandomSource,double,double)
-+ float nextFloat(RandomSource,float,float)
-+ float normal(RandomSource,float,float)
-+ float randomBetween(RandomSource,float,float)
-+ int getRandomForDistributionIntegral(RandomSource,double[])
-+ int nextInt(RandomSource,int,int)
-+ int randomBetweenInclusive(RandomSource,int,int)
-+ UUID createInsecureUUID(RandomSource)
-- double nextDouble(Random,double,double)
-- float nextFloat(Random,float,float)
-- float normal(Random,float,float)
-- float randomBetween(Random,float,float)
-- int getRandomForDistributionIntegral(Random,double[])
-- int nextInt(Random,int,int)
-- int randomBetweenInclusive(Random,int,int)
-- UUID createInsecureUUID(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Dolphin</summary>
-
-```diff
-+ RandomSource access$000(Dolphin)
-+ RandomSource access$100(Dolphin)
-+ RandomSource access$200(Dolphin)
-- Random access$000(Dolphin)
-- Random access$100(Dolphin)
-- Random access$200(Dolphin)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue</summary>
-
-```diff
-- ItemStack getLootItem(Entity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
-
-```diff
-+ boolean checkGoatSpawnRules(RandomSource)
-- boolean checkGoatSpawnRules(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ void recreateFromPacket(ClientboundAddEntityPacket)
-- void recreateFromPacket(ClientboundAddMobPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ float getVisualRotationYInDegrees()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ float getVisualRotationYInDegrees()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Endermite</summary>
-
-```diff
-+ boolean checkEndermiteSpawnRules(RandomSource)
-- boolean checkEndermiteSpawnRules(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Evoker</summary>
-
-```diff
-+ RandomSource access$000(Evoker)
-+ RandomSource access$100(Evoker)
-+ RandomSource access$200(Evoker)
-+ RandomSource access$300(Evoker)
-+ RandomSource access$400(Evoker)
-- Random access$000(Evoker)
-- Random access$100(Evoker)
-- Random access$200(Evoker)
-- Random access$300(Evoker)
-- Random access$400(Evoker)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Monster</summary>
-
-```diff
-+ boolean checkAnyLightMonsterSpawnRules(RandomSource)
-+ boolean checkMonsterSpawnRules(RandomSource)
-+ boolean isDarkEnoughToSpawn(RandomSource)
-- boolean checkAnyLightMonsterSpawnRules(Random)
-- boolean checkMonsterSpawnRules(Random)
-- boolean isDarkEnoughToSpawn(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
-
-```diff
-+ boolean checkSilverfishSpawnRules(RandomSource)
-- boolean checkSilverfishSpawnRules(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-+ boolean checkSlimeSpawnRules(RandomSource)
-- boolean checkSlimeSpawnRules(Random)
-- ResourceLocation getDefaultLootTable()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Spider$SpiderEffectsGroupData</summary>
-
-```diff
-+ void setRandomEffect(RandomSource)
-- void setRandomEffect(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Stray</summary>
-
-```diff
-+ boolean checkStraySpawnRules(RandomSource)
-- boolean checkStraySpawnRules(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
-
-```diff
-+ RandomSource access$000(Vex)
-+ RandomSource access$300(Vex)
-+ RandomSource access$400(Vex)
-+ RandomSource access$500(Vex)
-+ RandomSource access$600(Vex)
-- Random access$000(Vex)
-- Random access$300(Vex)
-- Random access$400(Vex)
-- Random access$500(Vex)
-- Random access$600(Vex)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ boolean getSpawnAsBabyOdds(RandomSource)
-+ RandomSource access$000(Zombie)
-- boolean getSpawnAsBabyOdds(Random)
-- Random access$000(Zombie)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-+ boolean checkZombifiedPiglinSpawnRules(RandomSource)
-- boolean checkZombifiedPiglinSpawnRules(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.AngerManagement</summary>
-
-```diff
-+ Codec SUSPECT_ANGER_PAIR
-+ int CONVERSION_DELAY
-+ int conversionDelay
-+ Object2IntMap angerByUuid
-+ SortedSet suspects
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean lambda$getActiveEntity$6(Entity)
-+ Entity getTopSuspect()
-+ int increaseAnger(Entity,int)
-+ Integer lambda$increaseAnger$5(Integer)
-+ List createUuidAngerPairs()
-+ LivingEntity lambda$getActiveEntity$7(Entity)
-+ Optional getActiveEntity()
-+ Pair lambda$createUuidAngerPairs$3(Entity)
-+ Pair lambda$createUuidAngerPairs$4(Object2IntMap$Entry)
-+ void <init>(List)
-+ void convertFromUuids(ServerLevel)
-+ void lambda$new$2(Pair)
-+ void tick(Predicate)
-- boolean lambda$getActiveEntity$3(Entity)
-- int addAnger(Entity,int)
-- Integer lambda$addAnger$2(Integer)
-- LivingEntity lambda$getActiveEntity$4(Entity)
-- Map lambda$static$0(AngerManagement)
-- Optional getActiveEntity(Level)
-- Optional getTopEntry()
-- void <init>(Map)
-- void tick()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-+ int heartAnimation
-+ int heartAnimationO
-+ int tendrilAnimation
-+ int tendrilAnimationO
-- float earAnimation
-- float earAnimationO
-- float heartAnimation
-- float heartAnimationO
-- int ANGER_DECAY_SOUND_TRESHOLD
-- VibrationListener vibrationListener
-+ boolean isDiggingOrEmerging()
-+ boolean isPushable()
-+ EntityDimensions getDimensions(Pose)
-+ Packet getAddEntityPacket()
-+ void doPush(Entity)
-+ void increaseAngerAt(Entity,int,boolean)
-+ void recreateFromPacket(ClientboundAddEntityPacket)
-- boolean isPushedByFluid()
-- double getFluidJumpThreshold()
-- float getWaterSlowDown()
-- SoundSource getSoundSource()
-- void increaseAngerAt(Entity,int)
-- void jumpInLiquid(TagKey)
-- void onDecayedAnger(int,int)
-- void playerTouch(Player)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
-
-```diff
-- boolean isValidAttackTarget(LivingEntity)
-- boolean lambda$isValidAttackTarget$4(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.warden.WardenSpawnTracker</summary>
-
-```diff
-+ double PLAYER_SEARCH_RADIUS
-+ int MAX_WARNING_LEVEL
-- int DARKNESS_RADIUS
-- int WARDEN_SPAWN_ATTEMPTS
-- int WARDEN_SPAWN_RANGE_XZ
-- int WARDEN_SPAWN_RANGE_Y
-- int WARNING_SOUND_RADIUS
-- int WARNINGS_UNTIL_SPAWN
-- Int2ObjectMap SOUND_BY_LEVEL
-+ boolean canWarn(BlockPos)
-+ boolean lambda$getNearbyPlayers$7(ServerPlayer)
-+ boolean warn(BlockPos)
-+ int lambda$warn$4(WardenSpawnTracker)
-+ void lambda$warn$5(ServerPlayer)
-+ void lambda$warn$6(WardenSpawnTracker)
-- boolean canPrepareWarningEvent(BlockPos)
-- boolean lambda$getNearbyPlayers$8(ServerPlayer)
-- boolean prepareWarningEvent(BlockPos)
-- int lambda$prepareWarningEvent$5(WardenSpawnTracker)
-- void lambda$prepareWarningEvent$6(ServerPlayer)
-- void lambda$prepareWarningEvent$7(WardenSpawnTracker)
-- void lambda$static$4(Int2ObjectOpenHashMap)
-- void lambda$summonWarden$9(Warden)
-- void playWarningSound(BlockPos,int)
-- void summonWarden(BlockPos)
-- void triggerWarningEvent(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$DyedArmorForEmeralds</summary>
-
-```diff
-+ DyeItem getRandomDye(RandomSource)
-+ MerchantOffer getOffer(RandomSource)
-- DyeItem getRandomDye(Random)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem</summary>
-
-```diff
-+ MerchantOffer getOffer(RandomSource)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$EnchantedItemForEmeralds</summary>
-
-```diff
-+ MerchantOffer getOffer(RandomSource)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems</summary>
-
-```diff
-+ MerchantOffer getOffer(RandomSource)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald</summary>
-
-```diff
-+ MerchantOffer getOffer(RandomSource)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds</summary>
-
-```diff
-+ MerchantOffer getOffer(RandomSource)
-- MerchantOffer getOffer(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
-
-```diff
-+ RandomSource random
-- Random random
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ EntityDataAccessor DATA_LAST_DEATH_LOCATION
-+ Optional getLastDeathLocation()
-+ Optional lambda$addAdditionalSaveData$4(GlobalPos)
-+ Style lambda$decorateDisplayNameComponent$8(Style)
-+ void lambda$addAdditionalSaveData$5(Tag)
-+ void lambda$hurtCurrentlyUsedShield$6(Player)
-+ void lambda$respawnEntityOnShoulder$7(Entity)
-+ void setLastDeathLocation(Optional)
-- Style lambda$decorateDisplayNameComponent$6(Style)
-- void lambda$hurtCurrentlyUsedShield$4(Player)
-- void lambda$respawnEntityOnShoulder$5(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorStandItem</summary>
-
-```diff
-+ void randomizePose(RandomSource)
-- void randomizePose(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
-
-```diff
-+ GlobalPos getLodestonePosition(CompoundTag)
-+ GlobalPos getSpawnPosition(Level)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ boolean hurt(ServerPlayer)
-- boolean hurt(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentHelper</summary>
-
-```diff
-+ int getEnchantmentCost(ItemStack)
-+ ItemStack enchantItem(ItemStack,int,boolean)
-+ List selectEnchantment(ItemStack,int,boolean)
-- int getEnchantmentCost(ItemStack)
-- ItemStack enchantItem(ItemStack,int,boolean)
-- List selectEnchantment(ItemStack,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.ThornsEnchantment</summary>
-
-```diff
-+ boolean shouldHit(RandomSource)
-+ int getDamage(RandomSource)
-- boolean shouldHit(Random)
-- int getDamage(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-+ RandomSource random
-- Random random
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Explosion</summary>
-
-```diff
-+ RandomSource random
-- Random random
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.AmbientParticleSettings</summary>
-
-```diff
-+ boolean canSpawn(RandomSource)
-- boolean canSpawn(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ Pair findBiomeHorizontal(Climate$Sampler)
-+ Pair findBiomeHorizontal(Climate$Sampler)
-- Pair findBiomeHorizontal(Climate$Sampler)
-- Pair findBiomeHorizontal(Climate$Sampler)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ Pair findBiomeHorizontal(Climate$Sampler)
-- Pair findBiomeHorizontal(Climate$Sampler)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
-
-```diff
-+ void addParticlesAndSound(RandomSource)
-+ void animateTick(RandomSource)
-+ void lambda$animateTick$0(Vec3)
-- void addParticlesAndSound(Random)
-- void animateTick(Random)
-- void lambda$animateTick$0(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-+ void randomTick(RandomSource)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BeetrootBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BigDripleafStemBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-+ void tick(RandomSource)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BlastFurnaceBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.BonemealableBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(net.minecraft.world.level.Level,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-+ void performBonemeal(net.minecraft.server.level.ServerLevel,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-- boolean isBonemealSuccess(net.minecraft.world.level.Level,java.util.Random,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-- void performBonemeal(net.minecraft.server.level.ServerLevel,java.util.Random,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-+ void tick(RandomSource)
-- void animateTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BuddingAmethystBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CactusBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void randomTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CaveVinesPlantBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.ChestBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
-
-```diff
-+ void generatePlant(RandomSource,int)
-+ void growTreeRecursive(BlockPos,int,int)
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void generatePlant(Random,int)
-- void growTreeRecursive(BlockPos,int,int)
-- void randomTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-+ void randomTick(RandomSource)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CommandBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.CoralBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CoralPlantBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.CryingObsidianBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EndGatewayBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-+ void tick(RandomSource)
-- void animateTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.FarmBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void randomTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FireBlock</summary>
-
-```diff
-+ int getFireTickDelay(RandomSource)
-+ void checkBurnOut(RandomSource,int)
-+ void tick(RandomSource)
-- int getFireTickDelay(Random)
-- void checkBurnOut(Random,int)
-- void tick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FrogspawnBlock</summary>
-
-```diff
-+ int getFrogspawnHatchDelay(RandomSource)
-+ void hatchFrogspawn(RandomSource)
-+ void spawnTadpoles(RandomSource)
-+ void tick(RandomSource)
-- int getFrogspawnHatchDelay(Random)
-- void hatchFrogspawn(Random)
-- void spawnTadpoles(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FungusBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.GrassBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
-
-```diff
-+ int getBlocksToGrowWhenBonemealed(net.minecraft.util.RandomSource)
-- int getBlocksToGrowWhenBonemealed(java.util.Random)
-+ BlockState getGrowIntoState(RandomSource)
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-+ void randomTick(RandomSource)
-- BlockState getGrowIntoState(Random)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-- void randomTick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void animateTick(Random)
-- void randomTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.MangroveLeavesBlock</summary>
-
-```diff
-- int GROWTH_CHANCE
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- boolean isRandomlyTicking(BlockState)
-- boolean isTooCloseToAnotherPropagule(BlockPos)
-- void performBonemeal(BlockState)
-- void randomTick(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.MossBlock</summary>
-
-```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.MushroomBlock</summary>
-
-```diff
-+ boolean growMushroom(RandomSource)
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-+ void randomTick(RandomSource)
-- boolean growMushroom(Random)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
-
-```diff
-+ void animateTick(RandomSource)
-+ void randomTick(RandomSource)
-- void animateTick(Random)
-- void randomTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.NetherWartBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.ObserverBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
-
-```diff
-+ float LAVA_TRANSFER_PROBABILITY_PER_RANDOM_TICK
-+ float WATER_TRANSFER_PROBABILITY_PER_RANDOM_TICK
-- float LAVA_CAULDRON_FILL_PROBABILITY_PER_RANDOM_TICK
-- float WATER_CAULDRON_FILL_PROBABILITY_PER_RANDOM_TICK
-+ boolean lambda$animateTick$0(PointedDripstoneBlock$FluidInfo)
-+ Fluid getCauldronFillFluidType(BlockPos)
-+ Fluid lambda$getCauldronFillFluidType$10(PointedDripstoneBlock$FluidInfo)
-+ PointedDripstoneBlock$FluidInfo lambda$getFluidAboveStalactite$11(BlockPos)
-+ void animateTick(RandomSource)
-+ void growStalactiteOrStalagmiteIfPossible(RandomSource)
-+ void lambda$animateTick$1(PointedDripstoneBlock$FluidInfo)
-+ void lambda$spawnDripParticle$2(PointedDripstoneBlock$FluidInfo)
-+ void maybeTransferFluid(BlockPos,float)
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- boolean lambda$animateTick$0(Fluid)
-- Fluid getCauldronFillFluidType(BlockPos)
-- Fluid lambda$getFluidAboveStalactite$10(BlockPos)
-- void animateTick(Random)
-- void growStalactiteOrStalagmiteIfPossible(Random)
-- void lambda$animateTick$1(Fluid)
-- void lambda$spawnDripParticle$2(Fluid)
-- void maybeFillCauldron(BlockPos,float)
-- void randomTick(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.grower.OakTreeGrower</summary>
-
-```diff
-+ Holder getConfiguredFeature(RandomSource,boolean)
-- Holder getConfiguredFeature(Random,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.LevelCallback</summary>
-
-```diff
-+ void onSectionChange(java.lang.Object)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.DynamicGameEventListener</summary>
-
-```diff
-+ GameEventListener getListener()
-+ void lambda$move$3(GameEventDispatcher)
-+ void lambda$move$4(GameEventDispatcher)
-+ void lambda$move$5(SectionPos)
-+ void lambda$remove$2(GameEventDispatcher)
-+ void lambda$updateListener$0(GameEventDispatcher)
-+ void lambda$updateListener$1(GameEventDispatcher)
-+ void updateListener(Level)
-- void lambda$move$1(GameEventDispatcher)
-- void lambda$move$2(GameEventDispatcher)
-- void lambda$move$3(SectionPos)
-- void lambda$remove$0(GameEventDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory</summary>
-
-```diff
-+ RandomSource at(int,int,int)
-+ RandomSource fromHashOf(String)
-- RandomSource at(int,int,int)
-- RandomSource fromHashOf(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
-
-```diff
-+ RandomSource randomSource
-- RandomSource randomSource
-+ RandomSource fork()
-+ RandomSource seedSlimeChunk(int,int,long,long)
-+ void <init>(RandomSource)
-- Random seedSlimeChunk(int,int,long,long)
-- RandomSource fork()
-- void <init>(RandomSource)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory</summary>
-
-```diff
-+ RandomSource at(int,int,int)
-+ RandomSource fromHashOf(String)
-- RandomSource at(int,int,int)
-- RandomSource fromHashOf(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
-
-```diff
-+ boolean carve(CarvingMask)
-+ boolean carve(CarvingMask)
-+ boolean isStartChunk(RandomSource)
-+ boolean isStartChunk(RandomSource)
-+ double updateVerticalRadius(RandomSource,double,float,float)
-+ float[] initWidthFactors(RandomSource)
-- boolean carve(CarvingMask)
-- boolean carve(CarvingMask)
-- boolean isStartChunk(Random)
-- boolean isStartChunk(Random)
-- double updateVerticalRadius(Random,double,float,float)
-- float[] initWidthFactors(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
-
-```diff
-+ boolean carve(CarvingMask)
-+ boolean isStartChunk(RandomSource)
-- boolean carve(CarvingMask)
-- boolean isStartChunk(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-+ boolean carve(net.minecraft.world.level.levelgen.carver.CarvingContext,net.minecraft.world.level.levelgen.carver.CarverConfiguration,net.minecraft.world.level.chunk.ChunkAccess,java.util.function.Function,net.minecraft.util.RandomSource,net.minecraft.world.level.levelgen.Aquifer,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.chunk.CarvingMask)
-+ boolean isStartChunk(net.minecraft.world.level.levelgen.carver.CarverConfiguration,net.minecraft.util.RandomSource)
-- boolean carve(net.minecraft.world.level.levelgen.carver.CarvingContext,net.minecraft.world.level.levelgen.carver.CarverConfiguration,net.minecraft.world.level.chunk.ChunkAccess,java.util.function.Function,java.util.Random,net.minecraft.world.level.levelgen.Aquifer,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.chunk.CarvingMask)
-- boolean isStartChunk(net.minecraft.world.level.levelgen.carver.CarverConfiguration,java.util.Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
-
-```diff
-+ boolean placeHangOff(BlockPos)
-+ void placeBaseHangOff(BlockPos)
-- boolean placeHangOff(BlockPos)
-- void placeBaseHangOff(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
-
-```diff
-+ boolean mayPlaceOn(RandomSource)
-+ void tryPlaceBlock(BlockPileConfiguration)
-- boolean mayPlaceOn(Random)
-- void tryPlaceBlock(BlockPileConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
-
-```diff
-+ boolean place(BlockPos)
-- boolean place(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
-
-```diff
-+ boolean placeFeature(net.minecraft.world.level.LevelAccessor,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-- boolean placeFeature(net.minecraft.world.level.LevelAccessor,java.util.Random,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-+ boolean placeCoralBlock(BlockState)
-+ Optional lambda$place$0(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$1(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$3(HolderSet$Named)
-- boolean placeCoralBlock(BlockState)
-- Optional lambda$place$0(HolderSet$Named)
-- Optional lambda$placeCoralBlock$1(HolderSet$Named)
-- Optional lambda$placeCoralBlock$3(HolderSet$Named)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralTreeFeature</summary>
-
-```diff
-+ boolean placeFeature(BlockState)
-- boolean placeFeature(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DripstoneClusterFeature</summary>
-
-```diff
-+ float randomBetweenBiased(RandomSource,float,float,float,float)
-+ int getDripstoneHeight(DripstoneClusterConfiguration)
-+ void placeColumn(DripstoneClusterConfiguration)
-- float randomBetweenBiased(Random,float,float,float,float)
-- int getDripstoneHeight(DripstoneClusterConfiguration)
-- void placeColumn(DripstoneClusterConfiguration)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FeaturePlaceContext</summary>
-
-```diff
-+ RandomSource random
-- Random random
-+ RandomSource random()
-+ void <init>(FeatureConfiguration)
-- Random random()
-- void <init>(FeatureConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeBrownMushroomFeature</summary>
-
-```diff
-+ void makeCap(HugeMushroomFeatureConfiguration)
-- void makeCap(HugeMushroomFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusFeature</summary>
-
-```diff
-+ void placeHat(BlockPos,int,boolean)
-+ void placeHatBlock(BlockPos$MutableBlockPos,float,float,float)
-+ void placeHatDropBlock(BlockState,boolean)
-+ void placeStem(BlockPos,int,boolean)
-+ void tryPlaceWeepingVines(RandomSource)
-- void placeHat(BlockPos,int,boolean)
-- void placeHatBlock(BlockPos$MutableBlockPos,float,float,float)
-- void placeHatDropBlock(BlockState,boolean)
-- void placeStem(BlockPos,int,boolean)
-- void tryPlaceWeepingVines(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
-
-```diff
-+ double signedDistanceCircle(RandomSource)
-+ int heightDependentRadiusRound(RandomSource,int,int,int)
-+ int heightDependentRadiusSteep(RandomSource,int,int,int)
-+ void generateCutOut(BlockPos,boolean,int,double,int)
-+ void generateIcebergBlock(BlockState)
-+ void setIcebergBlock(BlockState)
-- double signedDistanceCircle(Random)
-- int heightDependentRadiusRound(Random,int,int,int)
-- int heightDependentRadiusSteep(Random,int,int,int)
-- void generateCutOut(BlockPos,boolean,int,double,int)
-- void generateIcebergBlock(BlockState)
-- void setIcebergBlock(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
-
-```diff
-+ LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider)
-- LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
-
-```diff
-+ void <init>(FloatProvider)
-- void <init>(FloatProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MultifaceGrowthFeature</summary>
-
-```diff
-+ boolean placeGrowthIfPossible(List)
-+ List getShuffledDirections(RandomSource)
-+ List getShuffledDirectionsExcept(Direction)
-- boolean placeGrowthIfPossible(List)
-- List getShuffledDirections(Random)
-- List getShuffledDirectionsExcept(Direction)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PointedDripstoneFeature</summary>
-
-```diff
-+ Optional getTipDirection(RandomSource)
-+ void createPatchOfDripstoneBlocks(PointedDripstoneConfiguration)
-- Optional getTipDirection(Random)
-- void createPatchOfDripstoneBlocks(PointedDripstoneConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RootSystemFeature</summary>
-
-```diff
-+ boolean placeDirtAndTree(BlockPos)
-+ void placeDirt(RandomSource)
-+ void placeRootedDirt(BlockPos$MutableBlockPos)
-+ void placeRoots(BlockPos$MutableBlockPos)
-- boolean placeDirtAndTree(BlockPos)
-- void placeDirt(Random)
-- void placeRootedDirt(BlockPos$MutableBlockPos)
-- void placeRoots(BlockPos$MutableBlockPos)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature</summary>
-
-```diff
-+ void placeSpike(SpikeFeature$EndSpike)
-- void placeSpike(SpikeFeature$EndSpike)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider</summary>
-
-```diff
-+ BlockState getState(net.minecraft.util.RandomSource,net.minecraft.core.BlockPos)
-- BlockState getState(java.util.Random,net.minecraft.core.BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.DualNoiseProvider</summary>
-
-```diff
-+ BlockState getState(BlockPos)
-- BlockState getState(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.NoiseProvider</summary>
-
-```diff
-+ BlockState getState(BlockPos)
-- BlockState getState(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider</summary>
-
-```diff
-+ BlockState getState(BlockPos)
-- BlockState getState(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider</summary>
-
-```diff
-+ BlockState getState(BlockPos)
-- BlockState getState(BlockPos)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight</summary>
-
-```diff
-+ int sample(WorldGenerationContext)
-- int sample(WorldGenerationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.HeightProvider</summary>
-
-```diff
-+ int sample(net.minecraft.util.RandomSource,net.minecraft.world.level.levelgen.WorldGenerationContext)
-- int sample(java.util.Random,net.minecraft.world.level.levelgen.WorldGenerationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.TrapezoidHeight</summary>
-
-```diff
-+ int sample(WorldGenerationContext)
-- int sample(WorldGenerationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.VeryBiasedToBottomHeight</summary>
-
-```diff
-+ int sample(WorldGenerationContext)
-- int sample(WorldGenerationContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.BlockPredicateFilter</summary>
-
-```diff
-+ boolean shouldPlace(BlockPos)
-- boolean shouldPlace(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountPlacement</summary>
-
-```diff
-+ int count(BlockPos)
-- int count(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.HeightRangePlacement</summary>
-
-```diff
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.InSquarePlacement</summary>
-
-```diff
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement</summary>
-
-```diff
-+ int count(BlockPos)
-- int count(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.PlacementFilter</summary>
-
-```diff
-+ boolean shouldPlace(net.minecraft.world.level.levelgen.placement.PlacementContext,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos)
-- boolean shouldPlace(net.minecraft.world.level.levelgen.placement.PlacementContext,java.util.Random,net.minecraft.core.BlockPos)
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.RarityFilter</summary>
-
-```diff
-+ boolean shouldPlace(BlockPos)
-- boolean shouldPlace(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.SurfaceRelativeThresholdFilter</summary>
-
-```diff
-+ boolean shouldPlace(BlockPos)
-- boolean shouldPlace(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PostPlacementProcessor</summary>
-
-```diff
-+ void afterPlace(net.minecraft.world.level.WorldGenLevel,net.minecraft.world.level.StructureManager,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.util.RandomSource,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer)
-- void afterPlace(net.minecraft.world.level.WorldGenLevel,net.minecraft.world.level.StructureManager,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer)
-+ void lambda$static$0(PiecesContainer)
-- void lambda$static$0(PiecesContainer)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.Structure</summary>
-
-```diff
-+ void afterPlace(PiecesContainer)
-- void afterPlace(PiecesContainer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
-
-```diff
-+ boolean place(RandomSource,boolean)
-+ List getShuffledJigsawBlocks(RandomSource)
-- boolean place(Random,boolean)
-- List getShuffledJigsawBlocks(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
-
-```diff
-+ void addPieces(RandomState)
-- void addPieces(RandomState)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
-
-```diff
-+ boolean place(RandomSource,boolean)
-+ List getShuffledJigsawBlocks(RandomSource)
-- boolean place(Random,boolean)
-- List getShuffledJigsawBlocks(Random)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$1</summary>
-
-```diff
-+ boolean generate(RandomSource)
-- boolean generate(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$3</summary>
-
-```diff
-+ boolean generate(RandomSource)
-- boolean generate(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$EndCityPiece</summary>
-
-```diff
-+ void handleDataMarker(BoundingBox)
-- void handleDataMarker(BoundingBox)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.IglooPieces$IglooPiece</summary>
-
-```diff
-+ void handleDataMarker(BoundingBox)
-+ void postProcess(BlockPos)
-- void handleDataMarker(BoundingBox)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.JungleTemplePiece</summary>
-
-```diff
-+ void <init>(RandomSource,int,int)
-+ void postProcess(BlockPos)
-- void <init>(Random,int,int)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCrossing</summary>
-
-```diff
-+ BoundingBox findCrossing(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- BoundingBox findCrossing(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftRoom</summary>
-
-```diff
-+ void <init>(MineshaftStructure$Type)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void <init>(MineshaftStructure$Type)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces</summary>
-
-```diff
-+ NetherFortressPieces$NetherBridgePiece findAndCreateBridgePieceFactory(Direction,int)
-- NetherFortressPieces$NetherBridgePiece findAndCreateBridgePieceFactory(Direction,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeCrossing</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeStraight</summary>
-
-```diff
-+ NetherFortressPieces$BridgeStraight createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- NetherFortressPieces$BridgeStraight createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleCorridorTBalconyPiece</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorCrossingPiece</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorPiece</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleStalkRoom</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$NetherBridgePiece</summary>
-
-```diff
-+ NetherFortressPieces$NetherBridgePiece generatePiece(Direction,int)
-+ StructurePiece generateAndAddPiece(Direction,int,boolean)
-+ StructurePiece generateChildForward(RandomSource,int,int,boolean)
-+ StructurePiece generateChildLeft(RandomSource,int,int,boolean)
-+ StructurePiece generateChildRight(RandomSource,int,int,boolean)
-- NetherFortressPieces$NetherBridgePiece generatePiece(Direction,int)
-- StructurePiece generateAndAddPiece(Direction,int,boolean)
-- StructurePiece generateChildForward(Random,int,int,boolean)
-- StructurePiece generateChildLeft(Random,int,int,boolean)
-- StructurePiece generateChildRight(Random,int,int,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$RoomCrossing</summary>
-
-```diff
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$StartPiece</summary>
-
-```diff
-+ void <init>(RandomSource,int,int)
-- void <init>(Random,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFossilPieces</summary>
-
-```diff
-+ void addPieces(BlockPos)
-- void addPieces(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXYRoom</summary>
-
-```diff
-+ OceanMonumentPieces$OceanMonumentPiece create(RandomSource)
-- OceanMonumentPieces$OceanMonumentPiece create(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYZRoom</summary>
-
-```diff
-+ OceanMonumentPieces$OceanMonumentPiece create(RandomSource)
-- OceanMonumentPieces$OceanMonumentPiece create(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleRoom</summary>
-
-```diff
-+ OceanMonumentPieces$OceanMonumentPiece create(RandomSource)
-- OceanMonumentPieces$OceanMonumentPiece create(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentBuilding</summary>
-
-```diff
-+ List generateRoomGraph(RandomSource)
-+ void <init>(Direction)
-+ void generateEntranceArchs(BoundingBox)
-+ void generateEntranceWall(BoundingBox)
-+ void generateLowerWall(BoundingBox)
-+ void generateMiddleWall(BoundingBox)
-+ void generateRoofPiece(BoundingBox)
-+ void generateUpperWall(BoundingBox)
-+ void generateWing(BoundingBox)
-+ void postProcess(BlockPos)
-- List generateRoomGraph(Random)
-- void <init>(Direction)
-- void generateEntranceArchs(BoundingBox)
-- void generateEntranceWall(BoundingBox)
-- void generateLowerWall(BoundingBox)
-- void generateMiddleWall(BoundingBox)
-- void generateRoofPiece(BoundingBox)
-- void generateUpperWall(BoundingBox)
-- void generateWing(BoundingBox)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentCoreRoom</summary>
-
-```diff
-+ void postProcess(BlockPos)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXYRoom</summary>
-
-```diff
-+ void postProcess(BlockPos)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYZRoom</summary>
-
-```diff
-+ void postProcess(BlockPos)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentEntryRoom</summary>
-
-```diff
-+ void postProcess(BlockPos)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleTopRoom</summary>
-
-```diff
-+ void postProcess(BlockPos)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces</summary>
-
-```diff
-+ List allPositions(BlockPos)
-+ ResourceLocation getBigWarmRuin(RandomSource)
-+ ResourceLocation getSmallWarmRuin(RandomSource)
-+ void addClusterRuins(StructurePieceAccessor)
-+ void addPiece(OceanRuinStructure,boolean,float)
-+ void addPieces(OceanRuinStructure)
-- List allPositions(BlockPos)
-- ResourceLocation getBigWarmRuin(Random)
-- ResourceLocation getSmallWarmRuin(Random)
-- void addClusterRuins(StructurePieceAccessor)
-- void addPiece(OceanRuinStructure,boolean,float)
-- void addPieces(OceanRuinStructure)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$OceanRuinPiece</summary>
-
-```diff
-+ void handleDataMarker(BoundingBox)
-+ void postProcess(BlockPos)
-- void handleDataMarker(BoundingBox)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure</summary>
-
-```diff
-+ int findSuitableY(RandomState)
-+ int getRandomWithinInterval(RandomSource,int,int)
-- int findSuitableY(RandomState)
-- int getRandomWithinInterval(Random,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.ShipwreckPieces</summary>
-
-```diff
-+ void addPieces(RandomSource,boolean)
-- void addPieces(Random,boolean)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-+ BoundingBox findPieceBox(Direction)
-+ void postProcess(BlockPos)
-- BoundingBox findPieceBox(Direction)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$LeftTurn</summary>
-
-```diff
-+ StrongholdPieces$LeftTurn createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- StrongholdPieces$LeftTurn createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ StrongholdPieces$PrisonHall createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- StrongholdPieces$PrisonHall createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-+ StrongholdPieces$RoomCrossing createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- StrongholdPieces$RoomCrossing createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ StrongholdPieces$StairsDown createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- StrongholdPieces$StairsDown createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight</summary>
-
-```diff
-+ StrongholdPieces$Straight createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(RandomSource)
-+ void postProcess(BlockPos)
-- StrongholdPieces$Straight createPiece(Direction,int)
-- void <init>(Direction)
-- void addChildren(Random)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece</summary>
-
-```diff
-+ StrongholdPieces$StrongholdPiece$SmallDoorType randomSmallDoor(RandomSource)
-+ StructurePiece generateSmallDoorChildForward(RandomSource,int,int)
-+ StructurePiece generateSmallDoorChildLeft(RandomSource,int,int)
-+ StructurePiece generateSmallDoorChildRight(RandomSource,int,int)
-+ void generateSmallDoor(StrongholdPieces$StrongholdPiece$SmallDoorType,int,int,int)
-- StrongholdPieces$StrongholdPiece$SmallDoorType randomSmallDoor(Random)
-- StructurePiece generateSmallDoorChildForward(Random,int,int)
-- StructurePiece generateSmallDoorChildLeft(Random,int,int)
-- StructurePiece generateSmallDoorChildRight(Random,int,int)
-- void generateSmallDoor(StrongholdPieces$StrongholdPiece$SmallDoorType,int,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.SwampHutPiece</summary>
-
-```diff
-+ void <init>(RandomSource,int,int)
-+ void postProcess(BlockPos)
-- void <init>(Random,int,int)
-- void postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces</summary>
-
-```diff
-+ void generateMansion(RandomSource)
-- void generateMansion(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$FloorRoomCollection</summary>
-
-```diff
-+ String get1x1(net.minecraft.util.RandomSource)
-+ String get1x1Secret(net.minecraft.util.RandomSource)
-+ String get1x2FrontEntrance(net.minecraft.util.RandomSource,boolean)
-+ String get1x2Secret(net.minecraft.util.RandomSource)
-+ String get1x2SideEntrance(net.minecraft.util.RandomSource,boolean)
-+ String get2x2(net.minecraft.util.RandomSource)
-+ String get2x2Secret(net.minecraft.util.RandomSource)
-- String get1x1(java.util.Random)
-- String get1x1Secret(java.util.Random)
-- String get1x2FrontEntrance(java.util.Random,boolean)
-- String get1x2Secret(java.util.Random)
-- String get1x2SideEntrance(java.util.Random,boolean)
-- String get2x2(java.util.Random)
-- String get2x2Secret(java.util.Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionPiecePlacer</summary>
-
-```diff
-+ RandomSource random
-- Random random
-+ void <init>(RandomSource)
-- void <init>(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SecondFloorRoomCollection</summary>
-
-```diff
-+ String get1x1(RandomSource)
-+ String get1x1Secret(RandomSource)
-+ String get1x2FrontEntrance(RandomSource,boolean)
-+ String get1x2Secret(RandomSource)
-+ String get1x2SideEntrance(RandomSource,boolean)
-+ String get2x2(RandomSource)
-+ String get2x2Secret(RandomSource)
-- String get1x1(Random)
-- String get1x1Secret(Random)
-- String get1x2FrontEntrance(Random,boolean)
-- String get1x2Secret(Random)
-- String get1x2SideEntrance(Random,boolean)
-- String get2x2(Random)
-- String get2x2Secret(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure</summary>
-
-```diff
-+ void afterPlace(PiecesContainer)
-- void afterPlace(PiecesContainer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.AlwaysTrueTest</summary>
-
-```diff
-+ boolean test(RandomSource)
-- boolean test(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTest</summary>
-
-```diff
-+ boolean test(net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.util.RandomSource)
-- boolean test(net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,java.util.Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule</summary>
-
-```diff
-+ boolean test(RandomSource)
-- boolean test(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockMatchTest</summary>
-
-```diff
-+ boolean test(RandomSource)
-- boolean test(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest</summary>
-
-```diff
-+ boolean test(RandomSource)
-- boolean test(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.BlendedNoise</summary>
-
-```diff
-+ BlendedNoise withNewRandom(RandomSource)
-+ void <init>(RandomSource,double,double,double,double,double)
-- BlendedNoise withNewRandom(RandomSource)
-- void <init>(RandomSource,double,double,double,double,double)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise</summary>
-
-```diff
-+ void <init>(IntSortedSet)
-+ void <init>(List)
-- void <init>(IntSortedSet)
-- void <init>(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.FluidState</summary>
-
-```diff
-+ void animateTick(RandomSource)
-+ void randomTick(RandomSource)
-- void animateTick(Random)
-- void randomTick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootContext$Builder</summary>
-
-```diff
-+ RandomSource random
-- Random random
-+ LootContext$Builder withOptionalRandomSeed(RandomSource)
-+ LootContext$Builder withRandom(RandomSource)
-- LootContext$Builder withOptionalRandomSeed(Random)
-- LootContext$Builder withRandom(Random)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
-
-```diff
-+ List getAvailableSlots(RandomSource)
-+ void shuffleAndSplitItems(RandomSource)
-- List getAvailableSlots(Random)
-- void shuffleAndSplitItems(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Formula</summary>
-
-```diff
-+ int calculateNewCount(net.minecraft.util.RandomSource,int,int)
-- int calculateNewCount(java.util.Random,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$OreDrops</summary>
-
-```diff
-+ int calculateNewCount(RandomSource,int,int)
-- int calculateNewCount(Random,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount</summary>
-
-```diff
-+ int calculateNewCount(RandomSource,int,int)
-- int calculateNewCount(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.Vec3</summary>
-
-```diff
-+ Vec3 relative(Direction,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.EntitySubPredicate
@@ -7474,2002 +3080,2485 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriteriaTriggers</summary>
+<details><summary>com.mojang.blaze3d.shaders.Program</summary>
 
 ```diff
-+ ItemInteractWithBlockTrigger ALLAY_DROP_ITEM_ON_BLOCK
-+ ItemInteractWithBlockTrigger ITEM_USED_ON_BLOCK
-+ PlayerTrigger BAD_OMEN
-+ PlayerTrigger ITEM_DELIVERED_TO_PLAYER
-+ PlayerTrigger LOCATION
-+ PlayerTrigger RAID_WIN
-+ PlayerTrigger SLEPT_IN_BED
-+ PlayerTrigger TICK
-- ItemUsedOnBlockTrigger ITEM_USED_ON_BLOCK
-- LocationTrigger BAD_OMEN
-- LocationTrigger LOCATION
-- LocationTrigger RAID_WIN
-- LocationTrigger SLEPT_IN_BED
-- TickTrigger TICK
+- Program createProgram(Program$Type,String,int)
+- void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
+<details><summary>net.minecraft.Util</summary>
 
 ```diff
-+ EntitySubPredicate subPredicate
-- FishingHookPredicate fishingHook
-- LighthingBoltPredicate lighthingBolt
-- PlayerPredicate player
-- ResourceLocation catType
-+ void <init>(String)
-+ void <init>(String)
-- void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
+- int getRandom(int[],Random)
++ int getRandom(int[],RandomSource)
++ List shuffledCopy(List,RandomSource)
+- Object getRandom(List,Random)
++ Object getRandom(List,RandomSource)
+- Object getRandom(Object[],Random)
++ Object getRandom(Object[],RandomSource)
+- Optional getRandomSafe(List,Random)
++ Optional getRandomSafe(List,RandomSource)
++ void shuffle(List,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LighthingBoltPredicate</summary>
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
 
 ```diff
-- LighthingBoltPredicate ANY
+- EntityPredicate$Builder catType(ResourceLocation)
+- EntityPredicate$Builder fishingHook(FishingHookPredicate)
+- EntityPredicate$Builder lighthingBolt(LighthingBoltPredicate)
+- EntityPredicate$Builder of(ResourceLocation)
+- EntityPredicate$Builder player(PlayerPredicate)
++ EntityPredicate$Builder subPredicate(EntitySubPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FishingHookPredicate</summary>
+
+```diff
++ boolean matches(Entity,ServerLevel,Vec3)
+- boolean matches(Entity)
 + EntitySubPredicate$Type type()
-+ JsonObject serializeCustomData()
-+ LighthingBoltPredicate fromJson(JsonObject)
+- FishingHookPredicate fromJson(JsonElement)
++ FishingHookPredicate fromJson(JsonObject)
 - JsonElement serializeToJson()
-- LighthingBoltPredicate fromJson(JsonElement)
++ JsonObject serializeCustomData()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerPredicate</summary>
+
+```diff
++ boolean matches(Entity,ServerLevel,Vec3)
+- boolean matches(Entity)
++ EntitySubPredicate$Type type()
+- JsonElement serializeToJson()
++ JsonObject serializeCustomData()
+- PlayerPredicate fromJson(JsonElement)
++ PlayerPredicate fromJson(JsonObject)
 - void <clinit>()
++ void lambda$serializeCustomData$2(JsonArray,Stat,MinMaxBounds$Ints)
++ void lambda$serializeCustomData$3(JsonObject,ResourceLocation,Boolean)
++ void lambda$serializeCustomData$4(JsonObject,ResourceLocation,PlayerPredicate$AdvancementPredicate)
+- void lambda$serializeToJson$2(JsonArray,Stat,MinMaxBounds$Ints)
+- void lambda$serializeToJson$3(JsonObject,ResourceLocation,Boolean)
+- void lambda$serializeToJson$4(JsonObject,ResourceLocation,PlayerPredicate$AdvancementPredicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+<details><summary>net.minecraft.client.renderer.item.ItemProperties</summary>
 
 ```diff
-+ void addMangroveSwampDisks(BiomeGenerationSettings$Builder)
-+ void addMangroveSwampVegetation(BiomeGenerationSettings$Builder)
+- float lambda$static$10(ItemStack,ClientLevel,LivingEntity,int)
++ float lambda$static$18(ItemStack,ClientLevel,LivingEntity,int)
++ float lambda$static$19(ItemStack,ClientLevel,LivingEntity,int)
+- float lambda$static$9(ItemStack,ClientLevel,LivingEntity,int)
++ GlobalPos lambda$static$10(ClientLevel,ItemStack,Entity)
++ GlobalPos lambda$static$9(ClientLevel,ItemStack,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
+<details><summary>net.minecraft.client.resources.model.WeightedBakedModel</summary>
 
 ```diff
-+ Biome mangroveSwamp()
+- List getQuads(BlockState,Direction,Random)
++ List getQuads(BlockState,Direction,RandomSource)
+- List lambda$getQuads$0(BlockState,Direction,Random,WeightedEntry$Wrapper)
++ List lambda$getQuads$0(BlockState,Direction,RandomSource,WeightedEntry$Wrapper)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.data.worldgen.features.MiscOverworldFeatures</summary>
+<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
 
 ```diff
-+ Holder DISK_GRASS
++ void <init>(ResourceLocation,SoundSource,RandomSource)
+- void <init>(ResourceLocation,SoundSource)
++ void <init>(SoundEvent,SoundSource,RandomSource)
+- void <init>(SoundEvent,SoundSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.worldgen.features.TreeFeatures</summary>
+<details><summary>net.minecraft.client.resources.sounds.EntityBoundSoundInstance</summary>
 
 ```diff
-+ Holder MANGROVE
-+ Holder TALL_MANGROVE
++ void <init>(SoundEvent,SoundSource,float,float,Entity,long)
+- void <init>(SoundEvent,SoundSource,float,float,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.placement.VegetationPlacements</summary>
+<details><summary>net.minecraft.client.resources.sounds.SimpleSoundInstance</summary>
 
 ```diff
-+ Holder TREES_MANGROVE
+- SimpleSoundInstance forAmbientMood(SoundEvent,double,double,double)
++ SimpleSoundInstance forAmbientMood(SoundEvent,RandomSource,double,double,double)
+- void <init>(ResourceLocation,SoundSource,float,float,boolean,int,SoundInstance$Attenuation,double,double,double,boolean)
++ void <init>(ResourceLocation,SoundSource,float,float,RandomSource,boolean,int,SoundInstance$Attenuation,double,double,double,boolean)
+- void <init>(SoundEvent,SoundSource,float,float,BlockPos)
+- void <init>(SoundEvent,SoundSource,float,float,boolean,int,SoundInstance$Attenuation,double,double,double)
+- void <init>(SoundEvent,SoundSource,float,float,double,double,double)
++ void <init>(SoundEvent,SoundSource,float,float,RandomSource,BlockPos)
++ void <init>(SoundEvent,SoundSource,float,float,RandomSource,boolean,int,SoundInstance$Attenuation,double,double,double)
++ void <init>(SoundEvent,SoundSource,float,float,RandomSource,double,double,double)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
+<details><summary>net.minecraft.client.resources.sounds.SoundEventRegistrationSerializer</summary>
 
 ```diff
-- void handleAddMob(net.minecraft.network.protocol.game.ClientboundAddMobPacket)
++ void <clinit>()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.syncher.EntityDataSerializers$1</summary>
+<details><summary>net.minecraft.client.sounds.WeighedSoundEvents</summary>
 
 ```diff
-+ ItemStack copy(ItemStack)
-+ ItemStack read(FriendlyByteBuf)
-+ void write(ItemStack)
-- Byte copy(Byte)
-- Byte read(FriendlyByteBuf)
-- void write(Byte)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.syncher.EntityDataSerializers$3</summary>
-
-```diff
-+ ParticleOptions read(FriendlyByteBuf)
-+ ParticleOptions readParticle(ParticleType)
-+ void write(ParticleOptions)
-- Float copy(Float)
-- Float read(FriendlyByteBuf)
-- Object copy(Object)
-- void write(Float)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.syncher.EntityDataSerializers$5</summary>
-
-```diff
-+ CompoundTag copy(CompoundTag)
-+ CompoundTag read(FriendlyByteBuf)
-+ void write(CompoundTag)
-- Component copy(Component)
-- Component read(FriendlyByteBuf)
-- void write(Component)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.syncher.EntityDataSerializers$7</summary>
-
-```diff
-+ OptionalInt read(FriendlyByteBuf)
-+ void write(OptionalInt)
-- ItemStack copy(ItemStack)
-- ItemStack read(FriendlyByteBuf)
-- Object copy(Object)
-- void write(ItemStack)
+- Object getSound()
++ Object getSound(RandomSource)
+- Sound getSound()
++ Sound getSound(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.core.BlockPos$1</summary>
 
 ```diff
-+ RandomSource random
-- Random random
+- void <init>(int,int,Random,int,int,int,int,int)
++ void <init>(int,int,RandomSource,int,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+<details><summary>net.minecraft.core.Direction</summary>
 
 ```diff
-+ List readLines(Resource)
-- List readLines(ResourceThunk)
+- Collection allShuffled(Random)
++ Collection allShuffled(RandomSource)
+- Direction getRandom(Random)
++ Direction getRandom(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SpreadPlayersCommand</summary>
+<details><summary>net.minecraft.core.Direction$Axis</summary>
 
 ```diff
-+ SpreadPlayersCommand$Position[] createInitialPositions(RandomSource,int,double,double,double,double)
-+ void spreadPositions(SpreadPlayersCommand$Position[],boolean)
-- SpreadPlayersCommand$Position[] createInitialPositions(Random,int,double,double,double,double)
-- void spreadPositions(SpreadPlayersCommand$Position[],boolean)
+- Direction$Axis getRandom(Random)
++ Direction$Axis getRandom(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel$EntityCallbacks</summary>
+<details><summary>net.minecraft.core.HolderSet$ListBacked</summary>
 
 ```diff
-+ void onSectionChange(Entity)
-+ void onSectionChange(Object)
+- Optional getRandomElement(Random)
++ Optional getRandomElement(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
+<details><summary>net.minecraft.core.MappedRegistry</summary>
 
 ```diff
-+ RandomSource RANDOM
-- Random RANDOM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
-
-```diff
-+ InputStream lambda$asProvider$3(ResourceLocation)
-+ Optional lambda$asProvider$4(ResourceLocation)
-+ ResourceProvider asProvider()
-- Resource getResource(ResourceLocation)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
-
-```diff
-+ Optional getResource(ResourceLocation)
-- boolean hasResource(ResourceLocation)
-- Resource getResource(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent register(String,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.SpawnUtil</summary>
-
-```diff
-+ Optional trySpawnMob(BlockPos,int,int,int)
-- Optional trySpawnMob(BlockPos,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.random.WeightedRandomList</summary>
-
-```diff
-+ Optional getRandom(RandomSource)
 - Optional getRandom(Random)
++ Optional getRandom(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.ClampedInt</summary>
+<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
 
 ```diff
-+ int sample(RandomSource)
-- int sample(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.ClampedNormalInt</summary>
-
-```diff
-+ int sample(RandomSource,float,float,float,float)
-+ int sample(RandomSource)
-- int sample(Random,float,float,float,float)
-- int sample(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.ConstantInt</summary>
-
-```diff
-+ int sample(RandomSource)
-- int sample(Random)
+- void lambda$addCatVariants$0(Advancement$Builder,Integer,ResourceLocation)
++ void lambda$addCatVariants$0(Advancement$Builder,Map$Entry)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.util.valueproviders.UniformFloat</summary>
-
-```diff
-+ float sample(RandomSource)
-- float sample(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.WeightedListInt</summary>
+<details><summary>net.minecraft.data.models.ItemModelGenerators</summary>
 
 ```diff
-+ int sample(RandomSource)
-- int sample(Random)
++ void generateClockItem(Item)
++ void generateCompassItem(Item)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.Containers</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundCustomSoundPacket</summary>
 
 ```diff
-- Random RANDOM
-- void <clinit>()
++ long getSeed()
++ void <init>(ResourceLocation,SoundSource,Vec3,float,float,long)
+- void <init>(ResourceLocation,SoundSource,Vec3,float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundSoundEntityPacket</summary>
 
 ```diff
-- Entity create(EntityType)
++ long getSeed()
++ void <init>(SoundEvent,SoundSource,Entity,float,float,long)
+- void <init>(SoundEvent,SoundSource,Entity,float,float)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.GlowSquid</summary>
+<details><summary>net.minecraft.server.packs.resources.FallbackResourceManager$PackEntry</summary>
 
 ```diff
-+ boolean checkGlowSquideSpawnRules(RandomSource)
-- boolean checkGlowSquideSpawnRules(Random)
+- boolean hasResource(PackType,ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.SpawnPlacements</summary>
+<details><summary>net.minecraft.server.packs.resources.MultiPackResourceManager</summary>
 
 ```diff
-+ boolean checkSpawnRules(RandomSource)
-- boolean checkSpawnRules(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.SpawnPlacements$SpawnPredicate</summary>
-
-```diff
-+ boolean test(net.minecraft.world.entity.EntityType,net.minecraft.world.level.ServerLevelAccessor,net.minecraft.world.entity.MobSpawnType,net.minecraft.core.BlockPos,net.minecraft.util.RandomSource)
-- boolean test(net.minecraft.world.entity.EntityType,net.minecraft.world.level.ServerLevelAccessor,net.minecraft.world.entity.MobSpawnType,net.minecraft.core.BlockPos,java.util.Random)
+- boolean hasResource(ResourceLocation)
++ Optional getResource(ResourceLocation)
+- Resource getResource(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GoAndGiveItemsToTarget</summary>
+<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
 
 ```diff
-+ void lambda$tick$1(ServerPlayer)
-+ void triggerDropItemOnBlock(ServerPlayer)
+- boolean hasResource(ResourceLocation)
++ Optional getResource(ResourceLocation)
+- Resource getResource(ResourceLocation)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.behavior.GoToTargetLocation</summary>
+<details><summary>net.minecraft.server.packs.resources.ResourceProvider</summary>
 
 ```diff
-+ int getRandomOffset(RandomSource)
-- int getRandomOffset(Random)
++ BufferedReader openAsReader(ResourceLocation)
++ FileNotFoundException lambda$getResourceOrThrow$0(ResourceLocation)
++ InputStream open(ResourceLocation)
++ Resource getResourceOrThrow(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
+<details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
-+ RandomSource random
-- Random random
+- double nextDouble(Random,double,double)
++ double nextDouble(RandomSource,double,double)
+- float nextFloat(Random,float,float)
++ float nextFloat(RandomSource,float,float)
+- float normal(Random,float,float)
++ float normal(RandomSource,float,float)
+- float randomBetween(Random,float,float)
++ float randomBetween(RandomSource,float,float)
+- int getRandomForDistributionIntegral(Random,double[])
++ int getRandomForDistributionIntegral(RandomSource,double[])
+- int nextInt(Random,int,int)
++ int nextInt(RandomSource,int,int)
+- int randomBetweenInclusive(Random,int,int)
++ int randomBetweenInclusive(RandomSource,int,int)
+- UUID createInsecureUUID(Random)
++ UUID createInsecureUUID(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer</summary>
+<details><summary>net.minecraft.world.entity.animal.Dolphin</summary>
 
 ```diff
-+ Collection selectGossipsForTransfer(RandomSource,int)
-+ void transferFrom(RandomSource,int)
-- Collection selectGossipsForTransfer(Random,int)
-- void transferFrom(Random,int)
+- Random access$000(Dolphin)
+- Random access$100(Dolphin)
+- Random access$200(Dolphin)
++ RandomSource access$000(Dolphin)
++ RandomSource access$100(Dolphin)
++ RandomSource access$200(Dolphin)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.NearestVisibleLivingEntities</summary>
+<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue</summary>
 
 ```diff
-- Optional findClosest(Predicate[])
+- ItemStack getLootItem(Frog,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestLivingEntitySensor</summary>
+<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
 
 ```diff
-+ int radiusXZ()
-+ int radiusY()
+- boolean checkGoatSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkGoatSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.WardenEntitySensor</summary>
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
 
 ```diff
-+ int radiusXZ()
-+ Optional getClosest(Predicate)
-+ Optional lambda$doTick$2(Warden)
-+ void doTick(Warden)
-+ void lambda$doTick$3(LivingEntity)
-+ void lambda$doTick$4(Warden)
-- Optional lambda$doTick$2(NearestVisibleLivingEntities)
-- void lambda$doTick$3(LivingEntity)
-- void lambda$doTick$4(LivingEntity)
++ void recreateFromPacket(ClientboundAddEntityPacket)
+- void recreateFromPacket(ClientboundAddMobPacket)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.entity.ai.util.RandomPos</summary>
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
 
 ```diff
-+ BlockPos generateRandomDirection(RandomSource,int,int)
-+ BlockPos generateRandomDirectionWithinRadians(RandomSource,int,int,int,double,double,double)
-+ BlockPos generateRandomPosTowardDirection(BlockPos)
-- BlockPos generateRandomDirection(Random,int,int)
-- BlockPos generateRandomDirectionWithinRadians(Random,int,int,int,double,double,double)
-- BlockPos generateRandomPosTowardDirection(BlockPos)
++ float getVisualRotationYInDegrees()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
 
 ```diff
-+ RandomSource access$100(Bee)
-+ RandomSource access$1900(Bee)
-+ RandomSource access$2000(Bee)
-+ RandomSource access$2200(Bee)
-+ RandomSource access$2400(Bee)
-+ RandomSource access$2500(Bee)
-+ RandomSource access$2600(Bee)
-+ RandomSource access$2700(Bee)
-+ RandomSource access$2800(Bee)
-- Random access$100(Bee)
-- Random access$1900(Bee)
-- Random access$2000(Bee)
-- Random access$2200(Bee)
-- Random access$2400(Bee)
-- Random access$2500(Bee)
-- Random access$2600(Bee)
-- Random access$2700(Bee)
-- Random access$2800(Bee)
++ float getVisualRotationYInDegrees()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
+<details><summary>net.minecraft.world.entity.monster.Endermite</summary>
 
 ```diff
-+ boolean checkMushroomSpawnRules(RandomSource)
-- boolean checkMushroomSpawnRules(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-+ boolean checkOcelotSpawnRules(RandomSource)
-- boolean checkOcelotSpawnRules(Random)
+- boolean checkEndermiteSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkEndermiteSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.animal.Panda$Gene</summary>
+<details><summary>net.minecraft.world.entity.monster.Evoker</summary>
 
 ```diff
-+ Panda$Gene getRandom(RandomSource)
-- Panda$Gene getRandom(Random)
+- Random access$000(Evoker)
+- Random access$100(Evoker)
+- Random access$200(Evoker)
+- Random access$300(Evoker)
+- Random access$400(Evoker)
++ RandomSource access$000(Evoker)
++ RandomSource access$100(Evoker)
++ RandomSource access$200(Evoker)
++ RandomSource access$300(Evoker)
++ RandomSource access$400(Evoker)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+<details><summary>net.minecraft.world.entity.monster.Monster</summary>
 
 ```diff
-+ boolean checkParrotSpawnRules(RandomSource)
-+ float getPitch(RandomSource)
-+ SoundEvent getAmbient(RandomSource)
-- boolean checkParrotSpawnRules(Random)
-- float getPitch(Random)
-- SoundEvent getAmbient(Random)
+- boolean checkAnyLightMonsterSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkAnyLightMonsterSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- boolean checkMonsterSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkMonsterSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- boolean isDarkEnoughToSpawn(ServerLevelAccessor,BlockPos,Random)
++ boolean isDarkEnoughToSpawn(ServerLevelAccessor,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.animal.PolarBear</summary>
+<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
 
 ```diff
-+ boolean checkPolarBearSpawnRules(RandomSource)
-- boolean checkPolarBearSpawnRules(Random)
+- boolean checkSilverfishSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkSilverfishSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Sheep</summary>
+<details><summary>net.minecraft.world.entity.monster.Slime</summary>
 
 ```diff
-+ DyeColor getRandomSheepColor(RandomSource)
-- DyeColor getRandomSheepColor(Random)
+- boolean checkSlimeSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkSlimeSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- ResourceLocation getDefaultLootTable()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.animal.TropicalFish</summary>
+<details><summary>net.minecraft.world.entity.monster.Spider$SpiderEffectsGroupData</summary>
 
 ```diff
-+ boolean checkTropicalFishSpawnRules(RandomSource)
-- boolean checkTropicalFishSpawnRules(Random)
+- void setRandomEffect(Random)
++ void setRandomEffect(RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
+<details><summary>net.minecraft.world.entity.monster.Stray</summary>
 
 ```diff
-+ boolean checkWolfSpawnRules(RandomSource)
-+ RandomSource access$000(Wolf)
-- boolean checkWolfSpawnRules(Random)
-- Random access$000(Wolf)
+- boolean checkStraySpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkStraySpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
 
 ```diff
-+ Optional getLikedPlayer(LivingEntity)
-+ PositionTracker lambda$getLikedPlayerPositionTracker$2(ServerPlayer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
-
-```diff
-+ boolean checkAxolotlSpawnRules(RandomSource)
-+ boolean useRareVariant(RandomSource)
-- boolean checkAxolotlSpawnRules(Random)
-- boolean useRareVariant(Random)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
-
-```diff
-+ EntityDataAccessor DATA_VARIANT_ID
-+ String VARIANT_KEY
-- EntityDataAccessor DATA_VARIANT
-+ FrogVariant getVariant()
-+ void setVariant(FrogVariant)
-- Frog$Variant getVariant()
-- void setVariant(Frog$Variant)
+- Random access$000(Vex)
+- Random access$300(Vex)
+- Random access$400(Vex)
+- Random access$500(Vex)
+- Random access$600(Vex)
++ RandomSource access$000(Vex)
++ RandomSource access$300(Vex)
++ RandomSource access$400(Vex)
++ RandomSource access$500(Vex)
++ RandomSource access$600(Vex)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RedStoneWireBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-+ void spawnParticlesAlongLine(Direction,float,float)
-- void animateTick(Random)
-- void spawnParticlesAlongLine(Direction,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.RedstoneLampBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
+- boolean getSpawnAsBabyOdds(Random)
++ boolean getSpawnAsBabyOdds(RandomSource)
+- Random access$000(Zombie)
++ RandomSource access$000(Zombie)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
+- boolean checkZombifiedPiglinSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkZombifiedPiglinSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.RootedDirtBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.AngerManagement</summary>
 
 ```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- boolean lambda$getActiveEntity$3(Entity)
++ boolean lambda$getActiveEntity$6(Entity)
++ Entity getTopSuspect()
+- int addAnger(Entity,int)
++ int increaseAnger(Entity,int)
+- Integer lambda$addAnger$2(int,UUID,Integer)
++ Integer lambda$increaseAnger$5(int,Entity,Integer)
++ List createUuidAngerPairs()
+- LivingEntity lambda$getActiveEntity$4(Entity)
++ LivingEntity lambda$getActiveEntity$7(Entity)
+- Map lambda$static$0(AngerManagement)
++ Optional getActiveEntity()
+- Optional getActiveEntity(Level)
+- Optional getTopEntry()
++ Pair lambda$createUuidAngerPairs$3(Entity)
++ Pair lambda$createUuidAngerPairs$4(Object2IntMap$Entry)
++ void <init>(List)
+- void <init>(Map)
++ void convertFromUuids(ServerLevel)
++ void lambda$new$2(Pair)
+- void tick()
++ void tick(ServerLevel,Predicate)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.Rotation</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
 
 ```diff
-+ List getShuffled(RandomSource)
-+ Rotation getRandom(RandomSource)
-- List getShuffled(Random)
-- Rotation getRandom(Random)
++ boolean isDiggingOrEmerging()
++ boolean isPushable()
+- boolean isPushedByFluid()
+- double getFluidJumpThreshold()
++ EntityDimensions getDimensions(Pose)
+- float getWaterSlowDown()
++ Packet getAddEntityPacket()
+- SoundSource getSoundSource()
++ void doPush(Entity)
++ void increaseAngerAt(Entity,int,boolean)
+- void increaseAngerAt(Entity,int)
+- void jumpInLiquid(TagKey)
+- void onDecayedAnger(int,int)
+- void playerTouch(Player)
++ void recreateFromPacket(ClientboundAddEntityPacket)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.ScaffoldingBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
 
 ```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkBehaviour$1</summary>
-
-```diff
-+ int attemptUseCharge(SculkSpreader,boolean)
-- int attemptUseCharge(SculkSpreader,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
-
-```diff
-+ void bloom(RandomSource)
-+ void tick(RandomSource)
-- void bloom(Random)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-- int SHRIEKING_TICKS
-+ void lambda$onRemove$1(SculkShriekerBlockEntity)
-+ void lambda$stepOn$0(SculkShriekerBlockEntity)
-+ void lambda$tick$2(SculkShriekerBlockEntity)
-+ void onRemove(BlockState,boolean)
-+ void tick(RandomSource)
-- boolean canShriek(BlockState)
-- Boolean lambda$canShriek$1(WardenSpawnTracker)
-- boolean lambda$shriek$2(WardenSpawnTracker)
-- Optional getWardenSpawnTracker(BlockPos)
-- void lambda$tick$0(WardenSpawnTracker)
-- void neighborChanged(BlockPos,boolean)
-- void shriek(BlockPos)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkSpreader$ChargeCursor</summary>
-
-```diff
-+ BlockPos getValidMovementPos(RandomSource)
-+ List getRandomizedNonCornerNeighbourOffsets(RandomSource)
-+ void update(SculkSpreader,boolean)
-- BlockPos getValidMovementPos(Random)
-- List getRandomizedNonCornerNeighbourOffsets(Random)
-- void update(SculkSpreader,boolean)
+- boolean isValidAttackTarget(Warden,LivingEntity)
+- boolean lambda$isValidAttackTarget$4(LivingEntity,LivingEntity)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SeagrassBlock</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.WardenSpawnTracker</summary>
 
 ```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
+- boolean canPrepareWarningEvent(ServerLevel,BlockPos)
++ boolean canWarn(ServerLevel,BlockPos)
++ boolean lambda$getNearbyPlayers$7(Vec3,ServerPlayer)
+- boolean lambda$getNearbyPlayers$8(Vec3,ServerPlayer)
+- boolean prepareWarningEvent(ServerLevel,BlockPos)
++ boolean warn(ServerLevel,BlockPos)
+- int lambda$prepareWarningEvent$5(WardenSpawnTracker)
++ int lambda$warn$4(WardenSpawnTracker)
+- void lambda$prepareWarningEvent$6(WardenSpawnTracker,ServerPlayer)
+- void lambda$prepareWarningEvent$7(List,WardenSpawnTracker)
+- void lambda$static$4(Int2ObjectOpenHashMap)
+- void lambda$summonWarden$9(ServerLevel,Warden)
++ void lambda$warn$5(WardenSpawnTracker,ServerPlayer)
++ void lambda$warn$6(List,WardenSpawnTracker)
+- void playWarningSound(ServerLevel,BlockPos,int)
+- void summonWarden(ServerLevel,BlockPos)
+- void triggerWarningEvent(ServerLevel,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$DyedArmorForEmeralds</summary>
 
 ```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
+- DyeItem getRandomDye(Random)
++ DyeItem getRandomDye(RandomSource)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem</summary>
 
 ```diff
-+ void tick(RandomSource)
-- void tick(Random)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SporeBlossomBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$EnchantedItemForEmeralds</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.StairBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void animateTick(Random)
-- void randomTick(Random)
-- void tick(Random)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.SugarCaneBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald</summary>
 
 ```diff
-+ void randomTick(RandomSource)
-+ void tick(RandomSource)
-- void randomTick(Random)
-- void tick(Random)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.TallFlowerBlock</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds</summary>
 
 ```diff
-+ boolean isBonemealSuccess(BlockState)
-+ void performBonemeal(BlockState)
-- boolean isBonemealSuccess(BlockState)
-- void performBonemeal(BlockState)
+- MerchantOffer getOffer(Entity,Random)
++ MerchantOffer getOffer(Entity,RandomSource)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.TorchBlock</summary>
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
++ Optional getLastDeathLocation()
++ Optional lambda$addAdditionalSaveData$4(GlobalPos)
+- Style lambda$decorateDisplayNameComponent$6(String,Style)
++ Style lambda$decorateDisplayNameComponent$8(String,Style)
++ void lambda$addAdditionalSaveData$5(CompoundTag,Tag)
+- void lambda$hurtCurrentlyUsedShield$4(InteractionHand,Player)
++ void lambda$hurtCurrentlyUsedShield$6(InteractionHand,Player)
+- void lambda$respawnEntityOnShoulder$5(Entity)
++ void lambda$respawnEntityOnShoulder$7(Entity)
++ void setLastDeathLocation(Optional)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.TripWireBlock</summary>
+<details><summary>net.minecraft.world.item.ArmorStandItem</summary>
 
 ```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
-
-```diff
-+ void tick(RandomSource)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
+- void randomizePose(ArmorStand,Random)
++ void randomizePose(ArmorStand,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
+<details><summary>net.minecraft.world.item.CompassItem</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
++ GlobalPos getLodestonePosition(CompoundTag)
++ GlobalPos getSpawnPosition(Level)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.WeatheringCopperFullBlock</summary>
+<details><summary>net.minecraft.world.item.ItemStack</summary>
 
 ```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WeatheringCopperStairBlock</summary>
-
-```diff
-+ void randomTick(RandomSource)
-- void randomTick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WeepingVinesBlock</summary>
-
-```diff
-+ int getBlocksToGrowWhenBonemealed(RandomSource)
-- int getBlocksToGrowWhenBonemealed(Random)
+- boolean hurt(int,Random,ServerPlayer)
++ boolean hurt(int,RandomSource,ServerPlayer)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.WitherRoseBlock</summary>
+<details><summary>net.minecraft.world.item.enchantment.EnchantmentHelper</summary>
 
 ```diff
-+ void animateTick(RandomSource)
-- void animateTick(Random)
+- int getEnchantmentCost(Random,int,int,ItemStack)
++ int getEnchantmentCost(RandomSource,int,int,ItemStack)
+- ItemStack enchantItem(Random,ItemStack,int,boolean)
++ ItemStack enchantItem(RandomSource,ItemStack,int,boolean)
+- List selectEnchantment(Random,ItemStack,int,boolean)
++ List selectEnchantment(RandomSource,ItemStack,int,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity</summary>
+<details><summary>net.minecraft.world.item.enchantment.ThornsEnchantment</summary>
 
 ```diff
-+ void setLootTable(ResourceLocation)
-- void setLootTable(ResourceLocation)
+- boolean shouldHit(int,Random)
++ boolean shouldHit(int,RandomSource)
+- int getDamage(int,Random)
++ int getDamage(int,RandomSource)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+<details><summary>net.minecraft.world.level.biome.AmbientParticleSettings</summary>
 
 ```diff
-+ RandomSource createRandom(long)
-- Random createRandom(long)
+- boolean canSpawn(Random)
++ boolean canSpawn(RandomSource)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.grower.AbstractTreeGrower</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
 
 ```diff
-+ Holder getConfiguredFeature(net.minecraft.util.RandomSource,boolean)
-- Holder getConfiguredFeature(java.util.Random,boolean)
-+ boolean growTree(RandomSource)
-- boolean growTree(Random)
+- Pair findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,int,Predicate,RandomSource,boolean,Climate$Sampler)
+- Pair findBiomeHorizontal(int,int,int,int,Predicate,Random,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,Predicate,RandomSource,Climate$Sampler)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.grower.AzaleaTreeGrower</summary>
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
 
 ```diff
-+ Holder getConfiguredFeature(RandomSource,boolean)
+- Pair findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,int,Predicate,RandomSource,boolean,Climate$Sampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
+
+```diff
+- void addParticlesAndSound(Level,Vec3,Random)
++ void addParticlesAndSound(Level,Vec3,RandomSource)
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void lambda$animateTick$0(Level,BlockPos,Random,Vec3)
++ void lambda$animateTick$0(Level,BlockPos,RandomSource,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeetrootBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BigDripleafStemBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BlastFurnaceBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BuddingAmethystBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CactusBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CaveVinesPlantBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChestBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
+
+```diff
+- void generatePlant(LevelAccessor,BlockPos,Random,int)
++ void generatePlant(LevelAccessor,BlockPos,RandomSource,int)
+- void growTreeRecursive(LevelAccessor,BlockPos,Random,BlockPos,int,int)
++ void growTreeRecursive(LevelAccessor,BlockPos,RandomSource,BlockPos,int,int)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CommandBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CoralBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CoralPlantBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CryingObsidianBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndGatewayBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FarmBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FireBlock</summary>
+
+```diff
+- int getFireTickDelay(Random)
++ int getFireTickDelay(RandomSource)
+- void checkBurnOut(Level,BlockPos,int,Random,int)
++ void checkBurnOut(Level,BlockPos,int,RandomSource,int)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FrogspawnBlock</summary>
+
+```diff
+- int getFrogspawnHatchDelay(Random)
++ int getFrogspawnHatchDelay(RandomSource)
+- void hatchFrogspawn(ServerLevel,BlockPos,Random)
++ void hatchFrogspawn(ServerLevel,BlockPos,RandomSource)
+- void spawnTadpoles(ServerLevel,BlockPos,Random)
++ void spawnTadpoles(ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FungusBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrassBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
+
+```diff
+- BlockState getGrowIntoState(BlockState,Random)
++ BlockState getGrowIntoState(BlockState,RandomSource)
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MangroveLeavesBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- boolean isRandomlyTicking(BlockState)
+- boolean isTooCloseToAnotherPropagule(LevelAccessor,BlockPos)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MossBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MushroomBlock</summary>
+
+```diff
+- boolean growMushroom(ServerLevel,BlockPos,BlockState,Random)
++ boolean growMushroom(ServerLevel,BlockPos,BlockState,RandomSource)
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NetherWartBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ObserverBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+
+```diff
+- boolean lambda$animateTick$0(float,Fluid)
++ boolean lambda$animateTick$0(float,PointedDripstoneBlock$FluidInfo)
+- Fluid getCauldronFillFluidType(Level,BlockPos)
++ Fluid getCauldronFillFluidType(ServerLevel,BlockPos)
++ Fluid lambda$getCauldronFillFluidType$10(PointedDripstoneBlock$FluidInfo)
+- Fluid lambda$getFluidAboveStalactite$10(Level,BlockPos)
++ PointedDripstoneBlock$FluidInfo lambda$getFluidAboveStalactite$11(Level,BlockPos)
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void growStalactiteOrStalagmiteIfPossible(BlockState,ServerLevel,BlockPos,Random)
++ void growStalactiteOrStalagmiteIfPossible(BlockState,ServerLevel,BlockPos,RandomSource)
+- void lambda$animateTick$1(Level,BlockPos,BlockState,Fluid)
++ void lambda$animateTick$1(Level,BlockPos,BlockState,PointedDripstoneBlock$FluidInfo)
+- void lambda$spawnDripParticle$2(Level,BlockPos,BlockState,Fluid)
++ void lambda$spawnDripParticle$2(Level,BlockPos,BlockState,PointedDripstoneBlock$FluidInfo)
+- void maybeFillCauldron(BlockState,ServerLevel,BlockPos,float)
++ void maybeTransferFluid(BlockState,ServerLevel,BlockPos,float)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.grower.OakTreeGrower</summary>
+
+```diff
 - Holder getConfiguredFeature(Random,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.grower.DarkOakTreeGrower</summary>
-
-```diff
 + Holder getConfiguredFeature(RandomSource,boolean)
-+ Holder getConfiguredMegaFeature(RandomSource)
-- Holder getConfiguredFeature(Random,boolean)
-- Holder getConfiguredMegaFeature(Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.RandomState$1NoiseWiringHelper</summary>
+
+<details><summary>net.minecraft.world.level.gameevent.DynamicGameEventListener</summary>
 
 ```diff
-+ RandomSource newLegacyInstance(long)
-- RandomSource newLegacyInstance(long)
++ GameEventListener getListener()
+- void lambda$move$1(GameEventDispatcher)
+- void lambda$move$2(GameEventDispatcher)
++ void lambda$move$3(GameEventDispatcher)
+- void lambda$move$3(ServerLevel,SectionPos)
++ void lambda$move$4(GameEventDispatcher)
++ void lambda$move$5(ServerLevel,SectionPos)
+- void lambda$remove$0(GameEventDispatcher)
++ void lambda$remove$2(GameEventDispatcher)
++ void lambda$updateListener$0(GameEventListener,GameEventDispatcher)
++ void lambda$updateListener$1(GameEventListener,GameEventDispatcher)
++ void updateListener(GameEventListener,Level)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+<details><summary>net.minecraft.world.level.levelgen.LegacyRandomSource$LegacyPositionalRandomFactory</summary>
 
 ```diff
-+ BlockState[] generateBands(RandomSource)
-+ void makeBands(BlockState)
-- BlockState[] generateBands(RandomSource)
-- void makeBands(BlockState)
++ RandomSource at(int,int,int)
+- RandomSource at(int,int,int)
++ RandomSource fromHashOf(String)
+- RandomSource fromHashOf(String)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
 
 ```diff
-+ boolean doPlace(TreeConfiguration)
-+ boolean lambda$isAirOrLeaves$2(BlockState)
-+ boolean lambda$isBlockWater$1(BlockState)
-+ boolean lambda$isReplaceablePlant$3(BlockState)
-+ boolean lambda$isVine$0(BlockState)
-+ void lambda$doPlace$4(FoliagePlacer$FoliageAttachment)
-+ void lambda$place$5(BlockState)
-+ void lambda$place$9(TreeDecorator)
-- boolean doPlace(TreeConfiguration)
-- boolean isFree(BlockPos)
-- boolean lambda$isAirOrLeaves$3(BlockState)
-- boolean lambda$isBlockWater$2(BlockState)
-- boolean lambda$isFree$0(BlockState)
-- boolean lambda$isReplaceablePlant$4(BlockState)
-- boolean lambda$isVine$1(BlockState)
-- void lambda$doPlace$5(FoliagePlacer$FoliageAttachment)
-- void lambda$place$9(TreeDecorator)
+- Random seedSlimeChunk(int,int,long,long)
++ RandomSource fork()
+- RandomSource fork()
++ RandomSource seedSlimeChunk(int,int,long,long)
++ void <init>(RandomSource)
+- void <init>(RandomSource)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.UnderwaterMagmaFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.XoroshiroRandomSource$XoroshiroPositionalRandomFactory</summary>
 
 ```diff
-+ boolean lambda$place$0(BlockPos)
-- boolean lambda$place$0(BlockPos)
++ RandomSource at(int,int,int)
+- RandomSource at(int,int,int)
++ RandomSource fromHashOf(String)
+- RandomSource fromHashOf(String)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.WaterloggedVegetationPatchFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
 
 ```diff
-+ boolean placeVegetation(BlockPos)
-+ Set placeGroundPatch(Predicate,int,int)
-- boolean placeVegetation(BlockPos)
-- Set placeGroundPatch(Predicate,int,int)
+- boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,CarvingMask)
++ boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,RandomSource,Aquifer,ChunkPos,CarvingMask)
+- boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,CarvingMask)
++ boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,RandomSource,Aquifer,ChunkPos,CarvingMask)
+- boolean isStartChunk(CanyonCarverConfiguration,Random)
++ boolean isStartChunk(CanyonCarverConfiguration,RandomSource)
+- boolean isStartChunk(CarverConfiguration,Random)
++ boolean isStartChunk(CarverConfiguration,RandomSource)
+- double updateVerticalRadius(CanyonCarverConfiguration,Random,double,float,float)
++ double updateVerticalRadius(CanyonCarverConfiguration,RandomSource,double,float,float)
+- float[] initWidthFactors(CarvingContext,CanyonCarverConfiguration,Random)
++ float[] initWidthFactors(CarvingContext,CanyonCarverConfiguration,RandomSource)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
 
 ```diff
-+ boolean place(BlockPos)
-- boolean place(BlockPos)
+- boolean carve(CarvingContext,ChunkAccess,Function,Random,Aquifer,ChunkPos,CarvingMask)
++ boolean carve(CarvingContext,ChunkAccess,Function,RandomSource,Aquifer,ChunkPos,CarvingMask)
+- boolean isStartChunk(Random)
++ boolean isStartChunk(RandomSource)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
 
 ```diff
-+ HolderSet canOriginReplace
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ HolderSet canOriginReplace()
-+ HolderSet lambda$static$0(DiskConfiguration)
-+ void <init>(HolderSet)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- void <init>(List)
+- boolean placeHangOff(LevelAccessor,Random,BlockPos)
++ boolean placeHangOff(LevelAccessor,RandomSource,BlockPos)
+- void placeBaseHangOff(LevelAccessor,Random,BlockPos)
++ void placeBaseHangOff(LevelAccessor,RandomSource,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
 
 ```diff
-+ Optional rootPlacer
-+ App lambda$static$10(RecordCodecBuilder$Instance)
-+ BlockStateProvider lambda$static$5(TreeConfiguration)
-+ Boolean lambda$static$9(TreeConfiguration)
-+ FeatureSize lambda$static$6(TreeConfiguration)
-+ List lambda$static$7(TreeConfiguration)
-+ Optional lambda$static$4(TreeConfiguration)
-+ void <init>(List,boolean,boolean)
-- App lambda$static$9(RecordCodecBuilder$Instance)
-- BlockStateProvider lambda$static$4(TreeConfiguration)
-- Boolean lambda$static$7(TreeConfiguration)
-- FeatureSize lambda$static$5(TreeConfiguration)
-- List lambda$static$6(TreeConfiguration)
-- void <init>(List,boolean,boolean)
+- boolean mayPlaceOn(LevelAccessor,BlockPos,Random)
++ boolean mayPlaceOn(LevelAccessor,BlockPos,RandomSource)
+- void tryPlaceBlock(LevelAccessor,BlockPos,Random,BlockPileConfiguration)
++ void tryPlaceBlock(LevelAccessor,BlockPos,RandomSource,BlockPileConfiguration)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
 
 ```diff
-+ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
-+ int foliageHeight(TreeConfiguration)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
-- int foliageHeight(TreeConfiguration)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos)
++ boolean place(WorldGenLevel,ChunkGenerator,RandomSource,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
 
 ```diff
-+ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
-+ boolean shouldSkipLocationSigned(RandomSource,int,int,int,int,boolean)
-+ int foliageHeight(TreeConfiguration)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
-- boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
-- int foliageHeight(TreeConfiguration)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
+- boolean placeCoralBlock(LevelAccessor,Random,BlockPos,BlockState)
++ boolean placeCoralBlock(LevelAccessor,RandomSource,BlockPos,BlockState)
+- Optional lambda$place$0(Random,HolderSet$Named)
++ Optional lambda$place$0(RandomSource,HolderSet$Named)
+- Optional lambda$placeCoralBlock$1(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$1(RandomSource,HolderSet$Named)
+- Optional lambda$placeCoralBlock$3(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$3(RandomSource,HolderSet$Named)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralTreeFeature</summary>
 
 ```diff
-+ boolean shouldSkipLocation(net.minecraft.util.RandomSource,int,int,int,int,boolean)
-+ int foliageHeight(net.minecraft.util.RandomSource,int,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-+ void createFoliage(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,net.minecraft.util.RandomSource,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration,int,net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment,int,int,int)
-- boolean shouldSkipLocation(java.util.Random,int,int,int,int,boolean)
-- int foliageHeight(java.util.Random,int,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-- void createFoliage(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration,int,net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment,int,int,int)
-+ boolean shouldSkipLocationSigned(RandomSource,int,int,int,int,boolean)
-+ int foliageRadius(RandomSource,int)
-+ int offset(RandomSource)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int)
-+ void placeLeavesRow(BlockPos,int,int,boolean)
-+ void tryPlaceLeaf(BlockPos)
-- boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
-- int foliageRadius(Random,int)
-- int offset(Random)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int)
-- void placeLeavesRow(BlockPos,int,int,boolean)
-- void tryPlaceLeaf(BlockPos)
+- boolean placeFeature(LevelAccessor,Random,BlockPos,BlockState)
++ boolean placeFeature(LevelAccessor,RandomSource,BlockPos,BlockState)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.DripstoneClusterFeature</summary>
 
 ```diff
-+ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
-+ int foliageHeight(TreeConfiguration)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
-- int foliageHeight(TreeConfiguration)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
+- float randomBetweenBiased(Random,float,float,float,float)
++ float randomBetweenBiased(RandomSource,float,float,float,float)
+- int getDripstoneHeight(Random,int,int,float,int,DripstoneClusterConfiguration)
++ int getDripstoneHeight(RandomSource,int,int,float,int,DripstoneClusterConfiguration)
+- void placeColumn(WorldGenLevel,Random,BlockPos,int,int,float,double,int,float,DripstoneClusterConfiguration)
++ void placeColumn(WorldGenLevel,RandomSource,BlockPos,int,int,float,double,int,float,DripstoneClusterConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.FeaturePlaceContext</summary>
 
 ```diff
-+ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
-+ int foliageHeight(TreeConfiguration)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
-- int foliageHeight(TreeConfiguration)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
+- Random random()
++ RandomSource random()
+- void <init>(Optional,WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ void <init>(Optional,WorldGenLevel,ChunkGenerator,RandomSource,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.HugeBrownMushroomFeature</summary>
 
 ```diff
-+ void lambda$place$6(BeehiveBlockEntity)
-+ void place(List)
-- void lambda$place$6(BeehiveBlockEntity)
-- void place(List)
+- void makeCap(LevelAccessor,Random,BlockPos,int,BlockPos$MutableBlockPos,HugeMushroomFeatureConfiguration)
++ void makeCap(LevelAccessor,RandomSource,BlockPos,int,BlockPos$MutableBlockPos,HugeMushroomFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusFeature</summary>
 
 ```diff
-+ float probability
-- LeaveVineDecorator INSTANCE
-+ Float lambda$static$0(LeaveVineDecorator)
-+ void <init>(float)
-+ void lambda$place$1(BlockPos)
-+ void place(List)
-- LeaveVineDecorator lambda$static$0()
-- void <init>()
-- void lambda$place$1(BlockPos)
-- void place(List)
+- void placeHat(LevelAccessor,Random,HugeFungusConfiguration,BlockPos,int,boolean)
++ void placeHat(LevelAccessor,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
+- void placeHatBlock(LevelAccessor,Random,HugeFungusConfiguration,BlockPos$MutableBlockPos,float,float,float)
++ void placeHatBlock(LevelAccessor,RandomSource,HugeFungusConfiguration,BlockPos$MutableBlockPos,float,float,float)
+- void placeHatDropBlock(LevelAccessor,Random,BlockPos,BlockState,boolean)
++ void placeHatDropBlock(LevelAccessor,RandomSource,BlockPos,BlockState,boolean)
+- void placeStem(LevelAccessor,Random,HugeFungusConfiguration,BlockPos,int,boolean)
++ void placeStem(LevelAccessor,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
+- void tryPlaceWeepingVines(BlockPos,LevelAccessor,Random)
++ void tryPlaceWeepingVines(BlockPos,LevelAccessor,RandomSource)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
 
 ```diff
-+ TreeDecoratorType ATTACHED_TO_LEAVES
+- double signedDistanceCircle(int,int,BlockPos,int,Random)
++ double signedDistanceCircle(int,int,BlockPos,int,RandomSource)
+- int heightDependentRadiusRound(Random,int,int,int)
++ int heightDependentRadiusRound(RandomSource,int,int,int)
+- int heightDependentRadiusSteep(Random,int,int,int)
++ int heightDependentRadiusSteep(RandomSource,int,int,int)
+- void generateCutOut(Random,LevelAccessor,int,int,BlockPos,boolean,int,double,int)
++ void generateCutOut(RandomSource,LevelAccessor,int,int,BlockPos,boolean,int,double,int)
+- void generateIcebergBlock(LevelAccessor,Random,BlockPos,int,int,int,int,int,int,boolean,int,double,boolean,BlockState)
++ void generateIcebergBlock(LevelAccessor,RandomSource,BlockPos,int,int,int,int,int,int,boolean,int,double,boolean,BlockState)
+- void setIcebergBlock(BlockPos,LevelAccessor,Random,int,int,boolean,boolean,BlockState)
++ void setIcebergBlock(BlockPos,LevelAccessor,RandomSource,int,int,boolean,boolean,BlockState)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
 
 ```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
+- LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,Random,int,FloatProvider,FloatProvider)
++ LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,RandomSource,int,FloatProvider,FloatProvider)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
 
 ```diff
-+ List placeTrunk(TreeConfiguration)
-+ void placeLogIfFreeWithOffset(BlockPos,int,int,int)
-- List placeTrunk(TreeConfiguration)
-- void placeLogIfFreeWithOffset(BlockPos,int,int,int)
+- void <init>(int,Random,FloatProvider)
++ void <init>(int,RandomSource,FloatProvider)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MultifaceGrowthFeature</summary>
 
 ```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
+- boolean placeGrowthIfPossible(WorldGenLevel,BlockPos,BlockState,MultifaceGrowthConfiguration,Random,List)
++ boolean placeGrowthIfPossible(WorldGenLevel,BlockPos,BlockState,MultifaceGrowthConfiguration,RandomSource,List)
+- List getShuffledDirections(MultifaceGrowthConfiguration,Random)
++ List getShuffledDirections(MultifaceGrowthConfiguration,RandomSource)
+- List getShuffledDirectionsExcept(MultifaceGrowthConfiguration,Random,Direction)
++ List getShuffledDirectionsExcept(MultifaceGrowthConfiguration,RandomSource,Direction)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.PointedDripstoneFeature</summary>
 
 ```diff
-+ TrunkPlacerType UPWARDS_BRANCHING_TRUNK_PLACER
+- Optional getTipDirection(LevelAccessor,BlockPos,Random)
++ Optional getTipDirection(LevelAccessor,BlockPos,RandomSource)
+- void createPatchOfDripstoneBlocks(LevelAccessor,Random,BlockPos,PointedDripstoneConfiguration)
++ void createPatchOfDripstoneBlocks(LevelAccessor,RandomSource,BlockPos,PointedDripstoneConfiguration)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RootSystemFeature</summary>
+
+```diff
+- boolean placeDirtAndTree(WorldGenLevel,ChunkGenerator,RootSystemConfiguration,Random,BlockPos$MutableBlockPos,BlockPos)
++ boolean placeDirtAndTree(WorldGenLevel,ChunkGenerator,RootSystemConfiguration,RandomSource,BlockPos$MutableBlockPos,BlockPos)
+- void placeDirt(BlockPos,int,WorldGenLevel,RootSystemConfiguration,Random)
++ void placeDirt(BlockPos,int,WorldGenLevel,RootSystemConfiguration,RandomSource)
+- void placeRootedDirt(WorldGenLevel,RootSystemConfiguration,Random,int,int,BlockPos$MutableBlockPos)
++ void placeRootedDirt(WorldGenLevel,RootSystemConfiguration,RandomSource,int,int,BlockPos$MutableBlockPos)
+- void placeRoots(WorldGenLevel,RootSystemConfiguration,Random,BlockPos,BlockPos$MutableBlockPos)
++ void placeRoots(WorldGenLevel,RootSystemConfiguration,RandomSource,BlockPos,BlockPos$MutableBlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature</summary>
+
+```diff
+- void placeSpike(ServerLevelAccessor,Random,SpikeConfiguration,SpikeFeature$EndSpike)
++ void placeSpike(ServerLevelAccessor,RandomSource,SpikeConfiguration,SpikeFeature$EndSpike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.DualNoiseProvider</summary>
+
+```diff
+- BlockState getState(Random,BlockPos)
++ BlockState getState(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.NoiseProvider</summary>
+
+```diff
+- BlockState getState(Random,BlockPos)
++ BlockState getState(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider</summary>
+
+```diff
+- BlockState getState(Random,BlockPos)
++ BlockState getState(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider</summary>
+
+```diff
+- BlockState getState(Random,BlockPos)
++ BlockState getState(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight</summary>
+
+```diff
+- int sample(Random,WorldGenerationContext)
++ int sample(RandomSource,WorldGenerationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.heightproviders.TrapezoidHeight</summary>
+
+```diff
+- int sample(Random,WorldGenerationContext)
++ int sample(RandomSource,WorldGenerationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.heightproviders.VeryBiasedToBottomHeight</summary>
+
+```diff
+- int sample(Random,WorldGenerationContext)
++ int sample(RandomSource,WorldGenerationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.BlockPredicateFilter</summary>
+
+```diff
+- boolean shouldPlace(PlacementContext,Random,BlockPos)
++ boolean shouldPlace(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.CountPlacement</summary>
+
+```diff
+- int count(Random,BlockPos)
++ int count(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.HeightRangePlacement</summary>
+
+```diff
+- Stream getPositions(PlacementContext,Random,BlockPos)
++ Stream getPositions(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.InSquarePlacement</summary>
+
+```diff
+- Stream getPositions(PlacementContext,Random,BlockPos)
++ Stream getPositions(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement</summary>
+
+```diff
+- int count(Random,BlockPos)
++ int count(RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.PlacementFilter</summary>
+
+```diff
+- Stream getPositions(PlacementContext,Random,BlockPos)
++ Stream getPositions(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.RarityFilter</summary>
+
+```diff
+- boolean shouldPlace(PlacementContext,Random,BlockPos)
++ boolean shouldPlace(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.SurfaceRelativeThresholdFilter</summary>
+
+```diff
+- boolean shouldPlace(PlacementContext,Random,BlockPos)
++ boolean shouldPlace(PlacementContext,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PostPlacementProcessor</summary>
+
+```diff
+- void lambda$static$0(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,PiecesContainer)
++ void lambda$static$0(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,PiecesContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.Structure</summary>
+
+```diff
+- void afterPlace(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,PiecesContainer)
++ void afterPlace(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,PiecesContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
+
+```diff
+- boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,RandomSource,boolean)
+- List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
+
+```diff
+- void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,List,Random,LevelHeightAccessor,RandomState)
++ void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,List,RandomSource,LevelHeightAccessor,RandomState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
+
+```diff
+- boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,RandomSource,boolean)
+- List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$1</summary>
+
+```diff
+- boolean generate(StructureTemplateManager,int,EndCityPieces$EndCityPiece,BlockPos,List,Random)
++ boolean generate(StructureTemplateManager,int,EndCityPieces$EndCityPiece,BlockPos,List,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$3</summary>
+
+```diff
+- boolean generate(StructureTemplateManager,int,EndCityPieces$EndCityPiece,BlockPos,List,Random)
++ boolean generate(StructureTemplateManager,int,EndCityPieces$EndCityPiece,BlockPos,List,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.EndCityPieces$EndCityPiece</summary>
+
+```diff
+- void handleDataMarker(String,BlockPos,ServerLevelAccessor,Random,BoundingBox)
++ void handleDataMarker(String,BlockPos,ServerLevelAccessor,RandomSource,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.IglooPieces$IglooPiece</summary>
+
+```diff
+- void handleDataMarker(String,BlockPos,ServerLevelAccessor,Random,BoundingBox)
++ void handleDataMarker(String,BlockPos,ServerLevelAccessor,RandomSource,BoundingBox)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.JungleTemplePiece</summary>
+
+```diff
+- void <init>(Random,int,int)
++ void <init>(RandomSource,int,int)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCrossing</summary>
+
+```diff
+- BoundingBox findCrossing(StructurePieceAccessor,Random,int,int,int,Direction)
++ BoundingBox findCrossing(StructurePieceAccessor,RandomSource,int,int,int,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftRoom</summary>
+
+```diff
+- void <init>(int,Random,int,int,MineshaftStructure$Type)
++ void <init>(int,RandomSource,int,int,MineshaftStructure$Type)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces</summary>
+
+```diff
+- NetherFortressPieces$NetherBridgePiece findAndCreateBridgePieceFactory(NetherFortressPieces$PieceWeight,StructurePieceAccessor,Random,int,int,int,Direction,int)
++ NetherFortressPieces$NetherBridgePiece findAndCreateBridgePieceFactory(NetherFortressPieces$PieceWeight,StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeCrossing</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$BridgeStraight</summary>
+
+```diff
+- NetherFortressPieces$BridgeStraight createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ NetherFortressPieces$BridgeStraight createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleCorridorTBalconyPiece</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorCrossingPiece</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorPiece</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleStalkRoom</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$NetherBridgePiece</summary>
+
+```diff
+- NetherFortressPieces$NetherBridgePiece generatePiece(NetherFortressPieces$StartPiece,List,StructurePieceAccessor,Random,int,int,int,Direction,int)
++ NetherFortressPieces$NetherBridgePiece generatePiece(NetherFortressPieces$StartPiece,List,StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- StructurePiece generateAndAddPiece(NetherFortressPieces$StartPiece,StructurePieceAccessor,Random,int,int,int,Direction,int,boolean)
++ StructurePiece generateAndAddPiece(NetherFortressPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int,int,Direction,int,boolean)
+- StructurePiece generateChildForward(NetherFortressPieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
++ StructurePiece generateChildForward(NetherFortressPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int,boolean)
+- StructurePiece generateChildLeft(NetherFortressPieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
++ StructurePiece generateChildLeft(NetherFortressPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int,boolean)
+- StructurePiece generateChildRight(NetherFortressPieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
++ StructurePiece generateChildRight(NetherFortressPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$RoomCrossing</summary>
+
+```diff
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$StartPiece</summary>
+
+```diff
+- void <init>(Random,int,int)
++ void <init>(RandomSource,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFossilPieces</summary>
+
+```diff
+- void addPieces(StructureTemplateManager,StructurePieceAccessor,Random,BlockPos)
++ void addPieces(StructureTemplateManager,StructurePieceAccessor,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXYRoom</summary>
+
+```diff
+- OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,Random)
++ OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYZRoom</summary>
+
+```diff
+- OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,Random)
++ OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleRoom</summary>
+
+```diff
+- OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,Random)
++ OceanMonumentPieces$OceanMonumentPiece create(Direction,OceanMonumentPieces$RoomDefinition,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentBuilding</summary>
+
+```diff
+- List generateRoomGraph(Random)
++ List generateRoomGraph(RandomSource)
+- void <init>(Random,int,int,Direction)
++ void <init>(RandomSource,int,int,Direction)
+- void generateEntranceArchs(WorldGenLevel,Random,BoundingBox)
++ void generateEntranceArchs(WorldGenLevel,RandomSource,BoundingBox)
+- void generateEntranceWall(WorldGenLevel,Random,BoundingBox)
++ void generateEntranceWall(WorldGenLevel,RandomSource,BoundingBox)
+- void generateLowerWall(WorldGenLevel,Random,BoundingBox)
++ void generateLowerWall(WorldGenLevel,RandomSource,BoundingBox)
+- void generateMiddleWall(WorldGenLevel,Random,BoundingBox)
++ void generateMiddleWall(WorldGenLevel,RandomSource,BoundingBox)
+- void generateRoofPiece(WorldGenLevel,Random,BoundingBox)
++ void generateRoofPiece(WorldGenLevel,RandomSource,BoundingBox)
+- void generateUpperWall(WorldGenLevel,Random,BoundingBox)
++ void generateUpperWall(WorldGenLevel,RandomSource,BoundingBox)
+- void generateWing(boolean,int,WorldGenLevel,Random,BoundingBox)
++ void generateWing(boolean,int,WorldGenLevel,RandomSource,BoundingBox)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentCoreRoom</summary>
+
+```diff
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXYRoom</summary>
+
+```diff
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYZRoom</summary>
+
+```diff
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentEntryRoom</summary>
+
+```diff
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleTopRoom</summary>
+
+```diff
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces</summary>
+
+```diff
+- List allPositions(Random,BlockPos)
++ List allPositions(RandomSource,BlockPos)
+- ResourceLocation getBigWarmRuin(Random)
++ ResourceLocation getBigWarmRuin(RandomSource)
+- ResourceLocation getSmallWarmRuin(Random)
++ ResourceLocation getSmallWarmRuin(RandomSource)
+- void addClusterRuins(StructureTemplateManager,Random,Rotation,BlockPos,OceanRuinStructure,StructurePieceAccessor)
++ void addClusterRuins(StructureTemplateManager,RandomSource,Rotation,BlockPos,OceanRuinStructure,StructurePieceAccessor)
+- void addPiece(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,Random,OceanRuinStructure,boolean,float)
++ void addPiece(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,RandomSource,OceanRuinStructure,boolean,float)
+- void addPieces(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,Random,OceanRuinStructure)
++ void addPieces(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,RandomSource,OceanRuinStructure)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinPieces$OceanRuinPiece</summary>
+
+```diff
+- void handleDataMarker(String,BlockPos,ServerLevelAccessor,Random,BoundingBox)
++ void handleDataMarker(String,BlockPos,ServerLevelAccessor,RandomSource,BoundingBox)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure</summary>
+
+```diff
+- int findSuitableY(Random,ChunkGenerator,RuinedPortalPiece$VerticalPlacement,boolean,int,int,BoundingBox,LevelHeightAccessor,RandomState)
++ int findSuitableY(RandomSource,ChunkGenerator,RuinedPortalPiece$VerticalPlacement,boolean,int,int,BoundingBox,LevelHeightAccessor,RandomState)
+- int getRandomWithinInterval(Random,int,int)
++ int getRandomWithinInterval(RandomSource,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.ShipwreckPieces</summary>
+
+```diff
+- void addPieces(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,Random,boolean)
++ void addPieces(StructureTemplateManager,BlockPos,Rotation,StructurePieceAccessor,RandomSource,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor</summary>
+
+```diff
+- BoundingBox findPieceBox(StructurePieceAccessor,Random,int,int,int,Direction)
++ BoundingBox findPieceBox(StructurePieceAccessor,RandomSource,int,int,int,Direction)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$LeftTurn</summary>
+
+```diff
+- StrongholdPieces$LeftTurn createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ StrongholdPieces$LeftTurn createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall</summary>
+
+```diff
+- StrongholdPieces$PrisonHall createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ StrongholdPieces$PrisonHall createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing</summary>
+
+```diff
+- StrongholdPieces$RoomCrossing createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ StrongholdPieces$RoomCrossing createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown</summary>
+
+```diff
+- StrongholdPieces$StairsDown createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ StrongholdPieces$StairsDown createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight</summary>
+
+```diff
+- StrongholdPieces$Straight createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
++ StrongholdPieces$Straight createPiece(StructurePieceAccessor,RandomSource,int,int,int,Direction,int)
+- void <init>(int,Random,BoundingBox,Direction)
++ void <init>(int,RandomSource,BoundingBox,Direction)
+- void addChildren(StructurePiece,StructurePieceAccessor,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,RandomSource)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece</summary>
+
+```diff
+- StrongholdPieces$StrongholdPiece$SmallDoorType randomSmallDoor(Random)
++ StrongholdPieces$StrongholdPiece$SmallDoorType randomSmallDoor(RandomSource)
+- StructurePiece generateSmallDoorChildForward(StrongholdPieces$StartPiece,StructurePieceAccessor,Random,int,int)
++ StructurePiece generateSmallDoorChildForward(StrongholdPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int)
+- StructurePiece generateSmallDoorChildLeft(StrongholdPieces$StartPiece,StructurePieceAccessor,Random,int,int)
++ StructurePiece generateSmallDoorChildLeft(StrongholdPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int)
+- StructurePiece generateSmallDoorChildRight(StrongholdPieces$StartPiece,StructurePieceAccessor,Random,int,int)
++ StructurePiece generateSmallDoorChildRight(StrongholdPieces$StartPiece,StructurePieceAccessor,RandomSource,int,int)
+- void generateSmallDoor(WorldGenLevel,Random,BoundingBox,StrongholdPieces$StrongholdPiece$SmallDoorType,int,int,int)
++ void generateSmallDoor(WorldGenLevel,RandomSource,BoundingBox,StrongholdPieces$StrongholdPiece$SmallDoorType,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.SwampHutPiece</summary>
+
+```diff
+- void <init>(Random,int,int)
++ void <init>(RandomSource,int,int)
+- void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ void postProcess(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces</summary>
+
+```diff
+- void generateMansion(StructureTemplateManager,BlockPos,Rotation,List,Random)
++ void generateMansion(StructureTemplateManager,BlockPos,Rotation,List,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionPiecePlacer</summary>
+
+```diff
+- void <init>(StructureTemplateManager,Random)
++ void <init>(StructureTemplateManager,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SecondFloorRoomCollection</summary>
+
+```diff
+- String get1x1(Random)
++ String get1x1(RandomSource)
+- String get1x1Secret(Random)
++ String get1x1Secret(RandomSource)
+- String get1x2FrontEntrance(Random,boolean)
++ String get1x2FrontEntrance(RandomSource,boolean)
+- String get1x2Secret(Random)
++ String get1x2Secret(RandomSource)
+- String get1x2SideEntrance(Random,boolean)
++ String get1x2SideEntrance(RandomSource,boolean)
+- String get2x2(Random)
++ String get2x2(RandomSource)
+- String get2x2Secret(Random)
++ String get2x2Secret(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure</summary>
+
+```diff
+- void afterPlace(WorldGenLevel,StructureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,PiecesContainer)
++ void afterPlace(WorldGenLevel,StructureManager,ChunkGenerator,RandomSource,BoundingBox,ChunkPos,PiecesContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.AlwaysTrueTest</summary>
+
+```diff
+- boolean test(BlockState,Random)
++ boolean test(BlockState,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProcessorRule</summary>
+
+```diff
+- boolean test(BlockState,BlockState,BlockPos,BlockPos,BlockPos,Random)
++ boolean test(BlockState,BlockState,BlockPos,BlockPos,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockMatchTest</summary>
+
+```diff
+- boolean test(BlockState,Random)
++ boolean test(BlockState,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest</summary>
+
+```diff
+- boolean test(BlockState,Random)
++ boolean test(BlockState,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.BlendedNoise</summary>
+
+```diff
++ BlendedNoise withNewRandom(RandomSource)
+- BlendedNoise withNewRandom(RandomSource)
++ void <init>(RandomSource,double,double,double,double,double)
+- void <init>(RandomSource,double,double,double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise</summary>
+
+```diff
++ void <init>(RandomSource,IntSortedSet)
+- void <init>(RandomSource,IntSortedSet)
++ void <init>(RandomSource,List)
+- void <init>(RandomSource,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.FluidState</summary>
+
+```diff
+- void animateTick(Level,BlockPos,Random)
++ void animateTick(Level,BlockPos,RandomSource)
+- void randomTick(Level,BlockPos,Random)
++ void randomTick(Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootContext$Builder</summary>
+
+```diff
+- LootContext$Builder withOptionalRandomSeed(long,Random)
++ LootContext$Builder withOptionalRandomSeed(long,RandomSource)
+- LootContext$Builder withRandom(Random)
++ LootContext$Builder withRandom(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
+
+```diff
+- List getAvailableSlots(Container,Random)
++ List getAvailableSlots(Container,RandomSource)
+- void shuffleAndSplitItems(List,int,Random)
++ void shuffleAndSplitItems(List,int,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$OreDrops</summary>
+
+```diff
+- int calculateNewCount(Random,int,int)
++ int calculateNewCount(RandomSource,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount</summary>
+
+```diff
+- int calculateNewCount(Random,int,int)
++ int calculateNewCount(RandomSource,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.Vec3</summary>
+
+```diff
++ Vec3 relative(Direction,double)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.EntitySubPredicate$1
@@ -12458,13 +8547,1498 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
+
+```diff
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,EntitySubPredicate,EntityPredicate,EntityPredicate,EntityPredicate,String)
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,EntitySubPredicate,String)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,LighthingBoltPredicate,EntityPredicate,EntityPredicate,EntityPredicate,String,ResourceLocation)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,LighthingBoltPredicate,String,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LighthingBoltPredicate</summary>
+
+```diff
++ EntitySubPredicate$Type type()
+- JsonElement serializeToJson()
++ JsonObject serializeCustomData()
+- LighthingBoltPredicate fromJson(JsonElement)
++ LighthingBoltPredicate fromJson(JsonObject)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addMangroveSwampDisks(BiomeGenerationSettings$Builder)
++ void addMangroveSwampVegetation(BiomeGenerationSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
+
+```diff
++ Biome mangroveSwamp()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializers$1</summary>
+
+```diff
+- Byte copy(Byte)
+- Byte read(FriendlyByteBuf)
++ ItemStack copy(ItemStack)
++ ItemStack read(FriendlyByteBuf)
+- void write(FriendlyByteBuf,Byte)
++ void write(FriendlyByteBuf,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializers$3</summary>
+
+```diff
+- Float copy(Float)
+- Float read(FriendlyByteBuf)
+- Object copy(Object)
++ ParticleOptions read(FriendlyByteBuf)
++ ParticleOptions readParticle(FriendlyByteBuf,ParticleType)
+- void write(FriendlyByteBuf,Float)
++ void write(FriendlyByteBuf,ParticleOptions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializers$5</summary>
+
+```diff
+- Component copy(Component)
+- Component read(FriendlyByteBuf)
++ CompoundTag copy(CompoundTag)
++ CompoundTag read(FriendlyByteBuf)
+- void write(FriendlyByteBuf,Component)
++ void write(FriendlyByteBuf,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializers$7</summary>
+
+```diff
+- ItemStack copy(ItemStack)
+- ItemStack read(FriendlyByteBuf)
+- Object copy(Object)
++ OptionalInt read(FriendlyByteBuf)
+- void write(FriendlyByteBuf,ItemStack)
++ void write(FriendlyByteBuf,OptionalInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+
+```diff
++ List readLines(Resource)
+- List readLines(ResourceThunk)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SpreadPlayersCommand</summary>
+
+```diff
+- SpreadPlayersCommand$Position[] createInitialPositions(Random,int,double,double,double,double)
++ SpreadPlayersCommand$Position[] createInitialPositions(RandomSource,int,double,double,double,double)
+- void spreadPositions(Vec2,double,ServerLevel,Random,double,double,double,double,int,SpreadPlayersCommand$Position[],boolean)
++ void spreadPositions(Vec2,double,ServerLevel,RandomSource,double,double,double,double,int,SpreadPlayersCommand$Position[],boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel$EntityCallbacks</summary>
+
+```diff
++ void onSectionChange(Entity)
++ void onSectionChange(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
++ InputStream lambda$asProvider$3(ResourceLocation)
++ Optional lambda$asProvider$4(ResourceLocation)
+- Resource getResource(ResourceLocation)
++ ResourceProvider asProvider()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
+
+```diff
+- boolean hasResource(ResourceLocation)
++ Optional getResource(ResourceLocation)
+- Resource getResource(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.sounds.SoundEvents</summary>
+
+```diff
++ SoundEvent register(String,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.SpawnUtil</summary>
+
+```diff
++ Optional trySpawnMob(EntityType,MobSpawnType,ServerLevel,BlockPos,int,int,int)
+- Optional trySpawnMob(EntityType,ServerLevel,BlockPos,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.random.WeightedRandomList</summary>
+
+```diff
+- Optional getRandom(Random)
++ Optional getRandom(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ClampedInt</summary>
+
+```diff
+- int sample(Random)
++ int sample(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ClampedNormalInt</summary>
+
+```diff
+- int sample(Random,float,float,float,float)
+- int sample(Random)
++ int sample(RandomSource,float,float,float,float)
++ int sample(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ConstantInt</summary>
+
+```diff
+- int sample(Random)
++ int sample(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.UniformFloat</summary>
+
+```diff
+- float sample(Random)
++ float sample(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.WeightedListInt</summary>
+
+```diff
+- int sample(Random)
++ int sample(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.Containers</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.EntityType</summary>
+
+```diff
+- Entity create(Level,EntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.GlowSquid</summary>
+
+```diff
+- boolean checkGlowSquideSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkGlowSquideSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.SpawnPlacements</summary>
+
+```diff
+- boolean checkSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GoAndGiveItemsToTarget</summary>
+
+```diff
++ void lambda$tick$1(PositionTracker,ItemStack,ServerPlayer)
++ void triggerDropItemOnBlock(PositionTracker,ItemStack,ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GoToTargetLocation</summary>
+
+```diff
+- int getRandomOffset(Random)
++ int getRandomOffset(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.gossip.GossipContainer</summary>
+
+```diff
+- Collection selectGossipsForTransfer(Random,int)
++ Collection selectGossipsForTransfer(RandomSource,int)
+- void transferFrom(GossipContainer,Random,int)
++ void transferFrom(GossipContainer,RandomSource,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.memory.NearestVisibleLivingEntities</summary>
+
+```diff
+- Optional findClosest(Predicate[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.NearestLivingEntitySensor</summary>
+
+```diff
++ int radiusXZ()
++ int radiusY()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.WardenEntitySensor</summary>
+
+```diff
++ int radiusXZ()
++ Optional getClosest(Warden,Predicate)
+- Optional lambda$doTick$2(NearestVisibleLivingEntities)
++ Optional lambda$doTick$2(Warden)
++ void doTick(ServerLevel,Warden)
+- void lambda$doTick$3(LivingEntity,LivingEntity)
++ void lambda$doTick$3(Warden,LivingEntity)
+- void lambda$doTick$4(LivingEntity)
++ void lambda$doTick$4(Warden)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.util.RandomPos</summary>
+
+```diff
+- BlockPos generateRandomDirection(Random,int,int)
++ BlockPos generateRandomDirection(RandomSource,int,int)
+- BlockPos generateRandomDirectionWithinRadians(Random,int,int,int,double,double,double)
++ BlockPos generateRandomDirectionWithinRadians(RandomSource,int,int,int,double,double,double)
+- BlockPos generateRandomPosTowardDirection(PathfinderMob,int,Random,BlockPos)
++ BlockPos generateRandomPosTowardDirection(PathfinderMob,int,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
+- Random access$100(Bee)
+- Random access$1900(Bee)
+- Random access$2000(Bee)
+- Random access$2200(Bee)
+- Random access$2400(Bee)
+- Random access$2500(Bee)
+- Random access$2600(Bee)
+- Random access$2700(Bee)
+- Random access$2800(Bee)
++ RandomSource access$100(Bee)
++ RandomSource access$1900(Bee)
++ RandomSource access$2000(Bee)
++ RandomSource access$2200(Bee)
++ RandomSource access$2400(Bee)
++ RandomSource access$2500(Bee)
++ RandomSource access$2600(Bee)
++ RandomSource access$2700(Bee)
++ RandomSource access$2800(Bee)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
+
+```diff
+- boolean checkMushroomSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkMushroomSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
+- boolean checkOcelotSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkOcelotSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Panda$Gene</summary>
+
+```diff
+- Panda$Gene getRandom(Random)
++ Panda$Gene getRandom(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
+- boolean checkParrotSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkParrotSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- float getPitch(Random)
++ float getPitch(RandomSource)
+- SoundEvent getAmbient(Level,Random)
++ SoundEvent getAmbient(Level,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.PolarBear</summary>
+
+```diff
+- boolean checkPolarBearSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkPolarBearSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Sheep</summary>
+
+```diff
+- DyeColor getRandomSheepColor(Random)
++ DyeColor getRandomSheepColor(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.TropicalFish</summary>
+
+```diff
+- boolean checkTropicalFishSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkTropicalFishSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
+
+```diff
+- boolean checkWolfSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkWolfSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- Random access$000(Wolf)
++ RandomSource access$000(Wolf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
+
+```diff
++ Optional getLikedPlayer(LivingEntity)
++ PositionTracker lambda$getLikedPlayerPositionTracker$2(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
+
+```diff
+- boolean checkAxolotlSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,Random)
++ boolean checkAxolotlSpawnRules(EntityType,ServerLevelAccessor,MobSpawnType,BlockPos,RandomSource)
+- boolean useRareVariant(Random)
++ boolean useRareVariant(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
+
+```diff
+- Frog$Variant getVariant()
++ FrogVariant getVariant()
+- void setVariant(Frog$Variant)
++ void setVariant(FrogVariant)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RedStoneWireBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void spawnParticlesAlongLine(Level,Random,BlockPos,Vec3,Direction,Direction,float,float)
++ void spawnParticlesAlongLine(Level,RandomSource,BlockPos,Vec3,Direction,Direction,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RedstoneLampBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RootedDirtBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Rotation</summary>
+
+```diff
+- List getShuffled(Random)
++ List getShuffled(RandomSource)
+- Rotation getRandom(Random)
++ Rotation getRandom(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ScaffoldingBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkBehaviour$1</summary>
+
+```diff
+- int attemptUseCharge(SculkSpreader$ChargeCursor,LevelAccessor,BlockPos,Random,SculkSpreader,boolean)
++ int attemptUseCharge(SculkSpreader$ChargeCursor,LevelAccessor,BlockPos,RandomSource,SculkSpreader,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
+
+```diff
+- void bloom(ServerLevel,BlockPos,BlockState,Random)
++ void bloom(ServerLevel,BlockPos,BlockState,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
+- boolean canShriek(ServerLevel,BlockPos,BlockState)
+- Boolean lambda$canShriek$1(ServerLevel,BlockPos,WardenSpawnTracker)
+- boolean lambda$shriek$2(ServerLevel,BlockPos,WardenSpawnTracker)
+- Optional getWardenSpawnTracker(ServerLevel,BlockPos)
++ void lambda$onRemove$1(ServerLevel,SculkShriekerBlockEntity)
++ void lambda$stepOn$0(ServerLevel,SculkShriekerBlockEntity)
+- void lambda$tick$0(ServerLevel,BlockPos,WardenSpawnTracker)
++ void lambda$tick$2(ServerLevel,SculkShriekerBlockEntity)
+- void neighborChanged(BlockState,Level,BlockPos,Block,BlockPos,boolean)
++ void onRemove(BlockState,Level,BlockPos,BlockState,boolean)
+- void shriek(ServerLevel,BlockState,BlockPos)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkSpreader$ChargeCursor</summary>
+
+```diff
+- BlockPos getValidMovementPos(LevelAccessor,BlockPos,Random)
++ BlockPos getValidMovementPos(LevelAccessor,BlockPos,RandomSource)
+- List getRandomizedNonCornerNeighbourOffsets(Random)
++ List getRandomizedNonCornerNeighbourOffsets(RandomSource)
+- void update(LevelAccessor,BlockPos,Random,SculkSpreader,boolean)
++ void update(LevelAccessor,BlockPos,RandomSource,SculkSpreader,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SeagrassBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SporeBlossomBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StairBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SugarCaneBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TallFlowerBlock</summary>
+
+```diff
+- boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isBonemealSuccess(Level,RandomSource,BlockPos,BlockState)
+- void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
++ void performBonemeal(ServerLevel,RandomSource,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TorchBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TripWireBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ void tick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeatheringCopperFullBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeatheringCopperStairBlock</summary>
+
+```diff
+- void randomTick(BlockState,ServerLevel,BlockPos,Random)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeepingVinesBlock</summary>
+
+```diff
+- int getBlocksToGrowWhenBonemealed(Random)
++ int getBlocksToGrowWhenBonemealed(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WitherRoseBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
++ void animateTick(BlockState,Level,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity</summary>
+
+```diff
+- void setLootTable(BlockGetter,Random,BlockPos,ResourceLocation)
++ void setLootTable(BlockGetter,RandomSource,BlockPos,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
+- Random createRandom(long)
++ RandomSource createRandom(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.grower.AbstractTreeGrower</summary>
+
+```diff
+- boolean growTree(ServerLevel,ChunkGenerator,BlockPos,BlockState,Random)
++ boolean growTree(ServerLevel,ChunkGenerator,BlockPos,BlockState,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.grower.AzaleaTreeGrower</summary>
+
+```diff
+- Holder getConfiguredFeature(Random,boolean)
++ Holder getConfiguredFeature(RandomSource,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.grower.DarkOakTreeGrower</summary>
+
+```diff
+- Holder getConfiguredFeature(Random,boolean)
++ Holder getConfiguredFeature(RandomSource,boolean)
+- Holder getConfiguredMegaFeature(Random)
++ Holder getConfiguredMegaFeature(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.RandomState$1NoiseWiringHelper</summary>
+
+```diff
++ RandomSource newLegacyInstance(long)
+- RandomSource newLegacyInstance(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+
+```diff
++ BlockState[] generateBands(RandomSource)
+- BlockState[] generateBands(RandomSource)
++ void makeBands(RandomSource,BlockState[],int,BlockState)
+- void makeBands(RandomSource,BlockState[],int,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
+- boolean doPlace(WorldGenLevel,Random,BlockPos,BiConsumer,BiConsumer,TreeConfiguration)
++ boolean doPlace(WorldGenLevel,RandomSource,BlockPos,BiConsumer,BiConsumer,BiConsumer,TreeConfiguration)
+- boolean isFree(LevelSimulatedReader,BlockPos)
++ boolean lambda$isAirOrLeaves$2(BlockState)
+- boolean lambda$isAirOrLeaves$3(BlockState)
++ boolean lambda$isBlockWater$1(BlockState)
+- boolean lambda$isBlockWater$2(BlockState)
+- boolean lambda$isFree$0(BlockState)
++ boolean lambda$isReplaceablePlant$3(BlockState)
+- boolean lambda$isReplaceablePlant$4(BlockState)
++ boolean lambda$isVine$0(BlockState)
+- boolean lambda$isVine$1(BlockState)
++ void lambda$doPlace$4(TreeConfiguration,WorldGenLevel,BiConsumer,RandomSource,int,int,int,FoliagePlacer$FoliageAttachment)
+- void lambda$doPlace$5(TreeConfiguration,WorldGenLevel,BiConsumer,Random,int,int,int,FoliagePlacer$FoliageAttachment)
++ void lambda$place$5(Set,WorldGenLevel,BlockPos,BlockState)
+- void lambda$place$9(WorldGenLevel,BiConsumer,Random,List,List,TreeDecorator)
++ void lambda$place$9(WorldGenLevel,BiConsumer,RandomSource,List,List,List,TreeDecorator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.UnderwaterMagmaFeature</summary>
+
+```diff
+- boolean lambda$place$0(Random,UnderwaterMagmaConfiguration,BlockPos)
++ boolean lambda$place$0(RandomSource,UnderwaterMagmaConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WaterloggedVegetationPatchFeature</summary>
+
+```diff
+- boolean placeVegetation(WorldGenLevel,VegetationPatchConfiguration,ChunkGenerator,Random,BlockPos)
++ boolean placeVegetation(WorldGenLevel,VegetationPatchConfiguration,ChunkGenerator,RandomSource,BlockPos)
+- Set placeGroundPatch(WorldGenLevel,VegetationPatchConfiguration,Random,BlockPos,Predicate,int,int)
++ Set placeGroundPatch(WorldGenLevel,VegetationPatchConfiguration,RandomSource,BlockPos,Predicate,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature</summary>
+
+```diff
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos)
++ boolean place(WorldGenLevel,ChunkGenerator,RandomSource,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+
+```diff
+- App lambda$static$0(RecordCodecBuilder$Instance)
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ HolderSet canOriginReplace()
++ HolderSet lambda$static$0(DiskConfiguration)
++ void <init>(BlockState,IntProvider,int,List,HolderSet)
+- void <init>(BlockState,IntProvider,int,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
++ App lambda$static$10(RecordCodecBuilder$Instance)
+- App lambda$static$9(RecordCodecBuilder$Instance)
+- BlockStateProvider lambda$static$4(TreeConfiguration)
++ BlockStateProvider lambda$static$5(TreeConfiguration)
+- Boolean lambda$static$7(TreeConfiguration)
++ Boolean lambda$static$9(TreeConfiguration)
+- FeatureSize lambda$static$5(TreeConfiguration)
++ FeatureSize lambda$static$6(TreeConfiguration)
+- List lambda$static$6(TreeConfiguration)
++ List lambda$static$7(TreeConfiguration)
++ Optional lambda$static$4(TreeConfiguration)
+- void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
++ void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,Optional,BlockStateProvider,FeatureSize,List,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
+
+```diff
+- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
+- int foliageHeight(Random,int,TreeConfiguration)
++ int foliageHeight(RandomSource,int,TreeConfiguration)
+- void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
+
+```diff
+- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
+- boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocationSigned(RandomSource,int,int,int,int,boolean)
+- int foliageHeight(Random,int,TreeConfiguration)
++ int foliageHeight(RandomSource,int,TreeConfiguration)
+- void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
+
+```diff
+- boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocationSigned(RandomSource,int,int,int,int,boolean)
+- int foliageRadius(Random,int)
++ int foliageRadius(RandomSource,int)
+- int offset(Random)
++ int offset(RandomSource)
+- void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int)
+- void placeLeavesRow(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,BlockPos,int,int,boolean)
++ void placeLeavesRow(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,BlockPos,int,int,boolean)
+- void tryPlaceLeaf(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,BlockPos)
++ void tryPlaceLeaf(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
+
+```diff
+- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
+- int foliageHeight(Random,int,TreeConfiguration)
++ int foliageHeight(RandomSource,int,TreeConfiguration)
+- void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer</summary>
+
+```diff
+- boolean shouldSkipLocation(Random,int,int,int,int,boolean)
++ boolean shouldSkipLocation(RandomSource,int,int,int,int,boolean)
+- int foliageHeight(Random,int,TreeConfiguration)
++ int foliageHeight(RandomSource,int,TreeConfiguration)
+- void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
+
+```diff
+- void lambda$place$6(Random,BeehiveBlockEntity)
++ void lambda$place$6(RandomSource,BeehiveBlockEntity)
+- void place(LevelSimulatedReader,BiConsumer,Random,List,List)
++ void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
+
+```diff
++ Float lambda$static$0(LeaveVineDecorator)
+- LeaveVineDecorator lambda$static$0()
+- void <init>()
++ void <init>(float)
+- void lambda$place$1(Random,LevelSimulatedReader,BiConsumer,BlockPos)
++ void lambda$place$1(RandomSource,LevelSimulatedReader,BiConsumer,BlockPos)
+- void place(LevelSimulatedReader,BiConsumer,Random,List,List)
++ void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer</summary>
+
+```diff
+- List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
++ List placeTrunk(LevelSimulatedReader,BiConsumer,RandomSource,int,BlockPos,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer</summary>
+
+```diff
+- List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
++ List placeTrunk(LevelSimulatedReader,BiConsumer,RandomSource,int,BlockPos,TreeConfiguration)
+- void placeLogIfFreeWithOffset(LevelSimulatedReader,BiConsumer,Random,BlockPos$MutableBlockPos,TreeConfiguration,BlockPos,int,int,int)
++ void placeLogIfFreeWithOffset(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos$MutableBlockPos,TreeConfiguration,BlockPos,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
+
+```diff
+- List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
++ List placeTrunk(LevelSimulatedReader,BiConsumer,RandomSource,int,BlockPos,TreeConfiguration)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/husbandry/allay_deliver_cake_to_noteblock.json
++ minecraft/advancements/husbandry/allay_deliver_item_to_player.json
++ minecraft/advancements/recipes/tools/recovery_compass.json
++ minecraft/recipes/recovery_compass.json
+- minecraft/structures/ancient_city/city/entrance/bottom_piece_1.nbt
+- minecraft/structures/ancient_city/city/entrance/bottom_piece_2.nbt
+- minecraft/structures/ancient_city/city/entrance/bottom_piece_3.nbt
+- minecraft/structures/ancient_city/city/entrance/bottom_piece.nbt
+- minecraft/structures/ancient_city/city/entrance/top_piece.nbt
+- minecraft/structures/ancient_city/structures/small_portal_statue.nbt
+- minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
+- minecraft/tags/blocks/ancient_city_center_replaceable.json
++ minecraft/tags/blocks/dead_bush_may_place_on.json
++ minecraft/tags/blocks/mangrove_logs_can_grow_through.json
++ minecraft/tags/blocks/mangrove_roots_can_grow_through.json
++ minecraft/tags/cat_variant/default_spawns.json
++ minecraft/tags/cat_variant/full_moon_spawns.json
++ minecraft/tags/entity_types/frog_food.json
++ minecraft/tags/game_events/shrieker_can_listen.json
++ minecraft/tags/game_events/warden_can_listen.json
+- minecraft/tags/game_events/warden_events_can_listen.json
++ minecraft/tags/items/compasses.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/echo_shard.json
++ minecraft/models/item/recovery_compass_00.json
++ minecraft/models/item/recovery_compass_01.json
++ minecraft/models/item/recovery_compass_02.json
++ minecraft/models/item/recovery_compass_03.json
++ minecraft/models/item/recovery_compass_04.json
++ minecraft/models/item/recovery_compass_05.json
++ minecraft/models/item/recovery_compass_06.json
++ minecraft/models/item/recovery_compass_07.json
++ minecraft/models/item/recovery_compass_08.json
++ minecraft/models/item/recovery_compass_09.json
++ minecraft/models/item/recovery_compass_10.json
++ minecraft/models/item/recovery_compass_11.json
++ minecraft/models/item/recovery_compass_12.json
++ minecraft/models/item/recovery_compass_13.json
++ minecraft/models/item/recovery_compass_14.json
++ minecraft/models/item/recovery_compass_15.json
++ minecraft/models/item/recovery_compass_17.json
++ minecraft/models/item/recovery_compass_18.json
++ minecraft/models/item/recovery_compass_19.json
++ minecraft/models/item/recovery_compass_20.json
++ minecraft/models/item/recovery_compass_21.json
++ minecraft/models/item/recovery_compass_22.json
++ minecraft/models/item/recovery_compass_23.json
++ minecraft/models/item/recovery_compass_24.json
++ minecraft/models/item/recovery_compass_25.json
++ minecraft/models/item/recovery_compass_26.json
++ minecraft/models/item/recovery_compass_27.json
++ minecraft/models/item/recovery_compass_28.json
++ minecraft/models/item/recovery_compass_29.json
++ minecraft/models/item/recovery_compass_30.json
++ minecraft/models/item/recovery_compass_31.json
++ minecraft/models/item/recovery_compass.json
++ minecraft/textures/item/echo_shard.png
++ minecraft/textures/item/recovery_compass_00.png
++ minecraft/textures/item/recovery_compass_01.png
++ minecraft/textures/item/recovery_compass_02.png
++ minecraft/textures/item/recovery_compass_03.png
++ minecraft/textures/item/recovery_compass_04.png
++ minecraft/textures/item/recovery_compass_05.png
++ minecraft/textures/item/recovery_compass_06.png
++ minecraft/textures/item/recovery_compass_07.png
++ minecraft/textures/item/recovery_compass_08.png
++ minecraft/textures/item/recovery_compass_09.png
++ minecraft/textures/item/recovery_compass_10.png
++ minecraft/textures/item/recovery_compass_11.png
++ minecraft/textures/item/recovery_compass_12.png
++ minecraft/textures/item/recovery_compass_13.png
++ minecraft/textures/item/recovery_compass_14.png
++ minecraft/textures/item/recovery_compass_15.png
++ minecraft/textures/item/recovery_compass_16.png
++ minecraft/textures/item/recovery_compass_17.png
++ minecraft/textures/item/recovery_compass_18.png
++ minecraft/textures/item/recovery_compass_19.png
++ minecraft/textures/item/recovery_compass_20.png
++ minecraft/textures/item/recovery_compass_21.png
++ minecraft/textures/item/recovery_compass_22.png
++ minecraft/textures/item/recovery_compass_23.png
++ minecraft/textures/item/recovery_compass_24.png
++ minecraft/textures/item/recovery_compass_25.png
++ minecraft/textures/item/recovery_compass_26.png
++ minecraft/textures/item/recovery_compass_27.png
++ minecraft/textures/item/recovery_compass_28.png
++ minecraft/textures/item/recovery_compass_29.png
++ minecraft/textures/item/recovery_compass_30.png
++ minecraft/textures/item/recovery_compass_31.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/worldgen/minecraft/worldgen/biome/mangrove_swamp.json
++ reports/worldgen/minecraft/worldgen/configured_feature/disk_grass.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mangrove_vegetation.json
++ reports/worldgen/minecraft/worldgen/configured_feature/mangrove.json
++ reports/worldgen/minecraft/worldgen/configured_feature/tall_mangrove.json
++ reports/worldgen/minecraft/worldgen/placed_feature/disk_grass.json
++ reports/worldgen/minecraft/worldgen/placed_feature/mangrove_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
++ reports/worldgen/minecraft/worldgen/placed_feature/trees_mangrove.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ cat_variant.txt
++ frog_variant.txt
++ worldgen/root_placer_type.txt
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:echo_shard
++ minecraft:recovery_compass
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
+- minecraft:glow_lichen
++ minecraft:multiface_growth
++ minecraft:surface_disk
+```
+
+</details>
+
+
+<details><summary>worldgen/tree_decorator_type.txt</summary>
+
+```diff
++ minecraft:attached_to_leaves
+```
+
+</details>
+
+
+<details><summary>worldgen/trunk_placer_type.txt</summary>
+
+```diff
++ minecraft:upwards_branching_trunk_placer
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- blocks/ancient_city_center_replaceable.json
++ blocks/dead_bush_may_place_on.json
++ blocks/mangrove_logs_can_grow_through.json
++ blocks/mangrove_roots_can_grow_through.json
++ cat_variant/default_spawns.json
++ cat_variant/full_moon_spawns.json
++ entity_types/frog_food.json
++ game_events/shrieker_can_listen.json
++ game_events/warden_can_listen.json
+- game_events/warden_events_can_listen.json
++ items/compasses.json
+```
+
+</details>
+
+
+<details><summary>blocks/ancient_city_replaceable.json</summary>
+
+```diff
+- #minecraft:ancient_city_center_replaceable
++ minecraft:cobbled_deepslate
++ minecraft:cracked_deepslate_bricks
++ minecraft:cracked_deepslate_tiles
++ minecraft:deepslate
++ minecraft:deepslate_brick_slab
++ minecraft:deepslate_brick_stairs
++ minecraft:deepslate_brick_wall
++ minecraft:deepslate_bricks
++ minecraft:deepslate_tile_slab
++ minecraft:deepslate_tile_wall
++ minecraft:deepslate_tiles
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/allows_surface_slime_spawns.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/has_closer_water_fog.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/has_structure/mineshaft.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/has_structure/ruined_portal_swamp.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/is_overworld.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/spawns_warm_variant_frogs.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/water_on_map_outlines.json</summary>
+
+```diff
++ minecraft:mangrove_swamp
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.husbandry.allay_deliver_cake_to_noteblock.description
++ advancements.husbandry.allay_deliver_cake_to_noteblock.title
++ advancements.husbandry.allay_deliver_item_to_player.description
++ advancements.husbandry.allay_deliver_item_to_player.title
++ biome.minecraft.mangrove_swamp
++ item.minecraft.echo_shard
++ item.minecraft.recovery_compass
++ subtitles.block.sculk_catalyst.bloom
++ subtitles.block.sculk_shrieker.shriek
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ husbandry/allay_deliver_cake_to_noteblock.json
++ husbandry/allay_deliver_item_to_player.json
++ recipes/tools/recovery_compass.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ recovery_compass.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
+- ancient_city/city/entrance/bottom_piece_1.nbt
+- ancient_city/city/entrance/bottom_piece_2.nbt
+- ancient_city/city/entrance/bottom_piece_3.nbt
+- ancient_city/city/entrance/bottom_piece.nbt
+- ancient_city/city/entrance/top_piece.nbt
+- ancient_city/structures/small_portal_statue.nbt
+- ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/ancient_city_center_replaceable.json
++ blocks/dead_bush_may_place_on.json
++ blocks/mangrove_logs_can_grow_through.json
++ blocks/mangrove_roots_can_grow_through.json
++ cat_variant/default_spawns.json
++ cat_variant/full_moon_spawns.json
++ entity_types/frog_food.json
++ game_events/shrieker_can_listen.json
++ game_events/warden_can_listen.json
+- game_events/warden_events_can_listen.json
++ items/compasses.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ item/echo_shard.png
++ item/recovery_compass_00.png
++ item/recovery_compass_01.png
++ item/recovery_compass_02.png
++ item/recovery_compass_03.png
++ item/recovery_compass_04.png
++ item/recovery_compass_05.png
++ item/recovery_compass_06.png
++ item/recovery_compass_07.png
++ item/recovery_compass_08.png
++ item/recovery_compass_09.png
++ item/recovery_compass_10.png
++ item/recovery_compass_11.png
++ item/recovery_compass_12.png
++ item/recovery_compass_13.png
++ item/recovery_compass_14.png
++ item/recovery_compass_15.png
++ item/recovery_compass_16.png
++ item/recovery_compass_17.png
++ item/recovery_compass_18.png
++ item/recovery_compass_19.png
++ item/recovery_compass_20.png
++ item/recovery_compass_21.png
++ item/recovery_compass_22.png
++ item/recovery_compass_23.png
++ item/recovery_compass_24.png
++ item/recovery_compass_25.png
++ item/recovery_compass_26.png
++ item/recovery_compass_27.png
++ item/recovery_compass_28.png
++ item/recovery_compass_29.png
++ item/recovery_compass_30.png
++ item/recovery_compass_31.png
+```
+
+</details>

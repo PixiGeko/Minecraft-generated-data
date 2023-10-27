@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w06a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w06a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-02-09T16:47:48+00:00</td></tr>
@@ -10,2980 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e39e107d5387eb76fb1f68deb7a957e01be83369/server.txt">https://piston-data.mojang.com/v1/objects/e39e107d5387eb76fb1f68deb7a957e01be83369/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/b863174b1147a6a9d9ab4922d9ced4eee19452ac/client.jar">https://piston-data.mojang.com/v1/objects/b863174b1147a6a9d9ab4922d9ced4eee19452ac/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/c0c33fbe60c9ba2f4a92bc831e52aadb46bb2651/client.txt">https://piston-data.mojang.com/v1/objects/c0c33fbe60c9ba2f4a92bc831e52aadb46bb2651/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w05a">22w05a</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
-+  minecraft/regional_compliancies.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>list</summary>
 
-```diff
-+ worldgen/structure_placement.txt
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
-
-```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(NbtPredicate)
-- IllegalStateException lambda$serializeToJson$2()
-- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
-- void <init>(NbtPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
-
-```diff
-+ EntityPredicate$Builder of(TagKey)
-- EntityPredicate$Builder of(Tag)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
-
-```diff
-+ EntityTypePredicate of(TagKey)
-- EntityTypePredicate of(Tag)
-- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
-
-```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(TagKey)
-- IllegalStateException lambda$serializeToJson$0()
-- void <init>(Tag)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FluidPredicate$Builder</summary>
-
-```diff
-+ TagKey fluids
-- Tag fluids
-+ FluidPredicate$Builder of(TagKey)
-- FluidPredicate$Builder of(Tag)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.ItemPredicate$Builder</summary>
-
-```diff
-+ TagKey tag
-- Tag tag
-+ ItemPredicate$Builder of(TagKey)
-- ItemPredicate$Builder of(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ void scrollChat(int)
-- void scrollChat(double)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.DebugScreenOverlay</summary>
-
-```diff
-+ LevelChunk lambda$getServerChunk$5(ChunkAccess)
-+ LevelChunk lambda$getServerChunk$6(ChunkHolder$ChunkLoadingFailure)
-+ LevelChunk lambda$getServerChunk$7(Either)
-+ Optional lambda$getLevel$4(IntegratedServer)
-+ String lambda$getSystemInformation$8(TagKey)
-+ String lambda$getSystemInformation$9(TagKey)
-+ String lambda$printBiome$2(ResourceKey)
-+ String lambda$printBiome$3(Biome)
-+ String printBiome(Holder)
-- LevelChunk lambda$getServerChunk$3(ChunkAccess)
-- LevelChunk lambda$getServerChunk$4(ChunkHolder$ChunkLoadingFailure)
-- LevelChunk lambda$getServerChunk$5(Either)
-- Optional lambda$getLevel$2(IntegratedServer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.SystemToast$SystemToastIds</summary>
-
-```diff
-+ SystemToast$SystemToastIds PERIODIC_NOTIFICATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
-
-```diff
-+ CreateBuffetWorldScreen$BiomeList$Entry lambda$new$0(Holder$Reference)
-- CreateBuffetWorldScreen$BiomeList$Entry lambda$new$0(Map$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
-
-```diff
-+ RegistryAccess$Frozen registryHolder
-- RegistryAccess$RegistryHolder registryHolder
-+ RegistryAccess registryHolder()
-+ void <init>(OptionalLong)
-+ void importSettings(WorldGenSettings)
-+ void lambda$init$8(WorldGenSettings,boolean)
-+ void lambda$init$9(WorldGenSettings)
-+ void updateDataPacks(WorldStem)
-- DataResult lambda$updateDataPacks$11(JsonElement)
-- RegistryAccess$RegistryHolder registryHolder()
-- void <init>(OptionalLong)
-- void importSettings(WorldGenSettings)
-- void lambda$init$8(WorldGenSettings,boolean)
-- void lambda$init$9(WorldGenSettings)
-- void lambda$updateDataPacks$12(WorldGenSettings)
-- void updateDataPacks(ServerResources)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
-
-```diff
-+ void lambda$recreateWorld$8(Path,boolean)
-- void lambda$recreateWorld$8(RegistryAccess$RegistryHolder,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedPlayerList</summary>
-
-```diff
-+ void <init>(PlayerDataStorage)
-- void <init>(PlayerDataStorage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.tutorial.CraftPlanksTutorialStep</summary>
-
-```diff
-+ boolean hasCraftedPlanksPreviously(TagKey)
-- boolean hasCraftedPlanksPreviously(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$1</summary>
-
-```diff
-+ Predicate create(Registry)
-- Predicate create(TagContainer)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
-
-```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
-
-```diff
-+ TagKey tag
-- ResourceLocation tag
-+ boolean hasBlockEntity(Registry)
-+ CompletableFuture fillSuggestions(Registry)
-+ CompletableFuture lambda$readProperties$7(Registry)
-+ CompletableFuture lambda$readVagueProperties$8(Registry)
-+ CompletableFuture lambda$static$5(Registry)
-+ CompletableFuture suggestBlockIdOrTag(Registry)
-+ CompletableFuture suggestEquals(Registry)
-+ CompletableFuture suggestNextPropertyOrEnd(Registry)
-+ CompletableFuture suggestOpenNbt(Registry)
-+ CompletableFuture suggestOpenPropertiesOrNbt(Registry)
-+ CompletableFuture suggestOpenVaguePropertiesOrNbt(Registry)
-+ CompletableFuture suggestPropertyName(Registry)
-+ CompletableFuture suggestPropertyNameOrEnd(Registry)
-+ CompletableFuture suggestTag(Registry)
-+ CompletableFuture suggestVaguePropertyName(Registry)
-+ CompletableFuture suggestVaguePropertyNameOrEnd(Registry)
-+ CompletableFuture suggestVaguePropertyValue(String)
-+ TagKey getTag()
-- boolean hasBlockEntity(TagCollection)
-- CompletableFuture fillSuggestions(TagCollection)
-- CompletableFuture lambda$readProperties$7(TagCollection)
-- CompletableFuture lambda$readVagueProperties$8(TagCollection)
-- CompletableFuture lambda$static$5(TagCollection)
-- CompletableFuture suggestBlockIdOrTag(TagCollection)
-- CompletableFuture suggestEquals(TagCollection)
-- CompletableFuture suggestNextPropertyOrEnd(TagCollection)
-- CompletableFuture suggestOpenNbt(TagCollection)
-- CompletableFuture suggestOpenPropertiesOrNbt(TagCollection)
-- CompletableFuture suggestOpenVaguePropertiesOrNbt(TagCollection)
-- CompletableFuture suggestPropertyName(TagCollection)
-- CompletableFuture suggestPropertyNameOrEnd(TagCollection)
-- CompletableFuture suggestTag(TagCollection)
-- CompletableFuture suggestVaguePropertyName(TagCollection)
-- CompletableFuture suggestVaguePropertyNameOrEnd(TagCollection)
-- CompletableFuture suggestVaguePropertyValue(String)
-- ResourceLocation getTag()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
-
-```diff
-+ Predicate lambda$parse$2(CommandContext)
-- CommandSyntaxException lambda$parse$2(ResourceLocation)
-- Predicate lambda$parse$3(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
-
-```diff
-+ Codec NETWORK_CODEC
-+ Stream ownedRegistries()
-+ Supplier BUILTIN
-- RegistryAccess$RegistryHolder BUILTIN
-+ boolean isIdentityCopy(ResourceKey)
-+ boolean lambda$ownedNetworkableRegistries$9(RegistryAccess$RegistryEntry)
-+ Codec captureMap(UnboundedMapCodec)
-+ Codec lambda$getNetworkCodec$10(RegistryAccess$RegistryData)
-+ Codec lambda$makeNetworkCodec$4(Codec)
-+ Codec makeNetworkCodec()
-+ DataResult getNetworkCodec(ResourceKey)
-+ DataResult lambda$getNetworkCodec$11(ResourceKey)
-+ DataResult lambda$makeNetworkCodec$3(Registry)
-+ DataResult lambda$makeNetworkCodec$5(ResourceKey)
-+ IllegalStateException lambda$retrieveRegistry$15(ResourceKey)
-+ Map createFreshRegistries()
-+ Map lambda$captureMap$8(RegistryAccess)
-+ Registry lambda$captureMap$7(RegistryAccess$RegistryEntry)
-+ Registry lambda$readFromDisk$14(ResourceKey)
-+ Registry ownedRegistryOrThrow(ResourceKey)
-+ Registry retrieveRegistry(Dynamic)
-+ RegistryAccess readFromDisk(Dynamic)
-+ RegistryAccess$Frozen freeze()
-+ RegistryAccess$Frozen fromRegistryOfRegistries(Registry)
-+ RegistryAccess$Frozen lambda$static$12()
-+ RegistryAccess$Writable blankWriteable()
-+ RegistryAccess$Writable builtinCopy()
-+ ResourceKey lambda$captureMap$6(RegistryAccess$RegistryEntry)
-+ Stream globalRegistries()
-+ Stream networkSafeRegistries()
-+ Stream ownedNetworkableRegistries()
-+ Stream registries()
-+ void addBuiltinElements(RegistryAccess$RegistryData)
-+ void lambda$readRegistry$13(DataResult$PartialResult)
-+ void load(RegistryLoader)
-+ void readRegistry(RegistryAccess$RegistryData)
-+ WritableRegistry createRegistry(ResourceKey)
-- boolean lambda$static$3(ResourceKey)
-- RegistryAccess$RegistryHolder builtin()
-- RegistryAccess$RegistryHolder lambda$static$5()
-- void <init>()
-- void addBuiltinElements(RegistryAccess$RegistryData)
-- void copy(Registry)
-- void copyBuiltin(ResourceKey)
-- void lambda$readRegistry$6(DataResult$PartialResult)
-- void lambda$static$4(ResourceKey)
-- void load(RegistryReadOps)
-- void readRegistry(RegistryAccess$RegistryData)
-- WritableRegistry ownedRegistryOrThrow(ResourceKey)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.WritableRegistry</summary>
-
-```diff
-+ Holder register(net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-+ Holder registerMapping(int,net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-+ Holder registerOrOverride(java.util.OptionalInt,net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-- Object register(net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-- Object registerMapping(int,net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-- Object registerOrOverride(java.util.OptionalInt,net.minecraft.resources.ResourceKey,java.lang.Object,com.mojang.serialization.Lifecycle)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
-
-```diff
-+ RegistryAccess ACCESS
-+ Holder lambda$static$0()
-+ Holder lambda$static$1()
-+ Holder register(Object)
-+ Holder register(Object)
-+ Holder register(Object)
-+ Holder registerExact(Object)
-+ void lambda$static$2(Supplier)
-- Biome lambda$static$2()
-- ConfiguredWorldCarver lambda$static$0()
-- Object register(Object)
-- Object register(Object)
-- Object register(Object)
-- Object registerMapping(Object)
-- StructureProcessorList lambda$static$1()
-- void lambda$static$3(Supplier)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
-
-```diff
-+ Stream lambda$getAllOverworldBiomes$0(Holder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ InventoryChangeTrigger$TriggerInstance has(TagKey)
-+ void planksFromLog(TagKey)
-+ void planksFromLogs(TagKey)
-- InventoryChangeTrigger$TriggerInstance has(Tag)
-- void planksFromLog(Tag)
-- void planksFromLogs(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ Tag$Builder getOrCreateRawBuilder(TagKey)
-+ TagsProvider$TagAppender tag(TagKey)
-- Tag$Builder getOrCreateRawBuilder(Tag$Named)
-- TagsProvider$TagAppender tag(Tag$Named)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.worldgen.BastionPieces</summary>
-
-```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
-
-```diff
-+ Holder CANYON
-+ Holder CAVE
-+ Holder CAVE_EXTRA_UNDERGROUND
-+ Holder NETHER_CAVE
-- ConfiguredWorldCarver CANYON
-- ConfiguredWorldCarver CAVE
-- ConfiguredWorldCarver CAVE_EXTRA_UNDERGROUND
-- ConfiguredWorldCarver NETHER_CAVE
-+ Holder register(ConfiguredWorldCarver)
-- ConfiguredWorldCarver register(ConfiguredWorldCarver)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
-
-```diff
-+ Holder bootstrap()
-- NormalNoise$NoiseParameters bootstrap()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.PlainVillagePools</summary>
-
-```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
-
-```diff
-+ Holder BASTION_GENERIC_DEGRADATION
-+ Holder BOTTOM_RAMPART
-+ Holder BRIDGE
-+ Holder EMPTY
-+ Holder ENTRANCE_REPLACEMENT
-+ Holder FARM_DESERT
-+ Holder FARM_PLAINS
-+ Holder FARM_SAVANNA
-+ Holder FARM_SNOWY
-+ Holder FARM_TAIGA
-+ Holder FOSSIL_COAL
-+ Holder FOSSIL_DIAMONDS
-+ Holder FOSSIL_ROT
-+ Holder HIGH_RAMPART
-+ Holder HIGH_WALL
-+ Holder HOUSING
-+ Holder MOSSIFY_10_PERCENT
-+ Holder MOSSIFY_20_PERCENT
-+ Holder MOSSIFY_70_PERCENT
-+ Holder OUTPOST_ROT
-+ Holder RAMPART_DEGRADATION
-+ Holder ROOF
-+ Holder SIDE_WALL_DEGRADATION
-+ Holder STABLE_DEGRADATION
-+ Holder STREET_PLAINS
-+ Holder STREET_SAVANNA
-+ Holder STREET_SNOWY_OR_TAIGA
-+ Holder TREASURE_ROOMS
-+ Holder ZOMBIE_DESERT
-+ Holder ZOMBIE_PLAINS
-+ Holder ZOMBIE_SAVANNA
-+ Holder ZOMBIE_SNOWY
-+ Holder ZOMBIE_TAIGA
-- StructureProcessorList BASTION_GENERIC_DEGRADATION
-- StructureProcessorList BOTTOM_RAMPART
-- StructureProcessorList BRIDGE
-- StructureProcessorList EMPTY
-- StructureProcessorList ENTRANCE_REPLACEMENT
-- StructureProcessorList FARM_DESERT
-- StructureProcessorList FARM_PLAINS
-- StructureProcessorList FARM_SAVANNA
-- StructureProcessorList FARM_SNOWY
-- StructureProcessorList FARM_TAIGA
-- StructureProcessorList FOSSIL_COAL
-- StructureProcessorList FOSSIL_DIAMONDS
-- StructureProcessorList FOSSIL_ROT
-- StructureProcessorList HIGH_RAMPART
-- StructureProcessorList HIGH_WALL
-- StructureProcessorList HOUSING
-- StructureProcessorList MOSSIFY_10_PERCENT
-- StructureProcessorList MOSSIFY_20_PERCENT
-- StructureProcessorList MOSSIFY_70_PERCENT
-- StructureProcessorList OUTPOST_ROT
-- StructureProcessorList RAMPART_DEGRADATION
-- StructureProcessorList ROOF
-- StructureProcessorList SIDE_WALL_DEGRADATION
-- StructureProcessorList STABLE_DEGRADATION
-- StructureProcessorList STREET_PLAINS
-- StructureProcessorList STREET_SAVANNA
-- StructureProcessorList STREET_SNOWY_OR_TAIGA
-- StructureProcessorList TREASURE_ROOMS
-- StructureProcessorList ZOMBIE_DESERT
-- StructureProcessorList ZOMBIE_PLAINS
-- StructureProcessorList ZOMBIE_SAVANNA
-- StructureProcessorList ZOMBIE_SNOWY
-- StructureProcessorList ZOMBIE_TAIGA
-+ Holder register(ImmutableList)
-- StructureProcessorList register(ImmutableList)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.SnowyVillagePools</summary>
-
-```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-
-<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
-
-```diff
-+ void add(Lifecycle)
-- void add(Lifecycle)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ void <init>(ChunkProgressListenerFactory)
-- void <init>(ChunkProgressListenerFactory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder</summary>
-
-```diff
-+ Either NOT_DONE_YET
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ ReportedException debugFuturesAndCreateReportedException(String)
-+ void lambda$debugFuturesAndCreateReportedException$4(Pair)
-+ void lambda$debugFuturesAndCreateReportedException$5(ChunkHolder)
-- void debugFuturesAndThrow(IllegalStateException)
-- void lambda$debugFuturesAndThrow$4(Pair)
-- void lambda$debugFuturesAndThrow$5(ChunkHolder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ BlockPos findNearestBiome(BlockPos,int,int)
-+ boolean lambda$findNearestBiome$13(Holder)
-+ Holder getUncachedNoiseBiome(int,int,int)
-+ void <init>(List,boolean)
-- Biome getUncachedNoiseBiome(int,int,int)
-- BlockPos findNearestBiome(BlockPos,int,int)
-- boolean lambda$findNearestBiome$13(Biome)
-- TagContainer getTagManager()
-- void <init>(List,boolean)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ Holder getUncachedNoiseBiome(int,int,int)
-- Biome getUncachedNoiseBiome(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
-
-```diff
-+ CloseableResourceManager resources
-+ List listeners
-+ Logger LOGGER
-+ PackType type
-- ReloadInstance createReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-- void close()
-- void registerReloadListener(net.minecraft.server.packs.resources.PreparableReloadListener)
-+ boolean hasResource(ResourceLocation)
-+ Collection listResources(Predicate)
-+ List getResources(ResourceLocation)
-+ Object lambda$createReload$0(List)
-+ ReloadInstance createReload(List)
-+ Resource getResource(ResourceLocation)
-+ Set getNamespaces()
-+ Stream listPacks()
-+ void <clinit>()
-+ void <init>(PackType)
-+ void close()
-+ void registerReloadListener(PreparableReloadListener)
-- CompletableFuture reload(CompletableFuture)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadInstance</summary>
-
-```diff
-- ResourceManager resourceManager
-+ ReloadInstance create(CompletableFuture,boolean)
-- boolean isDone()
-- Unit lambda$done$5(List)
-- void checkExceptions()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.Tag</summary>
-
-```diff
-+ List elements
-+ Tag EMPTY
-- boolean contains(java.lang.Object)
-- List getValues()
-+ List getValues()
-+ Tag empty()
-+ void <clinit>()
-+ void <init>(Collection)
-- Codec codec(Supplier)
-- DataResult lambda$codec$0(ResourceLocation)
-- DataResult lambda$codec$1(ResourceLocation)
-- DataResult lambda$codec$2(Tag)
-- DataResult lambda$codec$3(Tag)
-- Optional getRandomElement(Random)
-- Tag fromSet(Set)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.Tag$BuilderEntry</summary>
-
-```diff
-+ boolean equals(Object)
-+ int hashCode()
-+ String source()
-+ Tag$Entry entry()
-- String getSource()
-- Tag$Entry getEntry()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ Codec nonEmptyHolderSet(Codec)
-+ DataResult lambda$ensureHomogenous$26(Collection)
-+ DataResult lambda$nonEmptyHolderSetCheck$25(HolderSet)
-+ Function ensureHomogenous(Function)
-+ Function nonEmptyHolderSetCheck()
-+ MapCodec retrieveContext(Function)
-- DataResult lambda$nonNullSupplierCheck$26(Supplier)
-- DataResult lambda$nonNullSupplierListCheck$25(List)
-- Function nonNullSupplierCheck()
-- Function nonNullSupplierListCheck()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ boolean is(TagKey)
-+ Holder$Reference builtInRegistryHolder()
-- boolean is(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean canStandOnFluid(FluidState)
-+ void jumpInLiquid(TagKey)
-- boolean canStandOnFluid(Fluid)
-- void jumpInLiquid(Tag)
-- void startAutoSpinAttack(int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ void jumpInLiquid(TagKey)
-- void jumpInLiquid(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
-
-```diff
-+ boolean lambda$new$0(LivingEntity)
-+ void <init>(TagKey,float)
-- boolean lambda$new$0(LivingEntity)
-- void <init>(Tag,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
-+ Holder getNoiseBiome(int,int,int)
-- Biome getNoiseBiome(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ TagKey infiniburn
-- ResourceLocation infiniburn
-+ DimensionType create(ResourceLocation,float)
-+ Registry defaultDimensions(RegistryAccess,long,boolean)
-+ Registry defaultDimensions(RegistryAccess,long)
-+ RegistryAccess$Writable registerBuiltin(RegistryAccess$Writable)
-+ TagKey infiniburn()
-+ TagKey lambda$static$3(DimensionType)
-+ void <init>(ResourceLocation,float)
-+ void <init>(ResourceLocation,float)
-- DimensionType create(ResourceLocation,float)
-- DimensionType lambda$defaultDimensions$10(Registry)
-- DimensionType lambda$defaultDimensions$8(Registry)
-- MappedRegistry defaultDimensions(RegistryAccess,long,boolean)
-- MappedRegistry defaultDimensions(RegistryAccess,long)
-- NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
-- NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
-- RegistryAccess registerBuiltin(RegistryAccess)
-- ResourceLocation lambda$static$3(DimensionType)
-- Tag infiniburn()
-- void <init>(ResourceLocation,float)
-- void <init>(ResourceLocation,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ boolean is(TagKey)
-+ Holder$Reference builtInRegistryHolder()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.BelowZeroRetrogen</summary>
-
-```diff
-+ BiomeResolver getBiomeResolver(ChunkAccess)
-+ Holder lambda$getBiomeResolver$7(Climate$Sampler)
-- Biome lambda$getBiomeResolver$7(Climate$Sampler)
-- BiomeResolver getBiomeResolver(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ Holder settings
-- Supplier settings
-+ ChunkAccess lambda$createBiomes$6(ChunkAccess)
-+ Holder lambda$applyCarvers$10(int,int,int)
-+ Holder lambda$applyCarvers$12(ChunkPos)
-+ Holder lambda$static$3(NoiseBasedChunkGenerator)
-+ void <init>(Holder)
-+ void <init>(Holder)
-+ void doCreateBiomes(ChunkAccess)
-+ WeightedRandomList getMobsAt(BlockPos)
-- Biome lambda$applyCarvers$10(int,int,int)
-- Biome lambda$applyCarvers$12(ChunkPos)
-- ChunkAccess lambda$createBiomes$6(ChunkAccess)
-- Supplier lambda$static$3(NoiseBasedChunkGenerator)
-- void <init>(Supplier)
-- void <init>(Supplier)
-- void doCreateBiomes(ChunkAccess)
-- WeightedRandomList getMobsAt(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition</summary>
-
-```diff
-- Set val$biomeSet
-+ void <init>(SurfaceRules$Context)
-- void <init>(Set)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
-
-```diff
-- Registry biomes
-- Supplier biomeKey
-+ Holder lambda$updateY$0(int,int,int)
-- Biome lambda$updateY$0(int,int,int)
-- IllegalStateException lambda$updateY$1()
-- ResourceKey lambda$updateY$2()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
-
-```diff
-- IllegalStateException lambda$buildSurface$2(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.blending.Blender</summary>
-
-```diff
-+ Holder blendBiome(int,int)
-+ Holder lambda$getBiomeResolver$4(Climate$Sampler)
-+ void lambda$blendBiome$5(Holder)
-- Biome blendBiome(int,int)
-- Biome lambda$getBiomeResolver$4(Climate$Sampler)
-- void lambda$blendBiome$5(Biome)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.blending.BlendingData</summary>
-
-```diff
-+ List biomes
-- Biome[] biomes
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.blending.BlendingData$BiomeConsumer</summary>
-
-```diff
-+ void consume(int,int,net.minecraft.core.Holder)
-- void consume(int,int,net.minecraft.world.level.biome.Biome)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate</summary>
-
-```diff
-+ BlockPredicate matchesTag(TagKey)
-+ BlockPredicate matchesTag(Vec3i)
-- BlockPredicate matchesTag(Tag)
-- BlockPredicate matchesTag(Vec3i)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.blockpredicates.MatchingBlocksPredicate</summary>
-
-```diff
-+ HolderSet blocks
-- List blocks
-+ HolderSet lambda$static$0(MatchingBlocksPredicate)
-+ void <init>(HolderSet)
-- List lambda$static$0(MatchingBlocksPredicate)
-- void <init>(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
-
-```diff
-+ StructureStart generate(Predicate)
-- StructureStart generate(Predicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
-
-```diff
-+ Optional lambda$place$0(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$1(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$3(HolderSet$Named)
-+ void lambda$placeCoralBlock$2(Block)
-+ void lambda$placeCoralBlock$4(Block)
-- void lambda$placeCoralBlock$0(Block)
-- void lambda$placeCoralBlock$1(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeature</summary>
-
-```diff
-+ void lambda$countEmptyCorners$0(BlockPos)
-- void lambda$countEmptyCorners$2(BlockPos)
-- void lambda$place$0(StructureProcessor)
-- void lambda$place$1(StructureProcessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
-
-```diff
-- boolean linearSeparation()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
-
-```diff
-+ boolean isCold(Holder)
-- boolean isCold(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ BlockPos getLocatePos(ChunkPos)
-+ StructureStart generate(Predicate)
-- BlockPos getLocatePos(ChunkPos)
-- BlockPos getNearestGeneratedFeature(StructureFeatureConfiguration)
-- boolean linearSeparation()
-- ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,int,int)
-- StructureStart generate(Predicate)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VegetationPatchFeature</summary>
-
-```diff
-+ boolean lambda$place$0(BlockState)
-+ boolean lambda$placeGroundPatch$1(BlockState)
-- boolean lambda$getReplaceableTag$1(BlockState)
-- boolean lambda$getReplaceableTag$2(BlockState)
-- boolean lambda$placeGroundPatch$0(BlockState)
-- Predicate getReplaceableTag(VegetationPatchConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature</summary>
-
-```diff
-+ Holder feature
-- Supplier feature
-+ Holder lambda$static$0(WeightedPlacedFeature)
-+ void <init>(Holder,float)
-- PlacedFeature lambda$new$3(PlacedFeature)
-- Supplier lambda$static$0(WeightedPlacedFeature)
-- void <init>(PlacedFeature,float)
-- void <init>(Supplier,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GlowLichenConfiguration</summary>
-
-```diff
-+ HolderSet canBePlacedOn
-- List canBePlacedOn
-+ HolderSet lambda$static$5(GlowLichenConfiguration)
-+ void <init>(HolderSet)
-- List lambda$static$5(GlowLichenConfiguration)
-- void <init>(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.JigsawConfiguration</summary>
-
-```diff
-+ Holder startPool
-- Supplier startPool
-+ Holder startPool()
-+ void <init>(Holder,int)
-- Supplier startPool()
-- void <init>(Supplier,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration</summary>
-
-```diff
-+ Holder defaultFeature
-- Supplier defaultFeature
-+ Holder lambda$static$1(RandomFeatureConfiguration)
-+ Stream lambda$getFeatures$3(WeightedPlacedFeature)
-+ void <init>(Holder)
-- PlacedFeature lambda$new$3(PlacedFeature)
-- Stream lambda$getFeatures$4(WeightedPlacedFeature)
-- Supplier lambda$static$1(RandomFeatureConfiguration)
-- void <init>(PlacedFeature)
-- void <init>(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration</summary>
-
-```diff
-+ Holder vegetationFeature
-+ TagKey replaceable
-- ResourceLocation replaceable
-- Supplier vegetationFeature
-+ Holder lambda$static$2(VegetationPatchConfiguration)
-+ TagKey lambda$static$0(VegetationPatchConfiguration)
-+ void <init>(IntProvider,float)
-- ResourceLocation lambda$static$0(VegetationPatchConfiguration)
-- Supplier lambda$static$2(VegetationPatchConfiguration)
-- void <init>(IntProvider,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement</summary>
-
-```diff
-+ Holder feature
-- Supplier feature
-+ Holder lambda$static$0(FeaturePoolElement)
-+ void <init>(StructureTemplatePool$Projection)
-- Supplier lambda$static$0(FeaturePoolElement)
-- void <init>(StructureTemplatePool$Projection)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.LegacySinglePoolElement</summary>
-
-```diff
-+ void <init>(StructureTemplatePool$Projection)
-- void <init>(StructureTemplatePool$Projection)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.SinglePoolElement</summary>
-
-```diff
-+ Holder processors
-- Supplier processors
-+ Holder lambda$processorsCodec$1(SinglePoolElement)
-+ void <init>(StructureTemplatePool$Projection)
-- StructureProcessorList lambda$new$3()
-- Supplier lambda$processorsCodec$1(SinglePoolElement)
-- void <init>(StructureTemplatePool$Projection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
-
-```diff
-+ Holder biome
-- Supplier biome
-+ boolean lambda$updateLayers$5(BlockState)
-+ Holder getBiome()
-+ Holder getBiomeFromSettings()
-+ void setBiome(Holder)
-- Biome getBiome()
-- Biome getBiomeFromSettings()
-- Biome lambda$getDefault$8(Registry)
-- Biome lambda$new$5(Registry)
-- Biome lambda$new$6(Registry)
-- boolean lambda$updateLayers$7(BlockState)
-- void setBiome(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProtectedBlockProcessor</summary>
-
-```diff
-+ TagKey cannotReplace
-- ResourceLocation cannotReplace
-+ TagKey lambda$static$0(ProtectedBlockProcessor)
-+ void <init>(TagKey)
-- ResourceLocation lambda$static$0(ProtectedBlockProcessor)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.Fluid</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ boolean is(TagKey)
-+ Holder$Reference builtInRegistryHolder()
-- boolean is(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$1</summary>
-
-```diff
-+ Holder val$item
-- Item val$item
-+ void <init>(Holder)
-- void <init>(Item)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.EntityCollisionContext</summary>
-
-```diff
-+ boolean canStandOnFluid(FluidState)
-+ boolean lambda$new$1(FluidState)
-+ boolean lambda$static$0(FluidState)
-- boolean canStandOnFluid(FlowingFluid)
-- boolean lambda$new$1(Fluid)
-- boolean lambda$static$0(Fluid)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.MouseHandler
@@ -5478,754 +2526,374 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
 
 ```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(NbtPredicate)
 - IllegalStateException lambda$serializeToJson$2()
 - JsonSyntaxException lambda$fromJson$1(ResourceLocation)
-- void <init>(NbtPredicate)
+- void <init>(Tag,Set,StatePropertiesPredicate,NbtPredicate)
++ void <init>(TagKey,Set,StatePropertiesPredicate,NbtPredicate)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
 
 ```diff
-+ EntityPredicate$Builder of(TagKey)
 - EntityPredicate$Builder of(Tag)
++ EntityPredicate$Builder of(TagKey)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
 
 ```diff
-+ EntityTypePredicate of(TagKey)
 - EntityTypePredicate of(Tag)
++ EntityTypePredicate of(TagKey)
 - JsonSyntaxException lambda$fromJson$1(ResourceLocation)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
 
 ```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(TagKey)
 - IllegalStateException lambda$serializeToJson$0()
 - void <init>(Tag)
++ void <init>(TagKey)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.FluidPredicate$Builder</summary>
 
 ```diff
-+ TagKey fluids
-- Tag fluids
-+ FluidPredicate$Builder of(TagKey)
 - FluidPredicate$Builder of(Tag)
++ FluidPredicate$Builder of(TagKey)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.ItemPredicate$Builder</summary>
 
 ```diff
-+ TagKey tag
-- Tag tag
-+ ItemPredicate$Builder of(TagKey)
 - ItemPredicate$Builder of(Tag)
++ ItemPredicate$Builder of(TagKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
+<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
 
 ```diff
-+ CompletableFuture suggestResource(String)
+- void scrollChat(double)
++ void scrollChat(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$2</summary>
+<details><summary>net.minecraft.client.gui.components.DebugScreenOverlay</summary>
 
 ```diff
-+ TagKey val$tag
-- ResourceLocation val$id
+- LevelChunk lambda$getServerChunk$3(ChunkAccess)
+- LevelChunk lambda$getServerChunk$4(ChunkHolder$ChunkLoadingFailure)
++ LevelChunk lambda$getServerChunk$5(ChunkAccess)
+- LevelChunk lambda$getServerChunk$5(Either)
++ LevelChunk lambda$getServerChunk$6(ChunkHolder$ChunkLoadingFailure)
++ LevelChunk lambda$getServerChunk$7(Either)
+- Optional lambda$getLevel$2(IntegratedServer)
++ Optional lambda$getLevel$4(IntegratedServer)
++ String lambda$getSystemInformation$8(TagKey)
++ String lambda$getSystemInformation$9(TagKey)
++ String lambda$printBiome$2(ResourceKey)
++ String lambda$printBiome$3(Biome)
++ String printBiome(Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
+
+```diff
++ CreateBuffetWorldScreen$BiomeList$Entry lambda$new$0(Holder$Reference)
+- CreateBuffetWorldScreen$BiomeList$Entry lambda$new$0(Map$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
+
+```diff
+- DataResult lambda$updateDataPacks$11(RegistryReadOps,JsonElement)
++ RegistryAccess registryHolder()
+- RegistryAccess$RegistryHolder registryHolder()
++ void <init>(RegistryAccess$Frozen,WorldGenSettings,Optional,OptionalLong)
+- void <init>(RegistryAccess$RegistryHolder,WorldGenSettings,Optional,OptionalLong)
++ void importSettings(RegistryAccess$Frozen,WorldGenSettings)
+- void importSettings(RegistryAccess$RegistryHolder,WorldGenSettings)
+- void lambda$init$8(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,WorldGenSettings,boolean)
++ void lambda$init$8(Minecraft,CreateWorldScreen,RegistryAccess$Writable,WorldGenSettings,boolean)
+- void lambda$init$9(Minecraft,CreateWorldScreen,RegistryAccess$RegistryHolder,Lifecycle,WorldGenSettings)
++ void lambda$init$9(Minecraft,CreateWorldScreen,RegistryAccess$Writable,Lifecycle,WorldGenSettings)
+- void lambda$updateDataPacks$12(RegistryAccess$RegistryHolder,WorldGenSettings)
+- void updateDataPacks(ServerResources)
++ void updateDataPacks(WorldStem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
+
+```diff
+- void lambda$recreateWorld$8(LevelSettings,WorldGenSettings,Path,DataPackConfig,RegistryAccess$RegistryHolder,boolean)
++ void lambda$recreateWorld$8(WorldStem,Path,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.server.IntegratedPlayerList</summary>
+
+```diff
++ void <init>(IntegratedServer,RegistryAccess$Frozen,PlayerDataStorage)
+- void <init>(IntegratedServer,RegistryAccess$RegistryHolder,PlayerDataStorage)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.tutorial.CraftPlanksTutorialStep</summary>
+
+```diff
+- boolean hasCraftedPlanksPreviously(LocalPlayer,Tag)
++ boolean hasCraftedPlanksPreviously(LocalPlayer,TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$1</summary>
+
+```diff
 + Predicate create(Registry)
-+ void <init>(BlockStateParser)
-- CommandSyntaxException lambda$create$0(ResourceLocation)
 - Predicate create(TagContainer)
-- void <init>(BlockStateParser)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$Result</summary>
-
-```diff
-+ Predicate create(net.minecraft.core.Registry)
-- Predicate create(net.minecraft.tags.TagContainer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
 
 ```diff
-+ TagKey tag
-- ResourceLocation tag
-+ CompletableFuture fillSuggestions(Registry)
-+ CompletableFuture lambda$static$1(Registry)
-+ CompletableFuture suggestItemIdOrTag(Registry)
-+ CompletableFuture suggestOpenNbt(Registry)
-+ CompletableFuture suggestTag(Registry)
-+ TagKey getTag()
-- CompletableFuture fillSuggestions(TagCollection)
-- CompletableFuture lambda$static$1(TagCollection)
-- CompletableFuture suggestItemIdOrTag(TagCollection)
-- CompletableFuture suggestOpenNbt(TagCollection)
-- CompletableFuture suggestTag(TagCollection)
+- void <init>(Tag,Map,CompoundTag)
++ void <init>(TagKey,Map,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
+
+```diff
++ boolean hasBlockEntity(Registry)
+- boolean hasBlockEntity(TagCollection)
++ CompletableFuture fillSuggestions(SuggestionsBuilder,Registry)
+- CompletableFuture fillSuggestions(SuggestionsBuilder,TagCollection)
++ CompletableFuture lambda$readProperties$7(Property,SuggestionsBuilder,Registry)
+- CompletableFuture lambda$readProperties$7(Property,SuggestionsBuilder,TagCollection)
++ CompletableFuture lambda$readVagueProperties$8(String,SuggestionsBuilder,Registry)
+- CompletableFuture lambda$readVagueProperties$8(String,SuggestionsBuilder,TagCollection)
++ CompletableFuture lambda$static$5(SuggestionsBuilder,Registry)
+- CompletableFuture lambda$static$5(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder,Registry)
+- CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestEquals(SuggestionsBuilder,Registry)
+- CompletableFuture suggestEquals(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder,Registry)
+- CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder,Registry)
+- CompletableFuture suggestOpenNbt(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder,Registry)
+- CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder,Registry)
+- CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestPropertyName(SuggestionsBuilder,Registry)
+- CompletableFuture suggestPropertyName(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder,Registry)
+- CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestTag(SuggestionsBuilder,Registry)
+- CompletableFuture suggestTag(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestVaguePropertyName(SuggestionsBuilder,Registry)
+- CompletableFuture suggestVaguePropertyName(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder,Registry)
+- CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestVaguePropertyValue(SuggestionsBuilder,Registry,String)
+- CompletableFuture suggestVaguePropertyValue(SuggestionsBuilder,TagCollection,String)
 - ResourceLocation getTag()
++ TagKey getTag()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument$TagPredicate</summary>
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
 
 ```diff
-+ TagKey tag
-- Tag tag
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
+- CommandSyntaxException lambda$parse$2(ResourceLocation)
++ Predicate lambda$parse$2(TagKey,ItemParser,CommandContext)
+- Predicate lambda$parse$3(ResourceLocation,ItemParser,CommandContext)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions</summary>
+<details><summary>net.minecraft.core.RegistryAccess</summary>
 
 ```diff
-+ boolean lambda$bootStrap$41(Entity)
-- boolean lambda$bootStrap$41(Entity)
++ boolean isIdentityCopy(ResourceKey)
++ boolean lambda$ownedNetworkableRegistries$9(RegistryAccess$RegistryEntry)
+- boolean lambda$static$3(ResourceKey)
++ Codec captureMap(UnboundedMapCodec)
++ Codec lambda$getNetworkCodec$10(RegistryAccess$RegistryData)
++ Codec lambda$makeNetworkCodec$4(ResourceKey,Codec)
++ Codec makeNetworkCodec()
++ DataResult getNetworkCodec(ResourceKey)
++ DataResult lambda$getNetworkCodec$11(ResourceKey)
++ DataResult lambda$makeNetworkCodec$3(Registry)
++ DataResult lambda$makeNetworkCodec$5(ResourceKey)
++ IllegalStateException lambda$retrieveRegistry$15(ResourceKey)
++ Map createFreshRegistries()
++ Map lambda$captureMap$8(RegistryAccess)
++ Registry lambda$captureMap$7(RegistryAccess$RegistryEntry)
++ Registry lambda$readFromDisk$14(Dynamic,ResourceKey)
++ Registry ownedRegistryOrThrow(ResourceKey)
++ Registry retrieveRegistry(ResourceKey,Dynamic)
++ RegistryAccess readFromDisk(Dynamic)
++ RegistryAccess$Frozen freeze()
++ RegistryAccess$Frozen fromRegistryOfRegistries(Registry)
++ RegistryAccess$Frozen lambda$static$12()
+- RegistryAccess$RegistryHolder builtin()
+- RegistryAccess$RegistryHolder lambda$static$5()
++ RegistryAccess$Writable blankWriteable()
++ RegistryAccess$Writable builtinCopy()
++ ResourceKey lambda$captureMap$6(RegistryAccess$RegistryEntry)
++ Stream globalRegistries()
++ Stream networkSafeRegistries()
++ Stream ownedNetworkableRegistries()
++ Stream registries()
+- void <init>()
+- void addBuiltinElements(RegistryAccess$RegistryHolder,RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
++ void addBuiltinElements(RegistryAccess$Writable,RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
+- void copy(RegistryAccess$RegistryHolder,Registry)
+- void copyBuiltin(RegistryAccess$RegistryHolder,ResourceKey)
++ void lambda$readRegistry$13(DataResult$PartialResult)
+- void lambda$readRegistry$6(DataResult$PartialResult)
+- void lambda$static$4(RegistryAccess$RegistryHolder,ResourceKey)
+- void load(RegistryAccess,RegistryReadOps)
++ void load(RegistryAccess$Writable,DynamicOps,RegistryLoader)
++ void readRegistry(DynamicOps,RegistryLoader$Bound,RegistryAccess$RegistryData)
+- void readRegistry(RegistryReadOps,RegistryAccess,RegistryAccess$RegistryData)
++ WritableRegistry createRegistry(ResourceKey)
+- WritableRegistry ownedRegistryOrThrow(ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+<details><summary>net.minecraft.data.BuiltinRegistries</summary>
 
 ```diff
-+ Holder defaultValue
-- Object defaultValue
-+ Holder registerMapping(Lifecycle)
-+ Optional getRandom(Random)
-+ Optional lambda$getRandom$0()
-+ void <init>(Function)
-- Object getRandom(Random)
-- Object registerMapping(Lifecycle)
-- void <init>(Lifecycle)
+- Biome lambda$static$2()
+- ConfiguredWorldCarver lambda$static$0()
++ Holder lambda$static$0()
++ Holder lambda$static$1()
++ Holder register(Registry,ResourceKey,Object)
++ Holder register(Registry,ResourceLocation,Object)
++ Holder register(Registry,String,Object)
++ Holder registerExact(Registry,String,Object)
+- Object register(Registry,ResourceKey,Object)
+- Object register(Registry,ResourceLocation,Object)
+- Object register(Registry,String,Object)
+- Object registerMapping(Registry,ResourceKey,Object)
+- StructureProcessorList lambda$static$1()
++ void lambda$static$2(ResourceLocation,Supplier)
+- void lambda$static$3(ResourceLocation,Supplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
 
 ```diff
-+ boolean isKnownTagName(net.minecraft.tags.TagKey)
-+ Holder getOrCreateHolder(net.minecraft.resources.ResourceKey)
-+ Holder$Reference createIntrusiveHolder(java.lang.Object)
-+ HolderSet$Named getOrCreateTag(net.minecraft.tags.TagKey)
-+ Optional getHolder(int)
-+ Optional getHolder(net.minecraft.resources.ResourceKey)
-+ Optional getRandom(java.util.Random)
-+ Optional getTag(net.minecraft.tags.TagKey)
-+ Registry freeze()
-+ Registry STRUCTURE_PLACEMENT_TYPE
-+ ResourceKey STRUCTURE_PLACEMENT_TYPE_REGISTRY
-+ Stream getTagNames()
-+ Stream getTags()
-+ Stream holders()
-+ void bindTags(java.util.Map)
-+ void resetTags()
-- Object getRandom(java.util.Random)
-+ Activity lambda$static$28(Registry)
-+ Attribute lambda$static$19(Registry)
-+ Block lambda$static$4(Registry)
-+ BlockEntityType lambda$static$10(Registry)
-+ BlockPredicateType lambda$static$38(Registry)
-+ BlockStateProviderType lambda$static$45(Registry)
-+ ChunkStatus lambda$static$13(Registry)
-+ Codec holderByNameCodec()
-+ Codec lambda$static$50(Registry)
-+ Codec lambda$static$51(Registry)
-+ DataResult lambda$byNameCodec$58(ResourceLocation)
-+ DataResult lambda$byNameCodec$59(ResourceLocation)
-+ DataResult lambda$byNameCodec$60(Object)
-+ DataResult lambda$byNameCodec$61(Object)
-+ DataResult lambda$holderByNameCodec$64(ResourceLocation)
-+ DataResult lambda$holderByNameCodec$65(ResourceLocation)
-+ DataResult lambda$holderByNameCodec$66(Holder)
-+ DataResult lambda$holderByNameCodec$67(Holder)
-+ DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-+ DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-+ DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-+ DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-+ Enchantment lambda$static$5(Registry)
-+ EntityType lambda$static$6(Registry)
-+ Feature lambda$static$40(Registry)
-+ FeatureSizeType lambda$static$49(Registry)
-+ FloatProviderType lambda$static$35(Registry)
-+ Fluid lambda$static$2(Registry)
-+ FoliagePlacerType lambda$static$46(Registry)
-+ GameEvent lambda$static$0(Registry)
-+ HeightProviderType lambda$static$37(Registry)
-+ Holder getHolderOrThrow(ResourceKey)
-+ IdMap asHolderIdMap()
-+ IllegalStateException lambda$getHolderOrThrow$71(ResourceKey)
-+ int lambda$byNameCodec$62(Object)
-+ IntProviderType lambda$static$36(Registry)
-+ Item lambda$static$7(Registry)
-+ Iterable getTagOrEmpty(TagKey)
-+ Lifecycle lambda$byNameCodec$63(Object)
-+ Lifecycle lambda$holderByNameCodec$68(Holder)
-+ Lifecycle lambda$holderByNameCodec$69(Holder)
-+ LootItemConditionType lambda$static$31(Registry)
-+ LootItemFunctionType lambda$static$30(Registry)
-+ LootNbtProviderType lambda$static$33(Registry)
-+ LootNumberProviderType lambda$static$32(Registry)
-+ LootPoolEntryType lambda$static$29(Registry)
-+ LootScoreProviderType lambda$static$34(Registry)
-+ MemoryModuleType lambda$static$25(Registry)
-+ MenuType lambda$static$16(Registry)
-+ MobEffect lambda$static$3(Registry)
-+ Motive lambda$static$11(Registry)
-+ Object lambda$internalRegister$56(WritableRegistry)
-+ Object lambda$keys$70(ResourceLocation)
-+ ParticleType lambda$static$9(Registry)
-+ PlacementModifierType lambda$static$44(Registry)
-+ PoiType lambda$static$24(Registry)
-+ PositionSourceType lambda$static$20(Registry)
-+ PosRuleTestType lambda$static$15(Registry)
-+ Potion lambda$static$8(Registry)
-+ RecipeSerializer lambda$static$18(Registry)
-+ RecipeType lambda$static$17(Registry)
-+ Registry registerSimple(Registry$RegistryBootstrap)
-+ Registry registerSimple(Registry$RegistryBootstrap)
-+ Registry registerSimple(Registry$RegistryBootstrap)
-+ ResourceLocation lambda$static$12(Registry)
-+ RuleTestType lambda$static$14(Registry)
-+ Schedule lambda$static$27(Registry)
-+ SensorType lambda$static$26(Registry)
-+ SoundEvent lambda$static$1(Registry)
-+ StatType lambda$static$21(Registry)
-+ String lambda$new$57(ResourceKey)
-+ StructureFeature lambda$static$41(Registry)
-+ StructurePieceType lambda$static$43(Registry)
-+ StructurePlacementType lambda$static$42(Registry)
-+ StructurePoolElementType lambda$static$53(Registry)
-+ StructureProcessorType lambda$static$52(Registry)
-+ TreeDecoratorType lambda$static$48(Registry)
-+ TrunkPlacerType lambda$static$47(Registry)
-+ VillagerProfession lambda$static$23(Registry)
-+ VillagerType lambda$static$22(Registry)
-+ void checkRegistry(Registry)
-+ void freezeBuiltins()
-+ void lambda$checkRegistry$55(Registry)
-+ void lambda$static$54(Supplier)
-+ WorldCarver lambda$static$39(Registry)
-+ WritableRegistry internalRegister(Lifecycle)
-- Activity lambda$static$28()
-- Attribute lambda$static$19()
-- Block lambda$static$4()
-- BlockEntityType lambda$static$10()
-- BlockPredicateType lambda$static$38()
-- BlockStateProviderType lambda$static$44()
-- ChunkStatus lambda$static$13()
-- Codec lambda$static$49()
-- Codec lambda$static$50()
-- DataResult lambda$byNameCodec$56(ResourceLocation)
-- DataResult lambda$byNameCodec$57(ResourceLocation)
-- DataResult lambda$byNameCodec$58(Object)
-- DataResult lambda$byNameCodec$59(Object)
-- DefaultedRegistry registerDefaulted(Supplier)
-- DefaultedRegistry registerDefaulted(Supplier)
-- Enchantment lambda$static$5()
-- EntityType lambda$static$6()
-- Feature lambda$static$40()
-- FeatureSizeType lambda$static$48()
-- FloatProviderType lambda$static$35()
-- Fluid lambda$static$2()
-- FoliagePlacerType lambda$static$45()
-- GameEvent lambda$static$0()
-- HeightProviderType lambda$static$37()
-- int lambda$byNameCodec$60(Object)
-- IntProviderType lambda$static$36()
-- Item lambda$static$7()
-- Lifecycle lambda$byNameCodec$61(Object)
-- LootItemConditionType lambda$static$31()
-- LootItemFunctionType lambda$static$30()
-- LootNbtProviderType lambda$static$33()
-- LootNumberProviderType lambda$static$32()
-- LootPoolEntryType lambda$static$29()
-- LootScoreProviderType lambda$static$34()
-- MemoryModuleType lambda$static$25()
-- MenuType lambda$static$16()
-- MobEffect lambda$static$3()
-- Motive lambda$static$11()
-- Object lambda$keys$62(ResourceLocation)
-- ParticleType lambda$static$9()
-- PlacementModifierType lambda$static$43()
-- PoiType lambda$static$24()
-- PositionSourceType lambda$static$20()
-- PosRuleTestType lambda$static$15()
-- Potion lambda$static$8()
-- RecipeSerializer lambda$static$18()
-- RecipeType lambda$static$17()
-- Registry registerSimple(Supplier)
-- Registry registerSimple(Supplier)
-- ResourceLocation lambda$static$12()
-- RuleTestType lambda$static$14()
-- Schedule lambda$static$27()
-- SensorType lambda$static$26()
-- SoundEvent lambda$static$1()
-- StatType lambda$static$21()
-- String lambda$new$55(ResourceKey)
-- StructureFeature lambda$static$41()
-- StructurePieceType lambda$static$42()
-- StructurePoolElementType lambda$static$52()
-- StructureProcessorType lambda$static$51()
-- TreeDecoratorType lambda$static$47()
-- TrunkPlacerType lambda$static$46()
-- VillagerProfession lambda$static$23()
-- VillagerType lambda$static$22()
-- void checkRegistry(WritableRegistry)
-- void lambda$checkRegistry$54(WritableRegistry)
-- void lambda$static$53(Supplier)
-- WorldCarver lambda$static$39()
-- WritableRegistry internalRegister(Lifecycle)
++ Stream lambda$getAllOverworldBiomes$0(Holder)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.info.WorldgenRegistryDumpReport</summary>
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
 
 ```diff
-+ void lambda$dumpValue$1(String)
+- InventoryChangeTrigger$TriggerInstance has(Tag)
++ InventoryChangeTrigger$TriggerInstance has(TagKey)
+- void planksFromLog(Consumer,ItemLike,Tag)
++ void planksFromLog(Consumer,ItemLike,TagKey)
+- void planksFromLogs(Consumer,ItemLike,Tag)
++ void planksFromLogs(Consumer,ItemLike,TagKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
 
 ```diff
-+ ShapedRecipeBuilder define(TagKey)
-- ShapedRecipeBuilder define(Tag)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
-
-```diff
-+ ShapelessRecipeBuilder requires(TagKey)
-- ShapelessRecipeBuilder requires(Tag)
+- Tag$Builder getOrCreateRawBuilder(Tag$Named)
++ Tag$Builder getOrCreateRawBuilder(TagKey)
+- TagsProvider$TagAppender tag(Tag$Named)
++ TagsProvider$TagAppender tag(TagKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+<details><summary>net.minecraft.data.worldgen.Carvers</summary>
 
 ```diff
-+ void copy(TagKey)
-- void copy(Tag$Named)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.TagsProvider$TagAppender</summary>
-
-```diff
-+ TagsProvider$TagAppender addTag(TagKey)
-- TagsProvider$TagAppender addTag(Tag$Named)
+- ConfiguredWorldCarver register(String,ConfiguredWorldCarver)
++ Holder register(String,ConfiguredWorldCarver)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.data.worldgen.DesertVillagePools</summary>
+<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
 
 ```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.PillagerOutpostPools</summary>
-
-```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Pools</summary>
-
-```diff
-+ Holder BUILTIN_EMPTY
-- StructureTemplatePool BUILTIN_EMPTY
 + Holder bootstrap()
-+ Holder register(StructureTemplatePool)
-- StructureTemplatePool bootstrap()
-- StructureTemplatePool register(StructureTemplatePool)
+- NormalNoise$NoiseParameters bootstrap()
 ```
 
 </details>
 
-<details><summary>net.minecraft.data.worldgen.SavannaVillagePools</summary>
+
+<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
 
 ```diff
-+ Holder START
-- StructureTemplatePool START
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.StructureFeatures</summary>
-
-```diff
-+ Holder BASTION_REMNANT
-+ Holder BURIED_TREASURE
-+ Holder DESERT_PYRAMID
-+ Holder END_CITY
-+ Holder IGLOO
-+ Holder JUNGLE_TEMPLE
-+ Holder MINESHAFT
-+ Holder MINESHAFT_MESA
-+ Holder NETHER_BRIDGE
-+ Holder NETHER_FOSSIL
-+ Holder OCEAN_MONUMENT
-+ Holder OCEAN_RUIN_COLD
-+ Holder OCEAN_RUIN_WARM
-+ Holder PILLAGER_OUTPOST
-+ Holder RUINED_PORTAL_DESERT
-+ Holder RUINED_PORTAL_JUNGLE
-+ Holder RUINED_PORTAL_MOUNTAIN
-+ Holder RUINED_PORTAL_NETHER
-+ Holder RUINED_PORTAL_OCEAN
-+ Holder RUINED_PORTAL_STANDARD
-+ Holder RUINED_PORTAL_SWAMP
-+ Holder SHIPWRECK
-+ Holder SHIPWRECK_BEACHED
-+ Holder STRONGHOLD
-+ Holder SWAMP_HUT
-+ Holder VILLAGE_DESERT
-+ Holder VILLAGE_PLAINS
-+ Holder VILLAGE_SAVANNA
-+ Holder VILLAGE_SNOWY
-+ Holder VILLAGE_TAIGA
-+ Holder WOODLAND_MANSION
-- ConfiguredStructureFeature BASTION_REMNANT
-- ConfiguredStructureFeature BURIED_TREASURE
-- ConfiguredStructureFeature DESERT_PYRAMID
-- ConfiguredStructureFeature END_CITY
-- ConfiguredStructureFeature IGLOO
-- ConfiguredStructureFeature JUNGLE_TEMPLE
-- ConfiguredStructureFeature MINESHAFT
-- ConfiguredStructureFeature MINESHAFT_MESA
-- ConfiguredStructureFeature NETHER_BRIDGE
-- ConfiguredStructureFeature NETHER_FOSSIL
-- ConfiguredStructureFeature OCEAN_MONUMENT
-- ConfiguredStructureFeature OCEAN_RUIN_COLD
-- ConfiguredStructureFeature OCEAN_RUIN_WARM
-- ConfiguredStructureFeature PILLAGER_OUTPOST
-- ConfiguredStructureFeature RUINED_PORTAL_DESERT
-- ConfiguredStructureFeature RUINED_PORTAL_JUNGLE
-- ConfiguredStructureFeature RUINED_PORTAL_MOUNTAIN
-- ConfiguredStructureFeature RUINED_PORTAL_NETHER
-- ConfiguredStructureFeature RUINED_PORTAL_OCEAN
-- ConfiguredStructureFeature RUINED_PORTAL_STANDARD
-- ConfiguredStructureFeature RUINED_PORTAL_SWAMP
-- ConfiguredStructureFeature SHIPWRECK
-- ConfiguredStructureFeature SHIPWRECK_BEACHED
-- ConfiguredStructureFeature STRONGHOLD
-- ConfiguredStructureFeature SWAMP_HUT
-- ConfiguredStructureFeature VILLAGE_DESERT
-- ConfiguredStructureFeature VILLAGE_PLAINS
-- ConfiguredStructureFeature VILLAGE_SAVANNA
-- ConfiguredStructureFeature VILLAGE_SNOWY
-- ConfiguredStructureFeature VILLAGE_TAIGA
-- ConfiguredStructureFeature WOODLAND_MANSION
-+ Holder bootstrap()
-+ Holder register(ConfiguredStructureFeature)
-+ void lambda$register$0(ResourceKey)
-+ void register(ResourceKey)
-+ void register(Set)
-+ void registerStructures(StructureFeatures$StructureConfigConsumer)
-- ConfiguredStructureFeature bootstrap()
-- ConfiguredStructureFeature register(ConfiguredStructureFeature)
-- StructureTemplatePool lambda$static$0()
-- StructureTemplatePool lambda$static$1()
-- StructureTemplatePool lambda$static$2()
-- StructureTemplatePool lambda$static$3()
-- StructureTemplatePool lambda$static$4()
-- StructureTemplatePool lambda$static$5()
-- StructureTemplatePool lambda$static$6()
-- void lambda$register$7(ResourceKey)
-- void register(ResourceKey)
-- void register(Set)
-- void registerStructures(BiConsumer)
++ Holder register(String,ImmutableList)
+- StructureProcessorList register(String,ImmutableList)
 ```
 
 </details>
@@ -6234,202 +2902,73 @@
 <details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
 
 ```diff
-+ void add(Lifecycle)
-- void add(Lifecycle)
++ void add(RegistryAccess,ResourceKey,Encoder,int,Object,Lifecycle)
+- void add(RegistryAccess$RegistryHolder,ResourceKey,Encoder,int,Object,Lifecycle)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
 
 ```diff
-+ void <init>(ChunkProgressListenerFactory)
-- void <init>(ChunkProgressListenerFactory)
++ void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void <init>(Thread,RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,WorldData,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder</summary>
-
-```diff
-+ Either NOT_DONE_YET
-```
-
-</details>
-
-
 
 
 <details><summary>net.minecraft.server.level.ChunkMap</summary>
 
 ```diff
-+ ReportedException debugFuturesAndCreateReportedException(String)
-+ void lambda$debugFuturesAndCreateReportedException$4(Pair)
-+ void lambda$debugFuturesAndCreateReportedException$5(ChunkHolder)
++ ReportedException debugFuturesAndCreateReportedException(IllegalStateException,String)
 - void debugFuturesAndThrow(IllegalStateException)
-- void lambda$debugFuturesAndThrow$4(Pair)
-- void lambda$debugFuturesAndThrow$5(ChunkHolder)
++ void lambda$debugFuturesAndCreateReportedException$4(StringBuilder,ChunkHolder,Pair)
++ void lambda$debugFuturesAndCreateReportedException$5(StringBuilder,ChunkHolder)
+- void lambda$debugFuturesAndThrow$4(StringBuilder,ChunkHolder,Pair)
+- void lambda$debugFuturesAndThrow$5(StringBuilder,ChunkHolder)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.ServerLevel</summary>
 
 ```diff
-+ BlockPos findNearestBiome(BlockPos,int,int)
-+ boolean lambda$findNearestBiome$13(Holder)
-+ Holder getUncachedNoiseBiome(int,int,int)
-+ void <init>(List,boolean)
 - Biome getUncachedNoiseBiome(int,int,int)
-- BlockPos findNearestBiome(BlockPos,int,int)
-- boolean lambda$findNearestBiome$13(Biome)
+- BlockPos findNearestBiome(Biome,BlockPos,int,int)
++ BlockPos findNearestBiome(ResourceKey,BlockPos,int,int)
+- boolean lambda$findNearestBiome$13(Biome,Biome)
++ boolean lambda$findNearestBiome$13(ResourceKey,Holder)
++ Holder getUncachedNoiseBiome(int,int,int)
 - TagContainer getTagManager()
-- void <init>(List,boolean)
+- void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,ResourceKey,DimensionType,ChunkProgressListener,ChunkGenerator,boolean,long,List,boolean)
++ void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,ResourceKey,Holder,ChunkProgressListener,ChunkGenerator,boolean,long,List,boolean)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.WorldGenRegion</summary>
 
 ```diff
-+ Holder getUncachedNoiseBiome(int,int,int)
 - Biome getUncachedNoiseBiome(int,int,int)
++ Holder getUncachedNoiseBiome(int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
 
 ```diff
-+ CloseableResourceManager resources
-+ List listeners
-+ Logger LOGGER
-+ PackType type
-- ReloadInstance createReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-- void close()
-- void registerReloadListener(net.minecraft.server.packs.resources.PreparableReloadListener)
 + boolean hasResource(ResourceLocation)
-+ Collection listResources(Predicate)
++ Collection listResources(String,Predicate)
+- CompletableFuture reload(Executor,Executor,List,CompletableFuture)
 + List getResources(ResourceLocation)
 + Object lambda$createReload$0(List)
-+ ReloadInstance createReload(List)
++ ReloadInstance createReload(Executor,Executor,CompletableFuture,List)
 + Resource getResource(ResourceLocation)
 + Set getNamespaces()
 + Stream listPacks()
@@ -6437,20 +2976,16 @@
 + void <init>(PackType)
 + void close()
 + void registerReloadListener(PreparableReloadListener)
-- CompletableFuture reload(CompletableFuture)
 ```
 
 </details>
 
 
-
-
 <details><summary>net.minecraft.server.packs.resources.SimpleReloadInstance</summary>
 
 ```diff
-- ResourceManager resourceManager
-+ ReloadInstance create(CompletableFuture,boolean)
 - boolean isDone()
++ ReloadInstance create(ResourceManager,List,Executor,Executor,CompletableFuture,boolean)
 - Unit lambda$done$5(List)
 - void checkExceptions()
 ```
@@ -6461,220 +2996,72 @@
 <details><summary>net.minecraft.tags.Tag</summary>
 
 ```diff
-+ List elements
-+ Tag EMPTY
-- boolean contains(java.lang.Object)
-- List getValues()
-+ List getValues()
-+ Tag empty()
-+ void <clinit>()
-+ void <init>(Collection)
 - Codec codec(Supplier)
 - DataResult lambda$codec$0(ResourceLocation)
-- DataResult lambda$codec$1(ResourceLocation)
+- DataResult lambda$codec$1(Supplier,ResourceLocation)
 - DataResult lambda$codec$2(Tag)
-- DataResult lambda$codec$3(Tag)
+- DataResult lambda$codec$3(Supplier,Tag)
++ List getValues()
 - Optional getRandomElement(Random)
++ Tag empty()
 - Tag fromSet(Set)
++ void <clinit>()
++ void <init>(Collection)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.tags.Tag$BuilderEntry</summary>
 
 ```diff
 + boolean equals(Object)
 + int hashCode()
+- String getSource()
 + String source()
 + Tag$Entry entry()
-- String getSource()
 - Tag$Entry getEntry()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.util.ExtraCodecs</summary>
 
 ```diff
 + Codec nonEmptyHolderSet(Codec)
-+ DataResult lambda$ensureHomogenous$26(Collection)
++ DataResult lambda$ensureHomogenous$26(Function,Collection)
 + DataResult lambda$nonEmptyHolderSetCheck$25(HolderSet)
-+ Function ensureHomogenous(Function)
-+ Function nonEmptyHolderSetCheck()
-+ MapCodec retrieveContext(Function)
 - DataResult lambda$nonNullSupplierCheck$26(Supplier)
 - DataResult lambda$nonNullSupplierListCheck$25(List)
++ Function ensureHomogenous(Function)
++ Function nonEmptyHolderSetCheck()
 - Function nonNullSupplierCheck()
 - Function nonNullSupplierListCheck()
++ MapCodec retrieveContext(Function)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.EntityType</summary>
 
 ```diff
-+ Holder$Reference builtInRegistryHolder
+- boolean is(Tag)
 + boolean is(TagKey)
 + Holder$Reference builtInRegistryHolder()
-- boolean is(Tag)
 ```
 
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ boolean canStandOnFluid(FluidState)
-+ void jumpInLiquid(TagKey)
 - boolean canStandOnFluid(Fluid)
++ boolean canStandOnFluid(FluidState)
 - void jumpInLiquid(Tag)
++ void jumpInLiquid(TagKey)
 - void startAutoSpinAttack(int)
 ```
 
@@ -6684,182 +3071,66 @@
 <details><summary>net.minecraft.world.entity.Mob</summary>
 
 ```diff
-+ void jumpInLiquid(TagKey)
 - void jumpInLiquid(Tag)
++ void jumpInLiquid(TagKey)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
 
 ```diff
-+ boolean lambda$new$0(LivingEntity)
-+ void <init>(TagKey,float)
-- boolean lambda$new$0(LivingEntity)
+- boolean lambda$new$0(Tag,LivingEntity)
++ boolean lambda$new$0(TagKey,LivingEntity)
 - void <init>(Tag,float)
++ void <init>(TagKey,float)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
 
 ```diff
-+ Holder getNoiseBiome(int,int,int)
 - Biome getNoiseBiome(int,int,int)
++ Holder getNoiseBiome(int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
 
 ```diff
-+ TagKey infiniburn
-- ResourceLocation infiniburn
-+ DimensionType create(ResourceLocation,float)
-+ Registry defaultDimensions(RegistryAccess,long,boolean)
-+ Registry defaultDimensions(RegistryAccess,long)
-+ RegistryAccess$Writable registerBuiltin(RegistryAccess$Writable)
-+ TagKey infiniburn()
-+ TagKey lambda$static$3(DimensionType)
-+ void <init>(ResourceLocation,float)
-+ void <init>(ResourceLocation,float)
-- DimensionType create(ResourceLocation,float)
+- DimensionType create(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ DimensionType create(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
 - DimensionType lambda$defaultDimensions$10(Registry)
 - DimensionType lambda$defaultDimensions$8(Registry)
 - MappedRegistry defaultDimensions(RegistryAccess,long,boolean)
 - MappedRegistry defaultDimensions(RegistryAccess,long)
 - NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
 - NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
++ Registry defaultDimensions(RegistryAccess,long,boolean)
++ Registry defaultDimensions(RegistryAccess,long)
 - RegistryAccess registerBuiltin(RegistryAccess)
++ RegistryAccess$Writable registerBuiltin(RegistryAccess$Writable)
 - ResourceLocation lambda$static$3(DimensionType)
 - Tag infiniburn()
-- void <init>(ResourceLocation,float)
-- void <init>(ResourceLocation,float)
++ TagKey infiniburn()
++ TagKey lambda$static$3(DimensionType)
+- void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
+- void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
 
 ```diff
-+ Holder$Reference builtInRegistryHolder
 + boolean is(TagKey)
 + Holder$Reference builtInRegistryHolder()
 ```
@@ -6867,78 +3138,47 @@
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.BelowZeroRetrogen</summary>
 
 ```diff
-+ BiomeResolver getBiomeResolver(ChunkAccess)
-+ Holder lambda$getBiomeResolver$7(Climate$Sampler)
-- Biome lambda$getBiomeResolver$7(Climate$Sampler)
-- BiomeResolver getBiomeResolver(ChunkAccess)
+- Biome lambda$getBiomeResolver$7(BiomeResolver,Set,ChunkAccess,int,int,int,Climate$Sampler)
++ BiomeResolver getBiomeResolver(BiomeResolver,ChunkAccess)
+- BiomeResolver getBiomeResolver(BiomeResolver,Registry,ChunkAccess)
++ Holder lambda$getBiomeResolver$7(BiomeResolver,Predicate,ChunkAccess,int,int,int,Climate$Sampler)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
 
 ```diff
-+ Holder settings
-- Supplier settings
-+ ChunkAccess lambda$createBiomes$6(ChunkAccess)
+- Biome lambda$applyCarvers$10(int,int,int)
+- Biome lambda$applyCarvers$12(ChunkPos)
++ ChunkAccess lambda$createBiomes$6(Blender,StructureFeatureManager,ChunkAccess)
+- ChunkAccess lambda$createBiomes$6(Registry,Blender,StructureFeatureManager,ChunkAccess)
 + Holder lambda$applyCarvers$10(int,int,int)
 + Holder lambda$applyCarvers$12(ChunkPos)
 + Holder lambda$static$3(NoiseBasedChunkGenerator)
-+ void <init>(Holder)
-+ void <init>(Holder)
-+ void doCreateBiomes(ChunkAccess)
-+ WeightedRandomList getMobsAt(BlockPos)
-- Biome lambda$applyCarvers$10(int,int,int)
-- Biome lambda$applyCarvers$12(ChunkPos)
-- ChunkAccess lambda$createBiomes$6(ChunkAccess)
 - Supplier lambda$static$3(NoiseBasedChunkGenerator)
-- void <init>(Supplier)
-- void <init>(Supplier)
-- void doCreateBiomes(ChunkAccess)
-- WeightedRandomList getMobsAt(BlockPos)
++ void <init>(Registry,BiomeSource,BiomeSource,long,Holder)
+- void <init>(Registry,BiomeSource,BiomeSource,long,Supplier)
++ void <init>(Registry,BiomeSource,long,Holder)
+- void <init>(Registry,BiomeSource,long,Supplier)
++ void doCreateBiomes(Blender,StructureFeatureManager,ChunkAccess)
+- void doCreateBiomes(Registry,Blender,StructureFeatureManager,ChunkAccess)
+- WeightedRandomList getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
++ WeightedRandomList getMobsAt(Holder,StructureFeatureManager,MobCategory,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition</summary>
 
 ```diff
-- Set val$biomeSet
-+ void <init>(SurfaceRules$Context)
-- void <init>(Set)
+- void <init>(SurfaceRules$BiomeConditionSource,SurfaceRules$Context,Set)
++ void <init>(SurfaceRules$BiomeConditionSource,SurfaceRules$Context)
 ```
 
 </details>
@@ -6947,28 +3187,13 @@
 <details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
 
 ```diff
-- Registry biomes
-- Supplier biomeKey
-+ Holder lambda$updateY$0(int,int,int)
 - Biome lambda$updateY$0(int,int,int)
++ Holder lambda$updateY$0(int,int,int)
 - IllegalStateException lambda$updateY$1()
 - ResourceKey lambda$updateY$2()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
@@ -6980,142 +3205,79 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.blending.Blender</summary>
 
 ```diff
-+ Holder blendBiome(int,int)
-+ Holder lambda$getBiomeResolver$4(Climate$Sampler)
-+ void lambda$blendBiome$5(Holder)
 - Biome blendBiome(int,int)
-- Biome lambda$getBiomeResolver$4(Climate$Sampler)
-- void lambda$blendBiome$5(Biome)
+- Biome lambda$getBiomeResolver$4(BiomeResolver,int,int,int,Climate$Sampler)
++ Holder blendBiome(int,int)
++ Holder lambda$getBiomeResolver$4(BiomeResolver,int,int,int,Climate$Sampler)
+- void lambda$blendBiome$5(double,double,MutableDouble,MutableObject,int,int,Biome)
++ void lambda$blendBiome$5(double,double,MutableDouble,MutableObject,int,int,Holder)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.blending.BlendingData</summary>
-
-```diff
-+ List biomes
-- Biome[] biomes
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.blending.BlendingData$BiomeConsumer</summary>
-
-```diff
-+ void consume(int,int,net.minecraft.core.Holder)
-- void consume(int,int,net.minecraft.world.level.biome.Biome)
-```
-
-</details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate</summary>
 
 ```diff
-+ BlockPredicate matchesTag(TagKey)
-+ BlockPredicate matchesTag(Vec3i)
+- BlockPredicate matchesTag(Tag,Vec3i)
 - BlockPredicate matchesTag(Tag)
-- BlockPredicate matchesTag(Vec3i)
++ BlockPredicate matchesTag(TagKey,Vec3i)
++ BlockPredicate matchesTag(TagKey)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.blockpredicates.MatchingBlocksPredicate</summary>
 
 ```diff
-+ HolderSet blocks
-- List blocks
 + HolderSet lambda$static$0(MatchingBlocksPredicate)
-+ void <init>(HolderSet)
 - List lambda$static$0(MatchingBlocksPredicate)
-- void <init>(List)
++ void <init>(Vec3i,HolderSet)
+- void <init>(Vec3i,List)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
 
 ```diff
-+ StructureStart generate(Predicate)
-- StructureStart generate(Predicate)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,LevelHeightAccessor,Predicate)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,LevelHeightAccessor,Predicate)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
 
 ```diff
-+ Optional lambda$place$0(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$1(HolderSet$Named)
-+ Optional lambda$placeCoralBlock$3(HolderSet$Named)
-+ void lambda$placeCoralBlock$2(Block)
-+ void lambda$placeCoralBlock$4(Block)
-- void lambda$placeCoralBlock$0(Block)
-- void lambda$placeCoralBlock$1(Block)
++ Optional lambda$place$0(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$1(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$3(Random,HolderSet$Named)
+- void lambda$placeCoralBlock$0(LevelAccessor,BlockPos,Block)
+- void lambda$placeCoralBlock$1(Direction,LevelAccessor,BlockPos,Block)
++ void lambda$placeCoralBlock$2(LevelAccessor,BlockPos,Block)
++ void lambda$placeCoralBlock$4(Direction,LevelAccessor,BlockPos,Block)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.FossilFeature</summary>
 
 ```diff
-+ void lambda$countEmptyCorners$0(BlockPos)
-- void lambda$countEmptyCorners$2(BlockPos)
-- void lambda$place$0(StructureProcessor)
-- void lambda$place$1(StructureProcessor)
++ void lambda$countEmptyCorners$0(WorldGenLevel,MutableInt,BlockPos)
+- void lambda$countEmptyCorners$2(WorldGenLevel,MutableInt,BlockPos)
+- void lambda$place$0(StructurePlaceSettings,StructureProcessor)
+- void lambda$place$1(StructurePlaceSettings,StructureProcessor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
@@ -7127,65 +3289,52 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
 
 ```diff
-+ boolean isCold(Holder)
-- boolean isCold(Biome)
+- boolean isCold(BlockPos,Biome)
++ boolean isCold(BlockPos,Holder)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
 ```diff
-+ BlockPos getLocatePos(ChunkPos)
-+ StructureStart generate(Predicate)
 - BlockPos getLocatePos(ChunkPos)
-- BlockPos getNearestGeneratedFeature(StructureFeatureConfiguration)
++ BlockPos getLocatePos(RandomSpreadStructurePlacement,ChunkPos)
+- BlockPos getNearestGeneratedFeature(LevelReader,StructureFeatureManager,BlockPos,int,boolean,long,StructureFeatureConfiguration)
 - boolean linearSeparation()
 - ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,int,int)
-- StructureStart generate(Predicate)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,FeatureConfiguration,LevelHeightAccessor,Predicate)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
 ```
 
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.VegetationPatchFeature</summary>
 
 ```diff
-+ boolean lambda$place$0(BlockState)
-+ boolean lambda$placeGroundPatch$1(BlockState)
 - boolean lambda$getReplaceableTag$1(BlockState)
-- boolean lambda$getReplaceableTag$2(BlockState)
+- boolean lambda$getReplaceableTag$2(Tag,BlockState)
++ boolean lambda$place$0(VegetationPatchConfiguration,BlockState)
 - boolean lambda$placeGroundPatch$0(BlockState)
++ boolean lambda$placeGroundPatch$1(BlockState)
 - Predicate getReplaceableTag(VegetationPatchConfiguration)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature</summary>
 
 ```diff
-+ Holder feature
-- Supplier feature
 + Holder lambda$static$0(WeightedPlacedFeature)
-+ void <init>(Holder,float)
 - PlacedFeature lambda$new$3(PlacedFeature)
 - Supplier lambda$static$0(WeightedPlacedFeature)
++ void <init>(Holder,float)
 - void <init>(PlacedFeature,float)
 - void <init>(Supplier,float)
 ```
@@ -7193,450 +3342,167 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.GlowLichenConfiguration</summary>
 
 ```diff
-+ HolderSet canBePlacedOn
-- List canBePlacedOn
 + HolderSet lambda$static$5(GlowLichenConfiguration)
-+ void <init>(HolderSet)
 - List lambda$static$5(GlowLichenConfiguration)
-- void <init>(List)
++ void <init>(int,boolean,boolean,boolean,float,HolderSet)
+- void <init>(int,boolean,boolean,boolean,float,List)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.JigsawConfiguration</summary>
 
 ```diff
-+ Holder startPool
-- Supplier startPool
 + Holder startPool()
-+ void <init>(Holder,int)
 - Supplier startPool()
++ void <init>(Holder,int)
 - void <init>(Supplier,int)
 ```
 
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration</summary>
 
 ```diff
-+ Holder defaultFeature
-- Supplier defaultFeature
 + Holder lambda$static$1(RandomFeatureConfiguration)
-+ Stream lambda$getFeatures$3(WeightedPlacedFeature)
-+ void <init>(Holder)
 - PlacedFeature lambda$new$3(PlacedFeature)
++ Stream lambda$getFeatures$3(WeightedPlacedFeature)
 - Stream lambda$getFeatures$4(WeightedPlacedFeature)
 - Supplier lambda$static$1(RandomFeatureConfiguration)
-- void <init>(PlacedFeature)
-- void <init>(Supplier)
++ void <init>(List,Holder)
+- void <init>(List,PlacedFeature)
+- void <init>(List,Supplier)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration</summary>
 
 ```diff
-+ Holder vegetationFeature
-+ TagKey replaceable
-- ResourceLocation replaceable
-- Supplier vegetationFeature
 + Holder lambda$static$2(VegetationPatchConfiguration)
-+ TagKey lambda$static$0(VegetationPatchConfiguration)
-+ void <init>(IntProvider,float)
 - ResourceLocation lambda$static$0(VegetationPatchConfiguration)
 - Supplier lambda$static$2(VegetationPatchConfiguration)
-- void <init>(IntProvider,float)
++ TagKey lambda$static$0(VegetationPatchConfiguration)
+- void <init>(ResourceLocation,BlockStateProvider,Supplier,CaveSurface,IntProvider,float,int,float,IntProvider,float)
++ void <init>(TagKey,BlockStateProvider,Holder,CaveSurface,IntProvider,float,int,float,IntProvider,float)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement</summary>
 
 ```diff
-+ Holder feature
-- Supplier feature
 + Holder lambda$static$0(FeaturePoolElement)
-+ void <init>(StructureTemplatePool$Projection)
 - Supplier lambda$static$0(FeaturePoolElement)
-- void <init>(StructureTemplatePool$Projection)
++ void <init>(Holder,StructureTemplatePool$Projection)
+- void <init>(Supplier,StructureTemplatePool$Projection)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.structures.LegacySinglePoolElement</summary>
 
 ```diff
-+ void <init>(StructureTemplatePool$Projection)
-- void <init>(StructureTemplatePool$Projection)
++ void <init>(Either,Holder,StructureTemplatePool$Projection)
+- void <init>(Either,Supplier,StructureTemplatePool$Projection)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.structures.SinglePoolElement</summary>
 
 ```diff
-+ Holder processors
-- Supplier processors
 + Holder lambda$processorsCodec$1(SinglePoolElement)
-+ void <init>(StructureTemplatePool$Projection)
 - StructureProcessorList lambda$new$3()
 - Supplier lambda$processorsCodec$1(SinglePoolElement)
-- void <init>(StructureTemplatePool$Projection)
++ void <init>(Either,Holder,StructureTemplatePool$Projection)
+- void <init>(Either,Supplier,StructureTemplatePool$Projection)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
 
 ```diff
-+ Holder biome
-- Supplier biome
-+ boolean lambda$updateLayers$5(BlockState)
-+ Holder getBiome()
-+ Holder getBiomeFromSettings()
-+ void setBiome(Holder)
 - Biome getBiome()
 - Biome getBiomeFromSettings()
 - Biome lambda$getDefault$8(Registry)
 - Biome lambda$new$5(Registry)
 - Biome lambda$new$6(Registry)
++ boolean lambda$updateLayers$5(BlockState)
 - boolean lambda$updateLayers$7(BlockState)
++ Holder getBiome()
++ Holder getBiomeFromSettings()
++ void setBiome(Holder)
 - void setBiome(Supplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProtectedBlockProcessor</summary>
 
 ```diff
-+ TagKey cannotReplace
-- ResourceLocation cannotReplace
-+ TagKey lambda$static$0(ProtectedBlockProcessor)
-+ void <init>(TagKey)
 - ResourceLocation lambda$static$0(ProtectedBlockProcessor)
++ TagKey lambda$static$0(ProtectedBlockProcessor)
 - void <init>(ResourceLocation)
++ void <init>(TagKey)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.material.Fluid</summary>
 
 ```diff
-+ Holder$Reference builtInRegistryHolder
+- boolean is(Tag)
 + boolean is(TagKey)
 + Holder$Reference builtInRegistryHolder()
-- boolean is(Tag)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$1</summary>
 
 ```diff
-+ Holder val$item
-- Item val$item
-+ void <init>(Holder)
-- void <init>(Item)
++ void <init>(TagEntry,Holder)
+- void <init>(TagEntry,Item)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.phys.shapes.EntityCollisionContext</summary>
 
 ```diff
-+ boolean canStandOnFluid(FluidState)
-+ boolean lambda$new$1(FluidState)
-+ boolean lambda$static$0(FluidState)
-- boolean canStandOnFluid(FlowingFluid)
+- boolean canStandOnFluid(FluidState,FlowingFluid)
++ boolean canStandOnFluid(FluidState,FluidState)
 - boolean lambda$new$1(Fluid)
++ boolean lambda$new$1(FluidState)
 - boolean lambda$static$0(Fluid)
++ boolean lambda$static$0(FluidState)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.Holder
@@ -10107,13 +5973,1027 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$2()
+- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
+- void <init>(Tag,Set,StatePropertiesPredicate,NbtPredicate)
++ void <init>(TagKey,Set,StatePropertiesPredicate,NbtPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
+
+```diff
+- EntityPredicate$Builder of(Tag)
++ EntityPredicate$Builder of(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
+
+```diff
+- EntityTypePredicate of(Tag)
++ EntityTypePredicate of(TagKey)
+- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$0()
+- void <init>(Tag)
++ void <init>(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FluidPredicate$Builder</summary>
+
+```diff
+- FluidPredicate$Builder of(Tag)
++ FluidPredicate$Builder of(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemPredicate$Builder</summary>
+
+```diff
+- ItemPredicate$Builder of(Tag)
++ ItemPredicate$Builder of(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
+
+```diff
++ CompletableFuture suggestResource(Stream,SuggestionsBuilder,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$2</summary>
+
+```diff
+- CommandSyntaxException lambda$create$0(ResourceLocation)
++ Predicate create(Registry)
+- Predicate create(TagContainer)
+- void <init>(BlockPredicateArgument,ResourceLocation,BlockStateParser)
++ void <init>(BlockPredicateArgument,TagKey,BlockStateParser)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+
+```diff
++ CompletableFuture fillSuggestions(SuggestionsBuilder,Registry)
+- CompletableFuture fillSuggestions(SuggestionsBuilder,TagCollection)
++ CompletableFuture lambda$static$1(SuggestionsBuilder,Registry)
+- CompletableFuture lambda$static$1(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestItemIdOrTag(SuggestionsBuilder,Registry)
+- CompletableFuture suggestItemIdOrTag(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder,Registry)
+- CompletableFuture suggestOpenNbt(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestTag(SuggestionsBuilder,Registry)
+- CompletableFuture suggestTag(SuggestionsBuilder,TagCollection)
+- ResourceLocation getTag()
++ TagKey getTag()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument$TagPredicate</summary>
+
+```diff
+- void <init>(Tag,CompoundTag)
++ void <init>(TagKey,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions</summary>
+
+```diff
+- boolean lambda$bootStrap$41(ResourceLocation,boolean,Entity)
++ boolean lambda$bootStrap$41(TagKey,boolean,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+
+```diff
++ Holder registerMapping(int,ResourceKey,Object,Lifecycle)
+- Object getRandom(Random)
+- Object registerMapping(int,ResourceKey,Object,Lifecycle)
++ Optional getRandom(Random)
++ Optional lambda$getRandom$0()
++ void <init>(String,ResourceKey,Lifecycle,Function)
+- void <init>(String,ResourceKey,Lifecycle)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- Activity lambda$static$28()
++ Activity lambda$static$28(Registry)
+- Attribute lambda$static$19()
++ Attribute lambda$static$19(Registry)
+- Block lambda$static$4()
++ Block lambda$static$4(Registry)
+- BlockEntityType lambda$static$10()
++ BlockEntityType lambda$static$10(Registry)
+- BlockPredicateType lambda$static$38()
++ BlockPredicateType lambda$static$38(Registry)
+- BlockStateProviderType lambda$static$44()
++ BlockStateProviderType lambda$static$45(Registry)
+- ChunkStatus lambda$static$13()
++ ChunkStatus lambda$static$13(Registry)
++ Codec holderByNameCodec()
+- Codec lambda$static$49()
+- Codec lambda$static$50()
++ Codec lambda$static$50(Registry)
++ Codec lambda$static$51(Registry)
+- DataResult lambda$byNameCodec$56(ResourceLocation)
+- DataResult lambda$byNameCodec$57(ResourceLocation)
+- DataResult lambda$byNameCodec$58(Object)
++ DataResult lambda$byNameCodec$58(ResourceLocation)
+- DataResult lambda$byNameCodec$59(Object)
++ DataResult lambda$byNameCodec$59(ResourceLocation)
++ DataResult lambda$byNameCodec$60(Object)
++ DataResult lambda$byNameCodec$61(Object)
++ DataResult lambda$holderByNameCodec$64(ResourceLocation)
++ DataResult lambda$holderByNameCodec$65(ResourceLocation)
++ DataResult lambda$holderByNameCodec$66(Holder)
++ DataResult lambda$holderByNameCodec$67(Holder)
++ DefaultedRegistry registerDefaulted(ResourceKey,String,Function,Registry$RegistryBootstrap)
++ DefaultedRegistry registerDefaulted(ResourceKey,String,Lifecycle,Function,Registry$RegistryBootstrap)
++ DefaultedRegistry registerDefaulted(ResourceKey,String,Lifecycle,Registry$RegistryBootstrap)
+- DefaultedRegistry registerDefaulted(ResourceKey,String,Lifecycle,Supplier)
++ DefaultedRegistry registerDefaulted(ResourceKey,String,Registry$RegistryBootstrap)
+- DefaultedRegistry registerDefaulted(ResourceKey,String,Supplier)
+- Enchantment lambda$static$5()
++ Enchantment lambda$static$5(Registry)
+- EntityType lambda$static$6()
++ EntityType lambda$static$6(Registry)
+- Feature lambda$static$40()
++ Feature lambda$static$40(Registry)
+- FeatureSizeType lambda$static$48()
++ FeatureSizeType lambda$static$49(Registry)
+- FloatProviderType lambda$static$35()
++ FloatProviderType lambda$static$35(Registry)
+- Fluid lambda$static$2()
++ Fluid lambda$static$2(Registry)
+- FoliagePlacerType lambda$static$45()
++ FoliagePlacerType lambda$static$46(Registry)
+- GameEvent lambda$static$0()
++ GameEvent lambda$static$0(Registry)
+- HeightProviderType lambda$static$37()
++ HeightProviderType lambda$static$37(Registry)
++ Holder getHolderOrThrow(ResourceKey)
++ IdMap asHolderIdMap()
++ IllegalStateException lambda$getHolderOrThrow$71(ResourceKey)
+- int lambda$byNameCodec$60(Object)
++ int lambda$byNameCodec$62(Object)
+- IntProviderType lambda$static$36()
++ IntProviderType lambda$static$36(Registry)
+- Item lambda$static$7()
++ Item lambda$static$7(Registry)
++ Iterable getTagOrEmpty(TagKey)
+- Lifecycle lambda$byNameCodec$61(Object)
++ Lifecycle lambda$byNameCodec$63(Object)
++ Lifecycle lambda$holderByNameCodec$68(Holder)
++ Lifecycle lambda$holderByNameCodec$69(Holder)
+- LootItemConditionType lambda$static$31()
++ LootItemConditionType lambda$static$31(Registry)
+- LootItemFunctionType lambda$static$30()
++ LootItemFunctionType lambda$static$30(Registry)
+- LootNbtProviderType lambda$static$33()
++ LootNbtProviderType lambda$static$33(Registry)
+- LootNumberProviderType lambda$static$32()
++ LootNumberProviderType lambda$static$32(Registry)
+- LootPoolEntryType lambda$static$29()
++ LootPoolEntryType lambda$static$29(Registry)
+- LootScoreProviderType lambda$static$34()
++ LootScoreProviderType lambda$static$34(Registry)
+- MemoryModuleType lambda$static$25()
++ MemoryModuleType lambda$static$25(Registry)
+- MenuType lambda$static$16()
++ MenuType lambda$static$16(Registry)
+- MobEffect lambda$static$3()
++ MobEffect lambda$static$3(Registry)
+- Motive lambda$static$11()
++ Motive lambda$static$11(Registry)
++ Object lambda$internalRegister$56(Registry$RegistryBootstrap,WritableRegistry)
+- Object lambda$keys$62(DynamicOps,ResourceLocation)
++ Object lambda$keys$70(DynamicOps,ResourceLocation)
+- ParticleType lambda$static$9()
++ ParticleType lambda$static$9(Registry)
+- PlacementModifierType lambda$static$43()
++ PlacementModifierType lambda$static$44(Registry)
+- PoiType lambda$static$24()
++ PoiType lambda$static$24(Registry)
+- PositionSourceType lambda$static$20()
++ PositionSourceType lambda$static$20(Registry)
+- PosRuleTestType lambda$static$15()
++ PosRuleTestType lambda$static$15(Registry)
+- Potion lambda$static$8()
++ Potion lambda$static$8(Registry)
+- RecipeSerializer lambda$static$18()
++ RecipeSerializer lambda$static$18(Registry)
+- RecipeType lambda$static$17()
++ RecipeType lambda$static$17(Registry)
++ Registry registerSimple(ResourceKey,Lifecycle,Function,Registry$RegistryBootstrap)
++ Registry registerSimple(ResourceKey,Lifecycle,Registry$RegistryBootstrap)
+- Registry registerSimple(ResourceKey,Lifecycle,Supplier)
++ Registry registerSimple(ResourceKey,Registry$RegistryBootstrap)
+- Registry registerSimple(ResourceKey,Supplier)
+- ResourceLocation lambda$static$12()
++ ResourceLocation lambda$static$12(Registry)
+- RuleTestType lambda$static$14()
++ RuleTestType lambda$static$14(Registry)
+- Schedule lambda$static$27()
++ Schedule lambda$static$27(Registry)
+- SensorType lambda$static$26()
++ SensorType lambda$static$26(Registry)
+- SoundEvent lambda$static$1()
++ SoundEvent lambda$static$1(Registry)
+- StatType lambda$static$21()
++ StatType lambda$static$21(Registry)
+- String lambda$new$55(ResourceKey)
++ String lambda$new$57(ResourceKey)
+- StructureFeature lambda$static$41()
++ StructureFeature lambda$static$41(Registry)
+- StructurePieceType lambda$static$42()
++ StructurePieceType lambda$static$43(Registry)
++ StructurePlacementType lambda$static$42(Registry)
+- StructurePoolElementType lambda$static$52()
++ StructurePoolElementType lambda$static$53(Registry)
+- StructureProcessorType lambda$static$51()
++ StructureProcessorType lambda$static$52(Registry)
+- TreeDecoratorType lambda$static$47()
++ TreeDecoratorType lambda$static$48(Registry)
+- TrunkPlacerType lambda$static$46()
++ TrunkPlacerType lambda$static$47(Registry)
+- VillagerProfession lambda$static$23()
++ VillagerProfession lambda$static$23(Registry)
+- VillagerType lambda$static$22()
++ VillagerType lambda$static$22(Registry)
++ void checkRegistry(Registry)
+- void checkRegistry(WritableRegistry)
++ void freezeBuiltins()
+- void lambda$checkRegistry$54(WritableRegistry,WritableRegistry)
++ void lambda$checkRegistry$55(Registry,Registry)
+- void lambda$static$53(ResourceLocation,Supplier)
++ void lambda$static$54(ResourceLocation,Supplier)
+- WorldCarver lambda$static$39()
++ WorldCarver lambda$static$39(Registry)
++ WritableRegistry internalRegister(ResourceKey,WritableRegistry,Registry$RegistryBootstrap,Lifecycle)
+- WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier,Lifecycle)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.WorldgenRegistryDumpReport</summary>
+
+```diff
++ void lambda$dumpValue$1(Path,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
+
+```diff
+- ShapedRecipeBuilder define(Character,Tag)
++ ShapedRecipeBuilder define(Character,TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
+
+```diff
+- ShapelessRecipeBuilder requires(Tag)
++ ShapelessRecipeBuilder requires(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+
+```diff
+- void copy(Tag$Named,Tag$Named)
++ void copy(TagKey,TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.TagsProvider$TagAppender</summary>
+
+```diff
+- TagsProvider$TagAppender addTag(Tag$Named)
++ TagsProvider$TagAppender addTag(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.Pools</summary>
+
+```diff
++ Holder bootstrap()
++ Holder register(StructureTemplatePool)
+- StructureTemplatePool bootstrap()
+- StructureTemplatePool register(StructureTemplatePool)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.StructureFeatures</summary>
+
+```diff
+- ConfiguredStructureFeature bootstrap()
+- ConfiguredStructureFeature register(String,ConfiguredStructureFeature)
++ Holder bootstrap()
++ Holder register(String,ConfiguredStructureFeature)
+- StructureTemplatePool lambda$static$0()
+- StructureTemplatePool lambda$static$1()
+- StructureTemplatePool lambda$static$2()
+- StructureTemplatePool lambda$static$3()
+- StructureTemplatePool lambda$static$4()
+- StructureTemplatePool lambda$static$5()
+- StructureTemplatePool lambda$static$6()
++ void lambda$register$0(StructureFeatures$StructureConfigConsumer,Holder,ResourceKey)
+- void lambda$register$7(BiConsumer,ConfiguredStructureFeature,ResourceKey)
+- void register(BiConsumer,ConfiguredStructureFeature,ResourceKey)
+- void register(BiConsumer,ConfiguredStructureFeature,Set)
++ void register(StructureFeatures$StructureConfigConsumer,Holder,ResourceKey)
++ void register(StructureFeatures$StructureConfigConsumer,Holder,Set)
+- void registerStructures(BiConsumer)
++ void registerStructures(StructureFeatures$StructureConfigConsumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
+
+```diff
++ void add(RegistryAccess,ResourceKey,Encoder,int,Object,Lifecycle)
+- void add(RegistryAccess$RegistryHolder,ResourceKey,Encoder,int,Object,Lifecycle)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void <init>(Thread,RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,WorldData,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ ReportedException debugFuturesAndCreateReportedException(IllegalStateException,String)
+- void debugFuturesAndThrow(IllegalStateException)
++ void lambda$debugFuturesAndCreateReportedException$4(StringBuilder,ChunkHolder,Pair)
++ void lambda$debugFuturesAndCreateReportedException$5(StringBuilder,ChunkHolder)
+- void lambda$debugFuturesAndThrow$4(StringBuilder,ChunkHolder,Pair)
+- void lambda$debugFuturesAndThrow$5(StringBuilder,ChunkHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- Biome getUncachedNoiseBiome(int,int,int)
+- BlockPos findNearestBiome(Biome,BlockPos,int,int)
++ BlockPos findNearestBiome(ResourceKey,BlockPos,int,int)
+- boolean lambda$findNearestBiome$13(Biome,Biome)
++ boolean lambda$findNearestBiome$13(ResourceKey,Holder)
++ Holder getUncachedNoiseBiome(int,int,int)
+- TagContainer getTagManager()
+- void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,ResourceKey,DimensionType,ChunkProgressListener,ChunkGenerator,boolean,long,List,boolean)
++ void <init>(MinecraftServer,Executor,LevelStorageSource$LevelStorageAccess,ServerLevelData,ResourceKey,Holder,ChunkProgressListener,ChunkGenerator,boolean,long,List,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
+- Biome getUncachedNoiseBiome(int,int,int)
++ Holder getUncachedNoiseBiome(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
+
+```diff
++ boolean hasResource(ResourceLocation)
++ Collection listResources(String,Predicate)
+- CompletableFuture reload(Executor,Executor,List,CompletableFuture)
++ List getResources(ResourceLocation)
++ Object lambda$createReload$0(List)
++ ReloadInstance createReload(Executor,Executor,CompletableFuture,List)
++ Resource getResource(ResourceLocation)
++ Set getNamespaces()
++ Stream listPacks()
++ void <clinit>()
++ void <init>(PackType)
++ void close()
++ void registerReloadListener(PreparableReloadListener)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadInstance</summary>
+
+```diff
+- boolean isDone()
++ ReloadInstance create(ResourceManager,List,Executor,Executor,CompletableFuture,boolean)
+- Unit lambda$done$5(List)
+- void checkExceptions()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag</summary>
+
+```diff
+- Codec codec(Supplier)
+- DataResult lambda$codec$0(ResourceLocation)
+- DataResult lambda$codec$1(Supplier,ResourceLocation)
+- DataResult lambda$codec$2(Tag)
+- DataResult lambda$codec$3(Supplier,Tag)
++ List getValues()
+- Optional getRandomElement(Random)
++ Tag empty()
+- Tag fromSet(Set)
++ void <clinit>()
++ void <init>(Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag$BuilderEntry</summary>
+
+```diff
++ boolean equals(Object)
++ int hashCode()
+- String getSource()
++ String source()
++ Tag$Entry entry()
+- Tag$Entry getEntry()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ Codec nonEmptyHolderSet(Codec)
++ DataResult lambda$ensureHomogenous$26(Function,Collection)
++ DataResult lambda$nonEmptyHolderSetCheck$25(HolderSet)
+- DataResult lambda$nonNullSupplierCheck$26(Supplier)
+- DataResult lambda$nonNullSupplierListCheck$25(List)
++ Function ensureHomogenous(Function)
++ Function nonEmptyHolderSetCheck()
+- Function nonNullSupplierCheck()
+- Function nonNullSupplierListCheck()
++ MapCodec retrieveContext(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.EntityType</summary>
+
+```diff
+- boolean is(Tag)
++ boolean is(TagKey)
++ Holder$Reference builtInRegistryHolder()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
+- boolean canStandOnFluid(Fluid)
++ boolean canStandOnFluid(FluidState)
+- void jumpInLiquid(Tag)
++ void jumpInLiquid(TagKey)
+- void startAutoSpinAttack(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
+- void jumpInLiquid(Tag)
++ void jumpInLiquid(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
+
+```diff
+- boolean lambda$new$0(Tag,LivingEntity)
++ boolean lambda$new$0(TagKey,LivingEntity)
+- void <init>(Tag,float)
++ void <init>(TagKey,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
+- Biome getNoiseBiome(int,int,int)
++ Holder getNoiseBiome(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+
+```diff
+- DimensionType create(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ DimensionType create(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
+- DimensionType lambda$defaultDimensions$10(Registry)
+- DimensionType lambda$defaultDimensions$8(Registry)
+- MappedRegistry defaultDimensions(RegistryAccess,long,boolean)
+- MappedRegistry defaultDimensions(RegistryAccess,long)
+- NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
+- NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
++ Registry defaultDimensions(RegistryAccess,long,boolean)
++ Registry defaultDimensions(RegistryAccess,long)
+- RegistryAccess registerBuiltin(RegistryAccess)
++ RegistryAccess$Writable registerBuiltin(RegistryAccess$Writable)
+- ResourceLocation lambda$static$3(DimensionType)
+- Tag infiniburn()
++ TagKey infiniburn()
++ TagKey lambda$static$3(DimensionType)
+- void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
+- void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,int,int,int,ResourceLocation,ResourceLocation,float)
++ void <init>(OptionalLong,boolean,boolean,boolean,boolean,double,boolean,boolean,boolean,boolean,int,int,int,TagKey,ResourceLocation,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
+
+```diff
++ boolean is(TagKey)
++ Holder$Reference builtInRegistryHolder()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.BelowZeroRetrogen</summary>
+
+```diff
+- Biome lambda$getBiomeResolver$7(BiomeResolver,Set,ChunkAccess,int,int,int,Climate$Sampler)
++ BiomeResolver getBiomeResolver(BiomeResolver,ChunkAccess)
+- BiomeResolver getBiomeResolver(BiomeResolver,Registry,ChunkAccess)
++ Holder lambda$getBiomeResolver$7(BiomeResolver,Predicate,ChunkAccess,int,int,int,Climate$Sampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- Biome lambda$applyCarvers$10(int,int,int)
+- Biome lambda$applyCarvers$12(ChunkPos)
++ ChunkAccess lambda$createBiomes$6(Blender,StructureFeatureManager,ChunkAccess)
+- ChunkAccess lambda$createBiomes$6(Registry,Blender,StructureFeatureManager,ChunkAccess)
++ Holder lambda$applyCarvers$10(int,int,int)
++ Holder lambda$applyCarvers$12(ChunkPos)
++ Holder lambda$static$3(NoiseBasedChunkGenerator)
+- Supplier lambda$static$3(NoiseBasedChunkGenerator)
++ void <init>(Registry,BiomeSource,BiomeSource,long,Holder)
+- void <init>(Registry,BiomeSource,BiomeSource,long,Supplier)
++ void <init>(Registry,BiomeSource,long,Holder)
+- void <init>(Registry,BiomeSource,long,Supplier)
++ void doCreateBiomes(Blender,StructureFeatureManager,ChunkAccess)
+- void doCreateBiomes(Registry,Blender,StructureFeatureManager,ChunkAccess)
+- WeightedRandomList getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
++ WeightedRandomList getMobsAt(Holder,StructureFeatureManager,MobCategory,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition</summary>
+
+```diff
+- void <init>(SurfaceRules$BiomeConditionSource,SurfaceRules$Context,Set)
++ void <init>(SurfaceRules$BiomeConditionSource,SurfaceRules$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
+
+```diff
+- Biome lambda$updateY$0(int,int,int)
++ Holder lambda$updateY$0(int,int,int)
+- IllegalStateException lambda$updateY$1()
+- ResourceKey lambda$updateY$2()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+
+```diff
+- IllegalStateException lambda$buildSurface$2(Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.blending.Blender</summary>
+
+```diff
+- Biome blendBiome(int,int)
+- Biome lambda$getBiomeResolver$4(BiomeResolver,int,int,int,Climate$Sampler)
++ Holder blendBiome(int,int)
++ Holder lambda$getBiomeResolver$4(BiomeResolver,int,int,int,Climate$Sampler)
+- void lambda$blendBiome$5(double,double,MutableDouble,MutableObject,int,int,Biome)
++ void lambda$blendBiome$5(double,double,MutableDouble,MutableObject,int,int,Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate</summary>
+
+```diff
+- BlockPredicate matchesTag(Tag,Vec3i)
+- BlockPredicate matchesTag(Tag)
++ BlockPredicate matchesTag(TagKey,Vec3i)
++ BlockPredicate matchesTag(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.blockpredicates.MatchingBlocksPredicate</summary>
+
+```diff
++ HolderSet lambda$static$0(MatchingBlocksPredicate)
+- List lambda$static$0(MatchingBlocksPredicate)
++ void <init>(Vec3i,HolderSet)
+- void <init>(Vec3i,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
+
+```diff
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,LevelHeightAccessor,Predicate)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
+
+```diff
++ Optional lambda$place$0(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$1(Random,HolderSet$Named)
++ Optional lambda$placeCoralBlock$3(Random,HolderSet$Named)
+- void lambda$placeCoralBlock$0(LevelAccessor,BlockPos,Block)
+- void lambda$placeCoralBlock$1(Direction,LevelAccessor,BlockPos,Block)
++ void lambda$placeCoralBlock$2(LevelAccessor,BlockPos,Block)
++ void lambda$placeCoralBlock$4(Direction,LevelAccessor,BlockPos,Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeature</summary>
+
+```diff
++ void lambda$countEmptyCorners$0(WorldGenLevel,MutableInt,BlockPos)
+- void lambda$countEmptyCorners$2(WorldGenLevel,MutableInt,BlockPos)
+- void lambda$place$0(StructurePlaceSettings,StructureProcessor)
+- void lambda$place$1(StructurePlaceSettings,StructureProcessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
+
+```diff
+- boolean linearSeparation()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
+
+```diff
+- boolean isCold(BlockPos,Biome)
++ boolean isCold(BlockPos,Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
+
+```diff
+- BlockPos getLocatePos(ChunkPos)
++ BlockPos getLocatePos(RandomSpreadStructurePlacement,ChunkPos)
+- BlockPos getNearestGeneratedFeature(LevelReader,StructureFeatureManager,BlockPos,int,boolean,long,StructureFeatureConfiguration)
+- boolean linearSeparation()
+- ChunkPos getPotentialFeatureChunk(StructureFeatureConfiguration,long,int,int)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,FeatureConfiguration,LevelHeightAccessor,Predicate)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,FeatureConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.VegetationPatchFeature</summary>
+
+```diff
+- boolean lambda$getReplaceableTag$1(BlockState)
+- boolean lambda$getReplaceableTag$2(Tag,BlockState)
++ boolean lambda$place$0(VegetationPatchConfiguration,BlockState)
+- boolean lambda$placeGroundPatch$0(BlockState)
++ boolean lambda$placeGroundPatch$1(BlockState)
+- Predicate getReplaceableTag(VegetationPatchConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeightedPlacedFeature</summary>
+
+```diff
++ Holder lambda$static$0(WeightedPlacedFeature)
+- PlacedFeature lambda$new$3(PlacedFeature)
+- Supplier lambda$static$0(WeightedPlacedFeature)
++ void <init>(Holder,float)
+- void <init>(PlacedFeature,float)
+- void <init>(Supplier,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GlowLichenConfiguration</summary>
+
+```diff
++ HolderSet lambda$static$5(GlowLichenConfiguration)
+- List lambda$static$5(GlowLichenConfiguration)
++ void <init>(int,boolean,boolean,boolean,float,HolderSet)
+- void <init>(int,boolean,boolean,boolean,float,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.JigsawConfiguration</summary>
+
+```diff
++ Holder startPool()
+- Supplier startPool()
++ void <init>(Holder,int)
+- void <init>(Supplier,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RandomFeatureConfiguration</summary>
+
+```diff
++ Holder lambda$static$1(RandomFeatureConfiguration)
+- PlacedFeature lambda$new$3(PlacedFeature)
++ Stream lambda$getFeatures$3(WeightedPlacedFeature)
+- Stream lambda$getFeatures$4(WeightedPlacedFeature)
+- Supplier lambda$static$1(RandomFeatureConfiguration)
++ void <init>(List,Holder)
+- void <init>(List,PlacedFeature)
+- void <init>(List,Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration</summary>
+
+```diff
++ Holder lambda$static$2(VegetationPatchConfiguration)
+- ResourceLocation lambda$static$0(VegetationPatchConfiguration)
+- Supplier lambda$static$2(VegetationPatchConfiguration)
++ TagKey lambda$static$0(VegetationPatchConfiguration)
+- void <init>(ResourceLocation,BlockStateProvider,Supplier,CaveSurface,IntProvider,float,int,float,IntProvider,float)
++ void <init>(TagKey,BlockStateProvider,Holder,CaveSurface,IntProvider,float,int,float,IntProvider,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement</summary>
+
+```diff
++ Holder lambda$static$0(FeaturePoolElement)
+- Supplier lambda$static$0(FeaturePoolElement)
++ void <init>(Holder,StructureTemplatePool$Projection)
+- void <init>(Supplier,StructureTemplatePool$Projection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.LegacySinglePoolElement</summary>
+
+```diff
++ void <init>(Either,Holder,StructureTemplatePool$Projection)
+- void <init>(Either,Supplier,StructureTemplatePool$Projection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.SinglePoolElement</summary>
+
+```diff
++ Holder lambda$processorsCodec$1(SinglePoolElement)
+- StructureProcessorList lambda$new$3()
+- Supplier lambda$processorsCodec$1(SinglePoolElement)
++ void <init>(Either,Holder,StructureTemplatePool$Projection)
+- void <init>(Either,Supplier,StructureTemplatePool$Projection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+
+```diff
+- Biome getBiome()
+- Biome getBiomeFromSettings()
+- Biome lambda$getDefault$8(Registry)
+- Biome lambda$new$5(Registry)
+- Biome lambda$new$6(Registry)
++ boolean lambda$updateLayers$5(BlockState)
+- boolean lambda$updateLayers$7(BlockState)
++ Holder getBiome()
++ Holder getBiomeFromSettings()
++ void setBiome(Holder)
+- void setBiome(Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.ProtectedBlockProcessor</summary>
+
+```diff
+- ResourceLocation lambda$static$0(ProtectedBlockProcessor)
++ TagKey lambda$static$0(ProtectedBlockProcessor)
+- void <init>(ResourceLocation)
++ void <init>(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.Fluid</summary>
+
+```diff
+- boolean is(Tag)
++ boolean is(TagKey)
++ Holder$Reference builtInRegistryHolder()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$1</summary>
+
+```diff
++ void <init>(TagEntry,Holder)
+- void <init>(TagEntry,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.EntityCollisionContext</summary>
+
+```diff
+- boolean canStandOnFluid(FluidState,FlowingFluid)
++ boolean canStandOnFluid(FluidState,FluidState)
+- boolean lambda$new$1(Fluid)
++ boolean lambda$new$1(FluidState)
+- boolean lambda$static$0(Fluid)
++ boolean lambda$static$0(FluidState)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/regional_compliancies.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/structure_placement.txt
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ compliance.playtime.greaterThan24Hours
++ compliance.playtime.hours
++ compliance.playtime.message
+```
+
+</details>

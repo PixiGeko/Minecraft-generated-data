@@ -1,1506 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w35a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w35a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-08-30T11:24:35+00:00</td></tr>
-<tr><th>SHA1</th><td>09a96ed84768dd8a837c37d473e8a3e05a633b87</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/09a96ed84768dd8a837c37d473e8a3e05a633b87/23w35a.json">https://piston-meta.mojang.com/v1/packages/09a96ed84768dd8a837c37d473e8a3e05a633b87/23w35a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json">https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json</a></td></tr>
+<tr><th>SHA1</th><td>10c3d6acb0ca6b0b57a27b43fcf6b7c7f1222a3e</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/10c3d6acb0ca6b0b57a27b43fcf6b7c7f1222a3e/23w35a.json">https://piston-meta.mojang.com/v1/packages/10c3d6acb0ca6b0b57a27b43fcf6b7c7f1222a3e/23w35a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json">https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/6a2ac9eecb377f4894b84de711973edc751d0607/server.jar">https://piston-data.mojang.com/v1/objects/6a2ac9eecb377f4894b84de711973edc751d0607/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4bae81144b161cb8b7250efd9196486bb37c1b47/server.txt">https://piston-data.mojang.com/v1/objects/4bae81144b161cb8b7250efd9196486bb37c1b47/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/1359e52fb4b254a0e6563fb7a4b3676da5431af2/client.jar">https://piston-data.mojang.com/v1/objects/1359e52fb4b254a0e6563fb7a4b3676da5431af2/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/8351d66d8b3dbd88ef0c3b8b1beb45e95346b51c/client.txt">https://piston-data.mojang.com/v1/objects/8351d66d8b3dbd88ef0c3b8b1beb45e95346b51c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w33a">23w33a</a>
-## Misc
 
-<details><summary>dimensions.txt</summary>
+# Mappings
 
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w33a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w35a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
+### Client
 
-</details>
 
-## Version data
 
-<details><summary>libraries.txt</summary>
 
-```diff
-- com.github.oshi:oshi-core:6.2.2
-- com.google.code.gson:gson:2.10
-- com.google.guava:guava:31.1-jre
-- com.ibm.icu:icu4j:71.1
-- commons-codec:commons-codec:1.15
-- commons-io:commons-io:2.11.0
-- io.netty:netty-buffer:4.1.82.Final
-- io.netty:netty-codec:4.1.82.Final
-- io.netty:netty-common:4.1.82.Final
-- io.netty:netty-handler:4.1.82.Final
-- io.netty:netty-resolver:4.1.82.Final
-- io.netty:netty-transport-classes-epoll:4.1.82.Final
-- io.netty:netty-transport-native-epoll:4.1.82.Final:linux-aarch_64
-- io.netty:netty-transport-native-epoll:4.1.82.Final:linux-x86_64
-- io.netty:netty-transport-native-unix-common:4.1.82.Final
-- io.netty:netty-transport:4.1.82.Final
-- it.unimi.dsi:fastutil:8.5.9
-- net.java.dev.jna:jna-platform:5.12.1
-- net.java.dev.jna:jna:5.12.1
-- org.apache.commons:commons-compress:1.21
-- org.apache.commons:commons-lang3:3.12.0
-- org.apache.httpcomponents:httpcore:4.4.15
-- org.lwjgl:lwjgl-glfw:3.3.1
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-linux
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-macos
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl-jemalloc:3.3.1
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-linux
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl-openal:3.3.1
-- org.lwjgl:lwjgl-openal:3.3.1:natives-linux
-- org.lwjgl:lwjgl-openal:3.3.1:natives-macos
-- org.lwjgl:lwjgl-openal:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-openal:3.3.1:natives-windows
-- org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-openal:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl-opengl:3.3.1
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-linux
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-macos
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl-stb:3.3.1
-- org.lwjgl:lwjgl-stb:3.3.1:natives-linux
-- org.lwjgl:lwjgl-stb:3.3.1:natives-macos
-- org.lwjgl:lwjgl-stb:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-stb:3.3.1:natives-windows
-- org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-stb:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl-tinyfd:3.3.1
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-linux
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-x86
-- org.lwjgl:lwjgl:3.3.1
-- org.lwjgl:lwjgl:3.3.1:natives-linux
-- org.lwjgl:lwjgl:3.3.1:natives-macos
-- org.lwjgl:lwjgl:3.3.1:natives-macos-arm64
-- org.lwjgl:lwjgl:3.3.1:natives-windows
-- org.lwjgl:lwjgl:3.3.1:natives-windows-arm64
-- org.lwjgl:lwjgl:3.3.1:natives-windows-x86
-- org.slf4j:slf4j-api:2.0.1
-+ com.github.oshi:oshi-core:6.4.5
-+ com.google.code.gson:gson:2.10.1
-+ com.google.guava:guava:32.1.2-jre
-+ com.ibm.icu:icu4j:73.2
-+ commons-codec:commons-codec:1.16.0
-+ commons-io:commons-io:2.13.0
-+ io.netty:netty-buffer:4.1.97.Final
-+ io.netty:netty-codec:4.1.97.Final
-+ io.netty:netty-common:4.1.97.Final
-+ io.netty:netty-handler:4.1.97.Final
-+ io.netty:netty-resolver:4.1.97.Final
-+ io.netty:netty-transport-classes-epoll:4.1.97.Final
-+ io.netty:netty-transport-native-epoll:4.1.97.Final:linux-aarch_64
-+ io.netty:netty-transport-native-epoll:4.1.97.Final:linux-x86_64
-+ io.netty:netty-transport-native-unix-common:4.1.97.Final
-+ io.netty:netty-transport:4.1.97.Final
-+ it.unimi.dsi:fastutil:8.5.12
-+ net.java.dev.jna:jna-platform:5.13.0
-+ net.java.dev.jna:jna:5.13.0
-+ org.apache.commons:commons-compress:1.22
-+ org.apache.commons:commons-lang3:3.13.0
-+ org.apache.httpcomponents:httpcore:4.4.16
-+ org.lwjgl:lwjgl-glfw:3.3.2
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl-jemalloc:3.3.2
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl-openal:3.3.2
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-openal:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl-opengl:3.3.2
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl-stb:3.3.2
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-stb:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl-tinyfd:3.3.2
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-linux
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-macos
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows-x86
-+ org.lwjgl:lwjgl:3.3.2
-+ org.lwjgl:lwjgl:3.3.2:natives-linux
-+ org.lwjgl:lwjgl:3.3.2:natives-macos
-+ org.lwjgl:lwjgl:3.3.2:natives-macos-arm64
-+ org.lwjgl:lwjgl:3.3.2:natives-windows
-+ org.lwjgl:lwjgl:3.3.2:natives-windows-arm64
-+ org.lwjgl:lwjgl:3.3.2:natives-windows-x86
-+ org.slf4j:slf4j-api:2.0.7
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$NotificationButton</summary>
-
-```diff
-+ int notificationCount()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-- void renderLegacy(GuiGraphics,int,int,int,int)
-- void renderMcoServerItem(GuiGraphics,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
-
-```diff
-+ Component TITLE
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-+ Component TITLE
-- Runnable callback
-+ void <init>(RealmsResetWorldScreen)
-- void <init>(Runnable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.task.ConnectTask</summary>
-
-```diff
-+ Component TITLE
-+ Component getTitle()
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
-
-```diff
-+ Component TITLE
-+ Component getTitle()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.task.OpenServerTask</summary>
-
-```diff
-+ Component TITLE
-+ Component getTitle()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.util.task.RestoreTask</summary>
-
-```diff
-+ Component TITLE
-+ Component getTitle()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.task.SwitchSlotTask</summary>
-
-```diff
-+ Component TITLE
-+ Component getTitle()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Advancement</summary>
-
-```diff
-+ AdvancementRequirements requirements
-+ Optional display
-+ Optional name
-+ Optional parent
-- Advancement parent
-- Component chatComponent
-- DisplayInfo display
-- ResourceLocation id
-- Set children
-- String[][] requirements
-+ Advancement fromJson(DeserializationContext)
-+ Advancement read(FriendlyByteBuf)
-+ AdvancementRequirements requirements()
-+ AdvancementRewards rewards()
-+ boolean isRoot()
-+ Component decorateName(DisplayInfo)
-+ Component lambda$name$1(AdvancementHolder)
-+ Component name(AdvancementHolder)
-+ JsonObject serializeToJson()
-+ Map criteria()
-+ Optional display()
-+ Optional name()
-+ Optional parent()
-+ Style lambda$decorateName$0(Style)
-+ void <init>(AdvancementRequirements,boolean)
-+ void <init>(Optional)
-+ void lambda$serializeToJson$2(ResourceLocation)
-+ void lambda$serializeToJson$3(DisplayInfo)
-+ void lambda$write$4(DisplayInfo)
-+ void write(FriendlyByteBuf)
-- Advancement getParent()
-- Advancement getRoot()
-- Advancement getRoot(Advancement)
-- Advancement$Builder deconstruct()
-- AdvancementRewards getRewards()
-- Component getChatComponent()
-- DisplayInfo getDisplay()
-- int getMaxCriteraRequired()
-- Iterable getChildren()
-- Map getCriteria()
-- ResourceLocation getId()
-- String[][] getRequirements()
-- Style lambda$new$0(Style)
-- void <init>(String[][],boolean)
-- void addChild(Advancement)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.AdvancementProgress</summary>
-
-```diff
-+ AdvancementRequirements requirements
-+ Codec CODEC
-+ Codec CRITERIA_CODEC
-+ Codec OBTAINED_TIME_CODEC
-+ DateTimeFormatter OBTAINED_TIME_FORMAT
-- String[][] requirements
-+ AdvancementProgress lambda$static$7(Boolean)
-+ App lambda$static$8(RecordCodecBuilder$Instance)
-+ boolean isCriterionDone(String)
-+ boolean lambda$static$3(Map$Entry)
-+ boolean lambda$update$9(Map$Entry)
-+ CriterionProgress lambda$static$1(Map$Entry)
-+ Instant getFirstProgressDate()
-+ Instant lambda$static$4(Map$Entry)
-+ Map lambda$static$2(Map)
-+ Map lambda$static$5(Map)
-+ Map lambda$static$6(AdvancementProgress)
-+ TemporalAccessor lambda$static$0(Instant)
-+ void <clinit>()
-+ void lambda$serializeToNetwork$10(CriterionProgress)
-+ void update(AdvancementRequirements)
-- boolean lambda$update$0(Map$Entry)
-- Date getFirstProgressDate()
-- void lambda$serializeToNetwork$1(CriterionProgress)
-- void update(String[][])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.AbstractCriterionTriggerInstance</summary>
-
-```diff
-- ResourceLocation criterion
-+ Optional playerPredicate()
-+ void <init>(Optional)
-- Optional getPlayerPredicate()
-- ResourceLocation getCriterion()
-- String toString()
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion destroyedBeeNest(MinMaxBounds$Ints)
-- BeeNestDestroyedTrigger$TriggerInstance destroyedBeeNest(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate$Builder</summary>
-
-```diff
-+ BlockPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion bredAnimals()
-+ Criterion bredAnimals(EntityPredicate$Builder)
-+ Criterion bredAnimals(Optional)
-- BredAnimalsTrigger$TriggerInstance bredAnimals()
-- BredAnimalsTrigger$TriggerInstance bredAnimals(EntityPredicate$Builder)
-- BredAnimalsTrigger$TriggerInstance bredAnimals(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion brewedPotion()
-- BrewedPotionTrigger$TriggerInstance brewedPotion()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion changedDimension()
-+ Criterion changedDimension(ResourceKey)
-+ Criterion changedDimensionFrom(ResourceKey)
-+ Criterion changedDimensionTo(ResourceKey)
-- ChangeDimensionTrigger$TriggerInstance changedDimension()
-- ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey)
-- ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
-- ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion channeledLightning(EntityPredicate$Builder[])
-- ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate$Builder[])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion constructedBeacon()
-+ Criterion constructedBeacon(MinMaxBounds$Ints)
-- ConstructBeaconTrigger$TriggerInstance constructedBeacon()
-- ConstructBeaconTrigger$TriggerInstance constructedBeacon(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion usedItem()
-+ Criterion usedItem(ItemLike)
-+ Criterion usedItem(ItemPredicate$Builder)
-- ConsumeItemTrigger$TriggerInstance usedItem()
-- ConsumeItemTrigger$TriggerInstance usedItem(ItemLike)
-- ConsumeItemTrigger$TriggerInstance usedItem(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
-
-```diff
-- Optional of(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate</summary>
-
-```diff
-- Optional of(Optional)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.DistanceTrigger</summary>
-
-```diff
-- ResourceLocation id
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-+ void <init>()
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion entersBlock(Block)
-- EnterBlockTrigger$TriggerInstance entersBlock(Block)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate$Builder</summary>
-
-```diff
-+ EntityEquipmentPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate$Builder</summary>
-
-```diff
-+ EntityFlagsPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion entityHurtPlayer()
-+ Criterion entityHurtPlayer(DamagePredicate)
-+ Criterion entityHurtPlayer(DamagePredicate$Builder)
-- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer()
-- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer(DamagePredicate)
-- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer(DamagePredicate$Builder)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
-
-```diff
-+ EntityPredicate build()
-- Optional build()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion fishedItem(Optional)
-- FishingRodHookedTrigger$TriggerInstance fishedItem(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.FluidPredicate$Builder</summary>
-
-```diff
-+ FluidPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ImpossibleTrigger$TriggerInstance</summary>
-
-```diff
-- ResourceLocation getCriterion()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
-
-```diff
-+ boolean lambda$matches$1(ItemPredicate)
-+ Criterion hasItems(ItemLike[])
-+ Criterion hasItems(ItemPredicate[])
-+ Criterion hasItems(ItemPredicate$Builder[])
-+ ItemPredicate[] lambda$hasItems$0(int)
-- boolean lambda$matches$2(ItemPredicate)
-- InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
-- InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
-- InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate$Builder[])
-- ItemPredicate[] lambda$hasItems$1(int)
-- Stream lambda$hasItems$0(ItemPredicate$Builder)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion changedDurability(MinMaxBounds$Ints)
-+ Criterion changedDurability(MinMaxBounds$Ints)
-- ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-- ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemPredicate$Builder</summary>
-
-```diff
-+ ItemPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemUsedOnLocationTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion allayDropItemOnBlock(ItemPredicate$Builder)
-+ Criterion itemUsedOnBlock(ItemPredicate$Builder)
-+ Criterion placedBlock(Block)
-+ Criterion placedBlock(LootItemCondition$Builder[])
-+ ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnLocation(ItemPredicate$Builder)
-+ void <init>(Optional)
-- ItemUsedOnLocationTrigger$TriggerInstance allayDropItemOnBlock(ItemPredicate$Builder)
-- ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnBlock(ItemPredicate$Builder)
-- ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnLocation(ResourceLocation)
-- ItemUsedOnLocationTrigger$TriggerInstance placedBlock(Block)
-- ItemUsedOnLocationTrigger$TriggerInstance placedBlock(LootItemCondition$Builder[])
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion crossbowKilled(EntityPredicate$Builder[])
-+ Criterion crossbowKilled(MinMaxBounds$Ints)
-- KilledByCrossbowTrigger$TriggerInstance crossbowKilled(EntityPredicate$Builder[])
-- KilledByCrossbowTrigger$TriggerInstance crossbowKilled(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion entityKilledPlayer()
-+ Criterion entityKilledPlayer(DamageSourcePredicate$Builder)
-+ Criterion entityKilledPlayer(DamageSourcePredicate$Builder)
-+ Criterion entityKilledPlayer(EntityPredicate$Builder)
-+ Criterion entityKilledPlayer(Optional)
-+ Criterion entityKilledPlayer(Optional)
-+ Criterion entityKilledPlayer(Optional)
-+ Criterion playerKilledEntity()
-+ Criterion playerKilledEntity(DamageSourcePredicate$Builder)
-+ Criterion playerKilledEntity(DamageSourcePredicate$Builder)
-+ Criterion playerKilledEntity(EntityPredicate$Builder)
-+ Criterion playerKilledEntity(Optional)
-+ Criterion playerKilledEntity(Optional)
-+ Criterion playerKilledEntity(Optional)
-+ Criterion playerKilledEntityNearSculkCatalyst()
-+ void <init>(Optional)
-- KilledTrigger$TriggerInstance entityKilledPlayer()
-- KilledTrigger$TriggerInstance entityKilledPlayer(DamageSourcePredicate$Builder)
-- KilledTrigger$TriggerInstance entityKilledPlayer(DamageSourcePredicate$Builder)
-- KilledTrigger$TriggerInstance entityKilledPlayer(EntityPredicate$Builder)
-- KilledTrigger$TriggerInstance entityKilledPlayer(Optional)
-- KilledTrigger$TriggerInstance entityKilledPlayer(Optional)
-- KilledTrigger$TriggerInstance entityKilledPlayer(Optional)
-- KilledTrigger$TriggerInstance playerKilledEntity()
-- KilledTrigger$TriggerInstance playerKilledEntity(DamageSourcePredicate$Builder)
-- KilledTrigger$TriggerInstance playerKilledEntity(DamageSourcePredicate$Builder)
-- KilledTrigger$TriggerInstance playerKilledEntity(EntityPredicate$Builder)
-- KilledTrigger$TriggerInstance playerKilledEntity(Optional)
-- KilledTrigger$TriggerInstance playerKilledEntity(Optional)
-- KilledTrigger$TriggerInstance playerKilledEntity(Optional)
-- KilledTrigger$TriggerInstance playerKilledEntityNearSculkCatalyst()
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion levitated(DistancePredicate)
-- LevitationTrigger$TriggerInstance levitated(DistancePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LightPredicate$Builder</summary>
-
-```diff
-+ LightPredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LootTableTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion lootTableUsed(ResourceLocation)
-- LootTableTrigger$TriggerInstance lootTableUsed(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger</summary>
-
-```diff
-- ResourceLocation id
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-+ void <init>()
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PlayerPredicate$Builder</summary>
-
-```diff
-+ PlayerPredicate$Builder setLookingAt(EntityPredicate$Builder)
-- PlayerPredicate$Builder setLookingAt(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger</summary>
-
-```diff
-- ResourceLocation id
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-+ void <init>()
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ boolean lambda$trigger$0(RecipeUnlockedTrigger$TriggerInstance)
-+ Criterion unlocked(ResourceLocation)
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-+ void trigger(RecipeHolder)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- boolean lambda$trigger$0(RecipeUnlockedTrigger$TriggerInstance)
-- RecipeUnlockedTrigger$TriggerInstance unlocked(ResourceLocation)
-- ResourceLocation getId()
-- void <clinit>()
-- void trigger(Recipe)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
-
-```diff
-+ SimpleCriterionTrigger$SimpleInstance createInstance(com.google.gson.JsonObject,java.util.Optional,net.minecraft.advancements.critereon.DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(com.google.gson.JsonObject,java.util.Optional,net.minecraft.advancements.critereon.DeserializationContext)
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ void triggerRecipeCrafted(List)
-- void triggerRecipeCrafted(List)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.StackedContents</summary>
-
-```diff
-+ int getBiggestCraftableStack(IntList)
-+ int getBiggestCraftableStack(IntList)
-- int getBiggestCraftableStack(IntList)
-- int getBiggestCraftableStack(IntList)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
-
-```diff
-+ boolean recipeMatches(RecipeHolder)
-- boolean recipeMatches(Recipe)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ResultContainer</summary>
-
-```diff
-+ RecipeHolder recipeUsed
-- Recipe recipeUsed
-+ RecipeHolder getRecipeUsed()
-+ void setRecipeUsed(RecipeHolder)
-- Recipe getRecipeUsed()
-- void setRecipeUsed(Recipe)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
-
-```diff
-+ RecipeHolder selectedRecipe
-- SmithingRecipe selectedRecipe
-+ boolean lambda$createInputSlotDefinitions$0(RecipeHolder)
-+ boolean lambda$createInputSlotDefinitions$2(RecipeHolder)
-+ boolean lambda$createInputSlotDefinitions$4(RecipeHolder)
-+ IntStream lambda$findSlotToQuickMoveTo$7(RecipeHolder)
-- boolean lambda$createInputSlotDefinitions$0(SmithingRecipe)
-- boolean lambda$createInputSlotDefinitions$2(SmithingRecipe)
-- boolean lambda$createInputSlotDefinitions$4(SmithingRecipe)
-- IntStream lambda$findSlotToQuickMoveTo$7(SmithingRecipe)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.AbstractCookingRecipe</summary>
-
-```diff
-- ResourceLocation id
-+ void <init>(ItemStack,float,int)
-- ResourceLocation getId()
-- void <init>(ItemStack,float,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.BannerDuplicateRecipe</summary>
-
-```diff
-+ void <init>(CraftingBookCategory)
-- void <init>(CraftingBookCategory)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.BookCloningRecipe</summary>
-
-```diff
-+ void <init>(CraftingBookCategory)
-- void <init>(CraftingBookCategory)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeSerializer</summary>
-
-```diff
-+ Codec codec()
-+ Recipe fromNetwork(net.minecraft.network.FriendlyByteBuf)
-- Recipe fromJson(net.minecraft.resources.ResourceLocation,com.google.gson.JsonObject)
-- Recipe fromNetwork(net.minecraft.resources.ResourceLocation,net.minecraft.network.FriendlyByteBuf)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
-
-```diff
-- ResourceLocation id
-+ String[] shrink(List)
-+ void <init>(ItemStack,boolean)
-+ void <init>(ItemStack)
-- Item itemFromJson(JsonObject)
-- ItemStack itemStackFromJson(JsonObject)
-- JsonSyntaxException lambda$itemFromJson$2(String)
-- Map keyFromJson(JsonObject)
-- NonNullList dissolvePattern(Map,int,int)
-- ResourceLocation getId()
-- String[] patternFromJson(JsonArray)
-- String[] shrink(String[])
-- void <init>(ItemStack,boolean)
-- void <init>(ItemStack)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.gui.ErrorCallback
@@ -7882,1139 +6413,776 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$NotificationButton</summary>
 
 ```diff
-+ AdvancementRequirements$Strategy requirementsStrategy
-+ ImmutableMap$Builder criteria
-+ Optional display
-+ Optional parent
-+ Optional requirements
-- Advancement parent
-- DisplayInfo display
-- Map criteria
-- RequirementsStrategy requirementsStrategy
-- ResourceLocation parentId
-- String[][] requirements
-+ Advancement$Builder parent(AdvancementHolder)
-+ Advancement$Builder requirements(AdvancementRequirements)
-+ Advancement$Builder requirements(AdvancementRequirements$Strategy)
-+ Advancement$Builder sendsTelemetryEvent()
-+ AdvancementHolder build(ResourceLocation)
-+ AdvancementHolder save(String)
-+ AdvancementRequirements lambda$build$0(Map)
-+ void <init>()
-- Advancement build(ResourceLocation)
-- Advancement lambda$build$0(ResourceLocation)
-- Advancement save(String)
-- Advancement$Builder addCriterion(CriterionTriggerInstance)
-- Advancement$Builder fromJson(DeserializationContext)
-- Advancement$Builder fromNetwork(FriendlyByteBuf)
-- Advancement$Builder parent(Advancement)
-- Advancement$Builder requirements(RequirementsStrategy)
-- Advancement$Builder requirements(String[][])
-- boolean canBuild(Function)
-- JsonObject serializeToJson()
++ int notificationCount()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
+
+```diff
+- void renderLegacy(RealmsServer,GuiGraphics,int,int,int,int)
+- void renderMcoServerItem(RealmsServer,GuiGraphics,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
+
+```diff
+- void <init>(long,int,RealmsResetWorldScreen,Runnable)
++ void <init>(long,int,RealmsResetWorldScreen)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.ConnectTask</summary>
+
+```diff
++ Component getTitle()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
+
+```diff
++ Component getTitle()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.OpenServerTask</summary>
+
+```diff
++ Component getTitle()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.RestoreTask</summary>
+
+```diff
++ Component getTitle()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.SwitchSlotTask</summary>
+
+```diff
++ Component getTitle()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.Advancement</summary>
+
+```diff
++ Advancement fromJson(JsonObject,DeserializationContext)
+- Advancement getParent()
+- Advancement getRoot()
+- Advancement getRoot(Advancement)
++ Advancement read(FriendlyByteBuf)
+- Advancement$Builder deconstruct()
++ AdvancementRequirements requirements()
+- AdvancementRewards getRewards()
++ AdvancementRewards rewards()
++ boolean isRoot()
++ Component decorateName(DisplayInfo)
+- Component getChatComponent()
++ Component lambda$name$1(AdvancementHolder)
++ Component name(AdvancementHolder)
+- DisplayInfo getDisplay()
+- int getMaxCriteraRequired()
+- Iterable getChildren()
++ JsonObject serializeToJson()
++ Map criteria()
 - Map getCriteria()
++ Optional display()
++ Optional name()
++ Optional parent()
+- ResourceLocation getId()
+- String[][] getRequirements()
++ Style lambda$decorateName$0(Component,Style)
+- Style lambda$new$0(Component,Style)
++ void <init>(Optional,Optional,AdvancementRewards,Map,AdvancementRequirements,boolean,Optional)
++ void <init>(Optional,Optional,AdvancementRewards,Map,AdvancementRequirements,boolean)
+- void <init>(ResourceLocation,Advancement,DisplayInfo,AdvancementRewards,Map,String[][],boolean)
+- void addChild(Advancement)
++ void lambda$serializeToJson$2(JsonObject,ResourceLocation)
++ void lambda$serializeToJson$3(JsonObject,DisplayInfo)
++ void lambda$write$4(FriendlyByteBuf,DisplayInfo)
++ void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.AdvancementProgress</summary>
+
+```diff
++ AdvancementProgress lambda$static$7(Map,Boolean)
++ App lambda$static$8(RecordCodecBuilder$Instance)
++ boolean isCriterionDone(String)
++ boolean lambda$static$3(Map$Entry)
+- boolean lambda$update$0(Set,Map$Entry)
++ boolean lambda$update$9(Set,Map$Entry)
++ CriterionProgress lambda$static$1(Map$Entry)
+- Date getFirstProgressDate()
++ Instant getFirstProgressDate()
++ Instant lambda$static$4(Map$Entry)
++ Map lambda$static$2(Map)
++ Map lambda$static$5(Map)
++ Map lambda$static$6(AdvancementProgress)
++ TemporalAccessor lambda$static$0(Instant)
++ void <clinit>()
+- void lambda$serializeToNetwork$1(FriendlyByteBuf,CriterionProgress)
++ void lambda$serializeToNetwork$10(FriendlyByteBuf,CriterionProgress)
++ void update(AdvancementRequirements)
+- void update(Map,String[][])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.AbstractCriterionTriggerInstance</summary>
+
+```diff
+- Optional getPlayerPredicate()
++ Optional playerPredicate()
+- ResourceLocation getCriterion()
 - String toString()
-- void <init>(boolean)
-- void <init>(String[][],boolean)
-- void lambda$serializeToNetwork$1(DisplayInfo)
-- void serializeToNetwork(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.TreeNodePosition</summary>
-
-```diff
-+ AdvancementNode node
-- Advancement advancement
-+ TreeNodePosition addChild(TreeNodePosition)
-+ void <init>(TreeNodePosition,int,int)
-+ void lambda$finalizePosition$0(DisplayInfo)
-+ void run(AdvancementNode)
-- TreeNodePosition addChild(TreeNodePosition)
-- void <init>(TreeNodePosition,int,int)
-- void run(Advancement)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
-
-```diff
-- Optional of(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion curedZombieVillager()
-- CuredZombieVillagerTrigger$TriggerInstance curedZombieVillager()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate$Builder</summary>
-
-```diff
-+ DamagePredicate build()
-- Optional build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
-
-```diff
-+ DamageSourcePredicate build()
-- Optional build()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.DistanceTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion fallFromHeight(LocationPredicate$Builder)
-+ Criterion rideEntityInLava(DistancePredicate)
-+ Criterion travelledThroughNether(DistancePredicate)
 + void <init>(Optional)
-- DistanceTrigger$TriggerInstance fallFromHeight(LocationPredicate$Builder)
-- DistanceTrigger$TriggerInstance rideEntityInLava(DistancePredicate)
-- DistanceTrigger$TriggerInstance travelledThroughNether(DistancePredicate)
-- void <init>(Optional)
+- void <init>(ResourceLocation,Optional)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger$TriggerInstance</summary>
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
 
 ```diff
-+ Criterion gotEffectsFrom(EntityPredicate$Builder)
-+ Criterion hasEffects(MobEffectsPredicate$Builder)
-- EffectsChangedTrigger$TriggerInstance gotEffectsFrom(Optional)
-- EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate$Builder)
+- BeeNestDestroyedTrigger$TriggerInstance destroyedBeeNest(Block,ItemPredicate$Builder,MinMaxBounds$Ints)
++ Criterion destroyedBeeNest(Block,ItemPredicate$Builder,MinMaxBounds$Ints)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger$TriggerInstance</summary>
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate$Builder</summary>
 
 ```diff
-+ Criterion enchantedItem()
-- EnchantedItemTrigger$TriggerInstance enchantedItem()
++ BlockPredicate build()
+- Optional build()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger$TriggerInstance</summary>
 
 ```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
+- BredAnimalsTrigger$TriggerInstance bredAnimals()
+- BredAnimalsTrigger$TriggerInstance bredAnimals(EntityPredicate$Builder)
+- BredAnimalsTrigger$TriggerInstance bredAnimals(Optional,Optional,Optional)
++ Criterion bredAnimals()
++ Criterion bredAnimals(EntityPredicate$Builder)
++ Criterion bredAnimals(Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger$TriggerInstance</summary>
+
+```diff
+- BrewedPotionTrigger$TriggerInstance brewedPotion()
++ Criterion brewedPotion()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
+
+```diff
+- ChangeDimensionTrigger$TriggerInstance changedDimension()
+- ChangeDimensionTrigger$TriggerInstance changedDimension(ResourceKey,ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimensionFrom(ResourceKey)
+- ChangeDimensionTrigger$TriggerInstance changedDimensionTo(ResourceKey)
++ Criterion changedDimension()
++ Criterion changedDimension(ResourceKey,ResourceKey)
++ Criterion changedDimensionFrom(ResourceKey)
++ Criterion changedDimensionTo(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger$TriggerInstance</summary>
+
+```diff
+- ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate$Builder[])
++ Criterion channeledLightning(EntityPredicate$Builder[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
+
+```diff
+- ConstructBeaconTrigger$TriggerInstance constructedBeacon()
+- ConstructBeaconTrigger$TriggerInstance constructedBeacon(MinMaxBounds$Ints)
++ Criterion constructedBeacon()
++ Criterion constructedBeacon(MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger$TriggerInstance</summary>
+
+```diff
+- ConsumeItemTrigger$TriggerInstance usedItem()
+- ConsumeItemTrigger$TriggerInstance usedItem(ItemLike)
+- ConsumeItemTrigger$TriggerInstance usedItem(ItemPredicate)
++ Criterion usedItem()
++ Criterion usedItem(ItemLike)
++ Criterion usedItem(ItemPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
 - ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
 - void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate</summary>
+
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
 
 ```diff
-- Optional of(Optional)
+- Optional of(MinMaxBounds$Doubles,MinMaxBounds$Doubles,Optional,Optional,Optional)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate</summary>
+
+<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate</summary>
 
 ```diff
-- Optional of(Optional)
+- Optional of(List,Optional,Optional)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.DistanceTrigger</summary>
 
 ```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
 - ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
-
-```diff
-+ boolean lambda$matches$2(Entity)
-+ ContextAwarePredicate wrap(EntityPredicate$Builder)
-- boolean lambda$matches$3(Entity)
-- Optional of(Optional)
-- Optional wrap(EntityPredicate$Builder)
-- Stream lambda$wrap$2(EntityPredicate$Builder)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion filledBucket(ItemPredicate$Builder)
-- FilledBucketTrigger$TriggerInstance filledBucket(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
-
-```diff
-- Optional of(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ImpossibleTrigger</summary>
-
-```diff
-- ResourceLocation ID
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
-
-```diff
-- Optional of(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemUsedOnLocationTrigger</summary>
-
-```diff
-- ResourceLocation id
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
 + void <init>()
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
 - void <init>(ResourceLocation)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
 
 ```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
 - ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
 - void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.KilledTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
 
 ```diff
-- ResourceLocation id
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-+ void <init>()
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
 - ResourceLocation getId()
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LevitationTrigger</summary>
-
-```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
 - void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.LightPredicate</summary>
+
+<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
 
 ```diff
-- Optional of(MinMaxBounds$Ints)
++ Criterion entersBlock(Block)
+- EnterBlockTrigger$TriggerInstance entersBlock(Block)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger$TriggerInstance</summary>
+<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate$Builder</summary>
 
 ```diff
-+ Criterion lightningStrike(Optional)
-- LightningStrikeTrigger$TriggerInstance lighthingStrike(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
-
-```diff
-+ LocationPredicate build()
++ EntityEquipmentPredicate build()
 - Optional build()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate$Builder</summary>
 
 ```diff
-- ResourceLocation ID
-+ SimpleCriterionTrigger$SimpleInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
++ EntityFlagsPredicate build()
+- Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion entityHurtPlayer()
++ Criterion entityHurtPlayer(DamagePredicate)
++ Criterion entityHurtPlayer(DamagePredicate$Builder)
+- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer()
+- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer(DamagePredicate)
+- EntityHurtPlayerTrigger$TriggerInstance entityHurtPlayer(DamagePredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
+
+```diff
++ EntityPredicate build()
+- Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
 - ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
 - void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger$TriggerInstance</summary>
+<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance</summary>
 
 ```diff
-+ Criterion thrownItemPickedUpByEntity(Optional)
-+ Criterion thrownItemPickedUpByPlayer(Optional)
-+ void <init>(Optional)
-- PickedUpItemTrigger$TriggerInstance thrownItemPickedUpByEntity(Optional)
-- PickedUpItemTrigger$TriggerInstance thrownItemPickedUpByPlayer(Optional)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion playerHurtEntity()
-+ Criterion playerHurtEntity(Optional)
-+ Criterion playerHurtEntity(Optional)
-+ Criterion playerHurtEntity(Optional)
-+ Criterion playerHurtEntityWithDamage(DamagePredicate$Builder)
-+ Criterion playerHurtEntityWithDamage(Optional)
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity()
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(Optional)
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(Optional)
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(Optional)
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntityWithDamage(DamagePredicate$Builder)
-- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntityWithDamage(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion itemUsedOnEntity(Optional)
-+ Criterion itemUsedOnEntity(Optional)
-- PlayerInteractTrigger$TriggerInstance itemUsedOnEntity(Optional)
-- PlayerInteractTrigger$TriggerInstance itemUsedOnEntity(Optional)
++ Criterion fishedItem(Optional,Optional,Optional)
+- FishingRodHookedTrigger$TriggerInstance fishedItem(Optional,Optional,Optional)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
+<details><summary>net.minecraft.advancements.critereon.FluidPredicate$Builder</summary>
 
 ```diff
-+ Criterion avoidVibration()
-+ Criterion located(EntityPredicate$Builder)
-+ Criterion located(LocationPredicate$Builder)
-+ Criterion located(Optional)
-+ Criterion raidWon()
-+ Criterion sleptInBed()
-+ Criterion tick()
-+ Criterion walkOnBlockWithEquipment(Item)
-+ void <init>(Optional)
-- PlayerTrigger$TriggerInstance avoidVibration()
-- PlayerTrigger$TriggerInstance located(LocationPredicate$Builder)
-- PlayerTrigger$TriggerInstance located(Optional)
-- PlayerTrigger$TriggerInstance raidWon()
-- PlayerTrigger$TriggerInstance sleptInBed()
-- PlayerTrigger$TriggerInstance tick()
-- PlayerTrigger$TriggerInstance walkOnBlockWithEquipment(Item)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion craftedItem(List)
-+ Criterion craftedItem(ResourceLocation)
-- RecipeCraftedTrigger$TriggerInstance craftedItem(List)
-- RecipeCraftedTrigger$TriggerInstance craftedItem(ResourceLocation)
-- Stream lambda$craftedItem$0(ItemPredicate$Builder)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
-
-```diff
-+ boolean matches(RecipeHolder)
-- boolean matches(Recipe)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger$TriggerInstance</summary>
-
-```diff
-+ Criterion shotCrossbow(ItemLike)
-+ Criterion shotCrossbow(Optional)
-- ShotCrossbowTrigger$TriggerInstance shotCrossbow(ItemLike)
-- ShotCrossbowTrigger$TriggerInstance shotCrossbow(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ void buildRecipes(net.minecraft.data.recipes.RecipeOutput)
-- void buildRecipes(java.util.function.Consumer)
-+ boolean lambda$colorBlockWithDye$3(Item)
-+ boolean lambda$generateForEnabledBlockFamilies$1(BlockFamily)
-+ CompletableFuture buildAdvancement(AdvancementHolder)
-+ CompletableFuture[] lambda$run$0(int)
-+ Criterion has(ItemLike)
-+ Criterion has(ItemLike)
-+ Criterion has(TagKey)
-+ Criterion insideOf(Block)
-+ Criterion inventoryTrigger(ItemPredicate[])
-+ Criterion inventoryTrigger(ItemPredicate$Builder[])
-+ ItemPredicate[] lambda$inventoryTrigger$23(int)
-+ RecipeBuilder lambda$static$8(ItemLike)
-+ String lambda$generateRecipes$6(ItemLike)
-+ void banner(ItemLike)
-+ void bedFromPlanksAndWool(ItemLike)
-+ void candle(ItemLike)
-+ void carpet(ItemLike)
-+ void chestBoat(ItemLike)
-+ void chiseled(ItemLike)
-+ void colorBlockWithDye(String)
-+ void coloredTerracottaFromTerracottaAndDye(ItemLike)
-+ void concretePowder(ItemLike)
-+ void cookRecipes(RecipeSerializer,int)
-+ void copySmithingTemplate(ItemLike)
-+ void copySmithingTemplate(TagKey)
-+ void cut(ItemLike)
-+ void generateForEnabledBlockFamilies(FeatureFlagSet)
-+ void generateRecipes(BlockFamily)
-+ void hangingSign(ItemLike)
-+ void lambda$generateForEnabledBlockFamilies$2(BlockFamily)
-+ void lambda$generateRecipes$5(String)
-+ void lambda$generateRecipes$7(Block)
-+ void lambda$waxRecipes$4(Block)
-+ void mosaicBuilder(ItemLike)
-+ void netheriteSmithing(Item)
-+ void nineBlockStorageRecipes(ItemLike)
-+ void nineBlockStorageRecipes(String)
-+ void nineBlockStorageRecipesRecipesWithCustomUnpacking(String)
-+ void nineBlockStorageRecipesWithCustomPacking(String)
-+ void oneToOneConversionRecipe(String,int)
-+ void oneToOneConversionRecipe(String)
-+ void oreBlasting(String)
-+ void oreCooking(String)
-+ void oreSmelting(String)
-+ void planksFromLog(TagKey,int)
-+ void planksFromLogs(TagKey,int)
-+ void polished(ItemLike)
-+ void pressurePlate(ItemLike)
-+ void simpleCookingRecipe(ItemLike,float)
-+ void slab(ItemLike)
-+ void smeltingResultFromBase(ItemLike)
-+ void stainedGlassFromGlassAndDye(ItemLike)
-+ void stainedGlassPaneFromGlassPaneAndDye(ItemLike)
-+ void stainedGlassPaneFromStainedGlass(ItemLike)
-+ void stonecutterResultFromBase(ItemLike,int)
-+ void stonecutterResultFromBase(ItemLike)
-+ void threeByThreePacker(ItemLike)
-+ void threeByThreePacker(String)
-+ void trimSmithing(ResourceLocation)
-+ void twoByTwoPacker(ItemLike)
-+ void wall(ItemLike)
-+ void waxRecipes(RecipeOutput)
-+ void woodenBoat(ItemLike)
-+ void woodFromLogs(ItemLike)
-- boolean lambda$colorBlockWithDye$4(Item)
-- boolean lambda$generateForEnabledBlockFamilies$2(BlockFamily)
-- CompletableFuture buildAdvancement(Advancement$Builder)
-- CompletableFuture[] lambda$run$1(int)
-- EnterBlockTrigger$TriggerInstance insideOf(Block)
-- InventoryChangeTrigger$TriggerInstance has(ItemLike)
-- InventoryChangeTrigger$TriggerInstance has(ItemLike)
-- InventoryChangeTrigger$TriggerInstance has(TagKey)
-- InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate[])
-- InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate$Builder[])
-- ItemPredicate[] lambda$inventoryTrigger$25(int)
-- RecipeBuilder lambda$static$23(ItemLike)
-- Stream lambda$inventoryTrigger$24(ItemPredicate$Builder)
-- String lambda$generateRecipes$7(ItemLike)
-- void banner(ItemLike)
-- void bedFromPlanksAndWool(ItemLike)
-- void candle(ItemLike)
-- void carpet(ItemLike)
-- void chestBoat(ItemLike)
-- void chiseled(ItemLike)
-- void colorBlockWithDye(String)
-- void coloredTerracottaFromTerracottaAndDye(ItemLike)
-- void concretePowder(ItemLike)
-- void cookRecipes(RecipeSerializer,int)
-- void copySmithingTemplate(ItemLike)
-- void copySmithingTemplate(TagKey)
-- void cut(ItemLike)
-- void generateForEnabledBlockFamilies(FeatureFlagSet)
-- void generateRecipes(BlockFamily)
-- void hangingSign(ItemLike)
-- void lambda$generateForEnabledBlockFamilies$3(BlockFamily)
-- void lambda$generateRecipes$6(String)
-- void lambda$generateRecipes$8(Block)
-- void lambda$run$0(FinishedRecipe)
-- void lambda$waxRecipes$5(Block)
-- void mosaicBuilder(ItemLike)
-- void netheriteSmithing(Item)
-- void nineBlockStorageRecipes(ItemLike)
-- void nineBlockStorageRecipes(String)
-- void nineBlockStorageRecipesRecipesWithCustomUnpacking(String)
-- void nineBlockStorageRecipesWithCustomPacking(String)
-- void oneToOneConversionRecipe(String,int)
-- void oneToOneConversionRecipe(String)
-- void oreBlasting(String)
-- void oreCooking(String)
-- void oreSmelting(String)
-- void planksFromLog(TagKey,int)
-- void planksFromLogs(TagKey,int)
-- void polished(ItemLike)
-- void pressurePlate(ItemLike)
-- void simpleCookingRecipe(ItemLike,float)
-- void slab(ItemLike)
-- void smeltingResultFromBase(ItemLike)
-- void stainedGlassFromGlassAndDye(ItemLike)
-- void stainedGlassPaneFromGlassPaneAndDye(ItemLike)
-- void stainedGlassPaneFromStainedGlass(ItemLike)
-- void stonecutterResultFromBase(ItemLike,int)
-- void stonecutterResultFromBase(ItemLike)
-- void threeByThreePacker(ItemLike)
-- void threeByThreePacker(String)
-- void trimSmithing(ResourceLocation)
-- void twoByTwoPacker(ItemLike)
-- void wall(ItemLike)
-- void waxRecipes(Consumer)
-- void woodenBoat(ItemLike)
-- void woodFromLogs(ItemLike)
++ FluidPredicate build()
+- Optional build()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.advancements.critereon.ImpossibleTrigger$TriggerInstance</summary>
+
+```diff
+- ResourceLocation getCriterion()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
+
+```diff
++ boolean lambda$matches$1(ItemStack,ItemPredicate)
+- boolean lambda$matches$2(ItemStack,ItemPredicate)
++ Criterion hasItems(ItemLike[])
++ Criterion hasItems(ItemPredicate[])
++ Criterion hasItems(ItemPredicate$Builder[])
+- InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
+- InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
+- InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate$Builder[])
++ ItemPredicate[] lambda$hasItems$0(int)
+- ItemPredicate[] lambda$hasItems$1(int)
+- Stream lambda$hasItems$0(ItemPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion changedDurability(Optional,MinMaxBounds$Ints)
++ Criterion changedDurability(Optional,Optional,MinMaxBounds$Ints)
+- ItemDurabilityTrigger$TriggerInstance changedDurability(Optional,MinMaxBounds$Ints)
+- ItemDurabilityTrigger$TriggerInstance changedDurability(Optional,Optional,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemPredicate$Builder</summary>
+
+```diff
++ ItemPredicate build()
+- Optional build()
+```
 
+</details>
 
+
+<details><summary>net.minecraft.advancements.critereon.ItemUsedOnLocationTrigger$TriggerInstance</summary>
 
+```diff
++ Criterion allayDropItemOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
++ Criterion itemUsedOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
++ Criterion placedBlock(Block)
++ Criterion placedBlock(LootItemCondition$Builder[])
+- ItemUsedOnLocationTrigger$TriggerInstance allayDropItemOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
+- ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
+- ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnLocation(LocationPredicate$Builder,ItemPredicate$Builder,ResourceLocation)
++ ItemUsedOnLocationTrigger$TriggerInstance itemUsedOnLocation(LocationPredicate$Builder,ItemPredicate$Builder)
+- ItemUsedOnLocationTrigger$TriggerInstance placedBlock(Block)
+- ItemUsedOnLocationTrigger$TriggerInstance placedBlock(LootItemCondition$Builder[])
++ void <init>(Optional,Optional)
+- void <init>(ResourceLocation,Optional,Optional)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance</summary>
 
+```diff
++ Criterion crossbowKilled(EntityPredicate$Builder[])
++ Criterion crossbowKilled(MinMaxBounds$Ints)
+- KilledByCrossbowTrigger$TriggerInstance crossbowKilled(EntityPredicate$Builder[])
+- KilledByCrossbowTrigger$TriggerInstance crossbowKilled(MinMaxBounds$Ints)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
 
+```diff
++ Criterion entityKilledPlayer()
++ Criterion entityKilledPlayer(EntityPredicate$Builder,DamageSourcePredicate$Builder)
++ Criterion entityKilledPlayer(EntityPredicate$Builder,Optional)
++ Criterion entityKilledPlayer(EntityPredicate$Builder)
++ Criterion entityKilledPlayer(Optional,DamageSourcePredicate$Builder)
++ Criterion entityKilledPlayer(Optional,Optional)
++ Criterion entityKilledPlayer(Optional)
++ Criterion playerKilledEntity()
++ Criterion playerKilledEntity(EntityPredicate$Builder,DamageSourcePredicate$Builder)
++ Criterion playerKilledEntity(EntityPredicate$Builder,Optional)
++ Criterion playerKilledEntity(EntityPredicate$Builder)
++ Criterion playerKilledEntity(Optional,DamageSourcePredicate$Builder)
++ Criterion playerKilledEntity(Optional,Optional)
++ Criterion playerKilledEntity(Optional)
++ Criterion playerKilledEntityNearSculkCatalyst()
+- KilledTrigger$TriggerInstance entityKilledPlayer()
+- KilledTrigger$TriggerInstance entityKilledPlayer(EntityPredicate$Builder,DamageSourcePredicate$Builder)
+- KilledTrigger$TriggerInstance entityKilledPlayer(EntityPredicate$Builder,Optional)
+- KilledTrigger$TriggerInstance entityKilledPlayer(EntityPredicate$Builder)
+- KilledTrigger$TriggerInstance entityKilledPlayer(Optional,DamageSourcePredicate$Builder)
+- KilledTrigger$TriggerInstance entityKilledPlayer(Optional,Optional)
+- KilledTrigger$TriggerInstance entityKilledPlayer(Optional)
+- KilledTrigger$TriggerInstance playerKilledEntity()
+- KilledTrigger$TriggerInstance playerKilledEntity(EntityPredicate$Builder,DamageSourcePredicate$Builder)
+- KilledTrigger$TriggerInstance playerKilledEntity(EntityPredicate$Builder,Optional)
+- KilledTrigger$TriggerInstance playerKilledEntity(EntityPredicate$Builder)
+- KilledTrigger$TriggerInstance playerKilledEntity(Optional,DamageSourcePredicate$Builder)
+- KilledTrigger$TriggerInstance playerKilledEntity(Optional,Optional)
+- KilledTrigger$TriggerInstance playerKilledEntity(Optional)
+- KilledTrigger$TriggerInstance playerKilledEntityNearSculkCatalyst()
++ void <init>(Optional,Optional,Optional)
+- void <init>(ResourceLocation,Optional,Optional,Optional)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance</summary>
 
+```diff
++ Criterion levitated(DistancePredicate)
+- LevitationTrigger$TriggerInstance levitated(DistancePredicate)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.LightPredicate$Builder</summary>
 
+```diff
++ LightPredicate build()
+- Optional build()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.LootTableTrigger$TriggerInstance</summary>
 
+```diff
++ Criterion lootTableUsed(ResourceLocation)
+- LootTableTrigger$TriggerInstance lootTableUsed(ResourceLocation)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
++ void <init>()
+- void <init>(ResourceLocation)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PlayerPredicate$Builder</summary>
 
+```diff
++ PlayerPredicate$Builder setLookingAt(EntityPredicate$Builder)
+- PlayerPredicate$Builder setLookingAt(Optional)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
++ void <init>()
+- void <init>(ResourceLocation)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- boolean lambda$trigger$0(Recipe,RecipeUnlockedTrigger$TriggerInstance)
++ boolean lambda$trigger$0(RecipeHolder,RecipeUnlockedTrigger$TriggerInstance)
++ Criterion unlocked(ResourceLocation)
+- RecipeUnlockedTrigger$TriggerInstance unlocked(ResourceLocation)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+- void trigger(ServerPlayer,Recipe)
++ void trigger(ServerPlayer,RecipeHolder)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,DeserializationContext)
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,DeserializationContext)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ void triggerRecipeCrafted(List)
-- void triggerRecipeCrafted(List)
+- void triggerRecipeCrafted(Recipe,List)
++ void triggerRecipeCrafted(RecipeHolder,List)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.entity.player.StackedContents</summary>
 
 ```diff
-+ int getBiggestCraftableStack(IntList)
-+ int getBiggestCraftableStack(IntList)
-- int getBiggestCraftableStack(IntList)
-- int getBiggestCraftableStack(IntList)
+- int getBiggestCraftableStack(Recipe,int,IntList)
+- int getBiggestCraftableStack(Recipe,IntList)
++ int getBiggestCraftableStack(RecipeHolder,int,IntList)
++ int getBiggestCraftableStack(RecipeHolder,IntList)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
 
 ```diff
-+ boolean recipeMatches(RecipeHolder)
 - boolean recipeMatches(Recipe)
++ boolean recipeMatches(RecipeHolder)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.inventory.ResultContainer</summary>
 
 ```diff
-+ RecipeHolder recipeUsed
-- Recipe recipeUsed
-+ RecipeHolder getRecipeUsed()
-+ void setRecipeUsed(RecipeHolder)
 - Recipe getRecipeUsed()
++ RecipeHolder getRecipeUsed()
 - void setRecipeUsed(Recipe)
++ void setRecipeUsed(RecipeHolder)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
 
 ```diff
-+ RecipeHolder selectedRecipe
-- SmithingRecipe selectedRecipe
-+ boolean lambda$createInputSlotDefinitions$0(RecipeHolder)
-+ boolean lambda$createInputSlotDefinitions$2(RecipeHolder)
-+ boolean lambda$createInputSlotDefinitions$4(RecipeHolder)
-+ IntStream lambda$findSlotToQuickMoveTo$7(RecipeHolder)
-- boolean lambda$createInputSlotDefinitions$0(SmithingRecipe)
-- boolean lambda$createInputSlotDefinitions$2(SmithingRecipe)
-- boolean lambda$createInputSlotDefinitions$4(SmithingRecipe)
-- IntStream lambda$findSlotToQuickMoveTo$7(SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$0(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$0(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$2(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$2(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$4(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$4(ItemStack,SmithingRecipe)
++ IntStream lambda$findSlotToQuickMoveTo$7(ItemStack,RecipeHolder)
+- IntStream lambda$findSlotToQuickMoveTo$7(ItemStack,SmithingRecipe)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.crafting.AbstractCookingRecipe</summary>
 
 ```diff
-- ResourceLocation id
-+ void <init>(ItemStack,float,int)
 - ResourceLocation getId()
-- void <init>(ItemStack,float,int)
+- void <init>(RecipeType,ResourceLocation,String,CookingBookCategory,Ingredient,ItemStack,float,int)
++ void <init>(RecipeType,String,CookingBookCategory,Ingredient,ItemStack,float,int)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.item.crafting.BannerDuplicateRecipe</summary>
 
 ```diff
 + void <init>(CraftingBookCategory)
-- void <init>(CraftingBookCategory)
+- void <init>(ResourceLocation,CraftingBookCategory)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.item.crafting.BookCloningRecipe</summary>
 
 ```diff
 + void <init>(CraftingBookCategory)
-- void <init>(CraftingBookCategory)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeSerializer</summary>
-
-```diff
-+ Codec codec()
-+ Recipe fromNetwork(net.minecraft.network.FriendlyByteBuf)
-- Recipe fromJson(net.minecraft.resources.ResourceLocation,com.google.gson.JsonObject)
-- Recipe fromNetwork(net.minecraft.resources.ResourceLocation,net.minecraft.network.FriendlyByteBuf)
+- void <init>(ResourceLocation,CraftingBookCategory)
 ```
 
 </details>
@@ -9023,25 +7191,30 @@
 <details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
 
 ```diff
-- ResourceLocation id
-+ String[] shrink(List)
-+ void <init>(ItemStack,boolean)
-+ void <init>(ItemStack)
 - Item itemFromJson(JsonObject)
 - ItemStack itemStackFromJson(JsonObject)
 - JsonSyntaxException lambda$itemFromJson$2(String)
 - Map keyFromJson(JsonObject)
-- NonNullList dissolvePattern(Map,int,int)
+- NonNullList dissolvePattern(String[],Map,int,int)
 - ResourceLocation getId()
 - String[] patternFromJson(JsonArray)
++ String[] shrink(List)
 - String[] shrink(String[])
-- void <init>(ItemStack,boolean)
-- void <init>(ItemStack)
+- void <init>(ResourceLocation,String,CraftingBookCategory,int,int,NonNullList,ItemStack,boolean)
+- void <init>(ResourceLocation,String,CraftingBookCategory,int,int,NonNullList,ItemStack)
++ void <init>(String,CraftingBookCategory,int,int,NonNullList,ItemStack,boolean)
++ void <init>(String,CraftingBookCategory,int,int,NonNullList,ItemStack)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.AdvancementList$Listener
@@ -13682,13 +11855,954 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
+
+```diff
+- Advancement build(ResourceLocation)
+- Advancement lambda$build$0(ResourceLocation)
+- Advancement save(Consumer,String)
+- Advancement$Builder addCriterion(String,CriterionTriggerInstance)
+- Advancement$Builder fromJson(JsonObject,DeserializationContext)
+- Advancement$Builder fromNetwork(FriendlyByteBuf)
+- Advancement$Builder parent(Advancement)
++ Advancement$Builder parent(AdvancementHolder)
++ Advancement$Builder requirements(AdvancementRequirements)
++ Advancement$Builder requirements(AdvancementRequirements$Strategy)
+- Advancement$Builder requirements(RequirementsStrategy)
+- Advancement$Builder requirements(String[][])
++ Advancement$Builder sendsTelemetryEvent()
++ AdvancementHolder build(ResourceLocation)
++ AdvancementHolder save(Consumer,String)
++ AdvancementRequirements lambda$build$0(Map)
+- boolean canBuild(Function)
+- JsonObject serializeToJson()
+- Map getCriteria()
+- String toString()
++ void <init>()
+- void <init>(boolean)
+- void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],boolean)
+- void lambda$serializeToNetwork$1(FriendlyByteBuf,DisplayInfo)
+- void serializeToNetwork(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.TreeNodePosition</summary>
+
+```diff
+- TreeNodePosition addChild(Advancement,TreeNodePosition)
++ TreeNodePosition addChild(AdvancementNode,TreeNodePosition)
+- void <init>(Advancement,TreeNodePosition,TreeNodePosition,int,int)
++ void <init>(AdvancementNode,TreeNodePosition,TreeNodePosition,int,int)
++ void lambda$finalizePosition$0(DisplayInfo)
+- void run(Advancement)
++ void run(AdvancementNode)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+```diff
+- Optional of(Optional,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion curedZombieVillager()
+- CuredZombieVillagerTrigger$TriggerInstance curedZombieVillager()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate$Builder</summary>
+
+```diff
++ DamagePredicate build()
+- Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
+
+```diff
++ DamageSourcePredicate build()
+- Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DistanceTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion fallFromHeight(EntityPredicate$Builder,DistancePredicate,LocationPredicate$Builder)
++ Criterion rideEntityInLava(EntityPredicate$Builder,DistancePredicate)
++ Criterion travelledThroughNether(DistancePredicate)
+- DistanceTrigger$TriggerInstance fallFromHeight(EntityPredicate$Builder,DistancePredicate,LocationPredicate$Builder)
+- DistanceTrigger$TriggerInstance rideEntityInLava(EntityPredicate$Builder,DistancePredicate)
+- DistanceTrigger$TriggerInstance travelledThroughNether(DistancePredicate)
++ void <init>(Optional,Optional,Optional)
+- void <init>(ResourceLocation,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion gotEffectsFrom(EntityPredicate$Builder)
++ Criterion hasEffects(MobEffectsPredicate$Builder)
+- EffectsChangedTrigger$TriggerInstance gotEffectsFrom(Optional)
+- EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion enchantedItem()
+- EnchantedItemTrigger$TriggerInstance enchantedItem()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate</summary>
+
+```diff
+- Optional of(Optional,Optional,Optional,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate</summary>
+
+```diff
+- Optional of(Optional,Optional,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
+
+```diff
++ boolean lambda$matches$2(ServerLevel,Vec3,Entity)
+- boolean lambda$matches$3(ServerLevel,Vec3,Entity)
++ ContextAwarePredicate wrap(EntityPredicate$Builder)
+- Optional of(Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional)
+- Optional wrap(EntityPredicate$Builder)
+- Stream lambda$wrap$2(EntityPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion filledBucket(ItemPredicate$Builder)
+- FilledBucketTrigger$TriggerInstance filledBucket(Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
+
+```diff
+- Optional of(Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ImpossibleTrigger</summary>
+
+```diff
+- ResourceLocation getId()
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
+
+```diff
+- Optional of(Optional,Optional,MinMaxBounds$Ints,MinMaxBounds$Ints,List,List,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemUsedOnLocationTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
++ void <init>()
+- void <init>(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.KilledTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
++ void <init>()
+- void <init>(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LevitationTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LightPredicate</summary>
+
+```diff
+- Optional of(MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion lightningStrike(Optional,Optional)
+- LightningStrikeTrigger$TriggerInstance lighthingStrike(Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
++ LocationPredicate build()
+- Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ResourceLocation getId()
++ SimpleCriterionTrigger$SimpleInstance createInstance(JsonObject,Optional,DeserializationContext)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion thrownItemPickedUpByEntity(ContextAwarePredicate,Optional,Optional)
++ Criterion thrownItemPickedUpByPlayer(Optional,Optional,Optional)
+- PickedUpItemTrigger$TriggerInstance thrownItemPickedUpByEntity(ContextAwarePredicate,Optional,Optional)
+- PickedUpItemTrigger$TriggerInstance thrownItemPickedUpByPlayer(Optional,Optional,Optional)
++ void <init>(Optional,Optional,Optional)
+- void <init>(ResourceLocation,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion playerHurtEntity()
++ Criterion playerHurtEntity(DamagePredicate$Builder,Optional)
++ Criterion playerHurtEntity(Optional,Optional)
++ Criterion playerHurtEntity(Optional)
++ Criterion playerHurtEntityWithDamage(DamagePredicate$Builder)
++ Criterion playerHurtEntityWithDamage(Optional)
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity()
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(DamagePredicate$Builder,Optional)
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(Optional,Optional)
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntity(Optional)
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntityWithDamage(DamagePredicate$Builder)
+- PlayerHurtEntityTrigger$TriggerInstance playerHurtEntityWithDamage(Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion itemUsedOnEntity(ItemPredicate$Builder,Optional)
++ Criterion itemUsedOnEntity(Optional,ItemPredicate$Builder,Optional)
+- PlayerInteractTrigger$TriggerInstance itemUsedOnEntity(ItemPredicate$Builder,Optional)
+- PlayerInteractTrigger$TriggerInstance itemUsedOnEntity(Optional,ItemPredicate$Builder,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion avoidVibration()
++ Criterion located(EntityPredicate$Builder)
++ Criterion located(LocationPredicate$Builder)
++ Criterion located(Optional)
++ Criterion raidWon()
++ Criterion sleptInBed()
++ Criterion tick()
++ Criterion walkOnBlockWithEquipment(Block,Item)
+- PlayerTrigger$TriggerInstance avoidVibration()
+- PlayerTrigger$TriggerInstance located(LocationPredicate$Builder)
+- PlayerTrigger$TriggerInstance located(Optional)
+- PlayerTrigger$TriggerInstance raidWon()
+- PlayerTrigger$TriggerInstance sleptInBed()
+- PlayerTrigger$TriggerInstance tick()
+- PlayerTrigger$TriggerInstance walkOnBlockWithEquipment(Block,Item)
++ void <init>(Optional)
+- void <init>(ResourceLocation,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion craftedItem(ResourceLocation,List)
++ Criterion craftedItem(ResourceLocation)
+- RecipeCraftedTrigger$TriggerInstance craftedItem(ResourceLocation,List)
+- RecipeCraftedTrigger$TriggerInstance craftedItem(ResourceLocation)
+- Stream lambda$craftedItem$0(ItemPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
+
+```diff
+- boolean matches(Recipe)
++ boolean matches(RecipeHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger$TriggerInstance</summary>
+
+```diff
++ Criterion shotCrossbow(ItemLike)
++ Criterion shotCrossbow(Optional)
+- ShotCrossbowTrigger$TriggerInstance shotCrossbow(ItemLike)
+- ShotCrossbowTrigger$TriggerInstance shotCrossbow(Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ boolean lambda$colorBlockWithDye$3(Item,Item)
+- boolean lambda$colorBlockWithDye$4(Item,Item)
++ boolean lambda$generateForEnabledBlockFamilies$1(FeatureFlagSet,BlockFamily)
+- boolean lambda$generateForEnabledBlockFamilies$2(FeatureFlagSet,BlockFamily)
++ CompletableFuture buildAdvancement(CachedOutput,AdvancementHolder)
+- CompletableFuture buildAdvancement(CachedOutput,ResourceLocation,Advancement$Builder)
++ CompletableFuture[] lambda$run$0(int)
+- CompletableFuture[] lambda$run$1(int)
++ Criterion has(ItemLike)
++ Criterion has(MinMaxBounds$Ints,ItemLike)
++ Criterion has(TagKey)
++ Criterion insideOf(Block)
++ Criterion inventoryTrigger(ItemPredicate[])
++ Criterion inventoryTrigger(ItemPredicate$Builder[])
+- EnterBlockTrigger$TriggerInstance insideOf(Block)
+- InventoryChangeTrigger$TriggerInstance has(ItemLike)
+- InventoryChangeTrigger$TriggerInstance has(MinMaxBounds$Ints,ItemLike)
+- InventoryChangeTrigger$TriggerInstance has(TagKey)
+- InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate[])
+- InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate$Builder[])
++ ItemPredicate[] lambda$inventoryTrigger$23(int)
+- ItemPredicate[] lambda$inventoryTrigger$25(int)
+- RecipeBuilder lambda$static$23(ItemLike,ItemLike)
++ RecipeBuilder lambda$static$8(ItemLike,ItemLike)
+- Stream lambda$inventoryTrigger$24(ItemPredicate$Builder)
++ String lambda$generateRecipes$6(ItemLike)
+- String lambda$generateRecipes$7(ItemLike)
+- void banner(Consumer,ItemLike,ItemLike)
++ void banner(RecipeOutput,ItemLike,ItemLike)
+- void bedFromPlanksAndWool(Consumer,ItemLike,ItemLike)
++ void bedFromPlanksAndWool(RecipeOutput,ItemLike,ItemLike)
+- void candle(Consumer,ItemLike,ItemLike)
++ void candle(RecipeOutput,ItemLike,ItemLike)
+- void carpet(Consumer,ItemLike,ItemLike)
++ void carpet(RecipeOutput,ItemLike,ItemLike)
+- void chestBoat(Consumer,ItemLike,ItemLike)
++ void chestBoat(RecipeOutput,ItemLike,ItemLike)
+- void chiseled(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void chiseled(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void colorBlockWithDye(Consumer,List,List,String)
++ void colorBlockWithDye(RecipeOutput,List,List,String)
+- void coloredTerracottaFromTerracottaAndDye(Consumer,ItemLike,ItemLike)
++ void coloredTerracottaFromTerracottaAndDye(RecipeOutput,ItemLike,ItemLike)
+- void concretePowder(Consumer,ItemLike,ItemLike)
++ void concretePowder(RecipeOutput,ItemLike,ItemLike)
+- void cookRecipes(Consumer,String,RecipeSerializer,int)
++ void cookRecipes(RecipeOutput,String,RecipeSerializer,int)
+- void copySmithingTemplate(Consumer,ItemLike,ItemLike)
+- void copySmithingTemplate(Consumer,ItemLike,TagKey)
++ void copySmithingTemplate(RecipeOutput,ItemLike,ItemLike)
++ void copySmithingTemplate(RecipeOutput,ItemLike,TagKey)
+- void cut(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void cut(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void generateForEnabledBlockFamilies(Consumer,FeatureFlagSet)
++ void generateForEnabledBlockFamilies(RecipeOutput,FeatureFlagSet)
+- void generateRecipes(Consumer,BlockFamily)
++ void generateRecipes(RecipeOutput,BlockFamily)
+- void hangingSign(Consumer,ItemLike,ItemLike)
++ void hangingSign(RecipeOutput,ItemLike,ItemLike)
++ void lambda$generateForEnabledBlockFamilies$2(RecipeOutput,BlockFamily)
+- void lambda$generateForEnabledBlockFamilies$3(Consumer,BlockFamily)
++ void lambda$generateRecipes$5(RecipeBuilder,BlockFamily$Variant,String)
+- void lambda$generateRecipes$6(RecipeBuilder,BlockFamily$Variant,String)
++ void lambda$generateRecipes$7(BlockFamily,RecipeOutput,BlockFamily$Variant,Block)
+- void lambda$generateRecipes$8(BlockFamily,Consumer,BlockFamily$Variant,Block)
+- void lambda$run$0(Set,List,CachedOutput,FinishedRecipe)
++ void lambda$waxRecipes$4(RecipeOutput,Block,Block)
+- void lambda$waxRecipes$5(Consumer,Block,Block)
+- void mosaicBuilder(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void mosaicBuilder(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void netheriteSmithing(Consumer,Item,RecipeCategory,Item)
++ void netheriteSmithing(RecipeOutput,Item,RecipeCategory,Item)
+- void nineBlockStorageRecipes(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String,String,String)
+- void nineBlockStorageRecipes(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike)
++ void nineBlockStorageRecipes(RecipeOutput,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String,String,String)
++ void nineBlockStorageRecipes(RecipeOutput,RecipeCategory,ItemLike,RecipeCategory,ItemLike)
+- void nineBlockStorageRecipesRecipesWithCustomUnpacking(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
++ void nineBlockStorageRecipesRecipesWithCustomUnpacking(RecipeOutput,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
+- void nineBlockStorageRecipesWithCustomPacking(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
++ void nineBlockStorageRecipesWithCustomPacking(RecipeOutput,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
+- void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String,int)
+- void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String)
++ void oneToOneConversionRecipe(RecipeOutput,ItemLike,ItemLike,String,int)
++ void oneToOneConversionRecipe(RecipeOutput,ItemLike,ItemLike,String)
+- void oreBlasting(Consumer,List,RecipeCategory,ItemLike,float,int,String)
++ void oreBlasting(RecipeOutput,List,RecipeCategory,ItemLike,float,int,String)
+- void oreCooking(Consumer,RecipeSerializer,List,RecipeCategory,ItemLike,float,int,String,String)
++ void oreCooking(RecipeOutput,RecipeSerializer,List,RecipeCategory,ItemLike,float,int,String,String)
+- void oreSmelting(Consumer,List,RecipeCategory,ItemLike,float,int,String)
++ void oreSmelting(RecipeOutput,List,RecipeCategory,ItemLike,float,int,String)
+- void planksFromLog(Consumer,ItemLike,TagKey,int)
++ void planksFromLog(RecipeOutput,ItemLike,TagKey,int)
+- void planksFromLogs(Consumer,ItemLike,TagKey,int)
++ void planksFromLogs(RecipeOutput,ItemLike,TagKey,int)
+- void polished(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void polished(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void pressurePlate(Consumer,ItemLike,ItemLike)
++ void pressurePlate(RecipeOutput,ItemLike,ItemLike)
+- void simpleCookingRecipe(Consumer,String,RecipeSerializer,int,ItemLike,ItemLike,float)
++ void simpleCookingRecipe(RecipeOutput,String,RecipeSerializer,int,ItemLike,ItemLike,float)
+- void slab(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void slab(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void smeltingResultFromBase(Consumer,ItemLike,ItemLike)
++ void smeltingResultFromBase(RecipeOutput,ItemLike,ItemLike)
+- void stainedGlassFromGlassAndDye(Consumer,ItemLike,ItemLike)
++ void stainedGlassFromGlassAndDye(RecipeOutput,ItemLike,ItemLike)
+- void stainedGlassPaneFromGlassPaneAndDye(Consumer,ItemLike,ItemLike)
++ void stainedGlassPaneFromGlassPaneAndDye(RecipeOutput,ItemLike,ItemLike)
+- void stainedGlassPaneFromStainedGlass(Consumer,ItemLike,ItemLike)
++ void stainedGlassPaneFromStainedGlass(RecipeOutput,ItemLike,ItemLike)
+- void stonecutterResultFromBase(Consumer,RecipeCategory,ItemLike,ItemLike,int)
+- void stonecutterResultFromBase(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void stonecutterResultFromBase(RecipeOutput,RecipeCategory,ItemLike,ItemLike,int)
++ void stonecutterResultFromBase(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void threeByThreePacker(Consumer,RecipeCategory,ItemLike,ItemLike,String)
+- void threeByThreePacker(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void threeByThreePacker(RecipeOutput,RecipeCategory,ItemLike,ItemLike,String)
++ void threeByThreePacker(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void trimSmithing(Consumer,Item,ResourceLocation)
++ void trimSmithing(RecipeOutput,Item,ResourceLocation)
+- void twoByTwoPacker(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void twoByTwoPacker(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void wall(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void wall(RecipeOutput,RecipeCategory,ItemLike,ItemLike)
+- void waxRecipes(Consumer)
++ void waxRecipes(RecipeOutput)
+- void woodenBoat(Consumer,ItemLike,ItemLike)
++ void woodenBoat(RecipeOutput,ItemLike,ItemLike)
+- void woodFromLogs(Consumer,ItemLike,ItemLike)
++ void woodFromLogs(RecipeOutput,ItemLike,ItemLike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
+- void triggerRecipeCrafted(Recipe,List)
++ void triggerRecipeCrafted(RecipeHolder,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.StackedContents</summary>
+
+```diff
+- int getBiggestCraftableStack(Recipe,int,IntList)
+- int getBiggestCraftableStack(Recipe,IntList)
++ int getBiggestCraftableStack(RecipeHolder,int,IntList)
++ int getBiggestCraftableStack(RecipeHolder,IntList)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
+
+```diff
+- boolean recipeMatches(Recipe)
++ boolean recipeMatches(RecipeHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.ResultContainer</summary>
+
+```diff
+- Recipe getRecipeUsed()
++ RecipeHolder getRecipeUsed()
+- void setRecipeUsed(Recipe)
++ void setRecipeUsed(RecipeHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+
+```diff
++ boolean lambda$createInputSlotDefinitions$0(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$0(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$2(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$2(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$4(ItemStack,RecipeHolder)
+- boolean lambda$createInputSlotDefinitions$4(ItemStack,SmithingRecipe)
++ IntStream lambda$findSlotToQuickMoveTo$7(ItemStack,RecipeHolder)
+- IntStream lambda$findSlotToQuickMoveTo$7(ItemStack,SmithingRecipe)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.AbstractCookingRecipe</summary>
+
+```diff
+- ResourceLocation getId()
+- void <init>(RecipeType,ResourceLocation,String,CookingBookCategory,Ingredient,ItemStack,float,int)
++ void <init>(RecipeType,String,CookingBookCategory,Ingredient,ItemStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.BannerDuplicateRecipe</summary>
+
+```diff
++ void <init>(CraftingBookCategory)
+- void <init>(ResourceLocation,CraftingBookCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.BookCloningRecipe</summary>
+
+```diff
++ void <init>(CraftingBookCategory)
+- void <init>(ResourceLocation,CraftingBookCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
+
+```diff
+- Item itemFromJson(JsonObject)
+- ItemStack itemStackFromJson(JsonObject)
+- JsonSyntaxException lambda$itemFromJson$2(String)
+- Map keyFromJson(JsonObject)
+- NonNullList dissolvePattern(String[],Map,int,int)
+- ResourceLocation getId()
+- String[] patternFromJson(JsonArray)
++ String[] shrink(List)
+- String[] shrink(String[])
+- void <init>(ResourceLocation,String,CraftingBookCategory,int,int,NonNullList,ItemStack,boolean)
+- void <init>(ResourceLocation,String,CraftingBookCategory,int,int,NonNullList,ItemStack)
++ void <init>(String,CraftingBookCategory,int,int,NonNullList,ItemStack,boolean)
++ void <init>(String,CraftingBookCategory,int,int,NonNullList,ItemStack)
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ connect.reconfiguring
++ mco.selectServer.create.subtitle
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.github.oshi:oshi-core:6.2.2
++ com.github.oshi:oshi-core:6.4.5
+- com.google.code.gson:gson:2.10
++ com.google.code.gson:gson:2.10.1
+- com.google.guava:guava:31.1-jre
++ com.google.guava:guava:32.1.2-jre
+- com.ibm.icu:icu4j:71.1
++ com.ibm.icu:icu4j:73.2
+- commons-codec:commons-codec:1.15
++ commons-codec:commons-codec:1.16.0
+- commons-io:commons-io:2.11.0
++ commons-io:commons-io:2.13.0
+- io.netty:netty-buffer:4.1.82.Final
++ io.netty:netty-buffer:4.1.97.Final
+- io.netty:netty-codec:4.1.82.Final
++ io.netty:netty-codec:4.1.97.Final
+- io.netty:netty-common:4.1.82.Final
++ io.netty:netty-common:4.1.97.Final
+- io.netty:netty-handler:4.1.82.Final
++ io.netty:netty-handler:4.1.97.Final
+- io.netty:netty-resolver:4.1.82.Final
++ io.netty:netty-resolver:4.1.97.Final
+- io.netty:netty-transport-classes-epoll:4.1.82.Final
++ io.netty:netty-transport-classes-epoll:4.1.97.Final
+- io.netty:netty-transport-native-epoll:4.1.82.Final:linux-aarch_64
+- io.netty:netty-transport-native-epoll:4.1.82.Final:linux-x86_64
++ io.netty:netty-transport-native-epoll:4.1.97.Final:linux-aarch_64
++ io.netty:netty-transport-native-epoll:4.1.97.Final:linux-x86_64
+- io.netty:netty-transport-native-unix-common:4.1.82.Final
++ io.netty:netty-transport-native-unix-common:4.1.97.Final
+- io.netty:netty-transport:4.1.82.Final
++ io.netty:netty-transport:4.1.97.Final
++ it.unimi.dsi:fastutil:8.5.12
+- it.unimi.dsi:fastutil:8.5.9
+- net.java.dev.jna:jna-platform:5.12.1
++ net.java.dev.jna:jna-platform:5.13.0
+- net.java.dev.jna:jna:5.12.1
++ net.java.dev.jna:jna:5.13.0
+- org.apache.commons:commons-compress:1.21
++ org.apache.commons:commons-compress:1.22
+- org.apache.commons:commons-lang3:3.12.0
++ org.apache.commons:commons-lang3:3.13.0
+- org.apache.httpcomponents:httpcore:4.4.15
++ org.apache.httpcomponents:httpcore:4.4.16
+- org.lwjgl:lwjgl-glfw:3.3.1
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-linux
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-macos
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-glfw:3.3.2
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-linux
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-macos
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-glfw:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl-jemalloc:3.3.1
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-linux
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-jemalloc:3.3.2
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-linux
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-macos
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-jemalloc:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl-openal:3.3.1
+- org.lwjgl:lwjgl-openal:3.3.1:natives-linux
+- org.lwjgl:lwjgl-openal:3.3.1:natives-macos
+- org.lwjgl:lwjgl-openal:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-openal:3.3.1:natives-windows
+- org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-openal:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-openal:3.3.2
++ org.lwjgl:lwjgl-openal:3.3.2:natives-linux
++ org.lwjgl:lwjgl-openal:3.3.2:natives-macos
++ org.lwjgl:lwjgl-openal:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-openal:3.3.2:natives-windows
++ org.lwjgl:lwjgl-openal:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-openal:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl-opengl:3.3.1
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-linux
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-macos
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-opengl:3.3.2
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-linux
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-macos
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-opengl:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl-stb:3.3.1
+- org.lwjgl:lwjgl-stb:3.3.1:natives-linux
+- org.lwjgl:lwjgl-stb:3.3.1:natives-macos
+- org.lwjgl:lwjgl-stb:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-stb:3.3.1:natives-windows
+- org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-stb:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-stb:3.3.2
++ org.lwjgl:lwjgl-stb:3.3.2:natives-linux
++ org.lwjgl:lwjgl-stb:3.3.2:natives-macos
++ org.lwjgl:lwjgl-stb:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-stb:3.3.2:natives-windows
++ org.lwjgl:lwjgl-stb:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-stb:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl-tinyfd:3.3.1
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-linux
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-tinyfd:3.3.2
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-linux
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-macos
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl-tinyfd:3.3.2:natives-windows-x86
+- org.lwjgl:lwjgl:3.3.1
+- org.lwjgl:lwjgl:3.3.1:natives-linux
+- org.lwjgl:lwjgl:3.3.1:natives-macos
+- org.lwjgl:lwjgl:3.3.1:natives-macos-arm64
+- org.lwjgl:lwjgl:3.3.1:natives-windows
+- org.lwjgl:lwjgl:3.3.1:natives-windows-arm64
+- org.lwjgl:lwjgl:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl:3.3.2
++ org.lwjgl:lwjgl:3.3.2:natives-linux
++ org.lwjgl:lwjgl:3.3.2:natives-macos
++ org.lwjgl:lwjgl:3.3.2:natives-macos-arm64
++ org.lwjgl:lwjgl:3.3.2:natives-windows
++ org.lwjgl:lwjgl:3.3.2:natives-windows-arm64
++ org.lwjgl:lwjgl:3.3.2:natives-windows-x86
+- org.slf4j:slf4j-api:2.0.1
++ org.slf4j:slf4j-api:2.0.7
+```
+
+</details>

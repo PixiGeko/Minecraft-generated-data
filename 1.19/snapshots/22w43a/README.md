@@ -1,1907 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w43a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w43a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-10-26T11:55:59+00:00</td></tr>
-<tr><th>SHA1</th><td>61e6462895890c4d61f8b86adb5052e4882fa761</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/61e6462895890c4d61f8b86adb5052e4882fa761/22w43a.json">https://piston-meta.mojang.com/v1/packages/61e6462895890c4d61f8b86adb5052e4882fa761/22w43a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/43425ceb2ad43d7a6e4a014cbb7e8bae9140adfa/1.json">https://piston-meta.mojang.com/v1/packages/43425ceb2ad43d7a6e4a014cbb7e8bae9140adfa/1.json</a></td></tr>
+<tr><th>SHA1</th><td>f6b22488d63c312f7e24a9c7aecdda078c9523b3</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/f6b22488d63c312f7e24a9c7aecdda078c9523b3/22w43a.json">https://piston-meta.mojang.com/v1/packages/f6b22488d63c312f7e24a9c7aecdda078c9523b3/22w43a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/cbc9209cb1cf9bb60c34cd9f930e48645a4df218/1.json">https://piston-meta.mojang.com/v1/packages/cbc9209cb1cf9bb60c34cd9f930e48645a4df218/1.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/6718a5ac0b073644dbdfbd25f8218c68a1b390db/server.jar">https://piston-data.mojang.com/v1/objects/6718a5ac0b073644dbdfbd25f8218c68a1b390db/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/25feb69212ba7f3dc9071c1c81f0632898c98339/server.txt">https://piston-data.mojang.com/v1/objects/25feb69212ba7f3dc9071c1c81f0632898c98339/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/dff0d3cc4992c44b55c504f1966274c7a2cec4d0/client.jar">https://piston-data.mojang.com/v1/objects/dff0d3cc4992c44b55c504f1966274c7a2cec4d0/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9f456560603d0a103313885d11beb0b71a148c01/client.txt">https://piston-data.mojang.com/v1/objects/9f456560603d0a103313885d11beb0b71a148c01/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w42a">22w42a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/birch_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/birch_hanging_sign.json
-```
+### Client
 
-</details>
 
-## Misc
 
-<details><summary>dimensions.txt</summary>
 
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w42a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w43a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.github.oshi:oshi-core:5.8.5
-- com.google.code.gson:gson:2.8.9
-- com.google.guava:guava:31.0.1-jre
-- com.ibm.icu:icu4j:70.1
-- com.mojang:logging:1.0.0
-- io.netty:netty-buffer:4.1.77.Final
-- io.netty:netty-codec:4.1.77.Final
-- io.netty:netty-common:4.1.77.Final
-- io.netty:netty-handler:4.1.77.Final
-- io.netty:netty-resolver:4.1.77.Final
-- io.netty:netty-transport-classes-epoll:4.1.77.Final
-- io.netty:netty-transport-native-epoll:4.1.77.Final:linux-aarch_64
-- io.netty:netty-transport-native-epoll:4.1.77.Final:linux-x86_64
-- io.netty:netty-transport-native-unix-common:4.1.77.Final
-- io.netty:netty-transport:4.1.77.Final
-- it.unimi.dsi:fastutil:8.5.6
-- net.java.dev.jna:jna-platform:5.10.0
-- net.java.dev.jna:jna:5.10.0
-- org.apache.httpcomponents:httpcore:4.4.14
-- org.apache.logging.log4j:log4j-api:2.17.0
-- org.apache.logging.log4j:log4j-core:2.17.0
-- org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0
-- org.slf4j:slf4j-api:1.8.0-beta4
-+ com.github.oshi:oshi-core:6.2.2
-+ com.google.code.gson:gson:2.9.1
-+ com.google.guava:guava:31.1-jre
-+ com.ibm.icu:icu4j:71.1
-+ com.mojang:logging:1.1.1
-+ io.netty:netty-buffer:4.1.82.Final
-+ io.netty:netty-codec:4.1.82.Final
-+ io.netty:netty-common:4.1.82.Final
-+ io.netty:netty-handler:4.1.82.Final
-+ io.netty:netty-resolver:4.1.82.Final
-+ io.netty:netty-transport-classes-epoll:4.1.82.Final
-+ io.netty:netty-transport-native-epoll:4.1.82.Final:linux-aarch_64
-+ io.netty:netty-transport-native-epoll:4.1.82.Final:linux-x86_64
-+ io.netty:netty-transport-native-unix-common:4.1.82.Final
-+ io.netty:netty-transport:4.1.82.Final
-+ it.unimi.dsi:fastutil:8.5.9
-+ net.java.dev.jna:jna-platform:5.12.1
-+ net.java.dev.jna:jna:5.12.1
-+ org.apache.httpcomponents:httpcore:4.4.15
-+ org.apache.logging.log4j:log4j-api:2.19.0
-+ org.apache.logging.log4j:log4j-core:2.19.0
-+ org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0
-+ org.joml:joml:1.10.5
-+ org.slf4j:slf4j-api:2.0.1
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.audio.Listener</summary>
-
-```diff
-+ void setListenerOrientation(Vector3f)
-- void setListenerOrientation(Vector3f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.shaders.AbstractUniform</summary>
-
-```diff
-+ void set(Matrix3f)
-+ void set(Matrix4f)
-+ void set(Vector3f)
-+ void set(Vector4f)
-- void set(Matrix3f)
-- void set(Matrix4f)
-- void set(Vector3f)
-- void set(Vector4f)
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.shaders.Uniform</summary>
-
-```diff
-+ void set(Matrix3f)
-+ void set(Matrix4f)
-+ void set(Vector3f)
-+ void set(Vector4f)
-- void set(Matrix3f)
-- void set(Matrix4f)
-- void set(Vector3f)
-- void set(Vector4f)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ Matrix3f inverseViewRotationMatrix
-+ Matrix4f modelViewMatrix
-+ Matrix4f projectionMatrix
-+ Matrix4f savedProjectionMatrix
-+ Matrix4f textureMatrix
-+ Vector3f[] shaderLightDirections
-- Matrix3f inverseViewRotationMatrix
-- Matrix4f modelViewMatrix
-- Matrix4f projectionMatrix
-- Matrix4f savedProjectionMatrix
-- Matrix4f textureMatrix
-- Vector3f[] shaderLightDirections
-+ Matrix3f getInverseViewRotationMatrix()
-+ Matrix4f getModelViewMatrix()
-+ Matrix4f getProjectionMatrix()
-+ Matrix4f getTextureMatrix()
-+ void _setShaderLights(Vector3f)
-+ void lambda$applyModelViewMatrix$68(Matrix4f)
-+ void lambda$setInverseViewRotationMatrix$65(Matrix3f)
-+ void lambda$setProjectionMatrix$64(Matrix4f)
-+ void lambda$setShaderLights$30(Vector3f)
-+ void lambda$setTextureMatrix$66(Matrix4f)
-+ void lambda$setupGui3DDiffuseLighting$58(Vector3f)
-+ void lambda$setupGuiFlatDiffuseLighting$57(Vector3f)
-+ void lambda$setupLevelDiffuseLighting$56(Matrix4f)
-+ void setInverseViewRotationMatrix(Matrix3f)
-+ void setProjectionMatrix(Matrix4f)
-+ void setShaderLights(Vector3f)
-+ void setTextureMatrix(Matrix4f)
-+ void setupGui3DDiffuseLighting(Vector3f)
-+ void setupGuiFlatDiffuseLighting(Vector3f)
-+ void setupLevelDiffuseLighting(Matrix4f)
-- Matrix3f getInverseViewRotationMatrix()
-- Matrix4f getModelViewMatrix()
-- Matrix4f getProjectionMatrix()
-- Matrix4f getTextureMatrix()
-- void _setShaderLights(Vector3f)
-- void lambda$applyModelViewMatrix$68(Matrix4f)
-- void lambda$setInverseViewRotationMatrix$65(Matrix3f)
-- void lambda$setProjectionMatrix$64(Matrix4f)
-- void lambda$setShaderLights$30(Vector3f)
-- void lambda$setTextureMatrix$66(Matrix4f)
-- void lambda$setupGui3DDiffuseLighting$58(Vector3f)
-- void lambda$setupGuiFlatDiffuseLighting$57(Vector3f)
-- void lambda$setupLevelDiffuseLighting$56(Matrix4f)
-- void setInverseViewRotationMatrix(Matrix3f)
-- void setProjectionMatrix(Matrix4f)
-- void setShaderLights(Vector3f)
-- void setTextureMatrix(Matrix4f)
-- void setupGui3DDiffuseLighting(Vector3f)
-- void setupGuiFlatDiffuseLighting(Vector3f)
-- void setupLevelDiffuseLighting(Matrix4f)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
-
-```diff
-+ Vector3f[] sortingPoints
-- Vector3f[] sortingPoints
-+ Vector3f[] makeQuadSortingPoints()
-- Vector3f[] makeQuadSortingPoints()
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
-
-```diff
-+ Vector3f[] sortingPoints
-- Vector3f[] sortingPoints
-+ void <init>(Vector3f[],float,float,float)
-- void <init>(Vector3f[],float,float,float)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.PoseStack$Pose</summary>
-
-```diff
-+ Matrix3f normal
-+ Matrix4f pose
-- Matrix3f normal
-- Matrix4f pose
-+ Matrix3f normal()
-+ Matrix4f pose()
-+ void <init>(Matrix3f)
-- Matrix3f normal()
-- Matrix4f pose()
-- void <init>(Matrix3f)
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexConsumer</summary>
-
-```diff
-+ VertexConsumer normal(Matrix3f,float,float,float)
-+ VertexConsumer vertex(Matrix4f,float,float,float)
-- VertexConsumer normal(Matrix3f,float,float,float)
-- VertexConsumer vertex(Matrix4f,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.math.SymmetricGroup3</summary>
-
-```diff
-+ Matrix3f transformation
-- Matrix3f transformation
-+ Matrix3f transformation()
-- Matrix3f transformation()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.PlayerTabOverlay</summary>
-
-```diff
-+ boolean lambda$render$4(UUID)
-+ int lambda$static$0(PlayerInfo)
-+ PlayerTabOverlay$HealthState lambda$renderTablistHearts$5(UUID)
-+ String lambda$static$2(PlayerInfo)
-+ UUID lambda$render$3(PlayerInfo)
-- boolean lambda$render$3(UUID)
-- Boolean lambda$static$0(GameType)
-- PlayerTabOverlay$HealthState lambda$renderTablistHearts$4(UUID)
-- UUID lambda$render$2(PlayerInfo)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
-
-```diff
-- void setPosition(int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
-
-```diff
-- LocalChatSession chatSession
-+ void <init>(Consumer)
-+ void lambda$handleHello$0(Cipher)
-+ void lambda$handleHello$1(Cipher)
-- void <init>(Consumer)
-- void lambda$handleHello$0(SignatureUpdater$Output)
-- void lambda$handleHello$1(Cipher)
-- void lambda$handleHello$2(Cipher)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ProfileKeyPairManager</summary>
-
-```diff
-+ boolean shouldRefreshKeyPair()
-+ CompletableFuture prepareKeyPair()
-+ ProfileKeyPairManager EMPTY_KEY_MANAGER
-- CompletableFuture keyPair
-- Logger LOGGER
-- Path PROFILE_KEY_PAIR_DIR
-- Path profileKeyPairPath
-- UserApiService userApiService
-+ ProfileKeyPairManager create(Path)
-- boolean lambda$new$0(ProfileKeyPair)
-- CompletableFuture prepareChatSession()
-- CompletableFuture readOrFetchProfileKeyPair(Optional)
-- LocalChatSession lambda$prepareChatSession$2(Optional)
-- Optional lambda$new$1()
-- Optional lambda$readOrFetchProfileKeyPair$3(Optional)
-- Optional readProfileKeyPair()
-- ProfileKeyPair fetchProfileKeyPair(UserApiService)
-- ProfilePublicKey$Data parsePublicKey(KeyPairResponse)
-- void <init>(Path)
-- void lambda$writeProfileKeyPair$4(JsonElement)
-- void writeProfileKeyPair(ProfileKeyPair)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.LoggedChatMessage$System</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ LoggedChatEvent$Type type()
-+ void <clinit>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
-
-```diff
-+ ChatReportBuilder$ChatReport report
-- Instant createdAt
-- IntSet reportedMessages
-- ReportReason reason
-- String comments
-- UUID reportedProfileId
-- UUID reportId
-+ boolean hasContent()
-+ ChatReportBuilder$ChatReport report()
-+ void <init>(AbuseReportLimits)
-- void <init>(AbuseReportLimits)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.DataProvider</summary>
-
-```diff
-+ CompletableFuture run(net.minecraft.data.CachedOutput)
-+ Logger LOGGER
-- void run(net.minecraft.data.CachedOutput)
-+ CompletableFuture saveStable(Path)
-+ void lambda$saveStable$2(Path)
-- void saveStable(Path)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.Main</summary>
-
-```diff
-+ NbtToSnbt lambda$createStandardGenerator$3(PackOutput)
-+ PackMetadataGenerator lambda$createStandardGenerator$4(PackOutput)
-+ PackMetadataGenerator lambda$createStandardGenerator$6(PackOutput)
-+ SnbtToNbt lambda$createStandardGenerator$1(PackOutput)
-+ UpdateOneTwentyItemTagsProvider lambda$createStandardGenerator$5(PackOutput)
-+ VanillaItemTagsProvider lambda$createStandardGenerator$2(PackOutput)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
-
-```diff
-- Logger LOGGER
-- String name
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$1(int)
-+ void <init>(List)
-+ void lambda$run$0(Advancement)
-- void <clinit>()
-- void <init>(List)
-- void lambda$run$0(Advancement)
-- void run(CachedOutput)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.info.BiomeParametersDumpReport</summary>
-
-```diff
-+ CompletableFuture dumpValue(Object)
-+ CompletableFuture lambda$run$0(Pair)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$1(int)
-+ void lambda$dumpValue$2(String)
-- void dumpValue(Object)
-- void lambda$dumpValue$1(String)
-- void lambda$run$0(Pair)
-- void run(CachedOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.info.CommandsReport</summary>
-
-```diff
-+ CompletableFuture run(CachedOutput)
-- void run(CachedOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-- Logger LOGGER
-+ boolean lambda$generateForEnabledBlockFamilies$2(BlockFamily)
-+ CompletableFuture buildAdvancement(Advancement$Builder)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$1(int)
-+ RecipeBuilder lambda$static$22(ItemLike)
-+ String getName()
-+ String lambda$generateRecipes$6(ItemLike)
-+ void lambda$generateForEnabledBlockFamilies$3(BlockFamily)
-+ void lambda$generateRecipes$5(String)
-+ void lambda$generateRecipes$7(Block)
-+ void lambda$run$0(FinishedRecipe)
-+ void lambda$waxRecipes$4(Block)
-- boolean lambda$generateForEnabledBlockFamilies$1(BlockFamily)
-- RecipeBuilder lambda$static$7(ItemLike)
-- String lambda$generateRecipes$5(ItemLike)
-- void buildAdvancement(Advancement$Builder)
-- void lambda$generateForEnabledBlockFamilies$2(BlockFamily)
-- void lambda$generateRecipes$4(String)
-- void lambda$generateRecipes$6(Block)
-- void lambda$run$0(FinishedRecipe)
-- void lambda$waxRecipes$3(Block)
-- void run(CachedOutput)
-- void saveAdvancement(Path)
-- void saveRecipe(Path)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.packs.BundleRecipeProvider</summary>
-
-```diff
-- String getName()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.packs.VanillaRecipeProvider</summary>
-
-```diff
-+ CompletableFuture run(CachedOutput)
-- String getName()
-- void run(CachedOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
-
-```diff
-+ CompletableFuture lambda$run$2(Path)
-+ CompletableFuture lambda$run$4(Path)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$3(int)
-+ CompletableFuture[] lambda$run$6(int)
-+ CompletionStage lambda$run$5(CompletableFuture)
-- void run(CachedOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.UpdateOneTwentyItemTagsProvider</summary>
-
-```diff
-- String getName()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BuiltinRegistriesDatapackGenerator</summary>
-
-```diff
-+ CompletableFuture dumpRegistryCap(RegistryDataLoader$RegistryData)
-+ CompletableFuture dumpValue(Object)
-+ CompletableFuture lambda$dumpRegistryCap$2(Map$Entry)
-+ CompletableFuture lambda$run$0(RegistryDataLoader$RegistryData)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$dumpRegistryCap$3(int)
-+ CompletableFuture[] lambda$run$1(int)
-+ void lambda$dumpValue$4(String)
-- void dumpRegistryCap(RegistryDataLoader$RegistryData)
-- void dumpValue(Object)
-- void lambda$dumpValue$1(String)
-- void lambda$run$0(RegistryDataLoader$RegistryData)
-- void run(CachedOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.FilterMask</summary>
-
-```diff
-+ Codec CODEC
-+ Codec FULLY_FILTERED_CODEC
-+ Codec PARTIALLY_FILTERED_CODEC
-+ Codec PASS_THROUGH_CODEC
-+ BitSet mask()
-+ boolean equals(Object)
-+ FilterMask$Type type()
-+ int hashCode()
-+ void <init>(BitSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.FilterMask$Type</summary>
-
-```diff
-+ String serializedName
-+ Supplier codec
-+ Codec codec()
-+ Codec lambda$static$0()
-+ Codec lambda$static$1()
-+ Codec lambda$static$2()
-+ String getSerializedName()
-+ void <init>(Supplier)
-- void <init>(String,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.LastSeenMessages</summary>
-
-```diff
-+ Codec CODEC
-+ LastSeenMessages$Packed pack(MessageSignatureCache)
-+ MessageSignature$Packed lambda$pack$0(MessageSignature)
-- LastSeenMessages$Packed pack(MessageSignature$Packer)
-- MessageSignature$Packed lambda$pack$0(MessageSignature)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.chat.MessageSignature</summary>
-
-```diff
-+ Codec CODEC
-+ MessageSignature$Packed pack(MessageSignatureCache)
-+ void <clinit>()
-- MessageSignature$Packed pack(MessageSignature$Packer)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.MessageSignatureCache</summary>
-
-```diff
-+ int NOT_FOUND
-+ int pack(MessageSignature)
-+ MessageSignature unpack(int)
-- int lambda$packer$0(MessageSignature)
-- MessageSignature lambda$unpacker$1(int)
-- MessageSignature$Packer packer()
-- MessageSignature$Unpacker unpacker()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
-
-```diff
-- RemoteChatSession UNVERIFIED
-- boolean verifiable()
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.chat.SignedMessageBody</summary>
-
-```diff
-+ MapCodec MAP_CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ SignedMessageBody$Packed pack(MessageSignatureCache)
-+ void <clinit>()
-- SignedMessageBody$Packed pack(MessageSignature$Packer)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.chat.SignedMessageChain$Decoder</summary>
-
-```diff
-+ SignedMessageChain$Decoder REJECT_ALL
-+ PlayerChatMessage lambda$static$0(SignedMessageBody)
-+ PlayerChatMessage lambda$unsigned$1(SignedMessageBody)
-+ void <clinit>()
-- PlayerChatMessage lambda$unsigned$0(SignedMessageBody)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SignedMessageLink</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSetEntityDataPacket</summary>
-
-```diff
-+ int EOF_MARKER
-+ boolean equals(Object)
-+ int hashCode()
-+ int id()
-+ List packedItems()
-+ List unpack(FriendlyByteBuf)
-+ String toString()
-+ void <init>(List)
-+ void pack(FriendlyByteBuf)
-- int getId()
-- List getUnpackedData()
-- void <init>(SynchedEntityData,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerGamePacketListener</summary>
-
-```diff
-+ void handleChatSessionUpdate(net.minecraft.network.protocol.game.ServerboundChatSessionUpdatePacket)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
-
-```diff
-- CompletableFuture val$chatSessionFuture
-+ void <init>(RealmsServer)
-- void <init>(RealmsServer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ RemoteChatSession chatSession
-- MessageSignature$Packer messageSignaturePacker
-+ CompletableFuture lambda$resetPlayerChatState$15(Executor)
-+ void handleChatSessionUpdate(ServerboundChatSessionUpdatePacket)
-+ void resetPlayerChatState(RemoteChatSession)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
-
-```diff
-+ byte[] challenge
-- byte[] nonce
-- RemoteChatSession$Data chatSessionData
-- RemoteChatSession validateChatSession(SignatureValidator,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ ServerPlayer getPlayerForLogin(GameProfile)
-- ServerPlayer getPlayerForLogin(RemoteChatSession)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.BadRespawnPointDamage</summary>
-
-```diff
-+ void <init>(Vec3)
-- void <init>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-- DamageSource ANVIL
-- DamageSource FALLING_BLOCK
-- DamageSource FALLING_STALACTITE
-+ DamageSource anvil(Entity)
-+ DamageSource badRespawnPointExplosion(Vec3)
-+ DamageSource explosion(Entity)
-+ DamageSource fallingBlock(Entity)
-+ DamageSource fallingStalactite(Entity)
-- DamageSource badRespawnPointExplosion()
-- DamageSource explosion(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.damagesource.IndirectEntityDamageSource</summary>
-
-```diff
-+ Entity cause
-- Entity owner
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.Vec3</summary>
-
-```diff
-+ Vector3f toVector3f()
-+ void <init>(Vector3f)
-- void <init>(Vector3f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.Axis
@@ -6496,11 +4626,146 @@
 
 </details>
 
+
+<details><summary>com.mojang.blaze3d.audio.Listener</summary>
+
+```diff
++ void setListenerOrientation(Vector3f,Vector3f)
+- void setListenerOrientation(Vector3f,Vector3f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.shaders.AbstractUniform</summary>
+
+```diff
++ void set(Matrix3f)
+- void set(Matrix3f)
++ void set(Matrix4f)
+- void set(Matrix4f)
++ void set(Vector3f)
+- void set(Vector3f)
++ void set(Vector4f)
+- void set(Vector4f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.shaders.Uniform</summary>
+
+```diff
++ void set(Matrix3f)
+- void set(Matrix3f)
++ void set(Matrix4f)
+- void set(Matrix4f)
++ void set(Vector3f)
+- void set(Vector3f)
++ void set(Vector4f)
+- void set(Vector4f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
+
+```diff
++ Matrix3f getInverseViewRotationMatrix()
+- Matrix3f getInverseViewRotationMatrix()
++ Matrix4f getModelViewMatrix()
+- Matrix4f getModelViewMatrix()
++ Matrix4f getProjectionMatrix()
+- Matrix4f getProjectionMatrix()
++ Matrix4f getTextureMatrix()
+- Matrix4f getTextureMatrix()
++ void _setShaderLights(Vector3f,Vector3f)
+- void _setShaderLights(Vector3f,Vector3f)
++ void lambda$applyModelViewMatrix$68(Matrix4f)
+- void lambda$applyModelViewMatrix$68(Matrix4f)
++ void lambda$setInverseViewRotationMatrix$65(Matrix3f)
+- void lambda$setInverseViewRotationMatrix$65(Matrix3f)
++ void lambda$setProjectionMatrix$64(Matrix4f)
+- void lambda$setProjectionMatrix$64(Matrix4f)
++ void lambda$setShaderLights$30(Vector3f,Vector3f)
+- void lambda$setShaderLights$30(Vector3f,Vector3f)
++ void lambda$setTextureMatrix$66(Matrix4f)
+- void lambda$setTextureMatrix$66(Matrix4f)
++ void lambda$setupGui3DDiffuseLighting$58(Vector3f,Vector3f)
+- void lambda$setupGui3DDiffuseLighting$58(Vector3f,Vector3f)
++ void lambda$setupGuiFlatDiffuseLighting$57(Vector3f,Vector3f)
+- void lambda$setupGuiFlatDiffuseLighting$57(Vector3f,Vector3f)
++ void lambda$setupLevelDiffuseLighting$56(Vector3f,Vector3f,Matrix4f)
+- void lambda$setupLevelDiffuseLighting$56(Vector3f,Vector3f,Matrix4f)
++ void setInverseViewRotationMatrix(Matrix3f)
+- void setInverseViewRotationMatrix(Matrix3f)
++ void setProjectionMatrix(Matrix4f)
+- void setProjectionMatrix(Matrix4f)
++ void setShaderLights(Vector3f,Vector3f)
+- void setShaderLights(Vector3f,Vector3f)
++ void setTextureMatrix(Matrix4f)
+- void setTextureMatrix(Matrix4f)
++ void setupGui3DDiffuseLighting(Vector3f,Vector3f)
+- void setupGui3DDiffuseLighting(Vector3f,Vector3f)
++ void setupGuiFlatDiffuseLighting(Vector3f,Vector3f)
+- void setupGuiFlatDiffuseLighting(Vector3f,Vector3f)
++ void setupLevelDiffuseLighting(Vector3f,Vector3f,Matrix4f)
+- void setupLevelDiffuseLighting(Vector3f,Vector3f,Matrix4f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder</summary>
+
+```diff
++ Vector3f[] makeQuadSortingPoints()
+- Vector3f[] makeQuadSortingPoints()
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$SortState</summary>
+
+```diff
++ void <init>(VertexFormat$Mode,int,Vector3f[],float,float,float)
+- void <init>(VertexFormat$Mode,int,Vector3f[],float,float,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.PoseStack$Pose</summary>
+
+```diff
++ Matrix3f normal()
+- Matrix3f normal()
++ Matrix4f pose()
+- Matrix4f pose()
++ void <init>(Matrix4f,Matrix3f)
+- void <init>(Matrix4f,Matrix3f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.VertexConsumer</summary>
+
+```diff
++ VertexConsumer normal(Matrix3f,float,float,float)
+- VertexConsumer normal(Matrix3f,float,float,float)
++ VertexConsumer vertex(Matrix4f,float,float,float)
+- VertexConsumer vertex(Matrix4f,float,float,float)
+```
+
+</details>
+
+
 <details><summary>com.mojang.math.SymmetricGroup3</summary>
 
 ```diff
-+ Matrix3f transformation
-- Matrix3f transformation
 + Matrix3f transformation()
 - Matrix3f transformation()
 ```
@@ -6508,115 +4773,192 @@
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.data.info.BlockListReport</summary>
+<details><summary>net.minecraft.client.gui.components.PlayerTabOverlay</summary>
 
 ```diff
-+ CompletableFuture run(CachedOutput)
-- void run(CachedOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
-
-```diff
-+ CompletableFuture run(CachedOutput)
-- void run(CachedOutput)
+- boolean lambda$render$3(Set,UUID)
++ boolean lambda$render$4(Set,UUID)
+- Boolean lambda$static$0(GameType)
++ int lambda$static$0(PlayerInfo)
+- PlayerTabOverlay$HealthState lambda$renderTablistHearts$4(int,UUID)
++ PlayerTabOverlay$HealthState lambda$renderTablistHearts$5(int,UUID)
++ String lambda$static$2(PlayerInfo)
+- UUID lambda$render$2(PlayerInfo)
++ UUID lambda$render$3(PlayerInfo)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
 
 ```diff
-- String name
-+ CompletableFuture lambda$run$5(Map$Entry)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$6(int)
-+ void <init>(List)
-- void <init>(List)
-- void lambda$run$5(LootTable)
-- void run(CachedOutput)
+- void setPosition(int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.data.metadata.PackMetadataGenerator</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
 
 ```diff
-- String name
-+ CompletableFuture run(CachedOutput)
-+ PackMetadataGenerator forFeaturePack(FeatureFlagSet)
-+ void <init>(PackOutput)
-- PackMetadataGenerator forFeaturePack(FeatureFlagSet)
-- void <init>(String)
-- void run(CachedOutput)
+- void <init>(Connection,Minecraft,LocalChatSession,ServerData,Screen,Consumer)
++ void <init>(Connection,Minecraft,ServerData,Screen,Consumer)
+- void lambda$handleHello$0(byte[],long,SignatureUpdater$Output)
++ void lambda$handleHello$0(Cipher,Cipher)
+- void lambda$handleHello$1(Cipher,Cipher)
++ void lambda$handleHello$1(String,ServerboundKeyPacket,Cipher,Cipher)
+- void lambda$handleHello$2(String,ServerboundKeyPacket,Cipher,Cipher)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.data.models.ModelProvider</summary>
+<details><summary>net.minecraft.client.multiplayer.ProfileKeyPairManager</summary>
 
 ```diff
-- Logger LOGGER
-+ CompletableFuture lambda$saveCollection$5(Map$Entry)
+- boolean lambda$new$0(ProfileKeyPair)
+- CompletableFuture prepareChatSession()
+- CompletableFuture readOrFetchProfileKeyPair(Optional)
+- LocalChatSession lambda$prepareChatSession$2(Optional)
+- Optional lambda$new$1()
+- Optional lambda$readOrFetchProfileKeyPair$3(Optional)
+- Optional readProfileKeyPair()
+- ProfileKeyPair fetchProfileKeyPair(UserApiService)
++ ProfileKeyPairManager create(UserApiService,User,Path)
+- ProfilePublicKey$Data parsePublicKey(KeyPairResponse)
+- void <init>(UserApiService,UUID,Path)
+- void lambda$writeProfileKeyPair$4(JsonElement)
+- void writeProfileKeyPair(ProfileKeyPair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.LoggedChatMessage$System</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ LoggedChatEvent$Type type()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
+
+```diff
++ boolean hasContent()
++ ChatReportBuilder$ChatReport report()
++ void <init>(ChatReportBuilder$ChatReport,AbuseReportLimits)
+- void <init>(UUID,Instant,UUID,AbuseReportLimits)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.DataProvider</summary>
+
+```diff
++ CompletableFuture saveStable(CachedOutput,JsonElement,Path)
++ void lambda$saveStable$2(JsonElement,CachedOutput,Path)
+- void saveStable(CachedOutput,JsonElement,Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.Main</summary>
+
+```diff
++ NbtToSnbt lambda$createStandardGenerator$3(Collection,PackOutput)
++ PackMetadataGenerator lambda$createStandardGenerator$4(PackOutput)
++ PackMetadataGenerator lambda$createStandardGenerator$6(PackOutput)
++ SnbtToNbt lambda$createStandardGenerator$1(Collection,PackOutput)
++ UpdateOneTwentyItemTagsProvider lambda$createStandardGenerator$5(TagsProvider,PackOutput)
++ VanillaItemTagsProvider lambda$createStandardGenerator$2(TagsProvider,PackOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+
+```diff
 + CompletableFuture run(CachedOutput)
-+ CompletableFuture saveCollection(Function)
-+ CompletableFuture[] lambda$saveCollection$6(int)
++ CompletableFuture[] lambda$run$1(int)
 - void <clinit>()
-- void lambda$saveCollection$5(Supplier)
++ void <init>(PackOutput,List)
+- void <init>(String,PackOutput,List)
+- void lambda$run$0(Set,CachedOutput,Advancement)
++ void lambda$run$0(Set,List,CachedOutput,Advancement)
 - void run(CachedOutput)
-- void saveCollection(Function)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.data.info.BiomeParametersDumpReport</summary>
+
+```diff
++ CompletableFuture dumpValue(Path,CachedOutput,DynamicOps,Encoder,Object)
++ CompletableFuture lambda$run$0(Registry,CachedOutput,DynamicOps,Pair)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$run$1(int)
+- void dumpValue(Path,CachedOutput,DynamicOps,Encoder,Object)
+- void lambda$dumpValue$1(Path,String)
++ void lambda$dumpValue$2(Path,String)
+- void lambda$run$0(Registry,CachedOutput,DynamicOps,Pair)
+- void run(CachedOutput)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.info.CommandsReport</summary>
+
+```diff
++ CompletableFuture run(CachedOutput)
+- void run(CachedOutput)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
+- boolean lambda$generateForEnabledBlockFamilies$1(FeatureFlagSet,BlockFamily)
++ boolean lambda$generateForEnabledBlockFamilies$2(FeatureFlagSet,BlockFamily)
++ CompletableFuture buildAdvancement(CachedOutput,ResourceLocation,Advancement$Builder)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$run$1(int)
++ RecipeBuilder lambda$static$22(ItemLike,ItemLike)
+- RecipeBuilder lambda$static$7(ItemLike,ItemLike)
++ String getName()
+- String lambda$generateRecipes$5(ItemLike)
++ String lambda$generateRecipes$6(ItemLike)
+- void buildAdvancement(CachedOutput,ResourceLocation,Advancement$Builder)
+- void lambda$generateForEnabledBlockFamilies$2(Consumer,BlockFamily)
++ void lambda$generateForEnabledBlockFamilies$3(Consumer,BlockFamily)
+- void lambda$generateRecipes$4(RecipeBuilder,BlockFamily$Variant,String)
++ void lambda$generateRecipes$5(RecipeBuilder,BlockFamily$Variant,String)
+- void lambda$generateRecipes$6(BlockFamily,Consumer,BlockFamily$Variant,Block)
++ void lambda$generateRecipes$7(BlockFamily,Consumer,BlockFamily$Variant,Block)
+- void lambda$run$0(Set,CachedOutput,FinishedRecipe)
++ void lambda$run$0(Set,List,CachedOutput,FinishedRecipe)
+- void lambda$waxRecipes$3(Consumer,Block,Block)
++ void lambda$waxRecipes$4(Consumer,Block,Block)
+- void run(CachedOutput)
+- void saveAdvancement(CachedOutput,JsonObject,Path)
+- void saveRecipe(CachedOutput,JsonObject,Path)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.packs.UpdateOneTwentyRecipeProvider</summary>
+<details><summary>net.minecraft.data.recipes.packs.BundleRecipeProvider</summary>
 
 ```diff
 - String getName()
@@ -6625,45 +4967,33 @@
 </details>
 
 
-<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
+<details><summary>net.minecraft.data.recipes.packs.VanillaRecipeProvider</summary>
 
 ```diff
-+ CompletableFuture lambda$run$2(Path)
-+ CompletableFuture lambda$run$4(Path)
++ CompletableFuture run(CachedOutput)
+- String getName()
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
+
+```diff
++ CompletableFuture lambda$run$2(CachedOutput,Path,Path,Path)
++ CompletableFuture lambda$run$4(Path,CachedOutput,Path)
 + CompletableFuture run(CachedOutput)
 + CompletableFuture[] lambda$run$3(int)
++ CompletableFuture[] lambda$run$6(int)
 + CompletionStage lambda$run$5(CompletableFuture)
-+ void lambda$run$1(Path)
-- SnbtToNbt$TaskResult lambda$run$1(Path)
-- void lambda$run$2(Path)
 - void run(CachedOutput)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ CompletableFuture lambda$run$1(Map$Entry)
-+ CompletableFuture run(CachedOutput)
-+ CompletableFuture[] lambda$run$2(int)
-+ TagBuilder lambda$getOrCreateRawBuilder$3(ResourceLocation)
-- TagBuilder lambda$getOrCreateRawBuilder$2(ResourceLocation)
-- void lambda$run$1(TagBuilder)
-- void run(CachedOutput)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.UpdateOneTwentyBlockTagsProvider</summary>
+<details><summary>net.minecraft.data.tags.UpdateOneTwentyItemTagsProvider</summary>
 
 ```diff
 - String getName()
@@ -6672,417 +5002,169 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
+<details><summary>net.minecraft.data.worldgen.BuiltinRegistriesDatapackGenerator</summary>
 
 ```diff
-+ void waitUntilNextTick()
++ CompletableFuture dumpRegistryCap(CachedOutput,RegistryAccess,DynamicOps,RegistryDataLoader$RegistryData)
++ CompletableFuture dumpValue(Path,CachedOutput,DynamicOps,Encoder,Object)
++ CompletableFuture lambda$dumpRegistryCap$2(PackOutput$PathProvider,CachedOutput,DynamicOps,RegistryDataLoader$RegistryData,Map$Entry)
++ CompletableFuture lambda$run$0(CachedOutput,RegistryAccess,DynamicOps,RegistryDataLoader$RegistryData)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$dumpRegistryCap$3(int)
++ CompletableFuture[] lambda$run$1(int)
+- void dumpRegistryCap(CachedOutput,RegistryAccess,DynamicOps,RegistryDataLoader$RegistryData)
+- void dumpValue(Path,CachedOutput,DynamicOps,Encoder,Object)
+- void lambda$dumpValue$1(Path,String)
++ void lambda$dumpValue$4(Path,String)
+- void lambda$run$0(CachedOutput,RegistryAccess,DynamicOps,RegistryDataLoader$RegistryData)
+- void run(CachedOutput)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.LastSeenMessages$Packed</summary>
+<details><summary>net.minecraft.network.chat.FilterMask</summary>
 
 ```diff
-+ Optional unpack(MessageSignatureCache)
-- Optional unpack(MessageSignature$Unpacker)
++ BitSet mask()
++ boolean equals(Object)
++ FilterMask$Type type()
++ int hashCode()
++ void <init>(BitSet)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.chat.LocalChatSession</summary>
+<details><summary>net.minecraft.network.chat.FilterMask$Type</summary>
 
 ```diff
-- Signer createSigner()
++ Codec codec()
++ Codec lambda$static$0()
++ Codec lambda$static$1()
++ Codec lambda$static$2()
++ String getSerializedName()
++ void <init>(String,int,String,Supplier)
+- void <init>(String,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.MessageSignature$Packed</summary>
+
+<details><summary>net.minecraft.network.chat.LastSeenMessages</summary>
 
 ```diff
-+ Optional unpack(MessageSignatureCache)
-- Optional unpack(MessageSignature$Unpacker)
+- LastSeenMessages$Packed pack(MessageSignature$Packer)
++ LastSeenMessages$Packed pack(MessageSignatureCache)
+- MessageSignature$Packed lambda$pack$0(MessageSignature$Packer,MessageSignature)
++ MessageSignature$Packed lambda$pack$0(MessageSignatureCache,MessageSignature)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.chat.PlayerChatMessage</summary>
+<details><summary>net.minecraft.network.chat.MessageSignature</summary>
 
 ```diff
-+ MapCodec MAP_CODEC
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Component lambda$decoratedContent$5()
-+ Optional lambda$static$0(PlayerChatMessage)
-+ Optional lambda$static$1(PlayerChatMessage)
-+ PlayerChatMessage lambda$static$2(FilterMask)
-+ void lambda$verify$4(SignatureUpdater$Output)
-- Component lambda$decoratedContent$1()
-- void lambda$verify$0(SignatureUpdater$Output)
+- MessageSignature$Packed pack(MessageSignature$Packer)
++ MessageSignature$Packed pack(MessageSignatureCache)
++ void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.RemoteChatSession$Data</summary>
+
+<details><summary>net.minecraft.network.chat.MessageSignatureCache</summary>
 
 ```diff
-- RemoteChatSession$Data UNVERIFIED
+- int lambda$packer$0(MessageSignature)
++ int pack(MessageSignature)
+- MessageSignature lambda$unpacker$1(int)
++ MessageSignature unpack(int)
+- MessageSignature$Packer packer()
+- MessageSignature$Unpacker unpacker()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
+
+```diff
+- boolean verifiable()
 - void <clinit>()
-- void lambda$write$0(ProfilePublicKey$Data)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.chat.SignedMessageBody$Packed</summary>
+<details><summary>net.minecraft.network.chat.SignedMessageBody</summary>
 
 ```diff
-+ Optional unpack(MessageSignatureCache)
-- Optional unpack(MessageSignature$Unpacker)
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- SignedMessageBody$Packed pack(MessageSignature$Packer)
++ SignedMessageBody$Packed pack(MessageSignatureCache)
++ void <clinit>()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.network.chat.SignedMessageChain$Decoder</summary>
 
+```diff
++ PlayerChatMessage lambda$static$0(MessageSignature,SignedMessageBody)
+- PlayerChatMessage lambda$unsigned$0(UUID,MessageSignature,SignedMessageBody)
++ PlayerChatMessage lambda$unsigned$1(UUID,MessageSignature,SignedMessageBody)
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.network.chat.SignedMessageLink</summary>
 
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.network.protocol.game.ClientboundSetEntityDataPacket</summary>
 
+```diff
++ boolean equals(Object)
+- int getId()
++ int hashCode()
++ int id()
+- List getUnpackedData()
++ List packedItems()
++ List unpack(FriendlyByteBuf)
++ String toString()
++ void <init>(int,List)
+- void <init>(int,SynchedEntityData,boolean)
++ void pack(List,FriendlyByteBuf)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
 
+```diff
+- void <init>(RealmsConnect,String,String,int,Minecraft,CompletableFuture,RealmsServer)
++ void <init>(RealmsConnect,String,String,int,Minecraft,RealmsServer)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-+ RemoteChatSession chatSession
-- MessageSignature$Packer messageSignaturePacker
-+ CompletableFuture lambda$resetPlayerChatState$15(Executor)
++ CompletableFuture lambda$resetPlayerChatState$15(RemoteChatSession,Executor)
 + void handleChatSessionUpdate(ServerboundChatSessionUpdatePacket)
 + void resetPlayerChatState(RemoteChatSession)
 ```
@@ -7090,372 +5172,30 @@
 </details>
 
 
-
 <details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
 
 ```diff
-+ byte[] challenge
-- byte[] nonce
-- RemoteChatSession$Data chatSessionData
-- RemoteChatSession validateChatSession(SignatureValidator,boolean)
+- RemoteChatSession validateChatSession(RemoteChatSession$Data,GameProfile,SignatureValidator,boolean)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.players.PlayerList</summary>
 
 ```diff
+- ServerPlayer getPlayerForLogin(GameProfile,RemoteChatSession)
 + ServerPlayer getPlayerForLogin(GameProfile)
-- ServerPlayer getPlayerForLogin(RemoteChatSession)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.damagesource.BadRespawnPointDamage</summary>
 
 ```diff
-+ void <init>(Vec3)
 - void <init>()
++ void <init>(Vec3)
 ```
 
 </details>
@@ -7464,333 +5204,16 @@
 <details><summary>net.minecraft.world.damagesource.DamageSource</summary>
 
 ```diff
-- DamageSource ANVIL
-- DamageSource FALLING_BLOCK
-- DamageSource FALLING_STALACTITE
 + DamageSource anvil(Entity)
+- DamageSource badRespawnPointExplosion()
 + DamageSource badRespawnPointExplosion(Vec3)
-+ DamageSource explosion(Entity)
++ DamageSource explosion(Entity,Entity)
+- DamageSource explosion(LivingEntity)
 + DamageSource fallingBlock(Entity)
 + DamageSource fallingStalactite(Entity)
-- DamageSource badRespawnPointExplosion()
-- DamageSource explosion(LivingEntity)
 ```
 
 </details>
-
-<details><summary>net.minecraft.world.damagesource.IndirectEntityDamageSource</summary>
-
-```diff
-+ Entity cause
-- Entity owner
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.phys.Vec3</summary>
@@ -7804,34 +5227,12 @@
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.Axis
@@ -10821,13 +8222,358 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.SymmetricGroup3</summary>
+
+```diff
++ Matrix3f transformation()
+- Matrix3f transformation()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.BlockListReport</summary>
+
+```diff
++ CompletableFuture run(CachedOutput)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
+
+```diff
++ CompletableFuture run(CachedOutput)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+
+```diff
++ CompletableFuture lambda$run$5(CachedOutput,Map$Entry)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$run$6(int)
++ void <init>(PackOutput,Set,List)
+- void <init>(String,PackOutput,Set,List)
+- void lambda$run$5(CachedOutput,ResourceLocation,LootTable)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.metadata.PackMetadataGenerator</summary>
+
+```diff
++ CompletableFuture run(CachedOutput)
++ PackMetadataGenerator forFeaturePack(PackOutput,Component,FeatureFlagSet)
+- PackMetadataGenerator forFeaturePack(PackOutput,String,Component,FeatureFlagSet)
+- void <init>(PackOutput,String)
++ void <init>(PackOutput)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.ModelProvider</summary>
+
+```diff
++ CompletableFuture lambda$saveCollection$5(Function,CachedOutput,Map$Entry)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture saveCollection(CachedOutput,Map,Function)
++ CompletableFuture[] lambda$saveCollection$6(int)
+- void <clinit>()
+- void lambda$saveCollection$5(Function,CachedOutput,Object,Supplier)
+- void run(CachedOutput)
+- void saveCollection(CachedOutput,Map,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.packs.UpdateOneTwentyRecipeProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
+
+```diff
++ CompletableFuture lambda$run$2(Path,CachedOutput,Path,Path)
++ CompletableFuture lambda$run$4(Path,CachedOutput,Path)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$run$3(int)
++ CompletionStage lambda$run$5(CompletableFuture)
+- SnbtToNbt$TaskResult lambda$run$1(Path,Path)
++ void lambda$run$1(Path,Path,CachedOutput,Path)
+- void lambda$run$2(List,Path,Path)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
+
+```diff
++ CompletableFuture lambda$run$1(CachedOutput,Map$Entry)
++ CompletableFuture run(CachedOutput)
++ CompletableFuture[] lambda$run$2(int)
+- TagBuilder lambda$getOrCreateRawBuilder$2(ResourceLocation)
++ TagBuilder lambda$getOrCreateRawBuilder$3(ResourceLocation)
+- void lambda$run$1(CachedOutput,ResourceLocation,TagBuilder)
+- void run(CachedOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.UpdateOneTwentyBlockTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
+
+```diff
++ void waitUntilNextTick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.LastSeenMessages$Packed</summary>
+
+```diff
+- Optional unpack(MessageSignature$Unpacker)
++ Optional unpack(MessageSignatureCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.LocalChatSession</summary>
+
+```diff
+- Signer createSigner()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.MessageSignature$Packed</summary>
+
+```diff
+- Optional unpack(MessageSignature$Unpacker)
++ Optional unpack(MessageSignatureCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.PlayerChatMessage</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
+- Component lambda$decoratedContent$1()
++ Component lambda$decoratedContent$5()
++ Optional lambda$static$0(PlayerChatMessage)
++ Optional lambda$static$1(PlayerChatMessage)
++ PlayerChatMessage lambda$static$2(SignedMessageLink,Optional,SignedMessageBody,Optional,FilterMask)
+- void lambda$verify$0(SignatureUpdater$Output)
++ void lambda$verify$4(SignatureUpdater$Output)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.RemoteChatSession$Data</summary>
+
+```diff
+- void <clinit>()
+- void lambda$write$0(FriendlyByteBuf,ProfilePublicKey$Data)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageBody$Packed</summary>
+
+```diff
+- Optional unpack(MessageSignature$Unpacker)
++ Optional unpack(MessageSignatureCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ CompletableFuture lambda$resetPlayerChatState$15(RemoteChatSession,Executor)
++ void handleChatSessionUpdate(ServerboundChatSessionUpdatePacket)
++ void resetPlayerChatState(RemoteChatSession)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
+
+```diff
+- RemoteChatSession validateChatSession(RemoteChatSession$Data,GameProfile,SignatureValidator,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- ServerPlayer getPlayerForLogin(GameProfile,RemoteChatSession)
++ ServerPlayer getPlayerForLogin(GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.BadRespawnPointDamage</summary>
+
+```diff
+- void <init>()
++ void <init>(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
+
+```diff
++ DamageSource anvil(Entity)
+- DamageSource badRespawnPointExplosion()
++ DamageSource badRespawnPointExplosion(Vec3)
++ DamageSource explosion(Entity,Entity)
+- DamageSource explosion(LivingEntity)
++ DamageSource fallingBlock(Entity)
++ DamageSource fallingStalactite(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.Vec3</summary>
+
+```diff
++ Vector3f toVector3f()
++ void <init>(Vector3f)
+- void <init>(Vector3f)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/birch_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/birch_hanging_sign.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ chat.disabled.missingProfileKey
++ gui.chatReport.discard.draft
++ gui.chatReport.draft.content
++ gui.chatReport.draft.discard
++ gui.chatReport.draft.edit
++ gui.chatReport.draft.quittotitle.content
++ gui.chatReport.draft.quittotitle.title
++ gui.chatReport.draft.title
++ gui.chatSelection.join
++ itemGroup.natural
+- itemGroup.nature
+- multiplayer.disconnect.missing_public_key
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.github.oshi:oshi-core:5.8.5
++ com.github.oshi:oshi-core:6.2.2
+- com.google.code.gson:gson:2.8.9
++ com.google.code.gson:gson:2.9.1
+- com.google.guava:guava:31.0.1-jre
++ com.google.guava:guava:31.1-jre
+- com.ibm.icu:icu4j:70.1
++ com.ibm.icu:icu4j:71.1
+- com.mojang:logging:1.0.0
++ com.mojang:logging:1.1.1
+- io.netty:netty-buffer:4.1.77.Final
++ io.netty:netty-buffer:4.1.82.Final
+- io.netty:netty-codec:4.1.77.Final
++ io.netty:netty-codec:4.1.82.Final
+- io.netty:netty-common:4.1.77.Final
++ io.netty:netty-common:4.1.82.Final
+- io.netty:netty-handler:4.1.77.Final
++ io.netty:netty-handler:4.1.82.Final
+- io.netty:netty-resolver:4.1.77.Final
++ io.netty:netty-resolver:4.1.82.Final
+- io.netty:netty-transport-classes-epoll:4.1.77.Final
++ io.netty:netty-transport-classes-epoll:4.1.82.Final
+- io.netty:netty-transport-native-epoll:4.1.77.Final:linux-aarch_64
+- io.netty:netty-transport-native-epoll:4.1.77.Final:linux-x86_64
++ io.netty:netty-transport-native-epoll:4.1.82.Final:linux-aarch_64
++ io.netty:netty-transport-native-epoll:4.1.82.Final:linux-x86_64
+- io.netty:netty-transport-native-unix-common:4.1.77.Final
++ io.netty:netty-transport-native-unix-common:4.1.82.Final
+- io.netty:netty-transport:4.1.77.Final
++ io.netty:netty-transport:4.1.82.Final
+- it.unimi.dsi:fastutil:8.5.6
++ it.unimi.dsi:fastutil:8.5.9
+- net.java.dev.jna:jna-platform:5.10.0
++ net.java.dev.jna:jna-platform:5.12.1
+- net.java.dev.jna:jna:5.10.0
++ net.java.dev.jna:jna:5.12.1
+- org.apache.httpcomponents:httpcore:4.4.14
++ org.apache.httpcomponents:httpcore:4.4.15
+- org.apache.logging.log4j:log4j-api:2.17.0
++ org.apache.logging.log4j:log4j-api:2.19.0
+- org.apache.logging.log4j:log4j-core:2.17.0
++ org.apache.logging.log4j:log4j-core:2.19.0
+- org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0
++ org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0
++ org.joml:joml:1.10.5
+- org.slf4j:slf4j-api:1.8.0-beta4
++ org.slf4j:slf4j-api:2.0.1
+```
+
+</details>

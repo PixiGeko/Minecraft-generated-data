@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.17-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.17-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2021-05-27T09:39:21+00:00</td></tr>
@@ -10,2983 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1f6f65434a5ac334607a1141d676f7974308ae36/server.txt">https://piston-data.mojang.com/v1/objects/1f6f65434a5ac334607a1141d676f7974308ae36/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/940af6eda421da56e3bf9c390df65ba713cc8f7f/client.jar">https://piston-data.mojang.com/v1/objects/940af6eda421da56e3bf9c390df65ba713cc8f7f/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7310449e6c7bdd202e4f2cd6bd7ad177357f473c/client.txt">https://piston-data.mojang.com/v1/objects/7310449e6c7bdd202e4f2cd6bd7ad177357f473c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w20a">21w20a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/lightning_rod_with_villager_no_fire.json
-+  minecraft/advancements/adventure/spyglass_at_dragon.json
-+  minecraft/advancements/adventure/spyglass_at_ghast.json
-+  minecraft/advancements/adventure/spyglass_at_parrot.json
-+  minecraft/advancements/adventure/walk_on_powder_snow_with_leather_boots.json
-+  minecraft/advancements/husbandry/axolotl_in_a_bucket.json
-+  minecraft/advancements/husbandry/kill_axolotl_target.json
-+  minecraft/advancements/husbandry/make_a_sign_glow.json
-+  minecraft/advancements/husbandry/ride_a_boat_with_a_goat.json
-+  minecraft/advancements/husbandry/wax_off.json
-+  minecraft/advancements/husbandry/wax_on.json
-+  minecraft/advancements/recipes/decorations/black_candle.json
-+  minecraft/advancements/recipes/decorations/blue_candle.json
-+  minecraft/advancements/recipes/decorations/brown_candle.json
-+  minecraft/advancements/recipes/decorations/candle.json
-+  minecraft/advancements/recipes/decorations/cyan_candle.json
-+  minecraft/advancements/recipes/decorations/gray_candle.json
-+  minecraft/advancements/recipes/decorations/green_candle.json
-+  minecraft/advancements/recipes/decorations/light_blue_candle.json
-+  minecraft/advancements/recipes/decorations/light_gray_candle.json
-+  minecraft/advancements/recipes/decorations/lime_candle.json
-+  minecraft/advancements/recipes/decorations/magenta_candle.json
-+  minecraft/advancements/recipes/decorations/orange_candle.json
-+  minecraft/advancements/recipes/decorations/pink_candle.json
-+  minecraft/advancements/recipes/decorations/purple_candle.json
-+  minecraft/advancements/recipes/decorations/red_candle.json
-+  minecraft/advancements/recipes/decorations/white_candle.json
-+  minecraft/advancements/recipes/decorations/yellow_candle.json
-+  minecraft/loot_tables/blocks/potted_azalea_bush.json
-+  minecraft/loot_tables/blocks/potted_flowering_azalea_bush.json
-+  minecraft/recipes/black_candle.json
-+  minecraft/recipes/blue_candle.json
-+  minecraft/recipes/brown_candle.json
-+  minecraft/recipes/candle.json
-+  minecraft/recipes/cyan_candle.json
-+  minecraft/recipes/gray_candle.json
-+  minecraft/recipes/green_candle.json
-+  minecraft/recipes/light_blue_candle.json
-+  minecraft/recipes/light_gray_candle.json
-+  minecraft/recipes/lime_candle.json
-+  minecraft/recipes/magenta_candle.json
-+  minecraft/recipes/orange_candle.json
-+  minecraft/recipes/pink_candle.json
-+  minecraft/recipes/purple_candle.json
-+  minecraft/recipes/red_candle.json
-+  minecraft/recipes/white_candle.json
-+  minecraft/recipes/yellow_candle.json
-+  minecraft/tags/blocks/geode_invalid_blocks.json
-+  minecraft/tags/blocks/lava_pool_stone_replaceables.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/potted_azalea_bush.json
-+  minecraft/blockstates/potted_flowering_azalea_bush.json
-+  minecraft/models/block/black_candle_four_candles_lit.json
-+  minecraft/models/block/black_candle_one_candle_lit.json
-+  minecraft/models/block/black_candle_three_candles_lit.json
-+  minecraft/models/block/black_candle_two_candles_lit.json
-+  minecraft/models/block/blue_candle_four_candles_lit.json
-+  minecraft/models/block/blue_candle_one_candle_lit.json
-+  minecraft/models/block/blue_candle_three_candles_lit.json
-+  minecraft/models/block/blue_candle_two_candles_lit.json
-+  minecraft/models/block/brown_candle_four_candles_lit.json
-+  minecraft/models/block/brown_candle_one_candle_lit.json
-+  minecraft/models/block/brown_candle_three_candles_lit.json
-+  minecraft/models/block/brown_candle_two_candles_lit.json
-+  minecraft/models/block/candle_four_candles_lit.json
-+  minecraft/models/block/candle_one_candle_lit.json
-+  minecraft/models/block/candle_three_candles_lit.json
-+  minecraft/models/block/candle_two_candles_lit.json
-+  minecraft/models/block/cyan_candle_four_candles_lit.json
-+  minecraft/models/block/cyan_candle_one_candle_lit.json
-+  minecraft/models/block/cyan_candle_three_candles_lit.json
-+  minecraft/models/block/cyan_candle_two_candles_lit.json
-+  minecraft/models/block/gray_candle_four_candles_lit.json
-+  minecraft/models/block/gray_candle_one_candle_lit.json
-+  minecraft/models/block/gray_candle_three_candles_lit.json
-+  minecraft/models/block/gray_candle_two_candles_lit.json
-+  minecraft/models/block/green_candle_four_candles_lit.json
-+  minecraft/models/block/green_candle_one_candle_lit.json
-+  minecraft/models/block/green_candle_three_candles_lit.json
-+  minecraft/models/block/green_candle_two_candles_lit.json
-+  minecraft/models/block/light_blue_candle_four_candles_lit.json
-+  minecraft/models/block/light_blue_candle_one_candle_lit.json
-+  minecraft/models/block/light_blue_candle_three_candles_lit.json
-+  minecraft/models/block/light_blue_candle_two_candles_lit.json
-+  minecraft/models/block/light_gray_candle_four_candles_lit.json
-+  minecraft/models/block/light_gray_candle_one_candle_lit.json
-+  minecraft/models/block/light_gray_candle_three_candles_lit.json
-+  minecraft/models/block/light_gray_candle_two_candles_lit.json
-+  minecraft/models/block/lime_candle_four_candles_lit.json
-+  minecraft/models/block/lime_candle_one_candle_lit.json
-+  minecraft/models/block/lime_candle_three_candles_lit.json
-+  minecraft/models/block/lime_candle_two_candles_lit.json
-+  minecraft/models/block/magenta_candle_four_candles_lit.json
-+  minecraft/models/block/magenta_candle_one_candle_lit.json
-+  minecraft/models/block/magenta_candle_three_candles_lit.json
-+  minecraft/models/block/magenta_candle_two_candles_lit.json
-+  minecraft/models/block/orange_candle_four_candles_lit.json
-+  minecraft/models/block/orange_candle_one_candle_lit.json
-+  minecraft/models/block/orange_candle_three_candles_lit.json
-+  minecraft/models/block/orange_candle_two_candles_lit.json
-+  minecraft/models/block/pink_candle_four_candles_lit.json
-+  minecraft/models/block/pink_candle_one_candle_lit.json
-+  minecraft/models/block/pink_candle_three_candles_lit.json
-+  minecraft/models/block/pink_candle_two_candles_lit.json
-+  minecraft/models/block/potted_azalea_bush.json
-+  minecraft/models/block/potted_flowering_azalea_bush.json
-+  minecraft/models/block/purple_candle_four_candles_lit.json
-+  minecraft/models/block/purple_candle_one_candle_lit.json
-+  minecraft/models/block/purple_candle_three_candles_lit.json
-+  minecraft/models/block/purple_candle_two_candles_lit.json
-+  minecraft/models/block/red_candle_four_candles_lit.json
-+  minecraft/models/block/red_candle_one_candle_lit.json
-+  minecraft/models/block/red_candle_three_candles_lit.json
-+  minecraft/models/block/red_candle_two_candles_lit.json
-+  minecraft/models/block/template_potted_azalea_bush.json
-+  minecraft/models/block/white_candle_four_candles_lit.json
-+  minecraft/models/block/white_candle_one_candle_lit.json
-+  minecraft/models/block/white_candle_three_candles_lit.json
-+  minecraft/models/block/white_candle_two_candles_lit.json
-+  minecraft/models/block/yellow_candle_four_candles_lit.json
-+  minecraft/models/block/yellow_candle_one_candle_lit.json
-+  minecraft/models/block/yellow_candle_three_candles_lit.json
-+  minecraft/models/block/yellow_candle_two_candles_lit.json
-+  minecraft/texts/credits.json
--  minecraft/texts/credits.txt
-+  minecraft/textures/block/black_candle_lit.png
-+  minecraft/textures/block/blue_candle_lit.png
-+  minecraft/textures/block/brown_candle_lit.png
-+  minecraft/textures/block/candle_lit.png
-+  minecraft/textures/block/cyan_candle_lit.png
-+  minecraft/textures/block/gray_candle_lit.png
-+  minecraft/textures/block/green_candle_lit.png
-+  minecraft/textures/block/light_blue_candle_lit.png
-+  minecraft/textures/block/light_gray_candle_lit.png
-+  minecraft/textures/block/lime_candle_lit.png
-+  minecraft/textures/block/magenta_candle_lit.png
-+  minecraft/textures/block/orange_candle_lit.png
-+  minecraft/textures/block/pink_candle_lit.png
-+  minecraft/textures/block/potted_azalea_bush_plant.png
-+  minecraft/textures/block/potted_azalea_bush_side.png
-+  minecraft/textures/block/potted_azalea_bush_top.png
-+  minecraft/textures/block/potted_flowering_azalea_bush_plant.png
-+  minecraft/textures/block/potted_flowering_azalea_bush_side.png
-+  minecraft/textures/block/potted_flowering_azalea_bush_top.png
-+  minecraft/textures/block/purple_candle_lit.png
-+  minecraft/textures/block/red_candle_lit.png
-+  minecraft/textures/block/white_candle_lit.png
-+  minecraft/textures/block/yellow_candle_lit.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:potted_azalea_bush
-+ minecraft:potted_flowering_azalea_bush
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ perf.txt
-```
-
-</details>
-
-<details><summary>debug.txt</summary>
-
-```diff
-- debug report
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/geode_invalid_blocks.json
-+ blocks/lava_pool_stone_replaceables.json
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:mycelium
-```
-
-</details>
-
-<details><summary>blocks/flowers.json</summary>
-
-```diff
-+ minecraft:azalea_leaves_flowers
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>blocks/flower_pots.json</summary>
-
-```diff
-+ minecraft:potted_azalea_bush
-+ minecraft:potted_flowering_azalea_bush
-```
-
-</details>
-
-<details><summary>blocks/mineable/axe.json</summary>
-
-```diff
-- minecraft:moss_carpet
-```
-
-</details>
-
-<details><summary>blocks/needs_stone_tool.json</summary>
-
-```diff
-+ minecraft:oxidized_copper
-+ minecraft:oxidized_cut_copper_slab
-+ minecraft:oxidized_cut_copper_stairs
-+ minecraft:oxidized_cut_copper
-```
-
-</details>
-
-<details><summary>blocks/small_flowers.json</summary>
-
-```diff
-- minecraft:azalea_leaves_flowers
-- minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>items/flowers.json</summary>
-
-```diff
-+ minecraft:azalea_leaves_flowers
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>items/small_flowers.json</summary>
-
-```diff
-- minecraft:azalea_leaves_flowers
-- minecraft:flowering_azalea
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/lightning_rod_with_villager_no_fire.json
-+ adventure/spyglass_at_dragon.json
-+ adventure/spyglass_at_ghast.json
-+ adventure/spyglass_at_parrot.json
-+ adventure/walk_on_powder_snow_with_leather_boots.json
-+ husbandry/axolotl_in_a_bucket.json
-+ husbandry/kill_axolotl_target.json
-+ husbandry/make_a_sign_glow.json
-+ husbandry/ride_a_boat_with_a_goat.json
-+ husbandry/wax_off.json
-+ husbandry/wax_on.json
-+ recipes/decorations/black_candle.json
-+ recipes/decorations/blue_candle.json
-+ recipes/decorations/brown_candle.json
-+ recipes/decorations/candle.json
-+ recipes/decorations/cyan_candle.json
-+ recipes/decorations/gray_candle.json
-+ recipes/decorations/green_candle.json
-+ recipes/decorations/light_blue_candle.json
-+ recipes/decorations/light_gray_candle.json
-+ recipes/decorations/lime_candle.json
-+ recipes/decorations/magenta_candle.json
-+ recipes/decorations/orange_candle.json
-+ recipes/decorations/pink_candle.json
-+ recipes/decorations/purple_candle.json
-+ recipes/decorations/red_candle.json
-+ recipes/decorations/white_candle.json
-+ recipes/decorations/yellow_candle.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/potted_azalea_bush.json
-+ blocks/potted_flowering_azalea_bush.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ black_candle.json
-+ blue_candle.json
-+ brown_candle.json
-+ candle.json
-+ cyan_candle.json
-+ gray_candle.json
-+ green_candle.json
-+ light_blue_candle.json
-+ light_gray_candle.json
-+ lime_candle.json
-+ magenta_candle.json
-+ orange_candle.json
-+ pink_candle.json
-+ purple_candle.json
-+ red_candle.json
-+ white_candle.json
-+ yellow_candle.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/geode_invalid_blocks.json
-+ blocks/lava_pool_stone_replaceables.json
-```
-
-</details>
-
-<details><summary>texts.txt</summary>
-
-```diff
-- credits.txt
-+ credits.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/black_candle_lit.png
-+ block/blue_candle_lit.png
-+ block/brown_candle_lit.png
-+ block/candle_lit.png
-+ block/cyan_candle_lit.png
-+ block/gray_candle_lit.png
-+ block/green_candle_lit.png
-+ block/light_blue_candle_lit.png
-+ block/light_gray_candle_lit.png
-+ block/lime_candle_lit.png
-+ block/magenta_candle_lit.png
-+ block/orange_candle_lit.png
-+ block/pink_candle_lit.png
-+ block/potted_azalea_bush_plant.png
-+ block/potted_azalea_bush_side.png
-+ block/potted_azalea_bush_top.png
-+ block/potted_flowering_azalea_bush_plant.png
-+ block/potted_flowering_azalea_bush_side.png
-+ block/potted_flowering_azalea_bush_top.png
-+ block/purple_candle_lit.png
-+ block/red_candle_lit.png
-+ block/white_candle_lit.png
-+ block/yellow_candle_lit.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:2.1.29
-- com.mojang:patchy:2.0.5
-- net.java.dev.jna:jna:4.4.0
-- net.java.dev.jna:platform:3.4.0
-- org.apache.logging.log4j:log4j-api:2.8.1
-- org.apache.logging.log4j:log4j-core:2.8.1
-- oshi-project:oshi-core:1.1
-+ com.github.oshi:oshi-core:5.3.4
-+ com.mojang:authlib:2.2.30
-+ com.mojang:patchy:2.1.6
-+ net.java.dev.jna:jna-platform:5.6.0
-+ net.java.dev.jna:jna:5.6.0
-+ org.apache.logging.log4j:log4j-api:2.14.1
-+ org.apache.logging.log4j:log4j-core:2.14.1
-+ org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1
-+ org.slf4j:slf4j-api:1.8.0-beta4
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.shaders.Program</summary>
-
-```diff
-+ Logger LOGGER
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.CrashReportCategory</summary>
-
-```diff
-- CrashReport report
-+ void <init>(String)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationTrigger$TriggerInstance</summary>
-
-```diff
-+ LocationTrigger$TriggerInstance located(EntityPredicate)
-+ LocationTrigger$TriggerInstance walkOnBlockWithEquipment(Item)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.KeyboardHandler</summary>
-
-```diff
-+ void debugComponent(Component)
-+ void debugFeedbackComponent(Component)
-+ void lambda$charTyped$5(GuiEventListener,int,int)
-+ void lambda$charTyped$6(GuiEventListener,char,int)
-+ void lambda$copyRecreateCommand$0(CompoundTag)
-+ void lambda$copyRecreateCommand$1(CompoundTag)
-+ void lambda$getClipboard$11(int,long)
-+ void lambda$keyPress$2(Component)
-+ void lambda$keyPress$3(Component)
-+ void lambda$keyPress$4(Screen,boolean[],int,int,int)
-+ void lambda$setup$10(long,int,int)
-+ void lambda$setup$7(long,int,int,int,int)
-+ void lambda$setup$8(long,int,int,int,int)
-+ void lambda$setup$9(long,int,int)
-- void lambda$charTyped$7(GuiEventListener,int,int)
-- void lambda$charTyped$8(GuiEventListener,char,int)
-- void lambda$copyRecreateCommand$2(CompoundTag)
-- void lambda$copyRecreateCommand$3(CompoundTag)
-- void lambda$getClipboard$13(int,long)
-- void lambda$handleDebugKeys$0()
-- void lambda$handleDebugKeys$1(Path)
-- void lambda$keyPress$4(Component)
-- void lambda$keyPress$5(Component)
-- void lambda$keyPress$6(Screen,boolean[],int,int,int)
-- void lambda$setup$10(long,int,int,int,int)
-- void lambda$setup$11(long,int,int)
-- void lambda$setup$12(long,int,int)
-- void lambda$setup$9(long,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ File getFile()
-+ String dumpOptionsForReport()
-+ String lambda$dumpOptionsForReport$6(Pair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.Font</summary>
-
-```diff
-+ Vector3f OUTLINE_OFFSET
-+ boolean lambda$drawInBatch8xOutline$1(Style,int)
-+ void drawInBatch8xOutline(MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.Gui</summary>
-
-```diff
-+ int HEART_SEPARATION
-+ int HEART_SIZE
-+ void renderHeart(Gui$HeartType,int,int,int,boolean,boolean)
-+ void renderHearts(Player,int,int,int,int,float,int,int,int,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow</summary>
-
-```diff
-+ Item getItem()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer</summary>
-
-```diff
-+ void lambda$renderByItem$2(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
-
-```diff
-+ int BLACK_TEXT_OUTLINE_COLOR
-+ int OUTLINE_RENDER_DISTANCE
-+ boolean isOutlineVisible(SignBlockEntity,int)
-+ int getDarkColor(SignBlockEntity)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.CustomHeadLayer</summary>
-
-```diff
-+ void lambda$render$0(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
-
-```diff
-+ Item[] WAX_SCRAPING_TOOLS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate POTTED_AZALEA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ boolean debugCommandProfilerDelayStart
-+ boolean willStartRecordingMetrics
-+ Consumer onMetricsRecordingFinished
-+ Consumer onMetricsRecordingStopped
-+ MetricsRecorder metricsRecorder
-+ MinecraftServer$TimeProfiler debugCommandProfiler
-+ SystemReport fillServerSystemReport(net.minecraft.SystemReport)
-- boolean delayProfilerStart
-- ContinuousProfiler continousProfiler
-+ boolean isRecordingMetrics()
-+ boolean isTimeProfilerRunning()
-+ boolean lambda$getSelectedPacks$13(String)
-+ boolean lambda$setInitialSpawn$4(Biome)
-+ boolean lambda$waitUntilNextTick$5()
-+ CompletionStage lambda$reloadResources$11(ImmutableList)
-+ ImmutableList lambda$reloadResources$10(Collection)
-+ ProfileResults stopTimeProfiler()
-+ String lambda$fillSystemReport$7()
-+ String lambda$fillSystemReport$8()
-+ String lambda$fillSystemReport$9()
-+ String lambda$tickChildren$6(ServerLevel)
-+ SystemReport fillSystemReport(SystemReport)
-+ void dumpServerProperties(Path)
-+ void endMetricsRecordingTick()
-+ void finishRecordingMetrics()
-+ void lambda$new$0(ProfileResults)
-+ void lambda$new$1(Path)
-+ void lambda$reloadResources$12(ServerResources)
-+ void lambda$spin$2(AtomicReference)
-+ void lambda$spin$3(Throwable)
-+ void lambda$startMetricsRecordingTick$14(Path)
-+ void lambda$startRecordingMetrics$15(ProfileResults)
-+ void startMetricsRecordingTick()
-+ void startRecordingMetrics(Consumer)
-+ void startTimeProfiler()
-+ void stopRecordingMetrics()
-- boolean isProfiling()
-- boolean lambda$getSelectedPacks$11(String)
-- boolean lambda$setInitialSpawn$2(Biome)
-- boolean lambda$waitUntilNextTick$3()
-- CompletionStage lambda$reloadResources$9(ImmutableList)
-- ImmutableList lambda$reloadResources$8(Collection)
-- ProfileResults finishProfiling()
-- String lambda$fillReport$5()
-- String lambda$fillReport$6()
-- String lambda$fillReport$7()
-- String lambda$tickChildren$4(ServerLevel)
-- void dumpCrashCategory(Path)
-- void endProfilerTick(SingleTickProfiler)
-- void fillReport(CrashReportCategory)
-- void lambda$reloadResources$10(ServerResources)
-- void lambda$spin$0(AtomicReference)
-- void lambda$spin$1(Throwable)
-- void startProfilerTick(SingleTickProfiler)
-- void startProfiling()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.GsonHelper</summary>
-
-```diff
-+ JsonArray parseArray(Reader)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ float clampedLerp(float,float,float)
-- float sqrt(double)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.TimeUtil</summary>
-
-```diff
-+ long NANOSECONDS_PER_MILLISECOND
-+ long NANOSECONDS_PER_SECOND
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.ActiveProfiler</summary>
-
-```diff
-+ Set chartedPaths
-+ Set getChartedPaths()
-+ void markForCharting(MetricCategory)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.profiling.ProfileCollector</summary>
-
-```diff
-+ Set getChartedPaths()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.ProfilerFiller</summary>
-
-```diff
-+ void markForCharting(net.minecraft.util.profiling.metrics.MetricCategory)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.ProfilerPathEntry</summary>
-
-```diff
-+ long getMaxDuration()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ double MAX_LINE_OF_SIGHT_TEST_RANGE
-+ boolean addEffect(Entity)
-+ void forceAddEffect(Entity)
-+ void onEffectAdded(Entity)
-+ void onEffectUpdated(Entity)
-+ void updateUsingItem(ItemStack)
-- void forceAddEffect(MobEffectInstance)
-- void onEffectAdded(MobEffectInstance)
-- void onEffectUpdated(MobEffectInstance,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
-
-```diff
-+ Entity getEffectSource()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
-
-```diff
-+ void lambda$onTake$0(BlockPos)
-- void lambda$onTake$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.PlayerHeadItem</summary>
-
-```diff
-+ void lambda$verifyTagAfterLoad$0(GameProfile)
-+ void verifyTagAfterLoad(CompoundTag)
-- boolean verifyTagAfterLoad(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block POTTED_AZALEA
-+ Block POTTED_FLOWERING_AZALEA
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.BushBlock</summary>
-
-```diff
-- void tick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ void lambda$updateGameprofile$1(GameProfile)
-+ void lambda$updateOwnerProfile$0(GameProfile)
-+ void updateGameprofile(Consumer)
-- GameProfile updateGameprofile(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
-
-```diff
-+ ResourceLocation invalidBlocks
-+ App lambda$static$8(RecordCodecBuilder$Instance)
-+ ResourceLocation lambda$static$7(GeodeBlockSettings)
-+ void <init>(ResourceLocation)
-- App lambda$static$7(RecordCodecBuilder$Instance)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ void markAboveForPostProcessing(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
-
-```diff
-+ BlockStateProvider saplingProvider
-+ App lambda$static$10(RecordCodecBuilder$Instance)
-+ BlockStateProvider lambda$static$3(TreeConfiguration)
-+ BlockStateProvider lambda$static$5(TreeConfiguration)
-+ Boolean lambda$static$9(TreeConfiguration)
-+ FeatureSize lambda$static$6(TreeConfiguration)
-+ FoliagePlacer lambda$static$4(TreeConfiguration)
-+ List lambda$static$7(TreeConfiguration)
-+ void <init>(List,boolean,boolean)
-- App lambda$static$9(RecordCodecBuilder$Instance)
-- BlockStateProvider lambda$static$4(TreeConfiguration)
-- Boolean lambda$static$7(TreeConfiguration)
-- FeatureSize lambda$static$5(TreeConfiguration)
-- FoliagePlacer lambda$static$3(TreeConfiguration)
-- List lambda$static$6(TreeConfiguration)
-- void <init>(List,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.Advancement
@@ -4698,591 +1743,192 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.CrashReportCategory</summary>
+<details><summary>com.mojang.blaze3d.shaders.Program</summary>
 
 ```diff
-- CrashReport report
-+ void <init>(String)
-- void <init>(String)
++ void <clinit>()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.CrashReportCategory</summary>
 
+```diff
+- void <init>(CrashReport,String)
++ void <init>(String)
+```
 
-
+</details>
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationTrigger$TriggerInstance</summary>
 
 ```diff
 + LocationTrigger$TriggerInstance located(EntityPredicate)
-+ LocationTrigger$TriggerInstance walkOnBlockWithEquipment(Item)
++ LocationTrigger$TriggerInstance walkOnBlockWithEquipment(Block,Item)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+<details><summary>net.minecraft.client.KeyboardHandler</summary>
 
 ```diff
-+ LightningStrikeTrigger$TriggerInstance fireCountAndBystander(EntityPredicate)
-+ UsingItemTrigger$TriggerInstance lookAtThroughItem(Item)
++ void debugComponent(ChatFormatting,Component)
++ void debugFeedbackComponent(Component)
++ void lambda$charTyped$5(GuiEventListener,int,int)
++ void lambda$charTyped$6(GuiEventListener,char,int)
+- void lambda$charTyped$7(GuiEventListener,int,int)
+- void lambda$charTyped$8(GuiEventListener,char,int)
++ void lambda$copyRecreateCommand$0(BlockState,BlockPos,CompoundTag)
++ void lambda$copyRecreateCommand$1(ResourceLocation,Entity,CompoundTag)
+- void lambda$copyRecreateCommand$2(BlockState,BlockPos,CompoundTag)
+- void lambda$copyRecreateCommand$3(ResourceLocation,Entity,CompoundTag)
++ void lambda$getClipboard$11(int,long)
+- void lambda$getClipboard$13(int,long)
+- void lambda$handleDebugKeys$0()
+- void lambda$handleDebugKeys$1(Path)
++ void lambda$keyPress$2(Component)
++ void lambda$keyPress$3(Component)
+- void lambda$keyPress$4(Component)
++ void lambda$keyPress$4(int,Screen,boolean[],int,int,int)
+- void lambda$keyPress$5(Component)
+- void lambda$keyPress$6(int,Screen,boolean[],int,int,int)
+- void lambda$setup$10(long,int,int,int,int)
++ void lambda$setup$10(long,int,int)
+- void lambda$setup$11(long,int,int)
+- void lambda$setup$12(long,int,int)
++ void lambda$setup$7(long,int,int,int,int)
++ void lambda$setup$8(long,int,int,int,int)
+- void lambda$setup$9(long,int,int,int,int)
++ void lambda$setup$9(long,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.client.Options</summary>
 
 ```diff
-+ void createPottedAzalea(Block)
++ File getFile()
++ String dumpOptionsForReport()
++ String lambda$dumpOptionsForReport$6(Pair)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features$States</summary>
+<details><summary>net.minecraft.client.gui.Font</summary>
 
 ```diff
-+ BlockState ACACIA_SAPLING
-+ BlockState AZALEA
-+ BlockState AZALEA_LEAVES
-+ BlockState AZALEA_LEAVES_FLOWERS
-+ BlockState BIRCH_SAPLING
-+ BlockState DARK_OAK_SAPLING
-+ BlockState JUNGLE_SAPLING
-+ BlockState OAK_SAPLING
-+ BlockState SPRUCE_SAPLING
++ boolean lambda$drawInBatch8xOutline$1(Font$StringRenderOutput,float[],int,float,int,int,int,Style,int)
++ void drawInBatch8xOutline(FormattedCharSequence,float,float,int,int,Matrix4f,MultiBufferSource,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
+<details><summary>net.minecraft.client.gui.Gui</summary>
 
 ```diff
-+ SystemReport fillServerSystemReport(SystemReport)
++ void renderHeart(PoseStack,Gui$HeartType,int,int,int,boolean,boolean)
++ void renderHearts(PoseStack,Player,int,int,int,int,float,int,int,int,boolean)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList$ItemRow</summary>
 
+```diff
++ Item getItem()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer</summary>
 
+```diff
++ void lambda$renderByItem$2(CompoundTag,GameProfile)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
 
+```diff
++ boolean isOutlineVisible(SignBlockEntity,int)
++ int getDarkColor(SignBlockEntity)
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.layers.CustomHeadLayer</summary>
 
+```diff
++ void lambda$render$0(CompoundTag,GameProfile)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-+ boolean debugCommandProfilerDelayStart
-+ boolean willStartRecordingMetrics
-+ Consumer onMetricsRecordingFinished
-+ Consumer onMetricsRecordingStopped
-+ MetricsRecorder metricsRecorder
-+ MinecraftServer$TimeProfiler debugCommandProfiler
-+ SystemReport fillServerSystemReport(net.minecraft.SystemReport)
-- boolean delayProfilerStart
-- ContinuousProfiler continousProfiler
+- boolean isProfiling()
 + boolean isRecordingMetrics()
 + boolean isTimeProfilerRunning()
-+ boolean lambda$getSelectedPacks$13(String)
+- boolean lambda$getSelectedPacks$11(Collection,String)
++ boolean lambda$getSelectedPacks$13(Collection,String)
+- boolean lambda$setInitialSpawn$2(Biome)
 + boolean lambda$setInitialSpawn$4(Biome)
+- boolean lambda$waitUntilNextTick$3()
 + boolean lambda$waitUntilNextTick$5()
 + CompletionStage lambda$reloadResources$11(ImmutableList)
-+ ImmutableList lambda$reloadResources$10(Collection)
-+ ProfileResults stopTimeProfiler()
-+ String lambda$fillSystemReport$7()
-+ String lambda$fillSystemReport$8()
-+ String lambda$fillSystemReport$9()
-+ String lambda$tickChildren$6(ServerLevel)
-+ SystemReport fillSystemReport(SystemReport)
-+ void dumpServerProperties(Path)
-+ void endMetricsRecordingTick()
-+ void finishRecordingMetrics()
-+ void lambda$new$0(ProfileResults)
-+ void lambda$new$1(Path)
-+ void lambda$reloadResources$12(ServerResources)
-+ void lambda$spin$2(AtomicReference)
-+ void lambda$spin$3(Throwable)
-+ void lambda$startMetricsRecordingTick$14(Path)
-+ void lambda$startRecordingMetrics$15(ProfileResults)
-+ void startMetricsRecordingTick()
-+ void startRecordingMetrics(Consumer)
-+ void startTimeProfiler()
-+ void stopRecordingMetrics()
-- boolean isProfiling()
-- boolean lambda$getSelectedPacks$11(String)
-- boolean lambda$setInitialSpawn$2(Biome)
-- boolean lambda$waitUntilNextTick$3()
 - CompletionStage lambda$reloadResources$9(ImmutableList)
++ ImmutableList lambda$reloadResources$10(Collection)
 - ImmutableList lambda$reloadResources$8(Collection)
 - ProfileResults finishProfiling()
++ ProfileResults stopTimeProfiler()
 - String lambda$fillReport$5()
 - String lambda$fillReport$6()
 - String lambda$fillReport$7()
++ String lambda$fillSystemReport$7()
++ String lambda$fillSystemReport$8()
++ String lambda$fillSystemReport$9()
 - String lambda$tickChildren$4(ServerLevel)
++ String lambda$tickChildren$6(ServerLevel)
++ SystemReport fillSystemReport(SystemReport)
 - void dumpCrashCategory(Path)
++ void dumpServerProperties(Path)
++ void endMetricsRecordingTick()
 - void endProfilerTick(SingleTickProfiler)
 - void fillReport(CrashReportCategory)
-- void lambda$reloadResources$10(ServerResources)
++ void finishRecordingMetrics()
++ void lambda$new$0(ProfileResults)
++ void lambda$new$1(Path)
+- void lambda$reloadResources$10(Collection,ServerResources)
++ void lambda$reloadResources$12(Collection,ServerResources)
 - void lambda$spin$0(AtomicReference)
-- void lambda$spin$1(Throwable)
+- void lambda$spin$1(Thread,Throwable)
++ void lambda$spin$2(AtomicReference)
++ void lambda$spin$3(Thread,Throwable)
++ void lambda$startMetricsRecordingTick$14(Path)
++ void lambda$startRecordingMetrics$15(Consumer,ProfileResults)
++ void startMetricsRecordingTick()
 - void startProfilerTick(SingleTickProfiler)
 - void startProfiling()
++ void startRecordingMetrics(Consumer,Consumer)
++ void startTimeProfiler()
++ void stopRecordingMetrics()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.GsonHelper</summary>
@@ -5292,7 +1938,6 @@
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.util.Mth</summary>
@@ -5305,141 +1950,18 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.util.TimeUtil</summary>
 
 ```diff
-+ long NANOSECONDS_PER_MILLISECOND
-+ long NANOSECONDS_PER_SECOND
 + void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.util.profiling.ActiveProfiler</summary>
 
 ```diff
-+ Set chartedPaths
 + Set getChartedPaths()
 + void markForCharting(MetricCategory)
 ```
@@ -5447,435 +1969,20 @@
 </details>
 
 
-
-
-<details><summary>net.minecraft.util.profiling.ProfileCollector</summary>
-
-```diff
-+ Set getChartedPaths()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.ProfilerFiller</summary>
-
-```diff
-+ void markForCharting(net.minecraft.util.profiling.metrics.MetricCategory)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.ProfilerPathEntry</summary>
-
-```diff
-+ long getMaxDuration()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ double MAX_LINE_OF_SIGHT_TEST_RANGE
-+ boolean addEffect(Entity)
-+ void forceAddEffect(Entity)
-+ void onEffectAdded(Entity)
-+ void onEffectUpdated(Entity)
-+ void updateUsingItem(ItemStack)
++ boolean addEffect(MobEffectInstance,Entity)
++ void forceAddEffect(MobEffectInstance,Entity)
 - void forceAddEffect(MobEffectInstance)
++ void onEffectAdded(MobEffectInstance,Entity)
 - void onEffectAdded(MobEffectInstance)
++ void onEffectUpdated(MobEffectInstance,boolean,Entity)
 - void onEffectUpdated(MobEffectInstance,boolean)
++ void updateUsingItem(ItemStack)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
@@ -5887,828 +1994,99 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
 
 ```diff
-+ void lambda$onTake$0(BlockPos)
-- void lambda$onTake$0(BlockPos)
++ void lambda$onTake$0(Player,ItemStack,Level,BlockPos)
+- void lambda$onTake$0(Player,Level,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.PlayerHeadItem</summary>
 
 ```diff
-+ void lambda$verifyTagAfterLoad$0(GameProfile)
-+ void verifyTagAfterLoad(CompoundTag)
 - boolean verifyTagAfterLoad(CompoundTag)
++ void lambda$verifyTagAfterLoad$0(CompoundTag,GameProfile)
++ void verifyTagAfterLoad(CompoundTag)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block POTTED_AZALEA
-+ Block POTTED_FLOWERING_AZALEA
-```
-
-</details>
-
 
 
 <details><summary>net.minecraft.world.level.block.BushBlock</summary>
 
 ```diff
-- void tick(Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
 
 ```diff
-+ void lambda$updateGameprofile$1(GameProfile)
-+ void lambda$updateOwnerProfile$0(GameProfile)
-+ void updateGameprofile(Consumer)
 - GameProfile updateGameprofile(GameProfile)
++ void lambda$updateGameprofile$1(Consumer,GameProfile)
++ void lambda$updateOwnerProfile$0(GameProfile)
++ void updateGameprofile(GameProfile,Consumer)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
 
 ```diff
-+ ResourceLocation invalidBlocks
+- App lambda$static$7(RecordCodecBuilder$Instance)
 + App lambda$static$8(RecordCodecBuilder$Instance)
 + ResourceLocation lambda$static$7(GeodeBlockSettings)
-+ void <init>(ResourceLocation)
-- App lambda$static$7(RecordCodecBuilder$Instance)
-- void <init>(ResourceLocation)
++ void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation,ResourceLocation)
+- void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
 
 ```diff
-+ void markAboveForPostProcessing(BlockPos)
++ void markAboveForPostProcessing(WorldGenLevel,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
 
 ```diff
-+ BlockStateProvider saplingProvider
 + App lambda$static$10(RecordCodecBuilder$Instance)
-+ BlockStateProvider lambda$static$3(TreeConfiguration)
-+ BlockStateProvider lambda$static$5(TreeConfiguration)
-+ Boolean lambda$static$9(TreeConfiguration)
-+ FeatureSize lambda$static$6(TreeConfiguration)
-+ FoliagePlacer lambda$static$4(TreeConfiguration)
-+ List lambda$static$7(TreeConfiguration)
-+ void <init>(List,boolean,boolean)
 - App lambda$static$9(RecordCodecBuilder$Instance)
++ BlockStateProvider lambda$static$3(TreeConfiguration)
 - BlockStateProvider lambda$static$4(TreeConfiguration)
++ BlockStateProvider lambda$static$5(TreeConfiguration)
 - Boolean lambda$static$7(TreeConfiguration)
++ Boolean lambda$static$9(TreeConfiguration)
 - FeatureSize lambda$static$5(TreeConfiguration)
++ FeatureSize lambda$static$6(TreeConfiguration)
 - FoliagePlacer lambda$static$3(TreeConfiguration)
++ FoliagePlacer lambda$static$4(TreeConfiguration)
 - List lambda$static$6(TreeConfiguration)
-- void <init>(List,boolean,boolean)
++ List lambda$static$7(TreeConfiguration)
++ void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
+- void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.Advancement
@@ -7709,13 +3087,738 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.CrashReportCategory</summary>
+
+```diff
+- void <init>(CrashReport,String)
++ void <init>(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationTrigger$TriggerInstance</summary>
+
+```diff
++ LocationTrigger$TriggerInstance located(EntityPredicate)
++ LocationTrigger$TriggerInstance walkOnBlockWithEquipment(Block,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+
+```diff
++ LightningStrikeTrigger$TriggerInstance fireCountAndBystander(MinMaxBounds$Ints,EntityPredicate)
++ UsingItemTrigger$TriggerInstance lookAtThroughItem(EntityType,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createPottedAzalea(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
+
+```diff
++ SystemReport fillServerSystemReport(SystemReport)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
+- boolean isProfiling()
++ boolean isRecordingMetrics()
++ boolean isTimeProfilerRunning()
+- boolean lambda$getSelectedPacks$11(Collection,String)
++ boolean lambda$getSelectedPacks$13(Collection,String)
+- boolean lambda$setInitialSpawn$2(Biome)
++ boolean lambda$setInitialSpawn$4(Biome)
+- boolean lambda$waitUntilNextTick$3()
++ boolean lambda$waitUntilNextTick$5()
++ CompletionStage lambda$reloadResources$11(ImmutableList)
+- CompletionStage lambda$reloadResources$9(ImmutableList)
++ ImmutableList lambda$reloadResources$10(Collection)
+- ImmutableList lambda$reloadResources$8(Collection)
+- ProfileResults finishProfiling()
++ ProfileResults stopTimeProfiler()
+- String lambda$fillReport$5()
+- String lambda$fillReport$6()
+- String lambda$fillReport$7()
++ String lambda$fillSystemReport$7()
++ String lambda$fillSystemReport$8()
++ String lambda$fillSystemReport$9()
+- String lambda$tickChildren$4(ServerLevel)
++ String lambda$tickChildren$6(ServerLevel)
++ SystemReport fillSystemReport(SystemReport)
+- void dumpCrashCategory(Path)
++ void dumpServerProperties(Path)
++ void endMetricsRecordingTick()
+- void endProfilerTick(SingleTickProfiler)
+- void fillReport(CrashReportCategory)
++ void finishRecordingMetrics()
++ void lambda$new$0(ProfileResults)
++ void lambda$new$1(Path)
+- void lambda$reloadResources$10(Collection,ServerResources)
++ void lambda$reloadResources$12(Collection,ServerResources)
+- void lambda$spin$0(AtomicReference)
+- void lambda$spin$1(Thread,Throwable)
++ void lambda$spin$2(AtomicReference)
++ void lambda$spin$3(Thread,Throwable)
++ void lambda$startMetricsRecordingTick$14(Path)
++ void lambda$startRecordingMetrics$15(Consumer,ProfileResults)
++ void startMetricsRecordingTick()
+- void startProfilerTick(SingleTickProfiler)
+- void startProfiling()
++ void startRecordingMetrics(Consumer,Consumer)
++ void startTimeProfiler()
++ void stopRecordingMetrics()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.GsonHelper</summary>
+
+```diff
++ JsonArray parseArray(Reader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float clampedLerp(float,float,float)
+- float sqrt(double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.TimeUtil</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.ActiveProfiler</summary>
+
+```diff
++ Set getChartedPaths()
++ void markForCharting(MetricCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean addEffect(MobEffectInstance,Entity)
++ void forceAddEffect(MobEffectInstance,Entity)
+- void forceAddEffect(MobEffectInstance)
++ void onEffectAdded(MobEffectInstance,Entity)
+- void onEffectAdded(MobEffectInstance)
++ void onEffectUpdated(MobEffectInstance,boolean,Entity)
+- void onEffectUpdated(MobEffectInstance,boolean)
++ void updateUsingItem(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
+
+```diff
++ Entity getEffectSource()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
+
+```diff
++ void lambda$onTake$0(Player,ItemStack,Level,BlockPos)
+- void lambda$onTake$0(Player,Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.PlayerHeadItem</summary>
+
+```diff
+- boolean verifyTagAfterLoad(CompoundTag)
++ void lambda$verifyTagAfterLoad$0(CompoundTag,GameProfile)
++ void verifyTagAfterLoad(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BushBlock</summary>
+
+```diff
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
+- GameProfile updateGameprofile(GameProfile)
++ void lambda$updateGameprofile$1(Consumer,GameProfile)
++ void lambda$updateOwnerProfile$0(GameProfile)
++ void updateGameprofile(GameProfile,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GeodeBlockSettings</summary>
+
+```diff
+- App lambda$static$7(RecordCodecBuilder$Instance)
++ App lambda$static$8(RecordCodecBuilder$Instance)
++ ResourceLocation lambda$static$7(GeodeBlockSettings)
++ void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation,ResourceLocation)
+- void <init>(BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,BlockStateProvider,List,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+
+```diff
++ void markAboveForPostProcessing(WorldGenLevel,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
++ App lambda$static$10(RecordCodecBuilder$Instance)
+- App lambda$static$9(RecordCodecBuilder$Instance)
++ BlockStateProvider lambda$static$3(TreeConfiguration)
+- BlockStateProvider lambda$static$4(TreeConfiguration)
++ BlockStateProvider lambda$static$5(TreeConfiguration)
+- Boolean lambda$static$7(TreeConfiguration)
++ Boolean lambda$static$9(TreeConfiguration)
+- FeatureSize lambda$static$5(TreeConfiguration)
++ FeatureSize lambda$static$6(TreeConfiguration)
+- FoliagePlacer lambda$static$3(TreeConfiguration)
++ FoliagePlacer lambda$static$4(TreeConfiguration)
+- List lambda$static$6(TreeConfiguration)
++ List lambda$static$7(TreeConfiguration)
++ void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
+- void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/lightning_rod_with_villager_no_fire.json
++ minecraft/advancements/adventure/spyglass_at_dragon.json
++ minecraft/advancements/adventure/spyglass_at_ghast.json
++ minecraft/advancements/adventure/spyglass_at_parrot.json
++ minecraft/advancements/adventure/walk_on_powder_snow_with_leather_boots.json
++ minecraft/advancements/husbandry/axolotl_in_a_bucket.json
++ minecraft/advancements/husbandry/kill_axolotl_target.json
++ minecraft/advancements/husbandry/make_a_sign_glow.json
++ minecraft/advancements/husbandry/ride_a_boat_with_a_goat.json
++ minecraft/advancements/husbandry/wax_off.json
++ minecraft/advancements/husbandry/wax_on.json
++ minecraft/advancements/recipes/decorations/black_candle.json
++ minecraft/advancements/recipes/decorations/blue_candle.json
++ minecraft/advancements/recipes/decorations/brown_candle.json
++ minecraft/advancements/recipes/decorations/candle.json
++ minecraft/advancements/recipes/decorations/cyan_candle.json
++ minecraft/advancements/recipes/decorations/gray_candle.json
++ minecraft/advancements/recipes/decorations/green_candle.json
++ minecraft/advancements/recipes/decorations/light_blue_candle.json
++ minecraft/advancements/recipes/decorations/light_gray_candle.json
++ minecraft/advancements/recipes/decorations/lime_candle.json
++ minecraft/advancements/recipes/decorations/magenta_candle.json
++ minecraft/advancements/recipes/decorations/orange_candle.json
++ minecraft/advancements/recipes/decorations/pink_candle.json
++ minecraft/advancements/recipes/decorations/purple_candle.json
++ minecraft/advancements/recipes/decorations/red_candle.json
++ minecraft/advancements/recipes/decorations/white_candle.json
++ minecraft/advancements/recipes/decorations/yellow_candle.json
++ minecraft/loot_tables/blocks/potted_azalea_bush.json
++ minecraft/loot_tables/blocks/potted_flowering_azalea_bush.json
++ minecraft/recipes/black_candle.json
++ minecraft/recipes/blue_candle.json
++ minecraft/recipes/brown_candle.json
++ minecraft/recipes/candle.json
++ minecraft/recipes/cyan_candle.json
++ minecraft/recipes/gray_candle.json
++ minecraft/recipes/green_candle.json
++ minecraft/recipes/light_blue_candle.json
++ minecraft/recipes/light_gray_candle.json
++ minecraft/recipes/lime_candle.json
++ minecraft/recipes/magenta_candle.json
++ minecraft/recipes/orange_candle.json
++ minecraft/recipes/pink_candle.json
++ minecraft/recipes/purple_candle.json
++ minecraft/recipes/red_candle.json
++ minecraft/recipes/white_candle.json
++ minecraft/recipes/yellow_candle.json
++ minecraft/tags/blocks/geode_invalid_blocks.json
++ minecraft/tags/blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/potted_azalea_bush.json
++ minecraft/blockstates/potted_flowering_azalea_bush.json
++ minecraft/models/block/black_candle_four_candles_lit.json
++ minecraft/models/block/black_candle_one_candle_lit.json
++ minecraft/models/block/black_candle_three_candles_lit.json
++ minecraft/models/block/black_candle_two_candles_lit.json
++ minecraft/models/block/blue_candle_four_candles_lit.json
++ minecraft/models/block/blue_candle_one_candle_lit.json
++ minecraft/models/block/blue_candle_three_candles_lit.json
++ minecraft/models/block/blue_candle_two_candles_lit.json
++ minecraft/models/block/brown_candle_four_candles_lit.json
++ minecraft/models/block/brown_candle_one_candle_lit.json
++ minecraft/models/block/brown_candle_three_candles_lit.json
++ minecraft/models/block/brown_candle_two_candles_lit.json
++ minecraft/models/block/candle_four_candles_lit.json
++ minecraft/models/block/candle_one_candle_lit.json
++ minecraft/models/block/candle_three_candles_lit.json
++ minecraft/models/block/candle_two_candles_lit.json
++ minecraft/models/block/cyan_candle_four_candles_lit.json
++ minecraft/models/block/cyan_candle_one_candle_lit.json
++ minecraft/models/block/cyan_candle_three_candles_lit.json
++ minecraft/models/block/cyan_candle_two_candles_lit.json
++ minecraft/models/block/gray_candle_four_candles_lit.json
++ minecraft/models/block/gray_candle_one_candle_lit.json
++ minecraft/models/block/gray_candle_three_candles_lit.json
++ minecraft/models/block/gray_candle_two_candles_lit.json
++ minecraft/models/block/green_candle_four_candles_lit.json
++ minecraft/models/block/green_candle_one_candle_lit.json
++ minecraft/models/block/green_candle_three_candles_lit.json
++ minecraft/models/block/green_candle_two_candles_lit.json
++ minecraft/models/block/light_blue_candle_four_candles_lit.json
++ minecraft/models/block/light_blue_candle_one_candle_lit.json
++ minecraft/models/block/light_blue_candle_three_candles_lit.json
++ minecraft/models/block/light_blue_candle_two_candles_lit.json
++ minecraft/models/block/light_gray_candle_four_candles_lit.json
++ minecraft/models/block/light_gray_candle_one_candle_lit.json
++ minecraft/models/block/light_gray_candle_three_candles_lit.json
++ minecraft/models/block/light_gray_candle_two_candles_lit.json
++ minecraft/models/block/lime_candle_four_candles_lit.json
++ minecraft/models/block/lime_candle_one_candle_lit.json
++ minecraft/models/block/lime_candle_three_candles_lit.json
++ minecraft/models/block/lime_candle_two_candles_lit.json
++ minecraft/models/block/magenta_candle_four_candles_lit.json
++ minecraft/models/block/magenta_candle_one_candle_lit.json
++ minecraft/models/block/magenta_candle_three_candles_lit.json
++ minecraft/models/block/magenta_candle_two_candles_lit.json
++ minecraft/models/block/orange_candle_four_candles_lit.json
++ minecraft/models/block/orange_candle_one_candle_lit.json
++ minecraft/models/block/orange_candle_three_candles_lit.json
++ minecraft/models/block/orange_candle_two_candles_lit.json
++ minecraft/models/block/pink_candle_four_candles_lit.json
++ minecraft/models/block/pink_candle_one_candle_lit.json
++ minecraft/models/block/pink_candle_three_candles_lit.json
++ minecraft/models/block/pink_candle_two_candles_lit.json
++ minecraft/models/block/potted_azalea_bush.json
++ minecraft/models/block/potted_flowering_azalea_bush.json
++ minecraft/models/block/purple_candle_four_candles_lit.json
++ minecraft/models/block/purple_candle_one_candle_lit.json
++ minecraft/models/block/purple_candle_three_candles_lit.json
++ minecraft/models/block/purple_candle_two_candles_lit.json
++ minecraft/models/block/red_candle_four_candles_lit.json
++ minecraft/models/block/red_candle_one_candle_lit.json
++ minecraft/models/block/red_candle_three_candles_lit.json
++ minecraft/models/block/red_candle_two_candles_lit.json
++ minecraft/models/block/template_potted_azalea_bush.json
++ minecraft/models/block/white_candle_four_candles_lit.json
++ minecraft/models/block/white_candle_one_candle_lit.json
++ minecraft/models/block/white_candle_three_candles_lit.json
++ minecraft/models/block/white_candle_two_candles_lit.json
++ minecraft/models/block/yellow_candle_four_candles_lit.json
++ minecraft/models/block/yellow_candle_one_candle_lit.json
++ minecraft/models/block/yellow_candle_three_candles_lit.json
++ minecraft/models/block/yellow_candle_two_candles_lit.json
++ minecraft/texts/credits.json
+- minecraft/texts/credits.txt
++ minecraft/textures/block/black_candle_lit.png
++ minecraft/textures/block/blue_candle_lit.png
++ minecraft/textures/block/brown_candle_lit.png
++ minecraft/textures/block/candle_lit.png
++ minecraft/textures/block/cyan_candle_lit.png
++ minecraft/textures/block/gray_candle_lit.png
++ minecraft/textures/block/green_candle_lit.png
++ minecraft/textures/block/light_blue_candle_lit.png
++ minecraft/textures/block/light_gray_candle_lit.png
++ minecraft/textures/block/lime_candle_lit.png
++ minecraft/textures/block/magenta_candle_lit.png
++ minecraft/textures/block/orange_candle_lit.png
++ minecraft/textures/block/pink_candle_lit.png
++ minecraft/textures/block/potted_azalea_bush_plant.png
++ minecraft/textures/block/potted_azalea_bush_side.png
++ minecraft/textures/block/potted_azalea_bush_top.png
++ minecraft/textures/block/potted_flowering_azalea_bush_plant.png
++ minecraft/textures/block/potted_flowering_azalea_bush_side.png
++ minecraft/textures/block/potted_flowering_azalea_bush_top.png
++ minecraft/textures/block/purple_candle_lit.png
++ minecraft/textures/block/red_candle_lit.png
++ minecraft/textures/block/white_candle_lit.png
++ minecraft/textures/block/yellow_candle_lit.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:potted_azalea_bush
++ minecraft:potted_flowering_azalea_bush
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ perf.txt
+```
+
+</details>
+
+
+<details><summary>debug.txt</summary>
+
+```diff
+- debug report
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/geode_invalid_blocks.json
++ blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
+- minecraft:mycelium
+```
+
+</details>
+
+
+<details><summary>blocks/flowers.json</summary>
+
+```diff
++ minecraft:azalea_leaves_flowers
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>blocks/flower_pots.json</summary>
+
+```diff
++ minecraft:potted_azalea_bush
++ minecraft:potted_flowering_azalea_bush
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/axe.json</summary>
+
+```diff
+- minecraft:moss_carpet
+```
+
+</details>
+
+
+<details><summary>blocks/needs_stone_tool.json</summary>
+
+```diff
++ minecraft:oxidized_copper
++ minecraft:oxidized_cut_copper
++ minecraft:oxidized_cut_copper_slab
++ minecraft:oxidized_cut_copper_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/small_flowers.json</summary>
+
+```diff
+- minecraft:azalea_leaves_flowers
+- minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>items/flowers.json</summary>
+
+```diff
++ minecraft:azalea_leaves_flowers
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>items/small_flowers.json</summary>
+
+```diff
+- minecraft:azalea_leaves_flowers
+- minecraft:flowering_azalea
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.lightning_rod_with_villager_no_fire.description
++ advancements.adventure.lightning_rod_with_villager_no_fire.title
++ advancements.adventure.spyglass_at_dragon.description
++ advancements.adventure.spyglass_at_dragon.title
++ advancements.adventure.spyglass_at_ghast.description
++ advancements.adventure.spyglass_at_ghast.title
++ advancements.adventure.spyglass_at_parrot.description
++ advancements.adventure.spyglass_at_parrot.title
++ advancements.adventure.walk_on_powder_snow_with_leather_boots.description
++ advancements.adventure.walk_on_powder_snow_with_leather_boots.title
++ advancements.husbandry.axolotl_in_a_bucket.description
++ advancements.husbandry.axolotl_in_a_bucket.title
++ advancements.husbandry.kill_axolotl_target.description
++ advancements.husbandry.kill_axolotl_target.title
++ advancements.husbandry.make_a_sign_glow.description
++ advancements.husbandry.make_a_sign_glow.title
++ advancements.husbandry.ride_a_boat_with_a_goat.description
++ advancements.husbandry.ride_a_boat_with_a_goat.title
++ advancements.husbandry.wax_off.description
++ advancements.husbandry.wax_off.title
++ advancements.husbandry.wax_on.description
++ advancements.husbandry.wax_on.title
++ block.minecraft.potted_azalea_bush
++ block.minecraft.potted_flowering_azalea_bush
++ chat_screen.message
++ chat_screen.title
++ chat_screen.usage
+- commands.debug.reportFailed
+- commands.debug.reportSaved
++ commands.perf.alreadyRunning
++ commands.perf.notRunning
++ commands.perf.reportFailed
++ commands.perf.reportSaved
++ commands.perf.started
++ commands.perf.stopped
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/lightning_rod_with_villager_no_fire.json
++ adventure/spyglass_at_dragon.json
++ adventure/spyglass_at_ghast.json
++ adventure/spyglass_at_parrot.json
++ adventure/walk_on_powder_snow_with_leather_boots.json
++ husbandry/axolotl_in_a_bucket.json
++ husbandry/kill_axolotl_target.json
++ husbandry/make_a_sign_glow.json
++ husbandry/ride_a_boat_with_a_goat.json
++ husbandry/wax_off.json
++ husbandry/wax_on.json
++ recipes/decorations/black_candle.json
++ recipes/decorations/blue_candle.json
++ recipes/decorations/brown_candle.json
++ recipes/decorations/candle.json
++ recipes/decorations/cyan_candle.json
++ recipes/decorations/gray_candle.json
++ recipes/decorations/green_candle.json
++ recipes/decorations/light_blue_candle.json
++ recipes/decorations/light_gray_candle.json
++ recipes/decorations/lime_candle.json
++ recipes/decorations/magenta_candle.json
++ recipes/decorations/orange_candle.json
++ recipes/decorations/pink_candle.json
++ recipes/decorations/purple_candle.json
++ recipes/decorations/red_candle.json
++ recipes/decorations/white_candle.json
++ recipes/decorations/yellow_candle.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/potted_azalea_bush.json
++ blocks/potted_flowering_azalea_bush.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ black_candle.json
++ blue_candle.json
++ brown_candle.json
++ candle.json
++ cyan_candle.json
++ gray_candle.json
++ green_candle.json
++ light_blue_candle.json
++ light_gray_candle.json
++ lime_candle.json
++ magenta_candle.json
++ orange_candle.json
++ pink_candle.json
++ purple_candle.json
++ red_candle.json
++ white_candle.json
++ yellow_candle.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/geode_invalid_blocks.json
++ blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+<details><summary>texts.txt</summary>
+
+```diff
++ credits.json
+- credits.txt
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/black_candle_lit.png
++ block/blue_candle_lit.png
++ block/brown_candle_lit.png
++ block/candle_lit.png
++ block/cyan_candle_lit.png
++ block/gray_candle_lit.png
++ block/green_candle_lit.png
++ block/light_blue_candle_lit.png
++ block/light_gray_candle_lit.png
++ block/lime_candle_lit.png
++ block/magenta_candle_lit.png
++ block/orange_candle_lit.png
++ block/pink_candle_lit.png
++ block/potted_azalea_bush_plant.png
++ block/potted_azalea_bush_side.png
++ block/potted_azalea_bush_top.png
++ block/potted_flowering_azalea_bush_plant.png
++ block/potted_flowering_azalea_bush_side.png
++ block/potted_flowering_azalea_bush_top.png
++ block/purple_candle_lit.png
++ block/red_candle_lit.png
++ block/white_candle_lit.png
++ block/yellow_candle_lit.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
++ com.github.oshi:oshi-core:5.3.4
+- com.mojang:authlib:2.1.29
++ com.mojang:authlib:2.2.30
+- com.mojang:patchy:2.0.5
++ com.mojang:patchy:2.1.6
++ net.java.dev.jna:jna-platform:5.6.0
+- net.java.dev.jna:jna:4.4.0
++ net.java.dev.jna:jna:5.6.0
+- net.java.dev.jna:platform:3.4.0
++ org.apache.logging.log4j:log4j-api:2.14.1
+- org.apache.logging.log4j:log4j-api:2.8.1
++ org.apache.logging.log4j:log4j-core:2.14.1
+- org.apache.logging.log4j:log4j-core:2.8.1
++ org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1
++ org.slf4j:slf4j-api:1.8.0-beta4
+- oshi-project:oshi-core:1.1
+```
+
+</details>

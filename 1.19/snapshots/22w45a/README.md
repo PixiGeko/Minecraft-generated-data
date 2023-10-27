@@ -1,3370 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w45a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w45a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-11-09T14:30:16+00:00</td></tr>
-<tr><th>SHA1</th><td>b32302f2204cd0278db19d20c184f67e3c580f1c</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/b32302f2204cd0278db19d20c184f67e3c580f1c/22w45a.json">https://piston-meta.mojang.com/v1/packages/b32302f2204cd0278db19d20c184f67e3c580f1c/22w45a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>c063e184e47c9a15ba3bef8948baffc4b2ab7e7c</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/c063e184e47c9a15ba3bef8948baffc4b2ab7e7c/22w45a.json">https://piston-meta.mojang.com/v1/packages/c063e184e47c9a15ba3bef8948baffc4b2ab7e7c/22w45a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/d98f05500b14a8884b85e71be9fa1ef0d261029a/server.jar">https://piston-data.mojang.com/v1/objects/d98f05500b14a8884b85e71be9fa1ef0d261029a/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b88f3ce1998f51e195f0e7ca43d46ad901bfb144/server.txt">https://piston-data.mojang.com/v1/objects/b88f3ce1998f51e195f0e7ca43d46ad901bfb144/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/4868ad0188d9349ef58fdbea5bf9afc0f942c0b4/client.jar">https://piston-data.mojang.com/v1/objects/4868ad0188d9349ef58fdbea5bf9afc0f942c0b4/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a72ce32ac120c16c155810e100f97aeb05276728/client.txt">https://piston-data.mojang.com/v1/objects/a72ce32ac120c16c155810e100f97aeb05276728/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w44a">22w44a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_block.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_planks.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_block.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_bamboo_block.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_block.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/bamboo_blocks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/bamboo_blocks.json
-+  minecraft/loot_tables/blocks/bamboo_block.json
-+  minecraft/loot_tables/blocks/stripped_bamboo_block.json
--  minecraft/tags/items/overworld_natural_logs.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/bamboo_block.json
-+  minecraft/blockstates/stripped_bamboo_block.json
-+  minecraft/models/block/bamboo_block.json
-+  minecraft/models/block/bamboo_block_x.json
-+  minecraft/models/block/bamboo_block_y.json
-+  minecraft/models/block/bamboo_block_z.json
-+  minecraft/models/block/cube_column_uv_locked_x.json
-+  minecraft/models/block/cube_column_uv_locked_y.json
-+  minecraft/models/block/cube_column_uv_locked_z.json
-+  minecraft/models/block/stripped_bamboo_block.json
-+  minecraft/models/block/stripped_bamboo_block_x.json
-+  minecraft/models/block/stripped_bamboo_block_y.json
-+  minecraft/models/block/stripped_bamboo_block_z.json
-+  minecraft/models/item/bamboo_block.json
-+  minecraft/models/item/stripped_bamboo_block.json
-+  minecraft/textures/block/bamboo_block.png
-+  minecraft/textures/block/bamboo_block_top.png
-+  minecraft/textures/block/stripped_bamboo_block.png
-+  minecraft/textures/block/stripped_bamboo_block_top.png
-+  minecraft/textures/entity/player
-+  minecraft/textures/entity/player/slim
-+  minecraft/textures/entity/player/slim/alex.png
-+  minecraft/textures/entity/player/slim/ari.png
-+  minecraft/textures/entity/player/slim/efe.png
-+  minecraft/textures/entity/player/slim/kai.png
-+  minecraft/textures/entity/player/slim/makena.png
-+  minecraft/textures/entity/player/slim/noor.png
-+  minecraft/textures/entity/player/slim/steve.png
-+  minecraft/textures/entity/player/slim/sunny.png
-+  minecraft/textures/entity/player/slim/zuri.png
-+  minecraft/textures/entity/player/wide
-+  minecraft/textures/entity/player/wide/alex.png
-+  minecraft/textures/entity/player/wide/ari.png
-+  minecraft/textures/entity/player/wide/efe.png
-+  minecraft/textures/entity/player/wide/kai.png
-+  minecraft/textures/entity/player/wide/makena.png
-+  minecraft/textures/entity/player/wide/noor.png
-+  minecraft/textures/entity/player/wide/steve.png
-+  minecraft/textures/entity/player/wide/sunny.png
-+  minecraft/textures/entity/player/wide/zuri.png
--  minecraft/textures/entity/alex.png
--  minecraft/textures/entity/steve.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:bamboo_block
-+ minecraft:stripped_bamboo_block
-```
-
-</details>
-
-<details><summary>command_argument_type.txt</summary>
-
-```diff
-+ minecraft:gamemode
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:bamboo_block
-+ minecraft:stripped_bamboo_block
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.bamboo_wood_hanging_sign.break
-+ minecraft:block.bamboo_wood_hanging_sign.fall
-+ minecraft:block.bamboo_wood_hanging_sign.hit
-+ minecraft:block.bamboo_wood_hanging_sign.place
-+ minecraft:block.bamboo_wood_hanging_sign.step
-+ minecraft:block.chiseled_bookshelf.break
-+ minecraft:block.chiseled_bookshelf.fall
-+ minecraft:block.chiseled_bookshelf.hit
-+ minecraft:block.chiseled_bookshelf.insert
-+ minecraft:block.chiseled_bookshelf.insert.enchanted
-+ minecraft:block.chiseled_bookshelf.pickup
-+ minecraft:block.chiseled_bookshelf.pickup.enchanted
-+ minecraft:block.chiseled_bookshelf.place
-+ minecraft:block.chiseled_bookshelf.step
-+ minecraft:block.nether_wood_hanging_sign.break
-+ minecraft:block.nether_wood_hanging_sign.fall
-+ minecraft:block.nether_wood_hanging_sign.hit
-+ minecraft:block.nether_wood_hanging_sign.place
-+ minecraft:block.nether_wood_hanging_sign.step
-```
-
-</details>
-
-## Commands
-
-<details><summary>defaultgamemode.txt</summary>
-
-```diff
-- defaultgamemode adventure
-- defaultgamemode creative
-- defaultgamemode spectator
-- defaultgamemode survival
-+ defaultgamemode <gamemode: gamemode>
-```
-
-</details>
-
-<details><summary>gamemode.txt</summary>
-
-```diff
-- gamemode adventure <target: entity>
-- gamemode creative <target: entity>
-- gamemode spectator <target: entity>
-- gamemode survival <target: entity>
-+ gamemode <gamemode: gamemode> <target: entity>
-```
-
-</details>
-
-<details><summary>publish.txt</summary>
-
-```diff
-- publish <port: integer>
-+ publish <allowCommands: bool> <gamemode: gamemode> <port: integer>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- items/overworld_natural_logs.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w44a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/bamboo_block.json
-+ blocks/stripped_bamboo_block.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-+ block/cherry_leaves/break1.ogg
-+ block/cherry_leaves/break2.ogg
-+ block/cherry_leaves/break3.ogg
-+ block/cherry_leaves/break4.ogg
-+ block/cherry_leaves/break5.ogg
-+ block/cherry_leaves/step1.ogg
-+ block/cherry_leaves/step2.ogg
-+ block/cherry_leaves/step3.ogg
-+ block/cherry_leaves/step4.ogg
-+ block/cherry_leaves/step5.ogg
-+ block/cherry_wood/break1.ogg
-+ block/cherry_wood/break2.ogg
-+ block/cherry_wood/break3.ogg
-+ block/cherry_wood/break4.ogg
-+ block/cherry_wood/break5.ogg
-+ block/cherry_wood/step1.ogg
-+ block/cherry_wood/step2.ogg
-+ block/cherry_wood/step3.ogg
-+ block/cherry_wood/step4.ogg
-+ block/cherry_wood/step5.ogg
-+ block/cherry_wood/step6.ogg
-+ block/cherry_wood_hanging_sign/break1.ogg
-+ block/cherry_wood_hanging_sign/break2.ogg
-+ block/cherry_wood_hanging_sign/break3.ogg
-+ block/cherry_wood_hanging_sign/break4.ogg
-+ block/cherry_wood_hanging_sign/step1.ogg
-+ block/cherry_wood_hanging_sign/step2.ogg
-+ block/cherry_wood_hanging_sign/step3.ogg
-+ block/cherry_wood_hanging_sign/step4.ogg
-+ block/cherrywood_button/cherrywood_click.ogg
-+ block/cherrywood_door/toggle1.ogg
-+ block/cherrywood_door/toggle2.ogg
-+ block/cherrywood_door/toggle3.ogg
-+ block/cherrywood_door/toggle4.ogg
-+ block/cherrywood_fence_gate/toggle1.ogg
-+ block/cherrywood_fence_gate/toggle2.ogg
-+ block/cherrywood_fence_gate/toggle3.ogg
-+ block/cherrywood_trapdoor/toggle1.ogg
-+ block/cherrywood_trapdoor/toggle2.ogg
-+ block/cherrywood_trapdoor/toggle3.ogg
-+ block/decorated_pot/break1.ogg
-+ block/decorated_pot/break2.ogg
-+ block/decorated_pot/break3.ogg
-+ block/decorated_pot/break4.ogg
-+ block/decorated_pot/shatter1.ogg
-+ block/decorated_pot/shatter2.ogg
-+ block/decorated_pot/shatter3.ogg
-+ block/decorated_pot/shatter4.ogg
-+ block/decorated_pot/shatter5.ogg
-+ block/decorated_pot/shatter6.ogg
-+ block/decorated_pot/step1.ogg
-+ block/decorated_pot/step2.ogg
-+ block/decorated_pot/step3.ogg
-+ block/decorated_pot/step4.ogg
-+ block/decorated_pot/step5.ogg
-+ block/suspicious_sand/break1.ogg
-+ block/suspicious_sand/break2.ogg
-+ block/suspicious_sand/break3.ogg
-+ block/suspicious_sand/break4.ogg
-+ block/suspicious_sand/break5.ogg
-+ block/suspicious_sand/break6.ogg
-+ block/suspicious_sand/place1.ogg
-+ block/suspicious_sand/place2.ogg
-+ block/suspicious_sand/place3.ogg
-+ block/suspicious_sand/place4.ogg
-+ block/suspicious_sand/place5.ogg
-+ block/suspicious_sand/step1.ogg
-+ block/suspicious_sand/step2.ogg
-+ block/suspicious_sand/step3.ogg
-+ block/suspicious_sand/step4.ogg
-+ block/suspicious_sand/step5.ogg
-+ item/brush/brush_completed1.ogg
-+ item/brush/brush_completed2.ogg
-+ item/brush/brush_completed3.ogg
-+ item/brush/brush_completed4.ogg
-+ item/brush/brush_completed5.ogg
-+ item/brush/brushing1.ogg
-+ item/brush/brushing2.ogg
-+ item/brush/brushing3.ogg
-+ item/brush/brushing4.ogg
-+ mob/sniffer/death1.ogg
-+ mob/sniffer/death2.ogg
-+ mob/sniffer/digging_stop1.ogg
-+ mob/sniffer/digging_stop2.ogg
-+ mob/sniffer/eat1.ogg
-+ mob/sniffer/eat2.ogg
-+ mob/sniffer/eat3.ogg
-+ mob/sniffer/happy1.ogg
-+ mob/sniffer/happy2.ogg
-+ mob/sniffer/happy3.ogg
-+ mob/sniffer/happy4.ogg
-+ mob/sniffer/happy5.ogg
-+ mob/sniffer/hurt1.ogg
-+ mob/sniffer/hurt2.ogg
-+ mob/sniffer/hurt3.ogg
-+ mob/sniffer/idle1.ogg
-+ mob/sniffer/idle10.ogg
-+ mob/sniffer/idle11.ogg
-+ mob/sniffer/idle2.ogg
-+ mob/sniffer/idle3.ogg
-+ mob/sniffer/idle4.ogg
-+ mob/sniffer/idle5.ogg
-+ mob/sniffer/idle6.ogg
-+ mob/sniffer/idle7.ogg
-+ mob/sniffer/idle8.ogg
-+ mob/sniffer/idle9.ogg
-+ mob/sniffer/longdig1.ogg
-+ mob/sniffer/longdig2.ogg
-+ mob/sniffer/scenting1.ogg
-+ mob/sniffer/scenting2.ogg
-+ mob/sniffer/scenting3.ogg
-+ mob/sniffer/searching1.ogg
-+ mob/sniffer/searching2.ogg
-+ mob/sniffer/searching3.ogg
-+ mob/sniffer/searching4.ogg
-+ mob/sniffer/searching5.ogg
-+ mob/sniffer/searching6.ogg
-+ mob/sniffer/sniffing1.ogg
-+ mob/sniffer/sniffing2.ogg
-+ mob/sniffer/sniffing3.ogg
-+ mob/sniffer/step1.ogg
-+ mob/sniffer/step2.ogg
-+ mob/sniffer/step3.ogg
-+ mob/sniffer/step4.ogg
-+ mob/sniffer/step5.ogg
-+ mob/sniffer/step6.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- items/overworld_natural_logs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- entity/alex.png
-- entity/steve.png
-+ block/bamboo_block.png
-+ block/bamboo_block_top.png
-+ block/stripped_bamboo_block.png
-+ block/stripped_bamboo_block_top.png
-+ entity/player/slim/alex.png
-+ entity/player/slim/ari.png
-+ entity/player/slim/efe.png
-+ entity/player/slim/kai.png
-+ entity/player/slim/makena.png
-+ entity/player/slim/noor.png
-+ entity/player/slim/steve.png
-+ entity/player/slim/sunny.png
-+ entity/player/slim/zuri.png
-+ entity/player/wide/alex.png
-+ entity/player/wide/ari.png
-+ entity/player/wide/efe.png
-+ entity/player/wide/kai.png
-+ entity/player/wide/makena.png
-+ entity/player/wide/noor.png
-+ entity/player/wide/steve.png
-+ entity/player/wide/sunny.png
-+ entity/player/wide/zuri.png
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:gamemode
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-- List toolTip
-+ Font access$2900(RealmsMainScreen)
-+ Minecraft access$3100(RealmsMainScreen)
-+ void access$1900(Component)
-+ void access$3200(Component)
-- Font access$1900(RealmsMainScreen)
-- Minecraft access$2900(RealmsMainScreen)
-- void renderMousehoverTooltip(List,int,int)
-- void setTooltip(Component[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.FileUtil</summary>
-
-```diff
-+ void createDirectoriesSafe(Path)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.GuiMessageTag</summary>
-
-```diff
-+ Component SYSTEM_TEXT_SINGLE_PLAYER
-+ GuiMessageTag SYSTEM_SINGLE_PLAYER
-+ GuiMessageTag systemSinglePlayer()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean isSingleplayer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.OptionInstance$OptionInstanceSliderButton</summary>
-
-```diff
-+ OptionInstance$TooltipSupplier tooltipSupplier
-- OptionInstance$TooltipSupplier tooltip
-- List getTooltip()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.Checkbox</summary>
-
-```diff
-+ void updateWidgetNarration(NarrationElementOutput)
-- void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.CycleButton</summary>
-
-```diff
-+ void updateTooltip()
-+ void updateWidgetNarration(NarrationElementOutput)
-- List getTooltip()
-- void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ImageButton</summary>
-
-```diff
-- void <init>(Component)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.MultiLineEditBox</summary>
-
-```diff
-+ void updateWidgetNarration(NarrationElementOutput)
-- void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
-
-```diff
-+ void updateWidgetNarration(NarrationElementOutput)
-- void updateNarration(NarrationElementOutput)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
-
-```diff
-- List tooltipAt(OptionsList,int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ FlatLayerInfo getLayerInfoFromString(String,int)
-+ FlatLevelGeneratorSettings fromString(FlatLevelGeneratorSettings)
-+ List getLayersInfoFromString(String)
-+ void lambda$init$3(Button)
-- FlatLayerInfo getLayerInfoFromString(String,int)
-- FlatLevelGeneratorSettings fromString(FlatLevelGeneratorSettings)
-- List getLayersInfoFromString(String)
-- void lambda$init$3(Button)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
-
-```diff
-+ void updateFilterButtonTooltip()
-- Component getFilterButtonTooltip()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.reporting.ChatReportScreen</summary>
-
-```diff
-+ Object lambda$sendReport$9(Throwable)
-+ Tooltip lambda$onReportChanged$7(ChatReportBuilder$CannotBuildReason)
-+ void lambda$displayReportSendError$13()
-+ void lambda$onReportSendSuccess$12()
-+ void lambda$sendReport$10(ChatReportBuilder$Result)
-+ void lambda$sendReport$11(ChatReportBuilder$CannotBuildReason)
-+ void lambda$sendReport$8(CompletableFuture)
-- Font access$000(ChatReportScreen)
-- Object lambda$sendReport$8(Throwable)
-- void lambda$displayReportSendError$12()
-- void lambda$onReportSendSuccess$11()
-- void lambda$sendReport$10(ChatReportBuilder$CannotBuildReason)
-- void lambda$sendReport$7(CompletableFuture)
-- void lambda$sendReport$9(ChatReportBuilder$Result)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen</summary>
-
-```diff
-- Runnable postRenderRunnable
-- void setPostRenderRunnable(Runnable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.SelectWorldScreen</summary>
-
-```diff
-- List toolTip
-- void setToolTip(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem</summary>
-
-```diff
-+ ResourceLocation iconSkin
-- ResourceLocation location
-+ Optional create(PlayerTeam)
-+ void <init>(ResourceLocation)
-- void <init>(PlayerTeam)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.HumanoidMobRenderer</summary>
-
-```diff
-- ResourceLocation DEFAULT_LOCATION
-- ResourceLocation getTextureLocation(Entity)
-- ResourceLocation getTextureLocation(Mob)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
-
-```diff
-+ float COMPASS_FOIL_TEXTURE_SCALE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.SkeletonRenderer</summary>
-
-```diff
-- ResourceLocation getTextureLocation(Mob)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.StrayRenderer</summary>
-
-```diff
-- ResourceLocation getTextureLocation(Mob)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ZombieVillagerRenderer</summary>
-
-```diff
-- ResourceLocation getTextureLocation(Mob)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.DefaultPlayerSkin</summary>
-
-```diff
-+ DefaultPlayerSkin$SkinType[] DEFAULT_SKINS
-- ResourceLocation ALEX_SKIN_LOCATION
-- ResourceLocation STEVE_SKIN_LOCATION
-- String ALEX_MODEL
-- String STEVE_MODEL
-+ DefaultPlayerSkin$SkinType getSkinType(UUID)
-- boolean isAlexDefault(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.HolderLookup$RegistryLookup</summary>
-
-```diff
-+ Lifecycle registryLifecycle()
-- Lifecycle elementsLifecycle()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ HolderLookup$RegistryLookup lookup
-+ Lifecycle registryLifecycle
-+ ResourceKey key
-- Lifecycle elementsLifecycle
-+ boolean lambda$freeze$6(Map$Entry)
-+ Holder$Reference lambda$createIntrusiveHolder$8(Object)
-+ Holder$Reference lambda$getOrCreateHolderOrThrow$3(ResourceKey)
-+ Holder$Reference lambda$registerMapping$2(ResourceKey)
-+ HolderLookup$RegistryLookup asLookup()
-+ HolderOwner holderOwner()
-+ Lifecycle registryLifecycle()
-+ Pair lambda$getTags$4(Map$Entry)
-+ ResourceKey key()
-+ ResourceLocation lambda$freeze$7(Map$Entry)
-+ String lambda$bindTags$11(TagKey)
-+ String lambda$new$1(ResourceKey)
-+ String toString()
-+ void lambda$bindTags$10(List)
-+ void lambda$bindTags$12(List)
-+ void lambda$bindTags$9(Holder$Reference)
-+ void lambda$freeze$5(Holder$Reference)
-+ void lambda$resetTags$13(HolderSet$Named)
-+ void lambda$resetTags$14(Holder$Reference)
-- boolean isKnownTagName(TagKey)
-- boolean lambda$freeze$5(Map$Entry)
-- Holder$Reference lambda$createIntrusiveHolder$7(Object)
-- Holder$Reference lambda$getOrCreateHolderOrThrow$2(ResourceKey)
-- Holder$Reference lambda$registerMapping$1(ResourceKey)
-- Lifecycle elementsLifecycle()
-- Pair lambda$getTags$3(Map$Entry)
-- ResourceLocation lambda$freeze$6(Map$Entry)
-- String lambda$bindTags$10(TagKey)
-- void lambda$bindTags$11(List)
-- void lambda$bindTags$8(Holder$Reference)
-- void lambda$bindTags$9(List)
-- void lambda$freeze$4(Holder$Reference)
-- void lambda$resetTags$12(HolderSet$Named)
-- void lambda$resetTags$13(Holder$Reference)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.PublishCommand</summary>
-
-```diff
-+ int lambda$register$4(CommandContext)
-+ int lambda$register$5(CommandContext)
-+ int publish(GameType)
-+ MutableComponent getSuccessMessage(int)
-- int publish(CommandSourceStack,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_BREAK
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_FALL
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_HIT
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_PLACE
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_STEP
-+ SoundEvent CHISELED_BOOKSHELF_BREAK
-+ SoundEvent CHISELED_BOOKSHELF_FALL
-+ SoundEvent CHISELED_BOOKSHELF_HIT
-+ SoundEvent CHISELED_BOOKSHELF_INSERT
-+ SoundEvent CHISELED_BOOKSHELF_INSERT_ENCHANTED
-+ SoundEvent CHISELED_BOOKSHELF_PICKUP
-+ SoundEvent CHISELED_BOOKSHELF_PICKUP_ENCHANTED
-+ SoundEvent CHISELED_BOOKSHELF_PLACE
-+ SoundEvent CHISELED_BOOKSHELF_STEP
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_BREAK
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_FALL
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_HIT
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_PLACE
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey BAMBOO_BLOCKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.HttpUtil</summary>
-
-```diff
-+ boolean isPortAvailable(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
-
-```diff
-+ boolean canJump(net.minecraft.world.entity.player.Player)
-- boolean canJump()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.Brain</summary>
-
-```diff
-+ Optional getMemoryInternal(MemoryModuleType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
-
-```diff
-- Function speedModifier
-- UniformInt followRange
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(AgeableMob,long)
-+ Float lambda$create$0(LivingEntity)
-+ OneShot create(Function)
-+ OneShot create(UniformInt,float)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
-- AgeableMob getNearestAdult(AgeableMob)
-- boolean checkExtraStartConditions(AgeableMob)
-- boolean checkExtraStartConditions(LivingEntity)
-- Float lambda$new$0(LivingEntity)
-- void <init>(Function)
-- void <init>(UniformInt,float)
-- void start(AgeableMob,long)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BecomePassiveIfMemoryPresent</summary>
-
-```diff
-- int pacifyDuration
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ BehaviorControl create(MemoryModuleType,int)
-+ boolean lambda$create$1(LivingEntity,long)
-+ String lambda$create$0(MemoryModuleType)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
-- void <init>(MemoryModuleType,int)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy$1</summary>
-
-```diff
-+ boolean lambda$apply$0(BehaviorControl)
-+ boolean lambda$apply$1(BehaviorControl)
-- boolean lambda$apply$0(Behavior)
-- boolean lambda$apply$1(Behavior)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
-
-```diff
-- int cooldownBetweenAttacks
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ boolean lambda$create$0(Mob,long)
-+ boolean lambda$isHoldingUsableProjectileWeapon$3(ItemStack)
-+ OneShot create(int)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Mob)
-- boolean lambda$isHoldingUsableProjectileWeapon$0(ItemStack)
-- LivingEntity getAttackTarget(Mob)
-- void <init>(int)
-- void start(LivingEntity,long)
-- void start(Mob,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
-
-```diff
-- float speedModifier
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(LivingEntity,long)
-+ OneShot create(float)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
-+ void lambda$create$0(Vec3)
-- boolean checkExtraStartConditions(LivingEntity)
-- void <init>(float)
-- void start(LivingEntity,long)
-- WalkTarget lambda$start$0(Vec3)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ResetProfession</summary>
-
-```diff
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(Villager,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Villager)
-- void start(LivingEntity,long)
-- void start(Villager,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RingBell</summary>
-
-```diff
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
-
-```diff
-- float speedModifier
-- int triedCount
-- long lastUpdate
-- Long2LongMap batchCache
-+ App lambda$create$6(BehaviorBuilder$Instance)
-+ BehaviorControl create(float)
-+ boolean lambda$create$0(Holder)
-+ boolean lambda$create$1(BlockPos)
-+ boolean lambda$create$2(Holder)
-+ boolean lambda$create$3(Long2LongMap$Entry)
-+ boolean lambda$create$4(PathfinderMob,long)
-+ Trigger lambda$create$5(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean lambda$checkExtraStartConditions$0(Holder)
-- boolean lambda$start$1(BlockPos)
-- boolean lambda$start$2(Holder)
-- boolean lambda$start$3(Long2LongMap$Entry)
-- void <init>(float)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetHiddenState</summary>
-
-```diff
-- int closeEnoughDist
-- int stayHiddenTicks
-- int ticksHidden
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(int,int)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- void <init>(int,int)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetRaidStatus</summary>
-
-```diff
-+ App lambda$create$1(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
-
-```diff
-- Function speedModifier
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ BehaviorControl create(float)
-+ BehaviorControl create(Function)
-+ boolean lambda$create$1(Mob,long)
-+ Float lambda$create$0(LivingEntity)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
-- Float lambda$new$0(LivingEntity)
-- void <init>(float)
-- void <init>(Function)
-- void clearWalkTarget(LivingEntity)
-- void setWalkAndLookTarget(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Mob,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget</summary>
-
-```diff
-- Function speedModifier
-- int closeEnoughDistance
-- Predicate canSetWalkTargetPredicate
-+ App lambda$create$4(BehaviorBuilder$Instance)
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$2(LivingEntity,long)
-+ Float lambda$create$1(LivingEntity)
-+ OneShot create(float,int)
-+ OneShot create(Function,int)
-+ Trigger lambda$create$3(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean lambda$new$0(LivingEntity)
-- Float lambda$new$1(LivingEntity)
-- void <init>(float,int)
-- void <init>(Function,int)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
-
-```diff
-+ Iterator iterator()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SocializeAtBell</summary>
-
-```diff
-+ App lambda$create$5(BehaviorBuilder$Instance)
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$1(LivingEntity)
-+ boolean lambda$create$3(LivingEntity,long)
-+ OneShot create()
-+ Trigger lambda$create$4(MemoryAccessor)
-+ void lambda$create$2(LivingEntity)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean lambda$checkExtraStartConditions$0(LivingEntity)
-- boolean lambda$start$1(LivingEntity)
-- Optional lambda$start$2(NearestVisibleLivingEntities)
-- void lambda$start$3(LivingEntity)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead</summary>
-
-```diff
-- BiPredicate dancePredicate
-- int celebrateDuration
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(BiPredicate)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- LivingEntity getAttackTarget(LivingEntity)
-- void <init>(BiPredicate)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
-
-```diff
-- BiConsumer onTargetErased
-- boolean canGrowTiredOfTryingToReachTarget
-- Predicate stopAttackingWhen
-+ App lambda$create$6(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ BehaviorControl create(BiConsumer,boolean)
-+ BehaviorControl create(BiConsumer)
-+ BehaviorControl create(Predicate)
-+ boolean isTiredOfTryingToReachTarget(Optional)
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$2(LivingEntity)
-+ boolean lambda$create$4(Mob,long)
-+ Trigger lambda$create$5(MemoryAccessor)
-+ void lambda$create$1(LivingEntity)
-+ void lambda$create$3(LivingEntity)
-- boolean isCurrentTargetDeadOrRemoved(Mob)
-- boolean isCurrentTargetInDifferentLevel(Mob)
-- boolean isTiredOfTryingToReachTarget(LivingEntity)
-- boolean lambda$new$1(LivingEntity)
-- boolean lambda$new$2(LivingEntity)
-- LivingEntity getAttackTarget(Mob)
-- void <init>(BiConsumer,boolean)
-- void <init>(BiConsumer)
-- void <init>(BiConsumer)
-- void <init>(Predicate)
-- void clearAttackTarget(Mob)
-- void lambda$new$0(LivingEntity)
-- void lambda$new$3(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Mob,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StrollAroundPoi</summary>
-
-```diff
-- float speedModifier
-- int maxDistanceFromPoi
-- long nextOkStartTime
-- MemoryModuleType memoryType
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(PathfinderMob,long)
-+ OneShot create(MemoryModuleType,float,int)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
-+ WalkTarget lambda$create$0(Vec3)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(PathfinderMob)
-- void <init>(MemoryModuleType,float,int)
-- void start(LivingEntity,long)
-- void start(PathfinderMob,long)
-- WalkTarget lambda$start$0(Vec3)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StrollToPoiList</summary>
-
-```diff
-- float speedModifier
-- GlobalPos targetPos
-- int closeEnoughDist
-- int maxDistanceFromPoi
-- long nextOkStartTime
-- MemoryModuleType mustBeCloseToMemoryType
-- MemoryModuleType strollToMemoryType
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(MemoryModuleType)
-+ boolean lambda$create$0(Villager,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Villager)
-- void <init>(MemoryModuleType)
-- void start(LivingEntity,long)
-- void start(Villager,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerCalmDown</summary>
-
-```diff
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$1(LivingEntity,long)
-+ Trigger lambda$create$2(MemoryAccessor)
-- boolean isCloseToEntityThatHurtMe(Villager)
-- boolean lambda$isCloseToEntityThatHurtMe$0(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Villager,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.WakeUp</summary>
-
-```diff
-+ App lambda$create$1(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.warden.SetWardenLookTarget</summary>
-
-```diff
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$1(LivingEntity,long)
-+ Optional lambda$create$0(MemoryAccessor)
-+ Trigger lambda$create$2(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Warden)
-- Optional lambda$start$0(Warden)
-- void start(LivingEntity,long)
-- void start(Warden,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
-
-```diff
-+ PositionTracker lambda$getLikedPlayerPositionTracker$1(ServerPlayer)
-- boolean lambda$initIdleActivity$1(LivingEntity)
-- PositionTracker lambda$getLikedPlayerPositionTracker$2(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ boolean canJump(Player)
-- boolean canJump()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
-
-```diff
-+ float getStandingEyeHeight(EntityDimensions)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ float BABY_EYE_HEIGHT_ADJUSTMENT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-+ float ZOMBIFIED_PIGLIN_EYE_HEIGHT
-+ float getStandingEyeHeight(EntityDimensions)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
-
-```diff
-+ float PIGLIN_EYE_HEIGHT
-+ float getStandingEyeHeight(EntityDimensions)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-+ BehaviorControl avoidRepellent()
-+ BehaviorControl avoidZombified()
-+ BehaviorControl babyAvoidNemesis()
-+ BehaviorControl babySometimesRideBabyHoglin()
-+ boolean lambda$angerNearbyPiglins$4(Piglin)
-+ boolean lambda$babySometimesRideBabyHoglin$8(LivingEntity)
-+ boolean lambda$broadcastRetreat$12(AbstractPiglin)
-+ boolean lambda$initRideHoglinActivity$2(Piglin)
-+ boolean lambda$isNearestValidAttackTarget$3(LivingEntity)
-+ ImmutableList createLookBehaviors()
-+ SoundEvent lambda$getSoundForCurrentActivity$7(Activity)
-+ void lambda$angerNearbyPiglins$5(Piglin)
-+ void lambda$broadcastAngerTarget$9(AbstractPiglin)
-+ void lambda$broadcastRetreat$13(AbstractPiglin)
-+ void lambda$broadcastUniversalAnger$10(Player)
-+ void lambda$broadcastUniversalAnger$11(AbstractPiglin)
-+ void lambda$wasHurtBy$6(LivingEntity)
-- boolean hasAnyoneNearbyHuntedRecently(Piglin)
-- boolean lambda$angerNearbyPiglins$3(Piglin)
-- boolean lambda$broadcastRetreat$11(AbstractPiglin)
-- boolean lambda$hasAnyoneNearbyHuntedRecently$7(AbstractPiglin)
-- boolean lambda$isNearestValidAttackTarget$2(LivingEntity)
-- boolean seesPlayerHoldingWantedItem(Piglin)
-- CopyMemoryWithExpiry avoidZombified()
-- CopyMemoryWithExpiry babyAvoidNemesis()
-- RunSometimes babySometimesRideBabyHoglin()
-- SetWalkTargetAwayFrom avoidRepellent()
-- SoundEvent lambda$getSoundForCurrentActivity$6(Activity)
-- void broadcastDontKillAnyMoreHoglinsForAWhile(Piglin)
-- void lambda$angerNearbyPiglins$4(Piglin)
-- void lambda$broadcastAngerTarget$8(AbstractPiglin)
-- void lambda$broadcastRetreat$12(AbstractPiglin)
-- void lambda$broadcastUniversalAnger$10(AbstractPiglin)
-- void lambda$broadcastUniversalAnger$9(Player)
-- void lambda$wasHurtBy$5(LivingEntity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.RememberIfHoglinWasKilled</summary>
-
-```diff
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-- boolean isAttackTargetDeadHoglin(Piglin)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.StartHuntingHoglin</summary>
-
-```diff
-+ App lambda$create$4(BehaviorBuilder$Instance)
-+ boolean hasHuntedRecently(AbstractPiglin)
-+ Boolean lambda$create$0(List)
-+ boolean lambda$create$2(Piglin,long)
-+ OneShot create()
-+ Trigger lambda$create$3(MemoryAccessor)
-+ void lambda$create$1(List)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Piglin)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem</summary>
-
-```diff
-- int disableTime
-- int maxTimeToReachItem
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(int,int)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Piglin)
-- void <init>(int,int)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.TooltipFlag</summary>
-
-```diff
-+ boolean isCreative()
-+ TooltipFlag$Default ADVANCED
-+ TooltipFlag$Default NORMAL
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
-
-```diff
-+ ItemStack[] lambda$getItems$2(int)
-+ Stream lambda$getItems$1(Ingredient$Value)
-- ItemStack[] lambda$dissolve$2(int)
-- Stream lambda$dissolve$1(Ingredient$Value)
-- void dissolve()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block BAMBOO_BLOCK
-+ Block STRIPPED_BAMBOO_BLOCK
-+ BlockEntityType lambda$static$13()
-+ boolean lambda$pistonBase$6(BlockPos)
-+ boolean lambda$shulkerBox$5(BlockPos)
-+ boolean lambda$static$14(BlockPos)
-+ boolean lambda$static$15(EntityType)
-+ boolean lambda$static$36(EntityType)
-+ boolean lambda$static$38(EntityType)
-+ boolean lambda$static$51(BlockPos)
-+ int lambda$static$12(BlockState)
-+ int lambda$static$20(BlockState)
-+ int lambda$static$35(BlockState)
-+ int lambda$static$37(BlockState)
-+ int lambda$static$50(BlockState)
-+ int lambda$static$55(BlockState)
-+ Item lambda$static$24()
-+ MaterialColor lambda$log$3(BlockState)
-+ MaterialColor lambda$netherStem$4(BlockState)
-+ RotatedPillarBlock log(FeatureFlag[])
-- BlockEntityType lambda$static$12()
-- boolean lambda$pistonBase$5(BlockPos)
-- boolean lambda$shulkerBox$4(BlockPos)
-- boolean lambda$static$13(BlockPos)
-- boolean lambda$static$14(EntityType)
-- boolean lambda$static$35(EntityType)
-- boolean lambda$static$37(EntityType)
-- boolean lambda$static$50(BlockPos)
-- int lambda$static$15(BlockState)
-- int lambda$static$24(BlockState)
-- int lambda$static$36(BlockState)
-- int lambda$static$38(BlockState)
-- int lambda$static$51(BlockState)
-- int lambda$static$6(BlockState)
-- Item lambda$static$20()
-- MaterialColor lambda$netherStem$3(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.animation.AnimationChannel
@@ -6290,15 +2957,20 @@
 </details>
 
 
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
+```diff
+- Font access$1900(RealmsMainScreen)
++ Font access$2900(RealmsMainScreen)
+- Minecraft access$2900(RealmsMainScreen)
++ Minecraft access$3100(RealmsMainScreen)
++ void access$1900(RealmsMainScreen,Component)
++ void access$3200(RealmsMainScreen,Component)
+- void renderMousehoverTooltip(PoseStack,List,int,int)
+- void setTooltip(Component[])
+```
 
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.FileUtil</summary>
@@ -6310,231 +2982,258 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+<details><summary>net.minecraft.client.GuiMessageTag</summary>
 
 ```diff
-+ Object byId(int)
-+ Object get(net.minecraft.resources.ResourceLocation)
-+ ResourceLocation getDefaultKey()
-+ ResourceLocation getKey(java.lang.Object)
-- Holder$Reference defaultValue
-- ResourceLocation defaultKey
-- Holder registerMapping(Lifecycle)
-- Holder$Reference registerMapping(Lifecycle)
-- int getId(Object)
-- Object byId(int)
-- Object get(ResourceLocation)
-- Optional getOptional(ResourceLocation)
-- Optional getRandom(RandomSource)
-- Optional lambda$getRandom$0()
-- ResourceLocation getDefaultKey()
-- ResourceLocation getKey(Object)
-- void <init>(Lifecycle,boolean)
++ GuiMessageTag systemSinglePlayer()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.HolderLookup$RegistryLookup$Delegate</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ Lifecycle registryLifecycle()
++ boolean isSingleplayer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.OptionInstance$OptionInstanceSliderButton</summary>
+
+```diff
+- List getTooltip()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.Checkbox</summary>
+
+```diff
+- void updateNarration(NarrationElementOutput)
++ void updateWidgetNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.CycleButton</summary>
+
+```diff
+- List getTooltip()
+- void updateNarration(NarrationElementOutput)
++ void updateTooltip()
++ void updateWidgetNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.ImageButton</summary>
+
+```diff
+- void <init>(int,int,int,int,int,int,int,ResourceLocation,int,int,Button$OnPress,Button$OnTooltip,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.MultiLineEditBox</summary>
+
+```diff
+- void updateNarration(NarrationElementOutput)
++ void updateWidgetNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
+
+```diff
+- void updateNarration(NarrationElementOutput)
++ void updateWidgetNarration(NarrationElementOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
+
+```diff
+- List tooltipAt(OptionsList,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
+
+```diff
++ FlatLayerInfo getLayerInfoFromString(HolderGetter,String,int)
+- FlatLayerInfo getLayerInfoFromString(String,int)
++ FlatLevelGeneratorSettings fromString(HolderGetter,HolderGetter,HolderGetter,HolderGetter,String,FlatLevelGeneratorSettings)
+- FlatLevelGeneratorSettings fromString(HolderGetter,HolderGetter,HolderGetter,String,FlatLevelGeneratorSettings)
++ List getLayersInfoFromString(HolderGetter,String)
+- List getLayersInfoFromString(String)
+- void lambda$init$3(HolderGetter,HolderGetter,HolderGetter,Button)
++ void lambda$init$3(HolderGetter,HolderGetter,HolderGetter,HolderGetter,Button)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
+
+```diff
+- Component getFilterButtonTooltip()
++ void updateFilterButtonTooltip()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.reporting.ChatReportScreen</summary>
+
+```diff
+- Font access$000(ChatReportScreen)
+- Object lambda$sendReport$8(Object,Throwable)
++ Object lambda$sendReport$9(Object,Throwable)
++ Tooltip lambda$onReportChanged$7(ChatReportBuilder$CannotBuildReason)
+- void lambda$displayReportSendError$12()
++ void lambda$displayReportSendError$13()
+- void lambda$onReportSendSuccess$11()
++ void lambda$onReportSendSuccess$12()
+- void lambda$sendReport$10(ChatReportBuilder$CannotBuildReason)
++ void lambda$sendReport$10(ChatReportBuilder$Result)
++ void lambda$sendReport$11(ChatReportBuilder$CannotBuildReason)
+- void lambda$sendReport$7(CompletableFuture)
++ void lambda$sendReport$8(CompletableFuture)
+- void lambda$sendReport$9(ChatReportBuilder$Result)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen</summary>
+
+```diff
+- void setPostRenderRunnable(Runnable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.SelectWorldScreen</summary>
+
+```diff
+- void setToolTip(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem</summary>
+
+```diff
++ Optional create(Minecraft,PlayerTeam)
++ void <init>(PlayerTeam,List,ResourceLocation)
+- void <init>(PlayerTeam)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.HumanoidMobRenderer</summary>
+
+```diff
+- ResourceLocation getTextureLocation(Entity)
+- ResourceLocation getTextureLocation(Mob)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.SkeletonRenderer</summary>
+
+```diff
+- ResourceLocation getTextureLocation(Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.StrayRenderer</summary>
+
+```diff
+- ResourceLocation getTextureLocation(Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ZombieVillagerRenderer</summary>
+
+```diff
+- ResourceLocation getTextureLocation(Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.DefaultPlayerSkin</summary>
+
+```diff
+- boolean isAlexDefault(UUID)
++ DefaultPlayerSkin$SkinType getSkinType(UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
+- boolean isKnownTagName(TagKey)
+- boolean lambda$freeze$5(Map$Entry)
++ boolean lambda$freeze$6(Map$Entry)
+- Holder$Reference lambda$createIntrusiveHolder$7(Object)
++ Holder$Reference lambda$createIntrusiveHolder$8(Object)
+- Holder$Reference lambda$getOrCreateHolderOrThrow$2(ResourceKey)
++ Holder$Reference lambda$getOrCreateHolderOrThrow$3(ResourceKey)
+- Holder$Reference lambda$registerMapping$1(ResourceKey)
++ Holder$Reference lambda$registerMapping$2(ResourceKey)
++ HolderLookup$RegistryLookup asLookup()
++ HolderOwner holderOwner()
 - Lifecycle elementsLifecycle()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry$1</summary>
-
-```diff
 + Lifecycle registryLifecycle()
+- Pair lambda$getTags$3(Map$Entry)
++ Pair lambda$getTags$4(Map$Entry)
 + ResourceKey key()
-+ Stream listElements()
-+ Stream listTags()
-- Holder$Reference getOrThrow(ResourceKey)
-- HolderSet$Named getOrThrow(TagKey)
+- ResourceLocation lambda$freeze$6(Map$Entry)
++ ResourceLocation lambda$freeze$7(Map$Entry)
+- String lambda$bindTags$10(TagKey)
++ String lambda$bindTags$11(TagKey)
++ String lambda$new$1(ResourceKey)
++ String toString()
++ void lambda$bindTags$10(Map,TagKey,List)
+- void lambda$bindTags$11(Map,TagKey,List)
++ void lambda$bindTags$12(Map,TagKey,List)
+- void lambda$bindTags$8(Map,Holder$Reference)
++ void lambda$bindTags$9(Map,Holder$Reference)
+- void lambda$bindTags$9(Map,TagKey,List)
+- void lambda$freeze$4(Object,Holder$Reference)
++ void lambda$freeze$5(Object,Holder$Reference)
+- void lambda$resetTags$12(HolderSet$Named)
+- void lambda$resetTags$13(Holder$Reference)
++ void lambda$resetTags$13(HolderSet$Named)
++ void lambda$resetTags$14(Holder$Reference)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.PublishCommand</summary>
@@ -6542,217 +3241,12 @@
 ```diff
 + int lambda$register$4(CommandContext)
 + int lambda$register$5(CommandContext)
-+ int publish(GameType)
-+ MutableComponent getSuccessMessage(int)
++ int publish(CommandSourceStack,int,boolean,GameType)
 - int publish(CommandSourceStack,int)
++ MutableComponent getSuccessMessage(int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_BREAK
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_FALL
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_HIT
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_PLACE
-+ SoundEvent BAMBOO_WOOD_HANGING_SIGN_STEP
-+ SoundEvent CHISELED_BOOKSHELF_BREAK
-+ SoundEvent CHISELED_BOOKSHELF_FALL
-+ SoundEvent CHISELED_BOOKSHELF_HIT
-+ SoundEvent CHISELED_BOOKSHELF_INSERT
-+ SoundEvent CHISELED_BOOKSHELF_INSERT_ENCHANTED
-+ SoundEvent CHISELED_BOOKSHELF_PICKUP
-+ SoundEvent CHISELED_BOOKSHELF_PICKUP_ENCHANTED
-+ SoundEvent CHISELED_BOOKSHELF_PLACE
-+ SoundEvent CHISELED_BOOKSHELF_STEP
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_BREAK
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_FALL
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_HIT
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_PLACE
-+ SoundEvent NETHER_WOOD_HANGING_SIGN_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey BAMBOO_BLOCKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.HttpUtil</summary>
@@ -6764,285 +3258,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
-
-```diff
-+ boolean canJump(net.minecraft.world.entity.player.Player)
-- boolean canJump()
-```
-
-</details>
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.Brain</summary>
 
 ```diff
@@ -7052,240 +3267,221 @@
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
 
 ```diff
-- Function speedModifier
-- UniformInt followRange
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(AgeableMob,long)
-+ Float lambda$create$0(LivingEntity)
-+ OneShot create(Function)
-+ OneShot create(UniformInt,float)
-+ Trigger lambda$create$2(MemoryAccessor)
-+ void <init>()
 - AgeableMob getNearestAdult(AgeableMob)
-- boolean checkExtraStartConditions(AgeableMob)
-- boolean checkExtraStartConditions(LivingEntity)
-- Float lambda$new$0(LivingEntity)
-- void <init>(Function)
++ App lambda$create$3(UniformInt,Function,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,AgeableMob)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,UniformInt,Function,MemoryAccessor,MemoryAccessor,ServerLevel,AgeableMob,long)
++ Float lambda$create$0(float,LivingEntity)
+- Float lambda$new$0(float,LivingEntity)
++ OneShot create(UniformInt,float)
++ OneShot create(UniformInt,Function)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,UniformInt,Function,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
 - void <init>(UniformInt,float)
-- void start(AgeableMob,long)
-- void start(LivingEntity,long)
+- void <init>(UniformInt,Function)
+- void start(ServerLevel,AgeableMob,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.BecomePassiveIfMemoryPresent</summary>
 
 ```diff
-- int pacifyDuration
-+ App lambda$create$3(BehaviorBuilder$Instance)
++ App lambda$create$3(MemoryModuleType,int,BehaviorBuilder$Instance)
 + BehaviorControl create(MemoryModuleType,int)
-+ boolean lambda$create$1(LivingEntity,long)
++ boolean lambda$create$1(MemoryAccessor,int,MemoryAccessor,ServerLevel,LivingEntity,long)
 + String lambda$create$0(MemoryModuleType)
-+ Trigger lambda$create$2(MemoryAccessor)
++ Trigger lambda$create$2(int,MemoryAccessor,MemoryAccessor,MemoryAccessor)
 + void <init>()
 - void <init>(MemoryModuleType,int)
-- void start(LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy$1</summary>
 
 ```diff
-+ boolean lambda$apply$0(BehaviorControl)
-+ boolean lambda$apply$1(BehaviorControl)
 - boolean lambda$apply$0(Behavior)
-- boolean lambda$apply$1(Behavior)
++ boolean lambda$apply$0(BehaviorControl)
+- boolean lambda$apply$1(ServerLevel,LivingEntity,long,Behavior)
++ boolean lambda$apply$1(ServerLevel,LivingEntity,long,BehaviorControl)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
 
 ```diff
-- int cooldownBetweenAttacks
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ boolean lambda$create$0(Mob,long)
-+ boolean lambda$isHoldingUsableProjectileWeapon$3(ItemStack)
-+ OneShot create(int)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Mob)
-- boolean lambda$isHoldingUsableProjectileWeapon$0(ItemStack)
++ App lambda$create$2(int,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Mob)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,int,ServerLevel,Mob,long)
+- boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,ItemStack)
++ boolean lambda$isHoldingUsableProjectileWeapon$3(Mob,ItemStack)
 - LivingEntity getAttackTarget(Mob)
++ OneShot create(int)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
 - void <init>(int)
-- void start(LivingEntity,long)
-- void start(Mob,long)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
 
 ```diff
-- float speedModifier
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(LivingEntity,long)
++ App lambda$create$3(float,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$1(MemoryAccessor,float,ServerLevel,LivingEntity,long)
 + OneShot create(float)
-+ Trigger lambda$create$2(MemoryAccessor)
++ Trigger lambda$create$2(float,MemoryAccessor)
 + void <init>()
-+ void lambda$create$0(Vec3)
-- boolean checkExtraStartConditions(LivingEntity)
 - void <init>(float)
-- void start(LivingEntity,long)
++ void lambda$create$0(MemoryAccessor,float,Vec3)
+- void start(ServerLevel,LivingEntity,long)
 - WalkTarget lambda$start$0(Vec3)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.ResetProfession</summary>
 
 ```diff
 + App lambda$create$2(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(Villager,long)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean lambda$create$0(ServerLevel,Villager,long)
 + Trigger lambda$create$1(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Villager)
-- void start(LivingEntity,long)
-- void start(Villager,long)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.RingBell</summary>
 
 ```diff
 + App lambda$create$2(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
 
 ```diff
-- float speedModifier
-- int triedCount
-- long lastUpdate
-- Long2LongMap batchCache
-+ App lambda$create$6(BehaviorBuilder$Instance)
++ App lambda$create$6(MutableLong,Long2LongMap,float,BehaviorBuilder$Instance)
 + BehaviorControl create(float)
-+ boolean lambda$create$0(Holder)
-+ boolean lambda$create$1(BlockPos)
-+ boolean lambda$create$2(Holder)
-+ boolean lambda$create$3(Long2LongMap$Entry)
-+ boolean lambda$create$4(PathfinderMob,long)
-+ Trigger lambda$create$5(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
 - boolean lambda$checkExtraStartConditions$0(Holder)
++ boolean lambda$create$0(Holder)
++ boolean lambda$create$1(Long2LongMap,MutableInt,MutableLong,BlockPos)
++ boolean lambda$create$2(Holder)
++ boolean lambda$create$3(MutableLong,Long2LongMap$Entry)
++ boolean lambda$create$4(MutableLong,Long2LongMap,MemoryAccessor,float,ServerLevel,PathfinderMob,long)
 - boolean lambda$start$1(BlockPos)
 - boolean lambda$start$2(Holder)
 - boolean lambda$start$3(Long2LongMap$Entry)
++ Trigger lambda$create$5(MutableLong,Long2LongMap,float,MemoryAccessor,MemoryAccessor)
++ void <init>()
 - void <init>(float)
-- void start(LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetHiddenState</summary>
 
 ```diff
-- int closeEnoughDist
-- int stayHiddenTicks
-- int ticksHidden
-+ App lambda$create$2(BehaviorBuilder$Instance)
++ App lambda$create$2(MutableInt,int,int,BehaviorBuilder$Instance)
 + BehaviorControl create(int,int)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MutableInt,int,MemoryAccessor,int,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MutableInt,int,int,MemoryAccessor,MemoryAccessor)
 + void <init>()
 - void <init>(int,int)
-- void start(LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetRaidStatus</summary>
 
 ```diff
 + App lambda$create$1(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
 
 ```diff
-- Function speedModifier
-+ App lambda$create$3(BehaviorBuilder$Instance)
++ App lambda$create$3(Function,BehaviorBuilder$Instance)
 + BehaviorControl create(float)
 + BehaviorControl create(Function)
-+ boolean lambda$create$1(Mob,long)
-+ Float lambda$create$0(LivingEntity)
-+ Trigger lambda$create$2(MemoryAccessor)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,Function,ServerLevel,Mob,long)
++ Float lambda$create$0(float,LivingEntity)
+- Float lambda$new$0(float,LivingEntity)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,Function,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
 + void <init>()
-- Float lambda$new$0(LivingEntity)
 - void <init>(float)
 - void <init>(Function)
 - void clearWalkTarget(LivingEntity)
-- void setWalkAndLookTarget(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Mob,long)
+- void setWalkAndLookTarget(LivingEntity,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget</summary>
 
 ```diff
-- Function speedModifier
-- int closeEnoughDistance
-- Predicate canSetWalkTargetPredicate
-+ App lambda$create$4(BehaviorBuilder$Instance)
++ App lambda$create$4(Predicate,Function,int,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
 + boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$2(LivingEntity,long)
-+ Float lambda$create$1(LivingEntity)
-+ OneShot create(float,int)
-+ OneShot create(Function,int)
-+ Trigger lambda$create$3(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
++ boolean lambda$create$2(Predicate,MemoryAccessor,BehaviorBuilder$Instance,MemoryAccessor,Function,int,ServerLevel,LivingEntity,long)
 - boolean lambda$new$0(LivingEntity)
-- Float lambda$new$1(LivingEntity)
++ Float lambda$create$1(float,LivingEntity)
+- Float lambda$new$1(float,LivingEntity)
++ OneShot create(float,int)
++ OneShot create(Predicate,Function,int)
++ Trigger lambda$create$3(Predicate,BehaviorBuilder$Instance,Function,int,MemoryAccessor,MemoryAccessor)
++ void <init>()
 - void <init>(float,int)
-- void <init>(Function,int)
-- void start(LivingEntity,long)
+- void <init>(Predicate,Function,int)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
 
@@ -7300,120 +3496,108 @@
 
 ```diff
 + App lambda$create$5(BehaviorBuilder$Instance)
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$1(LivingEntity)
-+ boolean lambda$create$3(LivingEntity,long)
-+ OneShot create()
-+ Trigger lambda$create$4(MemoryAccessor)
-+ void lambda$create$2(LivingEntity)
-- boolean checkExtraStartConditions(LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
 - boolean lambda$checkExtraStartConditions$0(LivingEntity)
-- boolean lambda$start$1(LivingEntity)
-- Optional lambda$start$2(NearestVisibleLivingEntities)
-- void lambda$start$3(LivingEntity)
-- void start(LivingEntity,long)
++ boolean lambda$create$0(LivingEntity)
++ boolean lambda$create$1(LivingEntity,LivingEntity)
++ boolean lambda$create$3(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
+- boolean lambda$start$1(LivingEntity,LivingEntity)
++ OneShot create()
+- Optional lambda$start$2(LivingEntity,NearestVisibleLivingEntities)
++ Trigger lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void lambda$create$2(MemoryAccessor,MemoryAccessor,MemoryAccessor,LivingEntity)
+- void lambda$start$3(Brain,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead</summary>
 
 ```diff
-- BiPredicate dancePredicate
-- int celebrateDuration
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(BiPredicate)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-+ void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
++ App lambda$create$2(BiPredicate,int,BehaviorBuilder$Instance)
++ BehaviorControl create(int,BiPredicate)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,BiPredicate,MemoryAccessor,int,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
 - LivingEntity getAttackTarget(LivingEntity)
-- void <init>(BiPredicate)
-- void start(LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,BiPredicate,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(int,BiPredicate)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
 
 ```diff
-- BiConsumer onTargetErased
-- boolean canGrowTiredOfTryingToReachTarget
-- Predicate stopAttackingWhen
-+ App lambda$create$6(BehaviorBuilder$Instance)
++ App lambda$create$6(boolean,Predicate,BiConsumer,BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ BehaviorControl create(BiConsumer,boolean)
 + BehaviorControl create(BiConsumer)
++ BehaviorControl create(Predicate,BiConsumer,boolean)
 + BehaviorControl create(Predicate)
-+ boolean isTiredOfTryingToReachTarget(Optional)
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$2(LivingEntity)
-+ boolean lambda$create$4(Mob,long)
-+ Trigger lambda$create$5(MemoryAccessor)
-+ void lambda$create$1(LivingEntity)
-+ void lambda$create$3(LivingEntity)
 - boolean isCurrentTargetDeadOrRemoved(Mob)
 - boolean isCurrentTargetInDifferentLevel(Mob)
++ boolean isTiredOfTryingToReachTarget(LivingEntity,Optional)
 - boolean isTiredOfTryingToReachTarget(LivingEntity)
++ boolean lambda$create$0(LivingEntity)
++ boolean lambda$create$2(LivingEntity)
++ boolean lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,boolean,MemoryAccessor,Predicate,BiConsumer,ServerLevel,Mob,long)
 - boolean lambda$new$1(LivingEntity)
 - boolean lambda$new$2(LivingEntity)
 - LivingEntity getAttackTarget(Mob)
-- void <init>(BiConsumer,boolean)
++ Trigger lambda$create$5(BehaviorBuilder$Instance,boolean,Predicate,BiConsumer,MemoryAccessor,MemoryAccessor)
 - void <init>(BiConsumer)
-- void <init>(BiConsumer)
+- void <init>(Predicate,BiConsumer,boolean)
+- void <init>(Predicate,BiConsumer)
 - void <init>(Predicate)
 - void clearAttackTarget(Mob)
-- void lambda$new$0(LivingEntity)
-- void lambda$new$3(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Mob,long)
++ void lambda$create$1(Mob,LivingEntity)
++ void lambda$create$3(Mob,LivingEntity)
+- void lambda$new$0(Mob,LivingEntity)
+- void lambda$new$3(Mob,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.ai.behavior.StrollAroundPoi</summary>
 
 ```diff
-- float speedModifier
-- int maxDistanceFromPoi
-- long nextOkStartTime
-- MemoryModuleType memoryType
-+ App lambda$create$3(BehaviorBuilder$Instance)
-+ boolean lambda$create$1(PathfinderMob,long)
++ App lambda$create$3(MemoryModuleType,int,MutableLong,float,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,PathfinderMob)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,int,MutableLong,MemoryAccessor,float,ServerLevel,PathfinderMob,long)
 + OneShot create(MemoryModuleType,float,int)
-+ Trigger lambda$create$2(MemoryAccessor)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,int,MutableLong,float,MemoryAccessor,MemoryAccessor)
 + void <init>()
-+ WalkTarget lambda$create$0(Vec3)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(PathfinderMob)
 - void <init>(MemoryModuleType,float,int)
-- void start(LivingEntity,long)
-- void start(PathfinderMob,long)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,PathfinderMob,long)
++ WalkTarget lambda$create$0(float,Vec3)
 - WalkTarget lambda$start$0(Vec3)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.ai.behavior.StrollToPoiList</summary>
 
 ```diff
-- float speedModifier
-- GlobalPos targetPos
-- int closeEnoughDist
-- int maxDistanceFromPoi
-- long nextOkStartTime
-- MemoryModuleType mustBeCloseToMemoryType
-- MemoryModuleType strollToMemoryType
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(MemoryModuleType)
-+ boolean lambda$create$0(Villager,long)
-+ Trigger lambda$create$1(MemoryAccessor)
++ App lambda$create$2(MemoryModuleType,MemoryModuleType,int,MutableLong,float,int,BehaviorBuilder$Instance)
++ BehaviorControl create(MemoryModuleType,float,int,int,MemoryModuleType)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,int,MutableLong,MemoryAccessor,float,int,ServerLevel,Villager,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,MutableLong,float,int,MemoryAccessor,MemoryAccessor,MemoryAccessor)
 + void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Villager)
-- void <init>(MemoryModuleType)
-- void start(LivingEntity,long)
-- void start(Villager,long)
+- void <init>(MemoryModuleType,float,int,int,MemoryModuleType)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
 ```
 
 </details>
@@ -7424,13 +3608,13 @@
 ```diff
 + App lambda$create$3(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity)
-+ boolean lambda$create$1(LivingEntity,long)
-+ Trigger lambda$create$2(MemoryAccessor)
 - boolean isCloseToEntityThatHurtMe(Villager)
-- boolean lambda$isCloseToEntityThatHurtMe$0(LivingEntity)
-- void start(LivingEntity,long)
-- void start(Villager,long)
++ boolean lambda$create$0(LivingEntity,LivingEntity)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
+- boolean lambda$isCloseToEntityThatHurtMe$0(Villager,LivingEntity)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
 ```
 
 </details>
@@ -7441,15 +3625,12 @@
 ```diff
 + App lambda$create$1(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-- boolean checkExtraStartConditions(LivingEntity)
-- void start(LivingEntity,long)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.warden.SetWardenLookTarget</summary>
@@ -7457,289 +3638,44 @@
 ```diff
 + App lambda$create$3(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$1(LivingEntity,long)
-+ Optional lambda$create$0(MemoryAccessor)
-+ Trigger lambda$create$2(MemoryAccessor)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Warden)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Warden)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Optional lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor)
 - Optional lambda$start$0(Warden)
-- void start(LivingEntity,long)
-- void start(Warden,long)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Warden,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
 
 ```diff
-+ PositionTracker lambda$getLikedPlayerPositionTracker$1(ServerPlayer)
 - boolean lambda$initIdleActivity$1(LivingEntity)
++ PositionTracker lambda$getLikedPlayerPositionTracker$1(ServerPlayer)
 - PositionTracker lambda$getLikedPlayerPositionTracker$2(ServerPlayer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
 
 ```diff
-+ boolean canJump(Player)
 - boolean canJump()
++ boolean canJump(Player)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Vex</summary>
 
 ```diff
-+ float getStandingEyeHeight(EntityDimensions)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ float BABY_EYE_HEIGHT_ADJUSTMENT
++ float getStandingEyeHeight(Pose,EntityDimensions)
 ```
 
 </details>
@@ -7748,22 +3684,20 @@
 <details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
 
 ```diff
-+ float ZOMBIFIED_PIGLIN_EYE_HEIGHT
-+ float getStandingEyeHeight(EntityDimensions)
++ float getStandingEyeHeight(Pose,EntityDimensions)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
 
 ```diff
-+ float PIGLIN_EYE_HEIGHT
-+ float getStandingEyeHeight(EntityDimensions)
++ float getStandingEyeHeight(Pose,EntityDimensions)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
 
@@ -7772,37 +3706,37 @@
 + BehaviorControl avoidZombified()
 + BehaviorControl babyAvoidNemesis()
 + BehaviorControl babySometimesRideBabyHoglin()
-+ boolean lambda$angerNearbyPiglins$4(Piglin)
-+ boolean lambda$babySometimesRideBabyHoglin$8(LivingEntity)
-+ boolean lambda$broadcastRetreat$12(AbstractPiglin)
-+ boolean lambda$initRideHoglinActivity$2(Piglin)
-+ boolean lambda$isNearestValidAttackTarget$3(LivingEntity)
-+ ImmutableList createLookBehaviors()
-+ SoundEvent lambda$getSoundForCurrentActivity$7(Activity)
-+ void lambda$angerNearbyPiglins$5(Piglin)
-+ void lambda$broadcastAngerTarget$9(AbstractPiglin)
-+ void lambda$broadcastRetreat$13(AbstractPiglin)
-+ void lambda$broadcastUniversalAnger$10(Player)
-+ void lambda$broadcastUniversalAnger$11(AbstractPiglin)
-+ void lambda$wasHurtBy$6(LivingEntity)
 - boolean hasAnyoneNearbyHuntedRecently(Piglin)
-- boolean lambda$angerNearbyPiglins$3(Piglin)
+- boolean lambda$angerNearbyPiglins$3(boolean,Player,Piglin)
++ boolean lambda$angerNearbyPiglins$4(boolean,Player,Piglin)
++ boolean lambda$babySometimesRideBabyHoglin$8(SetEntityLookTargetSometimes$Ticker,LivingEntity)
 - boolean lambda$broadcastRetreat$11(AbstractPiglin)
++ boolean lambda$broadcastRetreat$12(AbstractPiglin)
 - boolean lambda$hasAnyoneNearbyHuntedRecently$7(AbstractPiglin)
-- boolean lambda$isNearestValidAttackTarget$2(LivingEntity)
++ boolean lambda$initRideHoglinActivity$2(Piglin)
+- boolean lambda$isNearestValidAttackTarget$2(LivingEntity,LivingEntity)
++ boolean lambda$isNearestValidAttackTarget$3(LivingEntity,LivingEntity)
 - boolean seesPlayerHoldingWantedItem(Piglin)
 - CopyMemoryWithExpiry avoidZombified()
 - CopyMemoryWithExpiry babyAvoidNemesis()
++ ImmutableList createLookBehaviors()
 - RunSometimes babySometimesRideBabyHoglin()
 - SetWalkTargetAwayFrom avoidRepellent()
-- SoundEvent lambda$getSoundForCurrentActivity$6(Activity)
+- SoundEvent lambda$getSoundForCurrentActivity$6(Piglin,Activity)
++ SoundEvent lambda$getSoundForCurrentActivity$7(Piglin,Activity)
 - void broadcastDontKillAnyMoreHoglinsForAWhile(Piglin)
-- void lambda$angerNearbyPiglins$4(Piglin)
-- void lambda$broadcastAngerTarget$8(AbstractPiglin)
-- void lambda$broadcastRetreat$12(AbstractPiglin)
+- void lambda$angerNearbyPiglins$4(Player,Piglin)
++ void lambda$angerNearbyPiglins$5(Player,Piglin)
+- void lambda$broadcastAngerTarget$8(LivingEntity,AbstractPiglin)
++ void lambda$broadcastAngerTarget$9(LivingEntity,AbstractPiglin)
+- void lambda$broadcastRetreat$12(LivingEntity,AbstractPiglin)
++ void lambda$broadcastRetreat$13(LivingEntity,AbstractPiglin)
++ void lambda$broadcastUniversalAnger$10(AbstractPiglin,Player)
 - void lambda$broadcastUniversalAnger$10(AbstractPiglin)
-- void lambda$broadcastUniversalAnger$9(Player)
-- void lambda$wasHurtBy$5(LivingEntity)
++ void lambda$broadcastUniversalAnger$11(AbstractPiglin)
+- void lambda$broadcastUniversalAnger$9(AbstractPiglin,Player)
+- void lambda$wasHurtBy$5(LivingEntity,Brain,LivingEntity)
++ void lambda$wasHurtBy$6(LivingEntity,Brain,LivingEntity)
 ```
 
 </details>
@@ -7813,444 +3747,123 @@
 ```diff
 + App lambda$create$2(BehaviorBuilder$Instance)
 + BehaviorControl create()
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
 - boolean isAttackTargetDeadHoglin(Piglin)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.monster.piglin.StartHuntingHoglin</summary>
 
 ```diff
 + App lambda$create$4(BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Piglin)
 + boolean hasHuntedRecently(AbstractPiglin)
 + Boolean lambda$create$0(List)
-+ boolean lambda$create$2(Piglin,long)
++ boolean lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,Piglin,long)
 + OneShot create()
-+ Trigger lambda$create$3(MemoryAccessor)
++ Trigger lambda$create$3(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
 + void lambda$create$1(List)
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Piglin)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem</summary>
 
 ```diff
-- int disableTime
-- int maxTimeToReachItem
-+ App lambda$create$2(BehaviorBuilder$Instance)
++ App lambda$create$2(int,int,BehaviorBuilder$Instance)
 + BehaviorControl create(int,int)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Piglin)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,int,MemoryAccessor,MemoryAccessor,int,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
 + void <init>()
-- boolean checkExtraStartConditions(LivingEntity)
-- boolean checkExtraStartConditions(Piglin)
 - void <init>(int,int)
-- void start(LivingEntity,long)
-- void start(Piglin,long)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.TooltipFlag</summary>
 
 ```diff
-+ boolean isCreative()
-+ TooltipFlag$Default ADVANCED
-+ TooltipFlag$Default NORMAL
 + void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
 
 ```diff
-+ ItemStack[] lambda$getItems$2(int)
-+ Stream lambda$getItems$1(Ingredient$Value)
 - ItemStack[] lambda$dissolve$2(int)
++ ItemStack[] lambda$getItems$2(int)
 - Stream lambda$dissolve$1(Ingredient$Value)
++ Stream lambda$getItems$1(Ingredient$Value)
 - void dissolve()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.Blocks</summary>
 
 ```diff
-+ Block BAMBOO_BLOCK
-+ Block STRIPPED_BAMBOO_BLOCK
-+ BlockEntityType lambda$static$13()
-+ boolean lambda$pistonBase$6(BlockPos)
-+ boolean lambda$shulkerBox$5(BlockPos)
-+ boolean lambda$static$14(BlockPos)
-+ boolean lambda$static$15(EntityType)
-+ boolean lambda$static$36(EntityType)
-+ boolean lambda$static$38(EntityType)
-+ boolean lambda$static$51(BlockPos)
-+ int lambda$static$12(BlockState)
-+ int lambda$static$20(BlockState)
-+ int lambda$static$35(BlockState)
-+ int lambda$static$37(BlockState)
-+ int lambda$static$50(BlockState)
-+ int lambda$static$55(BlockState)
-+ Item lambda$static$24()
-+ MaterialColor lambda$log$3(BlockState)
-+ MaterialColor lambda$netherStem$4(BlockState)
-+ RotatedPillarBlock log(FeatureFlag[])
 - BlockEntityType lambda$static$12()
-- boolean lambda$pistonBase$5(BlockPos)
-- boolean lambda$shulkerBox$4(BlockPos)
-- boolean lambda$static$13(BlockPos)
-- boolean lambda$static$14(EntityType)
-- boolean lambda$static$35(EntityType)
-- boolean lambda$static$37(EntityType)
-- boolean lambda$static$50(BlockPos)
++ BlockEntityType lambda$static$13()
+- boolean lambda$pistonBase$5(BlockState,BlockGetter,BlockPos)
++ boolean lambda$pistonBase$6(BlockState,BlockGetter,BlockPos)
+- boolean lambda$shulkerBox$4(BlockState,BlockGetter,BlockPos)
++ boolean lambda$shulkerBox$5(BlockState,BlockGetter,BlockPos)
+- boolean lambda$static$13(BlockState,BlockGetter,BlockPos)
+- boolean lambda$static$14(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$14(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$15(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$35(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$36(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$37(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$38(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$50(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$51(BlockState,BlockGetter,BlockPos)
++ int lambda$static$12(BlockState)
 - int lambda$static$15(BlockState)
++ int lambda$static$20(BlockState)
 - int lambda$static$24(BlockState)
++ int lambda$static$35(BlockState)
 - int lambda$static$36(BlockState)
++ int lambda$static$37(BlockState)
 - int lambda$static$38(BlockState)
++ int lambda$static$50(BlockState)
 - int lambda$static$51(BlockState)
++ int lambda$static$55(BlockState)
 - int lambda$static$6(BlockState)
 - Item lambda$static$20()
-- MaterialColor lambda$netherStem$3(BlockState)
++ Item lambda$static$24()
++ MaterialColor lambda$log$3(MaterialColor,MaterialColor,BlockState)
+- MaterialColor lambda$netherStem$3(MaterialColor,BlockState)
++ MaterialColor lambda$netherStem$4(MaterialColor,BlockState)
++ RotatedPillarBlock log(MaterialColor,MaterialColor,SoundType,FeatureFlag[])
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.blocks.BlockInput
@@ -10934,13 +6547,1074 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.FileUtil</summary>
+
+```diff
++ void createDirectoriesSafe(Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+
+```diff
+- Holder registerMapping(int,ResourceKey,Object,Lifecycle)
+- Holder$Reference registerMapping(int,ResourceKey,Object,Lifecycle)
+- int getId(Object)
+- Object byId(int)
+- Object get(ResourceLocation)
+- Optional getOptional(ResourceLocation)
+- Optional getRandom(RandomSource)
+- Optional lambda$getRandom$0()
+- ResourceLocation getDefaultKey()
+- ResourceLocation getKey(Object)
+- void <init>(String,ResourceKey,Lifecycle,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.HolderLookup$RegistryLookup$Delegate</summary>
+
+```diff
+- Lifecycle elementsLifecycle()
++ Lifecycle registryLifecycle()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry$1</summary>
+
+```diff
+- Holder$Reference getOrThrow(ResourceKey)
+- HolderSet$Named getOrThrow(TagKey)
++ Lifecycle registryLifecycle()
++ ResourceKey key()
++ Stream listElements()
++ Stream listTags()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.PublishCommand</summary>
+
+```diff
++ int lambda$register$4(CommandContext)
++ int lambda$register$5(CommandContext)
++ int publish(CommandSourceStack,int,boolean,GameType)
+- int publish(CommandSourceStack,int)
++ MutableComponent getSuccessMessage(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.HttpUtil</summary>
+
+```diff
++ boolean isPortAvailable(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.Brain</summary>
+
+```diff
++ Optional getMemoryInternal(MemoryModuleType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
+
+```diff
+- AgeableMob getNearestAdult(AgeableMob)
++ App lambda$create$3(UniformInt,Function,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,AgeableMob)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,UniformInt,Function,MemoryAccessor,MemoryAccessor,ServerLevel,AgeableMob,long)
++ Float lambda$create$0(float,LivingEntity)
+- Float lambda$new$0(float,LivingEntity)
++ OneShot create(UniformInt,float)
++ OneShot create(UniformInt,Function)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,UniformInt,Function,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(UniformInt,float)
+- void <init>(UniformInt,Function)
+- void start(ServerLevel,AgeableMob,long)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BecomePassiveIfMemoryPresent</summary>
+
+```diff
++ App lambda$create$3(MemoryModuleType,int,BehaviorBuilder$Instance)
++ BehaviorControl create(MemoryModuleType,int)
++ boolean lambda$create$1(MemoryAccessor,int,MemoryAccessor,ServerLevel,LivingEntity,long)
++ String lambda$create$0(MemoryModuleType)
++ Trigger lambda$create$2(int,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(MemoryModuleType,int)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GateBehavior$RunningPolicy$1</summary>
+
+```diff
+- boolean lambda$apply$0(Behavior)
++ boolean lambda$apply$0(BehaviorControl)
+- boolean lambda$apply$1(ServerLevel,LivingEntity,long,Behavior)
++ boolean lambda$apply$1(ServerLevel,LivingEntity,long,BehaviorControl)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
+
+```diff
++ App lambda$create$2(int,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Mob)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,int,ServerLevel,Mob,long)
+- boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,ItemStack)
++ boolean lambda$isHoldingUsableProjectileWeapon$3(Mob,ItemStack)
+- LivingEntity getAttackTarget(Mob)
++ OneShot create(int)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(int)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
+
+```diff
++ App lambda$create$3(float,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$1(MemoryAccessor,float,ServerLevel,LivingEntity,long)
++ OneShot create(float)
++ Trigger lambda$create$2(float,MemoryAccessor)
++ void <init>()
+- void <init>(float)
++ void lambda$create$0(MemoryAccessor,float,Vec3)
+- void start(ServerLevel,LivingEntity,long)
+- WalkTarget lambda$start$0(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.ResetProfession</summary>
+
+```diff
++ App lambda$create$2(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean lambda$create$0(ServerLevel,Villager,long)
++ Trigger lambda$create$1(MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.RingBell</summary>
+
+```diff
++ App lambda$create$2(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
+
+```diff
++ App lambda$create$6(MutableLong,Long2LongMap,float,BehaviorBuilder$Instance)
++ BehaviorControl create(float)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean lambda$checkExtraStartConditions$0(Holder)
++ boolean lambda$create$0(Holder)
++ boolean lambda$create$1(Long2LongMap,MutableInt,MutableLong,BlockPos)
++ boolean lambda$create$2(Holder)
++ boolean lambda$create$3(MutableLong,Long2LongMap$Entry)
++ boolean lambda$create$4(MutableLong,Long2LongMap,MemoryAccessor,float,ServerLevel,PathfinderMob,long)
+- boolean lambda$start$1(BlockPos)
+- boolean lambda$start$2(Holder)
+- boolean lambda$start$3(Long2LongMap$Entry)
++ Trigger lambda$create$5(MutableLong,Long2LongMap,float,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(float)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetHiddenState</summary>
+
+```diff
++ App lambda$create$2(MutableInt,int,int,BehaviorBuilder$Instance)
++ BehaviorControl create(int,int)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MutableInt,int,MemoryAccessor,int,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MutableInt,int,int,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(int,int)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetRaidStatus</summary>
+
+```diff
++ App lambda$create$1(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
+
+```diff
++ App lambda$create$3(Function,BehaviorBuilder$Instance)
++ BehaviorControl create(float)
++ BehaviorControl create(Function)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,Function,ServerLevel,Mob,long)
++ Float lambda$create$0(float,LivingEntity)
+- Float lambda$new$0(float,LivingEntity)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,Function,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(float)
+- void <init>(Function)
+- void clearWalkTarget(LivingEntity)
+- void setWalkAndLookTarget(LivingEntity,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget</summary>
+
+```diff
++ App lambda$create$4(Predicate,Function,int,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(LivingEntity)
++ boolean lambda$create$2(Predicate,MemoryAccessor,BehaviorBuilder$Instance,MemoryAccessor,Function,int,ServerLevel,LivingEntity,long)
+- boolean lambda$new$0(LivingEntity)
++ Float lambda$create$1(float,LivingEntity)
+- Float lambda$new$1(float,LivingEntity)
++ OneShot create(float,int)
++ OneShot create(Predicate,Function,int)
++ Trigger lambda$create$3(Predicate,BehaviorBuilder$Instance,Function,int,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(float,int)
+- void <init>(Predicate,Function,int)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.ShufflingList</summary>
+
+```diff
++ Iterator iterator()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SocializeAtBell</summary>
+
+```diff
++ App lambda$create$5(BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean lambda$checkExtraStartConditions$0(LivingEntity)
++ boolean lambda$create$0(LivingEntity)
++ boolean lambda$create$1(LivingEntity,LivingEntity)
++ boolean lambda$create$3(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
+- boolean lambda$start$1(LivingEntity,LivingEntity)
++ OneShot create()
+- Optional lambda$start$2(LivingEntity,NearestVisibleLivingEntities)
++ Trigger lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void lambda$create$2(MemoryAccessor,MemoryAccessor,MemoryAccessor,LivingEntity)
+- void lambda$start$3(Brain,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead</summary>
+
+```diff
++ App lambda$create$2(BiPredicate,int,BehaviorBuilder$Instance)
++ BehaviorControl create(int,BiPredicate)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,BiPredicate,MemoryAccessor,int,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
+- LivingEntity getAttackTarget(LivingEntity)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,BiPredicate,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(int,BiPredicate)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
+
+```diff
++ App lambda$create$6(boolean,Predicate,BiConsumer,BehaviorBuilder$Instance)
++ BehaviorControl create()
++ BehaviorControl create(BiConsumer)
++ BehaviorControl create(Predicate,BiConsumer,boolean)
++ BehaviorControl create(Predicate)
+- boolean isCurrentTargetDeadOrRemoved(Mob)
+- boolean isCurrentTargetInDifferentLevel(Mob)
++ boolean isTiredOfTryingToReachTarget(LivingEntity,Optional)
+- boolean isTiredOfTryingToReachTarget(LivingEntity)
++ boolean lambda$create$0(LivingEntity)
++ boolean lambda$create$2(LivingEntity)
++ boolean lambda$create$4(BehaviorBuilder$Instance,MemoryAccessor,boolean,MemoryAccessor,Predicate,BiConsumer,ServerLevel,Mob,long)
+- boolean lambda$new$1(LivingEntity)
+- boolean lambda$new$2(LivingEntity)
+- LivingEntity getAttackTarget(Mob)
++ Trigger lambda$create$5(BehaviorBuilder$Instance,boolean,Predicate,BiConsumer,MemoryAccessor,MemoryAccessor)
+- void <init>(BiConsumer)
+- void <init>(Predicate,BiConsumer,boolean)
+- void <init>(Predicate,BiConsumer)
+- void <init>(Predicate)
+- void clearAttackTarget(Mob)
++ void lambda$create$1(Mob,LivingEntity)
++ void lambda$create$3(Mob,LivingEntity)
+- void lambda$new$0(Mob,LivingEntity)
+- void lambda$new$3(Mob,LivingEntity)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Mob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StrollAroundPoi</summary>
+
+```diff
++ App lambda$create$3(MemoryModuleType,int,MutableLong,float,BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,PathfinderMob)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,int,MutableLong,MemoryAccessor,float,ServerLevel,PathfinderMob,long)
++ OneShot create(MemoryModuleType,float,int)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,int,MutableLong,float,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(MemoryModuleType,float,int)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,PathfinderMob,long)
++ WalkTarget lambda$create$0(float,Vec3)
+- WalkTarget lambda$start$0(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StrollToPoiList</summary>
+
+```diff
++ App lambda$create$2(MemoryModuleType,MemoryModuleType,int,MutableLong,float,int,BehaviorBuilder$Instance)
++ BehaviorControl create(MemoryModuleType,float,int,int,MemoryModuleType)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Villager)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,int,MutableLong,MemoryAccessor,float,int,ServerLevel,Villager,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,MutableLong,float,int,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(MemoryModuleType,float,int,int,MemoryModuleType)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.VillagerCalmDown</summary>
+
+```diff
++ App lambda$create$3(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean isCloseToEntityThatHurtMe(Villager)
++ boolean lambda$create$0(LivingEntity,LivingEntity)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
+- boolean lambda$isCloseToEntityThatHurtMe$0(Villager,LivingEntity)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Villager,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.WakeUp</summary>
+
+```diff
++ App lambda$create$1(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean lambda$create$0(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,LivingEntity,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.warden.SetWardenLookTarget</summary>
+
+```diff
++ App lambda$create$3(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Warden)
++ boolean lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Optional lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor)
+- Optional lambda$start$0(Warden)
++ Trigger lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Warden,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
+
+```diff
+- boolean lambda$initIdleActivity$1(LivingEntity)
++ PositionTracker lambda$getLikedPlayerPositionTracker$1(ServerPlayer)
+- PositionTracker lambda$getLikedPlayerPositionTracker$2(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- boolean canJump()
++ boolean canJump(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+
+```diff
++ float getStandingEyeHeight(Pose,EntityDimensions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
+
+```diff
++ float getStandingEyeHeight(Pose,EntityDimensions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
+
+```diff
++ float getStandingEyeHeight(Pose,EntityDimensions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
+
+```diff
++ BehaviorControl avoidRepellent()
++ BehaviorControl avoidZombified()
++ BehaviorControl babyAvoidNemesis()
++ BehaviorControl babySometimesRideBabyHoglin()
+- boolean hasAnyoneNearbyHuntedRecently(Piglin)
+- boolean lambda$angerNearbyPiglins$3(boolean,Player,Piglin)
++ boolean lambda$angerNearbyPiglins$4(boolean,Player,Piglin)
++ boolean lambda$babySometimesRideBabyHoglin$8(SetEntityLookTargetSometimes$Ticker,LivingEntity)
+- boolean lambda$broadcastRetreat$11(AbstractPiglin)
++ boolean lambda$broadcastRetreat$12(AbstractPiglin)
+- boolean lambda$hasAnyoneNearbyHuntedRecently$7(AbstractPiglin)
++ boolean lambda$initRideHoglinActivity$2(Piglin)
+- boolean lambda$isNearestValidAttackTarget$2(LivingEntity,LivingEntity)
++ boolean lambda$isNearestValidAttackTarget$3(LivingEntity,LivingEntity)
+- boolean seesPlayerHoldingWantedItem(Piglin)
+- CopyMemoryWithExpiry avoidZombified()
+- CopyMemoryWithExpiry babyAvoidNemesis()
++ ImmutableList createLookBehaviors()
+- RunSometimes babySometimesRideBabyHoglin()
+- SetWalkTargetAwayFrom avoidRepellent()
+- SoundEvent lambda$getSoundForCurrentActivity$6(Piglin,Activity)
++ SoundEvent lambda$getSoundForCurrentActivity$7(Piglin,Activity)
+- void broadcastDontKillAnyMoreHoglinsForAWhile(Piglin)
+- void lambda$angerNearbyPiglins$4(Player,Piglin)
++ void lambda$angerNearbyPiglins$5(Player,Piglin)
+- void lambda$broadcastAngerTarget$8(LivingEntity,AbstractPiglin)
++ void lambda$broadcastAngerTarget$9(LivingEntity,AbstractPiglin)
+- void lambda$broadcastRetreat$12(LivingEntity,AbstractPiglin)
++ void lambda$broadcastRetreat$13(LivingEntity,AbstractPiglin)
++ void lambda$broadcastUniversalAnger$10(AbstractPiglin,Player)
+- void lambda$broadcastUniversalAnger$10(AbstractPiglin)
++ void lambda$broadcastUniversalAnger$11(AbstractPiglin)
+- void lambda$broadcastUniversalAnger$9(AbstractPiglin,Player)
+- void lambda$wasHurtBy$5(LivingEntity,Brain,LivingEntity)
++ void lambda$wasHurtBy$6(LivingEntity,Brain,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.RememberIfHoglinWasKilled</summary>
+
+```diff
++ App lambda$create$2(BehaviorBuilder$Instance)
++ BehaviorControl create()
+- boolean isAttackTargetDeadHoglin(Piglin)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.StartHuntingHoglin</summary>
+
+```diff
++ App lambda$create$4(BehaviorBuilder$Instance)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Piglin)
++ boolean hasHuntedRecently(AbstractPiglin)
++ Boolean lambda$create$0(List)
++ boolean lambda$create$2(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,ServerLevel,Piglin,long)
++ OneShot create()
++ Trigger lambda$create$3(BehaviorBuilder$Instance,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void lambda$create$1(List)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem</summary>
+
+```diff
++ App lambda$create$2(int,int,BehaviorBuilder$Instance)
++ BehaviorControl create(int,int)
+- boolean checkExtraStartConditions(ServerLevel,LivingEntity)
+- boolean checkExtraStartConditions(ServerLevel,Piglin)
++ boolean lambda$create$0(BehaviorBuilder$Instance,MemoryAccessor,int,MemoryAccessor,MemoryAccessor,int,ServerLevel,LivingEntity,long)
++ Trigger lambda$create$1(BehaviorBuilder$Instance,int,int,MemoryAccessor,MemoryAccessor,MemoryAccessor,MemoryAccessor)
++ void <init>()
+- void <init>(int,int)
+- void start(ServerLevel,LivingEntity,long)
+- void start(ServerLevel,Piglin,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.TooltipFlag</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
+
+```diff
+- ItemStack[] lambda$dissolve$2(int)
++ ItemStack[] lambda$getItems$2(int)
+- Stream lambda$dissolve$1(Ingredient$Value)
++ Stream lambda$getItems$1(Ingredient$Value)
+- void dissolve()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
+- BlockEntityType lambda$static$12()
++ BlockEntityType lambda$static$13()
+- boolean lambda$pistonBase$5(BlockState,BlockGetter,BlockPos)
++ boolean lambda$pistonBase$6(BlockState,BlockGetter,BlockPos)
+- boolean lambda$shulkerBox$4(BlockState,BlockGetter,BlockPos)
++ boolean lambda$shulkerBox$5(BlockState,BlockGetter,BlockPos)
+- boolean lambda$static$13(BlockState,BlockGetter,BlockPos)
+- boolean lambda$static$14(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$14(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$15(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$35(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$36(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$37(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$38(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$50(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$51(BlockState,BlockGetter,BlockPos)
++ int lambda$static$12(BlockState)
+- int lambda$static$15(BlockState)
++ int lambda$static$20(BlockState)
+- int lambda$static$24(BlockState)
++ int lambda$static$35(BlockState)
+- int lambda$static$36(BlockState)
++ int lambda$static$37(BlockState)
+- int lambda$static$38(BlockState)
++ int lambda$static$50(BlockState)
+- int lambda$static$51(BlockState)
++ int lambda$static$55(BlockState)
+- int lambda$static$6(BlockState)
+- Item lambda$static$20()
++ Item lambda$static$24()
++ MaterialColor lambda$log$3(MaterialColor,MaterialColor,BlockState)
+- MaterialColor lambda$netherStem$3(MaterialColor,BlockState)
++ MaterialColor lambda$netherStem$4(MaterialColor,BlockState)
++ RotatedPillarBlock log(MaterialColor,MaterialColor,SoundType,FeatureFlag[])
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_block.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_planks.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_block.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_bamboo_block.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_block.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/bamboo_blocks.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/bamboo_blocks.json
++ minecraft/loot_tables/blocks/bamboo_block.json
++ minecraft/loot_tables/blocks/stripped_bamboo_block.json
+- minecraft/tags/items/overworld_natural_logs.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/bamboo_block.json
++ minecraft/blockstates/stripped_bamboo_block.json
++ minecraft/models/block/bamboo_block_x.json
++ minecraft/models/block/bamboo_block_y.json
++ minecraft/models/block/bamboo_block_z.json
++ minecraft/models/block/bamboo_block.json
++ minecraft/models/block/cube_column_uv_locked_x.json
++ minecraft/models/block/cube_column_uv_locked_y.json
++ minecraft/models/block/cube_column_uv_locked_z.json
++ minecraft/models/block/stripped_bamboo_block_x.json
++ minecraft/models/block/stripped_bamboo_block_y.json
++ minecraft/models/block/stripped_bamboo_block_z.json
++ minecraft/models/block/stripped_bamboo_block.json
++ minecraft/models/item/bamboo_block.json
++ minecraft/models/item/stripped_bamboo_block.json
++ minecraft/textures/block/bamboo_block_top.png
++ minecraft/textures/block/bamboo_block.png
++ minecraft/textures/block/stripped_bamboo_block_top.png
++ minecraft/textures/block/stripped_bamboo_block.png
+- minecraft/textures/entity/alex.png
++ minecraft/textures/entity/player/slim/alex.png
++ minecraft/textures/entity/player/slim/ari.png
++ minecraft/textures/entity/player/slim/efe.png
++ minecraft/textures/entity/player/slim/kai.png
++ minecraft/textures/entity/player/slim/makena.png
++ minecraft/textures/entity/player/slim/noor.png
++ minecraft/textures/entity/player/slim/steve.png
++ minecraft/textures/entity/player/slim/sunny.png
++ minecraft/textures/entity/player/slim/zuri.png
++ minecraft/textures/entity/player/wide/alex.png
++ minecraft/textures/entity/player/wide/ari.png
++ minecraft/textures/entity/player/wide/efe.png
++ minecraft/textures/entity/player/wide/kai.png
++ minecraft/textures/entity/player/wide/makena.png
++ minecraft/textures/entity/player/wide/noor.png
++ minecraft/textures/entity/player/wide/steve.png
++ minecraft/textures/entity/player/wide/sunny.png
++ minecraft/textures/entity/player/wide/zuri.png
+- minecraft/textures/entity/steve.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:bamboo_block
++ minecraft:stripped_bamboo_block
+```
+
+</details>
+
+
+<details><summary>command_argument_type.txt</summary>
+
+```diff
++ minecraft:gamemode
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:bamboo_block
++ minecraft:stripped_bamboo_block
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.bamboo_wood_hanging_sign.break
++ minecraft:block.bamboo_wood_hanging_sign.fall
++ minecraft:block.bamboo_wood_hanging_sign.hit
++ minecraft:block.bamboo_wood_hanging_sign.place
++ minecraft:block.bamboo_wood_hanging_sign.step
++ minecraft:block.chiseled_bookshelf.break
++ minecraft:block.chiseled_bookshelf.fall
++ minecraft:block.chiseled_bookshelf.hit
++ minecraft:block.chiseled_bookshelf.insert
++ minecraft:block.chiseled_bookshelf.insert.enchanted
++ minecraft:block.chiseled_bookshelf.pickup
++ minecraft:block.chiseled_bookshelf.pickup.enchanted
++ minecraft:block.chiseled_bookshelf.place
++ minecraft:block.chiseled_bookshelf.step
++ minecraft:block.nether_wood_hanging_sign.break
++ minecraft:block.nether_wood_hanging_sign.fall
++ minecraft:block.nether_wood_hanging_sign.hit
++ minecraft:block.nether_wood_hanging_sign.place
++ minecraft:block.nether_wood_hanging_sign.step
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>defaultgamemode.txt</summary>
+
+```diff
++ defaultgamemode <gamemode: gamemode>
+- defaultgamemode adventure
+- defaultgamemode creative
+- defaultgamemode spectator
+- defaultgamemode survival
+```
+
+</details>
+
+
+<details><summary>gamemode.txt</summary>
+
+```diff
++ gamemode <gamemode: gamemode> <target: entity>
+- gamemode adventure <target: entity>
+- gamemode creative <target: entity>
+- gamemode spectator <target: entity>
+- gamemode survival <target: entity>
+```
+
+</details>
+
+
+<details><summary>publish.txt</summary>
+
+```diff
++ publish <allowCommands: bool> <gamemode: gamemode> <port: integer>
+- publish <port: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- items/overworld_natural_logs.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.gamemode.invalid
++ block.minecraft.bamboo_block
++ block.minecraft.stripped_bamboo_block
++ chat.tag.system_single_player
++ itemGroup.coloredBlocks
++ itemGroup.foodAndDrink
++ itemGroup.ingredients
++ itemGroup.op
++ lanServer.port
++ lanServer.port.invalid
++ lanServer.port.unavailable
++ options.operatorItemsTab
++ subtitles.chiseled_bookshelf.insert
++ subtitles.chiseled_bookshelf.insert_enchanted
++ subtitles.chiseled_bookshelf.take
++ subtitles.chiseled_bookshelf.take_enchanted
++ subtitles.entity.enderman.scream
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/bamboo_block.json
++ blocks/stripped_bamboo_block.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/cherry_leaves/break1.ogg
++ block/cherry_leaves/break2.ogg
++ block/cherry_leaves/break3.ogg
++ block/cherry_leaves/break4.ogg
++ block/cherry_leaves/break5.ogg
++ block/cherry_leaves/step1.ogg
++ block/cherry_leaves/step2.ogg
++ block/cherry_leaves/step3.ogg
++ block/cherry_leaves/step4.ogg
++ block/cherry_leaves/step5.ogg
++ block/cherry_wood_hanging_sign/break1.ogg
++ block/cherry_wood_hanging_sign/break2.ogg
++ block/cherry_wood_hanging_sign/break3.ogg
++ block/cherry_wood_hanging_sign/break4.ogg
++ block/cherry_wood_hanging_sign/step1.ogg
++ block/cherry_wood_hanging_sign/step2.ogg
++ block/cherry_wood_hanging_sign/step3.ogg
++ block/cherry_wood_hanging_sign/step4.ogg
++ block/cherry_wood/break1.ogg
++ block/cherry_wood/break2.ogg
++ block/cherry_wood/break3.ogg
++ block/cherry_wood/break4.ogg
++ block/cherry_wood/break5.ogg
++ block/cherry_wood/step1.ogg
++ block/cherry_wood/step2.ogg
++ block/cherry_wood/step3.ogg
++ block/cherry_wood/step4.ogg
++ block/cherry_wood/step5.ogg
++ block/cherry_wood/step6.ogg
++ block/cherrywood_button/cherrywood_click.ogg
++ block/cherrywood_door/toggle1.ogg
++ block/cherrywood_door/toggle2.ogg
++ block/cherrywood_door/toggle3.ogg
++ block/cherrywood_door/toggle4.ogg
++ block/cherrywood_fence_gate/toggle1.ogg
++ block/cherrywood_fence_gate/toggle2.ogg
++ block/cherrywood_fence_gate/toggle3.ogg
++ block/cherrywood_trapdoor/toggle1.ogg
++ block/cherrywood_trapdoor/toggle2.ogg
++ block/cherrywood_trapdoor/toggle3.ogg
++ block/decorated_pot/break1.ogg
++ block/decorated_pot/break2.ogg
++ block/decorated_pot/break3.ogg
++ block/decorated_pot/break4.ogg
++ block/decorated_pot/shatter1.ogg
++ block/decorated_pot/shatter2.ogg
++ block/decorated_pot/shatter3.ogg
++ block/decorated_pot/shatter4.ogg
++ block/decorated_pot/shatter5.ogg
++ block/decorated_pot/shatter6.ogg
++ block/decorated_pot/step1.ogg
++ block/decorated_pot/step2.ogg
++ block/decorated_pot/step3.ogg
++ block/decorated_pot/step4.ogg
++ block/decorated_pot/step5.ogg
++ block/suspicious_sand/break1.ogg
++ block/suspicious_sand/break2.ogg
++ block/suspicious_sand/break3.ogg
++ block/suspicious_sand/break4.ogg
++ block/suspicious_sand/break5.ogg
++ block/suspicious_sand/break6.ogg
++ block/suspicious_sand/place1.ogg
++ block/suspicious_sand/place2.ogg
++ block/suspicious_sand/place3.ogg
++ block/suspicious_sand/place4.ogg
++ block/suspicious_sand/place5.ogg
++ block/suspicious_sand/step1.ogg
++ block/suspicious_sand/step2.ogg
++ block/suspicious_sand/step3.ogg
++ block/suspicious_sand/step4.ogg
++ block/suspicious_sand/step5.ogg
++ item/brush/brush_completed1.ogg
++ item/brush/brush_completed2.ogg
++ item/brush/brush_completed3.ogg
++ item/brush/brush_completed4.ogg
++ item/brush/brush_completed5.ogg
++ item/brush/brushing1.ogg
++ item/brush/brushing2.ogg
++ item/brush/brushing3.ogg
++ item/brush/brushing4.ogg
++ mob/sniffer/death1.ogg
++ mob/sniffer/death2.ogg
++ mob/sniffer/digging_stop1.ogg
++ mob/sniffer/digging_stop2.ogg
++ mob/sniffer/eat1.ogg
++ mob/sniffer/eat2.ogg
++ mob/sniffer/eat3.ogg
++ mob/sniffer/happy1.ogg
++ mob/sniffer/happy2.ogg
++ mob/sniffer/happy3.ogg
++ mob/sniffer/happy4.ogg
++ mob/sniffer/happy5.ogg
++ mob/sniffer/hurt1.ogg
++ mob/sniffer/hurt2.ogg
++ mob/sniffer/hurt3.ogg
++ mob/sniffer/idle1.ogg
++ mob/sniffer/idle10.ogg
++ mob/sniffer/idle11.ogg
++ mob/sniffer/idle2.ogg
++ mob/sniffer/idle3.ogg
++ mob/sniffer/idle4.ogg
++ mob/sniffer/idle5.ogg
++ mob/sniffer/idle6.ogg
++ mob/sniffer/idle7.ogg
++ mob/sniffer/idle8.ogg
++ mob/sniffer/idle9.ogg
++ mob/sniffer/longdig1.ogg
++ mob/sniffer/longdig2.ogg
++ mob/sniffer/scenting1.ogg
++ mob/sniffer/scenting2.ogg
++ mob/sniffer/scenting3.ogg
++ mob/sniffer/searching1.ogg
++ mob/sniffer/searching2.ogg
++ mob/sniffer/searching3.ogg
++ mob/sniffer/searching4.ogg
++ mob/sniffer/searching5.ogg
++ mob/sniffer/searching6.ogg
++ mob/sniffer/sniffing1.ogg
++ mob/sniffer/sniffing2.ogg
++ mob/sniffer/sniffing3.ogg
++ mob/sniffer/step1.ogg
++ mob/sniffer/step2.ogg
++ mob/sniffer/step3.ogg
++ mob/sniffer/step4.ogg
++ mob/sniffer/step5.ogg
++ mob/sniffer/step6.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
+- items/overworld_natural_logs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/bamboo_block_top.png
++ block/bamboo_block.png
++ block/stripped_bamboo_block_top.png
++ block/stripped_bamboo_block.png
+- entity/alex.png
++ entity/player/slim/alex.png
++ entity/player/slim/ari.png
++ entity/player/slim/efe.png
++ entity/player/slim/kai.png
++ entity/player/slim/makena.png
++ entity/player/slim/noor.png
++ entity/player/slim/steve.png
++ entity/player/slim/sunny.png
++ entity/player/slim/zuri.png
++ entity/player/wide/alex.png
++ entity/player/wide/ari.png
++ entity/player/wide/efe.png
++ entity/player/wide/kai.png
++ entity/player/wide/makena.png
++ entity/player/wide/noor.png
++ entity/player/wide/steve.png
++ entity/player/wide/sunny.png
++ entity/player/wide/zuri.png
+- entity/steve.png
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:gamemode
+```
+
+</details>

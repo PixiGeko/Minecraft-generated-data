@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w20a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w20a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-05-13T15:11:43+00:00</td></tr>
@@ -10,2506 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9a40a5d3760d3bcd5568abb1ec154b2220487551/server.txt">https://piston-data.mojang.com/v1/objects/9a40a5d3760d3bcd5568abb1ec154b2220487551/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/2b171fb288bfd9c845f99015cbccf1d38bdaef65/client.jar">https://piston-data.mojang.com/v1/objects/2b171fb288bfd9c845f99015cbccf1d38bdaef65/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/cad8997307226fc77c2ed972f424a734bddb8014/client.txt">https://piston-data.mojang.com/v1/objects/cad8997307226fc77c2ed972f424a734bddb8014/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w19a">20w19a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/nether/charge_respawn_anchor.json
-+  minecraft/advancements/nether/distract_piglin.json
-+  minecraft/advancements/nether/explore_nether.json
-+  minecraft/advancements/nether/find_bastion.json
-+  minecraft/advancements/nether/loot_bastion.json
-+  minecraft/advancements/nether/netherite_armor.json
-+  minecraft/advancements/nether/obtain_ancient_debris.json
-+  minecraft/advancements/nether/obtain_crying_obsidian.json
-+  minecraft/advancements/nether/ride_strider.json
-+  minecraft/advancements/nether/use_lodestone.json
-+  minecraft/tags/items/piglin_loved.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/textures/gui/container/gamemode_switcher.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- chunk_generator_type.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ items/piglin_loved.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ nether/charge_respawn_anchor.json
-+ nether/distract_piglin.json
-+ nether/explore_nether.json
-+ nether/find_bastion.json
-+ nether/loot_bastion.json
-+ nether/netherite_armor.json
-+ nether/obtain_ancient_debris.json
-+ nether/obtain_crying_obsidian.json
-+ nether/ride_strider.json
-+ nether/use_lodestone.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ items/piglin_loved.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/container/gamemode_switcher.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriteriaTriggers</summary>
-
-```diff
-+ ItemPickedUpByEntityTrigger ITEM_PICKED_UP_BY_ENTITY
-+ ItemUsedOnBlockTrigger ITEM_USED_ON_BLOCK
-+ LootTableTrigger GENERATE_LOOT
-- ItemUsedOnBlockTrigger SAFELY_HARVEST_HONEY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
-
-```diff
-+ EntityPredicate targetedEntity
-+ EntityPredicate vehicle
-+ void <init>(EntityPredicate$1)
-+ void <init>(ResourceLocation)
-- void <init>(EntityPredicate$1)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
-
-```diff
-+ EntityPredicate targetedEntity
-+ EntityPredicate vehicle
-+ EntityPredicate$Builder targetedEntity(EntityPredicate)
-+ EntityPredicate$Builder vehicle(EntityPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
-
-```diff
-+ InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
-+ InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
-- InventoryChangeTrigger$TriggerInstance hasItem(ItemLike[])
-- InventoryChangeTrigger$TriggerInstance hasItem(ItemPredicate[])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
-
-```diff
-+ ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.ItemUsedOnBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ LocationPredicate location
-- BlockPredicate block
-- StatePropertiesPredicate state
-+ ItemUsedOnBlockTrigger$TriggerInstance itemUsedOnBlock(ItemPredicate$Builder)
-+ void <init>(ItemPredicate)
-- ItemUsedOnBlockTrigger$TriggerInstance safelyHarvestedHoney(ItemPredicate$Builder)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
-
-```diff
-+ Boolean smokey
-+ void <init>(FluidPredicate)
-- void <init>(FluidPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
-
-```diff
-+ Consumer applySettings
-+ Screen parent
-+ WorldGenSettings$BuffetGeneratorType[] TYPES
-- CompoundTag optionsTag
-- CreateWorldScreen parent
-- List GENERATORS
-+ boolean lambda$new$0(CreateBuffetWorldScreen$BiomeList$Entry)
-+ void <init>(Pair)
-- boolean lambda$loadOptions$4(CreateBuffetWorldScreen$BiomeList$Entry)
-- boolean lambda$static$0(ResourceLocation)
-- Component createGeneratorString(int)
-- CompoundTag saveOptions()
-- void <init>(ChunkGeneratorProvider)
-- void loadOptions()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
-
-```diff
-+ String lambda$new$0(Biome)
-+ void lambda$new$1(Biome)
-- String lambda$new$0(ResourceLocation)
-- void lambda$new$1(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
-
-```diff
-+ Consumer applySettings
-+ Screen parent
-- CreateWorldScreen parent
-+ void <init>(FlatLevelGeneratorSettings)
-- void <init>(ChunkGeneratorProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$5</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$client$gui$screens$worldselection$CreateWorldScreen$SelectedGameMode
-- CreateWorldScreen this$0
-+ void <clinit>()
-- Component getMessage()
-- MutableComponent createNarrationMessage()
-- void <init>(Button$OnPress)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ListModel</summary>
-
-```diff
-+ void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-+ ClientChunkCache chunkSource
-+ DimensionSpecialEffects effects
-+ ClientLevel$ClientLevelData getLevelData()
-+ DimensionSpecialEffects effects()
-+ int lambda$getBlockTint$8(ColorResolver)
-+ LevelData getLevelData()
-+ String lambda$fillReportDetails$6()
-+ String lambda$tickNonPassenger$2(Entity)
-+ void <init>(LevelRenderer,boolean,long)
-+ void lambda$clearTintCaches$4(BlockTintCache)
-+ void lambda$doAnimateTick$5(AmbientParticleSettings)
-+ void lambda$onChunkLoaded$3(BlockTintCache)
-+ void lambda$tickEntities$1(Entity)
-- ChunkSource lambda$new$1(Dimension)
-- double getHorizonHeight()
-- int lambda$getBlockTint$9(ColorResolver)
-- String lambda$fillReportDetails$8()
-- String lambda$tickNonPassenger$3(Entity)
-- void <init>(LevelRenderer)
-- void lambda$clearTintCaches$5(BlockTintCache)
-- void lambda$doAnimateTick$6(AmbientParticleSettings)
-- void lambda$onChunkLoaded$4(BlockTintCache)
-- void lambda$tickEntities$2(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel$ClientLevelData</summary>
-
-```diff
-+ boolean isFlat
-- ChunkGeneratorProvider generatorProvider
-- long seed
-+ double getClearColorScale()
-+ double getHorizonHeight()
-+ void <init>(Difficulty,boolean,boolean)
-- ChunkGeneratorProvider getGeneratorProvider()
-- LevelType getGeneratorType()
-- long getSeed()
-- void <init>(ChunkGeneratorProvider)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.MultiPlayerGameMode</summary>
-
-```diff
-+ GameType prevLocalPlayerMode
-+ GameType getPrevPlayerMode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.FogRenderer</summary>
-
-```diff
-+ Vec3 lambda$setupColor$0(BiomeManager,float,int,int,int)
-- Vec3 lambda$setupColor$0(BiomeManager,float,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ RenderType entityCutoutNoCullZOffset(ResourceLocation,boolean)
-+ RenderType entityCutoutNoCullZOffset(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
-
-```diff
-- void scale(PoseStack,float)
-- void scale(PoseStack,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-- Registry CHUNK_GENERATOR_TYPE
-+ Activity lambda$static$43()
-+ Attribute lambda$static$35()
-+ ChunkStatus lambda$static$25()
-+ DimensionType lambda$static$22()
-+ MemoryModuleType lambda$static$40()
-+ MenuType lambda$static$32()
-+ Motive lambda$static$23()
-+ PoiType lambda$static$39()
-+ PosRuleTestType lambda$static$29()
-+ RecipeSerializer lambda$static$34()
-+ RecipeType lambda$static$33()
-+ ResourceLocation lambda$static$24()
-+ RuleTestType lambda$static$28()
-+ Schedule lambda$static$42()
-+ SensorType lambda$static$41()
-+ StatType lambda$static$36()
-+ StructureFeature lambda$static$26()
-+ StructurePieceType lambda$static$27()
-+ StructurePoolElementType lambda$static$31()
-+ StructureProcessorType lambda$static$30()
-+ VillagerProfession lambda$static$38()
-+ VillagerType lambda$static$37()
-+ void lambda$static$44(Map$Entry)
-+ void lambda$static$45(WritableRegistry)
-- Activity lambda$static$44()
-- Attribute lambda$static$36()
-- ChunkGeneratorType lambda$static$22()
-- ChunkStatus lambda$static$26()
-- DimensionType lambda$static$23()
-- MemoryModuleType lambda$static$41()
-- MenuType lambda$static$33()
-- Motive lambda$static$24()
-- PoiType lambda$static$40()
-- PosRuleTestType lambda$static$30()
-- RecipeSerializer lambda$static$35()
-- RecipeType lambda$static$34()
-- ResourceLocation lambda$static$25()
-- RuleTestType lambda$static$29()
-- Schedule lambda$static$43()
-- SensorType lambda$static$42()
-- StatType lambda$static$37()
-- StructureFeature lambda$static$27()
-- StructurePieceType lambda$static$28()
-- StructurePoolElementType lambda$static$32()
-- StructureProcessorType lambda$static$31()
-- VillagerProfession lambda$static$39()
-- VillagerType lambda$static$38()
-- void lambda$static$45(Map$Entry)
-- void lambda$static$46(WritableRegistry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
-
-```diff
-+ Advancement$Builder addBiomes(Biome[])
-- Advancement$Builder addBiomes(Advancement$Builder)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.NetherAdvancements</summary>
-
-```diff
-+ Biome[] EXPLORABLE_BIOMES
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
-
-```diff
-+ Path dumpSnbtTo
-```
-
-</details>
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
-
-```diff
-+ String snbtPayload
-+ byte[] access$300(SnbtToNbt$TaskResult)
-+ String access$200(SnbtToNbt$TaskResult)
-+ void <init>(String)
-- byte[] access$200(SnbtToNbt$TaskResult)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
-```diff
-- SpawnGroupData finalizeSpawn(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-- Set LOVED_ITEMS_IN_ADDITION_TO_GOLD_TIER_AND_GOLD_MATERIAL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelAccessor</summary>
-
-```diff
-- long getSeed()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.LevelSettings</summary>
-
-```diff
-+ WorldGenSettings worldGenSettings
-- boolean generateMapFeatures
-- boolean startingBonusItems
-- ChunkGeneratorProvider generatorProvider
-- long seed
-+ void <init>(WorldGenSettings)
-+ WorldGenSettings worldGenSettings()
-- boolean hasStartingBonusItems()
-- boolean shouldGenerateMapFeatures()
-- ChunkGeneratorProvider getGeneratorProvider()
-- LevelSettings enableSinglePlayerCommands()
-- LevelSettings enableStartingBonusItems()
-- long getSeed()
-- void <init>(ChunkGeneratorProvider)
-- void <init>(GameRules)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ void generate(BlockPos)
-- void generate(BlockPos)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
-
-```diff
-+ long obfuscateSeed(long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ BiomeSource withSeed(long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ BiomeSource withSeed(long)
-+ void <init>(Biome)
-- void <init>(FixedBiomeSourceSettings)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.biome.OverworldBiomeSource</summary>
-
-```diff
-+ boolean legacyBiomeInitLayer
-+ int biomeSize
-+ BiomeSource withSeed(long)
-+ void <init>(long,boolean,int)
-- void <init>(OverworldBiomeSourceSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
-
-```diff
-+ boolean isSmokeyPos(BlockPos)
-- boolean isSmokeyPos(BlockPos,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
-
-```diff
-+ Map unpackStructureStart(CompoundTag,long)
-- Map unpackStructureStart(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.Dimension</summary>
-
-```diff
-+ BlockPos getSpawnPosInChunk(long,net.minecraft.world.level.ChunkPos,boolean)
-+ BlockPos getValidSpawnPosition(long,int,int,boolean)
-- BlockPos getSpawnPosInChunk(net.minecraft.world.level.ChunkPos,boolean)
-- BlockPos getValidSpawnPosition(int,int,boolean)
-- boolean hasCeiling
-- boolean isFoggyAt(int,int)
-- boolean ultraWarm
-- ChunkGenerator createRandomLevelGenerator()
-- float[] sunriseCol
-- Vec3 getBrightnessDependentFogColor(net.minecraft.world.phys.Vec3,float)
-- boolean hasGround()
-- boolean isHasCeiling()
-- boolean isHasSkyLight()
-- boolean isUltraWarm()
-- double getClearColorScale()
-- float getCloudHeight()
-- float[] getSunriseColor(float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
-
-```diff
-+ BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-+ BlockPos getValidSpawnPosition(long,int,int,boolean)
-- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-- BlockPos getValidSpawnPosition(int,int,boolean)
-- boolean isFoggyAt(int,int)
-- ChunkGenerator createRandomLevelGenerator()
-- Vec3 getBrightnessDependentFogColor(Vec3,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
-
-```diff
-+ BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-+ BlockPos getValidSpawnPosition(long,int,int,boolean)
-- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-- BlockPos getValidSpawnPosition(int,int,boolean)
-- boolean isFoggyAt(int,int)
-- ChunkGenerator createRandomLevelGenerator()
-- Vec3 getBrightnessDependentFogColor(Vec3,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
-
-```diff
-+ BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-+ BlockPos getValidSpawnPosition(long,int,int,boolean)
-- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
-- BlockPos getValidSpawnPosition(int,int,boolean)
-- boolean hasGround()
-- boolean isFoggyAt(int,int)
-- ChunkGenerator createRandomLevelGenerator()
-- float getCloudHeight()
-- float[] getSunriseColor(float,float)
-- Vec3 getBrightnessDependentFogColor(Vec3,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ ChunkGenerator INSTANCE
-+ ChunkGenerator withSeed(long)
-+ void <init>()
-+ void applyCarvers(GenerationStep$Carving)
-- int getSpawnHeight()
-- void <init>(DebugGeneratorSettings)
-- void applyCarvers(GenerationStep$Carving)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NetherLevelSource</summary>
-
-```diff
-+ NetherGeneratorSettings settings
-+ ChunkGenerator withSeed(long)
-+ List getMobsAt(BlockPos)
-+ void <init>(NetherGeneratorSettings)
-- int getSpawnHeight()
-- List getMobsAt(BlockPos)
-- void <init>(NetherGeneratorSettings)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.ItemPickedUpByEntityTrigger$TriggerInstance
@@ -4346,76 +1868,21 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriteriaTriggers</summary>
-
-```diff
-+ ItemPickedUpByEntityTrigger ITEM_PICKED_UP_BY_ENTITY
-+ ItemUsedOnBlockTrigger ITEM_USED_ON_BLOCK
-+ LootTableTrigger GENERATE_LOOT
-- ItemUsedOnBlockTrigger SAFELY_HARVEST_HONEY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
 
 ```diff
-+ EntityPredicate targetedEntity
-+ EntityPredicate vehicle
-+ void <init>(EntityPredicate$1)
-+ void <init>(ResourceLocation)
-- void <init>(EntityPredicate$1)
-- void <init>(ResourceLocation)
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,EntityPredicate,EntityPredicate,String,ResourceLocation,EntityPredicate$1)
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,EntityPredicate,EntityPredicate,String,ResourceLocation)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,String,ResourceLocation,EntityPredicate$1)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,String,ResourceLocation)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
 
 ```diff
-+ EntityPredicate targetedEntity
-+ EntityPredicate vehicle
 + EntityPredicate$Builder targetedEntity(EntityPredicate)
 + EntityPredicate$Builder vehicle(EntityPredicate)
 ```
@@ -4423,27 +1890,22 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
 
 ```diff
-+ InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
-+ InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
 - InventoryChangeTrigger$TriggerInstance hasItem(ItemLike[])
 - InventoryChangeTrigger$TriggerInstance hasItem(ItemPredicate[])
++ InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
++ InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
 
 ```diff
-+ ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
++ ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)
 ```
 
 </details>
@@ -4452,1287 +1914,441 @@
 <details><summary>net.minecraft.advancements.critereon.ItemUsedOnBlockTrigger$TriggerInstance</summary>
 
 ```diff
-+ LocationPredicate location
-- BlockPredicate block
-- StatePropertiesPredicate state
-+ ItemUsedOnBlockTrigger$TriggerInstance itemUsedOnBlock(ItemPredicate$Builder)
-+ void <init>(ItemPredicate)
-- ItemUsedOnBlockTrigger$TriggerInstance safelyHarvestedHoney(ItemPredicate$Builder)
-- void <init>(ItemPredicate)
++ ItemUsedOnBlockTrigger$TriggerInstance itemUsedOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
+- ItemUsedOnBlockTrigger$TriggerInstance safelyHarvestedHoney(BlockPredicate$Builder,ItemPredicate$Builder)
++ void <init>(EntityPredicate$Composite,LocationPredicate,ItemPredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite,BlockPredicate,StatePropertiesPredicate,ItemPredicate)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
 
 ```diff
-+ Boolean smokey
-+ void <init>(FluidPredicate)
-- void <init>(FluidPredicate)
++ void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,LightPredicate,BlockPredicate,FluidPredicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
 
 ```diff
-+ Logger LOGGER
-+ CompoundTag updateStructure(CompoundTag)
+- boolean lambda$loadOptions$4(ResourceLocation,CreateBuffetWorldScreen$BiomeList$Entry)
++ boolean lambda$new$0(Biome,CreateBuffetWorldScreen$BiomeList$Entry)
+- boolean lambda$static$0(ResourceLocation)
+- Component createGeneratorString(int)
+- CompoundTag saveOptions()
+- void <init>(CreateWorldScreen,ChunkGeneratorProvider)
++ void <init>(Screen,Consumer,Pair)
+- void loadOptions()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
+
+```diff
++ String lambda$new$0(Biome)
+- String lambda$new$0(ResourceLocation)
++ void lambda$new$1(Biome)
+- void lambda$new$1(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
+
+```diff
+- void <init>(CreateWorldScreen,ChunkGeneratorProvider)
++ void <init>(Screen,Consumer,FlatLevelGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$5</summary>
+
+```diff
+- Component getMessage()
+- MutableComponent createNarrationMessage()
 + void <clinit>()
-- CompoundTag updateStructure(CompoundTag)
+- void <init>(CreateWorldScreen,int,int,int,int,Component,Button$OnPress)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
+<details><summary>net.minecraft.client.model.ListModel</summary>
 
 ```diff
-+ void onItemPickup(ItemEntity)
++ void <init>(Function)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raids</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
 
 ```diff
-+ String getFileId(DimensionType)
-- String getFileId(Dimension)
+- ChunkSource lambda$new$1(int,Level,Dimension)
++ ClientLevel$ClientLevelData getLevelData()
++ DimensionSpecialEffects effects()
+- double getHorizonHeight()
++ int lambda$getBlockTint$8(BlockPos,ColorResolver)
+- int lambda$getBlockTint$9(BlockPos,ColorResolver)
++ LevelData getLevelData()
++ String lambda$fillReportDetails$6()
+- String lambda$fillReportDetails$8()
++ String lambda$tickNonPassenger$2(Entity)
+- String lambda$tickNonPassenger$3(Entity)
++ void <init>(ClientPacketListener,ClientLevel$ClientLevelData,DimensionType,int,Supplier,LevelRenderer,boolean,long)
+- void <init>(ClientPacketListener,ClientLevel$ClientLevelData,DimensionType,int,Supplier,LevelRenderer)
++ void lambda$clearTintCaches$4(ColorResolver,BlockTintCache)
+- void lambda$clearTintCaches$5(ColorResolver,BlockTintCache)
++ void lambda$doAnimateTick$5(BlockPos$MutableBlockPos,AmbientParticleSettings)
+- void lambda$doAnimateTick$6(BlockPos$MutableBlockPos,AmbientParticleSettings)
++ void lambda$onChunkLoaded$3(int,int,ColorResolver,BlockTintCache)
+- void lambda$onChunkLoaded$4(int,int,ColorResolver,BlockTintCache)
++ void lambda$tickEntities$1(Entity)
+- void lambda$tickEntities$2(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientLevel$ClientLevelData</summary>
 
 ```diff
-+ boolean isDebug
-- ChunkSource chunkSource
-+ boolean isDebug()
-+ DimensionType dimensionType()
-+ void <init>(Supplier,boolean,boolean,long)
-- ChunkSource getChunkSource()
+- ChunkGeneratorProvider getGeneratorProvider()
++ double getClearColorScale()
++ double getHorizonHeight()
 - LevelType getGeneratorType()
 - long getSeed()
-- void <init>(Supplier,boolean)
++ void <init>(Difficulty,boolean,boolean)
+- void <init>(long,Difficulty,boolean,ChunkGeneratorProvider)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.LevelReader</summary>
+
+<details><summary>net.minecraft.client.multiplayer.MultiPlayerGameMode</summary>
 
 ```diff
-+ DimensionType dimensionType()
++ GameType getPrevPlayerMode()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.renderer.FogRenderer</summary>
+
+```diff
++ Vec3 lambda$setupColor$0(ClientLevel,BiomeManager,float,int,int,int)
+- Vec3 lambda$setupColor$0(Dimension,BiomeManager,float,int,int,int)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
+
+```diff
++ RenderType entityCutoutNoCullZOffset(ResourceLocation,boolean)
++ RenderType entityCutoutNoCullZOffset(ResourceLocation)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
+
+```diff
+- void scale(LivingEntity,PoseStack,float)
+- void scale(Shulker,PoseStack,float)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
++ Activity lambda$static$43()
+- Activity lambda$static$44()
++ Attribute lambda$static$35()
+- Attribute lambda$static$36()
+- ChunkGeneratorType lambda$static$22()
++ ChunkStatus lambda$static$25()
+- ChunkStatus lambda$static$26()
++ DimensionType lambda$static$22()
+- DimensionType lambda$static$23()
++ MemoryModuleType lambda$static$40()
+- MemoryModuleType lambda$static$41()
++ MenuType lambda$static$32()
+- MenuType lambda$static$33()
++ Motive lambda$static$23()
+- Motive lambda$static$24()
++ PoiType lambda$static$39()
+- PoiType lambda$static$40()
++ PosRuleTestType lambda$static$29()
+- PosRuleTestType lambda$static$30()
++ RecipeSerializer lambda$static$34()
+- RecipeSerializer lambda$static$35()
++ RecipeType lambda$static$33()
+- RecipeType lambda$static$34()
++ ResourceLocation lambda$static$24()
+- ResourceLocation lambda$static$25()
++ RuleTestType lambda$static$28()
+- RuleTestType lambda$static$29()
++ Schedule lambda$static$42()
+- Schedule lambda$static$43()
++ SensorType lambda$static$41()
+- SensorType lambda$static$42()
++ StatType lambda$static$36()
+- StatType lambda$static$37()
++ StructureFeature lambda$static$26()
+- StructureFeature lambda$static$27()
++ StructurePieceType lambda$static$27()
+- StructurePieceType lambda$static$28()
++ StructurePoolElementType lambda$static$31()
+- StructurePoolElementType lambda$static$32()
++ StructureProcessorType lambda$static$30()
+- StructureProcessorType lambda$static$31()
++ VillagerProfession lambda$static$38()
+- VillagerProfession lambda$static$39()
++ VillagerType lambda$static$37()
+- VillagerType lambda$static$38()
++ void lambda$static$44(Map$Entry)
+- void lambda$static$45(Map$Entry)
++ void lambda$static$45(WritableRegistry)
+- void lambda$static$46(WritableRegistry)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+
+```diff
++ Advancement$Builder addBiomes(Advancement$Builder,Biome[])
+- Advancement$Builder addBiomes(Advancement$Builder)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.advancements.NetherAdvancements</summary>
 
-<details><summary>net.minecraft.world.level.biome.CheckerboardColumnBiomeSource</summary>
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
+
+```diff
+- byte[] access$200(SnbtToNbt$TaskResult)
++ byte[] access$300(SnbtToNbt$TaskResult)
++ String access$200(SnbtToNbt$TaskResult)
++ void <init>(String,byte[],String,String)
+- void <init>(String,byte[],String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
+
+```diff
+- SpawnGroupData finalizeSpawn(LevelAccessor,DifficultyInstance,MobSpawnType,SpawnGroupData,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelSettings</summary>
+
+```diff
+- boolean hasStartingBonusItems()
+- boolean shouldGenerateMapFeatures()
+- ChunkGeneratorProvider getGeneratorProvider()
+- LevelSettings enableSinglePlayerCommands()
+- LevelSettings enableStartingBonusItems()
+- long getSeed()
++ void <init>(String,GameType,boolean,Difficulty,boolean,GameRules,WorldGenSettings)
+- void <init>(String,long,GameType,boolean,boolean,Difficulty,ChunkGeneratorProvider,GameRules)
+- void <init>(String,long,GameType,boolean,boolean,Difficulty,ChunkGeneratorProvider)
++ WorldGenSettings worldGenSettings()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
+- void generate(GenerationStep$Decoration,StructureFeatureManager,ChunkGenerator,LevelAccessor,long,WorldgenRandom,BlockPos)
++ void generate(GenerationStep$Decoration,StructureFeatureManager,ChunkGenerator,WorldGenLevel,long,WorldgenRandom,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+
+```diff
++ long obfuscateSeed(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
 
 ```diff
 + BiomeSource withSeed(long)
-+ void <init>(Biome[],int)
-- void <init>(CheckerboardBiomeSourceSettings)
++ void <init>(Biome)
+- void <init>(FixedBiomeSourceSettings)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.biome.OverworldBiomeSource</summary>
 
+```diff
++ BiomeSource withSeed(long)
++ void <init>(long,boolean,int)
+- void <init>(OverworldBiomeSourceSettings)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
 
+```diff
+- boolean isSmokeyPos(Level,BlockPos,int)
++ boolean isSmokeyPos(Level,BlockPos)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
 
+```diff
+- Map unpackStructureStart(ChunkGenerator,StructureManager,CompoundTag)
++ Map unpackStructureStart(StructureManager,CompoundTag,long)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.dimension.Dimension</summary>
 
+```diff
+- boolean hasGround()
+- boolean isHasCeiling()
+- boolean isHasSkyLight()
+- boolean isUltraWarm()
+- double getClearColorScale()
+- float getCloudHeight()
+- float[] getSunriseColor(float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
 
+```diff
+- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
++ BlockPos getSpawnPosInChunk(long,ChunkPos,boolean)
+- BlockPos getValidSpawnPosition(int,int,boolean)
++ BlockPos getValidSpawnPosition(long,int,int,boolean)
+- boolean isFoggyAt(int,int)
+- ChunkGenerator createRandomLevelGenerator()
+- Vec3 getBrightnessDependentFogColor(Vec3,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
 
+```diff
+- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
++ BlockPos getSpawnPosInChunk(long,ChunkPos,boolean)
+- BlockPos getValidSpawnPosition(int,int,boolean)
++ BlockPos getValidSpawnPosition(long,int,int,boolean)
+- boolean isFoggyAt(int,int)
+- ChunkGenerator createRandomLevelGenerator()
+- Vec3 getBrightnessDependentFogColor(Vec3,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
 
+```diff
+- BlockPos getSpawnPosInChunk(ChunkPos,boolean)
++ BlockPos getSpawnPosInChunk(long,ChunkPos,boolean)
+- BlockPos getValidSpawnPosition(int,int,boolean)
++ BlockPos getValidSpawnPosition(long,int,int,boolean)
+- boolean hasGround()
+- boolean isFoggyAt(int,int)
+- ChunkGenerator createRandomLevelGenerator()
+- float getCloudHeight()
+- float[] getSunriseColor(float,float)
+- Vec3 getBrightnessDependentFogColor(Vec3,float)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
 
 ```diff
 + ChunkGenerator withSeed(long)
 - int getSpawnHeight()
-- LevelAccessor level
-- long seed
-+ int getSpawnHeight()
-+ List getMobsAt(BlockPos)
-+ void <init>(ChunkGeneratorSettings)
-+ void applyCarvers(GenerationStep$Carving)
-+ void createStructures(StructureManager,long)
-- DimensionType getDimensionType()
-- List getMobsAt(BlockPos)
-- long getSeed()
-- void <init>(ChunkGeneratorSettings)
-- void applyCarvers(GenerationStep$Carving)
-- void createStructures(StructureManager)
++ void <init>()
+- void <init>(LevelAccessor,BiomeSource,DebugGeneratorSettings)
+- void applyCarvers(BiomeManager,ChunkAccess,GenerationStep$Carving)
++ void applyCarvers(long,BiomeManager,ChunkAccess,GenerationStep$Carving)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+<details><summary>net.minecraft.world.level.levelgen.NetherLevelSource</summary>
 
 ```diff
-+ boolean hasCeiling
-+ boolean ultraWarm
-+ boolean hasCeiling()
-+ boolean ultraWarm()
-+ void <init>(BiomeZoomer)
-- void <init>(BiomeZoomer)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.EndDragonFight</summary>
-
-```diff
-+ boolean populateGateways
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ FlatLevelGeneratorSettings settings
-+ BlockState lambda$getBaseColumn$0(BlockState)
-+ BlockState[] lambda$getBaseColumn$1(int)
 + ChunkGenerator withSeed(long)
-+ void <init>(FlatLevelGeneratorSettings)
-- void <init>(FlatLevelGeneratorSettings)
+- int getSpawnHeight()
++ List getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
+- List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
++ void <init>(BiomeSource,long,NetherGeneratorSettings)
+- void <init>(LevelAccessor,BiomeSource,NetherGeneratorSettings)
 ```
 
 </details>
 
 
+### Server
 
 
-<details><summary>net.minecraft.world.level.levelgen.NetherGeneratorSettings</summary>
 
-```diff
-+ void <init>(ChunkGeneratorSettings)
-- void <init>()
-```
 
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ int bedrockFloorPosition
-+ int bedrockRoofPosition
-+ void <init>(NoiseGeneratorSettings,int,int,int,boolean)
-- void <init>(ChunkGeneratorSettings,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.TheEndLevelSource</summary>
-
-```diff
-+ NoiseGeneratorSettings settings
-- BlockPos dimensionSpawnPosition
-+ ChunkGenerator withSeed(long)
-+ void <init>(NoiseGeneratorSettings)
-- BlockPos getDimensionSpawnPosition()
-- void <init>(TheEndGeneratorSettings)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.ItemPickedUpByEntityTrigger$TriggerInstance
@@ -7534,13 +4150,327 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
+
+```diff
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,EntityPredicate,EntityPredicate,String,ResourceLocation,EntityPredicate$1)
++ void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,EntityPredicate,EntityPredicate,String,ResourceLocation)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,String,ResourceLocation,EntityPredicate$1)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,PlayerPredicate,FishingHookPredicate,String,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
+
+```diff
++ EntityPredicate$Builder targetedEntity(EntityPredicate)
++ EntityPredicate$Builder vehicle(EntityPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
+
+```diff
+- InventoryChangeTrigger$TriggerInstance hasItem(ItemLike[])
+- InventoryChangeTrigger$TriggerInstance hasItem(ItemPredicate[])
++ InventoryChangeTrigger$TriggerInstance hasItems(ItemLike[])
++ InventoryChangeTrigger$TriggerInstance hasItems(ItemPredicate[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
+
+```diff
++ ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemUsedOnBlockTrigger$TriggerInstance</summary>
+
+```diff
++ ItemUsedOnBlockTrigger$TriggerInstance itemUsedOnBlock(LocationPredicate$Builder,ItemPredicate$Builder)
+- ItemUsedOnBlockTrigger$TriggerInstance safelyHarvestedHoney(BlockPredicate$Builder,ItemPredicate$Builder)
++ void <init>(EntityPredicate$Composite,LocationPredicate,ItemPredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite,BlockPredicate,StatePropertiesPredicate,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
+
+```diff
++ void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
+- void <init>(MinMaxBounds$Floats,MinMaxBounds$Floats,MinMaxBounds$Floats,Biome,StructureFeature,DimensionType,LightPredicate,BlockPredicate,FluidPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
+
+```diff
+- CompoundTag updateStructure(CompoundTag)
++ CompoundTag updateStructure(String,CompoundTag)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ void onItemPickup(ItemEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.raid.Raids</summary>
+
+```diff
+- String getFileId(Dimension)
++ String getFileId(DimensionType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
++ boolean isDebug()
+- ChunkSource getChunkSource()
++ DimensionType dimensionType()
+- LevelType getGeneratorType()
+- long getSeed()
+- void <init>(WritableLevelData,DimensionType,BiFunction,Supplier,boolean)
++ void <init>(WritableLevelData,DimensionType,Supplier,boolean,boolean,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.CheckerboardColumnBiomeSource</summary>
+
+```diff
++ BiomeSource withSeed(long)
++ void <init>(Biome[],int)
+- void <init>(CheckerboardBiomeSourceSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
+- DimensionType getDimensionType()
++ int getSpawnHeight()
++ List getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
+- List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
+- long getSeed()
++ void <init>(BiomeSource,ChunkGeneratorSettings)
+- void <init>(LevelAccessor,BiomeSource,ChunkGeneratorSettings)
+- void applyCarvers(BiomeManager,ChunkAccess,GenerationStep$Carving)
++ void applyCarvers(long,BiomeManager,ChunkAccess,GenerationStep$Carving)
++ void createStructures(StructureFeatureManager,BiomeManager,ChunkAccess,ChunkGenerator,StructureManager,long)
+- void createStructures(StructureFeatureManager,BiomeManager,ChunkAccess,ChunkGenerator,StructureManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+
+```diff
++ boolean hasCeiling()
++ boolean ultraWarm()
+- void <init>(int,String,String,BiFunction,boolean,BiomeZoomer)
++ void <init>(int,String,String,BiFunction,boolean,boolean,boolean,BiomeZoomer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
++ BlockState lambda$getBaseColumn$0(BlockState)
++ BlockState[] lambda$getBaseColumn$1(int)
++ ChunkGenerator withSeed(long)
++ void <init>(FlatLevelGeneratorSettings)
+- void <init>(LevelAccessor,BiomeSource,FlatLevelGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NetherGeneratorSettings</summary>
+
+```diff
+- void <init>()
++ void <init>(ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
++ void <init>(BiomeSource,long,NoiseGeneratorSettings,int,int,int,boolean)
+- void <init>(LevelAccessor,BiomeSource,int,int,int,ChunkGeneratorSettings,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.TheEndLevelSource</summary>
+
+```diff
+- BlockPos getDimensionSpawnPosition()
++ ChunkGenerator withSeed(long)
++ void <init>(BiomeSource,long,NoiseGeneratorSettings)
+- void <init>(LevelAccessor,BiomeSource,TheEndGeneratorSettings)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/nether/charge_respawn_anchor.json
++ minecraft/advancements/nether/distract_piglin.json
++ minecraft/advancements/nether/explore_nether.json
++ minecraft/advancements/nether/find_bastion.json
++ minecraft/advancements/nether/loot_bastion.json
++ minecraft/advancements/nether/netherite_armor.json
++ minecraft/advancements/nether/obtain_ancient_debris.json
++ minecraft/advancements/nether/obtain_crying_obsidian.json
++ minecraft/advancements/nether/ride_strider.json
++ minecraft/advancements/nether/use_lodestone.json
++ minecraft/tags/items/piglin_loved.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/textures/gui/container/gamemode_switcher.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- chunk_generator_type.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ items/piglin_loved.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- advancements.husbandry.break_diamond_hoe.description
+- advancements.husbandry.break_diamond_hoe.title
++ advancements.husbandry.netherite_hoe.description
++ advancements.husbandry.netherite_hoe.title
++ advancements.nether.charge_respawn_anchor.description
++ advancements.nether.charge_respawn_anchor.title
++ advancements.nether.distract_piglin.description
++ advancements.nether.distract_piglin.title
++ advancements.nether.explore_nether.description
++ advancements.nether.explore_nether.title
++ advancements.nether.find_bastion.description
++ advancements.nether.find_bastion.title
++ advancements.nether.loot_bastion.description
++ advancements.nether.loot_bastion.title
++ advancements.nether.netherite_armor.description
++ advancements.nether.netherite_armor.title
++ advancements.nether.obtain_ancient_debris.description
++ advancements.nether.obtain_ancient_debris.title
++ advancements.nether.obtain_crying_obsidian.description
++ advancements.nether.obtain_crying_obsidian.title
++ advancements.nether.ride_strider.description
++ advancements.nether.ride_strider.title
++ advancements.nether.use_lodestone.description
++ advancements.nether.use_lodestone.title
++ debug.gamemodes.error
++ debug.gamemodes.help
++ debug.gamemodes.press_f4
++ debug.gamemodes.select_next
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ nether/charge_respawn_anchor.json
++ nether/distract_piglin.json
++ nether/explore_nether.json
++ nether/find_bastion.json
++ nether/loot_bastion.json
++ nether/netherite_armor.json
++ nether/obtain_ancient_debris.json
++ nether/obtain_crying_obsidian.json
++ nether/ride_strider.json
++ nether/use_lodestone.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ items/piglin_loved.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/container/gamemode_switcher.png
+```
+
+</details>

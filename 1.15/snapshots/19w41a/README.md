@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w41a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w41a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-10-09T15:21:35+00:00</td></tr>
@@ -10,2036 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5bf656432e5033621655f58059494103136fe254/server.txt">https://piston-data.mojang.com/v1/objects/5bf656432e5033621655f58059494103136fe254/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/e009395464a1e2f4c8c760fc08de73c91e5a03ee/client.jar">https://piston-data.mojang.com/v1/objects/e009395464a1e2f4c8c760fc08de73c91e5a03ee/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5f982309bc27e57c373d679d98da8cc28c543979/client.txt">https://piston-data.mojang.com/v1/objects/5f982309bc27e57c373d679d98da8cc28c543979/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w40a">19w40a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/stripped_acacia_wood.json
-+  minecraft/advancements/recipes/building_blocks/stripped_birch_wood.json
-+  minecraft/advancements/recipes/building_blocks/stripped_dark_oak_wood.json
-+  minecraft/advancements/recipes/building_blocks/stripped_jungle_wood.json
-+  minecraft/advancements/recipes/building_blocks/stripped_oak_wood.json
-+  minecraft/advancements/recipes/building_blocks/stripped_spruce_wood.json
--  minecraft/advancements/recipes/decorations/bee_hive.json
-+  minecraft/advancements/recipes/decorations/beehive.json
-+  minecraft/advancements/recipes/decorations/honey_block.json
-+  minecraft/advancements/recipes/decorations/honeycomb_block.json
--  minecraft/loot_tables/blocks/bee_hive.json
-+  minecraft/loot_tables/blocks/beehive.json
-+  minecraft/loot_tables/blocks/honey_block.json
-+  minecraft/loot_tables/blocks/honeycomb_block.json
--  minecraft/recipes/bee_hive.json
-+  minecraft/recipes/beehive.json
-+  minecraft/recipes/honey_block.json
-+  minecraft/recipes/honeycomb_block.json
-+  minecraft/recipes/stripped_acacia_wood.json
-+  minecraft/recipes/stripped_birch_wood.json
-+  minecraft/recipes/stripped_dark_oak_wood.json
-+  minecraft/recipes/stripped_jungle_wood.json
-+  minecraft/recipes/stripped_oak_wood.json
-+  minecraft/recipes/stripped_spruce_wood.json
--  minecraft/tags/blocks/dirt_like.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/blockstates/bee_hive.json
-+  minecraft/blockstates/beehive.json
-+  minecraft/blockstates/honey_block.json
-+  minecraft/blockstates/honeycomb_block.json
--  minecraft/models/block/bee_hive.json
--  minecraft/models/block/bee_hive_honey.json
-+  minecraft/models/block/beehive.json
-+  minecraft/models/block/beehive_honey.json
-+  minecraft/models/block/honey_block.json
-+  minecraft/models/block/honeycomb_block.json
--  minecraft/models/item/bee_hive.json
-+  minecraft/models/item/beehive.json
-+  minecraft/models/item/honey_block.json
-+  minecraft/models/item/honeycomb_block.json
--  minecraft/textures/block/bee_hive_end.png
--  minecraft/textures/block/bee_hive_front.png
--  minecraft/textures/block/bee_hive_front_honey.png
--  minecraft/textures/block/bee_hive_side.png
-+  minecraft/textures/block/beehive_end.png
-+  minecraft/textures/block/beehive_front.png
-+  minecraft/textures/block/beehive_front_honey.png
-+  minecraft/textures/block/beehive_side.png
-+  minecraft/textures/block/honey_block_bottom.png
-+  minecraft/textures/block/honey_block_side.png
-+  minecraft/textures/block/honey_block_top.png
-+  minecraft/textures/block/honeycomb_block.png
-+  minecraft/textures/entity/iron_golem
-+  minecraft/textures/entity/iron_golem/iron_golem.png
-+  minecraft/textures/entity/iron_golem/iron_golem_crackiness_high.png
-+  minecraft/textures/entity/iron_golem/iron_golem_crackiness_low.png
-+  minecraft/textures/entity/iron_golem/iron_golem_crackiness_medium.png
--  minecraft/textures/entity/iron_golem.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ block_placer_type.txt
-+ block_state_provider_type.txt
-+ foliage_placer_type.txt
-+ tree_decorator_type.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:bee_hive
-+ minecraft:beehive
-+ minecraft:honey_block
-+ minecraft:honeycomb_block
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-- minecraft:birch_tree
-- minecraft:super_birch_tree
-- minecraft:jungle_tree
-- minecraft:pine_tree
-- minecraft:savanna_tree
-- minecraft:spruce_tree
-- minecraft:swamp_tree
-- minecraft:mega_pine_tree
-- minecraft:default_flower
-- minecraft:forest_flower
-- minecraft:plain_flower
-- minecraft:swamp_flower
-- minecraft:general_forest_flower
-- minecraft:jungle_grass
-- minecraft:taiga_grass
-- minecraft:grass
-- minecraft:cactus
-- minecraft:dead_bush
-- minecraft:hell_fire
-- minecraft:melon
-- minecraft:pumpkin
-- minecraft:reed
-- minecraft:waterlily
-- minecraft:hay_pile
-- minecraft:snow_pile
-- minecraft:ice_pile
-- minecraft:melon_pile
-- minecraft:pumpkin_pile
-- minecraft:bush
-- minecraft:double_plant
-- minecraft:nether_spring
-- minecraft:sweet_berry_bush
-+ minecraft:acacia_tree
-+ minecraft:flower
-+ minecraft:random_patch
-+ minecraft:block_pile
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:bee_hive
-+ minecraft:beehive
-+ minecraft:honey_block
-+ minecraft:honeycomb_block
-```
-
-</details>
-
-<details><summary>point_of_interest_type.txt</summary>
-
-```diff
-- minecraft:bee_hive
-+ minecraft:beehive
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.parrot.imitate.panda
-+ minecraft:block.honey_block.break
-+ minecraft:block.honey_block.fall
-+ minecraft:block.honey_block.hit
-+ minecraft:block.honey_block.place
-+ minecraft:block.honey_block.slide
-+ minecraft:block.honey_block.step
-+ minecraft:entity.iron_golem.damage
-+ minecraft:entity.iron_golem.repair
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ spectate.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/dirt_like.json
-```
-
-</details>
-
-<details><summary>blocks/bamboo_plantable_on.json</summary>
-
-```diff
-- #minecraft:dirt_like
-+ minecraft:dirt
-+ minecraft:grass_block
-+ minecraft:podzol
-+ minecraft:coarse_dirt
-+ minecraft:mycelium
-```
-
-</details>
-
-<details><summary>blocks/beehives.json</summary>
-
-```diff
-- minecraft:bee_hive
-+ minecraft:beehive
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/decorations/bee_hive.json
-+ recipes/building_blocks/stripped_acacia_wood.json
-+ recipes/building_blocks/stripped_birch_wood.json
-+ recipes/building_blocks/stripped_dark_oak_wood.json
-+ recipes/building_blocks/stripped_jungle_wood.json
-+ recipes/building_blocks/stripped_oak_wood.json
-+ recipes/building_blocks/stripped_spruce_wood.json
-+ recipes/decorations/beehive.json
-+ recipes/decorations/honeycomb_block.json
-+ recipes/decorations/honey_block.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/bee_hive.json
-+ blocks/beehive.json
-+ blocks/honeycomb_block.json
-+ blocks/honey_block.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- bee_hive.json
-+ beehive.json
-+ honeycomb_block.json
-+ honey_block.json
-+ stripped_acacia_wood.json
-+ stripped_birch_wood.json
-+ stripped_dark_oak_wood.json
-+ stripped_jungle_wood.json
-+ stripped_oak_wood.json
-+ stripped_spruce_wood.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/dirt_like.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/bee_hive_end.png
-- block/bee_hive_front.png
-- block/bee_hive_front_honey.png
-- block/bee_hive_side.png
-- entity/iron_golem.png
-+ block/beehive_end.png
-+ block/beehive_front.png
-+ block/beehive_front_honey.png
-+ block/beehive_side.png
-+ block/honeycomb_block.png
-+ block/honey_block_bottom.png
-+ block/honey_block_side.png
-+ block/honey_block_top.png
-+ entity/iron_golem/iron_golem.png
-+ entity/iron_golem/iron_golem_crackiness_high.png
-+ entity/iron_golem/iron_golem_crackiness_low.png
-+ entity/iron_golem/iron_golem_crackiness_medium.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
-
-```diff
-+ void queueNarration(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
-
-```diff
-- Options options
-- Screen lastScreen
-- void removed()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
-
-```diff
-- Options options
-- Screen lastScreen
-- void removed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
-
-```diff
-- Options options
-- Screen lastScreen
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
-
-```diff
-+ void drawProgressBar(int,int,int,int,float)
-- void drawProgressBar(int,int,int,int,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
-
-```diff
-- Screen lastScreen
-+ void <init>(Options)
-- void <init>(Screen)
-- void removed()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ boolean sortOnUpload
-- RenderType LINES
-- Runnable clearState
-- Runnable setupState
-- String name
-+ RenderType beaconBeam()
-+ RenderType crumbling(int)
-+ RenderType cutout()
-+ RenderType cutoutMipped()
-+ RenderType endPortal(int)
-+ RenderType entityAlpha(ResourceLocation,float)
-+ RenderType entityCutout(ResourceLocation)
-+ RenderType entityCutoutNoCull(ResourceLocation)
-+ RenderType entityDecal(ResourceLocation)
-+ RenderType entityForceTranslucent(ResourceLocation)
-+ RenderType entityGlint()
-+ RenderType entityNoOutline(ResourceLocation)
-+ RenderType entitySmoothCutout(ResourceLocation)
-+ RenderType entitySolid(ResourceLocation)
-+ RenderType entityTranslucent(ResourceLocation)
-+ RenderType eyes(ResourceLocation)
-+ RenderType getChunkRenderType(BlockState)
-+ RenderType getRenderType(BlockState)
-+ RenderType getRenderType(ItemStack)
-+ RenderType glint()
-+ RenderType leash()
-+ RenderType lightning()
-+ RenderType lines()
-+ RenderType outline(ResourceLocation)
-+ RenderType powerSwirl(ResourceLocation,float,float)
-+ RenderType solid()
-+ RenderType text(ResourceLocation)
-+ RenderType textSeeThrough(ResourceLocation)
-+ RenderType translucent()
-+ RenderType translucentNoCrumbling()
-+ RenderType waterMask()
-+ void <init>(Runnable)
-+ void lambda$static$0(HashMap)
-+ void lambda$static$1(HashMap)
-- boolean equals(Object)
-- int hashCode()
-- RenderType CRUMBLING(int)
-- RenderType EYES(ResourceLocation)
-- RenderType getRenderLayer(BlockState)
-- RenderType NEW_ENTITY(ResourceLocation,boolean,boolean,boolean,float,boolean,boolean)
-- RenderType NEW_ENTITY(ResourceLocation,boolean,boolean,boolean)
-- RenderType NEW_ENTITY(ResourceLocation)
-- RenderType OUTLINE(ResourceLocation)
-- RenderType PORTAL(int)
-- RenderType POWER_SWIRL(ResourceLocation,float,float)
-- RenderType TEXT_SEE_THROUGH(ResourceLocation)
-- RenderType TEXT(ResourceLocation)
-- void <init>(Runnable)
-- void clearGlint()
-- void clearRenderState()
-- void lambda$CRUMBLING$24(Integer)
-- void lambda$CRUMBLING$25(Integer)
-- void lambda$EYES$10(ResourceLocation)
-- void lambda$EYES$11(ResourceLocation)
-- void lambda$NEW_ENTITY$8(RenderType$EntityState)
-- void lambda$NEW_ENTITY$9(RenderType$EntityState)
-- void lambda$OUTLINE$18(ResourceLocation)
-- void lambda$OUTLINE$19(ResourceLocation)
-- void lambda$PORTAL$34(Integer)
-- void lambda$PORTAL$35(Integer)
-- void lambda$POWER_SWIRL$12(RenderType$SwirlState)
-- void lambda$POWER_SWIRL$13(RenderType$SwirlState)
-- void lambda$static$0()
-- void lambda$static$1()
-- void lambda$static$14()
-- void lambda$static$15()
-- void lambda$static$16()
-- void lambda$static$17()
-- void lambda$static$2()
-- void lambda$static$20()
-- void lambda$static$21()
-- void lambda$static$22()
-- void lambda$static$23()
-- void lambda$static$3()
-- void lambda$static$30()
-- void lambda$static$31()
-- void lambda$static$32()
-- void lambda$static$33()
-- void lambda$static$36()
-- void lambda$static$37()
-- void lambda$static$38(HashMap)
-- void lambda$static$39(HashMap)
-- void lambda$static$4()
-- void lambda$static$5()
-- void lambda$static$6()
-- void lambda$static$7()
-- void lambda$TEXT_SEE_THROUGH$28(ResourceLocation)
-- void lambda$TEXT_SEE_THROUGH$29(ResourceLocation)
-- void lambda$TEXT$26(ResourceLocation)
-- void lambda$TEXT$27(ResourceLocation)
-- void setupGlint(float)
-- void setupRenderState()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.BlockRenderDispatcher</summary>
-
-```diff
-+ void renderSingleBlock(MultiBufferSource,int,int)
-- void renderSingleBlock(MultiBufferSource,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.BeaconRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.BellRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.BlockEntityRenderer</summary>
-
-```diff
-+ void render(net.minecraft.world.level.block.entity.BlockEntity,double,double,double,float,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource,int,int)
-- void render(net.minecraft.world.level.block.entity.BlockEntity,double,double,double,float,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.ChestRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(TextureAtlasSprite)
-- void render(MultiBufferSource,int)
-- void render(TextureAtlasSprite)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.EnchantTableRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.PistonHeadRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-+ void renderBlock(Level,boolean,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-- void renderBlock(Level,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-- void render(MultiBufferSource,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Stream betweenClosedStream(BoundingBox)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
-
-```diff
-+ void <init>(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent HONEY_BLOCK_BREAK
-+ SoundEvent HONEY_BLOCK_FALL
-+ SoundEvent HONEY_BLOCK_HIT
-+ SoundEvent HONEY_BLOCK_PLACE
-+ SoundEvent HONEY_BLOCK_SLIDE
-+ SoundEvent HONEY_BLOCK_STEP
-+ SoundEvent IRON_GOLEM_DAMAGE
-+ SoundEvent IRON_GOLEM_REPAIR
-- SoundEvent PARROT_IMITATE_PANDA
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-- Tag DIRT_LIKE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.Villager</summary>
-
-```diff
-+ boolean lambda$spawnGolemIfNeeded$8(Villager)
-+ Component getTypeName()
-+ int lambda$countFoodPointsInInventory$7(Map$Entry)
-+ void lambda$spawnGolemIfNeeded$9(Villager)
-- boolean lambda$spawnGolemIfNeeded$10(Villager)
-- Component getDisplayName()
-- int lambda$countFoodPointsInInventory$9(Map$Entry)
-- void lambda$getDisplayName$7(Style)
-- void lambda$getDisplayName$8(Style)
-- void lambda$spawnGolemIfNeeded$11(Villager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item BEEHIVE
-+ Item HONEY_BLOCK
-+ Item HONEYCOMB_BLOCK
-- Item BEE_HIVE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BlockEventData</summary>
-
-```diff
-+ int hashCode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ FeatureConfiguration getStructureConfiguration(StructureFeature)
-+ Object lambda$null$10(Biome$SpawnerData)
-+ Object lambda$null$5(ConfiguredWorldCarver)
-+ Object lambda$null$7(ConfiguredFeature)
-+ Pair lambda$serialize$11(Map$Entry)
-+ Pair lambda$serialize$6(Map$Entry)
-+ Pair lambda$serialize$9(Map$Entry)
-+ String lambda$generate$4(ConfiguredFeature)
-+ void addStructureStart(ConfiguredFeature)
-- ConfiguredFeature makeComposite(DecoratorConfiguration)
-- FeatureConfiguration getStructureConfiguration(StructureFeature)
-- Object lambda$null$4(ConfiguredWorldCarver)
-- Object lambda$null$6(ConfiguredFeature)
-- Object lambda$null$9(Biome$SpawnerData)
-- Pair lambda$serialize$10(Map$Entry)
-- Pair lambda$serialize$5(Map$Entry)
-- Pair lambda$serialize$7(Map$Entry)
-- void addStructureStart(FeatureConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ float jumpFactor
-+ float speedFactor
-+ boolean access$1400(Block)
-+ boolean access$1500(Block)
-+ float getJumpFactor()
-+ float getSpeedFactor()
-- boolean access$1200(Block)
-- boolean access$1300(Block)
-- boolean equalsDirt(Block)
-- boolean equalsStone(Block)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.Block$Properties</summary>
-
-```diff
-+ float jumpFactor
-+ float speedFactor
-+ Block$Properties jumpFactor(float)
-+ Block$Properties speedFactor(float)
-+ boolean access$1300(Block$Properties)
-+ float access$1000(Block$Properties)
-+ float access$900(Block$Properties)
-+ ResourceLocation access$1200(Block$Properties)
-- boolean access$900(Block$Properties)
-- ResourceLocation access$1000(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractTreeFeature</summary>
-
-```diff
-+ boolean doPlace(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,net.minecraft.core.BlockPos,java.util.Set,java.util.Set,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-- boolean doPlace(java.util.Set,net.minecraft.world.level.LevelSimulatedRW,java.util.Random,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.structure.BoundingBox)
-+ boolean isVine(BlockPos)
-+ boolean lambda$isAirOrLeaves$4(BlockState)
-+ boolean lambda$isGrassOrDirt$5(BlockState)
-+ boolean lambda$isGrassOrDirtOrFarmland$6(BlockState)
-+ boolean lambda$isReplaceablePlant$7(BlockState)
-+ boolean lambda$isVine$2(BlockState)
-+ boolean place(FeatureConfiguration)
-+ boolean place(TreeConfiguration)
-+ boolean placeLeaf(TreeConfiguration)
-+ boolean placeLog(TreeConfiguration)
-+ DiscreteVoxelShape updateLeaves(Set)
-+ void <init>(Function)
-+ void lambda$place$8(TreeDecorator)
-+ void setBlock(BoundingBox)
-+ void simulate(FeatureConfiguration)
-+ void simulate(TreeConfiguration)
-- boolean isFluidWater(BlockPos)
-- boolean isLeaves(BlockPos)
-- boolean lambda$isAirOrLeaves$5(BlockState)
-- boolean lambda$isFluidWater$2(FluidState)
-- boolean lambda$isGrassOrDirt$6(BlockState)
-- boolean lambda$isGrassOrDirtOrFarmland$7(BlockState)
-- boolean lambda$isLeaves$4(BlockState)
-- boolean lambda$isReplaceablePlant$8(BlockState)
-- boolean place(FeatureConfiguration,boolean)
-- boolean place(FeatureConfiguration)
-- void <init>(Function,boolean)
-- void setBlock(BoundingBox)
-- void simulate(FeatureConfiguration)
-- void spawnBeehive(Biome)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
-
-```diff
-+ FeatureConfiguration config
-- FeatureConfiguration config
-+ ConfiguredFeature decorated(ConfiguredDecorator)
-+ void <init>(FeatureConfiguration)
-+ WeightedConfiguredFeature weighted(float)
-- void <init>(FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(NoneFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DecoratedFeature</summary>
-
-```diff
-+ boolean place(DecoratedFeatureConfiguration)
-+ boolean place(FeatureConfiguration)
-- boolean place(DecoratedFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.GlowstoneFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(NoneFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
-
-```diff
-+ boolean place(BlockStateConfiguration)
-+ boolean place(FeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(IcebergConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MegaPineTreeFeature</summary>
-
-```diff
-- BlockState LEAF
-- BlockState PODZOL
-- BlockState TRUNK
-- boolean isSpruce
-+ boolean doPlace(MegaTreeConfiguration)
-+ boolean doPlace(TreeConfiguration)
-+ void <init>(Function)
-+ void createCrown(MegaTreeConfiguration)
-- boolean doPlace(BoundingBox)
-- void <clinit>()
-- void <init>(Function,boolean,boolean)
-- void createCrown(Set)
-- void placePodzolAt(BlockPos)
-- void placePodzolCircle(BlockPos)
-- void postPlaceTree(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RandomSelectorFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(RandomFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(RandomFeatureConfig)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpringFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(SpringConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(SpringConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
-
-```diff
-+ ConfiguredFeature feature
-+ float chance
-- Feature feature
-- FeatureConfiguration config
-- Float chance
-+ void <init>(ConfiguredFeature,float)
-- void <init>(Dynamic,float)
-- void <init>(Float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.EndGatewayPlacementDecorator</summary>
-
-```diff
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ Stream getPositions(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.DecoratorConfiguration,net.minecraft.core.BlockPos)
-- Stream getPositions(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.world.level.levelgen.feature.DecoratorConfiguration,net.minecraft.core.BlockPos)
-+ boolean placeFeature(ConfiguredFeature)
-+ ConfiguredDecorator configured(DecoratorConfiguration)
-+ DecoratorConfiguration createSettings(Dynamic)
-- boolean placeFeature(ConfiguredFeature)
-- DecoratorConfiguration createSettings(Dynamic)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
-
-```diff
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmap32Decorator</summary>
-
-```diff
-+ BlockPos lambda$getPositions$0(LevelAccessor,int)
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- BlockPos lambda$getPositions$0(BlockPos,int)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.NopePlacementDecorator</summary>
-
-```diff
-+ Stream place(BlockPos)
-+ Stream place(BlockPos)
-- Stream place(BlockPos)
-- Stream place(BlockPos)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.GlStateManager$CullState
@@ -5154,171 +3146,263 @@
 
 </details>
 
-<details><summary>com.mojang.math.Matrix3f</summary>
+
+<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
 
 ```diff
-+ void <init>(float[])
-```
-
-</details>
-
-<details><summary>com.mojang.math.Quaternion</summary>
-
-```diff
-+ void <init>(float[])
-- void <init>()
-```
-
-</details>
-
-<details><summary>com.mojang.math.Vector3f</summary>
-
-```diff
-+ Quaternion rotationDegrees(float)
-- Quaternion rotation(float,boolean)
++ void queueNarration(int)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
+
+```diff
+- void drawProgressBar(int,int,int,int,float,float)
++ void drawProgressBar(int,int,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
+
+```diff
++ void <init>(Screen,Options)
+- void <init>(Screen)
+- void removed()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
++ RenderType beaconBeam()
++ RenderType crumbling(int)
+- RenderType CRUMBLING(int)
++ RenderType cutout()
++ RenderType cutoutMipped()
++ RenderType endPortal(int)
++ RenderType entityAlpha(ResourceLocation,float)
++ RenderType entityCutout(ResourceLocation)
++ RenderType entityCutoutNoCull(ResourceLocation)
++ RenderType entityDecal(ResourceLocation)
++ RenderType entityForceTranslucent(ResourceLocation)
++ RenderType entityGlint()
++ RenderType entityNoOutline(ResourceLocation)
++ RenderType entitySmoothCutout(ResourceLocation)
++ RenderType entitySolid(ResourceLocation)
++ RenderType entityTranslucent(ResourceLocation)
++ RenderType eyes(ResourceLocation)
+- RenderType EYES(ResourceLocation)
++ RenderType getChunkRenderType(BlockState)
+- RenderType getRenderLayer(BlockState)
++ RenderType getRenderType(BlockState)
++ RenderType getRenderType(ItemStack)
++ RenderType glint()
++ RenderType leash()
++ RenderType lightning()
++ RenderType lines()
+- RenderType NEW_ENTITY(ResourceLocation,boolean,boolean,boolean,float,boolean,boolean)
+- RenderType NEW_ENTITY(ResourceLocation,boolean,boolean,boolean)
+- RenderType NEW_ENTITY(ResourceLocation)
++ RenderType outline(ResourceLocation)
+- RenderType OUTLINE(ResourceLocation)
+- RenderType PORTAL(int)
+- RenderType POWER_SWIRL(ResourceLocation,float,float)
++ RenderType powerSwirl(ResourceLocation,float,float)
++ RenderType solid()
+- RenderType TEXT_SEE_THROUGH(ResourceLocation)
++ RenderType text(ResourceLocation)
+- RenderType TEXT(ResourceLocation)
++ RenderType textSeeThrough(ResourceLocation)
++ RenderType translucent()
++ RenderType translucentNoCrumbling()
++ RenderType waterMask()
++ void <init>(String,VertexFormat,int,int,boolean,boolean,Runnable,Runnable)
+- void <init>(String,VertexFormat,int,int,boolean,Runnable,Runnable)
+- void clearGlint()
+- void clearRenderState()
+- void lambda$CRUMBLING$24(Integer)
+- void lambda$CRUMBLING$25(Integer)
+- void lambda$EYES$10(ResourceLocation)
+- void lambda$EYES$11(ResourceLocation)
+- void lambda$NEW_ENTITY$8(RenderType$EntityState)
+- void lambda$NEW_ENTITY$9(RenderType$EntityState)
+- void lambda$OUTLINE$18(ResourceLocation)
+- void lambda$OUTLINE$19(ResourceLocation)
+- void lambda$PORTAL$34(Integer)
+- void lambda$PORTAL$35(Integer)
+- void lambda$POWER_SWIRL$12(RenderType,RenderType$SwirlState)
+- void lambda$POWER_SWIRL$13(RenderType,RenderType$SwirlState)
+- void lambda$static$0()
++ void lambda$static$0(HashMap)
+- void lambda$static$1()
++ void lambda$static$1(HashMap)
+- void lambda$static$14()
+- void lambda$static$15()
+- void lambda$static$16()
+- void lambda$static$17()
+- void lambda$static$2()
+- void lambda$static$20()
+- void lambda$static$21()
+- void lambda$static$22()
+- void lambda$static$23()
+- void lambda$static$3()
+- void lambda$static$30()
+- void lambda$static$31()
+- void lambda$static$32()
+- void lambda$static$33()
+- void lambda$static$36()
+- void lambda$static$37()
+- void lambda$static$38(HashMap)
+- void lambda$static$39(HashMap)
+- void lambda$static$4()
+- void lambda$static$5()
+- void lambda$static$6()
+- void lambda$static$7()
+- void lambda$TEXT_SEE_THROUGH$28(RenderType,ResourceLocation)
+- void lambda$TEXT_SEE_THROUGH$29(RenderType,ResourceLocation)
+- void lambda$TEXT$26(ResourceLocation)
+- void lambda$TEXT$27(ResourceLocation)
+- void setupGlint(float)
+- void setupRenderState()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.block.BlockRenderDispatcher</summary>
 
+```diff
+- void renderSingleBlock(BlockState,PoseStack,MultiBufferSource,int,int,int)
++ void renderSingleBlock(BlockState,PoseStack,MultiBufferSource,int,int)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.BeaconRenderer</summary>
 
+```diff
++ void render(BeaconBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BeaconBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.BellRenderer</summary>
 
+```diff
++ void render(BellBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BellBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.ChestRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(PoseStack,VertexConsumer,ModelPart,ModelPart,ModelPart,float,int,int,TextureAtlasSprite)
+- void render(PoseStack,VertexConsumer,ModelPart,ModelPart,ModelPart,float,int,TextureAtlasSprite)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.EnchantTableRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(EnchantmentTableBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(EnchantmentTableBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.PistonHeadRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(PistonMovingBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(PistonMovingBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void renderBlock(BlockPos,BlockState,PoseStack,MultiBufferSource,Level,boolean,int)
+- void renderBlock(BlockPos,BlockState,PoseStack,MultiBufferSource,Level,boolean)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(SignBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(SignBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(StructureBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(StructureBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
 
+```diff
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(TheEndGatewayBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(TheEndGatewayBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(TheEndPortalBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
+- void render(TheEndPortalBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.core.BlockPos</summary>
@@ -5339,1333 +3423,342 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
 
 ```diff
-+ boolean lambda$clearBlockEvents$15(BlockEventData)
-+ void clearBlockEvents(BoundingBox)
-+ void lambda$tick$6(Entity)
-+ void lambda$wakeUpAllPlayers$7(ServerPlayer)
-+ void wakeUpAllPlayers()
-- void lambda$tick$6(ServerPlayer)
-- void lambda$tick$7(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.DataFixers</summary>
-
-```diff
-+ String lambda$addFixers$24(String)
-+ String lambda$addFixers$25(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ BlockPos getBlockPosBelowThatAffectsMyMovement()
-+ BlockPos getOnPos()
 + boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.Villager</summary>
+
+```diff
+- boolean lambda$spawnGolemIfNeeded$10(long,Villager)
++ boolean lambda$spawnGolemIfNeeded$8(long,Villager)
+- Component getDisplayName()
 + Component getTypeName()
-+ double getEyeY()
-+ double getRandomX(double)
-+ double getRandomY()
-+ double getRandomZ(double)
-+ double getX()
-+ double getX(double)
-+ double getY()
-+ double getY(double)
-+ double getZ()
-+ double getZ(double)
++ int lambda$countFoodPointsInInventory$7(SimpleContainer,Map$Entry)
+- int lambda$countFoodPointsInInventory$9(SimpleContainer,Map$Entry)
+- void lambda$getDisplayName$7(Style)
+- void lambda$getDisplayName$8(Style)
+- void lambda$spawnGolemIfNeeded$11(long,Villager)
++ void lambda$spawnGolemIfNeeded$9(long,Villager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BlockEventData</summary>
+
+```diff
++ int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
+- ConfiguredFeature makeComposite(Feature,FeatureConfiguration,FeatureDecorator,DecoratorConfiguration)
++ FeatureConfiguration getStructureConfiguration(StructureFeature)
+- FeatureConfiguration getStructureConfiguration(StructureFeature)
++ Object lambda$null$10(DynamicOps,Biome$SpawnerData)
+- Object lambda$null$4(DynamicOps,ConfiguredWorldCarver)
++ Object lambda$null$5(DynamicOps,ConfiguredWorldCarver)
+- Object lambda$null$6(DynamicOps,ConfiguredFeature)
++ Object lambda$null$7(DynamicOps,ConfiguredFeature)
+- Object lambda$null$9(DynamicOps,Biome$SpawnerData)
+- Pair lambda$serialize$10(DynamicOps,Map$Entry)
++ Pair lambda$serialize$11(DynamicOps,Map$Entry)
+- Pair lambda$serialize$5(DynamicOps,Map$Entry)
++ Pair lambda$serialize$6(DynamicOps,Map$Entry)
+- Pair lambda$serialize$7(DynamicOps,Map$Entry)
++ Pair lambda$serialize$9(DynamicOps,Map$Entry)
++ String lambda$generate$4(ConfiguredFeature)
++ void addStructureStart(ConfiguredFeature)
+- void addStructureStart(StructureFeature,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
+- boolean access$1200(Block)
+- boolean access$1300(Block)
++ boolean access$1400(Block)
++ boolean access$1500(Block)
+- boolean equalsDirt(Block)
+- boolean equalsStone(Block)
 + float getJumpFactor()
 + float getSpeedFactor()
-+ void refreshBoundingBox()
-+ void setPosRaw(double,double,double)
-- void causeFallDamage(float,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.FlyingMob</summary>
+<details><summary>net.minecraft.world.level.block.Block$Properties</summary>
 
 ```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-+ int calculateFallDamage(float,float)
-+ void playBlockFallSound()
-- void causeFallDamage(float,float)
++ Block$Properties jumpFactor(float)
++ Block$Properties speedFactor(float)
++ boolean access$1300(Block$Properties)
+- boolean access$900(Block$Properties)
++ float access$1000(Block$Properties)
++ float access$900(Block$Properties)
+- ResourceLocation access$1000(Block$Properties)
++ ResourceLocation access$1200(Block$Properties)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractTreeFeature</summary>
 
 ```diff
-+ boolean hasNoBlocksAbove(BlockPos)
-- boolean hasNoBlocksAbove(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.WeightedList</summary>
-
-```diff
-+ double lambda$shuffle$4(Object)
-+ Object getOne()
-+ Object getOne(Random)
-+ Object lambda$serialize$2(WeightedList$WeightedEntry)
-+ Object serialize(Function)
-+ Stream streamEntries()
-+ void <init>(Function)
-+ void lambda$new$1(Dynamic)
-+ void lambda$shuffle$3(WeightedList$WeightedEntry)
-+ WeightedList add(Object,int)
-+ WeightedList lambda$null$0(Dynamic)
-+ WeightedList shuffle()
-+ WeightedList shuffle(Random)
-- void add(Object,int)
-- void lambda$shuffle$0(WeightedList$WeightedEntry)
-- void shuffle()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.WeightedList$WeightedEntry</summary>
-
-```diff
-+ double access$100(WeightedList$WeightedEntry)
-+ int getWeight()
-+ void access$200(WeightedList$WeightedEntry,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-+ int calculateFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Creeper</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
-
-```diff
-+ boolean causeFallDamage(float,float)
-- void causeFallDamage(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeDefaultFeatures</summary>
-
-```diff
-+ BlockPileConfiguration HAY_PILE_CONFIG
-+ BlockPileConfiguration ICE_PILE_CONFIG
-+ BlockPileConfiguration MELON_PILE_CONFIG
-+ BlockPileConfiguration PUMPKIN_PILE_CONFIG
-+ BlockPileConfiguration SNOW_PILE_CONFIG
-+ BlockState ACACIA_LEAVES
-+ BlockState ACACIA_LOG
-+ BlockState ANDESITE
-+ BlockState BIRCH_LEAVES
-+ BlockState BIRCH_LOG
-+ BlockState BLUE_ICE
-+ BlockState BLUE_ORCHID
-+ BlockState BROWN_MUSHROOM
-+ BlockState CACTUS
-+ BlockState CLAY
-+ BlockState COAL_ORE
-+ BlockState DANDELION
-+ BlockState DARK_OAK_LEAVES
-+ BlockState DARK_OAK_LOG
-+ BlockState DEAD_BUSH
-+ BlockState DIAMOND_ORE
-+ BlockState DIORITE
-+ BlockState DIRT
-+ BlockState EMERALD_ORE
-+ BlockState FERN
-+ BlockState FIRE
-+ BlockState GOLD_ORE
-+ BlockState GRANITE
-+ BlockState GRASS
-+ BlockState GRASS_BLOCK
-+ BlockState GRAVEL
-+ BlockState HUGE_BROWN_MUSHROOM
-+ BlockState HUGE_MUSHROOM_STEM
-+ BlockState HUGE_RED_MUSHROOM
-+ BlockState INFESTED_STONE
-+ BlockState IRON_ORE
-+ BlockState JACK_O_LANTERN
-+ BlockState JUNGLE_LEAVES
-+ BlockState JUNGLE_LOG
-+ BlockState LAPIS_ORE
-+ BlockState LARGE_FERN
-+ BlockState LAVA
-+ BlockState LILAC
-+ BlockState LILY_OF_THE_VALLEY
-+ BlockState LILY_PAD
-+ BlockState MELON
-+ BlockState MOSSY_COBBLESTONE
-+ BlockState NETHERRACK
-+ BlockState OAK_LEAVES
-+ BlockState OAK_LOG
-+ BlockState PACKED_ICE
-+ BlockState PEONY
-+ BlockState PODZOL
-+ BlockState POPPY
-+ BlockState PUMPKIN
-+ BlockState RED_MUSHROOM
-+ BlockState REDSTONE_ORE
-+ BlockState ROSE_BUSH
-+ BlockState SAND
-+ BlockState SEAGRASS
-+ BlockState SNOW
-+ BlockState SPRUCE_LEAVES
-+ BlockState SPRUCE_LOG
-+ BlockState STONE
-+ BlockState SUGAR_CANE
-+ BlockState SUNFLOWER
-+ BlockState SWEET_BERRY_BUSH
-+ BlockState TALL_GRASS
-+ BlockState WATER
-+ HugeMushroomFeatureConfiguration HUGE_BROWN_MUSHROOM_CONFIG
-+ HugeMushroomFeatureConfiguration HUGE_RED_MUSHROOM_CONFIG
-+ MegaTreeConfiguration DARK_OAK_TREE_CONFIG
-+ MegaTreeConfiguration MEGA_JUNGLE_TREE_CONFIG
-+ MegaTreeConfiguration MEGA_PINE_TREE_CONFIG
-+ MegaTreeConfiguration MEGA_SPRUCE_TREE_CONFIG
-+ RandomPatchConfiguration BROWN_MUSHROOM_CONFIG
-+ RandomPatchConfiguration CACTUS_CONFIG
-+ RandomPatchConfiguration DEAD_BUSH_CONFIG
-+ RandomPatchConfiguration DEFAULT_FLOWER_CONFIG
-+ RandomPatchConfiguration DEFAULT_GRASS_CONFIG
-+ RandomPatchConfiguration DOUBLE_LILAC_CONFIG
-+ RandomPatchConfiguration DOUBLE_PEONY_CONFIG
-+ RandomPatchConfiguration DOUBLE_ROSE_BUSH_CONFIG
-+ RandomPatchConfiguration FOREST_FLOWER_CONFIG
-+ RandomPatchConfiguration GENERAL_FOREST_FLOWER_CONFIG
-+ RandomPatchConfiguration HELL_FIRE_CONFIG
-+ RandomPatchConfiguration JUNGLE_GRASS_CONFIG
-+ RandomPatchConfiguration LARGE_FERN_CONFIG
-+ RandomPatchConfiguration MELON_CONFIG
-+ RandomPatchConfiguration PLAIN_FLOWER_CONFIG
-+ RandomPatchConfiguration PUMPKIN_CONFIG
-+ RandomPatchConfiguration RED_MUSHROOM_CONFIG
-+ RandomPatchConfiguration SUGAR_CANE_CONFIG
-+ RandomPatchConfiguration SUNFLOWER_CONFIG
-+ RandomPatchConfiguration SwAMP_FLOWER_CONFIG
-+ RandomPatchConfiguration SWEET_BERRY_BUSH_CONFIG
-+ RandomPatchConfiguration TAIGA_GRASS_CONFIG
-+ RandomPatchConfiguration TALL_GRASS_CONFIG
-+ RandomPatchConfiguration WATERLILLY_CONFIG
-+ SmallTreeConfiguration ACACIA_TREE_CONFIG
-+ SmallTreeConfiguration BIRCH_TREE_CONFIG
-+ SmallTreeConfiguration BIRCH_TREE_WITH_BEES_001_CONFIG
-+ SmallTreeConfiguration FANCY_TREE_CONFIG
-+ SmallTreeConfiguration FANCY_TREE_WITH_BEES_001_CONFIG
-+ SmallTreeConfiguration FANCY_TREE_WITH_BEES_005_CONFIG
-+ SmallTreeConfiguration JUNGLE_TREE_CONFIG
-+ SmallTreeConfiguration JUNGLE_TREE_NOVINE_CONFIG
-+ SmallTreeConfiguration NORMAL_TREE_CONFIG
-+ SmallTreeConfiguration NORMAL_TREE_WITH_BEES_001_CONFIG
-+ SmallTreeConfiguration NORMAL_TREE_WITH_BEES_005_CONFIG
-+ SmallTreeConfiguration PINE_TREE_CONFIG
-+ SmallTreeConfiguration SPRUCE_TREE_CONFIG
-+ SmallTreeConfiguration SUPER_BIRCH_TREE_CONFIG
-+ SmallTreeConfiguration SWAMP_TREE_CONFIG
-+ SpringConfiguration CLOSED_NETHER_SPRING_CONFIG
-+ SpringConfiguration LAVA_SPRING_CONFIG
-+ SpringConfiguration OPEN_NETHER_SPRING_CONFIG
-+ SpringConfiguration WATER_SPRING_CONFIG
-+ TreeConfiguration JUNGLE_BUSH_CONFIG
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
-
-```diff
-+ void releaseBeesAndResetState(BeehiveBlockEntity$BeeReleaseStatus)
-- void releaseBeesAndResetState(Player)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block BEEHIVE
-+ Block HONEY_BLOCK
-+ Block HONEYCOMB_BLOCK
-- Block BEE_HIVE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(NoneFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DiskReplaceFeature</summary>
-
-```diff
-+ boolean place(DiskConfiguration)
-+ boolean place(FeatureConfiguration)
-- boolean place(DiskConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.GroundBushFeature</summary>
-
-```diff
-- BlockState leaf
-- BlockState trunk
-+ boolean doPlace(TreeConfiguration)
-+ void <init>(Function)
-- boolean doPlace(BoundingBox)
-- void <init>(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeRedMushroomFeature</summary>
-
-```diff
-+ int getTreeRadiusForHeight(int,int,int,int)
-+ void makeCap(HugeMushroomFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(HugeMushroomFeatureConfig)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.KelpFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(NoneFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MegaJungleTreeFeature</summary>
-
-```diff
-+ boolean doPlace(MegaTreeConfiguration)
-+ boolean doPlace(TreeConfiguration)
-+ void <init>(Function)
-+ void createCrown(TreeConfiguration)
-- boolean doPlace(BoundingBox)
-- void <init>(BlockState)
-- void createCrown(Set)
-- void placeVine(BooleanProperty)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MegaTreeFeature</summary>
-
-```diff
-- BlockState leaf
-- BlockState trunk
-- int baseHeight
-- int heightInterval
-+ int calcTreeHeigth(MegaTreeConfiguration)
-+ void <init>(Function)
-+ void placeDoubleTrunkLeaves(TreeConfiguration)
-+ void placeSingleTrunkLeaves(TreeConfiguration)
-+ void placeTrunk(MegaTreeConfiguration)
-- int calcTreeHeigth(Random)
-- void <init>(BlockState)
-- void placeDoubleTrunkLeaves(Set)
-- void placeSingleTrunkLeaves(Set)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(ReplaceBlockConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(ReplaceBlockConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SimpleBlockFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-+ boolean place(SimpleBlockConfiguration)
-- boolean place(FeatureConfiguration)
-- boolean place(SimpleBlockConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-- BlockState DEFAULT_LEAF
-- BlockState DEFAULT_TRUNK
-- BlockState leaf
-- BlockState trunk
-- boolean addJungleFeatures
-- int baseHeight
-+ boolean doPlace(SmallTreeConfiguration)
-+ boolean doPlace(TreeConfiguration)
-+ void <init>(Function)
-- boolean doPlace(BoundingBox)
-- int getTreeHeight(Random)
-- void <clinit>()
-- void <init>(BlockState,boolean)
+- boolean isFluidWater(LevelSimulatedReader,BlockPos)
+- boolean isLeaves(LevelSimulatedReader,BlockPos)
++ boolean isVine(LevelSimulatedReader,BlockPos)
++ boolean lambda$isAirOrLeaves$4(BlockState)
+- boolean lambda$isAirOrLeaves$5(BlockState)
+- boolean lambda$isFluidWater$2(FluidState)
++ boolean lambda$isGrassOrDirt$5(BlockState)
+- boolean lambda$isGrassOrDirt$6(BlockState)
++ boolean lambda$isGrassOrDirtOrFarmland$6(BlockState)
+- boolean lambda$isGrassOrDirtOrFarmland$7(BlockState)
+- boolean lambda$isLeaves$4(BlockState)
++ boolean lambda$isReplaceablePlant$7(BlockState)
+- boolean lambda$isReplaceablePlant$8(BlockState)
++ boolean lambda$isVine$2(BlockState)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration,boolean)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,TreeConfiguration)
++ boolean placeLeaf(LevelSimulatedRW,Random,BlockPos,Set,BoundingBox,TreeConfiguration)
++ boolean placeLog(LevelSimulatedRW,Random,BlockPos,Set,BoundingBox,TreeConfiguration)
++ DiscreteVoxelShape updateLeaves(LevelAccessor,BoundingBox,Set,Set)
 - void <init>(Function,boolean)
-- void addHangingVine(BooleanProperty)
-- void addVine(BooleanProperty)
-- void placeCocoa(Direction)
++ void <init>(Function)
++ void lambda$place$8(LevelAccessor,Random,List,List,Set,BoundingBox,TreeDecorator)
++ void setBlock(LevelWriter,BlockPos,BlockState,BoundingBox)
+- void setBlock(Set,LevelWriter,BlockPos,BlockState,BoundingBox)
++ void simulate(FeatureSimulator,Random,BlockPos,FeatureConfiguration)
+- void simulate(FeatureSimulator,Random,BlockPos,FeatureConfiguration)
++ void simulate(FeatureSimulator,Random,BlockPos,TreeConfiguration)
+- void spawnBeehive(LevelAccessor,Random,BlockPos,BoundingBox,List,Biome)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.placement.EmeraldPlacementDecorator</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
 
 ```diff
-+ Stream place(BlockPos)
-+ Stream place(BlockPos)
-- Stream place(BlockPos)
-- Stream place(BlockPos)
++ ConfiguredFeature decorated(ConfiguredDecorator)
++ void <init>(Feature,FeatureConfiguration)
+- void <init>(Feature,FeatureConfiguration)
++ WeightedConfiguredFeature weighted(float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.placement.EndIslandPlacementDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
 
 ```diff
-+ Stream place(BlockPos)
-+ Stream place(BlockPos)
-- Stream place(BlockPos)
-- Stream place(BlockPos)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.placement.ForestRockPlacementDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DecoratedFeature</summary>
 
 ```diff
-+ BlockPos lambda$getPositions$0(LevelAccessor,int)
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- BlockPos lambda$getPositions$0(BlockPos,int)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,DecoratedFeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,DecoratedFeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.placement.LakeWaterPlacementDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.GlowstoneFeature</summary>
 
 ```diff
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmapDoubleDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
 
 ```diff
-+ BlockPos lambda$getPositions$0(LevelAccessor,int)
-+ Stream getPositions(BlockPos)
-+ Stream getPositions(BlockPos)
-- BlockPos lambda$getPositions$0(BlockPos,int)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,BlockStateConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,IcebergConfiguration)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MegaPineTreeFeature</summary>
+
+```diff
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,MegaTreeConfiguration)
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
+- boolean doPlace(Set,LevelSimulatedRW,Random,BlockPos,BoundingBox)
+- void <clinit>()
+- void <init>(Function,boolean,boolean)
++ void <init>(Function)
+- void createCrown(LevelSimulatedRW,int,int,int,int,Random,BoundingBox,Set)
++ void createCrown(LevelSimulatedRW,Random,int,int,int,int,Set,BoundingBox,MegaTreeConfiguration)
+- void placePodzolAt(LevelSimulatedRW,BlockPos)
+- void placePodzolCircle(LevelSimulatedRW,BlockPos)
+- void postPlaceTree(LevelSimulatedRW,Random,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RandomSelectorFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,RandomFeatureConfig)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,RandomFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SpringFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,SpringConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,SpringConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WeightedConfiguredFeature</summary>
+
+```diff
++ void <init>(ConfiguredFeature,float)
+- void <init>(Feature,Dynamic,float)
+- void <init>(Feature,FeatureConfiguration,Float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EndGatewayPlacementDecorator</summary>
+
+```diff
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,NoneDecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,NoneDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
+
+```diff
++ boolean placeFeature(LevelAccessor,ChunkGenerator,Random,BlockPos,DecoratorConfiguration,ConfiguredFeature)
+- boolean placeFeature(LevelAccessor,ChunkGenerator,Random,BlockPos,DecoratorConfiguration,ConfiguredFeature)
++ ConfiguredDecorator configured(DecoratorConfiguration)
++ DecoratorConfiguration createSettings(Dynamic)
+- DecoratorConfiguration createSettings(Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
+
+```diff
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,ChanceDecoratorConfiguration,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,LakeChanceDecoratorConfig,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmap32Decorator</summary>
+
+```diff
++ BlockPos lambda$getPositions$0(Random,BlockPos,LevelAccessor,int)
+- BlockPos lambda$getPositions$0(Random,LevelAccessor,BlockPos,int)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorNoiseDependant,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,NoiseDependantDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NopePlacementDecorator</summary>
+
+```diff
++ Stream place(Random,DecoratorConfiguration,BlockPos)
+- Stream place(Random,DecoratorConfiguration,BlockPos)
++ Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+- Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.gametest.framework.GameTestGenerator
@@ -8532,13 +5625,804 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Matrix3f</summary>
+
+```diff
++ void <init>(float[])
+```
+
+</details>
+
+
+<details><summary>com.mojang.math.Quaternion</summary>
+
+```diff
+- void <init>()
++ void <init>(float[])
+```
+
+</details>
+
+
+<details><summary>com.mojang.math.Vector3f</summary>
+
+```diff
+- Quaternion rotation(float,boolean)
++ Quaternion rotationDegrees(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
++ Stream betweenClosedStream(BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
+
+```diff
++ void <init>(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ boolean lambda$clearBlockEvents$15(BoundingBox,BlockEventData)
++ void clearBlockEvents(BoundingBox)
++ void lambda$tick$6(Entity)
+- void lambda$tick$6(ServerPlayer)
+- void lambda$tick$7(Entity)
++ void lambda$wakeUpAllPlayers$7(ServerPlayer)
++ void wakeUpAllPlayers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.DataFixers</summary>
+
+```diff
++ String lambda$addFixers$24(String)
++ String lambda$addFixers$25(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ BlockPos getBlockPosBelowThatAffectsMyMovement()
++ BlockPos getOnPos()
++ boolean causeFallDamage(float,float)
++ Component getTypeName()
++ double getEyeY()
++ double getRandomX(double)
++ double getRandomY()
++ double getRandomZ(double)
++ double getX()
++ double getX(double)
++ double getY()
++ double getY(double)
++ double getZ()
++ double getZ(double)
++ float getJumpFactor()
++ float getSpeedFactor()
+- void causeFallDamage(float,float)
++ void refreshBoundingBox()
++ void setPosRaw(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.FlyingMob</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
++ int calculateFallDamage(float,float)
+- void causeFallDamage(float,float)
++ void playBlockFallSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
+
+```diff
++ boolean hasNoBlocksAbove(ServerLevel,LivingEntity,BlockPos)
+- boolean hasNoBlocksAbove(ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.WeightedList</summary>
+
+```diff
++ double lambda$shuffle$4(Object)
++ Object getOne()
++ Object getOne(Random)
++ Object lambda$serialize$2(DynamicOps,Function,WeightedList$WeightedEntry)
++ Object serialize(DynamicOps,Function)
++ Stream streamEntries()
++ void <init>(Dynamic,Function)
+- void add(Object,int)
++ void lambda$new$1(Function,Dynamic)
+- void lambda$shuffle$0(WeightedList$WeightedEntry)
++ void lambda$shuffle$3(Random,WeightedList$WeightedEntry)
+- void shuffle()
++ WeightedList add(Object,int)
++ WeightedList lambda$null$0(Function,Dynamic,Dynamic)
++ WeightedList shuffle()
++ WeightedList shuffle(Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.WeightedList$WeightedEntry</summary>
+
+```diff
++ double access$100(WeightedList$WeightedEntry)
++ int getWeight()
++ void access$200(WeightedList$WeightedEntry,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
++ int calculateFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Creeper</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
+
+```diff
++ boolean causeFallDamage(float,float)
+- void causeFallDamage(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeDefaultFeatures</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
+
+```diff
++ void releaseBeesAndResetState(Level,BlockState,BlockPos,Player,BeehiveBlockEntity$BeeReleaseStatus)
+- void releaseBeesAndResetState(Level,BlockState,BlockPos,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DiskReplaceFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,DiskConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,DiskConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.GroundBushFeature</summary>
+
+```diff
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
+- boolean doPlace(Set,LevelSimulatedRW,Random,BlockPos,BoundingBox)
+- void <init>(Function,BlockState,BlockState)
++ void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.HugeRedMushroomFeature</summary>
+
+```diff
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,HugeMushroomFeatureConfig)
++ int getTreeRadiusForHeight(int,int,int,int)
++ void makeCap(LevelAccessor,Random,BlockPos,int,BlockPos$MutableBlockPos,HugeMushroomFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.KelpFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MegaJungleTreeFeature</summary>
+
+```diff
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,MegaTreeConfiguration)
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
+- boolean doPlace(Set,LevelSimulatedRW,Random,BlockPos,BoundingBox)
+- void <init>(Function,boolean,int,int,BlockState,BlockState)
++ void <init>(Function)
+- void createCrown(LevelSimulatedRW,BlockPos,int,BoundingBox,Set)
++ void createCrown(LevelSimulatedRW,Random,BlockPos,int,Set,BoundingBox,TreeConfiguration)
+- void placeVine(LevelSimulatedRW,Random,BlockPos,BooleanProperty)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MegaTreeFeature</summary>
+
+```diff
++ int calcTreeHeigth(Random,MegaTreeConfiguration)
+- int calcTreeHeigth(Random)
+- void <init>(Function,boolean,int,int,BlockState,BlockState)
++ void <init>(Function)
+- void placeDoubleTrunkLeaves(LevelSimulatedRW,BlockPos,int,BoundingBox,Set)
++ void placeDoubleTrunkLeaves(LevelSimulatedRW,Random,BlockPos,int,Set,BoundingBox,TreeConfiguration)
+- void placeSingleTrunkLeaves(LevelSimulatedRW,BlockPos,int,BoundingBox,Set)
++ void placeSingleTrunkLeaves(LevelSimulatedRW,Random,BlockPos,int,Set,BoundingBox,TreeConfiguration)
++ void placeTrunk(LevelSimulatedRW,Random,BlockPos,int,Set,BoundingBox,MegaTreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,ReplaceBlockConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,ReplaceBlockConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SimpleBlockFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,SimpleBlockConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,SimpleBlockConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,SmallTreeConfiguration)
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
+- boolean doPlace(Set,LevelSimulatedRW,Random,BlockPos,BoundingBox)
+- int getTreeHeight(Random)
+- void <clinit>()
+- void <init>(Function,boolean,int,BlockState,BlockState,boolean)
+- void <init>(Function,boolean)
++ void <init>(Function)
+- void addHangingVine(LevelSimulatedRW,BlockPos,BooleanProperty)
+- void addVine(LevelWriter,BlockPos,BooleanProperty)
+- void placeCocoa(LevelWriter,int,BlockPos,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EmeraldPlacementDecorator</summary>
+
+```diff
++ Stream place(Random,DecoratorConfiguration,BlockPos)
+- Stream place(Random,DecoratorConfiguration,BlockPos)
++ Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+- Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.EndIslandPlacementDecorator</summary>
+
+```diff
++ Stream place(Random,DecoratorConfiguration,BlockPos)
+- Stream place(Random,DecoratorConfiguration,BlockPos)
++ Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+- Stream place(Random,NoneDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ForestRockPlacementDecorator</summary>
+
+```diff
++ BlockPos lambda$getPositions$0(Random,BlockPos,LevelAccessor,int)
+- BlockPos lambda$getPositions$0(Random,LevelAccessor,BlockPos,int)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorFrequency,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,FrequencyDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.LakeWaterPlacementDecorator</summary>
+
+```diff
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,ChanceDecoratorConfiguration,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,LakeChanceDecoratorConfig,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.NoiseHeightmapDoubleDecorator</summary>
+
+```diff
++ BlockPos lambda$getPositions$0(Random,BlockPos,LevelAccessor,int)
+- BlockPos lambda$getPositions$0(Random,LevelAccessor,BlockPos,int)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(LevelAccessor,ChunkGenerator,Random,DecoratorNoiseDependant,BlockPos)
++ Stream getPositions(LevelAccessor,ChunkGenerator,Random,NoiseDependantDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/stripped_acacia_wood.json
++ minecraft/advancements/recipes/building_blocks/stripped_birch_wood.json
++ minecraft/advancements/recipes/building_blocks/stripped_dark_oak_wood.json
++ minecraft/advancements/recipes/building_blocks/stripped_jungle_wood.json
++ minecraft/advancements/recipes/building_blocks/stripped_oak_wood.json
++ minecraft/advancements/recipes/building_blocks/stripped_spruce_wood.json
+- minecraft/advancements/recipes/decorations/bee_hive.json
++ minecraft/advancements/recipes/decorations/beehive.json
++ minecraft/advancements/recipes/decorations/honey_block.json
++ minecraft/advancements/recipes/decorations/honeycomb_block.json
+- minecraft/loot_tables/blocks/bee_hive.json
++ minecraft/loot_tables/blocks/beehive.json
++ minecraft/loot_tables/blocks/honey_block.json
++ minecraft/loot_tables/blocks/honeycomb_block.json
+- minecraft/recipes/bee_hive.json
++ minecraft/recipes/beehive.json
++ minecraft/recipes/honey_block.json
++ minecraft/recipes/honeycomb_block.json
++ minecraft/recipes/stripped_acacia_wood.json
++ minecraft/recipes/stripped_birch_wood.json
++ minecraft/recipes/stripped_dark_oak_wood.json
++ minecraft/recipes/stripped_jungle_wood.json
++ minecraft/recipes/stripped_oak_wood.json
++ minecraft/recipes/stripped_spruce_wood.json
+- minecraft/tags/blocks/dirt_like.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/blockstates/bee_hive.json
++ minecraft/blockstates/beehive.json
++ minecraft/blockstates/honey_block.json
++ minecraft/blockstates/honeycomb_block.json
+- minecraft/models/block/bee_hive_honey.json
+- minecraft/models/block/bee_hive.json
++ minecraft/models/block/beehive_honey.json
++ minecraft/models/block/beehive.json
++ minecraft/models/block/honey_block.json
++ minecraft/models/block/honeycomb_block.json
+- minecraft/models/item/bee_hive.json
++ minecraft/models/item/beehive.json
++ minecraft/models/item/honey_block.json
++ minecraft/models/item/honeycomb_block.json
+- minecraft/textures/block/bee_hive_end.png
+- minecraft/textures/block/bee_hive_front_honey.png
+- minecraft/textures/block/bee_hive_front.png
+- minecraft/textures/block/bee_hive_side.png
++ minecraft/textures/block/beehive_end.png
++ minecraft/textures/block/beehive_front_honey.png
++ minecraft/textures/block/beehive_front.png
++ minecraft/textures/block/beehive_side.png
++ minecraft/textures/block/honey_block_bottom.png
++ minecraft/textures/block/honey_block_side.png
++ minecraft/textures/block/honey_block_top.png
++ minecraft/textures/block/honeycomb_block.png
+- minecraft/textures/entity/iron_golem.png
++ minecraft/textures/entity/iron_golem/iron_golem_crackiness_high.png
++ minecraft/textures/entity/iron_golem/iron_golem_crackiness_low.png
++ minecraft/textures/entity/iron_golem/iron_golem_crackiness_medium.png
++ minecraft/textures/entity/iron_golem/iron_golem.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ block_placer_type.txt
++ block_state_provider_type.txt
++ foliage_placer_type.txt
++ tree_decorator_type.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
+- minecraft:bee_hive
++ minecraft:beehive
++ minecraft:honey_block
++ minecraft:honeycomb_block
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
++ minecraft:acacia_tree
+- minecraft:birch_tree
++ minecraft:block_pile
+- minecraft:bush
+- minecraft:cactus
+- minecraft:dead_bush
+- minecraft:default_flower
+- minecraft:double_plant
++ minecraft:flower
+- minecraft:forest_flower
+- minecraft:general_forest_flower
+- minecraft:grass
+- minecraft:hay_pile
+- minecraft:hell_fire
+- minecraft:ice_pile
+- minecraft:jungle_grass
+- minecraft:jungle_tree
+- minecraft:mega_pine_tree
+- minecraft:melon
+- minecraft:melon_pile
+- minecraft:nether_spring
+- minecraft:pine_tree
+- minecraft:plain_flower
+- minecraft:pumpkin
+- minecraft:pumpkin_pile
++ minecraft:random_patch
+- minecraft:reed
+- minecraft:savanna_tree
+- minecraft:snow_pile
+- minecraft:spruce_tree
+- minecraft:super_birch_tree
+- minecraft:swamp_flower
+- minecraft:swamp_tree
+- minecraft:sweet_berry_bush
+- minecraft:taiga_grass
+- minecraft:waterlily
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
+- minecraft:bee_hive
++ minecraft:beehive
++ minecraft:honey_block
++ minecraft:honeycomb_block
+```
+
+</details>
+
+
+<details><summary>point_of_interest_type.txt</summary>
+
+```diff
+- minecraft:bee_hive
++ minecraft:beehive
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.honey_block.break
++ minecraft:block.honey_block.fall
++ minecraft:block.honey_block.hit
++ minecraft:block.honey_block.place
++ minecraft:block.honey_block.slide
++ minecraft:block.honey_block.step
++ minecraft:entity.iron_golem.damage
++ minecraft:entity.iron_golem.repair
+- minecraft:entity.parrot.imitate.panda
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ spectate.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- blocks/dirt_like.json
+```
+
+</details>
+
+
+<details><summary>blocks/bamboo_plantable_on.json</summary>
+
+```diff
+- #minecraft:dirt_like
++ minecraft:coarse_dirt
++ minecraft:dirt
++ minecraft:grass_block
++ minecraft:mycelium
++ minecraft:podzol
+```
+
+</details>
+
+
+<details><summary>blocks/beehives.json</summary>
+
+```diff
+- minecraft:bee_hive
++ minecraft:beehive
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- block.minecraft.bee_hive
++ block.minecraft.beehive
++ block.minecraft.honey_block
++ block.minecraft.honeycomb_block
++ commands.spectate.not_spectator
++ commands.spectate.self
++ commands.spectate.success.started
++ commands.spectate.success.stopped
++ options.key.hold
++ options.key.toggle
++ subtitles.block.honey_block.slide
++ subtitles.entity.iron_golem.damage
++ subtitles.entity.iron_golem.repair
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/stripped_acacia_wood.json
++ recipes/building_blocks/stripped_birch_wood.json
++ recipes/building_blocks/stripped_dark_oak_wood.json
++ recipes/building_blocks/stripped_jungle_wood.json
++ recipes/building_blocks/stripped_oak_wood.json
++ recipes/building_blocks/stripped_spruce_wood.json
+- recipes/decorations/bee_hive.json
++ recipes/decorations/beehive.json
++ recipes/decorations/honey_block.json
++ recipes/decorations/honeycomb_block.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
+- blocks/bee_hive.json
++ blocks/beehive.json
++ blocks/honey_block.json
++ blocks/honeycomb_block.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- bee_hive.json
++ beehive.json
++ honey_block.json
++ honeycomb_block.json
++ stripped_acacia_wood.json
++ stripped_birch_wood.json
++ stripped_dark_oak_wood.json
++ stripped_jungle_wood.json
++ stripped_oak_wood.json
++ stripped_spruce_wood.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/dirt_like.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/bee_hive_end.png
+- block/bee_hive_front_honey.png
+- block/bee_hive_front.png
+- block/bee_hive_side.png
++ block/beehive_end.png
++ block/beehive_front_honey.png
++ block/beehive_front.png
++ block/beehive_side.png
++ block/honey_block_bottom.png
++ block/honey_block_side.png
++ block/honey_block_top.png
++ block/honeycomb_block.png
+- entity/iron_golem.png
++ entity/iron_golem/iron_golem_crackiness_high.png
++ entity/iron_golem/iron_golem_crackiness_low.png
++ entity/iron_golem/iron_golem_crackiness_medium.png
++ entity/iron_golem/iron_golem.png
+```
+
+</details>

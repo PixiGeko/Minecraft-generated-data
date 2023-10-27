@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w17a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w17a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-04-22T13:47:50+00:00</td></tr>
@@ -10,3488 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f0f885d06c9763708f5a9aceb6d19965527bd8de/server.txt">https://piston-data.mojang.com/v1/objects/f0f885d06c9763708f5a9aceb6d19965527bd8de/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/0f9a4d6f9bc5b8fe3a3b5e1d6787f856de3d4f72/client.jar">https://piston-data.mojang.com/v1/objects/0f9a4d6f9bc5b8fe3a3b5e1d6787f856de3d4f72/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/843d3624652d77ac11eae6866efc2f7474912437/client.txt">https://piston-data.mojang.com/v1/objects/843d3624652d77ac11eae6866efc2f7474912437/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w16a">20w16a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/recipes/building_blocks/blackstone_wall.json
--  minecraft/advancements/recipes/building_blocks/blackstone_wall_from_blackstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_wall.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_blackstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/blackstone_wall.json
-+  minecraft/advancements/recipes/decorations/blackstone_wall_from_blackstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_wall.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
--  minecraft/advancements/recipes/decorations/soul_fire_lantern.json
--  minecraft/advancements/recipes/decorations/soul_fire_torch.json
-+  minecraft/advancements/recipes/decorations/soul_lantern.json
-+  minecraft/advancements/recipes/decorations/soul_torch.json
--  minecraft/loot_tables/blocks/soul_fire_lantern.json
--  minecraft/loot_tables/blocks/soul_fire_torch.json
-+  minecraft/loot_tables/blocks/soul_lantern.json
-+  minecraft/loot_tables/blocks/soul_torch.json
--  minecraft/recipes/soul_fire_lantern.json
--  minecraft/recipes/soul_fire_torch.json
-+  minecraft/recipes/soul_lantern.json
-+  minecraft/recipes/soul_torch.json
-+  minecraft/tags/blocks/pressure_plates.json
-+  minecraft/tags/blocks/stone_pressure_plates.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/blockstates/soul_fire_lantern.json
--  minecraft/blockstates/soul_fire_torch.json
--  minecraft/blockstates/soul_fire_wall_torch.json
-+  minecraft/blockstates/soul_lantern.json
-+  minecraft/blockstates/soul_torch.json
-+  minecraft/blockstates/soul_wall_torch.json
-+  minecraft/font/uniform.json
--  minecraft/models/block/soul_fire_lantern.json
--  minecraft/models/block/soul_fire_lantern_hanging.json
--  minecraft/models/block/soul_fire_torch.json
--  minecraft/models/block/soul_fire_wall_torch.json
-+  minecraft/models/block/soul_lantern.json
-+  minecraft/models/block/soul_lantern_hanging.json
-+  minecraft/models/block/soul_torch.json
-+  minecraft/models/block/soul_wall_torch.json
--  minecraft/models/item/soul_fire_lantern.json
--  minecraft/models/item/soul_fire_torch.json
-+  minecraft/models/item/soul_lantern.json
-+  minecraft/models/item/soul_torch.json
--  minecraft/textures/block/soul_fire_lantern.png
--  minecraft/textures/block/soul_fire_lantern.png.mcmeta
--  minecraft/textures/block/soul_fire_torch.png
-+  minecraft/textures/block/soul_lantern.png
-+  minecraft/textures/block/soul_lantern.png.mcmeta
-+  minecraft/textures/block/soul_torch.png
--  minecraft/textures/item/soul_fire_lantern.png
-+  minecraft/textures/item/soul_lantern.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
--  /tmp
--  tmp/world
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ feature_size_type.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:soul_fire_torch
-- minecraft:soul_fire_wall_torch
-- minecraft:soul_fire_lantern
-+ minecraft:soul_torch
-+ minecraft:soul_wall_torch
-+ minecraft:soul_lantern
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-- minecraft:normal_tree
-- minecraft:fancy_tree
-- minecraft:jungle_ground_bush
-- minecraft:dark_oak_tree
-- minecraft:mega_jungle_tree
-- minecraft:mega_spruce_tree
-+ minecraft:tree
-```
-
-</details>
-
-<details><summary>foliage_placer_type.txt</summary>
-
-```diff
-+ minecraft:bush_foliage_placer
-+ minecraft:fancy_foliage_placer
-+ minecraft:jungle_foliage_placer
-+ minecraft:mega_pine_foliage_placer
-+ minecraft:dark_oak_foliage_placer
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:soul_fire_torch
-- minecraft:soul_fire_lantern
-+ minecraft:soul_torch
-+ minecraft:soul_lantern
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.chain.break
-+ minecraft:block.chain.fall
-+ minecraft:block.chain.hit
-+ minecraft:block.chain.place
-+ minecraft:block.chain.step
-+ minecraft:block.gilded_blackstone.break
-+ minecraft:block.gilded_blackstone.fall
-+ minecraft:block.gilded_blackstone.hit
-+ minecraft:block.gilded_blackstone.place
-+ minecraft:block.gilded_blackstone.step
-+ minecraft:block.nether_gold_ore.break
-+ minecraft:block.nether_gold_ore.fall
-+ minecraft:block.nether_gold_ore.hit
-+ minecraft:block.nether_gold_ore.place
-+ minecraft:block.nether_gold_ore.step
-```
-
-</details>
-
-<details><summary>trunk_placer_type.txt</summary>
-
-```diff
-+ minecraft:giant_trunk_placer
-+ minecraft:mega_jungle_trunk_placer
-+ minecraft:dark_oak_trunk_placer
-+ minecraft:fancy_trunk_placer
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ attribute.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/pressure_plates.json
-+ blocks/stone_pressure_plates.json
-```
-
-</details>
-
-<details><summary>blocks/piglin_repellents.json</summary>
-
-```diff
-- minecraft:soul_fire_torch
-- minecraft:soul_fire_lantern
-- minecraft:soul_fire_wall_torch
-+ minecraft:soul_torch
-+ minecraft:soul_lantern
-+ minecraft:soul_wall_torch
-```
-
-</details>
-
-<details><summary>blocks/wall_post_override.json</summary>
-
-```diff
-- minecraft:soul_fire_torch
-+ minecraft:soul_torch
-+ #minecraft:banners
-+ #minecraft:pressure_plates
-```
-
-</details>
-
-<details><summary>items/piglin_repellents.json</summary>
-
-```diff
-- minecraft:soul_fire_torch
-- minecraft:soul_fire_lantern
-+ minecraft:soul_torch
-+ minecraft:soul_lantern
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/blackstone_wall.json
-- recipes/building_blocks/blackstone_wall_from_blackstone_stonecutting.json
-- recipes/building_blocks/polished_blackstone_brick_wall.json
-- recipes/building_blocks/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
-- recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
-- recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
-- recipes/building_blocks/polished_blackstone_wall.json
-- recipes/building_blocks/polished_blackstone_wall_from_blackstone_stonecutting.json
-- recipes/building_blocks/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
-- recipes/decorations/soul_fire_lantern.json
-- recipes/decorations/soul_fire_torch.json
-+ recipes/decorations/blackstone_wall.json
-+ recipes/decorations/blackstone_wall_from_blackstone_stonecutting.json
-+ recipes/decorations/polished_blackstone_brick_wall.json
-+ recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
-+ recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
-+ recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
-+ recipes/decorations/polished_blackstone_wall.json
-+ recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting.json
-+ recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
-+ recipes/decorations/soul_lantern.json
-+ recipes/decorations/soul_torch.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/soul_fire_lantern.json
-- blocks/soul_fire_torch.json
-+ blocks/soul_lantern.json
-+ blocks/soul_torch.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- soul_fire_lantern.json
-- soul_fire_torch.json
-+ soul_lantern.json
-+ soul_torch.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/pressure_plates.json
-+ blocks/stone_pressure_plates.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/soul_fire_lantern.png
-- block/soul_fire_torch.png
-- item/soul_fire_lantern.png
-+ block/soul_lantern.png
-+ block/soul_torch.png
-+ item/soul_lantern.png
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:uuid
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.ibm.icu:icu4j-core-mojang:51.2
-+ com.ibm.icu:icu4j:66.1
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.InputConstants</summary>
-
-```diff
-- String translateKeyCode(int)
-- String translateScanCode(int)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.InputConstants$Key</summary>
-
-```diff
-+ LazyLoadedValue displayName
-+ Component getDisplayName()
-+ Component lambda$new$0(String)
-+ Map access$200()
-- Map access$100()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.RowButton</summary>
-
-```diff
-+ void draw(com.mojang.blaze3d.vertex.PoseStack,int,int,boolean)
-- void draw(int,int,boolean)
-+ void drawButtonsInRow(RealmsObjectSelectionList,int,int,int,int)
-+ void drawForRowAt(PoseStack,int,int,int,int)
-- void drawButtonsInRow(RealmsObjectSelectionList,int,int,int,int)
-- void drawForRowAt(int,int,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen$BackupInfoList</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderItem(PoseStack,int,int,int,int,int,int,float)
-- void render(int,int,float)
-- void renderItem(int,int,int,int,int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
-
-```diff
-+ void drawInfo(PoseStack,int,int,int,int)
-+ void drawRestore(PoseStack,int,int,int,int)
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-+ void renderBackupItem(Backup,int,int,int,int)
-- void drawInfo(int,int,int,int)
-- void drawRestore(int,int,int,int)
-- void render(int,int,int,int,int,int,int,boolean,float)
-- void renderBackupItem(Backup,int,int,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsClientOutdatedScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsCreateRealmScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsInviteScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
-
-```diff
-+ void drawIcons(PoseStack,int,int)
-+ void render(PoseStack,int,int,float)
-- void drawIcons(int,int)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsParentalConsentScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$Entry$AcceptRowButton</summary>
-
-```diff
-+ void draw(PoseStack,int,int,boolean)
-- void draw(int,int,boolean)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$PendingInvitationSelectionList</summary>
-
-```diff
-+ void renderBackground(PoseStack)
-- void renderBackground()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$Entry</summary>
-
-```diff
-+ void lambda$renderInvitedItem$0(PoseStack,int)
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-+ void renderInvitedItem(PlayerInfo,int,int,int,int)
-- void lambda$renderInvitedItem$0(int)
-- void render(int,int,int,int,int,int,int,boolean,float)
-- void renderInvitedItem(PlayerInfo,int,int,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
-
-```diff
-+ Component buttonTitle
-+ Component[] levelTypes
-- String buttonTitle
-- String[] levelTypes
-+ Component generateStructuresTitle()
-+ Component levelTypeTitle()
-+ void <init>(Component)
-+ void render(PoseStack,int,int,float)
-- String generateStructuresTitle()
-- String levelTypeTitle()
-- void <init>(String)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen$FrameButton</summary>
-
-```diff
-+ void <init>(Button$OnPress)
-+ void renderButton(PoseStack,int,int,float)
-- void <init>(Button$OnPress)
-- void renderButton(int,int,float)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$WorldSelectionList</summary>
-
-```diff
-+ void renderBackground(PoseStack)
-- void renderBackground()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
-
-```diff
-+ void renderBackground(PoseStack)
-- void renderBackground()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
-
-```diff
-+ Component[] DIFFICULTIES
-+ Component[] GAME_MODES
-+ TranslatableComponent TEXT_OFF
-+ TranslatableComponent TEXT_ON
-- String[] DIFFICULTIES
-- String[] GAME_MODES
-+ Component commandBlocksTitle()
-+ Component difficultyTitle()
-+ Component forceGameModeTitle()
-+ Component gameModeTitle()
-+ Component getOnOff(boolean)
-+ Component pvpTitle()
-+ Component spawnAnimalsTitle()
-+ Component spawnMonstersTitle()
-+ Component spawnNPCsTitle()
-+ void render(PoseStack,int,int,float)
-- String commandBlocksTitle()
-- String difficultyTitle()
-- String forceGameModeTitle()
-- String gameModeTitle()
-- String getOnOff(boolean)
-- String pvpTitle()
-- String spawnAnimalsTitle()
-- String spawnMonstersTitle()
-- String spawnNPCsTitle()
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSubscriptionInfoScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.task.LongRunningTask</summary>
-
-```diff
-+ void error(Component)
-- void error(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-- String filterUnicodeSupplementary(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ ResourceLocation UNIFORM_FONT
-+ Music getSituationalMusic()
-+ Style lambda$grabHugeScreenshot$31(Style)
-+ Style lambda$grabPanoramixScreenshot$30(Style)
-+ void renderFpsMeter(ProfileResults)
-+ void selectLevel(LevelSettings)
-+ void selectMainFont(boolean)
-- FontManager getFontManager()
-- MusicManager$Music getSituationalMusic()
-- void lambda$grabHugeScreenshot$31(Style)
-- void lambda$grabPanoramixScreenshot$30(Style)
-- void renderFpsMeter(ProfileResults)
-- void selectLevel(LevelSettings)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.NarratorStatus</summary>
-
-```diff
-+ Component name
-- String key
-+ Component getName()
-- String getKey()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ float entityDistanceScaling
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.ProgressOption</summary>
-
-```diff
-+ Component getMessage(Options)
-- String getMessage(Options)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.Screenshot</summary>
-
-```diff
-+ Style lambda$null$1(Style)
-- void lambda$null$1(Style)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.FontSet</summary>
-
-```diff
-+ Int2ObjectMap glyphInfos
-+ Int2ObjectMap glyphs
-- Char2ObjectMap glyphInfos
-- Char2ObjectMap glyphs
-- Logger LOGGER
-+ BakedGlyph getGlyph(int)
-+ BakedGlyph lambda$getGlyph$4(int)
-+ GlyphInfo getGlyphInfo(int)
-+ GlyphInfo lambda$getGlyphInfo$3(int)
-+ IntList lambda$null$1(int)
-+ RawGlyph getRaw(int)
-+ void lambda$reload$2(Set,int)
-- BakedGlyph getGlyph(char)
-- BakedGlyph lambda$getGlyph$3(int)
-- CharList lambda$reload$1(int)
-- GlyphInfo getGlyphInfo(char)
-- GlyphInfo lambda$getGlyphInfo$2(int)
-- RawGlyph getRaw(char)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.font.TextFieldHelper</summary>
-
-```diff
-+ Consumer setClipboardFn
-+ Predicate stringValidator
-+ Supplier getClipboardFn
-- Font font
-- int maxWidth
-- Minecraft minecraft
-+ boolean isSelecting()
-+ Consumer createClipboardSetter(Minecraft)
-+ int clampToMsgLength(int)
-+ String deleteSelection(String)
-+ String getClipboardContents(Minecraft)
-+ String getSelected(String)
-+ String lambda$createClipboardGetter$0(Minecraft)
-+ Supplier createClipboardGetter(Minecraft)
-+ void <init>(Predicate)
-+ void copy()
-+ void cut()
-+ void insertText(String)
-+ void lambda$createClipboardSetter$1(String)
-+ void moveByChars(int,boolean)
-+ void moveByChars(int)
-+ void moveByWords(int,boolean)
-+ void moveByWords(int)
-+ void paste()
-+ void removeCharsFromCursor(int)
-+ void resetSelectionIfNeeded(boolean)
-+ void selectAll()
-+ void setClipboardContents(String)
-+ void setCursorPos(int,boolean)
-+ void setCursorPos(int)
-+ void setEnd(boolean)
-+ void setSelectionPos(int)
-+ void setSelectionRange(int,int)
-+ void setStart(boolean)
-- String getSelected()
-- void <init>(Consumer,int)
-- void deleteSelection()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.providers.BitmapProvider</summary>
-
-```diff
-+ Int2ObjectMap glyphs
-- Char2ObjectMap glyphs
-+ IntSet getSupportedGlyphs()
-+ RawGlyph getGlyph(int)
-+ void <init>(BitmapProvider$1)
-+ void <init>(Int2ObjectMap)
-- RawGlyph getGlyph(char)
-- void <init>(Char2ObjectMap)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider</summary>
-
-```diff
-+ IntSet getSupportedGlyphs()
-+ RawGlyph getGlyph(int)
-+ ResourceLocation getSheetLocation(int)
-- RawGlyph getGlyph(char)
-- ResourceLocation getSheetLocation(char)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.AlertScreen</summary>
-
-```diff
-+ Component okButton
-- String okButton
-+ void <init>(Component)
-+ void render(PoseStack,int,int,float)
-- void <init>(String)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ConfirmLinkScreen</summary>
-
-```diff
-+ Component copyButton
-+ Component warning
-- String copyButton
-- String warning
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
-
-```diff
-+ Component createGeneratorString(int)
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
-
-```diff
-+ Component columnHeight
-+ Component columnType
-- String columnHeight
-- String columnType
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.DeathScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.DirectJoinServerScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.EditServerScreen</summary>
-
-```diff
-+ Component createServerButtonText(ServerData$ServerPackStatus)
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.GenericDirtMessageScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
-
-```diff
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-- void render(int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
-
-```diff
-+ void drawProgressBar(PoseStack,int,int,int,int,float)
-+ void render(PoseStack,int,int,float)
-- void drawProgressBar(int,int,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ Component listText
-+ Component shareText
-- String listText
-- String shareText
-+ void preset(FlatLayerInfo[])
-+ void render(PoseStack,int,int,float)
-- void preset(FlatLayerInfo[])
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ProgressScreen</summary>
-
-```diff
-+ Component header
-+ Component stage
-- String stage
-- String title
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.Screen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBackground(PoseStack,int)
-+ void renderBackground(PoseStack)
-+ void renderComponentHoverEffect(Component,int,int)
-+ void renderTooltip(Component,int,int)
-+ void renderTooltip(ItemStack,int,int)
-+ void renderTooltip(List,int,int)
-- void render(int,int,float)
-- void renderBackground()
-- void renderBackground(int)
-- void renderComponentHoverEffect(Component,int,int)
-- void renderTooltip(ItemStack,int,int)
-- void renderTooltip(List,int,int)
-- void renderTooltip(String,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
-
-```diff
-+ Component getMessage(PlayerModelPart)
-+ void render(PoseStack,int,int,float)
-- String getMessage(PlayerModelPart)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.WinScreen</summary>
-
-```diff
-+ IntSet centeredLines
-+ String OBFUSCATE_TOKEN
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList$Entry</summary>
-
-```diff
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-- void render(int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList</summary>
-
-```diff
-+ void renderBackground(PoseStack)
-- void renderBackground()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTab</summary>
-
-```diff
-+ Component title
-- String title
-+ Component getTitle()
-+ void drawContents(PoseStack)
-+ void drawTab(PoseStack,int,int,boolean)
-+ void drawTooltips(PoseStack,int,int,int,int)
-- String getTitle()
-- void drawContents()
-- void drawTab(int,int,boolean)
-- void drawTooltips(int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry$1</summary>
-
-```diff
-+ Component val$name
-+ MutableComponent createNarrationMessage()
-+ void <init>(Component)
-- String getNarrationMessage()
-- void <init>(KeyMapping)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.controls.ControlsScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractContainerScreen</summary>
-
-```diff
-+ void renderBg(com.mojang.blaze3d.vertex.PoseStack,float,int,int)
-- void renderBg(float,int,int)
-+ void render(PoseStack,int,int,float)
-+ void renderLabels(PoseStack,int,int)
-+ void renderSlot(Slot)
-+ void renderTooltip(PoseStack,int,int)
-- void render(int,int,float)
-- void renderLabels(int,int)
-- void renderSlot(Slot)
-- void renderTooltip(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
-
-```diff
-+ void renderFg(PoseStack,int,int,float)
-+ void renderLabels(PoseStack,int,int)
-- void renderFg(int,int,float)
-- void renderLabels(int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconConfirmButton</summary>
-
-```diff
-+ void renderToolTip(PoseStack,int,int)
-- void renderToolTip(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconScreenButton</summary>
-
-```diff
-+ void renderIcon(com.mojang.blaze3d.vertex.PoseStack)
-- void renderIcon()
-+ void renderButton(PoseStack,int,int,float)
-- void renderButton(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen$Pos2i</summary>
-
-```diff
-- BookEditScreen this$0
-+ void <init>(int,int)
-- int access$000(BookEditScreen$Pos2i)
-- int access$002(BookEditScreen$Pos2i,int)
-- int access$100(BookEditScreen$Pos2i)
-- int access$102(BookEditScreen$Pos2i,int)
-- void <init>(BookEditScreen,int,int)
-- void <init>(BookEditScreen)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BrewingStandScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderLabels(PoseStack,int,int)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderLabels(int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.ContainerScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderLabels(PoseStack,int,int)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderLabels(int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBackgrounds(Iterable)
-+ void renderEffects(PoseStack)
-+ void renderIcons(Iterable)
-+ void renderLabels(Iterable)
-- void render(int,int,float)
-- void renderBackgrounds(Iterable)
-- void renderEffects()
-- void renderIcons(Iterable)
-- void renderLabels(Iterable)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.EnchantmentScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderLabels(PoseStack,int,int)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderLabels(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.GrindstoneScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderLabels(PoseStack,int,int)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderLabels(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.HorseInventoryScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderLabels(PoseStack,int,int)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderLabels(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.ItemCombinerScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderFg(PoseStack,int,int,float)
-- void render(int,int,float)
-- void renderBg(float,int,int)
-- void renderFg(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen$1</summary>
-
-```diff
-+ void <init>(Component,double)
-- void <init>(String,double)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen$TradeOfferButton</summary>
-
-```diff
-+ void renderToolTip(PoseStack,int,int)
-- void renderToolTip(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.PageButton</summary>
-
-```diff
-+ void renderButton(PoseStack,int,int,float)
-- void renderButton(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.SignEditScreen</summary>
-
-```diff
-+ String[] messages
-+ boolean lambda$init$4(String)
-+ String lambda$init$2()
-+ void lambda$init$1(Button)
-+ void lambda$init$3(String)
-+ void lambda$new$0(String[])
-+ void render(PoseStack,int,int,float)
-- String lambda$init$1()
-- String lambda$render$3(Component)
-- void lambda$init$0(Button)
-- void lambda$init$2(String)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.SafetyScreen</summary>
-
-```diff
-+ Component CHECK
-+ Component CONTENT
-+ Component NARRATION
-+ Component TITLE
-- Component back
-- Component check
-- Component content
-- Component proceed
-- Component title
-+ void <clinit>()
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$NetworkServerEntry</summary>
-
-```diff
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-- void render(int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent</summary>
-
-```diff
-+ Component getRecipeFilterName()
-- String getRecipeFilterName()
-+ Component getFilterButtonTooltip()
-+ void renderGhostRecipe(PoseStack,int,int,boolean,float)
-- String getFilterButtonTooltip()
-- void renderGhostRecipe(int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.GhostRecipe</summary>
-
-```diff
-+ void render(Minecraft,int,int,boolean,float)
-- void render(Minecraft,int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
-
-```diff
-+ void nineInchSprite(PoseStack,int,int,int,int,int,int)
-+ void render(PoseStack,int,int,float)
-- void nineInchSprite(int,int,int,int,int,int)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
-
-```diff
-+ Component getFilterButtonTooltip()
-+ void render(PoseStack,int,int,float)
-+ void renderGhostRecipe(PoseStack,int,int,boolean,float)
-+ void renderGhostRecipeTooltip(PoseStack,int,int,int,int)
-+ void renderTooltip(PoseStack,int,int,int,int)
-- String getFilterButtonTooltip()
-- void render(int,int,float)
-- void renderGhostRecipe(int,int,boolean,float)
-- void renderGhostRecipeTooltip(int,int,int,int)
-- void renderTooltip(int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton</summary>
-
-```diff
-+ void renderButton(PoseStack,int,int,float)
-- void renderButton(int,int,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.SmokingRecipeBookComponent</summary>
-
-```diff
-+ Component getRecipeFilterName()
-- String getRecipeFilterName()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.resourcepacks.ResourcePackSelectScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.resourcepacks.lists.ResourcePackList$ResourcePackEntry</summary>
-
-```diff
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-- String getDescription()
-- String getName()
-- void render(int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$1</summary>
-
-```diff
-+ MutableComponent createNarrationMessage()
-+ void <init>(Component)
-- String getNarrationMessage()
-- void <init>(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$3</summary>
-
-```diff
-+ Component getMessage()
-+ void <init>(Button$OnPress)
-- String getMessage()
-- String getNarrationMessage()
-- void <init>(Button$OnPress)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$5</summary>
-
-```diff
-+ Component getMessage()
-+ MutableComponent createNarrationMessage()
-+ void <init>(Button$OnPress)
-- String getMessage()
-- String getNarrationMessage()
-- void <init>(Button$OnPress)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$7</summary>
-
-```diff
-+ CreateWorldScreen this$0
-- int[] $SwitchMap$net$minecraft$client$gui$screens$worldselection$CreateWorldScreen$SelectedGameMode
-+ Component getMessage()
-+ void <init>(Button$OnPress)
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
-
-```diff
-+ void render(PoseStack,int,int,float)
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.SelectWorldScreen</summary>
-
-```diff
-+ List toolTip
-- String toolTip
-+ void render(PoseStack,int,int,float)
-+ void setToolTip(List)
-- void render(int,int,float)
-- void setToolTip(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
-
-```diff
-+ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-- void render(int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.spectator.PlayerMenuItem</summary>
-
-```diff
-+ void renderIcon(PoseStack,float,int)
-- void renderIcon(float,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu$CloseSpectatorItem</summary>
-
-```diff
-+ void renderIcon(PoseStack,float,int)
-- void renderIcon(float,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToPlayerMenuCategory</summary>
-
-```diff
-+ void renderIcon(PoseStack,float,int)
-- void renderIcon(float,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem</summary>
-
-```diff
-+ void renderIcon(PoseStack,float,int)
-- void renderIcon(float,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.map.Map</summary>
-
-```diff
-+ BiomeSource biomesource
-+ boolean redrawNextTick
-+ double newScale
-+ double scale
-+ OptionalLong seed
-- int scale
-- Layer layer
-+ boolean access$302(Map,boolean)
-+ boolean access$802(Map,boolean)
-+ double access$400(Map)
-+ double access$402(Map,double)
-+ double access$500(Map)
-+ double access$502(Map,double)
-+ double getNewScale()
-+ int access$602(Map,int)
-+ int access$702(Map,int)
-+ OptionalLong access$202(OptionalLong)
-+ String access$102(String)
-+ void <init>(int,int,double)
-+ void updateIndicators()
-- boolean access$402(Map,boolean)
-- int access$100(Map)
-- int access$102(Map,int)
-- int access$200(Map)
-- int access$300(Map)
-- int access$302(Map,int)
-- Layer access$500(Map)
-- String access$002(String)
-- String access$802(String)
-- void <init>(int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.map.Map$2</summary>
-
-```diff
-+ void mouseWheelMoved(MouseWheelEvent)
-- void mouseDragged(MouseEvent)
-- void mouseMoved(MouseEvent)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
-
-```diff
-+ Style lambda$performCommand$2(Style)
-+ Style lambda$performCommand$3(Style)
-- void lambda$performCommand$2(Style)
-- void lambda$performCommand$3(Style)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
-
-```diff
-+ boolean matchesSubStr(String)
-- boolean matches(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
-
-```diff
-+ DynamicCommandExceptionType ERROR_UNKNOWN_ATTRIBUTE
-+ Attribute getAttribute(String)
-+ CommandSyntaxException lambda$getAttribute$5(ResourceLocation)
-+ CommandSyntaxException lambda$getRecipe$4(ResourceLocation)
-+ Message lambda$static$3(Object)
-- CommandSyntaxException lambda$getRecipe$3(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
-
-```diff
-+ BaseComponent toMutable()
-+ MutableComponent toMutable()
-+ NbtComponent$BlockNbtComponent toMutable()
-- Component copy()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
-
-```diff
-+ BaseComponent toMutable()
-+ MutableComponent toMutable()
-+ NbtComponent$StorageNbtComponent toMutable()
-- Component copy()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
-
-```diff
-+ BaseComponent toMutable()
-+ MutableComponent resolve(Entity,int)
-+ MutableComponent toMutable()
-+ SelectorComponent toMutable()
-- Component copy()
-- Component resolve(Entity,int)
-- SelectorComponent copy()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.Style$1</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$ChatFormatting
-+ void <clinit>()
-- boolean isBold()
-- boolean isItalic()
-- boolean isObfuscated()
-- boolean isStrikethrough()
-- boolean isUnderlined()
-- ChatFormatting getColor()
-- ClickEvent getClickEvent()
-- HoverEvent getHoverEvent()
-- String getInsertion()
-- String getLegacyFormatCodes()
-- String toString()
-- Style copy()
-- Style flatCopy()
-- Style inheritFrom(Style)
-- Style setBold(Boolean)
-- Style setClickEvent(ClickEvent)
-- Style setColor(ChatFormatting)
-- Style setHoverEvent(HoverEvent)
-- Style setItalic(Boolean)
-- Style setObfuscated(Boolean)
-- Style setStrikethrough(Boolean)
-- Style setUnderlined(Boolean)
-- void <init>()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer$1</summary>
-
-```diff
-- MinecraftServer this$0
-+ void <init>()
-- void <init>(MinecraftServer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
-
-```diff
-+ DataFixer dataFixer
-+ LevelStorageSource$LevelStorageAccess levelStorage
-- File pathToWorld
-- LevelStorage levelStorage
-+ void <init>(WorldData,boolean)
-- void <init>(LevelData,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ int clientTrackingRange
-+ int updateInterval
-+ int clientTrackingRange()
-+ void <init>(EntityDimensions,int,int)
-- int chunkRange()
-- void <init>(EntityDimensions)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean canSpawnSoulSpeedParticle()
-+ boolean onSoulSpeedBlock()
-+ void spawnSoulSpeedParticle()
-- void doSoulSpeedParticles()
-- void updateSprintingState()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeMap</summary>
-
-```diff
-+ boolean hasAttribute(Attribute)
-+ boolean hasModifier(UUID)
-+ double getModifierValue(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean onSoulSpeedBlock()
-+ MutableComponent decorateDisplayNameComponent(MutableComponent)
-+ Style lambda$decorateDisplayNameComponent$4(Style)
-- Component decorateDisplayNameComponent(Component)
-- void lambda$decorateDisplayNameComponent$4(Style)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.RecipeHolder</summary>
-
-```diff
-+ void awardUsedRecipes(Player)
-- void awardAndReset(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ Entity entityRepresentation
-+ Style LORE_STYLE
-- ItemFrame frame
-+ Entity getEntityRepresentation()
-+ MutableComponent lambda$expandBlockState$2(MutableComponent)
-+ Style lambda$getDisplayName$3(Style)
-+ void setEntityRepresentation(Entity)
-- Component lambda$expandBlockState$2(Component)
-- void lambda$getDisplayName$3(Style)
-- void setFramed(ItemFrame)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.RecordItem</summary>
-
-```diff
-+ MutableComponent getDisplayName()
-- Component getDisplayName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
-
-```diff
-+ GameRules copy()
-+ GameRules$Key register(GameRules$Type)
-+ GameRules$Value lambda$copy$6(Map$Entry)
-+ void <init>(Map)
-+ void assignCap(MinecraftServer)
-+ void assignFrom(MinecraftServer)
-+ void callVisitorCap(GameRules$Type)
-+ void lambda$assignFrom$8(GameRules$Key)
-+ void lambda$visitGameRuleTypes$7(GameRules$Type)
-- GameRules$Key register(GameRules$Type)
-- void cap(GameRules$Type)
-- void lambda$visitGameRuleTypes$6(GameRules$Type)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.GameRules$BooleanValue</summary>
-
-```diff
-+ GameRules$BooleanValue copy()
-+ GameRules$Value copy()
-+ void setFrom(MinecraftServer)
-+ void setFrom(MinecraftServer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelSettings</summary>
-
-```diff
-+ Difficulty difficulty
-+ GameRules gameRules
-+ String levelName
-+ boolean shouldGenerateMapFeatures()
-+ Difficulty getDifficulty()
-+ GameRules getGameRules()
-+ String getLevelName()
-+ void <init>(ChunkGeneratorProvider)
-+ void <init>(GameRules)
-- boolean isGenerateMapFeatures()
-- void <init>(ChunkGeneratorProvider)
-- void <init>(LevelData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ Object lambda$null$10(Biome$SpawnerData)
-+ Object lambda$null$5(ConfiguredWorldCarver)
-+ Object lambda$null$7(ConfiguredFeature)
-+ Optional getBackgroundMusic()
-+ Pair lambda$serialize$11(Map$Entry)
-+ Pair lambda$serialize$6(Map$Entry)
-+ Pair lambda$serialize$8(Map$Entry)
-+ Stream optimalParameters()
-- float getFitness(Biome$ClimateParameters)
-- Float lambda$getFitness$5(Biome$ClimateParameters)
-- Object lambda$null$11(Biome$SpawnerData)
-- Object lambda$null$6(ConfiguredWorldCarver)
-- Object lambda$null$8(ConfiguredFeature)
-- Pair lambda$serialize$10(Map$Entry)
-- Pair lambda$serialize$12(Map$Entry)
-- Pair lambda$serialize$7(Map$Entry)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeDefaultFeatures</summary>
-
-```diff
-+ BeehiveDecorator BEEHIVE_0002
-+ BeehiveDecorator BEEHIVE_002
-+ BeehiveDecorator BEEHIVE_005
-+ TreeConfiguration ACACIA_TREE_CONFIG
-+ TreeConfiguration BIRCH_TREE_CONFIG
-+ TreeConfiguration BIRCH_TREE_WITH_BEES_0002_CONFIG
-+ TreeConfiguration BIRCH_TREE_WITH_BEES_002_CONFIG
-+ TreeConfiguration BIRCH_TREE_WITH_BEES_005_CONFIG
-+ TreeConfiguration DARK_OAK_TREE_CONFIG
-+ TreeConfiguration FANCY_TREE_CONFIG
-+ TreeConfiguration FANCY_TREE_WITH_BEES_0002_CONFIG
-+ TreeConfiguration FANCY_TREE_WITH_BEES_002_CONFIG
-+ TreeConfiguration FANCY_TREE_WITH_BEES_005_CONFIG
-+ TreeConfiguration JUNGLE_TREE_CONFIG
-+ TreeConfiguration JUNGLE_TREE_NOVINE_CONFIG
-+ TreeConfiguration MEGA_JUNGLE_TREE_CONFIG
-+ TreeConfiguration MEGA_PINE_TREE_CONFIG
-+ TreeConfiguration MEGA_SPRUCE_TREE_CONFIG
-+ TreeConfiguration NORMAL_TREE_CONFIG
-+ TreeConfiguration NORMAL_TREE_WITH_BEES_0002_CONFIG
-+ TreeConfiguration NORMAL_TREE_WITH_BEES_002_CONFIG
-+ TreeConfiguration NORMAL_TREE_WITH_BEES_005_CONFIG
-+ TreeConfiguration PINE_TREE_CONFIG
-+ TreeConfiguration SPRUCE_TREE_CONFIG
-+ TreeConfiguration SUPER_BIRCH_TREE_WITH_BEES_0002_CONFIG
-+ TreeConfiguration SWAMP_TREE_CONFIG
-- MegaTreeConfiguration DARK_OAK_TREE_CONFIG
-- MegaTreeConfiguration MEGA_JUNGLE_TREE_CONFIG
-- MegaTreeConfiguration MEGA_PINE_TREE_CONFIG
-- MegaTreeConfiguration MEGA_SPRUCE_TREE_CONFIG
-- SmallTreeConfiguration ACACIA_TREE_CONFIG
-- SmallTreeConfiguration BIRCH_TREE_CONFIG
-- SmallTreeConfiguration BIRCH_TREE_WITH_BEES_0002_CONFIG
-- SmallTreeConfiguration BIRCH_TREE_WITH_BEES_002_CONFIG
-- SmallTreeConfiguration BIRCH_TREE_WITH_BEES_005_CONFIG
-- SmallTreeConfiguration FANCY_TREE_CONFIG
-- SmallTreeConfiguration FANCY_TREE_WITH_BEES_0002_CONFIG
-- SmallTreeConfiguration FANCY_TREE_WITH_BEES_002_CONFIG
-- SmallTreeConfiguration FANCY_TREE_WITH_BEES_005_CONFIG
-- SmallTreeConfiguration JUNGLE_TREE_CONFIG
-- SmallTreeConfiguration JUNGLE_TREE_NOVINE_CONFIG
-- SmallTreeConfiguration NORMAL_TREE_CONFIG
-- SmallTreeConfiguration NORMAL_TREE_WITH_BEES_0002_CONFIG
-- SmallTreeConfiguration NORMAL_TREE_WITH_BEES_002_CONFIG
-- SmallTreeConfiguration NORMAL_TREE_WITH_BEES_005_CONFIG
-- SmallTreeConfiguration PINE_TREE_CONFIG
-- SmallTreeConfiguration SPRUCE_TREE_CONFIG
-- SmallTreeConfiguration SUPER_BIRCH_TREE_WITH_BEES_0002_CONFIG
-- SmallTreeConfiguration SWAMP_TREE_CONFIG
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
-
-```diff
-+ Optional backgroundMusic
-+ Optional getBackgroundMusic()
-+ void <init>(BiomeSpecialEffects$1)
-+ void <init>(Optional)
-- void <init>(BiomeSpecialEffects$1)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
-
-```diff
-+ Optional backgroundMusic
-+ BiomeSpecialEffects$Builder backgroundMusic(Music)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
-
-```diff
-+ boolean useY
-+ List parameters
-+ NormalNoise altitudeNoise
-+ NormalNoise humidityNoise
-+ NormalNoise temperatureNoise
-+ NormalNoise weirdnessNoise
-- PerlinNoise altitudeNoise
-- PerlinNoise humidityNoise
-- PerlinNoise temperatureNoise
-- PerlinNoise weirdnessNoise
-+ Float lambda$getNoiseBiome$0(Pair)
-- Float lambda$getNoiseBiome$0(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractSkullBlock</summary>
-
-```diff
-+ boolean isPathfindable(PathComputationType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ MutableComponent getName()
-- Component getName()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block SOUL_LANTERN
-+ Block SOUL_TORCH
-+ Block SOUL_WALL_TORCH
-- Block SOUL_FIRE_LANTERN
-- Block SOUL_FIRE_TORCH
-- Block SOUL_FIRE_WALL_TORCH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
-
-```diff
-+ boolean isPathfindable(PathComputationType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
-
-```diff
-+ boolean canSetSpawn(Level)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
-
-```diff
-+ List getRecipesToAwardAndPopExperience(Vec3)
-+ void awardUsedRecipes(Player)
-+ void awardUsedRecipesAndPopExperience(Player)
-+ void createExperience(Vec3,int,float)
-+ void lambda$getRecipesToAwardAndPopExperience$1(Recipe)
-- void awardAndReset(Player)
-- void awardResetAndExperience(Player)
-- void createExperience(Player,int,float)
-- void lambda$awardResetAndExperience$1(Recipe)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.border.WorldBorder</summary>
-
-```diff
-+ WorldBorder$Settings DEFAULT_SETTINGS
-+ void <clinit>()
-+ void applySettings(WorldBorder$Settings)
-+ WorldBorder$Settings createSettings()
-- void readBorderData(LevelData)
-- void saveWorldBorderData(LevelData)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DeltaFeature</summary>
-
-```diff
-+ ImmutableList CANNOT_REPLACE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ boolean isAirOrLeaves(BlockPos)
-+ boolean isBlockWater(BlockPos)
-+ boolean isFree(BlockPos)
-+ boolean isGrassOrDirtOrFarmland(BlockPos)
-+ boolean isReplaceablePlant(BlockPos)
-+ boolean isVine(BlockPos)
-+ boolean lambda$isAirOrLeaves$3(BlockState)
-+ boolean lambda$isBlockWater$2(BlockState)
-+ boolean lambda$isFree$0(BlockState)
-+ boolean lambda$isGrassOrDirtOrFarmland$4(BlockState)
-+ boolean lambda$isReplaceablePlant$5(BlockState)
-+ boolean lambda$isVine$1(BlockState)
-+ boolean place(FeatureConfiguration)
-+ boolean place(TreeConfiguration)
-+ boolean validTreePos(BlockPos)
-+ DiscreteVoxelShape updateLeaves(Set)
-+ void lambda$doPlace$6(FoliagePlacer$FoliageAttachment)
-+ void lambda$place$7(TreeDecorator)
-+ void setBlock(BlockState)
-+ void setBlockKnownShape(BlockState)
-+ void simulate(FeatureConfiguration)
-+ void simulate(TreeConfiguration)
-- boolean doPlace(SmallTreeConfiguration)
-- void lambda$doPlace$0(Integer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder</summary>
-
-```diff
-+ boolean ignoreVines
-+ FeatureSize minimumSize
-+ FoliagePlacer foliagePlacer
-+ Heightmap$Types heightmap
-+ int maxWaterDepth
-+ TrunkPlacer trunkPlacer
-- int baseHeight
-+ TreeConfiguration$TreeConfigurationBuilder heightmap(Heightmap$Types)
-+ TreeConfiguration$TreeConfigurationBuilder ignoreVines()
-+ TreeConfiguration$TreeConfigurationBuilder maxWaterDepth(int)
-+ void <init>(FeatureSize)
-- TreeConfiguration$TreeConfigurationBuilder baseHeight(int)
-- void <init>(BlockStateProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
-
-```diff
-+ boolean shouldSkipLocation(java.util.Random,int,int,int,int,boolean)
-+ int foliageHeight(java.util.Random,int,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-+ void createFoliage(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration,int,net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment,int,int,java.util.Set,int)
-- boolean shouldSkipLocation(java.util.Random,int,int,int,int,int)
-- int foliageHeight(java.util.Random,int)
-- int foliageRadius(java.util.Random,int,net.minecraft.world.level.levelgen.feature.configurations.SmallTreeConfiguration)
-- int getTreeRadiusForHeight(int,int,int)
-- void createFoliage(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.SmallTreeConfiguration,int,net.minecraft.core.BlockPos,int,int,java.util.Set)
-+ boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
-+ int foliageRadius(Random,int)
-+ int offset(Random)
-+ void createFoliage(Set)
-+ void placeLeavesRow(Set,int,boolean)
-- void placeLeaf(Set)
-- void placeLeavesRow(Set)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-- Map placeTrunk(SmallTreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType</summary>
-
-```diff
-+ TrunkPlacerType DARK_OAK_TRUNK_PLACER
-+ TrunkPlacerType FANCY_TRUNK_PLACER
-+ TrunkPlacerType GIANT_TRUNK_PLACER
-+ TrunkPlacerType MEGA_JUNGLE_TRUNK_PLACER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
-
-```diff
-+ void <init>(DataFixer)
-- void <init>(DataFixer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.client.FileDownload
@@ -6059,14 +2599,268 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.platform.InputConstants</summary>
+
+```diff
+- String translateKeyCode(int)
+- String translateScanCode(int)
+```
+
+</details>
 
 
+<details><summary>com.mojang.blaze3d.platform.InputConstants$Key</summary>
+
+```diff
++ Component getDisplayName()
++ Component lambda$new$0(InputConstants$Type,int,String)
+- Map access$100()
++ Map access$200()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.RowButton</summary>
+
+```diff
+- void drawButtonsInRow(List,RealmsObjectSelectionList,int,int,int,int)
++ void drawButtonsInRow(PoseStack,List,RealmsObjectSelectionList,int,int,int,int)
+- void drawForRowAt(int,int,int,int)
++ void drawForRowAt(PoseStack,int,int,int,int)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen$BackupInfoList</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderItem(int,int,int,int,int,int,float)
++ void renderItem(PoseStack,int,int,int,int,int,int,float)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
+
+```diff
+- void drawInfo(int,int,int,int)
++ void drawInfo(PoseStack,int,int,int,int)
+- void drawRestore(int,int,int,int)
++ void drawRestore(PoseStack,int,int,int,int)
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+- void renderBackupItem(Backup,int,int,int,int)
++ void renderBackupItem(PoseStack,Backup,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsClientOutdatedScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsCreateRealmScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsInviteScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen</summary>
+
+```diff
+- void drawIcons(int,int)
++ void drawIcons(PoseStack,int,int)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsParentalConsentScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$Entry$AcceptRowButton</summary>
+
+```diff
+- void draw(int,int,boolean)
++ void draw(PoseStack,int,int,boolean)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$PendingInvitationSelectionList</summary>
+
+```diff
+- void renderBackground()
++ void renderBackground(PoseStack)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$Entry</summary>
+
+```diff
+- void lambda$renderInvitedItem$0(int)
++ void lambda$renderInvitedItem$0(PoseStack,int)
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+- void renderInvitedItem(PlayerInfo,int,int,int,int)
++ void renderInvitedItem(PoseStack,PlayerInfo,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
+
+```diff
++ Component generateStructuresTitle()
++ Component levelTypeTitle()
+- String generateStructuresTitle()
+- String levelTypeTitle()
++ void <init>(RealmsResetWorldScreen,Component)
+- void <init>(RealmsResetWorldScreen,String)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen$FrameButton</summary>
+
+```diff
++ void <init>(RealmsResetWorldScreen,int,int,Component,ResourceLocation,Button$OnPress)
+- void <init>(RealmsResetWorldScreen,int,int,String,ResourceLocation,Button$OnPress)
+- void renderButton(int,int,float)
++ void renderButton(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$WorldSelectionList</summary>
+
+```diff
+- void renderBackground()
++ void renderBackground(PoseStack)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
+
+```diff
+- void renderBackground()
++ void renderBackground(PoseStack)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
+
+```diff
++ Component commandBlocksTitle()
++ Component difficultyTitle()
++ Component forceGameModeTitle()
++ Component gameModeTitle()
++ Component getOnOff(boolean)
++ Component pvpTitle()
++ Component spawnAnimalsTitle()
++ Component spawnMonstersTitle()
++ Component spawnNPCsTitle()
+- String commandBlocksTitle()
+- String difficultyTitle()
+- String forceGameModeTitle()
+- String gameModeTitle()
+- String getOnOff(boolean)
+- String pvpTitle()
+- String spawnAnimalsTitle()
+- String spawnMonstersTitle()
+- String spawnNPCsTitle()
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSubscriptionInfoScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.LongRunningTask</summary>
+
+```diff
++ void error(Component)
+- void error(String)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.SharedConstants</summary>
@@ -6078,1821 +2872,1405 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ MutableComponent mutableCopy()
-+ MutableComponent toMutable()
-+ Optional STOP_ITERATION
-- Component append(net.minecraft.network.chat.Component)
-- Component copy()
-- Component setStyle(net.minecraft.network.chat.Style)
-- Stream stream()
-+ List toFlatList(Style)
-+ Optional lambda$getString$0(String)
-+ Optional lambda$getString$1(String)
-+ Optional lambda$toFlatList$2(String)
-+ Optional visit(Component$ContentConsumer)
-+ Optional visit(Style)
-+ Optional visitSelf(Component$ContentConsumer)
-+ Optional visitSelf(Style)
+- FontManager getFontManager()
++ Music getSituationalMusic()
+- MusicManager$Music getSituationalMusic()
++ Style lambda$grabHugeScreenshot$31(File,Style)
++ Style lambda$grabPanoramixScreenshot$30(File,Style)
+- void lambda$grabHugeScreenshot$31(File,Style)
+- void lambda$grabPanoramixScreenshot$30(File,Style)
++ void renderFpsMeter(PoseStack,ProfileResults)
+- void renderFpsMeter(ProfileResults)
++ void selectLevel(String,LevelSettings)
+- void selectLevel(String,String,LevelSettings)
++ void selectMainFont(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.NarratorStatus</summary>
+
+```diff
++ Component getName()
+- String getKey()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.ProgressOption</summary>
+
+```diff
++ Component getMessage(Options)
+- String getMessage(Options)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Screenshot</summary>
+
+```diff
++ Style lambda$null$1(File,Style)
+- void lambda$null$1(File,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.FontSet</summary>
+
+```diff
+- BakedGlyph getGlyph(char)
++ BakedGlyph getGlyph(int)
+- BakedGlyph lambda$getGlyph$3(int)
++ BakedGlyph lambda$getGlyph$4(int)
+- CharList lambda$reload$1(int)
+- GlyphInfo getGlyphInfo(char)
++ GlyphInfo getGlyphInfo(int)
+- GlyphInfo lambda$getGlyphInfo$2(int)
++ GlyphInfo lambda$getGlyphInfo$3(int)
++ IntList lambda$null$1(int)
+- RawGlyph getRaw(char)
++ RawGlyph getRaw(int)
++ void lambda$reload$2(List,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.TextFieldHelper</summary>
+
+```diff
++ boolean isSelecting()
++ Consumer createClipboardSetter(Minecraft)
++ int clampToMsgLength(int)
++ String deleteSelection(String)
++ String getClipboardContents(Minecraft)
+- String getSelected()
++ String getSelected(String)
++ String lambda$createClipboardGetter$0(Minecraft)
++ Supplier createClipboardGetter(Minecraft)
+- void <init>(Minecraft,Supplier,Consumer,int)
++ void <init>(Supplier,Consumer,Supplier,Consumer,Predicate)
++ void copy()
++ void cut()
+- void deleteSelection()
++ void insertText(String,String)
++ void lambda$createClipboardSetter$1(Minecraft,String)
++ void moveByChars(int,boolean)
++ void moveByChars(int)
++ void moveByWords(int,boolean)
++ void moveByWords(int)
++ void paste()
++ void removeCharsFromCursor(int)
++ void resetSelectionIfNeeded(boolean)
++ void selectAll()
++ void setClipboardContents(Minecraft,String)
++ void setCursorPos(int,boolean)
++ void setCursorPos(int)
++ void setEnd(boolean)
++ void setSelectionPos(int)
++ void setSelectionRange(int,int)
++ void setStart(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.providers.BitmapProvider</summary>
+
+```diff
++ IntSet getSupportedGlyphs()
+- RawGlyph getGlyph(char)
++ RawGlyph getGlyph(int)
+- void <init>(NativeImage,Char2ObjectMap)
++ void <init>(NativeImage,Int2ObjectMap,BitmapProvider$1)
++ void <init>(NativeImage,Int2ObjectMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider</summary>
+
+```diff
++ IntSet getSupportedGlyphs()
+- RawGlyph getGlyph(char)
++ RawGlyph getGlyph(int)
+- ResourceLocation getSheetLocation(char)
++ ResourceLocation getSheetLocation(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.AlertScreen</summary>
+
+```diff
++ void <init>(Runnable,Component,Component,Component)
+- void <init>(Runnable,Component,Component,String)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ChatScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ConfirmLinkScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
+
+```diff
++ Component createGeneratorString(int)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.DeathScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.DirectJoinServerScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.EditServerScreen</summary>
+
+```diff
++ Component createServerButtonText(ServerData$ServerPackStatus)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.GenericDirtMessageScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
+
+```diff
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LoadingOverlay</summary>
+
+```diff
+- void drawProgressBar(int,int,int,int,float)
++ void drawProgressBar(PoseStack,int,int,int,int,float)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
+
+```diff
++ void preset(Component,ItemLike,Biome,List,FlatLayerInfo[])
+- void preset(String,ItemLike,Biome,List,FlatLayerInfo[])
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ProgressScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.Screen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBackground()
+- void renderBackground(int)
++ void renderBackground(PoseStack,int)
++ void renderBackground(PoseStack)
+- void renderComponentHoverEffect(Component,int,int)
++ void renderComponentHoverEffect(PoseStack,Component,int,int)
+- void renderTooltip(ItemStack,int,int)
+- void renderTooltip(List,int,int)
++ void renderTooltip(PoseStack,Component,int,int)
++ void renderTooltip(PoseStack,ItemStack,int,int)
++ void renderTooltip(PoseStack,List,int,int)
+- void renderTooltip(String,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
+
+```diff
++ Component getMessage(PlayerModelPart)
+- String getMessage(PlayerModelPart)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.WinScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList$Entry</summary>
+
+```diff
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList</summary>
+
+```diff
+- void renderBackground()
++ void renderBackground(PoseStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTab</summary>
+
+```diff
++ Component getTitle()
+- String getTitle()
+- void drawContents()
++ void drawContents(PoseStack)
+- void drawTab(int,int,boolean)
++ void drawTab(PoseStack,int,int,boolean)
+- void drawTooltips(int,int,int,int)
++ void drawTooltips(PoseStack,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.ControlList$KeyEntry$1</summary>
+
+```diff
++ MutableComponent createNarrationMessage()
+- String getNarrationMessage()
++ void <init>(ControlList$KeyEntry,int,int,int,int,Component,Button$OnPress,ControlList,KeyMapping,Component)
+- void <init>(ControlList$KeyEntry,int,int,int,int,String,Button$OnPress,ControlList,KeyMapping)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.ControlsScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractContainerScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
++ void renderSlot(PoseStack,Slot)
+- void renderSlot(Slot)
+- void renderTooltip(int,int)
++ void renderTooltip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
+
+```diff
+- void renderFg(int,int,float)
++ void renderFg(PoseStack,int,int,float)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconConfirmButton</summary>
+
+```diff
+- void renderToolTip(int,int)
++ void renderToolTip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconScreenButton</summary>
+
+```diff
+- void renderButton(int,int,float)
++ void renderButton(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen$Pos2i</summary>
+
+```diff
+- int access$000(BookEditScreen$Pos2i)
+- int access$002(BookEditScreen$Pos2i,int)
+- int access$100(BookEditScreen$Pos2i)
+- int access$102(BookEditScreen$Pos2i,int)
+- void <init>(BookEditScreen,int,int)
+- void <init>(BookEditScreen)
++ void <init>(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BrewingStandScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.ContainerScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBackgrounds(int,int,Iterable)
++ void renderBackgrounds(PoseStack,int,int,Iterable)
+- void renderEffects()
++ void renderEffects(PoseStack)
+- void renderIcons(int,int,Iterable)
++ void renderIcons(PoseStack,int,int,Iterable)
+- void renderLabels(int,int,Iterable)
++ void renderLabels(PoseStack,int,int,Iterable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.EnchantmentScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.GrindstoneScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.HorseInventoryScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderLabels(int,int)
++ void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.ItemCombinerScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderBg(float,int,int)
++ void renderBg(PoseStack,float,int,int)
+- void renderFg(int,int,float)
++ void renderFg(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen$1</summary>
+
+```diff
++ void <init>(JigsawBlockEditScreen,int,int,int,int,Component,double)
+- void <init>(JigsawBlockEditScreen,int,int,int,int,String,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen$TradeOfferButton</summary>
+
+```diff
+- void renderToolTip(int,int)
++ void renderToolTip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.PageButton</summary>
+
+```diff
+- void renderButton(int,int,float)
++ void renderButton(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.SignEditScreen</summary>
+
+```diff
++ boolean lambda$init$4(String)
+- String lambda$init$1()
++ String lambda$init$2()
+- String lambda$render$3(Component)
+- void lambda$init$0(Button)
++ void lambda$init$1(Button)
+- void lambda$init$2(String)
++ void lambda$init$3(String)
++ void lambda$new$0(String[])
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.multiplayer.SafetyScreen</summary>
+
+```diff
 + void <clinit>()
-- Component append(String)
-- Component deepCopy()
-- Component flattenStyle(Component)
-- Component withStyle(ChatFormatting)
-- Component withStyle(ChatFormatting[])
-- Component withStyle(Consumer)
-- Iterator iterator()
-- Stream flatStream()
-- String getColoredString()
-- void lambda$getString$0(Component)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
+
+<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$NetworkServerEntry</summary>
 
 ```diff
-+ MutableComponent deserialize(JsonDeserializationContext)
-+ MutableComponent fromJson(JsonElement)
-+ MutableComponent fromJson(String)
-+ MutableComponent fromJson(StringReader)
-+ MutableComponent fromJsonLenient(String)
-- Component deserialize(JsonDeserializationContext)
-- Component fromJson(JsonElement)
-- Component fromJson(String)
-- Component fromJson(StringReader)
-- Component fromJsonLenient(String)
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.NbtComponent</summary>
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent</summary>
 
 ```diff
-+ MutableComponent lambda$resolve$2(MutableComponent)
-+ MutableComponent resolve(Entity,int)
-- Component lambda$resolve$2(Component)
-- Component resolve(Entity,int)
-- String getContents()
++ Component getFilterButtonTooltip()
+- String getFilterButtonTooltip()
+- void renderGhostRecipe(int,int,boolean,float)
++ void renderGhostRecipe(PoseStack,int,int,boolean,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.GhostRecipe</summary>
+
+```diff
+- void render(Minecraft,int,int,boolean,float)
++ void render(PoseStack,Minecraft,int,int,boolean,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
+
+```diff
+- void nineInchSprite(int,int,int,int,int,int)
++ void nineInchSprite(PoseStack,int,int,int,int,int,int)
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
+
+```diff
++ Component getFilterButtonTooltip()
+- String getFilterButtonTooltip()
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+- void renderGhostRecipe(int,int,boolean,float)
++ void renderGhostRecipe(PoseStack,int,int,boolean,float)
+- void renderGhostRecipeTooltip(int,int,int,int)
++ void renderGhostRecipeTooltip(PoseStack,int,int,int,int)
+- void renderTooltip(int,int,int,int)
++ void renderTooltip(PoseStack,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton</summary>
+
+```diff
+- void renderButton(int,int,float)
++ void renderButton(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.SmokingRecipeBookComponent</summary>
+
+```diff
++ Component getRecipeFilterName()
+- String getRecipeFilterName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.resourcepacks.ResourcePackSelectScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.resourcepacks.lists.ResourcePackList$ResourcePackEntry</summary>
+
+```diff
+- String getDescription()
+- String getName()
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$1</summary>
+
+```diff
++ MutableComponent createNarrationMessage()
+- String getNarrationMessage()
++ void <init>(CreateWorldScreen,Font,int,int,int,int,Component)
+- void <init>(CreateWorldScreen,Font,int,int,int,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$3</summary>
+
+```diff
++ Component getMessage()
+- String getMessage()
+- String getNarrationMessage()
++ void <init>(CreateWorldScreen,int,int,int,int,Component,Button$OnPress)
+- void <init>(CreateWorldScreen,int,int,int,int,String,Button$OnPress)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$5</summary>
+
+```diff
++ Component getMessage()
++ MutableComponent createNarrationMessage()
+- String getMessage()
+- String getNarrationMessage()
++ void <init>(CreateWorldScreen,int,int,int,int,Component,Button$OnPress)
+- void <init>(CreateWorldScreen,int,int,int,int,String,Button$OnPress)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$7</summary>
+
+```diff
++ Component getMessage()
+- void <clinit>()
++ void <init>(CreateWorldScreen,int,int,int,int,Component,Button$OnPress)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.SelectWorldScreen</summary>
+
+```diff
+- void render(int,int,float)
++ void render(PoseStack,int,int,float)
++ void setToolTip(List)
+- void setToolTip(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
+
+```diff
+- void render(int,int,int,int,int,int,int,boolean,float)
++ void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.PlayerMenuItem</summary>
+
+```diff
+- void renderIcon(float,int)
++ void renderIcon(PoseStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.SpectatorMenu$CloseSpectatorItem</summary>
+
+```diff
+- void renderIcon(float,int)
++ void renderIcon(PoseStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToPlayerMenuCategory</summary>
+
+```diff
+- void renderIcon(float,int)
++ void renderIcon(PoseStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.spectator.categories.TeleportToTeamMenuCategory$TeamSelectionItem</summary>
+
+```diff
+- void renderIcon(float,int)
++ void renderIcon(PoseStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.map.Map</summary>
+
+```diff
++ boolean access$302(Map,boolean)
+- boolean access$402(Map,boolean)
++ boolean access$802(Map,boolean)
++ double access$400(Map)
++ double access$402(Map,double)
++ double access$500(Map)
++ double access$502(Map,double)
++ double getNewScale()
+- int access$100(Map)
+- int access$102(Map,int)
+- int access$200(Map)
+- int access$300(Map)
+- int access$302(Map,int)
++ int access$602(Map,int)
++ int access$702(Map,int)
+- Layer access$500(Map)
++ OptionalLong access$202(Map,OptionalLong)
+- String access$002(Map,String)
++ String access$102(Map,String)
+- String access$802(Map,String)
++ void <init>(int,int,double)
+- void <init>(int,int,int)
++ void updateIndicators()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.map.Map$2</summary>
+
+```diff
+- void mouseDragged(MouseEvent)
+- void mouseMoved(MouseEvent)
++ void mouseWheelMoved(MouseWheelEvent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
++ Style lambda$performCommand$2(String,Style)
++ Style lambda$performCommand$3(MutableComponent,Style)
+- void lambda$performCommand$2(String,Style)
+- void lambda$performCommand$3(Component,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
+
+```diff
+- boolean matches(String,String)
++ boolean matchesSubStr(String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
+
+```diff
++ Attribute getAttribute(CommandContext,String)
++ CommandSyntaxException lambda$getAttribute$5(ResourceLocation)
+- CommandSyntaxException lambda$getRecipe$3(ResourceLocation)
++ CommandSyntaxException lambda$getRecipe$4(ResourceLocation)
++ Message lambda$static$3(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
 
 ```diff
 + BaseComponent toMutable()
-+ MutableComponent toMutable()
-+ NbtComponent$EntityNbtComponent toMutable()
 - Component copy()
++ MutableComponent toMutable()
++ NbtComponent$BlockNbtComponent toMutable()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.ScoreComponent</summary>
+
+<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
 
 ```diff
-- String value
 + BaseComponent toMutable()
-+ EntitySelector parseSelector(String)
-+ MutableComponent resolve(Entity,int)
-+ MutableComponent toMutable()
-+ ScoreComponent toMutable()
-+ String findTargetName(CommandSourceStack)
-+ String getScore(CommandSourceStack)
-+ void <init>(String)
 - Component copy()
-- Component resolve(Entity,int)
-- ScoreComponent copy()
-- String getContents()
-- String getEntityName(CommandSourceStack)
-- void resolve(CommandSourceStack)
-- void setValue(String)
++ MutableComponent toMutable()
++ NbtComponent$StorageNbtComponent toMutable()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.Style</summary>
+
+<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
 
 ```diff
-+ ResourceLocation DEFAULT_FONT
-+ ResourceLocation font
-+ Style EMPTY
-+ TextColor color
-- ChatFormatting color
-- Style parent
-- Style ROOT
-+ Boolean access$500(Style)
-+ ClickEvent access$800(Style)
-+ HoverEvent access$900(Style)
-+ ResourceLocation access$1000(Style)
-+ ResourceLocation getFont()
-+ String access$700(Style)
-+ Style applyFormat(ChatFormatting)
-+ Style applyFormats(ChatFormatting[])
-+ Style applyLegacyFormat(ChatFormatting)
-+ Style applyTo(Style)
-+ Style withBold(Boolean)
-+ Style withClickEvent(ClickEvent)
-+ Style withColor(ChatFormatting)
-+ Style withColor(int)
-+ Style withColor(TextColor)
-+ Style withFont(ResourceLocation)
-+ Style withHoverEvent(HoverEvent)
-+ Style withInsertion(String)
-+ Style withItalic(Boolean)
-+ Style withObfuscated(Boolean)
-+ Style withStrikethrough(Boolean)
-+ Style withUnderlined(Boolean)
-+ TextColor access$600(Style)
-+ TextColor getColor()
-+ void <init>(ResourceLocation)
-+ void <init>(Style$1)
-- Boolean access$000(Style)
-- Boolean access$002(Boolean)
-- Boolean access$102(Boolean)
-- Boolean access$202(Boolean)
-- Boolean access$302(Boolean)
-- Boolean access$402(Boolean)
-- ChatFormatting access$500(Style)
-- ChatFormatting access$502(ChatFormatting)
++ BaseComponent toMutable()
+- Component copy()
+- Component resolve(CommandSourceStack,Entity,int)
++ MutableComponent resolve(CommandSourceStack,Entity,int)
++ MutableComponent toMutable()
+- SelectorComponent copy()
++ SelectorComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Style$1</summary>
+
+```diff
+- boolean isBold()
+- boolean isItalic()
+- boolean isObfuscated()
+- boolean isStrikethrough()
+- boolean isUnderlined()
 - ChatFormatting getColor()
-- ClickEvent access$700(Style)
-- ClickEvent access$702(ClickEvent)
-- HoverEvent access$800(Style)
-- HoverEvent access$802(HoverEvent)
-- String access$600(Style)
-- String access$602(String)
+- ClickEvent getClickEvent()
+- HoverEvent getHoverEvent()
+- String getInsertion()
 - String getLegacyFormatCodes()
-- String toStringResolved()
+- String toString()
 - Style copy()
 - Style flatCopy()
-- Style getParent()
 - Style inheritFrom(Style)
 - Style setBold(Boolean)
 - Style setClickEvent(ClickEvent)
 - Style setColor(ChatFormatting)
 - Style setHoverEvent(HoverEvent)
-- Style setInsertion(String)
 - Style setItalic(Boolean)
 - Style setObfuscated(Boolean)
 - Style setStrikethrough(Boolean)
 - Style setUnderlined(Boolean)
++ void <clinit>()
 - void <init>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.Style$Serializer</summary>
+
+<details><summary>net.minecraft.server.MinecraftServer$1</summary>
 
 ```diff
-+ Boolean getOptionalFlag(String)
-+ ClickEvent getClickEvent(JsonObject)
-+ HoverEvent getHoverEvent(JsonObject)
-+ ResourceLocation getFont(JsonObject)
-+ String getInsertion(JsonObject)
-+ TextColor getTextColor(JsonObject)
++ void <init>()
+- void <init>(MinecraftServer)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.util.worldupdate.WorldUpgrader</summary>
 
 ```diff
-+ PlayerDataStorage playerDataStorage
-+ StructureManager structureManager
-+ WorldData worldData
-- boolean animals
-- boolean canGenerateStructures()
-- boolean eraseCache
-- boolean forceUpgrade
-- boolean isHardcore()
-- boolean levelHasStartingBonusChest
-- boolean npcs
-- Component startupState
-- Difficulty getDefaultDifficulty()
-- GameType getDefaultGameType()
-- String levelName
-+ boolean areNpcsEnabled()
-+ boolean isHardcore()
-+ boolean isSpawningAnimals()
-+ boolean isSpawningMonsters()
-+ boolean lambda$main$4()
-+ GameType getDefaultGameType()
-+ LevelSettings createLevelSettings(DedicatedServerProperties)
-+ Path getWorldPath(LevelResource)
-+ String lambda$fillReport$7()
-+ StructureManager getStructureManager()
-+ UnopenedPack lambda$updateSelectedPacks$8(UnopenedPack)
-+ void <init>(ChunkProgressListenerFactory)
-+ void createLevels(ChunkProgressListener)
-+ void detectBundledResources()
-+ void ensureLevelConversion(BooleanSupplier)
-+ void forceDifficulty()
-+ void lambda$updateSelectedPacks$10(UnopenedPack)
-+ void lambda$updateSelectedPacks$11(UnopenedPack)
-+ void lambda$updateSelectedPacks$9(UnopenedPack)
-+ void loadDataPacks()
-+ void loadLevel()
-+ void setDefaultGameType(GameType)
-+ void setupDebugLevel(WorldData)
-+ void updateMobSpawningFlags()
-+ void updateSelectedPacks()
-+ WorldData getWorldData()
-- boolean getSpawnMonsters()
-- boolean isAnimals()
-- boolean isNpcsEnabled()
-- Component getStartupState()
-- Path getWorldPath()
-- String getLevelName()
-- String lambda$fillReport$4()
-- UnopenedPack lambda$updateSelectedPacks$7(UnopenedPack)
-- void <init>(ChunkProgressListenerFactory)
-- void createLevels(ChunkProgressListener)
-- void detectBundledResources(LevelStorage)
-- void ensureLevelConversion()
-- void eraseCache(boolean)
-- void forceUpgrade(boolean)
-- void lambda$updateSelectedPacks$10(UnopenedPack)
-- void lambda$updateSelectedPacks$8(UnopenedPack)
-- void lambda$updateSelectedPacks$9(UnopenedPack)
-- void loadDataPacks(LevelData)
-- void loadLevel(ChunkGeneratorProvider)
-- void setAnimals(boolean)
-- void setBonusChest(boolean)
-- void setDefaultGameMode(GameType)
-- void setLevelName(String)
-- void setNpcsEnabled(boolean)
-- void setServerStartupState(Component)
-- void setupDebugLevel(LevelData)
-- void updateSelectedPacks(LevelData)
++ void <init>(LevelStorageSource$LevelStorageAccess,DataFixer,WorldData,boolean)
+- void <init>(LevelStorageSource$LevelStorageAccess,LevelData,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.server.bossevents.CustomBossEvent</summary>
+<details><summary>net.minecraft.world.entity.EntityType</summary>
 
 ```diff
-+ Style lambda$getDisplayName$0(Style)
-- void lambda$getDisplayName$0(Style)
+- int chunkRange()
++ int clientTrackingRange()
++ void <init>(EntityType$EntityFactory,MobCategory,boolean,boolean,boolean,boolean,int,int,EntityDimensions,int,int)
+- void <init>(EntityType$EntityFactory,MobCategory,boolean,boolean,boolean,boolean,int,int,EntityDimensions)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix$1</summary>
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ MutableComponent deserialize(JsonDeserializationContext)
-- Component deserialize(JsonDeserializationContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Difficulty</summary>
-
-```diff
-+ Difficulty nextById()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.BadRespawnPointDamage</summary>
-
-```diff
-+ Style lambda$getLocalizedDeathMessage$0(Style)
-- void lambda$getLocalizedDeathMessage$0(Style)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean canSpawnSprintParticle()
-+ Component removeAction(Component)
-+ Style lambda$getDisplayName$6(Style)
-+ Style lambda$removeAction$1(Style)
-+ void spawnSprintParticle()
-- void doSprintParticleEffect()
-- void lambda$getDisplayName$6(Style)
-- void lambda$removeAction$1(Style)
-- void removeAction(Component)
++ boolean canSpawnSoulSpeedParticle()
++ boolean onSoulSpeedBlock()
+- void doSoulSpeedParticles()
++ void spawnSoulSpeedParticle()
 - void updateSprintingState()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.EntityType$Builder</summary>
-
-```diff
-+ int clientTrackingRange
-+ int updateInterval
-+ EntityType$Builder clientTrackingRange(int)
-+ EntityType$Builder updateInterval(int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
-
-```diff
-+ Component getName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeInstance</summary>
-
-```diff
-+ boolean removePermanentModifier(UUID)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeSupplier</summary>
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeMap</summary>
 
 ```diff
 + boolean hasAttribute(Attribute)
-+ boolean hasModifier(UUID)
-+ double getModifierValue(UUID)
++ boolean hasModifier(Attribute,UUID)
++ double getModifierValue(Attribute,UUID)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ boolean canSpawnSprintParticle()
-- void updateSprintingState()
++ boolean onSoulSpeedBlock()
+- Component decorateDisplayNameComponent(Component)
++ MutableComponent decorateDisplayNameComponent(MutableComponent)
++ Style lambda$decorateDisplayNameComponent$4(String,Style)
+- void lambda$decorateDisplayNameComponent$4(String,Style)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+<details><summary>net.minecraft.world.inventory.RecipeHolder</summary>
 
 ```diff
-+ float getSpin(float)
-+ void onSyncedDataUpdated(EntityDataAccessor)
+- void awardAndReset(Player)
++ void awardUsedRecipes(Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BannerPatternItem</summary>
+<details><summary>net.minecraft.world.item.ItemStack</summary>
 
 ```diff
-+ MutableComponent getDisplayName()
+- Component lambda$expandBlockState$2(Component)
++ Entity getEntityRepresentation()
++ MutableComponent lambda$expandBlockState$2(MutableComponent)
++ Style lambda$getDisplayName$3(Style)
+- void lambda$getDisplayName$3(CompoundTag,Style)
++ void setEntityRepresentation(Entity)
+- void setFramed(ItemFrame)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.RecordItem</summary>
+
+```diff
 - Component getDisplayName()
++ MutableComponent getDisplayName()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
+<details><summary>net.minecraft.world.level.GameRules</summary>
 
 ```diff
-+ boolean access$100(ItemStack)
-+ double access$700(ItemFrame)
-+ double access$800(Entity)
-+ void addLodestoneTags(CompoundTag)
-- boolean access$100(CompoundTag)
-- boolean hasLodestoneData(CompoundTag)
-- double access$400(ItemFrame)
-- double access$500(Entity)
++ GameRules copy()
++ GameRules$Key register(String,GameRules$Category,GameRules$Type)
+- GameRules$Key register(String,GameRules$Type)
++ GameRules$Value lambda$copy$6(Map$Entry)
++ void <init>(Map)
++ void assignCap(GameRules$Key,GameRules,MinecraftServer)
++ void assignFrom(GameRules,MinecraftServer)
++ void callVisitorCap(GameRules$GameRuleTypeVisitor,GameRules$Key,GameRules$Type)
+- void cap(GameRules$GameRuleTypeVisitor,GameRules$Key,GameRules$Type)
++ void lambda$assignFrom$8(GameRules,MinecraftServer,GameRules$Key)
+- void lambda$visitGameRuleTypes$6(GameRules$GameRuleTypeVisitor,GameRules$Key,GameRules$Type)
++ void lambda$visitGameRuleTypes$7(GameRules$GameRuleTypeVisitor,GameRules$Key,GameRules$Type)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.CompassItem$CompassWobble</summary>
+
+<details><summary>net.minecraft.world.level.GameRules$BooleanValue</summary>
 
 ```diff
-+ boolean access$400(CompassItem$CompassWobble,long)
-+ boolean shouldUpdate(long)
-+ double access$600(CompassItem$CompassWobble)
-+ void access$500(CompassItem$CompassWobble,long,double)
-+ void update(long,double)
-- double getDeltaRotation()
-- double getRotation()
-- void access$600(Level,double)
-- void setDeltaRotation(double)
-- void setRotation(double)
-- void update(Level,double)
++ GameRules$BooleanValue copy()
++ GameRules$Value copy()
++ void setFrom(GameRules$BooleanValue,MinecraftServer)
++ void setFrom(GameRules$Value,MinecraftServer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.FireworkStarItem</summary>
+<details><summary>net.minecraft.world.level.LevelSettings</summary>
 
 ```diff
-+ Component appendColors(MutableComponent,int[])
-- Component appendColors(Component,int[])
+- boolean isGenerateMapFeatures()
++ boolean shouldGenerateMapFeatures()
++ Difficulty getDifficulty()
++ GameRules getGameRules()
++ String getLevelName()
+- void <init>(LevelData)
+- void <init>(long,GameType,boolean,boolean,ChunkGeneratorProvider)
++ void <init>(String,long,GameType,boolean,boolean,Difficulty,ChunkGeneratorProvider,GameRules)
++ void <init>(String,long,GameType,boolean,boolean,Difficulty,ChunkGeneratorProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
 
 ```diff
-+ Item SOUL_LANTERN
-+ Item SOUL_TORCH
-- Item SOUL_FIRE_LANTERN
-- Item SOUL_FIRE_TORCH
+- float getFitness(Biome$ClimateParameters)
+- Float lambda$getFitness$5(Biome$ClimateParameters,Biome$ClimateParameters)
++ Object lambda$null$10(DynamicOps,Biome$SpawnerData)
+- Object lambda$null$11(DynamicOps,Biome$SpawnerData)
++ Object lambda$null$5(DynamicOps,ConfiguredWorldCarver)
+- Object lambda$null$6(DynamicOps,ConfiguredWorldCarver)
++ Object lambda$null$7(DynamicOps,ConfiguredFeature)
+- Object lambda$null$8(DynamicOps,ConfiguredFeature)
++ Optional getBackgroundMusic()
+- Pair lambda$serialize$10(DynamicOps,Map$Entry)
++ Pair lambda$serialize$11(DynamicOps,Map$Entry)
+- Pair lambda$serialize$12(DynamicOps,Map$Entry)
++ Pair lambda$serialize$6(DynamicOps,Map$Entry)
+- Pair lambda$serialize$7(DynamicOps,Map$Entry)
++ Pair lambda$serialize$8(DynamicOps,Map$Entry)
++ Stream optimalParameters()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelType</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
 
 ```diff
-+ Component description
-+ Component helpText
-+ Component getDescription()
-+ Component getHelpText()
-- String getDescriptionId()
-- String getHelpTextId()
++ Optional getBackgroundMusic()
+- void <init>(int,int,int,Optional,Optional,Optional,Optional,BiomeSpecialEffects$1)
++ void <init>(int,int,int,Optional,Optional,Optional,Optional,Optional,BiomeSpecialEffects$1)
++ void <init>(int,int,int,Optional,Optional,Optional,Optional,Optional)
+- void <init>(int,int,int,Optional,Optional,Optional,Optional)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome$ClimateParameters</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
 
 ```diff
-+ float offset
-- float weight
++ BiomeSpecialEffects$Builder backgroundMusic(Music)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
 
 ```diff
-+ Biome getNoiseBiomeAtPosition(BlockPos)
+- Float lambda$getNoiseBiome$0(Biome$ClimateParameters,Biome)
++ Float lambda$getNoiseBiome$0(Biome$ClimateParameters,Pair)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSourceSettings</summary>
+<details><summary>net.minecraft.world.level.block.AbstractSkullBlock</summary>
 
 ```diff
-+ boolean useY
-+ List parameters
-- Set biomes
-+ boolean useY()
-+ List getParameters()
-+ MultiNoiseBiomeSourceSettings setBiomes(List)
-+ MultiNoiseBiomeSourceSettings setParameters(List)
-+ Pair lambda$null$0(Biome$ClimateParameters)
-+ Stream lambda$setBiomes$1(Biome)
-+ void setUseY(boolean)
-- MultiNoiseBiomeSourceSettings setBiomes(Set)
-- Set getBiomes()
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+<details><summary>net.minecraft.world.level.block.Block</summary>
 
 ```diff
-+ boolean canSetSpawn(BlockPos)
+- Component getName()
++ MutableComponent getName()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
 
 ```diff
-+ boolean isPathfindable(PathComputationType)
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+<details><summary>net.minecraft.world.level.block.RespawnAnchorBlock</summary>
 
 ```diff
-+ boolean isPathfindable(PathComputationType)
++ boolean canSetSpawn(Level)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
 
 ```diff
-+ boolean isPathfindable(PathComputationType)
++ List getRecipesToAwardAndPopExperience(Level,Vec3)
+- void awardAndReset(Player)
+- void awardResetAndExperience(Player)
++ void awardUsedRecipes(Player)
++ void awardUsedRecipesAndPopExperience(Player)
++ void createExperience(Level,Vec3,int,float)
+- void createExperience(Player,int,float)
+- void lambda$awardResetAndExperience$1(List,Player,Object2IntMap$Entry,Recipe)
++ void lambda$getRecipesToAwardAndPopExperience$1(List,Level,Vec3,Object2IntMap$Entry,Recipe)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SeaPickleBlock</summary>
+<details><summary>net.minecraft.world.level.border.WorldBorder</summary>
 
 ```diff
-+ boolean isPathfindable(PathComputationType)
++ void <clinit>()
++ void applySettings(WorldBorder$Settings)
+- void readBorderData(LevelData)
+- void saveWorldBorderData(LevelData)
++ WorldBorder$Settings createSettings()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
 
 ```diff
-+ SoundType CHAIN
-+ SoundType GILDED_BLACKSTONE
-+ SoundType NETHER_GOLD_ORE
+- boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,SmallTreeConfiguration)
++ boolean isAirOrLeaves(LevelSimulatedReader,BlockPos)
++ boolean isBlockWater(LevelSimulatedReader,BlockPos)
++ boolean isFree(LevelSimulatedReader,BlockPos)
++ boolean isGrassOrDirtOrFarmland(LevelSimulatedReader,BlockPos)
++ boolean isReplaceablePlant(LevelSimulatedReader,BlockPos)
++ boolean isVine(LevelSimulatedReader,BlockPos)
++ boolean lambda$isAirOrLeaves$3(BlockState)
++ boolean lambda$isBlockWater$2(BlockState)
++ boolean lambda$isFree$0(BlockState)
++ boolean lambda$isGrassOrDirtOrFarmland$4(BlockState)
++ boolean lambda$isReplaceablePlant$5(BlockState)
++ boolean lambda$isVine$1(BlockState)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,TreeConfiguration)
++ boolean validTreePos(LevelSimulatedRW,BlockPos)
++ DiscreteVoxelShape updateLeaves(LevelAccessor,BoundingBox,Set,Set)
+- void lambda$doPlace$0(SmallTreeConfiguration,LevelSimulatedRW,Random,int,int,Set,BlockPos,Integer)
++ void lambda$doPlace$6(TreeConfiguration,LevelSimulatedRW,Random,int,int,int,Set,FoliagePlacer$FoliageAttachment)
++ void lambda$place$7(LevelAccessor,Random,List,List,Set,BoundingBox,TreeDecorator)
++ void setBlock(LevelWriter,BlockPos,BlockState)
++ void setBlockKnownShape(LevelWriter,BlockPos,BlockState)
++ void simulate(FeatureSimulator,Random,BlockPos,FeatureConfiguration)
++ void simulate(FeatureSimulator,Random,BlockPos,TreeConfiguration)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration$TreeConfigurationBuilder</summary>
 
 ```diff
-+ Component[] renderMessages
-- String[] renderMessages
-+ Component getRenderMessage(UnaryOperator)
-- String getRenderMessage(Function)
+- TreeConfiguration$TreeConfigurationBuilder baseHeight(int)
++ TreeConfiguration$TreeConfigurationBuilder heightmap(Heightmap$Types)
++ TreeConfiguration$TreeConfigurationBuilder ignoreVines()
++ TreeConfiguration$TreeConfigurationBuilder maxWaterDepth(int)
++ void <init>(BlockStateProvider,BlockStateProvider,FoliagePlacer,TrunkPlacer,FeatureSize)
+- void <init>(BlockStateProvider,BlockStateProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
 
 ```diff
-+ Feature TREE
-- Feature DARK_OAK_TREE
-- Feature FANCY_TREE
-- Feature JUNGLE_GROUND_BUSH
-- Feature MEGA_JUNGLE_TREE
-- Feature MEGA_SPRUCE_TREE
-- Feature NORMAL_TREE
-+ boolean isAir(BlockPos)
-+ boolean isGrassOrDirt(BlockPos)
-+ boolean lambda$isGrassOrDirt$1(BlockState)
++ boolean shouldSkipLocationSigned(Random,int,int,int,int,boolean)
++ int foliageRadius(Random,int)
++ int offset(Random)
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set)
+- void placeLeaf(LevelSimulatedRW,Random,BlockPos,SmallTreeConfiguration,Set)
+- void placeLeavesRow(LevelSimulatedRW,Random,SmallTreeConfiguration,BlockPos,int,int,int,Set)
++ void placeLeavesRow(LevelSimulatedRW,Random,TreeConfiguration,BlockPos,int,Set,int,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
 
 ```diff
-+ boolean ignoreVines
-+ FeatureSize minimumSize
-+ FoliagePlacer foliagePlacer
-+ Heightmap$Types heightmap
-+ int maxWaterDepth
-+ TrunkPlacer trunkPlacer
-- int baseHeight
-+ TreeConfiguration withDecorators(List)
-+ void <init>(Heightmap$Types)
-- void <init>(List,int)
++ List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+- Map placeTrunk(LevelSimulatedRW,Random,int,BlockPos,int,Set,BoundingBox,SmallTreeConfiguration)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
 
 ```diff
-+ List placeTrunk(TreeConfiguration)
-- Map placeTrunk(SmallTreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,int,net.minecraft.core.BlockPos,java.util.Set,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-- Map placeTrunk(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,int,net.minecraft.core.BlockPos,int,java.util.Set,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.levelgen.feature.configurations.SmallTreeConfiguration)
-+ boolean isDirt(BlockPos)
-+ boolean lambda$isDirt$0(BlockState)
-+ boolean placeLog(TreeConfiguration)
-+ int getTreeHeight(Random)
-+ void placeLogIfFree(TreeConfiguration)
-+ void setBlock(BoundingBox)
-+ void setDirtAt(BlockPos)
-- int getBaseHeight()
-- int getTreeHeight(SmallTreeConfiguration)
+- void <init>(MinecraftServer,File,DataFixer)
++ void <init>(MinecraftServer,LevelStorageSource$LevelStorageAccess,DataFixer)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockInput
@@ -9480,13 +5858,976 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.SharedConstants</summary>
+
+```diff
+- String filterUnicodeSupplementary(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Component</summary>
+
+```diff
+- Component append(String)
+- Component deepCopy()
+- Component flattenStyle(Component)
+- Component withStyle(ChatFormatting)
+- Component withStyle(ChatFormatting[])
+- Component withStyle(Consumer)
+- Iterator iterator()
++ List toFlatList(Style)
++ Optional lambda$getString$0(StringBuilder,String)
++ Optional lambda$getString$1(int,StringBuilder,String)
++ Optional lambda$toFlatList$2(List,Style,String)
++ Optional visit(Component$ContentConsumer)
++ Optional visit(Component$StyledContentConsumer,Style)
++ Optional visitSelf(Component$ContentConsumer)
++ Optional visitSelf(Component$StyledContentConsumer,Style)
+- Stream flatStream()
+- String getColoredString()
++ void <clinit>()
+- void lambda$getString$0(StringBuilder,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
+
+```diff
+- Component deserialize(JsonElement,Type,JsonDeserializationContext)
+- Component fromJson(JsonElement)
+- Component fromJson(String)
+- Component fromJson(StringReader)
+- Component fromJsonLenient(String)
++ MutableComponent deserialize(JsonElement,Type,JsonDeserializationContext)
++ MutableComponent fromJson(JsonElement)
++ MutableComponent fromJson(String)
++ MutableComponent fromJson(StringReader)
++ MutableComponent fromJsonLenient(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent</summary>
+
+```diff
+- Component lambda$resolve$2(Component,Component)
+- Component resolve(CommandSourceStack,Entity,int)
++ MutableComponent lambda$resolve$2(MutableComponent,MutableComponent)
++ MutableComponent resolve(CommandSourceStack,Entity,int)
+- String getContents()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
+
+```diff
++ BaseComponent toMutable()
+- Component copy()
++ MutableComponent toMutable()
++ NbtComponent$EntityNbtComponent toMutable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ScoreComponent</summary>
+
+```diff
++ BaseComponent toMutable()
+- Component copy()
+- Component resolve(CommandSourceStack,Entity,int)
++ EntitySelector parseSelector(String)
++ MutableComponent resolve(CommandSourceStack,Entity,int)
++ MutableComponent toMutable()
+- ScoreComponent copy()
++ ScoreComponent toMutable()
++ String findTargetName(CommandSourceStack)
+- String getContents()
+- String getEntityName(CommandSourceStack)
++ String getScore(String,CommandSourceStack)
++ void <init>(String,EntitySelector,String)
+- void resolve(CommandSourceStack)
+- void setValue(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Style</summary>
+
+```diff
+- Boolean access$000(Style)
+- Boolean access$002(Style,Boolean)
+- Boolean access$102(Style,Boolean)
+- Boolean access$202(Style,Boolean)
+- Boolean access$302(Style,Boolean)
+- Boolean access$402(Style,Boolean)
++ Boolean access$500(Style)
+- ChatFormatting access$500(Style)
+- ChatFormatting access$502(Style,ChatFormatting)
+- ChatFormatting getColor()
+- ClickEvent access$700(Style)
+- ClickEvent access$702(Style,ClickEvent)
++ ClickEvent access$800(Style)
+- HoverEvent access$800(Style)
+- HoverEvent access$802(Style,HoverEvent)
++ HoverEvent access$900(Style)
++ ResourceLocation access$1000(Style)
++ ResourceLocation getFont()
+- String access$600(Style)
+- String access$602(Style,String)
++ String access$700(Style)
+- String getLegacyFormatCodes()
+- String toStringResolved()
++ Style applyFormat(ChatFormatting)
++ Style applyFormats(ChatFormatting[])
++ Style applyLegacyFormat(ChatFormatting)
++ Style applyTo(Style)
+- Style copy()
+- Style flatCopy()
+- Style getParent()
+- Style inheritFrom(Style)
+- Style setBold(Boolean)
+- Style setClickEvent(ClickEvent)
+- Style setColor(ChatFormatting)
+- Style setHoverEvent(HoverEvent)
+- Style setInsertion(String)
+- Style setItalic(Boolean)
+- Style setObfuscated(Boolean)
+- Style setStrikethrough(Boolean)
+- Style setUnderlined(Boolean)
++ Style withBold(Boolean)
++ Style withClickEvent(ClickEvent)
++ Style withColor(ChatFormatting)
++ Style withColor(int)
++ Style withColor(TextColor)
++ Style withFont(ResourceLocation)
++ Style withHoverEvent(HoverEvent)
++ Style withInsertion(String)
++ Style withItalic(Boolean)
++ Style withObfuscated(Boolean)
++ Style withStrikethrough(Boolean)
++ Style withUnderlined(Boolean)
++ TextColor access$600(Style)
++ TextColor getColor()
+- void <init>()
++ void <init>(TextColor,Boolean,Boolean,Boolean,Boolean,Boolean,ClickEvent,HoverEvent,String,ResourceLocation,Style$1)
++ void <init>(TextColor,Boolean,Boolean,Boolean,Boolean,Boolean,ClickEvent,HoverEvent,String,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Style$Serializer</summary>
+
+```diff
++ Boolean getOptionalFlag(JsonObject,String)
++ ClickEvent getClickEvent(JsonObject)
++ HoverEvent getHoverEvent(JsonObject)
++ ResourceLocation getFont(JsonObject)
++ String getInsertion(JsonObject)
++ TextColor getTextColor(JsonObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
++ boolean areNpcsEnabled()
+- boolean getSpawnMonsters()
+- boolean isAnimals()
++ boolean isHardcore()
+- boolean isNpcsEnabled()
++ boolean isSpawningAnimals()
++ boolean isSpawningMonsters()
++ boolean lambda$main$4()
+- Component getStartupState()
++ GameType getDefaultGameType()
++ LevelSettings createLevelSettings(DedicatedServerProperties)
+- Path getWorldPath()
++ Path getWorldPath(LevelResource)
+- String getLevelName()
+- String lambda$fillReport$4()
++ String lambda$fillReport$7()
++ StructureManager getStructureManager()
+- UnopenedPack lambda$updateSelectedPacks$7(UnopenedPack)
++ UnopenedPack lambda$updateSelectedPacks$8(UnopenedPack)
+- void <init>(LevelStorageSource$LevelStorageAccess,Proxy,DataFixer,Commands,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void <init>(LevelStorageSource$LevelStorageAccess,WorldData,Proxy,DataFixer,Commands,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void createLevels(ChunkProgressListener)
+- void createLevels(LevelStorage,LevelData,LevelSettings,ChunkProgressListener)
++ void detectBundledResources()
+- void detectBundledResources(String,LevelStorage)
+- void ensureLevelConversion()
++ void ensureLevelConversion(LevelStorageSource$LevelStorageAccess,DataFixer,boolean,boolean,BooleanSupplier)
+- void eraseCache(boolean)
++ void forceDifficulty()
+- void forceUpgrade(boolean)
+- void lambda$updateSelectedPacks$10(LevelData,UnopenedPack)
++ void lambda$updateSelectedPacks$10(UnopenedPack)
++ void lambda$updateSelectedPacks$11(UnopenedPack)
+- void lambda$updateSelectedPacks$8(List,UnopenedPack)
+- void lambda$updateSelectedPacks$9(LevelData,UnopenedPack)
++ void lambda$updateSelectedPacks$9(List,UnopenedPack)
++ void loadDataPacks()
+- void loadDataPacks(File,LevelData)
++ void loadLevel()
+- void loadLevel(String,long,ChunkGeneratorProvider)
+- void setAnimals(boolean)
+- void setBonusChest(boolean)
+- void setDefaultGameMode(GameType)
++ void setDefaultGameType(GameType)
+- void setLevelName(String)
+- void setNpcsEnabled(boolean)
+- void setServerStartupState(Component)
+- void setupDebugLevel(LevelData)
++ void setupDebugLevel(WorldData)
++ void updateMobSpawningFlags()
++ void updateSelectedPacks()
+- void updateSelectedPacks(LevelData)
++ WorldData getWorldData()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.bossevents.CustomBossEvent</summary>
+
+```diff
++ Style lambda$getDisplayName$0(Style)
+- void lambda$getDisplayName$0(Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlockEntitySignTextStrictJsonFix$1</summary>
+
+```diff
+- Component deserialize(JsonElement,Type,JsonDeserializationContext)
++ MutableComponent deserialize(JsonElement,Type,JsonDeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.Difficulty</summary>
+
+```diff
++ Difficulty nextById()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.BadRespawnPointDamage</summary>
+
+```diff
++ Style lambda$getLocalizedDeathMessage$0(Style)
+- void lambda$getLocalizedDeathMessage$0(Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean canSpawnSprintParticle()
++ Component removeAction(Component)
++ Style lambda$getDisplayName$6(Style)
++ Style lambda$removeAction$1(Style)
+- void doSprintParticleEffect()
+- void lambda$getDisplayName$6(Style)
+- void lambda$removeAction$1(Style)
+- void removeAction(Component)
++ void spawnSprintParticle()
+- void updateSprintingState()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.EntityType$Builder</summary>
+
+```diff
++ EntityType$Builder clientTrackingRange(int)
++ EntityType$Builder updateInterval(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
+
+```diff
++ Component getName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeInstance</summary>
+
+```diff
++ boolean removePermanentModifier(UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeSupplier</summary>
+
+```diff
++ boolean hasAttribute(Attribute)
++ boolean hasModifier(Attribute,UUID)
++ double getModifierValue(Attribute,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
++ boolean canSpawnSprintParticle()
+- void updateSprintingState()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
++ float getSpin(float)
++ void onSyncedDataUpdated(EntityDataAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BannerPatternItem</summary>
+
+```diff
+- Component getDisplayName()
++ MutableComponent getDisplayName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CompassItem</summary>
+
+```diff
+- boolean access$100(CompoundTag)
++ boolean access$100(ItemStack)
+- boolean hasLodestoneData(CompoundTag)
+- double access$400(ItemFrame)
+- double access$500(Vec3,Entity)
++ double access$700(ItemFrame)
++ double access$800(Vec3,Entity)
++ void addLodestoneTags(Dimension,BlockPos,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CompassItem$CompassWobble</summary>
+
+```diff
++ boolean access$400(CompassItem$CompassWobble,long)
++ boolean shouldUpdate(long)
++ double access$600(CompassItem$CompassWobble)
+- double getDeltaRotation()
+- double getRotation()
++ void access$500(CompassItem$CompassWobble,long,double)
+- void access$600(CompassItem$CompassWobble,Level,double)
+- void setDeltaRotation(double)
+- void setRotation(double)
+- void update(Level,double)
++ void update(long,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.FireworkStarItem</summary>
+
+```diff
+- Component appendColors(Component,int[])
++ Component appendColors(MutableComponent,int[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelType</summary>
+
+```diff
++ Component getDescription()
++ Component getHelpText()
+- String getDescriptionId()
+- String getHelpTextId()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+
+```diff
++ Biome getNoiseBiomeAtPosition(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSourceSettings</summary>
+
+```diff
++ boolean useY()
++ List getParameters()
++ MultiNoiseBiomeSourceSettings setBiomes(List)
+- MultiNoiseBiomeSourceSettings setBiomes(Set)
++ MultiNoiseBiomeSourceSettings setParameters(List)
++ Pair lambda$null$0(Biome,Biome$ClimateParameters)
+- Set getBiomes()
++ Stream lambda$setBiomes$1(Biome)
++ void setUseY(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+
+```diff
++ boolean canSetSpawn(Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+
+```diff
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+
+```diff
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SeaPickleBlock</summary>
+
+```diff
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+
+```diff
++ Component getRenderMessage(int,UnaryOperator)
+- String getRenderMessage(int,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+
+```diff
++ boolean isAir(LevelSimulatedReader,BlockPos)
++ boolean isGrassOrDirt(LevelSimulatedReader,BlockPos)
++ boolean lambda$isGrassOrDirt$1(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
++ TreeConfiguration withDecorators(List)
++ void <init>(BlockStateProvider,BlockStateProvider,FoliagePlacer,TrunkPlacer,FeatureSize,List,int,boolean,Heightmap$Types)
+- void <init>(BlockStateProvider,BlockStateProvider,List,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+- Map placeTrunk(LevelSimulatedRW,Random,int,BlockPos,int,Set,BoundingBox,SmallTreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
+
+```diff
++ boolean isDirt(LevelSimulatedReader,BlockPos)
++ boolean lambda$isDirt$0(BlockState)
++ boolean placeLog(LevelSimulatedRW,Random,BlockPos,Set,BoundingBox,TreeConfiguration)
+- int getBaseHeight()
+- int getTreeHeight(Random,SmallTreeConfiguration)
++ int getTreeHeight(Random)
++ void placeLogIfFree(LevelSimulatedRW,Random,BlockPos$MutableBlockPos,Set,BoundingBox,TreeConfiguration)
++ void setBlock(LevelWriter,BlockPos,BlockState,BoundingBox)
++ void setDirtAt(LevelSimulatedRW,BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/building_blocks/blackstone_wall_from_blackstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/blackstone_wall.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_brick_wall.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_blackstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_blackstone_wall.json
++ minecraft/advancements/recipes/decorations/blackstone_wall_from_blackstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/blackstone_wall.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_brick_wall.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_blackstone_wall.json
+- minecraft/advancements/recipes/decorations/soul_fire_lantern.json
+- minecraft/advancements/recipes/decorations/soul_fire_torch.json
++ minecraft/advancements/recipes/decorations/soul_lantern.json
++ minecraft/advancements/recipes/decorations/soul_torch.json
+- minecraft/loot_tables/blocks/soul_fire_lantern.json
+- minecraft/loot_tables/blocks/soul_fire_torch.json
++ minecraft/loot_tables/blocks/soul_lantern.json
++ minecraft/loot_tables/blocks/soul_torch.json
+- minecraft/recipes/soul_fire_lantern.json
+- minecraft/recipes/soul_fire_torch.json
++ minecraft/recipes/soul_lantern.json
++ minecraft/recipes/soul_torch.json
++ minecraft/tags/blocks/pressure_plates.json
++ minecraft/tags/blocks/stone_pressure_plates.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/blockstates/soul_fire_lantern.json
+- minecraft/blockstates/soul_fire_torch.json
+- minecraft/blockstates/soul_fire_wall_torch.json
++ minecraft/blockstates/soul_lantern.json
++ minecraft/blockstates/soul_torch.json
++ minecraft/blockstates/soul_wall_torch.json
++ minecraft/font/uniform.json
+- minecraft/models/block/soul_fire_lantern_hanging.json
+- minecraft/models/block/soul_fire_lantern.json
+- minecraft/models/block/soul_fire_torch.json
+- minecraft/models/block/soul_fire_wall_torch.json
++ minecraft/models/block/soul_lantern_hanging.json
++ minecraft/models/block/soul_lantern.json
++ minecraft/models/block/soul_torch.json
++ minecraft/models/block/soul_wall_torch.json
+- minecraft/models/item/soul_fire_lantern.json
+- minecraft/models/item/soul_fire_torch.json
++ minecraft/models/item/soul_lantern.json
++ minecraft/models/item/soul_torch.json
+- minecraft/textures/block/soul_fire_lantern.png
+- minecraft/textures/block/soul_fire_lantern.png.mcmeta
+- minecraft/textures/block/soul_fire_torch.png
++ minecraft/textures/block/soul_lantern.png
++ minecraft/textures/block/soul_lantern.png.mcmeta
++ minecraft/textures/block/soul_torch.png
+- minecraft/textures/item/soul_fire_lantern.png
++ minecraft/textures/item/soul_lantern.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ feature_size_type.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
+- minecraft:soul_fire_lantern
+- minecraft:soul_fire_torch
+- minecraft:soul_fire_wall_torch
++ minecraft:soul_lantern
++ minecraft:soul_torch
++ minecraft:soul_wall_torch
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
+- minecraft:dark_oak_tree
+- minecraft:fancy_tree
+- minecraft:jungle_ground_bush
+- minecraft:mega_jungle_tree
+- minecraft:mega_spruce_tree
+- minecraft:normal_tree
++ minecraft:tree
+```
+
+</details>
+
+
+<details><summary>foliage_placer_type.txt</summary>
+
+```diff
++ minecraft:bush_foliage_placer
++ minecraft:dark_oak_foliage_placer
++ minecraft:fancy_foliage_placer
++ minecraft:jungle_foliage_placer
++ minecraft:mega_pine_foliage_placer
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
+- minecraft:soul_fire_lantern
+- minecraft:soul_fire_torch
++ minecraft:soul_lantern
++ minecraft:soul_torch
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.chain.break
++ minecraft:block.chain.fall
++ minecraft:block.chain.hit
++ minecraft:block.chain.place
++ minecraft:block.chain.step
++ minecraft:block.gilded_blackstone.break
++ minecraft:block.gilded_blackstone.fall
++ minecraft:block.gilded_blackstone.hit
++ minecraft:block.gilded_blackstone.place
++ minecraft:block.gilded_blackstone.step
++ minecraft:block.nether_gold_ore.break
++ minecraft:block.nether_gold_ore.fall
++ minecraft:block.nether_gold_ore.hit
++ minecraft:block.nether_gold_ore.place
++ minecraft:block.nether_gold_ore.step
+```
+
+</details>
+
+
+<details><summary>trunk_placer_type.txt</summary>
+
+```diff
++ minecraft:dark_oak_trunk_placer
++ minecraft:fancy_trunk_placer
++ minecraft:giant_trunk_placer
++ minecraft:mega_jungle_trunk_placer
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ attribute.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/pressure_plates.json
++ blocks/stone_pressure_plates.json
+```
+
+</details>
+
+
+<details><summary>blocks/piglin_repellents.json</summary>
+
+```diff
+- minecraft:soul_fire_lantern
+- minecraft:soul_fire_torch
+- minecraft:soul_fire_wall_torch
++ minecraft:soul_lantern
++ minecraft:soul_torch
++ minecraft:soul_wall_torch
+```
+
+</details>
+
+
+<details><summary>blocks/wall_post_override.json</summary>
+
+```diff
++ #minecraft:banners
++ #minecraft:pressure_plates
+- minecraft:soul_fire_torch
++ minecraft:soul_torch
+```
+
+</details>
+
+
+<details><summary>items/piglin_repellents.json</summary>
+
+```diff
+- minecraft:soul_fire_lantern
+- minecraft:soul_fire_torch
++ minecraft:soul_lantern
++ minecraft:soul_torch
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.uuid.invalid
++ attribute.unknown
+- block.minecraft.soul_fire_lantern
+- block.minecraft.soul_fire_torch
+- block.minecraft.soul_fire_wall_torch
++ block.minecraft.soul_lantern
++ block.minecraft.soul_torch
++ block.minecraft.soul_wall_torch
++ commands.attribute.base_value.get.success
++ commands.attribute.base_value.set.success
++ commands.attribute.failed.entity
++ commands.attribute.failed.modifier_already_present
++ commands.attribute.failed.no_attribute
++ commands.attribute.failed.no_modifier
++ commands.attribute.modifier.add.success
++ commands.attribute.modifier.remove.success
++ commands.attribute.modifier.value.get.success
++ commands.attribute.value.get.success
++ editGamerule.default
++ editGamerule.title
++ gamerule.announceAdvancements
++ gamerule.category.chat
++ gamerule.category.drops
++ gamerule.category.misc
++ gamerule.category.mobs
++ gamerule.category.player
++ gamerule.category.spawning
++ gamerule.category.updates
++ gamerule.commandBlockOutput
++ gamerule.disableElytraMovementCheck
++ gamerule.disableRaids
++ gamerule.doDaylightCycle
++ gamerule.doEntityDrops
++ gamerule.doEntityDrops.description
++ gamerule.doFireTick
++ gamerule.doImmediateRespawn
++ gamerule.doInsomnia
++ gamerule.doLimitedCrafting
++ gamerule.doLimitedCrafting.description
++ gamerule.doMobLoot
++ gamerule.doMobLoot.description
++ gamerule.doMobSpawning
++ gamerule.doMobSpawning.description
++ gamerule.doPatrolSpawning
++ gamerule.doTileDrops
++ gamerule.doTileDrops.description
++ gamerule.doTraderSpawning
++ gamerule.doWeatherCycle
++ gamerule.drowningDamage
++ gamerule.fallDamage
++ gamerule.fireDamage
++ gamerule.keepInventory
++ gamerule.logAdminCommands
++ gamerule.maxCommandChainLength
++ gamerule.maxCommandChainLength.description
++ gamerule.maxEntityCramming
++ gamerule.mobGriefing
++ gamerule.naturalRegeneration
++ gamerule.randomTickSpeed
++ gamerule.reducedDebugInfo
++ gamerule.reducedDebugInfo.description
++ gamerule.sendCommandFeedback
++ gamerule.showDeathMessages
++ gamerule.spawnRadius
++ gamerule.spectatorsGenerateChunks
++ gui.entity_tooltip.type
++ multiplayer.status.ping
++ options.entityDistancePercent
++ options.entityDistanceScaling
++ selectWorld.gameRules
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/building_blocks/blackstone_wall_from_blackstone_stonecutting.json
+- recipes/building_blocks/blackstone_wall.json
+- recipes/building_blocks/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
+- recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
+- recipes/building_blocks/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
+- recipes/building_blocks/polished_blackstone_brick_wall.json
+- recipes/building_blocks/polished_blackstone_wall_from_blackstone_stonecutting.json
+- recipes/building_blocks/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
+- recipes/building_blocks/polished_blackstone_wall.json
++ recipes/decorations/blackstone_wall_from_blackstone_stonecutting.json
++ recipes/decorations/blackstone_wall.json
++ recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting.json
++ recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting.json
++ recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting.json
++ recipes/decorations/polished_blackstone_brick_wall.json
++ recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting.json
++ recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting.json
++ recipes/decorations/polished_blackstone_wall.json
+- recipes/decorations/soul_fire_lantern.json
+- recipes/decorations/soul_fire_torch.json
++ recipes/decorations/soul_lantern.json
++ recipes/decorations/soul_torch.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
+- blocks/soul_fire_lantern.json
+- blocks/soul_fire_torch.json
++ blocks/soul_lantern.json
++ blocks/soul_torch.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- soul_fire_lantern.json
+- soul_fire_torch.json
++ soul_lantern.json
++ soul_torch.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/pressure_plates.json
++ blocks/stone_pressure_plates.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/soul_fire_lantern.png
+- block/soul_fire_torch.png
++ block/soul_lantern.png
++ block/soul_torch.png
+- item/soul_fire_lantern.png
++ item/soul_lantern.png
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:uuid
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.ibm.icu:icu4j-core-mojang:51.2
++ com.ibm.icu:icu4j:66.1
+```
+
+</details>

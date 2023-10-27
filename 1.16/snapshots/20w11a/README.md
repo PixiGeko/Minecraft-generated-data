@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w11a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w11a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-03-11T16:28:27+00:00</td></tr>
@@ -10,2521 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4982e169c2ed60411d973bdf4b0bbb1bbb97dee6/server.txt">https://piston-data.mojang.com/v1/objects/4982e169c2ed60411d973bdf4b0bbb1bbb97dee6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/760bf0158d0c7b59b1a6a550bbab9ea4a4921371/client.jar">https://piston-data.mojang.com/v1/objects/760bf0158d0c7b59b1a6a550bbab9ea4a4921371/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/508127a8a9093bcff8d54fd1cd5bf0200647c5bd/client.txt">https://piston-data.mojang.com/v1/objects/508127a8a9093bcff8d54fd1cd5bf0200647c5bd/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w10a">20w10a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/blocks/fire.json
-+  minecraft/loot_tables/blocks/nether_gold_ore.json
-+  minecraft/loot_tables/blocks/soul_fire.json
-+  minecraft/loot_tables/blocks/twisting_vines.json
-+  minecraft/loot_tables/blocks/twisting_vines_plant.json
-+  minecraft/tags/blocks/gold_ores.json
-+  minecraft/tags/blocks/soul_speed_blocks.json
-+  minecraft/tags/items/gold_ores.json
-+  minecraft/tags/items/piglin_repellents.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/nether_gold_ore.json
-+  minecraft/blockstates/twisting_vines.json
-+  minecraft/blockstates/twisting_vines_plant.json
-+  minecraft/models/block/nether_gold_ore.json
-+  minecraft/models/block/twisting_vines.json
-+  minecraft/models/block/twisting_vines_plant.json
-+  minecraft/models/item/nether_gold_ore.json
-+  minecraft/models/item/twisting_vines.json
-+  minecraft/particles/soul.json
-+  minecraft/textures/block/nether_gold_ore.png
-+  minecraft/textures/block/twisting_vines.png
-+  minecraft/textures/block/twisting_vines_plant.png
-+  minecraft/textures/particle/soul_0.png
-+  minecraft/textures/particle/soul_1.png
-+  minecraft/textures/particle/soul_10.png
-+  minecraft/textures/particle/soul_2.png
-+  minecraft/textures/particle/soul_3.png
-+  minecraft/textures/particle/soul_4.png
-+  minecraft/textures/particle/soul_5.png
-+  minecraft/textures/particle/soul_6.png
-+  minecraft/textures/particle/soul_7.png
-+  minecraft/textures/particle/soul_8.png
-+  minecraft/textures/particle/soul_9.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:nether_gold_ore
-+ minecraft:twisting_vines
-+ minecraft:twisting_vines_plant
-```
-
-</details>
-
-<details><summary>enchantment.txt</summary>
-
-```diff
-+ minecraft:soul_speed
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-+ minecraft:twisting_vines
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:nether_gold_ore
-+ minecraft:twisting_vines
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:soul
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:particle.soul_escape
-+ minecraft:block.vine.step
-```
-
-</details>
-
-## Commands
-
-<details><summary>locate.txt</summary>
-
-```diff
-+ locate Nether_Fossil
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/gold_ores.json
-+ blocks/soul_speed_blocks.json
-+ items/gold_ores.json
-+ items/piglin_repellents.json
-```
-
-</details>
-
-<details><summary>blocks/climbable.json</summary>
-
-```diff
-+ minecraft:twisting_vines
-+ minecraft:twisting_vines_plant
-```
-
-</details>
-
-<details><summary>blocks/dragon_immune.json</summary>
-
-```diff
-+ minecraft:crying_obsidian
-```
-
-</details>
-
-<details><summary>blocks/hoglin_repellents.json</summary>
-
-```diff
-+ minecraft:potted_warped_fungus
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/fire.json
-+ blocks/nether_gold_ore.json
-+ blocks/soul_fire.json
-+ blocks/twisting_vines.json
-+ blocks/twisting_vines_plant.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ soul.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/gold_ores.json
-+ blocks/soul_speed_blocks.json
-+ items/gold_ores.json
-+ items/piglin_repellents.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/nether_gold_ore.png
-+ block/twisting_vines.png
-+ block/twisting_vines_plant.png
-+ particle/soul_0.png
-+ particle/soul_1.png
-+ particle/soul_10.png
-+ particle/soul_2.png
-+ particle/soul_3.png
-+ particle/soul_4.png
-+ particle/soul_5.png
-+ particle/soul_6.png
-+ particle/soul_7.png
-+ particle/soul_8.png
-+ particle/soul_9.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
-
-```diff
-+ void <init>(ChunkGeneratorProvider)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
-
-```diff
-+ void <init>(ChunkGeneratorProvider)
-- CompoundTag saveLayers()
-- void <init>(CompoundTag)
-- void loadLayers(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ ChunkGeneratorProvider levelTypeOptions
-- CompoundTag levelTypeOptions
-+ LevelType access$600(CreateWorldScreen)
-+ LevelType getLevelType()
-- int access$600(CreateWorldScreen)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.FlameParticle</summary>
-
-```diff
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.LocalPlayer</summary>
-
-```diff
-+ boolean crouching
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ void loadLevel(ChunkGeneratorProvider)
-- void loadLevel(JsonElement)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Iterable withinManhattan(BlockPos,int,int,int)
-+ Iterator lambda$betweenClosed$4(int,int,int,int,int,int)
-+ Iterator lambda$withinManhattan$3(BlockPos)
-+ Optional findClosestMatch(Predicate)
-+ Stream withinManhattanStream(BlockPos,int,int,int)
-- Iterator lambda$betweenClosed$3(int,int,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.BlockPos$2</summary>
-
-```diff
-+ int index
-+ int val$end
-+ int val$height
-+ int val$width
-- BlockPos$MutableBlockPos nextPos
-- Cursor3D cursor
-- int val$maxX
-- int val$maxY
-- int val$maxZ
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Vec3i</summary>
-
-```diff
-- Iterable between(Vec3i)
-- Iterator lambda$between$0(Vec3i)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.RenameBiomesFix</summary>
-
-```diff
-+ String name
-+ void <init>(Map)
-- void <init>(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-- double x
-- double y
-- double z
-+ BlockState getBlockStateOn()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
-
-```diff
-+ boolean isWithinAttackRange(LivingEntity,int)
-+ boolean isWithinMeleeAttackRange(LivingEntity)
-- boolean isAttackTargetVisibleAndInRange(LivingEntity,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.CrossbowAttack</summary>
-
-```diff
-- int shootRange
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
-
-```diff
-- double attackRange
-+ boolean isHoldingUsableProjectileWeapon(Mob)
-+ boolean lambda$isHoldingUsableProjectileWeapon$0(Item)
-+ LivingEntity getAttackTarget(Mob)
-+ void <init>(int)
-- boolean lambda$checkExtraStartConditions$0(Item)
-- void <init>(double,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
-
-```diff
-+ void setWalkAndLookTarget(LivingEntity)
-+ void start(Mob,long)
-- double getAttackRange(ItemStack)
-- double getAttackRange(LivingEntity)
-- LivingEntity getAttackTarget(LivingEntity)
-- void setWalkTarget(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
-
-```diff
-+ boolean canFireProjectileWeapon(ProjectileWeaponItem)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
-
-```diff
-+ boolean canFireProjectileWeapon(ProjectileWeaponItem)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
-
-```diff
-+ boolean piglinsOutnumberHoglins(Hoglin)
-+ boolean wantsToStopFleeing(Hoglin)
-- boolean hoglinsOutnumberPiglins(Hoglin)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-- EntityDataAccessor DATA_OWNERUUID_ID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.Enchantment</summary>
-
-```diff
-+ boolean isDiscoverable()
-+ boolean isTradeable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.Enchantments</summary>
-
-```diff
-+ Enchantment SOUL_SPEED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
-
-```diff
-+ VoxelShape getBlockSupportShape(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
-
-```diff
-+ VoxelShape getBlockSupportShape(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
-
-```diff
-- VoxelShape SHAPE
-- void <clinit>()
-- VoxelShape getShape(CollisionContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ BooleanProperty VINE_END
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGeneratorType</summary>
-
-```diff
-+ ChunkGenerator create(ChunkGeneratorSettings)
-- ChunkGenerator create(ChunkGeneratorSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.particle.SimpleAnimatedParticle
@@ -3860,647 +1367,138 @@
 </details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
 
+```diff
++ void <init>(CreateWorldScreen,ChunkGeneratorProvider)
+- void <init>(CreateWorldScreen,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
 
+```diff
+- CompoundTag saveLayers()
++ void <init>(CreateWorldScreen,ChunkGeneratorProvider)
+- void <init>(CreateWorldScreen,CompoundTag)
+- void loadLayers(CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
 
+```diff
+- int access$600(CreateWorldScreen)
++ LevelType access$600(CreateWorldScreen)
++ LevelType getLevelType()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.FlameParticle</summary>
 
+```diff
+- void tick()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.server.IntegratedServer</summary>
 
+```diff
++ void loadLevel(String,String,long,ChunkGeneratorProvider)
+- void loadLevel(String,String,long,LevelType,JsonElement)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.core.BlockPos</summary>
 
 ```diff
 + Iterable withinManhattan(BlockPos,int,int,int)
-+ Iterator lambda$betweenClosed$4(int,int,int,int,int,int)
-+ Iterator lambda$withinManhattan$3(BlockPos)
-+ Optional findClosestMatch(Predicate)
-+ Stream withinManhattanStream(BlockPos,int,int,int)
 - Iterator lambda$betweenClosed$3(int,int,int,int,int,int)
++ Iterator lambda$betweenClosed$4(int,int,int,int,int,int)
++ Iterator lambda$withinManhattan$3(int,int,int,int,BlockPos)
++ Optional findClosestMatch(BlockPos,int,int,Predicate)
++ Stream withinManhattanStream(BlockPos,int,int,int)
 ```
 
 </details>
-
-<details><summary>net.minecraft.core.BlockPos$2</summary>
-
-```diff
-+ int index
-+ int val$end
-+ int val$height
-+ int val$width
-- BlockPos$MutableBlockPos nextPos
-- Cursor3D cursor
-- int val$maxX
-- int val$maxY
-- int val$maxZ
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.core.Vec3i</summary>
 
 ```diff
-- Iterable between(Vec3i)
-- Iterator lambda$between$0(Vec3i)
+- Iterable between(Vec3i,Vec3i)
+- Iterator lambda$between$0(Vec3i,Vec3i)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.datafix.fixes.RenameBiomesFix</summary>
 
 ```diff
-+ String name
-+ void <init>(Map)
-- void <init>(Map)
+- void <init>(Schema,boolean,Map)
++ void <init>(Schema,boolean,String,Map)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-- double x
-- double y
-- double z
 + BlockState getBlockStateOn()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
 
 ```diff
-+ boolean isWithinAttackRange(LivingEntity,int)
-+ boolean isWithinMeleeAttackRange(LivingEntity)
 - boolean isAttackTargetVisibleAndInRange(LivingEntity,double)
++ boolean isWithinAttackRange(Mob,LivingEntity,int)
++ boolean isWithinMeleeAttackRange(LivingEntity,LivingEntity)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.CrossbowAttack</summary>
-
-```diff
-- int shootRange
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
 
 ```diff
-- double attackRange
 + boolean isHoldingUsableProjectileWeapon(Mob)
-+ boolean lambda$isHoldingUsableProjectileWeapon$0(Item)
-+ LivingEntity getAttackTarget(Mob)
-+ void <init>(int)
 - boolean lambda$checkExtraStartConditions$0(Item)
++ boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,Item)
++ LivingEntity getAttackTarget(Mob)
 - void <init>(double,int)
++ void <init>(int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
 
 ```diff
-+ void setWalkAndLookTarget(LivingEntity)
-+ void start(Mob,long)
 - double getAttackRange(ItemStack)
 - double getAttackRange(LivingEntity)
 - LivingEntity getAttackTarget(LivingEntity)
-- void setWalkTarget(LivingEntity)
++ void setWalkAndLookTarget(LivingEntity,LivingEntity)
+- void setWalkTarget(LivingEntity,LivingEntity)
++ void start(ServerLevel,Mob,long)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
@@ -4512,33 +1510,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.monster.Pillager</summary>
 
 ```diff
@@ -4548,239 +1519,15 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
 
 ```diff
+- boolean hoglinsOutnumberPiglins(Hoglin)
 + boolean piglinsOutnumberHoglins(Hoglin)
 + boolean wantsToStopFleeing(Hoglin)
-- boolean hoglinsOutnumberPiglins(Hoglin)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-- EntityDataAccessor DATA_OWNERUUID_ID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.enchantment.Enchantment</summary>
@@ -4793,57 +1540,10 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.Enchantments</summary>
-
-```diff
-+ Enchantment SOUL_SPEED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
 
 ```diff
-+ VoxelShape getBlockSupportShape(BlockPos)
++ VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
@@ -4852,540 +1552,38 @@
 <details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
 
 ```diff
-+ VoxelShape getBlockSupportShape(BlockPos)
++ VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
 
 ```diff
-- VoxelShape SHAPE
 - void <clinit>()
-- VoxelShape getShape(CollisionContext)
+- VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ BooleanProperty VINE_END
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.ChunkGeneratorType</summary>
 
 ```diff
-+ ChunkGenerator create(ChunkGeneratorSettings)
-- ChunkGenerator create(ChunkGeneratorSettings)
+- ChunkGenerator create(Level,BiomeSource,ChunkGeneratorSettings)
++ ChunkGenerator create(LevelAccessor,BiomeSource,ChunkGeneratorSettings)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior
@@ -6702,13 +2900,399 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
++ Iterable withinManhattan(BlockPos,int,int,int)
+- Iterator lambda$betweenClosed$3(int,int,int,int,int,int)
++ Iterator lambda$betweenClosed$4(int,int,int,int,int,int)
++ Iterator lambda$withinManhattan$3(int,int,int,int,BlockPos)
++ Optional findClosestMatch(BlockPos,int,int,Predicate)
++ Stream withinManhattanStream(BlockPos,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Vec3i</summary>
+
+```diff
+- Iterable between(Vec3i,Vec3i)
+- Iterator lambda$between$0(Vec3i,Vec3i)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RenameBiomesFix</summary>
+
+```diff
+- void <init>(Schema,boolean,Map)
++ void <init>(Schema,boolean,String,Map)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ BlockState getBlockStateOn()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
+
+```diff
+- boolean isAttackTargetVisibleAndInRange(LivingEntity,double)
++ boolean isWithinAttackRange(Mob,LivingEntity,int)
++ boolean isWithinMeleeAttackRange(LivingEntity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
+
+```diff
++ boolean isHoldingUsableProjectileWeapon(Mob)
+- boolean lambda$checkExtraStartConditions$0(Item)
++ boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,Item)
++ LivingEntity getAttackTarget(Mob)
+- void <init>(double,int)
++ void <init>(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
+
+```diff
+- double getAttackRange(ItemStack)
+- double getAttackRange(LivingEntity)
+- LivingEntity getAttackTarget(LivingEntity)
++ void setWalkAndLookTarget(LivingEntity,LivingEntity)
+- void setWalkTarget(LivingEntity,LivingEntity)
++ void start(ServerLevel,Mob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
+
+```diff
++ boolean canFireProjectileWeapon(ProjectileWeaponItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
+
+```diff
++ boolean canFireProjectileWeapon(ProjectileWeaponItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
+
+```diff
+- boolean hoglinsOutnumberPiglins(Hoglin)
++ boolean piglinsOutnumberHoglins(Hoglin)
++ boolean wantsToStopFleeing(Hoglin)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.enchantment.Enchantment</summary>
+
+```diff
++ boolean isDiscoverable()
++ boolean isTradeable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
+
+```diff
++ VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
+
+```diff
++ VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
+
+```diff
+- void <clinit>()
+- VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGeneratorType</summary>
+
+```diff
+- ChunkGenerator create(Level,BiomeSource,ChunkGeneratorSettings)
++ ChunkGenerator create(LevelAccessor,BiomeSource,ChunkGeneratorSettings)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/blocks/fire.json
++ minecraft/loot_tables/blocks/nether_gold_ore.json
++ minecraft/loot_tables/blocks/soul_fire.json
++ minecraft/loot_tables/blocks/twisting_vines_plant.json
++ minecraft/loot_tables/blocks/twisting_vines.json
++ minecraft/tags/blocks/gold_ores.json
++ minecraft/tags/blocks/soul_speed_blocks.json
++ minecraft/tags/items/gold_ores.json
++ minecraft/tags/items/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/nether_gold_ore.json
++ minecraft/blockstates/twisting_vines_plant.json
++ minecraft/blockstates/twisting_vines.json
++ minecraft/models/block/nether_gold_ore.json
++ minecraft/models/block/twisting_vines_plant.json
++ minecraft/models/block/twisting_vines.json
++ minecraft/models/item/nether_gold_ore.json
++ minecraft/models/item/twisting_vines.json
++ minecraft/particles/soul.json
++ minecraft/textures/block/nether_gold_ore.png
++ minecraft/textures/block/twisting_vines_plant.png
++ minecraft/textures/block/twisting_vines.png
++ minecraft/textures/particle/soul_0.png
++ minecraft/textures/particle/soul_1.png
++ minecraft/textures/particle/soul_10.png
++ minecraft/textures/particle/soul_2.png
++ minecraft/textures/particle/soul_3.png
++ minecraft/textures/particle/soul_4.png
++ minecraft/textures/particle/soul_5.png
++ minecraft/textures/particle/soul_6.png
++ minecraft/textures/particle/soul_7.png
++ minecraft/textures/particle/soul_8.png
++ minecraft/textures/particle/soul_9.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:nether_gold_ore
++ minecraft:twisting_vines
++ minecraft:twisting_vines_plant
+```
+
+</details>
+
+
+<details><summary>enchantment.txt</summary>
+
+```diff
++ minecraft:soul_speed
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
++ minecraft:twisting_vines
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:nether_gold_ore
++ minecraft:twisting_vines
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:soul
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.vine.step
++ minecraft:particle.soul_escape
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>locate.txt</summary>
+
+```diff
++ locate Nether_Fossil
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/gold_ores.json
++ blocks/soul_speed_blocks.json
++ items/gold_ores.json
++ items/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>blocks/climbable.json</summary>
+
+```diff
++ minecraft:twisting_vines
++ minecraft:twisting_vines_plant
+```
+
+</details>
+
+
+<details><summary>blocks/dragon_immune.json</summary>
+
+```diff
++ minecraft:crying_obsidian
+```
+
+</details>
+
+
+<details><summary>blocks/hoglin_repellents.json</summary>
+
+```diff
++ minecraft:potted_warped_fungus
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.nether_gold_ore
++ block.minecraft.twisting_vines
++ block.minecraft.twisting_vines_plant
++ death.fell.accident.scaffolding
++ death.fell.accident.twisting_vines
++ enchantment.minecraft.soul_speed
++ subtitles.particle.soul_escape
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/fire.json
++ blocks/nether_gold_ore.json
++ blocks/soul_fire.json
++ blocks/twisting_vines_plant.json
++ blocks/twisting_vines.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ soul.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/gold_ores.json
++ blocks/soul_speed_blocks.json
++ items/gold_ores.json
++ items/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/nether_gold_ore.png
++ block/twisting_vines_plant.png
++ block/twisting_vines.png
++ particle/soul_0.png
++ particle/soul_1.png
++ particle/soul_10.png
++ particle/soul_2.png
++ particle/soul_3.png
++ particle/soul_4.png
++ particle/soul_5.png
++ particle/soul_6.png
++ particle/soul_7.png
++ particle/soul_8.png
++ particle/soul_9.png
+```
+
+</details>

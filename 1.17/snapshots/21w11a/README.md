@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w11a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w11a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-03-17T15:05:50+00:00</td></tr>
@@ -10,2622 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/cf412c14df5bb5c3dce38bc7f19169c027ac045a/server.txt">https://piston-data.mojang.com/v1/objects/cf412c14df5bb5c3dce38bc7f19169c027ac045a/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/07ad8b23e33d195fd897133c9c0e35d7fa1593eb/client.jar">https://piston-data.mojang.com/v1/objects/07ad8b23e33d195fd897133c9c0e35d7fa1593eb/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e8f9be9094ea120eabed0030f997c51da6853793/client.txt">https://piston-data.mojang.com/v1/objects/e8f9be9094ea120eabed0030f997c51da6853793/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w10a">21w10a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/recipes/building_blocks/mossy_cobblestone.json
-+  minecraft/advancements/recipes/building_blocks/mossy_cobblestone_from_moss_block.json
-+  minecraft/advancements/recipes/building_blocks/mossy_cobblestone_from_vine.json
--  minecraft/advancements/recipes/building_blocks/mossy_stone_bricks.json
-+  minecraft/advancements/recipes/building_blocks/mossy_stone_bricks_from_moss_block.json
-+  minecraft/advancements/recipes/building_blocks/mossy_stone_bricks_from_vine.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_copper_block_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_exposed_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_weathered_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_copper_from_honeycomb.json
-+  minecraft/advancements/recipes/misc/copper_ingot_from_waxed_copper_block.json
-+  minecraft/loot_tables/blocks/cave_vines.json
--  minecraft/loot_tables/blocks/cave_vines_body.json
--  minecraft/loot_tables/blocks/cave_vines_head.json
-+  minecraft/loot_tables/blocks/cave_vines_plant.json
-+  minecraft/recipes/copper_ingot_from_waxed_copper_block.json
--  minecraft/recipes/mossy_cobblestone.json
-+  minecraft/recipes/mossy_cobblestone_from_moss_block.json
-+  minecraft/recipes/mossy_cobblestone_from_vine.json
--  minecraft/recipes/mossy_stone_bricks.json
-+  minecraft/recipes/mossy_stone_bricks_from_moss_block.json
-+  minecraft/recipes/mossy_stone_bricks_from_vine.json
--  minecraft/recipes/waxed_copper_block.json
-+  minecraft/recipes/waxed_copper_block_from_honeycomb.json
--  minecraft/recipes/waxed_copper_cut_slab_from_honeycomb.json
--  minecraft/recipes/waxed_copper_cut_stairs_from_honeycomb.json
-+  minecraft/recipes/waxed_cut_copper_slab_from_honeycomb.json
-+  minecraft/recipes/waxed_cut_copper_stairs_from_honeycomb.json
--  minecraft/recipes/waxed_exposed_copper.json
-+  minecraft/recipes/waxed_exposed_copper_from_honeycomb.json
--  minecraft/recipes/waxed_weathered_copper.json
-+  minecraft/recipes/waxed_weathered_copper_from_honeycomb.json
-+  minecraft/tags/items/cluster_max_harvestables.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/cave_vines.json
--  minecraft/blockstates/cave_vines_body.json
--  minecraft/blockstates/cave_vines_head.json
-+  minecraft/blockstates/cave_vines_plant.json
-+  minecraft/models/block/cave_vines.json
--  minecraft/models/block/cave_vines_body.json
--  minecraft/models/block/cave_vines_body_lit.json
--  minecraft/models/block/cave_vines_head.json
--  minecraft/models/block/cave_vines_head_lit.json
-+  minecraft/models/block/cave_vines_lit.json
-+  minecraft/models/block/cave_vines_plant.json
-+  minecraft/models/block/cave_vines_plant_lit.json
-+  minecraft/models/block/lightning_rod_on.json
-+  minecraft/particles/electric_spark.json
-+  minecraft/particles/scrape.json
-+  minecraft/particles/wax_off.json
-+  minecraft/particles/wax_on.json
-+  minecraft/textures/block/cave_vines.png
--  minecraft/textures/block/cave_vines_body.png
--  minecraft/textures/block/cave_vines_body_lit.png
--  minecraft/textures/block/cave_vines_head.png
--  minecraft/textures/block/cave_vines_head_lit.png
-+  minecraft/textures/block/cave_vines_lit.png
-+  minecraft/textures/block/cave_vines_plant.png
-+  minecraft/textures/block/cave_vines_plant_lit.png
-+  minecraft/textures/block/lightning_rod_on.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:cave_vines_head
-- minecraft:cave_vines_body
-+ minecraft:cave_vines
-+ minecraft:cave_vines_plant
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:wax_on
-+ minecraft:wax_off
-+ minecraft:electric_spark
-+ minecraft:scrape
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:item.axe.scrape
-+ minecraft:item.axe.wax_off
-+ minecraft:item.honeycomb.wax_on
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:heightmap_with_water_threshold
-+ minecraft:water_depth_threshold
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ items/cluster_max_harvestables.json
-```
-
-</details>
-
-<details><summary>blocks/cave_vines.json</summary>
-
-```diff
-- minecraft:cave_vines_body
-- minecraft:cave_vines_head
-+ minecraft:cave_vines_plant
-+ minecraft:cave_vines
-```
-
-</details>
-
-<details><summary>blocks/climbable.json</summary>
-
-```diff
-+ minecraft:cave_vines
-+ minecraft:cave_vines_plant
-```
-
-</details>
-
-<details><summary>blocks/deepslate_ore_replaceables.json</summary>
-
-```diff
-+ minecraft:tuff
-```
-
-</details>
-
-<details><summary>blocks/impermeable.json</summary>
-
-```diff
-+ minecraft:tinted_glass
-```
-
-</details>
-
-<details><summary>blocks/stone_ore_replaceables.json</summary>
-
-```diff
-- minecraft:tuff
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/mossy_cobblestone.json
-- recipes/building_blocks/mossy_stone_bricks.json
-- recipes/building_blocks/waxed_copper_block.json
-- recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
-- recipes/building_blocks/waxed_exposed_copper.json
-- recipes/building_blocks/waxed_weathered_copper.json
-+ recipes/building_blocks/mossy_cobblestone_from_moss_block.json
-+ recipes/building_blocks/mossy_cobblestone_from_vine.json
-+ recipes/building_blocks/mossy_stone_bricks_from_moss_block.json
-+ recipes/building_blocks/mossy_stone_bricks_from_vine.json
-+ recipes/building_blocks/waxed_copper_block_from_honeycomb.json
-+ recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb.json
-+ recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb.json
-+ recipes/building_blocks/waxed_exposed_copper_from_honeycomb.json
-+ recipes/building_blocks/waxed_weathered_copper_from_honeycomb.json
-+ recipes/misc/copper_ingot_from_waxed_copper_block.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/cave_vines_body.json
-- blocks/cave_vines_head.json
-+ blocks/cave_vines.json
-+ blocks/cave_vines_plant.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ electric_spark.json
-+ scrape.json
-+ wax_off.json
-+ wax_on.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- mossy_cobblestone.json
-- mossy_stone_bricks.json
-- waxed_copper_block.json
-- waxed_copper_cut_slab_from_honeycomb.json
-- waxed_copper_cut_stairs_from_honeycomb.json
-- waxed_exposed_copper.json
-- waxed_weathered_copper.json
-+ copper_ingot_from_waxed_copper_block.json
-+ mossy_cobblestone_from_moss_block.json
-+ mossy_cobblestone_from_vine.json
-+ mossy_stone_bricks_from_moss_block.json
-+ mossy_stone_bricks_from_vine.json
-+ waxed_copper_block_from_honeycomb.json
-+ waxed_cut_copper_slab_from_honeycomb.json
-+ waxed_cut_copper_stairs_from_honeycomb.json
-+ waxed_exposed_copper_from_honeycomb.json
-+ waxed_weathered_copper_from_honeycomb.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ items/cluster_max_harvestables.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/cave_vines_body.png
-- block/cave_vines_body_lit.png
-- block/cave_vines_head.png
-- block/cave_vines_head_lit.png
-+ block/cave_vines.png
-+ block/cave_vines_lit.png
-+ block/cave_vines_plant.png
-+ block/cave_vines_plant_lit.png
-+ block/lightning_rod_on.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.Lighting</summary>
-
-```diff
-+ Vector3f INVENTORY_DIFFUSE_LIGHT_0
-+ Vector3f INVENTORY_DIFFUSE_LIGHT_1
-+ void setupForEntityInInventory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-- void setShaderColor(float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ ClientMetricsLogger clientMetricsLogger
-+ boolean lambda$tick$21()
-+ ChunkProgressListener lambda$null$27(int)
-+ CompletionStage lambda$delayTextureReload$37(CompletableFuture)
-+ DataPackConfig lambda$createLevel$22(LevelStorageSource$LevelStorageAccess)
-+ DataResult lambda$null$23(JsonElement)
-+ IntegratedServer lambda$doLoadLevel$28(Thread)
-+ PackResources lambda$adaptV3$41(Supplier)
-+ PackResources lambda$adaptV4$42(Supplier)
-+ ProfilerFiller constructProfiler(SingleTickProfiler)
-+ String lambda$fillReport$32(String)
-+ String lambda$fillReport$34()
-+ String lambda$fillReport$35(Options)
-+ String lambda$fillReport$36(LanguageManager)
-+ Style lambda$grabHugeScreenshot$40(Style)
-+ Style lambda$grabPanoramixScreenshot$39(Style)
-+ void debugClientMetricsKeyPressed(Consumer)
-+ void lambda$debugClientMetricsKeyPressed$19()
-+ void lambda$displayExperimentalConfirmationDialog$30(Runnable,boolean,boolean)
-+ void lambda$displayExperimentalConfirmationDialog$31(String,boolean)
-+ void lambda$doLoadLevel$25(Minecraft$ExperimentalDialogType)
-+ void lambda$doLoadLevel$26(Function4,boolean)
-+ void lambda$doLoadLevel$29(Component)
-+ void lambda$grabPanoramixScreenshot$38(Component)
-+ void lambda$tick$20()
-+ WorldData lambda$createLevel$24(DataPackConfig)
-- boolean lambda$tick$20()
-- ChunkProgressListener lambda$null$26(int)
-- CompletionStage lambda$delayTextureReload$36(CompletableFuture)
-- DataPackConfig lambda$createLevel$21(LevelStorageSource$LevelStorageAccess)
-- DataResult lambda$null$22(JsonElement)
-- IntegratedServer lambda$doLoadLevel$27(Thread)
-- PackResources lambda$adaptV3$40(Supplier)
-- PackResources lambda$adaptV4$41(Supplier)
-- String lambda$fillReport$31(String)
-- String lambda$fillReport$32()
-- String lambda$fillReport$34(Options)
-- String lambda$fillReport$35(LanguageManager)
-- Style lambda$grabHugeScreenshot$39(Style)
-- Style lambda$grabPanoramixScreenshot$38(Style)
-- void lambda$displayExperimentalConfirmationDialog$29(Runnable,boolean,boolean)
-- void lambda$displayExperimentalConfirmationDialog$30(String,boolean)
-- void lambda$doLoadLevel$24(Minecraft$ExperimentalDialogType)
-- void lambda$doLoadLevel$25(Function4,boolean)
-- void lambda$doLoadLevel$28(Component)
-- void lambda$grabPanoramixScreenshot$37(Component)
-- void lambda$tick$19()
-- void startProfilers(SingleTickProfiler)
-- WorldData lambda$createLevel$23(DataPackConfig)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Iterable randomInCube(BlockPos,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.cauldron.CauldronInteraction</summary>
-
-```diff
-+ void addDefaultInteractions(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
-
-```diff
-- int ownerNetworkId
-+ boolean ownedBy(Entity)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownTrident</summary>
-
-```diff
-+ boolean tryPickup(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
-
-```diff
-+ IntList remoteDataSlots
-+ void synchronizeDataSlotToRemote(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SporeBlossomBlock</summary>
-
-```diff
-+ BlockState updateShape(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WeatheringCopper</summary>
-
-```diff
-+ Supplier NEXT_BY_BLOCK
-+ Supplier PREVIOUS_BY_BLOCK
-+ BiMap lambda$static$0()
-+ BiMap lambda$static$1()
-+ Block getFirst(Block)
-+ BlockState getFirst(BlockState)
-+ BlockState lambda$getNext$3(Block)
-+ BlockState lambda$getPrevious$2(Block)
-+ Optional getNext(Block)
-+ Optional getNext(BlockState)
-+ Optional getPrevious(Block)
-+ Optional getPrevious(BlockState)
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WeatheringCopperFullBlock</summary>
-
-```diff
-- Block changeTo
-+ void <init>(BlockBehaviour$Properties)
-- BlockState getChangeTo(BlockState)
-- void <init>(Block)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WeatheringCopperStairBlock</summary>
-
-```diff
-- Block changeTo
-+ void <init>(BlockBehaviour$Properties)
-- BlockState getChangeTo(BlockState)
-- void <init>(Block)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ int getSpawnHeight(LevelHeightAccessor)
-- int getSpawnHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ StructureStart loadStaticStart(CompoundTag,long)
-- StructureStart loadStaticStart(CompoundTag,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructurePieceType</summary>
-
-```diff
-+ StructurePiece load(net.minecraft.server.level.ServerLevel,net.minecraft.nbt.CompoundTag)
-- StructurePiece load(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.nbt.CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLayerInfo</summary>
-
-```diff
-+ Block block
-- BlockState blockState
-- int start
-- int getStart()
-- void setStart(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$MonumentBuilding</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-+ void lambda$new$0(Tag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-- void lambda$new$0(Tag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(net.minecraft.server.level.ServerLevel,net.minecraft.nbt.CompoundTag)
-- void addAdditionalSaveData(net.minecraft.nbt.CompoundTag)
-+ CompoundTag createTag(ServerLevel)
-- CompoundTag createTag()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.TemplateStructurePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
-- void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
-
-```diff
-+ boolean isIncompatibleWorldHeight()
-- boolean isPreWorldheight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.particle.GlowParticle$GlowSquidProvider
@@ -5102,1461 +2508,573 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
+<details><summary>com.mojang.blaze3d.platform.Lighting</summary>
 
 ```diff
-+ void lambda$readRegistry$6(DataResult$PartialResult)
-+ void load(RegistryReadOps)
-+ void readRegistry(RegistryAccess$RegistryData)
-- IllegalStateException lambda$readRegistry$7(ResourceKey)
-- MappedRegistry lambda$readRegistry$6(MappedRegistry)
-- void lambda$readRegistry$8(DataResult$PartialResult)
-- void load(RegistryReadOps)
-- void readRegistry(RegistryAccess$RegistryData)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
-
-```diff
-- Map access$100(RegistryAccess$RegistryHolder)
++ void setupForEntityInInventory()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.ActiveProfiler</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ ActiveProfiler$PathEntry getEntry(String)
+- void setShaderColor(float,float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.AxeItem</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ Map STRIPPABLES
-- Map STRIPABLES
-+ BlockState lambda$getStripped$2(Block)
-+ BlockState lambda$useOn$0(Block)
-+ Optional getStripped(BlockState)
-+ void lambda$useOn$1(Player)
-- void lambda$useOn$0(Player)
+- boolean lambda$tick$20()
++ boolean lambda$tick$21()
+- ChunkProgressListener lambda$null$26(int)
++ ChunkProgressListener lambda$null$27(int)
+- CompletionStage lambda$delayTextureReload$36(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$37(CompletableFuture)
+- DataPackConfig lambda$createLevel$21(LevelSettings,LevelStorageSource$LevelStorageAccess)
++ DataPackConfig lambda$createLevel$22(LevelSettings,LevelStorageSource$LevelStorageAccess)
+- DataResult lambda$null$22(RegistryReadOps,JsonElement)
++ DataResult lambda$null$23(RegistryReadOps,JsonElement)
+- IntegratedServer lambda$doLoadLevel$27(RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,Minecraft$ServerStem,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
++ IntegratedServer lambda$doLoadLevel$28(RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,Minecraft$ServerStem,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
+- PackResources lambda$adaptV3$40(Supplier)
++ PackResources lambda$adaptV3$41(Supplier)
+- PackResources lambda$adaptV4$41(Supplier)
++ PackResources lambda$adaptV4$42(Supplier)
++ ProfilerFiller constructProfiler(boolean,SingleTickProfiler)
+- String lambda$fillReport$31(String)
+- String lambda$fillReport$32()
++ String lambda$fillReport$32(String)
++ String lambda$fillReport$34()
+- String lambda$fillReport$34(Options)
+- String lambda$fillReport$35(LanguageManager)
++ String lambda$fillReport$35(Options)
++ String lambda$fillReport$36(LanguageManager)
+- Style lambda$grabHugeScreenshot$39(File,Style)
++ Style lambda$grabHugeScreenshot$40(File,Style)
+- Style lambda$grabPanoramixScreenshot$38(File,Style)
++ Style lambda$grabPanoramixScreenshot$39(File,Style)
++ void debugClientMetricsKeyPressed(Runnable,Consumer)
++ void lambda$debugClientMetricsKeyPressed$19()
+- void lambda$displayExperimentalConfirmationDialog$29(String,Runnable,boolean,boolean)
+- void lambda$displayExperimentalConfirmationDialog$30(Runnable,String,boolean)
++ void lambda$displayExperimentalConfirmationDialog$30(String,Runnable,boolean,boolean)
++ void lambda$displayExperimentalConfirmationDialog$31(Runnable,String,boolean)
+- void lambda$doLoadLevel$24(String,RegistryAccess$RegistryHolder,Function,Function4,Minecraft$ExperimentalDialogType)
+- void lambda$doLoadLevel$25(String,RegistryAccess$RegistryHolder,Function,Function4,boolean)
++ void lambda$doLoadLevel$25(String,RegistryAccess$RegistryHolder,Function,Function4,Minecraft$ExperimentalDialogType)
++ void lambda$doLoadLevel$26(String,RegistryAccess$RegistryHolder,Function,Function4,boolean)
+- void lambda$doLoadLevel$28(Component)
++ void lambda$doLoadLevel$29(Component)
+- void lambda$grabPanoramixScreenshot$37(Component)
++ void lambda$grabPanoramixScreenshot$38(Component)
+- void lambda$tick$19()
++ void lambda$tick$20()
+- void startProfilers(boolean,SingleTickProfiler)
+- WorldData lambda$createLevel$23(RegistryAccess$RegistryHolder,WorldGenSettings,LevelSettings,LevelStorageSource$LevelStorageAccess,RegistryAccess$RegistryHolder,ResourceManager,DataPackConfig)
++ WorldData lambda$createLevel$24(RegistryAccess$RegistryHolder,WorldGenSettings,LevelSettings,LevelStorageSource$LevelStorageAccess,RegistryAccess$RegistryHolder,ResourceManager,DataPackConfig)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CaveVinesBlock</summary>
+<details><summary>net.minecraft.core.BlockPos</summary>
 
 ```diff
-- BooleanProperty BERRIES
-- VoxelShape SHAPE
-+ Block getBodyBlock()
-+ BlockState getGrowIntoState(Random)
-+ BlockState updateBodyAfterConvertedFromHead(BlockState)
-+ boolean canGrowInto(BlockState)
-+ boolean isBonemealSuccess(BlockState)
-+ boolean isValidBonemealTarget(BlockState,boolean)
-+ int getBlocksToGrowWhenBonemealed(Random)
-+ InteractionResult use(BlockHitResult)
-+ ItemStack getCloneItemStack(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void createBlockStateDefinition(StateDefinition$Builder)
-+ void performBonemeal(BlockState)
-- boolean hasGlowBerries(BlockState)
-- InteractionResult use(BlockPos)
-- void <clinit>()
++ Iterable randomInCube(Random,int,BlockPos,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SmallDripleafBlock</summary>
+<details><summary>net.minecraft.core.cauldron.CauldronInteraction</summary>
 
 ```diff
-+ DirectionProperty FACING
-+ BlockState mirror(Mirror)
-+ BlockState rotate(Rotation)
++ void addDefaultInteractions(Map)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WeatheringCopperSlabBlock</summary>
+<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
 
 ```diff
-- Block changeTo
-+ void <init>(BlockBehaviour$Properties)
++ boolean ownedBy(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ThrownTrident</summary>
+
+```diff
++ boolean tryPickup(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+
+```diff
++ void synchronizeDataSlotToRemote(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SporeBlossomBlock</summary>
+
+```diff
++ BlockState updateShape(BlockState,Direction,BlockState,LevelAccessor,BlockPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeatheringCopper</summary>
+
+```diff
++ BiMap lambda$static$0()
++ BiMap lambda$static$1()
++ Block getFirst(Block)
++ BlockState getFirst(BlockState)
++ BlockState lambda$getNext$3(BlockState,Block)
++ BlockState lambda$getPrevious$2(BlockState,Block)
++ Optional getNext(Block)
++ Optional getNext(BlockState)
++ Optional getPrevious(Block)
++ Optional getPrevious(BlockState)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeatheringCopperFullBlock</summary>
+
+```diff
 - BlockState getChangeTo(BlockState)
-- void <init>(Block)
+- void <init>(BlockBehaviour$Properties,WeatheringCopper$WeatherState,Block)
 - void <init>(BlockBehaviour$Properties)
++ void <init>(WeatheringCopper$WeatherState,BlockBehaviour$Properties)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+<details><summary>net.minecraft.world.level.block.WeatheringCopperStairBlock</summary>
 
 ```diff
-+ CompoundTag packStructureData(Map)
-+ Map unpackStructureStart(CompoundTag,long)
-- CompoundTag packStructureData(Map)
-- Map unpackStructureStart(CompoundTag,long)
+- BlockState getChangeTo(BlockState)
+- void <init>(BlockState,BlockBehaviour$Properties,WeatheringCopper$WeatherState,Block)
+- void <init>(BlockState,BlockBehaviour$Properties)
++ void <init>(WeatheringCopper$WeatherState,BlockState,BlockBehaviour$Properties)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
 
 ```diff
-+ int getSpawnHeight(LevelHeightAccessor)
 - int getSpawnHeight()
++ int getSpawnHeight(LevelHeightAccessor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
 ```diff
-+ List layers
-- BlockState[] layers
-+ Biome lambda$getDefault$9(Registry)
-+ boolean lambda$updateLayers$8(BlockState)
-+ List getLayers()
-- Biome lambda$getDefault$8(Registry)
-- BlockState[] getLayers()
-- int getHeight()
-- int getLayerIndex(int)
-- int getMinBuildHeight()
++ StructureStart loadStaticStart(ServerLevel,CompoundTag,long)
+- StructureStart loadStaticStart(StructureManager,CompoundTag,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLayerInfo</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
+- int getStart()
+- void setStart(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
-
-```diff
-+ void addAdditionalSaveData(CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StartPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$ChestCorridor</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FiveCrossing</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$MonumentBuilding</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentCoreRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXYRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYZRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentEntryRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece</summary>
+
+```diff
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Library</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleTopRoom</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
++ void lambda$new$0(RegistryReadOps,Tag)
+- void lambda$new$0(Tag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PortalRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RightTurn</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StartPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StraightStairsDown</summary>
-
-```diff
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
-
-```diff
-+ CompoundTag createTag(ChunkPos)
-- CompoundTag createTag(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
-
-```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
 
 ```diff
-+ void <init>(CompoundTag)
-+ void addAdditionalSaveData(CompoundTag)
-- void <init>(CompoundTag)
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
 - void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
 
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
 
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
 
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
 
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
 
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
 
+```diff
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
 
+```diff
+- CompoundTag createTag()
++ CompoundTag createTag(ServerLevel)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.TemplateStructurePiece</summary>
 
+```diff
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
 
+```diff
++ boolean isIncompatibleWorldHeight()
+- boolean isPreWorldheight()
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.dispenser.DispenseItemBehavior$26
@@ -8972,13 +5490,791 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.RegistryAccess</summary>
+
+```diff
+- IllegalStateException lambda$readRegistry$7(ResourceKey)
+- MappedRegistry lambda$readRegistry$6(MappedRegistry)
++ void lambda$readRegistry$6(DataResult$PartialResult)
+- void lambda$readRegistry$8(DataResult$PartialResult)
++ void load(RegistryAccess,RegistryReadOps)
+- void load(RegistryAccess$RegistryHolder,RegistryReadOps)
++ void readRegistry(RegistryReadOps,RegistryAccess,RegistryAccess$RegistryData)
+- void readRegistry(RegistryReadOps,RegistryAccess$RegistryHolder,RegistryAccess$RegistryData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
+
+```diff
+- Map access$100(RegistryAccess$RegistryHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.ActiveProfiler</summary>
+
+```diff
++ ActiveProfiler$PathEntry getEntry(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.AxeItem</summary>
+
+```diff
++ BlockState lambda$getStripped$2(BlockState,Block)
++ BlockState lambda$useOn$0(BlockState,Block)
++ Optional getStripped(BlockState)
+- void lambda$useOn$0(UseOnContext,Player)
++ void lambda$useOn$1(UseOnContext,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CaveVinesBlock</summary>
+
+```diff
++ Block getBodyBlock()
++ BlockState getGrowIntoState(BlockState,Random)
++ BlockState updateBodyAfterConvertedFromHead(BlockState,BlockState)
++ boolean canGrowInto(BlockState)
+- boolean hasGlowBerries(BlockState)
++ boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isValidBonemealTarget(BlockGetter,BlockPos,BlockState,boolean)
++ int getBlocksToGrowWhenBonemealed(Random)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+- InteractionResult use(BlockState,Level,BlockPos)
++ ItemStack getCloneItemStack(BlockGetter,BlockPos,BlockState)
+- void <clinit>()
++ void <init>(BlockBehaviour$Properties)
++ void createBlockStateDefinition(StateDefinition$Builder)
++ void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SmallDripleafBlock</summary>
+
+```diff
++ BlockState mirror(BlockState,Mirror)
++ BlockState rotate(BlockState,Rotation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeatheringCopperSlabBlock</summary>
+
+```diff
+- BlockState getChangeTo(BlockState)
+- void <init>(BlockBehaviour$Properties,WeatheringCopper$WeatherState,Block)
+- void <init>(BlockBehaviour$Properties)
++ void <init>(WeatheringCopper$WeatherState,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+
+```diff
+- CompoundTag packStructureData(ChunkPos,Map,Map)
++ CompoundTag packStructureData(ServerLevel,ChunkPos,Map,Map)
++ Map unpackStructureStart(ServerLevel,CompoundTag,long)
+- Map unpackStructureStart(StructureManager,CompoundTag,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
+- int getSpawnHeight()
++ int getSpawnHeight(LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+
+```diff
+- Biome lambda$getDefault$8(Registry)
++ Biome lambda$getDefault$9(Registry)
+- BlockState[] getLayers()
++ boolean lambda$updateLayers$8(BlockState)
+- int getHeight()
+- int getLayerIndex(int)
+- int getMinBuildHeight()
++ List getLayers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.BuriedTreasurePieces$BuriedTreasurePiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
+
+```diff
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StartPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$ChestCorridor</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FiveCrossing</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Library</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PortalRoom</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RightTurn</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StartPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StraightStairsDown</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
+- CompoundTag createTag(ChunkPos)
++ CompoundTag createTag(ServerLevel,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece</summary>
+
+```diff
++ void <init>(ServerLevel,CompoundTag)
+- void <init>(StructureManager,CompoundTag)
+- void addAdditionalSaveData(CompoundTag)
++ void addAdditionalSaveData(ServerLevel,CompoundTag)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/mossy_cobblestone_from_moss_block.json
++ minecraft/advancements/recipes/building_blocks/mossy_cobblestone_from_vine.json
+- minecraft/advancements/recipes/building_blocks/mossy_cobblestone.json
++ minecraft/advancements/recipes/building_blocks/mossy_stone_bricks_from_moss_block.json
++ minecraft/advancements/recipes/building_blocks/mossy_stone_bricks_from_vine.json
+- minecraft/advancements/recipes/building_blocks/mossy_stone_bricks.json
++ minecraft/advancements/recipes/building_blocks/waxed_copper_block_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper_block.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_exposed_copper.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_weathered_copper.json
++ minecraft/advancements/recipes/misc/copper_ingot_from_waxed_copper_block.json
+- minecraft/loot_tables/blocks/cave_vines_body.json
+- minecraft/loot_tables/blocks/cave_vines_head.json
++ minecraft/loot_tables/blocks/cave_vines_plant.json
++ minecraft/loot_tables/blocks/cave_vines.json
++ minecraft/recipes/copper_ingot_from_waxed_copper_block.json
++ minecraft/recipes/mossy_cobblestone_from_moss_block.json
++ minecraft/recipes/mossy_cobblestone_from_vine.json
+- minecraft/recipes/mossy_cobblestone.json
++ minecraft/recipes/mossy_stone_bricks_from_moss_block.json
++ minecraft/recipes/mossy_stone_bricks_from_vine.json
+- minecraft/recipes/mossy_stone_bricks.json
++ minecraft/recipes/waxed_copper_block_from_honeycomb.json
+- minecraft/recipes/waxed_copper_block.json
+- minecraft/recipes/waxed_copper_cut_slab_from_honeycomb.json
+- minecraft/recipes/waxed_copper_cut_stairs_from_honeycomb.json
++ minecraft/recipes/waxed_cut_copper_slab_from_honeycomb.json
++ minecraft/recipes/waxed_cut_copper_stairs_from_honeycomb.json
++ minecraft/recipes/waxed_exposed_copper_from_honeycomb.json
+- minecraft/recipes/waxed_exposed_copper.json
++ minecraft/recipes/waxed_weathered_copper_from_honeycomb.json
+- minecraft/recipes/waxed_weathered_copper.json
++ minecraft/tags/items/cluster_max_harvestables.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/blockstates/cave_vines_body.json
+- minecraft/blockstates/cave_vines_head.json
++ minecraft/blockstates/cave_vines_plant.json
++ minecraft/blockstates/cave_vines.json
+- minecraft/models/block/cave_vines_body_lit.json
+- minecraft/models/block/cave_vines_body.json
+- minecraft/models/block/cave_vines_head_lit.json
+- minecraft/models/block/cave_vines_head.json
++ minecraft/models/block/cave_vines_lit.json
++ minecraft/models/block/cave_vines_plant_lit.json
++ minecraft/models/block/cave_vines_plant.json
++ minecraft/models/block/cave_vines.json
++ minecraft/models/block/lightning_rod_on.json
++ minecraft/particles/electric_spark.json
++ minecraft/particles/scrape.json
++ minecraft/particles/wax_off.json
++ minecraft/particles/wax_on.json
+- minecraft/textures/block/cave_vines_body_lit.png
+- minecraft/textures/block/cave_vines_body.png
+- minecraft/textures/block/cave_vines_head_lit.png
+- minecraft/textures/block/cave_vines_head.png
++ minecraft/textures/block/cave_vines_lit.png
++ minecraft/textures/block/cave_vines_plant_lit.png
++ minecraft/textures/block/cave_vines_plant.png
++ minecraft/textures/block/cave_vines.png
++ minecraft/textures/block/lightning_rod_on.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:cave_vines
+- minecraft:cave_vines_body
+- minecraft:cave_vines_head
++ minecraft:cave_vines_plant
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:electric_spark
++ minecraft:scrape
++ minecraft:wax_off
++ minecraft:wax_on
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:item.axe.scrape
++ minecraft:item.axe.wax_off
++ minecraft:item.honeycomb.wax_on
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
+- minecraft:heightmap_with_water_threshold
++ minecraft:water_depth_threshold
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ items/cluster_max_harvestables.json
+```
+
+</details>
+
+
+<details><summary>blocks/cave_vines.json</summary>
+
+```diff
++ minecraft:cave_vines
+- minecraft:cave_vines_body
+- minecraft:cave_vines_head
++ minecraft:cave_vines_plant
+```
+
+</details>
+
+
+<details><summary>blocks/climbable.json</summary>
+
+```diff
++ minecraft:cave_vines
++ minecraft:cave_vines_plant
+```
+
+</details>
+
+
+<details><summary>blocks/deepslate_ore_replaceables.json</summary>
+
+```diff
++ minecraft:tuff
+```
+
+</details>
+
+
+<details><summary>blocks/impermeable.json</summary>
+
+```diff
++ minecraft:tinted_glass
+```
+
+</details>
+
+
+<details><summary>blocks/stone_ore_replaceables.json</summary>
+
+```diff
+- minecraft:tuff
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.cave_vines
+- block.minecraft.cave_vines_body
+- block.minecraft.cave_vines_head
++ block.minecraft.cave_vines_plant
++ debug.profiling.help
++ debug.profiling.start
++ debug.profiling.stop
++ subtitles.block.amethyst_block.chime
++ subtitles.item.axe.scrape
++ subtitles.item.axe.wax_off
++ subtitles.item.honeycomb.wax_on
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/mossy_cobblestone_from_moss_block.json
++ recipes/building_blocks/mossy_cobblestone_from_vine.json
+- recipes/building_blocks/mossy_cobblestone.json
++ recipes/building_blocks/mossy_stone_bricks_from_moss_block.json
++ recipes/building_blocks/mossy_stone_bricks_from_vine.json
+- recipes/building_blocks/mossy_stone_bricks.json
++ recipes/building_blocks/waxed_copper_block_from_honeycomb.json
+- recipes/building_blocks/waxed_copper_block.json
+- recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
++ recipes/building_blocks/waxed_cut_copper_slab_from_honeycomb.json
++ recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb.json
++ recipes/building_blocks/waxed_exposed_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_exposed_copper.json
++ recipes/building_blocks/waxed_weathered_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_weathered_copper.json
++ recipes/misc/copper_ingot_from_waxed_copper_block.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
+- blocks/cave_vines_body.json
+- blocks/cave_vines_head.json
++ blocks/cave_vines_plant.json
++ blocks/cave_vines.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ electric_spark.json
++ scrape.json
++ wax_off.json
++ wax_on.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ copper_ingot_from_waxed_copper_block.json
++ mossy_cobblestone_from_moss_block.json
++ mossy_cobblestone_from_vine.json
+- mossy_cobblestone.json
++ mossy_stone_bricks_from_moss_block.json
++ mossy_stone_bricks_from_vine.json
+- mossy_stone_bricks.json
++ waxed_copper_block_from_honeycomb.json
+- waxed_copper_block.json
+- waxed_copper_cut_slab_from_honeycomb.json
+- waxed_copper_cut_stairs_from_honeycomb.json
++ waxed_cut_copper_slab_from_honeycomb.json
++ waxed_cut_copper_stairs_from_honeycomb.json
++ waxed_exposed_copper_from_honeycomb.json
+- waxed_exposed_copper.json
++ waxed_weathered_copper_from_honeycomb.json
+- waxed_weathered_copper.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ items/cluster_max_harvestables.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/cave_vines_body_lit.png
+- block/cave_vines_body.png
+- block/cave_vines_head_lit.png
+- block/cave_vines_head.png
++ block/cave_vines_lit.png
++ block/cave_vines_plant_lit.png
++ block/cave_vines_plant.png
++ block/cave_vines.png
++ block/lightning_rod_on.png
+```
+
+</details>

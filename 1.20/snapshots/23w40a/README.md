@@ -6,13 +6,16 @@
 <tr><th>Id</th><td>23w40a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-10-04T12:48:53+00:00</td></tr>
-<tr><th>SHA1</th><td>306cf20e7d0abbfba6b705f689091d0b0e5878ae</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/306cf20e7d0abbfba6b705f689091d0b0e5878ae/23w40a.json">https://piston-meta.mojang.com/v1/packages/306cf20e7d0abbfba6b705f689091d0b0e5878ae/23w40a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/3b85e355ceefe079fc7b3526f3e6f0bfb6ee16ae/8.json">https://piston-meta.mojang.com/v1/packages/3b85e355ceefe079fc7b3526f3e6f0bfb6ee16ae/8.json</a></td></tr>
+<tr><th>SHA1</th><td>1df6df7ddbe3ac061efae4a0fa0599d20eb63113</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/1df6df7ddbe3ac061efae4a0fa0599d20eb63113/23w40a.json">https://piston-meta.mojang.com/v1/packages/1df6df7ddbe3ac061efae4a0fa0599d20eb63113/23w40a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json">https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/0f51a81705f4694b92f5273ffa2c52c45f27b7f8/server.jar">https://piston-data.mojang.com/v1/objects/0f51a81705f4694b92f5273ffa2c52c45f27b7f8/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ffe335fafa460378bf4242b9d07c4edc0f95f4bc/server.txt">https://piston-data.mojang.com/v1/objects/ffe335fafa460378bf4242b9d07c4edc0f95f4bc/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/8b5067a18632c3377da54aa9ff8e52e1a9055042/client.jar">https://piston-data.mojang.com/v1/objects/8b5067a18632c3377da54aa9ff8e52e1a9055042/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/70835872514b930e6e7b60886c86ef589e02db12/client.txt">https://piston-data.mojang.com/v1/objects/70835872514b930e6e7b60886c86ef589e02db12/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
 
 <br/>
@@ -8729,6 +8732,21 @@
 
 ```diff
 + minecraft:skeleton_horse
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.kick.owner.failed
++ gui.loadingMinecraft
++ mco.snapshotRealmsPopup.message
++ mco.snapshotRealmsPopup.title
++ mco.snapshotRealmsPopup.urlText
 ```
 
 </details>

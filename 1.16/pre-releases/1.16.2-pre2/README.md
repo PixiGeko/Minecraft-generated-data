@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.16.2-pre2 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.16.2-pre2</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2020-08-05T15:30:50+00:00</td></tr>
@@ -10,1556 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/538bd1a66a1f971039491607c2e6ba3146ed8a89/server.txt">https://piston-data.mojang.com/v1/objects/538bd1a66a1f971039491607c2e6ba3146ed8a89/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ce5762620a698b464d07a6c733cd66c7fa8072a1/client.jar">https://piston-data.mojang.com/v1/objects/ce5762620a698b464d07a6c733cd66c7fa8072a1/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9b8d8ea14162eafd94b0186b735e2706e13d053b/client.txt">https://piston-data.mojang.com/v1/objects/9b8d8ea14162eafd94b0186b735e2706e13d053b/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.16.2-pre1">1.16.2-pre1</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-- Component DISABLED_ACTIVITY_FEED_LABEL
-- Component access$1600()
-- Font access$1900(RealmsPlayerScreen)
-- int access$1700(RealmsPlayerScreen)
-- int access$1800(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
-
-```diff
-+ ResourceKey biome
-- Biome biome
-+ LocationPredicate$Builder setBiome(ResourceKey)
-- LocationPredicate$Builder setBiome(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ ChunkProgressListener lambda$null$26(int)
-+ CompletionStage lambda$delayTextureReload$36(CompletableFuture)
-+ DataResult lambda$null$22(JsonElement)
-+ IntegratedServer lambda$doLoadLevel$27(Thread)
-+ PackResources lambda$adaptV3$40(Supplier)
-+ PackResources lambda$adaptV4$41(Supplier)
-+ String lambda$fillReport$31(String)
-+ String lambda$fillReport$33()
-+ String lambda$fillReport$34(Options)
-+ String lambda$fillReport$35(LanguageManager)
-+ Style lambda$grabHugeScreenshot$39(Style)
-+ Style lambda$grabPanoramixScreenshot$38(Style)
-+ void lambda$displayExperimentalConfirmationDialog$29(Runnable,boolean,boolean)
-+ void lambda$displayExperimentalConfirmationDialog$30(String,boolean)
-+ void lambda$doLoadLevel$24(Minecraft$ExperimentalDialogType)
-+ void lambda$doLoadLevel$25(Function4,boolean)
-+ void lambda$doLoadLevel$28(Component)
-+ void lambda$grabPanoramixScreenshot$37(Component)
-+ WorldData lambda$createLevel$23(DataPackConfig)
-- ChunkProgressListener lambda$null$25(int)
-- CompletionStage lambda$delayTextureReload$35(CompletableFuture)
-- IntegratedServer lambda$doLoadLevel$26(Thread)
-- PackResources lambda$adaptV3$39(Supplier)
-- PackResources lambda$adaptV4$40(Supplier)
-- String lambda$fillReport$30(String)
-- String lambda$fillReport$31()
-- String lambda$fillReport$33(Options)
-- String lambda$fillReport$34(LanguageManager)
-- Style lambda$grabHugeScreenshot$38(Style)
-- Style lambda$grabPanoramixScreenshot$37(Style)
-- void lambda$displayExperimentalConfirmationDialog$28(Runnable,boolean,boolean)
-- void lambda$displayExperimentalConfirmationDialog$29(String,boolean)
-- void lambda$doLoadLevel$23(Minecraft$ExperimentalDialogType)
-- void lambda$doLoadLevel$24(Function4,boolean)
-- void lambda$doLoadLevel$27(Component)
-- void lambda$grabPanoramixScreenshot$36(Component)
-- WorldData lambda$createLevel$22(DataPackConfig)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.Gui</summary>
-
-```diff
-- ResourceLocation NAUSEA_LOCATION
-- void renderConfusionOverlay(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ EditBox access$500(PresetFlatWorldScreen)
-+ FlatLevelGeneratorSettings access$300(PresetFlatWorldScreen)
-+ FlatLevelGeneratorSettings access$302(FlatLevelGeneratorSettings)
-+ FlatLevelGeneratorSettings lambda$preset$3(Registry)
-+ String access$400(FlatLevelGeneratorSettings)
-+ String save(FlatLevelGeneratorSettings)
-+ void lambda$init$1(Button)
-+ void preset(FlatLayerInfo[])
-- EditBox access$400(PresetFlatWorldScreen)
-- FlatLevelGeneratorSettings access$502(FlatLevelGeneratorSettings)
-- String access$300(FlatLevelGeneratorSettings)
-- String save(FlatLevelGeneratorSettings)
-- void lambda$init$1(Button)
-- void preset(FlatLayerInfo[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
-
-```diff
-+ DataResult lambda$updateDataPacks$8(JsonElement)
-+ void lambda$updateDataPacks$9(WorldGenSettings)
-+ void updateDataPacks(ServerResources)
-- void setRegistryHolder(RegistryAccess$RegistryHolder)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset</summary>
-
-```diff
-+ ChunkGenerator generator(net.minecraft.core.Registry,net.minecraft.core.Registry,long)
-- ChunkGenerator generator(long)
-+ Biome parseBuffetSettings(WorldGenSettings)
-+ NoiseGeneratorSettings lambda$fromBuffetSettings$10(Registry)
-+ NoiseGeneratorSettings lambda$fromBuffetSettings$8(Registry)
-+ NoiseGeneratorSettings lambda$fromBuffetSettings$9(Registry)
-+ WorldGenSettings fromBuffetSettings(Biome)
-- Biome parseBuffetSettings(WorldGenSettings)
-- NoiseGeneratorSettings lambda$fromBuffetSettings$10()
-- NoiseGeneratorSettings lambda$fromBuffetSettings$8()
-- NoiseGeneratorSettings lambda$fromBuffetSettings$9()
-- WorldGenSettings fromBuffetSettings(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$2</summary>
-
-```diff
-+ ChunkGenerator generator(Registry,long)
-- ChunkGenerator generator(long)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$4</summary>
-
-```diff
-+ ChunkGenerator generator(Registry,long)
-+ NoiseGeneratorSettings lambda$generator$0(Registry)
-- ChunkGenerator generator(long)
-- NoiseGeneratorSettings lambda$generator$0()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$6</summary>
-
-```diff
-+ ChunkGenerator generator(Registry,long)
-+ DimensionType lambda$create$0(Registry)
-+ NoiseGeneratorSettings lambda$generator$1(Registry)
-- ChunkGenerator generator(long)
-- NoiseGeneratorSettings lambda$generator$0()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$8</summary>
-
-```diff
-+ ChunkGenerator generator(Registry,long)
-- ChunkGenerator generator(long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ void lambda$downloadCallback$6()
-+ Void lambda$downloadCallback$7(Throwable)
-+ void lambda$handleAddOrRemoveRecipes$2(Recipe)
-+ void lambda$handleAddOrRemoveRecipes$3(RecipeCollection)
-+ void lambda$handleGameEvent$1()
-+ void lambda$handlePlaceRecipe$8(Recipe)
-+ void lambda$handleResourcePack$5(String)
-+ void lambda$handleSetEquipment$0(Pair)
-+ void lambda$null$4(String,boolean)
-- void lambda$downloadCallback$7()
-- Void lambda$downloadCallback$8(Throwable)
-- void lambda$handleAddOrRemoveRecipes$3(Recipe)
-- void lambda$handleAddOrRemoveRecipes$4(RecipeCollection)
-- void lambda$handleGameEvent$2()
-- void lambda$handleLevelChunk$0(BlockPos)
-- void lambda$handlePlaceRecipe$9(Recipe)
-- void lambda$handleResourcePack$6(String)
-- void lambda$handleSetEquipment$1(Pair)
-- void lambda$null$5(String,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-+ Lifecycle elementsLifecycle()
-+ Lifecycle lifecycle(java.lang.Object)
-+ Object getOrThrow(ResourceKey)
-+ WritableRegistry internalRegister(Lifecycle)
-- boolean containsId(int)
-- WritableRegistry internalRegister(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
-
-```diff
-+ Biome lambda$static$5()
-+ Object registerMapping(Object)
-+ void lambda$static$6(Supplier)
-+ WritableRegistry internalRegister(Lifecycle)
-- Biome lambda$static$6()
-- NoiseGeneratorSettings lambda$static$7()
-- Object registerMapping(Object)
-- StructureTemplatePool lambda$static$5()
-- void lambda$static$8(Supplier)
-- WritableRegistry internalRegister(Supplier)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
-
-```diff
-+ List EXPLORABLE_BIOMES
-- Biome[] EXPLORABLE_BIOMES
-+ Advancement$Builder addBiomes(List)
-- Advancement$Builder addBiomes(Biome[])
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.NetherAdvancements</summary>
-
-```diff
-+ List EXPLORABLE_BIOMES
-- Biome[] EXPLORABLE_BIOMES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-- RegistryAccess registryAccess()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset</summary>
-
-```diff
-+ Function3 biomeSource
-- LongFunction biomeSource
-- MapCodec CODEC
-+ Biome lambda$null$0(Registry)
-+ Biome lambda$null$1(Registry)
-+ Biome lambda$null$2(Registry)
-+ Biome lambda$null$3(Registry)
-+ Biome lambda$null$4(Registry)
-+ Map access$100()
-+ MultiNoiseBiomeSource biomeSource(Registry,long)
-+ MultiNoiseBiomeSource lambda$static$5(Long)
-+ ResourceLocation access$000(MultiNoiseBiomeSource$Preset)
-+ void <init>(Function3)
-- DataResult lambda$null$0(ResourceLocation)
-- DataResult lambda$static$1(ResourceLocation)
-- DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
-- MultiNoiseBiomeSource biomeSource(long)
-- MultiNoiseBiomeSource lambda$static$3(long)
-- void <init>(LongFunction)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.worldgen.biome.Biomes
@@ -4727,606 +3199,276 @@
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
 
+```diff
+- Component access$1600()
+- Font access$1900(RealmsPlayerScreen)
+- int access$1700(RealmsPlayerScreen)
+- int access$1800(int)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
 
 ```diff
-+ ResourceKey biome
-- Biome biome
-+ LocationPredicate$Builder setBiome(ResourceKey)
 - LocationPredicate$Builder setBiome(Biome)
++ LocationPredicate$Builder setBiome(ResourceKey)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.Minecraft</summary>
+
+```diff
+- ChunkProgressListener lambda$null$25(int)
++ ChunkProgressListener lambda$null$26(int)
+- CompletionStage lambda$delayTextureReload$35(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$36(CompletableFuture)
++ DataResult lambda$null$22(RegistryReadOps,JsonElement)
+- IntegratedServer lambda$doLoadLevel$26(RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,Minecraft$ServerStem,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
++ IntegratedServer lambda$doLoadLevel$27(RegistryAccess$RegistryHolder,LevelStorageSource$LevelStorageAccess,Minecraft$ServerStem,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
+- PackResources lambda$adaptV3$39(Supplier)
++ PackResources lambda$adaptV3$40(Supplier)
+- PackResources lambda$adaptV4$40(Supplier)
++ PackResources lambda$adaptV4$41(Supplier)
+- String lambda$fillReport$30(String)
+- String lambda$fillReport$31()
++ String lambda$fillReport$31(String)
++ String lambda$fillReport$33()
+- String lambda$fillReport$33(Options)
+- String lambda$fillReport$34(LanguageManager)
++ String lambda$fillReport$34(Options)
++ String lambda$fillReport$35(LanguageManager)
+- Style lambda$grabHugeScreenshot$38(File,Style)
++ Style lambda$grabHugeScreenshot$39(File,Style)
+- Style lambda$grabPanoramixScreenshot$37(File,Style)
++ Style lambda$grabPanoramixScreenshot$38(File,Style)
+- void lambda$displayExperimentalConfirmationDialog$28(String,Runnable,boolean,boolean)
+- void lambda$displayExperimentalConfirmationDialog$29(Runnable,String,boolean)
++ void lambda$displayExperimentalConfirmationDialog$29(String,Runnable,boolean,boolean)
++ void lambda$displayExperimentalConfirmationDialog$30(Runnable,String,boolean)
+- void lambda$doLoadLevel$23(String,RegistryAccess$RegistryHolder,Function,Function4,Minecraft$ExperimentalDialogType)
+- void lambda$doLoadLevel$24(String,RegistryAccess$RegistryHolder,Function,Function4,boolean)
++ void lambda$doLoadLevel$24(String,RegistryAccess$RegistryHolder,Function,Function4,Minecraft$ExperimentalDialogType)
++ void lambda$doLoadLevel$25(String,RegistryAccess$RegistryHolder,Function,Function4,boolean)
+- void lambda$doLoadLevel$27(Component)
++ void lambda$doLoadLevel$28(Component)
+- void lambda$grabPanoramixScreenshot$36(Component)
++ void lambda$grabPanoramixScreenshot$37(Component)
+- WorldData lambda$createLevel$22(RegistryAccess$RegistryHolder,WorldGenSettings,LevelSettings,LevelStorageSource$LevelStorageAccess,RegistryAccess$RegistryHolder,ResourceManager,DataPackConfig)
++ WorldData lambda$createLevel$23(RegistryAccess$RegistryHolder,WorldGenSettings,LevelSettings,LevelStorageSource$LevelStorageAccess,RegistryAccess$RegistryHolder,ResourceManager,DataPackConfig)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.Gui</summary>
+
+```diff
+- void renderConfusionOverlay(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
+
+```diff
+- EditBox access$400(PresetFlatWorldScreen)
++ EditBox access$500(PresetFlatWorldScreen)
++ FlatLevelGeneratorSettings access$300(PresetFlatWorldScreen)
++ FlatLevelGeneratorSettings access$302(PresetFlatWorldScreen,FlatLevelGeneratorSettings)
+- FlatLevelGeneratorSettings access$502(PresetFlatWorldScreen,FlatLevelGeneratorSettings)
++ FlatLevelGeneratorSettings lambda$preset$3(List,boolean,boolean,boolean,FlatLayerInfo[],ResourceKey,Registry)
+- String access$300(RegistryAccess,FlatLevelGeneratorSettings)
++ String access$400(Registry,FlatLevelGeneratorSettings)
++ String save(Registry,FlatLevelGeneratorSettings)
+- String save(RegistryAccess,FlatLevelGeneratorSettings)
+- void lambda$init$1(Button)
++ void lambda$init$1(Registry,Button)
+- void preset(Component,ItemLike,Biome,List,boolean,boolean,boolean,FlatLayerInfo[])
++ void preset(Component,ItemLike,ResourceKey,List,boolean,boolean,boolean,FlatLayerInfo[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
+
+```diff
++ DataResult lambda$updateDataPacks$8(RegistryReadOps,JsonElement)
++ void lambda$updateDataPacks$9(RegistryAccess$RegistryHolder,WorldGenSettings)
+- void setRegistryHolder(RegistryAccess$RegistryHolder)
++ void updateDataPacks(ServerResources)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset</summary>
+
+```diff
++ Biome parseBuffetSettings(RegistryAccess,WorldGenSettings)
+- Biome parseBuffetSettings(WorldGenSettings)
+- NoiseGeneratorSettings lambda$fromBuffetSettings$10()
++ NoiseGeneratorSettings lambda$fromBuffetSettings$10(Registry)
+- NoiseGeneratorSettings lambda$fromBuffetSettings$8()
++ NoiseGeneratorSettings lambda$fromBuffetSettings$8(Registry)
+- NoiseGeneratorSettings lambda$fromBuffetSettings$9()
++ NoiseGeneratorSettings lambda$fromBuffetSettings$9(Registry)
++ WorldGenSettings fromBuffetSettings(RegistryAccess,WorldGenSettings,WorldPreset,Biome)
+- WorldGenSettings fromBuffetSettings(WorldGenSettings,WorldPreset,Biome)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$2</summary>
 
+```diff
+- ChunkGenerator generator(long)
++ ChunkGenerator generator(Registry,Registry,long)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$4</summary>
 
+```diff
+- ChunkGenerator generator(long)
++ ChunkGenerator generator(Registry,Registry,long)
+- NoiseGeneratorSettings lambda$generator$0()
++ NoiseGeneratorSettings lambda$generator$0(Registry)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$6</summary>
 
+```diff
+- ChunkGenerator generator(long)
++ ChunkGenerator generator(Registry,Registry,long)
++ DimensionType lambda$create$0(Registry)
+- NoiseGeneratorSettings lambda$generator$0()
++ NoiseGeneratorSettings lambda$generator$1(Registry)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$8</summary>
 
+```diff
+- ChunkGenerator generator(long)
++ ChunkGenerator generator(Registry,Registry,long)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
+```diff
++ void lambda$downloadCallback$6()
+- void lambda$downloadCallback$7()
++ Void lambda$downloadCallback$7(Throwable)
+- Void lambda$downloadCallback$8(Throwable)
++ void lambda$handleAddOrRemoveRecipes$2(ClientRecipeBook,Recipe)
+- void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,Recipe)
++ void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,RecipeCollection)
+- void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,RecipeCollection)
++ void lambda$handleGameEvent$1()
+- void lambda$handleGameEvent$2()
+- void lambda$handleLevelChunk$0(LevelChunk,BlockPos)
++ void lambda$handlePlaceRecipe$8(AbstractContainerMenu,Recipe)
+- void lambda$handlePlaceRecipe$9(AbstractContainerMenu,Recipe)
++ void lambda$handleResourcePack$5(String,String)
+- void lambda$handleResourcePack$6(String,String)
++ void lambda$handleSetEquipment$0(Entity,Pair)
+- void lambda$handleSetEquipment$1(Entity,Pair)
++ void lambda$null$4(String,String,boolean)
+- void lambda$null$5(String,String,boolean)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.core.Registry</summary>
 
 ```diff
-+ Lifecycle elementsLifecycle()
-+ Lifecycle lifecycle(java.lang.Object)
-+ Object getOrThrow(ResourceKey)
-+ WritableRegistry internalRegister(Lifecycle)
 - boolean containsId(int)
-- WritableRegistry internalRegister(Supplier)
++ Object getOrThrow(ResourceKey)
++ WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier,Lifecycle)
+- WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.BuiltinRegistries</summary>
 
 ```diff
 + Biome lambda$static$5()
-+ Object registerMapping(Object)
-+ void lambda$static$6(Supplier)
-+ WritableRegistry internalRegister(Lifecycle)
 - Biome lambda$static$6()
 - NoiseGeneratorSettings lambda$static$7()
-- Object registerMapping(Object)
++ Object registerMapping(Registry,int,ResourceKey,Object)
+- Object registerMapping(Registry,int,String,Object)
 - StructureTemplatePool lambda$static$5()
-- void lambda$static$8(Supplier)
-- WritableRegistry internalRegister(Supplier)
++ void lambda$static$6(ResourceLocation,Supplier)
+- void lambda$static$8(ResourceLocation,Supplier)
++ WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier,Lifecycle)
+- WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
 
 ```diff
-+ List EXPLORABLE_BIOMES
-- Biome[] EXPLORABLE_BIOMES
-+ Advancement$Builder addBiomes(List)
-- Advancement$Builder addBiomes(Biome[])
+- Advancement$Builder addBiomes(Advancement$Builder,Biome[])
++ Advancement$Builder addBiomes(Advancement$Builder,List)
 ```
 
 </details>
-
-<details><summary>net.minecraft.data.advancements.NetherAdvancements</summary>
-
-```diff
-+ List EXPLORABLE_BIOMES
-- Biome[] EXPLORABLE_BIOMES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-- RegistryAccess registryAccess()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset</summary>
 
 ```diff
-+ Function3 biomeSource
-- LongFunction biomeSource
-- MapCodec CODEC
 + Biome lambda$null$0(Registry)
 + Biome lambda$null$1(Registry)
 + Biome lambda$null$2(Registry)
 + Biome lambda$null$3(Registry)
 + Biome lambda$null$4(Registry)
-+ Map access$100()
-+ MultiNoiseBiomeSource biomeSource(Registry,long)
-+ MultiNoiseBiomeSource lambda$static$5(Long)
-+ ResourceLocation access$000(MultiNoiseBiomeSource$Preset)
-+ void <init>(Function3)
 - DataResult lambda$null$0(ResourceLocation)
 - DataResult lambda$static$1(ResourceLocation)
 - DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
++ Map access$100()
 - MultiNoiseBiomeSource biomeSource(long)
++ MultiNoiseBiomeSource biomeSource(Registry,long)
 - MultiNoiseBiomeSource lambda$static$3(long)
-- void <init>(LongFunction)
++ MultiNoiseBiomeSource lambda$static$5(MultiNoiseBiomeSource$Preset,Registry,Long)
++ ResourceLocation access$000(MultiNoiseBiomeSource$Preset)
++ void <init>(ResourceLocation,Function3)
+- void <init>(ResourceLocation,LongFunction)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.worldgen.biome.Biomes
@@ -8481,13 +6623,76 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
+- LocationPredicate$Builder setBiome(Biome)
++ LocationPredicate$Builder setBiome(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- boolean containsId(int)
++ Object getOrThrow(ResourceKey)
++ WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier,Lifecycle)
+- WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.BuiltinRegistries</summary>
+
+```diff
++ Biome lambda$static$5()
+- Biome lambda$static$6()
+- NoiseGeneratorSettings lambda$static$7()
++ Object registerMapping(Registry,int,ResourceKey,Object)
+- Object registerMapping(Registry,int,String,Object)
+- StructureTemplatePool lambda$static$5()
++ void lambda$static$6(ResourceLocation,Supplier)
+- void lambda$static$8(ResourceLocation,Supplier)
++ WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier,Lifecycle)
+- WritableRegistry internalRegister(ResourceKey,WritableRegistry,Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+
+```diff
+- Advancement$Builder addBiomes(Advancement$Builder,Biome[])
++ Advancement$Builder addBiomes(Advancement$Builder,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$Preset</summary>
+
+```diff
++ Biome lambda$null$0(Registry)
++ Biome lambda$null$1(Registry)
++ Biome lambda$null$2(Registry)
++ Biome lambda$null$3(Registry)
++ Biome lambda$null$4(Registry)
+- DataResult lambda$null$0(ResourceLocation)
+- DataResult lambda$static$1(ResourceLocation)
+- DataResult lambda$static$2(MultiNoiseBiomeSource$Preset)
++ Map access$100()
+- MultiNoiseBiomeSource biomeSource(long)
++ MultiNoiseBiomeSource biomeSource(Registry,long)
+- MultiNoiseBiomeSource lambda$static$3(long)
++ MultiNoiseBiomeSource lambda$static$5(MultiNoiseBiomeSource$Preset,Registry,Long)
++ ResourceLocation access$000(MultiNoiseBiomeSource$Preset)
++ void <init>(ResourceLocation,Function3)
+- void <init>(ResourceLocation,LongFunction)
+```
+
+</details>

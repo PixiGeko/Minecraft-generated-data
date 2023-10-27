@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.16.5-rc1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.16.5-rc1</td></tr>
 <tr><th>Type</th><td>releases-candidate</td></tr>
 <tr><th>Release time</th><td>2021-01-13T15:58:55+00:00</td></tr>
@@ -10,5664 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/81d5c793695d8cde63afddb40dde88e3a88132ac/server.txt">https://piston-data.mojang.com/v1/objects/81d5c793695d8cde63afddb40dde88e3a88132ac/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/2b12e44073c724c6af2050ad3b6116f9c732feb1/client.jar">https://piston-data.mojang.com/v1/objects/2b12e44073c724c6af2050ad3b6116f9c732feb1/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e3dfb0001e1079a1af72ee21517330edf52e6192/client.txt">https://piston-data.mojang.com/v1/objects/e3dfb0001e1079a1af72ee21517330edf52e6192/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w51a">20w51a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/recipes/building_blocks/amethyst_block.json
--  minecraft/advancements/recipes/building_blocks/copper_block.json
--  minecraft/advancements/recipes/building_blocks/cut_copper.json
--  minecraft/advancements/recipes/building_blocks/cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/tinted_glass.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_block.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/decorations/black_candle.json
--  minecraft/advancements/recipes/decorations/blue_candle.json
--  minecraft/advancements/recipes/decorations/brown_candle.json
--  minecraft/advancements/recipes/decorations/candle.json
--  minecraft/advancements/recipes/decorations/cyan_candle.json
--  minecraft/advancements/recipes/decorations/gray_candle.json
--  minecraft/advancements/recipes/decorations/green_candle.json
--  minecraft/advancements/recipes/decorations/light_blue_candle.json
--  minecraft/advancements/recipes/decorations/light_gray_candle.json
--  minecraft/advancements/recipes/decorations/lime_candle.json
--  minecraft/advancements/recipes/decorations/magenta_candle.json
--  minecraft/advancements/recipes/decorations/orange_candle.json
--  minecraft/advancements/recipes/decorations/pink_candle.json
--  minecraft/advancements/recipes/decorations/purple_candle.json
--  minecraft/advancements/recipes/decorations/red_candle.json
--  minecraft/advancements/recipes/decorations/white_candle.json
--  minecraft/advancements/recipes/decorations/yellow_candle.json
--  minecraft/advancements/recipes/misc/copper_ingot.json
--  minecraft/advancements/recipes/misc/copper_ingot_from_blasting.json
--  minecraft/advancements/recipes/misc/copper_ingot_from_copper_block.json
--  minecraft/advancements/recipes/misc/firework_rocket_simple.json
--  minecraft/advancements/recipes/redstone/lightning_rod.json
--  minecraft/advancements/recipes/tools/bundle.json
--  minecraft/advancements/recipes/tools/spyglass.json
--  minecraft/loot_tables/blocks/amethyst_block.json
--  minecraft/loot_tables/blocks/amethyst_cluster.json
--  minecraft/loot_tables/blocks/black_candle.json
--  minecraft/loot_tables/blocks/black_candle_cake.json
--  minecraft/loot_tables/blocks/blue_candle.json
--  minecraft/loot_tables/blocks/blue_candle_cake.json
--  minecraft/loot_tables/blocks/brown_candle.json
--  minecraft/loot_tables/blocks/brown_candle_cake.json
--  minecraft/loot_tables/blocks/budding_amethyst.json
--  minecraft/loot_tables/blocks/calcite.json
--  minecraft/loot_tables/blocks/candle.json
--  minecraft/loot_tables/blocks/candle_cake.json
--  minecraft/loot_tables/blocks/copper_block.json
--  minecraft/loot_tables/blocks/copper_ore.json
--  minecraft/loot_tables/blocks/cut_copper.json
--  minecraft/loot_tables/blocks/cut_copper_slab.json
--  minecraft/loot_tables/blocks/cut_copper_stairs.json
--  minecraft/loot_tables/blocks/cyan_candle.json
--  minecraft/loot_tables/blocks/cyan_candle_cake.json
--  minecraft/loot_tables/blocks/dirt_path.json
--  minecraft/loot_tables/blocks/dripstone_block.json
-+  minecraft/loot_tables/blocks/grass_path.json
--  minecraft/loot_tables/blocks/gray_candle.json
--  minecraft/loot_tables/blocks/gray_candle_cake.json
--  minecraft/loot_tables/blocks/green_candle.json
--  minecraft/loot_tables/blocks/green_candle_cake.json
--  minecraft/loot_tables/blocks/large_amethyst_bud.json
--  minecraft/loot_tables/blocks/lava_cauldron.json
--  minecraft/loot_tables/blocks/light_blue_candle.json
--  minecraft/loot_tables/blocks/light_blue_candle_cake.json
--  minecraft/loot_tables/blocks/light_gray_candle.json
--  minecraft/loot_tables/blocks/light_gray_candle_cake.json
--  minecraft/loot_tables/blocks/lightly_weathered_copper_block.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/lightning_rod.json
--  minecraft/loot_tables/blocks/lime_candle.json
--  minecraft/loot_tables/blocks/lime_candle_cake.json
--  minecraft/loot_tables/blocks/magenta_candle.json
--  minecraft/loot_tables/blocks/magenta_candle_cake.json
--  minecraft/loot_tables/blocks/medium_amethyst_bud.json
--  minecraft/loot_tables/blocks/orange_candle.json
--  minecraft/loot_tables/blocks/orange_candle_cake.json
--  minecraft/loot_tables/blocks/pink_candle.json
--  minecraft/loot_tables/blocks/pink_candle_cake.json
--  minecraft/loot_tables/blocks/pointed_dripstone.json
--  minecraft/loot_tables/blocks/powder_snow.json
--  minecraft/loot_tables/blocks/powder_snow_cauldron.json
--  minecraft/loot_tables/blocks/purple_candle.json
--  minecraft/loot_tables/blocks/purple_candle_cake.json
--  minecraft/loot_tables/blocks/red_candle.json
--  minecraft/loot_tables/blocks/red_candle_cake.json
--  minecraft/loot_tables/blocks/sculk_sensor.json
--  minecraft/loot_tables/blocks/semi_weathered_copper_block.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/small_amethyst_bud.json
--  minecraft/loot_tables/blocks/tinted_glass.json
--  minecraft/loot_tables/blocks/tuff.json
--  minecraft/loot_tables/blocks/water_cauldron.json
--  minecraft/loot_tables/blocks/waxed_copper.json
--  minecraft/loot_tables/blocks/waxed_cut_copper.json
--  minecraft/loot_tables/blocks/waxed_cut_copper_slab.json
--  minecraft/loot_tables/blocks/waxed_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_copper.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_copper.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/weathered_copper_block.json
--  minecraft/loot_tables/blocks/weathered_cut_copper.json
--  minecraft/loot_tables/blocks/weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/white_candle.json
--  minecraft/loot_tables/blocks/white_candle_cake.json
--  minecraft/loot_tables/blocks/yellow_candle.json
--  minecraft/loot_tables/blocks/yellow_candle_cake.json
--  minecraft/loot_tables/entities/axolotl.json
--  minecraft/recipes/amethyst_block.json
--  minecraft/recipes/black_candle.json
--  minecraft/recipes/blue_candle.json
--  minecraft/recipes/brown_candle.json
--  minecraft/recipes/bundle.json
--  minecraft/recipes/candle.json
--  minecraft/recipes/copper_block.json
--  minecraft/recipes/copper_ingot.json
--  minecraft/recipes/copper_ingot_from_blasting.json
--  minecraft/recipes/copper_ingot_from_copper_block.json
--  minecraft/recipes/cut_copper.json
--  minecraft/recipes/cut_copper_slab.json
--  minecraft/recipes/cut_copper_stairs.json
--  minecraft/recipes/cyan_candle.json
--  minecraft/recipes/firework_rocket_simple.json
--  minecraft/recipes/gray_candle.json
--  minecraft/recipes/green_candle.json
--  minecraft/recipes/light_blue_candle.json
--  minecraft/recipes/light_gray_candle.json
--  minecraft/recipes/lightly_weathered_cut_copper.json
--  minecraft/recipes/lightly_weathered_cut_copper_slab.json
--  minecraft/recipes/lightly_weathered_cut_copper_stairs.json
--  minecraft/recipes/lightning_rod.json
--  minecraft/recipes/lime_candle.json
--  minecraft/recipes/magenta_candle.json
--  minecraft/recipes/orange_candle.json
--  minecraft/recipes/pink_candle.json
--  minecraft/recipes/purple_candle.json
--  minecraft/recipes/red_candle.json
--  minecraft/recipes/semi_weathered_cut_copper.json
--  minecraft/recipes/semi_weathered_cut_copper_slab.json
--  minecraft/recipes/semi_weathered_cut_copper_stairs.json
--  minecraft/recipes/spyglass.json
--  minecraft/recipes/tinted_glass.json
--  minecraft/recipes/waxed_copper.json
--  minecraft/recipes/waxed_copper_cut_slab_from_honeycomb.json
--  minecraft/recipes/waxed_copper_cut_stairs_from_honeycomb.json
--  minecraft/recipes/waxed_cut_copper_from_honeycomb.json
--  minecraft/recipes/waxed_cut_copper_from_waxed_block.json
--  minecraft/recipes/waxed_cut_copper_slab.json
--  minecraft/recipes/waxed_cut_copper_stairs.json
--  minecraft/recipes/waxed_lightly_weathered_copper.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_from_honeycomb.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_from_waxed_block.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_copper.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_from_waxed_block.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/recipes/weathered_cut_copper.json
--  minecraft/recipes/weathered_cut_copper_slab.json
--  minecraft/recipes/weathered_cut_copper_stairs.json
--  minecraft/recipes/white_candle.json
--  minecraft/recipes/yellow_candle.json
--  minecraft/tags/blocks/candle_cakes.json
--  minecraft/tags/blocks/candles.json
--  minecraft/tags/blocks/cauldrons.json
--  minecraft/tags/blocks/crystal_sound_blocks.json
--  minecraft/tags/blocks/dripstone_replaceable_blocks.json
--  minecraft/tags/blocks/inside_step_sound_blocks.json
--  minecraft/tags/blocks/occludes_vibration_signals.json
--  minecraft/tags/entity_types/axolotl_always_hostiles.json
--  minecraft/tags/entity_types/axolotl_tempted_hostiles.json
--  minecraft/tags/entity_types/powder_snow_walkable_mobs.json
--  minecraft/tags/game_events
--  minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
--  minecraft/tags/game_events/vibrations.json
--  minecraft/tags/items/axolotl_tempt_items.json
--  minecraft/tags/items/candles.json
--  minecraft/tags/items/freeze_immune_wearables.json
--  minecraft/tags/items/ignored_by_piglin_babies.json
--  minecraft/tags/items/occludes_vibration_signals.json
--  minecraft/tags/items/piglin_food.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/blockstates/amethyst_block.json
--  minecraft/blockstates/amethyst_cluster.json
--  minecraft/blockstates/black_candle.json
--  minecraft/blockstates/black_candle_cake.json
--  minecraft/blockstates/blue_candle.json
--  minecraft/blockstates/blue_candle_cake.json
--  minecraft/blockstates/brown_candle.json
--  minecraft/blockstates/brown_candle_cake.json
--  minecraft/blockstates/budding_amethyst.json
--  minecraft/blockstates/calcite.json
--  minecraft/blockstates/candle.json
--  minecraft/blockstates/candle_cake.json
--  minecraft/blockstates/copper_block.json
--  minecraft/blockstates/copper_ore.json
--  minecraft/blockstates/cut_copper.json
--  minecraft/blockstates/cut_copper_slab.json
--  minecraft/blockstates/cut_copper_stairs.json
--  minecraft/blockstates/cyan_candle.json
--  minecraft/blockstates/cyan_candle_cake.json
--  minecraft/blockstates/dirt_path.json
--  minecraft/blockstates/dripstone_block.json
-+  minecraft/blockstates/grass_path.json
--  minecraft/blockstates/gray_candle.json
--  minecraft/blockstates/gray_candle_cake.json
--  minecraft/blockstates/green_candle.json
--  minecraft/blockstates/green_candle_cake.json
--  minecraft/blockstates/large_amethyst_bud.json
--  minecraft/blockstates/lava_cauldron.json
--  minecraft/blockstates/light_blue_candle.json
--  minecraft/blockstates/light_blue_candle_cake.json
--  minecraft/blockstates/light_gray_candle.json
--  minecraft/blockstates/light_gray_candle_cake.json
--  minecraft/blockstates/lightly_weathered_copper_block.json
--  minecraft/blockstates/lightly_weathered_cut_copper.json
--  minecraft/blockstates/lightly_weathered_cut_copper_slab.json
--  minecraft/blockstates/lightly_weathered_cut_copper_stairs.json
--  minecraft/blockstates/lightning_rod.json
--  minecraft/blockstates/lime_candle.json
--  minecraft/blockstates/lime_candle_cake.json
--  minecraft/blockstates/magenta_candle.json
--  minecraft/blockstates/magenta_candle_cake.json
--  minecraft/blockstates/medium_amethyst_bud.json
--  minecraft/blockstates/orange_candle.json
--  minecraft/blockstates/orange_candle_cake.json
--  minecraft/blockstates/pink_candle.json
--  minecraft/blockstates/pink_candle_cake.json
--  minecraft/blockstates/pointed_dripstone.json
--  minecraft/blockstates/powder_snow.json
--  minecraft/blockstates/powder_snow_cauldron.json
--  minecraft/blockstates/purple_candle.json
--  minecraft/blockstates/purple_candle_cake.json
--  minecraft/blockstates/red_candle.json
--  minecraft/blockstates/red_candle_cake.json
--  minecraft/blockstates/sculk_sensor.json
--  minecraft/blockstates/semi_weathered_copper_block.json
--  minecraft/blockstates/semi_weathered_cut_copper.json
--  minecraft/blockstates/semi_weathered_cut_copper_slab.json
--  minecraft/blockstates/semi_weathered_cut_copper_stairs.json
--  minecraft/blockstates/small_amethyst_bud.json
--  minecraft/blockstates/tinted_glass.json
--  minecraft/blockstates/tuff.json
--  minecraft/blockstates/water_cauldron.json
--  minecraft/blockstates/waxed_copper.json
--  minecraft/blockstates/waxed_cut_copper.json
--  minecraft/blockstates/waxed_cut_copper_slab.json
--  minecraft/blockstates/waxed_cut_copper_stairs.json
--  minecraft/blockstates/waxed_lightly_weathered_copper.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/blockstates/waxed_semi_weathered_copper.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/blockstates/weathered_copper_block.json
--  minecraft/blockstates/weathered_cut_copper.json
--  minecraft/blockstates/weathered_cut_copper_slab.json
--  minecraft/blockstates/weathered_cut_copper_stairs.json
--  minecraft/blockstates/white_candle.json
--  minecraft/blockstates/white_candle_cake.json
--  minecraft/blockstates/yellow_candle.json
--  minecraft/blockstates/yellow_candle_cake.json
--  minecraft/models/block/amethyst_block.json
--  minecraft/models/block/amethyst_cluster.json
--  minecraft/models/block/black_candle_cake.json
--  minecraft/models/block/black_candle_four_candles.json
--  minecraft/models/block/black_candle_one_candle.json
--  minecraft/models/block/black_candle_three_candles.json
--  minecraft/models/block/black_candle_two_candles.json
--  minecraft/models/block/blue_candle_cake.json
--  minecraft/models/block/blue_candle_four_candles.json
--  minecraft/models/block/blue_candle_one_candle.json
--  minecraft/models/block/blue_candle_three_candles.json
--  minecraft/models/block/blue_candle_two_candles.json
--  minecraft/models/block/brown_candle_cake.json
--  minecraft/models/block/brown_candle_four_candles.json
--  minecraft/models/block/brown_candle_one_candle.json
--  minecraft/models/block/brown_candle_three_candles.json
--  minecraft/models/block/brown_candle_two_candles.json
--  minecraft/models/block/budding_amethyst.json
--  minecraft/models/block/calcite.json
--  minecraft/models/block/candle_cake.json
--  minecraft/models/block/candle_four_candles.json
--  minecraft/models/block/candle_one_candle.json
--  minecraft/models/block/candle_three_candles.json
--  minecraft/models/block/candle_two_candles.json
-+  minecraft/models/block/cauldron_level1.json
-+  minecraft/models/block/cauldron_level2.json
-+  minecraft/models/block/cauldron_level3.json
--  minecraft/models/block/copper_block.json
--  minecraft/models/block/copper_ore.json
--  minecraft/models/block/cut_copper.json
--  minecraft/models/block/cut_copper_slab.json
--  minecraft/models/block/cut_copper_slab_top.json
--  minecraft/models/block/cut_copper_stairs.json
--  minecraft/models/block/cut_copper_stairs_inner.json
--  minecraft/models/block/cut_copper_stairs_outer.json
--  minecraft/models/block/cyan_candle_cake.json
--  minecraft/models/block/cyan_candle_four_candles.json
--  minecraft/models/block/cyan_candle_one_candle.json
--  minecraft/models/block/cyan_candle_three_candles.json
--  minecraft/models/block/cyan_candle_two_candles.json
--  minecraft/models/block/dirt_path.json
--  minecraft/models/block/dripstone_block.json
-+  minecraft/models/block/grass_path.json
--  minecraft/models/block/gray_candle_cake.json
--  minecraft/models/block/gray_candle_four_candles.json
--  minecraft/models/block/gray_candle_one_candle.json
--  minecraft/models/block/gray_candle_three_candles.json
--  minecraft/models/block/gray_candle_two_candles.json
--  minecraft/models/block/green_candle_cake.json
--  minecraft/models/block/green_candle_four_candles.json
--  minecraft/models/block/green_candle_one_candle.json
--  minecraft/models/block/green_candle_three_candles.json
--  minecraft/models/block/green_candle_two_candles.json
--  minecraft/models/block/large_amethyst_bud.json
--  minecraft/models/block/lava_cauldron.json
--  minecraft/models/block/light_blue_candle_cake.json
--  minecraft/models/block/light_blue_candle_four_candles.json
--  minecraft/models/block/light_blue_candle_one_candle.json
--  minecraft/models/block/light_blue_candle_three_candles.json
--  minecraft/models/block/light_blue_candle_two_candles.json
--  minecraft/models/block/light_gray_candle_cake.json
--  minecraft/models/block/light_gray_candle_four_candles.json
--  minecraft/models/block/light_gray_candle_one_candle.json
--  minecraft/models/block/light_gray_candle_three_candles.json
--  minecraft/models/block/light_gray_candle_two_candles.json
--  minecraft/models/block/lightly_weathered_copper_block.json
--  minecraft/models/block/lightly_weathered_cut_copper.json
--  minecraft/models/block/lightly_weathered_cut_copper_slab.json
--  minecraft/models/block/lightly_weathered_cut_copper_slab_top.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs_inner.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs_outer.json
--  minecraft/models/block/lightning_rod.json
--  minecraft/models/block/lime_candle_cake.json
--  minecraft/models/block/lime_candle_four_candles.json
--  minecraft/models/block/lime_candle_one_candle.json
--  minecraft/models/block/lime_candle_three_candles.json
--  minecraft/models/block/lime_candle_two_candles.json
--  minecraft/models/block/magenta_candle_cake.json
--  minecraft/models/block/magenta_candle_four_candles.json
--  minecraft/models/block/magenta_candle_one_candle.json
--  minecraft/models/block/magenta_candle_three_candles.json
--  minecraft/models/block/magenta_candle_two_candles.json
--  minecraft/models/block/medium_amethyst_bud.json
--  minecraft/models/block/orange_candle_cake.json
--  minecraft/models/block/orange_candle_four_candles.json
--  minecraft/models/block/orange_candle_one_candle.json
--  minecraft/models/block/orange_candle_three_candles.json
--  minecraft/models/block/orange_candle_two_candles.json
--  minecraft/models/block/pink_candle_cake.json
--  minecraft/models/block/pink_candle_four_candles.json
--  minecraft/models/block/pink_candle_one_candle.json
--  minecraft/models/block/pink_candle_three_candles.json
--  minecraft/models/block/pink_candle_two_candles.json
--  minecraft/models/block/pointed_dripstone.json
--  minecraft/models/block/pointed_dripstone_down_base.json
--  minecraft/models/block/pointed_dripstone_down_frustum.json
--  minecraft/models/block/pointed_dripstone_down_middle.json
--  minecraft/models/block/pointed_dripstone_down_tip.json
--  minecraft/models/block/pointed_dripstone_down_tip_merge.json
--  minecraft/models/block/pointed_dripstone_up_base.json
--  minecraft/models/block/pointed_dripstone_up_frustum.json
--  minecraft/models/block/pointed_dripstone_up_middle.json
--  minecraft/models/block/pointed_dripstone_up_tip.json
--  minecraft/models/block/pointed_dripstone_up_tip_merge.json
--  minecraft/models/block/powder_snow.json
--  minecraft/models/block/powder_snow_cauldron_full.json
--  minecraft/models/block/powder_snow_cauldron_level1.json
--  minecraft/models/block/powder_snow_cauldron_level2.json
--  minecraft/models/block/purple_candle_cake.json
--  minecraft/models/block/purple_candle_four_candles.json
--  minecraft/models/block/purple_candle_one_candle.json
--  minecraft/models/block/purple_candle_three_candles.json
--  minecraft/models/block/purple_candle_two_candles.json
--  minecraft/models/block/red_candle_cake.json
--  minecraft/models/block/red_candle_four_candles.json
--  minecraft/models/block/red_candle_one_candle.json
--  minecraft/models/block/red_candle_three_candles.json
--  minecraft/models/block/red_candle_two_candles.json
--  minecraft/models/block/sculk_sensor.json
--  minecraft/models/block/sculk_sensor_active.json
--  minecraft/models/block/sculk_sensor_inactive.json
--  minecraft/models/block/semi_weathered_copper_block.json
--  minecraft/models/block/semi_weathered_cut_copper.json
--  minecraft/models/block/semi_weathered_cut_copper_slab.json
--  minecraft/models/block/semi_weathered_cut_copper_slab_top.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs_inner.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs_outer.json
--  minecraft/models/block/small_amethyst_bud.json
--  minecraft/models/block/template_cake_with_candle.json
--  minecraft/models/block/template_candle.json
--  minecraft/models/block/template_cauldron_full.json
--  minecraft/models/block/template_cauldron_level1.json
--  minecraft/models/block/template_cauldron_level2.json
--  minecraft/models/block/template_four_candles.json
--  minecraft/models/block/template_three_candles.json
--  minecraft/models/block/template_two_candles.json
--  minecraft/models/block/tinted_glass.json
--  minecraft/models/block/tuff.json
--  minecraft/models/block/water_cauldron_full.json
--  minecraft/models/block/water_cauldron_level1.json
--  minecraft/models/block/water_cauldron_level2.json
--  minecraft/models/block/weathered_copper_block.json
--  minecraft/models/block/weathered_cut_copper.json
--  minecraft/models/block/weathered_cut_copper_slab.json
--  minecraft/models/block/weathered_cut_copper_slab_top.json
--  minecraft/models/block/weathered_cut_copper_stairs.json
--  minecraft/models/block/weathered_cut_copper_stairs_inner.json
--  minecraft/models/block/weathered_cut_copper_stairs_outer.json
--  minecraft/models/block/white_candle_cake.json
--  minecraft/models/block/white_candle_four_candles.json
--  minecraft/models/block/white_candle_one_candle.json
--  minecraft/models/block/white_candle_three_candles.json
--  minecraft/models/block/white_candle_two_candles.json
--  minecraft/models/block/yellow_candle_cake.json
--  minecraft/models/block/yellow_candle_four_candles.json
--  minecraft/models/block/yellow_candle_one_candle.json
--  minecraft/models/block/yellow_candle_three_candles.json
--  minecraft/models/block/yellow_candle_two_candles.json
--  minecraft/models/item/amethyst_block.json
--  minecraft/models/item/amethyst_cluster.json
--  minecraft/models/item/amethyst_shard.json
--  minecraft/models/item/axolotl_bucket.json
--  minecraft/models/item/axolotl_spawn_egg.json
--  minecraft/models/item/black_candle.json
--  minecraft/models/item/blue_candle.json
--  minecraft/models/item/brown_candle.json
--  minecraft/models/item/budding_amethyst.json
--  minecraft/models/item/bundle.json
--  minecraft/models/item/bundle_filled.json
--  minecraft/models/item/calcite.json
--  minecraft/models/item/candle.json
--  minecraft/models/item/copper_block.json
--  minecraft/models/item/copper_ingot.json
--  minecraft/models/item/copper_ore.json
--  minecraft/models/item/cut_copper.json
--  minecraft/models/item/cut_copper_slab.json
--  minecraft/models/item/cut_copper_stairs.json
--  minecraft/models/item/cyan_candle.json
--  minecraft/models/item/dirt_path.json
--  minecraft/models/item/dripstone_block.json
-+  minecraft/models/item/grass_path.json
--  minecraft/models/item/gray_candle.json
--  minecraft/models/item/green_candle.json
--  minecraft/models/item/large_amethyst_bud.json
--  minecraft/models/item/light_blue_candle.json
--  minecraft/models/item/light_gray_candle.json
--  minecraft/models/item/lightly_weathered_copper_block.json
--  minecraft/models/item/lightly_weathered_cut_copper.json
--  minecraft/models/item/lightly_weathered_cut_copper_slab.json
--  minecraft/models/item/lightly_weathered_cut_copper_stairs.json
--  minecraft/models/item/lightning_rod.json
--  minecraft/models/item/lime_candle.json
--  minecraft/models/item/magenta_candle.json
--  minecraft/models/item/medium_amethyst_bud.json
--  minecraft/models/item/orange_candle.json
--  minecraft/models/item/pink_candle.json
--  minecraft/models/item/pointed_dripstone.json
--  minecraft/models/item/powder_snow_bucket.json
--  minecraft/models/item/purple_candle.json
--  minecraft/models/item/red_candle.json
--  minecraft/models/item/sculk_sensor.json
--  minecraft/models/item/semi_weathered_copper_block.json
--  minecraft/models/item/semi_weathered_cut_copper.json
--  minecraft/models/item/semi_weathered_cut_copper_slab.json
--  minecraft/models/item/semi_weathered_cut_copper_stairs.json
--  minecraft/models/item/small_amethyst_bud.json
--  minecraft/models/item/spyglass.json
--  minecraft/models/item/tinted_glass.json
--  minecraft/models/item/tuff.json
--  minecraft/models/item/waxed_copper.json
--  minecraft/models/item/waxed_cut_copper.json
--  minecraft/models/item/waxed_cut_copper_slab.json
--  minecraft/models/item/waxed_cut_copper_stairs.json
--  minecraft/models/item/waxed_lightly_weathered_copper.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/models/item/waxed_semi_weathered_copper.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/models/item/weathered_copper_block.json
--  minecraft/models/item/weathered_cut_copper.json
--  minecraft/models/item/weathered_cut_copper_slab.json
--  minecraft/models/item/weathered_cut_copper_stairs.json
--  minecraft/models/item/white_candle.json
--  minecraft/models/item/yellow_candle.json
--  minecraft/particles/dripping_dripstone_lava.json
--  minecraft/particles/dripping_dripstone_water.json
--  minecraft/particles/dust_color_transition.json
--  minecraft/particles/falling_dripstone_lava.json
--  minecraft/particles/falling_dripstone_water.json
--  minecraft/particles/small_flame.json
--  minecraft/particles/snowflake.json
--  minecraft/particles/vibration.json
--  minecraft/textures/block/amethyst_block.png
--  minecraft/textures/block/amethyst_cluster.png
--  minecraft/textures/block/black_candle.png
--  minecraft/textures/block/blue_candle.png
--  minecraft/textures/block/brown_candle.png
--  minecraft/textures/block/budding_amethyst.png
--  minecraft/textures/block/calcite.png
--  minecraft/textures/block/calibrated_sculk_sensor_side.png
--  minecraft/textures/block/calibrated_sculk_sensor_top.png
--  minecraft/textures/block/candle.png
--  minecraft/textures/block/copper_block.png
--  minecraft/textures/block/copper_ore.png
--  minecraft/textures/block/cut_copper.png
--  minecraft/textures/block/cyan_candle.png
--  minecraft/textures/block/dirt_path_side.png
--  minecraft/textures/block/dirt_path_top.png
--  minecraft/textures/block/dripstone_block.png
-+  minecraft/textures/block/grass_path_side.png
-+  minecraft/textures/block/grass_path_top.png
--  minecraft/textures/block/gray_candle.png
--  minecraft/textures/block/green_candle.png
--  minecraft/textures/block/large_amethyst_bud.png
--  minecraft/textures/block/light_blue_candle.png
--  minecraft/textures/block/light_gray_candle.png
--  minecraft/textures/block/lightly_weathered_copper_block.png
--  minecraft/textures/block/lightly_weathered_cut_copper.png
--  minecraft/textures/block/lightning_rod.png
--  minecraft/textures/block/lime_candle.png
--  minecraft/textures/block/magenta_candle.png
--  minecraft/textures/block/medium_amethyst_bud.png
--  minecraft/textures/block/orange_candle.png
--  minecraft/textures/block/pink_candle.png
--  minecraft/textures/block/pointed_dripstone_down_base.png
--  minecraft/textures/block/pointed_dripstone_down_frustum.png
--  minecraft/textures/block/pointed_dripstone_down_middle.png
--  minecraft/textures/block/pointed_dripstone_down_tip.png
--  minecraft/textures/block/pointed_dripstone_down_tip_merge.png
--  minecraft/textures/block/pointed_dripstone_up_base.png
--  minecraft/textures/block/pointed_dripstone_up_frustum.png
--  minecraft/textures/block/pointed_dripstone_up_middle.png
--  minecraft/textures/block/pointed_dripstone_up_tip.png
--  minecraft/textures/block/pointed_dripstone_up_tip_merge.png
--  minecraft/textures/block/powder_snow.png
--  minecraft/textures/block/purple_candle.png
--  minecraft/textures/block/red_candle.png
--  minecraft/textures/block/sculk_sensor_bottom.png
--  minecraft/textures/block/sculk_sensor_side.png
--  minecraft/textures/block/sculk_sensor_tendril_active.png
--  minecraft/textures/block/sculk_sensor_tendril_active.png.mcmeta
--  minecraft/textures/block/sculk_sensor_tendril_inactive.png
--  minecraft/textures/block/sculk_sensor_tendril_inactive.png.mcmeta
--  minecraft/textures/block/sculk_sensor_top.png
--  minecraft/textures/block/semi_weathered_copper_block.png
--  minecraft/textures/block/semi_weathered_cut_copper.png
--  minecraft/textures/block/small_amethyst_bud.png
--  minecraft/textures/block/tinted_glass.png
--  minecraft/textures/block/tuff.png
--  minecraft/textures/block/weathered_copper_block.png
--  minecraft/textures/block/weathered_cut_copper.png
--  minecraft/textures/block/white_candle.png
--  minecraft/textures/block/yellow_candle.png
--  minecraft/textures/entity/axolotl
--  minecraft/textures/entity/axolotl/axolotl_blue.png
--  minecraft/textures/entity/axolotl/axolotl_cyan.png
--  minecraft/textures/entity/axolotl/axolotl_gold.png
--  minecraft/textures/entity/axolotl/axolotl_lucy.png
--  minecraft/textures/entity/axolotl/axolotl_wild.png
--  minecraft/textures/gui/container/bundle.png
--  minecraft/textures/item/amethyst_shard.png
--  minecraft/textures/item/axolotl_bucket.png
--  minecraft/textures/item/black_candle.png
--  minecraft/textures/item/blue_candle.png
--  minecraft/textures/item/brown_candle.png
--  minecraft/textures/item/bundle.png
--  minecraft/textures/item/bundle_filled.png
--  minecraft/textures/item/candle.png
--  minecraft/textures/item/copper_ingot.png
--  minecraft/textures/item/cyan_candle.png
--  minecraft/textures/item/gray_candle.png
--  minecraft/textures/item/green_candle.png
--  minecraft/textures/item/light_blue_candle.png
--  minecraft/textures/item/light_gray_candle.png
--  minecraft/textures/item/lime_candle.png
--  minecraft/textures/item/magenta_candle.png
--  minecraft/textures/item/orange_candle.png
--  minecraft/textures/item/pink_candle.png
--  minecraft/textures/item/pointed_dripstone.png
--  minecraft/textures/item/powder_snow_bucket.png
--  minecraft/textures/item/purple_candle.png
--  minecraft/textures/item/red_candle.png
--  minecraft/textures/item/spyglass.png
--  minecraft/textures/item/white_candle.png
--  minecraft/textures/item/yellow_candle.png
--  minecraft/textures/misc/powder_snow_outline.png
--  minecraft/textures/misc/spyglass_scope.png
--  minecraft/textures/particle/vibration.png
--  minecraft/textures/particle/vibration.png.mcmeta
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
--  reports/biomes/dripstone_caves.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- game_event.txt
-- loot_nbt_provider_type.txt
-- loot_number_provider_type.txt
-- loot_score_provider_type.txt
-- position_source_type.txt
-```
-
-</details>
-
-<details><summary>activity.txt</summary>
-
-```diff
-- minecraft:play_dead
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:water_cauldron
-- minecraft:lava_cauldron
-- minecraft:powder_snow_cauldron
-- minecraft:dirt_path
-- minecraft:candle
-- minecraft:white_candle
-- minecraft:orange_candle
-- minecraft:magenta_candle
-- minecraft:light_blue_candle
-- minecraft:yellow_candle
-- minecraft:lime_candle
-- minecraft:pink_candle
-- minecraft:gray_candle
-- minecraft:light_gray_candle
-- minecraft:cyan_candle
-- minecraft:purple_candle
-- minecraft:blue_candle
-- minecraft:brown_candle
-- minecraft:green_candle
-- minecraft:red_candle
-- minecraft:black_candle
-- minecraft:candle_cake
-- minecraft:white_candle_cake
-- minecraft:orange_candle_cake
-- minecraft:magenta_candle_cake
-- minecraft:light_blue_candle_cake
-- minecraft:yellow_candle_cake
-- minecraft:lime_candle_cake
-- minecraft:pink_candle_cake
-- minecraft:gray_candle_cake
-- minecraft:light_gray_candle_cake
-- minecraft:cyan_candle_cake
-- minecraft:purple_candle_cake
-- minecraft:blue_candle_cake
-- minecraft:brown_candle_cake
-- minecraft:green_candle_cake
-- minecraft:red_candle_cake
-- minecraft:black_candle_cake
-- minecraft:amethyst_block
-- minecraft:budding_amethyst
-- minecraft:amethyst_cluster
-- minecraft:large_amethyst_bud
-- minecraft:medium_amethyst_bud
-- minecraft:small_amethyst_bud
-- minecraft:tuff
-- minecraft:calcite
-- minecraft:tinted_glass
-- minecraft:powder_snow
-- minecraft:sculk_sensor
-- minecraft:weathered_copper_block
-- minecraft:semi_weathered_copper_block
-- minecraft:lightly_weathered_copper_block
-- minecraft:copper_block
-- minecraft:copper_ore
-- minecraft:weathered_cut_copper
-- minecraft:semi_weathered_cut_copper
-- minecraft:lightly_weathered_cut_copper
-- minecraft:cut_copper
-- minecraft:weathered_cut_copper_stairs
-- minecraft:semi_weathered_cut_copper_stairs
-- minecraft:lightly_weathered_cut_copper_stairs
-- minecraft:cut_copper_stairs
-- minecraft:weathered_cut_copper_slab
-- minecraft:semi_weathered_cut_copper_slab
-- minecraft:lightly_weathered_cut_copper_slab
-- minecraft:cut_copper_slab
-- minecraft:waxed_copper
-- minecraft:waxed_semi_weathered_copper
-- minecraft:waxed_lightly_weathered_copper
-- minecraft:waxed_semi_weathered_cut_copper
-- minecraft:waxed_lightly_weathered_cut_copper
-- minecraft:waxed_cut_copper
-- minecraft:waxed_semi_weathered_cut_copper_stairs
-- minecraft:waxed_lightly_weathered_cut_copper_stairs
-- minecraft:waxed_cut_copper_stairs
-- minecraft:waxed_semi_weathered_cut_copper_slab
-- minecraft:waxed_lightly_weathered_cut_copper_slab
-- minecraft:waxed_cut_copper_slab
-- minecraft:lightning_rod
-- minecraft:pointed_dripstone
-- minecraft:dripstone_block
-+ minecraft:grass_path
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-- minecraft:sculk_sensor
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-- minecraft:axolotl
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:calcite
-- minecraft:tuff
-- minecraft:copper_ore
-- minecraft:tinted_glass
-- minecraft:dirt_path
-- minecraft:copper_ingot
-- minecraft:axolotl_bucket
-- minecraft:bundle
-- minecraft:axolotl_spawn_egg
-- minecraft:candle
-- minecraft:white_candle
-- minecraft:orange_candle
-- minecraft:magenta_candle
-- minecraft:light_blue_candle
-- minecraft:yellow_candle
-- minecraft:lime_candle
-- minecraft:pink_candle
-- minecraft:gray_candle
-- minecraft:light_gray_candle
-- minecraft:cyan_candle
-- minecraft:purple_candle
-- minecraft:blue_candle
-- minecraft:brown_candle
-- minecraft:green_candle
-- minecraft:red_candle
-- minecraft:black_candle
-- minecraft:amethyst_shard
-- minecraft:amethyst_block
-- minecraft:budding_amethyst
-- minecraft:small_amethyst_bud
-- minecraft:medium_amethyst_bud
-- minecraft:large_amethyst_bud
-- minecraft:amethyst_cluster
-- minecraft:spyglass
-- minecraft:copper_block
-- minecraft:lightly_weathered_copper_block
-- minecraft:semi_weathered_copper_block
-- minecraft:weathered_copper_block
-- minecraft:cut_copper
-- minecraft:lightly_weathered_cut_copper
-- minecraft:semi_weathered_cut_copper
-- minecraft:weathered_cut_copper
-- minecraft:cut_copper_stairs
-- minecraft:lightly_weathered_cut_copper_stairs
-- minecraft:semi_weathered_cut_copper_stairs
-- minecraft:weathered_cut_copper_stairs
-- minecraft:cut_copper_slab
-- minecraft:lightly_weathered_cut_copper_slab
-- minecraft:semi_weathered_cut_copper_slab
-- minecraft:weathered_cut_copper_slab
-- minecraft:waxed_copper
-- minecraft:waxed_lightly_weathered_copper
-- minecraft:waxed_semi_weathered_copper
-- minecraft:waxed_cut_copper
-- minecraft:waxed_lightly_weathered_cut_copper
-- minecraft:waxed_semi_weathered_cut_copper
-- minecraft:waxed_cut_copper_stairs
-- minecraft:waxed_lightly_weathered_cut_copper_stairs
-- minecraft:waxed_semi_weathered_cut_copper_stairs
-- minecraft:waxed_cut_copper_slab
-- minecraft:waxed_lightly_weathered_cut_copper_slab
-- minecraft:waxed_semi_weathered_cut_copper_slab
-- minecraft:lightning_rod
-- minecraft:powder_snow_bucket
-- minecraft:pointed_dripstone
-- minecraft:dripstone_block
-- minecraft:sculk_sensor
-+ minecraft:grass_path
-```
-
-</details>
-
-<details><summary>loot_condition_type.txt</summary>
-
-```diff
-- minecraft:value_check
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-- minecraft:set_enchantments
-- minecraft:set_banner_pattern
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-- minecraft:play_dead_ticks
-- minecraft:tempting_player
-- minecraft:temptation_cooldown_ticks
-- minecraft:is_tempted
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-- minecraft:dust_color_transition
-- minecraft:vibration
-- minecraft:small_flame
-- minecraft:snowflake
-- minecraft:dripping_dripstone_lava
-- minecraft:falling_dripstone_lava
-- minecraft:dripping_dripstone_water
-- minecraft:falling_dripstone_water
-```
-
-</details>
-
-<details><summary>point_of_interest_type.txt</summary>
-
-```diff
-- minecraft:lightning_rod
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-- minecraft:axolotl_hostiles
-- minecraft:axolotl_temptations
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:block.amethyst_block.break
-- minecraft:block.amethyst_block.chime
-- minecraft:block.amethyst_block.fall
-- minecraft:block.amethyst_block.hit
-- minecraft:block.amethyst_block.place
-- minecraft:block.amethyst_block.step
-- minecraft:block.amethyst_cluster.break
-- minecraft:block.amethyst_cluster.fall
-- minecraft:block.amethyst_cluster.hit
-- minecraft:block.amethyst_cluster.place
-- minecraft:block.amethyst_cluster.step
-- minecraft:entity.axolotl.attack
-- minecraft:entity.axolotl.death
-- minecraft:entity.axolotl.hurt
-- minecraft:entity.axolotl.idle_air
-- minecraft:entity.axolotl.idle_water
-- minecraft:entity.axolotl.splash
-- minecraft:entity.axolotl.swim
-- minecraft:item.bucket.empty_axolotl
-- minecraft:item.bucket.empty_powder_snow
-- minecraft:item.bucket.fill_axolotl
-- minecraft:item.bucket.fill_powder_snow
-- minecraft:block.cake.add_candle
-- minecraft:block.calcite.break
-- minecraft:block.calcite.step
-- minecraft:block.calcite.place
-- minecraft:block.calcite.hit
-- minecraft:block.calcite.fall
-- minecraft:block.candle.ambient
-- minecraft:block.candle.break
-- minecraft:block.candle.extinguish
-- minecraft:block.candle.fall
-- minecraft:block.candle.hit
-- minecraft:block.candle.place
-- minecraft:block.candle.step
-- minecraft:block.copper.break
-- minecraft:block.copper.step
-- minecraft:block.copper.place
-- minecraft:block.copper.hit
-- minecraft:block.copper.fall
-- minecraft:block.dripstone_block.break
-- minecraft:block.dripstone_block.step
-- minecraft:block.dripstone_block.place
-- minecraft:block.dripstone_block.hit
-- minecraft:block.dripstone_block.fall
-- minecraft:block.pointed_dripstone.break
-- minecraft:block.pointed_dripstone.step
-- minecraft:block.pointed_dripstone.place
-- minecraft:block.pointed_dripstone.hit
-- minecraft:block.pointed_dripstone.fall
-- minecraft:block.pointed_dripstone.land
-- minecraft:block.pointed_dripstone.drip_lava
-- minecraft:block.pointed_dripstone.drip_water
-- minecraft:block.pointed_dripstone.drip_lava_into_cauldron
-- minecraft:block.pointed_dripstone.drip_water_into_cauldron
-- minecraft:block.large_amethyst_bud.break
-- minecraft:block.large_amethyst_bud.place
-- minecraft:block.medium_amethyst_bud.break
-- minecraft:block.medium_amethyst_bud.place
-- minecraft:entity.minecart.inside.underwater
-- minecraft:entity.player.hurt_freeze
-- minecraft:block.powder_snow.break
-- minecraft:block.powder_snow.fall
-- minecraft:block.powder_snow.hit
-- minecraft:block.powder_snow.place
-- minecraft:block.powder_snow.step
-- minecraft:block.sculk_sensor.clicking
-- minecraft:block.sculk_sensor.clicking_stop
-- minecraft:block.sculk_sensor.break
-- minecraft:block.sculk_sensor.fall
-- minecraft:block.sculk_sensor.hit
-- minecraft:block.sculk_sensor.place
-- minecraft:block.sculk_sensor.step
-- minecraft:block.small_amethyst_bud.break
-- minecraft:block.small_amethyst_bud.place
-- minecraft:item.spyglass.use
-- minecraft:item.spyglass.stop_using
-- minecraft:block.tuff.break
-- minecraft:block.tuff.step
-- minecraft:block.tuff.place
-- minecraft:block.tuff.hit
-- minecraft:block.tuff.fall
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:geode
-- minecraft:dripstone_cluster
-- minecraft:large_dripstone
-- minecraft:small_dripstone
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-- item.txt
-+ replaceitem.txt
-```
-
-</details>
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-- gamerule freezeDamage <value: bool>
-- gamerule playersSleepingPercentage <value: integer>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/candles.json
-- blocks/candle_cakes.json
-- blocks/cauldrons.json
-- blocks/crystal_sound_blocks.json
-- blocks/dripstone_replaceable_blocks.json
-- blocks/inside_step_sound_blocks.json
-- blocks/occludes_vibration_signals.json
-- entity_types/axolotl_always_hostiles.json
-- entity_types/axolotl_tempted_hostiles.json
-- entity_types/powder_snow_walkable_mobs.json
-- game_events/ignore_vibrations_stepping_carefully.json
-- game_events/vibrations.json
-- items/axolotl_tempt_items.json
-- items/candles.json
-- items/freeze_immune_wearables.json
-- items/ignored_by_piglin_babies.json
-- items/occludes_vibration_signals.json
-- items/piglin_food.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/amethyst_block.json
-- recipes/building_blocks/copper_block.json
-- recipes/building_blocks/cut_copper.json
-- recipes/building_blocks/cut_copper_slab.json
-- recipes/building_blocks/cut_copper_stairs.json
-- recipes/building_blocks/lightly_weathered_cut_copper.json
-- recipes/building_blocks/lightly_weathered_cut_copper_slab.json
-- recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
-- recipes/building_blocks/semi_weathered_cut_copper.json
-- recipes/building_blocks/semi_weathered_cut_copper_slab.json
-- recipes/building_blocks/semi_weathered_cut_copper_stairs.json
-- recipes/building_blocks/tinted_glass.json
-- recipes/building_blocks/waxed_copper.json
-- recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
-- recipes/building_blocks/waxed_cut_copper_from_honeycomb.json
-- recipes/building_blocks/waxed_cut_copper_from_waxed_block.json
-- recipes/building_blocks/waxed_cut_copper_slab.json
-- recipes/building_blocks/waxed_cut_copper_stairs.json
-- recipes/building_blocks/waxed_lightly_weathered_copper.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_copper.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-- recipes/building_blocks/weathered_cut_copper.json
-- recipes/building_blocks/weathered_cut_copper_slab.json
-- recipes/building_blocks/weathered_cut_copper_stairs.json
-- recipes/decorations/black_candle.json
-- recipes/decorations/blue_candle.json
-- recipes/decorations/brown_candle.json
-- recipes/decorations/candle.json
-- recipes/decorations/cyan_candle.json
-- recipes/decorations/gray_candle.json
-- recipes/decorations/green_candle.json
-- recipes/decorations/light_blue_candle.json
-- recipes/decorations/light_gray_candle.json
-- recipes/decorations/lime_candle.json
-- recipes/decorations/magenta_candle.json
-- recipes/decorations/orange_candle.json
-- recipes/decorations/pink_candle.json
-- recipes/decorations/purple_candle.json
-- recipes/decorations/red_candle.json
-- recipes/decorations/white_candle.json
-- recipes/decorations/yellow_candle.json
-- recipes/misc/copper_ingot.json
-- recipes/misc/copper_ingot_from_blasting.json
-- recipes/misc/copper_ingot_from_copper_block.json
-- recipes/misc/firework_rocket_simple.json
-- recipes/redstone/lightning_rod.json
-- recipes/tools/bundle.json
-- recipes/tools/spyglass.json
-```
-
-</details>
-
-<details><summary>languages.txt</summary>
-
-```diff
-- zlm_arab.json
-- realms/lang/zlm_arab.json
-+ gv_im.json
-+ mi_nz.json
-+ swg.json
-+ realms/lang/gv_im.json
-+ realms/lang/mi_nz.json
-+ realms/lang/swg.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/amethyst_block.json
-- blocks/amethyst_cluster.json
-- blocks/black_candle.json
-- blocks/black_candle_cake.json
-- blocks/blue_candle.json
-- blocks/blue_candle_cake.json
-- blocks/brown_candle.json
-- blocks/brown_candle_cake.json
-- blocks/budding_amethyst.json
-- blocks/calcite.json
-- blocks/candle.json
-- blocks/candle_cake.json
-- blocks/copper_block.json
-- blocks/copper_ore.json
-- blocks/cut_copper.json
-- blocks/cut_copper_slab.json
-- blocks/cut_copper_stairs.json
-- blocks/cyan_candle.json
-- blocks/cyan_candle_cake.json
-- blocks/dirt_path.json
-- blocks/dripstone_block.json
-- blocks/gray_candle.json
-- blocks/gray_candle_cake.json
-- blocks/green_candle.json
-- blocks/green_candle_cake.json
-- blocks/large_amethyst_bud.json
-- blocks/lava_cauldron.json
-- blocks/lightly_weathered_copper_block.json
-- blocks/lightly_weathered_cut_copper.json
-- blocks/lightly_weathered_cut_copper_slab.json
-- blocks/lightly_weathered_cut_copper_stairs.json
-- blocks/lightning_rod.json
-- blocks/light_blue_candle.json
-- blocks/light_blue_candle_cake.json
-- blocks/light_gray_candle.json
-- blocks/light_gray_candle_cake.json
-- blocks/lime_candle.json
-- blocks/lime_candle_cake.json
-- blocks/magenta_candle.json
-- blocks/magenta_candle_cake.json
-- blocks/medium_amethyst_bud.json
-- blocks/orange_candle.json
-- blocks/orange_candle_cake.json
-- blocks/pink_candle.json
-- blocks/pink_candle_cake.json
-- blocks/pointed_dripstone.json
-- blocks/powder_snow.json
-- blocks/powder_snow_cauldron.json
-- blocks/purple_candle.json
-- blocks/purple_candle_cake.json
-- blocks/red_candle.json
-- blocks/red_candle_cake.json
-- blocks/sculk_sensor.json
-- blocks/semi_weathered_copper_block.json
-- blocks/semi_weathered_cut_copper.json
-- blocks/semi_weathered_cut_copper_slab.json
-- blocks/semi_weathered_cut_copper_stairs.json
-- blocks/small_amethyst_bud.json
-- blocks/tinted_glass.json
-- blocks/tuff.json
-- blocks/water_cauldron.json
-- blocks/waxed_copper.json
-- blocks/waxed_cut_copper.json
-- blocks/waxed_cut_copper_slab.json
-- blocks/waxed_cut_copper_stairs.json
-- blocks/waxed_lightly_weathered_copper.json
-- blocks/waxed_lightly_weathered_cut_copper.json
-- blocks/waxed_lightly_weathered_cut_copper_slab.json
-- blocks/waxed_lightly_weathered_cut_copper_stairs.json
-- blocks/waxed_semi_weathered_copper.json
-- blocks/waxed_semi_weathered_cut_copper.json
-- blocks/waxed_semi_weathered_cut_copper_slab.json
-- blocks/waxed_semi_weathered_cut_copper_stairs.json
-- blocks/weathered_copper_block.json
-- blocks/weathered_cut_copper.json
-- blocks/weathered_cut_copper_slab.json
-- blocks/weathered_cut_copper_stairs.json
-- blocks/white_candle.json
-- blocks/white_candle_cake.json
-- blocks/yellow_candle.json
-- blocks/yellow_candle_cake.json
-- entities/axolotl.json
-+ blocks/grass_path.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-- dripping_dripstone_lava.json
-- dripping_dripstone_water.json
-- dust_color_transition.json
-- falling_dripstone_lava.json
-- falling_dripstone_water.json
-- small_flame.json
-- snowflake.json
-- vibration.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- amethyst_block.json
-- black_candle.json
-- blue_candle.json
-- brown_candle.json
-- bundle.json
-- candle.json
-- copper_block.json
-- copper_ingot.json
-- copper_ingot_from_blasting.json
-- copper_ingot_from_copper_block.json
-- cut_copper.json
-- cut_copper_slab.json
-- cut_copper_stairs.json
-- cyan_candle.json
-- firework_rocket_simple.json
-- gray_candle.json
-- green_candle.json
-- lightly_weathered_cut_copper.json
-- lightly_weathered_cut_copper_slab.json
-- lightly_weathered_cut_copper_stairs.json
-- lightning_rod.json
-- light_blue_candle.json
-- light_gray_candle.json
-- lime_candle.json
-- magenta_candle.json
-- orange_candle.json
-- pink_candle.json
-- purple_candle.json
-- red_candle.json
-- semi_weathered_cut_copper.json
-- semi_weathered_cut_copper_slab.json
-- semi_weathered_cut_copper_stairs.json
-- spyglass.json
-- tinted_glass.json
-- waxed_copper.json
-- waxed_copper_cut_slab_from_honeycomb.json
-- waxed_copper_cut_stairs_from_honeycomb.json
-- waxed_cut_copper_from_honeycomb.json
-- waxed_cut_copper_from_waxed_block.json
-- waxed_cut_copper_slab.json
-- waxed_cut_copper_stairs.json
-- waxed_lightly_weathered_copper.json
-- waxed_lightly_weathered_cut_copper_from_honeycomb.json
-- waxed_lightly_weathered_cut_copper_from_waxed_block.json
-- waxed_lightly_weathered_cut_copper_slab.json
-- waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
-- waxed_lightly_weathered_cut_copper_stairs.json
-- waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
-- waxed_semi_weathered_copper.json
-- waxed_semi_weathered_cut_copper_from_honeycomb.json
-- waxed_semi_weathered_cut_copper_from_waxed_block.json
-- waxed_semi_weathered_cut_copper_slab.json
-- waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
-- waxed_semi_weathered_cut_copper_stairs.json
-- waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-- weathered_cut_copper.json
-- weathered_cut_copper_slab.json
-- weathered_cut_copper_stairs.json
-- white_candle.json
-- yellow_candle.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-- block/amethyst/break1.ogg
-- block/amethyst/break2.ogg
-- block/amethyst/break3.ogg
-- block/amethyst/break4.ogg
-- block/amethyst/place1.ogg
-- block/amethyst/place2.ogg
-- block/amethyst/place3.ogg
-- block/amethyst/place4.ogg
-- block/amethyst/shimmer.ogg
-- block/amethyst/step1.ogg
-- block/amethyst/step10.ogg
-- block/amethyst/step11.ogg
-- block/amethyst/step12.ogg
-- block/amethyst/step13.ogg
-- block/amethyst/step14.ogg
-- block/amethyst/step2.ogg
-- block/amethyst/step3.ogg
-- block/amethyst/step4.ogg
-- block/amethyst/step5.ogg
-- block/amethyst/step6.ogg
-- block/amethyst/step7.ogg
-- block/amethyst/step8.ogg
-- block/amethyst/step9.ogg
-- block/amethyst_cluster/break1.ogg
-- block/amethyst_cluster/break2.ogg
-- block/amethyst_cluster/break3.ogg
-- block/amethyst_cluster/break4.ogg
-- block/amethyst_cluster/place1.ogg
-- block/amethyst_cluster/place2.ogg
-- block/amethyst_cluster/place3.ogg
-- block/amethyst_cluster/place4.ogg
-- block/azalea/break1.ogg
-- block/azalea/break2.ogg
-- block/azalea/break3.ogg
-- block/azalea/break4.ogg
-- block/azalea/break5.ogg
-- block/azalea/break6.ogg
-- block/azalea/step1.ogg
-- block/azalea/step2.ogg
-- block/azalea/step3.ogg
-- block/azalea/step4.ogg
-- block/azalea/step5.ogg
-- block/azalea/step6.ogg
-- block/azalea_leaves/break1.ogg
-- block/azalea_leaves/break2.ogg
-- block/azalea_leaves/break3.ogg
-- block/azalea_leaves/break4.ogg
-- block/azalea_leaves/break5.ogg
-- block/azalea_leaves/break6.ogg
-- block/azalea_leaves/break7.ogg
-- block/azalea_leaves/step1.ogg
-- block/azalea_leaves/step2.ogg
-- block/azalea_leaves/step3.ogg
-- block/azalea_leaves/step4.ogg
-- block/azalea_leaves/step5.ogg
-- block/big_dripleaf/break1.ogg
-- block/big_dripleaf/break2.ogg
-- block/big_dripleaf/break3.ogg
-- block/big_dripleaf/break4.ogg
-- block/big_dripleaf/break5.ogg
-- block/big_dripleaf/break6.ogg
-- block/big_dripleaf/step1.ogg
-- block/big_dripleaf/step2.ogg
-- block/big_dripleaf/step3.ogg
-- block/big_dripleaf/step4.ogg
-- block/big_dripleaf/step5.ogg
-- block/big_dripleaf/step6.ogg
-- block/big_dripleaf/tilt_down1.ogg
-- block/big_dripleaf/tilt_down2.ogg
-- block/big_dripleaf/tilt_down3.ogg
-- block/big_dripleaf/tilt_down4.ogg
-- block/big_dripleaf/tilt_down5.ogg
-- block/big_dripleaf/tilt_up1.ogg
-- block/big_dripleaf/tilt_up2.ogg
-- block/big_dripleaf/tilt_up3.ogg
-- block/big_dripleaf/tilt_up4.ogg
-- block/cake/add_candle1.ogg
-- block/cake/add_candle2.ogg
-- block/cake/add_candle3.ogg
-- block/calcite/break1.ogg
-- block/calcite/break2.ogg
-- block/calcite/break3.ogg
-- block/calcite/break4.ogg
-- block/calcite/place1.ogg
-- block/calcite/place2.ogg
-- block/calcite/place3.ogg
-- block/calcite/place4.ogg
-- block/calcite/step1.ogg
-- block/calcite/step2.ogg
-- block/calcite/step3.ogg
-- block/calcite/step4.ogg
-- block/calcite/step5.ogg
-- block/calcite/step6.ogg
-- block/candle/ambient1.ogg
-- block/candle/ambient2.ogg
-- block/candle/ambient3.ogg
-- block/candle/ambient4.ogg
-- block/candle/ambient5.ogg
-- block/candle/ambient6.ogg
-- block/candle/ambient7.ogg
-- block/candle/ambient8.ogg
-- block/candle/ambient9.ogg
-- block/candle/break1.ogg
-- block/candle/break2.ogg
-- block/candle/break3.ogg
-- block/candle/break4.ogg
-- block/candle/break5.ogg
-- block/candle/extinguish1.ogg
-- block/candle/extinguish2.ogg
-- block/candle/extinguish3.ogg
-- block/candle/step1.ogg
-- block/candle/step2.ogg
-- block/candle/step3.ogg
-- block/candle/step4.ogg
-- block/candle/step5.ogg
-- block/cave_vines/break1.ogg
-- block/cave_vines/break2.ogg
-- block/cave_vines/break3.ogg
-- block/cave_vines/break4.ogg
-- block/cave_vines/break5.ogg
-- block/copper/break1.ogg
-- block/copper/break2.ogg
-- block/copper/break3.ogg
-- block/copper/break4.ogg
-- block/copper/step1.ogg
-- block/copper/step2.ogg
-- block/copper/step3.ogg
-- block/copper/step4.ogg
-- block/copper/step5.ogg
-- block/copper/step6.ogg
-- block/deepslate/break1.ogg
-- block/deepslate/break2.ogg
-- block/deepslate/break3.ogg
-- block/deepslate/break4.ogg
-- block/deepslate/place1.ogg
-- block/deepslate/place2.ogg
-- block/deepslate/place3.ogg
-- block/deepslate/place4.ogg
-- block/deepslate/place5.ogg
-- block/deepslate/place6.ogg
-- block/deepslate/step1.ogg
-- block/deepslate/step2.ogg
-- block/deepslate/step3.ogg
-- block/deepslate/step4.ogg
-- block/deepslate/step5.ogg
-- block/deepslate/step6.ogg
-- block/deepslate_bricks/place1.ogg
-- block/deepslate_bricks/place2.ogg
-- block/deepslate_bricks/place3.ogg
-- block/deepslate_bricks/place4.ogg
-- block/deepslate_bricks/place5.ogg
-- block/deepslate_bricks/place6.ogg
-- block/deepslate_bricks/step1.ogg
-- block/deepslate_bricks/step2.ogg
-- block/deepslate_bricks/step3.ogg
-- block/deepslate_bricks/step4.ogg
-- block/deepslate_bricks/step5.ogg
-- block/dripstone/break1.ogg
-- block/dripstone/break2.ogg
-- block/dripstone/break3.ogg
-- block/dripstone/break4.ogg
-- block/dripstone/break5.ogg
-- block/dripstone/step1.ogg
-- block/dripstone/step2.ogg
-- block/dripstone/step3.ogg
-- block/dripstone/step4.ogg
-- block/dripstone/step5.ogg
-- block/dripstone/step6.ogg
-- block/hanging_roots/break1.ogg
-- block/hanging_roots/break2.ogg
-- block/hanging_roots/break3.ogg
-- block/hanging_roots/break4.ogg
-- block/hanging_roots/step1.ogg
-- block/hanging_roots/step2.ogg
-- block/hanging_roots/step3.ogg
-- block/hanging_roots/step4.ogg
-- block/hanging_roots/step5.ogg
-- block/hanging_roots/step6.ogg
-- block/moss/break1.ogg
-- block/moss/break2.ogg
-- block/moss/break3.ogg
-- block/moss/break4.ogg
-- block/moss/break5.ogg
-- block/moss/step1.ogg
-- block/moss/step2.ogg
-- block/moss/step3.ogg
-- block/moss/step4.ogg
-- block/moss/step5.ogg
-- block/moss/step6.ogg
-- block/pointed_dripstone/drip_lava1.ogg
-- block/pointed_dripstone/drip_lava2.ogg
-- block/pointed_dripstone/drip_lava3.ogg
-- block/pointed_dripstone/drip_lava4.ogg
-- block/pointed_dripstone/drip_lava5.ogg
-- block/pointed_dripstone/drip_lava6.ogg
-- block/pointed_dripstone/drip_lava_cauldron1.ogg
-- block/pointed_dripstone/drip_lava_cauldron2.ogg
-- block/pointed_dripstone/drip_lava_cauldron3.ogg
-- block/pointed_dripstone/drip_lava_cauldron4.ogg
-- block/pointed_dripstone/drip_water1.ogg
-- block/pointed_dripstone/drip_water10.ogg
-- block/pointed_dripstone/drip_water11.ogg
-- block/pointed_dripstone/drip_water12.ogg
-- block/pointed_dripstone/drip_water13.ogg
-- block/pointed_dripstone/drip_water14.ogg
-- block/pointed_dripstone/drip_water15.ogg
-- block/pointed_dripstone/drip_water2.ogg
-- block/pointed_dripstone/drip_water3.ogg
-- block/pointed_dripstone/drip_water4.ogg
-- block/pointed_dripstone/drip_water5.ogg
-- block/pointed_dripstone/drip_water6.ogg
-- block/pointed_dripstone/drip_water7.ogg
-- block/pointed_dripstone/drip_water8.ogg
-- block/pointed_dripstone/drip_water9.ogg
-- block/pointed_dripstone/drip_water_cauldron1.ogg
-- block/pointed_dripstone/drip_water_cauldron2.ogg
-- block/pointed_dripstone/drip_water_cauldron3.ogg
-- block/pointed_dripstone/drip_water_cauldron4.ogg
-- block/pointed_dripstone/drip_water_cauldron5.ogg
-- block/pointed_dripstone/drip_water_cauldron6.ogg
-- block/pointed_dripstone/drip_water_cauldron7.ogg
-- block/pointed_dripstone/drip_water_cauldron8.ogg
-- block/pointed_dripstone/land1.ogg
-- block/pointed_dripstone/land2.ogg
-- block/pointed_dripstone/land3.ogg
-- block/pointed_dripstone/land4.ogg
-- block/pointed_dripstone/land5.ogg
-- block/powder_snow/break1.ogg
-- block/powder_snow/break2.ogg
-- block/powder_snow/break3.ogg
-- block/powder_snow/break4.ogg
-- block/powder_snow/break5.ogg
-- block/powder_snow/break6.ogg
-- block/powder_snow/break7.ogg
-- block/powder_snow/step1.ogg
-- block/powder_snow/step10.ogg
-- block/powder_snow/step2.ogg
-- block/powder_snow/step3.ogg
-- block/powder_snow/step4.ogg
-- block/powder_snow/step5.ogg
-- block/powder_snow/step6.ogg
-- block/powder_snow/step7.ogg
-- block/powder_snow/step8.ogg
-- block/powder_snow/step9.ogg
-- block/rooted_dirt/break1.ogg
-- block/rooted_dirt/break2.ogg
-- block/rooted_dirt/break3.ogg
-- block/rooted_dirt/break4.ogg
-- block/rooted_dirt/step1.ogg
-- block/rooted_dirt/step2.ogg
-- block/rooted_dirt/step3.ogg
-- block/rooted_dirt/step4.ogg
-- block/rooted_dirt/step5.ogg
-- block/rooted_dirt/step6.ogg
-- block/sculk/step1.ogg
-- block/sculk/step2.ogg
-- block/sculk/step3.ogg
-- block/sculk/step4.ogg
-- block/sculk/step5.ogg
-- block/sculk/step6.ogg
-- block/sculk_sensor/break1.ogg
-- block/sculk_sensor/break2.ogg
-- block/sculk_sensor/break3.ogg
-- block/sculk_sensor/break4.ogg
-- block/sculk_sensor/break5.ogg
-- block/sculk_sensor/place1.ogg
-- block/sculk_sensor/place2.ogg
-- block/sculk_sensor/place3.ogg
-- block/sculk_sensor/place4.ogg
-- block/sculk_sensor/place5.ogg
-- block/sculk_sensor/sculk_clicking1.ogg
-- block/sculk_sensor/sculk_clicking2.ogg
-- block/sculk_sensor/sculk_clicking3.ogg
-- block/sculk_sensor/sculk_clicking4.ogg
-- block/sculk_sensor/sculk_clicking5.ogg
-- block/sculk_sensor/sculk_clicking6.ogg
-- block/sculk_sensor/sculk_clicking_stop1.ogg
-- block/sculk_sensor/sculk_clicking_stop2.ogg
-- block/sculk_sensor/sculk_clicking_stop3.ogg
-- block/sculk_sensor/sculk_clicking_stop4.ogg
-- block/sculk_sensor/sculk_clicking_stop5.ogg
-- block/spore_blossom/break1.ogg
-- block/spore_blossom/break2.ogg
-- block/spore_blossom/break3.ogg
-- block/spore_blossom/break4.ogg
-- block/spore_blossom/break5.ogg
-- block/spore_blossom/step1.ogg
-- block/spore_blossom/step2.ogg
-- block/spore_blossom/step3.ogg
-- block/spore_blossom/step4.ogg
-- block/spore_blossom/step5.ogg
-- block/spore_blossom/step6.ogg
-- block/tuff/break1.ogg
-- block/tuff/break2.ogg
-- block/tuff/break3.ogg
-- block/tuff/break4.ogg
-- block/tuff/break5.ogg
-- block/tuff/step1.ogg
-- block/tuff/step2.ogg
-- block/tuff/step3.ogg
-- block/tuff/step4.ogg
-- block/tuff/step5.ogg
-- block/tuff/step6.ogg
-- block/vine/break1.ogg
-- block/vine/break2.ogg
-- block/vine/break3.ogg
-- block/vine/break4.ogg
-- entity/glow_squid/ambient1.ogg
-- entity/glow_squid/ambient2.ogg
-- entity/glow_squid/ambient3.ogg
-- entity/glow_squid/ambient4.ogg
-- entity/glow_squid/ambient5.ogg
-- entity/glow_squid/death1.ogg
-- entity/glow_squid/death2.ogg
-- entity/glow_squid/death3.ogg
-- entity/glow_squid/hurt1.ogg
-- entity/glow_squid/hurt2.ogg
-- entity/glow_squid/hurt3.ogg
-- entity/glow_squid/hurt4.ogg
-- entity/glow_squid/squirt1.ogg
-- entity/glow_squid/squirt2.ogg
-- entity/glow_squid/squirt3.ogg
-- entity/player/hurt/freeze_hurt1.ogg
-- entity/player/hurt/freeze_hurt2.ogg
-- entity/player/hurt/freeze_hurt3.ogg
-- entity/player/hurt/freeze_hurt4.ogg
-- entity/player/hurt/freeze_hurt5.ogg
-- item/axe/scrape1.ogg
-- item/axe/scrape2.ogg
-- item/axe/scrape3.ogg
-- item/axe/wax_off1.ogg
-- item/axe/wax_off2.ogg
-- item/axe/wax_off3.ogg
-- item/bonemeal/bonemeal1.ogg
-- item/bonemeal/bonemeal2.ogg
-- item/bonemeal/bonemeal3.ogg
-- item/bonemeal/bonemeal4.ogg
-- item/bonemeal/bonemeal5.ogg
-- item/bucket/empty_powder_snow1.ogg
-- item/bucket/empty_powder_snow2.ogg
-- item/bucket/fill_axolotl1.ogg
-- item/bucket/fill_axolotl2.ogg
-- item/bucket/fill_axolotl3.ogg
-- item/bucket/fill_powder_snow1.ogg
-- item/bucket/fill_powder_snow2.ogg
-- item/dye/dye.ogg
-- item/honeycomb/wax_on1.ogg
-- item/honeycomb/wax_on2.ogg
-- item/honeycomb/wax_on3.ogg
-- item/ink_sac/ink_sac1.ogg
-- item/ink_sac/ink_sac2.ogg
-- item/ink_sac/ink_sac3.ogg
-- item/spyglass/stop.ogg
-- item/spyglass/use.ogg
-- minecart/inside_underwater1.ogg
-- minecart/inside_underwater2.ogg
-- minecart/inside_underwater3.ogg
-- mob/axolotl/attack1.ogg
-- mob/axolotl/attack2.ogg
-- mob/axolotl/attack3.ogg
-- mob/axolotl/attack4.ogg
-- mob/axolotl/death1.ogg
-- mob/axolotl/death2.ogg
-- mob/axolotl/hurt1.ogg
-- mob/axolotl/hurt2.ogg
-- mob/axolotl/hurt3.ogg
-- mob/axolotl/hurt4.ogg
-- mob/axolotl/idle1.ogg
-- mob/axolotl/idle2.ogg
-- mob/axolotl/idle3.ogg
-- mob/axolotl/idle4.ogg
-- mob/axolotl/idle5.ogg
-- mob/axolotl/idle_air1.ogg
-- mob/axolotl/idle_air2.ogg
-- mob/axolotl/idle_air3.ogg
-- mob/axolotl/idle_air4.ogg
-- mob/axolotl/idle_air5.ogg
-- mob/goat/death1.ogg
-- mob/goat/death2.ogg
-- mob/goat/death3.ogg
-- mob/goat/death4.ogg
-- mob/goat/death5.ogg
-- mob/goat/eat1.ogg
-- mob/goat/eat2.ogg
-- mob/goat/eat3.ogg
-- mob/goat/hurt1.ogg
-- mob/goat/hurt2.ogg
-- mob/goat/hurt3.ogg
-- mob/goat/hurt4.ogg
-- mob/goat/idle1.ogg
-- mob/goat/idle2.ogg
-- mob/goat/idle3.ogg
-- mob/goat/idle4.ogg
-- mob/goat/idle5.ogg
-- mob/goat/idle6.ogg
-- mob/goat/idle7.ogg
-- mob/goat/idle8.ogg
-- mob/goat/impact1.ogg
-- mob/goat/impact2.ogg
-- mob/goat/impact3.ogg
-- mob/goat/jump1.ogg
-- mob/goat/jump2.ogg
-- mob/goat/pre_ram1.ogg
-- mob/goat/pre_ram2.ogg
-- mob/goat/pre_ram3.ogg
-- mob/goat/pre_ram4.ogg
-- mob/goat/scream1.ogg
-- mob/goat/scream2.ogg
-- mob/goat/scream3.ogg
-- mob/goat/scream4.ogg
-- mob/goat/scream5.ogg
-- mob/goat/scream6.ogg
-- mob/goat/scream7.ogg
-- mob/goat/scream8.ogg
-- mob/goat/scream9.ogg
-- mob/goat/screaming_death1.ogg
-- mob/goat/screaming_death2.ogg
-- mob/goat/screaming_death3.ogg
-- mob/goat/screaming_hurt1.ogg
-- mob/goat/screaming_hurt2.ogg
-- mob/goat/screaming_hurt3.ogg
-- mob/goat/screaming_milk1.ogg
-- mob/goat/screaming_milk2.ogg
-- mob/goat/screaming_milk3.ogg
-- mob/goat/screaming_milk4.ogg
-- mob/goat/screaming_milk5.ogg
-- mob/goat/screaming_pre_ram1.ogg
-- mob/goat/screaming_pre_ram2.ogg
-- mob/goat/screaming_pre_ram3.ogg
-- mob/goat/screaming_pre_ram4.ogg
-- mob/goat/screaming_pre_ram5.ogg
-- mob/goat/step1.ogg
-- mob/goat/step2.ogg
-- mob/goat/step3.ogg
-- mob/goat/step4.ogg
-- mob/goat/step5.ogg
-- mob/goat/step6.ogg
-- mob/stray/convert1.ogg
-- mob/stray/convert2.ogg
-- mob/stray/convert3.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/candles.json
-- blocks/candle_cakes.json
-- blocks/cauldrons.json
-- blocks/crystal_sound_blocks.json
-- blocks/dripstone_replaceable_blocks.json
-- blocks/inside_step_sound_blocks.json
-- blocks/occludes_vibration_signals.json
-- entity_types/axolotl_always_hostiles.json
-- entity_types/axolotl_tempted_hostiles.json
-- entity_types/powder_snow_walkable_mobs.json
-- game_events/ignore_vibrations_stepping_carefully.json
-- game_events/vibrations.json
-- items/axolotl_tempt_items.json
-- items/candles.json
-- items/freeze_immune_wearables.json
-- items/ignored_by_piglin_babies.json
-- items/occludes_vibration_signals.json
-- items/piglin_food.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/amethyst_block.png
-- block/amethyst_cluster.png
-- block/black_candle.png
-- block/blue_candle.png
-- block/brown_candle.png
-- block/budding_amethyst.png
-- block/calcite.png
-- block/calibrated_sculk_sensor_side.png
-- block/calibrated_sculk_sensor_top.png
-- block/candle.png
-- block/copper_block.png
-- block/copper_ore.png
-- block/cut_copper.png
-- block/cyan_candle.png
-- block/dirt_path_side.png
-- block/dirt_path_top.png
-- block/dripstone_block.png
-- block/gray_candle.png
-- block/green_candle.png
-- block/large_amethyst_bud.png
-- block/lightly_weathered_copper_block.png
-- block/lightly_weathered_cut_copper.png
-- block/lightning_rod.png
-- block/light_blue_candle.png
-- block/light_gray_candle.png
-- block/lime_candle.png
-- block/magenta_candle.png
-- block/medium_amethyst_bud.png
-- block/orange_candle.png
-- block/pink_candle.png
-- block/pointed_dripstone_down_base.png
-- block/pointed_dripstone_down_frustum.png
-- block/pointed_dripstone_down_middle.png
-- block/pointed_dripstone_down_tip.png
-- block/pointed_dripstone_down_tip_merge.png
-- block/pointed_dripstone_up_base.png
-- block/pointed_dripstone_up_frustum.png
-- block/pointed_dripstone_up_middle.png
-- block/pointed_dripstone_up_tip.png
-- block/pointed_dripstone_up_tip_merge.png
-- block/powder_snow.png
-- block/purple_candle.png
-- block/red_candle.png
-- block/sculk_sensor_bottom.png
-- block/sculk_sensor_side.png
-- block/sculk_sensor_tendril_active.png
-- block/sculk_sensor_tendril_inactive.png
-- block/sculk_sensor_top.png
-- block/semi_weathered_copper_block.png
-- block/semi_weathered_cut_copper.png
-- block/small_amethyst_bud.png
-- block/tinted_glass.png
-- block/tuff.png
-- block/weathered_copper_block.png
-- block/weathered_cut_copper.png
-- block/white_candle.png
-- block/yellow_candle.png
-- entity/axolotl/axolotl_blue.png
-- entity/axolotl/axolotl_cyan.png
-- entity/axolotl/axolotl_gold.png
-- entity/axolotl/axolotl_lucy.png
-- entity/axolotl/axolotl_wild.png
-- gui/container/bundle.png
-- item/amethyst_shard.png
-- item/axolotl_bucket.png
-- item/black_candle.png
-- item/blue_candle.png
-- item/brown_candle.png
-- item/bundle.png
-- item/bundle_filled.png
-- item/candle.png
-- item/copper_ingot.png
-- item/cyan_candle.png
-- item/gray_candle.png
-- item/green_candle.png
-- item/light_blue_candle.png
-- item/light_gray_candle.png
-- item/lime_candle.png
-- item/magenta_candle.png
-- item/orange_candle.png
-- item/pink_candle.png
-- item/pointed_dripstone.png
-- item/powder_snow_bucket.png
-- item/purple_candle.png
-- item/red_candle.png
-- item/spyglass.png
-- item/white_candle.png
-- item/yellow_candle.png
-- misc/powder_snow_outline.png
-- misc/spyglass_scope.png
-- particle/vibration.png
-+ block/grass_path_side.png
-+ block/grass_path_top.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:javabridge:1.1.23
-+ com.mojang:javabridge:1.0.22
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-- RenderSystem$AutoStorageIndexBuffer sharedSequential
-- RenderSystem$AutoStorageIndexBuffer sharedSequentialQuad
-+ void drawArrays(int,int,int)
-+ void lambda$activeTexture$22(int)
-+ void lambda$alphaFunc$0(int,float)
-+ void lambda$bindTexture$25(int)
-+ void lambda$blendColor$11(float,float,float,float)
-+ void lambda$blendEquation$10(int)
-+ void lambda$blendFunc$6(GlStateManager$DestFactor)
-+ void lambda$blendFunc$7(int,int)
-+ void lambda$blendFuncSeparate$8(GlStateManager$DestFactor)
-+ void lambda$blendFuncSeparate$9(int,int,int,int)
-+ void lambda$clear$35(int,boolean)
-+ void lambda$clearColor$33(float,float,float,float)
-+ void lambda$clearDepth$32(double)
-+ void lambda$clearStencil$34(int)
-+ void lambda$color3f$45(float,float,float)
-+ void lambda$color4f$44(float,float,float,float)
-+ void lambda$colorMask$28(boolean,boolean,boolean,boolean)
-+ void lambda$colorMaterial$1(int,int)
-+ void lambda$deleteTexture$24(int)
-+ void lambda$depthFunc$4(int)
-+ void lambda$depthMask$5(boolean)
-+ void lambda$drawArrays$46(int,int,int)
-+ void lambda$enableScissor$3(int,int,int,int)
-+ void lambda$fog$17(int,float,float,float,float)
-+ void lambda$fogDensity$14(float)
-+ void lambda$fogEnd$16(float)
-+ void lambda$fogi$18(int,int)
-+ void lambda$fogMode$12(GlStateManager$FogMode)
-+ void lambda$fogMode$13(int)
-+ void lambda$fogStart$15(float)
-+ void lambda$getString$51(Consumer)
-+ void lambda$glBindBuffer$54(Supplier)
-+ void lambda$glDeleteBuffers$55(int)
-+ void lambda$glGenBuffers$72(Consumer)
-+ void lambda$glMultiTexCoord2f$53(int,float,float)
-+ void lambda$glUniform1$57(IntBuffer)
-+ void lambda$glUniform1$61(FloatBuffer)
-+ void lambda$glUniform1i$56(int,int)
-+ void lambda$glUniform2$58(IntBuffer)
-+ void lambda$glUniform2$62(FloatBuffer)
-+ void lambda$glUniform3$59(IntBuffer)
-+ void lambda$glUniform3$63(FloatBuffer)
-+ void lambda$glUniform4$60(IntBuffer)
-+ void lambda$glUniform4$64(FloatBuffer)
-+ void lambda$glUniformMatrix2$65(FloatBuffer)
-+ void lambda$glUniformMatrix3$66(FloatBuffer)
-+ void lambda$glUniformMatrix4$67(FloatBuffer)
-+ void lambda$lineWidth$47(float)
-+ void lambda$logicOp$21(GlStateManager$LogicOp)
-+ void lambda$matrixMode$36(int)
-+ void lambda$multMatrix$43(Matrix4f)
-+ void lambda$normal3f$2(float,float,float)
-+ void lambda$ortho$37(double,double,double,double,double,double)
-+ void lambda$pixelStore$48(int,int)
-+ void lambda$pixelTransfer$49(int,float)
-+ void lambda$polygonMode$19(int,int)
-+ void lambda$polygonOffset$20(float,float)
-+ void lambda$readPixels$50(ByteBuffer)
-+ void lambda$renderCrosshair$52(int)
-+ void lambda$rotatef$38(float,float,float,float)
-+ void lambda$scaled$40(double,double,double)
-+ void lambda$scalef$39(float,float,float)
-+ void lambda$setupGui3DDiffuseLighting$71(Vector3f)
-+ void lambda$setupGuiFlatDiffuseLighting$70(Vector3f)
-+ void lambda$setupLevelDiffuseLighting$69(Matrix4f)
-+ void lambda$setupOverlayColor$68(IntSupplier,int)
-+ void lambda$shadeModel$26(int)
-+ void lambda$stencilFunc$29(int,int,int)
-+ void lambda$stencilMask$30(int)
-+ void lambda$stencilOp$31(int,int,int)
-+ void lambda$texParameter$23(int,int,int)
-+ void lambda$translated$42(double,double,double)
-+ void lambda$translatef$41(float,float,float)
-+ void lambda$viewport$27(int,int,int,int)
-- Logger access$200()
-- RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode,int)
-- void drawElements(int,int,int)
-- void lambda$activeTexture$23(int)
-- void lambda$alphaFunc$1(int,float)
-- void lambda$bindTexture$26(int)
-- void lambda$blendColor$12(float,float,float,float)
-- void lambda$blendEquation$11(int)
-- void lambda$blendFunc$7(GlStateManager$DestFactor)
-- void lambda$blendFunc$8(int,int)
-- void lambda$blendFuncSeparate$10(int,int,int,int)
-- void lambda$blendFuncSeparate$9(GlStateManager$DestFactor)
-- void lambda$clear$36(int,boolean)
-- void lambda$clearColor$34(float,float,float,float)
-- void lambda$clearDepth$33(double)
-- void lambda$clearStencil$35(int)
-- void lambda$color3f$46(float,float,float)
-- void lambda$color4f$45(float,float,float,float)
-- void lambda$colorMask$29(boolean,boolean,boolean,boolean)
-- void lambda$colorMaterial$2(int,int)
-- void lambda$deleteTexture$25(int)
-- void lambda$depthFunc$5(int)
-- void lambda$depthMask$6(boolean)
-- void lambda$drawElements$47(int,int,int)
-- void lambda$enableScissor$4(int,int,int,int)
-- void lambda$fog$18(int,float,float,float,float)
-- void lambda$fogDensity$15(float)
-- void lambda$fogEnd$17(float)
-- void lambda$fogi$19(int,int)
-- void lambda$fogMode$13(GlStateManager$FogMode)
-- void lambda$fogMode$14(int)
-- void lambda$fogStart$16(float)
-- void lambda$getString$52(Consumer)
-- void lambda$glBindBuffer$55(Supplier)
-- void lambda$glDeleteBuffers$56(int)
-- void lambda$glGenBuffers$73(Consumer)
-- void lambda$glMultiTexCoord2f$54(int,float,float)
-- void lambda$glUniform1$58(IntBuffer)
-- void lambda$glUniform1$62(FloatBuffer)
-- void lambda$glUniform1i$57(int,int)
-- void lambda$glUniform2$59(IntBuffer)
-- void lambda$glUniform2$63(FloatBuffer)
-- void lambda$glUniform3$60(IntBuffer)
-- void lambda$glUniform3$64(FloatBuffer)
-- void lambda$glUniform4$61(IntBuffer)
-- void lambda$glUniform4$65(FloatBuffer)
-- void lambda$glUniformMatrix2$66(FloatBuffer)
-- void lambda$glUniformMatrix3$67(FloatBuffer)
-- void lambda$glUniformMatrix4$68(FloatBuffer)
-- void lambda$lineWidth$48(float)
-- void lambda$logicOp$22(GlStateManager$LogicOp)
-- void lambda$matrixMode$37(int)
-- void lambda$multMatrix$44(Matrix4f)
-- void lambda$normal3f$3(float,float,float)
-- void lambda$ortho$38(double,double,double,double,double,double)
-- void lambda$pixelStore$49(int,int)
-- void lambda$pixelTransfer$50(int,float)
-- void lambda$polygonMode$20(int,int)
-- void lambda$polygonOffset$21(float,float)
-- void lambda$readPixels$51(ByteBuffer)
-- void lambda$renderCrosshair$53(int)
-- void lambda$rotatef$39(float,float,float,float)
-- void lambda$scaled$41(double,double,double)
-- void lambda$scalef$40(float,float,float)
-- void lambda$setupGui3DDiffuseLighting$72(Vector3f)
-- void lambda$setupGuiFlatDiffuseLighting$71(Vector3f)
-- void lambda$setupLevelDiffuseLighting$70(Matrix4f)
-- void lambda$setupOverlayColor$69(IntSupplier,int)
-- void lambda$shadeModel$27(int)
-- void lambda$static$0(IntConsumer,int)
-- void lambda$stencilFunc$30(int,int,int)
-- void lambda$stencilMask$31(int)
-- void lambda$stencilOp$32(int,int,int)
-- void lambda$texParameter$24(int,int,int)
-- void lambda$translated$43(double,double,double)
-- void lambda$translatef$42(float,float,float)
-- void lambda$viewport$28(int,int,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.math.Matrix4f</summary>
-
-```diff
-- void multiplyWithTranslation(float,float,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ boolean access$7800(RealmsMainScreen)
-+ boolean access$7802(RealmsMainScreen,boolean)
-+ int access$8200(RealmsMainScreen)
-+ int access$8300(RealmsMainScreen)
-+ Minecraft access$8500(RealmsMainScreen)
-+ ResourceLocation access$8400()
-+ String access$8000(RealmsMainScreen)
-+ void access$7600(PoseStack,int,int,int,int,boolean,boolean)
-+ void access$7700(Button)
-+ void access$7900(PoseStack,int,int,boolean,int,int,boolean,boolean)
-+ void access$8100(PoseStack,int,int,int,int,boolean)
-+ void access$8600(RealmsMainScreen)
-- boolean access$8000(RealmsMainScreen)
-- boolean access$8002(RealmsMainScreen,boolean)
-- Component access$7600()
-- Component access$7700()
-- int access$8400(RealmsMainScreen)
-- int access$8500(RealmsMainScreen)
-- Minecraft access$8700(RealmsMainScreen)
-- ResourceLocation access$8600()
-- String access$8200(RealmsMainScreen)
-- void access$7800(PoseStack,int,int,int,int,boolean,boolean)
-- void access$7900(Button)
-- void access$8100(PoseStack,int,int,boolean,int,int,boolean,boolean)
-- void access$8300(PoseStack,int,int,int,int,boolean)
-- void access$8800(RealmsMainScreen)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-+ RealmsServer access$8700(RealmsMainScreen$ServerEntry)
-- RealmsServer access$8900(RealmsMainScreen$ServerEntry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
-
-```diff
-- Component TEXT_UNKNOWN
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
-
-```diff
-+ RealmsResetWorldScreen$ResetType typeToReset
-+ RealmsResetWorldScreen$ResetWorldInfo worldInfoToReset
-+ WorldTemplate worldTemplateToReset
-+ void access$900(ResourceLocation,boolean,boolean)
-+ void callback(WorldTemplate)
-+ void lambda$switchSlot$7()
-+ void resetWorld(RealmsResetWorldScreen$ResetWorldInfo)
-+ void resetWorld(WorldTemplate,int,boolean)
-+ void resetWorldWithTemplate(WorldTemplate)
-+ void switchSlot()
-+ void triggerResetWorld(RealmsResetWorldScreen$ResetWorldInfo)
-- void access$600(ResourceLocation,boolean,boolean)
-- void generationSelectionCallback(WorldGenerationInfo)
-- void lambda$generationSelectionCallback$8(WorldGenerationInfo)
-- void lambda$templateSelectionCallback$7(WorldTemplate)
-- void resetWorld(Runnable)
-- void startTask(LongRunningTask)
-- void templateSelectionCallback(WorldTemplate)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
-
-```diff
-+ RealmsScreenWithCallback lastScreen
-- Consumer callback
-+ boolean keyPressed(int,int,int)
-+ void <init>(RealmsServer$WorldType)
-+ void <init>(WorldTemplatePaginatedList)
-+ void backButtonClicked()
-- void <init>(RealmsServer$WorldType)
-- void <init>(WorldTemplatePaginatedList)
-- void onClose()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
-
-```diff
-+ Void lambda$null$0(Throwable)
-+ void lambda$null$1(RealmsServerAddress)
-+ void lambda$run$2(RealmsServerAddress,boolean)
-+ void sleep(int)
-- CompletableFuture scheduleResourcePackDownload(RealmsServerAddress)
-- RealmsLongConfirmationScreen resourcePackDownloadConfirmationScreen(Function)
-- RealmsLongRunningMcoTaskScreen connectScreen(RealmsServerAddress)
-- RealmsServerAddress fetchServerAddress()
-- void lambda$null$0(RealmsServerAddress)
-- Void lambda$null$1(Throwable)
-- void lambda$resourcePackDownloadConfirmationScreen$2(Function,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.CrashReportCategory</summary>
-
-```diff
-+ String formatLocation(BlockPos)
-+ String formatLocation(double,double,double)
-+ String formatLocation(int,int,int)
-+ String lambda$populateBlockDetails$0(BlockPos)
-+ void populateBlockDetails(BlockState)
-- String formatLocation(BlockPos)
-- String formatLocation(LevelHeightAccessor,double,double,double)
-- String formatLocation(LevelHeightAccessor,int,int,int)
-- String lambda$populateBlockDetails$0(BlockPos)
-- void populateBlockDetails(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-- DataResult fixedSize(DoubleStream,int)
-- Object getRandom(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
-
-```diff
-+ boolean matches(ItemStack,int)
-- boolean matches(ItemStack,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
-
-```diff
-+ boolean matches(BeaconBlockEntity)
-- boolean matches(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
-
-```diff
-- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
-
-```diff
-- IllegalStateException lambda$serializeToJson$0()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft$1</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$world$entity$vehicle$AbstractMinecart$Type
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-- void fillGradient(PoseStack,int,int,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
-
-```diff
-+ boolean hasBoss()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.LerpingBossEvent</summary>
-
-```diff
-+ float getPercent()
-+ void setPercent(float)
-- float getProgress()
-- void setProgress(float)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.LoomScreen</summary>
-
-```diff
-- void init()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ boolean displayOptions
-+ Button commandsButton
-+ Button difficultyButton
-+ Button modeButton
-+ Difficulty effectiveDifficulty
-+ Difficulty selectedDifficulty
-- boolean worldGenSettingsVisible
-- CycleButton commandsButton
-- CycleButton difficultyButton
-- CycleButton modeButton
-- Difficulty difficulty
-+ boolean access$700(CreateWorldScreen)
-+ boolean lambda$copyTempDataPackDirToNewWorld$18(Path)
-+ boolean lambda$createTempDataPackDirFromExistingWorld$20(Path)
-+ boolean lambda$tryApplyNewDataPacks$11(String)
-+ Component access$100()
-+ Component access$400(CreateWorldScreen)
-+ Component access$500(CreateWorldScreen)
-+ CreateWorldScreen$SelectedGameMode access$200(CreateWorldScreen)
-+ Difficulty access$600(CreateWorldScreen)
-+ Object lambda$tryApplyNewDataPacks$16(Throwable)
-+ void lambda$copyTempDataPackDirToNewWorld$19(Path)
-+ void lambda$createTempDataPackDirFromExistingWorld$21(Path)
-+ void lambda$init$1(Button)
-+ void lambda$init$2(Button)
-+ void lambda$init$3(Button)
-+ void lambda$init$4(Button)
-+ void lambda$init$7(Button)
-+ void lambda$init$8(Button)
-+ void lambda$null$13(boolean)
-+ void lambda$null$14()
-+ void lambda$null$15(ServerResources)
-+ void lambda$null$5(GameRules)
-+ void lambda$null$6(Optional)
-+ void lambda$removeTempDataPackDir$17(Path)
-+ void lambda$tryApplyNewDataPacks$12()
-+ void setDisplayOptions(boolean)
-+ void toggleDisplayOptions()
-+ void updateDisplayOptions()
-- boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
-- boolean lambda$createTempDataPackDirFromExistingWorld$22(Path)
-- boolean lambda$tryApplyNewDataPacks$13(String)
-- Difficulty getEffectiveDifficulty()
-- MutableComponent lambda$init$1(CycleButton)
-- MutableComponent lambda$init$4(CycleButton)
-- Object lambda$tryApplyNewDataPacks$18(Throwable)
-- void lambda$copyTempDataPackDirToNewWorld$21(Path)
-- void lambda$createTempDataPackDirFromExistingWorld$23(Path)
-- void lambda$init$11(Button)
-- void lambda$init$12(Button)
-- void lambda$init$2(CreateWorldScreen$SelectedGameMode)
-- void lambda$init$3(Difficulty)
-- void lambda$init$5(Boolean)
-- void lambda$init$6(Button)
-- void lambda$null$15(boolean)
-- void lambda$null$16()
-- void lambda$null$17(ServerResources)
-- void lambda$null$7(GameRules)
-- void lambda$null$8(Optional)
-- void lambda$removeTempDataPackDir$19(Path)
-- void lambda$tryApplyNewDataPacks$14()
-- void refreshWorldGenSettingsVisibility()
-- void setWorldGenSettingsVisible(boolean)
-- void toggleWorldGenSettingsVisibility()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.PlayerMenuItem</summary>
-
-```diff
-+ TextComponent name
-- Component name
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ArmorStandModel</summary>
-
-```diff
-+ ModelPart bodyStick1
-+ ModelPart bodyStick2
-- ModelPart leftBodyStick
-- ModelPart rightBodyStick
-+ void <init>()
-+ void <init>(float)
-- LayerDefinition createBodyLayer()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.HoglinModel</summary>
-
-```diff
-+ ModelPart backLeftLeg
-+ ModelPart backRightLeg
-+ ModelPart frontLeftLeg
-+ ModelPart frontRightLeg
-- ModelPart leftFrontLeg
-- ModelPart leftHindLeg
-- ModelPart rightFrontLeg
-- ModelPart rightHindLeg
-+ void <init>()
-- LayerDefinition createBodyLayer()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SnowGolemModel</summary>
-
-```diff
-+ ModelPart arm1
-+ ModelPart arm2
-+ ModelPart piece1
-+ ModelPart piece2
-- ModelPart leftArm
-- ModelPart rightArm
-- ModelPart root
-- ModelPart upperBody
-+ Iterable parts()
-+ void <init>()
-- LayerDefinition createBodyLayer()
-- ModelPart root()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SquidModel</summary>
-
-```diff
-+ ImmutableList parts
-+ ModelPart body
-- ModelPart root
-+ Iterable parts()
-+ void <init>()
-- LayerDefinition createBodyLayer()
-- ModelPart lambda$new$0(ModelPart,int)
-- ModelPart root()
-- String createTentacleName(int)
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.TridentModel</summary>
-
-```diff
-+ ModelPart pole
-- ModelPart root
-+ void <init>()
-- LayerDefinition createLayer()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.TropicalFishModelB</summary>
-
-```diff
-+ ModelPart body
-+ ModelPart bottomFin
-+ ModelPart leftFin
-+ ModelPart rightFin
-+ ModelPart topFin
-- ModelPart root
-+ Iterable parts()
-+ void <init>(float)
-- LayerDefinition createBodyLayer(CubeDeformation)
-- ModelPart root()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.VexModel</summary>
-
-```diff
-+ void <init>()
-- LayerDefinition createBodyLayer()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.VillagerModel</summary>
-
-```diff
-+ ModelPart arms
-+ ModelPart body
-+ ModelPart jacket
-+ ModelPart leg0
-+ ModelPart leg1
-- ModelPart leftLeg
-- ModelPart rightLeg
-- ModelPart root
-+ Iterable parts()
-+ void <init>(float,int,int)
-+ void <init>(float)
-- MeshDefinition createBodyModel()
-- ModelPart root()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.WitherBossModel</summary>
-
-```diff
-+ ImmutableList parts
-+ ModelPart[] heads
-+ ModelPart[] upperBodyParts
-- ModelPart centerHead
-- ModelPart leftHead
-- ModelPart ribcage
-- ModelPart rightHead
-- ModelPart root
-- ModelPart tail
-+ ImmutableList parts()
-+ Iterable parts()
-+ void <init>(float)
-- LayerDefinition createBodyLayer(CubeDeformation)
-- ModelPart root()
-- void <init>(ModelPart)
-- void setupHeadRotation(ModelPart,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ZombieModel</summary>
-
-```diff
-+ void <init>(float,boolean)
-+ void <init>(float,float,int,int)
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.dragon.DragonHeadModel</summary>
-
-```diff
-+ void <init>(float)
-- LayerDefinition createHeadLayer()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
-
-```diff
-+ boolean mirror
-+ float xTexSize
-+ float yTexSize
-+ int xTexOffs
-+ int yTexOffs
-+ ObjectList children
-+ ObjectList cubes
-- List cubes
-- Map children
-+ ModelPart addBox(float,float,float,float,float,float,boolean)
-+ ModelPart addBox(float,float,float,float,float,float)
-+ ModelPart addBox(String,float,float,float,int,int,int,float,int,int)
-+ ModelPart createShallowCopy()
-+ ModelPart setTexSize(int,int)
-+ ModelPart texOffs(int,int)
-+ void <init>()
-+ void <init>(int,int,int,int)
-+ void <init>(Model,int,int)
-+ void <init>(Model)
-+ void addBox(float,float,float,float,float,float,float,boolean)
-+ void addBox(float,float,float,float,float,float,float,float,float)
-+ void addBox(float,float,float,float,float,float,float)
-+ void addBox(int,int,float,float,float,float,float,float,float,float,float,boolean,boolean)
-+ void addChild(ModelPart)
-- boolean isEmpty()
-- ModelPart getChild(String)
-- PartPose storePose()
-- Stream getAllParts()
-- void <init>(Map)
-- void lambda$visit$0(ModelPart)
-- void loadPose(PartPose)
-- void visit(ModelPart$Visitor)
-- void visit(String)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
-
-```diff
-+ Map getProgress()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
-
-```diff
-+ boolean isEntityTickingChunk(Entity)
-+ LevelChunk replaceWithPacketData(CompoundTag,int,boolean)
-- LevelChunk replaceWithPacketData(CompoundTag,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-+ Int2ObjectMap entitiesById
-- EntityTickList tickingEntities
-- TransientEntitySectionManager entityStorage
-+ int lambda$getBlockTint$7(ColorResolver)
-+ String lambda$fillReportDetails$5()
-+ String lambda$tickNonPassenger$1(Entity)
-+ Vec3 getSkyColor(BlockPos,float)
-+ void lambda$clearTintCaches$3(BlockTintCache)
-+ void lambda$doAnimateTick$4(AmbientParticleSettings)
-+ void lambda$onChunkLoaded$2(BlockTintCache)
-+ void onChunkLoaded(int,int)
-+ void onEntityRemoved(Entity)
-+ void reAddEntitiesToChunk(LevelChunk)
-+ void removeAllPendingEntityRemovals()
-+ void removeEntity(int)
-+ void setMapData(MapItemSavedData)
-+ void updateChunkPos(Entity)
-- EntityTickList access$100(ClientLevel)
-- int lambda$getBlockTint$9(ColorResolver)
-- LevelEntityGetter getEntities()
-- List access$200(ClientLevel)
-- String gatherChunkSourceStats()
-- String lambda$fillReportDetails$7()
-- String lambda$tickNonPassenger$2(Entity)
-- Vec3 getSkyColor(Vec3,float)
-- Vec3 lambda$getSkyColor$8(BiomeManager,int,int,int)
-- void addDestroyBlockEffect(BlockState)
-- void gameEvent(BlockPos)
-- void lambda$clearTintCaches$4(BlockTintCache)
-- void lambda$doAnimateTick$5(AmbientParticleSettings)
-- void lambda$onChunkLoaded$3(BlockTintCache)
-- void lambda$tickEntities$1(Entity)
-- void onChunkLoaded(ChunkPos)
-- void removeEntity(Entity$RemovalReason)
-- void setMapData(MapItemSavedData)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel$ClientLevelData</summary>
-
-```diff
-+ void fillCrashReportCategory(CrashReportCategory)
-- void fillCrashReportCategory(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.AbstractClientPlayer</summary>
-
-```diff
-+ ResourceLocation getSkullPath(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
-
-```diff
-+ Matrix4f getProjectionMatrix(Camera,float,boolean)
-- float getDepthFar()
-- Matrix4f getProjectionMatrix(double)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.ChestRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-- LayerDefinition createDoubleBodyLeftLayer()
-- LayerDefinition createDoubleBodyRightLayer()
-- LayerDefinition createSingleBodyLayer()
-- void <init>(BlockEntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.EnchantTableRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-- void <init>(BlockEntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.PistonHeadRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-- void <init>(BlockEntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
-
-```diff
-+ SignRenderer$SignModel signModel
-- Font font
-- Map signModels
-+ FormattedCharSequence lambda$render$0(Component)
-+ Material getMaterial(Block)
-+ void <init>(BlockEntityRenderDispatcher)
-- FormattedCharSequence lambda$render$2(Component)
-- LayerDefinition createSignLayer()
-- SignRenderer$SignModel createSignModel(WoodType)
-- SignRenderer$SignModel lambda$new$1(WoodType)
-- void <init>(BlockEntityRendererProvider$Context)
-- WoodType getWoodType(Block)
-- WoodType lambda$new$0(WoodType)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.SkullBlockRenderer</summary>
-
-```diff
-+ Map MODEL_BY_TYPE
-- Map modelByType
-+ void <init>(BlockEntityRenderDispatcher)
-+ void lambda$static$1(HashMap)
-+ void renderSkull(MultiBufferSource,int)
-- Map createSkullRenderers(EntityModelSet)
-- void <init>(BlockEntityRendererProvider$Context)
-- void renderSkull(RenderType)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-- void <init>(BlockEntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-- void <init>(BlockEntityRendererProvider$Context)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.chunk.VisGraph</summary>
-
-```diff
-+ Set floodFill(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.DebugRenderer</summary>
-
-```diff
-- GameEventListenerRenderer gameEventListenerRenderer
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.BeeRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.BoatRenderer</summary>
-
-```diff
-+ BoatModel model
-+ ResourceLocation[] BOAT_TEXTURE_LOCATIONS
-- Map boatResources
-+ void <clinit>()
-+ void <init>(EntityRenderDispatcher)
-- Boat$Type lambda$new$0(Boat$Type)
-- Pair lambda$new$1(Boat$Type)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.CaveSpiderRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.ChickenRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.CowRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.DolphinRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.DrownedRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EndCrystalRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- LayerDefinition createBodyLayer()
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EnderDragonRenderer$DragonModel</summary>
-
-```diff
-+ void <init>()
-- void <init>(ModelPart)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EndermiteRenderer</summary>
-
-```diff
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderer</summary>
-
-```diff
-- Font font
-+ EntityRenderDispatcher getDispatcher()
-+ void <init>(EntityRenderDispatcher)
-- void <init>(EntityRendererProvider$Context)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.SheepFurLayer</summary>
-
-```diff
-+ void <init>(RenderLayerParent)
-- void <init>(EntityModelSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.SlimeOuterLayer</summary>
-
-```diff
-+ void <init>(RenderLayerParent)
-- void <init>(EntityModelSet)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.StrayClothingLayer</summary>
-
-```diff
-+ void <init>(RenderLayerParent)
-- void <init>(EntityModelSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.TropicalFishPatternLayer</summary>
-
-```diff
-+ void <init>(RenderLayerParent)
-- void <init>(EntityModelSet)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.item.ItemProperties$1</summary>
-
-```diff
-+ float call(LivingEntity)
-- float call(LivingEntity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.DefaultClientPackResources</summary>
-
-```diff
-+ void <init>(AssetIndex)
-- void <init>(AssetIndex)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
-
-```diff
-+ boolean hasCustomFrameTime(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
-
-```diff
-+ boolean priority
-+ boolean hasPriority()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.LanServer</summary>
-
-```diff
-+ boolean isUpToDate()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandFunction$CommandEntry</summary>
-
-```diff
-+ void execute(ArrayDeque,int)
-- void execute(Deque,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.CommandFunction$FunctionEntry</summary>
-
-```diff
-+ void execute(ArrayDeque,int)
-+ void lambda$execute$0(CommandFunction)
-- void execute(Deque,int)
-- void lambda$execute$0(CommandFunction)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.AngleArgument</summary>
-
-```diff
-- SimpleCommandExceptionType ERROR_INVALID_ANGLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ boolean isOutsideBuildHeight(long)
-- BlockPos atY(int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
-
-```diff
-+ void setX(int)
-+ void setY(int)
-+ void setZ(int)
-- BlockPos$MutableBlockPos setX(int)
-- BlockPos$MutableBlockPos setY(int)
-- BlockPos$MutableBlockPos setZ(int)
-- Vec3i setX(int)
-- Vec3i setY(int)
-- Vec3i setZ(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.BlockSourceImpl</summary>
-
-```diff
-+ Material getMaterial()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestSequence</summary>
-
-```diff
-+ GameTestSequence thenWait(Runnable)
-+ GameTestSequence thenWait(Runnable)
-+ void lambda$thenFail$3(Supplier)
-+ void lambda$thenTrigger$4(GameTestSequence$Condition)
-- GameTestSequence thenExecuteFor(Runnable)
-- GameTestSequence thenWaitUntil(Runnable)
-- GameTestSequence thenWaitUntil(Runnable)
-- void lambda$thenExecuteFor$3(Runnable)
-- void lambda$thenFail$4(Supplier)
-- void lambda$thenTrigger$5(GameTestSequence$Condition)
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ boolean publishServer(GameType,boolean,int)
-+ void <init>(WritableRegistry)
-- void <init>(Registry)
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.GameTestTicker</summary>
-
-```diff
-+ GameTestTicker singleton
-- GameTestTicker SINGLETON
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.StructureUtils</summary>
-
-```diff
-- Logger LOGGER
-+ boolean lambda$clearSpaceForStructure$1(Entity)
-+ boolean lambda$findStructureBlockContainingPos$2(BlockPos)
-+ int lambda$findNearestStructureBlock$3(BlockPos)
-+ void lambda$clearSpaceForStructure$0(BlockPos)
-- boolean lambda$clearSpaceForStructure$3(Entity)
-- boolean lambda$findStructureBlockContainingPos$4(BlockPos)
-- boolean lambda$main$0(Path)
-- int lambda$findNearestStructureBlock$5(BlockPos)
-- void lambda$clearSpaceForStructure$2(BlockPos)
-- void lambda$main$1(Path)
-- void main(String[])
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.gametest.framework.TestFunction</summary>
-
-```diff
-- int maxAttempts
-- int requiredSuccesses
-- boolean isFlaky()
-- int getMaxAttempts()
-- int getRequiredSuccesses()
-- void <init>(Consumer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ListTag</summary>
-
-```diff
-+ ByteSet INLINE_ELEMENT_TYPES
-+ Component getPrettyDisplay(String,int)
-+ void stripEmptyChildren()
-- void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongArrayTag</summary>
-
-```diff
-+ Component getPrettyDisplay(String,int)
-- void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongTag</summary>
-
-```diff
-+ Component getPrettyDisplay(String,int)
-+ String toString()
-- void accept(TagVisitor)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NumericTag</summary>
-
-```diff
-- String toString()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.Tag</summary>
-
-```diff
-+ ChatFormatting SYNTAX_HIGHLIGHTING_KEY
-+ ChatFormatting SYNTAX_HIGHLIGHTING_NUMBER
-+ ChatFormatting SYNTAX_HIGHLIGHTING_NUMBER_TYPE
-+ ChatFormatting SYNTAX_HIGHLIGHTING_STRING
-+ Component getPrettyDisplay(java.lang.String,int)
-- void accept(net.minecraft.nbt.TagVisitor)
-+ boolean isEmpty()
-+ Component getPrettyDisplay()
-+ void <clinit>()
-+ void stripEmptyChildren()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-- void handleAddVibrationSignal(net.minecraft.network.protocol.game.ClientboundAddVibrationSignalPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SpreadPlayersCommand$Position</summary>
-
-```diff
-+ double access$000(SpreadPlayersCommand$Position)
-+ double access$002(SpreadPlayersCommand$Position,double)
-+ void <init>(double,double)
-+ void set(double,double)
-- double access$200(SpreadPlayersCommand$Position)
-- double access$202(SpreadPlayersCommand$Position,double)
-- void <init>(SpreadPlayersCommand$1)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ boolean publishServer(GameType,boolean,int)
-- boolean isResourcePackRequired()
-- GameType getForcedGameType()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ int maxBuildHeight
-- boolean requireResourcePack
-+ Integer lambda$new$2(Integer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-- ChunkStatusUpdateListener chunkStatusListener
-+ ChunkAccess lambda$null$25(ChunkAccess)
-+ ChunkHolder$FullChunkStatus lambda$null$24(ChunkHolder)
-+ ChunkMap$DistanceManager getDistanceManager()
-+ ChunkStatus lambda$getEntityTickingRangeFuture$2(int)
-+ ChunkStatus lambda$postProcess$28(int)
-+ CompletableFuture getEntityTickingRangeFuture(ChunkPos)
-+ CompletableFuture postProcess(ChunkHolder)
-+ CompletableFuture unpackTicks(ChunkHolder)
-+ Either lambda$getEntityTickingRangeFuture$4(Either)
-+ Either lambda$null$29(List)
-+ Either lambda$null$33(LevelChunk)
-+ Either lambda$postProcess$30(Either)
-+ Either lambda$protoChunkToFullChunk$26(Either)
-+ Either lambda$unpackTicks$37(Either)
-+ int access$700(ServerPlayer,boolean)
-+ Integer lambda$dumpChunks$41(LevelChunk)
-+ LevelChunk lambda$null$36(ChunkAccess)
-+ Optional lambda$dumpChunks$40(ChunkAccess)
-+ void <init>(Supplier,int,boolean)
-+ void lambda$null$32(ServerPlayer)
-+ void lambda$postProcess$31(Runnable)
-+ void lambda$postProcess$34(Either)
-+ void lambda$postProcess$35(Runnable)
-+ void lambda$protoChunkToFullChunk$27(Runnable)
-+ void lambda$setViewDistance$39(ServerPlayer)
-+ void lambda$unpackTicks$38(Runnable)
-- ChunkAccess lambda$null$26(ChunkAccess)
-- ChunkHolder$FullChunkStatus lambda$null$25(ChunkHolder)
-- ChunkStatus lambda$prepareEntityTickingChunk$2(int)
-- ChunkStatus lambda$prepareTickingChunk$29(int)
-- CompletableFuture prepareAccessibleChunk(ChunkHolder)
-- CompletableFuture prepareEntityTickingChunk(ChunkPos)
-- CompletableFuture prepareTickingChunk(ChunkHolder)
-- DistanceManager getDistanceManager()
-- Either lambda$null$30(List)
-- Either lambda$prepareAccessibleChunk$38(Either)
-- Either lambda$prepareEntityTickingChunk$4(Either)
-- Either lambda$prepareTickingChunk$31(Either)
-- Either lambda$protoChunkToFullChunk$27(Either)
-- LevelChunk lambda$null$37(List)
-- Optional lambda$dumpChunks$41(ChunkAccess)
-- void <init>(Supplier,int,boolean)
-- void lambda$null$24(LevelChunk)
-- void lambda$null$33(ServerPlayer)
-- void lambda$null$34(LevelChunk)
-- void lambda$prepareAccessibleChunk$39(Runnable)
-- void lambda$prepareTickingChunk$32(Runnable)
-- void lambda$prepareTickingChunk$35(Either)
-- void lambda$prepareTickingChunk$36(Runnable)
-- void lambda$protoChunkToFullChunk$28(Runnable)
-- void lambda$setViewDistance$40(ServerPlayer)
-- void onFullChunkStatusChange(ChunkHolder$FullChunkStatus)
-- void postLoadProtoChunk(List)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DemoMode</summary>
-
-```diff
-+ void <init>(ServerLevel)
-- void <init>(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.Pack$PackConstructor</summary>
-
-```diff
-+ Pack create(java.lang.String,boolean,java.util.function.Supplier,net.minecraft.server.packs.PackResources,net.minecraft.server.packs.metadata.pack.PackMetadataSection,net.minecraft.server.packs.repository.Pack$Position,net.minecraft.server.packs.repository.PackSource)
-- Pack create(java.lang.String,net.minecraft.network.chat.Component,boolean,java.util.function.Supplier,net.minecraft.server.packs.metadata.pack.PackMetadataSection,net.minecraft.server.packs.repository.Pack$Position,net.minecraft.server.packs.repository.PackSource)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.PackCompatibility</summary>
-
-```diff
-+ PackCompatibility forFormat(int)
-- PackCompatibility forFormat(PackType)
-- PackCompatibility forMetadata(PackType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
-
-```diff
-- PackMetadataSection BUILT_IN_METADATA
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
-
-```diff
-+ ReloadInstance createFullReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-+ ReloadInstance createQueuedReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture)
-- ReloadInstance createReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
-
-```diff
-+ List recentlyRegistered
-+ Object lambda$createFullReload$0(List)
-+ ReloadInstance createFullReload(List)
-+ ReloadInstance createQueuedReload(CompletableFuture)
-+ ReloadInstance createReload(CompletableFuture)
-- Object lambda$createReload$0(List)
-- ReloadInstance createReload(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ GameType overrideGameMode
-+ void blackList(GameProfile)
-+ void setOverrideGameMode(GameType)
-+ void updatePlayerGameMode(ServerLevel)
-+ void whiteList(GameProfile)
-- void lambda$remove$1(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.players.ServerOpList</summary>
-
-```diff
-+ GameProfile find(String)
-+ int getOpLevel(GameProfile)
-- String[] lambda$getUserList$0(int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.players.UserBanList</summary>
-
-```diff
-+ GameProfile find(String)
-- String[] lambda$getUserList$0(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.players.UserWhiteList</summary>
-
-```diff
-+ GameProfile find(String)
-- String[] lambda$getUserList$0(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-- SoundEvent AMETHYST_BLOCK_BREAK
-- SoundEvent AMETHYST_BLOCK_CHIME
-- SoundEvent AMETHYST_BLOCK_FALL
-- SoundEvent AMETHYST_BLOCK_HIT
-- SoundEvent AMETHYST_BLOCK_PLACE
-- SoundEvent AMETHYST_BLOCK_STEP
-- SoundEvent AMETHYST_CLUSTER_BREAK
-- SoundEvent AMETHYST_CLUSTER_FALL
-- SoundEvent AMETHYST_CLUSTER_HIT
-- SoundEvent AMETHYST_CLUSTER_PLACE
-- SoundEvent AMETHYST_CLUSTER_STEP
-- SoundEvent AXOLOTL_ATTACK
-- SoundEvent AXOLOTL_DEATH
-- SoundEvent AXOLOTL_HURT
-- SoundEvent AXOLOTL_IDLE_AIR
-- SoundEvent AXOLOTL_IDLE_WATER
-- SoundEvent AXOLOTL_SPLASH
-- SoundEvent AXOLOTL_SWIM
-- SoundEvent BUCKET_EMPTY_AXOLOTL
-- SoundEvent BUCKET_EMPTY_POWDER_SNOW
-- SoundEvent BUCKET_FILL_AXOLOTL
-- SoundEvent BUCKET_FILL_POWDER_SNOW
-- SoundEvent CAKE_ADD_CANDLE
-- SoundEvent CALCITE_BREAK
-- SoundEvent CALCITE_FALL
-- SoundEvent CALCITE_HIT
-- SoundEvent CALCITE_PLACE
-- SoundEvent CALCITE_STEP
-- SoundEvent CANDLE_AMBIENT
-- SoundEvent CANDLE_BREAK
-- SoundEvent CANDLE_EXTINGUISH
-- SoundEvent CANDLE_FALL
-- SoundEvent CANDLE_HIT
-- SoundEvent CANDLE_PLACE
-- SoundEvent CANDLE_STEP
-- SoundEvent COPPER_BREAK
-- SoundEvent COPPER_FALL
-- SoundEvent COPPER_HIT
-- SoundEvent COPPER_PLACE
-- SoundEvent COPPER_STEP
-- SoundEvent DRIPSTONE_BLOCK_BREAK
-- SoundEvent DRIPSTONE_BLOCK_FALL
-- SoundEvent DRIPSTONE_BLOCK_HIT
-- SoundEvent DRIPSTONE_BLOCK_PLACE
-- SoundEvent DRIPSTONE_BLOCK_STEP
-- SoundEvent LARGE_AMETHYST_BUD_BREAK
-- SoundEvent LARGE_AMETHYST_BUD_PLACE
-- SoundEvent MEDIUM_AMETHYST_BUD_BREAK
-- SoundEvent MEDIUM_AMETHYST_BUD_PLACE
-- SoundEvent MINECART_INSIDE_UNDERWATER
-- SoundEvent PLAYER_HURT_FREEZE
-- SoundEvent POINTED_DRIPSTONE_BREAK
-- SoundEvent POINTED_DRIPSTONE_DRIP_LAVA
-- SoundEvent POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON
-- SoundEvent POINTED_DRIPSTONE_DRIP_WATER
-- SoundEvent POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON
-- SoundEvent POINTED_DRIPSTONE_FALL
-- SoundEvent POINTED_DRIPSTONE_HIT
-- SoundEvent POINTED_DRIPSTONE_LAND
-- SoundEvent POINTED_DRIPSTONE_PLACE
-- SoundEvent POINTED_DRIPSTONE_STEP
-- SoundEvent POWDER_SNOW_BREAK
-- SoundEvent POWDER_SNOW_FALL
-- SoundEvent POWDER_SNOW_HIT
-- SoundEvent POWDER_SNOW_PLACE
-- SoundEvent POWDER_SNOW_STEP
-- SoundEvent SCULK_CLICKING
-- SoundEvent SCULK_CLICKING_STOP
-- SoundEvent SCULK_SENSOR_BREAK
-- SoundEvent SCULK_SENSOR_FALL
-- SoundEvent SCULK_SENSOR_HIT
-- SoundEvent SCULK_SENSOR_PLACE
-- SoundEvent SCULK_SENSOR_STEP
-- SoundEvent SMALL_AMETHYST_BUD_BREAK
-- SoundEvent SMALL_AMETHYST_BUD_PLACE
-- SoundEvent SPYGLASS_STOP_USING
-- SoundEvent SPYGLASS_USE
-- SoundEvent TUFF_BREAK
-- SoundEvent TUFF_FALL
-- SoundEvent TUFF_HIT
-- SoundEvent TUFF_PLACE
-- SoundEvent TUFF_STEP
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.stats.StatType</summary>
-
-```diff
-+ int size()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-- Tag$Named CANDLE_CAKES
-- Tag$Named CANDLES
-- Tag$Named CAULDRONS
-- Tag$Named CRYSTAL_SOUND_BLOCKS
-- Tag$Named DRIPSTONE_REPLACEABLE
-- Tag$Named INSIDE_STEP_SOUND_BLOCKS
-- Tag$Named OCCLUDES_VIBRATION_SIGNALS
-+ List getWrappers()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.FluidTags</summary>
-
-```diff
-- List KNOWN_TAGS
-+ List getWrappers()
-- List getStaticTags()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.TagContainer</summary>
-
-```diff
-+ TagCollection getBlocks()
-+ TagCollection getEntityTypes()
-+ TagCollection getFluids()
-+ TagCollection getItems()
-- Logger LOGGER
-- Map collections
-+ TagContainer deserializeFromNetwork(FriendlyByteBuf)
-+ TagContainer of(TagCollection)
-+ void serializeToNetwork(FriendlyByteBuf)
-- Logger access$000()
-- Map serializeToNetwork(RegistryAccess)
-- ResourceLocation getIdOrThrow(Supplier)
-- Tag getTagOrThrow(Function)
-- TagCollection get(ResourceKey)
-- TagCollection getOrEmpty(ResourceKey)
-- TagContainer deserializeFromNetwork(Map)
-- void <init>(Map)
-- void <init>(TagContainer$1)
-- void acceptCap(TagCollection)
-- void addTagsFromPayload(TagCollection$NetworkPayload)
-- void getAll(TagContainer$CollectionConsumer)
-- void lambda$deserializeFromNetwork$1(TagCollection$NetworkPayload)
-- void lambda$getAll$0(TagCollection)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.TagLoader</summary>
-
-```diff
-+ String name
-+ boolean lambda$null$0(String)
-+ CompletableFuture prepare(Executor)
-+ Map lambda$prepare$2(ResourceManager)
-+ Object lambda$load$3(ResourceLocation)
-+ Tag$Builder lambda$null$1(ResourceLocation)
-+ TagCollection load(Map)
-+ void <init>(String)
-+ void lambda$load$4(Tag$Builder)
-- boolean isCyclic(ResourceLocation)
-- boolean lambda$isCyclic$3(ResourceLocation)
-- boolean lambda$load$0(String)
-- Map load(ResourceManager)
-- Object lambda$build$4(ResourceLocation)
-- Tag$Builder lambda$load$1(ResourceLocation)
-- TagCollection build(Map)
-- TagCollection loadAndBuild(ResourceManager)
-- void <init>(String)
-- void addDependencyIfNotCyclic(ResourceLocation)
-- void lambda$build$12(ResourceLocation)
-- void lambda$build$6(Tag$Builder)
-- void lambda$build$8(Tag$Builder)
-- void lambda$null$10(Tag)
-- void lambda$null$11(Tag$Builder)
-- void lambda$null$5(ResourceLocation)
-- void lambda$null$7(ResourceLocation)
-- void lambda$null$9(Collection)
-- void lambda$visitDependenciesAndElement$2(ResourceLocation)
-- void visitDependenciesAndElement(BiConsumer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.JigsawRotationFix</summary>
-
-```diff
-+ Map renames
-- Map RENAMES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V99</summary>
-
-```diff
-+ Dynamic lambda$addNames$35(Dynamic)
-+ Dynamic lambda$null$33(Dynamic)
-+ Dynamic lambda$null$34(Dynamic)
-+ void lambda$static$32(HashMap)
-- Dynamic lambda$addNames$36(Dynamic)
-- Dynamic lambda$null$34(Dynamic)
-- Dynamic lambda$null$35(Dynamic)
-- TypeTemplate lambda$registerTypes$32(Schema)
-- void lambda$static$33(HashMap)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Difficulty</summary>
-
-```diff
-+ Difficulty nextById()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-- boolean damageHelmet
-- DamageSource FALLING_STALACTITE
-- DamageSource FREEZE
-- boolean isDamageHelmet()
-- DamageSource damageHelmet()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
-
-```diff
-+ boolean splash
-+ void setSplash(boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean forceChunkAddition
-+ boolean forcedLoading
-+ boolean inChunk
-+ boolean movedSinceLastChunkCheck
-+ boolean removed
-+ int xChunk
-+ int yChunk
-+ int zChunk
-+ List passengers
-- boolean bodyIsInPowderSnow
-- Entity$RemovalReason removalReason
-- EntityDataAccessor DATA_TICKS_FROZEN
-- EntityInLevelCallback levelCallback
-- float crystalSoundIntensity
-- ImmutableList passengers
-- int lastCrystalSoundPlayTick
-+ boolean checkAndResetForcedChunkAdditionFlag()
-+ boolean checkAndResetUpdateChunkPos()
-+ boolean hasOnePlayerPassenger()
-+ boolean hasPassenger(Class)
-+ boolean lambda$null$3(BlockPos)
-+ boolean setSlot(ItemStack)
-+ Collection getIndirectPassengers()
-+ PortalInfo lambda$findDimensionEntryPoint$4(BlockUtil$FoundRectangle)
-+ String lambda$fillCrashReportCategory$5()
-+ Style lambda$getDisplayName$9(Style)
-+ void burn(int)
-+ void fillIndirectPassengers(Set)
-+ void lambda$teleportTo$10(Entity)
-+ void remove()
-+ void setDropContainerContent(boolean)
-+ void setLevel(Level)
-- boolean canFreeze()
-- boolean hasExactlyOnePlayerPassenger()
-- boolean hasPassenger(Predicate)
-- boolean isAlwaysTicking()
-- boolean isFullyFrozen()
-- boolean isRemoved()
-- boolean lambda$hasExactlyOnePlayerPassenger$13(Entity)
-- boolean lambda$hasIndirectPassenger$14(Entity)
-- boolean lambda$null$4(BlockPos)
-- boolean lambda$removePassenger$3(Entity)
-- boolean occludesVibrations()
-- boolean shouldBeSaved()
-- ChunkPos chunkPosition()
-- Entity getFirstPassenger()
-- Entity$RemovalReason getRemovalReason()
-- float getPercentFrozen()
-- GameEventListenerRegistrar getGameEventListenerRegistrar()
-- int getBlockX()
-- int getBlockY()
-- int getBlockZ()
-- int getTicksFrozen()
-- int getTicksRequiredToFreeze()
-- ItemStack getPickResult()
-- Iterable getIndirectPassengers()
-- Iterator lambda$getIndirectPassengers$12()
-- PortalInfo lambda$findDimensionEntryPoint$5(BlockUtil$FoundRectangle)
-- SlotAccess getSlot(int)
-- Stream getIndirectPassengersStream()
-- Stream getPassengersAndSelf()
-- String lambda$fillCrashReportCategory$9()
-- Style lambda$getDisplayName$10(Style)
-- void checkOutOfWorld()
-- void discard()
-- void gameEvent(GameEvent)
-- void gameEvent(GameEvent)
-- void lambda$teleportTo$11(Entity)
-- void recreateFromPacket(ClientboundAddEntityPacket)
-- void remove(Entity$RemovalReason)
-- void setBodyIsInPowderSnow(boolean)
-- void setLevelCallback(EntityInLevelCallback)
-- void setRemoved(Entity$RemovalReason)
-- void setTicksFrozen(int)
-- void unsetRemoved()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
-
-```diff
-- int getIndex(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
-
-```diff
-+ int followingTime
-+ int throwTime
-+ int tickCount
-- int count
-+ void burn(int)
-- boolean canMerge(ExperienceOrb,int,int)
-- boolean canMerge(ExperienceOrb)
-- boolean lambda$tryMergeToExisting$0(ExperienceOrb)
-- boolean tryMergeToExisting(Vec3,int)
-- SoundSource getSoundSource()
-- void award(Vec3,int)
-- void merge(ExperienceOrb)
-- void scanForEntities()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ Iterable getHandSlots()
-- UUID SPEED_MODIFIER_POWDER_SNOW_UUID
-+ boolean lambda$isHolding$5(Item)
-- boolean canBeTargeted()
-- boolean canFreeze()
-- boolean lambda$createEquipmentSlotAccess$11(ItemStack)
-- boolean lambda$isHolding$5(ItemStack)
-- EquipmentSlot getEquipmentSlot(int)
-- EquipmentSlot getEquipmentSlotForItem(ItemStack)
-- SlotAccess createEquipmentSlotAccess(EquipmentSlot)
-- SlotAccess getSlot(int)
-- void removeFrost()
-- void tryAddFrost()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ boolean isValidSlotForItem(ItemStack)
-+ boolean setSlot(ItemStack)
-+ EquipmentSlot getEquipmentSlotForItem(ItemStack)
-- double getMeleeAttackRangeSqr(LivingEntity)
-- ItemStack getPickResult()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.NeutralMob</summary>
-
-```diff
-+ void readPersistentAngerSaveData(CompoundTag)
-- void readPersistentAngerSaveData(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
-
-```diff
-+ float getJumpRidingScale()
-+ void setJumpRidingScale(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
-
-```diff
-+ boolean isWithinMeleeAttackRange(LivingEntity)
-+ boolean lambda$null$5(LivingEntity)
-+ LivingEntity lambda$getLivingEntityFromUUIDMemory$4(UUID)
-+ Stream lambda$getNearbyVillagersWithCondition$7(List)
-+ Villager lambda$null$6(LivingEntity)
-- boolean isWithinMeleeAttackRange(LivingEntity)
-- boolean lambda$null$6(LivingEntity)
-- Entity lambda$getLivingEntityFromUUIDMemory$4(UUID)
-- LivingEntity lambda$getLivingEntityFromUUIDMemory$5(Entity)
-- Stream lambda$getNearbyVillagersWithCondition$8(List)
-- Vec3 getRandomSwimmablePos(PathfinderMob,int,int)
-- Villager lambda$null$7(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GiveGiftToHero</summary>
-
-```diff
-+ Map gifts
-- Map GIFTS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
-
-```diff
-- Vec3 getTargetPos(PathfinderMob)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerMakeLove</summary>
-
-```diff
-+ boolean lambda$isBreedingPossible$0(AgableMob)
-- boolean lambda$isBreedingPossible$0(AgeableMob)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor</summary>
-
-```diff
-+ int compareMobDistance(LivingEntity)
-+ int lambda$null$1(LivingEntity)
-+ Optional getVisibleEntities(LivingEntity)
-+ Optional lambda$getNearestHostile$2(List)
-+ Set requires()
-+ void doTick(LivingEntity)
-- Optional lambda$getNearestHostile$1(List)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EndCrystal</summary>
-
-```diff
-- ItemStack getPickResult()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ArmorStand</summary>
-
-```diff
-+ boolean setSlot(ItemStack)
-- ItemStack getPickResult()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ boolean setSlot(ItemStack)
-- ItemStack getPickResult()
-- SlotAccess getSlot(int)
-- void recreateFromPacket(ClientboundAddEntityPacket)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner</summary>
-
-```diff
-- Runnable ticker
-- Runnable createTicker(Level)
-- void lambda$createTicker$0(Level)
-- void lambda$createTicker$1(Level)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
-
-```diff
-+ void handlePlacement(ServerPlayer)
-- boolean shouldMoveToInventory(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
-
-```diff
-- SoundEvent getEquipSound()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BlockItem</summary>
-
-```diff
-- boolean canFitInsideContainerItems()
-- void onDestroyed(ItemEntity)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeColor</summary>
-
-```diff
-+ int textureDiffuseColor
-+ int textureDiffuseColorBGR
-+ int getTextureDiffuseColorBGR()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.ElytraItem</summary>
-
-```diff
-- SoundEvent getEquipSound()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.EmptyBlockGetter</summary>
-
-```diff
-- int getHeight()
-- int getMinBuildHeight()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.ForcedChunksSavedData</summary>
-
-```diff
-+ void load(CompoundTag)
-- ForcedChunksSavedData load(CompoundTag)
-- void <init>(LongSet)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ boolean updatingBlockEntities
-+ List blockEntitiesToUnload
-+ List blockEntityList
-+ List pendingBlockEntities
-+ List tickableBlockEntities
-+ void setMapData(net.minecraft.world.level.saveddata.maps.MapItemSavedData)
-- boolean tickingBlockEntities
-- LevelEntityGetter getEntities()
-- List blockEntityTickers
-- List pendingBlockEntityTickers
-- String gatherChunkSourceStats()
-- void setMapData(java.lang.String,net.minecraft.world.level.saveddata.maps.MapItemSavedData)
-+ BlockEntity getPendingBlockEntityAt(BlockPos)
-+ BlockState getTopBlockState(BlockPos)
-+ boolean addBlockEntity(BlockEntity)
-+ boolean isOutsideBuildHeight(BlockPos)
-+ boolean isOutsideBuildHeight(int)
-+ List getEntities(Predicate)
-+ List getEntitiesOfClass(Predicate)
-+ List getLoadedEntitiesOfClass(Predicate)
-+ Object lambda$addBlockEntity$1(BlockEntity)
-+ String gatherChunkSourceStats()
-+ String lambda$tickBlockEntities$2(BlockEntity)
-+ void addAllPendingBlockEntities(Collection)
-+ void blockEntityChanged(BlockEntity)
-+ void setBlockEntity(BlockEntity)
-- List getEntities(Predicate)
-- void addBlockEntityTicker(TickingBlockEntity)
-- void addDestroyBlockEffect(BlockState)
-- void blockEntityChanged(BlockPos)
-- void lambda$getEntities$1(Entity)
-- void lambda$getEntities$2(Entity)
-- void postGameEventInRadius(BlockPos,int)
-- void setBlockEntity(BlockEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.LevelAccessor</summary>
-
-```diff
-- void gameEvent(net.minecraft.world.entity.Entity,net.minecraft.world.level.gameevent.GameEvent,net.minecraft.core.BlockPos)
-+ int getHeight()
-- int getLogicalHeight()
-- void gameEvent(BlockPos)
-- void gameEvent(Entity)
-- void gameEvent(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ void onBroken(FallingBlockEntity)
-- DamageSource getFallDamageSource()
-- void onBrokenAfterFall(FallingBlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
-
-```diff
-- BooleanProperty WATERLOGGED
-- BlockState updateShape(BlockPos)
-- FluidState getFluidState(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BellBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BlastFurnaceBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
-
-```diff
-+ Fluid takeLiquid(BlockState)
-- ItemStack pickupBlock(BlockState)
-- Optional getPickupSound()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
-
-```diff
-+ void setOpen(BlockPos,boolean)
-- void setOpen(BlockPos,boolean)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DropperBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EndGatewayBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FurnaceBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
-
-```diff
-+ boolean canAttachToBlock(Block)
-- boolean canAttachTo(BlockState)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
-
-```diff
-- boolean canAttachTo(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SimpleWaterloggedBlock</summary>
-
-```diff
-+ Fluid takeLiquid(BlockState)
-- ItemStack pickupBlock(BlockState)
-- Optional getPickupSound()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SmokerBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.SoulFireBlock</summary>
-
-```diff
-+ boolean canSurviveOnBlock(Block)
-- boolean canSurviveOnBlock(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
-
-```diff
-- SoundType AMETHYST
-- SoundType AMETHYST_CLUSTER
-- SoundType CALCITE
-- SoundType CANDLE
-- SoundType COPPER
-- SoundType DRIPSTONE_BLOCK
-- SoundType LARGE_AMETHYST_BUD
-- SoundType MEDIUM_AMETHYST_BUD
-- SoundType POINTED_DRIPSTONE
-- SoundType POWDER_SNOW
-- SoundType SCULK_SENSOR
-- SoundType SMALL_AMETHYST_BUD
-- SoundType TUFF
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.StairBlock</summary>
-
-```diff
-+ void prepareRender(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BeaconBlockEntity</summary>
-
-```diff
-+ int getLevels()
-+ void <init>()
-+ void applyEffects()
-+ void load(CompoundTag)
-+ void playSound(SoundEvent)
-+ void tick()
-+ void updateBase(int,int,int)
-- int updateBase(Level,int,int,int)
-- void <init>(BlockState)
-- void applyEffects(MobEffect)
-- void load(CompoundTag)
-- void playSound(SoundEvent)
-- void setLevel(Level)
-- void tick(BeaconBlockEntity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
-
-```diff
-+ boolean releaseOccupant(BeehiveBlockEntity$BeeReleaseStatus)
-+ void <init>()
-+ void load(CompoundTag)
-+ void sendDebugPackets()
-+ void tick()
-+ void tickOccupants()
-- boolean releaseOccupant(BlockPos)
-- void <init>(BlockState)
-- void load(CompoundTag)
-- void serverTick(BeehiveBlockEntity)
-- void tickOccupants(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.BellBlockEntity</summary>
-
-```diff
-+ boolean areRaidersNearby()
-+ boolean isRaiderWithinRange(LivingEntity)
-+ boolean lambda$showBellParticles$0(LivingEntity)
-+ void <init>()
-+ void lambda$showBellParticles$1(LivingEntity)
-+ void makeRaidersGlow(Level)
-+ void playResonateSound()
-+ void showBellParticles(Level)
-+ void tick()
-- boolean areRaidersNearby(List)
-- boolean isRaiderWithinRange(LivingEntity)
-- boolean lambda$makeRaidersGlow$0(LivingEntity)
-- boolean lambda$showBellParticles$1(LivingEntity)
-- boolean lambda$showBellParticles$2(LivingEntity)
-- void <init>(BlockState)
-- void clientTick(BellBlockEntity)
-- void lambda$showBellParticles$3(LivingEntity)
-- void makeRaidersGlow(List)
-- void serverTick(BellBlockEntity)
-- void showBellParticles(List)
-- void tick(BellBlockEntity$ResonationEndAction)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.DaylightDetectorBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void tick()
-- void <init>(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.DropperBlockEntity</summary>
-
-```diff
-+ void <init>()
-- void <init>(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.EnderChestBlockEntity</summary>
-
-```diff
-+ float oOpenness
-+ float openness
-+ int openCount
-+ int tickInterval
-- ChestLidController chestLidController
-- ContainerOpenersCounter openersCounter
-+ void <init>()
-+ void setRemoved()
-+ void startOpen()
-+ void stopOpen()
-+ void tick()
-- void <init>(BlockState)
-- void lidAnimateTick(EnderChestBlockEntity)
-- void recheckOpen()
-- void startOpen(Player)
-- void stopOpen(Player)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
-
-```diff
-+ boolean loadColorFromBlock
-+ AABB getBoundingBox(Direction)
-+ AABB getTopBoundingBox(Direction)
-+ void <init>()
-+ void <init>(DyeColor)
-+ void doNeighborUpdates()
-+ void load(CompoundTag)
-+ void moveCollidedEntities()
-+ void tick()
-+ void updateAnimation()
-- AABB getBoundingBox(Direction,float)
-- AABB getTopBoundingBox(Direction,float)
-- void <init>(BlockState)
-- void <init>(BlockState)
-- void doNeighborUpdates(BlockState)
-- void load(CompoundTag)
-- void moveCollidedEntities(BlockState,float)
-- void tick(ShulkerBoxBlockEntity)
-- void updateAnimation(ShulkerBoxBlockEntity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void load(CompoundTag)
-+ void tick()
-- void <init>(BlockState)
-- void dragonHeadAnimation(SkullBlockEntity)
-- void load(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void load(CompoundTag)
-+ void tick()
-- void <init>(BlockState)
-- void clientTick(SpawnerBlockEntity)
-- void load(CompoundTag)
-- void serverTick(SpawnerBlockEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
-
-```diff
-+ Component getDisplayName()
-+ void <init>()
-+ void load(CompoundTag)
-+ void nextMode()
-- void <init>(BlockState)
-- void load(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-+ LevelLightEngine getLightEngine()
-+ void setBlockEntity(BlockEntity)
-+ void setLastSaveTime(long)
-- void setBlockEntity(BlockEntity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.OldChunkStorage</summary>
-
-```diff
-- LevelHeightAccessor OLD_LEVEL_HEIGHT
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-- NoiseColumn getBaseColumn(int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-- NoiseColumn getBaseColumn(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
-
-```diff
-+ BlockGetter lambda$findSuitableY$0(BlockPos)
-+ int randomIntInclusive(Random,int,int)
-- NoiseColumn lambda$findSuitableY$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.Material</summary>
-
-```diff
-- Material AMETHYST
-- Material POWDER_SNOW
-- Material SCULK
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.material.WaterFluid</summary>
-
-```diff
-- Optional getPickupSound()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.newbiome.context.BigContext</summary>
-
-```diff
-+ long getMixedSeed()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.newbiome.context.LazyAreaContext</summary>
-
-```diff
-+ long getMixedSeed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer</summary>
-
-```diff
-- boolean dirtyDecorations
-+ Packet nextUpdatePacket(ItemStack)
-+ void markDirty(int,int)
-- MapItemSavedData$MapPatch createPatch()
-- Packet access$200(MapItemSavedData$HoldingPlayer,int)
-- Packet nextUpdatePacket(int)
-- void <init>(MapItemSavedData$1)
-- void access$300(MapItemSavedData$HoldingPlayer,int,int)
-- void access$400(MapItemSavedData$HoldingPlayer)
-- void markColorsDirty(int,int)
-- void markDecorationsDirty()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.CommandStorage$Container</summary>
-
-```diff
-+ void <init>(String)
-+ void load(CompoundTag)
-- CommandStorage$Container access$100(CompoundTag)
-- CommandStorage$Container load(CompoundTag)
-- void <init>()
-- void <init>(CommandStorage$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.DimensionDataStorage</summary>
-
-```diff
-+ SavedData computeIfAbsent(String)
-+ SavedData get(String)
-+ SavedData readSavedData(String)
-+ void set(SavedData)
-- SavedData computeIfAbsent(String)
-- SavedData get(String)
-- SavedData readSavedData(String)
-- void lambda$save$0(SavedData)
-- void set(SavedData)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
-
-```diff
-+ void <init>(Lifecycle)
-+ void fillCrashReportCategory(CrashReportCategory)
-- void <init>(Lifecycle)
-- void fillCrashReportCategory(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction</summary>
-
-```diff
-+ CopyNbtFunction$DataSource source
-+ Function BLOCK_ENTITY_GETTER
-+ Function ENTITY_GETTER
-- NbtProvider source
-+ CopyNbtFunction$Builder copyData(CopyNbtFunction$DataSource)
-+ CopyNbtFunction$DataSource access$800(CopyNbtFunction)
-+ Function access$600()
-+ Function access$700()
-+ List access$900(CopyNbtFunction)
-+ Tag lambda$static$1(BlockEntity)
-+ void <clinit>()
-+ void <init>(CopyNbtFunction$1)
-+ void <init>(List)
-- CopyNbtFunction$Builder copyData(LootContext$EntityTarget)
-- CopyNbtFunction$Builder copyData(NbtProvider)
-- List access$700(CopyNbtFunction)
-- NbtProvider access$600(CopyNbtFunction)
-- void <init>(CopyNbtFunction$1)
-- void <init>(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Builder</summary>
-
-```diff
-+ CopyNbtFunction$DataSource source
-- NbtProvider source
-+ void <init>(CopyNbtFunction$1)
-+ void <init>(CopyNbtFunction$DataSource)
-- void <init>(CopyNbtFunction$1)
-- void <init>(NbtProvider)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
-
-```diff
-- VoxelShape create(double,double,double,double,double,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.phys.shapes.VoxelShape</summary>
-
-```diff
-+ boolean isFullWide(double,double,double)
-+ boolean lambda$findIndex$4(Direction$Axis,double,int)
-- boolean lambda$findIndex$4(Direction$Axis,int)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer
@@ -8963,220 +3327,1055 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.DetectedVersion</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ int packVersion
-- int dataPackVersion
-- int resourcePackVersion
-+ int getPackVersion()
-- int getPackVersion(PackType)
+- Logger access$200()
+- RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode,int)
++ void drawArrays(int,int,int)
+- void drawElements(int,int,int)
++ void lambda$activeTexture$22(int)
+- void lambda$activeTexture$23(int)
++ void lambda$alphaFunc$0(int,float)
+- void lambda$alphaFunc$1(int,float)
++ void lambda$bindTexture$25(int)
+- void lambda$bindTexture$26(int)
++ void lambda$blendColor$11(float,float,float,float)
+- void lambda$blendColor$12(float,float,float,float)
++ void lambda$blendEquation$10(int)
+- void lambda$blendEquation$11(int)
++ void lambda$blendFunc$6(GlStateManager$SourceFactor,GlStateManager$DestFactor)
+- void lambda$blendFunc$7(GlStateManager$SourceFactor,GlStateManager$DestFactor)
++ void lambda$blendFunc$7(int,int)
+- void lambda$blendFunc$8(int,int)
+- void lambda$blendFuncSeparate$10(int,int,int,int)
++ void lambda$blendFuncSeparate$8(GlStateManager$SourceFactor,GlStateManager$DestFactor,GlStateManager$SourceFactor,GlStateManager$DestFactor)
+- void lambda$blendFuncSeparate$9(GlStateManager$SourceFactor,GlStateManager$DestFactor,GlStateManager$SourceFactor,GlStateManager$DestFactor)
++ void lambda$blendFuncSeparate$9(int,int,int,int)
++ void lambda$clear$35(int,boolean)
+- void lambda$clear$36(int,boolean)
++ void lambda$clearColor$33(float,float,float,float)
+- void lambda$clearColor$34(float,float,float,float)
++ void lambda$clearDepth$32(double)
+- void lambda$clearDepth$33(double)
++ void lambda$clearStencil$34(int)
+- void lambda$clearStencil$35(int)
++ void lambda$color3f$45(float,float,float)
+- void lambda$color3f$46(float,float,float)
++ void lambda$color4f$44(float,float,float,float)
+- void lambda$color4f$45(float,float,float,float)
++ void lambda$colorMask$28(boolean,boolean,boolean,boolean)
+- void lambda$colorMask$29(boolean,boolean,boolean,boolean)
++ void lambda$colorMaterial$1(int,int)
+- void lambda$colorMaterial$2(int,int)
++ void lambda$deleteTexture$24(int)
+- void lambda$deleteTexture$25(int)
++ void lambda$depthFunc$4(int)
+- void lambda$depthFunc$5(int)
++ void lambda$depthMask$5(boolean)
+- void lambda$depthMask$6(boolean)
++ void lambda$drawArrays$46(int,int,int)
+- void lambda$drawElements$47(int,int,int)
++ void lambda$enableScissor$3(int,int,int,int)
+- void lambda$enableScissor$4(int,int,int,int)
++ void lambda$fog$17(int,float,float,float,float)
+- void lambda$fog$18(int,float,float,float,float)
++ void lambda$fogDensity$14(float)
+- void lambda$fogDensity$15(float)
++ void lambda$fogEnd$16(float)
+- void lambda$fogEnd$17(float)
++ void lambda$fogi$18(int,int)
+- void lambda$fogi$19(int,int)
++ void lambda$fogMode$12(GlStateManager$FogMode)
+- void lambda$fogMode$13(GlStateManager$FogMode)
++ void lambda$fogMode$13(int)
+- void lambda$fogMode$14(int)
++ void lambda$fogStart$15(float)
+- void lambda$fogStart$16(float)
++ void lambda$getString$51(int,Consumer)
+- void lambda$getString$52(int,Consumer)
++ void lambda$glBindBuffer$54(int,Supplier)
+- void lambda$glBindBuffer$55(int,Supplier)
++ void lambda$glDeleteBuffers$55(int)
+- void lambda$glDeleteBuffers$56(int)
++ void lambda$glGenBuffers$72(Consumer)
+- void lambda$glGenBuffers$73(Consumer)
++ void lambda$glMultiTexCoord2f$53(int,float,float)
+- void lambda$glMultiTexCoord2f$54(int,float,float)
++ void lambda$glUniform1$57(int,IntBuffer)
+- void lambda$glUniform1$58(int,IntBuffer)
++ void lambda$glUniform1$61(int,FloatBuffer)
+- void lambda$glUniform1$62(int,FloatBuffer)
++ void lambda$glUniform1i$56(int,int)
+- void lambda$glUniform1i$57(int,int)
++ void lambda$glUniform2$58(int,IntBuffer)
+- void lambda$glUniform2$59(int,IntBuffer)
++ void lambda$glUniform2$62(int,FloatBuffer)
+- void lambda$glUniform2$63(int,FloatBuffer)
++ void lambda$glUniform3$59(int,IntBuffer)
+- void lambda$glUniform3$60(int,IntBuffer)
++ void lambda$glUniform3$63(int,FloatBuffer)
+- void lambda$glUniform3$64(int,FloatBuffer)
++ void lambda$glUniform4$60(int,IntBuffer)
+- void lambda$glUniform4$61(int,IntBuffer)
++ void lambda$glUniform4$64(int,FloatBuffer)
+- void lambda$glUniform4$65(int,FloatBuffer)
++ void lambda$glUniformMatrix2$65(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix2$66(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix3$66(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix3$67(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix4$67(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix4$68(int,boolean,FloatBuffer)
++ void lambda$lineWidth$47(float)
+- void lambda$lineWidth$48(float)
++ void lambda$logicOp$21(GlStateManager$LogicOp)
+- void lambda$logicOp$22(GlStateManager$LogicOp)
++ void lambda$matrixMode$36(int)
+- void lambda$matrixMode$37(int)
++ void lambda$multMatrix$43(Matrix4f)
+- void lambda$multMatrix$44(Matrix4f)
++ void lambda$normal3f$2(float,float,float)
+- void lambda$normal3f$3(float,float,float)
++ void lambda$ortho$37(double,double,double,double,double,double)
+- void lambda$ortho$38(double,double,double,double,double,double)
++ void lambda$pixelStore$48(int,int)
+- void lambda$pixelStore$49(int,int)
++ void lambda$pixelTransfer$49(int,float)
+- void lambda$pixelTransfer$50(int,float)
++ void lambda$polygonMode$19(int,int)
+- void lambda$polygonMode$20(int,int)
++ void lambda$polygonOffset$20(float,float)
+- void lambda$polygonOffset$21(float,float)
++ void lambda$readPixels$50(int,int,int,int,int,int,ByteBuffer)
+- void lambda$readPixels$51(int,int,int,int,int,int,ByteBuffer)
++ void lambda$renderCrosshair$52(int)
+- void lambda$renderCrosshair$53(int)
++ void lambda$rotatef$38(float,float,float,float)
+- void lambda$rotatef$39(float,float,float,float)
++ void lambda$scaled$40(double,double,double)
+- void lambda$scaled$41(double,double,double)
++ void lambda$scalef$39(float,float,float)
+- void lambda$scalef$40(float,float,float)
++ void lambda$setupGui3DDiffuseLighting$71(Vector3f,Vector3f)
+- void lambda$setupGui3DDiffuseLighting$72(Vector3f,Vector3f)
++ void lambda$setupGuiFlatDiffuseLighting$70(Vector3f,Vector3f)
+- void lambda$setupGuiFlatDiffuseLighting$71(Vector3f,Vector3f)
++ void lambda$setupLevelDiffuseLighting$69(Vector3f,Vector3f,Matrix4f)
+- void lambda$setupLevelDiffuseLighting$70(Vector3f,Vector3f,Matrix4f)
++ void lambda$setupOverlayColor$68(IntSupplier,int)
+- void lambda$setupOverlayColor$69(IntSupplier,int)
++ void lambda$shadeModel$26(int)
+- void lambda$shadeModel$27(int)
+- void lambda$static$0(IntConsumer,int)
++ void lambda$stencilFunc$29(int,int,int)
+- void lambda$stencilFunc$30(int,int,int)
++ void lambda$stencilMask$30(int)
+- void lambda$stencilMask$31(int)
++ void lambda$stencilOp$31(int,int,int)
+- void lambda$stencilOp$32(int,int,int)
++ void lambda$texParameter$23(int,int,int)
+- void lambda$texParameter$24(int,int,int)
++ void lambda$translated$42(double,double,double)
+- void lambda$translated$43(double,double,double)
++ void lambda$translatef$41(float,float,float)
+- void lambda$translatef$42(float,float,float)
++ void lambda$viewport$27(int,int,int,int)
+- void lambda$viewport$28(int,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+<details><summary>com.mojang.math.Matrix4f</summary>
 
 ```diff
-+ boolean lambda$trigger$1(BeeNestDestroyedTrigger$TriggerInstance)
-+ void trigger(ItemStack,int)
-- boolean lambda$trigger$1(BeeNestDestroyedTrigger$TriggerInstance)
-- void trigger(ItemStack,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
-
-```diff
-- IllegalStateException lambda$serializeToJson$1()
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-+ void trigger(AgableMob)
-- void trigger(AgeableMob)
+- void multiplyWithTranslation(float,float,float)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-+ boolean lambda$trigger$0(ConstructBeaconTrigger$TriggerInstance)
-+ void trigger(BeaconBlockEntity)
-- boolean lambda$trigger$0(ConstructBeaconTrigger$TriggerInstance)
-- void trigger(ServerPlayer,int)
++ boolean access$7800(RealmsMainScreen)
++ boolean access$7802(RealmsMainScreen,boolean)
+- boolean access$8000(RealmsMainScreen)
+- boolean access$8002(RealmsMainScreen,boolean)
+- Component access$7600()
+- Component access$7700()
++ int access$8200(RealmsMainScreen)
++ int access$8300(RealmsMainScreen)
+- int access$8400(RealmsMainScreen)
+- int access$8500(RealmsMainScreen)
++ Minecraft access$8500(RealmsMainScreen)
+- Minecraft access$8700(RealmsMainScreen)
++ ResourceLocation access$8400()
+- ResourceLocation access$8600()
++ String access$8000(RealmsMainScreen)
+- String access$8200(RealmsMainScreen)
++ void access$7600(RealmsMainScreen,PoseStack,int,int,int,int,boolean,boolean)
++ void access$7700(RealmsMainScreen,Button)
+- void access$7800(RealmsMainScreen,PoseStack,int,int,int,int,boolean,boolean)
+- void access$7900(RealmsMainScreen,Button)
++ void access$7900(RealmsMainScreen,PoseStack,int,int,boolean,int,int,boolean,boolean)
+- void access$8100(RealmsMainScreen,PoseStack,int,int,boolean,int,int,boolean,boolean)
++ void access$8100(RealmsMainScreen,PoseStack,int,int,int,int,boolean)
+- void access$8300(RealmsMainScreen,PoseStack,int,int,int,int,boolean)
++ void access$8600(RealmsMainScreen)
+- void access$8800(RealmsMainScreen)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
 
 ```diff
-- IllegalStateException lambda$serializeToJson$1()
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ RealmsServer access$8700(RealmsMainScreen$ServerEntry)
+- RealmsServer access$8900(RealmsMainScreen$ServerEntry)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
 
 ```diff
-- IllegalStateException lambda$serializeToJson$3()
-- JsonSyntaxException lambda$fromJson$2(ResourceLocation)
+- void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandFunction$Entry</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
 
 ```diff
-+ void execute(net.minecraft.server.ServerFunctionManager,net.minecraft.commands.CommandSourceStack,java.util.ArrayDeque,int)
-- void execute(net.minecraft.server.ServerFunctionManager,net.minecraft.commands.CommandSourceStack,java.util.Deque,int)
+- void access$600(RealmsResetWorldScreen,PoseStack,int,int,Component,ResourceLocation,boolean,boolean)
++ void access$900(RealmsResetWorldScreen,PoseStack,int,int,Component,ResourceLocation,boolean,boolean)
++ void callback(WorldTemplate)
+- void generationSelectionCallback(WorldGenerationInfo)
+- void lambda$generationSelectionCallback$8(WorldGenerationInfo)
++ void lambda$switchSlot$7()
+- void lambda$templateSelectionCallback$7(WorldTemplate)
++ void resetWorld(RealmsResetWorldScreen$ResetWorldInfo)
+- void resetWorld(Runnable)
++ void resetWorld(String,WorldTemplate,int,boolean)
++ void resetWorldWithTemplate(WorldTemplate)
+- void startTask(LongRunningTask)
++ void switchSlot()
+- void templateSelectionCallback(WorldTemplate)
++ void triggerResetWorld(RealmsResetWorldScreen$ResetWorldInfo)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockMath</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
 
 ```diff
-+ EnumMap vanillaUvTransformGlobalToLocal
-+ EnumMap vanillaUvTransformLocalToGlobal
-- Map VANILLA_UV_TRANSFORM_GLOBAL_TO_LOCAL
-- Map VANILLA_UV_TRANSFORM_LOCAL_TO_GLOBAL
++ boolean keyPressed(int,int,int)
+- void <init>(Consumer,RealmsServer$WorldType,WorldTemplatePaginatedList)
+- void <init>(Consumer,RealmsServer$WorldType)
++ void <init>(RealmsScreenWithCallback,RealmsServer$WorldType,WorldTemplatePaginatedList)
++ void <init>(RealmsScreenWithCallback,RealmsServer$WorldType)
++ void backButtonClicked()
+- void onClose()
 ```
 
 </details>
 
 
+<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
+
+```diff
+- CompletableFuture scheduleResourcePackDownload(RealmsServerAddress)
+- RealmsLongConfirmationScreen resourcePackDownloadConfirmationScreen(RealmsServerAddress,Function)
+- RealmsLongRunningMcoTaskScreen connectScreen(RealmsServerAddress)
+- RealmsServerAddress fetchServerAddress()
+- void lambda$null$0(Function,RealmsServerAddress)
++ Void lambda$null$0(Throwable)
++ void lambda$null$1(RealmsServerAddress)
+- Void lambda$null$1(Throwable)
+- void lambda$resourcePackDownloadConfirmationScreen$2(RealmsServerAddress,Function,boolean)
++ void lambda$run$2(RealmsServerAddress,boolean)
++ void sleep(int)
+```
+
+</details>
 
 
-<details><summary>net.minecraft.core.BlockSource</summary>
+<details><summary>net.minecraft.CrashReportCategory</summary>
+
+```diff
++ String formatLocation(BlockPos)
++ String formatLocation(double,double,double)
++ String formatLocation(int,int,int)
+- String formatLocation(LevelHeightAccessor,BlockPos)
+- String formatLocation(LevelHeightAccessor,double,double,double)
+- String formatLocation(LevelHeightAccessor,int,int,int)
++ String lambda$populateBlockDetails$0(BlockPos)
+- String lambda$populateBlockDetails$0(LevelHeightAccessor,BlockPos)
++ void populateBlockDetails(CrashReportCategory,BlockPos,BlockState)
+- void populateBlockDetails(CrashReportCategory,LevelHeightAccessor,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
+- DataResult fixedSize(DoubleStream,int)
+- Object getRandom(List,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
+
+```diff
++ boolean matches(Block,ItemStack,int)
+- boolean matches(BlockState,ItemStack,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
+
+```diff
++ boolean matches(BeaconBlockEntity)
+- boolean matches(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
+
+```diff
+- JsonSyntaxException lambda$fromJson$1(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
+
+```diff
+- void fillGradient(PoseStack,int,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
+
+```diff
++ boolean hasBoss()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.LerpingBossEvent</summary>
+
+```diff
++ float getPercent()
+- float getProgress()
++ void setPercent(float)
+- void setProgress(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.LoomScreen</summary>
+
+```diff
+- void init()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
+
+```diff
++ boolean access$700(CreateWorldScreen)
++ boolean lambda$copyTempDataPackDirToNewWorld$18(Path)
+- boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
++ boolean lambda$createTempDataPackDirFromExistingWorld$20(Path,Path)
+- boolean lambda$createTempDataPackDirFromExistingWorld$22(Path,Path)
++ boolean lambda$tryApplyNewDataPacks$11(List,String)
+- boolean lambda$tryApplyNewDataPacks$13(List,String)
++ Component access$100()
++ Component access$400(CreateWorldScreen)
++ Component access$500(CreateWorldScreen)
++ CreateWorldScreen$SelectedGameMode access$200(CreateWorldScreen)
++ Difficulty access$600(CreateWorldScreen)
+- Difficulty getEffectiveDifficulty()
+- MutableComponent lambda$init$1(CycleButton)
+- MutableComponent lambda$init$4(CycleButton)
++ Object lambda$tryApplyNewDataPacks$16(DataPackConfig,ServerResources,Throwable)
+- Object lambda$tryApplyNewDataPacks$18(DataPackConfig,ServerResources,Throwable)
++ void lambda$copyTempDataPackDirToNewWorld$19(Path,Path)
+- void lambda$copyTempDataPackDirToNewWorld$21(Path,Path)
++ void lambda$createTempDataPackDirFromExistingWorld$21(MutableObject,Path,Path)
+- void lambda$createTempDataPackDirFromExistingWorld$23(MutableObject,Path,Path)
++ void lambda$init$1(Button)
+- void lambda$init$11(Button)
+- void lambda$init$12(Button)
++ void lambda$init$2(Button)
+- void lambda$init$2(CycleButton,CreateWorldScreen$SelectedGameMode)
++ void lambda$init$3(Button)
+- void lambda$init$3(CycleButton,Difficulty)
++ void lambda$init$4(Button)
+- void lambda$init$5(CycleButton,Boolean)
+- void lambda$init$6(Button)
++ void lambda$init$7(Button)
++ void lambda$init$8(Button)
++ void lambda$null$13(boolean)
++ void lambda$null$14()
+- void lambda$null$15(boolean)
++ void lambda$null$15(DataPackConfig,ServerResources)
+- void lambda$null$16()
+- void lambda$null$17(DataPackConfig,ServerResources)
++ void lambda$null$5(GameRules)
++ void lambda$null$6(Optional)
+- void lambda$null$7(GameRules)
+- void lambda$null$8(Optional)
++ void lambda$removeTempDataPackDir$17(Path)
+- void lambda$removeTempDataPackDir$19(Path)
++ void lambda$tryApplyNewDataPacks$12()
+- void lambda$tryApplyNewDataPacks$14()
+- void refreshWorldGenSettingsVisibility()
++ void setDisplayOptions(boolean)
+- void setWorldGenSettingsVisible(boolean)
++ void toggleDisplayOptions()
+- void toggleWorldGenSettingsVisibility()
++ void updateDisplayOptions()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ArmorStandModel</summary>
+
+```diff
+- LayerDefinition createBodyLayer()
++ void <init>()
++ void <init>(float)
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.HoglinModel</summary>
+
+```diff
+- LayerDefinition createBodyLayer()
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.SnowGolemModel</summary>
+
+```diff
++ Iterable parts()
+- LayerDefinition createBodyLayer()
+- ModelPart root()
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.SquidModel</summary>
+
+```diff
++ Iterable parts()
+- LayerDefinition createBodyLayer()
+- ModelPart lambda$new$0(ModelPart,int)
+- ModelPart root()
+- String createTentacleName(int)
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.TridentModel</summary>
+
+```diff
+- LayerDefinition createLayer()
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.TropicalFishModelB</summary>
+
+```diff
++ Iterable parts()
+- LayerDefinition createBodyLayer(CubeDeformation)
+- ModelPart root()
++ void <init>(float)
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.VexModel</summary>
+
+```diff
+- LayerDefinition createBodyLayer()
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.VillagerModel</summary>
+
+```diff
++ Iterable parts()
+- MeshDefinition createBodyModel()
+- ModelPart root()
++ void <init>(float,int,int)
++ void <init>(float)
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.WitherBossModel</summary>
+
+```diff
++ ImmutableList parts()
++ Iterable parts()
+- LayerDefinition createBodyLayer(CubeDeformation)
+- ModelPart root()
++ void <init>(float)
+- void <init>(ModelPart)
+- void setupHeadRotation(WitherBoss,ModelPart,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ZombieModel</summary>
+
+```diff
++ void <init>(float,boolean)
++ void <init>(float,float,int,int)
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.dragon.DragonHeadModel</summary>
+
+```diff
+- LayerDefinition createHeadLayer()
++ void <init>(float)
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
+
+```diff
+- boolean isEmpty()
++ ModelPart addBox(float,float,float,float,float,float,boolean)
++ ModelPart addBox(float,float,float,float,float,float)
++ ModelPart addBox(String,float,float,float,int,int,int,float,int,int)
++ ModelPart createShallowCopy()
+- ModelPart getChild(String)
++ ModelPart setTexSize(int,int)
++ ModelPart texOffs(int,int)
+- PartPose storePose()
+- Stream getAllParts()
++ void <init>()
++ void <init>(int,int,int,int)
+- void <init>(List,Map)
++ void <init>(Model,int,int)
++ void <init>(Model)
++ void addBox(float,float,float,float,float,float,float,boolean)
++ void addBox(float,float,float,float,float,float,float,float,float)
++ void addBox(float,float,float,float,float,float,float)
++ void addBox(int,int,float,float,float,float,float,float,float,float,float,boolean,boolean)
++ void addChild(ModelPart)
+- void lambda$visit$0(PoseStack,ModelPart$Visitor,String,String,ModelPart)
+- void loadPose(PartPose)
+- void visit(PoseStack,ModelPart$Visitor,String)
+- void visit(PoseStack,ModelPart$Visitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
+
+```diff
++ Map getProgress()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
+
+```diff
++ boolean isEntityTickingChunk(Entity)
++ LevelChunk replaceWithPacketData(int,int,ChunkBiomeContainer,FriendlyByteBuf,CompoundTag,int,boolean)
+- LevelChunk replaceWithPacketData(int,int,ChunkBiomeContainer,FriendlyByteBuf,CompoundTag,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
+
+```diff
+- EntityTickList access$100(ClientLevel)
++ int lambda$getBlockTint$7(BlockPos,ColorResolver)
+- int lambda$getBlockTint$9(BlockPos,ColorResolver)
+- LevelEntityGetter getEntities()
+- List access$200(ClientLevel)
+- String gatherChunkSourceStats()
++ String lambda$fillReportDetails$5()
+- String lambda$fillReportDetails$7()
++ String lambda$tickNonPassenger$1(Entity)
+- String lambda$tickNonPassenger$2(Entity)
++ Vec3 getSkyColor(BlockPos,float)
+- Vec3 getSkyColor(Vec3,float)
+- Vec3 lambda$getSkyColor$8(BiomeManager,int,int,int)
+- void addDestroyBlockEffect(BlockPos,BlockState)
+- void gameEvent(Entity,GameEvent,BlockPos)
++ void lambda$clearTintCaches$3(ColorResolver,BlockTintCache)
+- void lambda$clearTintCaches$4(ColorResolver,BlockTintCache)
++ void lambda$doAnimateTick$4(BlockPos$MutableBlockPos,AmbientParticleSettings)
+- void lambda$doAnimateTick$5(BlockPos$MutableBlockPos,AmbientParticleSettings)
++ void lambda$onChunkLoaded$2(int,int,ColorResolver,BlockTintCache)
+- void lambda$onChunkLoaded$3(ChunkPos,ColorResolver,BlockTintCache)
+- void lambda$tickEntities$1(Entity)
+- void onChunkLoaded(ChunkPos)
++ void onChunkLoaded(int,int)
++ void onEntityRemoved(Entity)
++ void reAddEntitiesToChunk(LevelChunk)
++ void removeAllPendingEntityRemovals()
+- void removeEntity(int,Entity$RemovalReason)
++ void removeEntity(int)
++ void setMapData(MapItemSavedData)
+- void setMapData(String,MapItemSavedData)
++ void updateChunkPos(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientLevel$ClientLevelData</summary>
+
+```diff
+- void fillCrashReportCategory(CrashReportCategory,LevelHeightAccessor)
++ void fillCrashReportCategory(CrashReportCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.player.AbstractClientPlayer</summary>
+
+```diff
++ ResourceLocation getSkullPath(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
+
+```diff
+- float getDepthFar()
++ Matrix4f getProjectionMatrix(Camera,float,boolean)
+- Matrix4f getProjectionMatrix(double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.ChestRenderer</summary>
+
+```diff
+- LayerDefinition createDoubleBodyLeftLayer()
+- LayerDefinition createDoubleBodyRightLayer()
+- LayerDefinition createSingleBodyLayer()
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.EnchantTableRenderer</summary>
+
+```diff
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.PistonHeadRenderer</summary>
+
+```diff
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
+
+```diff
++ FormattedCharSequence lambda$render$0(Font,Component)
+- FormattedCharSequence lambda$render$2(Component)
+- LayerDefinition createSignLayer()
++ Material getMaterial(Block)
+- SignRenderer$SignModel createSignModel(EntityModelSet,WoodType)
+- SignRenderer$SignModel lambda$new$1(BlockEntityRendererProvider$Context,WoodType)
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+- WoodType getWoodType(Block)
+- WoodType lambda$new$0(WoodType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.SkullBlockRenderer</summary>
+
+```diff
+- Map createSkullRenderers(EntityModelSet)
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
++ void lambda$static$1(HashMap)
+- void renderSkull(Direction,float,float,PoseStack,MultiBufferSource,int,SkullModelBase,RenderType)
++ void renderSkull(Direction,float,SkullBlock$Type,GameProfile,float,PoseStack,MultiBufferSource,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
+
+```diff
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
+
+```diff
++ void <init>(BlockEntityRenderDispatcher)
+- void <init>(BlockEntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.VisGraph</summary>
+
+```diff
++ Set floodFill(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.BeeRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.BoatRenderer</summary>
+
+```diff
+- Boat$Type lambda$new$0(Boat$Type)
+- Pair lambda$new$1(EntityRendererProvider$Context,Boat$Type)
++ void <clinit>()
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.CaveSpiderRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ChickenRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.CowRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.DolphinRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.DrownedRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EndCrystalRenderer</summary>
+
+```diff
+- LayerDefinition createBodyLayer()
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EnderDragonRenderer$DragonModel</summary>
+
+```diff
++ void <init>()
+- void <init>(ModelPart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EndermiteRenderer</summary>
+
+```diff
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EntityRenderer</summary>
+
+```diff
++ EntityRenderDispatcher getDispatcher()
++ void <init>(EntityRenderDispatcher)
+- void <init>(EntityRendererProvider$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.SheepFurLayer</summary>
+
+```diff
+- void <init>(RenderLayerParent,EntityModelSet)
++ void <init>(RenderLayerParent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.SlimeOuterLayer</summary>
+
+```diff
+- void <init>(RenderLayerParent,EntityModelSet)
++ void <init>(RenderLayerParent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.StrayClothingLayer</summary>
+
+```diff
+- void <init>(RenderLayerParent,EntityModelSet)
++ void <init>(RenderLayerParent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.TropicalFishPatternLayer</summary>
+
+```diff
+- void <init>(RenderLayerParent,EntityModelSet)
++ void <init>(RenderLayerParent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.item.ItemProperties$1</summary>
+
+```diff
+- float call(ItemStack,ClientLevel,LivingEntity,int)
++ float call(ItemStack,ClientLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.DefaultClientPackResources</summary>
+
+```diff
++ void <init>(AssetIndex)
+- void <init>(PackMetadataSection,AssetIndex)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
+
+```diff
++ boolean hasCustomFrameTime(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
+
+```diff
++ boolean hasPriority()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.server.LanServer</summary>
+
+```diff
++ boolean isUpToDate()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandFunction$CommandEntry</summary>
+
+```diff
++ void execute(ServerFunctionManager,CommandSourceStack,ArrayDeque,int)
+- void execute(ServerFunctionManager,CommandSourceStack,Deque,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandFunction$FunctionEntry</summary>
+
+```diff
++ void execute(ServerFunctionManager,CommandSourceStack,ArrayDeque,int)
+- void execute(ServerFunctionManager,CommandSourceStack,Deque,int)
++ void lambda$execute$0(int,ArrayDeque,ServerFunctionManager,CommandSourceStack,CommandFunction)
+- void lambda$execute$0(int,Deque,ServerFunctionManager,CommandSourceStack,CommandFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
+- BlockPos atY(int)
++ boolean isOutsideBuildHeight(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
+
+```diff
+- BlockPos$MutableBlockPos setX(int)
+- BlockPos$MutableBlockPos setY(int)
+- BlockPos$MutableBlockPos setZ(int)
+- Vec3i setX(int)
+- Vec3i setY(int)
+- Vec3i setZ(int)
++ void setX(int)
++ void setY(int)
++ void setZ(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockSourceImpl</summary>
 
 ```diff
 + Material getMaterial()
@@ -9185,146 +4384,78 @@
 </details>
 
 
-<details><summary>net.minecraft.core.Direction</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestSequence</summary>
 
 ```diff
-- Direction getFacingAxis(Direction$Axis)
+- GameTestSequence thenExecuteFor(int,Runnable)
++ GameTestSequence thenWait(long,Runnable)
++ GameTestSequence thenWait(Runnable)
+- GameTestSequence thenWaitUntil(long,Runnable)
+- GameTestSequence thenWaitUntil(Runnable)
+- void lambda$thenExecuteFor$3(int,Runnable)
++ void lambda$thenFail$3(Supplier)
+- void lambda$thenFail$4(Supplier)
++ void lambda$thenTrigger$4(GameTestSequence$Condition)
+- void lambda$thenTrigger$5(GameTestSequence$Condition)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.core.Direction8</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
 
 ```diff
-+ int EAST_MASK
-+ int NORTH_EAST_MASK
-+ int NORTH_MASK
-+ int NORTH_WEST_MASK
-+ int SOUTH_EAST_MASK
-+ int SOUTH_MASK
-+ int SOUTH_WEST_MASK
-+ int WEST_MASK
-+ int getSideMask(boolean,boolean,boolean,boolean)
++ boolean publishServer(GameType,boolean,int)
+- void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,Collection,BlockPos,RegistryAccess$RegistryHolder,Registry,Registry)
++ void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,Collection,BlockPos,RegistryAccess$RegistryHolder,Registry,WritableRegistry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
+<details><summary>net.minecraft.gametest.framework.StructureUtils</summary>
 
 ```diff
-+ float b
-+ float g
-+ float r
-+ float scale
-- Vec3 REDSTONE_PARTICLE_COLOR
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ float getB()
-+ float getG()
-+ float getR()
-+ float getScale()
-+ Float lambda$null$0(DustParticleOptions)
-+ Float lambda$null$2(DustParticleOptions)
-+ Float lambda$null$3(DustParticleOptions)
-+ String writeToString()
-+ void <init>(float,float,float,float)
-+ void writeToNetwork(FriendlyByteBuf)
-- App lambda$static$2(RecordCodecBuilder$Instance)
-- Vec3 lambda$null$0(DustParticleOptions)
-- void <init>(Vec3,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
-
-```diff
-- CompoundTag update(CompoundTag)
++ boolean lambda$clearSpaceForStructure$1(Entity)
+- boolean lambda$clearSpaceForStructure$3(Entity)
++ boolean lambda$findStructureBlockContainingPos$2(BlockPos,ServerLevel,BlockPos)
+- boolean lambda$findStructureBlockContainingPos$4(BlockPos,ServerLevel,BlockPos)
+- boolean lambda$main$0(Path)
++ int lambda$findNearestStructureBlock$3(BlockPos,BlockPos)
+- int lambda$findNearestStructureBlock$5(BlockPos,BlockPos)
++ void lambda$clearSpaceForStructure$0(int,ServerLevel,BlockPos)
+- void lambda$clearSpaceForStructure$2(int,ServerLevel,BlockPos)
+- void lambda$main$1(Path)
+- void main(String[])
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.gametest.framework.TestFunction</summary>
+
+```diff
+- boolean isFlaky()
+- int getMaxAttempts()
+- int getRequiredSuccesses()
+- void <init>(String,String,String,Rotation,int,long,boolean,int,int,Consumer)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ByteArrayTag</summary>
+<details><summary>net.minecraft.nbt.ListTag</summary>
 
 ```diff
 + Component getPrettyDisplay(String,int)
 - void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.ByteTag</summary>
-
-```diff
-+ Component getPrettyDisplay(String,int)
-+ String toString()
-- void accept(TagVisitor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
-
-```diff
-+ Logger LOGGER
-+ Pattern SIMPLE_VALUE
-+ Component getPrettyDisplay(String,int)
-+ Component handleEscapePretty(String)
-+ String handleEscape(String)
 + void stripEmptyChildren()
-- void accept(TagVisitor)
 ```
 
 </details>
 
-<details><summary>net.minecraft.nbt.DoubleTag</summary>
 
-```diff
-+ Component getPrettyDisplay(String,int)
-+ String toString()
-- void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.EndTag</summary>
+<details><summary>net.minecraft.nbt.LongArrayTag</summary>
 
 ```diff
 + Component getPrettyDisplay(String,int)
@@ -9333,26 +4464,8 @@
 
 </details>
 
-<details><summary>net.minecraft.nbt.FloatTag</summary>
 
-```diff
-+ Component getPrettyDisplay(String,int)
-+ String toString()
-- void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntArrayTag</summary>
-
-```diff
-+ Component getPrettyDisplay(String,int)
-- void accept(TagVisitor)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntTag</summary>
+<details><summary>net.minecraft.nbt.LongTag</summary>
 
 ```diff
 + Component getPrettyDisplay(String,int)
@@ -9363,1601 +4476,1116 @@
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtUtils</summary>
+<details><summary>net.minecraft.nbt.NumericTag</summary>
 
 ```diff
-- Comparator YXZ_LISTTAG_DOUBLE_COMPARATOR
-- Comparator YXZ_LISTTAG_INT_COMPARATOR
-- Splitter COLON_SPLITTER
-- Splitter COMMA_SPLITTER
-- Component toPrettyComponent(Tag)
-- CompoundTag packStructureTemplate(CompoundTag)
-- CompoundTag snbtToStructure(String)
-- CompoundTag unpackBlockState(String)
-- CompoundTag unpackStructureTemplate(CompoundTag)
-- double lambda$static$3(ListTag)
-- double lambda$static$4(ListTag)
-- double lambda$static$5(ListTag)
-- int lambda$static$0(ListTag)
-- int lambda$static$1(ListTag)
-- int lambda$static$2(ListTag)
-- ListTag lambda$packStructureTemplate$7(CompoundTag)
-- ListTag lambda$packStructureTemplate$8(CompoundTag)
-- ListTag lambda$unpackStructureTemplate$10(CompoundTag)
-- String lambda$packBlockState$11(String)
-- String packBlockState(CompoundTag)
-- String structureToSnbt(CompoundTag)
-- void lambda$packStructureTemplate$6(ListTag)
-- void lambda$packStructureTemplate$9(CompoundTag)
-- void lambda$unpackBlockState$12(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.ShortTag</summary>
-
-```diff
-+ Component getPrettyDisplay(String,int)
-+ String toString()
-- void accept(TagVisitor)
+- String toString()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.network.Connection</summary>
+<details><summary>net.minecraft.nbt.Tag</summary>
 
 ```diff
-- ConnectionProtocol getCurrentProtocol()
++ boolean isEmpty()
++ Component getPrettyDisplay()
++ void <clinit>()
++ void stripEmptyChildren()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+<details><summary>net.minecraft.server.commands.SpreadPlayersCommand$Position</summary>
 
 ```diff
-- MutableComponent optionNameValue(Component)
++ double access$000(SpreadPlayersCommand$Position)
++ double access$002(SpreadPlayersCommand$Position,double)
+- double access$200(SpreadPlayersCommand$Position)
+- double access$202(SpreadPlayersCommand$Position,double)
++ void <init>(double,double)
+- void <init>(SpreadPlayersCommand$1)
++ void set(double,double)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
+- boolean isResourcePackRequired()
++ boolean publishServer(GameType,boolean,int)
+- GameType getForcedGameType()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ Integer lambda$new$2(Integer)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ ChunkAccess lambda$null$25(ChunkHolder,ChunkAccess)
+- ChunkAccess lambda$null$26(ChunkHolder,ChunkAccess)
++ ChunkHolder$FullChunkStatus lambda$null$24(ChunkHolder)
+- ChunkHolder$FullChunkStatus lambda$null$25(ChunkHolder)
++ ChunkMap$DistanceManager getDistanceManager()
++ ChunkStatus lambda$getEntityTickingRangeFuture$2(int)
++ ChunkStatus lambda$postProcess$28(int)
+- ChunkStatus lambda$prepareEntityTickingChunk$2(int)
+- ChunkStatus lambda$prepareTickingChunk$29(int)
++ CompletableFuture getEntityTickingRangeFuture(ChunkPos)
++ CompletableFuture postProcess(ChunkHolder)
+- CompletableFuture prepareAccessibleChunk(ChunkHolder)
+- CompletableFuture prepareEntityTickingChunk(ChunkPos)
+- CompletableFuture prepareTickingChunk(ChunkHolder)
++ CompletableFuture unpackTicks(ChunkHolder)
+- DistanceManager getDistanceManager()
++ Either lambda$getEntityTickingRangeFuture$4(Either)
++ Either lambda$null$29(List)
+- Either lambda$null$30(List)
++ Either lambda$null$33(ChunkPos,LevelChunk)
++ Either lambda$postProcess$30(Either)
+- Either lambda$prepareAccessibleChunk$38(Either)
+- Either lambda$prepareEntityTickingChunk$4(Either)
+- Either lambda$prepareTickingChunk$31(Either)
++ Either lambda$protoChunkToFullChunk$26(ChunkHolder,Either)
+- Either lambda$protoChunkToFullChunk$27(ChunkHolder,Either)
++ Either lambda$unpackTicks$37(Either)
++ int access$700(ChunkPos,ServerPlayer,boolean)
++ Integer lambda$dumpChunks$41(LevelChunk)
++ LevelChunk lambda$null$36(ChunkAccess)
+- LevelChunk lambda$null$37(List)
++ Optional lambda$dumpChunks$40(ChunkAccess)
+- Optional lambda$dumpChunks$41(ChunkAccess)
+- void <init>(ServerLevel,LevelStorageSource$LevelStorageAccess,DataFixer,StructureManager,Executor,BlockableEventLoop,LightChunkGetter,ChunkGenerator,ChunkProgressListener,ChunkStatusUpdateListener,Supplier,int,boolean)
++ void <init>(ServerLevel,LevelStorageSource$LevelStorageAccess,DataFixer,StructureManager,Executor,BlockableEventLoop,LightChunkGetter,ChunkGenerator,ChunkProgressListener,Supplier,int,boolean)
+- void lambda$null$24(ProtoChunk,LevelChunk)
++ void lambda$null$32(Packet[],LevelChunk,ServerPlayer)
+- void lambda$null$33(Packet[],LevelChunk,ServerPlayer)
+- void lambda$null$34(ChunkPos,LevelChunk)
++ void lambda$postProcess$31(ChunkHolder,Runnable)
++ void lambda$postProcess$34(ChunkPos,Either)
++ void lambda$postProcess$35(ChunkHolder,Runnable)
+- void lambda$prepareAccessibleChunk$39(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$32(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$35(ChunkPos,Either)
+- void lambda$prepareTickingChunk$36(ChunkHolder,Runnable)
++ void lambda$protoChunkToFullChunk$27(ChunkHolder,Runnable)
+- void lambda$protoChunkToFullChunk$28(ChunkHolder,Runnable)
++ void lambda$setViewDistance$39(ChunkPos,int,Packet[],ServerPlayer)
+- void lambda$setViewDistance$40(ChunkPos,int,Packet[],ServerPlayer)
++ void lambda$unpackTicks$38(ChunkHolder,Runnable)
+- void onFullChunkStatusChange(ChunkPos,ChunkHolder$FullChunkStatus)
+- void postLoadProtoChunk(ServerLevel,List)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.level.DemoMode</summary>
+
+```diff
++ void <init>(ServerLevel)
+- void <init>(ServerPlayer)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.packs.repository.PackCompatibility</summary>
+
+```diff
+- PackCompatibility forFormat(int,PackType)
++ PackCompatibility forFormat(int)
+- PackCompatibility forMetadata(PackMetadataSection,PackType)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
+
+```diff
++ Object lambda$createFullReload$0(List)
+- Object lambda$createReload$0(List)
++ ReloadInstance createFullReload(Executor,Executor,CompletableFuture,List)
++ ReloadInstance createQueuedReload(Executor,Executor,CompletableFuture)
+- ReloadInstance createReload(Executor,Executor,CompletableFuture,List)
++ ReloadInstance createReload(Executor,Executor,List,CompletableFuture)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedPlayerList</summary>
+<details><summary>net.minecraft.server.players.PlayerList</summary>
 
 ```diff
 + void blackList(GameProfile)
+- void lambda$remove$1(Entity)
++ void setOverrideGameMode(GameType)
++ void updatePlayerGameMode(ServerPlayer,ServerPlayer,ServerLevel)
 + void whiteList(GameProfile)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder</summary>
+<details><summary>net.minecraft.server.players.ServerOpList</summary>
 
 ```diff
-+ int blockChangedLightSectionFilter
-+ int skyChangedLightSectionFilter
-- BitSet blockChangedLightSectionFilter
-- BitSet skyChangedLightSectionFilter
-- CompletableFuture pendingFullStateConfirmation
-- LevelHeightAccessor levelHeightAccessor
-+ Either lambda$updateFutures$5(Either)
-+ void <init>(ChunkHolder$PlayerProvider)
-+ void updateFutures(ChunkMap)
-- Either lambda$updateFutures$8(Either)
-- void <init>(ChunkHolder$PlayerProvider)
-- void demoteFullChunk(ChunkHolder$FullChunkStatus)
-- void lambda$null$6(LevelChunk)
-- void lambda$scheduleFullChunkPromotion$5(ChunkHolder$FullChunkStatus)
-- void lambda$scheduleFullChunkPromotion$7(Either)
-- void scheduleFullChunkPromotion(ChunkHolder$FullChunkStatus)
-- void updateFutures(Executor)
++ GameProfile find(String)
++ int getOpLevel(GameProfile)
+- String[] lambda$getUserList$0(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.PackType</summary>
+<details><summary>net.minecraft.server.players.UserBanList</summary>
 
 ```diff
-- PackType bridgeType
-+ void <init>(String)
-- int getVersion(GameVersion)
-- void <init>(PackType)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
-
-```diff
-- PackMetadataSection packMetadata
-+ void <init>(String[])
-- void <init>(String[])
++ GameProfile find(String)
+- String[] lambda$getUserList$0(int)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.server.packs.repository.Pack</summary>
+<details><summary>net.minecraft.server.players.UserWhiteList</summary>
 
 ```diff
-+ PackMetadataSection BROKEN_ASSETS_FALLBACK
-+ void <init>(PackSource)
-- void <init>(PackSource)
++ GameProfile find(String)
+- String[] lambda$getUserList$0(int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
+<details><summary>net.minecraft.stats.StatType</summary>
 
 ```diff
-+ void <init>(RepositorySource[])
-+ void lambda$discoverAvailable$0(Pack)
-- Pack lambda$new$0(PackSource)
-- void <init>(RepositorySource[])
-- void lambda$discoverAvailable$1(Pack)
++ int size()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
+<details><summary>net.minecraft.tags.BlockTags</summary>
 
 ```diff
-+ TextComponent RCON_COMPONENT
-- Component RCON_COMPONENT
-```
-
-</details>
-
-<details><summary>net.minecraft.server.rcon.thread.GenericThread</summary>
-
-```diff
-+ void run()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundSource</summary>
-
-```diff
-+ Map BY_NAME
-+ Set getNames()
-+ SoundSource byName(String)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-- Tag$Named AXOLOTL_ALWAYS_HOSTILES
-- Tag$Named AXOLOTL_TEMPTED_HOSTILES
-- Tag$Named POWDER_SNOW_WALKABLE_MOBS
 + List getWrappers()
 ```
 
 </details>
 
-<details><summary>net.minecraft.tags.TagContainer$1</summary>
+
+<details><summary>net.minecraft.tags.FluidTags</summary>
 
 ```diff
-+ TagCollection val$blocks
-+ TagCollection val$entityTypes
-+ TagCollection val$fluids
-+ TagCollection val$items
-- Map val$result
-- RegistryAccess val$access
-- TagContainer this$0
-+ TagCollection getBlocks()
-+ TagCollection getEntityTypes()
-+ TagCollection getFluids()
-+ TagCollection getItems()
-+ void <init>(TagCollection)
+- List getStaticTags()
++ List getWrappers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagContainer</summary>
+
+```diff
+- Logger access$000()
+- Map serializeToNetwork(RegistryAccess)
+- ResourceLocation getIdOrThrow(ResourceKey,Tag,Supplier)
+- Tag getTagOrThrow(ResourceKey,ResourceLocation,Function)
+- TagCollection get(ResourceKey)
+- TagCollection getOrEmpty(ResourceKey)
++ TagContainer deserializeFromNetwork(FriendlyByteBuf)
+- TagContainer deserializeFromNetwork(RegistryAccess,Map)
++ TagContainer of(TagCollection,TagCollection,TagCollection,TagCollection)
+- void <init>(Map,TagContainer$1)
 - void <init>(Map)
-- void accept(TagCollection)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.TagManager</summary>
-
-```diff
-+ TagLoader blocks
-+ TagLoader entityTypes
-+ TagLoader fluids
-+ TagLoader items
-- Logger LOGGER
-- RegistryAccess registryAccess
-+ String lambda$null$0(Map$Entry)
-+ void <init>()
-+ void lambda$reload$1(Void)
-- CompletableFuture lambda$reload$1(TagManager$LoaderInfo)
-- CompletableFuture[] lambda$reload$2(int)
-- String lambda$null$4(Map$Entry)
-- TagCollection lambda$createLoader$6(ResourceManager)
-- TagManager$LoaderInfo createLoader(StaticTagHelper)
-- void <clinit>()
-- void <init>(RegistryAccess)
-- void lambda$null$3(TagManager$LoaderInfo)
-- void lambda$reload$0(StaticTagHelper)
-- void lambda$reload$5(Void)
+- void acceptCap(TagContainer$CollectionConsumer,ResourceKey,TagCollection)
+- void addTagsFromPayload(RegistryAccess,TagContainer$Builder,ResourceKey,TagCollection$NetworkPayload)
+- void getAll(TagContainer$CollectionConsumer)
+- void lambda$deserializeFromNetwork$1(RegistryAccess,TagContainer$Builder,ResourceKey,TagCollection$NetworkPayload)
+- void lambda$getAll$0(TagContainer$CollectionConsumer,ResourceKey,TagCollection)
++ void serializeToNetwork(FriendlyByteBuf)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
+<details><summary>net.minecraft.tags.TagLoader</summary>
 
 ```diff
-+ int roundUp(int,int)
-- double clampedMap(double,double,double,double,double)
-- double map(double,double,double,double,double)
-- double wobble(double)
-- float normal(Random,float,float)
-- float randomBetween(Random,float,float)
-- int randomBetweenInclusive(Random,int,int)
-- int roundToward(int,int)
+- boolean isCyclic(Multimap,ResourceLocation,ResourceLocation)
+- boolean lambda$isCyclic$3(Multimap,ResourceLocation,ResourceLocation)
+- boolean lambda$load$0(String)
++ boolean lambda$null$0(String)
++ CompletableFuture prepare(ResourceManager,Executor)
++ Map lambda$prepare$2(ResourceManager)
+- Map load(ResourceManager)
+- Object lambda$build$4(ResourceLocation)
++ Object lambda$load$3(ResourceLocation)
+- Tag$Builder lambda$load$1(ResourceLocation)
++ Tag$Builder lambda$null$1(ResourceLocation)
+- TagCollection build(Map)
++ TagCollection load(Map)
+- TagCollection loadAndBuild(ResourceManager)
++ void <init>(Function,String,String)
+- void <init>(Function,String)
+- void addDependencyIfNotCyclic(Multimap,ResourceLocation,ResourceLocation)
+- void lambda$build$12(Map,Multimap,Set,Function,Function,Map,ResourceLocation)
+- void lambda$build$6(Multimap,ResourceLocation,Tag$Builder)
+- void lambda$build$8(Multimap,ResourceLocation,Tag$Builder)
++ void lambda$load$4(Function,Function,ResourceLocation,Tag$Builder)
+- void lambda$null$10(Map,ResourceLocation,Tag)
+- void lambda$null$11(Function,Function,Map,ResourceLocation,Tag$Builder)
+- void lambda$null$5(Multimap,ResourceLocation,ResourceLocation)
+- void lambda$null$7(Multimap,ResourceLocation,ResourceLocation)
+- void lambda$null$9(ResourceLocation,Collection)
+- void lambda$visitDependenciesAndElement$2(Map,Multimap,Set,BiConsumer,ResourceLocation)
+- void visitDependenciesAndElement(Map,Multimap,Set,ResourceLocation,BiConsumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.References</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V99</summary>
 
 ```diff
-- DSL$TypeReference ENTITY_CHUNK
-- String lambda$static$25()
++ Dynamic lambda$addNames$35(Dynamic,Map,String,Dynamic)
+- Dynamic lambda$addNames$36(Dynamic,Map,String,Dynamic)
++ Dynamic lambda$null$33(Dynamic,Map,Dynamic)
+- Dynamic lambda$null$34(Dynamic,Map,Dynamic)
++ Dynamic lambda$null$34(Dynamic,String,Dynamic)
+- Dynamic lambda$null$35(Dynamic,String,Dynamic)
+- TypeTemplate lambda$registerTypes$32(Schema)
++ void lambda$static$32(HashMap)
+- void lambda$static$33(HashMap)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V1460</summary>
+<details><summary>net.minecraft.world.Difficulty</summary>
 
 ```diff
-- TypeTemplate lambda$registerTypes$46(Schema)
++ Difficulty nextById()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.BossEvent</summary>
+<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
 
 ```diff
-+ float percent
-- float progress
-+ float getPercent()
-+ void setPercent(float)
-- float getProgress()
-- void setProgress(float)
+- boolean isDamageHelmet()
+- DamageSource damageHelmet()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.SimpleContainer</summary>
+<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
 
 ```diff
-+ boolean isSameItem(ItemStack)
++ void setSplash(boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ boolean canUse()
-+ List getEffects()
-+ void use()
-- boolean lambda$tick$0(Map$Entry)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LightningBolt</summary>
-
-```diff
-- void powerLightningRod()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
-
-```diff
-+ float speedModifier
-- Function speedModifier
-+ AgableMob getNearestAdult(AgableMob)
-+ boolean checkExtraStartConditions(AgableMob)
-+ void start(AgableMob,long)
-- AgeableMob getNearestAdult(AgeableMob)
-- boolean checkExtraStartConditions(AgeableMob)
-- Float lambda$new$0(LivingEntity)
-- void <init>(Function)
-- void start(AgeableMob,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
-
-```diff
-+ boolean lambda$isHoldingUsableProjectileWeapon$0(Item)
-- boolean lambda$isHoldingUsableProjectileWeapon$0(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-+ AgableMob getBreedOffspring(AgableMob)
-+ Cat getBreedOffspring(AgableMob)
-+ void usePlayerItem(ItemStack)
-- AgeableMob getBreedOffspring(AgeableMob)
-- Cat getBreedOffspring(AgeableMob)
-- void usePlayerItem(ItemStack)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
-
-```diff
-+ AgableMob getBreedOffspring(AgableMob)
-+ Chicken getBreedOffspring(AgableMob)
-- AgeableMob getBreedOffspring(AgeableMob)
-- Chicken getBreedOffspring(AgeableMob)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Cow</summary>
-
-```diff
-+ AgableMob getBreedOffspring(AgableMob)
-+ Cow getBreedOffspring(AgableMob)
-- AgeableMob getBreedOffspring(AgeableMob)
-- Cow getBreedOffspring(AgeableMob)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ AgableMob getBreedOffspring(AgableMob)
-+ boolean setSlot(ItemStack)
-+ float getJumpRidingScale()
-+ void setJumpRidingScale(float)
-+ void setOffspringAttributes(AbstractHorse)
-- AgeableMob getBreedOffspring(AgeableMob)
-- boolean lambda$getSlot$1(ItemStack)
-- boolean lambda$getSlot$2(ItemStack)
-- SlotAccess createEquipmentSlotAccess(Predicate)
-- SlotAccess getSlot(int)
-- void setOffspringAttributes(AbstractHorse)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.boss.EnderDragonPart</summary>
-
-```diff
+- boolean canFreeze()
++ boolean checkAndResetForcedChunkAdditionFlag()
++ boolean checkAndResetUpdateChunkPos()
+- boolean hasExactlyOnePlayerPassenger()
++ boolean hasOnePlayerPassenger()
++ boolean hasPassenger(Class)
+- boolean hasPassenger(Predicate)
+- boolean isAlwaysTicking()
+- boolean isFullyFrozen()
+- boolean isRemoved()
+- boolean lambda$hasExactlyOnePlayerPassenger$13(Entity)
+- boolean lambda$hasIndirectPassenger$14(Entity,Entity)
++ boolean lambda$null$3(BlockState,BlockPos)
+- boolean lambda$null$4(BlockState,BlockPos)
+- boolean lambda$removePassenger$3(Entity,Entity)
+- boolean occludesVibrations()
++ boolean setSlot(int,ItemStack)
 - boolean shouldBeSaved()
+- ChunkPos chunkPosition()
++ Collection getIndirectPassengers()
+- Entity getFirstPassenger()
+- Entity$RemovalReason getRemovalReason()
+- float getPercentFrozen()
+- GameEventListenerRegistrar getGameEventListenerRegistrar()
+- int getBlockX()
+- int getBlockY()
+- int getBlockZ()
+- int getTicksFrozen()
+- int getTicksRequiredToFreeze()
+- ItemStack getPickResult()
+- Iterable getIndirectPassengers()
+- Iterator lambda$getIndirectPassengers$12()
++ PortalInfo lambda$findDimensionEntryPoint$4(ServerLevel,BlockUtil$FoundRectangle)
+- PortalInfo lambda$findDimensionEntryPoint$5(ServerLevel,BlockUtil$FoundRectangle)
+- SlotAccess getSlot(int)
+- Stream getIndirectPassengersStream()
+- Stream getPassengersAndSelf()
++ String lambda$fillCrashReportCategory$5()
+- String lambda$fillCrashReportCategory$9()
+- Style lambda$getDisplayName$10(Style)
++ Style lambda$getDisplayName$9(Style)
++ void burn(int)
+- void checkOutOfWorld()
+- void discard()
++ void fillIndirectPassengers(boolean,Set)
+- void gameEvent(Entity,GameEvent)
+- void gameEvent(GameEvent)
++ void lambda$teleportTo$10(ServerLevel,Entity)
+- void lambda$teleportTo$11(Entity)
+- void recreateFromPacket(ClientboundAddEntityPacket)
++ void remove()
+- void remove(Entity$RemovalReason)
+- void setBodyIsInPowderSnow(boolean)
++ void setDropContainerContent(boolean)
++ void setLevel(Level)
+- void setLevelCallback(EntityInLevelCallback)
+- void setRemoved(Entity$RemovalReason)
+- void setTicksFrozen(int)
+- void unsetRemoved()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
+
+<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
 
 ```diff
-+ void dropExperience(int)
+- int getIndex(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame$1</summary>
+<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
 
 ```diff
-+ int[] $SwitchMap$net$minecraft$core$Direction$Axis
-- ItemFrame this$0
-+ void <clinit>()
-- boolean set(ItemStack)
-- ItemStack get()
-- void <init>(ItemFrame)
+- boolean canMerge(ExperienceOrb,int,int)
+- boolean canMerge(ExperienceOrb)
+- boolean lambda$tryMergeToExisting$0(int,int,ExperienceOrb)
+- boolean tryMergeToExisting(ServerLevel,Vec3,int)
+- SoundSource getSoundSource()
+- void award(ServerLevel,Vec3,int)
++ void burn(int)
+- void merge(ExperienceOrb)
+- void scanForEntities()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-- boolean lambda$tickBubbleColumn$0(Entity)
+- boolean canBeTargeted()
+- boolean canFreeze()
+- boolean lambda$createEquipmentSlotAccess$11(EquipmentSlot,ItemStack)
++ boolean lambda$isHolding$5(Item,Item)
+- boolean lambda$isHolding$5(Item,ItemStack)
+- EquipmentSlot getEquipmentSlot(int)
+- EquipmentSlot getEquipmentSlotForItem(ItemStack)
+- SlotAccess createEquipmentSlotAccess(LivingEntity,EquipmentSlot)
+- SlotAccess getSlot(int)
+- void removeFrost()
+- void tryAddFrost()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ boolean isValidSlotForItem(EquipmentSlot,ItemStack)
++ boolean setSlot(int,ItemStack)
+- double getMeleeAttackRangeSqr(LivingEntity)
++ EquipmentSlot getEquipmentSlotForItem(ItemStack)
 - ItemStack getPickResult()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
+<details><summary>net.minecraft.world.entity.NeutralMob</summary>
 
 ```diff
-+ Level getLevel()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner$1</summary>
-
-```diff
-+ BlockPos getPos()
-+ Level getLevel()
-+ void broadcastEvent(int)
-- void broadcastEvent(BlockPos,int)
+- void readPersistentAngerSaveData(Level,CompoundTag)
++ void readPersistentAngerSaveData(ServerLevel,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
 
 ```diff
-+ List slots
-- NonNullList slots
-+ boolean consideredTheSameItem(ItemStack)
-+ Slot getSlotFor(Container,int)
-+ void addItem(ItemStack)
-+ void clearContainer(Container)
-- void clearContainer(Container)
++ boolean isWithinMeleeAttackRange(LivingEntity,LivingEntity)
+- boolean isWithinMeleeAttackRange(Mob,LivingEntity)
++ boolean lambda$null$5(Villager,LivingEntity)
+- boolean lambda$null$6(Villager,LivingEntity)
+- Entity lambda$getLivingEntityFromUUIDMemory$4(LivingEntity,UUID)
++ LivingEntity lambda$getLivingEntityFromUUIDMemory$4(LivingEntity,UUID)
+- LivingEntity lambda$getLivingEntityFromUUIDMemory$5(Entity)
++ Stream lambda$getNearbyVillagersWithCondition$7(Villager,Predicate,List)
+- Stream lambda$getNearbyVillagersWithCondition$8(Villager,Predicate,List)
+- Vec3 getRandomSwimmablePos(PathfinderMob,int,int)
++ Villager lambda$null$6(LivingEntity)
+- Villager lambda$null$7(LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BucketItem</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
 
 ```diff
-+ boolean emptyBucket(BlockHitResult)
-- boolean emptyContents(BlockHitResult)
-- void lambda$use$0(SoundEvent)
+- Vec3 getTargetPos(PathfinderMob)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.FireworkRocketItem</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.VillagerMakeLove</summary>
 
 ```diff
-- ItemStack getDefaultInstance()
++ boolean lambda$isBreedingPossible$0(AgableMob)
+- boolean lambda$isBreedingPossible$0(AgeableMob)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.item.PickaxeItem</summary>
+<details><summary>net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor</summary>
 
 ```diff
-- Object2IntMap MIN_LEVEL_FOR_DROPS
-- void lambda$static$0(Object2IntOpenHashMap)
++ int compareMobDistance(LivingEntity,LivingEntity,LivingEntity)
++ int lambda$null$1(LivingEntity,LivingEntity,LivingEntity)
++ Optional getVisibleEntities(LivingEntity)
+- Optional lambda$getNearestHostile$1(LivingEntity,List)
++ Optional lambda$getNearestHostile$2(LivingEntity,List)
++ Set requires()
++ void doTick(ServerLevel,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.EntityGetter</summary>
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EndCrystal</summary>
 
 ```diff
-+ List getEntitiesOfClass(java.lang.Class,net.minecraft.world.phys.AABB,java.util.function.Predicate)
-- List getEntities(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.world.phys.AABB,java.util.function.Predicate)
-+ List getLoadedEntitiesOfClass(AABB)
-+ List getLoadedEntitiesOfClass(Predicate)
-+ LivingEntity getNearestLoadedEntity(AABB)
-- boolean lambda$getNearbyEntities$2(LivingEntity)
-- boolean lambda$getNearestEntity$1(LivingEntity)
-- List getEntitiesOfClass(Predicate)
+- ItemStack getPickResult()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
+<details><summary>net.minecraft.world.entity.decoration.ArmorStand</summary>
 
 ```diff
-- GameRules$Key RULE_FREEZE_DAMAGE
-- GameRules$Key RULE_PLAYERS_SLEEPING_PERCENTAGE
-+ void <init>(MinecraftServer)
++ boolean setSlot(int,ItemStack)
+- ItemStack getPickResult()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.GameType</summary>
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
 
 ```diff
-+ GameType NOT_SET
-- Component longName
-- Component shortName
-- GameType DEFAULT_MODE
-+ Component getDisplayName()
-- Component getLongDisplayName()
-- Component getShortDisplayName()
-- GameType byNullableId(int)
-- int getNullableId(GameType)
++ boolean setSlot(int,ItemStack)
+- ItemStack getPickResult()
+- SlotAccess getSlot(int)
+- void recreateFromPacket(ClientboundAddEntityPacket)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.AttachedStemBlock</summary>
+<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner</summary>
 
 ```diff
-- Supplier seedSupplier
-+ Item getSeedItem()
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(BlockBehaviour$Properties)
+- Runnable createTicker(Level)
+- void lambda$createTicker$0(Level)
+- void lambda$createTicker$1(Level)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
+<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
+
+```diff
+- boolean shouldMoveToInventory(int)
++ void handlePlacement(boolean,Recipe,ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ArmorItem</summary>
+
+```diff
+- SoundEvent getEquipSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BlockItem</summary>
+
+```diff
+- boolean canFitInsideContainerItems()
+- void onDestroyed(ItemEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.DyeColor</summary>
+
+```diff
++ int getTextureDiffuseColorBGR()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ElytraItem</summary>
+
+```diff
+- SoundEvent getEquipSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.EmptyBlockGetter</summary>
+
+```diff
+- int getHeight()
+- int getMinBuildHeight()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.ForcedChunksSavedData</summary>
+
+```diff
+- ForcedChunksSavedData load(CompoundTag)
+- void <init>(LongSet)
++ void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
++ BlockEntity getPendingBlockEntityAt(BlockPos)
++ BlockState getTopBlockState(BlockPos)
++ boolean addBlockEntity(BlockEntity)
++ boolean isOutsideBuildHeight(BlockPos)
++ boolean isOutsideBuildHeight(int)
++ List getEntities(EntityType,AABB,Predicate)
+- List getEntities(EntityTypeTest,AABB,Predicate)
++ List getEntitiesOfClass(Class,AABB,Predicate)
++ List getLoadedEntitiesOfClass(Class,AABB,Predicate)
++ Object lambda$addBlockEntity$1(BlockEntity)
++ String gatherChunkSourceStats()
++ String lambda$tickBlockEntities$2(BlockEntity)
++ void addAllPendingBlockEntities(Collection)
+- void addBlockEntityTicker(TickingBlockEntity)
+- void addDestroyBlockEffect(BlockPos,BlockState)
++ void blockEntityChanged(BlockPos,BlockEntity)
+- void blockEntityChanged(BlockPos)
+- void lambda$getEntities$1(Entity,Predicate,List,Entity)
+- void lambda$getEntities$2(Predicate,List,EntityTypeTest,Entity)
+- void postGameEventInRadius(Entity,GameEvent,BlockPos,int)
+- void setBlockEntity(BlockEntity)
++ void setBlockEntity(BlockPos,BlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelAccessor</summary>
+
+```diff
++ int getHeight()
+- int getLogicalHeight()
+- void gameEvent(Entity,GameEvent,Entity)
+- void gameEvent(GameEvent,BlockPos)
+- void gameEvent(GameEvent,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
+
+```diff
+- DamageSource getFallDamageSource()
++ void onBroken(Level,BlockPos,FallingBlockEntity)
+- void onBrokenAfterFall(Level,BlockPos,FallingBlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
+
+```diff
+- BlockState updateShape(BlockState,Direction,BlockState,LevelAccessor,BlockPos,BlockPos)
+- FluidState getFluidState(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.BaseEntityBlock</summary>
-
-```diff
-- BlockEntityTicker createTickerHelper(BlockEntityTicker)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
-
-```diff
-+ void checkPressed(BlockState,int)
-- void checkPressed(BlockState,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
+<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ boolean is(Block)
-+ boolean is(Tag)
-+ boolean isExceptionForConnection(Block)
-+ boolean shouldRenderFace(Direction)
-+ int getTickDelay(LevelReader)
-+ void handleRain(BlockPos)
-+ void prepareRender(BlockPos)
-- boolean isExceptionForConnection(BlockState)
-- boolean shouldRenderFace(BlockPos)
-- void handlePrecipitation(Biome$Precipitation)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block GRASS_PATH
-- Block AMETHYST_BLOCK
-- Block AMETHYST_CLUSTER
-- Block BLACK_CANDLE
-- Block BLACK_CANDLE_CAKE
-- Block BLUE_CANDLE
-- Block BLUE_CANDLE_CAKE
-- Block BROWN_CANDLE
-- Block BROWN_CANDLE_CAKE
-- Block BUDDING_AMETHYST
-- Block CALCITE
-- Block CANDLE
-- Block CANDLE_CAKE
-- Block COPPER_BLOCK
-- Block COPPER_ORE
-- Block CUT_COPPER
-- Block CUT_COPPER_SLAB
-- Block CUT_COPPER_STAIRS
-- Block CYAN_CANDLE
-- Block CYAN_CANDLE_CAKE
-- Block DIRT_PATH
-- Block DRIPSTONE_BLOCK
-- Block GRAY_CANDLE
-- Block GRAY_CANDLE_CAKE
-- Block GREEN_CANDLE
-- Block GREEN_CANDLE_CAKE
-- Block LARGE_AMETHYST_BUD
-- Block LAVA_CAULDRON
-- Block LIGHT_BLUE_CANDLE
-- Block LIGHT_BLUE_CANDLE_CAKE
-- Block LIGHT_GRAY_CANDLE
-- Block LIGHT_GRAY_CANDLE_CAKE
-- Block LIGHTLY_WEATHERED_COPPER_BLOCK
-- Block LIGHTLY_WEATHERED_CUT_COPPER
-- Block LIGHTLY_WEATHERED_CUT_COPPER_SLAB
-- Block LIGHTLY_WEATHERED_CUT_COPPER_STAIRS
-- Block LIGHTNING_ROD
-- Block LIME_CANDLE
-- Block LIME_CANDLE_CAKE
-- Block MAGENTA_CANDLE
-- Block MAGENTA_CANDLE_CAKE
-- Block MEDIUM_AMETHYST_BUD
-- Block ORANGE_CANDLE
-- Block ORANGE_CANDLE_CAKE
-- Block PINK_CANDLE
-- Block PINK_CANDLE_CAKE
-- Block POINTED_DRIPSTONE
-- Block POWDER_SNOW
-- Block POWDER_SNOW_CAULDRON
-- Block PURPLE_CANDLE
-- Block PURPLE_CANDLE_CAKE
-- Block RED_CANDLE
-- Block RED_CANDLE_CAKE
-- Block SCULK_SENSOR
-- Block SEMI_WEATHERED_COPPER_BLOCK
-- Block SEMI_WEATHERED_CUT_COPPER
-- Block SEMI_WEATHERED_CUT_COPPER_SLAB
-- Block SEMI_WEATHERED_CUT_COPPER_STAIRS
-- Block SMALL_AMETHYST_BUD
-- Block TINTED_GLASS
-- Block TUFF
-- Block WATER_CAULDRON
-- Block WAXED_COPPER
-- Block WAXED_CUT_COPPER
-- Block WAXED_CUT_COPPER_SLAB
-- Block WAXED_CUT_COPPER_STAIRS
-- Block WAXED_LIGHTLY_WEATHERED_COPPER
-- Block WAXED_LIGHTLY_WEATHERED_CUT_COPPER
-- Block WAXED_LIGHTLY_WEATHERED_CUT_COPPER_SLAB
-- Block WAXED_LIGHTLY_WEATHERED_CUT_COPPER_STAIRS
-- Block WAXED_SEMI_WEATHERED_COPPER
-- Block WAXED_SEMI_WEATHERED_CUT_COPPER
-- Block WAXED_SEMI_WEATHERED_CUT_COPPER_SLAB
-- Block WAXED_SEMI_WEATHERED_CUT_COPPER_STAIRS
-- Block WEATHERED_COPPER_BLOCK
-- Block WEATHERED_CUT_COPPER
-- Block WEATHERED_CUT_COPPER_SLAB
-- Block WEATHERED_CUT_COPPER_STAIRS
-- Block WHITE_CANDLE
-- Block WHITE_CANDLE_CAKE
-- Block YELLOW_CANDLE
-- Block YELLOW_CANDLE_CAKE
-+ BlockEntityType lambda$static$12()
-+ boolean lambda$static$13(EntityType)
-+ boolean lambda$static$28(EntityType)
-+ boolean lambda$static$30(EntityType)
-+ ConfiguredFeature lambda$static$35()
-+ ConfiguredFeature lambda$static$36()
-+ int lambda$static$14(BlockState)
-+ int lambda$static$15(BlockState)
-+ int lambda$static$21(BlockState)
-+ int lambda$static$22(BlockState)
-+ int lambda$static$23(BlockState)
-+ int lambda$static$24(BlockState)
-+ int lambda$static$37(BlockState)
-+ int lambda$static$8(BlockState)
-+ int lambda$static$9(BlockState)
-- BlockEntityType lambda$static$14()
-- boolean lambda$static$15(EntityType)
-- boolean lambda$static$35(EntityType)
-- boolean lambda$static$37(EntityType)
-- boolean lambda$static$48(BlockPos)
-- ConfiguredFeature lambda$static$42()
-- ConfiguredFeature lambda$static$43()
-- ConfiguredFeature lambda$static$8()
-- ConfiguredFeature lambda$static$9()
-- int lambda$static$12(BlockState)
-- int lambda$static$13(BlockState)
-- int lambda$static$28(BlockState)
-- int lambda$static$30(BlockState)
-- int lambda$static$36(BlockState)
-- int lambda$static$40(BlockState)
-- int lambda$static$41(BlockState)
-- int lambda$static$44(BlockState)
-- int lambda$static$45(BlockState)
-- int lambda$static$46(BlockState)
-- int lambda$static$47(BlockState)
-- Item lambda$static$21()
-- Item lambda$static$22()
-- Item lambda$static$23()
-- Item lambda$static$24()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
+<details><summary>net.minecraft.world.level.block.BellBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.BucketPickup</summary>
+
+<details><summary>net.minecraft.world.level.block.BlastFurnaceBlock</summary>
 
 ```diff
-+ Fluid takeLiquid(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
-- ItemStack pickupBlock(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,net.minecraft.world.level.block.state.BlockState)
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+
+```diff
++ Fluid takeLiquid(LevelAccessor,BlockPos,BlockState)
+- ItemStack pickupBlock(LevelAccessor,BlockPos,BlockState)
 - Optional getPickupSound()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+
+```diff
+- void setOpen(Entity,Level,BlockState,BlockPos,boolean)
++ void setOpen(Level,BlockState,BlockPos,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DropperBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
+<details><summary>net.minecraft.world.level.block.EndGatewayBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.EndPortalBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.FurnaceBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
-
-```diff
-+ VoxelShape X_AXIS_AABB
-+ VoxelShape Y_AXIS_AABB
-+ VoxelShape Z_AXIS_AABB
-+ BlockState mirror(Mirror)
-+ BlockState rotate(Rotation)
-+ boolean isPathfindable(PathComputationType)
-+ void <clinit>()
-+ VoxelShape getShape(CollisionContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FallingBlock</summary>
-
-```diff
-+ void onBroken(FallingBlockEntity)
-+ void onLand(FallingBlockEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
-
-```diff
-+ boolean isSameFence(Block)
-- boolean isSameFence(BlockState)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
-
-```diff
-- boolean isEmpty()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
+<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
 
 ```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
-
-```diff
+- boolean canAttachTo(BlockState)
 + boolean canAttachToBlock(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
+
+```diff
 - boolean canAttachTo(BlockState)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
+<details><summary>net.minecraft.world.level.block.SimpleWaterloggedBlock</summary>
+
+```diff
++ Fluid takeLiquid(LevelAccessor,BlockPos,BlockState)
+- ItemStack pickupBlock(LevelAccessor,BlockPos,BlockState)
+- Optional getPickupSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SmokerBlock</summary>
 
 ```diff
 + BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
+<details><summary>net.minecraft.world.level.block.SoulFireBlock</summary>
 
 ```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SignBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
++ boolean canSurviveOnBlock(Block)
+- boolean canSurviveOnBlock(BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
+<details><summary>net.minecraft.world.level.block.StairBlock</summary>
 
 ```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-- BlockEntityTicker getTicker(BlockEntityType)
++ void prepareRender(BlockGetter,BlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.StemBlock</summary>
+<details><summary>net.minecraft.world.level.block.entity.BeaconBlockEntity</summary>
 
 ```diff
-- Supplier seedSupplier
-+ Item getSeedItem()
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
-
-```diff
-+ BlockEntity newBlockEntity(BlockGetter)
-- BlockEntity newBlockEntity(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BaseContainerBlockEntity</summary>
-
-```diff
-+ void <init>(BlockEntityType)
-+ void load(CompoundTag)
-- void <init>(BlockState)
++ int getLevels()
+- int updateBase(Level,int,int,int)
++ void <init>()
+- void <init>(BlockPos,BlockState)
++ void applyEffects()
+- void applyEffects(Level,BlockPos,int,MobEffect,MobEffect)
++ void load(BlockState,CompoundTag)
 - void load(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.BedBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void <init>(DyeColor)
-- void <init>(BlockState)
-- void <init>(DyeColor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntityType</summary>
-
-```diff
-+ Supplier factory
-- BlockEntityType SCULK_SENSOR
-- BlockEntityType$BlockEntitySupplier factory
-+ BlockEntity create()
-+ boolean isValid(Block)
-+ void <init>(Type)
-- BlockEntity create(BlockState)
-- boolean isValid(BlockState)
-- void <init>(Type)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.DispenserBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void <init>(BlockEntityType)
-+ void load(CompoundTag)
-- void <init>(BlockState)
-- void <init>(BlockState)
-- void load(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.EnchantmentTableBlockEntity</summary>
-
-```diff
-+ void <init>()
-+ void load(CompoundTag)
+- void playSound(Level,BlockPos,SoundEvent)
++ void playSound(SoundEvent)
+- void setLevel(Level)
 + void tick()
-- void <init>(BlockState)
-- void bookAnimationTick(EnchantmentTableBlockEntity)
-- void load(CompoundTag)
+- void tick(Level,BlockPos,BlockState,BeaconBlockEntity)
++ void updateBase(int,int,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
+
+```diff
++ boolean releaseOccupant(BlockState,BeehiveBlockEntity$BeeData,List,BeehiveBlockEntity$BeeReleaseStatus)
+- boolean releaseOccupant(Level,BlockPos,BlockState,BeehiveBlockEntity$BeeData,List,BeehiveBlockEntity$BeeReleaseStatus,BlockPos)
++ void <init>()
+- void <init>(BlockPos,BlockState)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
++ void sendDebugPackets()
+- void serverTick(Level,BlockPos,BlockState,BeehiveBlockEntity)
++ void tick()
++ void tickOccupants()
+- void tickOccupants(Level,BlockPos,BlockState,List,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BellBlockEntity</summary>
+
+```diff
++ boolean areRaidersNearby()
+- boolean areRaidersNearby(BlockPos,List)
+- boolean isRaiderWithinRange(BlockPos,LivingEntity)
++ boolean isRaiderWithinRange(LivingEntity)
+- boolean lambda$makeRaidersGlow$0(BlockPos,LivingEntity)
++ boolean lambda$showBellParticles$0(BlockPos,LivingEntity)
+- boolean lambda$showBellParticles$1(BlockPos,LivingEntity)
+- boolean lambda$showBellParticles$2(BlockPos,LivingEntity)
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void clientTick(Level,BlockPos,BlockState,BellBlockEntity)
++ void lambda$showBellParticles$1(BlockPos,int,MutableInt,Level,LivingEntity)
+- void lambda$showBellParticles$3(BlockPos,int,MutableInt,Level,LivingEntity)
+- void makeRaidersGlow(Level,BlockPos,List)
++ void makeRaidersGlow(Level)
++ void playResonateSound()
+- void serverTick(Level,BlockPos,BlockState,BellBlockEntity)
+- void showBellParticles(Level,BlockPos,List)
++ void showBellParticles(Level)
++ void tick()
+- void tick(Level,BlockPos,BlockState,BellBlockEntity,BellBlockEntity$ResonationEndAction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.DaylightDetectorBlockEntity</summary>
 
 ```diff
 + void <init>()
-+ void load(CompoundTag)
-- void <init>(BlockState)
-- void load(CompoundTag)
+- void <init>(BlockPos,BlockState)
++ void tick()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.entity.SmokerBlockEntity</summary>
+
+<details><summary>net.minecraft.world.level.block.entity.DropperBlockEntity</summary>
 
 ```diff
 + void <init>()
-- void <init>(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity$1</summary>
-
-```diff
-+ BlockPos getPos()
-+ Level getLevel()
-+ void broadcastEvent(int)
-+ void setNextSpawnData(SpawnData)
-- void broadcastEvent(BlockPos,int)
-- void setNextSpawnData(SpawnData)
+- void <init>(BlockPos,BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+<details><summary>net.minecraft.world.level.block.entity.EnderChestBlockEntity</summary>
 
 ```diff
-+ boolean lastSaveHadEntities
-+ ClassInstanceMultiMap[] entitySections
-+ long lastSaveTime
-- Int2ObjectMap gameEventDispatcherSections
-- Map tickersInLevel
-- TickingBlockEntity NULL_TICKER
-+ Block lambda$unpackTicks$9(BlockPos)
-+ boolean lambda$getLights$6(BlockPos)
-+ boolean lambda$replaceWithPacketData$4(BlockPos)
-+ boolean lambda$replaceWithPacketData$5(BlockPos)
-+ ClassInstanceMultiMap[] getEntitySections()
-+ Entity lambda$new$0(Entity)
-+ Fluid lambda$unpackTicks$10(BlockPos)
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void lidAnimateTick(Level,BlockPos,BlockState,EnderChestBlockEntity)
+- void recheckOpen()
++ void setRemoved()
++ void startOpen()
+- void startOpen(Player)
++ void stopOpen()
+- void stopOpen(Player)
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
+
+```diff
+- AABB getBoundingBox(Direction,float)
++ AABB getBoundingBox(Direction)
+- AABB getTopBoundingBox(Direction,float)
++ AABB getTopBoundingBox(Direction)
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void <init>(DyeColor,BlockPos,BlockState)
++ void <init>(DyeColor)
++ void doNeighborUpdates()
+- void doNeighborUpdates(Level,BlockPos,BlockState)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
++ void moveCollidedEntities()
+- void moveCollidedEntities(Level,BlockPos,BlockState,float)
++ void tick()
+- void tick(Level,BlockPos,BlockState,ShulkerBoxBlockEntity)
++ void updateAnimation()
+- void updateAnimation(Level,BlockPos,BlockState,ShulkerBoxBlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void dragonHeadAnimation(Level,BlockPos,BlockState,SkullBlockEntity)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void clientTick(Level,BlockPos,BlockState,SpawnerBlockEntity)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+- void serverTick(Level,BlockPos,BlockState,SpawnerBlockEntity)
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
++ Component getDisplayName()
++ void <init>()
+- void <init>(BlockPos,BlockState)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
++ void nextMode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
+
+```diff
 + LevelLightEngine getLightEngine()
-+ LongSet lambda$addReferenceForFeature$8(StructureFeature)
-+ LongSet lambda$getReferencesForFeature$7(StructureFeature)
-+ void <init>(ProtoChunk)
-+ void addBlockEntity(BlockEntity)
-+ void getEntities(Predicate)
-+ void getEntities(Predicate)
-+ void getEntitiesOfClass(Predicate)
-+ void removeEntity(Entity,int)
-+ void removeEntity(Entity)
-+ void setBlockEntity(BlockEntity)
-+ void setLastSaveHadEntities(boolean)
-+ void setLastSaveTime(long)
-- Block lambda$unpackTicks$8(BlockPos)
-- boolean access$200(BlockPos)
-- boolean isInLevel()
-- boolean isPositionInSection(BlockPos)
-- boolean isTicking(BlockPos)
-- boolean lambda$getLights$5(BlockPos)
-- boolean lambda$replaceWithPacketData$4(BlockEntity)
-- Fluid lambda$unpackTicks$9(BlockPos)
-- GameEventDispatcher getEventDispatcher(int)
-- GameEventDispatcher lambda$getEventDispatcher$0(int)
-- int getHeight()
-- int getMinBuildHeight()
-- Level access$300(LevelChunk)
-- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$11(LevelChunk$RebindableTickingBlockEntityWrapper)
-- Logger access$400()
-- LongSet lambda$addReferenceForFeature$7(StructureFeature)
-- LongSet lambda$getReferencesForFeature$6(StructureFeature)
-- TickingBlockEntity createTicker(BlockEntityTicker)
-- void <init>(Consumer)
-- void addAndRegisterBlockEntity(BlockEntity)
-- void addGameEventListener(BlockEntity)
-- void invalidateAllBlockEntities()
-- void lambda$registerAllBlockEntitiesAfterLevelLoad$10(BlockEntity)
-- void onBlockEntityRemove(BlockEntity)
-- void registerAllBlockEntitiesAfterLevelLoad()
-- void removeBlockEntityTicker(BlockPos)
-- void removeGameEventListener(BlockEntity)
 - void setBlockEntity(BlockEntity)
-- void updateBlockEntityTicker(BlockEntity)
++ void setBlockEntity(BlockPos,BlockEntity)
++ void setLastSaveTime(long)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.chunk.storage.IOWorker</summary>
+
+<details><summary>net.minecraft.world.level.chunk.storage.OldChunkStorage</summary>
 
 ```diff
-+ Either lambda$load$2(ChunkPos)
-- CompletableFuture loadAsync(ChunkPos)
-- Either lambda$loadAsync$2(ChunkPos)
+- void <clinit>()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.chunk.storage.IOWorker$Priority</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
 
 ```diff
-+ IOWorker$Priority HIGH
-+ IOWorker$Priority LOW
-- IOWorker$Priority BACKGROUND
-- IOWorker$Priority FOREGROUND
-- IOWorker$Priority SHUTDOWN
++ BlockGetter getBaseColumn(int,int)
+- NoiseColumn getBaseColumn(int,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
 
 ```diff
-+ Object chance(int)
-- Object rarity(int)
++ BlockGetter getBaseColumn(int,int)
+- NoiseColumn getBaseColumn(int,int)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
 
 ```diff
-+ boolean isIcebergBlock(Block)
-- boolean isIcebergState(BlockState)
++ BlockGetter lambda$findSuitableY$0(ChunkGenerator,BlockPos)
++ int randomIntInclusive(Random,int,int)
+- NoiseColumn lambda$findSuitableY$0(ChunkGenerator,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ boolean doPlace(TreeConfiguration)
-+ void lambda$doPlace$6(FoliagePlacer$FoliageAttachment)
-+ void simulate(FeatureConfiguration)
-+ void simulate(TreeConfiguration)
-- boolean doPlace(TreeConfiguration)
-- void lambda$doPlace$6(FoliagePlacer$FoliageAttachment)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.LavaFluid</summary>
+<details><summary>net.minecraft.world.level.material.WaterFluid</summary>
 
 ```diff
 - Optional getPickupSound()
@@ -10966,177 +5594,137 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
+<details><summary>net.minecraft.world.level.newbiome.context.LazyAreaContext</summary>
 
 ```diff
++ long getMixedSeed()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData$HoldingPlayer</summary>
+
+```diff
+- MapItemSavedData$MapPatch createPatch()
+- Packet access$200(MapItemSavedData$HoldingPlayer,int)
+- Packet nextUpdatePacket(int)
++ Packet nextUpdatePacket(ItemStack)
+- void <init>(MapItemSavedData,Player,MapItemSavedData$1)
+- void access$300(MapItemSavedData$HoldingPlayer,int,int)
+- void access$400(MapItemSavedData$HoldingPlayer)
+- void markColorsDirty(int,int)
+- void markDecorationsDirty()
++ void markDirty(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.CommandStorage$Container</summary>
+
+```diff
+- CommandStorage$Container access$100(CommandStorage$Container,CompoundTag)
+- CommandStorage$Container load(CompoundTag)
+- void <init>()
+- void <init>(CommandStorage$1)
++ void <init>(String)
++ void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.DimensionDataStorage</summary>
+
+```diff
+- SavedData computeIfAbsent(Function,Supplier,String)
++ SavedData computeIfAbsent(Supplier,String)
+- SavedData get(Function,String)
++ SavedData get(Supplier,String)
+- SavedData readSavedData(Function,String)
++ SavedData readSavedData(Supplier,String)
+- void lambda$save$0(String,SavedData)
++ void set(SavedData)
+- void set(String,SavedData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
+
+```diff
++ void <init>(DataFixer,int,CompoundTag,boolean,int,int,int,float,long,long,int,int,int,boolean,int,boolean,boolean,boolean,WorldBorder$Settings,int,int,UUID,LinkedHashSet,TimerQueue,CompoundTag,CompoundTag,LevelSettings,WorldGenSettings,Lifecycle)
+- void <init>(DataFixer,int,CompoundTag,boolean,int,int,int,float,long,long,int,int,int,boolean,int,boolean,boolean,boolean,WorldBorder$Settings,int,int,UUID,Set,TimerQueue,CompoundTag,CompoundTag,LevelSettings,WorldGenSettings,Lifecycle)
+- void fillCrashReportCategory(CrashReportCategory,LevelHeightAccessor)
 + void fillCrashReportCategory(CrashReportCategory)
-- void fillCrashReportCategory(LevelHeightAccessor)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.LevelData</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction</summary>
 
 ```diff
-+ String lambda$fillCrashReportCategory$0()
-+ void fillCrashReportCategory(CrashReportCategory)
-- String lambda$fillCrashReportCategory$0(LevelHeightAccessor)
-- void fillCrashReportCategory(LevelHeightAccessor)
++ CopyNbtFunction$Builder copyData(CopyNbtFunction$DataSource)
+- CopyNbtFunction$Builder copyData(LootContext$EntityTarget)
+- CopyNbtFunction$Builder copyData(NbtProvider)
++ CopyNbtFunction$DataSource access$800(CopyNbtFunction)
++ Function access$600()
++ Function access$700()
+- List access$700(CopyNbtFunction)
++ List access$900(CopyNbtFunction)
+- NbtProvider access$600(CopyNbtFunction)
++ Tag lambda$static$1(BlockEntity)
++ void <clinit>()
++ void <init>(LootItemCondition[],CopyNbtFunction$DataSource,List,CopyNbtFunction$1)
++ void <init>(LootItemCondition[],CopyNbtFunction$DataSource,List)
+- void <init>(LootItemCondition[],NbtProvider,List,CopyNbtFunction$1)
+- void <init>(LootItemCondition[],NbtProvider,List)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.ServerLevelData</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Builder</summary>
 
 ```diff
-+ void fillCrashReportCategory(CrashReportCategory)
-- void fillCrashReportCategory(LevelHeightAccessor)
++ void <init>(CopyNbtFunction$DataSource,CopyNbtFunction$1)
++ void <init>(CopyNbtFunction$DataSource)
+- void <init>(NbtProvider,CopyNbtFunction$1)
+- void <init>(NbtProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
 
 ```diff
-+ RandomIntGenerator rolls
-+ RandomValueBounds bonusRolls
-- NumberProvider bonusRolls
-- NumberProvider rolls
-+ LootPoolEntryContainer[] access$200(LootPool)
-+ RandomIntGenerator access$100(LootPool)
-+ RandomValueBounds access$300(LootPool)
-+ void <init>(LootPool$1)
-+ void <init>(RandomValueBounds)
-- LootPoolEntryContainer[] access$300(LootPool)
-- NumberProvider access$100(LootPool)
-- NumberProvider access$200(LootPool)
-- void <init>(LootPool$1)
-- void <init>(NumberProvider)
+- VoxelShape create(double,double,double,double,double,double)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
+
+<details><summary>net.minecraft.world.phys.shapes.VoxelShape</summary>
 
 ```diff
-+ RandomIntGenerator rolls
-+ RandomValueBounds bonusRolls
-- NumberProvider bonusRolls
-- NumberProvider rolls
-+ LootPool$Builder setBonusRolls(RandomValueBounds)
-+ LootPool$Builder setRolls(RandomIntGenerator)
-- LootPool$Builder setBonusRolls(NumberProvider)
-- LootPool$Builder setRolls(NumberProvider)
++ boolean isFullWide(double,double,double)
++ boolean lambda$findIndex$4(Direction$Axis,double,int)
+- boolean lambda$findIndex$4(double,Direction$Axis,int)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer</summary>
-
-```diff
-- IllegalStateException lambda$serializeCustom$0()
-- JsonParseException lambda$deserialize$1(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.SubShape</summary>
-
-```diff
-+ void setFull(int,int,int,boolean,boolean)
-- int clampToShape(Direction$Axis,int)
-- void fill(int,int,int)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockInput
@@ -13676,13 +8264,3393 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.DetectedVersion</summary>
+
+```diff
++ int getPackVersion()
+- int getPackVersion(PackType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+
+```diff
++ boolean lambda$trigger$1(Block,ItemStack,int,BeeNestDestroyedTrigger$TriggerInstance)
+- boolean lambda$trigger$1(BlockState,ItemStack,int,BeeNestDestroyedTrigger$TriggerInstance)
++ void trigger(ServerPlayer,Block,ItemStack,int)
+- void trigger(ServerPlayer,BlockState,ItemStack,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$1()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
+
+```diff
++ void trigger(ServerPlayer,Animal,Animal,AgableMob)
+- void trigger(ServerPlayer,Animal,Animal,AgeableMob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(BeaconBlockEntity,ConstructBeaconTrigger$TriggerInstance)
+- boolean lambda$trigger$0(int,ConstructBeaconTrigger$TriggerInstance)
++ void trigger(ServerPlayer,BeaconBlockEntity)
+- void trigger(ServerPlayer,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$1()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
+
+```diff
+- IllegalStateException lambda$serializeToJson$3()
+- JsonSyntaxException lambda$fromJson$2(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction</summary>
+
+```diff
+- Direction getFacingAxis(Entity,Direction$Axis)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction8</summary>
+
+```diff
++ int getSideMask(boolean,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
+
+```diff
+- App lambda$static$2(RecordCodecBuilder$Instance)
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ float getB()
++ float getG()
++ float getR()
++ float getScale()
++ Float lambda$null$0(DustParticleOptions)
++ Float lambda$null$2(DustParticleOptions)
++ Float lambda$null$3(DustParticleOptions)
++ String writeToString()
+- Vec3 lambda$null$0(DustParticleOptions)
++ void <init>(float,float,float,float)
+- void <init>(Vec3,float)
++ void writeToNetwork(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
+
+```diff
+- CompoundTag update(String,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.ByteArrayTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.ByteTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ String toString()
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ Component handleEscapePretty(String)
++ String handleEscape(String)
+- void accept(TagVisitor)
++ void stripEmptyChildren()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.DoubleTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ String toString()
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.EndTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.FloatTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ String toString()
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.IntArrayTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.IntTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ String toString()
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtUtils</summary>
+
+```diff
+- Component toPrettyComponent(Tag)
+- CompoundTag packStructureTemplate(CompoundTag)
+- CompoundTag snbtToStructure(String)
+- CompoundTag unpackBlockState(String)
+- CompoundTag unpackStructureTemplate(CompoundTag)
+- double lambda$static$3(ListTag)
+- double lambda$static$4(ListTag)
+- double lambda$static$5(ListTag)
+- int lambda$static$0(ListTag)
+- int lambda$static$1(ListTag)
+- int lambda$static$2(ListTag)
+- ListTag lambda$packStructureTemplate$7(CompoundTag)
+- ListTag lambda$packStructureTemplate$8(CompoundTag)
+- ListTag lambda$unpackStructureTemplate$10(Map,CompoundTag)
+- String lambda$packBlockState$11(CompoundTag,String)
+- String packBlockState(CompoundTag)
+- String structureToSnbt(CompoundTag)
+- void lambda$packStructureTemplate$6(ListTag,ListTag,ListTag)
+- void lambda$packStructureTemplate$9(ListTag,CompoundTag)
+- void lambda$unpackBlockState$12(CompoundTag,String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.ShortTag</summary>
+
+```diff
++ Component getPrettyDisplay(String,int)
++ String toString()
+- void accept(TagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.Connection</summary>
+
+```diff
+- ConnectionProtocol getCurrentProtocol()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+
+```diff
+- MutableComponent optionNameValue(Component,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedPlayerList</summary>
+
+```diff
++ void blackList(GameProfile)
++ void whiteList(GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkHolder</summary>
+
+```diff
++ Either lambda$updateFutures$5(ChunkMap,Either)
+- Either lambda$updateFutures$8(ChunkMap,Either)
+- void <init>(ChunkPos,int,LevelHeightAccessor,LevelLightEngine,ChunkHolder$LevelChangeListener,ChunkHolder$PlayerProvider)
++ void <init>(ChunkPos,int,LevelLightEngine,ChunkHolder$LevelChangeListener,ChunkHolder$PlayerProvider)
+- void demoteFullChunk(ChunkMap,ChunkHolder$FullChunkStatus)
+- void lambda$null$6(CompletableFuture,LevelChunk)
+- void lambda$scheduleFullChunkPromotion$5(ChunkMap,ChunkHolder$FullChunkStatus)
+- void lambda$scheduleFullChunkPromotion$7(CompletableFuture,Either)
+- void scheduleFullChunkPromotion(ChunkMap,CompletableFuture,Executor,ChunkHolder$FullChunkStatus)
+- void updateFutures(ChunkMap,Executor)
++ void updateFutures(ChunkMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.PackType</summary>
+
+```diff
+- int getVersion(GameVersion)
+- void <init>(String,int,String,PackType)
++ void <init>(String,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
+- void <init>(PackMetadataSection,String[])
++ void <init>(String[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.Pack</summary>
+
+```diff
++ void <init>(String,boolean,Supplier,PackResources,PackMetadataSection,Pack$Position,PackSource)
+- void <init>(String,Component,boolean,Supplier,PackMetadataSection,PackType,Pack$Position,PackSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
+
+```diff
+- Pack lambda$new$0(PackType,String,Component,boolean,Supplier,PackMetadataSection,Pack$Position,PackSource)
+- void <init>(PackType,RepositorySource[])
++ void <init>(RepositorySource[])
++ void lambda$discoverAvailable$0(Map,Pack)
+- void lambda$discoverAvailable$1(Map,Pack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.sounds.SoundSource</summary>
+
+```diff
++ Set getNames()
++ SoundSource byName(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.EntityTypeTags</summary>
+
+```diff
++ List getWrappers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagContainer$1</summary>
+
+```diff
++ TagCollection getBlocks()
++ TagCollection getEntityTypes()
++ TagCollection getFluids()
++ TagCollection getItems()
++ void <init>(TagCollection,TagCollection,TagCollection,TagCollection)
+- void <init>(TagContainer,RegistryAccess,Map)
+- void accept(ResourceKey,TagCollection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagManager</summary>
+
+```diff
+- CompletableFuture lambda$reload$1(TagManager$LoaderInfo)
+- CompletableFuture[] lambda$reload$2(int)
++ String lambda$null$0(Map$Entry)
+- String lambda$null$4(Map$Entry)
+- TagCollection lambda$createLoader$6(TagLoader,ResourceManager)
+- TagManager$LoaderInfo createLoader(ResourceManager,Executor,StaticTagHelper)
+- void <clinit>()
++ void <init>()
+- void <init>(RegistryAccess)
+- void lambda$null$3(TagContainer$Builder,TagManager$LoaderInfo)
+- void lambda$reload$0(ResourceManager,Executor,List,StaticTagHelper)
++ void lambda$reload$1(CompletableFuture,CompletableFuture,CompletableFuture,CompletableFuture,Void)
+- void lambda$reload$5(List,Void)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
+- double clampedMap(double,double,double,double,double)
+- double map(double,double,double,double,double)
+- double wobble(double)
+- float normal(Random,float,float)
+- float randomBetween(Random,float,float)
+- int randomBetweenInclusive(Random,int,int)
+- int roundToward(int,int)
++ int roundUp(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.References</summary>
+
+```diff
+- String lambda$static$25()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V1460</summary>
+
+```diff
+- TypeTemplate lambda$registerTypes$46(Schema)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.BossEvent</summary>
+
+```diff
++ float getPercent()
+- float getProgress()
++ void setPercent(float)
+- void setProgress(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.SimpleContainer</summary>
+
+```diff
++ boolean isSameItem(ItemStack,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
+
+```diff
++ boolean canUse()
+- boolean lambda$tick$0(Map$Entry)
++ List getEffects()
++ void use()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LightningBolt</summary>
+
+```diff
+- void powerLightningRod()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
+
+```diff
++ AgableMob getNearestAdult(AgableMob)
+- AgeableMob getNearestAdult(AgeableMob)
++ boolean checkExtraStartConditions(ServerLevel,AgableMob)
+- boolean checkExtraStartConditions(ServerLevel,AgeableMob)
+- Float lambda$new$0(float,LivingEntity)
+- void <init>(IntRange,Function)
++ void start(ServerLevel,AgableMob,long)
+- void start(ServerLevel,AgeableMob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
+
+```diff
++ boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,Item)
+- boolean lambda$isHoldingUsableProjectileWeapon$0(Mob,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
+
+```diff
++ AgableMob getBreedOffspring(ServerLevel,AgableMob)
+- AgeableMob getBreedOffspring(ServerLevel,AgeableMob)
++ Cat getBreedOffspring(ServerLevel,AgableMob)
+- Cat getBreedOffspring(ServerLevel,AgeableMob)
+- void usePlayerItem(Player,InteractionHand,ItemStack)
++ void usePlayerItem(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
+
+```diff
++ AgableMob getBreedOffspring(ServerLevel,AgableMob)
+- AgeableMob getBreedOffspring(ServerLevel,AgeableMob)
++ Chicken getBreedOffspring(ServerLevel,AgableMob)
+- Chicken getBreedOffspring(ServerLevel,AgeableMob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cow</summary>
+
+```diff
++ AgableMob getBreedOffspring(ServerLevel,AgableMob)
+- AgeableMob getBreedOffspring(ServerLevel,AgeableMob)
++ Cow getBreedOffspring(ServerLevel,AgableMob)
+- Cow getBreedOffspring(ServerLevel,AgeableMob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
++ AgableMob getBreedOffspring(ServerLevel,AgableMob)
+- AgeableMob getBreedOffspring(ServerLevel,AgeableMob)
+- boolean lambda$getSlot$1(ItemStack)
+- boolean lambda$getSlot$2(ItemStack)
++ boolean setSlot(int,ItemStack)
++ float getJumpRidingScale()
+- SlotAccess createEquipmentSlotAccess(int,Predicate)
+- SlotAccess getSlot(int)
++ void setJumpRidingScale(float)
++ void setOffspringAttributes(AgableMob,AbstractHorse)
+- void setOffspringAttributes(AgeableMob,AbstractHorse)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.EnderDragonPart</summary>
+
+```diff
+- boolean shouldBeSaved()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
+
+```diff
++ void dropExperience(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame$1</summary>
+
+```diff
+- boolean set(ItemStack)
+- ItemStack get()
++ void <clinit>()
+- void <init>(ItemFrame)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
+
+```diff
+- boolean lambda$tickBubbleColumn$0(Entity)
+- ItemStack getPickResult()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
+
+```diff
++ Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner$1</summary>
+
+```diff
++ BlockPos getPos()
++ Level getLevel()
++ void broadcastEvent(int)
+- void broadcastEvent(Level,BlockPos,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+
+```diff
++ boolean consideredTheSameItem(ItemStack,ItemStack)
++ Slot getSlotFor(Container,int)
++ void addItem(int,ItemStack)
+- void clearContainer(Player,Container)
++ void clearContainer(Player,Level,Container)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BucketItem</summary>
+
+```diff
++ boolean emptyBucket(Player,Level,BlockPos,BlockHitResult)
+- boolean emptyContents(Player,Level,BlockPos,BlockHitResult)
+- void lambda$use$0(Player,SoundEvent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.FireworkRocketItem</summary>
+
+```diff
+- ItemStack getDefaultInstance()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.PickaxeItem</summary>
+
+```diff
+- void lambda$static$0(Object2IntOpenHashMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.EntityGetter</summary>
+
+```diff
+- boolean lambda$getNearbyEntities$2(LivingEntity)
+- boolean lambda$getNearestEntity$1(LivingEntity)
+- List getEntitiesOfClass(Class,AABB,Predicate)
++ List getLoadedEntitiesOfClass(Class,AABB,Predicate)
++ List getLoadedEntitiesOfClass(Class,AABB)
++ LivingEntity getNearestLoadedEntity(Class,TargetingConditions,LivingEntity,double,double,double,AABB)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules</summary>
+
+```diff
++ void <init>(GameRules,MinecraftServer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameType</summary>
+
+```diff
++ Component getDisplayName()
+- Component getLongDisplayName()
+- Component getShortDisplayName()
+- GameType byNullableId(int)
+- int getNullableId(GameType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AttachedStemBlock</summary>
+
+```diff
++ Item getSeedItem()
++ void <init>(StemGrownBlock,BlockBehaviour$Properties)
+- void <init>(StemGrownBlock,Supplier,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseEntityBlock</summary>
+
+```diff
+- BlockEntityTicker createTickerHelper(BlockEntityType,BlockEntityType,BlockEntityTicker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+
+```diff
+- void checkPressed(Entity,Level,BlockPos,BlockState,int)
++ void checkPressed(Level,BlockPos,BlockState,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
++ boolean is(Block)
++ boolean is(Tag)
++ boolean isExceptionForConnection(Block)
+- boolean isExceptionForConnection(BlockState)
+- boolean shouldRenderFace(BlockState,BlockGetter,BlockPos,Direction,BlockPos)
++ boolean shouldRenderFace(BlockState,BlockGetter,BlockPos,Direction)
++ int getTickDelay(LevelReader)
+- void handlePrecipitation(BlockState,Level,BlockPos,Biome$Precipitation)
++ void handleRain(Level,BlockPos)
++ void prepareRender(BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ BlockEntityType lambda$static$12()
+- BlockEntityType lambda$static$14()
++ boolean lambda$static$13(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$15(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$28(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$30(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$35(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$37(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$48(BlockState,BlockGetter,BlockPos)
++ ConfiguredFeature lambda$static$35()
++ ConfiguredFeature lambda$static$36()
+- ConfiguredFeature lambda$static$42()
+- ConfiguredFeature lambda$static$43()
+- ConfiguredFeature lambda$static$8()
+- ConfiguredFeature lambda$static$9()
+- int lambda$static$12(BlockState)
+- int lambda$static$13(BlockState)
++ int lambda$static$14(BlockState)
++ int lambda$static$15(BlockState)
++ int lambda$static$21(BlockState)
++ int lambda$static$22(BlockState)
++ int lambda$static$23(BlockState)
++ int lambda$static$24(BlockState)
+- int lambda$static$28(BlockState)
+- int lambda$static$30(BlockState)
+- int lambda$static$36(BlockState)
++ int lambda$static$37(BlockState)
+- int lambda$static$40(BlockState)
+- int lambda$static$41(BlockState)
+- int lambda$static$44(BlockState)
+- int lambda$static$45(BlockState)
+- int lambda$static$46(BlockState)
+- int lambda$static$47(BlockState)
++ int lambda$static$8(BlockState)
++ int lambda$static$9(BlockState)
+- Item lambda$static$21()
+- Item lambda$static$22()
+- Item lambda$static$23()
+- Item lambda$static$24()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndPortalBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
++ BlockState mirror(BlockState,Mirror)
++ BlockState rotate(BlockState,Rotation)
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
++ void <clinit>()
++ VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FallingBlock</summary>
+
+```diff
++ void onBroken(Level,BlockPos,FallingBlockEntity)
++ void onLand(Level,BlockPos,BlockState,BlockState,FallingBlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
+
+```diff
++ boolean isSameFence(Block)
+- boolean isSameFence(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+
+```diff
+- boolean isEmpty()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
+
+```diff
+- boolean canAttachTo(BlockState)
++ boolean canAttachToBlock(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SignBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+- BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StemBlock</summary>
+
+```diff
++ Item getSeedItem()
++ void <init>(StemGrownBlock,BlockBehaviour$Properties)
+- void <init>(StemGrownBlock,Supplier,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
+
+```diff
++ BlockEntity newBlockEntity(BlockGetter)
+- BlockEntity newBlockEntity(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BaseContainerBlockEntity</summary>
+
+```diff
+- void <init>(BlockEntityType,BlockPos,BlockState)
++ void <init>(BlockEntityType)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BedBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState,DyeColor)
+- void <init>(BlockPos,BlockState)
++ void <init>(DyeColor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BlockEntityType</summary>
+
+```diff
++ BlockEntity create()
+- BlockEntity create(BlockPos,BlockState)
++ boolean isValid(Block)
+- boolean isValid(BlockState)
+- void <init>(BlockEntityType$BlockEntitySupplier,Set,Type)
++ void <init>(Supplier,Set,Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.DispenserBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockEntityType,BlockPos,BlockState)
++ void <init>(BlockEntityType)
+- void <init>(BlockPos,BlockState)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.EnchantmentTableBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState)
+- void bookAnimationTick(Level,BlockPos,BlockState,EnchantmentTableBlockEntity)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState)
++ void load(BlockState,CompoundTag)
+- void load(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SmokerBlockEntity</summary>
+
+```diff
++ void <init>()
+- void <init>(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity$1</summary>
+
+```diff
++ BlockPos getPos()
++ Level getLevel()
++ void broadcastEvent(int)
+- void broadcastEvent(Level,BlockPos,int)
+- void setNextSpawnData(Level,BlockPos,SpawnData)
++ void setNextSpawnData(SpawnData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+
+```diff
+- Block lambda$unpackTicks$8(BlockPos)
++ Block lambda$unpackTicks$9(BlockPos)
+- boolean access$200(LevelChunk,BlockPos)
+- boolean isInLevel()
+- boolean isPositionInSection(int,BlockPos)
+- boolean isTicking(BlockPos)
+- boolean lambda$getLights$5(BlockPos)
++ boolean lambda$getLights$6(BlockPos)
++ boolean lambda$replaceWithPacketData$4(BlockPos)
+- boolean lambda$replaceWithPacketData$4(int,BlockEntity)
++ boolean lambda$replaceWithPacketData$5(int,BlockPos)
++ ClassInstanceMultiMap[] getEntitySections()
++ Entity lambda$new$0(Entity)
++ Fluid lambda$unpackTicks$10(BlockPos)
+- Fluid lambda$unpackTicks$9(BlockPos)
+- GameEventDispatcher getEventDispatcher(int)
+- GameEventDispatcher lambda$getEventDispatcher$0(int)
+- int getHeight()
+- int getMinBuildHeight()
+- Level access$300(LevelChunk)
+- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$11(BlockEntity,BlockEntityTicker,BlockPos,LevelChunk$RebindableTickingBlockEntityWrapper)
++ LevelLightEngine getLightEngine()
+- Logger access$400()
+- LongSet lambda$addReferenceForFeature$7(StructureFeature)
++ LongSet lambda$addReferenceForFeature$8(StructureFeature)
+- LongSet lambda$getReferencesForFeature$6(StructureFeature)
++ LongSet lambda$getReferencesForFeature$7(StructureFeature)
+- TickingBlockEntity createTicker(BlockEntity,BlockEntityTicker)
++ void <init>(Level,ProtoChunk)
+- void <init>(ServerLevel,ProtoChunk,Consumer)
+- void addAndRegisterBlockEntity(BlockEntity)
++ void addBlockEntity(BlockEntity)
+- void addGameEventListener(BlockEntity)
++ void getEntities(Entity,AABB,List,Predicate)
++ void getEntities(EntityType,AABB,List,Predicate)
++ void getEntitiesOfClass(Class,AABB,List,Predicate)
+- void invalidateAllBlockEntities()
+- void lambda$registerAllBlockEntitiesAfterLevelLoad$10(BlockEntity)
+- void onBlockEntityRemove(BlockEntity)
+- void registerAllBlockEntitiesAfterLevelLoad()
+- void removeBlockEntityTicker(BlockPos)
++ void removeEntity(Entity,int)
++ void removeEntity(Entity)
+- void removeGameEventListener(BlockEntity)
+- void setBlockEntity(BlockEntity)
++ void setBlockEntity(BlockPos,BlockEntity)
++ void setLastSaveHadEntities(boolean)
++ void setLastSaveTime(long)
+- void updateBlockEntityTicker(BlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.IOWorker</summary>
+
+```diff
+- CompletableFuture loadAsync(ChunkPos)
++ Either lambda$load$2(ChunkPos)
+- Either lambda$loadAsync$2(ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
+
+```diff
++ Object chance(int)
+- Object rarity(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IcebergFeature</summary>
+
+```diff
++ boolean isIcebergBlock(Block)
+- boolean isIcebergState(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ boolean doPlace(LevelSimulatedRW,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
+- boolean doPlace(WorldGenLevel,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
++ void lambda$doPlace$6(TreeConfiguration,LevelSimulatedRW,Random,int,int,int,Set,BoundingBox,FoliagePlacer$FoliageAttachment)
+- void lambda$doPlace$6(TreeConfiguration,WorldGenLevel,Random,int,int,int,Set,BoundingBox,FoliagePlacer$FoliageAttachment)
++ void simulate(FeatureSimulator,Random,BlockPos,FeatureConfiguration)
++ void simulate(FeatureSimulator,Random,BlockPos,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.LavaFluid</summary>
+
+```diff
+- Optional getPickupSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.DerivedLevelData</summary>
+
+```diff
+- void fillCrashReportCategory(CrashReportCategory,LevelHeightAccessor)
++ void fillCrashReportCategory(CrashReportCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelData</summary>
+
+```diff
++ String lambda$fillCrashReportCategory$0()
+- String lambda$fillCrashReportCategory$0(LevelHeightAccessor)
+- void fillCrashReportCategory(CrashReportCategory,LevelHeightAccessor)
++ void fillCrashReportCategory(CrashReportCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.ServerLevelData</summary>
+
+```diff
+- void fillCrashReportCategory(CrashReportCategory,LevelHeightAccessor)
++ void fillCrashReportCategory(CrashReportCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+
+```diff
++ LootPoolEntryContainer[] access$200(LootPool)
+- LootPoolEntryContainer[] access$300(LootPool)
+- NumberProvider access$100(LootPool)
+- NumberProvider access$200(LootPool)
++ RandomIntGenerator access$100(LootPool)
++ RandomValueBounds access$300(LootPool)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider,LootPool$1)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds,LootPool$1)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
+
+```diff
+- LootPool$Builder setBonusRolls(NumberProvider)
++ LootPool$Builder setBonusRolls(RandomValueBounds)
+- LootPool$Builder setRolls(NumberProvider)
++ LootPool$Builder setRolls(RandomIntGenerator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer</summary>
+
+```diff
+- IllegalStateException lambda$serializeCustom$0()
+- JsonParseException lambda$deserialize$1(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.SubShape</summary>
+
+```diff
+- int clampToShape(Direction$Axis,int)
+- void fill(int,int,int)
++ void setFull(int,int,int,boolean,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/building_blocks/amethyst_block.json
+- minecraft/advancements/recipes/building_blocks/copper_block.json
+- minecraft/advancements/recipes/building_blocks/cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/cut_copper.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/tinted_glass.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_block.json
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/weathered_cut_copper.json
+- minecraft/advancements/recipes/decorations/black_candle.json
+- minecraft/advancements/recipes/decorations/blue_candle.json
+- minecraft/advancements/recipes/decorations/brown_candle.json
+- minecraft/advancements/recipes/decorations/candle.json
+- minecraft/advancements/recipes/decorations/cyan_candle.json
+- minecraft/advancements/recipes/decorations/gray_candle.json
+- minecraft/advancements/recipes/decorations/green_candle.json
+- minecraft/advancements/recipes/decorations/light_blue_candle.json
+- minecraft/advancements/recipes/decorations/light_gray_candle.json
+- minecraft/advancements/recipes/decorations/lime_candle.json
+- minecraft/advancements/recipes/decorations/magenta_candle.json
+- minecraft/advancements/recipes/decorations/orange_candle.json
+- minecraft/advancements/recipes/decorations/pink_candle.json
+- minecraft/advancements/recipes/decorations/purple_candle.json
+- minecraft/advancements/recipes/decorations/red_candle.json
+- minecraft/advancements/recipes/decorations/white_candle.json
+- minecraft/advancements/recipes/decorations/yellow_candle.json
+- minecraft/advancements/recipes/misc/copper_ingot_from_blasting.json
+- minecraft/advancements/recipes/misc/copper_ingot_from_copper_block.json
+- minecraft/advancements/recipes/misc/copper_ingot.json
+- minecraft/advancements/recipes/misc/firework_rocket_simple.json
+- minecraft/advancements/recipes/redstone/lightning_rod.json
+- minecraft/advancements/recipes/tools/bundle.json
+- minecraft/advancements/recipes/tools/spyglass.json
+- minecraft/loot_tables/blocks/amethyst_block.json
+- minecraft/loot_tables/blocks/amethyst_cluster.json
+- minecraft/loot_tables/blocks/black_candle_cake.json
+- minecraft/loot_tables/blocks/black_candle.json
+- minecraft/loot_tables/blocks/blue_candle_cake.json
+- minecraft/loot_tables/blocks/blue_candle.json
+- minecraft/loot_tables/blocks/brown_candle_cake.json
+- minecraft/loot_tables/blocks/brown_candle.json
+- minecraft/loot_tables/blocks/budding_amethyst.json
+- minecraft/loot_tables/blocks/calcite.json
+- minecraft/loot_tables/blocks/candle_cake.json
+- minecraft/loot_tables/blocks/candle.json
+- minecraft/loot_tables/blocks/copper_block.json
+- minecraft/loot_tables/blocks/copper_ore.json
+- minecraft/loot_tables/blocks/cut_copper_slab.json
+- minecraft/loot_tables/blocks/cut_copper_stairs.json
+- minecraft/loot_tables/blocks/cut_copper.json
+- minecraft/loot_tables/blocks/cyan_candle_cake.json
+- minecraft/loot_tables/blocks/cyan_candle.json
+- minecraft/loot_tables/blocks/dirt_path.json
+- minecraft/loot_tables/blocks/dripstone_block.json
++ minecraft/loot_tables/blocks/grass_path.json
+- minecraft/loot_tables/blocks/gray_candle_cake.json
+- minecraft/loot_tables/blocks/gray_candle.json
+- minecraft/loot_tables/blocks/green_candle_cake.json
+- minecraft/loot_tables/blocks/green_candle.json
+- minecraft/loot_tables/blocks/large_amethyst_bud.json
+- minecraft/loot_tables/blocks/lava_cauldron.json
+- minecraft/loot_tables/blocks/light_blue_candle_cake.json
+- minecraft/loot_tables/blocks/light_blue_candle.json
+- minecraft/loot_tables/blocks/light_gray_candle_cake.json
+- minecraft/loot_tables/blocks/light_gray_candle.json
+- minecraft/loot_tables/blocks/lightly_weathered_copper_block.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper.json
+- minecraft/loot_tables/blocks/lightning_rod.json
+- minecraft/loot_tables/blocks/lime_candle_cake.json
+- minecraft/loot_tables/blocks/lime_candle.json
+- minecraft/loot_tables/blocks/magenta_candle_cake.json
+- minecraft/loot_tables/blocks/magenta_candle.json
+- minecraft/loot_tables/blocks/medium_amethyst_bud.json
+- minecraft/loot_tables/blocks/orange_candle_cake.json
+- minecraft/loot_tables/blocks/orange_candle.json
+- minecraft/loot_tables/blocks/pink_candle_cake.json
+- minecraft/loot_tables/blocks/pink_candle.json
+- minecraft/loot_tables/blocks/pointed_dripstone.json
+- minecraft/loot_tables/blocks/powder_snow_cauldron.json
+- minecraft/loot_tables/blocks/powder_snow.json
+- minecraft/loot_tables/blocks/purple_candle_cake.json
+- minecraft/loot_tables/blocks/purple_candle.json
+- minecraft/loot_tables/blocks/red_candle_cake.json
+- minecraft/loot_tables/blocks/red_candle.json
+- minecraft/loot_tables/blocks/sculk_sensor.json
+- minecraft/loot_tables/blocks/semi_weathered_copper_block.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper.json
+- minecraft/loot_tables/blocks/small_amethyst_bud.json
+- minecraft/loot_tables/blocks/tinted_glass.json
+- minecraft/loot_tables/blocks/tuff.json
+- minecraft/loot_tables/blocks/water_cauldron.json
+- minecraft/loot_tables/blocks/waxed_copper.json
+- minecraft/loot_tables/blocks/waxed_cut_copper_slab.json
+- minecraft/loot_tables/blocks/waxed_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/waxed_cut_copper.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_copper.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_copper.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper.json
+- minecraft/loot_tables/blocks/weathered_copper_block.json
+- minecraft/loot_tables/blocks/weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/weathered_cut_copper.json
+- minecraft/loot_tables/blocks/white_candle_cake.json
+- minecraft/loot_tables/blocks/white_candle.json
+- minecraft/loot_tables/blocks/yellow_candle_cake.json
+- minecraft/loot_tables/blocks/yellow_candle.json
+- minecraft/loot_tables/entities/axolotl.json
+- minecraft/recipes/amethyst_block.json
+- minecraft/recipes/black_candle.json
+- minecraft/recipes/blue_candle.json
+- minecraft/recipes/brown_candle.json
+- minecraft/recipes/bundle.json
+- minecraft/recipes/candle.json
+- minecraft/recipes/copper_block.json
+- minecraft/recipes/copper_ingot_from_blasting.json
+- minecraft/recipes/copper_ingot_from_copper_block.json
+- minecraft/recipes/copper_ingot.json
+- minecraft/recipes/cut_copper_slab.json
+- minecraft/recipes/cut_copper_stairs.json
+- minecraft/recipes/cut_copper.json
+- minecraft/recipes/cyan_candle.json
+- minecraft/recipes/firework_rocket_simple.json
+- minecraft/recipes/gray_candle.json
+- minecraft/recipes/green_candle.json
+- minecraft/recipes/light_blue_candle.json
+- minecraft/recipes/light_gray_candle.json
+- minecraft/recipes/lightly_weathered_cut_copper_slab.json
+- minecraft/recipes/lightly_weathered_cut_copper_stairs.json
+- minecraft/recipes/lightly_weathered_cut_copper.json
+- minecraft/recipes/lightning_rod.json
+- minecraft/recipes/lime_candle.json
+- minecraft/recipes/magenta_candle.json
+- minecraft/recipes/orange_candle.json
+- minecraft/recipes/pink_candle.json
+- minecraft/recipes/purple_candle.json
+- minecraft/recipes/red_candle.json
+- minecraft/recipes/semi_weathered_cut_copper_slab.json
+- minecraft/recipes/semi_weathered_cut_copper_stairs.json
+- minecraft/recipes/semi_weathered_cut_copper.json
+- minecraft/recipes/spyglass.json
+- minecraft/recipes/tinted_glass.json
+- minecraft/recipes/waxed_copper_cut_slab_from_honeycomb.json
+- minecraft/recipes/waxed_copper_cut_stairs_from_honeycomb.json
+- minecraft/recipes/waxed_copper.json
+- minecraft/recipes/waxed_cut_copper_from_honeycomb.json
+- minecraft/recipes/waxed_cut_copper_from_waxed_block.json
+- minecraft/recipes/waxed_cut_copper_slab.json
+- minecraft/recipes/waxed_cut_copper_stairs.json
+- minecraft/recipes/waxed_lightly_weathered_copper.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_from_waxed_block.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/recipes/waxed_semi_weathered_copper.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_from_waxed_block.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/recipes/weathered_cut_copper_slab.json
+- minecraft/recipes/weathered_cut_copper_stairs.json
+- minecraft/recipes/weathered_cut_copper.json
+- minecraft/recipes/white_candle.json
+- minecraft/recipes/yellow_candle.json
+- minecraft/tags/blocks/candle_cakes.json
+- minecraft/tags/blocks/candles.json
+- minecraft/tags/blocks/cauldrons.json
+- minecraft/tags/blocks/crystal_sound_blocks.json
+- minecraft/tags/blocks/dripstone_replaceable_blocks.json
+- minecraft/tags/blocks/inside_step_sound_blocks.json
+- minecraft/tags/blocks/occludes_vibration_signals.json
+- minecraft/tags/entity_types/axolotl_always_hostiles.json
+- minecraft/tags/entity_types/axolotl_tempted_hostiles.json
+- minecraft/tags/entity_types/powder_snow_walkable_mobs.json
+- minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
+- minecraft/tags/game_events/vibrations.json
+- minecraft/tags/items/axolotl_tempt_items.json
+- minecraft/tags/items/candles.json
+- minecraft/tags/items/freeze_immune_wearables.json
+- minecraft/tags/items/ignored_by_piglin_babies.json
+- minecraft/tags/items/occludes_vibration_signals.json
+- minecraft/tags/items/piglin_food.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/blockstates/amethyst_block.json
+- minecraft/blockstates/amethyst_cluster.json
+- minecraft/blockstates/black_candle_cake.json
+- minecraft/blockstates/black_candle.json
+- minecraft/blockstates/blue_candle_cake.json
+- minecraft/blockstates/blue_candle.json
+- minecraft/blockstates/brown_candle_cake.json
+- minecraft/blockstates/brown_candle.json
+- minecraft/blockstates/budding_amethyst.json
+- minecraft/blockstates/calcite.json
+- minecraft/blockstates/candle_cake.json
+- minecraft/blockstates/candle.json
+- minecraft/blockstates/copper_block.json
+- minecraft/blockstates/copper_ore.json
+- minecraft/blockstates/cut_copper_slab.json
+- minecraft/blockstates/cut_copper_stairs.json
+- minecraft/blockstates/cut_copper.json
+- minecraft/blockstates/cyan_candle_cake.json
+- minecraft/blockstates/cyan_candle.json
+- minecraft/blockstates/dirt_path.json
+- minecraft/blockstates/dripstone_block.json
++ minecraft/blockstates/grass_path.json
+- minecraft/blockstates/gray_candle_cake.json
+- minecraft/blockstates/gray_candle.json
+- minecraft/blockstates/green_candle_cake.json
+- minecraft/blockstates/green_candle.json
+- minecraft/blockstates/large_amethyst_bud.json
+- minecraft/blockstates/lava_cauldron.json
+- minecraft/blockstates/light_blue_candle_cake.json
+- minecraft/blockstates/light_blue_candle.json
+- minecraft/blockstates/light_gray_candle_cake.json
+- minecraft/blockstates/light_gray_candle.json
+- minecraft/blockstates/lightly_weathered_copper_block.json
+- minecraft/blockstates/lightly_weathered_cut_copper_slab.json
+- minecraft/blockstates/lightly_weathered_cut_copper_stairs.json
+- minecraft/blockstates/lightly_weathered_cut_copper.json
+- minecraft/blockstates/lightning_rod.json
+- minecraft/blockstates/lime_candle_cake.json
+- minecraft/blockstates/lime_candle.json
+- minecraft/blockstates/magenta_candle_cake.json
+- minecraft/blockstates/magenta_candle.json
+- minecraft/blockstates/medium_amethyst_bud.json
+- minecraft/blockstates/orange_candle_cake.json
+- minecraft/blockstates/orange_candle.json
+- minecraft/blockstates/pink_candle_cake.json
+- minecraft/blockstates/pink_candle.json
+- minecraft/blockstates/pointed_dripstone.json
+- minecraft/blockstates/powder_snow_cauldron.json
+- minecraft/blockstates/powder_snow.json
+- minecraft/blockstates/purple_candle_cake.json
+- minecraft/blockstates/purple_candle.json
+- minecraft/blockstates/red_candle_cake.json
+- minecraft/blockstates/red_candle.json
+- minecraft/blockstates/sculk_sensor.json
+- minecraft/blockstates/semi_weathered_copper_block.json
+- minecraft/blockstates/semi_weathered_cut_copper_slab.json
+- minecraft/blockstates/semi_weathered_cut_copper_stairs.json
+- minecraft/blockstates/semi_weathered_cut_copper.json
+- minecraft/blockstates/small_amethyst_bud.json
+- minecraft/blockstates/tinted_glass.json
+- minecraft/blockstates/tuff.json
+- minecraft/blockstates/water_cauldron.json
+- minecraft/blockstates/waxed_copper.json
+- minecraft/blockstates/waxed_cut_copper_slab.json
+- minecraft/blockstates/waxed_cut_copper_stairs.json
+- minecraft/blockstates/waxed_cut_copper.json
+- minecraft/blockstates/waxed_lightly_weathered_copper.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper.json
+- minecraft/blockstates/waxed_semi_weathered_copper.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper.json
+- minecraft/blockstates/weathered_copper_block.json
+- minecraft/blockstates/weathered_cut_copper_slab.json
+- minecraft/blockstates/weathered_cut_copper_stairs.json
+- minecraft/blockstates/weathered_cut_copper.json
+- minecraft/blockstates/white_candle_cake.json
+- minecraft/blockstates/white_candle.json
+- minecraft/blockstates/yellow_candle_cake.json
+- minecraft/blockstates/yellow_candle.json
+- minecraft/models/block/amethyst_block.json
+- minecraft/models/block/amethyst_cluster.json
+- minecraft/models/block/black_candle_cake.json
+- minecraft/models/block/black_candle_four_candles.json
+- minecraft/models/block/black_candle_one_candle.json
+- minecraft/models/block/black_candle_three_candles.json
+- minecraft/models/block/black_candle_two_candles.json
+- minecraft/models/block/blue_candle_cake.json
+- minecraft/models/block/blue_candle_four_candles.json
+- minecraft/models/block/blue_candle_one_candle.json
+- minecraft/models/block/blue_candle_three_candles.json
+- minecraft/models/block/blue_candle_two_candles.json
+- minecraft/models/block/brown_candle_cake.json
+- minecraft/models/block/brown_candle_four_candles.json
+- minecraft/models/block/brown_candle_one_candle.json
+- minecraft/models/block/brown_candle_three_candles.json
+- minecraft/models/block/brown_candle_two_candles.json
+- minecraft/models/block/budding_amethyst.json
+- minecraft/models/block/calcite.json
+- minecraft/models/block/candle_cake.json
+- minecraft/models/block/candle_four_candles.json
+- minecraft/models/block/candle_one_candle.json
+- minecraft/models/block/candle_three_candles.json
+- minecraft/models/block/candle_two_candles.json
++ minecraft/models/block/cauldron_level1.json
++ minecraft/models/block/cauldron_level2.json
++ minecraft/models/block/cauldron_level3.json
+- minecraft/models/block/copper_block.json
+- minecraft/models/block/copper_ore.json
+- minecraft/models/block/cut_copper_slab_top.json
+- minecraft/models/block/cut_copper_slab.json
+- minecraft/models/block/cut_copper_stairs_inner.json
+- minecraft/models/block/cut_copper_stairs_outer.json
+- minecraft/models/block/cut_copper_stairs.json
+- minecraft/models/block/cut_copper.json
+- minecraft/models/block/cyan_candle_cake.json
+- minecraft/models/block/cyan_candle_four_candles.json
+- minecraft/models/block/cyan_candle_one_candle.json
+- minecraft/models/block/cyan_candle_three_candles.json
+- minecraft/models/block/cyan_candle_two_candles.json
+- minecraft/models/block/dirt_path.json
+- minecraft/models/block/dripstone_block.json
++ minecraft/models/block/grass_path.json
+- minecraft/models/block/gray_candle_cake.json
+- minecraft/models/block/gray_candle_four_candles.json
+- minecraft/models/block/gray_candle_one_candle.json
+- minecraft/models/block/gray_candle_three_candles.json
+- minecraft/models/block/gray_candle_two_candles.json
+- minecraft/models/block/green_candle_cake.json
+- minecraft/models/block/green_candle_four_candles.json
+- minecraft/models/block/green_candle_one_candle.json
+- minecraft/models/block/green_candle_three_candles.json
+- minecraft/models/block/green_candle_two_candles.json
+- minecraft/models/block/large_amethyst_bud.json
+- minecraft/models/block/lava_cauldron.json
+- minecraft/models/block/light_blue_candle_cake.json
+- minecraft/models/block/light_blue_candle_four_candles.json
+- minecraft/models/block/light_blue_candle_one_candle.json
+- minecraft/models/block/light_blue_candle_three_candles.json
+- minecraft/models/block/light_blue_candle_two_candles.json
+- minecraft/models/block/light_gray_candle_cake.json
+- minecraft/models/block/light_gray_candle_four_candles.json
+- minecraft/models/block/light_gray_candle_one_candle.json
+- minecraft/models/block/light_gray_candle_three_candles.json
+- minecraft/models/block/light_gray_candle_two_candles.json
+- minecraft/models/block/lightly_weathered_copper_block.json
+- minecraft/models/block/lightly_weathered_cut_copper_slab_top.json
+- minecraft/models/block/lightly_weathered_cut_copper_slab.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs_inner.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs_outer.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs.json
+- minecraft/models/block/lightly_weathered_cut_copper.json
+- minecraft/models/block/lightning_rod.json
+- minecraft/models/block/lime_candle_cake.json
+- minecraft/models/block/lime_candle_four_candles.json
+- minecraft/models/block/lime_candle_one_candle.json
+- minecraft/models/block/lime_candle_three_candles.json
+- minecraft/models/block/lime_candle_two_candles.json
+- minecraft/models/block/magenta_candle_cake.json
+- minecraft/models/block/magenta_candle_four_candles.json
+- minecraft/models/block/magenta_candle_one_candle.json
+- minecraft/models/block/magenta_candle_three_candles.json
+- minecraft/models/block/magenta_candle_two_candles.json
+- minecraft/models/block/medium_amethyst_bud.json
+- minecraft/models/block/orange_candle_cake.json
+- minecraft/models/block/orange_candle_four_candles.json
+- minecraft/models/block/orange_candle_one_candle.json
+- minecraft/models/block/orange_candle_three_candles.json
+- minecraft/models/block/orange_candle_two_candles.json
+- minecraft/models/block/pink_candle_cake.json
+- minecraft/models/block/pink_candle_four_candles.json
+- minecraft/models/block/pink_candle_one_candle.json
+- minecraft/models/block/pink_candle_three_candles.json
+- minecraft/models/block/pink_candle_two_candles.json
+- minecraft/models/block/pointed_dripstone_down_base.json
+- minecraft/models/block/pointed_dripstone_down_frustum.json
+- minecraft/models/block/pointed_dripstone_down_middle.json
+- minecraft/models/block/pointed_dripstone_down_tip_merge.json
+- minecraft/models/block/pointed_dripstone_down_tip.json
+- minecraft/models/block/pointed_dripstone_up_base.json
+- minecraft/models/block/pointed_dripstone_up_frustum.json
+- minecraft/models/block/pointed_dripstone_up_middle.json
+- minecraft/models/block/pointed_dripstone_up_tip_merge.json
+- minecraft/models/block/pointed_dripstone_up_tip.json
+- minecraft/models/block/pointed_dripstone.json
+- minecraft/models/block/powder_snow_cauldron_full.json
+- minecraft/models/block/powder_snow_cauldron_level1.json
+- minecraft/models/block/powder_snow_cauldron_level2.json
+- minecraft/models/block/powder_snow.json
+- minecraft/models/block/purple_candle_cake.json
+- minecraft/models/block/purple_candle_four_candles.json
+- minecraft/models/block/purple_candle_one_candle.json
+- minecraft/models/block/purple_candle_three_candles.json
+- minecraft/models/block/purple_candle_two_candles.json
+- minecraft/models/block/red_candle_cake.json
+- minecraft/models/block/red_candle_four_candles.json
+- minecraft/models/block/red_candle_one_candle.json
+- minecraft/models/block/red_candle_three_candles.json
+- minecraft/models/block/red_candle_two_candles.json
+- minecraft/models/block/sculk_sensor_active.json
+- minecraft/models/block/sculk_sensor_inactive.json
+- minecraft/models/block/sculk_sensor.json
+- minecraft/models/block/semi_weathered_copper_block.json
+- minecraft/models/block/semi_weathered_cut_copper_slab_top.json
+- minecraft/models/block/semi_weathered_cut_copper_slab.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs_inner.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs_outer.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs.json
+- minecraft/models/block/semi_weathered_cut_copper.json
+- minecraft/models/block/small_amethyst_bud.json
+- minecraft/models/block/template_cake_with_candle.json
+- minecraft/models/block/template_candle.json
+- minecraft/models/block/template_cauldron_full.json
+- minecraft/models/block/template_cauldron_level1.json
+- minecraft/models/block/template_cauldron_level2.json
+- minecraft/models/block/template_four_candles.json
+- minecraft/models/block/template_three_candles.json
+- minecraft/models/block/template_two_candles.json
+- minecraft/models/block/tinted_glass.json
+- minecraft/models/block/tuff.json
+- minecraft/models/block/water_cauldron_full.json
+- minecraft/models/block/water_cauldron_level1.json
+- minecraft/models/block/water_cauldron_level2.json
+- minecraft/models/block/weathered_copper_block.json
+- minecraft/models/block/weathered_cut_copper_slab_top.json
+- minecraft/models/block/weathered_cut_copper_slab.json
+- minecraft/models/block/weathered_cut_copper_stairs_inner.json
+- minecraft/models/block/weathered_cut_copper_stairs_outer.json
+- minecraft/models/block/weathered_cut_copper_stairs.json
+- minecraft/models/block/weathered_cut_copper.json
+- minecraft/models/block/white_candle_cake.json
+- minecraft/models/block/white_candle_four_candles.json
+- minecraft/models/block/white_candle_one_candle.json
+- minecraft/models/block/white_candle_three_candles.json
+- minecraft/models/block/white_candle_two_candles.json
+- minecraft/models/block/yellow_candle_cake.json
+- minecraft/models/block/yellow_candle_four_candles.json
+- minecraft/models/block/yellow_candle_one_candle.json
+- minecraft/models/block/yellow_candle_three_candles.json
+- minecraft/models/block/yellow_candle_two_candles.json
+- minecraft/models/item/amethyst_block.json
+- minecraft/models/item/amethyst_cluster.json
+- minecraft/models/item/amethyst_shard.json
+- minecraft/models/item/axolotl_bucket.json
+- minecraft/models/item/axolotl_spawn_egg.json
+- minecraft/models/item/black_candle.json
+- minecraft/models/item/blue_candle.json
+- minecraft/models/item/brown_candle.json
+- minecraft/models/item/budding_amethyst.json
+- minecraft/models/item/bundle_filled.json
+- minecraft/models/item/bundle.json
+- minecraft/models/item/calcite.json
+- minecraft/models/item/candle.json
+- minecraft/models/item/copper_block.json
+- minecraft/models/item/copper_ingot.json
+- minecraft/models/item/copper_ore.json
+- minecraft/models/item/cut_copper_slab.json
+- minecraft/models/item/cut_copper_stairs.json
+- minecraft/models/item/cut_copper.json
+- minecraft/models/item/cyan_candle.json
+- minecraft/models/item/dirt_path.json
+- minecraft/models/item/dripstone_block.json
++ minecraft/models/item/grass_path.json
+- minecraft/models/item/gray_candle.json
+- minecraft/models/item/green_candle.json
+- minecraft/models/item/large_amethyst_bud.json
+- minecraft/models/item/light_blue_candle.json
+- minecraft/models/item/light_gray_candle.json
+- minecraft/models/item/lightly_weathered_copper_block.json
+- minecraft/models/item/lightly_weathered_cut_copper_slab.json
+- minecraft/models/item/lightly_weathered_cut_copper_stairs.json
+- minecraft/models/item/lightly_weathered_cut_copper.json
+- minecraft/models/item/lightning_rod.json
+- minecraft/models/item/lime_candle.json
+- minecraft/models/item/magenta_candle.json
+- minecraft/models/item/medium_amethyst_bud.json
+- minecraft/models/item/orange_candle.json
+- minecraft/models/item/pink_candle.json
+- minecraft/models/item/pointed_dripstone.json
+- minecraft/models/item/powder_snow_bucket.json
+- minecraft/models/item/purple_candle.json
+- minecraft/models/item/red_candle.json
+- minecraft/models/item/sculk_sensor.json
+- minecraft/models/item/semi_weathered_copper_block.json
+- minecraft/models/item/semi_weathered_cut_copper_slab.json
+- minecraft/models/item/semi_weathered_cut_copper_stairs.json
+- minecraft/models/item/semi_weathered_cut_copper.json
+- minecraft/models/item/small_amethyst_bud.json
+- minecraft/models/item/spyglass.json
+- minecraft/models/item/tinted_glass.json
+- minecraft/models/item/tuff.json
+- minecraft/models/item/waxed_copper.json
+- minecraft/models/item/waxed_cut_copper_slab.json
+- minecraft/models/item/waxed_cut_copper_stairs.json
+- minecraft/models/item/waxed_cut_copper.json
+- minecraft/models/item/waxed_lightly_weathered_copper.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper.json
+- minecraft/models/item/waxed_semi_weathered_copper.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper.json
+- minecraft/models/item/weathered_copper_block.json
+- minecraft/models/item/weathered_cut_copper_slab.json
+- minecraft/models/item/weathered_cut_copper_stairs.json
+- minecraft/models/item/weathered_cut_copper.json
+- minecraft/models/item/white_candle.json
+- minecraft/models/item/yellow_candle.json
+- minecraft/particles/dripping_dripstone_lava.json
+- minecraft/particles/dripping_dripstone_water.json
+- minecraft/particles/dust_color_transition.json
+- minecraft/particles/falling_dripstone_lava.json
+- minecraft/particles/falling_dripstone_water.json
+- minecraft/particles/small_flame.json
+- minecraft/particles/snowflake.json
+- minecraft/particles/vibration.json
+- minecraft/textures/block/amethyst_block.png
+- minecraft/textures/block/amethyst_cluster.png
+- minecraft/textures/block/black_candle.png
+- minecraft/textures/block/blue_candle.png
+- minecraft/textures/block/brown_candle.png
+- minecraft/textures/block/budding_amethyst.png
+- minecraft/textures/block/calcite.png
+- minecraft/textures/block/calibrated_sculk_sensor_side.png
+- minecraft/textures/block/calibrated_sculk_sensor_top.png
+- minecraft/textures/block/candle.png
+- minecraft/textures/block/copper_block.png
+- minecraft/textures/block/copper_ore.png
+- minecraft/textures/block/cut_copper.png
+- minecraft/textures/block/cyan_candle.png
+- minecraft/textures/block/dirt_path_side.png
+- minecraft/textures/block/dirt_path_top.png
+- minecraft/textures/block/dripstone_block.png
++ minecraft/textures/block/grass_path_side.png
++ minecraft/textures/block/grass_path_top.png
+- minecraft/textures/block/gray_candle.png
+- minecraft/textures/block/green_candle.png
+- minecraft/textures/block/large_amethyst_bud.png
+- minecraft/textures/block/light_blue_candle.png
+- minecraft/textures/block/light_gray_candle.png
+- minecraft/textures/block/lightly_weathered_copper_block.png
+- minecraft/textures/block/lightly_weathered_cut_copper.png
+- minecraft/textures/block/lightning_rod.png
+- minecraft/textures/block/lime_candle.png
+- minecraft/textures/block/magenta_candle.png
+- minecraft/textures/block/medium_amethyst_bud.png
+- minecraft/textures/block/orange_candle.png
+- minecraft/textures/block/pink_candle.png
+- minecraft/textures/block/pointed_dripstone_down_base.png
+- minecraft/textures/block/pointed_dripstone_down_frustum.png
+- minecraft/textures/block/pointed_dripstone_down_middle.png
+- minecraft/textures/block/pointed_dripstone_down_tip_merge.png
+- minecraft/textures/block/pointed_dripstone_down_tip.png
+- minecraft/textures/block/pointed_dripstone_up_base.png
+- minecraft/textures/block/pointed_dripstone_up_frustum.png
+- minecraft/textures/block/pointed_dripstone_up_middle.png
+- minecraft/textures/block/pointed_dripstone_up_tip_merge.png
+- minecraft/textures/block/pointed_dripstone_up_tip.png
+- minecraft/textures/block/powder_snow.png
+- minecraft/textures/block/purple_candle.png
+- minecraft/textures/block/red_candle.png
+- minecraft/textures/block/sculk_sensor_bottom.png
+- minecraft/textures/block/sculk_sensor_side.png
+- minecraft/textures/block/sculk_sensor_tendril_active.png
+- minecraft/textures/block/sculk_sensor_tendril_active.png.mcmeta
+- minecraft/textures/block/sculk_sensor_tendril_inactive.png
+- minecraft/textures/block/sculk_sensor_tendril_inactive.png.mcmeta
+- minecraft/textures/block/sculk_sensor_top.png
+- minecraft/textures/block/semi_weathered_copper_block.png
+- minecraft/textures/block/semi_weathered_cut_copper.png
+- minecraft/textures/block/small_amethyst_bud.png
+- minecraft/textures/block/tinted_glass.png
+- minecraft/textures/block/tuff.png
+- minecraft/textures/block/weathered_copper_block.png
+- minecraft/textures/block/weathered_cut_copper.png
+- minecraft/textures/block/white_candle.png
+- minecraft/textures/block/yellow_candle.png
+- minecraft/textures/entity/axolotl/axolotl_blue.png
+- minecraft/textures/entity/axolotl/axolotl_cyan.png
+- minecraft/textures/entity/axolotl/axolotl_gold.png
+- minecraft/textures/entity/axolotl/axolotl_lucy.png
+- minecraft/textures/entity/axolotl/axolotl_wild.png
+- minecraft/textures/gui/container/bundle.png
+- minecraft/textures/item/amethyst_shard.png
+- minecraft/textures/item/axolotl_bucket.png
+- minecraft/textures/item/black_candle.png
+- minecraft/textures/item/blue_candle.png
+- minecraft/textures/item/brown_candle.png
+- minecraft/textures/item/bundle_filled.png
+- minecraft/textures/item/bundle.png
+- minecraft/textures/item/candle.png
+- minecraft/textures/item/copper_ingot.png
+- minecraft/textures/item/cyan_candle.png
+- minecraft/textures/item/gray_candle.png
+- minecraft/textures/item/green_candle.png
+- minecraft/textures/item/light_blue_candle.png
+- minecraft/textures/item/light_gray_candle.png
+- minecraft/textures/item/lime_candle.png
+- minecraft/textures/item/magenta_candle.png
+- minecraft/textures/item/orange_candle.png
+- minecraft/textures/item/pink_candle.png
+- minecraft/textures/item/pointed_dripstone.png
+- minecraft/textures/item/powder_snow_bucket.png
+- minecraft/textures/item/purple_candle.png
+- minecraft/textures/item/red_candle.png
+- minecraft/textures/item/spyglass.png
+- minecraft/textures/item/white_candle.png
+- minecraft/textures/item/yellow_candle.png
+- minecraft/textures/misc/powder_snow_outline.png
+- minecraft/textures/misc/spyglass_scope.png
+- minecraft/textures/particle/vibration.png
+- minecraft/textures/particle/vibration.png.mcmeta
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
+- reports/biomes/dripstone_caves.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- game_event.txt
+- loot_nbt_provider_type.txt
+- loot_number_provider_type.txt
+- loot_score_provider_type.txt
+- position_source_type.txt
+```
+
+</details>
+
+
+<details><summary>activity.txt</summary>
+
+```diff
+- minecraft:play_dead
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
+- minecraft:amethyst_block
+- minecraft:amethyst_cluster
+- minecraft:black_candle
+- minecraft:black_candle_cake
+- minecraft:blue_candle
+- minecraft:blue_candle_cake
+- minecraft:brown_candle
+- minecraft:brown_candle_cake
+- minecraft:budding_amethyst
+- minecraft:calcite
+- minecraft:candle
+- minecraft:candle_cake
+- minecraft:copper_block
+- minecraft:copper_ore
+- minecraft:cut_copper
+- minecraft:cut_copper_slab
+- minecraft:cut_copper_stairs
+- minecraft:cyan_candle
+- minecraft:cyan_candle_cake
+- minecraft:dirt_path
+- minecraft:dripstone_block
++ minecraft:grass_path
+- minecraft:gray_candle
+- minecraft:gray_candle_cake
+- minecraft:green_candle
+- minecraft:green_candle_cake
+- minecraft:large_amethyst_bud
+- minecraft:lava_cauldron
+- minecraft:light_blue_candle
+- minecraft:light_blue_candle_cake
+- minecraft:light_gray_candle
+- minecraft:light_gray_candle_cake
+- minecraft:lightly_weathered_copper_block
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
+- minecraft:lightning_rod
+- minecraft:lime_candle
+- minecraft:lime_candle_cake
+- minecraft:magenta_candle
+- minecraft:magenta_candle_cake
+- minecraft:medium_amethyst_bud
+- minecraft:orange_candle
+- minecraft:orange_candle_cake
+- minecraft:pink_candle
+- minecraft:pink_candle_cake
+- minecraft:pointed_dripstone
+- minecraft:powder_snow
+- minecraft:powder_snow_cauldron
+- minecraft:purple_candle
+- minecraft:purple_candle_cake
+- minecraft:red_candle
+- minecraft:red_candle_cake
+- minecraft:sculk_sensor
+- minecraft:semi_weathered_copper_block
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
+- minecraft:small_amethyst_bud
+- minecraft:tinted_glass
+- minecraft:tuff
+- minecraft:water_cauldron
+- minecraft:waxed_copper
+- minecraft:waxed_cut_copper
+- minecraft:waxed_cut_copper_slab
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper
+- minecraft:waxed_lightly_weathered_cut_copper_slab
+- minecraft:waxed_lightly_weathered_cut_copper_stairs
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper
+- minecraft:waxed_semi_weathered_cut_copper_slab
+- minecraft:waxed_semi_weathered_cut_copper_stairs
+- minecraft:weathered_copper_block
+- minecraft:weathered_cut_copper
+- minecraft:weathered_cut_copper_slab
+- minecraft:weathered_cut_copper_stairs
+- minecraft:white_candle
+- minecraft:white_candle_cake
+- minecraft:yellow_candle
+- minecraft:yellow_candle_cake
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
+- minecraft:sculk_sensor
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
+- minecraft:axolotl
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
+- minecraft:amethyst_block
+- minecraft:amethyst_cluster
+- minecraft:amethyst_shard
+- minecraft:axolotl_bucket
+- minecraft:axolotl_spawn_egg
+- minecraft:black_candle
+- minecraft:blue_candle
+- minecraft:brown_candle
+- minecraft:budding_amethyst
+- minecraft:bundle
+- minecraft:calcite
+- minecraft:candle
+- minecraft:copper_block
+- minecraft:copper_ingot
+- minecraft:copper_ore
+- minecraft:cut_copper
+- minecraft:cut_copper_slab
+- minecraft:cut_copper_stairs
+- minecraft:cyan_candle
+- minecraft:dirt_path
+- minecraft:dripstone_block
++ minecraft:grass_path
+- minecraft:gray_candle
+- minecraft:green_candle
+- minecraft:large_amethyst_bud
+- minecraft:light_blue_candle
+- minecraft:light_gray_candle
+- minecraft:lightly_weathered_copper_block
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
+- minecraft:lightning_rod
+- minecraft:lime_candle
+- minecraft:magenta_candle
+- minecraft:medium_amethyst_bud
+- minecraft:orange_candle
+- minecraft:pink_candle
+- minecraft:pointed_dripstone
+- minecraft:powder_snow_bucket
+- minecraft:purple_candle
+- minecraft:red_candle
+- minecraft:sculk_sensor
+- minecraft:semi_weathered_copper_block
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
+- minecraft:small_amethyst_bud
+- minecraft:spyglass
+- minecraft:tinted_glass
+- minecraft:tuff
+- minecraft:waxed_copper
+- minecraft:waxed_cut_copper
+- minecraft:waxed_cut_copper_slab
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper
+- minecraft:waxed_lightly_weathered_cut_copper_slab
+- minecraft:waxed_lightly_weathered_cut_copper_stairs
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper
+- minecraft:waxed_semi_weathered_cut_copper_slab
+- minecraft:waxed_semi_weathered_cut_copper_stairs
+- minecraft:weathered_copper_block
+- minecraft:weathered_cut_copper
+- minecraft:weathered_cut_copper_slab
+- minecraft:weathered_cut_copper_stairs
+- minecraft:white_candle
+- minecraft:yellow_candle
+```
+
+</details>
+
+
+<details><summary>loot_condition_type.txt</summary>
+
+```diff
+- minecraft:value_check
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
+- minecraft:set_banner_pattern
+- minecraft:set_enchantments
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
+- minecraft:is_tempted
+- minecraft:play_dead_ticks
+- minecraft:temptation_cooldown_ticks
+- minecraft:tempting_player
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
+- minecraft:dripping_dripstone_lava
+- minecraft:dripping_dripstone_water
+- minecraft:dust_color_transition
+- minecraft:falling_dripstone_lava
+- minecraft:falling_dripstone_water
+- minecraft:small_flame
+- minecraft:snowflake
+- minecraft:vibration
+```
+
+</details>
+
+
+<details><summary>point_of_interest_type.txt</summary>
+
+```diff
+- minecraft:lightning_rod
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
+- minecraft:axolotl_hostiles
+- minecraft:axolotl_temptations
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
+- minecraft:block.amethyst_block.break
+- minecraft:block.amethyst_block.chime
+- minecraft:block.amethyst_block.fall
+- minecraft:block.amethyst_block.hit
+- minecraft:block.amethyst_block.place
+- minecraft:block.amethyst_block.step
+- minecraft:block.amethyst_cluster.break
+- minecraft:block.amethyst_cluster.fall
+- minecraft:block.amethyst_cluster.hit
+- minecraft:block.amethyst_cluster.place
+- minecraft:block.amethyst_cluster.step
+- minecraft:block.cake.add_candle
+- minecraft:block.calcite.break
+- minecraft:block.calcite.fall
+- minecraft:block.calcite.hit
+- minecraft:block.calcite.place
+- minecraft:block.calcite.step
+- minecraft:block.candle.ambient
+- minecraft:block.candle.break
+- minecraft:block.candle.extinguish
+- minecraft:block.candle.fall
+- minecraft:block.candle.hit
+- minecraft:block.candle.place
+- minecraft:block.candle.step
+- minecraft:block.copper.break
+- minecraft:block.copper.fall
+- minecraft:block.copper.hit
+- minecraft:block.copper.place
+- minecraft:block.copper.step
+- minecraft:block.dripstone_block.break
+- minecraft:block.dripstone_block.fall
+- minecraft:block.dripstone_block.hit
+- minecraft:block.dripstone_block.place
+- minecraft:block.dripstone_block.step
+- minecraft:block.large_amethyst_bud.break
+- minecraft:block.large_amethyst_bud.place
+- minecraft:block.medium_amethyst_bud.break
+- minecraft:block.medium_amethyst_bud.place
+- minecraft:block.pointed_dripstone.break
+- minecraft:block.pointed_dripstone.drip_lava
+- minecraft:block.pointed_dripstone.drip_lava_into_cauldron
+- minecraft:block.pointed_dripstone.drip_water
+- minecraft:block.pointed_dripstone.drip_water_into_cauldron
+- minecraft:block.pointed_dripstone.fall
+- minecraft:block.pointed_dripstone.hit
+- minecraft:block.pointed_dripstone.land
+- minecraft:block.pointed_dripstone.place
+- minecraft:block.pointed_dripstone.step
+- minecraft:block.powder_snow.break
+- minecraft:block.powder_snow.fall
+- minecraft:block.powder_snow.hit
+- minecraft:block.powder_snow.place
+- minecraft:block.powder_snow.step
+- minecraft:block.sculk_sensor.break
+- minecraft:block.sculk_sensor.clicking
+- minecraft:block.sculk_sensor.clicking_stop
+- minecraft:block.sculk_sensor.fall
+- minecraft:block.sculk_sensor.hit
+- minecraft:block.sculk_sensor.place
+- minecraft:block.sculk_sensor.step
+- minecraft:block.small_amethyst_bud.break
+- minecraft:block.small_amethyst_bud.place
+- minecraft:block.tuff.break
+- minecraft:block.tuff.fall
+- minecraft:block.tuff.hit
+- minecraft:block.tuff.place
+- minecraft:block.tuff.step
+- minecraft:entity.axolotl.attack
+- minecraft:entity.axolotl.death
+- minecraft:entity.axolotl.hurt
+- minecraft:entity.axolotl.idle_air
+- minecraft:entity.axolotl.idle_water
+- minecraft:entity.axolotl.splash
+- minecraft:entity.axolotl.swim
+- minecraft:entity.minecart.inside.underwater
+- minecraft:entity.player.hurt_freeze
+- minecraft:item.bucket.empty_axolotl
+- minecraft:item.bucket.empty_powder_snow
+- minecraft:item.bucket.fill_axolotl
+- minecraft:item.bucket.fill_powder_snow
+- minecraft:item.spyglass.stop_using
+- minecraft:item.spyglass.use
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
+- minecraft:dripstone_cluster
+- minecraft:geode
+- minecraft:large_dripstone
+- minecraft:small_dripstone
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
+- item.txt
++ replaceitem.txt
+```
+
+</details>
+
+
+<details><summary>gamerule.txt</summary>
+
+```diff
+- gamerule freezeDamage <value: bool>
+- gamerule playersSleepingPercentage <value: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- blocks/candle_cakes.json
+- blocks/candles.json
+- blocks/cauldrons.json
+- blocks/crystal_sound_blocks.json
+- blocks/dripstone_replaceable_blocks.json
+- blocks/inside_step_sound_blocks.json
+- blocks/occludes_vibration_signals.json
+- entity_types/axolotl_always_hostiles.json
+- entity_types/axolotl_tempted_hostiles.json
+- entity_types/powder_snow_walkable_mobs.json
+- game_events/ignore_vibrations_stepping_carefully.json
+- game_events/vibrations.json
+- items/axolotl_tempt_items.json
+- items/candles.json
+- items/freeze_immune_wearables.json
+- items/ignored_by_piglin_babies.json
+- items/occludes_vibration_signals.json
+- items/piglin_food.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- advMode.mode
+- advMode.trackOutput
+- advMode.triggering
+- advMode.type
+- argument.angle.invalid
+- biome.minecraft.dripstone_caves
+- block.minecraft.amethyst_block
+- block.minecraft.amethyst_cluster
+- block.minecraft.banner.base.black
+- block.minecraft.banner.base.blue
+- block.minecraft.banner.base.brown
+- block.minecraft.banner.base.cyan
+- block.minecraft.banner.base.gray
+- block.minecraft.banner.base.green
+- block.minecraft.banner.base.light_blue
+- block.minecraft.banner.base.light_gray
+- block.minecraft.banner.base.lime
+- block.minecraft.banner.base.magenta
+- block.minecraft.banner.base.orange
+- block.minecraft.banner.base.pink
+- block.minecraft.banner.base.purple
+- block.minecraft.banner.base.red
+- block.minecraft.banner.base.white
+- block.minecraft.banner.base.yellow
+- block.minecraft.black_candle
+- block.minecraft.black_candle_cake
+- block.minecraft.blue_candle
+- block.minecraft.blue_candle_cake
+- block.minecraft.brown_candle
+- block.minecraft.brown_candle_cake
+- block.minecraft.budding_amethyst
+- block.minecraft.calcite
+- block.minecraft.candle
+- block.minecraft.candle_cake
+- block.minecraft.copper_block
+- block.minecraft.copper_ore
+- block.minecraft.cut_copper
+- block.minecraft.cut_copper_slab
+- block.minecraft.cut_copper_stairs
+- block.minecraft.cyan_candle
+- block.minecraft.cyan_candle_cake
+- block.minecraft.dirt_path
+- block.minecraft.dripstone_block
++ block.minecraft.grass_path
+- block.minecraft.gray_candle
+- block.minecraft.gray_candle_cake
+- block.minecraft.green_candle
+- block.minecraft.green_candle_cake
+- block.minecraft.large_amethyst_bud
+- block.minecraft.lava_cauldron
+- block.minecraft.light_blue_candle
+- block.minecraft.light_blue_candle_cake
+- block.minecraft.light_gray_candle
+- block.minecraft.light_gray_candle_cake
+- block.minecraft.lightly_weathered_copper_block
+- block.minecraft.lightly_weathered_cut_copper
+- block.minecraft.lightly_weathered_cut_copper_slab
+- block.minecraft.lightly_weathered_cut_copper_stairs
+- block.minecraft.lightning_rod
+- block.minecraft.lime_candle
+- block.minecraft.lime_candle_cake
+- block.minecraft.magenta_candle
+- block.minecraft.magenta_candle_cake
+- block.minecraft.medium_amethyst_bud
+- block.minecraft.orange_candle
+- block.minecraft.orange_candle_cake
+- block.minecraft.pink_candle
+- block.minecraft.pink_candle_cake
+- block.minecraft.pointed_dripstone
+- block.minecraft.powder_snow
+- block.minecraft.powder_snow_cauldron
+- block.minecraft.purple_candle
+- block.minecraft.purple_candle_cake
+- block.minecraft.red_candle
+- block.minecraft.red_candle_cake
+- block.minecraft.sculk_sensor
+- block.minecraft.semi_weathered_copper_block
+- block.minecraft.semi_weathered_cut_copper
+- block.minecraft.semi_weathered_cut_copper_slab
+- block.minecraft.semi_weathered_cut_copper_stairs
+- block.minecraft.small_amethyst_bud
+- block.minecraft.tinted_glass
+- block.minecraft.tuff
+- block.minecraft.water_cauldron
+- block.minecraft.waxed_copper
+- block.minecraft.waxed_cut_copper
+- block.minecraft.waxed_cut_copper_slab
+- block.minecraft.waxed_cut_copper_stairs
+- block.minecraft.waxed_lightly_weathered_copper
+- block.minecraft.waxed_lightly_weathered_copper_block
+- block.minecraft.waxed_lightly_weathered_cut_copper
+- block.minecraft.waxed_lightly_weathered_cut_copper_slab
+- block.minecraft.waxed_lightly_weathered_cut_copper_stairs
+- block.minecraft.waxed_semi_weathered_copper
+- block.minecraft.waxed_semi_weathered_copper_block
+- block.minecraft.waxed_semi_weathered_cut_copper
+- block.minecraft.waxed_semi_weathered_cut_copper_slab
+- block.minecraft.waxed_semi_weathered_cut_copper_stairs
+- block.minecraft.weathered_copper_block
+- block.minecraft.weathered_cut_copper
+- block.minecraft.weathered_cut_copper_slab
+- block.minecraft.weathered_cut_copper_stairs
+- block.minecraft.white_candle
+- block.minecraft.white_candle_cake
+- block.minecraft.yellow_candle
+- block.minecraft.yellow_candle_cake
+- commands.item.block.set.success
+- commands.item.entity.set.success.multiple
+- commands.item.entity.set.success.single
+- commands.item.source.no_such_slot
+- commands.item.source.not_a_container
+- commands.item.target.no_changed.known_item
+- commands.item.target.no_changes
+- commands.item.target.no_such_slot
+- commands.item.target.not_a_container
++ commands.replaceitem.block.failed
++ commands.replaceitem.block.success
++ commands.replaceitem.entity.failed
++ commands.replaceitem.entity.success.multiple
++ commands.replaceitem.entity.success.single
++ commands.replaceitem.slot.inapplicable
+- dataPack.vanilla.description
+- death.attack.fallingStalactite
+- death.attack.fallingStalactite.player
+- death.attack.freeze
+- death.attack.freeze.player
+- entity.minecraft.axolotl
+- gamerule.freezeDamage
+- gamerule.playersSleepingPercentage
+- gamerule.playersSleepingPercentage.description
+- item_modifier.unknown
+- item.minecraft.amethyst_shard
+- item.minecraft.axolotl_bucket
+- item.minecraft.axolotl_spawn_egg
+- item.minecraft.bundle
+- item.minecraft.bundle.fullness
+- item.minecraft.copper_ingot
+- item.minecraft.powder_snow_bucket
+- item.minecraft.spyglass
+- mirror.front_back
+- mirror.left_right
+- mirror.none
+- multiplayer.requiredTexturePrompt.disconnect
+- multiplayer.requiredTexturePrompt.line1
+- multiplayer.requiredTexturePrompt.line2
++ options.fovEffectScale.off
++ options.screenEffectScale.off
++ options.vbo
+- resourcePack.vanilla.description
+- sleep.not_possible
+- sleep.players_sleeping
+- sleep.skipping_night
+- subtitles.block.cake.add_candle
+- subtitles.block.candle.crackle
+- subtitles.block.pointed_dripstone.drip_lava
+- subtitles.block.pointed_dripstone.drip_lava_into_cauldron
+- subtitles.block.pointed_dripstone.drip_water
+- subtitles.block.pointed_dripstone.drip_water_into_cauldron
+- subtitles.block.pointed_dripstone.land
+- subtitles.block.sculk_sensor.clicking
+- subtitles.block.sculk_sensor.clicking_stop
+- subtitles.entity.axolotl.attack
+- subtitles.entity.axolotl.death
+- subtitles.entity.axolotl.hurt
+- subtitles.entity.axolotl.idle_air
+- subtitles.entity.axolotl.idle_water
+- subtitles.entity.axolotl.splash
+- subtitles.entity.axolotl.swim
+- subtitles.entity.player.freeze_hurt
+- subtitles.item.bucket.fill_axolotl
+- subtitles.item.spyglass.stop_using
+- subtitles.item.spyglass.use
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/building_blocks/amethyst_block.json
+- recipes/building_blocks/copper_block.json
+- recipes/building_blocks/cut_copper_slab.json
+- recipes/building_blocks/cut_copper_stairs.json
+- recipes/building_blocks/cut_copper.json
+- recipes/building_blocks/lightly_weathered_cut_copper_slab.json
+- recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
+- recipes/building_blocks/lightly_weathered_cut_copper.json
+- recipes/building_blocks/semi_weathered_cut_copper_slab.json
+- recipes/building_blocks/semi_weathered_cut_copper_stairs.json
+- recipes/building_blocks/semi_weathered_cut_copper.json
+- recipes/building_blocks/tinted_glass.json
+- recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb.json
+- recipes/building_blocks/waxed_copper.json
+- recipes/building_blocks/waxed_cut_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_cut_copper_from_waxed_block.json
+- recipes/building_blocks/waxed_cut_copper_slab.json
+- recipes/building_blocks/waxed_cut_copper_stairs.json
+- recipes/building_blocks/waxed_lightly_weathered_copper.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- recipes/building_blocks/waxed_semi_weathered_copper.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
+- recipes/building_blocks/weathered_cut_copper_slab.json
+- recipes/building_blocks/weathered_cut_copper_stairs.json
+- recipes/building_blocks/weathered_cut_copper.json
+- recipes/decorations/black_candle.json
+- recipes/decorations/blue_candle.json
+- recipes/decorations/brown_candle.json
+- recipes/decorations/candle.json
+- recipes/decorations/cyan_candle.json
+- recipes/decorations/gray_candle.json
+- recipes/decorations/green_candle.json
+- recipes/decorations/light_blue_candle.json
+- recipes/decorations/light_gray_candle.json
+- recipes/decorations/lime_candle.json
+- recipes/decorations/magenta_candle.json
+- recipes/decorations/orange_candle.json
+- recipes/decorations/pink_candle.json
+- recipes/decorations/purple_candle.json
+- recipes/decorations/red_candle.json
+- recipes/decorations/white_candle.json
+- recipes/decorations/yellow_candle.json
+- recipes/misc/copper_ingot_from_blasting.json
+- recipes/misc/copper_ingot_from_copper_block.json
+- recipes/misc/copper_ingot.json
+- recipes/misc/firework_rocket_simple.json
+- recipes/redstone/lightning_rod.json
+- recipes/tools/bundle.json
+- recipes/tools/spyglass.json
+```
+
+</details>
+
+
+<details><summary>languages.txt</summary>
+
+```diff
++ gv_im.json
++ mi_nz.json
++ realms/lang/gv_im.json
++ realms/lang/mi_nz.json
++ realms/lang/swg.json
+- realms/lang/zlm_arab.json
++ swg.json
+- zlm_arab.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
+- blocks/amethyst_block.json
+- blocks/amethyst_cluster.json
+- blocks/black_candle_cake.json
+- blocks/black_candle.json
+- blocks/blue_candle_cake.json
+- blocks/blue_candle.json
+- blocks/brown_candle_cake.json
+- blocks/brown_candle.json
+- blocks/budding_amethyst.json
+- blocks/calcite.json
+- blocks/candle_cake.json
+- blocks/candle.json
+- blocks/copper_block.json
+- blocks/copper_ore.json
+- blocks/cut_copper_slab.json
+- blocks/cut_copper_stairs.json
+- blocks/cut_copper.json
+- blocks/cyan_candle_cake.json
+- blocks/cyan_candle.json
+- blocks/dirt_path.json
+- blocks/dripstone_block.json
++ blocks/grass_path.json
+- blocks/gray_candle_cake.json
+- blocks/gray_candle.json
+- blocks/green_candle_cake.json
+- blocks/green_candle.json
+- blocks/large_amethyst_bud.json
+- blocks/lava_cauldron.json
+- blocks/light_blue_candle_cake.json
+- blocks/light_blue_candle.json
+- blocks/light_gray_candle_cake.json
+- blocks/light_gray_candle.json
+- blocks/lightly_weathered_copper_block.json
+- blocks/lightly_weathered_cut_copper_slab.json
+- blocks/lightly_weathered_cut_copper_stairs.json
+- blocks/lightly_weathered_cut_copper.json
+- blocks/lightning_rod.json
+- blocks/lime_candle_cake.json
+- blocks/lime_candle.json
+- blocks/magenta_candle_cake.json
+- blocks/magenta_candle.json
+- blocks/medium_amethyst_bud.json
+- blocks/orange_candle_cake.json
+- blocks/orange_candle.json
+- blocks/pink_candle_cake.json
+- blocks/pink_candle.json
+- blocks/pointed_dripstone.json
+- blocks/powder_snow_cauldron.json
+- blocks/powder_snow.json
+- blocks/purple_candle_cake.json
+- blocks/purple_candle.json
+- blocks/red_candle_cake.json
+- blocks/red_candle.json
+- blocks/sculk_sensor.json
+- blocks/semi_weathered_copper_block.json
+- blocks/semi_weathered_cut_copper_slab.json
+- blocks/semi_weathered_cut_copper_stairs.json
+- blocks/semi_weathered_cut_copper.json
+- blocks/small_amethyst_bud.json
+- blocks/tinted_glass.json
+- blocks/tuff.json
+- blocks/water_cauldron.json
+- blocks/waxed_copper.json
+- blocks/waxed_cut_copper_slab.json
+- blocks/waxed_cut_copper_stairs.json
+- blocks/waxed_cut_copper.json
+- blocks/waxed_lightly_weathered_copper.json
+- blocks/waxed_lightly_weathered_cut_copper_slab.json
+- blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- blocks/waxed_lightly_weathered_cut_copper.json
+- blocks/waxed_semi_weathered_copper.json
+- blocks/waxed_semi_weathered_cut_copper_slab.json
+- blocks/waxed_semi_weathered_cut_copper_stairs.json
+- blocks/waxed_semi_weathered_cut_copper.json
+- blocks/weathered_copper_block.json
+- blocks/weathered_cut_copper_slab.json
+- blocks/weathered_cut_copper_stairs.json
+- blocks/weathered_cut_copper.json
+- blocks/white_candle_cake.json
+- blocks/white_candle.json
+- blocks/yellow_candle_cake.json
+- blocks/yellow_candle.json
+- entities/axolotl.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
+- dripping_dripstone_lava.json
+- dripping_dripstone_water.json
+- dust_color_transition.json
+- falling_dripstone_lava.json
+- falling_dripstone_water.json
+- small_flame.json
+- snowflake.json
+- vibration.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- amethyst_block.json
+- black_candle.json
+- blue_candle.json
+- brown_candle.json
+- bundle.json
+- candle.json
+- copper_block.json
+- copper_ingot_from_blasting.json
+- copper_ingot_from_copper_block.json
+- copper_ingot.json
+- cut_copper_slab.json
+- cut_copper_stairs.json
+- cut_copper.json
+- cyan_candle.json
+- firework_rocket_simple.json
+- gray_candle.json
+- green_candle.json
+- light_blue_candle.json
+- light_gray_candle.json
+- lightly_weathered_cut_copper_slab.json
+- lightly_weathered_cut_copper_stairs.json
+- lightly_weathered_cut_copper.json
+- lightning_rod.json
+- lime_candle.json
+- magenta_candle.json
+- orange_candle.json
+- pink_candle.json
+- purple_candle.json
+- red_candle.json
+- semi_weathered_cut_copper_slab.json
+- semi_weathered_cut_copper_stairs.json
+- semi_weathered_cut_copper.json
+- spyglass.json
+- tinted_glass.json
+- waxed_copper_cut_slab_from_honeycomb.json
+- waxed_copper_cut_stairs_from_honeycomb.json
+- waxed_copper.json
+- waxed_cut_copper_from_honeycomb.json
+- waxed_cut_copper_from_waxed_block.json
+- waxed_cut_copper_slab.json
+- waxed_cut_copper_stairs.json
+- waxed_lightly_weathered_copper.json
+- waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_from_waxed_block.json
+- waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_slab.json
+- waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_stairs.json
+- waxed_semi_weathered_copper.json
+- waxed_semi_weathered_cut_copper_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_from_waxed_block.json
+- waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_slab.json
+- waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_stairs.json
+- weathered_cut_copper_slab.json
+- weathered_cut_copper_stairs.json
+- weathered_cut_copper.json
+- white_candle.json
+- yellow_candle.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
+- block/amethyst_cluster/break1.ogg
+- block/amethyst_cluster/break2.ogg
+- block/amethyst_cluster/break3.ogg
+- block/amethyst_cluster/break4.ogg
+- block/amethyst_cluster/place1.ogg
+- block/amethyst_cluster/place2.ogg
+- block/amethyst_cluster/place3.ogg
+- block/amethyst_cluster/place4.ogg
+- block/amethyst/break1.ogg
+- block/amethyst/break2.ogg
+- block/amethyst/break3.ogg
+- block/amethyst/break4.ogg
+- block/amethyst/place1.ogg
+- block/amethyst/place2.ogg
+- block/amethyst/place3.ogg
+- block/amethyst/place4.ogg
+- block/amethyst/shimmer.ogg
+- block/amethyst/step1.ogg
+- block/amethyst/step10.ogg
+- block/amethyst/step11.ogg
+- block/amethyst/step12.ogg
+- block/amethyst/step13.ogg
+- block/amethyst/step14.ogg
+- block/amethyst/step2.ogg
+- block/amethyst/step3.ogg
+- block/amethyst/step4.ogg
+- block/amethyst/step5.ogg
+- block/amethyst/step6.ogg
+- block/amethyst/step7.ogg
+- block/amethyst/step8.ogg
+- block/amethyst/step9.ogg
+- block/azalea_leaves/break1.ogg
+- block/azalea_leaves/break2.ogg
+- block/azalea_leaves/break3.ogg
+- block/azalea_leaves/break4.ogg
+- block/azalea_leaves/break5.ogg
+- block/azalea_leaves/break6.ogg
+- block/azalea_leaves/break7.ogg
+- block/azalea_leaves/step1.ogg
+- block/azalea_leaves/step2.ogg
+- block/azalea_leaves/step3.ogg
+- block/azalea_leaves/step4.ogg
+- block/azalea_leaves/step5.ogg
+- block/azalea/break1.ogg
+- block/azalea/break2.ogg
+- block/azalea/break3.ogg
+- block/azalea/break4.ogg
+- block/azalea/break5.ogg
+- block/azalea/break6.ogg
+- block/azalea/step1.ogg
+- block/azalea/step2.ogg
+- block/azalea/step3.ogg
+- block/azalea/step4.ogg
+- block/azalea/step5.ogg
+- block/azalea/step6.ogg
+- block/big_dripleaf/break1.ogg
+- block/big_dripleaf/break2.ogg
+- block/big_dripleaf/break3.ogg
+- block/big_dripleaf/break4.ogg
+- block/big_dripleaf/break5.ogg
+- block/big_dripleaf/break6.ogg
+- block/big_dripleaf/step1.ogg
+- block/big_dripleaf/step2.ogg
+- block/big_dripleaf/step3.ogg
+- block/big_dripleaf/step4.ogg
+- block/big_dripleaf/step5.ogg
+- block/big_dripleaf/step6.ogg
+- block/big_dripleaf/tilt_down1.ogg
+- block/big_dripleaf/tilt_down2.ogg
+- block/big_dripleaf/tilt_down3.ogg
+- block/big_dripleaf/tilt_down4.ogg
+- block/big_dripleaf/tilt_down5.ogg
+- block/big_dripleaf/tilt_up1.ogg
+- block/big_dripleaf/tilt_up2.ogg
+- block/big_dripleaf/tilt_up3.ogg
+- block/big_dripleaf/tilt_up4.ogg
+- block/cake/add_candle1.ogg
+- block/cake/add_candle2.ogg
+- block/cake/add_candle3.ogg
+- block/calcite/break1.ogg
+- block/calcite/break2.ogg
+- block/calcite/break3.ogg
+- block/calcite/break4.ogg
+- block/calcite/place1.ogg
+- block/calcite/place2.ogg
+- block/calcite/place3.ogg
+- block/calcite/place4.ogg
+- block/calcite/step1.ogg
+- block/calcite/step2.ogg
+- block/calcite/step3.ogg
+- block/calcite/step4.ogg
+- block/calcite/step5.ogg
+- block/calcite/step6.ogg
+- block/candle/ambient1.ogg
+- block/candle/ambient2.ogg
+- block/candle/ambient3.ogg
+- block/candle/ambient4.ogg
+- block/candle/ambient5.ogg
+- block/candle/ambient6.ogg
+- block/candle/ambient7.ogg
+- block/candle/ambient8.ogg
+- block/candle/ambient9.ogg
+- block/candle/break1.ogg
+- block/candle/break2.ogg
+- block/candle/break3.ogg
+- block/candle/break4.ogg
+- block/candle/break5.ogg
+- block/candle/extinguish1.ogg
+- block/candle/extinguish2.ogg
+- block/candle/extinguish3.ogg
+- block/candle/step1.ogg
+- block/candle/step2.ogg
+- block/candle/step3.ogg
+- block/candle/step4.ogg
+- block/candle/step5.ogg
+- block/cave_vines/break1.ogg
+- block/cave_vines/break2.ogg
+- block/cave_vines/break3.ogg
+- block/cave_vines/break4.ogg
+- block/cave_vines/break5.ogg
+- block/copper/break1.ogg
+- block/copper/break2.ogg
+- block/copper/break3.ogg
+- block/copper/break4.ogg
+- block/copper/step1.ogg
+- block/copper/step2.ogg
+- block/copper/step3.ogg
+- block/copper/step4.ogg
+- block/copper/step5.ogg
+- block/copper/step6.ogg
+- block/deepslate_bricks/place1.ogg
+- block/deepslate_bricks/place2.ogg
+- block/deepslate_bricks/place3.ogg
+- block/deepslate_bricks/place4.ogg
+- block/deepslate_bricks/place5.ogg
+- block/deepslate_bricks/place6.ogg
+- block/deepslate_bricks/step1.ogg
+- block/deepslate_bricks/step2.ogg
+- block/deepslate_bricks/step3.ogg
+- block/deepslate_bricks/step4.ogg
+- block/deepslate_bricks/step5.ogg
+- block/deepslate/break1.ogg
+- block/deepslate/break2.ogg
+- block/deepslate/break3.ogg
+- block/deepslate/break4.ogg
+- block/deepslate/place1.ogg
+- block/deepslate/place2.ogg
+- block/deepslate/place3.ogg
+- block/deepslate/place4.ogg
+- block/deepslate/place5.ogg
+- block/deepslate/place6.ogg
+- block/deepslate/step1.ogg
+- block/deepslate/step2.ogg
+- block/deepslate/step3.ogg
+- block/deepslate/step4.ogg
+- block/deepslate/step5.ogg
+- block/deepslate/step6.ogg
+- block/dripstone/break1.ogg
+- block/dripstone/break2.ogg
+- block/dripstone/break3.ogg
+- block/dripstone/break4.ogg
+- block/dripstone/break5.ogg
+- block/dripstone/step1.ogg
+- block/dripstone/step2.ogg
+- block/dripstone/step3.ogg
+- block/dripstone/step4.ogg
+- block/dripstone/step5.ogg
+- block/dripstone/step6.ogg
+- block/hanging_roots/break1.ogg
+- block/hanging_roots/break2.ogg
+- block/hanging_roots/break3.ogg
+- block/hanging_roots/break4.ogg
+- block/hanging_roots/step1.ogg
+- block/hanging_roots/step2.ogg
+- block/hanging_roots/step3.ogg
+- block/hanging_roots/step4.ogg
+- block/hanging_roots/step5.ogg
+- block/hanging_roots/step6.ogg
+- block/moss/break1.ogg
+- block/moss/break2.ogg
+- block/moss/break3.ogg
+- block/moss/break4.ogg
+- block/moss/break5.ogg
+- block/moss/step1.ogg
+- block/moss/step2.ogg
+- block/moss/step3.ogg
+- block/moss/step4.ogg
+- block/moss/step5.ogg
+- block/moss/step6.ogg
+- block/pointed_dripstone/drip_lava_cauldron1.ogg
+- block/pointed_dripstone/drip_lava_cauldron2.ogg
+- block/pointed_dripstone/drip_lava_cauldron3.ogg
+- block/pointed_dripstone/drip_lava_cauldron4.ogg
+- block/pointed_dripstone/drip_lava1.ogg
+- block/pointed_dripstone/drip_lava2.ogg
+- block/pointed_dripstone/drip_lava3.ogg
+- block/pointed_dripstone/drip_lava4.ogg
+- block/pointed_dripstone/drip_lava5.ogg
+- block/pointed_dripstone/drip_lava6.ogg
+- block/pointed_dripstone/drip_water_cauldron1.ogg
+- block/pointed_dripstone/drip_water_cauldron2.ogg
+- block/pointed_dripstone/drip_water_cauldron3.ogg
+- block/pointed_dripstone/drip_water_cauldron4.ogg
+- block/pointed_dripstone/drip_water_cauldron5.ogg
+- block/pointed_dripstone/drip_water_cauldron6.ogg
+- block/pointed_dripstone/drip_water_cauldron7.ogg
+- block/pointed_dripstone/drip_water_cauldron8.ogg
+- block/pointed_dripstone/drip_water1.ogg
+- block/pointed_dripstone/drip_water10.ogg
+- block/pointed_dripstone/drip_water11.ogg
+- block/pointed_dripstone/drip_water12.ogg
+- block/pointed_dripstone/drip_water13.ogg
+- block/pointed_dripstone/drip_water14.ogg
+- block/pointed_dripstone/drip_water15.ogg
+- block/pointed_dripstone/drip_water2.ogg
+- block/pointed_dripstone/drip_water3.ogg
+- block/pointed_dripstone/drip_water4.ogg
+- block/pointed_dripstone/drip_water5.ogg
+- block/pointed_dripstone/drip_water6.ogg
+- block/pointed_dripstone/drip_water7.ogg
+- block/pointed_dripstone/drip_water8.ogg
+- block/pointed_dripstone/drip_water9.ogg
+- block/pointed_dripstone/land1.ogg
+- block/pointed_dripstone/land2.ogg
+- block/pointed_dripstone/land3.ogg
+- block/pointed_dripstone/land4.ogg
+- block/pointed_dripstone/land5.ogg
+- block/powder_snow/break1.ogg
+- block/powder_snow/break2.ogg
+- block/powder_snow/break3.ogg
+- block/powder_snow/break4.ogg
+- block/powder_snow/break5.ogg
+- block/powder_snow/break6.ogg
+- block/powder_snow/break7.ogg
+- block/powder_snow/step1.ogg
+- block/powder_snow/step10.ogg
+- block/powder_snow/step2.ogg
+- block/powder_snow/step3.ogg
+- block/powder_snow/step4.ogg
+- block/powder_snow/step5.ogg
+- block/powder_snow/step6.ogg
+- block/powder_snow/step7.ogg
+- block/powder_snow/step8.ogg
+- block/powder_snow/step9.ogg
+- block/rooted_dirt/break1.ogg
+- block/rooted_dirt/break2.ogg
+- block/rooted_dirt/break3.ogg
+- block/rooted_dirt/break4.ogg
+- block/rooted_dirt/step1.ogg
+- block/rooted_dirt/step2.ogg
+- block/rooted_dirt/step3.ogg
+- block/rooted_dirt/step4.ogg
+- block/rooted_dirt/step5.ogg
+- block/rooted_dirt/step6.ogg
+- block/sculk_sensor/break1.ogg
+- block/sculk_sensor/break2.ogg
+- block/sculk_sensor/break3.ogg
+- block/sculk_sensor/break4.ogg
+- block/sculk_sensor/break5.ogg
+- block/sculk_sensor/place1.ogg
+- block/sculk_sensor/place2.ogg
+- block/sculk_sensor/place3.ogg
+- block/sculk_sensor/place4.ogg
+- block/sculk_sensor/place5.ogg
+- block/sculk_sensor/sculk_clicking_stop1.ogg
+- block/sculk_sensor/sculk_clicking_stop2.ogg
+- block/sculk_sensor/sculk_clicking_stop3.ogg
+- block/sculk_sensor/sculk_clicking_stop4.ogg
+- block/sculk_sensor/sculk_clicking_stop5.ogg
+- block/sculk_sensor/sculk_clicking1.ogg
+- block/sculk_sensor/sculk_clicking2.ogg
+- block/sculk_sensor/sculk_clicking3.ogg
+- block/sculk_sensor/sculk_clicking4.ogg
+- block/sculk_sensor/sculk_clicking5.ogg
+- block/sculk_sensor/sculk_clicking6.ogg
+- block/sculk/step1.ogg
+- block/sculk/step2.ogg
+- block/sculk/step3.ogg
+- block/sculk/step4.ogg
+- block/sculk/step5.ogg
+- block/sculk/step6.ogg
+- block/spore_blossom/break1.ogg
+- block/spore_blossom/break2.ogg
+- block/spore_blossom/break3.ogg
+- block/spore_blossom/break4.ogg
+- block/spore_blossom/break5.ogg
+- block/spore_blossom/step1.ogg
+- block/spore_blossom/step2.ogg
+- block/spore_blossom/step3.ogg
+- block/spore_blossom/step4.ogg
+- block/spore_blossom/step5.ogg
+- block/spore_blossom/step6.ogg
+- block/tuff/break1.ogg
+- block/tuff/break2.ogg
+- block/tuff/break3.ogg
+- block/tuff/break4.ogg
+- block/tuff/break5.ogg
+- block/tuff/step1.ogg
+- block/tuff/step2.ogg
+- block/tuff/step3.ogg
+- block/tuff/step4.ogg
+- block/tuff/step5.ogg
+- block/tuff/step6.ogg
+- block/vine/break1.ogg
+- block/vine/break2.ogg
+- block/vine/break3.ogg
+- block/vine/break4.ogg
+- entity/glow_squid/ambient1.ogg
+- entity/glow_squid/ambient2.ogg
+- entity/glow_squid/ambient3.ogg
+- entity/glow_squid/ambient4.ogg
+- entity/glow_squid/ambient5.ogg
+- entity/glow_squid/death1.ogg
+- entity/glow_squid/death2.ogg
+- entity/glow_squid/death3.ogg
+- entity/glow_squid/hurt1.ogg
+- entity/glow_squid/hurt2.ogg
+- entity/glow_squid/hurt3.ogg
+- entity/glow_squid/hurt4.ogg
+- entity/glow_squid/squirt1.ogg
+- entity/glow_squid/squirt2.ogg
+- entity/glow_squid/squirt3.ogg
+- entity/player/hurt/freeze_hurt1.ogg
+- entity/player/hurt/freeze_hurt2.ogg
+- entity/player/hurt/freeze_hurt3.ogg
+- entity/player/hurt/freeze_hurt4.ogg
+- entity/player/hurt/freeze_hurt5.ogg
+- item/axe/scrape1.ogg
+- item/axe/scrape2.ogg
+- item/axe/scrape3.ogg
+- item/axe/wax_off1.ogg
+- item/axe/wax_off2.ogg
+- item/axe/wax_off3.ogg
+- item/bonemeal/bonemeal1.ogg
+- item/bonemeal/bonemeal2.ogg
+- item/bonemeal/bonemeal3.ogg
+- item/bonemeal/bonemeal4.ogg
+- item/bonemeal/bonemeal5.ogg
+- item/bucket/empty_powder_snow1.ogg
+- item/bucket/empty_powder_snow2.ogg
+- item/bucket/fill_axolotl1.ogg
+- item/bucket/fill_axolotl2.ogg
+- item/bucket/fill_axolotl3.ogg
+- item/bucket/fill_powder_snow1.ogg
+- item/bucket/fill_powder_snow2.ogg
+- item/dye/dye.ogg
+- item/honeycomb/wax_on1.ogg
+- item/honeycomb/wax_on2.ogg
+- item/honeycomb/wax_on3.ogg
+- item/ink_sac/ink_sac1.ogg
+- item/ink_sac/ink_sac2.ogg
+- item/ink_sac/ink_sac3.ogg
+- item/spyglass/stop.ogg
+- item/spyglass/use.ogg
+- minecart/inside_underwater1.ogg
+- minecart/inside_underwater2.ogg
+- minecart/inside_underwater3.ogg
+- mob/axolotl/attack1.ogg
+- mob/axolotl/attack2.ogg
+- mob/axolotl/attack3.ogg
+- mob/axolotl/attack4.ogg
+- mob/axolotl/death1.ogg
+- mob/axolotl/death2.ogg
+- mob/axolotl/hurt1.ogg
+- mob/axolotl/hurt2.ogg
+- mob/axolotl/hurt3.ogg
+- mob/axolotl/hurt4.ogg
+- mob/axolotl/idle_air1.ogg
+- mob/axolotl/idle_air2.ogg
+- mob/axolotl/idle_air3.ogg
+- mob/axolotl/idle_air4.ogg
+- mob/axolotl/idle_air5.ogg
+- mob/axolotl/idle1.ogg
+- mob/axolotl/idle2.ogg
+- mob/axolotl/idle3.ogg
+- mob/axolotl/idle4.ogg
+- mob/axolotl/idle5.ogg
+- mob/goat/death1.ogg
+- mob/goat/death2.ogg
+- mob/goat/death3.ogg
+- mob/goat/death4.ogg
+- mob/goat/death5.ogg
+- mob/goat/eat1.ogg
+- mob/goat/eat2.ogg
+- mob/goat/eat3.ogg
+- mob/goat/hurt1.ogg
+- mob/goat/hurt2.ogg
+- mob/goat/hurt3.ogg
+- mob/goat/hurt4.ogg
+- mob/goat/idle1.ogg
+- mob/goat/idle2.ogg
+- mob/goat/idle3.ogg
+- mob/goat/idle4.ogg
+- mob/goat/idle5.ogg
+- mob/goat/idle6.ogg
+- mob/goat/idle7.ogg
+- mob/goat/idle8.ogg
+- mob/goat/impact1.ogg
+- mob/goat/impact2.ogg
+- mob/goat/impact3.ogg
+- mob/goat/jump1.ogg
+- mob/goat/jump2.ogg
+- mob/goat/pre_ram1.ogg
+- mob/goat/pre_ram2.ogg
+- mob/goat/pre_ram3.ogg
+- mob/goat/pre_ram4.ogg
+- mob/goat/scream1.ogg
+- mob/goat/scream2.ogg
+- mob/goat/scream3.ogg
+- mob/goat/scream4.ogg
+- mob/goat/scream5.ogg
+- mob/goat/scream6.ogg
+- mob/goat/scream7.ogg
+- mob/goat/scream8.ogg
+- mob/goat/scream9.ogg
+- mob/goat/screaming_death1.ogg
+- mob/goat/screaming_death2.ogg
+- mob/goat/screaming_death3.ogg
+- mob/goat/screaming_hurt1.ogg
+- mob/goat/screaming_hurt2.ogg
+- mob/goat/screaming_hurt3.ogg
+- mob/goat/screaming_milk1.ogg
+- mob/goat/screaming_milk2.ogg
+- mob/goat/screaming_milk3.ogg
+- mob/goat/screaming_milk4.ogg
+- mob/goat/screaming_milk5.ogg
+- mob/goat/screaming_pre_ram1.ogg
+- mob/goat/screaming_pre_ram2.ogg
+- mob/goat/screaming_pre_ram3.ogg
+- mob/goat/screaming_pre_ram4.ogg
+- mob/goat/screaming_pre_ram5.ogg
+- mob/goat/step1.ogg
+- mob/goat/step2.ogg
+- mob/goat/step3.ogg
+- mob/goat/step4.ogg
+- mob/goat/step5.ogg
+- mob/goat/step6.ogg
+- mob/stray/convert1.ogg
+- mob/stray/convert2.ogg
+- mob/stray/convert3.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/candle_cakes.json
+- blocks/candles.json
+- blocks/cauldrons.json
+- blocks/crystal_sound_blocks.json
+- blocks/dripstone_replaceable_blocks.json
+- blocks/inside_step_sound_blocks.json
+- blocks/occludes_vibration_signals.json
+- entity_types/axolotl_always_hostiles.json
+- entity_types/axolotl_tempted_hostiles.json
+- entity_types/powder_snow_walkable_mobs.json
+- game_events/ignore_vibrations_stepping_carefully.json
+- game_events/vibrations.json
+- items/axolotl_tempt_items.json
+- items/candles.json
+- items/freeze_immune_wearables.json
+- items/ignored_by_piglin_babies.json
+- items/occludes_vibration_signals.json
+- items/piglin_food.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/amethyst_block.png
+- block/amethyst_cluster.png
+- block/black_candle.png
+- block/blue_candle.png
+- block/brown_candle.png
+- block/budding_amethyst.png
+- block/calcite.png
+- block/calibrated_sculk_sensor_side.png
+- block/calibrated_sculk_sensor_top.png
+- block/candle.png
+- block/copper_block.png
+- block/copper_ore.png
+- block/cut_copper.png
+- block/cyan_candle.png
+- block/dirt_path_side.png
+- block/dirt_path_top.png
+- block/dripstone_block.png
++ block/grass_path_side.png
++ block/grass_path_top.png
+- block/gray_candle.png
+- block/green_candle.png
+- block/large_amethyst_bud.png
+- block/light_blue_candle.png
+- block/light_gray_candle.png
+- block/lightly_weathered_copper_block.png
+- block/lightly_weathered_cut_copper.png
+- block/lightning_rod.png
+- block/lime_candle.png
+- block/magenta_candle.png
+- block/medium_amethyst_bud.png
+- block/orange_candle.png
+- block/pink_candle.png
+- block/pointed_dripstone_down_base.png
+- block/pointed_dripstone_down_frustum.png
+- block/pointed_dripstone_down_middle.png
+- block/pointed_dripstone_down_tip_merge.png
+- block/pointed_dripstone_down_tip.png
+- block/pointed_dripstone_up_base.png
+- block/pointed_dripstone_up_frustum.png
+- block/pointed_dripstone_up_middle.png
+- block/pointed_dripstone_up_tip_merge.png
+- block/pointed_dripstone_up_tip.png
+- block/powder_snow.png
+- block/purple_candle.png
+- block/red_candle.png
+- block/sculk_sensor_bottom.png
+- block/sculk_sensor_side.png
+- block/sculk_sensor_tendril_active.png
+- block/sculk_sensor_tendril_inactive.png
+- block/sculk_sensor_top.png
+- block/semi_weathered_copper_block.png
+- block/semi_weathered_cut_copper.png
+- block/small_amethyst_bud.png
+- block/tinted_glass.png
+- block/tuff.png
+- block/weathered_copper_block.png
+- block/weathered_cut_copper.png
+- block/white_candle.png
+- block/yellow_candle.png
+- entity/axolotl/axolotl_blue.png
+- entity/axolotl/axolotl_cyan.png
+- entity/axolotl/axolotl_gold.png
+- entity/axolotl/axolotl_lucy.png
+- entity/axolotl/axolotl_wild.png
+- gui/container/bundle.png
+- item/amethyst_shard.png
+- item/axolotl_bucket.png
+- item/black_candle.png
+- item/blue_candle.png
+- item/brown_candle.png
+- item/bundle_filled.png
+- item/bundle.png
+- item/candle.png
+- item/copper_ingot.png
+- item/cyan_candle.png
+- item/gray_candle.png
+- item/green_candle.png
+- item/light_blue_candle.png
+- item/light_gray_candle.png
+- item/lime_candle.png
+- item/magenta_candle.png
+- item/orange_candle.png
+- item/pink_candle.png
+- item/pointed_dripstone.png
+- item/powder_snow_bucket.png
+- item/purple_candle.png
+- item/red_candle.png
+- item/spyglass.png
+- item/white_candle.png
+- item/yellow_candle.png
+- misc/powder_snow_outline.png
+- misc/spyglass_scope.png
+- particle/vibration.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
++ com.mojang:javabridge:1.0.22
+- com.mojang:javabridge:1.1.23
+```
+
+</details>

@@ -1,2825 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w04a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w04a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-01-24T15:19:06+00:00</td></tr>
-<tr><th>SHA1</th><td>57e14d21ac26b5a0844e4fefd68912b08b7d6e48</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/57e14d21ac26b5a0844e4fefd68912b08b7d6e48/23w04a.json">https://piston-meta.mojang.com/v1/packages/57e14d21ac26b5a0844e4fefd68912b08b7d6e48/23w04a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>5d3873866a2b2284dcb5afa12af55b3b516f2fbd</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/5d3873866a2b2284dcb5afa12af55b3b516f2fbd/23w04a.json">https://piston-meta.mojang.com/v1/packages/5d3873866a2b2284dcb5afa12af55b3b516f2fbd/23w04a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/2f31a8584ec1e70abd2d8b22d976feb52a6a3e31/server.jar">https://piston-data.mojang.com/v1/objects/2f31a8584ec1e70abd2d8b22d976feb52a6a3e31/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/868745891d933db0ae97afd7046416a2af961e86/server.txt">https://piston-data.mojang.com/v1/objects/868745891d933db0ae97afd7046416a2af961e86/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/2623aee01948e8ed29b3a52e5504c4d1fd63c7ae/client.jar">https://piston-data.mojang.com/v1/objects/2623aee01948e8ed29b3a52e5504c4d1fd63c7ae/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4ef420245e54a29c2bbd38caf3d8d66964610756/client.txt">https://piston-data.mojang.com/v1/objects/4ef420245e54a29c2bbd38caf3d8d66964610756/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w03a">23w03a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/breed_an_animal.json
--  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/root.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_boots_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_sword_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_axe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/ancient_city.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_bridge.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_other.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_treasure.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/desert_pyramid.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/end_city_treasure.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/jungle_temple.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/nether_bridge.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/pillager_outpost.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_map.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_supply.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_treasure.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_corridor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_library.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/woodland_mansion.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/camel.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/elder_guardian.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing/fish.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_axe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_boots_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_chestplate_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_helmet_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_hoe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_leggings_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_pickaxe_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_shovel_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_sword_smithing.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_upgrade_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_materials.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_templates.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trimmable_armor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/amethyst.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/copper.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/diamond.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/emerald.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/gold.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/iron.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/lapis.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/netherite.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/quartz.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_material/redstone.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/coast.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/dune.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/eye.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/rib.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/sentry.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/snout.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/spire.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/tide.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/vex.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/ward.json
-+  minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/wild.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/atlases/armor_trims.json
-+  minecraft/models/item/chainmail_boots_amethyst_trim.json
-+  minecraft/models/item/chainmail_boots_copper_trim.json
-+  minecraft/models/item/chainmail_boots_diamond_trim.json
-+  minecraft/models/item/chainmail_boots_emerald_trim.json
-+  minecraft/models/item/chainmail_boots_gold_trim.json
-+  minecraft/models/item/chainmail_boots_iron_trim.json
-+  minecraft/models/item/chainmail_boots_lapis_trim.json
-+  minecraft/models/item/chainmail_boots_netherite_trim.json
-+  minecraft/models/item/chainmail_boots_quartz_trim.json
-+  minecraft/models/item/chainmail_boots_redstone_trim.json
-+  minecraft/models/item/chainmail_chestplate_amethyst_trim.json
-+  minecraft/models/item/chainmail_chestplate_copper_trim.json
-+  minecraft/models/item/chainmail_chestplate_diamond_trim.json
-+  minecraft/models/item/chainmail_chestplate_emerald_trim.json
-+  minecraft/models/item/chainmail_chestplate_gold_trim.json
-+  minecraft/models/item/chainmail_chestplate_iron_trim.json
-+  minecraft/models/item/chainmail_chestplate_lapis_trim.json
-+  minecraft/models/item/chainmail_chestplate_netherite_trim.json
-+  minecraft/models/item/chainmail_chestplate_quartz_trim.json
-+  minecraft/models/item/chainmail_chestplate_redstone_trim.json
-+  minecraft/models/item/chainmail_helmet_amethyst_trim.json
-+  minecraft/models/item/chainmail_helmet_copper_trim.json
-+  minecraft/models/item/chainmail_helmet_diamond_trim.json
-+  minecraft/models/item/chainmail_helmet_emerald_trim.json
-+  minecraft/models/item/chainmail_helmet_gold_trim.json
-+  minecraft/models/item/chainmail_helmet_iron_trim.json
-+  minecraft/models/item/chainmail_helmet_lapis_trim.json
-+  minecraft/models/item/chainmail_helmet_netherite_trim.json
-+  minecraft/models/item/chainmail_helmet_quartz_trim.json
-+  minecraft/models/item/chainmail_helmet_redstone_trim.json
-+  minecraft/models/item/chainmail_leggings_amethyst_trim.json
-+  minecraft/models/item/chainmail_leggings_copper_trim.json
-+  minecraft/models/item/chainmail_leggings_diamond_trim.json
-+  minecraft/models/item/chainmail_leggings_emerald_trim.json
-+  minecraft/models/item/chainmail_leggings_gold_trim.json
-+  minecraft/models/item/chainmail_leggings_iron_trim.json
-+  minecraft/models/item/chainmail_leggings_lapis_trim.json
-+  minecraft/models/item/chainmail_leggings_netherite_trim.json
-+  minecraft/models/item/chainmail_leggings_quartz_trim.json
-+  minecraft/models/item/chainmail_leggings_redstone_trim.json
-+  minecraft/models/item/coast_armor_trim_smithing_template.json
-+  minecraft/models/item/diamond_boots_amethyst_trim.json
-+  minecraft/models/item/diamond_boots_copper_trim.json
-+  minecraft/models/item/diamond_boots_emerald_trim.json
-+  minecraft/models/item/diamond_boots_gold_trim.json
-+  minecraft/models/item/diamond_boots_iron_trim.json
-+  minecraft/models/item/diamond_boots_lapis_trim.json
-+  minecraft/models/item/diamond_boots_netherite_trim.json
-+  minecraft/models/item/diamond_boots_quartz_trim.json
-+  minecraft/models/item/diamond_boots_redstone_trim.json
-+  minecraft/models/item/diamond_chestplate_amethyst_trim.json
-+  minecraft/models/item/diamond_chestplate_copper_trim.json
-+  minecraft/models/item/diamond_chestplate_emerald_trim.json
-+  minecraft/models/item/diamond_chestplate_gold_trim.json
-+  minecraft/models/item/diamond_chestplate_iron_trim.json
-+  minecraft/models/item/diamond_chestplate_lapis_trim.json
-+  minecraft/models/item/diamond_chestplate_netherite_trim.json
-+  minecraft/models/item/diamond_chestplate_quartz_trim.json
-+  minecraft/models/item/diamond_chestplate_redstone_trim.json
-+  minecraft/models/item/diamond_helmet_amethyst_trim.json
-+  minecraft/models/item/diamond_helmet_copper_trim.json
-+  minecraft/models/item/diamond_helmet_emerald_trim.json
-+  minecraft/models/item/diamond_helmet_gold_trim.json
-+  minecraft/models/item/diamond_helmet_iron_trim.json
-+  minecraft/models/item/diamond_helmet_lapis_trim.json
-+  minecraft/models/item/diamond_helmet_netherite_trim.json
-+  minecraft/models/item/diamond_helmet_quartz_trim.json
-+  minecraft/models/item/diamond_helmet_redstone_trim.json
-+  minecraft/models/item/diamond_leggings_amethyst_trim.json
-+  minecraft/models/item/diamond_leggings_copper_trim.json
-+  minecraft/models/item/diamond_leggings_emerald_trim.json
-+  minecraft/models/item/diamond_leggings_gold_trim.json
-+  minecraft/models/item/diamond_leggings_iron_trim.json
-+  minecraft/models/item/diamond_leggings_lapis_trim.json
-+  minecraft/models/item/diamond_leggings_netherite_trim.json
-+  minecraft/models/item/diamond_leggings_quartz_trim.json
-+  minecraft/models/item/diamond_leggings_redstone_trim.json
-+  minecraft/models/item/dune_armor_trim_smithing_template.json
-+  minecraft/models/item/eye_armor_trim_smithing_template.json
-+  minecraft/models/item/golden_boots_amethyst_trim.json
-+  minecraft/models/item/golden_boots_copper_trim.json
-+  minecraft/models/item/golden_boots_diamond_trim.json
-+  minecraft/models/item/golden_boots_emerald_trim.json
-+  minecraft/models/item/golden_boots_iron_trim.json
-+  minecraft/models/item/golden_boots_lapis_trim.json
-+  minecraft/models/item/golden_boots_netherite_trim.json
-+  minecraft/models/item/golden_boots_quartz_trim.json
-+  minecraft/models/item/golden_boots_redstone_trim.json
-+  minecraft/models/item/golden_chestplate_amethyst_trim.json
-+  minecraft/models/item/golden_chestplate_copper_trim.json
-+  minecraft/models/item/golden_chestplate_diamond_trim.json
-+  minecraft/models/item/golden_chestplate_emerald_trim.json
-+  minecraft/models/item/golden_chestplate_iron_trim.json
-+  minecraft/models/item/golden_chestplate_lapis_trim.json
-+  minecraft/models/item/golden_chestplate_netherite_trim.json
-+  minecraft/models/item/golden_chestplate_quartz_trim.json
-+  minecraft/models/item/golden_chestplate_redstone_trim.json
-+  minecraft/models/item/golden_helmet_amethyst_trim.json
-+  minecraft/models/item/golden_helmet_copper_trim.json
-+  minecraft/models/item/golden_helmet_diamond_trim.json
-+  minecraft/models/item/golden_helmet_emerald_trim.json
-+  minecraft/models/item/golden_helmet_iron_trim.json
-+  minecraft/models/item/golden_helmet_lapis_trim.json
-+  minecraft/models/item/golden_helmet_netherite_trim.json
-+  minecraft/models/item/golden_helmet_quartz_trim.json
-+  minecraft/models/item/golden_helmet_redstone_trim.json
-+  minecraft/models/item/golden_leggings_amethyst_trim.json
-+  minecraft/models/item/golden_leggings_copper_trim.json
-+  minecraft/models/item/golden_leggings_diamond_trim.json
-+  minecraft/models/item/golden_leggings_emerald_trim.json
-+  minecraft/models/item/golden_leggings_iron_trim.json
-+  minecraft/models/item/golden_leggings_lapis_trim.json
-+  minecraft/models/item/golden_leggings_netherite_trim.json
-+  minecraft/models/item/golden_leggings_quartz_trim.json
-+  minecraft/models/item/golden_leggings_redstone_trim.json
-+  minecraft/models/item/iron_boots_amethyst_trim.json
-+  minecraft/models/item/iron_boots_copper_trim.json
-+  minecraft/models/item/iron_boots_diamond_trim.json
-+  minecraft/models/item/iron_boots_emerald_trim.json
-+  minecraft/models/item/iron_boots_gold_trim.json
-+  minecraft/models/item/iron_boots_lapis_trim.json
-+  minecraft/models/item/iron_boots_netherite_trim.json
-+  minecraft/models/item/iron_boots_quartz_trim.json
-+  minecraft/models/item/iron_boots_redstone_trim.json
-+  minecraft/models/item/iron_chestplate_amethyst_trim.json
-+  minecraft/models/item/iron_chestplate_copper_trim.json
-+  minecraft/models/item/iron_chestplate_diamond_trim.json
-+  minecraft/models/item/iron_chestplate_emerald_trim.json
-+  minecraft/models/item/iron_chestplate_gold_trim.json
-+  minecraft/models/item/iron_chestplate_lapis_trim.json
-+  minecraft/models/item/iron_chestplate_netherite_trim.json
-+  minecraft/models/item/iron_chestplate_quartz_trim.json
-+  minecraft/models/item/iron_chestplate_redstone_trim.json
-+  minecraft/models/item/iron_helmet_amethyst_trim.json
-+  minecraft/models/item/iron_helmet_copper_trim.json
-+  minecraft/models/item/iron_helmet_diamond_trim.json
-+  minecraft/models/item/iron_helmet_emerald_trim.json
-+  minecraft/models/item/iron_helmet_gold_trim.json
-+  minecraft/models/item/iron_helmet_lapis_trim.json
-+  minecraft/models/item/iron_helmet_netherite_trim.json
-+  minecraft/models/item/iron_helmet_quartz_trim.json
-+  minecraft/models/item/iron_helmet_redstone_trim.json
-+  minecraft/models/item/iron_leggings_amethyst_trim.json
-+  minecraft/models/item/iron_leggings_copper_trim.json
-+  minecraft/models/item/iron_leggings_diamond_trim.json
-+  minecraft/models/item/iron_leggings_emerald_trim.json
-+  minecraft/models/item/iron_leggings_gold_trim.json
-+  minecraft/models/item/iron_leggings_lapis_trim.json
-+  minecraft/models/item/iron_leggings_netherite_trim.json
-+  minecraft/models/item/iron_leggings_quartz_trim.json
-+  minecraft/models/item/iron_leggings_redstone_trim.json
-+  minecraft/models/item/netherite_boots_amethyst_trim.json
-+  minecraft/models/item/netherite_boots_copper_trim.json
-+  minecraft/models/item/netherite_boots_diamond_trim.json
-+  minecraft/models/item/netherite_boots_emerald_trim.json
-+  minecraft/models/item/netherite_boots_gold_trim.json
-+  minecraft/models/item/netherite_boots_iron_trim.json
-+  minecraft/models/item/netherite_boots_lapis_trim.json
-+  minecraft/models/item/netherite_boots_quartz_trim.json
-+  minecraft/models/item/netherite_boots_redstone_trim.json
-+  minecraft/models/item/netherite_chestplate_amethyst_trim.json
-+  minecraft/models/item/netherite_chestplate_copper_trim.json
-+  minecraft/models/item/netherite_chestplate_diamond_trim.json
-+  minecraft/models/item/netherite_chestplate_emerald_trim.json
-+  minecraft/models/item/netherite_chestplate_gold_trim.json
-+  minecraft/models/item/netherite_chestplate_iron_trim.json
-+  minecraft/models/item/netherite_chestplate_lapis_trim.json
-+  minecraft/models/item/netherite_chestplate_quartz_trim.json
-+  minecraft/models/item/netherite_chestplate_redstone_trim.json
-+  minecraft/models/item/netherite_helmet_amethyst_trim.json
-+  minecraft/models/item/netherite_helmet_copper_trim.json
-+  minecraft/models/item/netherite_helmet_diamond_trim.json
-+  minecraft/models/item/netherite_helmet_emerald_trim.json
-+  minecraft/models/item/netherite_helmet_gold_trim.json
-+  minecraft/models/item/netherite_helmet_iron_trim.json
-+  minecraft/models/item/netherite_helmet_lapis_trim.json
-+  minecraft/models/item/netherite_helmet_quartz_trim.json
-+  minecraft/models/item/netherite_helmet_redstone_trim.json
-+  minecraft/models/item/netherite_leggings_amethyst_trim.json
-+  minecraft/models/item/netherite_leggings_copper_trim.json
-+  minecraft/models/item/netherite_leggings_diamond_trim.json
-+  minecraft/models/item/netherite_leggings_emerald_trim.json
-+  minecraft/models/item/netherite_leggings_gold_trim.json
-+  minecraft/models/item/netherite_leggings_iron_trim.json
-+  minecraft/models/item/netherite_leggings_lapis_trim.json
-+  minecraft/models/item/netherite_leggings_quartz_trim.json
-+  minecraft/models/item/netherite_leggings_redstone_trim.json
-+  minecraft/models/item/netherite_upgrade_smithing_template.json
-+  minecraft/models/item/rib_armor_trim_smithing_template.json
-+  minecraft/models/item/sentry_armor_trim_smithing_template.json
-+  minecraft/models/item/snout_armor_trim_smithing_template.json
-+  minecraft/models/item/spire_armor_trim_smithing_template.json
-+  minecraft/models/item/tide_armor_trim_smithing_template.json
-+  minecraft/models/item/turtle_helmet_amethyst_trim.json
-+  minecraft/models/item/turtle_helmet_copper_trim.json
-+  minecraft/models/item/turtle_helmet_diamond_trim.json
-+  minecraft/models/item/turtle_helmet_emerald_trim.json
-+  minecraft/models/item/turtle_helmet_gold_trim.json
-+  minecraft/models/item/turtle_helmet_iron_trim.json
-+  minecraft/models/item/turtle_helmet_lapis_trim.json
-+  minecraft/models/item/turtle_helmet_netherite_trim.json
-+  minecraft/models/item/turtle_helmet_quartz_trim.json
-+  minecraft/models/item/turtle_helmet_redstone_trim.json
-+  minecraft/models/item/vex_armor_trim_smithing_template.json
-+  minecraft/models/item/ward_armor_trim_smithing_template.json
-+  minecraft/models/item/wild_armor_trim_smithing_template.json
-+  minecraft/textures/gui/container/legacy_smithing.png
-+  minecraft/textures/item/coast_armor_trim_smithing_template.png
-+  minecraft/textures/item/dune_armor_trim_smithing_template.png
-+  minecraft/textures/item/empty_slot_amethyst_shard.png
-+  minecraft/textures/item/empty_slot_axe.png
-+  minecraft/textures/item/empty_slot_diamond.png
-+  minecraft/textures/item/empty_slot_emerald.png
-+  minecraft/textures/item/empty_slot_hoe.png
-+  minecraft/textures/item/empty_slot_ingot.png
-+  minecraft/textures/item/empty_slot_lapis_lazuli.png
-+  minecraft/textures/item/empty_slot_pickaxe.png
-+  minecraft/textures/item/empty_slot_quartz.png
-+  minecraft/textures/item/empty_slot_redstone_dust.png
-+  minecraft/textures/item/empty_slot_shovel.png
-+  minecraft/textures/item/empty_slot_smithing_template_armor_trim.png
-+  minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png
-+  minecraft/textures/item/empty_slot_sword.png
-+  minecraft/textures/item/eye_armor_trim_smithing_template.png
-+  minecraft/textures/item/netherite_upgrade_smithing_template.png
-+  minecraft/textures/item/rib_armor_trim_smithing_template.png
-+  minecraft/textures/item/sentry_armor_trim_smithing_template.png
-+  minecraft/textures/item/snout_armor_trim_smithing_template.png
-+  minecraft/textures/item/spire_armor_trim_smithing_template.png
-+  minecraft/textures/item/tide_armor_trim_smithing_template.png
-+  minecraft/textures/item/vex_armor_trim_smithing_template.png
-+  minecraft/textures/item/ward_armor_trim_smithing_template.png
-+  minecraft/textures/item/wild_armor_trim_smithing_template.png
-+  minecraft/textures/trims
-+  minecraft/textures/trims/color_palettes
-+  minecraft/textures/trims/color_palettes/amethyst.png
-+  minecraft/textures/trims/color_palettes/copper.png
-+  minecraft/textures/trims/color_palettes/diamond.png
-+  minecraft/textures/trims/color_palettes/emerald.png
-+  minecraft/textures/trims/color_palettes/gold.png
-+  minecraft/textures/trims/color_palettes/iron.png
-+  minecraft/textures/trims/color_palettes/lapis.png
-+  minecraft/textures/trims/color_palettes/netherite.png
-+  minecraft/textures/trims/color_palettes/quartz.png
-+  minecraft/textures/trims/color_palettes/redstone.png
-+  minecraft/textures/trims/color_palettes/trim_palette.png
-+  minecraft/textures/trims/items
-+  minecraft/textures/trims/items/boots_trim.png
-+  minecraft/textures/trims/items/chestplate_trim.png
-+  minecraft/textures/trims/items/helmet_trim.png
-+  minecraft/textures/trims/items/leggings_trim.png
-+  minecraft/textures/trims/models
-+  minecraft/textures/trims/models/armor
-+  minecraft/textures/trims/models/armor/coast.png
-+  minecraft/textures/trims/models/armor/coast_leggings.png
-+  minecraft/textures/trims/models/armor/dune.png
-+  minecraft/textures/trims/models/armor/dune_leggings.png
-+  minecraft/textures/trims/models/armor/eye.png
-+  minecraft/textures/trims/models/armor/eye_leggings.png
-+  minecraft/textures/trims/models/armor/rib.png
-+  minecraft/textures/trims/models/armor/rib_leggings.png
-+  minecraft/textures/trims/models/armor/sentry.png
-+  minecraft/textures/trims/models/armor/sentry_leggings.png
-+  minecraft/textures/trims/models/armor/snout.png
-+  minecraft/textures/trims/models/armor/snout_leggings.png
-+  minecraft/textures/trims/models/armor/spire.png
-+  minecraft/textures/trims/models/armor/spire_leggings.png
-+  minecraft/textures/trims/models/armor/tide.png
-+  minecraft/textures/trims/models/armor/tide_leggings.png
-+  minecraft/textures/trims/models/armor/vex.png
-+  minecraft/textures/trims/models/armor/vex_leggings.png
-+  minecraft/textures/trims/models/armor/ward.png
-+  minecraft/textures/trims/models/armor/ward_leggings.png
-+  minecraft/textures/trims/models/armor/wild.png
-+  minecraft/textures/trims/models/armor/wild_leggings.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:coast_armor_trim_smithing_template
-+ minecraft:dune_armor_trim_smithing_template
-+ minecraft:eye_armor_trim_smithing_template
-+ minecraft:netherite_upgrade_smithing_template
-+ minecraft:rib_armor_trim_smithing_template
-+ minecraft:sentry_armor_trim_smithing_template
-+ minecraft:snout_armor_trim_smithing_template
-+ minecraft:spire_armor_trim_smithing_template
-+ minecraft:tide_armor_trim_smithing_template
-+ minecraft:vex_armor_trim_smithing_template
-+ minecraft:ward_armor_trim_smithing_template
-+ minecraft:wild_armor_trim_smithing_template
-```
-
-</details>
-
-<details><summary>menu.txt</summary>
-
-```diff
-+ minecraft:legacy_smithing
-```
-
-</details>
-
-<details><summary>recipe_serializer.txt</summary>
-
-```diff
-+ minecraft:smithing_transform
-+ minecraft:smithing_trim
-```
-
-</details>
-
-## Commands
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute on origin
-```
-
-</details>
-
-## Misc
-
-<details><summary>atlases.txt</summary>
-
-```diff
-+ armor_trims.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w04a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/container/legacy_smithing.png
-+ item/coast_armor_trim_smithing_template.png
-+ item/dune_armor_trim_smithing_template.png
-+ item/empty_slot_amethyst_shard.png
-+ item/empty_slot_axe.png
-+ item/empty_slot_diamond.png
-+ item/empty_slot_emerald.png
-+ item/empty_slot_hoe.png
-+ item/empty_slot_ingot.png
-+ item/empty_slot_lapis_lazuli.png
-+ item/empty_slot_pickaxe.png
-+ item/empty_slot_quartz.png
-+ item/empty_slot_redstone_dust.png
-+ item/empty_slot_shovel.png
-+ item/empty_slot_smithing_template_armor_trim.png
-+ item/empty_slot_smithing_template_netherite_upgrade.png
-+ item/empty_slot_sword.png
-+ item/eye_armor_trim_smithing_template.png
-+ item/netherite_upgrade_smithing_template.png
-+ item/rib_armor_trim_smithing_template.png
-+ item/sentry_armor_trim_smithing_template.png
-+ item/snout_armor_trim_smithing_template.png
-+ item/spire_armor_trim_smithing_template.png
-+ item/tide_armor_trim_smithing_template.png
-+ item/vex_armor_trim_smithing_template.png
-+ item/ward_armor_trim_smithing_template.png
-+ item/wild_armor_trim_smithing_template.png
-+ trims/color_palettes/amethyst.png
-+ trims/color_palettes/copper.png
-+ trims/color_palettes/diamond.png
-+ trims/color_palettes/emerald.png
-+ trims/color_palettes/gold.png
-+ trims/color_palettes/iron.png
-+ trims/color_palettes/lapis.png
-+ trims/color_palettes/netherite.png
-+ trims/color_palettes/quartz.png
-+ trims/color_palettes/redstone.png
-+ trims/color_palettes/trim_palette.png
-+ trims/items/boots_trim.png
-+ trims/items/chestplate_trim.png
-+ trims/items/helmet_trim.png
-+ trims/items/leggings_trim.png
-+ trims/models/armor/coast.png
-+ trims/models/armor/coast_leggings.png
-+ trims/models/armor/dune.png
-+ trims/models/armor/dune_leggings.png
-+ trims/models/armor/eye.png
-+ trims/models/armor/eye_leggings.png
-+ trims/models/armor/rib.png
-+ trims/models/armor/rib_leggings.png
-+ trims/models/armor/sentry.png
-+ trims/models/armor/sentry_leggings.png
-+ trims/models/armor/snout.png
-+ trims/models/armor/snout_leggings.png
-+ trims/models/armor/spire.png
-+ trims/models/armor/spire_leggings.png
-+ trims/models/armor/tide.png
-+ trims/models/armor/tide_leggings.png
-+ trims/models/armor/vex.png
-+ trims/models/armor/vex_leggings.png
-+ trims/models/armor/ward.png
-+ trims/models/armor/ward_leggings.png
-+ trims/models/armor/wild.png
-+ trims/models/armor/wild_leggings.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
-
-```diff
-- int OFFSET_A
-- int OFFSET_B
-- int OFFSET_G
-- int OFFSET_R
-+ int[] getPixelsRGBA()
-+ NativeImage mappedCopy(IntUnaryOperator)
-- int combine(int,int,int,int)
-- int getA(int)
-- int getB(int)
-- int getG(int)
-- int getR(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.ClientRecipeBook</summary>
-
-```diff
-+ List lambda$categorizeAndGroupRecipes$5(RecipeBookCategories)
-+ Object lambda$getCategory$6(Recipe)
-+ RecipeCollection lambda$setupCollections$0(List)
-+ Stream lambda$setupCollections$2(RecipeBookCategories)
-+ void lambda$setupCollections$1(List)
-+ void lambda$setupCollections$3(List)
-+ void setupCollections(RegistryAccess)
-- List lambda$categorizeAndGroupRecipes$3(RecipeBookCategories)
-- Object lambda$getCategory$5(Recipe)
-- Stream lambda$setupCollections$1(RecipeBookCategories)
-- void lambda$setupCollections$0(List)
-- void lambda$setupCollections$2(List)
-- void setupCollections(Iterable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ void blit(TextureAtlasSprite,float,float,float,float)
-+ void innerBlit(Matrix4f,int,int,int,int,int,float,float,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
-
-```diff
-+ void renderBg(PoseStack,float,int,int)
-+ void renderErrorIcon(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.SmithingScreen</summary>
-
-```diff
-+ ArmorStand armorStandPreview
-+ Component ERROR_TOOLTIP
-+ Component MISSING_TEMPLATE_TOOLTIP
-+ CyclingSlotBackground additionalIcon
-+ CyclingSlotBackground baseIcon
-+ CyclingSlotBackground templateIcon
-+ int ARMOR_STAND_OFFSET_X
-+ int ARMOR_STAND_OFFSET_Y
-+ int ARMOR_STAND_SCALE
-+ int ARMOR_STAND_X_ROT
-+ int ARMOR_STAND_Y_ROT
-+ int ERROR_ICON_HEIGHT
-+ int ERROR_ICON_WIDTH
-+ int ERROR_ICON_X
-+ int ERROR_ICON_Y
-+ int TITLE_LABEL_X
-+ int TITLE_LABEL_Y
-+ int TOOLTIP_WIDTH
-+ List EMPTY_SLOT_SMITHING_TEMPLATES
-+ Quaternionf ARMOR_STAND_ANGLE
-+ ResourceLocation EMPTY_SLOT_SMITHING_TEMPLATE_ARMOR_TRIM
-+ ResourceLocation EMPTY_SLOT_SMITHING_TEMPLATE_NETHERITE_UPGRADE
-+ boolean hasRecipeError()
-+ Optional getTemplateItem()
-+ void containerTick()
-+ void lambda$renderOnboardingTooltips$0(Component)
-+ void render(PoseStack,int,int,float)
-+ void renderBg(PoseStack,float,int,int)
-+ void renderErrorIcon(PoseStack,int,int)
-+ void renderOnboardingTooltips(PoseStack,int,int)
-+ void slotChanged(ItemStack)
-+ void subInit()
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
-
-```diff
-+ boolean handlePackSelection()
-+ void lambda$handlePackSelection$0(boolean)
-- void lambda$mouseClicked$0(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeCollection</summary>
-
-```diff
-+ RegistryAccess registryAccess
-+ boolean allRecipesHaveSameResult(List)
-+ RegistryAccess registryAccess()
-+ void <init>(List)
-- boolean allRecipesHaveSameResult(List)
-- void <init>(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides</summary>
-
-```diff
-+ float NO_OVERRIDE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRendererProvider$Context</summary>
-
-```diff
-+ ModelManager getModelManager()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
-
-```diff
-+ Minecraft minecraft
-+ void <init>(BlockEntityWithoutLevelRenderer)
-+ void renderStatic(Level,int)
-+ void tryRenderGuiItem(ItemStack,int,int,int,int)
-+ void tryRenderGuiItem(ItemStack,int,int,int)
-- void <init>(BlockEntityWithoutLevelRenderer)
-- void renderStatic(MultiBufferSource,int)
-- void tryRenderGuiItem(ItemStack,int,int,int,int)
-- void tryRenderGuiItem(ItemStack,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.Registries</summary>
-
-```diff
-+ ResourceKey TRIM_MATERIAL
-+ ResourceKey TRIM_PATTERN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.AdvancementSubProvider</summary>
-
-```diff
-+ Advancement createPlaceholder(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements</summary>
-
-```diff
-+ List BREEDABLE_ANIMALS
-+ List INDIRECTLY_BREEDABLE_ANIMALS
-- EntityType[] BREEDABLE_ANIMALS
-- EntityType[] INDIRECTLY_BREEDABLE_ANIMALS
-+ Advancement createBreedAllAnimalsAdvancement(Stream)
-+ Advancement$Builder addBreedable(Stream)
-+ void lambda$addBreedable$1(EntityType)
-+ void lambda$addBreedable$2(EntityType)
-+ void lambda$addCatVariants$3(Map$Entry)
-- Advancement createBreedAllAnimalsAdvancement(Consumer)
-- Advancement createBreedAnAnimalAdvancement(Consumer)
-- Advancement createRoot(Consumer)
-- Advancement$Builder addBreedable(Advancement$Builder)
-- EntityType[] getBreedableAnimals()
-- EntityType[] getIndirectlyBreedableAnimals()
-- void lambda$addCatVariants$1(Map$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
-
-```diff
-+ Object readWithCodec(Codec)
-+ void writeWithCodec(Object)
-- Object readWithCodec(Codec)
-- void writeWithCodec(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.ResourceLocation</summary>
-
-```diff
-+ ResourceLocation withSuffix(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.MenuType</summary>
-
-```diff
-+ FeatureFlagSet requiredFeatures
-+ MenuType LEGACY_SMITHING
-+ FeatureFlagSet requiredFeatures()
-+ MenuType register(FeatureFlag[])
-+ void <init>(FeatureFlagSet)
-- void <init>(MenuType$MenuSupplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.AbstractCookingRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack getResultItem()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.BannerDuplicateRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.BookCloningRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.FireworkRocketRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-- ItemStack getResultItem()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.FireworkStarRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-- ItemStack getResultItem()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
-
-```diff
-+ String lambda$getRecipesFor$6(Recipe)
-- String lambda$getRecipesFor$6(Recipe)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RepairItemRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.ShulkerBoxColoring</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.screens.inventory.DispenserScreen
@@ -6130,286 +3342,128 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.Registries</summary>
+<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
 
 ```diff
-+ ResourceKey TRIM_MATERIAL
-+ ResourceKey TRIM_PATTERN
+- int combine(int,int,int,int)
+- int getA(int)
+- int getB(int)
+- int getG(int)
+- int getR(int)
++ int[] getPixelsRGBA()
++ NativeImage mappedCopy(IntUnaryOperator)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.ClientRecipeBook</summary>
+
+```diff
+- List lambda$categorizeAndGroupRecipes$3(RecipeBookCategories)
++ List lambda$categorizeAndGroupRecipes$5(RecipeBookCategories)
+- Object lambda$getCategory$5(Recipe)
++ Object lambda$getCategory$6(Recipe)
++ RecipeCollection lambda$setupCollections$0(RegistryAccess,List)
+- Stream lambda$setupCollections$1(Map,RecipeBookCategories)
++ Stream lambda$setupCollections$2(Map,RecipeBookCategories)
+- void lambda$setupCollections$0(Map,ImmutableList$Builder,RecipeBookCategories,List)
++ void lambda$setupCollections$1(Map,RegistryAccess,ImmutableList$Builder,RecipeBookCategories,List)
+- void lambda$setupCollections$2(Map,RecipeBookCategories,List)
++ void lambda$setupCollections$3(Map,RecipeBookCategories,List)
++ void setupCollections(Iterable,RegistryAccess)
+- void setupCollections(Iterable)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
+
+```diff
++ void blit(PoseStack,int,int,int,int,int,TextureAtlasSprite,float,float,float,float)
++ void innerBlit(Matrix4f,int,int,int,int,int,float,float,float,float,float,float,float,float)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
+
+```diff
++ void renderBg(PoseStack,float,int,int)
++ void renderErrorIcon(PoseStack,int,int)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.SmithingScreen</summary>
 
+```diff
++ boolean hasRecipeError()
++ Optional getTemplateItem()
++ void containerTick()
++ void lambda$renderOnboardingTooltips$0(PoseStack,int,int,Component)
++ void render(PoseStack,int,int,float)
++ void renderBg(PoseStack,float,int,int)
++ void renderErrorIcon(PoseStack,int,int)
+- void renderLabels(PoseStack,int,int)
++ void renderOnboardingTooltips(PoseStack,int,int)
++ void slotChanged(AbstractContainerMenu,int,ItemStack)
++ void subInit()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
+
+```diff
++ boolean handlePackSelection()
++ void lambda$handlePackSelection$0(boolean)
+- void lambda$mouseClicked$0(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeCollection</summary>
+
+```diff
+- boolean allRecipesHaveSameResult(List)
++ boolean allRecipesHaveSameResult(RegistryAccess,List)
++ RegistryAccess registryAccess()
+- void <init>(List)
++ void <init>(RegistryAccess,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EntityRendererProvider$Context</summary>
+
+```diff
++ ModelManager getModelManager()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
+
+```diff
++ void <init>(Minecraft,TextureManager,ModelManager,ItemColors,BlockEntityWithoutLevelRenderer)
+- void <init>(TextureManager,ModelManager,ItemColors,BlockEntityWithoutLevelRenderer)
+- void renderStatic(ItemStack,ItemTransforms$TransformType,int,int,PoseStack,MultiBufferSource,int)
++ void renderStatic(ItemStack,ItemTransforms$TransformType,int,int,PoseStack,MultiBufferSource,Level,int)
+- void tryRenderGuiItem(LivingEntity,ItemStack,int,int,int,int)
+- void tryRenderGuiItem(LivingEntity,ItemStack,int,int,int)
++ void tryRenderGuiItem(LivingEntity,Level,ItemStack,int,int,int,int)
++ void tryRenderGuiItem(LivingEntity,Level,ItemStack,int,int,int)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.data.advancements.AdvancementSubProvider</summary>
@@ -6424,928 +3478,172 @@
 <details><summary>net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements</summary>
 
 ```diff
-+ List BREEDABLE_ANIMALS
-+ List INDIRECTLY_BREEDABLE_ANIMALS
-- EntityType[] BREEDABLE_ANIMALS
-- EntityType[] INDIRECTLY_BREEDABLE_ANIMALS
-+ Advancement createBreedAllAnimalsAdvancement(Stream)
-+ Advancement$Builder addBreedable(Stream)
-+ void lambda$addBreedable$1(EntityType)
-+ void lambda$addBreedable$2(EntityType)
-+ void lambda$addCatVariants$3(Map$Entry)
-- Advancement createBreedAllAnimalsAdvancement(Consumer)
-- Advancement createBreedAnAnimalAdvancement(Consumer)
++ Advancement createBreedAllAnimalsAdvancement(Advancement,Consumer,Stream,Stream)
+- Advancement createBreedAllAnimalsAdvancement(Advancement,Consumer)
+- Advancement createBreedAnAnimalAdvancement(Advancement,Consumer)
 - Advancement createRoot(Consumer)
++ Advancement$Builder addBreedable(Advancement$Builder,Stream,Stream)
 - Advancement$Builder addBreedable(Advancement$Builder)
 - EntityType[] getBreedableAnimals()
 - EntityType[] getIndirectlyBreedableAnimals()
-- void lambda$addCatVariants$1(Map$Entry)
++ void lambda$addBreedable$1(Advancement$Builder,EntityType)
++ void lambda$addBreedable$2(Advancement$Builder,EntityType)
+- void lambda$addCatVariants$1(Advancement$Builder,Map$Entry)
++ void lambda$addCatVariants$3(Advancement$Builder,Map$Entry)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.FriendlyByteBuf</summary>
 
 ```diff
-+ Object readWithCodec(Codec)
-+ void writeWithCodec(Object)
 - Object readWithCodec(Codec)
-- void writeWithCodec(Object)
++ Object readWithCodec(DynamicOps,Codec)
+- void writeWithCodec(Codec,Object)
++ void writeWithCodec(DynamicOps,Codec,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
 
 ```diff
-+ Optional lambda$createRelationOperations$75(Entity)
-+ Stream lambda$createRelationOperations$76(Entity)
-- Stream lambda$createRelationOperations$75(Entity)
++ ResourceLocation withSuffix(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
+<details><summary>net.minecraft.world.inventory.MenuType</summary>
 
 ```diff
-+ Entity getOwner()
++ FeatureFlagSet requiredFeatures()
++ MenuType register(String,MenuType$MenuSupplier,FeatureFlag[])
++ void <init>(MenuType$MenuSupplier,FeatureFlagSet)
+- void <init>(MenuType$MenuSupplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+<details><summary>net.minecraft.world.item.crafting.AbstractCookingRecipe</summary>
 
 ```diff
-+ int ADDITIONAL_SLOT
-+ int ADDITIONAL_SLOT_X_PLACEMENT
-+ int BASE_SLOT
-+ int BASE_SLOT_X_PLACEMENT
-+ int RESULT_SLOT
-+ int RESULT_SLOT_X_PLACEMENT
-+ int SLOT_Y_PLACEMENT
-+ int TEMPLATE_SLOT
-+ int TEMPLATE_SLOT_X_PLACEMENT
-+ SmithingRecipe selectedRecipe
-- UpgradeRecipe selectedRecipe
-+ boolean canMoveIntoInputSlots(ItemStack)
-+ boolean lambda$createInputSlotDefinitions$0(SmithingRecipe)
-+ boolean lambda$createInputSlotDefinitions$1(ItemStack)
-+ boolean lambda$createInputSlotDefinitions$2(SmithingRecipe)
-+ boolean lambda$createInputSlotDefinitions$3(ItemStack)
-+ boolean lambda$createInputSlotDefinitions$4(SmithingRecipe)
-+ boolean lambda$createInputSlotDefinitions$5(ItemStack)
-+ int getSlotToQuickMoveTo(ItemStack)
-+ ItemCombinerMenuSlotDefinition createInputSlotDefinitions()
-+ Optional findSlotMatchingIngredient(ItemStack)
-+ Optional lambda$canMoveIntoInputSlots$8(SmithingRecipe)
-+ Optional lambda$getSlotToQuickMoveTo$7(SmithingRecipe)
-+ void lambda$onTake$6(BlockPos)
-- boolean lambda$shouldQuickMoveToAdditionalSlot$1(UpgradeRecipe)
-- boolean shouldQuickMoveToAdditionalSlot(ItemStack)
-- void lambda$onTake$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
-
-```diff
-+ ArmorItem$Type type
-+ EnumMap ARMOR_MODIFIER_UUID_PER_TYPE
-- EquipmentSlot slot
-- UUID[] ARMOR_MODIFIER_UUID_PER_SLOT
-+ ArmorItem$Type getType()
-+ void <init>(Item$Properties)
-+ void lambda$static$0(EnumMap)
-- void <init>(Item$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.ArmorDyeRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
++ ItemStack assemble(Container,RegistryAccess)
 - ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.CustomRecipe</summary>
-
-```diff
+- ItemStack getResultItem()
 + ItemStack getResultItem(RegistryAccess)
-- ItemStack getResultItem()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.crafting.FireworkStarFadeRecipe</summary>
+
+<details><summary>net.minecraft.world.item.crafting.BannerDuplicateRecipe</summary>
 
 ```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
++ ItemStack assemble(Container,RegistryAccess)
 - ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
 - ItemStack assemble(CraftingContainer)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.item.crafting.MapCloningRecipe</summary>
+<details><summary>net.minecraft.world.item.crafting.BookCloningRecipe</summary>
 
 ```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
++ ItemStack assemble(Container,RegistryAccess)
 - ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
 - ItemStack assemble(CraftingContainer)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.crafting.Recipe</summary>
+
+<details><summary>net.minecraft.world.item.crafting.FireworkRocketRecipe</summary>
 
 ```diff
-+ ItemStack assemble(net.minecraft.world.Container,net.minecraft.core.RegistryAccess)
-+ ItemStack getResultItem(net.minecraft.core.RegistryAccess)
-- ItemStack assemble(net.minecraft.world.Container)
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
 - ItemStack getResultItem()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeSerializer</summary>
-
-```diff
-+ RecipeSerializer SMITHING_TRANSFORM
-+ RecipeSerializer SMITHING_TRIM
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
-
-```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
 + ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-- ItemStack getResultItem()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.crafting.ShapelessRecipe</summary>
+
+<details><summary>net.minecraft.world.item.crafting.FireworkStarRecipe</summary>
 
 ```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+- ItemStack getResultItem()
 + ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack assemble(CraftingContainer)
-- ItemStack getResultItem()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.crafting.ShieldDecorationRecipe</summary>
+
+<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
 
 ```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack assemble(RegistryAccess)
++ ItemStack assemble(Container,RegistryAccess)
 - ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
 - ItemStack assemble(CraftingContainer)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.item.crafting.SingleItemRecipe</summary>
+<details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
 
 ```diff
-+ ItemStack assemble(RegistryAccess)
-+ ItemStack getResultItem(RegistryAccess)
-- ItemStack assemble(Container)
-- ItemStack getResultItem()
++ String lambda$getRecipesFor$6(Level,Recipe)
+- String lambda$getRecipesFor$6(Recipe)
 ```
 
 </details>
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.world.item.crafting.RepairItemRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShulkerBoxColoring</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.data.advancements.packs.UpdateOneTwentyAdvancements
@@ -10638,13 +6936,776 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.advancements.AdvancementSubProvider</summary>
+
+```diff
++ Advancement createPlaceholder(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements</summary>
+
+```diff
++ Advancement createBreedAllAnimalsAdvancement(Advancement,Consumer,Stream,Stream)
+- Advancement createBreedAllAnimalsAdvancement(Advancement,Consumer)
+- Advancement createBreedAnAnimalAdvancement(Advancement,Consumer)
+- Advancement createRoot(Consumer)
++ Advancement$Builder addBreedable(Advancement$Builder,Stream,Stream)
+- Advancement$Builder addBreedable(Advancement$Builder)
+- EntityType[] getBreedableAnimals()
+- EntityType[] getIndirectlyBreedableAnimals()
++ void lambda$addBreedable$1(Advancement$Builder,EntityType)
++ void lambda$addBreedable$2(Advancement$Builder,EntityType)
+- void lambda$addCatVariants$1(Advancement$Builder,Map$Entry)
++ void lambda$addCatVariants$3(Advancement$Builder,Map$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
+- Object readWithCodec(Codec)
++ Object readWithCodec(DynamicOps,Codec)
+- void writeWithCodec(Codec,Object)
++ void writeWithCodec(DynamicOps,Codec,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.ExecuteCommand</summary>
+
+```diff
++ Optional lambda$createRelationOperations$75(Entity)
+- Stream lambda$createRelationOperations$75(Entity)
++ Stream lambda$createRelationOperations$76(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
+
+```diff
++ Entity getOwner()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+
+```diff
++ boolean canMoveIntoInputSlots(ItemStack)
++ boolean lambda$createInputSlotDefinitions$0(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$1(ItemStack)
++ boolean lambda$createInputSlotDefinitions$2(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$3(ItemStack)
++ boolean lambda$createInputSlotDefinitions$4(ItemStack,SmithingRecipe)
++ boolean lambda$createInputSlotDefinitions$5(ItemStack)
+- boolean lambda$shouldQuickMoveToAdditionalSlot$1(ItemStack,UpgradeRecipe)
+- boolean shouldQuickMoveToAdditionalSlot(ItemStack)
++ int getSlotToQuickMoveTo(ItemStack)
++ ItemCombinerMenuSlotDefinition createInputSlotDefinitions()
++ Optional findSlotMatchingIngredient(SmithingRecipe,ItemStack)
++ Optional lambda$canMoveIntoInputSlots$8(ItemStack,SmithingRecipe)
++ Optional lambda$getSlotToQuickMoveTo$7(ItemStack,SmithingRecipe)
+- void lambda$onTake$0(Level,BlockPos)
++ void lambda$onTake$6(Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ArmorItem</summary>
+
+```diff
++ ArmorItem$Type getType()
++ void <init>(ArmorMaterial,ArmorItem$Type,Item$Properties)
+- void <init>(ArmorMaterial,EquipmentSlot,Item$Properties)
++ void lambda$static$0(EnumMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ArmorDyeRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.CustomRecipe</summary>
+
+```diff
+- ItemStack getResultItem()
++ ItemStack getResultItem(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.FireworkStarFadeRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.MapCloningRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+- ItemStack getResultItem()
++ ItemStack getResultItem(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShapelessRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+- ItemStack getResultItem()
++ ItemStack getResultItem(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShieldDecorationRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
++ ItemStack assemble(CraftingContainer,RegistryAccess)
+- ItemStack assemble(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.SingleItemRecipe</summary>
+
+```diff
++ ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(Container)
+- ItemStack getResultItem()
++ ItemStack getResultItem(RegistryAccess)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/breed_an_animal.json
+- minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/root.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_boots_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_chestplate_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_helmet_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_leggings_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/combat/netherite_sword_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/coast_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/dune_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/eye_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/netherite_upgrade_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/rib_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/sentry_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/snout_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/spire_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/vex_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/ward_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/wild_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_axe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_hoe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_pickaxe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/netherite_shovel_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/ancient_city.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_bridge.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_other.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/bastion_treasure.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/desert_pyramid.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/end_city_treasure.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/jungle_temple.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/nether_bridge.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/pillager_outpost.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_map.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_supply.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/shipwreck_treasure.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_corridor.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/stronghold_library.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/chests/woodland_mansion.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/camel.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/elder_guardian.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/gameplay/fishing/fish.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/coast_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/dune_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/eye_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_axe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_boots_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_chestplate_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_helmet_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_hoe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_leggings_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_pickaxe_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_shovel_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_sword_smithing.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/netherite_upgrade_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/rib_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/sentry_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/snout_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/spire_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/tide_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/vex_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/ward_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template_smithing_trim.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/wild_armor_trim_smithing_template.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_materials.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/trim_templates.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/trimmable_armor.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/amethyst.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/copper.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/diamond.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/emerald.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/gold.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/iron.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/lapis.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/netherite.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/quartz.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_material/redstone.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/coast.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/dune.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/eye.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/rib.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/sentry.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/snout.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/spire.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/tide.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/vex.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/ward.json
++ minecraft/datapacks/update_1_20/data/minecraft/trim_pattern/wild.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/atlases/armor_trims.json
++ minecraft/models/item/chainmail_boots_amethyst_trim.json
++ minecraft/models/item/chainmail_boots_copper_trim.json
++ minecraft/models/item/chainmail_boots_diamond_trim.json
++ minecraft/models/item/chainmail_boots_emerald_trim.json
++ minecraft/models/item/chainmail_boots_gold_trim.json
++ minecraft/models/item/chainmail_boots_iron_trim.json
++ minecraft/models/item/chainmail_boots_lapis_trim.json
++ minecraft/models/item/chainmail_boots_netherite_trim.json
++ minecraft/models/item/chainmail_boots_quartz_trim.json
++ minecraft/models/item/chainmail_boots_redstone_trim.json
++ minecraft/models/item/chainmail_chestplate_amethyst_trim.json
++ minecraft/models/item/chainmail_chestplate_copper_trim.json
++ minecraft/models/item/chainmail_chestplate_diamond_trim.json
++ minecraft/models/item/chainmail_chestplate_emerald_trim.json
++ minecraft/models/item/chainmail_chestplate_gold_trim.json
++ minecraft/models/item/chainmail_chestplate_iron_trim.json
++ minecraft/models/item/chainmail_chestplate_lapis_trim.json
++ minecraft/models/item/chainmail_chestplate_netherite_trim.json
++ minecraft/models/item/chainmail_chestplate_quartz_trim.json
++ minecraft/models/item/chainmail_chestplate_redstone_trim.json
++ minecraft/models/item/chainmail_helmet_amethyst_trim.json
++ minecraft/models/item/chainmail_helmet_copper_trim.json
++ minecraft/models/item/chainmail_helmet_diamond_trim.json
++ minecraft/models/item/chainmail_helmet_emerald_trim.json
++ minecraft/models/item/chainmail_helmet_gold_trim.json
++ minecraft/models/item/chainmail_helmet_iron_trim.json
++ minecraft/models/item/chainmail_helmet_lapis_trim.json
++ minecraft/models/item/chainmail_helmet_netherite_trim.json
++ minecraft/models/item/chainmail_helmet_quartz_trim.json
++ minecraft/models/item/chainmail_helmet_redstone_trim.json
++ minecraft/models/item/chainmail_leggings_amethyst_trim.json
++ minecraft/models/item/chainmail_leggings_copper_trim.json
++ minecraft/models/item/chainmail_leggings_diamond_trim.json
++ minecraft/models/item/chainmail_leggings_emerald_trim.json
++ minecraft/models/item/chainmail_leggings_gold_trim.json
++ minecraft/models/item/chainmail_leggings_iron_trim.json
++ minecraft/models/item/chainmail_leggings_lapis_trim.json
++ minecraft/models/item/chainmail_leggings_netherite_trim.json
++ minecraft/models/item/chainmail_leggings_quartz_trim.json
++ minecraft/models/item/chainmail_leggings_redstone_trim.json
++ minecraft/models/item/coast_armor_trim_smithing_template.json
++ minecraft/models/item/diamond_boots_amethyst_trim.json
++ minecraft/models/item/diamond_boots_copper_trim.json
++ minecraft/models/item/diamond_boots_emerald_trim.json
++ minecraft/models/item/diamond_boots_gold_trim.json
++ minecraft/models/item/diamond_boots_iron_trim.json
++ minecraft/models/item/diamond_boots_lapis_trim.json
++ minecraft/models/item/diamond_boots_netherite_trim.json
++ minecraft/models/item/diamond_boots_quartz_trim.json
++ minecraft/models/item/diamond_boots_redstone_trim.json
++ minecraft/models/item/diamond_chestplate_amethyst_trim.json
++ minecraft/models/item/diamond_chestplate_copper_trim.json
++ minecraft/models/item/diamond_chestplate_emerald_trim.json
++ minecraft/models/item/diamond_chestplate_gold_trim.json
++ minecraft/models/item/diamond_chestplate_iron_trim.json
++ minecraft/models/item/diamond_chestplate_lapis_trim.json
++ minecraft/models/item/diamond_chestplate_netherite_trim.json
++ minecraft/models/item/diamond_chestplate_quartz_trim.json
++ minecraft/models/item/diamond_chestplate_redstone_trim.json
++ minecraft/models/item/diamond_helmet_amethyst_trim.json
++ minecraft/models/item/diamond_helmet_copper_trim.json
++ minecraft/models/item/diamond_helmet_emerald_trim.json
++ minecraft/models/item/diamond_helmet_gold_trim.json
++ minecraft/models/item/diamond_helmet_iron_trim.json
++ minecraft/models/item/diamond_helmet_lapis_trim.json
++ minecraft/models/item/diamond_helmet_netherite_trim.json
++ minecraft/models/item/diamond_helmet_quartz_trim.json
++ minecraft/models/item/diamond_helmet_redstone_trim.json
++ minecraft/models/item/diamond_leggings_amethyst_trim.json
++ minecraft/models/item/diamond_leggings_copper_trim.json
++ minecraft/models/item/diamond_leggings_emerald_trim.json
++ minecraft/models/item/diamond_leggings_gold_trim.json
++ minecraft/models/item/diamond_leggings_iron_trim.json
++ minecraft/models/item/diamond_leggings_lapis_trim.json
++ minecraft/models/item/diamond_leggings_netherite_trim.json
++ minecraft/models/item/diamond_leggings_quartz_trim.json
++ minecraft/models/item/diamond_leggings_redstone_trim.json
++ minecraft/models/item/dune_armor_trim_smithing_template.json
++ minecraft/models/item/eye_armor_trim_smithing_template.json
++ minecraft/models/item/golden_boots_amethyst_trim.json
++ minecraft/models/item/golden_boots_copper_trim.json
++ minecraft/models/item/golden_boots_diamond_trim.json
++ minecraft/models/item/golden_boots_emerald_trim.json
++ minecraft/models/item/golden_boots_iron_trim.json
++ minecraft/models/item/golden_boots_lapis_trim.json
++ minecraft/models/item/golden_boots_netherite_trim.json
++ minecraft/models/item/golden_boots_quartz_trim.json
++ minecraft/models/item/golden_boots_redstone_trim.json
++ minecraft/models/item/golden_chestplate_amethyst_trim.json
++ minecraft/models/item/golden_chestplate_copper_trim.json
++ minecraft/models/item/golden_chestplate_diamond_trim.json
++ minecraft/models/item/golden_chestplate_emerald_trim.json
++ minecraft/models/item/golden_chestplate_iron_trim.json
++ minecraft/models/item/golden_chestplate_lapis_trim.json
++ minecraft/models/item/golden_chestplate_netherite_trim.json
++ minecraft/models/item/golden_chestplate_quartz_trim.json
++ minecraft/models/item/golden_chestplate_redstone_trim.json
++ minecraft/models/item/golden_helmet_amethyst_trim.json
++ minecraft/models/item/golden_helmet_copper_trim.json
++ minecraft/models/item/golden_helmet_diamond_trim.json
++ minecraft/models/item/golden_helmet_emerald_trim.json
++ minecraft/models/item/golden_helmet_iron_trim.json
++ minecraft/models/item/golden_helmet_lapis_trim.json
++ minecraft/models/item/golden_helmet_netherite_trim.json
++ minecraft/models/item/golden_helmet_quartz_trim.json
++ minecraft/models/item/golden_helmet_redstone_trim.json
++ minecraft/models/item/golden_leggings_amethyst_trim.json
++ minecraft/models/item/golden_leggings_copper_trim.json
++ minecraft/models/item/golden_leggings_diamond_trim.json
++ minecraft/models/item/golden_leggings_emerald_trim.json
++ minecraft/models/item/golden_leggings_iron_trim.json
++ minecraft/models/item/golden_leggings_lapis_trim.json
++ minecraft/models/item/golden_leggings_netherite_trim.json
++ minecraft/models/item/golden_leggings_quartz_trim.json
++ minecraft/models/item/golden_leggings_redstone_trim.json
++ minecraft/models/item/iron_boots_amethyst_trim.json
++ minecraft/models/item/iron_boots_copper_trim.json
++ minecraft/models/item/iron_boots_diamond_trim.json
++ minecraft/models/item/iron_boots_emerald_trim.json
++ minecraft/models/item/iron_boots_gold_trim.json
++ minecraft/models/item/iron_boots_lapis_trim.json
++ minecraft/models/item/iron_boots_netherite_trim.json
++ minecraft/models/item/iron_boots_quartz_trim.json
++ minecraft/models/item/iron_boots_redstone_trim.json
++ minecraft/models/item/iron_chestplate_amethyst_trim.json
++ minecraft/models/item/iron_chestplate_copper_trim.json
++ minecraft/models/item/iron_chestplate_diamond_trim.json
++ minecraft/models/item/iron_chestplate_emerald_trim.json
++ minecraft/models/item/iron_chestplate_gold_trim.json
++ minecraft/models/item/iron_chestplate_lapis_trim.json
++ minecraft/models/item/iron_chestplate_netherite_trim.json
++ minecraft/models/item/iron_chestplate_quartz_trim.json
++ minecraft/models/item/iron_chestplate_redstone_trim.json
++ minecraft/models/item/iron_helmet_amethyst_trim.json
++ minecraft/models/item/iron_helmet_copper_trim.json
++ minecraft/models/item/iron_helmet_diamond_trim.json
++ minecraft/models/item/iron_helmet_emerald_trim.json
++ minecraft/models/item/iron_helmet_gold_trim.json
++ minecraft/models/item/iron_helmet_lapis_trim.json
++ minecraft/models/item/iron_helmet_netherite_trim.json
++ minecraft/models/item/iron_helmet_quartz_trim.json
++ minecraft/models/item/iron_helmet_redstone_trim.json
++ minecraft/models/item/iron_leggings_amethyst_trim.json
++ minecraft/models/item/iron_leggings_copper_trim.json
++ minecraft/models/item/iron_leggings_diamond_trim.json
++ minecraft/models/item/iron_leggings_emerald_trim.json
++ minecraft/models/item/iron_leggings_gold_trim.json
++ minecraft/models/item/iron_leggings_lapis_trim.json
++ minecraft/models/item/iron_leggings_netherite_trim.json
++ minecraft/models/item/iron_leggings_quartz_trim.json
++ minecraft/models/item/iron_leggings_redstone_trim.json
++ minecraft/models/item/netherite_boots_amethyst_trim.json
++ minecraft/models/item/netherite_boots_copper_trim.json
++ minecraft/models/item/netherite_boots_diamond_trim.json
++ minecraft/models/item/netherite_boots_emerald_trim.json
++ minecraft/models/item/netherite_boots_gold_trim.json
++ minecraft/models/item/netherite_boots_iron_trim.json
++ minecraft/models/item/netherite_boots_lapis_trim.json
++ minecraft/models/item/netherite_boots_quartz_trim.json
++ minecraft/models/item/netherite_boots_redstone_trim.json
++ minecraft/models/item/netherite_chestplate_amethyst_trim.json
++ minecraft/models/item/netherite_chestplate_copper_trim.json
++ minecraft/models/item/netherite_chestplate_diamond_trim.json
++ minecraft/models/item/netherite_chestplate_emerald_trim.json
++ minecraft/models/item/netherite_chestplate_gold_trim.json
++ minecraft/models/item/netherite_chestplate_iron_trim.json
++ minecraft/models/item/netherite_chestplate_lapis_trim.json
++ minecraft/models/item/netherite_chestplate_quartz_trim.json
++ minecraft/models/item/netherite_chestplate_redstone_trim.json
++ minecraft/models/item/netherite_helmet_amethyst_trim.json
++ minecraft/models/item/netherite_helmet_copper_trim.json
++ minecraft/models/item/netherite_helmet_diamond_trim.json
++ minecraft/models/item/netherite_helmet_emerald_trim.json
++ minecraft/models/item/netherite_helmet_gold_trim.json
++ minecraft/models/item/netherite_helmet_iron_trim.json
++ minecraft/models/item/netherite_helmet_lapis_trim.json
++ minecraft/models/item/netherite_helmet_quartz_trim.json
++ minecraft/models/item/netherite_helmet_redstone_trim.json
++ minecraft/models/item/netherite_leggings_amethyst_trim.json
++ minecraft/models/item/netherite_leggings_copper_trim.json
++ minecraft/models/item/netherite_leggings_diamond_trim.json
++ minecraft/models/item/netherite_leggings_emerald_trim.json
++ minecraft/models/item/netherite_leggings_gold_trim.json
++ minecraft/models/item/netherite_leggings_iron_trim.json
++ minecraft/models/item/netherite_leggings_lapis_trim.json
++ minecraft/models/item/netherite_leggings_quartz_trim.json
++ minecraft/models/item/netherite_leggings_redstone_trim.json
++ minecraft/models/item/netherite_upgrade_smithing_template.json
++ minecraft/models/item/rib_armor_trim_smithing_template.json
++ minecraft/models/item/sentry_armor_trim_smithing_template.json
++ minecraft/models/item/snout_armor_trim_smithing_template.json
++ minecraft/models/item/spire_armor_trim_smithing_template.json
++ minecraft/models/item/tide_armor_trim_smithing_template.json
++ minecraft/models/item/turtle_helmet_amethyst_trim.json
++ minecraft/models/item/turtle_helmet_copper_trim.json
++ minecraft/models/item/turtle_helmet_diamond_trim.json
++ minecraft/models/item/turtle_helmet_emerald_trim.json
++ minecraft/models/item/turtle_helmet_gold_trim.json
++ minecraft/models/item/turtle_helmet_iron_trim.json
++ minecraft/models/item/turtle_helmet_lapis_trim.json
++ minecraft/models/item/turtle_helmet_netherite_trim.json
++ minecraft/models/item/turtle_helmet_quartz_trim.json
++ minecraft/models/item/turtle_helmet_redstone_trim.json
++ minecraft/models/item/vex_armor_trim_smithing_template.json
++ minecraft/models/item/ward_armor_trim_smithing_template.json
++ minecraft/models/item/wild_armor_trim_smithing_template.json
++ minecraft/textures/gui/container/legacy_smithing.png
++ minecraft/textures/item/coast_armor_trim_smithing_template.png
++ minecraft/textures/item/dune_armor_trim_smithing_template.png
++ minecraft/textures/item/empty_slot_amethyst_shard.png
++ minecraft/textures/item/empty_slot_axe.png
++ minecraft/textures/item/empty_slot_diamond.png
++ minecraft/textures/item/empty_slot_emerald.png
++ minecraft/textures/item/empty_slot_hoe.png
++ minecraft/textures/item/empty_slot_ingot.png
++ minecraft/textures/item/empty_slot_lapis_lazuli.png
++ minecraft/textures/item/empty_slot_pickaxe.png
++ minecraft/textures/item/empty_slot_quartz.png
++ minecraft/textures/item/empty_slot_redstone_dust.png
++ minecraft/textures/item/empty_slot_shovel.png
++ minecraft/textures/item/empty_slot_smithing_template_armor_trim.png
++ minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png
++ minecraft/textures/item/empty_slot_sword.png
++ minecraft/textures/item/eye_armor_trim_smithing_template.png
++ minecraft/textures/item/netherite_upgrade_smithing_template.png
++ minecraft/textures/item/rib_armor_trim_smithing_template.png
++ minecraft/textures/item/sentry_armor_trim_smithing_template.png
++ minecraft/textures/item/snout_armor_trim_smithing_template.png
++ minecraft/textures/item/spire_armor_trim_smithing_template.png
++ minecraft/textures/item/tide_armor_trim_smithing_template.png
++ minecraft/textures/item/vex_armor_trim_smithing_template.png
++ minecraft/textures/item/ward_armor_trim_smithing_template.png
++ minecraft/textures/item/wild_armor_trim_smithing_template.png
++ minecraft/textures/trims/color_palettes/amethyst.png
++ minecraft/textures/trims/color_palettes/copper.png
++ minecraft/textures/trims/color_palettes/diamond.png
++ minecraft/textures/trims/color_palettes/emerald.png
++ minecraft/textures/trims/color_palettes/gold.png
++ minecraft/textures/trims/color_palettes/iron.png
++ minecraft/textures/trims/color_palettes/lapis.png
++ minecraft/textures/trims/color_palettes/netherite.png
++ minecraft/textures/trims/color_palettes/quartz.png
++ minecraft/textures/trims/color_palettes/redstone.png
++ minecraft/textures/trims/color_palettes/trim_palette.png
++ minecraft/textures/trims/items/boots_trim.png
++ minecraft/textures/trims/items/chestplate_trim.png
++ minecraft/textures/trims/items/helmet_trim.png
++ minecraft/textures/trims/items/leggings_trim.png
++ minecraft/textures/trims/models/armor/coast_leggings.png
++ minecraft/textures/trims/models/armor/coast.png
++ minecraft/textures/trims/models/armor/dune_leggings.png
++ minecraft/textures/trims/models/armor/dune.png
++ minecraft/textures/trims/models/armor/eye_leggings.png
++ minecraft/textures/trims/models/armor/eye.png
++ minecraft/textures/trims/models/armor/rib_leggings.png
++ minecraft/textures/trims/models/armor/rib.png
++ minecraft/textures/trims/models/armor/sentry_leggings.png
++ minecraft/textures/trims/models/armor/sentry.png
++ minecraft/textures/trims/models/armor/snout_leggings.png
++ minecraft/textures/trims/models/armor/snout.png
++ minecraft/textures/trims/models/armor/spire_leggings.png
++ minecraft/textures/trims/models/armor/spire.png
++ minecraft/textures/trims/models/armor/tide_leggings.png
++ minecraft/textures/trims/models/armor/tide.png
++ minecraft/textures/trims/models/armor/vex_leggings.png
++ minecraft/textures/trims/models/armor/vex.png
++ minecraft/textures/trims/models/armor/ward_leggings.png
++ minecraft/textures/trims/models/armor/ward.png
++ minecraft/textures/trims/models/armor/wild_leggings.png
++ minecraft/textures/trims/models/armor/wild.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:coast_armor_trim_smithing_template
++ minecraft:dune_armor_trim_smithing_template
++ minecraft:eye_armor_trim_smithing_template
++ minecraft:netherite_upgrade_smithing_template
++ minecraft:rib_armor_trim_smithing_template
++ minecraft:sentry_armor_trim_smithing_template
++ minecraft:snout_armor_trim_smithing_template
++ minecraft:spire_armor_trim_smithing_template
++ minecraft:tide_armor_trim_smithing_template
++ minecraft:vex_armor_trim_smithing_template
++ minecraft:ward_armor_trim_smithing_template
++ minecraft:wild_armor_trim_smithing_template
+```
+
+</details>
+
+
+<details><summary>menu.txt</summary>
+
+```diff
++ minecraft:legacy_smithing
+```
+
+</details>
+
+
+<details><summary>recipe_serializer.txt</summary>
+
+```diff
++ minecraft:smithing_transform
++ minecraft:smithing_trim
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute on origin
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ container.upgrade.error_tooltip
++ container.upgrade.missing_template_tooltip
++ item.minecraft.smithing_template
++ item.minecraft.smithing_template.applies_to
++ item.minecraft.smithing_template.armor_trim.additions_slot_description
++ item.minecraft.smithing_template.armor_trim.applies_to
++ item.minecraft.smithing_template.armor_trim.base_slot_description
++ item.minecraft.smithing_template.armor_trim.ingredients
++ item.minecraft.smithing_template.ingredients
++ item.minecraft.smithing_template.netherite_upgrade.additions_slot_description
++ item.minecraft.smithing_template.netherite_upgrade.applies_to
++ item.minecraft.smithing_template.netherite_upgrade.base_slot_description
++ item.minecraft.smithing_template.netherite_upgrade.ingredients
++ item.minecraft.smithing_template.upgrade
++ trim_material.minecraft.amethyst
++ trim_material.minecraft.copper
++ trim_material.minecraft.diamond
++ trim_material.minecraft.emerald
++ trim_material.minecraft.gold
++ trim_material.minecraft.iron
++ trim_material.minecraft.lapis
++ trim_material.minecraft.netherite
++ trim_material.minecraft.quartz
++ trim_material.minecraft.redstone
++ trim_pattern.minecraft.coast
++ trim_pattern.minecraft.dune
++ trim_pattern.minecraft.eye
++ trim_pattern.minecraft.rib
++ trim_pattern.minecraft.sentry
++ trim_pattern.minecraft.snout
++ trim_pattern.minecraft.spire
++ trim_pattern.minecraft.tide
++ trim_pattern.minecraft.vex
++ trim_pattern.minecraft.ward
++ trim_pattern.minecraft.wild
++ upgrade.minecraft.netherite_upgrade
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>atlases.txt</summary>
+
+```diff
++ armor_trims.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/container/legacy_smithing.png
++ item/coast_armor_trim_smithing_template.png
++ item/dune_armor_trim_smithing_template.png
++ item/empty_slot_amethyst_shard.png
++ item/empty_slot_axe.png
++ item/empty_slot_diamond.png
++ item/empty_slot_emerald.png
++ item/empty_slot_hoe.png
++ item/empty_slot_ingot.png
++ item/empty_slot_lapis_lazuli.png
++ item/empty_slot_pickaxe.png
++ item/empty_slot_quartz.png
++ item/empty_slot_redstone_dust.png
++ item/empty_slot_shovel.png
++ item/empty_slot_smithing_template_armor_trim.png
++ item/empty_slot_smithing_template_netherite_upgrade.png
++ item/empty_slot_sword.png
++ item/eye_armor_trim_smithing_template.png
++ item/netherite_upgrade_smithing_template.png
++ item/rib_armor_trim_smithing_template.png
++ item/sentry_armor_trim_smithing_template.png
++ item/snout_armor_trim_smithing_template.png
++ item/spire_armor_trim_smithing_template.png
++ item/tide_armor_trim_smithing_template.png
++ item/vex_armor_trim_smithing_template.png
++ item/ward_armor_trim_smithing_template.png
++ item/wild_armor_trim_smithing_template.png
++ trims/color_palettes/amethyst.png
++ trims/color_palettes/copper.png
++ trims/color_palettes/diamond.png
++ trims/color_palettes/emerald.png
++ trims/color_palettes/gold.png
++ trims/color_palettes/iron.png
++ trims/color_palettes/lapis.png
++ trims/color_palettes/netherite.png
++ trims/color_palettes/quartz.png
++ trims/color_palettes/redstone.png
++ trims/color_palettes/trim_palette.png
++ trims/items/boots_trim.png
++ trims/items/chestplate_trim.png
++ trims/items/helmet_trim.png
++ trims/items/leggings_trim.png
++ trims/models/armor/coast_leggings.png
++ trims/models/armor/coast.png
++ trims/models/armor/dune_leggings.png
++ trims/models/armor/dune.png
++ trims/models/armor/eye_leggings.png
++ trims/models/armor/eye.png
++ trims/models/armor/rib_leggings.png
++ trims/models/armor/rib.png
++ trims/models/armor/sentry_leggings.png
++ trims/models/armor/sentry.png
++ trims/models/armor/snout_leggings.png
++ trims/models/armor/snout.png
++ trims/models/armor/spire_leggings.png
++ trims/models/armor/spire.png
++ trims/models/armor/tide_leggings.png
++ trims/models/armor/tide.png
++ trims/models/armor/vex_leggings.png
++ trims/models/armor/vex.png
++ trims/models/armor/ward_leggings.png
++ trims/models/armor/ward.png
++ trims/models/armor/wild_leggings.png
++ trims/models/armor/wild.png
+```
+
+</details>

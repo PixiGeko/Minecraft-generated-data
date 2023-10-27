@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w16a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w16a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-04-21T16:41:14+00:00</td></tr>
@@ -10,3519 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/63799f9f0f3738a0832cf3a3a9593b2f8adc97c6/server.txt">https://piston-data.mojang.com/v1/objects/63799f9f0f3738a0832cf3a3a9593b2f8adc97c6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/f124f2aad604e88f27f010834d82c7af85506b6c/client.jar">https://piston-data.mojang.com/v1/objects/f124f2aad604e88f27f010834d82c7af85506b6c/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7a8e3a33afdd6e6ab669852685e1b12ba338234a/client.txt">https://piston-data.mojang.com/v1/objects/7a8e3a33afdd6e6ab669852685e1b12ba338234a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w15a">21w15a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/tags/blocks/lush_plants_replaceable.json
-+  minecraft/tags/blocks/moss_replaceable.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/shaders/core/rendertype_text_intensity.fsh
-+  minecraft/shaders/core/rendertype_text_intensity.json
-+  minecraft/shaders/core/rendertype_text_intensity.vsh
-+  minecraft/shaders/core/rendertype_text_intensity_see_through.fsh
-+  minecraft/shaders/core/rendertype_text_intensity_see_through.json
-+  minecraft/shaders/core/rendertype_text_intensity_see_through.vsh
--  minecraft/textures/block/root_vines_head.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>custom_stat.txt</summary>
-
-```diff
-- minecraft:play_one_minute
-+ minecraft:play_time
-+ minecraft:total_world_time
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:emerald_ore
-+ minecraft:replace_single_block
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/lush_plants_replaceable.json
-+ blocks/moss_replaceable.json
-```
-
-</details>
-
-<details><summary>blocks/bamboo_plantable_on.json</summary>
-
-```diff
-- minecraft:grass_block
-- minecraft:mycelium
-```
-
-</details>
-
-<details><summary>blocks/dirt.json</summary>
-
-```diff
-+ minecraft:grass_block
-+ minecraft:mycelium
-+ minecraft:moss_block
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:grass_block
-```
-
-</details>
-
-<details><summary>blocks/lush_ground_replaceable.json</summary>
-
-```diff
-- #minecraft:lush_plants_replaceable
-+ #minecraft:moss_replaceable
-+ minecraft:gravel
-+ minecraft:sand
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/lush_plants_replaceable.json
-+ blocks/moss_replaceable.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/root_vines_head.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlConst</summary>
-
-```diff
-+ int GL_RED
-+ int GL_RG
-- int GL_INTENSITY
-- int GL_LUMINANCE
-- int GL_LUMINANCE_ALPHA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean ALLOW_INCOMPATIBLE_WORLD_HEIGHT
-+ boolean AQUIFER_ENABLED_CARVERS
-+ boolean DEBUG_DISABLE_FLUID_GENERATION
-+ boolean DEBUG_DISABLE_ORE_VEINS
-+ boolean DEBUG_ORE_VEINS
-- boolean DEBUG_DISABLE_WATER_GENERATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Camera</summary>
-
-```diff
-+ Camera$NearPlane getNearPlane()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
-
-```diff
-+ ShaderInstance rendertypeTextIntensitySeeThroughShader
-+ ShaderInstance rendertypeTextIntensityShader
-+ ShaderInstance getRendertypeTextIntensitySeeThroughShader()
-+ ShaderInstance getRendertypeTextIntensityShader()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ Function TEXT_INTENSITY
-+ Function TEXT_INTENSITY_SEE_THROUGH
-+ RenderType lambda$static$18(ResourceLocation)
-+ RenderType lambda$static$19(ResourceLocation)
-+ RenderType textIntensity(ResourceLocation)
-+ RenderType textIntensitySeeThrough(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.FishingHookRenderer</summary>
-
-```diff
-+ double VIEW_BOBBING_SCALE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
-
-```diff
-+ Component APPLYING_PACK_TEXT
-+ CompletableFuture downloadAndSelectResourcePack(String,boolean)
-+ CompletionStage lambda$downloadAndSelectResourcePack$3(Object)
-+ PackResources lambda$createProgrammerArtPack$9(File)
-+ PackResources lambda$setServerPack$7(File)
-+ void lambda$downloadAndSelectResourcePack$6(Throwable)
-+ void lambda$null$2(Minecraft)
-+ void lambda$null$4(Minecraft,boolean)
-+ void lambda$null$5(Minecraft)
-- CompletableFuture downloadAndSelectResourcePack(String)
-- CompletionStage lambda$downloadAndSelectResourcePack$2(Object)
-- PackResources lambda$createProgrammerArtPack$7(File)
-- PackResources lambda$setServerPack$6(File)
-- void lambda$downloadAndSelectResourcePack$5(Throwable)
-- void lambda$null$3(Minecraft,boolean)
-- void lambda$null$4(Minecraft)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ void tickPaused()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeBuilder</summary>
-
-```diff
-+ Item getResult()
-+ void save(java.util.function.Consumer,net.minecraft.resources.ResourceLocation)
-- void save(java.util.function.Consumer)
-+ ResourceLocation getDefaultRecipeId(ItemLike)
-+ void save(Consumer)
-+ void save(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
-
-```diff
-- Logger LOGGER
-+ Item getResult()
-- void <clinit>()
-- void save(Consumer)
-- void save(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
-
-```diff
-- Logger LOGGER
-+ Item getResult()
-- void <clinit>()
-- void save(Consumer)
-- void save(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
-
-```diff
-+ Item getResult()
-+ RecipeBuilder group(String)
-+ RecipeBuilder unlockedBy(CriterionTriggerInstance)
-- void save(Consumer)
-- void save(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SingleItemRecipeBuilder</summary>
-
-```diff
-+ Item getResult()
-+ RecipeBuilder group(String)
-+ RecipeBuilder unlockedBy(CriterionTriggerInstance)
-+ SingleItemRecipeBuilder unlockedBy(CriterionTriggerInstance)
-- SingleItemRecipeBuilder unlocks(CriterionTriggerInstance)
-- void save(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
-
-```diff
-+ ConfiguredWorldCarver PROTOTYPE_CREVICE
-- ConfiguredWorldCarver PROTOTYPE_CRACK
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ImmutableList ORE_COAL_TARGET_LIST
-+ ImmutableList ORE_COPPER_TARGET_LIST
-+ ImmutableList ORE_EMERALD_TARGET_LIST
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named MOSS_REPLACEABLE
-- Tag$Named LUSH_PLANTS_REPLACEABLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.StringUtil</summary>
-
-```diff
-+ Pattern LINE_END_PATTERN
-+ boolean endsWithNewLine(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.InteractionResult</summary>
-
-```diff
-+ InteractionResult CONSUME_PARTIAL
-+ boolean shouldAwardStats()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean hasGlowingTag
-- boolean glowing
-+ boolean hasGlowingTag()
-+ boolean isCurrentlyGlowing()
-+ void setGlowingTag(boolean)
-- boolean isGlowing()
-- void setGlowing(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean isCurrentlyGlowing()
-+ void updateGlowingStatus()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DebugStickItem</summary>
-
-```diff
-+ boolean handleInteraction(ItemStack)
-- void handleInteraction(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ Aquifer createAquifer(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Aquifer</summary>
-
-```diff
-+ BlockState computeState(net.minecraft.world.level.levelgen.BaseStoneSource,int,int,int,double)
-+ boolean shouldScheduleFluidUpdate()
-+ int ALWAYS_LAVA_AT_OR_BELOW_Y_INDEX
-- boolean shouldScheduleWaterUpdate
-- double lastBarrierDensity
-- int ALWAYS_LAVA_BELOW_Y_INDEX
-- int gridSizeX
-- int gridSizeZ
-- int lastWaterLevel
-- int minGridX
-- int minGridY
-- int minGridZ
-- int X_RANGE
-- int X_SEPARATION
-- int X_SPACING
-- int Y_RANGE
-- int Y_SEPARATION
-- int Y_SPACING
-- int Z_RANGE
-- int Z_SEPARATION
-- int Z_SPACING
-- int[] aquiferCache
-- long[] aquiferLocationCache
-- NoiseGeneratorSettings noiseGeneratorSettings
-- NoiseSampler sampler
-- NormalNoise barrierNoise
-- NormalNoise waterLevelNoise
-+ Aquifer create(NoiseSampler,int,int)
-+ Aquifer createDisabled(BlockState)
-- boolean isLavaLevel(int)
-- boolean shouldScheduleWaterUpdate()
-- double calculatePressure(int,double,int,int)
-- double getLastBarrierDensity()
-- double similarity(int,int)
-- int computeAquifer(int,int,int)
-- int getIndex(int,int,int)
-- int getLastWaterLevel()
-- int getWaterLevel(long)
-- int gridX(int)
-- int gridY(int)
-- int gridZ(int)
-- void <init>(NoiseSampler,int,int)
-- void computeAt(int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseInterpolator</summary>
-
-```diff
-+ void <init>(NoiseInterpolator$NoiseColumnFiller)
-- void <init>(NoiseInterpolator$NoiseColumnFiller)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SingleBaseStoneSource</summary>
-
-```diff
-+ BlockState getBaseBlock(int,int,int)
-- BlockState getBaseStone(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
-
-```diff
-+ boolean aquifersEnabled
-+ App lambda$static$6(RecordCodecBuilder$Instance)
-+ Boolean lambda$null$4(CarverConfiguration)
-+ CarverDebugSettings lambda$null$5(CarverConfiguration)
-+ void <init>(CarverDebugSettings)
-- App lambda$static$5(RecordCodecBuilder$Instance)
-- CarverDebugSettings lambda$null$4(CarverConfiguration)
-- void <init>(CarverDebugSettings)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
-
-```diff
-+ boolean carve(BitSet)
-+ boolean carve(BitSet)
-+ void createRoom(WorldCarver$CarveSkipChecker)
-+ void createTunnel(WorldCarver$CarveSkipChecker)
-- boolean carve(BitSet)
-- boolean carve(BitSet)
-- void createRoom(WorldCarver$CarveSkipChecker)
-- void createTunnel(WorldCarver$CarveSkipChecker)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCaveWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(Aquifer)
-+ boolean carveBlock(MutableBoolean)
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(BlockPos$MutableBlockPos,int)
-- boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature REPLACE_SINGLE_BLOCK
-- Feature EMERALD_ORE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RootSystemFeature</summary>
-
-```diff
-+ boolean isAllowedTreeSpace(BlockState,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ WeightedRandomList getSpecialUndergroundWaterAnimals()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
-
-```diff
-+ List targetStates
-- BlockState state
-- BlockState target
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ List lambda$null$0(ReplaceBlockConfiguration)
-+ void <init>(List)
-- App lambda$static$2(RecordCodecBuilder$Instance)
-- BlockState lambda$null$0(ReplaceBlockConfiguration)
-- BlockState lambda$null$1(ReplaceBlockConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration</summary>
-
-```diff
-+ int allowedVerticalWaterForTree
-+ App lambda$static$12(RecordCodecBuilder$Instance)
-+ Integer lambda$null$11(RootSystemConfiguration)
-+ void <init>(BlockStateProvider,int,int)
-- App lambda$static$11(RecordCodecBuilder$Instance)
-- void <init>(BlockStateProvider,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ boolean hasSturdyNeighbours(BoundingBox,int,int,int,int)
-+ void maybePlaceCobWeb(Random,float,int,int,int)
-- void placeCobWeb(Random,float,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.MaterialColor</summary>
-
-```diff
-+ MaterialColor GLOW_LICHEN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.Camera$NearPlane
@@ -3797,2358 +306,354 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.client.Camera</summary>
 
 ```diff
-+ void createInfestedDeepslate()
++ Camera$NearPlane getNearPlane()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
 
 ```diff
-+ String getBlastingRecipeName(ItemLike)
-+ String getConversionRecipeName(ItemLike)
-+ String getItemName(ItemLike)
-+ String getSimpleRecipeName(ItemLike)
-+ String getSmeltingRecipeName(ItemLike)
-+ void nineBlockStorageRecipes(ItemLike)
-+ void nineBlockStorageRecipes(String)
-+ void nineBlockStorageRecipesRecipesWithCustomUnpacking(String)
-+ void nineBlockStorageRecipesWithCustomPacking(String)
-+ void oneToOneConversionRecipe(String,int)
-+ void oneToOneConversionRecipe(String)
-+ void simpleCookingRecipe(ItemLike,float)
-- String getBlockName(ItemLike)
-- String getFromName(ItemLike)
-- void compactMaterialRecipes(ItemLike)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
-
-```diff
-- ShapedRecipeBuilder this$0
-+ void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
++ ShaderInstance getRendertypeTextIntensitySeeThroughShader()
++ ShaderInstance getRendertypeTextIntensityShader()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
 
 ```diff
-+ void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder,boolean)
++ RenderType lambda$static$18(ResourceLocation)
++ RenderType lambda$static$19(ResourceLocation)
++ RenderType textIntensity(ResourceLocation)
++ RenderType textIntensitySeeThrough(ResourceLocation)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.data.worldgen.Features$States</summary>
+<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
 
 ```diff
-+ BlockState DEEPSLATE_COAL_ORE
-+ BlockState DEEPSLATE_COPPER_ORE
-+ BlockState DEEPSLATE_EMERALD_ORE
++ CompletableFuture downloadAndSelectResourcePack(String,String,boolean)
+- CompletableFuture downloadAndSelectResourcePack(String,String)
+- CompletionStage lambda$downloadAndSelectResourcePack$2(String,File,Object)
++ CompletionStage lambda$downloadAndSelectResourcePack$3(String,File,boolean,Object)
+- PackResources lambda$createProgrammerArtPack$7(File)
++ PackResources lambda$createProgrammerArtPack$9(File)
+- PackResources lambda$setServerPack$6(File)
++ PackResources lambda$setServerPack$7(File)
+- void lambda$downloadAndSelectResourcePack$5(File,Void,Throwable)
++ void lambda$downloadAndSelectResourcePack$6(File,Void,Throwable)
++ void lambda$null$2(boolean,Minecraft)
+- void lambda$null$3(Minecraft,boolean)
++ void lambda$null$4(Minecraft,boolean)
+- void lambda$null$4(Minecraft)
++ void lambda$null$5(Minecraft)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.ServerStatsCounter</summary>
+<details><summary>net.minecraft.client.server.IntegratedServer</summary>
 
 ```diff
-- int lastStatRequest
-- int STAT_REQUEST_COOLDOWN
++ void tickPaused()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.stats.Stats</summary>
+<details><summary>net.minecraft.data.recipes.RecipeBuilder</summary>
 
 ```diff
-+ ResourceLocation PLAY_TIME
-+ ResourceLocation TOTAL_WORLD_TIME
-- ResourceLocation PLAY_ONE_MINUTE
++ ResourceLocation getDefaultRecipeId(ItemLike)
++ void save(Consumer,String)
++ void save(Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
 
 ```diff
-+ AzaleaTreeGrower TREE_GROWER
-+ VoxelShape SHAPE
-- VoxelShape SUPPORT_SHAPE
-+ boolean isBonemealSuccess(BlockState)
-+ boolean isValidBonemealTarget(BlockState,boolean)
-+ void performBonemeal(BlockState)
-+ VoxelShape getShape(CollisionContext)
-- VoxelShape getBlockSupportShape(BlockPos)
++ Item getResult()
+- void <clinit>()
+- void save(Consumer,String)
+- void save(Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
+<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
 
 ```diff
-+ Map HOST_TO_INFESTED_STATES
-+ Map INFESTED_TO_HOST_STATES
-+ BlockState getNewStateWithProperties(Supplier)
-+ BlockState hostStateByInfested(BlockState)
-+ BlockState infestedStateByHost(BlockState)
-+ BlockState lambda$getNewStateWithProperties$2(BlockState)
-+ BlockState lambda$hostStateByInfested$1()
-+ BlockState lambda$infestedStateByHost$0(BlockState)
-- BlockState stateByHostBlock(Block)
++ Item getResult()
+- void <clinit>()
+- void save(Consumer,String)
+- void save(Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
+<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
 
 ```diff
-+ boolean oreVeinsEnabled
-+ boolean isOreVeinsEnabled()
-+ void <init>(BlockState,int,int,int,int,boolean,boolean,boolean,boolean,boolean)
-- void <init>(BlockState,int,int,int,int,boolean,boolean,boolean,boolean)
++ Item getResult()
++ RecipeBuilder group(String)
++ RecipeBuilder unlockedBy(String,CriterionTriggerInstance)
+- void save(Consumer,String)
+- void save(Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
+<details><summary>net.minecraft.data.recipes.SingleItemRecipeBuilder</summary>
 
 ```diff
-+ void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
-
-```diff
-+ boolean carve(BitSet)
-+ boolean carve(BitSet)
-+ void doCarve(BitSet)
-- boolean carve(BitSet)
-- boolean carve(BitSet)
-- void doCarve(BitSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarverDebugSettings</summary>
-
-```diff
-+ BlockState barrierState
-+ BlockState lavaState
-+ BlockState waterState
-+ BlockState getBarrierState()
-+ BlockState getLavaState()
-+ BlockState getWaterState()
-+ CarverDebugSettings of(BlockState)
-+ CarverDebugSettings of(BlockState)
-+ void <init>(BlockState)
-- void <init>(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration</summary>
-
-```diff
-+ void <init>(FloatProvider)
-+ void <init>(FloatProvider)
-- void <init>(FloatProvider)
-- void <init>(FloatProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
-
-```diff
-+ boolean carve(BitSet)
-- boolean carve(BitSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-+ BaseStoneSource STONE_SOURCE
-+ boolean carve(net.minecraft.world.level.levelgen.carver.CarvingContext,net.minecraft.world.level.levelgen.carver.CarverConfiguration,net.minecraft.world.level.chunk.ChunkAccess,java.util.function.Function,java.util.Random,net.minecraft.world.level.levelgen.Aquifer,net.minecraft.world.level.ChunkPos,java.util.BitSet)
-- boolean carve(net.minecraft.world.level.levelgen.carver.CarvingContext,net.minecraft.world.level.levelgen.carver.CarverConfiguration,net.minecraft.world.level.chunk.ChunkAccess,java.util.function.Function,java.util.Random,int,net.minecraft.world.level.ChunkPos,java.util.BitSet)
-+ BlockState getCarveState(Aquifer)
-+ BlockState getDebugState(BlockState)
-+ boolean carveBlock(MutableBoolean)
-+ boolean carveEllipsoid(WorldCarver$CarveSkipChecker)
-- BlockState getCaveAirState(CarverConfiguration)
-- boolean carveBlock(MutableBoolean)
-- boolean carveEllipsoid(WorldCarver$CarveSkipChecker)
++ Item getResult()
++ RecipeBuilder group(String)
++ RecipeBuilder unlockedBy(String,CriterionTriggerInstance)
++ SingleItemRecipeBuilder unlockedBy(String,CriterionTriggerInstance)
+- SingleItemRecipeBuilder unlocks(String,CriterionTriggerInstance)
+- void save(Consumer,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
+<details><summary>net.minecraft.util.StringUtil</summary>
 
 ```diff
-+ void maybeGenerateBlock(BlockState)
-- void maybeGenerateBlock(BlockState,boolean)
++ boolean endsWithNewLine(String)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.InteractionResult</summary>
 
+```diff
++ boolean shouldAwardStats()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
+```diff
++ boolean hasGlowingTag()
++ boolean isCurrentlyGlowing()
+- boolean isGlowing()
+- void setGlowing(boolean)
++ void setGlowingTag(boolean)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
+```diff
++ boolean isCurrentlyGlowing()
++ void updateGlowingStatus()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.item.DebugStickItem</summary>
 
+```diff
++ boolean handleInteraction(Player,BlockState,LevelAccessor,BlockPos,boolean,ItemStack)
+- void handleInteraction(Player,BlockState,LevelAccessor,BlockPos,boolean,ItemStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
 
+```diff
++ Aquifer createAquifer(ChunkAccess)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.Aquifer</summary>
 
+```diff
++ Aquifer create(ChunkPos,NormalNoise,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int,int)
++ Aquifer createDisabled(int,BlockState)
+- boolean isLavaLevel(int)
+- boolean shouldScheduleWaterUpdate()
+- double calculatePressure(int,double,int,int)
+- double getLastBarrierDensity()
+- double similarity(int,int)
+- int computeAquifer(int,int,int)
+- int getIndex(int,int,int)
+- int getLastWaterLevel()
+- int getWaterLevel(long)
+- int gridX(int)
+- int gridY(int)
+- int gridZ(int)
+- void <init>(int,int,NormalNoise,NormalNoise,NoiseGeneratorSettings,NoiseSampler,int,int)
+- void computeAt(int,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.NoiseInterpolator</summary>
 
+```diff
++ void <init>(int,int,int,ChunkPos,int,NoiseInterpolator$NoiseColumnFiller)
+- void <init>(int,int,int,int,int,int,NoiseInterpolator$NoiseColumnFiller)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.SingleBaseStoneSource</summary>
 
+```diff
++ BlockState getBaseBlock(int,int,int)
+- BlockState getBaseStone(int,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
 
+```diff
+- App lambda$static$5(RecordCodecBuilder$Instance)
++ App lambda$static$6(RecordCodecBuilder$Instance)
++ Boolean lambda$null$4(CarverConfiguration)
+- CarverDebugSettings lambda$null$4(CarverConfiguration)
++ CarverDebugSettings lambda$null$5(CarverConfiguration)
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings)
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
 
+```diff
++ boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
+- boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
++ boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
+- boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
++ void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)
+- void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)
++ void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)
+- void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
 
+```diff
++ boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
++ boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCaveWorldCarver</summary>
 
+```diff
++ boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
++ boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
++ boolean carveBlock(WorldCarver,ChunkAccess,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer)
+- boolean carveBlock(WorldCarver,ChunkAccess,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.RootSystemFeature</summary>
 
+```diff
++ boolean isAllowedTreeSpace(BlockState,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
+```diff
++ WeightedRandomList getSpecialUndergroundWaterAnimals()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceBlockConfiguration</summary>
 
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- App lambda$static$2(RecordCodecBuilder$Instance)
+- BlockState lambda$null$0(ReplaceBlockConfiguration)
+- BlockState lambda$null$1(ReplaceBlockConfiguration)
++ List lambda$null$0(ReplaceBlockConfiguration)
++ void <init>(List)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RootSystemConfiguration</summary>
 
+```diff
+- App lambda$static$11(RecordCodecBuilder$Instance)
++ App lambda$static$12(RecordCodecBuilder$Instance)
++ Integer lambda$null$11(RootSystemConfiguration)
++ void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int,int)
+- void <init>(Supplier,int,int,ResourceLocation,BlockStateProvider,int,int,int,int,BlockStateProvider,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
+```diff
++ boolean hasSturdyNeighbours(WorldGenLevel,BoundingBox,int,int,int,int)
++ void maybePlaceCobWeb(WorldGenLevel,BoundingBox,Random,float,int,int,int)
+- void placeCobWeb(WorldGenLevel,BoundingBox,Random,float,int,int,int)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.util.datafix.fixes.StriderGravityFix
@@ -6417,13 +922,329 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createInfestedDeepslate()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ String getBlastingRecipeName(ItemLike)
+- String getBlockName(ItemLike)
++ String getConversionRecipeName(ItemLike,ItemLike)
+- String getFromName(ItemLike,ItemLike)
++ String getItemName(ItemLike)
++ String getSimpleRecipeName(ItemLike)
++ String getSmeltingRecipeName(ItemLike)
+- void compactMaterialRecipes(Consumer,ItemLike,ItemLike)
++ void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike,String,String,String,String)
++ void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike)
++ void nineBlockStorageRecipesRecipesWithCustomUnpacking(Consumer,ItemLike,ItemLike,String,String)
++ void nineBlockStorageRecipesWithCustomPacking(Consumer,ItemLike,ItemLike,String,String)
++ void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String,int)
++ void oneToOneConversionRecipe(Consumer,ItemLike,ItemLike,String)
++ void simpleCookingRecipe(Consumer,String,SimpleCookingSerializer,int,ItemLike,ItemLike,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,Item,int,String,List,Map,Advancement$Builder,ResourceLocation)
+- void <init>(ShapedRecipeBuilder,ResourceLocation,Item,int,String,List,Map,Advancement$Builder,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
+
+```diff
++ boolean isBonemealSuccess(Level,Random,BlockPos,BlockState)
++ boolean isValidBonemealTarget(BlockGetter,BlockPos,BlockState,boolean)
++ void performBonemeal(ServerLevel,Random,BlockPos,BlockState)
+- VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
++ VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.InfestedBlock</summary>
+
+```diff
++ BlockState getNewStateWithProperties(Map,BlockState,Supplier)
++ BlockState hostStateByInfested(BlockState)
++ BlockState infestedStateByHost(BlockState)
++ BlockState lambda$getNewStateWithProperties$2(Supplier,BlockState)
++ BlockState lambda$hostStateByInfested$1()
++ BlockState lambda$infestedStateByHost$0(BlockState)
+- BlockState stateByHostBlock(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
+
+```diff
++ boolean isOreVeinsEnabled()
++ void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,int,boolean,boolean,boolean,boolean,boolean)
+- void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,int,int,int,int,boolean,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
+
+```diff
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonWorldCarver</summary>
+
+```diff
++ boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
+- boolean carve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
++ boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
+- boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
++ void doCarve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,float,float,float,int,int,double,BitSet)
+- void doCarve(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,float,float,int,int,double,BitSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarverDebugSettings</summary>
+
+```diff
++ BlockState getBarrierState()
++ BlockState getLavaState()
++ BlockState getWaterState()
++ CarverDebugSettings of(BlockState,BlockState,BlockState,BlockState)
++ CarverDebugSettings of(boolean,BlockState,BlockState,BlockState,BlockState)
++ void <init>(boolean,BlockState,BlockState,BlockState,BlockState)
+- void <init>(boolean,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveCarverConfiguration</summary>
+
+```diff
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,boolean,FloatProvider,FloatProvider,FloatProvider)
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,FloatProvider,FloatProvider)
+- void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,FloatProvider,FloatProvider,FloatProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
+
+```diff
++ boolean carve(CarvingContext,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
+- boolean carve(CarvingContext,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
+
+```diff
++ boolean carveBlock(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CanyonCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
++ boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
+
+```diff
++ BlockState getCarveState(CarvingContext,CarverConfiguration,BlockPos,Aquifer)
+- BlockState getCaveAirState(CarverConfiguration)
++ BlockState getDebugState(CarverConfiguration,BlockState)
++ boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
++ boolean carveEllipsoid(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,BitSet,WorldCarver$CarveSkipChecker)
+- boolean carveEllipsoid(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,BitSet,WorldCarver$CarveSkipChecker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
+
+```diff
+- void maybeGenerateBlock(WorldGenLevel,BoundingBox,Random,float,int,int,int,BlockState,boolean)
++ void maybeGenerateBlock(WorldGenLevel,BoundingBox,Random,float,int,int,int,BlockState)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/tags/blocks/lush_plants_replaceable.json
++ minecraft/tags/blocks/moss_replaceable.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/shaders/core/rendertype_text_intensity_see_through.fsh
++ minecraft/shaders/core/rendertype_text_intensity_see_through.json
++ minecraft/shaders/core/rendertype_text_intensity_see_through.vsh
++ minecraft/shaders/core/rendertype_text_intensity.fsh
++ minecraft/shaders/core/rendertype_text_intensity.json
++ minecraft/shaders/core/rendertype_text_intensity.vsh
+- minecraft/textures/block/root_vines_head.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>custom_stat.txt</summary>
+
+```diff
+- minecraft:play_one_minute
++ minecraft:play_time
++ minecraft:total_world_time
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
+- minecraft:emerald_ore
++ minecraft:replace_single_block
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- blocks/lush_plants_replaceable.json
++ blocks/moss_replaceable.json
+```
+
+</details>
+
+
+<details><summary>blocks/bamboo_plantable_on.json</summary>
+
+```diff
+- minecraft:grass_block
+- minecraft:mycelium
+```
+
+</details>
+
+
+<details><summary>blocks/dirt.json</summary>
+
+```diff
++ minecraft:grass_block
++ minecraft:moss_block
++ minecraft:mycelium
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
+- minecraft:grass_block
+```
+
+</details>
+
+
+<details><summary>blocks/lush_ground_replaceable.json</summary>
+
+```diff
+- #minecraft:lush_plants_replaceable
++ #minecraft:moss_replaceable
++ minecraft:gravel
++ minecraft:sand
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ multiplayer.applyingPack
+- stat.minecraft.play_one_minute
++ stat.minecraft.play_time
++ stat.minecraft.total_world_time
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/lush_plants_replaceable.json
++ blocks/moss_replaceable.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/root_vines_head.png
+```
+
+</details>

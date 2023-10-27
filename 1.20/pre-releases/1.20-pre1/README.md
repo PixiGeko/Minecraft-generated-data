@@ -1,5138 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.20-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.20-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2023-05-10T12:19:34+00:00</td></tr>
-<tr><th>SHA1</th><td>cf3d0c32bfadd92407ad36b1f215c1a023934d59</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/cf3d0c32bfadd92407ad36b1f215c1a023934d59/1.20-pre1.json">https://piston-meta.mojang.com/v1/packages/cf3d0c32bfadd92407ad36b1f215c1a023934d59/1.20-pre1.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json">https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json</a></td></tr>
+<tr><th>SHA1</th><td>ca46ec17bca388ab140a902683bb9749d9e9dfbe</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/ca46ec17bca388ab140a902683bb9749d9e9dfbe/1.20-pre1.json">https://piston-meta.mojang.com/v1/packages/ca46ec17bca388ab140a902683bb9749d9e9dfbe/1.20-pre1.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json">https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/95ac4bf3d2f4ae57687493f5232d3f58334b85d2/server.jar">https://piston-data.mojang.com/v1/objects/95ac4bf3d2f4ae57687493f5232d3f58334b85d2/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1b814e6ebe797dad614eb07efc3ff77334d4b5f0/server.txt">https://piston-data.mojang.com/v1/objects/1b814e6ebe797dad614eb07efc3ff77334d4b5f0/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/07dfbe4c383c4bb6d26254e49c0fce5398bab5b5/client.jar">https://piston-data.mojang.com/v1/objects/07dfbe4c383c4bb6d26254e49c0fce5398bab5b5/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3d18c8c01be96a69df87d82590c4d9f832bce3cb/client.txt">https://piston-data.mojang.com/v1/objects/3d18c8c01be96a69df87d82590c4d9f832bce3cb/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w18a">23w18a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/black_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/black_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/black_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/blue_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/blue_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/brown_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/brown_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/cyan_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/cyan_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/gray_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/gray_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/green_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/green_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/green_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_blue_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/light_gray_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/lime_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/lime_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/magenta_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/magenta_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/orange_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/orange_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/pink_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/pink_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/purple_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/purple_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_white_carpet.json
-+  minecraft/advancements/recipes/building_blocks/red_carpet_from_yellow_carpet.json
--  minecraft/advancements/recipes/building_blocks/red_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_white_wool.json
-+  minecraft/advancements/recipes/building_blocks/red_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_bed_from_yellow_bed.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_carpet_from_yellow_carpet.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/white_wool_from_yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_black_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_brown_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_cyan_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_green_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_light_blue_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_light_gray_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_lime_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_magenta_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_orange_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_pink_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_purple_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_red_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_bed_from_white_bed.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_black_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_brown_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_cyan_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_green_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_light_blue_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_light_gray_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_lime_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_magenta_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_orange_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_pink_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_purple_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_red_carpet.json
-+  minecraft/advancements/recipes/building_blocks/yellow_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/building_blocks/yellow_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_black_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_brown_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_cyan_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_green_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_light_blue_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_light_gray_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_lime_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_magenta_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_orange_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_pink_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_purple_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_red_wool.json
-+  minecraft/advancements/recipes/building_blocks/yellow_wool_from_white_wool.json
--  minecraft/advancements/recipes/decorations/black_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/black_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/blue_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/blue_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/brown_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/brown_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/cyan_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/cyan_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/gray_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/gray_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/green_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/green_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/light_blue_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/light_blue_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/light_gray_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/light_gray_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/lime_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/lime_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/magenta_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/magenta_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/orange_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/orange_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/pink_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/pink_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/purple_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/purple_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/red_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/red_carpet_from_white_carpet.json
--  minecraft/advancements/recipes/decorations/yellow_bed_from_white_bed.json
--  minecraft/advancements/recipes/decorations/yellow_carpet_from_white_carpet.json
-+  minecraft/damage_type/generic_kill.json
-+  minecraft/damage_type/outside_border.json
-+  minecraft/recipes/black_bed_from_blue_bed.json
-+  minecraft/recipes/black_bed_from_brown_bed.json
-+  minecraft/recipes/black_bed_from_cyan_bed.json
-+  minecraft/recipes/black_bed_from_gray_bed.json
-+  minecraft/recipes/black_bed_from_green_bed.json
-+  minecraft/recipes/black_bed_from_light_blue_bed.json
-+  minecraft/recipes/black_bed_from_light_gray_bed.json
-+  minecraft/recipes/black_bed_from_lime_bed.json
-+  minecraft/recipes/black_bed_from_magenta_bed.json
-+  minecraft/recipes/black_bed_from_orange_bed.json
-+  minecraft/recipes/black_bed_from_pink_bed.json
-+  minecraft/recipes/black_bed_from_purple_bed.json
-+  minecraft/recipes/black_bed_from_red_bed.json
-+  minecraft/recipes/black_bed_from_yellow_bed.json
-+  minecraft/recipes/black_carpet_from_blue_carpet.json
-+  minecraft/recipes/black_carpet_from_brown_carpet.json
-+  minecraft/recipes/black_carpet_from_cyan_carpet.json
-+  minecraft/recipes/black_carpet_from_gray_carpet.json
-+  minecraft/recipes/black_carpet_from_green_carpet.json
-+  minecraft/recipes/black_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/black_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/black_carpet_from_lime_carpet.json
-+  minecraft/recipes/black_carpet_from_magenta_carpet.json
-+  minecraft/recipes/black_carpet_from_orange_carpet.json
-+  minecraft/recipes/black_carpet_from_pink_carpet.json
-+  minecraft/recipes/black_carpet_from_purple_carpet.json
-+  minecraft/recipes/black_carpet_from_red_carpet.json
-+  minecraft/recipes/black_carpet_from_yellow_carpet.json
--  minecraft/recipes/black_wool.json
-+  minecraft/recipes/black_wool_from_blue_wool.json
-+  minecraft/recipes/black_wool_from_brown_wool.json
-+  minecraft/recipes/black_wool_from_cyan_wool.json
-+  minecraft/recipes/black_wool_from_gray_wool.json
-+  minecraft/recipes/black_wool_from_green_wool.json
-+  minecraft/recipes/black_wool_from_light_blue_wool.json
-+  minecraft/recipes/black_wool_from_light_gray_wool.json
-+  minecraft/recipes/black_wool_from_lime_wool.json
-+  minecraft/recipes/black_wool_from_magenta_wool.json
-+  minecraft/recipes/black_wool_from_orange_wool.json
-+  minecraft/recipes/black_wool_from_pink_wool.json
-+  minecraft/recipes/black_wool_from_purple_wool.json
-+  minecraft/recipes/black_wool_from_red_wool.json
-+  minecraft/recipes/black_wool_from_white_wool.json
-+  minecraft/recipes/black_wool_from_yellow_wool.json
-+  minecraft/recipes/blue_bed_from_black_bed.json
-+  minecraft/recipes/blue_bed_from_brown_bed.json
-+  minecraft/recipes/blue_bed_from_cyan_bed.json
-+  minecraft/recipes/blue_bed_from_gray_bed.json
-+  minecraft/recipes/blue_bed_from_green_bed.json
-+  minecraft/recipes/blue_bed_from_light_blue_bed.json
-+  minecraft/recipes/blue_bed_from_light_gray_bed.json
-+  minecraft/recipes/blue_bed_from_lime_bed.json
-+  minecraft/recipes/blue_bed_from_magenta_bed.json
-+  minecraft/recipes/blue_bed_from_orange_bed.json
-+  minecraft/recipes/blue_bed_from_pink_bed.json
-+  minecraft/recipes/blue_bed_from_purple_bed.json
-+  minecraft/recipes/blue_bed_from_red_bed.json
-+  minecraft/recipes/blue_bed_from_yellow_bed.json
-+  minecraft/recipes/blue_carpet_from_black_carpet.json
-+  minecraft/recipes/blue_carpet_from_brown_carpet.json
-+  minecraft/recipes/blue_carpet_from_cyan_carpet.json
-+  minecraft/recipes/blue_carpet_from_gray_carpet.json
-+  minecraft/recipes/blue_carpet_from_green_carpet.json
-+  minecraft/recipes/blue_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/blue_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/blue_carpet_from_lime_carpet.json
-+  minecraft/recipes/blue_carpet_from_magenta_carpet.json
-+  minecraft/recipes/blue_carpet_from_orange_carpet.json
-+  minecraft/recipes/blue_carpet_from_pink_carpet.json
-+  minecraft/recipes/blue_carpet_from_purple_carpet.json
-+  minecraft/recipes/blue_carpet_from_red_carpet.json
-+  minecraft/recipes/blue_carpet_from_yellow_carpet.json
--  minecraft/recipes/blue_wool.json
-+  minecraft/recipes/blue_wool_from_black_wool.json
-+  minecraft/recipes/blue_wool_from_brown_wool.json
-+  minecraft/recipes/blue_wool_from_cyan_wool.json
-+  minecraft/recipes/blue_wool_from_gray_wool.json
-+  minecraft/recipes/blue_wool_from_green_wool.json
-+  minecraft/recipes/blue_wool_from_light_blue_wool.json
-+  minecraft/recipes/blue_wool_from_light_gray_wool.json
-+  minecraft/recipes/blue_wool_from_lime_wool.json
-+  minecraft/recipes/blue_wool_from_magenta_wool.json
-+  minecraft/recipes/blue_wool_from_orange_wool.json
-+  minecraft/recipes/blue_wool_from_pink_wool.json
-+  minecraft/recipes/blue_wool_from_purple_wool.json
-+  minecraft/recipes/blue_wool_from_red_wool.json
-+  minecraft/recipes/blue_wool_from_white_wool.json
-+  minecraft/recipes/blue_wool_from_yellow_wool.json
-+  minecraft/recipes/brown_bed_from_black_bed.json
-+  minecraft/recipes/brown_bed_from_blue_bed.json
-+  minecraft/recipes/brown_bed_from_cyan_bed.json
-+  minecraft/recipes/brown_bed_from_gray_bed.json
-+  minecraft/recipes/brown_bed_from_green_bed.json
-+  minecraft/recipes/brown_bed_from_light_blue_bed.json
-+  minecraft/recipes/brown_bed_from_light_gray_bed.json
-+  minecraft/recipes/brown_bed_from_lime_bed.json
-+  minecraft/recipes/brown_bed_from_magenta_bed.json
-+  minecraft/recipes/brown_bed_from_orange_bed.json
-+  minecraft/recipes/brown_bed_from_pink_bed.json
-+  minecraft/recipes/brown_bed_from_purple_bed.json
-+  minecraft/recipes/brown_bed_from_red_bed.json
-+  minecraft/recipes/brown_bed_from_yellow_bed.json
-+  minecraft/recipes/brown_carpet_from_black_carpet.json
-+  minecraft/recipes/brown_carpet_from_blue_carpet.json
-+  minecraft/recipes/brown_carpet_from_cyan_carpet.json
-+  minecraft/recipes/brown_carpet_from_gray_carpet.json
-+  minecraft/recipes/brown_carpet_from_green_carpet.json
-+  minecraft/recipes/brown_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/brown_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/brown_carpet_from_lime_carpet.json
-+  minecraft/recipes/brown_carpet_from_magenta_carpet.json
-+  minecraft/recipes/brown_carpet_from_orange_carpet.json
-+  minecraft/recipes/brown_carpet_from_pink_carpet.json
-+  minecraft/recipes/brown_carpet_from_purple_carpet.json
-+  minecraft/recipes/brown_carpet_from_red_carpet.json
-+  minecraft/recipes/brown_carpet_from_yellow_carpet.json
--  minecraft/recipes/brown_wool.json
-+  minecraft/recipes/brown_wool_from_black_wool.json
-+  minecraft/recipes/brown_wool_from_blue_wool.json
-+  minecraft/recipes/brown_wool_from_cyan_wool.json
-+  minecraft/recipes/brown_wool_from_gray_wool.json
-+  minecraft/recipes/brown_wool_from_green_wool.json
-+  minecraft/recipes/brown_wool_from_light_blue_wool.json
-+  minecraft/recipes/brown_wool_from_light_gray_wool.json
-+  minecraft/recipes/brown_wool_from_lime_wool.json
-+  minecraft/recipes/brown_wool_from_magenta_wool.json
-+  minecraft/recipes/brown_wool_from_orange_wool.json
-+  minecraft/recipes/brown_wool_from_pink_wool.json
-+  minecraft/recipes/brown_wool_from_purple_wool.json
-+  minecraft/recipes/brown_wool_from_red_wool.json
-+  minecraft/recipes/brown_wool_from_white_wool.json
-+  minecraft/recipes/brown_wool_from_yellow_wool.json
-+  minecraft/recipes/cyan_bed_from_black_bed.json
-+  minecraft/recipes/cyan_bed_from_blue_bed.json
-+  minecraft/recipes/cyan_bed_from_brown_bed.json
-+  minecraft/recipes/cyan_bed_from_gray_bed.json
-+  minecraft/recipes/cyan_bed_from_green_bed.json
-+  minecraft/recipes/cyan_bed_from_light_blue_bed.json
-+  minecraft/recipes/cyan_bed_from_light_gray_bed.json
-+  minecraft/recipes/cyan_bed_from_lime_bed.json
-+  minecraft/recipes/cyan_bed_from_magenta_bed.json
-+  minecraft/recipes/cyan_bed_from_orange_bed.json
-+  minecraft/recipes/cyan_bed_from_pink_bed.json
-+  minecraft/recipes/cyan_bed_from_purple_bed.json
-+  minecraft/recipes/cyan_bed_from_red_bed.json
-+  minecraft/recipes/cyan_bed_from_yellow_bed.json
-+  minecraft/recipes/cyan_carpet_from_black_carpet.json
-+  minecraft/recipes/cyan_carpet_from_blue_carpet.json
-+  minecraft/recipes/cyan_carpet_from_brown_carpet.json
-+  minecraft/recipes/cyan_carpet_from_gray_carpet.json
-+  minecraft/recipes/cyan_carpet_from_green_carpet.json
-+  minecraft/recipes/cyan_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/cyan_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/cyan_carpet_from_lime_carpet.json
-+  minecraft/recipes/cyan_carpet_from_magenta_carpet.json
-+  minecraft/recipes/cyan_carpet_from_orange_carpet.json
-+  minecraft/recipes/cyan_carpet_from_pink_carpet.json
-+  minecraft/recipes/cyan_carpet_from_purple_carpet.json
-+  minecraft/recipes/cyan_carpet_from_red_carpet.json
-+  minecraft/recipes/cyan_carpet_from_yellow_carpet.json
--  minecraft/recipes/cyan_wool.json
-+  minecraft/recipes/cyan_wool_from_black_wool.json
-+  minecraft/recipes/cyan_wool_from_blue_wool.json
-+  minecraft/recipes/cyan_wool_from_brown_wool.json
-+  minecraft/recipes/cyan_wool_from_gray_wool.json
-+  minecraft/recipes/cyan_wool_from_green_wool.json
-+  minecraft/recipes/cyan_wool_from_light_blue_wool.json
-+  minecraft/recipes/cyan_wool_from_light_gray_wool.json
-+  minecraft/recipes/cyan_wool_from_lime_wool.json
-+  minecraft/recipes/cyan_wool_from_magenta_wool.json
-+  minecraft/recipes/cyan_wool_from_orange_wool.json
-+  minecraft/recipes/cyan_wool_from_pink_wool.json
-+  minecraft/recipes/cyan_wool_from_purple_wool.json
-+  minecraft/recipes/cyan_wool_from_red_wool.json
-+  minecraft/recipes/cyan_wool_from_white_wool.json
-+  minecraft/recipes/cyan_wool_from_yellow_wool.json
-+  minecraft/recipes/gray_bed_from_black_bed.json
-+  minecraft/recipes/gray_bed_from_blue_bed.json
-+  minecraft/recipes/gray_bed_from_brown_bed.json
-+  minecraft/recipes/gray_bed_from_cyan_bed.json
-+  minecraft/recipes/gray_bed_from_green_bed.json
-+  minecraft/recipes/gray_bed_from_light_blue_bed.json
-+  minecraft/recipes/gray_bed_from_light_gray_bed.json
-+  minecraft/recipes/gray_bed_from_lime_bed.json
-+  minecraft/recipes/gray_bed_from_magenta_bed.json
-+  minecraft/recipes/gray_bed_from_orange_bed.json
-+  minecraft/recipes/gray_bed_from_pink_bed.json
-+  minecraft/recipes/gray_bed_from_purple_bed.json
-+  minecraft/recipes/gray_bed_from_red_bed.json
-+  minecraft/recipes/gray_bed_from_yellow_bed.json
-+  minecraft/recipes/gray_carpet_from_black_carpet.json
-+  minecraft/recipes/gray_carpet_from_blue_carpet.json
-+  minecraft/recipes/gray_carpet_from_brown_carpet.json
-+  minecraft/recipes/gray_carpet_from_cyan_carpet.json
-+  minecraft/recipes/gray_carpet_from_green_carpet.json
-+  minecraft/recipes/gray_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/gray_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/gray_carpet_from_lime_carpet.json
-+  minecraft/recipes/gray_carpet_from_magenta_carpet.json
-+  minecraft/recipes/gray_carpet_from_orange_carpet.json
-+  minecraft/recipes/gray_carpet_from_pink_carpet.json
-+  minecraft/recipes/gray_carpet_from_purple_carpet.json
-+  minecraft/recipes/gray_carpet_from_red_carpet.json
-+  minecraft/recipes/gray_carpet_from_yellow_carpet.json
--  minecraft/recipes/gray_wool.json
-+  minecraft/recipes/gray_wool_from_black_wool.json
-+  minecraft/recipes/gray_wool_from_blue_wool.json
-+  minecraft/recipes/gray_wool_from_brown_wool.json
-+  minecraft/recipes/gray_wool_from_cyan_wool.json
-+  minecraft/recipes/gray_wool_from_green_wool.json
-+  minecraft/recipes/gray_wool_from_light_blue_wool.json
-+  minecraft/recipes/gray_wool_from_light_gray_wool.json
-+  minecraft/recipes/gray_wool_from_lime_wool.json
-+  minecraft/recipes/gray_wool_from_magenta_wool.json
-+  minecraft/recipes/gray_wool_from_orange_wool.json
-+  minecraft/recipes/gray_wool_from_pink_wool.json
-+  minecraft/recipes/gray_wool_from_purple_wool.json
-+  minecraft/recipes/gray_wool_from_red_wool.json
-+  minecraft/recipes/gray_wool_from_white_wool.json
-+  minecraft/recipes/gray_wool_from_yellow_wool.json
-+  minecraft/recipes/green_bed_from_black_bed.json
-+  minecraft/recipes/green_bed_from_blue_bed.json
-+  minecraft/recipes/green_bed_from_brown_bed.json
-+  minecraft/recipes/green_bed_from_cyan_bed.json
-+  minecraft/recipes/green_bed_from_gray_bed.json
-+  minecraft/recipes/green_bed_from_light_blue_bed.json
-+  minecraft/recipes/green_bed_from_light_gray_bed.json
-+  minecraft/recipes/green_bed_from_lime_bed.json
-+  minecraft/recipes/green_bed_from_magenta_bed.json
-+  minecraft/recipes/green_bed_from_orange_bed.json
-+  minecraft/recipes/green_bed_from_pink_bed.json
-+  minecraft/recipes/green_bed_from_purple_bed.json
-+  minecraft/recipes/green_bed_from_red_bed.json
-+  minecraft/recipes/green_bed_from_yellow_bed.json
-+  minecraft/recipes/green_carpet_from_black_carpet.json
-+  minecraft/recipes/green_carpet_from_blue_carpet.json
-+  minecraft/recipes/green_carpet_from_brown_carpet.json
-+  minecraft/recipes/green_carpet_from_cyan_carpet.json
-+  minecraft/recipes/green_carpet_from_gray_carpet.json
-+  minecraft/recipes/green_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/green_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/green_carpet_from_lime_carpet.json
-+  minecraft/recipes/green_carpet_from_magenta_carpet.json
-+  minecraft/recipes/green_carpet_from_orange_carpet.json
-+  minecraft/recipes/green_carpet_from_pink_carpet.json
-+  minecraft/recipes/green_carpet_from_purple_carpet.json
-+  minecraft/recipes/green_carpet_from_red_carpet.json
-+  minecraft/recipes/green_carpet_from_yellow_carpet.json
--  minecraft/recipes/green_wool.json
-+  minecraft/recipes/green_wool_from_black_wool.json
-+  minecraft/recipes/green_wool_from_blue_wool.json
-+  minecraft/recipes/green_wool_from_brown_wool.json
-+  minecraft/recipes/green_wool_from_cyan_wool.json
-+  minecraft/recipes/green_wool_from_gray_wool.json
-+  minecraft/recipes/green_wool_from_light_blue_wool.json
-+  minecraft/recipes/green_wool_from_light_gray_wool.json
-+  minecraft/recipes/green_wool_from_lime_wool.json
-+  minecraft/recipes/green_wool_from_magenta_wool.json
-+  minecraft/recipes/green_wool_from_orange_wool.json
-+  minecraft/recipes/green_wool_from_pink_wool.json
-+  minecraft/recipes/green_wool_from_purple_wool.json
-+  minecraft/recipes/green_wool_from_red_wool.json
-+  minecraft/recipes/green_wool_from_white_wool.json
-+  minecraft/recipes/green_wool_from_yellow_wool.json
-+  minecraft/recipes/light_blue_bed_from_black_bed.json
-+  minecraft/recipes/light_blue_bed_from_blue_bed.json
-+  minecraft/recipes/light_blue_bed_from_brown_bed.json
-+  minecraft/recipes/light_blue_bed_from_cyan_bed.json
-+  minecraft/recipes/light_blue_bed_from_gray_bed.json
-+  minecraft/recipes/light_blue_bed_from_green_bed.json
-+  minecraft/recipes/light_blue_bed_from_light_gray_bed.json
-+  minecraft/recipes/light_blue_bed_from_lime_bed.json
-+  minecraft/recipes/light_blue_bed_from_magenta_bed.json
-+  minecraft/recipes/light_blue_bed_from_orange_bed.json
-+  minecraft/recipes/light_blue_bed_from_pink_bed.json
-+  minecraft/recipes/light_blue_bed_from_purple_bed.json
-+  minecraft/recipes/light_blue_bed_from_red_bed.json
-+  minecraft/recipes/light_blue_bed_from_yellow_bed.json
-+  minecraft/recipes/light_blue_carpet_from_black_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_blue_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_brown_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_cyan_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_gray_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_green_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_lime_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_magenta_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_orange_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_pink_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_purple_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_red_carpet.json
-+  minecraft/recipes/light_blue_carpet_from_yellow_carpet.json
--  minecraft/recipes/light_blue_wool.json
-+  minecraft/recipes/light_blue_wool_from_black_wool.json
-+  minecraft/recipes/light_blue_wool_from_blue_wool.json
-+  minecraft/recipes/light_blue_wool_from_brown_wool.json
-+  minecraft/recipes/light_blue_wool_from_cyan_wool.json
-+  minecraft/recipes/light_blue_wool_from_gray_wool.json
-+  minecraft/recipes/light_blue_wool_from_green_wool.json
-+  minecraft/recipes/light_blue_wool_from_light_gray_wool.json
-+  minecraft/recipes/light_blue_wool_from_lime_wool.json
-+  minecraft/recipes/light_blue_wool_from_magenta_wool.json
-+  minecraft/recipes/light_blue_wool_from_orange_wool.json
-+  minecraft/recipes/light_blue_wool_from_pink_wool.json
-+  minecraft/recipes/light_blue_wool_from_purple_wool.json
-+  minecraft/recipes/light_blue_wool_from_red_wool.json
-+  minecraft/recipes/light_blue_wool_from_white_wool.json
-+  minecraft/recipes/light_blue_wool_from_yellow_wool.json
-+  minecraft/recipes/light_gray_bed_from_black_bed.json
-+  minecraft/recipes/light_gray_bed_from_blue_bed.json
-+  minecraft/recipes/light_gray_bed_from_brown_bed.json
-+  minecraft/recipes/light_gray_bed_from_cyan_bed.json
-+  minecraft/recipes/light_gray_bed_from_gray_bed.json
-+  minecraft/recipes/light_gray_bed_from_green_bed.json
-+  minecraft/recipes/light_gray_bed_from_light_blue_bed.json
-+  minecraft/recipes/light_gray_bed_from_lime_bed.json
-+  minecraft/recipes/light_gray_bed_from_magenta_bed.json
-+  minecraft/recipes/light_gray_bed_from_orange_bed.json
-+  minecraft/recipes/light_gray_bed_from_pink_bed.json
-+  minecraft/recipes/light_gray_bed_from_purple_bed.json
-+  minecraft/recipes/light_gray_bed_from_red_bed.json
-+  minecraft/recipes/light_gray_bed_from_yellow_bed.json
-+  minecraft/recipes/light_gray_carpet_from_black_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_blue_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_brown_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_cyan_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_gray_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_green_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_lime_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_magenta_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_orange_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_pink_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_purple_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_red_carpet.json
-+  minecraft/recipes/light_gray_carpet_from_yellow_carpet.json
--  minecraft/recipes/light_gray_wool.json
-+  minecraft/recipes/light_gray_wool_from_black_wool.json
-+  minecraft/recipes/light_gray_wool_from_blue_wool.json
-+  minecraft/recipes/light_gray_wool_from_brown_wool.json
-+  minecraft/recipes/light_gray_wool_from_cyan_wool.json
-+  minecraft/recipes/light_gray_wool_from_gray_wool.json
-+  minecraft/recipes/light_gray_wool_from_green_wool.json
-+  minecraft/recipes/light_gray_wool_from_light_blue_wool.json
-+  minecraft/recipes/light_gray_wool_from_lime_wool.json
-+  minecraft/recipes/light_gray_wool_from_magenta_wool.json
-+  minecraft/recipes/light_gray_wool_from_orange_wool.json
-+  minecraft/recipes/light_gray_wool_from_pink_wool.json
-+  minecraft/recipes/light_gray_wool_from_purple_wool.json
-+  minecraft/recipes/light_gray_wool_from_red_wool.json
-+  minecraft/recipes/light_gray_wool_from_white_wool.json
-+  minecraft/recipes/light_gray_wool_from_yellow_wool.json
-+  minecraft/recipes/lime_bed_from_black_bed.json
-+  minecraft/recipes/lime_bed_from_blue_bed.json
-+  minecraft/recipes/lime_bed_from_brown_bed.json
-+  minecraft/recipes/lime_bed_from_cyan_bed.json
-+  minecraft/recipes/lime_bed_from_gray_bed.json
-+  minecraft/recipes/lime_bed_from_green_bed.json
-+  minecraft/recipes/lime_bed_from_light_blue_bed.json
-+  minecraft/recipes/lime_bed_from_light_gray_bed.json
-+  minecraft/recipes/lime_bed_from_magenta_bed.json
-+  minecraft/recipes/lime_bed_from_orange_bed.json
-+  minecraft/recipes/lime_bed_from_pink_bed.json
-+  minecraft/recipes/lime_bed_from_purple_bed.json
-+  minecraft/recipes/lime_bed_from_red_bed.json
-+  minecraft/recipes/lime_bed_from_yellow_bed.json
-+  minecraft/recipes/lime_carpet_from_black_carpet.json
-+  minecraft/recipes/lime_carpet_from_blue_carpet.json
-+  minecraft/recipes/lime_carpet_from_brown_carpet.json
-+  minecraft/recipes/lime_carpet_from_cyan_carpet.json
-+  minecraft/recipes/lime_carpet_from_gray_carpet.json
-+  minecraft/recipes/lime_carpet_from_green_carpet.json
-+  minecraft/recipes/lime_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/lime_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/lime_carpet_from_magenta_carpet.json
-+  minecraft/recipes/lime_carpet_from_orange_carpet.json
-+  minecraft/recipes/lime_carpet_from_pink_carpet.json
-+  minecraft/recipes/lime_carpet_from_purple_carpet.json
-+  minecraft/recipes/lime_carpet_from_red_carpet.json
-+  minecraft/recipes/lime_carpet_from_yellow_carpet.json
--  minecraft/recipes/lime_wool.json
-+  minecraft/recipes/lime_wool_from_black_wool.json
-+  minecraft/recipes/lime_wool_from_blue_wool.json
-+  minecraft/recipes/lime_wool_from_brown_wool.json
-+  minecraft/recipes/lime_wool_from_cyan_wool.json
-+  minecraft/recipes/lime_wool_from_gray_wool.json
-+  minecraft/recipes/lime_wool_from_green_wool.json
-+  minecraft/recipes/lime_wool_from_light_blue_wool.json
-+  minecraft/recipes/lime_wool_from_light_gray_wool.json
-+  minecraft/recipes/lime_wool_from_magenta_wool.json
-+  minecraft/recipes/lime_wool_from_orange_wool.json
-+  minecraft/recipes/lime_wool_from_pink_wool.json
-+  minecraft/recipes/lime_wool_from_purple_wool.json
-+  minecraft/recipes/lime_wool_from_red_wool.json
-+  minecraft/recipes/lime_wool_from_white_wool.json
-+  minecraft/recipes/lime_wool_from_yellow_wool.json
-+  minecraft/recipes/magenta_bed_from_black_bed.json
-+  minecraft/recipes/magenta_bed_from_blue_bed.json
-+  minecraft/recipes/magenta_bed_from_brown_bed.json
-+  minecraft/recipes/magenta_bed_from_cyan_bed.json
-+  minecraft/recipes/magenta_bed_from_gray_bed.json
-+  minecraft/recipes/magenta_bed_from_green_bed.json
-+  minecraft/recipes/magenta_bed_from_light_blue_bed.json
-+  minecraft/recipes/magenta_bed_from_light_gray_bed.json
-+  minecraft/recipes/magenta_bed_from_lime_bed.json
-+  minecraft/recipes/magenta_bed_from_orange_bed.json
-+  minecraft/recipes/magenta_bed_from_pink_bed.json
-+  minecraft/recipes/magenta_bed_from_purple_bed.json
-+  minecraft/recipes/magenta_bed_from_red_bed.json
-+  minecraft/recipes/magenta_bed_from_yellow_bed.json
-+  minecraft/recipes/magenta_carpet_from_black_carpet.json
-+  minecraft/recipes/magenta_carpet_from_blue_carpet.json
-+  minecraft/recipes/magenta_carpet_from_brown_carpet.json
-+  minecraft/recipes/magenta_carpet_from_cyan_carpet.json
-+  minecraft/recipes/magenta_carpet_from_gray_carpet.json
-+  minecraft/recipes/magenta_carpet_from_green_carpet.json
-+  minecraft/recipes/magenta_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/magenta_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/magenta_carpet_from_lime_carpet.json
-+  minecraft/recipes/magenta_carpet_from_orange_carpet.json
-+  minecraft/recipes/magenta_carpet_from_pink_carpet.json
-+  minecraft/recipes/magenta_carpet_from_purple_carpet.json
-+  minecraft/recipes/magenta_carpet_from_red_carpet.json
-+  minecraft/recipes/magenta_carpet_from_yellow_carpet.json
--  minecraft/recipes/magenta_wool.json
-+  minecraft/recipes/magenta_wool_from_black_wool.json
-+  minecraft/recipes/magenta_wool_from_blue_wool.json
-+  minecraft/recipes/magenta_wool_from_brown_wool.json
-+  minecraft/recipes/magenta_wool_from_cyan_wool.json
-+  minecraft/recipes/magenta_wool_from_gray_wool.json
-+  minecraft/recipes/magenta_wool_from_green_wool.json
-+  minecraft/recipes/magenta_wool_from_light_blue_wool.json
-+  minecraft/recipes/magenta_wool_from_light_gray_wool.json
-+  minecraft/recipes/magenta_wool_from_lime_wool.json
-+  minecraft/recipes/magenta_wool_from_orange_wool.json
-+  minecraft/recipes/magenta_wool_from_pink_wool.json
-+  minecraft/recipes/magenta_wool_from_purple_wool.json
-+  minecraft/recipes/magenta_wool_from_red_wool.json
-+  minecraft/recipes/magenta_wool_from_white_wool.json
-+  minecraft/recipes/magenta_wool_from_yellow_wool.json
-+  minecraft/recipes/orange_bed_from_black_bed.json
-+  minecraft/recipes/orange_bed_from_blue_bed.json
-+  minecraft/recipes/orange_bed_from_brown_bed.json
-+  minecraft/recipes/orange_bed_from_cyan_bed.json
-+  minecraft/recipes/orange_bed_from_gray_bed.json
-+  minecraft/recipes/orange_bed_from_green_bed.json
-+  minecraft/recipes/orange_bed_from_light_blue_bed.json
-+  minecraft/recipes/orange_bed_from_light_gray_bed.json
-+  minecraft/recipes/orange_bed_from_lime_bed.json
-+  minecraft/recipes/orange_bed_from_magenta_bed.json
-+  minecraft/recipes/orange_bed_from_pink_bed.json
-+  minecraft/recipes/orange_bed_from_purple_bed.json
-+  minecraft/recipes/orange_bed_from_red_bed.json
-+  minecraft/recipes/orange_bed_from_yellow_bed.json
-+  minecraft/recipes/orange_carpet_from_black_carpet.json
-+  minecraft/recipes/orange_carpet_from_blue_carpet.json
-+  minecraft/recipes/orange_carpet_from_brown_carpet.json
-+  minecraft/recipes/orange_carpet_from_cyan_carpet.json
-+  minecraft/recipes/orange_carpet_from_gray_carpet.json
-+  minecraft/recipes/orange_carpet_from_green_carpet.json
-+  minecraft/recipes/orange_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/orange_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/orange_carpet_from_lime_carpet.json
-+  minecraft/recipes/orange_carpet_from_magenta_carpet.json
-+  minecraft/recipes/orange_carpet_from_pink_carpet.json
-+  minecraft/recipes/orange_carpet_from_purple_carpet.json
-+  minecraft/recipes/orange_carpet_from_red_carpet.json
-+  minecraft/recipes/orange_carpet_from_yellow_carpet.json
--  minecraft/recipes/orange_wool.json
-+  minecraft/recipes/orange_wool_from_black_wool.json
-+  minecraft/recipes/orange_wool_from_blue_wool.json
-+  minecraft/recipes/orange_wool_from_brown_wool.json
-+  minecraft/recipes/orange_wool_from_cyan_wool.json
-+  minecraft/recipes/orange_wool_from_gray_wool.json
-+  minecraft/recipes/orange_wool_from_green_wool.json
-+  minecraft/recipes/orange_wool_from_light_blue_wool.json
-+  minecraft/recipes/orange_wool_from_light_gray_wool.json
-+  minecraft/recipes/orange_wool_from_lime_wool.json
-+  minecraft/recipes/orange_wool_from_magenta_wool.json
-+  minecraft/recipes/orange_wool_from_pink_wool.json
-+  minecraft/recipes/orange_wool_from_purple_wool.json
-+  minecraft/recipes/orange_wool_from_red_wool.json
-+  minecraft/recipes/orange_wool_from_white_wool.json
-+  minecraft/recipes/orange_wool_from_yellow_wool.json
-+  minecraft/recipes/pink_bed_from_black_bed.json
-+  minecraft/recipes/pink_bed_from_blue_bed.json
-+  minecraft/recipes/pink_bed_from_brown_bed.json
-+  minecraft/recipes/pink_bed_from_cyan_bed.json
-+  minecraft/recipes/pink_bed_from_gray_bed.json
-+  minecraft/recipes/pink_bed_from_green_bed.json
-+  minecraft/recipes/pink_bed_from_light_blue_bed.json
-+  minecraft/recipes/pink_bed_from_light_gray_bed.json
-+  minecraft/recipes/pink_bed_from_lime_bed.json
-+  minecraft/recipes/pink_bed_from_magenta_bed.json
-+  minecraft/recipes/pink_bed_from_orange_bed.json
-+  minecraft/recipes/pink_bed_from_purple_bed.json
-+  minecraft/recipes/pink_bed_from_red_bed.json
-+  minecraft/recipes/pink_bed_from_yellow_bed.json
-+  minecraft/recipes/pink_carpet_from_black_carpet.json
-+  minecraft/recipes/pink_carpet_from_blue_carpet.json
-+  minecraft/recipes/pink_carpet_from_brown_carpet.json
-+  minecraft/recipes/pink_carpet_from_cyan_carpet.json
-+  minecraft/recipes/pink_carpet_from_gray_carpet.json
-+  minecraft/recipes/pink_carpet_from_green_carpet.json
-+  minecraft/recipes/pink_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/pink_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/pink_carpet_from_lime_carpet.json
-+  minecraft/recipes/pink_carpet_from_magenta_carpet.json
-+  minecraft/recipes/pink_carpet_from_orange_carpet.json
-+  minecraft/recipes/pink_carpet_from_purple_carpet.json
-+  minecraft/recipes/pink_carpet_from_red_carpet.json
-+  minecraft/recipes/pink_carpet_from_yellow_carpet.json
--  minecraft/recipes/pink_wool.json
-+  minecraft/recipes/pink_wool_from_black_wool.json
-+  minecraft/recipes/pink_wool_from_blue_wool.json
-+  minecraft/recipes/pink_wool_from_brown_wool.json
-+  minecraft/recipes/pink_wool_from_cyan_wool.json
-+  minecraft/recipes/pink_wool_from_gray_wool.json
-+  minecraft/recipes/pink_wool_from_green_wool.json
-+  minecraft/recipes/pink_wool_from_light_blue_wool.json
-+  minecraft/recipes/pink_wool_from_light_gray_wool.json
-+  minecraft/recipes/pink_wool_from_lime_wool.json
-+  minecraft/recipes/pink_wool_from_magenta_wool.json
-+  minecraft/recipes/pink_wool_from_orange_wool.json
-+  minecraft/recipes/pink_wool_from_purple_wool.json
-+  minecraft/recipes/pink_wool_from_red_wool.json
-+  minecraft/recipes/pink_wool_from_white_wool.json
-+  minecraft/recipes/pink_wool_from_yellow_wool.json
-+  minecraft/recipes/purple_bed_from_black_bed.json
-+  minecraft/recipes/purple_bed_from_blue_bed.json
-+  minecraft/recipes/purple_bed_from_brown_bed.json
-+  minecraft/recipes/purple_bed_from_cyan_bed.json
-+  minecraft/recipes/purple_bed_from_gray_bed.json
-+  minecraft/recipes/purple_bed_from_green_bed.json
-+  minecraft/recipes/purple_bed_from_light_blue_bed.json
-+  minecraft/recipes/purple_bed_from_light_gray_bed.json
-+  minecraft/recipes/purple_bed_from_lime_bed.json
-+  minecraft/recipes/purple_bed_from_magenta_bed.json
-+  minecraft/recipes/purple_bed_from_orange_bed.json
-+  minecraft/recipes/purple_bed_from_pink_bed.json
-+  minecraft/recipes/purple_bed_from_red_bed.json
-+  minecraft/recipes/purple_bed_from_yellow_bed.json
-+  minecraft/recipes/purple_carpet_from_black_carpet.json
-+  minecraft/recipes/purple_carpet_from_blue_carpet.json
-+  minecraft/recipes/purple_carpet_from_brown_carpet.json
-+  minecraft/recipes/purple_carpet_from_cyan_carpet.json
-+  minecraft/recipes/purple_carpet_from_gray_carpet.json
-+  minecraft/recipes/purple_carpet_from_green_carpet.json
-+  minecraft/recipes/purple_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/purple_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/purple_carpet_from_lime_carpet.json
-+  minecraft/recipes/purple_carpet_from_magenta_carpet.json
-+  minecraft/recipes/purple_carpet_from_orange_carpet.json
-+  minecraft/recipes/purple_carpet_from_pink_carpet.json
-+  minecraft/recipes/purple_carpet_from_red_carpet.json
-+  minecraft/recipes/purple_carpet_from_yellow_carpet.json
--  minecraft/recipes/purple_wool.json
-+  minecraft/recipes/purple_wool_from_black_wool.json
-+  minecraft/recipes/purple_wool_from_blue_wool.json
-+  minecraft/recipes/purple_wool_from_brown_wool.json
-+  minecraft/recipes/purple_wool_from_cyan_wool.json
-+  minecraft/recipes/purple_wool_from_gray_wool.json
-+  minecraft/recipes/purple_wool_from_green_wool.json
-+  minecraft/recipes/purple_wool_from_light_blue_wool.json
-+  minecraft/recipes/purple_wool_from_light_gray_wool.json
-+  minecraft/recipes/purple_wool_from_lime_wool.json
-+  minecraft/recipes/purple_wool_from_magenta_wool.json
-+  minecraft/recipes/purple_wool_from_orange_wool.json
-+  minecraft/recipes/purple_wool_from_pink_wool.json
-+  minecraft/recipes/purple_wool_from_red_wool.json
-+  minecraft/recipes/purple_wool_from_white_wool.json
-+  minecraft/recipes/purple_wool_from_yellow_wool.json
-+  minecraft/recipes/red_bed_from_black_bed.json
-+  minecraft/recipes/red_bed_from_blue_bed.json
-+  minecraft/recipes/red_bed_from_brown_bed.json
-+  minecraft/recipes/red_bed_from_cyan_bed.json
-+  minecraft/recipes/red_bed_from_gray_bed.json
-+  minecraft/recipes/red_bed_from_green_bed.json
-+  minecraft/recipes/red_bed_from_light_blue_bed.json
-+  minecraft/recipes/red_bed_from_light_gray_bed.json
-+  minecraft/recipes/red_bed_from_lime_bed.json
-+  minecraft/recipes/red_bed_from_magenta_bed.json
-+  minecraft/recipes/red_bed_from_orange_bed.json
-+  minecraft/recipes/red_bed_from_pink_bed.json
-+  minecraft/recipes/red_bed_from_purple_bed.json
-+  minecraft/recipes/red_bed_from_yellow_bed.json
-+  minecraft/recipes/red_carpet_from_black_carpet.json
-+  minecraft/recipes/red_carpet_from_blue_carpet.json
-+  minecraft/recipes/red_carpet_from_brown_carpet.json
-+  minecraft/recipes/red_carpet_from_cyan_carpet.json
-+  minecraft/recipes/red_carpet_from_gray_carpet.json
-+  minecraft/recipes/red_carpet_from_green_carpet.json
-+  minecraft/recipes/red_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/red_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/red_carpet_from_lime_carpet.json
-+  minecraft/recipes/red_carpet_from_magenta_carpet.json
-+  minecraft/recipes/red_carpet_from_orange_carpet.json
-+  minecraft/recipes/red_carpet_from_pink_carpet.json
-+  minecraft/recipes/red_carpet_from_purple_carpet.json
-+  minecraft/recipes/red_carpet_from_yellow_carpet.json
--  minecraft/recipes/red_wool.json
-+  minecraft/recipes/red_wool_from_black_wool.json
-+  minecraft/recipes/red_wool_from_blue_wool.json
-+  minecraft/recipes/red_wool_from_brown_wool.json
-+  minecraft/recipes/red_wool_from_cyan_wool.json
-+  minecraft/recipes/red_wool_from_gray_wool.json
-+  minecraft/recipes/red_wool_from_green_wool.json
-+  minecraft/recipes/red_wool_from_light_blue_wool.json
-+  minecraft/recipes/red_wool_from_light_gray_wool.json
-+  minecraft/recipes/red_wool_from_lime_wool.json
-+  minecraft/recipes/red_wool_from_magenta_wool.json
-+  minecraft/recipes/red_wool_from_orange_wool.json
-+  minecraft/recipes/red_wool_from_pink_wool.json
-+  minecraft/recipes/red_wool_from_purple_wool.json
-+  minecraft/recipes/red_wool_from_white_wool.json
-+  minecraft/recipes/red_wool_from_yellow_wool.json
-+  minecraft/recipes/white_bed_from_black_bed.json
-+  minecraft/recipes/white_bed_from_blue_bed.json
-+  minecraft/recipes/white_bed_from_brown_bed.json
-+  minecraft/recipes/white_bed_from_cyan_bed.json
-+  minecraft/recipes/white_bed_from_gray_bed.json
-+  minecraft/recipes/white_bed_from_green_bed.json
-+  minecraft/recipes/white_bed_from_light_blue_bed.json
-+  minecraft/recipes/white_bed_from_light_gray_bed.json
-+  minecraft/recipes/white_bed_from_lime_bed.json
-+  minecraft/recipes/white_bed_from_magenta_bed.json
-+  minecraft/recipes/white_bed_from_orange_bed.json
-+  minecraft/recipes/white_bed_from_pink_bed.json
-+  minecraft/recipes/white_bed_from_purple_bed.json
-+  minecraft/recipes/white_bed_from_red_bed.json
-+  minecraft/recipes/white_bed_from_yellow_bed.json
-+  minecraft/recipes/white_carpet_from_black_carpet.json
-+  minecraft/recipes/white_carpet_from_blue_carpet.json
-+  minecraft/recipes/white_carpet_from_brown_carpet.json
-+  minecraft/recipes/white_carpet_from_cyan_carpet.json
-+  minecraft/recipes/white_carpet_from_gray_carpet.json
-+  minecraft/recipes/white_carpet_from_green_carpet.json
-+  minecraft/recipes/white_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/white_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/white_carpet_from_lime_carpet.json
-+  minecraft/recipes/white_carpet_from_magenta_carpet.json
-+  minecraft/recipes/white_carpet_from_orange_carpet.json
-+  minecraft/recipes/white_carpet_from_pink_carpet.json
-+  minecraft/recipes/white_carpet_from_purple_carpet.json
-+  minecraft/recipes/white_carpet_from_red_carpet.json
-+  minecraft/recipes/white_carpet_from_yellow_carpet.json
-+  minecraft/recipes/white_wool_from_black_wool.json
-+  minecraft/recipes/white_wool_from_blue_wool.json
-+  minecraft/recipes/white_wool_from_brown_wool.json
-+  minecraft/recipes/white_wool_from_cyan_wool.json
-+  minecraft/recipes/white_wool_from_gray_wool.json
-+  minecraft/recipes/white_wool_from_green_wool.json
-+  minecraft/recipes/white_wool_from_light_blue_wool.json
-+  minecraft/recipes/white_wool_from_light_gray_wool.json
-+  minecraft/recipes/white_wool_from_lime_wool.json
-+  minecraft/recipes/white_wool_from_magenta_wool.json
-+  minecraft/recipes/white_wool_from_orange_wool.json
-+  minecraft/recipes/white_wool_from_pink_wool.json
-+  minecraft/recipes/white_wool_from_purple_wool.json
-+  minecraft/recipes/white_wool_from_red_wool.json
-+  minecraft/recipes/white_wool_from_yellow_wool.json
-+  minecraft/recipes/yellow_bed_from_black_bed.json
-+  minecraft/recipes/yellow_bed_from_blue_bed.json
-+  minecraft/recipes/yellow_bed_from_brown_bed.json
-+  minecraft/recipes/yellow_bed_from_cyan_bed.json
-+  minecraft/recipes/yellow_bed_from_gray_bed.json
-+  minecraft/recipes/yellow_bed_from_green_bed.json
-+  minecraft/recipes/yellow_bed_from_light_blue_bed.json
-+  minecraft/recipes/yellow_bed_from_light_gray_bed.json
-+  minecraft/recipes/yellow_bed_from_lime_bed.json
-+  minecraft/recipes/yellow_bed_from_magenta_bed.json
-+  minecraft/recipes/yellow_bed_from_orange_bed.json
-+  minecraft/recipes/yellow_bed_from_pink_bed.json
-+  minecraft/recipes/yellow_bed_from_purple_bed.json
-+  minecraft/recipes/yellow_bed_from_red_bed.json
-+  minecraft/recipes/yellow_carpet_from_black_carpet.json
-+  minecraft/recipes/yellow_carpet_from_blue_carpet.json
-+  minecraft/recipes/yellow_carpet_from_brown_carpet.json
-+  minecraft/recipes/yellow_carpet_from_cyan_carpet.json
-+  minecraft/recipes/yellow_carpet_from_gray_carpet.json
-+  minecraft/recipes/yellow_carpet_from_green_carpet.json
-+  minecraft/recipes/yellow_carpet_from_light_blue_carpet.json
-+  minecraft/recipes/yellow_carpet_from_light_gray_carpet.json
-+  minecraft/recipes/yellow_carpet_from_lime_carpet.json
-+  minecraft/recipes/yellow_carpet_from_magenta_carpet.json
-+  minecraft/recipes/yellow_carpet_from_orange_carpet.json
-+  minecraft/recipes/yellow_carpet_from_pink_carpet.json
-+  minecraft/recipes/yellow_carpet_from_purple_carpet.json
-+  minecraft/recipes/yellow_carpet_from_red_carpet.json
--  minecraft/recipes/yellow_wool.json
-+  minecraft/recipes/yellow_wool_from_black_wool.json
-+  minecraft/recipes/yellow_wool_from_blue_wool.json
-+  minecraft/recipes/yellow_wool_from_brown_wool.json
-+  minecraft/recipes/yellow_wool_from_cyan_wool.json
-+  minecraft/recipes/yellow_wool_from_gray_wool.json
-+  minecraft/recipes/yellow_wool_from_green_wool.json
-+  minecraft/recipes/yellow_wool_from_light_blue_wool.json
-+  minecraft/recipes/yellow_wool_from_light_gray_wool.json
-+  minecraft/recipes/yellow_wool_from_lime_wool.json
-+  minecraft/recipes/yellow_wool_from_magenta_wool.json
-+  minecraft/recipes/yellow_wool_from_orange_wool.json
-+  minecraft/recipes/yellow_wool_from_pink_wool.json
-+  minecraft/recipes/yellow_wool_from_purple_wool.json
-+  minecraft/recipes/yellow_wool_from_red_wool.json
-+  minecraft/recipes/yellow_wool_from_white_wool.json
-```
+### Client
 
-</details>
 
-## Tags
 
-<details><summary>blocks/maintains_farmland.json</summary>
 
-```diff
-- minecraft:pumpkin
-- minecraft:melon
-```
-
-</details>
-
-<details><summary>damage_type/bypasses_armor.json</summary>
-
-```diff
-+ minecraft:generic_kill
-+ minecraft:outside_border
-```
-
-</details>
-
-<details><summary>damage_type/bypasses_invulnerability.json</summary>
-
-```diff
-+ minecraft:generic_kill
-```
-
-</details>
-
-<details><summary>damage_type/bypasses_resistance.json</summary>
-
-```diff
-+ minecraft:generic_kill
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/black_wool.json
-- recipes/building_blocks/blue_wool.json
-- recipes/building_blocks/brown_wool.json
-- recipes/building_blocks/cyan_wool.json
-- recipes/building_blocks/gray_wool.json
-- recipes/building_blocks/green_wool.json
-- recipes/building_blocks/light_blue_wool.json
-- recipes/building_blocks/light_gray_wool.json
-- recipes/building_blocks/lime_wool.json
-- recipes/building_blocks/magenta_wool.json
-- recipes/building_blocks/orange_wool.json
-- recipes/building_blocks/pink_wool.json
-- recipes/building_blocks/purple_wool.json
-- recipes/building_blocks/red_wool.json
-- recipes/building_blocks/yellow_wool.json
-- recipes/decorations/black_bed_from_white_bed.json
-- recipes/decorations/black_carpet_from_white_carpet.json
-- recipes/decorations/blue_bed_from_white_bed.json
-- recipes/decorations/blue_carpet_from_white_carpet.json
-- recipes/decorations/brown_bed_from_white_bed.json
-- recipes/decorations/brown_carpet_from_white_carpet.json
-- recipes/decorations/cyan_bed_from_white_bed.json
-- recipes/decorations/cyan_carpet_from_white_carpet.json
-- recipes/decorations/gray_bed_from_white_bed.json
-- recipes/decorations/gray_carpet_from_white_carpet.json
-- recipes/decorations/green_bed_from_white_bed.json
-- recipes/decorations/green_carpet_from_white_carpet.json
-- recipes/decorations/light_blue_bed_from_white_bed.json
-- recipes/decorations/light_blue_carpet_from_white_carpet.json
-- recipes/decorations/light_gray_bed_from_white_bed.json
-- recipes/decorations/light_gray_carpet_from_white_carpet.json
-- recipes/decorations/lime_bed_from_white_bed.json
-- recipes/decorations/lime_carpet_from_white_carpet.json
-- recipes/decorations/magenta_bed_from_white_bed.json
-- recipes/decorations/magenta_carpet_from_white_carpet.json
-- recipes/decorations/orange_bed_from_white_bed.json
-- recipes/decorations/orange_carpet_from_white_carpet.json
-- recipes/decorations/pink_bed_from_white_bed.json
-- recipes/decorations/pink_carpet_from_white_carpet.json
-- recipes/decorations/purple_bed_from_white_bed.json
-- recipes/decorations/purple_carpet_from_white_carpet.json
-- recipes/decorations/red_bed_from_white_bed.json
-- recipes/decorations/red_carpet_from_white_carpet.json
-- recipes/decorations/yellow_bed_from_white_bed.json
-- recipes/decorations/yellow_carpet_from_white_carpet.json
-+ recipes/building_blocks/black_bed_from_blue_bed.json
-+ recipes/building_blocks/black_bed_from_brown_bed.json
-+ recipes/building_blocks/black_bed_from_cyan_bed.json
-+ recipes/building_blocks/black_bed_from_gray_bed.json
-+ recipes/building_blocks/black_bed_from_green_bed.json
-+ recipes/building_blocks/black_bed_from_light_blue_bed.json
-+ recipes/building_blocks/black_bed_from_light_gray_bed.json
-+ recipes/building_blocks/black_bed_from_lime_bed.json
-+ recipes/building_blocks/black_bed_from_magenta_bed.json
-+ recipes/building_blocks/black_bed_from_orange_bed.json
-+ recipes/building_blocks/black_bed_from_pink_bed.json
-+ recipes/building_blocks/black_bed_from_purple_bed.json
-+ recipes/building_blocks/black_bed_from_red_bed.json
-+ recipes/building_blocks/black_bed_from_white_bed.json
-+ recipes/building_blocks/black_bed_from_yellow_bed.json
-+ recipes/building_blocks/black_carpet_from_blue_carpet.json
-+ recipes/building_blocks/black_carpet_from_brown_carpet.json
-+ recipes/building_blocks/black_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/black_carpet_from_gray_carpet.json
-+ recipes/building_blocks/black_carpet_from_green_carpet.json
-+ recipes/building_blocks/black_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/black_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/black_carpet_from_lime_carpet.json
-+ recipes/building_blocks/black_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/black_carpet_from_orange_carpet.json
-+ recipes/building_blocks/black_carpet_from_pink_carpet.json
-+ recipes/building_blocks/black_carpet_from_purple_carpet.json
-+ recipes/building_blocks/black_carpet_from_red_carpet.json
-+ recipes/building_blocks/black_carpet_from_white_carpet.json
-+ recipes/building_blocks/black_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/black_wool_from_blue_wool.json
-+ recipes/building_blocks/black_wool_from_brown_wool.json
-+ recipes/building_blocks/black_wool_from_cyan_wool.json
-+ recipes/building_blocks/black_wool_from_gray_wool.json
-+ recipes/building_blocks/black_wool_from_green_wool.json
-+ recipes/building_blocks/black_wool_from_light_blue_wool.json
-+ recipes/building_blocks/black_wool_from_light_gray_wool.json
-+ recipes/building_blocks/black_wool_from_lime_wool.json
-+ recipes/building_blocks/black_wool_from_magenta_wool.json
-+ recipes/building_blocks/black_wool_from_orange_wool.json
-+ recipes/building_blocks/black_wool_from_pink_wool.json
-+ recipes/building_blocks/black_wool_from_purple_wool.json
-+ recipes/building_blocks/black_wool_from_red_wool.json
-+ recipes/building_blocks/black_wool_from_white_wool.json
-+ recipes/building_blocks/black_wool_from_yellow_wool.json
-+ recipes/building_blocks/blue_bed_from_black_bed.json
-+ recipes/building_blocks/blue_bed_from_brown_bed.json
-+ recipes/building_blocks/blue_bed_from_cyan_bed.json
-+ recipes/building_blocks/blue_bed_from_gray_bed.json
-+ recipes/building_blocks/blue_bed_from_green_bed.json
-+ recipes/building_blocks/blue_bed_from_light_blue_bed.json
-+ recipes/building_blocks/blue_bed_from_light_gray_bed.json
-+ recipes/building_blocks/blue_bed_from_lime_bed.json
-+ recipes/building_blocks/blue_bed_from_magenta_bed.json
-+ recipes/building_blocks/blue_bed_from_orange_bed.json
-+ recipes/building_blocks/blue_bed_from_pink_bed.json
-+ recipes/building_blocks/blue_bed_from_purple_bed.json
-+ recipes/building_blocks/blue_bed_from_red_bed.json
-+ recipes/building_blocks/blue_bed_from_white_bed.json
-+ recipes/building_blocks/blue_bed_from_yellow_bed.json
-+ recipes/building_blocks/blue_carpet_from_black_carpet.json
-+ recipes/building_blocks/blue_carpet_from_brown_carpet.json
-+ recipes/building_blocks/blue_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/blue_carpet_from_gray_carpet.json
-+ recipes/building_blocks/blue_carpet_from_green_carpet.json
-+ recipes/building_blocks/blue_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/blue_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/blue_carpet_from_lime_carpet.json
-+ recipes/building_blocks/blue_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/blue_carpet_from_orange_carpet.json
-+ recipes/building_blocks/blue_carpet_from_pink_carpet.json
-+ recipes/building_blocks/blue_carpet_from_purple_carpet.json
-+ recipes/building_blocks/blue_carpet_from_red_carpet.json
-+ recipes/building_blocks/blue_carpet_from_white_carpet.json
-+ recipes/building_blocks/blue_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/blue_wool_from_black_wool.json
-+ recipes/building_blocks/blue_wool_from_brown_wool.json
-+ recipes/building_blocks/blue_wool_from_cyan_wool.json
-+ recipes/building_blocks/blue_wool_from_gray_wool.json
-+ recipes/building_blocks/blue_wool_from_green_wool.json
-+ recipes/building_blocks/blue_wool_from_light_blue_wool.json
-+ recipes/building_blocks/blue_wool_from_light_gray_wool.json
-+ recipes/building_blocks/blue_wool_from_lime_wool.json
-+ recipes/building_blocks/blue_wool_from_magenta_wool.json
-+ recipes/building_blocks/blue_wool_from_orange_wool.json
-+ recipes/building_blocks/blue_wool_from_pink_wool.json
-+ recipes/building_blocks/blue_wool_from_purple_wool.json
-+ recipes/building_blocks/blue_wool_from_red_wool.json
-+ recipes/building_blocks/blue_wool_from_white_wool.json
-+ recipes/building_blocks/blue_wool_from_yellow_wool.json
-+ recipes/building_blocks/brown_bed_from_black_bed.json
-+ recipes/building_blocks/brown_bed_from_blue_bed.json
-+ recipes/building_blocks/brown_bed_from_cyan_bed.json
-+ recipes/building_blocks/brown_bed_from_gray_bed.json
-+ recipes/building_blocks/brown_bed_from_green_bed.json
-+ recipes/building_blocks/brown_bed_from_light_blue_bed.json
-+ recipes/building_blocks/brown_bed_from_light_gray_bed.json
-+ recipes/building_blocks/brown_bed_from_lime_bed.json
-+ recipes/building_blocks/brown_bed_from_magenta_bed.json
-+ recipes/building_blocks/brown_bed_from_orange_bed.json
-+ recipes/building_blocks/brown_bed_from_pink_bed.json
-+ recipes/building_blocks/brown_bed_from_purple_bed.json
-+ recipes/building_blocks/brown_bed_from_red_bed.json
-+ recipes/building_blocks/brown_bed_from_white_bed.json
-+ recipes/building_blocks/brown_bed_from_yellow_bed.json
-+ recipes/building_blocks/brown_carpet_from_black_carpet.json
-+ recipes/building_blocks/brown_carpet_from_blue_carpet.json
-+ recipes/building_blocks/brown_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/brown_carpet_from_gray_carpet.json
-+ recipes/building_blocks/brown_carpet_from_green_carpet.json
-+ recipes/building_blocks/brown_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/brown_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/brown_carpet_from_lime_carpet.json
-+ recipes/building_blocks/brown_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/brown_carpet_from_orange_carpet.json
-+ recipes/building_blocks/brown_carpet_from_pink_carpet.json
-+ recipes/building_blocks/brown_carpet_from_purple_carpet.json
-+ recipes/building_blocks/brown_carpet_from_red_carpet.json
-+ recipes/building_blocks/brown_carpet_from_white_carpet.json
-+ recipes/building_blocks/brown_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/brown_wool_from_black_wool.json
-+ recipes/building_blocks/brown_wool_from_blue_wool.json
-+ recipes/building_blocks/brown_wool_from_cyan_wool.json
-+ recipes/building_blocks/brown_wool_from_gray_wool.json
-+ recipes/building_blocks/brown_wool_from_green_wool.json
-+ recipes/building_blocks/brown_wool_from_light_blue_wool.json
-+ recipes/building_blocks/brown_wool_from_light_gray_wool.json
-+ recipes/building_blocks/brown_wool_from_lime_wool.json
-+ recipes/building_blocks/brown_wool_from_magenta_wool.json
-+ recipes/building_blocks/brown_wool_from_orange_wool.json
-+ recipes/building_blocks/brown_wool_from_pink_wool.json
-+ recipes/building_blocks/brown_wool_from_purple_wool.json
-+ recipes/building_blocks/brown_wool_from_red_wool.json
-+ recipes/building_blocks/brown_wool_from_white_wool.json
-+ recipes/building_blocks/brown_wool_from_yellow_wool.json
-+ recipes/building_blocks/cyan_bed_from_black_bed.json
-+ recipes/building_blocks/cyan_bed_from_blue_bed.json
-+ recipes/building_blocks/cyan_bed_from_brown_bed.json
-+ recipes/building_blocks/cyan_bed_from_gray_bed.json
-+ recipes/building_blocks/cyan_bed_from_green_bed.json
-+ recipes/building_blocks/cyan_bed_from_light_blue_bed.json
-+ recipes/building_blocks/cyan_bed_from_light_gray_bed.json
-+ recipes/building_blocks/cyan_bed_from_lime_bed.json
-+ recipes/building_blocks/cyan_bed_from_magenta_bed.json
-+ recipes/building_blocks/cyan_bed_from_orange_bed.json
-+ recipes/building_blocks/cyan_bed_from_pink_bed.json
-+ recipes/building_blocks/cyan_bed_from_purple_bed.json
-+ recipes/building_blocks/cyan_bed_from_red_bed.json
-+ recipes/building_blocks/cyan_bed_from_white_bed.json
-+ recipes/building_blocks/cyan_bed_from_yellow_bed.json
-+ recipes/building_blocks/cyan_carpet_from_black_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_blue_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_brown_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_gray_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_green_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_lime_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_orange_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_pink_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_purple_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_red_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_white_carpet.json
-+ recipes/building_blocks/cyan_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/cyan_wool_from_black_wool.json
-+ recipes/building_blocks/cyan_wool_from_blue_wool.json
-+ recipes/building_blocks/cyan_wool_from_brown_wool.json
-+ recipes/building_blocks/cyan_wool_from_gray_wool.json
-+ recipes/building_blocks/cyan_wool_from_green_wool.json
-+ recipes/building_blocks/cyan_wool_from_light_blue_wool.json
-+ recipes/building_blocks/cyan_wool_from_light_gray_wool.json
-+ recipes/building_blocks/cyan_wool_from_lime_wool.json
-+ recipes/building_blocks/cyan_wool_from_magenta_wool.json
-+ recipes/building_blocks/cyan_wool_from_orange_wool.json
-+ recipes/building_blocks/cyan_wool_from_pink_wool.json
-+ recipes/building_blocks/cyan_wool_from_purple_wool.json
-+ recipes/building_blocks/cyan_wool_from_red_wool.json
-+ recipes/building_blocks/cyan_wool_from_white_wool.json
-+ recipes/building_blocks/cyan_wool_from_yellow_wool.json
-+ recipes/building_blocks/gray_bed_from_black_bed.json
-+ recipes/building_blocks/gray_bed_from_blue_bed.json
-+ recipes/building_blocks/gray_bed_from_brown_bed.json
-+ recipes/building_blocks/gray_bed_from_cyan_bed.json
-+ recipes/building_blocks/gray_bed_from_green_bed.json
-+ recipes/building_blocks/gray_bed_from_light_blue_bed.json
-+ recipes/building_blocks/gray_bed_from_light_gray_bed.json
-+ recipes/building_blocks/gray_bed_from_lime_bed.json
-+ recipes/building_blocks/gray_bed_from_magenta_bed.json
-+ recipes/building_blocks/gray_bed_from_orange_bed.json
-+ recipes/building_blocks/gray_bed_from_pink_bed.json
-+ recipes/building_blocks/gray_bed_from_purple_bed.json
-+ recipes/building_blocks/gray_bed_from_red_bed.json
-+ recipes/building_blocks/gray_bed_from_white_bed.json
-+ recipes/building_blocks/gray_bed_from_yellow_bed.json
-+ recipes/building_blocks/gray_carpet_from_black_carpet.json
-+ recipes/building_blocks/gray_carpet_from_blue_carpet.json
-+ recipes/building_blocks/gray_carpet_from_brown_carpet.json
-+ recipes/building_blocks/gray_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/gray_carpet_from_green_carpet.json
-+ recipes/building_blocks/gray_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/gray_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/gray_carpet_from_lime_carpet.json
-+ recipes/building_blocks/gray_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/gray_carpet_from_orange_carpet.json
-+ recipes/building_blocks/gray_carpet_from_pink_carpet.json
-+ recipes/building_blocks/gray_carpet_from_purple_carpet.json
-+ recipes/building_blocks/gray_carpet_from_red_carpet.json
-+ recipes/building_blocks/gray_carpet_from_white_carpet.json
-+ recipes/building_blocks/gray_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/gray_wool_from_black_wool.json
-+ recipes/building_blocks/gray_wool_from_blue_wool.json
-+ recipes/building_blocks/gray_wool_from_brown_wool.json
-+ recipes/building_blocks/gray_wool_from_cyan_wool.json
-+ recipes/building_blocks/gray_wool_from_green_wool.json
-+ recipes/building_blocks/gray_wool_from_light_blue_wool.json
-+ recipes/building_blocks/gray_wool_from_light_gray_wool.json
-+ recipes/building_blocks/gray_wool_from_lime_wool.json
-+ recipes/building_blocks/gray_wool_from_magenta_wool.json
-+ recipes/building_blocks/gray_wool_from_orange_wool.json
-+ recipes/building_blocks/gray_wool_from_pink_wool.json
-+ recipes/building_blocks/gray_wool_from_purple_wool.json
-+ recipes/building_blocks/gray_wool_from_red_wool.json
-+ recipes/building_blocks/gray_wool_from_white_wool.json
-+ recipes/building_blocks/gray_wool_from_yellow_wool.json
-+ recipes/building_blocks/green_bed_from_black_bed.json
-+ recipes/building_blocks/green_bed_from_blue_bed.json
-+ recipes/building_blocks/green_bed_from_brown_bed.json
-+ recipes/building_blocks/green_bed_from_cyan_bed.json
-+ recipes/building_blocks/green_bed_from_gray_bed.json
-+ recipes/building_blocks/green_bed_from_light_blue_bed.json
-+ recipes/building_blocks/green_bed_from_light_gray_bed.json
-+ recipes/building_blocks/green_bed_from_lime_bed.json
-+ recipes/building_blocks/green_bed_from_magenta_bed.json
-+ recipes/building_blocks/green_bed_from_orange_bed.json
-+ recipes/building_blocks/green_bed_from_pink_bed.json
-+ recipes/building_blocks/green_bed_from_purple_bed.json
-+ recipes/building_blocks/green_bed_from_red_bed.json
-+ recipes/building_blocks/green_bed_from_white_bed.json
-+ recipes/building_blocks/green_bed_from_yellow_bed.json
-+ recipes/building_blocks/green_carpet_from_black_carpet.json
-+ recipes/building_blocks/green_carpet_from_blue_carpet.json
-+ recipes/building_blocks/green_carpet_from_brown_carpet.json
-+ recipes/building_blocks/green_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/green_carpet_from_gray_carpet.json
-+ recipes/building_blocks/green_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/green_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/green_carpet_from_lime_carpet.json
-+ recipes/building_blocks/green_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/green_carpet_from_orange_carpet.json
-+ recipes/building_blocks/green_carpet_from_pink_carpet.json
-+ recipes/building_blocks/green_carpet_from_purple_carpet.json
-+ recipes/building_blocks/green_carpet_from_red_carpet.json
-+ recipes/building_blocks/green_carpet_from_white_carpet.json
-+ recipes/building_blocks/green_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/green_wool_from_black_wool.json
-+ recipes/building_blocks/green_wool_from_blue_wool.json
-+ recipes/building_blocks/green_wool_from_brown_wool.json
-+ recipes/building_blocks/green_wool_from_cyan_wool.json
-+ recipes/building_blocks/green_wool_from_gray_wool.json
-+ recipes/building_blocks/green_wool_from_light_blue_wool.json
-+ recipes/building_blocks/green_wool_from_light_gray_wool.json
-+ recipes/building_blocks/green_wool_from_lime_wool.json
-+ recipes/building_blocks/green_wool_from_magenta_wool.json
-+ recipes/building_blocks/green_wool_from_orange_wool.json
-+ recipes/building_blocks/green_wool_from_pink_wool.json
-+ recipes/building_blocks/green_wool_from_purple_wool.json
-+ recipes/building_blocks/green_wool_from_red_wool.json
-+ recipes/building_blocks/green_wool_from_white_wool.json
-+ recipes/building_blocks/green_wool_from_yellow_wool.json
-+ recipes/building_blocks/light_blue_bed_from_black_bed.json
-+ recipes/building_blocks/light_blue_bed_from_blue_bed.json
-+ recipes/building_blocks/light_blue_bed_from_brown_bed.json
-+ recipes/building_blocks/light_blue_bed_from_cyan_bed.json
-+ recipes/building_blocks/light_blue_bed_from_gray_bed.json
-+ recipes/building_blocks/light_blue_bed_from_green_bed.json
-+ recipes/building_blocks/light_blue_bed_from_light_gray_bed.json
-+ recipes/building_blocks/light_blue_bed_from_lime_bed.json
-+ recipes/building_blocks/light_blue_bed_from_magenta_bed.json
-+ recipes/building_blocks/light_blue_bed_from_orange_bed.json
-+ recipes/building_blocks/light_blue_bed_from_pink_bed.json
-+ recipes/building_blocks/light_blue_bed_from_purple_bed.json
-+ recipes/building_blocks/light_blue_bed_from_red_bed.json
-+ recipes/building_blocks/light_blue_bed_from_white_bed.json
-+ recipes/building_blocks/light_blue_bed_from_yellow_bed.json
-+ recipes/building_blocks/light_blue_carpet_from_black_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_blue_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_brown_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_gray_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_green_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_lime_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_orange_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_pink_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_purple_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_red_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_white_carpet.json
-+ recipes/building_blocks/light_blue_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/light_blue_wool_from_black_wool.json
-+ recipes/building_blocks/light_blue_wool_from_blue_wool.json
-+ recipes/building_blocks/light_blue_wool_from_brown_wool.json
-+ recipes/building_blocks/light_blue_wool_from_cyan_wool.json
-+ recipes/building_blocks/light_blue_wool_from_gray_wool.json
-+ recipes/building_blocks/light_blue_wool_from_green_wool.json
-+ recipes/building_blocks/light_blue_wool_from_light_gray_wool.json
-+ recipes/building_blocks/light_blue_wool_from_lime_wool.json
-+ recipes/building_blocks/light_blue_wool_from_magenta_wool.json
-+ recipes/building_blocks/light_blue_wool_from_orange_wool.json
-+ recipes/building_blocks/light_blue_wool_from_pink_wool.json
-+ recipes/building_blocks/light_blue_wool_from_purple_wool.json
-+ recipes/building_blocks/light_blue_wool_from_red_wool.json
-+ recipes/building_blocks/light_blue_wool_from_white_wool.json
-+ recipes/building_blocks/light_blue_wool_from_yellow_wool.json
-+ recipes/building_blocks/light_gray_bed_from_black_bed.json
-+ recipes/building_blocks/light_gray_bed_from_blue_bed.json
-+ recipes/building_blocks/light_gray_bed_from_brown_bed.json
-+ recipes/building_blocks/light_gray_bed_from_cyan_bed.json
-+ recipes/building_blocks/light_gray_bed_from_gray_bed.json
-+ recipes/building_blocks/light_gray_bed_from_green_bed.json
-+ recipes/building_blocks/light_gray_bed_from_light_blue_bed.json
-+ recipes/building_blocks/light_gray_bed_from_lime_bed.json
-+ recipes/building_blocks/light_gray_bed_from_magenta_bed.json
-+ recipes/building_blocks/light_gray_bed_from_orange_bed.json
-+ recipes/building_blocks/light_gray_bed_from_pink_bed.json
-+ recipes/building_blocks/light_gray_bed_from_purple_bed.json
-+ recipes/building_blocks/light_gray_bed_from_red_bed.json
-+ recipes/building_blocks/light_gray_bed_from_white_bed.json
-+ recipes/building_blocks/light_gray_bed_from_yellow_bed.json
-+ recipes/building_blocks/light_gray_carpet_from_black_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_blue_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_brown_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_gray_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_green_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_lime_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_orange_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_pink_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_purple_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_red_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_white_carpet.json
-+ recipes/building_blocks/light_gray_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/light_gray_wool_from_black_wool.json
-+ recipes/building_blocks/light_gray_wool_from_blue_wool.json
-+ recipes/building_blocks/light_gray_wool_from_brown_wool.json
-+ recipes/building_blocks/light_gray_wool_from_cyan_wool.json
-+ recipes/building_blocks/light_gray_wool_from_gray_wool.json
-+ recipes/building_blocks/light_gray_wool_from_green_wool.json
-+ recipes/building_blocks/light_gray_wool_from_light_blue_wool.json
-+ recipes/building_blocks/light_gray_wool_from_lime_wool.json
-+ recipes/building_blocks/light_gray_wool_from_magenta_wool.json
-+ recipes/building_blocks/light_gray_wool_from_orange_wool.json
-+ recipes/building_blocks/light_gray_wool_from_pink_wool.json
-+ recipes/building_blocks/light_gray_wool_from_purple_wool.json
-+ recipes/building_blocks/light_gray_wool_from_red_wool.json
-+ recipes/building_blocks/light_gray_wool_from_white_wool.json
-+ recipes/building_blocks/light_gray_wool_from_yellow_wool.json
-+ recipes/building_blocks/lime_bed_from_black_bed.json
-+ recipes/building_blocks/lime_bed_from_blue_bed.json
-+ recipes/building_blocks/lime_bed_from_brown_bed.json
-+ recipes/building_blocks/lime_bed_from_cyan_bed.json
-+ recipes/building_blocks/lime_bed_from_gray_bed.json
-+ recipes/building_blocks/lime_bed_from_green_bed.json
-+ recipes/building_blocks/lime_bed_from_light_blue_bed.json
-+ recipes/building_blocks/lime_bed_from_light_gray_bed.json
-+ recipes/building_blocks/lime_bed_from_magenta_bed.json
-+ recipes/building_blocks/lime_bed_from_orange_bed.json
-+ recipes/building_blocks/lime_bed_from_pink_bed.json
-+ recipes/building_blocks/lime_bed_from_purple_bed.json
-+ recipes/building_blocks/lime_bed_from_red_bed.json
-+ recipes/building_blocks/lime_bed_from_white_bed.json
-+ recipes/building_blocks/lime_bed_from_yellow_bed.json
-+ recipes/building_blocks/lime_carpet_from_black_carpet.json
-+ recipes/building_blocks/lime_carpet_from_blue_carpet.json
-+ recipes/building_blocks/lime_carpet_from_brown_carpet.json
-+ recipes/building_blocks/lime_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/lime_carpet_from_gray_carpet.json
-+ recipes/building_blocks/lime_carpet_from_green_carpet.json
-+ recipes/building_blocks/lime_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/lime_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/lime_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/lime_carpet_from_orange_carpet.json
-+ recipes/building_blocks/lime_carpet_from_pink_carpet.json
-+ recipes/building_blocks/lime_carpet_from_purple_carpet.json
-+ recipes/building_blocks/lime_carpet_from_red_carpet.json
-+ recipes/building_blocks/lime_carpet_from_white_carpet.json
-+ recipes/building_blocks/lime_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/lime_wool_from_black_wool.json
-+ recipes/building_blocks/lime_wool_from_blue_wool.json
-+ recipes/building_blocks/lime_wool_from_brown_wool.json
-+ recipes/building_blocks/lime_wool_from_cyan_wool.json
-+ recipes/building_blocks/lime_wool_from_gray_wool.json
-+ recipes/building_blocks/lime_wool_from_green_wool.json
-+ recipes/building_blocks/lime_wool_from_light_blue_wool.json
-+ recipes/building_blocks/lime_wool_from_light_gray_wool.json
-+ recipes/building_blocks/lime_wool_from_magenta_wool.json
-+ recipes/building_blocks/lime_wool_from_orange_wool.json
-+ recipes/building_blocks/lime_wool_from_pink_wool.json
-+ recipes/building_blocks/lime_wool_from_purple_wool.json
-+ recipes/building_blocks/lime_wool_from_red_wool.json
-+ recipes/building_blocks/lime_wool_from_white_wool.json
-+ recipes/building_blocks/lime_wool_from_yellow_wool.json
-+ recipes/building_blocks/magenta_bed_from_black_bed.json
-+ recipes/building_blocks/magenta_bed_from_blue_bed.json
-+ recipes/building_blocks/magenta_bed_from_brown_bed.json
-+ recipes/building_blocks/magenta_bed_from_cyan_bed.json
-+ recipes/building_blocks/magenta_bed_from_gray_bed.json
-+ recipes/building_blocks/magenta_bed_from_green_bed.json
-+ recipes/building_blocks/magenta_bed_from_light_blue_bed.json
-+ recipes/building_blocks/magenta_bed_from_light_gray_bed.json
-+ recipes/building_blocks/magenta_bed_from_lime_bed.json
-+ recipes/building_blocks/magenta_bed_from_orange_bed.json
-+ recipes/building_blocks/magenta_bed_from_pink_bed.json
-+ recipes/building_blocks/magenta_bed_from_purple_bed.json
-+ recipes/building_blocks/magenta_bed_from_red_bed.json
-+ recipes/building_blocks/magenta_bed_from_white_bed.json
-+ recipes/building_blocks/magenta_bed_from_yellow_bed.json
-+ recipes/building_blocks/magenta_carpet_from_black_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_blue_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_brown_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_gray_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_green_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_lime_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_orange_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_pink_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_purple_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_red_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_white_carpet.json
-+ recipes/building_blocks/magenta_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/magenta_wool_from_black_wool.json
-+ recipes/building_blocks/magenta_wool_from_blue_wool.json
-+ recipes/building_blocks/magenta_wool_from_brown_wool.json
-+ recipes/building_blocks/magenta_wool_from_cyan_wool.json
-+ recipes/building_blocks/magenta_wool_from_gray_wool.json
-+ recipes/building_blocks/magenta_wool_from_green_wool.json
-+ recipes/building_blocks/magenta_wool_from_light_blue_wool.json
-+ recipes/building_blocks/magenta_wool_from_light_gray_wool.json
-+ recipes/building_blocks/magenta_wool_from_lime_wool.json
-+ recipes/building_blocks/magenta_wool_from_orange_wool.json
-+ recipes/building_blocks/magenta_wool_from_pink_wool.json
-+ recipes/building_blocks/magenta_wool_from_purple_wool.json
-+ recipes/building_blocks/magenta_wool_from_red_wool.json
-+ recipes/building_blocks/magenta_wool_from_white_wool.json
-+ recipes/building_blocks/magenta_wool_from_yellow_wool.json
-+ recipes/building_blocks/orange_bed_from_black_bed.json
-+ recipes/building_blocks/orange_bed_from_blue_bed.json
-+ recipes/building_blocks/orange_bed_from_brown_bed.json
-+ recipes/building_blocks/orange_bed_from_cyan_bed.json
-+ recipes/building_blocks/orange_bed_from_gray_bed.json
-+ recipes/building_blocks/orange_bed_from_green_bed.json
-+ recipes/building_blocks/orange_bed_from_light_blue_bed.json
-+ recipes/building_blocks/orange_bed_from_light_gray_bed.json
-+ recipes/building_blocks/orange_bed_from_lime_bed.json
-+ recipes/building_blocks/orange_bed_from_magenta_bed.json
-+ recipes/building_blocks/orange_bed_from_pink_bed.json
-+ recipes/building_blocks/orange_bed_from_purple_bed.json
-+ recipes/building_blocks/orange_bed_from_red_bed.json
-+ recipes/building_blocks/orange_bed_from_white_bed.json
-+ recipes/building_blocks/orange_bed_from_yellow_bed.json
-+ recipes/building_blocks/orange_carpet_from_black_carpet.json
-+ recipes/building_blocks/orange_carpet_from_blue_carpet.json
-+ recipes/building_blocks/orange_carpet_from_brown_carpet.json
-+ recipes/building_blocks/orange_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/orange_carpet_from_gray_carpet.json
-+ recipes/building_blocks/orange_carpet_from_green_carpet.json
-+ recipes/building_blocks/orange_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/orange_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/orange_carpet_from_lime_carpet.json
-+ recipes/building_blocks/orange_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/orange_carpet_from_pink_carpet.json
-+ recipes/building_blocks/orange_carpet_from_purple_carpet.json
-+ recipes/building_blocks/orange_carpet_from_red_carpet.json
-+ recipes/building_blocks/orange_carpet_from_white_carpet.json
-+ recipes/building_blocks/orange_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/orange_wool_from_black_wool.json
-+ recipes/building_blocks/orange_wool_from_blue_wool.json
-+ recipes/building_blocks/orange_wool_from_brown_wool.json
-+ recipes/building_blocks/orange_wool_from_cyan_wool.json
-+ recipes/building_blocks/orange_wool_from_gray_wool.json
-+ recipes/building_blocks/orange_wool_from_green_wool.json
-+ recipes/building_blocks/orange_wool_from_light_blue_wool.json
-+ recipes/building_blocks/orange_wool_from_light_gray_wool.json
-+ recipes/building_blocks/orange_wool_from_lime_wool.json
-+ recipes/building_blocks/orange_wool_from_magenta_wool.json
-+ recipes/building_blocks/orange_wool_from_pink_wool.json
-+ recipes/building_blocks/orange_wool_from_purple_wool.json
-+ recipes/building_blocks/orange_wool_from_red_wool.json
-+ recipes/building_blocks/orange_wool_from_white_wool.json
-+ recipes/building_blocks/orange_wool_from_yellow_wool.json
-+ recipes/building_blocks/pink_bed_from_black_bed.json
-+ recipes/building_blocks/pink_bed_from_blue_bed.json
-+ recipes/building_blocks/pink_bed_from_brown_bed.json
-+ recipes/building_blocks/pink_bed_from_cyan_bed.json
-+ recipes/building_blocks/pink_bed_from_gray_bed.json
-+ recipes/building_blocks/pink_bed_from_green_bed.json
-+ recipes/building_blocks/pink_bed_from_light_blue_bed.json
-+ recipes/building_blocks/pink_bed_from_light_gray_bed.json
-+ recipes/building_blocks/pink_bed_from_lime_bed.json
-+ recipes/building_blocks/pink_bed_from_magenta_bed.json
-+ recipes/building_blocks/pink_bed_from_orange_bed.json
-+ recipes/building_blocks/pink_bed_from_purple_bed.json
-+ recipes/building_blocks/pink_bed_from_red_bed.json
-+ recipes/building_blocks/pink_bed_from_white_bed.json
-+ recipes/building_blocks/pink_bed_from_yellow_bed.json
-+ recipes/building_blocks/pink_carpet_from_black_carpet.json
-+ recipes/building_blocks/pink_carpet_from_blue_carpet.json
-+ recipes/building_blocks/pink_carpet_from_brown_carpet.json
-+ recipes/building_blocks/pink_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/pink_carpet_from_gray_carpet.json
-+ recipes/building_blocks/pink_carpet_from_green_carpet.json
-+ recipes/building_blocks/pink_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/pink_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/pink_carpet_from_lime_carpet.json
-+ recipes/building_blocks/pink_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/pink_carpet_from_orange_carpet.json
-+ recipes/building_blocks/pink_carpet_from_purple_carpet.json
-+ recipes/building_blocks/pink_carpet_from_red_carpet.json
-+ recipes/building_blocks/pink_carpet_from_white_carpet.json
-+ recipes/building_blocks/pink_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/pink_wool_from_black_wool.json
-+ recipes/building_blocks/pink_wool_from_blue_wool.json
-+ recipes/building_blocks/pink_wool_from_brown_wool.json
-+ recipes/building_blocks/pink_wool_from_cyan_wool.json
-+ recipes/building_blocks/pink_wool_from_gray_wool.json
-+ recipes/building_blocks/pink_wool_from_green_wool.json
-+ recipes/building_blocks/pink_wool_from_light_blue_wool.json
-+ recipes/building_blocks/pink_wool_from_light_gray_wool.json
-+ recipes/building_blocks/pink_wool_from_lime_wool.json
-+ recipes/building_blocks/pink_wool_from_magenta_wool.json
-+ recipes/building_blocks/pink_wool_from_orange_wool.json
-+ recipes/building_blocks/pink_wool_from_purple_wool.json
-+ recipes/building_blocks/pink_wool_from_red_wool.json
-+ recipes/building_blocks/pink_wool_from_white_wool.json
-+ recipes/building_blocks/pink_wool_from_yellow_wool.json
-+ recipes/building_blocks/purple_bed_from_black_bed.json
-+ recipes/building_blocks/purple_bed_from_blue_bed.json
-+ recipes/building_blocks/purple_bed_from_brown_bed.json
-+ recipes/building_blocks/purple_bed_from_cyan_bed.json
-+ recipes/building_blocks/purple_bed_from_gray_bed.json
-+ recipes/building_blocks/purple_bed_from_green_bed.json
-+ recipes/building_blocks/purple_bed_from_light_blue_bed.json
-+ recipes/building_blocks/purple_bed_from_light_gray_bed.json
-+ recipes/building_blocks/purple_bed_from_lime_bed.json
-+ recipes/building_blocks/purple_bed_from_magenta_bed.json
-+ recipes/building_blocks/purple_bed_from_orange_bed.json
-+ recipes/building_blocks/purple_bed_from_pink_bed.json
-+ recipes/building_blocks/purple_bed_from_red_bed.json
-+ recipes/building_blocks/purple_bed_from_white_bed.json
-+ recipes/building_blocks/purple_bed_from_yellow_bed.json
-+ recipes/building_blocks/purple_carpet_from_black_carpet.json
-+ recipes/building_blocks/purple_carpet_from_blue_carpet.json
-+ recipes/building_blocks/purple_carpet_from_brown_carpet.json
-+ recipes/building_blocks/purple_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/purple_carpet_from_gray_carpet.json
-+ recipes/building_blocks/purple_carpet_from_green_carpet.json
-+ recipes/building_blocks/purple_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/purple_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/purple_carpet_from_lime_carpet.json
-+ recipes/building_blocks/purple_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/purple_carpet_from_orange_carpet.json
-+ recipes/building_blocks/purple_carpet_from_pink_carpet.json
-+ recipes/building_blocks/purple_carpet_from_red_carpet.json
-+ recipes/building_blocks/purple_carpet_from_white_carpet.json
-+ recipes/building_blocks/purple_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/purple_wool_from_black_wool.json
-+ recipes/building_blocks/purple_wool_from_blue_wool.json
-+ recipes/building_blocks/purple_wool_from_brown_wool.json
-+ recipes/building_blocks/purple_wool_from_cyan_wool.json
-+ recipes/building_blocks/purple_wool_from_gray_wool.json
-+ recipes/building_blocks/purple_wool_from_green_wool.json
-+ recipes/building_blocks/purple_wool_from_light_blue_wool.json
-+ recipes/building_blocks/purple_wool_from_light_gray_wool.json
-+ recipes/building_blocks/purple_wool_from_lime_wool.json
-+ recipes/building_blocks/purple_wool_from_magenta_wool.json
-+ recipes/building_blocks/purple_wool_from_orange_wool.json
-+ recipes/building_blocks/purple_wool_from_pink_wool.json
-+ recipes/building_blocks/purple_wool_from_red_wool.json
-+ recipes/building_blocks/purple_wool_from_white_wool.json
-+ recipes/building_blocks/purple_wool_from_yellow_wool.json
-+ recipes/building_blocks/red_bed_from_black_bed.json
-+ recipes/building_blocks/red_bed_from_blue_bed.json
-+ recipes/building_blocks/red_bed_from_brown_bed.json
-+ recipes/building_blocks/red_bed_from_cyan_bed.json
-+ recipes/building_blocks/red_bed_from_gray_bed.json
-+ recipes/building_blocks/red_bed_from_green_bed.json
-+ recipes/building_blocks/red_bed_from_light_blue_bed.json
-+ recipes/building_blocks/red_bed_from_light_gray_bed.json
-+ recipes/building_blocks/red_bed_from_lime_bed.json
-+ recipes/building_blocks/red_bed_from_magenta_bed.json
-+ recipes/building_blocks/red_bed_from_orange_bed.json
-+ recipes/building_blocks/red_bed_from_pink_bed.json
-+ recipes/building_blocks/red_bed_from_purple_bed.json
-+ recipes/building_blocks/red_bed_from_white_bed.json
-+ recipes/building_blocks/red_bed_from_yellow_bed.json
-+ recipes/building_blocks/red_carpet_from_black_carpet.json
-+ recipes/building_blocks/red_carpet_from_blue_carpet.json
-+ recipes/building_blocks/red_carpet_from_brown_carpet.json
-+ recipes/building_blocks/red_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/red_carpet_from_gray_carpet.json
-+ recipes/building_blocks/red_carpet_from_green_carpet.json
-+ recipes/building_blocks/red_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/red_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/red_carpet_from_lime_carpet.json
-+ recipes/building_blocks/red_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/red_carpet_from_orange_carpet.json
-+ recipes/building_blocks/red_carpet_from_pink_carpet.json
-+ recipes/building_blocks/red_carpet_from_purple_carpet.json
-+ recipes/building_blocks/red_carpet_from_white_carpet.json
-+ recipes/building_blocks/red_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/red_wool_from_black_wool.json
-+ recipes/building_blocks/red_wool_from_blue_wool.json
-+ recipes/building_blocks/red_wool_from_brown_wool.json
-+ recipes/building_blocks/red_wool_from_cyan_wool.json
-+ recipes/building_blocks/red_wool_from_gray_wool.json
-+ recipes/building_blocks/red_wool_from_green_wool.json
-+ recipes/building_blocks/red_wool_from_light_blue_wool.json
-+ recipes/building_blocks/red_wool_from_light_gray_wool.json
-+ recipes/building_blocks/red_wool_from_lime_wool.json
-+ recipes/building_blocks/red_wool_from_magenta_wool.json
-+ recipes/building_blocks/red_wool_from_orange_wool.json
-+ recipes/building_blocks/red_wool_from_pink_wool.json
-+ recipes/building_blocks/red_wool_from_purple_wool.json
-+ recipes/building_blocks/red_wool_from_white_wool.json
-+ recipes/building_blocks/red_wool_from_yellow_wool.json
-+ recipes/building_blocks/white_bed_from_black_bed.json
-+ recipes/building_blocks/white_bed_from_blue_bed.json
-+ recipes/building_blocks/white_bed_from_brown_bed.json
-+ recipes/building_blocks/white_bed_from_cyan_bed.json
-+ recipes/building_blocks/white_bed_from_gray_bed.json
-+ recipes/building_blocks/white_bed_from_green_bed.json
-+ recipes/building_blocks/white_bed_from_light_blue_bed.json
-+ recipes/building_blocks/white_bed_from_light_gray_bed.json
-+ recipes/building_blocks/white_bed_from_lime_bed.json
-+ recipes/building_blocks/white_bed_from_magenta_bed.json
-+ recipes/building_blocks/white_bed_from_orange_bed.json
-+ recipes/building_blocks/white_bed_from_pink_bed.json
-+ recipes/building_blocks/white_bed_from_purple_bed.json
-+ recipes/building_blocks/white_bed_from_red_bed.json
-+ recipes/building_blocks/white_bed_from_yellow_bed.json
-+ recipes/building_blocks/white_carpet_from_black_carpet.json
-+ recipes/building_blocks/white_carpet_from_blue_carpet.json
-+ recipes/building_blocks/white_carpet_from_brown_carpet.json
-+ recipes/building_blocks/white_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/white_carpet_from_gray_carpet.json
-+ recipes/building_blocks/white_carpet_from_green_carpet.json
-+ recipes/building_blocks/white_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/white_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/white_carpet_from_lime_carpet.json
-+ recipes/building_blocks/white_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/white_carpet_from_orange_carpet.json
-+ recipes/building_blocks/white_carpet_from_pink_carpet.json
-+ recipes/building_blocks/white_carpet_from_purple_carpet.json
-+ recipes/building_blocks/white_carpet_from_red_carpet.json
-+ recipes/building_blocks/white_carpet_from_yellow_carpet.json
-+ recipes/building_blocks/white_wool_from_black_wool.json
-+ recipes/building_blocks/white_wool_from_blue_wool.json
-+ recipes/building_blocks/white_wool_from_brown_wool.json
-+ recipes/building_blocks/white_wool_from_cyan_wool.json
-+ recipes/building_blocks/white_wool_from_gray_wool.json
-+ recipes/building_blocks/white_wool_from_green_wool.json
-+ recipes/building_blocks/white_wool_from_light_blue_wool.json
-+ recipes/building_blocks/white_wool_from_light_gray_wool.json
-+ recipes/building_blocks/white_wool_from_lime_wool.json
-+ recipes/building_blocks/white_wool_from_magenta_wool.json
-+ recipes/building_blocks/white_wool_from_orange_wool.json
-+ recipes/building_blocks/white_wool_from_pink_wool.json
-+ recipes/building_blocks/white_wool_from_purple_wool.json
-+ recipes/building_blocks/white_wool_from_red_wool.json
-+ recipes/building_blocks/white_wool_from_yellow_wool.json
-+ recipes/building_blocks/yellow_bed_from_black_bed.json
-+ recipes/building_blocks/yellow_bed_from_blue_bed.json
-+ recipes/building_blocks/yellow_bed_from_brown_bed.json
-+ recipes/building_blocks/yellow_bed_from_cyan_bed.json
-+ recipes/building_blocks/yellow_bed_from_gray_bed.json
-+ recipes/building_blocks/yellow_bed_from_green_bed.json
-+ recipes/building_blocks/yellow_bed_from_light_blue_bed.json
-+ recipes/building_blocks/yellow_bed_from_light_gray_bed.json
-+ recipes/building_blocks/yellow_bed_from_lime_bed.json
-+ recipes/building_blocks/yellow_bed_from_magenta_bed.json
-+ recipes/building_blocks/yellow_bed_from_orange_bed.json
-+ recipes/building_blocks/yellow_bed_from_pink_bed.json
-+ recipes/building_blocks/yellow_bed_from_purple_bed.json
-+ recipes/building_blocks/yellow_bed_from_red_bed.json
-+ recipes/building_blocks/yellow_bed_from_white_bed.json
-+ recipes/building_blocks/yellow_carpet_from_black_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_blue_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_brown_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_cyan_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_gray_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_green_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_light_blue_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_light_gray_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_lime_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_magenta_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_orange_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_pink_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_purple_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_red_carpet.json
-+ recipes/building_blocks/yellow_carpet_from_white_carpet.json
-+ recipes/building_blocks/yellow_wool_from_black_wool.json
-+ recipes/building_blocks/yellow_wool_from_blue_wool.json
-+ recipes/building_blocks/yellow_wool_from_brown_wool.json
-+ recipes/building_blocks/yellow_wool_from_cyan_wool.json
-+ recipes/building_blocks/yellow_wool_from_gray_wool.json
-+ recipes/building_blocks/yellow_wool_from_green_wool.json
-+ recipes/building_blocks/yellow_wool_from_light_blue_wool.json
-+ recipes/building_blocks/yellow_wool_from_light_gray_wool.json
-+ recipes/building_blocks/yellow_wool_from_lime_wool.json
-+ recipes/building_blocks/yellow_wool_from_magenta_wool.json
-+ recipes/building_blocks/yellow_wool_from_orange_wool.json
-+ recipes/building_blocks/yellow_wool_from_pink_wool.json
-+ recipes/building_blocks/yellow_wool_from_purple_wool.json
-+ recipes/building_blocks/yellow_wool_from_red_wool.json
-+ recipes/building_blocks/yellow_wool_from_white_wool.json
-```
-
-</details>
-
-<details><summary>damage_types.txt</summary>
-
-```diff
-+ generic_kill.json
-+ outside_border.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\pre-releases\1.20-pre1\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- black_wool.json
-- blue_wool.json
-- brown_wool.json
-- cyan_wool.json
-- gray_wool.json
-- green_wool.json
-- light_blue_wool.json
-- light_gray_wool.json
-- lime_wool.json
-- magenta_wool.json
-- orange_wool.json
-- pink_wool.json
-- purple_wool.json
-- red_wool.json
-- yellow_wool.json
-+ black_bed_from_blue_bed.json
-+ black_bed_from_brown_bed.json
-+ black_bed_from_cyan_bed.json
-+ black_bed_from_gray_bed.json
-+ black_bed_from_green_bed.json
-+ black_bed_from_light_blue_bed.json
-+ black_bed_from_light_gray_bed.json
-+ black_bed_from_lime_bed.json
-+ black_bed_from_magenta_bed.json
-+ black_bed_from_orange_bed.json
-+ black_bed_from_pink_bed.json
-+ black_bed_from_purple_bed.json
-+ black_bed_from_red_bed.json
-+ black_bed_from_yellow_bed.json
-+ black_carpet_from_blue_carpet.json
-+ black_carpet_from_brown_carpet.json
-+ black_carpet_from_cyan_carpet.json
-+ black_carpet_from_gray_carpet.json
-+ black_carpet_from_green_carpet.json
-+ black_carpet_from_light_blue_carpet.json
-+ black_carpet_from_light_gray_carpet.json
-+ black_carpet_from_lime_carpet.json
-+ black_carpet_from_magenta_carpet.json
-+ black_carpet_from_orange_carpet.json
-+ black_carpet_from_pink_carpet.json
-+ black_carpet_from_purple_carpet.json
-+ black_carpet_from_red_carpet.json
-+ black_carpet_from_yellow_carpet.json
-+ black_wool_from_blue_wool.json
-+ black_wool_from_brown_wool.json
-+ black_wool_from_cyan_wool.json
-+ black_wool_from_gray_wool.json
-+ black_wool_from_green_wool.json
-+ black_wool_from_light_blue_wool.json
-+ black_wool_from_light_gray_wool.json
-+ black_wool_from_lime_wool.json
-+ black_wool_from_magenta_wool.json
-+ black_wool_from_orange_wool.json
-+ black_wool_from_pink_wool.json
-+ black_wool_from_purple_wool.json
-+ black_wool_from_red_wool.json
-+ black_wool_from_white_wool.json
-+ black_wool_from_yellow_wool.json
-+ blue_bed_from_black_bed.json
-+ blue_bed_from_brown_bed.json
-+ blue_bed_from_cyan_bed.json
-+ blue_bed_from_gray_bed.json
-+ blue_bed_from_green_bed.json
-+ blue_bed_from_light_blue_bed.json
-+ blue_bed_from_light_gray_bed.json
-+ blue_bed_from_lime_bed.json
-+ blue_bed_from_magenta_bed.json
-+ blue_bed_from_orange_bed.json
-+ blue_bed_from_pink_bed.json
-+ blue_bed_from_purple_bed.json
-+ blue_bed_from_red_bed.json
-+ blue_bed_from_yellow_bed.json
-+ blue_carpet_from_black_carpet.json
-+ blue_carpet_from_brown_carpet.json
-+ blue_carpet_from_cyan_carpet.json
-+ blue_carpet_from_gray_carpet.json
-+ blue_carpet_from_green_carpet.json
-+ blue_carpet_from_light_blue_carpet.json
-+ blue_carpet_from_light_gray_carpet.json
-+ blue_carpet_from_lime_carpet.json
-+ blue_carpet_from_magenta_carpet.json
-+ blue_carpet_from_orange_carpet.json
-+ blue_carpet_from_pink_carpet.json
-+ blue_carpet_from_purple_carpet.json
-+ blue_carpet_from_red_carpet.json
-+ blue_carpet_from_yellow_carpet.json
-+ blue_wool_from_black_wool.json
-+ blue_wool_from_brown_wool.json
-+ blue_wool_from_cyan_wool.json
-+ blue_wool_from_gray_wool.json
-+ blue_wool_from_green_wool.json
-+ blue_wool_from_light_blue_wool.json
-+ blue_wool_from_light_gray_wool.json
-+ blue_wool_from_lime_wool.json
-+ blue_wool_from_magenta_wool.json
-+ blue_wool_from_orange_wool.json
-+ blue_wool_from_pink_wool.json
-+ blue_wool_from_purple_wool.json
-+ blue_wool_from_red_wool.json
-+ blue_wool_from_white_wool.json
-+ blue_wool_from_yellow_wool.json
-+ brown_bed_from_black_bed.json
-+ brown_bed_from_blue_bed.json
-+ brown_bed_from_cyan_bed.json
-+ brown_bed_from_gray_bed.json
-+ brown_bed_from_green_bed.json
-+ brown_bed_from_light_blue_bed.json
-+ brown_bed_from_light_gray_bed.json
-+ brown_bed_from_lime_bed.json
-+ brown_bed_from_magenta_bed.json
-+ brown_bed_from_orange_bed.json
-+ brown_bed_from_pink_bed.json
-+ brown_bed_from_purple_bed.json
-+ brown_bed_from_red_bed.json
-+ brown_bed_from_yellow_bed.json
-+ brown_carpet_from_black_carpet.json
-+ brown_carpet_from_blue_carpet.json
-+ brown_carpet_from_cyan_carpet.json
-+ brown_carpet_from_gray_carpet.json
-+ brown_carpet_from_green_carpet.json
-+ brown_carpet_from_light_blue_carpet.json
-+ brown_carpet_from_light_gray_carpet.json
-+ brown_carpet_from_lime_carpet.json
-+ brown_carpet_from_magenta_carpet.json
-+ brown_carpet_from_orange_carpet.json
-+ brown_carpet_from_pink_carpet.json
-+ brown_carpet_from_purple_carpet.json
-+ brown_carpet_from_red_carpet.json
-+ brown_carpet_from_yellow_carpet.json
-+ brown_wool_from_black_wool.json
-+ brown_wool_from_blue_wool.json
-+ brown_wool_from_cyan_wool.json
-+ brown_wool_from_gray_wool.json
-+ brown_wool_from_green_wool.json
-+ brown_wool_from_light_blue_wool.json
-+ brown_wool_from_light_gray_wool.json
-+ brown_wool_from_lime_wool.json
-+ brown_wool_from_magenta_wool.json
-+ brown_wool_from_orange_wool.json
-+ brown_wool_from_pink_wool.json
-+ brown_wool_from_purple_wool.json
-+ brown_wool_from_red_wool.json
-+ brown_wool_from_white_wool.json
-+ brown_wool_from_yellow_wool.json
-+ cyan_bed_from_black_bed.json
-+ cyan_bed_from_blue_bed.json
-+ cyan_bed_from_brown_bed.json
-+ cyan_bed_from_gray_bed.json
-+ cyan_bed_from_green_bed.json
-+ cyan_bed_from_light_blue_bed.json
-+ cyan_bed_from_light_gray_bed.json
-+ cyan_bed_from_lime_bed.json
-+ cyan_bed_from_magenta_bed.json
-+ cyan_bed_from_orange_bed.json
-+ cyan_bed_from_pink_bed.json
-+ cyan_bed_from_purple_bed.json
-+ cyan_bed_from_red_bed.json
-+ cyan_bed_from_yellow_bed.json
-+ cyan_carpet_from_black_carpet.json
-+ cyan_carpet_from_blue_carpet.json
-+ cyan_carpet_from_brown_carpet.json
-+ cyan_carpet_from_gray_carpet.json
-+ cyan_carpet_from_green_carpet.json
-+ cyan_carpet_from_light_blue_carpet.json
-+ cyan_carpet_from_light_gray_carpet.json
-+ cyan_carpet_from_lime_carpet.json
-+ cyan_carpet_from_magenta_carpet.json
-+ cyan_carpet_from_orange_carpet.json
-+ cyan_carpet_from_pink_carpet.json
-+ cyan_carpet_from_purple_carpet.json
-+ cyan_carpet_from_red_carpet.json
-+ cyan_carpet_from_yellow_carpet.json
-+ cyan_wool_from_black_wool.json
-+ cyan_wool_from_blue_wool.json
-+ cyan_wool_from_brown_wool.json
-+ cyan_wool_from_gray_wool.json
-+ cyan_wool_from_green_wool.json
-+ cyan_wool_from_light_blue_wool.json
-+ cyan_wool_from_light_gray_wool.json
-+ cyan_wool_from_lime_wool.json
-+ cyan_wool_from_magenta_wool.json
-+ cyan_wool_from_orange_wool.json
-+ cyan_wool_from_pink_wool.json
-+ cyan_wool_from_purple_wool.json
-+ cyan_wool_from_red_wool.json
-+ cyan_wool_from_white_wool.json
-+ cyan_wool_from_yellow_wool.json
-+ gray_bed_from_black_bed.json
-+ gray_bed_from_blue_bed.json
-+ gray_bed_from_brown_bed.json
-+ gray_bed_from_cyan_bed.json
-+ gray_bed_from_green_bed.json
-+ gray_bed_from_light_blue_bed.json
-+ gray_bed_from_light_gray_bed.json
-+ gray_bed_from_lime_bed.json
-+ gray_bed_from_magenta_bed.json
-+ gray_bed_from_orange_bed.json
-+ gray_bed_from_pink_bed.json
-+ gray_bed_from_purple_bed.json
-+ gray_bed_from_red_bed.json
-+ gray_bed_from_yellow_bed.json
-+ gray_carpet_from_black_carpet.json
-+ gray_carpet_from_blue_carpet.json
-+ gray_carpet_from_brown_carpet.json
-+ gray_carpet_from_cyan_carpet.json
-+ gray_carpet_from_green_carpet.json
-+ gray_carpet_from_light_blue_carpet.json
-+ gray_carpet_from_light_gray_carpet.json
-+ gray_carpet_from_lime_carpet.json
-+ gray_carpet_from_magenta_carpet.json
-+ gray_carpet_from_orange_carpet.json
-+ gray_carpet_from_pink_carpet.json
-+ gray_carpet_from_purple_carpet.json
-+ gray_carpet_from_red_carpet.json
-+ gray_carpet_from_yellow_carpet.json
-+ gray_wool_from_black_wool.json
-+ gray_wool_from_blue_wool.json
-+ gray_wool_from_brown_wool.json
-+ gray_wool_from_cyan_wool.json
-+ gray_wool_from_green_wool.json
-+ gray_wool_from_light_blue_wool.json
-+ gray_wool_from_light_gray_wool.json
-+ gray_wool_from_lime_wool.json
-+ gray_wool_from_magenta_wool.json
-+ gray_wool_from_orange_wool.json
-+ gray_wool_from_pink_wool.json
-+ gray_wool_from_purple_wool.json
-+ gray_wool_from_red_wool.json
-+ gray_wool_from_white_wool.json
-+ gray_wool_from_yellow_wool.json
-+ green_bed_from_black_bed.json
-+ green_bed_from_blue_bed.json
-+ green_bed_from_brown_bed.json
-+ green_bed_from_cyan_bed.json
-+ green_bed_from_gray_bed.json
-+ green_bed_from_light_blue_bed.json
-+ green_bed_from_light_gray_bed.json
-+ green_bed_from_lime_bed.json
-+ green_bed_from_magenta_bed.json
-+ green_bed_from_orange_bed.json
-+ green_bed_from_pink_bed.json
-+ green_bed_from_purple_bed.json
-+ green_bed_from_red_bed.json
-+ green_bed_from_yellow_bed.json
-+ green_carpet_from_black_carpet.json
-+ green_carpet_from_blue_carpet.json
-+ green_carpet_from_brown_carpet.json
-+ green_carpet_from_cyan_carpet.json
-+ green_carpet_from_gray_carpet.json
-+ green_carpet_from_light_blue_carpet.json
-+ green_carpet_from_light_gray_carpet.json
-+ green_carpet_from_lime_carpet.json
-+ green_carpet_from_magenta_carpet.json
-+ green_carpet_from_orange_carpet.json
-+ green_carpet_from_pink_carpet.json
-+ green_carpet_from_purple_carpet.json
-+ green_carpet_from_red_carpet.json
-+ green_carpet_from_yellow_carpet.json
-+ green_wool_from_black_wool.json
-+ green_wool_from_blue_wool.json
-+ green_wool_from_brown_wool.json
-+ green_wool_from_cyan_wool.json
-+ green_wool_from_gray_wool.json
-+ green_wool_from_light_blue_wool.json
-+ green_wool_from_light_gray_wool.json
-+ green_wool_from_lime_wool.json
-+ green_wool_from_magenta_wool.json
-+ green_wool_from_orange_wool.json
-+ green_wool_from_pink_wool.json
-+ green_wool_from_purple_wool.json
-+ green_wool_from_red_wool.json
-+ green_wool_from_white_wool.json
-+ green_wool_from_yellow_wool.json
-+ light_blue_bed_from_black_bed.json
-+ light_blue_bed_from_blue_bed.json
-+ light_blue_bed_from_brown_bed.json
-+ light_blue_bed_from_cyan_bed.json
-+ light_blue_bed_from_gray_bed.json
-+ light_blue_bed_from_green_bed.json
-+ light_blue_bed_from_light_gray_bed.json
-+ light_blue_bed_from_lime_bed.json
-+ light_blue_bed_from_magenta_bed.json
-+ light_blue_bed_from_orange_bed.json
-+ light_blue_bed_from_pink_bed.json
-+ light_blue_bed_from_purple_bed.json
-+ light_blue_bed_from_red_bed.json
-+ light_blue_bed_from_yellow_bed.json
-+ light_blue_carpet_from_black_carpet.json
-+ light_blue_carpet_from_blue_carpet.json
-+ light_blue_carpet_from_brown_carpet.json
-+ light_blue_carpet_from_cyan_carpet.json
-+ light_blue_carpet_from_gray_carpet.json
-+ light_blue_carpet_from_green_carpet.json
-+ light_blue_carpet_from_light_gray_carpet.json
-+ light_blue_carpet_from_lime_carpet.json
-+ light_blue_carpet_from_magenta_carpet.json
-+ light_blue_carpet_from_orange_carpet.json
-+ light_blue_carpet_from_pink_carpet.json
-+ light_blue_carpet_from_purple_carpet.json
-+ light_blue_carpet_from_red_carpet.json
-+ light_blue_carpet_from_yellow_carpet.json
-+ light_blue_wool_from_black_wool.json
-+ light_blue_wool_from_blue_wool.json
-+ light_blue_wool_from_brown_wool.json
-+ light_blue_wool_from_cyan_wool.json
-+ light_blue_wool_from_gray_wool.json
-+ light_blue_wool_from_green_wool.json
-+ light_blue_wool_from_light_gray_wool.json
-+ light_blue_wool_from_lime_wool.json
-+ light_blue_wool_from_magenta_wool.json
-+ light_blue_wool_from_orange_wool.json
-+ light_blue_wool_from_pink_wool.json
-+ light_blue_wool_from_purple_wool.json
-+ light_blue_wool_from_red_wool.json
-+ light_blue_wool_from_white_wool.json
-+ light_blue_wool_from_yellow_wool.json
-+ light_gray_bed_from_black_bed.json
-+ light_gray_bed_from_blue_bed.json
-+ light_gray_bed_from_brown_bed.json
-+ light_gray_bed_from_cyan_bed.json
-+ light_gray_bed_from_gray_bed.json
-+ light_gray_bed_from_green_bed.json
-+ light_gray_bed_from_light_blue_bed.json
-+ light_gray_bed_from_lime_bed.json
-+ light_gray_bed_from_magenta_bed.json
-+ light_gray_bed_from_orange_bed.json
-+ light_gray_bed_from_pink_bed.json
-+ light_gray_bed_from_purple_bed.json
-+ light_gray_bed_from_red_bed.json
-+ light_gray_bed_from_yellow_bed.json
-+ light_gray_carpet_from_black_carpet.json
-+ light_gray_carpet_from_blue_carpet.json
-+ light_gray_carpet_from_brown_carpet.json
-+ light_gray_carpet_from_cyan_carpet.json
-+ light_gray_carpet_from_gray_carpet.json
-+ light_gray_carpet_from_green_carpet.json
-+ light_gray_carpet_from_light_blue_carpet.json
-+ light_gray_carpet_from_lime_carpet.json
-+ light_gray_carpet_from_magenta_carpet.json
-+ light_gray_carpet_from_orange_carpet.json
-+ light_gray_carpet_from_pink_carpet.json
-+ light_gray_carpet_from_purple_carpet.json
-+ light_gray_carpet_from_red_carpet.json
-+ light_gray_carpet_from_yellow_carpet.json
-+ light_gray_wool_from_black_wool.json
-+ light_gray_wool_from_blue_wool.json
-+ light_gray_wool_from_brown_wool.json
-+ light_gray_wool_from_cyan_wool.json
-+ light_gray_wool_from_gray_wool.json
-+ light_gray_wool_from_green_wool.json
-+ light_gray_wool_from_light_blue_wool.json
-+ light_gray_wool_from_lime_wool.json
-+ light_gray_wool_from_magenta_wool.json
-+ light_gray_wool_from_orange_wool.json
-+ light_gray_wool_from_pink_wool.json
-+ light_gray_wool_from_purple_wool.json
-+ light_gray_wool_from_red_wool.json
-+ light_gray_wool_from_white_wool.json
-+ light_gray_wool_from_yellow_wool.json
-+ lime_bed_from_black_bed.json
-+ lime_bed_from_blue_bed.json
-+ lime_bed_from_brown_bed.json
-+ lime_bed_from_cyan_bed.json
-+ lime_bed_from_gray_bed.json
-+ lime_bed_from_green_bed.json
-+ lime_bed_from_light_blue_bed.json
-+ lime_bed_from_light_gray_bed.json
-+ lime_bed_from_magenta_bed.json
-+ lime_bed_from_orange_bed.json
-+ lime_bed_from_pink_bed.json
-+ lime_bed_from_purple_bed.json
-+ lime_bed_from_red_bed.json
-+ lime_bed_from_yellow_bed.json
-+ lime_carpet_from_black_carpet.json
-+ lime_carpet_from_blue_carpet.json
-+ lime_carpet_from_brown_carpet.json
-+ lime_carpet_from_cyan_carpet.json
-+ lime_carpet_from_gray_carpet.json
-+ lime_carpet_from_green_carpet.json
-+ lime_carpet_from_light_blue_carpet.json
-+ lime_carpet_from_light_gray_carpet.json
-+ lime_carpet_from_magenta_carpet.json
-+ lime_carpet_from_orange_carpet.json
-+ lime_carpet_from_pink_carpet.json
-+ lime_carpet_from_purple_carpet.json
-+ lime_carpet_from_red_carpet.json
-+ lime_carpet_from_yellow_carpet.json
-+ lime_wool_from_black_wool.json
-+ lime_wool_from_blue_wool.json
-+ lime_wool_from_brown_wool.json
-+ lime_wool_from_cyan_wool.json
-+ lime_wool_from_gray_wool.json
-+ lime_wool_from_green_wool.json
-+ lime_wool_from_light_blue_wool.json
-+ lime_wool_from_light_gray_wool.json
-+ lime_wool_from_magenta_wool.json
-+ lime_wool_from_orange_wool.json
-+ lime_wool_from_pink_wool.json
-+ lime_wool_from_purple_wool.json
-+ lime_wool_from_red_wool.json
-+ lime_wool_from_white_wool.json
-+ lime_wool_from_yellow_wool.json
-+ magenta_bed_from_black_bed.json
-+ magenta_bed_from_blue_bed.json
-+ magenta_bed_from_brown_bed.json
-+ magenta_bed_from_cyan_bed.json
-+ magenta_bed_from_gray_bed.json
-+ magenta_bed_from_green_bed.json
-+ magenta_bed_from_light_blue_bed.json
-+ magenta_bed_from_light_gray_bed.json
-+ magenta_bed_from_lime_bed.json
-+ magenta_bed_from_orange_bed.json
-+ magenta_bed_from_pink_bed.json
-+ magenta_bed_from_purple_bed.json
-+ magenta_bed_from_red_bed.json
-+ magenta_bed_from_yellow_bed.json
-+ magenta_carpet_from_black_carpet.json
-+ magenta_carpet_from_blue_carpet.json
-+ magenta_carpet_from_brown_carpet.json
-+ magenta_carpet_from_cyan_carpet.json
-+ magenta_carpet_from_gray_carpet.json
-+ magenta_carpet_from_green_carpet.json
-+ magenta_carpet_from_light_blue_carpet.json
-+ magenta_carpet_from_light_gray_carpet.json
-+ magenta_carpet_from_lime_carpet.json
-+ magenta_carpet_from_orange_carpet.json
-+ magenta_carpet_from_pink_carpet.json
-+ magenta_carpet_from_purple_carpet.json
-+ magenta_carpet_from_red_carpet.json
-+ magenta_carpet_from_yellow_carpet.json
-+ magenta_wool_from_black_wool.json
-+ magenta_wool_from_blue_wool.json
-+ magenta_wool_from_brown_wool.json
-+ magenta_wool_from_cyan_wool.json
-+ magenta_wool_from_gray_wool.json
-+ magenta_wool_from_green_wool.json
-+ magenta_wool_from_light_blue_wool.json
-+ magenta_wool_from_light_gray_wool.json
-+ magenta_wool_from_lime_wool.json
-+ magenta_wool_from_orange_wool.json
-+ magenta_wool_from_pink_wool.json
-+ magenta_wool_from_purple_wool.json
-+ magenta_wool_from_red_wool.json
-+ magenta_wool_from_white_wool.json
-+ magenta_wool_from_yellow_wool.json
-+ orange_bed_from_black_bed.json
-+ orange_bed_from_blue_bed.json
-+ orange_bed_from_brown_bed.json
-+ orange_bed_from_cyan_bed.json
-+ orange_bed_from_gray_bed.json
-+ orange_bed_from_green_bed.json
-+ orange_bed_from_light_blue_bed.json
-+ orange_bed_from_light_gray_bed.json
-+ orange_bed_from_lime_bed.json
-+ orange_bed_from_magenta_bed.json
-+ orange_bed_from_pink_bed.json
-+ orange_bed_from_purple_bed.json
-+ orange_bed_from_red_bed.json
-+ orange_bed_from_yellow_bed.json
-+ orange_carpet_from_black_carpet.json
-+ orange_carpet_from_blue_carpet.json
-+ orange_carpet_from_brown_carpet.json
-+ orange_carpet_from_cyan_carpet.json
-+ orange_carpet_from_gray_carpet.json
-+ orange_carpet_from_green_carpet.json
-+ orange_carpet_from_light_blue_carpet.json
-+ orange_carpet_from_light_gray_carpet.json
-+ orange_carpet_from_lime_carpet.json
-+ orange_carpet_from_magenta_carpet.json
-+ orange_carpet_from_pink_carpet.json
-+ orange_carpet_from_purple_carpet.json
-+ orange_carpet_from_red_carpet.json
-+ orange_carpet_from_yellow_carpet.json
-+ orange_wool_from_black_wool.json
-+ orange_wool_from_blue_wool.json
-+ orange_wool_from_brown_wool.json
-+ orange_wool_from_cyan_wool.json
-+ orange_wool_from_gray_wool.json
-+ orange_wool_from_green_wool.json
-+ orange_wool_from_light_blue_wool.json
-+ orange_wool_from_light_gray_wool.json
-+ orange_wool_from_lime_wool.json
-+ orange_wool_from_magenta_wool.json
-+ orange_wool_from_pink_wool.json
-+ orange_wool_from_purple_wool.json
-+ orange_wool_from_red_wool.json
-+ orange_wool_from_white_wool.json
-+ orange_wool_from_yellow_wool.json
-+ pink_bed_from_black_bed.json
-+ pink_bed_from_blue_bed.json
-+ pink_bed_from_brown_bed.json
-+ pink_bed_from_cyan_bed.json
-+ pink_bed_from_gray_bed.json
-+ pink_bed_from_green_bed.json
-+ pink_bed_from_light_blue_bed.json
-+ pink_bed_from_light_gray_bed.json
-+ pink_bed_from_lime_bed.json
-+ pink_bed_from_magenta_bed.json
-+ pink_bed_from_orange_bed.json
-+ pink_bed_from_purple_bed.json
-+ pink_bed_from_red_bed.json
-+ pink_bed_from_yellow_bed.json
-+ pink_carpet_from_black_carpet.json
-+ pink_carpet_from_blue_carpet.json
-+ pink_carpet_from_brown_carpet.json
-+ pink_carpet_from_cyan_carpet.json
-+ pink_carpet_from_gray_carpet.json
-+ pink_carpet_from_green_carpet.json
-+ pink_carpet_from_light_blue_carpet.json
-+ pink_carpet_from_light_gray_carpet.json
-+ pink_carpet_from_lime_carpet.json
-+ pink_carpet_from_magenta_carpet.json
-+ pink_carpet_from_orange_carpet.json
-+ pink_carpet_from_purple_carpet.json
-+ pink_carpet_from_red_carpet.json
-+ pink_carpet_from_yellow_carpet.json
-+ pink_wool_from_black_wool.json
-+ pink_wool_from_blue_wool.json
-+ pink_wool_from_brown_wool.json
-+ pink_wool_from_cyan_wool.json
-+ pink_wool_from_gray_wool.json
-+ pink_wool_from_green_wool.json
-+ pink_wool_from_light_blue_wool.json
-+ pink_wool_from_light_gray_wool.json
-+ pink_wool_from_lime_wool.json
-+ pink_wool_from_magenta_wool.json
-+ pink_wool_from_orange_wool.json
-+ pink_wool_from_purple_wool.json
-+ pink_wool_from_red_wool.json
-+ pink_wool_from_white_wool.json
-+ pink_wool_from_yellow_wool.json
-+ purple_bed_from_black_bed.json
-+ purple_bed_from_blue_bed.json
-+ purple_bed_from_brown_bed.json
-+ purple_bed_from_cyan_bed.json
-+ purple_bed_from_gray_bed.json
-+ purple_bed_from_green_bed.json
-+ purple_bed_from_light_blue_bed.json
-+ purple_bed_from_light_gray_bed.json
-+ purple_bed_from_lime_bed.json
-+ purple_bed_from_magenta_bed.json
-+ purple_bed_from_orange_bed.json
-+ purple_bed_from_pink_bed.json
-+ purple_bed_from_red_bed.json
-+ purple_bed_from_yellow_bed.json
-+ purple_carpet_from_black_carpet.json
-+ purple_carpet_from_blue_carpet.json
-+ purple_carpet_from_brown_carpet.json
-+ purple_carpet_from_cyan_carpet.json
-+ purple_carpet_from_gray_carpet.json
-+ purple_carpet_from_green_carpet.json
-+ purple_carpet_from_light_blue_carpet.json
-+ purple_carpet_from_light_gray_carpet.json
-+ purple_carpet_from_lime_carpet.json
-+ purple_carpet_from_magenta_carpet.json
-+ purple_carpet_from_orange_carpet.json
-+ purple_carpet_from_pink_carpet.json
-+ purple_carpet_from_red_carpet.json
-+ purple_carpet_from_yellow_carpet.json
-+ purple_wool_from_black_wool.json
-+ purple_wool_from_blue_wool.json
-+ purple_wool_from_brown_wool.json
-+ purple_wool_from_cyan_wool.json
-+ purple_wool_from_gray_wool.json
-+ purple_wool_from_green_wool.json
-+ purple_wool_from_light_blue_wool.json
-+ purple_wool_from_light_gray_wool.json
-+ purple_wool_from_lime_wool.json
-+ purple_wool_from_magenta_wool.json
-+ purple_wool_from_orange_wool.json
-+ purple_wool_from_pink_wool.json
-+ purple_wool_from_red_wool.json
-+ purple_wool_from_white_wool.json
-+ purple_wool_from_yellow_wool.json
-+ red_bed_from_black_bed.json
-+ red_bed_from_blue_bed.json
-+ red_bed_from_brown_bed.json
-+ red_bed_from_cyan_bed.json
-+ red_bed_from_gray_bed.json
-+ red_bed_from_green_bed.json
-+ red_bed_from_light_blue_bed.json
-+ red_bed_from_light_gray_bed.json
-+ red_bed_from_lime_bed.json
-+ red_bed_from_magenta_bed.json
-+ red_bed_from_orange_bed.json
-+ red_bed_from_pink_bed.json
-+ red_bed_from_purple_bed.json
-+ red_bed_from_yellow_bed.json
-+ red_carpet_from_black_carpet.json
-+ red_carpet_from_blue_carpet.json
-+ red_carpet_from_brown_carpet.json
-+ red_carpet_from_cyan_carpet.json
-+ red_carpet_from_gray_carpet.json
-+ red_carpet_from_green_carpet.json
-+ red_carpet_from_light_blue_carpet.json
-+ red_carpet_from_light_gray_carpet.json
-+ red_carpet_from_lime_carpet.json
-+ red_carpet_from_magenta_carpet.json
-+ red_carpet_from_orange_carpet.json
-+ red_carpet_from_pink_carpet.json
-+ red_carpet_from_purple_carpet.json
-+ red_carpet_from_yellow_carpet.json
-+ red_wool_from_black_wool.json
-+ red_wool_from_blue_wool.json
-+ red_wool_from_brown_wool.json
-+ red_wool_from_cyan_wool.json
-+ red_wool_from_gray_wool.json
-+ red_wool_from_green_wool.json
-+ red_wool_from_light_blue_wool.json
-+ red_wool_from_light_gray_wool.json
-+ red_wool_from_lime_wool.json
-+ red_wool_from_magenta_wool.json
-+ red_wool_from_orange_wool.json
-+ red_wool_from_pink_wool.json
-+ red_wool_from_purple_wool.json
-+ red_wool_from_white_wool.json
-+ red_wool_from_yellow_wool.json
-+ white_bed_from_black_bed.json
-+ white_bed_from_blue_bed.json
-+ white_bed_from_brown_bed.json
-+ white_bed_from_cyan_bed.json
-+ white_bed_from_gray_bed.json
-+ white_bed_from_green_bed.json
-+ white_bed_from_light_blue_bed.json
-+ white_bed_from_light_gray_bed.json
-+ white_bed_from_lime_bed.json
-+ white_bed_from_magenta_bed.json
-+ white_bed_from_orange_bed.json
-+ white_bed_from_pink_bed.json
-+ white_bed_from_purple_bed.json
-+ white_bed_from_red_bed.json
-+ white_bed_from_yellow_bed.json
-+ white_carpet_from_black_carpet.json
-+ white_carpet_from_blue_carpet.json
-+ white_carpet_from_brown_carpet.json
-+ white_carpet_from_cyan_carpet.json
-+ white_carpet_from_gray_carpet.json
-+ white_carpet_from_green_carpet.json
-+ white_carpet_from_light_blue_carpet.json
-+ white_carpet_from_light_gray_carpet.json
-+ white_carpet_from_lime_carpet.json
-+ white_carpet_from_magenta_carpet.json
-+ white_carpet_from_orange_carpet.json
-+ white_carpet_from_pink_carpet.json
-+ white_carpet_from_purple_carpet.json
-+ white_carpet_from_red_carpet.json
-+ white_carpet_from_yellow_carpet.json
-+ white_wool_from_black_wool.json
-+ white_wool_from_blue_wool.json
-+ white_wool_from_brown_wool.json
-+ white_wool_from_cyan_wool.json
-+ white_wool_from_gray_wool.json
-+ white_wool_from_green_wool.json
-+ white_wool_from_light_blue_wool.json
-+ white_wool_from_light_gray_wool.json
-+ white_wool_from_lime_wool.json
-+ white_wool_from_magenta_wool.json
-+ white_wool_from_orange_wool.json
-+ white_wool_from_pink_wool.json
-+ white_wool_from_purple_wool.json
-+ white_wool_from_red_wool.json
-+ white_wool_from_yellow_wool.json
-+ yellow_bed_from_black_bed.json
-+ yellow_bed_from_blue_bed.json
-+ yellow_bed_from_brown_bed.json
-+ yellow_bed_from_cyan_bed.json
-+ yellow_bed_from_gray_bed.json
-+ yellow_bed_from_green_bed.json
-+ yellow_bed_from_light_blue_bed.json
-+ yellow_bed_from_light_gray_bed.json
-+ yellow_bed_from_lime_bed.json
-+ yellow_bed_from_magenta_bed.json
-+ yellow_bed_from_orange_bed.json
-+ yellow_bed_from_pink_bed.json
-+ yellow_bed_from_purple_bed.json
-+ yellow_bed_from_red_bed.json
-+ yellow_carpet_from_black_carpet.json
-+ yellow_carpet_from_blue_carpet.json
-+ yellow_carpet_from_brown_carpet.json
-+ yellow_carpet_from_cyan_carpet.json
-+ yellow_carpet_from_gray_carpet.json
-+ yellow_carpet_from_green_carpet.json
-+ yellow_carpet_from_light_blue_carpet.json
-+ yellow_carpet_from_light_gray_carpet.json
-+ yellow_carpet_from_lime_carpet.json
-+ yellow_carpet_from_magenta_carpet.json
-+ yellow_carpet_from_orange_carpet.json
-+ yellow_carpet_from_pink_carpet.json
-+ yellow_carpet_from_purple_carpet.json
-+ yellow_carpet_from_red_carpet.json
-+ yellow_wool_from_black_wool.json
-+ yellow_wool_from_blue_wool.json
-+ yellow_wool_from_brown_wool.json
-+ yellow_wool_from_cyan_wool.json
-+ yellow_wool_from_gray_wool.json
-+ yellow_wool_from_green_wool.json
-+ yellow_wool_from_light_blue_wool.json
-+ yellow_wool_from_light_gray_wool.json
-+ yellow_wool_from_lime_wool.json
-+ yellow_wool_from_magenta_wool.json
-+ yellow_wool_from_orange_wool.json
-+ yellow_wool_from_pink_wool.json
-+ yellow_wool_from_purple_wool.json
-+ yellow_wool_from_red_wool.json
-+ yellow_wool_from_white_wool.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:text2speech:1.16.7
-+ com.mojang:text2speech:1.16.8
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.font.TrueTypeGlyphProvider</summary>
-
-```diff
-+ STBTTFontinfo validateFontOpen()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlStateManager</summary>
-
-```diff
-+ void _upload(Consumer)
-+ void lambda$upload$2(Consumer)
-+ void upload(Consumer)
-- void _upload(IntBuffer)
-- void lambda$upload$2(IntBuffer)
-- void upload(IntBuffer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.Backup</summary>
-
-```diff
-- String format(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton</summary>
-
-```diff
-+ Component MINIGAME
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
-
-```diff
-- Component MINIGAME_PREFIX
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongConfirmationScreen</summary>
-
-```diff
-+ Component INFO
-+ Component WARNING
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-+ Component UNABLE_TO_LOAD_WORLD
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSubscriptionInfoScreen</summary>
-
-```diff
-- Component DAY_SUFFIX
-- Component DAYS_SUFFIX
-- Component MONTH_SUFFIX
-- Component MONTHS_SUFFIX
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
-
-```diff
-+ Component RIGHT_NOW
-+ Component convertToAgePresentation(long)
-+ Component convertToAgePresentationFromInstant(Date)
-- String convertToAgePresentation(long)
-- String convertToAgePresentationFromInstant(Date)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ DataResult fixedSize(LongStream,int)
-+ String lambda$fixedSize$16(int)
-+ String lambda$sanitizeName$17(CharPredicate,int)
-- String lambda$sanitizeName$16(CharPredicate,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-- int MAX_CHUNK_DISTANCE
-+ Either lambda$prepareAccessibleChunk$49(Either)
-+ FullChunkStatus lambda$protoChunkToFullChunk$33(ChunkHolder)
-+ Integer lambda$dumpChunks$55(LevelChunk)
-+ LevelChunk lambda$prepareAccessibleChunk$48(List)
-+ List lambda$resendBiomesForChunks$59(ServerPlayer)
-+ Object lambda$prepareTickingChunk$43(Throwable)
-+ Optional lambda$dumpChunks$52(ChunkAccess)
-+ Optional lambda$readChunk$58(Optional)
-+ String lambda$printFuture$56(LevelChunk)
-+ String lambda$printFuture$57(ChunkHolder$ChunkLoadingFailure)
-+ void lambda$prepareAccessibleChunk$50(Runnable)
-+ void lambda$prepareTickingChunk$44(ServerPlayer)
-+ void lambda$prepareTickingChunk$45(LevelChunk)
-+ void lambda$prepareTickingChunk$46(Either)
-+ void lambda$prepareTickingChunk$47(Runnable)
-+ void lambda$resendBiomesForChunks$60(List)
-+ void lambda$setViewDistance$51(ServerPlayer)
-+ void onFullChunkStatusChange(FullChunkStatus)
-- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$33(ChunkHolder)
-- Either lambda$prepareAccessibleChunk$48(Either)
-- Integer lambda$dumpChunks$52(LevelChunk)
-- LevelChunk lambda$prepareAccessibleChunk$47(List)
-- List lambda$resendBiomesForChunks$58(ServerPlayer)
-- Optional lambda$dumpChunks$51(ChunkAccess)
-- Optional lambda$readChunk$57(Optional)
-- String lambda$printFuture$55(LevelChunk)
-- String lambda$printFuture$56(ChunkHolder$ChunkLoadingFailure)
-- void lambda$prepareAccessibleChunk$49(Runnable)
-- void lambda$prepareTickingChunk$43(ServerPlayer)
-- void lambda$prepareTickingChunk$44(LevelChunk)
-- void lambda$prepareTickingChunk$45(Either)
-- void lambda$prepareTickingChunk$46(Runnable)
-- void lambda$resendBiomesForChunks$59(List)
-- void lambda$setViewDistance$50(ServerPlayer)
-- void onFullChunkStatusChange(ChunkHolder$FullChunkStatus)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DistanceManager</summary>
-
-```diff
-- int BLOCK_TICKING_LEVEL_THRESHOLD
-- int ENTITY_TICKING_LEVEL_THRESHOLD
-- int ENTITY_TICKING_RANGE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
-
-```diff
-+ BlockPos getBlockPosBelowThatAffectsMyMovement()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ BlockPos fightOrigin
-+ BlockPos getFightOrigin()
-+ void setDragonFight(EndDragonFight)
-+ void setFightOrigin(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.CraftingContainer</summary>
-
-```diff
-+ int getHeight()
-+ int getWidth()
-+ List getItems()
-- AbstractContainerMenu menu
-- int height
-- int width
-- NonNullList items
-- boolean isEmpty()
-- boolean stillValid(Player)
-- int getContainerSize()
-- int getHeight()
-- int getWidth()
-- ItemStack getItem(int)
-- ItemStack removeItem(int,int)
-- ItemStack removeItemNoUpdate(int)
-- List getItems()
-- void <init>(AbstractContainerMenu,int,int)
-- void clearContent()
-- void fillStackedContents(StackedContents)
-- void setChanged()
-- void setItem(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.gametest.framework.GameTestHelper$3
@@ -8770,19 +3669,57 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.font.TrueTypeGlyphProvider</summary>
+
+```diff
++ STBTTFontinfo validateFontOpen()
+```
+
+</details>
 
 
+<details><summary>com.mojang.blaze3d.platform.GlStateManager</summary>
+
+```diff
++ void _upload(int,int,int,int,int,NativeImage$Format,IntBuffer,Consumer)
+- void _upload(int,int,int,int,int,NativeImage$Format,IntBuffer)
++ void lambda$upload$2(int,int,int,int,int,NativeImage$Format,IntBuffer,Consumer)
+- void lambda$upload$2(int,int,int,int,int,NativeImage$Format,IntBuffer)
++ void upload(int,int,int,int,int,NativeImage$Format,IntBuffer,Consumer)
+- void upload(int,int,int,int,int,NativeImage$Format,IntBuffer)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.dto.Backup</summary>
+
+```diff
+- String format(String)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongConfirmationScreen</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
 
+```diff
++ Component convertToAgePresentation(long)
++ Component convertToAgePresentationFromInstant(Date)
+- String convertToAgePresentation(long)
+- String convertToAgePresentationFromInstant(Date)
+```
 
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.Util</summary>
@@ -8790,788 +3727,57 @@
 ```diff
 + DataResult fixedSize(LongStream,int)
 + String lambda$fixedSize$16(int)
-+ String lambda$sanitizeName$17(CharPredicate,int)
 - String lambda$sanitizeName$16(CharPredicate,int)
++ String lambda$sanitizeName$17(CharPredicate,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DistanceManager$ChunkTicketTracker</summary>
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
 
 ```diff
-+ int MAX_LEVEL
-+ void <clinit>()
+- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$33(ChunkHolder)
+- Either lambda$prepareAccessibleChunk$48(Either)
++ Either lambda$prepareAccessibleChunk$49(Either)
++ FullChunkStatus lambda$protoChunkToFullChunk$33(ChunkHolder)
+- Integer lambda$dumpChunks$52(LevelChunk)
++ Integer lambda$dumpChunks$55(LevelChunk)
+- LevelChunk lambda$prepareAccessibleChunk$47(List)
++ LevelChunk lambda$prepareAccessibleChunk$48(List)
+- List lambda$resendBiomesForChunks$58(ServerPlayer)
++ List lambda$resendBiomesForChunks$59(ServerPlayer)
++ Object lambda$prepareTickingChunk$43(Either,Throwable)
+- Optional lambda$dumpChunks$51(ChunkAccess)
++ Optional lambda$dumpChunks$52(ChunkAccess)
+- Optional lambda$readChunk$57(Optional)
++ Optional lambda$readChunk$58(Optional)
+- String lambda$printFuture$55(LevelChunk)
+- String lambda$printFuture$56(ChunkHolder$ChunkLoadingFailure)
++ String lambda$printFuture$56(LevelChunk)
++ String lambda$printFuture$57(ChunkHolder$ChunkLoadingFailure)
+- void lambda$prepareAccessibleChunk$49(ChunkHolder,Runnable)
++ void lambda$prepareAccessibleChunk$50(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$43(MutableObject,LevelChunk,ServerPlayer)
+- void lambda$prepareTickingChunk$44(ChunkHolder,LevelChunk)
++ void lambda$prepareTickingChunk$44(MutableObject,LevelChunk,ServerPlayer)
+- void lambda$prepareTickingChunk$45(ChunkHolder,Either)
++ void lambda$prepareTickingChunk$45(ChunkHolder,LevelChunk)
++ void lambda$prepareTickingChunk$46(ChunkHolder,Either)
+- void lambda$prepareTickingChunk$46(ChunkHolder,Runnable)
++ void lambda$prepareTickingChunk$47(ChunkHolder,Runnable)
+- void lambda$resendBiomesForChunks$59(ServerPlayer,List)
++ void lambda$resendBiomesForChunks$60(ServerPlayer,List)
+- void lambda$setViewDistance$50(ChunkPos,int,MutableObject,ServerPlayer)
++ void lambda$setViewDistance$51(ChunkPos,int,MutableObject,ServerPlayer)
+- void onFullChunkStatusChange(ChunkPos,ChunkHolder$FullChunkStatus)
++ void onFullChunkStatusChange(ChunkPos,FullChunkStatus)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSources</summary>
-
-```diff
-+ DamageSource fellOutOfWorld
-+ DamageSource genericKill
-+ DamageSource outsideBorder
-- DamageSource outOfWorld
-+ DamageSource fellOutOfWorld()
-+ DamageSource genericKill()
-+ DamageSource outOfBorder()
-- DamageSource outOfWorld()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.damagesource.DamageTypes</summary>
-
-```diff
-+ ResourceKey FELL_OUT_OF_WORLD
-+ ResourceKey GENERIC_KILL
-+ ResourceKey OUTSIDE_BORDER
-- ResourceKey OUT_OF_WORLD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean onGroundNoBlocks
-+ double DELTA_AFFECTED_BY_BLOCKS_BELOW_0_5
-+ double DELTA_AFFECTED_BY_BLOCKS_BELOW_1_0
-+ float DELTA_AFFECTED_BY_BLOCKS_BELOW_0_2
-- double DELTA_AFFECTED_BY_BLOCKS_BELOW
-+ boolean isSupportedBy(BlockPos)
-+ int getPortalCooldown()
-+ void checkBelowWorld()
-+ void onBelowWorld()
-+ void setPortalCooldown(int)
-- void checkOutOfWorld()
-- void outOfWorld()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ float BASE_JUMP_POWER
-+ long getLootTableSeed()
-+ void onBelowWorld()
-- LootContext$Builder createLootContext(DamageSource)
-- void outOfWorld()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ long getLootTableSeed()
-- LootContext$Builder createLootContext(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
 
 ```diff
 + BlockPos getBlockPosBelowThatAffectsMyMovement()
@@ -9580,192 +3786,45 @@
 </details>
 
 
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
 
+```diff
++ BlockPos getFightOrigin()
++ void setDragonFight(EndDragonFight)
++ void setFightOrigin(BlockPos)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.inventory.CraftingContainer</summary>
 
+```diff
+- boolean isEmpty()
+- boolean stillValid(Player)
+- int getContainerSize()
+- int getHeight()
+- int getWidth()
+- ItemStack getItem(int)
+- ItemStack removeItem(int,int)
+- ItemStack removeItemNoUpdate(int)
+- List getItems()
+- void <init>(AbstractContainerMenu,int,int)
+- void clearContent()
+- void fillStackedContents(StackedContents)
+- void setChanged()
+- void setItem(int,ItemStack)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.gametest.framework.GameTestHelper$3
@@ -13393,13 +7452,3190 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ DataResult fixedSize(LongStream,int)
++ String lambda$fixedSize$16(int)
+- String lambda$sanitizeName$16(CharPredicate,int)
++ String lambda$sanitizeName$17(CharPredicate,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.DistanceManager$ChunkTicketTracker</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.DamageSources</summary>
+
+```diff
++ DamageSource fellOutOfWorld()
++ DamageSource genericKill()
++ DamageSource outOfBorder()
+- DamageSource outOfWorld()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean isSupportedBy(BlockPos)
++ int getPortalCooldown()
++ void checkBelowWorld()
+- void checkOutOfWorld()
++ void onBelowWorld()
+- void outOfWorld()
++ void setPortalCooldown(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ long getLootTableSeed()
+- LootContext$Builder createLootContext(boolean,DamageSource)
++ void onBelowWorld()
+- void outOfWorld()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ long getLootTableSeed()
+- LootContext$Builder createLootContext(boolean,DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
++ BlockPos getBlockPosBelowThatAffectsMyMovement()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/black_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/black_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/black_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/black_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/blue_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/blue_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/brown_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/brown_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/cyan_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/gray_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/gray_wool.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/green_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/green_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/green_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/light_blue_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/light_gray_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/lime_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/lime_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/magenta_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/orange_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/orange_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/pink_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/pink_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/purple_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/purple_wool.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/red_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_white_wool.json
++ minecraft/advancements/recipes/building_blocks/red_wool_from_yellow_wool.json
+- minecraft/advancements/recipes/building_blocks/red_wool.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/white_bed_from_yellow_bed.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_carpet_from_yellow_carpet.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/white_wool_from_yellow_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_black_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_brown_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_cyan_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_green_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_light_blue_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_light_gray_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_lime_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_magenta_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_orange_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_pink_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_purple_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_red_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_bed_from_white_bed.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_black_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_brown_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_cyan_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_green_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_light_blue_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_light_gray_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_lime_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_magenta_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_orange_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_pink_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_purple_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_red_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_carpet_from_white_carpet.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_black_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_brown_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_cyan_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_green_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_light_blue_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_light_gray_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_lime_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_magenta_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_orange_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_pink_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_purple_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_red_wool.json
++ minecraft/advancements/recipes/building_blocks/yellow_wool_from_white_wool.json
+- minecraft/advancements/recipes/building_blocks/yellow_wool.json
+- minecraft/advancements/recipes/decorations/black_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/black_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/blue_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/blue_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/brown_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/brown_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/cyan_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/cyan_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/gray_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/gray_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/green_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/green_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/light_blue_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/light_blue_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/light_gray_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/light_gray_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/lime_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/lime_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/magenta_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/magenta_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/orange_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/orange_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/pink_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/pink_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/purple_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/purple_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/red_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/red_carpet_from_white_carpet.json
+- minecraft/advancements/recipes/decorations/yellow_bed_from_white_bed.json
+- minecraft/advancements/recipes/decorations/yellow_carpet_from_white_carpet.json
++ minecraft/damage_type/generic_kill.json
++ minecraft/damage_type/outside_border.json
++ minecraft/recipes/black_bed_from_blue_bed.json
++ minecraft/recipes/black_bed_from_brown_bed.json
++ minecraft/recipes/black_bed_from_cyan_bed.json
++ minecraft/recipes/black_bed_from_gray_bed.json
++ minecraft/recipes/black_bed_from_green_bed.json
++ minecraft/recipes/black_bed_from_light_blue_bed.json
++ minecraft/recipes/black_bed_from_light_gray_bed.json
++ minecraft/recipes/black_bed_from_lime_bed.json
++ minecraft/recipes/black_bed_from_magenta_bed.json
++ minecraft/recipes/black_bed_from_orange_bed.json
++ minecraft/recipes/black_bed_from_pink_bed.json
++ minecraft/recipes/black_bed_from_purple_bed.json
++ minecraft/recipes/black_bed_from_red_bed.json
++ minecraft/recipes/black_bed_from_yellow_bed.json
++ minecraft/recipes/black_carpet_from_blue_carpet.json
++ minecraft/recipes/black_carpet_from_brown_carpet.json
++ minecraft/recipes/black_carpet_from_cyan_carpet.json
++ minecraft/recipes/black_carpet_from_gray_carpet.json
++ minecraft/recipes/black_carpet_from_green_carpet.json
++ minecraft/recipes/black_carpet_from_light_blue_carpet.json
++ minecraft/recipes/black_carpet_from_light_gray_carpet.json
++ minecraft/recipes/black_carpet_from_lime_carpet.json
++ minecraft/recipes/black_carpet_from_magenta_carpet.json
++ minecraft/recipes/black_carpet_from_orange_carpet.json
++ minecraft/recipes/black_carpet_from_pink_carpet.json
++ minecraft/recipes/black_carpet_from_purple_carpet.json
++ minecraft/recipes/black_carpet_from_red_carpet.json
++ minecraft/recipes/black_carpet_from_yellow_carpet.json
++ minecraft/recipes/black_wool_from_blue_wool.json
++ minecraft/recipes/black_wool_from_brown_wool.json
++ minecraft/recipes/black_wool_from_cyan_wool.json
++ minecraft/recipes/black_wool_from_gray_wool.json
++ minecraft/recipes/black_wool_from_green_wool.json
++ minecraft/recipes/black_wool_from_light_blue_wool.json
++ minecraft/recipes/black_wool_from_light_gray_wool.json
++ minecraft/recipes/black_wool_from_lime_wool.json
++ minecraft/recipes/black_wool_from_magenta_wool.json
++ minecraft/recipes/black_wool_from_orange_wool.json
++ minecraft/recipes/black_wool_from_pink_wool.json
++ minecraft/recipes/black_wool_from_purple_wool.json
++ minecraft/recipes/black_wool_from_red_wool.json
++ minecraft/recipes/black_wool_from_white_wool.json
++ minecraft/recipes/black_wool_from_yellow_wool.json
+- minecraft/recipes/black_wool.json
++ minecraft/recipes/blue_bed_from_black_bed.json
++ minecraft/recipes/blue_bed_from_brown_bed.json
++ minecraft/recipes/blue_bed_from_cyan_bed.json
++ minecraft/recipes/blue_bed_from_gray_bed.json
++ minecraft/recipes/blue_bed_from_green_bed.json
++ minecraft/recipes/blue_bed_from_light_blue_bed.json
++ minecraft/recipes/blue_bed_from_light_gray_bed.json
++ minecraft/recipes/blue_bed_from_lime_bed.json
++ minecraft/recipes/blue_bed_from_magenta_bed.json
++ minecraft/recipes/blue_bed_from_orange_bed.json
++ minecraft/recipes/blue_bed_from_pink_bed.json
++ minecraft/recipes/blue_bed_from_purple_bed.json
++ minecraft/recipes/blue_bed_from_red_bed.json
++ minecraft/recipes/blue_bed_from_yellow_bed.json
++ minecraft/recipes/blue_carpet_from_black_carpet.json
++ minecraft/recipes/blue_carpet_from_brown_carpet.json
++ minecraft/recipes/blue_carpet_from_cyan_carpet.json
++ minecraft/recipes/blue_carpet_from_gray_carpet.json
++ minecraft/recipes/blue_carpet_from_green_carpet.json
++ minecraft/recipes/blue_carpet_from_light_blue_carpet.json
++ minecraft/recipes/blue_carpet_from_light_gray_carpet.json
++ minecraft/recipes/blue_carpet_from_lime_carpet.json
++ minecraft/recipes/blue_carpet_from_magenta_carpet.json
++ minecraft/recipes/blue_carpet_from_orange_carpet.json
++ minecraft/recipes/blue_carpet_from_pink_carpet.json
++ minecraft/recipes/blue_carpet_from_purple_carpet.json
++ minecraft/recipes/blue_carpet_from_red_carpet.json
++ minecraft/recipes/blue_carpet_from_yellow_carpet.json
++ minecraft/recipes/blue_wool_from_black_wool.json
++ minecraft/recipes/blue_wool_from_brown_wool.json
++ minecraft/recipes/blue_wool_from_cyan_wool.json
++ minecraft/recipes/blue_wool_from_gray_wool.json
++ minecraft/recipes/blue_wool_from_green_wool.json
++ minecraft/recipes/blue_wool_from_light_blue_wool.json
++ minecraft/recipes/blue_wool_from_light_gray_wool.json
++ minecraft/recipes/blue_wool_from_lime_wool.json
++ minecraft/recipes/blue_wool_from_magenta_wool.json
++ minecraft/recipes/blue_wool_from_orange_wool.json
++ minecraft/recipes/blue_wool_from_pink_wool.json
++ minecraft/recipes/blue_wool_from_purple_wool.json
++ minecraft/recipes/blue_wool_from_red_wool.json
++ minecraft/recipes/blue_wool_from_white_wool.json
++ minecraft/recipes/blue_wool_from_yellow_wool.json
+- minecraft/recipes/blue_wool.json
++ minecraft/recipes/brown_bed_from_black_bed.json
++ minecraft/recipes/brown_bed_from_blue_bed.json
++ minecraft/recipes/brown_bed_from_cyan_bed.json
++ minecraft/recipes/brown_bed_from_gray_bed.json
++ minecraft/recipes/brown_bed_from_green_bed.json
++ minecraft/recipes/brown_bed_from_light_blue_bed.json
++ minecraft/recipes/brown_bed_from_light_gray_bed.json
++ minecraft/recipes/brown_bed_from_lime_bed.json
++ minecraft/recipes/brown_bed_from_magenta_bed.json
++ minecraft/recipes/brown_bed_from_orange_bed.json
++ minecraft/recipes/brown_bed_from_pink_bed.json
++ minecraft/recipes/brown_bed_from_purple_bed.json
++ minecraft/recipes/brown_bed_from_red_bed.json
++ minecraft/recipes/brown_bed_from_yellow_bed.json
++ minecraft/recipes/brown_carpet_from_black_carpet.json
++ minecraft/recipes/brown_carpet_from_blue_carpet.json
++ minecraft/recipes/brown_carpet_from_cyan_carpet.json
++ minecraft/recipes/brown_carpet_from_gray_carpet.json
++ minecraft/recipes/brown_carpet_from_green_carpet.json
++ minecraft/recipes/brown_carpet_from_light_blue_carpet.json
++ minecraft/recipes/brown_carpet_from_light_gray_carpet.json
++ minecraft/recipes/brown_carpet_from_lime_carpet.json
++ minecraft/recipes/brown_carpet_from_magenta_carpet.json
++ minecraft/recipes/brown_carpet_from_orange_carpet.json
++ minecraft/recipes/brown_carpet_from_pink_carpet.json
++ minecraft/recipes/brown_carpet_from_purple_carpet.json
++ minecraft/recipes/brown_carpet_from_red_carpet.json
++ minecraft/recipes/brown_carpet_from_yellow_carpet.json
++ minecraft/recipes/brown_wool_from_black_wool.json
++ minecraft/recipes/brown_wool_from_blue_wool.json
++ minecraft/recipes/brown_wool_from_cyan_wool.json
++ minecraft/recipes/brown_wool_from_gray_wool.json
++ minecraft/recipes/brown_wool_from_green_wool.json
++ minecraft/recipes/brown_wool_from_light_blue_wool.json
++ minecraft/recipes/brown_wool_from_light_gray_wool.json
++ minecraft/recipes/brown_wool_from_lime_wool.json
++ minecraft/recipes/brown_wool_from_magenta_wool.json
++ minecraft/recipes/brown_wool_from_orange_wool.json
++ minecraft/recipes/brown_wool_from_pink_wool.json
++ minecraft/recipes/brown_wool_from_purple_wool.json
++ minecraft/recipes/brown_wool_from_red_wool.json
++ minecraft/recipes/brown_wool_from_white_wool.json
++ minecraft/recipes/brown_wool_from_yellow_wool.json
+- minecraft/recipes/brown_wool.json
++ minecraft/recipes/cyan_bed_from_black_bed.json
++ minecraft/recipes/cyan_bed_from_blue_bed.json
++ minecraft/recipes/cyan_bed_from_brown_bed.json
++ minecraft/recipes/cyan_bed_from_gray_bed.json
++ minecraft/recipes/cyan_bed_from_green_bed.json
++ minecraft/recipes/cyan_bed_from_light_blue_bed.json
++ minecraft/recipes/cyan_bed_from_light_gray_bed.json
++ minecraft/recipes/cyan_bed_from_lime_bed.json
++ minecraft/recipes/cyan_bed_from_magenta_bed.json
++ minecraft/recipes/cyan_bed_from_orange_bed.json
++ minecraft/recipes/cyan_bed_from_pink_bed.json
++ minecraft/recipes/cyan_bed_from_purple_bed.json
++ minecraft/recipes/cyan_bed_from_red_bed.json
++ minecraft/recipes/cyan_bed_from_yellow_bed.json
++ minecraft/recipes/cyan_carpet_from_black_carpet.json
++ minecraft/recipes/cyan_carpet_from_blue_carpet.json
++ minecraft/recipes/cyan_carpet_from_brown_carpet.json
++ minecraft/recipes/cyan_carpet_from_gray_carpet.json
++ minecraft/recipes/cyan_carpet_from_green_carpet.json
++ minecraft/recipes/cyan_carpet_from_light_blue_carpet.json
++ minecraft/recipes/cyan_carpet_from_light_gray_carpet.json
++ minecraft/recipes/cyan_carpet_from_lime_carpet.json
++ minecraft/recipes/cyan_carpet_from_magenta_carpet.json
++ minecraft/recipes/cyan_carpet_from_orange_carpet.json
++ minecraft/recipes/cyan_carpet_from_pink_carpet.json
++ minecraft/recipes/cyan_carpet_from_purple_carpet.json
++ minecraft/recipes/cyan_carpet_from_red_carpet.json
++ minecraft/recipes/cyan_carpet_from_yellow_carpet.json
++ minecraft/recipes/cyan_wool_from_black_wool.json
++ minecraft/recipes/cyan_wool_from_blue_wool.json
++ minecraft/recipes/cyan_wool_from_brown_wool.json
++ minecraft/recipes/cyan_wool_from_gray_wool.json
++ minecraft/recipes/cyan_wool_from_green_wool.json
++ minecraft/recipes/cyan_wool_from_light_blue_wool.json
++ minecraft/recipes/cyan_wool_from_light_gray_wool.json
++ minecraft/recipes/cyan_wool_from_lime_wool.json
++ minecraft/recipes/cyan_wool_from_magenta_wool.json
++ minecraft/recipes/cyan_wool_from_orange_wool.json
++ minecraft/recipes/cyan_wool_from_pink_wool.json
++ minecraft/recipes/cyan_wool_from_purple_wool.json
++ minecraft/recipes/cyan_wool_from_red_wool.json
++ minecraft/recipes/cyan_wool_from_white_wool.json
++ minecraft/recipes/cyan_wool_from_yellow_wool.json
+- minecraft/recipes/cyan_wool.json
++ minecraft/recipes/gray_bed_from_black_bed.json
++ minecraft/recipes/gray_bed_from_blue_bed.json
++ minecraft/recipes/gray_bed_from_brown_bed.json
++ minecraft/recipes/gray_bed_from_cyan_bed.json
++ minecraft/recipes/gray_bed_from_green_bed.json
++ minecraft/recipes/gray_bed_from_light_blue_bed.json
++ minecraft/recipes/gray_bed_from_light_gray_bed.json
++ minecraft/recipes/gray_bed_from_lime_bed.json
++ minecraft/recipes/gray_bed_from_magenta_bed.json
++ minecraft/recipes/gray_bed_from_orange_bed.json
++ minecraft/recipes/gray_bed_from_pink_bed.json
++ minecraft/recipes/gray_bed_from_purple_bed.json
++ minecraft/recipes/gray_bed_from_red_bed.json
++ minecraft/recipes/gray_bed_from_yellow_bed.json
++ minecraft/recipes/gray_carpet_from_black_carpet.json
++ minecraft/recipes/gray_carpet_from_blue_carpet.json
++ minecraft/recipes/gray_carpet_from_brown_carpet.json
++ minecraft/recipes/gray_carpet_from_cyan_carpet.json
++ minecraft/recipes/gray_carpet_from_green_carpet.json
++ minecraft/recipes/gray_carpet_from_light_blue_carpet.json
++ minecraft/recipes/gray_carpet_from_light_gray_carpet.json
++ minecraft/recipes/gray_carpet_from_lime_carpet.json
++ minecraft/recipes/gray_carpet_from_magenta_carpet.json
++ minecraft/recipes/gray_carpet_from_orange_carpet.json
++ minecraft/recipes/gray_carpet_from_pink_carpet.json
++ minecraft/recipes/gray_carpet_from_purple_carpet.json
++ minecraft/recipes/gray_carpet_from_red_carpet.json
++ minecraft/recipes/gray_carpet_from_yellow_carpet.json
++ minecraft/recipes/gray_wool_from_black_wool.json
++ minecraft/recipes/gray_wool_from_blue_wool.json
++ minecraft/recipes/gray_wool_from_brown_wool.json
++ minecraft/recipes/gray_wool_from_cyan_wool.json
++ minecraft/recipes/gray_wool_from_green_wool.json
++ minecraft/recipes/gray_wool_from_light_blue_wool.json
++ minecraft/recipes/gray_wool_from_light_gray_wool.json
++ minecraft/recipes/gray_wool_from_lime_wool.json
++ minecraft/recipes/gray_wool_from_magenta_wool.json
++ minecraft/recipes/gray_wool_from_orange_wool.json
++ minecraft/recipes/gray_wool_from_pink_wool.json
++ minecraft/recipes/gray_wool_from_purple_wool.json
++ minecraft/recipes/gray_wool_from_red_wool.json
++ minecraft/recipes/gray_wool_from_white_wool.json
++ minecraft/recipes/gray_wool_from_yellow_wool.json
+- minecraft/recipes/gray_wool.json
++ minecraft/recipes/green_bed_from_black_bed.json
++ minecraft/recipes/green_bed_from_blue_bed.json
++ minecraft/recipes/green_bed_from_brown_bed.json
++ minecraft/recipes/green_bed_from_cyan_bed.json
++ minecraft/recipes/green_bed_from_gray_bed.json
++ minecraft/recipes/green_bed_from_light_blue_bed.json
++ minecraft/recipes/green_bed_from_light_gray_bed.json
++ minecraft/recipes/green_bed_from_lime_bed.json
++ minecraft/recipes/green_bed_from_magenta_bed.json
++ minecraft/recipes/green_bed_from_orange_bed.json
++ minecraft/recipes/green_bed_from_pink_bed.json
++ minecraft/recipes/green_bed_from_purple_bed.json
++ minecraft/recipes/green_bed_from_red_bed.json
++ minecraft/recipes/green_bed_from_yellow_bed.json
++ minecraft/recipes/green_carpet_from_black_carpet.json
++ minecraft/recipes/green_carpet_from_blue_carpet.json
++ minecraft/recipes/green_carpet_from_brown_carpet.json
++ minecraft/recipes/green_carpet_from_cyan_carpet.json
++ minecraft/recipes/green_carpet_from_gray_carpet.json
++ minecraft/recipes/green_carpet_from_light_blue_carpet.json
++ minecraft/recipes/green_carpet_from_light_gray_carpet.json
++ minecraft/recipes/green_carpet_from_lime_carpet.json
++ minecraft/recipes/green_carpet_from_magenta_carpet.json
++ minecraft/recipes/green_carpet_from_orange_carpet.json
++ minecraft/recipes/green_carpet_from_pink_carpet.json
++ minecraft/recipes/green_carpet_from_purple_carpet.json
++ minecraft/recipes/green_carpet_from_red_carpet.json
++ minecraft/recipes/green_carpet_from_yellow_carpet.json
++ minecraft/recipes/green_wool_from_black_wool.json
++ minecraft/recipes/green_wool_from_blue_wool.json
++ minecraft/recipes/green_wool_from_brown_wool.json
++ minecraft/recipes/green_wool_from_cyan_wool.json
++ minecraft/recipes/green_wool_from_gray_wool.json
++ minecraft/recipes/green_wool_from_light_blue_wool.json
++ minecraft/recipes/green_wool_from_light_gray_wool.json
++ minecraft/recipes/green_wool_from_lime_wool.json
++ minecraft/recipes/green_wool_from_magenta_wool.json
++ minecraft/recipes/green_wool_from_orange_wool.json
++ minecraft/recipes/green_wool_from_pink_wool.json
++ minecraft/recipes/green_wool_from_purple_wool.json
++ minecraft/recipes/green_wool_from_red_wool.json
++ minecraft/recipes/green_wool_from_white_wool.json
++ minecraft/recipes/green_wool_from_yellow_wool.json
+- minecraft/recipes/green_wool.json
++ minecraft/recipes/light_blue_bed_from_black_bed.json
++ minecraft/recipes/light_blue_bed_from_blue_bed.json
++ minecraft/recipes/light_blue_bed_from_brown_bed.json
++ minecraft/recipes/light_blue_bed_from_cyan_bed.json
++ minecraft/recipes/light_blue_bed_from_gray_bed.json
++ minecraft/recipes/light_blue_bed_from_green_bed.json
++ minecraft/recipes/light_blue_bed_from_light_gray_bed.json
++ minecraft/recipes/light_blue_bed_from_lime_bed.json
++ minecraft/recipes/light_blue_bed_from_magenta_bed.json
++ minecraft/recipes/light_blue_bed_from_orange_bed.json
++ minecraft/recipes/light_blue_bed_from_pink_bed.json
++ minecraft/recipes/light_blue_bed_from_purple_bed.json
++ minecraft/recipes/light_blue_bed_from_red_bed.json
++ minecraft/recipes/light_blue_bed_from_yellow_bed.json
++ minecraft/recipes/light_blue_carpet_from_black_carpet.json
++ minecraft/recipes/light_blue_carpet_from_blue_carpet.json
++ minecraft/recipes/light_blue_carpet_from_brown_carpet.json
++ minecraft/recipes/light_blue_carpet_from_cyan_carpet.json
++ minecraft/recipes/light_blue_carpet_from_gray_carpet.json
++ minecraft/recipes/light_blue_carpet_from_green_carpet.json
++ minecraft/recipes/light_blue_carpet_from_light_gray_carpet.json
++ minecraft/recipes/light_blue_carpet_from_lime_carpet.json
++ minecraft/recipes/light_blue_carpet_from_magenta_carpet.json
++ minecraft/recipes/light_blue_carpet_from_orange_carpet.json
++ minecraft/recipes/light_blue_carpet_from_pink_carpet.json
++ minecraft/recipes/light_blue_carpet_from_purple_carpet.json
++ minecraft/recipes/light_blue_carpet_from_red_carpet.json
++ minecraft/recipes/light_blue_carpet_from_yellow_carpet.json
++ minecraft/recipes/light_blue_wool_from_black_wool.json
++ minecraft/recipes/light_blue_wool_from_blue_wool.json
++ minecraft/recipes/light_blue_wool_from_brown_wool.json
++ minecraft/recipes/light_blue_wool_from_cyan_wool.json
++ minecraft/recipes/light_blue_wool_from_gray_wool.json
++ minecraft/recipes/light_blue_wool_from_green_wool.json
++ minecraft/recipes/light_blue_wool_from_light_gray_wool.json
++ minecraft/recipes/light_blue_wool_from_lime_wool.json
++ minecraft/recipes/light_blue_wool_from_magenta_wool.json
++ minecraft/recipes/light_blue_wool_from_orange_wool.json
++ minecraft/recipes/light_blue_wool_from_pink_wool.json
++ minecraft/recipes/light_blue_wool_from_purple_wool.json
++ minecraft/recipes/light_blue_wool_from_red_wool.json
++ minecraft/recipes/light_blue_wool_from_white_wool.json
++ minecraft/recipes/light_blue_wool_from_yellow_wool.json
+- minecraft/recipes/light_blue_wool.json
++ minecraft/recipes/light_gray_bed_from_black_bed.json
++ minecraft/recipes/light_gray_bed_from_blue_bed.json
++ minecraft/recipes/light_gray_bed_from_brown_bed.json
++ minecraft/recipes/light_gray_bed_from_cyan_bed.json
++ minecraft/recipes/light_gray_bed_from_gray_bed.json
++ minecraft/recipes/light_gray_bed_from_green_bed.json
++ minecraft/recipes/light_gray_bed_from_light_blue_bed.json
++ minecraft/recipes/light_gray_bed_from_lime_bed.json
++ minecraft/recipes/light_gray_bed_from_magenta_bed.json
++ minecraft/recipes/light_gray_bed_from_orange_bed.json
++ minecraft/recipes/light_gray_bed_from_pink_bed.json
++ minecraft/recipes/light_gray_bed_from_purple_bed.json
++ minecraft/recipes/light_gray_bed_from_red_bed.json
++ minecraft/recipes/light_gray_bed_from_yellow_bed.json
++ minecraft/recipes/light_gray_carpet_from_black_carpet.json
++ minecraft/recipes/light_gray_carpet_from_blue_carpet.json
++ minecraft/recipes/light_gray_carpet_from_brown_carpet.json
++ minecraft/recipes/light_gray_carpet_from_cyan_carpet.json
++ minecraft/recipes/light_gray_carpet_from_gray_carpet.json
++ minecraft/recipes/light_gray_carpet_from_green_carpet.json
++ minecraft/recipes/light_gray_carpet_from_light_blue_carpet.json
++ minecraft/recipes/light_gray_carpet_from_lime_carpet.json
++ minecraft/recipes/light_gray_carpet_from_magenta_carpet.json
++ minecraft/recipes/light_gray_carpet_from_orange_carpet.json
++ minecraft/recipes/light_gray_carpet_from_pink_carpet.json
++ minecraft/recipes/light_gray_carpet_from_purple_carpet.json
++ minecraft/recipes/light_gray_carpet_from_red_carpet.json
++ minecraft/recipes/light_gray_carpet_from_yellow_carpet.json
++ minecraft/recipes/light_gray_wool_from_black_wool.json
++ minecraft/recipes/light_gray_wool_from_blue_wool.json
++ minecraft/recipes/light_gray_wool_from_brown_wool.json
++ minecraft/recipes/light_gray_wool_from_cyan_wool.json
++ minecraft/recipes/light_gray_wool_from_gray_wool.json
++ minecraft/recipes/light_gray_wool_from_green_wool.json
++ minecraft/recipes/light_gray_wool_from_light_blue_wool.json
++ minecraft/recipes/light_gray_wool_from_lime_wool.json
++ minecraft/recipes/light_gray_wool_from_magenta_wool.json
++ minecraft/recipes/light_gray_wool_from_orange_wool.json
++ minecraft/recipes/light_gray_wool_from_pink_wool.json
++ minecraft/recipes/light_gray_wool_from_purple_wool.json
++ minecraft/recipes/light_gray_wool_from_red_wool.json
++ minecraft/recipes/light_gray_wool_from_white_wool.json
++ minecraft/recipes/light_gray_wool_from_yellow_wool.json
+- minecraft/recipes/light_gray_wool.json
++ minecraft/recipes/lime_bed_from_black_bed.json
++ minecraft/recipes/lime_bed_from_blue_bed.json
++ minecraft/recipes/lime_bed_from_brown_bed.json
++ minecraft/recipes/lime_bed_from_cyan_bed.json
++ minecraft/recipes/lime_bed_from_gray_bed.json
++ minecraft/recipes/lime_bed_from_green_bed.json
++ minecraft/recipes/lime_bed_from_light_blue_bed.json
++ minecraft/recipes/lime_bed_from_light_gray_bed.json
++ minecraft/recipes/lime_bed_from_magenta_bed.json
++ minecraft/recipes/lime_bed_from_orange_bed.json
++ minecraft/recipes/lime_bed_from_pink_bed.json
++ minecraft/recipes/lime_bed_from_purple_bed.json
++ minecraft/recipes/lime_bed_from_red_bed.json
++ minecraft/recipes/lime_bed_from_yellow_bed.json
++ minecraft/recipes/lime_carpet_from_black_carpet.json
++ minecraft/recipes/lime_carpet_from_blue_carpet.json
++ minecraft/recipes/lime_carpet_from_brown_carpet.json
++ minecraft/recipes/lime_carpet_from_cyan_carpet.json
++ minecraft/recipes/lime_carpet_from_gray_carpet.json
++ minecraft/recipes/lime_carpet_from_green_carpet.json
++ minecraft/recipes/lime_carpet_from_light_blue_carpet.json
++ minecraft/recipes/lime_carpet_from_light_gray_carpet.json
++ minecraft/recipes/lime_carpet_from_magenta_carpet.json
++ minecraft/recipes/lime_carpet_from_orange_carpet.json
++ minecraft/recipes/lime_carpet_from_pink_carpet.json
++ minecraft/recipes/lime_carpet_from_purple_carpet.json
++ minecraft/recipes/lime_carpet_from_red_carpet.json
++ minecraft/recipes/lime_carpet_from_yellow_carpet.json
++ minecraft/recipes/lime_wool_from_black_wool.json
++ minecraft/recipes/lime_wool_from_blue_wool.json
++ minecraft/recipes/lime_wool_from_brown_wool.json
++ minecraft/recipes/lime_wool_from_cyan_wool.json
++ minecraft/recipes/lime_wool_from_gray_wool.json
++ minecraft/recipes/lime_wool_from_green_wool.json
++ minecraft/recipes/lime_wool_from_light_blue_wool.json
++ minecraft/recipes/lime_wool_from_light_gray_wool.json
++ minecraft/recipes/lime_wool_from_magenta_wool.json
++ minecraft/recipes/lime_wool_from_orange_wool.json
++ minecraft/recipes/lime_wool_from_pink_wool.json
++ minecraft/recipes/lime_wool_from_purple_wool.json
++ minecraft/recipes/lime_wool_from_red_wool.json
++ minecraft/recipes/lime_wool_from_white_wool.json
++ minecraft/recipes/lime_wool_from_yellow_wool.json
+- minecraft/recipes/lime_wool.json
++ minecraft/recipes/magenta_bed_from_black_bed.json
++ minecraft/recipes/magenta_bed_from_blue_bed.json
++ minecraft/recipes/magenta_bed_from_brown_bed.json
++ minecraft/recipes/magenta_bed_from_cyan_bed.json
++ minecraft/recipes/magenta_bed_from_gray_bed.json
++ minecraft/recipes/magenta_bed_from_green_bed.json
++ minecraft/recipes/magenta_bed_from_light_blue_bed.json
++ minecraft/recipes/magenta_bed_from_light_gray_bed.json
++ minecraft/recipes/magenta_bed_from_lime_bed.json
++ minecraft/recipes/magenta_bed_from_orange_bed.json
++ minecraft/recipes/magenta_bed_from_pink_bed.json
++ minecraft/recipes/magenta_bed_from_purple_bed.json
++ minecraft/recipes/magenta_bed_from_red_bed.json
++ minecraft/recipes/magenta_bed_from_yellow_bed.json
++ minecraft/recipes/magenta_carpet_from_black_carpet.json
++ minecraft/recipes/magenta_carpet_from_blue_carpet.json
++ minecraft/recipes/magenta_carpet_from_brown_carpet.json
++ minecraft/recipes/magenta_carpet_from_cyan_carpet.json
++ minecraft/recipes/magenta_carpet_from_gray_carpet.json
++ minecraft/recipes/magenta_carpet_from_green_carpet.json
++ minecraft/recipes/magenta_carpet_from_light_blue_carpet.json
++ minecraft/recipes/magenta_carpet_from_light_gray_carpet.json
++ minecraft/recipes/magenta_carpet_from_lime_carpet.json
++ minecraft/recipes/magenta_carpet_from_orange_carpet.json
++ minecraft/recipes/magenta_carpet_from_pink_carpet.json
++ minecraft/recipes/magenta_carpet_from_purple_carpet.json
++ minecraft/recipes/magenta_carpet_from_red_carpet.json
++ minecraft/recipes/magenta_carpet_from_yellow_carpet.json
++ minecraft/recipes/magenta_wool_from_black_wool.json
++ minecraft/recipes/magenta_wool_from_blue_wool.json
++ minecraft/recipes/magenta_wool_from_brown_wool.json
++ minecraft/recipes/magenta_wool_from_cyan_wool.json
++ minecraft/recipes/magenta_wool_from_gray_wool.json
++ minecraft/recipes/magenta_wool_from_green_wool.json
++ minecraft/recipes/magenta_wool_from_light_blue_wool.json
++ minecraft/recipes/magenta_wool_from_light_gray_wool.json
++ minecraft/recipes/magenta_wool_from_lime_wool.json
++ minecraft/recipes/magenta_wool_from_orange_wool.json
++ minecraft/recipes/magenta_wool_from_pink_wool.json
++ minecraft/recipes/magenta_wool_from_purple_wool.json
++ minecraft/recipes/magenta_wool_from_red_wool.json
++ minecraft/recipes/magenta_wool_from_white_wool.json
++ minecraft/recipes/magenta_wool_from_yellow_wool.json
+- minecraft/recipes/magenta_wool.json
++ minecraft/recipes/orange_bed_from_black_bed.json
++ minecraft/recipes/orange_bed_from_blue_bed.json
++ minecraft/recipes/orange_bed_from_brown_bed.json
++ minecraft/recipes/orange_bed_from_cyan_bed.json
++ minecraft/recipes/orange_bed_from_gray_bed.json
++ minecraft/recipes/orange_bed_from_green_bed.json
++ minecraft/recipes/orange_bed_from_light_blue_bed.json
++ minecraft/recipes/orange_bed_from_light_gray_bed.json
++ minecraft/recipes/orange_bed_from_lime_bed.json
++ minecraft/recipes/orange_bed_from_magenta_bed.json
++ minecraft/recipes/orange_bed_from_pink_bed.json
++ minecraft/recipes/orange_bed_from_purple_bed.json
++ minecraft/recipes/orange_bed_from_red_bed.json
++ minecraft/recipes/orange_bed_from_yellow_bed.json
++ minecraft/recipes/orange_carpet_from_black_carpet.json
++ minecraft/recipes/orange_carpet_from_blue_carpet.json
++ minecraft/recipes/orange_carpet_from_brown_carpet.json
++ minecraft/recipes/orange_carpet_from_cyan_carpet.json
++ minecraft/recipes/orange_carpet_from_gray_carpet.json
++ minecraft/recipes/orange_carpet_from_green_carpet.json
++ minecraft/recipes/orange_carpet_from_light_blue_carpet.json
++ minecraft/recipes/orange_carpet_from_light_gray_carpet.json
++ minecraft/recipes/orange_carpet_from_lime_carpet.json
++ minecraft/recipes/orange_carpet_from_magenta_carpet.json
++ minecraft/recipes/orange_carpet_from_pink_carpet.json
++ minecraft/recipes/orange_carpet_from_purple_carpet.json
++ minecraft/recipes/orange_carpet_from_red_carpet.json
++ minecraft/recipes/orange_carpet_from_yellow_carpet.json
++ minecraft/recipes/orange_wool_from_black_wool.json
++ minecraft/recipes/orange_wool_from_blue_wool.json
++ minecraft/recipes/orange_wool_from_brown_wool.json
++ minecraft/recipes/orange_wool_from_cyan_wool.json
++ minecraft/recipes/orange_wool_from_gray_wool.json
++ minecraft/recipes/orange_wool_from_green_wool.json
++ minecraft/recipes/orange_wool_from_light_blue_wool.json
++ minecraft/recipes/orange_wool_from_light_gray_wool.json
++ minecraft/recipes/orange_wool_from_lime_wool.json
++ minecraft/recipes/orange_wool_from_magenta_wool.json
++ minecraft/recipes/orange_wool_from_pink_wool.json
++ minecraft/recipes/orange_wool_from_purple_wool.json
++ minecraft/recipes/orange_wool_from_red_wool.json
++ minecraft/recipes/orange_wool_from_white_wool.json
++ minecraft/recipes/orange_wool_from_yellow_wool.json
+- minecraft/recipes/orange_wool.json
++ minecraft/recipes/pink_bed_from_black_bed.json
++ minecraft/recipes/pink_bed_from_blue_bed.json
++ minecraft/recipes/pink_bed_from_brown_bed.json
++ minecraft/recipes/pink_bed_from_cyan_bed.json
++ minecraft/recipes/pink_bed_from_gray_bed.json
++ minecraft/recipes/pink_bed_from_green_bed.json
++ minecraft/recipes/pink_bed_from_light_blue_bed.json
++ minecraft/recipes/pink_bed_from_light_gray_bed.json
++ minecraft/recipes/pink_bed_from_lime_bed.json
++ minecraft/recipes/pink_bed_from_magenta_bed.json
++ minecraft/recipes/pink_bed_from_orange_bed.json
++ minecraft/recipes/pink_bed_from_purple_bed.json
++ minecraft/recipes/pink_bed_from_red_bed.json
++ minecraft/recipes/pink_bed_from_yellow_bed.json
++ minecraft/recipes/pink_carpet_from_black_carpet.json
++ minecraft/recipes/pink_carpet_from_blue_carpet.json
++ minecraft/recipes/pink_carpet_from_brown_carpet.json
++ minecraft/recipes/pink_carpet_from_cyan_carpet.json
++ minecraft/recipes/pink_carpet_from_gray_carpet.json
++ minecraft/recipes/pink_carpet_from_green_carpet.json
++ minecraft/recipes/pink_carpet_from_light_blue_carpet.json
++ minecraft/recipes/pink_carpet_from_light_gray_carpet.json
++ minecraft/recipes/pink_carpet_from_lime_carpet.json
++ minecraft/recipes/pink_carpet_from_magenta_carpet.json
++ minecraft/recipes/pink_carpet_from_orange_carpet.json
++ minecraft/recipes/pink_carpet_from_purple_carpet.json
++ minecraft/recipes/pink_carpet_from_red_carpet.json
++ minecraft/recipes/pink_carpet_from_yellow_carpet.json
++ minecraft/recipes/pink_wool_from_black_wool.json
++ minecraft/recipes/pink_wool_from_blue_wool.json
++ minecraft/recipes/pink_wool_from_brown_wool.json
++ minecraft/recipes/pink_wool_from_cyan_wool.json
++ minecraft/recipes/pink_wool_from_gray_wool.json
++ minecraft/recipes/pink_wool_from_green_wool.json
++ minecraft/recipes/pink_wool_from_light_blue_wool.json
++ minecraft/recipes/pink_wool_from_light_gray_wool.json
++ minecraft/recipes/pink_wool_from_lime_wool.json
++ minecraft/recipes/pink_wool_from_magenta_wool.json
++ minecraft/recipes/pink_wool_from_orange_wool.json
++ minecraft/recipes/pink_wool_from_purple_wool.json
++ minecraft/recipes/pink_wool_from_red_wool.json
++ minecraft/recipes/pink_wool_from_white_wool.json
++ minecraft/recipes/pink_wool_from_yellow_wool.json
+- minecraft/recipes/pink_wool.json
++ minecraft/recipes/purple_bed_from_black_bed.json
++ minecraft/recipes/purple_bed_from_blue_bed.json
++ minecraft/recipes/purple_bed_from_brown_bed.json
++ minecraft/recipes/purple_bed_from_cyan_bed.json
++ minecraft/recipes/purple_bed_from_gray_bed.json
++ minecraft/recipes/purple_bed_from_green_bed.json
++ minecraft/recipes/purple_bed_from_light_blue_bed.json
++ minecraft/recipes/purple_bed_from_light_gray_bed.json
++ minecraft/recipes/purple_bed_from_lime_bed.json
++ minecraft/recipes/purple_bed_from_magenta_bed.json
++ minecraft/recipes/purple_bed_from_orange_bed.json
++ minecraft/recipes/purple_bed_from_pink_bed.json
++ minecraft/recipes/purple_bed_from_red_bed.json
++ minecraft/recipes/purple_bed_from_yellow_bed.json
++ minecraft/recipes/purple_carpet_from_black_carpet.json
++ minecraft/recipes/purple_carpet_from_blue_carpet.json
++ minecraft/recipes/purple_carpet_from_brown_carpet.json
++ minecraft/recipes/purple_carpet_from_cyan_carpet.json
++ minecraft/recipes/purple_carpet_from_gray_carpet.json
++ minecraft/recipes/purple_carpet_from_green_carpet.json
++ minecraft/recipes/purple_carpet_from_light_blue_carpet.json
++ minecraft/recipes/purple_carpet_from_light_gray_carpet.json
++ minecraft/recipes/purple_carpet_from_lime_carpet.json
++ minecraft/recipes/purple_carpet_from_magenta_carpet.json
++ minecraft/recipes/purple_carpet_from_orange_carpet.json
++ minecraft/recipes/purple_carpet_from_pink_carpet.json
++ minecraft/recipes/purple_carpet_from_red_carpet.json
++ minecraft/recipes/purple_carpet_from_yellow_carpet.json
++ minecraft/recipes/purple_wool_from_black_wool.json
++ minecraft/recipes/purple_wool_from_blue_wool.json
++ minecraft/recipes/purple_wool_from_brown_wool.json
++ minecraft/recipes/purple_wool_from_cyan_wool.json
++ minecraft/recipes/purple_wool_from_gray_wool.json
++ minecraft/recipes/purple_wool_from_green_wool.json
++ minecraft/recipes/purple_wool_from_light_blue_wool.json
++ minecraft/recipes/purple_wool_from_light_gray_wool.json
++ minecraft/recipes/purple_wool_from_lime_wool.json
++ minecraft/recipes/purple_wool_from_magenta_wool.json
++ minecraft/recipes/purple_wool_from_orange_wool.json
++ minecraft/recipes/purple_wool_from_pink_wool.json
++ minecraft/recipes/purple_wool_from_red_wool.json
++ minecraft/recipes/purple_wool_from_white_wool.json
++ minecraft/recipes/purple_wool_from_yellow_wool.json
+- minecraft/recipes/purple_wool.json
++ minecraft/recipes/red_bed_from_black_bed.json
++ minecraft/recipes/red_bed_from_blue_bed.json
++ minecraft/recipes/red_bed_from_brown_bed.json
++ minecraft/recipes/red_bed_from_cyan_bed.json
++ minecraft/recipes/red_bed_from_gray_bed.json
++ minecraft/recipes/red_bed_from_green_bed.json
++ minecraft/recipes/red_bed_from_light_blue_bed.json
++ minecraft/recipes/red_bed_from_light_gray_bed.json
++ minecraft/recipes/red_bed_from_lime_bed.json
++ minecraft/recipes/red_bed_from_magenta_bed.json
++ minecraft/recipes/red_bed_from_orange_bed.json
++ minecraft/recipes/red_bed_from_pink_bed.json
++ minecraft/recipes/red_bed_from_purple_bed.json
++ minecraft/recipes/red_bed_from_yellow_bed.json
++ minecraft/recipes/red_carpet_from_black_carpet.json
++ minecraft/recipes/red_carpet_from_blue_carpet.json
++ minecraft/recipes/red_carpet_from_brown_carpet.json
++ minecraft/recipes/red_carpet_from_cyan_carpet.json
++ minecraft/recipes/red_carpet_from_gray_carpet.json
++ minecraft/recipes/red_carpet_from_green_carpet.json
++ minecraft/recipes/red_carpet_from_light_blue_carpet.json
++ minecraft/recipes/red_carpet_from_light_gray_carpet.json
++ minecraft/recipes/red_carpet_from_lime_carpet.json
++ minecraft/recipes/red_carpet_from_magenta_carpet.json
++ minecraft/recipes/red_carpet_from_orange_carpet.json
++ minecraft/recipes/red_carpet_from_pink_carpet.json
++ minecraft/recipes/red_carpet_from_purple_carpet.json
++ minecraft/recipes/red_carpet_from_yellow_carpet.json
++ minecraft/recipes/red_wool_from_black_wool.json
++ minecraft/recipes/red_wool_from_blue_wool.json
++ minecraft/recipes/red_wool_from_brown_wool.json
++ minecraft/recipes/red_wool_from_cyan_wool.json
++ minecraft/recipes/red_wool_from_gray_wool.json
++ minecraft/recipes/red_wool_from_green_wool.json
++ minecraft/recipes/red_wool_from_light_blue_wool.json
++ minecraft/recipes/red_wool_from_light_gray_wool.json
++ minecraft/recipes/red_wool_from_lime_wool.json
++ minecraft/recipes/red_wool_from_magenta_wool.json
++ minecraft/recipes/red_wool_from_orange_wool.json
++ minecraft/recipes/red_wool_from_pink_wool.json
++ minecraft/recipes/red_wool_from_purple_wool.json
++ minecraft/recipes/red_wool_from_white_wool.json
++ minecraft/recipes/red_wool_from_yellow_wool.json
+- minecraft/recipes/red_wool.json
++ minecraft/recipes/white_bed_from_black_bed.json
++ minecraft/recipes/white_bed_from_blue_bed.json
++ minecraft/recipes/white_bed_from_brown_bed.json
++ minecraft/recipes/white_bed_from_cyan_bed.json
++ minecraft/recipes/white_bed_from_gray_bed.json
++ minecraft/recipes/white_bed_from_green_bed.json
++ minecraft/recipes/white_bed_from_light_blue_bed.json
++ minecraft/recipes/white_bed_from_light_gray_bed.json
++ minecraft/recipes/white_bed_from_lime_bed.json
++ minecraft/recipes/white_bed_from_magenta_bed.json
++ minecraft/recipes/white_bed_from_orange_bed.json
++ minecraft/recipes/white_bed_from_pink_bed.json
++ minecraft/recipes/white_bed_from_purple_bed.json
++ minecraft/recipes/white_bed_from_red_bed.json
++ minecraft/recipes/white_bed_from_yellow_bed.json
++ minecraft/recipes/white_carpet_from_black_carpet.json
++ minecraft/recipes/white_carpet_from_blue_carpet.json
++ minecraft/recipes/white_carpet_from_brown_carpet.json
++ minecraft/recipes/white_carpet_from_cyan_carpet.json
++ minecraft/recipes/white_carpet_from_gray_carpet.json
++ minecraft/recipes/white_carpet_from_green_carpet.json
++ minecraft/recipes/white_carpet_from_light_blue_carpet.json
++ minecraft/recipes/white_carpet_from_light_gray_carpet.json
++ minecraft/recipes/white_carpet_from_lime_carpet.json
++ minecraft/recipes/white_carpet_from_magenta_carpet.json
++ minecraft/recipes/white_carpet_from_orange_carpet.json
++ minecraft/recipes/white_carpet_from_pink_carpet.json
++ minecraft/recipes/white_carpet_from_purple_carpet.json
++ minecraft/recipes/white_carpet_from_red_carpet.json
++ minecraft/recipes/white_carpet_from_yellow_carpet.json
++ minecraft/recipes/white_wool_from_black_wool.json
++ minecraft/recipes/white_wool_from_blue_wool.json
++ minecraft/recipes/white_wool_from_brown_wool.json
++ minecraft/recipes/white_wool_from_cyan_wool.json
++ minecraft/recipes/white_wool_from_gray_wool.json
++ minecraft/recipes/white_wool_from_green_wool.json
++ minecraft/recipes/white_wool_from_light_blue_wool.json
++ minecraft/recipes/white_wool_from_light_gray_wool.json
++ minecraft/recipes/white_wool_from_lime_wool.json
++ minecraft/recipes/white_wool_from_magenta_wool.json
++ minecraft/recipes/white_wool_from_orange_wool.json
++ minecraft/recipes/white_wool_from_pink_wool.json
++ minecraft/recipes/white_wool_from_purple_wool.json
++ minecraft/recipes/white_wool_from_red_wool.json
++ minecraft/recipes/white_wool_from_yellow_wool.json
++ minecraft/recipes/yellow_bed_from_black_bed.json
++ minecraft/recipes/yellow_bed_from_blue_bed.json
++ minecraft/recipes/yellow_bed_from_brown_bed.json
++ minecraft/recipes/yellow_bed_from_cyan_bed.json
++ minecraft/recipes/yellow_bed_from_gray_bed.json
++ minecraft/recipes/yellow_bed_from_green_bed.json
++ minecraft/recipes/yellow_bed_from_light_blue_bed.json
++ minecraft/recipes/yellow_bed_from_light_gray_bed.json
++ minecraft/recipes/yellow_bed_from_lime_bed.json
++ minecraft/recipes/yellow_bed_from_magenta_bed.json
++ minecraft/recipes/yellow_bed_from_orange_bed.json
++ minecraft/recipes/yellow_bed_from_pink_bed.json
++ minecraft/recipes/yellow_bed_from_purple_bed.json
++ minecraft/recipes/yellow_bed_from_red_bed.json
++ minecraft/recipes/yellow_carpet_from_black_carpet.json
++ minecraft/recipes/yellow_carpet_from_blue_carpet.json
++ minecraft/recipes/yellow_carpet_from_brown_carpet.json
++ minecraft/recipes/yellow_carpet_from_cyan_carpet.json
++ minecraft/recipes/yellow_carpet_from_gray_carpet.json
++ minecraft/recipes/yellow_carpet_from_green_carpet.json
++ minecraft/recipes/yellow_carpet_from_light_blue_carpet.json
++ minecraft/recipes/yellow_carpet_from_light_gray_carpet.json
++ minecraft/recipes/yellow_carpet_from_lime_carpet.json
++ minecraft/recipes/yellow_carpet_from_magenta_carpet.json
++ minecraft/recipes/yellow_carpet_from_orange_carpet.json
++ minecraft/recipes/yellow_carpet_from_pink_carpet.json
++ minecraft/recipes/yellow_carpet_from_purple_carpet.json
++ minecraft/recipes/yellow_carpet_from_red_carpet.json
++ minecraft/recipes/yellow_wool_from_black_wool.json
++ minecraft/recipes/yellow_wool_from_blue_wool.json
++ minecraft/recipes/yellow_wool_from_brown_wool.json
++ minecraft/recipes/yellow_wool_from_cyan_wool.json
++ minecraft/recipes/yellow_wool_from_gray_wool.json
++ minecraft/recipes/yellow_wool_from_green_wool.json
++ minecraft/recipes/yellow_wool_from_light_blue_wool.json
++ minecraft/recipes/yellow_wool_from_light_gray_wool.json
++ minecraft/recipes/yellow_wool_from_lime_wool.json
++ minecraft/recipes/yellow_wool_from_magenta_wool.json
++ minecraft/recipes/yellow_wool_from_orange_wool.json
++ minecraft/recipes/yellow_wool_from_pink_wool.json
++ minecraft/recipes/yellow_wool_from_purple_wool.json
++ minecraft/recipes/yellow_wool_from_red_wool.json
++ minecraft/recipes/yellow_wool_from_white_wool.json
+- minecraft/recipes/yellow_wool.json
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/maintains_farmland.json</summary>
+
+```diff
+- minecraft:melon
+- minecraft:pumpkin
+```
+
+</details>
+
+
+<details><summary>damage_type/bypasses_armor.json</summary>
+
+```diff
++ minecraft:generic_kill
++ minecraft:outside_border
+```
+
+</details>
+
+
+<details><summary>damage_type/bypasses_invulnerability.json</summary>
+
+```diff
++ minecraft:generic_kill
+```
+
+</details>
+
+
+<details><summary>damage_type/bypasses_resistance.json</summary>
+
+```diff
++ minecraft:generic_kill
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ death.attack.genericKill
++ death.attack.outsideBorder
++ death.attack.outsideBorder.player
++ disconnect.ignoring_status_request
++ item.minecraft.angler_pottery_shard
++ item.minecraft.archer_pottery_shard
++ item.minecraft.arms_up_pottery_shard
++ item.minecraft.blade_pottery_shard
++ item.minecraft.brewer_pottery_shard
++ item.minecraft.burn_pottery_shard
++ item.minecraft.danger_pottery_shard
++ item.minecraft.explorer_pottery_shard
++ item.minecraft.friend_pottery_shard
++ item.minecraft.heart_pottery_shard
++ item.minecraft.heartbreak_pottery_shard
++ item.minecraft.howl_pottery_shard
++ item.minecraft.miner_pottery_shard
++ item.minecraft.mourner_pottery_shard
++ item.minecraft.plenty_pottery_shard
++ item.minecraft.pottery_shard_archer
++ item.minecraft.pottery_shard_arms_up
++ item.minecraft.pottery_shard_prize
++ item.minecraft.pottery_shard_skull
++ item.minecraft.prize_pottery_shard
++ item.minecraft.sheaf_pottery_shard
++ item.minecraft.shelter_pottery_shard
++ item.minecraft.skull_pottery_shard
++ item.minecraft.snort_pottery_shard
++ mco.backup.entry
++ mco.backup.entry.description
++ mco.backup.entry.enabledPack
++ mco.backup.entry.gameDifficulty
++ mco.backup.entry.gameMode
++ mco.backup.entry.gameServerVersion
++ mco.backup.entry.name
++ mco.backup.entry.seed
++ mco.backup.entry.templateName
++ mco.backup.entry.undefined
++ mco.backup.entry.uploaded
++ mco.backup.entry.worldType
++ mco.backup.info.title
++ mco.backup.unknown
++ mco.configure.world.invited.number
++ mco.configure.world.minigame
++ mco.configure.world.subscription.remaining.days
++ mco.configure.world.subscription.remaining.months
++ mco.configure.world.subscription.remaining.months.days
++ mco.configure.world.uninvite.player
++ mco.download.percent
++ mco.download.resourcePack.fail
++ mco.download.speed
++ mco.errorMessage.generic
++ mco.errorMessage.realmsService
++ mco.errorMessage.realmsService.realmsError
++ mco.info
++ mco.question
++ mco.time.daysAgo
++ mco.time.hoursAgo
++ mco.time.minutesAgo
++ mco.time.now
++ mco.time.secondsAgo
++ mco.upload.entry.cheats
++ mco.upload.entry.id
++ mco.warning
++ mco.worldSlot.minigame
++ subtitles.entity.sniffer.egg_crack
++ subtitles.entity.sniffer.egg_hatch
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/black_bed_from_blue_bed.json
++ recipes/building_blocks/black_bed_from_brown_bed.json
++ recipes/building_blocks/black_bed_from_cyan_bed.json
++ recipes/building_blocks/black_bed_from_gray_bed.json
++ recipes/building_blocks/black_bed_from_green_bed.json
++ recipes/building_blocks/black_bed_from_light_blue_bed.json
++ recipes/building_blocks/black_bed_from_light_gray_bed.json
++ recipes/building_blocks/black_bed_from_lime_bed.json
++ recipes/building_blocks/black_bed_from_magenta_bed.json
++ recipes/building_blocks/black_bed_from_orange_bed.json
++ recipes/building_blocks/black_bed_from_pink_bed.json
++ recipes/building_blocks/black_bed_from_purple_bed.json
++ recipes/building_blocks/black_bed_from_red_bed.json
++ recipes/building_blocks/black_bed_from_white_bed.json
++ recipes/building_blocks/black_bed_from_yellow_bed.json
++ recipes/building_blocks/black_carpet_from_blue_carpet.json
++ recipes/building_blocks/black_carpet_from_brown_carpet.json
++ recipes/building_blocks/black_carpet_from_cyan_carpet.json
++ recipes/building_blocks/black_carpet_from_gray_carpet.json
++ recipes/building_blocks/black_carpet_from_green_carpet.json
++ recipes/building_blocks/black_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/black_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/black_carpet_from_lime_carpet.json
++ recipes/building_blocks/black_carpet_from_magenta_carpet.json
++ recipes/building_blocks/black_carpet_from_orange_carpet.json
++ recipes/building_blocks/black_carpet_from_pink_carpet.json
++ recipes/building_blocks/black_carpet_from_purple_carpet.json
++ recipes/building_blocks/black_carpet_from_red_carpet.json
++ recipes/building_blocks/black_carpet_from_white_carpet.json
++ recipes/building_blocks/black_carpet_from_yellow_carpet.json
++ recipes/building_blocks/black_wool_from_blue_wool.json
++ recipes/building_blocks/black_wool_from_brown_wool.json
++ recipes/building_blocks/black_wool_from_cyan_wool.json
++ recipes/building_blocks/black_wool_from_gray_wool.json
++ recipes/building_blocks/black_wool_from_green_wool.json
++ recipes/building_blocks/black_wool_from_light_blue_wool.json
++ recipes/building_blocks/black_wool_from_light_gray_wool.json
++ recipes/building_blocks/black_wool_from_lime_wool.json
++ recipes/building_blocks/black_wool_from_magenta_wool.json
++ recipes/building_blocks/black_wool_from_orange_wool.json
++ recipes/building_blocks/black_wool_from_pink_wool.json
++ recipes/building_blocks/black_wool_from_purple_wool.json
++ recipes/building_blocks/black_wool_from_red_wool.json
++ recipes/building_blocks/black_wool_from_white_wool.json
++ recipes/building_blocks/black_wool_from_yellow_wool.json
+- recipes/building_blocks/black_wool.json
++ recipes/building_blocks/blue_bed_from_black_bed.json
++ recipes/building_blocks/blue_bed_from_brown_bed.json
++ recipes/building_blocks/blue_bed_from_cyan_bed.json
++ recipes/building_blocks/blue_bed_from_gray_bed.json
++ recipes/building_blocks/blue_bed_from_green_bed.json
++ recipes/building_blocks/blue_bed_from_light_blue_bed.json
++ recipes/building_blocks/blue_bed_from_light_gray_bed.json
++ recipes/building_blocks/blue_bed_from_lime_bed.json
++ recipes/building_blocks/blue_bed_from_magenta_bed.json
++ recipes/building_blocks/blue_bed_from_orange_bed.json
++ recipes/building_blocks/blue_bed_from_pink_bed.json
++ recipes/building_blocks/blue_bed_from_purple_bed.json
++ recipes/building_blocks/blue_bed_from_red_bed.json
++ recipes/building_blocks/blue_bed_from_white_bed.json
++ recipes/building_blocks/blue_bed_from_yellow_bed.json
++ recipes/building_blocks/blue_carpet_from_black_carpet.json
++ recipes/building_blocks/blue_carpet_from_brown_carpet.json
++ recipes/building_blocks/blue_carpet_from_cyan_carpet.json
++ recipes/building_blocks/blue_carpet_from_gray_carpet.json
++ recipes/building_blocks/blue_carpet_from_green_carpet.json
++ recipes/building_blocks/blue_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/blue_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/blue_carpet_from_lime_carpet.json
++ recipes/building_blocks/blue_carpet_from_magenta_carpet.json
++ recipes/building_blocks/blue_carpet_from_orange_carpet.json
++ recipes/building_blocks/blue_carpet_from_pink_carpet.json
++ recipes/building_blocks/blue_carpet_from_purple_carpet.json
++ recipes/building_blocks/blue_carpet_from_red_carpet.json
++ recipes/building_blocks/blue_carpet_from_white_carpet.json
++ recipes/building_blocks/blue_carpet_from_yellow_carpet.json
++ recipes/building_blocks/blue_wool_from_black_wool.json
++ recipes/building_blocks/blue_wool_from_brown_wool.json
++ recipes/building_blocks/blue_wool_from_cyan_wool.json
++ recipes/building_blocks/blue_wool_from_gray_wool.json
++ recipes/building_blocks/blue_wool_from_green_wool.json
++ recipes/building_blocks/blue_wool_from_light_blue_wool.json
++ recipes/building_blocks/blue_wool_from_light_gray_wool.json
++ recipes/building_blocks/blue_wool_from_lime_wool.json
++ recipes/building_blocks/blue_wool_from_magenta_wool.json
++ recipes/building_blocks/blue_wool_from_orange_wool.json
++ recipes/building_blocks/blue_wool_from_pink_wool.json
++ recipes/building_blocks/blue_wool_from_purple_wool.json
++ recipes/building_blocks/blue_wool_from_red_wool.json
++ recipes/building_blocks/blue_wool_from_white_wool.json
++ recipes/building_blocks/blue_wool_from_yellow_wool.json
+- recipes/building_blocks/blue_wool.json
++ recipes/building_blocks/brown_bed_from_black_bed.json
++ recipes/building_blocks/brown_bed_from_blue_bed.json
++ recipes/building_blocks/brown_bed_from_cyan_bed.json
++ recipes/building_blocks/brown_bed_from_gray_bed.json
++ recipes/building_blocks/brown_bed_from_green_bed.json
++ recipes/building_blocks/brown_bed_from_light_blue_bed.json
++ recipes/building_blocks/brown_bed_from_light_gray_bed.json
++ recipes/building_blocks/brown_bed_from_lime_bed.json
++ recipes/building_blocks/brown_bed_from_magenta_bed.json
++ recipes/building_blocks/brown_bed_from_orange_bed.json
++ recipes/building_blocks/brown_bed_from_pink_bed.json
++ recipes/building_blocks/brown_bed_from_purple_bed.json
++ recipes/building_blocks/brown_bed_from_red_bed.json
++ recipes/building_blocks/brown_bed_from_white_bed.json
++ recipes/building_blocks/brown_bed_from_yellow_bed.json
++ recipes/building_blocks/brown_carpet_from_black_carpet.json
++ recipes/building_blocks/brown_carpet_from_blue_carpet.json
++ recipes/building_blocks/brown_carpet_from_cyan_carpet.json
++ recipes/building_blocks/brown_carpet_from_gray_carpet.json
++ recipes/building_blocks/brown_carpet_from_green_carpet.json
++ recipes/building_blocks/brown_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/brown_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/brown_carpet_from_lime_carpet.json
++ recipes/building_blocks/brown_carpet_from_magenta_carpet.json
++ recipes/building_blocks/brown_carpet_from_orange_carpet.json
++ recipes/building_blocks/brown_carpet_from_pink_carpet.json
++ recipes/building_blocks/brown_carpet_from_purple_carpet.json
++ recipes/building_blocks/brown_carpet_from_red_carpet.json
++ recipes/building_blocks/brown_carpet_from_white_carpet.json
++ recipes/building_blocks/brown_carpet_from_yellow_carpet.json
++ recipes/building_blocks/brown_wool_from_black_wool.json
++ recipes/building_blocks/brown_wool_from_blue_wool.json
++ recipes/building_blocks/brown_wool_from_cyan_wool.json
++ recipes/building_blocks/brown_wool_from_gray_wool.json
++ recipes/building_blocks/brown_wool_from_green_wool.json
++ recipes/building_blocks/brown_wool_from_light_blue_wool.json
++ recipes/building_blocks/brown_wool_from_light_gray_wool.json
++ recipes/building_blocks/brown_wool_from_lime_wool.json
++ recipes/building_blocks/brown_wool_from_magenta_wool.json
++ recipes/building_blocks/brown_wool_from_orange_wool.json
++ recipes/building_blocks/brown_wool_from_pink_wool.json
++ recipes/building_blocks/brown_wool_from_purple_wool.json
++ recipes/building_blocks/brown_wool_from_red_wool.json
++ recipes/building_blocks/brown_wool_from_white_wool.json
++ recipes/building_blocks/brown_wool_from_yellow_wool.json
+- recipes/building_blocks/brown_wool.json
++ recipes/building_blocks/cyan_bed_from_black_bed.json
++ recipes/building_blocks/cyan_bed_from_blue_bed.json
++ recipes/building_blocks/cyan_bed_from_brown_bed.json
++ recipes/building_blocks/cyan_bed_from_gray_bed.json
++ recipes/building_blocks/cyan_bed_from_green_bed.json
++ recipes/building_blocks/cyan_bed_from_light_blue_bed.json
++ recipes/building_blocks/cyan_bed_from_light_gray_bed.json
++ recipes/building_blocks/cyan_bed_from_lime_bed.json
++ recipes/building_blocks/cyan_bed_from_magenta_bed.json
++ recipes/building_blocks/cyan_bed_from_orange_bed.json
++ recipes/building_blocks/cyan_bed_from_pink_bed.json
++ recipes/building_blocks/cyan_bed_from_purple_bed.json
++ recipes/building_blocks/cyan_bed_from_red_bed.json
++ recipes/building_blocks/cyan_bed_from_white_bed.json
++ recipes/building_blocks/cyan_bed_from_yellow_bed.json
++ recipes/building_blocks/cyan_carpet_from_black_carpet.json
++ recipes/building_blocks/cyan_carpet_from_blue_carpet.json
++ recipes/building_blocks/cyan_carpet_from_brown_carpet.json
++ recipes/building_blocks/cyan_carpet_from_gray_carpet.json
++ recipes/building_blocks/cyan_carpet_from_green_carpet.json
++ recipes/building_blocks/cyan_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/cyan_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/cyan_carpet_from_lime_carpet.json
++ recipes/building_blocks/cyan_carpet_from_magenta_carpet.json
++ recipes/building_blocks/cyan_carpet_from_orange_carpet.json
++ recipes/building_blocks/cyan_carpet_from_pink_carpet.json
++ recipes/building_blocks/cyan_carpet_from_purple_carpet.json
++ recipes/building_blocks/cyan_carpet_from_red_carpet.json
++ recipes/building_blocks/cyan_carpet_from_white_carpet.json
++ recipes/building_blocks/cyan_carpet_from_yellow_carpet.json
++ recipes/building_blocks/cyan_wool_from_black_wool.json
++ recipes/building_blocks/cyan_wool_from_blue_wool.json
++ recipes/building_blocks/cyan_wool_from_brown_wool.json
++ recipes/building_blocks/cyan_wool_from_gray_wool.json
++ recipes/building_blocks/cyan_wool_from_green_wool.json
++ recipes/building_blocks/cyan_wool_from_light_blue_wool.json
++ recipes/building_blocks/cyan_wool_from_light_gray_wool.json
++ recipes/building_blocks/cyan_wool_from_lime_wool.json
++ recipes/building_blocks/cyan_wool_from_magenta_wool.json
++ recipes/building_blocks/cyan_wool_from_orange_wool.json
++ recipes/building_blocks/cyan_wool_from_pink_wool.json
++ recipes/building_blocks/cyan_wool_from_purple_wool.json
++ recipes/building_blocks/cyan_wool_from_red_wool.json
++ recipes/building_blocks/cyan_wool_from_white_wool.json
++ recipes/building_blocks/cyan_wool_from_yellow_wool.json
+- recipes/building_blocks/cyan_wool.json
++ recipes/building_blocks/gray_bed_from_black_bed.json
++ recipes/building_blocks/gray_bed_from_blue_bed.json
++ recipes/building_blocks/gray_bed_from_brown_bed.json
++ recipes/building_blocks/gray_bed_from_cyan_bed.json
++ recipes/building_blocks/gray_bed_from_green_bed.json
++ recipes/building_blocks/gray_bed_from_light_blue_bed.json
++ recipes/building_blocks/gray_bed_from_light_gray_bed.json
++ recipes/building_blocks/gray_bed_from_lime_bed.json
++ recipes/building_blocks/gray_bed_from_magenta_bed.json
++ recipes/building_blocks/gray_bed_from_orange_bed.json
++ recipes/building_blocks/gray_bed_from_pink_bed.json
++ recipes/building_blocks/gray_bed_from_purple_bed.json
++ recipes/building_blocks/gray_bed_from_red_bed.json
++ recipes/building_blocks/gray_bed_from_white_bed.json
++ recipes/building_blocks/gray_bed_from_yellow_bed.json
++ recipes/building_blocks/gray_carpet_from_black_carpet.json
++ recipes/building_blocks/gray_carpet_from_blue_carpet.json
++ recipes/building_blocks/gray_carpet_from_brown_carpet.json
++ recipes/building_blocks/gray_carpet_from_cyan_carpet.json
++ recipes/building_blocks/gray_carpet_from_green_carpet.json
++ recipes/building_blocks/gray_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/gray_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/gray_carpet_from_lime_carpet.json
++ recipes/building_blocks/gray_carpet_from_magenta_carpet.json
++ recipes/building_blocks/gray_carpet_from_orange_carpet.json
++ recipes/building_blocks/gray_carpet_from_pink_carpet.json
++ recipes/building_blocks/gray_carpet_from_purple_carpet.json
++ recipes/building_blocks/gray_carpet_from_red_carpet.json
++ recipes/building_blocks/gray_carpet_from_white_carpet.json
++ recipes/building_blocks/gray_carpet_from_yellow_carpet.json
++ recipes/building_blocks/gray_wool_from_black_wool.json
++ recipes/building_blocks/gray_wool_from_blue_wool.json
++ recipes/building_blocks/gray_wool_from_brown_wool.json
++ recipes/building_blocks/gray_wool_from_cyan_wool.json
++ recipes/building_blocks/gray_wool_from_green_wool.json
++ recipes/building_blocks/gray_wool_from_light_blue_wool.json
++ recipes/building_blocks/gray_wool_from_light_gray_wool.json
++ recipes/building_blocks/gray_wool_from_lime_wool.json
++ recipes/building_blocks/gray_wool_from_magenta_wool.json
++ recipes/building_blocks/gray_wool_from_orange_wool.json
++ recipes/building_blocks/gray_wool_from_pink_wool.json
++ recipes/building_blocks/gray_wool_from_purple_wool.json
++ recipes/building_blocks/gray_wool_from_red_wool.json
++ recipes/building_blocks/gray_wool_from_white_wool.json
++ recipes/building_blocks/gray_wool_from_yellow_wool.json
+- recipes/building_blocks/gray_wool.json
++ recipes/building_blocks/green_bed_from_black_bed.json
++ recipes/building_blocks/green_bed_from_blue_bed.json
++ recipes/building_blocks/green_bed_from_brown_bed.json
++ recipes/building_blocks/green_bed_from_cyan_bed.json
++ recipes/building_blocks/green_bed_from_gray_bed.json
++ recipes/building_blocks/green_bed_from_light_blue_bed.json
++ recipes/building_blocks/green_bed_from_light_gray_bed.json
++ recipes/building_blocks/green_bed_from_lime_bed.json
++ recipes/building_blocks/green_bed_from_magenta_bed.json
++ recipes/building_blocks/green_bed_from_orange_bed.json
++ recipes/building_blocks/green_bed_from_pink_bed.json
++ recipes/building_blocks/green_bed_from_purple_bed.json
++ recipes/building_blocks/green_bed_from_red_bed.json
++ recipes/building_blocks/green_bed_from_white_bed.json
++ recipes/building_blocks/green_bed_from_yellow_bed.json
++ recipes/building_blocks/green_carpet_from_black_carpet.json
++ recipes/building_blocks/green_carpet_from_blue_carpet.json
++ recipes/building_blocks/green_carpet_from_brown_carpet.json
++ recipes/building_blocks/green_carpet_from_cyan_carpet.json
++ recipes/building_blocks/green_carpet_from_gray_carpet.json
++ recipes/building_blocks/green_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/green_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/green_carpet_from_lime_carpet.json
++ recipes/building_blocks/green_carpet_from_magenta_carpet.json
++ recipes/building_blocks/green_carpet_from_orange_carpet.json
++ recipes/building_blocks/green_carpet_from_pink_carpet.json
++ recipes/building_blocks/green_carpet_from_purple_carpet.json
++ recipes/building_blocks/green_carpet_from_red_carpet.json
++ recipes/building_blocks/green_carpet_from_white_carpet.json
++ recipes/building_blocks/green_carpet_from_yellow_carpet.json
++ recipes/building_blocks/green_wool_from_black_wool.json
++ recipes/building_blocks/green_wool_from_blue_wool.json
++ recipes/building_blocks/green_wool_from_brown_wool.json
++ recipes/building_blocks/green_wool_from_cyan_wool.json
++ recipes/building_blocks/green_wool_from_gray_wool.json
++ recipes/building_blocks/green_wool_from_light_blue_wool.json
++ recipes/building_blocks/green_wool_from_light_gray_wool.json
++ recipes/building_blocks/green_wool_from_lime_wool.json
++ recipes/building_blocks/green_wool_from_magenta_wool.json
++ recipes/building_blocks/green_wool_from_orange_wool.json
++ recipes/building_blocks/green_wool_from_pink_wool.json
++ recipes/building_blocks/green_wool_from_purple_wool.json
++ recipes/building_blocks/green_wool_from_red_wool.json
++ recipes/building_blocks/green_wool_from_white_wool.json
++ recipes/building_blocks/green_wool_from_yellow_wool.json
+- recipes/building_blocks/green_wool.json
++ recipes/building_blocks/light_blue_bed_from_black_bed.json
++ recipes/building_blocks/light_blue_bed_from_blue_bed.json
++ recipes/building_blocks/light_blue_bed_from_brown_bed.json
++ recipes/building_blocks/light_blue_bed_from_cyan_bed.json
++ recipes/building_blocks/light_blue_bed_from_gray_bed.json
++ recipes/building_blocks/light_blue_bed_from_green_bed.json
++ recipes/building_blocks/light_blue_bed_from_light_gray_bed.json
++ recipes/building_blocks/light_blue_bed_from_lime_bed.json
++ recipes/building_blocks/light_blue_bed_from_magenta_bed.json
++ recipes/building_blocks/light_blue_bed_from_orange_bed.json
++ recipes/building_blocks/light_blue_bed_from_pink_bed.json
++ recipes/building_blocks/light_blue_bed_from_purple_bed.json
++ recipes/building_blocks/light_blue_bed_from_red_bed.json
++ recipes/building_blocks/light_blue_bed_from_white_bed.json
++ recipes/building_blocks/light_blue_bed_from_yellow_bed.json
++ recipes/building_blocks/light_blue_carpet_from_black_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_blue_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_brown_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_cyan_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_gray_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_green_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_lime_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_magenta_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_orange_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_pink_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_purple_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_red_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_white_carpet.json
++ recipes/building_blocks/light_blue_carpet_from_yellow_carpet.json
++ recipes/building_blocks/light_blue_wool_from_black_wool.json
++ recipes/building_blocks/light_blue_wool_from_blue_wool.json
++ recipes/building_blocks/light_blue_wool_from_brown_wool.json
++ recipes/building_blocks/light_blue_wool_from_cyan_wool.json
++ recipes/building_blocks/light_blue_wool_from_gray_wool.json
++ recipes/building_blocks/light_blue_wool_from_green_wool.json
++ recipes/building_blocks/light_blue_wool_from_light_gray_wool.json
++ recipes/building_blocks/light_blue_wool_from_lime_wool.json
++ recipes/building_blocks/light_blue_wool_from_magenta_wool.json
++ recipes/building_blocks/light_blue_wool_from_orange_wool.json
++ recipes/building_blocks/light_blue_wool_from_pink_wool.json
++ recipes/building_blocks/light_blue_wool_from_purple_wool.json
++ recipes/building_blocks/light_blue_wool_from_red_wool.json
++ recipes/building_blocks/light_blue_wool_from_white_wool.json
++ recipes/building_blocks/light_blue_wool_from_yellow_wool.json
+- recipes/building_blocks/light_blue_wool.json
++ recipes/building_blocks/light_gray_bed_from_black_bed.json
++ recipes/building_blocks/light_gray_bed_from_blue_bed.json
++ recipes/building_blocks/light_gray_bed_from_brown_bed.json
++ recipes/building_blocks/light_gray_bed_from_cyan_bed.json
++ recipes/building_blocks/light_gray_bed_from_gray_bed.json
++ recipes/building_blocks/light_gray_bed_from_green_bed.json
++ recipes/building_blocks/light_gray_bed_from_light_blue_bed.json
++ recipes/building_blocks/light_gray_bed_from_lime_bed.json
++ recipes/building_blocks/light_gray_bed_from_magenta_bed.json
++ recipes/building_blocks/light_gray_bed_from_orange_bed.json
++ recipes/building_blocks/light_gray_bed_from_pink_bed.json
++ recipes/building_blocks/light_gray_bed_from_purple_bed.json
++ recipes/building_blocks/light_gray_bed_from_red_bed.json
++ recipes/building_blocks/light_gray_bed_from_white_bed.json
++ recipes/building_blocks/light_gray_bed_from_yellow_bed.json
++ recipes/building_blocks/light_gray_carpet_from_black_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_blue_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_brown_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_cyan_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_gray_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_green_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_lime_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_magenta_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_orange_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_pink_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_purple_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_red_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_white_carpet.json
++ recipes/building_blocks/light_gray_carpet_from_yellow_carpet.json
++ recipes/building_blocks/light_gray_wool_from_black_wool.json
++ recipes/building_blocks/light_gray_wool_from_blue_wool.json
++ recipes/building_blocks/light_gray_wool_from_brown_wool.json
++ recipes/building_blocks/light_gray_wool_from_cyan_wool.json
++ recipes/building_blocks/light_gray_wool_from_gray_wool.json
++ recipes/building_blocks/light_gray_wool_from_green_wool.json
++ recipes/building_blocks/light_gray_wool_from_light_blue_wool.json
++ recipes/building_blocks/light_gray_wool_from_lime_wool.json
++ recipes/building_blocks/light_gray_wool_from_magenta_wool.json
++ recipes/building_blocks/light_gray_wool_from_orange_wool.json
++ recipes/building_blocks/light_gray_wool_from_pink_wool.json
++ recipes/building_blocks/light_gray_wool_from_purple_wool.json
++ recipes/building_blocks/light_gray_wool_from_red_wool.json
++ recipes/building_blocks/light_gray_wool_from_white_wool.json
++ recipes/building_blocks/light_gray_wool_from_yellow_wool.json
+- recipes/building_blocks/light_gray_wool.json
++ recipes/building_blocks/lime_bed_from_black_bed.json
++ recipes/building_blocks/lime_bed_from_blue_bed.json
++ recipes/building_blocks/lime_bed_from_brown_bed.json
++ recipes/building_blocks/lime_bed_from_cyan_bed.json
++ recipes/building_blocks/lime_bed_from_gray_bed.json
++ recipes/building_blocks/lime_bed_from_green_bed.json
++ recipes/building_blocks/lime_bed_from_light_blue_bed.json
++ recipes/building_blocks/lime_bed_from_light_gray_bed.json
++ recipes/building_blocks/lime_bed_from_magenta_bed.json
++ recipes/building_blocks/lime_bed_from_orange_bed.json
++ recipes/building_blocks/lime_bed_from_pink_bed.json
++ recipes/building_blocks/lime_bed_from_purple_bed.json
++ recipes/building_blocks/lime_bed_from_red_bed.json
++ recipes/building_blocks/lime_bed_from_white_bed.json
++ recipes/building_blocks/lime_bed_from_yellow_bed.json
++ recipes/building_blocks/lime_carpet_from_black_carpet.json
++ recipes/building_blocks/lime_carpet_from_blue_carpet.json
++ recipes/building_blocks/lime_carpet_from_brown_carpet.json
++ recipes/building_blocks/lime_carpet_from_cyan_carpet.json
++ recipes/building_blocks/lime_carpet_from_gray_carpet.json
++ recipes/building_blocks/lime_carpet_from_green_carpet.json
++ recipes/building_blocks/lime_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/lime_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/lime_carpet_from_magenta_carpet.json
++ recipes/building_blocks/lime_carpet_from_orange_carpet.json
++ recipes/building_blocks/lime_carpet_from_pink_carpet.json
++ recipes/building_blocks/lime_carpet_from_purple_carpet.json
++ recipes/building_blocks/lime_carpet_from_red_carpet.json
++ recipes/building_blocks/lime_carpet_from_white_carpet.json
++ recipes/building_blocks/lime_carpet_from_yellow_carpet.json
++ recipes/building_blocks/lime_wool_from_black_wool.json
++ recipes/building_blocks/lime_wool_from_blue_wool.json
++ recipes/building_blocks/lime_wool_from_brown_wool.json
++ recipes/building_blocks/lime_wool_from_cyan_wool.json
++ recipes/building_blocks/lime_wool_from_gray_wool.json
++ recipes/building_blocks/lime_wool_from_green_wool.json
++ recipes/building_blocks/lime_wool_from_light_blue_wool.json
++ recipes/building_blocks/lime_wool_from_light_gray_wool.json
++ recipes/building_blocks/lime_wool_from_magenta_wool.json
++ recipes/building_blocks/lime_wool_from_orange_wool.json
++ recipes/building_blocks/lime_wool_from_pink_wool.json
++ recipes/building_blocks/lime_wool_from_purple_wool.json
++ recipes/building_blocks/lime_wool_from_red_wool.json
++ recipes/building_blocks/lime_wool_from_white_wool.json
++ recipes/building_blocks/lime_wool_from_yellow_wool.json
+- recipes/building_blocks/lime_wool.json
++ recipes/building_blocks/magenta_bed_from_black_bed.json
++ recipes/building_blocks/magenta_bed_from_blue_bed.json
++ recipes/building_blocks/magenta_bed_from_brown_bed.json
++ recipes/building_blocks/magenta_bed_from_cyan_bed.json
++ recipes/building_blocks/magenta_bed_from_gray_bed.json
++ recipes/building_blocks/magenta_bed_from_green_bed.json
++ recipes/building_blocks/magenta_bed_from_light_blue_bed.json
++ recipes/building_blocks/magenta_bed_from_light_gray_bed.json
++ recipes/building_blocks/magenta_bed_from_lime_bed.json
++ recipes/building_blocks/magenta_bed_from_orange_bed.json
++ recipes/building_blocks/magenta_bed_from_pink_bed.json
++ recipes/building_blocks/magenta_bed_from_purple_bed.json
++ recipes/building_blocks/magenta_bed_from_red_bed.json
++ recipes/building_blocks/magenta_bed_from_white_bed.json
++ recipes/building_blocks/magenta_bed_from_yellow_bed.json
++ recipes/building_blocks/magenta_carpet_from_black_carpet.json
++ recipes/building_blocks/magenta_carpet_from_blue_carpet.json
++ recipes/building_blocks/magenta_carpet_from_brown_carpet.json
++ recipes/building_blocks/magenta_carpet_from_cyan_carpet.json
++ recipes/building_blocks/magenta_carpet_from_gray_carpet.json
++ recipes/building_blocks/magenta_carpet_from_green_carpet.json
++ recipes/building_blocks/magenta_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/magenta_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/magenta_carpet_from_lime_carpet.json
++ recipes/building_blocks/magenta_carpet_from_orange_carpet.json
++ recipes/building_blocks/magenta_carpet_from_pink_carpet.json
++ recipes/building_blocks/magenta_carpet_from_purple_carpet.json
++ recipes/building_blocks/magenta_carpet_from_red_carpet.json
++ recipes/building_blocks/magenta_carpet_from_white_carpet.json
++ recipes/building_blocks/magenta_carpet_from_yellow_carpet.json
++ recipes/building_blocks/magenta_wool_from_black_wool.json
++ recipes/building_blocks/magenta_wool_from_blue_wool.json
++ recipes/building_blocks/magenta_wool_from_brown_wool.json
++ recipes/building_blocks/magenta_wool_from_cyan_wool.json
++ recipes/building_blocks/magenta_wool_from_gray_wool.json
++ recipes/building_blocks/magenta_wool_from_green_wool.json
++ recipes/building_blocks/magenta_wool_from_light_blue_wool.json
++ recipes/building_blocks/magenta_wool_from_light_gray_wool.json
++ recipes/building_blocks/magenta_wool_from_lime_wool.json
++ recipes/building_blocks/magenta_wool_from_orange_wool.json
++ recipes/building_blocks/magenta_wool_from_pink_wool.json
++ recipes/building_blocks/magenta_wool_from_purple_wool.json
++ recipes/building_blocks/magenta_wool_from_red_wool.json
++ recipes/building_blocks/magenta_wool_from_white_wool.json
++ recipes/building_blocks/magenta_wool_from_yellow_wool.json
+- recipes/building_blocks/magenta_wool.json
++ recipes/building_blocks/orange_bed_from_black_bed.json
++ recipes/building_blocks/orange_bed_from_blue_bed.json
++ recipes/building_blocks/orange_bed_from_brown_bed.json
++ recipes/building_blocks/orange_bed_from_cyan_bed.json
++ recipes/building_blocks/orange_bed_from_gray_bed.json
++ recipes/building_blocks/orange_bed_from_green_bed.json
++ recipes/building_blocks/orange_bed_from_light_blue_bed.json
++ recipes/building_blocks/orange_bed_from_light_gray_bed.json
++ recipes/building_blocks/orange_bed_from_lime_bed.json
++ recipes/building_blocks/orange_bed_from_magenta_bed.json
++ recipes/building_blocks/orange_bed_from_pink_bed.json
++ recipes/building_blocks/orange_bed_from_purple_bed.json
++ recipes/building_blocks/orange_bed_from_red_bed.json
++ recipes/building_blocks/orange_bed_from_white_bed.json
++ recipes/building_blocks/orange_bed_from_yellow_bed.json
++ recipes/building_blocks/orange_carpet_from_black_carpet.json
++ recipes/building_blocks/orange_carpet_from_blue_carpet.json
++ recipes/building_blocks/orange_carpet_from_brown_carpet.json
++ recipes/building_blocks/orange_carpet_from_cyan_carpet.json
++ recipes/building_blocks/orange_carpet_from_gray_carpet.json
++ recipes/building_blocks/orange_carpet_from_green_carpet.json
++ recipes/building_blocks/orange_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/orange_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/orange_carpet_from_lime_carpet.json
++ recipes/building_blocks/orange_carpet_from_magenta_carpet.json
++ recipes/building_blocks/orange_carpet_from_pink_carpet.json
++ recipes/building_blocks/orange_carpet_from_purple_carpet.json
++ recipes/building_blocks/orange_carpet_from_red_carpet.json
++ recipes/building_blocks/orange_carpet_from_white_carpet.json
++ recipes/building_blocks/orange_carpet_from_yellow_carpet.json
++ recipes/building_blocks/orange_wool_from_black_wool.json
++ recipes/building_blocks/orange_wool_from_blue_wool.json
++ recipes/building_blocks/orange_wool_from_brown_wool.json
++ recipes/building_blocks/orange_wool_from_cyan_wool.json
++ recipes/building_blocks/orange_wool_from_gray_wool.json
++ recipes/building_blocks/orange_wool_from_green_wool.json
++ recipes/building_blocks/orange_wool_from_light_blue_wool.json
++ recipes/building_blocks/orange_wool_from_light_gray_wool.json
++ recipes/building_blocks/orange_wool_from_lime_wool.json
++ recipes/building_blocks/orange_wool_from_magenta_wool.json
++ recipes/building_blocks/orange_wool_from_pink_wool.json
++ recipes/building_blocks/orange_wool_from_purple_wool.json
++ recipes/building_blocks/orange_wool_from_red_wool.json
++ recipes/building_blocks/orange_wool_from_white_wool.json
++ recipes/building_blocks/orange_wool_from_yellow_wool.json
+- recipes/building_blocks/orange_wool.json
++ recipes/building_blocks/pink_bed_from_black_bed.json
++ recipes/building_blocks/pink_bed_from_blue_bed.json
++ recipes/building_blocks/pink_bed_from_brown_bed.json
++ recipes/building_blocks/pink_bed_from_cyan_bed.json
++ recipes/building_blocks/pink_bed_from_gray_bed.json
++ recipes/building_blocks/pink_bed_from_green_bed.json
++ recipes/building_blocks/pink_bed_from_light_blue_bed.json
++ recipes/building_blocks/pink_bed_from_light_gray_bed.json
++ recipes/building_blocks/pink_bed_from_lime_bed.json
++ recipes/building_blocks/pink_bed_from_magenta_bed.json
++ recipes/building_blocks/pink_bed_from_orange_bed.json
++ recipes/building_blocks/pink_bed_from_purple_bed.json
++ recipes/building_blocks/pink_bed_from_red_bed.json
++ recipes/building_blocks/pink_bed_from_white_bed.json
++ recipes/building_blocks/pink_bed_from_yellow_bed.json
++ recipes/building_blocks/pink_carpet_from_black_carpet.json
++ recipes/building_blocks/pink_carpet_from_blue_carpet.json
++ recipes/building_blocks/pink_carpet_from_brown_carpet.json
++ recipes/building_blocks/pink_carpet_from_cyan_carpet.json
++ recipes/building_blocks/pink_carpet_from_gray_carpet.json
++ recipes/building_blocks/pink_carpet_from_green_carpet.json
++ recipes/building_blocks/pink_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/pink_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/pink_carpet_from_lime_carpet.json
++ recipes/building_blocks/pink_carpet_from_magenta_carpet.json
++ recipes/building_blocks/pink_carpet_from_orange_carpet.json
++ recipes/building_blocks/pink_carpet_from_purple_carpet.json
++ recipes/building_blocks/pink_carpet_from_red_carpet.json
++ recipes/building_blocks/pink_carpet_from_white_carpet.json
++ recipes/building_blocks/pink_carpet_from_yellow_carpet.json
++ recipes/building_blocks/pink_wool_from_black_wool.json
++ recipes/building_blocks/pink_wool_from_blue_wool.json
++ recipes/building_blocks/pink_wool_from_brown_wool.json
++ recipes/building_blocks/pink_wool_from_cyan_wool.json
++ recipes/building_blocks/pink_wool_from_gray_wool.json
++ recipes/building_blocks/pink_wool_from_green_wool.json
++ recipes/building_blocks/pink_wool_from_light_blue_wool.json
++ recipes/building_blocks/pink_wool_from_light_gray_wool.json
++ recipes/building_blocks/pink_wool_from_lime_wool.json
++ recipes/building_blocks/pink_wool_from_magenta_wool.json
++ recipes/building_blocks/pink_wool_from_orange_wool.json
++ recipes/building_blocks/pink_wool_from_purple_wool.json
++ recipes/building_blocks/pink_wool_from_red_wool.json
++ recipes/building_blocks/pink_wool_from_white_wool.json
++ recipes/building_blocks/pink_wool_from_yellow_wool.json
+- recipes/building_blocks/pink_wool.json
++ recipes/building_blocks/purple_bed_from_black_bed.json
++ recipes/building_blocks/purple_bed_from_blue_bed.json
++ recipes/building_blocks/purple_bed_from_brown_bed.json
++ recipes/building_blocks/purple_bed_from_cyan_bed.json
++ recipes/building_blocks/purple_bed_from_gray_bed.json
++ recipes/building_blocks/purple_bed_from_green_bed.json
++ recipes/building_blocks/purple_bed_from_light_blue_bed.json
++ recipes/building_blocks/purple_bed_from_light_gray_bed.json
++ recipes/building_blocks/purple_bed_from_lime_bed.json
++ recipes/building_blocks/purple_bed_from_magenta_bed.json
++ recipes/building_blocks/purple_bed_from_orange_bed.json
++ recipes/building_blocks/purple_bed_from_pink_bed.json
++ recipes/building_blocks/purple_bed_from_red_bed.json
++ recipes/building_blocks/purple_bed_from_white_bed.json
++ recipes/building_blocks/purple_bed_from_yellow_bed.json
++ recipes/building_blocks/purple_carpet_from_black_carpet.json
++ recipes/building_blocks/purple_carpet_from_blue_carpet.json
++ recipes/building_blocks/purple_carpet_from_brown_carpet.json
++ recipes/building_blocks/purple_carpet_from_cyan_carpet.json
++ recipes/building_blocks/purple_carpet_from_gray_carpet.json
++ recipes/building_blocks/purple_carpet_from_green_carpet.json
++ recipes/building_blocks/purple_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/purple_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/purple_carpet_from_lime_carpet.json
++ recipes/building_blocks/purple_carpet_from_magenta_carpet.json
++ recipes/building_blocks/purple_carpet_from_orange_carpet.json
++ recipes/building_blocks/purple_carpet_from_pink_carpet.json
++ recipes/building_blocks/purple_carpet_from_red_carpet.json
++ recipes/building_blocks/purple_carpet_from_white_carpet.json
++ recipes/building_blocks/purple_carpet_from_yellow_carpet.json
++ recipes/building_blocks/purple_wool_from_black_wool.json
++ recipes/building_blocks/purple_wool_from_blue_wool.json
++ recipes/building_blocks/purple_wool_from_brown_wool.json
++ recipes/building_blocks/purple_wool_from_cyan_wool.json
++ recipes/building_blocks/purple_wool_from_gray_wool.json
++ recipes/building_blocks/purple_wool_from_green_wool.json
++ recipes/building_blocks/purple_wool_from_light_blue_wool.json
++ recipes/building_blocks/purple_wool_from_light_gray_wool.json
++ recipes/building_blocks/purple_wool_from_lime_wool.json
++ recipes/building_blocks/purple_wool_from_magenta_wool.json
++ recipes/building_blocks/purple_wool_from_orange_wool.json
++ recipes/building_blocks/purple_wool_from_pink_wool.json
++ recipes/building_blocks/purple_wool_from_red_wool.json
++ recipes/building_blocks/purple_wool_from_white_wool.json
++ recipes/building_blocks/purple_wool_from_yellow_wool.json
+- recipes/building_blocks/purple_wool.json
++ recipes/building_blocks/red_bed_from_black_bed.json
++ recipes/building_blocks/red_bed_from_blue_bed.json
++ recipes/building_blocks/red_bed_from_brown_bed.json
++ recipes/building_blocks/red_bed_from_cyan_bed.json
++ recipes/building_blocks/red_bed_from_gray_bed.json
++ recipes/building_blocks/red_bed_from_green_bed.json
++ recipes/building_blocks/red_bed_from_light_blue_bed.json
++ recipes/building_blocks/red_bed_from_light_gray_bed.json
++ recipes/building_blocks/red_bed_from_lime_bed.json
++ recipes/building_blocks/red_bed_from_magenta_bed.json
++ recipes/building_blocks/red_bed_from_orange_bed.json
++ recipes/building_blocks/red_bed_from_pink_bed.json
++ recipes/building_blocks/red_bed_from_purple_bed.json
++ recipes/building_blocks/red_bed_from_white_bed.json
++ recipes/building_blocks/red_bed_from_yellow_bed.json
++ recipes/building_blocks/red_carpet_from_black_carpet.json
++ recipes/building_blocks/red_carpet_from_blue_carpet.json
++ recipes/building_blocks/red_carpet_from_brown_carpet.json
++ recipes/building_blocks/red_carpet_from_cyan_carpet.json
++ recipes/building_blocks/red_carpet_from_gray_carpet.json
++ recipes/building_blocks/red_carpet_from_green_carpet.json
++ recipes/building_blocks/red_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/red_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/red_carpet_from_lime_carpet.json
++ recipes/building_blocks/red_carpet_from_magenta_carpet.json
++ recipes/building_blocks/red_carpet_from_orange_carpet.json
++ recipes/building_blocks/red_carpet_from_pink_carpet.json
++ recipes/building_blocks/red_carpet_from_purple_carpet.json
++ recipes/building_blocks/red_carpet_from_white_carpet.json
++ recipes/building_blocks/red_carpet_from_yellow_carpet.json
++ recipes/building_blocks/red_wool_from_black_wool.json
++ recipes/building_blocks/red_wool_from_blue_wool.json
++ recipes/building_blocks/red_wool_from_brown_wool.json
++ recipes/building_blocks/red_wool_from_cyan_wool.json
++ recipes/building_blocks/red_wool_from_gray_wool.json
++ recipes/building_blocks/red_wool_from_green_wool.json
++ recipes/building_blocks/red_wool_from_light_blue_wool.json
++ recipes/building_blocks/red_wool_from_light_gray_wool.json
++ recipes/building_blocks/red_wool_from_lime_wool.json
++ recipes/building_blocks/red_wool_from_magenta_wool.json
++ recipes/building_blocks/red_wool_from_orange_wool.json
++ recipes/building_blocks/red_wool_from_pink_wool.json
++ recipes/building_blocks/red_wool_from_purple_wool.json
++ recipes/building_blocks/red_wool_from_white_wool.json
++ recipes/building_blocks/red_wool_from_yellow_wool.json
+- recipes/building_blocks/red_wool.json
++ recipes/building_blocks/white_bed_from_black_bed.json
++ recipes/building_blocks/white_bed_from_blue_bed.json
++ recipes/building_blocks/white_bed_from_brown_bed.json
++ recipes/building_blocks/white_bed_from_cyan_bed.json
++ recipes/building_blocks/white_bed_from_gray_bed.json
++ recipes/building_blocks/white_bed_from_green_bed.json
++ recipes/building_blocks/white_bed_from_light_blue_bed.json
++ recipes/building_blocks/white_bed_from_light_gray_bed.json
++ recipes/building_blocks/white_bed_from_lime_bed.json
++ recipes/building_blocks/white_bed_from_magenta_bed.json
++ recipes/building_blocks/white_bed_from_orange_bed.json
++ recipes/building_blocks/white_bed_from_pink_bed.json
++ recipes/building_blocks/white_bed_from_purple_bed.json
++ recipes/building_blocks/white_bed_from_red_bed.json
++ recipes/building_blocks/white_bed_from_yellow_bed.json
++ recipes/building_blocks/white_carpet_from_black_carpet.json
++ recipes/building_blocks/white_carpet_from_blue_carpet.json
++ recipes/building_blocks/white_carpet_from_brown_carpet.json
++ recipes/building_blocks/white_carpet_from_cyan_carpet.json
++ recipes/building_blocks/white_carpet_from_gray_carpet.json
++ recipes/building_blocks/white_carpet_from_green_carpet.json
++ recipes/building_blocks/white_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/white_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/white_carpet_from_lime_carpet.json
++ recipes/building_blocks/white_carpet_from_magenta_carpet.json
++ recipes/building_blocks/white_carpet_from_orange_carpet.json
++ recipes/building_blocks/white_carpet_from_pink_carpet.json
++ recipes/building_blocks/white_carpet_from_purple_carpet.json
++ recipes/building_blocks/white_carpet_from_red_carpet.json
++ recipes/building_blocks/white_carpet_from_yellow_carpet.json
++ recipes/building_blocks/white_wool_from_black_wool.json
++ recipes/building_blocks/white_wool_from_blue_wool.json
++ recipes/building_blocks/white_wool_from_brown_wool.json
++ recipes/building_blocks/white_wool_from_cyan_wool.json
++ recipes/building_blocks/white_wool_from_gray_wool.json
++ recipes/building_blocks/white_wool_from_green_wool.json
++ recipes/building_blocks/white_wool_from_light_blue_wool.json
++ recipes/building_blocks/white_wool_from_light_gray_wool.json
++ recipes/building_blocks/white_wool_from_lime_wool.json
++ recipes/building_blocks/white_wool_from_magenta_wool.json
++ recipes/building_blocks/white_wool_from_orange_wool.json
++ recipes/building_blocks/white_wool_from_pink_wool.json
++ recipes/building_blocks/white_wool_from_purple_wool.json
++ recipes/building_blocks/white_wool_from_red_wool.json
++ recipes/building_blocks/white_wool_from_yellow_wool.json
++ recipes/building_blocks/yellow_bed_from_black_bed.json
++ recipes/building_blocks/yellow_bed_from_blue_bed.json
++ recipes/building_blocks/yellow_bed_from_brown_bed.json
++ recipes/building_blocks/yellow_bed_from_cyan_bed.json
++ recipes/building_blocks/yellow_bed_from_gray_bed.json
++ recipes/building_blocks/yellow_bed_from_green_bed.json
++ recipes/building_blocks/yellow_bed_from_light_blue_bed.json
++ recipes/building_blocks/yellow_bed_from_light_gray_bed.json
++ recipes/building_blocks/yellow_bed_from_lime_bed.json
++ recipes/building_blocks/yellow_bed_from_magenta_bed.json
++ recipes/building_blocks/yellow_bed_from_orange_bed.json
++ recipes/building_blocks/yellow_bed_from_pink_bed.json
++ recipes/building_blocks/yellow_bed_from_purple_bed.json
++ recipes/building_blocks/yellow_bed_from_red_bed.json
++ recipes/building_blocks/yellow_bed_from_white_bed.json
++ recipes/building_blocks/yellow_carpet_from_black_carpet.json
++ recipes/building_blocks/yellow_carpet_from_blue_carpet.json
++ recipes/building_blocks/yellow_carpet_from_brown_carpet.json
++ recipes/building_blocks/yellow_carpet_from_cyan_carpet.json
++ recipes/building_blocks/yellow_carpet_from_gray_carpet.json
++ recipes/building_blocks/yellow_carpet_from_green_carpet.json
++ recipes/building_blocks/yellow_carpet_from_light_blue_carpet.json
++ recipes/building_blocks/yellow_carpet_from_light_gray_carpet.json
++ recipes/building_blocks/yellow_carpet_from_lime_carpet.json
++ recipes/building_blocks/yellow_carpet_from_magenta_carpet.json
++ recipes/building_blocks/yellow_carpet_from_orange_carpet.json
++ recipes/building_blocks/yellow_carpet_from_pink_carpet.json
++ recipes/building_blocks/yellow_carpet_from_purple_carpet.json
++ recipes/building_blocks/yellow_carpet_from_red_carpet.json
++ recipes/building_blocks/yellow_carpet_from_white_carpet.json
++ recipes/building_blocks/yellow_wool_from_black_wool.json
++ recipes/building_blocks/yellow_wool_from_blue_wool.json
++ recipes/building_blocks/yellow_wool_from_brown_wool.json
++ recipes/building_blocks/yellow_wool_from_cyan_wool.json
++ recipes/building_blocks/yellow_wool_from_gray_wool.json
++ recipes/building_blocks/yellow_wool_from_green_wool.json
++ recipes/building_blocks/yellow_wool_from_light_blue_wool.json
++ recipes/building_blocks/yellow_wool_from_light_gray_wool.json
++ recipes/building_blocks/yellow_wool_from_lime_wool.json
++ recipes/building_blocks/yellow_wool_from_magenta_wool.json
++ recipes/building_blocks/yellow_wool_from_orange_wool.json
++ recipes/building_blocks/yellow_wool_from_pink_wool.json
++ recipes/building_blocks/yellow_wool_from_purple_wool.json
++ recipes/building_blocks/yellow_wool_from_red_wool.json
++ recipes/building_blocks/yellow_wool_from_white_wool.json
+- recipes/building_blocks/yellow_wool.json
+- recipes/decorations/black_bed_from_white_bed.json
+- recipes/decorations/black_carpet_from_white_carpet.json
+- recipes/decorations/blue_bed_from_white_bed.json
+- recipes/decorations/blue_carpet_from_white_carpet.json
+- recipes/decorations/brown_bed_from_white_bed.json
+- recipes/decorations/brown_carpet_from_white_carpet.json
+- recipes/decorations/cyan_bed_from_white_bed.json
+- recipes/decorations/cyan_carpet_from_white_carpet.json
+- recipes/decorations/gray_bed_from_white_bed.json
+- recipes/decorations/gray_carpet_from_white_carpet.json
+- recipes/decorations/green_bed_from_white_bed.json
+- recipes/decorations/green_carpet_from_white_carpet.json
+- recipes/decorations/light_blue_bed_from_white_bed.json
+- recipes/decorations/light_blue_carpet_from_white_carpet.json
+- recipes/decorations/light_gray_bed_from_white_bed.json
+- recipes/decorations/light_gray_carpet_from_white_carpet.json
+- recipes/decorations/lime_bed_from_white_bed.json
+- recipes/decorations/lime_carpet_from_white_carpet.json
+- recipes/decorations/magenta_bed_from_white_bed.json
+- recipes/decorations/magenta_carpet_from_white_carpet.json
+- recipes/decorations/orange_bed_from_white_bed.json
+- recipes/decorations/orange_carpet_from_white_carpet.json
+- recipes/decorations/pink_bed_from_white_bed.json
+- recipes/decorations/pink_carpet_from_white_carpet.json
+- recipes/decorations/purple_bed_from_white_bed.json
+- recipes/decorations/purple_carpet_from_white_carpet.json
+- recipes/decorations/red_bed_from_white_bed.json
+- recipes/decorations/red_carpet_from_white_carpet.json
+- recipes/decorations/yellow_bed_from_white_bed.json
+- recipes/decorations/yellow_carpet_from_white_carpet.json
+```
+
+</details>
+
+
+<details><summary>damage_types.txt</summary>
+
+```diff
++ generic_kill.json
++ outside_border.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ black_bed_from_blue_bed.json
++ black_bed_from_brown_bed.json
++ black_bed_from_cyan_bed.json
++ black_bed_from_gray_bed.json
++ black_bed_from_green_bed.json
++ black_bed_from_light_blue_bed.json
++ black_bed_from_light_gray_bed.json
++ black_bed_from_lime_bed.json
++ black_bed_from_magenta_bed.json
++ black_bed_from_orange_bed.json
++ black_bed_from_pink_bed.json
++ black_bed_from_purple_bed.json
++ black_bed_from_red_bed.json
++ black_bed_from_yellow_bed.json
++ black_carpet_from_blue_carpet.json
++ black_carpet_from_brown_carpet.json
++ black_carpet_from_cyan_carpet.json
++ black_carpet_from_gray_carpet.json
++ black_carpet_from_green_carpet.json
++ black_carpet_from_light_blue_carpet.json
++ black_carpet_from_light_gray_carpet.json
++ black_carpet_from_lime_carpet.json
++ black_carpet_from_magenta_carpet.json
++ black_carpet_from_orange_carpet.json
++ black_carpet_from_pink_carpet.json
++ black_carpet_from_purple_carpet.json
++ black_carpet_from_red_carpet.json
++ black_carpet_from_yellow_carpet.json
++ black_wool_from_blue_wool.json
++ black_wool_from_brown_wool.json
++ black_wool_from_cyan_wool.json
++ black_wool_from_gray_wool.json
++ black_wool_from_green_wool.json
++ black_wool_from_light_blue_wool.json
++ black_wool_from_light_gray_wool.json
++ black_wool_from_lime_wool.json
++ black_wool_from_magenta_wool.json
++ black_wool_from_orange_wool.json
++ black_wool_from_pink_wool.json
++ black_wool_from_purple_wool.json
++ black_wool_from_red_wool.json
++ black_wool_from_white_wool.json
++ black_wool_from_yellow_wool.json
+- black_wool.json
++ blue_bed_from_black_bed.json
++ blue_bed_from_brown_bed.json
++ blue_bed_from_cyan_bed.json
++ blue_bed_from_gray_bed.json
++ blue_bed_from_green_bed.json
++ blue_bed_from_light_blue_bed.json
++ blue_bed_from_light_gray_bed.json
++ blue_bed_from_lime_bed.json
++ blue_bed_from_magenta_bed.json
++ blue_bed_from_orange_bed.json
++ blue_bed_from_pink_bed.json
++ blue_bed_from_purple_bed.json
++ blue_bed_from_red_bed.json
++ blue_bed_from_yellow_bed.json
++ blue_carpet_from_black_carpet.json
++ blue_carpet_from_brown_carpet.json
++ blue_carpet_from_cyan_carpet.json
++ blue_carpet_from_gray_carpet.json
++ blue_carpet_from_green_carpet.json
++ blue_carpet_from_light_blue_carpet.json
++ blue_carpet_from_light_gray_carpet.json
++ blue_carpet_from_lime_carpet.json
++ blue_carpet_from_magenta_carpet.json
++ blue_carpet_from_orange_carpet.json
++ blue_carpet_from_pink_carpet.json
++ blue_carpet_from_purple_carpet.json
++ blue_carpet_from_red_carpet.json
++ blue_carpet_from_yellow_carpet.json
++ blue_wool_from_black_wool.json
++ blue_wool_from_brown_wool.json
++ blue_wool_from_cyan_wool.json
++ blue_wool_from_gray_wool.json
++ blue_wool_from_green_wool.json
++ blue_wool_from_light_blue_wool.json
++ blue_wool_from_light_gray_wool.json
++ blue_wool_from_lime_wool.json
++ blue_wool_from_magenta_wool.json
++ blue_wool_from_orange_wool.json
++ blue_wool_from_pink_wool.json
++ blue_wool_from_purple_wool.json
++ blue_wool_from_red_wool.json
++ blue_wool_from_white_wool.json
++ blue_wool_from_yellow_wool.json
+- blue_wool.json
++ brown_bed_from_black_bed.json
++ brown_bed_from_blue_bed.json
++ brown_bed_from_cyan_bed.json
++ brown_bed_from_gray_bed.json
++ brown_bed_from_green_bed.json
++ brown_bed_from_light_blue_bed.json
++ brown_bed_from_light_gray_bed.json
++ brown_bed_from_lime_bed.json
++ brown_bed_from_magenta_bed.json
++ brown_bed_from_orange_bed.json
++ brown_bed_from_pink_bed.json
++ brown_bed_from_purple_bed.json
++ brown_bed_from_red_bed.json
++ brown_bed_from_yellow_bed.json
++ brown_carpet_from_black_carpet.json
++ brown_carpet_from_blue_carpet.json
++ brown_carpet_from_cyan_carpet.json
++ brown_carpet_from_gray_carpet.json
++ brown_carpet_from_green_carpet.json
++ brown_carpet_from_light_blue_carpet.json
++ brown_carpet_from_light_gray_carpet.json
++ brown_carpet_from_lime_carpet.json
++ brown_carpet_from_magenta_carpet.json
++ brown_carpet_from_orange_carpet.json
++ brown_carpet_from_pink_carpet.json
++ brown_carpet_from_purple_carpet.json
++ brown_carpet_from_red_carpet.json
++ brown_carpet_from_yellow_carpet.json
++ brown_wool_from_black_wool.json
++ brown_wool_from_blue_wool.json
++ brown_wool_from_cyan_wool.json
++ brown_wool_from_gray_wool.json
++ brown_wool_from_green_wool.json
++ brown_wool_from_light_blue_wool.json
++ brown_wool_from_light_gray_wool.json
++ brown_wool_from_lime_wool.json
++ brown_wool_from_magenta_wool.json
++ brown_wool_from_orange_wool.json
++ brown_wool_from_pink_wool.json
++ brown_wool_from_purple_wool.json
++ brown_wool_from_red_wool.json
++ brown_wool_from_white_wool.json
++ brown_wool_from_yellow_wool.json
+- brown_wool.json
++ cyan_bed_from_black_bed.json
++ cyan_bed_from_blue_bed.json
++ cyan_bed_from_brown_bed.json
++ cyan_bed_from_gray_bed.json
++ cyan_bed_from_green_bed.json
++ cyan_bed_from_light_blue_bed.json
++ cyan_bed_from_light_gray_bed.json
++ cyan_bed_from_lime_bed.json
++ cyan_bed_from_magenta_bed.json
++ cyan_bed_from_orange_bed.json
++ cyan_bed_from_pink_bed.json
++ cyan_bed_from_purple_bed.json
++ cyan_bed_from_red_bed.json
++ cyan_bed_from_yellow_bed.json
++ cyan_carpet_from_black_carpet.json
++ cyan_carpet_from_blue_carpet.json
++ cyan_carpet_from_brown_carpet.json
++ cyan_carpet_from_gray_carpet.json
++ cyan_carpet_from_green_carpet.json
++ cyan_carpet_from_light_blue_carpet.json
++ cyan_carpet_from_light_gray_carpet.json
++ cyan_carpet_from_lime_carpet.json
++ cyan_carpet_from_magenta_carpet.json
++ cyan_carpet_from_orange_carpet.json
++ cyan_carpet_from_pink_carpet.json
++ cyan_carpet_from_purple_carpet.json
++ cyan_carpet_from_red_carpet.json
++ cyan_carpet_from_yellow_carpet.json
++ cyan_wool_from_black_wool.json
++ cyan_wool_from_blue_wool.json
++ cyan_wool_from_brown_wool.json
++ cyan_wool_from_gray_wool.json
++ cyan_wool_from_green_wool.json
++ cyan_wool_from_light_blue_wool.json
++ cyan_wool_from_light_gray_wool.json
++ cyan_wool_from_lime_wool.json
++ cyan_wool_from_magenta_wool.json
++ cyan_wool_from_orange_wool.json
++ cyan_wool_from_pink_wool.json
++ cyan_wool_from_purple_wool.json
++ cyan_wool_from_red_wool.json
++ cyan_wool_from_white_wool.json
++ cyan_wool_from_yellow_wool.json
+- cyan_wool.json
++ gray_bed_from_black_bed.json
++ gray_bed_from_blue_bed.json
++ gray_bed_from_brown_bed.json
++ gray_bed_from_cyan_bed.json
++ gray_bed_from_green_bed.json
++ gray_bed_from_light_blue_bed.json
++ gray_bed_from_light_gray_bed.json
++ gray_bed_from_lime_bed.json
++ gray_bed_from_magenta_bed.json
++ gray_bed_from_orange_bed.json
++ gray_bed_from_pink_bed.json
++ gray_bed_from_purple_bed.json
++ gray_bed_from_red_bed.json
++ gray_bed_from_yellow_bed.json
++ gray_carpet_from_black_carpet.json
++ gray_carpet_from_blue_carpet.json
++ gray_carpet_from_brown_carpet.json
++ gray_carpet_from_cyan_carpet.json
++ gray_carpet_from_green_carpet.json
++ gray_carpet_from_light_blue_carpet.json
++ gray_carpet_from_light_gray_carpet.json
++ gray_carpet_from_lime_carpet.json
++ gray_carpet_from_magenta_carpet.json
++ gray_carpet_from_orange_carpet.json
++ gray_carpet_from_pink_carpet.json
++ gray_carpet_from_purple_carpet.json
++ gray_carpet_from_red_carpet.json
++ gray_carpet_from_yellow_carpet.json
++ gray_wool_from_black_wool.json
++ gray_wool_from_blue_wool.json
++ gray_wool_from_brown_wool.json
++ gray_wool_from_cyan_wool.json
++ gray_wool_from_green_wool.json
++ gray_wool_from_light_blue_wool.json
++ gray_wool_from_light_gray_wool.json
++ gray_wool_from_lime_wool.json
++ gray_wool_from_magenta_wool.json
++ gray_wool_from_orange_wool.json
++ gray_wool_from_pink_wool.json
++ gray_wool_from_purple_wool.json
++ gray_wool_from_red_wool.json
++ gray_wool_from_white_wool.json
++ gray_wool_from_yellow_wool.json
+- gray_wool.json
++ green_bed_from_black_bed.json
++ green_bed_from_blue_bed.json
++ green_bed_from_brown_bed.json
++ green_bed_from_cyan_bed.json
++ green_bed_from_gray_bed.json
++ green_bed_from_light_blue_bed.json
++ green_bed_from_light_gray_bed.json
++ green_bed_from_lime_bed.json
++ green_bed_from_magenta_bed.json
++ green_bed_from_orange_bed.json
++ green_bed_from_pink_bed.json
++ green_bed_from_purple_bed.json
++ green_bed_from_red_bed.json
++ green_bed_from_yellow_bed.json
++ green_carpet_from_black_carpet.json
++ green_carpet_from_blue_carpet.json
++ green_carpet_from_brown_carpet.json
++ green_carpet_from_cyan_carpet.json
++ green_carpet_from_gray_carpet.json
++ green_carpet_from_light_blue_carpet.json
++ green_carpet_from_light_gray_carpet.json
++ green_carpet_from_lime_carpet.json
++ green_carpet_from_magenta_carpet.json
++ green_carpet_from_orange_carpet.json
++ green_carpet_from_pink_carpet.json
++ green_carpet_from_purple_carpet.json
++ green_carpet_from_red_carpet.json
++ green_carpet_from_yellow_carpet.json
++ green_wool_from_black_wool.json
++ green_wool_from_blue_wool.json
++ green_wool_from_brown_wool.json
++ green_wool_from_cyan_wool.json
++ green_wool_from_gray_wool.json
++ green_wool_from_light_blue_wool.json
++ green_wool_from_light_gray_wool.json
++ green_wool_from_lime_wool.json
++ green_wool_from_magenta_wool.json
++ green_wool_from_orange_wool.json
++ green_wool_from_pink_wool.json
++ green_wool_from_purple_wool.json
++ green_wool_from_red_wool.json
++ green_wool_from_white_wool.json
++ green_wool_from_yellow_wool.json
+- green_wool.json
++ light_blue_bed_from_black_bed.json
++ light_blue_bed_from_blue_bed.json
++ light_blue_bed_from_brown_bed.json
++ light_blue_bed_from_cyan_bed.json
++ light_blue_bed_from_gray_bed.json
++ light_blue_bed_from_green_bed.json
++ light_blue_bed_from_light_gray_bed.json
++ light_blue_bed_from_lime_bed.json
++ light_blue_bed_from_magenta_bed.json
++ light_blue_bed_from_orange_bed.json
++ light_blue_bed_from_pink_bed.json
++ light_blue_bed_from_purple_bed.json
++ light_blue_bed_from_red_bed.json
++ light_blue_bed_from_yellow_bed.json
++ light_blue_carpet_from_black_carpet.json
++ light_blue_carpet_from_blue_carpet.json
++ light_blue_carpet_from_brown_carpet.json
++ light_blue_carpet_from_cyan_carpet.json
++ light_blue_carpet_from_gray_carpet.json
++ light_blue_carpet_from_green_carpet.json
++ light_blue_carpet_from_light_gray_carpet.json
++ light_blue_carpet_from_lime_carpet.json
++ light_blue_carpet_from_magenta_carpet.json
++ light_blue_carpet_from_orange_carpet.json
++ light_blue_carpet_from_pink_carpet.json
++ light_blue_carpet_from_purple_carpet.json
++ light_blue_carpet_from_red_carpet.json
++ light_blue_carpet_from_yellow_carpet.json
++ light_blue_wool_from_black_wool.json
++ light_blue_wool_from_blue_wool.json
++ light_blue_wool_from_brown_wool.json
++ light_blue_wool_from_cyan_wool.json
++ light_blue_wool_from_gray_wool.json
++ light_blue_wool_from_green_wool.json
++ light_blue_wool_from_light_gray_wool.json
++ light_blue_wool_from_lime_wool.json
++ light_blue_wool_from_magenta_wool.json
++ light_blue_wool_from_orange_wool.json
++ light_blue_wool_from_pink_wool.json
++ light_blue_wool_from_purple_wool.json
++ light_blue_wool_from_red_wool.json
++ light_blue_wool_from_white_wool.json
++ light_blue_wool_from_yellow_wool.json
+- light_blue_wool.json
++ light_gray_bed_from_black_bed.json
++ light_gray_bed_from_blue_bed.json
++ light_gray_bed_from_brown_bed.json
++ light_gray_bed_from_cyan_bed.json
++ light_gray_bed_from_gray_bed.json
++ light_gray_bed_from_green_bed.json
++ light_gray_bed_from_light_blue_bed.json
++ light_gray_bed_from_lime_bed.json
++ light_gray_bed_from_magenta_bed.json
++ light_gray_bed_from_orange_bed.json
++ light_gray_bed_from_pink_bed.json
++ light_gray_bed_from_purple_bed.json
++ light_gray_bed_from_red_bed.json
++ light_gray_bed_from_yellow_bed.json
++ light_gray_carpet_from_black_carpet.json
++ light_gray_carpet_from_blue_carpet.json
++ light_gray_carpet_from_brown_carpet.json
++ light_gray_carpet_from_cyan_carpet.json
++ light_gray_carpet_from_gray_carpet.json
++ light_gray_carpet_from_green_carpet.json
++ light_gray_carpet_from_light_blue_carpet.json
++ light_gray_carpet_from_lime_carpet.json
++ light_gray_carpet_from_magenta_carpet.json
++ light_gray_carpet_from_orange_carpet.json
++ light_gray_carpet_from_pink_carpet.json
++ light_gray_carpet_from_purple_carpet.json
++ light_gray_carpet_from_red_carpet.json
++ light_gray_carpet_from_yellow_carpet.json
++ light_gray_wool_from_black_wool.json
++ light_gray_wool_from_blue_wool.json
++ light_gray_wool_from_brown_wool.json
++ light_gray_wool_from_cyan_wool.json
++ light_gray_wool_from_gray_wool.json
++ light_gray_wool_from_green_wool.json
++ light_gray_wool_from_light_blue_wool.json
++ light_gray_wool_from_lime_wool.json
++ light_gray_wool_from_magenta_wool.json
++ light_gray_wool_from_orange_wool.json
++ light_gray_wool_from_pink_wool.json
++ light_gray_wool_from_purple_wool.json
++ light_gray_wool_from_red_wool.json
++ light_gray_wool_from_white_wool.json
++ light_gray_wool_from_yellow_wool.json
+- light_gray_wool.json
++ lime_bed_from_black_bed.json
++ lime_bed_from_blue_bed.json
++ lime_bed_from_brown_bed.json
++ lime_bed_from_cyan_bed.json
++ lime_bed_from_gray_bed.json
++ lime_bed_from_green_bed.json
++ lime_bed_from_light_blue_bed.json
++ lime_bed_from_light_gray_bed.json
++ lime_bed_from_magenta_bed.json
++ lime_bed_from_orange_bed.json
++ lime_bed_from_pink_bed.json
++ lime_bed_from_purple_bed.json
++ lime_bed_from_red_bed.json
++ lime_bed_from_yellow_bed.json
++ lime_carpet_from_black_carpet.json
++ lime_carpet_from_blue_carpet.json
++ lime_carpet_from_brown_carpet.json
++ lime_carpet_from_cyan_carpet.json
++ lime_carpet_from_gray_carpet.json
++ lime_carpet_from_green_carpet.json
++ lime_carpet_from_light_blue_carpet.json
++ lime_carpet_from_light_gray_carpet.json
++ lime_carpet_from_magenta_carpet.json
++ lime_carpet_from_orange_carpet.json
++ lime_carpet_from_pink_carpet.json
++ lime_carpet_from_purple_carpet.json
++ lime_carpet_from_red_carpet.json
++ lime_carpet_from_yellow_carpet.json
++ lime_wool_from_black_wool.json
++ lime_wool_from_blue_wool.json
++ lime_wool_from_brown_wool.json
++ lime_wool_from_cyan_wool.json
++ lime_wool_from_gray_wool.json
++ lime_wool_from_green_wool.json
++ lime_wool_from_light_blue_wool.json
++ lime_wool_from_light_gray_wool.json
++ lime_wool_from_magenta_wool.json
++ lime_wool_from_orange_wool.json
++ lime_wool_from_pink_wool.json
++ lime_wool_from_purple_wool.json
++ lime_wool_from_red_wool.json
++ lime_wool_from_white_wool.json
++ lime_wool_from_yellow_wool.json
+- lime_wool.json
++ magenta_bed_from_black_bed.json
++ magenta_bed_from_blue_bed.json
++ magenta_bed_from_brown_bed.json
++ magenta_bed_from_cyan_bed.json
++ magenta_bed_from_gray_bed.json
++ magenta_bed_from_green_bed.json
++ magenta_bed_from_light_blue_bed.json
++ magenta_bed_from_light_gray_bed.json
++ magenta_bed_from_lime_bed.json
++ magenta_bed_from_orange_bed.json
++ magenta_bed_from_pink_bed.json
++ magenta_bed_from_purple_bed.json
++ magenta_bed_from_red_bed.json
++ magenta_bed_from_yellow_bed.json
++ magenta_carpet_from_black_carpet.json
++ magenta_carpet_from_blue_carpet.json
++ magenta_carpet_from_brown_carpet.json
++ magenta_carpet_from_cyan_carpet.json
++ magenta_carpet_from_gray_carpet.json
++ magenta_carpet_from_green_carpet.json
++ magenta_carpet_from_light_blue_carpet.json
++ magenta_carpet_from_light_gray_carpet.json
++ magenta_carpet_from_lime_carpet.json
++ magenta_carpet_from_orange_carpet.json
++ magenta_carpet_from_pink_carpet.json
++ magenta_carpet_from_purple_carpet.json
++ magenta_carpet_from_red_carpet.json
++ magenta_carpet_from_yellow_carpet.json
++ magenta_wool_from_black_wool.json
++ magenta_wool_from_blue_wool.json
++ magenta_wool_from_brown_wool.json
++ magenta_wool_from_cyan_wool.json
++ magenta_wool_from_gray_wool.json
++ magenta_wool_from_green_wool.json
++ magenta_wool_from_light_blue_wool.json
++ magenta_wool_from_light_gray_wool.json
++ magenta_wool_from_lime_wool.json
++ magenta_wool_from_orange_wool.json
++ magenta_wool_from_pink_wool.json
++ magenta_wool_from_purple_wool.json
++ magenta_wool_from_red_wool.json
++ magenta_wool_from_white_wool.json
++ magenta_wool_from_yellow_wool.json
+- magenta_wool.json
++ orange_bed_from_black_bed.json
++ orange_bed_from_blue_bed.json
++ orange_bed_from_brown_bed.json
++ orange_bed_from_cyan_bed.json
++ orange_bed_from_gray_bed.json
++ orange_bed_from_green_bed.json
++ orange_bed_from_light_blue_bed.json
++ orange_bed_from_light_gray_bed.json
++ orange_bed_from_lime_bed.json
++ orange_bed_from_magenta_bed.json
++ orange_bed_from_pink_bed.json
++ orange_bed_from_purple_bed.json
++ orange_bed_from_red_bed.json
++ orange_bed_from_yellow_bed.json
++ orange_carpet_from_black_carpet.json
++ orange_carpet_from_blue_carpet.json
++ orange_carpet_from_brown_carpet.json
++ orange_carpet_from_cyan_carpet.json
++ orange_carpet_from_gray_carpet.json
++ orange_carpet_from_green_carpet.json
++ orange_carpet_from_light_blue_carpet.json
++ orange_carpet_from_light_gray_carpet.json
++ orange_carpet_from_lime_carpet.json
++ orange_carpet_from_magenta_carpet.json
++ orange_carpet_from_pink_carpet.json
++ orange_carpet_from_purple_carpet.json
++ orange_carpet_from_red_carpet.json
++ orange_carpet_from_yellow_carpet.json
++ orange_wool_from_black_wool.json
++ orange_wool_from_blue_wool.json
++ orange_wool_from_brown_wool.json
++ orange_wool_from_cyan_wool.json
++ orange_wool_from_gray_wool.json
++ orange_wool_from_green_wool.json
++ orange_wool_from_light_blue_wool.json
++ orange_wool_from_light_gray_wool.json
++ orange_wool_from_lime_wool.json
++ orange_wool_from_magenta_wool.json
++ orange_wool_from_pink_wool.json
++ orange_wool_from_purple_wool.json
++ orange_wool_from_red_wool.json
++ orange_wool_from_white_wool.json
++ orange_wool_from_yellow_wool.json
+- orange_wool.json
++ pink_bed_from_black_bed.json
++ pink_bed_from_blue_bed.json
++ pink_bed_from_brown_bed.json
++ pink_bed_from_cyan_bed.json
++ pink_bed_from_gray_bed.json
++ pink_bed_from_green_bed.json
++ pink_bed_from_light_blue_bed.json
++ pink_bed_from_light_gray_bed.json
++ pink_bed_from_lime_bed.json
++ pink_bed_from_magenta_bed.json
++ pink_bed_from_orange_bed.json
++ pink_bed_from_purple_bed.json
++ pink_bed_from_red_bed.json
++ pink_bed_from_yellow_bed.json
++ pink_carpet_from_black_carpet.json
++ pink_carpet_from_blue_carpet.json
++ pink_carpet_from_brown_carpet.json
++ pink_carpet_from_cyan_carpet.json
++ pink_carpet_from_gray_carpet.json
++ pink_carpet_from_green_carpet.json
++ pink_carpet_from_light_blue_carpet.json
++ pink_carpet_from_light_gray_carpet.json
++ pink_carpet_from_lime_carpet.json
++ pink_carpet_from_magenta_carpet.json
++ pink_carpet_from_orange_carpet.json
++ pink_carpet_from_purple_carpet.json
++ pink_carpet_from_red_carpet.json
++ pink_carpet_from_yellow_carpet.json
++ pink_wool_from_black_wool.json
++ pink_wool_from_blue_wool.json
++ pink_wool_from_brown_wool.json
++ pink_wool_from_cyan_wool.json
++ pink_wool_from_gray_wool.json
++ pink_wool_from_green_wool.json
++ pink_wool_from_light_blue_wool.json
++ pink_wool_from_light_gray_wool.json
++ pink_wool_from_lime_wool.json
++ pink_wool_from_magenta_wool.json
++ pink_wool_from_orange_wool.json
++ pink_wool_from_purple_wool.json
++ pink_wool_from_red_wool.json
++ pink_wool_from_white_wool.json
++ pink_wool_from_yellow_wool.json
+- pink_wool.json
++ purple_bed_from_black_bed.json
++ purple_bed_from_blue_bed.json
++ purple_bed_from_brown_bed.json
++ purple_bed_from_cyan_bed.json
++ purple_bed_from_gray_bed.json
++ purple_bed_from_green_bed.json
++ purple_bed_from_light_blue_bed.json
++ purple_bed_from_light_gray_bed.json
++ purple_bed_from_lime_bed.json
++ purple_bed_from_magenta_bed.json
++ purple_bed_from_orange_bed.json
++ purple_bed_from_pink_bed.json
++ purple_bed_from_red_bed.json
++ purple_bed_from_yellow_bed.json
++ purple_carpet_from_black_carpet.json
++ purple_carpet_from_blue_carpet.json
++ purple_carpet_from_brown_carpet.json
++ purple_carpet_from_cyan_carpet.json
++ purple_carpet_from_gray_carpet.json
++ purple_carpet_from_green_carpet.json
++ purple_carpet_from_light_blue_carpet.json
++ purple_carpet_from_light_gray_carpet.json
++ purple_carpet_from_lime_carpet.json
++ purple_carpet_from_magenta_carpet.json
++ purple_carpet_from_orange_carpet.json
++ purple_carpet_from_pink_carpet.json
++ purple_carpet_from_red_carpet.json
++ purple_carpet_from_yellow_carpet.json
++ purple_wool_from_black_wool.json
++ purple_wool_from_blue_wool.json
++ purple_wool_from_brown_wool.json
++ purple_wool_from_cyan_wool.json
++ purple_wool_from_gray_wool.json
++ purple_wool_from_green_wool.json
++ purple_wool_from_light_blue_wool.json
++ purple_wool_from_light_gray_wool.json
++ purple_wool_from_lime_wool.json
++ purple_wool_from_magenta_wool.json
++ purple_wool_from_orange_wool.json
++ purple_wool_from_pink_wool.json
++ purple_wool_from_red_wool.json
++ purple_wool_from_white_wool.json
++ purple_wool_from_yellow_wool.json
+- purple_wool.json
++ red_bed_from_black_bed.json
++ red_bed_from_blue_bed.json
++ red_bed_from_brown_bed.json
++ red_bed_from_cyan_bed.json
++ red_bed_from_gray_bed.json
++ red_bed_from_green_bed.json
++ red_bed_from_light_blue_bed.json
++ red_bed_from_light_gray_bed.json
++ red_bed_from_lime_bed.json
++ red_bed_from_magenta_bed.json
++ red_bed_from_orange_bed.json
++ red_bed_from_pink_bed.json
++ red_bed_from_purple_bed.json
++ red_bed_from_yellow_bed.json
++ red_carpet_from_black_carpet.json
++ red_carpet_from_blue_carpet.json
++ red_carpet_from_brown_carpet.json
++ red_carpet_from_cyan_carpet.json
++ red_carpet_from_gray_carpet.json
++ red_carpet_from_green_carpet.json
++ red_carpet_from_light_blue_carpet.json
++ red_carpet_from_light_gray_carpet.json
++ red_carpet_from_lime_carpet.json
++ red_carpet_from_magenta_carpet.json
++ red_carpet_from_orange_carpet.json
++ red_carpet_from_pink_carpet.json
++ red_carpet_from_purple_carpet.json
++ red_carpet_from_yellow_carpet.json
++ red_wool_from_black_wool.json
++ red_wool_from_blue_wool.json
++ red_wool_from_brown_wool.json
++ red_wool_from_cyan_wool.json
++ red_wool_from_gray_wool.json
++ red_wool_from_green_wool.json
++ red_wool_from_light_blue_wool.json
++ red_wool_from_light_gray_wool.json
++ red_wool_from_lime_wool.json
++ red_wool_from_magenta_wool.json
++ red_wool_from_orange_wool.json
++ red_wool_from_pink_wool.json
++ red_wool_from_purple_wool.json
++ red_wool_from_white_wool.json
++ red_wool_from_yellow_wool.json
+- red_wool.json
++ white_bed_from_black_bed.json
++ white_bed_from_blue_bed.json
++ white_bed_from_brown_bed.json
++ white_bed_from_cyan_bed.json
++ white_bed_from_gray_bed.json
++ white_bed_from_green_bed.json
++ white_bed_from_light_blue_bed.json
++ white_bed_from_light_gray_bed.json
++ white_bed_from_lime_bed.json
++ white_bed_from_magenta_bed.json
++ white_bed_from_orange_bed.json
++ white_bed_from_pink_bed.json
++ white_bed_from_purple_bed.json
++ white_bed_from_red_bed.json
++ white_bed_from_yellow_bed.json
++ white_carpet_from_black_carpet.json
++ white_carpet_from_blue_carpet.json
++ white_carpet_from_brown_carpet.json
++ white_carpet_from_cyan_carpet.json
++ white_carpet_from_gray_carpet.json
++ white_carpet_from_green_carpet.json
++ white_carpet_from_light_blue_carpet.json
++ white_carpet_from_light_gray_carpet.json
++ white_carpet_from_lime_carpet.json
++ white_carpet_from_magenta_carpet.json
++ white_carpet_from_orange_carpet.json
++ white_carpet_from_pink_carpet.json
++ white_carpet_from_purple_carpet.json
++ white_carpet_from_red_carpet.json
++ white_carpet_from_yellow_carpet.json
++ white_wool_from_black_wool.json
++ white_wool_from_blue_wool.json
++ white_wool_from_brown_wool.json
++ white_wool_from_cyan_wool.json
++ white_wool_from_gray_wool.json
++ white_wool_from_green_wool.json
++ white_wool_from_light_blue_wool.json
++ white_wool_from_light_gray_wool.json
++ white_wool_from_lime_wool.json
++ white_wool_from_magenta_wool.json
++ white_wool_from_orange_wool.json
++ white_wool_from_pink_wool.json
++ white_wool_from_purple_wool.json
++ white_wool_from_red_wool.json
++ white_wool_from_yellow_wool.json
++ yellow_bed_from_black_bed.json
++ yellow_bed_from_blue_bed.json
++ yellow_bed_from_brown_bed.json
++ yellow_bed_from_cyan_bed.json
++ yellow_bed_from_gray_bed.json
++ yellow_bed_from_green_bed.json
++ yellow_bed_from_light_blue_bed.json
++ yellow_bed_from_light_gray_bed.json
++ yellow_bed_from_lime_bed.json
++ yellow_bed_from_magenta_bed.json
++ yellow_bed_from_orange_bed.json
++ yellow_bed_from_pink_bed.json
++ yellow_bed_from_purple_bed.json
++ yellow_bed_from_red_bed.json
++ yellow_carpet_from_black_carpet.json
++ yellow_carpet_from_blue_carpet.json
++ yellow_carpet_from_brown_carpet.json
++ yellow_carpet_from_cyan_carpet.json
++ yellow_carpet_from_gray_carpet.json
++ yellow_carpet_from_green_carpet.json
++ yellow_carpet_from_light_blue_carpet.json
++ yellow_carpet_from_light_gray_carpet.json
++ yellow_carpet_from_lime_carpet.json
++ yellow_carpet_from_magenta_carpet.json
++ yellow_carpet_from_orange_carpet.json
++ yellow_carpet_from_pink_carpet.json
++ yellow_carpet_from_purple_carpet.json
++ yellow_carpet_from_red_carpet.json
++ yellow_wool_from_black_wool.json
++ yellow_wool_from_blue_wool.json
++ yellow_wool_from_brown_wool.json
++ yellow_wool_from_cyan_wool.json
++ yellow_wool_from_gray_wool.json
++ yellow_wool_from_green_wool.json
++ yellow_wool_from_light_blue_wool.json
++ yellow_wool_from_light_gray_wool.json
++ yellow_wool_from_lime_wool.json
++ yellow_wool_from_magenta_wool.json
++ yellow_wool_from_orange_wool.json
++ yellow_wool_from_pink_wool.json
++ yellow_wool_from_purple_wool.json
++ yellow_wool_from_red_wool.json
++ yellow_wool_from_white_wool.json
+- yellow_wool.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:text2speech:1.16.7
++ com.mojang:text2speech:1.16.8
+```
+
+</details>

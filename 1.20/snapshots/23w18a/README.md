@@ -1,3947 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w18a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w18a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-05-03T11:29:26+00:00</td></tr>
-<tr><th>SHA1</th><td>d0385f6a5b22e0f7f3d53debf7f3ae5b76fdc407</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/d0385f6a5b22e0f7f3d53debf7f3ae5b76fdc407/23w18a.json">https://piston-meta.mojang.com/v1/packages/d0385f6a5b22e0f7f3d53debf7f3ae5b76fdc407/23w18a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json">https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json</a></td></tr>
+<tr><th>SHA1</th><td>685db26d5af3dbdf2537bfe154dfc181dc20cb58</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/685db26d5af3dbdf2537bfe154dfc181dc20cb58/23w18a.json">https://piston-meta.mojang.com/v1/packages/685db26d5af3dbdf2537bfe154dfc181dc20cb58/23w18a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json">https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/240177c763b6009ea81aaf0ef14a73822320856d/server.jar">https://piston-data.mojang.com/v1/objects/240177c763b6009ea81aaf0ef14a73822320856d/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7015077a47c07e8d129280b73a40e8ddb11fc589/server.txt">https://piston-data.mojang.com/v1/objects/7015077a47c07e8d129280b73a40e8ddb11fc589/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/a634e77f4292dba7af15f84fac946bf221dd1839/client.jar">https://piston-data.mojang.com/v1/objects/a634e77f4292dba7af15f84fac946bf221dd1839/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d7d4457501369240ae12b6c7ec0836e449604396/client.txt">https://piston-data.mojang.com/v1/objects/d7d4457501369240ae12b6c7ec0836e449604396/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w17a">23w17a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/read_power_of_chiseled_bookshelf.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/shaders/core/block.fsh
--  minecraft/shaders/core/block.json
--  minecraft/shaders/core/block.vsh
--  minecraft/shaders/core/new_entity.fsh
--  minecraft/shaders/core/new_entity.json
--  minecraft/shaders/core/new_entity.vsh
-+  minecraft/shaders/core/rendertype_gui.fsh
-+  minecraft/shaders/core/rendertype_gui.json
-+  minecraft/shaders/core/rendertype_gui.vsh
-+  minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.fsh
-+  minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.json
-+  minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.vsh
-+  minecraft/shaders/core/rendertype_gui_overlay.fsh
-+  minecraft/shaders/core/rendertype_gui_overlay.json
-+  minecraft/shaders/core/rendertype_gui_overlay.vsh
-+  minecraft/shaders/core/rendertype_gui_text_highlight.fsh
-+  minecraft/shaders/core/rendertype_gui_text_highlight.json
-+  minecraft/shaders/core/rendertype_gui_text_highlight.vsh
-```
 
-</details>
-
-## Registries
-
-<details><summary>loot_condition_type.txt</summary>
-
-```diff
-- minecraft:alternative
-+ minecraft:all_of
-+ minecraft:any_of
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/read_power_of_chiseled_bookshelf.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w18a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.font.SpaceProvider</summary>
-
-```diff
-+ float lambda$new$0(Float)
-+ void <init>(Map)
-+ void lambda$new$1(Float)
-- Either lambda$builderFromJson$3(GlyphProviderBuilder$Loader)
-- float lambda$new$0(float)
-- GlyphProvider lambda$builderFromJson$2(ResourceManager)
-- GlyphProviderBuilder builderFromJson(JsonObject)
-- void <init>(Int2FloatMap)
-- void lambda$new$1(Int2FloatMap$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_DONT_SEND_TELEMETRY_TO_BACKEND
-+ boolean DEBUG_SUPPORT_BLOCKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
-
-```diff
-+ boolean sendsTelemetryEvent
-+ Advancement$Builder recipeAdvancement()
-+ void <init>(boolean)
-+ void <init>(String[][],boolean)
-- void <init>()
-- void <init>(String[][])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ FilledBucketTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- FilledBucketTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance</summary>
-
-```diff
-+ ContextAwarePredicate entity
-- EntityPredicate$Composite entity
-+ void <init>(ItemPredicate)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(ItemPredicate[])
-- void <init>(ItemPredicate[])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
-
-```diff
-+ ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-+ void <init>(MinMaxBounds$Ints)
-- ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance</summary>
-
-```diff
-+ ContextAwarePredicate[] victims
-- EntityPredicate$Composite[] victims
-+ void <init>(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
-
-```diff
-+ ContextAwarePredicate entityPredicate
-- EntityPredicate$Composite entityPredicate
-+ void <init>(DamageSourcePredicate)
-- void <init>(DamageSourcePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ LightningStrikeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- LightningStrikeTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PickedUpItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PickedUpItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PlayerHurtEntityTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PlayerHurtEntityTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PlayerInteractTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PlayerInteractTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(ContextAwarePredicate)
-- void <init>(EntityPredicate$Composite)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(List)
-- void <init>(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ShotCrossbowTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ShotCrossbowTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(com.google.gson.JsonObject,net.minecraft.advancements.critereon.ContextAwarePredicate,net.minecraft.advancements.critereon.DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(com.google.gson.JsonObject,net.minecraft.advancements.critereon.EntityPredicate$Composite,net.minecraft.advancements.critereon.DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.SlideDownBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(StatePropertiesPredicate)
-- void <init>(StatePropertiesPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.StartRidingTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ StartRidingTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- StartRidingTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance</summary>
-
-```diff
-+ ContextAwarePredicate entity
-- EntityPredicate$Composite entity
-+ void <init>(ContextAwarePredicate)
-- void <init>(EntityPredicate$Composite)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TradeTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TradeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TradeTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.DebugScreenOverlay</summary>
-
-```diff
-+ LevelChunk lambda$getServerChunk$6(ChunkAccess)
-+ LevelChunk lambda$getServerChunk$7(ChunkHolder$ChunkLoadingFailure)
-+ LevelChunk lambda$getServerChunk$8(Either)
-+ Optional lambda$getLevel$5(IntegratedServer)
-+ String lambda$getGameInformation$2(MobCategory)
-+ String lambda$getSystemInformation$10(TagKey)
-+ String lambda$printBiome$3(ResourceKey)
-+ String lambda$printBiome$4(Biome)
-+ void lambda$render$1(GuiGraphics)
-+ void renderLines(List,boolean)
-- LevelChunk lambda$getServerChunk$5(ChunkAccess)
-- LevelChunk lambda$getServerChunk$6(ChunkHolder$ChunkLoadingFailure)
-- LevelChunk lambda$getServerChunk$7(Either)
-- Optional lambda$getLevel$4(IntegratedServer)
-- String lambda$getGameInformation$1(MobCategory)
-- String lambda$getSystemInformation$8(TagKey)
-- String lambda$printBiome$2(ResourceKey)
-- String lambda$printBiome$3(Biome)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.LevelLoadingScreen</summary>
-
-```diff
-+ void lambda$renderChunks$0(StoringChunkProgressListener,int,int,int)
-+ void lambda$static$1(Object2IntOpenHashMap)
-- void lambda$static$0(Object2IntOpenHashMap)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
-
-```diff
-+ WorldSessionTelemetryManager telemetryManager
-+ void <init>(WorldSessionTelemetryManager)
-- void <init>(Minecraft)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
-
-```diff
-+ String minigameName
-+ void setMinigameName(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
-
-```diff
-+ ShaderInstance rendertypeGuiGhostRecipeOverlayShader
-+ ShaderInstance rendertypeGuiOverlayShader
-+ ShaderInstance rendertypeGuiShader
-+ ShaderInstance rendertypeGuiTextHighlightShader
-- ShaderInstance blockShader
-- ShaderInstance newEntityShader
-+ boolean lambda$pick$61(Entity)
-+ ShaderInstance getRendertypeGuiGhostRecipeOverlayShader()
-+ ShaderInstance getRendertypeGuiOverlayShader()
-+ ShaderInstance getRendertypeGuiShader()
-+ ShaderInstance getRendertypeGuiTextHighlightShader()
-+ String lambda$render$62()
-+ String lambda$render$64(int,int)
-+ String lambda$render$65()
-+ String lambda$render$66()
-+ void lambda$reloadShaders$57(ShaderInstance)
-+ void lambda$reloadShaders$58(ShaderInstance)
-+ void lambda$reloadShaders$59(Pair)
-+ void lambda$reloadShaders$60(Pair)
-+ void lambda$takeAutoScreenshot$68(Path)
-+ void lambda$tryTakeScreenshotIfNeeded$67(Path)
-- boolean lambda$pick$59(Entity)
-- ShaderInstance getBlockShader()
-- ShaderInstance getNewEntityShader()
-- String lambda$render$60()
-- String lambda$render$61()
-- String lambda$render$62(int,int)
-- String lambda$render$64()
-- void lambda$reloadShaders$57(Pair)
-- void lambda$reloadShaders$58(Pair)
-- void lambda$takeAutoScreenshot$66(Path)
-- void lambda$tryTakeScreenshotIfNeeded$65(Path)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.LevelRenderer</summary>
-
-```diff
-+ Vec3 mixColor(float)
-+ Vec3 shiftHue(float,float,float,float)
-+ void renderVoxelShape(VoxelShape,double,double,double,float,float,float,float,boolean)
-- void renderVoxelShape(VoxelShape,double,double,double,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.telemetry.TelemetryEventType</summary>
-
-```diff
-+ TelemetryEventType ADVANCEMENT_MADE
-+ TelemetryEventType GAME_LOAD_TIMES
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.telemetry.WorldSessionTelemetryManager</summary>
-
-```diff
-+ void <init>(String)
-+ void lambda$onAdvancementDone$1(TelemetryPropertyMap$Builder)
-+ void onAdvancementDone(Advancement)
-- void <init>(Duration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
-
-```diff
-+ AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Direction)
-+ CriterionTriggerInstance placedBlockReadByComparator(Block)
-+ CriterionTriggerInstance placedComparatorReadingBlock(Block)
-+ LootItemCondition$Builder lambda$placedBlockReadByComparator$0(Direction)
-+ LootItemCondition$Builder[] lambda$placedBlockReadByComparator$1(int)
-+ LootItemCondition$Builder[] lambda$placedComparatorReadingBlock$3(int)
-+ String[] lambda$respectingTheRemnantsCriterions$5(int)
-+ void lambda$smithingWithStyle$4(Item)
-- String[] lambda$respectingTheRemnantsCriterions$1(int)
-- void lambda$smithingWithStyle$0(Item)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaNetherAdvancements</summary>
-
-```diff
-+ ContextAwarePredicate DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE
-- EntityPredicate$Composite DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.syncher.SynchedEntityData</summary>
-
-```diff
-+ boolean hasItem(EntityDataAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.JigsawStructure</summary>
-
-```diff
-+ DataResult verifyRange(JigsawStructure)
-- DataResult lambda$verifyRange$9(JigsawStructure)
-- Function verifyRange()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.LightEngine</summary>
-
-```diff
-+ LongOpenHashSet blockNodesToCheck
-- LongSet blockNodesToCheck
-- boolean lambda$clearQueuedSectionBlocks$0(long,long)
-- void clearQueuedSectionBlocks(long)
-```
-
-</details>
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.font.package-info
@@ -4689,65 +779,43 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
+<details><summary>com.mojang.blaze3d.font.SpaceProvider</summary>
 
 ```diff
-+ boolean DEBUG_DONT_SEND_TELEMETRY_TO_BACKEND
-+ boolean DEBUG_SUPPORT_BLOCKS
+- Either lambda$builderFromJson$3(GlyphProviderBuilder$Loader)
+- float lambda$new$0(float)
++ float lambda$new$0(Float)
+- GlyphProvider lambda$builderFromJson$2(Int2FloatMap,ResourceManager)
+- GlyphProviderBuilder builderFromJson(JsonObject)
+- void <init>(Int2FloatMap)
++ void <init>(Map)
+- void lambda$new$1(Int2FloatMap$Entry)
++ void lambda$new$1(Integer,Float)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.Advancement$Builder</summary>
 
 ```diff
-+ boolean sendsTelemetryEvent
 + Advancement$Builder recipeAdvancement()
-+ void <init>(boolean)
-+ void <init>(String[][],boolean)
 - void <init>()
-- void <init>(String[][])
++ void <init>(boolean)
++ void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],boolean)
+- void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][])
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
@@ -4756,81 +824,82 @@
 <details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ FilledBucketTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- FilledBucketTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ FilledBucketTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- FilledBucketTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
@@ -4839,32 +908,30 @@
 <details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance</summary>
 
 ```diff
-+ ContextAwarePredicate entity
-- EntityPredicate$Composite entity
-+ void <init>(ItemPredicate)
-- void <init>(ItemPredicate)
++ void <init>(ContextAwarePredicate,ItemPredicate,ContextAwarePredicate,ItemPredicate)
+- void <init>(EntityPredicate$Composite,ItemPredicate,EntityPredicate$Composite,ItemPredicate)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(ItemPredicate[])
-- void <init>(ItemPredicate[])
++ void <init>(ContextAwarePredicate,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])
+- void <init>(EntityPredicate$Composite,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
 
 ```diff
-+ ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-+ void <init>(MinMaxBounds$Ints)
-- ItemDurabilityTrigger$TriggerInstance changedDurability(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
++ ItemDurabilityTrigger$TriggerInstance changedDurability(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints)
+- ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)
++ void <init>(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)
 ```
 
 </details>
@@ -4873,30 +940,28 @@
 <details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance</summary>
 
 ```diff
-+ ContextAwarePredicate[] victims
-- EntityPredicate$Composite[] victims
-+ void <init>(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
++ void <init>(ContextAwarePredicate,ContextAwarePredicate[],MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,EntityPredicate$Composite[],MinMaxBounds$Ints)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
 
 ```diff
-+ ContextAwarePredicate entityPredicate
-- EntityPredicate$Composite entityPredicate
-+ void <init>(DamageSourcePredicate)
-- void <init>(DamageSourcePredicate)
++ void <init>(ResourceLocation,ContextAwarePredicate,ContextAwarePredicate,DamageSourcePredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite,EntityPredicate$Composite,DamageSourcePredicate)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(MinMaxBounds$Ints)
-- void <init>(MinMaxBounds$Ints)
++ void <init>(ContextAwarePredicate,DistancePredicate,MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,DistancePredicate,MinMaxBounds$Ints)
 ```
 
 </details>
@@ -4905,10 +970,10 @@
 <details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ LightningStrikeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- LightningStrikeTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
@@ -4917,737 +982,327 @@
 <details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ LootTableTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- LootTableTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PickedUpItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PickedUpItemTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PlayerHurtEntityTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PlayerHurtEntityTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PlayerInteractTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PlayerInteractTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(ContextAwarePredicate)
-- void <init>(EntityPredicate$Composite)
++ void <init>(ResourceLocation,ContextAwarePredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(List)
-- void <init>(List)
++ void <init>(ContextAwarePredicate,ResourceLocation,List)
+- void <init>(EntityPredicate$Composite,ResourceLocation,List)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
++ void <init>(ContextAwarePredicate,ResourceLocation)
+- void <init>(EntityPredicate$Composite,ResourceLocation)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ShotCrossbowTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ShotCrossbowTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.SimpleCriterionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(com.google.gson.JsonObject,net.minecraft.advancements.critereon.ContextAwarePredicate,net.minecraft.advancements.critereon.DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(com.google.gson.JsonObject,net.minecraft.advancements.critereon.EntityPredicate$Composite,net.minecraft.advancements.critereon.DeserializationContext)
-```
-
-</details>
 
 <details><summary>net.minecraft.advancements.critereon.SlideDownBlockTrigger$TriggerInstance</summary>
 
 ```diff
-+ void <init>(StatePropertiesPredicate)
-- void <init>(StatePropertiesPredicate)
++ void <init>(ContextAwarePredicate,Block,StatePropertiesPredicate)
+- void <init>(EntityPredicate$Composite,Block,StatePropertiesPredicate)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.StartRidingTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ StartRidingTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- StartRidingTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ StartRidingTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- StartRidingTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance</summary>
 
 ```diff
-+ ContextAwarePredicate entity
-- EntityPredicate$Composite entity
-+ void <init>(ContextAwarePredicate)
-- void <init>(EntityPredicate$Composite)
++ void <init>(ContextAwarePredicate,ContextAwarePredicate)
+- void <init>(EntityPredicate$Composite,EntityPredicate$Composite)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TameAnimalTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TameAnimalTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TargetBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TargetBlockTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.TradeTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TradeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TradeTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TradeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TradeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsedTotemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsedTotemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.advancements.critereon.UsingItemTrigger</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsingItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsingItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.components.DebugScreenOverlay</summary>
+
+```diff
+- LevelChunk lambda$getServerChunk$5(ChunkAccess)
++ LevelChunk lambda$getServerChunk$6(ChunkAccess)
+- LevelChunk lambda$getServerChunk$6(ChunkHolder$ChunkLoadingFailure)
++ LevelChunk lambda$getServerChunk$7(ChunkHolder$ChunkLoadingFailure)
+- LevelChunk lambda$getServerChunk$7(Either)
++ LevelChunk lambda$getServerChunk$8(Either)
+- Optional lambda$getLevel$4(IntegratedServer)
++ Optional lambda$getLevel$5(IntegratedServer)
+- String lambda$getGameInformation$1(Object2IntMap,MobCategory)
++ String lambda$getGameInformation$2(Object2IntMap,MobCategory)
++ String lambda$getSystemInformation$10(TagKey)
+- String lambda$getSystemInformation$8(TagKey)
+- String lambda$printBiome$2(ResourceKey)
+- String lambda$printBiome$3(Biome)
++ String lambda$printBiome$3(ResourceKey)
++ String lambda$printBiome$4(Biome)
++ void lambda$render$1(GuiGraphics)
++ void renderLines(GuiGraphics,List,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.LevelLoadingScreen</summary>
+
+```diff
++ void lambda$renderChunks$0(int,GuiGraphics,int,int,int,int,int,StoringChunkProgressListener,int,int,int)
+- void lambda$static$0(Object2IntOpenHashMap)
++ void lambda$static$1(Object2IntOpenHashMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
+
+```diff
++ void <init>(Minecraft,WorldSessionTelemetryManager)
+- void <init>(Minecraft)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
+
+```diff
++ void setMinigameName(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
+
+```diff
+- boolean lambda$pick$59(Entity)
++ boolean lambda$pick$61(Entity)
+- ShaderInstance getBlockShader()
+- ShaderInstance getNewEntityShader()
++ ShaderInstance getRendertypeGuiGhostRecipeOverlayShader()
++ ShaderInstance getRendertypeGuiOverlayShader()
++ ShaderInstance getRendertypeGuiShader()
++ ShaderInstance getRendertypeGuiTextHighlightShader()
+- String lambda$render$60()
+- String lambda$render$61()
++ String lambda$render$62()
+- String lambda$render$62(int,int)
+- String lambda$render$64()
++ String lambda$render$64(int,int)
++ String lambda$render$65()
++ String lambda$render$66()
+- void lambda$reloadShaders$57(Pair)
++ void lambda$reloadShaders$57(ShaderInstance)
+- void lambda$reloadShaders$58(Pair)
++ void lambda$reloadShaders$58(ShaderInstance)
++ void lambda$reloadShaders$59(Pair)
++ void lambda$reloadShaders$60(Pair)
+- void lambda$takeAutoScreenshot$66(NativeImage,Path)
++ void lambda$takeAutoScreenshot$68(NativeImage,Path)
+- void lambda$tryTakeScreenshotIfNeeded$65(Path)
++ void lambda$tryTakeScreenshotIfNeeded$67(Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.LevelRenderer</summary>
+
+```diff
++ Vec3 mixColor(float)
++ Vec3 shiftHue(float,float,float,float)
++ void renderVoxelShape(PoseStack,VertexConsumer,VoxelShape,double,double,double,float,float,float,float,boolean)
+- void renderVoxelShape(PoseStack,VertexConsumer,VoxelShape,double,double,double,float,float,float,float)
+```
+
+</details>
+
 
+<details><summary>net.minecraft.client.telemetry.WorldSessionTelemetryManager</summary>
 
+```diff
++ void <init>(TelemetryEventSender,boolean,Duration,String)
+- void <init>(TelemetryEventSender,boolean,Duration)
++ void lambda$onAdvancementDone$1(ResourceLocation,long,TelemetryPropertyMap$Builder)
++ void onAdvancementDone(Level,Advancement)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
 
 ```diff
-+ AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Direction)
++ AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Block,Direction)
 + CriterionTriggerInstance placedBlockReadByComparator(Block)
 + CriterionTriggerInstance placedComparatorReadingBlock(Block)
 + LootItemCondition$Builder lambda$placedBlockReadByComparator$0(Direction)
 + LootItemCondition$Builder[] lambda$placedBlockReadByComparator$1(int)
 + LootItemCondition$Builder[] lambda$placedComparatorReadingBlock$3(int)
-+ String[] lambda$respectingTheRemnantsCriterions$5(int)
-+ void lambda$smithingWithStyle$4(Item)
 - String[] lambda$respectingTheRemnantsCriterions$1(int)
-- void lambda$smithingWithStyle$0(Item)
++ String[] lambda$respectingTheRemnantsCriterions$5(int)
+- void lambda$smithingWithStyle$0(Map,Advancement$Builder,Item)
++ void lambda$smithingWithStyle$4(Map,Advancement$Builder,Item)
 ```
 
 </details>
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaNetherAdvancements</summary>
-
-```diff
-+ ContextAwarePredicate DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE
-- EntityPredicate$Composite DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.syncher.SynchedEntityData</summary>
@@ -5659,2014 +1314,33 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.Bootstrap</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.JigsawStructure</summary>
 
 ```diff
-+ AtomicLong bootstrapDuration
+- DataResult lambda$verifyRange$9(JigsawStructure)
++ DataResult verifyRange(JigsawStructure)
+- Function verifyRange()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
+<details><summary>net.minecraft.world.level.lighting.LightEngine</summary>
 
 ```diff
-+ MapCodec validate(Function)
+- boolean lambda$clearQueuedSectionBlocks$0(long,long)
+- void clearQueuedSectionBlocks(long)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ Optional mainSupportingBlockPos
-+ BlockState lambda$checkFallDamage$1(BlockPos)
-+ boolean isStateClimbable(BlockState)
-+ boolean lambda$findDimensionEntryPoint$6(BlockPos)
-+ boolean lambda$hasExactlyOnePlayerPassenger$16(Entity)
-+ boolean lambda$isInWall$2(BlockPos)
-+ boolean lambda$removePassenger$5(Entity)
-+ boolean lambda$startRiding$3(Entity)
-+ boolean vibrationAndSoundEffectsFromBlock(Vec3)
-+ Iterator lambda$getIndirectPassengers$15()
-+ PortalInfo lambda$findDimensionEntryPoint$7(BlockUtil$FoundRectangle)
-+ String lambda$fillCrashReportCategory$11()
-+ Style lambda$getDisplayName$12(Style)
-+ void checkSupportingBlock(boolean)
-+ void lambda$refreshDimensions$14(Vec3)
-+ void lambda$startRiding$4(Entity)
-+ void lambda$teleportPassengers$13(Entity)
-- boolean lambda$findDimensionEntryPoint$5(BlockPos)
-- boolean lambda$hasExactlyOnePlayerPassenger$15(Entity)
-- boolean lambda$isInWall$1(BlockPos)
-- boolean lambda$removePassenger$4(Entity)
-- boolean lambda$startRiding$2(Entity)
-- boolean walkingOnBlock(Vec3)
-- Iterator lambda$getIndirectPassengers$14()
-- PortalInfo lambda$findDimensionEntryPoint$6(BlockUtil$FoundRectangle)
-- String lambda$fillCrashReportCategory$7()
-- Style lambda$getDisplayName$11(Style)
-- void lambda$refreshDimensions$13(Vec3)
-- void lambda$startRiding$3(Entity)
-- void lambda$teleportPassengers$12(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ float getJumpBoostPower()
-- double getJumpBoostPower()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
-
-```diff
-+ EntityDimensions DIGGING_DIMENSIONS
-+ float DIGGING_BB_HEIGHT_OFFSET
-+ EntityDimensions getDimensions(Pose)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BlockCollisions</summary>
-
-```diff
-+ BiFunction resultProvider
-+ void <init>(BiFunction)
-- void <init>(AABB,boolean)
-- void <init>(AABB)
-- VoxelShape computeNext()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CollisionGetter</summary>
-
-```diff
-+ AABB lambda$findFreePosition$6(AABB)
-+ BlockPos lambda$findSupportingBlock$3(VoxelShape)
-+ boolean lambda$findFreePosition$4(VoxelShape)
-+ Iterator lambda$getBlockCollisions$1(AABB)
-+ Optional findSupportingBlock(AABB)
-+ Stream lambda$findFreePosition$5(VoxelShape)
-+ VoxelShape lambda$collidesWithSuffocatingBlock$2(VoxelShape)
-+ VoxelShape lambda$getBlockCollisions$0(VoxelShape)
-- AABB lambda$findFreePosition$3(AABB)
-- boolean lambda$findFreePosition$1(VoxelShape)
-- Iterator lambda$getBlockCollisions$0(AABB)
-- Stream lambda$findFreePosition$2(VoxelShape)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.SpawnData$CustomSpawnRules</summary>
-
-```diff
-+ MapCodec lightLimit(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement</summary>
-
-```diff
-+ DataResult validate(RandomSpreadStructurePlacement)
-+ String lambda$validate$1()
-- DataResult lambda$static$2(RandomSpreadStructurePlacement)
-- String lambda$static$1()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.ContextAwarePredicate
@@ -8112,13 +1786,609 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
+
+```diff
++ Advancement$Builder recipeAdvancement()
+- void <init>()
++ void <init>(boolean)
++ void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][],boolean)
+- void <init>(ResourceLocation,DisplayInfo,AdvancementRewards,Map,String[][])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FilledBucketTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ FilledBucketTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- FilledBucketTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,ItemPredicate,ContextAwarePredicate,ItemPredicate)
+- void <init>(EntityPredicate$Composite,ItemPredicate,EntityPredicate$Composite,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])
+- void <init>(EntityPredicate$Composite,MinMaxBounds$Ints,MinMaxBounds$Ints,MinMaxBounds$Ints,ItemPredicate[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemDurabilityTrigger$TriggerInstance</summary>
+
+```diff
++ ItemDurabilityTrigger$TriggerInstance changedDurability(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints)
+- ItemDurabilityTrigger$TriggerInstance changedDurability(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints)
++ void <init>(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,ItemPredicate,MinMaxBounds$Ints,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.KilledByCrossbowTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,ContextAwarePredicate[],MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,EntityPredicate$Composite[],MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ResourceLocation,ContextAwarePredicate,ContextAwarePredicate,DamageSourcePredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite,EntityPredicate$Composite,DamageSourcePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LevitationTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,DistancePredicate,MinMaxBounds$Ints)
+- void <init>(EntityPredicate$Composite,DistancePredicate,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LightningStrikeTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- LightningStrikeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ LootTableTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- LootTableTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PickedUpItemTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PickedUpItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerHurtEntityTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PlayerHurtEntityTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerInteractTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- PlayerInteractTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ResourceLocation,ContextAwarePredicate)
+- void <init>(ResourceLocation,EntityPredicate$Composite)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,ResourceLocation,List)
+- void <init>(EntityPredicate$Composite,ResourceLocation,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,ResourceLocation)
+- void <init>(EntityPredicate$Composite,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ShotCrossbowTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- ShotCrossbowTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.SlideDownBlockTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,Block,StatePropertiesPredicate)
+- void <init>(EntityPredicate$Composite,Block,StatePropertiesPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.StartRidingTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ StartRidingTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- StartRidingTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance</summary>
+
+```diff
++ void <init>(ContextAwarePredicate,ContextAwarePredicate)
+- void <init>(EntityPredicate$Composite,EntityPredicate$Composite)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TameAnimalTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TameAnimalTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TargetBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TargetBlockTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TradeTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ TradeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- TradeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsedTotemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsedTotemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger</summary>
+
+```diff
++ AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- AbstractCriterionTriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
++ UsingItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
+- UsingItemTrigger$TriggerInstance createInstance(JsonObject,EntityPredicate$Composite,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
+
+```diff
++ AllOfCondition$Builder lambda$placedComparatorReadingBlock$2(Block,Direction)
++ CriterionTriggerInstance placedBlockReadByComparator(Block)
++ CriterionTriggerInstance placedComparatorReadingBlock(Block)
++ LootItemCondition$Builder lambda$placedBlockReadByComparator$0(Direction)
++ LootItemCondition$Builder[] lambda$placedBlockReadByComparator$1(int)
++ LootItemCondition$Builder[] lambda$placedComparatorReadingBlock$3(int)
+- String[] lambda$respectingTheRemnantsCriterions$1(int)
++ String[] lambda$respectingTheRemnantsCriterions$5(int)
+- void lambda$smithingWithStyle$0(Map,Advancement$Builder,Item)
++ void lambda$smithingWithStyle$4(Map,Advancement$Builder,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.SynchedEntityData</summary>
+
+```diff
++ boolean hasItem(EntityDataAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ MapCodec validate(MapCodec,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ BlockState lambda$checkFallDamage$1(BlockPos)
++ boolean isStateClimbable(BlockState)
+- boolean lambda$findDimensionEntryPoint$5(BlockState,BlockPos)
++ boolean lambda$findDimensionEntryPoint$6(BlockState,BlockPos)
+- boolean lambda$hasExactlyOnePlayerPassenger$15(Entity)
++ boolean lambda$hasExactlyOnePlayerPassenger$16(Entity)
+- boolean lambda$isInWall$1(AABB,BlockPos)
++ boolean lambda$isInWall$2(AABB,BlockPos)
+- boolean lambda$removePassenger$4(Entity,Entity)
++ boolean lambda$removePassenger$5(Entity,Entity)
+- boolean lambda$startRiding$2(Entity)
++ boolean lambda$startRiding$3(Entity)
++ boolean vibrationAndSoundEffectsFromBlock(BlockPos,BlockState,boolean,boolean,Vec3)
+- boolean walkingOnBlock(boolean,Vec3)
+- Iterator lambda$getIndirectPassengers$14()
++ Iterator lambda$getIndirectPassengers$15()
+- PortalInfo lambda$findDimensionEntryPoint$6(ServerLevel,BlockUtil$FoundRectangle)
++ PortalInfo lambda$findDimensionEntryPoint$7(ServerLevel,BlockUtil$FoundRectangle)
++ String lambda$fillCrashReportCategory$11()
+- String lambda$fillCrashReportCategory$7()
+- Style lambda$getDisplayName$11(Style)
++ Style lambda$getDisplayName$12(Style)
++ void checkSupportingBlock(boolean)
+- void lambda$refreshDimensions$13(EntityDimensions,Vec3)
++ void lambda$refreshDimensions$14(EntityDimensions,Vec3)
+- void lambda$startRiding$3(Entity)
++ void lambda$startRiding$4(Entity)
+- void lambda$teleportPassengers$12(Entity)
++ void lambda$teleportPassengers$13(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
+- double getJumpBoostPower()
++ float getJumpBoostPower()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
+
+```diff
++ EntityDimensions getDimensions(Pose)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BlockCollisions</summary>
+
+```diff
++ void <init>(CollisionGetter,Entity,AABB,boolean,BiFunction)
+- void <init>(CollisionGetter,Entity,AABB,boolean)
+- void <init>(CollisionGetter,Entity,AABB)
+- VoxelShape computeNext()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.CollisionGetter</summary>
+
+```diff
+- AABB lambda$findFreePosition$3(double,double,double,AABB)
++ AABB lambda$findFreePosition$6(double,double,double,AABB)
++ BlockPos lambda$findSupportingBlock$3(BlockPos$MutableBlockPos,VoxelShape)
+- boolean lambda$findFreePosition$1(VoxelShape)
++ boolean lambda$findFreePosition$4(VoxelShape)
+- Iterator lambda$getBlockCollisions$0(Entity,AABB)
++ Iterator lambda$getBlockCollisions$1(Entity,AABB)
++ Optional findSupportingBlock(Entity,AABB)
+- Stream lambda$findFreePosition$2(VoxelShape)
++ Stream lambda$findFreePosition$5(VoxelShape)
++ VoxelShape lambda$collidesWithSuffocatingBlock$2(BlockPos$MutableBlockPos,VoxelShape)
++ VoxelShape lambda$getBlockCollisions$0(BlockPos$MutableBlockPos,VoxelShape)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.SpawnData$CustomSpawnRules</summary>
+
+```diff
++ MapCodec lightLimit(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement</summary>
+
+```diff
+- DataResult lambda$static$2(RandomSpreadStructurePlacement)
++ DataResult validate(RandomSpreadStructurePlacement)
+- String lambda$static$1()
++ String lambda$validate$1()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/read_power_of_chiseled_bookshelf.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/shaders/core/block.fsh
+- minecraft/shaders/core/block.json
+- minecraft/shaders/core/block.vsh
+- minecraft/shaders/core/new_entity.fsh
+- minecraft/shaders/core/new_entity.json
+- minecraft/shaders/core/new_entity.vsh
++ minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.fsh
++ minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.json
++ minecraft/shaders/core/rendertype_gui_ghost_recipe_overlay.vsh
++ minecraft/shaders/core/rendertype_gui_overlay.fsh
++ minecraft/shaders/core/rendertype_gui_overlay.json
++ minecraft/shaders/core/rendertype_gui_overlay.vsh
++ minecraft/shaders/core/rendertype_gui_text_highlight.fsh
++ minecraft/shaders/core/rendertype_gui_text_highlight.json
++ minecraft/shaders/core/rendertype_gui_text_highlight.vsh
++ minecraft/shaders/core/rendertype_gui.fsh
++ minecraft/shaders/core/rendertype_gui.json
++ minecraft/shaders/core/rendertype_gui.vsh
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>loot_condition_type.txt</summary>
+
+```diff
++ minecraft:all_of
+- minecraft:alternative
++ minecraft:any_of
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.read_power_from_chiseled_bookshelf.description
++ advancements.adventure.read_power_from_chiseled_bookshelf.title
++ telemetry.event.advancement_made.description
++ telemetry.event.advancement_made.title
++ telemetry.event.game_load_times.description
++ telemetry.event.game_load_times.title
++ telemetry.property.advancement_game_time.title
++ telemetry.property.advancement_id.title
++ telemetry.property.launcher_name.title
++ telemetry.property.load_time_bootstrap_ms.title
++ telemetry.property.load_time_loading_overlay_ms.title
++ telemetry.property.load_time_pre_window_ms.title
++ telemetry.property.load_time_total_time_ms.title
++ telemetry.property.realms_map_content.title
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/read_power_of_chiseled_bookshelf.json
+```
+
+</details>

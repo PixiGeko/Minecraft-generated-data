@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w06a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w06a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-02-05T16:05:22+00:00</td></tr>
@@ -10,3825 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/2b957fc9f6309bba9a2490cc41237dac22a98e45/server.txt">https://piston-data.mojang.com/v1/objects/2b957fc9f6309bba9a2490cc41237dac22a98e45/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/cb31534291e7e126f323cdc6596d481cc09753f5/client.jar">https://piston-data.mojang.com/v1/objects/cb31534291e7e126f323cdc6596d481cc09753f5/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1d5547f1e8246fbbde653403816f9b8f04604ec3/client.txt">https://piston-data.mojang.com/v1/objects/1d5547f1e8246fbbde653403816f9b8f04604ec3/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.15.2">1.15.2</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/crimson_planks.json
-+  minecraft/advancements/recipes/building_blocks/crimson_slab.json
-+  minecraft/advancements/recipes/building_blocks/crimson_stairs.json
-+  minecraft/advancements/recipes/building_blocks/netherite_block.json
-+  minecraft/advancements/recipes/building_blocks/warped_planks.json
-+  minecraft/advancements/recipes/building_blocks/warped_slab.json
-+  minecraft/advancements/recipes/building_blocks/warped_stairs.json
-+  minecraft/advancements/recipes/combat/netherite_boots.json
-+  minecraft/advancements/recipes/combat/netherite_chestplate.json
-+  minecraft/advancements/recipes/combat/netherite_helmet.json
-+  minecraft/advancements/recipes/combat/netherite_leggings.json
-+  minecraft/advancements/recipes/combat/netherite_sword.json
-+  minecraft/advancements/recipes/decorations/composter.json
-+  minecraft/advancements/recipes/decorations/crimson_fence.json
-+  minecraft/advancements/recipes/decorations/soul_fire_lantern.json
-+  minecraft/advancements/recipes/decorations/soul_fire_torch.json
-+  minecraft/advancements/recipes/decorations/warped_fence.json
--  minecraft/advancements/recipes/misc/composter.json
-+  minecraft/advancements/recipes/misc/netherite_ingot.json
-+  minecraft/advancements/recipes/misc/netherite_ingot_from_netherite_block.json
-+  minecraft/advancements/recipes/misc/netherite_scrap.json
-+  minecraft/advancements/recipes/misc/netherite_scrap_from_blasting.json
-+  minecraft/advancements/recipes/redstone/crimson_button.json
-+  minecraft/advancements/recipes/redstone/crimson_door.json
-+  minecraft/advancements/recipes/redstone/crimson_fence_gate.json
-+  minecraft/advancements/recipes/redstone/crimson_pressure_plate.json
-+  minecraft/advancements/recipes/redstone/crimson_trapdoor.json
-+  minecraft/advancements/recipes/redstone/warped_button.json
-+  minecraft/advancements/recipes/redstone/warped_door.json
-+  minecraft/advancements/recipes/redstone/warped_fence_gate.json
-+  minecraft/advancements/recipes/redstone/warped_pressure_plate.json
-+  minecraft/advancements/recipes/redstone/warped_trapdoor.json
-+  minecraft/advancements/recipes/tools/netherite_axe.json
-+  minecraft/advancements/recipes/tools/netherite_hoe.json
-+  minecraft/advancements/recipes/tools/netherite_pickaxe.json
-+  minecraft/advancements/recipes/tools/netherite_shovel.json
-+  minecraft/loot_tables/blocks/ancient_debris.json
-+  minecraft/loot_tables/blocks/basalt.json
-+  minecraft/loot_tables/blocks/crimson_button.json
-+  minecraft/loot_tables/blocks/crimson_door.json
-+  minecraft/loot_tables/blocks/crimson_fence.json
-+  minecraft/loot_tables/blocks/crimson_fence_gate.json
-+  minecraft/loot_tables/blocks/crimson_fungi.json
-+  minecraft/loot_tables/blocks/crimson_nylium.json
-+  minecraft/loot_tables/blocks/crimson_planks.json
-+  minecraft/loot_tables/blocks/crimson_pressure_plate.json
-+  minecraft/loot_tables/blocks/crimson_roots.json
-+  minecraft/loot_tables/blocks/crimson_sign.json
-+  minecraft/loot_tables/blocks/crimson_slab.json
-+  minecraft/loot_tables/blocks/crimson_stairs.json
-+  minecraft/loot_tables/blocks/crimson_stem.json
-+  minecraft/loot_tables/blocks/crimson_trapdoor.json
-+  minecraft/loot_tables/blocks/nether_sprouts.json
-+  minecraft/loot_tables/blocks/netherite_block.json
-+  minecraft/loot_tables/blocks/shroomlight.json
-+  minecraft/loot_tables/blocks/soul_fire_lantern.json
-+  minecraft/loot_tables/blocks/soul_fire_torch.json
-+  minecraft/loot_tables/blocks/soul_soil.json
-+  minecraft/loot_tables/blocks/stripped_crimson_stem.json
-+  minecraft/loot_tables/blocks/stripped_warped_stem.json
-+  minecraft/loot_tables/blocks/warped_button.json
-+  minecraft/loot_tables/blocks/warped_door.json
-+  minecraft/loot_tables/blocks/warped_fence.json
-+  minecraft/loot_tables/blocks/warped_fence_gate.json
-+  minecraft/loot_tables/blocks/warped_fungi.json
-+  minecraft/loot_tables/blocks/warped_nylium.json
-+  minecraft/loot_tables/blocks/warped_planks.json
-+  minecraft/loot_tables/blocks/warped_pressure_plate.json
-+  minecraft/loot_tables/blocks/warped_roots.json
-+  minecraft/loot_tables/blocks/warped_sign.json
-+  minecraft/loot_tables/blocks/warped_slab.json
-+  minecraft/loot_tables/blocks/warped_stairs.json
-+  minecraft/loot_tables/blocks/warped_stem.json
-+  minecraft/loot_tables/blocks/warped_trapdoor.json
-+  minecraft/loot_tables/blocks/warped_wart_block.json
-+  minecraft/loot_tables/blocks/weeping_vines.json
-+  minecraft/loot_tables/blocks/weeping_vines_plant.json
-+  minecraft/loot_tables/entities/hoglin.json
-+  minecraft/recipes/crimson_button.json
-+  minecraft/recipes/crimson_door.json
-+  minecraft/recipes/crimson_fence.json
-+  minecraft/recipes/crimson_fence_gate.json
-+  minecraft/recipes/crimson_planks.json
-+  minecraft/recipes/crimson_pressure_plate.json
-+  minecraft/recipes/crimson_slab.json
-+  minecraft/recipes/crimson_stairs.json
-+  minecraft/recipes/crimson_trapdoor.json
-+  minecraft/recipes/netherite_axe.json
-+  minecraft/recipes/netherite_block.json
-+  minecraft/recipes/netherite_boots.json
-+  minecraft/recipes/netherite_chestplate.json
-+  minecraft/recipes/netherite_helmet.json
-+  minecraft/recipes/netherite_hoe.json
-+  minecraft/recipes/netherite_ingot.json
-+  minecraft/recipes/netherite_ingot_from_netherite_block.json
-+  minecraft/recipes/netherite_leggings.json
-+  minecraft/recipes/netherite_pickaxe.json
-+  minecraft/recipes/netherite_scrap.json
-+  minecraft/recipes/netherite_scrap_from_blasting.json
-+  minecraft/recipes/netherite_shovel.json
-+  minecraft/recipes/netherite_sword.json
-+  minecraft/recipes/soul_fire_lantern.json
-+  minecraft/recipes/soul_fire_torch.json
-+  minecraft/recipes/warped_button.json
-+  minecraft/recipes/warped_door.json
-+  minecraft/recipes/warped_fence.json
-+  minecraft/recipes/warped_fence_gate.json
-+  minecraft/recipes/warped_planks.json
-+  minecraft/recipes/warped_pressure_plate.json
-+  minecraft/recipes/warped_slab.json
-+  minecraft/recipes/warped_stairs.json
-+  minecraft/recipes/warped_trapdoor.json
-+  minecraft/structures/nether_fossils
-+  minecraft/structures/nether_fossils/fossil_1.nbt
-+  minecraft/structures/nether_fossils/fossil_10.nbt
-+  minecraft/structures/nether_fossils/fossil_11.nbt
-+  minecraft/structures/nether_fossils/fossil_12.nbt
-+  minecraft/structures/nether_fossils/fossil_13.nbt
-+  minecraft/structures/nether_fossils/fossil_14.nbt
-+  minecraft/structures/nether_fossils/fossil_2.nbt
-+  minecraft/structures/nether_fossils/fossil_3.nbt
-+  minecraft/structures/nether_fossils/fossil_4.nbt
-+  minecraft/structures/nether_fossils/fossil_5.nbt
-+  minecraft/structures/nether_fossils/fossil_6.nbt
-+  minecraft/structures/nether_fossils/fossil_7.nbt
-+  minecraft/structures/nether_fossils/fossil_8.nbt
-+  minecraft/structures/nether_fossils/fossil_9.nbt
-+  minecraft/tags/blocks/crimson_stems.json
-+  minecraft/tags/blocks/fire.json
-+  minecraft/tags/blocks/nylium.json
-+  minecraft/tags/blocks/warped_stems.json
-+  minecraft/tags/blocks/wart_blocks.json
-+  minecraft/tags/items/crimson_stems.json
-+  minecraft/tags/items/warped_stems.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/ancient_debris.json
-+  minecraft/blockstates/basalt.json
-+  minecraft/blockstates/crimson_button.json
-+  minecraft/blockstates/crimson_door.json
-+  minecraft/blockstates/crimson_fence.json
-+  minecraft/blockstates/crimson_fence_gate.json
-+  minecraft/blockstates/crimson_fungi.json
-+  minecraft/blockstates/crimson_nylium.json
-+  minecraft/blockstates/crimson_planks.json
-+  minecraft/blockstates/crimson_pressure_plate.json
-+  minecraft/blockstates/crimson_roots.json
-+  minecraft/blockstates/crimson_sign.json
-+  minecraft/blockstates/crimson_slab.json
-+  minecraft/blockstates/crimson_stairs.json
-+  minecraft/blockstates/crimson_stem.json
-+  minecraft/blockstates/crimson_trapdoor.json
-+  minecraft/blockstates/crimson_wall_sign.json
-+  minecraft/blockstates/nether_sprouts.json
-+  minecraft/blockstates/netherite_block.json
-+  minecraft/blockstates/shroomlight.json
-+  minecraft/blockstates/soul_fire.json
-+  minecraft/blockstates/soul_fire_lantern.json
-+  minecraft/blockstates/soul_fire_torch.json
-+  minecraft/blockstates/soul_fire_wall_torch.json
-+  minecraft/blockstates/soul_soil.json
-+  minecraft/blockstates/stripped_crimson_stem.json
-+  minecraft/blockstates/stripped_warped_stem.json
-+  minecraft/blockstates/warped_button.json
-+  minecraft/blockstates/warped_door.json
-+  minecraft/blockstates/warped_fence.json
-+  minecraft/blockstates/warped_fence_gate.json
-+  minecraft/blockstates/warped_fungi.json
-+  minecraft/blockstates/warped_nylium.json
-+  minecraft/blockstates/warped_planks.json
-+  minecraft/blockstates/warped_pressure_plate.json
-+  minecraft/blockstates/warped_roots.json
-+  minecraft/blockstates/warped_sign.json
-+  minecraft/blockstates/warped_slab.json
-+  minecraft/blockstates/warped_stairs.json
-+  minecraft/blockstates/warped_stem.json
-+  minecraft/blockstates/warped_trapdoor.json
-+  minecraft/blockstates/warped_wall_sign.json
-+  minecraft/blockstates/warped_wart_block.json
-+  minecraft/blockstates/weeping_vines.json
-+  minecraft/blockstates/weeping_vines_plant.json
-+  minecraft/models/block/acacia_log_horizontal.json
-+  minecraft/models/block/ancient_debris.json
-+  minecraft/models/block/andesite_wall_side_tall.json
-+  minecraft/models/block/basalt.json
-+  minecraft/models/block/birch_log_horizontal.json
-+  minecraft/models/block/brick_wall_side_tall.json
-+  minecraft/models/block/cobblestone_wall_side_tall.json
-+  minecraft/models/block/crimson_button.json
-+  minecraft/models/block/crimson_button_inventory.json
-+  minecraft/models/block/crimson_button_pressed.json
-+  minecraft/models/block/crimson_door_bottom.json
-+  minecraft/models/block/crimson_door_bottom_hinge.json
-+  minecraft/models/block/crimson_door_top.json
-+  minecraft/models/block/crimson_door_top_hinge.json
-+  minecraft/models/block/crimson_fence_gate.json
-+  minecraft/models/block/crimson_fence_gate_open.json
-+  minecraft/models/block/crimson_fence_gate_wall.json
-+  minecraft/models/block/crimson_fence_gate_wall_open.json
-+  minecraft/models/block/crimson_fence_inventory.json
-+  minecraft/models/block/crimson_fence_post.json
-+  minecraft/models/block/crimson_fence_side.json
-+  minecraft/models/block/crimson_fungi.json
-+  minecraft/models/block/crimson_nylium.json
-+  minecraft/models/block/crimson_planks.json
-+  minecraft/models/block/crimson_pressure_plate.json
-+  minecraft/models/block/crimson_pressure_plate_down.json
-+  minecraft/models/block/crimson_roots.json
-+  minecraft/models/block/crimson_sign.json
-+  minecraft/models/block/crimson_slab.json
-+  minecraft/models/block/crimson_slab_top.json
-+  minecraft/models/block/crimson_stairs.json
-+  minecraft/models/block/crimson_stairs_inner.json
-+  minecraft/models/block/crimson_stairs_outer.json
-+  minecraft/models/block/crimson_stem.json
-+  minecraft/models/block/crimson_trapdoor_bottom.json
-+  minecraft/models/block/crimson_trapdoor_open.json
-+  minecraft/models/block/crimson_trapdoor_top.json
-+  minecraft/models/block/cube_column_horizontal.json
-+  minecraft/models/block/dark_oak_log_horizontal.json
-+  minecraft/models/block/diorite_wall_side_tall.json
-+  minecraft/models/block/end_stone_brick_wall_side_tall.json
--  minecraft/models/block/fire_floor.json
--  minecraft/models/block/fire_side.json
--  minecraft/models/block/fire_side_alt.json
--  minecraft/models/block/fire_up.json
--  minecraft/models/block/fire_up_alt.json
-+  minecraft/models/block/granite_wall_side_tall.json
-+  minecraft/models/block/hanging_soul_fire_lantern.json
-+  minecraft/models/block/hay_block_horizontal.json
-+  minecraft/models/block/jungle_log_horizontal.json
-+  minecraft/models/block/mossy_cobblestone_wall_side_tall.json
-+  minecraft/models/block/mossy_stone_brick_wall_side_tall.json
-+  minecraft/models/block/nether_brick_wall_side_tall.json
-+  minecraft/models/block/nether_sprouts.json
-+  minecraft/models/block/netherite_block.json
-+  minecraft/models/block/oak_log_horizontal.json
-+  minecraft/models/block/prismarine_wall_side_tall.json
-+  minecraft/models/block/purpur_pillar_horizontal.json
-+  minecraft/models/block/quartz_pillar_horizontal.json
-+  minecraft/models/block/red_nether_brick_wall_side_tall.json
-+  minecraft/models/block/red_sandstone_wall_side_tall.json
-+  minecraft/models/block/sandstone_wall_side_tall.json
-+  minecraft/models/block/shroomlight.json
-+  minecraft/models/block/soul_fire_floor0.json
-+  minecraft/models/block/soul_fire_floor1.json
-+  minecraft/models/block/soul_fire_lantern.json
-+  minecraft/models/block/soul_fire_side0.json
-+  minecraft/models/block/soul_fire_side1.json
-+  minecraft/models/block/soul_fire_side_alt0.json
-+  minecraft/models/block/soul_fire_side_alt1.json
-+  minecraft/models/block/soul_fire_torch.json
-+  minecraft/models/block/soul_fire_wall_torch.json
-+  minecraft/models/block/soul_soil.json
-+  minecraft/models/block/spruce_log_horizontal.json
-+  minecraft/models/block/stone_brick_wall_side_tall.json
-+  minecraft/models/block/stripped_acacia_log_horizontal.json
-+  minecraft/models/block/stripped_birch_log_horizontal.json
-+  minecraft/models/block/stripped_crimson_stem.json
-+  minecraft/models/block/stripped_dark_oak_log_horizontal.json
-+  minecraft/models/block/stripped_jungle_log_horizontal.json
-+  minecraft/models/block/stripped_oak_log_horizontal.json
-+  minecraft/models/block/stripped_spruce_log_horizontal.json
-+  minecraft/models/block/stripped_warped_stem.json
-+  minecraft/models/block/template_fire_floor.json
-+  minecraft/models/block/template_fire_side.json
-+  minecraft/models/block/template_fire_side_alt.json
-+  minecraft/models/block/template_fire_up.json
-+  minecraft/models/block/template_fire_up_alt.json
-+  minecraft/models/block/template_hanging_lantern.json
-+  minecraft/models/block/template_lantern.json
-+  minecraft/models/block/template_torch_wall.json
-+  minecraft/models/block/template_wall_side_tall.json
--  minecraft/models/block/torch_wall.json
-+  minecraft/models/block/warped_button.json
-+  minecraft/models/block/warped_button_inventory.json
-+  minecraft/models/block/warped_button_pressed.json
-+  minecraft/models/block/warped_door_bottom.json
-+  minecraft/models/block/warped_door_bottom_hinge.json
-+  minecraft/models/block/warped_door_top.json
-+  minecraft/models/block/warped_door_top_hinge.json
-+  minecraft/models/block/warped_fence_gate.json
-+  minecraft/models/block/warped_fence_gate_open.json
-+  minecraft/models/block/warped_fence_gate_wall.json
-+  minecraft/models/block/warped_fence_gate_wall_open.json
-+  minecraft/models/block/warped_fence_inventory.json
-+  minecraft/models/block/warped_fence_post.json
-+  minecraft/models/block/warped_fence_side.json
-+  minecraft/models/block/warped_fungi.json
-+  minecraft/models/block/warped_nylium.json
-+  minecraft/models/block/warped_planks.json
-+  minecraft/models/block/warped_pressure_plate.json
-+  minecraft/models/block/warped_pressure_plate_down.json
-+  minecraft/models/block/warped_roots.json
-+  minecraft/models/block/warped_sign.json
-+  minecraft/models/block/warped_slab.json
-+  minecraft/models/block/warped_slab_top.json
-+  minecraft/models/block/warped_stairs.json
-+  minecraft/models/block/warped_stairs_inner.json
-+  minecraft/models/block/warped_stairs_outer.json
-+  minecraft/models/block/warped_stem.json
-+  minecraft/models/block/warped_trapdoor_bottom.json
-+  minecraft/models/block/warped_trapdoor_open.json
-+  minecraft/models/block/warped_trapdoor_top.json
-+  minecraft/models/block/warped_wart_block.json
-+  minecraft/models/block/weeping_vines.json
-+  minecraft/models/block/weeping_vines_plant.json
-+  minecraft/models/item/ancient_debris.json
-+  minecraft/models/item/basalt.json
-+  minecraft/models/item/crimson_button.json
-+  minecraft/models/item/crimson_door.json
-+  minecraft/models/item/crimson_fence.json
-+  minecraft/models/item/crimson_fence_gate.json
-+  minecraft/models/item/crimson_fungi.json
-+  minecraft/models/item/crimson_nylium.json
-+  minecraft/models/item/crimson_planks.json
-+  minecraft/models/item/crimson_pressure_plate.json
-+  minecraft/models/item/crimson_roots.json
-+  minecraft/models/item/crimson_sign.json
-+  minecraft/models/item/crimson_slab.json
-+  minecraft/models/item/crimson_stairs.json
-+  minecraft/models/item/crimson_stem.json
-+  minecraft/models/item/crimson_trapdoor.json
-+  minecraft/models/item/hoglin_spawn_egg.json
-+  minecraft/models/item/nether_sprouts.json
-+  minecraft/models/item/netherite_axe.json
-+  minecraft/models/item/netherite_block.json
-+  minecraft/models/item/netherite_boots.json
-+  minecraft/models/item/netherite_chestplate.json
-+  minecraft/models/item/netherite_helmet.json
-+  minecraft/models/item/netherite_hoe.json
-+  minecraft/models/item/netherite_ingot.json
-+  minecraft/models/item/netherite_leggings.json
-+  minecraft/models/item/netherite_pickaxe.json
-+  minecraft/models/item/netherite_scrap.json
-+  minecraft/models/item/netherite_shovel.json
-+  minecraft/models/item/netherite_sword.json
-+  minecraft/models/item/shroomlight.json
-+  minecraft/models/item/soul_fire_lantern.json
-+  minecraft/models/item/soul_fire_torch.json
-+  minecraft/models/item/soul_soil.json
-+  minecraft/models/item/stripped_crimson_stem.json
-+  minecraft/models/item/stripped_warped_stem.json
-+  minecraft/models/item/warped_button.json
-+  minecraft/models/item/warped_door.json
-+  minecraft/models/item/warped_fence.json
-+  minecraft/models/item/warped_fence_gate.json
-+  minecraft/models/item/warped_fungi.json
-+  minecraft/models/item/warped_nylium.json
-+  minecraft/models/item/warped_planks.json
-+  minecraft/models/item/warped_pressure_plate.json
-+  minecraft/models/item/warped_roots.json
-+  minecraft/models/item/warped_sign.json
-+  minecraft/models/item/warped_slab.json
-+  minecraft/models/item/warped_stairs.json
-+  minecraft/models/item/warped_stem.json
-+  minecraft/models/item/warped_trapdoor.json
-+  minecraft/models/item/warped_wart_block.json
-+  minecraft/models/item/weeping_vines.json
-+  minecraft/particles/ash.json
-+  minecraft/particles/crimson_spore.json
-+  minecraft/particles/soul_fire_flame.json
-+  minecraft/particles/warped_spore.json
-+  minecraft/textures/block/ancient_debris_side.png
-+  minecraft/textures/block/ancient_debris_top.png
-+  minecraft/textures/block/basalt_side.png
-+  minecraft/textures/block/basalt_top.png
-+  minecraft/textures/block/crimson_door_bottom.png
-+  minecraft/textures/block/crimson_door_top.png
-+  minecraft/textures/block/crimson_fungi.png
-+  minecraft/textures/block/crimson_nylium.png
-+  minecraft/textures/block/crimson_nylium_side.png
-+  minecraft/textures/block/crimson_planks.png
-+  minecraft/textures/block/crimson_roots.png
-+  minecraft/textures/block/crimson_stem.png
-+  minecraft/textures/block/crimson_stem.png.mcmeta
-+  minecraft/textures/block/crimson_stem_top.png
-+  minecraft/textures/block/crimson_trapdoor.png
-+  minecraft/textures/block/nether_sprouts.png
-+  minecraft/textures/block/netherite_block.png
-+  minecraft/textures/block/shroomlight.png
-+  minecraft/textures/block/soul_fire_0.png
-+  minecraft/textures/block/soul_fire_0.png.mcmeta
-+  minecraft/textures/block/soul_fire_1.png
-+  minecraft/textures/block/soul_fire_1.png.mcmeta
-+  minecraft/textures/block/soul_fire_lantern.png
-+  minecraft/textures/block/soul_fire_lantern.png.mcmeta
-+  minecraft/textures/block/soul_fire_torch.png
-+  minecraft/textures/block/soul_soil.png
-+  minecraft/textures/block/stripped_crimson_stem.png
-+  minecraft/textures/block/stripped_crimson_stem_top.png
-+  minecraft/textures/block/stripped_warped_stem.png
-+  minecraft/textures/block/stripped_warped_stem_top.png
-+  minecraft/textures/block/warped_door_bottom.png
-+  minecraft/textures/block/warped_door_top.png
-+  minecraft/textures/block/warped_fungi.png
-+  minecraft/textures/block/warped_nylium.png
-+  minecraft/textures/block/warped_nylium_side.png
-+  minecraft/textures/block/warped_planks.png
-+  minecraft/textures/block/warped_roots.png
-+  minecraft/textures/block/warped_stem.png
-+  minecraft/textures/block/warped_stem.png.mcmeta
-+  minecraft/textures/block/warped_stem_top.png
-+  minecraft/textures/block/warped_stripped_log_side.png
-+  minecraft/textures/block/warped_stripped_log_top.png
-+  minecraft/textures/block/warped_trapdoor.png
-+  minecraft/textures/block/warped_wart_block.png
-+  minecraft/textures/block/weeping_vines.png
-+  minecraft/textures/block/weeping_vines_plant.png
-+  minecraft/textures/entity/hoglin
-+  minecraft/textures/entity/hoglin/hoglin.png
-+  minecraft/textures/entity/signs/crimson.png
-+  minecraft/textures/entity/signs/warped.png
-+  minecraft/textures/item/crimson_door.png
-+  minecraft/textures/item/crimson_sign.png
-+  minecraft/textures/item/netherite_axe.png
-+  minecraft/textures/item/netherite_boots.png
-+  minecraft/textures/item/netherite_chestplate.png
-+  minecraft/textures/item/netherite_helmet.png
-+  minecraft/textures/item/netherite_hoe.png
-+  minecraft/textures/item/netherite_ingot.png
-+  minecraft/textures/item/netherite_leggings.png
-+  minecraft/textures/item/netherite_pickaxe.png
-+  minecraft/textures/item/netherite_scrap.png
-+  minecraft/textures/item/netherite_shovel.png
-+  minecraft/textures/item/netherite_sword.png
-+  minecraft/textures/item/soul_fire_lantern.png
-+  minecraft/textures/item/warped_door.png
-+  minecraft/textures/item/warped_sign.png
-+  minecraft/textures/models/armor/netherite_layer_1.png
-+  minecraft/textures/models/armor/netherite_layer_2.png
-+  minecraft/textures/particle/soul_fire_flame.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>biome.txt</summary>
-
-```diff
-- minecraft:nether
-+ minecraft:nether_wastes
-+ minecraft:soul_sand_valley
-+ minecraft:crimson_forest
-+ minecraft:warped_forest
-```
-
-</details>
-
-<details><summary>biome_source_type.txt</summary>
-
-```diff
-+ minecraft:multi_noise
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:soul_fire
-+ minecraft:soul_soil
-+ minecraft:basalt
-+ minecraft:soul_fire_torch
-+ minecraft:soul_fire_wall_torch
-+ minecraft:soul_fire_lantern
-+ minecraft:warped_stem
-+ minecraft:stripped_warped_stem
-+ minecraft:warped_nylium
-+ minecraft:warped_fungi
-+ minecraft:warped_wart_block
-+ minecraft:warped_roots
-+ minecraft:nether_sprouts
-+ minecraft:crimson_stem
-+ minecraft:stripped_crimson_stem
-+ minecraft:crimson_nylium
-+ minecraft:crimson_fungi
-+ minecraft:shroomlight
-+ minecraft:weeping_vines
-+ minecraft:weeping_vines_plant
-+ minecraft:crimson_roots
-+ minecraft:crimson_planks
-+ minecraft:warped_planks
-+ minecraft:crimson_slab
-+ minecraft:warped_slab
-+ minecraft:crimson_pressure_plate
-+ minecraft:warped_pressure_plate
-+ minecraft:crimson_fence
-+ minecraft:warped_fence
-+ minecraft:crimson_trapdoor
-+ minecraft:warped_trapdoor
-+ minecraft:crimson_fence_gate
-+ minecraft:warped_fence_gate
-+ minecraft:crimson_stairs
-+ minecraft:warped_stairs
-+ minecraft:crimson_button
-+ minecraft:warped_button
-+ minecraft:crimson_door
-+ minecraft:warped_door
-+ minecraft:crimson_sign
-+ minecraft:warped_sign
-+ minecraft:crimson_wall_sign
-+ minecraft:warped_wall_sign
-+ minecraft:netherite_block
-+ minecraft:ancient_debris
-```
-
-</details>
-
-<details><summary>carver.txt</summary>
-
-```diff
-- minecraft:hell_cave
-+ minecraft:nether_cave
-```
-
-</details>
-
-<details><summary>decorator.txt</summary>
-
-```diff
-- minecraft:hell_fire
-+ minecraft:fire
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:hoglin
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-+ minecraft:nether_fossil
-+ minecraft:huge_fungi
-+ minecraft:nether_forest_vegetation
-+ minecraft:weeping_vines
-+ minecraft:basalt_pillar
-+ minecraft:no_surface_ore
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:crimson_nylium
-+ minecraft:warped_nylium
-+ minecraft:crimson_planks
-+ minecraft:warped_planks
-+ minecraft:crimson_stem
-+ minecraft:warped_stem
-+ minecraft:stripped_crimson_stem
-+ minecraft:stripped_warped_stem
-+ minecraft:crimson_fungi
-+ minecraft:warped_fungi
-+ minecraft:crimson_roots
-+ minecraft:warped_roots
-+ minecraft:nether_sprouts
-+ minecraft:weeping_vines
-+ minecraft:crimson_slab
-+ minecraft:warped_slab
-+ minecraft:crimson_pressure_plate
-+ minecraft:warped_pressure_plate
-+ minecraft:crimson_fence
-+ minecraft:warped_fence
-+ minecraft:soul_soil
-+ minecraft:basalt
-+ minecraft:soul_fire_torch
-+ minecraft:crimson_trapdoor
-+ minecraft:warped_trapdoor
-+ minecraft:crimson_fence_gate
-+ minecraft:warped_fence_gate
-+ minecraft:crimson_stairs
-+ minecraft:warped_stairs
-+ minecraft:crimson_button
-+ minecraft:warped_button
-+ minecraft:warped_wart_block
-+ minecraft:crimson_door
-+ minecraft:warped_door
-+ minecraft:crimson_sign
-+ minecraft:warped_sign
-+ minecraft:hoglin_spawn_egg
-+ minecraft:soul_fire_lantern
-+ minecraft:shroomlight
-+ minecraft:netherite_block
-+ minecraft:ancient_debris
-+ minecraft:netherite_ingot
-+ minecraft:netherite_scrap
-+ minecraft:netherite_sword
-+ minecraft:netherite_shovel
-+ minecraft:netherite_pickaxe
-+ minecraft:netherite_axe
-+ minecraft:netherite_hoe
-+ minecraft:netherite_helmet
-+ minecraft:netherite_chestplate
-+ minecraft:netherite_leggings
-+ minecraft:netherite_boots
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:soul_fire_flame
-+ minecraft:ash
-+ minecraft:crimson_spore
-+ minecraft:warped_spore
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.ancient_debris.break
-+ minecraft:block.ancient_debris.step
-+ minecraft:block.ancient_debris.place
-+ minecraft:block.ancient_debris.hit
-+ minecraft:block.ancient_debris.fall
-+ minecraft:item.armor.equip_netherite
-+ minecraft:block.basalt.break
-+ minecraft:block.basalt.step
-+ minecraft:block.basalt.place
-+ minecraft:block.basalt.hit
-+ minecraft:block.basalt.fall
-+ minecraft:block.bone_block.break
-+ minecraft:block.bone_block.fall
-+ minecraft:block.bone_block.hit
-+ minecraft:block.bone_block.place
-+ minecraft:block.bone_block.step
-+ minecraft:block.roots.break
-+ minecraft:block.roots.step
-+ minecraft:block.roots.place
-+ minecraft:block.roots.hit
-+ minecraft:block.roots.fall
-+ minecraft:block.nether_bricks.break
-+ minecraft:block.nether_bricks.step
-+ minecraft:block.nether_bricks.place
-+ minecraft:block.nether_bricks.hit
-+ minecraft:block.nether_bricks.fall
-+ minecraft:block.stem.break
-+ minecraft:block.stem.step
-+ minecraft:block.stem.place
-+ minecraft:block.stem.hit
-+ minecraft:block.stem.fall
-+ minecraft:block.nylium.break
-+ minecraft:block.nylium.step
-+ minecraft:block.nylium.place
-+ minecraft:block.nylium.hit
-+ minecraft:block.nylium.fall
-+ minecraft:block.nether_sprouts.break
-+ minecraft:block.nether_sprouts.step
-+ minecraft:block.nether_sprouts.place
-+ minecraft:block.nether_sprouts.hit
-+ minecraft:block.nether_sprouts.fall
-+ minecraft:block.fungi.break
-+ minecraft:block.fungi.step
-+ minecraft:block.fungi.place
-+ minecraft:block.fungi.hit
-+ minecraft:block.fungi.fall
-+ minecraft:block.weeping_vines.break
-+ minecraft:block.weeping_vines.step
-+ minecraft:block.weeping_vines.place
-+ minecraft:block.weeping_vines.hit
-+ minecraft:block.weeping_vines.fall
-+ minecraft:block.wart_block.break
-+ minecraft:block.wart_block.step
-+ minecraft:block.wart_block.place
-+ minecraft:block.wart_block.hit
-+ minecraft:block.wart_block.fall
-+ minecraft:block.netherite_block.break
-+ minecraft:block.netherite_block.step
-+ minecraft:block.netherite_block.place
-+ minecraft:block.netherite_block.hit
-+ minecraft:block.netherite_block.fall
-+ minecraft:block.netherrack.break
-+ minecraft:block.netherrack.step
-+ minecraft:block.netherrack.place
-+ minecraft:block.netherrack.hit
-+ minecraft:block.netherrack.fall
-+ minecraft:block.nether_ore.break
-+ minecraft:block.nether_ore.fall
-+ minecraft:block.nether_ore.hit
-+ minecraft:block.nether_ore.place
-+ minecraft:block.nether_ore.step
-+ minecraft:block.shroomlight.break
-+ minecraft:block.shroomlight.step
-+ minecraft:block.shroomlight.place
-+ minecraft:block.shroomlight.hit
-+ minecraft:block.shroomlight.fall
-+ minecraft:block.soul_sand.break
-+ minecraft:block.soul_sand.step
-+ minecraft:block.soul_sand.place
-+ minecraft:block.soul_sand.hit
-+ minecraft:block.soul_sand.fall
-+ minecraft:block.soul_soil.break
-+ minecraft:block.soul_soil.step
-+ minecraft:block.soul_soil.place
-+ minecraft:block.soul_soil.hit
-+ minecraft:block.soul_soil.fall
-```
-
-</details>
-
-<details><summary>structure_feature.txt</summary>
-
-```diff
-+ minecraft:nether_fossil
-```
-
-</details>
-
-<details><summary>structure_piece.txt</summary>
-
-```diff
-+ minecraft:nefos
-```
-
-</details>
-
-<details><summary>surface_builder.txt</summary>
-
-```diff
-+ minecraft:nether_forest
-+ minecraft:soul_sand_valley
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ locatebiome.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/crimson_stems.json
-+ blocks/fire.json
-+ blocks/nylium.json
-+ blocks/warped_stems.json
-+ blocks/wart_blocks.json
-+ items/crimson_stems.json
-+ items/warped_stems.json
-```
-
-</details>
-
-<details><summary>blocks/planks.json</summary>
-
-```diff
-+ minecraft:crimson_planks
-+ minecraft:warped_planks
-```
-
-</details>
-
-<details><summary>blocks/slabs.json</summary>
-
-```diff
-- minecraft:acacia_slab
-- minecraft:birch_slab
-- minecraft:dark_oak_slab
-- minecraft:jungle_slab
-- minecraft:oak_slab
-- minecraft:spruce_slab
-+ #minecraft:wooden_slabs
-```
-
-</details>
-
-<details><summary>blocks/standing_signs.json</summary>
-
-```diff
-+ minecraft:crimson_sign
-+ minecraft:warped_sign
-```
-
-</details>
-
-<details><summary>blocks/wall_signs.json</summary>
-
-```diff
-+ minecraft:crimson_wall_sign
-+ minecraft:warped_wall_sign
-```
-
-</details>
-
-<details><summary>blocks/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:crimson_button
-+ minecraft:warped_button
-```
-
-</details>
-
-<details><summary>blocks/wooden_doors.json</summary>
-
-```diff
-+ minecraft:crimson_door
-+ minecraft:warped_door
-```
-
-</details>
-
-<details><summary>blocks/wooden_fences.json</summary>
-
-```diff
-+ minecraft:crimson_fence
-+ minecraft:warped_fence
-```
-
-</details>
-
-<details><summary>blocks/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:crimson_pressure_plate
-+ minecraft:warped_pressure_plate
-```
-
-</details>
-
-<details><summary>blocks/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:crimson_slab
-+ minecraft:warped_slab
-```
-
-</details>
-
-<details><summary>blocks/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:crimson_stairs
-+ minecraft:warped_stairs
-```
-
-</details>
-
-<details><summary>blocks/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:crimson_trapdoor
-+ minecraft:warped_trapdoor
-```
-
-</details>
-
-<details><summary>items/planks.json</summary>
-
-```diff
-+ minecraft:crimson_planks
-+ minecraft:warped_planks
-```
-
-</details>
-
-<details><summary>items/signs.json</summary>
-
-```diff
-+ minecraft:crimson_sign
-+ minecraft:warped_sign
-```
-
-</details>
-
-<details><summary>items/slabs.json</summary>
-
-```diff
-- minecraft:acacia_slab
-- minecraft:birch_slab
-- minecraft:dark_oak_slab
-- minecraft:jungle_slab
-- minecraft:oak_slab
-- minecraft:spruce_slab
-+ #minecraft:wooden_slabs
-```
-
-</details>
-
-<details><summary>items/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:crimson_button
-+ minecraft:warped_button
-```
-
-</details>
-
-<details><summary>items/wooden_doors.json</summary>
-
-```diff
-+ minecraft:crimson_door
-+ minecraft:warped_door
-```
-
-</details>
-
-<details><summary>items/wooden_fences.json</summary>
-
-```diff
-+ minecraft:crimson_fence
-+ minecraft:warped_fence
-```
-
-</details>
-
-<details><summary>items/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:crimson_pressure_plate
-+ minecraft:warped_pressure_plate
-```
-
-</details>
-
-<details><summary>items/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:crimson_slab
-+ minecraft:warped_slab
-```
-
-</details>
-
-<details><summary>items/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:crimson_stairs
-+ minecraft:warped_stairs
-```
-
-</details>
-
-<details><summary>items/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:crimson_trapdoor
-+ minecraft:warped_trapdoor
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/misc/composter.json
-+ recipes/building_blocks/crimson_planks.json
-+ recipes/building_blocks/crimson_slab.json
-+ recipes/building_blocks/crimson_stairs.json
-+ recipes/building_blocks/netherite_block.json
-+ recipes/building_blocks/warped_planks.json
-+ recipes/building_blocks/warped_slab.json
-+ recipes/building_blocks/warped_stairs.json
-+ recipes/combat/netherite_boots.json
-+ recipes/combat/netherite_chestplate.json
-+ recipes/combat/netherite_helmet.json
-+ recipes/combat/netherite_leggings.json
-+ recipes/combat/netherite_sword.json
-+ recipes/decorations/composter.json
-+ recipes/decorations/crimson_fence.json
-+ recipes/decorations/soul_fire_lantern.json
-+ recipes/decorations/soul_fire_torch.json
-+ recipes/decorations/warped_fence.json
-+ recipes/misc/netherite_ingot.json
-+ recipes/misc/netherite_ingot_from_netherite_block.json
-+ recipes/misc/netherite_scrap.json
-+ recipes/misc/netherite_scrap_from_blasting.json
-+ recipes/redstone/crimson_button.json
-+ recipes/redstone/crimson_door.json
-+ recipes/redstone/crimson_fence_gate.json
-+ recipes/redstone/crimson_pressure_plate.json
-+ recipes/redstone/crimson_trapdoor.json
-+ recipes/redstone/warped_button.json
-+ recipes/redstone/warped_door.json
-+ recipes/redstone/warped_fence_gate.json
-+ recipes/redstone/warped_pressure_plate.json
-+ recipes/redstone/warped_trapdoor.json
-+ recipes/tools/netherite_axe.json
-+ recipes/tools/netherite_hoe.json
-+ recipes/tools/netherite_pickaxe.json
-+ recipes/tools/netherite_shovel.json
-```
-
-</details>
-
-<details><summary>languages.txt</summary>
-
-```diff
-+ fur_it.json
-+ swg.json
-+ tok.json
-+ realms/lang/fur_it.json
-+ realms/lang/swg.json
-+ realms/lang/tok.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/ancient_debris.json
-+ blocks/basalt.json
-+ blocks/crimson_button.json
-+ blocks/crimson_door.json
-+ blocks/crimson_fence.json
-+ blocks/crimson_fence_gate.json
-+ blocks/crimson_fungi.json
-+ blocks/crimson_nylium.json
-+ blocks/crimson_planks.json
-+ blocks/crimson_pressure_plate.json
-+ blocks/crimson_roots.json
-+ blocks/crimson_sign.json
-+ blocks/crimson_slab.json
-+ blocks/crimson_stairs.json
-+ blocks/crimson_stem.json
-+ blocks/crimson_trapdoor.json
-+ blocks/netherite_block.json
-+ blocks/nether_sprouts.json
-+ blocks/shroomlight.json
-+ blocks/soul_fire_lantern.json
-+ blocks/soul_fire_torch.json
-+ blocks/soul_soil.json
-+ blocks/stripped_crimson_stem.json
-+ blocks/stripped_warped_stem.json
-+ blocks/warped_button.json
-+ blocks/warped_door.json
-+ blocks/warped_fence.json
-+ blocks/warped_fence_gate.json
-+ blocks/warped_fungi.json
-+ blocks/warped_nylium.json
-+ blocks/warped_planks.json
-+ blocks/warped_pressure_plate.json
-+ blocks/warped_roots.json
-+ blocks/warped_sign.json
-+ blocks/warped_slab.json
-+ blocks/warped_stairs.json
-+ blocks/warped_stem.json
-+ blocks/warped_trapdoor.json
-+ blocks/warped_wart_block.json
-+ blocks/weeping_vines.json
-+ blocks/weeping_vines_plant.json
-+ entities/hoglin.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ ash.json
-+ crimson_spore.json
-+ soul_fire_flame.json
-+ warped_spore.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ crimson_button.json
-+ crimson_door.json
-+ crimson_fence.json
-+ crimson_fence_gate.json
-+ crimson_planks.json
-+ crimson_pressure_plate.json
-+ crimson_slab.json
-+ crimson_stairs.json
-+ crimson_trapdoor.json
-+ netherite_axe.json
-+ netherite_block.json
-+ netherite_boots.json
-+ netherite_chestplate.json
-+ netherite_helmet.json
-+ netherite_hoe.json
-+ netherite_ingot.json
-+ netherite_ingot_from_netherite_block.json
-+ netherite_leggings.json
-+ netherite_pickaxe.json
-+ netherite_scrap.json
-+ netherite_scrap_from_blasting.json
-+ netherite_shovel.json
-+ netherite_sword.json
-+ soul_fire_lantern.json
-+ soul_fire_torch.json
-+ warped_button.json
-+ warped_door.json
-+ warped_fence.json
-+ warped_fence_gate.json
-+ warped_planks.json
-+ warped_pressure_plate.json
-+ warped_slab.json
-+ warped_stairs.json
-+ warped_trapdoor.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-- mob/zombiepig/zpig1.ogg
-- mob/zombiepig/zpig2.ogg
-- mob/zombiepig/zpig3.ogg
-- mob/zombiepig/zpig4.ogg
-- mob/zombiepig/zpigangry1.ogg
-- mob/zombiepig/zpigangry2.ogg
-- mob/zombiepig/zpigangry3.ogg
-- mob/zombiepig/zpigangry4.ogg
-- mob/zombiepig/zpigdeath.ogg
-- mob/zombiepig/zpighurt1.ogg
-- mob/zombiepig/zpighurt2.ogg
-+ ambient/nether/basalt_deltas/active1.ogg
-+ ambient/nether/basalt_deltas/active2.ogg
-+ ambient/nether/basalt_deltas/active3.ogg
-+ ambient/nether/basalt_deltas/active4.ogg
-+ ambient/nether/basalt_deltas/ambience.ogg
-+ ambient/nether/basalt_deltas/basaltground1.ogg
-+ ambient/nether/basalt_deltas/basaltground2.ogg
-+ ambient/nether/basalt_deltas/basaltground3.ogg
-+ ambient/nether/basalt_deltas/basaltground4.ogg
-+ ambient/nether/basalt_deltas/click1.ogg
-+ ambient/nether/basalt_deltas/click2.ogg
-+ ambient/nether/basalt_deltas/click3.ogg
-+ ambient/nether/basalt_deltas/click4.ogg
-+ ambient/nether/basalt_deltas/click5.ogg
-+ ambient/nether/basalt_deltas/click6.ogg
-+ ambient/nether/basalt_deltas/click7.ogg
-+ ambient/nether/basalt_deltas/click8.ogg
-+ ambient/nether/basalt_deltas/debris1.ogg
-+ ambient/nether/basalt_deltas/debris2.ogg
-+ ambient/nether/basalt_deltas/debris3.ogg
-+ ambient/nether/basalt_deltas/heavy_click1.ogg
-+ ambient/nether/basalt_deltas/heavy_click2.ogg
-+ ambient/nether/basalt_deltas/long_debris1.ogg
-+ ambient/nether/basalt_deltas/long_debris2.ogg
-+ ambient/nether/basalt_deltas/plode1.ogg
-+ ambient/nether/basalt_deltas/plode2.ogg
-+ ambient/nether/basalt_deltas/plode3.ogg
-+ ambient/nether/basalt_deltas/twist1.ogg
-+ ambient/nether/basalt_deltas/twist2.ogg
-+ ambient/nether/basalt_deltas/twist3.ogg
-+ ambient/nether/basalt_deltas/twist4.ogg
-+ ambient/nether/crimson_forest/addition1.ogg
-+ ambient/nether/crimson_forest/addition2.ogg
-+ ambient/nether/crimson_forest/addition3.ogg
-+ ambient/nether/crimson_forest/ambience.ogg
-+ ambient/nether/crimson_forest/mood1.ogg
-+ ambient/nether/crimson_forest/mood2.ogg
-+ ambient/nether/crimson_forest/mood3.ogg
-+ ambient/nether/crimson_forest/mood4.ogg
-+ ambient/nether/crimson_forest/particles1.ogg
-+ ambient/nether/crimson_forest/particles2.ogg
-+ ambient/nether/crimson_forest/particles3.ogg
-+ ambient/nether/crimson_forest/shine1.ogg
-+ ambient/nether/crimson_forest/shine2.ogg
-+ ambient/nether/crimson_forest/shine3.ogg
-+ ambient/nether/crimson_forest/shroom1.ogg
-+ ambient/nether/crimson_forest/shroom2.ogg
-+ ambient/nether/crimson_forest/shroom3.ogg
-+ ambient/nether/crimson_forest/twang1.ogg
-+ ambient/nether/crimson_forest/voom1.ogg
-+ ambient/nether/crimson_forest/voom2.ogg
-+ ambient/nether/nether_wastes/addition1.ogg
-+ ambient/nether/nether_wastes/addition2.ogg
-+ ambient/nether/nether_wastes/addition3.ogg
-+ ambient/nether/nether_wastes/addition4.ogg
-+ ambient/nether/nether_wastes/addition5.ogg
-+ ambient/nether/nether_wastes/addition6.ogg
-+ ambient/nether/nether_wastes/addition7.ogg
-+ ambient/nether/nether_wastes/addition8.ogg
-+ ambient/nether/nether_wastes/ambience.ogg
-+ ambient/nether/nether_wastes/dark1.ogg
-+ ambient/nether/nether_wastes/dark2.ogg
-+ ambient/nether/nether_wastes/ground1.ogg
-+ ambient/nether/nether_wastes/ground2.ogg
-+ ambient/nether/nether_wastes/ground3.ogg
-+ ambient/nether/nether_wastes/ground4.ogg
-+ ambient/nether/nether_wastes/mood1.ogg
-+ ambient/nether/nether_wastes/mood2.ogg
-+ ambient/nether/nether_wastes/mood3.ogg
-+ ambient/nether/nether_wastes/mood4.ogg
-+ ambient/nether/nether_wastes/mood5.ogg
-+ ambient/nether/soulsand_valley/ambience.ogg
-+ ambient/nether/soulsand_valley/mood1.ogg
-+ ambient/nether/soulsand_valley/mood2.ogg
-+ ambient/nether/soulsand_valley/mood3.ogg
-+ ambient/nether/soulsand_valley/mood4.ogg
-+ ambient/nether/soulsand_valley/sand1.ogg
-+ ambient/nether/soulsand_valley/sand2.ogg
-+ ambient/nether/soulsand_valley/sand3.ogg
-+ ambient/nether/soulsand_valley/voices1.ogg
-+ ambient/nether/soulsand_valley/voices2.ogg
-+ ambient/nether/soulsand_valley/voices3.ogg
-+ ambient/nether/soulsand_valley/voices4.ogg
-+ ambient/nether/soulsand_valley/voices5.ogg
-+ ambient/nether/soulsand_valley/whisper1.ogg
-+ ambient/nether/soulsand_valley/whisper2.ogg
-+ ambient/nether/soulsand_valley/whisper3.ogg
-+ ambient/nether/soulsand_valley/whisper4.ogg
-+ ambient/nether/soulsand_valley/whisper5.ogg
-+ ambient/nether/soulsand_valley/whisper6.ogg
-+ ambient/nether/soulsand_valley/whisper7.ogg
-+ ambient/nether/soulsand_valley/whisper8.ogg
-+ ambient/nether/soulsand_valley/wind1.ogg
-+ ambient/nether/soulsand_valley/wind2.ogg
-+ ambient/nether/soulsand_valley/wind3.ogg
-+ ambient/nether/soulsand_valley/wind4.ogg
-+ ambient/nether/soulsand_valley/with1.ogg
-+ ambient/nether/warped_forest/addition1.ogg
-+ ambient/nether/warped_forest/addition2.ogg
-+ ambient/nether/warped_forest/addition3.ogg
-+ ambient/nether/warped_forest/addition4.ogg
-+ ambient/nether/warped_forest/addition5.ogg
-+ ambient/nether/warped_forest/addition6.ogg
-+ ambient/nether/warped_forest/ambience.ogg
-+ ambient/nether/warped_forest/creak1.ogg
-+ ambient/nether/warped_forest/creak2.ogg
-+ ambient/nether/warped_forest/creak3.ogg
-+ ambient/nether/warped_forest/creak4.ogg
-+ ambient/nether/warped_forest/creak5.ogg
-+ ambient/nether/warped_forest/enish1.ogg
-+ ambient/nether/warped_forest/enish2.ogg
-+ ambient/nether/warped_forest/enish3.ogg
-+ ambient/nether/warped_forest/help1.ogg
-+ ambient/nether/warped_forest/help2.ogg
-+ ambient/nether/warped_forest/here1.ogg
-+ ambient/nether/warped_forest/here2.ogg
-+ ambient/nether/warped_forest/here3.ogg
-+ ambient/nether/warped_forest/mood1.ogg
-+ ambient/nether/warped_forest/mood2.ogg
-+ ambient/nether/warped_forest/mood3.ogg
-+ ambient/nether/warped_forest/mood4.ogg
-+ ambient/nether/warped_forest/mood5.ogg
-+ ambient/nether/warped_forest/mood6.ogg
-+ ambient/nether/warped_forest/mood7.ogg
-+ ambient/nether/warped_forest/mood8.ogg
-+ ambient/nether/warped_forest/mood9.ogg
-+ block/ancient_debris/break1.ogg
-+ block/ancient_debris/break2.ogg
-+ block/ancient_debris/break3.ogg
-+ block/ancient_debris/break4.ogg
-+ block/ancient_debris/break5.ogg
-+ block/basalt/break1.ogg
-+ block/basalt/break2.ogg
-+ block/basalt/break3.ogg
-+ block/basalt/break4.ogg
-+ block/basalt/break5.ogg
-+ block/basalt/step1.ogg
-+ block/basalt/step2.ogg
-+ block/basalt/step3.ogg
-+ block/basalt/step4.ogg
-+ block/basalt/step5.ogg
-+ block/basalt/step6.ogg
-+ block/bone_block/break1.ogg
-+ block/bone_block/break2.ogg
-+ block/bone_block/break3.ogg
-+ block/bone_block/break4.ogg
-+ block/bone_block/break5.ogg
-+ block/bone_block/step1.ogg
-+ block/bone_block/step2.ogg
-+ block/bone_block/step3.ogg
-+ block/bone_block/step4.ogg
-+ block/bone_block/step5.ogg
-+ block/chain/break1.ogg
-+ block/chain/break2.ogg
-+ block/chain/break3.ogg
-+ block/chain/break4.ogg
-+ block/chain/step1.ogg
-+ block/chain/step2.ogg
-+ block/chain/step3.ogg
-+ block/chain/step4.ogg
-+ block/chain/step5.ogg
-+ block/chain/step6.ogg
-+ block/fungus/break1.ogg
-+ block/fungus/break2.ogg
-+ block/fungus/break3.ogg
-+ block/fungus/break4.ogg
-+ block/fungus/break5.ogg
-+ block/fungus/break6.ogg
-+ block/lodestone/lock1.ogg
-+ block/lodestone/lock2.ogg
-+ block/lodestone/place1.ogg
-+ block/lodestone/place2.ogg
-+ block/lodestone/place3.ogg
-+ block/lodestone/place4.ogg
-+ block/nether_bricks/break1.ogg
-+ block/nether_bricks/break2.ogg
-+ block/nether_bricks/break3.ogg
-+ block/nether_bricks/break4.ogg
-+ block/nether_bricks/break5.ogg
-+ block/nether_bricks/break6.ogg
-+ block/nether_bricks/step1.ogg
-+ block/nether_bricks/step2.ogg
-+ block/nether_bricks/step3.ogg
-+ block/nether_bricks/step4.ogg
-+ block/nether_bricks/step5.ogg
-+ block/nether_bricks/step6.ogg
-+ block/nether_ore/break1.ogg
-+ block/nether_ore/break2.ogg
-+ block/nether_ore/break3.ogg
-+ block/nether_ore/break4.ogg
-+ block/nether_ore/step1.ogg
-+ block/nether_ore/step2.ogg
-+ block/nether_ore/step3.ogg
-+ block/nether_ore/step4.ogg
-+ block/nether_ore/step5.ogg
-+ block/nether_sprouts/break1.ogg
-+ block/nether_sprouts/break2.ogg
-+ block/nether_sprouts/break3.ogg
-+ block/nether_sprouts/break4.ogg
-+ block/nether_sprouts/step1.ogg
-+ block/nether_sprouts/step2.ogg
-+ block/nether_sprouts/step3.ogg
-+ block/nether_sprouts/step4.ogg
-+ block/nether_sprouts/step5.ogg
-+ block/netherite/break1.ogg
-+ block/netherite/break2.ogg
-+ block/netherite/break3.ogg
-+ block/netherite/break4.ogg
-+ block/netherite/step1.ogg
-+ block/netherite/step2.ogg
-+ block/netherite/step3.ogg
-+ block/netherite/step4.ogg
-+ block/netherite/step5.ogg
-+ block/netherite/step6.ogg
-+ block/netherrack/break1.ogg
-+ block/netherrack/break2.ogg
-+ block/netherrack/break3.ogg
-+ block/netherrack/break4.ogg
-+ block/netherrack/break5.ogg
-+ block/netherrack/break6.ogg
-+ block/netherrack/step1.ogg
-+ block/netherrack/step2.ogg
-+ block/netherrack/step3.ogg
-+ block/netherrack/step4.ogg
-+ block/netherrack/step5.ogg
-+ block/netherrack/step6.ogg
-+ block/netherwart/break1.ogg
-+ block/netherwart/break2.ogg
-+ block/netherwart/break3.ogg
-+ block/netherwart/break4.ogg
-+ block/netherwart/break5.ogg
-+ block/netherwart/break6.ogg
-+ block/netherwart/step1.ogg
-+ block/netherwart/step2.ogg
-+ block/netherwart/step3.ogg
-+ block/netherwart/step4.ogg
-+ block/netherwart/step5.ogg
-+ block/nylium/break1.ogg
-+ block/nylium/break2.ogg
-+ block/nylium/break3.ogg
-+ block/nylium/break4.ogg
-+ block/nylium/break5.ogg
-+ block/nylium/break6.ogg
-+ block/nylium/step1.ogg
-+ block/nylium/step2.ogg
-+ block/nylium/step3.ogg
-+ block/nylium/step4.ogg
-+ block/nylium/step5.ogg
-+ block/nylium/step6.ogg
-+ block/respawn_anchor/ambient1.ogg
-+ block/respawn_anchor/ambient2.ogg
-+ block/respawn_anchor/ambient3.ogg
-+ block/respawn_anchor/charge1.ogg
-+ block/respawn_anchor/charge2.ogg
-+ block/respawn_anchor/charge3.ogg
-+ block/respawn_anchor/deplete1.ogg
-+ block/respawn_anchor/deplete2.ogg
-+ block/respawn_anchor/set_spawn1.ogg
-+ block/respawn_anchor/set_spawn2.ogg
-+ block/respawn_anchor/set_spawn3.ogg
-+ block/roots/break1.ogg
-+ block/roots/break2.ogg
-+ block/roots/break3.ogg
-+ block/roots/break4.ogg
-+ block/roots/break5.ogg
-+ block/roots/break6.ogg
-+ block/roots/step1.ogg
-+ block/roots/step2.ogg
-+ block/roots/step3.ogg
-+ block/roots/step4.ogg
-+ block/roots/step5.ogg
-+ block/shroomlight/break1.ogg
-+ block/shroomlight/break2.ogg
-+ block/shroomlight/break3.ogg
-+ block/shroomlight/break4.ogg
-+ block/shroomlight/break5.ogg
-+ block/shroomlight/step1.ogg
-+ block/shroomlight/step2.ogg
-+ block/shroomlight/step3.ogg
-+ block/shroomlight/step4.ogg
-+ block/shroomlight/step5.ogg
-+ block/shroomlight/step6.ogg
-+ block/soul_sand/break1.ogg
-+ block/soul_sand/break2.ogg
-+ block/soul_sand/break3.ogg
-+ block/soul_sand/break4.ogg
-+ block/soul_sand/break5.ogg
-+ block/soul_sand/break6.ogg
-+ block/soul_sand/break7.ogg
-+ block/soul_sand/break8.ogg
-+ block/soul_sand/break9.ogg
-+ block/soul_sand/step1.ogg
-+ block/soul_sand/step2.ogg
-+ block/soul_sand/step3.ogg
-+ block/soul_sand/step4.ogg
-+ block/soul_sand/step5.ogg
-+ block/soul_soil/break1.ogg
-+ block/soul_soil/break2.ogg
-+ block/soul_soil/break3.ogg
-+ block/soul_soil/break4.ogg
-+ block/soul_soil/break5.ogg
-+ block/soul_soil/break6.ogg
-+ block/soul_soil/step1.ogg
-+ block/soul_soil/step2.ogg
-+ block/soul_soil/step3.ogg
-+ block/soul_soil/step4.ogg
-+ block/soul_soil/step5.ogg
-+ block/stem/break1.ogg
-+ block/stem/break2.ogg
-+ block/stem/break3.ogg
-+ block/stem/break4.ogg
-+ block/stem/break5.ogg
-+ block/stem/break6.ogg
-+ block/stem/step1.ogg
-+ block/stem/step2.ogg
-+ block/stem/step3.ogg
-+ block/stem/step4.ogg
-+ block/stem/step5.ogg
-+ block/stem/step6.ogg
-+ block/vine/climb1.ogg
-+ block/vine/climb2.ogg
-+ block/vine/climb3.ogg
-+ block/vine/climb4.ogg
-+ block/vine/climb5.ogg
-+ enchant/soulspeed/soulspeed1.ogg
-+ enchant/soulspeed/soulspeed10.ogg
-+ enchant/soulspeed/soulspeed11.ogg
-+ enchant/soulspeed/soulspeed12.ogg
-+ enchant/soulspeed/soulspeed13.ogg
-+ enchant/soulspeed/soulspeed2.ogg
-+ enchant/soulspeed/soulspeed3.ogg
-+ enchant/soulspeed/soulspeed4.ogg
-+ enchant/soulspeed/soulspeed5.ogg
-+ enchant/soulspeed/soulspeed6.ogg
-+ enchant/soulspeed/soulspeed7.ogg
-+ enchant/soulspeed/soulspeed8.ogg
-+ enchant/soulspeed/soulspeed9.ogg
-+ item/armor/equip_netherite1.ogg
-+ item/armor/equip_netherite2.ogg
-+ item/armor/equip_netherite3.ogg
-+ item/armor/equip_netherite4.ogg
-+ mob/hoglin/angry1.ogg
-+ mob/hoglin/angry2.ogg
-+ mob/hoglin/angry3.ogg
-+ mob/hoglin/angry4.ogg
-+ mob/hoglin/angry5.ogg
-+ mob/hoglin/angry6.ogg
-+ mob/hoglin/attack1.ogg
-+ mob/hoglin/attack2.ogg
-+ mob/hoglin/converted1.ogg
-+ mob/hoglin/converted2.ogg
-+ mob/hoglin/death1.ogg
-+ mob/hoglin/death2.ogg
-+ mob/hoglin/death3.ogg
-+ mob/hoglin/hurt1.ogg
-+ mob/hoglin/hurt2.ogg
-+ mob/hoglin/hurt3.ogg
-+ mob/hoglin/hurt4.ogg
-+ mob/hoglin/idle1.ogg
-+ mob/hoglin/idle10.ogg
-+ mob/hoglin/idle11.ogg
-+ mob/hoglin/idle2.ogg
-+ mob/hoglin/idle3.ogg
-+ mob/hoglin/idle4.ogg
-+ mob/hoglin/idle5.ogg
-+ mob/hoglin/idle6.ogg
-+ mob/hoglin/idle7.ogg
-+ mob/hoglin/idle8.ogg
-+ mob/hoglin/idle9.ogg
-+ mob/hoglin/retreat1.ogg
-+ mob/hoglin/retreat2.ogg
-+ mob/hoglin/retreat3.ogg
-+ mob/hoglin/step1.ogg
-+ mob/hoglin/step2.ogg
-+ mob/hoglin/step3.ogg
-+ mob/hoglin/step4.ogg
-+ mob/hoglin/step5.ogg
-+ mob/hoglin/step6.ogg
-+ mob/piglin/admire1.ogg
-+ mob/piglin/admire2.ogg
-+ mob/piglin/angry1.ogg
-+ mob/piglin/angry2.ogg
-+ mob/piglin/angry3.ogg
-+ mob/piglin/angry4.ogg
-+ mob/piglin/celebrate1.ogg
-+ mob/piglin/celebrate2.ogg
-+ mob/piglin/celebrate3.ogg
-+ mob/piglin/celebrate4.ogg
-+ mob/piglin/converted1.ogg
-+ mob/piglin/converted2.ogg
-+ mob/piglin/death1.ogg
-+ mob/piglin/death2.ogg
-+ mob/piglin/death3.ogg
-+ mob/piglin/death4.ogg
-+ mob/piglin/hurt1.ogg
-+ mob/piglin/hurt2.ogg
-+ mob/piglin/hurt3.ogg
-+ mob/piglin/idle1.ogg
-+ mob/piglin/idle2.ogg
-+ mob/piglin/idle3.ogg
-+ mob/piglin/idle4.ogg
-+ mob/piglin/idle5.ogg
-+ mob/piglin/jealous1.ogg
-+ mob/piglin/jealous2.ogg
-+ mob/piglin/jealous3.ogg
-+ mob/piglin/jealous4.ogg
-+ mob/piglin/jealous5.ogg
-+ mob/piglin/retreat1.ogg
-+ mob/piglin/retreat2.ogg
-+ mob/piglin/retreat3.ogg
-+ mob/piglin/retreat4.ogg
-+ mob/piglin/step1.ogg
-+ mob/piglin/step2.ogg
-+ mob/piglin/step3.ogg
-+ mob/piglin/step4.ogg
-+ mob/piglin/step5.ogg
-+ mob/piglin_brute/angry1.ogg
-+ mob/piglin_brute/angry2.ogg
-+ mob/piglin_brute/angry3.ogg
-+ mob/piglin_brute/angry4.ogg
-+ mob/piglin_brute/angry5.ogg
-+ mob/piglin_brute/death1.ogg
-+ mob/piglin_brute/death2.ogg
-+ mob/piglin_brute/death3.ogg
-+ mob/piglin_brute/hurt1.ogg
-+ mob/piglin_brute/hurt2.ogg
-+ mob/piglin_brute/hurt3.ogg
-+ mob/piglin_brute/hurt4.ogg
-+ mob/piglin_brute/idle1.ogg
-+ mob/piglin_brute/idle2.ogg
-+ mob/piglin_brute/idle3.ogg
-+ mob/piglin_brute/idle4.ogg
-+ mob/piglin_brute/idle5.ogg
-+ mob/piglin_brute/idle6.ogg
-+ mob/piglin_brute/idle7.ogg
-+ mob/piglin_brute/idle8.ogg
-+ mob/piglin_brute/idle9.ogg
-+ mob/piglin_brute/step1.ogg
-+ mob/piglin_brute/step2.ogg
-+ mob/piglin_brute/step3.ogg
-+ mob/piglin_brute/step4.ogg
-+ mob/piglin_brute/step5.ogg
-+ mob/strider/death1.ogg
-+ mob/strider/death2.ogg
-+ mob/strider/death3.ogg
-+ mob/strider/death4.ogg
-+ mob/strider/eat1.ogg
-+ mob/strider/eat2.ogg
-+ mob/strider/eat3.ogg
-+ mob/strider/happy1.ogg
-+ mob/strider/happy2.ogg
-+ mob/strider/happy3.ogg
-+ mob/strider/happy4.ogg
-+ mob/strider/happy5.ogg
-+ mob/strider/hurt1.ogg
-+ mob/strider/hurt2.ogg
-+ mob/strider/hurt3.ogg
-+ mob/strider/hurt4.ogg
-+ mob/strider/idle1.ogg
-+ mob/strider/idle2.ogg
-+ mob/strider/idle3.ogg
-+ mob/strider/idle4.ogg
-+ mob/strider/idle5.ogg
-+ mob/strider/idle6.ogg
-+ mob/strider/retreat1.ogg
-+ mob/strider/retreat2.ogg
-+ mob/strider/retreat3.ogg
-+ mob/strider/retreat4.ogg
-+ mob/strider/retreat5.ogg
-+ mob/strider/step1.ogg
-+ mob/strider/step2.ogg
-+ mob/strider/step3.ogg
-+ mob/strider/step4.ogg
-+ mob/strider/step5.ogg
-+ mob/strider/step_lava1.ogg
-+ mob/strider/step_lava2.ogg
-+ mob/strider/step_lava3.ogg
-+ mob/strider/step_lava4.ogg
-+ mob/strider/step_lava5.ogg
-+ mob/strider/step_lava6.ogg
-+ mob/zoglin/angry1.ogg
-+ mob/zoglin/angry2.ogg
-+ mob/zoglin/angry3.ogg
-+ mob/zoglin/attack1.ogg
-+ mob/zoglin/attack2.ogg
-+ mob/zoglin/death1.ogg
-+ mob/zoglin/death2.ogg
-+ mob/zoglin/death3.ogg
-+ mob/zoglin/hurt1.ogg
-+ mob/zoglin/hurt2.ogg
-+ mob/zoglin/hurt3.ogg
-+ mob/zoglin/idle1.ogg
-+ mob/zoglin/idle2.ogg
-+ mob/zoglin/idle3.ogg
-+ mob/zoglin/idle4.ogg
-+ mob/zoglin/idle5.ogg
-+ mob/zoglin/idle6.ogg
-+ mob/zoglin/step1.ogg
-+ mob/zoglin/step2.ogg
-+ mob/zoglin/step3.ogg
-+ mob/zoglin/step4.ogg
-+ mob/zoglin/step5.ogg
-+ mob/zombified_piglin/zpig1.ogg
-+ mob/zombified_piglin/zpig2.ogg
-+ mob/zombified_piglin/zpig3.ogg
-+ mob/zombified_piglin/zpig4.ogg
-+ mob/zombified_piglin/zpigangry1.ogg
-+ mob/zombified_piglin/zpigangry2.ogg
-+ mob/zombified_piglin/zpigangry3.ogg
-+ mob/zombified_piglin/zpigangry4.ogg
-+ mob/zombified_piglin/zpigdeath.ogg
-+ mob/zombified_piglin/zpighurt1.ogg
-+ mob/zombified_piglin/zpighurt2.ogg
-+ music/game/nether/crimson_forest/chrysopoeia.ogg
-+ music/game/nether/nether_wastes/rubedo.ogg
-+ music/game/nether/soulsand_valley/so_below.ogg
-+ records/pigstep.ogg
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-+ nether_fossils/fossil_1.nbt
-+ nether_fossils/fossil_10.nbt
-+ nether_fossils/fossil_11.nbt
-+ nether_fossils/fossil_12.nbt
-+ nether_fossils/fossil_13.nbt
-+ nether_fossils/fossil_14.nbt
-+ nether_fossils/fossil_2.nbt
-+ nether_fossils/fossil_3.nbt
-+ nether_fossils/fossil_4.nbt
-+ nether_fossils/fossil_5.nbt
-+ nether_fossils/fossil_6.nbt
-+ nether_fossils/fossil_7.nbt
-+ nether_fossils/fossil_8.nbt
-+ nether_fossils/fossil_9.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/crimson_stems.json
-+ blocks/fire.json
-+ blocks/nylium.json
-+ blocks/warped_stems.json
-+ blocks/wart_blocks.json
-+ items/crimson_stems.json
-+ items/warped_stems.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/ancient_debris_side.png
-+ block/ancient_debris_top.png
-+ block/basalt_side.png
-+ block/basalt_top.png
-+ block/crimson_door_bottom.png
-+ block/crimson_door_top.png
-+ block/crimson_fungi.png
-+ block/crimson_nylium.png
-+ block/crimson_nylium_side.png
-+ block/crimson_planks.png
-+ block/crimson_roots.png
-+ block/crimson_stem.png
-+ block/crimson_stem_top.png
-+ block/crimson_trapdoor.png
-+ block/netherite_block.png
-+ block/nether_sprouts.png
-+ block/shroomlight.png
-+ block/soul_fire_0.png
-+ block/soul_fire_1.png
-+ block/soul_fire_lantern.png
-+ block/soul_fire_torch.png
-+ block/soul_soil.png
-+ block/stripped_crimson_stem.png
-+ block/stripped_crimson_stem_top.png
-+ block/stripped_warped_stem.png
-+ block/stripped_warped_stem_top.png
-+ block/warped_door_bottom.png
-+ block/warped_door_top.png
-+ block/warped_fungi.png
-+ block/warped_nylium.png
-+ block/warped_nylium_side.png
-+ block/warped_planks.png
-+ block/warped_roots.png
-+ block/warped_stem.png
-+ block/warped_stem_top.png
-+ block/warped_stripped_log_side.png
-+ block/warped_stripped_log_top.png
-+ block/warped_trapdoor.png
-+ block/warped_wart_block.png
-+ block/weeping_vines.png
-+ block/weeping_vines_plant.png
-+ entity/hoglin/hoglin.png
-+ entity/signs/crimson.png
-+ entity/signs/warped.png
-+ item/crimson_door.png
-+ item/crimson_sign.png
-+ item/netherite_axe.png
-+ item/netherite_boots.png
-+ item/netherite_chestplate.png
-+ item/netherite_helmet.png
-+ item/netherite_hoe.png
-+ item/netherite_ingot.png
-+ item/netherite_leggings.png
-+ item/netherite_pickaxe.png
-+ item/netherite_scrap.png
-+ item/netherite_shovel.png
-+ item/netherite_sword.png
-+ item/soul_fire_lantern.png
-+ item/warped_door.png
-+ item/warped_sign.png
-+ models/armor/netherite_layer_1.png
-+ models/armor/netherite_layer_2.png
-+ particle/soul_fire_flame.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ long MAXIMUM_TICK_TIME_NANOS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
-
-```diff
-+ boolean lambda$matches$0(ItemPredicate)
-+ boolean matches(ItemStack,int,int,int)
-- boolean matches(Inventory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.SmokeParticle</summary>
-
-```diff
-- SpriteSet sprites
-- float getQuadSize(float)
-- ParticleRenderType getRenderType()
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderStateShard$AlphaStateShard</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderStateShard$LineStateShard</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderStateShard$TextureStateShard</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ RenderType entityShadow(ResourceLocation)
-+ RenderType outline(RenderStateShard$CullStateShard)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.RenderType$CompositeRenderType</summary>
-
-```diff
-+ RenderType lambda$new$2(ResourceLocation)
-+ String toString()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.RenderType$CompositeState</summary>
-
-```diff
-+ ImmutableList access$800(RenderType$CompositeState)
-+ RenderStateShard$CullStateShard access$700(RenderType$CompositeState)
-+ String toString()
-- ImmutableList access$700(RenderType$CompositeState)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.RenderType$OutlineProperty</summary>
-
-```diff
-+ String name
-+ String toString()
-+ void <init>(String)
-- void <init>(String,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DerivedServerLevel</summary>
-
-```diff
-+ void <init>(ChunkProgressListener)
-- void <init>(ChunkProgressListener)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-- void blockUpdated(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent ANCIENT_DEBRIS_BREAK
-+ SoundEvent ANCIENT_DEBRIS_FALL
-+ SoundEvent ANCIENT_DEBRIS_HIT
-+ SoundEvent ANCIENT_DEBRIS_PLACE
-+ SoundEvent ANCIENT_DEBRIS_STEP
-+ SoundEvent ARMOR_EQUIP_NETHERITE
-+ SoundEvent BASALT_BREAK
-+ SoundEvent BASALT_FALL
-+ SoundEvent BASALT_HIT
-+ SoundEvent BASALT_PLACE
-+ SoundEvent BASALT_STEP
-+ SoundEvent BONE_BLOCK_BREAK
-+ SoundEvent BONE_BLOCK_FALL
-+ SoundEvent BONE_BLOCK_HIT
-+ SoundEvent BONE_BLOCK_PLACE
-+ SoundEvent BONE_BLOCK_STEP
-+ SoundEvent FUNGI_BREAK
-+ SoundEvent FUNGI_FALL
-+ SoundEvent FUNGI_HIT
-+ SoundEvent FUNGI_PLACE
-+ SoundEvent FUNGI_STEP
-+ SoundEvent NETHER_BRICKS_BREAK
-+ SoundEvent NETHER_BRICKS_FALL
-+ SoundEvent NETHER_BRICKS_HIT
-+ SoundEvent NETHER_BRICKS_PLACE
-+ SoundEvent NETHER_BRICKS_STEP
-+ SoundEvent NETHER_ORE_BREAK
-+ SoundEvent NETHER_ORE_FALL
-+ SoundEvent NETHER_ORE_HIT
-+ SoundEvent NETHER_ORE_PLACE
-+ SoundEvent NETHER_ORE_STEP
-+ SoundEvent NETHER_SPROUTS_BREAK
-+ SoundEvent NETHER_SPROUTS_FALL
-+ SoundEvent NETHER_SPROUTS_HIT
-+ SoundEvent NETHER_SPROUTS_PLACE
-+ SoundEvent NETHER_SPROUTS_STEP
-+ SoundEvent NETHERITE_BLOCK_BREAK
-+ SoundEvent NETHERITE_BLOCK_FALL
-+ SoundEvent NETHERITE_BLOCK_HIT
-+ SoundEvent NETHERITE_BLOCK_PLACE
-+ SoundEvent NETHERITE_BLOCK_STEP
-+ SoundEvent NETHERRACK_BREAK
-+ SoundEvent NETHERRACK_FALL
-+ SoundEvent NETHERRACK_HIT
-+ SoundEvent NETHERRACK_PLACE
-+ SoundEvent NETHERRACK_STEP
-+ SoundEvent NYLIUM_BREAK
-+ SoundEvent NYLIUM_FALL
-+ SoundEvent NYLIUM_HIT
-+ SoundEvent NYLIUM_PLACE
-+ SoundEvent NYLIUM_STEP
-+ SoundEvent ROOTS_BREAK
-+ SoundEvent ROOTS_FALL
-+ SoundEvent ROOTS_HIT
-+ SoundEvent ROOTS_PLACE
-+ SoundEvent ROOTS_STEP
-+ SoundEvent SHROOMLIGHT_BREAK
-+ SoundEvent SHROOMLIGHT_FALL
-+ SoundEvent SHROOMLIGHT_HIT
-+ SoundEvent SHROOMLIGHT_PLACE
-+ SoundEvent SHROOMLIGHT_STEP
-+ SoundEvent SOUL_SAND_BREAK
-+ SoundEvent SOUL_SAND_FALL
-+ SoundEvent SOUL_SAND_HIT
-+ SoundEvent SOUL_SAND_PLACE
-+ SoundEvent SOUL_SAND_STEP
-+ SoundEvent SOUL_SOIL_BREAK
-+ SoundEvent SOUL_SOIL_FALL
-+ SoundEvent SOUL_SOIL_HIT
-+ SoundEvent SOUL_SOIL_PLACE
-+ SoundEvent SOUL_SOIL_STEP
-+ SoundEvent STEM_BREAK
-+ SoundEvent STEM_FALL
-+ SoundEvent STEM_HIT
-+ SoundEvent STEM_PLACE
-+ SoundEvent STEM_STEP
-+ SoundEvent WART_BLOCK_BREAK
-+ SoundEvent WART_BLOCK_FALL
-+ SoundEvent WART_BLOCK_HIT
-+ SoundEvent WART_BLOCK_PLACE
-+ SoundEvent WART_BLOCK_STEP
-+ SoundEvent WEEPING_VINES_BREAK
-+ SoundEvent WEEPING_VINES_FALL
-+ SoundEvent WEEPING_VINES_HIT
-+ SoundEvent WEEPING_VINES_PLACE
-+ SoundEvent WEEPING_VINES_STEP
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag CRIMSON_STEMS
-+ Tag FIRE
-+ Tag NYLIUM
-+ Tag WARPED_STEMS
-+ Tag WART_BLOCKS
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag CRIMSON_STEMS
-+ Tag WARPED_STEMS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.InactiveProfiler</summary>
-
-```diff
-+ InactiveProfiler INSTANCE
-- InactiveProfiler INACTIVE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
-```diff
-+ boolean canAttachOnBlockFace(Direction)
-+ Direction findAttachableFace(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Inventory</summary>
-
-```diff
-+ void hurtArmor(DamageSource,float)
-- void hurtArmor(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
-
-```diff
-+ float knockbackResistance
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.ArmorMaterial</summary>
-
-```diff
-+ float getKnockbackResistance()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RepairItemRecipe</summary>
-
-```diff
-+ void lambda$assemble$0(Enchantment)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ Supplier profiler
-- ProfilerFiller profiler
-+ boolean loadedAndEntityCanStandOnFace(Direction)
-+ Supplier getProfilerSupplier()
-+ void <init>(Supplier,boolean)
-- void <init>(ProfilerFiller,boolean)
-- void blockUpdated(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ BlockPos findBiomeHorizontal(Random,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSourceType</summary>
-
-```diff
-+ BiomeSourceType MULTI_NOISE
-+ MultiNoiseBiomeSourceSettings lambda$static$0(LevelData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ BlockPos findBiomeHorizontal(Random,boolean)
-- BlockPos findBiomeHorizontal(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.WoodType</summary>
-
-```diff
-+ WoodType CRIMSON
-+ WoodType WARPED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.Dimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(int,float)
-- Vec3 getFogColor(float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
-
-```diff
-- Vec3 NETHER_FOG_COLOR
-+ Vec3 getBrightnessDependentFogColor(int,float)
-- Vec3 getFogColor(float,float)
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(int,float)
-- Vec3 getFogColor(float,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(int,float)
-- Vec3 getFogColor(float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-+ WorldCarver NETHER_CAVE
-- WorldCarver HELL_CAVE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ FeatureDecorator FIRE
-- FeatureDecorator HELL_FIRE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureFeatureIO</summary>
-
-```diff
-+ StructureFeature NETHER_FOSSIL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
-
-```diff
-+ void <init>(IntStream)
-+ void <init>(List)
-- void <init>(WorldgenRandom,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.Vec3</summary>
-
-```diff
-+ Vec3 fromRGB24(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.model.dragon.DragonHeadModel
@@ -5945,1163 +2148,244 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger</summary>
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger$TriggerInstance</summary>
 
 ```diff
-+ boolean lambda$trigger$0(InventoryChangeTrigger$TriggerInstance)
-+ void trigger(ItemStack,int,int,int)
-+ void trigger(ItemStack)
-- boolean lambda$trigger$0(InventoryChangeTrigger$TriggerInstance)
-- void trigger(Inventory)
++ boolean lambda$matches$0(ItemStack,ItemPredicate)
++ boolean matches(Inventory,ItemStack,int,int,int)
+- boolean matches(Inventory)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
+<details><summary>net.minecraft.client.particle.SmokeParticle</summary>
 
 ```diff
-+ SuggestionProvider AVAILABLE_BIOMES
-+ CompletableFuture lambda$static$3(SuggestionsBuilder)
-+ CompletableFuture lambda$static$5(SuggestionsBuilder)
-+ Message lambda$null$4(EntityType)
-- CompletableFuture lambda$static$4(SuggestionsBuilder)
-- Message lambda$null$3(EntityType)
+- float getQuadSize(float)
+- ParticleRenderType getRenderType()
+- void tick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.client.renderer.RenderStateShard$AlphaStateShard</summary>
 
 ```diff
-+ LootTable$Builder lambda$accept$74(Block)
-+ LootTable$Builder lambda$dropPottedContents$75(Block)
-- LootTable$Builder lambda$dropPottedContents$74(Block)
++ String toString()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
+<details><summary>net.minecraft.client.renderer.RenderStateShard$LineStateShard</summary>
 
 ```diff
-+ ShapedRecipeBuilder unlockedBy(CriterionTriggerInstance)
-- ShapedRecipeBuilder unlocks(CriterionTriggerInstance)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
-
-```diff
-+ ShapelessRecipeBuilder unlockedBy(CriterionTriggerInstance)
-- ShapelessRecipeBuilder unlocks(CriterionTriggerInstance)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
-
-```diff
-+ SimpleCookingRecipeBuilder unlockedBy(CriterionTriggerInstance)
-- SimpleCookingRecipeBuilder unlocks(CriterionTriggerInstance)
++ String toString()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+<details><summary>net.minecraft.client.renderer.RenderStateShard$TextureStateShard</summary>
 
 ```diff
-+ boolean lambda$registerGoals$9(LivingEntity)
++ String toString()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
 
 ```diff
-+ BiomeSpecialEffects specialEffects
-+ List optimalParameters
-- int waterColor
-- int waterFogColor
-+ BiomeSpecialEffects getSpecialEffects()
-+ float getFitness(Biome$ClimateParameters)
-+ Float lambda$getFitness$5(Biome$ClimateParameters)
-+ int getFogColor()
-+ Object lambda$null$11(Biome$SpawnerData)
-+ Object lambda$null$6(ConfiguredWorldCarver)
-+ Object lambda$null$8(ConfiguredFeature)
-+ Optional getAmbientParticle()
-+ Pair lambda$serialize$10(Map$Entry)
-+ Pair lambda$serialize$12(Map$Entry)
-+ Pair lambda$serialize$7(Map$Entry)
-- Object lambda$null$10(Biome$SpawnerData)
-- Object lambda$null$5(ConfiguredWorldCarver)
-- Object lambda$null$7(ConfiguredFeature)
-- Pair lambda$serialize$11(Map$Entry)
-- Pair lambda$serialize$6(Map$Entry)
-- Pair lambda$serialize$8(Map$Entry)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
-
-```diff
-+ BiomeSpecialEffects specialEffects
-+ List optimalParameters
-- Integer waterColor
-- Integer waterFogColor
-+ Biome$BiomeBuilder optimalParameters(List)
-+ Biome$BiomeBuilder specialEffects(BiomeSpecialEffects)
-+ BiomeSpecialEffects access$700(Biome$BiomeBuilder)
-+ List access$900(Biome$BiomeBuilder)
-+ String access$800(Biome$BiomeBuilder)
-- Biome$BiomeBuilder waterColor(int)
-- Biome$BiomeBuilder waterFogColor(int)
-- Integer access$700(Biome$BiomeBuilder)
-- Integer access$800(Biome$BiomeBuilder)
-- String access$900(Biome$BiomeBuilder)
++ RenderType entityShadow(ResourceLocation)
++ RenderType outline(ResourceLocation,RenderStateShard$CullStateShard)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
+<details><summary>net.minecraft.client.renderer.RenderType$CompositeRenderType</summary>
 
 ```diff
-+ Biome CRIMSON_FOREST
-+ Biome NETHER_WASTES
-+ Biome SOUL_SAND_VALLEY
-+ Biome WARPED_FOREST
-- Biome NETHER
++ RenderType lambda$new$2(RenderType$CompositeState,ResourceLocation)
++ String toString()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
+<details><summary>net.minecraft.client.renderer.RenderType$CompositeState</summary>
 
 ```diff
-+ BlockState updateState(BlockPos,boolean)
+- ImmutableList access$700(RenderType$CompositeState)
++ ImmutableList access$800(RenderType$CompositeState)
++ RenderStateShard$CullStateShard access$700(RenderType$CompositeState)
++ String toString()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
+<details><summary>net.minecraft.client.renderer.RenderType$OutlineProperty</summary>
 
 ```diff
-+ Block ANCIENT_DEBRIS
-+ Block BASALT
-+ Block CRIMSON_BUTTON
-+ Block CRIMSON_DOOR
-+ Block CRIMSON_FENCE
-+ Block CRIMSON_FENCE_GATE
-+ Block CRIMSON_FUNGI
-+ Block CRIMSON_NYLIUM
-+ Block CRIMSON_PLANKS
-+ Block CRIMSON_PRESSURE_PLATE
-+ Block CRIMSON_ROOTS
-+ Block CRIMSON_SIGN
-+ Block CRIMSON_SLAB
-+ Block CRIMSON_STAIRS
-+ Block CRIMSON_STEM
-+ Block CRIMSON_TRAPDOOR
-+ Block CRIMSON_WALL_SIGN
-+ Block NETHER_SPROUTS
-+ Block NETHERITE_BLOCK
-+ Block SHROOMLIGHT
-+ Block SOUL_FIRE
-+ Block SOUL_FIRE_LANTERN
-+ Block SOUL_FIRE_TORCH
-+ Block SOUL_FIRE_WALL_TORCH
-+ Block SOUL_SOIL
-+ Block STRIPPED_CRIMSON_STEM
-+ Block STRIPPED_WARPED_STEM
-+ Block WARPED_BUTTON
-+ Block WARPED_DOOR
-+ Block WARPED_FENCE
-+ Block WARPED_FENCE_GATE
-+ Block WARPED_FUNGI
-+ Block WARPED_NYLIUM
-+ Block WARPED_PLANKS
-+ Block WARPED_PRESSURE_PLATE
-+ Block WARPED_ROOTS
-+ Block WARPED_SIGN
-+ Block WARPED_SLAB
-+ Block WARPED_STAIRS
-+ Block WARPED_STEM
-+ Block WARPED_TRAPDOOR
-+ Block WARPED_WALL_SIGN
-+ Block WARPED_WART_BLOCK
-+ Block WEEPING_VINES
-+ Block WEEPING_VINES_PLANT
-+ ConfiguredFeature lambda$static$1()
-+ ConfiguredFeature lambda$static$2()
++ String toString()
++ void <init>(String,int,String)
+- void <init>(String,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FireBlock</summary>
+<details><summary>net.minecraft.server.level.DerivedServerLevel</summary>
 
 ```diff
-- void animateTick(Random)
-- VoxelShape getShape(CollisionContext)
++ void <init>(ServerLevel,MinecraftServer,Executor,LevelStorage,DimensionType,ChunkProgressListener)
+- void <init>(ServerLevel,MinecraftServer,Executor,LevelStorage,DimensionType,ProfilerFiller,ChunkProgressListener)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
 
 ```diff
-+ void <init>(ParticleOptions)
-- void <init>(Block$Properties)
+- void blockUpdated(BlockPos,Block)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
 
 ```diff
-+ Object2IntOpenHashMap recipesUsed
-- Map recipesUsed
-+ void lambda$awardResetAndExperience$1(Recipe)
-+ void lambda$save$0(Integer)
-- Integer lambda$setRecipeUsed$0(Integer)
-- void lambda$awardResetAndExperience$1(Recipe)
++ boolean canAttachOnBlockFace(BlockPos,Direction)
++ Direction findAttachableFace(BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
+<details><summary>net.minecraft.world.entity.player.Inventory</summary>
 
 ```diff
-+ EnumProperty EAST_WALL
-+ EnumProperty NORTH_WALL
-+ EnumProperty SOUTH_WALL
-+ EnumProperty WEST_WALL
++ void hurtArmor(DamageSource,float)
+- void hurtArmor(float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+<details><summary>net.minecraft.world.item.crafting.RepairItemRecipe</summary>
 
 ```diff
-+ Feature BASALT_PILLAR
-+ Feature HUGE_FUNGI
-+ Feature NETHER_FOREST_VEGETATION
-+ Feature NO_SURFACE_ORE
-+ Feature WEEPING_VINES
-+ StructureFeature NETHER_FOSSIL
++ void lambda$assemble$0(Map,Map,Map,Enchantment)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.NetherSurfaceBuilder</summary>
+<details><summary>net.minecraft.world.level.Level</summary>
 
 ```diff
-- BlockState NETHERRACK
++ boolean loadedAndEntityCanStandOnFace(BlockPos,Entity,Direction)
++ Supplier getProfilerSupplier()
+- void <init>(LevelData,DimensionType,BiFunction,ProfilerFiller,boolean)
++ void <init>(LevelData,DimensionType,BiFunction,Supplier,boolean)
+- void blockUpdated(BlockPos,Block)
 ```
 
 </details>
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
+
+```diff
++ BlockPos findBiomeHorizontal(int,int,int,int,int,List,Random,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSourceType</summary>
+
+```diff
++ MultiNoiseBiomeSourceSettings lambda$static$0(LevelData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
+
+```diff
++ BlockPos findBiomeHorizontal(int,int,int,int,int,List,Random,boolean)
+- BlockPos findBiomeHorizontal(int,int,int,int,List,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
+
+```diff
++ Vec3 getBrightnessDependentFogColor(int,float)
+- Vec3 getFogColor(float,float)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
+
+```diff
++ Vec3 getBrightnessDependentFogColor(int,float)
+- Vec3 getFogColor(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
+
+```diff
++ Vec3 getBrightnessDependentFogColor(int,float)
+- Vec3 getFogColor(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+```diff
+- void <init>(WorldgenRandom,int,int)
++ void <init>(WorldgenRandom,IntStream)
++ void <init>(WorldgenRandom,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.Vec3</summary>
+
+```diff
++ Vec3 fromRGB24(int)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.server.commands.data.BlockDataAccessor
@@ -9151,13 +4435,2092 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.InventoryChangeTrigger</summary>
+
+```diff
+- boolean lambda$trigger$0(Inventory,InventoryChangeTrigger$TriggerInstance)
++ boolean lambda$trigger$0(Inventory,ItemStack,int,int,int,InventoryChangeTrigger$TriggerInstance)
++ void trigger(ServerPlayer,Inventory,ItemStack,int,int,int)
++ void trigger(ServerPlayer,Inventory,ItemStack)
+- void trigger(ServerPlayer,Inventory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
+
+```diff
++ CompletableFuture lambda$static$3(CommandContext,SuggestionsBuilder)
+- CompletableFuture lambda$static$4(CommandContext,SuggestionsBuilder)
++ CompletableFuture lambda$static$5(CommandContext,SuggestionsBuilder)
+- Message lambda$null$3(EntityType)
++ Message lambda$null$4(EntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder lambda$accept$74(Block)
+- LootTable$Builder lambda$dropPottedContents$74(Block)
++ LootTable$Builder lambda$dropPottedContents$75(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
+
+```diff
++ ShapedRecipeBuilder unlockedBy(String,CriterionTriggerInstance)
+- ShapedRecipeBuilder unlocks(String,CriterionTriggerInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
+
+```diff
++ ShapelessRecipeBuilder unlockedBy(String,CriterionTriggerInstance)
+- ShapelessRecipeBuilder unlocks(String,CriterionTriggerInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
+
+```diff
++ SimpleCookingRecipeBuilder unlockedBy(String,CriterionTriggerInstance)
+- SimpleCookingRecipeBuilder unlocks(String,CriterionTriggerInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
++ boolean lambda$registerGoals$9(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
++ BiomeSpecialEffects getSpecialEffects()
++ float getFitness(Biome$ClimateParameters)
++ Float lambda$getFitness$5(Biome$ClimateParameters,Biome$ClimateParameters)
++ int getFogColor()
+- Object lambda$null$10(DynamicOps,Biome$SpawnerData)
++ Object lambda$null$11(DynamicOps,Biome$SpawnerData)
+- Object lambda$null$5(DynamicOps,ConfiguredWorldCarver)
++ Object lambda$null$6(DynamicOps,ConfiguredWorldCarver)
+- Object lambda$null$7(DynamicOps,ConfiguredFeature)
++ Object lambda$null$8(DynamicOps,ConfiguredFeature)
++ Optional getAmbientParticle()
++ Pair lambda$serialize$10(DynamicOps,Map$Entry)
+- Pair lambda$serialize$11(DynamicOps,Map$Entry)
++ Pair lambda$serialize$12(DynamicOps,Map$Entry)
+- Pair lambda$serialize$6(DynamicOps,Map$Entry)
++ Pair lambda$serialize$7(DynamicOps,Map$Entry)
+- Pair lambda$serialize$8(DynamicOps,Map$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
+
+```diff
++ Biome$BiomeBuilder optimalParameters(List)
++ Biome$BiomeBuilder specialEffects(BiomeSpecialEffects)
+- Biome$BiomeBuilder waterColor(int)
+- Biome$BiomeBuilder waterFogColor(int)
++ BiomeSpecialEffects access$700(Biome$BiomeBuilder)
+- Integer access$700(Biome$BiomeBuilder)
+- Integer access$800(Biome$BiomeBuilder)
++ List access$900(Biome$BiomeBuilder)
++ String access$800(Biome$BiomeBuilder)
+- String access$900(Biome$BiomeBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
+
+```diff
++ BlockState updateState(BlockState,Level,BlockPos,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ ConfiguredFeature lambda$static$1()
++ ConfiguredFeature lambda$static$2()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FireBlock</summary>
+
+```diff
+- void animateTick(BlockState,Level,BlockPos,Random)
+- VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
+
+```diff
++ void <init>(Block$Properties,ParticleOptions)
+- void <init>(Block$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
+
+```diff
+- Integer lambda$setRecipeUsed$0(ResourceLocation,Integer)
+- void lambda$awardResetAndExperience$1(List,Player,Map$Entry,Recipe)
++ void lambda$awardResetAndExperience$1(List,Player,Object2IntMap$Entry,Recipe)
++ void lambda$save$0(CompoundTag,ResourceLocation,Integer)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/crimson_planks.json
++ minecraft/advancements/recipes/building_blocks/crimson_slab.json
++ minecraft/advancements/recipes/building_blocks/crimson_stairs.json
++ minecraft/advancements/recipes/building_blocks/netherite_block.json
++ minecraft/advancements/recipes/building_blocks/warped_planks.json
++ minecraft/advancements/recipes/building_blocks/warped_slab.json
++ minecraft/advancements/recipes/building_blocks/warped_stairs.json
++ minecraft/advancements/recipes/combat/netherite_boots.json
++ minecraft/advancements/recipes/combat/netherite_chestplate.json
++ minecraft/advancements/recipes/combat/netherite_helmet.json
++ minecraft/advancements/recipes/combat/netherite_leggings.json
++ minecraft/advancements/recipes/combat/netherite_sword.json
++ minecraft/advancements/recipes/decorations/composter.json
++ minecraft/advancements/recipes/decorations/crimson_fence.json
++ minecraft/advancements/recipes/decorations/soul_fire_lantern.json
++ minecraft/advancements/recipes/decorations/soul_fire_torch.json
++ minecraft/advancements/recipes/decorations/warped_fence.json
+- minecraft/advancements/recipes/misc/composter.json
++ minecraft/advancements/recipes/misc/netherite_ingot_from_netherite_block.json
++ minecraft/advancements/recipes/misc/netherite_ingot.json
++ minecraft/advancements/recipes/misc/netherite_scrap_from_blasting.json
++ minecraft/advancements/recipes/misc/netherite_scrap.json
++ minecraft/advancements/recipes/redstone/crimson_button.json
++ minecraft/advancements/recipes/redstone/crimson_door.json
++ minecraft/advancements/recipes/redstone/crimson_fence_gate.json
++ minecraft/advancements/recipes/redstone/crimson_pressure_plate.json
++ minecraft/advancements/recipes/redstone/crimson_trapdoor.json
++ minecraft/advancements/recipes/redstone/warped_button.json
++ minecraft/advancements/recipes/redstone/warped_door.json
++ minecraft/advancements/recipes/redstone/warped_fence_gate.json
++ minecraft/advancements/recipes/redstone/warped_pressure_plate.json
++ minecraft/advancements/recipes/redstone/warped_trapdoor.json
++ minecraft/advancements/recipes/tools/netherite_axe.json
++ minecraft/advancements/recipes/tools/netherite_hoe.json
++ minecraft/advancements/recipes/tools/netherite_pickaxe.json
++ minecraft/advancements/recipes/tools/netherite_shovel.json
++ minecraft/loot_tables/blocks/ancient_debris.json
++ minecraft/loot_tables/blocks/basalt.json
++ minecraft/loot_tables/blocks/crimson_button.json
++ minecraft/loot_tables/blocks/crimson_door.json
++ minecraft/loot_tables/blocks/crimson_fence_gate.json
++ minecraft/loot_tables/blocks/crimson_fence.json
++ minecraft/loot_tables/blocks/crimson_fungi.json
++ minecraft/loot_tables/blocks/crimson_nylium.json
++ minecraft/loot_tables/blocks/crimson_planks.json
++ minecraft/loot_tables/blocks/crimson_pressure_plate.json
++ minecraft/loot_tables/blocks/crimson_roots.json
++ minecraft/loot_tables/blocks/crimson_sign.json
++ minecraft/loot_tables/blocks/crimson_slab.json
++ minecraft/loot_tables/blocks/crimson_stairs.json
++ minecraft/loot_tables/blocks/crimson_stem.json
++ minecraft/loot_tables/blocks/crimson_trapdoor.json
++ minecraft/loot_tables/blocks/nether_sprouts.json
++ minecraft/loot_tables/blocks/netherite_block.json
++ minecraft/loot_tables/blocks/shroomlight.json
++ minecraft/loot_tables/blocks/soul_fire_lantern.json
++ minecraft/loot_tables/blocks/soul_fire_torch.json
++ minecraft/loot_tables/blocks/soul_soil.json
++ minecraft/loot_tables/blocks/stripped_crimson_stem.json
++ minecraft/loot_tables/blocks/stripped_warped_stem.json
++ minecraft/loot_tables/blocks/warped_button.json
++ minecraft/loot_tables/blocks/warped_door.json
++ minecraft/loot_tables/blocks/warped_fence_gate.json
++ minecraft/loot_tables/blocks/warped_fence.json
++ minecraft/loot_tables/blocks/warped_fungi.json
++ minecraft/loot_tables/blocks/warped_nylium.json
++ minecraft/loot_tables/blocks/warped_planks.json
++ minecraft/loot_tables/blocks/warped_pressure_plate.json
++ minecraft/loot_tables/blocks/warped_roots.json
++ minecraft/loot_tables/blocks/warped_sign.json
++ minecraft/loot_tables/blocks/warped_slab.json
++ minecraft/loot_tables/blocks/warped_stairs.json
++ minecraft/loot_tables/blocks/warped_stem.json
++ minecraft/loot_tables/blocks/warped_trapdoor.json
++ minecraft/loot_tables/blocks/warped_wart_block.json
++ minecraft/loot_tables/blocks/weeping_vines_plant.json
++ minecraft/loot_tables/blocks/weeping_vines.json
++ minecraft/loot_tables/entities/hoglin.json
++ minecraft/recipes/crimson_button.json
++ minecraft/recipes/crimson_door.json
++ minecraft/recipes/crimson_fence_gate.json
++ minecraft/recipes/crimson_fence.json
++ minecraft/recipes/crimson_planks.json
++ minecraft/recipes/crimson_pressure_plate.json
++ minecraft/recipes/crimson_slab.json
++ minecraft/recipes/crimson_stairs.json
++ minecraft/recipes/crimson_trapdoor.json
++ minecraft/recipes/netherite_axe.json
++ minecraft/recipes/netherite_block.json
++ minecraft/recipes/netherite_boots.json
++ minecraft/recipes/netherite_chestplate.json
++ minecraft/recipes/netherite_helmet.json
++ minecraft/recipes/netherite_hoe.json
++ minecraft/recipes/netherite_ingot_from_netherite_block.json
++ minecraft/recipes/netherite_ingot.json
++ minecraft/recipes/netherite_leggings.json
++ minecraft/recipes/netherite_pickaxe.json
++ minecraft/recipes/netherite_scrap_from_blasting.json
++ minecraft/recipes/netherite_scrap.json
++ minecraft/recipes/netherite_shovel.json
++ minecraft/recipes/netherite_sword.json
++ minecraft/recipes/soul_fire_lantern.json
++ minecraft/recipes/soul_fire_torch.json
++ minecraft/recipes/warped_button.json
++ minecraft/recipes/warped_door.json
++ minecraft/recipes/warped_fence_gate.json
++ minecraft/recipes/warped_fence.json
++ minecraft/recipes/warped_planks.json
++ minecraft/recipes/warped_pressure_plate.json
++ minecraft/recipes/warped_slab.json
++ minecraft/recipes/warped_stairs.json
++ minecraft/recipes/warped_trapdoor.json
++ minecraft/structures/nether_fossils/fossil_1.nbt
++ minecraft/structures/nether_fossils/fossil_10.nbt
++ minecraft/structures/nether_fossils/fossil_11.nbt
++ minecraft/structures/nether_fossils/fossil_12.nbt
++ minecraft/structures/nether_fossils/fossil_13.nbt
++ minecraft/structures/nether_fossils/fossil_14.nbt
++ minecraft/structures/nether_fossils/fossil_2.nbt
++ minecraft/structures/nether_fossils/fossil_3.nbt
++ minecraft/structures/nether_fossils/fossil_4.nbt
++ minecraft/structures/nether_fossils/fossil_5.nbt
++ minecraft/structures/nether_fossils/fossil_6.nbt
++ minecraft/structures/nether_fossils/fossil_7.nbt
++ minecraft/structures/nether_fossils/fossil_8.nbt
++ minecraft/structures/nether_fossils/fossil_9.nbt
++ minecraft/tags/blocks/crimson_stems.json
++ minecraft/tags/blocks/fire.json
++ minecraft/tags/blocks/nylium.json
++ minecraft/tags/blocks/warped_stems.json
++ minecraft/tags/blocks/wart_blocks.json
++ minecraft/tags/items/crimson_stems.json
++ minecraft/tags/items/warped_stems.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/ancient_debris.json
++ minecraft/blockstates/basalt.json
++ minecraft/blockstates/crimson_button.json
++ minecraft/blockstates/crimson_door.json
++ minecraft/blockstates/crimson_fence_gate.json
++ minecraft/blockstates/crimson_fence.json
++ minecraft/blockstates/crimson_fungi.json
++ minecraft/blockstates/crimson_nylium.json
++ minecraft/blockstates/crimson_planks.json
++ minecraft/blockstates/crimson_pressure_plate.json
++ minecraft/blockstates/crimson_roots.json
++ minecraft/blockstates/crimson_sign.json
++ minecraft/blockstates/crimson_slab.json
++ minecraft/blockstates/crimson_stairs.json
++ minecraft/blockstates/crimson_stem.json
++ minecraft/blockstates/crimson_trapdoor.json
++ minecraft/blockstates/crimson_wall_sign.json
++ minecraft/blockstates/nether_sprouts.json
++ minecraft/blockstates/netherite_block.json
++ minecraft/blockstates/shroomlight.json
++ minecraft/blockstates/soul_fire_lantern.json
++ minecraft/blockstates/soul_fire_torch.json
++ minecraft/blockstates/soul_fire_wall_torch.json
++ minecraft/blockstates/soul_fire.json
++ minecraft/blockstates/soul_soil.json
++ minecraft/blockstates/stripped_crimson_stem.json
++ minecraft/blockstates/stripped_warped_stem.json
++ minecraft/blockstates/warped_button.json
++ minecraft/blockstates/warped_door.json
++ minecraft/blockstates/warped_fence_gate.json
++ minecraft/blockstates/warped_fence.json
++ minecraft/blockstates/warped_fungi.json
++ minecraft/blockstates/warped_nylium.json
++ minecraft/blockstates/warped_planks.json
++ minecraft/blockstates/warped_pressure_plate.json
++ minecraft/blockstates/warped_roots.json
++ minecraft/blockstates/warped_sign.json
++ minecraft/blockstates/warped_slab.json
++ minecraft/blockstates/warped_stairs.json
++ minecraft/blockstates/warped_stem.json
++ minecraft/blockstates/warped_trapdoor.json
++ minecraft/blockstates/warped_wall_sign.json
++ minecraft/blockstates/warped_wart_block.json
++ minecraft/blockstates/weeping_vines_plant.json
++ minecraft/blockstates/weeping_vines.json
++ minecraft/models/block/acacia_log_horizontal.json
++ minecraft/models/block/ancient_debris.json
++ minecraft/models/block/andesite_wall_side_tall.json
++ minecraft/models/block/basalt.json
++ minecraft/models/block/birch_log_horizontal.json
++ minecraft/models/block/brick_wall_side_tall.json
++ minecraft/models/block/cobblestone_wall_side_tall.json
++ minecraft/models/block/crimson_button_inventory.json
++ minecraft/models/block/crimson_button_pressed.json
++ minecraft/models/block/crimson_button.json
++ minecraft/models/block/crimson_door_bottom_hinge.json
++ minecraft/models/block/crimson_door_bottom.json
++ minecraft/models/block/crimson_door_top_hinge.json
++ minecraft/models/block/crimson_door_top.json
++ minecraft/models/block/crimson_fence_gate_open.json
++ minecraft/models/block/crimson_fence_gate_wall_open.json
++ minecraft/models/block/crimson_fence_gate_wall.json
++ minecraft/models/block/crimson_fence_gate.json
++ minecraft/models/block/crimson_fence_inventory.json
++ minecraft/models/block/crimson_fence_post.json
++ minecraft/models/block/crimson_fence_side.json
++ minecraft/models/block/crimson_fungi.json
++ minecraft/models/block/crimson_nylium.json
++ minecraft/models/block/crimson_planks.json
++ minecraft/models/block/crimson_pressure_plate_down.json
++ minecraft/models/block/crimson_pressure_plate.json
++ minecraft/models/block/crimson_roots.json
++ minecraft/models/block/crimson_sign.json
++ minecraft/models/block/crimson_slab_top.json
++ minecraft/models/block/crimson_slab.json
++ minecraft/models/block/crimson_stairs_inner.json
++ minecraft/models/block/crimson_stairs_outer.json
++ minecraft/models/block/crimson_stairs.json
++ minecraft/models/block/crimson_stem.json
++ minecraft/models/block/crimson_trapdoor_bottom.json
++ minecraft/models/block/crimson_trapdoor_open.json
++ minecraft/models/block/crimson_trapdoor_top.json
++ minecraft/models/block/cube_column_horizontal.json
++ minecraft/models/block/dark_oak_log_horizontal.json
++ minecraft/models/block/diorite_wall_side_tall.json
++ minecraft/models/block/end_stone_brick_wall_side_tall.json
+- minecraft/models/block/fire_floor.json
+- minecraft/models/block/fire_side_alt.json
+- minecraft/models/block/fire_side.json
+- minecraft/models/block/fire_up_alt.json
+- minecraft/models/block/fire_up.json
++ minecraft/models/block/granite_wall_side_tall.json
++ minecraft/models/block/hanging_soul_fire_lantern.json
++ minecraft/models/block/hay_block_horizontal.json
++ minecraft/models/block/jungle_log_horizontal.json
++ minecraft/models/block/mossy_cobblestone_wall_side_tall.json
++ minecraft/models/block/mossy_stone_brick_wall_side_tall.json
++ minecraft/models/block/nether_brick_wall_side_tall.json
++ minecraft/models/block/nether_sprouts.json
++ minecraft/models/block/netherite_block.json
++ minecraft/models/block/oak_log_horizontal.json
++ minecraft/models/block/prismarine_wall_side_tall.json
++ minecraft/models/block/purpur_pillar_horizontal.json
++ minecraft/models/block/quartz_pillar_horizontal.json
++ minecraft/models/block/red_nether_brick_wall_side_tall.json
++ minecraft/models/block/red_sandstone_wall_side_tall.json
++ minecraft/models/block/sandstone_wall_side_tall.json
++ minecraft/models/block/shroomlight.json
++ minecraft/models/block/soul_fire_floor0.json
++ minecraft/models/block/soul_fire_floor1.json
++ minecraft/models/block/soul_fire_lantern.json
++ minecraft/models/block/soul_fire_side_alt0.json
++ minecraft/models/block/soul_fire_side_alt1.json
++ minecraft/models/block/soul_fire_side0.json
++ minecraft/models/block/soul_fire_side1.json
++ minecraft/models/block/soul_fire_torch.json
++ minecraft/models/block/soul_fire_wall_torch.json
++ minecraft/models/block/soul_soil.json
++ minecraft/models/block/spruce_log_horizontal.json
++ minecraft/models/block/stone_brick_wall_side_tall.json
++ minecraft/models/block/stripped_acacia_log_horizontal.json
++ minecraft/models/block/stripped_birch_log_horizontal.json
++ minecraft/models/block/stripped_crimson_stem.json
++ minecraft/models/block/stripped_dark_oak_log_horizontal.json
++ minecraft/models/block/stripped_jungle_log_horizontal.json
++ minecraft/models/block/stripped_oak_log_horizontal.json
++ minecraft/models/block/stripped_spruce_log_horizontal.json
++ minecraft/models/block/stripped_warped_stem.json
++ minecraft/models/block/template_fire_floor.json
++ minecraft/models/block/template_fire_side_alt.json
++ minecraft/models/block/template_fire_side.json
++ minecraft/models/block/template_fire_up_alt.json
++ minecraft/models/block/template_fire_up.json
++ minecraft/models/block/template_hanging_lantern.json
++ minecraft/models/block/template_lantern.json
++ minecraft/models/block/template_torch_wall.json
++ minecraft/models/block/template_wall_side_tall.json
+- minecraft/models/block/torch_wall.json
++ minecraft/models/block/warped_button_inventory.json
++ minecraft/models/block/warped_button_pressed.json
++ minecraft/models/block/warped_button.json
++ minecraft/models/block/warped_door_bottom_hinge.json
++ minecraft/models/block/warped_door_bottom.json
++ minecraft/models/block/warped_door_top_hinge.json
++ minecraft/models/block/warped_door_top.json
++ minecraft/models/block/warped_fence_gate_open.json
++ minecraft/models/block/warped_fence_gate_wall_open.json
++ minecraft/models/block/warped_fence_gate_wall.json
++ minecraft/models/block/warped_fence_gate.json
++ minecraft/models/block/warped_fence_inventory.json
++ minecraft/models/block/warped_fence_post.json
++ minecraft/models/block/warped_fence_side.json
++ minecraft/models/block/warped_fungi.json
++ minecraft/models/block/warped_nylium.json
++ minecraft/models/block/warped_planks.json
++ minecraft/models/block/warped_pressure_plate_down.json
++ minecraft/models/block/warped_pressure_plate.json
++ minecraft/models/block/warped_roots.json
++ minecraft/models/block/warped_sign.json
++ minecraft/models/block/warped_slab_top.json
++ minecraft/models/block/warped_slab.json
++ minecraft/models/block/warped_stairs_inner.json
++ minecraft/models/block/warped_stairs_outer.json
++ minecraft/models/block/warped_stairs.json
++ minecraft/models/block/warped_stem.json
++ minecraft/models/block/warped_trapdoor_bottom.json
++ minecraft/models/block/warped_trapdoor_open.json
++ minecraft/models/block/warped_trapdoor_top.json
++ minecraft/models/block/warped_wart_block.json
++ minecraft/models/block/weeping_vines_plant.json
++ minecraft/models/block/weeping_vines.json
++ minecraft/models/item/ancient_debris.json
++ minecraft/models/item/basalt.json
++ minecraft/models/item/crimson_button.json
++ minecraft/models/item/crimson_door.json
++ minecraft/models/item/crimson_fence_gate.json
++ minecraft/models/item/crimson_fence.json
++ minecraft/models/item/crimson_fungi.json
++ minecraft/models/item/crimson_nylium.json
++ minecraft/models/item/crimson_planks.json
++ minecraft/models/item/crimson_pressure_plate.json
++ minecraft/models/item/crimson_roots.json
++ minecraft/models/item/crimson_sign.json
++ minecraft/models/item/crimson_slab.json
++ minecraft/models/item/crimson_stairs.json
++ minecraft/models/item/crimson_stem.json
++ minecraft/models/item/crimson_trapdoor.json
++ minecraft/models/item/hoglin_spawn_egg.json
++ minecraft/models/item/nether_sprouts.json
++ minecraft/models/item/netherite_axe.json
++ minecraft/models/item/netherite_block.json
++ minecraft/models/item/netherite_boots.json
++ minecraft/models/item/netherite_chestplate.json
++ minecraft/models/item/netherite_helmet.json
++ minecraft/models/item/netherite_hoe.json
++ minecraft/models/item/netherite_ingot.json
++ minecraft/models/item/netherite_leggings.json
++ minecraft/models/item/netherite_pickaxe.json
++ minecraft/models/item/netherite_scrap.json
++ minecraft/models/item/netherite_shovel.json
++ minecraft/models/item/netherite_sword.json
++ minecraft/models/item/shroomlight.json
++ minecraft/models/item/soul_fire_lantern.json
++ minecraft/models/item/soul_fire_torch.json
++ minecraft/models/item/soul_soil.json
++ minecraft/models/item/stripped_crimson_stem.json
++ minecraft/models/item/stripped_warped_stem.json
++ minecraft/models/item/warped_button.json
++ minecraft/models/item/warped_door.json
++ minecraft/models/item/warped_fence_gate.json
++ minecraft/models/item/warped_fence.json
++ minecraft/models/item/warped_fungi.json
++ minecraft/models/item/warped_nylium.json
++ minecraft/models/item/warped_planks.json
++ minecraft/models/item/warped_pressure_plate.json
++ minecraft/models/item/warped_roots.json
++ minecraft/models/item/warped_sign.json
++ minecraft/models/item/warped_slab.json
++ minecraft/models/item/warped_stairs.json
++ minecraft/models/item/warped_stem.json
++ minecraft/models/item/warped_trapdoor.json
++ minecraft/models/item/warped_wart_block.json
++ minecraft/models/item/weeping_vines.json
++ minecraft/particles/ash.json
++ minecraft/particles/crimson_spore.json
++ minecraft/particles/soul_fire_flame.json
++ minecraft/particles/warped_spore.json
++ minecraft/textures/block/ancient_debris_side.png
++ minecraft/textures/block/ancient_debris_top.png
++ minecraft/textures/block/basalt_side.png
++ minecraft/textures/block/basalt_top.png
++ minecraft/textures/block/crimson_door_bottom.png
++ minecraft/textures/block/crimson_door_top.png
++ minecraft/textures/block/crimson_fungi.png
++ minecraft/textures/block/crimson_nylium_side.png
++ minecraft/textures/block/crimson_nylium.png
++ minecraft/textures/block/crimson_planks.png
++ minecraft/textures/block/crimson_roots.png
++ minecraft/textures/block/crimson_stem_top.png
++ minecraft/textures/block/crimson_stem.png
++ minecraft/textures/block/crimson_stem.png.mcmeta
++ minecraft/textures/block/crimson_trapdoor.png
++ minecraft/textures/block/nether_sprouts.png
++ minecraft/textures/block/netherite_block.png
++ minecraft/textures/block/shroomlight.png
++ minecraft/textures/block/soul_fire_0.png
++ minecraft/textures/block/soul_fire_0.png.mcmeta
++ minecraft/textures/block/soul_fire_1.png
++ minecraft/textures/block/soul_fire_1.png.mcmeta
++ minecraft/textures/block/soul_fire_lantern.png
++ minecraft/textures/block/soul_fire_lantern.png.mcmeta
++ minecraft/textures/block/soul_fire_torch.png
++ minecraft/textures/block/soul_soil.png
++ minecraft/textures/block/stripped_crimson_stem_top.png
++ minecraft/textures/block/stripped_crimson_stem.png
++ minecraft/textures/block/stripped_warped_stem_top.png
++ minecraft/textures/block/stripped_warped_stem.png
++ minecraft/textures/block/warped_door_bottom.png
++ minecraft/textures/block/warped_door_top.png
++ minecraft/textures/block/warped_fungi.png
++ minecraft/textures/block/warped_nylium_side.png
++ minecraft/textures/block/warped_nylium.png
++ minecraft/textures/block/warped_planks.png
++ minecraft/textures/block/warped_roots.png
++ minecraft/textures/block/warped_stem_top.png
++ minecraft/textures/block/warped_stem.png
++ minecraft/textures/block/warped_stem.png.mcmeta
++ minecraft/textures/block/warped_stripped_log_side.png
++ minecraft/textures/block/warped_stripped_log_top.png
++ minecraft/textures/block/warped_trapdoor.png
++ minecraft/textures/block/warped_wart_block.png
++ minecraft/textures/block/weeping_vines_plant.png
++ minecraft/textures/block/weeping_vines.png
++ minecraft/textures/entity/hoglin/hoglin.png
++ minecraft/textures/entity/signs/crimson.png
++ minecraft/textures/entity/signs/warped.png
++ minecraft/textures/item/crimson_door.png
++ minecraft/textures/item/crimson_sign.png
++ minecraft/textures/item/netherite_axe.png
++ minecraft/textures/item/netherite_boots.png
++ minecraft/textures/item/netherite_chestplate.png
++ minecraft/textures/item/netherite_helmet.png
++ minecraft/textures/item/netherite_hoe.png
++ minecraft/textures/item/netherite_ingot.png
++ minecraft/textures/item/netherite_leggings.png
++ minecraft/textures/item/netherite_pickaxe.png
++ minecraft/textures/item/netherite_scrap.png
++ minecraft/textures/item/netherite_shovel.png
++ minecraft/textures/item/netherite_sword.png
++ minecraft/textures/item/soul_fire_lantern.png
++ minecraft/textures/item/warped_door.png
++ minecraft/textures/item/warped_sign.png
++ minecraft/textures/models/armor/netherite_layer_1.png
++ minecraft/textures/models/armor/netherite_layer_2.png
++ minecraft/textures/particle/soul_fire_flame.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>biome.txt</summary>
+
+```diff
++ minecraft:crimson_forest
+- minecraft:nether
++ minecraft:nether_wastes
++ minecraft:soul_sand_valley
++ minecraft:warped_forest
+```
+
+</details>
+
+
+<details><summary>biome_source_type.txt</summary>
+
+```diff
++ minecraft:multi_noise
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:ancient_debris
++ minecraft:basalt
++ minecraft:crimson_button
++ minecraft:crimson_door
++ minecraft:crimson_fence
++ minecraft:crimson_fence_gate
++ minecraft:crimson_fungi
++ minecraft:crimson_nylium
++ minecraft:crimson_planks
++ minecraft:crimson_pressure_plate
++ minecraft:crimson_roots
++ minecraft:crimson_sign
++ minecraft:crimson_slab
++ minecraft:crimson_stairs
++ minecraft:crimson_stem
++ minecraft:crimson_trapdoor
++ minecraft:crimson_wall_sign
++ minecraft:nether_sprouts
++ minecraft:netherite_block
++ minecraft:shroomlight
++ minecraft:soul_fire
++ minecraft:soul_fire_lantern
++ minecraft:soul_fire_torch
++ minecraft:soul_fire_wall_torch
++ minecraft:soul_soil
++ minecraft:stripped_crimson_stem
++ minecraft:stripped_warped_stem
++ minecraft:warped_button
++ minecraft:warped_door
++ minecraft:warped_fence
++ minecraft:warped_fence_gate
++ minecraft:warped_fungi
++ minecraft:warped_nylium
++ minecraft:warped_planks
++ minecraft:warped_pressure_plate
++ minecraft:warped_roots
++ minecraft:warped_sign
++ minecraft:warped_slab
++ minecraft:warped_stairs
++ minecraft:warped_stem
++ minecraft:warped_trapdoor
++ minecraft:warped_wall_sign
++ minecraft:warped_wart_block
++ minecraft:weeping_vines
++ minecraft:weeping_vines_plant
+```
+
+</details>
+
+
+<details><summary>carver.txt</summary>
+
+```diff
+- minecraft:hell_cave
++ minecraft:nether_cave
+```
+
+</details>
+
+
+<details><summary>decorator.txt</summary>
+
+```diff
++ minecraft:fire
+- minecraft:hell_fire
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:hoglin
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
++ minecraft:basalt_pillar
++ minecraft:huge_fungi
++ minecraft:nether_forest_vegetation
++ minecraft:nether_fossil
++ minecraft:no_surface_ore
++ minecraft:weeping_vines
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:ancient_debris
++ minecraft:basalt
++ minecraft:crimson_button
++ minecraft:crimson_door
++ minecraft:crimson_fence
++ minecraft:crimson_fence_gate
++ minecraft:crimson_fungi
++ minecraft:crimson_nylium
++ minecraft:crimson_planks
++ minecraft:crimson_pressure_plate
++ minecraft:crimson_roots
++ minecraft:crimson_sign
++ minecraft:crimson_slab
++ minecraft:crimson_stairs
++ minecraft:crimson_stem
++ minecraft:crimson_trapdoor
++ minecraft:hoglin_spawn_egg
++ minecraft:nether_sprouts
++ minecraft:netherite_axe
++ minecraft:netherite_block
++ minecraft:netherite_boots
++ minecraft:netherite_chestplate
++ minecraft:netherite_helmet
++ minecraft:netherite_hoe
++ minecraft:netherite_ingot
++ minecraft:netherite_leggings
++ minecraft:netherite_pickaxe
++ minecraft:netherite_scrap
++ minecraft:netherite_shovel
++ minecraft:netherite_sword
++ minecraft:shroomlight
++ minecraft:soul_fire_lantern
++ minecraft:soul_fire_torch
++ minecraft:soul_soil
++ minecraft:stripped_crimson_stem
++ minecraft:stripped_warped_stem
++ minecraft:warped_button
++ minecraft:warped_door
++ minecraft:warped_fence
++ minecraft:warped_fence_gate
++ minecraft:warped_fungi
++ minecraft:warped_nylium
++ minecraft:warped_planks
++ minecraft:warped_pressure_plate
++ minecraft:warped_roots
++ minecraft:warped_sign
++ minecraft:warped_slab
++ minecraft:warped_stairs
++ minecraft:warped_stem
++ minecraft:warped_trapdoor
++ minecraft:warped_wart_block
++ minecraft:weeping_vines
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:ash
++ minecraft:crimson_spore
++ minecraft:soul_fire_flame
++ minecraft:warped_spore
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.ancient_debris.break
++ minecraft:block.ancient_debris.fall
++ minecraft:block.ancient_debris.hit
++ minecraft:block.ancient_debris.place
++ minecraft:block.ancient_debris.step
++ minecraft:block.basalt.break
++ minecraft:block.basalt.fall
++ minecraft:block.basalt.hit
++ minecraft:block.basalt.place
++ minecraft:block.basalt.step
++ minecraft:block.bone_block.break
++ minecraft:block.bone_block.fall
++ minecraft:block.bone_block.hit
++ minecraft:block.bone_block.place
++ minecraft:block.bone_block.step
++ minecraft:block.fungi.break
++ minecraft:block.fungi.fall
++ minecraft:block.fungi.hit
++ minecraft:block.fungi.place
++ minecraft:block.fungi.step
++ minecraft:block.nether_bricks.break
++ minecraft:block.nether_bricks.fall
++ minecraft:block.nether_bricks.hit
++ minecraft:block.nether_bricks.place
++ minecraft:block.nether_bricks.step
++ minecraft:block.nether_ore.break
++ minecraft:block.nether_ore.fall
++ minecraft:block.nether_ore.hit
++ minecraft:block.nether_ore.place
++ minecraft:block.nether_ore.step
++ minecraft:block.nether_sprouts.break
++ minecraft:block.nether_sprouts.fall
++ minecraft:block.nether_sprouts.hit
++ minecraft:block.nether_sprouts.place
++ minecraft:block.nether_sprouts.step
++ minecraft:block.netherite_block.break
++ minecraft:block.netherite_block.fall
++ minecraft:block.netherite_block.hit
++ minecraft:block.netherite_block.place
++ minecraft:block.netherite_block.step
++ minecraft:block.netherrack.break
++ minecraft:block.netherrack.fall
++ minecraft:block.netherrack.hit
++ minecraft:block.netherrack.place
++ minecraft:block.netherrack.step
++ minecraft:block.nylium.break
++ minecraft:block.nylium.fall
++ minecraft:block.nylium.hit
++ minecraft:block.nylium.place
++ minecraft:block.nylium.step
++ minecraft:block.roots.break
++ minecraft:block.roots.fall
++ minecraft:block.roots.hit
++ minecraft:block.roots.place
++ minecraft:block.roots.step
++ minecraft:block.shroomlight.break
++ minecraft:block.shroomlight.fall
++ minecraft:block.shroomlight.hit
++ minecraft:block.shroomlight.place
++ minecraft:block.shroomlight.step
++ minecraft:block.soul_sand.break
++ minecraft:block.soul_sand.fall
++ minecraft:block.soul_sand.hit
++ minecraft:block.soul_sand.place
++ minecraft:block.soul_sand.step
++ minecraft:block.soul_soil.break
++ minecraft:block.soul_soil.fall
++ minecraft:block.soul_soil.hit
++ minecraft:block.soul_soil.place
++ minecraft:block.soul_soil.step
++ minecraft:block.stem.break
++ minecraft:block.stem.fall
++ minecraft:block.stem.hit
++ minecraft:block.stem.place
++ minecraft:block.stem.step
++ minecraft:block.wart_block.break
++ minecraft:block.wart_block.fall
++ minecraft:block.wart_block.hit
++ minecraft:block.wart_block.place
++ minecraft:block.wart_block.step
++ minecraft:block.weeping_vines.break
++ minecraft:block.weeping_vines.fall
++ minecraft:block.weeping_vines.hit
++ minecraft:block.weeping_vines.place
++ minecraft:block.weeping_vines.step
++ minecraft:item.armor.equip_netherite
+```
+
+</details>
+
+
+<details><summary>structure_feature.txt</summary>
+
+```diff
++ minecraft:nether_fossil
+```
+
+</details>
+
+
+<details><summary>structure_piece.txt</summary>
+
+```diff
++ minecraft:nefos
+```
+
+</details>
+
+
+<details><summary>surface_builder.txt</summary>
+
+```diff
++ minecraft:nether_forest
++ minecraft:soul_sand_valley
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ locatebiome.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/crimson_stems.json
++ blocks/fire.json
++ blocks/nylium.json
++ blocks/warped_stems.json
++ blocks/wart_blocks.json
++ items/crimson_stems.json
++ items/warped_stems.json
+```
+
+</details>
+
+
+<details><summary>blocks/planks.json</summary>
+
+```diff
++ minecraft:crimson_planks
++ minecraft:warped_planks
+```
+
+</details>
+
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ #minecraft:wooden_slabs
+- minecraft:acacia_slab
+- minecraft:birch_slab
+- minecraft:dark_oak_slab
+- minecraft:jungle_slab
+- minecraft:oak_slab
+- minecraft:spruce_slab
+```
+
+</details>
+
+
+<details><summary>blocks/standing_signs.json</summary>
+
+```diff
++ minecraft:crimson_sign
++ minecraft:warped_sign
+```
+
+</details>
+
+
+<details><summary>blocks/wall_signs.json</summary>
+
+```diff
++ minecraft:crimson_wall_sign
++ minecraft:warped_wall_sign
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_buttons.json</summary>
+
+```diff
++ minecraft:crimson_button
++ minecraft:warped_button
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_doors.json</summary>
+
+```diff
++ minecraft:crimson_door
++ minecraft:warped_door
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_fences.json</summary>
+
+```diff
++ minecraft:crimson_fence
++ minecraft:warped_fence
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:crimson_pressure_plate
++ minecraft:warped_pressure_plate
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_slabs.json</summary>
+
+```diff
++ minecraft:crimson_slab
++ minecraft:warped_slab
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_stairs.json</summary>
+
+```diff
++ minecraft:crimson_stairs
++ minecraft:warped_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:crimson_trapdoor
++ minecraft:warped_trapdoor
+```
+
+</details>
+
+
+<details><summary>items/planks.json</summary>
+
+```diff
++ minecraft:crimson_planks
++ minecraft:warped_planks
+```
+
+</details>
+
+
+<details><summary>items/signs.json</summary>
+
+```diff
++ minecraft:crimson_sign
++ minecraft:warped_sign
+```
+
+</details>
+
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ #minecraft:wooden_slabs
+- minecraft:acacia_slab
+- minecraft:birch_slab
+- minecraft:dark_oak_slab
+- minecraft:jungle_slab
+- minecraft:oak_slab
+- minecraft:spruce_slab
+```
+
+</details>
+
+
+<details><summary>items/wooden_buttons.json</summary>
+
+```diff
++ minecraft:crimson_button
++ minecraft:warped_button
+```
+
+</details>
+
+
+<details><summary>items/wooden_doors.json</summary>
+
+```diff
++ minecraft:crimson_door
++ minecraft:warped_door
+```
+
+</details>
+
+
+<details><summary>items/wooden_fences.json</summary>
+
+```diff
++ minecraft:crimson_fence
++ minecraft:warped_fence
+```
+
+</details>
+
+
+<details><summary>items/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:crimson_pressure_plate
++ minecraft:warped_pressure_plate
+```
+
+</details>
+
+
+<details><summary>items/wooden_slabs.json</summary>
+
+```diff
++ minecraft:crimson_slab
++ minecraft:warped_slab
+```
+
+</details>
+
+
+<details><summary>items/wooden_stairs.json</summary>
+
+```diff
++ minecraft:crimson_stairs
++ minecraft:warped_stairs
+```
+
+</details>
+
+
+<details><summary>items/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:crimson_trapdoor
++ minecraft:warped_trapdoor
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ biome.minecraft.crimson_forest
+- biome.minecraft.nether
++ biome.minecraft.nether_wastes
++ biome.minecraft.soul_sand_valley
++ biome.minecraft.warped_forest
++ block.minecraft.ancient_debris
+- block.minecraft.banner
++ block.minecraft.basalt
+- block.minecraft.bed
++ block.minecraft.crimson_button
++ block.minecraft.crimson_door
++ block.minecraft.crimson_fence
++ block.minecraft.crimson_fence_gate
++ block.minecraft.crimson_fungi
++ block.minecraft.crimson_nylium
++ block.minecraft.crimson_planks
++ block.minecraft.crimson_pressure_plate
++ block.minecraft.crimson_roots
++ block.minecraft.crimson_sign
++ block.minecraft.crimson_slab
++ block.minecraft.crimson_stairs
++ block.minecraft.crimson_stem
++ block.minecraft.crimson_trapdoor
++ block.minecraft.crimson_wall_sign
+- block.minecraft.flowing_lava
+- block.minecraft.flowing_water
+- block.minecraft.four_turtle_eggs
++ block.minecraft.nether_sprouts
++ block.minecraft.netherite_block
++ block.minecraft.shroomlight
++ block.minecraft.soul_fire
++ block.minecraft.soul_fire_lantern
++ block.minecraft.soul_fire_torch
++ block.minecraft.soul_fire_wall_torch
++ block.minecraft.soul_soil
++ block.minecraft.stripped_crimson_stem
++ block.minecraft.stripped_warped_stem
+- block.minecraft.three_turtle_eggs
+- block.minecraft.two_turtle_eggs
+- block.minecraft.wall_banner
++ block.minecraft.warped_button
++ block.minecraft.warped_door
++ block.minecraft.warped_fence
++ block.minecraft.warped_fence_gate
++ block.minecraft.warped_fungi
++ block.minecraft.warped_nylium
++ block.minecraft.warped_planks
++ block.minecraft.warped_pressure_plate
++ block.minecraft.warped_roots
++ block.minecraft.warped_sign
++ block.minecraft.warped_slab
++ block.minecraft.warped_stairs
++ block.minecraft.warped_stem
++ block.minecraft.warped_trapdoor
++ block.minecraft.warped_wall_sign
++ block.minecraft.warped_wart_block
++ block.minecraft.weeping_vines
++ block.minecraft.weeping_vines_plant
++ commands.locatebiome.invalid
++ commands.locatebiome.notFound
++ commands.locatebiome.success
++ commands.summon.invalidPosition
++ commands.teleport.invalidPosition
++ entity.minecraft.hoglin
+- item.minecraft.creeper_head
+- item.minecraft.dragon_head
++ item.minecraft.hoglin_spawn_egg
++ item.minecraft.netherite_axe
++ item.minecraft.netherite_boots
++ item.minecraft.netherite_chestplate
++ item.minecraft.netherite_helmet
++ item.minecraft.netherite_hoe
++ item.minecraft.netherite_ingot
++ item.minecraft.netherite_leggings
++ item.minecraft.netherite_pickaxe
++ item.minecraft.netherite_scrap
++ item.minecraft.netherite_shovel
++ item.minecraft.netherite_sword
+- item.minecraft.skeleton_skull
+- item.minecraft.wither_skeleton_skull
+- item.minecraft.zombie_head
+- mcoServer.title
+- multiplayer.connect
+- multiplayer.ipinfo
+- options.anaglyph
+- options.music
+- options.sound
+- selectServer.empty
+- selectWorld.empty
+- stat.blocksButton
++ subtitles.block.composter.empty
++ subtitles.block.composter.fill
++ subtitles.block.composter.ready
++ subtitles.item.armor.equip_netherite
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/crimson_planks.json
++ recipes/building_blocks/crimson_slab.json
++ recipes/building_blocks/crimson_stairs.json
++ recipes/building_blocks/netherite_block.json
++ recipes/building_blocks/warped_planks.json
++ recipes/building_blocks/warped_slab.json
++ recipes/building_blocks/warped_stairs.json
++ recipes/combat/netherite_boots.json
++ recipes/combat/netherite_chestplate.json
++ recipes/combat/netherite_helmet.json
++ recipes/combat/netherite_leggings.json
++ recipes/combat/netherite_sword.json
++ recipes/decorations/composter.json
++ recipes/decorations/crimson_fence.json
++ recipes/decorations/soul_fire_lantern.json
++ recipes/decorations/soul_fire_torch.json
++ recipes/decorations/warped_fence.json
+- recipes/misc/composter.json
++ recipes/misc/netherite_ingot_from_netherite_block.json
++ recipes/misc/netherite_ingot.json
++ recipes/misc/netherite_scrap_from_blasting.json
++ recipes/misc/netherite_scrap.json
++ recipes/redstone/crimson_button.json
++ recipes/redstone/crimson_door.json
++ recipes/redstone/crimson_fence_gate.json
++ recipes/redstone/crimson_pressure_plate.json
++ recipes/redstone/crimson_trapdoor.json
++ recipes/redstone/warped_button.json
++ recipes/redstone/warped_door.json
++ recipes/redstone/warped_fence_gate.json
++ recipes/redstone/warped_pressure_plate.json
++ recipes/redstone/warped_trapdoor.json
++ recipes/tools/netherite_axe.json
++ recipes/tools/netherite_hoe.json
++ recipes/tools/netherite_pickaxe.json
++ recipes/tools/netherite_shovel.json
+```
+
+</details>
+
+
+<details><summary>languages.txt</summary>
+
+```diff
++ fur_it.json
++ realms/lang/fur_it.json
++ realms/lang/swg.json
++ realms/lang/tok.json
++ swg.json
++ tok.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/ancient_debris.json
++ blocks/basalt.json
++ blocks/crimson_button.json
++ blocks/crimson_door.json
++ blocks/crimson_fence_gate.json
++ blocks/crimson_fence.json
++ blocks/crimson_fungi.json
++ blocks/crimson_nylium.json
++ blocks/crimson_planks.json
++ blocks/crimson_pressure_plate.json
++ blocks/crimson_roots.json
++ blocks/crimson_sign.json
++ blocks/crimson_slab.json
++ blocks/crimson_stairs.json
++ blocks/crimson_stem.json
++ blocks/crimson_trapdoor.json
++ blocks/nether_sprouts.json
++ blocks/netherite_block.json
++ blocks/shroomlight.json
++ blocks/soul_fire_lantern.json
++ blocks/soul_fire_torch.json
++ blocks/soul_soil.json
++ blocks/stripped_crimson_stem.json
++ blocks/stripped_warped_stem.json
++ blocks/warped_button.json
++ blocks/warped_door.json
++ blocks/warped_fence_gate.json
++ blocks/warped_fence.json
++ blocks/warped_fungi.json
++ blocks/warped_nylium.json
++ blocks/warped_planks.json
++ blocks/warped_pressure_plate.json
++ blocks/warped_roots.json
++ blocks/warped_sign.json
++ blocks/warped_slab.json
++ blocks/warped_stairs.json
++ blocks/warped_stem.json
++ blocks/warped_trapdoor.json
++ blocks/warped_wart_block.json
++ blocks/weeping_vines_plant.json
++ blocks/weeping_vines.json
++ entities/hoglin.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ ash.json
++ crimson_spore.json
++ soul_fire_flame.json
++ warped_spore.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ crimson_button.json
++ crimson_door.json
++ crimson_fence_gate.json
++ crimson_fence.json
++ crimson_planks.json
++ crimson_pressure_plate.json
++ crimson_slab.json
++ crimson_stairs.json
++ crimson_trapdoor.json
++ netherite_axe.json
++ netherite_block.json
++ netherite_boots.json
++ netherite_chestplate.json
++ netherite_helmet.json
++ netherite_hoe.json
++ netherite_ingot_from_netherite_block.json
++ netherite_ingot.json
++ netherite_leggings.json
++ netherite_pickaxe.json
++ netherite_scrap_from_blasting.json
++ netherite_scrap.json
++ netherite_shovel.json
++ netherite_sword.json
++ soul_fire_lantern.json
++ soul_fire_torch.json
++ warped_button.json
++ warped_door.json
++ warped_fence_gate.json
++ warped_fence.json
++ warped_planks.json
++ warped_pressure_plate.json
++ warped_slab.json
++ warped_stairs.json
++ warped_trapdoor.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ ambient/nether/basalt_deltas/active1.ogg
++ ambient/nether/basalt_deltas/active2.ogg
++ ambient/nether/basalt_deltas/active3.ogg
++ ambient/nether/basalt_deltas/active4.ogg
++ ambient/nether/basalt_deltas/ambience.ogg
++ ambient/nether/basalt_deltas/basaltground1.ogg
++ ambient/nether/basalt_deltas/basaltground2.ogg
++ ambient/nether/basalt_deltas/basaltground3.ogg
++ ambient/nether/basalt_deltas/basaltground4.ogg
++ ambient/nether/basalt_deltas/click1.ogg
++ ambient/nether/basalt_deltas/click2.ogg
++ ambient/nether/basalt_deltas/click3.ogg
++ ambient/nether/basalt_deltas/click4.ogg
++ ambient/nether/basalt_deltas/click5.ogg
++ ambient/nether/basalt_deltas/click6.ogg
++ ambient/nether/basalt_deltas/click7.ogg
++ ambient/nether/basalt_deltas/click8.ogg
++ ambient/nether/basalt_deltas/debris1.ogg
++ ambient/nether/basalt_deltas/debris2.ogg
++ ambient/nether/basalt_deltas/debris3.ogg
++ ambient/nether/basalt_deltas/heavy_click1.ogg
++ ambient/nether/basalt_deltas/heavy_click2.ogg
++ ambient/nether/basalt_deltas/long_debris1.ogg
++ ambient/nether/basalt_deltas/long_debris2.ogg
++ ambient/nether/basalt_deltas/plode1.ogg
++ ambient/nether/basalt_deltas/plode2.ogg
++ ambient/nether/basalt_deltas/plode3.ogg
++ ambient/nether/basalt_deltas/twist1.ogg
++ ambient/nether/basalt_deltas/twist2.ogg
++ ambient/nether/basalt_deltas/twist3.ogg
++ ambient/nether/basalt_deltas/twist4.ogg
++ ambient/nether/crimson_forest/addition1.ogg
++ ambient/nether/crimson_forest/addition2.ogg
++ ambient/nether/crimson_forest/addition3.ogg
++ ambient/nether/crimson_forest/ambience.ogg
++ ambient/nether/crimson_forest/mood1.ogg
++ ambient/nether/crimson_forest/mood2.ogg
++ ambient/nether/crimson_forest/mood3.ogg
++ ambient/nether/crimson_forest/mood4.ogg
++ ambient/nether/crimson_forest/particles1.ogg
++ ambient/nether/crimson_forest/particles2.ogg
++ ambient/nether/crimson_forest/particles3.ogg
++ ambient/nether/crimson_forest/shine1.ogg
++ ambient/nether/crimson_forest/shine2.ogg
++ ambient/nether/crimson_forest/shine3.ogg
++ ambient/nether/crimson_forest/shroom1.ogg
++ ambient/nether/crimson_forest/shroom2.ogg
++ ambient/nether/crimson_forest/shroom3.ogg
++ ambient/nether/crimson_forest/twang1.ogg
++ ambient/nether/crimson_forest/voom1.ogg
++ ambient/nether/crimson_forest/voom2.ogg
++ ambient/nether/nether_wastes/addition1.ogg
++ ambient/nether/nether_wastes/addition2.ogg
++ ambient/nether/nether_wastes/addition3.ogg
++ ambient/nether/nether_wastes/addition4.ogg
++ ambient/nether/nether_wastes/addition5.ogg
++ ambient/nether/nether_wastes/addition6.ogg
++ ambient/nether/nether_wastes/addition7.ogg
++ ambient/nether/nether_wastes/addition8.ogg
++ ambient/nether/nether_wastes/ambience.ogg
++ ambient/nether/nether_wastes/dark1.ogg
++ ambient/nether/nether_wastes/dark2.ogg
++ ambient/nether/nether_wastes/ground1.ogg
++ ambient/nether/nether_wastes/ground2.ogg
++ ambient/nether/nether_wastes/ground3.ogg
++ ambient/nether/nether_wastes/ground4.ogg
++ ambient/nether/nether_wastes/mood1.ogg
++ ambient/nether/nether_wastes/mood2.ogg
++ ambient/nether/nether_wastes/mood3.ogg
++ ambient/nether/nether_wastes/mood4.ogg
++ ambient/nether/nether_wastes/mood5.ogg
++ ambient/nether/soulsand_valley/ambience.ogg
++ ambient/nether/soulsand_valley/mood1.ogg
++ ambient/nether/soulsand_valley/mood2.ogg
++ ambient/nether/soulsand_valley/mood3.ogg
++ ambient/nether/soulsand_valley/mood4.ogg
++ ambient/nether/soulsand_valley/sand1.ogg
++ ambient/nether/soulsand_valley/sand2.ogg
++ ambient/nether/soulsand_valley/sand3.ogg
++ ambient/nether/soulsand_valley/voices1.ogg
++ ambient/nether/soulsand_valley/voices2.ogg
++ ambient/nether/soulsand_valley/voices3.ogg
++ ambient/nether/soulsand_valley/voices4.ogg
++ ambient/nether/soulsand_valley/voices5.ogg
++ ambient/nether/soulsand_valley/whisper1.ogg
++ ambient/nether/soulsand_valley/whisper2.ogg
++ ambient/nether/soulsand_valley/whisper3.ogg
++ ambient/nether/soulsand_valley/whisper4.ogg
++ ambient/nether/soulsand_valley/whisper5.ogg
++ ambient/nether/soulsand_valley/whisper6.ogg
++ ambient/nether/soulsand_valley/whisper7.ogg
++ ambient/nether/soulsand_valley/whisper8.ogg
++ ambient/nether/soulsand_valley/wind1.ogg
++ ambient/nether/soulsand_valley/wind2.ogg
++ ambient/nether/soulsand_valley/wind3.ogg
++ ambient/nether/soulsand_valley/wind4.ogg
++ ambient/nether/soulsand_valley/with1.ogg
++ ambient/nether/warped_forest/addition1.ogg
++ ambient/nether/warped_forest/addition2.ogg
++ ambient/nether/warped_forest/addition3.ogg
++ ambient/nether/warped_forest/addition4.ogg
++ ambient/nether/warped_forest/addition5.ogg
++ ambient/nether/warped_forest/addition6.ogg
++ ambient/nether/warped_forest/ambience.ogg
++ ambient/nether/warped_forest/creak1.ogg
++ ambient/nether/warped_forest/creak2.ogg
++ ambient/nether/warped_forest/creak3.ogg
++ ambient/nether/warped_forest/creak4.ogg
++ ambient/nether/warped_forest/creak5.ogg
++ ambient/nether/warped_forest/enish1.ogg
++ ambient/nether/warped_forest/enish2.ogg
++ ambient/nether/warped_forest/enish3.ogg
++ ambient/nether/warped_forest/help1.ogg
++ ambient/nether/warped_forest/help2.ogg
++ ambient/nether/warped_forest/here1.ogg
++ ambient/nether/warped_forest/here2.ogg
++ ambient/nether/warped_forest/here3.ogg
++ ambient/nether/warped_forest/mood1.ogg
++ ambient/nether/warped_forest/mood2.ogg
++ ambient/nether/warped_forest/mood3.ogg
++ ambient/nether/warped_forest/mood4.ogg
++ ambient/nether/warped_forest/mood5.ogg
++ ambient/nether/warped_forest/mood6.ogg
++ ambient/nether/warped_forest/mood7.ogg
++ ambient/nether/warped_forest/mood8.ogg
++ ambient/nether/warped_forest/mood9.ogg
++ block/ancient_debris/break1.ogg
++ block/ancient_debris/break2.ogg
++ block/ancient_debris/break3.ogg
++ block/ancient_debris/break4.ogg
++ block/ancient_debris/break5.ogg
++ block/basalt/break1.ogg
++ block/basalt/break2.ogg
++ block/basalt/break3.ogg
++ block/basalt/break4.ogg
++ block/basalt/break5.ogg
++ block/basalt/step1.ogg
++ block/basalt/step2.ogg
++ block/basalt/step3.ogg
++ block/basalt/step4.ogg
++ block/basalt/step5.ogg
++ block/basalt/step6.ogg
++ block/bone_block/break1.ogg
++ block/bone_block/break2.ogg
++ block/bone_block/break3.ogg
++ block/bone_block/break4.ogg
++ block/bone_block/break5.ogg
++ block/bone_block/step1.ogg
++ block/bone_block/step2.ogg
++ block/bone_block/step3.ogg
++ block/bone_block/step4.ogg
++ block/bone_block/step5.ogg
++ block/chain/break1.ogg
++ block/chain/break2.ogg
++ block/chain/break3.ogg
++ block/chain/break4.ogg
++ block/chain/step1.ogg
++ block/chain/step2.ogg
++ block/chain/step3.ogg
++ block/chain/step4.ogg
++ block/chain/step5.ogg
++ block/chain/step6.ogg
++ block/fungus/break1.ogg
++ block/fungus/break2.ogg
++ block/fungus/break3.ogg
++ block/fungus/break4.ogg
++ block/fungus/break5.ogg
++ block/fungus/break6.ogg
++ block/lodestone/lock1.ogg
++ block/lodestone/lock2.ogg
++ block/lodestone/place1.ogg
++ block/lodestone/place2.ogg
++ block/lodestone/place3.ogg
++ block/lodestone/place4.ogg
++ block/nether_bricks/break1.ogg
++ block/nether_bricks/break2.ogg
++ block/nether_bricks/break3.ogg
++ block/nether_bricks/break4.ogg
++ block/nether_bricks/break5.ogg
++ block/nether_bricks/break6.ogg
++ block/nether_bricks/step1.ogg
++ block/nether_bricks/step2.ogg
++ block/nether_bricks/step3.ogg
++ block/nether_bricks/step4.ogg
++ block/nether_bricks/step5.ogg
++ block/nether_bricks/step6.ogg
++ block/nether_ore/break1.ogg
++ block/nether_ore/break2.ogg
++ block/nether_ore/break3.ogg
++ block/nether_ore/break4.ogg
++ block/nether_ore/step1.ogg
++ block/nether_ore/step2.ogg
++ block/nether_ore/step3.ogg
++ block/nether_ore/step4.ogg
++ block/nether_ore/step5.ogg
++ block/nether_sprouts/break1.ogg
++ block/nether_sprouts/break2.ogg
++ block/nether_sprouts/break3.ogg
++ block/nether_sprouts/break4.ogg
++ block/nether_sprouts/step1.ogg
++ block/nether_sprouts/step2.ogg
++ block/nether_sprouts/step3.ogg
++ block/nether_sprouts/step4.ogg
++ block/nether_sprouts/step5.ogg
++ block/netherite/break1.ogg
++ block/netherite/break2.ogg
++ block/netherite/break3.ogg
++ block/netherite/break4.ogg
++ block/netherite/step1.ogg
++ block/netherite/step2.ogg
++ block/netherite/step3.ogg
++ block/netherite/step4.ogg
++ block/netherite/step5.ogg
++ block/netherite/step6.ogg
++ block/netherrack/break1.ogg
++ block/netherrack/break2.ogg
++ block/netherrack/break3.ogg
++ block/netherrack/break4.ogg
++ block/netherrack/break5.ogg
++ block/netherrack/break6.ogg
++ block/netherrack/step1.ogg
++ block/netherrack/step2.ogg
++ block/netherrack/step3.ogg
++ block/netherrack/step4.ogg
++ block/netherrack/step5.ogg
++ block/netherrack/step6.ogg
++ block/netherwart/break1.ogg
++ block/netherwart/break2.ogg
++ block/netherwart/break3.ogg
++ block/netherwart/break4.ogg
++ block/netherwart/break5.ogg
++ block/netherwart/break6.ogg
++ block/netherwart/step1.ogg
++ block/netherwart/step2.ogg
++ block/netherwart/step3.ogg
++ block/netherwart/step4.ogg
++ block/netherwart/step5.ogg
++ block/nylium/break1.ogg
++ block/nylium/break2.ogg
++ block/nylium/break3.ogg
++ block/nylium/break4.ogg
++ block/nylium/break5.ogg
++ block/nylium/break6.ogg
++ block/nylium/step1.ogg
++ block/nylium/step2.ogg
++ block/nylium/step3.ogg
++ block/nylium/step4.ogg
++ block/nylium/step5.ogg
++ block/nylium/step6.ogg
++ block/respawn_anchor/ambient1.ogg
++ block/respawn_anchor/ambient2.ogg
++ block/respawn_anchor/ambient3.ogg
++ block/respawn_anchor/charge1.ogg
++ block/respawn_anchor/charge2.ogg
++ block/respawn_anchor/charge3.ogg
++ block/respawn_anchor/deplete1.ogg
++ block/respawn_anchor/deplete2.ogg
++ block/respawn_anchor/set_spawn1.ogg
++ block/respawn_anchor/set_spawn2.ogg
++ block/respawn_anchor/set_spawn3.ogg
++ block/roots/break1.ogg
++ block/roots/break2.ogg
++ block/roots/break3.ogg
++ block/roots/break4.ogg
++ block/roots/break5.ogg
++ block/roots/break6.ogg
++ block/roots/step1.ogg
++ block/roots/step2.ogg
++ block/roots/step3.ogg
++ block/roots/step4.ogg
++ block/roots/step5.ogg
++ block/shroomlight/break1.ogg
++ block/shroomlight/break2.ogg
++ block/shroomlight/break3.ogg
++ block/shroomlight/break4.ogg
++ block/shroomlight/break5.ogg
++ block/shroomlight/step1.ogg
++ block/shroomlight/step2.ogg
++ block/shroomlight/step3.ogg
++ block/shroomlight/step4.ogg
++ block/shroomlight/step5.ogg
++ block/shroomlight/step6.ogg
++ block/soul_sand/break1.ogg
++ block/soul_sand/break2.ogg
++ block/soul_sand/break3.ogg
++ block/soul_sand/break4.ogg
++ block/soul_sand/break5.ogg
++ block/soul_sand/break6.ogg
++ block/soul_sand/break7.ogg
++ block/soul_sand/break8.ogg
++ block/soul_sand/break9.ogg
++ block/soul_sand/step1.ogg
++ block/soul_sand/step2.ogg
++ block/soul_sand/step3.ogg
++ block/soul_sand/step4.ogg
++ block/soul_sand/step5.ogg
++ block/soul_soil/break1.ogg
++ block/soul_soil/break2.ogg
++ block/soul_soil/break3.ogg
++ block/soul_soil/break4.ogg
++ block/soul_soil/break5.ogg
++ block/soul_soil/break6.ogg
++ block/soul_soil/step1.ogg
++ block/soul_soil/step2.ogg
++ block/soul_soil/step3.ogg
++ block/soul_soil/step4.ogg
++ block/soul_soil/step5.ogg
++ block/stem/break1.ogg
++ block/stem/break2.ogg
++ block/stem/break3.ogg
++ block/stem/break4.ogg
++ block/stem/break5.ogg
++ block/stem/break6.ogg
++ block/stem/step1.ogg
++ block/stem/step2.ogg
++ block/stem/step3.ogg
++ block/stem/step4.ogg
++ block/stem/step5.ogg
++ block/stem/step6.ogg
++ block/vine/climb1.ogg
++ block/vine/climb2.ogg
++ block/vine/climb3.ogg
++ block/vine/climb4.ogg
++ block/vine/climb5.ogg
++ enchant/soulspeed/soulspeed1.ogg
++ enchant/soulspeed/soulspeed10.ogg
++ enchant/soulspeed/soulspeed11.ogg
++ enchant/soulspeed/soulspeed12.ogg
++ enchant/soulspeed/soulspeed13.ogg
++ enchant/soulspeed/soulspeed2.ogg
++ enchant/soulspeed/soulspeed3.ogg
++ enchant/soulspeed/soulspeed4.ogg
++ enchant/soulspeed/soulspeed5.ogg
++ enchant/soulspeed/soulspeed6.ogg
++ enchant/soulspeed/soulspeed7.ogg
++ enchant/soulspeed/soulspeed8.ogg
++ enchant/soulspeed/soulspeed9.ogg
++ item/armor/equip_netherite1.ogg
++ item/armor/equip_netherite2.ogg
++ item/armor/equip_netherite3.ogg
++ item/armor/equip_netherite4.ogg
++ mob/hoglin/angry1.ogg
++ mob/hoglin/angry2.ogg
++ mob/hoglin/angry3.ogg
++ mob/hoglin/angry4.ogg
++ mob/hoglin/angry5.ogg
++ mob/hoglin/angry6.ogg
++ mob/hoglin/attack1.ogg
++ mob/hoglin/attack2.ogg
++ mob/hoglin/converted1.ogg
++ mob/hoglin/converted2.ogg
++ mob/hoglin/death1.ogg
++ mob/hoglin/death2.ogg
++ mob/hoglin/death3.ogg
++ mob/hoglin/hurt1.ogg
++ mob/hoglin/hurt2.ogg
++ mob/hoglin/hurt3.ogg
++ mob/hoglin/hurt4.ogg
++ mob/hoglin/idle1.ogg
++ mob/hoglin/idle10.ogg
++ mob/hoglin/idle11.ogg
++ mob/hoglin/idle2.ogg
++ mob/hoglin/idle3.ogg
++ mob/hoglin/idle4.ogg
++ mob/hoglin/idle5.ogg
++ mob/hoglin/idle6.ogg
++ mob/hoglin/idle7.ogg
++ mob/hoglin/idle8.ogg
++ mob/hoglin/idle9.ogg
++ mob/hoglin/retreat1.ogg
++ mob/hoglin/retreat2.ogg
++ mob/hoglin/retreat3.ogg
++ mob/hoglin/step1.ogg
++ mob/hoglin/step2.ogg
++ mob/hoglin/step3.ogg
++ mob/hoglin/step4.ogg
++ mob/hoglin/step5.ogg
++ mob/hoglin/step6.ogg
++ mob/piglin_brute/angry1.ogg
++ mob/piglin_brute/angry2.ogg
++ mob/piglin_brute/angry3.ogg
++ mob/piglin_brute/angry4.ogg
++ mob/piglin_brute/angry5.ogg
++ mob/piglin_brute/death1.ogg
++ mob/piglin_brute/death2.ogg
++ mob/piglin_brute/death3.ogg
++ mob/piglin_brute/hurt1.ogg
++ mob/piglin_brute/hurt2.ogg
++ mob/piglin_brute/hurt3.ogg
++ mob/piglin_brute/hurt4.ogg
++ mob/piglin_brute/idle1.ogg
++ mob/piglin_brute/idle2.ogg
++ mob/piglin_brute/idle3.ogg
++ mob/piglin_brute/idle4.ogg
++ mob/piglin_brute/idle5.ogg
++ mob/piglin_brute/idle6.ogg
++ mob/piglin_brute/idle7.ogg
++ mob/piglin_brute/idle8.ogg
++ mob/piglin_brute/idle9.ogg
++ mob/piglin_brute/step1.ogg
++ mob/piglin_brute/step2.ogg
++ mob/piglin_brute/step3.ogg
++ mob/piglin_brute/step4.ogg
++ mob/piglin_brute/step5.ogg
++ mob/piglin/admire1.ogg
++ mob/piglin/admire2.ogg
++ mob/piglin/angry1.ogg
++ mob/piglin/angry2.ogg
++ mob/piglin/angry3.ogg
++ mob/piglin/angry4.ogg
++ mob/piglin/celebrate1.ogg
++ mob/piglin/celebrate2.ogg
++ mob/piglin/celebrate3.ogg
++ mob/piglin/celebrate4.ogg
++ mob/piglin/converted1.ogg
++ mob/piglin/converted2.ogg
++ mob/piglin/death1.ogg
++ mob/piglin/death2.ogg
++ mob/piglin/death3.ogg
++ mob/piglin/death4.ogg
++ mob/piglin/hurt1.ogg
++ mob/piglin/hurt2.ogg
++ mob/piglin/hurt3.ogg
++ mob/piglin/idle1.ogg
++ mob/piglin/idle2.ogg
++ mob/piglin/idle3.ogg
++ mob/piglin/idle4.ogg
++ mob/piglin/idle5.ogg
++ mob/piglin/jealous1.ogg
++ mob/piglin/jealous2.ogg
++ mob/piglin/jealous3.ogg
++ mob/piglin/jealous4.ogg
++ mob/piglin/jealous5.ogg
++ mob/piglin/retreat1.ogg
++ mob/piglin/retreat2.ogg
++ mob/piglin/retreat3.ogg
++ mob/piglin/retreat4.ogg
++ mob/piglin/step1.ogg
++ mob/piglin/step2.ogg
++ mob/piglin/step3.ogg
++ mob/piglin/step4.ogg
++ mob/piglin/step5.ogg
++ mob/strider/death1.ogg
++ mob/strider/death2.ogg
++ mob/strider/death3.ogg
++ mob/strider/death4.ogg
++ mob/strider/eat1.ogg
++ mob/strider/eat2.ogg
++ mob/strider/eat3.ogg
++ mob/strider/happy1.ogg
++ mob/strider/happy2.ogg
++ mob/strider/happy3.ogg
++ mob/strider/happy4.ogg
++ mob/strider/happy5.ogg
++ mob/strider/hurt1.ogg
++ mob/strider/hurt2.ogg
++ mob/strider/hurt3.ogg
++ mob/strider/hurt4.ogg
++ mob/strider/idle1.ogg
++ mob/strider/idle2.ogg
++ mob/strider/idle3.ogg
++ mob/strider/idle4.ogg
++ mob/strider/idle5.ogg
++ mob/strider/idle6.ogg
++ mob/strider/retreat1.ogg
++ mob/strider/retreat2.ogg
++ mob/strider/retreat3.ogg
++ mob/strider/retreat4.ogg
++ mob/strider/retreat5.ogg
++ mob/strider/step_lava1.ogg
++ mob/strider/step_lava2.ogg
++ mob/strider/step_lava3.ogg
++ mob/strider/step_lava4.ogg
++ mob/strider/step_lava5.ogg
++ mob/strider/step_lava6.ogg
++ mob/strider/step1.ogg
++ mob/strider/step2.ogg
++ mob/strider/step3.ogg
++ mob/strider/step4.ogg
++ mob/strider/step5.ogg
++ mob/zoglin/angry1.ogg
++ mob/zoglin/angry2.ogg
++ mob/zoglin/angry3.ogg
++ mob/zoglin/attack1.ogg
++ mob/zoglin/attack2.ogg
++ mob/zoglin/death1.ogg
++ mob/zoglin/death2.ogg
++ mob/zoglin/death3.ogg
++ mob/zoglin/hurt1.ogg
++ mob/zoglin/hurt2.ogg
++ mob/zoglin/hurt3.ogg
++ mob/zoglin/idle1.ogg
++ mob/zoglin/idle2.ogg
++ mob/zoglin/idle3.ogg
++ mob/zoglin/idle4.ogg
++ mob/zoglin/idle5.ogg
++ mob/zoglin/idle6.ogg
++ mob/zoglin/step1.ogg
++ mob/zoglin/step2.ogg
++ mob/zoglin/step3.ogg
++ mob/zoglin/step4.ogg
++ mob/zoglin/step5.ogg
+- mob/zombiepig/zpig1.ogg
+- mob/zombiepig/zpig2.ogg
+- mob/zombiepig/zpig3.ogg
+- mob/zombiepig/zpig4.ogg
+- mob/zombiepig/zpigangry1.ogg
+- mob/zombiepig/zpigangry2.ogg
+- mob/zombiepig/zpigangry3.ogg
+- mob/zombiepig/zpigangry4.ogg
+- mob/zombiepig/zpigdeath.ogg
+- mob/zombiepig/zpighurt1.ogg
+- mob/zombiepig/zpighurt2.ogg
++ mob/zombified_piglin/zpig1.ogg
++ mob/zombified_piglin/zpig2.ogg
++ mob/zombified_piglin/zpig3.ogg
++ mob/zombified_piglin/zpig4.ogg
++ mob/zombified_piglin/zpigangry1.ogg
++ mob/zombified_piglin/zpigangry2.ogg
++ mob/zombified_piglin/zpigangry3.ogg
++ mob/zombified_piglin/zpigangry4.ogg
++ mob/zombified_piglin/zpigdeath.ogg
++ mob/zombified_piglin/zpighurt1.ogg
++ mob/zombified_piglin/zpighurt2.ogg
++ music/game/nether/crimson_forest/chrysopoeia.ogg
++ music/game/nether/nether_wastes/rubedo.ogg
++ music/game/nether/soulsand_valley/so_below.ogg
++ records/pigstep.ogg
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
++ nether_fossils/fossil_1.nbt
++ nether_fossils/fossil_10.nbt
++ nether_fossils/fossil_11.nbt
++ nether_fossils/fossil_12.nbt
++ nether_fossils/fossil_13.nbt
++ nether_fossils/fossil_14.nbt
++ nether_fossils/fossil_2.nbt
++ nether_fossils/fossil_3.nbt
++ nether_fossils/fossil_4.nbt
++ nether_fossils/fossil_5.nbt
++ nether_fossils/fossil_6.nbt
++ nether_fossils/fossil_7.nbt
++ nether_fossils/fossil_8.nbt
++ nether_fossils/fossil_9.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/crimson_stems.json
++ blocks/fire.json
++ blocks/nylium.json
++ blocks/warped_stems.json
++ blocks/wart_blocks.json
++ items/crimson_stems.json
++ items/warped_stems.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/ancient_debris_side.png
++ block/ancient_debris_top.png
++ block/basalt_side.png
++ block/basalt_top.png
++ block/crimson_door_bottom.png
++ block/crimson_door_top.png
++ block/crimson_fungi.png
++ block/crimson_nylium_side.png
++ block/crimson_nylium.png
++ block/crimson_planks.png
++ block/crimson_roots.png
++ block/crimson_stem_top.png
++ block/crimson_stem.png
++ block/crimson_trapdoor.png
++ block/nether_sprouts.png
++ block/netherite_block.png
++ block/shroomlight.png
++ block/soul_fire_0.png
++ block/soul_fire_1.png
++ block/soul_fire_lantern.png
++ block/soul_fire_torch.png
++ block/soul_soil.png
++ block/stripped_crimson_stem_top.png
++ block/stripped_crimson_stem.png
++ block/stripped_warped_stem_top.png
++ block/stripped_warped_stem.png
++ block/warped_door_bottom.png
++ block/warped_door_top.png
++ block/warped_fungi.png
++ block/warped_nylium_side.png
++ block/warped_nylium.png
++ block/warped_planks.png
++ block/warped_roots.png
++ block/warped_stem_top.png
++ block/warped_stem.png
++ block/warped_stripped_log_side.png
++ block/warped_stripped_log_top.png
++ block/warped_trapdoor.png
++ block/warped_wart_block.png
++ block/weeping_vines_plant.png
++ block/weeping_vines.png
++ entity/hoglin/hoglin.png
++ entity/signs/crimson.png
++ entity/signs/warped.png
++ item/crimson_door.png
++ item/crimson_sign.png
++ item/netherite_axe.png
++ item/netherite_boots.png
++ item/netherite_chestplate.png
++ item/netherite_helmet.png
++ item/netherite_hoe.png
++ item/netherite_ingot.png
++ item/netherite_leggings.png
++ item/netherite_pickaxe.png
++ item/netherite_scrap.png
++ item/netherite_shovel.png
++ item/netherite_sword.png
++ item/soul_fire_lantern.png
++ item/warped_door.png
++ item/warped_sign.png
++ models/armor/netherite_layer_1.png
++ models/armor/netherite_layer_2.png
++ particle/soul_fire_flame.png
+```
+
+</details>

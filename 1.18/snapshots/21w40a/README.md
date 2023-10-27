@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w40a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w40a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-10-07T11:17:50+00:00</td></tr>
@@ -10,2176 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6b5b0e3ab19b97cfd0df9743e3b0205dbd8ebe20/server.txt">https://piston-data.mojang.com/v1/objects/6b5b0e3ab19b97cfd0df9743e3b0205dbd8ebe20/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/b88eecb40a4b522aaebe5b10dc44d235f2aef944/client.jar">https://piston-data.mojang.com/v1/objects/b88eecb40a4b522aaebe5b10dc44d235f2aef944/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3d8e14cfa4589def945e615dfc3f8f4ede71d31c/client.txt">https://piston-data.mojang.com/v1/objects/3d8e14cfa4589def945e615dfc3f8f4ede71d31c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w39a">21w39a</a>
-## File structure
 
-<details><summary>minecraft-generated/</summary>
+# Mappings
 
-```diff
--  reports/biomes/badlands_plateau.json
--  reports/biomes/bamboo_jungle_hills.json
--  reports/biomes/birch_forest_hills.json
--  reports/biomes/dark_forest_hills.json
--  reports/biomes/desert_hills.json
--  reports/biomes/desert_lakes.json
-+  reports/biomes/frozen_peaks.json
--  reports/biomes/giant_spruce_taiga.json
--  reports/biomes/giant_spruce_taiga_hills.json
--  reports/biomes/giant_tree_taiga.json
--  reports/biomes/giant_tree_taiga_hills.json
--  reports/biomes/gravelly_mountains.json
-+  reports/biomes/jagged_peaks.json
--  reports/biomes/jungle_edge.json
--  reports/biomes/jungle_hills.json
--  reports/biomes/lofty_peaks.json
--  reports/biomes/modified_badlands_plateau.json
--  reports/biomes/modified_gravelly_mountains.json
--  reports/biomes/modified_jungle.json
--  reports/biomes/modified_jungle_edge.json
--  reports/biomes/modified_wooded_badlands_plateau.json
--  reports/biomes/mountain_edge.json
--  reports/biomes/mountains.json
--  reports/biomes/mushroom_field_shore.json
-+  reports/biomes/old_growth_birch_forest.json
-+  reports/biomes/old_growth_pine_taiga.json
-+  reports/biomes/old_growth_spruce_taiga.json
--  reports/biomes/shattered_savanna.json
--  reports/biomes/shattered_savanna_plateau.json
--  reports/biomes/snowcapped_peaks.json
--  reports/biomes/snowy_mountains.json
-+  reports/biomes/snowy_plains.json
--  reports/biomes/snowy_taiga_hills.json
--  reports/biomes/snowy_taiga_mountains.json
--  reports/biomes/snowy_tundra.json
-+  reports/biomes/sparse_jungle.json
--  reports/biomes/stone_shore.json
-+  reports/biomes/stony_shore.json
--  reports/biomes/swamp_hills.json
--  reports/biomes/taiga_hills.json
--  reports/biomes/taiga_mountains.json
--  reports/biomes/tall_birch_forest.json
--  reports/biomes/tall_birch_hills.json
-+  reports/biomes/windswept_forest.json
-+  reports/biomes/windswept_gravelly_hills.json
-+  reports/biomes/windswept_hills.json
-+  reports/biomes/windswept_savanna.json
-+  reports/biomes/wooded_badlands.json
--  reports/biomes/wooded_badlands_plateau.json
--  reports/biomes/wooded_hills.json
--  reports/biomes/wooded_mountains.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>block_predicate_type.txt</summary>
 
-```diff
-+ minecraft:would_survive
-+ minecraft:true
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:block_survives_filter
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ int serverSimulationDistance
-+ void handleSetSimulationDistance(ClientboundSetSimulationDistancePacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.FishingLoot</summary>
-
-```diff
-+ LootItemCondition$Builder IN_SPARSE_JUNGLE
-- LootItemCondition$Builder IN_BAMBOO_JUNGLE_HILLS
-- LootItemCondition$Builder IN_JUNGLE_EDGE
-- LootItemCondition$Builder IN_JUNGLE_HILLS
-- LootItemCondition$Builder IN_MODIFIED_JUNGLE
-- LootItemCondition$Builder IN_MODIFIED_JUNGLE_EDGE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ BlockPredicate ONLY_IN_AIR_OR_WATER_PREDICATE
-+ BlockPredicate ONLY_IN_AIR_PREDICATE
-+ ConfiguredFeature MONSTER_ROOM_DEEP
-+ ConfiguredFeature ORE_DIAMOND_BURIED
-+ ConfiguredFeature ORE_GOLD_LOWER
-+ ConfiguredFeature PATCH_BERRY_COMMON
-+ ConfiguredFeature PATCH_BERRY_RARE
-- ConfiguredFeature LAKE_WATER
-- ConfiguredFeature PATCH_BERRY_DECORATED
-- ConfiguredFeature PATCH_BERRY_SPARSE
-+ RandomPatchConfiguration simplePatchConfiguration(List,int)
-+ RandomPatchConfiguration simplePatchConfiguration(List)
-- RandomPatchConfiguration simplePatchConfiguration(Set,int)
-- RandomPatchConfiguration simplePatchConfiguration(Set)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleSetSimulationDistance(net.minecraft.network.protocol.game.ClientboundSetSimulationDistancePacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
-
-```diff
-+ int simulationDistance
-+ int simulationDistance()
-+ void <init>(ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
-- void <init>(ResourceKey,long,int,int,boolean,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ ChunkPos chunkPosition
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.InteractWith</summary>
-
-```diff
-+ boolean canInteract(LivingEntity)
-+ boolean lambda$start$3(LivingEntity)
-+ void lambda$start$4(LivingEntity)
-- boolean lambda$start$3(LivingEntity)
-- boolean lambda$start$5(LivingEntity)
-- LivingEntity lambda$start$4(LivingEntity)
-- void lambda$start$6(LivingEntity)
-- void lambda$start$7(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
-
-```diff
-+ Optional nearestEntityMatchingTest
-+ boolean lambda$checkExtraStartConditions$4(LivingEntity)
-- boolean lambda$start$4(LivingEntity)
-- void lambda$start$5(LivingEntity)
-- void lambda$start$6(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetLookAndInteract</summary>
-
-```diff
-+ NearestVisibleLivingEntities getVisibleEntities(LivingEntity)
-+ Optional lambda$start$3(NearestVisibleLivingEntities)
-+ void lambda$start$4(LivingEntity)
-- List getVisibleEntities(LivingEntity)
-- void lambda$start$3(LivingEntity)
-- void lambda$start$4(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.control.LookControl</summary>
-
-```diff
-+ int lookAtCooldown
-- boolean hasWanted
-+ boolean isLookingAtTarget()
-- boolean isHasWanted()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.ZombieAttackGoal</summary>
-
-```diff
-- boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RandomPatchFeature</summary>
-
-```diff
-- boolean isValid(RandomPatchConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockColumnConfiguration</summary>
-
-```diff
-+ BlockPredicate allowedPlacement
-- boolean allowWater
-+ BlockPredicate allowedPlacement()
-+ void <init>(BlockPredicate,boolean)
-- boolean allowWater()
-- void <init>(Direction,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-- FeatureDecorator BLOCK_SURVIVES_FILTER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket
@@ -4507,790 +2359,88 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
 ```diff
-+ void addCommonBerryBushes(BiomeGenerationSettings$Builder)
-+ void addRareBerryBushes(BiomeGenerationSettings$Builder)
-- void addBerryBushes(BiomeGenerationSettings$Builder)
-- void addSparseBerryBushes(BiomeGenerationSettings$Builder)
-- void caveWaterSpawns(MobSpawnSettings$Builder)
++ void handleSetSimulationDistance(ClientboundSetSimulationDistancePacket)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
+<details><summary>net.minecraft.data.worldgen.Features</summary>
 
 ```diff
-+ ClientboundBlockEntityDataPacket create(Function)
++ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,List,int)
++ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,List)
+- RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,Set,int)
+- RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,Set)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
 
 ```diff
-+ ChunkPos chunkPosition
++ int simulationDistance()
+- void <init>(int,boolean,GameType,GameType,Set,RegistryAccess$RegistryHolder,DimensionType,ResourceKey,long,int,int,boolean,boolean,boolean,boolean)
++ void <init>(int,boolean,GameType,GameType,Set,RegistryAccess$RegistryHolder,DimensionType,ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.InteractWith</summary>
 
 ```diff
-+ boolean canInteract(LivingEntity)
-+ boolean lambda$start$3(LivingEntity)
-+ void lambda$start$4(LivingEntity)
++ boolean canInteract(LivingEntity,LivingEntity)
++ boolean lambda$start$3(LivingEntity,LivingEntity)
 - boolean lambda$start$3(LivingEntity)
-- boolean lambda$start$5(LivingEntity)
+- boolean lambda$start$5(LivingEntity,LivingEntity)
 - LivingEntity lambda$start$4(LivingEntity)
-- void lambda$start$6(LivingEntity)
-- void lambda$start$7(List)
++ void lambda$start$4(Brain,LivingEntity)
+- void lambda$start$6(Brain,LivingEntity)
+- void lambda$start$7(LivingEntity,Brain,List)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
 
 ```diff
-+ Optional nearestEntityMatchingTest
-+ boolean lambda$checkExtraStartConditions$4(LivingEntity)
-- boolean lambda$start$4(LivingEntity)
-- void lambda$start$5(LivingEntity)
-- void lambda$start$6(List)
++ boolean lambda$checkExtraStartConditions$4(LivingEntity,LivingEntity)
+- boolean lambda$start$4(LivingEntity,LivingEntity)
+- void lambda$start$5(Brain,LivingEntity)
+- void lambda$start$6(LivingEntity,Brain,List)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.SetLookAndInteract</summary>
 
 ```diff
-+ NearestVisibleLivingEntities getVisibleEntities(LivingEntity)
-+ Optional lambda$start$3(NearestVisibleLivingEntities)
-+ void lambda$start$4(LivingEntity)
 - List getVisibleEntities(LivingEntity)
-- void lambda$start$3(LivingEntity)
-- void lambda$start$4(List)
++ NearestVisibleLivingEntities getVisibleEntities(LivingEntity)
++ Optional lambda$start$3(LivingEntity,NearestVisibleLivingEntities)
+- void lambda$start$3(Brain,LivingEntity)
++ void lambda$start$4(Brain,LivingEntity)
+- void lambda$start$4(LivingEntity,Brain,List)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.control.LookControl</summary>
 
 ```diff
-+ int lookAtCooldown
-- boolean hasWanted
-+ boolean isLookingAtTarget()
 - boolean isHasWanted()
++ boolean isLookingAtTarget()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.goal.ZombieAttackGoal</summary>
@@ -5302,441 +2452,33 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.RandomPatchFeature</summary>
 
 ```diff
-- boolean isValid(RandomPatchConfiguration)
+- boolean isValid(LevelAccessor,BlockPos,RandomPatchConfiguration)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockColumnConfiguration</summary>
 
 ```diff
-+ BlockPredicate allowedPlacement
-- boolean allowWater
 + BlockPredicate allowedPlacement()
-+ void <init>(BlockPredicate,boolean)
 - boolean allowWater()
-- void <init>(Direction,boolean,boolean)
++ void <init>(List,Direction,BlockPredicate,boolean)
+- void <init>(List,Direction,boolean,boolean)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-- FeatureDecorator BLOCK_SURVIVES_FILTER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.protocol.game.ClientboundSetSimulationDistancePacket
@@ -8055,13 +4797,251 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
+- void addBerryBushes(BiomeGenerationSettings$Builder)
++ void addCommonBerryBushes(BiomeGenerationSettings$Builder)
++ void addRareBerryBushes(BiomeGenerationSettings$Builder)
+- void addSparseBerryBushes(BiomeGenerationSettings$Builder)
+- void caveWaterSpawns(MobSpawnSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
+
+```diff
++ ClientboundBlockEntityDataPacket create(BlockEntity,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.InteractWith</summary>
+
+```diff
++ boolean canInteract(LivingEntity,LivingEntity)
++ boolean lambda$start$3(LivingEntity,LivingEntity)
+- boolean lambda$start$3(LivingEntity)
+- boolean lambda$start$5(LivingEntity,LivingEntity)
+- LivingEntity lambda$start$4(LivingEntity)
++ void lambda$start$4(Brain,LivingEntity)
+- void lambda$start$6(Brain,LivingEntity)
+- void lambda$start$7(LivingEntity,Brain,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetEntityLookTarget</summary>
+
+```diff
++ boolean lambda$checkExtraStartConditions$4(LivingEntity,LivingEntity)
+- boolean lambda$start$4(LivingEntity,LivingEntity)
+- void lambda$start$5(Brain,LivingEntity)
+- void lambda$start$6(LivingEntity,Brain,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetLookAndInteract</summary>
+
+```diff
+- List getVisibleEntities(LivingEntity)
++ NearestVisibleLivingEntities getVisibleEntities(LivingEntity)
++ Optional lambda$start$3(LivingEntity,NearestVisibleLivingEntities)
+- void lambda$start$3(Brain,LivingEntity)
++ void lambda$start$4(Brain,LivingEntity)
+- void lambda$start$4(LivingEntity,Brain,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.control.LookControl</summary>
+
+```diff
+- boolean isHasWanted()
++ boolean isLookingAtTarget()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.ZombieAttackGoal</summary>
+
+```diff
+- boolean requiresUpdateEveryTick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RandomPatchFeature</summary>
+
+```diff
+- boolean isValid(LevelAccessor,BlockPos,RandomPatchConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.BlockColumnConfiguration</summary>
+
+```diff
++ BlockPredicate allowedPlacement()
+- boolean allowWater()
++ void <init>(List,Direction,BlockPredicate,boolean)
+- void <init>(List,Direction,boolean,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
+- reports/biomes/badlands_plateau.json
+- reports/biomes/bamboo_jungle_hills.json
+- reports/biomes/birch_forest_hills.json
+- reports/biomes/dark_forest_hills.json
+- reports/biomes/desert_hills.json
+- reports/biomes/desert_lakes.json
++ reports/biomes/frozen_peaks.json
+- reports/biomes/giant_spruce_taiga_hills.json
+- reports/biomes/giant_spruce_taiga.json
+- reports/biomes/giant_tree_taiga_hills.json
+- reports/biomes/giant_tree_taiga.json
+- reports/biomes/gravelly_mountains.json
++ reports/biomes/jagged_peaks.json
+- reports/biomes/jungle_edge.json
+- reports/biomes/jungle_hills.json
+- reports/biomes/lofty_peaks.json
+- reports/biomes/modified_badlands_plateau.json
+- reports/biomes/modified_gravelly_mountains.json
+- reports/biomes/modified_jungle_edge.json
+- reports/biomes/modified_jungle.json
+- reports/biomes/modified_wooded_badlands_plateau.json
+- reports/biomes/mountain_edge.json
+- reports/biomes/mountains.json
+- reports/biomes/mushroom_field_shore.json
++ reports/biomes/old_growth_birch_forest.json
++ reports/biomes/old_growth_pine_taiga.json
++ reports/biomes/old_growth_spruce_taiga.json
+- reports/biomes/shattered_savanna_plateau.json
+- reports/biomes/shattered_savanna.json
+- reports/biomes/snowcapped_peaks.json
+- reports/biomes/snowy_mountains.json
++ reports/biomes/snowy_plains.json
+- reports/biomes/snowy_taiga_hills.json
+- reports/biomes/snowy_taiga_mountains.json
+- reports/biomes/snowy_tundra.json
++ reports/biomes/sparse_jungle.json
+- reports/biomes/stone_shore.json
++ reports/biomes/stony_shore.json
+- reports/biomes/swamp_hills.json
+- reports/biomes/taiga_hills.json
+- reports/biomes/taiga_mountains.json
+- reports/biomes/tall_birch_forest.json
+- reports/biomes/tall_birch_hills.json
++ reports/biomes/windswept_forest.json
++ reports/biomes/windswept_gravelly_hills.json
++ reports/biomes/windswept_hills.json
++ reports/biomes/windswept_savanna.json
+- reports/biomes/wooded_badlands_plateau.json
++ reports/biomes/wooded_badlands.json
+- reports/biomes/wooded_hills.json
+- reports/biomes/wooded_mountains.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block_predicate_type.txt</summary>
+
+```diff
++ minecraft:true
++ minecraft:would_survive
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
+- minecraft:block_survives_filter
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- biome.minecraft.badlands_plateau
+- biome.minecraft.bamboo_jungle_hills
+- biome.minecraft.birch_forest_hills
+- biome.minecraft.dark_forest_hills
+- biome.minecraft.desert_hills
+- biome.minecraft.desert_lakes
++ biome.minecraft.frozen_peaks
+- biome.minecraft.giant_spruce_taiga
+- biome.minecraft.giant_spruce_taiga_hills
+- biome.minecraft.giant_tree_taiga
+- biome.minecraft.giant_tree_taiga_hills
+- biome.minecraft.gravelly_mountains
++ biome.minecraft.grove
++ biome.minecraft.jagged_peaks
+- biome.minecraft.jungle_edge
+- biome.minecraft.jungle_hills
++ biome.minecraft.meadow
+- biome.minecraft.modified_badlands_plateau
+- biome.minecraft.modified_gravelly_mountains
+- biome.minecraft.modified_jungle
+- biome.minecraft.modified_jungle_edge
+- biome.minecraft.modified_wooded_badlands_plateau
+- biome.minecraft.mountain_edge
+- biome.minecraft.mountains
+- biome.minecraft.mushroom_field_shore
++ biome.minecraft.old_growth_birch_forest
++ biome.minecraft.old_growth_pine_taiga
++ biome.minecraft.old_growth_spruce_taiga
+- biome.minecraft.shattered_savanna
+- biome.minecraft.shattered_savanna_plateau
+- biome.minecraft.snowy_mountains
++ biome.minecraft.snowy_plains
++ biome.minecraft.snowy_slopes
+- biome.minecraft.snowy_taiga_hills
+- biome.minecraft.snowy_taiga_mountains
+- biome.minecraft.snowy_tundra
++ biome.minecraft.sparse_jungle
+- biome.minecraft.stone_shore
++ biome.minecraft.stony_peaks
++ biome.minecraft.stony_shore
+- biome.minecraft.swamp_hills
+- biome.minecraft.taiga_hills
+- biome.minecraft.taiga_mountains
+- biome.minecraft.tall_birch_forest
+- biome.minecraft.tall_birch_hills
++ biome.minecraft.windswept_forest
++ biome.minecraft.windswept_gravelly_hills
++ biome.minecraft.windswept_hills
++ biome.minecraft.windswept_savanna
++ biome.minecraft.wooded_badlands
+- biome.minecraft.wooded_badlands_plateau
+- biome.minecraft.wooded_hills
+- biome.minecraft.wooded_mountains
+```
+
+</details>

@@ -1,1515 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w17a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w17a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-04-26T12:09:48+00:00</td></tr>
-<tr><th>SHA1</th><td>598c30b1de8cc5db672a2c61d69ab257a4ee672d</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/598c30b1de8cc5db672a2c61d69ab257a4ee672d/23w17a.json">https://piston-meta.mojang.com/v1/packages/598c30b1de8cc5db672a2c61d69ab257a4ee672d/23w17a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json">https://piston-meta.mojang.com/v1/packages/1a8e4fcd47eb2b8a8e910b2a7d2bf6262169d7bc/5.json</a></td></tr>
+<tr><th>SHA1</th><td>c1872a330cfd5e043941f2feef5893f94738a6a3</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/c1872a330cfd5e043941f2feef5893f94738a6a3/23w17a.json">https://piston-meta.mojang.com/v1/packages/c1872a330cfd5e043941f2feef5893f94738a6a3/23w17a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json">https://piston-meta.mojang.com/v1/packages/1b51f68c6f2d8ac4261b4043a6578bd60fd45d5c/5.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0/server.jar">https://piston-data.mojang.com/v1/objects/96e1b9db0f3d90309db34e8ce4fd39b52f6ddaa0/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/fa5f3188bb2d39796e83a7924edbf212edec8f4e/server.txt">https://piston-data.mojang.com/v1/objects/fa5f3188bb2d39796e83a7924edbf212edec8f4e/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/670d97ddfe62983a7bfa7c6c6f502d6157735bf8/client.jar">https://piston-data.mojang.com/v1/objects/670d97ddfe62983a7bfa7c6c6f502d6157735bf8/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6b39b26446b6c239df9365dfc89c0b06f9d7e6de/client.txt">https://piston-data.mojang.com/v1/objects/6b39b26446b6c239df9365dfc89c0b06f9d7e6de/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w16a">23w16a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/craft_decorated_pot_using_only_sherds.json
-+  minecraft/advancements/adventure/salvage_sherd.json
-+  minecraft/advancements/adventure/trim_with_all_exclusive_armor_patterns.json
-+  minecraft/advancements/adventure/trim_with_any_armor_pattern.json
-+  minecraft/advancements/husbandry/feed_snifflet.json
-+  minecraft/advancements/husbandry/obtain_sniffer_egg.json
-+  minecraft/advancements/husbandry/plant_any_sniffer_seed.json
-+  minecraft/loot_tables/gameplay/sniffer_digging.json
-+  minecraft/tags/items/decorated_pot_ingredients.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/font/include
-+  minecraft/font/include/default.json
-+  minecraft/font/include/space.json
-+  minecraft/font/include/unifont.json
--  minecraft/font/glyph_sizes.bin
-+  minecraft/models/item/music_disc_relic.json
--  minecraft/textures/font/unicode_page_00.png
--  minecraft/textures/font/unicode_page_01.png
--  minecraft/textures/font/unicode_page_02.png
--  minecraft/textures/font/unicode_page_03.png
--  minecraft/textures/font/unicode_page_04.png
--  minecraft/textures/font/unicode_page_05.png
--  minecraft/textures/font/unicode_page_06.png
--  minecraft/textures/font/unicode_page_07.png
--  minecraft/textures/font/unicode_page_09.png
--  minecraft/textures/font/unicode_page_0a.png
--  minecraft/textures/font/unicode_page_0b.png
--  minecraft/textures/font/unicode_page_0c.png
--  minecraft/textures/font/unicode_page_0d.png
--  minecraft/textures/font/unicode_page_0e.png
--  minecraft/textures/font/unicode_page_0f.png
--  minecraft/textures/font/unicode_page_10.png
--  minecraft/textures/font/unicode_page_11.png
--  minecraft/textures/font/unicode_page_12.png
--  minecraft/textures/font/unicode_page_13.png
--  minecraft/textures/font/unicode_page_14.png
--  minecraft/textures/font/unicode_page_15.png
--  minecraft/textures/font/unicode_page_16.png
--  minecraft/textures/font/unicode_page_17.png
--  minecraft/textures/font/unicode_page_18.png
--  minecraft/textures/font/unicode_page_19.png
--  minecraft/textures/font/unicode_page_1a.png
--  minecraft/textures/font/unicode_page_1b.png
--  minecraft/textures/font/unicode_page_1c.png
--  minecraft/textures/font/unicode_page_1d.png
--  minecraft/textures/font/unicode_page_1e.png
--  minecraft/textures/font/unicode_page_1f.png
--  minecraft/textures/font/unicode_page_20.png
--  minecraft/textures/font/unicode_page_21.png
--  minecraft/textures/font/unicode_page_22.png
--  minecraft/textures/font/unicode_page_23.png
--  minecraft/textures/font/unicode_page_24.png
--  minecraft/textures/font/unicode_page_25.png
--  minecraft/textures/font/unicode_page_26.png
--  minecraft/textures/font/unicode_page_27.png
--  minecraft/textures/font/unicode_page_28.png
--  minecraft/textures/font/unicode_page_29.png
--  minecraft/textures/font/unicode_page_2a.png
--  minecraft/textures/font/unicode_page_2b.png
--  minecraft/textures/font/unicode_page_2c.png
--  minecraft/textures/font/unicode_page_2d.png
--  minecraft/textures/font/unicode_page_2e.png
--  minecraft/textures/font/unicode_page_2f.png
--  minecraft/textures/font/unicode_page_30.png
--  minecraft/textures/font/unicode_page_31.png
--  minecraft/textures/font/unicode_page_32.png
--  minecraft/textures/font/unicode_page_33.png
--  minecraft/textures/font/unicode_page_34.png
--  minecraft/textures/font/unicode_page_35.png
--  minecraft/textures/font/unicode_page_36.png
--  minecraft/textures/font/unicode_page_37.png
--  minecraft/textures/font/unicode_page_38.png
--  minecraft/textures/font/unicode_page_39.png
--  minecraft/textures/font/unicode_page_3a.png
--  minecraft/textures/font/unicode_page_3b.png
--  minecraft/textures/font/unicode_page_3c.png
--  minecraft/textures/font/unicode_page_3d.png
--  minecraft/textures/font/unicode_page_3e.png
--  minecraft/textures/font/unicode_page_3f.png
--  minecraft/textures/font/unicode_page_40.png
--  minecraft/textures/font/unicode_page_41.png
--  minecraft/textures/font/unicode_page_42.png
--  minecraft/textures/font/unicode_page_43.png
--  minecraft/textures/font/unicode_page_44.png
--  minecraft/textures/font/unicode_page_45.png
--  minecraft/textures/font/unicode_page_46.png
--  minecraft/textures/font/unicode_page_47.png
--  minecraft/textures/font/unicode_page_48.png
--  minecraft/textures/font/unicode_page_49.png
--  minecraft/textures/font/unicode_page_4a.png
--  minecraft/textures/font/unicode_page_4b.png
--  minecraft/textures/font/unicode_page_4c.png
--  minecraft/textures/font/unicode_page_4d.png
--  minecraft/textures/font/unicode_page_4e.png
--  minecraft/textures/font/unicode_page_4f.png
--  minecraft/textures/font/unicode_page_50.png
--  minecraft/textures/font/unicode_page_51.png
--  minecraft/textures/font/unicode_page_52.png
--  minecraft/textures/font/unicode_page_53.png
--  minecraft/textures/font/unicode_page_54.png
--  minecraft/textures/font/unicode_page_55.png
--  minecraft/textures/font/unicode_page_56.png
--  minecraft/textures/font/unicode_page_57.png
--  minecraft/textures/font/unicode_page_58.png
--  minecraft/textures/font/unicode_page_59.png
--  minecraft/textures/font/unicode_page_5a.png
--  minecraft/textures/font/unicode_page_5b.png
--  minecraft/textures/font/unicode_page_5c.png
--  minecraft/textures/font/unicode_page_5d.png
--  minecraft/textures/font/unicode_page_5e.png
--  minecraft/textures/font/unicode_page_5f.png
--  minecraft/textures/font/unicode_page_60.png
--  minecraft/textures/font/unicode_page_61.png
--  minecraft/textures/font/unicode_page_62.png
--  minecraft/textures/font/unicode_page_63.png
--  minecraft/textures/font/unicode_page_64.png
--  minecraft/textures/font/unicode_page_65.png
--  minecraft/textures/font/unicode_page_66.png
--  minecraft/textures/font/unicode_page_67.png
--  minecraft/textures/font/unicode_page_68.png
--  minecraft/textures/font/unicode_page_69.png
--  minecraft/textures/font/unicode_page_6a.png
--  minecraft/textures/font/unicode_page_6b.png
--  minecraft/textures/font/unicode_page_6c.png
--  minecraft/textures/font/unicode_page_6d.png
--  minecraft/textures/font/unicode_page_6e.png
--  minecraft/textures/font/unicode_page_6f.png
--  minecraft/textures/font/unicode_page_70.png
--  minecraft/textures/font/unicode_page_71.png
--  minecraft/textures/font/unicode_page_72.png
--  minecraft/textures/font/unicode_page_73.png
--  minecraft/textures/font/unicode_page_74.png
--  minecraft/textures/font/unicode_page_75.png
--  minecraft/textures/font/unicode_page_76.png
--  minecraft/textures/font/unicode_page_77.png
--  minecraft/textures/font/unicode_page_78.png
--  minecraft/textures/font/unicode_page_79.png
--  minecraft/textures/font/unicode_page_7a.png
--  minecraft/textures/font/unicode_page_7b.png
--  minecraft/textures/font/unicode_page_7c.png
--  minecraft/textures/font/unicode_page_7d.png
--  minecraft/textures/font/unicode_page_7e.png
--  minecraft/textures/font/unicode_page_7f.png
--  minecraft/textures/font/unicode_page_80.png
--  minecraft/textures/font/unicode_page_81.png
--  minecraft/textures/font/unicode_page_82.png
--  minecraft/textures/font/unicode_page_83.png
--  minecraft/textures/font/unicode_page_84.png
--  minecraft/textures/font/unicode_page_85.png
--  minecraft/textures/font/unicode_page_86.png
--  minecraft/textures/font/unicode_page_87.png
--  minecraft/textures/font/unicode_page_88.png
--  minecraft/textures/font/unicode_page_89.png
--  minecraft/textures/font/unicode_page_8a.png
--  minecraft/textures/font/unicode_page_8b.png
--  minecraft/textures/font/unicode_page_8c.png
--  minecraft/textures/font/unicode_page_8d.png
--  minecraft/textures/font/unicode_page_8e.png
--  minecraft/textures/font/unicode_page_8f.png
--  minecraft/textures/font/unicode_page_90.png
--  minecraft/textures/font/unicode_page_91.png
--  minecraft/textures/font/unicode_page_92.png
--  minecraft/textures/font/unicode_page_93.png
--  minecraft/textures/font/unicode_page_94.png
--  minecraft/textures/font/unicode_page_95.png
--  minecraft/textures/font/unicode_page_96.png
--  minecraft/textures/font/unicode_page_97.png
--  minecraft/textures/font/unicode_page_98.png
--  minecraft/textures/font/unicode_page_99.png
--  minecraft/textures/font/unicode_page_9a.png
--  minecraft/textures/font/unicode_page_9b.png
--  minecraft/textures/font/unicode_page_9c.png
--  minecraft/textures/font/unicode_page_9d.png
--  minecraft/textures/font/unicode_page_9e.png
--  minecraft/textures/font/unicode_page_9f.png
--  minecraft/textures/font/unicode_page_a0.png
--  minecraft/textures/font/unicode_page_a1.png
--  minecraft/textures/font/unicode_page_a2.png
--  minecraft/textures/font/unicode_page_a3.png
--  minecraft/textures/font/unicode_page_a4.png
--  minecraft/textures/font/unicode_page_a5.png
--  minecraft/textures/font/unicode_page_a6.png
--  minecraft/textures/font/unicode_page_a7.png
--  minecraft/textures/font/unicode_page_a8.png
--  minecraft/textures/font/unicode_page_a9.png
--  minecraft/textures/font/unicode_page_aa.png
--  minecraft/textures/font/unicode_page_ab.png
--  minecraft/textures/font/unicode_page_ac.png
--  minecraft/textures/font/unicode_page_ad.png
--  minecraft/textures/font/unicode_page_ae.png
--  minecraft/textures/font/unicode_page_af.png
--  minecraft/textures/font/unicode_page_b0.png
--  minecraft/textures/font/unicode_page_b1.png
--  minecraft/textures/font/unicode_page_b2.png
--  minecraft/textures/font/unicode_page_b3.png
--  minecraft/textures/font/unicode_page_b4.png
--  minecraft/textures/font/unicode_page_b5.png
--  minecraft/textures/font/unicode_page_b6.png
--  minecraft/textures/font/unicode_page_b7.png
--  minecraft/textures/font/unicode_page_b8.png
--  minecraft/textures/font/unicode_page_b9.png
--  minecraft/textures/font/unicode_page_ba.png
--  minecraft/textures/font/unicode_page_bb.png
--  minecraft/textures/font/unicode_page_bc.png
--  minecraft/textures/font/unicode_page_bd.png
--  minecraft/textures/font/unicode_page_be.png
--  minecraft/textures/font/unicode_page_bf.png
--  minecraft/textures/font/unicode_page_c0.png
--  minecraft/textures/font/unicode_page_c1.png
--  minecraft/textures/font/unicode_page_c2.png
--  minecraft/textures/font/unicode_page_c3.png
--  minecraft/textures/font/unicode_page_c4.png
--  minecraft/textures/font/unicode_page_c5.png
--  minecraft/textures/font/unicode_page_c6.png
--  minecraft/textures/font/unicode_page_c7.png
--  minecraft/textures/font/unicode_page_c8.png
--  minecraft/textures/font/unicode_page_c9.png
--  minecraft/textures/font/unicode_page_ca.png
--  minecraft/textures/font/unicode_page_cb.png
--  minecraft/textures/font/unicode_page_cc.png
--  minecraft/textures/font/unicode_page_cd.png
--  minecraft/textures/font/unicode_page_ce.png
--  minecraft/textures/font/unicode_page_cf.png
--  minecraft/textures/font/unicode_page_d0.png
--  minecraft/textures/font/unicode_page_d1.png
--  minecraft/textures/font/unicode_page_d2.png
--  minecraft/textures/font/unicode_page_d3.png
--  minecraft/textures/font/unicode_page_d4.png
--  minecraft/textures/font/unicode_page_d5.png
--  minecraft/textures/font/unicode_page_d6.png
--  minecraft/textures/font/unicode_page_d7.png
--  minecraft/textures/font/unicode_page_f9.png
--  minecraft/textures/font/unicode_page_fa.png
--  minecraft/textures/font/unicode_page_fb.png
--  minecraft/textures/font/unicode_page_fc.png
--  minecraft/textures/font/unicode_page_fd.png
--  minecraft/textures/font/unicode_page_fe.png
--  minecraft/textures/font/unicode_page_ff.png
-+  minecraft/textures/item/music_disc_relic.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:music_disc_relic
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:music.overworld.jungle_and_forest
-+ minecraft:music.overworld.badlands
-+ minecraft:music.overworld.bamboo_jungle
-+ minecraft:music.overworld.desert
-+ minecraft:music.overworld.flower_forest
-+ minecraft:music.overworld.forest
-+ minecraft:music.overworld.jungle
-+ minecraft:music.overworld.sparse_jungle
-+ minecraft:music_disc.relic
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ items/decorated_pot_ingredients.json
-```
-
-</details>
-
-<details><summary>items/decorated_pot_sherds.json</summary>
-
-```diff
-- minecraft:brick
-```
-
-</details>
-
-<details><summary>items/music_discs.json</summary>
-
-```diff
-+ minecraft:music_disc_relic
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/craft_decorated_pot_using_only_sherds.json
-+ adventure/salvage_sherd.json
-+ adventure/trim_with_all_exclusive_armor_patterns.json
-+ adventure/trim_with_any_armor_pattern.json
-+ husbandry/feed_snifflet.json
-+ husbandry/obtain_sniffer_egg.json
-+ husbandry/plant_any_sniffer_seed.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w17a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ gameplay/sniffer_digging.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ items/decorated_pot_ingredients.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- font/unicode_page_00.png
-- font/unicode_page_01.png
-- font/unicode_page_02.png
-- font/unicode_page_03.png
-- font/unicode_page_04.png
-- font/unicode_page_05.png
-- font/unicode_page_06.png
-- font/unicode_page_07.png
-- font/unicode_page_09.png
-- font/unicode_page_0a.png
-- font/unicode_page_0b.png
-- font/unicode_page_0c.png
-- font/unicode_page_0d.png
-- font/unicode_page_0e.png
-- font/unicode_page_0f.png
-- font/unicode_page_10.png
-- font/unicode_page_11.png
-- font/unicode_page_12.png
-- font/unicode_page_13.png
-- font/unicode_page_14.png
-- font/unicode_page_15.png
-- font/unicode_page_16.png
-- font/unicode_page_17.png
-- font/unicode_page_18.png
-- font/unicode_page_19.png
-- font/unicode_page_1a.png
-- font/unicode_page_1b.png
-- font/unicode_page_1c.png
-- font/unicode_page_1d.png
-- font/unicode_page_1e.png
-- font/unicode_page_1f.png
-- font/unicode_page_20.png
-- font/unicode_page_21.png
-- font/unicode_page_22.png
-- font/unicode_page_23.png
-- font/unicode_page_24.png
-- font/unicode_page_25.png
-- font/unicode_page_26.png
-- font/unicode_page_27.png
-- font/unicode_page_28.png
-- font/unicode_page_29.png
-- font/unicode_page_2a.png
-- font/unicode_page_2b.png
-- font/unicode_page_2c.png
-- font/unicode_page_2d.png
-- font/unicode_page_2e.png
-- font/unicode_page_2f.png
-- font/unicode_page_30.png
-- font/unicode_page_31.png
-- font/unicode_page_32.png
-- font/unicode_page_33.png
-- font/unicode_page_34.png
-- font/unicode_page_35.png
-- font/unicode_page_36.png
-- font/unicode_page_37.png
-- font/unicode_page_38.png
-- font/unicode_page_39.png
-- font/unicode_page_3a.png
-- font/unicode_page_3b.png
-- font/unicode_page_3c.png
-- font/unicode_page_3d.png
-- font/unicode_page_3e.png
-- font/unicode_page_3f.png
-- font/unicode_page_40.png
-- font/unicode_page_41.png
-- font/unicode_page_42.png
-- font/unicode_page_43.png
-- font/unicode_page_44.png
-- font/unicode_page_45.png
-- font/unicode_page_46.png
-- font/unicode_page_47.png
-- font/unicode_page_48.png
-- font/unicode_page_49.png
-- font/unicode_page_4a.png
-- font/unicode_page_4b.png
-- font/unicode_page_4c.png
-- font/unicode_page_4d.png
-- font/unicode_page_4e.png
-- font/unicode_page_4f.png
-- font/unicode_page_50.png
-- font/unicode_page_51.png
-- font/unicode_page_52.png
-- font/unicode_page_53.png
-- font/unicode_page_54.png
-- font/unicode_page_55.png
-- font/unicode_page_56.png
-- font/unicode_page_57.png
-- font/unicode_page_58.png
-- font/unicode_page_59.png
-- font/unicode_page_5a.png
-- font/unicode_page_5b.png
-- font/unicode_page_5c.png
-- font/unicode_page_5d.png
-- font/unicode_page_5e.png
-- font/unicode_page_5f.png
-- font/unicode_page_60.png
-- font/unicode_page_61.png
-- font/unicode_page_62.png
-- font/unicode_page_63.png
-- font/unicode_page_64.png
-- font/unicode_page_65.png
-- font/unicode_page_66.png
-- font/unicode_page_67.png
-- font/unicode_page_68.png
-- font/unicode_page_69.png
-- font/unicode_page_6a.png
-- font/unicode_page_6b.png
-- font/unicode_page_6c.png
-- font/unicode_page_6d.png
-- font/unicode_page_6e.png
-- font/unicode_page_6f.png
-- font/unicode_page_70.png
-- font/unicode_page_71.png
-- font/unicode_page_72.png
-- font/unicode_page_73.png
-- font/unicode_page_74.png
-- font/unicode_page_75.png
-- font/unicode_page_76.png
-- font/unicode_page_77.png
-- font/unicode_page_78.png
-- font/unicode_page_79.png
-- font/unicode_page_7a.png
-- font/unicode_page_7b.png
-- font/unicode_page_7c.png
-- font/unicode_page_7d.png
-- font/unicode_page_7e.png
-- font/unicode_page_7f.png
-- font/unicode_page_80.png
-- font/unicode_page_81.png
-- font/unicode_page_82.png
-- font/unicode_page_83.png
-- font/unicode_page_84.png
-- font/unicode_page_85.png
-- font/unicode_page_86.png
-- font/unicode_page_87.png
-- font/unicode_page_88.png
-- font/unicode_page_89.png
-- font/unicode_page_8a.png
-- font/unicode_page_8b.png
-- font/unicode_page_8c.png
-- font/unicode_page_8d.png
-- font/unicode_page_8e.png
-- font/unicode_page_8f.png
-- font/unicode_page_90.png
-- font/unicode_page_91.png
-- font/unicode_page_92.png
-- font/unicode_page_93.png
-- font/unicode_page_94.png
-- font/unicode_page_95.png
-- font/unicode_page_96.png
-- font/unicode_page_97.png
-- font/unicode_page_98.png
-- font/unicode_page_99.png
-- font/unicode_page_9a.png
-- font/unicode_page_9b.png
-- font/unicode_page_9c.png
-- font/unicode_page_9d.png
-- font/unicode_page_9e.png
-- font/unicode_page_9f.png
-- font/unicode_page_a0.png
-- font/unicode_page_a1.png
-- font/unicode_page_a2.png
-- font/unicode_page_a3.png
-- font/unicode_page_a4.png
-- font/unicode_page_a5.png
-- font/unicode_page_a6.png
-- font/unicode_page_a7.png
-- font/unicode_page_a8.png
-- font/unicode_page_a9.png
-- font/unicode_page_aa.png
-- font/unicode_page_ab.png
-- font/unicode_page_ac.png
-- font/unicode_page_ad.png
-- font/unicode_page_ae.png
-- font/unicode_page_af.png
-- font/unicode_page_b0.png
-- font/unicode_page_b1.png
-- font/unicode_page_b2.png
-- font/unicode_page_b3.png
-- font/unicode_page_b4.png
-- font/unicode_page_b5.png
-- font/unicode_page_b6.png
-- font/unicode_page_b7.png
-- font/unicode_page_b8.png
-- font/unicode_page_b9.png
-- font/unicode_page_ba.png
-- font/unicode_page_bb.png
-- font/unicode_page_bc.png
-- font/unicode_page_bd.png
-- font/unicode_page_be.png
-- font/unicode_page_bf.png
-- font/unicode_page_c0.png
-- font/unicode_page_c1.png
-- font/unicode_page_c2.png
-- font/unicode_page_c3.png
-- font/unicode_page_c4.png
-- font/unicode_page_c5.png
-- font/unicode_page_c6.png
-- font/unicode_page_c7.png
-- font/unicode_page_c8.png
-- font/unicode_page_c9.png
-- font/unicode_page_ca.png
-- font/unicode_page_cb.png
-- font/unicode_page_cc.png
-- font/unicode_page_cd.png
-- font/unicode_page_ce.png
-- font/unicode_page_cf.png
-- font/unicode_page_d0.png
-- font/unicode_page_d1.png
-- font/unicode_page_d2.png
-- font/unicode_page_d3.png
-- font/unicode_page_d4.png
-- font/unicode_page_d5.png
-- font/unicode_page_d6.png
-- font/unicode_page_d7.png
-- font/unicode_page_f9.png
-- font/unicode_page_fa.png
-- font/unicode_page_fb.png
-- font/unicode_page_fc.png
-- font/unicode_page_fd.png
-- font/unicode_page_fe.png
-- font/unicode_page_ff.png
-+ item/music_disc_relic.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.18.38
-+ com.mojang:authlib:4.0.42
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.font.SpaceProvider</summary>
-
-```diff
-+ Either lambda$builderFromJson$3(GlyphProviderBuilder$Loader)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.TextureUtil</summary>
-
-```diff
-+ void writeAsPNG(IntUnaryOperator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.providers.BitmapProvider$Builder</summary>
-
-```diff
-+ BitmapProvider$Glyph[] lambda$load$0(int)
-+ BitmapProvider$Glyph[][] lambda$load$1(int)
-+ Either build()
-+ GlyphProvider load(ResourceManager)
-- GlyphProvider create(ResourceManager)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.font.providers.GlyphProviderBuilderType</summary>
-
-```diff
-+ GlyphProviderBuilderType REFERENCE
-+ GlyphProviderBuilderType UNIHEX
-- GlyphProviderBuilderType LEGACY_UNICODE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.font.providers.TrueTypeGlyphProviderBuilder</summary>
-
-```diff
-+ Either build()
-+ GlyphProvider load(ResourceManager)
-- GlyphProvider create(ResourceManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.SignatureValidator</summary>
-
-```diff
-+ boolean lambda$from$3(ServicesKeyInfo)
-+ boolean lambda$from$4(SignatureUpdater,byte[])
-+ SignatureValidator from(ServicesKeyType)
-- boolean lambda$from$3(SignatureUpdater,byte[])
-- SignatureValidator from(ServicesKeyInfo)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
-
-```diff
-- Material material
-+ MapColor defaultMapColor()
-- MaterialColor defaultMaterialColor()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ MapColor mapColor
-- Material material
-- MaterialColor materialColor
-+ MapColor getMapColor(BlockPos)
-- Material getMaterial()
-- MaterialColor getMapColor(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ Function mapColor
-- Function materialColor
-- Material material
-+ BlockBehaviour$Properties mapColor(DyeColor)
-+ BlockBehaviour$Properties mapColor(Function)
-+ BlockBehaviour$Properties mapColor(MapColor)
-+ BlockBehaviour$Properties of()
-+ boolean lambda$new$2(EntityType)
-+ boolean lambda$new$6(BlockPos)
-+ int lambda$new$1(BlockState)
-+ MapColor lambda$mapColor$7(BlockState)
-+ MapColor lambda$mapColor$8(BlockState)
-+ MapColor lambda$new$0(BlockState)
-+ Vec3 lambda$offsetType$10(BlockPos)
-+ void <init>()
-- BlockBehaviour$Properties color(MaterialColor)
-- BlockBehaviour$Properties of(DyeColor)
-- BlockBehaviour$Properties of(Function)
-- BlockBehaviour$Properties of(Material)
-- BlockBehaviour$Properties of(MaterialColor)
-- boolean lambda$new$1(EntityType)
-- boolean lambda$new$2(BlockPos)
-- int lambda$new$0(BlockState)
-- MaterialColor lambda$color$7(BlockState)
-- MaterialColor lambda$new$6(BlockState)
-- Vec3 lambda$offsetType$8(BlockPos)
-- void <init>(Function)
-- void <init>(MaterialColor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkSource</summary>
-
-```diff
-+ LightChunk getChunkForLighting(int,int)
-- BlockGetter getChunkForLighting(int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.chunk.DataLayer</summary>
-
-```diff
-+ void fill(int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-+ ChunkSkyLightSources getSkyLightSources()
-+ void findBlocks(BiConsumer)
-+ void initializeLightSources()
-- Stream getLights()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.SkyLightSectionStorage</summary>
-
-```diff
-- boolean hasSourceInconsistencies
-- Direction[] HORIZONTALS
-- LongSet columnsWithSkySources
-- LongSet sectionsToAddSourcesTo
-- LongSet sectionsToRemoveSourcesFrom
-- LongSet sectionsWithSources
-+ int getBottomSectionY()
-+ int getTopSectionY(long)
-- boolean hasInconsistencies()
-- boolean lightOnInSection(long)
-- void <clinit>()
-- void enableLightSources(long,boolean)
-- void markNewInconsistencies(LayerLightEngine,boolean,boolean)
-- void queueAddSource(long)
-- void queueRemoveSource(long)
-- void recheckInconsistencyFlag()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-- float oldWaterCost
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.font.CodepointMap$Output
@@ -7439,2678 +5961,170 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
+<details><summary>com.mojang.blaze3d.font.SpaceProvider</summary>
 
 ```diff
-+ Stream squareOutSouthEast(BlockPos)
++ Either lambda$builderFromJson$3(GlyphProviderBuilder$Loader)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.SectionPos</summary>
+<details><summary>com.mojang.blaze3d.platform.TextureUtil</summary>
 
 ```diff
-+ long getZeroNode(int,int)
++ void writeAsPNG(Path,String,int,int,int,int,IntUnaryOperator)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
+<details><summary>net.minecraft.client.gui.font.providers.BitmapProvider$Builder</summary>
 
 ```diff
-+ Advancement$Builder craftingANewLook(Advancement$Builder)
-+ Advancement$Builder respectingTheRemnantsCriterions(Advancement$Builder)
-+ Advancement$Builder smithingWithStyle(Advancement$Builder)
-+ String[] lambda$respectingTheRemnantsCriterions$1(int)
-+ void lambda$smithingWithStyle$0(Item)
++ BitmapProvider$Glyph[] lambda$load$0(int)
++ BitmapProvider$Glyph[][] lambda$load$1(int)
++ Either build()
+- GlyphProvider create(ResourceManager)
++ GlyphProvider load(ResourceManager)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.SmithingTrimRecipeBuilder</summary>
+<details><summary>net.minecraft.client.gui.font.providers.TrueTypeGlyphProviderBuilder</summary>
 
 ```diff
-- void save(String)
++ Either build()
+- GlyphProvider create(ResourceManager)
++ GlyphProvider load(ResourceManager)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.data.recipes.packs.VanillaRecipeProvider</summary>
+<details><summary>net.minecraft.util.SignatureValidator</summary>
 
 ```diff
-+ Map smithingTrims()
-+ ResourceLocation lambda$smithingTrims$1(Item)
-+ void lambda$buildRecipes$0(ResourceLocation)
+- boolean lambda$from$3(ServicesKeyInfo,SignatureUpdater,byte[])
++ boolean lambda$from$3(SignatureUpdater,byte[],ServicesKeyInfo)
++ boolean lambda$from$4(Collection,SignatureUpdater,byte[])
+- SignatureValidator from(ServicesKeyInfo)
++ SignatureValidator from(ServicesKeySet,ServicesKeyType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLightUpdatePacket</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
 
 ```diff
-+ void <init>(BitSet)
-- void <init>(BitSet,boolean)
++ MapColor defaultMapColor()
+- MaterialColor defaultMaterialColor()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
 
 ```diff
-- boolean suppressLightUpdates
-+ void <init>(LevelChunkSection)
-- boolean shouldSuppressLightUpdates()
-- void <init>(LevelChunkSection,boolean)
++ MapColor getMapColor(BlockGetter,BlockPos)
+- Material getMaterial()
+- MaterialColor getMapColor(BlockGetter,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
 
 ```diff
-+ SignatureValidator getProfileKeySignatureValidator()
-- SignatureValidator getServiceSignatureValidator()
+- BlockBehaviour$Properties color(MaterialColor)
++ BlockBehaviour$Properties mapColor(DyeColor)
++ BlockBehaviour$Properties mapColor(Function)
++ BlockBehaviour$Properties mapColor(MapColor)
++ BlockBehaviour$Properties of()
+- BlockBehaviour$Properties of(Material,DyeColor)
+- BlockBehaviour$Properties of(Material,Function)
+- BlockBehaviour$Properties of(Material,MaterialColor)
+- BlockBehaviour$Properties of(Material)
+- boolean lambda$new$1(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$new$2(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$new$2(BlockState,BlockGetter,BlockPos)
++ boolean lambda$new$6(BlockState,BlockGetter,BlockPos)
+- int lambda$new$0(BlockState)
++ int lambda$new$1(BlockState)
++ MapColor lambda$mapColor$7(DyeColor,BlockState)
++ MapColor lambda$mapColor$8(MapColor,BlockState)
++ MapColor lambda$new$0(BlockState)
+- MaterialColor lambda$color$7(MaterialColor,BlockState)
+- MaterialColor lambda$new$6(MaterialColor,BlockState)
++ Vec3 lambda$offsetType$10(BlockState,BlockGetter,BlockPos)
+- Vec3 lambda$offsetType$8(BlockState,BlockGetter,BlockPos)
++ void <init>()
+- void <init>(Material,Function)
+- void <init>(Material,MaterialColor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
+<details><summary>net.minecraft.world.level.chunk.ChunkSource</summary>
 
 ```diff
-+ Holder$Reference MUSIC_BIOME_BADLANDS
-+ Holder$Reference MUSIC_BIOME_BAMBOO_JUNGLE
-+ Holder$Reference MUSIC_BIOME_DESERT
-+ Holder$Reference MUSIC_BIOME_FLOWER_FOREST
-+ Holder$Reference MUSIC_BIOME_FOREST
-+ Holder$Reference MUSIC_BIOME_JUNGLE
-+ Holder$Reference MUSIC_BIOME_SPARSE_JUNGLE
-+ SoundEvent MUSIC_DISC_RELIC
-- Holder$Reference MUSIC_BIOME_JUNGLE_AND_FOREST
+- BlockGetter getChunkForLighting(int,int)
++ LightChunk getChunkForLighting(int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
+<details><summary>net.minecraft.world.level.chunk.DataLayer</summary>
 
 ```diff
-+ TagKey DECORATED_POT_INGREDIENTS
++ void fill(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.RemapChunkStatusFix</summary>
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
 
 ```diff
-+ Dynamic lambda$makeRule$1(Dynamic)
-+ Typed lambda$makeRule$2(Typed)
-- Typed lambda$makeRule$1(Typed)
++ ChunkSkyLightSources getSkyLightSources()
+- Stream getLights()
++ void findBlocks(Predicate,BiConsumer)
++ void initializeLightSources()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.world.level.lighting.SkyLightSectionStorage</summary>
 
 ```diff
-+ boolean onGround()
-+ Level level()
-+ void setLevel(Level)
-- boolean isOnGround()
-- Level getLevel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ void onPathfindingDone()
-+ void onPathfindingStart()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AnimalPanic</summary>
-
-```diff
-+ boolean lambda$lookForWater$2(BlockPos)
-+ boolean lambda$lookForWater$3(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.FollowTemptation</summary>
-
-```diff
-+ double closeEnoughDistance
-+ void <init>(Function,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-- boolean access$400(Fox)
-- boolean access$500(Fox)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-+ JumpControl access$100(Rabbit)
-- boolean access$100(Rabbit)
-- JumpControl access$200(Rabbit)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ EntityGetter level()
-- EntityGetter getLevel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
-
-```diff
-- int SNIFFING_PROXIMITY_DISTANCE
-+ BlockPos getHeadBlock()
-+ Vec3 getHeadPosition()
-+ void onPathfindingDone()
-+ void onPathfindingStart()
-- BlockPos getHeadPosition()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.SnifferAi$3</summary>
-
-```diff
-+ void <init>(Function,double)
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-- boolean access$000(Slime)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.ContainerEntity</summary>
-
-```diff
-+ Level level()
-- Level getLevel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeColor</summary>
-
-```diff
-+ MapColor mapColor
-- MaterialColor color
-+ MapColor getMapColor()
-+ void <init>(MapColor,int,int)
-- MaterialColor getMaterialColor()
-- void <init>(MaterialColor,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.DecoratedPotRecipe</summary>
-
-```diff
-+ ItemStack createDecoratedPotItem(DecoratedPotBlockEntity$Decorations)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-- int UPDATE_SUPPRESS_LIGHT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block netherStem(MapColor)
-+ CandleBlock candle(MapColor)
-+ MapColor lambda$bed$1(BlockState)
-+ MapColor lambda$log$2(BlockState)
-+ MapColor lambda$log$3(BlockState)
-+ MapColor lambda$netherStem$4(BlockState)
-+ RotatedPillarBlock log(MapColor)
-+ RotatedPillarBlock log(SoundType)
-- Block netherStem(MaterialColor)
-- CandleBlock candle(MaterialColor)
-- MaterialColor lambda$bed$1(BlockState)
-- MaterialColor lambda$log$2(BlockState)
-- MaterialColor lambda$log$3(BlockState)
-- MaterialColor lambda$netherStem$4(BlockState)
-- RotatedPillarBlock log(MaterialColor)
-- RotatedPillarBlock log(SoundType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DecoratedPotBlock</summary>
-
-```diff
-+ ResourceLocation SHERDS_DYNAMIC_DROP_ID
-- ResourceLocation SHERDS
-+ void appendHoverText(TooltipFlag)
-+ void lambda$appendHoverText$1(Item)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SnifferEggBlock</summary>
-
-```diff
-- boolean canSurvive(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusFeature</summary>
-
-```diff
-+ boolean isReplaceable(HugeFungusConfiguration,boolean)
-+ void placeHat(BlockPos,int,boolean)
-+ void placeStem(BlockPos,int,boolean)
-- boolean isReplaceable(BlockPos,boolean)
-- boolean lambda$isReplaceable$0(BlockState)
-- void placeHat(BlockPos,int,boolean)
-- void placeStem(BlockPos,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.BlockLightEngine</summary>
-
-```diff
-+ BlockPos$MutableBlockPos mutablePos
-- BlockPos$MutableBlockPos pos
-- Direction[] DIRECTIONS
-+ int getEmission(BlockState)
-+ void checkNode(long)
-+ void lambda$propagateLightSources$0(BlockState)
-+ void propagateDecrease(long,long)
-+ void propagateIncrease(long,long,int)
-+ void propagateLightSources(ChunkPos)
-- int computeLevelFromNeighbor(long,long,int)
-- int getComputedLevel(long,long,int)
-- int getLightEmission(long)
+- boolean hasInconsistencies()
+- boolean lightOnInSection(long)
++ int getBottomSectionY()
++ int getTopSectionY(long)
 - void <clinit>()
-- void checkNeighborsAfterUpdate(long,int,boolean)
-- void onBlockEmissionIncrease(BlockPos,int)
+- void enableLightSources(long,boolean)
+- void markNewInconsistencies(LayerLightEngine,boolean,boolean)
+- void queueAddSource(long)
+- void queueRemoveSource(long)
+- void recheckInconsistencyFlag()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.lighting.LayerLightEventListener$DummyLightLayerEventListener</summary>
-
-```diff
-+ int runLightUpdates()
-+ void propagateLightSources(ChunkPos)
-+ void setLightEnabled(ChunkPos,boolean)
-- int runUpdates(int,boolean,boolean)
-- void enableLightSources(ChunkPos,boolean)
-- void onBlockEmissionIncrease(BlockPos,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.lighting.LightEventListener</summary>
-
-```diff
-+ int runLightUpdates()
-+ void propagateLightSources(net.minecraft.world.level.ChunkPos)
-+ void setLightEnabled(net.minecraft.world.level.ChunkPos,boolean)
-- int runUpdates(int,boolean,boolean)
-- void enableLightSources(net.minecraft.world.level.ChunkPos,boolean)
-- void onBlockEmissionIncrease(net.minecraft.core.BlockPos,int)
-```
-
-</details>
+### Server
 
 
 
 
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.tags.package-info
@@ -10834,13 +6848,930 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
++ Stream squareOutSouthEast(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.SectionPos</summary>
+
+```diff
++ long getZeroNode(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
+
+```diff
++ Advancement$Builder craftingANewLook(Advancement$Builder)
++ Advancement$Builder respectingTheRemnantsCriterions(Advancement$Builder)
++ Advancement$Builder smithingWithStyle(Advancement$Builder)
++ String[] lambda$respectingTheRemnantsCriterions$1(int)
++ void lambda$smithingWithStyle$0(Map,Advancement$Builder,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SmithingTrimRecipeBuilder</summary>
+
+```diff
+- void save(Consumer,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.packs.VanillaRecipeProvider</summary>
+
+```diff
++ Map smithingTrims()
++ ResourceLocation lambda$smithingTrims$1(Item)
++ void lambda$buildRecipes$0(Consumer,Item,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundLightUpdatePacket</summary>
+
+```diff
+- void <init>(ChunkPos,LevelLightEngine,BitSet,BitSet,boolean)
++ void <init>(ChunkPos,LevelLightEngine,BitSet,BitSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
+
+```diff
+- boolean shouldSuppressLightUpdates()
+- void <init>(SectionPos,ShortSet,LevelChunkSection,boolean)
++ void <init>(SectionPos,ShortSet,LevelChunkSection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
++ SignatureValidator getProfileKeySignatureValidator()
+- SignatureValidator getServiceSignatureValidator()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.RemapChunkStatusFix</summary>
+
+```diff
++ Dynamic lambda$makeRule$1(Dynamic)
+- Typed lambda$makeRule$1(Typed)
++ Typed lambda$makeRule$2(Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- boolean isOnGround()
++ boolean onGround()
+- Level getLevel()
++ Level level()
++ void setLevel(Level)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ void onPathfindingDone()
++ void onPathfindingStart()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.AnimalPanic</summary>
+
+```diff
++ boolean lambda$lookForWater$2(BlockGetter,BlockPos)
++ boolean lambda$lookForWater$3(BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.FollowTemptation</summary>
+
+```diff
++ void <init>(Function,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
+- boolean access$400(Fox)
+- boolean access$500(Fox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
+- boolean access$100(Rabbit)
++ JumpControl access$100(Rabbit)
+- JumpControl access$200(Rabbit)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- EntityGetter getLevel()
++ EntityGetter level()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
+
+```diff
++ BlockPos getHeadBlock()
+- BlockPos getHeadPosition()
++ Vec3 getHeadPosition()
++ void onPathfindingDone()
++ void onPathfindingStart()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.SnifferAi$3</summary>
+
+```diff
++ void <init>(Function,double)
+- void <init>(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Slime</summary>
+
+```diff
+- boolean access$000(Slime)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.DyeColor</summary>
+
+```diff
++ MapColor getMapColor()
+- MaterialColor getMaterialColor()
++ void <init>(String,int,int,String,int,MapColor,int,int)
+- void <init>(String,int,int,String,int,MaterialColor,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.DecoratedPotRecipe</summary>
+
+```diff
++ ItemStack createDecoratedPotItem(DecoratedPotBlockEntity$Decorations)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ Block netherStem(MapColor)
+- Block netherStem(MaterialColor)
++ CandleBlock candle(MapColor)
+- CandleBlock candle(MaterialColor)
++ MapColor lambda$bed$1(DyeColor,BlockState)
++ MapColor lambda$log$2(MapColor,MapColor,BlockState)
++ MapColor lambda$log$3(MapColor,MapColor,BlockState)
++ MapColor lambda$netherStem$4(MapColor,BlockState)
+- MaterialColor lambda$bed$1(DyeColor,BlockState)
+- MaterialColor lambda$log$2(MaterialColor,MaterialColor,BlockState)
+- MaterialColor lambda$log$3(MaterialColor,MaterialColor,BlockState)
+- MaterialColor lambda$netherStem$4(MaterialColor,BlockState)
++ RotatedPillarBlock log(MapColor,MapColor,SoundType)
++ RotatedPillarBlock log(MapColor,MapColor)
+- RotatedPillarBlock log(MaterialColor,MaterialColor,SoundType)
+- RotatedPillarBlock log(MaterialColor,MaterialColor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DecoratedPotBlock</summary>
+
+```diff
++ void appendHoverText(ItemStack,BlockGetter,List,TooltipFlag)
++ void lambda$appendHoverText$1(List,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnifferEggBlock</summary>
+
+```diff
+- boolean canSurvive(BlockState,LevelReader,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusFeature</summary>
+
+```diff
+- boolean isReplaceable(LevelAccessor,BlockPos,boolean)
++ boolean isReplaceable(WorldGenLevel,BlockPos,HugeFungusConfiguration,boolean)
+- boolean lambda$isReplaceable$0(boolean,BlockState)
+- void placeHat(LevelAccessor,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
++ void placeHat(WorldGenLevel,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
+- void placeStem(LevelAccessor,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
++ void placeStem(WorldGenLevel,RandomSource,HugeFungusConfiguration,BlockPos,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.lighting.BlockLightEngine</summary>
+
+```diff
+- int computeLevelFromNeighbor(long,long,int)
+- int getComputedLevel(long,long,int)
++ int getEmission(long,BlockState)
+- int getLightEmission(long)
+- void <clinit>()
+- void checkNeighborsAfterUpdate(long,int,boolean)
++ void checkNode(long)
++ void lambda$propagateLightSources$0(BlockPos,BlockState)
+- void onBlockEmissionIncrease(BlockPos,int)
++ void propagateDecrease(long,long)
++ void propagateIncrease(long,long,int)
++ void propagateLightSources(ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.lighting.LayerLightEventListener$DummyLightLayerEventListener</summary>
+
+```diff
++ int runLightUpdates()
+- int runUpdates(int,boolean,boolean)
+- void enableLightSources(ChunkPos,boolean)
+- void onBlockEmissionIncrease(BlockPos,int)
++ void propagateLightSources(ChunkPos)
++ void setLightEnabled(ChunkPos,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/craft_decorated_pot_using_only_sherds.json
++ minecraft/advancements/adventure/salvage_sherd.json
++ minecraft/advancements/adventure/trim_with_all_exclusive_armor_patterns.json
++ minecraft/advancements/adventure/trim_with_any_armor_pattern.json
++ minecraft/advancements/husbandry/feed_snifflet.json
++ minecraft/advancements/husbandry/obtain_sniffer_egg.json
++ minecraft/advancements/husbandry/plant_any_sniffer_seed.json
++ minecraft/loot_tables/gameplay/sniffer_digging.json
++ minecraft/tags/items/decorated_pot_ingredients.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/font/glyph_sizes.bin
++ minecraft/font/include/default.json
++ minecraft/font/include/space.json
++ minecraft/font/include/unifont.json
++ minecraft/models/item/music_disc_relic.json
+- minecraft/textures/font/unicode_page_00.png
+- minecraft/textures/font/unicode_page_01.png
+- minecraft/textures/font/unicode_page_02.png
+- minecraft/textures/font/unicode_page_03.png
+- minecraft/textures/font/unicode_page_04.png
+- minecraft/textures/font/unicode_page_05.png
+- minecraft/textures/font/unicode_page_06.png
+- minecraft/textures/font/unicode_page_07.png
+- minecraft/textures/font/unicode_page_09.png
+- minecraft/textures/font/unicode_page_0a.png
+- minecraft/textures/font/unicode_page_0b.png
+- minecraft/textures/font/unicode_page_0c.png
+- minecraft/textures/font/unicode_page_0d.png
+- minecraft/textures/font/unicode_page_0e.png
+- minecraft/textures/font/unicode_page_0f.png
+- minecraft/textures/font/unicode_page_10.png
+- minecraft/textures/font/unicode_page_11.png
+- minecraft/textures/font/unicode_page_12.png
+- minecraft/textures/font/unicode_page_13.png
+- minecraft/textures/font/unicode_page_14.png
+- minecraft/textures/font/unicode_page_15.png
+- minecraft/textures/font/unicode_page_16.png
+- minecraft/textures/font/unicode_page_17.png
+- minecraft/textures/font/unicode_page_18.png
+- minecraft/textures/font/unicode_page_19.png
+- minecraft/textures/font/unicode_page_1a.png
+- minecraft/textures/font/unicode_page_1b.png
+- minecraft/textures/font/unicode_page_1c.png
+- minecraft/textures/font/unicode_page_1d.png
+- minecraft/textures/font/unicode_page_1e.png
+- minecraft/textures/font/unicode_page_1f.png
+- minecraft/textures/font/unicode_page_20.png
+- minecraft/textures/font/unicode_page_21.png
+- minecraft/textures/font/unicode_page_22.png
+- minecraft/textures/font/unicode_page_23.png
+- minecraft/textures/font/unicode_page_24.png
+- minecraft/textures/font/unicode_page_25.png
+- minecraft/textures/font/unicode_page_26.png
+- minecraft/textures/font/unicode_page_27.png
+- minecraft/textures/font/unicode_page_28.png
+- minecraft/textures/font/unicode_page_29.png
+- minecraft/textures/font/unicode_page_2a.png
+- minecraft/textures/font/unicode_page_2b.png
+- minecraft/textures/font/unicode_page_2c.png
+- minecraft/textures/font/unicode_page_2d.png
+- minecraft/textures/font/unicode_page_2e.png
+- minecraft/textures/font/unicode_page_2f.png
+- minecraft/textures/font/unicode_page_30.png
+- minecraft/textures/font/unicode_page_31.png
+- minecraft/textures/font/unicode_page_32.png
+- minecraft/textures/font/unicode_page_33.png
+- minecraft/textures/font/unicode_page_34.png
+- minecraft/textures/font/unicode_page_35.png
+- minecraft/textures/font/unicode_page_36.png
+- minecraft/textures/font/unicode_page_37.png
+- minecraft/textures/font/unicode_page_38.png
+- minecraft/textures/font/unicode_page_39.png
+- minecraft/textures/font/unicode_page_3a.png
+- minecraft/textures/font/unicode_page_3b.png
+- minecraft/textures/font/unicode_page_3c.png
+- minecraft/textures/font/unicode_page_3d.png
+- minecraft/textures/font/unicode_page_3e.png
+- minecraft/textures/font/unicode_page_3f.png
+- minecraft/textures/font/unicode_page_40.png
+- minecraft/textures/font/unicode_page_41.png
+- minecraft/textures/font/unicode_page_42.png
+- minecraft/textures/font/unicode_page_43.png
+- minecraft/textures/font/unicode_page_44.png
+- minecraft/textures/font/unicode_page_45.png
+- minecraft/textures/font/unicode_page_46.png
+- minecraft/textures/font/unicode_page_47.png
+- minecraft/textures/font/unicode_page_48.png
+- minecraft/textures/font/unicode_page_49.png
+- minecraft/textures/font/unicode_page_4a.png
+- minecraft/textures/font/unicode_page_4b.png
+- minecraft/textures/font/unicode_page_4c.png
+- minecraft/textures/font/unicode_page_4d.png
+- minecraft/textures/font/unicode_page_4e.png
+- minecraft/textures/font/unicode_page_4f.png
+- minecraft/textures/font/unicode_page_50.png
+- minecraft/textures/font/unicode_page_51.png
+- minecraft/textures/font/unicode_page_52.png
+- minecraft/textures/font/unicode_page_53.png
+- minecraft/textures/font/unicode_page_54.png
+- minecraft/textures/font/unicode_page_55.png
+- minecraft/textures/font/unicode_page_56.png
+- minecraft/textures/font/unicode_page_57.png
+- minecraft/textures/font/unicode_page_58.png
+- minecraft/textures/font/unicode_page_59.png
+- minecraft/textures/font/unicode_page_5a.png
+- minecraft/textures/font/unicode_page_5b.png
+- minecraft/textures/font/unicode_page_5c.png
+- minecraft/textures/font/unicode_page_5d.png
+- minecraft/textures/font/unicode_page_5e.png
+- minecraft/textures/font/unicode_page_5f.png
+- minecraft/textures/font/unicode_page_60.png
+- minecraft/textures/font/unicode_page_61.png
+- minecraft/textures/font/unicode_page_62.png
+- minecraft/textures/font/unicode_page_63.png
+- minecraft/textures/font/unicode_page_64.png
+- minecraft/textures/font/unicode_page_65.png
+- minecraft/textures/font/unicode_page_66.png
+- minecraft/textures/font/unicode_page_67.png
+- minecraft/textures/font/unicode_page_68.png
+- minecraft/textures/font/unicode_page_69.png
+- minecraft/textures/font/unicode_page_6a.png
+- minecraft/textures/font/unicode_page_6b.png
+- minecraft/textures/font/unicode_page_6c.png
+- minecraft/textures/font/unicode_page_6d.png
+- minecraft/textures/font/unicode_page_6e.png
+- minecraft/textures/font/unicode_page_6f.png
+- minecraft/textures/font/unicode_page_70.png
+- minecraft/textures/font/unicode_page_71.png
+- minecraft/textures/font/unicode_page_72.png
+- minecraft/textures/font/unicode_page_73.png
+- minecraft/textures/font/unicode_page_74.png
+- minecraft/textures/font/unicode_page_75.png
+- minecraft/textures/font/unicode_page_76.png
+- minecraft/textures/font/unicode_page_77.png
+- minecraft/textures/font/unicode_page_78.png
+- minecraft/textures/font/unicode_page_79.png
+- minecraft/textures/font/unicode_page_7a.png
+- minecraft/textures/font/unicode_page_7b.png
+- minecraft/textures/font/unicode_page_7c.png
+- minecraft/textures/font/unicode_page_7d.png
+- minecraft/textures/font/unicode_page_7e.png
+- minecraft/textures/font/unicode_page_7f.png
+- minecraft/textures/font/unicode_page_80.png
+- minecraft/textures/font/unicode_page_81.png
+- minecraft/textures/font/unicode_page_82.png
+- minecraft/textures/font/unicode_page_83.png
+- minecraft/textures/font/unicode_page_84.png
+- minecraft/textures/font/unicode_page_85.png
+- minecraft/textures/font/unicode_page_86.png
+- minecraft/textures/font/unicode_page_87.png
+- minecraft/textures/font/unicode_page_88.png
+- minecraft/textures/font/unicode_page_89.png
+- minecraft/textures/font/unicode_page_8a.png
+- minecraft/textures/font/unicode_page_8b.png
+- minecraft/textures/font/unicode_page_8c.png
+- minecraft/textures/font/unicode_page_8d.png
+- minecraft/textures/font/unicode_page_8e.png
+- minecraft/textures/font/unicode_page_8f.png
+- minecraft/textures/font/unicode_page_90.png
+- minecraft/textures/font/unicode_page_91.png
+- minecraft/textures/font/unicode_page_92.png
+- minecraft/textures/font/unicode_page_93.png
+- minecraft/textures/font/unicode_page_94.png
+- minecraft/textures/font/unicode_page_95.png
+- minecraft/textures/font/unicode_page_96.png
+- minecraft/textures/font/unicode_page_97.png
+- minecraft/textures/font/unicode_page_98.png
+- minecraft/textures/font/unicode_page_99.png
+- minecraft/textures/font/unicode_page_9a.png
+- minecraft/textures/font/unicode_page_9b.png
+- minecraft/textures/font/unicode_page_9c.png
+- minecraft/textures/font/unicode_page_9d.png
+- minecraft/textures/font/unicode_page_9e.png
+- minecraft/textures/font/unicode_page_9f.png
+- minecraft/textures/font/unicode_page_a0.png
+- minecraft/textures/font/unicode_page_a1.png
+- minecraft/textures/font/unicode_page_a2.png
+- minecraft/textures/font/unicode_page_a3.png
+- minecraft/textures/font/unicode_page_a4.png
+- minecraft/textures/font/unicode_page_a5.png
+- minecraft/textures/font/unicode_page_a6.png
+- minecraft/textures/font/unicode_page_a7.png
+- minecraft/textures/font/unicode_page_a8.png
+- minecraft/textures/font/unicode_page_a9.png
+- minecraft/textures/font/unicode_page_aa.png
+- minecraft/textures/font/unicode_page_ab.png
+- minecraft/textures/font/unicode_page_ac.png
+- minecraft/textures/font/unicode_page_ad.png
+- minecraft/textures/font/unicode_page_ae.png
+- minecraft/textures/font/unicode_page_af.png
+- minecraft/textures/font/unicode_page_b0.png
+- minecraft/textures/font/unicode_page_b1.png
+- minecraft/textures/font/unicode_page_b2.png
+- minecraft/textures/font/unicode_page_b3.png
+- minecraft/textures/font/unicode_page_b4.png
+- minecraft/textures/font/unicode_page_b5.png
+- minecraft/textures/font/unicode_page_b6.png
+- minecraft/textures/font/unicode_page_b7.png
+- minecraft/textures/font/unicode_page_b8.png
+- minecraft/textures/font/unicode_page_b9.png
+- minecraft/textures/font/unicode_page_ba.png
+- minecraft/textures/font/unicode_page_bb.png
+- minecraft/textures/font/unicode_page_bc.png
+- minecraft/textures/font/unicode_page_bd.png
+- minecraft/textures/font/unicode_page_be.png
+- minecraft/textures/font/unicode_page_bf.png
+- minecraft/textures/font/unicode_page_c0.png
+- minecraft/textures/font/unicode_page_c1.png
+- minecraft/textures/font/unicode_page_c2.png
+- minecraft/textures/font/unicode_page_c3.png
+- minecraft/textures/font/unicode_page_c4.png
+- minecraft/textures/font/unicode_page_c5.png
+- minecraft/textures/font/unicode_page_c6.png
+- minecraft/textures/font/unicode_page_c7.png
+- minecraft/textures/font/unicode_page_c8.png
+- minecraft/textures/font/unicode_page_c9.png
+- minecraft/textures/font/unicode_page_ca.png
+- minecraft/textures/font/unicode_page_cb.png
+- minecraft/textures/font/unicode_page_cc.png
+- minecraft/textures/font/unicode_page_cd.png
+- minecraft/textures/font/unicode_page_ce.png
+- minecraft/textures/font/unicode_page_cf.png
+- minecraft/textures/font/unicode_page_d0.png
+- minecraft/textures/font/unicode_page_d1.png
+- minecraft/textures/font/unicode_page_d2.png
+- minecraft/textures/font/unicode_page_d3.png
+- minecraft/textures/font/unicode_page_d4.png
+- minecraft/textures/font/unicode_page_d5.png
+- minecraft/textures/font/unicode_page_d6.png
+- minecraft/textures/font/unicode_page_d7.png
+- minecraft/textures/font/unicode_page_f9.png
+- minecraft/textures/font/unicode_page_fa.png
+- minecraft/textures/font/unicode_page_fb.png
+- minecraft/textures/font/unicode_page_fc.png
+- minecraft/textures/font/unicode_page_fd.png
+- minecraft/textures/font/unicode_page_fe.png
+- minecraft/textures/font/unicode_page_ff.png
++ minecraft/textures/item/music_disc_relic.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:music_disc_relic
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:music_disc.relic
++ minecraft:music.overworld.badlands
++ minecraft:music.overworld.bamboo_jungle
++ minecraft:music.overworld.desert
++ minecraft:music.overworld.flower_forest
++ minecraft:music.overworld.forest
++ minecraft:music.overworld.jungle
+- minecraft:music.overworld.jungle_and_forest
++ minecraft:music.overworld.sparse_jungle
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ items/decorated_pot_ingredients.json
+```
+
+</details>
+
+
+<details><summary>items/decorated_pot_sherds.json</summary>
+
+```diff
+- minecraft:brick
+```
+
+</details>
+
+
+<details><summary>items/music_discs.json</summary>
+
+```diff
++ minecraft:music_disc_relic
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.craft_decorated_pot_using_only_sherds.description
++ advancements.adventure.craft_decorated_pot_using_only_sherds.title
++ advancements.adventure.salvage_sherd.description
++ advancements.adventure.salvage_sherd.title
++ advancements.adventure.trim_with_all_exclusive_armor_patterns.description
++ advancements.adventure.trim_with_all_exclusive_armor_patterns.title
++ advancements.adventure.trim_with_any_armor_pattern.description
++ advancements.adventure.trim_with_any_armor_pattern.title
++ advancements.husbandry.feed_snifflet.description
++ advancements.husbandry.feed_snifflet.title
++ advancements.husbandry.obtain_sniffer_egg.description
++ advancements.husbandry.obtain_sniffer_egg.title
++ advancements.husbandry.plant_any_sniffer_seed.description
++ advancements.husbandry.plant_any_sniffer_seed.title
++ item.minecraft.music_disc_relic
++ item.minecraft.music_disc_relic.desc
++ multiplayer.disconnect.invalid_public_key_signature.new
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/craft_decorated_pot_using_only_sherds.json
++ adventure/salvage_sherd.json
++ adventure/trim_with_all_exclusive_armor_patterns.json
++ adventure/trim_with_any_armor_pattern.json
++ husbandry/feed_snifflet.json
++ husbandry/obtain_sniffer_egg.json
++ husbandry/plant_any_sniffer_seed.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ gameplay/sniffer_digging.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ items/decorated_pot_ingredients.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- font/unicode_page_00.png
+- font/unicode_page_01.png
+- font/unicode_page_02.png
+- font/unicode_page_03.png
+- font/unicode_page_04.png
+- font/unicode_page_05.png
+- font/unicode_page_06.png
+- font/unicode_page_07.png
+- font/unicode_page_09.png
+- font/unicode_page_0a.png
+- font/unicode_page_0b.png
+- font/unicode_page_0c.png
+- font/unicode_page_0d.png
+- font/unicode_page_0e.png
+- font/unicode_page_0f.png
+- font/unicode_page_10.png
+- font/unicode_page_11.png
+- font/unicode_page_12.png
+- font/unicode_page_13.png
+- font/unicode_page_14.png
+- font/unicode_page_15.png
+- font/unicode_page_16.png
+- font/unicode_page_17.png
+- font/unicode_page_18.png
+- font/unicode_page_19.png
+- font/unicode_page_1a.png
+- font/unicode_page_1b.png
+- font/unicode_page_1c.png
+- font/unicode_page_1d.png
+- font/unicode_page_1e.png
+- font/unicode_page_1f.png
+- font/unicode_page_20.png
+- font/unicode_page_21.png
+- font/unicode_page_22.png
+- font/unicode_page_23.png
+- font/unicode_page_24.png
+- font/unicode_page_25.png
+- font/unicode_page_26.png
+- font/unicode_page_27.png
+- font/unicode_page_28.png
+- font/unicode_page_29.png
+- font/unicode_page_2a.png
+- font/unicode_page_2b.png
+- font/unicode_page_2c.png
+- font/unicode_page_2d.png
+- font/unicode_page_2e.png
+- font/unicode_page_2f.png
+- font/unicode_page_30.png
+- font/unicode_page_31.png
+- font/unicode_page_32.png
+- font/unicode_page_33.png
+- font/unicode_page_34.png
+- font/unicode_page_35.png
+- font/unicode_page_36.png
+- font/unicode_page_37.png
+- font/unicode_page_38.png
+- font/unicode_page_39.png
+- font/unicode_page_3a.png
+- font/unicode_page_3b.png
+- font/unicode_page_3c.png
+- font/unicode_page_3d.png
+- font/unicode_page_3e.png
+- font/unicode_page_3f.png
+- font/unicode_page_40.png
+- font/unicode_page_41.png
+- font/unicode_page_42.png
+- font/unicode_page_43.png
+- font/unicode_page_44.png
+- font/unicode_page_45.png
+- font/unicode_page_46.png
+- font/unicode_page_47.png
+- font/unicode_page_48.png
+- font/unicode_page_49.png
+- font/unicode_page_4a.png
+- font/unicode_page_4b.png
+- font/unicode_page_4c.png
+- font/unicode_page_4d.png
+- font/unicode_page_4e.png
+- font/unicode_page_4f.png
+- font/unicode_page_50.png
+- font/unicode_page_51.png
+- font/unicode_page_52.png
+- font/unicode_page_53.png
+- font/unicode_page_54.png
+- font/unicode_page_55.png
+- font/unicode_page_56.png
+- font/unicode_page_57.png
+- font/unicode_page_58.png
+- font/unicode_page_59.png
+- font/unicode_page_5a.png
+- font/unicode_page_5b.png
+- font/unicode_page_5c.png
+- font/unicode_page_5d.png
+- font/unicode_page_5e.png
+- font/unicode_page_5f.png
+- font/unicode_page_60.png
+- font/unicode_page_61.png
+- font/unicode_page_62.png
+- font/unicode_page_63.png
+- font/unicode_page_64.png
+- font/unicode_page_65.png
+- font/unicode_page_66.png
+- font/unicode_page_67.png
+- font/unicode_page_68.png
+- font/unicode_page_69.png
+- font/unicode_page_6a.png
+- font/unicode_page_6b.png
+- font/unicode_page_6c.png
+- font/unicode_page_6d.png
+- font/unicode_page_6e.png
+- font/unicode_page_6f.png
+- font/unicode_page_70.png
+- font/unicode_page_71.png
+- font/unicode_page_72.png
+- font/unicode_page_73.png
+- font/unicode_page_74.png
+- font/unicode_page_75.png
+- font/unicode_page_76.png
+- font/unicode_page_77.png
+- font/unicode_page_78.png
+- font/unicode_page_79.png
+- font/unicode_page_7a.png
+- font/unicode_page_7b.png
+- font/unicode_page_7c.png
+- font/unicode_page_7d.png
+- font/unicode_page_7e.png
+- font/unicode_page_7f.png
+- font/unicode_page_80.png
+- font/unicode_page_81.png
+- font/unicode_page_82.png
+- font/unicode_page_83.png
+- font/unicode_page_84.png
+- font/unicode_page_85.png
+- font/unicode_page_86.png
+- font/unicode_page_87.png
+- font/unicode_page_88.png
+- font/unicode_page_89.png
+- font/unicode_page_8a.png
+- font/unicode_page_8b.png
+- font/unicode_page_8c.png
+- font/unicode_page_8d.png
+- font/unicode_page_8e.png
+- font/unicode_page_8f.png
+- font/unicode_page_90.png
+- font/unicode_page_91.png
+- font/unicode_page_92.png
+- font/unicode_page_93.png
+- font/unicode_page_94.png
+- font/unicode_page_95.png
+- font/unicode_page_96.png
+- font/unicode_page_97.png
+- font/unicode_page_98.png
+- font/unicode_page_99.png
+- font/unicode_page_9a.png
+- font/unicode_page_9b.png
+- font/unicode_page_9c.png
+- font/unicode_page_9d.png
+- font/unicode_page_9e.png
+- font/unicode_page_9f.png
+- font/unicode_page_a0.png
+- font/unicode_page_a1.png
+- font/unicode_page_a2.png
+- font/unicode_page_a3.png
+- font/unicode_page_a4.png
+- font/unicode_page_a5.png
+- font/unicode_page_a6.png
+- font/unicode_page_a7.png
+- font/unicode_page_a8.png
+- font/unicode_page_a9.png
+- font/unicode_page_aa.png
+- font/unicode_page_ab.png
+- font/unicode_page_ac.png
+- font/unicode_page_ad.png
+- font/unicode_page_ae.png
+- font/unicode_page_af.png
+- font/unicode_page_b0.png
+- font/unicode_page_b1.png
+- font/unicode_page_b2.png
+- font/unicode_page_b3.png
+- font/unicode_page_b4.png
+- font/unicode_page_b5.png
+- font/unicode_page_b6.png
+- font/unicode_page_b7.png
+- font/unicode_page_b8.png
+- font/unicode_page_b9.png
+- font/unicode_page_ba.png
+- font/unicode_page_bb.png
+- font/unicode_page_bc.png
+- font/unicode_page_bd.png
+- font/unicode_page_be.png
+- font/unicode_page_bf.png
+- font/unicode_page_c0.png
+- font/unicode_page_c1.png
+- font/unicode_page_c2.png
+- font/unicode_page_c3.png
+- font/unicode_page_c4.png
+- font/unicode_page_c5.png
+- font/unicode_page_c6.png
+- font/unicode_page_c7.png
+- font/unicode_page_c8.png
+- font/unicode_page_c9.png
+- font/unicode_page_ca.png
+- font/unicode_page_cb.png
+- font/unicode_page_cc.png
+- font/unicode_page_cd.png
+- font/unicode_page_ce.png
+- font/unicode_page_cf.png
+- font/unicode_page_d0.png
+- font/unicode_page_d1.png
+- font/unicode_page_d2.png
+- font/unicode_page_d3.png
+- font/unicode_page_d4.png
+- font/unicode_page_d5.png
+- font/unicode_page_d6.png
+- font/unicode_page_d7.png
+- font/unicode_page_f9.png
+- font/unicode_page_fa.png
+- font/unicode_page_fb.png
+- font/unicode_page_fc.png
+- font/unicode_page_fd.png
+- font/unicode_page_fe.png
+- font/unicode_page_ff.png
++ item/music_disc_relic.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.18.38
++ com.mojang:authlib:4.0.42
+```
+
+</details>

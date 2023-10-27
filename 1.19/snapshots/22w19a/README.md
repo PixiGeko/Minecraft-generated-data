@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w19a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w19a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-05-12T15:36:11+00:00</td></tr>
@@ -10,3511 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b4c5ef273e65f0df3da75378402ef00d638ef4cc/server.txt">https://piston-data.mojang.com/v1/objects/b4c5ef273e65f0df3da75378402ef00d638ef4cc/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/b6f17935359d3a7bc8022eb48e5f3643ede72fd3/client.jar">https://piston-data.mojang.com/v1/objects/b6f17935359d3a7bc8022eb48e5f3643ede72fd3/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5b76b821c9adfd58612afeababaabe95ffe27e59/client.txt">https://piston-data.mojang.com/v1/objects/5b76b821c9adfd58612afeababaabe95ffe27e59/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w18a">22w18a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/point_of_interest_type
-+  minecraft/tags/point_of_interest_type/acquirable_job_site.json
-+  minecraft/tags/point_of_interest_type/bee_home.json
-+  minecraft/tags/point_of_interest_type/village.json
-```
+### Client
 
-</details>
 
-<details><summary>minecraft-generated/</summary>
 
-```diff
-+  reports/minecraft
-+  reports/minecraft/chat_type
-+  reports/minecraft/chat_type/chat.json
-+  reports/minecraft/chat_type/emote_command.json
-+  reports/minecraft/chat_type/game_info.json
-+  reports/minecraft/chat_type/msg_command.json
-+  reports/minecraft/chat_type/say_command.json
-+  reports/minecraft/chat_type/system.json
-+  reports/minecraft/chat_type/team_msg_command.json
-+  reports/minecraft/chat_type/tellraw_command.json
-+  reports/minecraft/dimension_type
-+  reports/minecraft/dimension_type/overworld.json
-+  reports/minecraft/dimension_type/overworld_caves.json
-+  reports/minecraft/dimension_type/the_end.json
-+  reports/minecraft/dimension_type/the_nether.json
-+  reports/minecraft/worldgen
-+  reports/minecraft/worldgen/biome
-+  reports/minecraft/worldgen/biome/badlands.json
-+  reports/minecraft/worldgen/biome/bamboo_jungle.json
-+  reports/minecraft/worldgen/biome/basalt_deltas.json
-+  reports/minecraft/worldgen/biome/beach.json
-+  reports/minecraft/worldgen/biome/birch_forest.json
-+  reports/minecraft/worldgen/biome/cold_ocean.json
-+  reports/minecraft/worldgen/biome/crimson_forest.json
-+  reports/minecraft/worldgen/biome/dark_forest.json
-+  reports/minecraft/worldgen/biome/deep_cold_ocean.json
-+  reports/minecraft/worldgen/biome/deep_dark.json
-+  reports/minecraft/worldgen/biome/deep_frozen_ocean.json
-+  reports/minecraft/worldgen/biome/deep_lukewarm_ocean.json
-+  reports/minecraft/worldgen/biome/deep_ocean.json
-+  reports/minecraft/worldgen/biome/desert.json
-+  reports/minecraft/worldgen/biome/dripstone_caves.json
-+  reports/minecraft/worldgen/biome/end_barrens.json
-+  reports/minecraft/worldgen/biome/end_highlands.json
-+  reports/minecraft/worldgen/biome/end_midlands.json
-+  reports/minecraft/worldgen/biome/eroded_badlands.json
-+  reports/minecraft/worldgen/biome/flower_forest.json
-+  reports/minecraft/worldgen/biome/forest.json
-+  reports/minecraft/worldgen/biome/frozen_ocean.json
-+  reports/minecraft/worldgen/biome/frozen_peaks.json
-+  reports/minecraft/worldgen/biome/frozen_river.json
-+  reports/minecraft/worldgen/biome/grove.json
-+  reports/minecraft/worldgen/biome/ice_spikes.json
-+  reports/minecraft/worldgen/biome/jagged_peaks.json
-+  reports/minecraft/worldgen/biome/jungle.json
-+  reports/minecraft/worldgen/biome/lukewarm_ocean.json
-+  reports/minecraft/worldgen/biome/lush_caves.json
-+  reports/minecraft/worldgen/biome/mangrove_swamp.json
-+  reports/minecraft/worldgen/biome/meadow.json
-+  reports/minecraft/worldgen/biome/mushroom_fields.json
-+  reports/minecraft/worldgen/biome/nether_wastes.json
-+  reports/minecraft/worldgen/biome/ocean.json
-+  reports/minecraft/worldgen/biome/old_growth_birch_forest.json
-+  reports/minecraft/worldgen/biome/old_growth_pine_taiga.json
-+  reports/minecraft/worldgen/biome/old_growth_spruce_taiga.json
-+  reports/minecraft/worldgen/biome/plains.json
-+  reports/minecraft/worldgen/biome/river.json
-+  reports/minecraft/worldgen/biome/savanna.json
-+  reports/minecraft/worldgen/biome/savanna_plateau.json
-+  reports/minecraft/worldgen/biome/small_end_islands.json
-+  reports/minecraft/worldgen/biome/snowy_beach.json
-+  reports/minecraft/worldgen/biome/snowy_plains.json
-+  reports/minecraft/worldgen/biome/snowy_slopes.json
-+  reports/minecraft/worldgen/biome/snowy_taiga.json
-+  reports/minecraft/worldgen/biome/soul_sand_valley.json
-+  reports/minecraft/worldgen/biome/sparse_jungle.json
-+  reports/minecraft/worldgen/biome/stony_peaks.json
-+  reports/minecraft/worldgen/biome/stony_shore.json
-+  reports/minecraft/worldgen/biome/sunflower_plains.json
-+  reports/minecraft/worldgen/biome/swamp.json
-+  reports/minecraft/worldgen/biome/taiga.json
-+  reports/minecraft/worldgen/biome/the_end.json
-+  reports/minecraft/worldgen/biome/the_void.json
-+  reports/minecraft/worldgen/biome/warm_ocean.json
-+  reports/minecraft/worldgen/biome/warped_forest.json
-+  reports/minecraft/worldgen/biome/windswept_forest.json
-+  reports/minecraft/worldgen/biome/windswept_gravelly_hills.json
-+  reports/minecraft/worldgen/biome/windswept_hills.json
-+  reports/minecraft/worldgen/biome/windswept_savanna.json
-+  reports/minecraft/worldgen/biome/wooded_badlands.json
-+  reports/minecraft/worldgen/configured_carver
-+  reports/minecraft/worldgen/configured_carver/canyon.json
-+  reports/minecraft/worldgen/configured_carver/cave.json
-+  reports/minecraft/worldgen/configured_carver/cave_extra_underground.json
-+  reports/minecraft/worldgen/configured_carver/nether_cave.json
-+  reports/minecraft/worldgen/configured_feature
-+  reports/minecraft/worldgen/configured_feature/acacia.json
-+  reports/minecraft/worldgen/configured_feature/amethyst_geode.json
-+  reports/minecraft/worldgen/configured_feature/azalea_tree.json
-+  reports/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
-+  reports/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
-+  reports/minecraft/worldgen/configured_feature/bamboo_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/basalt_blobs.json
-+  reports/minecraft/worldgen/configured_feature/basalt_pillar.json
-+  reports/minecraft/worldgen/configured_feature/birch.json
-+  reports/minecraft/worldgen/configured_feature/birch_bees_0002.json
-+  reports/minecraft/worldgen/configured_feature/birch_bees_002.json
-+  reports/minecraft/worldgen/configured_feature/birch_bees_005.json
-+  reports/minecraft/worldgen/configured_feature/birch_tall.json
-+  reports/minecraft/worldgen/configured_feature/blackstone_blobs.json
-+  reports/minecraft/worldgen/configured_feature/blue_ice.json
-+  reports/minecraft/worldgen/configured_feature/bonus_chest.json
-+  reports/minecraft/worldgen/configured_feature/cave_vine.json
-+  reports/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
-+  reports/minecraft/worldgen/configured_feature/chorus_plant.json
-+  reports/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
-+  reports/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
-+  reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
-+  reports/minecraft/worldgen/configured_feature/crimson_fungus.json
-+  reports/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
-+  reports/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/dark_oak.json
-+  reports/minecraft/worldgen/configured_feature/delta.json
-+  reports/minecraft/worldgen/configured_feature/desert_well.json
-+  reports/minecraft/worldgen/configured_feature/disk_clay.json
-+  reports/minecraft/worldgen/configured_feature/disk_grass.json
-+  reports/minecraft/worldgen/configured_feature/disk_gravel.json
-+  reports/minecraft/worldgen/configured_feature/disk_sand.json
-+  reports/minecraft/worldgen/configured_feature/dripleaf.json
-+  reports/minecraft/worldgen/configured_feature/dripstone_cluster.json
-+  reports/minecraft/worldgen/configured_feature/end_gateway_delayed.json
-+  reports/minecraft/worldgen/configured_feature/end_gateway_return.json
-+  reports/minecraft/worldgen/configured_feature/end_island.json
-+  reports/minecraft/worldgen/configured_feature/end_spike.json
-+  reports/minecraft/worldgen/configured_feature/fancy_oak.json
-+  reports/minecraft/worldgen/configured_feature/fancy_oak_bees.json
-+  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
-+  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
-+  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
-+  reports/minecraft/worldgen/configured_feature/flower_default.json
-+  reports/minecraft/worldgen/configured_feature/flower_flower_forest.json
-+  reports/minecraft/worldgen/configured_feature/flower_meadow.json
-+  reports/minecraft/worldgen/configured_feature/flower_plain.json
-+  reports/minecraft/worldgen/configured_feature/flower_swamp.json
-+  reports/minecraft/worldgen/configured_feature/forest_flowers.json
-+  reports/minecraft/worldgen/configured_feature/forest_rock.json
-+  reports/minecraft/worldgen/configured_feature/fossil_coal.json
-+  reports/minecraft/worldgen/configured_feature/fossil_diamonds.json
-+  reports/minecraft/worldgen/configured_feature/freeze_top_layer.json
-+  reports/minecraft/worldgen/configured_feature/glow_lichen.json
-+  reports/minecraft/worldgen/configured_feature/glowstone_extra.json
-+  reports/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
-+  reports/minecraft/worldgen/configured_feature/huge_red_mushroom.json
-+  reports/minecraft/worldgen/configured_feature/ice_patch.json
-+  reports/minecraft/worldgen/configured_feature/ice_spike.json
-+  reports/minecraft/worldgen/configured_feature/iceberg_blue.json
-+  reports/minecraft/worldgen/configured_feature/iceberg_packed.json
-+  reports/minecraft/worldgen/configured_feature/jungle_bush.json
-+  reports/minecraft/worldgen/configured_feature/jungle_tree.json
-+  reports/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
-+  reports/minecraft/worldgen/configured_feature/kelp.json
-+  reports/minecraft/worldgen/configured_feature/lake_lava.json
-+  reports/minecraft/worldgen/configured_feature/large_basalt_columns.json
-+  reports/minecraft/worldgen/configured_feature/large_dripstone.json
-+  reports/minecraft/worldgen/configured_feature/lush_caves_clay.json
-+  reports/minecraft/worldgen/configured_feature/mangrove.json
-+  reports/minecraft/worldgen/configured_feature/mangrove_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/meadow_trees.json
-+  reports/minecraft/worldgen/configured_feature/mega_jungle_tree.json
-+  reports/minecraft/worldgen/configured_feature/mega_pine.json
-+  reports/minecraft/worldgen/configured_feature/mega_spruce.json
-+  reports/minecraft/worldgen/configured_feature/monster_room.json
-+  reports/minecraft/worldgen/configured_feature/moss_patch.json
-+  reports/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
-+  reports/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
-+  reports/minecraft/worldgen/configured_feature/moss_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/nether_sprouts.json
-+  reports/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
-+  reports/minecraft/worldgen/configured_feature/oak.json
-+  reports/minecraft/worldgen/configured_feature/oak_bees_0002.json
-+  reports/minecraft/worldgen/configured_feature/oak_bees_002.json
-+  reports/minecraft/worldgen/configured_feature/oak_bees_005.json
-+  reports/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
-+  reports/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
-+  reports/minecraft/worldgen/configured_feature/ore_andesite.json
-+  reports/minecraft/worldgen/configured_feature/ore_blackstone.json
-+  reports/minecraft/worldgen/configured_feature/ore_clay.json
-+  reports/minecraft/worldgen/configured_feature/ore_coal.json
-+  reports/minecraft/worldgen/configured_feature/ore_coal_buried.json
-+  reports/minecraft/worldgen/configured_feature/ore_copper_large.json
-+  reports/minecraft/worldgen/configured_feature/ore_copper_small.json
-+  reports/minecraft/worldgen/configured_feature/ore_diamond_buried.json
-+  reports/minecraft/worldgen/configured_feature/ore_diamond_large.json
-+  reports/minecraft/worldgen/configured_feature/ore_diamond_small.json
-+  reports/minecraft/worldgen/configured_feature/ore_diorite.json
-+  reports/minecraft/worldgen/configured_feature/ore_dirt.json
-+  reports/minecraft/worldgen/configured_feature/ore_emerald.json
-+  reports/minecraft/worldgen/configured_feature/ore_gold.json
-+  reports/minecraft/worldgen/configured_feature/ore_gold_buried.json
-+  reports/minecraft/worldgen/configured_feature/ore_granite.json
-+  reports/minecraft/worldgen/configured_feature/ore_gravel.json
-+  reports/minecraft/worldgen/configured_feature/ore_gravel_nether.json
-+  reports/minecraft/worldgen/configured_feature/ore_infested.json
-+  reports/minecraft/worldgen/configured_feature/ore_iron.json
-+  reports/minecraft/worldgen/configured_feature/ore_iron_small.json
-+  reports/minecraft/worldgen/configured_feature/ore_lapis.json
-+  reports/minecraft/worldgen/configured_feature/ore_lapis_buried.json
-+  reports/minecraft/worldgen/configured_feature/ore_magma.json
-+  reports/minecraft/worldgen/configured_feature/ore_nether_gold.json
-+  reports/minecraft/worldgen/configured_feature/ore_quartz.json
-+  reports/minecraft/worldgen/configured_feature/ore_redstone.json
-+  reports/minecraft/worldgen/configured_feature/ore_soul_sand.json
-+  reports/minecraft/worldgen/configured_feature/ore_tuff.json
-+  reports/minecraft/worldgen/configured_feature/patch_berry_bush.json
-+  reports/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
-+  reports/minecraft/worldgen/configured_feature/patch_cactus.json
-+  reports/minecraft/worldgen/configured_feature/patch_crimson_roots.json
-+  reports/minecraft/worldgen/configured_feature/patch_dead_bush.json
-+  reports/minecraft/worldgen/configured_feature/patch_fire.json
-+  reports/minecraft/worldgen/configured_feature/patch_grass.json
-+  reports/minecraft/worldgen/configured_feature/patch_grass_jungle.json
-+  reports/minecraft/worldgen/configured_feature/patch_large_fern.json
-+  reports/minecraft/worldgen/configured_feature/patch_melon.json
-+  reports/minecraft/worldgen/configured_feature/patch_pumpkin.json
-+  reports/minecraft/worldgen/configured_feature/patch_red_mushroom.json
-+  reports/minecraft/worldgen/configured_feature/patch_soul_fire.json
-+  reports/minecraft/worldgen/configured_feature/patch_sugar_cane.json
-+  reports/minecraft/worldgen/configured_feature/patch_sunflower.json
-+  reports/minecraft/worldgen/configured_feature/patch_taiga_grass.json
-+  reports/minecraft/worldgen/configured_feature/patch_tall_grass.json
-+  reports/minecraft/worldgen/configured_feature/patch_waterlily.json
-+  reports/minecraft/worldgen/configured_feature/pile_hay.json
-+  reports/minecraft/worldgen/configured_feature/pile_ice.json
-+  reports/minecraft/worldgen/configured_feature/pile_melon.json
-+  reports/minecraft/worldgen/configured_feature/pile_pumpkin.json
-+  reports/minecraft/worldgen/configured_feature/pile_snow.json
-+  reports/minecraft/worldgen/configured_feature/pine.json
-+  reports/minecraft/worldgen/configured_feature/pointed_dripstone.json
-+  reports/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
-+  reports/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
-+  reports/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
-+  reports/minecraft/worldgen/configured_feature/sculk_vein.json
-+  reports/minecraft/worldgen/configured_feature/sea_pickle.json
-+  reports/minecraft/worldgen/configured_feature/seagrass_mid.json
-+  reports/minecraft/worldgen/configured_feature/seagrass_short.json
-+  reports/minecraft/worldgen/configured_feature/seagrass_simple.json
-+  reports/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
-+  reports/minecraft/worldgen/configured_feature/seagrass_tall.json
-+  reports/minecraft/worldgen/configured_feature/single_piece_of_grass.json
-+  reports/minecraft/worldgen/configured_feature/small_basalt_columns.json
-+  reports/minecraft/worldgen/configured_feature/spore_blossom.json
-+  reports/minecraft/worldgen/configured_feature/spring_lava_frozen.json
-+  reports/minecraft/worldgen/configured_feature/spring_lava_nether.json
-+  reports/minecraft/worldgen/configured_feature/spring_lava_overworld.json
-+  reports/minecraft/worldgen/configured_feature/spring_nether_closed.json
-+  reports/minecraft/worldgen/configured_feature/spring_nether_open.json
-+  reports/minecraft/worldgen/configured_feature/spring_water.json
-+  reports/minecraft/worldgen/configured_feature/spruce.json
-+  reports/minecraft/worldgen/configured_feature/super_birch_bees.json
-+  reports/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
-+  reports/minecraft/worldgen/configured_feature/swamp_oak.json
-+  reports/minecraft/worldgen/configured_feature/tall_mangrove.json
-+  reports/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
-+  reports/minecraft/worldgen/configured_feature/trees_flower_forest.json
-+  reports/minecraft/worldgen/configured_feature/trees_grove.json
-+  reports/minecraft/worldgen/configured_feature/trees_jungle.json
-+  reports/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
-+  reports/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
-+  reports/minecraft/worldgen/configured_feature/trees_plains.json
-+  reports/minecraft/worldgen/configured_feature/trees_savanna.json
-+  reports/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
-+  reports/minecraft/worldgen/configured_feature/trees_taiga.json
-+  reports/minecraft/worldgen/configured_feature/trees_water.json
-+  reports/minecraft/worldgen/configured_feature/trees_windswept_hills.json
-+  reports/minecraft/worldgen/configured_feature/twisting_vines.json
-+  reports/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
-+  reports/minecraft/worldgen/configured_feature/underwater_magma.json
-+  reports/minecraft/worldgen/configured_feature/vines.json
-+  reports/minecraft/worldgen/configured_feature/void_start_platform.json
-+  reports/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
-+  reports/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
-+  reports/minecraft/worldgen/configured_feature/warped_fungus.json
-+  reports/minecraft/worldgen/configured_feature/warped_fungus_planted.json
-+  reports/minecraft/worldgen/configured_feature/weeping_vines.json
-+  reports/minecraft/worldgen/density_function
-+  reports/minecraft/worldgen/density_function/end
-+  reports/minecraft/worldgen/density_function/end/base_3d_noise.json
-+  reports/minecraft/worldgen/density_function/end/sloped_cheese.json
-+  reports/minecraft/worldgen/density_function/nether
-+  reports/minecraft/worldgen/density_function/nether/base_3d_noise.json
-+  reports/minecraft/worldgen/density_function/overworld
-+  reports/minecraft/worldgen/density_function/overworld/caves
-+  reports/minecraft/worldgen/density_function/overworld/caves/entrances.json
-+  reports/minecraft/worldgen/density_function/overworld/caves/noodle.json
-+  reports/minecraft/worldgen/density_function/overworld/caves/pillars.json
-+  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
-+  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
-+  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
-+  reports/minecraft/worldgen/density_function/overworld/base_3d_noise.json
-+  reports/minecraft/worldgen/density_function/overworld/continents.json
-+  reports/minecraft/worldgen/density_function/overworld/depth.json
-+  reports/minecraft/worldgen/density_function/overworld/erosion.json
-+  reports/minecraft/worldgen/density_function/overworld/factor.json
-+  reports/minecraft/worldgen/density_function/overworld/jaggedness.json
-+  reports/minecraft/worldgen/density_function/overworld/offset.json
-+  reports/minecraft/worldgen/density_function/overworld/ridges.json
-+  reports/minecraft/worldgen/density_function/overworld/ridges_folded.json
-+  reports/minecraft/worldgen/density_function/overworld/sloped_cheese.json
-+  reports/minecraft/worldgen/density_function/overworld_amplified
-+  reports/minecraft/worldgen/density_function/overworld_amplified/depth.json
-+  reports/minecraft/worldgen/density_function/overworld_amplified/factor.json
-+  reports/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
-+  reports/minecraft/worldgen/density_function/overworld_amplified/offset.json
-+  reports/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
-+  reports/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
-+  reports/minecraft/worldgen/density_function/shift_x.json
-+  reports/minecraft/worldgen/density_function/shift_z.json
-+  reports/minecraft/worldgen/density_function/y.json
-+  reports/minecraft/worldgen/density_function/zero.json
-+  reports/minecraft/worldgen/flat_level_generator_preset
-+  reports/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/desert.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/overworld.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/the_void.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
-+  reports/minecraft/worldgen/flat_level_generator_preset/water_world.json
-+  reports/minecraft/worldgen/noise
-+  reports/minecraft/worldgen/noise/aquifer_barrier.json
-+  reports/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
-+  reports/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
-+  reports/minecraft/worldgen/noise/aquifer_lava.json
-+  reports/minecraft/worldgen/noise/badlands_pillar.json
-+  reports/minecraft/worldgen/noise/badlands_pillar_roof.json
-+  reports/minecraft/worldgen/noise/badlands_surface.json
-+  reports/minecraft/worldgen/noise/calcite.json
-+  reports/minecraft/worldgen/noise/cave_cheese.json
-+  reports/minecraft/worldgen/noise/cave_entrance.json
-+  reports/minecraft/worldgen/noise/cave_layer.json
-+  reports/minecraft/worldgen/noise/clay_bands_offset.json
-+  reports/minecraft/worldgen/noise/continentalness.json
-+  reports/minecraft/worldgen/noise/continentalness_large.json
-+  reports/minecraft/worldgen/noise/erosion.json
-+  reports/minecraft/worldgen/noise/erosion_large.json
-+  reports/minecraft/worldgen/noise/gravel.json
-+  reports/minecraft/worldgen/noise/gravel_layer.json
-+  reports/minecraft/worldgen/noise/ice.json
-+  reports/minecraft/worldgen/noise/iceberg_pillar.json
-+  reports/minecraft/worldgen/noise/iceberg_pillar_roof.json
-+  reports/minecraft/worldgen/noise/iceberg_surface.json
-+  reports/minecraft/worldgen/noise/jagged.json
-+  reports/minecraft/worldgen/noise/nether_state_selector.json
-+  reports/minecraft/worldgen/noise/nether_wart.json
-+  reports/minecraft/worldgen/noise/netherrack.json
-+  reports/minecraft/worldgen/noise/noodle.json
-+  reports/minecraft/worldgen/noise/noodle_ridge_a.json
-+  reports/minecraft/worldgen/noise/noodle_ridge_b.json
-+  reports/minecraft/worldgen/noise/noodle_thickness.json
-+  reports/minecraft/worldgen/noise/offset.json
-+  reports/minecraft/worldgen/noise/ore_gap.json
-+  reports/minecraft/worldgen/noise/ore_vein_a.json
-+  reports/minecraft/worldgen/noise/ore_vein_b.json
-+  reports/minecraft/worldgen/noise/ore_veininess.json
-+  reports/minecraft/worldgen/noise/packed_ice.json
-+  reports/minecraft/worldgen/noise/patch.json
-+  reports/minecraft/worldgen/noise/pillar.json
-+  reports/minecraft/worldgen/noise/pillar_rareness.json
-+  reports/minecraft/worldgen/noise/pillar_thickness.json
-+  reports/minecraft/worldgen/noise/powder_snow.json
-+  reports/minecraft/worldgen/noise/ridge.json
-+  reports/minecraft/worldgen/noise/soul_sand_layer.json
-+  reports/minecraft/worldgen/noise/spaghetti_2d.json
-+  reports/minecraft/worldgen/noise/spaghetti_2d_elevation.json
-+  reports/minecraft/worldgen/noise/spaghetti_2d_modulator.json
-+  reports/minecraft/worldgen/noise/spaghetti_2d_thickness.json
-+  reports/minecraft/worldgen/noise/spaghetti_3d_1.json
-+  reports/minecraft/worldgen/noise/spaghetti_3d_2.json
-+  reports/minecraft/worldgen/noise/spaghetti_3d_rarity.json
-+  reports/minecraft/worldgen/noise/spaghetti_3d_thickness.json
-+  reports/minecraft/worldgen/noise/spaghetti_roughness.json
-+  reports/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
-+  reports/minecraft/worldgen/noise/surface.json
-+  reports/minecraft/worldgen/noise/surface_secondary.json
-+  reports/minecraft/worldgen/noise/surface_swamp.json
-+  reports/minecraft/worldgen/noise/temperature.json
-+  reports/minecraft/worldgen/noise/temperature_large.json
-+  reports/minecraft/worldgen/noise/vegetation.json
-+  reports/minecraft/worldgen/noise/vegetation_large.json
-+  reports/minecraft/worldgen/noise_settings
-+  reports/minecraft/worldgen/noise_settings/amplified.json
-+  reports/minecraft/worldgen/noise_settings/caves.json
-+  reports/minecraft/worldgen/noise_settings/end.json
-+  reports/minecraft/worldgen/noise_settings/floating_islands.json
-+  reports/minecraft/worldgen/noise_settings/large_biomes.json
-+  reports/minecraft/worldgen/noise_settings/nether.json
-+  reports/minecraft/worldgen/noise_settings/overworld.json
-+  reports/minecraft/worldgen/placed_feature
-+  reports/minecraft/worldgen/placed_feature/acacia.json
-+  reports/minecraft/worldgen/placed_feature/acacia_checked.json
-+  reports/minecraft/worldgen/placed_feature/amethyst_geode.json
-+  reports/minecraft/worldgen/placed_feature/bamboo.json
-+  reports/minecraft/worldgen/placed_feature/bamboo_light.json
-+  reports/minecraft/worldgen/placed_feature/bamboo_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/basalt_blobs.json
-+  reports/minecraft/worldgen/placed_feature/basalt_pillar.json
-+  reports/minecraft/worldgen/placed_feature/birch_bees_0002.json
-+  reports/minecraft/worldgen/placed_feature/birch_bees_002.json
-+  reports/minecraft/worldgen/placed_feature/birch_checked.json
-+  reports/minecraft/worldgen/placed_feature/birch_tall.json
-+  reports/minecraft/worldgen/placed_feature/blackstone_blobs.json
-+  reports/minecraft/worldgen/placed_feature/blue_ice.json
-+  reports/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
-+  reports/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
-+  reports/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
-+  reports/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
-+  reports/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
-+  reports/minecraft/worldgen/placed_feature/cave_vines.json
-+  reports/minecraft/worldgen/placed_feature/chorus_plant.json
-+  reports/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
-+  reports/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/crimson_fungi.json
-+  reports/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/dark_oak_checked.json
-+  reports/minecraft/worldgen/placed_feature/delta.json
-+  reports/minecraft/worldgen/placed_feature/desert_well.json
-+  reports/minecraft/worldgen/placed_feature/disk_clay.json
-+  reports/minecraft/worldgen/placed_feature/disk_grass.json
-+  reports/minecraft/worldgen/placed_feature/disk_gravel.json
-+  reports/minecraft/worldgen/placed_feature/disk_sand.json
-+  reports/minecraft/worldgen/placed_feature/dripstone_cluster.json
-+  reports/minecraft/worldgen/placed_feature/end_gateway_return.json
-+  reports/minecraft/worldgen/placed_feature/end_island_decorated.json
-+  reports/minecraft/worldgen/placed_feature/end_spike.json
-+  reports/minecraft/worldgen/placed_feature/fancy_oak_bees.json
-+  reports/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
-+  reports/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
-+  reports/minecraft/worldgen/placed_feature/fancy_oak_checked.json
-+  reports/minecraft/worldgen/placed_feature/flower_default.json
-+  reports/minecraft/worldgen/placed_feature/flower_flower_forest.json
-+  reports/minecraft/worldgen/placed_feature/flower_forest_flowers.json
-+  reports/minecraft/worldgen/placed_feature/flower_meadow.json
-+  reports/minecraft/worldgen/placed_feature/flower_plain.json
-+  reports/minecraft/worldgen/placed_feature/flower_plains.json
-+  reports/minecraft/worldgen/placed_feature/flower_swamp.json
-+  reports/minecraft/worldgen/placed_feature/flower_warm.json
-+  reports/minecraft/worldgen/placed_feature/forest_flowers.json
-+  reports/minecraft/worldgen/placed_feature/forest_rock.json
-+  reports/minecraft/worldgen/placed_feature/fossil_lower.json
-+  reports/minecraft/worldgen/placed_feature/fossil_upper.json
-+  reports/minecraft/worldgen/placed_feature/freeze_top_layer.json
-+  reports/minecraft/worldgen/placed_feature/glow_lichen.json
-+  reports/minecraft/worldgen/placed_feature/glowstone.json
-+  reports/minecraft/worldgen/placed_feature/glowstone_extra.json
-+  reports/minecraft/worldgen/placed_feature/grass_bonemeal.json
-+  reports/minecraft/worldgen/placed_feature/ice_patch.json
-+  reports/minecraft/worldgen/placed_feature/ice_spike.json
-+  reports/minecraft/worldgen/placed_feature/iceberg_blue.json
-+  reports/minecraft/worldgen/placed_feature/iceberg_packed.json
-+  reports/minecraft/worldgen/placed_feature/jungle_bush.json
-+  reports/minecraft/worldgen/placed_feature/jungle_tree.json
-+  reports/minecraft/worldgen/placed_feature/kelp_cold.json
-+  reports/minecraft/worldgen/placed_feature/kelp_warm.json
-+  reports/minecraft/worldgen/placed_feature/lake_lava_surface.json
-+  reports/minecraft/worldgen/placed_feature/lake_lava_underground.json
-+  reports/minecraft/worldgen/placed_feature/large_basalt_columns.json
-+  reports/minecraft/worldgen/placed_feature/large_dripstone.json
-+  reports/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/lush_caves_clay.json
-+  reports/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/mangrove_checked.json
-+  reports/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
-+  reports/minecraft/worldgen/placed_feature/mega_pine_checked.json
-+  reports/minecraft/worldgen/placed_feature/mega_spruce_checked.json
-+  reports/minecraft/worldgen/placed_feature/monster_room.json
-+  reports/minecraft/worldgen/placed_feature/monster_room_deep.json
-+  reports/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/nether_sprouts.json
-+  reports/minecraft/worldgen/placed_feature/oak.json
-+  reports/minecraft/worldgen/placed_feature/oak_bees_0002.json
-+  reports/minecraft/worldgen/placed_feature/oak_bees_002.json
-+  reports/minecraft/worldgen/placed_feature/oak_checked.json
-+  reports/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
-+  reports/minecraft/worldgen/placed_feature/ore_andesite_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_andesite_upper.json
-+  reports/minecraft/worldgen/placed_feature/ore_blackstone.json
-+  reports/minecraft/worldgen/placed_feature/ore_clay.json
-+  reports/minecraft/worldgen/placed_feature/ore_coal_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_coal_upper.json
-+  reports/minecraft/worldgen/placed_feature/ore_copper.json
-+  reports/minecraft/worldgen/placed_feature/ore_copper_large.json
-+  reports/minecraft/worldgen/placed_feature/ore_debris_small.json
-+  reports/minecraft/worldgen/placed_feature/ore_diamond.json
-+  reports/minecraft/worldgen/placed_feature/ore_diamond_buried.json
-+  reports/minecraft/worldgen/placed_feature/ore_diamond_large.json
-+  reports/minecraft/worldgen/placed_feature/ore_diorite_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_diorite_upper.json
-+  reports/minecraft/worldgen/placed_feature/ore_dirt.json
-+  reports/minecraft/worldgen/placed_feature/ore_emerald.json
-+  reports/minecraft/worldgen/placed_feature/ore_gold.json
-+  reports/minecraft/worldgen/placed_feature/ore_gold_deltas.json
-+  reports/minecraft/worldgen/placed_feature/ore_gold_extra.json
-+  reports/minecraft/worldgen/placed_feature/ore_gold_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_gold_nether.json
-+  reports/minecraft/worldgen/placed_feature/ore_granite_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_granite_upper.json
-+  reports/minecraft/worldgen/placed_feature/ore_gravel.json
-+  reports/minecraft/worldgen/placed_feature/ore_gravel_nether.json
-+  reports/minecraft/worldgen/placed_feature/ore_infested.json
-+  reports/minecraft/worldgen/placed_feature/ore_iron_middle.json
-+  reports/minecraft/worldgen/placed_feature/ore_iron_small.json
-+  reports/minecraft/worldgen/placed_feature/ore_iron_upper.json
-+  reports/minecraft/worldgen/placed_feature/ore_lapis.json
-+  reports/minecraft/worldgen/placed_feature/ore_lapis_buried.json
-+  reports/minecraft/worldgen/placed_feature/ore_magma.json
-+  reports/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
-+  reports/minecraft/worldgen/placed_feature/ore_quartz_nether.json
-+  reports/minecraft/worldgen/placed_feature/ore_redstone.json
-+  reports/minecraft/worldgen/placed_feature/ore_redstone_lower.json
-+  reports/minecraft/worldgen/placed_feature/ore_soul_sand.json
-+  reports/minecraft/worldgen/placed_feature/ore_tuff.json
-+  reports/minecraft/worldgen/placed_feature/patch_berry_bush.json
-+  reports/minecraft/worldgen/placed_feature/patch_berry_common.json
-+  reports/minecraft/worldgen/placed_feature/patch_berry_rare.json
-+  reports/minecraft/worldgen/placed_feature/patch_cactus.json
-+  reports/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
-+  reports/minecraft/worldgen/placed_feature/patch_cactus_desert.json
-+  reports/minecraft/worldgen/placed_feature/patch_crimson_roots.json
-+  reports/minecraft/worldgen/placed_feature/patch_dead_bush.json
-+  reports/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
-+  reports/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
-+  reports/minecraft/worldgen/placed_feature/patch_fire.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_badlands.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_forest.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_jungle.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_normal.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_plain.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_savanna.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_taiga.json
-+  reports/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
-+  reports/minecraft/worldgen/placed_feature/patch_large_fern.json
-+  reports/minecraft/worldgen/placed_feature/patch_melon.json
-+  reports/minecraft/worldgen/placed_feature/patch_melon_sparse.json
-+  reports/minecraft/worldgen/placed_feature/patch_pumpkin.json
-+  reports/minecraft/worldgen/placed_feature/patch_soul_fire.json
-+  reports/minecraft/worldgen/placed_feature/patch_sugar_cane.json
-+  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
-+  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
-+  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
-+  reports/minecraft/worldgen/placed_feature/patch_sunflower.json
-+  reports/minecraft/worldgen/placed_feature/patch_taiga_grass.json
-+  reports/minecraft/worldgen/placed_feature/patch_tall_grass.json
-+  reports/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
-+  reports/minecraft/worldgen/placed_feature/patch_waterlily.json
-+  reports/minecraft/worldgen/placed_feature/pile_hay.json
-+  reports/minecraft/worldgen/placed_feature/pile_ice.json
-+  reports/minecraft/worldgen/placed_feature/pile_melon.json
-+  reports/minecraft/worldgen/placed_feature/pile_pumpkin.json
-+  reports/minecraft/worldgen/placed_feature/pile_snow.json
-+  reports/minecraft/worldgen/placed_feature/pine.json
-+  reports/minecraft/worldgen/placed_feature/pine_checked.json
-+  reports/minecraft/worldgen/placed_feature/pine_on_snow.json
-+  reports/minecraft/worldgen/placed_feature/pointed_dripstone.json
-+  reports/minecraft/worldgen/placed_feature/red_mushroom_nether.json
-+  reports/minecraft/worldgen/placed_feature/red_mushroom_normal.json
-+  reports/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
-+  reports/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
-+  reports/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
-+  reports/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
-+  reports/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
-+  reports/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
-+  reports/minecraft/worldgen/placed_feature/sculk_vein.json
-+  reports/minecraft/worldgen/placed_feature/sea_pickle.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_cold.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_deep.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_normal.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_river.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_simple.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_swamp.json
-+  reports/minecraft/worldgen/placed_feature/seagrass_warm.json
-+  reports/minecraft/worldgen/placed_feature/small_basalt_columns.json
-+  reports/minecraft/worldgen/placed_feature/spore_blossom.json
-+  reports/minecraft/worldgen/placed_feature/spring_closed.json
-+  reports/minecraft/worldgen/placed_feature/spring_closed_double.json
-+  reports/minecraft/worldgen/placed_feature/spring_delta.json
-+  reports/minecraft/worldgen/placed_feature/spring_lava.json
-+  reports/minecraft/worldgen/placed_feature/spring_lava_frozen.json
-+  reports/minecraft/worldgen/placed_feature/spring_open.json
-+  reports/minecraft/worldgen/placed_feature/spring_water.json
-+  reports/minecraft/worldgen/placed_feature/spruce.json
-+  reports/minecraft/worldgen/placed_feature/spruce_checked.json
-+  reports/minecraft/worldgen/placed_feature/spruce_on_snow.json
-+  reports/minecraft/worldgen/placed_feature/super_birch_bees.json
-+  reports/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
-+  reports/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
-+  reports/minecraft/worldgen/placed_feature/trees_badlands.json
-+  reports/minecraft/worldgen/placed_feature/trees_birch.json
-+  reports/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
-+  reports/minecraft/worldgen/placed_feature/trees_flower_forest.json
-+  reports/minecraft/worldgen/placed_feature/trees_grove.json
-+  reports/minecraft/worldgen/placed_feature/trees_jungle.json
-+  reports/minecraft/worldgen/placed_feature/trees_mangrove.json
-+  reports/minecraft/worldgen/placed_feature/trees_meadow.json
-+  reports/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
-+  reports/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
-+  reports/minecraft/worldgen/placed_feature/trees_plains.json
-+  reports/minecraft/worldgen/placed_feature/trees_savanna.json
-+  reports/minecraft/worldgen/placed_feature/trees_snowy.json
-+  reports/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
-+  reports/minecraft/worldgen/placed_feature/trees_swamp.json
-+  reports/minecraft/worldgen/placed_feature/trees_taiga.json
-+  reports/minecraft/worldgen/placed_feature/trees_water.json
-+  reports/minecraft/worldgen/placed_feature/trees_windswept_forest.json
-+  reports/minecraft/worldgen/placed_feature/trees_windswept_hills.json
-+  reports/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
-+  reports/minecraft/worldgen/placed_feature/twisting_vines.json
-+  reports/minecraft/worldgen/placed_feature/underwater_magma.json
-+  reports/minecraft/worldgen/placed_feature/vines.json
-+  reports/minecraft/worldgen/placed_feature/void_start_platform.json
-+  reports/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
-+  reports/minecraft/worldgen/placed_feature/warped_fungi.json
-+  reports/minecraft/worldgen/placed_feature/weeping_vines.json
-+  reports/minecraft/worldgen/processor_list
-+  reports/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
-+  reports/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
-+  reports/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
-+  reports/minecraft/worldgen/processor_list/bastion_generic_degradation.json
-+  reports/minecraft/worldgen/processor_list/bottom_rampart.json
-+  reports/minecraft/worldgen/processor_list/bridge.json
-+  reports/minecraft/worldgen/processor_list/empty.json
-+  reports/minecraft/worldgen/processor_list/entrance_replacement.json
-+  reports/minecraft/worldgen/processor_list/farm_desert.json
-+  reports/minecraft/worldgen/processor_list/farm_plains.json
-+  reports/minecraft/worldgen/processor_list/farm_savanna.json
-+  reports/minecraft/worldgen/processor_list/farm_snowy.json
-+  reports/minecraft/worldgen/processor_list/farm_taiga.json
-+  reports/minecraft/worldgen/processor_list/fossil_coal.json
-+  reports/minecraft/worldgen/processor_list/fossil_diamonds.json
-+  reports/minecraft/worldgen/processor_list/fossil_rot.json
-+  reports/minecraft/worldgen/processor_list/high_rampart.json
-+  reports/minecraft/worldgen/processor_list/high_wall.json
-+  reports/minecraft/worldgen/processor_list/housing.json
-+  reports/minecraft/worldgen/processor_list/mossify_10_percent.json
-+  reports/minecraft/worldgen/processor_list/mossify_20_percent.json
-+  reports/minecraft/worldgen/processor_list/mossify_70_percent.json
-+  reports/minecraft/worldgen/processor_list/outpost_rot.json
-+  reports/minecraft/worldgen/processor_list/rampart_degradation.json
-+  reports/minecraft/worldgen/processor_list/roof.json
-+  reports/minecraft/worldgen/processor_list/side_wall_degradation.json
-+  reports/minecraft/worldgen/processor_list/stable_degradation.json
-+  reports/minecraft/worldgen/processor_list/street_plains.json
-+  reports/minecraft/worldgen/processor_list/street_savanna.json
-+  reports/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
-+  reports/minecraft/worldgen/processor_list/treasure_rooms.json
-+  reports/minecraft/worldgen/processor_list/zombie_desert.json
-+  reports/minecraft/worldgen/processor_list/zombie_plains.json
-+  reports/minecraft/worldgen/processor_list/zombie_savanna.json
-+  reports/minecraft/worldgen/processor_list/zombie_snowy.json
-+  reports/minecraft/worldgen/processor_list/zombie_taiga.json
-+  reports/minecraft/worldgen/structure
-+  reports/minecraft/worldgen/structure/ancient_city.json
-+  reports/minecraft/worldgen/structure/bastion_remnant.json
-+  reports/minecraft/worldgen/structure/buried_treasure.json
-+  reports/minecraft/worldgen/structure/desert_pyramid.json
-+  reports/minecraft/worldgen/structure/end_city.json
-+  reports/minecraft/worldgen/structure/fortress.json
-+  reports/minecraft/worldgen/structure/igloo.json
-+  reports/minecraft/worldgen/structure/jungle_pyramid.json
-+  reports/minecraft/worldgen/structure/mansion.json
-+  reports/minecraft/worldgen/structure/mineshaft.json
-+  reports/minecraft/worldgen/structure/mineshaft_mesa.json
-+  reports/minecraft/worldgen/structure/monument.json
-+  reports/minecraft/worldgen/structure/nether_fossil.json
-+  reports/minecraft/worldgen/structure/ocean_ruin_cold.json
-+  reports/minecraft/worldgen/structure/ocean_ruin_warm.json
-+  reports/minecraft/worldgen/structure/pillager_outpost.json
-+  reports/minecraft/worldgen/structure/ruined_portal.json
-+  reports/minecraft/worldgen/structure/ruined_portal_desert.json
-+  reports/minecraft/worldgen/structure/ruined_portal_jungle.json
-+  reports/minecraft/worldgen/structure/ruined_portal_mountain.json
-+  reports/minecraft/worldgen/structure/ruined_portal_nether.json
-+  reports/minecraft/worldgen/structure/ruined_portal_ocean.json
-+  reports/minecraft/worldgen/structure/ruined_portal_swamp.json
-+  reports/minecraft/worldgen/structure/shipwreck.json
-+  reports/minecraft/worldgen/structure/shipwreck_beached.json
-+  reports/minecraft/worldgen/structure/stronghold.json
-+  reports/minecraft/worldgen/structure/swamp_hut.json
-+  reports/minecraft/worldgen/structure/village_desert.json
-+  reports/minecraft/worldgen/structure/village_plains.json
-+  reports/minecraft/worldgen/structure/village_savanna.json
-+  reports/minecraft/worldgen/structure/village_snowy.json
-+  reports/minecraft/worldgen/structure/village_taiga.json
-+  reports/minecraft/worldgen/structure_set
-+  reports/minecraft/worldgen/structure_set/ancient_cities.json
-+  reports/minecraft/worldgen/structure_set/buried_treasures.json
-+  reports/minecraft/worldgen/structure_set/desert_pyramids.json
-+  reports/minecraft/worldgen/structure_set/end_cities.json
-+  reports/minecraft/worldgen/structure_set/igloos.json
-+  reports/minecraft/worldgen/structure_set/jungle_temples.json
-+  reports/minecraft/worldgen/structure_set/mineshafts.json
-+  reports/minecraft/worldgen/structure_set/nether_complexes.json
-+  reports/minecraft/worldgen/structure_set/nether_fossils.json
-+  reports/minecraft/worldgen/structure_set/ocean_monuments.json
-+  reports/minecraft/worldgen/structure_set/ocean_ruins.json
-+  reports/minecraft/worldgen/structure_set/pillager_outposts.json
-+  reports/minecraft/worldgen/structure_set/ruined_portals.json
-+  reports/minecraft/worldgen/structure_set/shipwrecks.json
-+  reports/minecraft/worldgen/structure_set/strongholds.json
-+  reports/minecraft/worldgen/structure_set/swamp_huts.json
-+  reports/minecraft/worldgen/structure_set/villages.json
-+  reports/minecraft/worldgen/structure_set/woodland_mansions.json
-+  reports/minecraft/worldgen/template_pool
-+  reports/minecraft/worldgen/template_pool/ancient_city
-+  reports/minecraft/worldgen/template_pool/ancient_city/city
-+  reports/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/city_center
-+  reports/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/walls
-+  reports/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/city_center.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/sculk.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/structures.json
-+  reports/minecraft/worldgen/template_pool/ancient_city/walls.json
-+  reports/minecraft/worldgen/template_pool/bastion
-+  reports/minecraft/worldgen/template_pool/bastion/blocks
-+  reports/minecraft/worldgen/template_pool/bastion/blocks/gold.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/legs.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
-+  reports/minecraft/worldgen/template_pool/bastion/bridge/walls.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
-+  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
-+  reports/minecraft/worldgen/template_pool/bastion/mobs
-+  reports/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
-+  reports/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
-+  reports/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/bases
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/corners
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/bases.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/brains.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
-+  reports/minecraft/worldgen/template_pool/bastion/treasure/walls.json
-+  reports/minecraft/worldgen/template_pool/bastion/units
-+  reports/minecraft/worldgen/template_pool/bastion/units/fillers
-+  reports/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/rot
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/walls
-+  reports/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/edges.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/pathways.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/ramparts.json
-+  reports/minecraft/worldgen/template_pool/bastion/units/wall_units.json
-+  reports/minecraft/worldgen/template_pool/bastion/starts.json
-+  reports/minecraft/worldgen/template_pool/pillager_outpost
-+  reports/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
-+  reports/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
-+  reports/minecraft/worldgen/template_pool/pillager_outpost/features.json
-+  reports/minecraft/worldgen/template_pool/pillager_outpost/towers.json
-+  reports/minecraft/worldgen/template_pool/village
-+  reports/minecraft/worldgen/template_pool/village/common
-+  reports/minecraft/worldgen/template_pool/village/common/animals.json
-+  reports/minecraft/worldgen/template_pool/village/common/butcher_animals.json
-+  reports/minecraft/worldgen/template_pool/village/common/cats.json
-+  reports/minecraft/worldgen/template_pool/village/common/iron_golem.json
-+  reports/minecraft/worldgen/template_pool/village/common/sheep.json
-+  reports/minecraft/worldgen/template_pool/village/common/well_bottoms.json
-+  reports/minecraft/worldgen/template_pool/village/desert
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/desert/decor.json
-+  reports/minecraft/worldgen/template_pool/village/desert/houses.json
-+  reports/minecraft/worldgen/template_pool/village/desert/streets.json
-+  reports/minecraft/worldgen/template_pool/village/desert/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/desert/town_centers.json
-+  reports/minecraft/worldgen/template_pool/village/desert/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/plains
-+  reports/minecraft/worldgen/template_pool/village/plains/zombie
-+  reports/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
-+  reports/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
-+  reports/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
-+  reports/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/plains/decor.json
-+  reports/minecraft/worldgen/template_pool/village/plains/houses.json
-+  reports/minecraft/worldgen/template_pool/village/plains/streets.json
-+  reports/minecraft/worldgen/template_pool/village/plains/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/plains/town_centers.json
-+  reports/minecraft/worldgen/template_pool/village/plains/trees.json
-+  reports/minecraft/worldgen/template_pool/village/plains/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/savanna
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/decor.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/houses.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/streets.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/town_centers.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/trees.json
-+  reports/minecraft/worldgen/template_pool/village/savanna/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/snowy
-+  reports/minecraft/worldgen/template_pool/village/snowy/zombie
-+  reports/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/decor.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/houses.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/streets.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/town_centers.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/trees.json
-+  reports/minecraft/worldgen/template_pool/village/snowy/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/taiga
-+  reports/minecraft/worldgen/template_pool/village/taiga/zombie
-+  reports/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/decor.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/houses.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/streets.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/terminators.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/town_centers.json
-+  reports/minecraft/worldgen/template_pool/village/taiga/villagers.json
-+  reports/minecraft/worldgen/template_pool/empty.json
-+  reports/minecraft/worldgen/world_preset
-+  reports/minecraft/worldgen/world_preset/amplified.json
-+  reports/minecraft/worldgen/world_preset/debug_all_block_states.json
-+  reports/minecraft/worldgen/world_preset/flat.json
-+  reports/minecraft/worldgen/world_preset/large_biomes.json
-+  reports/minecraft/worldgen/world_preset/normal.json
-+  reports/minecraft/worldgen/world_preset/single_biome_surface.json
--  reports/worldgen
--  reports/worldgen/minecraft
--  reports/worldgen/minecraft/chat_type
--  reports/worldgen/minecraft/chat_type/chat.json
--  reports/worldgen/minecraft/chat_type/emote_command.json
--  reports/worldgen/minecraft/chat_type/game_info.json
--  reports/worldgen/minecraft/chat_type/msg_command.json
--  reports/worldgen/minecraft/chat_type/say_command.json
--  reports/worldgen/minecraft/chat_type/system.json
--  reports/worldgen/minecraft/chat_type/team_msg_command.json
--  reports/worldgen/minecraft/chat_type/tellraw_command.json
--  reports/worldgen/minecraft/dimension_type
--  reports/worldgen/minecraft/dimension_type/overworld.json
--  reports/worldgen/minecraft/dimension_type/overworld_caves.json
--  reports/worldgen/minecraft/dimension_type/the_end.json
--  reports/worldgen/minecraft/dimension_type/the_nether.json
--  reports/worldgen/minecraft/worldgen
--  reports/worldgen/minecraft/worldgen/biome
--  reports/worldgen/minecraft/worldgen/biome/badlands.json
--  reports/worldgen/minecraft/worldgen/biome/bamboo_jungle.json
--  reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json
--  reports/worldgen/minecraft/worldgen/biome/beach.json
--  reports/worldgen/minecraft/worldgen/biome/birch_forest.json
--  reports/worldgen/minecraft/worldgen/biome/cold_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/crimson_forest.json
--  reports/worldgen/minecraft/worldgen/biome/dark_forest.json
--  reports/worldgen/minecraft/worldgen/biome/deep_cold_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/deep_dark.json
--  reports/worldgen/minecraft/worldgen/biome/deep_frozen_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/deep_lukewarm_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/deep_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/desert.json
--  reports/worldgen/minecraft/worldgen/biome/dripstone_caves.json
--  reports/worldgen/minecraft/worldgen/biome/end_barrens.json
--  reports/worldgen/minecraft/worldgen/biome/end_highlands.json
--  reports/worldgen/minecraft/worldgen/biome/end_midlands.json
--  reports/worldgen/minecraft/worldgen/biome/eroded_badlands.json
--  reports/worldgen/minecraft/worldgen/biome/flower_forest.json
--  reports/worldgen/minecraft/worldgen/biome/forest.json
--  reports/worldgen/minecraft/worldgen/biome/frozen_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/frozen_peaks.json
--  reports/worldgen/minecraft/worldgen/biome/frozen_river.json
--  reports/worldgen/minecraft/worldgen/biome/grove.json
--  reports/worldgen/minecraft/worldgen/biome/ice_spikes.json
--  reports/worldgen/minecraft/worldgen/biome/jagged_peaks.json
--  reports/worldgen/minecraft/worldgen/biome/jungle.json
--  reports/worldgen/minecraft/worldgen/biome/lukewarm_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/lush_caves.json
--  reports/worldgen/minecraft/worldgen/biome/mangrove_swamp.json
--  reports/worldgen/minecraft/worldgen/biome/meadow.json
--  reports/worldgen/minecraft/worldgen/biome/mushroom_fields.json
--  reports/worldgen/minecraft/worldgen/biome/nether_wastes.json
--  reports/worldgen/minecraft/worldgen/biome/ocean.json
--  reports/worldgen/minecraft/worldgen/biome/old_growth_birch_forest.json
--  reports/worldgen/minecraft/worldgen/biome/old_growth_pine_taiga.json
--  reports/worldgen/minecraft/worldgen/biome/old_growth_spruce_taiga.json
--  reports/worldgen/minecraft/worldgen/biome/plains.json
--  reports/worldgen/minecraft/worldgen/biome/river.json
--  reports/worldgen/minecraft/worldgen/biome/savanna.json
--  reports/worldgen/minecraft/worldgen/biome/savanna_plateau.json
--  reports/worldgen/minecraft/worldgen/biome/small_end_islands.json
--  reports/worldgen/minecraft/worldgen/biome/snowy_beach.json
--  reports/worldgen/minecraft/worldgen/biome/snowy_plains.json
--  reports/worldgen/minecraft/worldgen/biome/snowy_slopes.json
--  reports/worldgen/minecraft/worldgen/biome/snowy_taiga.json
--  reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json
--  reports/worldgen/minecraft/worldgen/biome/sparse_jungle.json
--  reports/worldgen/minecraft/worldgen/biome/stony_peaks.json
--  reports/worldgen/minecraft/worldgen/biome/stony_shore.json
--  reports/worldgen/minecraft/worldgen/biome/sunflower_plains.json
--  reports/worldgen/minecraft/worldgen/biome/swamp.json
--  reports/worldgen/minecraft/worldgen/biome/taiga.json
--  reports/worldgen/minecraft/worldgen/biome/the_end.json
--  reports/worldgen/minecraft/worldgen/biome/the_void.json
--  reports/worldgen/minecraft/worldgen/biome/warm_ocean.json
--  reports/worldgen/minecraft/worldgen/biome/warped_forest.json
--  reports/worldgen/minecraft/worldgen/biome/windswept_forest.json
--  reports/worldgen/minecraft/worldgen/biome/windswept_gravelly_hills.json
--  reports/worldgen/minecraft/worldgen/biome/windswept_hills.json
--  reports/worldgen/minecraft/worldgen/biome/windswept_savanna.json
--  reports/worldgen/minecraft/worldgen/biome/wooded_badlands.json
--  reports/worldgen/minecraft/worldgen/configured_carver
--  reports/worldgen/minecraft/worldgen/configured_carver/canyon.json
--  reports/worldgen/minecraft/worldgen/configured_carver/cave.json
--  reports/worldgen/minecraft/worldgen/configured_carver/cave_extra_underground.json
--  reports/worldgen/minecraft/worldgen/configured_carver/nether_cave.json
--  reports/worldgen/minecraft/worldgen/configured_feature
--  reports/worldgen/minecraft/worldgen/configured_feature/acacia.json
--  reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json
--  reports/worldgen/minecraft/worldgen/configured_feature/azalea_tree.json
--  reports/worldgen/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
--  reports/worldgen/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
--  reports/worldgen/minecraft/worldgen/configured_feature/bamboo_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/basalt_blobs.json
--  reports/worldgen/minecraft/worldgen/configured_feature/basalt_pillar.json
--  reports/worldgen/minecraft/worldgen/configured_feature/birch.json
--  reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_0002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_005.json
--  reports/worldgen/minecraft/worldgen/configured_feature/birch_tall.json
--  reports/worldgen/minecraft/worldgen/configured_feature/blackstone_blobs.json
--  reports/worldgen/minecraft/worldgen/configured_feature/blue_ice.json
--  reports/worldgen/minecraft/worldgen/configured_feature/bonus_chest.json
--  reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json
--  reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
--  reports/worldgen/minecraft/worldgen/configured_feature/chorus_plant.json
--  reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
--  reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
--  reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus.json
--  reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
--  reports/worldgen/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/dark_oak.json
--  reports/worldgen/minecraft/worldgen/configured_feature/delta.json
--  reports/worldgen/minecraft/worldgen/configured_feature/desert_well.json
--  reports/worldgen/minecraft/worldgen/configured_feature/disk_clay.json
--  reports/worldgen/minecraft/worldgen/configured_feature/disk_grass.json
--  reports/worldgen/minecraft/worldgen/configured_feature/disk_gravel.json
--  reports/worldgen/minecraft/worldgen/configured_feature/disk_sand.json
--  reports/worldgen/minecraft/worldgen/configured_feature/dripleaf.json
--  reports/worldgen/minecraft/worldgen/configured_feature/dripstone_cluster.json
--  reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_delayed.json
--  reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_return.json
--  reports/worldgen/minecraft/worldgen/configured_feature/end_island.json
--  reports/worldgen/minecraft/worldgen/configured_feature/end_spike.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
--  reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json
--  reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json
--  reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json
--  reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json
--  reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json
--  reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json
--  reports/worldgen/minecraft/worldgen/configured_feature/forest_rock.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fossil_coal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/fossil_diamonds.json
--  reports/worldgen/minecraft/worldgen/configured_feature/freeze_top_layer.json
--  reports/worldgen/minecraft/worldgen/configured_feature/glow_lichen.json
--  reports/worldgen/minecraft/worldgen/configured_feature/glowstone_extra.json
--  reports/worldgen/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
--  reports/worldgen/minecraft/worldgen/configured_feature/huge_red_mushroom.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ice_patch.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ice_spike.json
--  reports/worldgen/minecraft/worldgen/configured_feature/iceberg_blue.json
--  reports/worldgen/minecraft/worldgen/configured_feature/iceberg_packed.json
--  reports/worldgen/minecraft/worldgen/configured_feature/jungle_bush.json
--  reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree.json
--  reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
--  reports/worldgen/minecraft/worldgen/configured_feature/kelp.json
--  reports/worldgen/minecraft/worldgen/configured_feature/lake_lava.json
--  reports/worldgen/minecraft/worldgen/configured_feature/large_basalt_columns.json
--  reports/worldgen/minecraft/worldgen/configured_feature/large_dripstone.json
--  reports/worldgen/minecraft/worldgen/configured_feature/lush_caves_clay.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mangrove.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mangrove_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/meadow_trees.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mega_jungle_tree.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mega_pine.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mega_spruce.json
--  reports/worldgen/minecraft/worldgen/configured_feature/monster_room.json
--  reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json
--  reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
--  reports/worldgen/minecraft/worldgen/configured_feature/moss_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts.json
--  reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/oak.json
--  reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_0002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_005.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_andesite.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_blackstone.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_clay.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_coal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_coal_buried.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_large.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_small.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_buried.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_large.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_small.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_diorite.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_dirt.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_emerald.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_gold.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_gold_buried.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_granite.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel_nether.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_infested.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_iron.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_iron_small.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis_buried.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_magma.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_nether_gold.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_quartz.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_redstone.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_soul_sand.json
--  reports/worldgen/minecraft/worldgen/configured_feature/ore_tuff.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json
--  reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pile_hay.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pile_ice.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pile_melon.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pile_pumpkin.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pile_snow.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pine.json
--  reports/worldgen/minecraft/worldgen/configured_feature/pointed_dripstone.json
--  reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
--  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
--  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
--  reports/worldgen/minecraft/worldgen/configured_feature/sculk_vein.json
--  reports/worldgen/minecraft/worldgen/configured_feature/sea_pickle.json
--  reports/worldgen/minecraft/worldgen/configured_feature/seagrass_mid.json
--  reports/worldgen/minecraft/worldgen/configured_feature/seagrass_short.json
--  reports/worldgen/minecraft/worldgen/configured_feature/seagrass_simple.json
--  reports/worldgen/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
--  reports/worldgen/minecraft/worldgen/configured_feature/seagrass_tall.json
--  reports/worldgen/minecraft/worldgen/configured_feature/single_piece_of_grass.json
--  reports/worldgen/minecraft/worldgen/configured_feature/small_basalt_columns.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spore_blossom.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_frozen.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_nether.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_overworld.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spring_water.json
--  reports/worldgen/minecraft/worldgen/configured_feature/spruce.json
--  reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees.json
--  reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
--  reports/worldgen/minecraft/worldgen/configured_feature/swamp_oak.json
--  reports/worldgen/minecraft/worldgen/configured_feature/tall_mangrove.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_flower_forest.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_grove.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_jungle.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_plains.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_savanna.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_taiga.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_water.json
--  reports/worldgen/minecraft/worldgen/configured_feature/trees_windswept_hills.json
--  reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines.json
--  reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/underwater_magma.json
--  reports/worldgen/minecraft/worldgen/configured_feature/vines.json
--  reports/worldgen/minecraft/worldgen/configured_feature/void_start_platform.json
--  reports/worldgen/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
--  reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus.json
--  reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus_planted.json
--  reports/worldgen/minecraft/worldgen/configured_feature/weeping_vines.json
--  reports/worldgen/minecraft/worldgen/density_function
--  reports/worldgen/minecraft/worldgen/density_function/end
--  reports/worldgen/minecraft/worldgen/density_function/end/base_3d_noise.json
--  reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json
--  reports/worldgen/minecraft/worldgen/density_function/nether
--  reports/worldgen/minecraft/worldgen/density_function/nether/base_3d_noise.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/jaggedness.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/offset.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/ridges_folded.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/depth.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/factor.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/offset.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
--  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
--  reports/worldgen/minecraft/worldgen/density_function/shift_x.json
--  reports/worldgen/minecraft/worldgen/density_function/shift_z.json
--  reports/worldgen/minecraft/worldgen/density_function/y.json
--  reports/worldgen/minecraft/worldgen/density_function/zero.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/desert.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/overworld.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/the_void.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
--  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/water_world.json
--  reports/worldgen/minecraft/worldgen/noise
--  reports/worldgen/minecraft/worldgen/noise/aquifer_barrier.json
--  reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
--  reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
--  reports/worldgen/minecraft/worldgen/noise/aquifer_lava.json
--  reports/worldgen/minecraft/worldgen/noise/badlands_pillar.json
--  reports/worldgen/minecraft/worldgen/noise/badlands_pillar_roof.json
--  reports/worldgen/minecraft/worldgen/noise/badlands_surface.json
--  reports/worldgen/minecraft/worldgen/noise/calcite.json
--  reports/worldgen/minecraft/worldgen/noise/cave_cheese.json
--  reports/worldgen/minecraft/worldgen/noise/cave_entrance.json
--  reports/worldgen/minecraft/worldgen/noise/cave_layer.json
--  reports/worldgen/minecraft/worldgen/noise/clay_bands_offset.json
--  reports/worldgen/minecraft/worldgen/noise/continentalness.json
--  reports/worldgen/minecraft/worldgen/noise/continentalness_large.json
--  reports/worldgen/minecraft/worldgen/noise/erosion.json
--  reports/worldgen/minecraft/worldgen/noise/erosion_large.json
--  reports/worldgen/minecraft/worldgen/noise/gravel.json
--  reports/worldgen/minecraft/worldgen/noise/gravel_layer.json
--  reports/worldgen/minecraft/worldgen/noise/ice.json
--  reports/worldgen/minecraft/worldgen/noise/iceberg_pillar.json
--  reports/worldgen/minecraft/worldgen/noise/iceberg_pillar_roof.json
--  reports/worldgen/minecraft/worldgen/noise/iceberg_surface.json
--  reports/worldgen/minecraft/worldgen/noise/jagged.json
--  reports/worldgen/minecraft/worldgen/noise/nether_state_selector.json
--  reports/worldgen/minecraft/worldgen/noise/nether_wart.json
--  reports/worldgen/minecraft/worldgen/noise/netherrack.json
--  reports/worldgen/minecraft/worldgen/noise/noodle.json
--  reports/worldgen/minecraft/worldgen/noise/noodle_ridge_a.json
--  reports/worldgen/minecraft/worldgen/noise/noodle_ridge_b.json
--  reports/worldgen/minecraft/worldgen/noise/noodle_thickness.json
--  reports/worldgen/minecraft/worldgen/noise/offset.json
--  reports/worldgen/minecraft/worldgen/noise/ore_gap.json
--  reports/worldgen/minecraft/worldgen/noise/ore_vein_a.json
--  reports/worldgen/minecraft/worldgen/noise/ore_vein_b.json
--  reports/worldgen/minecraft/worldgen/noise/ore_veininess.json
--  reports/worldgen/minecraft/worldgen/noise/packed_ice.json
--  reports/worldgen/minecraft/worldgen/noise/patch.json
--  reports/worldgen/minecraft/worldgen/noise/pillar.json
--  reports/worldgen/minecraft/worldgen/noise/pillar_rareness.json
--  reports/worldgen/minecraft/worldgen/noise/pillar_thickness.json
--  reports/worldgen/minecraft/worldgen/noise/powder_snow.json
--  reports/worldgen/minecraft/worldgen/noise/ridge.json
--  reports/worldgen/minecraft/worldgen/noise/soul_sand_layer.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_2d.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_elevation.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_modulator.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_thickness.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_1.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_2.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_rarity.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_thickness.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness.json
--  reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
--  reports/worldgen/minecraft/worldgen/noise/surface.json
--  reports/worldgen/minecraft/worldgen/noise/surface_secondary.json
--  reports/worldgen/minecraft/worldgen/noise/surface_swamp.json
--  reports/worldgen/minecraft/worldgen/noise/temperature.json
--  reports/worldgen/minecraft/worldgen/noise/temperature_large.json
--  reports/worldgen/minecraft/worldgen/noise/vegetation.json
--  reports/worldgen/minecraft/worldgen/noise/vegetation_large.json
--  reports/worldgen/minecraft/worldgen/noise_settings
--  reports/worldgen/minecraft/worldgen/noise_settings/amplified.json
--  reports/worldgen/minecraft/worldgen/noise_settings/caves.json
--  reports/worldgen/minecraft/worldgen/noise_settings/end.json
--  reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json
--  reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json
--  reports/worldgen/minecraft/worldgen/noise_settings/nether.json
--  reports/worldgen/minecraft/worldgen/noise_settings/overworld.json
--  reports/worldgen/minecraft/worldgen/placed_feature
--  reports/worldgen/minecraft/worldgen/placed_feature/acacia.json
--  reports/worldgen/minecraft/worldgen/placed_feature/acacia_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/amethyst_geode.json
--  reports/worldgen/minecraft/worldgen/placed_feature/bamboo.json
--  reports/worldgen/minecraft/worldgen/placed_feature/bamboo_light.json
--  reports/worldgen/minecraft/worldgen/placed_feature/bamboo_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/basalt_blobs.json
--  reports/worldgen/minecraft/worldgen/placed_feature/basalt_pillar.json
--  reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_0002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/birch_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/birch_tall.json
--  reports/worldgen/minecraft/worldgen/placed_feature/blackstone_blobs.json
--  reports/worldgen/minecraft/worldgen/placed_feature/blue_ice.json
--  reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
--  reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
--  reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
--  reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json
--  reports/worldgen/minecraft/worldgen/placed_feature/chorus_plant.json
--  reports/worldgen/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
--  reports/worldgen/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/crimson_fungi.json
--  reports/worldgen/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/dark_oak_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/delta.json
--  reports/worldgen/minecraft/worldgen/placed_feature/desert_well.json
--  reports/worldgen/minecraft/worldgen/placed_feature/disk_clay.json
--  reports/worldgen/minecraft/worldgen/placed_feature/disk_grass.json
--  reports/worldgen/minecraft/worldgen/placed_feature/disk_gravel.json
--  reports/worldgen/minecraft/worldgen/placed_feature/disk_sand.json
--  reports/worldgen/minecraft/worldgen/placed_feature/dripstone_cluster.json
--  reports/worldgen/minecraft/worldgen/placed_feature/end_gateway_return.json
--  reports/worldgen/minecraft/worldgen/placed_feature/end_island_decorated.json
--  reports/worldgen/minecraft/worldgen/placed_feature/end_spike.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_default.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_flower_forest.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_forest_flowers.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_meadow.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_plain.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_plains.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/flower_warm.json
--  reports/worldgen/minecraft/worldgen/placed_feature/forest_flowers.json
--  reports/worldgen/minecraft/worldgen/placed_feature/forest_rock.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fossil_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/fossil_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/freeze_top_layer.json
--  reports/worldgen/minecraft/worldgen/placed_feature/glow_lichen.json
--  reports/worldgen/minecraft/worldgen/placed_feature/glowstone.json
--  reports/worldgen/minecraft/worldgen/placed_feature/glowstone_extra.json
--  reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ice_patch.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ice_spike.json
--  reports/worldgen/minecraft/worldgen/placed_feature/iceberg_blue.json
--  reports/worldgen/minecraft/worldgen/placed_feature/iceberg_packed.json
--  reports/worldgen/minecraft/worldgen/placed_feature/jungle_bush.json
--  reports/worldgen/minecraft/worldgen/placed_feature/jungle_tree.json
--  reports/worldgen/minecraft/worldgen/placed_feature/kelp_cold.json
--  reports/worldgen/minecraft/worldgen/placed_feature/kelp_warm.json
--  reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_surface.json
--  reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json
--  reports/worldgen/minecraft/worldgen/placed_feature/large_basalt_columns.json
--  reports/worldgen/minecraft/worldgen/placed_feature/large_dripstone.json
--  reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json
--  reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/mangrove_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/mega_pine_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/mega_spruce_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/monster_room.json
--  reports/worldgen/minecraft/worldgen/placed_feature/monster_room_deep.json
--  reports/worldgen/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/nether_sprouts.json
--  reports/worldgen/minecraft/worldgen/placed_feature/oak.json
--  reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_0002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/oak_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_blackstone.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_clay.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_copper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_copper_large.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_debris_small.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_buried.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_large.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_dirt.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_emerald.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gold.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_deltas.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_extra.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_nether.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel_nether.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_infested.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_middle.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_small.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_upper.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis_buried.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_magma.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_nether.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone_lower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_soul_sand.json
--  reports/worldgen/minecraft/worldgen/placed_feature/ore_tuff.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_bush.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_common.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_rare.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_desert.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_crimson_roots.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_fire.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_badlands.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_forest.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_jungle.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_normal.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_plain.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_savanna.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_large_fern.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_melon.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_melon_sparse.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_pumpkin.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_soul_fire.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_sunflower.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_taiga_grass.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
--  reports/worldgen/minecraft/worldgen/placed_feature/patch_waterlily.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pile_hay.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pile_ice.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pile_melon.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pile_pumpkin.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pile_snow.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pine.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pine_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json
--  reports/worldgen/minecraft/worldgen/placed_feature/pointed_dripstone.json
--  reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_nether.json
--  reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_normal.json
--  reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
--  reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
--  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
--  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
--  reports/worldgen/minecraft/worldgen/placed_feature/sculk_vein.json
--  reports/worldgen/minecraft/worldgen/placed_feature/sea_pickle.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_cold.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_normal.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_river.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/seagrass_warm.json
--  reports/worldgen/minecraft/worldgen/placed_feature/small_basalt_columns.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_closed.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_closed_double.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_delta.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_lava.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_lava_frozen.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_open.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spring_water.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spruce.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spruce_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json
--  reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees.json
--  reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
--  reports/worldgen/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_badlands.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_birch.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_flower_forest.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_grove.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_jungle.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_mangrove.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_meadow.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_plains.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_savanna.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_snowy.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_swamp.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_taiga.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_water.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_forest.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_hills.json
--  reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
--  reports/worldgen/minecraft/worldgen/placed_feature/twisting_vines.json
--  reports/worldgen/minecraft/worldgen/placed_feature/underwater_magma.json
--  reports/worldgen/minecraft/worldgen/placed_feature/vines.json
--  reports/worldgen/minecraft/worldgen/placed_feature/void_start_platform.json
--  reports/worldgen/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
--  reports/worldgen/minecraft/worldgen/placed_feature/warped_fungi.json
--  reports/worldgen/minecraft/worldgen/placed_feature/weeping_vines.json
--  reports/worldgen/minecraft/worldgen/processor_list
--  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/bastion_generic_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/bottom_rampart.json
--  reports/worldgen/minecraft/worldgen/processor_list/bridge.json
--  reports/worldgen/minecraft/worldgen/processor_list/empty.json
--  reports/worldgen/minecraft/worldgen/processor_list/entrance_replacement.json
--  reports/worldgen/minecraft/worldgen/processor_list/farm_desert.json
--  reports/worldgen/minecraft/worldgen/processor_list/farm_plains.json
--  reports/worldgen/minecraft/worldgen/processor_list/farm_savanna.json
--  reports/worldgen/minecraft/worldgen/processor_list/farm_snowy.json
--  reports/worldgen/minecraft/worldgen/processor_list/farm_taiga.json
--  reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json
--  reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json
--  reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json
--  reports/worldgen/minecraft/worldgen/processor_list/high_rampart.json
--  reports/worldgen/minecraft/worldgen/processor_list/high_wall.json
--  reports/worldgen/minecraft/worldgen/processor_list/housing.json
--  reports/worldgen/minecraft/worldgen/processor_list/mossify_10_percent.json
--  reports/worldgen/minecraft/worldgen/processor_list/mossify_20_percent.json
--  reports/worldgen/minecraft/worldgen/processor_list/mossify_70_percent.json
--  reports/worldgen/minecraft/worldgen/processor_list/outpost_rot.json
--  reports/worldgen/minecraft/worldgen/processor_list/rampart_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/roof.json
--  reports/worldgen/minecraft/worldgen/processor_list/side_wall_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/stable_degradation.json
--  reports/worldgen/minecraft/worldgen/processor_list/street_plains.json
--  reports/worldgen/minecraft/worldgen/processor_list/street_savanna.json
--  reports/worldgen/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
--  reports/worldgen/minecraft/worldgen/processor_list/treasure_rooms.json
--  reports/worldgen/minecraft/worldgen/processor_list/zombie_desert.json
--  reports/worldgen/minecraft/worldgen/processor_list/zombie_plains.json
--  reports/worldgen/minecraft/worldgen/processor_list/zombie_savanna.json
--  reports/worldgen/minecraft/worldgen/processor_list/zombie_snowy.json
--  reports/worldgen/minecraft/worldgen/processor_list/zombie_taiga.json
--  reports/worldgen/minecraft/worldgen/structure
--  reports/worldgen/minecraft/worldgen/structure/ancient_city.json
--  reports/worldgen/minecraft/worldgen/structure/bastion_remnant.json
--  reports/worldgen/minecraft/worldgen/structure/buried_treasure.json
--  reports/worldgen/minecraft/worldgen/structure/desert_pyramid.json
--  reports/worldgen/minecraft/worldgen/structure/end_city.json
--  reports/worldgen/minecraft/worldgen/structure/fortress.json
--  reports/worldgen/minecraft/worldgen/structure/igloo.json
--  reports/worldgen/minecraft/worldgen/structure/jungle_pyramid.json
--  reports/worldgen/minecraft/worldgen/structure/mansion.json
--  reports/worldgen/minecraft/worldgen/structure/mineshaft.json
--  reports/worldgen/minecraft/worldgen/structure/mineshaft_mesa.json
--  reports/worldgen/minecraft/worldgen/structure/monument.json
--  reports/worldgen/minecraft/worldgen/structure/nether_fossil.json
--  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_cold.json
--  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_warm.json
--  reports/worldgen/minecraft/worldgen/structure/pillager_outpost.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_desert.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_jungle.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_mountain.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_nether.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_ocean.json
--  reports/worldgen/minecraft/worldgen/structure/ruined_portal_swamp.json
--  reports/worldgen/minecraft/worldgen/structure/shipwreck.json
--  reports/worldgen/minecraft/worldgen/structure/shipwreck_beached.json
--  reports/worldgen/minecraft/worldgen/structure/stronghold.json
--  reports/worldgen/minecraft/worldgen/structure/swamp_hut.json
--  reports/worldgen/minecraft/worldgen/structure/village_desert.json
--  reports/worldgen/minecraft/worldgen/structure/village_plains.json
--  reports/worldgen/minecraft/worldgen/structure/village_savanna.json
--  reports/worldgen/minecraft/worldgen/structure/village_snowy.json
--  reports/worldgen/minecraft/worldgen/structure/village_taiga.json
--  reports/worldgen/minecraft/worldgen/structure_set
--  reports/worldgen/minecraft/worldgen/structure_set/ancient_cities.json
--  reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json
--  reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json
--  reports/worldgen/minecraft/worldgen/structure_set/end_cities.json
--  reports/worldgen/minecraft/worldgen/structure_set/igloos.json
--  reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json
--  reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json
--  reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json
--  reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json
--  reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json
--  reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json
--  reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json
--  reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json
--  reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json
--  reports/worldgen/minecraft/worldgen/structure_set/strongholds.json
--  reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json
--  reports/worldgen/minecraft/worldgen/structure_set/villages.json
--  reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json
--  reports/worldgen/minecraft/worldgen/template_pool
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/sculk.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/structures.json
--  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/blocks
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/blocks/gold.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/legs.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/walls.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/brains.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/fillers
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/rot
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/walls
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edges.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/pathways.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/ramparts.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/units/wall_units.json
--  reports/worldgen/minecraft/worldgen/template_pool/bastion/starts.json
--  reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost
--  reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
--  reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
--  reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/features.json
--  reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/towers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village
--  reports/worldgen/minecraft/worldgen/template_pool/village/common
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/animals.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/butcher_animals.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/cats.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/iron_golem.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/sheep.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/common/well_bottoms.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/town_centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/desert/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/town_centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/trees.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/plains/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/town_centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/trees.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/savanna/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/town_centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/trees.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/snowy/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/decor.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/houses.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/streets.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/terminators.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/town_centers.json
--  reports/worldgen/minecraft/worldgen/template_pool/village/taiga/villagers.json
--  reports/worldgen/minecraft/worldgen/template_pool/empty.json
--  reports/worldgen/minecraft/worldgen/world_preset
--  reports/worldgen/minecraft/worldgen/world_preset/amplified.json
--  reports/worldgen/minecraft/worldgen/world_preset/debug_all_block_states.json
--  reports/worldgen/minecraft/worldgen/world_preset/flat.json
--  reports/worldgen/minecraft/worldgen/world_preset/large_biomes.json
--  reports/worldgen/minecraft/worldgen/world_preset/normal.json
--  reports/worldgen/minecraft/worldgen/world_preset/single_biome_surface.json
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- chat_type.txt
-```
-
-</details>
-
-<details><summary>command_argument_type.txt</summary>
-
-```diff
-+ minecraft:template_mirror
-+ minecraft:template_rotation
-```
-
-</details>
-
-<details><summary>point_of_interest_type.txt</summary>
-
-```diff
-- minecraft:nitwit
-- minecraft:unemployed
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-- locatebiome.txt
-```
-
-</details>
-
-<details><summary>locate.txt</summary>
-
-```diff
-- locate <structure: resource_or_tag>
-+ locate biome <biome: resource_or_tag>
-+ locate poi <poi: resource_or_tag>
-+ locate structure <structure: resource_or_tag>
-```
-
-</details>
-
-<details><summary>place.txt</summary>
-
-```diff
-+ place template <template: resource_location> <pos: block_pos> <rotation: template_rotation> <mirror: template_mirror> <integrity: float> <seed: integer>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ point_of_interest_type/acquirable_job_site.json
-+ point_of_interest_type/bee_home.json
-+ point_of_interest_type/village.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ point_of_interest_type/acquirable_job_site.json
-+ point_of_interest_type/bee_home.json
-+ point_of_interest_type/village.json
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:template_mirror
-+ minecraft:template_rotation
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.4.40
-+ com.mojang:authlib:3.5.41
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ Object mapNullable(Function)
-+ Object mapNullable(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ Realms32BitWarningStatus realms32BitWarningStatus
-+ Realms32BitWarningStatus getRealms32BitWarningStatus()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.Realms32bitWarningScreen</summary>
-
-```diff
-+ Screen previous
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ProfileKeyPairManager</summary>
-
-```diff
-+ ProfilePublicKey$Data parsePublicKey(KeyPairResponse)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ DataGenerator$PathProvider pathProvider
-- DataGenerator generator
-+ boolean lambda$run$0(TagEntry)
-+ TagBuilder getOrCreateRawBuilder(TagKey)
-+ TagBuilder lambda$getOrCreateRawBuilder$2(ResourceLocation)
-+ void lambda$run$1(TagBuilder)
-- boolean lambda$run$0(Tag$BuilderEntry)
-- Path getPath(ResourceLocation)
-- Tag$Builder getOrCreateRawBuilder(TagKey)
-- Tag$Builder lambda$getOrCreateRawBuilder$2(ResourceLocation)
-- void lambda$run$1(Tag$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
-
-```diff
-+ Holder bootstrap(Registry)
-+ Holder register(ResourceKey,int,double,double[])
-+ void registerBiomeNoises(ResourceKey)
-- Holder bootstrap()
-- void register(ResourceKey,int,double,double[])
-- void registerBiomeNoises(ResourceKey)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Structures</summary>
-
-```diff
-+ Holder bootstrap(Registry)
-- Holder bootstrap()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.placement.PlacementUtils</summary>
-
-```diff
-+ Holder bootstrap(Registry)
-- Holder bootstrap()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.MessageSignature</summary>
-
-```diff
-+ boolean isValid()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerGamePacketListener</summary>
-
-```diff
-+ void handleChatPreview(net.minecraft.network.protocol.game.ServerboundChatPreviewPacket)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
-
-```diff
-+ boolean signedPreview
-+ boolean signedPreview()
-+ void <init>(MessageSignature,boolean)
-- void <init>(MessageSignature)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.commands.LocateCommand</summary>
-
-```diff
-+ DynamicCommandExceptionType ERROR_BIOME_INVALID
-+ DynamicCommandExceptionType ERROR_BIOME_NOT_FOUND
-+ DynamicCommandExceptionType ERROR_POI_INVALID
-+ DynamicCommandExceptionType ERROR_POI_NOT_FOUND
-+ DynamicCommandExceptionType ERROR_STRUCTURE_INVALID
-+ DynamicCommandExceptionType ERROR_STRUCTURE_NOT_FOUND
-+ int BIOME_SAMPLE_RESOLUTION_HORIZONTAL
-+ int BIOME_SAMPLE_RESOLUTION_VERTICAL
-+ int MAX_BIOME_SEARCH_RADIUS
-+ int MAX_STRUCTURE_SEARCH_RADIUS
-+ int POI_SEARCH_RADIUS
-- DynamicCommandExceptionType ERROR_FAILED
-- DynamicCommandExceptionType ERROR_INVALID
-+ boolean lambda$register$6(CommandSourceStack)
-+ CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
-+ HolderSet$Direct lambda$getHolders$10(Holder)
-+ int lambda$register$7(CommandContext)
-+ int lambda$register$8(CommandContext)
-+ int lambda$register$9(CommandContext)
-+ int locateBiome(ResourceOrTagLocationArgument$Result)
-+ int locatePoi(ResourceOrTagLocationArgument$Result)
-+ int locateStructure(ResourceOrTagLocationArgument$Result)
-+ Message lambda$static$2(Object)
-+ Message lambda$static$3(Object)
-+ Message lambda$static$4(Object)
-+ Message lambda$static$5(Object)
-+ Optional getHolders(Registry)
-+ Optional lambda$getHolders$11(ResourceKey)
-+ String lambda$showLocateResult$13(ResourceKey)
-+ String lambda$showLocateResult$14(ResourceKey)
-+ String lambda$showLocateResult$15(TagKey)
-+ Style lambda$showLocateResult$16(Style)
-- boolean lambda$register$2(CommandSourceStack)
-- CommandSyntaxException lambda$locate$6(ResourceOrTagLocationArgument$Result)
-- HolderSet$Direct lambda$locate$4(Holder)
-- int lambda$register$3(CommandContext)
-- int locate(ResourceOrTagLocationArgument$Result)
-- Optional lambda$locate$5(ResourceKey)
-- String lambda$showLocateResult$7(ResourceKey)
-- String lambda$showLocateResult$8(ResourceKey)
-- String lambda$showLocateResult$9(TagKey)
-- Style lambda$showLocateResult$10(Style)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.ScheduleCommand</summary>
-
-```diff
-+ void lambda$schedule$8(Collection)
-- void lambda$schedule$8(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ ChatDecorator chatDecorator
-+ boolean previewsChat()
-+ ChatDecorator getChatDecorator()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ boolean previewsChat
-+ boolean testRainbowChat
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ ChatPreviewThrottler chatPreviewThrottler
-+ void handleChatPreview(ServerboundChatPreviewPacket)
-+ void lambda$handleChatPreview$9(ServerboundChatPreviewPacket)
-+ void lambda$handlePlaceRecipe$10(Recipe)
-+ void lambda$handleSignUpdate$11(List)
-- void lambda$handlePlaceRecipe$9(Recipe)
-- void lambda$handleSignUpdate$10(List)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.TextFilter$FilteredText</summary>
-
-```diff
-+ boolean isFiltered()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ PlayerChatMessage getFilteredMessage(TextFilter$FilteredText)
-+ PlayerChatMessage lambda$broadcastChatMessage$4(ServerPlayer)
-+ PlayerChatMessage lambda$broadcastChatMessage$5(ServerPlayer)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastChatMessage(ResourceKey)
-- SignedMessage lambda$broadcastChatMessage$4(ServerPlayer)
-- SignedMessage lambda$broadcastChatMessage$5(ServerPlayer)
-- void broadcastChatMessage(ResourceKey)
-- void broadcastChatMessage(ResourceKey)
-- void broadcastChatMessage(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-- DamageSource SONIC_BOOM
-+ DamageSource sonicBoom(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AnimationState</summary>
-
-```diff
-+ long STARTED
-+ void updateTime(float,float)
-- void updateTime(boolean,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GoToPotentialJobSite</summary>
-
-```diff
-+ boolean lambda$stop$1(Holder)
-- boolean lambda$stop$1(PoiType)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LocateHidingPlace</summary>
-
-```diff
-+ boolean lambda$checkExtraStartConditions$0(Holder)
-+ boolean lambda$start$2(Holder)
-- boolean lambda$checkExtraStartConditions$0(PoiType)
-- boolean lambda$start$2(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ValidateNearbyPoi</summary>
-
-```diff
-+ void <init>(MemoryModuleType)
-- void <init>(MemoryModuleType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerGoalPackages</summary>
-
-```diff
-+ boolean lambda$getCorePackage$0(Holder)
-+ boolean lambda$getCorePackage$1(Holder)
-+ boolean lambda$getMeetPackage$3(Holder)
-+ boolean lambda$getRestPackage$2(Holder)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.YieldJobSite</summary>
-
-```diff
-+ boolean nearbyWantsJobsite(BlockPos)
-- boolean nearbyWantsJobsite(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.warden.Roar</summary>
-
-```diff
-+ int ROAR_ANGER_INCREASE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.warden.SonicBoom</summary>
-
-```diff
-+ boolean lambda$tick$1(LivingEntity)
-+ void lambda$tick$0(LivingEntity)
-+ void lambda$tick$2(LivingEntity)
-- boolean lambda$tick$0(LivingEntity)
-- void lambda$tick$1(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestBedSensor</summary>
-
-```diff
-+ boolean lambda$doTick$1(Holder)
-+ boolean lambda$doTick$2(Long2LongMap$Entry)
-- boolean lambda$doTick$1(Long2LongMap$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
-
-```diff
-+ Holder poiType
-- PoiType poiType
-+ Holder getPoiType()
-+ Holder lambda$codec$1(PoiRecord)
-+ void <init>(Runnable)
-+ void <init>(Runnable)
-- PoiType getPoiType()
-- PoiType lambda$codec$1(PoiRecord)
-- void <init>(Runnable)
-- void <init>(Runnable)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiType</summary>
-
-```diff
-+ Predicate NONE
-- Map TYPE_BY_STATE
-- PoiType ARMORER
-- PoiType BEE_NEST
-- PoiType BEEHIVE
-- PoiType BUTCHER
-- PoiType CARTOGRAPHER
-- PoiType CLERIC
-- PoiType FARMER
-- PoiType FISHERMAN
-- PoiType FLETCHER
-- PoiType HOME
-- PoiType LEATHERWORKER
-- PoiType LIBRARIAN
-- PoiType LIGHTNING_ROD
-- PoiType LODESTONE
-- PoiType MASON
-- PoiType MEETING
-- PoiType NETHER_PORTAL
-- PoiType NITWIT
-- PoiType SHEPHERD
-- PoiType TOOLSMITH
-- PoiType UNEMPLOYED
-- PoiType WEAPONSMITH
-- Predicate ALL
-- Predicate ALL_JOBS
-- Predicate predicate
-- Set ALL_STATES
-- Set BEDS
-- Set CAULDRONS
-- String name
-- Supplier ALL_JOB_POI_TYPES
-+ boolean equals(Object)
-+ boolean lambda$static$0(Holder)
-+ int hashCode()
-+ int maxTickets()
-+ int validRange()
-+ Set matchingStates()
-+ void <init>(Set,int,int)
-- boolean lambda$new$6(PoiType)
-- boolean lambda$static$1(PoiType)
-- boolean lambda$static$2(PoiType)
-- boolean lambda$static$4(BlockState)
-- int getMaxTickets()
-- int getValidRange()
-- Optional forState(BlockState)
-- PoiType register(Predicate,int)
-- PoiType register(Set,int,int)
-- PoiType registerBlockStates(PoiType)
-- Predicate getPredicate()
-- Set getBlockStates(Block)
-- Set lambda$static$0()
-- Stream lambda$static$3(Block)
-- Stream lambda$static$5(Block)
-- String getName()
-- void <init>(Predicate,int)
-- void <init>(Set,int,int)
-- void lambda$registerBlockStates$7(BlockState)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.animation.AnimationChannel
@@ -7785,2131 +4302,357 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.Util</summary>
 
 ```diff
-+ Object mapNullable(Function)
-+ Object mapNullable(Object)
++ Object mapNullable(Object,Function,Object)
++ Object mapNullable(Object,Function)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSigningContext$PlainArguments</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ PlayerChatMessage signArgument(Component)
-- SignedMessage signArgument(Component)
++ Realms32BitWarningStatus getRealms32BitWarningStatus()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceOrTagLocationArgument</summary>
+<details><summary>net.minecraft.client.multiplayer.ProfileKeyPairManager</summary>
 
 ```diff
-- DynamicCommandExceptionType ERROR_INVALID_BIOME
-- DynamicCommandExceptionType ERROR_INVALID_STRUCTURE
-+ CommandSyntaxException lambda$getRegistryType$0(ResourceOrTagLocationArgument$Result)
-- CommandSyntaxException lambda$getRegistryType$2(ResourceOrTagLocationArgument$Result)
-- Message lambda$static$0(Object)
-- Message lambda$static$1(Object)
-- ResourceOrTagLocationArgument$Result getBiome(String)
-- ResourceOrTagLocationArgument$Result getStructure(String)
++ ProfilePublicKey$Data parsePublicKey(KeyPairResponse)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.data.DataGenerator</summary>
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
 
 ```diff
-+ DataGenerator$PathProvider createPathProvider(String)
-+ Path getOutputFolder(DataGenerator$Target)
+- boolean lambda$run$0(Tag$BuilderEntry)
++ boolean lambda$run$0(TagEntry)
+- Path getPath(ResourceLocation)
+- Tag$Builder getOrCreateRawBuilder(TagKey)
+- Tag$Builder lambda$getOrCreateRawBuilder$2(ResourceLocation)
++ TagBuilder getOrCreateRawBuilder(TagKey)
++ TagBuilder lambda$getOrCreateRawBuilder$2(ResourceLocation)
+- void lambda$run$1(CachedOutput,ResourceLocation,Tag$Builder)
++ void lambda$run$1(CachedOutput,ResourceLocation,TagBuilder)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
 
 ```diff
-+ DataGenerator$PathProvider pathProvider
-- DataGenerator generator
-+ void lambda$run$0(Advancement)
-- Path createPath(Advancement)
-- void lambda$run$0(Advancement)
+- Holder bootstrap()
++ Holder bootstrap(Registry)
++ Holder register(Registry,ResourceKey,int,double,double[])
+- void register(ResourceKey,int,double,double[])
+- void registerBiomeNoises(int,ResourceKey,ResourceKey,ResourceKey,ResourceKey)
++ void registerBiomeNoises(Registry,int,ResourceKey,ResourceKey,ResourceKey,ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+<details><summary>net.minecraft.data.worldgen.Structures</summary>
 
 ```diff
-+ DataGenerator$PathProvider pathProvider
-- DataGenerator generator
-+ void lambda$run$5(LootTable)
-- Path createPath(ResourceLocation)
-- void lambda$run$5(LootTable)
+- Holder bootstrap()
++ Holder bootstrap(Registry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.data.worldgen.placement.PlacementUtils</summary>
 
 ```diff
-+ DataGenerator$PathProvider advancementPathProvider
-+ DataGenerator$PathProvider recipePathProvider
-- DataGenerator generator
-+ void lambda$run$0(FinishedRecipe)
-- void lambda$run$0(FinishedRecipe)
+- Holder bootstrap()
++ Holder bootstrap(Registry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
+<details><summary>net.minecraft.network.chat.MessageSignature</summary>
 
 ```diff
-+ ResourceKey dimensionType
-- Holder dimensionType
-+ ResourceKey dimensionType()
-+ void <init>(ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
-- Holder dimensionType()
-- void <init>(ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
-- void lambda$write$1(ResourceKey)
++ boolean isValid()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerChatPacket</summary>
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
 
 ```diff
-+ Component signedContent
-+ Optional unsignedContent
-- Component content
-+ Component signedContent()
-+ Optional unsignedContent()
-+ PlayerChatMessage getMessage()
-+ void <init>(Crypt$SaltSignaturePair)
-- Component content()
-- SignedMessage getSignedMessage()
-- void <init>(Crypt$SaltSignaturePair)
++ boolean signedPreview()
++ void <init>(String,MessageSignature,boolean)
+- void <init>(String,MessageSignature)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$1</summary>
+<details><summary>net.minecraft.server.commands.LocateCommand</summary>
 
 ```diff
-+ void lambda$write$0(ProfilePublicKey$Data)
-- ProfilePublicKey$Data lambda$read$0(FriendlyByteBuf)
-- void lambda$write$1(ProfilePublicKey$Data)
+- boolean lambda$register$2(CommandSourceStack)
++ boolean lambda$register$6(CommandSourceStack)
+- CommandSyntaxException lambda$locate$6(ResourceOrTagLocationArgument$Result)
++ CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
++ HolderSet$Direct lambda$getHolders$10(Holder)
+- HolderSet$Direct lambda$locate$4(Holder)
+- int lambda$register$3(CommandContext)
++ int lambda$register$7(CommandContext)
++ int lambda$register$8(CommandContext)
++ int lambda$register$9(CommandContext)
+- int locate(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locateBiome(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locatePoi(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locateStructure(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ Message lambda$static$2(Object)
++ Message lambda$static$3(Object)
++ Message lambda$static$4(Object)
++ Message lambda$static$5(Object)
++ Optional getHolders(ResourceOrTagLocationArgument$Result,Registry)
++ Optional lambda$getHolders$11(Registry,ResourceKey)
+- Optional lambda$locate$5(Registry,ResourceKey)
++ String lambda$showLocateResult$13(ResourceKey)
++ String lambda$showLocateResult$14(ResourceKey)
++ String lambda$showLocateResult$15(Pair,TagKey)
+- String lambda$showLocateResult$7(ResourceKey)
+- String lambda$showLocateResult$8(ResourceKey)
+- String lambda$showLocateResult$9(Pair,TagKey)
+- Style lambda$showLocateResult$10(BlockPos,String,Style)
++ Style lambda$showLocateResult$16(BlockPos,String,Style)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
+<details><summary>net.minecraft.server.commands.ScheduleCommand</summary>
 
 ```diff
-+ ResourceKey dimensionType
-- Holder dimensionType
-+ ResourceKey getDimensionType()
-+ void <init>(GameType,boolean,boolean,boolean)
-- Holder getDimensionType()
-- void <init>(GameType,boolean,boolean,boolean)
++ void lambda$schedule$8(ResourceLocation,boolean,TimerQueue,long,CommandSourceStack,int,Collection)
+- void lambda$schedule$8(ResourceLocation,boolean,TimerQueue,long,CommandSourceStack,int,Tag)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
 
 ```diff
-+ Boolean lambda$isChallengeSignatureValid$0(byte[])
-+ Boolean lambda$isChallengeSignatureValid$1(Crypt$SaltSignaturePair)
-- Boolean lambda$isChallengeSignatureValid$1(byte[])
-- Boolean lambda$isChallengeSignatureValid$2(Crypt$SaltSignaturePair)
-- void lambda$write$0(Crypt$SaltSignaturePair)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.status.ServerStatus</summary>
-
-```diff
-+ boolean previewsChat
 + boolean previewsChat()
-+ void setPreviewsChat(boolean)
++ ChatDecorator getChatDecorator()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.network.syncher.EntityDataSerializers</summary>
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-- GlobalPos lambda$static$2(FriendlyByteBuf)
-- void lambda$static$1(GlobalPos)
++ void handleChatPreview(ServerboundChatPreviewPacket)
++ void lambda$handleChatPreview$9(ServerboundChatPreviewPacket)
++ void lambda$handlePlaceRecipe$10(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handlePlaceRecipe$9(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handleSignUpdate$10(ServerboundSignUpdatePacket,List)
++ void lambda$handleSignUpdate$11(ServerboundSignUpdatePacket,List)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+<details><summary>net.minecraft.server.network.TextFilter$FilteredText</summary>
 
 ```diff
-+ Collection getTag(ResourceLocation)
-- Tag getTag(ResourceLocation)
++ boolean isFiltered()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
+<details><summary>net.minecraft.server.players.PlayerList</summary>
 
 ```diff
-+ void lambda$register$0(TextFilter$FilteredText)
-- void lambda$register$0(TextFilter$FilteredText)
++ PlayerChatMessage getFilteredMessage(ServerPlayer,PlayerChatMessage,TextFilter$FilteredText)
++ PlayerChatMessage lambda$broadcastChatMessage$4(ServerPlayer,PlayerChatMessage,PlayerChatMessage,ServerPlayer)
++ PlayerChatMessage lambda$broadcastChatMessage$5(PlayerChatMessage,ServerPlayer)
+- SignedMessage lambda$broadcastChatMessage$4(ServerPlayer,SignedMessage,SignedMessage,ServerPlayer)
+- SignedMessage lambda$broadcastChatMessage$5(SignedMessage,ServerPlayer)
++ void broadcastChatMessage(PlayerChatMessage,ChatSender,ResourceKey)
++ void broadcastChatMessage(PlayerChatMessage,Function,ChatSender,ResourceKey)
++ void broadcastChatMessage(PlayerChatMessage,TextFilter$FilteredText,ServerPlayer,ResourceKey)
+- void broadcastChatMessage(SignedMessage,ChatSender,ResourceKey)
+- void broadcastChatMessage(SignedMessage,Function,ChatSender,ResourceKey)
+- void broadcastChatMessage(SignedMessage,TextFilter$FilteredText,ServerPlayer,ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.TagLoader</summary>
+<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
 
 ```diff
-- Gson GSON
-+ boolean lambda$isCyclic$4(ResourceLocation)
-+ Either build(List)
-+ List lambda$load$1(ResourceLocation)
-+ void lambda$build$10(List)
-+ void lambda$build$11(Collection)
-+ void lambda$build$12(Collection)
-+ void lambda$build$13(List)
-+ void lambda$build$14(ResourceLocation)
-+ void lambda$build$6(TagLoader$EntryWithSource)
-+ void lambda$build$7(List)
-+ void lambda$build$8(ResourceLocation)
-+ void lambda$build$9(TagLoader$EntryWithSource)
-+ void lambda$load$2(TagEntry)
-+ void lambda$visitDependenciesAndElement$3(ResourceLocation)
-- boolean lambda$isCyclic$3(ResourceLocation)
-- Object lambda$build$4(ResourceLocation)
-- Tag$Builder lambda$load$1(ResourceLocation)
-- void lambda$build$10(Tag)
-- void lambda$build$11(Tag$Builder)
-- void lambda$build$12(ResourceLocation)
-- void lambda$build$6(Tag$Builder)
-- void lambda$build$7(ResourceLocation)
-- void lambda$build$8(Tag$Builder)
-- void lambda$build$9(Collection)
-- void lambda$visitDependenciesAndElement$2(ResourceLocation)
++ DamageSource sonicBoom(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
+<details><summary>net.minecraft.world.entity.AnimationState</summary>
 
 ```diff
-+ Codec BASE64_STRING
-+ Codec TAG_OR_ELEMENT_ID
-+ DataResult lambda$static$29(String)
-+ DataResult lambda$static$33(String)
-+ ExtraCodecs$TagOrElementLocation lambda$static$31(ResourceLocation)
-+ ExtraCodecs$TagOrElementLocation lambda$static$32(ResourceLocation)
-+ String lambda$static$30(byte[])
+- void updateTime(boolean,float)
++ void updateTime(float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.GoToPotentialJobSite</summary>
 
 ```diff
-+ boolean lambda$findNearbyHivesWithSpace$0(Holder)
-- boolean lambda$findNearbyHivesWithSpace$0(PoiType)
++ boolean lambda$stop$1(Holder)
+- boolean lambda$stop$1(PoiType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.TadpoleAi</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.LocateHidingPlace</summary>
 
 ```diff
-- float SPEED_MULTIPLIER_ON_LAND
++ boolean lambda$checkExtraStartConditions$0(Holder)
+- boolean lambda$checkExtraStartConditions$0(PoiType)
++ boolean lambda$start$2(Holder)
+- boolean lambda$start$2(PoiType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.ValidateNearbyPoi</summary>
 
 ```diff
-+ int PROJECTILE_ANGER_DISTANCE
-+ boolean ignoreExplosion()
-+ int getActiveAnger()
-+ PathNavigation createNavigation(Level)
+- void <init>(PoiType,MemoryModuleType)
++ void <init>(Predicate,MemoryModuleType)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.monster.warden.WardenSpawnTracker</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.VillagerGoalPackages</summary>
 
 ```diff
-+ int WARNING_LEVEL_INCREASE_COOLDOWN
-- int WARNING_COOLDOWN_AFTER_DISTANT_SOUND
-+ boolean hasNearbyWarden(BlockPos)
-+ boolean lambda$tryWarn$4(ServerPlayer)
-+ boolean onCooldown()
-+ int lambda$tryWarn$5(WardenSpawnTracker)
-+ OptionalInt tryWarn(ServerPlayer)
-+ void copyData(WardenSpawnTracker)
-+ void lambda$tryWarn$6(ServerPlayer)
-- boolean canWarn(BlockPos)
-- boolean warn(BlockPos)
-- int lambda$warn$4(WardenSpawnTracker)
-- void copyWarningLevelFrom(WardenSpawnTracker)
-- void lambda$warn$5(ServerPlayer)
-- void lambda$warn$6(WardenSpawnTracker)
++ boolean lambda$getCorePackage$0(Holder)
++ boolean lambda$getCorePackage$1(Holder)
++ boolean lambda$getMeetPackage$3(Holder)
++ boolean lambda$getRestPackage$2(Holder)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerProfession</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.YieldJobSite</summary>
 
 ```diff
-+ Predicate acquirableJobSite
-+ Predicate ALL_ACQUIRABLE_JOBS
-+ Predicate heldJobSite
-- PoiType jobPoiType
++ boolean nearbyWantsJobsite(Holder,Villager,BlockPos)
+- boolean nearbyWantsJobsite(PoiType,Villager,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.warden.SonicBoom</summary>
+
+```diff
+- boolean lambda$tick$0(Warden,LivingEntity)
++ boolean lambda$tick$1(Warden,LivingEntity)
++ void lambda$tick$0(Warden,LivingEntity)
+- void lambda$tick$1(Warden,ServerLevel,LivingEntity)
++ void lambda$tick$2(Warden,ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.NearestBedSensor</summary>
+
+```diff
++ boolean lambda$doTick$1(Holder)
+- boolean lambda$doTick$1(Long2LongMap$Entry)
++ boolean lambda$doTick$2(Long2LongMap$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiRecord</summary>
+
+```diff
++ Holder getPoiType()
++ Holder lambda$codec$1(PoiRecord)
+- PoiType getPoiType()
+- PoiType lambda$codec$1(PoiRecord)
++ void <init>(BlockPos,Holder,int,Runnable)
++ void <init>(BlockPos,Holder,Runnable)
+- void <init>(BlockPos,PoiType,int,Runnable)
+- void <init>(BlockPos,PoiType,Runnable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiType</summary>
+
+```diff
 + boolean equals(Object)
-+ boolean lambda$register$1(Holder)
-+ boolean lambda$register$2(Holder)
+- boolean lambda$new$6(PoiType)
 + boolean lambda$static$0(Holder)
-+ ImmutableSet requestedItems()
-+ ImmutableSet secondaryPoi()
+- boolean lambda$static$1(PoiType)
+- boolean lambda$static$2(PoiType)
+- boolean lambda$static$4(BlockState)
+- int getMaxTickets()
+- int getValidRange()
 + int hashCode()
-+ Predicate acquirableJobSite()
-+ Predicate heldJobSite()
-+ SoundEvent workSound()
-+ String name()
-+ VillagerProfession register(SoundEvent)
-+ VillagerProfession register(SoundEvent)
-+ VillagerProfession register(SoundEvent)
-+ VillagerProfession register(SoundEvent)
-+ void <init>(SoundEvent)
-- ImmutableSet getRequestedItems()
-- ImmutableSet getSecondaryPoi()
-- PoiType getJobPoiType()
-- SoundEvent getWorkSound()
++ int maxTickets()
++ int validRange()
+- Optional forState(BlockState)
+- PoiType register(String,Set,int,int)
+- PoiType register(String,Set,int,Predicate,int)
+- PoiType registerBlockStates(PoiType)
+- Predicate getPredicate()
+- Set getBlockStates(Block)
+- Set lambda$static$0()
++ Set matchingStates()
+- Stream lambda$static$3(Block)
+- Stream lambda$static$5(Block)
 - String getName()
-- VillagerProfession register(SoundEvent)
-- VillagerProfession register(SoundEvent)
-- void <init>(SoundEvent)
++ void <init>(Set,int,int)
+- void <init>(String,Set,int,int)
+- void <init>(String,Set,int,Predicate,int)
+- void lambda$registerBlockStates$7(PoiType,BlockState)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
-
-```diff
-+ boolean lambda$spawn$0(Holder)
-+ boolean lambda$spawn$1(BlockPos)
-- boolean lambda$spawn$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.ProfilePublicKey$Data</summary>
-
-```diff
-+ byte[] keySignature
-+ int MAX_KEY_SIGNATURE_SIZE
-+ PublicKey key
-- String key
-- String signature
-+ byte[] keySignature()
-+ Property signedKeyProperty()
-+ PublicKey key()
-+ String signedKeyPropertyValue()
-+ void <init>(FriendlyByteBuf)
-+ void <init>(PublicKey,byte[])
-+ void write(FriendlyByteBuf)
-- Property signedProperty()
-- PublicKey parsedKey()
-- String key()
-- String signature()
-- String signedPropertyValue()
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raider$RaiderMoveThroughVillageGoal</summary>
-
-```diff
-+ boolean lambda$hasSuitablePoi$0(Holder)
-- boolean lambda$hasSuitablePoi$0(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.InstrumentItem</summary>
-
-```diff
-+ Optional getInstrument(ItemStack)
-- Instrument getInstrument(ItemStack)
-- ResourceLocation getInstrumentLocation(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ ResourceKey dimensionTypeId
-- DimensionType dimensionType
-+ IllegalArgumentException lambda$new$0()
-+ ResourceKey dimensionTypeId()
-+ String lambda$fillReportDetails$4()
-+ void lambda$getEntities$1(Entity)
-+ void lambda$getEntities$2(Entity)
-- String lambda$fillReportDetails$2()
-- void lambda$getEntities$0(Entity)
-- void lambda$getEntities$1(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Rotation</summary>
-
-```diff
-+ Codec CODEC
-+ String id
-+ String getSerializedName()
-+ void <init>(OctahedralGroup)
-- void <init>(OctahedralGroup)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-+ void lambda$stepOn$0(SculkShriekerBlockEntity)
-- void lambda$stepOn$0(SculkShriekerBlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
-
-```diff
-+ boolean canRespond(ServerLevel)
-+ boolean trySummonWarden(ServerLevel)
-+ boolean tryToWarn(ServerPlayer)
-+ ServerPlayer tryGetPlayer(Entity)
-+ void lambda$tryToWarn$3(int)
-+ void tryRespond(ServerLevel)
-+ void tryShriek(ServerPlayer)
-- boolean canShriek(ServerLevel)
-- Boolean lambda$canShriek$3(WardenSpawnTracker)
-- boolean lambda$tryToWarn$4(WardenSpawnTracker)
-- boolean tryToWarn(BlockState)
-- Optional tryGetSpawnTracker(BlockPos)
-- void lambda$trySummonWarden$5(Warden)
-- void replyOrSummon(ServerLevel)
-- void trySummonWarden(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.RandomSupport</summary>
-
-```diff
-+ long generateUniqueSeed()
-+ long lambda$generateUniqueSeed$0(long)
-- long lambda$seedUniquifier$0(long)
-- long seedUniquifier()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPresets</summary>
-
-```diff
-+ Holder bootstrap(Registry)
-- Holder bootstrap()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.presets.WorldPresets</summary>
-
-```diff
-+ Holder bootstrap(Registry)
-- Holder bootstrap()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.Structure$GenerationStub</summary>
-
-```diff
-+ Either generator
-- Consumer generator
-+ Either generator()
-+ StructurePiecesBuilder getPiecesBuilder()
-+ StructurePiecesBuilder lambda$getPiecesBuilder$0(Consumer)
-+ StructurePiecesBuilder lambda$getPiecesBuilder$1(StructurePiecesBuilder)
-+ void <init>(Either)
-- Consumer generator()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftPiece</summary>
-
-```diff
-+ TagKey biomeTag
-+ boolean isInInvalidLocation(BoundingBox)
-- boolean edgesLiquid(BoundingBox)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.portal.PortalForcer</summary>
-
-```diff
-+ boolean lambda$findPortalAround$0(Holder)
-- boolean lambda$findPortalAround$0(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.blocks.BlockInput
@@ -11551,13 +6294,2318 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ Object mapNullable(Object,Function,Object)
++ Object mapNullable(Object,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSigningContext$PlainArguments</summary>
+
+```diff
++ PlayerChatMessage signArgument(CommandContext,String,Component)
+- SignedMessage signArgument(CommandContext,String,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceOrTagLocationArgument</summary>
+
+```diff
++ CommandSyntaxException lambda$getRegistryType$0(DynamicCommandExceptionType,ResourceOrTagLocationArgument$Result)
+- CommandSyntaxException lambda$getRegistryType$2(DynamicCommandExceptionType,ResourceOrTagLocationArgument$Result)
+- Message lambda$static$0(Object)
+- Message lambda$static$1(Object)
+- ResourceOrTagLocationArgument$Result getBiome(CommandContext,String)
+- ResourceOrTagLocationArgument$Result getStructure(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.DataGenerator</summary>
+
+```diff
++ DataGenerator$PathProvider createPathProvider(DataGenerator$Target,String)
++ Path getOutputFolder(DataGenerator$Target)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+
+```diff
+- Path createPath(Path,Advancement)
++ void lambda$run$0(Set,CachedOutput,Advancement)
+- void lambda$run$0(Set,Path,CachedOutput,Advancement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+
+```diff
+- Path createPath(Path,ResourceLocation)
++ void lambda$run$5(CachedOutput,ResourceLocation,LootTable)
+- void lambda$run$5(Path,CachedOutput,ResourceLocation,LootTable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ void lambda$run$0(Set,CachedOutput,FinishedRecipe)
+- void lambda$run$0(Set,CachedOutput,Path,FinishedRecipe)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
+
+```diff
+- Holder dimensionType()
++ ResourceKey dimensionType()
+- void <init>(int,boolean,GameType,GameType,Set,RegistryAccess$Frozen,Holder,ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
++ void <init>(int,boolean,GameType,GameType,Set,RegistryAccess$Frozen,ResourceKey,ResourceKey,long,int,int,int,boolean,boolean,boolean,boolean)
+- void lambda$write$1(FriendlyByteBuf,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerChatPacket</summary>
+
+```diff
+- Component content()
++ Component signedContent()
++ Optional unsignedContent()
++ PlayerChatMessage getMessage()
+- SignedMessage getSignedMessage()
+- void <init>(Component,int,ChatSender,Instant,Crypt$SaltSignaturePair)
++ void <init>(Component,Optional,int,ChatSender,Instant,Crypt$SaltSignaturePair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$Action$1</summary>
+
+```diff
+- ProfilePublicKey$Data lambda$read$0(FriendlyByteBuf)
++ void lambda$write$0(FriendlyByteBuf,ProfilePublicKey$Data)
+- void lambda$write$1(FriendlyByteBuf,ProfilePublicKey$Data)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
+
+```diff
+- Holder getDimensionType()
++ ResourceKey getDimensionType()
+- void <init>(Holder,ResourceKey,long,GameType,GameType,boolean,boolean,boolean)
++ void <init>(ResourceKey,ResourceKey,long,GameType,GameType,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+
+```diff
++ Boolean lambda$isChallengeSignatureValid$0(byte[])
+- Boolean lambda$isChallengeSignatureValid$1(byte[])
++ Boolean lambda$isChallengeSignatureValid$1(ProfilePublicKey,byte[],Crypt$SaltSignaturePair)
+- Boolean lambda$isChallengeSignatureValid$2(ProfilePublicKey,byte[],Crypt$SaltSignaturePair)
+- void lambda$write$0(FriendlyByteBuf,Crypt$SaltSignaturePair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ServerStatus</summary>
+
+```diff
++ boolean previewsChat()
++ void setPreviewsChat(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializers</summary>
+
+```diff
+- GlobalPos lambda$static$2(FriendlyByteBuf)
+- void lambda$static$1(FriendlyByteBuf,GlobalPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+
+```diff
++ Collection getTag(ResourceLocation)
+- Tag getTag(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
+
+```diff
++ void lambda$register$0(CommandSourceStack,ServerPlayer,PlayerChatMessage,TextFilter$FilteredText)
+- void lambda$register$0(CommandSourceStack,SignedMessage,ServerPlayer,TextFilter$FilteredText)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagLoader</summary>
+
+```diff
+- boolean lambda$isCyclic$3(Multimap,ResourceLocation,ResourceLocation)
++ boolean lambda$isCyclic$4(Multimap,ResourceLocation,ResourceLocation)
++ Either build(TagEntry$Lookup,List)
++ List lambda$load$1(ResourceLocation)
+- Object lambda$build$4(ResourceLocation)
+- Tag$Builder lambda$load$1(ResourceLocation)
+- void lambda$build$10(Map,ResourceLocation,Tag)
++ void lambda$build$10(Multimap,ResourceLocation,List)
+- void lambda$build$11(Function,Function,Map,ResourceLocation,Tag$Builder)
++ void lambda$build$11(ResourceLocation,Collection)
+- void lambda$build$12(Map,Multimap,Set,Function,Function,Map,ResourceLocation)
++ void lambda$build$12(Map,ResourceLocation,Collection)
++ void lambda$build$13(TagEntry$Lookup,Map,ResourceLocation,List)
++ void lambda$build$14(Map,Multimap,Set,TagEntry$Lookup,Map,ResourceLocation)
+- void lambda$build$6(Multimap,ResourceLocation,Tag$Builder)
++ void lambda$build$6(Multimap,ResourceLocation,TagLoader$EntryWithSource)
++ void lambda$build$7(Multimap,ResourceLocation,List)
+- void lambda$build$7(Multimap,ResourceLocation,ResourceLocation)
++ void lambda$build$8(Multimap,ResourceLocation,ResourceLocation)
+- void lambda$build$8(Multimap,ResourceLocation,Tag$Builder)
++ void lambda$build$9(Multimap,ResourceLocation,TagLoader$EntryWithSource)
+- void lambda$build$9(ResourceLocation,Collection)
++ void lambda$load$2(List,String,TagEntry)
+- void lambda$visitDependenciesAndElement$2(Map,Multimap,Set,BiConsumer,ResourceLocation)
++ void lambda$visitDependenciesAndElement$3(Map,Multimap,Set,BiConsumer,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ DataResult lambda$static$29(String)
++ DataResult lambda$static$33(String)
++ ExtraCodecs$TagOrElementLocation lambda$static$31(ResourceLocation)
++ ExtraCodecs$TagOrElementLocation lambda$static$32(ResourceLocation)
++ String lambda$static$30(byte[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
+
+```diff
++ boolean lambda$findNearbyHivesWithSpace$0(Holder)
+- boolean lambda$findNearbyHivesWithSpace$0(PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
+
+```diff
++ boolean ignoreExplosion()
++ int getActiveAnger()
++ PathNavigation createNavigation(Level)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.WardenSpawnTracker</summary>
+
+```diff
+- boolean canWarn(ServerLevel,BlockPos)
++ boolean hasNearbyWarden(ServerLevel,BlockPos)
++ boolean lambda$tryWarn$4(ServerPlayer)
++ boolean onCooldown()
+- boolean warn(ServerLevel,BlockPos)
++ int lambda$tryWarn$5(WardenSpawnTracker)
+- int lambda$warn$4(WardenSpawnTracker)
++ OptionalInt tryWarn(ServerLevel,BlockPos,ServerPlayer)
++ void copyData(WardenSpawnTracker)
+- void copyWarningLevelFrom(WardenSpawnTracker)
++ void lambda$tryWarn$6(WardenSpawnTracker,ServerPlayer)
+- void lambda$warn$5(WardenSpawnTracker,ServerPlayer)
+- void lambda$warn$6(List,WardenSpawnTracker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.VillagerProfession</summary>
+
+```diff
++ boolean equals(Object)
++ boolean lambda$register$1(ResourceKey,Holder)
++ boolean lambda$register$2(ResourceKey,Holder)
++ boolean lambda$static$0(Holder)
+- ImmutableSet getRequestedItems()
+- ImmutableSet getSecondaryPoi()
++ ImmutableSet requestedItems()
++ ImmutableSet secondaryPoi()
++ int hashCode()
+- PoiType getJobPoiType()
++ Predicate acquirableJobSite()
++ Predicate heldJobSite()
+- SoundEvent getWorkSound()
++ SoundEvent workSound()
+- String getName()
++ String name()
+- VillagerProfession register(String,PoiType,ImmutableSet,ImmutableSet,SoundEvent)
+- VillagerProfession register(String,PoiType,SoundEvent)
++ VillagerProfession register(String,Predicate,Predicate,ImmutableSet,ImmutableSet,SoundEvent)
++ VillagerProfession register(String,Predicate,Predicate,SoundEvent)
++ VillagerProfession register(String,ResourceKey,ImmutableSet,ImmutableSet,SoundEvent)
++ VillagerProfession register(String,ResourceKey,SoundEvent)
+- void <init>(String,PoiType,ImmutableSet,ImmutableSet,SoundEvent)
++ void <init>(String,Predicate,Predicate,ImmutableSet,ImmutableSet,SoundEvent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
+
+```diff
+- boolean lambda$spawn$0(BlockPos)
++ boolean lambda$spawn$0(Holder)
++ boolean lambda$spawn$1(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.ProfilePublicKey$Data</summary>
+
+```diff
++ byte[] keySignature()
++ Property signedKeyProperty()
+- Property signedProperty()
++ PublicKey key()
+- PublicKey parsedKey()
+- String key()
+- String signature()
++ String signedKeyPropertyValue()
+- String signedPropertyValue()
++ void <init>(FriendlyByteBuf)
++ void <init>(Instant,PublicKey,byte[])
+- void <init>(Instant,String,String)
++ void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.raid.Raider$RaiderMoveThroughVillageGoal</summary>
+
+```diff
++ boolean lambda$hasSuitablePoi$0(Holder)
+- boolean lambda$hasSuitablePoi$0(PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.InstrumentItem</summary>
+
+```diff
+- Instrument getInstrument(ItemStack)
++ Optional getInstrument(ItemStack)
+- ResourceLocation getInstrumentLocation(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
++ IllegalArgumentException lambda$new$0()
++ ResourceKey dimensionTypeId()
+- String lambda$fillReportDetails$2()
++ String lambda$fillReportDetails$4()
+- void lambda$getEntities$0(Entity,Predicate,List,Entity)
++ void lambda$getEntities$1(Entity,Predicate,List,Entity)
+- void lambda$getEntities$1(Predicate,List,EntityTypeTest,Entity)
++ void lambda$getEntities$2(Predicate,List,EntityTypeTest,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Rotation</summary>
+
+```diff
++ String getSerializedName()
+- void <init>(String,int,OctahedralGroup)
++ void <init>(String,int,String,OctahedralGroup)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
+- void lambda$stepOn$0(ServerLevel,Entity,SculkShriekerBlockEntity)
++ void lambda$stepOn$0(ServerLevel,ServerPlayer,SculkShriekerBlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
+
+```diff
++ boolean canRespond(ServerLevel)
+- boolean canShriek(ServerLevel)
+- Boolean lambda$canShriek$3(ServerLevel,BlockPos,WardenSpawnTracker)
+- boolean lambda$tryToWarn$4(ServerLevel,BlockPos,WardenSpawnTracker)
++ boolean trySummonWarden(ServerLevel)
+- boolean tryToWarn(ServerLevel,BlockState)
++ boolean tryToWarn(ServerLevel,ServerPlayer)
+- Optional tryGetSpawnTracker(ServerLevel,BlockPos)
++ ServerPlayer tryGetPlayer(Entity)
+- void lambda$trySummonWarden$5(Warden)
++ void lambda$tryToWarn$3(int)
+- void replyOrSummon(ServerLevel)
++ void tryRespond(ServerLevel)
++ void tryShriek(ServerLevel,ServerPlayer)
+- void trySummonWarden(ServerLevel,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.RandomSupport</summary>
+
+```diff
++ long generateUniqueSeed()
++ long lambda$generateUniqueSeed$0(long)
+- long lambda$seedUniquifier$0(long)
+- long seedUniquifier()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPresets</summary>
+
+```diff
+- Holder bootstrap()
++ Holder bootstrap(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPresets</summary>
+
+```diff
+- Holder bootstrap()
++ Holder bootstrap(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.Structure$GenerationStub</summary>
+
+```diff
+- Consumer generator()
++ Either generator()
++ StructurePiecesBuilder getPiecesBuilder()
++ StructurePiecesBuilder lambda$getPiecesBuilder$0(Consumer)
++ StructurePiecesBuilder lambda$getPiecesBuilder$1(StructurePiecesBuilder)
++ void <init>(BlockPos,Either)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftPiece</summary>
+
+```diff
+- boolean edgesLiquid(BlockGetter,BoundingBox)
++ boolean isInInvalidLocation(LevelAccessor,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.portal.PortalForcer</summary>
+
+```diff
++ boolean lambda$findPortalAround$0(Holder)
+- boolean lambda$findPortalAround$0(PoiType)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/point_of_interest_type/acquirable_job_site.json
++ minecraft/tags/point_of_interest_type/bee_home.json
++ minecraft/tags/point_of_interest_type/village.json
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/minecraft/chat_type/chat.json
++ reports/minecraft/chat_type/emote_command.json
++ reports/minecraft/chat_type/game_info.json
++ reports/minecraft/chat_type/msg_command.json
++ reports/minecraft/chat_type/say_command.json
++ reports/minecraft/chat_type/system.json
++ reports/minecraft/chat_type/team_msg_command.json
++ reports/minecraft/chat_type/tellraw_command.json
++ reports/minecraft/dimension_type/overworld_caves.json
++ reports/minecraft/dimension_type/overworld.json
++ reports/minecraft/dimension_type/the_end.json
++ reports/minecraft/dimension_type/the_nether.json
++ reports/minecraft/worldgen/biome/badlands.json
++ reports/minecraft/worldgen/biome/bamboo_jungle.json
++ reports/minecraft/worldgen/biome/basalt_deltas.json
++ reports/minecraft/worldgen/biome/beach.json
++ reports/minecraft/worldgen/biome/birch_forest.json
++ reports/minecraft/worldgen/biome/cold_ocean.json
++ reports/minecraft/worldgen/biome/crimson_forest.json
++ reports/minecraft/worldgen/biome/dark_forest.json
++ reports/minecraft/worldgen/biome/deep_cold_ocean.json
++ reports/minecraft/worldgen/biome/deep_dark.json
++ reports/minecraft/worldgen/biome/deep_frozen_ocean.json
++ reports/minecraft/worldgen/biome/deep_lukewarm_ocean.json
++ reports/minecraft/worldgen/biome/deep_ocean.json
++ reports/minecraft/worldgen/biome/desert.json
++ reports/minecraft/worldgen/biome/dripstone_caves.json
++ reports/minecraft/worldgen/biome/end_barrens.json
++ reports/minecraft/worldgen/biome/end_highlands.json
++ reports/minecraft/worldgen/biome/end_midlands.json
++ reports/minecraft/worldgen/biome/eroded_badlands.json
++ reports/minecraft/worldgen/biome/flower_forest.json
++ reports/minecraft/worldgen/biome/forest.json
++ reports/minecraft/worldgen/biome/frozen_ocean.json
++ reports/minecraft/worldgen/biome/frozen_peaks.json
++ reports/minecraft/worldgen/biome/frozen_river.json
++ reports/minecraft/worldgen/biome/grove.json
++ reports/minecraft/worldgen/biome/ice_spikes.json
++ reports/minecraft/worldgen/biome/jagged_peaks.json
++ reports/minecraft/worldgen/biome/jungle.json
++ reports/minecraft/worldgen/biome/lukewarm_ocean.json
++ reports/minecraft/worldgen/biome/lush_caves.json
++ reports/minecraft/worldgen/biome/mangrove_swamp.json
++ reports/minecraft/worldgen/biome/meadow.json
++ reports/minecraft/worldgen/biome/mushroom_fields.json
++ reports/minecraft/worldgen/biome/nether_wastes.json
++ reports/minecraft/worldgen/biome/ocean.json
++ reports/minecraft/worldgen/biome/old_growth_birch_forest.json
++ reports/minecraft/worldgen/biome/old_growth_pine_taiga.json
++ reports/minecraft/worldgen/biome/old_growth_spruce_taiga.json
++ reports/minecraft/worldgen/biome/plains.json
++ reports/minecraft/worldgen/biome/river.json
++ reports/minecraft/worldgen/biome/savanna_plateau.json
++ reports/minecraft/worldgen/biome/savanna.json
++ reports/minecraft/worldgen/biome/small_end_islands.json
++ reports/minecraft/worldgen/biome/snowy_beach.json
++ reports/minecraft/worldgen/biome/snowy_plains.json
++ reports/minecraft/worldgen/biome/snowy_slopes.json
++ reports/minecraft/worldgen/biome/snowy_taiga.json
++ reports/minecraft/worldgen/biome/soul_sand_valley.json
++ reports/minecraft/worldgen/biome/sparse_jungle.json
++ reports/minecraft/worldgen/biome/stony_peaks.json
++ reports/minecraft/worldgen/biome/stony_shore.json
++ reports/minecraft/worldgen/biome/sunflower_plains.json
++ reports/minecraft/worldgen/biome/swamp.json
++ reports/minecraft/worldgen/biome/taiga.json
++ reports/minecraft/worldgen/biome/the_end.json
++ reports/minecraft/worldgen/biome/the_void.json
++ reports/minecraft/worldgen/biome/warm_ocean.json
++ reports/minecraft/worldgen/biome/warped_forest.json
++ reports/minecraft/worldgen/biome/windswept_forest.json
++ reports/minecraft/worldgen/biome/windswept_gravelly_hills.json
++ reports/minecraft/worldgen/biome/windswept_hills.json
++ reports/minecraft/worldgen/biome/windswept_savanna.json
++ reports/minecraft/worldgen/biome/wooded_badlands.json
++ reports/minecraft/worldgen/configured_carver/canyon.json
++ reports/minecraft/worldgen/configured_carver/cave_extra_underground.json
++ reports/minecraft/worldgen/configured_carver/cave.json
++ reports/minecraft/worldgen/configured_carver/nether_cave.json
++ reports/minecraft/worldgen/configured_feature/acacia.json
++ reports/minecraft/worldgen/configured_feature/amethyst_geode.json
++ reports/minecraft/worldgen/configured_feature/azalea_tree.json
++ reports/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
++ reports/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
++ reports/minecraft/worldgen/configured_feature/bamboo_vegetation.json
++ reports/minecraft/worldgen/configured_feature/basalt_blobs.json
++ reports/minecraft/worldgen/configured_feature/basalt_pillar.json
++ reports/minecraft/worldgen/configured_feature/birch_bees_0002.json
++ reports/minecraft/worldgen/configured_feature/birch_bees_002.json
++ reports/minecraft/worldgen/configured_feature/birch_bees_005.json
++ reports/minecraft/worldgen/configured_feature/birch_tall.json
++ reports/minecraft/worldgen/configured_feature/birch.json
++ reports/minecraft/worldgen/configured_feature/blackstone_blobs.json
++ reports/minecraft/worldgen/configured_feature/blue_ice.json
++ reports/minecraft/worldgen/configured_feature/bonus_chest.json
++ reports/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
++ reports/minecraft/worldgen/configured_feature/cave_vine.json
++ reports/minecraft/worldgen/configured_feature/chorus_plant.json
++ reports/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
++ reports/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
++ reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
++ reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
++ reports/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
++ reports/minecraft/worldgen/configured_feature/crimson_fungus.json
++ reports/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
++ reports/minecraft/worldgen/configured_feature/dark_oak.json
++ reports/minecraft/worldgen/configured_feature/delta.json
++ reports/minecraft/worldgen/configured_feature/desert_well.json
++ reports/minecraft/worldgen/configured_feature/disk_clay.json
++ reports/minecraft/worldgen/configured_feature/disk_grass.json
++ reports/minecraft/worldgen/configured_feature/disk_gravel.json
++ reports/minecraft/worldgen/configured_feature/disk_sand.json
++ reports/minecraft/worldgen/configured_feature/dripleaf.json
++ reports/minecraft/worldgen/configured_feature/dripstone_cluster.json
++ reports/minecraft/worldgen/configured_feature/end_gateway_delayed.json
++ reports/minecraft/worldgen/configured_feature/end_gateway_return.json
++ reports/minecraft/worldgen/configured_feature/end_island.json
++ reports/minecraft/worldgen/configured_feature/end_spike.json
++ reports/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
++ reports/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
++ reports/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
++ reports/minecraft/worldgen/configured_feature/fancy_oak_bees.json
++ reports/minecraft/worldgen/configured_feature/fancy_oak.json
++ reports/minecraft/worldgen/configured_feature/flower_default.json
++ reports/minecraft/worldgen/configured_feature/flower_flower_forest.json
++ reports/minecraft/worldgen/configured_feature/flower_meadow.json
++ reports/minecraft/worldgen/configured_feature/flower_plain.json
++ reports/minecraft/worldgen/configured_feature/flower_swamp.json
++ reports/minecraft/worldgen/configured_feature/forest_flowers.json
++ reports/minecraft/worldgen/configured_feature/forest_rock.json
++ reports/minecraft/worldgen/configured_feature/fossil_coal.json
++ reports/minecraft/worldgen/configured_feature/fossil_diamonds.json
++ reports/minecraft/worldgen/configured_feature/freeze_top_layer.json
++ reports/minecraft/worldgen/configured_feature/glow_lichen.json
++ reports/minecraft/worldgen/configured_feature/glowstone_extra.json
++ reports/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
++ reports/minecraft/worldgen/configured_feature/huge_red_mushroom.json
++ reports/minecraft/worldgen/configured_feature/ice_patch.json
++ reports/minecraft/worldgen/configured_feature/ice_spike.json
++ reports/minecraft/worldgen/configured_feature/iceberg_blue.json
++ reports/minecraft/worldgen/configured_feature/iceberg_packed.json
++ reports/minecraft/worldgen/configured_feature/jungle_bush.json
++ reports/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
++ reports/minecraft/worldgen/configured_feature/jungle_tree.json
++ reports/minecraft/worldgen/configured_feature/kelp.json
++ reports/minecraft/worldgen/configured_feature/lake_lava.json
++ reports/minecraft/worldgen/configured_feature/large_basalt_columns.json
++ reports/minecraft/worldgen/configured_feature/large_dripstone.json
++ reports/minecraft/worldgen/configured_feature/lush_caves_clay.json
++ reports/minecraft/worldgen/configured_feature/mangrove_vegetation.json
++ reports/minecraft/worldgen/configured_feature/mangrove.json
++ reports/minecraft/worldgen/configured_feature/meadow_trees.json
++ reports/minecraft/worldgen/configured_feature/mega_jungle_tree.json
++ reports/minecraft/worldgen/configured_feature/mega_pine.json
++ reports/minecraft/worldgen/configured_feature/mega_spruce.json
++ reports/minecraft/worldgen/configured_feature/monster_room.json
++ reports/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
++ reports/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
++ reports/minecraft/worldgen/configured_feature/moss_patch.json
++ reports/minecraft/worldgen/configured_feature/moss_vegetation.json
++ reports/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
++ reports/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
++ reports/minecraft/worldgen/configured_feature/nether_sprouts.json
++ reports/minecraft/worldgen/configured_feature/oak_bees_0002.json
++ reports/minecraft/worldgen/configured_feature/oak_bees_002.json
++ reports/minecraft/worldgen/configured_feature/oak_bees_005.json
++ reports/minecraft/worldgen/configured_feature/oak.json
++ reports/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
++ reports/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
++ reports/minecraft/worldgen/configured_feature/ore_andesite.json
++ reports/minecraft/worldgen/configured_feature/ore_blackstone.json
++ reports/minecraft/worldgen/configured_feature/ore_clay.json
++ reports/minecraft/worldgen/configured_feature/ore_coal_buried.json
++ reports/minecraft/worldgen/configured_feature/ore_coal.json
++ reports/minecraft/worldgen/configured_feature/ore_copper_large.json
++ reports/minecraft/worldgen/configured_feature/ore_copper_small.json
++ reports/minecraft/worldgen/configured_feature/ore_diamond_buried.json
++ reports/minecraft/worldgen/configured_feature/ore_diamond_large.json
++ reports/minecraft/worldgen/configured_feature/ore_diamond_small.json
++ reports/minecraft/worldgen/configured_feature/ore_diorite.json
++ reports/minecraft/worldgen/configured_feature/ore_dirt.json
++ reports/minecraft/worldgen/configured_feature/ore_emerald.json
++ reports/minecraft/worldgen/configured_feature/ore_gold_buried.json
++ reports/minecraft/worldgen/configured_feature/ore_gold.json
++ reports/minecraft/worldgen/configured_feature/ore_granite.json
++ reports/minecraft/worldgen/configured_feature/ore_gravel_nether.json
++ reports/minecraft/worldgen/configured_feature/ore_gravel.json
++ reports/minecraft/worldgen/configured_feature/ore_infested.json
++ reports/minecraft/worldgen/configured_feature/ore_iron_small.json
++ reports/minecraft/worldgen/configured_feature/ore_iron.json
++ reports/minecraft/worldgen/configured_feature/ore_lapis_buried.json
++ reports/minecraft/worldgen/configured_feature/ore_lapis.json
++ reports/minecraft/worldgen/configured_feature/ore_magma.json
++ reports/minecraft/worldgen/configured_feature/ore_nether_gold.json
++ reports/minecraft/worldgen/configured_feature/ore_quartz.json
++ reports/minecraft/worldgen/configured_feature/ore_redstone.json
++ reports/minecraft/worldgen/configured_feature/ore_soul_sand.json
++ reports/minecraft/worldgen/configured_feature/ore_tuff.json
++ reports/minecraft/worldgen/configured_feature/patch_berry_bush.json
++ reports/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
++ reports/minecraft/worldgen/configured_feature/patch_cactus.json
++ reports/minecraft/worldgen/configured_feature/patch_crimson_roots.json
++ reports/minecraft/worldgen/configured_feature/patch_dead_bush.json
++ reports/minecraft/worldgen/configured_feature/patch_fire.json
++ reports/minecraft/worldgen/configured_feature/patch_grass_jungle.json
++ reports/minecraft/worldgen/configured_feature/patch_grass.json
++ reports/minecraft/worldgen/configured_feature/patch_large_fern.json
++ reports/minecraft/worldgen/configured_feature/patch_melon.json
++ reports/minecraft/worldgen/configured_feature/patch_pumpkin.json
++ reports/minecraft/worldgen/configured_feature/patch_red_mushroom.json
++ reports/minecraft/worldgen/configured_feature/patch_soul_fire.json
++ reports/minecraft/worldgen/configured_feature/patch_sugar_cane.json
++ reports/minecraft/worldgen/configured_feature/patch_sunflower.json
++ reports/minecraft/worldgen/configured_feature/patch_taiga_grass.json
++ reports/minecraft/worldgen/configured_feature/patch_tall_grass.json
++ reports/minecraft/worldgen/configured_feature/patch_waterlily.json
++ reports/minecraft/worldgen/configured_feature/pile_hay.json
++ reports/minecraft/worldgen/configured_feature/pile_ice.json
++ reports/minecraft/worldgen/configured_feature/pile_melon.json
++ reports/minecraft/worldgen/configured_feature/pile_pumpkin.json
++ reports/minecraft/worldgen/configured_feature/pile_snow.json
++ reports/minecraft/worldgen/configured_feature/pine.json
++ reports/minecraft/worldgen/configured_feature/pointed_dripstone.json
++ reports/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
++ reports/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
++ reports/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
++ reports/minecraft/worldgen/configured_feature/sculk_vein.json
++ reports/minecraft/worldgen/configured_feature/sea_pickle.json
++ reports/minecraft/worldgen/configured_feature/seagrass_mid.json
++ reports/minecraft/worldgen/configured_feature/seagrass_short.json
++ reports/minecraft/worldgen/configured_feature/seagrass_simple.json
++ reports/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
++ reports/minecraft/worldgen/configured_feature/seagrass_tall.json
++ reports/minecraft/worldgen/configured_feature/single_piece_of_grass.json
++ reports/minecraft/worldgen/configured_feature/small_basalt_columns.json
++ reports/minecraft/worldgen/configured_feature/spore_blossom.json
++ reports/minecraft/worldgen/configured_feature/spring_lava_frozen.json
++ reports/minecraft/worldgen/configured_feature/spring_lava_nether.json
++ reports/minecraft/worldgen/configured_feature/spring_lava_overworld.json
++ reports/minecraft/worldgen/configured_feature/spring_nether_closed.json
++ reports/minecraft/worldgen/configured_feature/spring_nether_open.json
++ reports/minecraft/worldgen/configured_feature/spring_water.json
++ reports/minecraft/worldgen/configured_feature/spruce.json
++ reports/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
++ reports/minecraft/worldgen/configured_feature/super_birch_bees.json
++ reports/minecraft/worldgen/configured_feature/swamp_oak.json
++ reports/minecraft/worldgen/configured_feature/tall_mangrove.json
++ reports/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
++ reports/minecraft/worldgen/configured_feature/trees_flower_forest.json
++ reports/minecraft/worldgen/configured_feature/trees_grove.json
++ reports/minecraft/worldgen/configured_feature/trees_jungle.json
++ reports/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
++ reports/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
++ reports/minecraft/worldgen/configured_feature/trees_plains.json
++ reports/minecraft/worldgen/configured_feature/trees_savanna.json
++ reports/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
++ reports/minecraft/worldgen/configured_feature/trees_taiga.json
++ reports/minecraft/worldgen/configured_feature/trees_water.json
++ reports/minecraft/worldgen/configured_feature/trees_windswept_hills.json
++ reports/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
++ reports/minecraft/worldgen/configured_feature/twisting_vines.json
++ reports/minecraft/worldgen/configured_feature/underwater_magma.json
++ reports/minecraft/worldgen/configured_feature/vines.json
++ reports/minecraft/worldgen/configured_feature/void_start_platform.json
++ reports/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
++ reports/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
++ reports/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
++ reports/minecraft/worldgen/configured_feature/warped_fungus_planted.json
++ reports/minecraft/worldgen/configured_feature/warped_fungus.json
++ reports/minecraft/worldgen/configured_feature/weeping_vines.json
++ reports/minecraft/worldgen/density_function/end/base_3d_noise.json
++ reports/minecraft/worldgen/density_function/end/sloped_cheese.json
++ reports/minecraft/worldgen/density_function/nether/base_3d_noise.json
++ reports/minecraft/worldgen/density_function/overworld_amplified/depth.json
++ reports/minecraft/worldgen/density_function/overworld_amplified/factor.json
++ reports/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
++ reports/minecraft/worldgen/density_function/overworld_amplified/offset.json
++ reports/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
++ reports/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
++ reports/minecraft/worldgen/density_function/overworld/base_3d_noise.json
++ reports/minecraft/worldgen/density_function/overworld/caves/entrances.json
++ reports/minecraft/worldgen/density_function/overworld/caves/noodle.json
++ reports/minecraft/worldgen/density_function/overworld/caves/pillars.json
++ reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
++ reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
++ reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
++ reports/minecraft/worldgen/density_function/overworld/continents.json
++ reports/minecraft/worldgen/density_function/overworld/depth.json
++ reports/minecraft/worldgen/density_function/overworld/erosion.json
++ reports/minecraft/worldgen/density_function/overworld/factor.json
++ reports/minecraft/worldgen/density_function/overworld/jaggedness.json
++ reports/minecraft/worldgen/density_function/overworld/offset.json
++ reports/minecraft/worldgen/density_function/overworld/ridges_folded.json
++ reports/minecraft/worldgen/density_function/overworld/ridges.json
++ reports/minecraft/worldgen/density_function/overworld/sloped_cheese.json
++ reports/minecraft/worldgen/density_function/shift_x.json
++ reports/minecraft/worldgen/density_function/shift_z.json
++ reports/minecraft/worldgen/density_function/y.json
++ reports/minecraft/worldgen/density_function/zero.json
++ reports/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
++ reports/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
++ reports/minecraft/worldgen/flat_level_generator_preset/desert.json
++ reports/minecraft/worldgen/flat_level_generator_preset/overworld.json
++ reports/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
++ reports/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
++ reports/minecraft/worldgen/flat_level_generator_preset/the_void.json
++ reports/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
++ reports/minecraft/worldgen/flat_level_generator_preset/water_world.json
++ reports/minecraft/worldgen/noise_settings/amplified.json
++ reports/minecraft/worldgen/noise_settings/caves.json
++ reports/minecraft/worldgen/noise_settings/end.json
++ reports/minecraft/worldgen/noise_settings/floating_islands.json
++ reports/minecraft/worldgen/noise_settings/large_biomes.json
++ reports/minecraft/worldgen/noise_settings/nether.json
++ reports/minecraft/worldgen/noise_settings/overworld.json
++ reports/minecraft/worldgen/noise/aquifer_barrier.json
++ reports/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
++ reports/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
++ reports/minecraft/worldgen/noise/aquifer_lava.json
++ reports/minecraft/worldgen/noise/badlands_pillar_roof.json
++ reports/minecraft/worldgen/noise/badlands_pillar.json
++ reports/minecraft/worldgen/noise/badlands_surface.json
++ reports/minecraft/worldgen/noise/calcite.json
++ reports/minecraft/worldgen/noise/cave_cheese.json
++ reports/minecraft/worldgen/noise/cave_entrance.json
++ reports/minecraft/worldgen/noise/cave_layer.json
++ reports/minecraft/worldgen/noise/clay_bands_offset.json
++ reports/minecraft/worldgen/noise/continentalness_large.json
++ reports/minecraft/worldgen/noise/continentalness.json
++ reports/minecraft/worldgen/noise/erosion_large.json
++ reports/minecraft/worldgen/noise/erosion.json
++ reports/minecraft/worldgen/noise/gravel_layer.json
++ reports/minecraft/worldgen/noise/gravel.json
++ reports/minecraft/worldgen/noise/ice.json
++ reports/minecraft/worldgen/noise/iceberg_pillar_roof.json
++ reports/minecraft/worldgen/noise/iceberg_pillar.json
++ reports/minecraft/worldgen/noise/iceberg_surface.json
++ reports/minecraft/worldgen/noise/jagged.json
++ reports/minecraft/worldgen/noise/nether_state_selector.json
++ reports/minecraft/worldgen/noise/nether_wart.json
++ reports/minecraft/worldgen/noise/netherrack.json
++ reports/minecraft/worldgen/noise/noodle_ridge_a.json
++ reports/minecraft/worldgen/noise/noodle_ridge_b.json
++ reports/minecraft/worldgen/noise/noodle_thickness.json
++ reports/minecraft/worldgen/noise/noodle.json
++ reports/minecraft/worldgen/noise/offset.json
++ reports/minecraft/worldgen/noise/ore_gap.json
++ reports/minecraft/worldgen/noise/ore_vein_a.json
++ reports/minecraft/worldgen/noise/ore_vein_b.json
++ reports/minecraft/worldgen/noise/ore_veininess.json
++ reports/minecraft/worldgen/noise/packed_ice.json
++ reports/minecraft/worldgen/noise/patch.json
++ reports/minecraft/worldgen/noise/pillar_rareness.json
++ reports/minecraft/worldgen/noise/pillar_thickness.json
++ reports/minecraft/worldgen/noise/pillar.json
++ reports/minecraft/worldgen/noise/powder_snow.json
++ reports/minecraft/worldgen/noise/ridge.json
++ reports/minecraft/worldgen/noise/soul_sand_layer.json
++ reports/minecraft/worldgen/noise/spaghetti_2d_elevation.json
++ reports/minecraft/worldgen/noise/spaghetti_2d_modulator.json
++ reports/minecraft/worldgen/noise/spaghetti_2d_thickness.json
++ reports/minecraft/worldgen/noise/spaghetti_2d.json
++ reports/minecraft/worldgen/noise/spaghetti_3d_1.json
++ reports/minecraft/worldgen/noise/spaghetti_3d_2.json
++ reports/minecraft/worldgen/noise/spaghetti_3d_rarity.json
++ reports/minecraft/worldgen/noise/spaghetti_3d_thickness.json
++ reports/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
++ reports/minecraft/worldgen/noise/spaghetti_roughness.json
++ reports/minecraft/worldgen/noise/surface_secondary.json
++ reports/minecraft/worldgen/noise/surface_swamp.json
++ reports/minecraft/worldgen/noise/surface.json
++ reports/minecraft/worldgen/noise/temperature_large.json
++ reports/minecraft/worldgen/noise/temperature.json
++ reports/minecraft/worldgen/noise/vegetation_large.json
++ reports/minecraft/worldgen/noise/vegetation.json
++ reports/minecraft/worldgen/placed_feature/acacia_checked.json
++ reports/minecraft/worldgen/placed_feature/acacia.json
++ reports/minecraft/worldgen/placed_feature/amethyst_geode.json
++ reports/minecraft/worldgen/placed_feature/bamboo_light.json
++ reports/minecraft/worldgen/placed_feature/bamboo_vegetation.json
++ reports/minecraft/worldgen/placed_feature/bamboo.json
++ reports/minecraft/worldgen/placed_feature/basalt_blobs.json
++ reports/minecraft/worldgen/placed_feature/basalt_pillar.json
++ reports/minecraft/worldgen/placed_feature/birch_bees_0002.json
++ reports/minecraft/worldgen/placed_feature/birch_bees_002.json
++ reports/minecraft/worldgen/placed_feature/birch_checked.json
++ reports/minecraft/worldgen/placed_feature/birch_tall.json
++ reports/minecraft/worldgen/placed_feature/blackstone_blobs.json
++ reports/minecraft/worldgen/placed_feature/blue_ice.json
++ reports/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
++ reports/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
++ reports/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
++ reports/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
++ reports/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
++ reports/minecraft/worldgen/placed_feature/cave_vines.json
++ reports/minecraft/worldgen/placed_feature/chorus_plant.json
++ reports/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
++ reports/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
++ reports/minecraft/worldgen/placed_feature/crimson_fungi.json
++ reports/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
++ reports/minecraft/worldgen/placed_feature/dark_oak_checked.json
++ reports/minecraft/worldgen/placed_feature/delta.json
++ reports/minecraft/worldgen/placed_feature/desert_well.json
++ reports/minecraft/worldgen/placed_feature/disk_clay.json
++ reports/minecraft/worldgen/placed_feature/disk_grass.json
++ reports/minecraft/worldgen/placed_feature/disk_gravel.json
++ reports/minecraft/worldgen/placed_feature/disk_sand.json
++ reports/minecraft/worldgen/placed_feature/dripstone_cluster.json
++ reports/minecraft/worldgen/placed_feature/end_gateway_return.json
++ reports/minecraft/worldgen/placed_feature/end_island_decorated.json
++ reports/minecraft/worldgen/placed_feature/end_spike.json
++ reports/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
++ reports/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
++ reports/minecraft/worldgen/placed_feature/fancy_oak_bees.json
++ reports/minecraft/worldgen/placed_feature/fancy_oak_checked.json
++ reports/minecraft/worldgen/placed_feature/flower_default.json
++ reports/minecraft/worldgen/placed_feature/flower_flower_forest.json
++ reports/minecraft/worldgen/placed_feature/flower_forest_flowers.json
++ reports/minecraft/worldgen/placed_feature/flower_meadow.json
++ reports/minecraft/worldgen/placed_feature/flower_plain.json
++ reports/minecraft/worldgen/placed_feature/flower_plains.json
++ reports/minecraft/worldgen/placed_feature/flower_swamp.json
++ reports/minecraft/worldgen/placed_feature/flower_warm.json
++ reports/minecraft/worldgen/placed_feature/forest_flowers.json
++ reports/minecraft/worldgen/placed_feature/forest_rock.json
++ reports/minecraft/worldgen/placed_feature/fossil_lower.json
++ reports/minecraft/worldgen/placed_feature/fossil_upper.json
++ reports/minecraft/worldgen/placed_feature/freeze_top_layer.json
++ reports/minecraft/worldgen/placed_feature/glow_lichen.json
++ reports/minecraft/worldgen/placed_feature/glowstone_extra.json
++ reports/minecraft/worldgen/placed_feature/glowstone.json
++ reports/minecraft/worldgen/placed_feature/grass_bonemeal.json
++ reports/minecraft/worldgen/placed_feature/ice_patch.json
++ reports/minecraft/worldgen/placed_feature/ice_spike.json
++ reports/minecraft/worldgen/placed_feature/iceberg_blue.json
++ reports/minecraft/worldgen/placed_feature/iceberg_packed.json
++ reports/minecraft/worldgen/placed_feature/jungle_bush.json
++ reports/minecraft/worldgen/placed_feature/jungle_tree.json
++ reports/minecraft/worldgen/placed_feature/kelp_cold.json
++ reports/minecraft/worldgen/placed_feature/kelp_warm.json
++ reports/minecraft/worldgen/placed_feature/lake_lava_surface.json
++ reports/minecraft/worldgen/placed_feature/lake_lava_underground.json
++ reports/minecraft/worldgen/placed_feature/large_basalt_columns.json
++ reports/minecraft/worldgen/placed_feature/large_dripstone.json
++ reports/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
++ reports/minecraft/worldgen/placed_feature/lush_caves_clay.json
++ reports/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
++ reports/minecraft/worldgen/placed_feature/mangrove_checked.json
++ reports/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
++ reports/minecraft/worldgen/placed_feature/mega_pine_checked.json
++ reports/minecraft/worldgen/placed_feature/mega_spruce_checked.json
++ reports/minecraft/worldgen/placed_feature/monster_room_deep.json
++ reports/minecraft/worldgen/placed_feature/monster_room.json
++ reports/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
++ reports/minecraft/worldgen/placed_feature/nether_sprouts.json
++ reports/minecraft/worldgen/placed_feature/oak_bees_0002.json
++ reports/minecraft/worldgen/placed_feature/oak_bees_002.json
++ reports/minecraft/worldgen/placed_feature/oak_checked.json
++ reports/minecraft/worldgen/placed_feature/oak.json
++ reports/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
++ reports/minecraft/worldgen/placed_feature/ore_andesite_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_andesite_upper.json
++ reports/minecraft/worldgen/placed_feature/ore_blackstone.json
++ reports/minecraft/worldgen/placed_feature/ore_clay.json
++ reports/minecraft/worldgen/placed_feature/ore_coal_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_coal_upper.json
++ reports/minecraft/worldgen/placed_feature/ore_copper_large.json
++ reports/minecraft/worldgen/placed_feature/ore_copper.json
++ reports/minecraft/worldgen/placed_feature/ore_debris_small.json
++ reports/minecraft/worldgen/placed_feature/ore_diamond_buried.json
++ reports/minecraft/worldgen/placed_feature/ore_diamond_large.json
++ reports/minecraft/worldgen/placed_feature/ore_diamond.json
++ reports/minecraft/worldgen/placed_feature/ore_diorite_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_diorite_upper.json
++ reports/minecraft/worldgen/placed_feature/ore_dirt.json
++ reports/minecraft/worldgen/placed_feature/ore_emerald.json
++ reports/minecraft/worldgen/placed_feature/ore_gold_deltas.json
++ reports/minecraft/worldgen/placed_feature/ore_gold_extra.json
++ reports/minecraft/worldgen/placed_feature/ore_gold_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_gold_nether.json
++ reports/minecraft/worldgen/placed_feature/ore_gold.json
++ reports/minecraft/worldgen/placed_feature/ore_granite_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_granite_upper.json
++ reports/minecraft/worldgen/placed_feature/ore_gravel_nether.json
++ reports/minecraft/worldgen/placed_feature/ore_gravel.json
++ reports/minecraft/worldgen/placed_feature/ore_infested.json
++ reports/minecraft/worldgen/placed_feature/ore_iron_middle.json
++ reports/minecraft/worldgen/placed_feature/ore_iron_small.json
++ reports/minecraft/worldgen/placed_feature/ore_iron_upper.json
++ reports/minecraft/worldgen/placed_feature/ore_lapis_buried.json
++ reports/minecraft/worldgen/placed_feature/ore_lapis.json
++ reports/minecraft/worldgen/placed_feature/ore_magma.json
++ reports/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
++ reports/minecraft/worldgen/placed_feature/ore_quartz_nether.json
++ reports/minecraft/worldgen/placed_feature/ore_redstone_lower.json
++ reports/minecraft/worldgen/placed_feature/ore_redstone.json
++ reports/minecraft/worldgen/placed_feature/ore_soul_sand.json
++ reports/minecraft/worldgen/placed_feature/ore_tuff.json
++ reports/minecraft/worldgen/placed_feature/patch_berry_bush.json
++ reports/minecraft/worldgen/placed_feature/patch_berry_common.json
++ reports/minecraft/worldgen/placed_feature/patch_berry_rare.json
++ reports/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
++ reports/minecraft/worldgen/placed_feature/patch_cactus_desert.json
++ reports/minecraft/worldgen/placed_feature/patch_cactus.json
++ reports/minecraft/worldgen/placed_feature/patch_crimson_roots.json
++ reports/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
++ reports/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
++ reports/minecraft/worldgen/placed_feature/patch_dead_bush.json
++ reports/minecraft/worldgen/placed_feature/patch_fire.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_badlands.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_forest.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_jungle.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_normal.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_plain.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_savanna.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
++ reports/minecraft/worldgen/placed_feature/patch_grass_taiga.json
++ reports/minecraft/worldgen/placed_feature/patch_large_fern.json
++ reports/minecraft/worldgen/placed_feature/patch_melon_sparse.json
++ reports/minecraft/worldgen/placed_feature/patch_melon.json
++ reports/minecraft/worldgen/placed_feature/patch_pumpkin.json
++ reports/minecraft/worldgen/placed_feature/patch_soul_fire.json
++ reports/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
++ reports/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
++ reports/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
++ reports/minecraft/worldgen/placed_feature/patch_sugar_cane.json
++ reports/minecraft/worldgen/placed_feature/patch_sunflower.json
++ reports/minecraft/worldgen/placed_feature/patch_taiga_grass.json
++ reports/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
++ reports/minecraft/worldgen/placed_feature/patch_tall_grass.json
++ reports/minecraft/worldgen/placed_feature/patch_waterlily.json
++ reports/minecraft/worldgen/placed_feature/pile_hay.json
++ reports/minecraft/worldgen/placed_feature/pile_ice.json
++ reports/minecraft/worldgen/placed_feature/pile_melon.json
++ reports/minecraft/worldgen/placed_feature/pile_pumpkin.json
++ reports/minecraft/worldgen/placed_feature/pile_snow.json
++ reports/minecraft/worldgen/placed_feature/pine_checked.json
++ reports/minecraft/worldgen/placed_feature/pine_on_snow.json
++ reports/minecraft/worldgen/placed_feature/pine.json
++ reports/minecraft/worldgen/placed_feature/pointed_dripstone.json
++ reports/minecraft/worldgen/placed_feature/red_mushroom_nether.json
++ reports/minecraft/worldgen/placed_feature/red_mushroom_normal.json
++ reports/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
++ reports/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
++ reports/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
++ reports/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
++ reports/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
++ reports/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
++ reports/minecraft/worldgen/placed_feature/sculk_vein.json
++ reports/minecraft/worldgen/placed_feature/sea_pickle.json
++ reports/minecraft/worldgen/placed_feature/seagrass_cold.json
++ reports/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
++ reports/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
++ reports/minecraft/worldgen/placed_feature/seagrass_deep.json
++ reports/minecraft/worldgen/placed_feature/seagrass_normal.json
++ reports/minecraft/worldgen/placed_feature/seagrass_river.json
++ reports/minecraft/worldgen/placed_feature/seagrass_simple.json
++ reports/minecraft/worldgen/placed_feature/seagrass_swamp.json
++ reports/minecraft/worldgen/placed_feature/seagrass_warm.json
++ reports/minecraft/worldgen/placed_feature/small_basalt_columns.json
++ reports/minecraft/worldgen/placed_feature/spore_blossom.json
++ reports/minecraft/worldgen/placed_feature/spring_closed_double.json
++ reports/minecraft/worldgen/placed_feature/spring_closed.json
++ reports/minecraft/worldgen/placed_feature/spring_delta.json
++ reports/minecraft/worldgen/placed_feature/spring_lava_frozen.json
++ reports/minecraft/worldgen/placed_feature/spring_lava.json
++ reports/minecraft/worldgen/placed_feature/spring_open.json
++ reports/minecraft/worldgen/placed_feature/spring_water.json
++ reports/minecraft/worldgen/placed_feature/spruce_checked.json
++ reports/minecraft/worldgen/placed_feature/spruce_on_snow.json
++ reports/minecraft/worldgen/placed_feature/spruce.json
++ reports/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
++ reports/minecraft/worldgen/placed_feature/super_birch_bees.json
++ reports/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
++ reports/minecraft/worldgen/placed_feature/trees_badlands.json
++ reports/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
++ reports/minecraft/worldgen/placed_feature/trees_birch.json
++ reports/minecraft/worldgen/placed_feature/trees_flower_forest.json
++ reports/minecraft/worldgen/placed_feature/trees_grove.json
++ reports/minecraft/worldgen/placed_feature/trees_jungle.json
++ reports/minecraft/worldgen/placed_feature/trees_mangrove.json
++ reports/minecraft/worldgen/placed_feature/trees_meadow.json
++ reports/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
++ reports/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
++ reports/minecraft/worldgen/placed_feature/trees_plains.json
++ reports/minecraft/worldgen/placed_feature/trees_savanna.json
++ reports/minecraft/worldgen/placed_feature/trees_snowy.json
++ reports/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
++ reports/minecraft/worldgen/placed_feature/trees_swamp.json
++ reports/minecraft/worldgen/placed_feature/trees_taiga.json
++ reports/minecraft/worldgen/placed_feature/trees_water.json
++ reports/minecraft/worldgen/placed_feature/trees_windswept_forest.json
++ reports/minecraft/worldgen/placed_feature/trees_windswept_hills.json
++ reports/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
++ reports/minecraft/worldgen/placed_feature/twisting_vines.json
++ reports/minecraft/worldgen/placed_feature/underwater_magma.json
++ reports/minecraft/worldgen/placed_feature/vines.json
++ reports/minecraft/worldgen/placed_feature/void_start_platform.json
++ reports/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
++ reports/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
++ reports/minecraft/worldgen/placed_feature/warped_fungi.json
++ reports/minecraft/worldgen/placed_feature/weeping_vines.json
++ reports/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
++ reports/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
++ reports/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
++ reports/minecraft/worldgen/processor_list/bastion_generic_degradation.json
++ reports/minecraft/worldgen/processor_list/bottom_rampart.json
++ reports/minecraft/worldgen/processor_list/bridge.json
++ reports/minecraft/worldgen/processor_list/empty.json
++ reports/minecraft/worldgen/processor_list/entrance_replacement.json
++ reports/minecraft/worldgen/processor_list/farm_desert.json
++ reports/minecraft/worldgen/processor_list/farm_plains.json
++ reports/minecraft/worldgen/processor_list/farm_savanna.json
++ reports/minecraft/worldgen/processor_list/farm_snowy.json
++ reports/minecraft/worldgen/processor_list/farm_taiga.json
++ reports/minecraft/worldgen/processor_list/fossil_coal.json
++ reports/minecraft/worldgen/processor_list/fossil_diamonds.json
++ reports/minecraft/worldgen/processor_list/fossil_rot.json
++ reports/minecraft/worldgen/processor_list/high_rampart.json
++ reports/minecraft/worldgen/processor_list/high_wall.json
++ reports/minecraft/worldgen/processor_list/housing.json
++ reports/minecraft/worldgen/processor_list/mossify_10_percent.json
++ reports/minecraft/worldgen/processor_list/mossify_20_percent.json
++ reports/minecraft/worldgen/processor_list/mossify_70_percent.json
++ reports/minecraft/worldgen/processor_list/outpost_rot.json
++ reports/minecraft/worldgen/processor_list/rampart_degradation.json
++ reports/minecraft/worldgen/processor_list/roof.json
++ reports/minecraft/worldgen/processor_list/side_wall_degradation.json
++ reports/minecraft/worldgen/processor_list/stable_degradation.json
++ reports/minecraft/worldgen/processor_list/street_plains.json
++ reports/minecraft/worldgen/processor_list/street_savanna.json
++ reports/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
++ reports/minecraft/worldgen/processor_list/treasure_rooms.json
++ reports/minecraft/worldgen/processor_list/zombie_desert.json
++ reports/minecraft/worldgen/processor_list/zombie_plains.json
++ reports/minecraft/worldgen/processor_list/zombie_savanna.json
++ reports/minecraft/worldgen/processor_list/zombie_snowy.json
++ reports/minecraft/worldgen/processor_list/zombie_taiga.json
++ reports/minecraft/worldgen/structure_set/ancient_cities.json
++ reports/minecraft/worldgen/structure_set/buried_treasures.json
++ reports/minecraft/worldgen/structure_set/desert_pyramids.json
++ reports/minecraft/worldgen/structure_set/end_cities.json
++ reports/minecraft/worldgen/structure_set/igloos.json
++ reports/minecraft/worldgen/structure_set/jungle_temples.json
++ reports/minecraft/worldgen/structure_set/mineshafts.json
++ reports/minecraft/worldgen/structure_set/nether_complexes.json
++ reports/minecraft/worldgen/structure_set/nether_fossils.json
++ reports/minecraft/worldgen/structure_set/ocean_monuments.json
++ reports/minecraft/worldgen/structure_set/ocean_ruins.json
++ reports/minecraft/worldgen/structure_set/pillager_outposts.json
++ reports/minecraft/worldgen/structure_set/ruined_portals.json
++ reports/minecraft/worldgen/structure_set/shipwrecks.json
++ reports/minecraft/worldgen/structure_set/strongholds.json
++ reports/minecraft/worldgen/structure_set/swamp_huts.json
++ reports/minecraft/worldgen/structure_set/villages.json
++ reports/minecraft/worldgen/structure_set/woodland_mansions.json
++ reports/minecraft/worldgen/structure/ancient_city.json
++ reports/minecraft/worldgen/structure/bastion_remnant.json
++ reports/minecraft/worldgen/structure/buried_treasure.json
++ reports/minecraft/worldgen/structure/desert_pyramid.json
++ reports/minecraft/worldgen/structure/end_city.json
++ reports/minecraft/worldgen/structure/fortress.json
++ reports/minecraft/worldgen/structure/igloo.json
++ reports/minecraft/worldgen/structure/jungle_pyramid.json
++ reports/minecraft/worldgen/structure/mansion.json
++ reports/minecraft/worldgen/structure/mineshaft_mesa.json
++ reports/minecraft/worldgen/structure/mineshaft.json
++ reports/minecraft/worldgen/structure/monument.json
++ reports/minecraft/worldgen/structure/nether_fossil.json
++ reports/minecraft/worldgen/structure/ocean_ruin_cold.json
++ reports/minecraft/worldgen/structure/ocean_ruin_warm.json
++ reports/minecraft/worldgen/structure/pillager_outpost.json
++ reports/minecraft/worldgen/structure/ruined_portal_desert.json
++ reports/minecraft/worldgen/structure/ruined_portal_jungle.json
++ reports/minecraft/worldgen/structure/ruined_portal_mountain.json
++ reports/minecraft/worldgen/structure/ruined_portal_nether.json
++ reports/minecraft/worldgen/structure/ruined_portal_ocean.json
++ reports/minecraft/worldgen/structure/ruined_portal_swamp.json
++ reports/minecraft/worldgen/structure/ruined_portal.json
++ reports/minecraft/worldgen/structure/shipwreck_beached.json
++ reports/minecraft/worldgen/structure/shipwreck.json
++ reports/minecraft/worldgen/structure/stronghold.json
++ reports/minecraft/worldgen/structure/swamp_hut.json
++ reports/minecraft/worldgen/structure/village_desert.json
++ reports/minecraft/worldgen/structure/village_plains.json
++ reports/minecraft/worldgen/structure/village_savanna.json
++ reports/minecraft/worldgen/structure/village_snowy.json
++ reports/minecraft/worldgen/structure/village_taiga.json
++ reports/minecraft/worldgen/template_pool/ancient_city/city_center.json
++ reports/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
++ reports/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
++ reports/minecraft/worldgen/template_pool/ancient_city/sculk.json
++ reports/minecraft/worldgen/template_pool/ancient_city/structures.json
++ reports/minecraft/worldgen/template_pool/ancient_city/walls.json
++ reports/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
++ reports/minecraft/worldgen/template_pool/bastion/blocks/gold.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/legs.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
++ reports/minecraft/worldgen/template_pool/bastion/bridge/walls.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
++ reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
++ reports/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
++ reports/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
++ reports/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
++ reports/minecraft/worldgen/template_pool/bastion/starts.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/bases.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/brains.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/walls.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
++ reports/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
++ reports/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
++ reports/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
++ reports/minecraft/worldgen/template_pool/bastion/units/edges.json
++ reports/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
++ reports/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
++ reports/minecraft/worldgen/template_pool/bastion/units/pathways.json
++ reports/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
++ reports/minecraft/worldgen/template_pool/bastion/units/ramparts.json
++ reports/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
++ reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
++ reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
++ reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
++ reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
++ reports/minecraft/worldgen/template_pool/bastion/units/wall_units.json
++ reports/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
++ reports/minecraft/worldgen/template_pool/empty.json
++ reports/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
++ reports/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
++ reports/minecraft/worldgen/template_pool/pillager_outpost/features.json
++ reports/minecraft/worldgen/template_pool/pillager_outpost/towers.json
++ reports/minecraft/worldgen/template_pool/village/common/animals.json
++ reports/minecraft/worldgen/template_pool/village/common/butcher_animals.json
++ reports/minecraft/worldgen/template_pool/village/common/cats.json
++ reports/minecraft/worldgen/template_pool/village/common/iron_golem.json
++ reports/minecraft/worldgen/template_pool/village/common/sheep.json
++ reports/minecraft/worldgen/template_pool/village/common/well_bottoms.json
++ reports/minecraft/worldgen/template_pool/village/desert/decor.json
++ reports/minecraft/worldgen/template_pool/village/desert/houses.json
++ reports/minecraft/worldgen/template_pool/village/desert/streets.json
++ reports/minecraft/worldgen/template_pool/village/desert/terminators.json
++ reports/minecraft/worldgen/template_pool/village/desert/town_centers.json
++ reports/minecraft/worldgen/template_pool/village/desert/villagers.json
++ reports/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
++ reports/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
++ reports/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
++ reports/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
++ reports/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
++ reports/minecraft/worldgen/template_pool/village/plains/decor.json
++ reports/minecraft/worldgen/template_pool/village/plains/houses.json
++ reports/minecraft/worldgen/template_pool/village/plains/streets.json
++ reports/minecraft/worldgen/template_pool/village/plains/terminators.json
++ reports/minecraft/worldgen/template_pool/village/plains/town_centers.json
++ reports/minecraft/worldgen/template_pool/village/plains/trees.json
++ reports/minecraft/worldgen/template_pool/village/plains/villagers.json
++ reports/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
++ reports/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
++ reports/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
++ reports/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
++ reports/minecraft/worldgen/template_pool/village/savanna/decor.json
++ reports/minecraft/worldgen/template_pool/village/savanna/houses.json
++ reports/minecraft/worldgen/template_pool/village/savanna/streets.json
++ reports/minecraft/worldgen/template_pool/village/savanna/terminators.json
++ reports/minecraft/worldgen/template_pool/village/savanna/town_centers.json
++ reports/minecraft/worldgen/template_pool/village/savanna/trees.json
++ reports/minecraft/worldgen/template_pool/village/savanna/villagers.json
++ reports/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
++ reports/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
++ reports/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
++ reports/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
++ reports/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
++ reports/minecraft/worldgen/template_pool/village/snowy/decor.json
++ reports/minecraft/worldgen/template_pool/village/snowy/houses.json
++ reports/minecraft/worldgen/template_pool/village/snowy/streets.json
++ reports/minecraft/worldgen/template_pool/village/snowy/terminators.json
++ reports/minecraft/worldgen/template_pool/village/snowy/town_centers.json
++ reports/minecraft/worldgen/template_pool/village/snowy/trees.json
++ reports/minecraft/worldgen/template_pool/village/snowy/villagers.json
++ reports/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
++ reports/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
++ reports/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
++ reports/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
++ reports/minecraft/worldgen/template_pool/village/taiga/decor.json
++ reports/minecraft/worldgen/template_pool/village/taiga/houses.json
++ reports/minecraft/worldgen/template_pool/village/taiga/streets.json
++ reports/minecraft/worldgen/template_pool/village/taiga/terminators.json
++ reports/minecraft/worldgen/template_pool/village/taiga/town_centers.json
++ reports/minecraft/worldgen/template_pool/village/taiga/villagers.json
++ reports/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
++ reports/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
++ reports/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
++ reports/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
++ reports/minecraft/worldgen/world_preset/amplified.json
++ reports/minecraft/worldgen/world_preset/debug_all_block_states.json
++ reports/minecraft/worldgen/world_preset/flat.json
++ reports/minecraft/worldgen/world_preset/large_biomes.json
++ reports/minecraft/worldgen/world_preset/normal.json
++ reports/minecraft/worldgen/world_preset/single_biome_surface.json
+- reports/worldgen/minecraft/chat_type/chat.json
+- reports/worldgen/minecraft/chat_type/emote_command.json
+- reports/worldgen/minecraft/chat_type/game_info.json
+- reports/worldgen/minecraft/chat_type/msg_command.json
+- reports/worldgen/minecraft/chat_type/say_command.json
+- reports/worldgen/minecraft/chat_type/system.json
+- reports/worldgen/minecraft/chat_type/team_msg_command.json
+- reports/worldgen/minecraft/chat_type/tellraw_command.json
+- reports/worldgen/minecraft/dimension_type/overworld_caves.json
+- reports/worldgen/minecraft/dimension_type/overworld.json
+- reports/worldgen/minecraft/dimension_type/the_end.json
+- reports/worldgen/minecraft/dimension_type/the_nether.json
+- reports/worldgen/minecraft/worldgen/biome/badlands.json
+- reports/worldgen/minecraft/worldgen/biome/bamboo_jungle.json
+- reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json
+- reports/worldgen/minecraft/worldgen/biome/beach.json
+- reports/worldgen/minecraft/worldgen/biome/birch_forest.json
+- reports/worldgen/minecraft/worldgen/biome/cold_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/crimson_forest.json
+- reports/worldgen/minecraft/worldgen/biome/dark_forest.json
+- reports/worldgen/minecraft/worldgen/biome/deep_cold_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/deep_dark.json
+- reports/worldgen/minecraft/worldgen/biome/deep_frozen_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/deep_lukewarm_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/deep_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/desert.json
+- reports/worldgen/minecraft/worldgen/biome/dripstone_caves.json
+- reports/worldgen/minecraft/worldgen/biome/end_barrens.json
+- reports/worldgen/minecraft/worldgen/biome/end_highlands.json
+- reports/worldgen/minecraft/worldgen/biome/end_midlands.json
+- reports/worldgen/minecraft/worldgen/biome/eroded_badlands.json
+- reports/worldgen/minecraft/worldgen/biome/flower_forest.json
+- reports/worldgen/minecraft/worldgen/biome/forest.json
+- reports/worldgen/minecraft/worldgen/biome/frozen_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/frozen_peaks.json
+- reports/worldgen/minecraft/worldgen/biome/frozen_river.json
+- reports/worldgen/minecraft/worldgen/biome/grove.json
+- reports/worldgen/minecraft/worldgen/biome/ice_spikes.json
+- reports/worldgen/minecraft/worldgen/biome/jagged_peaks.json
+- reports/worldgen/minecraft/worldgen/biome/jungle.json
+- reports/worldgen/minecraft/worldgen/biome/lukewarm_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/lush_caves.json
+- reports/worldgen/minecraft/worldgen/biome/mangrove_swamp.json
+- reports/worldgen/minecraft/worldgen/biome/meadow.json
+- reports/worldgen/minecraft/worldgen/biome/mushroom_fields.json
+- reports/worldgen/minecraft/worldgen/biome/nether_wastes.json
+- reports/worldgen/minecraft/worldgen/biome/ocean.json
+- reports/worldgen/minecraft/worldgen/biome/old_growth_birch_forest.json
+- reports/worldgen/minecraft/worldgen/biome/old_growth_pine_taiga.json
+- reports/worldgen/minecraft/worldgen/biome/old_growth_spruce_taiga.json
+- reports/worldgen/minecraft/worldgen/biome/plains.json
+- reports/worldgen/minecraft/worldgen/biome/river.json
+- reports/worldgen/minecraft/worldgen/biome/savanna_plateau.json
+- reports/worldgen/minecraft/worldgen/biome/savanna.json
+- reports/worldgen/minecraft/worldgen/biome/small_end_islands.json
+- reports/worldgen/minecraft/worldgen/biome/snowy_beach.json
+- reports/worldgen/minecraft/worldgen/biome/snowy_plains.json
+- reports/worldgen/minecraft/worldgen/biome/snowy_slopes.json
+- reports/worldgen/minecraft/worldgen/biome/snowy_taiga.json
+- reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json
+- reports/worldgen/minecraft/worldgen/biome/sparse_jungle.json
+- reports/worldgen/minecraft/worldgen/biome/stony_peaks.json
+- reports/worldgen/minecraft/worldgen/biome/stony_shore.json
+- reports/worldgen/minecraft/worldgen/biome/sunflower_plains.json
+- reports/worldgen/minecraft/worldgen/biome/swamp.json
+- reports/worldgen/minecraft/worldgen/biome/taiga.json
+- reports/worldgen/minecraft/worldgen/biome/the_end.json
+- reports/worldgen/minecraft/worldgen/biome/the_void.json
+- reports/worldgen/minecraft/worldgen/biome/warm_ocean.json
+- reports/worldgen/minecraft/worldgen/biome/warped_forest.json
+- reports/worldgen/minecraft/worldgen/biome/windswept_forest.json
+- reports/worldgen/minecraft/worldgen/biome/windswept_gravelly_hills.json
+- reports/worldgen/minecraft/worldgen/biome/windswept_hills.json
+- reports/worldgen/minecraft/worldgen/biome/windswept_savanna.json
+- reports/worldgen/minecraft/worldgen/biome/wooded_badlands.json
+- reports/worldgen/minecraft/worldgen/configured_carver/canyon.json
+- reports/worldgen/minecraft/worldgen/configured_carver/cave_extra_underground.json
+- reports/worldgen/minecraft/worldgen/configured_carver/cave.json
+- reports/worldgen/minecraft/worldgen/configured_carver/nether_cave.json
+- reports/worldgen/minecraft/worldgen/configured_feature/acacia.json
+- reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json
+- reports/worldgen/minecraft/worldgen/configured_feature/azalea_tree.json
+- reports/worldgen/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
+- reports/worldgen/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
+- reports/worldgen/minecraft/worldgen/configured_feature/bamboo_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/basalt_blobs.json
+- reports/worldgen/minecraft/worldgen/configured_feature/basalt_pillar.json
+- reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_0002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/birch_bees_005.json
+- reports/worldgen/minecraft/worldgen/configured_feature/birch_tall.json
+- reports/worldgen/minecraft/worldgen/configured_feature/birch.json
+- reports/worldgen/minecraft/worldgen/configured_feature/blackstone_blobs.json
+- reports/worldgen/minecraft/worldgen/configured_feature/blue_ice.json
+- reports/worldgen/minecraft/worldgen/configured_feature/bonus_chest.json
+- reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
+- reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json
+- reports/worldgen/minecraft/worldgen/configured_feature/chorus_plant.json
+- reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
+- reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
+- reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
+- reports/worldgen/minecraft/worldgen/configured_feature/crimson_fungus.json
+- reports/worldgen/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/dark_oak.json
+- reports/worldgen/minecraft/worldgen/configured_feature/delta.json
+- reports/worldgen/minecraft/worldgen/configured_feature/desert_well.json
+- reports/worldgen/minecraft/worldgen/configured_feature/disk_clay.json
+- reports/worldgen/minecraft/worldgen/configured_feature/disk_grass.json
+- reports/worldgen/minecraft/worldgen/configured_feature/disk_gravel.json
+- reports/worldgen/minecraft/worldgen/configured_feature/disk_sand.json
+- reports/worldgen/minecraft/worldgen/configured_feature/dripleaf.json
+- reports/worldgen/minecraft/worldgen/configured_feature/dripstone_cluster.json
+- reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_delayed.json
+- reports/worldgen/minecraft/worldgen/configured_feature/end_gateway_return.json
+- reports/worldgen/minecraft/worldgen/configured_feature/end_island.json
+- reports/worldgen/minecraft/worldgen/configured_feature/end_spike.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak_bees.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fancy_oak.json
+- reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json
+- reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json
+- reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json
+- reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json
+- reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json
+- reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json
+- reports/worldgen/minecraft/worldgen/configured_feature/forest_rock.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fossil_coal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/fossil_diamonds.json
+- reports/worldgen/minecraft/worldgen/configured_feature/freeze_top_layer.json
+- reports/worldgen/minecraft/worldgen/configured_feature/glow_lichen.json
+- reports/worldgen/minecraft/worldgen/configured_feature/glowstone_extra.json
+- reports/worldgen/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
+- reports/worldgen/minecraft/worldgen/configured_feature/huge_red_mushroom.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ice_patch.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ice_spike.json
+- reports/worldgen/minecraft/worldgen/configured_feature/iceberg_blue.json
+- reports/worldgen/minecraft/worldgen/configured_feature/iceberg_packed.json
+- reports/worldgen/minecraft/worldgen/configured_feature/jungle_bush.json
+- reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
+- reports/worldgen/minecraft/worldgen/configured_feature/jungle_tree.json
+- reports/worldgen/minecraft/worldgen/configured_feature/kelp.json
+- reports/worldgen/minecraft/worldgen/configured_feature/lake_lava.json
+- reports/worldgen/minecraft/worldgen/configured_feature/large_basalt_columns.json
+- reports/worldgen/minecraft/worldgen/configured_feature/large_dripstone.json
+- reports/worldgen/minecraft/worldgen/configured_feature/lush_caves_clay.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mangrove_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mangrove.json
+- reports/worldgen/minecraft/worldgen/configured_feature/meadow_trees.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mega_jungle_tree.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mega_pine.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mega_spruce.json
+- reports/worldgen/minecraft/worldgen/configured_feature/monster_room.json
+- reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
+- reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json
+- reports/worldgen/minecraft/worldgen/configured_feature/moss_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/nether_sprouts.json
+- reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_0002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/oak_bees_005.json
+- reports/worldgen/minecraft/worldgen/configured_feature/oak.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_andesite.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_blackstone.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_clay.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_coal_buried.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_coal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_large.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_copper_small.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_buried.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_large.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_diamond_small.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_diorite.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_dirt.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_emerald.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_gold_buried.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_gold.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_granite.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel_nether.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_gravel.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_infested.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_iron_small.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_iron.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis_buried.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_lapis.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_magma.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_nether_gold.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_quartz.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_redstone.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_soul_sand.json
+- reports/worldgen/minecraft/worldgen/configured_feature/ore_tuff.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json
+- reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pile_hay.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pile_ice.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pile_melon.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pile_pumpkin.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pile_snow.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pine.json
+- reports/worldgen/minecraft/worldgen/configured_feature/pointed_dripstone.json
+- reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
+- reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
+- reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
+- reports/worldgen/minecraft/worldgen/configured_feature/sculk_vein.json
+- reports/worldgen/minecraft/worldgen/configured_feature/sea_pickle.json
+- reports/worldgen/minecraft/worldgen/configured_feature/seagrass_mid.json
+- reports/worldgen/minecraft/worldgen/configured_feature/seagrass_short.json
+- reports/worldgen/minecraft/worldgen/configured_feature/seagrass_simple.json
+- reports/worldgen/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
+- reports/worldgen/minecraft/worldgen/configured_feature/seagrass_tall.json
+- reports/worldgen/minecraft/worldgen/configured_feature/single_piece_of_grass.json
+- reports/worldgen/minecraft/worldgen/configured_feature/small_basalt_columns.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spore_blossom.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_frozen.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_nether.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_lava_overworld.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spring_water.json
+- reports/worldgen/minecraft/worldgen/configured_feature/spruce.json
+- reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
+- reports/worldgen/minecraft/worldgen/configured_feature/super_birch_bees.json
+- reports/worldgen/minecraft/worldgen/configured_feature/swamp_oak.json
+- reports/worldgen/minecraft/worldgen/configured_feature/tall_mangrove.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_flower_forest.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_grove.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_jungle.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_plains.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_savanna.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_taiga.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_water.json
+- reports/worldgen/minecraft/worldgen/configured_feature/trees_windswept_hills.json
+- reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/twisting_vines.json
+- reports/worldgen/minecraft/worldgen/configured_feature/underwater_magma.json
+- reports/worldgen/minecraft/worldgen/configured_feature/vines.json
+- reports/worldgen/minecraft/worldgen/configured_feature/void_start_platform.json
+- reports/worldgen/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
+- reports/worldgen/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus_planted.json
+- reports/worldgen/minecraft/worldgen/configured_feature/warped_fungus.json
+- reports/worldgen/minecraft/worldgen/configured_feature/weeping_vines.json
+- reports/worldgen/minecraft/worldgen/density_function/end/base_3d_noise.json
+- reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json
+- reports/worldgen/minecraft/worldgen/density_function/nether/base_3d_noise.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/depth.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/factor.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/offset.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/jaggedness.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/offset.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/ridges_folded.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json
+- reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json
+- reports/worldgen/minecraft/worldgen/density_function/shift_x.json
+- reports/worldgen/minecraft/worldgen/density_function/shift_z.json
+- reports/worldgen/minecraft/worldgen/density_function/y.json
+- reports/worldgen/minecraft/worldgen/density_function/zero.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/desert.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/overworld.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/the_void.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
+- reports/worldgen/minecraft/worldgen/flat_level_generator_preset/water_world.json
+- reports/worldgen/minecraft/worldgen/noise_settings/amplified.json
+- reports/worldgen/minecraft/worldgen/noise_settings/caves.json
+- reports/worldgen/minecraft/worldgen/noise_settings/end.json
+- reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json
+- reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json
+- reports/worldgen/minecraft/worldgen/noise_settings/nether.json
+- reports/worldgen/minecraft/worldgen/noise_settings/overworld.json
+- reports/worldgen/minecraft/worldgen/noise/aquifer_barrier.json
+- reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
+- reports/worldgen/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
+- reports/worldgen/minecraft/worldgen/noise/aquifer_lava.json
+- reports/worldgen/minecraft/worldgen/noise/badlands_pillar_roof.json
+- reports/worldgen/minecraft/worldgen/noise/badlands_pillar.json
+- reports/worldgen/minecraft/worldgen/noise/badlands_surface.json
+- reports/worldgen/minecraft/worldgen/noise/calcite.json
+- reports/worldgen/minecraft/worldgen/noise/cave_cheese.json
+- reports/worldgen/minecraft/worldgen/noise/cave_entrance.json
+- reports/worldgen/minecraft/worldgen/noise/cave_layer.json
+- reports/worldgen/minecraft/worldgen/noise/clay_bands_offset.json
+- reports/worldgen/minecraft/worldgen/noise/continentalness_large.json
+- reports/worldgen/minecraft/worldgen/noise/continentalness.json
+- reports/worldgen/minecraft/worldgen/noise/erosion_large.json
+- reports/worldgen/minecraft/worldgen/noise/erosion.json
+- reports/worldgen/minecraft/worldgen/noise/gravel_layer.json
+- reports/worldgen/minecraft/worldgen/noise/gravel.json
+- reports/worldgen/minecraft/worldgen/noise/ice.json
+- reports/worldgen/minecraft/worldgen/noise/iceberg_pillar_roof.json
+- reports/worldgen/minecraft/worldgen/noise/iceberg_pillar.json
+- reports/worldgen/minecraft/worldgen/noise/iceberg_surface.json
+- reports/worldgen/minecraft/worldgen/noise/jagged.json
+- reports/worldgen/minecraft/worldgen/noise/nether_state_selector.json
+- reports/worldgen/minecraft/worldgen/noise/nether_wart.json
+- reports/worldgen/minecraft/worldgen/noise/netherrack.json
+- reports/worldgen/minecraft/worldgen/noise/noodle_ridge_a.json
+- reports/worldgen/minecraft/worldgen/noise/noodle_ridge_b.json
+- reports/worldgen/minecraft/worldgen/noise/noodle_thickness.json
+- reports/worldgen/minecraft/worldgen/noise/noodle.json
+- reports/worldgen/minecraft/worldgen/noise/offset.json
+- reports/worldgen/minecraft/worldgen/noise/ore_gap.json
+- reports/worldgen/minecraft/worldgen/noise/ore_vein_a.json
+- reports/worldgen/minecraft/worldgen/noise/ore_vein_b.json
+- reports/worldgen/minecraft/worldgen/noise/ore_veininess.json
+- reports/worldgen/minecraft/worldgen/noise/packed_ice.json
+- reports/worldgen/minecraft/worldgen/noise/patch.json
+- reports/worldgen/minecraft/worldgen/noise/pillar_rareness.json
+- reports/worldgen/minecraft/worldgen/noise/pillar_thickness.json
+- reports/worldgen/minecraft/worldgen/noise/pillar.json
+- reports/worldgen/minecraft/worldgen/noise/powder_snow.json
+- reports/worldgen/minecraft/worldgen/noise/ridge.json
+- reports/worldgen/minecraft/worldgen/noise/soul_sand_layer.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_elevation.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_modulator.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_2d_thickness.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_2d.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_1.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_2.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_rarity.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_3d_thickness.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
+- reports/worldgen/minecraft/worldgen/noise/spaghetti_roughness.json
+- reports/worldgen/minecraft/worldgen/noise/surface_secondary.json
+- reports/worldgen/minecraft/worldgen/noise/surface_swamp.json
+- reports/worldgen/minecraft/worldgen/noise/surface.json
+- reports/worldgen/minecraft/worldgen/noise/temperature_large.json
+- reports/worldgen/minecraft/worldgen/noise/temperature.json
+- reports/worldgen/minecraft/worldgen/noise/vegetation_large.json
+- reports/worldgen/minecraft/worldgen/noise/vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/acacia_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/acacia.json
+- reports/worldgen/minecraft/worldgen/placed_feature/amethyst_geode.json
+- reports/worldgen/minecraft/worldgen/placed_feature/bamboo_light.json
+- reports/worldgen/minecraft/worldgen/placed_feature/bamboo_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/bamboo.json
+- reports/worldgen/minecraft/worldgen/placed_feature/basalt_blobs.json
+- reports/worldgen/minecraft/worldgen/placed_feature/basalt_pillar.json
+- reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_0002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/birch_bees_002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/birch_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/birch_tall.json
+- reports/worldgen/minecraft/worldgen/placed_feature/blackstone_blobs.json
+- reports/worldgen/minecraft/worldgen/placed_feature/blue_ice.json
+- reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
+- reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
+- reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
+- reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json
+- reports/worldgen/minecraft/worldgen/placed_feature/chorus_plant.json
+- reports/worldgen/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
+- reports/worldgen/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/crimson_fungi.json
+- reports/worldgen/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/dark_oak_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/delta.json
+- reports/worldgen/minecraft/worldgen/placed_feature/desert_well.json
+- reports/worldgen/minecraft/worldgen/placed_feature/disk_clay.json
+- reports/worldgen/minecraft/worldgen/placed_feature/disk_grass.json
+- reports/worldgen/minecraft/worldgen/placed_feature/disk_gravel.json
+- reports/worldgen/minecraft/worldgen/placed_feature/disk_sand.json
+- reports/worldgen/minecraft/worldgen/placed_feature/dripstone_cluster.json
+- reports/worldgen/minecraft/worldgen/placed_feature/end_gateway_return.json
+- reports/worldgen/minecraft/worldgen/placed_feature/end_island_decorated.json
+- reports/worldgen/minecraft/worldgen/placed_feature/end_spike.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_bees.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fancy_oak_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_default.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_flower_forest.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_forest_flowers.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_meadow.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_plain.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_plains.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/flower_warm.json
+- reports/worldgen/minecraft/worldgen/placed_feature/forest_flowers.json
+- reports/worldgen/minecraft/worldgen/placed_feature/forest_rock.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fossil_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/fossil_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/freeze_top_layer.json
+- reports/worldgen/minecraft/worldgen/placed_feature/glow_lichen.json
+- reports/worldgen/minecraft/worldgen/placed_feature/glowstone_extra.json
+- reports/worldgen/minecraft/worldgen/placed_feature/glowstone.json
+- reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ice_patch.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ice_spike.json
+- reports/worldgen/minecraft/worldgen/placed_feature/iceberg_blue.json
+- reports/worldgen/minecraft/worldgen/placed_feature/iceberg_packed.json
+- reports/worldgen/minecraft/worldgen/placed_feature/jungle_bush.json
+- reports/worldgen/minecraft/worldgen/placed_feature/jungle_tree.json
+- reports/worldgen/minecraft/worldgen/placed_feature/kelp_cold.json
+- reports/worldgen/minecraft/worldgen/placed_feature/kelp_warm.json
+- reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_surface.json
+- reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json
+- reports/worldgen/minecraft/worldgen/placed_feature/large_basalt_columns.json
+- reports/worldgen/minecraft/worldgen/placed_feature/large_dripstone.json
+- reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json
+- reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/mangrove_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/mega_pine_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/mega_spruce_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/monster_room_deep.json
+- reports/worldgen/minecraft/worldgen/placed_feature/monster_room.json
+- reports/worldgen/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/nether_sprouts.json
+- reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_0002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/oak_bees_002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/oak_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/oak.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_andesite_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_blackstone.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_clay.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_coal_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_copper_large.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_copper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_debris_small.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_buried.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond_large.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_diamond.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_diorite_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_dirt.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_emerald.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_deltas.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_extra.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gold_nether.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gold.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_granite_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel_nether.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_gravel.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_infested.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_middle.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_small.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_iron_upper.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis_buried.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_lapis.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_magma.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_quartz_nether.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone_lower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_redstone.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_soul_sand.json
+- reports/worldgen/minecraft/worldgen/placed_feature/ore_tuff.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_bush.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_common.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_berry_rare.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus_desert.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_cactus.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_crimson_roots.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_dead_bush.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_fire.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_badlands.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_forest.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_jungle.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_normal.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_plain.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_savanna.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_grass_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_large_fern.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_melon_sparse.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_melon.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_pumpkin.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_soul_fire.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_sugar_cane.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_sunflower.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_taiga_grass.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_tall_grass.json
+- reports/worldgen/minecraft/worldgen/placed_feature/patch_waterlily.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pile_hay.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pile_ice.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pile_melon.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pile_pumpkin.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pile_snow.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pine_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pine.json
+- reports/worldgen/minecraft/worldgen/placed_feature/pointed_dripstone.json
+- reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_nether.json
+- reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_normal.json
+- reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
+- reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
+- reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
+- reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
+- reports/worldgen/minecraft/worldgen/placed_feature/sculk_vein.json
+- reports/worldgen/minecraft/worldgen/placed_feature/sea_pickle.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_cold.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_deep.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_normal.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_river.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/seagrass_warm.json
+- reports/worldgen/minecraft/worldgen/placed_feature/small_basalt_columns.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_closed_double.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_closed.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_delta.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_lava_frozen.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_lava.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_open.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spring_water.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spruce_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json
+- reports/worldgen/minecraft/worldgen/placed_feature/spruce.json
+- reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
+- reports/worldgen/minecraft/worldgen/placed_feature/super_birch_bees.json
+- reports/worldgen/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_badlands.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_birch.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_flower_forest.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_grove.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_jungle.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_mangrove.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_meadow.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_plains.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_savanna.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_snowy.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_swamp.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_taiga.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_water.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_forest.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_hills.json
+- reports/worldgen/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
+- reports/worldgen/minecraft/worldgen/placed_feature/twisting_vines.json
+- reports/worldgen/minecraft/worldgen/placed_feature/underwater_magma.json
+- reports/worldgen/minecraft/worldgen/placed_feature/vines.json
+- reports/worldgen/minecraft/worldgen/placed_feature/void_start_platform.json
+- reports/worldgen/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
+- reports/worldgen/minecraft/worldgen/placed_feature/warped_fungi.json
+- reports/worldgen/minecraft/worldgen/placed_feature/weeping_vines.json
+- reports/worldgen/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/bastion_generic_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/bottom_rampart.json
+- reports/worldgen/minecraft/worldgen/processor_list/bridge.json
+- reports/worldgen/minecraft/worldgen/processor_list/empty.json
+- reports/worldgen/minecraft/worldgen/processor_list/entrance_replacement.json
+- reports/worldgen/minecraft/worldgen/processor_list/farm_desert.json
+- reports/worldgen/minecraft/worldgen/processor_list/farm_plains.json
+- reports/worldgen/minecraft/worldgen/processor_list/farm_savanna.json
+- reports/worldgen/minecraft/worldgen/processor_list/farm_snowy.json
+- reports/worldgen/minecraft/worldgen/processor_list/farm_taiga.json
+- reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json
+- reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json
+- reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json
+- reports/worldgen/minecraft/worldgen/processor_list/high_rampart.json
+- reports/worldgen/minecraft/worldgen/processor_list/high_wall.json
+- reports/worldgen/minecraft/worldgen/processor_list/housing.json
+- reports/worldgen/minecraft/worldgen/processor_list/mossify_10_percent.json
+- reports/worldgen/minecraft/worldgen/processor_list/mossify_20_percent.json
+- reports/worldgen/minecraft/worldgen/processor_list/mossify_70_percent.json
+- reports/worldgen/minecraft/worldgen/processor_list/outpost_rot.json
+- reports/worldgen/minecraft/worldgen/processor_list/rampart_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/roof.json
+- reports/worldgen/minecraft/worldgen/processor_list/side_wall_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/stable_degradation.json
+- reports/worldgen/minecraft/worldgen/processor_list/street_plains.json
+- reports/worldgen/minecraft/worldgen/processor_list/street_savanna.json
+- reports/worldgen/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
+- reports/worldgen/minecraft/worldgen/processor_list/treasure_rooms.json
+- reports/worldgen/minecraft/worldgen/processor_list/zombie_desert.json
+- reports/worldgen/minecraft/worldgen/processor_list/zombie_plains.json
+- reports/worldgen/minecraft/worldgen/processor_list/zombie_savanna.json
+- reports/worldgen/minecraft/worldgen/processor_list/zombie_snowy.json
+- reports/worldgen/minecraft/worldgen/processor_list/zombie_taiga.json
+- reports/worldgen/minecraft/worldgen/structure_set/ancient_cities.json
+- reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json
+- reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json
+- reports/worldgen/minecraft/worldgen/structure_set/end_cities.json
+- reports/worldgen/minecraft/worldgen/structure_set/igloos.json
+- reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json
+- reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json
+- reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json
+- reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json
+- reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json
+- reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json
+- reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json
+- reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json
+- reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json
+- reports/worldgen/minecraft/worldgen/structure_set/strongholds.json
+- reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json
+- reports/worldgen/minecraft/worldgen/structure_set/villages.json
+- reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json
+- reports/worldgen/minecraft/worldgen/structure/ancient_city.json
+- reports/worldgen/minecraft/worldgen/structure/bastion_remnant.json
+- reports/worldgen/minecraft/worldgen/structure/buried_treasure.json
+- reports/worldgen/minecraft/worldgen/structure/desert_pyramid.json
+- reports/worldgen/minecraft/worldgen/structure/end_city.json
+- reports/worldgen/minecraft/worldgen/structure/fortress.json
+- reports/worldgen/minecraft/worldgen/structure/igloo.json
+- reports/worldgen/minecraft/worldgen/structure/jungle_pyramid.json
+- reports/worldgen/minecraft/worldgen/structure/mansion.json
+- reports/worldgen/minecraft/worldgen/structure/mineshaft_mesa.json
+- reports/worldgen/minecraft/worldgen/structure/mineshaft.json
+- reports/worldgen/minecraft/worldgen/structure/monument.json
+- reports/worldgen/minecraft/worldgen/structure/nether_fossil.json
+- reports/worldgen/minecraft/worldgen/structure/ocean_ruin_cold.json
+- reports/worldgen/minecraft/worldgen/structure/ocean_ruin_warm.json
+- reports/worldgen/minecraft/worldgen/structure/pillager_outpost.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_desert.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_jungle.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_mountain.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_nether.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_ocean.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal_swamp.json
+- reports/worldgen/minecraft/worldgen/structure/ruined_portal.json
+- reports/worldgen/minecraft/worldgen/structure/shipwreck_beached.json
+- reports/worldgen/minecraft/worldgen/structure/shipwreck.json
+- reports/worldgen/minecraft/worldgen/structure/stronghold.json
+- reports/worldgen/minecraft/worldgen/structure/swamp_hut.json
+- reports/worldgen/minecraft/worldgen/structure/village_desert.json
+- reports/worldgen/minecraft/worldgen/structure/village_plains.json
+- reports/worldgen/minecraft/worldgen/structure/village_savanna.json
+- reports/worldgen/minecraft/worldgen/structure/village_snowy.json
+- reports/worldgen/minecraft/worldgen/structure/village_taiga.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/sculk.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/structures.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls.json
+- reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/blocks/gold.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/legs.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/bridge/walls.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/starts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/brains.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/edges.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/pathways.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/ramparts.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/wall_units.json
+- reports/worldgen/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
+- reports/worldgen/minecraft/worldgen/template_pool/empty.json
+- reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
+- reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
+- reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/features.json
+- reports/worldgen/minecraft/worldgen/template_pool/pillager_outpost/towers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/animals.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/butcher_animals.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/cats.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/iron_golem.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/sheep.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/common/well_bottoms.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/town_centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/town_centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/trees.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/town_centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/trees.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/town_centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/trees.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/terminators.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/town_centers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/villagers.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
+- reports/worldgen/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
+- reports/worldgen/minecraft/worldgen/world_preset/amplified.json
+- reports/worldgen/minecraft/worldgen/world_preset/debug_all_block_states.json
+- reports/worldgen/minecraft/worldgen/world_preset/flat.json
+- reports/worldgen/minecraft/worldgen/world_preset/large_biomes.json
+- reports/worldgen/minecraft/worldgen/world_preset/normal.json
+- reports/worldgen/minecraft/worldgen/world_preset/single_biome_surface.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- chat_type.txt
+```
+
+</details>
+
+
+<details><summary>command_argument_type.txt</summary>
+
+```diff
++ minecraft:template_mirror
++ minecraft:template_rotation
+```
+
+</details>
+
+
+<details><summary>point_of_interest_type.txt</summary>
+
+```diff
+- minecraft:nitwit
+- minecraft:unemployed
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
+- locatebiome.txt
+```
+
+</details>
+
+
+<details><summary>locate.txt</summary>
+
+```diff
+- locate <structure: resource_or_tag>
++ locate biome <biome: resource_or_tag>
++ locate poi <poi: resource_or_tag>
++ locate structure <structure: resource_or_tag>
+```
+
+</details>
+
+
+<details><summary>place.txt</summary>
+
+```diff
++ place template <template: resource_location> <pos: block_pos> <rotation: template_rotation> <mirror: template_mirror> <integrity: float> <seed: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ point_of_interest_type/acquirable_job_site.json
++ point_of_interest_type/bee_home.json
++ point_of_interest_type/village.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.enum.invalid
++ chat.preview
++ chatPreview.warning.check
++ chatPreview.warning.content
++ chatPreview.warning.title
++ chatPreview.warning.toast
++ chatPreview.warning.toast.title
++ commands.locate.biome.invalid
++ commands.locate.biome.not_found
++ commands.locate.biome.success
+- commands.locate.failed
+- commands.locate.invalid
++ commands.locate.poi.invalid
++ commands.locate.poi.not_found
++ commands.locate.poi.success
++ commands.locate.structure.invalid
++ commands.locate.structure.not_found
++ commands.locate.structure.success
+- commands.locate.success
+- commands.locatebiome.invalid
+- commands.locatebiome.notFound
+- commands.locatebiome.success
++ commands.place.template.failed
++ commands.place.template.invalid
++ commands.place.template.success
++ options.chatPreview
++ options.chatPreview.tooltip
++ options.onlyShowSignedChat
++ options.onlyShowSignedChat.tooltip
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ point_of_interest_type/acquirable_job_site.json
++ point_of_interest_type/bee_home.json
++ point_of_interest_type/village.json
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:template_mirror
++ minecraft:template_rotation
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.4.40
++ com.mojang:authlib:3.5.41
+```
+
+</details>

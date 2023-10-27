@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19.1-pre6 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.19.1-pre6</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2022-07-20T15:49:31+00:00</td></tr>
@@ -10,2037 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/528d00ab2f716152f7f5e4184c7ff09fc3209ddd/server.txt">https://piston-data.mojang.com/v1/objects/528d00ab2f716152f7f5e4184c7ff09fc3209ddd/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/2f5635cef3238001a27f5f5899f5f1e753424fb8/client.jar">https://piston-data.mojang.com/v1/objects/2f5635cef3238001a27f5f5899f5f1e753424fb8/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/bbc9f66712f71b3556f9a26dad7485295412b276/client.txt">https://piston-data.mojang.com/v1/objects/bbc9f66712f71b3556f9a26dad7485295412b276/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19.1-pre5">1.19.1-pre5</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.GuiMessageTag</summary>
-
-```diff
-+ GuiMessageTag chatModified(String)
-- GuiMessageTag chatModified(Component)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean lambda$createSearchTrees$15(String)
-+ boolean lambda$createSearchTrees$7(String)
-+ boolean lambda$tick$38()
-+ ChunkProgressListener lambda$doWorldLoad$39(int)
-+ CompletionStage lambda$delayTextureReload$50(CompletableFuture)
-+ CrashReport lambda$delayCrash$20(CrashReport)
-+ CrashReport lambda$delayCrashRaw$21(CrashReport)
-+ IntegratedServer lambda$doWorldLoad$40(Thread)
-+ PackResources lambda$adaptV3$54(Supplier)
-+ PackResources lambda$adaptV4$55(Supplier)
-+ RefreshableSearchTree lambda$createSearchTrees$10(List)
-+ RefreshableSearchTree lambda$createSearchTrees$12(List)
-+ RefreshableSearchTree lambda$createSearchTrees$19(List)
-+ ResourceLocation lambda$createSearchTrees$17(Recipe)
-+ Stream lambda$createSearchTrees$11(ItemStack)
-+ Stream lambda$createSearchTrees$13(Recipe)
-+ Stream lambda$createSearchTrees$16(RecipeCollection)
-+ Stream lambda$createSearchTrees$18(RecipeCollection)
-+ Stream lambda$createSearchTrees$9(ItemStack)
-+ String lambda$createSearchTrees$14(Component)
-+ String lambda$createSearchTrees$6(Component)
-+ String lambda$doWorldLoad$41(WorldStem)
-+ String lambda$fillSystemReport$43(String)
-+ String lambda$fillSystemReport$44(Minecraft)
-+ String lambda$fillSystemReport$47()
-+ String lambda$fillSystemReport$48(Options)
-+ String lambda$fillSystemReport$49(LanguageManager)
-+ Style lambda$debugClientMetricsStart$29(Style)
-+ Style lambda$grabHugeScreenshot$53(Style)
-+ Style lambda$grabPanoramixScreenshot$52(Style)
-+ void lambda$clearResourcePacksOnError$5(Component)
-+ void lambda$debugClientMetricsStart$27(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$28(ProfileResults)
-+ void lambda$debugClientMetricsStart$30(Component)
-+ void lambda$debugClientMetricsStart$31(Path)
-+ void lambda$debugClientMetricsStart$32(List)
-+ void lambda$debugClientMetricsStart$33(Path)
-+ void lambda$debugClientMetricsStart$34(CompletableFuture)
-+ void lambda$debugClientMetricsStart$35(ProfileResults)
-+ void lambda$debugClientMetricsStart$36(ProfileResults)
-+ void lambda$doWorldLoad$42(Component)
-+ void lambda$grabPanoramixScreenshot$51(Component)
-+ void lambda$new$3(String,int)
-+ void lambda$new$4(boolean)
-+ void lambda$openChatScreen$24(boolean)
-+ void lambda$reloadResourcePacks$22(CompletableFuture)
-+ void lambda$reloadResourcePacks$23(Optional)
-+ void lambda$runTick$25(CompletableFuture)
-+ void lambda$runTick$26(TimerQuery)
-+ void lambda$tick$37()
-- boolean lambda$createSearchTrees$14(String)
-- boolean lambda$createSearchTrees$6(String)
-- boolean lambda$tick$37()
-- ChunkProgressListener lambda$doWorldLoad$38(int)
-- CompletionStage lambda$delayTextureReload$49(CompletableFuture)
-- CrashReport lambda$delayCrash$19(CrashReport)
-- CrashReport lambda$delayCrashRaw$20(CrashReport)
-- IntegratedServer lambda$doWorldLoad$39(Thread)
-- PackResources lambda$adaptV3$53(Supplier)
-- PackResources lambda$adaptV4$54(Supplier)
-- RefreshableSearchTree lambda$createSearchTrees$11(List)
-- RefreshableSearchTree lambda$createSearchTrees$18(List)
-- RefreshableSearchTree lambda$createSearchTrees$9(List)
-- ResourceLocation lambda$createSearchTrees$16(Recipe)
-- Stream lambda$createSearchTrees$10(ItemStack)
-- Stream lambda$createSearchTrees$12(Recipe)
-- Stream lambda$createSearchTrees$15(RecipeCollection)
-- Stream lambda$createSearchTrees$17(RecipeCollection)
-- Stream lambda$createSearchTrees$7(ItemStack)
-- String lambda$createSearchTrees$13(Component)
-- String lambda$createSearchTrees$5(Component)
-- String lambda$doWorldLoad$40(WorldStem)
-- String lambda$fillSystemReport$42(String)
-- String lambda$fillSystemReport$43(Minecraft)
-- String lambda$fillSystemReport$44()
-- String lambda$fillSystemReport$47(Options)
-- String lambda$fillSystemReport$48(LanguageManager)
-- Style lambda$debugClientMetricsStart$28(Style)
-- Style lambda$grabHugeScreenshot$52(Style)
-- Style lambda$grabPanoramixScreenshot$51(Style)
-- void lambda$clearResourcePacksOnError$4(Component)
-- void lambda$debugClientMetricsStart$26(Consumer,double,int)
-- void lambda$debugClientMetricsStart$27(ProfileResults)
-- void lambda$debugClientMetricsStart$29(Component)
-- void lambda$debugClientMetricsStart$30(Path)
-- void lambda$debugClientMetricsStart$31(List)
-- void lambda$debugClientMetricsStart$32(Path)
-- void lambda$debugClientMetricsStart$33(CompletableFuture)
-- void lambda$debugClientMetricsStart$34(ProfileResults)
-- void lambda$debugClientMetricsStart$35(ProfileResults)
-- void lambda$doWorldLoad$41(Component)
-- void lambda$grabPanoramixScreenshot$50(Component)
-- void lambda$new$3(boolean)
-- void lambda$openChatScreen$23(boolean)
-- void lambda$reloadResourcePacks$21(CompletableFuture)
-- void lambda$reloadResourcePacks$22(Optional)
-- void lambda$runTick$24(CompletableFuture)
-- void lambda$runTick$25(TimerQuery)
-- void lambda$tick$36()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ void logChatMessage(GuiMessageTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.CommandSuggestions</summary>
-
-```diff
-+ ParseResults getCurrentContext()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.InBedChatScreen</summary>
-
-```diff
-+ Button leaveBedButton
-+ void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.reporting.ChatSelectionLogFiller</summary>
-
-```diff
-+ Class tClass
-+ void <init>(Class)
-- void <init>(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.ChatTrustLevel</summary>
-
-```diff
-+ ChatTrustLevel BROKEN_CHAIN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
-
-```diff
-+ boolean lambda$collectReferencedContext$4(LoggedChatMessage$Player)
-+ IntCollection messageReferences(PlayerChatMessage)
-+ void walkMessageReferenceGraph(ChatReportBuilder$ReferencedMessageVisitor)
-- boolean lambda$collectReferencedContext$4(LoggedChatMessage$Player)
-- IntCollection lastSeenReferences(LoggedChatMessage$Player)
-- void walkLastSeenReferenceGraph(ChatReportBuilder$LastSeenVisitor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.ReportReason</summary>
-
-```diff
-+ boolean reportable
-+ ReportReason FALSE_REPORTING
-+ boolean reportable()
-+ void <init>(String,boolean)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSigningContext$SignedArguments</summary>
-
-```diff
-+ Map arguments
-- ArgumentSignatures argumentSignatures
-- boolean signedPreview
-- LastSeenMessages lastSeenMessages
-- MessageSigner argumentSigner
-- SignedMessageChain$Decoder decoder
-+ Map arguments()
-+ PlayerChatMessage getArgument(String)
-+ void <init>(Map)
-- ArgumentSignatures argumentSignatures()
-- boolean signedPreview()
-- CommandSigningContext$SignedArgument getArgument(String)
-- LastSeenMessages lastSeenMessages()
-- MessageSigner argumentSigner()
-- SignedMessageChain$Decoder decoder()
-- void <init>(LastSeenMessages)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
-
-```diff
-+ int performCommand(String)
-+ ParseResults mapSource(UnaryOperator)
-- int performCommand(String)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ArgumentSignatures</summary>
-
-```diff
-+ ArgumentSignatures signCommand(ArgumentSignatures$Signer)
-+ ArgumentSignatures$Entry lambda$signCommand$2(Pair)
-+ boolean hasSignableArguments(PreviewableCommand)
-+ boolean lambda$hasSignableArguments$1(PreviewableCommand$Argument)
-+ List collectPlainSignableArguments(PreviewableCommand)
-- ArgumentSignatures signCommand(ArgumentSignatures$Signer)
-- ArgumentSignatures$Entry lambda$signCommand$1(Pair)
-- boolean hasSignableArguments(ParseResults)
-- List collectLastChildPlainSignableArguments(CommandContextBuilder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.MessageArgument$ChatMessage</summary>
-
-```diff
-+ PlayerChatMessage signedArgument
-- CommandSigningContext$SignedArgument signedArgument
-- String plain
-+ CompletableFuture lambda$resolve$2(Consumer)
-+ CompletionStage lambda$resolve$1(FilteredText)
-+ CompletionStage lambda$resolveFiltered$4(Component)
-+ Component lambda$resolve$0(String)
-+ FilteredText lambda$resolveFiltered$3(FilteredText)
-+ FilteredText lambda$resolveFiltered$5(FilteredText)
-+ PlayerChatMessage signedArgument()
-+ void <init>(PlayerChatMessage)
-+ void lambda$consume$6(FilteredText)
-- CommandSigningContext$SignedArgument signedArgument()
-- CompletableFuture lambda$resolve$2(Consumer)
-- CompletionStage lambda$resolve$0(FilteredText)
-- Component lambda$rebuildMessageIfNeeded$3(String)
-- Component lambda$rebuildMessageIfNeeded$4(String)
-- FilteredText lambda$resolve$1(FilteredText)
-- FilteredText lambda$resolveFiltered$5(FilteredText)
-- FilteredText lambda$resolveFiltered$6(FilteredText)
-- FilteredText rebuildMessageIfNeeded(FilteredText)
-- String plain()
-- void <init>(CommandSigningContext$SignedArgument)
-- void lambda$consume$7(FilteredText)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.PreviewedArgument</summary>
-
-```diff
-+ CompletableFuture resolvePreview(ParsedArgument)
-- boolean isPreviewed(CommandNode)
-- CompletableFuture resolvePreview(String)
-- CompletableFuture resolvePreviewed(CommandContextBuilder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
-
-```diff
-+ CompletableFuture lambda$rebuildFiltered$1(Component)
-+ CompletableFuture rebuildFiltered(Component)
-- CompletableFuture decorateFiltered(FilteredText)
-- FilteredText lambda$decorateFiltered$1(Void)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatCommandPacket</summary>
-
-```diff
-- CommandSigningContext signingContext(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.FilteredText</summary>
-
-```diff
-+ CompletableFuture rebuildIfNeededAsync(Function)
-+ FilteredText lambda$rebuildIfNeededAsync$0(Object)
-+ FilteredText rebuildIfNeeded(Function)
-- FilteredText mapWithEquality(Function)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ ChatPreviewCache chatPreviewCache
-+ boolean verifyChatMessage(PlayerChatMessage)
-+ ChatMessageContent getSignedContent(ServerboundChatPacket)
-+ CommandSourceStack lambda$performChatCommand$13(CommandSourceStack)
-+ CompletableFuture getPreviewedArgument(PreviewableCommand)
-+ CompletableFuture handleChat(FilteredText)
-+ CompletableFuture lambda$handleChat$10(PlayerChatMessage)
-+ CompletableFuture lambda$handleChat$9(FilteredText)
-+ CompletableFuture lambda$handleChatPreview$18(ServerboundChatPreviewPacket)
-+ CompletionStage lambda$handleChat$15(Component)
-+ Component lambda$queryChatPreview$20(Component)
-+ Map collectSignedArguments(PreviewableCommand)
-+ ParseResults parseCommand(String)
-+ PlayerChatMessage getSignedMessage(ServerboundChatPacket)
-+ void lambda$handleChat$11(ServerboundChatPacket)
-+ void lambda$handleChat$14(FilteredText)
-+ void lambda$handleChat$16(FilteredText)
-+ void lambda$handleChatCommand$12(ServerboundChatCommandPacket)
-+ void lambda$handleChatPreview$17(Component)
-+ void lambda$handlePlaceRecipe$23(Recipe)
-+ void lambda$handleSignUpdate$24(List)
-+ void lambda$queryChatPreview$21(Component)
-+ void lambda$queryCommandPreview$22(Component)
-+ void lambda$sendPreviewResponse$19(Future)
-+ void performChatCommand(ServerboundChatCommandPacket)
-- CompletableFuture getPreviewedArgument(CommandContextBuilder)
-- CompletableFuture handleChat(FilteredText)
-- CompletableFuture lambda$handleChat$10(ServerboundChatPacket)
-- CompletableFuture lambda$handleChat$9(FilteredText)
-- CompletableFuture lambda$handleChatPreview$14(ServerboundChatPreviewPacket)
-- Component lambda$queryChatPreview$16(Component)
-- void lambda$handleChat$12(FilteredText)
-- void lambda$handleChatCommand$11(ServerboundChatCommandPacket)
-- void lambda$handleChatPreview$13(Component)
-- void lambda$handlePlaceRecipe$17(Recipe)
-- void lambda$handleSignUpdate$18(List)
-- void lambda$sendPreviewResponse$15(Future)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.multiplayer.chat.report.ChatReportBuilder$LastSeenVisitor
@@ -5511,1843 +3502,355 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSigningContext$1</summary>
+<details><summary>net.minecraft.client.GuiMessageTag</summary>
 
 ```diff
-- MessageSigner val$signer
-+ PlayerChatMessage getArgument(String)
-+ void <init>()
+- GuiMessageTag chatModified(Component)
++ GuiMessageTag chatModified(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Minecraft</summary>
+
+```diff
+- boolean lambda$createSearchTrees$14(String)
++ boolean lambda$createSearchTrees$15(String)
+- boolean lambda$createSearchTrees$6(String)
++ boolean lambda$createSearchTrees$7(String)
+- boolean lambda$tick$37()
++ boolean lambda$tick$38()
+- ChunkProgressListener lambda$doWorldLoad$38(int)
++ ChunkProgressListener lambda$doWorldLoad$39(int)
+- CompletionStage lambda$delayTextureReload$49(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$50(CompletableFuture)
+- CrashReport lambda$delayCrash$19(CrashReport)
++ CrashReport lambda$delayCrash$20(CrashReport)
+- CrashReport lambda$delayCrashRaw$20(CrashReport)
++ CrashReport lambda$delayCrashRaw$21(CrashReport)
+- IntegratedServer lambda$doWorldLoad$39(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ IntegratedServer lambda$doWorldLoad$40(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
+- PackResources lambda$adaptV3$53(Supplier)
++ PackResources lambda$adaptV3$54(Supplier)
+- PackResources lambda$adaptV4$54(Supplier)
++ PackResources lambda$adaptV4$55(Supplier)
++ RefreshableSearchTree lambda$createSearchTrees$10(List)
+- RefreshableSearchTree lambda$createSearchTrees$11(List)
++ RefreshableSearchTree lambda$createSearchTrees$12(List)
+- RefreshableSearchTree lambda$createSearchTrees$18(List)
++ RefreshableSearchTree lambda$createSearchTrees$19(List)
+- RefreshableSearchTree lambda$createSearchTrees$9(List)
+- ResourceLocation lambda$createSearchTrees$16(Recipe)
++ ResourceLocation lambda$createSearchTrees$17(Recipe)
+- Stream lambda$createSearchTrees$10(ItemStack)
++ Stream lambda$createSearchTrees$11(ItemStack)
+- Stream lambda$createSearchTrees$12(Recipe)
++ Stream lambda$createSearchTrees$13(Recipe)
+- Stream lambda$createSearchTrees$15(RecipeCollection)
++ Stream lambda$createSearchTrees$16(RecipeCollection)
+- Stream lambda$createSearchTrees$17(RecipeCollection)
++ Stream lambda$createSearchTrees$18(RecipeCollection)
+- Stream lambda$createSearchTrees$7(ItemStack)
++ Stream lambda$createSearchTrees$9(ItemStack)
+- String lambda$createSearchTrees$13(Component)
++ String lambda$createSearchTrees$14(Component)
+- String lambda$createSearchTrees$5(Component)
++ String lambda$createSearchTrees$6(Component)
+- String lambda$doWorldLoad$40(WorldStem)
++ String lambda$doWorldLoad$41(WorldStem)
+- String lambda$fillSystemReport$42(String)
+- String lambda$fillSystemReport$43(Minecraft)
++ String lambda$fillSystemReport$43(String)
+- String lambda$fillSystemReport$44()
++ String lambda$fillSystemReport$44(Minecraft)
++ String lambda$fillSystemReport$47()
+- String lambda$fillSystemReport$47(Options)
+- String lambda$fillSystemReport$48(LanguageManager)
++ String lambda$fillSystemReport$48(Options)
++ String lambda$fillSystemReport$49(LanguageManager)
+- Style lambda$debugClientMetricsStart$28(Path,Style)
++ Style lambda$debugClientMetricsStart$29(Path,Style)
+- Style lambda$grabHugeScreenshot$52(File,Style)
++ Style lambda$grabHugeScreenshot$53(File,Style)
+- Style lambda$grabPanoramixScreenshot$51(File,Style)
++ Style lambda$grabPanoramixScreenshot$52(File,Style)
+- void lambda$clearResourcePacksOnError$4(Component)
++ void lambda$clearResourcePacksOnError$5(Component)
+- void lambda$debugClientMetricsStart$26(Consumer,double,int)
++ void lambda$debugClientMetricsStart$27(Consumer,double,int)
+- void lambda$debugClientMetricsStart$27(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$28(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$29(Consumer,Component)
++ void lambda$debugClientMetricsStart$30(Consumer,Component)
+- void lambda$debugClientMetricsStart$30(Consumer,Path)
++ void lambda$debugClientMetricsStart$31(Consumer,Path)
+- void lambda$debugClientMetricsStart$31(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$32(Consumer,Path)
++ void lambda$debugClientMetricsStart$32(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$33(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$33(Consumer,Path)
++ void lambda$debugClientMetricsStart$34(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$34(ProfileResults)
+- void lambda$debugClientMetricsStart$35(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$35(ProfileResults)
++ void lambda$debugClientMetricsStart$36(Consumer,ProfileResults)
+- void lambda$doWorldLoad$41(Component)
++ void lambda$doWorldLoad$42(Component)
+- void lambda$grabPanoramixScreenshot$50(Component)
++ void lambda$grabPanoramixScreenshot$51(Component)
+- void lambda$new$3(boolean)
++ void lambda$new$3(String,int)
++ void lambda$new$4(boolean)
+- void lambda$openChatScreen$23(boolean)
++ void lambda$openChatScreen$24(boolean)
+- void lambda$reloadResourcePacks$21(CompletableFuture)
+- void lambda$reloadResourcePacks$22(CompletableFuture,Optional)
++ void lambda$reloadResourcePacks$22(CompletableFuture)
++ void lambda$reloadResourcePacks$23(CompletableFuture,Optional)
+- void lambda$runTick$24(CompletableFuture)
++ void lambda$runTick$25(CompletableFuture)
+- void lambda$runTick$25(TimerQuery)
++ void lambda$runTick$26(TimerQuery)
+- void lambda$tick$36()
++ void lambda$tick$37()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
+
+```diff
++ void logChatMessage(Component,GuiMessageTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.CommandSuggestions</summary>
+
+```diff
++ ParseResults getCurrentContext()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.InBedChatScreen</summary>
+
+```diff
++ void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.reporting.ChatSelectionLogFiller</summary>
+
+```diff
++ void <init>(ChatLog,Predicate,Class)
+- void <init>(ChatLog,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
+
+```diff
+- boolean lambda$collectReferencedContext$4(Int2ObjectMap,AbuseReportLimits,int,LoggedChatMessage$Player)
++ boolean lambda$collectReferencedContext$4(Int2ObjectMap,int,int,LoggedChatMessage$Player)
+- IntCollection lastSeenReferences(ChatLog,int,LoggedChatMessage$Player)
++ IntCollection messageReferences(ChatLog,int,PlayerChatMessage)
+- void walkLastSeenReferenceGraph(ChatLog,int,ChatReportBuilder$LastSeenVisitor)
++ void walkMessageReferenceGraph(ChatLog,int,ChatReportBuilder$ReferencedMessageVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.report.ReportReason</summary>
+
+```diff
++ boolean reportable()
++ void <init>(String,int,int,String,boolean)
+- void <init>(String,int,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSigningContext$SignedArguments</summary>
+
+```diff
+- ArgumentSignatures argumentSignatures()
+- boolean signedPreview()
 - CommandSigningContext$SignedArgument getArgument(String)
+- LastSeenMessages lastSeenMessages()
++ Map arguments()
 - MessageSigner argumentSigner()
++ PlayerChatMessage getArgument(String)
 - SignedMessageChain$Decoder decoder()
-- void <init>(MessageSigner)
++ void <init>(Map)
+- void <init>(SignedMessageChain$Decoder,MessageSigner,ArgumentSignatures,boolean,LastSeenMessages)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.OutgoingPlayerChatMessage$Tracked</summary>
+
+<details><summary>net.minecraft.commands.Commands</summary>
 
 ```diff
-+ Component serverContent()
-- PlayerChatMessage original()
+- int performCommand(CommandSourceStack,String)
++ int performCommand(ParseResults,String)
++ ParseResults mapSource(ParseResults,UnaryOperator)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.SignedMessageBody</summary>
+
+<details><summary>net.minecraft.commands.arguments.ArgumentSignatures</summary>
 
 ```diff
-+ SignedMessageBody withContent(ChatMessageContent)
+- ArgumentSignatures signCommand(CommandContextBuilder,ArgumentSignatures$Signer)
++ ArgumentSignatures signCommand(PreviewableCommand,ArgumentSignatures$Signer)
+- ArgumentSignatures$Entry lambda$signCommand$1(ArgumentSignatures$Signer,Pair)
++ ArgumentSignatures$Entry lambda$signCommand$2(ArgumentSignatures$Signer,Pair)
+- boolean hasSignableArguments(ParseResults)
++ boolean hasSignableArguments(PreviewableCommand)
++ boolean lambda$hasSignableArguments$1(PreviewableCommand$Argument)
+- List collectLastChildPlainSignableArguments(CommandContextBuilder)
++ List collectPlainSignableArguments(PreviewableCommand)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.SignedMessageChain$Decoder</summary>
+
+<details><summary>net.minecraft.commands.arguments.MessageArgument$ChatMessage</summary>
 
 ```diff
-- SignedMessageChain$Decoder UNSIGNED
-- FilteredText unpack(LastSeenMessages)
-- PlayerChatMessage lambda$static$0(LastSeenMessages)
-- void <clinit>()
+- CommandSigningContext$SignedArgument signedArgument()
+- CompletableFuture lambda$resolve$2(CommandSourceStack,Consumer)
++ CompletableFuture lambda$resolve$2(CommandSourceStack,String,MinecraftServer,Consumer)
+- CompletionStage lambda$resolve$0(CommandSourceStack,FilteredText)
++ CompletionStage lambda$resolve$1(CommandSourceStack,FilteredText)
++ CompletionStage lambda$resolveFiltered$4(ChatDecorator,ServerPlayer,FilteredText,Component)
+- Component lambda$rebuildMessageIfNeeded$3(String)
+- Component lambda$rebuildMessageIfNeeded$4(CommandSourceStack,String)
++ Component lambda$resolve$0(CommandSourceStack,String)
+- FilteredText lambda$resolve$1(CommandSourceStack,FilteredText)
++ FilteredText lambda$resolveFiltered$3(FilteredText,FilteredText)
++ FilteredText lambda$resolveFiltered$5(FilteredText,FilteredText)
+- FilteredText lambda$resolveFiltered$5(SignedMessageChain$Decoder,SignedMessageChain$Link,MessageSigner,FilteredText,FilteredText)
+- FilteredText lambda$resolveFiltered$6(FilteredText,FilteredText)
+- FilteredText rebuildMessageIfNeeded(CommandSourceStack,FilteredText)
++ PlayerChatMessage signedArgument()
+- String plain()
++ void <init>(Component,PlayerChatMessage)
+- void <init>(String,Component,CommandSigningContext$SignedArgument)
++ void lambda$consume$6(CommandSourceStack,FilteredText)
+- void lambda$consume$7(CommandSourceStack,FilteredText)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.chat.SignedMessageValidator</summary>
+<details><summary>net.minecraft.commands.arguments.PreviewedArgument</summary>
 
 ```diff
-+ SignedMessageValidator$State validateHeader(net.minecraft.network.chat.SignedMessageHeader,net.minecraft.network.chat.MessageSignature,byte[])
-+ SignedMessageValidator$State validateMessage(net.minecraft.network.chat.PlayerChatMessage)
-- boolean validateMessage(net.minecraft.network.chat.PlayerChatMessage)
-- void validateHeader(net.minecraft.network.chat.SignedMessageHeader,net.minecraft.network.chat.MessageSignature,byte[])
+- boolean isPreviewed(CommandNode)
+- CompletableFuture resolvePreview(CommandContextBuilder,String)
++ CompletableFuture resolvePreview(CommandSourceStack,ParsedArgument)
+- CompletableFuture resolvePreviewed(ArgumentCommandNode,CommandContextBuilder)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
+
+<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
 
 ```diff
-+ SignedMessageValidator$State updateAndValidate(MessageSignature,byte[])
-+ SignedMessageValidator$State validateHeader(MessageSignature,byte[])
-+ SignedMessageValidator$State validateMessage(PlayerChatMessage)
-- boolean validateMessage(PlayerChatMessage)
-- void validateHeader(MessageSignature,byte[])
+- CompletableFuture decorateFiltered(ServerPlayer,FilteredText)
++ CompletableFuture lambda$rebuildFiltered$1(ServerPlayer,Component)
++ CompletableFuture rebuildFiltered(ServerPlayer,FilteredText,Component)
+- FilteredText lambda$decorateFiltered$1(CompletableFuture,CompletableFuture,Void)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatCommandPacket</summary>
 
 ```diff
-+ Entity getThrowingEntity()
-- Entity getResponsibleEntity()
+- CommandSigningContext signingContext(ServerPlayer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.server.network.FilteredText</summary>
+
+```diff
++ CompletableFuture rebuildIfNeededAsync(Object,Function)
++ FilteredText lambda$rebuildIfNeededAsync$0(Object,Object)
+- FilteredText mapWithEquality(Function,Function)
++ FilteredText rebuildIfNeeded(Object,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ boolean verifyChatMessage(PlayerChatMessage)
++ ChatMessageContent getSignedContent(ServerboundChatPacket)
++ CommandSourceStack lambda$performChatCommand$13(CommandSigningContext,CommandSourceStack)
+- CompletableFuture getPreviewedArgument(CommandContextBuilder)
++ CompletableFuture getPreviewedArgument(CommandSourceStack,PreviewableCommand)
++ CompletableFuture handleChat(PlayerChatMessage,FilteredText)
+- CompletableFuture handleChat(ServerboundChatPacket,FilteredText)
++ CompletableFuture lambda$handleChat$10(PlayerChatMessage)
+- CompletableFuture lambda$handleChat$10(ServerboundChatPacket)
++ CompletableFuture lambda$handleChat$9(PlayerChatMessage,FilteredText)
+- CompletableFuture lambda$handleChat$9(ServerboundChatPacket,FilteredText)
+- CompletableFuture lambda$handleChatPreview$14(ServerboundChatPreviewPacket)
++ CompletableFuture lambda$handleChatPreview$18(ServerboundChatPreviewPacket)
++ CompletionStage lambda$handleChat$15(ChatDecorator,FilteredText,Component)
+- Component lambda$queryChatPreview$16(Component,Component)
++ Component lambda$queryChatPreview$20(Component,Component)
++ Map collectSignedArguments(ServerboundChatCommandPacket,PreviewableCommand)
++ ParseResults parseCommand(String)
++ PlayerChatMessage getSignedMessage(ServerboundChatPacket)
++ void lambda$handleChat$11(ServerboundChatPacket)
+- void lambda$handleChat$12(ServerboundChatPacket,FilteredText,SignedMessageChain$Link,MessageSigner,LastSeenMessages,FilteredText)
++ void lambda$handleChat$14(FilteredText,PlayerChatMessage,FilteredText)
++ void lambda$handleChat$16(FilteredText,PlayerChatMessage,FilteredText)
+- void lambda$handleChatCommand$11(ServerboundChatCommandPacket)
++ void lambda$handleChatCommand$12(ServerboundChatCommandPacket)
+- void lambda$handleChatPreview$13(int,Component)
++ void lambda$handleChatPreview$17(int,Component)
+- void lambda$handlePlaceRecipe$17(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handlePlaceRecipe$23(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handleSignUpdate$18(ServerboundSignUpdatePacket,List)
++ void lambda$handleSignUpdate$24(ServerboundSignUpdatePacket,List)
++ void lambda$queryChatPreview$21(String,Component)
++ void lambda$queryCommandPreview$22(String,Component)
+- void lambda$sendPreviewResponse$15(int,Future)
++ void lambda$sendPreviewResponse$19(int,Future)
++ void performChatCommand(ServerboundChatCommandPacket)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.AngleArgument
@@ -8864,13 +5367,80 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.CommandSigningContext$1</summary>
+
+```diff
+- CommandSigningContext$SignedArgument getArgument(String)
+- MessageSigner argumentSigner()
++ PlayerChatMessage getArgument(String)
+- SignedMessageChain$Decoder decoder()
++ void <init>()
+- void <init>(MessageSigner)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.OutgoingPlayerChatMessage$Tracked</summary>
+
+```diff
++ Component serverContent()
+- PlayerChatMessage original()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageBody</summary>
+
+```diff
++ SignedMessageBody withContent(ChatMessageContent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageChain$Decoder</summary>
+
+```diff
+- FilteredText unpack(SignedMessageChain$Link,MessageSigner,FilteredText,LastSeenMessages)
+- PlayerChatMessage lambda$static$0(SignedMessageChain$Link,MessageSigner,ChatMessageContent,LastSeenMessages)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
+
+```diff
+- boolean validateMessage(PlayerChatMessage)
++ SignedMessageValidator$State updateAndValidate(SignedMessageHeader,MessageSignature,byte[])
++ SignedMessageValidator$State validateHeader(SignedMessageHeader,MessageSignature,byte[])
++ SignedMessageValidator$State validateMessage(PlayerChatMessage)
+- void validateHeader(SignedMessageHeader,MessageSignature,byte[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
+- Entity getResponsibleEntity()
++ Entity getThrowingEntity()
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ gui.abuseReport.reason.false_reporting
+```
+
+</details>

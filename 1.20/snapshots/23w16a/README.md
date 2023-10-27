@@ -1,3435 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w16a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w16a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-04-20T11:55:19+00:00</td></tr>
-<tr><th>SHA1</th><td>c644ab646d44cbe9b0e1346e3cc3e2cb32be7741</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/c644ab646d44cbe9b0e1346e3cc3e2cb32be7741/23w16a.json">https://piston-meta.mojang.com/v1/packages/c644ab646d44cbe9b0e1346e3cc3e2cb32be7741/23w16a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/00eafe1437319718264a794107ea06b623963be6/4.json">https://piston-meta.mojang.com/v1/packages/00eafe1437319718264a794107ea06b623963be6/4.json</a></td></tr>
+<tr><th>SHA1</th><td>02e6b06dd6ca012fa00b9a125aaff2c79bfe7355</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/02e6b06dd6ca012fa00b9a125aaff2c79bfe7355/23w16a.json">https://piston-meta.mojang.com/v1/packages/02e6b06dd6ca012fa00b9a125aaff2c79bfe7355/23w16a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/8520c56192bb1a597c42067f9969dbab9a0badd9/4.json">https://piston-meta.mojang.com/v1/packages/8520c56192bb1a597c42067f9969dbab9a0badd9/4.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/4a8487f877eb4f3506978fb85faf41a08b570398/server.jar">https://piston-data.mojang.com/v1/objects/4a8487f877eb4f3506978fb85faf41a08b570398/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/c01d9d4ad256275dead34e819678db1e04256e08/server.txt">https://piston-data.mojang.com/v1/objects/c01d9d4ad256275dead34e819678db1e04256e08/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/10eb5a16d52959140ea2dba2fc4fb4bf177cacfa/client.jar">https://piston-data.mojang.com/v1/objects/10eb5a16d52959140ea2dba2fc4fb4bf177cacfa/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1bd8cf2208a00a93b2a02b1ebcf1e3b537865f33/client.txt">https://piston-data.mojang.com/v1/objects/1bd8cf2208a00a93b2a02b1ebcf1e3b537865f33/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w14a">23w14a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/loot_tables/archaeology/trail_ruins.json
-+  minecraft/loot_tables/archaeology/trail_ruins_common.json
-+  minecraft/loot_tables/archaeology/trail_ruins_rare.json
--  minecraft/structures/trail_ruins/buildings/group_entrance_three_1.nbt
--  minecraft/structures/trail_ruins/buildings/group_entrance_two_1.nbt
--  minecraft/structures/trail_ruins/buildings/group_entrance_two_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_full_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_full_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_full_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_full_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_full_5.nbt
-+  minecraft/structures/trail_ruins/buildings/group_hall_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_hall_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_hall_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_hall_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_hall_5.nbt
-+  minecraft/structures/trail_ruins/buildings/group_lower_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_lower_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_lower_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_lower_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_lower_5.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_room_5.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_one_1.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_one_2.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_two_1.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_two_2.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_two_3.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_two_4.nbt
--  minecraft/structures/trail_ruins/buildings/group_room_two_5.nbt
-+  minecraft/structures/trail_ruins/buildings/group_upper_1.nbt
-+  minecraft/structures/trail_ruins/buildings/group_upper_2.nbt
-+  minecraft/structures/trail_ruins/buildings/group_upper_3.nbt
-+  minecraft/structures/trail_ruins/buildings/group_upper_4.nbt
-+  minecraft/structures/trail_ruins/buildings/group_upper_5.nbt
-+  minecraft/structures/trail_ruins/buildings/large_room_4.nbt
-+  minecraft/structures/trail_ruins/buildings/large_room_5.nbt
-+  minecraft/structures/trail_ruins/buildings/one_room_5.nbt
-+  minecraft/structures/trail_ruins/decor/decor_7.nbt
--  minecraft/structures/trail_ruins/roads/road_end_1s.nbt
-+  minecraft/structures/trail_ruins/tower/hall_3.nbt
-+  minecraft/structures/trail_ruins/tower/hall_4.nbt
-+  minecraft/structures/trail_ruins/tower/hall_5.nbt
-+  minecraft/structures/trail_ruins/tower/large_hall_3.nbt
-+  minecraft/structures/trail_ruins/tower/large_hall_4.nbt
-+  minecraft/structures/trail_ruins/tower/large_hall_5.nbt
-+  minecraft/structures/trail_ruins/tower/one_room_2.nbt
-+  minecraft/structures/trail_ruins/tower/one_room_3.nbt
-+  minecraft/structures/trail_ruins/tower/one_room_4.nbt
-+  minecraft/structures/trail_ruins/tower/one_room_5.nbt
-+  minecraft/structures/trail_ruins/tower/platform_2.nbt
-+  minecraft/structures/trail_ruins/tower/platform_3.nbt
-+  minecraft/structures/trail_ruins/tower/platform_4.nbt
-+  minecraft/structures/trail_ruins/tower/platform_5.nbt
-+  minecraft/structures/trail_ruins/tower/stable_2.nbt
-+  minecraft/structures/trail_ruins/tower/stable_3.nbt
-+  minecraft/structures/trail_ruins/tower/stable_4.nbt
-+  minecraft/structures/trail_ruins/tower/stable_5.nbt
-+  minecraft/structures/trail_ruins/tower/tower_4.nbt
-+  minecraft/structures/trail_ruins/tower/tower_5.nbt
-+  minecraft/structures/trail_ruins/tower/tower_top_1.nbt
-+  minecraft/structures/trail_ruins/tower/tower_top_2.nbt
-+  minecraft/structures/trail_ruins/tower/tower_top_3.nbt
-+  minecraft/structures/trail_ruins/tower/tower_top_4.nbt
-+  minecraft/structures/trail_ruins/tower/tower_top_5.nbt
-+  minecraft/tags/blocks/maintains_farmland.json
-+  minecraft/tags/blocks/stone_buttons.json
--  minecraft/tags/items/decorated_pot_shards.json
-+  minecraft/tags/items/decorated_pot_sherds.json
-+  minecraft/tags/items/stone_buttons.json
-+  minecraft/tags/items/villager_plantable_seeds.json
-+  minecraft/worldgen/processor_list/trail_ruins_houses_archaeology.json
-+  minecraft/worldgen/processor_list/trail_ruins_roads_archaeology.json
--  minecraft/worldgen/processor_list/trail_ruins_suspicious_sand.json
-+  minecraft/worldgen/processor_list/trail_ruins_tower_top_archaeology.json
-+  minecraft/worldgen/template_pool/trail_ruins/tower/tower_top.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/models/item/angler_pottery_shard.json
-+  minecraft/models/item/angler_pottery_sherd.json
--  minecraft/models/item/archer_pottery_shard.json
-+  minecraft/models/item/archer_pottery_sherd.json
--  minecraft/models/item/arms_up_pottery_shard.json
-+  minecraft/models/item/arms_up_pottery_sherd.json
--  minecraft/models/item/blade_pottery_shard.json
-+  minecraft/models/item/blade_pottery_sherd.json
--  minecraft/models/item/brewer_pottery_shard.json
-+  minecraft/models/item/brewer_pottery_sherd.json
--  minecraft/models/item/burn_pottery_shard.json
-+  minecraft/models/item/burn_pottery_sherd.json
--  minecraft/models/item/danger_pottery_shard.json
-+  minecraft/models/item/danger_pottery_sherd.json
--  minecraft/models/item/explorer_pottery_shard.json
-+  minecraft/models/item/explorer_pottery_sherd.json
--  minecraft/models/item/friend_pottery_shard.json
-+  minecraft/models/item/friend_pottery_sherd.json
--  minecraft/models/item/heart_pottery_shard.json
-+  minecraft/models/item/heart_pottery_sherd.json
--  minecraft/models/item/heartbreak_pottery_shard.json
-+  minecraft/models/item/heartbreak_pottery_sherd.json
--  minecraft/models/item/howl_pottery_shard.json
-+  minecraft/models/item/howl_pottery_sherd.json
--  minecraft/models/item/miner_pottery_shard.json
-+  minecraft/models/item/miner_pottery_sherd.json
--  minecraft/models/item/mourner_pottery_shard.json
-+  minecraft/models/item/mourner_pottery_sherd.json
--  minecraft/models/item/plenty_pottery_shard.json
-+  minecraft/models/item/plenty_pottery_sherd.json
--  minecraft/models/item/prize_pottery_shard.json
-+  minecraft/models/item/prize_pottery_sherd.json
--  minecraft/models/item/sheaf_pottery_shard.json
-+  minecraft/models/item/sheaf_pottery_sherd.json
--  minecraft/models/item/shelter_pottery_shard.json
-+  minecraft/models/item/shelter_pottery_sherd.json
--  minecraft/models/item/skull_pottery_shard.json
-+  minecraft/models/item/skull_pottery_sherd.json
--  minecraft/models/item/snort_pottery_shard.json
-+  minecraft/models/item/snort_pottery_sherd.json
--  minecraft/textures/item/angler_pottery_shard.png
-+  minecraft/textures/item/angler_pottery_sherd.png
--  minecraft/textures/item/archer_pottery_shard.png
-+  minecraft/textures/item/archer_pottery_sherd.png
--  minecraft/textures/item/arms_up_pottery_shard.png
-+  minecraft/textures/item/arms_up_pottery_sherd.png
--  minecraft/textures/item/blade_pottery_shard.png
-+  minecraft/textures/item/blade_pottery_sherd.png
--  minecraft/textures/item/brewer_pottery_shard.png
-+  minecraft/textures/item/brewer_pottery_sherd.png
--  minecraft/textures/item/burn_pottery_shard.png
-+  minecraft/textures/item/burn_pottery_sherd.png
--  minecraft/textures/item/danger_pottery_shard.png
-+  minecraft/textures/item/danger_pottery_sherd.png
--  minecraft/textures/item/explorer_pottery_shard.png
-+  minecraft/textures/item/explorer_pottery_sherd.png
--  minecraft/textures/item/friend_pottery_shard.png
-+  minecraft/textures/item/friend_pottery_sherd.png
--  minecraft/textures/item/heart_pottery_shard.png
-+  minecraft/textures/item/heart_pottery_sherd.png
--  minecraft/textures/item/heartbreak_pottery_shard.png
-+  minecraft/textures/item/heartbreak_pottery_sherd.png
--  minecraft/textures/item/howl_pottery_shard.png
-+  minecraft/textures/item/howl_pottery_sherd.png
--  minecraft/textures/item/miner_pottery_shard.png
-+  minecraft/textures/item/miner_pottery_sherd.png
--  minecraft/textures/item/mourner_pottery_shard.png
-+  minecraft/textures/item/mourner_pottery_sherd.png
--  minecraft/textures/item/plenty_pottery_shard.png
-+  minecraft/textures/item/plenty_pottery_sherd.png
--  minecraft/textures/item/prize_pottery_shard.png
-+  minecraft/textures/item/prize_pottery_sherd.png
--  minecraft/textures/item/sheaf_pottery_shard.png
-+  minecraft/textures/item/sheaf_pottery_sherd.png
--  minecraft/textures/item/shelter_pottery_shard.png
-+  minecraft/textures/item/shelter_pottery_sherd.png
--  minecraft/textures/item/skull_pottery_shard.png
-+  minecraft/textures/item/skull_pottery_sherd.png
--  minecraft/textures/item/snort_pottery_shard.png
-+  minecraft/textures/item/snort_pottery_sherd.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ creative_mode_tab.txt
-```
-
-</details>
-
-<details><summary>chunk_status.txt</summary>
-
-```diff
-- minecraft:heightmaps
-- minecraft:liquid_carvers
-+ minecraft:initialize_light
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:angler_pottery_shard
-- minecraft:archer_pottery_shard
-- minecraft:arms_up_pottery_shard
-- minecraft:blade_pottery_shard
-- minecraft:brewer_pottery_shard
-- minecraft:burn_pottery_shard
-- minecraft:danger_pottery_shard
-- minecraft:explorer_pottery_shard
-- minecraft:friend_pottery_shard
-- minecraft:heart_pottery_shard
-- minecraft:heartbreak_pottery_shard
-- minecraft:howl_pottery_shard
-- minecraft:miner_pottery_shard
-- minecraft:mourner_pottery_shard
-- minecraft:plenty_pottery_shard
-- minecraft:prize_pottery_shard
-- minecraft:sheaf_pottery_shard
-- minecraft:shelter_pottery_shard
-- minecraft:skull_pottery_shard
-- minecraft:snort_pottery_shard
-+ minecraft:angler_pottery_sherd
-+ minecraft:archer_pottery_sherd
-+ minecraft:arms_up_pottery_sherd
-+ minecraft:blade_pottery_sherd
-+ minecraft:brewer_pottery_sherd
-+ minecraft:burn_pottery_sherd
-+ minecraft:danger_pottery_sherd
-+ minecraft:explorer_pottery_sherd
-+ minecraft:friend_pottery_sherd
-+ minecraft:heart_pottery_sherd
-+ minecraft:heartbreak_pottery_sherd
-+ minecraft:howl_pottery_sherd
-+ minecraft:miner_pottery_sherd
-+ minecraft:mourner_pottery_sherd
-+ minecraft:plenty_pottery_sherd
-+ minecraft:prize_pottery_sherd
-+ minecraft:sheaf_pottery_sherd
-+ minecraft:shelter_pottery_sherd
-+ minecraft:skull_pottery_sherd
-+ minecraft:snort_pottery_sherd
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:block.sniffer.egg_crack
-- minecraft:block.sniffer.egg_hatch
-+ minecraft:block.sniffer_egg.crack
-+ minecraft:block.sniffer_egg.hatch
-+ minecraft:block.sniffer_egg.plop
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ return.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- items/decorated_pot_shards.json
-+ blocks/maintains_farmland.json
-+ blocks/stone_buttons.json
-+ items/decorated_pot_sherds.json
-+ items/stone_buttons.json
-+ items/villager_plantable_seeds.json
-```
-
-</details>
-
-<details><summary>blocks/buttons.json</summary>
-
-```diff
-- minecraft:stone_button
-- minecraft:polished_blackstone_button
-+ #minecraft:stone_buttons
-```
-
-</details>
-
-<details><summary>blocks/mineable/pickaxe.json</summary>
-
-```diff
-- minecraft:stone_button
-+ #minecraft:stone_buttons
-```
-
-</details>
-
-<details><summary>blocks/trail_ruins_replaceable.json</summary>
-
-```diff
-- minecraft:sand
-- minecraft:dirt
-- minecraft:coarse_dirt
-```
-
-</details>
-
-<details><summary>items/buttons.json</summary>
-
-```diff
-- minecraft:stone_button
-- minecraft:polished_blackstone_button
-+ #minecraft:stone_buttons
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w16a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- archaeology/trail_ruins.json
-+ archaeology/trail_ruins_common.json
-+ archaeology/trail_ruins_rare.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-- trail_ruins/buildings/group_entrance_three_1.nbt
-- trail_ruins/buildings/group_entrance_two_1.nbt
-- trail_ruins/buildings/group_entrance_two_2.nbt
-- trail_ruins/buildings/group_room_one_1.nbt
-- trail_ruins/buildings/group_room_one_2.nbt
-- trail_ruins/buildings/group_room_two_1.nbt
-- trail_ruins/buildings/group_room_two_2.nbt
-- trail_ruins/buildings/group_room_two_3.nbt
-- trail_ruins/buildings/group_room_two_4.nbt
-- trail_ruins/buildings/group_room_two_5.nbt
-- trail_ruins/roads/road_end_1s.nbt
-+ trail_ruins/buildings/group_full_1.nbt
-+ trail_ruins/buildings/group_full_2.nbt
-+ trail_ruins/buildings/group_full_3.nbt
-+ trail_ruins/buildings/group_full_4.nbt
-+ trail_ruins/buildings/group_full_5.nbt
-+ trail_ruins/buildings/group_hall_1.nbt
-+ trail_ruins/buildings/group_hall_2.nbt
-+ trail_ruins/buildings/group_hall_3.nbt
-+ trail_ruins/buildings/group_hall_4.nbt
-+ trail_ruins/buildings/group_hall_5.nbt
-+ trail_ruins/buildings/group_lower_1.nbt
-+ trail_ruins/buildings/group_lower_2.nbt
-+ trail_ruins/buildings/group_lower_3.nbt
-+ trail_ruins/buildings/group_lower_4.nbt
-+ trail_ruins/buildings/group_lower_5.nbt
-+ trail_ruins/buildings/group_room_1.nbt
-+ trail_ruins/buildings/group_room_2.nbt
-+ trail_ruins/buildings/group_room_3.nbt
-+ trail_ruins/buildings/group_room_4.nbt
-+ trail_ruins/buildings/group_room_5.nbt
-+ trail_ruins/buildings/group_upper_1.nbt
-+ trail_ruins/buildings/group_upper_2.nbt
-+ trail_ruins/buildings/group_upper_3.nbt
-+ trail_ruins/buildings/group_upper_4.nbt
-+ trail_ruins/buildings/group_upper_5.nbt
-+ trail_ruins/buildings/large_room_4.nbt
-+ trail_ruins/buildings/large_room_5.nbt
-+ trail_ruins/buildings/one_room_5.nbt
-+ trail_ruins/decor/decor_7.nbt
-+ trail_ruins/tower/hall_3.nbt
-+ trail_ruins/tower/hall_4.nbt
-+ trail_ruins/tower/hall_5.nbt
-+ trail_ruins/tower/large_hall_3.nbt
-+ trail_ruins/tower/large_hall_4.nbt
-+ trail_ruins/tower/large_hall_5.nbt
-+ trail_ruins/tower/one_room_2.nbt
-+ trail_ruins/tower/one_room_3.nbt
-+ trail_ruins/tower/one_room_4.nbt
-+ trail_ruins/tower/one_room_5.nbt
-+ trail_ruins/tower/platform_2.nbt
-+ trail_ruins/tower/platform_3.nbt
-+ trail_ruins/tower/platform_4.nbt
-+ trail_ruins/tower/platform_5.nbt
-+ trail_ruins/tower/stable_2.nbt
-+ trail_ruins/tower/stable_3.nbt
-+ trail_ruins/tower/stable_4.nbt
-+ trail_ruins/tower/stable_5.nbt
-+ trail_ruins/tower/tower_4.nbt
-+ trail_ruins/tower/tower_5.nbt
-+ trail_ruins/tower/tower_top_1.nbt
-+ trail_ruins/tower/tower_top_2.nbt
-+ trail_ruins/tower/tower_top_3.nbt
-+ trail_ruins/tower/tower_top_4.nbt
-+ trail_ruins/tower/tower_top_5.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- items/decorated_pot_shards.json
-+ blocks/maintains_farmland.json
-+ blocks/stone_buttons.json
-+ items/decorated_pot_sherds.json
-+ items/stone_buttons.json
-+ items/villager_plantable_seeds.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- item/angler_pottery_shard.png
-- item/archer_pottery_shard.png
-- item/arms_up_pottery_shard.png
-- item/blade_pottery_shard.png
-- item/brewer_pottery_shard.png
-- item/burn_pottery_shard.png
-- item/danger_pottery_shard.png
-- item/explorer_pottery_shard.png
-- item/friend_pottery_shard.png
-- item/heartbreak_pottery_shard.png
-- item/heart_pottery_shard.png
-- item/howl_pottery_shard.png
-- item/miner_pottery_shard.png
-- item/mourner_pottery_shard.png
-- item/plenty_pottery_shard.png
-- item/prize_pottery_shard.png
-- item/sheaf_pottery_shard.png
-- item/shelter_pottery_shard.png
-- item/skull_pottery_shard.png
-- item/snort_pottery_shard.png
-+ item/angler_pottery_sherd.png
-+ item/archer_pottery_sherd.png
-+ item/arms_up_pottery_sherd.png
-+ item/blade_pottery_sherd.png
-+ item/brewer_pottery_sherd.png
-+ item/burn_pottery_sherd.png
-+ item/danger_pottery_sherd.png
-+ item/explorer_pottery_sherd.png
-+ item/friend_pottery_sherd.png
-+ item/heartbreak_pottery_sherd.png
-+ item/heart_pottery_sherd.png
-+ item/howl_pottery_sherd.png
-+ item/miner_pottery_sherd.png
-+ item/mourner_pottery_sherd.png
-+ item/plenty_pottery_sherd.png
-+ item/prize_pottery_sherd.png
-+ item/sheaf_pottery_sherd.png
-+ item/shelter_pottery_sherd.png
-+ item/skull_pottery_sherd.png
-+ item/snort_pottery_sherd.png
-```
-
-</details>
-
-<details><summary>worldgen/processor_list.txt</summary>
-
-```diff
-- trail_ruins_suspicious_sand.json
-+ trail_ruins_houses_archaeology.json
-+ trail_ruins_roads_archaeology.json
-+ trail_ruins_tower_top_archaeology.json
-```
-
-</details>
-
-<details><summary>worldgen/template_pool.txt</summary>
-
-```diff
-+ trail_ruins/tower/tower_top.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
-
-```diff
-+ void renderWidget(GuiGraphics,int,int,float)
-- void renderWidget(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.SubtitleOverlay</summary>
-
-```diff
-+ void render(GuiGraphics)
-- void render(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.TabButton</summary>
-
-```diff
-+ void renderFocusUnderline(Font,int)
-+ void renderString(Font,int)
-+ void renderWidget(GuiGraphics,int,int,float)
-- void renderFocusUnderline(Font,int)
-- void renderString(Font,int)
-- void renderWidget(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.TextAndImageButton</summary>
-
-```diff
-+ void renderString(Font,int)
-+ void renderWidget(GuiGraphics,int,int,float)
-- void renderString(Font,int)
-- void renderWidget(PoseStack,int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.tabs.TabNavigationBar</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.RecipeToast</summary>
-
-```diff
-+ Toast$Visibility render(ToastComponent,long)
-- Toast$Visibility render(ToastComponent,long)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent$ToastInstance</summary>
-
-```diff
-+ boolean render(GuiGraphics)
-- boolean render(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.toasts.TutorialToast$Icons</summary>
-
-```diff
-+ void render(GuiGraphics,int,int)
-- void render(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.BackupConfirmScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ConfirmLinkScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList$Entry</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
-- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList</summary>
-
-```diff
-+ ResourceLocation STATS_ICON_LOCATION
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreditsAndAttributionScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.DeathScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.DemoIntroScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBackground(GuiGraphics)
-- void render(PoseStack,int,int,float)
-- void renderBackground(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.DisconnectedScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ErrorScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.GenericWaitingScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
-- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
-
-```diff
-+ void basicListRender(OptionsList,int,int,float)
-- void basicListRender(OptionsList,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.PopupScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen$PresetsList$Entry</summary>
-
-```diff
-+ ResourceLocation STATS_ICON_LOCATION
-+ void <clinit>()
-+ void blitSlot(Item)
-+ void blitSlotBg(GuiGraphics,int,int)
-+ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
-- void blitSlot(Item)
-- void blitSlotBg(PoseStack,int,int)
-- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.ReceivingLevelScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
-
-```diff
-+ SplashRenderer splash
-- String splash
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.VideoSettingsScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList</summary>
-
-```diff
-+ void renderBackground(GuiGraphics)
-- void renderBackground(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList</summary>
-
-```diff
-+ void renderBackground(GuiGraphics)
-+ void renderDecorations(GuiGraphics,int,int)
-+ void renderHeader(GuiGraphics,int,int)
-+ void renderMousehoverTooltip(Component,int,int)
-- void renderBackground(PoseStack)
-- void renderDecorations(PoseStack,int,int)
-- void renderHeader(PoseStack,int,int)
-- void renderMousehoverTooltip(Component,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList$MobRow</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
-- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTabType</summary>
-
-```diff
-+ void draw(GuiGraphics,int,int,boolean,int)
-+ void drawIcon(ItemStack)
-- void draw(PoseStack,int,int,boolean,int)
-- void drawIcon(ItemStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementWidget</summary>
-
-```diff
-+ void draw(GuiGraphics,int,int)
-+ void drawConnectivity(GuiGraphics,int,int,boolean)
-+ void drawHover(GuiGraphics,int,int,float,int,int)
-- void draw(PoseStack,int,int)
-- void drawConnectivity(PoseStack,int,int,boolean)
-- void drawHover(PoseStack,int,int,float,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementsScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderInside(GuiGraphics,int,int,int,int)
-+ void renderTooltips(GuiGraphics,int,int,int,int)
-+ void renderWindow(GuiGraphics,int,int)
-- void render(PoseStack,int,int,float)
-- void renderInside(PoseStack,int,int,int,int)
-- void renderTooltips(PoseStack,int,int,int,int)
-- void renderWindow(PoseStack,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.controls.ControlsScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
-- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen</summary>
-
-```diff
-+ GameModeSwitcherScreen$GameModeIcon currentlyHovered
-+ GameModeSwitcherScreen$GameModeIcon previousHovered
-- Optional currentlyHovered
-- Optional previousHovered
-+ void render(GuiGraphics,int,int,float)
-+ void switchToHoveredGameMode(GameModeSwitcherScreen$GameModeIcon)
-- ItemRenderer access$000(GameModeSwitcherScreen)
-- void lambda$render$0(GameModeSwitcherScreen$GameModeIcon)
-- void lambda$render$1(GameModeSwitcherScreen$GameModeIcon)
-- void render(PoseStack,int,int,float)
-- void switchToHoveredGameMode(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeIcon</summary>
-
-```diff
-+ GameModeSwitcherScreen$GameModeIcon getFromGameType(GameType)
-+ GameModeSwitcherScreen$GameModeIcon getNext()
-+ void drawIcon(GuiGraphics,int,int)
-- Optional getFromGameType(GameType)
-- Optional getNext()
-- void drawIcon(ItemRenderer,int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
-
-```diff
-+ void renderBg(GuiGraphics,float,int,int)
-+ void renderErrorIcon(GuiGraphics,int,int)
-+ void renderFg(GuiGraphics,int,int,float)
-+ void renderLabels(GuiGraphics,int,int)
-- void renderBg(PoseStack,float,int,int)
-- void renderErrorIcon(PoseStack,int,int)
-- void renderFg(PoseStack,int,int,float)
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconPowerButton</summary>
-
-```diff
-+ void renderIcon(GuiGraphics)
-- void renderIcon(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconSpriteScreenButton</summary>
-
-```diff
-+ void renderIcon(GuiGraphics)
-- void renderIcon(PoseStack)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BrewingStandScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.ContainerScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.DispenserScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.HangingSignEditScreen</summary>
-
-```diff
-+ void offsetSign(BlockState)
-+ void renderSignBackground(BlockState)
-- void offsetSign(BlockState)
-- void renderSignBackground(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.HorseInventoryScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.ItemCombinerScreen</summary>
-
-```diff
-+ void renderErrorIcon(net.minecraft.client.gui.GuiGraphics,int,int)
-- void renderErrorIcon(com.mojang.blaze3d.vertex.PoseStack,int,int)
-+ void render(GuiGraphics,int,int,float)
-+ void renderBg(GuiGraphics,float,int,int)
-+ void renderFg(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-- void renderBg(PoseStack,float,int,int)
-- void renderFg(PoseStack,int,int,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen$TradeOfferButton</summary>
-
-```diff
-+ void renderToolTip(GuiGraphics,int,int)
-- void renderToolTip(PoseStack,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.PageButton</summary>
-
-```diff
-+ void renderWidget(GuiGraphics,int,int,float)
-- void renderWidget(PoseStack,int,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.SignEditScreen</summary>
-
-```diff
-+ void offsetSign(BlockState)
-+ void renderSignBackground(BlockState)
-- void offsetSign(BlockState)
-- void renderSignBackground(BlockState)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.BelowOrAboveWidgetTooltipPositioner</summary>
-
-```diff
-+ Vector2ic positionTooltip(int,int,int,int,int,int)
-- Vector2ic positionTooltip(Screen,int,int,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent</summary>
-
-```diff
-+ void renderImage(GuiGraphics)
-- void renderImage(ItemRenderer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.DefaultTooltipPositioner</summary>
-
-```diff
-+ Vector2ic positionTooltip(int,int,int,int,int,int)
-+ void positionTooltip(Vector2i,int,int)
-- Vector2ic positionTooltip(Screen,int,int,int,int)
-- void positionTooltip(Vector2i,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.TooltipRenderUtil</summary>
-
-```diff
-+ void renderFrameGradient(GuiGraphics,int,int,int,int,int,int,int)
-+ void renderHorizontalLine(GuiGraphics,int,int,int,int,int)
-+ void renderRectangle(GuiGraphics,int,int,int,int,int,int)
-+ void renderTooltipBackground(GuiGraphics,int,int,int,int,int)
-+ void renderVerticalLine(GuiGraphics,int,int,int,int,int)
-+ void renderVerticalLineGradient(GuiGraphics,int,int,int,int,int,int)
-- void renderFrameGradient(BufferBuilder,int,int,int,int,int,int,int)
-- void renderHorizontalLine(BufferBuilder,int,int,int,int,int)
-- void renderRectangle(BufferBuilder,int,int,int,int,int,int)
-- void renderTooltipBackground(BufferBuilder,int,int,int,int,int)
-- void renderVerticalLine(BufferBuilder,int,int,int,int,int)
-- void renderVerticalLineGradient(BufferBuilder,int,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
-
-```diff
-- String lambda$tryRenderGuiItem$0(ItemStack)
-- String lambda$tryRenderGuiItem$1(ItemStack)
-- String lambda$tryRenderGuiItem$2(ItemStack)
-- String lambda$tryRenderGuiItem$3(ItemStack)
-- void renderAndDecorateFakeItem(ItemStack,int,int)
-- void renderAndDecorateItem(ItemStack,int,int,int,int)
-- void renderAndDecorateItem(ItemStack,int,int,int)
-- void renderAndDecorateItem(ItemStack,int,int,int)
-- void renderAndDecorateItem(ItemStack,int,int)
-- void renderGuiItem(BakedModel)
-- void renderGuiItem(ItemStack,int,int)
-- void renderGuiItemDecorations(ItemStack,int,int)
-- void renderGuiItemDecorations(String)
-- void tryRenderGuiItem(ItemStack,int,int,int,int)
-- void tryRenderGuiItem(ItemStack,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.BuiltInRegistries</summary>
-
-```diff
-+ Registry CREATIVE_MODE_TAB
-```
-
-</details>
-
-<details><summary>net.minecraft.core.registries.Registries</summary>
-
-```diff
-+ ResourceKey CREATIVE_MODE_TAB
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLootSubProvider</summary>
-
-```diff
-+ void <init>(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ void createGenericCube(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
-
-```diff
-+ void render(GuiGraphics,int,int,float)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager$ExecutionContext</summary>
-
-```diff
-+ boolean abortCurrentDepth
-+ CommandSourceStack wrapSender(CommandSourceStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent SNIFFER_EGG_PLOP
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey MAINTAINS_FARMLAND
-+ TagKey STONE_BUTTONS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey DECORATED_POT_SHERDS
-+ TagKey STONE_BUTTONS
-+ TagKey VILLAGER_PLANTABLE_SEEDS
-- TagKey DECORATED_POT_SHARDS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean walkingOnBlock(Vec3)
-+ void playMuffledStepSound(BlockState)
-+ void walkingStepSound(BlockState)
-+ void waterSwimSound()
-- void handleStepSounds(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
-
-```diff
-+ void checkConsistencyWithBlocks(LevelChunkSection)
-- void checkConsistencyWithBlocks(LevelChunkSection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
-
-```diff
-- AnimationState searchingAnimationState
-+ boolean isSearching()
-- boolean canRide(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
-
-```diff
-- NoteBlockInstrument lambda$setInstrument$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
-
-```diff
-- int PULSE_TICKS
-- GameEventListener getListener(BlockEntity)
-- void bloom(RandomSource)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-- GameEventListener getListener(BlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
-
-```diff
-+ SoundType EMPTY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
-
-```diff
-+ void awardUsedRecipes(List)
-- void awardUsedRecipes(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
-
-```diff
-+ SculkCatalystBlockEntity$CatalystListener catalystListener
-- BlockPositionSource blockPosSource
-- SculkSpreader sculkSpreader
-+ GameEventListener getListener()
-+ SculkCatalystBlockEntity$CatalystListener getListener()
-- boolean handleGameEvent(Vec3)
-- GameEventListener$DeliveryMode getDeliveryMode()
-- int getListenerRadius()
-- Integer lambda$saveAdditional$0(SculkSpreader$ChargeCursor)
-- PositionSource getListenerSource()
-- SculkSpreader getSculkSpreader()
-- void tryAwardItSpreadsAdvancement(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ boolean legacySolid
-+ boolean replaceable
-+ NoteBlockInstrument instrument
-+ boolean blocksMotion()
-+ boolean calculateSolid()
-+ boolean isSolid()
-+ NoteBlockInstrument instrument()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ boolean forceSolidOff
-+ boolean forceSolidOn
-+ boolean replaceable
-+ NoteBlockInstrument instrument
-+ BlockBehaviour$Properties forceSolidOff()
-+ BlockBehaviour$Properties forceSolidOn()
-+ BlockBehaviour$Properties instrument(NoteBlockInstrument)
-+ BlockBehaviour$Properties replaceable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.NoteBlockInstrument</summary>
-
-```diff
-+ boolean worksAboveNoteBlock()
-- boolean requiresAirAbove()
-- NoteBlockInstrument byStateBelow(BlockState)
-- Optional byStateAbove(BlockState)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
-
-```diff
-+ SculkSensorPhase COOLDOWN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.DataLayer</summary>
-
-```diff
-+ int defaultValue
-+ boolean isDefinitelyFilledWith(int)
-+ boolean isDefinitelyHomogenous()
-+ byte packFilled(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventListenerRegistry</summary>
-
-```diff
-+ EuclideanGameEventListenerRegistry$OnEmptyAction onEmptyAction
-+ int sectionY
-+ void <init>(EuclideanGameEventListenerRegistry$OnEmptyAction)
-- void <init>(ServerLevel)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.platform.IconSet
@@ -6599,1673 +3201,832 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
+<details><summary>net.minecraft.client.gui.components.StateSwitchingButton</summary>
 
 ```diff
-+ boolean DEBUG_SKY_LIGHT_SECTIONS
-+ boolean USE_WORKFLOWS_HOOKS
++ void renderWidget(GuiGraphics,int,int,float)
+- void renderWidget(PoseStack,int,int,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+<details><summary>net.minecraft.client.gui.components.SubtitleOverlay</summary>
 
 ```diff
-+ IntConsumer returnValueConsumer
-+ CommandSourceStack withReturnValueConsumer(IntConsumer)
-+ CompletableFuture lambda$suggestRegistryElements$2(Registry)
-+ IntConsumer getReturnValueConsumer()
-+ void <init>(IntConsumer)
-+ void lambda$new$1(int)
-- CompletableFuture lambda$suggestRegistryElements$1(Registry)
-- void <init>(TaskChainer)
++ void render(GuiGraphics)
+- void render(PoseStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
+<details><summary>net.minecraft.client.gui.components.TabButton</summary>
 
 ```diff
-+ ResourceKey TRAIL_RUINS_HOUSES_ARCHAEOLOGY
-+ ResourceKey TRAIL_RUINS_ROADS_ARCHAEOLOGY
-+ ResourceKey TRAIL_RUINS_TOWER_TOP_ARCHAEOLOGY
-- ResourceKey TRAIL_RUINS_SUSPICIOUS_SAND
-+ CappedProcessor trailsArchyLootProcessor(ResourceLocation,int)
++ void renderFocusUnderline(GuiGraphics,Font,int)
+- void renderFocusUnderline(PoseStack,Font,int)
++ void renderString(GuiGraphics,Font,int)
+- void renderString(PoseStack,Font,int)
++ void renderWidget(GuiGraphics,int,int,float)
+- void renderWidget(PoseStack,int,int,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.locale.Language</summary>
+<details><summary>net.minecraft.client.gui.components.TextAndImageButton</summary>
 
 ```diff
-+ void parseTranslations(String)
++ void renderString(GuiGraphics,Font,int)
+- void renderString(PoseStack,Font,int)
++ void renderWidget(GuiGraphics,int,int,float)
+- void renderWidget(PoseStack,int,int,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
+<details><summary>net.minecraft.client.gui.components.tabs.TabNavigationBar</summary>
 
 ```diff
-+ boolean hasExpired()
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.components.toasts.RecipeToast</summary>
 
+```diff
++ Toast$Visibility render(GuiGraphics,ToastComponent,long)
+- Toast$Visibility render(PoseStack,ToastComponent,long)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent$ToastInstance</summary>
 
+```diff
++ boolean render(int,GuiGraphics)
+- boolean render(int,PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.components.toasts.TutorialToast$Icons</summary>
 
+```diff
++ void render(GuiGraphics,int,int)
+- void render(PoseStack,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.BackupConfirmScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ChatScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ConfirmLinkScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList$Entry</summary>
 
+```diff
++ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
+- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList</summary>
 
+```diff
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreditsAndAttributionScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.DeathScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.DemoIntroScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBackground(GuiGraphics)
+- void renderBackground(PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.DisconnectedScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ErrorScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.GenericWaitingScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
 
+```diff
++ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
+- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
 
+```diff
++ void basicListRender(GuiGraphics,OptionsList,int,int,float)
+- void basicListRender(PoseStack,OptionsList,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.PopupScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.PresetFlatWorldScreen$PresetsList$Entry</summary>
 
+```diff
++ void <clinit>()
++ void blitSlot(GuiGraphics,int,int,Item)
+- void blitSlot(PoseStack,int,int,Item)
++ void blitSlotBg(GuiGraphics,int,int)
+- void blitSlotBg(PoseStack,int,int)
++ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
+- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ReceivingLevelScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.VideoSettingsScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$GeneralStatisticsList</summary>
 
+```diff
++ void renderBackground(GuiGraphics)
+- void renderBackground(PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList</summary>
 
+```diff
++ void renderBackground(GuiGraphics)
+- void renderBackground(PoseStack)
++ void renderDecorations(GuiGraphics,int,int)
+- void renderDecorations(PoseStack,int,int)
++ void renderHeader(GuiGraphics,int,int)
+- void renderHeader(PoseStack,int,int)
++ void renderMousehoverTooltip(GuiGraphics,Component,int,int)
+- void renderMousehoverTooltip(PoseStack,Component,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$MobsStatisticsList$MobRow</summary>
 
+```diff
++ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
+- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTabType</summary>
 
+```diff
++ void draw(GuiGraphics,int,int,boolean,int)
+- void draw(PoseStack,int,int,boolean,int)
++ void drawIcon(GuiGraphics,int,int,int,ItemStack)
+- void drawIcon(PoseStack,int,int,int,ItemRenderer,ItemStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementWidget</summary>
 
+```diff
++ void draw(GuiGraphics,int,int)
+- void draw(PoseStack,int,int)
++ void drawConnectivity(GuiGraphics,int,int,boolean)
+- void drawConnectivity(PoseStack,int,int,boolean)
++ void drawHover(GuiGraphics,int,int,float,int,int)
+- void drawHover(PoseStack,int,int,float,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementsScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderInside(GuiGraphics,int,int,int,int)
+- void renderInside(PoseStack,int,int,int,int)
++ void renderTooltips(GuiGraphics,int,int,int,int)
+- void renderTooltips(PoseStack,int,int,int,int)
++ void renderWindow(GuiGraphics,int,int)
+- void renderWindow(PoseStack,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.controls.ControlsScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry</summary>
 
+```diff
++ void render(GuiGraphics,int,int,int,int,int,int,int,boolean,float)
+- void render(PoseStack,int,int,int,int,int,int,int,boolean,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen</summary>
 
+```diff
+- ItemRenderer access$000(GameModeSwitcherScreen)
+- void lambda$render$0(PoseStack,GameModeSwitcherScreen$GameModeIcon)
+- void lambda$render$1(GameModeSwitcherScreen$GameModeSlot,GameModeSwitcherScreen$GameModeIcon)
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void switchToHoveredGameMode(Minecraft,GameModeSwitcherScreen$GameModeIcon)
+- void switchToHoveredGameMode(Minecraft,Optional)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeIcon</summary>
 
+```diff
++ GameModeSwitcherScreen$GameModeIcon getFromGameType(GameType)
++ GameModeSwitcherScreen$GameModeIcon getNext()
+- Optional getFromGameType(GameType)
+- Optional getNext()
++ void drawIcon(GuiGraphics,int,int)
+- void drawIcon(PoseStack,ItemRenderer,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.AnvilScreen</summary>
 
+```diff
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
++ void renderErrorIcon(GuiGraphics,int,int)
+- void renderErrorIcon(PoseStack,int,int)
++ void renderFg(GuiGraphics,int,int,float)
+- void renderFg(PoseStack,int,int,float)
++ void renderLabels(GuiGraphics,int,int)
+- void renderLabels(PoseStack,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconPowerButton</summary>
 
+```diff
++ void renderIcon(GuiGraphics)
+- void renderIcon(PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.BeaconScreen$BeaconSpriteScreenButton</summary>
 
+```diff
++ void renderIcon(GuiGraphics)
+- void renderIcon(PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.BrewingStandScreen</summary>
 
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
+```
 
+</details>
 
+
+<details><summary>net.minecraft.client.gui.screens.inventory.ContainerScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.DispenserScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.HangingSignEditScreen</summary>
+
+```diff
++ void offsetSign(GuiGraphics,BlockState)
+- void offsetSign(PoseStack,BlockState)
++ void renderSignBackground(GuiGraphics,BlockState)
+- void renderSignBackground(PoseStack,MultiBufferSource$BufferSource,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.HorseInventoryScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.ItemCombinerScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
++ void renderBg(GuiGraphics,float,int,int)
+- void renderBg(PoseStack,float,int,int)
++ void renderFg(GuiGraphics,int,int,float)
+- void renderFg(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.MerchantScreen$TradeOfferButton</summary>
+
+```diff
++ void renderToolTip(GuiGraphics,int,int)
+- void renderToolTip(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.PageButton</summary>
+
+```diff
++ void renderWidget(GuiGraphics,int,int,float)
+- void renderWidget(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.SignEditScreen</summary>
+
+```diff
++ void offsetSign(GuiGraphics,BlockState)
+- void offsetSign(PoseStack,BlockState)
++ void renderSignBackground(GuiGraphics,BlockState)
+- void renderSignBackground(PoseStack,MultiBufferSource$BufferSource,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.StructureBlockEditScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.BelowOrAboveWidgetTooltipPositioner</summary>
+
+```diff
++ Vector2ic positionTooltip(int,int,int,int,int,int)
+- Vector2ic positionTooltip(Screen,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent</summary>
+
+```diff
++ void renderImage(Font,int,int,GuiGraphics)
+- void renderImage(Font,int,int,PoseStack,ItemRenderer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.DefaultTooltipPositioner</summary>
+
+```diff
++ Vector2ic positionTooltip(int,int,int,int,int,int)
+- Vector2ic positionTooltip(Screen,int,int,int,int)
++ void positionTooltip(int,int,Vector2i,int,int)
+- void positionTooltip(Screen,Vector2i,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.TooltipRenderUtil</summary>
+
+```diff
++ void renderFrameGradient(GuiGraphics,int,int,int,int,int,int,int)
+- void renderFrameGradient(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int,int,int)
++ void renderHorizontalLine(GuiGraphics,int,int,int,int,int)
+- void renderHorizontalLine(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int)
++ void renderRectangle(GuiGraphics,int,int,int,int,int,int)
+- void renderRectangle(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int,int)
++ void renderTooltipBackground(GuiGraphics,int,int,int,int,int)
+- void renderTooltipBackground(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int)
++ void renderVerticalLine(GuiGraphics,int,int,int,int,int)
+- void renderVerticalLine(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int)
++ void renderVerticalLineGradient(GuiGraphics,int,int,int,int,int,int)
+- void renderVerticalLineGradient(TooltipRenderUtil$BlitPainter,Matrix4f,BufferBuilder,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
+
+```diff
+- String lambda$tryRenderGuiItem$0(ItemStack)
+- String lambda$tryRenderGuiItem$1(ItemStack)
+- String lambda$tryRenderGuiItem$2(ItemStack)
+- String lambda$tryRenderGuiItem$3(ItemStack)
+- void renderAndDecorateFakeItem(PoseStack,ItemStack,int,int)
+- void renderAndDecorateItem(PoseStack,ItemStack,int,int,int,int)
+- void renderAndDecorateItem(PoseStack,ItemStack,int,int,int)
+- void renderAndDecorateItem(PoseStack,ItemStack,int,int)
+- void renderAndDecorateItem(PoseStack,LivingEntity,ItemStack,int,int,int)
+- void renderGuiItem(PoseStack,ItemStack,int,int,BakedModel)
+- void renderGuiItem(PoseStack,ItemStack,int,int)
+- void renderGuiItemDecorations(PoseStack,Font,ItemStack,int,int,String)
+- void renderGuiItemDecorations(PoseStack,Font,ItemStack,int,int)
+- void tryRenderGuiItem(PoseStack,LivingEntity,Level,ItemStack,int,int,int,int)
+- void tryRenderGuiItem(PoseStack,LivingEntity,Level,ItemStack,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLootSubProvider</summary>
+
+```diff
++ void <init>(Set,FeatureFlagSet,Map)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createGenericCube(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
+
+```diff
++ void render(GuiGraphics,int,int,float)
+- void render(PoseStack,int,int,float)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.server.ServerFunctionManager$ExecutionContext</summary>
 
 ```diff
-+ boolean abortCurrentDepth
 + CommandSourceStack wrapSender(CommandSourceStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent SNIFFER_EGG_PLOP
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey MAINTAINS_FARMLAND
-+ TagKey STONE_BUTTONS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey DECORATED_POT_SHERDS
-+ TagKey STONE_BUTTONS
-+ TagKey VILLAGER_PLANTABLE_SEEDS
-- TagKey DECORATED_POT_SHARDS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ boolean walkingOnBlock(Vec3)
++ boolean walkingOnBlock(boolean,Vec3)
+- void handleStepSounds(BlockPos,BlockState)
 + void playMuffledStepSound(BlockState)
-+ void walkingStepSound(BlockState)
++ void walkingStepSound(BlockPos,BlockState)
 + void waterSwimSound()
-- void handleStepSounds(BlockState)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
 
 ```diff
-+ void checkConsistencyWithBlocks(LevelChunkSection)
-- void checkConsistencyWithBlocks(LevelChunkSection)
+- void checkConsistencyWithBlocks(ChunkPos,LevelChunkSection)
++ void checkConsistencyWithBlocks(SectionPos,LevelChunkSection)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
 
 ```diff
-- AnimationState searchingAnimationState
-+ boolean isSearching()
 - boolean canRide(Entity)
++ boolean isSearching()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.NoteBlock</summary>
 
 ```diff
-- NoteBlockInstrument lambda$setInstrument$0(BlockPos)
+- NoteBlockInstrument lambda$setInstrument$0(LevelAccessor,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
 
 ```diff
-- int PULSE_TICKS
-- GameEventListener getListener(BlockEntity)
-- void bloom(RandomSource)
+- GameEventListener getListener(ServerLevel,BlockEntity)
+- void bloom(ServerLevel,BlockPos,BlockState,RandomSource)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
 
 ```diff
-- GameEventListener getListener(BlockEntity)
+- GameEventListener getListener(ServerLevel,BlockEntity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
-
-```diff
-+ SoundType EMPTY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
 
 ```diff
-+ void awardUsedRecipes(List)
++ void awardUsedRecipes(Player,List)
 - void awardUsedRecipes(Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
 
 ```diff
-+ SculkCatalystBlockEntity$CatalystListener catalystListener
-- BlockPositionSource blockPosSource
-- SculkSpreader sculkSpreader
+- boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
 + GameEventListener getListener()
-+ SculkCatalystBlockEntity$CatalystListener getListener()
-- boolean handleGameEvent(Vec3)
 - GameEventListener$DeliveryMode getDeliveryMode()
 - int getListenerRadius()
 - Integer lambda$saveAdditional$0(SculkSpreader$ChargeCursor)
 - PositionSource getListenerSource()
++ SculkCatalystBlockEntity$CatalystListener getListener()
 - SculkSpreader getSculkSpreader()
 - void tryAwardItSpreadsAdvancement(LivingEntity)
 ```
@@ -8273,32 +4034,9 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
 
 ```diff
-+ boolean legacySolid
-+ boolean replaceable
-+ NoteBlockInstrument instrument
 + boolean blocksMotion()
 + boolean calculateSolid()
 + boolean isSolid()
@@ -8311,10 +4049,6 @@
 <details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
 
 ```diff
-+ boolean forceSolidOff
-+ boolean forceSolidOn
-+ boolean replaceable
-+ NoteBlockInstrument instrument
 + BlockBehaviour$Properties forceSolidOff()
 + BlockBehaviour$Properties forceSolidOn()
 + BlockBehaviour$Properties instrument(NoteBlockInstrument)
@@ -8324,27 +4058,11 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.state.properties.NoteBlockInstrument</summary>
 
 ```diff
-+ boolean worksAboveNoteBlock()
 - boolean requiresAirAbove()
++ boolean worksAboveNoteBlock()
 - NoteBlockInstrument byStateBelow(BlockState)
 - Optional byStateAbove(BlockState)
 ```
@@ -8352,35 +4070,9 @@
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
-
-```diff
-+ SculkSensorPhase COOLDOWN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.chunk.DataLayer</summary>
 
 ```diff
-+ int defaultValue
 + boolean isDefinitelyFilledWith(int)
 + boolean isDefinitelyHomogenous()
 + byte packFilled(int)
@@ -8389,263 +4081,22 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventListenerRegistry</summary>
 
 ```diff
-+ EuclideanGameEventListenerRegistry$OnEmptyAction onEmptyAction
-+ int sectionY
-+ void <init>(EuclideanGameEventListenerRegistry$OnEmptyAction)
++ void <init>(ServerLevel,int,EuclideanGameEventListenerRegistry$OnEmptyAction)
 - void <init>(ServerLevel)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance
@@ -10432,13 +5883,754 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+
+```diff
++ CommandSourceStack withReturnValueConsumer(IntConsumer)
+- CompletableFuture lambda$suggestRegistryElements$1(SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,Registry)
++ CompletableFuture lambda$suggestRegistryElements$2(SharedSuggestionProvider$ElementSuggestionType,SuggestionsBuilder,Registry)
++ IntConsumer getReturnValueConsumer()
++ void <init>(CommandSource,Vec3,Vec2,ServerLevel,int,String,Component,MinecraftServer,Entity,boolean,ResultConsumer,EntityAnchorArgument$Anchor,CommandSigningContext,TaskChainer,IntConsumer)
+- void <init>(CommandSource,Vec3,Vec2,ServerLevel,int,String,Component,MinecraftServer,Entity,boolean,ResultConsumer,EntityAnchorArgument$Anchor,CommandSigningContext,TaskChainer)
++ void lambda$new$1(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
+
+```diff
++ CappedProcessor trailsArchyLootProcessor(ResourceLocation,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.locale.Language</summary>
+
+```diff
++ void parseTranslations(BiConsumer,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
+
+```diff
++ boolean hasExpired()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionManager$ExecutionContext</summary>
+
+```diff
++ CommandSourceStack wrapSender(CommandSourceStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean walkingOnBlock(boolean,Vec3)
+- void handleStepSounds(BlockPos,BlockState)
++ void playMuffledStepSound(BlockState)
++ void walkingStepSound(BlockPos,BlockState)
++ void waterSwimSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiManager</summary>
+
+```diff
+- void checkConsistencyWithBlocks(ChunkPos,LevelChunkSection)
++ void checkConsistencyWithBlocks(SectionPos,LevelChunkSection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
+
+```diff
+- boolean canRide(Entity)
++ boolean isSearching()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+
+```diff
+- NoteBlockInstrument lambda$setInstrument$0(LevelAccessor,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
+
+```diff
+- GameEventListener getListener(ServerLevel,BlockEntity)
+- void bloom(ServerLevel,BlockPos,BlockState,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
+- GameEventListener getListener(ServerLevel,BlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity</summary>
+
+```diff
++ void awardUsedRecipes(Player,List)
+- void awardUsedRecipes(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
+
+```diff
+- boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
++ GameEventListener getListener()
+- GameEventListener$DeliveryMode getDeliveryMode()
+- int getListenerRadius()
+- Integer lambda$saveAdditional$0(SculkSpreader$ChargeCursor)
+- PositionSource getListenerSource()
++ SculkCatalystBlockEntity$CatalystListener getListener()
+- SculkSpreader getSculkSpreader()
+- void tryAwardItSpreadsAdvancement(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+```diff
++ boolean blocksMotion()
++ boolean calculateSolid()
++ boolean isSolid()
++ NoteBlockInstrument instrument()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
+
+```diff
++ BlockBehaviour$Properties forceSolidOff()
++ BlockBehaviour$Properties forceSolidOn()
++ BlockBehaviour$Properties instrument(NoteBlockInstrument)
++ BlockBehaviour$Properties replaceable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.NoteBlockInstrument</summary>
+
+```diff
+- boolean requiresAirAbove()
++ boolean worksAboveNoteBlock()
+- NoteBlockInstrument byStateBelow(BlockState)
+- Optional byStateAbove(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.DataLayer</summary>
+
+```diff
++ boolean isDefinitelyFilledWith(int)
++ boolean isDefinitelyHomogenous()
++ byte packFilled(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventListenerRegistry</summary>
+
+```diff
++ void <init>(ServerLevel,int,EuclideanGameEventListenerRegistry$OnEmptyAction)
+- void <init>(ServerLevel)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/archaeology/trail_ruins_common.json
++ minecraft/loot_tables/archaeology/trail_ruins_rare.json
+- minecraft/loot_tables/archaeology/trail_ruins.json
+- minecraft/structures/trail_ruins/buildings/group_entrance_three_1.nbt
+- minecraft/structures/trail_ruins/buildings/group_entrance_two_1.nbt
+- minecraft/structures/trail_ruins/buildings/group_entrance_two_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_full_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_full_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_full_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_full_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_full_5.nbt
++ minecraft/structures/trail_ruins/buildings/group_hall_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_hall_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_hall_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_hall_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_hall_5.nbt
++ minecraft/structures/trail_ruins/buildings/group_lower_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_lower_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_lower_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_lower_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_lower_5.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_room_5.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_one_1.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_one_2.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_two_1.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_two_2.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_two_3.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_two_4.nbt
+- minecraft/structures/trail_ruins/buildings/group_room_two_5.nbt
++ minecraft/structures/trail_ruins/buildings/group_upper_1.nbt
++ minecraft/structures/trail_ruins/buildings/group_upper_2.nbt
++ minecraft/structures/trail_ruins/buildings/group_upper_3.nbt
++ minecraft/structures/trail_ruins/buildings/group_upper_4.nbt
++ minecraft/structures/trail_ruins/buildings/group_upper_5.nbt
++ minecraft/structures/trail_ruins/buildings/large_room_4.nbt
++ minecraft/structures/trail_ruins/buildings/large_room_5.nbt
++ minecraft/structures/trail_ruins/buildings/one_room_5.nbt
++ minecraft/structures/trail_ruins/decor/decor_7.nbt
+- minecraft/structures/trail_ruins/roads/road_end_1s.nbt
++ minecraft/structures/trail_ruins/tower/hall_3.nbt
++ minecraft/structures/trail_ruins/tower/hall_4.nbt
++ minecraft/structures/trail_ruins/tower/hall_5.nbt
++ minecraft/structures/trail_ruins/tower/large_hall_3.nbt
++ minecraft/structures/trail_ruins/tower/large_hall_4.nbt
++ minecraft/structures/trail_ruins/tower/large_hall_5.nbt
++ minecraft/structures/trail_ruins/tower/one_room_2.nbt
++ minecraft/structures/trail_ruins/tower/one_room_3.nbt
++ minecraft/structures/trail_ruins/tower/one_room_4.nbt
++ minecraft/structures/trail_ruins/tower/one_room_5.nbt
++ minecraft/structures/trail_ruins/tower/platform_2.nbt
++ minecraft/structures/trail_ruins/tower/platform_3.nbt
++ minecraft/structures/trail_ruins/tower/platform_4.nbt
++ minecraft/structures/trail_ruins/tower/platform_5.nbt
++ minecraft/structures/trail_ruins/tower/stable_2.nbt
++ minecraft/structures/trail_ruins/tower/stable_3.nbt
++ minecraft/structures/trail_ruins/tower/stable_4.nbt
++ minecraft/structures/trail_ruins/tower/stable_5.nbt
++ minecraft/structures/trail_ruins/tower/tower_4.nbt
++ minecraft/structures/trail_ruins/tower/tower_5.nbt
++ minecraft/structures/trail_ruins/tower/tower_top_1.nbt
++ minecraft/structures/trail_ruins/tower/tower_top_2.nbt
++ minecraft/structures/trail_ruins/tower/tower_top_3.nbt
++ minecraft/structures/trail_ruins/tower/tower_top_4.nbt
++ minecraft/structures/trail_ruins/tower/tower_top_5.nbt
++ minecraft/tags/blocks/maintains_farmland.json
++ minecraft/tags/blocks/stone_buttons.json
+- minecraft/tags/items/decorated_pot_shards.json
++ minecraft/tags/items/decorated_pot_sherds.json
++ minecraft/tags/items/stone_buttons.json
++ minecraft/tags/items/villager_plantable_seeds.json
++ minecraft/worldgen/processor_list/trail_ruins_houses_archaeology.json
++ minecraft/worldgen/processor_list/trail_ruins_roads_archaeology.json
+- minecraft/worldgen/processor_list/trail_ruins_suspicious_sand.json
++ minecraft/worldgen/processor_list/trail_ruins_tower_top_archaeology.json
++ minecraft/worldgen/template_pool/trail_ruins/tower/tower_top.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/models/item/angler_pottery_shard.json
++ minecraft/models/item/angler_pottery_sherd.json
+- minecraft/models/item/archer_pottery_shard.json
++ minecraft/models/item/archer_pottery_sherd.json
+- minecraft/models/item/arms_up_pottery_shard.json
++ minecraft/models/item/arms_up_pottery_sherd.json
+- minecraft/models/item/blade_pottery_shard.json
++ minecraft/models/item/blade_pottery_sherd.json
+- minecraft/models/item/brewer_pottery_shard.json
++ minecraft/models/item/brewer_pottery_sherd.json
+- minecraft/models/item/burn_pottery_shard.json
++ minecraft/models/item/burn_pottery_sherd.json
+- minecraft/models/item/danger_pottery_shard.json
++ minecraft/models/item/danger_pottery_sherd.json
+- minecraft/models/item/explorer_pottery_shard.json
++ minecraft/models/item/explorer_pottery_sherd.json
+- minecraft/models/item/friend_pottery_shard.json
++ minecraft/models/item/friend_pottery_sherd.json
+- minecraft/models/item/heart_pottery_shard.json
++ minecraft/models/item/heart_pottery_sherd.json
+- minecraft/models/item/heartbreak_pottery_shard.json
++ minecraft/models/item/heartbreak_pottery_sherd.json
+- minecraft/models/item/howl_pottery_shard.json
++ minecraft/models/item/howl_pottery_sherd.json
+- minecraft/models/item/miner_pottery_shard.json
++ minecraft/models/item/miner_pottery_sherd.json
+- minecraft/models/item/mourner_pottery_shard.json
++ minecraft/models/item/mourner_pottery_sherd.json
+- minecraft/models/item/plenty_pottery_shard.json
++ minecraft/models/item/plenty_pottery_sherd.json
+- minecraft/models/item/prize_pottery_shard.json
++ minecraft/models/item/prize_pottery_sherd.json
+- minecraft/models/item/sheaf_pottery_shard.json
++ minecraft/models/item/sheaf_pottery_sherd.json
+- minecraft/models/item/shelter_pottery_shard.json
++ minecraft/models/item/shelter_pottery_sherd.json
+- minecraft/models/item/skull_pottery_shard.json
++ minecraft/models/item/skull_pottery_sherd.json
+- minecraft/models/item/snort_pottery_shard.json
++ minecraft/models/item/snort_pottery_sherd.json
+- minecraft/textures/item/angler_pottery_shard.png
++ minecraft/textures/item/angler_pottery_sherd.png
+- minecraft/textures/item/archer_pottery_shard.png
++ minecraft/textures/item/archer_pottery_sherd.png
+- minecraft/textures/item/arms_up_pottery_shard.png
++ minecraft/textures/item/arms_up_pottery_sherd.png
+- minecraft/textures/item/blade_pottery_shard.png
++ minecraft/textures/item/blade_pottery_sherd.png
+- minecraft/textures/item/brewer_pottery_shard.png
++ minecraft/textures/item/brewer_pottery_sherd.png
+- minecraft/textures/item/burn_pottery_shard.png
++ minecraft/textures/item/burn_pottery_sherd.png
+- minecraft/textures/item/danger_pottery_shard.png
++ minecraft/textures/item/danger_pottery_sherd.png
+- minecraft/textures/item/explorer_pottery_shard.png
++ minecraft/textures/item/explorer_pottery_sherd.png
+- minecraft/textures/item/friend_pottery_shard.png
++ minecraft/textures/item/friend_pottery_sherd.png
+- minecraft/textures/item/heart_pottery_shard.png
++ minecraft/textures/item/heart_pottery_sherd.png
+- minecraft/textures/item/heartbreak_pottery_shard.png
++ minecraft/textures/item/heartbreak_pottery_sherd.png
+- minecraft/textures/item/howl_pottery_shard.png
++ minecraft/textures/item/howl_pottery_sherd.png
+- minecraft/textures/item/miner_pottery_shard.png
++ minecraft/textures/item/miner_pottery_sherd.png
+- minecraft/textures/item/mourner_pottery_shard.png
++ minecraft/textures/item/mourner_pottery_sherd.png
+- minecraft/textures/item/plenty_pottery_shard.png
++ minecraft/textures/item/plenty_pottery_sherd.png
+- minecraft/textures/item/prize_pottery_shard.png
++ minecraft/textures/item/prize_pottery_sherd.png
+- minecraft/textures/item/sheaf_pottery_shard.png
++ minecraft/textures/item/sheaf_pottery_sherd.png
+- minecraft/textures/item/shelter_pottery_shard.png
++ minecraft/textures/item/shelter_pottery_sherd.png
+- minecraft/textures/item/skull_pottery_shard.png
++ minecraft/textures/item/skull_pottery_sherd.png
+- minecraft/textures/item/snort_pottery_shard.png
++ minecraft/textures/item/snort_pottery_sherd.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ creative_mode_tab.txt
+```
+
+</details>
+
+
+<details><summary>chunk_status.txt</summary>
+
+```diff
+- minecraft:heightmaps
++ minecraft:initialize_light
+- minecraft:liquid_carvers
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
+- minecraft:angler_pottery_shard
++ minecraft:angler_pottery_sherd
+- minecraft:archer_pottery_shard
++ minecraft:archer_pottery_sherd
+- minecraft:arms_up_pottery_shard
++ minecraft:arms_up_pottery_sherd
+- minecraft:blade_pottery_shard
++ minecraft:blade_pottery_sherd
+- minecraft:brewer_pottery_shard
++ minecraft:brewer_pottery_sherd
+- minecraft:burn_pottery_shard
++ minecraft:burn_pottery_sherd
+- minecraft:danger_pottery_shard
++ minecraft:danger_pottery_sherd
+- minecraft:explorer_pottery_shard
++ minecraft:explorer_pottery_sherd
+- minecraft:friend_pottery_shard
++ minecraft:friend_pottery_sherd
+- minecraft:heart_pottery_shard
++ minecraft:heart_pottery_sherd
+- minecraft:heartbreak_pottery_shard
++ minecraft:heartbreak_pottery_sherd
+- minecraft:howl_pottery_shard
++ minecraft:howl_pottery_sherd
+- minecraft:miner_pottery_shard
++ minecraft:miner_pottery_sherd
+- minecraft:mourner_pottery_shard
++ minecraft:mourner_pottery_sherd
+- minecraft:plenty_pottery_shard
++ minecraft:plenty_pottery_sherd
+- minecraft:prize_pottery_shard
++ minecraft:prize_pottery_sherd
+- minecraft:sheaf_pottery_shard
++ minecraft:sheaf_pottery_sherd
+- minecraft:shelter_pottery_shard
++ minecraft:shelter_pottery_sherd
+- minecraft:skull_pottery_shard
++ minecraft:skull_pottery_sherd
+- minecraft:snort_pottery_shard
++ minecraft:snort_pottery_sherd
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sniffer_egg.crack
++ minecraft:block.sniffer_egg.hatch
++ minecraft:block.sniffer_egg.plop
+- minecraft:block.sniffer.egg_crack
+- minecraft:block.sniffer.egg_hatch
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ return.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/maintains_farmland.json
++ blocks/stone_buttons.json
+- items/decorated_pot_shards.json
++ items/decorated_pot_sherds.json
++ items/stone_buttons.json
++ items/villager_plantable_seeds.json
+```
+
+</details>
+
+
+<details><summary>blocks/buttons.json</summary>
+
+```diff
++ #minecraft:stone_buttons
+- minecraft:polished_blackstone_button
+- minecraft:stone_button
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/pickaxe.json</summary>
+
+```diff
++ #minecraft:stone_buttons
+- minecraft:stone_button
+```
+
+</details>
+
+
+<details><summary>blocks/trail_ruins_replaceable.json</summary>
+
+```diff
+- minecraft:coarse_dirt
+- minecraft:dirt
+- minecraft:sand
+```
+
+</details>
+
+
+<details><summary>items/buttons.json</summary>
+
+```diff
++ #minecraft:stone_buttons
+- minecraft:polished_blackstone_button
+- minecraft:stone_button
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.function.success.multiple.result
++ commands.function.success.single.result
+- item.minecraft.angler_pottery_shard
++ item.minecraft.angler_pottery_sherd
+- item.minecraft.archer_pottery_shard
++ item.minecraft.archer_pottery_sherd
+- item.minecraft.arms_up_pottery_shard
++ item.minecraft.arms_up_pottery_sherd
+- item.minecraft.blade_pottery_shard
++ item.minecraft.blade_pottery_sherd
+- item.minecraft.brewer_pottery_shard
++ item.minecraft.brewer_pottery_sherd
+- item.minecraft.burn_pottery_shard
++ item.minecraft.burn_pottery_sherd
+- item.minecraft.danger_pottery_shard
++ item.minecraft.danger_pottery_sherd
+- item.minecraft.explorer_pottery_shard
++ item.minecraft.explorer_pottery_sherd
+- item.minecraft.friend_pottery_shard
++ item.minecraft.friend_pottery_sherd
+- item.minecraft.heart_pottery_shard
++ item.minecraft.heart_pottery_sherd
+- item.minecraft.heartbreak_pottery_shard
++ item.minecraft.heartbreak_pottery_sherd
+- item.minecraft.howl_pottery_shard
++ item.minecraft.howl_pottery_sherd
+- item.minecraft.miner_pottery_shard
++ item.minecraft.miner_pottery_sherd
+- item.minecraft.mourner_pottery_shard
++ item.minecraft.mourner_pottery_sherd
+- item.minecraft.plenty_pottery_shard
++ item.minecraft.plenty_pottery_sherd
+- item.minecraft.prize_pottery_shard
++ item.minecraft.prize_pottery_sherd
+- item.minecraft.sheaf_pottery_shard
++ item.minecraft.sheaf_pottery_sherd
+- item.minecraft.shelter_pottery_shard
++ item.minecraft.shelter_pottery_sherd
+- item.minecraft.skull_pottery_shard
++ item.minecraft.skull_pottery_sherd
+- item.minecraft.snort_pottery_shard
++ item.minecraft.snort_pottery_sherd
++ subtitles.block.sniffer_egg.crack
++ subtitles.block.sniffer_egg.hatch
++ subtitles.block.sniffer_egg.plop
+- subtitles.block.sniffer.egg_crack
+- subtitles.block.sniffer.egg_hatch
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ archaeology/trail_ruins_common.json
++ archaeology/trail_ruins_rare.json
+- archaeology/trail_ruins.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
+- trail_ruins/buildings/group_entrance_three_1.nbt
+- trail_ruins/buildings/group_entrance_two_1.nbt
+- trail_ruins/buildings/group_entrance_two_2.nbt
++ trail_ruins/buildings/group_full_1.nbt
++ trail_ruins/buildings/group_full_2.nbt
++ trail_ruins/buildings/group_full_3.nbt
++ trail_ruins/buildings/group_full_4.nbt
++ trail_ruins/buildings/group_full_5.nbt
++ trail_ruins/buildings/group_hall_1.nbt
++ trail_ruins/buildings/group_hall_2.nbt
++ trail_ruins/buildings/group_hall_3.nbt
++ trail_ruins/buildings/group_hall_4.nbt
++ trail_ruins/buildings/group_hall_5.nbt
++ trail_ruins/buildings/group_lower_1.nbt
++ trail_ruins/buildings/group_lower_2.nbt
++ trail_ruins/buildings/group_lower_3.nbt
++ trail_ruins/buildings/group_lower_4.nbt
++ trail_ruins/buildings/group_lower_5.nbt
++ trail_ruins/buildings/group_room_1.nbt
++ trail_ruins/buildings/group_room_2.nbt
++ trail_ruins/buildings/group_room_3.nbt
++ trail_ruins/buildings/group_room_4.nbt
++ trail_ruins/buildings/group_room_5.nbt
+- trail_ruins/buildings/group_room_one_1.nbt
+- trail_ruins/buildings/group_room_one_2.nbt
+- trail_ruins/buildings/group_room_two_1.nbt
+- trail_ruins/buildings/group_room_two_2.nbt
+- trail_ruins/buildings/group_room_two_3.nbt
+- trail_ruins/buildings/group_room_two_4.nbt
+- trail_ruins/buildings/group_room_two_5.nbt
++ trail_ruins/buildings/group_upper_1.nbt
++ trail_ruins/buildings/group_upper_2.nbt
++ trail_ruins/buildings/group_upper_3.nbt
++ trail_ruins/buildings/group_upper_4.nbt
++ trail_ruins/buildings/group_upper_5.nbt
++ trail_ruins/buildings/large_room_4.nbt
++ trail_ruins/buildings/large_room_5.nbt
++ trail_ruins/buildings/one_room_5.nbt
++ trail_ruins/decor/decor_7.nbt
+- trail_ruins/roads/road_end_1s.nbt
++ trail_ruins/tower/hall_3.nbt
++ trail_ruins/tower/hall_4.nbt
++ trail_ruins/tower/hall_5.nbt
++ trail_ruins/tower/large_hall_3.nbt
++ trail_ruins/tower/large_hall_4.nbt
++ trail_ruins/tower/large_hall_5.nbt
++ trail_ruins/tower/one_room_2.nbt
++ trail_ruins/tower/one_room_3.nbt
++ trail_ruins/tower/one_room_4.nbt
++ trail_ruins/tower/one_room_5.nbt
++ trail_ruins/tower/platform_2.nbt
++ trail_ruins/tower/platform_3.nbt
++ trail_ruins/tower/platform_4.nbt
++ trail_ruins/tower/platform_5.nbt
++ trail_ruins/tower/stable_2.nbt
++ trail_ruins/tower/stable_3.nbt
++ trail_ruins/tower/stable_4.nbt
++ trail_ruins/tower/stable_5.nbt
++ trail_ruins/tower/tower_4.nbt
++ trail_ruins/tower/tower_5.nbt
++ trail_ruins/tower/tower_top_1.nbt
++ trail_ruins/tower/tower_top_2.nbt
++ trail_ruins/tower/tower_top_3.nbt
++ trail_ruins/tower/tower_top_4.nbt
++ trail_ruins/tower/tower_top_5.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/maintains_farmland.json
++ blocks/stone_buttons.json
+- items/decorated_pot_shards.json
++ items/decorated_pot_sherds.json
++ items/stone_buttons.json
++ items/villager_plantable_seeds.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- item/angler_pottery_shard.png
++ item/angler_pottery_sherd.png
+- item/archer_pottery_shard.png
++ item/archer_pottery_sherd.png
+- item/arms_up_pottery_shard.png
++ item/arms_up_pottery_sherd.png
+- item/blade_pottery_shard.png
++ item/blade_pottery_sherd.png
+- item/brewer_pottery_shard.png
++ item/brewer_pottery_sherd.png
+- item/burn_pottery_shard.png
++ item/burn_pottery_sherd.png
+- item/danger_pottery_shard.png
++ item/danger_pottery_sherd.png
+- item/explorer_pottery_shard.png
++ item/explorer_pottery_sherd.png
+- item/friend_pottery_shard.png
++ item/friend_pottery_sherd.png
+- item/heart_pottery_shard.png
++ item/heart_pottery_sherd.png
+- item/heartbreak_pottery_shard.png
++ item/heartbreak_pottery_sherd.png
+- item/howl_pottery_shard.png
++ item/howl_pottery_sherd.png
+- item/miner_pottery_shard.png
++ item/miner_pottery_sherd.png
+- item/mourner_pottery_shard.png
++ item/mourner_pottery_sherd.png
+- item/plenty_pottery_shard.png
++ item/plenty_pottery_sherd.png
+- item/prize_pottery_shard.png
++ item/prize_pottery_sherd.png
+- item/sheaf_pottery_shard.png
++ item/sheaf_pottery_sherd.png
+- item/shelter_pottery_shard.png
++ item/shelter_pottery_sherd.png
+- item/skull_pottery_shard.png
++ item/skull_pottery_sherd.png
+- item/snort_pottery_shard.png
++ item/snort_pottery_sherd.png
+```
+
+</details>
+
+
+<details><summary>worldgen/processor_list.txt</summary>
+
+```diff
++ trail_ruins_houses_archaeology.json
++ trail_ruins_roads_archaeology.json
+- trail_ruins_suspicious_sand.json
++ trail_ruins_tower_top_archaeology.json
+```
+
+</details>
+
+
+<details><summary>worldgen/template_pool.txt</summary>
+
+```diff
++ trail_ruins/tower/tower_top.json
+```
+
+</details>

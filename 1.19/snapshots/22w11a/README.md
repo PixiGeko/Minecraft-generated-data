@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w11a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w11a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-03-16T15:55:38+00:00</td></tr>
@@ -10,4971 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/c88f9683d7ac6490f01e58f6710b91689bb14b26/server.txt">https://piston-data.mojang.com/v1/objects/c88f9683d7ac6490f01e58f6710b91689bb14b26/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ae97182a5d2b1f1244c529d0a3b29b33c23ed49c/client.jar">https://piston-data.mojang.com/v1/objects/ae97182a5d2b1f1244c529d0a3b29b33c23ed49c/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/dbb05f0a348f2c76df6916b6aedcf691fb8c11f0/client.txt">https://piston-data.mojang.com/v1/objects/dbb05f0a348f2c76df6916b6aedcf691fb8c11f0/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.18.2">1.18.2</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/mangrove_fence.json
-+  minecraft/advancements/recipes/building_blocks/mangrove_fence_gate.json
-+  minecraft/advancements/recipes/building_blocks/mangrove_planks.json
-+  minecraft/advancements/recipes/building_blocks/mangrove_slab.json
-+  minecraft/advancements/recipes/building_blocks/mangrove_stairs.json
-+  minecraft/advancements/recipes/building_blocks/mangrove_wood.json
-+  minecraft/advancements/recipes/building_blocks/mud_brick_slab.json
-+  minecraft/advancements/recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/mud_brick_stairs.json
-+  minecraft/advancements/recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/mud_bricks.json
-+  minecraft/advancements/recipes/building_blocks/muddy_mangrove_roots.json
-+  minecraft/advancements/recipes/building_blocks/packed_mud.json
-+  minecraft/advancements/recipes/building_blocks/stripped_mangrove_wood.json
-+  minecraft/advancements/recipes/decorations/mangrove_sign.json
-+  minecraft/advancements/recipes/decorations/mud_brick_wall.json
-+  minecraft/advancements/recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
-+  minecraft/advancements/recipes/redstone/mangrove_button.json
-+  minecraft/advancements/recipes/redstone/mangrove_door.json
-+  minecraft/advancements/recipes/redstone/mangrove_pressure_plate.json
-+  minecraft/advancements/recipes/redstone/mangrove_trapdoor.json
-+  minecraft/advancements/recipes/transportation/mangrove_boat.json
-+  minecraft/loot_tables/blocks/mangrove_button.json
-+  minecraft/loot_tables/blocks/mangrove_door.json
-+  minecraft/loot_tables/blocks/mangrove_fence.json
-+  minecraft/loot_tables/blocks/mangrove_fence_gate.json
-+  minecraft/loot_tables/blocks/mangrove_leaves.json
-+  minecraft/loot_tables/blocks/mangrove_log.json
-+  minecraft/loot_tables/blocks/mangrove_planks.json
-+  minecraft/loot_tables/blocks/mangrove_pressure_plate.json
-+  minecraft/loot_tables/blocks/mangrove_propagule.json
-+  minecraft/loot_tables/blocks/mangrove_roots.json
-+  minecraft/loot_tables/blocks/mangrove_sign.json
-+  minecraft/loot_tables/blocks/mangrove_slab.json
-+  minecraft/loot_tables/blocks/mangrove_stairs.json
-+  minecraft/loot_tables/blocks/mangrove_trapdoor.json
-+  minecraft/loot_tables/blocks/mangrove_wood.json
-+  minecraft/loot_tables/blocks/mud.json
-+  minecraft/loot_tables/blocks/mud_brick_slab.json
-+  minecraft/loot_tables/blocks/mud_brick_stairs.json
-+  minecraft/loot_tables/blocks/mud_brick_wall.json
-+  minecraft/loot_tables/blocks/mud_bricks.json
-+  minecraft/loot_tables/blocks/muddy_mangrove_roots.json
-+  minecraft/loot_tables/blocks/ochre_froglight.json
-+  minecraft/loot_tables/blocks/packed_mud.json
-+  minecraft/loot_tables/blocks/pearlescent_froglight.json
-+  minecraft/loot_tables/blocks/potted_mangrove_propagule.json
-+  minecraft/loot_tables/blocks/sculk.json
-+  minecraft/loot_tables/blocks/sculk_catalyst.json
-+  minecraft/loot_tables/blocks/sculk_shrieker.json
-+  minecraft/loot_tables/blocks/sculk_vein.json
-+  minecraft/loot_tables/blocks/stripped_mangrove_log.json
-+  minecraft/loot_tables/blocks/stripped_mangrove_wood.json
-+  minecraft/loot_tables/blocks/verdant_froglight.json
-+  minecraft/loot_tables/entities/frog.json
-+  minecraft/loot_tables/entities/tadpole.json
-+  minecraft/recipes/mangrove_boat.json
-+  minecraft/recipes/mangrove_button.json
-+  minecraft/recipes/mangrove_door.json
-+  minecraft/recipes/mangrove_fence.json
-+  minecraft/recipes/mangrove_fence_gate.json
-+  minecraft/recipes/mangrove_planks.json
-+  minecraft/recipes/mangrove_pressure_plate.json
-+  minecraft/recipes/mangrove_sign.json
-+  minecraft/recipes/mangrove_slab.json
-+  minecraft/recipes/mangrove_stairs.json
-+  minecraft/recipes/mangrove_trapdoor.json
-+  minecraft/recipes/mangrove_wood.json
-+  minecraft/recipes/mud_brick_slab.json
-+  minecraft/recipes/mud_brick_slab_from_mud_bricks_stonecutting.json
-+  minecraft/recipes/mud_brick_stairs.json
-+  minecraft/recipes/mud_brick_stairs_from_mud_bricks_stonecutting.json
-+  minecraft/recipes/mud_brick_wall.json
-+  minecraft/recipes/mud_brick_wall_from_mud_bricks_stonecutting.json
-+  minecraft/recipes/mud_bricks.json
-+  minecraft/recipes/muddy_mangrove_roots.json
-+  minecraft/recipes/packed_mud.json
-+  minecraft/recipes/stripped_mangrove_wood.json
-+  minecraft/tags/blocks/convertable_to_mud.json
-+  minecraft/tags/blocks/dragon_transparent.json
-+  minecraft/tags/blocks/frog_prefer_jump_to.json
-+  minecraft/tags/blocks/mangrove_logs.json
-+  minecraft/tags/blocks/polar_bears_spawnable_on_alternate.json
--  minecraft/tags/blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-+  minecraft/tags/blocks/sculk_replaceable.json
-+  minecraft/tags/blocks/sculk_replaceable_world_gen.json
-+  minecraft/tags/items/mangrove_logs.json
-+  minecraft/tags/worldgen/biome/allows_surface_slime_spawns.json
-+  minecraft/tags/worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
-+  minecraft/tags/worldgen/biome/has_closer_water_fog.json
-+  minecraft/tags/worldgen/biome/is_end.json
-+  minecraft/tags/worldgen/biome/is_overworld.json
-+  minecraft/tags/worldgen/biome/is_savanna.json
-+  minecraft/tags/worldgen/biome/more_frequent_drowned_spawns.json
-+  minecraft/tags/worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+  minecraft/tags/worldgen/biome/plays_underwater_music.json
-+  minecraft/tags/worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
-+  minecraft/tags/worldgen/biome/produces_corals_from_bonemeal.json
-+  minecraft/tags/worldgen/biome/reduce_water_ambient_spawns.json
-+  minecraft/tags/worldgen/biome/required_ocean_monument_surrounding.json
-+  minecraft/tags/worldgen/biome/spawns_cold_variant_frogs.json
-+  minecraft/tags/worldgen/biome/spawns_warm_variant_frogs.json
-+  minecraft/tags/worldgen/biome/stronghold_biased_to.json
-+  minecraft/tags/worldgen/biome/water_on_map_outlines.json
-+  minecraft/tags/worldgen/biome/without_patrol_spawns.json
-+  minecraft/tags/worldgen/biome/without_wandering_trader_spawns.json
-+  minecraft/tags/worldgen/biome/without_zombie_sieges.json
--  minecraft/tags/worldgen/configured_structure_feature
--  minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
--  minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
--  minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
--  minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
--  minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
--  minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
--  minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
--  minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
--  minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
--  minecraft/tags/worldgen/configured_structure_feature/village.json
-+  minecraft/tags/worldgen/flat_level_generator_preset
-+  minecraft/tags/worldgen/flat_level_generator_preset/visible.json
-+  minecraft/tags/worldgen/structure
-+  minecraft/tags/worldgen/structure/cats_spawn_as_black.json
-+  minecraft/tags/worldgen/structure/cats_spawn_in.json
-+  minecraft/tags/worldgen/structure/dolphin_located.json
-+  minecraft/tags/worldgen/structure/eye_of_ender_located.json
-+  minecraft/tags/worldgen/structure/mineshaft.json
-+  minecraft/tags/worldgen/structure/ocean_ruin.json
-+  minecraft/tags/worldgen/structure/on_ocean_explorer_maps.json
-+  minecraft/tags/worldgen/structure/on_treasure_maps.json
-+  minecraft/tags/worldgen/structure/on_woodland_explorer_maps.json
-+  minecraft/tags/worldgen/structure/ruined_portal.json
-+  minecraft/tags/worldgen/structure/shipwreck.json
-+  minecraft/tags/worldgen/structure/village.json
-+  minecraft/tags/worldgen/world_preset
-+  minecraft/tags/worldgen/world_preset/extended.json
-+  minecraft/tags/worldgen/world_preset/normal.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/frogspawn.json
-+  minecraft/blockstates/mangrove_button.json
-+  minecraft/blockstates/mangrove_door.json
-+  minecraft/blockstates/mangrove_fence.json
-+  minecraft/blockstates/mangrove_fence_gate.json
-+  minecraft/blockstates/mangrove_leaves.json
-+  minecraft/blockstates/mangrove_log.json
-+  minecraft/blockstates/mangrove_planks.json
-+  minecraft/blockstates/mangrove_pressure_plate.json
-+  minecraft/blockstates/mangrove_propagule.json
-+  minecraft/blockstates/mangrove_roots.json
-+  minecraft/blockstates/mangrove_sign.json
-+  minecraft/blockstates/mangrove_slab.json
-+  minecraft/blockstates/mangrove_stairs.json
-+  minecraft/blockstates/mangrove_trapdoor.json
-+  minecraft/blockstates/mangrove_wall_sign.json
-+  minecraft/blockstates/mangrove_wood.json
-+  minecraft/blockstates/mud.json
-+  minecraft/blockstates/mud_brick_slab.json
-+  minecraft/blockstates/mud_brick_stairs.json
-+  minecraft/blockstates/mud_brick_wall.json
-+  minecraft/blockstates/mud_bricks.json
-+  minecraft/blockstates/muddy_mangrove_roots.json
-+  minecraft/blockstates/ochre_froglight.json
-+  minecraft/blockstates/packed_mud.json
-+  minecraft/blockstates/pearlescent_froglight.json
-+  minecraft/blockstates/potted_mangrove_propagule.json
-+  minecraft/blockstates/sculk.json
-+  minecraft/blockstates/sculk_catalyst.json
-+  minecraft/blockstates/sculk_shrieker.json
-+  minecraft/blockstates/sculk_vein.json
-+  minecraft/blockstates/stripped_mangrove_log.json
-+  minecraft/blockstates/stripped_mangrove_wood.json
-+  minecraft/blockstates/verdant_froglight.json
--  minecraft/models/block/acacia_door_bottom.json
--  minecraft/models/block/acacia_door_bottom_hinge.json
-+  minecraft/models/block/acacia_door_bottom_left.json
-+  minecraft/models/block/acacia_door_bottom_left_open.json
-+  minecraft/models/block/acacia_door_bottom_right.json
-+  minecraft/models/block/acacia_door_bottom_right_open.json
--  minecraft/models/block/acacia_door_top.json
--  minecraft/models/block/acacia_door_top_hinge.json
-+  minecraft/models/block/acacia_door_top_left.json
-+  minecraft/models/block/acacia_door_top_left_open.json
-+  minecraft/models/block/acacia_door_top_right.json
-+  minecraft/models/block/acacia_door_top_right_open.json
--  minecraft/models/block/birch_door_bottom.json
--  minecraft/models/block/birch_door_bottom_hinge.json
-+  minecraft/models/block/birch_door_bottom_left.json
-+  minecraft/models/block/birch_door_bottom_left_open.json
-+  minecraft/models/block/birch_door_bottom_right.json
-+  minecraft/models/block/birch_door_bottom_right_open.json
--  minecraft/models/block/birch_door_top.json
--  minecraft/models/block/birch_door_top_hinge.json
-+  minecraft/models/block/birch_door_top_left.json
-+  minecraft/models/block/birch_door_top_left_open.json
-+  minecraft/models/block/birch_door_top_right.json
-+  minecraft/models/block/birch_door_top_right_open.json
--  minecraft/models/block/crimson_door_bottom.json
--  minecraft/models/block/crimson_door_bottom_hinge.json
-+  minecraft/models/block/crimson_door_bottom_left.json
-+  minecraft/models/block/crimson_door_bottom_left_open.json
-+  minecraft/models/block/crimson_door_bottom_right.json
-+  minecraft/models/block/crimson_door_bottom_right_open.json
--  minecraft/models/block/crimson_door_top.json
--  minecraft/models/block/crimson_door_top_hinge.json
-+  minecraft/models/block/crimson_door_top_left.json
-+  minecraft/models/block/crimson_door_top_left_open.json
-+  minecraft/models/block/crimson_door_top_right.json
-+  minecraft/models/block/crimson_door_top_right_open.json
-+  minecraft/models/block/cube_north_west_mirrored.json
-+  minecraft/models/block/cube_north_west_mirrored_all.json
--  minecraft/models/block/dark_oak_door_bottom.json
--  minecraft/models/block/dark_oak_door_bottom_hinge.json
-+  minecraft/models/block/dark_oak_door_bottom_left.json
-+  minecraft/models/block/dark_oak_door_bottom_left_open.json
-+  minecraft/models/block/dark_oak_door_bottom_right.json
-+  minecraft/models/block/dark_oak_door_bottom_right_open.json
--  minecraft/models/block/dark_oak_door_top.json
--  minecraft/models/block/dark_oak_door_top_hinge.json
-+  minecraft/models/block/dark_oak_door_top_left.json
-+  minecraft/models/block/dark_oak_door_top_left_open.json
-+  minecraft/models/block/dark_oak_door_top_right.json
-+  minecraft/models/block/dark_oak_door_top_right_open.json
--  minecraft/models/block/door_bottom.json
-+  minecraft/models/block/door_bottom_left.json
-+  minecraft/models/block/door_bottom_left_open.json
--  minecraft/models/block/door_bottom_rh.json
-+  minecraft/models/block/door_bottom_right.json
-+  minecraft/models/block/door_bottom_right_open.json
--  minecraft/models/block/door_top.json
-+  minecraft/models/block/door_top_left.json
-+  minecraft/models/block/door_top_left_open.json
--  minecraft/models/block/door_top_rh.json
-+  minecraft/models/block/door_top_right.json
-+  minecraft/models/block/door_top_right_open.json
-+  minecraft/models/block/frogspawn.json
--  minecraft/models/block/iron_door_bottom.json
--  minecraft/models/block/iron_door_bottom_hinge.json
-+  minecraft/models/block/iron_door_bottom_left.json
-+  minecraft/models/block/iron_door_bottom_left_open.json
-+  minecraft/models/block/iron_door_bottom_right.json
-+  minecraft/models/block/iron_door_bottom_right_open.json
--  minecraft/models/block/iron_door_top.json
--  minecraft/models/block/iron_door_top_hinge.json
-+  minecraft/models/block/iron_door_top_left.json
-+  minecraft/models/block/iron_door_top_left_open.json
-+  minecraft/models/block/iron_door_top_right.json
-+  minecraft/models/block/iron_door_top_right_open.json
--  minecraft/models/block/jungle_door_bottom.json
--  minecraft/models/block/jungle_door_bottom_hinge.json
-+  minecraft/models/block/jungle_door_bottom_left.json
-+  minecraft/models/block/jungle_door_bottom_left_open.json
-+  minecraft/models/block/jungle_door_bottom_right.json
-+  minecraft/models/block/jungle_door_bottom_right_open.json
--  minecraft/models/block/jungle_door_top.json
--  minecraft/models/block/jungle_door_top_hinge.json
-+  minecraft/models/block/jungle_door_top_left.json
-+  minecraft/models/block/jungle_door_top_left_open.json
-+  minecraft/models/block/jungle_door_top_right.json
-+  minecraft/models/block/jungle_door_top_right_open.json
-+  minecraft/models/block/mangrove_button.json
-+  minecraft/models/block/mangrove_button_inventory.json
-+  minecraft/models/block/mangrove_button_pressed.json
-+  minecraft/models/block/mangrove_door_bottom_left.json
-+  minecraft/models/block/mangrove_door_bottom_left_open.json
-+  minecraft/models/block/mangrove_door_bottom_right.json
-+  minecraft/models/block/mangrove_door_bottom_right_open.json
-+  minecraft/models/block/mangrove_door_top_left.json
-+  minecraft/models/block/mangrove_door_top_left_open.json
-+  minecraft/models/block/mangrove_door_top_right.json
-+  minecraft/models/block/mangrove_door_top_right_open.json
-+  minecraft/models/block/mangrove_fence_gate.json
-+  minecraft/models/block/mangrove_fence_gate_open.json
-+  minecraft/models/block/mangrove_fence_gate_wall.json
-+  minecraft/models/block/mangrove_fence_gate_wall_open.json
-+  minecraft/models/block/mangrove_fence_inventory.json
-+  minecraft/models/block/mangrove_fence_post.json
-+  minecraft/models/block/mangrove_fence_side.json
-+  minecraft/models/block/mangrove_leaves.json
-+  minecraft/models/block/mangrove_log.json
-+  minecraft/models/block/mangrove_log_horizontal.json
-+  minecraft/models/block/mangrove_planks.json
-+  minecraft/models/block/mangrove_pressure_plate.json
-+  minecraft/models/block/mangrove_pressure_plate_down.json
-+  minecraft/models/block/mangrove_propagule.json
-+  minecraft/models/block/mangrove_propagule_hanging_0.json
-+  minecraft/models/block/mangrove_propagule_hanging_1.json
-+  minecraft/models/block/mangrove_propagule_hanging_2.json
-+  minecraft/models/block/mangrove_propagule_hanging_3.json
-+  minecraft/models/block/mangrove_propagule_hanging_4.json
-+  minecraft/models/block/mangrove_roots.json
-+  minecraft/models/block/mangrove_sign.json
-+  minecraft/models/block/mangrove_slab.json
-+  minecraft/models/block/mangrove_slab_top.json
-+  minecraft/models/block/mangrove_stairs.json
-+  minecraft/models/block/mangrove_stairs_inner.json
-+  minecraft/models/block/mangrove_stairs_outer.json
-+  minecraft/models/block/mangrove_trapdoor_bottom.json
-+  minecraft/models/block/mangrove_trapdoor_open.json
-+  minecraft/models/block/mangrove_trapdoor_top.json
-+  minecraft/models/block/mangrove_wood.json
-+  minecraft/models/block/mud.json
-+  minecraft/models/block/mud_brick_slab.json
-+  minecraft/models/block/mud_brick_slab_top.json
-+  minecraft/models/block/mud_brick_stairs.json
-+  minecraft/models/block/mud_brick_stairs_inner.json
-+  minecraft/models/block/mud_brick_stairs_outer.json
-+  minecraft/models/block/mud_brick_wall_inventory.json
-+  minecraft/models/block/mud_brick_wall_post.json
-+  minecraft/models/block/mud_brick_wall_side.json
-+  minecraft/models/block/mud_brick_wall_side_tall.json
-+  minecraft/models/block/mud_bricks.json
-+  minecraft/models/block/mud_bricks_north_west_mirrored.json
-+  minecraft/models/block/muddy_mangrove_roots.json
--  minecraft/models/block/oak_door_bottom.json
--  minecraft/models/block/oak_door_bottom_hinge.json
-+  minecraft/models/block/oak_door_bottom_left.json
-+  minecraft/models/block/oak_door_bottom_left_open.json
-+  minecraft/models/block/oak_door_bottom_right.json
-+  minecraft/models/block/oak_door_bottom_right_open.json
--  minecraft/models/block/oak_door_top.json
--  minecraft/models/block/oak_door_top_hinge.json
-+  minecraft/models/block/oak_door_top_left.json
-+  minecraft/models/block/oak_door_top_left_open.json
-+  minecraft/models/block/oak_door_top_right.json
-+  minecraft/models/block/oak_door_top_right_open.json
-+  minecraft/models/block/ochre_froglight.json
-+  minecraft/models/block/ochre_froglight_horizontal.json
-+  minecraft/models/block/packed_mud.json
-+  minecraft/models/block/pearlescent_froglight.json
-+  minecraft/models/block/pearlescent_froglight_horizontal.json
-+  minecraft/models/block/potted_mangrove_propagule.json
-+  minecraft/models/block/sculk.json
-+  minecraft/models/block/sculk_catalyst.json
-+  minecraft/models/block/sculk_catalyst_bloom.json
-+  minecraft/models/block/sculk_mirrored.json
-+  minecraft/models/block/sculk_shrieker.json
-+  minecraft/models/block/sculk_vein.json
--  minecraft/models/block/spruce_door_bottom.json
--  minecraft/models/block/spruce_door_bottom_hinge.json
-+  minecraft/models/block/spruce_door_bottom_left.json
-+  minecraft/models/block/spruce_door_bottom_left_open.json
-+  minecraft/models/block/spruce_door_bottom_right.json
-+  minecraft/models/block/spruce_door_bottom_right_open.json
--  minecraft/models/block/spruce_door_top.json
--  minecraft/models/block/spruce_door_top_hinge.json
-+  minecraft/models/block/spruce_door_top_left.json
-+  minecraft/models/block/spruce_door_top_left_open.json
-+  minecraft/models/block/spruce_door_top_right.json
-+  minecraft/models/block/spruce_door_top_right_open.json
-+  minecraft/models/block/stripped_mangrove_log.json
-+  minecraft/models/block/stripped_mangrove_log_horizontal.json
-+  minecraft/models/block/stripped_mangrove_wood.json
-+  minecraft/models/block/verdant_froglight.json
-+  minecraft/models/block/verdant_froglight_horizontal.json
--  minecraft/models/block/warped_door_bottom.json
--  minecraft/models/block/warped_door_bottom_hinge.json
-+  minecraft/models/block/warped_door_bottom_left.json
-+  minecraft/models/block/warped_door_bottom_left_open.json
-+  minecraft/models/block/warped_door_bottom_right.json
-+  minecraft/models/block/warped_door_bottom_right_open.json
--  minecraft/models/block/warped_door_top.json
--  minecraft/models/block/warped_door_top_hinge.json
-+  minecraft/models/block/warped_door_top_left.json
-+  minecraft/models/block/warped_door_top_left_open.json
-+  minecraft/models/block/warped_door_top_right.json
-+  minecraft/models/block/warped_door_top_right_open.json
-+  minecraft/models/item/frog_spawn_egg.json
-+  minecraft/models/item/frogspawn.json
-+  minecraft/models/item/mangrove_boat.json
-+  minecraft/models/item/mangrove_button.json
-+  minecraft/models/item/mangrove_door.json
-+  minecraft/models/item/mangrove_fence.json
-+  minecraft/models/item/mangrove_fence_gate.json
-+  minecraft/models/item/mangrove_leaves.json
-+  minecraft/models/item/mangrove_log.json
-+  minecraft/models/item/mangrove_planks.json
-+  minecraft/models/item/mangrove_pressure_plate.json
-+  minecraft/models/item/mangrove_propagule.json
-+  minecraft/models/item/mangrove_roots.json
-+  minecraft/models/item/mangrove_sign.json
-+  minecraft/models/item/mangrove_slab.json
-+  minecraft/models/item/mangrove_stairs.json
-+  minecraft/models/item/mangrove_trapdoor.json
-+  minecraft/models/item/mangrove_wood.json
-+  minecraft/models/item/mud.json
-+  minecraft/models/item/mud_brick_slab.json
-+  minecraft/models/item/mud_brick_stairs.json
-+  minecraft/models/item/mud_brick_wall.json
-+  minecraft/models/item/mud_bricks.json
-+  minecraft/models/item/muddy_mangrove_roots.json
-+  minecraft/models/item/ochre_froglight.json
-+  minecraft/models/item/packed_mud.json
-+  minecraft/models/item/pearlescent_froglight.json
-+  minecraft/models/item/sculk.json
-+  minecraft/models/item/sculk_catalyst.json
-+  minecraft/models/item/sculk_shrieker.json
-+  minecraft/models/item/sculk_vein.json
-+  minecraft/models/item/stripped_mangrove_log.json
-+  minecraft/models/item/stripped_mangrove_wood.json
-+  minecraft/models/item/tadpole_bucket.json
-+  minecraft/models/item/tadpole_spawn_egg.json
-+  minecraft/models/item/verdant_froglight.json
-+  minecraft/particles/sculk_charge.json
-+  minecraft/particles/sculk_charge_pop.json
-+  minecraft/particles/sculk_soul.json
-+  minecraft/textures/block/frogspawn.png
-+  minecraft/textures/block/mangrove_door_bottom.png
-+  minecraft/textures/block/mangrove_door_top.png
-+  minecraft/textures/block/mangrove_leaves.png
-+  minecraft/textures/block/mangrove_log.png
-+  minecraft/textures/block/mangrove_log_top.png
-+  minecraft/textures/block/mangrove_planks.png
-+  minecraft/textures/block/mangrove_propagule.png
-+  minecraft/textures/block/mangrove_propagule_hanging.png
-+  minecraft/textures/block/mangrove_roots_side.png
-+  minecraft/textures/block/mangrove_roots_top.png
-+  minecraft/textures/block/mangrove_trapdoor.png
-+  minecraft/textures/block/mud.png
-+  minecraft/textures/block/mud_bricks.png
-+  minecraft/textures/block/muddy_mangrove_roots_side.png
-+  minecraft/textures/block/muddy_mangrove_roots_top.png
-+  minecraft/textures/block/ochre_froglight_side.png
-+  minecraft/textures/block/ochre_froglight_top.png
-+  minecraft/textures/block/packed_mud.png
-+  minecraft/textures/block/pearlescent_froglight_side.png
-+  minecraft/textures/block/pearlescent_froglight_top.png
-+  minecraft/textures/block/sculk.png
-+  minecraft/textures/block/sculk.png.mcmeta
-+  minecraft/textures/block/sculk_catalyst_bottom.png
-+  minecraft/textures/block/sculk_catalyst_side.png
-+  minecraft/textures/block/sculk_catalyst_side_bloom.png
-+  minecraft/textures/block/sculk_catalyst_side_bloom.png.mcmeta
-+  minecraft/textures/block/sculk_catalyst_top.png
-+  minecraft/textures/block/sculk_catalyst_top_bloom.png
-+  minecraft/textures/block/sculk_catalyst_top_bloom.png.mcmeta
-+  minecraft/textures/block/sculk_shrieker_bottom.png
-+  minecraft/textures/block/sculk_shrieker_inner_top.png
-+  minecraft/textures/block/sculk_shrieker_inner_top.png.mcmeta
-+  minecraft/textures/block/sculk_shrieker_side.png
-+  minecraft/textures/block/sculk_shrieker_top.png
-+  minecraft/textures/block/sculk_vein.png
-+  minecraft/textures/block/sculk_vein.png.mcmeta
-+  minecraft/textures/block/stripped_mangrove_log.png
-+  minecraft/textures/block/stripped_mangrove_log_top.png
-+  minecraft/textures/block/verdant_froglight_side.png
-+  minecraft/textures/block/verdant_froglight_top.png
-+  minecraft/textures/entity/boat/mangrove.png
-+  minecraft/textures/entity/frog
-+  minecraft/textures/entity/frog/cold_frog.png
-+  minecraft/textures/entity/frog/temperate_frog.png
-+  minecraft/textures/entity/frog/warm_frog.png
-+  minecraft/textures/entity/signs/mangrove.png
-+  minecraft/textures/entity/tadpole
-+  minecraft/textures/entity/tadpole/tadpole.png
-+  minecraft/textures/item/mangrove_boat.png
-+  minecraft/textures/item/mangrove_door.png
-+  minecraft/textures/item/mangrove_propagule.png
-+  minecraft/textures/item/mangrove_sign.png
-+  minecraft/textures/item/tadpole_bucket.png
-+  minecraft/textures/particle/sculk_charge_0.png
-+  minecraft/textures/particle/sculk_charge_1.png
-+  minecraft/textures/particle/sculk_charge_2.png
-+  minecraft/textures/particle/sculk_charge_3.png
-+  minecraft/textures/particle/sculk_charge_4.png
-+  minecraft/textures/particle/sculk_charge_5.png
-+  minecraft/textures/particle/sculk_charge_6.png
-+  minecraft/textures/particle/sculk_charge_pop_0.png
-+  minecraft/textures/particle/sculk_charge_pop_1.png
-+  minecraft/textures/particle/sculk_charge_pop_2.png
-+  minecraft/textures/particle/sculk_charge_pop_3.png
-+  minecraft/textures/particle/sculk_soul_0.png
-+  minecraft/textures/particle/sculk_soul_1.png
-+  minecraft/textures/particle/sculk_soul_10.png
-+  minecraft/textures/particle/sculk_soul_2.png
-+  minecraft/textures/particle/sculk_soul_3.png
-+  minecraft/textures/particle/sculk_soul_4.png
-+  minecraft/textures/particle/sculk_soul_5.png
-+  minecraft/textures/particle/sculk_soul_6.png
-+  minecraft/textures/particle/sculk_soul_7.png
-+  minecraft/textures/particle/sculk_soul_8.png
-+  minecraft/textures/particle/sculk_soul_9.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/biome_parameters
-+  reports/biome_parameters/minecraft
-+  reports/biome_parameters/minecraft/nether.json
-+  reports/biome_parameters/minecraft/overworld.json
--  reports/worldgen/minecraft/dimension
--  reports/worldgen/minecraft/dimension/overworld.json
--  reports/worldgen/minecraft/dimension/the_end.json
--  reports/worldgen/minecraft/dimension/the_nether.json
-+  reports/worldgen/minecraft/worldgen/biome/deep_dark.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/sculk_vein.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json
--  reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/jaggedness.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/offset.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/ridges_folded.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/depth.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/factor.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/offset.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/desert.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/overworld.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/the_void.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
-+  reports/worldgen/minecraft/worldgen/flat_level_generator_preset/water_world.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/sculk_vein.json
-+  reports/worldgen/minecraft/worldgen/structure
-+  reports/worldgen/minecraft/worldgen/structure/bastion_remnant.json
-+  reports/worldgen/minecraft/worldgen/structure/buried_treasure.json
-+  reports/worldgen/minecraft/worldgen/structure/desert_pyramid.json
-+  reports/worldgen/minecraft/worldgen/structure/end_city.json
-+  reports/worldgen/minecraft/worldgen/structure/fortress.json
-+  reports/worldgen/minecraft/worldgen/structure/igloo.json
-+  reports/worldgen/minecraft/worldgen/structure/jungle_pyramid.json
-+  reports/worldgen/minecraft/worldgen/structure/mansion.json
-+  reports/worldgen/minecraft/worldgen/structure/mineshaft.json
-+  reports/worldgen/minecraft/worldgen/structure/mineshaft_mesa.json
-+  reports/worldgen/minecraft/worldgen/structure/monument.json
-+  reports/worldgen/minecraft/worldgen/structure/nether_fossil.json
-+  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_cold.json
-+  reports/worldgen/minecraft/worldgen/structure/ocean_ruin_warm.json
-+  reports/worldgen/minecraft/worldgen/structure/pillager_outpost.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_desert.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_jungle.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_mountain.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_nether.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_ocean.json
-+  reports/worldgen/minecraft/worldgen/structure/ruined_portal_swamp.json
-+  reports/worldgen/minecraft/worldgen/structure/shipwreck.json
-+  reports/worldgen/minecraft/worldgen/structure/shipwreck_beached.json
-+  reports/worldgen/minecraft/worldgen/structure/stronghold.json
-+  reports/worldgen/minecraft/worldgen/structure/swamp_hut.json
-+  reports/worldgen/minecraft/worldgen/structure/village_desert.json
-+  reports/worldgen/minecraft/worldgen/structure/village_plains.json
-+  reports/worldgen/minecraft/worldgen/structure/village_savanna.json
-+  reports/worldgen/minecraft/worldgen/structure/village_snowy.json
-+  reports/worldgen/minecraft/worldgen/structure/village_taiga.json
-+  reports/worldgen/minecraft/worldgen/world_preset
-+  reports/worldgen/minecraft/worldgen/world_preset/amplified.json
-+  reports/worldgen/minecraft/worldgen/world_preset/debug_all_block_states.json
-+  reports/worldgen/minecraft/worldgen/world_preset/flat.json
-+  reports/worldgen/minecraft/worldgen/world_preset/large_biomes.json
-+  reports/worldgen/minecraft/worldgen/world_preset/normal.json
-+  reports/worldgen/minecraft/worldgen/world_preset/single_biome_surface.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- worldgen/structure_feature.txt
-+ command_argument_type.txt
-+ worldgen/structure_type.txt
-```
-
-</details>
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:tongue
-+ minecraft:swim
-+ minecraft:lay_spawn
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:mangrove_planks
-+ minecraft:mangrove_propagule
-+ minecraft:mangrove_log
-+ minecraft:mangrove_roots
-+ minecraft:muddy_mangrove_roots
-+ minecraft:stripped_mangrove_log
-+ minecraft:mangrove_wood
-+ minecraft:stripped_mangrove_wood
-+ minecraft:mangrove_leaves
-+ minecraft:mangrove_sign
-+ minecraft:mangrove_wall_sign
-+ minecraft:mangrove_pressure_plate
-+ minecraft:mangrove_trapdoor
-+ minecraft:packed_mud
-+ minecraft:mud_bricks
-+ minecraft:mud_brick_stairs
-+ minecraft:potted_mangrove_propagule
-+ minecraft:mangrove_button
-+ minecraft:mangrove_stairs
-+ minecraft:mangrove_slab
-+ minecraft:mud_brick_slab
-+ minecraft:mangrove_fence_gate
-+ minecraft:mangrove_fence
-+ minecraft:mangrove_door
-+ minecraft:mud_brick_wall
-+ minecraft:sculk
-+ minecraft:sculk_vein
-+ minecraft:sculk_catalyst
-+ minecraft:sculk_shrieker
-+ minecraft:mud
-+ minecraft:ochre_froglight
-+ minecraft:verdant_froglight
-+ minecraft:pearlescent_froglight
-+ minecraft:frogspawn
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-+ minecraft:sculk_catalyst
-+ minecraft:sculk_shrieker
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:frog
-+ minecraft:tadpole
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-+ minecraft:entity_dying
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:mud
-+ minecraft:mangrove_planks
-+ minecraft:mangrove_propagule
-+ minecraft:mangrove_log
-+ minecraft:mangrove_roots
-+ minecraft:muddy_mangrove_roots
-+ minecraft:stripped_mangrove_log
-+ minecraft:stripped_mangrove_wood
-+ minecraft:mangrove_wood
-+ minecraft:mangrove_leaves
-+ minecraft:mangrove_slab
-+ minecraft:mud_brick_slab
-+ minecraft:mangrove_fence
-+ minecraft:packed_mud
-+ minecraft:mud_bricks
-+ minecraft:mud_brick_stairs
-+ minecraft:sculk
-+ minecraft:sculk_vein
-+ minecraft:sculk_catalyst
-+ minecraft:mud_brick_wall
-+ minecraft:mangrove_stairs
-+ minecraft:mangrove_button
-+ minecraft:mangrove_pressure_plate
-+ minecraft:mangrove_door
-+ minecraft:mangrove_trapdoor
-+ minecraft:mangrove_fence_gate
-+ minecraft:mangrove_boat
-+ minecraft:mangrove_sign
-+ minecraft:tadpole_bucket
-+ minecraft:frog_spawn_egg
-+ minecraft:tadpole_spawn_egg
-+ minecraft:sculk_shrieker
-+ minecraft:ochre_froglight
-+ minecraft:verdant_froglight
-+ minecraft:pearlescent_froglight
-+ minecraft:frogspawn
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:is_in_water
-+ minecraft:is_pregnant
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:sculk_soul
-+ minecraft:sculk_charge
-+ minecraft:sculk_charge_pop
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:frog_temptations
-+ minecraft:frog_attackables
-+ minecraft:is_in_water
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:item.bucket.empty_tadpole
-+ minecraft:item.bucket.fill_tadpole
-+ minecraft:block.froglight.break
-+ minecraft:block.froglight.fall
-+ minecraft:block.froglight.hit
-+ minecraft:block.froglight.place
-+ minecraft:block.froglight.step
-+ minecraft:block.frogspawn.step
-+ minecraft:block.frogspawn.break
-+ minecraft:block.frogspawn.fall
-+ minecraft:block.frogspawn.hatch
-+ minecraft:block.frogspawn.hit
-+ minecraft:block.frogspawn.place
-+ minecraft:entity.frog.ambient
-+ minecraft:entity.frog.death
-+ minecraft:entity.frog.eat
-+ minecraft:entity.frog.hurt
-+ minecraft:entity.frog.lay_spawn
-+ minecraft:entity.frog.long_jump
-+ minecraft:entity.frog.step
-+ minecraft:entity.frog.tounge
-+ minecraft:block.mangrove_roots.break
-+ minecraft:block.mangrove_roots.fall
-+ minecraft:block.mangrove_roots.hit
-+ minecraft:block.mangrove_roots.place
-+ minecraft:block.mangrove_roots.step
-+ minecraft:block.mud.break
-+ minecraft:block.mud.fall
-+ minecraft:block.mud.hit
-+ minecraft:block.mud.place
-+ minecraft:block.mud.step
-+ minecraft:block.mud_bricks.break
-+ minecraft:block.mud_bricks.fall
-+ minecraft:block.mud_bricks.hit
-+ minecraft:block.mud_bricks.place
-+ minecraft:block.mud_bricks.step
-+ minecraft:block.muddy_mangrove_roots.break
-+ minecraft:block.muddy_mangrove_roots.fall
-+ minecraft:block.muddy_mangrove_roots.hit
-+ minecraft:block.muddy_mangrove_roots.place
-+ minecraft:block.muddy_mangrove_roots.step
-+ minecraft:music.overworld.deep_dark
-+ minecraft:block.packed_mud.break
-+ minecraft:block.packed_mud.fall
-+ minecraft:block.packed_mud.hit
-+ minecraft:block.packed_mud.place
-+ minecraft:block.packed_mud.step
-+ minecraft:block.sculk.spread
-+ minecraft:block.sculk.charge
-+ minecraft:block.sculk.break
-+ minecraft:block.sculk.fall
-+ minecraft:block.sculk.hit
-+ minecraft:block.sculk.place
-+ minecraft:block.sculk.step
-+ minecraft:block.sculk_catalyst.bloom
-+ minecraft:block.sculk_catalyst.break
-+ minecraft:block.sculk_catalyst.fall
-+ minecraft:block.sculk_catalyst.hit
-+ minecraft:block.sculk_catalyst.place
-+ minecraft:block.sculk_catalyst.step
-+ minecraft:block.sculk_shrieker.break
-+ minecraft:block.sculk_shrieker.fall
-+ minecraft:block.sculk_shrieker.hit
-+ minecraft:block.sculk_shrieker.place
-+ minecraft:block.sculk_shrieker.step
-+ minecraft:block.sculk_vein.break
-+ minecraft:block.sculk_vein.fall
-+ minecraft:block.sculk_vein.hit
-+ minecraft:block.sculk_vein.place
-+ minecraft:block.sculk_vein.step
-+ minecraft:entity.tadpole.death
-+ minecraft:entity.tadpole.eat
-+ minecraft:entity.tadpole.flop
-+ minecraft:entity.tadpole.grow_up
-+ minecraft:entity.tadpole.hurt
-+ minecraft:entity.tadpole.step
-```
-
-</details>
-
-<details><summary>worldgen/density_function_type.txt</summary>
-
-```diff
-- minecraft:terrain_shaper_spline
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-+ minecraft:sculk_patch
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-- worldgen/configured_structure_feature/dolphin_located.json
-- worldgen/configured_structure_feature/eye_of_ender_located.json
-- worldgen/configured_structure_feature/mineshaft.json
-- worldgen/configured_structure_feature/ocean_ruin.json
-- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
-- worldgen/configured_structure_feature/on_treasure_maps.json
-- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
-- worldgen/configured_structure_feature/ruined_portal.json
-- worldgen/configured_structure_feature/shipwreck.json
-- worldgen/configured_structure_feature/village.json
-+ blocks/convertable_to_mud.json
-+ blocks/dragon_transparent.json
-+ blocks/frog_prefer_jump_to.json
-+ blocks/mangrove_logs.json
-+ blocks/polar_bears_spawnable_on_alternate.json
-+ blocks/sculk_replaceable.json
-+ blocks/sculk_replaceable_world_gen.json
-+ items/mangrove_logs.json
-+ worldgen/biome/allows_surface_slime_spawns.json
-+ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
-+ worldgen/biome/has_closer_water_fog.json
-+ worldgen/biome/is_end.json
-+ worldgen/biome/is_overworld.json
-+ worldgen/biome/is_savanna.json
-+ worldgen/biome/more_frequent_drowned_spawns.json
-+ worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+ worldgen/biome/plays_underwater_music.json
-+ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
-+ worldgen/biome/produces_corals_from_bonemeal.json
-+ worldgen/biome/reduce_water_ambient_spawns.json
-+ worldgen/biome/required_ocean_monument_surrounding.json
-+ worldgen/biome/spawns_cold_variant_frogs.json
-+ worldgen/biome/spawns_warm_variant_frogs.json
-+ worldgen/biome/stronghold_biased_to.json
-+ worldgen/biome/water_on_map_outlines.json
-+ worldgen/biome/without_patrol_spawns.json
-+ worldgen/biome/without_wandering_trader_spawns.json
-+ worldgen/biome/without_zombie_sieges.json
-+ worldgen/flat_level_generator_preset/visible.json
-+ worldgen/structure/cats_spawn_as_black.json
-+ worldgen/structure/cats_spawn_in.json
-+ worldgen/structure/dolphin_located.json
-+ worldgen/structure/eye_of_ender_located.json
-+ worldgen/structure/mineshaft.json
-+ worldgen/structure/ocean_ruin.json
-+ worldgen/structure/on_ocean_explorer_maps.json
-+ worldgen/structure/on_treasure_maps.json
-+ worldgen/structure/on_woodland_explorer_maps.json
-+ worldgen/structure/ruined_portal.json
-+ worldgen/structure/shipwreck.json
-+ worldgen/structure/village.json
-+ worldgen/world_preset/extended.json
-+ worldgen/world_preset/normal.json
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-+ minecraft:mud
-```
-
-</details>
-
-<details><summary>blocks/fence_gates.json</summary>
-
-```diff
-+ minecraft:mangrove_fence_gate
-```
-
-</details>
-
-<details><summary>blocks/flowers.json</summary>
-
-```diff
-+ minecraft:mangrove_propagule
-```
-
-</details>
-
-<details><summary>blocks/flower_pots.json</summary>
-
-```diff
-+ minecraft:potted_mangrove_propagule
-```
-
-</details>
-
-<details><summary>blocks/inside_step_sound_blocks.json</summary>
-
-```diff
-+ minecraft:sculk_vein
-```
-
-</details>
-
-<details><summary>blocks/leaves.json</summary>
-
-```diff
-+ minecraft:mangrove_leaves
-```
-
-</details>
-
-<details><summary>blocks/logs_that_burn.json</summary>
-
-```diff
-+ #minecraft:mangrove_logs
-```
-
-</details>
-
-<details><summary>blocks/mineable/axe.json</summary>
-
-```diff
-+ minecraft:mangrove_roots
-```
-
-</details>
-
-<details><summary>blocks/mineable/hoe.json</summary>
-
-```diff
-+ minecraft:sculk
-+ minecraft:sculk_catalyst
-+ minecraft:sculk_vein
-+ minecraft:sculk_shrieker
-```
-
-</details>
-
-<details><summary>blocks/mineable/pickaxe.json</summary>
-
-```diff
-+ minecraft:mud_bricks
-+ minecraft:mud_brick_stairs
-+ minecraft:mud_brick_slab
-+ minecraft:packed_mud
-```
-
-</details>
-
-<details><summary>blocks/mineable/shovel.json</summary>
-
-```diff
-+ minecraft:muddy_mangrove_roots
-+ minecraft:mud
-```
-
-</details>
-
-<details><summary>blocks/planks.json</summary>
-
-```diff
-+ minecraft:mangrove_planks
-```
-
-</details>
-
-<details><summary>blocks/saplings.json</summary>
-
-```diff
-+ minecraft:mangrove_propagule
-```
-
-</details>
-
-<details><summary>blocks/slabs.json</summary>
-
-```diff
-+ minecraft:mud_brick_slab
-```
-
-</details>
-
-<details><summary>blocks/stairs.json</summary>
-
-```diff
-+ minecraft:mud_brick_stairs
-```
-
-</details>
-
-<details><summary>blocks/standing_signs.json</summary>
-
-```diff
-+ minecraft:mangrove_sign
-```
-
-</details>
-
-<details><summary>blocks/walls.json</summary>
-
-```diff
-+ minecraft:mud_brick_wall
-```
-
-</details>
-
-<details><summary>blocks/wall_signs.json</summary>
-
-```diff
-+ minecraft:mangrove_wall_sign
-```
-
-</details>
-
-<details><summary>blocks/wither_immune.json</summary>
-
-```diff
-+ minecraft:light
-```
-
-</details>
-
-<details><summary>blocks/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:mangrove_button
-```
-
-</details>
-
-<details><summary>blocks/wooden_doors.json</summary>
-
-```diff
-+ minecraft:mangrove_door
-```
-
-</details>
-
-<details><summary>blocks/wooden_fences.json</summary>
-
-```diff
-+ minecraft:mangrove_fence
-```
-
-</details>
-
-<details><summary>blocks/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:mangrove_pressure_plate
-```
-
-</details>
-
-<details><summary>blocks/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:mangrove_slab
-```
-
-</details>
-
-<details><summary>blocks/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:mangrove_stairs
-```
-
-</details>
-
-<details><summary>blocks/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:mangrove_trapdoor
-```
-
-</details>
-
-<details><summary>entity_types/axolotl_hunt_targets.json</summary>
-
-```diff
-+ minecraft:tadpole
-```
-
-</details>
-
-<details><summary>items/flowers.json</summary>
-
-```diff
-+ minecraft:mangrove_propagule
-```
-
-</details>
-
-<details><summary>items/leaves.json</summary>
-
-```diff
-+ minecraft:mangrove_leaves
-```
-
-</details>
-
-<details><summary>items/logs_that_burn.json</summary>
-
-```diff
-+ #minecraft:mangrove_logs
-```
-
-</details>
-
-<details><summary>items/planks.json</summary>
-
-```diff
-+ minecraft:mangrove_planks
-```
-
-</details>
-
-<details><summary>items/saplings.json</summary>
-
-```diff
-+ minecraft:mangrove_propagule
-```
-
-</details>
-
-<details><summary>items/signs.json</summary>
-
-```diff
-+ minecraft:mangrove_sign
-```
-
-</details>
-
-<details><summary>items/slabs.json</summary>
-
-```diff
-+ minecraft:mud_brick_slab
-```
-
-</details>
-
-<details><summary>items/stairs.json</summary>
-
-```diff
-+ minecraft:mud_brick_stairs
-```
-
-</details>
-
-<details><summary>items/walls.json</summary>
-
-```diff
-+ minecraft:mud_brick_wall
-```
-
-</details>
-
-<details><summary>items/wooden_buttons.json</summary>
-
-```diff
-+ minecraft:mangrove_button
-```
-
-</details>
-
-<details><summary>items/wooden_doors.json</summary>
-
-```diff
-+ minecraft:mangrove_door
-```
-
-</details>
-
-<details><summary>items/wooden_fences.json</summary>
-
-```diff
-+ minecraft:mangrove_fence
-```
-
-</details>
-
-<details><summary>items/wooden_pressure_plates.json</summary>
-
-```diff
-+ minecraft:mangrove_pressure_plate
-```
-
-</details>
-
-<details><summary>items/wooden_slabs.json</summary>
-
-```diff
-+ minecraft:mangrove_slab
-```
-
-</details>
-
-<details><summary>items/wooden_stairs.json</summary>
-
-```diff
-+ minecraft:mangrove_stairs
-```
-
-</details>
-
-<details><summary>items/wooden_trapdoors.json</summary>
-
-```diff
-+ minecraft:mangrove_trapdoor
-```
-
-</details>
-
-<details><summary>worldgen/biome/has_structure/stronghold.json</summary>
-
-```diff
-- minecraft:plains
-- minecraft:sunflower_plains
-- minecraft:snowy_plains
-- minecraft:ice_spikes
-- minecraft:desert
-- minecraft:forest
-- minecraft:flower_forest
-- minecraft:birch_forest
-- minecraft:dark_forest
-- minecraft:old_growth_birch_forest
-- minecraft:old_growth_pine_taiga
-- minecraft:old_growth_spruce_taiga
-- minecraft:taiga
-- minecraft:snowy_taiga
-- minecraft:savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_hills
-- minecraft:windswept_gravelly_hills
-- minecraft:windswept_forest
-- minecraft:windswept_savanna
-- minecraft:jungle
-- minecraft:sparse_jungle
-- minecraft:bamboo_jungle
-- minecraft:badlands
-- minecraft:eroded_badlands
-- minecraft:wooded_badlands
-- minecraft:meadow
-- minecraft:grove
-- minecraft:snowy_slopes
-- minecraft:frozen_peaks
-- minecraft:jagged_peaks
-- minecraft:stony_peaks
-- minecraft:mushroom_fields
-- minecraft:dripstone_caves
-- minecraft:lush_caves
-+ #minecraft:is_overworld
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/mangrove_fence.json
-+ recipes/building_blocks/mangrove_fence_gate.json
-+ recipes/building_blocks/mangrove_planks.json
-+ recipes/building_blocks/mangrove_slab.json
-+ recipes/building_blocks/mangrove_stairs.json
-+ recipes/building_blocks/mangrove_wood.json
-+ recipes/building_blocks/muddy_mangrove_roots.json
-+ recipes/building_blocks/mud_bricks.json
-+ recipes/building_blocks/mud_brick_slab.json
-+ recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
-+ recipes/building_blocks/mud_brick_stairs.json
-+ recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
-+ recipes/building_blocks/packed_mud.json
-+ recipes/building_blocks/stripped_mangrove_wood.json
-+ recipes/decorations/mangrove_sign.json
-+ recipes/decorations/mud_brick_wall.json
-+ recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
-+ recipes/redstone/mangrove_button.json
-+ recipes/redstone/mangrove_door.json
-+ recipes/redstone/mangrove_pressure_plate.json
-+ recipes/redstone/mangrove_trapdoor.json
-+ recipes/transportation/mangrove_boat.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/mangrove_button.json
-+ blocks/mangrove_door.json
-+ blocks/mangrove_fence.json
-+ blocks/mangrove_fence_gate.json
-+ blocks/mangrove_leaves.json
-+ blocks/mangrove_log.json
-+ blocks/mangrove_planks.json
-+ blocks/mangrove_pressure_plate.json
-+ blocks/mangrove_propagule.json
-+ blocks/mangrove_roots.json
-+ blocks/mangrove_sign.json
-+ blocks/mangrove_slab.json
-+ blocks/mangrove_stairs.json
-+ blocks/mangrove_trapdoor.json
-+ blocks/mangrove_wood.json
-+ blocks/mud.json
-+ blocks/muddy_mangrove_roots.json
-+ blocks/mud_bricks.json
-+ blocks/mud_brick_slab.json
-+ blocks/mud_brick_stairs.json
-+ blocks/mud_brick_wall.json
-+ blocks/ochre_froglight.json
-+ blocks/packed_mud.json
-+ blocks/pearlescent_froglight.json
-+ blocks/potted_mangrove_propagule.json
-+ blocks/sculk.json
-+ blocks/sculk_catalyst.json
-+ blocks/sculk_shrieker.json
-+ blocks/sculk_vein.json
-+ blocks/stripped_mangrove_log.json
-+ blocks/stripped_mangrove_wood.json
-+ blocks/verdant_froglight.json
-+ entities/frog.json
-+ entities/tadpole.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ sculk_charge.json
-+ sculk_charge_pop.json
-+ sculk_soul.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ mangrove_boat.json
-+ mangrove_button.json
-+ mangrove_door.json
-+ mangrove_fence.json
-+ mangrove_fence_gate.json
-+ mangrove_planks.json
-+ mangrove_pressure_plate.json
-+ mangrove_sign.json
-+ mangrove_slab.json
-+ mangrove_stairs.json
-+ mangrove_trapdoor.json
-+ mangrove_wood.json
-+ muddy_mangrove_roots.json
-+ mud_bricks.json
-+ mud_brick_slab.json
-+ mud_brick_slab_from_mud_bricks_stonecutting.json
-+ mud_brick_stairs.json
-+ mud_brick_stairs_from_mud_bricks_stonecutting.json
-+ mud_brick_wall.json
-+ mud_brick_wall_from_mud_bricks_stonecutting.json
-+ packed_mud.json
-+ stripped_mangrove_wood.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-+ block/froglight/break1.ogg
-+ block/froglight/break2.ogg
-+ block/froglight/break3.ogg
-+ block/froglight/break4.ogg
-+ block/froglight/step1.ogg
-+ block/froglight/step2.ogg
-+ block/froglight/step3.ogg
-+ block/froglight/step4.ogg
-+ block/froglight/step5.ogg
-+ block/froglight/step6.ogg
-+ block/frogspawn/break1.ogg
-+ block/frogspawn/break2.ogg
-+ block/frogspawn/break3.ogg
-+ block/frogspawn/break4.ogg
-+ block/frogspawn/hatch1.ogg
-+ block/frogspawn/hatch2.ogg
-+ block/frogspawn/hatch3.ogg
-+ block/frogspawn/hatch4.ogg
-+ block/frogspawn/hatch5.ogg
-+ block/frogspawn/step1.ogg
-+ block/frogspawn/step2.ogg
-+ block/frogspawn/step3.ogg
-+ block/frogspawn/step4.ogg
-+ block/frogspawn/step5.ogg
-+ block/frogspawn/step6.ogg
-+ block/mangrove_roots/break1.ogg
-+ block/mangrove_roots/break2.ogg
-+ block/mangrove_roots/break3.ogg
-+ block/mangrove_roots/break4.ogg
-+ block/mangrove_roots/break5.ogg
-+ block/mangrove_roots/break6.ogg
-+ block/mangrove_roots/step1.ogg
-+ block/mangrove_roots/step2.ogg
-+ block/mangrove_roots/step3.ogg
-+ block/mangrove_roots/step4.ogg
-+ block/mangrove_roots/step5.ogg
-+ block/mangrove_roots/step6.ogg
-+ block/mud/break1.ogg
-+ block/mud/break2.ogg
-+ block/mud/break3.ogg
-+ block/mud/break4.ogg
-+ block/mud/break5.ogg
-+ block/mud/break6.ogg
-+ block/mud/step1.ogg
-+ block/mud/step2.ogg
-+ block/mud/step3.ogg
-+ block/mud/step4.ogg
-+ block/mud/step5.ogg
-+ block/mud/step6.ogg
-+ block/mud_bricks/break1.ogg
-+ block/mud_bricks/break2.ogg
-+ block/mud_bricks/break3.ogg
-+ block/mud_bricks/break4.ogg
-+ block/mud_bricks/break5.ogg
-+ block/mud_bricks/break6.ogg
-+ block/mud_bricks/step1.ogg
-+ block/mud_bricks/step2.ogg
-+ block/mud_bricks/step3.ogg
-+ block/mud_bricks/step4.ogg
-+ block/mud_bricks/step5.ogg
-+ block/mud_bricks/step6.ogg
-+ block/muddy_mangrove_roots/break1.ogg
-+ block/muddy_mangrove_roots/break2.ogg
-+ block/muddy_mangrove_roots/break3.ogg
-+ block/muddy_mangrove_roots/break4.ogg
-+ block/muddy_mangrove_roots/break5.ogg
-+ block/muddy_mangrove_roots/break6.ogg
-+ block/muddy_mangrove_roots/step1.ogg
-+ block/muddy_mangrove_roots/step2.ogg
-+ block/muddy_mangrove_roots/step3.ogg
-+ block/muddy_mangrove_roots/step4.ogg
-+ block/muddy_mangrove_roots/step5.ogg
-+ block/muddy_mangrove_roots/step6.ogg
-+ block/packed_mud/break1.ogg
-+ block/packed_mud/break2.ogg
-+ block/packed_mud/break3.ogg
-+ block/packed_mud/break4.ogg
-+ block/packed_mud/break5.ogg
-+ block/packed_mud/break6.ogg
-+ block/packed_mud/step1.ogg
-+ block/packed_mud/step2.ogg
-+ block/packed_mud/step3.ogg
-+ block/packed_mud/step4.ogg
-+ block/packed_mud/step5.ogg
-+ block/packed_mud/step6.ogg
-+ block/sculk/break1.ogg
-+ block/sculk/break10.ogg
-+ block/sculk/break11.ogg
-+ block/sculk/break12.ogg
-+ block/sculk/break13.ogg
-+ block/sculk/break14.ogg
-+ block/sculk/break2.ogg
-+ block/sculk/break3.ogg
-+ block/sculk/break4.ogg
-+ block/sculk/break5.ogg
-+ block/sculk/break6.ogg
-+ block/sculk/break7.ogg
-+ block/sculk/break8.ogg
-+ block/sculk/break9.ogg
-+ block/sculk/charge1.ogg
-+ block/sculk/charge2.ogg
-+ block/sculk/charge3.ogg
-+ block/sculk/charge4.ogg
-+ block/sculk/charge5.ogg
-+ block/sculk/place1.ogg
-+ block/sculk/place2.ogg
-+ block/sculk/place3.ogg
-+ block/sculk/place4.ogg
-+ block/sculk/place5.ogg
-+ block/sculk/spread1.ogg
-+ block/sculk/spread2.ogg
-+ block/sculk/spread3.ogg
-+ block/sculk/spread4.ogg
-+ block/sculk/spread5.ogg
-+ block/sculk_catalyst/break1.ogg
-+ block/sculk_catalyst/break10.ogg
-+ block/sculk_catalyst/break2.ogg
-+ block/sculk_catalyst/break3.ogg
-+ block/sculk_catalyst/break4.ogg
-+ block/sculk_catalyst/break5.ogg
-+ block/sculk_catalyst/break6.ogg
-+ block/sculk_catalyst/break7.ogg
-+ block/sculk_catalyst/break8.ogg
-+ block/sculk_catalyst/break9.ogg
-+ block/sculk_catalyst/place1.ogg
-+ block/sculk_catalyst/place2.ogg
-+ block/sculk_catalyst/place3.ogg
-+ block/sculk_catalyst/place4.ogg
-+ block/sculk_catalyst/place5.ogg
-+ block/sculk_catalyst/step1.ogg
-+ block/sculk_catalyst/step2.ogg
-+ block/sculk_catalyst/step3.ogg
-+ block/sculk_catalyst/step4.ogg
-+ block/sculk_catalyst/step5.ogg
-+ block/sculk_catalyst/step6.ogg
-+ block/sculk_shrieker/break1.ogg
-+ block/sculk_shrieker/break2.ogg
-+ block/sculk_shrieker/break3.ogg
-+ block/sculk_shrieker/break4.ogg
-+ block/sculk_shrieker/break5.ogg
-+ block/sculk_shrieker/break6.ogg
-+ block/sculk_shrieker/place1.ogg
-+ block/sculk_shrieker/place2.ogg
-+ block/sculk_shrieker/place3.ogg
-+ block/sculk_shrieker/place4.ogg
-+ block/sculk_shrieker/place5.ogg
-+ block/sculk_shrieker/shriek1.ogg
-+ block/sculk_shrieker/shriek2.ogg
-+ block/sculk_shrieker/shriek3.ogg
-+ block/sculk_shrieker/shriek4.ogg
-+ block/sculk_shrieker/shriek5.ogg
-+ block/sculk_vein/break1.ogg
-+ block/sculk_vein/break2.ogg
-+ block/sculk_vein/break3.ogg
-+ block/sculk_vein/break4.ogg
-+ block/sculk_vein/break5.ogg
-+ item/goat_horn/call0.ogg
-+ item/goat_horn/call1.ogg
-+ item/goat_horn/call2.ogg
-+ item/goat_horn/call3.ogg
-+ item/goat_horn/call4.ogg
-+ item/goat_horn/call5.ogg
-+ item/goat_horn/call6.ogg
-+ item/goat_horn/call7.ogg
-+ mob/allay/death1.ogg
-+ mob/allay/death2.ogg
-+ mob/allay/hurt1.ogg
-+ mob/allay/hurt2.ogg
-+ mob/allay/idle_with_item1.ogg
-+ mob/allay/idle_with_item2.ogg
-+ mob/allay/idle_with_item3.ogg
-+ mob/allay/idle_with_item4.ogg
-+ mob/allay/idle_without_item1.ogg
-+ mob/allay/idle_without_item2.ogg
-+ mob/allay/idle_without_item3.ogg
-+ mob/allay/idle_without_item4.ogg
-+ mob/allay/item_given1.ogg
-+ mob/allay/item_given2.ogg
-+ mob/allay/item_given3.ogg
-+ mob/allay/item_given4.ogg
-+ mob/allay/item_taken1.ogg
-+ mob/allay/item_taken2.ogg
-+ mob/allay/item_taken3.ogg
-+ mob/allay/item_taken4.ogg
-+ mob/allay/item_thrown1.ogg
-+ mob/frog/death1.ogg
-+ mob/frog/death2.ogg
-+ mob/frog/death3.ogg
-+ mob/frog/eat1.ogg
-+ mob/frog/eat2.ogg
-+ mob/frog/eat3.ogg
-+ mob/frog/eat4.ogg
-+ mob/frog/hurt1.ogg
-+ mob/frog/hurt2.ogg
-+ mob/frog/hurt3.ogg
-+ mob/frog/hurt4.ogg
-+ mob/frog/hurt5.ogg
-+ mob/frog/idle1.ogg
-+ mob/frog/idle2.ogg
-+ mob/frog/idle3.ogg
-+ mob/frog/idle4.ogg
-+ mob/frog/idle5.ogg
-+ mob/frog/idle6.ogg
-+ mob/frog/idle7.ogg
-+ mob/frog/idle8.ogg
-+ mob/frog/lay_spawn1.ogg
-+ mob/frog/lay_spawn2.ogg
-+ mob/frog/long_jump1.ogg
-+ mob/frog/long_jump2.ogg
-+ mob/frog/long_jump3.ogg
-+ mob/frog/long_jump4.ogg
-+ mob/frog/step1.ogg
-+ mob/frog/step2.ogg
-+ mob/frog/step3.ogg
-+ mob/frog/step4.ogg
-+ mob/frog/tongue1.ogg
-+ mob/frog/tongue2.ogg
-+ mob/frog/tongue3.ogg
-+ mob/frog/tongue4.ogg
-+ mob/goat/horn_break1.ogg
-+ mob/goat/horn_break2.ogg
-+ mob/goat/horn_break3.ogg
-+ mob/goat/horn_break4.ogg
-+ mob/tadpole/death1.ogg
-+ mob/tadpole/death2.ogg
-+ mob/tadpole/hurt1.ogg
-+ mob/tadpole/hurt2.ogg
-+ mob/tadpole/hurt3.ogg
-+ mob/tadpole/hurt4.ogg
-+ mob/warden/agitated_1.ogg
-+ mob/warden/agitated_2.ogg
-+ mob/warden/agitated_3.ogg
-+ mob/warden/agitated_4.ogg
-+ mob/warden/agitated_5.ogg
-+ mob/warden/agitated_6.ogg
-+ mob/warden/ambient_1.ogg
-+ mob/warden/ambient_10.ogg
-+ mob/warden/ambient_11.ogg
-+ mob/warden/ambient_12.ogg
-+ mob/warden/ambient_2.ogg
-+ mob/warden/ambient_3.ogg
-+ mob/warden/ambient_4.ogg
-+ mob/warden/ambient_5.ogg
-+ mob/warden/ambient_6.ogg
-+ mob/warden/ambient_7.ogg
-+ mob/warden/ambient_8.ogg
-+ mob/warden/ambient_9.ogg
-+ mob/warden/angry_1.ogg
-+ mob/warden/angry_2.ogg
-+ mob/warden/angry_3.ogg
-+ mob/warden/angry_4.ogg
-+ mob/warden/angry_5.ogg
-+ mob/warden/angry_6.ogg
-+ mob/warden/attack_impact_1.ogg
-+ mob/warden/attack_impact_2.ogg
-+ mob/warden/death_1.ogg
-+ mob/warden/death_2.ogg
-+ mob/warden/dig.ogg
-+ mob/warden/emerge.ogg
-+ mob/warden/heartbeat_1.ogg
-+ mob/warden/heartbeat_2.ogg
-+ mob/warden/heartbeat_3.ogg
-+ mob/warden/heartbeat_4.ogg
-+ mob/warden/hurt_1.ogg
-+ mob/warden/hurt_2.ogg
-+ mob/warden/hurt_3.ogg
-+ mob/warden/hurt_4.ogg
-+ mob/warden/listening_1.ogg
-+ mob/warden/listening_2.ogg
-+ mob/warden/listening_3.ogg
-+ mob/warden/listening_4.ogg
-+ mob/warden/listening_5.ogg
-+ mob/warden/listening_angry_1.ogg
-+ mob/warden/listening_angry_2.ogg
-+ mob/warden/listening_angry_3.ogg
-+ mob/warden/listening_angry_4.ogg
-+ mob/warden/listening_angry_5.ogg
-+ mob/warden/nearby_close_1.ogg
-+ mob/warden/nearby_close_2.ogg
-+ mob/warden/nearby_close_3.ogg
-+ mob/warden/nearby_close_4.ogg
-+ mob/warden/nearby_closer_1.ogg
-+ mob/warden/nearby_closer_2.ogg
-+ mob/warden/nearby_closer_3.ogg
-+ mob/warden/nearby_closest_1.ogg
-+ mob/warden/nearby_closest_2.ogg
-+ mob/warden/nearby_closest_3.ogg
-+ mob/warden/roar_1.ogg
-+ mob/warden/roar_2.ogg
-+ mob/warden/roar_3.ogg
-+ mob/warden/roar_4.ogg
-+ mob/warden/roar_5.ogg
-+ mob/warden/sniff_1.ogg
-+ mob/warden/sniff_2.ogg
-+ mob/warden/sniff_3.ogg
-+ mob/warden/sniff_4.ogg
-+ mob/warden/sonic_boom1.ogg
-+ mob/warden/sonic_boom2.ogg
-+ mob/warden/sonic_boom3.ogg
-+ mob/warden/sonic_boom4.ogg
-+ mob/warden/sonic_charge1.ogg
-+ mob/warden/sonic_charge2.ogg
-+ mob/warden/sonic_charge3.ogg
-+ mob/warden/sonic_charge4.ogg
-+ mob/warden/step_1.ogg
-+ mob/warden/step_2.ogg
-+ mob/warden/step_3.ogg
-+ mob/warden/step_4.ogg
-+ mob/warden/tendril_clicks_1.ogg
-+ mob/warden/tendril_clicks_2.ogg
-+ mob/warden/tendril_clicks_3.ogg
-+ mob/warden/tendril_clicks_4.ogg
-+ mob/warden/tendril_clicks_5.ogg
-+ mob/warden/tendril_clicks_6.ogg
-+ music/game/ancestry.ogg
-+ music/game/swamp/aerie.ogg
-+ music/game/swamp/firebugs.ogg
-+ music/game/swamp/labyrinthine.ogg
-+ records/5.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-- worldgen/configured_structure_feature/dolphin_located.json
-- worldgen/configured_structure_feature/eye_of_ender_located.json
-- worldgen/configured_structure_feature/mineshaft.json
-- worldgen/configured_structure_feature/ocean_ruin.json
-- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
-- worldgen/configured_structure_feature/on_treasure_maps.json
-- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
-- worldgen/configured_structure_feature/ruined_portal.json
-- worldgen/configured_structure_feature/shipwreck.json
-- worldgen/configured_structure_feature/village.json
-+ blocks/convertable_to_mud.json
-+ blocks/dragon_transparent.json
-+ blocks/frog_prefer_jump_to.json
-+ blocks/mangrove_logs.json
-+ blocks/polar_bears_spawnable_on_alternate.json
-+ blocks/sculk_replaceable.json
-+ blocks/sculk_replaceable_world_gen.json
-+ items/mangrove_logs.json
-+ worldgen/biome/allows_surface_slime_spawns.json
-+ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
-+ worldgen/biome/has_closer_water_fog.json
-+ worldgen/biome/is_end.json
-+ worldgen/biome/is_overworld.json
-+ worldgen/biome/is_savanna.json
-+ worldgen/biome/more_frequent_drowned_spawns.json
-+ worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+ worldgen/biome/plays_underwater_music.json
-+ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
-+ worldgen/biome/produces_corals_from_bonemeal.json
-+ worldgen/biome/reduce_water_ambient_spawns.json
-+ worldgen/biome/required_ocean_monument_surrounding.json
-+ worldgen/biome/spawns_cold_variant_frogs.json
-+ worldgen/biome/spawns_warm_variant_frogs.json
-+ worldgen/biome/stronghold_biased_to.json
-+ worldgen/biome/water_on_map_outlines.json
-+ worldgen/biome/without_patrol_spawns.json
-+ worldgen/biome/without_wandering_trader_spawns.json
-+ worldgen/biome/without_zombie_sieges.json
-+ worldgen/flat_level_generator_preset/visible.json
-+ worldgen/structure/cats_spawn_as_black.json
-+ worldgen/structure/cats_spawn_in.json
-+ worldgen/structure/dolphin_located.json
-+ worldgen/structure/eye_of_ender_located.json
-+ worldgen/structure/mineshaft.json
-+ worldgen/structure/ocean_ruin.json
-+ worldgen/structure/on_ocean_explorer_maps.json
-+ worldgen/structure/on_treasure_maps.json
-+ worldgen/structure/on_woodland_explorer_maps.json
-+ worldgen/structure/ruined_portal.json
-+ worldgen/structure/shipwreck.json
-+ worldgen/structure/village.json
-+ worldgen/world_preset/extended.json
-+ worldgen/world_preset/normal.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/frogspawn.png
-+ block/mangrove_door_bottom.png
-+ block/mangrove_door_top.png
-+ block/mangrove_leaves.png
-+ block/mangrove_log.png
-+ block/mangrove_log_top.png
-+ block/mangrove_planks.png
-+ block/mangrove_propagule.png
-+ block/mangrove_propagule_hanging.png
-+ block/mangrove_roots_side.png
-+ block/mangrove_roots_top.png
-+ block/mangrove_trapdoor.png
-+ block/mud.png
-+ block/muddy_mangrove_roots_side.png
-+ block/muddy_mangrove_roots_top.png
-+ block/mud_bricks.png
-+ block/ochre_froglight_side.png
-+ block/ochre_froglight_top.png
-+ block/packed_mud.png
-+ block/pearlescent_froglight_side.png
-+ block/pearlescent_froglight_top.png
-+ block/sculk.png
-+ block/sculk_catalyst_bottom.png
-+ block/sculk_catalyst_side.png
-+ block/sculk_catalyst_side_bloom.png
-+ block/sculk_catalyst_top.png
-+ block/sculk_catalyst_top_bloom.png
-+ block/sculk_shrieker_bottom.png
-+ block/sculk_shrieker_inner_top.png
-+ block/sculk_shrieker_side.png
-+ block/sculk_shrieker_top.png
-+ block/sculk_vein.png
-+ block/stripped_mangrove_log.png
-+ block/stripped_mangrove_log_top.png
-+ block/verdant_froglight_side.png
-+ block/verdant_froglight_top.png
-+ entity/boat/mangrove.png
-+ entity/frog/cold_frog.png
-+ entity/frog/temperate_frog.png
-+ entity/frog/warm_frog.png
-+ entity/signs/mangrove.png
-+ entity/tadpole/tadpole.png
-+ item/mangrove_boat.png
-+ item/mangrove_door.png
-+ item/mangrove_propagule.png
-+ item/mangrove_sign.png
-+ item/tadpole_bucket.png
-+ particle/sculk_charge_0.png
-+ particle/sculk_charge_1.png
-+ particle/sculk_charge_2.png
-+ particle/sculk_charge_3.png
-+ particle/sculk_charge_4.png
-+ particle/sculk_charge_5.png
-+ particle/sculk_charge_6.png
-+ particle/sculk_charge_pop_0.png
-+ particle/sculk_charge_pop_1.png
-+ particle/sculk_charge_pop_2.png
-+ particle/sculk_charge_pop_3.png
-+ particle/sculk_soul_0.png
-+ particle/sculk_soul_1.png
-+ particle/sculk_soul_10.png
-+ particle/sculk_soul_2.png
-+ particle/sculk_soul_3.png
-+ particle/sculk_soul_4.png
-+ particle/sculk_soul_5.png
-+ particle/sculk_soul_6.png
-+ particle/sculk_soul_7.png
-+ particle/sculk_soul_8.png
-+ particle/sculk_soul_9.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- ca.weblite:java-objc-bridge:1.0.0
-- ca.weblite:java-objc-bridge:1.0.0
-- com.mojang:text2speech:1.12.4
-- com.mojang:text2speech:1.12.4
-+ ca.weblite:java-objc-bridge:1.1
-+ com.mojang:text2speech:1.13.9
-+ com.mojang:text2speech:1.13.9
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.font.GlyphInfo</summary>
-
-```diff
-+ BakedGlyph bake(java.util.function.Function)
-- float getBearingX()
-- float getBearingY()
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.font.TrueTypeGlyphProvider$Glyph</summary>
-
-```diff
-+ BakedGlyph bake(Function)
-- boolean isColored()
-- float getBearingX()
-- float getBearingY()
-- float getOversample()
-- int getPixelHeight()
-- int getPixelWidth()
-- void upload(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ boolean lambda$updateTeaserImages$14(ResourceLocation)
-- boolean lambda$updateTeaserImages$14(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util$5</summary>
-
-```diff
-+ Path val$from
-+ Path val$to
-- Path val$target
-+ void <init>(Path)
-- void <init>(Path)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.Util$9</summary>
-
-```diff
-- Function val$function
-- Map cache
-+ void <init>(String)
-+ void run()
-- Object apply(Object)
-- String toString()
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
-
-```diff
-+ ResourceKey structure
-- ResourceKey feature
-+ LocationPredicate$Builder setStructure(ResourceKey)
-- LocationPredicate$Builder setFeature(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.CycleOption</summary>
-
-```diff
-+ CycleButton$Builder lambda$create$0(List)
-+ CycleButton$Builder lambda$create$1(Supplier)
-+ CycleButton$Builder lambda$create$2(List)
-+ CycleButton$Builder lambda$create$3(Object[])
-+ CycleButton$Builder lambda$createBinaryOption$4(Component)
-+ List lambda$createOnOff$5(Boolean)
-+ Option$TooltipSupplier lambda$createOnOff$6(Minecraft)
-+ void lambda$createButton$7(Object)
-- CycleButton$Builder lambda$create$2(List)
-- CycleButton$Builder lambda$create$3(Supplier)
-- CycleButton$Builder lambda$create$4(List)
-- CycleButton$Builder lambda$create$5(Object[])
-- CycleButton$Builder lambda$createBinaryOption$6(Component)
-- CycleButton$TooltipSupplier lambda$createOnOff$8(Minecraft)
-- CycleButton$TooltipSupplier lambda$new$1(Minecraft)
-- List lambda$createOnOff$7(Boolean)
-- List lambda$new$0(Object)
-- void lambda$createButton$9(Object)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ double gpuUtilization
-+ long savedCpuDuration
-+ TimerQuery$FrameProfile currentFrameProfile
-+ boolean lambda$tick$31()
-+ ChunkProgressListener lambda$doWorldLoad$32(int)
-+ CompletionStage lambda$delayTextureReload$43(CompletableFuture)
-+ double getGpuUtilization()
-+ IntegratedServer lambda$doWorldLoad$33(Thread)
-+ PackResources lambda$adaptV3$47(Supplier)
-+ PackResources lambda$adaptV4$48(Supplier)
-+ String lambda$doWorldLoad$34(WorldStem)
-+ String lambda$fillSystemReport$36(String)
-+ String lambda$fillSystemReport$37(Minecraft)
-+ String lambda$fillSystemReport$38()
-+ String lambda$fillSystemReport$39()
-+ String lambda$fillSystemReport$40()
-+ String lambda$fillSystemReport$41(Options)
-+ String lambda$fillSystemReport$42(LanguageManager)
-+ Style lambda$debugClientMetricsStart$22(Style)
-+ Style lambda$grabHugeScreenshot$46(Style)
-+ Style lambda$grabPanoramixScreenshot$45(Style)
-+ void debugClientMetricsCancel()
-+ void doWorldLoad(WorldStem)
-+ void lambda$debugClientMetricsStart$20(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$21(ProfileResults)
-+ void lambda$debugClientMetricsStart$23(Component)
-+ void lambda$debugClientMetricsStart$24(Path)
-+ void lambda$debugClientMetricsStart$25(List)
-+ void lambda$debugClientMetricsStart$26(Path)
-+ void lambda$debugClientMetricsStart$27(CompletableFuture)
-+ void lambda$debugClientMetricsStart$28(ProfileResults)
-+ void lambda$debugClientMetricsStart$29(ProfileResults)
-+ void lambda$doWorldLoad$35(Component)
-+ void lambda$grabPanoramixScreenshot$44(Component)
-+ void lambda$runTick$19(TimerQuery)
-+ void lambda$tick$30()
-+ WorldOpenFlows createWorldOpenFlows()
-- boolean lambda$tick$30()
-- ChunkProgressListener lambda$doLoadLevel$37(int)
-- CompletionStage lambda$delayTextureReload$49(CompletableFuture)
-- DataResult lambda$createLevel$32(JsonElement)
-- IntegratedServer lambda$doLoadLevel$38(Thread)
-- PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
-- PackResources lambda$adaptV3$53(Supplier)
-- PackResources lambda$adaptV4$54(Supplier)
-- Pair lambda$createLevel$33(DataPackConfig)
-- String lambda$fillSystemReport$42(String)
-- String lambda$fillSystemReport$43(Minecraft)
-- String lambda$fillSystemReport$44()
-- String lambda$fillSystemReport$45()
-- String lambda$fillSystemReport$46()
-- String lambda$fillSystemReport$47(Options)
-- String lambda$fillSystemReport$48(LanguageManager)
-- Style lambda$debugClientMetricsStart$21(Style)
-- Style lambda$grabHugeScreenshot$52(Style)
-- Style lambda$grabPanoramixScreenshot$51(Style)
-- void createLevel(WorldGenSettings)
-- void displayExperimentalConfirmationDialog(Runnable)
-- void doLoadLevel(Minecraft$ExperimentalDialogType)
-- void lambda$debugClientMetricsStart$19(Consumer,double,int)
-- void lambda$debugClientMetricsStart$20(ProfileResults)
-- void lambda$debugClientMetricsStart$22(Component)
-- void lambda$debugClientMetricsStart$23(Path)
-- void lambda$debugClientMetricsStart$24(List)
-- void lambda$debugClientMetricsStart$25(Path)
-- void lambda$debugClientMetricsStart$26(CompletableFuture)
-- void lambda$debugClientMetricsStart$27(ProfileResults)
-- void lambda$debugClientMetricsStart$28(ProfileResults)
-- void lambda$displayExperimentalConfirmationDialog$40(Runnable,boolean,boolean)
-- void lambda$displayExperimentalConfirmationDialog$41(String,boolean)
-- void lambda$doLoadLevel$35(Minecraft$ExperimentalDialogType)
-- void lambda$doLoadLevel$36(Function,boolean)
-- void lambda$doLoadLevel$39(Component)
-- void lambda$grabPanoramixScreenshot$50(Component)
-- void lambda$tick$29()
-- void loadLevel(String)
-- WorldStem makeWorldStem(LevelStorageSource$LevelStorageAccess,boolean)
-- WorldStem makeWorldStem(WorldStem$WorldDataSupplier)
-- WorldStem$DataPackConfigSupplier lambda$createLevel$31(LevelStorageSource$LevelStorageAccess)
-- WorldStem$WorldDataSupplier lambda$createLevel$34(LevelStorageSource$LevelStorageAccess)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ boolean directionalAudio
-+ Component ACCESSIBILITY_TOOLTIP_DARK_MOJANG_BACKGROUND
-+ Component ACCESSIBILITY_TOOLTIP_HIDE_LIGHTNING_FLASHES
-+ Component PRIORITIZE_CHUNK_TOOLTIP_NEARBY
-+ Component PRIORITIZE_CHUNK_TOOLTIP_NONE
-+ Component PRIORITIZE_CHUNK_TOOLTIP_PLAYER_AFFECTED
-+ OptionInstance ambientOcclusion
-+ OptionInstance biomeBlendRadius
-+ OptionInstance chatHeightFocused
-+ OptionInstance chatHeightUnfocused
-+ OptionInstance darkMojangStudiosBackground
-+ OptionInstance fov
-+ OptionInstance hideLightningFlash
-+ OptionInstance mouseWheelSensitivity
-+ OptionInstance prioritizeChunkUpdates
-+ OptionInstance rawMouseInput
-- AmbientOcclusionStatus ambientOcclusion
-- boolean darkMojangStudiosBackground
-- boolean hideLightningFlashes
-- boolean rawMouseInput
-- double chatHeightFocused
-- double chatHeightUnfocused
-- double fov
-- double mouseWheelSensitivity
-- int biomeBlendRadius
-- PrioritizeChunkUpdates prioritizeChunkUpdates
-+ boolean lambda$new$20()
-+ boolean lambda$new$21()
-+ Component genericValueLabel(Component,int)
-+ Component genericValueLabel(Component)
-+ Component lambda$new$10(Double)
-+ Component lambda$new$12(Double)
-+ Component lambda$new$15(Integer)
-+ Component lambda$new$17(Double)
-+ Component lambda$new$22(Integer)
-+ Component lambda$new$4(AmbientOcclusionStatus)
-+ Component lambda$new$8(PrioritizeChunkUpdates)
-+ Component percentValueLabel(Component,double)
-+ Component pixelValueLabel(Component,int)
-+ double logMouse(int)
-+ Float lambda$processOptions$25(Float)
-+ int unlogMouse(double)
-+ List lambda$new$0(Boolean)
-+ List lambda$new$2(Boolean)
-+ List lambda$new$6(PrioritizeChunkUpdates)
-+ Option$TooltipSupplier lambda$new$1(Minecraft)
-+ Option$TooltipSupplier lambda$new$3(Minecraft)
-+ Option$TooltipSupplier lambda$new$7(Minecraft)
-+ OptionInstance ambientOcclusion()
-+ OptionInstance biomeBlendRadius()
-+ OptionInstance chatHeightFocused()
-+ OptionInstance chatHeightUnfocused()
-+ OptionInstance darkMojangStudiosBackground()
-+ OptionInstance fov()
-+ OptionInstance hideLightningFlash()
-+ OptionInstance mouseWheelSensitivity()
-+ OptionInstance prioritizeChunkUpdates()
-+ OptionInstance rawMouseInput()
-+ String lambda$dumpOptionsForReport$27(Pair)
-+ String lambda$processOptions$24(AmbientOcclusionStatus)
-+ void lambda$load$26(String)
-+ void lambda$new$11(Double)
-+ void lambda$new$13(Double)
-+ void lambda$new$14(Object2FloatOpenHashMap)
-+ void lambda$new$16(Integer)
-+ void lambda$new$18(Double)
-+ void lambda$new$19(Boolean)
-+ void lambda$new$23(Integer)
-+ void lambda$new$5(AmbientOcclusionStatus)
-+ void lambda$new$9(PrioritizeChunkUpdates)
-- boolean lambda$new$1()
-- boolean lambda$new$2()
-- Float lambda$processOptions$4(Float)
-- String lambda$dumpOptionsForReport$6(Pair)
-- String lambda$processOptions$3(AmbientOcclusionStatus)
-- void lambda$load$5(String)
-- void lambda$new$0(Object2FloatOpenHashMap)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.Options$4</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$client$PrioritizeChunkUpdates
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
-
-```diff
-+ void drawBar(BossEvent,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.CycleButton</summary>
-
-```diff
-+ Option$TooltipSupplier tooltipSupplier
-- CycleButton$TooltipSupplier tooltipSupplier
-+ void <init>(Option$TooltipSupplier,boolean)
-- void <init>(CycleButton$TooltipSupplier,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
-
-```diff
-- Option[] OPTIONS
-+ Option[] options(Options)
-- void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
-
-```diff
-- Option[] CHAT_OPTIONS
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
-
-```diff
-- Option[] OPTIONS
-+ Option[] options(Options)
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.OptionsScreen</summary>
-
-```diff
-- Option[] OPTION_SCREEN_OPTIONS
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.OutOfMemoryScreen</summary>
-
-```diff
-+ MultiLineLabel message
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.HierarchicalModel</summary>
-
-```diff
-+ boolean lambda$getAnyDescendantWithName$0(ModelPart)
-+ ModelPart lambda$getAnyDescendantWithName$1(ModelPart)
-+ Optional getAnyDescendantWithName(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.AssetIndex</summary>
-
-```diff
-+ Collection getFiles(Predicate)
-- Collection getFiles(Predicate)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.DefaultClientPackResources</summary>
-
-```diff
-+ Collection getResources(Predicate)
-- Collection getResources(Predicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.DirectAssetIndex</summary>
-
-```diff
-+ Collection getFiles(Predicate)
-+ ResourceLocation lambda$getFiles$2(Path)
-- boolean lambda$getFiles$2(Path)
-- Collection getFiles(Predicate)
-- ResourceLocation lambda$getFiles$3(Path)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.resources.PackResourcesAdapterV4</summary>
-
-```diff
-+ Collection getResources(Predicate)
-- Collection getResources(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceOrTagLocationArgument</summary>
-
-```diff
-+ ResourceOrTagLocationArgument$Result getStructure(String)
-- ResourceOrTagLocationArgument$Result getStructureFeature(String)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
-
-```diff
-+ HolderSet tag
-- TagKey tag
-+ boolean requiresNbt()
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
-
-```diff
-+ boolean allowNbt
-+ DynamicCommandExceptionType ERROR_UNKNOWN_TAG
-+ Function SUGGEST_NOTHING
-+ Function suggestions
-+ HolderLookup blocks
-+ HolderSet tag
-- BiFunction SUGGEST_NOTHING
-- BiFunction suggestions
-- int tagCursor
-- TagKey tag
-+ BlockStateParser$BlockResult parseForBlock(String,boolean)
-+ BlockStateParser$BlockResult parseForBlock(StringReader,boolean)
-+ BlockStateParser$BlockResult parseForBlock(StringReader,boolean)
-+ boolean hasBlockEntity()
-+ CommandSyntaxException lambda$readTag$7(ResourceLocation)
-+ CompletableFuture fillSuggestions(SuggestionsBuilder,boolean,boolean)
-+ CompletableFuture lambda$readProperties$8(SuggestionsBuilder)
-+ CompletableFuture lambda$readVagueProperties$9(SuggestionsBuilder)
-+ CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder)
-+ CompletableFuture suggestEquals(SuggestionsBuilder)
-+ CompletableFuture suggestItem(SuggestionsBuilder)
-+ CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder)
-+ CompletableFuture suggestOpenNbt(SuggestionsBuilder)
-+ CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder)
-+ CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder)
-+ CompletableFuture suggestPropertyName(SuggestionsBuilder)
-+ CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder)
-+ CompletableFuture suggestTag(SuggestionsBuilder)
-+ CompletableFuture suggestVaguePropertyName(SuggestionsBuilder)
-+ CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder)
-+ CompletableFuture suggestVaguePropertyValue(String)
-+ Either parseForTesting(String,boolean)
-+ Either parseForTesting(StringReader,boolean)
-+ Either parseForTesting(StringReader,boolean)
-+ Message lambda$static$5(Object)
-+ String lambda$serialize$10(ResourceKey)
-+ void <init>(StringReader,boolean,boolean)
-+ void parse()
-- BlockState getState()
-- BlockStateParser parse(boolean)
-- boolean hasBlockEntity(Registry)
-- CompletableFuture fillSuggestions(Registry)
-- CompletableFuture lambda$readProperties$7(Registry)
-- CompletableFuture lambda$readVagueProperties$8(Registry)
-- CompletableFuture lambda$static$5(Registry)
-- CompletableFuture suggestBlockIdOrTag(Registry)
-- CompletableFuture suggestEquals(Registry)
-- CompletableFuture suggestNextPropertyOrEnd(Registry)
-- CompletableFuture suggestOpenNbt(Registry)
-- CompletableFuture suggestOpenPropertiesOrNbt(Registry)
-- CompletableFuture suggestOpenVaguePropertiesOrNbt(Registry)
-- CompletableFuture suggestPropertyName(Registry)
-- CompletableFuture suggestPropertyNameOrEnd(Registry)
-- CompletableFuture suggestTag(Registry)
-- CompletableFuture suggestVaguePropertyName(Registry)
-- CompletableFuture suggestVaguePropertyNameOrEnd(Registry)
-- CompletableFuture suggestVaguePropertyValue(String)
-- CompoundTag getNbt()
-- Map getProperties()
-- Map getVagueProperties()
-- TagKey getTag()
-- void <init>(StringReader,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemInput</summary>
-
-```diff
-+ Holder item
-- Item item
-+ Object lambda$getItemName$1()
-+ String getItemName()
-+ void <init>(CompoundTag)
-- void <init>(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
-
-```diff
-+ HolderLookup items
-- DynamicCommandExceptionType ERROR_UNKNOWN_TAG
-+ boolean lambda$createResult$3(ItemStack)
-+ boolean lambda$createResult$4(ItemStack)
-+ boolean lambda$parse$0(Holder)
-+ ItemPredicateArgument itemPredicate(CommandBuildContext)
-+ ItemPredicateArgument$Result createResult(CompoundTag)
-+ ItemPredicateArgument$Result lambda$parse$1(ItemParser$ItemResult)
-+ ItemPredicateArgument$Result lambda$parse$2(ItemParser$TagResult)
-+ void <init>(CommandBuildContext)
-- ItemPredicateArgument itemPredicate()
-- Message lambda$static$0(Object)
-- Predicate lambda$parse$1(CommandContext)
-- Predicate lambda$parse$2(CommandContext)
-- void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
-
-```diff
-+ Collection allShuffled(Random)
-+ Stream stream()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.core.Direction8</summary>
-
-```diff
-+ Vec3i step
-+ int getStepX()
-+ int getStepZ()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ Set registryKeySet()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate CUBE_NORTH_WEST_MIRRORED_ALL
-+ ModelTemplate DOOR_BOTTOM_LEFT
-+ ModelTemplate DOOR_BOTTOM_LEFT_OPEN
-+ ModelTemplate DOOR_BOTTOM_RIGHT
-+ ModelTemplate DOOR_BOTTOM_RIGHT_OPEN
-+ ModelTemplate DOOR_TOP_LEFT
-+ ModelTemplate DOOR_TOP_LEFT_OPEN
-+ ModelTemplate DOOR_TOP_RIGHT
-+ ModelTemplate DOOR_TOP_RIGHT_OPEN
-- ModelTemplate DOOR_BOTTOM
-- ModelTemplate DOOR_BOTTOM_HINGE
-- ModelTemplate DOOR_TOP
-- ModelTemplate DOOR_TOP_HINGE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.BlockTagsProvider</summary>
-
-```diff
-- String getName()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.GameEventTagsProvider</summary>
-
-```diff
-- String getName()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
-
-```diff
-+ boolean lambda$listResources$0(Map$Entry)
-+ DataResult lambda$getResource$3(Decoder)
-+ Map listResources(ResourceKey)
-+ Optional getResource(ResourceKey)
-+ RegistryResourceAccess$EntryThunk lambda$listResources$2(Map$Entry)
-+ ResourceKey lambda$listResources$1(Map$Entry)
-- Collection listResources(ResourceKey)
-- Optional parseElement(Decoder)
-- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(Object)
-- Stream lambda$listResources$0(ResourceKey)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.resources.ResourceLocation</summary>
-
-```diff
-+ String toLanguageKey()
-+ String toLanguageKey(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ReloadableServerResources</summary>
-
-```diff
-+ CommandBuildContext commandBuildContext
-+ List lambda$updateRegistryTags$4(Map$Entry)
-+ ReloadableServerResources lambda$loadResources$1(Object)
-+ TagKey lambda$updateRegistryTags$3(Map$Entry)
-+ void lambda$loadResources$0(Throwable)
-+ void lambda$updateRegistryTags$2(TagManager$LoadResult)
-- List lambda$updateRegistryTags$3(Map$Entry)
-- ReloadableServerResources lambda$loadResources$0(Object)
-- TagKey lambda$updateRegistryTags$2(Map$Entry)
-- void lambda$updateRegistryTags$1(TagManager$LoadResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.CloneCommands</summary>
-
-```diff
-+ void register(CommandBuildContext)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.FillCommand</summary>
-
-```diff
-+ void register(CommandBuildContext)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LootCommand</summary>
-
-```diff
-+ ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
-+ void register(CommandBuildContext)
-- ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SetBlockCommand</summary>
-
-```diff
-+ void register(CommandBuildContext)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ int getMaxChainedNeighborUpdates()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ int maxChainedNeighborUpdates
-+ Logger LOGGER
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.DemoMode</summary>
-
-```diff
-+ void handleBlockBreakAction(Direction,int,int)
-- void handleBlockBreakAction(Direction,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ThreadedLevelLightEngine</summary>
-
-```diff
-+ ChunkAccess lambda$lightChunk$23(ChunkPos)
-+ ChunkAccess lambda$retainData$17(ChunkAccess)
-+ CompletableFuture retainData(ChunkAccess)
-+ String lambda$lightChunk$22(ChunkPos,boolean)
-+ String lambda$retainData$18(ChunkPos)
-+ void lambda$lightChunk$20(BlockPos)
-+ void lambda$lightChunk$21(ChunkPos,boolean)
-+ void lambda$lightChunk$24(Runnable)
-+ void lambda$retainData$19(Runnable)
-+ void lambda$tryScheduleUpdate$25()
-- ChunkAccess lambda$lightChunk$20(ChunkPos)
-- String lambda$lightChunk$19(ChunkPos,boolean)
-- void lambda$lightChunk$17(BlockPos)
-- void lambda$lightChunk$18(ChunkPos,boolean)
-- void lambda$lightChunk$21(Runnable)
-- void lambda$tryScheduleUpdate$22()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ double MAX_INTERACTION_DISTANCE
-+ int ackBlockChangesUpTo
-+ int NO_BLOCK_UPDATES_TO_ACK
-+ void ackBlockChangesUpTo(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.FolderPackResources</summary>
-
-```diff
-+ Collection getResources(Predicate)
-+ void listResources(Predicate)
-- Collection getResources(Predicate)
-- void listResources(Predicate)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
-
-```diff
-+ boolean lambda$getResources$1(Path)
-+ Collection getResources(Predicate)
-+ void getResources(Predicate)
-- boolean lambda$getResources$1(Path)
-- Collection getResources(Predicate)
-- void getResources(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
-
-```diff
-+ List getResourceStack(ResourceLocation)
-+ Map listResources(Predicate)
-+ Map listResourceStacks(Predicate)
-- Collection listResources(Predicate)
-- List getResources(ResourceLocation)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleResource</summary>
-
-```diff
-- boolean triedMetadata
-- boolean equals(Object)
-- int hashCode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent BUCKET_EMPTY_TADPOLE
-+ SoundEvent BUCKET_FILL_TADPOLE
-+ SoundEvent FROG_AMBIENT
-+ SoundEvent FROG_DEATH
-+ SoundEvent FROG_EAT
-+ SoundEvent FROG_HURT
-+ SoundEvent FROG_LAY_SPAWN
-+ SoundEvent FROG_LONG_JUMP
-+ SoundEvent FROG_STEP
-+ SoundEvent FROG_TOUNGE
-+ SoundEvent FROGLIGHT_BREAK
-+ SoundEvent FROGLIGHT_FALL
-+ SoundEvent FROGLIGHT_HIT
-+ SoundEvent FROGLIGHT_PLACE
-+ SoundEvent FROGLIGHT_STEP
-+ SoundEvent FROGSPAWN_BREAK
-+ SoundEvent FROGSPAWN_FALL
-+ SoundEvent FROGSPAWN_HATCH
-+ SoundEvent FROGSPAWN_HIT
-+ SoundEvent FROGSPAWN_PLACE
-+ SoundEvent FROGSPAWNSTEP
-+ SoundEvent MANGROVE_ROOTS_BREAK
-+ SoundEvent MANGROVE_ROOTS_FALL
-+ SoundEvent MANGROVE_ROOTS_HIT
-+ SoundEvent MANGROVE_ROOTS_PLACE
-+ SoundEvent MANGROVE_ROOTS_STEP
-+ SoundEvent MUD_BREAK
-+ SoundEvent MUD_BRICKS_BREAK
-+ SoundEvent MUD_BRICKS_FALL
-+ SoundEvent MUD_BRICKS_HIT
-+ SoundEvent MUD_BRICKS_PLACE
-+ SoundEvent MUD_BRICKS_STEP
-+ SoundEvent MUD_FALL
-+ SoundEvent MUD_HIT
-+ SoundEvent MUD_PLACE
-+ SoundEvent MUD_STEP
-+ SoundEvent MUDDY_MANGROVE_ROOTS_BREAK
-+ SoundEvent MUDDY_MANGROVE_ROOTS_FALL
-+ SoundEvent MUDDY_MANGROVE_ROOTS_HIT
-+ SoundEvent MUDDY_MANGROVE_ROOTS_PLACE
-+ SoundEvent MUDDY_MANGROVE_ROOTS_STEP
-+ SoundEvent MUSIC_BIOME_DEEP_DARK
-+ SoundEvent PACKED_MUD_BREAK
-+ SoundEvent PACKED_MUD_FALL
-+ SoundEvent PACKED_MUD_HIT
-+ SoundEvent PACKED_MUD_PLACE
-+ SoundEvent PACKED_MUD_STEP
-+ SoundEvent SCULK_BLOCK_BREAK
-+ SoundEvent SCULK_BLOCK_CHARGE
-+ SoundEvent SCULK_BLOCK_FALL
-+ SoundEvent SCULK_BLOCK_HIT
-+ SoundEvent SCULK_BLOCK_PLACE
-+ SoundEvent SCULK_BLOCK_SPREAD
-+ SoundEvent SCULK_BLOCK_STEP
-+ SoundEvent SCULK_CATALYST_BLOOM
-+ SoundEvent SCULK_CATALYST_BREAK
-+ SoundEvent SCULK_CATALYST_FALL
-+ SoundEvent SCULK_CATALYST_HIT
-+ SoundEvent SCULK_CATALYST_PLACE
-+ SoundEvent SCULK_CATALYST_STEP
-+ SoundEvent SCULK_SHRIEKER_BREAK
-+ SoundEvent SCULK_SHRIEKER_FALL
-+ SoundEvent SCULK_SHRIEKER_HIT
-+ SoundEvent SCULK_SHRIEKER_PLACE
-+ SoundEvent SCULK_SHRIEKER_STEP
-+ SoundEvent SCULK_VEIN_BREAK
-+ SoundEvent SCULK_VEIN_FALL
-+ SoundEvent SCULK_VEIN_HIT
-+ SoundEvent SCULK_VEIN_PLACE
-+ SoundEvent SCULK_VEIN_STEP
-+ SoundEvent TADPOLE_DEATH
-+ SoundEvent TADPOLE_EAT
-+ SoundEvent TADPOLE_FLOP
-+ SoundEvent TADPOLE_GROW_UP
-+ SoundEvent TADPOLE_HURT
-+ SoundEvent TADPOLE_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BiomeTags</summary>
-
-```diff
-+ TagKey ALLOWS_SURFACE_SLIME_SPAWNS
-+ TagKey ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT
-+ TagKey HAS_CLOSER_WATER_FOG
-+ TagKey IS_END
-+ TagKey IS_OVERWORLD
-+ TagKey IS_SAVANNA
-+ TagKey MORE_FREQUENT_DROWNED_SPAWNS
-+ TagKey ONLY_ALLOWS_SNOW_AND_GOLD_RABBITS
-+ TagKey PLAYS_UNDERWATER_MUSIC
-+ TagKey POLAR_BEARS_SPAWN_ON_ALTERNATE_BLOCKS
-+ TagKey PRODUCES_CORALS_FROM_BONEMEAL
-+ TagKey REDUCED_WATER_AMBIENT_SPAWNS
-+ TagKey REQUIRED_OCEAN_MONUMENT_SURROUNDING
-+ TagKey SPAWNS_COLD_VARIANT_FROGS
-+ TagKey SPAWNS_WARM_VARIANT_FROGS
-+ TagKey STRONGHOLD_BIASED_TO
-+ TagKey WATER_ON_MAP_OUTLINES
-+ TagKey WITHOUT_PATROL_SPAWNS
-+ TagKey WITHOUT_WANDERING_TRADER_SPAWNS
-+ TagKey WITHOUT_ZOMBIE_SIEGES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey MANGROVE_LOGS
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CubicSpline</summary>
-
-```diff
-- float max()
-- float min()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.CubicSpline$Builder</summary>
-
-```diff
-+ CubicSpline$Builder addPoint(CubicSpline)
-+ CubicSpline$Builder addPoint(float,float)
-- float lambda$new$0(Float)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.CubicSpline$CoordinateVisitor</summary>
-
-```diff
-+ Object visit(java.lang.Object)
-- ToFloatFunction visit(net.minecraft.util.ToFloatFunction)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ Codec PATTERN
-+ DataResult lambda$static$27(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ float catmullrom(float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.ParticleUtils</summary>
-
-```diff
-+ Vec3 getRandomSpeedRanges(Random)
-+ Vec3 lambda$spawnParticlesOnBlockFaces$0(Level)
-+ void spawnParticleOnFace(Vec3,double)
-+ void spawnParticlesOnBlockFace(Supplier,double)
-+ void spawnParticlesOnBlockFaces(IntProvider)
-- void spawnParticleOnFace(ParticleOptions)
-- void spawnParticlesOnBlockFaces(UniformInt)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ToFloatFunction</summary>
-
-```diff
-+ float maxValue()
-+ float minValue()
-+ ToFloatFunction IDENTITY
-+ float lambda$static$0(float)
-+ ToFloatFunction comap(Function)
-+ ToFloatFunction createUnlimited(Float2FloatFunction)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.metrics.profiling.ActiveMetricsRecorder</summary>
-
-```diff
-+ void cancel()
-+ void cleanup(Collection)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.metrics.profiling.MetricsRecorder</summary>
-
-```diff
-+ void cancel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ int getExperienceReward()
-- int getExperienceReward(Player)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-+ int getExperienceReward()
-- int getExperienceReward(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ int getExperienceReward()
-- int getExperienceReward(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
-
-```diff
-+ Activity LAY_SPAWN
-+ Activity SWIM
-+ Activity TONGUE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
-
-```diff
-+ void updateEffects(MobEffect)
-- void updateEffects(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item FROG_SPAWN_EGG
-+ Item FROGSPAWN
-+ Item MANGROVE_BOAT
-+ Item MANGROVE_BUTTON
-+ Item MANGROVE_DOOR
-+ Item MANGROVE_FENCE
-+ Item MANGROVE_FENCE_GATE
-+ Item MANGROVE_LEAVES
-+ Item MANGROVE_LOG
-+ Item MANGROVE_PLANKS
-+ Item MANGROVE_PRESSURE_PLATE
-+ Item MANGROVE_PROPAGULE
-+ Item MANGROVE_ROOTS
-+ Item MANGROVE_SIGN
-+ Item MANGROVE_SLAB
-+ Item MANGROVE_STAIRS
-+ Item MANGROVE_TRAPDOOR
-+ Item MANGROVE_WOOD
-+ Item MUD
-+ Item MUD_BRICK_SLAB
-+ Item MUD_BRICK_STAIRS
-+ Item MUD_BRICK_WALL
-+ Item MUD_BRICKS
-+ Item MUDDY_MANGROVE_ROOTS
-+ Item OCHRE_FROGLIGHT
-+ Item PACKED_MUD
-+ Item PEARLESCENT_FROGLIGHT
-+ Item SCULK
-+ Item SCULK_CATALYST
-+ Item SCULK_SHRIEKER
-+ Item SCULK_VEIN
-+ Item STRIPPED_MANGROVE_LOG
-+ Item STRIPPED_MANGROVE_WOOD
-+ Item TADPOLE_BUCKET
-+ Item TADPOLE_SPAWN_EGG
-+ Item VERDANT_FROGLIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
-
-```diff
-+ MultifaceSpreader getSpreader()
-+ boolean isValidStateForPlacement(Direction)
-+ boolean lambda$hasAnyFace$2(Direction)
-+ boolean lambda$hasAnyVacantFace$3(Direction)
-+ byte pack(Collection)
-+ Set availableFaces(BlockState)
-+ Set unpack(byte)
-- boolean canSpread(Direction)
-- boolean canSpreadInto(BlockState)
-- boolean canSpreadToFace(Direction)
-- boolean lambda$canSpread$5(Direction)
-- boolean lambda$hasAnyFace$6(Direction)
-- boolean lambda$hasAnyVacantFace$7(Direction)
-- boolean lambda$spreadFromFaceTowardRandomDirection$4(Direction)
-- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(Direction)
-- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(Direction)
-- boolean spreadFromFaceTowardDirection(Direction,boolean)
-- boolean spreadFromFaceTowardRandomDirection(Random,boolean)
-- boolean spreadFromRandomFaceTowardRandomDirection(Random)
-- boolean spreadToFace(Direction,boolean)
-- Optional getSpreadFromFaceTowardDirection(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-+ LongSet getReferencesForStructure(Structure)
-+ StructureStart getStartForStructure(Structure)
-+ void addReferenceForStructure(Structure,long)
-+ void setStartForStructure(StructureStart)
-- LongSet getReferencesForFeature(ConfiguredStructureFeature)
-- StructureStart getStartForFeature(ConfiguredStructureFeature)
-- void addReferenceForFeature(ConfiguredStructureFeature,long)
-- void setStartForFeature(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
-
-```diff
-+ boolean lambda$keysInOrder$1(ResourceKey)
-+ boolean stable(Registry)
-+ Stream keysInOrder(Stream)
-+ void lambda$sortMap$2(ResourceKey)
-- boolean stable(Registry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
-
-```diff
-+ boolean processing
-+ List listenersToAdd
-+ Set listenersToRemove
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
-
-```diff
-+ void <init>(ChunkAccess)
-+ void lambda$new$1(StructureStart)
-- boolean lambda$new$1(ConfiguredStructureFeature)
-- void <init>(ChunkAccess)
-- void lambda$new$2(StructureStart)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ CompletableFuture fillFromNoise(ChunkAccess)
-+ int getBaseHeight(RandomState)
-+ NoiseColumn getBaseColumn(RandomState)
-+ void addDebugScreenInfo(BlockPos)
-+ void applyBiomeDecoration(StructureManager)
-+ void applyCarvers(GenerationStep$Carving)
-+ void buildSurface(ChunkAccess)
-- ChunkGenerator withSeed(long)
-- Climate$Sampler climateSampler()
-- CompletableFuture fillFromNoise(ChunkAccess)
-- int getBaseHeight(LevelHeightAccessor)
-- NoiseColumn getBaseColumn(LevelHeightAccessor)
-- void addDebugScreenInfo(BlockPos)
-- void applyBiomeDecoration(StructureFeatureManager)
-- void applyCarvers(GenerationStep$Carving)
-- void buildSurface(ChunkAccess)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions</summary>
-
-```diff
-+ DensityFunction spline(CubicSpline)
-- DensityFunction terrainShaperSpline(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
-
-```diff
-+ float ISLAND_THRESHOLD
-+ float getHeightValue(SimplexNoise,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
-
-```diff
-+ Codec SPLINE_CODEC
-- double maxValue
-- double minValue
-+ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunctions$Spline$Coordinate)
-+ void <init>(CubicSpline)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- ToFloatFunction lambda$mapAll$1(ToFloatFunction)
-- void <init>(CubicSpline,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
-
-```diff
-+ RandomState randomState
-+ SurfaceRules$RuleSource surfaceRule
-- NoiseBasedChunkGenerator generator
-+ RandomState randomState()
-+ void <init>(SurfaceRules$RuleSource)
-- void <init>(NoiseChunk)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
-
-```diff
-+ boolean place(Random,boolean)
-+ BoundingBox getBoundingBox(Rotation)
-+ List getShuffledJigsawBlocks(Random)
-+ Vec3i getSize(Rotation)
-- boolean place(Random,boolean)
-- BoundingBox getBoundingBox(Rotation)
-- List getShuffledJigsawBlocks(Random)
-- Vec3i getSize(Rotation)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
-
-```diff
-+ Optional addPieces(Optional)
-+ void addPieces(RandomState)
-+ void lambda$addPieces$0(StructurePiecesBuilder)
-- Optional addPieces(BlockPos,boolean,boolean)
-- void addPieces(LevelHeightAccessor)
-- void lambda$addPieces$0(PieceGenerator$Context)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
-
-```diff
-+ boolean place(Random,boolean)
-+ BoundingBox getBoundingBox(Rotation)
-+ List getDataMarkers(Rotation,boolean)
-+ List getShuffledJigsawBlocks(Random)
-+ StructureTemplate getTemplate(StructureTemplateManager)
-+ Vec3i getSize(Rotation)
-- boolean place(Random,boolean)
-- BoundingBox getBoundingBox(Rotation)
-- List getDataMarkers(Rotation,boolean)
-- List getShuffledJigsawBlocks(Random)
-- StructureTemplate getTemplate(StructureManager)
-- Vec3i getSize(Rotation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.font.package-info
@@ -7713,30 +2770,46 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.font.GlyphInfo</summary>
+
+```diff
+- float getBearingX()
+- float getBearingY()
+```
+
+</details>
 
 
+<details><summary>com.mojang.blaze3d.font.TrueTypeGlyphProvider$Glyph</summary>
+
+```diff
++ BakedGlyph bake(Function)
+- boolean isColored()
+- float getBearingX()
+- float getBearingY()
+- float getOversample()
+- int getPixelHeight()
+- int getPixelWidth()
+- void upload(int,int)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
+```diff
++ boolean lambda$updateTeaserImages$14(ResourceLocation)
+- boolean lambda$updateTeaserImages$14(String)
+```
 
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.Util$5</summary>
 
 ```diff
-+ Path val$from
-+ Path val$to
-- Path val$target
-+ void <init>(Path)
++ void <init>(Path,Path)
 - void <init>(Path)
 ```
 
@@ -7746,414 +2819,451 @@
 <details><summary>net.minecraft.Util$9</summary>
 
 ```diff
-- Function val$function
-- Map cache
-+ void <init>(String)
-+ void run()
 - Object apply(Object)
 - String toString()
 - void <init>(Function)
++ void <init>(String)
++ void run()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
 
 ```diff
-+ ResourceKey structure
-- ResourceKey feature
-+ LocationPredicate$Builder setStructure(ResourceKey)
 - LocationPredicate$Builder setFeature(ResourceKey)
++ LocationPredicate$Builder setStructure(ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
+<details><summary>net.minecraft.client.CycleOption</summary>
 
 ```diff
-+ boolean lambda$createValidator$5(String)
-+ boolean lambda$fillUsableCommands$3(SharedSuggestionProvider)
-+ int lambda$fillUsableCommands$4(CommandContext)
-+ Style lambda$performCommand$1(Style)
-+ Style lambda$performCommand$2(Style)
-+ void <init>(CommandBuildContext)
-+ void lambda$new$0(CommandContext,boolean,int)
-+ void lambda$validate$6(Collection)
-- boolean lambda$createValidator$6(String)
-- boolean lambda$fillUsableCommands$4(SharedSuggestionProvider)
-- int lambda$fillUsableCommands$5(CommandContext)
-- Style lambda$performCommand$2(Style)
-- Style lambda$performCommand$3(Style)
-- void <init>(Commands$CommandSelection)
-- void lambda$new$0(Collection)
-- void lambda$new$1(CommandContext,boolean,int)
++ CycleButton$Builder lambda$create$0(Function,List)
++ CycleButton$Builder lambda$create$1(Function,Supplier)
++ CycleButton$Builder lambda$create$2(Function,BooleanSupplier,List,List)
+- CycleButton$Builder lambda$create$2(Function,List)
++ CycleButton$Builder lambda$create$3(Function,Object[])
+- CycleButton$Builder lambda$create$3(Function,Supplier)
+- CycleButton$Builder lambda$create$4(Function,BooleanSupplier,List,List)
+- CycleButton$Builder lambda$create$5(Function,Object[])
++ CycleButton$Builder lambda$createBinaryOption$4(Component,Component)
+- CycleButton$Builder lambda$createBinaryOption$6(Component,Component)
+- CycleButton$TooltipSupplier lambda$createOnOff$8(Component,Minecraft)
+- CycleButton$TooltipSupplier lambda$new$1(Minecraft)
++ List lambda$createOnOff$5(List,Boolean)
+- List lambda$createOnOff$7(List,Boolean)
+- List lambda$new$0(Object)
++ Option$TooltipSupplier lambda$createOnOff$6(Component,Minecraft)
++ void lambda$createButton$7(Options,CycleButton,Object)
+- void lambda$createButton$9(Options,CycleButton,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.EntityArgument</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-- byte FLAG_PLAYERS_ONLY
-- byte FLAG_SINGLE
+- boolean lambda$tick$30()
++ boolean lambda$tick$31()
+- ChunkProgressListener lambda$doLoadLevel$37(int)
++ ChunkProgressListener lambda$doWorldLoad$32(int)
++ CompletionStage lambda$delayTextureReload$43(CompletableFuture)
+- CompletionStage lambda$delayTextureReload$49(CompletableFuture)
+- DataResult lambda$createLevel$32(DynamicOps,JsonElement)
++ double getGpuUtilization()
+- IntegratedServer lambda$doLoadLevel$38(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
++ IntegratedServer lambda$doWorldLoad$33(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
+- PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
++ PackResources lambda$adaptV3$47(Supplier)
+- PackResources lambda$adaptV3$53(Supplier)
++ PackResources lambda$adaptV4$48(Supplier)
+- PackResources lambda$adaptV4$54(Supplier)
+- Pair lambda$createLevel$33(RegistryAccess,WorldGenSettings,LevelSettings,ResourceManager,DataPackConfig)
++ String lambda$doWorldLoad$34(WorldStem)
++ String lambda$fillSystemReport$36(String)
++ String lambda$fillSystemReport$37(Minecraft)
++ String lambda$fillSystemReport$38()
++ String lambda$fillSystemReport$39()
++ String lambda$fillSystemReport$40()
++ String lambda$fillSystemReport$41(Options)
++ String lambda$fillSystemReport$42(LanguageManager)
+- String lambda$fillSystemReport$42(String)
+- String lambda$fillSystemReport$43(Minecraft)
+- String lambda$fillSystemReport$44()
+- String lambda$fillSystemReport$45()
+- String lambda$fillSystemReport$46()
+- String lambda$fillSystemReport$47(Options)
+- String lambda$fillSystemReport$48(LanguageManager)
+- Style lambda$debugClientMetricsStart$21(Path,Style)
++ Style lambda$debugClientMetricsStart$22(Path,Style)
++ Style lambda$grabHugeScreenshot$46(File,Style)
+- Style lambda$grabHugeScreenshot$52(File,Style)
++ Style lambda$grabPanoramixScreenshot$45(File,Style)
+- Style lambda$grabPanoramixScreenshot$51(File,Style)
+- void createLevel(String,LevelSettings,RegistryAccess,WorldGenSettings)
++ void debugClientMetricsCancel()
+- void displayExperimentalConfirmationDialog(Minecraft$ExperimentalDialogType,String,boolean,Runnable)
+- void doLoadLevel(String,Function,Function,boolean,Minecraft$ExperimentalDialogType)
++ void doWorldLoad(String,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem)
+- void lambda$debugClientMetricsStart$19(Consumer,double,int)
++ void lambda$debugClientMetricsStart$20(Consumer,double,int)
+- void lambda$debugClientMetricsStart$20(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$21(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$22(Consumer,Component)
++ void lambda$debugClientMetricsStart$23(Consumer,Component)
+- void lambda$debugClientMetricsStart$23(Consumer,Path)
++ void lambda$debugClientMetricsStart$24(Consumer,Path)
+- void lambda$debugClientMetricsStart$24(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$25(Consumer,Path)
++ void lambda$debugClientMetricsStart$25(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$26(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$26(Consumer,Path)
++ void lambda$debugClientMetricsStart$27(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$27(ProfileResults)
+- void lambda$debugClientMetricsStart$28(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$28(ProfileResults)
++ void lambda$debugClientMetricsStart$29(Consumer,ProfileResults)
+- void lambda$displayExperimentalConfirmationDialog$40(String,Runnable,boolean,boolean)
+- void lambda$displayExperimentalConfirmationDialog$41(Runnable,String,boolean)
+- void lambda$doLoadLevel$35(String,Function,Function,Minecraft$ExperimentalDialogType)
+- void lambda$doLoadLevel$36(String,Function,Function,boolean)
+- void lambda$doLoadLevel$39(Component)
++ void lambda$doWorldLoad$35(Component)
++ void lambda$grabPanoramixScreenshot$44(Component)
+- void lambda$grabPanoramixScreenshot$50(Component)
++ void lambda$runTick$19(TimerQuery)
+- void lambda$tick$29()
++ void lambda$tick$30()
+- void loadLevel(String)
++ WorldOpenFlows createWorldOpenFlows()
+- WorldStem makeWorldStem(LevelStorageSource$LevelStorageAccess,boolean)
+- WorldStem makeWorldStem(PackRepository,boolean,WorldStem$DataPackConfigSupplier,WorldStem$WorldDataSupplier)
+- WorldStem$DataPackConfigSupplier lambda$createLevel$31(LevelSettings,LevelStorageSource$LevelStorageAccess)
+- WorldStem$WorldDataSupplier lambda$createLevel$34(RegistryAccess,WorldGenSettings,LevelSettings,LevelStorageSource$LevelStorageAccess)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+<details><summary>net.minecraft.client.Options</summary>
 
 ```diff
-+ HolderLookup blocks
-- DynamicCommandExceptionType ERROR_UNKNOWN_TAG
-+ BlockPredicateArgument blockPredicate(CommandBuildContext)
-+ BlockPredicateArgument$Result lambda$parse$0(BlockStateParser$BlockResult)
-+ BlockPredicateArgument$Result lambda$parse$1(BlockStateParser$TagResult)
-+ BlockPredicateArgument$Result parse(StringReader)
-+ void <init>(CommandBuildContext)
-- BlockPredicateArgument blockPredicate()
-- Message lambda$static$0(Object)
-- void <init>()
+- boolean lambda$new$1()
+- boolean lambda$new$2()
++ boolean lambda$new$20()
++ boolean lambda$new$21()
++ Component genericValueLabel(Component,Component)
++ Component genericValueLabel(Component,int)
++ Component lambda$new$10(Double)
++ Component lambda$new$12(Double)
++ Component lambda$new$15(Integer)
++ Component lambda$new$17(Double)
++ Component lambda$new$22(Integer)
++ Component lambda$new$4(AmbientOcclusionStatus)
++ Component lambda$new$8(PrioritizeChunkUpdates)
++ Component percentValueLabel(Component,double)
++ Component pixelValueLabel(Component,int)
++ double logMouse(int)
++ Float lambda$processOptions$25(Options$FieldAccess,SoundSource,Float)
+- Float lambda$processOptions$4(Options$FieldAccess,SoundSource,Float)
++ int unlogMouse(double)
++ List lambda$new$0(List,Boolean)
++ List lambda$new$2(List,Boolean)
++ List lambda$new$6(Minecraft,PrioritizeChunkUpdates)
++ Option$TooltipSupplier lambda$new$1(Minecraft)
++ Option$TooltipSupplier lambda$new$3(Minecraft)
++ Option$TooltipSupplier lambda$new$7(Minecraft)
++ OptionInstance ambientOcclusion()
++ OptionInstance biomeBlendRadius()
++ OptionInstance chatHeightFocused()
++ OptionInstance chatHeightUnfocused()
++ OptionInstance darkMojangStudiosBackground()
++ OptionInstance fov()
++ OptionInstance hideLightningFlash()
++ OptionInstance mouseWheelSensitivity()
++ OptionInstance prioritizeChunkUpdates()
++ OptionInstance rawMouseInput()
++ String lambda$dumpOptionsForReport$27(Pair)
+- String lambda$dumpOptionsForReport$6(Pair)
++ String lambda$processOptions$24(AmbientOcclusionStatus)
+- String lambda$processOptions$3(AmbientOcclusionStatus)
++ void lambda$load$26(CompoundTag,String)
+- void lambda$load$5(CompoundTag,String)
+- void lambda$new$0(Object2FloatOpenHashMap)
++ void lambda$new$11(Double)
++ void lambda$new$13(Double)
++ void lambda$new$14(Object2FloatOpenHashMap)
++ void lambda$new$16(Integer)
++ void lambda$new$18(Double)
++ void lambda$new$19(Boolean)
++ void lambda$new$23(Integer)
++ void lambda$new$5(AmbientOcclusionStatus)
++ void lambda$new$9(PrioritizeChunkUpdates)
 ```
 
 </details>
 
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$Result</summary>
+
+<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
 
 ```diff
-- Predicate create(net.minecraft.core.Registry)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockStateArgument</summary>
-
-```diff
-+ HolderLookup blocks
-+ BlockStateArgument block(CommandBuildContext)
-+ void <init>(CommandBuildContext)
-- BlockStateArgument block()
-- void <init>()
++ void drawBar(PoseStack,int,int,BossEvent,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemArgument</summary>
+<details><summary>net.minecraft.client.gui.components.CycleButton</summary>
 
 ```diff
-+ HolderLookup items
-+ ItemArgument item(CommandBuildContext)
-+ void <init>(CommandBuildContext)
-- ItemArgument item()
-- void <init>()
+- void <init>(int,int,int,int,Component,Component,int,Object,CycleButton$ValueListSupplier,Function,Function,CycleButton$OnValueChange,CycleButton$TooltipSupplier,boolean)
++ void <init>(int,int,int,int,Component,Component,int,Object,CycleButton$ValueListSupplier,Function,Function,CycleButton$OnValueChange,Option$TooltipSupplier,boolean)
 ```
 
 </details>
 
-<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
 
 ```diff
-+ boolean allowTags
-+ DynamicCommandExceptionType ERROR_UNKNOWN_TAG
-+ Either result
-+ Function SUGGEST_NOTHING
-+ Function suggestions
-+ HolderLookup items
-- BiFunction SUGGEST_NOTHING
-- BiFunction suggestions
-- boolean forTesting
-- int tagCursor
-- Item item
-- TagKey tag
-+ CommandSyntaxException lambda$readItem$5(ResourceLocation)
-+ CommandSyntaxException lambda$readTag$6(ResourceLocation)
-+ CompletableFuture fillSuggestions(SuggestionsBuilder,boolean)
++ Option[] options(Options)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
+
+```diff
++ Option[] options(Options)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.OptionsScreen</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.HierarchicalModel</summary>
+
+```diff
++ boolean lambda$getAnyDescendantWithName$0(String,ModelPart)
++ ModelPart lambda$getAnyDescendantWithName$1(String,ModelPart)
++ Optional getAnyDescendantWithName(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.AssetIndex</summary>
+
+```diff
+- Collection getFiles(String,String,int,Predicate)
++ Collection getFiles(String,String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.DefaultClientPackResources</summary>
+
+```diff
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.DirectAssetIndex</summary>
+
+```diff
+- boolean lambda$getFiles$2(Predicate,Path)
+- Collection getFiles(String,String,int,Predicate)
++ Collection getFiles(String,String,Predicate)
++ ResourceLocation lambda$getFiles$2(String,Path,Path)
+- ResourceLocation lambda$getFiles$3(String,Path,Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.PackResourcesAdapterV4</summary>
+
+```diff
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceOrTagLocationArgument</summary>
+
+```diff
++ ResourceOrTagLocationArgument$Result getStructure(CommandContext,String)
+- ResourceOrTagLocationArgument$Result getStructureFeature(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$TagPredicate</summary>
+
+```diff
++ boolean requiresNbt()
++ void <init>(HolderSet,Map,CompoundTag)
+- void <init>(TagKey,Map,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
+
+```diff
+- BlockState getState()
+- BlockStateParser parse(boolean)
++ BlockStateParser$BlockResult parseForBlock(HolderLookup,StringReader,boolean)
++ BlockStateParser$BlockResult parseForBlock(Registry,String,boolean)
++ BlockStateParser$BlockResult parseForBlock(Registry,StringReader,boolean)
++ boolean hasBlockEntity()
+- boolean hasBlockEntity(Registry)
++ CommandSyntaxException lambda$readTag$7(int,ResourceLocation)
++ CompletableFuture fillSuggestions(HolderLookup,SuggestionsBuilder,boolean,boolean)
+- CompletableFuture fillSuggestions(SuggestionsBuilder,Registry)
+- CompletableFuture lambda$readProperties$7(Property,SuggestionsBuilder,Registry)
++ CompletableFuture lambda$readProperties$8(Property,SuggestionsBuilder)
+- CompletableFuture lambda$readVagueProperties$8(String,SuggestionsBuilder,Registry)
++ CompletableFuture lambda$readVagueProperties$9(String,SuggestionsBuilder)
+- CompletableFuture lambda$static$5(SuggestionsBuilder,Registry)
+- CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder,Registry)
++ CompletableFuture suggestBlockIdOrTag(SuggestionsBuilder)
+- CompletableFuture suggestEquals(SuggestionsBuilder,Registry)
++ CompletableFuture suggestEquals(SuggestionsBuilder)
 + CompletableFuture suggestItem(SuggestionsBuilder)
-+ CompletableFuture suggestItemIdOrTag(SuggestionsBuilder)
+- CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder,Registry)
++ CompletableFuture suggestNextPropertyOrEnd(SuggestionsBuilder)
+- CompletableFuture suggestOpenNbt(SuggestionsBuilder,Registry)
 + CompletableFuture suggestOpenNbt(SuggestionsBuilder)
+- CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder,Registry)
++ CompletableFuture suggestOpenPropertiesOrNbt(SuggestionsBuilder)
+- CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder,Registry)
++ CompletableFuture suggestOpenVaguePropertiesOrNbt(SuggestionsBuilder)
+- CompletableFuture suggestPropertyName(SuggestionsBuilder,Registry)
++ CompletableFuture suggestPropertyName(SuggestionsBuilder)
+- CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder,Registry)
++ CompletableFuture suggestPropertyNameOrEnd(SuggestionsBuilder)
+- CompletableFuture suggestTag(SuggestionsBuilder,Registry)
 + CompletableFuture suggestTag(SuggestionsBuilder)
-+ Either parseForTesting(StringReader)
-+ IllegalStateException lambda$parseForItem$2()
-+ ItemParser$ItemResult lambda$parseForTesting$3(Holder)
-+ ItemParser$ItemResult parseForItem(StringReader)
-+ ItemParser$TagResult lambda$parseForTesting$4(HolderSet)
-+ Message lambda$static$1(Object)
-+ void <init>(StringReader,boolean)
-+ void parse()
-- CommandSyntaxException lambda$readItem$2(ResourceLocation)
-- CompletableFuture fillSuggestions(Registry)
-- CompletableFuture lambda$static$1(Registry)
-- CompletableFuture suggestItemIdOrTag(Registry)
-- CompletableFuture suggestOpenNbt(Registry)
-- CompletableFuture suggestTag(Registry)
+- CompletableFuture suggestVaguePropertyName(SuggestionsBuilder,Registry)
++ CompletableFuture suggestVaguePropertyName(SuggestionsBuilder)
+- CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder,Registry)
++ CompletableFuture suggestVaguePropertyNameOrEnd(SuggestionsBuilder)
+- CompletableFuture suggestVaguePropertyValue(SuggestionsBuilder,Registry,String)
++ CompletableFuture suggestVaguePropertyValue(SuggestionsBuilder,String)
 - CompoundTag getNbt()
-- Item getItem()
-- ItemParser parse()
++ Either parseForTesting(HolderLookup,StringReader,boolean)
++ Either parseForTesting(Registry,String,boolean)
++ Either parseForTesting(Registry,StringReader,boolean)
+- Map getProperties()
+- Map getVagueProperties()
++ Message lambda$static$5(Object)
++ String lambda$serialize$10(ResourceKey)
 - TagKey getTag()
++ void <init>(HolderLookup,StringReader,boolean,boolean)
 - void <init>(StringReader,boolean)
++ void parse()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>net.minecraft.commands.arguments.item.ItemInput</summary>
 
 ```diff
-+ Registry COMMAND_ARGUMENT_TYPE
-+ Registry STRUCTURE_TYPES
-+ ResourceKey COMMAND_ARGUMENT_TYPE_REGISTRY
-+ ResourceKey FLAT_LEVEL_GENERATOR_PRESET_REGISTRY
-+ ResourceKey STRUCTURE_REGISTRY
-+ ResourceKey STRUCTURE_TYPE_REGISTRY
-+ ResourceKey WORLD_PRESET_REGISTRY
++ Object lambda$getItemName$1()
++ String getItemName()
++ void <init>(Holder,CompoundTag)
+- void <init>(Item,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
+
+```diff
++ boolean lambda$createResult$3(Predicate,CompoundTag,ItemStack)
++ boolean lambda$createResult$4(Predicate,ItemStack)
++ boolean lambda$parse$0(ItemParser$ItemResult,Holder)
+- ItemPredicateArgument itemPredicate()
++ ItemPredicateArgument itemPredicate(CommandBuildContext)
++ ItemPredicateArgument$Result createResult(Predicate,CompoundTag)
++ ItemPredicateArgument$Result lambda$parse$1(ItemParser$ItemResult)
++ ItemPredicateArgument$Result lambda$parse$2(ItemParser$TagResult)
+- Message lambda$static$0(Object)
+- Predicate lambda$parse$1(ItemPredicateArgument$ItemPredicate,CommandContext)
+- Predicate lambda$parse$2(TagKey,ItemParser,CommandContext)
+- void <init>()
++ void <init>(CommandBuildContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction</summary>
+
+```diff
++ Collection allShuffled(Random)
++ Stream stream()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction8</summary>
+
+```diff
++ int getStepX()
++ int getStepZ()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
 + Set registryKeySet()
-- Registry STRUCTURE_FEATURE
-- ResourceKey CONFIGURED_STRUCTURE_FEATURE_REGISTRY
-- ResourceKey STRUCTURE_FEATURE_REGISTRY
-+ StructurePieceType lambda$static$42(Registry)
-+ StructurePlacementType lambda$static$41(Registry)
-+ StructureType lambda$static$43(Registry)
-- StructureFeature lambda$static$41(Registry)
-- StructurePieceType lambda$static$43(Registry)
-- StructurePlacementType lambda$static$42(Registry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ BlockStateGenerator createDoor(ResourceLocation)
-+ BlockStateGenerator createNorthWestMirroredCubeGenerator(BiConsumer)
-+ PropertyDispatch$C4 configureDoorHalf(ResourceLocation)
-+ Variant lambda$createJigsaw$48(FrontAndTop)
-+ Variant lambda$createRespawnAnchor$47(Integer)
-+ Variant lambda$createSculkCatalyst$46(Boolean)
-+ void createFrogspawnBlock()
-+ void createMangrovePropagule()
-+ void createMuddyMangroveRoots()
-+ void createSculkCatalyst()
-+ void createSculkShrieker()
-+ void lambda$run$49(BlockFamily)
-+ void lambda$run$50(SpawnEggItem)
-- BlockStateGenerator createDoor(ResourceLocation)
-- PropertyDispatch$C4 configureDoorHalf(ResourceLocation)
-- Variant lambda$createJigsaw$47(FrontAndTop)
-- Variant lambda$createRespawnAnchor$46(Integer)
-- void lambda$run$48(BlockFamily)
-- void lambda$run$49(SpawnEggItem)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.BiomeTagsProvider</summary>
-
-```diff
-+ void lambda$addTags$0(ResourceKey)
-+ void lambda$addTags$1(ResourceKey)
-- String getName()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.FluidTagsProvider</summary>
-
-```diff
-- String getName()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+<details><summary>net.minecraft.data.tags.BlockTagsProvider</summary>
 
 ```diff
 - String getName()
@@ -8162,49 +3272,28 @@
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+<details><summary>net.minecraft.data.tags.GameEventTagsProvider</summary>
 
 ```diff
-+ void addSculk(BiomeGenerationSettings$Builder)
+- String getName()
 ```
 
 </details>
 
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket$Entry</summary>
-
-```diff
-+ ClientboundCommandsPacket$NodeStub stub
-+ int flags
-- ArgumentBuilder builder
-- byte flags
-- CommandNode node
-+ boolean canBuild(IntSet)
-+ boolean canResolve(IntSet)
-+ void <init>(ClientboundCommandsPacket$NodeStub,int,int,int[])
-+ void write(FriendlyByteBuf)
-- boolean build(List)
-- int lambda$build$0(CommandContext)
-- void <init>(ArgumentBuilder,byte,int,int[])
-```
-
-</details>
 
 <details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
 
 ```diff
-+ boolean lambda$listResources$0(Map$Entry)
-+ DataResult lambda$getResource$3(Decoder)
++ boolean lambda$listResources$0(ResourceKey,Map$Entry)
+- Collection listResources(ResourceKey)
++ DataResult lambda$getResource$3(DataResult,DynamicOps,Decoder)
 + Map listResources(ResourceKey)
 + Optional getResource(ResourceKey)
+- Optional parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
 + RegistryResourceAccess$EntryThunk lambda$listResources$2(Map$Entry)
+- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(RegistryResourceAccess$InMemoryStorage$Entry,Object)
 + ResourceKey lambda$listResources$1(Map$Entry)
-- Collection listResources(ResourceKey)
-- Optional parseElement(Decoder)
-- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(Object)
-- Stream lambda$listResources$0(ResourceKey)
+- Stream lambda$listResources$0(ResourceKey,ResourceKey)
 ```
 
 </details>
@@ -8220,127 +3309,63 @@
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.ReloadableServerResources</summary>
 
 ```diff
-+ CommandBuildContext commandBuildContext
-+ List lambda$updateRegistryTags$4(Map$Entry)
-+ ReloadableServerResources lambda$loadResources$1(Object)
-+ TagKey lambda$updateRegistryTags$3(Map$Entry)
-+ void lambda$loadResources$0(Throwable)
-+ void lambda$updateRegistryTags$2(TagManager$LoadResult)
 - List lambda$updateRegistryTags$3(Map$Entry)
-- ReloadableServerResources lambda$loadResources$0(Object)
-- TagKey lambda$updateRegistryTags$2(Map$Entry)
-- void lambda$updateRegistryTags$1(TagManager$LoadResult)
++ List lambda$updateRegistryTags$4(Map$Entry)
+- ReloadableServerResources lambda$loadResources$0(ReloadableServerResources,Object)
++ ReloadableServerResources lambda$loadResources$1(ReloadableServerResources,Object)
+- TagKey lambda$updateRegistryTags$2(ResourceKey,Map$Entry)
++ TagKey lambda$updateRegistryTags$3(ResourceKey,Map$Entry)
++ void lambda$loadResources$0(ReloadableServerResources,Object,Throwable)
+- void lambda$updateRegistryTags$1(RegistryAccess,TagManager$LoadResult)
++ void lambda$updateRegistryTags$2(RegistryAccess,TagManager$LoadResult)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.CloneCommands</summary>
 
 ```diff
-+ void register(CommandBuildContext)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.FillCommand</summary>
 
 ```diff
-+ void register(CommandBuildContext)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.LootCommand</summary>
 
 ```diff
-+ ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
-+ void register(CommandBuildContext)
-- ArgumentBuilder lambda$register$14(LootCommand$DropConsumer)
+- ArgumentBuilder lambda$register$14(ArgumentBuilder,LootCommand$DropConsumer)
++ ArgumentBuilder lambda$register$14(CommandBuildContext,ArgumentBuilder,LootCommand$DropConsumer)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.SetBlockCommand</summary>
 
 ```diff
-+ void register(CommandBuildContext)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
@@ -8351,110 +3376,66 @@
 
 </details>
 
+
 <details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
 
 ```diff
-+ int maxChainedNeighborUpdates
-+ Logger LOGGER
 + void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.level.DemoMode</summary>
 
 ```diff
-+ void handleBlockBreakAction(Direction,int,int)
-- void handleBlockBreakAction(Direction,int)
++ void handleBlockBreakAction(BlockPos,ServerboundPlayerActionPacket$Action,Direction,int,int)
+- void handleBlockBreakAction(BlockPos,ServerboundPlayerActionPacket$Action,Direction,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.ThreadedLevelLightEngine</summary>
 
 ```diff
-+ ChunkAccess lambda$lightChunk$23(ChunkPos)
-+ ChunkAccess lambda$retainData$17(ChunkAccess)
+- ChunkAccess lambda$lightChunk$20(ChunkAccess,ChunkPos)
++ ChunkAccess lambda$lightChunk$23(ChunkAccess,ChunkPos)
++ ChunkAccess lambda$retainData$17(ChunkPos,ChunkAccess)
 + CompletableFuture retainData(ChunkAccess)
+- String lambda$lightChunk$19(ChunkPos,boolean)
 + String lambda$lightChunk$22(ChunkPos,boolean)
 + String lambda$retainData$18(ChunkPos)
-+ void lambda$lightChunk$20(BlockPos)
-+ void lambda$lightChunk$21(ChunkPos,boolean)
-+ void lambda$lightChunk$24(Runnable)
-+ void lambda$retainData$19(Runnable)
-+ void lambda$tryScheduleUpdate$25()
-- ChunkAccess lambda$lightChunk$20(ChunkPos)
-- String lambda$lightChunk$19(ChunkPos,boolean)
-- void lambda$lightChunk$17(BlockPos)
-- void lambda$lightChunk$18(ChunkPos,boolean)
-- void lambda$lightChunk$21(Runnable)
+- void lambda$lightChunk$17(ChunkAccess,BlockPos)
+- void lambda$lightChunk$18(ChunkAccess,ChunkPos,boolean)
++ void lambda$lightChunk$20(ChunkAccess,BlockPos)
++ void lambda$lightChunk$21(ChunkAccess,ChunkPos,boolean)
+- void lambda$lightChunk$21(ChunkPos,Runnable)
++ void lambda$lightChunk$24(ChunkPos,Runnable)
++ void lambda$retainData$19(ChunkPos,Runnable)
 - void lambda$tryScheduleUpdate$22()
++ void lambda$tryScheduleUpdate$25()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-+ double MAX_INTERACTION_DISTANCE
-+ int ackBlockChangesUpTo
-+ int NO_BLOCK_UPDATES_TO_ACK
 + void ackBlockChangesUpTo(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.packs.FolderPackResources</summary>
 
 ```diff
-+ Collection getResources(Predicate)
-+ void listResources(Predicate)
-- Collection getResources(Predicate)
-- void listResources(Predicate)
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+- void listResources(File,int,String,List,String,Predicate)
++ void listResources(File,String,List,String,Predicate)
 ```
 
 </details>
@@ -8464,43 +3445,32 @@
 
 ```diff
 + boolean lambda$getResources$1(Path)
-+ Collection getResources(Predicate)
-+ void getResources(Predicate)
-- boolean lambda$getResources$1(Path)
-- Collection getResources(Predicate)
-- void getResources(Predicate)
+- boolean lambda$getResources$1(Predicate,Path)
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+- void getResources(Collection,int,String,Path,String,Predicate)
++ void getResources(Collection,String,Path,String,Predicate)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
 
 ```diff
-+ List getResourceStack(ResourceLocation)
-+ Map listResources(Predicate)
-+ Map listResourceStacks(Predicate)
-- Collection listResources(Predicate)
+- Collection listResources(String,Predicate)
 - List getResources(ResourceLocation)
++ List getResourceStack(ResourceLocation)
++ Map listResources(String,Predicate)
++ Map listResourceStacks(String,Predicate)
 ```
 
 </details>
 
 
-
-
 <details><summary>net.minecraft.server.packs.resources.SimpleResource</summary>
 
 ```diff
-- boolean triedMetadata
 - boolean equals(Object)
 - int hashCode()
 ```
@@ -8508,203 +3478,24 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent BUCKET_EMPTY_TADPOLE
-+ SoundEvent BUCKET_FILL_TADPOLE
-+ SoundEvent FROG_AMBIENT
-+ SoundEvent FROG_DEATH
-+ SoundEvent FROG_EAT
-+ SoundEvent FROG_HURT
-+ SoundEvent FROG_LAY_SPAWN
-+ SoundEvent FROG_LONG_JUMP
-+ SoundEvent FROG_STEP
-+ SoundEvent FROG_TOUNGE
-+ SoundEvent FROGLIGHT_BREAK
-+ SoundEvent FROGLIGHT_FALL
-+ SoundEvent FROGLIGHT_HIT
-+ SoundEvent FROGLIGHT_PLACE
-+ SoundEvent FROGLIGHT_STEP
-+ SoundEvent FROGSPAWN_BREAK
-+ SoundEvent FROGSPAWN_FALL
-+ SoundEvent FROGSPAWN_HATCH
-+ SoundEvent FROGSPAWN_HIT
-+ SoundEvent FROGSPAWN_PLACE
-+ SoundEvent FROGSPAWNSTEP
-+ SoundEvent MANGROVE_ROOTS_BREAK
-+ SoundEvent MANGROVE_ROOTS_FALL
-+ SoundEvent MANGROVE_ROOTS_HIT
-+ SoundEvent MANGROVE_ROOTS_PLACE
-+ SoundEvent MANGROVE_ROOTS_STEP
-+ SoundEvent MUD_BREAK
-+ SoundEvent MUD_BRICKS_BREAK
-+ SoundEvent MUD_BRICKS_FALL
-+ SoundEvent MUD_BRICKS_HIT
-+ SoundEvent MUD_BRICKS_PLACE
-+ SoundEvent MUD_BRICKS_STEP
-+ SoundEvent MUD_FALL
-+ SoundEvent MUD_HIT
-+ SoundEvent MUD_PLACE
-+ SoundEvent MUD_STEP
-+ SoundEvent MUDDY_MANGROVE_ROOTS_BREAK
-+ SoundEvent MUDDY_MANGROVE_ROOTS_FALL
-+ SoundEvent MUDDY_MANGROVE_ROOTS_HIT
-+ SoundEvent MUDDY_MANGROVE_ROOTS_PLACE
-+ SoundEvent MUDDY_MANGROVE_ROOTS_STEP
-+ SoundEvent MUSIC_BIOME_DEEP_DARK
-+ SoundEvent PACKED_MUD_BREAK
-+ SoundEvent PACKED_MUD_FALL
-+ SoundEvent PACKED_MUD_HIT
-+ SoundEvent PACKED_MUD_PLACE
-+ SoundEvent PACKED_MUD_STEP
-+ SoundEvent SCULK_BLOCK_BREAK
-+ SoundEvent SCULK_BLOCK_CHARGE
-+ SoundEvent SCULK_BLOCK_FALL
-+ SoundEvent SCULK_BLOCK_HIT
-+ SoundEvent SCULK_BLOCK_PLACE
-+ SoundEvent SCULK_BLOCK_SPREAD
-+ SoundEvent SCULK_BLOCK_STEP
-+ SoundEvent SCULK_CATALYST_BLOOM
-+ SoundEvent SCULK_CATALYST_BREAK
-+ SoundEvent SCULK_CATALYST_FALL
-+ SoundEvent SCULK_CATALYST_HIT
-+ SoundEvent SCULK_CATALYST_PLACE
-+ SoundEvent SCULK_CATALYST_STEP
-+ SoundEvent SCULK_SHRIEKER_BREAK
-+ SoundEvent SCULK_SHRIEKER_FALL
-+ SoundEvent SCULK_SHRIEKER_HIT
-+ SoundEvent SCULK_SHRIEKER_PLACE
-+ SoundEvent SCULK_SHRIEKER_STEP
-+ SoundEvent SCULK_VEIN_BREAK
-+ SoundEvent SCULK_VEIN_FALL
-+ SoundEvent SCULK_VEIN_HIT
-+ SoundEvent SCULK_VEIN_PLACE
-+ SoundEvent SCULK_VEIN_STEP
-+ SoundEvent TADPOLE_DEATH
-+ SoundEvent TADPOLE_EAT
-+ SoundEvent TADPOLE_FLOP
-+ SoundEvent TADPOLE_GROW_UP
-+ SoundEvent TADPOLE_HURT
-+ SoundEvent TADPOLE_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BiomeTags</summary>
-
-```diff
-+ TagKey ALLOWS_SURFACE_SLIME_SPAWNS
-+ TagKey ALLOWS_TROPICAL_FISH_SPAWNS_AT_ANY_HEIGHT
-+ TagKey HAS_CLOSER_WATER_FOG
-+ TagKey IS_END
-+ TagKey IS_OVERWORLD
-+ TagKey IS_SAVANNA
-+ TagKey MORE_FREQUENT_DROWNED_SPAWNS
-+ TagKey ONLY_ALLOWS_SNOW_AND_GOLD_RABBITS
-+ TagKey PLAYS_UNDERWATER_MUSIC
-+ TagKey POLAR_BEARS_SPAWN_ON_ALTERNATE_BLOCKS
-+ TagKey PRODUCES_CORALS_FROM_BONEMEAL
-+ TagKey REDUCED_WATER_AMBIENT_SPAWNS
-+ TagKey REQUIRED_OCEAN_MONUMENT_SURROUNDING
-+ TagKey SPAWNS_COLD_VARIANT_FROGS
-+ TagKey SPAWNS_WARM_VARIANT_FROGS
-+ TagKey STRONGHOLD_BIASED_TO
-+ TagKey WATER_ON_MAP_OUTLINES
-+ TagKey WITHOUT_PATROL_SPAWNS
-+ TagKey WITHOUT_WANDERING_TRADER_SPAWNS
-+ TagKey WITHOUT_ZOMBIE_SIEGES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey MANGROVE_LOGS
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CubicSpline</summary>
-
-```diff
-- float max()
-- float min()
-```
-
-</details>
-
 <details><summary>net.minecraft.util.CubicSpline$Builder</summary>
 
 ```diff
-+ CubicSpline$Builder addPoint(CubicSpline)
++ CubicSpline$Builder addPoint(float,CubicSpline)
 + CubicSpline$Builder addPoint(float,float)
 - float lambda$new$0(Float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.CubicSpline$CoordinateVisitor</summary>
-
-```diff
-+ Object visit(java.lang.Object)
-- ToFloatFunction visit(net.minecraft.util.ToFloatFunction)
-```
-
-</details>
-
-
 
 <details><summary>net.minecraft.util.ExtraCodecs</summary>
 
 ```diff
-+ Codec PATTERN
 + DataResult lambda$static$27(String)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.Mth</summary>
@@ -8721,27 +3512,19 @@
 ```diff
 + Vec3 getRandomSpeedRanges(Random)
 + Vec3 lambda$spawnParticlesOnBlockFaces$0(Level)
-+ void spawnParticleOnFace(Vec3,double)
-+ void spawnParticlesOnBlockFace(Supplier,double)
-+ void spawnParticlesOnBlockFaces(IntProvider)
-- void spawnParticleOnFace(ParticleOptions)
-- void spawnParticlesOnBlockFaces(UniformInt)
++ void spawnParticleOnFace(Level,BlockPos,Direction,ParticleOptions,Vec3,double)
+- void spawnParticleOnFace(Level,BlockPos,Direction,ParticleOptions)
++ void spawnParticlesOnBlockFace(Level,BlockPos,ParticleOptions,IntProvider,Direction,Supplier,double)
++ void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,IntProvider)
+- void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,UniformInt)
 ```
 
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.util.ToFloatFunction</summary>
 
 ```diff
-+ float maxValue()
-+ float minValue()
-+ ToFloatFunction IDENTITY
 + float lambda$static$0(float)
 + ToFloatFunction comap(Function)
 + ToFloatFunction createUnlimited(Float2FloatFunction)
@@ -8749,156 +3532,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.profiling.metrics.profiling.ActiveMetricsRecorder</summary>
@@ -8909,303 +3542,6 @@
 ```
 
 </details>
-
-<details><summary>net.minecraft.util.profiling.metrics.profiling.MetricsRecorder</summary>
-
-```diff
-+ void cancel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
@@ -9218,7 +3554,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
 
 ```diff
@@ -9227,25 +3562,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.player.Player</summary>
@@ -9258,713 +3574,209 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
-
-```diff
-+ Activity LAY_SPAWN
-+ Activity SWIM
-+ Activity TONGUE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
 
 ```diff
-+ void updateEffects(MobEffect)
 - void updateEffects(int,int)
++ void updateEffects(MobEffect,MobEffect)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item FROG_SPAWN_EGG
-+ Item FROGSPAWN
-+ Item MANGROVE_BOAT
-+ Item MANGROVE_BUTTON
-+ Item MANGROVE_DOOR
-+ Item MANGROVE_FENCE
-+ Item MANGROVE_FENCE_GATE
-+ Item MANGROVE_LEAVES
-+ Item MANGROVE_LOG
-+ Item MANGROVE_PLANKS
-+ Item MANGROVE_PRESSURE_PLATE
-+ Item MANGROVE_PROPAGULE
-+ Item MANGROVE_ROOTS
-+ Item MANGROVE_SIGN
-+ Item MANGROVE_SLAB
-+ Item MANGROVE_STAIRS
-+ Item MANGROVE_TRAPDOOR
-+ Item MANGROVE_WOOD
-+ Item MUD
-+ Item MUD_BRICK_SLAB
-+ Item MUD_BRICK_STAIRS
-+ Item MUD_BRICK_WALL
-+ Item MUD_BRICKS
-+ Item MUDDY_MANGROVE_ROOTS
-+ Item OCHRE_FROGLIGHT
-+ Item PACKED_MUD
-+ Item PEARLESCENT_FROGLIGHT
-+ Item SCULK
-+ Item SCULK_CATALYST
-+ Item SCULK_SHRIEKER
-+ Item SCULK_VEIN
-+ Item STRIPPED_MANGROVE_LOG
-+ Item STRIPPED_MANGROVE_WOOD
-+ Item TADPOLE_BUCKET
-+ Item TADPOLE_SPAWN_EGG
-+ Item VERDANT_FROGLIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
 
 ```diff
-+ MultifaceSpreader getSpreader()
-+ boolean isValidStateForPlacement(Direction)
-+ boolean lambda$hasAnyFace$2(Direction)
-+ boolean lambda$hasAnyVacantFace$3(Direction)
+- boolean canSpread(BlockState,BlockGetter,BlockPos,Direction)
+- boolean canSpreadInto(BlockState)
+- boolean canSpreadToFace(BlockGetter,BlockPos,Direction)
++ boolean isValidStateForPlacement(BlockGetter,BlockState,BlockPos,Direction)
+- boolean lambda$canSpread$5(BlockState,BlockGetter,BlockPos,Direction,Direction)
++ boolean lambda$hasAnyFace$2(BlockState,Direction)
+- boolean lambda$hasAnyFace$6(BlockState,Direction)
++ boolean lambda$hasAnyVacantFace$3(BlockState,Direction)
+- boolean lambda$hasAnyVacantFace$7(BlockState,Direction)
+- boolean lambda$spreadFromFaceTowardRandomDirection$4(BlockState,LevelAccessor,BlockPos,Direction,boolean,Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(BlockState,Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(BlockState,ServerLevel,BlockPos,Random,Direction)
+- boolean spreadFromFaceTowardDirection(BlockState,LevelAccessor,BlockPos,Direction,Direction,boolean)
+- boolean spreadFromFaceTowardRandomDirection(BlockState,LevelAccessor,BlockPos,Direction,Random,boolean)
+- boolean spreadFromRandomFaceTowardRandomDirection(BlockState,ServerLevel,BlockPos,Random)
+- boolean spreadToFace(LevelAccessor,BlockPos,Direction,boolean)
 + byte pack(Collection)
+- Optional getSpreadFromFaceTowardDirection(BlockState,BlockGetter,BlockPos,Direction,Direction)
 + Set availableFaces(BlockState)
 + Set unpack(byte)
-- boolean canSpread(Direction)
-- boolean canSpreadInto(BlockState)
-- boolean canSpreadToFace(Direction)
-- boolean lambda$canSpread$5(Direction)
-- boolean lambda$hasAnyFace$6(Direction)
-- boolean lambda$hasAnyVacantFace$7(Direction)
-- boolean lambda$spreadFromFaceTowardRandomDirection$4(Direction)
-- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(Direction)
-- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(Direction)
-- boolean spreadFromFaceTowardDirection(Direction,boolean)
-- boolean spreadFromFaceTowardRandomDirection(Random,boolean)
-- boolean spreadFromRandomFaceTowardRandomDirection(Random)
-- boolean spreadToFace(Direction,boolean)
-- Optional getSpreadFromFaceTowardDirection(Direction)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
 
 ```diff
-+ LongSet getReferencesForStructure(Structure)
-+ StructureStart getStartForStructure(Structure)
-+ void addReferenceForStructure(Structure,long)
-+ void setStartForStructure(StructureStart)
 - LongSet getReferencesForFeature(ConfiguredStructureFeature)
++ LongSet getReferencesForStructure(Structure)
 - StructureStart getStartForFeature(ConfiguredStructureFeature)
++ StructureStart getStartForStructure(Structure)
 - void addReferenceForFeature(ConfiguredStructureFeature,long)
-- void setStartForFeature(StructureStart)
++ void addReferenceForStructure(Structure,long)
+- void setStartForFeature(ConfiguredStructureFeature,StructureStart)
++ void setStartForStructure(Structure,StructureStart)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
 
 ```diff
 + boolean lambda$keysInOrder$1(ResourceKey)
+- boolean stable(long,Registry)
 + boolean stable(Registry)
 + Stream keysInOrder(Stream)
-+ void lambda$sortMap$2(ResourceKey)
-- boolean stable(Registry)
++ void lambda$sortMap$2(Registry,WritableRegistry,ResourceKey)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
-
-```diff
-+ boolean processing
-+ List listenersToAdd
-+ Set listenersToRemove
-```
-
-</details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
 
 ```diff
-+ void <init>(ChunkAccess)
-+ void lambda$new$1(StructureStart)
 - boolean lambda$new$1(ConfiguredStructureFeature)
-- void <init>(ChunkAccess)
-- void lambda$new$2(StructureStart)
+- void <init>(StructureFeatureManager,ChunkAccess)
++ void <init>(StructureManager,ChunkAccess)
++ void lambda$new$1(ChunkPos,int,int,StructureStart)
+- void lambda$new$2(ChunkPos,int,int,StructureStart)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
 
 ```diff
-+ CompletableFuture fillFromNoise(ChunkAccess)
-+ int getBaseHeight(RandomState)
-+ NoiseColumn getBaseColumn(RandomState)
-+ void addDebugScreenInfo(BlockPos)
-+ void applyBiomeDecoration(StructureManager)
-+ void applyCarvers(GenerationStep$Carving)
-+ void buildSurface(ChunkAccess)
 - ChunkGenerator withSeed(long)
 - Climate$Sampler climateSampler()
-- CompletableFuture fillFromNoise(ChunkAccess)
-- int getBaseHeight(LevelHeightAccessor)
-- NoiseColumn getBaseColumn(LevelHeightAccessor)
-- void addDebugScreenInfo(BlockPos)
-- void applyBiomeDecoration(StructureFeatureManager)
-- void applyCarvers(GenerationStep$Carving)
-- void buildSurface(ChunkAccess)
++ CompletableFuture fillFromNoise(Executor,Blender,RandomState,StructureManager,ChunkAccess)
+- CompletableFuture fillFromNoise(Executor,Blender,StructureFeatureManager,ChunkAccess)
++ int getBaseHeight(int,int,Heightmap$Types,LevelHeightAccessor,RandomState)
+- int getBaseHeight(int,int,Heightmap$Types,LevelHeightAccessor)
++ NoiseColumn getBaseColumn(int,int,LevelHeightAccessor,RandomState)
+- NoiseColumn getBaseColumn(int,int,LevelHeightAccessor)
+- void addDebugScreenInfo(List,BlockPos)
++ void addDebugScreenInfo(List,RandomState,BlockPos)
+- void applyBiomeDecoration(WorldGenLevel,ChunkAccess,StructureFeatureManager)
++ void applyBiomeDecoration(WorldGenLevel,ChunkAccess,StructureManager)
+- void applyCarvers(WorldGenRegion,long,BiomeManager,StructureFeatureManager,ChunkAccess,GenerationStep$Carving)
++ void applyCarvers(WorldGenRegion,long,RandomState,BiomeManager,StructureManager,ChunkAccess,GenerationStep$Carving)
+- void buildSurface(WorldGenRegion,StructureFeatureManager,ChunkAccess)
++ void buildSurface(WorldGenRegion,StructureManager,RandomState,ChunkAccess)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions</summary>
 
 ```diff
 + DensityFunction spline(CubicSpline)
-- DensityFunction terrainShaperSpline(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
+- DensityFunction terrainShaperSpline(DensityFunction,DensityFunction,DensityFunction,DensityFunctions$TerrainShaperSpline$SplineType,double,double)
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
 
 ```diff
-+ float ISLAND_THRESHOLD
 + float getHeightValue(SimplexNoise,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
 
 ```diff
-+ Codec SPLINE_CODEC
-- double maxValue
-- double minValue
-+ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunctions$Spline$Coordinate)
-+ void <init>(CubicSpline)
 - App lambda$static$0(RecordCodecBuilder$Instance)
-- ToFloatFunction lambda$mapAll$1(ToFloatFunction)
++ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunction$Visitor,DensityFunctions$Spline$Coordinate)
+- ToFloatFunction lambda$mapAll$1(DensityFunction$Visitor,ToFloatFunction)
 - void <init>(CubicSpline,double,double)
++ void <init>(CubicSpline)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
 
 ```diff
-+ RandomState randomState
-+ SurfaceRules$RuleSource surfaceRule
-- NoiseBasedChunkGenerator generator
 + RandomState randomState()
-+ void <init>(SurfaceRules$RuleSource)
-- void <init>(NoiseChunk)
++ void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk,RandomState,SurfaceRules$RuleSource)
+- void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
 
 ```diff
-+ boolean place(Random,boolean)
-+ BoundingBox getBoundingBox(Rotation)
-+ List getShuffledJigsawBlocks(Random)
-+ Vec3i getSize(Rotation)
-- boolean place(Random,boolean)
-- BoundingBox getBoundingBox(Rotation)
-- List getShuffledJigsawBlocks(Random)
-- Vec3i getSize(Rotation)
+- boolean place(StructureManager,WorldGenLevel,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- BoundingBox getBoundingBox(StructureManager,BlockPos,Rotation)
++ BoundingBox getBoundingBox(StructureTemplateManager,BlockPos,Rotation)
+- List getShuffledJigsawBlocks(StructureManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
+- Vec3i getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureTemplateManager,Rotation)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
 
 ```diff
-+ Optional addPieces(Optional)
-+ void addPieces(RandomState)
-+ void lambda$addPieces$0(StructurePiecesBuilder)
-- Optional addPieces(BlockPos,boolean,boolean)
-- void addPieces(LevelHeightAccessor)
-- void lambda$addPieces$0(PieceGenerator$Context)
+- Optional addPieces(PieceGeneratorSupplier$Context,JigsawPlacement$PieceFactory,BlockPos,boolean,boolean)
++ Optional addPieces(Structure$GenerationContext,Holder,int,JigsawPlacement$PieceFactory,BlockPos,boolean,Optional)
+- void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,List,Random,LevelHeightAccessor)
++ void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,List,Random,LevelHeightAccessor,RandomState)
++ void lambda$addPieces$0(PoolElementStructurePiece,int,int,int,int,Registry,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,WorldgenRandom,BoundingBox,boolean,LevelHeightAccessor,Structure$GenerationContext,StructurePiecesBuilder)
+- void lambda$addPieces$0(PoolElementStructurePiece,JigsawConfiguration,int,int,int,Registry,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,WorldgenRandom,BoundingBox,boolean,LevelHeightAccessor,StructurePiecesBuilder,PieceGenerator$Context)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
 
 ```diff
-+ boolean place(Random,boolean)
-+ BoundingBox getBoundingBox(Rotation)
-+ List getDataMarkers(Rotation,boolean)
-+ List getShuffledJigsawBlocks(Random)
-+ StructureTemplate getTemplate(StructureTemplateManager)
-+ Vec3i getSize(Rotation)
-- boolean place(Random,boolean)
-- BoundingBox getBoundingBox(Rotation)
-- List getDataMarkers(Rotation,boolean)
-- List getShuffledJigsawBlocks(Random)
+- boolean place(StructureManager,WorldGenLevel,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- BoundingBox getBoundingBox(StructureManager,BlockPos,Rotation)
++ BoundingBox getBoundingBox(StructureTemplateManager,BlockPos,Rotation)
+- List getDataMarkers(StructureManager,BlockPos,Rotation,boolean)
++ List getDataMarkers(StructureTemplateManager,BlockPos,Rotation,boolean)
+- List getShuffledJigsawBlocks(StructureManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
 - StructureTemplate getTemplate(StructureManager)
-- Vec3i getSize(Rotation)
++ StructureTemplate getTemplate(StructureTemplateManager)
+- Vec3i getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureTemplateManager,Rotation)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockPredicateArgument$2
@@ -12031,13 +5843,2785 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util$5</summary>
+
+```diff
++ void <init>(Path,Path)
+- void <init>(Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util$9</summary>
+
+```diff
+- Object apply(Object)
+- String toString()
+- void <init>(Function)
++ void <init>(String)
++ void run()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate$Builder</summary>
+
+```diff
+- LocationPredicate$Builder setFeature(ResourceKey)
++ LocationPredicate$Builder setStructure(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
++ boolean lambda$createValidator$5(Commands$ParseFunction,String)
+- boolean lambda$createValidator$6(Commands$ParseFunction,String)
++ boolean lambda$fillUsableCommands$3(SharedSuggestionProvider)
+- boolean lambda$fillUsableCommands$4(SharedSuggestionProvider)
++ int lambda$fillUsableCommands$4(CommandContext)
+- int lambda$fillUsableCommands$5(CommandContext)
++ Style lambda$performCommand$1(String,Style)
++ Style lambda$performCommand$2(MutableComponent,Style)
+- Style lambda$performCommand$2(String,Style)
+- Style lambda$performCommand$3(MutableComponent,Style)
++ void <init>(Commands$CommandSelection,CommandBuildContext)
+- void <init>(Commands$CommandSelection)
++ void lambda$new$0(CommandContext,boolean,int)
+- void lambda$new$0(CommandNode,CommandNode,CommandNode,Collection)
+- void lambda$new$1(CommandContext,boolean,int)
++ void lambda$validate$6(CommandDispatcher,CommandNode,CommandNode,CommandNode,Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+
+```diff
+- BlockPredicateArgument blockPredicate()
++ BlockPredicateArgument blockPredicate(CommandBuildContext)
++ BlockPredicateArgument$Result lambda$parse$0(BlockStateParser$BlockResult)
++ BlockPredicateArgument$Result lambda$parse$1(BlockStateParser$TagResult)
++ BlockPredicateArgument$Result parse(HolderLookup,StringReader)
+- Message lambda$static$0(Object)
+- void <init>()
++ void <init>(CommandBuildContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateArgument</summary>
+
+```diff
+- BlockStateArgument block()
++ BlockStateArgument block(CommandBuildContext)
+- void <init>()
++ void <init>(CommandBuildContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemArgument</summary>
+
+```diff
+- ItemArgument item()
++ ItemArgument item(CommandBuildContext)
+- void <init>()
++ void <init>(CommandBuildContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+
+```diff
+- CommandSyntaxException lambda$readItem$2(int,ResourceLocation)
++ CommandSyntaxException lambda$readItem$5(int,ResourceLocation)
++ CommandSyntaxException lambda$readTag$6(int,ResourceLocation)
++ CompletableFuture fillSuggestions(HolderLookup,SuggestionsBuilder,boolean)
+- CompletableFuture fillSuggestions(SuggestionsBuilder,Registry)
+- CompletableFuture lambda$static$1(SuggestionsBuilder,Registry)
++ CompletableFuture suggestItem(SuggestionsBuilder)
+- CompletableFuture suggestItemIdOrTag(SuggestionsBuilder,Registry)
++ CompletableFuture suggestItemIdOrTag(SuggestionsBuilder)
+- CompletableFuture suggestOpenNbt(SuggestionsBuilder,Registry)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder)
+- CompletableFuture suggestTag(SuggestionsBuilder,Registry)
++ CompletableFuture suggestTag(SuggestionsBuilder)
+- CompoundTag getNbt()
++ Either parseForTesting(HolderLookup,StringReader)
++ IllegalStateException lambda$parseForItem$2()
+- Item getItem()
+- ItemParser parse()
++ ItemParser$ItemResult lambda$parseForTesting$3(ItemParser,Holder)
++ ItemParser$ItemResult parseForItem(HolderLookup,StringReader)
++ ItemParser$TagResult lambda$parseForTesting$4(ItemParser,HolderSet)
++ Message lambda$static$1(Object)
+- TagKey getTag()
++ void <init>(HolderLookup,StringReader,boolean)
+- void <init>(StringReader,boolean)
++ void parse()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- StructureFeature lambda$static$41(Registry)
++ StructurePieceType lambda$static$42(Registry)
+- StructurePieceType lambda$static$43(Registry)
++ StructurePlacementType lambda$static$41(Registry)
+- StructurePlacementType lambda$static$42(Registry)
++ StructureType lambda$static$43(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ BlockStateGenerator createDoor(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
+- BlockStateGenerator createDoor(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
++ BlockStateGenerator createNorthWestMirroredCubeGenerator(Block,ResourceLocation,TextureMapping,BiConsumer)
++ PropertyDispatch$C4 configureDoorHalf(PropertyDispatch$C4,DoubleBlockHalf,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
+- PropertyDispatch$C4 configureDoorHalf(PropertyDispatch$C4,DoubleBlockHalf,ResourceLocation,ResourceLocation)
+- Variant lambda$createJigsaw$47(FrontAndTop)
++ Variant lambda$createJigsaw$48(FrontAndTop)
+- Variant lambda$createRespawnAnchor$46(ResourceLocation[],Integer)
++ Variant lambda$createRespawnAnchor$47(ResourceLocation[],Integer)
++ Variant lambda$createSculkCatalyst$46(ResourceLocation,ResourceLocation,Boolean)
++ void createFrogspawnBlock()
++ void createMangrovePropagule()
++ void createMuddyMangroveRoots()
++ void createSculkCatalyst()
++ void createSculkShrieker()
+- void lambda$run$48(BlockFamily)
++ void lambda$run$49(BlockFamily)
+- void lambda$run$49(SpawnEggItem)
++ void lambda$run$50(SpawnEggItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.BiomeTagsProvider</summary>
+
+```diff
+- String getName()
++ void lambda$addTags$0(TagsProvider$TagAppender,ResourceKey)
++ void lambda$addTags$1(TagsProvider$TagAppender,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.FluidTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+
+```diff
+- String getName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addSculk(BiomeGenerationSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket$Entry</summary>
+
+```diff
+- boolean build(List)
++ boolean canBuild(IntSet)
++ boolean canResolve(IntSet)
+- int lambda$build$0(CommandContext)
+- void <init>(ArgumentBuilder,byte,int,int[])
++ void <init>(ClientboundCommandsPacket$NodeStub,int,int,int[])
++ void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryResourceAccess$InMemoryStorage</summary>
+
+```diff
++ boolean lambda$listResources$0(ResourceKey,Map$Entry)
+- Collection listResources(ResourceKey)
++ DataResult lambda$getResource$3(DataResult,DynamicOps,Decoder)
++ Map listResources(ResourceKey)
++ Optional getResource(ResourceKey)
+- Optional parseElement(DynamicOps,ResourceKey,ResourceKey,Decoder)
++ RegistryResourceAccess$EntryThunk lambda$listResources$2(Map$Entry)
+- RegistryResourceAccess$ParsedEntry lambda$parseElement$1(RegistryResourceAccess$InMemoryStorage$Entry,Object)
++ ResourceKey lambda$listResources$1(Map$Entry)
+- Stream lambda$listResources$0(ResourceKey,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
+
+```diff
++ String toLanguageKey()
++ String toLanguageKey(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ReloadableServerResources</summary>
+
+```diff
+- List lambda$updateRegistryTags$3(Map$Entry)
++ List lambda$updateRegistryTags$4(Map$Entry)
+- ReloadableServerResources lambda$loadResources$0(ReloadableServerResources,Object)
++ ReloadableServerResources lambda$loadResources$1(ReloadableServerResources,Object)
+- TagKey lambda$updateRegistryTags$2(ResourceKey,Map$Entry)
++ TagKey lambda$updateRegistryTags$3(ResourceKey,Map$Entry)
++ void lambda$loadResources$0(ReloadableServerResources,Object,Throwable)
+- void lambda$updateRegistryTags$1(RegistryAccess,TagManager$LoadResult)
++ void lambda$updateRegistryTags$2(RegistryAccess,TagManager$LoadResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.CloneCommands</summary>
+
+```diff
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.FillCommand</summary>
+
+```diff
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.LootCommand</summary>
+
+```diff
+- ArgumentBuilder lambda$register$14(ArgumentBuilder,LootCommand$DropConsumer)
++ ArgumentBuilder lambda$register$14(CommandBuildContext,ArgumentBuilder,LootCommand$DropConsumer)
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SetBlockCommand</summary>
+
+```diff
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ int getMaxChainedNeighborUpdates()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.DemoMode</summary>
+
+```diff
++ void handleBlockBreakAction(BlockPos,ServerboundPlayerActionPacket$Action,Direction,int,int)
+- void handleBlockBreakAction(BlockPos,ServerboundPlayerActionPacket$Action,Direction,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ThreadedLevelLightEngine</summary>
+
+```diff
+- ChunkAccess lambda$lightChunk$20(ChunkAccess,ChunkPos)
++ ChunkAccess lambda$lightChunk$23(ChunkAccess,ChunkPos)
++ ChunkAccess lambda$retainData$17(ChunkPos,ChunkAccess)
++ CompletableFuture retainData(ChunkAccess)
+- String lambda$lightChunk$19(ChunkPos,boolean)
++ String lambda$lightChunk$22(ChunkPos,boolean)
++ String lambda$retainData$18(ChunkPos)
+- void lambda$lightChunk$17(ChunkAccess,BlockPos)
+- void lambda$lightChunk$18(ChunkAccess,ChunkPos,boolean)
++ void lambda$lightChunk$20(ChunkAccess,BlockPos)
++ void lambda$lightChunk$21(ChunkAccess,ChunkPos,boolean)
+- void lambda$lightChunk$21(ChunkPos,Runnable)
++ void lambda$lightChunk$24(ChunkPos,Runnable)
++ void lambda$retainData$19(ChunkPos,Runnable)
+- void lambda$tryScheduleUpdate$22()
++ void lambda$tryScheduleUpdate$25()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ void ackBlockChangesUpTo(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.FolderPackResources</summary>
+
+```diff
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+- void listResources(File,int,String,List,String,Predicate)
++ void listResources(File,String,List,String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
++ boolean lambda$getResources$1(Path)
+- boolean lambda$getResources$1(Predicate,Path)
+- Collection getResources(PackType,String,String,int,Predicate)
++ Collection getResources(PackType,String,String,Predicate)
+- void getResources(Collection,int,String,Path,String,Predicate)
++ void getResources(Collection,String,Path,String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceManager$Empty</summary>
+
+```diff
+- Collection listResources(String,Predicate)
+- List getResources(ResourceLocation)
++ List getResourceStack(ResourceLocation)
++ Map listResources(String,Predicate)
++ Map listResourceStacks(String,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleResource</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.CubicSpline$Builder</summary>
+
+```diff
++ CubicSpline$Builder addPoint(float,CubicSpline)
++ CubicSpline$Builder addPoint(float,float)
+- float lambda$new$0(Float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ DataResult lambda$static$27(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float catmullrom(float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ParticleUtils</summary>
+
+```diff
++ Vec3 getRandomSpeedRanges(Random)
++ Vec3 lambda$spawnParticlesOnBlockFaces$0(Level)
++ void spawnParticleOnFace(Level,BlockPos,Direction,ParticleOptions,Vec3,double)
+- void spawnParticleOnFace(Level,BlockPos,Direction,ParticleOptions)
++ void spawnParticlesOnBlockFace(Level,BlockPos,ParticleOptions,IntProvider,Direction,Supplier,double)
++ void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,IntProvider)
+- void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ToFloatFunction</summary>
+
+```diff
++ float lambda$static$0(float)
++ ToFloatFunction comap(Function)
++ ToFloatFunction createUnlimited(Float2FloatFunction)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.metrics.profiling.ActiveMetricsRecorder</summary>
+
+```diff
++ void cancel()
++ void cleanup(Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ int getExperienceReward()
+- int getExperienceReward(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
+
+```diff
+- void updateEffects(int,int)
++ void updateEffects(MobEffect,MobEffect)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
+
+```diff
+- boolean canSpread(BlockState,BlockGetter,BlockPos,Direction)
+- boolean canSpreadInto(BlockState)
+- boolean canSpreadToFace(BlockGetter,BlockPos,Direction)
++ boolean isValidStateForPlacement(BlockGetter,BlockState,BlockPos,Direction)
+- boolean lambda$canSpread$5(BlockState,BlockGetter,BlockPos,Direction,Direction)
++ boolean lambda$hasAnyFace$2(BlockState,Direction)
+- boolean lambda$hasAnyFace$6(BlockState,Direction)
++ boolean lambda$hasAnyVacantFace$3(BlockState,Direction)
+- boolean lambda$hasAnyVacantFace$7(BlockState,Direction)
+- boolean lambda$spreadFromFaceTowardRandomDirection$4(BlockState,LevelAccessor,BlockPos,Direction,boolean,Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$2(BlockState,Direction)
+- boolean lambda$spreadFromRandomFaceTowardRandomDirection$3(BlockState,ServerLevel,BlockPos,Random,Direction)
+- boolean spreadFromFaceTowardDirection(BlockState,LevelAccessor,BlockPos,Direction,Direction,boolean)
+- boolean spreadFromFaceTowardRandomDirection(BlockState,LevelAccessor,BlockPos,Direction,Random,boolean)
+- boolean spreadFromRandomFaceTowardRandomDirection(BlockState,ServerLevel,BlockPos,Random)
+- boolean spreadToFace(LevelAccessor,BlockPos,Direction,boolean)
++ byte pack(Collection)
+- Optional getSpreadFromFaceTowardDirection(BlockState,BlockGetter,BlockPos,Direction,Direction)
++ Set availableFaces(BlockState)
++ Set unpack(byte)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
+
+```diff
+- LongSet getReferencesForFeature(ConfiguredStructureFeature)
++ LongSet getReferencesForStructure(Structure)
+- StructureStart getStartForFeature(ConfiguredStructureFeature)
++ StructureStart getStartForStructure(Structure)
+- void addReferenceForFeature(ConfiguredStructureFeature,long)
++ void addReferenceForStructure(Structure,long)
+- void setStartForFeature(ConfiguredStructureFeature,StructureStart)
++ void setStartForStructure(Structure,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
+
+```diff
++ boolean lambda$keysInOrder$1(ResourceKey)
+- boolean stable(long,Registry)
++ boolean stable(Registry)
++ Stream keysInOrder(Stream)
++ void lambda$sortMap$2(Registry,WritableRegistry,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
+- boolean lambda$new$1(ConfiguredStructureFeature)
+- void <init>(StructureFeatureManager,ChunkAccess)
++ void <init>(StructureManager,ChunkAccess)
++ void lambda$new$1(ChunkPos,int,int,StructureStart)
+- void lambda$new$2(ChunkPos,int,int,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
+- ChunkGenerator withSeed(long)
+- Climate$Sampler climateSampler()
++ CompletableFuture fillFromNoise(Executor,Blender,RandomState,StructureManager,ChunkAccess)
+- CompletableFuture fillFromNoise(Executor,Blender,StructureFeatureManager,ChunkAccess)
++ int getBaseHeight(int,int,Heightmap$Types,LevelHeightAccessor,RandomState)
+- int getBaseHeight(int,int,Heightmap$Types,LevelHeightAccessor)
++ NoiseColumn getBaseColumn(int,int,LevelHeightAccessor,RandomState)
+- NoiseColumn getBaseColumn(int,int,LevelHeightAccessor)
+- void addDebugScreenInfo(List,BlockPos)
++ void addDebugScreenInfo(List,RandomState,BlockPos)
+- void applyBiomeDecoration(WorldGenLevel,ChunkAccess,StructureFeatureManager)
++ void applyBiomeDecoration(WorldGenLevel,ChunkAccess,StructureManager)
+- void applyCarvers(WorldGenRegion,long,BiomeManager,StructureFeatureManager,ChunkAccess,GenerationStep$Carving)
++ void applyCarvers(WorldGenRegion,long,RandomState,BiomeManager,StructureManager,ChunkAccess,GenerationStep$Carving)
+- void buildSurface(WorldGenRegion,StructureFeatureManager,ChunkAccess)
++ void buildSurface(WorldGenRegion,StructureManager,RandomState,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions</summary>
+
+```diff
++ DensityFunction spline(CubicSpline)
+- DensityFunction terrainShaperSpline(DensityFunction,DensityFunction,DensityFunction,DensityFunctions$TerrainShaperSpline$SplineType,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
+
+```diff
++ float getHeightValue(SimplexNoise,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
+
+```diff
+- App lambda$static$0(RecordCodecBuilder$Instance)
++ DensityFunctions$Spline$Coordinate lambda$mapAll$0(DensityFunction$Visitor,DensityFunctions$Spline$Coordinate)
+- ToFloatFunction lambda$mapAll$1(DensityFunction$Visitor,ToFloatFunction)
+- void <init>(CubicSpline,double,double)
++ void <init>(CubicSpline)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
+
+```diff
++ RandomState randomState()
++ void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk,RandomState,SurfaceRules$RuleSource)
+- void <init>(NoiseBasedChunkGenerator,RegistryAccess,LevelHeightAccessor,NoiseChunk)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement</summary>
+
+```diff
+- boolean place(StructureManager,WorldGenLevel,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- BoundingBox getBoundingBox(StructureManager,BlockPos,Rotation)
++ BoundingBox getBoundingBox(StructureTemplateManager,BlockPos,Rotation)
+- List getShuffledJigsawBlocks(StructureManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
+- Vec3i getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureTemplateManager,Rotation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
+
+```diff
+- Optional addPieces(PieceGeneratorSupplier$Context,JigsawPlacement$PieceFactory,BlockPos,boolean,boolean)
++ Optional addPieces(Structure$GenerationContext,Holder,int,JigsawPlacement$PieceFactory,BlockPos,boolean,Optional)
+- void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,List,Random,LevelHeightAccessor)
++ void addPieces(RegistryAccess,PoolElementStructurePiece,int,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,List,Random,LevelHeightAccessor,RandomState)
++ void lambda$addPieces$0(PoolElementStructurePiece,int,int,int,int,Registry,JigsawPlacement$PieceFactory,ChunkGenerator,StructureTemplateManager,WorldgenRandom,BoundingBox,boolean,LevelHeightAccessor,Structure$GenerationContext,StructurePiecesBuilder)
+- void lambda$addPieces$0(PoolElementStructurePiece,JigsawConfiguration,int,int,int,Registry,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,WorldgenRandom,BoundingBox,boolean,LevelHeightAccessor,StructurePiecesBuilder,PieceGenerator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement</summary>
+
+```diff
+- boolean place(StructureManager,WorldGenLevel,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
++ boolean place(StructureTemplateManager,WorldGenLevel,StructureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- BoundingBox getBoundingBox(StructureManager,BlockPos,Rotation)
++ BoundingBox getBoundingBox(StructureTemplateManager,BlockPos,Rotation)
+- List getDataMarkers(StructureManager,BlockPos,Rotation,boolean)
++ List getDataMarkers(StructureTemplateManager,BlockPos,Rotation,boolean)
+- List getShuffledJigsawBlocks(StructureManager,BlockPos,Rotation,Random)
++ List getShuffledJigsawBlocks(StructureTemplateManager,BlockPos,Rotation,Random)
+- StructureTemplate getTemplate(StructureManager)
++ StructureTemplate getTemplate(StructureTemplateManager)
+- Vec3i getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureTemplateManager,Rotation)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/mangrove_fence_gate.json
++ minecraft/advancements/recipes/building_blocks/mangrove_fence.json
++ minecraft/advancements/recipes/building_blocks/mangrove_planks.json
++ minecraft/advancements/recipes/building_blocks/mangrove_slab.json
++ minecraft/advancements/recipes/building_blocks/mangrove_stairs.json
++ minecraft/advancements/recipes/building_blocks/mangrove_wood.json
++ minecraft/advancements/recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/mud_brick_slab.json
++ minecraft/advancements/recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/mud_brick_stairs.json
++ minecraft/advancements/recipes/building_blocks/mud_bricks.json
++ minecraft/advancements/recipes/building_blocks/muddy_mangrove_roots.json
++ minecraft/advancements/recipes/building_blocks/packed_mud.json
++ minecraft/advancements/recipes/building_blocks/stripped_mangrove_wood.json
++ minecraft/advancements/recipes/decorations/mangrove_sign.json
++ minecraft/advancements/recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
++ minecraft/advancements/recipes/decorations/mud_brick_wall.json
++ minecraft/advancements/recipes/redstone/mangrove_button.json
++ minecraft/advancements/recipes/redstone/mangrove_door.json
++ minecraft/advancements/recipes/redstone/mangrove_pressure_plate.json
++ minecraft/advancements/recipes/redstone/mangrove_trapdoor.json
++ minecraft/advancements/recipes/transportation/mangrove_boat.json
++ minecraft/loot_tables/blocks/mangrove_button.json
++ minecraft/loot_tables/blocks/mangrove_door.json
++ minecraft/loot_tables/blocks/mangrove_fence_gate.json
++ minecraft/loot_tables/blocks/mangrove_fence.json
++ minecraft/loot_tables/blocks/mangrove_leaves.json
++ minecraft/loot_tables/blocks/mangrove_log.json
++ minecraft/loot_tables/blocks/mangrove_planks.json
++ minecraft/loot_tables/blocks/mangrove_pressure_plate.json
++ minecraft/loot_tables/blocks/mangrove_propagule.json
++ minecraft/loot_tables/blocks/mangrove_roots.json
++ minecraft/loot_tables/blocks/mangrove_sign.json
++ minecraft/loot_tables/blocks/mangrove_slab.json
++ minecraft/loot_tables/blocks/mangrove_stairs.json
++ minecraft/loot_tables/blocks/mangrove_trapdoor.json
++ minecraft/loot_tables/blocks/mangrove_wood.json
++ minecraft/loot_tables/blocks/mud_brick_slab.json
++ minecraft/loot_tables/blocks/mud_brick_stairs.json
++ minecraft/loot_tables/blocks/mud_brick_wall.json
++ minecraft/loot_tables/blocks/mud_bricks.json
++ minecraft/loot_tables/blocks/mud.json
++ minecraft/loot_tables/blocks/muddy_mangrove_roots.json
++ minecraft/loot_tables/blocks/ochre_froglight.json
++ minecraft/loot_tables/blocks/packed_mud.json
++ minecraft/loot_tables/blocks/pearlescent_froglight.json
++ minecraft/loot_tables/blocks/potted_mangrove_propagule.json
++ minecraft/loot_tables/blocks/sculk_catalyst.json
++ minecraft/loot_tables/blocks/sculk_shrieker.json
++ minecraft/loot_tables/blocks/sculk_vein.json
++ minecraft/loot_tables/blocks/sculk.json
++ minecraft/loot_tables/blocks/stripped_mangrove_log.json
++ minecraft/loot_tables/blocks/stripped_mangrove_wood.json
++ minecraft/loot_tables/blocks/verdant_froglight.json
++ minecraft/loot_tables/entities/frog.json
++ minecraft/loot_tables/entities/tadpole.json
++ minecraft/recipes/mangrove_boat.json
++ minecraft/recipes/mangrove_button.json
++ minecraft/recipes/mangrove_door.json
++ minecraft/recipes/mangrove_fence_gate.json
++ minecraft/recipes/mangrove_fence.json
++ minecraft/recipes/mangrove_planks.json
++ minecraft/recipes/mangrove_pressure_plate.json
++ minecraft/recipes/mangrove_sign.json
++ minecraft/recipes/mangrove_slab.json
++ minecraft/recipes/mangrove_stairs.json
++ minecraft/recipes/mangrove_trapdoor.json
++ minecraft/recipes/mangrove_wood.json
++ minecraft/recipes/mud_brick_slab_from_mud_bricks_stonecutting.json
++ minecraft/recipes/mud_brick_slab.json
++ minecraft/recipes/mud_brick_stairs_from_mud_bricks_stonecutting.json
++ minecraft/recipes/mud_brick_stairs.json
++ minecraft/recipes/mud_brick_wall_from_mud_bricks_stonecutting.json
++ minecraft/recipes/mud_brick_wall.json
++ minecraft/recipes/mud_bricks.json
++ minecraft/recipes/muddy_mangrove_roots.json
++ minecraft/recipes/packed_mud.json
++ minecraft/recipes/stripped_mangrove_wood.json
++ minecraft/tags/blocks/convertable_to_mud.json
++ minecraft/tags/blocks/dragon_transparent.json
++ minecraft/tags/blocks/frog_prefer_jump_to.json
++ minecraft/tags/blocks/mangrove_logs.json
++ minecraft/tags/blocks/polar_bears_spawnable_on_alternate.json
+- minecraft/tags/blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ minecraft/tags/blocks/sculk_replaceable_world_gen.json
++ minecraft/tags/blocks/sculk_replaceable.json
++ minecraft/tags/items/mangrove_logs.json
++ minecraft/tags/worldgen/biome/allows_surface_slime_spawns.json
++ minecraft/tags/worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++ minecraft/tags/worldgen/biome/has_closer_water_fog.json
++ minecraft/tags/worldgen/biome/is_end.json
++ minecraft/tags/worldgen/biome/is_overworld.json
++ minecraft/tags/worldgen/biome/is_savanna.json
++ minecraft/tags/worldgen/biome/more_frequent_drowned_spawns.json
++ minecraft/tags/worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ minecraft/tags/worldgen/biome/plays_underwater_music.json
++ minecraft/tags/worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++ minecraft/tags/worldgen/biome/produces_corals_from_bonemeal.json
++ minecraft/tags/worldgen/biome/reduce_water_ambient_spawns.json
++ minecraft/tags/worldgen/biome/required_ocean_monument_surrounding.json
++ minecraft/tags/worldgen/biome/spawns_cold_variant_frogs.json
++ minecraft/tags/worldgen/biome/spawns_warm_variant_frogs.json
++ minecraft/tags/worldgen/biome/stronghold_biased_to.json
++ minecraft/tags/worldgen/biome/water_on_map_outlines.json
++ minecraft/tags/worldgen/biome/without_patrol_spawns.json
++ minecraft/tags/worldgen/biome/without_wandering_trader_spawns.json
++ minecraft/tags/worldgen/biome/without_zombie_sieges.json
+- minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
+- minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
+- minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
+- minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
+- minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+- minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
+- minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+- minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
+- minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
+- minecraft/tags/worldgen/configured_structure_feature/village.json
++ minecraft/tags/worldgen/flat_level_generator_preset/visible.json
++ minecraft/tags/worldgen/structure/cats_spawn_as_black.json
++ minecraft/tags/worldgen/structure/cats_spawn_in.json
++ minecraft/tags/worldgen/structure/dolphin_located.json
++ minecraft/tags/worldgen/structure/eye_of_ender_located.json
++ minecraft/tags/worldgen/structure/mineshaft.json
++ minecraft/tags/worldgen/structure/ocean_ruin.json
++ minecraft/tags/worldgen/structure/on_ocean_explorer_maps.json
++ minecraft/tags/worldgen/structure/on_treasure_maps.json
++ minecraft/tags/worldgen/structure/on_woodland_explorer_maps.json
++ minecraft/tags/worldgen/structure/ruined_portal.json
++ minecraft/tags/worldgen/structure/shipwreck.json
++ minecraft/tags/worldgen/structure/village.json
++ minecraft/tags/worldgen/world_preset/extended.json
++ minecraft/tags/worldgen/world_preset/normal.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/frogspawn.json
++ minecraft/blockstates/mangrove_button.json
++ minecraft/blockstates/mangrove_door.json
++ minecraft/blockstates/mangrove_fence_gate.json
++ minecraft/blockstates/mangrove_fence.json
++ minecraft/blockstates/mangrove_leaves.json
++ minecraft/blockstates/mangrove_log.json
++ minecraft/blockstates/mangrove_planks.json
++ minecraft/blockstates/mangrove_pressure_plate.json
++ minecraft/blockstates/mangrove_propagule.json
++ minecraft/blockstates/mangrove_roots.json
++ minecraft/blockstates/mangrove_sign.json
++ minecraft/blockstates/mangrove_slab.json
++ minecraft/blockstates/mangrove_stairs.json
++ minecraft/blockstates/mangrove_trapdoor.json
++ minecraft/blockstates/mangrove_wall_sign.json
++ minecraft/blockstates/mangrove_wood.json
++ minecraft/blockstates/mud_brick_slab.json
++ minecraft/blockstates/mud_brick_stairs.json
++ minecraft/blockstates/mud_brick_wall.json
++ minecraft/blockstates/mud_bricks.json
++ minecraft/blockstates/mud.json
++ minecraft/blockstates/muddy_mangrove_roots.json
++ minecraft/blockstates/ochre_froglight.json
++ minecraft/blockstates/packed_mud.json
++ minecraft/blockstates/pearlescent_froglight.json
++ minecraft/blockstates/potted_mangrove_propagule.json
++ minecraft/blockstates/sculk_catalyst.json
++ minecraft/blockstates/sculk_shrieker.json
++ minecraft/blockstates/sculk_vein.json
++ minecraft/blockstates/sculk.json
++ minecraft/blockstates/stripped_mangrove_log.json
++ minecraft/blockstates/stripped_mangrove_wood.json
++ minecraft/blockstates/verdant_froglight.json
+- minecraft/models/block/acacia_door_bottom_hinge.json
++ minecraft/models/block/acacia_door_bottom_left_open.json
++ minecraft/models/block/acacia_door_bottom_left.json
++ minecraft/models/block/acacia_door_bottom_right_open.json
++ minecraft/models/block/acacia_door_bottom_right.json
+- minecraft/models/block/acacia_door_bottom.json
+- minecraft/models/block/acacia_door_top_hinge.json
++ minecraft/models/block/acacia_door_top_left_open.json
++ minecraft/models/block/acacia_door_top_left.json
++ minecraft/models/block/acacia_door_top_right_open.json
++ minecraft/models/block/acacia_door_top_right.json
+- minecraft/models/block/acacia_door_top.json
+- minecraft/models/block/birch_door_bottom_hinge.json
++ minecraft/models/block/birch_door_bottom_left_open.json
++ minecraft/models/block/birch_door_bottom_left.json
++ minecraft/models/block/birch_door_bottom_right_open.json
++ minecraft/models/block/birch_door_bottom_right.json
+- minecraft/models/block/birch_door_bottom.json
+- minecraft/models/block/birch_door_top_hinge.json
++ minecraft/models/block/birch_door_top_left_open.json
++ minecraft/models/block/birch_door_top_left.json
++ minecraft/models/block/birch_door_top_right_open.json
++ minecraft/models/block/birch_door_top_right.json
+- minecraft/models/block/birch_door_top.json
+- minecraft/models/block/crimson_door_bottom_hinge.json
++ minecraft/models/block/crimson_door_bottom_left_open.json
++ minecraft/models/block/crimson_door_bottom_left.json
++ minecraft/models/block/crimson_door_bottom_right_open.json
++ minecraft/models/block/crimson_door_bottom_right.json
+- minecraft/models/block/crimson_door_bottom.json
+- minecraft/models/block/crimson_door_top_hinge.json
++ minecraft/models/block/crimson_door_top_left_open.json
++ minecraft/models/block/crimson_door_top_left.json
++ minecraft/models/block/crimson_door_top_right_open.json
++ minecraft/models/block/crimson_door_top_right.json
+- minecraft/models/block/crimson_door_top.json
++ minecraft/models/block/cube_north_west_mirrored_all.json
++ minecraft/models/block/cube_north_west_mirrored.json
+- minecraft/models/block/dark_oak_door_bottom_hinge.json
++ minecraft/models/block/dark_oak_door_bottom_left_open.json
++ minecraft/models/block/dark_oak_door_bottom_left.json
++ minecraft/models/block/dark_oak_door_bottom_right_open.json
++ minecraft/models/block/dark_oak_door_bottom_right.json
+- minecraft/models/block/dark_oak_door_bottom.json
+- minecraft/models/block/dark_oak_door_top_hinge.json
++ minecraft/models/block/dark_oak_door_top_left_open.json
++ minecraft/models/block/dark_oak_door_top_left.json
++ minecraft/models/block/dark_oak_door_top_right_open.json
++ minecraft/models/block/dark_oak_door_top_right.json
+- minecraft/models/block/dark_oak_door_top.json
++ minecraft/models/block/door_bottom_left_open.json
++ minecraft/models/block/door_bottom_left.json
+- minecraft/models/block/door_bottom_rh.json
++ minecraft/models/block/door_bottom_right_open.json
++ minecraft/models/block/door_bottom_right.json
+- minecraft/models/block/door_bottom.json
++ minecraft/models/block/door_top_left_open.json
++ minecraft/models/block/door_top_left.json
+- minecraft/models/block/door_top_rh.json
++ minecraft/models/block/door_top_right_open.json
++ minecraft/models/block/door_top_right.json
+- minecraft/models/block/door_top.json
++ minecraft/models/block/frogspawn.json
+- minecraft/models/block/iron_door_bottom_hinge.json
++ minecraft/models/block/iron_door_bottom_left_open.json
++ minecraft/models/block/iron_door_bottom_left.json
++ minecraft/models/block/iron_door_bottom_right_open.json
++ minecraft/models/block/iron_door_bottom_right.json
+- minecraft/models/block/iron_door_bottom.json
+- minecraft/models/block/iron_door_top_hinge.json
++ minecraft/models/block/iron_door_top_left_open.json
++ minecraft/models/block/iron_door_top_left.json
++ minecraft/models/block/iron_door_top_right_open.json
++ minecraft/models/block/iron_door_top_right.json
+- minecraft/models/block/iron_door_top.json
+- minecraft/models/block/jungle_door_bottom_hinge.json
++ minecraft/models/block/jungle_door_bottom_left_open.json
++ minecraft/models/block/jungle_door_bottom_left.json
++ minecraft/models/block/jungle_door_bottom_right_open.json
++ minecraft/models/block/jungle_door_bottom_right.json
+- minecraft/models/block/jungle_door_bottom.json
+- minecraft/models/block/jungle_door_top_hinge.json
++ minecraft/models/block/jungle_door_top_left_open.json
++ minecraft/models/block/jungle_door_top_left.json
++ minecraft/models/block/jungle_door_top_right_open.json
++ minecraft/models/block/jungle_door_top_right.json
+- minecraft/models/block/jungle_door_top.json
++ minecraft/models/block/mangrove_button_inventory.json
++ minecraft/models/block/mangrove_button_pressed.json
++ minecraft/models/block/mangrove_button.json
++ minecraft/models/block/mangrove_door_bottom_left_open.json
++ minecraft/models/block/mangrove_door_bottom_left.json
++ minecraft/models/block/mangrove_door_bottom_right_open.json
++ minecraft/models/block/mangrove_door_bottom_right.json
++ minecraft/models/block/mangrove_door_top_left_open.json
++ minecraft/models/block/mangrove_door_top_left.json
++ minecraft/models/block/mangrove_door_top_right_open.json
++ minecraft/models/block/mangrove_door_top_right.json
++ minecraft/models/block/mangrove_fence_gate_open.json
++ minecraft/models/block/mangrove_fence_gate_wall_open.json
++ minecraft/models/block/mangrove_fence_gate_wall.json
++ minecraft/models/block/mangrove_fence_gate.json
++ minecraft/models/block/mangrove_fence_inventory.json
++ minecraft/models/block/mangrove_fence_post.json
++ minecraft/models/block/mangrove_fence_side.json
++ minecraft/models/block/mangrove_leaves.json
++ minecraft/models/block/mangrove_log_horizontal.json
++ minecraft/models/block/mangrove_log.json
++ minecraft/models/block/mangrove_planks.json
++ minecraft/models/block/mangrove_pressure_plate_down.json
++ minecraft/models/block/mangrove_pressure_plate.json
++ minecraft/models/block/mangrove_propagule_hanging_0.json
++ minecraft/models/block/mangrove_propagule_hanging_1.json
++ minecraft/models/block/mangrove_propagule_hanging_2.json
++ minecraft/models/block/mangrove_propagule_hanging_3.json
++ minecraft/models/block/mangrove_propagule_hanging_4.json
++ minecraft/models/block/mangrove_propagule.json
++ minecraft/models/block/mangrove_roots.json
++ minecraft/models/block/mangrove_sign.json
++ minecraft/models/block/mangrove_slab_top.json
++ minecraft/models/block/mangrove_slab.json
++ minecraft/models/block/mangrove_stairs_inner.json
++ minecraft/models/block/mangrove_stairs_outer.json
++ minecraft/models/block/mangrove_stairs.json
++ minecraft/models/block/mangrove_trapdoor_bottom.json
++ minecraft/models/block/mangrove_trapdoor_open.json
++ minecraft/models/block/mangrove_trapdoor_top.json
++ minecraft/models/block/mangrove_wood.json
++ minecraft/models/block/mud_brick_slab_top.json
++ minecraft/models/block/mud_brick_slab.json
++ minecraft/models/block/mud_brick_stairs_inner.json
++ minecraft/models/block/mud_brick_stairs_outer.json
++ minecraft/models/block/mud_brick_stairs.json
++ minecraft/models/block/mud_brick_wall_inventory.json
++ minecraft/models/block/mud_brick_wall_post.json
++ minecraft/models/block/mud_brick_wall_side_tall.json
++ minecraft/models/block/mud_brick_wall_side.json
++ minecraft/models/block/mud_bricks_north_west_mirrored.json
++ minecraft/models/block/mud_bricks.json
++ minecraft/models/block/mud.json
++ minecraft/models/block/muddy_mangrove_roots.json
+- minecraft/models/block/oak_door_bottom_hinge.json
++ minecraft/models/block/oak_door_bottom_left_open.json
++ minecraft/models/block/oak_door_bottom_left.json
++ minecraft/models/block/oak_door_bottom_right_open.json
++ minecraft/models/block/oak_door_bottom_right.json
+- minecraft/models/block/oak_door_bottom.json
+- minecraft/models/block/oak_door_top_hinge.json
++ minecraft/models/block/oak_door_top_left_open.json
++ minecraft/models/block/oak_door_top_left.json
++ minecraft/models/block/oak_door_top_right_open.json
++ minecraft/models/block/oak_door_top_right.json
+- minecraft/models/block/oak_door_top.json
++ minecraft/models/block/ochre_froglight_horizontal.json
++ minecraft/models/block/ochre_froglight.json
++ minecraft/models/block/packed_mud.json
++ minecraft/models/block/pearlescent_froglight_horizontal.json
++ minecraft/models/block/pearlescent_froglight.json
++ minecraft/models/block/potted_mangrove_propagule.json
++ minecraft/models/block/sculk_catalyst_bloom.json
++ minecraft/models/block/sculk_catalyst.json
++ minecraft/models/block/sculk_mirrored.json
++ minecraft/models/block/sculk_shrieker.json
++ minecraft/models/block/sculk_vein.json
++ minecraft/models/block/sculk.json
+- minecraft/models/block/spruce_door_bottom_hinge.json
++ minecraft/models/block/spruce_door_bottom_left_open.json
++ minecraft/models/block/spruce_door_bottom_left.json
++ minecraft/models/block/spruce_door_bottom_right_open.json
++ minecraft/models/block/spruce_door_bottom_right.json
+- minecraft/models/block/spruce_door_bottom.json
+- minecraft/models/block/spruce_door_top_hinge.json
++ minecraft/models/block/spruce_door_top_left_open.json
++ minecraft/models/block/spruce_door_top_left.json
++ minecraft/models/block/spruce_door_top_right_open.json
++ minecraft/models/block/spruce_door_top_right.json
+- minecraft/models/block/spruce_door_top.json
++ minecraft/models/block/stripped_mangrove_log_horizontal.json
++ minecraft/models/block/stripped_mangrove_log.json
++ minecraft/models/block/stripped_mangrove_wood.json
++ minecraft/models/block/verdant_froglight_horizontal.json
++ minecraft/models/block/verdant_froglight.json
+- minecraft/models/block/warped_door_bottom_hinge.json
++ minecraft/models/block/warped_door_bottom_left_open.json
++ minecraft/models/block/warped_door_bottom_left.json
++ minecraft/models/block/warped_door_bottom_right_open.json
++ minecraft/models/block/warped_door_bottom_right.json
+- minecraft/models/block/warped_door_bottom.json
+- minecraft/models/block/warped_door_top_hinge.json
++ minecraft/models/block/warped_door_top_left_open.json
++ minecraft/models/block/warped_door_top_left.json
++ minecraft/models/block/warped_door_top_right_open.json
++ minecraft/models/block/warped_door_top_right.json
+- minecraft/models/block/warped_door_top.json
++ minecraft/models/item/frog_spawn_egg.json
++ minecraft/models/item/frogspawn.json
++ minecraft/models/item/mangrove_boat.json
++ minecraft/models/item/mangrove_button.json
++ minecraft/models/item/mangrove_door.json
++ minecraft/models/item/mangrove_fence_gate.json
++ minecraft/models/item/mangrove_fence.json
++ minecraft/models/item/mangrove_leaves.json
++ minecraft/models/item/mangrove_log.json
++ minecraft/models/item/mangrove_planks.json
++ minecraft/models/item/mangrove_pressure_plate.json
++ minecraft/models/item/mangrove_propagule.json
++ minecraft/models/item/mangrove_roots.json
++ minecraft/models/item/mangrove_sign.json
++ minecraft/models/item/mangrove_slab.json
++ minecraft/models/item/mangrove_stairs.json
++ minecraft/models/item/mangrove_trapdoor.json
++ minecraft/models/item/mangrove_wood.json
++ minecraft/models/item/mud_brick_slab.json
++ minecraft/models/item/mud_brick_stairs.json
++ minecraft/models/item/mud_brick_wall.json
++ minecraft/models/item/mud_bricks.json
++ minecraft/models/item/mud.json
++ minecraft/models/item/muddy_mangrove_roots.json
++ minecraft/models/item/ochre_froglight.json
++ minecraft/models/item/packed_mud.json
++ minecraft/models/item/pearlescent_froglight.json
++ minecraft/models/item/sculk_catalyst.json
++ minecraft/models/item/sculk_shrieker.json
++ minecraft/models/item/sculk_vein.json
++ minecraft/models/item/sculk.json
++ minecraft/models/item/stripped_mangrove_log.json
++ minecraft/models/item/stripped_mangrove_wood.json
++ minecraft/models/item/tadpole_bucket.json
++ minecraft/models/item/tadpole_spawn_egg.json
++ minecraft/models/item/verdant_froglight.json
++ minecraft/particles/sculk_charge_pop.json
++ minecraft/particles/sculk_charge.json
++ minecraft/particles/sculk_soul.json
++ minecraft/textures/block/frogspawn.png
++ minecraft/textures/block/mangrove_door_bottom.png
++ minecraft/textures/block/mangrove_door_top.png
++ minecraft/textures/block/mangrove_leaves.png
++ minecraft/textures/block/mangrove_log_top.png
++ minecraft/textures/block/mangrove_log.png
++ minecraft/textures/block/mangrove_planks.png
++ minecraft/textures/block/mangrove_propagule_hanging.png
++ minecraft/textures/block/mangrove_propagule.png
++ minecraft/textures/block/mangrove_roots_side.png
++ minecraft/textures/block/mangrove_roots_top.png
++ minecraft/textures/block/mangrove_trapdoor.png
++ minecraft/textures/block/mud_bricks.png
++ minecraft/textures/block/mud.png
++ minecraft/textures/block/muddy_mangrove_roots_side.png
++ minecraft/textures/block/muddy_mangrove_roots_top.png
++ minecraft/textures/block/ochre_froglight_side.png
++ minecraft/textures/block/ochre_froglight_top.png
++ minecraft/textures/block/packed_mud.png
++ minecraft/textures/block/pearlescent_froglight_side.png
++ minecraft/textures/block/pearlescent_froglight_top.png
++ minecraft/textures/block/sculk_catalyst_bottom.png
++ minecraft/textures/block/sculk_catalyst_side_bloom.png
++ minecraft/textures/block/sculk_catalyst_side_bloom.png.mcmeta
++ minecraft/textures/block/sculk_catalyst_side.png
++ minecraft/textures/block/sculk_catalyst_top_bloom.png
++ minecraft/textures/block/sculk_catalyst_top_bloom.png.mcmeta
++ minecraft/textures/block/sculk_catalyst_top.png
++ minecraft/textures/block/sculk_shrieker_bottom.png
++ minecraft/textures/block/sculk_shrieker_inner_top.png
++ minecraft/textures/block/sculk_shrieker_inner_top.png.mcmeta
++ minecraft/textures/block/sculk_shrieker_side.png
++ minecraft/textures/block/sculk_shrieker_top.png
++ minecraft/textures/block/sculk_vein.png
++ minecraft/textures/block/sculk_vein.png.mcmeta
++ minecraft/textures/block/sculk.png
++ minecraft/textures/block/sculk.png.mcmeta
++ minecraft/textures/block/stripped_mangrove_log_top.png
++ minecraft/textures/block/stripped_mangrove_log.png
++ minecraft/textures/block/verdant_froglight_side.png
++ minecraft/textures/block/verdant_froglight_top.png
++ minecraft/textures/entity/boat/mangrove.png
++ minecraft/textures/entity/frog/cold_frog.png
++ minecraft/textures/entity/frog/temperate_frog.png
++ minecraft/textures/entity/frog/warm_frog.png
++ minecraft/textures/entity/signs/mangrove.png
++ minecraft/textures/entity/tadpole/tadpole.png
++ minecraft/textures/item/mangrove_boat.png
++ minecraft/textures/item/mangrove_door.png
++ minecraft/textures/item/mangrove_propagule.png
++ minecraft/textures/item/mangrove_sign.png
++ minecraft/textures/item/tadpole_bucket.png
++ minecraft/textures/particle/sculk_charge_0.png
++ minecraft/textures/particle/sculk_charge_1.png
++ minecraft/textures/particle/sculk_charge_2.png
++ minecraft/textures/particle/sculk_charge_3.png
++ minecraft/textures/particle/sculk_charge_4.png
++ minecraft/textures/particle/sculk_charge_5.png
++ minecraft/textures/particle/sculk_charge_6.png
++ minecraft/textures/particle/sculk_charge_pop_0.png
++ minecraft/textures/particle/sculk_charge_pop_1.png
++ minecraft/textures/particle/sculk_charge_pop_2.png
++ minecraft/textures/particle/sculk_charge_pop_3.png
++ minecraft/textures/particle/sculk_soul_0.png
++ minecraft/textures/particle/sculk_soul_1.png
++ minecraft/textures/particle/sculk_soul_10.png
++ minecraft/textures/particle/sculk_soul_2.png
++ minecraft/textures/particle/sculk_soul_3.png
++ minecraft/textures/particle/sculk_soul_4.png
++ minecraft/textures/particle/sculk_soul_5.png
++ minecraft/textures/particle/sculk_soul_6.png
++ minecraft/textures/particle/sculk_soul_7.png
++ minecraft/textures/particle/sculk_soul_8.png
++ minecraft/textures/particle/sculk_soul_9.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/biome_parameters/minecraft/nether.json
++ reports/biome_parameters/minecraft/overworld.json
+- reports/worldgen/minecraft/dimension/overworld.json
+- reports/worldgen/minecraft/dimension/the_end.json
+- reports/worldgen/minecraft/dimension/the_nether.json
++ reports/worldgen/minecraft/worldgen/biome/deep_dark.json
++ reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json
++ reports/worldgen/minecraft/worldgen/configured_feature/sculk_vein.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json
+- reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/depth.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/factor.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/offset.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/jaggedness.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/offset.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/ridges_folded.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/desert.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/overworld.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/the_void.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
++ reports/worldgen/minecraft/worldgen/flat_level_generator_preset/water_world.json
++ reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json
++ reports/worldgen/minecraft/worldgen/placed_feature/sculk_vein.json
++ reports/worldgen/minecraft/worldgen/structure/bastion_remnant.json
++ reports/worldgen/minecraft/worldgen/structure/buried_treasure.json
++ reports/worldgen/minecraft/worldgen/structure/desert_pyramid.json
++ reports/worldgen/minecraft/worldgen/structure/end_city.json
++ reports/worldgen/minecraft/worldgen/structure/fortress.json
++ reports/worldgen/minecraft/worldgen/structure/igloo.json
++ reports/worldgen/minecraft/worldgen/structure/jungle_pyramid.json
++ reports/worldgen/minecraft/worldgen/structure/mansion.json
++ reports/worldgen/minecraft/worldgen/structure/mineshaft_mesa.json
++ reports/worldgen/minecraft/worldgen/structure/mineshaft.json
++ reports/worldgen/minecraft/worldgen/structure/monument.json
++ reports/worldgen/minecraft/worldgen/structure/nether_fossil.json
++ reports/worldgen/minecraft/worldgen/structure/ocean_ruin_cold.json
++ reports/worldgen/minecraft/worldgen/structure/ocean_ruin_warm.json
++ reports/worldgen/minecraft/worldgen/structure/pillager_outpost.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_desert.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_jungle.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_mountain.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_nether.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_ocean.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal_swamp.json
++ reports/worldgen/minecraft/worldgen/structure/ruined_portal.json
++ reports/worldgen/minecraft/worldgen/structure/shipwreck_beached.json
++ reports/worldgen/minecraft/worldgen/structure/shipwreck.json
++ reports/worldgen/minecraft/worldgen/structure/stronghold.json
++ reports/worldgen/minecraft/worldgen/structure/swamp_hut.json
++ reports/worldgen/minecraft/worldgen/structure/village_desert.json
++ reports/worldgen/minecraft/worldgen/structure/village_plains.json
++ reports/worldgen/minecraft/worldgen/structure/village_savanna.json
++ reports/worldgen/minecraft/worldgen/structure/village_snowy.json
++ reports/worldgen/minecraft/worldgen/structure/village_taiga.json
++ reports/worldgen/minecraft/worldgen/world_preset/amplified.json
++ reports/worldgen/minecraft/worldgen/world_preset/debug_all_block_states.json
++ reports/worldgen/minecraft/worldgen/world_preset/flat.json
++ reports/worldgen/minecraft/worldgen/world_preset/large_biomes.json
++ reports/worldgen/minecraft/worldgen/world_preset/normal.json
++ reports/worldgen/minecraft/worldgen/world_preset/single_biome_surface.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ command_argument_type.txt
+- worldgen/structure_feature.txt
++ worldgen/structure_type.txt
+```
+
+</details>
+
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:lay_spawn
++ minecraft:swim
++ minecraft:tongue
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:frogspawn
++ minecraft:mangrove_button
++ minecraft:mangrove_door
++ minecraft:mangrove_fence
++ minecraft:mangrove_fence_gate
++ minecraft:mangrove_leaves
++ minecraft:mangrove_log
++ minecraft:mangrove_planks
++ minecraft:mangrove_pressure_plate
++ minecraft:mangrove_propagule
++ minecraft:mangrove_roots
++ minecraft:mangrove_sign
++ minecraft:mangrove_slab
++ minecraft:mangrove_stairs
++ minecraft:mangrove_trapdoor
++ minecraft:mangrove_wall_sign
++ minecraft:mangrove_wood
++ minecraft:mud
++ minecraft:mud_brick_slab
++ minecraft:mud_brick_stairs
++ minecraft:mud_brick_wall
++ minecraft:mud_bricks
++ minecraft:muddy_mangrove_roots
++ minecraft:ochre_froglight
++ minecraft:packed_mud
++ minecraft:pearlescent_froglight
++ minecraft:potted_mangrove_propagule
++ minecraft:sculk
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
++ minecraft:sculk_vein
++ minecraft:stripped_mangrove_log
++ minecraft:stripped_mangrove_wood
++ minecraft:verdant_froglight
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:frog
++ minecraft:tadpole
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:entity_dying
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:frog_spawn_egg
++ minecraft:frogspawn
++ minecraft:mangrove_boat
++ minecraft:mangrove_button
++ minecraft:mangrove_door
++ minecraft:mangrove_fence
++ minecraft:mangrove_fence_gate
++ minecraft:mangrove_leaves
++ minecraft:mangrove_log
++ minecraft:mangrove_planks
++ minecraft:mangrove_pressure_plate
++ minecraft:mangrove_propagule
++ minecraft:mangrove_roots
++ minecraft:mangrove_sign
++ minecraft:mangrove_slab
++ minecraft:mangrove_stairs
++ minecraft:mangrove_trapdoor
++ minecraft:mangrove_wood
++ minecraft:mud
++ minecraft:mud_brick_slab
++ minecraft:mud_brick_stairs
++ minecraft:mud_brick_wall
++ minecraft:mud_bricks
++ minecraft:muddy_mangrove_roots
++ minecraft:ochre_froglight
++ minecraft:packed_mud
++ minecraft:pearlescent_froglight
++ minecraft:sculk
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
++ minecraft:sculk_vein
++ minecraft:stripped_mangrove_log
++ minecraft:stripped_mangrove_wood
++ minecraft:tadpole_bucket
++ minecraft:tadpole_spawn_egg
++ minecraft:verdant_froglight
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:is_in_water
++ minecraft:is_pregnant
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:sculk_charge
++ minecraft:sculk_charge_pop
++ minecraft:sculk_soul
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:frog_attackables
++ minecraft:frog_temptations
++ minecraft:is_in_water
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.froglight.break
++ minecraft:block.froglight.fall
++ minecraft:block.froglight.hit
++ minecraft:block.froglight.place
++ minecraft:block.froglight.step
++ minecraft:block.frogspawn.break
++ minecraft:block.frogspawn.fall
++ minecraft:block.frogspawn.hatch
++ minecraft:block.frogspawn.hit
++ minecraft:block.frogspawn.place
++ minecraft:block.frogspawn.step
++ minecraft:block.mangrove_roots.break
++ minecraft:block.mangrove_roots.fall
++ minecraft:block.mangrove_roots.hit
++ minecraft:block.mangrove_roots.place
++ minecraft:block.mangrove_roots.step
++ minecraft:block.mud_bricks.break
++ minecraft:block.mud_bricks.fall
++ minecraft:block.mud_bricks.hit
++ minecraft:block.mud_bricks.place
++ minecraft:block.mud_bricks.step
++ minecraft:block.mud.break
++ minecraft:block.mud.fall
++ minecraft:block.mud.hit
++ minecraft:block.mud.place
++ minecraft:block.mud.step
++ minecraft:block.muddy_mangrove_roots.break
++ minecraft:block.muddy_mangrove_roots.fall
++ minecraft:block.muddy_mangrove_roots.hit
++ minecraft:block.muddy_mangrove_roots.place
++ minecraft:block.muddy_mangrove_roots.step
++ minecraft:block.packed_mud.break
++ minecraft:block.packed_mud.fall
++ minecraft:block.packed_mud.hit
++ minecraft:block.packed_mud.place
++ minecraft:block.packed_mud.step
++ minecraft:block.sculk_catalyst.bloom
++ minecraft:block.sculk_catalyst.break
++ minecraft:block.sculk_catalyst.fall
++ minecraft:block.sculk_catalyst.hit
++ minecraft:block.sculk_catalyst.place
++ minecraft:block.sculk_catalyst.step
++ minecraft:block.sculk_shrieker.break
++ minecraft:block.sculk_shrieker.fall
++ minecraft:block.sculk_shrieker.hit
++ minecraft:block.sculk_shrieker.place
++ minecraft:block.sculk_shrieker.step
++ minecraft:block.sculk_vein.break
++ minecraft:block.sculk_vein.fall
++ minecraft:block.sculk_vein.hit
++ minecraft:block.sculk_vein.place
++ minecraft:block.sculk_vein.step
++ minecraft:block.sculk.break
++ minecraft:block.sculk.charge
++ minecraft:block.sculk.fall
++ minecraft:block.sculk.hit
++ minecraft:block.sculk.place
++ minecraft:block.sculk.spread
++ minecraft:block.sculk.step
++ minecraft:entity.frog.ambient
++ minecraft:entity.frog.death
++ minecraft:entity.frog.eat
++ minecraft:entity.frog.hurt
++ minecraft:entity.frog.lay_spawn
++ minecraft:entity.frog.long_jump
++ minecraft:entity.frog.step
++ minecraft:entity.frog.tounge
++ minecraft:entity.tadpole.death
++ minecraft:entity.tadpole.eat
++ minecraft:entity.tadpole.flop
++ minecraft:entity.tadpole.grow_up
++ minecraft:entity.tadpole.hurt
++ minecraft:entity.tadpole.step
++ minecraft:item.bucket.empty_tadpole
++ minecraft:item.bucket.fill_tadpole
++ minecraft:music.overworld.deep_dark
+```
+
+</details>
+
+
+<details><summary>worldgen/density_function_type.txt</summary>
+
+```diff
+- minecraft:terrain_shaper_spline
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:sculk_patch
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/convertable_to_mud.json
++ blocks/dragon_transparent.json
++ blocks/frog_prefer_jump_to.json
++ blocks/mangrove_logs.json
++ blocks/polar_bears_spawnable_on_alternate.json
+- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ blocks/sculk_replaceable_world_gen.json
++ blocks/sculk_replaceable.json
++ items/mangrove_logs.json
++ worldgen/biome/allows_surface_slime_spawns.json
++ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++ worldgen/biome/has_closer_water_fog.json
++ worldgen/biome/is_end.json
++ worldgen/biome/is_overworld.json
++ worldgen/biome/is_savanna.json
++ worldgen/biome/more_frequent_drowned_spawns.json
++ worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/plays_underwater_music.json
++ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++ worldgen/biome/produces_corals_from_bonemeal.json
++ worldgen/biome/reduce_water_ambient_spawns.json
++ worldgen/biome/required_ocean_monument_surrounding.json
++ worldgen/biome/spawns_cold_variant_frogs.json
++ worldgen/biome/spawns_warm_variant_frogs.json
++ worldgen/biome/stronghold_biased_to.json
++ worldgen/biome/water_on_map_outlines.json
++ worldgen/biome/without_patrol_spawns.json
++ worldgen/biome/without_wandering_trader_spawns.json
++ worldgen/biome/without_zombie_sieges.json
+- worldgen/configured_structure_feature/dolphin_located.json
+- worldgen/configured_structure_feature/eye_of_ender_located.json
+- worldgen/configured_structure_feature/mineshaft.json
+- worldgen/configured_structure_feature/ocean_ruin.json
+- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+- worldgen/configured_structure_feature/on_treasure_maps.json
+- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+- worldgen/configured_structure_feature/ruined_portal.json
+- worldgen/configured_structure_feature/shipwreck.json
+- worldgen/configured_structure_feature/village.json
++ worldgen/flat_level_generator_preset/visible.json
++ worldgen/structure/cats_spawn_as_black.json
++ worldgen/structure/cats_spawn_in.json
++ worldgen/structure/dolphin_located.json
++ worldgen/structure/eye_of_ender_located.json
++ worldgen/structure/mineshaft.json
++ worldgen/structure/ocean_ruin.json
++ worldgen/structure/on_ocean_explorer_maps.json
++ worldgen/structure/on_treasure_maps.json
++ worldgen/structure/on_woodland_explorer_maps.json
++ worldgen/structure/ruined_portal.json
++ worldgen/structure/shipwreck.json
++ worldgen/structure/village.json
++ worldgen/world_preset/extended.json
++ worldgen/world_preset/normal.json
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
++ minecraft:mud
+```
+
+</details>
+
+
+<details><summary>blocks/fence_gates.json</summary>
+
+```diff
++ minecraft:mangrove_fence_gate
+```
+
+</details>
+
+
+<details><summary>blocks/flowers.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+
+<details><summary>blocks/flower_pots.json</summary>
+
+```diff
++ minecraft:potted_mangrove_propagule
+```
+
+</details>
+
+
+<details><summary>blocks/inside_step_sound_blocks.json</summary>
+
+```diff
++ minecraft:sculk_vein
+```
+
+</details>
+
+
+<details><summary>blocks/leaves.json</summary>
+
+```diff
++ minecraft:mangrove_leaves
+```
+
+</details>
+
+
+<details><summary>blocks/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:mangrove_logs
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/axe.json</summary>
+
+```diff
++ minecraft:mangrove_roots
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/hoe.json</summary>
+
+```diff
++ minecraft:sculk
++ minecraft:sculk_catalyst
++ minecraft:sculk_shrieker
++ minecraft:sculk_vein
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/pickaxe.json</summary>
+
+```diff
++ minecraft:mud_brick_slab
++ minecraft:mud_brick_stairs
++ minecraft:mud_bricks
++ minecraft:packed_mud
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/shovel.json</summary>
+
+```diff
++ minecraft:mud
++ minecraft:muddy_mangrove_roots
+```
+
+</details>
+
+
+<details><summary>blocks/planks.json</summary>
+
+```diff
++ minecraft:mangrove_planks
+```
+
+</details>
+
+
+<details><summary>blocks/saplings.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ minecraft:mud_brick_slab
+```
+
+</details>
+
+
+<details><summary>blocks/stairs.json</summary>
+
+```diff
++ minecraft:mud_brick_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/standing_signs.json</summary>
+
+```diff
++ minecraft:mangrove_sign
+```
+
+</details>
+
+
+<details><summary>blocks/walls.json</summary>
+
+```diff
++ minecraft:mud_brick_wall
+```
+
+</details>
+
+
+<details><summary>blocks/wall_signs.json</summary>
+
+```diff
++ minecraft:mangrove_wall_sign
+```
+
+</details>
+
+
+<details><summary>blocks/wither_immune.json</summary>
+
+```diff
++ minecraft:light
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_buttons.json</summary>
+
+```diff
++ minecraft:mangrove_button
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_doors.json</summary>
+
+```diff
++ minecraft:mangrove_door
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_fences.json</summary>
+
+```diff
++ minecraft:mangrove_fence
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:mangrove_pressure_plate
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_slabs.json</summary>
+
+```diff
++ minecraft:mangrove_slab
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_stairs.json</summary>
+
+```diff
++ minecraft:mangrove_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:mangrove_trapdoor
+```
+
+</details>
+
+
+<details><summary>entity_types/axolotl_hunt_targets.json</summary>
+
+```diff
++ minecraft:tadpole
+```
+
+</details>
+
+
+<details><summary>items/flowers.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+
+<details><summary>items/leaves.json</summary>
+
+```diff
++ minecraft:mangrove_leaves
+```
+
+</details>
+
+
+<details><summary>items/logs_that_burn.json</summary>
+
+```diff
++ #minecraft:mangrove_logs
+```
+
+</details>
+
+
+<details><summary>items/planks.json</summary>
+
+```diff
++ minecraft:mangrove_planks
+```
+
+</details>
+
+
+<details><summary>items/saplings.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
+```
+
+</details>
+
+
+<details><summary>items/signs.json</summary>
+
+```diff
++ minecraft:mangrove_sign
+```
+
+</details>
+
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ minecraft:mud_brick_slab
+```
+
+</details>
+
+
+<details><summary>items/stairs.json</summary>
+
+```diff
++ minecraft:mud_brick_stairs
+```
+
+</details>
+
+
+<details><summary>items/walls.json</summary>
+
+```diff
++ minecraft:mud_brick_wall
+```
+
+</details>
+
+
+<details><summary>items/wooden_buttons.json</summary>
+
+```diff
++ minecraft:mangrove_button
+```
+
+</details>
+
+
+<details><summary>items/wooden_doors.json</summary>
+
+```diff
++ minecraft:mangrove_door
+```
+
+</details>
+
+
+<details><summary>items/wooden_fences.json</summary>
+
+```diff
++ minecraft:mangrove_fence
+```
+
+</details>
+
+
+<details><summary>items/wooden_pressure_plates.json</summary>
+
+```diff
++ minecraft:mangrove_pressure_plate
+```
+
+</details>
+
+
+<details><summary>items/wooden_slabs.json</summary>
+
+```diff
++ minecraft:mangrove_slab
+```
+
+</details>
+
+
+<details><summary>items/wooden_stairs.json</summary>
+
+```diff
++ minecraft:mangrove_stairs
+```
+
+</details>
+
+
+<details><summary>items/wooden_trapdoors.json</summary>
+
+```diff
++ minecraft:mangrove_trapdoor
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/has_structure/stronghold.json</summary>
+
+```diff
++ #minecraft:is_overworld
+- minecraft:badlands
+- minecraft:bamboo_jungle
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:desert
+- minecraft:dripstone_caves
+- minecraft:eroded_badlands
+- minecraft:flower_forest
+- minecraft:forest
+- minecraft:frozen_peaks
+- minecraft:grove
+- minecraft:ice_spikes
+- minecraft:jagged_peaks
+- minecraft:jungle
+- minecraft:lush_caves
+- minecraft:meadow
+- minecraft:mushroom_fields
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:plains
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:snowy_taiga
+- minecraft:sparse_jungle
+- minecraft:stony_peaks
+- minecraft:sunflower_plains
+- minecraft:taiga
+- minecraft:windswept_forest
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_hills
+- minecraft:windswept_savanna
+- minecraft:wooded_badlands
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ biome.minecraft.deep_dark
++ block.minecraft.frogspawn
++ block.minecraft.mangrove_button
++ block.minecraft.mangrove_door
++ block.minecraft.mangrove_fence
++ block.minecraft.mangrove_fence_gate
++ block.minecraft.mangrove_leaves
++ block.minecraft.mangrove_log
++ block.minecraft.mangrove_planks
++ block.minecraft.mangrove_pressure_plate
++ block.minecraft.mangrove_propagule
++ block.minecraft.mangrove_roots
++ block.minecraft.mangrove_sign
++ block.minecraft.mangrove_slab
++ block.minecraft.mangrove_stairs
++ block.minecraft.mangrove_trapdoor
++ block.minecraft.mangrove_wall_sign
++ block.minecraft.mangrove_wood
++ block.minecraft.mud
++ block.minecraft.mud_brick_slab
++ block.minecraft.mud_brick_stairs
++ block.minecraft.mud_brick_wall
++ block.minecraft.mud_bricks
++ block.minecraft.muddy_mangrove_roots
++ block.minecraft.ochre_froglight
++ block.minecraft.packed_mud
++ block.minecraft.pearlescent_froglight
++ block.minecraft.potted_mangrove_propagule
++ block.minecraft.sculk
++ block.minecraft.sculk_catalyst
++ block.minecraft.sculk_shrieker
++ block.minecraft.sculk_vein
++ block.minecraft.stripped_mangrove_log
++ block.minecraft.stripped_mangrove_wood
++ block.minecraft.verdant_froglight
+- createWorld.customize.preset.bottomless_pit
+- createWorld.customize.preset.classic_flat
+- createWorld.customize.preset.desert
+- createWorld.customize.preset.overworld
+- createWorld.customize.preset.redstone_ready
+- createWorld.customize.preset.snowy_kingdom
+- createWorld.customize.preset.the_void
+- createWorld.customize.preset.tunnelers_dream
+- createWorld.customize.preset.water_world
++ entity.minecraft.frog
++ entity.minecraft.tadpole
++ flat_world_preset.minecraft.bottomless_pit
++ flat_world_preset.minecraft.classic_flat
++ flat_world_preset.minecraft.desert
++ flat_world_preset.minecraft.overworld
++ flat_world_preset.minecraft.redstone_ready
++ flat_world_preset.minecraft.snowy_kingdom
++ flat_world_preset.minecraft.the_void
++ flat_world_preset.minecraft.tunnelers_dream
++ flat_world_preset.minecraft.water_world
++ flat_world_preset.unknown
+- generator.amplified
+- generator.amplified.info
+- generator.debug_all_block_states
+- generator.default
+- generator.flat
+- generator.large_biomes
++ generator.minecraft.amplified
++ generator.minecraft.amplified.info
++ generator.minecraft.debug_all_block_states
++ generator.minecraft.flat
++ generator.minecraft.large_biomes
++ generator.minecraft.normal
++ generator.minecraft.single_biome_surface
+- generator.single_biome_surface
++ item.minecraft.frog_spawn_egg
++ item.minecraft.mangrove_boat
++ item.minecraft.tadpole_bucket
++ item.minecraft.tadpole_spawn_egg
++ options.directionalAudio
++ options.directionalAudio.off.tooltip
++ options.directionalAudio.on.tooltip
++ outOfMemory.message
++ outOfMemory.title
++ subtitles.block.frogspawn.hatch
++ subtitles.entity.frog.ambient
++ subtitles.entity.frog.death
++ subtitles.entity.frog.eat
++ subtitles.entity.frog.hurt
++ subtitles.entity.frog.lay_spawn
++ subtitles.entity.frog.long_jump
++ subtitles.entity.tadpole.death
++ subtitles.entity.tadpole.flop
++ subtitles.entity.tadpole.hurt
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/mangrove_fence_gate.json
++ recipes/building_blocks/mangrove_fence.json
++ recipes/building_blocks/mangrove_planks.json
++ recipes/building_blocks/mangrove_slab.json
++ recipes/building_blocks/mangrove_stairs.json
++ recipes/building_blocks/mangrove_wood.json
++ recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting.json
++ recipes/building_blocks/mud_brick_slab.json
++ recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting.json
++ recipes/building_blocks/mud_brick_stairs.json
++ recipes/building_blocks/mud_bricks.json
++ recipes/building_blocks/muddy_mangrove_roots.json
++ recipes/building_blocks/packed_mud.json
++ recipes/building_blocks/stripped_mangrove_wood.json
++ recipes/decorations/mangrove_sign.json
++ recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting.json
++ recipes/decorations/mud_brick_wall.json
++ recipes/redstone/mangrove_button.json
++ recipes/redstone/mangrove_door.json
++ recipes/redstone/mangrove_pressure_plate.json
++ recipes/redstone/mangrove_trapdoor.json
++ recipes/transportation/mangrove_boat.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/mangrove_button.json
++ blocks/mangrove_door.json
++ blocks/mangrove_fence_gate.json
++ blocks/mangrove_fence.json
++ blocks/mangrove_leaves.json
++ blocks/mangrove_log.json
++ blocks/mangrove_planks.json
++ blocks/mangrove_pressure_plate.json
++ blocks/mangrove_propagule.json
++ blocks/mangrove_roots.json
++ blocks/mangrove_sign.json
++ blocks/mangrove_slab.json
++ blocks/mangrove_stairs.json
++ blocks/mangrove_trapdoor.json
++ blocks/mangrove_wood.json
++ blocks/mud_brick_slab.json
++ blocks/mud_brick_stairs.json
++ blocks/mud_brick_wall.json
++ blocks/mud_bricks.json
++ blocks/mud.json
++ blocks/muddy_mangrove_roots.json
++ blocks/ochre_froglight.json
++ blocks/packed_mud.json
++ blocks/pearlescent_froglight.json
++ blocks/potted_mangrove_propagule.json
++ blocks/sculk_catalyst.json
++ blocks/sculk_shrieker.json
++ blocks/sculk_vein.json
++ blocks/sculk.json
++ blocks/stripped_mangrove_log.json
++ blocks/stripped_mangrove_wood.json
++ blocks/verdant_froglight.json
++ entities/frog.json
++ entities/tadpole.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ sculk_charge_pop.json
++ sculk_charge.json
++ sculk_soul.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ mangrove_boat.json
++ mangrove_button.json
++ mangrove_door.json
++ mangrove_fence_gate.json
++ mangrove_fence.json
++ mangrove_planks.json
++ mangrove_pressure_plate.json
++ mangrove_sign.json
++ mangrove_slab.json
++ mangrove_stairs.json
++ mangrove_trapdoor.json
++ mangrove_wood.json
++ mud_brick_slab_from_mud_bricks_stonecutting.json
++ mud_brick_slab.json
++ mud_brick_stairs_from_mud_bricks_stonecutting.json
++ mud_brick_stairs.json
++ mud_brick_wall_from_mud_bricks_stonecutting.json
++ mud_brick_wall.json
++ mud_bricks.json
++ muddy_mangrove_roots.json
++ packed_mud.json
++ stripped_mangrove_wood.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/froglight/break1.ogg
++ block/froglight/break2.ogg
++ block/froglight/break3.ogg
++ block/froglight/break4.ogg
++ block/froglight/step1.ogg
++ block/froglight/step2.ogg
++ block/froglight/step3.ogg
++ block/froglight/step4.ogg
++ block/froglight/step5.ogg
++ block/froglight/step6.ogg
++ block/frogspawn/break1.ogg
++ block/frogspawn/break2.ogg
++ block/frogspawn/break3.ogg
++ block/frogspawn/break4.ogg
++ block/frogspawn/hatch1.ogg
++ block/frogspawn/hatch2.ogg
++ block/frogspawn/hatch3.ogg
++ block/frogspawn/hatch4.ogg
++ block/frogspawn/hatch5.ogg
++ block/frogspawn/step1.ogg
++ block/frogspawn/step2.ogg
++ block/frogspawn/step3.ogg
++ block/frogspawn/step4.ogg
++ block/frogspawn/step5.ogg
++ block/frogspawn/step6.ogg
++ block/mangrove_roots/break1.ogg
++ block/mangrove_roots/break2.ogg
++ block/mangrove_roots/break3.ogg
++ block/mangrove_roots/break4.ogg
++ block/mangrove_roots/break5.ogg
++ block/mangrove_roots/break6.ogg
++ block/mangrove_roots/step1.ogg
++ block/mangrove_roots/step2.ogg
++ block/mangrove_roots/step3.ogg
++ block/mangrove_roots/step4.ogg
++ block/mangrove_roots/step5.ogg
++ block/mangrove_roots/step6.ogg
++ block/mud_bricks/break1.ogg
++ block/mud_bricks/break2.ogg
++ block/mud_bricks/break3.ogg
++ block/mud_bricks/break4.ogg
++ block/mud_bricks/break5.ogg
++ block/mud_bricks/break6.ogg
++ block/mud_bricks/step1.ogg
++ block/mud_bricks/step2.ogg
++ block/mud_bricks/step3.ogg
++ block/mud_bricks/step4.ogg
++ block/mud_bricks/step5.ogg
++ block/mud_bricks/step6.ogg
++ block/mud/break1.ogg
++ block/mud/break2.ogg
++ block/mud/break3.ogg
++ block/mud/break4.ogg
++ block/mud/break5.ogg
++ block/mud/break6.ogg
++ block/mud/step1.ogg
++ block/mud/step2.ogg
++ block/mud/step3.ogg
++ block/mud/step4.ogg
++ block/mud/step5.ogg
++ block/mud/step6.ogg
++ block/muddy_mangrove_roots/break1.ogg
++ block/muddy_mangrove_roots/break2.ogg
++ block/muddy_mangrove_roots/break3.ogg
++ block/muddy_mangrove_roots/break4.ogg
++ block/muddy_mangrove_roots/break5.ogg
++ block/muddy_mangrove_roots/break6.ogg
++ block/muddy_mangrove_roots/step1.ogg
++ block/muddy_mangrove_roots/step2.ogg
++ block/muddy_mangrove_roots/step3.ogg
++ block/muddy_mangrove_roots/step4.ogg
++ block/muddy_mangrove_roots/step5.ogg
++ block/muddy_mangrove_roots/step6.ogg
++ block/packed_mud/break1.ogg
++ block/packed_mud/break2.ogg
++ block/packed_mud/break3.ogg
++ block/packed_mud/break4.ogg
++ block/packed_mud/break5.ogg
++ block/packed_mud/break6.ogg
++ block/packed_mud/step1.ogg
++ block/packed_mud/step2.ogg
++ block/packed_mud/step3.ogg
++ block/packed_mud/step4.ogg
++ block/packed_mud/step5.ogg
++ block/packed_mud/step6.ogg
++ block/sculk_catalyst/break1.ogg
++ block/sculk_catalyst/break10.ogg
++ block/sculk_catalyst/break2.ogg
++ block/sculk_catalyst/break3.ogg
++ block/sculk_catalyst/break4.ogg
++ block/sculk_catalyst/break5.ogg
++ block/sculk_catalyst/break6.ogg
++ block/sculk_catalyst/break7.ogg
++ block/sculk_catalyst/break8.ogg
++ block/sculk_catalyst/break9.ogg
++ block/sculk_catalyst/place1.ogg
++ block/sculk_catalyst/place2.ogg
++ block/sculk_catalyst/place3.ogg
++ block/sculk_catalyst/place4.ogg
++ block/sculk_catalyst/place5.ogg
++ block/sculk_catalyst/step1.ogg
++ block/sculk_catalyst/step2.ogg
++ block/sculk_catalyst/step3.ogg
++ block/sculk_catalyst/step4.ogg
++ block/sculk_catalyst/step5.ogg
++ block/sculk_catalyst/step6.ogg
++ block/sculk_shrieker/break1.ogg
++ block/sculk_shrieker/break2.ogg
++ block/sculk_shrieker/break3.ogg
++ block/sculk_shrieker/break4.ogg
++ block/sculk_shrieker/break5.ogg
++ block/sculk_shrieker/break6.ogg
++ block/sculk_shrieker/place1.ogg
++ block/sculk_shrieker/place2.ogg
++ block/sculk_shrieker/place3.ogg
++ block/sculk_shrieker/place4.ogg
++ block/sculk_shrieker/place5.ogg
++ block/sculk_shrieker/shriek1.ogg
++ block/sculk_shrieker/shriek2.ogg
++ block/sculk_shrieker/shriek3.ogg
++ block/sculk_shrieker/shriek4.ogg
++ block/sculk_shrieker/shriek5.ogg
++ block/sculk_vein/break1.ogg
++ block/sculk_vein/break2.ogg
++ block/sculk_vein/break3.ogg
++ block/sculk_vein/break4.ogg
++ block/sculk_vein/break5.ogg
++ block/sculk/break1.ogg
++ block/sculk/break10.ogg
++ block/sculk/break11.ogg
++ block/sculk/break12.ogg
++ block/sculk/break13.ogg
++ block/sculk/break14.ogg
++ block/sculk/break2.ogg
++ block/sculk/break3.ogg
++ block/sculk/break4.ogg
++ block/sculk/break5.ogg
++ block/sculk/break6.ogg
++ block/sculk/break7.ogg
++ block/sculk/break8.ogg
++ block/sculk/break9.ogg
++ block/sculk/charge1.ogg
++ block/sculk/charge2.ogg
++ block/sculk/charge3.ogg
++ block/sculk/charge4.ogg
++ block/sculk/charge5.ogg
++ block/sculk/place1.ogg
++ block/sculk/place2.ogg
++ block/sculk/place3.ogg
++ block/sculk/place4.ogg
++ block/sculk/place5.ogg
++ block/sculk/spread1.ogg
++ block/sculk/spread2.ogg
++ block/sculk/spread3.ogg
++ block/sculk/spread4.ogg
++ block/sculk/spread5.ogg
++ item/goat_horn/call0.ogg
++ item/goat_horn/call1.ogg
++ item/goat_horn/call2.ogg
++ item/goat_horn/call3.ogg
++ item/goat_horn/call4.ogg
++ item/goat_horn/call5.ogg
++ item/goat_horn/call6.ogg
++ item/goat_horn/call7.ogg
++ mob/allay/death1.ogg
++ mob/allay/death2.ogg
++ mob/allay/hurt1.ogg
++ mob/allay/hurt2.ogg
++ mob/allay/idle_with_item1.ogg
++ mob/allay/idle_with_item2.ogg
++ mob/allay/idle_with_item3.ogg
++ mob/allay/idle_with_item4.ogg
++ mob/allay/idle_without_item1.ogg
++ mob/allay/idle_without_item2.ogg
++ mob/allay/idle_without_item3.ogg
++ mob/allay/idle_without_item4.ogg
++ mob/allay/item_given1.ogg
++ mob/allay/item_given2.ogg
++ mob/allay/item_given3.ogg
++ mob/allay/item_given4.ogg
++ mob/allay/item_taken1.ogg
++ mob/allay/item_taken2.ogg
++ mob/allay/item_taken3.ogg
++ mob/allay/item_taken4.ogg
++ mob/allay/item_thrown1.ogg
++ mob/frog/death1.ogg
++ mob/frog/death2.ogg
++ mob/frog/death3.ogg
++ mob/frog/eat1.ogg
++ mob/frog/eat2.ogg
++ mob/frog/eat3.ogg
++ mob/frog/eat4.ogg
++ mob/frog/hurt1.ogg
++ mob/frog/hurt2.ogg
++ mob/frog/hurt3.ogg
++ mob/frog/hurt4.ogg
++ mob/frog/hurt5.ogg
++ mob/frog/idle1.ogg
++ mob/frog/idle2.ogg
++ mob/frog/idle3.ogg
++ mob/frog/idle4.ogg
++ mob/frog/idle5.ogg
++ mob/frog/idle6.ogg
++ mob/frog/idle7.ogg
++ mob/frog/idle8.ogg
++ mob/frog/lay_spawn1.ogg
++ mob/frog/lay_spawn2.ogg
++ mob/frog/long_jump1.ogg
++ mob/frog/long_jump2.ogg
++ mob/frog/long_jump3.ogg
++ mob/frog/long_jump4.ogg
++ mob/frog/step1.ogg
++ mob/frog/step2.ogg
++ mob/frog/step3.ogg
++ mob/frog/step4.ogg
++ mob/frog/tongue1.ogg
++ mob/frog/tongue2.ogg
++ mob/frog/tongue3.ogg
++ mob/frog/tongue4.ogg
++ mob/goat/horn_break1.ogg
++ mob/goat/horn_break2.ogg
++ mob/goat/horn_break3.ogg
++ mob/goat/horn_break4.ogg
++ mob/tadpole/death1.ogg
++ mob/tadpole/death2.ogg
++ mob/tadpole/hurt1.ogg
++ mob/tadpole/hurt2.ogg
++ mob/tadpole/hurt3.ogg
++ mob/tadpole/hurt4.ogg
++ mob/warden/agitated_1.ogg
++ mob/warden/agitated_2.ogg
++ mob/warden/agitated_3.ogg
++ mob/warden/agitated_4.ogg
++ mob/warden/agitated_5.ogg
++ mob/warden/agitated_6.ogg
++ mob/warden/ambient_1.ogg
++ mob/warden/ambient_10.ogg
++ mob/warden/ambient_11.ogg
++ mob/warden/ambient_12.ogg
++ mob/warden/ambient_2.ogg
++ mob/warden/ambient_3.ogg
++ mob/warden/ambient_4.ogg
++ mob/warden/ambient_5.ogg
++ mob/warden/ambient_6.ogg
++ mob/warden/ambient_7.ogg
++ mob/warden/ambient_8.ogg
++ mob/warden/ambient_9.ogg
++ mob/warden/angry_1.ogg
++ mob/warden/angry_2.ogg
++ mob/warden/angry_3.ogg
++ mob/warden/angry_4.ogg
++ mob/warden/angry_5.ogg
++ mob/warden/angry_6.ogg
++ mob/warden/attack_impact_1.ogg
++ mob/warden/attack_impact_2.ogg
++ mob/warden/death_1.ogg
++ mob/warden/death_2.ogg
++ mob/warden/dig.ogg
++ mob/warden/emerge.ogg
++ mob/warden/heartbeat_1.ogg
++ mob/warden/heartbeat_2.ogg
++ mob/warden/heartbeat_3.ogg
++ mob/warden/heartbeat_4.ogg
++ mob/warden/hurt_1.ogg
++ mob/warden/hurt_2.ogg
++ mob/warden/hurt_3.ogg
++ mob/warden/hurt_4.ogg
++ mob/warden/listening_1.ogg
++ mob/warden/listening_2.ogg
++ mob/warden/listening_3.ogg
++ mob/warden/listening_4.ogg
++ mob/warden/listening_5.ogg
++ mob/warden/listening_angry_1.ogg
++ mob/warden/listening_angry_2.ogg
++ mob/warden/listening_angry_3.ogg
++ mob/warden/listening_angry_4.ogg
++ mob/warden/listening_angry_5.ogg
++ mob/warden/nearby_close_1.ogg
++ mob/warden/nearby_close_2.ogg
++ mob/warden/nearby_close_3.ogg
++ mob/warden/nearby_close_4.ogg
++ mob/warden/nearby_closer_1.ogg
++ mob/warden/nearby_closer_2.ogg
++ mob/warden/nearby_closer_3.ogg
++ mob/warden/nearby_closest_1.ogg
++ mob/warden/nearby_closest_2.ogg
++ mob/warden/nearby_closest_3.ogg
++ mob/warden/roar_1.ogg
++ mob/warden/roar_2.ogg
++ mob/warden/roar_3.ogg
++ mob/warden/roar_4.ogg
++ mob/warden/roar_5.ogg
++ mob/warden/sniff_1.ogg
++ mob/warden/sniff_2.ogg
++ mob/warden/sniff_3.ogg
++ mob/warden/sniff_4.ogg
++ mob/warden/sonic_boom1.ogg
++ mob/warden/sonic_boom2.ogg
++ mob/warden/sonic_boom3.ogg
++ mob/warden/sonic_boom4.ogg
++ mob/warden/sonic_charge1.ogg
++ mob/warden/sonic_charge2.ogg
++ mob/warden/sonic_charge3.ogg
++ mob/warden/sonic_charge4.ogg
++ mob/warden/step_1.ogg
++ mob/warden/step_2.ogg
++ mob/warden/step_3.ogg
++ mob/warden/step_4.ogg
++ mob/warden/tendril_clicks_1.ogg
++ mob/warden/tendril_clicks_2.ogg
++ mob/warden/tendril_clicks_3.ogg
++ mob/warden/tendril_clicks_4.ogg
++ mob/warden/tendril_clicks_5.ogg
++ mob/warden/tendril_clicks_6.ogg
++ music/game/ancestry.ogg
++ music/game/swamp/aerie.ogg
++ music/game/swamp/firebugs.ogg
++ music/game/swamp/labyrinthine.ogg
++ records/5.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/convertable_to_mud.json
++ blocks/dragon_transparent.json
++ blocks/frog_prefer_jump_to.json
++ blocks/mangrove_logs.json
++ blocks/polar_bears_spawnable_on_alternate.json
+- blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ blocks/sculk_replaceable_world_gen.json
++ blocks/sculk_replaceable.json
++ items/mangrove_logs.json
++ worldgen/biome/allows_surface_slime_spawns.json
++ worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
++ worldgen/biome/has_closer_water_fog.json
++ worldgen/biome/is_end.json
++ worldgen/biome/is_overworld.json
++ worldgen/biome/is_savanna.json
++ worldgen/biome/more_frequent_drowned_spawns.json
++ worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/plays_underwater_music.json
++ worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
++ worldgen/biome/produces_corals_from_bonemeal.json
++ worldgen/biome/reduce_water_ambient_spawns.json
++ worldgen/biome/required_ocean_monument_surrounding.json
++ worldgen/biome/spawns_cold_variant_frogs.json
++ worldgen/biome/spawns_warm_variant_frogs.json
++ worldgen/biome/stronghold_biased_to.json
++ worldgen/biome/water_on_map_outlines.json
++ worldgen/biome/without_patrol_spawns.json
++ worldgen/biome/without_wandering_trader_spawns.json
++ worldgen/biome/without_zombie_sieges.json
+- worldgen/configured_structure_feature/dolphin_located.json
+- worldgen/configured_structure_feature/eye_of_ender_located.json
+- worldgen/configured_structure_feature/mineshaft.json
+- worldgen/configured_structure_feature/ocean_ruin.json
+- worldgen/configured_structure_feature/on_ocean_explorer_maps.json
+- worldgen/configured_structure_feature/on_treasure_maps.json
+- worldgen/configured_structure_feature/on_woodland_explorer_maps.json
+- worldgen/configured_structure_feature/ruined_portal.json
+- worldgen/configured_structure_feature/shipwreck.json
+- worldgen/configured_structure_feature/village.json
++ worldgen/flat_level_generator_preset/visible.json
++ worldgen/structure/cats_spawn_as_black.json
++ worldgen/structure/cats_spawn_in.json
++ worldgen/structure/dolphin_located.json
++ worldgen/structure/eye_of_ender_located.json
++ worldgen/structure/mineshaft.json
++ worldgen/structure/ocean_ruin.json
++ worldgen/structure/on_ocean_explorer_maps.json
++ worldgen/structure/on_treasure_maps.json
++ worldgen/structure/on_woodland_explorer_maps.json
++ worldgen/structure/ruined_portal.json
++ worldgen/structure/shipwreck.json
++ worldgen/structure/village.json
++ worldgen/world_preset/extended.json
++ worldgen/world_preset/normal.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/frogspawn.png
++ block/mangrove_door_bottom.png
++ block/mangrove_door_top.png
++ block/mangrove_leaves.png
++ block/mangrove_log_top.png
++ block/mangrove_log.png
++ block/mangrove_planks.png
++ block/mangrove_propagule_hanging.png
++ block/mangrove_propagule.png
++ block/mangrove_roots_side.png
++ block/mangrove_roots_top.png
++ block/mangrove_trapdoor.png
++ block/mud_bricks.png
++ block/mud.png
++ block/muddy_mangrove_roots_side.png
++ block/muddy_mangrove_roots_top.png
++ block/ochre_froglight_side.png
++ block/ochre_froglight_top.png
++ block/packed_mud.png
++ block/pearlescent_froglight_side.png
++ block/pearlescent_froglight_top.png
++ block/sculk_catalyst_bottom.png
++ block/sculk_catalyst_side_bloom.png
++ block/sculk_catalyst_side.png
++ block/sculk_catalyst_top_bloom.png
++ block/sculk_catalyst_top.png
++ block/sculk_shrieker_bottom.png
++ block/sculk_shrieker_inner_top.png
++ block/sculk_shrieker_side.png
++ block/sculk_shrieker_top.png
++ block/sculk_vein.png
++ block/sculk.png
++ block/stripped_mangrove_log_top.png
++ block/stripped_mangrove_log.png
++ block/verdant_froglight_side.png
++ block/verdant_froglight_top.png
++ entity/boat/mangrove.png
++ entity/frog/cold_frog.png
++ entity/frog/temperate_frog.png
++ entity/frog/warm_frog.png
++ entity/signs/mangrove.png
++ entity/tadpole/tadpole.png
++ item/mangrove_boat.png
++ item/mangrove_door.png
++ item/mangrove_propagule.png
++ item/mangrove_sign.png
++ item/tadpole_bucket.png
++ particle/sculk_charge_0.png
++ particle/sculk_charge_1.png
++ particle/sculk_charge_2.png
++ particle/sculk_charge_3.png
++ particle/sculk_charge_4.png
++ particle/sculk_charge_5.png
++ particle/sculk_charge_6.png
++ particle/sculk_charge_pop_0.png
++ particle/sculk_charge_pop_1.png
++ particle/sculk_charge_pop_2.png
++ particle/sculk_charge_pop_3.png
++ particle/sculk_soul_0.png
++ particle/sculk_soul_1.png
++ particle/sculk_soul_10.png
++ particle/sculk_soul_2.png
++ particle/sculk_soul_3.png
++ particle/sculk_soul_4.png
++ particle/sculk_soul_5.png
++ particle/sculk_soul_6.png
++ particle/sculk_soul_7.png
++ particle/sculk_soul_8.png
++ particle/sculk_soul_9.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- ca.weblite:java-objc-bridge:1.0.0
+- ca.weblite:java-objc-bridge:1.0.0
++ ca.weblite:java-objc-bridge:1.1
+- com.mojang:text2speech:1.12.4
+- com.mojang:text2speech:1.12.4
++ com.mojang:text2speech:1.13.9
++ com.mojang:text2speech:1.13.9
+```
+
+</details>

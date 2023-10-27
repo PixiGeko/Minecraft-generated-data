@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w45a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w45a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-11-07T16:19:20+00:00</td></tr>
@@ -10,2288 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5d63db192f83431fd627927ac9359baa76f3130f/server.txt">https://piston-data.mojang.com/v1/objects/5d63db192f83431fd627927ac9359baa76f3130f/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/67fb46186cd0469929a2a3e06d97a2edb42aa983/client.jar">https://piston-data.mojang.com/v1/objects/67fb46186cd0469929a2a3e06d97a2edb42aa983/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7ece060f64b34bf03b8e98024d6422a562908d90/client.txt">https://piston-data.mojang.com/v1/objects/7ece060f64b34bf03b8e98024d6422a562908d90/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w44a">19w44a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/entity_types/arrows.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/textures/gui/presets/chaos.png
--  minecraft/textures/gui/presets/delight.png
--  minecraft/textures/gui/presets/drought.png
--  minecraft/textures/gui/presets/luck.png
--  minecraft/textures/gui/presets/madness.png
--  minecraft/textures/gui/presets/water.png
--  realms/textures/gui/realms/images
--  realms/textures/gui/realms/images/balloon_trip.png
--  realms/textures/gui/realms/images/desert.png
--  realms/textures/gui/realms/images/dornenstein_estate.png
--  realms/textures/gui/realms/images/escher_tunnel.png
--  realms/textures/gui/realms/images/factory_floor.png
--  realms/textures/gui/realms/images/flower_mountain.png
--  realms/textures/gui/realms/images/gray.png
--  realms/textures/gui/realms/images/halloween_woods.png
--  realms/textures/gui/realms/images/imperium.png
--  realms/textures/gui/realms/images/ludo.png
--  realms/textures/gui/realms/images/makersspleef.png
--  realms/textures/gui/realms/images/negentropy.png
--  realms/textures/gui/realms/images/pumpkin_party.png
--  realms/textures/gui/realms/images/sand_castle.png
--  realms/textures/gui/realms/images/sparrenhout.png
--  realms/textures/gui/realms/images/spindlewood.png
--  realms/textures/gui/realms/images/tree_houses.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.parrot.imitate.enderman
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ entity_types/arrows.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ entity_types/arrows.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- gui/presets/chaos.png
-- gui/presets/delight.png
-- gui/presets/drought.png
-- gui/presets/luck.png
-- gui/presets/madness.png
-- gui/presets/water.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BreakingTextureGenerator</summary>
-
-```diff
-+ void <init>(PoseStack$Pose)
-- void <init>(Matrix4f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
-
-```diff
-+ void renderEntityInInventory(LivingEntity)
-- void renderPlayerModel(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ArmorStandArmorModel</summary>
-
-```diff
-+ void setupAnim(ArmorStand,float,float,float,float,float)
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(LivingEntity,float,float,float,float,float)
-- void setupAnim(ArmorStand,float,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(LivingEntity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.BatModel</summary>
-
-```diff
-+ void setupAnim(Bat,float,float,float,float,float)
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Bat,float,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.BlazeModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.ChestedHorseModel</summary>
-
-```diff
-+ void setupAnim(AbstractChestedHorse,float,float,float,float,float)
-+ void setupAnim(AbstractHorse,float,float,float,float,float)
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(AbstractChestedHorse,float,float,float,float,float,float)
-- void setupAnim(AbstractHorse,float,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.CodModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.CreeperModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.DrownedModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(LivingEntity,float,float,float,float,float)
-+ void setupAnim(Monster,float,float,float,float,float)
-+ void setupAnim(Zombie,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(LivingEntity,float,float,float,float,float,float)
-- void setupAnim(Monster,float,float,float,float,float,float)
-- void setupAnim(Zombie,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.EndermanModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(LivingEntity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(LivingEntity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.EntityModel</summary>
-
-```diff
-+ void setupAnim(net.minecraft.world.entity.Entity,float,float,float,float,float)
-- void setupAnim(net.minecraft.world.entity.Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.FoxModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Fox,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Fox,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.model.IllagerModel</summary>
-
-```diff
-+ void setupAnim(AbstractIllager,float,float,float,float,float)
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void translateToHand(PoseStack)
-- void setupAnim(AbstractIllager,float,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void translateToHand(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.LavaSlimeModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Slime,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Slime,float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.LlamaSpitModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.OcelotModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ParrotModel</summary>
-
-```diff
-+ void lambda$renderOnShoulder$0(ModelPart)
-+ void renderOnShoulder(VertexConsumer,int,int,float,float,float,float,int)
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Parrot,float,float,float,float,float)
-- void lambda$renderOnShoulder$0(ModelPart)
-- void renderOnShoulder(VertexConsumer,int,int,float,float,float,float,float,int)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Parrot,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.PolarBearModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(PolarBear,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(PolarBear,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.PufferfishMidModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.QuadrupedModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.RavagerModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Ravager,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Ravager,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SheepFurModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Sheep,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Sheep,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ShieldModel</summary>
-
-```diff
-+ ModelPart handle()
-+ ModelPart plate()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ShulkerModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(Shulker,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(Shulker,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SkeletonModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(LivingEntity,float,float,float,float,float)
-+ void setupAnim(Mob,float,float,float,float,float)
-+ void translateToHand(PoseStack)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(LivingEntity,float,float,float,float,float,float)
-- void setupAnim(Mob,float,float,float,float,float,float)
-- void translateToHand(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SlimeModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SpiderModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.TropicalFishModelB</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.VexModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(LivingEntity,float,float,float,float,float)
-+ void setupAnim(Vex,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(LivingEntity,float,float,float,float,float,float)
-- void setupAnim(Vex,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.VillagerModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.WitherBossModel</summary>
-
-```diff
-+ void setupAnim(Entity,float,float,float,float,float)
-+ void setupAnim(WitherBoss,float,float,float,float,float)
-- void setupAnim(Entity,float,float,float,float,float,float)
-- void setupAnim(WitherBoss,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
-
-```diff
-+ void compile(TextureAtlasSprite,float,float,float)
-+ void render(TextureAtlasSprite,float,float,float)
-+ void render(TextureAtlasSprite)
-+ void translateAndRotate(PoseStack)
-- void compile(TextureAtlasSprite,float,float,float)
-- void render(TextureAtlasSprite,float,float,float)
-- void render(TextureAtlasSprite)
-- void translateAndRotate(PoseStack,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
-
-```diff
-+ ClientLevel level
-- MultiPlayerLevel level
-+ ClientLevel access$800(ClientChunkCache)
-+ LevelChunk replaceWithPacketData(CompoundTag,int)
-+ void <init>(ClientLevel,int)
-- LevelChunk replaceWithPacketData(CompoundTag,int)
-- MultiPlayerLevel access$800(ClientChunkCache)
-- void <init>(MultiPlayerLevel,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.DripParticle</summary>
-
-```diff
-- float getBrightness(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.EnchantmentTableParticle</summary>
-
-```diff
-- float getBrightness(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.FireworkParticles$SparkParticle</summary>
-
-```diff
-+ void render(Camera,float)
-- void render(Camera,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.ItemPickupParticle</summary>
-
-```diff
-+ void render(Camera,float)
-- void render(Camera,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.particle.MobAppearanceParticle</summary>
-
-```diff
-+ void render(Camera,float)
-- void render(Camera,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.SimpleAnimatedParticle</summary>
-
-```diff
-- float getBrightness(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.AbstractClientPlayer</summary>
-
-```diff
-+ ClientLevel clientLevel
-- MultiPlayerLevel clientLevel
-+ void <init>(GameProfile)
-- void <init>(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-+ void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int,int)
-- void render(MultiBufferSource,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite</summary>
-
-```diff
-+ float atlasSize()
-+ float uvShrinkRatio()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.AssetIndex</summary>
-
-```diff
-+ Map namespacedFiles
-+ Map rootFiles
-- Map mapping
-+ boolean lambda$getFiles$0(ResourceLocation)
-+ Collection getFiles(Predicate)
-+ File getRootFile(String)
-- boolean lambda$getFiles$0(String)
-- boolean lambda$getFiles$1(String)
-- Collection getFiles(Predicate)
-- File getFile(String)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.resources.LegacyResourcePackAdapter</summary>
-
-```diff
-+ Collection getResources(Predicate)
-- Collection getResources(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.ModelBakery</summary>
-
-```diff
-+ ResourceLocation NO_PATTERN_SHIELD
-+ ResourceLocation SHIELD_BASE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.tutorial.FindTreeTutorialStepInstance</summary>
-
-```diff
-+ void onLookAt(HitResult)
-- void onLookAt(HitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.tutorial.Tutorial</summary>
-
-```diff
-+ void onDestroyBlock(BlockState,float)
-+ void onLookAt(HitResult)
-- void onDestroyBlock(BlockState,float)
-- void onLookAt(HitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Vec3i</summary>
-
-```diff
-+ String toShortString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.FileResourcePack</summary>
-
-```diff
-+ Collection getResources(Predicate)
-- Collection getResources(Predicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.Pack</summary>
-
-```diff
-+ Collection getResources(net.minecraft.server.packs.PackType,java.lang.String,java.lang.String,int,java.util.function.Predicate)
-- Collection getResources(net.minecraft.server.packs.PackType,java.lang.String,int,java.util.function.Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-- SoundEvent PARROT_IMITATE_ENDERMAN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-+ Tag ARROWS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ int getBlockLightLevel()
-+ void checkDespawn()
-- int getLightColor()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ void createWitherRose(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ boolean shouldDespawnInPeaceful()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.Goal</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$1</summary>
-
-```diff
-+ void tick()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
-
-```diff
-+ boolean lambda$findNearestHives$2(PoiType)
-+ boolean lambda$start$0(BlockPos)
-+ Stream findNearestHives(int)
-+ void lambda$start$1(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
-
-```diff
-+ Vec3 hoverPos
-+ boolean access$400(Bee$BeePollinateGoal)
-+ float getOffset()
-+ void access$500(Bee$BeePollinateGoal)
-+ void setWantedPos()
-+ void stopPollinating()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-+ int getBlockLightLevel()
-- int getLightColor()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
-
-```diff
-+ int getBlockLightLevel()
-- int getLightColor()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
-
-```diff
-+ boolean shouldDespawnInPeaceful()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
-
-```diff
-+ int getBlockLightLevel()
-- int getLightColor()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-+ void tickDespawn()
-- void checkDespawn()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
-
-```diff
-+ int getBlockLightLevel()
-- int getLightColor()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
-
-```diff
-+ int getBlockLightLevel()
-- int getLightColor()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
-
-```diff
-+ int getBlockLightLevel()
-+ void checkDespawn()
-- int getLightColor()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownTrident</summary>
-
-```diff
-+ EntityDataAccessor ID_FOIL
-+ boolean isFoil()
-+ void tickDespawn()
-- void checkDespawn()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseCommandBlock</summary>
-
-```diff
-+ Component DEFAULT_NAME
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.vertex.BufferBuilder
@@ -4578,761 +2318,567 @@
 
 </details>
 
-<details><summary>com.mojang.math.Matrix3f</summary>
+
+<details><summary>com.mojang.blaze3d.vertex.BreakingTextureGenerator</summary>
 
 ```diff
-+ Matrix3f copy()
-- void <init>(float[],boolean)
-- void <init>(Matrix3f,boolean)
+- void <init>(VertexConsumer,Matrix4f)
++ void <init>(VertexConsumer,PoseStack$Pose)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
 
 ```diff
-- Direction getNearest(float,float)
++ void renderEntityInInventory(int,int,int,float,float,LivingEntity)
+- void renderPlayerModel(int,int,int,float,float,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket</summary>
+<details><summary>net.minecraft.client.model.ArmorStandArmorModel</summary>
 
 ```diff
-+ ResourceLocation DEBUG_BEE
-+ ResourceLocation DEBUG_HIVE
+- void setupAnim(ArmorStand,float,float,float,float,float,float)
++ void setupAnim(ArmorStand,float,float,float,float,float)
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(LivingEntity,float,float,float,float,float,float)
++ void setupAnim(LivingEntity,float,float,float,float,float)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.model.BatModel</summary>
 
+```diff
+- void setupAnim(Bat,float,float,float,float,float,float)
++ void setupAnim(Bat,float,float,float,float,float)
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.BlazeModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ChestedHorseModel</summary>
 
+```diff
+- void setupAnim(AbstractChestedHorse,float,float,float,float,float,float)
++ void setupAnim(AbstractChestedHorse,float,float,float,float,float)
+- void setupAnim(AbstractHorse,float,float,float,float,float,float)
++ void setupAnim(AbstractHorse,float,float,float,float,float)
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.CodModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.CreeperModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.DrownedModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(LivingEntity,float,float,float,float,float,float)
++ void setupAnim(LivingEntity,float,float,float,float,float)
+- void setupAnim(Monster,float,float,float,float,float,float)
++ void setupAnim(Monster,float,float,float,float,float)
+- void setupAnim(Zombie,float,float,float,float,float,float)
++ void setupAnim(Zombie,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.EndermanModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(LivingEntity,float,float,float,float,float,float)
++ void setupAnim(LivingEntity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.FoxModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Fox,float,float,float,float,float,float)
++ void setupAnim(Fox,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.IllagerModel</summary>
 
+```diff
+- void setupAnim(AbstractIllager,float,float,float,float,float,float)
++ void setupAnim(AbstractIllager,float,float,float,float,float)
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void translateToHand(float,HumanoidArm,PoseStack)
++ void translateToHand(HumanoidArm,PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.LavaSlimeModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Slime,float,float,float,float,float,float)
++ void setupAnim(Slime,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.LlamaSpitModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.OcelotModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ParrotModel</summary>
 
+```diff
+- void lambda$renderOnShoulder$0(PoseStack,VertexConsumer,float,int,int,ModelPart)
++ void lambda$renderOnShoulder$0(PoseStack,VertexConsumer,int,int,ModelPart)
+- void renderOnShoulder(PoseStack,VertexConsumer,int,int,float,float,float,float,float,int)
++ void renderOnShoulder(PoseStack,VertexConsumer,int,int,float,float,float,float,int)
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Parrot,float,float,float,float,float,float)
++ void setupAnim(Parrot,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.PolarBearModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(PolarBear,float,float,float,float,float,float)
++ void setupAnim(PolarBear,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.PufferfishMidModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.QuadrupedModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.RavagerModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Ravager,float,float,float,float,float,float)
++ void setupAnim(Ravager,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.SheepFurModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Sheep,float,float,float,float,float,float)
++ void setupAnim(Sheep,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ShieldModel</summary>
 
+```diff
++ ModelPart handle()
++ ModelPart plate()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ShulkerModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(Shulker,float,float,float,float,float,float)
++ void setupAnim(Shulker,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.SkeletonModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(LivingEntity,float,float,float,float,float,float)
++ void setupAnim(LivingEntity,float,float,float,float,float)
+- void setupAnim(Mob,float,float,float,float,float,float)
++ void setupAnim(Mob,float,float,float,float,float)
+- void translateToHand(float,HumanoidArm,PoseStack)
++ void translateToHand(HumanoidArm,PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.SlimeModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.SpiderModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.TropicalFishModelB</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.VexModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(LivingEntity,float,float,float,float,float,float)
++ void setupAnim(LivingEntity,float,float,float,float,float)
+- void setupAnim(Vex,float,float,float,float,float,float)
++ void setupAnim(Vex,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.VillagerModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.WitherBossModel</summary>
 
+```diff
+- void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float)
+- void setupAnim(WitherBoss,float,float,float,float,float,float)
++ void setupAnim(WitherBoss,float,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.geom.ModelPart</summary>
 
+```diff
+- void compile(Matrix4f,VertexConsumer,float,int,int,TextureAtlasSprite,float,float,float)
++ void compile(PoseStack$Pose,VertexConsumer,int,int,TextureAtlasSprite,float,float,float)
+- void render(PoseStack,VertexConsumer,float,int,int,TextureAtlasSprite,float,float,float)
+- void render(PoseStack,VertexConsumer,float,int,int,TextureAtlasSprite)
++ void render(PoseStack,VertexConsumer,int,int,TextureAtlasSprite,float,float,float)
++ void render(PoseStack,VertexConsumer,int,int,TextureAtlasSprite)
+- void translateAndRotate(PoseStack,float)
++ void translateAndRotate(PoseStack)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
 
+```diff
++ ClientLevel access$800(ClientChunkCache)
++ LevelChunk replaceWithPacketData(int,int,ChunkBiomeContainer,FriendlyByteBuf,CompoundTag,int)
+- LevelChunk replaceWithPacketData(Level,int,int,ChunkBiomeContainer,FriendlyByteBuf,CompoundTag,int)
+- MultiPlayerLevel access$800(ClientChunkCache)
++ void <init>(ClientLevel,int)
+- void <init>(MultiPlayerLevel,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.DripParticle</summary>
 
+```diff
+- float getBrightness(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.EnchantmentTableParticle</summary>
 
+```diff
+- float getBrightness(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.FireworkParticles$SparkParticle</summary>
 
+```diff
+- void render(VertexConsumer,Camera,float,float,float,float,float,float)
++ void render(VertexConsumer,Camera,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.ItemPickupParticle</summary>
 
+```diff
+- void render(VertexConsumer,Camera,float,float,float,float,float,float)
++ void render(VertexConsumer,Camera,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.MobAppearanceParticle</summary>
 
+```diff
+- void render(VertexConsumer,Camera,float,float,float,float,float,float)
++ void render(VertexConsumer,Camera,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.particle.SimpleAnimatedParticle</summary>
 
+```diff
+- float getBrightness(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.player.AbstractClientPlayer</summary>
 
+```diff
++ void <init>(ClientLevel,GameProfile)
+- void <init>(MultiPlayerLevel,GameProfile)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.StructureBlockRenderer</summary>
 
+```diff
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
++ void render(BlockEntity,float,PoseStack,MultiBufferSource,int,int)
+- void render(StructureBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
++ void render(StructureBlockEntity,float,PoseStack,MultiBufferSource,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
 
+```diff
+- void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
++ void render(BlockEntity,float,PoseStack,MultiBufferSource,int,int)
+- void render(TheEndGatewayBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
++ void render(TheEndGatewayBlockEntity,float,PoseStack,MultiBufferSource,int,int)
+- void render(TheEndPortalBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int,int)
++ void render(TheEndPortalBlockEntity,float,PoseStack,MultiBufferSource,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.texture.TextureAtlasSprite</summary>
 
+```diff
++ float atlasSize()
++ float uvShrinkRatio()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.resources.AssetIndex</summary>
 
+```diff
++ boolean lambda$getFiles$0(String,String,Predicate,ResourceLocation)
+- boolean lambda$getFiles$0(String)
+- boolean lambda$getFiles$1(String,String)
+- Collection getFiles(String,int,Predicate)
++ Collection getFiles(String,String,int,Predicate)
+- File getFile(String)
++ File getRootFile(String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.resources.LegacyResourcePackAdapter</summary>
 
+```diff
+- Collection getResources(PackType,String,int,Predicate)
++ Collection getResources(PackType,String,String,int,Predicate)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.tutorial.FindTreeTutorialStepInstance</summary>
 
+```diff
++ void onLookAt(ClientLevel,HitResult)
+- void onLookAt(MultiPlayerLevel,HitResult)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.tutorial.Tutorial</summary>
 
+```diff
++ void onDestroyBlock(ClientLevel,BlockPos,BlockState,float)
+- void onDestroyBlock(MultiPlayerLevel,BlockPos,BlockState,float)
++ void onLookAt(ClientLevel,HitResult)
+- void onLookAt(MultiPlayerLevel,HitResult)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.core.Vec3i</summary>
 
+```diff
++ String toShortString()
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.server.packs.FileResourcePack</summary>
 
 ```diff
-+ Collection getResources(Predicate)
-- Collection getResources(Predicate)
+- Collection getResources(PackType,String,int,Predicate)
++ Collection getResources(PackType,String,String,int,Predicate)
 ```
 
 </details>
-
-<details><summary>net.minecraft.server.packs.Pack</summary>
-
-```diff
-+ Collection getResources(net.minecraft.server.packs.PackType,java.lang.String,java.lang.String,int,java.util.function.Predicate)
-- Collection getResources(net.minecraft.server.packs.PackType,java.lang.String,int,java.util.function.Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-- SoundEvent PARROT_IMITATE_ENDERMAN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-+ Tag ARROWS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
 + int getBlockLightLevel()
-+ void checkDespawn()
 - int getLightColor()
++ void checkDespawn()
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
@@ -5343,6 +2889,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.Mob</summary>
 
 ```diff
@@ -5350,66 +2897,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.goal.Goal</summary>
@@ -5421,62 +2908,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Bee$1</summary>
 
 ```diff
@@ -5484,9 +2915,6 @@
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
@@ -5500,10 +2928,10 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
 
 ```diff
-+ Vec3 hoverPos
 + boolean access$400(Bee$BeePollinateGoal)
 + float getOffset()
 + void access$500(Bee$BeePollinateGoal)
@@ -5514,78 +2942,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
 
 ```diff
@@ -5594,38 +2950,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
@@ -5647,28 +2971,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.monster.Vex</summary>
 
 ```diff
@@ -5679,39 +2981,15 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
 
 ```diff
-+ void tickDespawn()
 - void checkDespawn()
++ void tickDespawn()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
 
@@ -5733,226 +3011,34 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
 
 ```diff
 + int getBlockLightLevel()
-+ void checkDespawn()
 - int getLightColor()
++ void checkDespawn()
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.projectile.ThrownTrident</summary>
 
 ```diff
-+ EntityDataAccessor ID_FOIL
 + boolean isFoil()
-+ void tickDespawn()
 - void checkDespawn()
++ void tickDespawn()
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseCommandBlock</summary>
-
-```diff
-+ Component DEFAULT_NAME
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.protocol.game.DebugPackets
@@ -7433,13 +4519,295 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Matrix3f</summary>
+
+```diff
++ Matrix3f copy()
+- void <init>(float[],boolean)
+- void <init>(Matrix3f,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction</summary>
+
+```diff
+- Direction getNearest(float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.FileResourcePack</summary>
+
+```diff
+- Collection getResources(PackType,String,int,Predicate)
++ Collection getResources(PackType,String,String,int,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
++ void checkDespawn()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ void createWitherRose(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ boolean shouldDespawnInPeaceful()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.Goal</summary>
+
+```diff
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$1</summary>
+
+```diff
++ void tick()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeLocateHiveGoal</summary>
+
+```diff
++ boolean lambda$findNearestHives$2(PoiType)
++ boolean lambda$start$0(BlockPos)
++ Stream findNearestHives(int)
++ void lambda$start$1(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee$BeePollinateGoal</summary>
+
+```diff
++ boolean access$400(Bee$BeePollinateGoal)
++ float getOffset()
++ void access$500(Bee$BeePollinateGoal)
++ void setWantedPos()
++ void stopPollinating()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
+
+```diff
++ boolean shouldDespawnInPeaceful()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
+
+```diff
+- void checkDespawn()
++ void tickDespawn()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
+
+```diff
++ int getBlockLightLevel()
+- int getLightColor()
++ void checkDespawn()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ThrownTrident</summary>
+
+```diff
++ boolean isFoil()
+- void checkDespawn()
++ void tickDespawn()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/entity_types/arrows.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/textures/gui/presets/chaos.png
+- minecraft/textures/gui/presets/delight.png
+- minecraft/textures/gui/presets/drought.png
+- minecraft/textures/gui/presets/luck.png
+- minecraft/textures/gui/presets/madness.png
+- minecraft/textures/gui/presets/water.png
+- realms/textures/gui/realms/images/balloon_trip.png
+- realms/textures/gui/realms/images/desert.png
+- realms/textures/gui/realms/images/dornenstein_estate.png
+- realms/textures/gui/realms/images/escher_tunnel.png
+- realms/textures/gui/realms/images/factory_floor.png
+- realms/textures/gui/realms/images/flower_mountain.png
+- realms/textures/gui/realms/images/gray.png
+- realms/textures/gui/realms/images/halloween_woods.png
+- realms/textures/gui/realms/images/imperium.png
+- realms/textures/gui/realms/images/ludo.png
+- realms/textures/gui/realms/images/makersspleef.png
+- realms/textures/gui/realms/images/negentropy.png
+- realms/textures/gui/realms/images/pumpkin_party.png
+- realms/textures/gui/realms/images/sand_castle.png
+- realms/textures/gui/realms/images/sparrenhout.png
+- realms/textures/gui/realms/images/spindlewood.png
+- realms/textures/gui/realms/images/tree_houses.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>sound_event.txt</summary>
+
+```diff
+- minecraft:entity.parrot.imitate.enderman
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ entity_types/arrows.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- subtitles.entity.parrot.imitate.enderman
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ entity_types/arrows.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- gui/presets/chaos.png
+- gui/presets/delight.png
+- gui/presets/drought.png
+- gui/presets/luck.png
+- gui/presets/madness.png
+- gui/presets/water.png
+```
+
+</details>

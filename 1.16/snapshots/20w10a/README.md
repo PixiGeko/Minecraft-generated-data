@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w10a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w10a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-03-04T16:21:41+00:00</td></tr>
@@ -10,2596 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f5bc34a248a0569fc3b85dbca295bf38a5756a03/server.txt">https://piston-data.mojang.com/v1/objects/f5bc34a248a0569fc3b85dbca295bf38a5756a03/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/5476bd5eda4f2fec842225b4e60dc270aa9c18c9/client.jar">https://piston-data.mojang.com/v1/objects/5476bd5eda4f2fec842225b4e60dc270aa9c18c9/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/58c702a1ef74f61416148db6993f2383040f1ea8/client.txt">https://piston-data.mojang.com/v1/objects/58c702a1ef74f61416148db6993f2383040f1ea8/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w09a">20w09a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/crimson_hyphae.json
-+  minecraft/advancements/recipes/building_blocks/stripped_crimson_hyphae.json
-+  minecraft/advancements/recipes/building_blocks/stripped_warped_hyphae.json
-+  minecraft/advancements/recipes/building_blocks/warped_hyphae.json
--  minecraft/advancements/recipes/combat/netherite_boots.json
--  minecraft/advancements/recipes/combat/netherite_chestplate.json
--  minecraft/advancements/recipes/combat/netherite_helmet.json
--  minecraft/advancements/recipes/combat/netherite_leggings.json
--  minecraft/advancements/recipes/combat/netherite_sword.json
--  minecraft/advancements/recipes/tools/netherite_axe.json
--  minecraft/advancements/recipes/tools/netherite_hoe.json
--  minecraft/advancements/recipes/tools/netherite_pickaxe.json
--  minecraft/advancements/recipes/tools/netherite_shovel.json
-+  minecraft/loot_tables/blocks/crimson_hyphae.json
-+  minecraft/loot_tables/blocks/stripped_crimson_hyphae.json
-+  minecraft/loot_tables/blocks/stripped_warped_hyphae.json
-+  minecraft/loot_tables/blocks/warped_hyphae.json
-+  minecraft/recipes/crimson_hyphae.json
--  minecraft/recipes/netherite_axe.json
--  minecraft/recipes/netherite_boots.json
--  minecraft/recipes/netherite_chestplate.json
--  minecraft/recipes/netherite_helmet.json
--  minecraft/recipes/netherite_hoe.json
--  minecraft/recipes/netherite_leggings.json
--  minecraft/recipes/netherite_pickaxe.json
--  minecraft/recipes/netherite_shovel.json
--  minecraft/recipes/netherite_sword.json
-+  minecraft/recipes/stripped_crimson_hyphae.json
-+  minecraft/recipes/stripped_warped_hyphae.json
-+  minecraft/recipes/warped_hyphae.json
-+  minecraft/tags/blocks/hoglin_repellents.json
-+  minecraft/tags/blocks/piglin_repellents.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/crimson_hyphae.json
-+  minecraft/blockstates/stripped_crimson_hyphae.json
-+  minecraft/blockstates/stripped_warped_hyphae.json
-+  minecraft/blockstates/warped_hyphae.json
-+  minecraft/models/block/crimson_hyphae.json
--  minecraft/models/block/hanging_lantern.json
--  minecraft/models/block/hanging_soul_fire_lantern.json
-+  minecraft/models/block/lantern_hanging.json
--  minecraft/models/block/redstone_ore_on.json
-+  minecraft/models/block/soul_fire_lantern_hanging.json
-+  minecraft/models/block/stripped_crimson_hyphae.json
-+  minecraft/models/block/stripped_warped_hyphae.json
-+  minecraft/models/block/template_anvil.json
-+  minecraft/models/block/template_chorus_flower.json
-+  minecraft/models/block/template_command_block.json
-+  minecraft/models/block/template_daylight_detector.json
-+  minecraft/models/block/template_four_turtle_eggs.json
-+  minecraft/models/block/template_seagrass.json
-+  minecraft/models/block/template_single_face.json
-+  minecraft/models/block/template_three_turtle_eggs.json
-+  minecraft/models/block/template_turtle_egg.json
-+  minecraft/models/block/template_two_turtle_eggs.json
-+  minecraft/models/block/tinted_flower_pot_cross.json
-+  minecraft/models/block/warped_hyphae.json
--  minecraft/models/item/brain_coral_wall_fan.json
--  minecraft/models/item/bubble_coral_wall_fan.json
-+  minecraft/models/item/crimson_hyphae.json
--  minecraft/models/item/dead_brain_coral_wall_fan.json
--  minecraft/models/item/dead_bubble_coral_wall_fan.json
--  minecraft/models/item/dead_fire_coral_wall_fan.json
--  minecraft/models/item/dead_horn_coral_wall_fan.json
--  minecraft/models/item/dead_tube_coral_wall_fan.json
--  minecraft/models/item/fire_coral_wall_fan.json
--  minecraft/models/item/horn_coral_wall_fan.json
-+  minecraft/models/item/stripped_crimson_hyphae.json
-+  minecraft/models/item/stripped_warped_hyphae.json
--  minecraft/models/item/tube_coral_wall_fan.json
-+  minecraft/models/item/warped_hyphae.json
-+  minecraft/textures/gui/container/smithing.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:warped_hyphae
-+ minecraft:stripped_warped_hyphae
-+ minecraft:crimson_hyphae
-+ minecraft:stripped_crimson_hyphae
-```
-
-</details>
-
-<details><summary>custom_stat.txt</summary>
-
-```diff
-+ minecraft:interact_with_smithing_table
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:stripped_warped_hyphae
-+ minecraft:stripped_crimson_hyphae
-+ minecraft:warped_hyphae
-+ minecraft:crimson_hyphae
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-- minecraft:was_hit_by_player
-- minecraft:nearest_visible_warped_fungus
-- minecraft:nearest_visible_soul_fire_item
-+ minecraft:attack_cooling_down
-+ minecraft:admiring_disabled
-+ minecraft:nearest_repellent
-```
-
-</details>
-
-<details><summary>menu.txt</summary>
-
-```diff
-+ minecraft:smithing
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:ambient.crimson_forest.additions
-+ minecraft:ambient.crimson_forest.loop
-+ minecraft:ambient.crimson_forest.mood
-+ minecraft:ambient.nether_wastes.additions
-+ minecraft:ambient.nether_wastes.loop
-+ minecraft:ambient.nether_wastes.mood
-+ minecraft:ambient.soul_sand_valley.additions
-+ minecraft:ambient.soul_sand_valley.loop
-+ minecraft:ambient.soul_sand_valley.mood
-+ minecraft:ambient.warped_forest.additions
-+ minecraft:ambient.warped_forest.loop
-+ minecraft:ambient.warped_forest.mood
-+ minecraft:block.smithing_table.use
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/hoglin_repellents.json
-+ blocks/piglin_repellents.json
-```
-
-</details>
-
-<details><summary>blocks/crimson_stems.json</summary>
-
-```diff
-+ minecraft:crimson_hyphae
-+ minecraft:stripped_crimson_hyphae
-```
-
-</details>
-
-<details><summary>blocks/warped_stems.json</summary>
-
-```diff
-+ minecraft:warped_hyphae
-+ minecraft:stripped_warped_hyphae
-```
-
-</details>
-
-<details><summary>items/crimson_stems.json</summary>
-
-```diff
-+ minecraft:crimson_hyphae
-+ minecraft:stripped_crimson_hyphae
-```
-
-</details>
-
-<details><summary>items/warped_stems.json</summary>
-
-```diff
-+ minecraft:warped_hyphae
-+ minecraft:stripped_warped_hyphae
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/combat/netherite_boots.json
-- recipes/combat/netherite_chestplate.json
-- recipes/combat/netherite_helmet.json
-- recipes/combat/netherite_leggings.json
-- recipes/combat/netherite_sword.json
-- recipes/tools/netherite_axe.json
-- recipes/tools/netherite_hoe.json
-- recipes/tools/netherite_pickaxe.json
-- recipes/tools/netherite_shovel.json
-+ recipes/building_blocks/crimson_hyphae.json
-+ recipes/building_blocks/stripped_crimson_hyphae.json
-+ recipes/building_blocks/stripped_warped_hyphae.json
-+ recipes/building_blocks/warped_hyphae.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/crimson_hyphae.json
-+ blocks/stripped_crimson_hyphae.json
-+ blocks/stripped_warped_hyphae.json
-+ blocks/warped_hyphae.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- netherite_axe.json
-- netherite_boots.json
-- netherite_chestplate.json
-- netherite_helmet.json
-- netherite_hoe.json
-- netherite_leggings.json
-- netherite_pickaxe.json
-- netherite_shovel.json
-- netherite_sword.json
-+ crimson_hyphae.json
-+ stripped_crimson_hyphae.json
-+ stripped_warped_hyphae.json
-+ warped_hyphae.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/hoglin_repellents.json
-+ blocks/piglin_repellents.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/container/smithing.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexFormatElement</summary>
-
-```diff
-- boolean isPosition()
-- int getCount()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ Button backButton
-+ Button buyARealmButton
-+ Button closeButton
-+ Button configureButton
-+ Button createTrialButton
-+ Button leaveButton
-+ Button newsButton
-+ Button pendingInvitesButton
-+ Button playButton
-+ Button renewButton
-+ Button showPopupButton
-+ RealmsDataFetcher REALMS_DATA_FETCHER
-+ ResourceLocation BUTTON_LOCATION
-+ ResourceLocation CONFIGURE_LOCATION
-+ ResourceLocation CROSS_ICON_LOCATION
-+ ResourceLocation DARKEN_LOCATION
-+ ResourceLocation EXPIRED_ICON_LOCATION
-+ ResourceLocation EXPIRES_SOON_ICON_LOCATION
-+ ResourceLocation INVITATION_ICONS_LOCATION
-+ ResourceLocation INVITE_ICON_LOCATION
-+ ResourceLocation LEAVE_ICON_LOCATION
-+ ResourceLocation LOGO_LOCATION
-+ ResourceLocation NEWS_LOCATION
-+ ResourceLocation OFF_ICON_LOCATION
-+ ResourceLocation ON_ICON_LOCATION
-+ ResourceLocation POPUP_LOCATION
-+ ResourceLocation QUESTIONMARK_LOCATION
-+ ResourceLocation TRIAL_ICON_LOCATION
-+ ResourceLocation WORLDICON_LOCATION
-+ Screen lastScreen
-+ Screen realmsGenericErrorScreen
-- RealmsButton backButton
-- RealmsButton buyARealmButton
-- RealmsButton closeButton
-- RealmsButton configureButton
-- RealmsButton createTrialButton
-- RealmsButton leaveButton
-- RealmsButton playButton
-- RealmsButton renewButton
-- RealmsDataFetcher realmsDataFetcher
-- RealmsMainScreen$NewsButton newsButton
-- RealmsMainScreen$PendingInvitesButton pendingInvitesButton
-- RealmsMainScreen$ShowPopupButton showPopupButton
-- RealmsScreen lastScreen
-- RealmsScreen realmsGenericErrorScreen
-+ boolean access$1602(boolean)
-+ boolean access$3100(RealmsMainScreen)
-+ boolean access$3102(RealmsMainScreen,boolean)
-+ boolean access$3500(RealmsServer)
-+ boolean access$4900()
-+ boolean access$602(boolean)
-+ boolean access$7000(RealmsMainScreen)
-+ boolean access$7002(RealmsMainScreen,boolean)
-+ boolean lambda$updateTeaserImages$12(String)
-+ boolean lambda$updateTeaserImages$13(ResourceLocation)
-+ Button access$2600(RealmsMainScreen)
-+ Font access$3900(RealmsMainScreen)
-+ Font access$4400(RealmsMainScreen)
-+ Font access$5200(RealmsMainScreen)
-+ Font access$5300(RealmsMainScreen)
-+ Font access$5400(RealmsMainScreen)
-+ Font access$5700(RealmsMainScreen)
-+ Font access$5800(RealmsMainScreen)
-+ Font access$5900(RealmsMainScreen)
-+ Font access$6000(RealmsMainScreen)
-+ Font access$6100(RealmsMainScreen)
-+ Font access$6200(RealmsMainScreen)
-+ Font access$6300(RealmsMainScreen)
-+ Font access$6400(RealmsMainScreen)
-+ Font access$6500(RealmsMainScreen)
-+ Font access$6600(RealmsMainScreen)
-+ int access$3000(RealmsMainScreen)
-+ int access$3002(RealmsMainScreen,int)
-+ int access$4300(RealmsMainScreen)
-+ int access$6700(RealmsMainScreen)
-+ int access$7400(RealmsMainScreen)
-+ int access$7500(RealmsMainScreen)
-+ List access$2300(RealmsMainScreen)
-+ Logger access$700()
-+ long access$2100(RealmsMainScreen)
-+ long access$2102(RealmsMainScreen,long)
-+ Minecraft access$1000(RealmsMainScreen)
-+ Minecraft access$1100(RealmsMainScreen)
-+ Minecraft access$1200(RealmsMainScreen)
-+ Minecraft access$1300(RealmsMainScreen)
-+ Minecraft access$1500(RealmsMainScreen)
-+ Minecraft access$1700(RealmsMainScreen)
-+ Minecraft access$1800(RealmsMainScreen)
-+ Minecraft access$1900(RealmsMainScreen)
-+ Minecraft access$2700(RealmsMainScreen)
-+ Minecraft access$2800(RealmsMainScreen)
-+ Minecraft access$300(RealmsMainScreen)
-+ Minecraft access$400(RealmsMainScreen)
-+ Minecraft access$4000(RealmsMainScreen)
-+ Minecraft access$4200(RealmsMainScreen)
-+ Minecraft access$5600(RealmsMainScreen)
-+ Minecraft access$7700(RealmsMainScreen)
-+ Minecraft access$800(RealmsMainScreen)
-+ Minecraft access$900(RealmsMainScreen)
-+ RealmsDataFetcher access$2000()
-+ RealmsMainScreen$RealmSelectionList access$2400(RealmsMainScreen)
-+ RealmsServer access$2200(RealmsMainScreen,long)
-+ ResourceLocation access$4100()
-+ ResourceLocation access$5500()
-+ ResourceLocation access$7600()
-+ Screen access$100()
-+ Screen access$102(Screen)
-+ Screen access$200(RealmsMainScreen)
-+ String access$3200(RealmsMainScreen)
-+ String access$3202(String)
-+ String access$7200(RealmsMainScreen)
-+ void <init>(Screen)
-+ void access$2500(RealmsServer)
-+ void access$3300(RealmsServer)
-+ void access$3400(RealmsServer)
-+ void access$3700(RealmsMainScreen)
-+ void access$4500(RealmsMainScreen,int,int,int,int)
-+ void access$4600(RealmsMainScreen,int,int,int,int)
-+ void access$4700(RealmsMainScreen,int,int,int,int,int)
-+ void access$4800(RealmsMainScreen,int,int,int,int)
-+ void access$500(RealmsMainScreen)
-+ void access$5000(RealmsMainScreen,int,int,int,int)
-+ void access$5100(RealmsMainScreen,int,int,int,int)
-+ void access$6800(RealmsMainScreen,int,int,int,int,boolean,boolean)
-+ void access$6900(Button)
-+ void access$7100(RealmsMainScreen,int,int,boolean,int,int,boolean,boolean)
-+ void access$7300(RealmsMainScreen,int,int,int,int,boolean)
-+ void access$7800(RealmsMainScreen)
-+ void lambda$addButtons$3(Button)
-+ void lambda$addButtons$4(Button)
-+ void lambda$addButtons$5(Button)
-+ void lambda$addButtons$6(Button)
-+ void lambda$addButtons$7(Button)
-+ void lambda$addButtons$8(Button)
-+ void lambda$addButtons$9(Button)
-+ void lambda$charTyped$11(KeyCombo)
-+ void lambda$pingRegions$10()
-+ void leaveServer(boolean)
-+ void pendingButtonPress(Button)
-+ void play(Screen)
-- boolean access$1102(boolean)
-- boolean access$1302(boolean)
-- boolean access$2100(RealmsMainScreen)
-- boolean access$2102(RealmsMainScreen,boolean)
-- boolean access$2300(RealmsServer)
-- boolean access$2400(RealmsMainScreen)
-- boolean access$2402(RealmsMainScreen,boolean)
-- boolean access$3000()
-- boolean access$400(RealmsMainScreen)
-- boolean lambda$updateTeaserImages$6(String)
-- boolean lambda$updateTeaserImages$7(ResourceLocation)
-- int access$2000(RealmsMainScreen)
-- int access$2002(RealmsMainScreen,int)
-- int access$2500(RealmsMainScreen)
-- int access$3300(RealmsMainScreen)
-- int access$3900(RealmsMainScreen)
-- int access$4000(RealmsMainScreen)
-- List access$1600(RealmsMainScreen)
-- Logger access$1200()
-- long access$000(RealmsMainScreen)
-- long access$002(RealmsMainScreen,long)
-- RealmsButton access$1900(RealmsMainScreen)
-- RealmsDataFetcher access$1500()
-- RealmsMainScreen$RealmSelectionList access$1700(RealmsMainScreen)
-- RealmsScreen access$500(RealmsMainScreen)
-- RealmsScreen access$900()
-- RealmsScreen access$902(RealmsScreen)
-- RealmsServer access$100(RealmsMainScreen,long)
-- String access$2200(RealmsMainScreen)
-- String access$2202(String)
-- String access$3500(RealmsMainScreen)
-- void <init>(RealmsScreen)
-- void access$1000(RealmsMainScreen)
-- void access$1800(RealmsServer)
-- void access$200(RealmsServer)
-- void access$2600(RealmsMainScreen,int,int,int,int)
-- void access$2700(RealmsMainScreen,int,int,int,int)
-- void access$2800(RealmsMainScreen,int,int,int,int,int)
-- void access$2900(RealmsMainScreen,int,int,int,int)
-- void access$300(RealmsMainScreen)
-- void access$3100(RealmsMainScreen,int,int,int,int)
-- void access$3200(RealmsMainScreen,int,int,int,int)
-- void access$3400(RealmsMainScreen,int,int,int,int,boolean,boolean)
-- void access$3700(RealmsMainScreen,int,int,boolean,int,int,boolean,boolean)
-- void access$3800(RealmsMainScreen,int,int,int,int,boolean)
-- void access$4100(RealmsMainScreen)
-- void access$600(RealmsMainScreen)
-- void access$700(RealmsServer)
-- void access$800(RealmsMainScreen)
-- void browseURL(String)
-- void confirmResult(boolean,int)
-- void connectToServer(RealmsScreen)
-- void createTrial()
-- void lambda$charTyped$5(KeyCombo)
-- void lambda$configureClicked$4(RealmsServer)
-- void lambda$pingRegions$3()
-- void onPlay()
-- void play(RealmsScreen)
-- void postInit()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$NewsButton</summary>
-
-```diff
-+ void lambda$new$0(Button)
-- void onPress()
-- void render(int,int,float)
-- void tick()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$RealmSelectionList</summary>
-
-```diff
-+ void setSelected(AbstractSelectionList$Entry)
-+ void setSelected(RealmsMainScreen$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.RealmsServerPlayerList</summary>
-
-```diff
-+ JsonParser JSON_PARSER
-- JsonParser jsonParser
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.dto.RealmsWorldOptions</summary>
-
-```diff
-+ String DEFAULT_TEMPLATE_IMAGE
-- boolean adventureMapDefault
-- boolean commandBlocksDefault
-- boolean forceGameModeDefault
-- boolean pvpDefault
-- boolean spawnAnimalsDefault
-- boolean spawnMonstersDefault
-- boolean spawnNPCsDefault
-- int difficultyDefault
-- int gameModeDefault
-- int spawnProtectionDefault
-- long templateIdDefault
-- String slotNameDefault
-- String templateImageDefault
-+ RealmsWorldOptions createDefaults()
-+ RealmsWorldOptions createEmptyDefaults()
-- RealmsWorldOptions getDefaults()
-- RealmsWorldOptions getEmptyDefaults()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.RealmsDataFetcher</summary>
-
-```diff
-+ Runnable liveStatsTask
-+ Runnable pendingInviteUpdateTask
-+ Runnable serverListUpdateTask
-+ Runnable trialAvailabilityTask
-+ Runnable unreadNewsTask
-- RealmsDataFetcher$LiveStatsTask liveStatsTask
-- RealmsDataFetcher$PendingInviteUpdateTask pendingInviteUpdateTask
-- RealmsDataFetcher$ServerListUpdateTask serverListUpdateTask
-- RealmsDataFetcher$TrialAvailabilityTask trialAvailabilityTask
-- RealmsDataFetcher$UnreadNewsTask unreadNewsTask
-+ boolean access$1002(RealmsDataFetcher,boolean)
-+ boolean access$1202(RealmsDataFetcher,boolean)
-+ int access$902(RealmsDataFetcher,int)
-+ Logger access$800()
-+ Map access$700(RealmsDataFetcher)
-+ RealmsServerPlayerLists access$1102(RealmsServerPlayerLists)
-+ String access$1302(String)
-+ void initWithSpecificTaskList()
-- boolean access$1102(RealmsDataFetcher,boolean)
-- boolean access$1302(RealmsDataFetcher,boolean)
-- int access$1002(RealmsDataFetcher,int)
-- Logger access$900()
-- Map access$800(RealmsDataFetcher)
-- RealmsServerPlayerLists access$1202(RealmsServerPlayerLists)
-- String access$1402(String)
-- void access$700(List)
-- void initWithSpecificTaskList(List)
-- void sort(List)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton</summary>
-
-```diff
-+ ResourceLocation DEFAULT_WORLD_SLOT_1
-+ ResourceLocation DEFAULT_WORLD_SLOT_2
-+ ResourceLocation DEFAULT_WORLD_SLOT_3
-+ ResourceLocation EMPTY_SLOT_LOCATION
-+ ResourceLocation SLOT_FRAME_LOCATION
-- RealmsWorldSlotButton$Listener listener
-+ RealmsWorldSlotButton$State getState()
-+ void <clinit>()
-+ void <init>(Button$OnPress)
-+ void handleNarration(String)
-- void <init>(RealmsWorldSlotButton$Listener)
-- void onPress()
-- void render(int,int,float)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen</summary>
-
-```diff
-+ Button changesButton
-+ Button downloadButton
-+ Button restoreButton
-+ ResourceLocation PLUS_ICON_LOCATION
-+ ResourceLocation RESTORE_ICON_LOCATION
-- RealmsButton changesButton
-- RealmsButton downloadButton
-- RealmsButton restoreButton
-+ Boolean access$402(Boolean)
-+ Font access$1100(RealmsBackupScreen)
-+ Font access$1200(RealmsBackupScreen)
-+ int access$802(int)
-+ List access$300(RealmsBackupScreen)
-+ List access$302(List)
-+ Logger access$200()
-+ Minecraft access$100(RealmsBackupScreen)
-+ Minecraft access$1400(RealmsBackupScreen)
-+ Minecraft access$1700(RealmsBackupScreen)
-+ RealmsBackupScreen$BackupObjectSelectionList access$500(RealmsBackupScreen)
-+ ResourceLocation access$1300()
-+ ResourceLocation access$1600()
-+ String access$1502(String)
-+ void access$1000(RealmsBackupScreen)
-+ void access$900(RealmsBackupScreen,int)
-+ void lambda$downloadClicked$5(boolean)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$2(Button)
-+ void lambda$init$3(Button)
-+ void lambda$restoreClicked$4(boolean)
-- Boolean access$302(Boolean)
-- int access$1002(int)
-- int access$700(RealmsBackupScreen)
-- List access$200(RealmsBackupScreen)
-- List access$202(List)
-- Logger access$100()
-- RealmsBackupScreen$BackupObjectSelectionList access$400(RealmsBackupScreen)
-- RealmsConfigureWorldScreen access$900(RealmsBackupScreen)
-- String access$1202(String)
-- void access$1100(RealmsBackupScreen)
-- void access$500(RealmsBackupScreen)
-- void access$800(RealmsBackupScreen,int)
-- void confirmResult(boolean,int)
-- void postInit()
-- void tick()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
-
-```diff
-+ void setSelected(AbstractSelectionList$Entry)
-+ void setSelected(RealmsBackupScreen$Entry)
-- int getItemCount()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBrokenWorldScreen</summary>
-
-```diff
-+ int leftX
-+ int rightX
-+ Screen lastScreen
-- int default_button_offset
-- int default_button_width
-- int left_x
-- int right_x
-- List downloadButtonIds
-- List downloadConfirmationIds
-- List playButtonIds
-- List resetButtonIds
-- RealmsScreen lastScreen
-+ void <init>(RealmsMainScreen,long)
-+ void doSwitchOrReset()
-+ void lambda$addButtons$2(Button)
-+ void lambda$addButtons$4(Button)
-+ void lambda$addButtons$6(Button)
-+ void lambda$doSwitchOrReset$10()
-+ void lambda$downloadWorld$11(int,boolean)
-+ void lambda$fetchServerData$7(long)
-+ void lambda$init$0(Button)
-+ void lambda$null$1()
-+ void lambda$null$3(int,boolean)
-+ void lambda$null$5()
-+ void lambda$null$8()
-+ void lambda$null$9()
-- List access$100()
-- List access$300()
-- RealmsServer access$200(RealmsBrokenWorldScreen)
-- void <init>(RealmsMainScreen,long)
-- void access$000(RealmsBrokenWorldScreen)
-- void access$400(RealmsBrokenWorldScreen,int)
-- void confirmResult(boolean,int)
-- void lambda$confirmResult$1()
-- void lambda$fetchServerData$0(long)
-- void switchSlot(int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsGenericErrorScreen</summary>
-
-```diff
-+ Screen nextScreen
-- RealmsScreen nextScreen
-+ void <init>(Screen)
-+ void <init>(Screen)
-+ void <init>(Screen)
-+ void lambda$init$0(Button)
-- RealmsScreen access$000(RealmsGenericErrorScreen)
-- void <init>(RealmsScreen)
-- void <init>(RealmsScreen)
-- void <init>(RealmsScreen)
-- void tick()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongRunningMcoTaskScreen</summary>
-
-```diff
-+ LongRunningTask task
-+ Screen lastScreen
-+ String[] SYMBOLS
-- int BUTTON_BACK_ID
-- int BUTTON_CANCEL_ID
-- LongRunningTask task
-- LongRunningTask taskThread
-- RealmsScreen lastScreen
-- String[] symbols
-+ void <init>(LongRunningTask)
-+ void buttonsClear()
-+ void lambda$error$1(Button)
-+ void lambda$init$0(Button)
-- void <init>(LongRunningTask)
-- void access$000(RealmsLongRunningMcoTaskScreen)
-- void start()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-+ Button opdeopButton
-+ Button removeButton
-+ int column1X
-+ int column2X
-+ int columnWidth
-+ ResourceLocation CROSS_ICON_LOCATION
-+ ResourceLocation OP_ICON_LOCATION
-+ ResourceLocation OPTIONS_BACKGROUND
-+ ResourceLocation USER_ICON_LOCATION
-- int column_width
-- int column1_x
-- int column2_x
-- RealmsButton opdeopButton
-- RealmsButton removeButton
-+ Font access$1200(RealmsPlayerScreen)
-+ Font access$1800(RealmsPlayerScreen)
-+ int access$000(RealmsPlayerScreen)
-+ int access$100(int)
-+ int access$1002(RealmsPlayerScreen,int)
-+ int access$1600(RealmsPlayerScreen)
-+ int access$1700(int)
-+ int access$200(int)
-+ int access$300(int)
-+ int access$400(RealmsPlayerScreen)
-+ RealmsServer access$500(RealmsPlayerScreen)
-+ String access$600(RealmsPlayerScreen)
-+ void access$1100(RealmsPlayerScreen)
-+ void access$1400(RealmsPlayerScreen,int,int,int,int)
-+ void access$1500(RealmsPlayerScreen,int,int,int,int)
-+ void access$700(RealmsPlayerScreen,int)
-+ void access$800(RealmsPlayerScreen,int)
-+ void access$900(RealmsPlayerScreen,int)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$2(Button)
-+ void lambda$init$3(Button)
-+ void lambda$uninvite$4(boolean)
-- int access$1400(RealmsPlayerScreen)
-- int access$200(RealmsPlayerScreen)
-- int access$202(RealmsPlayerScreen,int)
-- int access$700(RealmsPlayerScreen)
-- int access$800(RealmsPlayerScreen)
-- RealmsConfigureWorldScreen access$000(RealmsPlayerScreen)
-- RealmsServer access$100(RealmsPlayerScreen)
-- String access$900(RealmsPlayerScreen)
-- void access$1000(RealmsPlayerScreen)
-- void access$1100(RealmsPlayerScreen,int,int,int,int)
-- void access$1200(RealmsPlayerScreen,int,int,int,int)
-- void access$300(RealmsPlayerScreen,int)
-- void access$400(RealmsPlayerScreen,int)
-- void access$500(RealmsPlayerScreen,int)
-- void access$600(RealmsPlayerScreen)
-- void confirmResult(boolean,int)
-- void tick()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
-
-```diff
-+ ResourceLocation ADVENTURE_MAP_LOCATION
-+ ResourceLocation EXPERIENCE_LOCATION
-+ ResourceLocation INSPIRATION_LOCATION
-+ ResourceLocation NEW_WORLD_LOCATION
-+ ResourceLocation SLOT_FRAME_LOCATION
-+ ResourceLocation SURVIVAL_SPAWN_LOCATION
-+ ResourceLocation UPLOAD_LOCATION
-+ Runnable callback
-+ Runnable resetWorldRunnable
-+ Screen lastScreen
-- int BUTTON_CANCEL_ID
-- int BUTTON_FRAME_START
-- int confirmationId
-- RealmsScreen lastScreen
-- RealmsScreen returnScreen
-+ Minecraft access$000(RealmsResetWorldScreen)
-+ void <init>(Runnable)
-+ void <init>(Runnable)
-+ void access$900(ResourceLocation,boolean,boolean)
-+ void drawFrame(ResourceLocation,boolean,boolean)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$2(Button)
-+ void lambda$init$3(Button)
-+ void lambda$init$4(Button)
-+ void lambda$init$5(Button)
-+ void lambda$init$6(Button)
-+ void lambda$switchSlot$7()
-+ void resetWorld(WorldTemplate,int,boolean)
-+ void switchSlot(Runnable)
-- boolean mouseClicked(double,double,int)
-- RealmsScreen access$000(RealmsResetWorldScreen)
-- RealmsServer access$700(RealmsResetWorldScreen)
-- String access$600(RealmsResetWorldScreen)
-- void <init>(RealmsScreen)
-- void <init>(String)
-- void access$800(RealmsResetWorldScreen$ResetType,boolean,boolean)
-- void callback(Object)
-- void confirmResult(boolean,int)
-- void drawFrame(RealmsResetWorldScreen$ResetType,boolean,boolean)
-- void setConfirmationId(int)
-- void switchSlot(RealmsScreen)
-- WorldTemplatePaginatedList access$200(RealmsResetWorldScreen)
-- WorldTemplatePaginatedList access$300(RealmsResetWorldScreen)
-- WorldTemplatePaginatedList access$400(RealmsResetWorldScreen)
-- WorldTemplatePaginatedList access$500(RealmsResetWorldScreen)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen$2</summary>
-
-```diff
-+ int[] $SwitchMap$com$mojang$realmsclient$dto$WorldTemplate$WorldTemplateType
-+ int[] $SwitchMap$com$mojang$realmsclient$gui$screens$RealmsResetWorldScreen$ResetType
-- RealmsResetWorldScreen this$0
-+ void <clinit>()
-- void <init>(String)
-- void lambda$run$0(WorldTemplatePaginatedList)
-- void run()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsScreenWithCallback</summary>
-
-```diff
-+ void callback(com.mojang.realmsclient.dto.WorldTemplate)
-- void callback(java.lang.Object)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
-
-```diff
-+ Button publisherButton
-+ Button selectButton
-+ Button trailerButton
-+ ResourceLocation LINK_ICON
-+ ResourceLocation SLOT_FRAME_LOCATION
-+ ResourceLocation TRAILER_ICON
-- RealmsButton publisherButton
-- RealmsButton selectButton
-- RealmsButton trailerButton
-+ boolean access$500(RealmsSelectWorldTemplateScreen)
-+ boolean hasValidTemplate()
-+ Either access$000(RealmsClient)
-+ Font access$1300(RealmsSelectWorldTemplateScreen)
-+ Font access$1400(RealmsSelectWorldTemplateScreen)
-+ Font access$1500(RealmsSelectWorldTemplateScreen)
-+ Font access$1600(RealmsSelectWorldTemplateScreen)
-+ Font access$1900(RealmsSelectWorldTemplateScreen)
-+ Font access$2000(RealmsSelectWorldTemplateScreen)
-+ int access$600(int)
-+ int access$800(RealmsSelectWorldTemplateScreen)
-+ int access$802(RealmsSelectWorldTemplateScreen,int)
-+ int lambda$renderMultilineMessage$4(TextRenderingUtils$LineSegment)
-+ List access$402(List)
-+ Logger access$200()
-+ Minecraft access$100(RealmsSelectWorldTemplateScreen)
-+ Minecraft access$1800(RealmsSelectWorldTemplateScreen)
-+ Minecraft access$2200(RealmsSelectWorldTemplateScreen)
-+ Minecraft access$2400(RealmsSelectWorldTemplateScreen)
-+ RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$300(RealmsSelectWorldTemplateScreen)
-+ ResourceLocation access$1700()
-+ ResourceLocation access$2100()
-+ ResourceLocation access$2300()
-+ String access$2502(String)
-+ String access$700(RealmsSelectWorldTemplateScreen)
-+ String access$702(String)
-+ void access$900(RealmsSelectWorldTemplateScreen)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$2(Button)
-+ void lambda$init$3(Button)
-- boolean access$800(RealmsSelectWorldTemplateScreen)
-- Either access$400(RealmsClient)
-- int access$1200(RealmsSelectWorldTemplateScreen)
-- int access$1202(RealmsSelectWorldTemplateScreen,int)
-- int lambda$renderMultilineMessage$0(TextRenderingUtils$LineSegment)
-- List access$702(List)
-- Logger access$500()
-- RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$600(RealmsSelectWorldTemplateScreen)
-- String access$1302(String)
-- String access$900(RealmsSelectWorldTemplateScreen)
-- String access$902(String)
-- void access$000(RealmsSelectWorldTemplateScreen)
-- void access$100(RealmsSelectWorldTemplateScreen)
-- void access$200(RealmsSelectWorldTemplateScreen)
-- void access$300(RealmsSelectWorldTemplateScreen)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSettingsScreen</summary>
-
-```diff
-+ Button doneButton
-+ EditBox descEdit
-+ EditBox nameEdit
-- int COMPONENT_WIDTH
-- RealmsButton doneButton
-- RealmsEditBox descEdit
-- RealmsEditBox nameEdit
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$3(Button)
-+ void lambda$null$2(boolean)
-- RealmsConfigureWorldScreen access$000(RealmsSettingsScreen)
-- RealmsServer access$100(RealmsSettingsScreen)
-- void confirmResult(boolean,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
-
-```diff
-+ Button backButton
-+ Button cancelButton
-+ int tickCount
-+ LevelSummary selectedLevel
-+ ReentrantLock UPLOAD_LOCK
-+ Runnable callback
-- int animTick
-- int dotIndex
-- RealmsButton backButton
-- RealmsButton cancelButton
-- RealmsLevelSummary selectedLevel
-- ReentrantLock uploadLock
-+ void <init>(Runnable)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(Button)
-+ void lambda$init$2()
-+ void lambda$null$3(UploadResult)
-+ void lambda$upload$4()
-- double convertToUnit(RealmsUploadScreen$Unit)
-- RealmsUploadScreen$Unit getLargestUnit(long)
-- String humanReadableByteCount(long)
-- String humanReadableSize(RealmsUploadScreen$Unit)
-- void <init>(RealmsLevelSummary)
-- void access$000(RealmsUploadScreen)
-- void access$100(RealmsUploadScreen)
-- void confirmResult(boolean,int)
-- void lambda$null$0(UploadResult)
-- void lambda$upload$1()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
-
-```diff
-+ MinecraftSessionService SESSION_SERVICE
-+ YggdrasilAuthenticationService AUTHENTICATION_SERVICE
-- MinecraftSessionService sessionService
-- YggdrasilAuthenticationService authenticationService
-+ String convertToAgePresentation(long)
-+ String convertToAgePresentationFromInstant(Date)
-- String convertToAgePresentation(Long)
-- void browseTo(String)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.util.UploadTokenCache</summary>
-
-```diff
-+ Long2ObjectMap TOKEN_CACHE
-- Map tokenCache
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.AbstractSelectionList</summary>
-
-```diff
-- int DRAG_OUTSIDE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSliderButton</summary>
-
-```diff
-- Options options
-+ void <init>(String,double)
-- void <init>(int,int,int,int,double)
-- void <init>(Options,int,int,int,int,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.HumanoidModel</summary>
-
-```diff
-- float itemUseTicks
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-- int delayUntilNextMoodSound
-- void playMoodSounds()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.AbstractZombieRenderer</summary>
-
-```diff
-+ boolean isShaking(LivingEntity)
-+ boolean isShaking(Zombie)
-- void setupRotations(PoseStack,float,float,float)
-- void setupRotations(PoseStack,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
-
-```diff
-+ boolean isShaking(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.PiglinRenderer</summary>
-
-```diff
-+ boolean isShaking(LivingEntity)
-+ boolean isShaking(Mob)
-- void setupRotations(PoseStack,float,float,float)
-- void setupRotations(PoseStack,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ZombieVillagerRenderer</summary>
-
-```diff
-+ boolean isShaking(LivingEntity)
-+ boolean isShaking(ZombieVillager)
-- void setupRotations(PoseStack,float,float,float)
-- void setupRotations(PoseStack,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
-
-```diff
-+ boolean addProgrammerArtPack(Supplier)
-+ CompletionStage lambda$downloadAndSelectResourcePack$2(Object)
-+ FolderResourcePack createProgrammerArtDirPack(File)
-+ Pack createProgrammerArtZipPack(File)
-+ Pack lambda$addProgrammerArtPack$5(File)
-+ Pack lambda$addProgrammerArtPack$6(File)
-+ Pack lambda$setServerPack$4(File)
-+ void addProgrammerArtPack(UnopenedPack$UnopenedPackConstructor)
-+ void lambda$downloadAndSelectResourcePack$1(ProgressScreen)
-+ void lambda$downloadAndSelectResourcePack$3(Throwable)
-- CompletionStage lambda$downloadAndSelectResourcePack$3(Object)
-- Pack lambda$loadPacks$1(File)
-- Pack lambda$setServerPack$5(File)
-- void lambda$downloadAndSelectResourcePack$2(ProgressScreen)
-- void lambda$downloadAndSelectResourcePack$4(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
-
-```diff
-+ boolean hasUUIDArray(String)
-+ UUID getUUIDFromArray(String)
-+ void putUUIDAsArray(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtUtils</summary>
-
-```diff
-+ IntArrayTag createUUIDArray(UUID)
-+ UUID loadUUIDArray(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
-
-```diff
-+ Minecraft val$minecraft
-+ void <init>(Minecraft)
-+ void lambda$run$1(DisconnectedRealmsScreen)
-+ void lambda$run$2(DisconnectedRealmsScreen)
-- void <init>(String,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.realms.RealmsObjectSelectionList</summary>
-
-```diff
-- boolean isFocused()
-- RealmsObjectSelectionListProxy proxy
-+ int addEntry(AbstractSelectionList$Entry)
-+ int addEntry(ObjectSelectionList$Entry)
-+ void setSelectedItem(int)
-- boolean removeEntry(RealmListEntry)
-- GuiEventListener getProxy()
-- int getScroll()
-- int headerHeight()
-- int itemHeight()
-- int width()
-- int y0()
-- int y1()
-- List children()
-- RealmListEntry getSelected()
-- void addEntry(RealmListEntry)
-- void remove(int)
-- void render(int,int,float)
-- void renderBackground()
-- void renderItem(int,int,int,int,int,int)
-- void renderItem(Tezzelator,int,int)
-- void scroll(int)
-- void setLeftPos(int)
-- void setSelected(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
-
-```diff
-+ void lambda$tickChunks$5(ChunkHolder)
-- void lambda$tickChunks$5(ChunkHolder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.StoredUserList</summary>
-
-```diff
-+ JsonObject lambda$save$0(StoredUserEntry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.Stats</summary>
-
-```diff
-+ ResourceLocation INTERACT_WITH_SMITHING_TABLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
-
-```diff
-+ int cooldownBetweenAttacks
-- int cooldown
-- int remainingCooldown
-+ boolean lambda$checkExtraStartConditions$0(Item)
-- boolean canStillUse(LivingEntity,long)
-- boolean canStillUse(Mob,long)
-- boolean isHoldingProjectileWeapon(Mob)
-- boolean lambda$isHoldingProjectileWeapon$0(Item)
-- LivingEntity getAttackTarget(LivingEntity)
-- void meleeAttack(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-- UUID ownerUUID
-+ void onHitBlock(BlockHitResult)
-- Entity getOwner()
-- void onHit(HitResult)
-- void shootFromRotation(Entity,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
-
-```diff
-- int life
-- LivingEntity owner
-- void onHit(HitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
-
-```diff
-+ void <init>(Entity,double,double,double,boolean)
-+ void <init>(ItemStack)
-+ void onHitBlock(BlockHitResult)
-+ void onHitEntity(EntityHitResult)
-- void lerpMotion(double,double,double)
-- void performHitChecks(HitResult)
-- void shoot(double,double,double,float,float)
-- void shootFromRotation(Entity,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.LargeFireball</summary>
-
-```diff
-+ void onHitEntity(EntityHitResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
-
-```diff
-+ UUID ownerUUID
-- void shoot(double,double,double,float,float)
-- void shootFromRotation(net.minecraft.world.entity.Entity,float,float,float,float,float)
-+ Entity getOwner()
-+ void <init>(Level)
-+ void addAdditionalSaveData(CompoundTag)
-+ void lerpMotion(double,double,double)
-+ void onHit(HitResult)
-+ void onHitBlock(BlockHitResult)
-+ void onHitEntity(EntityHitResult)
-+ void readAdditionalSaveData(CompoundTag)
-+ void setOwner(Entity)
-+ void shoot(double,double,double,float,float)
-+ void shootFromRotation(Entity,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.Snowball</summary>
-
-```diff
-+ void onHitEntity(EntityHitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownEgg</summary>
-
-```diff
-+ void onHitEntity(EntityHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
-
-```diff
-- Container repairSlots
-- Container resultSlots
-- ContainerLevelAccess access
-- Player player
-+ boolean isValidBlock(BlockState)
-+ boolean mayPickup(Player,boolean)
-+ ItemStack onTake(ItemStack)
-+ void lambda$onTake$0(BlockPos)
-- Boolean lambda$stillValid$1(BlockPos)
-- boolean stillValid(Player)
-- Container access$100(AnvilMenu)
-- DataSlot access$000(AnvilMenu)
-- int access$200(AnvilMenu)
-- ItemStack quickMoveStack(Player,int)
-- void lambda$removed$0(BlockPos)
-- void removed(Player)
-- void slotsChanged(Container)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoeItem</summary>
-
-```diff
-+ Set DIGGABLES
-- float attackSpeed
-+ void <init>(Item$Properties)
-+ void lambda$useOn$0(Player)
-- boolean hurtEnemy(LivingEntity)
-- boolean mineBlock(LivingEntity)
-- float getDestroySpeed(BlockState)
-- Multimap getDefaultAttributeModifiers(EquipmentSlot)
-- void <init>(Item$Properties)
-- void lambda$hurtEnemy$2(LivingEntity)
-- void lambda$mineBlock$0(LivingEntity)
-- void lambda$useOn$1(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.EntityGetter</summary>
-
-```diff
-- Player getNearestPlayerIgnoreY(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-- boolean extinguishFire(Direction)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
-
-```diff
-+ boolean isRightDistanceToPlayerAndSpawnPoint(BlockPos$MutableBlockPos,double)
-+ boolean isValidPositionForMob(Mob,double)
-+ boolean isValidSpawnPostitionForType(BlockPos$MutableBlockPos,double)
-+ Mob getMobForSpawn(EntityType)
-+ void spawnCategoryForChunk(LevelChunk)
-+ void spawnCategoryForPosition(BlockPos)
-+ void spawnCategoryForPosition(BlockPos)
-- void spawnCategoryForChunk(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
-
-```diff
-+ Biome getNoiseBiomeAtPosition(double,double,double)
-+ Biome getNoiseBiomeAtQuart(int,int,int)
-- Biome getNoiseBiome(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ void onProjectileHit(Projectile)
-- void onProjectileHit(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
-
-```diff
-+ void onProjectileHit(Projectile)
-- void onProjectileHit(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FireBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-+ VoxelShape getShape(CollisionContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.client.FileDownload
@@ -5679,360 +3111,736 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
+<details><summary>com.mojang.blaze3d.vertex.VertexFormatElement</summary>
 
 ```diff
-+ boolean lambda$trigger$0(TargetBlockTrigger$TriggerInstance)
-+ void trigger(Vec3,int)
-- boolean lambda$trigger$0(TargetBlockTrigger$TriggerInstance)
-- void trigger(ServerPlayer,int)
+- boolean isPosition()
+- int getCount()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-+ BlockPos$MutableBlockPos mutable()
-- void <init>(Entity)
+- boolean access$1102(boolean)
+- boolean access$1302(boolean)
++ boolean access$1602(boolean)
+- boolean access$2100(RealmsMainScreen)
+- boolean access$2102(RealmsMainScreen,boolean)
+- boolean access$2300(RealmsMainScreen,RealmsServer)
+- boolean access$2400(RealmsMainScreen)
+- boolean access$2402(RealmsMainScreen,boolean)
+- boolean access$3000()
++ boolean access$3100(RealmsMainScreen)
++ boolean access$3102(RealmsMainScreen,boolean)
++ boolean access$3500(RealmsMainScreen,RealmsServer)
+- boolean access$400(RealmsMainScreen)
++ boolean access$4900()
++ boolean access$602(boolean)
++ boolean access$7000(RealmsMainScreen)
++ boolean access$7002(RealmsMainScreen,boolean)
++ boolean lambda$updateTeaserImages$12(String)
++ boolean lambda$updateTeaserImages$13(ResourceLocation)
+- boolean lambda$updateTeaserImages$6(String)
+- boolean lambda$updateTeaserImages$7(ResourceLocation)
++ Button access$2600(RealmsMainScreen)
++ Font access$3900(RealmsMainScreen)
++ Font access$4400(RealmsMainScreen)
++ Font access$5200(RealmsMainScreen)
++ Font access$5300(RealmsMainScreen)
++ Font access$5400(RealmsMainScreen)
++ Font access$5700(RealmsMainScreen)
++ Font access$5800(RealmsMainScreen)
++ Font access$5900(RealmsMainScreen)
++ Font access$6000(RealmsMainScreen)
++ Font access$6100(RealmsMainScreen)
++ Font access$6200(RealmsMainScreen)
++ Font access$6300(RealmsMainScreen)
++ Font access$6400(RealmsMainScreen)
++ Font access$6500(RealmsMainScreen)
++ Font access$6600(RealmsMainScreen)
+- int access$2000(RealmsMainScreen)
+- int access$2002(RealmsMainScreen,int)
+- int access$2500(RealmsMainScreen)
++ int access$3000(RealmsMainScreen)
++ int access$3002(RealmsMainScreen,int)
+- int access$3300(RealmsMainScreen)
+- int access$3900(RealmsMainScreen)
+- int access$4000(RealmsMainScreen)
++ int access$4300(RealmsMainScreen)
++ int access$6700(RealmsMainScreen)
++ int access$7400(RealmsMainScreen)
++ int access$7500(RealmsMainScreen)
+- List access$1600(RealmsMainScreen)
++ List access$2300(RealmsMainScreen)
+- Logger access$1200()
++ Logger access$700()
+- long access$000(RealmsMainScreen)
+- long access$002(RealmsMainScreen,long)
++ long access$2100(RealmsMainScreen)
++ long access$2102(RealmsMainScreen,long)
++ Minecraft access$1000(RealmsMainScreen)
++ Minecraft access$1100(RealmsMainScreen)
++ Minecraft access$1200(RealmsMainScreen)
++ Minecraft access$1300(RealmsMainScreen)
++ Minecraft access$1500(RealmsMainScreen)
++ Minecraft access$1700(RealmsMainScreen)
++ Minecraft access$1800(RealmsMainScreen)
++ Minecraft access$1900(RealmsMainScreen)
++ Minecraft access$2700(RealmsMainScreen)
++ Minecraft access$2800(RealmsMainScreen)
++ Minecraft access$300(RealmsMainScreen)
++ Minecraft access$400(RealmsMainScreen)
++ Minecraft access$4000(RealmsMainScreen)
++ Minecraft access$4200(RealmsMainScreen)
++ Minecraft access$5600(RealmsMainScreen)
++ Minecraft access$7700(RealmsMainScreen)
++ Minecraft access$800(RealmsMainScreen)
++ Minecraft access$900(RealmsMainScreen)
+- RealmsButton access$1900(RealmsMainScreen)
+- RealmsDataFetcher access$1500()
++ RealmsDataFetcher access$2000()
+- RealmsMainScreen$RealmSelectionList access$1700(RealmsMainScreen)
++ RealmsMainScreen$RealmSelectionList access$2400(RealmsMainScreen)
+- RealmsScreen access$500(RealmsMainScreen)
+- RealmsScreen access$900()
+- RealmsScreen access$902(RealmsScreen)
+- RealmsServer access$100(RealmsMainScreen,long)
++ RealmsServer access$2200(RealmsMainScreen,long)
++ ResourceLocation access$4100()
++ ResourceLocation access$5500()
++ ResourceLocation access$7600()
++ Screen access$100()
++ Screen access$102(Screen)
++ Screen access$200(RealmsMainScreen)
+- String access$2200(RealmsMainScreen)
+- String access$2202(RealmsMainScreen,String)
++ String access$3200(RealmsMainScreen)
++ String access$3202(RealmsMainScreen,String)
+- String access$3500(RealmsMainScreen)
++ String access$7200(RealmsMainScreen)
+- void <init>(RealmsScreen)
++ void <init>(Screen)
+- void access$1000(RealmsMainScreen)
+- void access$1800(RealmsMainScreen,RealmsServer)
+- void access$200(RealmsMainScreen,RealmsServer)
++ void access$2500(RealmsMainScreen,RealmsServer)
+- void access$2600(RealmsMainScreen,int,int,int,int)
+- void access$2700(RealmsMainScreen,int,int,int,int)
+- void access$2800(RealmsMainScreen,int,int,int,int,int)
+- void access$2900(RealmsMainScreen,int,int,int,int)
+- void access$300(RealmsMainScreen)
+- void access$3100(RealmsMainScreen,int,int,int,int)
+- void access$3200(RealmsMainScreen,int,int,int,int)
++ void access$3300(RealmsMainScreen,RealmsServer)
+- void access$3400(RealmsMainScreen,int,int,int,int,boolean,boolean)
++ void access$3400(RealmsMainScreen,RealmsServer)
+- void access$3700(RealmsMainScreen,int,int,boolean,int,int,boolean,boolean)
++ void access$3700(RealmsMainScreen)
+- void access$3800(RealmsMainScreen,int,int,int,int,boolean)
+- void access$4100(RealmsMainScreen)
++ void access$4500(RealmsMainScreen,int,int,int,int)
++ void access$4600(RealmsMainScreen,int,int,int,int)
++ void access$4700(RealmsMainScreen,int,int,int,int,int)
++ void access$4800(RealmsMainScreen,int,int,int,int)
++ void access$500(RealmsMainScreen)
++ void access$5000(RealmsMainScreen,int,int,int,int)
++ void access$5100(RealmsMainScreen,int,int,int,int)
+- void access$600(RealmsMainScreen)
++ void access$6800(RealmsMainScreen,int,int,int,int,boolean,boolean)
++ void access$6900(RealmsMainScreen,Button)
+- void access$700(RealmsMainScreen,RealmsServer)
++ void access$7100(RealmsMainScreen,int,int,boolean,int,int,boolean,boolean)
++ void access$7300(RealmsMainScreen,int,int,int,int,boolean)
++ void access$7800(RealmsMainScreen)
+- void access$800(RealmsMainScreen)
+- void browseURL(String)
+- void confirmResult(boolean,int)
+- void connectToServer(RealmsServer,RealmsScreen)
+- void createTrial()
++ void lambda$addButtons$3(Button)
++ void lambda$addButtons$4(Button)
++ void lambda$addButtons$5(Button)
++ void lambda$addButtons$6(Button)
++ void lambda$addButtons$7(Button)
++ void lambda$addButtons$8(Button)
++ void lambda$addButtons$9(Button)
++ void lambda$charTyped$11(char,KeyCombo)
+- void lambda$charTyped$5(char,KeyCombo)
+- void lambda$configureClicked$4(Minecraft,RealmsServer)
++ void lambda$pingRegions$10()
+- void lambda$pingRegions$3()
++ void leaveServer(boolean)
+- void onPlay()
++ void pendingButtonPress(Button)
+- void play(RealmsServer,RealmsScreen)
++ void play(RealmsServer,Screen)
+- void postInit()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$NewsButton</summary>
 
 ```diff
-- int x
-- int y
-- int z
-+ BlockPos$MutableBlockPos setWithOffset(Direction)
-+ BlockPos$MutableBlockPos setWithOffset(Vec3i,int,int,int)
-+ BlockPos$MutableBlockPos setWithOffset(Vec3i)
-- BlockPos$MutableBlockPos set(Entity)
-- int getX()
-- int getY()
-- int getZ()
-- void <init>(BlockPos)
-- void <init>(Entity)
++ void lambda$new$0(RealmsMainScreen,Button)
+- void onPress()
+- void render(int,int,float)
+- void tick()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.core.Vec3i</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$RealmSelectionList</summary>
 
 ```diff
-+ void setX(int)
-+ void setY(int)
-+ void setZ(int)
++ void setSelected(AbstractSelectionList$Entry)
++ void setSelected(RealmsMainScreen$Entry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details><summary>com.mojang.realmsclient.dto.RealmsWorldOptions</summary>
+
+```diff
++ RealmsWorldOptions createDefaults()
++ RealmsWorldOptions createEmptyDefaults()
+- RealmsWorldOptions getDefaults()
+- RealmsWorldOptions getEmptyDefaults()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.RealmsDataFetcher</summary>
+
+```diff
++ boolean access$1002(RealmsDataFetcher,boolean)
+- boolean access$1102(RealmsDataFetcher,boolean)
++ boolean access$1202(RealmsDataFetcher,boolean)
+- boolean access$1302(RealmsDataFetcher,boolean)
+- int access$1002(RealmsDataFetcher,int)
++ int access$902(RealmsDataFetcher,int)
++ Logger access$800()
+- Logger access$900()
++ Map access$700(RealmsDataFetcher)
+- Map access$800(RealmsDataFetcher)
++ RealmsServerPlayerLists access$1102(RealmsDataFetcher,RealmsServerPlayerLists)
+- RealmsServerPlayerLists access$1202(RealmsDataFetcher,RealmsServerPlayerLists)
++ String access$1302(RealmsDataFetcher,String)
+- String access$1402(RealmsDataFetcher,String)
+- void access$700(RealmsDataFetcher,List)
++ void initWithSpecificTaskList()
+- void initWithSpecificTaskList(List)
+- void sort(List)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.RealmsWorldSlotButton</summary>
+
+```diff
++ RealmsWorldSlotButton$State getState()
++ void <clinit>()
++ void <init>(int,int,int,int,Supplier,Consumer,int,Button$OnPress)
+- void <init>(int,int,int,int,Supplier,Consumer,int,int,RealmsWorldSlotButton$Listener)
++ void handleNarration(RealmsServer,String,boolean,boolean,RealmsWorldSlotButton$Action,String)
+- void onPress()
+- void render(int,int,float)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen</summary>
+
+```diff
+- Boolean access$302(RealmsBackupScreen,Boolean)
++ Boolean access$402(RealmsBackupScreen,Boolean)
++ Font access$1100(RealmsBackupScreen)
++ Font access$1200(RealmsBackupScreen)
+- int access$1002(int)
+- int access$700(RealmsBackupScreen)
++ int access$802(int)
+- List access$200(RealmsBackupScreen)
+- List access$202(RealmsBackupScreen,List)
++ List access$300(RealmsBackupScreen)
++ List access$302(RealmsBackupScreen,List)
+- Logger access$100()
++ Logger access$200()
++ Minecraft access$100(RealmsBackupScreen)
++ Minecraft access$1400(RealmsBackupScreen)
++ Minecraft access$1700(RealmsBackupScreen)
+- RealmsBackupScreen$BackupObjectSelectionList access$400(RealmsBackupScreen)
++ RealmsBackupScreen$BackupObjectSelectionList access$500(RealmsBackupScreen)
+- RealmsConfigureWorldScreen access$900(RealmsBackupScreen)
++ ResourceLocation access$1300()
++ ResourceLocation access$1600()
+- String access$1202(RealmsBackupScreen,String)
++ String access$1502(RealmsBackupScreen,String)
++ void access$1000(RealmsBackupScreen)
+- void access$1100(RealmsBackupScreen)
+- void access$500(RealmsBackupScreen)
+- void access$800(RealmsBackupScreen,int)
++ void access$900(RealmsBackupScreen,int)
+- void confirmResult(boolean,int)
++ void lambda$downloadClicked$5(boolean)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$2(Button)
++ void lambda$init$3(Button)
++ void lambda$restoreClicked$4(boolean)
+- void postInit()
+- void tick()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
+
+```diff
+- int getItemCount()
++ void setSelected(AbstractSelectionList$Entry)
++ void setSelected(RealmsBackupScreen$Entry)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBrokenWorldScreen</summary>
+
+```diff
+- List access$100()
+- List access$300()
+- RealmsServer access$200(RealmsBrokenWorldScreen)
+- void <init>(RealmsScreen,RealmsMainScreen,long)
++ void <init>(Screen,RealmsMainScreen,long)
+- void access$000(RealmsBrokenWorldScreen)
+- void access$400(RealmsBrokenWorldScreen,int)
+- void confirmResult(boolean,int)
++ void doSwitchOrReset()
++ void lambda$addButtons$2(int,Button)
++ void lambda$addButtons$4(int,Button)
++ void lambda$addButtons$6(int,Button)
+- void lambda$confirmResult$1()
++ void lambda$doSwitchOrReset$10()
++ void lambda$downloadWorld$11(int,boolean)
+- void lambda$fetchServerData$0(long)
++ void lambda$fetchServerData$7(long)
++ void lambda$init$0(Button)
++ void lambda$null$1()
++ void lambda$null$3(int,boolean)
++ void lambda$null$5()
++ void lambda$null$8()
++ void lambda$null$9()
+- void switchSlot(int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsGenericErrorScreen</summary>
+
+```diff
+- RealmsScreen access$000(RealmsGenericErrorScreen)
+- void <init>(RealmsServiceException,RealmsScreen)
++ void <init>(RealmsServiceException,Screen)
+- void <init>(String,RealmsScreen)
++ void <init>(String,Screen)
+- void <init>(String,String,RealmsScreen)
++ void <init>(String,String,Screen)
++ void lambda$init$0(Button)
+- void tick()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongRunningMcoTaskScreen</summary>
+
+```diff
+- void <init>(RealmsScreen,LongRunningTask)
++ void <init>(Screen,LongRunningTask)
+- void access$000(RealmsLongRunningMcoTaskScreen)
++ void buttonsClear()
++ void lambda$error$1(Button)
++ void lambda$init$0(Button)
+- void start()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
+
+```diff
++ Font access$1200(RealmsPlayerScreen)
++ Font access$1800(RealmsPlayerScreen)
++ int access$000(RealmsPlayerScreen)
++ int access$100(int)
++ int access$1002(RealmsPlayerScreen,int)
+- int access$1400(RealmsPlayerScreen)
++ int access$1600(RealmsPlayerScreen)
++ int access$1700(int)
++ int access$200(int)
+- int access$200(RealmsPlayerScreen)
+- int access$202(RealmsPlayerScreen,int)
++ int access$300(int)
++ int access$400(RealmsPlayerScreen)
+- int access$700(RealmsPlayerScreen)
+- int access$800(RealmsPlayerScreen)
+- RealmsConfigureWorldScreen access$000(RealmsPlayerScreen)
+- RealmsServer access$100(RealmsPlayerScreen)
++ RealmsServer access$500(RealmsPlayerScreen)
++ String access$600(RealmsPlayerScreen)
+- String access$900(RealmsPlayerScreen)
+- void access$1000(RealmsPlayerScreen)
+- void access$1100(RealmsPlayerScreen,int,int,int,int)
++ void access$1100(RealmsPlayerScreen)
+- void access$1200(RealmsPlayerScreen,int,int,int,int)
++ void access$1400(RealmsPlayerScreen,int,int,int,int)
++ void access$1500(RealmsPlayerScreen,int,int,int,int)
+- void access$300(RealmsPlayerScreen,int)
+- void access$400(RealmsPlayerScreen,int)
+- void access$500(RealmsPlayerScreen,int)
+- void access$600(RealmsPlayerScreen)
++ void access$700(RealmsPlayerScreen,int)
++ void access$800(RealmsPlayerScreen,int)
++ void access$900(RealmsPlayerScreen,int)
+- void confirmResult(boolean,int)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$2(Button)
++ void lambda$init$3(Button)
++ void lambda$uninvite$4(boolean)
+- void tick()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
+
+```diff
+- boolean mouseClicked(double,double,int)
++ Minecraft access$000(RealmsResetWorldScreen)
+- RealmsScreen access$000(RealmsResetWorldScreen)
+- RealmsServer access$700(RealmsResetWorldScreen)
+- String access$600(RealmsResetWorldScreen)
+- void <init>(RealmsScreen,RealmsServer,RealmsScreen,String,String,int,String)
+- void <init>(RealmsScreen,RealmsServer,RealmsScreen)
++ void <init>(Screen,RealmsServer,Runnable,Runnable)
++ void <init>(Screen,RealmsServer,String,String,int,String,Runnable,Runnable)
+- void access$800(RealmsResetWorldScreen,int,int,String,long,String,RealmsResetWorldScreen$ResetType,boolean,boolean)
++ void access$900(RealmsResetWorldScreen,int,int,String,ResourceLocation,boolean,boolean)
+- void callback(Object)
+- void confirmResult(boolean,int)
+- void drawFrame(int,int,String,long,String,RealmsResetWorldScreen$ResetType,boolean,boolean)
++ void drawFrame(int,int,String,ResourceLocation,boolean,boolean)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$2(Button)
++ void lambda$init$3(Button)
++ void lambda$init$4(Button)
++ void lambda$init$5(Button)
++ void lambda$init$6(Button)
++ void lambda$switchSlot$7()
++ void resetWorld(String,WorldTemplate,int,boolean)
+- void setConfirmationId(int)
+- void switchSlot(RealmsScreen)
++ void switchSlot(Runnable)
+- WorldTemplatePaginatedList access$200(RealmsResetWorldScreen)
+- WorldTemplatePaginatedList access$300(RealmsResetWorldScreen)
+- WorldTemplatePaginatedList access$400(RealmsResetWorldScreen)
+- WorldTemplatePaginatedList access$500(RealmsResetWorldScreen)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen$2</summary>
+
+```diff
++ void <clinit>()
+- void <init>(RealmsResetWorldScreen,String)
+- void lambda$run$0(WorldTemplatePaginatedList,WorldTemplatePaginatedList,WorldTemplatePaginatedList,WorldTemplatePaginatedList)
+- void run()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
+
+```diff
++ boolean access$500(RealmsSelectWorldTemplateScreen)
+- boolean access$800(RealmsSelectWorldTemplateScreen)
++ boolean hasValidTemplate()
++ Either access$000(RealmsSelectWorldTemplateScreen,WorldTemplatePaginatedList,RealmsClient)
+- Either access$400(RealmsSelectWorldTemplateScreen,WorldTemplatePaginatedList,RealmsClient)
++ Font access$1300(RealmsSelectWorldTemplateScreen)
++ Font access$1400(RealmsSelectWorldTemplateScreen)
++ Font access$1500(RealmsSelectWorldTemplateScreen)
++ Font access$1600(RealmsSelectWorldTemplateScreen)
++ Font access$1900(RealmsSelectWorldTemplateScreen)
++ Font access$2000(RealmsSelectWorldTemplateScreen)
+- int access$1200(RealmsSelectWorldTemplateScreen)
+- int access$1202(RealmsSelectWorldTemplateScreen,int)
++ int access$600(int)
++ int access$800(RealmsSelectWorldTemplateScreen)
++ int access$802(RealmsSelectWorldTemplateScreen,int)
+- int lambda$renderMultilineMessage$0(TextRenderingUtils$LineSegment)
++ int lambda$renderMultilineMessage$4(TextRenderingUtils$LineSegment)
++ List access$402(RealmsSelectWorldTemplateScreen,List)
+- List access$702(RealmsSelectWorldTemplateScreen,List)
++ Logger access$200()
+- Logger access$500()
++ Minecraft access$100(RealmsSelectWorldTemplateScreen)
++ Minecraft access$1800(RealmsSelectWorldTemplateScreen)
++ Minecraft access$2200(RealmsSelectWorldTemplateScreen)
++ Minecraft access$2400(RealmsSelectWorldTemplateScreen)
++ RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$300(RealmsSelectWorldTemplateScreen)
+- RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList access$600(RealmsSelectWorldTemplateScreen)
++ ResourceLocation access$1700()
++ ResourceLocation access$2100()
++ ResourceLocation access$2300()
+- String access$1302(RealmsSelectWorldTemplateScreen,String)
++ String access$2502(RealmsSelectWorldTemplateScreen,String)
++ String access$700(RealmsSelectWorldTemplateScreen)
++ String access$702(RealmsSelectWorldTemplateScreen,String)
+- String access$900(RealmsSelectWorldTemplateScreen)
+- String access$902(RealmsSelectWorldTemplateScreen,String)
+- void access$000(RealmsSelectWorldTemplateScreen)
+- void access$100(RealmsSelectWorldTemplateScreen)
+- void access$200(RealmsSelectWorldTemplateScreen)
+- void access$300(RealmsSelectWorldTemplateScreen)
++ void access$900(RealmsSelectWorldTemplateScreen)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$2(Button)
++ void lambda$init$3(Button)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSettingsScreen</summary>
+
+```diff
+- RealmsConfigureWorldScreen access$000(RealmsSettingsScreen)
+- RealmsServer access$100(RealmsSettingsScreen)
+- void confirmResult(boolean,int)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$3(Button)
++ void lambda$null$2(boolean)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsUploadScreen</summary>
+
+```diff
+- double convertToUnit(long,RealmsUploadScreen$Unit)
+- RealmsUploadScreen$Unit getLargestUnit(long)
+- String humanReadableByteCount(long)
+- String humanReadableSize(long,RealmsUploadScreen$Unit)
++ void <init>(long,int,RealmsResetWorldScreen,LevelSummary,Runnable)
+- void <init>(long,int,RealmsResetWorldScreen,RealmsLevelSummary)
+- void access$000(RealmsUploadScreen)
+- void access$100(RealmsUploadScreen)
+- void confirmResult(boolean,int)
++ void lambda$init$0(Button)
++ void lambda$init$1(Button)
++ void lambda$init$2()
+- void lambda$null$0(long,UploadResult)
++ void lambda$null$3(long,UploadResult)
+- void lambda$upload$1()
++ void lambda$upload$4()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
+
+```diff
++ String convertToAgePresentation(long)
+- String convertToAgePresentation(Long)
++ String convertToAgePresentationFromInstant(Date)
+- void browseTo(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.AbstractSliderButton</summary>
+
+```diff
+- void <init>(int,int,int,int,double)
++ void <init>(int,int,int,int,String,double)
+- void <init>(Options,int,int,int,int,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
+
+```diff
+- void playMoodSounds()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.AbstractZombieRenderer</summary>
+
+```diff
++ boolean isShaking(LivingEntity)
++ boolean isShaking(Zombie)
+- void setupRotations(LivingEntity,PoseStack,float,float,float)
+- void setupRotations(Zombie,PoseStack,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
+
+```diff
++ boolean isShaking(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.PiglinRenderer</summary>
+
+```diff
++ boolean isShaking(LivingEntity)
++ boolean isShaking(Mob)
+- void setupRotations(LivingEntity,PoseStack,float,float,float)
+- void setupRotations(Mob,PoseStack,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ZombieVillagerRenderer</summary>
+
+```diff
++ boolean isShaking(LivingEntity)
++ boolean isShaking(ZombieVillager)
+- void setupRotations(LivingEntity,PoseStack,float,float,float)
+- void setupRotations(ZombieVillager,PoseStack,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
+
+```diff
++ boolean addProgrammerArtPack(Map,UnopenedPack$UnopenedPackConstructor,Supplier)
++ CompletionStage lambda$downloadAndSelectResourcePack$2(String,File,Object)
+- CompletionStage lambda$downloadAndSelectResourcePack$3(String,File,Object)
++ FolderResourcePack createProgrammerArtDirPack(File)
++ Pack createProgrammerArtZipPack(File)
++ Pack lambda$addProgrammerArtPack$5(File)
++ Pack lambda$addProgrammerArtPack$6(File)
+- Pack lambda$loadPacks$1(File)
++ Pack lambda$setServerPack$4(File)
+- Pack lambda$setServerPack$5(File)
++ void addProgrammerArtPack(Map,UnopenedPack$UnopenedPackConstructor)
++ void lambda$downloadAndSelectResourcePack$1(Minecraft,ProgressScreen)
+- void lambda$downloadAndSelectResourcePack$2(Minecraft,ProgressScreen)
++ void lambda$downloadAndSelectResourcePack$3(File,Void,Throwable)
+- void lambda$downloadAndSelectResourcePack$4(File,Void,Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
++ boolean hasUUIDArray(String)
++ UUID getUUIDFromArray(String)
++ void putUUIDAsArray(String,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtUtils</summary>
+
+```diff
++ IntArrayTag createUUIDArray(UUID)
++ UUID loadUUIDArray(Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.RealmsConnect$1</summary>
+
+```diff
++ void <init>(RealmsConnect,String,String,int,Minecraft)
+- void <init>(RealmsConnect,String,String,int)
++ void lambda$run$1(Minecraft,DisconnectedRealmsScreen)
++ void lambda$run$2(Minecraft,DisconnectedRealmsScreen)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.RealmsObjectSelectionList</summary>
+
+```diff
+- boolean removeEntry(RealmListEntry)
+- GuiEventListener getProxy()
++ int addEntry(AbstractSelectionList$Entry)
++ int addEntry(ObjectSelectionList$Entry)
+- int getScroll()
+- int headerHeight()
+- int itemHeight()
+- int width()
+- int y0()
+- int y1()
+- List children()
+- RealmListEntry getSelected()
+- void addEntry(RealmListEntry)
+- void remove(int)
+- void render(int,int,float)
+- void renderBackground()
+- void renderItem(int,int,int,int,int,int)
+- void renderItem(int,int,int,int,Tezzelator,int,int)
+- void scroll(int)
+- void setLeftPos(int)
+- void setSelected(int)
++ void setSelectedItem(int)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.server.level.ServerChunkCache</summary>
 
 ```diff
-+ void lambda$tickChunks$5(ChunkHolder)
-- void lambda$tickChunks$5(ChunkHolder)
+- void lambda$tickChunks$5(long,boolean,MobCategory[],boolean,int,Object2IntMap,BlockPos,int,ChunkHolder)
++ void lambda$tickChunks$5(long,boolean,MobCategory[],boolean,int,Object2IntMap,int,ChunkHolder)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.players.StoredUserList</summary>
@@ -6044,180 +3852,57 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.Stats</summary>
-
-```diff
-+ ResourceLocation INTERACT_WITH_SMITHING_TABLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
 
 ```diff
-+ int cooldownBetweenAttacks
-- int cooldown
-- int remainingCooldown
-+ boolean lambda$checkExtraStartConditions$0(Item)
-- boolean canStillUse(LivingEntity,long)
-- boolean canStillUse(Mob,long)
+- boolean canStillUse(ServerLevel,LivingEntity,long)
+- boolean canStillUse(ServerLevel,Mob,long)
 - boolean isHoldingProjectileWeapon(Mob)
++ boolean lambda$checkExtraStartConditions$0(Item)
 - boolean lambda$isHoldingProjectileWeapon$0(Item)
 - LivingEntity getAttackTarget(LivingEntity)
-- void meleeAttack(LivingEntity)
+- void meleeAttack(Mob,LivingEntity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
 
 ```diff
-- UUID ownerUUID
-+ void onHitBlock(BlockHitResult)
 - Entity getOwner()
 - void onHit(HitResult)
++ void onHitBlock(BlockHitResult)
 - void shootFromRotation(Entity,float,float,float,float,float)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
 
 ```diff
-- int life
-- LivingEntity owner
 - void onHit(HitResult)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
 
 ```diff
-+ void <init>(Entity,double,double,double,boolean)
-+ void <init>(ItemStack)
++ void <init>(Level,Entity,double,double,double,ItemStack)
++ void <init>(Level,ItemStack,Entity,double,double,double,boolean)
+- void lerpMotion(double,double,double)
 + void onHitBlock(BlockHitResult)
 + void onHitEntity(EntityHitResult)
-- void lerpMotion(double,double,double)
 - void performHitChecks(HitResult)
 - void shoot(double,double,double,float,float)
 - void shootFromRotation(Entity,float,float,float,float,float)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.projectile.LargeFireball</summary>
 
@@ -6227,14 +3912,12 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
 
 ```diff
-+ UUID ownerUUID
-- void shoot(double,double,double,float,float)
-- void shootFromRotation(net.minecraft.world.entity.Entity,float,float,float,float,float)
 + Entity getOwner()
-+ void <init>(Level)
++ void <init>(EntityType,Level)
 + void addAdditionalSaveData(CompoundTag)
 + void lerpMotion(double,double,double)
 + void onHit(HitResult)
@@ -6267,48 +3950,20 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
 
 ```diff
-- Container repairSlots
-- Container resultSlots
-- ContainerLevelAccess access
-- Player player
 + boolean isValidBlock(BlockState)
+- Boolean lambda$stillValid$1(Player,Level,BlockPos)
 + boolean mayPickup(Player,boolean)
-+ ItemStack onTake(ItemStack)
-+ void lambda$onTake$0(BlockPos)
-- Boolean lambda$stillValid$1(BlockPos)
 - boolean stillValid(Player)
 - Container access$100(AnvilMenu)
 - DataSlot access$000(AnvilMenu)
 - int access$200(AnvilMenu)
++ ItemStack onTake(Player,ItemStack)
 - ItemStack quickMoveStack(Player,int)
-- void lambda$removed$0(BlockPos)
++ void lambda$onTake$0(Player,Level,BlockPos)
+- void lambda$removed$0(Player,Level,BlockPos)
 - void removed(Player)
 - void slotsChanged(Container)
 ```
@@ -6316,172 +3971,22 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.HoeItem</summary>
 
 ```diff
-+ Set DIGGABLES
-- float attackSpeed
-+ void <init>(Item$Properties)
-+ void lambda$useOn$0(Player)
-- boolean hurtEnemy(LivingEntity)
-- boolean mineBlock(LivingEntity)
-- float getDestroySpeed(BlockState)
+- boolean hurtEnemy(ItemStack,LivingEntity,LivingEntity)
+- boolean mineBlock(ItemStack,Level,BlockState,BlockPos,LivingEntity)
+- float getDestroySpeed(ItemStack,BlockState)
 - Multimap getDefaultAttributeModifiers(EquipmentSlot)
-- void <init>(Item$Properties)
+- void <init>(Tier,float,Item$Properties)
++ void <init>(Tier,int,float,Item$Properties)
 - void lambda$hurtEnemy$2(LivingEntity)
 - void lambda$mineBlock$0(LivingEntity)
-- void lambda$useOn$1(Player)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$1(UseOnContext,Player)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.EntityGetter</summary>
@@ -6493,197 +3998,78 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.Level</summary>
 
 ```diff
-- boolean extinguishFire(Direction)
+- boolean extinguishFire(Player,BlockPos,Direction)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.NaturalSpawner</summary>
 
 ```diff
-+ boolean isRightDistanceToPlayerAndSpawnPoint(BlockPos$MutableBlockPos,double)
-+ boolean isValidPositionForMob(Mob,double)
-+ boolean isValidSpawnPostitionForType(BlockPos$MutableBlockPos,double)
-+ Mob getMobForSpawn(EntityType)
-+ void spawnCategoryForChunk(LevelChunk)
-+ void spawnCategoryForPosition(BlockPos)
-+ void spawnCategoryForPosition(BlockPos)
-- void spawnCategoryForChunk(BlockPos)
++ boolean isRightDistanceToPlayerAndSpawnPoint(ServerLevel,ChunkAccess,BlockPos$MutableBlockPos,double)
++ boolean isValidPositionForMob(ServerLevel,Mob,double)
++ boolean isValidSpawnPostitionForType(ServerLevel,ChunkGenerator,Biome$SpawnerData,BlockPos$MutableBlockPos,double)
++ Mob getMobForSpawn(ServerLevel,EntityType)
+- void spawnCategoryForChunk(MobCategory,ServerLevel,LevelChunk,BlockPos)
++ void spawnCategoryForChunk(MobCategory,ServerLevel,LevelChunk)
++ void spawnCategoryForPosition(MobCategory,ServerLevel,BlockPos)
++ void spawnCategoryForPosition(MobCategory,ServerLevel,ChunkAccess,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
 
 ```diff
+- Biome getNoiseBiome(int,int,int)
 + Biome getNoiseBiomeAtPosition(double,double,double)
 + Biome getNoiseBiomeAtQuart(int,int,int)
-- Biome getNoiseBiome(int,int,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.Block</summary>
 
 ```diff
-+ void onProjectileHit(Projectile)
-- void onProjectileHit(Entity)
+- void onProjectileHit(Level,BlockState,BlockHitResult,Entity)
++ void onProjectileHit(Level,BlockState,BlockHitResult,Projectile)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
 
 ```diff
-+ void onProjectileHit(Projectile)
-- void onProjectileHit(Entity)
+- void onProjectileHit(Level,BlockState,BlockHitResult,Entity)
++ void onProjectileHit(Level,BlockState,BlockHitResult,Projectile)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.FireBlock</summary>
 
 ```diff
 + BlockState getStateForPlacement(BlockPlaceContext)
-+ VoxelShape getShape(CollisionContext)
++ VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.core.BlockSource
@@ -9178,13 +6564,594 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
+
+```diff
+- boolean lambda$trigger$0(int,TargetBlockTrigger$TriggerInstance)
++ boolean lambda$trigger$0(ServerPlayer,Entity,Vec3,int,TargetBlockTrigger$TriggerInstance)
++ void trigger(ServerPlayer,Entity,Vec3,int)
+- void trigger(ServerPlayer,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos</summary>
+
+```diff
++ BlockPos$MutableBlockPos mutable()
+- void <init>(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.BlockPos$MutableBlockPos</summary>
+
+```diff
+- BlockPos$MutableBlockPos set(Entity)
++ BlockPos$MutableBlockPos setWithOffset(Vec3i,Direction)
++ BlockPos$MutableBlockPos setWithOffset(Vec3i,int,int,int)
++ BlockPos$MutableBlockPos setWithOffset(Vec3i,Vec3i)
+- int getX()
+- int getY()
+- int getZ()
+- void <init>(BlockPos)
+- void <init>(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Vec3i</summary>
+
+```diff
++ void setX(int)
++ void setY(int)
++ void setZ(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+
+```diff
+- void lambda$tickChunks$5(long,boolean,MobCategory[],boolean,int,Object2IntMap,BlockPos,int,ChunkHolder)
++ void lambda$tickChunks$5(long,boolean,MobCategory[],boolean,int,Object2IntMap,int,ChunkHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.StoredUserList</summary>
+
+```diff
++ JsonObject lambda$save$0(StoredUserEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.MeleeAttack</summary>
+
+```diff
+- boolean canStillUse(ServerLevel,LivingEntity,long)
+- boolean canStillUse(ServerLevel,Mob,long)
+- boolean isHoldingProjectileWeapon(Mob)
++ boolean lambda$checkExtraStartConditions$0(Item)
+- boolean lambda$isHoldingProjectileWeapon$0(Item)
+- LivingEntity getAttackTarget(LivingEntity)
+- void meleeAttack(Mob,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
+
+```diff
+- Entity getOwner()
+- void onHit(HitResult)
++ void onHitBlock(BlockHitResult)
+- void shootFromRotation(Entity,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+
+```diff
+- void onHit(HitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
+
+```diff
++ void <init>(Level,Entity,double,double,double,ItemStack)
++ void <init>(Level,ItemStack,Entity,double,double,double,boolean)
+- void lerpMotion(double,double,double)
++ void onHitBlock(BlockHitResult)
++ void onHitEntity(EntityHitResult)
+- void performHitChecks(HitResult)
+- void shoot(double,double,double,float,float)
+- void shootFromRotation(Entity,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.LargeFireball</summary>
+
+```diff
++ void onHitEntity(EntityHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
+
+```diff
++ Entity getOwner()
++ void <init>(EntityType,Level)
++ void addAdditionalSaveData(CompoundTag)
++ void lerpMotion(double,double,double)
++ void onHit(HitResult)
++ void onHitBlock(BlockHitResult)
++ void onHitEntity(EntityHitResult)
++ void readAdditionalSaveData(CompoundTag)
++ void setOwner(Entity)
++ void shoot(double,double,double,float,float)
++ void shootFromRotation(Entity,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.Snowball</summary>
+
+```diff
++ void onHitEntity(EntityHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ThrownEgg</summary>
+
+```diff
++ void onHitEntity(EntityHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
+
+```diff
++ boolean isValidBlock(BlockState)
+- Boolean lambda$stillValid$1(Player,Level,BlockPos)
++ boolean mayPickup(Player,boolean)
+- boolean stillValid(Player)
+- Container access$100(AnvilMenu)
+- DataSlot access$000(AnvilMenu)
+- int access$200(AnvilMenu)
++ ItemStack onTake(Player,ItemStack)
+- ItemStack quickMoveStack(Player,int)
++ void lambda$onTake$0(Player,Level,BlockPos)
+- void lambda$removed$0(Player,Level,BlockPos)
+- void removed(Player)
+- void slotsChanged(Container)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.HoeItem</summary>
+
+```diff
+- boolean hurtEnemy(ItemStack,LivingEntity,LivingEntity)
+- boolean mineBlock(ItemStack,Level,BlockState,BlockPos,LivingEntity)
+- float getDestroySpeed(ItemStack,BlockState)
+- Multimap getDefaultAttributeModifiers(EquipmentSlot)
+- void <init>(Tier,float,Item$Properties)
++ void <init>(Tier,int,float,Item$Properties)
+- void lambda$hurtEnemy$2(LivingEntity)
+- void lambda$mineBlock$0(LivingEntity)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$1(UseOnContext,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.EntityGetter</summary>
+
+```diff
+- Player getNearestPlayerIgnoreY(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
+- boolean extinguishFire(Player,BlockPos,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
+
+```diff
++ boolean isRightDistanceToPlayerAndSpawnPoint(ServerLevel,ChunkAccess,BlockPos$MutableBlockPos,double)
++ boolean isValidPositionForMob(ServerLevel,Mob,double)
++ boolean isValidSpawnPostitionForType(ServerLevel,ChunkGenerator,Biome$SpawnerData,BlockPos$MutableBlockPos,double)
++ Mob getMobForSpawn(ServerLevel,EntityType)
+- void spawnCategoryForChunk(MobCategory,ServerLevel,LevelChunk,BlockPos)
++ void spawnCategoryForChunk(MobCategory,ServerLevel,LevelChunk)
++ void spawnCategoryForPosition(MobCategory,ServerLevel,BlockPos)
++ void spawnCategoryForPosition(MobCategory,ServerLevel,ChunkAccess,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+
+```diff
+- Biome getNoiseBiome(int,int,int)
++ Biome getNoiseBiomeAtPosition(double,double,double)
++ Biome getNoiseBiomeAtQuart(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
+- void onProjectileHit(Level,BlockState,BlockHitResult,Entity)
++ void onProjectileHit(Level,BlockState,BlockHitResult,Projectile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
+
+```diff
+- void onProjectileHit(Level,BlockState,BlockHitResult,Entity)
++ void onProjectileHit(Level,BlockState,BlockHitResult,Projectile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FireBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
++ VoxelShape getShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/crimson_hyphae.json
++ minecraft/advancements/recipes/building_blocks/stripped_crimson_hyphae.json
++ minecraft/advancements/recipes/building_blocks/stripped_warped_hyphae.json
++ minecraft/advancements/recipes/building_blocks/warped_hyphae.json
+- minecraft/advancements/recipes/combat/netherite_boots.json
+- minecraft/advancements/recipes/combat/netherite_chestplate.json
+- minecraft/advancements/recipes/combat/netherite_helmet.json
+- minecraft/advancements/recipes/combat/netherite_leggings.json
+- minecraft/advancements/recipes/combat/netherite_sword.json
+- minecraft/advancements/recipes/tools/netherite_axe.json
+- minecraft/advancements/recipes/tools/netherite_hoe.json
+- minecraft/advancements/recipes/tools/netherite_pickaxe.json
+- minecraft/advancements/recipes/tools/netherite_shovel.json
++ minecraft/loot_tables/blocks/crimson_hyphae.json
++ minecraft/loot_tables/blocks/stripped_crimson_hyphae.json
++ minecraft/loot_tables/blocks/stripped_warped_hyphae.json
++ minecraft/loot_tables/blocks/warped_hyphae.json
++ minecraft/recipes/crimson_hyphae.json
+- minecraft/recipes/netherite_axe.json
+- minecraft/recipes/netherite_boots.json
+- minecraft/recipes/netherite_chestplate.json
+- minecraft/recipes/netherite_helmet.json
+- minecraft/recipes/netherite_hoe.json
+- minecraft/recipes/netherite_leggings.json
+- minecraft/recipes/netherite_pickaxe.json
+- minecraft/recipes/netherite_shovel.json
+- minecraft/recipes/netherite_sword.json
++ minecraft/recipes/stripped_crimson_hyphae.json
++ minecraft/recipes/stripped_warped_hyphae.json
++ minecraft/recipes/warped_hyphae.json
++ minecraft/tags/blocks/hoglin_repellents.json
++ minecraft/tags/blocks/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/crimson_hyphae.json
++ minecraft/blockstates/stripped_crimson_hyphae.json
++ minecraft/blockstates/stripped_warped_hyphae.json
++ minecraft/blockstates/warped_hyphae.json
++ minecraft/models/block/crimson_hyphae.json
+- minecraft/models/block/hanging_lantern.json
+- minecraft/models/block/hanging_soul_fire_lantern.json
++ minecraft/models/block/lantern_hanging.json
+- minecraft/models/block/redstone_ore_on.json
++ minecraft/models/block/soul_fire_lantern_hanging.json
++ minecraft/models/block/stripped_crimson_hyphae.json
++ minecraft/models/block/stripped_warped_hyphae.json
++ minecraft/models/block/template_anvil.json
++ minecraft/models/block/template_chorus_flower.json
++ minecraft/models/block/template_command_block.json
++ minecraft/models/block/template_daylight_detector.json
++ minecraft/models/block/template_four_turtle_eggs.json
++ minecraft/models/block/template_seagrass.json
++ minecraft/models/block/template_single_face.json
++ minecraft/models/block/template_three_turtle_eggs.json
++ minecraft/models/block/template_turtle_egg.json
++ minecraft/models/block/template_two_turtle_eggs.json
++ minecraft/models/block/tinted_flower_pot_cross.json
++ minecraft/models/block/warped_hyphae.json
+- minecraft/models/item/brain_coral_wall_fan.json
+- minecraft/models/item/bubble_coral_wall_fan.json
++ minecraft/models/item/crimson_hyphae.json
+- minecraft/models/item/dead_brain_coral_wall_fan.json
+- minecraft/models/item/dead_bubble_coral_wall_fan.json
+- minecraft/models/item/dead_fire_coral_wall_fan.json
+- minecraft/models/item/dead_horn_coral_wall_fan.json
+- minecraft/models/item/dead_tube_coral_wall_fan.json
+- minecraft/models/item/fire_coral_wall_fan.json
+- minecraft/models/item/horn_coral_wall_fan.json
++ minecraft/models/item/stripped_crimson_hyphae.json
++ minecraft/models/item/stripped_warped_hyphae.json
+- minecraft/models/item/tube_coral_wall_fan.json
++ minecraft/models/item/warped_hyphae.json
++ minecraft/textures/gui/container/smithing.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:crimson_hyphae
++ minecraft:stripped_crimson_hyphae
++ minecraft:stripped_warped_hyphae
++ minecraft:warped_hyphae
+```
+
+</details>
+
+
+<details><summary>custom_stat.txt</summary>
+
+```diff
++ minecraft:interact_with_smithing_table
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:crimson_hyphae
++ minecraft:stripped_crimson_hyphae
++ minecraft:stripped_warped_hyphae
++ minecraft:warped_hyphae
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:admiring_disabled
++ minecraft:attack_cooling_down
++ minecraft:nearest_repellent
+- minecraft:nearest_visible_soul_fire_item
+- minecraft:nearest_visible_warped_fungus
+- minecraft:was_hit_by_player
+```
+
+</details>
+
+
+<details><summary>menu.txt</summary>
+
+```diff
++ minecraft:smithing
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:ambient.crimson_forest.additions
++ minecraft:ambient.crimson_forest.loop
++ minecraft:ambient.crimson_forest.mood
++ minecraft:ambient.nether_wastes.additions
++ minecraft:ambient.nether_wastes.loop
++ minecraft:ambient.nether_wastes.mood
++ minecraft:ambient.soul_sand_valley.additions
++ minecraft:ambient.soul_sand_valley.loop
++ minecraft:ambient.soul_sand_valley.mood
++ minecraft:ambient.warped_forest.additions
++ minecraft:ambient.warped_forest.loop
++ minecraft:ambient.warped_forest.mood
++ minecraft:block.smithing_table.use
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/hoglin_repellents.json
++ blocks/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>blocks/crimson_stems.json</summary>
+
+```diff
++ minecraft:crimson_hyphae
++ minecraft:stripped_crimson_hyphae
+```
+
+</details>
+
+
+<details><summary>blocks/warped_stems.json</summary>
+
+```diff
++ minecraft:stripped_warped_hyphae
++ minecraft:warped_hyphae
+```
+
+</details>
+
+
+<details><summary>items/crimson_stems.json</summary>
+
+```diff
++ minecraft:crimson_hyphae
++ minecraft:stripped_crimson_hyphae
+```
+
+</details>
+
+
+<details><summary>items/warped_stems.json</summary>
+
+```diff
++ minecraft:stripped_warped_hyphae
++ minecraft:warped_hyphae
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.crimson_hyphae
++ block.minecraft.stripped_crimson_hyphae
++ block.minecraft.stripped_warped_hyphae
++ block.minecraft.warped_hyphae
++ container.upgrade
++ stat.minecraft.interact_with_smithing_table
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/crimson_hyphae.json
++ recipes/building_blocks/stripped_crimson_hyphae.json
++ recipes/building_blocks/stripped_warped_hyphae.json
++ recipes/building_blocks/warped_hyphae.json
+- recipes/combat/netherite_boots.json
+- recipes/combat/netherite_chestplate.json
+- recipes/combat/netherite_helmet.json
+- recipes/combat/netherite_leggings.json
+- recipes/combat/netherite_sword.json
+- recipes/tools/netherite_axe.json
+- recipes/tools/netherite_hoe.json
+- recipes/tools/netherite_pickaxe.json
+- recipes/tools/netherite_shovel.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/crimson_hyphae.json
++ blocks/stripped_crimson_hyphae.json
++ blocks/stripped_warped_hyphae.json
++ blocks/warped_hyphae.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ crimson_hyphae.json
+- netherite_axe.json
+- netherite_boots.json
+- netherite_chestplate.json
+- netherite_helmet.json
+- netherite_hoe.json
+- netherite_leggings.json
+- netherite_pickaxe.json
+- netherite_shovel.json
+- netherite_sword.json
++ stripped_crimson_hyphae.json
++ stripped_warped_hyphae.json
++ warped_hyphae.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/hoglin_repellents.json
++ blocks/piglin_repellents.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/container/smithing.png
+```
+
+</details>

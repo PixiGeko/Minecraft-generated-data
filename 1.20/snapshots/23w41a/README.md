@@ -6,13 +6,16 @@
 <tr><th>Id</th><td>23w41a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-10-11T12:32:46+00:00</td></tr>
-<tr><th>SHA1</th><td>15f2ab1b8cc194afcf299a3703e8350a88bf3136</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/15f2ab1b8cc194afcf299a3703e8350a88bf3136/23w41a.json">https://piston-meta.mojang.com/v1/packages/15f2ab1b8cc194afcf299a3703e8350a88bf3136/23w41a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/490cf2ad724de5eee868328763b54a932fba7826/8.json">https://piston-meta.mojang.com/v1/packages/490cf2ad724de5eee868328763b54a932fba7826/8.json</a></td></tr>
+<tr><th>SHA1</th><td>11b332d913edb0cd437ac902bc4e981ea72d2f36</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/11b332d913edb0cd437ac902bc4e981ea72d2f36/23w41a.json">https://piston-meta.mojang.com/v1/packages/11b332d913edb0cd437ac902bc4e981ea72d2f36/23w41a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json">https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/e3e4c46324ac42b1789f7ff6e895ae3c843a9819/server.jar">https://piston-data.mojang.com/v1/objects/e3e4c46324ac42b1789f7ff6e895ae3c843a9819/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/725b2f657007e6d38d42b1a016155bb6c2a38245/server.txt">https://piston-data.mojang.com/v1/objects/725b2f657007e6d38d42b1a016155bb6c2a38245/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/da1852dc65305e01db8262bad7450eddca55a5d0/client.jar">https://piston-data.mojang.com/v1/objects/da1852dc65305e01db8262bad7450eddca55a5d0/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a595f60b4582fe7e27436b2d699e5a4c2d253999/client.txt">https://piston-data.mojang.com/v1/objects/a595f60b4582fe7e27436b2d699e5a4c2d253999/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
 
 <br/>
@@ -7821,6 +7824,48 @@
 
 ```diff
 + return run
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ command.forkLimit
++ commands.execute.function.instantiationFailure
++ commands.function.instantiationFailure
++ commands.function.result
++ commands.function.scheduled.multiple
++ commands.function.scheduled.no_functions
++ commands.function.scheduled.single
++ gamerule.maxCommandForkCount
++ gamerule.maxCommandForkCount.description
++ mco.compatibility.downgrade
++ mco.compatibility.downgrade.description
++ mco.compatibility.unverifiable.message
++ mco.compatibility.unverifiable.title
++ mco.compatibility.upgrade
++ mco.compatibility.upgrade.description
++ mco.compatibility.upgrade.title
++ mco.selectServer.minigameName
++ mco.snapshot.createSnapshotPopup.text
++ mco.snapshot.createSnapshotPopup.title
++ mco.snapshot.creating
++ mco.snapshot.description
++ mco.snapshot.friendsRealm.downgrade
++ mco.snapshot.friendsRealm.upgrade
++ mco.snapshot.paired
++ mco.snapshot.parent.tooltip
++ mco.snapshot.start
++ mco.snapshot.subscription.info
++ mco.snapshot.tooltip
++ mco.version
++ subtitles.block.decorated_pot.insert
++ subtitles.block.decorated_pot.insert_fail
++ subtitles.block.hanging_sign.waxed_interact_fail
 ```
 
 </details>

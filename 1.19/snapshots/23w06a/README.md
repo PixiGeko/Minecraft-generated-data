@@ -1,1366 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w06a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w06a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-02-08T15:00:04+00:00</td></tr>
-<tr><th>SHA1</th><td>9c56e6d020da2761e099a1443122588030505a72</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/9c56e6d020da2761e099a1443122588030505a72/23w06a.json">https://piston-meta.mojang.com/v1/packages/9c56e6d020da2761e099a1443122588030505a72/23w06a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>38a3f47476fa8f1d85b97fb2079eb1f725fb5ad8</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/38a3f47476fa8f1d85b97fb2079eb1f725fb5ad8/23w06a.json">https://piston-meta.mojang.com/v1/packages/38a3f47476fa8f1d85b97fb2079eb1f725fb5ad8/23w06a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/daaed1fac98d17bd76f8fd43268f1c1b97230b59/server.jar">https://piston-data.mojang.com/v1/objects/daaed1fac98d17bd76f8fd43268f1c1b97230b59/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1ce40d5437e644ef89545dc70f0efae1877c3ae4/server.txt">https://piston-data.mojang.com/v1/objects/1ce40d5437e644ef89545dc70f0efae1877c3ae4/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/824248d1bfd3ab53c6bd0b6568a4ad86d772bd04/client.jar">https://piston-data.mojang.com/v1/objects/824248d1bfd3ab53c6bd0b6568a4ad86d772bd04/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/eb346f0182a6c81b3fcccbe586ebe9dcc729e498/client.txt">https://piston-data.mojang.com/v1/objects/eb346f0182a6c81b3fcccbe586ebe9dcc729e498/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w05a">23w05a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/damage_type
-+  minecraft/damage_type/arrow.json
-+  minecraft/damage_type/bad_respawn_point.json
-+  minecraft/damage_type/cactus.json
-+  minecraft/damage_type/cramming.json
-+  minecraft/damage_type/dragon_breath.json
-+  minecraft/damage_type/drown.json
-+  minecraft/damage_type/dry_out.json
-+  minecraft/damage_type/explosion.json
-+  minecraft/damage_type/fall.json
-+  minecraft/damage_type/falling_anvil.json
-+  minecraft/damage_type/falling_block.json
-+  minecraft/damage_type/falling_stalactite.json
-+  minecraft/damage_type/fireball.json
-+  minecraft/damage_type/fireworks.json
-+  minecraft/damage_type/fly_into_wall.json
-+  minecraft/damage_type/freeze.json
-+  minecraft/damage_type/generic.json
-+  minecraft/damage_type/hot_floor.json
-+  minecraft/damage_type/in_fire.json
-+  minecraft/damage_type/in_wall.json
-+  minecraft/damage_type/indirect_magic.json
-+  minecraft/damage_type/lava.json
-+  minecraft/damage_type/lightning_bolt.json
-+  minecraft/damage_type/magic.json
-+  minecraft/damage_type/mob_attack.json
-+  minecraft/damage_type/mob_attack_no_aggro.json
-+  minecraft/damage_type/mob_projectile.json
-+  minecraft/damage_type/on_fire.json
-+  minecraft/damage_type/out_of_world.json
-+  minecraft/damage_type/player_attack.json
-+  minecraft/damage_type/player_explosion.json
-+  minecraft/damage_type/sonic_boom.json
-+  minecraft/damage_type/stalagmite.json
-+  minecraft/damage_type/starve.json
-+  minecraft/damage_type/sting.json
-+  minecraft/damage_type/sweet_berry_bush.json
-+  minecraft/damage_type/thorns.json
-+  minecraft/damage_type/thrown.json
-+  minecraft/damage_type/trident.json
-+  minecraft/damage_type/unattributed_fireball.json
-+  minecraft/damage_type/wither.json
-+  minecraft/damage_type/wither_skull.json
-+  minecraft/tags/damage_type
-+  minecraft/tags/damage_type/always_most_significant_fall.json
-+  minecraft/tags/damage_type/always_triggers_silverfish.json
-+  minecraft/tags/damage_type/avoids_guardian_thorns.json
-+  minecraft/tags/damage_type/burns_armor_stands.json
-+  minecraft/tags/damage_type/bypasses_armor.json
-+  minecraft/tags/damage_type/bypasses_effects.json
-+  minecraft/tags/damage_type/bypasses_enchantments.json
-+  minecraft/tags/damage_type/bypasses_invulnerability.json
-+  minecraft/tags/damage_type/bypasses_resistance.json
-+  minecraft/tags/damage_type/damages_helmet.json
-+  minecraft/tags/damage_type/ignites_armor_stands.json
-+  minecraft/tags/damage_type/is_drowning.json
-+  minecraft/tags/damage_type/is_explosion.json
-+  minecraft/tags/damage_type/is_fall.json
-+  minecraft/tags/damage_type/is_fire.json
-+  minecraft/tags/damage_type/is_freezing.json
-+  minecraft/tags/damage_type/is_lightning.json
-+  minecraft/tags/damage_type/is_projectile.json
-+  minecraft/tags/damage_type/no_anger.json
-+  minecraft/tags/damage_type/no_impact.json
-+  minecraft/tags/damage_type/witch_resistant_to.json
-+  minecraft/tags/damage_type/wither_immune_to.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/shaders/core/rendertype_text_background.fsh
-+  minecraft/shaders/core/rendertype_text_background.json
-+  minecraft/shaders/core/rendertype_text_background.vsh
-+  minecraft/shaders/core/rendertype_text_background_see_through.fsh
-+  minecraft/shaders/core/rendertype_text_background_see_through.json
-+  minecraft/shaders/core/rendertype_text_background_see_through.vsh
-```
 
-</details>
-
-## Registries
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:block_display
-+ minecraft:item_display
-+ minecraft:text_display
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-+ minecraft:entity_dismount
-+ minecraft:entity_mount
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ damage.txt
-```
-
-</details>
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute summon <entity: resource>
-```
-
-</details>
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule doVinesSpread <value: bool>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ damage_type/always_most_significant_fall.json
-+ damage_type/always_triggers_silverfish.json
-+ damage_type/avoids_guardian_thorns.json
-+ damage_type/burns_armor_stands.json
-+ damage_type/bypasses_armor.json
-+ damage_type/bypasses_effects.json
-+ damage_type/bypasses_enchantments.json
-+ damage_type/bypasses_invulnerability.json
-+ damage_type/bypasses_resistance.json
-+ damage_type/damages_helmet.json
-+ damage_type/ignites_armor_stands.json
-+ damage_type/is_drowning.json
-+ damage_type/is_explosion.json
-+ damage_type/is_fall.json
-+ damage_type/is_fire.json
-+ damage_type/is_freezing.json
-+ damage_type/is_lightning.json
-+ damage_type/is_projectile.json
-+ damage_type/no_anger.json
-+ damage_type/no_impact.json
-+ damage_type/witch_resistant_to.json
-+ damage_type/wither_immune_to.json
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-+ minecraft:entity_dismount
-+ minecraft:entity_mount
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-+ minecraft:entity_dismount
-+ minecraft:entity_mount
-```
-
-</details>
-
-## Misc
-
-<details><summary>list</summary>
-
-```diff
-+ damage_types.txt
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w05a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ damage_type/always_most_significant_fall.json
-+ damage_type/always_triggers_silverfish.json
-+ damage_type/avoids_guardian_thorns.json
-+ damage_type/burns_armor_stands.json
-+ damage_type/bypasses_armor.json
-+ damage_type/bypasses_effects.json
-+ damage_type/bypasses_enchantments.json
-+ damage_type/bypasses_invulnerability.json
-+ damage_type/bypasses_resistance.json
-+ damage_type/damages_helmet.json
-+ damage_type/ignites_armor_stands.json
-+ damage_type/is_drowning.json
-+ damage_type/is_explosion.json
-+ damage_type/is_fall.json
-+ damage_type/is_fire.json
-+ damage_type/is_freezing.json
-+ damage_type/is_lightning.json
-+ damage_type/is_projectile.json
-+ damage_type/no_anger.json
-+ damage_type/no_impact.json
-+ damage_type/witch_resistant_to.json
-+ damage_type/wither_immune_to.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.16.29
-+ com.mojang:authlib:3.17.30
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ AtomicBoolean pollingEvents
-+ AtomicLong pollEventsWaitStart
-+ boolean isFrozenAtPollEvents()
-+ void pollEvents()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-- void lambda$renderLegacy$0(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$Entry</summary>
-
-```diff
-- void lambda$renderPendingInvitationItem$0(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.RealmsTextureManager</summary>
-
-```diff
-- Map FETCHED_SKINS
-- Map SKIN_FETCH_STATUS
-+ NativeImage loadImage(String)
-+ ResourceLocation getTexture(String)
-+ ResourceLocation worldTemplate(String)
-- int getTextureId(String)
-- void bindDefaultFace(UUID)
-- void bindFace(String)
-- void bindWorldTemplate(String)
-- void withBoundFace(Runnable)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
-
-```diff
-+ LoadingCache GAME_PROFILE_CACHE
-- LoadingCache gameProfileCache
-- YggdrasilAuthenticationService AUTHENTICATION_SERVICE
-+ GameProfile getGameProfile(String)
-+ void renderPlayerFace(String)
-- Map getTextures(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
-
-```diff
-+ ImmutableList$Builder tags
-- Boolean bypassesArmor
-- Boolean bypassesInvulnerability
-- Boolean bypassesMagic
-- Boolean isExplosion
-- Boolean isFire
-- Boolean isLightning
-- Boolean isMagic
-- Boolean isProjectile
-+ DamageSourcePredicate$Builder tag(TagPredicate)
-- DamageSourcePredicate$Builder bypassesArmor(Boolean)
-- DamageSourcePredicate$Builder bypassesInvulnerability(Boolean)
-- DamageSourcePredicate$Builder bypassesMagic(Boolean)
-- DamageSourcePredicate$Builder isExplosion(Boolean)
-- DamageSourcePredicate$Builder isFire(Boolean)
-- DamageSourcePredicate$Builder isLightning(Boolean)
-- DamageSourcePredicate$Builder isMagic(Boolean)
-- DamageSourcePredicate$Builder isProjectile(Boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AccessibilityOnboardingTextWidget</summary>
-
-```diff
-- Component message
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.HumanoidModel</summary>
-
-```diff
-+ float DUCK_WALK_ROTATION
-+ float LEGGINGS_OVERLAY_SCALE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.BrainDebugRenderer</summary>
-
-```diff
-+ void doRender(MultiBufferSource,double,double,double)
-+ void highlightPoi(BlockPos)
-+ void lambda$doRender$2(BrainDebugRenderer$BrainDump)
-+ void lambda$doRender$3(BrainDebugRenderer$PoiInfo)
-+ void lambda$doRender$4(List)
-+ void renderBrainInfo(BrainDebugRenderer$BrainDump,double,double,double)
-+ void renderGhostPoi(List)
-+ void renderPath(BrainDebugRenderer$BrainDump,double,double,double)
-+ void renderPoiInfo(BrainDebugRenderer$PoiInfo)
-+ void renderTextOverMob(String,int,float)
-+ void renderTextOverPoi(BrainDebugRenderer$PoiInfo,int,int)
-+ void renderTextOverPos(BlockPos,int,int)
-- void doRender(double,double,double)
-- void highlightPoi(BlockPos)
-- void lambda$doRender$2(BrainDebugRenderer$BrainDump)
-- void lambda$doRender$3(BrainDebugRenderer$PoiInfo)
-- void lambda$doRender$4(List)
-- void renderBrainInfo(BrainDebugRenderer$BrainDump,double,double,double)
-- void renderGhostPoi(List)
-- void renderPath(BrainDebugRenderer$BrainDump,double,double,double)
-- void renderPoiInfo(BrainDebugRenderer$PoiInfo)
-- void renderTextOverMob(String,int,float)
-- void renderTextOverPoi(BrainDebugRenderer$PoiInfo,int,int)
-- void renderTextOverPos(BlockPos,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.GameTestDebugRenderer</summary>
-
-```diff
-+ void lambda$render$1(GameTestDebugRenderer$Marker)
-+ void renderMarker(GameTestDebugRenderer$Marker)
-- void renderMarker(GameTestDebugRenderer$Marker)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.debug.GoalSelectorDebugRenderer</summary>
-
-```diff
-+ void lambda$render$0(List)
-- void lambda$render$0(List)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.PathfindingRenderer</summary>
-
-```diff
-+ void renderPath(Path,float,boolean,boolean,double,double,double)
-+ void renderPathLine(Path,double,double,double)
-- void doRenderPath(Path,float,boolean,boolean,double,double,double)
-- void renderPath(Path,float,boolean,boolean,double,double,double)
-- void renderPathLine(Path,double,double,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.debug.VillageSectionsDebugRenderer</summary>
-
-```diff
-+ void highlightVillageSection(SectionPos)
-+ void lambda$render$0(SectionPos)
-- void doRender(double,double,double)
-- void highlightVillageSection(SectionPos)
-- void lambda$doRender$0(SectionPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
-
-```diff
-+ Quaternionf readQuaternion()
-+ Vector3f readVector3f()
-+ void writeQuaternion(Quaternionf)
-+ void writeVector3f(Vector3f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleDamageEvent(net.minecraft.network.protocol.game.ClientboundDamageEventPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ void broadcastDamageEvent(DamageSource)
-- RegistryAccess registryAccess()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ void indicateDamage(double,double)
-- void knockback(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.FastColor$ARGB32</summary>
-
-```diff
-+ int lerp(float,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ int lerp(float,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ElytraItem</summary>
-
-```diff
-+ EquipmentSlot getEquipmentSlot()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-- SoundEvent getEquipSound()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ShieldItem</summary>
-
-```diff
-+ EquipmentSlot getEquipmentSlot()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.SmithingTemplateItem</summary>
-
-```diff
-+ ResourceLocation EMPTY_SLOT_AMETHYST_SHARD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.util.package-info
@@ -6911,1213 +5582,217 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.Registries</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ ResourceKey DAMAGE_TYPE
++ boolean isFrozenAtPollEvents()
++ void pollEvents()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.CombatTracker</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
 
 ```diff
-+ Style INTENTIONAL_GAME_DESIGN_STYLE
-+ void <clinit>()
+- void lambda$renderLegacy$0(PoseStack,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen$Entry</summary>
 
 ```diff
-+ boolean couldAcceptPassenger()
-+ DamageSources damageSources()
-+ void addPassenger(Entity)
-+ void handleDamageEvent(DamageSource)
-+ void onSyncedDataUpdated(List)
-- boolean addPassenger(Entity)
-- boolean lambda$hasIndirectPassenger$16(Entity)
+- void lambda$renderPendingInvitationItem$0(PoseStack,int,int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.EntityEvent</summary>
+<details><summary>com.mojang.realmsclient.util.RealmsTextureManager</summary>
 
 ```diff
-- byte BURNED
-- byte DROWNED
-- byte FROZEN
-- byte HURT
-- byte POKED
-- byte THORNED
+- int getTextureId(String,String)
++ NativeImage loadImage(String)
++ ResourceLocation getTexture(String,String)
++ ResourceLocation worldTemplate(String,String)
+- void bindDefaultFace(UUID)
+- void bindFace(String)
+- void bindWorldTemplate(String,String)
+- void withBoundFace(String,Runnable)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
 
 ```diff
-+ void handleDamageEvent(DamageSource)
++ GameProfile getGameProfile(String)
+- Map getTextures(String)
++ void renderPlayerFace(PoseStack,int,int,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
+
+```diff
+- DamageSourcePredicate$Builder bypassesArmor(Boolean)
+- DamageSourcePredicate$Builder bypassesInvulnerability(Boolean)
+- DamageSourcePredicate$Builder bypassesMagic(Boolean)
+- DamageSourcePredicate$Builder isExplosion(Boolean)
+- DamageSourcePredicate$Builder isFire(Boolean)
+- DamageSourcePredicate$Builder isLightning(Boolean)
+- DamageSourcePredicate$Builder isMagic(Boolean)
+- DamageSourcePredicate$Builder isProjectile(Boolean)
++ DamageSourcePredicate$Builder tag(TagPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.BrainDebugRenderer</summary>
+
+```diff
+- void doRender(double,double,double)
++ void doRender(PoseStack,MultiBufferSource,double,double,double)
+- void highlightPoi(BlockPos)
++ void highlightPoi(PoseStack,MultiBufferSource,BlockPos)
+- void lambda$doRender$2(double,double,double,BrainDebugRenderer$BrainDump)
++ void lambda$doRender$2(PoseStack,MultiBufferSource,double,double,double,BrainDebugRenderer$BrainDump)
+- void lambda$doRender$3(BlockPos,BrainDebugRenderer$PoiInfo)
++ void lambda$doRender$3(BlockPos,PoseStack,MultiBufferSource,BrainDebugRenderer$PoiInfo)
+- void lambda$doRender$4(BlockPos,BlockPos,List)
++ void lambda$doRender$4(BlockPos,PoseStack,MultiBufferSource,BlockPos,List)
+- void renderBrainInfo(BrainDebugRenderer$BrainDump,double,double,double)
++ void renderBrainInfo(PoseStack,MultiBufferSource,BrainDebugRenderer$BrainDump,double,double,double)
+- void renderGhostPoi(BlockPos,List)
++ void renderGhostPoi(PoseStack,MultiBufferSource,BlockPos,List)
+- void renderPath(BrainDebugRenderer$BrainDump,double,double,double)
++ void renderPath(PoseStack,MultiBufferSource,BrainDebugRenderer$BrainDump,double,double,double)
+- void renderPoiInfo(BrainDebugRenderer$PoiInfo)
++ void renderPoiInfo(PoseStack,MultiBufferSource,BrainDebugRenderer$PoiInfo)
++ void renderTextOverMob(PoseStack,MultiBufferSource,Position,int,String,int,float)
+- void renderTextOverMob(Position,int,String,int,float)
++ void renderTextOverPoi(PoseStack,MultiBufferSource,String,BrainDebugRenderer$PoiInfo,int,int)
+- void renderTextOverPoi(String,BrainDebugRenderer$PoiInfo,int,int)
++ void renderTextOverPos(PoseStack,MultiBufferSource,String,BlockPos,int,int)
+- void renderTextOverPos(String,BlockPos,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.GameTestDebugRenderer</summary>
+
+```diff
++ void lambda$render$1(PoseStack,MultiBufferSource,BlockPos,GameTestDebugRenderer$Marker)
+- void renderMarker(BlockPos,GameTestDebugRenderer$Marker)
++ void renderMarker(PoseStack,MultiBufferSource,BlockPos,GameTestDebugRenderer$Marker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.GoalSelectorDebugRenderer</summary>
+
+```diff
+- void lambda$render$0(BlockPos,Integer,List)
++ void lambda$render$0(BlockPos,PoseStack,MultiBufferSource,Integer,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.PathfindingRenderer</summary>
+
+```diff
+- void doRenderPath(Path,float,boolean,boolean,double,double,double)
+- void renderPath(Path,float,boolean,boolean,double,double,double)
++ void renderPath(PoseStack,MultiBufferSource,Path,float,boolean,boolean,double,double,double)
+- void renderPathLine(Path,double,double,double)
++ void renderPathLine(PoseStack,VertexConsumer,Path,double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.VillageSectionsDebugRenderer</summary>
+
+```diff
+- void doRender(double,double,double)
++ void highlightVillageSection(PoseStack,MultiBufferSource,SectionPos)
+- void highlightVillageSection(SectionPos)
+- void lambda$doRender$0(BlockPos,SectionPos)
++ void lambda$render$0(BlockPos,PoseStack,MultiBufferSource,SectionPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ Quaternionf readQuaternion()
++ Vector3f readVector3f()
++ void writeQuaternion(Quaternionf)
++ void writeVector3f(Vector3f)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- RegistryAccess registryAccess()
++ void broadcastDamageEvent(Entity,DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
 + void indicateDamage(double,double)
-- void playEquipSound(ItemStack)
+- void knockback(double,double,double)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+<details><summary>net.minecraft.util.FastColor$ARGB32</summary>
 
 ```diff
-+ UUID owner
-- EntityDataAccessor DATA_ID_OWNER_UUID
-+ EntityGetter getLevel()
++ int lerp(float,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
+<details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
-+ String VARIANT_TAG
-+ Optional loadVariant(CompoundTag)
-+ ResourceKey lambda$loadVariant$2(ResourceLocation)
-+ void storeVariant(Holder)
-- Holder lambda$readAdditionalSaveData$3(Holder$Reference)
-- ResourceKey lambda$readAdditionalSaveData$2(ResourceLocation)
++ int lerp(float,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.ChestBoat</summary>
-
-```diff
-+ void stopOpen(Player)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.ContainerEntity</summary>
-
-```diff
-+ InteractionResult interactWithContainerVehicle(Player)
-- InteractionResult interactWithChestVehicle(Player)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartChest</summary>
-
-```diff
-+ InteractionResult interact(InteractionHand)
-+ void stopOpen(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu</summary>
-
-```diff
-+ void onEquipItem(ItemStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu$2</summary>
-
-```diff
-+ Player val$owner
-+ void <init>(Player)
-+ void setByPlayer(ItemStack)
-- void <init>(Container,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
+<details><summary>net.minecraft.world.item.ElytraItem</summary>
 
 ```diff
 + EquipmentSlot getEquipmentSlot()
-- EquipmentSlot getSlot()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CreativeModeTab$DisplayItemsGenerator</summary>
-
-```diff
-+ void accept(net.minecraft.world.item.CreativeModeTab$ItemDisplayParameters,net.minecraft.world.item.CreativeModeTab$Output)
-- void accept(net.minecraft.world.flag.FeatureFlagSet,net.minecraft.world.item.CreativeModeTab$Output,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
+<details><summary>net.minecraft.world.item.ItemStack</summary>
 
 ```diff
 - SoundEvent getEquipSound()
@@ -8126,174 +5801,7 @@
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.item.alchemy.Potions</summary>
-
-```diff
-+ ResourceKey EMPTY_ID
-+ Potion register(Potion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
+<details><summary>net.minecraft.world.item.ShieldItem</summary>
 
 ```diff
 + EquipmentSlot getEquipmentSlot()
@@ -8301,873 +5809,13 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.CaveVines</summary>
 
-```diff
-+ InteractionResult use(BlockPos)
-- InteractionResult use(BlockPos)
-```
+### Server
 
-</details>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
-
-```diff
-+ boolean tryPlaceBook(ItemStack)
-+ void placeBook(ItemStack)
-+ void resetBookState(BlockState,boolean)
-- boolean tryPlaceBook(ItemStack)
-- void placeBook(ItemStack)
-- void resetBookState(BlockState,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
-
-```diff
-+ void spawnMusicParticles(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ GameEvent ENTITY_DISMOUNT
-+ GameEvent ENTITY_MOUNT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.Advancement
@@ -10358,13 +7006,510 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.world.damagesource.CombatTracker</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- boolean addPassenger(Entity)
++ boolean couldAcceptPassenger()
+- boolean lambda$hasIndirectPassenger$16(Entity,Entity)
++ DamageSources damageSources()
++ void addPassenger(Entity)
++ void handleDamageEvent(DamageSource)
++ void onSyncedDataUpdated(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ void handleDamageEvent(DamageSource)
++ void indicateDamage(double,double)
+- void playEquipSound(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
++ EntityGetter getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
+
+```diff
+- Holder lambda$readAdditionalSaveData$3(Holder$Reference)
++ Optional loadVariant(CompoundTag)
++ ResourceKey lambda$loadVariant$2(ResourceLocation)
+- ResourceKey lambda$readAdditionalSaveData$2(ResourceLocation)
++ void storeVariant(CompoundTag,Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.ChestBoat</summary>
+
+```diff
++ void stopOpen(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.ContainerEntity</summary>
+
+```diff
+- InteractionResult interactWithChestVehicle(BiConsumer,Player)
++ InteractionResult interactWithContainerVehicle(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartChest</summary>
+
+```diff
++ InteractionResult interact(Player,InteractionHand)
++ void stopOpen(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.InventoryMenu</summary>
+
+```diff
++ void onEquipItem(Player,EquipmentSlot,ItemStack,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.InventoryMenu$2</summary>
+
+```diff
++ void <init>(InventoryMenu,Container,int,int,int,Player)
+- void <init>(InventoryMenu,Container,int,int,int)
++ void setByPlayer(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ArmorItem</summary>
+
+```diff
++ EquipmentSlot getEquipmentSlot()
+- EquipmentSlot getSlot()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item</summary>
+
+```diff
+- SoundEvent getEquipSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.alchemy.Potions</summary>
+
+```diff
++ Potion register(ResourceKey,Potion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
+
+```diff
++ EquipmentSlot getEquipmentSlot()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CaveVines</summary>
+
+```diff
+- InteractionResult use(BlockState,Level,BlockPos)
++ InteractionResult use(Entity,BlockState,Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
+
+```diff
++ boolean tryPlaceBook(Entity,Level,BlockPos,BlockState,ItemStack)
+- boolean tryPlaceBook(Player,Level,BlockPos,BlockState,ItemStack)
++ void placeBook(Entity,Level,BlockPos,BlockState,ItemStack)
+- void placeBook(Player,Level,BlockPos,BlockState,ItemStack)
++ void resetBookState(Entity,Level,BlockPos,BlockState,boolean)
+- void resetBookState(Level,BlockPos,BlockState,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
+
+```diff
++ void spawnMusicParticles(Level,BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/damage_type/arrow.json
++ minecraft/damage_type/bad_respawn_point.json
++ minecraft/damage_type/cactus.json
++ minecraft/damage_type/cramming.json
++ minecraft/damage_type/dragon_breath.json
++ minecraft/damage_type/drown.json
++ minecraft/damage_type/dry_out.json
++ minecraft/damage_type/explosion.json
++ minecraft/damage_type/fall.json
++ minecraft/damage_type/falling_anvil.json
++ minecraft/damage_type/falling_block.json
++ minecraft/damage_type/falling_stalactite.json
++ minecraft/damage_type/fireball.json
++ minecraft/damage_type/fireworks.json
++ minecraft/damage_type/fly_into_wall.json
++ minecraft/damage_type/freeze.json
++ minecraft/damage_type/generic.json
++ minecraft/damage_type/hot_floor.json
++ minecraft/damage_type/in_fire.json
++ minecraft/damage_type/in_wall.json
++ minecraft/damage_type/indirect_magic.json
++ minecraft/damage_type/lava.json
++ minecraft/damage_type/lightning_bolt.json
++ minecraft/damage_type/magic.json
++ minecraft/damage_type/mob_attack_no_aggro.json
++ minecraft/damage_type/mob_attack.json
++ minecraft/damage_type/mob_projectile.json
++ minecraft/damage_type/on_fire.json
++ minecraft/damage_type/out_of_world.json
++ minecraft/damage_type/player_attack.json
++ minecraft/damage_type/player_explosion.json
++ minecraft/damage_type/sonic_boom.json
++ minecraft/damage_type/stalagmite.json
++ minecraft/damage_type/starve.json
++ minecraft/damage_type/sting.json
++ minecraft/damage_type/sweet_berry_bush.json
++ minecraft/damage_type/thorns.json
++ minecraft/damage_type/thrown.json
++ minecraft/damage_type/trident.json
++ minecraft/damage_type/unattributed_fireball.json
++ minecraft/damage_type/wither_skull.json
++ minecraft/damage_type/wither.json
++ minecraft/tags/damage_type/always_most_significant_fall.json
++ minecraft/tags/damage_type/always_triggers_silverfish.json
++ minecraft/tags/damage_type/avoids_guardian_thorns.json
++ minecraft/tags/damage_type/burns_armor_stands.json
++ minecraft/tags/damage_type/bypasses_armor.json
++ minecraft/tags/damage_type/bypasses_effects.json
++ minecraft/tags/damage_type/bypasses_enchantments.json
++ minecraft/tags/damage_type/bypasses_invulnerability.json
++ minecraft/tags/damage_type/bypasses_resistance.json
++ minecraft/tags/damage_type/damages_helmet.json
++ minecraft/tags/damage_type/ignites_armor_stands.json
++ minecraft/tags/damage_type/is_drowning.json
++ minecraft/tags/damage_type/is_explosion.json
++ minecraft/tags/damage_type/is_fall.json
++ minecraft/tags/damage_type/is_fire.json
++ minecraft/tags/damage_type/is_freezing.json
++ minecraft/tags/damage_type/is_lightning.json
++ minecraft/tags/damage_type/is_projectile.json
++ minecraft/tags/damage_type/no_anger.json
++ minecraft/tags/damage_type/no_impact.json
++ minecraft/tags/damage_type/witch_resistant_to.json
++ minecraft/tags/damage_type/wither_immune_to.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/shaders/core/rendertype_text_background_see_through.fsh
++ minecraft/shaders/core/rendertype_text_background_see_through.json
++ minecraft/shaders/core/rendertype_text_background_see_through.vsh
++ minecraft/shaders/core/rendertype_text_background.fsh
++ minecraft/shaders/core/rendertype_text_background.json
++ minecraft/shaders/core/rendertype_text_background.vsh
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:block_display
++ minecraft:item_display
++ minecraft:text_display
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:entity_dismount
++ minecraft:entity_mount
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ damage.txt
+```
+
+</details>
+
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute summon <entity: resource>
+```
+
+</details>
+
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule doVinesSpread <value: bool>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ damage_type/always_most_significant_fall.json
++ damage_type/always_triggers_silverfish.json
++ damage_type/avoids_guardian_thorns.json
++ damage_type/burns_armor_stands.json
++ damage_type/bypasses_armor.json
++ damage_type/bypasses_effects.json
++ damage_type/bypasses_enchantments.json
++ damage_type/bypasses_invulnerability.json
++ damage_type/bypasses_resistance.json
++ damage_type/damages_helmet.json
++ damage_type/ignites_armor_stands.json
++ damage_type/is_drowning.json
++ damage_type/is_explosion.json
++ damage_type/is_fall.json
++ damage_type/is_fire.json
++ damage_type/is_freezing.json
++ damage_type/is_lightning.json
++ damage_type/is_projectile.json
++ damage_type/no_anger.json
++ damage_type/no_impact.json
++ damage_type/witch_resistant_to.json
++ damage_type/wither_immune_to.json
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
++ minecraft:entity_dismount
++ minecraft:entity_mount
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
++ minecraft:entity_dismount
++ minecraft:entity_mount
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.damage.invulnerable
++ commands.damage.success
++ commands.ride.mount.failure.wrong_dimension
++ controls.keybinds.duplicateKeybinds
++ dataPack.bundle.name
++ dataPack.update_1_20.name
++ entity.minecraft.block_display
++ entity.minecraft.item_display
++ entity.minecraft.text_display
++ gamerule.doVinesSpread
++ gamerule.doVinesSpread.description
++ options.damageTiltStrength
++ options.damageTiltStrength.tooltip
++ painting.dimensions
++ painting.minecraft.alban.author
++ painting.minecraft.alban.title
++ painting.minecraft.aztec.author
++ painting.minecraft.aztec.title
++ painting.minecraft.aztec2.author
++ painting.minecraft.aztec2.title
++ painting.minecraft.bomb.author
++ painting.minecraft.bomb.title
++ painting.minecraft.burning_skull.author
++ painting.minecraft.burning_skull.title
++ painting.minecraft.bust.author
++ painting.minecraft.bust.title
++ painting.minecraft.courbet.author
++ painting.minecraft.courbet.title
++ painting.minecraft.creebet.author
++ painting.minecraft.creebet.title
++ painting.minecraft.donkey_kong.author
++ painting.minecraft.donkey_kong.title
++ painting.minecraft.earth.author
++ painting.minecraft.earth.title
++ painting.minecraft.fighters.author
++ painting.minecraft.fighters.title
++ painting.minecraft.fire.author
++ painting.minecraft.fire.title
++ painting.minecraft.graham.author
++ painting.minecraft.graham.title
++ painting.minecraft.kebab.author
++ painting.minecraft.kebab.title
++ painting.minecraft.match.author
++ painting.minecraft.match.title
++ painting.minecraft.pigscene.author
++ painting.minecraft.pigscene.title
++ painting.minecraft.plant.author
++ painting.minecraft.plant.title
++ painting.minecraft.pointer.author
++ painting.minecraft.pointer.title
++ painting.minecraft.pool.author
++ painting.minecraft.pool.title
++ painting.minecraft.sea.author
++ painting.minecraft.sea.title
++ painting.minecraft.skeleton.author
++ painting.minecraft.skeleton.title
++ painting.minecraft.skull_and_roses.author
++ painting.minecraft.skull_and_roses.title
++ painting.minecraft.stage.author
++ painting.minecraft.stage.title
++ painting.minecraft.sunset.author
++ painting.minecraft.sunset.title
++ painting.minecraft.void.author
++ painting.minecraft.void.title
++ painting.minecraft.wanderer.author
++ painting.minecraft.wanderer.title
++ painting.minecraft.wasteland.author
++ painting.minecraft.wasteland.title
++ painting.minecraft.water.author
++ painting.minecraft.water.title
++ painting.minecraft.wind.author
++ painting.minecraft.wind.title
++ painting.minecraft.wither.author
++ painting.minecraft.wither.title
++ painting.random
++ selectWorld.experiments
++ selectWorld.experiments.info
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>List</summary>
+
+```diff
++ damage_types.txt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ damage_type/always_most_significant_fall.json
++ damage_type/always_triggers_silverfish.json
++ damage_type/avoids_guardian_thorns.json
++ damage_type/burns_armor_stands.json
++ damage_type/bypasses_armor.json
++ damage_type/bypasses_effects.json
++ damage_type/bypasses_enchantments.json
++ damage_type/bypasses_invulnerability.json
++ damage_type/bypasses_resistance.json
++ damage_type/damages_helmet.json
++ damage_type/ignites_armor_stands.json
++ damage_type/is_drowning.json
++ damage_type/is_explosion.json
++ damage_type/is_fall.json
++ damage_type/is_fire.json
++ damage_type/is_freezing.json
++ damage_type/is_lightning.json
++ damage_type/is_projectile.json
++ damage_type/no_anger.json
++ damage_type/no_impact.json
++ damage_type/witch_resistant_to.json
++ damage_type/wither_immune_to.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.16.29
++ com.mojang:authlib:3.17.30
+```
+
+</details>

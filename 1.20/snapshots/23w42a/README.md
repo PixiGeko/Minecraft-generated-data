@@ -6,13 +6,16 @@
 <tr><th>Id</th><td>23w42a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-10-18T11:37:28+00:00</td></tr>
-<tr><th>SHA1</th><td>456ef8d0b5c09453a116cdafa94bbe31946919fd</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/456ef8d0b5c09453a116cdafa94bbe31946919fd/23w42a.json">https://piston-meta.mojang.com/v1/packages/456ef8d0b5c09453a116cdafa94bbe31946919fd/23w42a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/876da162bd4d650a8a63dc182a1af5290df02f16/9.json">https://piston-meta.mojang.com/v1/packages/876da162bd4d650a8a63dc182a1af5290df02f16/9.json</a></td></tr>
+<tr><th>SHA1</th><td>6b9d0f69bdeb443f1034460a5645bbb3f8bdc8b5</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/6b9d0f69bdeb443f1034460a5645bbb3f8bdc8b5/23w42a.json">https://piston-meta.mojang.com/v1/packages/6b9d0f69bdeb443f1034460a5645bbb3f8bdc8b5/23w42a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a508a03d826a803d094859e8bae1d699fb2873c8/9.json">https://piston-meta.mojang.com/v1/packages/a508a03d826a803d094859e8bae1d699fb2873c8/9.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/b5f423ba1c4191d133c0284a2b1b36da46f8b5f8/server.jar">https://piston-data.mojang.com/v1/objects/b5f423ba1c4191d133c0284a2b1b36da46f8b5f8/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/26d8b312ea92aa6a896181c0382c3ecac9fc3235/server.txt">https://piston-data.mojang.com/v1/objects/26d8b312ea92aa6a896181c0382c3ecac9fc3235/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/f187037d38f503ede8c593521b4ea33ce27d2373/client.jar">https://piston-data.mojang.com/v1/objects/f187037d38f503ede8c593521b4ea33ce27d2373/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3c4e5ebb21c2ed066bd80cf7f078abc88f331a2c/client.txt">https://piston-data.mojang.com/v1/objects/3c4e5ebb21c2ed066bd80cf7f078abc88f331a2c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
 
 <br/>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w10a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w10a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-03-10T15:24:38+00:00</td></tr>
@@ -10,1932 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1a24830dcaac223465f4b915759c87fb44c7a0e2/server.txt">https://piston-data.mojang.com/v1/objects/1a24830dcaac223465f4b915759c87fb44c7a0e2/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/7840a9b8d9aeb480b16962c40a2ca3758893f00e/client.jar">https://piston-data.mojang.com/v1/objects/7840a9b8d9aeb480b16962c40a2ca3758893f00e/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5f15280e2823d988faa4c3b83db33d11f82f6afd/client.txt">https://piston-data.mojang.com/v1/objects/5f15280e2823d988faa4c3b83db33d11f82f6afd/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w08b">21w08b</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/cracked_deepslate_bricks.json
-+  minecraft/advancements/recipes/building_blocks/cracked_deepslate_tiles.json
-+  minecraft/advancements/recipes/building_blocks/deepslate.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_bricks.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tiles.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/loot_tables/blocks/cracked_deepslate_bricks.json
-+  minecraft/loot_tables/blocks/cracked_deepslate_tiles.json
-+  minecraft/loot_tables/blocks/deepslate_coal_ore.json
-+  minecraft/loot_tables/blocks/deepslate_copper_ore.json
-+  minecraft/loot_tables/blocks/deepslate_emerald_ore.json
-+  minecraft/loot_tables/blocks/infested_deepslate.json
-+  minecraft/recipes/cracked_deepslate_bricks.json
-+  minecraft/recipes/cracked_deepslate_tiles.json
-+  minecraft/recipes/deepslate.json
-+  minecraft/recipes/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_bricks.json
-+  minecraft/recipes/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_bricks_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tiles.json
-+  minecraft/recipes/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_tiles_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_tiles_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
--  minecraft/tags/blocks/azalea_log_replaceable.json
-+  minecraft/tags/blocks/coal_ores.json
-+  minecraft/tags/blocks/copper_ores.json
-+  minecraft/tags/blocks/emerald_ores.json
-+  minecraft/tags/blocks/lush_ground_replaceable.json
-+  minecraft/tags/items/coal_ores.json
-+  minecraft/tags/items/copper_ores.json
-+  minecraft/tags/items/emerald_ores.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/cracked_deepslate_bricks.json
-+  minecraft/blockstates/cracked_deepslate_tiles.json
-+  minecraft/blockstates/deepslate_coal_ore.json
-+  minecraft/blockstates/deepslate_copper_ore.json
-+  minecraft/blockstates/deepslate_emerald_ore.json
-+  minecraft/blockstates/infested_deepslate.json
--  minecraft/models/block/cobbled_deepslate_mirrored.json
-+  minecraft/models/block/cracked_deepslate_bricks.json
-+  minecraft/models/block/cracked_deepslate_tiles.json
-+  minecraft/models/block/deepslate_coal_ore.json
-+  minecraft/models/block/deepslate_copper_ore.json
-+  minecraft/models/block/deepslate_emerald_ore.json
-+  minecraft/models/item/cracked_deepslate_bricks.json
-+  minecraft/models/item/cracked_deepslate_tiles.json
-+  minecraft/models/item/deepslate_coal_ore.json
-+  minecraft/models/item/deepslate_copper_ore.json
-+  minecraft/models/item/deepslate_emerald_ore.json
-+  minecraft/models/item/infested_deepslate.json
-+  minecraft/models/item/spyglass_in_hand.json
-+  minecraft/shaders/core
-+  minecraft/shaders/core/blit_screen.fsh
-+  minecraft/shaders/core/blit_screen.json
-+  minecraft/shaders/core/blit_screen.vsh
-+  minecraft/shaders/core/block.fsh
-+  minecraft/shaders/core/block.json
-+  minecraft/shaders/core/block.vsh
-+  minecraft/shaders/core/new_entity.fsh
-+  minecraft/shaders/core/new_entity.json
-+  minecraft/shaders/core/new_entity.vsh
-+  minecraft/shaders/core/particle.fsh
-+  minecraft/shaders/core/particle.json
-+  minecraft/shaders/core/particle.vsh
-+  minecraft/shaders/core/position.fsh
-+  minecraft/shaders/core/position.json
-+  minecraft/shaders/core/position.vsh
-+  minecraft/shaders/core/position_color.fsh
-+  minecraft/shaders/core/position_color.json
-+  minecraft/shaders/core/position_color.vsh
-+  minecraft/shaders/core/position_color_lightmap.fsh
-+  minecraft/shaders/core/position_color_lightmap.json
-+  minecraft/shaders/core/position_color_lightmap.vsh
-+  minecraft/shaders/core/position_color_normal.fsh
-+  minecraft/shaders/core/position_color_normal.json
-+  minecraft/shaders/core/position_color_normal.vsh
-+  minecraft/shaders/core/position_color_tex.fsh
-+  minecraft/shaders/core/position_color_tex.json
-+  minecraft/shaders/core/position_color_tex.vsh
-+  minecraft/shaders/core/position_color_tex_lightmap.fsh
-+  minecraft/shaders/core/position_color_tex_lightmap.json
-+  minecraft/shaders/core/position_color_tex_lightmap.vsh
-+  minecraft/shaders/core/position_tex.fsh
-+  minecraft/shaders/core/position_tex.json
-+  minecraft/shaders/core/position_tex.vsh
-+  minecraft/shaders/core/position_tex_color.fsh
-+  minecraft/shaders/core/position_tex_color.json
-+  minecraft/shaders/core/position_tex_color.vsh
-+  minecraft/shaders/core/position_tex_color_normal.fsh
-+  minecraft/shaders/core/position_tex_color_normal.json
-+  minecraft/shaders/core/position_tex_color_normal.vsh
-+  minecraft/shaders/core/position_tex_lightmap_color.fsh
-+  minecraft/shaders/core/position_tex_lightmap_color.json
-+  minecraft/shaders/core/position_tex_lightmap_color.vsh
-+  minecraft/shaders/core/rendertype_armor_cutout_no_cull.fsh
-+  minecraft/shaders/core/rendertype_armor_cutout_no_cull.json
-+  minecraft/shaders/core/rendertype_armor_cutout_no_cull.vsh
-+  minecraft/shaders/core/rendertype_armor_entity_glint.fsh
-+  minecraft/shaders/core/rendertype_armor_entity_glint.json
-+  minecraft/shaders/core/rendertype_armor_entity_glint.vsh
-+  minecraft/shaders/core/rendertype_armor_glint.fsh
-+  minecraft/shaders/core/rendertype_armor_glint.json
-+  minecraft/shaders/core/rendertype_armor_glint.vsh
-+  minecraft/shaders/core/rendertype_beacon_beam.fsh
-+  minecraft/shaders/core/rendertype_beacon_beam.json
-+  minecraft/shaders/core/rendertype_beacon_beam.vsh
-+  minecraft/shaders/core/rendertype_crumbling.fsh
-+  minecraft/shaders/core/rendertype_crumbling.json
-+  minecraft/shaders/core/rendertype_crumbling.vsh
-+  minecraft/shaders/core/rendertype_cutout.fsh
-+  minecraft/shaders/core/rendertype_cutout.json
-+  minecraft/shaders/core/rendertype_cutout.vsh
-+  minecraft/shaders/core/rendertype_cutout_mipped.fsh
-+  minecraft/shaders/core/rendertype_cutout_mipped.json
-+  minecraft/shaders/core/rendertype_cutout_mipped.vsh
-+  minecraft/shaders/core/rendertype_end_gateway.json
-+  minecraft/shaders/core/rendertype_end_portal.fsh
-+  minecraft/shaders/core/rendertype_end_portal.json
-+  minecraft/shaders/core/rendertype_end_portal.vsh
-+  minecraft/shaders/core/rendertype_energy_swirl.fsh
-+  minecraft/shaders/core/rendertype_energy_swirl.json
-+  minecraft/shaders/core/rendertype_energy_swirl.vsh
-+  minecraft/shaders/core/rendertype_entity_alpha.fsh
-+  minecraft/shaders/core/rendertype_entity_alpha.json
-+  minecraft/shaders/core/rendertype_entity_alpha.vsh
-+  minecraft/shaders/core/rendertype_entity_cutout.fsh
-+  minecraft/shaders/core/rendertype_entity_cutout.json
-+  minecraft/shaders/core/rendertype_entity_cutout.vsh
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull.fsh
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull.json
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull.vsh
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.fsh
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.json
-+  minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.vsh
-+  minecraft/shaders/core/rendertype_entity_decal.fsh
-+  minecraft/shaders/core/rendertype_entity_decal.json
-+  minecraft/shaders/core/rendertype_entity_decal.vsh
-+  minecraft/shaders/core/rendertype_entity_glint.fsh
-+  minecraft/shaders/core/rendertype_entity_glint.json
-+  minecraft/shaders/core/rendertype_entity_glint.vsh
-+  minecraft/shaders/core/rendertype_entity_glint_direct.fsh
-+  minecraft/shaders/core/rendertype_entity_glint_direct.json
-+  minecraft/shaders/core/rendertype_entity_glint_direct.vsh
-+  minecraft/shaders/core/rendertype_entity_no_outline.fsh
-+  minecraft/shaders/core/rendertype_entity_no_outline.json
-+  minecraft/shaders/core/rendertype_entity_no_outline.vsh
-+  minecraft/shaders/core/rendertype_entity_shadow.fsh
-+  minecraft/shaders/core/rendertype_entity_shadow.json
-+  minecraft/shaders/core/rendertype_entity_shadow.vsh
-+  minecraft/shaders/core/rendertype_entity_smooth_cutout.fsh
-+  minecraft/shaders/core/rendertype_entity_smooth_cutout.json
-+  minecraft/shaders/core/rendertype_entity_smooth_cutout.vsh
-+  minecraft/shaders/core/rendertype_entity_solid.fsh
-+  minecraft/shaders/core/rendertype_entity_solid.json
-+  minecraft/shaders/core/rendertype_entity_solid.vsh
-+  minecraft/shaders/core/rendertype_entity_translucent.fsh
-+  minecraft/shaders/core/rendertype_entity_translucent.json
-+  minecraft/shaders/core/rendertype_entity_translucent.vsh
-+  minecraft/shaders/core/rendertype_entity_translucent_cull.fsh
-+  minecraft/shaders/core/rendertype_entity_translucent_cull.json
-+  minecraft/shaders/core/rendertype_entity_translucent_cull.vsh
-+  minecraft/shaders/core/rendertype_eyes.fsh
-+  minecraft/shaders/core/rendertype_eyes.json
-+  minecraft/shaders/core/rendertype_eyes.vsh
-+  minecraft/shaders/core/rendertype_glint.fsh
-+  minecraft/shaders/core/rendertype_glint.json
-+  minecraft/shaders/core/rendertype_glint.vsh
-+  minecraft/shaders/core/rendertype_glint_direct.fsh
-+  minecraft/shaders/core/rendertype_glint_direct.json
-+  minecraft/shaders/core/rendertype_glint_direct.vsh
-+  minecraft/shaders/core/rendertype_glint_translucent.fsh
-+  minecraft/shaders/core/rendertype_glint_translucent.json
-+  minecraft/shaders/core/rendertype_glint_translucent.vsh
-+  minecraft/shaders/core/rendertype_item_entity_translucent_cull.fsh
-+  minecraft/shaders/core/rendertype_item_entity_translucent_cull.json
-+  minecraft/shaders/core/rendertype_item_entity_translucent_cull.vsh
-+  minecraft/shaders/core/rendertype_leash.fsh
-+  minecraft/shaders/core/rendertype_leash.json
-+  minecraft/shaders/core/rendertype_leash.vsh
-+  minecraft/shaders/core/rendertype_lightning.fsh
-+  minecraft/shaders/core/rendertype_lightning.json
-+  minecraft/shaders/core/rendertype_lightning.vsh
-+  minecraft/shaders/core/rendertype_lines.fsh
-+  minecraft/shaders/core/rendertype_lines.json
-+  minecraft/shaders/core/rendertype_lines.vsh
-+  minecraft/shaders/core/rendertype_outline.fsh
-+  minecraft/shaders/core/rendertype_outline.json
-+  minecraft/shaders/core/rendertype_outline.vsh
-+  minecraft/shaders/core/rendertype_solid.fsh
-+  minecraft/shaders/core/rendertype_solid.json
-+  minecraft/shaders/core/rendertype_solid.vsh
-+  minecraft/shaders/core/rendertype_text.fsh
-+  minecraft/shaders/core/rendertype_text.json
-+  minecraft/shaders/core/rendertype_text.vsh
-+  minecraft/shaders/core/rendertype_text_see_through.fsh
-+  minecraft/shaders/core/rendertype_text_see_through.json
-+  minecraft/shaders/core/rendertype_text_see_through.vsh
-+  minecraft/shaders/core/rendertype_translucent.fsh
-+  minecraft/shaders/core/rendertype_translucent.json
-+  minecraft/shaders/core/rendertype_translucent.vsh
-+  minecraft/shaders/core/rendertype_translucent_moving_block.fsh
-+  minecraft/shaders/core/rendertype_translucent_moving_block.json
-+  minecraft/shaders/core/rendertype_translucent_moving_block.vsh
-+  minecraft/shaders/core/rendertype_translucent_no_crumbling.fsh
-+  minecraft/shaders/core/rendertype_translucent_no_crumbling.json
-+  minecraft/shaders/core/rendertype_translucent_no_crumbling.vsh
-+  minecraft/shaders/core/rendertype_tripwire.fsh
-+  minecraft/shaders/core/rendertype_tripwire.json
-+  minecraft/shaders/core/rendertype_tripwire.vsh
-+  minecraft/shaders/core/rendertype_water_mask.fsh
-+  minecraft/shaders/core/rendertype_water_mask.json
-+  minecraft/shaders/core/rendertype_water_mask.vsh
-+  minecraft/shaders/include
-+  minecraft/shaders/include/fog.glsl
-+  minecraft/shaders/include/light.glsl
-+  minecraft/shaders/include/matrix.glsl
-+  minecraft/shaders/include/projection.glsl
-+  minecraft/textures/block/cracked_deepslate_bricks.png
-+  minecraft/textures/block/cracked_deepslate_tiles.png
-+  minecraft/textures/block/deepslate_coal_ore.png
-+  minecraft/textures/block/deepslate_copper_ore.png
-+  minecraft/textures/block/deepslate_emerald_ore.png
-+  minecraft/textures/item/spyglass_model.png
-+  minecraft/textures/misc/white.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/biomes/lush_caves.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:deepslate_coal_ore
-+ minecraft:deepslate_emerald_ore
-+ minecraft:deepslate_copper_ore
-+ minecraft:cracked_deepslate_bricks
-+ minecraft:cracked_deepslate_tiles
-+ minecraft:infested_deepslate
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:deepslate_copper_ore
-+ minecraft:deepslate_coal_ore
-+ minecraft:infested_deepslate
-+ minecraft:cracked_deepslate_bricks
-+ minecraft:cracked_deepslate_tiles
-+ minecraft:deepslate_emerald_ore
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.glow_item_frame.add_item
-+ minecraft:entity.glow_item_frame.break
-+ minecraft:entity.glow_item_frame.place
-+ minecraft:entity.glow_item_frame.remove_item
-+ minecraft:entity.glow_item_frame.rotate_item
-```
-
-</details>
-
-<details><summary>worldgen/block_state_provider_type.txt</summary>
-
-```diff
-+ minecraft:randomized_int_state_provider
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:top_solid_heightmap
-- minecraft:heightmap_world_surface
-+ minecraft:heightmap_with_water_threshold
-+ minecraft:cave_surface
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-+ minecraft:growing_plant
-+ minecraft:vegetation_patch
-+ minecraft:waterlogged_vegetation_patch
-+ minecraft:root_system
-```
-
-</details>
-
-<details><summary>worldgen/foliage_placer_type.txt</summary>
-
-```diff
-+ minecraft:random_spread_foliage_placer
-```
-
-</details>
-
-<details><summary>worldgen/trunk_placer_type.txt</summary>
-
-```diff
-+ minecraft:bending_trunk_placer
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/azalea_log_replaceable.json
-+ blocks/coal_ores.json
-+ blocks/copper_ores.json
-+ blocks/emerald_ores.json
-+ blocks/lush_ground_replaceable.json
-+ items/coal_ores.json
-+ items/copper_ores.json
-+ items/emerald_ores.json
-```
-
-</details>
-
-<details><summary>blocks/lush_plants_replaceable.json</summary>
-
-```diff
-- minecraft:moss_block
-- #minecraft:flowers
-- minecraft:grass
-- minecraft:tall_grass
-- minecraft:moss_carpet
-- minecraft:small_dripleaf
-- minecraft:big_dripleaf
-- minecraft:big_dripleaf_stem
-- minecraft:vine
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/cracked_deepslate_bricks.json
-+ recipes/building_blocks/cracked_deepslate_tiles.json
-+ recipes/building_blocks/deepslate.json
-+ recipes/building_blocks/deepslate_bricks.json
-+ recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tiles.json
-+ recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting.json
-+ recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+ recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
-+ recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
-+ recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
-+ recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
-+ recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
-+ recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/cracked_deepslate_bricks.json
-+ blocks/cracked_deepslate_tiles.json
-+ blocks/deepslate_coal_ore.json
-+ blocks/deepslate_copper_ore.json
-+ blocks/deepslate_emerald_ore.json
-+ blocks/infested_deepslate.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ cracked_deepslate_bricks.json
-+ cracked_deepslate_tiles.json
-+ deepslate.json
-+ deepslate_bricks.json
-+ deepslate_bricks_from_cobbled_deepslate_stonecutting.json
-+ deepslate_bricks_from_polished_deepslate_stonecutting.json
-+ deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
-+ deepslate_brick_slab_from_polished_deepslate_stonecutting.json
-+ deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
-+ deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
-+ deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
-+ deepslate_brick_wall_from_polished_deepslate_stonecutting.json
-+ deepslate_tiles.json
-+ deepslate_tiles_from_cobbled_deepslate_stonecutting.json
-+ deepslate_tiles_from_deepslate_bricks_stonecutting.json
-+ deepslate_tiles_from_polished_deepslate_stonecutting.json
-+ deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
-+ deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
-+ deepslate_tile_slab_from_polished_deepslate_stonecutting.json
-+ deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
-+ deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
-+ deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
-+ deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
-+ deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
-+ deepslate_tile_wall_from_polished_deepslate_stonecutting.json
-+ polished_deepslate_from_cobbled_deepslate_stonecutting.json
-+ polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+ polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+ polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/azalea_log_replaceable.json
-+ blocks/coal_ores.json
-+ blocks/copper_ores.json
-+ blocks/emerald_ores.json
-+ blocks/lush_ground_replaceable.json
-+ items/coal_ores.json
-+ items/copper_ores.json
-+ items/emerald_ores.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/cracked_deepslate_bricks.png
-+ block/cracked_deepslate_tiles.png
-+ block/deepslate_coal_ore.png
-+ block/deepslate_copper_ore.png
-+ block/deepslate_emerald_ore.png
-+ item/spyglass_model.png
-+ misc/white.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
-
-```diff
-- void bindRead()
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.platform.GLX</summary>
-
-```diff
-- Map LOOKUP_MAP
-- String capsString
-- String _getCapsString()
-- String getErrorString(int)
-- void _setupNvFogDistance()
-- void lambda$static$3(HashMap)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ float shaderFogEnd
-+ float shaderFogStart
-+ float shaderGameTime
-+ float shaderLineWidth
-+ float[] shaderColor
-+ float[] shaderFogColor
-+ int[] shaderTextures
-+ Matrix4f modelViewMatrix
-+ Matrix4f projectionMatrix
-+ Matrix4f savedProjectionMatrix
-+ Matrix4f textureMatrix
-+ PoseStack modelViewStack
-+ RenderSystem$AutoStorageIndexBuffer sharedSequentialLines
-+ ShaderInstance shader
-+ Vector3f[] shaderLightDirections
-- float DEFAULTALPHACUTOFF
-+ float getShaderFogEnd()
-+ float getShaderFogStart()
-+ float getShaderGameTime()
-+ float getShaderLineWidth()
-+ float[] getShaderColor()
-+ float[] getShaderFogColor()
-+ int getShaderTexture(int)
-+ int getTextureId(int)
-+ Matrix4f getModelViewMatrix()
-+ Matrix4f getProjectionMatrix()
-+ Matrix4f getTextureMatrix()
-+ PoseStack getModelViewStack()
-+ ShaderInstance getShader()
-+ void _backupProjectionMatrix()
-+ void _restoreProjectionMatrix()
-+ void _setShaderColor(float,float,float,float)
-+ void _setShaderFogColor(float,float,float,float)
-+ void _setShaderFogEnd(float)
-+ void _setShaderFogStart(float)
-+ void _setShaderLights(Vector3f)
-+ void _setShaderTexture(int,int)
-+ void _setShaderTexture(ResourceLocation)
-+ void applyModelViewMatrix()
-+ void backupProjectionMatrix()
-+ void bindTextureForSetup(int)
-+ void glBindBuffer(IntSupplier)
-+ void glBindVertexArray(Supplier)
-+ void glDeleteVertexArrays(int)
-+ void glGenVertexArrays(Consumer)
-+ void lambda$activeTexture$13(int)
-+ void lambda$applyModelViewMatrix$66(Matrix4f)
-+ void lambda$backupProjectionMatrix$67()
-+ void lambda$bindTexture$16(int)
-+ void lambda$blendEquation$9(int)
-+ void lambda$blendFunc$5(GlStateManager$DestFactor)
-+ void lambda$blendFunc$6(int,int)
-+ void lambda$blendFuncSeparate$7(GlStateManager$DestFactor)
-+ void lambda$blendFuncSeparate$8(int,int,int,int)
-+ void lambda$clear$25(int,boolean)
-+ void lambda$clearColor$23(float,float,float,float)
-+ void lambda$clearDepth$22(double)
-+ void lambda$clearStencil$24(int)
-+ void lambda$colorMask$18(boolean,boolean,boolean,boolean)
-+ void lambda$deleteTexture$15(int)
-+ void lambda$depthFunc$3(int)
-+ void lambda$depthMask$4(boolean)
-+ void lambda$drawElements$31(int,int,int)
-+ void lambda$enableScissor$2(int,int,int,int)
-+ void lambda$getString$35(Consumer)
-+ void lambda$glBindBuffer$37(IntSupplier)
-+ void lambda$glBindVertexArray$38(Supplier)
-+ void lambda$glDeleteBuffers$39(int)
-+ void lambda$glDeleteVertexArrays$40(int)
-+ void lambda$glGenBuffers$58(Consumer)
-+ void lambda$glGenVertexArrays$59(Consumer)
-+ void lambda$glUniform1$42(IntBuffer)
-+ void lambda$glUniform1$46(FloatBuffer)
-+ void lambda$glUniform1i$41(int,int)
-+ void lambda$glUniform2$43(IntBuffer)
-+ void lambda$glUniform2$47(FloatBuffer)
-+ void lambda$glUniform3$44(IntBuffer)
-+ void lambda$glUniform3$48(FloatBuffer)
-+ void lambda$glUniform4$45(IntBuffer)
-+ void lambda$glUniform4$49(FloatBuffer)
-+ void lambda$glUniformMatrix2$50(FloatBuffer)
-+ void lambda$glUniformMatrix3$51(FloatBuffer)
-+ void lambda$glUniformMatrix4$52(FloatBuffer)
-+ void lambda$lineWidth$32(float)
-+ void lambda$logicOp$12(GlStateManager$LogicOp)
-+ void lambda$pixelStore$33(int,int)
-+ void lambda$polygonMode$10(int,int)
-+ void lambda$polygonOffset$11(float,float)
-+ void lambda$readPixels$34(ByteBuffer)
-+ void lambda$renderCrosshair$36(int)
-+ void lambda$resetTextureMatrix$65()
-+ void lambda$restoreProjectionMatrix$68()
-+ void lambda$setProjectionMatrix$63(Matrix4f)
-+ void lambda$setShader$60(Supplier)
-+ void lambda$setShaderColor$30(float,float,float,float)
-+ void lambda$setShaderFogColor$28(float,float,float,float)
-+ void lambda$setShaderFogEnd$27(float)
-+ void lambda$setShaderFogStart$26(float)
-+ void lambda$setShaderGameTime$69(float)
-+ void lambda$setShaderLights$29(Vector3f)
-+ void lambda$setShaderTexture$61(ResourceLocation)
-+ void lambda$setShaderTexture$62(int,int)
-+ void lambda$setTextureMatrix$64(Matrix4f)
-+ void lambda$setupGui3DDiffuseLighting$57(Vector3f)
-+ void lambda$setupGuiFlatDiffuseLighting$56(Vector3f)
-+ void lambda$setupLevelDiffuseLighting$55(Matrix4f)
-+ void lambda$setupOverlayColor$53(IntSupplier)
-+ void lambda$static$1(IntConsumer,int)
-+ void lambda$stencilFunc$19(int,int,int)
-+ void lambda$stencilMask$20(int)
-+ void lambda$stencilOp$21(int,int,int)
-+ void lambda$teardownOverlayColor$54()
-+ void lambda$texParameter$14(int,int,int)
-+ void lambda$viewport$17(int,int,int,int)
-+ void resetTextureMatrix()
-+ void restoreProjectionMatrix()
-+ void setProjectionMatrix(Matrix4f)
-+ void setShader(Supplier)
-+ void setShaderColor(float,float,float,float)
-+ void setShaderColor(float,float,float)
-+ void setShaderFogColor(float,float,float,float)
-+ void setShaderFogColor(float,float,float)
-+ void setShaderFogEnd(float)
-+ void setShaderFogStart(float)
-+ void setShaderGameTime(long,float)
-+ void setShaderLights(Vector3f)
-+ void setShaderTexture(int,int)
-+ void setShaderTexture(ResourceLocation)
-+ void setTextureMatrix(Matrix4f)
-+ void setupShaderLights(ShaderInstance)
-- void alphaFunc(int,float)
-- void blendColor(float,float,float,float)
-- void clearCurrentColor()
-- void clearTexGen()
-- void color3f(float,float,float)
-- void color4f(float,float,float,float)
-- void colorMaterial(int,int)
-- void defaultAlphaFunc()
-- void disableAlphaTest()
-- void disableColorMaterial()
-- void disableFog()
-- void disableLighting()
-- void disableLineOffset()
-- void disableRescaleNormal()
-- void enableAlphaTest()
-- void enableColorMaterial()
-- void enableFog()
-- void enableLighting()
-- void enableLineOffset()
-- void enableRescaleNormal()
-- void fog(int,float,float,float,float)
-- void fogDensity(float)
-- void fogEnd(float)
-- void fogi(int,int)
-- void fogMode(GlStateManager$FogMode)
-- void fogMode(int)
-- void fogStart(float)
-- void glBindBuffer(Supplier)
-- void glMultiTexCoord2f(int,float,float)
-- void lambda$activeTexture$23(int)
-- void lambda$alphaFunc$1(int,float)
-- void lambda$bindTexture$26(int)
-- void lambda$blendColor$12(float,float,float,float)
-- void lambda$blendEquation$11(int)
-- void lambda$blendFunc$7(GlStateManager$DestFactor)
-- void lambda$blendFunc$8(int,int)
-- void lambda$blendFuncSeparate$10(int,int,int,int)
-- void lambda$blendFuncSeparate$9(GlStateManager$DestFactor)
-- void lambda$clear$36(int,boolean)
-- void lambda$clearColor$34(float,float,float,float)
-- void lambda$clearDepth$33(double)
-- void lambda$clearStencil$35(int)
-- void lambda$color3f$46(float,float,float)
-- void lambda$color4f$45(float,float,float,float)
-- void lambda$colorMask$29(boolean,boolean,boolean,boolean)
-- void lambda$colorMaterial$2(int,int)
-- void lambda$deleteTexture$25(int)
-- void lambda$depthFunc$5(int)
-- void lambda$depthMask$6(boolean)
-- void lambda$drawElements$47(int,int,int)
-- void lambda$enableScissor$4(int,int,int,int)
-- void lambda$fog$18(int,float,float,float,float)
-- void lambda$fogDensity$15(float)
-- void lambda$fogEnd$17(float)
-- void lambda$fogi$19(int,int)
-- void lambda$fogMode$13(GlStateManager$FogMode)
-- void lambda$fogMode$14(int)
-- void lambda$fogStart$16(float)
-- void lambda$getString$52(Consumer)
-- void lambda$glBindBuffer$55(Supplier)
-- void lambda$glDeleteBuffers$56(int)
-- void lambda$glGenBuffers$73(Consumer)
-- void lambda$glMultiTexCoord2f$54(int,float,float)
-- void lambda$glUniform1$58(IntBuffer)
-- void lambda$glUniform1$62(FloatBuffer)
-- void lambda$glUniform1i$57(int,int)
-- void lambda$glUniform2$59(IntBuffer)
-- void lambda$glUniform2$63(FloatBuffer)
-- void lambda$glUniform3$60(IntBuffer)
-- void lambda$glUniform3$64(FloatBuffer)
-- void lambda$glUniform4$61(IntBuffer)
-- void lambda$glUniform4$65(FloatBuffer)
-- void lambda$glUniformMatrix2$66(FloatBuffer)
-- void lambda$glUniformMatrix3$67(FloatBuffer)
-- void lambda$glUniformMatrix4$68(FloatBuffer)
-- void lambda$lineWidth$48(float)
-- void lambda$logicOp$22(GlStateManager$LogicOp)
-- void lambda$matrixMode$37(int)
-- void lambda$multMatrix$44(Matrix4f)
-- void lambda$normal3f$3(float,float,float)
-- void lambda$ortho$38(double,double,double,double,double,double)
-- void lambda$pixelStore$49(int,int)
-- void lambda$pixelTransfer$50(int,float)
-- void lambda$polygonMode$20(int,int)
-- void lambda$polygonOffset$21(float,float)
-- void lambda$readPixels$51(ByteBuffer)
-- void lambda$renderCrosshair$53(int)
-- void lambda$rotatef$39(float,float,float,float)
-- void lambda$scaled$41(double,double,double)
-- void lambda$scalef$40(float,float,float)
-- void lambda$setupGui3DDiffuseLighting$72(Vector3f)
-- void lambda$setupGuiFlatDiffuseLighting$71(Vector3f)
-- void lambda$setupLevelDiffuseLighting$70(Matrix4f)
-- void lambda$setupOverlayColor$69(IntSupplier,int)
-- void lambda$shadeModel$27(int)
-- void lambda$stencilFunc$30(int,int,int)
-- void lambda$stencilMask$31(int)
-- void lambda$stencilOp$32(int,int,int)
-- void lambda$texParameter$24(int,int,int)
-- void lambda$translated$43(double,double,double)
-- void lambda$translatef$42(float,float,float)
-- void lambda$viewport$28(int,int,int,int)
-- void loadIdentity()
-- void matrixMode(int)
-- void mulTextureByProjModelView()
-- void multMatrix(Matrix4f)
-- void normal3f(float,float,float)
-- void ortho(double,double,double,double,double,double)
-- void pixelTransfer(int,float)
-- void popAttributes()
-- void popMatrix()
-- void pushLightingAttributes()
-- void pushMatrix()
-- void pushTextureAttributes()
-- void rotatef(float,float,float,float)
-- void scaled(double,double,double)
-- void scalef(float,float,float)
-- void setupEndPortalTexGen()
-- void setupNvFogDistance()
-- void setupOutline()
-- void shadeModel(int)
-- void teardownOutline()
-- void translated(double,double,double)
-- void translatef(float,float,float)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferUploader</summary>
-
-```diff
-+ int lastIndexBufferObject
-+ int lastVertexArrayObject
-+ int lastVertexBufferObject
-+ VertexFormat lastFormat
-- int indexBufferObject
-- int vertexBufferObject
-+ void _endInternal(BufferBuilder)
-+ void invalidateElementArrayBufferBinding()
-+ void reset()
-+ void updateVertexSetup(VertexFormat)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.DefaultVertexFormat</summary>
-
-```diff
-+ VertexFormat BLIT_SCREEN
-+ VertexFormat POSITION_COLOR_NORMAL
-+ VertexFormatElement ELEMENT_UV
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.PoseStack</summary>
-
-```diff
-+ void mulPoseMatrix(Matrix4f)
-+ void setIdentity()
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexFormat$Mode</summary>
-
-```diff
-+ VertexFormat$Mode DEBUG_LINE_STRIP
-+ VertexFormat$Mode DEBUG_LINES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.BrewingStandMenu$PotionSlot</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.CartographyTableMenu$5</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ContainerListener</summary>
-
-```diff
-+ void dataChanged(net.minecraft.world.inventory.AbstractContainerMenu,int,int)
-- void refreshContainer(net.minecraft.world.inventory.AbstractContainerMenu,net.minecraft.core.NonNullList)
-- void setContainerData(net.minecraft.world.inventory.AbstractContainerMenu,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
-
-```diff
-+ void tryPlaceLeaf(BlockPos$MutableBlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacerType</summary>
-
-```diff
-+ FoliagePlacerType RANDOM_SPREAD_FOLIAGE_PLACER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement</summary>
-
-```diff
-+ Vec3i getSize(Rotation)
-- BlockPos getSize(Rotation)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
-
-```diff
-+ Vec3i getSize(Rotation)
-- BlockPos getSize(Rotation)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
-
-```diff
-+ Vec3i getSize(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.block.Rotation)
-- BlockPos getSize(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.block.Rotation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ FeatureDecorator CAVE_SURFACE
-+ FeatureDecorator WATER_DEPTH_THRESHOLD
-- FeatureDecorator HEIGHTMAP_WORLD_SURFACE
-- FeatureDecorator TOP_SOLID_HEIGHTMAP
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
-
-```diff
-+ Codec CODEC
-+ BlockPos getCenter()
-+ boolean equals(Object)
-+ BoundingBox createProper(Vec3i)
-+ BoundingBox encapsulate(BlockPos)
-+ BoundingBox lambda$null$0(int[])
-+ BoundingBox move(int,int,int)
-+ BoundingBox move(Vec3i)
-+ DataResult lambda$static$1(IntStream)
-+ int hashCode()
-+ IntStream lambda$static$2(BoundingBox)
-+ void <clinit>()
-+ void <init>(BlockPos)
-+ void forAllCorners(Consumer)
-- boolean intersects(int,int,int,int,int,int)
-- boolean intersects(Vec3i)
-- boolean isInsideOf(BoundingBox)
-- BoundingBox getIntersection(BoundingBox)
-- IntArrayTag createTag()
-- Vec3i getCenter()
-- void <init>()
-- void <init>(int[])
-- void <init>(Vec3i)
-- void inflate(double,double,double)
-- void inflate(double)
-- void move(int,int,int)
-- void move(Vec3i)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
-
-```diff
-+ Logger LOGGER
-+ Logger access$000()
-+ MineShaftPieces$MineShaftPiece access$100(Direction,int)
-+ void <clinit>()
-- MineShaftPieces$MineShaftPiece access$000(Direction,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
-
-```diff
-+ Logger LOGGER
-+ void lambda$createTag$0(Tag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
-
-```diff
-+ Vec3i size
-- BlockPos size
-+ BoundingBox getBoundingBox(Vec3i)
-+ Vec3i getSize()
-+ Vec3i getSize(Rotation)
-+ void fillFromWorld(Block)
-- BlockPos getSize()
-- BlockPos getSize(Rotation)
-- void fillFromWorld(Block)
-- void mirrorAABB(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.GlDebug
@@ -6212,1792 +4308,421 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.FileUtil</summary>
+<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
 
 ```diff
-+ String getFullResourcePath(String)
-+ String normalizeResourcePath(String)
+- void bindRead()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
+<details><summary>com.mojang.blaze3d.platform.GLX</summary>
 
 ```diff
-+ Codec CODEC
+- String _getCapsString()
+- String getErrorString(int)
+- void _setupNvFogDistance()
+- void lambda$static$3(HashMap)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BlockFamily$Variant</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ BlockFamily$Variant CRACKED
++ float getShaderFogEnd()
++ float getShaderFogStart()
++ float getShaderGameTime()
++ float getShaderLineWidth()
++ float[] getShaderColor()
++ float[] getShaderFogColor()
++ int getShaderTexture(int)
++ int getTextureId(int)
++ Matrix4f getModelViewMatrix()
++ Matrix4f getProjectionMatrix()
++ Matrix4f getTextureMatrix()
++ PoseStack getModelViewStack()
++ ShaderInstance getShader()
++ void _backupProjectionMatrix()
++ void _restoreProjectionMatrix()
++ void _setShaderColor(float,float,float,float)
++ void _setShaderFogColor(float,float,float,float)
++ void _setShaderFogEnd(float)
++ void _setShaderFogStart(float)
++ void _setShaderLights(Vector3f,Vector3f)
++ void _setShaderTexture(int,int)
++ void _setShaderTexture(int,ResourceLocation)
+- void alphaFunc(int,float)
++ void applyModelViewMatrix()
++ void backupProjectionMatrix()
++ void bindTextureForSetup(int)
+- void blendColor(float,float,float,float)
+- void clearCurrentColor()
+- void clearTexGen()
+- void color3f(float,float,float)
+- void color4f(float,float,float,float)
+- void colorMaterial(int,int)
+- void defaultAlphaFunc()
+- void disableAlphaTest()
+- void disableColorMaterial()
+- void disableFog()
+- void disableLighting()
+- void disableLineOffset()
+- void disableRescaleNormal()
+- void enableAlphaTest()
+- void enableColorMaterial()
+- void enableFog()
+- void enableLighting()
+- void enableLineOffset()
+- void enableRescaleNormal()
+- void fog(int,float,float,float,float)
+- void fogDensity(float)
+- void fogEnd(float)
+- void fogi(int,int)
+- void fogMode(GlStateManager$FogMode)
+- void fogMode(int)
+- void fogStart(float)
++ void glBindBuffer(int,IntSupplier)
+- void glBindBuffer(int,Supplier)
++ void glBindVertexArray(Supplier)
++ void glDeleteVertexArrays(int)
++ void glGenVertexArrays(Consumer)
+- void glMultiTexCoord2f(int,float,float)
++ void lambda$activeTexture$13(int)
+- void lambda$activeTexture$23(int)
+- void lambda$alphaFunc$1(int,float)
++ void lambda$applyModelViewMatrix$66(Matrix4f)
++ void lambda$backupProjectionMatrix$67()
++ void lambda$bindTexture$16(int)
+- void lambda$bindTexture$26(int)
+- void lambda$blendColor$12(float,float,float,float)
+- void lambda$blendEquation$11(int)
++ void lambda$blendEquation$9(int)
++ void lambda$blendFunc$5(GlStateManager$SourceFactor,GlStateManager$DestFactor)
++ void lambda$blendFunc$6(int,int)
+- void lambda$blendFunc$7(GlStateManager$SourceFactor,GlStateManager$DestFactor)
+- void lambda$blendFunc$8(int,int)
+- void lambda$blendFuncSeparate$10(int,int,int,int)
++ void lambda$blendFuncSeparate$7(GlStateManager$SourceFactor,GlStateManager$DestFactor,GlStateManager$SourceFactor,GlStateManager$DestFactor)
++ void lambda$blendFuncSeparate$8(int,int,int,int)
+- void lambda$blendFuncSeparate$9(GlStateManager$SourceFactor,GlStateManager$DestFactor,GlStateManager$SourceFactor,GlStateManager$DestFactor)
++ void lambda$clear$25(int,boolean)
+- void lambda$clear$36(int,boolean)
++ void lambda$clearColor$23(float,float,float,float)
+- void lambda$clearColor$34(float,float,float,float)
++ void lambda$clearDepth$22(double)
+- void lambda$clearDepth$33(double)
++ void lambda$clearStencil$24(int)
+- void lambda$clearStencil$35(int)
+- void lambda$color3f$46(float,float,float)
+- void lambda$color4f$45(float,float,float,float)
++ void lambda$colorMask$18(boolean,boolean,boolean,boolean)
+- void lambda$colorMask$29(boolean,boolean,boolean,boolean)
+- void lambda$colorMaterial$2(int,int)
++ void lambda$deleteTexture$15(int)
+- void lambda$deleteTexture$25(int)
++ void lambda$depthFunc$3(int)
+- void lambda$depthFunc$5(int)
++ void lambda$depthMask$4(boolean)
+- void lambda$depthMask$6(boolean)
++ void lambda$drawElements$31(int,int,int)
+- void lambda$drawElements$47(int,int,int)
++ void lambda$enableScissor$2(int,int,int,int)
+- void lambda$enableScissor$4(int,int,int,int)
+- void lambda$fog$18(int,float,float,float,float)
+- void lambda$fogDensity$15(float)
+- void lambda$fogEnd$17(float)
+- void lambda$fogi$19(int,int)
+- void lambda$fogMode$13(GlStateManager$FogMode)
+- void lambda$fogMode$14(int)
+- void lambda$fogStart$16(float)
++ void lambda$getString$35(int,Consumer)
+- void lambda$getString$52(int,Consumer)
++ void lambda$glBindBuffer$37(int,IntSupplier)
+- void lambda$glBindBuffer$55(int,Supplier)
++ void lambda$glBindVertexArray$38(Supplier)
++ void lambda$glDeleteBuffers$39(int)
+- void lambda$glDeleteBuffers$56(int)
++ void lambda$glDeleteVertexArrays$40(int)
++ void lambda$glGenBuffers$58(Consumer)
+- void lambda$glGenBuffers$73(Consumer)
++ void lambda$glGenVertexArrays$59(Consumer)
+- void lambda$glMultiTexCoord2f$54(int,float,float)
++ void lambda$glUniform1$42(int,IntBuffer)
++ void lambda$glUniform1$46(int,FloatBuffer)
+- void lambda$glUniform1$58(int,IntBuffer)
+- void lambda$glUniform1$62(int,FloatBuffer)
++ void lambda$glUniform1i$41(int,int)
+- void lambda$glUniform1i$57(int,int)
++ void lambda$glUniform2$43(int,IntBuffer)
++ void lambda$glUniform2$47(int,FloatBuffer)
+- void lambda$glUniform2$59(int,IntBuffer)
+- void lambda$glUniform2$63(int,FloatBuffer)
++ void lambda$glUniform3$44(int,IntBuffer)
++ void lambda$glUniform3$48(int,FloatBuffer)
+- void lambda$glUniform3$60(int,IntBuffer)
+- void lambda$glUniform3$64(int,FloatBuffer)
++ void lambda$glUniform4$45(int,IntBuffer)
++ void lambda$glUniform4$49(int,FloatBuffer)
+- void lambda$glUniform4$61(int,IntBuffer)
+- void lambda$glUniform4$65(int,FloatBuffer)
++ void lambda$glUniformMatrix2$50(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix2$66(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix3$51(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix3$67(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix4$52(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix4$68(int,boolean,FloatBuffer)
++ void lambda$lineWidth$32(float)
+- void lambda$lineWidth$48(float)
++ void lambda$logicOp$12(GlStateManager$LogicOp)
+- void lambda$logicOp$22(GlStateManager$LogicOp)
+- void lambda$matrixMode$37(int)
+- void lambda$multMatrix$44(Matrix4f)
+- void lambda$normal3f$3(float,float,float)
+- void lambda$ortho$38(double,double,double,double,double,double)
++ void lambda$pixelStore$33(int,int)
+- void lambda$pixelStore$49(int,int)
+- void lambda$pixelTransfer$50(int,float)
++ void lambda$polygonMode$10(int,int)
+- void lambda$polygonMode$20(int,int)
++ void lambda$polygonOffset$11(float,float)
+- void lambda$polygonOffset$21(float,float)
++ void lambda$readPixels$34(int,int,int,int,int,int,ByteBuffer)
+- void lambda$readPixels$51(int,int,int,int,int,int,ByteBuffer)
++ void lambda$renderCrosshair$36(int)
+- void lambda$renderCrosshair$53(int)
++ void lambda$resetTextureMatrix$65()
++ void lambda$restoreProjectionMatrix$68()
+- void lambda$rotatef$39(float,float,float,float)
+- void lambda$scaled$41(double,double,double)
+- void lambda$scalef$40(float,float,float)
++ void lambda$setProjectionMatrix$63(Matrix4f)
++ void lambda$setShader$60(Supplier)
++ void lambda$setShaderColor$30(float,float,float,float)
++ void lambda$setShaderFogColor$28(float,float,float,float)
++ void lambda$setShaderFogEnd$27(float)
++ void lambda$setShaderFogStart$26(float)
++ void lambda$setShaderGameTime$69(float)
++ void lambda$setShaderLights$29(Vector3f,Vector3f)
++ void lambda$setShaderTexture$61(int,ResourceLocation)
++ void lambda$setShaderTexture$62(int,int)
++ void lambda$setTextureMatrix$64(Matrix4f)
++ void lambda$setupGui3DDiffuseLighting$57(Vector3f,Vector3f)
+- void lambda$setupGui3DDiffuseLighting$72(Vector3f,Vector3f)
++ void lambda$setupGuiFlatDiffuseLighting$56(Vector3f,Vector3f)
+- void lambda$setupGuiFlatDiffuseLighting$71(Vector3f,Vector3f)
++ void lambda$setupLevelDiffuseLighting$55(Vector3f,Vector3f,Matrix4f)
+- void lambda$setupLevelDiffuseLighting$70(Vector3f,Vector3f,Matrix4f)
++ void lambda$setupOverlayColor$53(IntSupplier)
+- void lambda$setupOverlayColor$69(IntSupplier,int)
+- void lambda$shadeModel$27(int)
++ void lambda$static$1(IntConsumer,int)
++ void lambda$stencilFunc$19(int,int,int)
+- void lambda$stencilFunc$30(int,int,int)
++ void lambda$stencilMask$20(int)
+- void lambda$stencilMask$31(int)
++ void lambda$stencilOp$21(int,int,int)
+- void lambda$stencilOp$32(int,int,int)
++ void lambda$teardownOverlayColor$54()
++ void lambda$texParameter$14(int,int,int)
+- void lambda$texParameter$24(int,int,int)
+- void lambda$translated$43(double,double,double)
+- void lambda$translatef$42(float,float,float)
++ void lambda$viewport$17(int,int,int,int)
+- void lambda$viewport$28(int,int,int,int)
+- void loadIdentity()
+- void matrixMode(int)
+- void mulTextureByProjModelView()
+- void multMatrix(Matrix4f)
+- void normal3f(float,float,float)
+- void ortho(double,double,double,double,double,double)
+- void pixelTransfer(int,float)
+- void popAttributes()
+- void popMatrix()
+- void pushLightingAttributes()
+- void pushMatrix()
+- void pushTextureAttributes()
++ void resetTextureMatrix()
++ void restoreProjectionMatrix()
+- void rotatef(float,float,float,float)
+- void scaled(double,double,double)
+- void scalef(float,float,float)
++ void setProjectionMatrix(Matrix4f)
++ void setShader(Supplier)
++ void setShaderColor(float,float,float,float)
++ void setShaderColor(float,float,float)
++ void setShaderFogColor(float,float,float,float)
++ void setShaderFogColor(float,float,float)
++ void setShaderFogEnd(float)
++ void setShaderFogStart(float)
++ void setShaderGameTime(long,float)
++ void setShaderLights(Vector3f,Vector3f)
++ void setShaderTexture(int,int)
++ void setShaderTexture(int,ResourceLocation)
++ void setTextureMatrix(Matrix4f)
+- void setupEndPortalTexGen()
+- void setupNvFogDistance()
+- void setupOutline()
++ void setupShaderLights(ShaderInstance)
+- void shadeModel(int)
+- void teardownOutline()
+- void translated(double,double,double)
+- void translatef(float,float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators$BlockFamilyProvider</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferUploader</summary>
 
 ```diff
-+ BlockModelGenerators$BlockFamilyProvider access$2400(Block)
-+ BlockModelGenerators$BlockFamilyProvider fullBlockVariant(Block)
++ void _endInternal(BufferBuilder)
++ void invalidateElementArrayBufferBinding()
++ void reset()
++ void updateVertexSetup(VertexFormat)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
+<details><summary>com.mojang.blaze3d.vertex.PoseStack</summary>
 
 ```diff
-+ ConfiguredFeature AZALEA_TREE
-+ ConfiguredFeature CAVE_VINE
-+ ConfiguredFeature CAVE_VINE_IN_MOSS
-+ ConfiguredFeature CAVE_VINES
-+ ConfiguredFeature CLASSIC_VINES_CAVE_FEATURE
-+ ConfiguredFeature CLAY_POOL_WITH_DRIPLEAVES
-+ ConfiguredFeature CLAY_WITH_DRIPLEAVES
-+ ConfiguredFeature DRIPLEAF
-+ ConfiguredFeature FOSSIL_LOWER
-+ ConfiguredFeature FOSSIL_UPPER
-+ ConfiguredFeature LUSH_CAVES_CEILING_VEGETATION
-+ ConfiguredFeature LUSH_CAVES_CLAY
-+ ConfiguredFeature LUSH_CAVES_VEGETATION
-+ ConfiguredFeature MOSS_PATCH
-+ ConfiguredFeature MOSS_PATCH_BONEMEAL
-+ ConfiguredFeature MOSS_PATCH_CEILING
-+ ConfiguredFeature MOSS_VEGETATION
-+ ConfiguredFeature ORE_CLAY
-+ ConfiguredFeature ROOTED_AZALEA_TREES
-+ ConfiguredFeature SPORE_BLOSSOM_FEATURE
-+ ConfiguredFeature SWAMP_OAK
-+ ConfiguredFeature TREES_BADLANDS
-+ ConfiguredFeature TREES_SNOWY
-+ ConfiguredFeature TREES_SWAMP
-+ ImmutableList FOSSIL_COAL_STRUCTURES
-+ ImmutableList FOSSIL_STRUCTURES
-+ ImmutableList ORE_INFESTED_TARGET_LIST
-+ RandomizedIntStateProvider CAVE_VINES_HEAD_PROVIDER
-+ WeightedStateProvider CAVE_VINES_BODY_PROVIDER
-- ConfiguredFeature FOSSIL
-- ConfiguredFeature OAK_BADLANDS
-- ConfiguredFeature SPRUCE_SNOWY
-- ConfiguredFeature SWAMP_TREE
-- OreConfiguration ORE_COAL_CONFIG
-+ ConfiguredFeature lambda$static$10()
-+ ConfiguredFeature lambda$static$11()
-+ ConfiguredFeature lambda$static$12()
-+ ConfiguredFeature lambda$static$13()
-+ ConfiguredFeature lambda$static$14()
-+ ConfiguredFeature lambda$static$15()
-+ ConfiguredFeature lambda$static$16()
-+ ConfiguredFeature lambda$static$9()
-+ ConfiguredFeature makeDripleaf(Direction)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features$Decorators</summary>
-
-```diff
-+ ConfiguredDecorator HEIGHTMAP_OCEAN_FLOOR
-+ ConfiguredDecorator HEIGHTMAP_TOP_SOLID
-+ ConfiguredDecorator HEIGHTMAP_WITH_TREE_THRESHOLD
-+ ConfiguredDecorator HEIGHTMAP_WITH_TREE_THRESHOLD_SQUARED
-+ RangeDecoratorConfiguration RANGE_BOTTOM_TO_60
-- ConfiguredDecorator TOP_SOLID_HEIGHTMAP
++ void mulPoseMatrix(Matrix4f)
++ void setIdentity()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
+<details><summary>net.minecraft.world.inventory.BrewingStandMenu$PotionSlot</summary>
 
 ```diff
-+ Biome lushCaves()
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundContainerClickPacket</summary>
+<details><summary>net.minecraft.world.inventory.CartographyTableMenu$5</summary>
 
 ```diff
-+ Int2ObjectMap changedSlots
-+ ItemStack carriedItem
-- ItemStack itemStack
-- short uid
-+ Int2ObjectMap getChangedSlots()
-+ Integer lambda$new$0(FriendlyByteBuf)
-+ ItemStack getCarriedItem()
-+ void <init>(Int2ObjectMap)
-- ItemStack getItem()
-- short getUid()
-- void <init>(ItemStack,short)
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
 
 ```diff
-+ Vec3i size
-- BlockPos size
-+ Vec3i getSize()
-+ void <init>(String,boolean,boolean,boolean,float,long)
++ void tryPlaceLeaf(LevelSimulatedRW,Random,TreeConfiguration,Set,BoundingBox,BlockPos$MutableBlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.FeaturePoolElement</summary>
+
+```diff
+- BlockPos getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureManager,Rotation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
+
+```diff
+- BlockPos getSize(StructureManager,Rotation)
++ Vec3i getSize(StructureManager,Rotation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
+
+```diff
++ BlockPos getCenter()
++ boolean equals(Object)
+- boolean intersects(int,int,int,int,int,int)
+- boolean intersects(Vec3i,Vec3i)
+- boolean isInsideOf(BoundingBox)
++ BoundingBox createProper(Vec3i,Vec3i)
++ BoundingBox encapsulate(BlockPos)
+- BoundingBox getIntersection(BoundingBox)
++ BoundingBox lambda$null$0(int[])
++ BoundingBox move(int,int,int)
++ BoundingBox move(Vec3i)
++ DataResult lambda$static$1(IntStream)
++ int hashCode()
+- IntArrayTag createTag()
++ IntStream lambda$static$2(BoundingBox)
+- Vec3i getCenter()
++ void <clinit>()
+- void <init>()
++ void <init>(BlockPos)
+- void <init>(int[])
+- void <init>(Vec3i,Vec3i)
++ void forAllCorners(Consumer)
+- void inflate(double,double,double)
+- void inflate(double)
+- void move(int,int,int)
+- void move(Vec3i)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
+
+```diff
++ Logger access$000()
+- MineShaftPieces$MineShaftPiece access$000(StructurePiece,List,Random,int,int,int,Direction,int)
++ MineShaftPieces$MineShaftPiece access$100(StructurePiece,List,Random,int,int,int,Direction,int)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
+
+```diff
++ void lambda$createTag$0(CompoundTag,Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
+
+```diff
 - BlockPos getSize()
-- void <init>(String,boolean,boolean,boolean,float,long)
+- BlockPos getSize(Rotation)
++ BoundingBox getBoundingBox(BlockPos,Rotation,BlockPos,Mirror,Vec3i)
++ Vec3i getSize()
++ Vec3i getSize(Rotation)
+- void fillFromWorld(Level,BlockPos,BlockPos,boolean,Block)
++ void fillFromWorld(Level,BlockPos,Vec3i,boolean,Block)
+- void mirrorAABB(Rotation,int,int,BoundingBox,Direction,Direction)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ ContainerListener containerListener
-+ ContainerSynchronizer containerSynchronizer
-- boolean ignoreSlotUpdateHack
-+ void initInventoryMenu()
-+ void initMenu(AbstractContainerMenu)
-- void broadcastCarriedItem()
-- void initMenu()
-- void refreshContainer(AbstractContainerMenu)
-- void refreshContainer(NonNullList)
-- void setContainerData(AbstractContainerMenu,int,int)
-- void slotChanged(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
-
-```diff
-+ Resource getResource(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent GLOW_ITEM_FRAME_ADD_ITEM
-+ SoundEvent GLOW_ITEM_FRAME_BREAK
-+ SoundEvent GLOW_ITEM_FRAME_PLACE
-+ SoundEvent GLOW_ITEM_FRAME_REMOVE_ITEM
-+ SoundEvent GLOW_ITEM_FRAME_ROTATE_ITEM
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named COAL_ORES
-+ Tag$Named COPPER_ORES
-+ Tag$Named EMERALD_ORES
-+ Tag$Named LUSH_GROUND_REPLACEABLE
-- Tag$Named AZALEA_LOG_REPLACEABLE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named COAL_ORES
-+ Tag$Named COPPER_ORES
-+ Tag$Named EMERALD_ORES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ SoundEvent getAddItemSound()
-+ SoundEvent getBreakSound()
-+ SoundEvent getPlaceSound()
-+ SoundEvent getRemoveItemSound()
-+ SoundEvent getRotateItemSound()
-- boolean isGlowFrame()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.CraftingMenu</summary>
-
-```diff
-+ void slotChangedCraftingGrid(ResultContainer)
-- void slotChangedCraftingGrid(ResultContainer)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.FurnaceResultSlot</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.LoomMenu$6</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.MerchantResultSlot</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.ResultSlot</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.inventory.Slot</summary>
-
-```diff
-+ int getContainerSlot()
-+ Optional tryRemove(Player)
-+ void lambda$safeTake$0(ItemStack)
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.StonecutterMenu$2</summary>
-
-```diff
-+ void onTake(ItemStack)
-- ItemStack onTake(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BundleItem</summary>
-
-```diff
-+ boolean overrideOtherStackedOnMe(SlotAccess)
-+ boolean overrideStackedOnOther(Player)
-- boolean overrideOtherStackedOnMe(Inventory)
-- boolean overrideStackedOnOther(Inventory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ boolean overrideOtherStackedOnMe(SlotAccess)
-+ boolean overrideStackedOnOther(Player)
-- boolean overrideOtherStackedOnMe(Inventory)
-- boolean overrideStackedOnOther(Inventory)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ boolean overrideOtherStackedOnMe(SlotAccess)
-+ boolean overrideStackedOnOther(Player)
-- boolean overrideOtherStackedOnMe(Inventory)
-- boolean overrideStackedOnOther(Inventory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ void lambda$generate$18(StructureStart)
-- void lambda$generate$18(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
-
-```diff
-+ ResourceKey LUSH_CAVES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
-
-```diff
-+ BlockState getColumnState(BlockState)
-+ boolean canExistIn(BlockState)
-+ void updateColumn(BlockState)
-+ void updateColumn(BlockState)
-- boolean canExistIn(BlockPos)
-- boolean getDrag(BlockPos)
-- void growColumn(BlockPos,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SignBlock</summary>
-
-```diff
-- BooleanProperty LIT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
-
-```diff
-+ Vec3i structureSize
-- BlockPos structureSize
-+ boolean lambda$detectSize$0(BoundingBox)
-+ boolean lambda$getRelatedCorners$1(BlockPos)
-+ boolean lambda$getRelatedCorners$2(BlockEntity)
-+ boolean lambda$getRelatedCorners$4(StructureBlockEntity)
-+ Optional calculateEnclosingBoundingBox(Stream)
-+ Stream getRelatedCorners(BlockPos)
-+ StructureBlockEntity lambda$getRelatedCorners$3(BlockEntity)
-+ Vec3i getStructureSize()
-+ void lambda$loadStructure$5(BlockPos)
-+ void setStructureSize(Vec3i)
-- BlockPos getStructureSize()
-- boolean lambda$filterRelatedCornerBlocks$0(StructureBlockEntity)
-- BoundingBox calculateEnclosingBoundingBox(List)
-- BoundingBox getStructureBoundingBox(BlockPos)
-- List filterRelatedCornerBlocks(List)
-- List getNearbyCornerBlocks(BlockPos)
-- void setStructureSize(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ void fillNoiseColumn(double[],int,int,int,int)
-+ void lambda$doFill$6(NoiseInterpolator)
-+ void lambda$doFill$7(NoiseInterpolator)
-+ void lambda$doFill$8(NoiseInterpolator)
-+ void lambda$doFill$9(NoiseInterpolator)
-- void swapFirstTwoElements(Object[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
-
-```diff
-+ double cavify(int,int,int,double)
-- double cavify(int,int,int,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeature</summary>
-
-```diff
-- ResourceLocation SKULL_1
-- ResourceLocation SKULL_1_COAL
-- ResourceLocation SKULL_2
-- ResourceLocation SKULL_2_COAL
-- ResourceLocation SKULL_3
-- ResourceLocation SKULL_3_COAL
-- ResourceLocation SKULL_4
-- ResourceLocation SKULL_4_COAL
-- ResourceLocation SPINE_1
-- ResourceLocation SPINE_1_COAL
-- ResourceLocation SPINE_2
-- ResourceLocation SPINE_2_COAL
-- ResourceLocation SPINE_3
-- ResourceLocation SPINE_3_COAL
-- ResourceLocation SPINE_4
-- ResourceLocation SPINE_4_COAL
-- ResourceLocation[] fossils
-- ResourceLocation[] fossilsCoal
-+ int countEmptyCorners(BoundingBox)
-+ void lambda$countEmptyCorners$2(BlockPos)
-+ void lambda$place$0(StructureProcessor)
-+ void lambda$place$1(StructureProcessor)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
-
-```diff
-+ BlockStateProvider dirtProvider
-+ BlockStateProvider foliageProvider
-+ boolean forceDirt
-- BlockStateProvider leavesProvider
-- boolean fromSapling
-- Heightmap$Types heightmap
-- int maxWaterDepth
-+ BlockStateProvider lambda$null$2(TreeConfiguration)
-+ BlockStateProvider lambda$null$4(TreeConfiguration)
-+ Boolean lambda$null$8(TreeConfiguration)
-+ FeatureSize lambda$null$5(TreeConfiguration)
-+ FoliagePlacer lambda$null$3(TreeConfiguration)
-+ List lambda$null$6(TreeConfiguration)
-+ TrunkPlacer lambda$null$1(TreeConfiguration)
-+ void <init>(List,boolean,boolean)
-- BlockStateProvider lambda$null$1(TreeConfiguration)
-- FeatureSize lambda$null$4(TreeConfiguration)
-- FoliagePlacer lambda$null$2(TreeConfiguration)
-- Heightmap$Types lambda$null$8(TreeConfiguration)
-- Integer lambda$null$6(TreeConfiguration)
-- List lambda$null$5(TreeConfiguration)
-- TrunkPlacer lambda$null$3(TreeConfiguration)
-- void <init>(Heightmap$Types)
-- void setFromSapling()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType</summary>
-
-```diff
-+ BlockStateProviderType RANDOMIZED_INT_STATE_PROVIDER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
-
-```diff
-+ void setDirtAt(TreeConfiguration)
-- void setDirtAt(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.HeightmapDoubleDecorator</summary>
-
-```diff
-+ Stream getPositions(BlockPos)
-- Heightmap$Types type(DecoratorConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.network.protocol.game.ClientboundContainerAckPacket
@@ -9823,13 +6548,918 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.FileUtil</summary>
+
+```diff
++ String getFullResourcePath(String)
++ String normalizeResourcePath(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators$BlockFamilyProvider</summary>
+
+```diff
++ BlockModelGenerators$BlockFamilyProvider access$2400(BlockModelGenerators$BlockFamilyProvider,Block)
++ BlockModelGenerators$BlockFamilyProvider fullBlockVariant(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.Features</summary>
+
+```diff
++ ConfiguredFeature lambda$static$10()
++ ConfiguredFeature lambda$static$11()
++ ConfiguredFeature lambda$static$12()
++ ConfiguredFeature lambda$static$13()
++ ConfiguredFeature lambda$static$14()
++ ConfiguredFeature lambda$static$15()
++ ConfiguredFeature lambda$static$16()
++ ConfiguredFeature lambda$static$9()
++ ConfiguredFeature makeDripleaf(Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
+
+```diff
++ Biome lushCaves()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundContainerClickPacket</summary>
+
+```diff
++ Int2ObjectMap getChangedSlots()
++ Integer lambda$new$0(FriendlyByteBuf)
++ ItemStack getCarriedItem()
+- ItemStack getItem()
+- short getUid()
++ void <init>(int,int,int,ClickType,ItemStack,Int2ObjectMap)
+- void <init>(int,int,int,ClickType,ItemStack,short)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
+
+```diff
+- BlockPos getSize()
++ Vec3i getSize()
+- void <init>(BlockPos,StructureBlockEntity$UpdateType,StructureMode,String,BlockPos,BlockPos,Mirror,Rotation,String,boolean,boolean,boolean,float,long)
++ void <init>(BlockPos,StructureBlockEntity$UpdateType,StructureMode,String,BlockPos,Vec3i,Mirror,Rotation,String,boolean,boolean,boolean,float,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
+- void broadcastCarriedItem()
++ void initInventoryMenu()
+- void initMenu()
++ void initMenu(AbstractContainerMenu)
+- void refreshContainer(AbstractContainerMenu,NonNullList)
+- void refreshContainer(AbstractContainerMenu)
+- void setContainerData(AbstractContainerMenu,int,int)
+- void slotChanged(AbstractContainerMenu,int,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.VanillaPackResources</summary>
+
+```diff
++ Resource getResource(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
+
+```diff
+- boolean isGlowFrame()
++ SoundEvent getAddItemSound()
++ SoundEvent getBreakSound()
++ SoundEvent getPlaceSound()
++ SoundEvent getRemoveItemSound()
++ SoundEvent getRotateItemSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.CraftingMenu</summary>
+
+```diff
++ void slotChangedCraftingGrid(AbstractContainerMenu,Level,Player,CraftingContainer,ResultContainer)
+- void slotChangedCraftingGrid(int,Level,Player,CraftingContainer,ResultContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.FurnaceResultSlot</summary>
+
+```diff
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.LoomMenu$6</summary>
+
+```diff
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.MerchantResultSlot</summary>
+
+```diff
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.ResultSlot</summary>
+
+```diff
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.Slot</summary>
+
+```diff
++ int getContainerSlot()
+- ItemStack onTake(Player,ItemStack)
++ Optional tryRemove(int,int,Player)
++ void lambda$safeTake$0(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.StonecutterMenu$2</summary>
+
+```diff
+- ItemStack onTake(Player,ItemStack)
++ void onTake(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BundleItem</summary>
+
+```diff
+- boolean overrideOtherStackedOnMe(ItemStack,ItemStack,Slot,ClickAction,Inventory)
++ boolean overrideOtherStackedOnMe(ItemStack,ItemStack,Slot,ClickAction,Player,SlotAccess)
+- boolean overrideStackedOnOther(ItemStack,Slot,ClickAction,Inventory)
++ boolean overrideStackedOnOther(ItemStack,Slot,ClickAction,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item</summary>
+
+```diff
+- boolean overrideOtherStackedOnMe(ItemStack,ItemStack,Slot,ClickAction,Inventory)
++ boolean overrideOtherStackedOnMe(ItemStack,ItemStack,Slot,ClickAction,Player,SlotAccess)
+- boolean overrideStackedOnOther(ItemStack,Slot,ClickAction,Inventory)
++ boolean overrideStackedOnOther(ItemStack,Slot,ClickAction,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
+- boolean overrideOtherStackedOnMe(ItemStack,Slot,ClickAction,Inventory)
++ boolean overrideOtherStackedOnMe(ItemStack,Slot,ClickAction,Player,SlotAccess)
+- boolean overrideStackedOnOther(Slot,ClickAction,Inventory)
++ boolean overrideStackedOnOther(Slot,ClickAction,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
++ void lambda$generate$18(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,int,int,StructureStart)
+- void lambda$generate$18(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,int,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
+
+```diff
++ BlockState getColumnState(BlockState)
++ boolean canExistIn(BlockState)
+- boolean canExistIn(LevelAccessor,BlockPos)
+- boolean getDrag(BlockGetter,BlockPos)
+- void growColumn(LevelAccessor,BlockPos,boolean)
++ void updateColumn(LevelAccessor,BlockPos,BlockState,BlockState)
++ void updateColumn(LevelAccessor,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
+- BlockPos getStructureSize()
++ boolean lambda$detectSize$0(BlockPos,BoundingBox)
+- boolean lambda$filterRelatedCornerBlocks$0(StructureBlockEntity)
++ boolean lambda$getRelatedCorners$1(BlockPos)
++ boolean lambda$getRelatedCorners$2(BlockEntity)
++ boolean lambda$getRelatedCorners$4(StructureBlockEntity)
+- BoundingBox calculateEnclosingBoundingBox(BlockPos,List)
+- BoundingBox getStructureBoundingBox(BlockPos)
+- List filterRelatedCornerBlocks(List)
+- List getNearbyCornerBlocks(BlockPos,BlockPos)
++ Optional calculateEnclosingBoundingBox(BlockPos,Stream)
++ Stream getRelatedCorners(BlockPos,BlockPos)
++ StructureBlockEntity lambda$getRelatedCorners$3(BlockEntity)
++ Vec3i getStructureSize()
++ void lambda$loadStructure$5(ServerLevel,BlockPos)
+- void setStructureSize(BlockPos)
++ void setStructureSize(Vec3i)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
++ void fillNoiseColumn(double[],int,int,int,int)
++ void lambda$doFill$6(int,NoiseInterpolator)
++ void lambda$doFill$7(int,int,NoiseInterpolator)
++ void lambda$doFill$8(double,NoiseInterpolator)
++ void lambda$doFill$9(double,NoiseInterpolator)
+- void swapFirstTwoElements(Object[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
+
+```diff
+- double cavify(int,int,int,double,double)
++ double cavify(int,int,int,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.FossilFeature</summary>
+
+```diff
++ int countEmptyCorners(WorldGenLevel,BoundingBox)
+- void <clinit>()
++ void lambda$countEmptyCorners$2(WorldGenLevel,MutableInt,BlockPos)
++ void lambda$place$0(StructurePlaceSettings,StructureProcessor)
++ void lambda$place$1(StructurePlaceSettings,StructureProcessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration</summary>
+
+```diff
+- BlockStateProvider lambda$null$1(TreeConfiguration)
++ BlockStateProvider lambda$null$2(TreeConfiguration)
++ BlockStateProvider lambda$null$4(TreeConfiguration)
++ Boolean lambda$null$8(TreeConfiguration)
+- FeatureSize lambda$null$4(TreeConfiguration)
++ FeatureSize lambda$null$5(TreeConfiguration)
+- FoliagePlacer lambda$null$2(TreeConfiguration)
++ FoliagePlacer lambda$null$3(TreeConfiguration)
+- Heightmap$Types lambda$null$8(TreeConfiguration)
+- Integer lambda$null$6(TreeConfiguration)
+- List lambda$null$5(TreeConfiguration)
++ List lambda$null$6(TreeConfiguration)
++ TrunkPlacer lambda$null$1(TreeConfiguration)
+- TrunkPlacer lambda$null$3(TreeConfiguration)
+- void <init>(BlockStateProvider,BlockStateProvider,FoliagePlacer,TrunkPlacer,FeatureSize,List,int,boolean,Heightmap$Types)
++ void <init>(BlockStateProvider,TrunkPlacer,BlockStateProvider,FoliagePlacer,BlockStateProvider,FeatureSize,List,boolean,boolean)
+- void setFromSapling()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
+
+```diff
+- void setDirtAt(LevelSimulatedRW,BlockPos)
++ void setDirtAt(LevelSimulatedRW,Random,BlockPos,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.HeightmapDoubleDecorator</summary>
+
+```diff
+- Heightmap$Types type(DecoratorConfiguration)
++ Stream getPositions(DecorationContext,Random,HeightmapConfiguration,BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/cracked_deepslate_bricks.json
++ minecraft/advancements/recipes/building_blocks/cracked_deepslate_tiles.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_bricks.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tiles.json
++ minecraft/advancements/recipes/building_blocks/deepslate.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/loot_tables/blocks/cracked_deepslate_bricks.json
++ minecraft/loot_tables/blocks/cracked_deepslate_tiles.json
++ minecraft/loot_tables/blocks/deepslate_coal_ore.json
++ minecraft/loot_tables/blocks/deepslate_copper_ore.json
++ minecraft/loot_tables/blocks/deepslate_emerald_ore.json
++ minecraft/loot_tables/blocks/infested_deepslate.json
++ minecraft/recipes/cracked_deepslate_bricks.json
++ minecraft/recipes/cracked_deepslate_tiles.json
++ minecraft/recipes/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_bricks_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_bricks.json
++ minecraft/recipes/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tiles_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_tiles_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/deepslate_tiles.json
++ minecraft/recipes/deepslate.json
++ minecraft/recipes/polished_deepslate_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
+- minecraft/tags/blocks/azalea_log_replaceable.json
++ minecraft/tags/blocks/coal_ores.json
++ minecraft/tags/blocks/copper_ores.json
++ minecraft/tags/blocks/emerald_ores.json
++ minecraft/tags/blocks/lush_ground_replaceable.json
++ minecraft/tags/items/coal_ores.json
++ minecraft/tags/items/copper_ores.json
++ minecraft/tags/items/emerald_ores.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/cracked_deepslate_bricks.json
++ minecraft/blockstates/cracked_deepslate_tiles.json
++ minecraft/blockstates/deepslate_coal_ore.json
++ minecraft/blockstates/deepslate_copper_ore.json
++ minecraft/blockstates/deepslate_emerald_ore.json
++ minecraft/blockstates/infested_deepslate.json
+- minecraft/models/block/cobbled_deepslate_mirrored.json
++ minecraft/models/block/cracked_deepslate_bricks.json
++ minecraft/models/block/cracked_deepslate_tiles.json
++ minecraft/models/block/deepslate_coal_ore.json
++ minecraft/models/block/deepslate_copper_ore.json
++ minecraft/models/block/deepslate_emerald_ore.json
++ minecraft/models/item/cracked_deepslate_bricks.json
++ minecraft/models/item/cracked_deepslate_tiles.json
++ minecraft/models/item/deepslate_coal_ore.json
++ minecraft/models/item/deepslate_copper_ore.json
++ minecraft/models/item/deepslate_emerald_ore.json
++ minecraft/models/item/infested_deepslate.json
++ minecraft/models/item/spyglass_in_hand.json
++ minecraft/shaders/core/blit_screen.fsh
++ minecraft/shaders/core/blit_screen.json
++ minecraft/shaders/core/blit_screen.vsh
++ minecraft/shaders/core/block.fsh
++ minecraft/shaders/core/block.json
++ minecraft/shaders/core/block.vsh
++ minecraft/shaders/core/new_entity.fsh
++ minecraft/shaders/core/new_entity.json
++ minecraft/shaders/core/new_entity.vsh
++ minecraft/shaders/core/particle.fsh
++ minecraft/shaders/core/particle.json
++ minecraft/shaders/core/particle.vsh
++ minecraft/shaders/core/position_color_lightmap.fsh
++ minecraft/shaders/core/position_color_lightmap.json
++ minecraft/shaders/core/position_color_lightmap.vsh
++ minecraft/shaders/core/position_color_normal.fsh
++ minecraft/shaders/core/position_color_normal.json
++ minecraft/shaders/core/position_color_normal.vsh
++ minecraft/shaders/core/position_color_tex_lightmap.fsh
++ minecraft/shaders/core/position_color_tex_lightmap.json
++ minecraft/shaders/core/position_color_tex_lightmap.vsh
++ minecraft/shaders/core/position_color_tex.fsh
++ minecraft/shaders/core/position_color_tex.json
++ minecraft/shaders/core/position_color_tex.vsh
++ minecraft/shaders/core/position_color.fsh
++ minecraft/shaders/core/position_color.json
++ minecraft/shaders/core/position_color.vsh
++ minecraft/shaders/core/position_tex_color_normal.fsh
++ minecraft/shaders/core/position_tex_color_normal.json
++ minecraft/shaders/core/position_tex_color_normal.vsh
++ minecraft/shaders/core/position_tex_color.fsh
++ minecraft/shaders/core/position_tex_color.json
++ minecraft/shaders/core/position_tex_color.vsh
++ minecraft/shaders/core/position_tex_lightmap_color.fsh
++ minecraft/shaders/core/position_tex_lightmap_color.json
++ minecraft/shaders/core/position_tex_lightmap_color.vsh
++ minecraft/shaders/core/position_tex.fsh
++ minecraft/shaders/core/position_tex.json
++ minecraft/shaders/core/position_tex.vsh
++ minecraft/shaders/core/position.fsh
++ minecraft/shaders/core/position.json
++ minecraft/shaders/core/position.vsh
++ minecraft/shaders/core/rendertype_armor_cutout_no_cull.fsh
++ minecraft/shaders/core/rendertype_armor_cutout_no_cull.json
++ minecraft/shaders/core/rendertype_armor_cutout_no_cull.vsh
++ minecraft/shaders/core/rendertype_armor_entity_glint.fsh
++ minecraft/shaders/core/rendertype_armor_entity_glint.json
++ minecraft/shaders/core/rendertype_armor_entity_glint.vsh
++ minecraft/shaders/core/rendertype_armor_glint.fsh
++ minecraft/shaders/core/rendertype_armor_glint.json
++ minecraft/shaders/core/rendertype_armor_glint.vsh
++ minecraft/shaders/core/rendertype_beacon_beam.fsh
++ minecraft/shaders/core/rendertype_beacon_beam.json
++ minecraft/shaders/core/rendertype_beacon_beam.vsh
++ minecraft/shaders/core/rendertype_crumbling.fsh
++ minecraft/shaders/core/rendertype_crumbling.json
++ minecraft/shaders/core/rendertype_crumbling.vsh
++ minecraft/shaders/core/rendertype_cutout_mipped.fsh
++ minecraft/shaders/core/rendertype_cutout_mipped.json
++ minecraft/shaders/core/rendertype_cutout_mipped.vsh
++ minecraft/shaders/core/rendertype_cutout.fsh
++ minecraft/shaders/core/rendertype_cutout.json
++ minecraft/shaders/core/rendertype_cutout.vsh
++ minecraft/shaders/core/rendertype_end_gateway.json
++ minecraft/shaders/core/rendertype_end_portal.fsh
++ minecraft/shaders/core/rendertype_end_portal.json
++ minecraft/shaders/core/rendertype_end_portal.vsh
++ minecraft/shaders/core/rendertype_energy_swirl.fsh
++ minecraft/shaders/core/rendertype_energy_swirl.json
++ minecraft/shaders/core/rendertype_energy_swirl.vsh
++ minecraft/shaders/core/rendertype_entity_alpha.fsh
++ minecraft/shaders/core/rendertype_entity_alpha.json
++ minecraft/shaders/core/rendertype_entity_alpha.vsh
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.fsh
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.json
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull_z_offset.vsh
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull.fsh
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull.json
++ minecraft/shaders/core/rendertype_entity_cutout_no_cull.vsh
++ minecraft/shaders/core/rendertype_entity_cutout.fsh
++ minecraft/shaders/core/rendertype_entity_cutout.json
++ minecraft/shaders/core/rendertype_entity_cutout.vsh
++ minecraft/shaders/core/rendertype_entity_decal.fsh
++ minecraft/shaders/core/rendertype_entity_decal.json
++ minecraft/shaders/core/rendertype_entity_decal.vsh
++ minecraft/shaders/core/rendertype_entity_glint_direct.fsh
++ minecraft/shaders/core/rendertype_entity_glint_direct.json
++ minecraft/shaders/core/rendertype_entity_glint_direct.vsh
++ minecraft/shaders/core/rendertype_entity_glint.fsh
++ minecraft/shaders/core/rendertype_entity_glint.json
++ minecraft/shaders/core/rendertype_entity_glint.vsh
++ minecraft/shaders/core/rendertype_entity_no_outline.fsh
++ minecraft/shaders/core/rendertype_entity_no_outline.json
++ minecraft/shaders/core/rendertype_entity_no_outline.vsh
++ minecraft/shaders/core/rendertype_entity_shadow.fsh
++ minecraft/shaders/core/rendertype_entity_shadow.json
++ minecraft/shaders/core/rendertype_entity_shadow.vsh
++ minecraft/shaders/core/rendertype_entity_smooth_cutout.fsh
++ minecraft/shaders/core/rendertype_entity_smooth_cutout.json
++ minecraft/shaders/core/rendertype_entity_smooth_cutout.vsh
++ minecraft/shaders/core/rendertype_entity_solid.fsh
++ minecraft/shaders/core/rendertype_entity_solid.json
++ minecraft/shaders/core/rendertype_entity_solid.vsh
++ minecraft/shaders/core/rendertype_entity_translucent_cull.fsh
++ minecraft/shaders/core/rendertype_entity_translucent_cull.json
++ minecraft/shaders/core/rendertype_entity_translucent_cull.vsh
++ minecraft/shaders/core/rendertype_entity_translucent.fsh
++ minecraft/shaders/core/rendertype_entity_translucent.json
++ minecraft/shaders/core/rendertype_entity_translucent.vsh
++ minecraft/shaders/core/rendertype_eyes.fsh
++ minecraft/shaders/core/rendertype_eyes.json
++ minecraft/shaders/core/rendertype_eyes.vsh
++ minecraft/shaders/core/rendertype_glint_direct.fsh
++ minecraft/shaders/core/rendertype_glint_direct.json
++ minecraft/shaders/core/rendertype_glint_direct.vsh
++ minecraft/shaders/core/rendertype_glint_translucent.fsh
++ minecraft/shaders/core/rendertype_glint_translucent.json
++ minecraft/shaders/core/rendertype_glint_translucent.vsh
++ minecraft/shaders/core/rendertype_glint.fsh
++ minecraft/shaders/core/rendertype_glint.json
++ minecraft/shaders/core/rendertype_glint.vsh
++ minecraft/shaders/core/rendertype_item_entity_translucent_cull.fsh
++ minecraft/shaders/core/rendertype_item_entity_translucent_cull.json
++ minecraft/shaders/core/rendertype_item_entity_translucent_cull.vsh
++ minecraft/shaders/core/rendertype_leash.fsh
++ minecraft/shaders/core/rendertype_leash.json
++ minecraft/shaders/core/rendertype_leash.vsh
++ minecraft/shaders/core/rendertype_lightning.fsh
++ minecraft/shaders/core/rendertype_lightning.json
++ minecraft/shaders/core/rendertype_lightning.vsh
++ minecraft/shaders/core/rendertype_lines.fsh
++ minecraft/shaders/core/rendertype_lines.json
++ minecraft/shaders/core/rendertype_lines.vsh
++ minecraft/shaders/core/rendertype_outline.fsh
++ minecraft/shaders/core/rendertype_outline.json
++ minecraft/shaders/core/rendertype_outline.vsh
++ minecraft/shaders/core/rendertype_solid.fsh
++ minecraft/shaders/core/rendertype_solid.json
++ minecraft/shaders/core/rendertype_solid.vsh
++ minecraft/shaders/core/rendertype_text_see_through.fsh
++ minecraft/shaders/core/rendertype_text_see_through.json
++ minecraft/shaders/core/rendertype_text_see_through.vsh
++ minecraft/shaders/core/rendertype_text.fsh
++ minecraft/shaders/core/rendertype_text.json
++ minecraft/shaders/core/rendertype_text.vsh
++ minecraft/shaders/core/rendertype_translucent_moving_block.fsh
++ minecraft/shaders/core/rendertype_translucent_moving_block.json
++ minecraft/shaders/core/rendertype_translucent_moving_block.vsh
++ minecraft/shaders/core/rendertype_translucent_no_crumbling.fsh
++ minecraft/shaders/core/rendertype_translucent_no_crumbling.json
++ minecraft/shaders/core/rendertype_translucent_no_crumbling.vsh
++ minecraft/shaders/core/rendertype_translucent.fsh
++ minecraft/shaders/core/rendertype_translucent.json
++ minecraft/shaders/core/rendertype_translucent.vsh
++ minecraft/shaders/core/rendertype_tripwire.fsh
++ minecraft/shaders/core/rendertype_tripwire.json
++ minecraft/shaders/core/rendertype_tripwire.vsh
++ minecraft/shaders/core/rendertype_water_mask.fsh
++ minecraft/shaders/core/rendertype_water_mask.json
++ minecraft/shaders/core/rendertype_water_mask.vsh
++ minecraft/shaders/include/fog.glsl
++ minecraft/shaders/include/light.glsl
++ minecraft/shaders/include/matrix.glsl
++ minecraft/shaders/include/projection.glsl
++ minecraft/textures/block/cracked_deepslate_bricks.png
++ minecraft/textures/block/cracked_deepslate_tiles.png
++ minecraft/textures/block/deepslate_coal_ore.png
++ minecraft/textures/block/deepslate_copper_ore.png
++ minecraft/textures/block/deepslate_emerald_ore.png
++ minecraft/textures/item/spyglass_model.png
++ minecraft/textures/misc/white.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/biomes/lush_caves.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:cracked_deepslate_bricks
++ minecraft:cracked_deepslate_tiles
++ minecraft:deepslate_coal_ore
++ minecraft:deepslate_copper_ore
++ minecraft:deepslate_emerald_ore
++ minecraft:infested_deepslate
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:cracked_deepslate_bricks
++ minecraft:cracked_deepslate_tiles
++ minecraft:deepslate_coal_ore
++ minecraft:deepslate_copper_ore
++ minecraft:deepslate_emerald_ore
++ minecraft:infested_deepslate
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.glow_item_frame.add_item
++ minecraft:entity.glow_item_frame.break
++ minecraft:entity.glow_item_frame.place
++ minecraft:entity.glow_item_frame.remove_item
++ minecraft:entity.glow_item_frame.rotate_item
+```
+
+</details>
+
+
+<details><summary>worldgen/block_state_provider_type.txt</summary>
+
+```diff
++ minecraft:randomized_int_state_provider
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
++ minecraft:cave_surface
++ minecraft:heightmap_with_water_threshold
+- minecraft:heightmap_world_surface
+- minecraft:top_solid_heightmap
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:growing_plant
++ minecraft:root_system
++ minecraft:vegetation_patch
++ minecraft:waterlogged_vegetation_patch
+```
+
+</details>
+
+
+<details><summary>worldgen/foliage_placer_type.txt</summary>
+
+```diff
++ minecraft:random_spread_foliage_placer
+```
+
+</details>
+
+
+<details><summary>worldgen/trunk_placer_type.txt</summary>
+
+```diff
++ minecraft:bending_trunk_placer
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
+- blocks/azalea_log_replaceable.json
++ blocks/coal_ores.json
++ blocks/copper_ores.json
++ blocks/emerald_ores.json
++ blocks/lush_ground_replaceable.json
++ items/coal_ores.json
++ items/copper_ores.json
++ items/emerald_ores.json
+```
+
+</details>
+
+
+<details><summary>blocks/lush_plants_replaceable.json</summary>
+
+```diff
+- #minecraft:flowers
+- minecraft:big_dripleaf
+- minecraft:big_dripleaf_stem
+- minecraft:grass
+- minecraft:moss_block
+- minecraft:moss_carpet
+- minecraft:small_dripleaf
+- minecraft:tall_grass
+- minecraft:vine
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.pos.outofbounds
++ biome.minecraft.lush_caves
++ block.minecraft.cracked_deepslate_bricks
++ block.minecraft.cracked_deepslate_tiles
++ block.minecraft.deepslate_coal_ore
++ block.minecraft.deepslate_copper_ore
++ block.minecraft.deepslate_emerald_ore
++ block.minecraft.infested_deepslate
++ commands.give.failed.toomanyitems
++ subtitles.entity.glow_item_frame.add_item
++ subtitles.entity.glow_item_frame.break
++ subtitles.entity.glow_item_frame.place
++ subtitles.entity.glow_item_frame.remove_item
++ subtitles.entity.glow_item_frame.rotate_item
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/cracked_deepslate_bricks.json
++ recipes/building_blocks/cracked_deepslate_tiles.json
++ recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_bricks.json
++ recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
++ recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
++ recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting.json
++ recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/deepslate_tiles.json
++ recipes/building_blocks/deepslate.json
++ recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
++ recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting.json
++ recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
++ recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
++ recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting.json
++ recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/cracked_deepslate_bricks.json
++ blocks/cracked_deepslate_tiles.json
++ blocks/deepslate_coal_ore.json
++ blocks/deepslate_copper_ore.json
++ blocks/deepslate_emerald_ore.json
++ blocks/infested_deepslate.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ cracked_deepslate_bricks.json
++ cracked_deepslate_tiles.json
++ deepslate_brick_slab_from_cobbled_deepslate_stonecutting.json
++ deepslate_brick_slab_from_polished_deepslate_stonecutting.json
++ deepslate_brick_stairs_from_cobbled_deepslate_stonecutting.json
++ deepslate_brick_stairs_from_polished_deepslate_stonecutting.json
++ deepslate_brick_wall_from_cobbled_deepslate_stonecutting.json
++ deepslate_brick_wall_from_polished_deepslate_stonecutting.json
++ deepslate_bricks_from_cobbled_deepslate_stonecutting.json
++ deepslate_bricks_from_polished_deepslate_stonecutting.json
++ deepslate_bricks.json
++ deepslate_tile_slab_from_cobbled_deepslate_stonecutting.json
++ deepslate_tile_slab_from_deepslate_bricks_stonecutting.json
++ deepslate_tile_slab_from_polished_deepslate_stonecutting.json
++ deepslate_tile_stairs_from_cobbled_deepslate_stonecutting.json
++ deepslate_tile_stairs_from_deepslate_bricks_stonecutting.json
++ deepslate_tile_stairs_from_polished_deepslate_stonecutting.json
++ deepslate_tile_wall_from_cobbled_deepslate_stonecutting.json
++ deepslate_tile_wall_from_deepslate_bricks_stonecutting.json
++ deepslate_tile_wall_from_polished_deepslate_stonecutting.json
++ deepslate_tiles_from_cobbled_deepslate_stonecutting.json
++ deepslate_tiles_from_deepslate_bricks_stonecutting.json
++ deepslate_tiles_from_polished_deepslate_stonecutting.json
++ deepslate_tiles.json
++ deepslate.json
++ polished_deepslate_from_cobbled_deepslate_stonecutting.json
++ polished_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ polished_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ polished_deepslate_wall_from_cobbled_deepslate_stonecutting.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
+- blocks/azalea_log_replaceable.json
++ blocks/coal_ores.json
++ blocks/copper_ores.json
++ blocks/emerald_ores.json
++ blocks/lush_ground_replaceable.json
++ items/coal_ores.json
++ items/copper_ores.json
++ items/emerald_ores.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/cracked_deepslate_bricks.png
++ block/cracked_deepslate_tiles.png
++ block/deepslate_coal_ore.png
++ block/deepslate_copper_ore.png
++ block/deepslate_emerald_ore.png
++ item/spyglass_model.png
++ misc/white.png
+```
+
+</details>

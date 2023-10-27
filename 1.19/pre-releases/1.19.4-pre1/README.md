@@ -1,3519 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19.4-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.19.4-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2023-02-22T16:00:34+00:00</td></tr>
-<tr><th>SHA1</th><td>96699d3f835088fdff2013bd86f0526000286170</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/96699d3f835088fdff2013bd86f0526000286170/1.19.4-pre1.json">https://piston-meta.mojang.com/v1/packages/96699d3f835088fdff2013bd86f0526000286170/1.19.4-pre1.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json">https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json</a></td></tr>
+<tr><th>SHA1</th><td>57926b069824497cc5f1ca05d29aa2e0107b572b</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/57926b069824497cc5f1ca05d29aa2e0107b572b/1.19.4-pre1.json">https://piston-meta.mojang.com/v1/packages/57926b069824497cc5f1ca05d29aa2e0107b572b/1.19.4-pre1.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json">https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/0bc471b96bb0edbc2f03e6cdc3ad981f7a4f5f8a/server.jar">https://piston-data.mojang.com/v1/objects/0bc471b96bb0edbc2f03e6cdc3ad981f7a4f5f8a/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/33bc57d4a1cef5540a1673b2bc0526240227355f/server.txt">https://piston-data.mojang.com/v1/objects/33bc57d4a1cef5540a1673b2bc0526240227355f/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/1da03ea094c11b77e6784e6a816b73f5f5dc57b7/client.jar">https://piston-data.mojang.com/v1/objects/1da03ea094c11b77e6784e6a816b73f5f5dc57b7/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4e844a179888db439959bef2101ff8b5dc23c676/client.txt">https://piston-data.mojang.com/v1/objects/4e844a179888db439959bef2101ff8b5dc23c676/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w06a">23w06a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure/adventuring_time.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/decorated_pot_simple.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/brush.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_boat.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_chest_boat.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_pyramid.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_well.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_leaves.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_log.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sapling.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/decorated_pot.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/pink_petals.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_cherry_sapling.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_torchflower.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_log.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/suspicious_sand.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower_crop.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/sniffer.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/brush.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_boat.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_chest_boat.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot_simple.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/orange_dye_from_torchflower.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/pink_dye_from_pink_petals.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/stripped_cherry_wood.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/hoe.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/cherry_logs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/crops.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flower_pots.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flowers.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/inside_step_sound_blocks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/leaves.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/logs_that_burn.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/overworld_natural_logs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sand.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/saplings.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/small_flowers.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sniffer_diggable_block.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/breaks_decorated_pots.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/buttons.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/cherry_logs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/decorated_pot_shards.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/doors.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/fences.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/flowers.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/leaves.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/logs_that_burn.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/sand.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/saplings.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/slabs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/small_flowers.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/sniffer_food.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/stairs.json
--  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trapdoors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome/is_mountain.json
-+  minecraft/datapacks/update_1_20/data/minecraft/worldgen
-+  minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome
-+  minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome/cherry_grove.json
-+  minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list
-+  minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
-+  minecraft/loot_tables/blocks/cherry_button.json
-+  minecraft/loot_tables/blocks/cherry_door.json
-+  minecraft/loot_tables/blocks/cherry_fence.json
-+  minecraft/loot_tables/blocks/cherry_fence_gate.json
-+  minecraft/loot_tables/blocks/cherry_hanging_sign.json
-+  minecraft/loot_tables/blocks/cherry_leaves.json
-+  minecraft/loot_tables/blocks/cherry_log.json
-+  minecraft/loot_tables/blocks/cherry_planks.json
-+  minecraft/loot_tables/blocks/cherry_pressure_plate.json
-+  minecraft/loot_tables/blocks/cherry_sapling.json
-+  minecraft/loot_tables/blocks/cherry_sign.json
-+  minecraft/loot_tables/blocks/cherry_slab.json
-+  minecraft/loot_tables/blocks/cherry_stairs.json
-+  minecraft/loot_tables/blocks/cherry_trapdoor.json
-+  minecraft/loot_tables/blocks/cherry_wood.json
-+  minecraft/loot_tables/blocks/decorated_pot.json
-+  minecraft/loot_tables/blocks/pink_petals.json
-+  minecraft/loot_tables/blocks/potted_cherry_sapling.json
-+  minecraft/loot_tables/blocks/potted_torchflower.json
-+  minecraft/loot_tables/blocks/stripped_cherry_log.json
-+  minecraft/loot_tables/blocks/stripped_cherry_wood.json
-+  minecraft/loot_tables/blocks/suspicious_sand.json
-+  minecraft/loot_tables/blocks/torchflower.json
-+  minecraft/loot_tables/blocks/torchflower_crop.json
-+  minecraft/loot_tables/entities/sniffer.json
-+  minecraft/tags/blocks/smelts_to_glass.json
-+  minecraft/tags/damage_type/always_hurts_ender_dragons.json
-+  minecraft/tags/entity_types/fall_damage_immune.json
-+  minecraft/tags/items/axes.json
-+  minecraft/tags/items/hoes.json
-+  minecraft/tags/items/pickaxes.json
-+  minecraft/tags/items/shovels.json
-+  minecraft/tags/items/smelts_to_glass.json
-+  minecraft/tags/items/swords.json
-+  minecraft/tags/items/tools.json
-+  minecraft/worldgen/configured_feature/cherry.json
-+  minecraft/worldgen/configured_feature/cherry_bees_005.json
-+  minecraft/worldgen/configured_feature/flower_cherry.json
-+  minecraft/worldgen/multi_noise_biome_source_parameter_list
-+  minecraft/worldgen/multi_noise_biome_source_parameter_list/nether.json
-+  minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
-+  minecraft/worldgen/placed_feature/cherry_bees_005.json
-+  minecraft/worldgen/placed_feature/cherry_checked.json
-+  minecraft/worldgen/placed_feature/flower_cherry.json
-+  minecraft/worldgen/placed_feature/trees_cherry.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/atlases/decorated_pot.json
-+  minecraft/blockstates/cherry_button.json
-+  minecraft/blockstates/cherry_door.json
-+  minecraft/blockstates/cherry_fence.json
-+  minecraft/blockstates/cherry_fence_gate.json
-+  minecraft/blockstates/cherry_hanging_sign.json
-+  minecraft/blockstates/cherry_leaves.json
-+  minecraft/blockstates/cherry_log.json
-+  minecraft/blockstates/cherry_planks.json
-+  minecraft/blockstates/cherry_pressure_plate.json
-+  minecraft/blockstates/cherry_sapling.json
-+  minecraft/blockstates/cherry_sign.json
-+  minecraft/blockstates/cherry_slab.json
-+  minecraft/blockstates/cherry_stairs.json
-+  minecraft/blockstates/cherry_trapdoor.json
-+  minecraft/blockstates/cherry_wall_hanging_sign.json
-+  minecraft/blockstates/cherry_wall_sign.json
-+  minecraft/blockstates/cherry_wood.json
-+  minecraft/blockstates/decorated_pot.json
-+  minecraft/blockstates/pink_petals.json
-+  minecraft/blockstates/potted_cherry_sapling.json
-+  minecraft/blockstates/potted_torchflower.json
-+  minecraft/blockstates/stripped_cherry_log.json
-+  minecraft/blockstates/stripped_cherry_wood.json
-+  minecraft/blockstates/suspicious_sand.json
-+  minecraft/blockstates/torchflower.json
-+  minecraft/blockstates/torchflower_crop.json
-+  minecraft/models/block/cherry_button.json
-+  minecraft/models/block/cherry_button_inventory.json
-+  minecraft/models/block/cherry_button_pressed.json
-+  minecraft/models/block/cherry_door_bottom_left.json
-+  minecraft/models/block/cherry_door_bottom_left_open.json
-+  minecraft/models/block/cherry_door_bottom_right.json
-+  minecraft/models/block/cherry_door_bottom_right_open.json
-+  minecraft/models/block/cherry_door_top_left.json
-+  minecraft/models/block/cherry_door_top_left_open.json
-+  minecraft/models/block/cherry_door_top_right.json
-+  minecraft/models/block/cherry_door_top_right_open.json
-+  minecraft/models/block/cherry_fence_gate.json
-+  minecraft/models/block/cherry_fence_gate_open.json
-+  minecraft/models/block/cherry_fence_gate_wall.json
-+  minecraft/models/block/cherry_fence_gate_wall_open.json
-+  minecraft/models/block/cherry_fence_inventory.json
-+  minecraft/models/block/cherry_fence_post.json
-+  minecraft/models/block/cherry_fence_side.json
-+  minecraft/models/block/cherry_hanging_sign.json
-+  minecraft/models/block/cherry_leaves.json
-+  minecraft/models/block/cherry_log.json
-+  minecraft/models/block/cherry_log_x.json
-+  minecraft/models/block/cherry_log_y.json
-+  minecraft/models/block/cherry_log_z.json
-+  minecraft/models/block/cherry_planks.json
-+  minecraft/models/block/cherry_pressure_plate.json
-+  minecraft/models/block/cherry_pressure_plate_down.json
-+  minecraft/models/block/cherry_sapling.json
-+  minecraft/models/block/cherry_sign.json
-+  minecraft/models/block/cherry_slab.json
-+  minecraft/models/block/cherry_slab_top.json
-+  minecraft/models/block/cherry_stairs.json
-+  minecraft/models/block/cherry_stairs_inner.json
-+  minecraft/models/block/cherry_stairs_outer.json
-+  minecraft/models/block/cherry_trapdoor_bottom.json
-+  minecraft/models/block/cherry_trapdoor_open.json
-+  minecraft/models/block/cherry_trapdoor_top.json
-+  minecraft/models/block/cherry_wood.json
-+  minecraft/models/block/decorated_pot.json
-+  minecraft/models/block/flowerbed_1.json
-+  minecraft/models/block/flowerbed_2.json
-+  minecraft/models/block/flowerbed_3.json
-+  minecraft/models/block/flowerbed_4.json
-+  minecraft/models/block/pink_petals_1.json
-+  minecraft/models/block/pink_petals_2.json
-+  minecraft/models/block/pink_petals_3.json
-+  minecraft/models/block/pink_petals_4.json
-+  minecraft/models/block/potted_cherry_sapling.json
-+  minecraft/models/block/potted_torchflower.json
-+  minecraft/models/block/stripped_cherry_log.json
-+  minecraft/models/block/stripped_cherry_log_x.json
-+  minecraft/models/block/stripped_cherry_log_y.json
-+  minecraft/models/block/stripped_cherry_log_z.json
-+  minecraft/models/block/stripped_cherry_wood.json
-+  minecraft/models/block/suspicious_sand_0.json
-+  minecraft/models/block/suspicious_sand_1.json
-+  minecraft/models/block/suspicious_sand_2.json
-+  minecraft/models/block/suspicious_sand_3.json
-+  minecraft/models/block/torchflower.json
-+  minecraft/models/block/torchflower_crop_stage0.json
-+  minecraft/models/block/torchflower_crop_stage1.json
-+  minecraft/models/block/torchflower_crop_stage2.json
-+  minecraft/models/item/brush.json
-+  minecraft/models/item/brush_brushing_0.json
-+  minecraft/models/item/brush_brushing_1.json
-+  minecraft/models/item/brush_brushing_2.json
-+  minecraft/models/item/cherry_boat.json
-+  minecraft/models/item/cherry_button.json
-+  minecraft/models/item/cherry_chest_boat.json
-+  minecraft/models/item/cherry_door.json
-+  minecraft/models/item/cherry_fence.json
-+  minecraft/models/item/cherry_fence_gate.json
-+  minecraft/models/item/cherry_hanging_sign.json
-+  minecraft/models/item/cherry_leaves.json
-+  minecraft/models/item/cherry_log.json
-+  minecraft/models/item/cherry_planks.json
-+  minecraft/models/item/cherry_pressure_plate.json
-+  minecraft/models/item/cherry_sapling.json
-+  minecraft/models/item/cherry_sign.json
-+  minecraft/models/item/cherry_slab.json
-+  minecraft/models/item/cherry_stairs.json
-+  minecraft/models/item/cherry_trapdoor.json
-+  minecraft/models/item/cherry_wood.json
-+  minecraft/models/item/decorated_pot.json
-+  minecraft/models/item/pink_petals.json
-+  minecraft/models/item/pottery_shard_archer.json
-+  minecraft/models/item/pottery_shard_arms_up.json
-+  minecraft/models/item/pottery_shard_prize.json
-+  minecraft/models/item/pottery_shard_skull.json
-+  minecraft/models/item/sniffer_spawn_egg.json
-+  minecraft/models/item/stripped_cherry_log.json
-+  minecraft/models/item/stripped_cherry_wood.json
-+  minecraft/models/item/suspicious_sand.json
-+  minecraft/models/item/torchflower.json
-+  minecraft/models/item/torchflower_seeds.json
-+  minecraft/particles/dripping_cherry_leaves.json
-+  minecraft/particles/falling_cherry_leaves.json
-+  minecraft/particles/landing_cherry_leaves.json
-+  minecraft/textures/block/cherry_door_bottom.png
-+  minecraft/textures/block/cherry_door_top.png
-+  minecraft/textures/block/cherry_leaves.png
-+  minecraft/textures/block/cherry_log.png
-+  minecraft/textures/block/cherry_log_top.png
-+  minecraft/textures/block/cherry_planks.png
-+  minecraft/textures/block/cherry_sapling.png
-+  minecraft/textures/block/cherry_trapdoor.png
-+  minecraft/textures/block/pink_petals.png
-+  minecraft/textures/block/pink_petals_stem.png
-+  minecraft/textures/block/stripped_cherry_log.png
-+  minecraft/textures/block/stripped_cherry_log_top.png
-+  minecraft/textures/block/suspicious_sand_0.png
-+  minecraft/textures/block/suspicious_sand_1.png
-+  minecraft/textures/block/suspicious_sand_2.png
-+  minecraft/textures/block/suspicious_sand_3.png
-+  minecraft/textures/block/torchflower.png
-+  minecraft/textures/block/torchflower_crop_stage0.png
-+  minecraft/textures/block/torchflower_crop_stage1.png
-+  minecraft/textures/block/torchflower_crop_stage2.png
-+  minecraft/textures/entity/boat/cherry.png
-+  minecraft/textures/entity/chest_boat/cherry.png
-+  minecraft/textures/entity/decorated_pot
-+  minecraft/textures/entity/decorated_pot/decorated_pot_base.png
-+  minecraft/textures/entity/decorated_pot/decorated_pot_side.png
-+  minecraft/textures/entity/decorated_pot/pottery_pattern_archer.png
-+  minecraft/textures/entity/decorated_pot/pottery_pattern_arms_up.png
-+  minecraft/textures/entity/decorated_pot/pottery_pattern_prize.png
-+  minecraft/textures/entity/decorated_pot/pottery_pattern_skull.png
-+  minecraft/textures/entity/signs/hanging/cherry.png
-+  minecraft/textures/entity/signs/cherry.png
-+  minecraft/textures/entity/sniffer
-+  minecraft/textures/entity/sniffer/sniffer.png
-+  minecraft/textures/gui/hanging_signs/cherry.png
-+  minecraft/textures/gui/footer_separator.png
-+  minecraft/textures/gui/header_separator.png
-+  minecraft/textures/gui/info_icon.png
-+  minecraft/textures/gui/light_dirt_background.png
-+  minecraft/textures/gui/tab_button.png
-+  minecraft/textures/gui/unseen_notification.png
-+  minecraft/textures/item/brush.png
-+  minecraft/textures/item/cherry_boat.png
-+  minecraft/textures/item/cherry_chest_boat.png
-+  minecraft/textures/item/cherry_door.png
-+  minecraft/textures/item/cherry_hanging_sign.png
-+  minecraft/textures/item/cherry_sign.png
-+  minecraft/textures/item/pink_petals.png
-+  minecraft/textures/item/pottery_shard_archer.png
-+  minecraft/textures/item/pottery_shard_arms_up.png
-+  minecraft/textures/item/pottery_shard_prize.png
-+  minecraft/textures/item/pottery_shard_skull.png
-+  minecraft/textures/item/torchflower_seeds.png
-+  minecraft/textures/misc/enchanted_glint_entity.png
-+  minecraft/textures/misc/enchanted_glint_item.png
--  minecraft/textures/misc/enchanted_item_glint.png
--  realms/textures/gui/realms/configure_icon.png
--  realms/textures/gui/realms/leave_icon.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/biome_parameters/minecraft/overworld_update_1_20.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ decorated_pot_patterns.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:cherry_button
-+ minecraft:cherry_door
-+ minecraft:cherry_fence
-+ minecraft:cherry_fence_gate
-+ minecraft:cherry_hanging_sign
-+ minecraft:cherry_leaves
-+ minecraft:cherry_log
-+ minecraft:cherry_planks
-+ minecraft:cherry_pressure_plate
-+ minecraft:cherry_sapling
-+ minecraft:cherry_sign
-+ minecraft:cherry_slab
-+ minecraft:cherry_stairs
-+ minecraft:cherry_trapdoor
-+ minecraft:cherry_wall_hanging_sign
-+ minecraft:cherry_wall_sign
-+ minecraft:cherry_wood
-+ minecraft:decorated_pot
-+ minecraft:pink_petals
-+ minecraft:potted_cherry_sapling
-+ minecraft:potted_torchflower
-+ minecraft:stripped_cherry_log
-+ minecraft:stripped_cherry_wood
-+ minecraft:suspicious_sand
-+ minecraft:torchflower
-+ minecraft:torchflower_crop
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-+ minecraft:decorated_pot
-+ minecraft:suspicious_sand
-```
-
-</details>
-
-<details><summary>command_argument_type.txt</summary>
-
-```diff
-+ minecraft:heightmap
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:interaction
-+ minecraft:sniffer
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:brush
-+ minecraft:cherry_boat
-+ minecraft:cherry_button
-+ minecraft:cherry_chest_boat
-+ minecraft:cherry_door
-+ minecraft:cherry_fence
-+ minecraft:cherry_fence_gate
-+ minecraft:cherry_hanging_sign
-+ minecraft:cherry_leaves
-+ minecraft:cherry_log
-+ minecraft:cherry_planks
-+ minecraft:cherry_pressure_plate
-+ minecraft:cherry_sapling
-+ minecraft:cherry_sign
-+ minecraft:cherry_slab
-+ minecraft:cherry_stairs
-+ minecraft:cherry_trapdoor
-+ minecraft:cherry_wood
-+ minecraft:decorated_pot
-+ minecraft:pink_petals
-+ minecraft:pottery_shard_archer
-+ minecraft:pottery_shard_arms_up
-+ minecraft:pottery_shard_prize
-+ minecraft:pottery_shard_skull
-+ minecraft:sniffer_spawn_egg
-+ minecraft:stripped_cherry_log
-+ minecraft:stripped_cherry_wood
-+ minecraft:suspicious_sand
-+ minecraft:torchflower
-+ minecraft:torchflower_seeds
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:sniffer_digging
-+ minecraft:sniffer_explored_positions
-+ minecraft:sniffer_happy
-+ minecraft:sniffer_sniffing_target
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:dripping_cherry_leaves
-+ minecraft:falling_cherry_leaves
-+ minecraft:landing_cherry_leaves
-```
-
-</details>
-
-<details><summary>recipe_serializer.txt</summary>
-
-```diff
-+ minecraft:crafting_decorated_pot
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.cherry_leaves.break
-+ minecraft:block.cherry_leaves.fall
-+ minecraft:block.cherry_leaves.hit
-+ minecraft:block.cherry_leaves.place
-+ minecraft:block.cherry_leaves.step
-+ minecraft:block.cherry_sapling.break
-+ minecraft:block.cherry_sapling.fall
-+ minecraft:block.cherry_sapling.hit
-+ minecraft:block.cherry_sapling.place
-+ minecraft:block.cherry_sapling.step
-+ minecraft:block.cherry_wood.break
-+ minecraft:block.cherry_wood.fall
-+ minecraft:block.cherry_wood.hit
-+ minecraft:block.cherry_wood.place
-+ minecraft:block.cherry_wood.step
-+ minecraft:block.cherry_wood_button.click_off
-+ minecraft:block.cherry_wood_button.click_on
-+ minecraft:block.cherry_wood_door.close
-+ minecraft:block.cherry_wood_door.open
-+ minecraft:block.cherry_wood_fence_gate.close
-+ minecraft:block.cherry_wood_fence_gate.open
-+ minecraft:block.cherry_wood_hanging_sign.break
-+ minecraft:block.cherry_wood_hanging_sign.fall
-+ minecraft:block.cherry_wood_hanging_sign.hit
-+ minecraft:block.cherry_wood_hanging_sign.place
-+ minecraft:block.cherry_wood_hanging_sign.step
-+ minecraft:block.cherry_wood_pressure_plate.click_off
-+ minecraft:block.cherry_wood_pressure_plate.click_on
-+ minecraft:block.cherry_wood_trapdoor.close
-+ minecraft:block.cherry_wood_trapdoor.open
-+ minecraft:block.decorated_pot.break
-+ minecraft:block.decorated_pot.fall
-+ minecraft:block.decorated_pot.hit
-+ minecraft:block.decorated_pot.place
-+ minecraft:block.decorated_pot.shatter
-+ minecraft:block.decorated_pot.step
-+ minecraft:block.pink_petals.break
-+ minecraft:block.pink_petals.fall
-+ minecraft:block.pink_petals.hit
-+ minecraft:block.pink_petals.place
-+ minecraft:block.pink_petals.step
-+ minecraft:block.suspicious_sand.break
-+ minecraft:block.suspicious_sand.fall
-+ minecraft:block.suspicious_sand.hit
-+ minecraft:block.suspicious_sand.place
-+ minecraft:block.suspicious_sand.step
-+ minecraft:entity.sniffer.death
-+ minecraft:entity.sniffer.digging
-+ minecraft:entity.sniffer.digging_stop
-+ minecraft:entity.sniffer.drop_seed
-+ minecraft:entity.sniffer.eat
-+ minecraft:entity.sniffer.happy
-+ minecraft:entity.sniffer.hurt
-+ minecraft:entity.sniffer.idle
-+ minecraft:entity.sniffer.scenting
-+ minecraft:entity.sniffer.searching
-+ minecraft:entity.sniffer.sniffing
-+ minecraft:entity.sniffer.step
-+ minecraft:intentionally_empty
-+ minecraft:item.brush.brush_sand_completed
-+ minecraft:item.brush.brushing
-+ minecraft:music.overworld.cherry_grove
-```
-
-</details>
-
-<details><summary>worldgen/foliage_placer_type.txt</summary>
-
-```diff
-+ minecraft:cherry_foliage_placer
-```
-
-</details>
-
-<details><summary>worldgen/trunk_placer_type.txt</summary>
-
-```diff
-+ minecraft:cherry_trunk_placer
-```
-
-</details>
-
-## Commands
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute positioned over <heightmap: heightmap>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/smelts_to_glass.json
-+ damage_type/always_hurts_ender_dragons.json
-+ entity_types/fall_damage_immune.json
-+ items/axes.json
-+ items/hoes.json
-+ items/pickaxes.json
-+ items/shovels.json
-+ items/smelts_to_glass.json
-+ items/swords.json
-+ items/tools.json
-```
-
-</details>
-
-<details><summary>damage_type/avoids_guardian_thorns.json</summary>
-
-```diff
-+ minecraft:thorns
-+ #minecraft:is_explosion
-```
-
-</details>
-
-## Misc
-
-<details><summary>list</summary>
-
-```diff
-+ worldgen/multi_noise_biome_source_parameter_list.txt
-```
-
-</details>
-
-<details><summary>atlases.txt</summary>
-
-```diff
-+ decorated_pot.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w06a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\pre-releases\1.19.4-pre1\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/cherry_button.json
-+ blocks/cherry_door.json
-+ blocks/cherry_fence.json
-+ blocks/cherry_fence_gate.json
-+ blocks/cherry_hanging_sign.json
-+ blocks/cherry_leaves.json
-+ blocks/cherry_log.json
-+ blocks/cherry_planks.json
-+ blocks/cherry_pressure_plate.json
-+ blocks/cherry_sapling.json
-+ blocks/cherry_sign.json
-+ blocks/cherry_slab.json
-+ blocks/cherry_stairs.json
-+ blocks/cherry_trapdoor.json
-+ blocks/cherry_wood.json
-+ blocks/decorated_pot.json
-+ blocks/pink_petals.json
-+ blocks/potted_cherry_sapling.json
-+ blocks/potted_torchflower.json
-+ blocks/stripped_cherry_log.json
-+ blocks/stripped_cherry_wood.json
-+ blocks/suspicious_sand.json
-+ blocks/torchflower.json
-+ blocks/torchflower_crop.json
-+ entities/sniffer.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ dripping_cherry_leaves.json
-+ falling_cherry_leaves.json
-+ landing_cherry_leaves.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-- item/brush/brush_completed1.ogg
-- item/brush/brush_completed2.ogg
-- item/brush/brush_completed3.ogg
-- item/brush/brush_completed4.ogg
-- item/brush/brush_completed5.ogg
-- item/brush/brushing1.ogg
-- item/brush/brushing2.ogg
-- item/brush/brushing3.ogg
-- item/brush/brushing4.ogg
-+ block/amethyst/resonate1.ogg
-+ block/amethyst/resonate2.ogg
-+ block/amethyst/resonate3.ogg
-+ block/amethyst/resonate4.ogg
-+ block/sign/waxed_interact_fail1.ogg
-+ block/sign/waxed_interact_fail2.ogg
-+ block/sign/waxed_interact_fail3.ogg
-+ block/suspicious_gravel/break1.ogg
-+ block/suspicious_gravel/break2.ogg
-+ block/suspicious_gravel/break3.ogg
-+ block/suspicious_gravel/break4.ogg
-+ block/suspicious_gravel/break5.ogg
-+ block/suspicious_gravel/break6.ogg
-+ block/suspicious_gravel/place1.ogg
-+ block/suspicious_gravel/place2.ogg
-+ block/suspicious_gravel/place3.ogg
-+ block/suspicious_gravel/place4.ogg
-+ block/suspicious_gravel/step1.ogg
-+ block/suspicious_gravel/step2.ogg
-+ block/suspicious_gravel/step3.ogg
-+ block/suspicious_gravel/step4.ogg
-+ item/brush/brush_sand_complete1.ogg
-+ item/brush/brush_sand_complete2.ogg
-+ item/brush/brush_sand_complete3.ogg
-+ item/brush/brush_sand_complete4.ogg
-+ item/brush/brush_sand_complete5.ogg
-+ item/brush/brushing_generic1.ogg
-+ item/brush/brushing_generic2.ogg
-+ item/brush/brushing_generic3.ogg
-+ item/brush/brushing_generic4.ogg
-+ item/brush/brushing_gravel1.ogg
-+ item/brush/brushing_gravel2.ogg
-+ item/brush/brushing_gravel3.ogg
-+ item/brush/brushing_gravel4.ogg
-+ item/brush/brushing_gravel_complete1.ogg
-+ item/brush/brushing_gravel_complete2.ogg
-+ item/brush/brushing_gravel_complete3.ogg
-+ item/brush/brushing_gravel_complete4.ogg
-+ item/brush/brushing_sand1.ogg
-+ item/brush/brushing_sand2.ogg
-+ item/brush/brushing_sand3.ogg
-+ item/brush/brushing_sand4.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/smelts_to_glass.json
-+ damage_type/always_hurts_ender_dragons.json
-+ entity_types/fall_damage_immune.json
-+ items/axes.json
-+ items/hoes.json
-+ items/pickaxes.json
-+ items/shovels.json
-+ items/smelts_to_glass.json
-+ items/swords.json
-+ items/tools.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- misc/enchanted_item_glint.png
-+ block/cherry_door_bottom.png
-+ block/cherry_door_top.png
-+ block/cherry_leaves.png
-+ block/cherry_log.png
-+ block/cherry_log_top.png
-+ block/cherry_planks.png
-+ block/cherry_sapling.png
-+ block/cherry_trapdoor.png
-+ block/pink_petals.png
-+ block/pink_petals_stem.png
-+ block/stripped_cherry_log.png
-+ block/stripped_cherry_log_top.png
-+ block/suspicious_sand_0.png
-+ block/suspicious_sand_1.png
-+ block/suspicious_sand_2.png
-+ block/suspicious_sand_3.png
-+ block/torchflower.png
-+ block/torchflower_crop_stage0.png
-+ block/torchflower_crop_stage1.png
-+ block/torchflower_crop_stage2.png
-+ entity/boat/cherry.png
-+ entity/chest_boat/cherry.png
-+ entity/decorated_pot/decorated_pot_base.png
-+ entity/decorated_pot/decorated_pot_side.png
-+ entity/decorated_pot/pottery_pattern_archer.png
-+ entity/decorated_pot/pottery_pattern_arms_up.png
-+ entity/decorated_pot/pottery_pattern_prize.png
-+ entity/decorated_pot/pottery_pattern_skull.png
-+ entity/signs/cherry.png
-+ entity/signs/hanging/cherry.png
-+ entity/sniffer/sniffer.png
-+ gui/footer_separator.png
-+ gui/hanging_signs/cherry.png
-+ gui/header_separator.png
-+ gui/info_icon.png
-+ gui/light_dirt_background.png
-+ gui/tab_button.png
-+ gui/unseen_notification.png
-+ item/brush.png
-+ item/cherry_boat.png
-+ item/cherry_chest_boat.png
-+ item/cherry_door.png
-+ item/cherry_hanging_sign.png
-+ item/cherry_sign.png
-+ item/pink_petals.png
-+ item/pottery_shard_archer.png
-+ item/pottery_shard_arms_up.png
-+ item/pottery_shard_prize.png
-+ item/pottery_shard_skull.png
-+ item/torchflower_seeds.png
-+ misc/enchanted_glint_entity.png
-+ misc/enchanted_glint_item.png
-```
-
-</details>
-
-<details><summary>worldgen/configured_feature.txt</summary>
-
-```diff
-+ cherry.json
-+ cherry_bees_005.json
-+ flower_cherry.json
-```
-
-</details>
-
-<details><summary>worldgen/placed_feature.txt</summary>
-
-```diff
-+ cherry_bees_005.json
-+ cherry_checked.json
-+ flower_cherry.json
-+ trees_cherry.json
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:heightmap
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:datafixerupper:5.0.28
-+ com.mojang:datafixerupper:6.0.6
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
-
-```diff
-+ NativeImage read(byte[])
-- NativeImage fromBase64(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ Component CONFIGURE_SERVER_TEXT
-+ Component LEAVE_SERVER_TEXT
-+ Component PLAY_TEXT
-+ int BUTTON_BOTTOM_ROW_WIDTH
-+ int BUTTON_TOP_ROW_WIDTH
-+ int BUTTON_WIDTH
-+ int FOOTER_HEIGHT
-+ List notifications
-+ ResourceLocation INFO_ICON_LOCATION
-+ Set handledSeenNotifications
-- Component CONFIGURE_SERVER_TOOLTIP
-- Component LEAVE_SERVER_TOOLTIP
-- Component SUBSCRIPTION_CREATE_TEXT
-- RealmsMainScreen$HoveredElement hoveredElement
-- ResourceLocation BUTTON_LOCATION
-- ResourceLocation CONFIGURE_LOCATION
-- ResourceLocation LEAVE_ICON_LOCATION
-+ boolean lambda$dismissNotification$26(RealmsNotification)
-+ boolean lambda$removeServer$24(RealmsMainScreen$Entry)
-+ boolean lambda$updateTeaserImages$29(ResourceLocation)
-+ boolean lambda$updateTeaserImages$30(ResourceLocation)
-+ boolean shouldConfigureButtonBeActive(RealmsServer)
-+ boolean shouldLeaveButtonBeActive(RealmsServer)
-+ Font access$1400(RealmsMainScreen)
-+ Font access$1900(RealmsMainScreen)
-+ Minecraft access$1600(RealmsMainScreen)
-+ Object lambda$callRealmsClient$18(Minecraft)
-+ Object lambda$dismissNotification$25(RealmsClient)
-+ Object lambda$refreshRealmsSelectionList$20(RealmsClient)
-+ void access$2100(Component)
-+ void addEntriesForNotification(RealmsNotification)
-+ void addFooterButtons()
-+ void callRealmsClient(Consumer)
-+ void dismissNotification(UUID)
-+ void lambda$addFooterButtons$10(Button)
-+ void lambda$addFooterButtons$11(GuiEventListener)
-+ void lambda$addFooterButtons$6(Button)
-+ void lambda$addFooterButtons$7(Button)
-+ void lambda$addFooterButtons$8(Button)
-+ void lambda$addFooterButtons$9(Button)
-+ Void lambda$callRealmsClient$19(Throwable)
-+ void lambda$charTyped$28(KeyCombo)
-+ void lambda$dismissNotification$27(Object)
-+ void lambda$initDataFetcher$12(List)
-+ void lambda$initDataFetcher$13(List)
-+ void lambda$initDataFetcher$14(Integer)
-+ void lambda$initDataFetcher$15(Boolean)
-+ void lambda$initDataFetcher$16(RealmsServerPlayerLists)
-+ void lambda$initDataFetcher$17(RealmsNews)
-+ void lambda$leaveClicked$23(RealmsServer,boolean)
-+ void lambda$pingRegions$22()
-+ void lambda$refreshRealmsSelectionList$21(Object)
-+ void refreshRealmsSelectionList()
-- boolean lambda$removeServer$18(RealmsMainScreen$Entry)
-- boolean lambda$updateTeaserImages$20(ResourceLocation)
-- boolean lambda$updateTeaserImages$21(ResourceLocation)
-- boolean shouldConfigureButtonBeVisible(RealmsServer)
-- boolean shouldLeaveButtonBeVisible(RealmsServer)
-- Font access$1600(RealmsMainScreen)
-- Font access$2100(RealmsMainScreen)
-- Font access$2900(RealmsMainScreen)
-- Minecraft access$1400(RealmsMainScreen)
-- Minecraft access$3000(RealmsMainScreen)
-- Minecraft access$3100(RealmsMainScreen)
-- void access$1900(Component)
-- void access$3200(Component)
-- void addBottomButtons()
-- void drawConfigure(PoseStack,int,int,int,int)
-- void drawLeave(PoseStack,int,int,int,int)
-- void lambda$addBottomButtons$10(Button)
-- void lambda$addBottomButtons$6(Button)
-- void lambda$addBottomButtons$7(Button)
-- void lambda$addBottomButtons$8(Button)
-- void lambda$addBottomButtons$9(Button)
-- void lambda$charTyped$19(KeyCombo)
-- void lambda$initDataFetcher$11(List)
-- void lambda$initDataFetcher$12(Integer)
-- void lambda$initDataFetcher$13(Boolean)
-- void lambda$initDataFetcher$14(RealmsServerPlayerLists)
-- void lambda$initDataFetcher$15(RealmsNews)
-- void lambda$leaveClicked$17(RealmsServer,boolean)
-- void lambda$pingRegions$16()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
-
-```diff
-+ void itemClicked(int,int,double,double,int,int)
-- void itemClicked(int,int,double,double,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean lambda$tick$40()
-+ ChunkProgressListener lambda$doWorldLoad$41(int)
-+ CompletionStage lambda$delayTextureReload$52(CompletableFuture)
-+ IntegratedServer lambda$doWorldLoad$42(Thread)
-+ String lambda$doWorldLoad$43(WorldStem)
-+ String lambda$fillSystemReport$45(String)
-+ String lambda$fillSystemReport$46(Minecraft)
-+ String lambda$fillSystemReport$49()
-+ String lambda$fillSystemReport$50(Options)
-+ String lambda$fillSystemReport$51(LanguageManager)
-+ Style lambda$debugClientMetricsStart$31(Style)
-+ Style lambda$grabHugeScreenshot$55(Style)
-+ Style lambda$grabPanoramixScreenshot$54(Style)
-+ void abortResourcePackRecovery()
-+ void addResourcePackLoadFailToast(Component)
-+ void lambda$debugClientMetricsStart$29(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$30(ProfileResults)
-+ void lambda$debugClientMetricsStart$32(Component)
-+ void lambda$debugClientMetricsStart$33(Path)
-+ void lambda$debugClientMetricsStart$34(List)
-+ void lambda$debugClientMetricsStart$35(Path)
-+ void lambda$debugClientMetricsStart$36(CompletableFuture)
-+ void lambda$debugClientMetricsStart$37(ProfileResults)
-+ void lambda$debugClientMetricsStart$38(ProfileResults)
-+ void lambda$doWorldLoad$44(Component)
-+ void lambda$grabPanoramixScreenshot$53(Component)
-+ void lambda$openChatScreen$26(boolean)
-+ void lambda$reloadResourcePacks$23(Throwable)
-+ void lambda$reloadResourcePacks$24(CompletableFuture)
-+ void lambda$reloadResourcePacks$25(Optional)
-+ void lambda$runTick$27(CompletableFuture)
-+ void lambda$runTick$28(TimerQuery)
-+ void lambda$tick$39()
-- boolean lambda$tick$39()
-- ChunkProgressListener lambda$doWorldLoad$40(int)
-- CompletionStage lambda$delayTextureReload$51(CompletableFuture)
-- IntegratedServer lambda$doWorldLoad$41(Thread)
-- String lambda$doWorldLoad$42(WorldStem)
-- String lambda$fillSystemReport$44(String)
-- String lambda$fillSystemReport$45(Minecraft)
-- String lambda$fillSystemReport$46()
-- String lambda$fillSystemReport$49(Options)
-- String lambda$fillSystemReport$50(LanguageManager)
-- Style lambda$debugClientMetricsStart$30(Style)
-- Style lambda$grabHugeScreenshot$54(Style)
-- Style lambda$grabPanoramixScreenshot$53(Style)
-- void lambda$debugClientMetricsStart$28(Consumer,double,int)
-- void lambda$debugClientMetricsStart$29(ProfileResults)
-- void lambda$debugClientMetricsStart$31(Component)
-- void lambda$debugClientMetricsStart$32(Path)
-- void lambda$debugClientMetricsStart$33(List)
-- void lambda$debugClientMetricsStart$34(Path)
-- void lambda$debugClientMetricsStart$35(CompletableFuture)
-- void lambda$debugClientMetricsStart$36(ProfileResults)
-- void lambda$debugClientMetricsStart$37(ProfileResults)
-- void lambda$doWorldLoad$43(Component)
-- void lambda$grabPanoramixScreenshot$52(Component)
-- void lambda$openChatScreen$25(boolean)
-- void lambda$reloadResourcePacks$23(CompletableFuture)
-- void lambda$reloadResourcePacks$24(Optional)
-- void lambda$runTick$26(CompletableFuture)
-- void lambda$runTick$27(TimerQuery)
-- void lambda$tick$38()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.OptionInstance$ClampingLazyMaxIntRange</summary>
-
-```diff
-+ DataResult lambda$codec$1(Integer)
-+ String lambda$codec$0(Integer,int)
-- DataResult lambda$codec$0(Integer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.OptionsScreen</summary>
-
-```diff
-+ void applyPacks(PackRepository)
-- void updatePackList(PackRepository)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.Screen</summary>
-
-```diff
-+ void added()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTab</summary>
-
-```diff
-+ void drawContents(PoseStack,int,int)
-+ void drawIcon(ItemRenderer)
-- void drawContents(PoseStack)
-- void drawIcon(ItemRenderer)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$KeyEntry</summary>
-
-```diff
-- boolean mouseClicked(double,double,int)
-- boolean mouseReleased(double,double,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractContainerScreen</summary>
-
-```diff
-+ void renderFloatingItem(String)
-- void renderFloatingItem(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
-
-```diff
-+ void renderEntityInInventory(LivingEntity)
-+ void renderEntityInInventoryFollowsMouse(LivingEntity)
-- void renderEntityInInventory(LivingEntity)
-- void renderEntityInInventoryFollowsMouse(LivingEntity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.LegacySmithingScreen</summary>
-
-```diff
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry</summary>
-
-```diff
-+ byte[] lastIconBytes
-- String lastIconB64
-+ boolean uploadServerIcon(byte[])
-- boolean uploadServerIcon(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
-
-```diff
-+ void updateRepoSelectedList()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel$EntryBase</summary>
-
-```diff
-+ void updateHighContrastOptionInstance()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent</summary>
-
-```diff
-+ boolean lambda$setupGhostRecipe$0(Item)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton</summary>
-
-```diff
-+ void renderIcon(ItemRenderer)
-- void renderIcon(ItemRenderer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ ResourceLocation FOOTER_SEPERATOR
-+ ResourceLocation HEADER_SEPERATOR
-+ boolean lambda$createNewWorldDirectory$19(Path)
-+ boolean lambda$createTempDataPackDirFromExistingWorld$21(Path)
-+ DataResult lambda$applyNewPackConfig$13(JsonElement)
-+ Object lambda$applyNewPackConfig$17(Throwable)
-+ void lambda$applyNewPackConfig$16(Consumer,boolean)
-+ void lambda$createNewWorldDirectory$20(Path)
-+ void lambda$createTempDataPackDirFromExistingWorld$22(Path)
-+ void lambda$removeTempDataPackDir$18(Path)
-+ void renderDirtBackground(PoseStack)
-+ WorldCreationContext lambda$applyNewPackConfig$15(CreateWorldScreen$DataPackReloadCookie)
-+ WorldLoader$DataLoadOutput lambda$applyNewPackConfig$14(WorldLoader$DataLoadContext)
-- boolean lambda$createNewWorldDirectory$23(Path)
-- boolean lambda$createTempDataPackDirFromExistingWorld$25(Path)
-- DataResult lambda$applyNewPackConfig$15(JsonElement)
-- Object lambda$applyNewPackConfig$21(Throwable)
-- void lambda$applyNewPackConfig$14()
-- void lambda$applyNewPackConfig$18(Consumer,boolean)
-- void lambda$applyNewPackConfig$19(Consumer)
-- void lambda$applyNewPackConfig$20()
-- void lambda$createNewWorldDirectory$24(Path)
-- void lambda$createTempDataPackDirFromExistingWorld$26(Path)
-- void lambda$removeTempDataPackDir$22(Path)
-- void lambda$tryApplyNewDataPacks$13(Consumer)
-- WorldCreationContext lambda$applyNewPackConfig$17(CreateWorldScreen$DataPackReloadCookie)
-- WorldLoader$DataLoadOutput lambda$applyNewPackConfig$16(WorldLoader$DataLoadContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.ExperimentsScreen</summary>
-
-```diff
-- void popScreen()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.main.Main</summary>
-
-```diff
-- void run(String[],boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.geom.ModelLayers</summary>
-
-```diff
-+ ModelLayerLocation DECORATED_POT_BASE
-+ ModelLayerLocation DECORATED_POT_SIDES
-+ ModelLayerLocation SNIFFER
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.geom.ModelPart$Cube</summary>
-
-```diff
-+ void <init>(Set)
-- void <init>(int,int,float,float,float,float,float,float,float,float,float,boolean,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.geom.PartNames</summary>
-
-```diff
-+ String LEFT_MID_LEG
-+ String RIGHT_MID_LEG
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.geom.builders.CubeDefinition</summary>
-
-```diff
-+ Set visibleFaces
-+ void <init>(Set)
-- void <init>(CubeDeformation,boolean,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.geom.builders.CubeListBuilder</summary>
-
-```diff
-+ Set ALL_VISIBLE
-+ CubeListBuilder addBox(Set)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
-
-```diff
-+ void replaceBiomes(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.ChatLog</summary>
-
-```diff
-+ DataResult lambda$codec$1(List)
-+ LoggedChatEvent[] lambda$new$2(int,int)
-+ String lambda$codec$0(int,int)
-- DataResult lambda$codec$0(List)
-- LoggedChatEvent[] lambda$new$1(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
-
-```diff
-+ CompletionStage lambda$reload$5(Map)
-+ Map lambda$reload$2(ResourceManager)
-+ Particle lambda$register$0(ClientLevel,double,double,double,double,double,double)
-+ ParticleEngine$1ParticleDefinition lambda$reload$3(Resource)
-+ ParticleProvider lambda$register$1(SpriteSet)
-+ Queue lambda$tick$9(ParticleRenderType)
-+ void lambda$destroy$11(BlockState,double,double,double,double,double,double)
-+ void lambda$reload$4(Resource)
-+ void lambda$reload$6(ParticleEngine$1ParticleDefinition)
-+ void lambda$reload$7(Void)
-+ void lambda$tick$8(Queue)
-+ void lambda$tickParticleList$10(ParticleGroup)
-+ void register(ParticleProvider$Sprite)
-- CompletionStage lambda$reload$3(Map)
-- Map lambda$reload$0(ResourceManager)
-- ParticleEngine$1ParticleDefinition lambda$reload$1(Resource)
-- Queue lambda$tick$7(ParticleRenderType)
-- void lambda$destroy$9(BlockState,double,double,double,double,double,double)
-- void lambda$reload$2(Resource)
-- void lambda$reload$4(ParticleEngine$1ParticleDefinition)
-- void lambda$reload$5(Void)
-- void lambda$tick$6(Queue)
-- void lambda$tickParticleList$8(ParticleGroup)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.DisplayRenderer$TextDisplayRenderer</summary>
-
-```diff
-- float Z_FIGHTER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.SoundManager</summary>
-
-```diff
-+ ResourceLocation INTENTIONALLY_EMPTY_SOUND_LOCATION
-+ Sound INTENTIONALLY_EMPTY_SOUND
-+ WeighedSoundEvents INTENTIONALLY_EMPTY_SOUND_EVENT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
-
-```diff
-+ void createAdventuringTime(MultiNoiseBiomeSourceParameterList$Preset)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaNetherAdvancements</summary>
-
-```diff
-- List EXPLORABLE_BIOMES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.info.BiomeParametersDumpReport</summary>
-
-```diff
-+ Codec CODEC
-+ MapCodec ENTRY_CODEC
-+ void lambda$run$0(Climate$ParameterList)
-- CompletableFuture lambda$run$0(Pair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
-
-```diff
-+ LootPoolEntryContainer$Builder lambda$generate$225(Integer)
-+ LootTable$Builder lambda$generate$190(Block)
-+ LootTable$Builder lambda$generate$192(Block)
-+ LootTable$Builder lambda$generate$197(Block)
-+ LootTable$Builder lambda$generate$199(Block)
-+ LootTable$Builder lambda$generate$201(Block)
-+ LootTable$Builder lambda$generate$204(ItemLike)
-+ LootTable$Builder lambda$generate$205(Block)
-+ LootTable$Builder lambda$generate$207(ItemLike)
-+ LootTable$Builder lambda$generate$208(Block)
-+ LootTable$Builder lambda$generate$215(Block)
-+ LootTable$Builder lambda$generate$217(Block)
-+ LootTable$Builder lambda$generate$219(Block)
-+ LootTable$Builder lambda$generate$221(Block)
-+ LootTable$Builder lambda$generate$223(Block)
-+ LootTable$Builder lambda$generate$231(Block)
-- LootPoolEntryContainer$Builder lambda$generate$223(Integer)
-- LootTable$Builder lambda$generate$190(Block)
-- LootTable$Builder lambda$generate$192(Block)
-- LootTable$Builder lambda$generate$197(Block)
-- LootTable$Builder lambda$generate$199(Block)
-- LootTable$Builder lambda$generate$201(ItemLike)
-- LootTable$Builder lambda$generate$204(Block)
-- LootTable$Builder lambda$generate$205(ItemLike)
-- LootTable$Builder lambda$generate$207(Block)
-- LootTable$Builder lambda$generate$208(Block)
-- LootTable$Builder lambda$generate$215(Block)
-- LootTable$Builder lambda$generate$217(Block)
-- LootTable$Builder lambda$generate$219(Block)
-- LootTable$Builder lambda$generate$221(Block)
-- LootTable$Builder lambda$generate$225(Block)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ List lambda$createTurtleEgg$37(Integer)
-+ ResourceLocation lambda$addBookSlotModel$49(BlockModelGenerators$BookSlotModelCacheKey)
-+ ResourceLocation lambda$createCropBlock$13(Block,int,int)
-+ TextureMapping lambda$createChorusFlower$16(ResourceLocation)
-+ TextureMapping lambda$createCommandBlock$9(ResourceLocation)
-+ Variant lambda$createActiveRail$8(RailShape)
-+ Variant lambda$createBambooModels$10(String,int)
-+ Variant lambda$createCropBlock$14(Integer)
-+ Variant lambda$createCrossBlock$6(Integer)
-+ Variant lambda$createEmptyOrFullDispatch$12(Comparable)
-+ Variant lambda$createFire$22(Variant)
-+ Variant lambda$createFire$23(Variant)
-+ Variant lambda$createJigsaw$51(FrontAndTop)
-+ Variant lambda$createRepeater$32(Boolean)
-+ Variant lambda$createRespawnAnchor$50(Integer)
-+ Variant lambda$createSculkCatalyst$46(Boolean)
-+ Variant lambda$createSculkSensor$31(SculkSensorPhase)
-+ Variant lambda$createSnowBlocks$33(Integer)
-+ Variant lambda$createSoulFire$27(Variant)
-+ Variant lambda$createSoulFire$28(Variant)
-+ Variant lambda$createStems$7(Integer)
-+ Variant lambda$createStructureBlock$34(StructureMode)
-+ Variant lambda$createSuspiciousSandBlock$5(Integer)
-+ Variant lambda$createSweetBerryBush$35(Integer)
-+ Variant lambda$createTripwireHook$36(Boolean)
-+ Variant lambda$static$42(ResourceLocation)
-+ Variant lambda$static$43(ResourceLocation)
-+ Variant lambda$wrapModels$17(ResourceLocation)
-+ void createCrossBlock(Property,int[])
-+ void createFlowerBed(Block)
-+ void createSuspiciousSandBlock()
-+ void lambda$addSlotStateAndRotationVariants$48(ModelTemplate)
-+ void lambda$createBarrel$11(TextureMapping)
-+ void lambda$createChiseledBookshelf$47(VariantProperties$Rotation)
-+ void lambda$createFurnace$15(TextureMapping)
-+ void lambda$createGrassBlocks$29(TextureMapping)
-+ void lambda$createGrassBlocks$30(TextureMapping)
-+ void lambda$createMultiface$44(BooleanProperty)
-+ void lambda$createMultiface$45(Condition$TerminalCondition)
-+ void lambda$run$52(BlockFamily)
-+ void lambda$run$53(SpawnEggItem)
-- List lambda$createTurtleEgg$35(Integer)
-- ResourceLocation lambda$addBookSlotModel$47(BlockModelGenerators$BookSlotModelCacheKey)
-- ResourceLocation lambda$createCropBlock$11(Block,int,int)
-- TextureMapping lambda$createChorusFlower$14(ResourceLocation)
-- TextureMapping lambda$createCommandBlock$7(ResourceLocation)
-- Variant lambda$createActiveRail$6(RailShape)
-- Variant lambda$createBambooModels$8(String,int)
-- Variant lambda$createCropBlock$12(Integer)
-- Variant lambda$createEmptyOrFullDispatch$10(Comparable)
-- Variant lambda$createFire$16(Variant)
-- Variant lambda$createFire$17(Variant)
-- Variant lambda$createJigsaw$49(FrontAndTop)
-- Variant lambda$createRepeater$30(Boolean)
-- Variant lambda$createRespawnAnchor$48(Integer)
-- Variant lambda$createSculkCatalyst$44(Boolean)
-- Variant lambda$createSculkSensor$29(SculkSensorPhase)
-- Variant lambda$createSnowBlocks$31(Integer)
-- Variant lambda$createSoulFire$22(Variant)
-- Variant lambda$createSoulFire$23(Variant)
-- Variant lambda$createStems$5(Integer)
-- Variant lambda$createStructureBlock$32(StructureMode)
-- Variant lambda$createSweetBerryBush$33(Integer)
-- Variant lambda$createTripwireHook$34(Boolean)
-- Variant lambda$static$36(ResourceLocation)
-- Variant lambda$static$37(ResourceLocation)
-- Variant lambda$wrapModels$15(ResourceLocation)
-- void lambda$addSlotStateAndRotationVariants$46(ModelTemplate)
-- void lambda$createBarrel$9(TextureMapping)
-- void lambda$createChiseledBookshelf$45(VariantProperties$Rotation)
-- void lambda$createFurnace$13(TextureMapping)
-- void lambda$createGrassBlocks$27(TextureMapping)
-- void lambda$createGrassBlocks$28(TextureMapping)
-- void lambda$createMultiface$42(BooleanProperty)
-- void lambda$createMultiface$43(Condition$TerminalCondition)
-- void lambda$run$50(BlockFamily)
-- void lambda$run$51(SpawnEggItem)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate FLOWERBED_1
-+ ModelTemplate FLOWERBED_2
-+ ModelTemplate FLOWERBED_3
-+ ModelTemplate FLOWERBED_4
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.model.TextureSlot</summary>
-
-```diff
-+ TextureSlot FLOWERBED
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
-
-```diff
-+ boolean showNotification
-+ void <init>(ResourceLocation,boolean)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.registries.VanillaRegistries</summary>
-
-```diff
-+ void validateThatAllBiomeFeaturesHaveBiomeFilter(HolderLookup)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.IntrinsicHolderTagsProvider</summary>
-
-```diff
-+ void <init>(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
-
-```diff
-+ CompletableFuture blockTags
-+ Map tagsToCopy
-- Function blockTags
-+ CompletableFuture contentsProvider()
-+ HolderLookup$Provider lambda$contentsProvider$4(TagsProvider$TagLookup)
-+ IllegalStateException lambda$contentsProvider$2(TagKey)
-+ ResourceKey lambda$new$1(Item)
-+ void <init>(CompletableFuture)
-+ void <init>(CompletableFuture)
-+ void lambda$contentsProvider$3(TagKey)
-- void <init>(TagsProvider)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ CompletableFuture contentsProvider
-+ CompletableFuture parentProvider
-- CompletableFuture lookupProvider
-+ boolean lambda$run$2(ResourceLocation)
-+ boolean lambda$run$3(ResourceLocation)
-+ boolean lambda$run$4(TagEntry)
-+ CompletableFuture contentsGetter()
-+ CompletableFuture contentsProvider()
-+ CompletableFuture lambda$run$5(Map$Entry)
-+ CompletableFuture[] lambda$run$6(int)
-+ CompletionStage lambda$run$7(TagsProvider$1CombinedData)
-+ HolderLookup$Provider lambda$new$0(HolderLookup$Provider)
-+ Optional lambda$contentsGetter$9(TagKey)
-+ TagBuilder lambda$getOrCreateRawBuilder$8(ResourceLocation)
-+ TagsProvider$1CombinedData lambda$run$1(TagsProvider$TagLookup)
-+ TagsProvider$TagLookup lambda$contentsGetter$10(HolderLookup$Provider)
-+ void <init>(CompletableFuture)
-- boolean lambda$run$0(ResourceLocation)
-- boolean lambda$run$1(TagEntry)
-- CompletableFuture lambda$run$2(Map$Entry)
-- CompletableFuture[] lambda$run$3(int)
-- CompletionStage lambda$run$4(HolderLookup$Provider)
-- TagBuilder lambda$getOrCreateRawBuilder$5(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.status.ServerStatus$Version</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ int protocol()
-+ ServerStatus$Version current()
-+ String name()
-+ String toString()
-+ void <clinit>()
-- int getProtocol()
-- String getName()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.DataFixers</summary>
-
-```diff
-- Logger LOGGER
-+ DataFixer createFixerUpper(Set)
-- DataFixer createFixerUpper()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.BiasedToBottomInt</summary>
-
-```diff
-+ DataResult lambda$static$4(BiasedToBottomInt)
-+ String lambda$static$3(BiasedToBottomInt)
-- DataResult lambda$static$3(BiasedToBottomInt)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.ClampedNormalFloat</summary>
-
-```diff
-+ DataResult lambda$static$6(ClampedNormalFloat)
-+ String lambda$static$5(ClampedNormalFloat)
-- DataResult lambda$static$5(ClampedNormalFloat)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.valueproviders.FloatProvider</summary>
-
-```diff
-+ DataResult lambda$codec$5(FloatProvider)
-+ String lambda$codec$3(FloatProvider)
-+ String lambda$codec$4(FloatProvider)
-- DataResult lambda$codec$3(FloatProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.IntProvider</summary>
-
-```diff
-+ Codec codec(Codec)
-+ DataResult lambda$codec$5(IntProvider)
-+ String lambda$codec$3(IntProvider)
-+ String lambda$codec$4(IntProvider)
-- DataResult lambda$codec$3(IntProvider)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.valueproviders.TrapezoidFloat</summary>
-
-```diff
-+ DataResult lambda$static$6(TrapezoidFloat)
-+ String lambda$static$4(TrapezoidFloat)
-+ String lambda$static$5(TrapezoidFloat)
-- DataResult lambda$static$4(TrapezoidFloat)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.UniformInt</summary>
-
-```diff
-+ DataResult lambda$static$4(UniformInt)
-+ String lambda$static$3(UniformInt)
-- DataResult lambda$static$3(UniformInt)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.Container</summary>
-
-```diff
-+ int DEFAULT_DISTANCE_LIMIT
-+ boolean canTakeItem(ItemStack)
-+ boolean stillValidBlockEntity(Player,int)
-+ boolean stillValidBlockEntity(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.Brain$1</summary>
-
-```diff
-+ Brain$MemoryValue lambda$captureRead$8(ExpirableValue)
-+ DataResult lambda$captureRead$6(MemoryModuleType)
-+ DataResult lambda$captureRead$7(Codec)
-+ String lambda$captureRead$5(MemoryModuleType)
-+ void lambda$encode$9(Brain$MemoryValue)
-- Brain$MemoryValue lambda$captureRead$7(ExpirableValue)
-- DataResult lambda$captureRead$5(MemoryModuleType)
-- DataResult lambda$captureRead$6(Codec)
-- void lambda$encode$8(Brain$MemoryValue)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StayCloseToTarget</summary>
-
-```diff
-+ App lambda$create$2(BehaviorBuilder$Instance)
-+ BehaviorControl create(Predicate,int,int,float)
-+ boolean lambda$create$0(LivingEntity,long)
-+ Trigger lambda$create$1(MemoryAccessor)
-- App lambda$create$2(BehaviorBuilder$Instance)
-- BehaviorControl create(Function,int,int,float)
-- boolean lambda$create$0(LivingEntity,long)
-- Trigger lambda$create$1(MemoryAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ambient.Bat</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
-
-```diff
-+ float getRiddenSpeed(LivingEntity)
-+ Vec2 getRiddenRotation(LivingEntity)
-+ Vec3 getRiddenInput(Vec3)
-+ void executeRidersJump(Vec3)
-+ void tickRidden(Vec3)
-- boolean mountIgnoresControllerInput(LivingEntity)
-- Entity getControllingPassenger()
-- float getDrivenMovementSpeed(LivingEntity)
-- void executeRidersJump(float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
-
-```diff
-+ Component getTypeName()
-+ void disableDrop()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-+ float getFlyingSpeed()
-+ LivingEntity getControllingPassenger()
-- boolean canBeControlledBy(Entity)
-- Entity getControllingPassenger()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Strider</summary>
-
-```diff
-+ AttributeModifier SUFFOCATING_MODIFIER
-+ UUID SUFFOCATING_MODIFIER_UUID
-- float SUFFOCATE_SPEED_MODIFIER
-+ float getRiddenSpeed(LivingEntity)
-+ LivingEntity getControllingPassenger()
-+ Vec3 getRiddenInput(Vec3)
-+ void tickRidden(Vec3)
-- boolean canBeControlledBy(Entity)
-- Entity getControllingPassenger()
-- float getMoveSpeed()
-- float getSteeringSpeed()
-- void travel(Vec3)
-- void travelWithInput(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades</summary>
-
-```diff
-+ Int2ObjectMap WANDERING_TRADER_TRADES_1_20
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
-
-```diff
-+ boolean hasEnoughSpaceFor(Entity)
-+ LivingEntity getControllingPassenger()
-- Entity getControllingPassenger()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Recipe</summary>
-
-```diff
-+ boolean showNotification()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeSerializer</summary>
-
-```diff
-+ RecipeSerializer DECORATED_POT_RECIPE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
-
-```diff
-+ boolean showNotification
-+ boolean showNotification()
-+ void <init>(ItemStack,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentHelper</summary>
-
-```diff
-+ boolean hasSilkTouch(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ Stream collectPossibleBiomes()
-+ Supplier possibleBiomes
-- Set possibleBiomes
-+ Set lambda$new$0()
-+ void <init>()
-- void <init>(List)
-- void <init>(Stream)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
-
-```diff
-+ ResourceKey CHERRY_GROVE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.biome.Climate$Parameter</summary>
-
-```diff
-+ DataResult lambda$static$1(Float)
-+ Float lambda$static$3(Climate$Parameter)
-+ String lambda$static$0(Float)
-- DataResult lambda$static$0(Float)
-- Float lambda$static$1(Climate$Parameter)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ Stream collectPossibleBiomes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData</summary>
-
-```diff
-+ DataResult lambda$static$5(MobSpawnSettings$SpawnerData)
-+ String lambda$static$4()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
-
-```diff
-+ BlockSetType type
-- void playOffSound(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos)
-- void playOnSound(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos)
-+ void <init>(BlockSetType)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
-
-```diff
-+ BlockSetType type
-- SoundEvent soundOff
-- SoundEvent soundOn
-+ void <init>(BlockSetType,int,boolean)
-- void <init>(SoundEvent)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
-
-```diff
-+ BlockSetType type
-- SoundEvent closeSound
-- SoundEvent openSound
-+ void <init>(BlockSetType)
-- void <init>(SoundEvent)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
-
-```diff
-+ void checkPoweredState(BlockState,int)
-- void checkPoweredState(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LevelEvent</summary>
-
-```diff
-+ int PARTICLES_AND_SOUND_BRUSH_BLOCK_COMPLETE
-+ int SOUND_PLAY_JUKEBOX_SONG
-+ int SOUND_STOP_JUKEBOX_SONG
-- int SOUND_PLAY_RECORDING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ Optional offsetFunction
-- Function offsetType
-+ MaterialColor lambda$color$7(BlockState)
-+ MaterialColor lambda$new$6(BlockState)
-+ Vec3 lambda$offsetType$8(BlockPos)
-+ Vec3 lambda$offsetType$9(BlockPos)
-- BlockBehaviour$OffsetType lambda$new$6(BlockState)
-- BlockBehaviour$OffsetType lambda$offsetType$9(BlockState)
-- BlockBehaviour$Properties offsetType(Function)
-- MaterialColor lambda$color$8(BlockState)
-- MaterialColor lambda$new$7(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider</summary>
-
-```diff
-+ String lambda$create$1()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.realmsclient.client.FileDownload
@@ -7753,2421 +4271,1116 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.FileUtil</summary>
+<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
 
 ```diff
-+ String lambda$decomposePath$0(String)
-+ String lambda$decomposePath$1(String)
-+ String lambda$decomposePath$2(String)
-+ String lambda$decomposePath$3(String)
+- NativeImage fromBase64(String)
++ NativeImage read(byte[])
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.StringRepresentableArgument</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-+ String convertId(String)
++ boolean lambda$dismissNotification$26(UUID,RealmsNotification)
+- boolean lambda$removeServer$18(RealmsServer,RealmsMainScreen$Entry)
++ boolean lambda$removeServer$24(RealmsServer,RealmsMainScreen$Entry)
+- boolean lambda$updateTeaserImages$20(ResourceLocation)
+- boolean lambda$updateTeaserImages$21(ResourceLocation)
++ boolean lambda$updateTeaserImages$29(ResourceLocation)
++ boolean lambda$updateTeaserImages$30(ResourceLocation)
++ boolean shouldConfigureButtonBeActive(RealmsServer)
+- boolean shouldConfigureButtonBeVisible(RealmsServer)
++ boolean shouldLeaveButtonBeActive(RealmsServer)
+- boolean shouldLeaveButtonBeVisible(RealmsServer)
++ Font access$1400(RealmsMainScreen)
+- Font access$1600(RealmsMainScreen)
++ Font access$1900(RealmsMainScreen)
+- Font access$2100(RealmsMainScreen)
+- Font access$2900(RealmsMainScreen)
+- Minecraft access$1400(RealmsMainScreen)
++ Minecraft access$1600(RealmsMainScreen)
+- Minecraft access$3000(RealmsMainScreen)
+- Minecraft access$3100(RealmsMainScreen)
++ Object lambda$callRealmsClient$18(RealmsMainScreen$RealmsCall,Minecraft)
++ Object lambda$dismissNotification$25(UUID,RealmsClient)
++ Object lambda$refreshRealmsSelectionList$20(List,RealmsClient)
+- void access$1900(RealmsMainScreen,Component)
++ void access$2100(RealmsMainScreen,Component)
+- void access$3200(RealmsMainScreen,Component)
+- void addBottomButtons()
++ void addEntriesForNotification(RealmsMainScreen$RealmSelectionList,RealmsNotification)
++ void addFooterButtons()
++ void callRealmsClient(RealmsMainScreen$RealmsCall,Consumer)
++ void dismissNotification(UUID)
+- void drawConfigure(PoseStack,int,int,int,int)
+- void drawLeave(PoseStack,int,int,int,int)
+- void lambda$addBottomButtons$10(Button)
+- void lambda$addBottomButtons$6(Button)
+- void lambda$addBottomButtons$7(Button)
+- void lambda$addBottomButtons$8(Button)
+- void lambda$addBottomButtons$9(Button)
++ void lambda$addFooterButtons$10(Button)
++ void lambda$addFooterButtons$11(RealmsMainScreen,GuiEventListener)
++ void lambda$addFooterButtons$6(Button)
++ void lambda$addFooterButtons$7(Button)
++ void lambda$addFooterButtons$8(Button)
++ void lambda$addFooterButtons$9(Button)
++ Void lambda$callRealmsClient$19(Throwable)
+- void lambda$charTyped$19(char,KeyCombo)
++ void lambda$charTyped$28(char,KeyCombo)
++ void lambda$dismissNotification$27(UUID,Object)
+- void lambda$initDataFetcher$11(List)
+- void lambda$initDataFetcher$12(Integer)
++ void lambda$initDataFetcher$12(List)
+- void lambda$initDataFetcher$13(Boolean)
++ void lambda$initDataFetcher$13(List)
++ void lambda$initDataFetcher$14(Integer)
+- void lambda$initDataFetcher$14(RealmsServerPlayerLists)
++ void lambda$initDataFetcher$15(Boolean)
+- void lambda$initDataFetcher$15(RealmsDataFetcher,RealmsNews)
++ void lambda$initDataFetcher$16(RealmsServerPlayerLists)
++ void lambda$initDataFetcher$17(RealmsDataFetcher,RealmsNews)
+- void lambda$leaveClicked$17(RealmsServer,boolean)
++ void lambda$leaveClicked$23(RealmsServer,boolean)
+- void lambda$pingRegions$16()
++ void lambda$pingRegions$22()
++ void lambda$refreshRealmsSelectionList$21(List,Object)
++ void refreshRealmsSelectionList()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
 
 ```diff
-+ DataResult lambda$byNameCodec$2(ResourceLocation)
-+ DataResult lambda$byNameCodec$4(Object)
-+ DataResult lambda$byNameCodec$5(Object)
-+ DataResult lambda$holderByNameCodec$11(Holder)
-+ DataResult lambda$holderByNameCodec$12(Holder)
-+ DataResult lambda$holderByNameCodec$8(ResourceLocation)
-+ DataResult lambda$holderByNameCodec$9(ResourceLocation)
-+ IllegalStateException lambda$getHolderOrThrow$16(ResourceKey)
-+ int lambda$byNameCodec$6(Object)
-+ Lifecycle lambda$holderByNameCodec$13(Holder)
-+ Lifecycle lambda$holderByNameCodec$14(Holder)
-+ Object lambda$keys$15(ResourceLocation)
-+ String lambda$byNameCodec$0(ResourceLocation)
-+ String lambda$byNameCodec$3(Object)
-+ String lambda$holderByNameCodec$10(Holder)
-+ String lambda$holderByNameCodec$7(ResourceLocation)
-- DataResult lambda$byNameCodec$0(ResourceLocation)
-- DataResult lambda$byNameCodec$2(Object)
-- DataResult lambda$byNameCodec$3(Object)
-- DataResult lambda$holderByNameCodec$5(ResourceLocation)
-- DataResult lambda$holderByNameCodec$6(ResourceLocation)
-- DataResult lambda$holderByNameCodec$7(Holder)
-- DataResult lambda$holderByNameCodec$8(Holder)
-- IllegalStateException lambda$getHolderOrThrow$12(ResourceKey)
-- int lambda$byNameCodec$4(Object)
-- Lifecycle lambda$holderByNameCodec$10(Holder)
-- Lifecycle lambda$holderByNameCodec$9(Holder)
-- Object lambda$keys$11(ResourceLocation)
++ void itemClicked(int,int,double,double,int,int)
+- void itemClicked(int,int,double,double,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistrySynchronization</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ Codec lambda$makeNetworkCodec$6(Codec)
-+ DataResult lambda$getNetworkCodec$4(ResourceKey)
-+ DataResult lambda$makeNetworkCodec$5(Registry)
-+ DataResult lambda$makeNetworkCodec$7(ResourceKey)
-+ Map lambda$captureMap$10(RegistryAccess)
-+ Registry lambda$captureMap$9(RegistryAccess$RegistryEntry)
-+ ResourceKey lambda$captureMap$8(RegistryAccess$RegistryEntry)
-+ String lambda$getNetworkCodec$3(ResourceKey)
-- Codec lambda$makeNetworkCodec$5(Codec)
-- DataResult lambda$getNetworkCodec$3(ResourceKey)
-- DataResult lambda$makeNetworkCodec$4(Registry)
-- DataResult lambda$makeNetworkCodec$6(ResourceKey)
-- Map lambda$captureMap$9(RegistryAccess)
-- Registry lambda$captureMap$8(RegistryAccess$RegistryEntry)
-- ResourceKey lambda$captureMap$7(RegistryAccess$RegistryEntry)
+- boolean lambda$tick$39()
++ boolean lambda$tick$40()
+- ChunkProgressListener lambda$doWorldLoad$40(int)
++ ChunkProgressListener lambda$doWorldLoad$41(int)
+- CompletionStage lambda$delayTextureReload$51(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$52(CompletableFuture)
+- IntegratedServer lambda$doWorldLoad$41(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ IntegratedServer lambda$doWorldLoad$42(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
+- String lambda$doWorldLoad$42(WorldStem)
++ String lambda$doWorldLoad$43(WorldStem)
+- String lambda$fillSystemReport$44(String)
+- String lambda$fillSystemReport$45(Minecraft)
++ String lambda$fillSystemReport$45(String)
+- String lambda$fillSystemReport$46()
++ String lambda$fillSystemReport$46(Minecraft)
++ String lambda$fillSystemReport$49()
+- String lambda$fillSystemReport$49(Options)
+- String lambda$fillSystemReport$50(LanguageManager)
++ String lambda$fillSystemReport$50(Options)
++ String lambda$fillSystemReport$51(LanguageManager)
+- Style lambda$debugClientMetricsStart$30(Path,Style)
++ Style lambda$debugClientMetricsStart$31(Path,Style)
+- Style lambda$grabHugeScreenshot$54(File,Style)
++ Style lambda$grabHugeScreenshot$55(File,Style)
+- Style lambda$grabPanoramixScreenshot$53(File,Style)
++ Style lambda$grabPanoramixScreenshot$54(File,Style)
++ void abortResourcePackRecovery()
++ void addResourcePackLoadFailToast(Component)
+- void lambda$debugClientMetricsStart$28(Consumer,double,int)
++ void lambda$debugClientMetricsStart$29(Consumer,double,int)
+- void lambda$debugClientMetricsStart$29(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$30(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$31(Consumer,Component)
++ void lambda$debugClientMetricsStart$32(Consumer,Component)
+- void lambda$debugClientMetricsStart$32(Consumer,Path)
++ void lambda$debugClientMetricsStart$33(Consumer,Path)
+- void lambda$debugClientMetricsStart$33(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$34(Consumer,Path)
++ void lambda$debugClientMetricsStart$34(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$35(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$35(Consumer,Path)
++ void lambda$debugClientMetricsStart$36(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$36(ProfileResults)
+- void lambda$debugClientMetricsStart$37(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$37(ProfileResults)
++ void lambda$debugClientMetricsStart$38(Consumer,ProfileResults)
+- void lambda$doWorldLoad$43(Component)
++ void lambda$doWorldLoad$44(Component)
+- void lambda$grabPanoramixScreenshot$52(Component)
++ void lambda$grabPanoramixScreenshot$53(Component)
+- void lambda$openChatScreen$25(boolean)
++ void lambda$openChatScreen$26(boolean)
++ void lambda$reloadResourcePacks$23(boolean,Throwable)
+- void lambda$reloadResourcePacks$23(CompletableFuture)
+- void lambda$reloadResourcePacks$24(CompletableFuture,Optional)
++ void lambda$reloadResourcePacks$24(CompletableFuture)
++ void lambda$reloadResourcePacks$25(boolean,CompletableFuture,Optional)
+- void lambda$runTick$26(CompletableFuture)
++ void lambda$runTick$27(CompletableFuture)
+- void lambda$runTick$27(TimerQuery)
++ void lambda$runTick$28(TimerQuery)
+- void lambda$tick$38()
++ void lambda$tick$39()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.core.Vec3i</summary>
+<details><summary>net.minecraft.client.OptionInstance$ClampingLazyMaxIntRange</summary>
 
 ```diff
-+ DataResult lambda$offsetCodec$4(Vec3i)
-+ String lambda$offsetCodec$3(Vec3i)
-- DataResult lambda$offsetCodec$3(Vec3i)
-- Vec3i offset(double,double,double)
-- void <init>(double,double,double)
+- DataResult lambda$codec$0(Integer)
++ DataResult lambda$codec$1(Integer)
++ String lambda$codec$0(Integer,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.BuiltInRegistries</summary>
+<details><summary>net.minecraft.client.gui.screens.OptionsScreen</summary>
 
 ```diff
-+ Registry DECORATED_POT_PATTERNS
-```
-
-</details>
-
-<details><summary>net.minecraft.core.registries.Registries</summary>
-
-```diff
-+ ResourceKey DECORATED_POT_PATTERNS
-+ ResourceKey MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST
-```
-
-</details>
-
-<details><summary>net.minecraft.data.BlockFamilies</summary>
-
-```diff
-+ BlockFamily CHERRY_PLANKS
++ void applyPacks(PackRepository)
+- void updatePackList(PackRepository)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.packs.UpdateOneTwentyBlockLoot</summary>
+<details><summary>net.minecraft.client.gui.screens.Screen</summary>
 
 ```diff
-+ LootTable$Builder lambda$generate$3(Block)
-+ LootTable$Builder lambda$generate$4(Block)
-+ LootTable$Builder lambda$generate$5(Block)
++ void added()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.tags.UpdateOneTwentyItemTagsProvider</summary>
+<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementTab</summary>
 
 ```diff
-+ void <init>(CompletableFuture)
-- void <init>(TagsProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.VanillaItemTagsProvider</summary>
-
-```diff
-+ void <init>(CompletableFuture)
-- void <init>(TagsProvider)
++ void drawContents(PoseStack,int,int)
+- void drawContents(PoseStack)
+- void drawIcon(int,int,ItemRenderer)
++ void drawIcon(PoseStack,int,int,ItemRenderer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
+<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$KeyEntry</summary>
 
 ```diff
-+ Biome biome(Music)
-+ Biome meadowOrCherryGrove(HolderGetter,boolean)
-- Biome biome(Music)
-- Biome meadow(HolderGetter)
+- boolean mouseClicked(double,double,int)
+- boolean mouseReleased(double,double,int)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.data.worldgen.features.TreeFeatures</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractContainerScreen</summary>
 
 ```diff
-+ ResourceKey CHERRY
-+ ResourceKey CHERRY_BEES_005
-+ TreeConfiguration$TreeConfigurationBuilder cherry()
+- void renderFloatingItem(ItemStack,int,int,String)
++ void renderFloatingItem(PoseStack,ItemStack,int,int,String)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.placement.VegetationPlacements</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.InventoryScreen</summary>
 
 ```diff
-+ ResourceKey FLOWER_CHERRY
-+ ResourceKey TREES_CHERRY
+- void renderEntityInInventory(int,int,int,Quaternionf,Quaternionf,LivingEntity)
++ void renderEntityInInventory(PoseStack,int,int,int,Quaternionf,Quaternionf,LivingEntity)
+- void renderEntityInInventoryFollowsMouse(int,int,int,float,float,LivingEntity)
++ void renderEntityInInventoryFollowsMouse(PoseStack,int,int,int,float,float,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.LegacySmithingScreen</summary>
 
 ```diff
-+ void continuouslyUse(BlockHitResult)
+- void renderLabels(PoseStack,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
+<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry</summary>
 
 ```diff
-+ DataResult lambda$static$1(Dynamic)
-+ Dynamic lambda$static$2(CompoundTag)
-+ String lambda$createReport$3(String)
-+ String lambda$static$0(Tag)
-- DataResult lambda$static$0(Dynamic)
-- Dynamic lambda$static$1(CompoundTag)
-- String lambda$createReport$2(String)
++ boolean uploadServerIcon(byte[])
+- boolean uploadServerIcon(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtOps</summary>
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel</summary>
 
 ```diff
-+ boolean lambda$remove$28(String)
-+ DataResult lambda$mergeToList$2(NbtOps$ListCollector)
-+ DataResult lambda$mergeToList$4(Tag)
-+ DataResult lambda$mergeToList$5(NbtOps$ListCollector)
-+ DataResult lambda$mergeToList$7(Tag)
-+ Pair lambda$getMapValues$15(String)
-+ String lambda$getList$27(Tag)
-+ String lambda$getMap$20(Tag)
-+ String lambda$getMapEntries$19(Tag)
-+ String lambda$getMapValues$16(Tag)
-+ String lambda$getNumberValue$0()
-+ String lambda$getStream$24()
-+ String lambda$getStringValue$1()
-+ String lambda$mergeToList$3(Tag)
-+ String lambda$mergeToList$6(Tag)
-+ String lambda$mergeToMap$11(Tag)
-+ String lambda$mergeToMap$14(List)
-+ String lambda$mergeToMap$8(Tag)
-+ String lambda$mergeToMap$9(Tag)
-+ Tag lambda$getStream$22(Tag)
-+ Tag lambda$getStream$23(Tag)
-+ void lambda$createMap$21(Pair)
-+ void lambda$getList$25(Tag)
-+ void lambda$getList$26(Consumer)
-+ void lambda$getMapEntries$17(String)
-+ void lambda$getMapEntries$18(BiConsumer)
-+ void lambda$mergeToMap$10(String)
-+ void lambda$mergeToMap$12(String)
-+ void lambda$mergeToMap$13(Pair)
-+ void lambda$remove$29(String)
-- boolean lambda$remove$15(String)
-- DataResult lambda$mergeToList$0(NbtOps$ListCollector)
-- DataResult lambda$mergeToList$1(Tag)
-- DataResult lambda$mergeToList$2(NbtOps$ListCollector)
-- DataResult lambda$mergeToList$3(Tag)
-- Pair lambda$getMapValues$7(String)
-- Tag lambda$getStream$11(Tag)
-- Tag lambda$getStream$12(Tag)
-- void lambda$createMap$10(Pair)
-- void lambda$getList$13(Tag)
-- void lambda$getList$14(Consumer)
-- void lambda$getMapEntries$8(String)
-- void lambda$getMapEntries$9(BiConsumer)
-- void lambda$mergeToMap$4(String)
-- void lambda$mergeToMap$5(String)
-- void lambda$mergeToMap$6(Pair)
-- void lambda$remove$16(String)
++ void updateRepoSelectedList()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.status.ClientboundStatusResponsePacket</summary>
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel$EntryBase</summary>
 
 ```diff
-- Gson GSON
++ void updateHighContrastOptionInstance()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.AbstractFurnaceRecipeBookComponent</summary>
+
+```diff
++ boolean lambda$setupGhostRecipe$0(Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton</summary>
+
+```diff
+- void renderIcon(ItemRenderer)
++ void renderIcon(PoseStack,ItemRenderer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
+
+```diff
++ boolean lambda$createNewWorldDirectory$19(Path)
+- boolean lambda$createNewWorldDirectory$23(Path)
++ boolean lambda$createTempDataPackDirFromExistingWorld$21(Path,Path)
+- boolean lambda$createTempDataPackDirFromExistingWorld$25(Path,Path)
++ DataResult lambda$applyNewPackConfig$13(DynamicOps,JsonElement)
+- DataResult lambda$applyNewPackConfig$15(DynamicOps,JsonElement)
++ Object lambda$applyNewPackConfig$17(Consumer,Void,Throwable)
+- Object lambda$applyNewPackConfig$21(Consumer,Void,Throwable)
+- void lambda$applyNewPackConfig$14()
++ void lambda$applyNewPackConfig$16(Consumer,boolean)
+- void lambda$applyNewPackConfig$18(Consumer,boolean)
+- void lambda$applyNewPackConfig$19(Consumer)
+- void lambda$applyNewPackConfig$20()
++ void lambda$createNewWorldDirectory$20(Path,Path)
+- void lambda$createNewWorldDirectory$24(Path,Path)
++ void lambda$createTempDataPackDirFromExistingWorld$22(MutableObject,Path,Path)
+- void lambda$createTempDataPackDirFromExistingWorld$26(MutableObject,Path,Path)
++ void lambda$removeTempDataPackDir$18(Path)
+- void lambda$removeTempDataPackDir$22(Path)
+- void lambda$tryApplyNewDataPacks$13(PackRepository,WorldDataConfiguration,Consumer)
++ void renderDirtBackground(PoseStack)
++ WorldCreationContext lambda$applyNewPackConfig$15(CloseableResourceManager,ReloadableServerResources,LayeredRegistryAccess,CreateWorldScreen$DataPackReloadCookie)
+- WorldCreationContext lambda$applyNewPackConfig$17(CloseableResourceManager,ReloadableServerResources,LayeredRegistryAccess,CreateWorldScreen$DataPackReloadCookie)
++ WorldLoader$DataLoadOutput lambda$applyNewPackConfig$14(WorldLoader$DataLoadContext)
+- WorldLoader$DataLoadOutput lambda$applyNewPackConfig$16(WorldLoader$DataLoadContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.ExperimentsScreen</summary>
+
+```diff
+- void popScreen()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.main.Main</summary>
+
+```diff
+- void run(String[],boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.geom.ModelPart$Cube</summary>
+
+```diff
++ void <init>(int,int,float,float,float,float,float,float,float,float,float,boolean,float,float,Set)
+- void <init>(int,int,float,float,float,float,float,float,float,float,float,boolean,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.geom.builders.CubeDefinition</summary>
+
+```diff
++ void <init>(String,float,float,float,float,float,float,float,float,CubeDeformation,boolean,float,float,Set)
+- void <init>(String,float,float,float,float,float,float,float,float,CubeDeformation,boolean,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.geom.builders.CubeListBuilder</summary>
+
+```diff
++ CubeListBuilder addBox(float,float,float,float,float,float,Set)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
+
+```diff
++ void replaceBiomes(int,int,FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.ChatLog</summary>
+
+```diff
+- DataResult lambda$codec$0(int,List)
++ DataResult lambda$codec$1(int,List)
+- LoggedChatEvent[] lambda$new$1(int,int)
++ LoggedChatEvent[] lambda$new$2(int,int)
++ String lambda$codec$0(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
+
+```diff
+- CompletionStage lambda$reload$3(Executor,Map)
++ CompletionStage lambda$reload$5(Executor,Map)
+- Map lambda$reload$0(ResourceManager)
++ Map lambda$reload$2(ResourceManager)
++ Particle lambda$register$0(ParticleProvider$Sprite,SpriteSet,ParticleOptions,ClientLevel,double,double,double,double,double,double)
+- ParticleEngine$1ParticleDefinition lambda$reload$1(ResourceLocation,Resource)
++ ParticleEngine$1ParticleDefinition lambda$reload$3(ResourceLocation,Resource)
++ ParticleProvider lambda$register$1(ParticleProvider$Sprite,SpriteSet)
+- Queue lambda$tick$7(ParticleRenderType)
++ Queue lambda$tick$9(ParticleRenderType)
++ void lambda$destroy$11(BlockPos,BlockState,double,double,double,double,double,double)
+- void lambda$destroy$9(BlockPos,BlockState,double,double,double,double,double,double)
+- void lambda$reload$2(List,Executor,ResourceLocation,Resource)
++ void lambda$reload$4(List,Executor,ResourceLocation,Resource)
+- void lambda$reload$4(SpriteLoader$Preparations,Set,TextureAtlasSprite,ParticleEngine$1ParticleDefinition)
+- void lambda$reload$5(ProfilerFiller,CompletableFuture,CompletableFuture,Void)
++ void lambda$reload$6(SpriteLoader$Preparations,Set,TextureAtlasSprite,ParticleEngine$1ParticleDefinition)
++ void lambda$reload$7(ProfilerFiller,CompletableFuture,CompletableFuture,Void)
+- void lambda$tick$6(ParticleRenderType,Queue)
++ void lambda$tick$8(ParticleRenderType,Queue)
++ void lambda$tickParticleList$10(ParticleGroup)
+- void lambda$tickParticleList$8(ParticleGroup)
++ void register(ParticleType,ParticleProvider$Sprite)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.packs.VanillaAdventureAdvancements</summary>
+
+```diff
++ void createAdventuringTime(Consumer,Advancement,MultiNoiseBiomeSourceParameterList$Preset)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.BiomeParametersDumpReport</summary>
+
+```diff
+- CompletableFuture lambda$run$0(HolderGetter,CachedOutput,DynamicOps,Pair)
++ void lambda$run$0(List,CachedOutput,DynamicOps,MultiNoiseBiomeSourceParameterList$Preset,Climate$ParameterList)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
+
+```diff
+- LootPoolEntryContainer$Builder lambda$generate$223(Block,Integer)
++ LootPoolEntryContainer$Builder lambda$generate$225(Block,Integer)
++ LootTable$Builder lambda$generate$190(Block)
+- LootTable$Builder lambda$generate$190(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$192(Block)
++ LootTable$Builder lambda$generate$192(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$197(Block)
+- LootTable$Builder lambda$generate$197(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$199(Block)
++ LootTable$Builder lambda$generate$199(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$201(Block)
+- LootTable$Builder lambda$generate$201(ItemLike)
+- LootTable$Builder lambda$generate$204(Block)
++ LootTable$Builder lambda$generate$204(ItemLike)
++ LootTable$Builder lambda$generate$205(Block)
+- LootTable$Builder lambda$generate$205(ItemLike)
++ LootTable$Builder lambda$generate$207(ItemLike)
+- LootTable$Builder lambda$generate$207(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$208(Block)
++ LootTable$Builder lambda$generate$208(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$215(Block)
+- LootTable$Builder lambda$generate$215(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$217(Block)
++ LootTable$Builder lambda$generate$217(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$219(Block)
+- LootTable$Builder lambda$generate$219(VanillaBlockLoot,Block)
+- LootTable$Builder lambda$generate$221(Block)
++ LootTable$Builder lambda$generate$221(VanillaBlockLoot,Block)
++ LootTable$Builder lambda$generate$223(Block)
+- LootTable$Builder lambda$generate$225(Block)
++ LootTable$Builder lambda$generate$231(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
+- List lambda$createTurtleEgg$35(Integer,Integer)
++ List lambda$createTurtleEgg$37(Integer,Integer)
+- ResourceLocation lambda$addBookSlotModel$47(ModelTemplate,String,TextureMapping,BlockModelGenerators$BookSlotModelCacheKey)
++ ResourceLocation lambda$addBookSlotModel$49(ModelTemplate,String,TextureMapping,BlockModelGenerators$BookSlotModelCacheKey)
+- ResourceLocation lambda$createCropBlock$11(Block,int,int)
++ ResourceLocation lambda$createCropBlock$13(Block,int,int)
+- TextureMapping lambda$createChorusFlower$14(TextureMapping,ResourceLocation)
++ TextureMapping lambda$createChorusFlower$16(TextureMapping,ResourceLocation)
+- TextureMapping lambda$createCommandBlock$7(TextureMapping,ResourceLocation)
++ TextureMapping lambda$createCommandBlock$9(TextureMapping,ResourceLocation)
+- Variant lambda$createActiveRail$6(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
++ Variant lambda$createActiveRail$8(ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,Boolean,RailShape)
++ Variant lambda$createBambooModels$10(String,int)
+- Variant lambda$createBambooModels$8(String,int)
+- Variant lambda$createCropBlock$12(int[],Int2ObjectMap,Block,Integer)
++ Variant lambda$createCropBlock$14(int[],Int2ObjectMap,Block,Integer)
++ Variant lambda$createCrossBlock$6(int[],Block,BlockModelGenerators$TintState,Integer)
+- Variant lambda$createEmptyOrFullDispatch$10(Comparable,Variant,Variant,Comparable)
++ Variant lambda$createEmptyOrFullDispatch$12(Comparable,Variant,Variant,Comparable)
+- Variant lambda$createFire$16(Variant)
+- Variant lambda$createFire$17(Variant)
++ Variant lambda$createFire$22(Variant)
++ Variant lambda$createFire$23(Variant)
+- Variant lambda$createJigsaw$49(FrontAndTop)
++ Variant lambda$createJigsaw$51(FrontAndTop)
+- Variant lambda$createRepeater$30(Integer,Boolean,Boolean)
++ Variant lambda$createRepeater$32(Integer,Boolean,Boolean)
+- Variant lambda$createRespawnAnchor$48(ResourceLocation[],Integer)
++ Variant lambda$createRespawnAnchor$50(ResourceLocation[],Integer)
+- Variant lambda$createSculkCatalyst$44(ResourceLocation,ResourceLocation,Boolean)
++ Variant lambda$createSculkCatalyst$46(ResourceLocation,ResourceLocation,Boolean)
+- Variant lambda$createSculkSensor$29(ResourceLocation,ResourceLocation,SculkSensorPhase)
++ Variant lambda$createSculkSensor$31(ResourceLocation,ResourceLocation,SculkSensorPhase)
+- Variant lambda$createSnowBlocks$31(ResourceLocation,Integer)
++ Variant lambda$createSnowBlocks$33(ResourceLocation,Integer)
+- Variant lambda$createSoulFire$22(Variant)
+- Variant lambda$createSoulFire$23(Variant)
++ Variant lambda$createSoulFire$27(Variant)
++ Variant lambda$createSoulFire$28(Variant)
+- Variant lambda$createStems$5(Block,TextureMapping,Integer)
++ Variant lambda$createStems$7(Block,TextureMapping,Integer)
+- Variant lambda$createStructureBlock$32(StructureMode)
++ Variant lambda$createStructureBlock$34(StructureMode)
++ Variant lambda$createSuspiciousSandBlock$5(Integer)
+- Variant lambda$createSweetBerryBush$33(Integer)
++ Variant lambda$createSweetBerryBush$35(Integer)
+- Variant lambda$createTripwireHook$34(Boolean,Boolean)
++ Variant lambda$createTripwireHook$36(Boolean,Boolean)
+- Variant lambda$static$36(ResourceLocation)
+- Variant lambda$static$37(ResourceLocation)
++ Variant lambda$static$42(ResourceLocation)
++ Variant lambda$static$43(ResourceLocation)
+- Variant lambda$wrapModels$15(ResourceLocation)
++ Variant lambda$wrapModels$17(ResourceLocation)
++ void createCrossBlock(Block,BlockModelGenerators$TintState,Property,int[])
++ void createFlowerBed(Block)
++ void createSuspiciousSandBlock()
+- void lambda$addSlotStateAndRotationVariants$46(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate)
++ void lambda$addSlotStateAndRotationVariants$48(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate)
++ void lambda$createBarrel$11(ResourceLocation,TextureMapping)
+- void lambda$createBarrel$9(ResourceLocation,TextureMapping)
+- void lambda$createChiseledBookshelf$45(MultiPartGenerator,ResourceLocation,Direction,VariantProperties$Rotation)
++ void lambda$createChiseledBookshelf$47(MultiPartGenerator,ResourceLocation,Direction,VariantProperties$Rotation)
+- void lambda$createFurnace$13(ResourceLocation,TextureMapping)
++ void lambda$createFurnace$15(ResourceLocation,TextureMapping)
+- void lambda$createGrassBlocks$27(ResourceLocation,TextureMapping)
+- void lambda$createGrassBlocks$28(ResourceLocation,TextureMapping)
++ void lambda$createGrassBlocks$29(ResourceLocation,TextureMapping)
++ void lambda$createGrassBlocks$30(ResourceLocation,TextureMapping)
+- void lambda$createMultiface$42(Block,Condition$TerminalCondition,BooleanProperty)
+- void lambda$createMultiface$43(Block,Condition$TerminalCondition)
++ void lambda$createMultiface$44(Block,Condition$TerminalCondition,BooleanProperty)
++ void lambda$createMultiface$45(Block,Condition$TerminalCondition)
+- void lambda$run$50(BlockFamily)
+- void lambda$run$51(SpawnEggItem)
++ void lambda$run$52(BlockFamily)
++ void lambda$run$53(SpawnEggItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation,boolean)
+- void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.registries.VanillaRegistries</summary>
+
+```diff
++ void validateThatAllBiomeFeaturesHaveBiomeFilter(HolderGetter,HolderLookup)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.IntrinsicHolderTagsProvider</summary>
+
+```diff
++ void <init>(PackOutput,ResourceKey,CompletableFuture,CompletableFuture,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+
+```diff
++ CompletableFuture contentsProvider()
++ HolderLookup$Provider lambda$contentsProvider$4(HolderLookup$Provider,TagsProvider$TagLookup)
++ IllegalStateException lambda$contentsProvider$2(TagKey)
++ ResourceKey lambda$new$1(Item)
++ void <init>(PackOutput,CompletableFuture,CompletableFuture,CompletableFuture)
++ void <init>(PackOutput,CompletableFuture,CompletableFuture)
+- void <init>(PackOutput,CompletableFuture,TagsProvider)
++ void lambda$contentsProvider$3(TagsProvider$TagLookup,TagKey,TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
+
+```diff
+- boolean lambda$run$0(HolderLookup$RegistryLookup,ResourceLocation)
+- boolean lambda$run$1(Predicate,TagEntry)
++ boolean lambda$run$2(HolderLookup$RegistryLookup,ResourceLocation)
++ boolean lambda$run$3(TagsProvider$1CombinedData,ResourceLocation)
++ boolean lambda$run$4(Predicate,Predicate,TagEntry)
++ CompletableFuture contentsGetter()
++ CompletableFuture contentsProvider()
+- CompletableFuture lambda$run$2(Predicate,CachedOutput,Map$Entry)
++ CompletableFuture lambda$run$5(Predicate,Predicate,CachedOutput,Map$Entry)
+- CompletableFuture[] lambda$run$3(int)
++ CompletableFuture[] lambda$run$6(int)
+- CompletionStage lambda$run$4(CachedOutput,HolderLookup$Provider)
++ CompletionStage lambda$run$7(CachedOutput,TagsProvider$1CombinedData)
++ HolderLookup$Provider lambda$new$0(HolderLookup$Provider)
++ Optional lambda$contentsGetter$9(TagKey)
+- TagBuilder lambda$getOrCreateRawBuilder$5(ResourceLocation)
++ TagBuilder lambda$getOrCreateRawBuilder$8(ResourceLocation)
++ TagsProvider$1CombinedData lambda$run$1(HolderLookup$Provider,TagsProvider$TagLookup)
++ TagsProvider$TagLookup lambda$contentsGetter$10(HolderLookup$Provider)
++ void <init>(PackOutput,ResourceKey,CompletableFuture,CompletableFuture)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ServerStatus$Version</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
 + boolean equals(Object)
+- int getProtocol()
 + int hashCode()
-+ ServerStatus status()
++ int protocol()
++ ServerStatus$Version current()
+- String getName()
++ String name()
 + String toString()
-- ServerStatus getStatus()
-- void <clinit>()
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryFileCodec</summary>
+<details><summary>net.minecraft.util.datafix.DataFixers</summary>
 
 ```diff
-+ DataResult lambda$decode$7(ResourceKey)
-+ DataResult lambda$encode$1(ResourceKey)
-+ DataResult lambda$encode$2(Object)
-+ Pair lambda$decode$8(Holder$Reference)
-+ Pair lambda$decode$9(Pair)
-+ String lambda$decode$3()
-+ String lambda$decode$4()
-+ String lambda$decode$6(ResourceKey)
-+ String lambda$encode$0(Holder)
-- DataResult lambda$decode$3(ResourceKey)
-- DataResult lambda$encode$0(ResourceKey)
-- DataResult lambda$encode$1(Object)
-- Pair lambda$decode$2(Pair)
-- Pair lambda$decode$4(Holder$Reference)
-```
-
-</details>
-
-<details><summary>net.minecraft.resources.RegistryOps</summary>
-
-```diff
-+ DataResult lambda$retrieveElement$10(DynamicOps)
-+ DataResult lambda$retrieveElement$8(ResourceKey)
-+ DataResult lambda$retrieveGetter$2(ResourceKey)
-+ DataResult lambda$retrieveGetter$4(DynamicOps)
-+ Holder$Reference lambda$retrieveElement$11(Object)
-+ HolderGetter lambda$retrieveGetter$5(Object)
-+ Optional lambda$retrieveElement$6(RegistryOps$RegistryInfo)
-+ String lambda$retrieveElement$7(ResourceKey)
-+ String lambda$retrieveElement$9()
-+ String lambda$retrieveGetter$1(ResourceKey)
-+ String lambda$retrieveGetter$3()
-- DataResult lambda$retrieveElement$5(ResourceKey)
-- DataResult lambda$retrieveElement$6(DynamicOps)
-- DataResult lambda$retrieveGetter$1(ResourceKey)
-- DataResult lambda$retrieveGetter$2(DynamicOps)
-- Holder$Reference lambda$retrieveElement$7(Object)
-- HolderGetter lambda$retrieveGetter$3(Object)
-- Optional lambda$retrieveElement$4(RegistryOps$RegistryInfo)
+- DataFixer createFixerUpper()
++ DataFixer createFixerUpper(Set)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
+<details><summary>net.minecraft.util.valueproviders.BiasedToBottomInt</summary>
 
 ```diff
-+ List lambda$resendBiomesForChunks$56(ServerPlayer)
-+ void lambda$resendBiomesForChunks$57(List)
-+ void resendBiomesForChunks(List)
-- void resendChunk(ChunkAccess)
+- DataResult lambda$static$3(BiasedToBottomInt)
++ DataResult lambda$static$4(BiasedToBottomInt)
++ String lambda$static$3(BiasedToBottomInt)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+<details><summary>net.minecraft.util.valueproviders.ClampedNormalFloat</summary>
 
 ```diff
-- boolean startRiding(Entity,boolean)
-- void stopRiding()
+- DataResult lambda$static$5(ClampedNormalFloat)
++ DataResult lambda$static$6(ClampedNormalFloat)
++ String lambda$static$5(ClampedNormalFloat)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
+<details><summary>net.minecraft.util.valueproviders.FloatProvider</summary>
 
 ```diff
-+ TagKey FALL_DAMAGE_IMMUNE
+- DataResult lambda$codec$3(float,float,FloatProvider)
++ DataResult lambda$codec$5(float,float,FloatProvider)
++ String lambda$codec$3(float,FloatProvider)
++ String lambda$codec$4(float,FloatProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CommonColors</summary>
+<details><summary>net.minecraft.util.valueproviders.IntProvider</summary>
 
 ```diff
-+ int BLACK
-+ int WHITE
++ Codec codec(int,int,Codec)
+- DataResult lambda$codec$3(int,int,IntProvider)
++ DataResult lambda$codec$5(int,int,IntProvider)
++ String lambda$codec$3(int,IntProvider)
++ String lambda$codec$4(int,IntProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs$1</summary>
+<details><summary>net.minecraft.util.valueproviders.TrapezoidFloat</summary>
 
 ```diff
-+ String lambda$apply$0(MutableObject)
+- DataResult lambda$static$4(TrapezoidFloat)
++ DataResult lambda$static$6(TrapezoidFloat)
++ String lambda$static$4(TrapezoidFloat)
++ String lambda$static$5(TrapezoidFloat)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.ExtraCodecs$4</summary>
+<details><summary>net.minecraft.util.valueproviders.UniformInt</summary>
 
 ```diff
-+ String lambda$decode$0(Exception)
+- DataResult lambda$static$3(UniformInt)
++ DataResult lambda$static$4(UniformInt)
++ String lambda$static$3(UniformInt)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.ExtraCodecs$XorCodec</summary>
+<details><summary>net.minecraft.world.Container</summary>
 
 ```diff
-+ DataResult lambda$encode$4(Object)
-+ String lambda$decode$2(Optional)
-- DataResult lambda$encode$2(Object)
++ boolean canTakeItem(Container,int,ItemStack)
++ boolean stillValidBlockEntity(BlockEntity,Player,int)
++ boolean stillValidBlockEntity(BlockEntity,Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
+<details><summary>net.minecraft.world.entity.ai.Brain$1</summary>
 
 ```diff
-+ int lerpInt(float,int,int)
-- int lerp(float,int,int)
+- Brain$MemoryValue lambda$captureRead$7(MemoryModuleType,ExpirableValue)
++ Brain$MemoryValue lambda$captureRead$8(MemoryModuleType,ExpirableValue)
+- DataResult lambda$captureRead$5(MemoryModuleType)
+- DataResult lambda$captureRead$6(DynamicOps,Object,Codec)
++ DataResult lambda$captureRead$6(MemoryModuleType)
++ DataResult lambda$captureRead$7(DynamicOps,Object,Codec)
++ String lambda$captureRead$5(MemoryModuleType)
+- void lambda$encode$8(DynamicOps,RecordBuilder,Brain$MemoryValue)
++ void lambda$encode$9(DynamicOps,RecordBuilder,Brain$MemoryValue)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.DataFixTypes</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.StayCloseToTarget</summary>
 
 ```diff
-+ Set TYPES_FOR_LEVEL_LIST
-- DSL$TypeReference getType()
+- App lambda$create$2(Function,int,float,int,BehaviorBuilder$Instance)
++ App lambda$create$2(Function,Predicate,int,float,int,BehaviorBuilder$Instance)
+- BehaviorControl create(Function,int,int,float)
++ BehaviorControl create(Function,Predicate,int,int,float)
+- boolean lambda$create$0(Function,int,MemoryAccessor,MemoryAccessor,float,int,ServerLevel,LivingEntity,long)
++ boolean lambda$create$0(Function,Predicate,int,MemoryAccessor,MemoryAccessor,float,int,ServerLevel,LivingEntity,long)
+- Trigger lambda$create$1(Function,int,float,int,MemoryAccessor,MemoryAccessor)
++ Trigger lambda$create$1(Function,Predicate,int,float,int,MemoryAccessor,MemoryAccessor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkBedBlockEntityInjecterFix</summary>
+<details><summary>net.minecraft.world.entity.ambient.Bat</summary>
 
 ```diff
-+ Map lambda$cap$2(Dynamic,int,int,int,int,long)
-+ Typed lambda$cap$5(Typed)
-+ void lambda$cap$4(Map)
-- Integer lambda$cap$2(Dynamic)
-- Typed lambda$cap$4(Typed)
+- boolean causeFallDamage(float,float,DamageSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkStructuresTemplateRenameFix</summary>
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
 
 ```diff
-+ Dynamic fixChildren(Dynamic)
-+ Dynamic lambda$fixChildren$1(Dynamic)
-+ Dynamic lambda$fixChildren$2(Dynamic)
-+ Typed lambda$makeRule$0(Typed)
-- Dynamic lambda$makeRule$0(Dynamic)
-- Typed lambda$makeRule$1(Typed)
-- Typed lambda$makeRule$2(Typed)
+- boolean causeFallDamage(float,float,DamageSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.IglooMetadataRemovalFix</summary>
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
 
 ```diff
-+ Boolean lambda$fixTag$1(Stream)
-+ boolean lambda$removeIglooPieces$2(Dynamic)
-+ Stream lambda$removeIglooPieces$3(Stream)
-+ Typed lambda$makeRule$0(Typed)
-- Boolean lambda$fixTag$0(Stream)
-- boolean lambda$removeIglooPieces$1(Dynamic)
-- Stream lambda$removeIglooPieces$2(Stream)
+- boolean causeFallDamage(float,float,DamageSource)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.SavedDataFeaturePoolElementFix</summary>
+<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
 
 ```diff
-+ String lambda$get$2(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V1460</summary>
-
-```diff
-+ TypeTemplate lambda$registerTypes$41(Map)
-+ TypeTemplate lambda$registerTypes$42(Schema)
-+ TypeTemplate lambda$registerTypes$44()
-+ TypeTemplate lambda$registerTypes$46(Schema)
-- TypeTemplate lambda$registerTypes$41(Schema)
-- TypeTemplate lambda$registerTypes$42(Map)
-- TypeTemplate lambda$registerTypes$44(Schema)
-- TypeTemplate lambda$registerTypes$46()
-- TypeTemplate lambda$registerTypes$47(Schema)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Display</summary>
-
-```diff
-+ long interpolationStartClientTick
-+ float calculateInterpolationProgress(float)
-- float calculateInterpolationProgress(long,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean canBeHitByProjectile()
-+ boolean isEffectiveAi()
-+ float maxUpStep()
-+ LivingEntity getControllingPassenger()
-+ void setMaxUpStep(float)
-- Entity getControllingPassenger()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.EntityEvent</summary>
-
-```diff
-+ byte SNIFFER_DIGGING_SOUND
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.FlyingMob</summary>
-
-```diff
-- boolean causeFallDamage(DamageSource)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ItemBasedSteering</summary>
-
-```diff
-- int boostTimeTotal
-+ float boostFactor()
-+ int boostTimeTotal()
-+ void tickBoost()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ int MAX_HEAD_ROTATION_RELATIVE_TO_BODY
-- float flyingSpeed
-+ float getFlyingSpeed()
-+ float getRiddenSpeed(LivingEntity)
-+ LivingEntity getLastAttacker()
-+ Vec3 getRiddenInput(Vec3)
-+ void tickRidden(Vec3)
-+ void travelRidden(Vec3)
-- boolean isEffectiveAi()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-- boolean isControlledByLocalInstance()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ double BREEDING_CROSS_FACTOR
-+ float BACKWARDS_MOVE_SPEED_FACTOR
-+ float MAX_HEALTH
-+ float MAX_JUMP_STRENGTH
-+ float MAX_MOVEMENT_SPEED
-+ float MIN_HEALTH
-+ float MIN_JUMP_STRENGTH
-+ float MIN_MOVEMENT_SPEED
-+ float SIDEWAYS_MOVE_SPEED_FACTOR
-+ boolean lambda$getSlot$7(ItemStack)
-+ boolean lambda$getSlot$8(ItemStack)
-+ boolean lambda$static$6(LivingEntity)
-+ double createOffspringAttribute(RandomSource)
-+ double generateJumpStrength(DoubleSupplier)
-+ double generateSpeed(DoubleSupplier)
-+ double lambda$static$0()
-+ double lambda$static$1()
-+ double lambda$static$2()
-+ double lambda$static$3()
-+ float generateMaxHealth(IntUnaryOperator)
-+ float getRiddenSpeed(LivingEntity)
-+ int lambda$static$4(int)
-+ int lambda$static$5(int)
-+ Vec2 getRiddenRotation(LivingEntity)
-+ Vec3 getRiddenInput(Vec3)
-+ void executeRidersJump(Vec3)
-+ void setOffspringAttribute(Attribute,double,double)
-+ void tickRidden(Vec3)
-- boolean lambda$getSlot$1(ItemStack)
-- boolean lambda$getSlot$2(ItemStack)
-- boolean lambda$static$0(LivingEntity)
 - boolean mountIgnoresControllerInput(LivingEntity)
-- double generateRandomJumpStrength(RandomSource)
-- double generateRandomSpeed(RandomSource)
 - Entity getControllingPassenger()
-- float generateRandomMaxHealth(RandomSource)
 - float getDrivenMovementSpeed(LivingEntity)
++ float getRiddenSpeed(LivingEntity)
++ Vec2 getRiddenRotation(LivingEntity)
++ Vec3 getRiddenInput(LivingEntity,Vec3)
 - void executeRidersJump(float,float,float)
++ void executeRidersJump(float,Vec3)
++ void tickRidden(LivingEntity,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
+
+```diff
++ double getPassengersRidingOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
+
+```diff
+- boolean causeFallDamage(float,float,DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
++ Component getTypeName()
++ void disableDrop()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.MagmaCube</summary>
+
+```diff
+- boolean causeFallDamage(float,float,DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
+
+```diff
++ double getPassengersRidingOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
+
+```diff
+- boolean canBeControlledBy(Entity)
+- Entity getControllingPassenger()
++ float getFlyingSpeed()
++ LivingEntity getControllingPassenger()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Strider</summary>
+
+```diff
+- boolean canBeControlledBy(Entity)
+- Entity getControllingPassenger()
+- float getMoveSpeed()
++ float getRiddenSpeed(LivingEntity)
+- float getSteeringSpeed()
++ LivingEntity getControllingPassenger()
++ Vec3 getRiddenInput(LivingEntity,Vec3)
++ void tickRidden(LivingEntity,Vec3)
 - void travel(Vec3)
+- void travelWithInput(Vec3)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.PotionItem</summary>
+<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
 
 ```diff
-- boolean isFoil(ItemStack)
++ boolean hasEnoughSpaceFor(Entity)
+- Entity getControllingPassenger()
++ LivingEntity getControllingPassenger()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.UseAnim</summary>
+<details><summary>net.minecraft.world.item.crafting.Recipe</summary>
 
 ```diff
-+ UseAnim BRUSH
++ boolean showNotification()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.OverworldBiomeBuilder</summary>
+<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
 
 ```diff
-+ OverworldBiomeBuilder$Modifier modifier
-+ void <init>(OverworldBiomeBuilder$Modifier)
++ boolean showNotification()
++ void <init>(ResourceLocation,String,CraftingBookCategory,int,int,NonNullList,ItemStack,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PressurePlateBlock</summary>
+<details><summary>net.minecraft.world.item.enchantment.EnchantmentHelper</summary>
 
 ```diff
-- SoundEvent soundOff
-- SoundEvent soundOn
-+ void <init>(BlockSetType)
-- void <init>(SoundEvent)
-- void playOffSound(BlockPos)
-- void playOnSound(BlockPos)
++ boolean hasSilkTouch(ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
 
 ```diff
-+ SoundType CHERRY_LEAVES
-+ SoundType CHERRY_SAPLING
-+ SoundType CHERRY_WOOD
-+ SoundType CHERRY_WOOD_HANGING_SIGN
-+ SoundType DECORATED_POT
-+ SoundType PINK_PETALS
-+ SoundType SUSPICIOUS_SAND
++ Set lambda$new$0()
++ void <init>()
+- void <init>(List)
+- void <init>(Stream)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+<details><summary>net.minecraft.world.level.biome.Climate$Parameter</summary>
 
 ```diff
-+ BlockSetType type
-- SoundEvent closeSound
-- SoundEvent openSound
-+ void <init>(BlockSetType)
-- void <init>(SoundEvent)
+- DataResult lambda$static$0(Float,Float)
++ DataResult lambda$static$1(Float,Float)
+- Float lambda$static$1(Climate$Parameter)
++ Float lambda$static$3(Climate$Parameter)
++ String lambda$static$0(Float,Float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntityType</summary>
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
 
 ```diff
-+ BlockEntityType DECORATED_POT
-+ BlockEntityType SUSPICIOUS_SAND
++ Stream collectPossibleBiomes()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
+<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData</summary>
 
 ```diff
-+ int SONG_END_PADDING
-+ NonNullList items
-- ItemStack record
-+ boolean canPlaceItem(ItemStack)
-+ boolean canTakeItem(ItemStack)
-+ boolean isRecordPlaying()
-+ boolean shouldRecordStopPlaying(RecordItem)
-+ boolean shouldSendJukeboxPlayingEvent()
-+ boolean stillValid(Player)
-+ int getMaxStackSize()
-+ ItemStack getItem(int)
-+ ItemStack removeItem(int,int)
-+ void popOutRecord()
-+ void setHasRecordBlockState(Entity,boolean)
-+ void setItem(ItemStack)
-+ void setRecordWithoutPlaying(ItemStack)
-+ void startPlaying()
-+ void stopPlaying()
-+ void tick(BlockState)
-- boolean recordIsPlaying(JukeboxBlockEntity)
-- boolean recordShouldStopPlaying(RecordItem)
-- boolean shouldSendJukeboxPlayingEvent(JukeboxBlockEntity)
-- ItemStack getRecord()
-- void clearContent()
-- void playRecord()
-- void setRecord(ItemStack)
++ DataResult lambda$static$5(MobSpawnSettings$SpawnerData)
++ String lambda$static$4()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$1</summary>
+<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
 
 ```diff
-+ int[] $SwitchMap$net$minecraft$world$level$block$state$BlockBehaviour$OffsetType
++ void <init>(BlockBehaviour$Properties,BlockSetType)
+- void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.Property</summary>
+<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
 
 ```diff
-+ DataResult lambda$new$2(String)
-+ StateHolder lambda$parseValue$3(Comparable)
-+ String lambda$new$0(String)
-- DataResult lambda$new$0(String)
-- StateHolder lambda$parseValue$2(Comparable)
++ void <init>(BlockBehaviour$Properties,BlockSetType,int,boolean)
+- void <init>(BlockBehaviour$Properties,int,boolean,SoundEvent,SoundEvent)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
 
 ```diff
-+ void replaceBiomes(FriendlyByteBuf)
++ void <init>(BlockBehaviour$Properties,BlockSetType)
+- void <init>(BlockBehaviour$Properties,SoundEvent,SoundEvent)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
+<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
 
 ```diff
-+ void readBiomes(FriendlyByteBuf)
++ void checkPoweredState(Level,BlockPos,BlockState,int)
+- void checkPoweredState(Level,BlockPos,BlockState)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
 
 ```diff
-+ int lambda$pack$11(HashMapPalette,int)
-+ int lambda$unpack$8(Object)
-+ int lambda$unpack$9(Palette,int)
-+ String lambda$unpack$10(SimpleBitStorage$InitializationException)
-+ String lambda$unpack$7()
-+ void lambda$count$12(Int2IntOpenHashMap,int)
-+ void lambda$count$13(Int2IntMap$Entry)
-- int lambda$pack$9(HashMapPalette,int)
-- int lambda$unpack$7(Object)
-- int lambda$unpack$8(Palette,int)
-- void lambda$count$10(Int2IntOpenHashMap,int)
-- void lambda$count$11(Int2IntMap$Entry)
+- BlockBehaviour$OffsetType lambda$new$6(BlockState)
+- BlockBehaviour$OffsetType lambda$offsetType$9(BlockBehaviour$OffsetType,BlockState)
+- BlockBehaviour$Properties offsetType(Function)
++ MaterialColor lambda$color$7(MaterialColor,BlockState)
+- MaterialColor lambda$color$8(MaterialColor,BlockState)
++ MaterialColor lambda$new$6(MaterialColor,BlockState)
+- MaterialColor lambda$new$7(MaterialColor,BlockState)
++ Vec3 lambda$offsetType$8(BlockState,BlockGetter,BlockPos)
++ Vec3 lambda$offsetType$9(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertWellFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
 
 ```diff
-+ void lambda$placeSandFloor$0(ObjectArrayList)
-+ void lambda$placeSandFloor$1(SuspiciousSandBlockEntity)
-+ void lambda$placeSandFloor$2(BlockPos)
-+ void placeSandFloor(RandomSource)
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
 
 ```diff
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
 
 ```diff
-+ boolean lambda$updateLayers$6(BlockState)
-+ String lambda$validateHeight$5()
-- boolean lambda$updateLayers$5(BlockState)
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
 
 ```diff
-+ String lambda$requireOverworld$3()
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.presets.WorldPresets$Bootstrap</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
 
 ```diff
-+ HolderGetter multiNoiseBiomeSourceParameterLists
-+ void bootstrap()
-+ void registerOverworlds(BiomeSource)
-- void run()
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider</summary>
 
 ```diff
-+ DataResult lambda$static$2(RandomSpreadStructurePlacement)
-+ String lambda$static$1()
-- DataResult lambda$static$1(RandomSpreadStructurePlacement)
++ String lambda$create$1()
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidPiece</summary>
-
-```diff
-+ List potentialSuspiciousSandWorldPositions
-+ List getPotentialSuspiciousSandWorldPositions()
-+ void addCellar(BoundingBox)
-+ void addCellarRoom(BoundingBox)
-+ void addCellarStairs(BoundingBox)
-+ void placeCollapsedRoof(BoundingBox,int,int,int,int,int)
-+ void placeCollapsedRoofPiece(BoundingBox)
-+ void placeSand(BoundingBox)
-+ void placeSandBox(BoundingBox,int,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
-
-```diff
-- int CHUNK_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
-
-```diff
-+ LootContextParamSet ARCHAEOLOGY
-+ void lambda$static$12(LootContextParamSet$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.AABB</summary>
-
-```diff
-+ double distanceToSqr(Vec3)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.phys.Vec3</summary>
-
-```diff
-+ Vec3 atLowerCornerWithOffset(Vec3i,double,double,double)
-+ Vec3 offsetRandom(RandomSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.Advancement
@@ -12267,13 +7480,1717 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.FileUtil</summary>
+
+```diff
++ String lambda$decomposePath$0(String)
++ String lambda$decomposePath$1(String)
++ String lambda$decomposePath$2(String,String)
++ String lambda$decomposePath$3(String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.StringRepresentableArgument</summary>
+
+```diff
++ String convertId(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- DataResult lambda$byNameCodec$0(ResourceLocation)
+- DataResult lambda$byNameCodec$2(Object)
++ DataResult lambda$byNameCodec$2(ResourceLocation)
+- DataResult lambda$byNameCodec$3(Object)
++ DataResult lambda$byNameCodec$4(Object)
++ DataResult lambda$byNameCodec$5(Object)
++ DataResult lambda$holderByNameCodec$11(Holder)
++ DataResult lambda$holderByNameCodec$12(Holder)
+- DataResult lambda$holderByNameCodec$5(ResourceLocation)
+- DataResult lambda$holderByNameCodec$6(ResourceLocation)
+- DataResult lambda$holderByNameCodec$7(Holder)
+- DataResult lambda$holderByNameCodec$8(Holder)
++ DataResult lambda$holderByNameCodec$8(ResourceLocation)
++ DataResult lambda$holderByNameCodec$9(ResourceLocation)
+- IllegalStateException lambda$getHolderOrThrow$12(ResourceKey)
++ IllegalStateException lambda$getHolderOrThrow$16(ResourceKey)
+- int lambda$byNameCodec$4(Object)
++ int lambda$byNameCodec$6(Object)
+- Lifecycle lambda$holderByNameCodec$10(Holder)
++ Lifecycle lambda$holderByNameCodec$13(Holder)
++ Lifecycle lambda$holderByNameCodec$14(Holder)
+- Lifecycle lambda$holderByNameCodec$9(Holder)
+- Object lambda$keys$11(DynamicOps,ResourceLocation)
++ Object lambda$keys$15(DynamicOps,ResourceLocation)
++ String lambda$byNameCodec$0(ResourceLocation)
++ String lambda$byNameCodec$3(Object)
++ String lambda$holderByNameCodec$10(Holder)
++ String lambda$holderByNameCodec$7(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistrySynchronization</summary>
+
+```diff
+- Codec lambda$makeNetworkCodec$5(ResourceKey,Codec)
++ Codec lambda$makeNetworkCodec$6(ResourceKey,Codec)
+- DataResult lambda$getNetworkCodec$3(ResourceKey)
++ DataResult lambda$getNetworkCodec$4(ResourceKey)
+- DataResult lambda$makeNetworkCodec$4(Registry)
++ DataResult lambda$makeNetworkCodec$5(Registry)
+- DataResult lambda$makeNetworkCodec$6(ResourceKey)
++ DataResult lambda$makeNetworkCodec$7(ResourceKey)
++ Map lambda$captureMap$10(RegistryAccess)
+- Map lambda$captureMap$9(RegistryAccess)
+- Registry lambda$captureMap$8(RegistryAccess$RegistryEntry)
++ Registry lambda$captureMap$9(RegistryAccess$RegistryEntry)
+- ResourceKey lambda$captureMap$7(RegistryAccess$RegistryEntry)
++ ResourceKey lambda$captureMap$8(RegistryAccess$RegistryEntry)
++ String lambda$getNetworkCodec$3(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Vec3i</summary>
+
+```diff
+- DataResult lambda$offsetCodec$3(int,Vec3i)
++ DataResult lambda$offsetCodec$4(int,Vec3i)
++ String lambda$offsetCodec$3(int,Vec3i)
+- Vec3i offset(double,double,double)
+- void <init>(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.packs.UpdateOneTwentyBlockLoot</summary>
+
+```diff
++ LootTable$Builder lambda$generate$3(UpdateOneTwentyBlockLoot,Block)
++ LootTable$Builder lambda$generate$4(UpdateOneTwentyBlockLoot,Block)
++ LootTable$Builder lambda$generate$5(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.UpdateOneTwentyItemTagsProvider</summary>
+
+```diff
++ void <init>(PackOutput,CompletableFuture,CompletableFuture,CompletableFuture)
+- void <init>(PackOutput,CompletableFuture,TagsProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.VanillaItemTagsProvider</summary>
+
+```diff
++ void <init>(PackOutput,CompletableFuture,CompletableFuture)
+- void <init>(PackOutput,CompletableFuture,TagsProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.biome.OverworldBiomes</summary>
+
+```diff
++ Biome biome(boolean,float,float,int,int,Integer,Integer,MobSpawnSettings$Builder,BiomeGenerationSettings$Builder,Music)
+- Biome biome(boolean,float,float,int,int,MobSpawnSettings$Builder,BiomeGenerationSettings$Builder,Music)
+- Biome meadow(HolderGetter,HolderGetter)
++ Biome meadowOrCherryGrove(HolderGetter,HolderGetter,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.features.TreeFeatures</summary>
+
+```diff
++ TreeConfiguration$TreeConfigurationBuilder cherry()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
++ void continuouslyUse(BlockPos,Player,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
+- DataResult lambda$static$0(Dynamic)
++ DataResult lambda$static$1(Dynamic)
+- Dynamic lambda$static$1(CompoundTag)
++ Dynamic lambda$static$2(CompoundTag)
+- String lambda$createReport$2(String)
++ String lambda$createReport$3(String)
++ String lambda$static$0(Tag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtOps</summary>
+
+```diff
+- boolean lambda$remove$15(String,String)
++ boolean lambda$remove$28(String,String)
+- DataResult lambda$mergeToList$0(Tag,NbtOps$ListCollector)
+- DataResult lambda$mergeToList$1(Tag)
+- DataResult lambda$mergeToList$2(List,NbtOps$ListCollector)
++ DataResult lambda$mergeToList$2(Tag,NbtOps$ListCollector)
+- DataResult lambda$mergeToList$3(Tag)
++ DataResult lambda$mergeToList$4(Tag)
++ DataResult lambda$mergeToList$5(List,NbtOps$ListCollector)
++ DataResult lambda$mergeToList$7(Tag)
++ Pair lambda$getMapValues$15(CompoundTag,String)
+- Pair lambda$getMapValues$7(CompoundTag,String)
++ String lambda$getList$27(Tag)
++ String lambda$getMap$20(Tag)
++ String lambda$getMapEntries$19(Tag)
++ String lambda$getMapValues$16(Tag)
++ String lambda$getNumberValue$0()
++ String lambda$getStream$24()
++ String lambda$getStringValue$1()
++ String lambda$mergeToList$3(Tag)
++ String lambda$mergeToList$6(Tag)
++ String lambda$mergeToMap$11(Tag)
++ String lambda$mergeToMap$14(List)
++ String lambda$mergeToMap$8(Tag)
++ String lambda$mergeToMap$9(Tag)
+- Tag lambda$getStream$11(Tag)
+- Tag lambda$getStream$12(Tag)
++ Tag lambda$getStream$22(Tag)
++ Tag lambda$getStream$23(Tag)
+- void lambda$createMap$10(CompoundTag,Pair)
++ void lambda$createMap$21(CompoundTag,Pair)
+- void lambda$getList$13(Consumer,Tag)
+- void lambda$getList$14(ListTag,Consumer)
++ void lambda$getList$25(Consumer,Tag)
++ void lambda$getList$26(ListTag,Consumer)
++ void lambda$getMapEntries$17(BiConsumer,CompoundTag,String)
++ void lambda$getMapEntries$18(CompoundTag,BiConsumer)
+- void lambda$getMapEntries$8(BiConsumer,CompoundTag,String)
+- void lambda$getMapEntries$9(CompoundTag,BiConsumer)
++ void lambda$mergeToMap$10(CompoundTag,CompoundTag,String)
++ void lambda$mergeToMap$12(CompoundTag,CompoundTag,String)
++ void lambda$mergeToMap$13(List,CompoundTag,Pair)
+- void lambda$mergeToMap$4(CompoundTag,CompoundTag,String)
+- void lambda$mergeToMap$5(CompoundTag,CompoundTag,String)
+- void lambda$mergeToMap$6(List,CompoundTag,Pair)
+- void lambda$remove$16(CompoundTag,CompoundTag,String)
++ void lambda$remove$29(CompoundTag,CompoundTag,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ClientboundStatusResponsePacket</summary>
+
+```diff
++ boolean equals(Object)
++ int hashCode()
+- ServerStatus getStatus()
++ ServerStatus status()
++ String toString()
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryFileCodec</summary>
+
+```diff
+- DataResult lambda$decode$3(ResourceKey)
++ DataResult lambda$decode$7(ResourceKey)
+- DataResult lambda$encode$0(DynamicOps,Object,ResourceKey)
+- DataResult lambda$encode$1(DynamicOps,Object,Object)
++ DataResult lambda$encode$1(DynamicOps,Object,ResourceKey)
++ DataResult lambda$encode$2(DynamicOps,Object,Object)
+- Pair lambda$decode$2(Pair)
+- Pair lambda$decode$4(Pair,Holder$Reference)
++ Pair lambda$decode$8(Pair,Holder$Reference)
++ Pair lambda$decode$9(Pair)
++ String lambda$decode$3()
++ String lambda$decode$4()
++ String lambda$decode$6(ResourceKey)
++ String lambda$encode$0(Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryOps</summary>
+
+```diff
++ DataResult lambda$retrieveElement$10(ResourceKey,ResourceKey,DynamicOps)
+- DataResult lambda$retrieveElement$5(ResourceKey)
+- DataResult lambda$retrieveElement$6(ResourceKey,ResourceKey,DynamicOps)
++ DataResult lambda$retrieveElement$8(ResourceKey)
+- DataResult lambda$retrieveGetter$1(ResourceKey)
+- DataResult lambda$retrieveGetter$2(ResourceKey,DynamicOps)
++ DataResult lambda$retrieveGetter$2(ResourceKey)
++ DataResult lambda$retrieveGetter$4(ResourceKey,DynamicOps)
++ Holder$Reference lambda$retrieveElement$11(Object)
+- Holder$Reference lambda$retrieveElement$7(Object)
+- HolderGetter lambda$retrieveGetter$3(Object)
++ HolderGetter lambda$retrieveGetter$5(Object)
+- Optional lambda$retrieveElement$4(ResourceKey,RegistryOps$RegistryInfo)
++ Optional lambda$retrieveElement$6(ResourceKey,RegistryOps$RegistryInfo)
++ String lambda$retrieveElement$7(ResourceKey)
++ String lambda$retrieveElement$9()
++ String lambda$retrieveGetter$1(ResourceKey)
++ String lambda$retrieveGetter$3()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ List lambda$resendBiomesForChunks$56(ServerPlayer)
++ void lambda$resendBiomesForChunks$57(ServerPlayer,List)
++ void resendBiomesForChunks(List)
+- void resendChunk(ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
+- boolean startRiding(Entity,boolean)
+- void stopRiding()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs$1</summary>
+
+```diff
++ String lambda$apply$0(MutableObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs$4</summary>
+
+```diff
++ String lambda$decode$0(Object,Exception)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs$XorCodec</summary>
+
+```diff
+- DataResult lambda$encode$2(DynamicOps,Object,Object)
++ DataResult lambda$encode$4(DynamicOps,Object,Object)
++ String lambda$decode$2(Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
+- int lerp(float,int,int)
++ int lerpInt(float,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.DataFixTypes</summary>
+
+```diff
+- DSL$TypeReference getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkBedBlockEntityInjecterFix</summary>
+
+```diff
+- Integer lambda$cap$2(Dynamic)
++ Map lambda$cap$2(Dynamic,int,int,int,int,long)
+- Typed lambda$cap$4(OpticFinder,OpticFinder,Type,Typed)
++ Typed lambda$cap$5(OpticFinder,OpticFinder,Type,Typed)
++ void lambda$cap$4(List,Type,Dynamic,Map)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.ChunkStructuresTemplateRenameFix</summary>
+
+```diff
++ Dynamic fixChildren(Dynamic)
++ Dynamic lambda$fixChildren$1(Dynamic,Dynamic)
++ Dynamic lambda$fixChildren$2(Dynamic,Dynamic)
+- Dynamic lambda$makeRule$0(Typed,Dynamic)
++ Typed lambda$makeRule$0(Typed)
+- Typed lambda$makeRule$1(Typed,Typed)
+- Typed lambda$makeRule$2(OpticFinder,Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.IglooMetadataRemovalFix</summary>
+
+```diff
+- Boolean lambda$fixTag$0(Stream)
++ Boolean lambda$fixTag$1(Stream)
+- boolean lambda$removeIglooPieces$1(Dynamic)
++ boolean lambda$removeIglooPieces$2(Dynamic)
+- Stream lambda$removeIglooPieces$2(Stream)
++ Stream lambda$removeIglooPieces$3(Stream)
++ Typed lambda$makeRule$0(Typed)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.SavedDataFeaturePoolElementFix</summary>
+
+```diff
++ String lambda$get$2(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.schemas.V1460</summary>
+
+```diff
++ TypeTemplate lambda$registerTypes$41(Map)
+- TypeTemplate lambda$registerTypes$41(Schema)
+- TypeTemplate lambda$registerTypes$42(Map)
++ TypeTemplate lambda$registerTypes$42(Schema)
++ TypeTemplate lambda$registerTypes$44()
+- TypeTemplate lambda$registerTypes$44(Schema)
+- TypeTemplate lambda$registerTypes$46()
++ TypeTemplate lambda$registerTypes$46(Schema)
+- TypeTemplate lambda$registerTypes$47(Schema)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Display</summary>
+
+```diff
++ float calculateInterpolationProgress(float)
+- float calculateInterpolationProgress(long,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean canBeHitByProjectile()
++ boolean isEffectiveAi()
+- Entity getControllingPassenger()
++ float maxUpStep()
++ LivingEntity getControllingPassenger()
++ void setMaxUpStep(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.FlyingMob</summary>
+
+```diff
+- boolean causeFallDamage(float,float,DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ItemBasedSteering</summary>
+
+```diff
++ float boostFactor()
++ int boostTimeTotal()
++ void tickBoost()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
+- boolean isEffectiveAi()
++ float getFlyingSpeed()
++ float getRiddenSpeed(LivingEntity)
++ LivingEntity getLastAttacker()
++ Vec3 getRiddenInput(LivingEntity,Vec3)
++ void tickRidden(LivingEntity,Vec3)
++ void travelRidden(LivingEntity,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
+- boolean isControlledByLocalInstance()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- boolean lambda$getSlot$1(ItemStack)
+- boolean lambda$getSlot$2(ItemStack)
++ boolean lambda$getSlot$7(ItemStack)
++ boolean lambda$getSlot$8(ItemStack)
+- boolean lambda$static$0(LivingEntity)
++ boolean lambda$static$6(LivingEntity)
+- boolean mountIgnoresControllerInput(LivingEntity)
++ double createOffspringAttribute(double,double,double,double,RandomSource)
++ double generateJumpStrength(DoubleSupplier)
+- double generateRandomJumpStrength(RandomSource)
+- double generateRandomSpeed(RandomSource)
++ double generateSpeed(DoubleSupplier)
++ double lambda$static$0()
++ double lambda$static$1()
++ double lambda$static$2()
++ double lambda$static$3()
+- Entity getControllingPassenger()
++ float generateMaxHealth(IntUnaryOperator)
+- float generateRandomMaxHealth(RandomSource)
+- float getDrivenMovementSpeed(LivingEntity)
++ float getRiddenSpeed(LivingEntity)
++ int lambda$static$4(int)
++ int lambda$static$5(int)
++ Vec2 getRiddenRotation(LivingEntity)
++ Vec3 getRiddenInput(LivingEntity,Vec3)
+- void executeRidersJump(float,float,float)
++ void executeRidersJump(float,Vec3)
++ void setOffspringAttribute(AgeableMob,AbstractHorse,Attribute,double,double)
++ void tickRidden(LivingEntity,Vec3)
+- void travel(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.PotionItem</summary>
+
+```diff
+- boolean isFoil(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.OverworldBiomeBuilder</summary>
+
+```diff
++ void <init>(OverworldBiomeBuilder$Modifier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PressurePlateBlock</summary>
+
+```diff
++ void <init>(PressurePlateBlock$Sensitivity,BlockBehaviour$Properties,BlockSetType)
+- void <init>(PressurePlateBlock$Sensitivity,BlockBehaviour$Properties,SoundEvent,SoundEvent)
+- void playOffSound(LevelAccessor,BlockPos)
+- void playOnSound(LevelAccessor,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+```diff
++ void <init>(BlockBehaviour$Properties,BlockSetType)
+- void <init>(BlockBehaviour$Properties,SoundEvent,SoundEvent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JukeboxBlockEntity</summary>
+
+```diff
++ boolean canPlaceItem(int,ItemStack)
++ boolean canTakeItem(Container,int,ItemStack)
++ boolean isRecordPlaying()
+- boolean recordIsPlaying(BlockState,JukeboxBlockEntity)
+- boolean recordShouldStopPlaying(JukeboxBlockEntity,RecordItem)
++ boolean shouldRecordStopPlaying(RecordItem)
++ boolean shouldSendJukeboxPlayingEvent()
+- boolean shouldSendJukeboxPlayingEvent(JukeboxBlockEntity)
++ boolean stillValid(Player)
++ int getMaxStackSize()
++ ItemStack getItem(int)
+- ItemStack getRecord()
++ ItemStack removeItem(int,int)
+- void clearContent()
+- void playRecord()
++ void popOutRecord()
++ void setHasRecordBlockState(Entity,boolean)
++ void setItem(int,ItemStack)
+- void setRecord(ItemStack)
++ void setRecordWithoutPlaying(ItemStack)
++ void startPlaying()
++ void stopPlaying()
++ void tick(Level,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.properties.Property</summary>
+
+```diff
+- DataResult lambda$new$0(String)
++ DataResult lambda$new$2(String)
+- StateHolder lambda$parseValue$2(StateHolder,Comparable)
++ StateHolder lambda$parseValue$3(StateHolder,Comparable)
++ String lambda$new$0(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+
+```diff
++ void replaceBiomes(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
+
+```diff
++ void readBiomes(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
+
+```diff
++ int lambda$pack$11(HashMapPalette,int)
+- int lambda$pack$9(HashMapPalette,int)
+- int lambda$unpack$7(int,Object)
+- int lambda$unpack$8(IdMap,Palette,int)
++ int lambda$unpack$8(int,Object)
++ int lambda$unpack$9(IdMap,Palette,int)
++ String lambda$unpack$10(SimpleBitStorage$InitializationException)
++ String lambda$unpack$7()
+- void lambda$count$10(Int2IntOpenHashMap,int)
+- void lambda$count$11(PalettedContainer$CountConsumer,Int2IntMap$Entry)
++ void lambda$count$12(Int2IntOpenHashMap,int)
++ void lambda$count$13(PalettedContainer$CountConsumer,Int2IntMap$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertWellFeature</summary>
+
+```diff
++ void lambda$placeSandFloor$0(BlockPos,ObjectArrayList)
++ void lambda$placeSandFloor$1(BlockPos,SuspiciousSandBlockEntity)
++ void lambda$placeSandFloor$2(MutableInt,WorldGenLevel,BlockPos)
++ void placeSandFloor(WorldGenLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
+
+```diff
+- void createFoliage(LevelSimulatedReader,BiConsumer,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
++ void createFoliage(LevelSimulatedReader,FoliagePlacer$FoliageSetter,RandomSource,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+
+```diff
+- boolean lambda$updateLayers$5(BlockState)
++ boolean lambda$updateLayers$6(BlockState)
++ String lambda$validateHeight$5()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
+
+```diff
++ String lambda$requireOverworld$3()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPresets$Bootstrap</summary>
+
+```diff
++ void bootstrap()
++ void registerOverworlds(BiomeSource)
+- void run()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement</summary>
+
+```diff
+- DataResult lambda$static$1(RandomSpreadStructurePlacement)
++ DataResult lambda$static$2(RandomSpreadStructurePlacement)
++ String lambda$static$1()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidPiece</summary>
+
+```diff
++ List getPotentialSuspiciousSandWorldPositions()
++ void addCellar(WorldGenLevel,BoundingBox)
++ void addCellarRoom(BlockPos,WorldGenLevel,BoundingBox)
++ void addCellarStairs(BlockPos,WorldGenLevel,BoundingBox)
++ void placeCollapsedRoof(WorldGenLevel,BoundingBox,int,int,int,int,int)
++ void placeCollapsedRoofPiece(WorldGenLevel,int,int,int,BoundingBox)
++ void placeSand(int,int,int,BoundingBox)
++ void placeSandBox(BoundingBox,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
+
+```diff
++ void lambda$static$12(LootContextParamSet$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.AABB</summary>
+
+```diff
++ double distanceToSqr(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.Vec3</summary>
+
+```diff
++ Vec3 atLowerCornerWithOffset(Vec3i,double,double,double)
++ Vec3 offsetRandom(RandomSource,float)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/adventure/adventuring_time.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/stripped_cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/cherry_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/decorated_pot_simple.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/orange_dye_from_torchflower.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/misc/pink_dye_from_pink_petals.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/cherry_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/tools/brush.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_boat.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/cherry_chest_boat.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_pyramid.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/archaeology/desert_well.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_leaves.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_log.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sapling.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/decorated_pot.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/pink_petals.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_cherry_sapling.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/potted_torchflower.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_log.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/stripped_cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/suspicious_sand.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower_crop.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/torchflower.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/entities/sniffer.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/brush.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_boat.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_chest_boat.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot_simple.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/decorated_pot.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/orange_dye_from_torchflower.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/pink_dye_from_pink_petals.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/stripped_cherry_wood.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/cherry_logs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/crops.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flower_pots.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/flowers.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/inside_step_sound_blocks.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/leaves.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/logs_that_burn.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/hoe.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/overworld_natural_logs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sand.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/saplings.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/small_flowers.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/sniffer_diggable_block.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/breaks_decorated_pots.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/buttons.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/cherry_logs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/decorated_pot_shards.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/doors.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/fences.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/flowers.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/leaves.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/logs_that_burn.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/sand.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/saplings.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/slabs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/small_flowers.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/sniffer_food.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/stairs.json
+- minecraft/datapacks/update_1_20/data/minecraft/tags/items/trapdoors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/worldgen/biome/is_mountain.json
++ minecraft/datapacks/update_1_20/data/minecraft/worldgen/biome/cherry_grove.json
++ minecraft/datapacks/update_1_20/data/minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
++ minecraft/loot_tables/blocks/cherry_button.json
++ minecraft/loot_tables/blocks/cherry_door.json
++ minecraft/loot_tables/blocks/cherry_fence_gate.json
++ minecraft/loot_tables/blocks/cherry_fence.json
++ minecraft/loot_tables/blocks/cherry_hanging_sign.json
++ minecraft/loot_tables/blocks/cherry_leaves.json
++ minecraft/loot_tables/blocks/cherry_log.json
++ minecraft/loot_tables/blocks/cherry_planks.json
++ minecraft/loot_tables/blocks/cherry_pressure_plate.json
++ minecraft/loot_tables/blocks/cherry_sapling.json
++ minecraft/loot_tables/blocks/cherry_sign.json
++ minecraft/loot_tables/blocks/cherry_slab.json
++ minecraft/loot_tables/blocks/cherry_stairs.json
++ minecraft/loot_tables/blocks/cherry_trapdoor.json
++ minecraft/loot_tables/blocks/cherry_wood.json
++ minecraft/loot_tables/blocks/decorated_pot.json
++ minecraft/loot_tables/blocks/pink_petals.json
++ minecraft/loot_tables/blocks/potted_cherry_sapling.json
++ minecraft/loot_tables/blocks/potted_torchflower.json
++ minecraft/loot_tables/blocks/stripped_cherry_log.json
++ minecraft/loot_tables/blocks/stripped_cherry_wood.json
++ minecraft/loot_tables/blocks/suspicious_sand.json
++ minecraft/loot_tables/blocks/torchflower_crop.json
++ minecraft/loot_tables/blocks/torchflower.json
++ minecraft/loot_tables/entities/sniffer.json
++ minecraft/tags/blocks/smelts_to_glass.json
++ minecraft/tags/damage_type/always_hurts_ender_dragons.json
++ minecraft/tags/entity_types/fall_damage_immune.json
++ minecraft/tags/items/axes.json
++ minecraft/tags/items/hoes.json
++ minecraft/tags/items/pickaxes.json
++ minecraft/tags/items/shovels.json
++ minecraft/tags/items/smelts_to_glass.json
++ minecraft/tags/items/swords.json
++ minecraft/tags/items/tools.json
++ minecraft/worldgen/configured_feature/cherry_bees_005.json
++ minecraft/worldgen/configured_feature/cherry.json
++ minecraft/worldgen/configured_feature/flower_cherry.json
++ minecraft/worldgen/multi_noise_biome_source_parameter_list/nether.json
++ minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
++ minecraft/worldgen/placed_feature/cherry_bees_005.json
++ minecraft/worldgen/placed_feature/cherry_checked.json
++ minecraft/worldgen/placed_feature/flower_cherry.json
++ minecraft/worldgen/placed_feature/trees_cherry.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/atlases/decorated_pot.json
++ minecraft/blockstates/cherry_button.json
++ minecraft/blockstates/cherry_door.json
++ minecraft/blockstates/cherry_fence_gate.json
++ minecraft/blockstates/cherry_fence.json
++ minecraft/blockstates/cherry_hanging_sign.json
++ minecraft/blockstates/cherry_leaves.json
++ minecraft/blockstates/cherry_log.json
++ minecraft/blockstates/cherry_planks.json
++ minecraft/blockstates/cherry_pressure_plate.json
++ minecraft/blockstates/cherry_sapling.json
++ minecraft/blockstates/cherry_sign.json
++ minecraft/blockstates/cherry_slab.json
++ minecraft/blockstates/cherry_stairs.json
++ minecraft/blockstates/cherry_trapdoor.json
++ minecraft/blockstates/cherry_wall_hanging_sign.json
++ minecraft/blockstates/cherry_wall_sign.json
++ minecraft/blockstates/cherry_wood.json
++ minecraft/blockstates/decorated_pot.json
++ minecraft/blockstates/pink_petals.json
++ minecraft/blockstates/potted_cherry_sapling.json
++ minecraft/blockstates/potted_torchflower.json
++ minecraft/blockstates/stripped_cherry_log.json
++ minecraft/blockstates/stripped_cherry_wood.json
++ minecraft/blockstates/suspicious_sand.json
++ minecraft/blockstates/torchflower_crop.json
++ minecraft/blockstates/torchflower.json
++ minecraft/models/block/cherry_button_inventory.json
++ minecraft/models/block/cherry_button_pressed.json
++ minecraft/models/block/cherry_button.json
++ minecraft/models/block/cherry_door_bottom_left_open.json
++ minecraft/models/block/cherry_door_bottom_left.json
++ minecraft/models/block/cherry_door_bottom_right_open.json
++ minecraft/models/block/cherry_door_bottom_right.json
++ minecraft/models/block/cherry_door_top_left_open.json
++ minecraft/models/block/cherry_door_top_left.json
++ minecraft/models/block/cherry_door_top_right_open.json
++ minecraft/models/block/cherry_door_top_right.json
++ minecraft/models/block/cherry_fence_gate_open.json
++ minecraft/models/block/cherry_fence_gate_wall_open.json
++ minecraft/models/block/cherry_fence_gate_wall.json
++ minecraft/models/block/cherry_fence_gate.json
++ minecraft/models/block/cherry_fence_inventory.json
++ minecraft/models/block/cherry_fence_post.json
++ minecraft/models/block/cherry_fence_side.json
++ minecraft/models/block/cherry_hanging_sign.json
++ minecraft/models/block/cherry_leaves.json
++ minecraft/models/block/cherry_log_x.json
++ minecraft/models/block/cherry_log_y.json
++ minecraft/models/block/cherry_log_z.json
++ minecraft/models/block/cherry_log.json
++ minecraft/models/block/cherry_planks.json
++ minecraft/models/block/cherry_pressure_plate_down.json
++ minecraft/models/block/cherry_pressure_plate.json
++ minecraft/models/block/cherry_sapling.json
++ minecraft/models/block/cherry_sign.json
++ minecraft/models/block/cherry_slab_top.json
++ minecraft/models/block/cherry_slab.json
++ minecraft/models/block/cherry_stairs_inner.json
++ minecraft/models/block/cherry_stairs_outer.json
++ minecraft/models/block/cherry_stairs.json
++ minecraft/models/block/cherry_trapdoor_bottom.json
++ minecraft/models/block/cherry_trapdoor_open.json
++ minecraft/models/block/cherry_trapdoor_top.json
++ minecraft/models/block/cherry_wood.json
++ minecraft/models/block/decorated_pot.json
++ minecraft/models/block/flowerbed_1.json
++ minecraft/models/block/flowerbed_2.json
++ minecraft/models/block/flowerbed_3.json
++ minecraft/models/block/flowerbed_4.json
++ minecraft/models/block/pink_petals_1.json
++ minecraft/models/block/pink_petals_2.json
++ minecraft/models/block/pink_petals_3.json
++ minecraft/models/block/pink_petals_4.json
++ minecraft/models/block/potted_cherry_sapling.json
++ minecraft/models/block/potted_torchflower.json
++ minecraft/models/block/stripped_cherry_log_x.json
++ minecraft/models/block/stripped_cherry_log_y.json
++ minecraft/models/block/stripped_cherry_log_z.json
++ minecraft/models/block/stripped_cherry_log.json
++ minecraft/models/block/stripped_cherry_wood.json
++ minecraft/models/block/suspicious_sand_0.json
++ minecraft/models/block/suspicious_sand_1.json
++ minecraft/models/block/suspicious_sand_2.json
++ minecraft/models/block/suspicious_sand_3.json
++ minecraft/models/block/torchflower_crop_stage0.json
++ minecraft/models/block/torchflower_crop_stage1.json
++ minecraft/models/block/torchflower_crop_stage2.json
++ minecraft/models/block/torchflower.json
++ minecraft/models/item/brush_brushing_0.json
++ minecraft/models/item/brush_brushing_1.json
++ minecraft/models/item/brush_brushing_2.json
++ minecraft/models/item/brush.json
++ minecraft/models/item/cherry_boat.json
++ minecraft/models/item/cherry_button.json
++ minecraft/models/item/cherry_chest_boat.json
++ minecraft/models/item/cherry_door.json
++ minecraft/models/item/cherry_fence_gate.json
++ minecraft/models/item/cherry_fence.json
++ minecraft/models/item/cherry_hanging_sign.json
++ minecraft/models/item/cherry_leaves.json
++ minecraft/models/item/cherry_log.json
++ minecraft/models/item/cherry_planks.json
++ minecraft/models/item/cherry_pressure_plate.json
++ minecraft/models/item/cherry_sapling.json
++ minecraft/models/item/cherry_sign.json
++ minecraft/models/item/cherry_slab.json
++ minecraft/models/item/cherry_stairs.json
++ minecraft/models/item/cherry_trapdoor.json
++ minecraft/models/item/cherry_wood.json
++ minecraft/models/item/decorated_pot.json
++ minecraft/models/item/pink_petals.json
++ minecraft/models/item/pottery_shard_archer.json
++ minecraft/models/item/pottery_shard_arms_up.json
++ minecraft/models/item/pottery_shard_prize.json
++ minecraft/models/item/pottery_shard_skull.json
++ minecraft/models/item/sniffer_spawn_egg.json
++ minecraft/models/item/stripped_cherry_log.json
++ minecraft/models/item/stripped_cherry_wood.json
++ minecraft/models/item/suspicious_sand.json
++ minecraft/models/item/torchflower_seeds.json
++ minecraft/models/item/torchflower.json
++ minecraft/particles/dripping_cherry_leaves.json
++ minecraft/particles/falling_cherry_leaves.json
++ minecraft/particles/landing_cherry_leaves.json
++ minecraft/textures/block/cherry_door_bottom.png
++ minecraft/textures/block/cherry_door_top.png
++ minecraft/textures/block/cherry_leaves.png
++ minecraft/textures/block/cherry_log_top.png
++ minecraft/textures/block/cherry_log.png
++ minecraft/textures/block/cherry_planks.png
++ minecraft/textures/block/cherry_sapling.png
++ minecraft/textures/block/cherry_trapdoor.png
++ minecraft/textures/block/pink_petals_stem.png
++ minecraft/textures/block/pink_petals.png
++ minecraft/textures/block/stripped_cherry_log_top.png
++ minecraft/textures/block/stripped_cherry_log.png
++ minecraft/textures/block/suspicious_sand_0.png
++ minecraft/textures/block/suspicious_sand_1.png
++ minecraft/textures/block/suspicious_sand_2.png
++ minecraft/textures/block/suspicious_sand_3.png
++ minecraft/textures/block/torchflower_crop_stage0.png
++ minecraft/textures/block/torchflower_crop_stage1.png
++ minecraft/textures/block/torchflower_crop_stage2.png
++ minecraft/textures/block/torchflower.png
++ minecraft/textures/entity/boat/cherry.png
++ minecraft/textures/entity/chest_boat/cherry.png
++ minecraft/textures/entity/decorated_pot/decorated_pot_base.png
++ minecraft/textures/entity/decorated_pot/decorated_pot_side.png
++ minecraft/textures/entity/decorated_pot/pottery_pattern_archer.png
++ minecraft/textures/entity/decorated_pot/pottery_pattern_arms_up.png
++ minecraft/textures/entity/decorated_pot/pottery_pattern_prize.png
++ minecraft/textures/entity/decorated_pot/pottery_pattern_skull.png
++ minecraft/textures/entity/signs/cherry.png
++ minecraft/textures/entity/signs/hanging/cherry.png
++ minecraft/textures/entity/sniffer/sniffer.png
++ minecraft/textures/gui/footer_separator.png
++ minecraft/textures/gui/hanging_signs/cherry.png
++ minecraft/textures/gui/header_separator.png
++ minecraft/textures/gui/info_icon.png
++ minecraft/textures/gui/light_dirt_background.png
++ minecraft/textures/gui/tab_button.png
++ minecraft/textures/gui/unseen_notification.png
++ minecraft/textures/item/brush.png
++ minecraft/textures/item/cherry_boat.png
++ minecraft/textures/item/cherry_chest_boat.png
++ minecraft/textures/item/cherry_door.png
++ minecraft/textures/item/cherry_hanging_sign.png
++ minecraft/textures/item/cherry_sign.png
++ minecraft/textures/item/pink_petals.png
++ minecraft/textures/item/pottery_shard_archer.png
++ minecraft/textures/item/pottery_shard_arms_up.png
++ minecraft/textures/item/pottery_shard_prize.png
++ minecraft/textures/item/pottery_shard_skull.png
++ minecraft/textures/item/torchflower_seeds.png
++ minecraft/textures/misc/enchanted_glint_entity.png
++ minecraft/textures/misc/enchanted_glint_item.png
+- minecraft/textures/misc/enchanted_item_glint.png
+- realms/textures/gui/realms/configure_icon.png
+- realms/textures/gui/realms/leave_icon.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/biome_parameters/minecraft/overworld_update_1_20.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ decorated_pot_patterns.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:cherry_button
++ minecraft:cherry_door
++ minecraft:cherry_fence
++ minecraft:cherry_fence_gate
++ minecraft:cherry_hanging_sign
++ minecraft:cherry_leaves
++ minecraft:cherry_log
++ minecraft:cherry_planks
++ minecraft:cherry_pressure_plate
++ minecraft:cherry_sapling
++ minecraft:cherry_sign
++ minecraft:cherry_slab
++ minecraft:cherry_stairs
++ minecraft:cherry_trapdoor
++ minecraft:cherry_wall_hanging_sign
++ minecraft:cherry_wall_sign
++ minecraft:cherry_wood
++ minecraft:decorated_pot
++ minecraft:pink_petals
++ minecraft:potted_cherry_sapling
++ minecraft:potted_torchflower
++ minecraft:stripped_cherry_log
++ minecraft:stripped_cherry_wood
++ minecraft:suspicious_sand
++ minecraft:torchflower
++ minecraft:torchflower_crop
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:decorated_pot
++ minecraft:suspicious_sand
+```
+
+</details>
+
+
+<details><summary>command_argument_type.txt</summary>
+
+```diff
++ minecraft:heightmap
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:interaction
++ minecraft:sniffer
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:brush
++ minecraft:cherry_boat
++ minecraft:cherry_button
++ minecraft:cherry_chest_boat
++ minecraft:cherry_door
++ minecraft:cherry_fence
++ minecraft:cherry_fence_gate
++ minecraft:cherry_hanging_sign
++ minecraft:cherry_leaves
++ minecraft:cherry_log
++ minecraft:cherry_planks
++ minecraft:cherry_pressure_plate
++ minecraft:cherry_sapling
++ minecraft:cherry_sign
++ minecraft:cherry_slab
++ minecraft:cherry_stairs
++ minecraft:cherry_trapdoor
++ minecraft:cherry_wood
++ minecraft:decorated_pot
++ minecraft:pink_petals
++ minecraft:pottery_shard_archer
++ minecraft:pottery_shard_arms_up
++ minecraft:pottery_shard_prize
++ minecraft:pottery_shard_skull
++ minecraft:sniffer_spawn_egg
++ minecraft:stripped_cherry_log
++ minecraft:stripped_cherry_wood
++ minecraft:suspicious_sand
++ minecraft:torchflower
++ minecraft:torchflower_seeds
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:sniffer_digging
++ minecraft:sniffer_explored_positions
++ minecraft:sniffer_happy
++ minecraft:sniffer_sniffing_target
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:dripping_cherry_leaves
++ minecraft:falling_cherry_leaves
++ minecraft:landing_cherry_leaves
+```
+
+</details>
+
+
+<details><summary>recipe_serializer.txt</summary>
+
+```diff
++ minecraft:crafting_decorated_pot
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.cherry_leaves.break
++ minecraft:block.cherry_leaves.fall
++ minecraft:block.cherry_leaves.hit
++ minecraft:block.cherry_leaves.place
++ minecraft:block.cherry_leaves.step
++ minecraft:block.cherry_sapling.break
++ minecraft:block.cherry_sapling.fall
++ minecraft:block.cherry_sapling.hit
++ minecraft:block.cherry_sapling.place
++ minecraft:block.cherry_sapling.step
++ minecraft:block.cherry_wood_button.click_off
++ minecraft:block.cherry_wood_button.click_on
++ minecraft:block.cherry_wood_door.close
++ minecraft:block.cherry_wood_door.open
++ minecraft:block.cherry_wood_fence_gate.close
++ minecraft:block.cherry_wood_fence_gate.open
++ minecraft:block.cherry_wood_hanging_sign.break
++ minecraft:block.cherry_wood_hanging_sign.fall
++ minecraft:block.cherry_wood_hanging_sign.hit
++ minecraft:block.cherry_wood_hanging_sign.place
++ minecraft:block.cherry_wood_hanging_sign.step
++ minecraft:block.cherry_wood_pressure_plate.click_off
++ minecraft:block.cherry_wood_pressure_plate.click_on
++ minecraft:block.cherry_wood_trapdoor.close
++ minecraft:block.cherry_wood_trapdoor.open
++ minecraft:block.cherry_wood.break
++ minecraft:block.cherry_wood.fall
++ minecraft:block.cherry_wood.hit
++ minecraft:block.cherry_wood.place
++ minecraft:block.cherry_wood.step
++ minecraft:block.decorated_pot.break
++ minecraft:block.decorated_pot.fall
++ minecraft:block.decorated_pot.hit
++ minecraft:block.decorated_pot.place
++ minecraft:block.decorated_pot.shatter
++ minecraft:block.decorated_pot.step
++ minecraft:block.pink_petals.break
++ minecraft:block.pink_petals.fall
++ minecraft:block.pink_petals.hit
++ minecraft:block.pink_petals.place
++ minecraft:block.pink_petals.step
++ minecraft:block.suspicious_sand.break
++ minecraft:block.suspicious_sand.fall
++ minecraft:block.suspicious_sand.hit
++ minecraft:block.suspicious_sand.place
++ minecraft:block.suspicious_sand.step
++ minecraft:entity.sniffer.death
++ minecraft:entity.sniffer.digging
++ minecraft:entity.sniffer.digging_stop
++ minecraft:entity.sniffer.drop_seed
++ minecraft:entity.sniffer.eat
++ minecraft:entity.sniffer.happy
++ minecraft:entity.sniffer.hurt
++ minecraft:entity.sniffer.idle
++ minecraft:entity.sniffer.scenting
++ minecraft:entity.sniffer.searching
++ minecraft:entity.sniffer.sniffing
++ minecraft:entity.sniffer.step
++ minecraft:intentionally_empty
++ minecraft:item.brush.brush_sand_completed
++ minecraft:item.brush.brushing
++ minecraft:music.overworld.cherry_grove
+```
+
+</details>
+
+
+<details><summary>worldgen/foliage_placer_type.txt</summary>
+
+```diff
++ minecraft:cherry_foliage_placer
+```
+
+</details>
+
+
+<details><summary>worldgen/trunk_placer_type.txt</summary>
+
+```diff
++ minecraft:cherry_trunk_placer
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute positioned over <heightmap: heightmap>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/smelts_to_glass.json
++ damage_type/always_hurts_ender_dragons.json
++ entity_types/fall_damage_immune.json
++ items/axes.json
++ items/hoes.json
++ items/pickaxes.json
++ items/shovels.json
++ items/smelts_to_glass.json
++ items/swords.json
++ items/tools.json
+```
+
+</details>
+
+
+<details><summary>damage_type/avoids_guardian_thorns.json</summary>
+
+```diff
++ #minecraft:is_explosion
++ minecraft:thorns
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ biome.minecraft.cherry_grove
++ block.minecraft.cherry_button
++ block.minecraft.cherry_door
++ block.minecraft.cherry_fence
++ block.minecraft.cherry_fence_gate
++ block.minecraft.cherry_hanging_sign
++ block.minecraft.cherry_leaves
++ block.minecraft.cherry_log
++ block.minecraft.cherry_planks
++ block.minecraft.cherry_pressure_plate
++ block.minecraft.cherry_sapling
++ block.minecraft.cherry_sign
++ block.minecraft.cherry_slab
++ block.minecraft.cherry_stairs
++ block.minecraft.cherry_trapdoor
++ block.minecraft.cherry_wall_hanging_sign
++ block.minecraft.cherry_wall_sign
++ block.minecraft.cherry_wood
++ block.minecraft.decorated_pot
++ block.minecraft.pink_petals
++ block.minecraft.potted_cherry_sapling
++ block.minecraft.potted_torchflower
++ block.minecraft.stripped_cherry_log
++ block.minecraft.stripped_cherry_wood
++ block.minecraft.suspicious_sand
++ block.minecraft.torchflower
++ block.minecraft.torchflower_crop
++ entity.minecraft.falling_block_type
++ entity.minecraft.interaction
++ entity.minecraft.sniffer
++ gui.banned.reason.defamation_impersonation_false_information
++ gui.banned.reason.drugs
++ gui.banned.reason.extreme_violence_or_gore
++ gui.banned.reason.false_reporting
++ gui.banned.reason.fraud
++ gui.banned.reason.generic_violation
++ gui.banned.reason.harassment_or_bullying
++ gui.banned.reason.hate_speech
++ gui.banned.reason.hate_terrorism_notorious_figure
++ gui.banned.reason.imminent_harm_to_person_or_property
++ gui.banned.reason.nudity_or_pornography
++ gui.banned.reason.sexually_inappropriate
++ gui.banned.reason.spam_or_advertising
++ item.minecraft.brush
++ item.minecraft.cherry_boat
++ item.minecraft.cherry_chest_boat
++ item.minecraft.pottery_shard_archer
++ item.minecraft.pottery_shard_arms_up
++ item.minecraft.pottery_shard_prize
++ item.minecraft.pottery_shard_skull
++ item.minecraft.sniffer_spawn_egg
++ item.minecraft.torchflower_seeds
++ mco.notification.dismiss
++ mco.notification.visitUrl.buttonText.default
++ mco.notification.visitUrl.message.default
++ narration.tab_navigation.usage
++ narrator.position.tab
++ options.accessibility.high_contrast
++ options.accessibility.high_contrast.tooltip
++ resourcePack.high_contrast.name
++ subtitles.block.decorated_pot.shatter
++ subtitles.entity.sniffer.death
++ subtitles.entity.sniffer.digging
++ subtitles.entity.sniffer.digging_stop
++ subtitles.entity.sniffer.drop_seed
++ subtitles.entity.sniffer.eat
++ subtitles.entity.sniffer.happy
++ subtitles.entity.sniffer.hurt
++ subtitles.entity.sniffer.idle
++ subtitles.entity.sniffer.scenting
++ subtitles.entity.sniffer.searching
++ subtitles.entity.sniffer.sniffing
++ subtitles.entity.sniffer.step
++ subtitles.item.brush.brush_sand_completed
++ subtitles.item.brush.brushing
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/multi_noise_biome_source_parameter_list.txt
+```
+
+</details>
+
+
+<details><summary>atlases.txt</summary>
+
+```diff
++ decorated_pot.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/cherry_button.json
++ blocks/cherry_door.json
++ blocks/cherry_fence_gate.json
++ blocks/cherry_fence.json
++ blocks/cherry_hanging_sign.json
++ blocks/cherry_leaves.json
++ blocks/cherry_log.json
++ blocks/cherry_planks.json
++ blocks/cherry_pressure_plate.json
++ blocks/cherry_sapling.json
++ blocks/cherry_sign.json
++ blocks/cherry_slab.json
++ blocks/cherry_stairs.json
++ blocks/cherry_trapdoor.json
++ blocks/cherry_wood.json
++ blocks/decorated_pot.json
++ blocks/pink_petals.json
++ blocks/potted_cherry_sapling.json
++ blocks/potted_torchflower.json
++ blocks/stripped_cherry_log.json
++ blocks/stripped_cherry_wood.json
++ blocks/suspicious_sand.json
++ blocks/torchflower_crop.json
++ blocks/torchflower.json
++ entities/sniffer.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ dripping_cherry_leaves.json
++ falling_cherry_leaves.json
++ landing_cherry_leaves.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/amethyst/resonate1.ogg
++ block/amethyst/resonate2.ogg
++ block/amethyst/resonate3.ogg
++ block/amethyst/resonate4.ogg
++ block/sign/waxed_interact_fail1.ogg
++ block/sign/waxed_interact_fail2.ogg
++ block/sign/waxed_interact_fail3.ogg
++ block/suspicious_gravel/break1.ogg
++ block/suspicious_gravel/break2.ogg
++ block/suspicious_gravel/break3.ogg
++ block/suspicious_gravel/break4.ogg
++ block/suspicious_gravel/break5.ogg
++ block/suspicious_gravel/break6.ogg
++ block/suspicious_gravel/place1.ogg
++ block/suspicious_gravel/place2.ogg
++ block/suspicious_gravel/place3.ogg
++ block/suspicious_gravel/place4.ogg
++ block/suspicious_gravel/step1.ogg
++ block/suspicious_gravel/step2.ogg
++ block/suspicious_gravel/step3.ogg
++ block/suspicious_gravel/step4.ogg
+- item/brush/brush_completed1.ogg
+- item/brush/brush_completed2.ogg
+- item/brush/brush_completed3.ogg
+- item/brush/brush_completed4.ogg
+- item/brush/brush_completed5.ogg
++ item/brush/brush_sand_complete1.ogg
++ item/brush/brush_sand_complete2.ogg
++ item/brush/brush_sand_complete3.ogg
++ item/brush/brush_sand_complete4.ogg
++ item/brush/brush_sand_complete5.ogg
++ item/brush/brushing_generic1.ogg
++ item/brush/brushing_generic2.ogg
++ item/brush/brushing_generic3.ogg
++ item/brush/brushing_generic4.ogg
++ item/brush/brushing_gravel_complete1.ogg
++ item/brush/brushing_gravel_complete2.ogg
++ item/brush/brushing_gravel_complete3.ogg
++ item/brush/brushing_gravel_complete4.ogg
++ item/brush/brushing_gravel1.ogg
++ item/brush/brushing_gravel2.ogg
++ item/brush/brushing_gravel3.ogg
++ item/brush/brushing_gravel4.ogg
++ item/brush/brushing_sand1.ogg
++ item/brush/brushing_sand2.ogg
++ item/brush/brushing_sand3.ogg
++ item/brush/brushing_sand4.ogg
+- item/brush/brushing1.ogg
+- item/brush/brushing2.ogg
+- item/brush/brushing3.ogg
+- item/brush/brushing4.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/smelts_to_glass.json
++ damage_type/always_hurts_ender_dragons.json
++ entity_types/fall_damage_immune.json
++ items/axes.json
++ items/hoes.json
++ items/pickaxes.json
++ items/shovels.json
++ items/smelts_to_glass.json
++ items/swords.json
++ items/tools.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/cherry_door_bottom.png
++ block/cherry_door_top.png
++ block/cherry_leaves.png
++ block/cherry_log_top.png
++ block/cherry_log.png
++ block/cherry_planks.png
++ block/cherry_sapling.png
++ block/cherry_trapdoor.png
++ block/pink_petals_stem.png
++ block/pink_petals.png
++ block/stripped_cherry_log_top.png
++ block/stripped_cherry_log.png
++ block/suspicious_sand_0.png
++ block/suspicious_sand_1.png
++ block/suspicious_sand_2.png
++ block/suspicious_sand_3.png
++ block/torchflower_crop_stage0.png
++ block/torchflower_crop_stage1.png
++ block/torchflower_crop_stage2.png
++ block/torchflower.png
++ entity/boat/cherry.png
++ entity/chest_boat/cherry.png
++ entity/decorated_pot/decorated_pot_base.png
++ entity/decorated_pot/decorated_pot_side.png
++ entity/decorated_pot/pottery_pattern_archer.png
++ entity/decorated_pot/pottery_pattern_arms_up.png
++ entity/decorated_pot/pottery_pattern_prize.png
++ entity/decorated_pot/pottery_pattern_skull.png
++ entity/signs/cherry.png
++ entity/signs/hanging/cherry.png
++ entity/sniffer/sniffer.png
++ gui/footer_separator.png
++ gui/hanging_signs/cherry.png
++ gui/header_separator.png
++ gui/info_icon.png
++ gui/light_dirt_background.png
++ gui/tab_button.png
++ gui/unseen_notification.png
++ item/brush.png
++ item/cherry_boat.png
++ item/cherry_chest_boat.png
++ item/cherry_door.png
++ item/cherry_hanging_sign.png
++ item/cherry_sign.png
++ item/pink_petals.png
++ item/pottery_shard_archer.png
++ item/pottery_shard_arms_up.png
++ item/pottery_shard_prize.png
++ item/pottery_shard_skull.png
++ item/torchflower_seeds.png
++ misc/enchanted_glint_entity.png
++ misc/enchanted_glint_item.png
+- misc/enchanted_item_glint.png
+```
+
+</details>
+
+
+<details><summary>worldgen/configured_feature.txt</summary>
+
+```diff
++ cherry_bees_005.json
++ cherry.json
++ flower_cherry.json
+```
+
+</details>
+
+
+<details><summary>worldgen/placed_feature.txt</summary>
+
+```diff
++ cherry_bees_005.json
++ cherry_checked.json
++ flower_cherry.json
++ trees_cherry.json
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:heightmap
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:datafixerupper:5.0.28
++ com.mojang:datafixerupper:6.0.6
+```
+
+</details>

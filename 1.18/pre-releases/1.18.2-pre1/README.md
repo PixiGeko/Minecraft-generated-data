@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.18.2-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.18.2-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2022-02-18T16:00:32+00:00</td></tr>
@@ -10,2817 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ee44979b031f2e937dd4737ebcfbddd553aee52d/server.txt">https://piston-data.mojang.com/v1/objects/ee44979b031f2e937dd4737ebcfbddd553aee52d/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/501e50015fd24332cd78010a5e57ba42ded41131/client.jar">https://piston-data.mojang.com/v1/objects/501e50015fd24332cd78010a5e57ba42ded41131/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4a6984727e1a3133b9eb54f78d4b01705c7465fb/client.txt">https://piston-data.mojang.com/v1/objects/4a6984727e1a3133b9eb54f78d4b01705c7465fb/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w07a">22w07a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/worldgen/configured_structure_feature
-+  minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
-+  minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
-+  minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
-+  minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
-+  minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
-+  minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
-+  minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
-+  minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
-+  minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
-+  minecraft/tags/worldgen/configured_structure_feature/village.json
-```
+### Client
 
-</details>
 
-<details><summary>minecraft-generated/</summary>
 
-```diff
-+  reports/worldgen/minecraft/worldgen/density_function
-+  reports/worldgen/minecraft/worldgen/density_function/end
-+  reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
-+  reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
-+  reports/worldgen/minecraft/worldgen/density_function/shift_x.json
-+  reports/worldgen/minecraft/worldgen/density_function/shift_z.json
-+  reports/worldgen/minecraft/worldgen/density_function/y.json
-+  reports/worldgen/minecraft/worldgen/density_function/zero.json
-+  reports/worldgen/minecraft/worldgen/structure_set
-+  reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json
-+  reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json
-+  reports/worldgen/minecraft/worldgen/structure_set/end_cities.json
-+  reports/worldgen/minecraft/worldgen/structure_set/igloos.json
-+  reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json
-+  reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json
-+  reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json
-+  reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json
-+  reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json
-+  reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json
-+  reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json
-+  reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json
-+  reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json
-+  reports/worldgen/minecraft/worldgen/structure_set/strongholds.json
-+  reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json
-+  reports/worldgen/minecraft/worldgen/structure_set/villages.json
-+  reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ worldgen/density_function_type.txt
-```
-
-</details>
-
-## Commands
-
-<details><summary>locate.txt</summary>
-
-```diff
-- locate <structure: resource_location>
-+ locate <structure: resource_or_tag>
-```
-
-</details>
-
-<details><summary>locatebiome.txt</summary>
-
-```diff
-- locatebiome <biome: resource_location>
-+ locatebiome <biome: resource_or_tag>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ worldgen/configured_structure_feature/dolphin_located.json
-+ worldgen/configured_structure_feature/eye_of_ender_located.json
-+ worldgen/configured_structure_feature/mineshaft.json
-+ worldgen/configured_structure_feature/ocean_ruin.json
-+ worldgen/configured_structure_feature/on_ocean_explorer_maps.json
-+ worldgen/configured_structure_feature/on_treasure_maps.json
-+ worldgen/configured_structure_feature/on_woodland_explorer_maps.json
-+ worldgen/configured_structure_feature/ruined_portal.json
-+ worldgen/configured_structure_feature/shipwreck.json
-+ worldgen/configured_structure_feature/village.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ worldgen/configured_structure_feature/dolphin_located.json
-+ worldgen/configured_structure_feature/eye_of_ender_located.json
-+ worldgen/configured_structure_feature/mineshaft.json
-+ worldgen/configured_structure_feature/ocean_ruin.json
-+ worldgen/configured_structure_feature/on_ocean_explorer_maps.json
-+ worldgen/configured_structure_feature/on_treasure_maps.json
-+ worldgen/configured_structure_feature/on_woodland_explorer_maps.json
-+ worldgen/configured_structure_feature/ruined_portal.json
-+ worldgen/configured_structure_feature/shipwreck.json
-+ worldgen/configured_structure_feature/village.json
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:resource_or_tag
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
-
-```diff
-+ ResourceKey feature
-- StructureFeature feature
-+ LocationPredicate inFeature(ResourceKey)
-+ ResourceKey lambda$fromJson$2(ResourceLocation)
-+ void <init>(FluidPredicate)
-- LocationPredicate inFeature(StructureFeature)
-- void <init>(FluidPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.MultiLineLabel$1</summary>
-
-```diff
-+ void renderBackgroundCentered(PoseStack,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.SafetyScreen</summary>
-
-```diff
-- Checkbox stopShowing
-- MultiLineLabel message
-- Screen previous
-+ void initButtons(int)
-+ void lambda$initButtons$0(Button)
-+ void lambda$initButtons$1(Button)
-- Component getNarrationMessage()
-- void init()
-- void lambda$init$0(Button)
-- void lambda$init$1(Button)
-- void render(PoseStack,int,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.synchronization.ArgumentTypes</summary>
-
-```diff
-+ Class fixClassType(Class)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Holder$Reference</summary>
-
-```diff
-+ boolean equals(Object)
-+ int hashCode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
-
-```diff
-+ void addBuiltinElements(RegistryAccess$RegistryData)
-- boolean isIdentityCopy(ResourceKey)
-- void addBuiltinElements(RegistryAccess$RegistryData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
-
-```diff
-+ Registry DENSITY_FUNCTION
-+ Registry STRUCTURE_SETS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
-
-```diff
-+ int effectId
-- byte effectId
-+ int getEffectId()
-- byte getEffectId()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LocateBiomeCommand</summary>
-
-```diff
-+ int locateBiome(ResourceOrTagLocationArgument$Result)
-- int locateBiome(ResourceLocationArgument$LocatedResource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ DedicatedServerProperties$WorldGenProperties worldGenProperties
-+ String lambda$new$2(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-+ boolean lambda$finalizeSpawn$1(ConfiguredStructureFeature)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.CatSpawner</summary>
-
-```diff
-+ boolean lambda$tick$0(ConfiguredStructureFeature)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.WorldGenLevel</summary>
-
-```diff
-- List startsForFeature(net.minecraft.core.SectionPos,net.minecraft.world.level.levelgen.feature.StructureFeature)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ Pair findBiomeHorizontal(Climate$Sampler)
-+ Pair findBiomeHorizontal(Climate$Sampler)
-- BlockPos findBiomeHorizontal(Climate$Sampler)
-- BlockPos findBiomeHorizontal(Climate$Sampler)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ Pair findBiomeHorizontal(Climate$Sampler)
-- BlockPos findBiomeHorizontal(Climate$Sampler)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.FeatureAccess</summary>
-
-```diff
-+ LongSet getReferencesForFeature(net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature)
-+ StructureStart getStartForFeature(net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature)
-+ void addReferenceForFeature(net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature,long)
-+ void setStartForFeature(net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature,net.minecraft.world.level.levelgen.structure.StructureStart)
-- LongSet getReferencesForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature)
-- StructureStart getStartForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature)
-- void addReferenceForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature,long)
-- void setStartForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature,net.minecraft.world.level.levelgen.structure.StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
-+ void setStartForFeature(StructureStart)
-- void setStartForFeature(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
-
-```diff
-+ boolean lambda$unpackStructureReferences$11(ResourceLocation,long)
-+ Map unpackStructureReferences(CompoundTag)
-- boolean lambda$unpackStructureReferences$11(String,long)
-- Map unpackStructureReferences(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$1</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$world$level$levelgen$DensityFunctions$TwoArgumentSimpleFunction$Type
-- int[] $SwitchMap$net$minecraft$world$level$levelgen$DensityFunctions$Ap2$Type
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Mapped$Type</summary>
-
-```diff
-+ Codec codec
-+ String name
-+ DensityFunctions$Mapped lambda$new$0(DensityFunction)
-+ String getSerializedName()
-+ void <init>(String)
-- void <init>(String,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Marker$Type</summary>
-
-```diff
-+ Codec codec
-+ String name
-+ DensityFunctions$MarkerOrMarked lambda$new$0(DensityFunction)
-+ String getSerializedName()
-+ void <init>(String)
-- void <init>(String,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ BlockState lambda$getBaseColumn$1(BlockState)
-+ BlockState[] lambda$getBaseColumn$2(int)
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- BlockState lambda$getBaseColumn$2(BlockState)
-- BlockState[] lambda$getBaseColumn$3(int)
-- Registry lambda$static$0(FlatLevelSource)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk</summary>
-
-```diff
-+ DensityFunctions$BeardifierOrMarker beardifier
-+ void <init>(Blender)
-- void <init>(Blender)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$BlendOffset</summary>
-
-```diff
-+ Codec codec()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$Cache2D</summary>
-
-```diff
-+ DensityFunctions$Marker$Type type()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce</summary>
-
-```diff
-+ DensityFunctions$Marker$Type type()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
-
-```diff
-+ boolean useLegacyRandomSource
-+ NoiseRouterWithOnlyNoises noiseRouter
-- boolean noiseCavesEnabled
-- boolean noodleCavesEnabled
-- StructureSettings structureSettings
-- WorldgenRandom$Algorithm randomSource
-+ BlockState defaultBlock()
-+ BlockState defaultFluid()
-+ boolean aquifersEnabled()
-+ boolean equals(Object)
-+ boolean oreVeinsEnabled()
-+ int hashCode()
-+ NoiseRouter createNoiseRouter(Registry,long)
-+ NoiseRouterWithOnlyNoises noiseRouter()
-+ String toString()
-+ void <init>(SurfaceRules$RuleSource,int,boolean,boolean,boolean,boolean)
-- BlockState getDefaultBlock()
-- BlockState getDefaultFluid()
-- boolean isNoiseCavesEnabled()
-- boolean isNoodleCavesEnabled()
-- boolean isOreVeinsEnabled()
-- RandomSource createRandomSource(long)
-- StructureSettings structureSettings()
-- void <init>(SurfaceRules$RuleSource,int,boolean,boolean,boolean,boolean,boolean,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseRouterData</summary>
-
-```diff
-+ ResourceKey BASE_3D_NOISE
-+ ResourceKey CONTINENTS
-+ ResourceKey CONTINENTS_LARGE
-+ ResourceKey DEPTH
-+ ResourceKey DEPTH_LARGE
-+ ResourceKey ENTRANCES
-+ ResourceKey EROSION
-+ ResourceKey EROSION_LARGE
-+ ResourceKey FACTOR
-+ ResourceKey FACTOR_LARGE
-+ ResourceKey NOODLE
-+ ResourceKey PILLARS
-+ ResourceKey RIDGES
-+ ResourceKey SHIFT_X
-+ ResourceKey SHIFT_Z
-+ ResourceKey SLOPED_CHEESE
-+ ResourceKey SLOPED_CHEESE_END
-+ ResourceKey SLOPED_CHEESE_LARGE
-+ ResourceKey SPAGHETTI_2D
-+ ResourceKey SPAGHETTI_2D_THICKNESS_MODULATOR
-+ ResourceKey SPAGHETTI_ROUGHNESS_FUNCTION
-+ ResourceKey Y
-+ ResourceKey ZERO
-+ DensityFunction entrances()
-+ DensityFunction finalDensity(NoiseSettings,boolean,boolean,boolean)
-+ DensityFunction getFunction(ResourceKey)
-+ DensityFunction lambda$createNoiseRouter$2(DensityFunction)
-+ DensityFunction lambda$createNoiseRouter$3(DensityFunction)
-+ DensityFunction noodle()
-+ DensityFunction pillars()
-+ DensityFunction register(DensityFunction)
-+ DensityFunction slopedCheese(DensityFunction)
-+ DensityFunction spaghetti2D()
-+ DensityFunction spaghettiRoughnessFunction()
-+ DensityFunction splineWithBlending(DensityFunction)
-+ DensityFunction underground(DensityFunction)
-+ Holder bootstrap()
-+ Holder getNoise(ResourceKey)
-+ int lambda$noiseRouter$0(OreVeinifier$VeinType)
-+ int lambda$noiseRouter$1(OreVeinifier$VeinType)
-+ NoiseRouter createNoiseRouter(NoiseRouterWithOnlyNoises)
-+ NoiseRouterWithOnlyNoises end(NoiseSettings)
-+ NoiseRouterWithOnlyNoises nether(NoiseSettings)
-+ NoiseRouterWithOnlyNoises noiseRouter(NoiseSettings,boolean,boolean)
-+ NoiseRouterWithOnlyNoises overworld(NoiseSettings)
-+ NoiseRouterWithOnlyNoises overworldWithoutCaves(NoiseSettings)
-+ NormalNoise seedNoise(Holder)
-+ ResourceKey createKey(String)
-- DensityFunction splineWithBlending(DensityFunction)
-- int lambda$createNoiseRouter$0(OreVeinifier$VeinType)
-- int lambda$createNoiseRouter$1(OreVeinifier$VeinType)
-- NoiseRouter createNoiseRouter(WorldgenRandom$Algorithm)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor</summary>
-
-```diff
-- int value
-+ Record lambda$merge$0(Either)
-- int value()
-- VerticalAnchor lambda$merge$0(Either)
-- void <init>(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$Absolute</summary>
-
-```diff
-+ int y
-+ boolean equals(Object)
-+ int hashCode()
-+ int y()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
-
-```diff
-+ FlatLevelGeneratorSettings lambda$create$2(Registry)
-+ WorldGenSettings create(DedicatedServerProperties$WorldGenProperties)
-- FlatLevelGeneratorSettings lambda$create$3(Registry)
-- String lambda$create$2(String)
-- WorldGenSettings create(Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
-
-```diff
-+ boolean adaptNoise
-+ Codec NETWORK_CODEC
-+ Map spawnOverrides
-+ BoundingBox adjustBoundingBox(BoundingBox)
-+ ConfiguredStructureFeature lambda$static$1()
-+ void <init>(Map)
-- void <init>(HolderSet)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
-
-```diff
-- WeightedRandomList MONUMENT_ENEMIES
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
-
-```diff
-- WeightedRandomList OUTPOST_ENEMIES
-- boolean isNearVillage(ChunkPos)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ StructureFeature FORTRESS
-- BiMap STRUCTURES_REGISTRY
-- List NOISE_AFFECTING_FEATURES
-- StructureFeature NETHER_BRIDGE
-+ App lambda$new$4(RecordCodecBuilder$Instance)
-+ Boolean lambda$new$1(ConfiguredStructureFeature)
-+ ConfiguredStructureFeature configured(Map)
-+ ConfiguredStructureFeature configured(Map)
-+ ConfiguredStructureFeature configured(TagKey,boolean)
-+ ConfiguredStructureFeature lambda$new$3(Map)
-+ Map lambda$new$2(ConfiguredStructureFeature)
-+ PieceGeneratorSupplier pieceGeneratorSupplier()
-- App lambda$new$2(RecordCodecBuilder$Instance)
-- BoundingBox adjustBoundingBox(BoundingBox)
-- ConfiguredStructureFeature lambda$new$1(HolderSet)
-- String getFeatureName()
-- StructureStart generate(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
-
-```diff
-+ Optional structureOverrides
-- StructureSettings structureSettings
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ Boolean lambda$static$3(FlatLevelGeneratorSettings)
-+ boolean lambda$updateLayers$6(BlockState)
-+ FlatLevelGeneratorSettings withLayers(Optional)
-+ Optional lambda$static$1(FlatLevelGeneratorSettings)
-+ Optional lambda$static$4(FlatLevelGeneratorSettings)
-+ Optional structureOverrides()
-+ void <init>(Optional)
-+ void <init>(Registry)
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- Boolean lambda$static$1(FlatLevelGeneratorSettings)
-- boolean lambda$updateLayers$5(BlockState)
-- FlatLevelGeneratorSettings withLayers(StructureSettings)
-- FlatLevelGeneratorSettings withStructureSettings(StructureSettings)
-- Optional lambda$static$3(FlatLevelGeneratorSettings)
-- StructureSettings structureSettings()
-- void <init>(Optional)
-- void <init>(Registry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.screens.achievement.package-info
@@ -4779,763 +1990,424 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
 
 ```diff
-+ ResourceKey feature
-- StructureFeature feature
 + LocationPredicate inFeature(ResourceKey)
-+ ResourceKey lambda$fromJson$2(ResourceLocation)
-+ void <init>(FluidPredicate)
 - LocationPredicate inFeature(StructureFeature)
-- void <init>(FluidPredicate)
++ ResourceKey lambda$fromJson$2(ResourceLocation)
++ void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,MinMaxBounds$Doubles,ResourceKey,ResourceKey,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
+- void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,MinMaxBounds$Doubles,ResourceKey,StructureFeature,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
+<details><summary>net.minecraft.client.gui.components.MultiLineLabel$1</summary>
 
 ```diff
-- DynamicCommandExceptionType ERROR_INVALID_BIOME
-- DynamicCommandExceptionType ERROR_INVALID_STRUCTURE
-+ CommandSyntaxException lambda$getAttribute$7(ResourceLocation)
-+ CommandSyntaxException lambda$getRecipe$6(ResourceLocation)
-+ CommandSyntaxException lambda$getRegistryType$8(ResourceLocation)
-- CommandSyntaxException lambda$getAttribute$9(ResourceLocation)
-- CommandSyntaxException lambda$getRecipe$8(ResourceLocation)
-- CommandSyntaxException lambda$getRegistryType$10(ResourceLocation)
-- Message lambda$static$6(Object)
-- Message lambda$static$7(Object)
-- ResourceLocationArgument$LocatedResource getBiome(String)
-- ResourceLocationArgument$LocatedResource getStructureFeature(String)
++ void renderBackgroundCentered(PoseStack,int,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.client.gui.screens.multiplayer.SafetyScreen</summary>
 
 ```diff
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ boolean lambda$clearBlockEvents$17(BlockEventData)
-+ Pair findNearestBiome(BlockPos,int,int)
-+ String lambda$getTypeCount$19(Object2IntMap$Entry)
-+ String lambda$getWatchdogStats$18(Entity)
-+ void lambda$makeObsidianPlatform$20(BlockPos)
-+ void lambda$onBlockStateChange$13(BlockPos)
-+ void lambda$onBlockStateChange$14(PoiType)
-+ void lambda$onStructureStartsAvailable$22(ChunkAccess)
-- BlockPos findNearestBiome(BlockPos,int,int)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- boolean lambda$clearBlockEvents$18(BlockEventData)
-- boolean lambda$findNearestBiome$13(Holder)
-- List startsForFeature(StructureFeature)
-- String lambda$getTypeCount$20(Object2IntMap$Entry)
-- String lambda$getWatchdogStats$19(Entity)
-- void lambda$makeObsidianPlatform$22(BlockPos)
-- void lambda$onBlockStateChange$14(BlockPos)
-- void lambda$onBlockStateChange$17(PoiType)
-- void lambda$onStructureStartsAvailable$23(ChunkAccess)
+- Component getNarrationMessage()
+- void init()
++ void initButtons(int)
+- void lambda$init$0(Button)
+- void lambda$init$1(Button)
++ void lambda$initButtons$0(Button)
++ void lambda$initButtons$1(Button)
+- void render(PoseStack,int,int,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+<details><summary>net.minecraft.commands.synchronization.ArgumentTypes</summary>
 
 ```diff
-- List startsForFeature(StructureFeature)
++ Class fixClassType(Class)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity</summary>
-
-```diff
-+ Codec CODEC
-+ Codec codec()
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Clamp</summary>
-
-```diff
-+ Codec CODEC
-+ MapCodec DATA_CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ Codec codec()
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
-
-```diff
-+ Codec CODEC
-+ Codec codec()
-+ void <clinit>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$ShiftB</summary>
-
-```diff
-+ Codec CODEC
-+ Holder noiseData
-+ Codec codec()
-+ DensityFunctions$ShiftB lambda$static$0(Holder)
-+ DensityFunctions$ShiftNoise withNewNoise(NormalNoise)
-+ Holder noiseData()
-+ void <clinit>()
-+ void <init>(NormalNoise)
-- void <init>(NormalNoise)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise</summary>
-
-```diff
-+ Codec CODEC
-+ Holder noiseData
-+ MapCodec DATA_CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ Codec codec()
-+ DensityFunctions$ShiftedNoise createUnseeded(Holder)
-+ Holder noiseData()
-+ void <clinit>()
-+ void <init>(NormalNoise)
-- void <init>(NormalNoise)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$TerrainShaperSpline</summary>
-
-```diff
-+ Codec CODEC
-+ DensityFunctions$TerrainShaperSpline$SplineType spline
-+ MapCodec DATA_CODEC
-+ TerrainShaper shaper
-- ToFloatFunction spline
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ Codec codec()
-+ DensityFunctions$TerrainShaperSpline createUnseeded(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
-+ DensityFunctions$TerrainShaperSpline$SplineType spline()
-+ TerrainShaper shaper()
-+ void <clinit>()
-+ void <init>(DensityFunctions$TerrainShaperSpline$SplineType,double,double)
-- ToFloatFunction spline()
-- void <init>(ToFloatFunction,double,double)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler</summary>
-
-```diff
-+ Codec CODEC
-+ DensityFunctions$WeirdScaledSampler$RarityValueMapper rarityValueMapper
-+ Holder noiseData
-+ MapCodec DATA_CODEC
-- double maxRarity
-- Double2DoubleFunction rarityValueMapper
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ Codec codec()
-+ DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
-+ DensityFunctions$WeirdScaledSampler$RarityValueMapper rarityValueMapper()
-+ Holder noiseData()
-+ void <clinit>()
-+ void <init>(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
-- double maxRarity()
-- Double2DoubleFunction rarityValueMapper()
-- void <init>(Double2DoubleFunction,double)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSamplingSettings</summary>
+<details><summary>net.minecraft.core.Holder$Reference</summary>
 
 ```diff
 + boolean equals(Object)
 + int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess</summary>
+
+```diff
+- boolean isIdentityCopy(ResourceKey)
+- void addBuiltinElements(RegistryAccess$Writable,RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
++ void addBuiltinElements(RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
+
+```diff
+- byte getEffectId()
++ int getEffectId()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.LocateBiomeCommand</summary>
+
+```diff
+- int locateBiome(CommandSourceStack,ResourceLocationArgument$LocatedResource)
++ int locateBiome(CommandSourceStack,ResourceOrTagLocationArgument$Result)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ String lambda$new$2(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
+
+```diff
++ boolean lambda$finalizeSpawn$1(ServerLevel,ConfiguredStructureFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.CatSpawner</summary>
+
+```diff
++ boolean lambda$tick$0(ServerLevel,BlockPos,ConfiguredStructureFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
+
+```diff
+- BlockPos findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
+- BlockPos findBiomeHorizontal(int,int,int,int,Predicate,Random,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,Predicate,Random,Climate$Sampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
+
+```diff
+- BlockPos findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
++ Pair findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
++ void setStartForFeature(ConfiguredStructureFeature,StructureStart)
+- void setStartForFeature(StructureFeature,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+
+```diff
++ boolean lambda$unpackStructureReferences$11(ChunkPos,ResourceLocation,long)
+- boolean lambda$unpackStructureReferences$11(ChunkPos,String,long)
+- Map unpackStructureReferences(ChunkPos,CompoundTag)
++ Map unpackStructureReferences(RegistryAccess,ChunkPos,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Mapped$Type</summary>
+
+```diff
++ DensityFunctions$Mapped lambda$new$0(DensityFunction)
++ String getSerializedName()
++ void <init>(String,int,String)
+- void <init>(String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Marker$Type</summary>
+
+```diff
++ DensityFunctions$MarkerOrMarked lambda$new$0(DensityFunction)
++ String getSerializedName()
++ void <init>(String,int,String)
+- void <init>(String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- App lambda$static$1(RecordCodecBuilder$Instance)
++ BlockState lambda$getBaseColumn$1(BlockState)
+- BlockState lambda$getBaseColumn$2(BlockState)
++ BlockState[] lambda$getBaseColumn$2(int)
+- BlockState[] lambda$getBaseColumn$3(int)
+- Registry lambda$static$0(FlatLevelSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk</summary>
+
+```diff
+- void <init>(int,int,int,NoiseRouter,int,int,DensityFunction,NoiseGeneratorSettings,Aquifer$FluidPicker,Blender)
++ void <init>(int,int,int,NoiseRouter,int,int,DensityFunctions$BeardifierOrMarker,NoiseGeneratorSettings,Aquifer$FluidPicker,Blender)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$BlendOffset</summary>
+
+```diff
++ Codec codec()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$Cache2D</summary>
+
+```diff
++ DensityFunctions$Marker$Type type()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$CacheOnce</summary>
+
+```diff
++ DensityFunctions$Marker$Type type()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
+
+```diff
++ BlockState defaultBlock()
++ BlockState defaultFluid()
+- BlockState getDefaultBlock()
+- BlockState getDefaultFluid()
++ boolean aquifersEnabled()
++ boolean equals(Object)
+- boolean isNoiseCavesEnabled()
+- boolean isNoodleCavesEnabled()
+- boolean isOreVeinsEnabled()
++ boolean oreVeinsEnabled()
++ int hashCode()
++ NoiseRouter createNoiseRouter(Registry,long)
++ NoiseRouterWithOnlyNoises noiseRouter()
+- RandomSource createRandomSource(long)
 + String toString()
+- StructureSettings structureSettings()
++ void <init>(NoiseSettings,BlockState,BlockState,NoiseRouterWithOnlyNoises,SurfaceRules$RuleSource,int,boolean,boolean,boolean,boolean)
+- void <init>(StructureSettings,NoiseSettings,BlockState,BlockState,SurfaceRules$RuleSource,int,boolean,boolean,boolean,boolean,boolean,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+<details><summary>net.minecraft.world.level.levelgen.NoiseRouterData</summary>
 
 ```diff
-+ ConfiguredStructureFeature feature
-- StructureFeature feature
-+ ConfiguredStructureFeature getFeature()
-+ void <init>(PiecesContainer)
-- StructureFeature getFeature()
-- void <init>(PiecesContainer)
++ DensityFunction entrances()
++ DensityFunction finalDensity(NoiseSettings,boolean,boolean,boolean)
++ DensityFunction getFunction(ResourceKey)
++ DensityFunction lambda$createNoiseRouter$2(PositionalRandomFactory,Registry,boolean,WorldgenRandom$Algorithm,long,NoiseSettings,DensityFunction)
++ DensityFunction lambda$createNoiseRouter$3(Map,DensityFunction$Visitor,DensityFunction)
++ DensityFunction noodle()
++ DensityFunction pillars()
++ DensityFunction register(ResourceKey,DensityFunction)
++ DensityFunction slopedCheese(DensityFunction,DensityFunction,DensityFunction,DensityFunction,DensityFunction,DensityFunction)
++ DensityFunction spaghetti2D()
++ DensityFunction spaghettiRoughnessFunction()
++ DensityFunction splineWithBlending(DensityFunction,DensityFunction,DensityFunction,DensityFunctions$TerrainShaperSpline$SplineType,double,double,DensityFunction)
+- DensityFunction splineWithBlending(DensityFunction,DensityFunction,DensityFunction,ToFloatFunction,double,double,DensityFunction)
++ DensityFunction underground(DensityFunction)
++ Holder bootstrap()
++ Holder getNoise(ResourceKey)
+- int lambda$createNoiseRouter$0(OreVeinifier$VeinType)
+- int lambda$createNoiseRouter$1(OreVeinifier$VeinType)
++ int lambda$noiseRouter$0(OreVeinifier$VeinType)
++ int lambda$noiseRouter$1(OreVeinifier$VeinType)
+- NoiseRouter createNoiseRouter(NoiseSettings,boolean,boolean,long,Registry,WorldgenRandom$Algorithm)
++ NoiseRouter createNoiseRouter(NoiseSettings,long,Registry,WorldgenRandom$Algorithm,NoiseRouterWithOnlyNoises)
++ NoiseRouterWithOnlyNoises end(NoiseSettings)
++ NoiseRouterWithOnlyNoises nether(NoiseSettings)
++ NoiseRouterWithOnlyNoises noiseRouter(NoiseSettings,boolean,boolean)
++ NoiseRouterWithOnlyNoises overworld(NoiseSettings)
++ NoiseRouterWithOnlyNoises overworldWithoutCaves(NoiseSettings)
++ NormalNoise seedNoise(PositionalRandomFactory,Registry,Holder)
++ ResourceKey createKey(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor</summary>
 
 ```diff
-+ NormalNoise$NoiseParameters parameters
-+ void <init>(NormalNoise$NoiseParameters,boolean)
-- NormalNoise create(DoubleList)
-- void <init>(DoubleList,boolean)
+- int value()
++ Record lambda$merge$0(Either)
+- VerticalAnchor lambda$merge$0(Either)
+- void <init>(int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$Absolute</summary>
 
 ```diff
-+ PerlinNoise createLegacyForLegacyNetherBiome(DoubleList)
-- PerlinNoise createLegacyForLegacyNormalNoise(DoubleList)
++ boolean equals(Object)
++ int hashCode()
++ int y()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
+<details><summary>net.minecraft.world.level.levelgen.WorldGenSettings</summary>
 
 ```diff
-+ TagKey DEFAULT_FEATURE
-+ TagKey destination
-- StructureFeature DEFAULT_FEATURE
-- StructureFeature destination
-+ void <init>(MapDecoration$Type,byte,int,boolean)
-- void <init>(MapDecoration$Type,byte,int,boolean)
++ FlatLevelGeneratorSettings lambda$create$2(Registry)
+- FlatLevelGeneratorSettings lambda$create$3(Registry)
+- String lambda$create$2(String)
++ WorldGenSettings create(RegistryAccess,DedicatedServerProperties$WorldGenProperties)
+- WorldGenSettings create(RegistryAccess,Properties)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
 
 ```diff
-+ TagKey readStructure(JsonObject)
-- StructureFeature readStructure(JsonObject)
++ BoundingBox adjustBoundingBox(BoundingBox)
++ ConfiguredStructureFeature lambda$static$1()
++ void <init>(StructureFeature,FeatureConfiguration,HolderSet,boolean,Map)
+- void <init>(StructureFeature,FeatureConfiguration,HolderSet)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
 
+```diff
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
 
+```diff
+- boolean isNearVillage(ChunkGenerator,long,ChunkPos)
+- void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
+```diff
+- App lambda$new$2(Codec,RecordCodecBuilder$Instance)
++ App lambda$new$4(Codec,RecordCodecBuilder$Instance)
++ Boolean lambda$new$1(ConfiguredStructureFeature)
+- BoundingBox adjustBoundingBox(BoundingBox)
++ ConfiguredStructureFeature configured(FeatureConfiguration,TagKey,boolean,Map)
++ ConfiguredStructureFeature configured(FeatureConfiguration,TagKey,boolean)
++ ConfiguredStructureFeature configured(FeatureConfiguration,TagKey,Map)
+- ConfiguredStructureFeature lambda$new$1(FeatureConfiguration,HolderSet)
++ ConfiguredStructureFeature lambda$new$3(FeatureConfiguration,HolderSet,Boolean,Map)
++ Map lambda$new$2(ConfiguredStructureFeature)
++ PieceGeneratorSupplier pieceGeneratorSupplier()
+- String getFeatureName()
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,FeatureConfiguration,LevelHeightAccessor,Predicate)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
 
+```diff
+- App lambda$static$4(RecordCodecBuilder$Instance)
++ App lambda$static$5(RecordCodecBuilder$Instance)
+- Boolean lambda$static$1(FlatLevelGeneratorSettings)
++ Boolean lambda$static$3(FlatLevelGeneratorSettings)
+- boolean lambda$updateLayers$5(BlockState)
++ boolean lambda$updateLayers$6(BlockState)
++ FlatLevelGeneratorSettings withLayers(List,Optional)
+- FlatLevelGeneratorSettings withLayers(List,StructureSettings)
+- FlatLevelGeneratorSettings withStructureSettings(StructureSettings)
++ Optional lambda$static$1(FlatLevelGeneratorSettings)
+- Optional lambda$static$3(FlatLevelGeneratorSettings)
++ Optional lambda$static$4(FlatLevelGeneratorSettings)
++ Optional structureOverrides()
+- StructureSettings structureSettings()
++ void <init>(Optional,Registry)
++ void <init>(Registry,Optional,List,boolean,boolean,Optional)
+- void <init>(Registry,StructureSettings,List,boolean,boolean,Optional)
+- void <init>(StructureSettings,Registry)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.blocks.BlockInput
@@ -9213,13 +6085,398 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
+
+```diff
++ LocationPredicate inFeature(ResourceKey)
+- LocationPredicate inFeature(StructureFeature)
++ ResourceKey lambda$fromJson$2(ResourceLocation)
++ void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,MinMaxBounds$Doubles,ResourceKey,ResourceKey,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
+- void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,MinMaxBounds$Doubles,ResourceKey,StructureFeature,ResourceKey,Boolean,LightPredicate,BlockPredicate,FluidPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
+
+```diff
++ CommandSyntaxException lambda$getAttribute$7(ResourceLocation)
+- CommandSyntaxException lambda$getAttribute$9(ResourceLocation)
++ CommandSyntaxException lambda$getRecipe$6(ResourceLocation)
+- CommandSyntaxException lambda$getRecipe$8(ResourceLocation)
+- CommandSyntaxException lambda$getRegistryType$10(DynamicCommandExceptionType,ResourceLocation)
++ CommandSyntaxException lambda$getRegistryType$8(DynamicCommandExceptionType,ResourceLocation)
+- Message lambda$static$6(Object)
+- Message lambda$static$7(Object)
+- ResourceLocationArgument$LocatedResource getBiome(CommandContext,String)
+- ResourceLocationArgument$LocatedResource getStructureFeature(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- BlockPos findNearestBiome(ResourceKey,BlockPos,int,int)
+- BlockPos findNearestMapFeature(StructureFeature,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(TagKey,BlockPos,int,boolean)
++ boolean lambda$clearBlockEvents$17(BoundingBox,BlockEventData)
+- boolean lambda$clearBlockEvents$18(BoundingBox,BlockEventData)
+- boolean lambda$findNearestBiome$13(ResourceKey,Holder)
+- List startsForFeature(SectionPos,StructureFeature)
++ Pair findNearestBiome(Predicate,BlockPos,int,int)
++ String lambda$getTypeCount$19(Object2IntMap$Entry)
+- String lambda$getTypeCount$20(Object2IntMap$Entry)
++ String lambda$getWatchdogStats$18(Entity)
+- String lambda$getWatchdogStats$19(Entity)
++ void lambda$makeObsidianPlatform$20(ServerLevel,BlockPos)
+- void lambda$makeObsidianPlatform$22(ServerLevel,BlockPos)
++ void lambda$onBlockStateChange$13(BlockPos)
++ void lambda$onBlockStateChange$14(BlockPos,PoiType)
+- void lambda$onBlockStateChange$14(BlockPos)
+- void lambda$onBlockStateChange$17(BlockPos,PoiType)
++ void lambda$onStructureStartsAvailable$22(ChunkAccess)
+- void lambda$onStructureStartsAvailable$23(ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
+- List startsForFeature(SectionPos,StructureFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity</summary>
+
+```diff
++ Codec codec()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Clamp</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ Codec codec()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$EndIslandDensityFunction</summary>
+
+```diff
++ Codec codec()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$ShiftB</summary>
+
+```diff
++ Codec codec()
++ DensityFunctions$ShiftB lambda$static$0(Holder)
++ DensityFunctions$ShiftNoise withNewNoise(NormalNoise)
++ Holder noiseData()
++ void <clinit>()
++ void <init>(Holder,NormalNoise)
+- void <init>(NormalNoise)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ Codec codec()
++ DensityFunctions$ShiftedNoise createUnseeded(DensityFunction,DensityFunction,DensityFunction,double,double,Holder)
++ Holder noiseData()
++ void <clinit>()
++ void <init>(DensityFunction,DensityFunction,DensityFunction,double,double,Holder,NormalNoise)
+- void <init>(DensityFunction,DensityFunction,DensityFunction,double,double,NormalNoise)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$TerrainShaperSpline</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ Codec codec()
++ DensityFunctions$TerrainShaperSpline createUnseeded(DensityFunction,DensityFunction,DensityFunction,DensityFunctions$TerrainShaperSpline$SplineType,double,double)
++ DensityFunctions$TerrainShaperSpline$SplineType spline()
++ TerrainShaper shaper()
+- ToFloatFunction spline()
++ void <clinit>()
++ void <init>(DensityFunction,DensityFunction,DensityFunction,TerrainShaper,DensityFunctions$TerrainShaperSpline$SplineType,double,double)
+- void <init>(DensityFunction,DensityFunction,DensityFunction,ToFloatFunction,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ Codec codec()
++ DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunction,Holder,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
++ DensityFunctions$WeirdScaledSampler$RarityValueMapper rarityValueMapper()
+- double maxRarity()
+- Double2DoubleFunction rarityValueMapper()
++ Holder noiseData()
++ void <clinit>()
++ void <init>(DensityFunction,Holder,NormalNoise,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
+- void <init>(DensityFunction,NormalNoise,Double2DoubleFunction,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSamplingSettings</summary>
+
+```diff
++ boolean equals(Object)
++ int hashCode()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
++ ConfiguredStructureFeature getFeature()
+- StructureFeature getFeature()
++ void <init>(ConfiguredStructureFeature,ChunkPos,int,PiecesContainer)
+- void <init>(StructureFeature,ChunkPos,int,PiecesContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
+
+```diff
+- NormalNoise create(RandomSource,int,DoubleList)
+- void <init>(RandomSource,int,DoubleList,boolean)
++ void <init>(RandomSource,NormalNoise$NoiseParameters,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+```diff
++ PerlinNoise createLegacyForLegacyNetherBiome(RandomSource,int,DoubleList)
+- PerlinNoise createLegacyForLegacyNormalNoise(RandomSource,int,DoubleList)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
+
+```diff
+- void <init>(LootItemCondition[],StructureFeature,MapDecoration$Type,byte,int,boolean)
++ void <init>(LootItemCondition[],TagKey,MapDecoration$Type,byte,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer</summary>
+
+```diff
+- StructureFeature readStructure(JsonObject)
++ TagKey readStructure(JsonObject)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
++ minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
++ minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
++ minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
++ minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
++ minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
++ minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
++ minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
++ minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
++ minecraft/tags/worldgen/configured_structure_feature/village.json
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json
++ reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json
++ reports/worldgen/minecraft/worldgen/density_function/shift_x.json
++ reports/worldgen/minecraft/worldgen/density_function/shift_z.json
++ reports/worldgen/minecraft/worldgen/density_function/y.json
++ reports/worldgen/minecraft/worldgen/density_function/zero.json
++ reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json
++ reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json
++ reports/worldgen/minecraft/worldgen/structure_set/end_cities.json
++ reports/worldgen/minecraft/worldgen/structure_set/igloos.json
++ reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json
++ reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json
++ reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json
++ reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json
++ reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json
++ reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json
++ reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json
++ reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json
++ reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json
++ reports/worldgen/minecraft/worldgen/structure_set/strongholds.json
++ reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json
++ reports/worldgen/minecraft/worldgen/structure_set/villages.json
++ reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/density_function_type.txt
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>locate.txt</summary>
+
+```diff
+- locate <structure: resource_location>
++ locate <structure: resource_or_tag>
+```
+
+</details>
+
+
+<details><summary>locatebiome.txt</summary>
+
+```diff
+- locatebiome <biome: resource_location>
++ locatebiome <biome: resource_or_tag>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/configured_structure_feature/dolphin_located.json
++ worldgen/configured_structure_feature/eye_of_ender_located.json
++ worldgen/configured_structure_feature/mineshaft.json
++ worldgen/configured_structure_feature/ocean_ruin.json
++ worldgen/configured_structure_feature/on_ocean_explorer_maps.json
++ worldgen/configured_structure_feature/on_treasure_maps.json
++ worldgen/configured_structure_feature/on_woodland_explorer_maps.json
++ worldgen/configured_structure_feature/ruined_portal.json
++ worldgen/configured_structure_feature/shipwreck.json
++ worldgen/configured_structure_feature/village.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ title.32bit.deprecation
++ title.32bit.deprecation.realms
++ title.32bit.deprecation.realms.check
++ title.32bit.deprecation.realms.header
+- title.oldgl.deprecation.line1
+- title.oldgl.deprecation.line2
+- title.oldgl.eol.line1
+- title.oldgl.eol.line2
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ worldgen/configured_structure_feature/dolphin_located.json
++ worldgen/configured_structure_feature/eye_of_ender_located.json
++ worldgen/configured_structure_feature/mineshaft.json
++ worldgen/configured_structure_feature/ocean_ruin.json
++ worldgen/configured_structure_feature/on_ocean_explorer_maps.json
++ worldgen/configured_structure_feature/on_treasure_maps.json
++ worldgen/configured_structure_feature/on_woodland_explorer_maps.json
++ worldgen/configured_structure_feature/ruined_portal.json
++ worldgen/configured_structure_feature/shipwreck.json
++ worldgen/configured_structure_feature/village.json
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:resource_or_tag
+```
+
+</details>

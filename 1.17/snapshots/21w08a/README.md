@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w08a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w08a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-02-24T14:38:51+00:00</td></tr>
@@ -10,3783 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/64b781c30f7fa920c721838f53510861ca3f8d4a/server.txt">https://piston-data.mojang.com/v1/objects/64b781c30f7fa920c721838f53510861ca3f8d4a/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/3a008c012bd6bba29054701c7797493523660c57/client.jar">https://piston-data.mojang.com/v1/objects/3a008c012bd6bba29054701c7797493523660c57/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1da14ea7ad1926496e9abdf38302766fb7dbe968/client.txt">https://piston-data.mojang.com/v1/objects/1da14ea7ad1926496e9abdf38302766fb7dbe968/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w07a">21w07a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/chiseled_deepslate.json
-+  minecraft/advancements/recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/chiseled_grimstone.json
--  minecraft/advancements/recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cobbled_deepslate_slab.json
-+  minecraft/advancements/recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cobbled_deepslate_stairs.json
-+  minecraft/advancements/recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_slab.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_slab.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs.json
-+  minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_brick_slab.json
--  minecraft/advancements/recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs.json
--  minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_slab.json
--  minecraft/advancements/recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_stairs.json
--  minecraft/advancements/recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_tile_slab.json
--  minecraft/advancements/recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs.json
--  minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_slab.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs.json
-+  minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_grimstone.json
--  minecraft/advancements/recipes/building_blocks/polished_grimstone_slab.json
--  minecraft/advancements/recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs.json
--  minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/smooth_basalt.json
-+  minecraft/advancements/recipes/decorations/cobbled_deepslate_wall.json
-+  minecraft/advancements/recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_brick_wall.json
-+  minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
-+  minecraft/advancements/recipes/decorations/deepslate_tile_wall.json
-+  minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
--  minecraft/advancements/recipes/decorations/grimstone_brick_wall.json
--  minecraft/advancements/recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
--  minecraft/advancements/recipes/decorations/grimstone_tile_wall.json
--  minecraft/advancements/recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
--  minecraft/advancements/recipes/decorations/grimstone_wall.json
--  minecraft/advancements/recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
--  minecraft/advancements/recipes/decorations/honey_block.json
-+  minecraft/advancements/recipes/decorations/polished_deepslate_wall.json
-+  minecraft/advancements/recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
--  minecraft/advancements/recipes/decorations/polished_grimstone_wall.json
--  minecraft/advancements/recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
--  minecraft/advancements/recipes/decorations/slime_block.json
-+  minecraft/advancements/recipes/redstone/honey_block.json
-+  minecraft/advancements/recipes/redstone/slime_block.json
-+  minecraft/loot_tables/blocks/chiseled_deepslate.json
--  minecraft/loot_tables/blocks/chiseled_grimstone.json
-+  minecraft/loot_tables/blocks/cobbled_deepslate.json
-+  minecraft/loot_tables/blocks/cobbled_deepslate_slab.json
-+  minecraft/loot_tables/blocks/cobbled_deepslate_stairs.json
-+  minecraft/loot_tables/blocks/cobbled_deepslate_wall.json
-+  minecraft/loot_tables/blocks/deepslate.json
-+  minecraft/loot_tables/blocks/deepslate_brick_slab.json
-+  minecraft/loot_tables/blocks/deepslate_brick_stairs.json
-+  minecraft/loot_tables/blocks/deepslate_brick_wall.json
-+  minecraft/loot_tables/blocks/deepslate_bricks.json
-+  minecraft/loot_tables/blocks/deepslate_diamond_ore.json
-+  minecraft/loot_tables/blocks/deepslate_gold_ore.json
-+  minecraft/loot_tables/blocks/deepslate_iron_ore.json
-+  minecraft/loot_tables/blocks/deepslate_lapis_ore.json
-+  minecraft/loot_tables/blocks/deepslate_redstone_ore.json
-+  minecraft/loot_tables/blocks/deepslate_tile_slab.json
-+  minecraft/loot_tables/blocks/deepslate_tile_stairs.json
-+  minecraft/loot_tables/blocks/deepslate_tile_wall.json
-+  minecraft/loot_tables/blocks/deepslate_tiles.json
--  minecraft/loot_tables/blocks/grimstone.json
--  minecraft/loot_tables/blocks/grimstone_brick_slab.json
--  minecraft/loot_tables/blocks/grimstone_brick_stairs.json
--  minecraft/loot_tables/blocks/grimstone_brick_wall.json
--  minecraft/loot_tables/blocks/grimstone_bricks.json
--  minecraft/loot_tables/blocks/grimstone_slab.json
--  minecraft/loot_tables/blocks/grimstone_stairs.json
--  minecraft/loot_tables/blocks/grimstone_tile_slab.json
--  minecraft/loot_tables/blocks/grimstone_tile_stairs.json
--  minecraft/loot_tables/blocks/grimstone_tile_wall.json
--  minecraft/loot_tables/blocks/grimstone_tiles.json
--  minecraft/loot_tables/blocks/grimstone_wall.json
-+  minecraft/loot_tables/blocks/polished_deepslate.json
-+  minecraft/loot_tables/blocks/polished_deepslate_slab.json
-+  minecraft/loot_tables/blocks/polished_deepslate_stairs.json
-+  minecraft/loot_tables/blocks/polished_deepslate_wall.json
--  minecraft/loot_tables/blocks/polished_grimstone.json
--  minecraft/loot_tables/blocks/polished_grimstone_slab.json
--  minecraft/loot_tables/blocks/polished_grimstone_stairs.json
--  minecraft/loot_tables/blocks/polished_grimstone_wall.json
-+  minecraft/loot_tables/blocks/smooth_basalt.json
-+  minecraft/recipes/chiseled_deepslate.json
-+  minecraft/recipes/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
--  minecraft/recipes/chiseled_grimstone.json
--  minecraft/recipes/chiseled_grimstone_from_grimstone_stonecutting.json
-+  minecraft/recipes/cobbled_deepslate_slab.json
-+  minecraft/recipes/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/cobbled_deepslate_stairs.json
-+  minecraft/recipes/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/cobbled_deepslate_wall.json
-+  minecraft/recipes/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-+  minecraft/recipes/deepslate_brick_slab.json
-+  minecraft/recipes/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_brick_stairs.json
-+  minecraft/recipes/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_brick_wall.json
-+  minecraft/recipes/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
-+  minecraft/recipes/deepslate_tile_slab.json
-+  minecraft/recipes/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
-+  minecraft/recipes/deepslate_tile_stairs.json
-+  minecraft/recipes/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
-+  minecraft/recipes/deepslate_tile_wall.json
-+  minecraft/recipes/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
--  minecraft/recipes/grimstone_brick_slab.json
--  minecraft/recipes/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
--  minecraft/recipes/grimstone_brick_stairs.json
--  minecraft/recipes/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
--  minecraft/recipes/grimstone_brick_wall.json
--  minecraft/recipes/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
--  minecraft/recipes/grimstone_slab.json
--  minecraft/recipes/grimstone_slab_from_grimstone_stonecutting.json
--  minecraft/recipes/grimstone_stairs.json
--  minecraft/recipes/grimstone_stairs_from_grimstone_stonecutting.json
--  minecraft/recipes/grimstone_tile_slab.json
--  minecraft/recipes/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
--  minecraft/recipes/grimstone_tile_stairs.json
--  minecraft/recipes/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
--  minecraft/recipes/grimstone_tile_wall.json
--  minecraft/recipes/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
--  minecraft/recipes/grimstone_wall.json
--  minecraft/recipes/grimstone_wall_from_grimstone_stonecutting.json
-+  minecraft/recipes/polished_deepslate.json
-+  minecraft/recipes/polished_deepslate_slab.json
-+  minecraft/recipes/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_stairs.json
-+  minecraft/recipes/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
-+  minecraft/recipes/polished_deepslate_wall.json
-+  minecraft/recipes/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
--  minecraft/recipes/polished_grimstone.json
--  minecraft/recipes/polished_grimstone_slab.json
--  minecraft/recipes/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
--  minecraft/recipes/polished_grimstone_stairs.json
--  minecraft/recipes/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
--  minecraft/recipes/polished_grimstone_wall.json
--  minecraft/recipes/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-+  minecraft/recipes/smooth_basalt.json
-+  minecraft/tags/blocks/deepslate_ore_replaceables.json
-+  minecraft/tags/blocks/diamond_ores.json
-+  minecraft/tags/blocks/iron_ores.json
-+  minecraft/tags/blocks/lapis_ores.json
-+  minecraft/tags/blocks/redstone_ores.json
-+  minecraft/tags/blocks/stone_ore_replaceables.json
-+  minecraft/tags/items/diamond_ores.json
-+  minecraft/tags/items/iron_ores.json
-+  minecraft/tags/items/lapis_ores.json
-+  minecraft/tags/items/redstone_ores.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/chiseled_deepslate.json
--  minecraft/blockstates/chiseled_grimstone.json
-+  minecraft/blockstates/cobbled_deepslate.json
-+  minecraft/blockstates/cobbled_deepslate_slab.json
-+  minecraft/blockstates/cobbled_deepslate_stairs.json
-+  minecraft/blockstates/cobbled_deepslate_wall.json
-+  minecraft/blockstates/deepslate.json
-+  minecraft/blockstates/deepslate_brick_slab.json
-+  minecraft/blockstates/deepslate_brick_stairs.json
-+  minecraft/blockstates/deepslate_brick_wall.json
-+  minecraft/blockstates/deepslate_bricks.json
-+  minecraft/blockstates/deepslate_diamond_ore.json
-+  minecraft/blockstates/deepslate_gold_ore.json
-+  minecraft/blockstates/deepslate_iron_ore.json
-+  minecraft/blockstates/deepslate_lapis_ore.json
-+  minecraft/blockstates/deepslate_redstone_ore.json
-+  minecraft/blockstates/deepslate_tile_slab.json
-+  minecraft/blockstates/deepslate_tile_stairs.json
-+  minecraft/blockstates/deepslate_tile_wall.json
-+  minecraft/blockstates/deepslate_tiles.json
--  minecraft/blockstates/grimstone.json
--  minecraft/blockstates/grimstone_brick_slab.json
--  minecraft/blockstates/grimstone_brick_stairs.json
--  minecraft/blockstates/grimstone_brick_wall.json
--  minecraft/blockstates/grimstone_bricks.json
--  minecraft/blockstates/grimstone_slab.json
--  minecraft/blockstates/grimstone_stairs.json
--  minecraft/blockstates/grimstone_tile_slab.json
--  minecraft/blockstates/grimstone_tile_stairs.json
--  minecraft/blockstates/grimstone_tile_wall.json
--  minecraft/blockstates/grimstone_tiles.json
--  minecraft/blockstates/grimstone_wall.json
-+  minecraft/blockstates/polished_deepslate.json
-+  minecraft/blockstates/polished_deepslate_slab.json
-+  minecraft/blockstates/polished_deepslate_stairs.json
-+  minecraft/blockstates/polished_deepslate_wall.json
--  minecraft/blockstates/polished_grimstone.json
--  minecraft/blockstates/polished_grimstone_slab.json
--  minecraft/blockstates/polished_grimstone_stairs.json
--  minecraft/blockstates/polished_grimstone_wall.json
-+  minecraft/blockstates/smooth_basalt.json
-+  minecraft/models/block/chiseled_deepslate.json
--  minecraft/models/block/chiseled_grimstone.json
-+  minecraft/models/block/cobbled_deepslate.json
-+  minecraft/models/block/cobbled_deepslate_mirrored.json
-+  minecraft/models/block/cobbled_deepslate_slab.json
-+  minecraft/models/block/cobbled_deepslate_slab_top.json
-+  minecraft/models/block/cobbled_deepslate_stairs.json
-+  minecraft/models/block/cobbled_deepslate_stairs_inner.json
-+  minecraft/models/block/cobbled_deepslate_stairs_outer.json
-+  minecraft/models/block/cobbled_deepslate_wall_inventory.json
-+  minecraft/models/block/cobbled_deepslate_wall_post.json
-+  minecraft/models/block/cobbled_deepslate_wall_side.json
-+  minecraft/models/block/cobbled_deepslate_wall_side_tall.json
-+  minecraft/models/block/cube_column_mirrored.json
-+  minecraft/models/block/deepslate.json
-+  minecraft/models/block/deepslate_brick_slab.json
-+  minecraft/models/block/deepslate_brick_slab_top.json
-+  minecraft/models/block/deepslate_brick_stairs.json
-+  minecraft/models/block/deepslate_brick_stairs_inner.json
-+  minecraft/models/block/deepslate_brick_stairs_outer.json
-+  minecraft/models/block/deepslate_brick_wall_inventory.json
-+  minecraft/models/block/deepslate_brick_wall_post.json
-+  minecraft/models/block/deepslate_brick_wall_side.json
-+  minecraft/models/block/deepslate_brick_wall_side_tall.json
-+  minecraft/models/block/deepslate_bricks.json
-+  minecraft/models/block/deepslate_diamond_ore.json
-+  minecraft/models/block/deepslate_gold_ore.json
-+  minecraft/models/block/deepslate_iron_ore.json
-+  minecraft/models/block/deepslate_lapis_ore.json
-+  minecraft/models/block/deepslate_mirrored.json
-+  minecraft/models/block/deepslate_redstone_ore.json
-+  minecraft/models/block/deepslate_tile_slab.json
-+  minecraft/models/block/deepslate_tile_slab_top.json
-+  minecraft/models/block/deepslate_tile_stairs.json
-+  minecraft/models/block/deepslate_tile_stairs_inner.json
-+  minecraft/models/block/deepslate_tile_stairs_outer.json
-+  minecraft/models/block/deepslate_tile_wall_inventory.json
-+  minecraft/models/block/deepslate_tile_wall_post.json
-+  minecraft/models/block/deepslate_tile_wall_side.json
-+  minecraft/models/block/deepslate_tile_wall_side_tall.json
-+  minecraft/models/block/deepslate_tiles.json
--  minecraft/models/block/grimstone.json
--  minecraft/models/block/grimstone_brick_slab.json
--  minecraft/models/block/grimstone_brick_slab_top.json
--  minecraft/models/block/grimstone_brick_stairs.json
--  minecraft/models/block/grimstone_brick_stairs_inner.json
--  minecraft/models/block/grimstone_brick_stairs_outer.json
--  minecraft/models/block/grimstone_brick_wall_inventory.json
--  minecraft/models/block/grimstone_brick_wall_post.json
--  minecraft/models/block/grimstone_brick_wall_side.json
--  minecraft/models/block/grimstone_brick_wall_side_tall.json
--  minecraft/models/block/grimstone_bricks.json
--  minecraft/models/block/grimstone_mirrored.json
--  minecraft/models/block/grimstone_slab.json
--  minecraft/models/block/grimstone_slab_top.json
--  minecraft/models/block/grimstone_stairs.json
--  minecraft/models/block/grimstone_stairs_inner.json
--  minecraft/models/block/grimstone_stairs_outer.json
--  minecraft/models/block/grimstone_tile_slab.json
--  minecraft/models/block/grimstone_tile_slab_top.json
--  minecraft/models/block/grimstone_tile_stairs.json
--  minecraft/models/block/grimstone_tile_stairs_inner.json
--  minecraft/models/block/grimstone_tile_stairs_outer.json
--  minecraft/models/block/grimstone_tile_wall_inventory.json
--  minecraft/models/block/grimstone_tile_wall_post.json
--  minecraft/models/block/grimstone_tile_wall_side.json
--  minecraft/models/block/grimstone_tile_wall_side_tall.json
--  minecraft/models/block/grimstone_tiles.json
--  minecraft/models/block/grimstone_wall_inventory.json
--  minecraft/models/block/grimstone_wall_post.json
--  minecraft/models/block/grimstone_wall_side.json
--  minecraft/models/block/grimstone_wall_side_tall.json
-+  minecraft/models/block/polished_deepslate.json
-+  minecraft/models/block/polished_deepslate_slab.json
-+  minecraft/models/block/polished_deepslate_slab_top.json
-+  minecraft/models/block/polished_deepslate_stairs.json
-+  minecraft/models/block/polished_deepslate_stairs_inner.json
-+  minecraft/models/block/polished_deepslate_stairs_outer.json
-+  minecraft/models/block/polished_deepslate_wall_inventory.json
-+  minecraft/models/block/polished_deepslate_wall_post.json
-+  minecraft/models/block/polished_deepslate_wall_side.json
-+  minecraft/models/block/polished_deepslate_wall_side_tall.json
--  minecraft/models/block/polished_grimstone.json
--  minecraft/models/block/polished_grimstone_slab.json
--  minecraft/models/block/polished_grimstone_slab_top.json
--  minecraft/models/block/polished_grimstone_stairs.json
--  minecraft/models/block/polished_grimstone_stairs_inner.json
--  minecraft/models/block/polished_grimstone_stairs_outer.json
--  minecraft/models/block/polished_grimstone_wall_inventory.json
--  minecraft/models/block/polished_grimstone_wall_post.json
--  minecraft/models/block/polished_grimstone_wall_side.json
--  minecraft/models/block/polished_grimstone_wall_side_tall.json
-+  minecraft/models/block/smooth_basalt.json
-+  minecraft/models/item/chiseled_deepslate.json
--  minecraft/models/item/chiseled_grimstone.json
-+  minecraft/models/item/cobbled_deepslate.json
-+  minecraft/models/item/cobbled_deepslate_slab.json
-+  minecraft/models/item/cobbled_deepslate_stairs.json
-+  minecraft/models/item/cobbled_deepslate_wall.json
-+  minecraft/models/item/deepslate.json
-+  minecraft/models/item/deepslate_brick_slab.json
-+  minecraft/models/item/deepslate_brick_stairs.json
-+  minecraft/models/item/deepslate_brick_wall.json
-+  minecraft/models/item/deepslate_bricks.json
-+  minecraft/models/item/deepslate_diamond_ore.json
-+  minecraft/models/item/deepslate_gold_ore.json
-+  minecraft/models/item/deepslate_iron_ore.json
-+  minecraft/models/item/deepslate_lapis_ore.json
-+  minecraft/models/item/deepslate_redstone_ore.json
-+  minecraft/models/item/deepslate_tile_slab.json
-+  minecraft/models/item/deepslate_tile_stairs.json
-+  minecraft/models/item/deepslate_tile_wall.json
-+  minecraft/models/item/deepslate_tiles.json
--  minecraft/models/item/grimstone.json
--  minecraft/models/item/grimstone_brick_slab.json
--  minecraft/models/item/grimstone_brick_stairs.json
--  minecraft/models/item/grimstone_brick_wall.json
--  minecraft/models/item/grimstone_bricks.json
--  minecraft/models/item/grimstone_slab.json
--  minecraft/models/item/grimstone_stairs.json
--  minecraft/models/item/grimstone_tile_slab.json
--  minecraft/models/item/grimstone_tile_stairs.json
--  minecraft/models/item/grimstone_tile_wall.json
--  minecraft/models/item/grimstone_tiles.json
--  minecraft/models/item/grimstone_wall.json
-+  minecraft/models/item/polished_deepslate.json
-+  minecraft/models/item/polished_deepslate_slab.json
-+  minecraft/models/item/polished_deepslate_stairs.json
-+  minecraft/models/item/polished_deepslate_wall.json
--  minecraft/models/item/polished_grimstone.json
--  minecraft/models/item/polished_grimstone_slab.json
--  minecraft/models/item/polished_grimstone_stairs.json
--  minecraft/models/item/polished_grimstone_wall.json
-+  minecraft/models/item/smooth_basalt.json
-+  minecraft/textures/block/chiseled_deepslate.png
--  minecraft/textures/block/chiseled_grimstone.png
-+  minecraft/textures/block/cobbled_deepslate.png
-+  minecraft/textures/block/deepslate.png
-+  minecraft/textures/block/deepslate_bricks.png
-+  minecraft/textures/block/deepslate_diamond_ore.png
-+  minecraft/textures/block/deepslate_gold_ore.png
-+  minecraft/textures/block/deepslate_iron_ore.png
-+  minecraft/textures/block/deepslate_lapis_ore.png
-+  minecraft/textures/block/deepslate_redstone_ore.png
-+  minecraft/textures/block/deepslate_tiles.png
-+  minecraft/textures/block/deepslate_top.png
--  minecraft/textures/block/grimstone.png
--  minecraft/textures/block/grimstone_bricks.png
--  minecraft/textures/block/grimstone_tiles.png
-+  minecraft/textures/block/polished_deepslate.png
--  minecraft/textures/block/polished_grimstone.png
-+  minecraft/textures/block/smooth_basalt.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ worldgen/float_provider_type.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:grimstone
-- minecraft:grimstone_stairs
-- minecraft:grimstone_slab
-- minecraft:grimstone_wall
-- minecraft:polished_grimstone
-- minecraft:polished_grimstone_stairs
-- minecraft:polished_grimstone_slab
-- minecraft:polished_grimstone_wall
-- minecraft:grimstone_tiles
-- minecraft:grimstone_tile_stairs
-- minecraft:grimstone_tile_slab
-- minecraft:grimstone_tile_wall
-- minecraft:grimstone_bricks
-- minecraft:grimstone_brick_stairs
-- minecraft:grimstone_brick_slab
-- minecraft:grimstone_brick_wall
-- minecraft:chiseled_grimstone
-+ minecraft:deepslate_gold_ore
-+ minecraft:deepslate_iron_ore
-+ minecraft:deepslate_lapis_ore
-+ minecraft:deepslate_diamond_ore
-+ minecraft:deepslate_redstone_ore
-+ minecraft:deepslate
-+ minecraft:cobbled_deepslate
-+ minecraft:cobbled_deepslate_stairs
-+ minecraft:cobbled_deepslate_slab
-+ minecraft:cobbled_deepslate_wall
-+ minecraft:polished_deepslate
-+ minecraft:polished_deepslate_stairs
-+ minecraft:polished_deepslate_slab
-+ minecraft:polished_deepslate_wall
-+ minecraft:deepslate_tiles
-+ minecraft:deepslate_tile_stairs
-+ minecraft:deepslate_tile_slab
-+ minecraft:deepslate_tile_wall
-+ minecraft:deepslate_bricks
-+ minecraft:deepslate_brick_stairs
-+ minecraft:deepslate_brick_slab
-+ minecraft:deepslate_brick_wall
-+ minecraft:chiseled_deepslate
-+ minecraft:smooth_basalt
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:grimstone
-- minecraft:polished_grimstone
-- minecraft:grimstone_bricks
-- minecraft:grimstone_tiles
-- minecraft:chiseled_grimstone
-- minecraft:grimstone_wall
-- minecraft:polished_grimstone_wall
-- minecraft:grimstone_tile_wall
-- minecraft:grimstone_brick_wall
-- minecraft:grimstone_stairs
-- minecraft:polished_grimstone_stairs
-- minecraft:grimstone_tile_stairs
-- minecraft:grimstone_brick_stairs
-- minecraft:polished_grimstone_slab
-- minecraft:grimstone_slab
-- minecraft:grimstone_tile_slab
-- minecraft:grimstone_brick_slab
-+ minecraft:deepslate
-+ minecraft:cobbled_deepslate
-+ minecraft:polished_deepslate
-+ minecraft:deepslate_gold_ore
-+ minecraft:deepslate_iron_ore
-+ minecraft:deepslate_lapis_ore
-+ minecraft:deepslate_diamond_ore
-+ minecraft:deepslate_redstone_ore
-+ minecraft:smooth_basalt
-+ minecraft:deepslate_bricks
-+ minecraft:deepslate_tiles
-+ minecraft:chiseled_deepslate
-+ minecraft:cobbled_deepslate_wall
-+ minecraft:polished_deepslate_wall
-+ minecraft:deepslate_tile_wall
-+ minecraft:deepslate_brick_wall
-+ minecraft:cobbled_deepslate_stairs
-+ minecraft:polished_deepslate_stairs
-+ minecraft:deepslate_tile_stairs
-+ minecraft:deepslate_brick_stairs
-+ minecraft:polished_deepslate_slab
-+ minecraft:cobbled_deepslate_slab
-+ minecraft:deepslate_tile_slab
-+ minecraft:deepslate_brick_slab
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.deepslate_bricks.break
-+ minecraft:block.deepslate_bricks.fall
-+ minecraft:block.deepslate_bricks.hit
-+ minecraft:block.deepslate_bricks.place
-+ minecraft:block.deepslate_bricks.step
-+ minecraft:block.deepslate.break
-+ minecraft:block.deepslate.fall
-+ minecraft:block.deepslate.hit
-+ minecraft:block.deepslate.place
-+ minecraft:block.deepslate.step
-+ minecraft:block.deepslate_tiles.break
-+ minecraft:block.deepslate_tiles.fall
-+ minecraft:block.deepslate_tiles.hit
-+ minecraft:block.deepslate_tiles.place
-+ minecraft:block.deepslate_tiles.step
-+ minecraft:block.polished_deepslate.break
-+ minecraft:block.polished_deepslate.fall
-+ minecraft:block.polished_deepslate.hit
-+ minecraft:block.polished_deepslate.place
-+ minecraft:block.polished_deepslate.step
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:no_surface_ore
-+ minecraft:scattered_ore
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/deepslate_ore_replaceables.json
-+ blocks/diamond_ores.json
-+ blocks/iron_ores.json
-+ blocks/lapis_ores.json
-+ blocks/redstone_ores.json
-+ blocks/stone_ore_replaceables.json
-+ items/diamond_ores.json
-+ items/iron_ores.json
-+ items/lapis_ores.json
-+ items/redstone_ores.json
-```
-
-</details>
-
-<details><summary>blocks/base_stone_overworld.json</summary>
-
-```diff
-- minecraft:grimstone
-+ minecraft:tuff
-+ minecraft:deepslate
-```
-
-</details>
-
-<details><summary>blocks/gold_ores.json</summary>
-
-```diff
-+ minecraft:deepslate_gold_ore
-```
-
-</details>
-
-<details><summary>blocks/slabs.json</summary>
-
-```diff
-- minecraft:grimstone_slab
-- minecraft:polished_grimstone_slab
-- minecraft:grimstone_tile_slab
-- minecraft:grimstone_brick_slab
-+ minecraft:cobbled_deepslate_slab
-+ minecraft:polished_deepslate_slab
-+ minecraft:deepslate_tile_slab
-+ minecraft:deepslate_brick_slab
-```
-
-</details>
-
-<details><summary>blocks/stairs.json</summary>
-
-```diff
-- minecraft:grimstone_stairs
-- minecraft:polished_grimstone_stairs
-- minecraft:grimstone_tile_stairs
-- minecraft:grimstone_brick_stairs
-+ minecraft:cobbled_deepslate_stairs
-+ minecraft:polished_deepslate_stairs
-+ minecraft:deepslate_tile_stairs
-+ minecraft:deepslate_brick_stairs
-```
-
-</details>
-
-<details><summary>blocks/walls.json</summary>
-
-```diff
-- minecraft:grimstone_wall
-- minecraft:polished_grimstone_wall
-- minecraft:grimstone_tile_wall
-- minecraft:grimstone_brick_wall
-+ minecraft:cobbled_deepslate_wall
-+ minecraft:polished_deepslate_wall
-+ minecraft:deepslate_tile_wall
-+ minecraft:deepslate_brick_wall
-```
-
-</details>
-
-<details><summary>items/gold_ores.json</summary>
-
-```diff
-+ minecraft:deepslate_gold_ore
-```
-
-</details>
-
-<details><summary>items/slabs.json</summary>
-
-```diff
-- minecraft:grimstone_slab
-- minecraft:polished_grimstone_slab
-- minecraft:grimstone_tile_slab
-- minecraft:grimstone_brick_slab
-+ minecraft:cobbled_deepslate_slab
-+ minecraft:polished_deepslate_slab
-+ minecraft:deepslate_tile_slab
-+ minecraft:deepslate_brick_slab
-```
-
-</details>
-
-<details><summary>items/stairs.json</summary>
-
-```diff
-- minecraft:grimstone_stairs
-- minecraft:polished_grimstone_stairs
-- minecraft:grimstone_tile_stairs
-- minecraft:grimstone_brick_stairs
-+ minecraft:cobbled_deepslate_stairs
-+ minecraft:polished_deepslate_stairs
-+ minecraft:deepslate_tile_stairs
-+ minecraft:deepslate_brick_stairs
-```
-
-</details>
-
-<details><summary>items/stone_crafting_materials.json</summary>
-
-```diff
-- minecraft:grimstone
-+ minecraft:cobbled_deepslate
-```
-
-</details>
-
-<details><summary>items/stone_tool_materials.json</summary>
-
-```diff
-- minecraft:grimstone
-+ minecraft:cobbled_deepslate
-```
-
-</details>
-
-<details><summary>items/walls.json</summary>
-
-```diff
-- minecraft:grimstone_wall
-- minecraft:polished_grimstone_wall
-- minecraft:grimstone_tile_wall
-- minecraft:grimstone_brick_wall
-+ minecraft:cobbled_deepslate_wall
-+ minecraft:polished_deepslate_wall
-+ minecraft:deepslate_tile_wall
-+ minecraft:deepslate_brick_wall
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/chiseled_grimstone.json
-- recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
-- recipes/building_blocks/grimstone_brick_slab.json
-- recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-- recipes/building_blocks/grimstone_brick_stairs.json
-- recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-- recipes/building_blocks/grimstone_slab.json
-- recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
-- recipes/building_blocks/grimstone_stairs.json
-- recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
-- recipes/building_blocks/grimstone_tile_slab.json
-- recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-- recipes/building_blocks/grimstone_tile_stairs.json
-- recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-- recipes/building_blocks/polished_grimstone.json
-- recipes/building_blocks/polished_grimstone_slab.json
-- recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-- recipes/building_blocks/polished_grimstone_stairs.json
-- recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-- recipes/decorations/grimstone_brick_wall.json
-- recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-- recipes/decorations/grimstone_tile_wall.json
-- recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-- recipes/decorations/grimstone_wall.json
-- recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
-- recipes/decorations/honey_block.json
-- recipes/decorations/polished_grimstone_wall.json
-- recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-- recipes/decorations/slime_block.json
-+ recipes/building_blocks/chiseled_deepslate.json
-+ recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/cobbled_deepslate_slab.json
-+ recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/cobbled_deepslate_stairs.json
-+ recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_slab.json
-+ recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
-+ recipes/building_blocks/deepslate_brick_stairs.json
-+ recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_slab.json
-+ recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
-+ recipes/building_blocks/deepslate_tile_stairs.json
-+ recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
-+ recipes/building_blocks/polished_deepslate.json
-+ recipes/building_blocks/polished_deepslate_slab.json
-+ recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/polished_deepslate_stairs.json
-+ recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
-+ recipes/building_blocks/smooth_basalt.json
-+ recipes/decorations/cobbled_deepslate_wall.json
-+ recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-+ recipes/decorations/deepslate_brick_wall.json
-+ recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
-+ recipes/decorations/deepslate_tile_wall.json
-+ recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
-+ recipes/decorations/polished_deepslate_wall.json
-+ recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
-+ recipes/redstone/honey_block.json
-+ recipes/redstone/slime_block.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/chiseled_grimstone.json
-- blocks/grimstone.json
-- blocks/grimstone_bricks.json
-- blocks/grimstone_brick_slab.json
-- blocks/grimstone_brick_stairs.json
-- blocks/grimstone_brick_wall.json
-- blocks/grimstone_slab.json
-- blocks/grimstone_stairs.json
-- blocks/grimstone_tiles.json
-- blocks/grimstone_tile_slab.json
-- blocks/grimstone_tile_stairs.json
-- blocks/grimstone_tile_wall.json
-- blocks/grimstone_wall.json
-- blocks/polished_grimstone.json
-- blocks/polished_grimstone_slab.json
-- blocks/polished_grimstone_stairs.json
-- blocks/polished_grimstone_wall.json
-+ blocks/chiseled_deepslate.json
-+ blocks/cobbled_deepslate.json
-+ blocks/cobbled_deepslate_slab.json
-+ blocks/cobbled_deepslate_stairs.json
-+ blocks/cobbled_deepslate_wall.json
-+ blocks/deepslate.json
-+ blocks/deepslate_bricks.json
-+ blocks/deepslate_brick_slab.json
-+ blocks/deepslate_brick_stairs.json
-+ blocks/deepslate_brick_wall.json
-+ blocks/deepslate_diamond_ore.json
-+ blocks/deepslate_gold_ore.json
-+ blocks/deepslate_iron_ore.json
-+ blocks/deepslate_lapis_ore.json
-+ blocks/deepslate_redstone_ore.json
-+ blocks/deepslate_tiles.json
-+ blocks/deepslate_tile_slab.json
-+ blocks/deepslate_tile_stairs.json
-+ blocks/deepslate_tile_wall.json
-+ blocks/polished_deepslate.json
-+ blocks/polished_deepslate_slab.json
-+ blocks/polished_deepslate_stairs.json
-+ blocks/polished_deepslate_wall.json
-+ blocks/smooth_basalt.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- chiseled_grimstone.json
-- chiseled_grimstone_from_grimstone_stonecutting.json
-- grimstone_brick_slab.json
-- grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-- grimstone_brick_stairs.json
-- grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-- grimstone_brick_wall.json
-- grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-- grimstone_slab.json
-- grimstone_slab_from_grimstone_stonecutting.json
-- grimstone_stairs.json
-- grimstone_stairs_from_grimstone_stonecutting.json
-- grimstone_tile_slab.json
-- grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-- grimstone_tile_stairs.json
-- grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-- grimstone_tile_wall.json
-- grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-- grimstone_wall.json
-- grimstone_wall_from_grimstone_stonecutting.json
-- polished_grimstone.json
-- polished_grimstone_slab.json
-- polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-- polished_grimstone_stairs.json
-- polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-- polished_grimstone_wall.json
-- polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-+ chiseled_deepslate.json
-+ chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
-+ cobbled_deepslate_slab.json
-+ cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
-+ cobbled_deepslate_stairs.json
-+ cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
-+ cobbled_deepslate_wall.json
-+ cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
-+ deepslate_brick_slab.json
-+ deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
-+ deepslate_brick_stairs.json
-+ deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
-+ deepslate_brick_wall.json
-+ deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
-+ deepslate_tile_slab.json
-+ deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
-+ deepslate_tile_stairs.json
-+ deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
-+ deepslate_tile_wall.json
-+ deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
-+ polished_deepslate.json
-+ polished_deepslate_slab.json
-+ polished_deepslate_slab_from_polished_deepslate_stonecutting.json
-+ polished_deepslate_stairs.json
-+ polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
-+ polished_deepslate_wall.json
-+ polished_deepslate_wall_from_polished_deepslate_stonecutting.json
-+ smooth_basalt.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/deepslate_ore_replaceables.json
-+ blocks/diamond_ores.json
-+ blocks/iron_ores.json
-+ blocks/lapis_ores.json
-+ blocks/redstone_ores.json
-+ blocks/stone_ore_replaceables.json
-+ items/diamond_ores.json
-+ items/iron_ores.json
-+ items/lapis_ores.json
-+ items/redstone_ores.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/chiseled_grimstone.png
-- block/grimstone.png
-- block/grimstone_bricks.png
-- block/grimstone_tiles.png
-- block/polished_grimstone.png
-+ block/chiseled_deepslate.png
-+ block/cobbled_deepslate.png
-+ block/deepslate.png
-+ block/deepslate_bricks.png
-+ block/deepslate_diamond_ore.png
-+ block/deepslate_gold_ore.png
-+ block/deepslate_iron_ore.png
-+ block/deepslate_lapis_ore.png
-+ block/deepslate_redstone_ore.png
-+ block/deepslate_tiles.png
-+ block/deepslate_top.png
-+ block/polished_deepslate.png
-+ block/smooth_basalt.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.AdvancementProgress</summary>
-
-```diff
-+ void <init>(Map)
-+ void lambda$serializeToNetwork$1(CriterionProgress)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
-
-```diff
-+ Map access$000(BossHealthOverlay)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ IllegalArgumentException lambda$handleCustomPayload$10(ResourceLocation)
-+ void handleInitializeBorder(ClientboundInitializeBorderPacket)
-+ void handlePlayerCombatEnd(ClientboundPlayerCombatEndPacket)
-+ void handlePlayerCombatEnter(ClientboundPlayerCombatEnterPacket)
-+ void handlePlayerCombatKill(ClientboundPlayerCombatKillPacket)
-+ void handleSetBorderCenter(ClientboundSetBorderCenterPacket)
-+ void handleSetBorderLerpSize(ClientboundSetBorderLerpSizePacket)
-+ void handleSetBorderSize(ClientboundSetBorderSizePacket)
-+ void handleSetBorderWarningDelay(ClientboundSetBorderWarningDelayPacket)
-+ void handleSetBorderWarningDistance(ClientboundSetBorderWarningDistancePacket)
-+ void handleTitlesClear(ClientboundClearTitlesPacket)
-+ void lambda$downloadCallback$8()
-+ Void lambda$downloadCallback$9(Throwable)
-+ void lambda$handleAddOrRemoveRecipes$4(Recipe)
-+ void lambda$handleAddOrRemoveRecipes$5(RecipeCollection)
-+ void lambda$handleChunkBlocksUpdate$1(BlockState)
-+ void lambda$handleGameEvent$3()
-+ void lambda$handlePlaceRecipe$12(Recipe)
-+ void lambda$handleRemoveEntity$0(int)
-+ void lambda$handleResourcePack$7(String,boolean)
-+ void lambda$handleSetEquipment$2(Pair)
-+ void lambda$handleSetPlayerTeamPacket$11(ClientboundSetPlayerTeamPacket$Parameters)
-+ void lambda$null$6(String,boolean,boolean)
-+ void setActionBarText(ClientboundSetActionBarTextPacket)
-+ void setSubtitleText(ClientboundSetSubtitleTextPacket)
-+ void setTitlesAnimation(ClientboundSetTitlesAnimationPacket)
-+ void setTitleText(ClientboundSetTitleTextPacket)
-- IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
-- void handlePlayerCombat(ClientboundPlayerCombatPacket)
-- void handleSetBorder(ClientboundSetBorderPacket)
-- void handleSetTitles(ClientboundSetTitlesPacket)
-- void lambda$downloadCallback$7()
-- Void lambda$downloadCallback$8(Throwable)
-- void lambda$handleAddOrRemoveRecipes$3(Recipe)
-- void lambda$handleAddOrRemoveRecipes$4(RecipeCollection)
-- void lambda$handleChunkBlocksUpdate$0(BlockState)
-- void lambda$handleGameEvent$2()
-- void lambda$handlePlaceRecipe$10(Recipe)
-- void lambda$handleResourcePack$6(String,boolean)
-- void lambda$handleSetEquipment$1(Pair)
-- void lambda$null$5(String,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.Particle</summary>
-
-```diff
-+ Optional getParticleGroup()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
-
-```diff
-+ Object2IntOpenHashMap trackedParticleCounts
-+ boolean hasSpaceInParticleLimit(ParticleGroup)
-+ void lambda$destroy$10(BlockState,double,double,double,double,double,double)
-+ void lambda$tickParticleList$9(ParticleGroup)
-+ void updateCount(ParticleGroup,int)
-- void lambda$destroy$9(BlockState,double,double,double,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.SuspendedParticle$SporeBlossomAirProvider</summary>
-
-```diff
-- Random random
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.DebugRenderer</summary>
-
-```diff
-- CaveDebugRenderer caveRenderer
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
-
-```diff
-+ ConfiguredWorldCarver CRACK
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature ORE_IRON_MIDDLE
-+ ConfiguredFeature ORE_TUFF
-+ ImmutableList ORE_DIAMOND_TARGET_LIST
-+ ImmutableList ORE_GOLD_TARGET_LIST
-+ ImmutableList ORE_IRON_TARGET_LIST
-+ ImmutableList ORE_LAPIS_TARGET_LIST
-+ ImmutableList ORE_REDSTONE_TARGET_LIST
-+ OreConfiguration ORE_COAL_CONFIG
-+ OreConfiguration ORE_IRON_CONFIG
-+ OreConfiguration ORE_REDSTONE_CONFIG
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.ConnectionProtocol</summary>
-
-```diff
-+ Packet createPacket(FriendlyByteBuf)
-- Packet createPacket(PacketFlow,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
-
-```diff
-+ List idToDeserializer
-- List idToConstructor
-+ ConnectionProtocol$PacketSet addPacket(Function)
-+ Packet createPacket(FriendlyByteBuf)
-- ConnectionProtocol$PacketSet addPacket(Supplier)
-- Packet createPacket(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
-
-```diff
-+ Collection readCollection(Function)
-+ IntList readIntIdList()
-+ List readList(Function)
-+ Map readMap(Function)
-+ Map readMap(Function)
-+ void lambda$readWithCodec$0(DataResult$PartialResult)
-+ void lambda$writeMap$2(Object)
-+ void lambda$writeWithCodec$1(DataResult$PartialResult)
-+ void readWithCount(Consumer)
-+ void writeIntIdList(IntList)
-+ void writeMap(BiConsumer)
-- void lambda$writeCollection$0(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.Packet</summary>
-
-```diff
-- void read(net.minecraft.network.FriendlyByteBuf)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAddEntityPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAddMobPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAddPlayerPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAnimatePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$1</summary>
-
-```diff
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ClientboundBossEventPacket$Operation
-+ ClientboundBossEventPacket$OperationType getType()
-+ void <init>()
-+ void dispatch(ClientboundBossEventPacket$Handler)
-+ void write(FriendlyByteBuf)
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket</summary>
-
-```diff
-+ Suggestion lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(Suggestion)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundContainerAckPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket</summary>
-
-```diff
-- ResourceLocation DEBUG_CAVES_PACKET
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundDisconnectPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundExplodePacket</summary>
-
-```diff
-+ BlockPos lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(BlockPos)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void initFields(int)
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSoundEntityPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundStopSoundPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundTagQueryPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket</summary>
-
-```diff
-+ AttributeModifier lambda$null$0(FriendlyByteBuf)
-+ ClientboundUpdateAttributesPacket$AttributeSnapshot lambda$new$1(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$null$2(AttributeModifier)
-+ void lambda$write$3(ClientboundUpdateAttributesPacket$AttributeSnapshot)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket</summary>
-
-```diff
-+ ResourceKey lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(ResourceKey)
-+ void lambda$write$2(TagCollection$NetworkPayload)
-- void <init>()
-- void lambda$write$0(TagCollection$NetworkPayload)
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChangeDifficultyPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundClientCommandPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundContainerAckPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundContainerClickPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundEntityTagQuery</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundMoveVehiclePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundPickItemPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundRecipeBookChangeSettingsPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundRenameItemPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetBeaconPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSwingPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundUseItemOnPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ClientboundGameProfilePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.login.ClientboundLoginCompressionPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundHelloPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.status.ClientboundStatusResponsePacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.status.ServerboundPingRequestPacket</summary>
-
-```diff
-+ void <init>(FriendlyByteBuf)
-- void <init>()
-- void read(FriendlyByteBuf)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.TitleCommand</summary>
-
-```diff
-+ int showTitle(Function)
-- int showTitle(ClientboundSetTitlesPacket$Type)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerBossEvent</summary>
-
-```diff
-+ void broadcast(Function)
-- void broadcast(ClientboundBossEventPacket$Operation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl$1</summary>
-
-```diff
-+ Entity val$target
-+ ServerGamePacketListenerImpl this$0
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundClientCommandPacket$Action
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundPlayerActionPacket$Action
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundPlayerCommandPacket$Action
-- int[] $SwitchMap$net$minecraft$world$level$block$entity$CommandBlockEntity$Mode
-+ InteractionResult lambda$onInteraction$0(InteractionHand)
-+ void <init>(Entity)
-+ void onAttack()
-+ void onInteraction(InteractionHand)
-+ void onInteraction(Vec3)
-+ void performInteraction(ServerGamePacketListenerImpl$EntityInteraction)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent DEEPSLATE_BREAK
-+ SoundEvent DEEPSLATE_BRICKS_BREAK
-+ SoundEvent DEEPSLATE_BRICKS_FALL
-+ SoundEvent DEEPSLATE_BRICKS_HIT
-+ SoundEvent DEEPSLATE_BRICKS_PLACE
-+ SoundEvent DEEPSLATE_BRICKS_STEP
-+ SoundEvent DEEPSLATE_FALL
-+ SoundEvent DEEPSLATE_HIT
-+ SoundEvent DEEPSLATE_PLACE
-+ SoundEvent DEEPSLATE_STEP
-+ SoundEvent DEEPSLATE_TILES_BREAK
-+ SoundEvent DEEPSLATE_TILES_FALL
-+ SoundEvent DEEPSLATE_TILES_HIT
-+ SoundEvent DEEPSLATE_TILES_PLACE
-+ SoundEvent DEEPSLATE_TILES_STEP
-+ SoundEvent POLISHED_DEEPSLATE_BREAK
-+ SoundEvent POLISHED_DEEPSLATE_FALL
-+ SoundEvent POLISHED_DEEPSLATE_HIT
-+ SoundEvent POLISHED_DEEPSLATE_PLACE
-+ SoundEvent POLISHED_DEEPSLATE_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named DEEPSLATE_ORE_REPLACEABLES
-+ Tag$Named DIAMOND_ORES
-+ Tag$Named IRON_ORES
-+ Tag$Named LAPIS_ORES
-+ Tag$Named REDSTONE_ORES
-+ Tag$Named STONE_ORE_REPLACEABLES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named DIAMOND_ORES
-+ Tag$Named IRON_ORES
-+ Tag$Named LAPIS_ORES
-+ Tag$Named REDSTONE_ORES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom</summary>
-
-```diff
-+ int resolveY(WorldGenerationContext)
-- int resolveY(DecorationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop</summary>
-
-```diff
-+ int resolveY(WorldGenerationContext)
-- int resolveY(DecorationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
-
-```diff
-+ CarverDebugSettings debugSettings
-+ Codec CODEC
-- NoneCarverConfiguration NONE
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ CarverDebugSettings getDebugSettings()
-+ Float lambda$null$0(CarverConfiguration)
-+ void <init>(CarverDebugSettings)
-+ void <init>(float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
-
-```diff
-+ boolean carve(BitSet)
-+ boolean isStartChunk(Random)
-- boolean carve(BitSet)
-- boolean isStartChunk(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ int access$000(LevelHeightAccessor)
-+ int getYPositionForFeature(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- int access$000(LevelHeightAccessor)
-- int getYPositionForFeature(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
-
-```diff
-+ void <init>(FloatProvider)
-+ void <init>(LargeDripstoneFeature$1)
-- void <init>(LargeDripstoneFeature$1)
-- void <init>(UniformFloat)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature$MineShaftStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ StructureStart createStart(BoundingBox,int,long)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- StructureStart createStart(BoundingBox,int,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DripstoneClusterConfiguration</summary>
-
-```diff
-+ FloatProvider density
-+ FloatProvider wetness
-- float wetnessDeviation
-- float wetnessMean
-- UniformFloat density
-- UniformFloat wetness
-+ App lambda$static$11(RecordCodecBuilder$Instance)
-+ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
-+ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
-+ Integer lambda$null$10(DripstoneClusterConfiguration)
-+ Integer lambda$null$9(DripstoneClusterConfiguration)
-+ void <init>(FloatProvider,float,int,int)
-- App lambda$static$13(RecordCodecBuilder$Instance)
-- Float lambda$null$10(DripstoneClusterConfiguration)
-- Float lambda$null$9(DripstoneClusterConfiguration)
-- Integer lambda$null$11(DripstoneClusterConfiguration)
-- Integer lambda$null$12(DripstoneClusterConfiguration)
-- UniformFloat lambda$null$6(DripstoneClusterConfiguration)
-- UniformFloat lambda$null$7(DripstoneClusterConfiguration)
-- void <init>(UniformFloat,float,float,float,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration</summary>
-
-```diff
-+ float discardChanceOnAirExposure
-+ List targetStates
-- BlockState state
-- RuleTest target
-+ Float lambda$null$2(OreConfiguration)
-+ Integer lambda$null$1(OreConfiguration)
-+ List lambda$null$0(OreConfiguration)
-+ OreConfiguration$TargetBlockState target(BlockState)
-+ void <init>(BlockState,int,float)
-+ void <init>(List,int,float)
-+ void <init>(List,int)
-- BlockState lambda$null$1(OreConfiguration)
-- Integer lambda$null$2(OreConfiguration)
-- RuleTest lambda$null$0(OreConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
-
-```diff
-+ boolean edgesLiquid(BoundingBox)
-- boolean air(BlockPos$MutableBlockPos,int,int,int)
-- boolean edgesLiquidOrFloatingInAir(BoundingBox)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
-
-```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
-
-```diff
-+ void addClientSideDecorations(List)
-- void addClientSideDecorations(MapDecoration[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.components.Button
@@ -6169,406 +2414,133 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Criterion</summary>
+<details><summary>net.minecraft.advancements.AdvancementProgress</summary>
 
 ```diff
-+ void lambda$serializeToNetwork$0(Criterion)
++ void <init>(Map)
++ void lambda$serializeToNetwork$1(FriendlyByteBuf,CriterionProgress)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
+<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
 
 ```diff
-+ ConfiguredWorldCarver CRACK
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature ORE_IRON_MIDDLE
-+ ConfiguredFeature ORE_TUFF
-+ ImmutableList ORE_DIAMOND_TARGET_LIST
-+ ImmutableList ORE_GOLD_TARGET_LIST
-+ ImmutableList ORE_IRON_TARGET_LIST
-+ ImmutableList ORE_LAPIS_TARGET_LIST
-+ ImmutableList ORE_REDSTONE_TARGET_LIST
-+ OreConfiguration ORE_COAL_CONFIG
-+ OreConfiguration ORE_IRON_CONFIG
-+ OreConfiguration ORE_REDSTONE_CONFIG
++ Map access$000(BossHealthOverlay)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
+
+```diff
++ IllegalArgumentException lambda$handleCustomPayload$10(ResourceLocation)
+- IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
++ void handleInitializeBorder(ClientboundInitializeBorderPacket)
+- void handlePlayerCombat(ClientboundPlayerCombatPacket)
++ void handlePlayerCombatEnd(ClientboundPlayerCombatEndPacket)
++ void handlePlayerCombatEnter(ClientboundPlayerCombatEnterPacket)
++ void handlePlayerCombatKill(ClientboundPlayerCombatKillPacket)
+- void handleSetBorder(ClientboundSetBorderPacket)
++ void handleSetBorderCenter(ClientboundSetBorderCenterPacket)
++ void handleSetBorderLerpSize(ClientboundSetBorderLerpSizePacket)
++ void handleSetBorderSize(ClientboundSetBorderSizePacket)
++ void handleSetBorderWarningDelay(ClientboundSetBorderWarningDelayPacket)
++ void handleSetBorderWarningDistance(ClientboundSetBorderWarningDistancePacket)
+- void handleSetTitles(ClientboundSetTitlesPacket)
++ void handleTitlesClear(ClientboundClearTitlesPacket)
+- void lambda$downloadCallback$7()
++ void lambda$downloadCallback$8()
+- Void lambda$downloadCallback$8(Throwable)
++ Void lambda$downloadCallback$9(Throwable)
+- void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,Recipe)
++ void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,Recipe)
+- void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,RecipeCollection)
++ void lambda$handleAddOrRemoveRecipes$5(ClientRecipeBook,RecipeCollection)
+- void lambda$handleChunkBlocksUpdate$0(int,BlockPos,BlockState)
++ void lambda$handleChunkBlocksUpdate$1(int,BlockPos,BlockState)
+- void lambda$handleGameEvent$2()
++ void lambda$handleGameEvent$3()
+- void lambda$handlePlaceRecipe$10(AbstractContainerMenu,Recipe)
++ void lambda$handlePlaceRecipe$12(AbstractContainerMenu,Recipe)
++ void lambda$handleRemoveEntity$0(int)
+- void lambda$handleResourcePack$6(String,String,boolean)
++ void lambda$handleResourcePack$7(String,String,boolean)
+- void lambda$handleSetEquipment$1(Entity,Pair)
++ void lambda$handleSetEquipment$2(Entity,Pair)
++ void lambda$handleSetPlayerTeamPacket$11(PlayerTeam,ClientboundSetPlayerTeamPacket$Parameters)
+- void lambda$null$5(String,String,boolean,boolean)
++ void lambda$null$6(String,String,boolean,boolean)
++ void setActionBarText(ClientboundSetActionBarTextPacket)
++ void setSubtitleText(ClientboundSetSubtitleTextPacket)
++ void setTitlesAnimation(ClientboundSetTitlesAnimationPacket)
++ void setTitleText(ClientboundSetTitleTextPacket)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.particle.Particle</summary>
+
+```diff
++ Optional getParticleGroup()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
 
+```diff
++ boolean hasSpaceInParticleLimit(ParticleGroup)
++ void lambda$destroy$10(BlockPos,BlockState,double,double,double,double,double,double)
+- void lambda$destroy$9(BlockPos,BlockState,double,double,double,double,double,double)
++ void lambda$tickParticleList$9(ParticleGroup)
++ void updateCount(ParticleGroup,int)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.network.ConnectionProtocol</summary>
 
 ```diff
-+ Packet createPacket(FriendlyByteBuf)
++ Packet createPacket(PacketFlow,int,FriendlyByteBuf)
 - Packet createPacket(PacketFlow,int)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
 
 ```diff
-+ List idToDeserializer
-- List idToConstructor
-+ ConnectionProtocol$PacketSet addPacket(Function)
-+ Packet createPacket(FriendlyByteBuf)
-- ConnectionProtocol$PacketSet addPacket(Supplier)
++ ConnectionProtocol$PacketSet addPacket(Class,Function)
+- ConnectionProtocol$PacketSet addPacket(Class,Supplier)
++ Packet createPacket(int,FriendlyByteBuf)
 - Packet createPacket(int)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.FriendlyByteBuf</summary>
 
 ```diff
-+ Collection readCollection(Function)
++ Collection readCollection(IntFunction,Function)
 + IntList readIntIdList()
 + List readList(Function)
-+ Map readMap(Function)
-+ Map readMap(Function)
-+ void lambda$readWithCodec$0(DataResult$PartialResult)
-+ void lambda$writeMap$2(Object)
-+ void lambda$writeWithCodec$1(DataResult$PartialResult)
++ Map readMap(Function,Function)
++ Map readMap(IntFunction,Function,Function)
++ void lambda$readWithCodec$0(CompoundTag,DataResult$PartialResult)
+- void lambda$writeCollection$0(BiConsumer,Object)
++ void lambda$writeMap$2(BiConsumer,BiConsumer,Object,Object)
++ void lambda$writeWithCodec$1(Object,DataResult$PartialResult)
 + void readWithCount(Consumer)
 + void writeIntIdList(IntList)
-+ void writeMap(BiConsumer)
-- void lambda$writeCollection$0(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.Packet</summary>
-
-```diff
-- void read(net.minecraft.network.FriendlyByteBuf)
++ void writeMap(Map,BiConsumer,BiConsumer)
 ```
 
 </details>
@@ -6577,93 +2549,100 @@
 <details><summary>net.minecraft.network.protocol.game.ClientboundAddEntityPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundAddMobPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundAddPlayerPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundAnimatePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$1</summary>
 
 ```diff
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ClientboundBossEventPacket$Operation
 + ClientboundBossEventPacket$OperationType getType()
-+ void <init>()
-+ void dispatch(ClientboundBossEventPacket$Handler)
-+ void write(FriendlyByteBuf)
 - void <clinit>()
++ void <init>()
++ void dispatch(UUID,ClientboundBossEventPacket$Handler)
++ void write(FriendlyByteBuf)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket</summary>
 
 ```diff
-+ Suggestion lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(Suggestion)
++ Suggestion lambda$new$0(StringRange,FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$write$1(FriendlyByteBuf,Suggestion)
 - void read(FriendlyByteBuf)
 ```
 
@@ -6673,202 +2652,217 @@
 <details><summary>net.minecraft.network.protocol.game.ClientboundContainerAckPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket</summary>
 
 ```diff
-- ResourceLocation DEBUG_CAVES_PACKET
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundDisconnectPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundExplodePacket</summary>
 
 ```diff
-+ BlockPos lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(BlockPos)
++ BlockPos lambda$new$0(int,int,int,FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$write$1(int,int,int,FriendlyByteBuf,BlockPos)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void initFields(int)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.protocol.game.ClientboundSoundEntityPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundStopSoundPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundTagQueryPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket</summary>
 
 ```diff
 + AttributeModifier lambda$null$0(FriendlyByteBuf)
 + ClientboundUpdateAttributesPacket$AttributeSnapshot lambda$new$1(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$null$2(AttributeModifier)
-+ void lambda$write$3(ClientboundUpdateAttributesPacket$AttributeSnapshot)
 - void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$null$2(FriendlyByteBuf,AttributeModifier)
++ void lambda$write$3(FriendlyByteBuf,ClientboundUpdateAttributesPacket$AttributeSnapshot)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket</summary>
 
 ```diff
 + ResourceKey lambda$new$0(FriendlyByteBuf)
-+ void <init>(FriendlyByteBuf)
-+ void lambda$write$1(ResourceKey)
-+ void lambda$write$2(TagCollection$NetworkPayload)
 - void <init>()
-- void lambda$write$0(TagCollection$NetworkPayload)
++ void <init>(FriendlyByteBuf)
+- void lambda$write$0(FriendlyByteBuf,ResourceKey,TagCollection$NetworkPayload)
++ void lambda$write$1(FriendlyByteBuf,ResourceKey)
++ void lambda$write$2(FriendlyByteBuf,TagCollection$NetworkPayload)
 - void read(FriendlyByteBuf)
 ```
 
@@ -6878,215 +2872,228 @@
 <details><summary>net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundChangeDifficultyPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundClientCommandPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundContainerAckPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundContainerClickPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundEntityTagQuery</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundMoveVehiclePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundPickItemPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundRecipeBookChangeSettingsPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundRenameItemPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundSetBeaconPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundSwingPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.network.protocol.game.ServerboundUseItemOnPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.network.protocol.login.ClientboundGameProfilePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.network.protocol.login.ClientboundLoginCompressionPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
@@ -7096,573 +3103,207 @@
 <details><summary>net.minecraft.network.protocol.login.ServerboundHelloPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.network.protocol.status.ClientboundStatusResponsePacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.network.protocol.status.ServerboundPingRequestPacket</summary>
 
 ```diff
-+ void <init>(FriendlyByteBuf)
 - void <init>()
++ void <init>(FriendlyByteBuf)
 - void read(FriendlyByteBuf)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.commands.TitleCommand</summary>
 
 ```diff
-+ int showTitle(Function)
-- int showTitle(ClientboundSetTitlesPacket$Type)
+- int showTitle(CommandSourceStack,Collection,Component,ClientboundSetTitlesPacket$Type)
++ int showTitle(CommandSourceStack,Collection,Component,String,Function)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.ServerBossEvent</summary>
 
 ```diff
-+ void broadcast(Function)
 - void broadcast(ClientboundBossEventPacket$Operation)
++ void broadcast(Function)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl$1</summary>
 
 ```diff
-+ Entity val$target
-+ ServerGamePacketListenerImpl this$0
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundClientCommandPacket$Action
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundPlayerActionPacket$Action
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ServerboundPlayerCommandPacket$Action
-- int[] $SwitchMap$net$minecraft$world$level$block$entity$CommandBlockEntity$Mode
-+ InteractionResult lambda$onInteraction$0(InteractionHand)
-+ void <init>(Entity)
-+ void onAttack()
-+ void onInteraction(InteractionHand)
-+ void onInteraction(Vec3)
-+ void performInteraction(ServerGamePacketListenerImpl$EntityInteraction)
++ InteractionResult lambda$onInteraction$0(Vec3,ServerPlayer,Entity,InteractionHand)
 - void <clinit>()
++ void <init>(ServerGamePacketListenerImpl,Entity)
++ void onAttack()
++ void onInteraction(InteractionHand,Vec3)
++ void onInteraction(InteractionHand)
++ void performInteraction(InteractionHand,ServerGamePacketListenerImpl$EntityInteraction)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent DEEPSLATE_BREAK
-+ SoundEvent DEEPSLATE_BRICKS_BREAK
-+ SoundEvent DEEPSLATE_BRICKS_FALL
-+ SoundEvent DEEPSLATE_BRICKS_HIT
-+ SoundEvent DEEPSLATE_BRICKS_PLACE
-+ SoundEvent DEEPSLATE_BRICKS_STEP
-+ SoundEvent DEEPSLATE_FALL
-+ SoundEvent DEEPSLATE_HIT
-+ SoundEvent DEEPSLATE_PLACE
-+ SoundEvent DEEPSLATE_STEP
-+ SoundEvent DEEPSLATE_TILES_BREAK
-+ SoundEvent DEEPSLATE_TILES_FALL
-+ SoundEvent DEEPSLATE_TILES_HIT
-+ SoundEvent DEEPSLATE_TILES_PLACE
-+ SoundEvent DEEPSLATE_TILES_STEP
-+ SoundEvent POLISHED_DEEPSLATE_BREAK
-+ SoundEvent POLISHED_DEEPSLATE_FALL
-+ SoundEvent POLISHED_DEEPSLATE_HIT
-+ SoundEvent POLISHED_DEEPSLATE_PLACE
-+ SoundEvent POLISHED_DEEPSLATE_STEP
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named DEEPSLATE_ORE_REPLACEABLES
-+ Tag$Named DIAMOND_ORES
-+ Tag$Named IRON_ORES
-+ Tag$Named LAPIS_ORES
-+ Tag$Named REDSTONE_ORES
-+ Tag$Named STONE_ORE_REPLACEABLES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named DIAMOND_ORES
-+ Tag$Named IRON_ORES
-+ Tag$Named LAPIS_ORES
-+ Tag$Named REDSTONE_ORES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom</summary>
 
 ```diff
-+ int resolveY(WorldGenerationContext)
 - int resolveY(DecorationContext)
++ int resolveY(WorldGenerationContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop</summary>
 
 ```diff
-+ int resolveY(WorldGenerationContext)
 - int resolveY(DecorationContext)
++ int resolveY(WorldGenerationContext)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
 
 ```diff
-+ CarverDebugSettings debugSettings
-+ Codec CODEC
-- NoneCarverConfiguration NONE
 + App lambda$static$1(RecordCodecBuilder$Instance)
 + CarverDebugSettings getDebugSettings()
 + Float lambda$null$0(CarverConfiguration)
-+ void <init>(CarverDebugSettings)
++ void <init>(float,CarverDebugSettings)
 + void <init>(float)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
 
 ```diff
-+ boolean carve(BitSet)
-+ boolean isStartChunk(Random)
-- boolean carve(BitSet)
++ boolean carve(CarvingContext,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
+- boolean carve(ChunkAccess,Function,Random,int,int,int,int,int,BitSet)
 - boolean isStartChunk(Random,int,int)
++ boolean isStartChunk(Random)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ int access$000(LevelHeightAccessor)
-+ int getYPositionForFeature(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- int access$000(LevelHeightAccessor)
-- int getYPositionForFeature(LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
++ int access$000(ChunkPos,ChunkGenerator,LevelHeightAccessor)
+- int access$000(int,int,ChunkGenerator,LevelHeightAccessor)
++ int getYPositionForFeature(ChunkPos,ChunkGenerator,LevelHeightAccessor)
+- int getYPositionForFeature(int,int,ChunkGenerator,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(JigsawFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(JigsawFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,JigsawConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,JigsawConfiguration,LevelHeightAccessor)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
 
 ```diff
-+ void <init>(FloatProvider)
-+ void <init>(LargeDripstoneFeature$1)
-- void <init>(LargeDripstoneFeature$1)
-- void <init>(UniformFloat)
++ void <init>(int,Random,FloatProvider,LargeDripstoneFeature$1)
++ void <init>(int,Random,FloatProvider)
+- void <init>(int,Random,UniformFloat,LargeDripstoneFeature$1)
+- void <init>(int,Random,UniformFloat)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature$MineShaftStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,MineshaftConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration,LevelHeightAccessor)
 ```
 
 </details>
@@ -7671,51 +3312,48 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,ShipwreckConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ StructureStart createStart(BoundingBox,int,long)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- StructureStart createStart(BoundingBox,int,long)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ StructureStart createStart(ChunkPos,BoundingBox,int,long)
+- StructureStart createStart(int,int,BoundingBox,int,long)
 ```
 
 </details>
@@ -7724,351 +3362,118 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.DripstoneClusterConfiguration</summary>
 
 ```diff
-+ FloatProvider density
-+ FloatProvider wetness
-- float wetnessDeviation
-- float wetnessMean
-- UniformFloat density
-- UniformFloat wetness
 + App lambda$static$11(RecordCodecBuilder$Instance)
-+ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
-+ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
-+ Integer lambda$null$10(DripstoneClusterConfiguration)
-+ Integer lambda$null$9(DripstoneClusterConfiguration)
-+ void <init>(FloatProvider,float,int,int)
 - App lambda$static$13(RecordCodecBuilder$Instance)
 - Float lambda$null$10(DripstoneClusterConfiguration)
 - Float lambda$null$9(DripstoneClusterConfiguration)
++ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
++ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
++ Integer lambda$null$10(DripstoneClusterConfiguration)
 - Integer lambda$null$11(DripstoneClusterConfiguration)
 - Integer lambda$null$12(DripstoneClusterConfiguration)
++ Integer lambda$null$9(DripstoneClusterConfiguration)
 - UniformFloat lambda$null$6(DripstoneClusterConfiguration)
 - UniformFloat lambda$null$7(DripstoneClusterConfiguration)
-- void <init>(UniformFloat,float,float,float,int,int)
++ void <init>(int,UniformInt,UniformInt,int,int,UniformInt,FloatProvider,FloatProvider,float,int,int)
+- void <init>(int,UniformInt,UniformInt,int,int,UniformInt,UniformFloat,UniformFloat,float,float,float,int,int)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration</summary>
 
 ```diff
-+ float discardChanceOnAirExposure
-+ List targetStates
-- BlockState state
-- RuleTest target
+- BlockState lambda$null$1(OreConfiguration)
 + Float lambda$null$2(OreConfiguration)
 + Integer lambda$null$1(OreConfiguration)
+- Integer lambda$null$2(OreConfiguration)
 + List lambda$null$0(OreConfiguration)
-+ OreConfiguration$TargetBlockState target(BlockState)
-+ void <init>(BlockState,int,float)
++ OreConfiguration$TargetBlockState target(RuleTest,BlockState)
+- RuleTest lambda$null$0(OreConfiguration)
 + void <init>(List,int,float)
 + void <init>(List,int)
-- BlockState lambda$null$1(OreConfiguration)
-- Integer lambda$null$2(OreConfiguration)
-- RuleTest lambda$null$0(OreConfiguration)
++ void <init>(RuleTest,BlockState,int,float)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
 
 ```diff
-+ boolean edgesLiquid(BoundingBox)
-- boolean air(BlockPos$MutableBlockPos,int,int,int)
-- boolean edgesLiquidOrFloatingInAir(BoundingBox)
+- boolean air(BlockGetter,BlockPos$MutableBlockPos,int,int,int)
++ boolean edgesLiquid(BlockGetter,BoundingBox)
+- boolean edgesLiquidOrFloatingInAir(BlockGetter,BoundingBox)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-- void <init>(BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,OceanRuinConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
 
 ```diff
-+ void <init>(BoundingBox,int,long)
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,MineshaftConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration,LevelHeightAccessor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
@@ -8081,191 +3486,12 @@
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.core.particles.package-info
@@ -10399,13 +5625,1957 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.Criterion</summary>
+
+```diff
++ void lambda$serializeToNetwork$0(FriendlyByteBuf,Criterion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.ConnectionProtocol</summary>
+
+```diff
++ Packet createPacket(PacketFlow,int,FriendlyByteBuf)
+- Packet createPacket(PacketFlow,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
+
+```diff
++ ConnectionProtocol$PacketSet addPacket(Class,Function)
+- ConnectionProtocol$PacketSet addPacket(Class,Supplier)
++ Packet createPacket(int,FriendlyByteBuf)
+- Packet createPacket(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ Collection readCollection(IntFunction,Function)
++ IntList readIntIdList()
++ List readList(Function)
++ Map readMap(Function,Function)
++ Map readMap(IntFunction,Function,Function)
++ void lambda$readWithCodec$0(CompoundTag,DataResult$PartialResult)
+- void lambda$writeCollection$0(BiConsumer,Object)
++ void lambda$writeMap$2(BiConsumer,BiConsumer,Object,Object)
++ void lambda$writeWithCodec$1(Object,DataResult$PartialResult)
++ void readWithCount(Consumer)
++ void writeIntIdList(IntList)
++ void writeMap(Map,BiConsumer,BiConsumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundAddEntityPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundAddMobPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundAddPlayerPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundAnimatePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$1</summary>
+
+```diff
++ ClientboundBossEventPacket$OperationType getType()
+- void <clinit>()
++ void <init>()
++ void dispatch(UUID,ClientboundBossEventPacket$Handler)
++ void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket</summary>
+
+```diff
++ Suggestion lambda$new$0(StringRange,FriendlyByteBuf)
+- void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$write$1(FriendlyByteBuf,Suggestion)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundContainerAckPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetContentPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundDisconnectPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundExplodePacket</summary>
+
+```diff
++ BlockPos lambda$new$0(int,int,int,FriendlyByteBuf)
+- void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$write$1(int,int,int,FriendlyByteBuf,BlockPos)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundHorseScreenOpenPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundRespawnPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void initFields(int)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundSoundEntityPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundStopSoundPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundTagQueryPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket</summary>
+
+```diff
++ AttributeModifier lambda$null$0(FriendlyByteBuf)
++ ClientboundUpdateAttributesPacket$AttributeSnapshot lambda$new$1(FriendlyByteBuf)
+- void <init>()
++ void <init>(FriendlyByteBuf)
++ void lambda$null$2(FriendlyByteBuf,AttributeModifier)
++ void lambda$write$3(FriendlyByteBuf,ClientboundUpdateAttributesPacket$AttributeSnapshot)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket</summary>
+
+```diff
++ ResourceKey lambda$new$0(FriendlyByteBuf)
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void lambda$write$0(FriendlyByteBuf,ResourceKey,TagCollection$NetworkPayload)
++ void lambda$write$1(FriendlyByteBuf,ResourceKey)
++ void lambda$write$2(FriendlyByteBuf,TagCollection$NetworkPayload)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundChangeDifficultyPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundClientCommandPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundContainerAckPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundContainerClickPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundEntityTagQuery</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundMoveVehiclePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundPickItemPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundRecipeBookChangeSettingsPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundRenameItemPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSetBeaconPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSetCreativeModeSlotPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundSwingPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundUseItemOnPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ClientboundGameProfilePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ClientboundLoginCompressionPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundHelloPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ClientboundStatusResponsePacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.status.ServerboundPingRequestPacket</summary>
+
+```diff
+- void <init>()
++ void <init>(FriendlyByteBuf)
+- void read(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.TitleCommand</summary>
+
+```diff
+- int showTitle(CommandSourceStack,Collection,Component,ClientboundSetTitlesPacket$Type)
++ int showTitle(CommandSourceStack,Collection,Component,String,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerBossEvent</summary>
+
+```diff
+- void broadcast(ClientboundBossEventPacket$Operation)
++ void broadcast(Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl$1</summary>
+
+```diff
++ InteractionResult lambda$onInteraction$0(Vec3,ServerPlayer,Entity,InteractionHand)
+- void <clinit>()
++ void <init>(ServerGamePacketListenerImpl,Entity)
++ void onAttack()
++ void onInteraction(InteractionHand,Vec3)
++ void onInteraction(InteractionHand)
++ void performInteraction(InteractionHand,ServerGamePacketListenerImpl$EntityInteraction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom</summary>
+
+```diff
+- int resolveY(DecorationContext)
++ int resolveY(WorldGenerationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop</summary>
+
+```diff
+- int resolveY(DecorationContext)
++ int resolveY(WorldGenerationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarverConfiguration</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ CarverDebugSettings getDebugSettings()
++ Float lambda$null$0(CarverConfiguration)
++ void <init>(float,CarverDebugSettings)
++ void <init>(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver</summary>
+
+```diff
++ boolean carve(CarvingContext,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
+- boolean carve(ChunkAccess,Function,Random,int,int,int,int,int,BitSet)
+- boolean isStartChunk(Random,int,int)
++ boolean isStartChunk(Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
++ int access$000(ChunkPos,ChunkGenerator,LevelHeightAccessor)
+- int access$000(int,int,ChunkGenerator,LevelHeightAccessor)
++ int getYPositionForFeature(ChunkPos,ChunkGenerator,LevelHeightAccessor)
+- int getYPositionForFeature(int,int,ChunkGenerator,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
+
+```diff
++ void <init>(JigsawFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(JigsawFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,JigsawConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,JigsawConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
+
+```diff
++ void <init>(int,Random,FloatProvider,LargeDripstoneFeature$1)
++ void <init>(int,Random,FloatProvider)
+- void <init>(int,Random,UniformFloat,LargeDripstoneFeature$1)
+- void <init>(int,Random,UniformFloat)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature$MineShaftStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,MineshaftConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,ShipwreckConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ StructureStart createStart(ChunkPos,BoundingBox,int,long)
+- StructureStart createStart(int,int,BoundingBox,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DripstoneClusterConfiguration</summary>
+
+```diff
++ App lambda$static$11(RecordCodecBuilder$Instance)
+- App lambda$static$13(RecordCodecBuilder$Instance)
+- Float lambda$null$10(DripstoneClusterConfiguration)
+- Float lambda$null$9(DripstoneClusterConfiguration)
++ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
++ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
++ Integer lambda$null$10(DripstoneClusterConfiguration)
+- Integer lambda$null$11(DripstoneClusterConfiguration)
+- Integer lambda$null$12(DripstoneClusterConfiguration)
++ Integer lambda$null$9(DripstoneClusterConfiguration)
+- UniformFloat lambda$null$6(DripstoneClusterConfiguration)
+- UniformFloat lambda$null$7(DripstoneClusterConfiguration)
++ void <init>(int,UniformInt,UniformInt,int,int,UniformInt,FloatProvider,FloatProvider,float,int,int)
+- void <init>(int,UniformInt,UniformInt,int,int,UniformInt,UniformFloat,UniformFloat,float,float,float,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration</summary>
+
+```diff
+- BlockState lambda$null$1(OreConfiguration)
++ Float lambda$null$2(OreConfiguration)
++ Integer lambda$null$1(OreConfiguration)
+- Integer lambda$null$2(OreConfiguration)
++ List lambda$null$0(OreConfiguration)
++ OreConfiguration$TargetBlockState target(RuleTest,BlockState)
+- RuleTest lambda$null$0(OreConfiguration)
++ void <init>(List,int,float)
++ void <init>(List,int)
++ void <init>(RuleTest,BlockState,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
+
+```diff
+- boolean air(BlockGetter,BlockPos$MutableBlockPos,int,int,int)
++ boolean edgesLiquid(BlockGetter,BoundingBox)
+- boolean edgesLiquidOrFloatingInAir(BlockGetter,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,OceanRuinConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
+
+```diff
++ void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
+- void <init>(StructureFeature,int,int,BoundingBox,int,long)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,MineshaftConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
+
+```diff
++ void addClientSideDecorations(List)
+- void addClientSideDecorations(MapDecoration[])
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/chiseled_deepslate.json
+- minecraft/advancements/recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/chiseled_grimstone.json
++ minecraft/advancements/recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cobbled_deepslate_slab.json
++ minecraft/advancements/recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cobbled_deepslate_stairs.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_slab.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_brick_stairs.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_slab.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/deepslate_tile_stairs.json
+- minecraft/advancements/recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_brick_slab.json
+- minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs.json
+- minecraft/advancements/recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_slab.json
+- minecraft/advancements/recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_stairs.json
+- minecraft/advancements/recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_tile_slab.json
+- minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_slab.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate_stairs.json
++ minecraft/advancements/recipes/building_blocks/polished_deepslate.json
+- minecraft/advancements/recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_grimstone_slab.json
+- minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
+- minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs.json
+- minecraft/advancements/recipes/building_blocks/polished_grimstone.json
++ minecraft/advancements/recipes/building_blocks/smooth_basalt.json
++ minecraft/advancements/recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/cobbled_deepslate_wall.json
++ minecraft/advancements/recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_brick_wall.json
++ minecraft/advancements/recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
++ minecraft/advancements/recipes/decorations/deepslate_tile_wall.json
+- minecraft/advancements/recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
+- minecraft/advancements/recipes/decorations/grimstone_brick_wall.json
+- minecraft/advancements/recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
+- minecraft/advancements/recipes/decorations/grimstone_tile_wall.json
+- minecraft/advancements/recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
+- minecraft/advancements/recipes/decorations/grimstone_wall.json
+- minecraft/advancements/recipes/decorations/honey_block.json
++ minecraft/advancements/recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_deepslate_wall.json
+- minecraft/advancements/recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
+- minecraft/advancements/recipes/decorations/polished_grimstone_wall.json
+- minecraft/advancements/recipes/decorations/slime_block.json
++ minecraft/advancements/recipes/redstone/honey_block.json
++ minecraft/advancements/recipes/redstone/slime_block.json
++ minecraft/loot_tables/blocks/chiseled_deepslate.json
+- minecraft/loot_tables/blocks/chiseled_grimstone.json
++ minecraft/loot_tables/blocks/cobbled_deepslate_slab.json
++ minecraft/loot_tables/blocks/cobbled_deepslate_stairs.json
++ minecraft/loot_tables/blocks/cobbled_deepslate_wall.json
++ minecraft/loot_tables/blocks/cobbled_deepslate.json
++ minecraft/loot_tables/blocks/deepslate_brick_slab.json
++ minecraft/loot_tables/blocks/deepslate_brick_stairs.json
++ minecraft/loot_tables/blocks/deepslate_brick_wall.json
++ minecraft/loot_tables/blocks/deepslate_bricks.json
++ minecraft/loot_tables/blocks/deepslate_diamond_ore.json
++ minecraft/loot_tables/blocks/deepslate_gold_ore.json
++ minecraft/loot_tables/blocks/deepslate_iron_ore.json
++ minecraft/loot_tables/blocks/deepslate_lapis_ore.json
++ minecraft/loot_tables/blocks/deepslate_redstone_ore.json
++ minecraft/loot_tables/blocks/deepslate_tile_slab.json
++ minecraft/loot_tables/blocks/deepslate_tile_stairs.json
++ minecraft/loot_tables/blocks/deepslate_tile_wall.json
++ minecraft/loot_tables/blocks/deepslate_tiles.json
++ minecraft/loot_tables/blocks/deepslate.json
+- minecraft/loot_tables/blocks/grimstone_brick_slab.json
+- minecraft/loot_tables/blocks/grimstone_brick_stairs.json
+- minecraft/loot_tables/blocks/grimstone_brick_wall.json
+- minecraft/loot_tables/blocks/grimstone_bricks.json
+- minecraft/loot_tables/blocks/grimstone_slab.json
+- minecraft/loot_tables/blocks/grimstone_stairs.json
+- minecraft/loot_tables/blocks/grimstone_tile_slab.json
+- minecraft/loot_tables/blocks/grimstone_tile_stairs.json
+- minecraft/loot_tables/blocks/grimstone_tile_wall.json
+- minecraft/loot_tables/blocks/grimstone_tiles.json
+- minecraft/loot_tables/blocks/grimstone_wall.json
+- minecraft/loot_tables/blocks/grimstone.json
++ minecraft/loot_tables/blocks/polished_deepslate_slab.json
++ minecraft/loot_tables/blocks/polished_deepslate_stairs.json
++ minecraft/loot_tables/blocks/polished_deepslate_wall.json
++ minecraft/loot_tables/blocks/polished_deepslate.json
+- minecraft/loot_tables/blocks/polished_grimstone_slab.json
+- minecraft/loot_tables/blocks/polished_grimstone_stairs.json
+- minecraft/loot_tables/blocks/polished_grimstone_wall.json
+- minecraft/loot_tables/blocks/polished_grimstone.json
++ minecraft/loot_tables/blocks/smooth_basalt.json
++ minecraft/recipes/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/chiseled_deepslate.json
+- minecraft/recipes/chiseled_grimstone_from_grimstone_stonecutting.json
+- minecraft/recipes/chiseled_grimstone.json
++ minecraft/recipes/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/cobbled_deepslate_slab.json
++ minecraft/recipes/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/cobbled_deepslate_stairs.json
++ minecraft/recipes/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
++ minecraft/recipes/cobbled_deepslate_wall.json
++ minecraft/recipes/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_brick_slab.json
++ minecraft/recipes/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_brick_stairs.json
++ minecraft/recipes/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
++ minecraft/recipes/deepslate_brick_wall.json
++ minecraft/recipes/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
++ minecraft/recipes/deepslate_tile_slab.json
++ minecraft/recipes/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
++ minecraft/recipes/deepslate_tile_stairs.json
++ minecraft/recipes/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
++ minecraft/recipes/deepslate_tile_wall.json
+- minecraft/recipes/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
+- minecraft/recipes/grimstone_brick_slab.json
+- minecraft/recipes/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
+- minecraft/recipes/grimstone_brick_stairs.json
+- minecraft/recipes/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
+- minecraft/recipes/grimstone_brick_wall.json
+- minecraft/recipes/grimstone_slab_from_grimstone_stonecutting.json
+- minecraft/recipes/grimstone_slab.json
+- minecraft/recipes/grimstone_stairs_from_grimstone_stonecutting.json
+- minecraft/recipes/grimstone_stairs.json
+- minecraft/recipes/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
+- minecraft/recipes/grimstone_tile_slab.json
+- minecraft/recipes/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
+- minecraft/recipes/grimstone_tile_stairs.json
+- minecraft/recipes/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
+- minecraft/recipes/grimstone_tile_wall.json
+- minecraft/recipes/grimstone_wall_from_grimstone_stonecutting.json
+- minecraft/recipes/grimstone_wall.json
++ minecraft/recipes/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_slab.json
++ minecraft/recipes/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_stairs.json
++ minecraft/recipes/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
++ minecraft/recipes/polished_deepslate_wall.json
++ minecraft/recipes/polished_deepslate.json
+- minecraft/recipes/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
+- minecraft/recipes/polished_grimstone_slab.json
+- minecraft/recipes/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
+- minecraft/recipes/polished_grimstone_stairs.json
+- minecraft/recipes/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
+- minecraft/recipes/polished_grimstone_wall.json
+- minecraft/recipes/polished_grimstone.json
++ minecraft/recipes/smooth_basalt.json
++ minecraft/tags/blocks/deepslate_ore_replaceables.json
++ minecraft/tags/blocks/diamond_ores.json
++ minecraft/tags/blocks/iron_ores.json
++ minecraft/tags/blocks/lapis_ores.json
++ minecraft/tags/blocks/redstone_ores.json
++ minecraft/tags/blocks/stone_ore_replaceables.json
++ minecraft/tags/items/diamond_ores.json
++ minecraft/tags/items/iron_ores.json
++ minecraft/tags/items/lapis_ores.json
++ minecraft/tags/items/redstone_ores.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/chiseled_deepslate.json
+- minecraft/blockstates/chiseled_grimstone.json
++ minecraft/blockstates/cobbled_deepslate_slab.json
++ minecraft/blockstates/cobbled_deepslate_stairs.json
++ minecraft/blockstates/cobbled_deepslate_wall.json
++ minecraft/blockstates/cobbled_deepslate.json
++ minecraft/blockstates/deepslate_brick_slab.json
++ minecraft/blockstates/deepslate_brick_stairs.json
++ minecraft/blockstates/deepslate_brick_wall.json
++ minecraft/blockstates/deepslate_bricks.json
++ minecraft/blockstates/deepslate_diamond_ore.json
++ minecraft/blockstates/deepslate_gold_ore.json
++ minecraft/blockstates/deepslate_iron_ore.json
++ minecraft/blockstates/deepslate_lapis_ore.json
++ minecraft/blockstates/deepslate_redstone_ore.json
++ minecraft/blockstates/deepslate_tile_slab.json
++ minecraft/blockstates/deepslate_tile_stairs.json
++ minecraft/blockstates/deepslate_tile_wall.json
++ minecraft/blockstates/deepslate_tiles.json
++ minecraft/blockstates/deepslate.json
+- minecraft/blockstates/grimstone_brick_slab.json
+- minecraft/blockstates/grimstone_brick_stairs.json
+- minecraft/blockstates/grimstone_brick_wall.json
+- minecraft/blockstates/grimstone_bricks.json
+- minecraft/blockstates/grimstone_slab.json
+- minecraft/blockstates/grimstone_stairs.json
+- minecraft/blockstates/grimstone_tile_slab.json
+- minecraft/blockstates/grimstone_tile_stairs.json
+- minecraft/blockstates/grimstone_tile_wall.json
+- minecraft/blockstates/grimstone_tiles.json
+- minecraft/blockstates/grimstone_wall.json
+- minecraft/blockstates/grimstone.json
++ minecraft/blockstates/polished_deepslate_slab.json
++ minecraft/blockstates/polished_deepslate_stairs.json
++ minecraft/blockstates/polished_deepslate_wall.json
++ minecraft/blockstates/polished_deepslate.json
+- minecraft/blockstates/polished_grimstone_slab.json
+- minecraft/blockstates/polished_grimstone_stairs.json
+- minecraft/blockstates/polished_grimstone_wall.json
+- minecraft/blockstates/polished_grimstone.json
++ minecraft/blockstates/smooth_basalt.json
++ minecraft/models/block/chiseled_deepslate.json
+- minecraft/models/block/chiseled_grimstone.json
++ minecraft/models/block/cobbled_deepslate_mirrored.json
++ minecraft/models/block/cobbled_deepslate_slab_top.json
++ minecraft/models/block/cobbled_deepslate_slab.json
++ minecraft/models/block/cobbled_deepslate_stairs_inner.json
++ minecraft/models/block/cobbled_deepslate_stairs_outer.json
++ minecraft/models/block/cobbled_deepslate_stairs.json
++ minecraft/models/block/cobbled_deepslate_wall_inventory.json
++ minecraft/models/block/cobbled_deepslate_wall_post.json
++ minecraft/models/block/cobbled_deepslate_wall_side_tall.json
++ minecraft/models/block/cobbled_deepslate_wall_side.json
++ minecraft/models/block/cobbled_deepslate.json
++ minecraft/models/block/cube_column_mirrored.json
++ minecraft/models/block/deepslate_brick_slab_top.json
++ minecraft/models/block/deepslate_brick_slab.json
++ minecraft/models/block/deepslate_brick_stairs_inner.json
++ minecraft/models/block/deepslate_brick_stairs_outer.json
++ minecraft/models/block/deepslate_brick_stairs.json
++ minecraft/models/block/deepslate_brick_wall_inventory.json
++ minecraft/models/block/deepslate_brick_wall_post.json
++ minecraft/models/block/deepslate_brick_wall_side_tall.json
++ minecraft/models/block/deepslate_brick_wall_side.json
++ minecraft/models/block/deepslate_bricks.json
++ minecraft/models/block/deepslate_diamond_ore.json
++ minecraft/models/block/deepslate_gold_ore.json
++ minecraft/models/block/deepslate_iron_ore.json
++ minecraft/models/block/deepslate_lapis_ore.json
++ minecraft/models/block/deepslate_mirrored.json
++ minecraft/models/block/deepslate_redstone_ore.json
++ minecraft/models/block/deepslate_tile_slab_top.json
++ minecraft/models/block/deepslate_tile_slab.json
++ minecraft/models/block/deepslate_tile_stairs_inner.json
++ minecraft/models/block/deepslate_tile_stairs_outer.json
++ minecraft/models/block/deepslate_tile_stairs.json
++ minecraft/models/block/deepslate_tile_wall_inventory.json
++ minecraft/models/block/deepslate_tile_wall_post.json
++ minecraft/models/block/deepslate_tile_wall_side_tall.json
++ minecraft/models/block/deepslate_tile_wall_side.json
++ minecraft/models/block/deepslate_tiles.json
++ minecraft/models/block/deepslate.json
+- minecraft/models/block/grimstone_brick_slab_top.json
+- minecraft/models/block/grimstone_brick_slab.json
+- minecraft/models/block/grimstone_brick_stairs_inner.json
+- minecraft/models/block/grimstone_brick_stairs_outer.json
+- minecraft/models/block/grimstone_brick_stairs.json
+- minecraft/models/block/grimstone_brick_wall_inventory.json
+- minecraft/models/block/grimstone_brick_wall_post.json
+- minecraft/models/block/grimstone_brick_wall_side_tall.json
+- minecraft/models/block/grimstone_brick_wall_side.json
+- minecraft/models/block/grimstone_bricks.json
+- minecraft/models/block/grimstone_mirrored.json
+- minecraft/models/block/grimstone_slab_top.json
+- minecraft/models/block/grimstone_slab.json
+- minecraft/models/block/grimstone_stairs_inner.json
+- minecraft/models/block/grimstone_stairs_outer.json
+- minecraft/models/block/grimstone_stairs.json
+- minecraft/models/block/grimstone_tile_slab_top.json
+- minecraft/models/block/grimstone_tile_slab.json
+- minecraft/models/block/grimstone_tile_stairs_inner.json
+- minecraft/models/block/grimstone_tile_stairs_outer.json
+- minecraft/models/block/grimstone_tile_stairs.json
+- minecraft/models/block/grimstone_tile_wall_inventory.json
+- minecraft/models/block/grimstone_tile_wall_post.json
+- minecraft/models/block/grimstone_tile_wall_side_tall.json
+- minecraft/models/block/grimstone_tile_wall_side.json
+- minecraft/models/block/grimstone_tiles.json
+- minecraft/models/block/grimstone_wall_inventory.json
+- minecraft/models/block/grimstone_wall_post.json
+- minecraft/models/block/grimstone_wall_side_tall.json
+- minecraft/models/block/grimstone_wall_side.json
+- minecraft/models/block/grimstone.json
++ minecraft/models/block/polished_deepslate_slab_top.json
++ minecraft/models/block/polished_deepslate_slab.json
++ minecraft/models/block/polished_deepslate_stairs_inner.json
++ minecraft/models/block/polished_deepslate_stairs_outer.json
++ minecraft/models/block/polished_deepslate_stairs.json
++ minecraft/models/block/polished_deepslate_wall_inventory.json
++ minecraft/models/block/polished_deepslate_wall_post.json
++ minecraft/models/block/polished_deepslate_wall_side_tall.json
++ minecraft/models/block/polished_deepslate_wall_side.json
++ minecraft/models/block/polished_deepslate.json
+- minecraft/models/block/polished_grimstone_slab_top.json
+- minecraft/models/block/polished_grimstone_slab.json
+- minecraft/models/block/polished_grimstone_stairs_inner.json
+- minecraft/models/block/polished_grimstone_stairs_outer.json
+- minecraft/models/block/polished_grimstone_stairs.json
+- minecraft/models/block/polished_grimstone_wall_inventory.json
+- minecraft/models/block/polished_grimstone_wall_post.json
+- minecraft/models/block/polished_grimstone_wall_side_tall.json
+- minecraft/models/block/polished_grimstone_wall_side.json
+- minecraft/models/block/polished_grimstone.json
++ minecraft/models/block/smooth_basalt.json
++ minecraft/models/item/chiseled_deepslate.json
+- minecraft/models/item/chiseled_grimstone.json
++ minecraft/models/item/cobbled_deepslate_slab.json
++ minecraft/models/item/cobbled_deepslate_stairs.json
++ minecraft/models/item/cobbled_deepslate_wall.json
++ minecraft/models/item/cobbled_deepslate.json
++ minecraft/models/item/deepslate_brick_slab.json
++ minecraft/models/item/deepslate_brick_stairs.json
++ minecraft/models/item/deepslate_brick_wall.json
++ minecraft/models/item/deepslate_bricks.json
++ minecraft/models/item/deepslate_diamond_ore.json
++ minecraft/models/item/deepslate_gold_ore.json
++ minecraft/models/item/deepslate_iron_ore.json
++ minecraft/models/item/deepslate_lapis_ore.json
++ minecraft/models/item/deepslate_redstone_ore.json
++ minecraft/models/item/deepslate_tile_slab.json
++ minecraft/models/item/deepslate_tile_stairs.json
++ minecraft/models/item/deepslate_tile_wall.json
++ minecraft/models/item/deepslate_tiles.json
++ minecraft/models/item/deepslate.json
+- minecraft/models/item/grimstone_brick_slab.json
+- minecraft/models/item/grimstone_brick_stairs.json
+- minecraft/models/item/grimstone_brick_wall.json
+- minecraft/models/item/grimstone_bricks.json
+- minecraft/models/item/grimstone_slab.json
+- minecraft/models/item/grimstone_stairs.json
+- minecraft/models/item/grimstone_tile_slab.json
+- minecraft/models/item/grimstone_tile_stairs.json
+- minecraft/models/item/grimstone_tile_wall.json
+- minecraft/models/item/grimstone_tiles.json
+- minecraft/models/item/grimstone_wall.json
+- minecraft/models/item/grimstone.json
++ minecraft/models/item/polished_deepslate_slab.json
++ minecraft/models/item/polished_deepslate_stairs.json
++ minecraft/models/item/polished_deepslate_wall.json
++ minecraft/models/item/polished_deepslate.json
+- minecraft/models/item/polished_grimstone_slab.json
+- minecraft/models/item/polished_grimstone_stairs.json
+- minecraft/models/item/polished_grimstone_wall.json
+- minecraft/models/item/polished_grimstone.json
++ minecraft/models/item/smooth_basalt.json
++ minecraft/textures/block/chiseled_deepslate.png
+- minecraft/textures/block/chiseled_grimstone.png
++ minecraft/textures/block/cobbled_deepslate.png
++ minecraft/textures/block/deepslate_bricks.png
++ minecraft/textures/block/deepslate_diamond_ore.png
++ minecraft/textures/block/deepslate_gold_ore.png
++ minecraft/textures/block/deepslate_iron_ore.png
++ minecraft/textures/block/deepslate_lapis_ore.png
++ minecraft/textures/block/deepslate_redstone_ore.png
++ minecraft/textures/block/deepslate_tiles.png
++ minecraft/textures/block/deepslate_top.png
++ minecraft/textures/block/deepslate.png
+- minecraft/textures/block/grimstone_bricks.png
+- minecraft/textures/block/grimstone_tiles.png
+- minecraft/textures/block/grimstone.png
++ minecraft/textures/block/polished_deepslate.png
+- minecraft/textures/block/polished_grimstone.png
++ minecraft/textures/block/smooth_basalt.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/float_provider_type.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:chiseled_deepslate
+- minecraft:chiseled_grimstone
++ minecraft:cobbled_deepslate
++ minecraft:cobbled_deepslate_slab
++ minecraft:cobbled_deepslate_stairs
++ minecraft:cobbled_deepslate_wall
++ minecraft:deepslate
++ minecraft:deepslate_brick_slab
++ minecraft:deepslate_brick_stairs
++ minecraft:deepslate_brick_wall
++ minecraft:deepslate_bricks
++ minecraft:deepslate_diamond_ore
++ minecraft:deepslate_gold_ore
++ minecraft:deepslate_iron_ore
++ minecraft:deepslate_lapis_ore
++ minecraft:deepslate_redstone_ore
++ minecraft:deepslate_tile_slab
++ minecraft:deepslate_tile_stairs
++ minecraft:deepslate_tile_wall
++ minecraft:deepslate_tiles
+- minecraft:grimstone
+- minecraft:grimstone_brick_slab
+- minecraft:grimstone_brick_stairs
+- minecraft:grimstone_brick_wall
+- minecraft:grimstone_bricks
+- minecraft:grimstone_slab
+- minecraft:grimstone_stairs
+- minecraft:grimstone_tile_slab
+- minecraft:grimstone_tile_stairs
+- minecraft:grimstone_tile_wall
+- minecraft:grimstone_tiles
+- minecraft:grimstone_wall
++ minecraft:polished_deepslate
++ minecraft:polished_deepslate_slab
++ minecraft:polished_deepslate_stairs
++ minecraft:polished_deepslate_wall
+- minecraft:polished_grimstone
+- minecraft:polished_grimstone_slab
+- minecraft:polished_grimstone_stairs
+- minecraft:polished_grimstone_wall
++ minecraft:smooth_basalt
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:chiseled_deepslate
+- minecraft:chiseled_grimstone
++ minecraft:cobbled_deepslate
++ minecraft:cobbled_deepslate_slab
++ minecraft:cobbled_deepslate_stairs
++ minecraft:cobbled_deepslate_wall
++ minecraft:deepslate
++ minecraft:deepslate_brick_slab
++ minecraft:deepslate_brick_stairs
++ minecraft:deepslate_brick_wall
++ minecraft:deepslate_bricks
++ minecraft:deepslate_diamond_ore
++ minecraft:deepslate_gold_ore
++ minecraft:deepslate_iron_ore
++ minecraft:deepslate_lapis_ore
++ minecraft:deepslate_redstone_ore
++ minecraft:deepslate_tile_slab
++ minecraft:deepslate_tile_stairs
++ minecraft:deepslate_tile_wall
++ minecraft:deepslate_tiles
+- minecraft:grimstone
+- minecraft:grimstone_brick_slab
+- minecraft:grimstone_brick_stairs
+- minecraft:grimstone_brick_wall
+- minecraft:grimstone_bricks
+- minecraft:grimstone_slab
+- minecraft:grimstone_stairs
+- minecraft:grimstone_tile_slab
+- minecraft:grimstone_tile_stairs
+- minecraft:grimstone_tile_wall
+- minecraft:grimstone_tiles
+- minecraft:grimstone_wall
++ minecraft:polished_deepslate
++ minecraft:polished_deepslate_slab
++ minecraft:polished_deepslate_stairs
++ minecraft:polished_deepslate_wall
+- minecraft:polished_grimstone
+- minecraft:polished_grimstone_slab
+- minecraft:polished_grimstone_stairs
+- minecraft:polished_grimstone_wall
++ minecraft:smooth_basalt
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.deepslate_bricks.break
++ minecraft:block.deepslate_bricks.fall
++ minecraft:block.deepslate_bricks.hit
++ minecraft:block.deepslate_bricks.place
++ minecraft:block.deepslate_bricks.step
++ minecraft:block.deepslate_tiles.break
++ minecraft:block.deepslate_tiles.fall
++ minecraft:block.deepslate_tiles.hit
++ minecraft:block.deepslate_tiles.place
++ minecraft:block.deepslate_tiles.step
++ minecraft:block.deepslate.break
++ minecraft:block.deepslate.fall
++ minecraft:block.deepslate.hit
++ minecraft:block.deepslate.place
++ minecraft:block.deepslate.step
++ minecraft:block.polished_deepslate.break
++ minecraft:block.polished_deepslate.fall
++ minecraft:block.polished_deepslate.hit
++ minecraft:block.polished_deepslate.place
++ minecraft:block.polished_deepslate.step
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
+- minecraft:no_surface_ore
++ minecraft:scattered_ore
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/deepslate_ore_replaceables.json
++ blocks/diamond_ores.json
++ blocks/iron_ores.json
++ blocks/lapis_ores.json
++ blocks/redstone_ores.json
++ blocks/stone_ore_replaceables.json
++ items/diamond_ores.json
++ items/iron_ores.json
++ items/lapis_ores.json
++ items/redstone_ores.json
+```
+
+</details>
+
+
+<details><summary>blocks/base_stone_overworld.json</summary>
+
+```diff
++ minecraft:deepslate
+- minecraft:grimstone
++ minecraft:tuff
+```
+
+</details>
+
+
+<details><summary>blocks/gold_ores.json</summary>
+
+```diff
++ minecraft:deepslate_gold_ore
+```
+
+</details>
+
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_slab
++ minecraft:deepslate_brick_slab
++ minecraft:deepslate_tile_slab
+- minecraft:grimstone_brick_slab
+- minecraft:grimstone_slab
+- minecraft:grimstone_tile_slab
++ minecraft:polished_deepslate_slab
+- minecraft:polished_grimstone_slab
+```
+
+</details>
+
+
+<details><summary>blocks/stairs.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_stairs
++ minecraft:deepslate_brick_stairs
++ minecraft:deepslate_tile_stairs
+- minecraft:grimstone_brick_stairs
+- minecraft:grimstone_stairs
+- minecraft:grimstone_tile_stairs
++ minecraft:polished_deepslate_stairs
+- minecraft:polished_grimstone_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/walls.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_wall
++ minecraft:deepslate_brick_wall
++ minecraft:deepslate_tile_wall
+- minecraft:grimstone_brick_wall
+- minecraft:grimstone_tile_wall
+- minecraft:grimstone_wall
++ minecraft:polished_deepslate_wall
+- minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+<details><summary>items/gold_ores.json</summary>
+
+```diff
++ minecraft:deepslate_gold_ore
+```
+
+</details>
+
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_slab
++ minecraft:deepslate_brick_slab
++ minecraft:deepslate_tile_slab
+- minecraft:grimstone_brick_slab
+- minecraft:grimstone_slab
+- minecraft:grimstone_tile_slab
++ minecraft:polished_deepslate_slab
+- minecraft:polished_grimstone_slab
+```
+
+</details>
+
+
+<details><summary>items/stairs.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_stairs
++ minecraft:deepslate_brick_stairs
++ minecraft:deepslate_tile_stairs
+- minecraft:grimstone_brick_stairs
+- minecraft:grimstone_stairs
+- minecraft:grimstone_tile_stairs
++ minecraft:polished_deepslate_stairs
+- minecraft:polished_grimstone_stairs
+```
+
+</details>
+
+
+<details><summary>items/stone_crafting_materials.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate
+- minecraft:grimstone
+```
+
+</details>
+
+
+<details><summary>items/stone_tool_materials.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate
+- minecraft:grimstone
+```
+
+</details>
+
+
+<details><summary>items/walls.json</summary>
+
+```diff
++ minecraft:cobbled_deepslate_wall
++ minecraft:deepslate_brick_wall
++ minecraft:deepslate_tile_wall
+- minecraft:grimstone_brick_wall
+- minecraft:grimstone_tile_wall
+- minecraft:grimstone_wall
++ minecraft:polished_deepslate_wall
+- minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.chiseled_deepslate
+- block.minecraft.chiseled_grimstone
++ block.minecraft.cobbled_deepslate
++ block.minecraft.cobbled_deepslate_slab
++ block.minecraft.cobbled_deepslate_stairs
++ block.minecraft.cobbled_deepslate_wall
++ block.minecraft.deepslate
++ block.minecraft.deepslate_brick_slab
++ block.minecraft.deepslate_brick_stairs
++ block.minecraft.deepslate_brick_wall
++ block.minecraft.deepslate_bricks
++ block.minecraft.deepslate_diamond_ore
++ block.minecraft.deepslate_gold_ore
++ block.minecraft.deepslate_iron_ore
++ block.minecraft.deepslate_lapis_ore
++ block.minecraft.deepslate_redstone_ore
++ block.minecraft.deepslate_tile_slab
++ block.minecraft.deepslate_tile_stairs
++ block.minecraft.deepslate_tile_wall
++ block.minecraft.deepslate_tiles
+- block.minecraft.grimstone
+- block.minecraft.grimstone_brick_slab
+- block.minecraft.grimstone_brick_stairs
+- block.minecraft.grimstone_brick_wall
+- block.minecraft.grimstone_bricks
+- block.minecraft.grimstone_slab
+- block.minecraft.grimstone_stairs
+- block.minecraft.grimstone_tile_slab
+- block.minecraft.grimstone_tile_stairs
+- block.minecraft.grimstone_tile_wall
+- block.minecraft.grimstone_tiles
+- block.minecraft.grimstone_wall
++ block.minecraft.polished_deepslate
++ block.minecraft.polished_deepslate_slab
++ block.minecraft.polished_deepslate_stairs
++ block.minecraft.polished_deepslate_wall
+- block.minecraft.polished_grimstone
+- block.minecraft.polished_grimstone_slab
+- block.minecraft.polished_grimstone_stairs
+- block.minecraft.polished_grimstone_wall
++ block.minecraft.smooth_basalt
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/chiseled_deepslate.json
+- recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
+- recipes/building_blocks/chiseled_grimstone.json
++ recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/cobbled_deepslate_slab.json
++ recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ recipes/building_blocks/cobbled_deepslate_stairs.json
++ recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
++ recipes/building_blocks/deepslate_brick_slab.json
++ recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
++ recipes/building_blocks/deepslate_brick_stairs.json
++ recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
++ recipes/building_blocks/deepslate_tile_slab.json
++ recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
++ recipes/building_blocks/deepslate_tile_stairs.json
+- recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
+- recipes/building_blocks/grimstone_brick_slab.json
+- recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
+- recipes/building_blocks/grimstone_brick_stairs.json
+- recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
+- recipes/building_blocks/grimstone_slab.json
+- recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
+- recipes/building_blocks/grimstone_stairs.json
+- recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
+- recipes/building_blocks/grimstone_tile_slab.json
+- recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
+- recipes/building_blocks/grimstone_tile_stairs.json
++ recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/polished_deepslate_slab.json
++ recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
++ recipes/building_blocks/polished_deepslate_stairs.json
++ recipes/building_blocks/polished_deepslate.json
+- recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
+- recipes/building_blocks/polished_grimstone_slab.json
+- recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
+- recipes/building_blocks/polished_grimstone_stairs.json
+- recipes/building_blocks/polished_grimstone.json
++ recipes/building_blocks/smooth_basalt.json
++ recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
++ recipes/decorations/cobbled_deepslate_wall.json
++ recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
++ recipes/decorations/deepslate_brick_wall.json
++ recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
++ recipes/decorations/deepslate_tile_wall.json
+- recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
+- recipes/decorations/grimstone_brick_wall.json
+- recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
+- recipes/decorations/grimstone_tile_wall.json
+- recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
+- recipes/decorations/grimstone_wall.json
+- recipes/decorations/honey_block.json
++ recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting.json
++ recipes/decorations/polished_deepslate_wall.json
+- recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
+- recipes/decorations/polished_grimstone_wall.json
+- recipes/decorations/slime_block.json
++ recipes/redstone/honey_block.json
++ recipes/redstone/slime_block.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/chiseled_deepslate.json
+- blocks/chiseled_grimstone.json
++ blocks/cobbled_deepslate_slab.json
++ blocks/cobbled_deepslate_stairs.json
++ blocks/cobbled_deepslate_wall.json
++ blocks/cobbled_deepslate.json
++ blocks/deepslate_brick_slab.json
++ blocks/deepslate_brick_stairs.json
++ blocks/deepslate_brick_wall.json
++ blocks/deepslate_bricks.json
++ blocks/deepslate_diamond_ore.json
++ blocks/deepslate_gold_ore.json
++ blocks/deepslate_iron_ore.json
++ blocks/deepslate_lapis_ore.json
++ blocks/deepslate_redstone_ore.json
++ blocks/deepslate_tile_slab.json
++ blocks/deepslate_tile_stairs.json
++ blocks/deepslate_tile_wall.json
++ blocks/deepslate_tiles.json
++ blocks/deepslate.json
+- blocks/grimstone_brick_slab.json
+- blocks/grimstone_brick_stairs.json
+- blocks/grimstone_brick_wall.json
+- blocks/grimstone_bricks.json
+- blocks/grimstone_slab.json
+- blocks/grimstone_stairs.json
+- blocks/grimstone_tile_slab.json
+- blocks/grimstone_tile_stairs.json
+- blocks/grimstone_tile_wall.json
+- blocks/grimstone_tiles.json
+- blocks/grimstone_wall.json
+- blocks/grimstone.json
++ blocks/polished_deepslate_slab.json
++ blocks/polished_deepslate_stairs.json
++ blocks/polished_deepslate_wall.json
++ blocks/polished_deepslate.json
+- blocks/polished_grimstone_slab.json
+- blocks/polished_grimstone_stairs.json
+- blocks/polished_grimstone_wall.json
+- blocks/polished_grimstone.json
++ blocks/smooth_basalt.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ chiseled_deepslate_from_cobbled_deepslate_stonecutting.json
++ chiseled_deepslate.json
+- chiseled_grimstone_from_grimstone_stonecutting.json
+- chiseled_grimstone.json
++ cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting.json
++ cobbled_deepslate_slab.json
++ cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting.json
++ cobbled_deepslate_stairs.json
++ cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting.json
++ cobbled_deepslate_wall.json
++ deepslate_brick_slab_from_deepslate_bricks_stonecutting.json
++ deepslate_brick_slab.json
++ deepslate_brick_stairs_from_deepslate_bricks_stonecutting.json
++ deepslate_brick_stairs.json
++ deepslate_brick_wall_from_deepslate_bricks_stonecutting.json
++ deepslate_brick_wall.json
++ deepslate_tile_slab_from_deepslate_tiles_stonecutting.json
++ deepslate_tile_slab.json
++ deepslate_tile_stairs_from_deepslate_tiles_stonecutting.json
++ deepslate_tile_stairs.json
++ deepslate_tile_wall_from_deepslate_tiles_stonecutting.json
++ deepslate_tile_wall.json
+- grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
+- grimstone_brick_slab.json
+- grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
+- grimstone_brick_stairs.json
+- grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
+- grimstone_brick_wall.json
+- grimstone_slab_from_grimstone_stonecutting.json
+- grimstone_slab.json
+- grimstone_stairs_from_grimstone_stonecutting.json
+- grimstone_stairs.json
+- grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
+- grimstone_tile_slab.json
+- grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
+- grimstone_tile_stairs.json
+- grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
+- grimstone_tile_wall.json
+- grimstone_wall_from_grimstone_stonecutting.json
+- grimstone_wall.json
++ polished_deepslate_slab_from_polished_deepslate_stonecutting.json
++ polished_deepslate_slab.json
++ polished_deepslate_stairs_from_polished_deepslate_stonecutting.json
++ polished_deepslate_stairs.json
++ polished_deepslate_wall_from_polished_deepslate_stonecutting.json
++ polished_deepslate_wall.json
++ polished_deepslate.json
+- polished_grimstone_slab_from_polished_grimstone_stonecutting.json
+- polished_grimstone_slab.json
+- polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
+- polished_grimstone_stairs.json
+- polished_grimstone_wall_from_polished_grimstone_stonecutting.json
+- polished_grimstone_wall.json
+- polished_grimstone.json
++ smooth_basalt.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/deepslate_ore_replaceables.json
++ blocks/diamond_ores.json
++ blocks/iron_ores.json
++ blocks/lapis_ores.json
++ blocks/redstone_ores.json
++ blocks/stone_ore_replaceables.json
++ items/diamond_ores.json
++ items/iron_ores.json
++ items/lapis_ores.json
++ items/redstone_ores.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/chiseled_deepslate.png
+- block/chiseled_grimstone.png
++ block/cobbled_deepslate.png
++ block/deepslate_bricks.png
++ block/deepslate_diamond_ore.png
++ block/deepslate_gold_ore.png
++ block/deepslate_iron_ore.png
++ block/deepslate_lapis_ore.png
++ block/deepslate_redstone_ore.png
++ block/deepslate_tiles.png
++ block/deepslate_top.png
++ block/deepslate.png
+- block/grimstone_bricks.png
+- block/grimstone_tiles.png
+- block/grimstone.png
++ block/polished_deepslate.png
+- block/polished_grimstone.png
++ block/smooth_basalt.png
+```
+
+</details>

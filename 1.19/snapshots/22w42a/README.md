@@ -1,6484 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w42a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w42a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-10-19T09:34:22+00:00</td></tr>
-<tr><th>SHA1</th><td>1a4edd46b09e8506ae3dde3de35f6f9905d25350</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/1a4edd46b09e8506ae3dde3de35f6f9905d25350/22w42a.json">https://piston-meta.mojang.com/v1/packages/1a4edd46b09e8506ae3dde3de35f6f9905d25350/22w42a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/43425ceb2ad43d7a6e4a014cbb7e8bae9140adfa/1.json">https://piston-meta.mojang.com/v1/packages/43425ceb2ad43d7a6e4a014cbb7e8bae9140adfa/1.json</a></td></tr>
+<tr><th>SHA1</th><td>9fa0e216189c2d812e15d3a581ba1708f00972e7</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/9fa0e216189c2d812e15d3a581ba1708f00972e7/22w42a.json">https://piston-meta.mojang.com/v1/packages/9fa0e216189c2d812e15d3a581ba1708f00972e7/22w42a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/cbc9209cb1cf9bb60c34cd9f930e48645a4df218/1.json">https://piston-meta.mojang.com/v1/packages/cbc9209cb1cf9bb60c34cd9f930e48645a4df218/1.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/008996e2d1e0d49d7f1b477f69106a6d23c5c103/server.jar">https://piston-data.mojang.com/v1/objects/008996e2d1e0d49d7f1b477f69106a6d23c5c103/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/4ef43965a4f1b02489d7b41f1b16f6e517047408/server.txt">https://piston-data.mojang.com/v1/objects/4ef43965a4f1b02489d7b41f1b16f6e517047408/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/7294caf715c4994b7b26f349c823391afb25c495/client.jar">https://piston-data.mojang.com/v1/objects/7294caf715c4994b7b26f349c823391afb25c495/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/10743e772469858f7ac41667e3b581dcfad60b65/client.txt">https://piston-data.mojang.com/v1/objects/10743e772469858f7ac41667e3b581dcfad60b65/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19.2">1.19.2</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/chat_type
-+  minecraft/chat_type/chat.json
-+  minecraft/chat_type/emote_command.json
-+  minecraft/chat_type/msg_command_incoming.json
-+  minecraft/chat_type/msg_command_outgoing.json
-+  minecraft/chat_type/say_command.json
-+  minecraft/chat_type/team_msg_command_incoming.json
-+  minecraft/chat_type/team_msg_command_outgoing.json
-+  minecraft/datapacks
-+  minecraft/datapacks/bundle
-+  minecraft/datapacks/bundle/data
-+  minecraft/datapacks/bundle/data/minecraft
-+  minecraft/datapacks/bundle/data/minecraft/advancements
-+  minecraft/datapacks/bundle/data/minecraft/advancements/recipes
-+  minecraft/datapacks/bundle/data/minecraft/advancements/recipes/tools
-+  minecraft/datapacks/bundle/data/minecraft/advancements/recipes/tools/bundle.json
-+  minecraft/datapacks/bundle/data/minecraft/recipes
-+  minecraft/datapacks/bundle/data/minecraft/recipes/bundle.json
-+  minecraft/datapacks/bundle/pack.mcmeta
-+  minecraft/datapacks/update_1_20
-+  minecraft/datapacks/update_1_20/data
-+  minecraft/datapacks/update_1_20/data/minecraft
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_mosaic.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/warped_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_raft.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/acacia_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/birch_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/chiseled_bookshelf.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/crimson_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/jungle_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/mangrove_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/spruce_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/warped_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/acacia_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_button.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_chest_raft.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_door.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence_gate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_pressure_plate.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_raft.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_slab.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_trapdoor.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/chiseled_bookshelf.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/crimson_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/dark_oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/jungle_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/mangrove_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/oak_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/spruce_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/recipes/warped_hanging_sign.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/axe.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_hanging_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/ceiling_hanging_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/fence_gates.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/standing_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_hanging_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_buttons.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_doors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_fences.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_pressure_plates.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_slabs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_trapdoors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/boats.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/bookshelf_books.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/buttons.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/chest_boats.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/doors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/fences.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/hanging_signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/planks.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/signs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/slabs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/trapdoors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_buttons.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_doors.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_fences.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_pressure_plates.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_slabs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_stairs.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_trapdoors.json
-+  minecraft/datapacks/update_1_20/pack.mcmeta
-+  minecraft/dimension_type
-+  minecraft/dimension_type/overworld.json
-+  minecraft/dimension_type/overworld_caves.json
-+  minecraft/dimension_type/the_end.json
-+  minecraft/dimension_type/the_nether.json
-+  minecraft/loot_tables/blocks/acacia_hanging_sign.json
-+  minecraft/loot_tables/blocks/bamboo_button.json
-+  minecraft/loot_tables/blocks/bamboo_door.json
-+  minecraft/loot_tables/blocks/bamboo_fence.json
-+  minecraft/loot_tables/blocks/bamboo_fence_gate.json
-+  minecraft/loot_tables/blocks/bamboo_hanging_sign.json
-+  minecraft/loot_tables/blocks/bamboo_mosaic.json
-+  minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
-+  minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
-+  minecraft/loot_tables/blocks/bamboo_planks.json
-+  minecraft/loot_tables/blocks/bamboo_pressure_plate.json
-+  minecraft/loot_tables/blocks/bamboo_sign.json
-+  minecraft/loot_tables/blocks/bamboo_slab.json
-+  minecraft/loot_tables/blocks/bamboo_stairs.json
-+  minecraft/loot_tables/blocks/bamboo_trapdoor.json
-+  minecraft/loot_tables/blocks/birch_hanging_sign.json
-+  minecraft/loot_tables/blocks/chiseled_bookshelf.json
-+  minecraft/loot_tables/blocks/crimson_hanging_sign.json
-+  minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
-+  minecraft/loot_tables/blocks/jungle_hanging_sign.json
-+  minecraft/loot_tables/blocks/mangrove_hanging_sign.json
-+  minecraft/loot_tables/blocks/oak_hanging_sign.json
-+  minecraft/loot_tables/blocks/spruce_hanging_sign.json
-+  minecraft/loot_tables/blocks/warped_hanging_sign.json
-+  minecraft/loot_tables/entities/camel.json
-+  minecraft/structures/village/desert/camel_spawn.nbt
-+  minecraft/tags/blocks/invalid_spawn_inside.json
-+  minecraft/tags/blocks/stripped_logs.json
-+  minecraft/tags/items/stripped_logs.json
-+  minecraft/worldgen
-+  minecraft/worldgen/biome
-+  minecraft/worldgen/biome/badlands.json
-+  minecraft/worldgen/biome/bamboo_jungle.json
-+  minecraft/worldgen/biome/basalt_deltas.json
-+  minecraft/worldgen/biome/beach.json
-+  minecraft/worldgen/biome/birch_forest.json
-+  minecraft/worldgen/biome/cold_ocean.json
-+  minecraft/worldgen/biome/crimson_forest.json
-+  minecraft/worldgen/biome/dark_forest.json
-+  minecraft/worldgen/biome/deep_cold_ocean.json
-+  minecraft/worldgen/biome/deep_dark.json
-+  minecraft/worldgen/biome/deep_frozen_ocean.json
-+  minecraft/worldgen/biome/deep_lukewarm_ocean.json
-+  minecraft/worldgen/biome/deep_ocean.json
-+  minecraft/worldgen/biome/desert.json
-+  minecraft/worldgen/biome/dripstone_caves.json
-+  minecraft/worldgen/biome/end_barrens.json
-+  minecraft/worldgen/biome/end_highlands.json
-+  minecraft/worldgen/biome/end_midlands.json
-+  minecraft/worldgen/biome/eroded_badlands.json
-+  minecraft/worldgen/biome/flower_forest.json
-+  minecraft/worldgen/biome/forest.json
-+  minecraft/worldgen/biome/frozen_ocean.json
-+  minecraft/worldgen/biome/frozen_peaks.json
-+  minecraft/worldgen/biome/frozen_river.json
-+  minecraft/worldgen/biome/grove.json
-+  minecraft/worldgen/biome/ice_spikes.json
-+  minecraft/worldgen/biome/jagged_peaks.json
-+  minecraft/worldgen/biome/jungle.json
-+  minecraft/worldgen/biome/lukewarm_ocean.json
-+  minecraft/worldgen/biome/lush_caves.json
-+  minecraft/worldgen/biome/mangrove_swamp.json
-+  minecraft/worldgen/biome/meadow.json
-+  minecraft/worldgen/biome/mushroom_fields.json
-+  minecraft/worldgen/biome/nether_wastes.json
-+  minecraft/worldgen/biome/ocean.json
-+  minecraft/worldgen/biome/old_growth_birch_forest.json
-+  minecraft/worldgen/biome/old_growth_pine_taiga.json
-+  minecraft/worldgen/biome/old_growth_spruce_taiga.json
-+  minecraft/worldgen/biome/plains.json
-+  minecraft/worldgen/biome/river.json
-+  minecraft/worldgen/biome/savanna.json
-+  minecraft/worldgen/biome/savanna_plateau.json
-+  minecraft/worldgen/biome/small_end_islands.json
-+  minecraft/worldgen/biome/snowy_beach.json
-+  minecraft/worldgen/biome/snowy_plains.json
-+  minecraft/worldgen/biome/snowy_slopes.json
-+  minecraft/worldgen/biome/snowy_taiga.json
-+  minecraft/worldgen/biome/soul_sand_valley.json
-+  minecraft/worldgen/biome/sparse_jungle.json
-+  minecraft/worldgen/biome/stony_peaks.json
-+  minecraft/worldgen/biome/stony_shore.json
-+  minecraft/worldgen/biome/sunflower_plains.json
-+  minecraft/worldgen/biome/swamp.json
-+  minecraft/worldgen/biome/taiga.json
-+  minecraft/worldgen/biome/the_end.json
-+  minecraft/worldgen/biome/the_void.json
-+  minecraft/worldgen/biome/warm_ocean.json
-+  minecraft/worldgen/biome/warped_forest.json
-+  minecraft/worldgen/biome/windswept_forest.json
-+  minecraft/worldgen/biome/windswept_gravelly_hills.json
-+  minecraft/worldgen/biome/windswept_hills.json
-+  minecraft/worldgen/biome/windswept_savanna.json
-+  minecraft/worldgen/biome/wooded_badlands.json
-+  minecraft/worldgen/configured_carver
-+  minecraft/worldgen/configured_carver/canyon.json
-+  minecraft/worldgen/configured_carver/cave.json
-+  minecraft/worldgen/configured_carver/cave_extra_underground.json
-+  minecraft/worldgen/configured_carver/nether_cave.json
-+  minecraft/worldgen/configured_feature
-+  minecraft/worldgen/configured_feature/acacia.json
-+  minecraft/worldgen/configured_feature/amethyst_geode.json
-+  minecraft/worldgen/configured_feature/azalea_tree.json
-+  minecraft/worldgen/configured_feature/bamboo_no_podzol.json
-+  minecraft/worldgen/configured_feature/bamboo_some_podzol.json
-+  minecraft/worldgen/configured_feature/bamboo_vegetation.json
-+  minecraft/worldgen/configured_feature/basalt_blobs.json
-+  minecraft/worldgen/configured_feature/basalt_pillar.json
-+  minecraft/worldgen/configured_feature/birch.json
-+  minecraft/worldgen/configured_feature/birch_bees_0002.json
-+  minecraft/worldgen/configured_feature/birch_bees_002.json
-+  minecraft/worldgen/configured_feature/birch_bees_005.json
-+  minecraft/worldgen/configured_feature/birch_tall.json
-+  minecraft/worldgen/configured_feature/blackstone_blobs.json
-+  minecraft/worldgen/configured_feature/blue_ice.json
-+  minecraft/worldgen/configured_feature/bonus_chest.json
-+  minecraft/worldgen/configured_feature/cave_vine.json
-+  minecraft/worldgen/configured_feature/cave_vine_in_moss.json
-+  minecraft/worldgen/configured_feature/chorus_plant.json
-+  minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
-+  minecraft/worldgen/configured_feature/clay_with_dripleaves.json
-+  minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
-+  minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
-+  minecraft/worldgen/configured_feature/crimson_fungus.json
-+  minecraft/worldgen/configured_feature/crimson_fungus_planted.json
-+  minecraft/worldgen/configured_feature/dark_forest_vegetation.json
-+  minecraft/worldgen/configured_feature/dark_oak.json
-+  minecraft/worldgen/configured_feature/delta.json
-+  minecraft/worldgen/configured_feature/desert_well.json
-+  minecraft/worldgen/configured_feature/disk_clay.json
-+  minecraft/worldgen/configured_feature/disk_grass.json
-+  minecraft/worldgen/configured_feature/disk_gravel.json
-+  minecraft/worldgen/configured_feature/disk_sand.json
-+  minecraft/worldgen/configured_feature/dripleaf.json
-+  minecraft/worldgen/configured_feature/dripstone_cluster.json
-+  minecraft/worldgen/configured_feature/end_gateway_delayed.json
-+  minecraft/worldgen/configured_feature/end_gateway_return.json
-+  minecraft/worldgen/configured_feature/end_island.json
-+  minecraft/worldgen/configured_feature/end_spike.json
-+  minecraft/worldgen/configured_feature/fancy_oak.json
-+  minecraft/worldgen/configured_feature/fancy_oak_bees.json
-+  minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
-+  minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
-+  minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
-+  minecraft/worldgen/configured_feature/flower_default.json
-+  minecraft/worldgen/configured_feature/flower_flower_forest.json
-+  minecraft/worldgen/configured_feature/flower_meadow.json
-+  minecraft/worldgen/configured_feature/flower_plain.json
-+  minecraft/worldgen/configured_feature/flower_swamp.json
-+  minecraft/worldgen/configured_feature/forest_flowers.json
-+  minecraft/worldgen/configured_feature/forest_rock.json
-+  minecraft/worldgen/configured_feature/fossil_coal.json
-+  minecraft/worldgen/configured_feature/fossil_diamonds.json
-+  minecraft/worldgen/configured_feature/freeze_top_layer.json
-+  minecraft/worldgen/configured_feature/glow_lichen.json
-+  minecraft/worldgen/configured_feature/glowstone_extra.json
-+  minecraft/worldgen/configured_feature/huge_brown_mushroom.json
-+  minecraft/worldgen/configured_feature/huge_red_mushroom.json
-+  minecraft/worldgen/configured_feature/ice_patch.json
-+  minecraft/worldgen/configured_feature/ice_spike.json
-+  minecraft/worldgen/configured_feature/iceberg_blue.json
-+  minecraft/worldgen/configured_feature/iceberg_packed.json
-+  minecraft/worldgen/configured_feature/jungle_bush.json
-+  minecraft/worldgen/configured_feature/jungle_tree.json
-+  minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
-+  minecraft/worldgen/configured_feature/kelp.json
-+  minecraft/worldgen/configured_feature/lake_lava.json
-+  minecraft/worldgen/configured_feature/large_basalt_columns.json
-+  minecraft/worldgen/configured_feature/large_dripstone.json
-+  minecraft/worldgen/configured_feature/lush_caves_clay.json
-+  minecraft/worldgen/configured_feature/mangrove.json
-+  minecraft/worldgen/configured_feature/mangrove_vegetation.json
-+  minecraft/worldgen/configured_feature/meadow_trees.json
-+  minecraft/worldgen/configured_feature/mega_jungle_tree.json
-+  minecraft/worldgen/configured_feature/mega_pine.json
-+  minecraft/worldgen/configured_feature/mega_spruce.json
-+  minecraft/worldgen/configured_feature/monster_room.json
-+  minecraft/worldgen/configured_feature/moss_patch.json
-+  minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
-+  minecraft/worldgen/configured_feature/moss_patch_ceiling.json
-+  minecraft/worldgen/configured_feature/moss_vegetation.json
-+  minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
-+  minecraft/worldgen/configured_feature/nether_sprouts.json
-+  minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
-+  minecraft/worldgen/configured_feature/oak.json
-+  minecraft/worldgen/configured_feature/oak_bees_0002.json
-+  minecraft/worldgen/configured_feature/oak_bees_002.json
-+  minecraft/worldgen/configured_feature/oak_bees_005.json
-+  minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
-+  minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
-+  minecraft/worldgen/configured_feature/ore_andesite.json
-+  minecraft/worldgen/configured_feature/ore_blackstone.json
-+  minecraft/worldgen/configured_feature/ore_clay.json
-+  minecraft/worldgen/configured_feature/ore_coal.json
-+  minecraft/worldgen/configured_feature/ore_coal_buried.json
-+  minecraft/worldgen/configured_feature/ore_copper_large.json
-+  minecraft/worldgen/configured_feature/ore_copper_small.json
-+  minecraft/worldgen/configured_feature/ore_diamond_buried.json
-+  minecraft/worldgen/configured_feature/ore_diamond_large.json
-+  minecraft/worldgen/configured_feature/ore_diamond_small.json
-+  minecraft/worldgen/configured_feature/ore_diorite.json
-+  minecraft/worldgen/configured_feature/ore_dirt.json
-+  minecraft/worldgen/configured_feature/ore_emerald.json
-+  minecraft/worldgen/configured_feature/ore_gold.json
-+  minecraft/worldgen/configured_feature/ore_gold_buried.json
-+  minecraft/worldgen/configured_feature/ore_granite.json
-+  minecraft/worldgen/configured_feature/ore_gravel.json
-+  minecraft/worldgen/configured_feature/ore_gravel_nether.json
-+  minecraft/worldgen/configured_feature/ore_infested.json
-+  minecraft/worldgen/configured_feature/ore_iron.json
-+  minecraft/worldgen/configured_feature/ore_iron_small.json
-+  minecraft/worldgen/configured_feature/ore_lapis.json
-+  minecraft/worldgen/configured_feature/ore_lapis_buried.json
-+  minecraft/worldgen/configured_feature/ore_magma.json
-+  minecraft/worldgen/configured_feature/ore_nether_gold.json
-+  minecraft/worldgen/configured_feature/ore_quartz.json
-+  minecraft/worldgen/configured_feature/ore_redstone.json
-+  minecraft/worldgen/configured_feature/ore_soul_sand.json
-+  minecraft/worldgen/configured_feature/ore_tuff.json
-+  minecraft/worldgen/configured_feature/patch_berry_bush.json
-+  minecraft/worldgen/configured_feature/patch_brown_mushroom.json
-+  minecraft/worldgen/configured_feature/patch_cactus.json
-+  minecraft/worldgen/configured_feature/patch_crimson_roots.json
-+  minecraft/worldgen/configured_feature/patch_dead_bush.json
-+  minecraft/worldgen/configured_feature/patch_fire.json
-+  minecraft/worldgen/configured_feature/patch_grass.json
-+  minecraft/worldgen/configured_feature/patch_grass_jungle.json
-+  minecraft/worldgen/configured_feature/patch_large_fern.json
-+  minecraft/worldgen/configured_feature/patch_melon.json
-+  minecraft/worldgen/configured_feature/patch_pumpkin.json
-+  minecraft/worldgen/configured_feature/patch_red_mushroom.json
-+  minecraft/worldgen/configured_feature/patch_soul_fire.json
-+  minecraft/worldgen/configured_feature/patch_sugar_cane.json
-+  minecraft/worldgen/configured_feature/patch_sunflower.json
-+  minecraft/worldgen/configured_feature/patch_taiga_grass.json
-+  minecraft/worldgen/configured_feature/patch_tall_grass.json
-+  minecraft/worldgen/configured_feature/patch_waterlily.json
-+  minecraft/worldgen/configured_feature/pile_hay.json
-+  minecraft/worldgen/configured_feature/pile_ice.json
-+  minecraft/worldgen/configured_feature/pile_melon.json
-+  minecraft/worldgen/configured_feature/pile_pumpkin.json
-+  minecraft/worldgen/configured_feature/pile_snow.json
-+  minecraft/worldgen/configured_feature/pine.json
-+  minecraft/worldgen/configured_feature/pointed_dripstone.json
-+  minecraft/worldgen/configured_feature/rooted_azalea_tree.json
-+  minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
-+  minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
-+  minecraft/worldgen/configured_feature/sculk_vein.json
-+  minecraft/worldgen/configured_feature/sea_pickle.json
-+  minecraft/worldgen/configured_feature/seagrass_mid.json
-+  minecraft/worldgen/configured_feature/seagrass_short.json
-+  minecraft/worldgen/configured_feature/seagrass_simple.json
-+  minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
-+  minecraft/worldgen/configured_feature/seagrass_tall.json
-+  minecraft/worldgen/configured_feature/single_piece_of_grass.json
-+  minecraft/worldgen/configured_feature/small_basalt_columns.json
-+  minecraft/worldgen/configured_feature/spore_blossom.json
-+  minecraft/worldgen/configured_feature/spring_lava_frozen.json
-+  minecraft/worldgen/configured_feature/spring_lava_nether.json
-+  minecraft/worldgen/configured_feature/spring_lava_overworld.json
-+  minecraft/worldgen/configured_feature/spring_nether_closed.json
-+  minecraft/worldgen/configured_feature/spring_nether_open.json
-+  minecraft/worldgen/configured_feature/spring_water.json
-+  minecraft/worldgen/configured_feature/spruce.json
-+  minecraft/worldgen/configured_feature/super_birch_bees.json
-+  minecraft/worldgen/configured_feature/super_birch_bees_0002.json
-+  minecraft/worldgen/configured_feature/swamp_oak.json
-+  minecraft/worldgen/configured_feature/tall_mangrove.json
-+  minecraft/worldgen/configured_feature/trees_birch_and_oak.json
-+  minecraft/worldgen/configured_feature/trees_flower_forest.json
-+  minecraft/worldgen/configured_feature/trees_grove.json
-+  minecraft/worldgen/configured_feature/trees_jungle.json
-+  minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
-+  minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
-+  minecraft/worldgen/configured_feature/trees_plains.json
-+  minecraft/worldgen/configured_feature/trees_savanna.json
-+  minecraft/worldgen/configured_feature/trees_sparse_jungle.json
-+  minecraft/worldgen/configured_feature/trees_taiga.json
-+  minecraft/worldgen/configured_feature/trees_water.json
-+  minecraft/worldgen/configured_feature/trees_windswept_hills.json
-+  minecraft/worldgen/configured_feature/twisting_vines.json
-+  minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
-+  minecraft/worldgen/configured_feature/underwater_magma.json
-+  minecraft/worldgen/configured_feature/vines.json
-+  minecraft/worldgen/configured_feature/void_start_platform.json
-+  minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
-+  minecraft/worldgen/configured_feature/warped_forest_vegetation.json
-+  minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
-+  minecraft/worldgen/configured_feature/warped_fungus.json
-+  minecraft/worldgen/configured_feature/warped_fungus_planted.json
-+  minecraft/worldgen/configured_feature/weeping_vines.json
-+  minecraft/worldgen/density_function
-+  minecraft/worldgen/density_function/end
-+  minecraft/worldgen/density_function/end/base_3d_noise.json
-+  minecraft/worldgen/density_function/end/sloped_cheese.json
-+  minecraft/worldgen/density_function/nether
-+  minecraft/worldgen/density_function/nether/base_3d_noise.json
-+  minecraft/worldgen/density_function/overworld
-+  minecraft/worldgen/density_function/overworld/caves
-+  minecraft/worldgen/density_function/overworld/caves/entrances.json
-+  minecraft/worldgen/density_function/overworld/caves/noodle.json
-+  minecraft/worldgen/density_function/overworld/caves/pillars.json
-+  minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
-+  minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
-+  minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
-+  minecraft/worldgen/density_function/overworld/base_3d_noise.json
-+  minecraft/worldgen/density_function/overworld/continents.json
-+  minecraft/worldgen/density_function/overworld/depth.json
-+  minecraft/worldgen/density_function/overworld/erosion.json
-+  minecraft/worldgen/density_function/overworld/factor.json
-+  minecraft/worldgen/density_function/overworld/jaggedness.json
-+  minecraft/worldgen/density_function/overworld/offset.json
-+  minecraft/worldgen/density_function/overworld/ridges.json
-+  minecraft/worldgen/density_function/overworld/ridges_folded.json
-+  minecraft/worldgen/density_function/overworld/sloped_cheese.json
-+  minecraft/worldgen/density_function/overworld_amplified
-+  minecraft/worldgen/density_function/overworld_amplified/depth.json
-+  minecraft/worldgen/density_function/overworld_amplified/factor.json
-+  minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
-+  minecraft/worldgen/density_function/overworld_amplified/offset.json
-+  minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
-+  minecraft/worldgen/density_function/overworld_large_biomes
-+  minecraft/worldgen/density_function/overworld_large_biomes/continents.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/depth.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/factor.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/offset.json
-+  minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
-+  minecraft/worldgen/density_function/shift_x.json
-+  minecraft/worldgen/density_function/shift_z.json
-+  minecraft/worldgen/density_function/y.json
-+  minecraft/worldgen/density_function/zero.json
-+  minecraft/worldgen/flat_level_generator_preset
-+  minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
-+  minecraft/worldgen/flat_level_generator_preset/classic_flat.json
-+  minecraft/worldgen/flat_level_generator_preset/desert.json
-+  minecraft/worldgen/flat_level_generator_preset/overworld.json
-+  minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
-+  minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
-+  minecraft/worldgen/flat_level_generator_preset/the_void.json
-+  minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
-+  minecraft/worldgen/flat_level_generator_preset/water_world.json
-+  minecraft/worldgen/noise
-+  minecraft/worldgen/noise/aquifer_barrier.json
-+  minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
-+  minecraft/worldgen/noise/aquifer_fluid_level_spread.json
-+  minecraft/worldgen/noise/aquifer_lava.json
-+  minecraft/worldgen/noise/badlands_pillar.json
-+  minecraft/worldgen/noise/badlands_pillar_roof.json
-+  minecraft/worldgen/noise/badlands_surface.json
-+  minecraft/worldgen/noise/calcite.json
-+  minecraft/worldgen/noise/cave_cheese.json
-+  minecraft/worldgen/noise/cave_entrance.json
-+  minecraft/worldgen/noise/cave_layer.json
-+  minecraft/worldgen/noise/clay_bands_offset.json
-+  minecraft/worldgen/noise/continentalness.json
-+  minecraft/worldgen/noise/continentalness_large.json
-+  minecraft/worldgen/noise/erosion.json
-+  minecraft/worldgen/noise/erosion_large.json
-+  minecraft/worldgen/noise/gravel.json
-+  minecraft/worldgen/noise/gravel_layer.json
-+  minecraft/worldgen/noise/ice.json
-+  minecraft/worldgen/noise/iceberg_pillar.json
-+  minecraft/worldgen/noise/iceberg_pillar_roof.json
-+  minecraft/worldgen/noise/iceberg_surface.json
-+  minecraft/worldgen/noise/jagged.json
-+  minecraft/worldgen/noise/nether_state_selector.json
-+  minecraft/worldgen/noise/nether_wart.json
-+  minecraft/worldgen/noise/netherrack.json
-+  minecraft/worldgen/noise/noodle.json
-+  minecraft/worldgen/noise/noodle_ridge_a.json
-+  minecraft/worldgen/noise/noodle_ridge_b.json
-+  minecraft/worldgen/noise/noodle_thickness.json
-+  minecraft/worldgen/noise/offset.json
-+  minecraft/worldgen/noise/ore_gap.json
-+  minecraft/worldgen/noise/ore_vein_a.json
-+  minecraft/worldgen/noise/ore_vein_b.json
-+  minecraft/worldgen/noise/ore_veininess.json
-+  minecraft/worldgen/noise/packed_ice.json
-+  minecraft/worldgen/noise/patch.json
-+  minecraft/worldgen/noise/pillar.json
-+  minecraft/worldgen/noise/pillar_rareness.json
-+  minecraft/worldgen/noise/pillar_thickness.json
-+  minecraft/worldgen/noise/powder_snow.json
-+  minecraft/worldgen/noise/ridge.json
-+  minecraft/worldgen/noise/soul_sand_layer.json
-+  minecraft/worldgen/noise/spaghetti_2d.json
-+  minecraft/worldgen/noise/spaghetti_2d_elevation.json
-+  minecraft/worldgen/noise/spaghetti_2d_modulator.json
-+  minecraft/worldgen/noise/spaghetti_2d_thickness.json
-+  minecraft/worldgen/noise/spaghetti_3d_1.json
-+  minecraft/worldgen/noise/spaghetti_3d_2.json
-+  minecraft/worldgen/noise/spaghetti_3d_rarity.json
-+  minecraft/worldgen/noise/spaghetti_3d_thickness.json
-+  minecraft/worldgen/noise/spaghetti_roughness.json
-+  minecraft/worldgen/noise/spaghetti_roughness_modulator.json
-+  minecraft/worldgen/noise/surface.json
-+  minecraft/worldgen/noise/surface_secondary.json
-+  minecraft/worldgen/noise/surface_swamp.json
-+  minecraft/worldgen/noise/temperature.json
-+  minecraft/worldgen/noise/temperature_large.json
-+  minecraft/worldgen/noise/vegetation.json
-+  minecraft/worldgen/noise/vegetation_large.json
-+  minecraft/worldgen/noise_settings
-+  minecraft/worldgen/noise_settings/amplified.json
-+  minecraft/worldgen/noise_settings/caves.json
-+  minecraft/worldgen/noise_settings/end.json
-+  minecraft/worldgen/noise_settings/floating_islands.json
-+  minecraft/worldgen/noise_settings/large_biomes.json
-+  minecraft/worldgen/noise_settings/nether.json
-+  minecraft/worldgen/noise_settings/overworld.json
-+  minecraft/worldgen/placed_feature
-+  minecraft/worldgen/placed_feature/acacia.json
-+  minecraft/worldgen/placed_feature/acacia_checked.json
-+  minecraft/worldgen/placed_feature/amethyst_geode.json
-+  minecraft/worldgen/placed_feature/bamboo.json
-+  minecraft/worldgen/placed_feature/bamboo_light.json
-+  minecraft/worldgen/placed_feature/bamboo_vegetation.json
-+  minecraft/worldgen/placed_feature/basalt_blobs.json
-+  minecraft/worldgen/placed_feature/basalt_pillar.json
-+  minecraft/worldgen/placed_feature/birch_bees_0002.json
-+  minecraft/worldgen/placed_feature/birch_bees_002.json
-+  minecraft/worldgen/placed_feature/birch_checked.json
-+  minecraft/worldgen/placed_feature/birch_tall.json
-+  minecraft/worldgen/placed_feature/blackstone_blobs.json
-+  minecraft/worldgen/placed_feature/blue_ice.json
-+  minecraft/worldgen/placed_feature/brown_mushroom_nether.json
-+  minecraft/worldgen/placed_feature/brown_mushroom_normal.json
-+  minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
-+  minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
-+  minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
-+  minecraft/worldgen/placed_feature/cave_vines.json
-+  minecraft/worldgen/placed_feature/chorus_plant.json
-+  minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
-+  minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
-+  minecraft/worldgen/placed_feature/crimson_fungi.json
-+  minecraft/worldgen/placed_feature/dark_forest_vegetation.json
-+  minecraft/worldgen/placed_feature/dark_oak_checked.json
-+  minecraft/worldgen/placed_feature/delta.json
-+  minecraft/worldgen/placed_feature/desert_well.json
-+  minecraft/worldgen/placed_feature/disk_clay.json
-+  minecraft/worldgen/placed_feature/disk_grass.json
-+  minecraft/worldgen/placed_feature/disk_gravel.json
-+  minecraft/worldgen/placed_feature/disk_sand.json
-+  minecraft/worldgen/placed_feature/dripstone_cluster.json
-+  minecraft/worldgen/placed_feature/end_gateway_return.json
-+  minecraft/worldgen/placed_feature/end_island_decorated.json
-+  minecraft/worldgen/placed_feature/end_spike.json
-+  minecraft/worldgen/placed_feature/fancy_oak_bees.json
-+  minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
-+  minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
-+  minecraft/worldgen/placed_feature/fancy_oak_checked.json
-+  minecraft/worldgen/placed_feature/flower_default.json
-+  minecraft/worldgen/placed_feature/flower_flower_forest.json
-+  minecraft/worldgen/placed_feature/flower_forest_flowers.json
-+  minecraft/worldgen/placed_feature/flower_meadow.json
-+  minecraft/worldgen/placed_feature/flower_plain.json
-+  minecraft/worldgen/placed_feature/flower_plains.json
-+  minecraft/worldgen/placed_feature/flower_swamp.json
-+  minecraft/worldgen/placed_feature/flower_warm.json
-+  minecraft/worldgen/placed_feature/forest_flowers.json
-+  minecraft/worldgen/placed_feature/forest_rock.json
-+  minecraft/worldgen/placed_feature/fossil_lower.json
-+  minecraft/worldgen/placed_feature/fossil_upper.json
-+  minecraft/worldgen/placed_feature/freeze_top_layer.json
-+  minecraft/worldgen/placed_feature/glow_lichen.json
-+  minecraft/worldgen/placed_feature/glowstone.json
-+  minecraft/worldgen/placed_feature/glowstone_extra.json
-+  minecraft/worldgen/placed_feature/grass_bonemeal.json
-+  minecraft/worldgen/placed_feature/ice_patch.json
-+  minecraft/worldgen/placed_feature/ice_spike.json
-+  minecraft/worldgen/placed_feature/iceberg_blue.json
-+  minecraft/worldgen/placed_feature/iceberg_packed.json
-+  minecraft/worldgen/placed_feature/jungle_bush.json
-+  minecraft/worldgen/placed_feature/jungle_tree.json
-+  minecraft/worldgen/placed_feature/kelp_cold.json
-+  minecraft/worldgen/placed_feature/kelp_warm.json
-+  minecraft/worldgen/placed_feature/lake_lava_surface.json
-+  minecraft/worldgen/placed_feature/lake_lava_underground.json
-+  minecraft/worldgen/placed_feature/large_basalt_columns.json
-+  minecraft/worldgen/placed_feature/large_dripstone.json
-+  minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
-+  minecraft/worldgen/placed_feature/lush_caves_clay.json
-+  minecraft/worldgen/placed_feature/lush_caves_vegetation.json
-+  minecraft/worldgen/placed_feature/mangrove_checked.json
-+  minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
-+  minecraft/worldgen/placed_feature/mega_pine_checked.json
-+  minecraft/worldgen/placed_feature/mega_spruce_checked.json
-+  minecraft/worldgen/placed_feature/monster_room.json
-+  minecraft/worldgen/placed_feature/monster_room_deep.json
-+  minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
-+  minecraft/worldgen/placed_feature/nether_sprouts.json
-+  minecraft/worldgen/placed_feature/oak.json
-+  minecraft/worldgen/placed_feature/oak_bees_0002.json
-+  minecraft/worldgen/placed_feature/oak_bees_002.json
-+  minecraft/worldgen/placed_feature/oak_checked.json
-+  minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
-+  minecraft/worldgen/placed_feature/ore_andesite_lower.json
-+  minecraft/worldgen/placed_feature/ore_andesite_upper.json
-+  minecraft/worldgen/placed_feature/ore_blackstone.json
-+  minecraft/worldgen/placed_feature/ore_clay.json
-+  minecraft/worldgen/placed_feature/ore_coal_lower.json
-+  minecraft/worldgen/placed_feature/ore_coal_upper.json
-+  minecraft/worldgen/placed_feature/ore_copper.json
-+  minecraft/worldgen/placed_feature/ore_copper_large.json
-+  minecraft/worldgen/placed_feature/ore_debris_small.json
-+  minecraft/worldgen/placed_feature/ore_diamond.json
-+  minecraft/worldgen/placed_feature/ore_diamond_buried.json
-+  minecraft/worldgen/placed_feature/ore_diamond_large.json
-+  minecraft/worldgen/placed_feature/ore_diorite_lower.json
-+  minecraft/worldgen/placed_feature/ore_diorite_upper.json
-+  minecraft/worldgen/placed_feature/ore_dirt.json
-+  minecraft/worldgen/placed_feature/ore_emerald.json
-+  minecraft/worldgen/placed_feature/ore_gold.json
-+  minecraft/worldgen/placed_feature/ore_gold_deltas.json
-+  minecraft/worldgen/placed_feature/ore_gold_extra.json
-+  minecraft/worldgen/placed_feature/ore_gold_lower.json
-+  minecraft/worldgen/placed_feature/ore_gold_nether.json
-+  minecraft/worldgen/placed_feature/ore_granite_lower.json
-+  minecraft/worldgen/placed_feature/ore_granite_upper.json
-+  minecraft/worldgen/placed_feature/ore_gravel.json
-+  minecraft/worldgen/placed_feature/ore_gravel_nether.json
-+  minecraft/worldgen/placed_feature/ore_infested.json
-+  minecraft/worldgen/placed_feature/ore_iron_middle.json
-+  minecraft/worldgen/placed_feature/ore_iron_small.json
-+  minecraft/worldgen/placed_feature/ore_iron_upper.json
-+  minecraft/worldgen/placed_feature/ore_lapis.json
-+  minecraft/worldgen/placed_feature/ore_lapis_buried.json
-+  minecraft/worldgen/placed_feature/ore_magma.json
-+  minecraft/worldgen/placed_feature/ore_quartz_deltas.json
-+  minecraft/worldgen/placed_feature/ore_quartz_nether.json
-+  minecraft/worldgen/placed_feature/ore_redstone.json
-+  minecraft/worldgen/placed_feature/ore_redstone_lower.json
-+  minecraft/worldgen/placed_feature/ore_soul_sand.json
-+  minecraft/worldgen/placed_feature/ore_tuff.json
-+  minecraft/worldgen/placed_feature/patch_berry_bush.json
-+  minecraft/worldgen/placed_feature/patch_berry_common.json
-+  minecraft/worldgen/placed_feature/patch_berry_rare.json
-+  minecraft/worldgen/placed_feature/patch_cactus.json
-+  minecraft/worldgen/placed_feature/patch_cactus_decorated.json
-+  minecraft/worldgen/placed_feature/patch_cactus_desert.json
-+  minecraft/worldgen/placed_feature/patch_crimson_roots.json
-+  minecraft/worldgen/placed_feature/patch_dead_bush.json
-+  minecraft/worldgen/placed_feature/patch_dead_bush_2.json
-+  minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
-+  minecraft/worldgen/placed_feature/patch_fire.json
-+  minecraft/worldgen/placed_feature/patch_grass_badlands.json
-+  minecraft/worldgen/placed_feature/patch_grass_forest.json
-+  minecraft/worldgen/placed_feature/patch_grass_jungle.json
-+  minecraft/worldgen/placed_feature/patch_grass_normal.json
-+  minecraft/worldgen/placed_feature/patch_grass_plain.json
-+  minecraft/worldgen/placed_feature/patch_grass_savanna.json
-+  minecraft/worldgen/placed_feature/patch_grass_taiga.json
-+  minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
-+  minecraft/worldgen/placed_feature/patch_large_fern.json
-+  minecraft/worldgen/placed_feature/patch_melon.json
-+  minecraft/worldgen/placed_feature/patch_melon_sparse.json
-+  minecraft/worldgen/placed_feature/patch_pumpkin.json
-+  minecraft/worldgen/placed_feature/patch_soul_fire.json
-+  minecraft/worldgen/placed_feature/patch_sugar_cane.json
-+  minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
-+  minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
-+  minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
-+  minecraft/worldgen/placed_feature/patch_sunflower.json
-+  minecraft/worldgen/placed_feature/patch_taiga_grass.json
-+  minecraft/worldgen/placed_feature/patch_tall_grass.json
-+  minecraft/worldgen/placed_feature/patch_tall_grass_2.json
-+  minecraft/worldgen/placed_feature/patch_waterlily.json
-+  minecraft/worldgen/placed_feature/pile_hay.json
-+  minecraft/worldgen/placed_feature/pile_ice.json
-+  minecraft/worldgen/placed_feature/pile_melon.json
-+  minecraft/worldgen/placed_feature/pile_pumpkin.json
-+  minecraft/worldgen/placed_feature/pile_snow.json
-+  minecraft/worldgen/placed_feature/pine.json
-+  minecraft/worldgen/placed_feature/pine_checked.json
-+  minecraft/worldgen/placed_feature/pine_on_snow.json
-+  minecraft/worldgen/placed_feature/pointed_dripstone.json
-+  minecraft/worldgen/placed_feature/red_mushroom_nether.json
-+  minecraft/worldgen/placed_feature/red_mushroom_normal.json
-+  minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
-+  minecraft/worldgen/placed_feature/red_mushroom_swamp.json
-+  minecraft/worldgen/placed_feature/red_mushroom_taiga.json
-+  minecraft/worldgen/placed_feature/rooted_azalea_tree.json
-+  minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
-+  minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
-+  minecraft/worldgen/placed_feature/sculk_vein.json
-+  minecraft/worldgen/placed_feature/sea_pickle.json
-+  minecraft/worldgen/placed_feature/seagrass_cold.json
-+  minecraft/worldgen/placed_feature/seagrass_deep.json
-+  minecraft/worldgen/placed_feature/seagrass_deep_cold.json
-+  minecraft/worldgen/placed_feature/seagrass_deep_warm.json
-+  minecraft/worldgen/placed_feature/seagrass_normal.json
-+  minecraft/worldgen/placed_feature/seagrass_river.json
-+  minecraft/worldgen/placed_feature/seagrass_simple.json
-+  minecraft/worldgen/placed_feature/seagrass_swamp.json
-+  minecraft/worldgen/placed_feature/seagrass_warm.json
-+  minecraft/worldgen/placed_feature/small_basalt_columns.json
-+  minecraft/worldgen/placed_feature/spore_blossom.json
-+  minecraft/worldgen/placed_feature/spring_closed.json
-+  minecraft/worldgen/placed_feature/spring_closed_double.json
-+  minecraft/worldgen/placed_feature/spring_delta.json
-+  minecraft/worldgen/placed_feature/spring_lava.json
-+  minecraft/worldgen/placed_feature/spring_lava_frozen.json
-+  minecraft/worldgen/placed_feature/spring_open.json
-+  minecraft/worldgen/placed_feature/spring_water.json
-+  minecraft/worldgen/placed_feature/spruce.json
-+  minecraft/worldgen/placed_feature/spruce_checked.json
-+  minecraft/worldgen/placed_feature/spruce_on_snow.json
-+  minecraft/worldgen/placed_feature/super_birch_bees.json
-+  minecraft/worldgen/placed_feature/super_birch_bees_0002.json
-+  minecraft/worldgen/placed_feature/tall_mangrove_checked.json
-+  minecraft/worldgen/placed_feature/trees_badlands.json
-+  minecraft/worldgen/placed_feature/trees_birch.json
-+  minecraft/worldgen/placed_feature/trees_birch_and_oak.json
-+  minecraft/worldgen/placed_feature/trees_flower_forest.json
-+  minecraft/worldgen/placed_feature/trees_grove.json
-+  minecraft/worldgen/placed_feature/trees_jungle.json
-+  minecraft/worldgen/placed_feature/trees_mangrove.json
-+  minecraft/worldgen/placed_feature/trees_meadow.json
-+  minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
-+  minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
-+  minecraft/worldgen/placed_feature/trees_plains.json
-+  minecraft/worldgen/placed_feature/trees_savanna.json
-+  minecraft/worldgen/placed_feature/trees_snowy.json
-+  minecraft/worldgen/placed_feature/trees_sparse_jungle.json
-+  minecraft/worldgen/placed_feature/trees_swamp.json
-+  minecraft/worldgen/placed_feature/trees_taiga.json
-+  minecraft/worldgen/placed_feature/trees_water.json
-+  minecraft/worldgen/placed_feature/trees_windswept_forest.json
-+  minecraft/worldgen/placed_feature/trees_windswept_hills.json
-+  minecraft/worldgen/placed_feature/trees_windswept_savanna.json
-+  minecraft/worldgen/placed_feature/twisting_vines.json
-+  minecraft/worldgen/placed_feature/underwater_magma.json
-+  minecraft/worldgen/placed_feature/vines.json
-+  minecraft/worldgen/placed_feature/void_start_platform.json
-+  minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
-+  minecraft/worldgen/placed_feature/warped_forest_vegetation.json
-+  minecraft/worldgen/placed_feature/warped_fungi.json
-+  minecraft/worldgen/placed_feature/weeping_vines.json
-+  minecraft/worldgen/processor_list
-+  minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
-+  minecraft/worldgen/processor_list/ancient_city_start_degradation.json
-+  minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
-+  minecraft/worldgen/processor_list/bastion_generic_degradation.json
-+  minecraft/worldgen/processor_list/bottom_rampart.json
-+  minecraft/worldgen/processor_list/bridge.json
-+  minecraft/worldgen/processor_list/empty.json
-+  minecraft/worldgen/processor_list/entrance_replacement.json
-+  minecraft/worldgen/processor_list/farm_desert.json
-+  minecraft/worldgen/processor_list/farm_plains.json
-+  minecraft/worldgen/processor_list/farm_savanna.json
-+  minecraft/worldgen/processor_list/farm_snowy.json
-+  minecraft/worldgen/processor_list/farm_taiga.json
-+  minecraft/worldgen/processor_list/fossil_coal.json
-+  minecraft/worldgen/processor_list/fossil_diamonds.json
-+  minecraft/worldgen/processor_list/fossil_rot.json
-+  minecraft/worldgen/processor_list/high_rampart.json
-+  minecraft/worldgen/processor_list/high_wall.json
-+  minecraft/worldgen/processor_list/housing.json
-+  minecraft/worldgen/processor_list/mossify_10_percent.json
-+  minecraft/worldgen/processor_list/mossify_20_percent.json
-+  minecraft/worldgen/processor_list/mossify_70_percent.json
-+  minecraft/worldgen/processor_list/outpost_rot.json
-+  minecraft/worldgen/processor_list/rampart_degradation.json
-+  minecraft/worldgen/processor_list/roof.json
-+  minecraft/worldgen/processor_list/side_wall_degradation.json
-+  minecraft/worldgen/processor_list/stable_degradation.json
-+  minecraft/worldgen/processor_list/street_plains.json
-+  minecraft/worldgen/processor_list/street_savanna.json
-+  minecraft/worldgen/processor_list/street_snowy_or_taiga.json
-+  minecraft/worldgen/processor_list/treasure_rooms.json
-+  minecraft/worldgen/processor_list/zombie_desert.json
-+  minecraft/worldgen/processor_list/zombie_plains.json
-+  minecraft/worldgen/processor_list/zombie_savanna.json
-+  minecraft/worldgen/processor_list/zombie_snowy.json
-+  minecraft/worldgen/processor_list/zombie_taiga.json
-+  minecraft/worldgen/structure
-+  minecraft/worldgen/structure/ancient_city.json
-+  minecraft/worldgen/structure/bastion_remnant.json
-+  minecraft/worldgen/structure/buried_treasure.json
-+  minecraft/worldgen/structure/desert_pyramid.json
-+  minecraft/worldgen/structure/end_city.json
-+  minecraft/worldgen/structure/fortress.json
-+  minecraft/worldgen/structure/igloo.json
-+  minecraft/worldgen/structure/jungle_pyramid.json
-+  minecraft/worldgen/structure/mansion.json
-+  minecraft/worldgen/structure/mineshaft.json
-+  minecraft/worldgen/structure/mineshaft_mesa.json
-+  minecraft/worldgen/structure/monument.json
-+  minecraft/worldgen/structure/nether_fossil.json
-+  minecraft/worldgen/structure/ocean_ruin_cold.json
-+  minecraft/worldgen/structure/ocean_ruin_warm.json
-+  minecraft/worldgen/structure/pillager_outpost.json
-+  minecraft/worldgen/structure/ruined_portal.json
-+  minecraft/worldgen/structure/ruined_portal_desert.json
-+  minecraft/worldgen/structure/ruined_portal_jungle.json
-+  minecraft/worldgen/structure/ruined_portal_mountain.json
-+  minecraft/worldgen/structure/ruined_portal_nether.json
-+  minecraft/worldgen/structure/ruined_portal_ocean.json
-+  minecraft/worldgen/structure/ruined_portal_swamp.json
-+  minecraft/worldgen/structure/shipwreck.json
-+  minecraft/worldgen/structure/shipwreck_beached.json
-+  minecraft/worldgen/structure/stronghold.json
-+  minecraft/worldgen/structure/swamp_hut.json
-+  minecraft/worldgen/structure/village_desert.json
-+  minecraft/worldgen/structure/village_plains.json
-+  minecraft/worldgen/structure/village_savanna.json
-+  minecraft/worldgen/structure/village_snowy.json
-+  minecraft/worldgen/structure/village_taiga.json
-+  minecraft/worldgen/structure_set
-+  minecraft/worldgen/structure_set/ancient_cities.json
-+  minecraft/worldgen/structure_set/buried_treasures.json
-+  minecraft/worldgen/structure_set/desert_pyramids.json
-+  minecraft/worldgen/structure_set/end_cities.json
-+  minecraft/worldgen/structure_set/igloos.json
-+  minecraft/worldgen/structure_set/jungle_temples.json
-+  minecraft/worldgen/structure_set/mineshafts.json
-+  minecraft/worldgen/structure_set/nether_complexes.json
-+  minecraft/worldgen/structure_set/nether_fossils.json
-+  minecraft/worldgen/structure_set/ocean_monuments.json
-+  minecraft/worldgen/structure_set/ocean_ruins.json
-+  minecraft/worldgen/structure_set/pillager_outposts.json
-+  minecraft/worldgen/structure_set/ruined_portals.json
-+  minecraft/worldgen/structure_set/shipwrecks.json
-+  minecraft/worldgen/structure_set/strongholds.json
-+  minecraft/worldgen/structure_set/swamp_huts.json
-+  minecraft/worldgen/structure_set/villages.json
-+  minecraft/worldgen/structure_set/woodland_mansions.json
-+  minecraft/worldgen/template_pool
-+  minecraft/worldgen/template_pool/ancient_city
-+  minecraft/worldgen/template_pool/ancient_city/city
-+  minecraft/worldgen/template_pool/ancient_city/city/entrance.json
-+  minecraft/worldgen/template_pool/ancient_city/city_center
-+  minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
-+  minecraft/worldgen/template_pool/ancient_city/walls
-+  minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
-+  minecraft/worldgen/template_pool/ancient_city/city_center.json
-+  minecraft/worldgen/template_pool/ancient_city/sculk.json
-+  minecraft/worldgen/template_pool/ancient_city/structures.json
-+  minecraft/worldgen/template_pool/ancient_city/walls.json
-+  minecraft/worldgen/template_pool/bastion
-+  minecraft/worldgen/template_pool/bastion/blocks
-+  minecraft/worldgen/template_pool/bastion/blocks/gold.json
-+  minecraft/worldgen/template_pool/bastion/bridge
-+  minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
-+  minecraft/worldgen/template_pool/bastion/bridge/connectors.json
-+  minecraft/worldgen/template_pool/bastion/bridge/legs.json
-+  minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
-+  minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
-+  minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
-+  minecraft/worldgen/template_pool/bastion/bridge/walls.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
-+  minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
-+  minecraft/worldgen/template_pool/bastion/mobs
-+  minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
-+  minecraft/worldgen/template_pool/bastion/mobs/piglin.json
-+  minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
-+  minecraft/worldgen/template_pool/bastion/treasure
-+  minecraft/worldgen/template_pool/bastion/treasure/bases
-+  minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
-+  minecraft/worldgen/template_pool/bastion/treasure/corners
-+  minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
-+  minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
-+  minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
-+  minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
-+  minecraft/worldgen/template_pool/bastion/treasure/extensions
-+  minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
-+  minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
-+  minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
-+  minecraft/worldgen/template_pool/bastion/treasure/walls
-+  minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
-+  minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
-+  minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
-+  minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
-+  minecraft/worldgen/template_pool/bastion/treasure/bases.json
-+  minecraft/worldgen/template_pool/bastion/treasure/brains.json
-+  minecraft/worldgen/template_pool/bastion/treasure/connectors.json
-+  minecraft/worldgen/template_pool/bastion/treasure/entrances.json
-+  minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
-+  minecraft/worldgen/template_pool/bastion/treasure/roofs.json
-+  minecraft/worldgen/template_pool/bastion/treasure/stairs.json
-+  minecraft/worldgen/template_pool/bastion/treasure/walls.json
-+  minecraft/worldgen/template_pool/bastion/units
-+  minecraft/worldgen/template_pool/bastion/units/fillers
-+  minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
-+  minecraft/worldgen/template_pool/bastion/units/stages
-+  minecraft/worldgen/template_pool/bastion/units/stages/rot
-+  minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
-+  minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
-+  minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
-+  minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
-+  minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
-+  minecraft/worldgen/template_pool/bastion/units/walls
-+  minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
-+  minecraft/worldgen/template_pool/bastion/units/center_pieces.json
-+  minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
-+  minecraft/worldgen/template_pool/bastion/units/edges.json
-+  minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
-+  minecraft/worldgen/template_pool/bastion/units/pathways.json
-+  minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
-+  minecraft/worldgen/template_pool/bastion/units/ramparts.json
-+  minecraft/worldgen/template_pool/bastion/units/wall_units.json
-+  minecraft/worldgen/template_pool/bastion/starts.json
-+  minecraft/worldgen/template_pool/pillager_outpost
-+  minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
-+  minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
-+  minecraft/worldgen/template_pool/pillager_outpost/features.json
-+  minecraft/worldgen/template_pool/pillager_outpost/towers.json
-+  minecraft/worldgen/template_pool/village
-+  minecraft/worldgen/template_pool/village/common
-+  minecraft/worldgen/template_pool/village/common/animals.json
-+  minecraft/worldgen/template_pool/village/common/butcher_animals.json
-+  minecraft/worldgen/template_pool/village/common/cats.json
-+  minecraft/worldgen/template_pool/village/common/iron_golem.json
-+  minecraft/worldgen/template_pool/village/common/sheep.json
-+  minecraft/worldgen/template_pool/village/common/well_bottoms.json
-+  minecraft/worldgen/template_pool/village/desert
-+  minecraft/worldgen/template_pool/village/desert/zombie
-+  minecraft/worldgen/template_pool/village/desert/zombie/decor.json
-+  minecraft/worldgen/template_pool/village/desert/zombie/houses.json
-+  minecraft/worldgen/template_pool/village/desert/zombie/streets.json
-+  minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
-+  minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
-+  minecraft/worldgen/template_pool/village/desert/camel.json
-+  minecraft/worldgen/template_pool/village/desert/decor.json
-+  minecraft/worldgen/template_pool/village/desert/houses.json
-+  minecraft/worldgen/template_pool/village/desert/streets.json
-+  minecraft/worldgen/template_pool/village/desert/terminators.json
-+  minecraft/worldgen/template_pool/village/desert/town_centers.json
-+  minecraft/worldgen/template_pool/village/desert/villagers.json
-+  minecraft/worldgen/template_pool/village/plains
-+  minecraft/worldgen/template_pool/village/plains/zombie
-+  minecraft/worldgen/template_pool/village/plains/zombie/decor.json
-+  minecraft/worldgen/template_pool/village/plains/zombie/houses.json
-+  minecraft/worldgen/template_pool/village/plains/zombie/streets.json
-+  minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
-+  minecraft/worldgen/template_pool/village/plains/decor.json
-+  minecraft/worldgen/template_pool/village/plains/houses.json
-+  minecraft/worldgen/template_pool/village/plains/streets.json
-+  minecraft/worldgen/template_pool/village/plains/terminators.json
-+  minecraft/worldgen/template_pool/village/plains/town_centers.json
-+  minecraft/worldgen/template_pool/village/plains/trees.json
-+  minecraft/worldgen/template_pool/village/plains/villagers.json
-+  minecraft/worldgen/template_pool/village/savanna
-+  minecraft/worldgen/template_pool/village/savanna/zombie
-+  minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
-+  minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
-+  minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
-+  minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
-+  minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
-+  minecraft/worldgen/template_pool/village/savanna/decor.json
-+  minecraft/worldgen/template_pool/village/savanna/houses.json
-+  minecraft/worldgen/template_pool/village/savanna/streets.json
-+  minecraft/worldgen/template_pool/village/savanna/terminators.json
-+  minecraft/worldgen/template_pool/village/savanna/town_centers.json
-+  minecraft/worldgen/template_pool/village/savanna/trees.json
-+  minecraft/worldgen/template_pool/village/savanna/villagers.json
-+  minecraft/worldgen/template_pool/village/snowy
-+  minecraft/worldgen/template_pool/village/snowy/zombie
-+  minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
-+  minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
-+  minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
-+  minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
-+  minecraft/worldgen/template_pool/village/snowy/decor.json
-+  minecraft/worldgen/template_pool/village/snowy/houses.json
-+  minecraft/worldgen/template_pool/village/snowy/streets.json
-+  minecraft/worldgen/template_pool/village/snowy/terminators.json
-+  minecraft/worldgen/template_pool/village/snowy/town_centers.json
-+  minecraft/worldgen/template_pool/village/snowy/trees.json
-+  minecraft/worldgen/template_pool/village/snowy/villagers.json
-+  minecraft/worldgen/template_pool/village/taiga
-+  minecraft/worldgen/template_pool/village/taiga/zombie
-+  minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
-+  minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
-+  minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
-+  minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
-+  minecraft/worldgen/template_pool/village/taiga/decor.json
-+  minecraft/worldgen/template_pool/village/taiga/houses.json
-+  minecraft/worldgen/template_pool/village/taiga/streets.json
-+  minecraft/worldgen/template_pool/village/taiga/terminators.json
-+  minecraft/worldgen/template_pool/village/taiga/town_centers.json
-+  minecraft/worldgen/template_pool/village/taiga/villagers.json
-+  minecraft/worldgen/template_pool/empty.json
-+  minecraft/worldgen/world_preset
-+  minecraft/worldgen/world_preset/amplified.json
-+  minecraft/worldgen/world_preset/debug_all_block_states.json
-+  minecraft/worldgen/world_preset/flat.json
-+  minecraft/worldgen/world_preset/large_biomes.json
-+  minecraft/worldgen/world_preset/normal.json
-+  minecraft/worldgen/world_preset/single_biome_surface.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/acacia_hanging_sign.json
-+  minecraft/blockstates/acacia_wall_hanging_sign.json
-+  minecraft/blockstates/bamboo_button.json
-+  minecraft/blockstates/bamboo_door.json
-+  minecraft/blockstates/bamboo_fence.json
-+  minecraft/blockstates/bamboo_fence_gate.json
-+  minecraft/blockstates/bamboo_hanging_sign.json
-+  minecraft/blockstates/bamboo_mosaic.json
-+  minecraft/blockstates/bamboo_mosaic_slab.json
-+  minecraft/blockstates/bamboo_mosaic_stairs.json
-+  minecraft/blockstates/bamboo_planks.json
-+  minecraft/blockstates/bamboo_pressure_plate.json
-+  minecraft/blockstates/bamboo_sign.json
-+  minecraft/blockstates/bamboo_slab.json
-+  minecraft/blockstates/bamboo_stairs.json
-+  minecraft/blockstates/bamboo_trapdoor.json
-+  minecraft/blockstates/bamboo_wall_hanging_sign.json
-+  minecraft/blockstates/bamboo_wall_sign.json
-+  minecraft/blockstates/birch_hanging_sign.json
-+  minecraft/blockstates/birch_wall_hanging_sign.json
-+  minecraft/blockstates/chiseled_bookshelf.json
-+  minecraft/blockstates/crimson_hanging_sign.json
-+  minecraft/blockstates/crimson_wall_hanging_sign.json
-+  minecraft/blockstates/dark_oak_hanging_sign.json
-+  minecraft/blockstates/dark_oak_wall_hanging_sign.json
-+  minecraft/blockstates/jungle_hanging_sign.json
-+  minecraft/blockstates/jungle_wall_hanging_sign.json
-+  minecraft/blockstates/mangrove_hanging_sign.json
-+  minecraft/blockstates/mangrove_wall_hanging_sign.json
-+  minecraft/blockstates/oak_hanging_sign.json
-+  minecraft/blockstates/oak_wall_hanging_sign.json
-+  minecraft/blockstates/spruce_hanging_sign.json
-+  minecraft/blockstates/spruce_wall_hanging_sign.json
-+  minecraft/blockstates/warped_hanging_sign.json
-+  minecraft/blockstates/warped_wall_hanging_sign.json
-+  minecraft/models/block/acacia_hanging_sign.json
-+  minecraft/models/block/bamboo_button.json
-+  minecraft/models/block/bamboo_button_inventory.json
-+  minecraft/models/block/bamboo_button_pressed.json
-+  minecraft/models/block/bamboo_door_bottom_left.json
-+  minecraft/models/block/bamboo_door_bottom_left_open.json
-+  minecraft/models/block/bamboo_door_bottom_right.json
-+  minecraft/models/block/bamboo_door_bottom_right_open.json
-+  minecraft/models/block/bamboo_door_top_left.json
-+  minecraft/models/block/bamboo_door_top_left_open.json
-+  minecraft/models/block/bamboo_door_top_right.json
-+  minecraft/models/block/bamboo_door_top_right_open.json
-+  minecraft/models/block/bamboo_fence_gate.json
-+  minecraft/models/block/bamboo_fence_gate_open.json
-+  minecraft/models/block/bamboo_fence_gate_wall.json
-+  minecraft/models/block/bamboo_fence_gate_wall_open.json
-+  minecraft/models/block/bamboo_fence_inventory.json
-+  minecraft/models/block/bamboo_fence_post.json
-+  minecraft/models/block/bamboo_fence_side_east.json
-+  minecraft/models/block/bamboo_fence_side_north.json
-+  minecraft/models/block/bamboo_fence_side_south.json
-+  minecraft/models/block/bamboo_fence_side_west.json
-+  minecraft/models/block/bamboo_hanging_sign.json
-+  minecraft/models/block/bamboo_mosaic.json
-+  minecraft/models/block/bamboo_mosaic_slab.json
-+  minecraft/models/block/bamboo_mosaic_slab_top.json
-+  minecraft/models/block/bamboo_mosaic_stairs.json
-+  minecraft/models/block/bamboo_mosaic_stairs_inner.json
-+  minecraft/models/block/bamboo_mosaic_stairs_outer.json
-+  minecraft/models/block/bamboo_planks.json
-+  minecraft/models/block/bamboo_pressure_plate.json
-+  minecraft/models/block/bamboo_pressure_plate_down.json
-+  minecraft/models/block/bamboo_sign.json
-+  minecraft/models/block/bamboo_slab.json
-+  minecraft/models/block/bamboo_slab_top.json
-+  minecraft/models/block/bamboo_stairs.json
-+  minecraft/models/block/bamboo_stairs_inner.json
-+  minecraft/models/block/bamboo_stairs_outer.json
-+  minecraft/models/block/bamboo_trapdoor_bottom.json
-+  minecraft/models/block/bamboo_trapdoor_open.json
-+  minecraft/models/block/bamboo_trapdoor_top.json
-+  minecraft/models/block/birch_hanging_sign.json
-+  minecraft/models/block/chiseled_bookshelf_stage0.json
-+  minecraft/models/block/chiseled_bookshelf_stage1.json
-+  minecraft/models/block/chiseled_bookshelf_stage2.json
-+  minecraft/models/block/chiseled_bookshelf_stage3.json
-+  minecraft/models/block/chiseled_bookshelf_stage4.json
-+  minecraft/models/block/chiseled_bookshelf_stage5.json
-+  minecraft/models/block/chiseled_bookshelf_stage6.json
-+  minecraft/models/block/crimson_hanging_sign.json
-+  minecraft/models/block/custom_fence_inventory.json
-+  minecraft/models/block/custom_fence_post.json
-+  minecraft/models/block/custom_fence_side_east.json
-+  minecraft/models/block/custom_fence_side_north.json
-+  minecraft/models/block/custom_fence_side_south.json
-+  minecraft/models/block/custom_fence_side_west.json
-+  minecraft/models/block/dark_oak_hanging_sign.json
-+  minecraft/models/block/jungle_hanging_sign.json
-+  minecraft/models/block/mangrove_hanging_sign.json
-+  minecraft/models/block/oak_hanging_sign.json
-+  minecraft/models/block/spruce_hanging_sign.json
-+  minecraft/models/block/template_chiseled_bookshelf.json
-+  minecraft/models/block/template_custom_fence_gate.json
-+  minecraft/models/block/template_custom_fence_gate_open.json
-+  minecraft/models/block/template_custom_fence_gate_wall.json
-+  minecraft/models/block/template_custom_fence_gate_wall_open.json
-+  minecraft/models/block/warped_hanging_sign.json
-+  minecraft/models/item/acacia_hanging_sign.json
-+  minecraft/models/item/bamboo_button.json
-+  minecraft/models/item/bamboo_chest_raft.json
-+  minecraft/models/item/bamboo_door.json
-+  minecraft/models/item/bamboo_fence.json
-+  minecraft/models/item/bamboo_fence_gate.json
-+  minecraft/models/item/bamboo_hanging_sign.json
-+  minecraft/models/item/bamboo_mosaic.json
-+  minecraft/models/item/bamboo_mosaic_slab.json
-+  minecraft/models/item/bamboo_mosaic_stairs.json
-+  minecraft/models/item/bamboo_planks.json
-+  minecraft/models/item/bamboo_pressure_plate.json
-+  minecraft/models/item/bamboo_raft.json
-+  minecraft/models/item/bamboo_sign.json
-+  minecraft/models/item/bamboo_slab.json
-+  minecraft/models/item/bamboo_stairs.json
-+  minecraft/models/item/bamboo_trapdoor.json
-+  minecraft/models/item/birch_hanging_sign.json
-+  minecraft/models/item/camel_spawn_egg.json
-+  minecraft/models/item/chiseled_bookshelf.json
-+  minecraft/models/item/crimson_hanging_sign.json
-+  minecraft/models/item/dark_oak_hanging_sign.json
-+  minecraft/models/item/jungle_hanging_sign.json
-+  minecraft/models/item/mangrove_hanging_sign.json
-+  minecraft/models/item/oak_hanging_sign.json
-+  minecraft/models/item/spruce_hanging_sign.json
-+  minecraft/models/item/warped_hanging_sign.json
--  minecraft/particles/block.json
--  minecraft/particles/block_marker.json
--  minecraft/particles/elder_guardian.json
--  minecraft/particles/explosion_emitter.json
--  minecraft/particles/item.json
--  minecraft/particles/item_slime.json
--  minecraft/particles/item_snowball.json
-+  minecraft/textures/block/bamboo_door_bottom.png
-+  minecraft/textures/block/bamboo_door_top.png
-+  minecraft/textures/block/bamboo_fence.png
-+  minecraft/textures/block/bamboo_fence_gate.png
-+  minecraft/textures/block/bamboo_fence_gate_particle.png
-+  minecraft/textures/block/bamboo_fence_particle.png
-+  minecraft/textures/block/bamboo_mosaic.png
-+  minecraft/textures/block/bamboo_planks.png
-+  minecraft/textures/block/bamboo_trapdoor.png
-+  minecraft/textures/block/chiseled_bookshelf_side.png
-+  minecraft/textures/block/chiseled_bookshelf_stage0.png
-+  minecraft/textures/block/chiseled_bookshelf_stage1.png
-+  minecraft/textures/block/chiseled_bookshelf_stage2.png
-+  minecraft/textures/block/chiseled_bookshelf_stage3.png
-+  minecraft/textures/block/chiseled_bookshelf_stage4.png
-+  minecraft/textures/block/chiseled_bookshelf_stage5.png
-+  minecraft/textures/block/chiseled_bookshelf_stage6.png
-+  minecraft/textures/block/chiseled_bookshelf_top.png
-+  minecraft/textures/entity/boat/bamboo.png
-+  minecraft/textures/entity/camel
-+  minecraft/textures/entity/camel/camel.png
-+  minecraft/textures/entity/chest_boat/bamboo.png
-+  minecraft/textures/entity/signs/hanging
-+  minecraft/textures/entity/signs/hanging/acacia.png
-+  minecraft/textures/entity/signs/hanging/bamboo.png
-+  minecraft/textures/entity/signs/hanging/birch.png
-+  minecraft/textures/entity/signs/hanging/crimson.png
-+  minecraft/textures/entity/signs/hanging/dark_oak.png
-+  minecraft/textures/entity/signs/hanging/jungle.png
-+  minecraft/textures/entity/signs/hanging/mangrove.png
-+  minecraft/textures/entity/signs/hanging/oak.png
-+  minecraft/textures/entity/signs/hanging/spruce.png
-+  minecraft/textures/entity/signs/hanging/warped.png
-+  minecraft/textures/entity/signs/bamboo.png
-+  minecraft/textures/gui/hanging_signs
-+  minecraft/textures/gui/hanging_signs/acacia.png
-+  minecraft/textures/gui/hanging_signs/bamboo.png
-+  minecraft/textures/gui/hanging_signs/birch.png
-+  minecraft/textures/gui/hanging_signs/crimson.png
-+  minecraft/textures/gui/hanging_signs/dark_oak.png
-+  minecraft/textures/gui/hanging_signs/jungle.png
-+  minecraft/textures/gui/hanging_signs/mangrove.png
-+  minecraft/textures/gui/hanging_signs/oak.png
-+  minecraft/textures/gui/hanging_signs/spruce.png
-+  minecraft/textures/gui/hanging_signs/warped.png
-+  minecraft/textures/gui/checkmark.png
-+  minecraft/textures/item/acacia_hanging_sign.png
-+  minecraft/textures/item/bamboo_chest_raft.png
-+  minecraft/textures/item/bamboo_door.png
-+  minecraft/textures/item/bamboo_hanging_sign.png
-+  minecraft/textures/item/bamboo_raft.png
-+  minecraft/textures/item/bamboo_sign.png
-+  minecraft/textures/item/birch_hanging_sign.png
-+  minecraft/textures/item/crimson_hanging_sign.png
-+  minecraft/textures/item/dark_oak_hanging_sign.png
-+  minecraft/textures/item/jungle_hanging_sign.png
-+  minecraft/textures/item/mangrove_hanging_sign.png
-+  minecraft/textures/item/oak_hanging_sign.png
-+  minecraft/textures/item/spruce_hanging_sign.png
-+  minecraft/textures/item/warped_hanging_sign.png
--  realms/lang
--  realms/lang/en_us.json
--  realms/textures/gui/realms/checkmark.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
--  reports/minecraft
--  reports/minecraft/chat_type
--  reports/minecraft/chat_type/chat.json
--  reports/minecraft/chat_type/emote_command.json
--  reports/minecraft/chat_type/msg_command_incoming.json
--  reports/minecraft/chat_type/msg_command_outgoing.json
--  reports/minecraft/chat_type/say_command.json
--  reports/minecraft/chat_type/team_msg_command_incoming.json
--  reports/minecraft/chat_type/team_msg_command_outgoing.json
--  reports/minecraft/dimension_type
--  reports/minecraft/dimension_type/overworld.json
--  reports/minecraft/dimension_type/overworld_caves.json
--  reports/minecraft/dimension_type/the_end.json
--  reports/minecraft/dimension_type/the_nether.json
--  reports/minecraft/worldgen
--  reports/minecraft/worldgen/biome
--  reports/minecraft/worldgen/biome/badlands.json
--  reports/minecraft/worldgen/biome/bamboo_jungle.json
--  reports/minecraft/worldgen/biome/basalt_deltas.json
--  reports/minecraft/worldgen/biome/beach.json
--  reports/minecraft/worldgen/biome/birch_forest.json
--  reports/minecraft/worldgen/biome/cold_ocean.json
--  reports/minecraft/worldgen/biome/crimson_forest.json
--  reports/minecraft/worldgen/biome/dark_forest.json
--  reports/minecraft/worldgen/biome/deep_cold_ocean.json
--  reports/minecraft/worldgen/biome/deep_dark.json
--  reports/minecraft/worldgen/biome/deep_frozen_ocean.json
--  reports/minecraft/worldgen/biome/deep_lukewarm_ocean.json
--  reports/minecraft/worldgen/biome/deep_ocean.json
--  reports/minecraft/worldgen/biome/desert.json
--  reports/minecraft/worldgen/biome/dripstone_caves.json
--  reports/minecraft/worldgen/biome/end_barrens.json
--  reports/minecraft/worldgen/biome/end_highlands.json
--  reports/minecraft/worldgen/biome/end_midlands.json
--  reports/minecraft/worldgen/biome/eroded_badlands.json
--  reports/minecraft/worldgen/biome/flower_forest.json
--  reports/minecraft/worldgen/biome/forest.json
--  reports/minecraft/worldgen/biome/frozen_ocean.json
--  reports/minecraft/worldgen/biome/frozen_peaks.json
--  reports/minecraft/worldgen/biome/frozen_river.json
--  reports/minecraft/worldgen/biome/grove.json
--  reports/minecraft/worldgen/biome/ice_spikes.json
--  reports/minecraft/worldgen/biome/jagged_peaks.json
--  reports/minecraft/worldgen/biome/jungle.json
--  reports/minecraft/worldgen/biome/lukewarm_ocean.json
--  reports/minecraft/worldgen/biome/lush_caves.json
--  reports/minecraft/worldgen/biome/mangrove_swamp.json
--  reports/minecraft/worldgen/biome/meadow.json
--  reports/minecraft/worldgen/biome/mushroom_fields.json
--  reports/minecraft/worldgen/biome/nether_wastes.json
--  reports/minecraft/worldgen/biome/ocean.json
--  reports/minecraft/worldgen/biome/old_growth_birch_forest.json
--  reports/minecraft/worldgen/biome/old_growth_pine_taiga.json
--  reports/minecraft/worldgen/biome/old_growth_spruce_taiga.json
--  reports/minecraft/worldgen/biome/plains.json
--  reports/minecraft/worldgen/biome/river.json
--  reports/minecraft/worldgen/biome/savanna.json
--  reports/minecraft/worldgen/biome/savanna_plateau.json
--  reports/minecraft/worldgen/biome/small_end_islands.json
--  reports/minecraft/worldgen/biome/snowy_beach.json
--  reports/minecraft/worldgen/biome/snowy_plains.json
--  reports/minecraft/worldgen/biome/snowy_slopes.json
--  reports/minecraft/worldgen/biome/snowy_taiga.json
--  reports/minecraft/worldgen/biome/soul_sand_valley.json
--  reports/minecraft/worldgen/biome/sparse_jungle.json
--  reports/minecraft/worldgen/biome/stony_peaks.json
--  reports/minecraft/worldgen/biome/stony_shore.json
--  reports/minecraft/worldgen/biome/sunflower_plains.json
--  reports/minecraft/worldgen/biome/swamp.json
--  reports/minecraft/worldgen/biome/taiga.json
--  reports/minecraft/worldgen/biome/the_end.json
--  reports/minecraft/worldgen/biome/the_void.json
--  reports/minecraft/worldgen/biome/warm_ocean.json
--  reports/minecraft/worldgen/biome/warped_forest.json
--  reports/minecraft/worldgen/biome/windswept_forest.json
--  reports/minecraft/worldgen/biome/windswept_gravelly_hills.json
--  reports/minecraft/worldgen/biome/windswept_hills.json
--  reports/minecraft/worldgen/biome/windswept_savanna.json
--  reports/minecraft/worldgen/biome/wooded_badlands.json
--  reports/minecraft/worldgen/configured_carver
--  reports/minecraft/worldgen/configured_carver/canyon.json
--  reports/minecraft/worldgen/configured_carver/cave.json
--  reports/minecraft/worldgen/configured_carver/cave_extra_underground.json
--  reports/minecraft/worldgen/configured_carver/nether_cave.json
--  reports/minecraft/worldgen/configured_feature
--  reports/minecraft/worldgen/configured_feature/acacia.json
--  reports/minecraft/worldgen/configured_feature/amethyst_geode.json
--  reports/minecraft/worldgen/configured_feature/azalea_tree.json
--  reports/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
--  reports/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
--  reports/minecraft/worldgen/configured_feature/bamboo_vegetation.json
--  reports/minecraft/worldgen/configured_feature/basalt_blobs.json
--  reports/minecraft/worldgen/configured_feature/basalt_pillar.json
--  reports/minecraft/worldgen/configured_feature/birch.json
--  reports/minecraft/worldgen/configured_feature/birch_bees_0002.json
--  reports/minecraft/worldgen/configured_feature/birch_bees_002.json
--  reports/minecraft/worldgen/configured_feature/birch_bees_005.json
--  reports/minecraft/worldgen/configured_feature/birch_tall.json
--  reports/minecraft/worldgen/configured_feature/blackstone_blobs.json
--  reports/minecraft/worldgen/configured_feature/blue_ice.json
--  reports/minecraft/worldgen/configured_feature/bonus_chest.json
--  reports/minecraft/worldgen/configured_feature/cave_vine.json
--  reports/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
--  reports/minecraft/worldgen/configured_feature/chorus_plant.json
--  reports/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
--  reports/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
--  reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
--  reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
--  reports/minecraft/worldgen/configured_feature/crimson_fungus.json
--  reports/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
--  reports/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
--  reports/minecraft/worldgen/configured_feature/dark_oak.json
--  reports/minecraft/worldgen/configured_feature/delta.json
--  reports/minecraft/worldgen/configured_feature/desert_well.json
--  reports/minecraft/worldgen/configured_feature/disk_clay.json
--  reports/minecraft/worldgen/configured_feature/disk_grass.json
--  reports/minecraft/worldgen/configured_feature/disk_gravel.json
--  reports/minecraft/worldgen/configured_feature/disk_sand.json
--  reports/minecraft/worldgen/configured_feature/dripleaf.json
--  reports/minecraft/worldgen/configured_feature/dripstone_cluster.json
--  reports/minecraft/worldgen/configured_feature/end_gateway_delayed.json
--  reports/minecraft/worldgen/configured_feature/end_gateway_return.json
--  reports/minecraft/worldgen/configured_feature/end_island.json
--  reports/minecraft/worldgen/configured_feature/end_spike.json
--  reports/minecraft/worldgen/configured_feature/fancy_oak.json
--  reports/minecraft/worldgen/configured_feature/fancy_oak_bees.json
--  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
--  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
--  reports/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
--  reports/minecraft/worldgen/configured_feature/flower_default.json
--  reports/minecraft/worldgen/configured_feature/flower_flower_forest.json
--  reports/minecraft/worldgen/configured_feature/flower_meadow.json
--  reports/minecraft/worldgen/configured_feature/flower_plain.json
--  reports/minecraft/worldgen/configured_feature/flower_swamp.json
--  reports/minecraft/worldgen/configured_feature/forest_flowers.json
--  reports/minecraft/worldgen/configured_feature/forest_rock.json
--  reports/minecraft/worldgen/configured_feature/fossil_coal.json
--  reports/minecraft/worldgen/configured_feature/fossil_diamonds.json
--  reports/minecraft/worldgen/configured_feature/freeze_top_layer.json
--  reports/minecraft/worldgen/configured_feature/glow_lichen.json
--  reports/minecraft/worldgen/configured_feature/glowstone_extra.json
--  reports/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
--  reports/minecraft/worldgen/configured_feature/huge_red_mushroom.json
--  reports/minecraft/worldgen/configured_feature/ice_patch.json
--  reports/minecraft/worldgen/configured_feature/ice_spike.json
--  reports/minecraft/worldgen/configured_feature/iceberg_blue.json
--  reports/minecraft/worldgen/configured_feature/iceberg_packed.json
--  reports/minecraft/worldgen/configured_feature/jungle_bush.json
--  reports/minecraft/worldgen/configured_feature/jungle_tree.json
--  reports/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
--  reports/minecraft/worldgen/configured_feature/kelp.json
--  reports/minecraft/worldgen/configured_feature/lake_lava.json
--  reports/minecraft/worldgen/configured_feature/large_basalt_columns.json
--  reports/minecraft/worldgen/configured_feature/large_dripstone.json
--  reports/minecraft/worldgen/configured_feature/lush_caves_clay.json
--  reports/minecraft/worldgen/configured_feature/mangrove.json
--  reports/minecraft/worldgen/configured_feature/mangrove_vegetation.json
--  reports/minecraft/worldgen/configured_feature/meadow_trees.json
--  reports/minecraft/worldgen/configured_feature/mega_jungle_tree.json
--  reports/minecraft/worldgen/configured_feature/mega_pine.json
--  reports/minecraft/worldgen/configured_feature/mega_spruce.json
--  reports/minecraft/worldgen/configured_feature/monster_room.json
--  reports/minecraft/worldgen/configured_feature/moss_patch.json
--  reports/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
--  reports/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
--  reports/minecraft/worldgen/configured_feature/moss_vegetation.json
--  reports/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
--  reports/minecraft/worldgen/configured_feature/nether_sprouts.json
--  reports/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
--  reports/minecraft/worldgen/configured_feature/oak.json
--  reports/minecraft/worldgen/configured_feature/oak_bees_0002.json
--  reports/minecraft/worldgen/configured_feature/oak_bees_002.json
--  reports/minecraft/worldgen/configured_feature/oak_bees_005.json
--  reports/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
--  reports/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
--  reports/minecraft/worldgen/configured_feature/ore_andesite.json
--  reports/minecraft/worldgen/configured_feature/ore_blackstone.json
--  reports/minecraft/worldgen/configured_feature/ore_clay.json
--  reports/minecraft/worldgen/configured_feature/ore_coal.json
--  reports/minecraft/worldgen/configured_feature/ore_coal_buried.json
--  reports/minecraft/worldgen/configured_feature/ore_copper_large.json
--  reports/minecraft/worldgen/configured_feature/ore_copper_small.json
--  reports/minecraft/worldgen/configured_feature/ore_diamond_buried.json
--  reports/minecraft/worldgen/configured_feature/ore_diamond_large.json
--  reports/minecraft/worldgen/configured_feature/ore_diamond_small.json
--  reports/minecraft/worldgen/configured_feature/ore_diorite.json
--  reports/minecraft/worldgen/configured_feature/ore_dirt.json
--  reports/minecraft/worldgen/configured_feature/ore_emerald.json
--  reports/minecraft/worldgen/configured_feature/ore_gold.json
--  reports/minecraft/worldgen/configured_feature/ore_gold_buried.json
--  reports/minecraft/worldgen/configured_feature/ore_granite.json
--  reports/minecraft/worldgen/configured_feature/ore_gravel.json
--  reports/minecraft/worldgen/configured_feature/ore_gravel_nether.json
--  reports/minecraft/worldgen/configured_feature/ore_infested.json
--  reports/minecraft/worldgen/configured_feature/ore_iron.json
--  reports/minecraft/worldgen/configured_feature/ore_iron_small.json
--  reports/minecraft/worldgen/configured_feature/ore_lapis.json
--  reports/minecraft/worldgen/configured_feature/ore_lapis_buried.json
--  reports/minecraft/worldgen/configured_feature/ore_magma.json
--  reports/minecraft/worldgen/configured_feature/ore_nether_gold.json
--  reports/minecraft/worldgen/configured_feature/ore_quartz.json
--  reports/minecraft/worldgen/configured_feature/ore_redstone.json
--  reports/minecraft/worldgen/configured_feature/ore_soul_sand.json
--  reports/minecraft/worldgen/configured_feature/ore_tuff.json
--  reports/minecraft/worldgen/configured_feature/patch_berry_bush.json
--  reports/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
--  reports/minecraft/worldgen/configured_feature/patch_cactus.json
--  reports/minecraft/worldgen/configured_feature/patch_crimson_roots.json
--  reports/minecraft/worldgen/configured_feature/patch_dead_bush.json
--  reports/minecraft/worldgen/configured_feature/patch_fire.json
--  reports/minecraft/worldgen/configured_feature/patch_grass.json
--  reports/minecraft/worldgen/configured_feature/patch_grass_jungle.json
--  reports/minecraft/worldgen/configured_feature/patch_large_fern.json
--  reports/minecraft/worldgen/configured_feature/patch_melon.json
--  reports/minecraft/worldgen/configured_feature/patch_pumpkin.json
--  reports/minecraft/worldgen/configured_feature/patch_red_mushroom.json
--  reports/minecraft/worldgen/configured_feature/patch_soul_fire.json
--  reports/minecraft/worldgen/configured_feature/patch_sugar_cane.json
--  reports/minecraft/worldgen/configured_feature/patch_sunflower.json
--  reports/minecraft/worldgen/configured_feature/patch_taiga_grass.json
--  reports/minecraft/worldgen/configured_feature/patch_tall_grass.json
--  reports/minecraft/worldgen/configured_feature/patch_waterlily.json
--  reports/minecraft/worldgen/configured_feature/pile_hay.json
--  reports/minecraft/worldgen/configured_feature/pile_ice.json
--  reports/minecraft/worldgen/configured_feature/pile_melon.json
--  reports/minecraft/worldgen/configured_feature/pile_pumpkin.json
--  reports/minecraft/worldgen/configured_feature/pile_snow.json
--  reports/minecraft/worldgen/configured_feature/pine.json
--  reports/minecraft/worldgen/configured_feature/pointed_dripstone.json
--  reports/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
--  reports/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
--  reports/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
--  reports/minecraft/worldgen/configured_feature/sculk_vein.json
--  reports/minecraft/worldgen/configured_feature/sea_pickle.json
--  reports/minecraft/worldgen/configured_feature/seagrass_mid.json
--  reports/minecraft/worldgen/configured_feature/seagrass_short.json
--  reports/minecraft/worldgen/configured_feature/seagrass_simple.json
--  reports/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
--  reports/minecraft/worldgen/configured_feature/seagrass_tall.json
--  reports/minecraft/worldgen/configured_feature/single_piece_of_grass.json
--  reports/minecraft/worldgen/configured_feature/small_basalt_columns.json
--  reports/minecraft/worldgen/configured_feature/spore_blossom.json
--  reports/minecraft/worldgen/configured_feature/spring_lava_frozen.json
--  reports/minecraft/worldgen/configured_feature/spring_lava_nether.json
--  reports/minecraft/worldgen/configured_feature/spring_lava_overworld.json
--  reports/minecraft/worldgen/configured_feature/spring_nether_closed.json
--  reports/minecraft/worldgen/configured_feature/spring_nether_open.json
--  reports/minecraft/worldgen/configured_feature/spring_water.json
--  reports/minecraft/worldgen/configured_feature/spruce.json
--  reports/minecraft/worldgen/configured_feature/super_birch_bees.json
--  reports/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
--  reports/minecraft/worldgen/configured_feature/swamp_oak.json
--  reports/minecraft/worldgen/configured_feature/tall_mangrove.json
--  reports/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
--  reports/minecraft/worldgen/configured_feature/trees_flower_forest.json
--  reports/minecraft/worldgen/configured_feature/trees_grove.json
--  reports/minecraft/worldgen/configured_feature/trees_jungle.json
--  reports/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
--  reports/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
--  reports/minecraft/worldgen/configured_feature/trees_plains.json
--  reports/minecraft/worldgen/configured_feature/trees_savanna.json
--  reports/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
--  reports/minecraft/worldgen/configured_feature/trees_taiga.json
--  reports/minecraft/worldgen/configured_feature/trees_water.json
--  reports/minecraft/worldgen/configured_feature/trees_windswept_hills.json
--  reports/minecraft/worldgen/configured_feature/twisting_vines.json
--  reports/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
--  reports/minecraft/worldgen/configured_feature/underwater_magma.json
--  reports/minecraft/worldgen/configured_feature/vines.json
--  reports/minecraft/worldgen/configured_feature/void_start_platform.json
--  reports/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
--  reports/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
--  reports/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
--  reports/minecraft/worldgen/configured_feature/warped_fungus.json
--  reports/minecraft/worldgen/configured_feature/warped_fungus_planted.json
--  reports/minecraft/worldgen/configured_feature/weeping_vines.json
--  reports/minecraft/worldgen/density_function
--  reports/minecraft/worldgen/density_function/end
--  reports/minecraft/worldgen/density_function/end/base_3d_noise.json
--  reports/minecraft/worldgen/density_function/end/sloped_cheese.json
--  reports/minecraft/worldgen/density_function/nether
--  reports/minecraft/worldgen/density_function/nether/base_3d_noise.json
--  reports/minecraft/worldgen/density_function/overworld
--  reports/minecraft/worldgen/density_function/overworld/caves
--  reports/minecraft/worldgen/density_function/overworld/caves/entrances.json
--  reports/minecraft/worldgen/density_function/overworld/caves/noodle.json
--  reports/minecraft/worldgen/density_function/overworld/caves/pillars.json
--  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
--  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
--  reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
--  reports/minecraft/worldgen/density_function/overworld/base_3d_noise.json
--  reports/minecraft/worldgen/density_function/overworld/continents.json
--  reports/minecraft/worldgen/density_function/overworld/depth.json
--  reports/minecraft/worldgen/density_function/overworld/erosion.json
--  reports/minecraft/worldgen/density_function/overworld/factor.json
--  reports/minecraft/worldgen/density_function/overworld/jaggedness.json
--  reports/minecraft/worldgen/density_function/overworld/offset.json
--  reports/minecraft/worldgen/density_function/overworld/ridges.json
--  reports/minecraft/worldgen/density_function/overworld/ridges_folded.json
--  reports/minecraft/worldgen/density_function/overworld/sloped_cheese.json
--  reports/minecraft/worldgen/density_function/overworld_amplified
--  reports/minecraft/worldgen/density_function/overworld_amplified/depth.json
--  reports/minecraft/worldgen/density_function/overworld_amplified/factor.json
--  reports/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
--  reports/minecraft/worldgen/density_function/overworld_amplified/offset.json
--  reports/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
--  reports/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
--  reports/minecraft/worldgen/density_function/shift_x.json
--  reports/minecraft/worldgen/density_function/shift_z.json
--  reports/minecraft/worldgen/density_function/y.json
--  reports/minecraft/worldgen/density_function/zero.json
--  reports/minecraft/worldgen/flat_level_generator_preset
--  reports/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
--  reports/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
--  reports/minecraft/worldgen/flat_level_generator_preset/desert.json
--  reports/minecraft/worldgen/flat_level_generator_preset/overworld.json
--  reports/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
--  reports/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
--  reports/minecraft/worldgen/flat_level_generator_preset/the_void.json
--  reports/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
--  reports/minecraft/worldgen/flat_level_generator_preset/water_world.json
--  reports/minecraft/worldgen/noise
--  reports/minecraft/worldgen/noise/aquifer_barrier.json
--  reports/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
--  reports/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
--  reports/minecraft/worldgen/noise/aquifer_lava.json
--  reports/minecraft/worldgen/noise/badlands_pillar.json
--  reports/minecraft/worldgen/noise/badlands_pillar_roof.json
--  reports/minecraft/worldgen/noise/badlands_surface.json
--  reports/minecraft/worldgen/noise/calcite.json
--  reports/minecraft/worldgen/noise/cave_cheese.json
--  reports/minecraft/worldgen/noise/cave_entrance.json
--  reports/minecraft/worldgen/noise/cave_layer.json
--  reports/minecraft/worldgen/noise/clay_bands_offset.json
--  reports/minecraft/worldgen/noise/continentalness.json
--  reports/minecraft/worldgen/noise/continentalness_large.json
--  reports/minecraft/worldgen/noise/erosion.json
--  reports/minecraft/worldgen/noise/erosion_large.json
--  reports/minecraft/worldgen/noise/gravel.json
--  reports/minecraft/worldgen/noise/gravel_layer.json
--  reports/minecraft/worldgen/noise/ice.json
--  reports/minecraft/worldgen/noise/iceberg_pillar.json
--  reports/minecraft/worldgen/noise/iceberg_pillar_roof.json
--  reports/minecraft/worldgen/noise/iceberg_surface.json
--  reports/minecraft/worldgen/noise/jagged.json
--  reports/minecraft/worldgen/noise/nether_state_selector.json
--  reports/minecraft/worldgen/noise/nether_wart.json
--  reports/minecraft/worldgen/noise/netherrack.json
--  reports/minecraft/worldgen/noise/noodle.json
--  reports/minecraft/worldgen/noise/noodle_ridge_a.json
--  reports/minecraft/worldgen/noise/noodle_ridge_b.json
--  reports/minecraft/worldgen/noise/noodle_thickness.json
--  reports/minecraft/worldgen/noise/offset.json
--  reports/minecraft/worldgen/noise/ore_gap.json
--  reports/minecraft/worldgen/noise/ore_vein_a.json
--  reports/minecraft/worldgen/noise/ore_vein_b.json
--  reports/minecraft/worldgen/noise/ore_veininess.json
--  reports/minecraft/worldgen/noise/packed_ice.json
--  reports/minecraft/worldgen/noise/patch.json
--  reports/minecraft/worldgen/noise/pillar.json
--  reports/minecraft/worldgen/noise/pillar_rareness.json
--  reports/minecraft/worldgen/noise/pillar_thickness.json
--  reports/minecraft/worldgen/noise/powder_snow.json
--  reports/minecraft/worldgen/noise/ridge.json
--  reports/minecraft/worldgen/noise/soul_sand_layer.json
--  reports/minecraft/worldgen/noise/spaghetti_2d.json
--  reports/minecraft/worldgen/noise/spaghetti_2d_elevation.json
--  reports/minecraft/worldgen/noise/spaghetti_2d_modulator.json
--  reports/minecraft/worldgen/noise/spaghetti_2d_thickness.json
--  reports/minecraft/worldgen/noise/spaghetti_3d_1.json
--  reports/minecraft/worldgen/noise/spaghetti_3d_2.json
--  reports/minecraft/worldgen/noise/spaghetti_3d_rarity.json
--  reports/minecraft/worldgen/noise/spaghetti_3d_thickness.json
--  reports/minecraft/worldgen/noise/spaghetti_roughness.json
--  reports/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
--  reports/minecraft/worldgen/noise/surface.json
--  reports/minecraft/worldgen/noise/surface_secondary.json
--  reports/minecraft/worldgen/noise/surface_swamp.json
--  reports/minecraft/worldgen/noise/temperature.json
--  reports/minecraft/worldgen/noise/temperature_large.json
--  reports/minecraft/worldgen/noise/vegetation.json
--  reports/minecraft/worldgen/noise/vegetation_large.json
--  reports/minecraft/worldgen/noise_settings
--  reports/minecraft/worldgen/noise_settings/amplified.json
--  reports/minecraft/worldgen/noise_settings/caves.json
--  reports/minecraft/worldgen/noise_settings/end.json
--  reports/minecraft/worldgen/noise_settings/floating_islands.json
--  reports/minecraft/worldgen/noise_settings/large_biomes.json
--  reports/minecraft/worldgen/noise_settings/nether.json
--  reports/minecraft/worldgen/noise_settings/overworld.json
--  reports/minecraft/worldgen/placed_feature
--  reports/minecraft/worldgen/placed_feature/acacia.json
--  reports/minecraft/worldgen/placed_feature/acacia_checked.json
--  reports/minecraft/worldgen/placed_feature/amethyst_geode.json
--  reports/minecraft/worldgen/placed_feature/bamboo.json
--  reports/minecraft/worldgen/placed_feature/bamboo_light.json
--  reports/minecraft/worldgen/placed_feature/bamboo_vegetation.json
--  reports/minecraft/worldgen/placed_feature/basalt_blobs.json
--  reports/minecraft/worldgen/placed_feature/basalt_pillar.json
--  reports/minecraft/worldgen/placed_feature/birch_bees_0002.json
--  reports/minecraft/worldgen/placed_feature/birch_bees_002.json
--  reports/minecraft/worldgen/placed_feature/birch_checked.json
--  reports/minecraft/worldgen/placed_feature/birch_tall.json
--  reports/minecraft/worldgen/placed_feature/blackstone_blobs.json
--  reports/minecraft/worldgen/placed_feature/blue_ice.json
--  reports/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
--  reports/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
--  reports/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
--  reports/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
--  reports/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
--  reports/minecraft/worldgen/placed_feature/cave_vines.json
--  reports/minecraft/worldgen/placed_feature/chorus_plant.json
--  reports/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
--  reports/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
--  reports/minecraft/worldgen/placed_feature/crimson_fungi.json
--  reports/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
--  reports/minecraft/worldgen/placed_feature/dark_oak_checked.json
--  reports/minecraft/worldgen/placed_feature/delta.json
--  reports/minecraft/worldgen/placed_feature/desert_well.json
--  reports/minecraft/worldgen/placed_feature/disk_clay.json
--  reports/minecraft/worldgen/placed_feature/disk_grass.json
--  reports/minecraft/worldgen/placed_feature/disk_gravel.json
--  reports/minecraft/worldgen/placed_feature/disk_sand.json
--  reports/minecraft/worldgen/placed_feature/dripstone_cluster.json
--  reports/minecraft/worldgen/placed_feature/end_gateway_return.json
--  reports/minecraft/worldgen/placed_feature/end_island_decorated.json
--  reports/minecraft/worldgen/placed_feature/end_spike.json
--  reports/minecraft/worldgen/placed_feature/fancy_oak_bees.json
--  reports/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
--  reports/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
--  reports/minecraft/worldgen/placed_feature/fancy_oak_checked.json
--  reports/minecraft/worldgen/placed_feature/flower_default.json
--  reports/minecraft/worldgen/placed_feature/flower_flower_forest.json
--  reports/minecraft/worldgen/placed_feature/flower_forest_flowers.json
--  reports/minecraft/worldgen/placed_feature/flower_meadow.json
--  reports/minecraft/worldgen/placed_feature/flower_plain.json
--  reports/minecraft/worldgen/placed_feature/flower_plains.json
--  reports/minecraft/worldgen/placed_feature/flower_swamp.json
--  reports/minecraft/worldgen/placed_feature/flower_warm.json
--  reports/minecraft/worldgen/placed_feature/forest_flowers.json
--  reports/minecraft/worldgen/placed_feature/forest_rock.json
--  reports/minecraft/worldgen/placed_feature/fossil_lower.json
--  reports/minecraft/worldgen/placed_feature/fossil_upper.json
--  reports/minecraft/worldgen/placed_feature/freeze_top_layer.json
--  reports/minecraft/worldgen/placed_feature/glow_lichen.json
--  reports/minecraft/worldgen/placed_feature/glowstone.json
--  reports/minecraft/worldgen/placed_feature/glowstone_extra.json
--  reports/minecraft/worldgen/placed_feature/grass_bonemeal.json
--  reports/minecraft/worldgen/placed_feature/ice_patch.json
--  reports/minecraft/worldgen/placed_feature/ice_spike.json
--  reports/minecraft/worldgen/placed_feature/iceberg_blue.json
--  reports/minecraft/worldgen/placed_feature/iceberg_packed.json
--  reports/minecraft/worldgen/placed_feature/jungle_bush.json
--  reports/minecraft/worldgen/placed_feature/jungle_tree.json
--  reports/minecraft/worldgen/placed_feature/kelp_cold.json
--  reports/minecraft/worldgen/placed_feature/kelp_warm.json
--  reports/minecraft/worldgen/placed_feature/lake_lava_surface.json
--  reports/minecraft/worldgen/placed_feature/lake_lava_underground.json
--  reports/minecraft/worldgen/placed_feature/large_basalt_columns.json
--  reports/minecraft/worldgen/placed_feature/large_dripstone.json
--  reports/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
--  reports/minecraft/worldgen/placed_feature/lush_caves_clay.json
--  reports/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
--  reports/minecraft/worldgen/placed_feature/mangrove_checked.json
--  reports/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
--  reports/minecraft/worldgen/placed_feature/mega_pine_checked.json
--  reports/minecraft/worldgen/placed_feature/mega_spruce_checked.json
--  reports/minecraft/worldgen/placed_feature/monster_room.json
--  reports/minecraft/worldgen/placed_feature/monster_room_deep.json
--  reports/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
--  reports/minecraft/worldgen/placed_feature/nether_sprouts.json
--  reports/minecraft/worldgen/placed_feature/oak.json
--  reports/minecraft/worldgen/placed_feature/oak_bees_0002.json
--  reports/minecraft/worldgen/placed_feature/oak_bees_002.json
--  reports/minecraft/worldgen/placed_feature/oak_checked.json
--  reports/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
--  reports/minecraft/worldgen/placed_feature/ore_andesite_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_andesite_upper.json
--  reports/minecraft/worldgen/placed_feature/ore_blackstone.json
--  reports/minecraft/worldgen/placed_feature/ore_clay.json
--  reports/minecraft/worldgen/placed_feature/ore_coal_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_coal_upper.json
--  reports/minecraft/worldgen/placed_feature/ore_copper.json
--  reports/minecraft/worldgen/placed_feature/ore_copper_large.json
--  reports/minecraft/worldgen/placed_feature/ore_debris_small.json
--  reports/minecraft/worldgen/placed_feature/ore_diamond.json
--  reports/minecraft/worldgen/placed_feature/ore_diamond_buried.json
--  reports/minecraft/worldgen/placed_feature/ore_diamond_large.json
--  reports/minecraft/worldgen/placed_feature/ore_diorite_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_diorite_upper.json
--  reports/minecraft/worldgen/placed_feature/ore_dirt.json
--  reports/minecraft/worldgen/placed_feature/ore_emerald.json
--  reports/minecraft/worldgen/placed_feature/ore_gold.json
--  reports/minecraft/worldgen/placed_feature/ore_gold_deltas.json
--  reports/minecraft/worldgen/placed_feature/ore_gold_extra.json
--  reports/minecraft/worldgen/placed_feature/ore_gold_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_gold_nether.json
--  reports/minecraft/worldgen/placed_feature/ore_granite_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_granite_upper.json
--  reports/minecraft/worldgen/placed_feature/ore_gravel.json
--  reports/minecraft/worldgen/placed_feature/ore_gravel_nether.json
--  reports/minecraft/worldgen/placed_feature/ore_infested.json
--  reports/minecraft/worldgen/placed_feature/ore_iron_middle.json
--  reports/minecraft/worldgen/placed_feature/ore_iron_small.json
--  reports/minecraft/worldgen/placed_feature/ore_iron_upper.json
--  reports/minecraft/worldgen/placed_feature/ore_lapis.json
--  reports/minecraft/worldgen/placed_feature/ore_lapis_buried.json
--  reports/minecraft/worldgen/placed_feature/ore_magma.json
--  reports/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
--  reports/minecraft/worldgen/placed_feature/ore_quartz_nether.json
--  reports/minecraft/worldgen/placed_feature/ore_redstone.json
--  reports/minecraft/worldgen/placed_feature/ore_redstone_lower.json
--  reports/minecraft/worldgen/placed_feature/ore_soul_sand.json
--  reports/minecraft/worldgen/placed_feature/ore_tuff.json
--  reports/minecraft/worldgen/placed_feature/patch_berry_bush.json
--  reports/minecraft/worldgen/placed_feature/patch_berry_common.json
--  reports/minecraft/worldgen/placed_feature/patch_berry_rare.json
--  reports/minecraft/worldgen/placed_feature/patch_cactus.json
--  reports/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
--  reports/minecraft/worldgen/placed_feature/patch_cactus_desert.json
--  reports/minecraft/worldgen/placed_feature/patch_crimson_roots.json
--  reports/minecraft/worldgen/placed_feature/patch_dead_bush.json
--  reports/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
--  reports/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
--  reports/minecraft/worldgen/placed_feature/patch_fire.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_badlands.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_forest.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_jungle.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_normal.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_plain.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_savanna.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_taiga.json
--  reports/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
--  reports/minecraft/worldgen/placed_feature/patch_large_fern.json
--  reports/minecraft/worldgen/placed_feature/patch_melon.json
--  reports/minecraft/worldgen/placed_feature/patch_melon_sparse.json
--  reports/minecraft/worldgen/placed_feature/patch_pumpkin.json
--  reports/minecraft/worldgen/placed_feature/patch_soul_fire.json
--  reports/minecraft/worldgen/placed_feature/patch_sugar_cane.json
--  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
--  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
--  reports/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
--  reports/minecraft/worldgen/placed_feature/patch_sunflower.json
--  reports/minecraft/worldgen/placed_feature/patch_taiga_grass.json
--  reports/minecraft/worldgen/placed_feature/patch_tall_grass.json
--  reports/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
--  reports/minecraft/worldgen/placed_feature/patch_waterlily.json
--  reports/minecraft/worldgen/placed_feature/pile_hay.json
--  reports/minecraft/worldgen/placed_feature/pile_ice.json
--  reports/minecraft/worldgen/placed_feature/pile_melon.json
--  reports/minecraft/worldgen/placed_feature/pile_pumpkin.json
--  reports/minecraft/worldgen/placed_feature/pile_snow.json
--  reports/minecraft/worldgen/placed_feature/pine.json
--  reports/minecraft/worldgen/placed_feature/pine_checked.json
--  reports/minecraft/worldgen/placed_feature/pine_on_snow.json
--  reports/minecraft/worldgen/placed_feature/pointed_dripstone.json
--  reports/minecraft/worldgen/placed_feature/red_mushroom_nether.json
--  reports/minecraft/worldgen/placed_feature/red_mushroom_normal.json
--  reports/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
--  reports/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
--  reports/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
--  reports/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
--  reports/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
--  reports/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
--  reports/minecraft/worldgen/placed_feature/sculk_vein.json
--  reports/minecraft/worldgen/placed_feature/sea_pickle.json
--  reports/minecraft/worldgen/placed_feature/seagrass_cold.json
--  reports/minecraft/worldgen/placed_feature/seagrass_deep.json
--  reports/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
--  reports/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
--  reports/minecraft/worldgen/placed_feature/seagrass_normal.json
--  reports/minecraft/worldgen/placed_feature/seagrass_river.json
--  reports/minecraft/worldgen/placed_feature/seagrass_simple.json
--  reports/minecraft/worldgen/placed_feature/seagrass_swamp.json
--  reports/minecraft/worldgen/placed_feature/seagrass_warm.json
--  reports/minecraft/worldgen/placed_feature/small_basalt_columns.json
--  reports/minecraft/worldgen/placed_feature/spore_blossom.json
--  reports/minecraft/worldgen/placed_feature/spring_closed.json
--  reports/minecraft/worldgen/placed_feature/spring_closed_double.json
--  reports/minecraft/worldgen/placed_feature/spring_delta.json
--  reports/minecraft/worldgen/placed_feature/spring_lava.json
--  reports/minecraft/worldgen/placed_feature/spring_lava_frozen.json
--  reports/minecraft/worldgen/placed_feature/spring_open.json
--  reports/minecraft/worldgen/placed_feature/spring_water.json
--  reports/minecraft/worldgen/placed_feature/spruce.json
--  reports/minecraft/worldgen/placed_feature/spruce_checked.json
--  reports/minecraft/worldgen/placed_feature/spruce_on_snow.json
--  reports/minecraft/worldgen/placed_feature/super_birch_bees.json
--  reports/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
--  reports/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
--  reports/minecraft/worldgen/placed_feature/trees_badlands.json
--  reports/minecraft/worldgen/placed_feature/trees_birch.json
--  reports/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
--  reports/minecraft/worldgen/placed_feature/trees_flower_forest.json
--  reports/minecraft/worldgen/placed_feature/trees_grove.json
--  reports/minecraft/worldgen/placed_feature/trees_jungle.json
--  reports/minecraft/worldgen/placed_feature/trees_mangrove.json
--  reports/minecraft/worldgen/placed_feature/trees_meadow.json
--  reports/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
--  reports/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
--  reports/minecraft/worldgen/placed_feature/trees_plains.json
--  reports/minecraft/worldgen/placed_feature/trees_savanna.json
--  reports/minecraft/worldgen/placed_feature/trees_snowy.json
--  reports/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
--  reports/minecraft/worldgen/placed_feature/trees_swamp.json
--  reports/minecraft/worldgen/placed_feature/trees_taiga.json
--  reports/minecraft/worldgen/placed_feature/trees_water.json
--  reports/minecraft/worldgen/placed_feature/trees_windswept_forest.json
--  reports/minecraft/worldgen/placed_feature/trees_windswept_hills.json
--  reports/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
--  reports/minecraft/worldgen/placed_feature/twisting_vines.json
--  reports/minecraft/worldgen/placed_feature/underwater_magma.json
--  reports/minecraft/worldgen/placed_feature/vines.json
--  reports/minecraft/worldgen/placed_feature/void_start_platform.json
--  reports/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
--  reports/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
--  reports/minecraft/worldgen/placed_feature/warped_fungi.json
--  reports/minecraft/worldgen/placed_feature/weeping_vines.json
--  reports/minecraft/worldgen/processor_list
--  reports/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
--  reports/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
--  reports/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
--  reports/minecraft/worldgen/processor_list/bastion_generic_degradation.json
--  reports/minecraft/worldgen/processor_list/bottom_rampart.json
--  reports/minecraft/worldgen/processor_list/bridge.json
--  reports/minecraft/worldgen/processor_list/empty.json
--  reports/minecraft/worldgen/processor_list/entrance_replacement.json
--  reports/minecraft/worldgen/processor_list/farm_desert.json
--  reports/minecraft/worldgen/processor_list/farm_plains.json
--  reports/minecraft/worldgen/processor_list/farm_savanna.json
--  reports/minecraft/worldgen/processor_list/farm_snowy.json
--  reports/minecraft/worldgen/processor_list/farm_taiga.json
--  reports/minecraft/worldgen/processor_list/fossil_coal.json
--  reports/minecraft/worldgen/processor_list/fossil_diamonds.json
--  reports/minecraft/worldgen/processor_list/fossil_rot.json
--  reports/minecraft/worldgen/processor_list/high_rampart.json
--  reports/minecraft/worldgen/processor_list/high_wall.json
--  reports/minecraft/worldgen/processor_list/housing.json
--  reports/minecraft/worldgen/processor_list/mossify_10_percent.json
--  reports/minecraft/worldgen/processor_list/mossify_20_percent.json
--  reports/minecraft/worldgen/processor_list/mossify_70_percent.json
--  reports/minecraft/worldgen/processor_list/outpost_rot.json
--  reports/minecraft/worldgen/processor_list/rampart_degradation.json
--  reports/minecraft/worldgen/processor_list/roof.json
--  reports/minecraft/worldgen/processor_list/side_wall_degradation.json
--  reports/minecraft/worldgen/processor_list/stable_degradation.json
--  reports/minecraft/worldgen/processor_list/street_plains.json
--  reports/minecraft/worldgen/processor_list/street_savanna.json
--  reports/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
--  reports/minecraft/worldgen/processor_list/treasure_rooms.json
--  reports/minecraft/worldgen/processor_list/zombie_desert.json
--  reports/minecraft/worldgen/processor_list/zombie_plains.json
--  reports/minecraft/worldgen/processor_list/zombie_savanna.json
--  reports/minecraft/worldgen/processor_list/zombie_snowy.json
--  reports/minecraft/worldgen/processor_list/zombie_taiga.json
--  reports/minecraft/worldgen/structure
--  reports/minecraft/worldgen/structure/ancient_city.json
--  reports/minecraft/worldgen/structure/bastion_remnant.json
--  reports/minecraft/worldgen/structure/buried_treasure.json
--  reports/minecraft/worldgen/structure/desert_pyramid.json
--  reports/minecraft/worldgen/structure/end_city.json
--  reports/minecraft/worldgen/structure/fortress.json
--  reports/minecraft/worldgen/structure/igloo.json
--  reports/minecraft/worldgen/structure/jungle_pyramid.json
--  reports/minecraft/worldgen/structure/mansion.json
--  reports/minecraft/worldgen/structure/mineshaft.json
--  reports/minecraft/worldgen/structure/mineshaft_mesa.json
--  reports/minecraft/worldgen/structure/monument.json
--  reports/minecraft/worldgen/structure/nether_fossil.json
--  reports/minecraft/worldgen/structure/ocean_ruin_cold.json
--  reports/minecraft/worldgen/structure/ocean_ruin_warm.json
--  reports/minecraft/worldgen/structure/pillager_outpost.json
--  reports/minecraft/worldgen/structure/ruined_portal.json
--  reports/minecraft/worldgen/structure/ruined_portal_desert.json
--  reports/minecraft/worldgen/structure/ruined_portal_jungle.json
--  reports/minecraft/worldgen/structure/ruined_portal_mountain.json
--  reports/minecraft/worldgen/structure/ruined_portal_nether.json
--  reports/minecraft/worldgen/structure/ruined_portal_ocean.json
--  reports/minecraft/worldgen/structure/ruined_portal_swamp.json
--  reports/minecraft/worldgen/structure/shipwreck.json
--  reports/minecraft/worldgen/structure/shipwreck_beached.json
--  reports/minecraft/worldgen/structure/stronghold.json
--  reports/minecraft/worldgen/structure/swamp_hut.json
--  reports/minecraft/worldgen/structure/village_desert.json
--  reports/minecraft/worldgen/structure/village_plains.json
--  reports/minecraft/worldgen/structure/village_savanna.json
--  reports/minecraft/worldgen/structure/village_snowy.json
--  reports/minecraft/worldgen/structure/village_taiga.json
--  reports/minecraft/worldgen/structure_set
--  reports/minecraft/worldgen/structure_set/ancient_cities.json
--  reports/minecraft/worldgen/structure_set/buried_treasures.json
--  reports/minecraft/worldgen/structure_set/desert_pyramids.json
--  reports/minecraft/worldgen/structure_set/end_cities.json
--  reports/minecraft/worldgen/structure_set/igloos.json
--  reports/minecraft/worldgen/structure_set/jungle_temples.json
--  reports/minecraft/worldgen/structure_set/mineshafts.json
--  reports/minecraft/worldgen/structure_set/nether_complexes.json
--  reports/minecraft/worldgen/structure_set/nether_fossils.json
--  reports/minecraft/worldgen/structure_set/ocean_monuments.json
--  reports/minecraft/worldgen/structure_set/ocean_ruins.json
--  reports/minecraft/worldgen/structure_set/pillager_outposts.json
--  reports/minecraft/worldgen/structure_set/ruined_portals.json
--  reports/minecraft/worldgen/structure_set/shipwrecks.json
--  reports/minecraft/worldgen/structure_set/strongholds.json
--  reports/minecraft/worldgen/structure_set/swamp_huts.json
--  reports/minecraft/worldgen/structure_set/villages.json
--  reports/minecraft/worldgen/structure_set/woodland_mansions.json
--  reports/minecraft/worldgen/template_pool
--  reports/minecraft/worldgen/template_pool/ancient_city
--  reports/minecraft/worldgen/template_pool/ancient_city/city
--  reports/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
--  reports/minecraft/worldgen/template_pool/ancient_city/city_center
--  reports/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
--  reports/minecraft/worldgen/template_pool/ancient_city/walls
--  reports/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
--  reports/minecraft/worldgen/template_pool/ancient_city/city_center.json
--  reports/minecraft/worldgen/template_pool/ancient_city/sculk.json
--  reports/minecraft/worldgen/template_pool/ancient_city/structures.json
--  reports/minecraft/worldgen/template_pool/ancient_city/walls.json
--  reports/minecraft/worldgen/template_pool/bastion
--  reports/minecraft/worldgen/template_pool/bastion/blocks
--  reports/minecraft/worldgen/template_pool/bastion/blocks/gold.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge
--  reports/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/legs.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
--  reports/minecraft/worldgen/template_pool/bastion/bridge/walls.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
--  reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
--  reports/minecraft/worldgen/template_pool/bastion/mobs
--  reports/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
--  reports/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
--  reports/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure
--  reports/minecraft/worldgen/template_pool/bastion/treasure/bases
--  reports/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/corners
--  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions
--  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/bases.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/brains.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
--  reports/minecraft/worldgen/template_pool/bastion/treasure/walls.json
--  reports/minecraft/worldgen/template_pool/bastion/units
--  reports/minecraft/worldgen/template_pool/bastion/units/fillers
--  reports/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
--  reports/minecraft/worldgen/template_pool/bastion/units/stages
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/rot
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
--  reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
--  reports/minecraft/worldgen/template_pool/bastion/units/walls
--  reports/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
--  reports/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
--  reports/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
--  reports/minecraft/worldgen/template_pool/bastion/units/edges.json
--  reports/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
--  reports/minecraft/worldgen/template_pool/bastion/units/pathways.json
--  reports/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
--  reports/minecraft/worldgen/template_pool/bastion/units/ramparts.json
--  reports/minecraft/worldgen/template_pool/bastion/units/wall_units.json
--  reports/minecraft/worldgen/template_pool/bastion/starts.json
--  reports/minecraft/worldgen/template_pool/pillager_outpost
--  reports/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
--  reports/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
--  reports/minecraft/worldgen/template_pool/pillager_outpost/features.json
--  reports/minecraft/worldgen/template_pool/pillager_outpost/towers.json
--  reports/minecraft/worldgen/template_pool/village
--  reports/minecraft/worldgen/template_pool/village/common
--  reports/minecraft/worldgen/template_pool/village/common/animals.json
--  reports/minecraft/worldgen/template_pool/village/common/butcher_animals.json
--  reports/minecraft/worldgen/template_pool/village/common/cats.json
--  reports/minecraft/worldgen/template_pool/village/common/iron_golem.json
--  reports/minecraft/worldgen/template_pool/village/common/sheep.json
--  reports/minecraft/worldgen/template_pool/village/common/well_bottoms.json
--  reports/minecraft/worldgen/template_pool/village/desert
--  reports/minecraft/worldgen/template_pool/village/desert/zombie
--  reports/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
--  reports/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
--  reports/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
--  reports/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
--  reports/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
--  reports/minecraft/worldgen/template_pool/village/desert/decor.json
--  reports/minecraft/worldgen/template_pool/village/desert/houses.json
--  reports/minecraft/worldgen/template_pool/village/desert/streets.json
--  reports/minecraft/worldgen/template_pool/village/desert/terminators.json
--  reports/minecraft/worldgen/template_pool/village/desert/town_centers.json
--  reports/minecraft/worldgen/template_pool/village/desert/villagers.json
--  reports/minecraft/worldgen/template_pool/village/plains
--  reports/minecraft/worldgen/template_pool/village/plains/zombie
--  reports/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
--  reports/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
--  reports/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
--  reports/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
--  reports/minecraft/worldgen/template_pool/village/plains/decor.json
--  reports/minecraft/worldgen/template_pool/village/plains/houses.json
--  reports/minecraft/worldgen/template_pool/village/plains/streets.json
--  reports/minecraft/worldgen/template_pool/village/plains/terminators.json
--  reports/minecraft/worldgen/template_pool/village/plains/town_centers.json
--  reports/minecraft/worldgen/template_pool/village/plains/trees.json
--  reports/minecraft/worldgen/template_pool/village/plains/villagers.json
--  reports/minecraft/worldgen/template_pool/village/savanna
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
--  reports/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
--  reports/minecraft/worldgen/template_pool/village/savanna/decor.json
--  reports/minecraft/worldgen/template_pool/village/savanna/houses.json
--  reports/minecraft/worldgen/template_pool/village/savanna/streets.json
--  reports/minecraft/worldgen/template_pool/village/savanna/terminators.json
--  reports/minecraft/worldgen/template_pool/village/savanna/town_centers.json
--  reports/minecraft/worldgen/template_pool/village/savanna/trees.json
--  reports/minecraft/worldgen/template_pool/village/savanna/villagers.json
--  reports/minecraft/worldgen/template_pool/village/snowy
--  reports/minecraft/worldgen/template_pool/village/snowy/zombie
--  reports/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
--  reports/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
--  reports/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
--  reports/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
--  reports/minecraft/worldgen/template_pool/village/snowy/decor.json
--  reports/minecraft/worldgen/template_pool/village/snowy/houses.json
--  reports/minecraft/worldgen/template_pool/village/snowy/streets.json
--  reports/minecraft/worldgen/template_pool/village/snowy/terminators.json
--  reports/minecraft/worldgen/template_pool/village/snowy/town_centers.json
--  reports/minecraft/worldgen/template_pool/village/snowy/trees.json
--  reports/minecraft/worldgen/template_pool/village/snowy/villagers.json
--  reports/minecraft/worldgen/template_pool/village/taiga
--  reports/minecraft/worldgen/template_pool/village/taiga/zombie
--  reports/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
--  reports/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
--  reports/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
--  reports/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
--  reports/minecraft/worldgen/template_pool/village/taiga/decor.json
--  reports/minecraft/worldgen/template_pool/village/taiga/houses.json
--  reports/minecraft/worldgen/template_pool/village/taiga/streets.json
--  reports/minecraft/worldgen/template_pool/village/taiga/terminators.json
--  reports/minecraft/worldgen/template_pool/village/taiga/town_centers.json
--  reports/minecraft/worldgen/template_pool/village/taiga/villagers.json
--  reports/minecraft/worldgen/template_pool/empty.json
--  reports/minecraft/worldgen/world_preset
--  reports/minecraft/worldgen/world_preset/amplified.json
--  reports/minecraft/worldgen/world_preset/debug_all_block_states.json
--  reports/minecraft/worldgen/world_preset/flat.json
--  reports/minecraft/worldgen/world_preset/large_biomes.json
--  reports/minecraft/worldgen/world_preset/normal.json
--  reports/minecraft/worldgen/world_preset/single_biome_surface.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:acacia_hanging_sign
-+ minecraft:acacia_wall_hanging_sign
-+ minecraft:bamboo_button
-+ minecraft:bamboo_door
-+ minecraft:bamboo_fence
-+ minecraft:bamboo_fence_gate
-+ minecraft:bamboo_hanging_sign
-+ minecraft:bamboo_mosaic
-+ minecraft:bamboo_mosaic_slab
-+ minecraft:bamboo_mosaic_stairs
-+ minecraft:bamboo_planks
-+ minecraft:bamboo_pressure_plate
-+ minecraft:bamboo_sign
-+ minecraft:bamboo_slab
-+ minecraft:bamboo_stairs
-+ minecraft:bamboo_trapdoor
-+ minecraft:bamboo_wall_hanging_sign
-+ minecraft:bamboo_wall_sign
-+ minecraft:birch_hanging_sign
-+ minecraft:birch_wall_hanging_sign
-+ minecraft:chiseled_bookshelf
-+ minecraft:crimson_hanging_sign
-+ minecraft:crimson_wall_hanging_sign
-+ minecraft:dark_oak_hanging_sign
-+ minecraft:dark_oak_wall_hanging_sign
-+ minecraft:jungle_hanging_sign
-+ minecraft:jungle_wall_hanging_sign
-+ minecraft:mangrove_hanging_sign
-+ minecraft:mangrove_wall_hanging_sign
-+ minecraft:oak_hanging_sign
-+ minecraft:oak_wall_hanging_sign
-+ minecraft:spruce_hanging_sign
-+ minecraft:spruce_wall_hanging_sign
-+ minecraft:warped_hanging_sign
-+ minecraft:warped_wall_hanging_sign
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-+ minecraft:chiseled_bookshelf
-+ minecraft:hanging_sign
-```
-
-</details>
-
-<details><summary>command_argument_type.txt</summary>
-
-```diff
-- minecraft:entity_summon
-- minecraft:item_enchantment
-- minecraft:mob_effect
-+ minecraft:resource_key
-+ minecraft:resource_or_tag_key
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:camel
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:acacia_hanging_sign
-+ minecraft:bamboo_button
-+ minecraft:bamboo_chest_raft
-+ minecraft:bamboo_door
-+ minecraft:bamboo_fence
-+ minecraft:bamboo_fence_gate
-+ minecraft:bamboo_hanging_sign
-+ minecraft:bamboo_mosaic
-+ minecraft:bamboo_mosaic_slab
-+ minecraft:bamboo_mosaic_stairs
-+ minecraft:bamboo_planks
-+ minecraft:bamboo_pressure_plate
-+ minecraft:bamboo_raft
-+ minecraft:bamboo_sign
-+ minecraft:bamboo_slab
-+ minecraft:bamboo_stairs
-+ minecraft:bamboo_trapdoor
-+ minecraft:birch_hanging_sign
-+ minecraft:camel_spawn_egg
-+ minecraft:chiseled_bookshelf
-+ minecraft:crimson_hanging_sign
-+ minecraft:dark_oak_hanging_sign
-+ minecraft:jungle_hanging_sign
-+ minecraft:mangrove_hanging_sign
-+ minecraft:oak_hanging_sign
-+ minecraft:spruce_hanging_sign
-+ minecraft:warped_hanging_sign
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:gaze_cooldown_ticks
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:camel_temptations
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.bamboo_wood.break
-+ minecraft:block.bamboo_wood.fall
-+ minecraft:block.bamboo_wood.hit
-+ minecraft:block.bamboo_wood.place
-+ minecraft:block.bamboo_wood.step
-+ minecraft:block.bamboo_wood_button.click_off
-+ minecraft:block.bamboo_wood_button.click_on
-+ minecraft:block.bamboo_wood_door.close
-+ minecraft:block.bamboo_wood_door.open
-+ minecraft:block.bamboo_wood_fence_gate.close
-+ minecraft:block.bamboo_wood_fence_gate.open
-+ minecraft:block.bamboo_wood_pressure_plate.click_off
-+ minecraft:block.bamboo_wood_pressure_plate.click_on
-+ minecraft:block.bamboo_wood_trapdoor.close
-+ minecraft:block.bamboo_wood_trapdoor.open
-+ minecraft:block.hanging_sign.break
-+ minecraft:block.hanging_sign.fall
-+ minecraft:block.hanging_sign.hit
-+ minecraft:block.hanging_sign.place
-+ minecraft:block.hanging_sign.step
-+ minecraft:block.nether_wood.break
-+ minecraft:block.nether_wood.fall
-+ minecraft:block.nether_wood.hit
-+ minecraft:block.nether_wood.place
-+ minecraft:block.nether_wood.step
-+ minecraft:block.nether_wood_button.click_off
-+ minecraft:block.nether_wood_button.click_on
-+ minecraft:block.nether_wood_door.close
-+ minecraft:block.nether_wood_door.open
-+ minecraft:block.nether_wood_fence_gate.close
-+ minecraft:block.nether_wood_fence_gate.open
-+ minecraft:block.nether_wood_pressure_plate.click_off
-+ minecraft:block.nether_wood_pressure_plate.click_on
-+ minecraft:block.nether_wood_trapdoor.close
-+ minecraft:block.nether_wood_trapdoor.open
-+ minecraft:entity.camel.ambient
-+ minecraft:entity.camel.dash
-+ minecraft:entity.camel.dash_ready
-+ minecraft:entity.camel.death
-+ minecraft:entity.camel.eat
-+ minecraft:entity.camel.hurt
-+ minecraft:entity.camel.saddle
-+ minecraft:entity.camel.sit
-+ minecraft:entity.camel.stand
-+ minecraft:entity.camel.step
-+ minecraft:entity.camel.step_sand
-```
-
-</details>
-
-## Commands
-
-<details><summary>effect.txt</summary>
-
-```diff
-- effect clear <targets: entity> <effect: mob_effect>
-- effect give <targets: entity> <effect: mob_effect> <seconds: integer> <amplifier: integer> <hideParticles: bool>
-+ effect clear <targets: entity> <effect: resource>
-+ effect give <targets: entity> <effect: resource> <seconds: integer> <amplifier: integer> <hideParticles: bool>
-```
-
-</details>
-
-<details><summary>enchant.txt</summary>
-
-```diff
-- enchant <targets: entity> <enchantment: item_enchantment> <level: integer>
-+ enchant <targets: entity> <enchantment: resource> <level: integer>
-```
-
-</details>
-
-<details><summary>locate.txt</summary>
-
-```diff
-- locate structure <structure: resource_or_tag>
-+ locate structure <structure: resource_or_tag_key>
-```
-
-</details>
-
-<details><summary>place.txt</summary>
-
-```diff
-- place feature <feature: resource> <pos: block_pos>
-- place jigsaw <pool: resource> <target: resource_location> <max_depth: integer> <position: block_pos>
-- place structure <structure: resource> <pos: block_pos>
-+ place feature <feature: resource_key> <pos: block_pos>
-+ place jigsaw <pool: resource_key> <target: resource_location> <max_depth: integer> <position: block_pos>
-+ place structure <structure: resource_key> <pos: block_pos>
-```
-
-</details>
-
-<details><summary>summon.txt</summary>
-
-```diff
-- summon <entity: entity_summon> <pos: vec3> <nbt: nbt_compound_tag>
-+ summon <entity: resource> <pos: vec3> <nbt: nbt_compound_tag>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/invalid_spawn_inside.json
-+ blocks/stripped_logs.json
-+ items/stripped_logs.json
-```
-
-</details>
-
-<details><summary>items/non_flammable_wood.json</summary>
-
-```diff
-+ minecraft:warped_hanging_sign
-+ minecraft:crimson_hanging_sign
-```
-
-</details>
-
-## Misc
-
-<details><summary>list</summary>
-
-```diff
-+ chat_types.txt
-+ datapacks.txt
-+ dimensions.txt
-+ dimension_types.txt
-+ worldgen/biome.txt
-+ worldgen/configured_carver.txt
-+ worldgen/configured_feature.txt
-+ worldgen/density_function.txt
-+ worldgen/flat_level_generator_preset.txt
-+ worldgen/noise.txt
-+ worldgen/noise_settings.txt
-+ worldgen/placed_feature.txt
-+ worldgen/processor_list.txt
-+ worldgen/structure.txt
-+ worldgen/structure_set.txt
-+ worldgen/template_pool.txt
-+ worldgen/world_preset.txt
-```
-
-</details>
-
-<details><summary>languages.txt</summary>
-
-```diff
-- realms/lang/af_za.json
-- realms/lang/ar_sa.json
-- realms/lang/ast_es.json
-- realms/lang/az_az.json
-- realms/lang/ba_ru.json
-- realms/lang/bar.json
-- realms/lang/be_by.json
-- realms/lang/bg_bg.json
-- realms/lang/br_fr.json
-- realms/lang/brb.json
-- realms/lang/bs_ba.json
-- realms/lang/ca_es.json
-- realms/lang/cs_cz.json
-- realms/lang/cy_gb.json
-- realms/lang/da_dk.json
-- realms/lang/de_at.json
-- realms/lang/de_ch.json
-- realms/lang/de_de.json
-- realms/lang/el_gr.json
-- realms/lang/en_au.json
-- realms/lang/en_ca.json
-- realms/lang/en_gb.json
-- realms/lang/en_nz.json
-- realms/lang/en_pt.json
-- realms/lang/en_ud.json
-- realms/lang/enp.json
-- realms/lang/enws.json
-- realms/lang/eo_uy.json
-- realms/lang/es_ar.json
-- realms/lang/es_cl.json
-- realms/lang/es_ec.json
-- realms/lang/es_es.json
-- realms/lang/es_mx.json
-- realms/lang/es_uy.json
-- realms/lang/es_ve.json
-- realms/lang/esan.json
-- realms/lang/et_ee.json
-- realms/lang/eu_es.json
-- realms/lang/fa_ir.json
-- realms/lang/fi_fi.json
-- realms/lang/fil_ph.json
-- realms/lang/fo_fo.json
-- realms/lang/fr_ca.json
-- realms/lang/fr_fr.json
-- realms/lang/fra_de.json
-- realms/lang/fur_it.json
-- realms/lang/fy_nl.json
-- realms/lang/ga_ie.json
-- realms/lang/gd_gb.json
-- realms/lang/gl_es.json
-- realms/lang/haw_us.json
-- realms/lang/he_il.json
-- realms/lang/hi_in.json
-- realms/lang/hr_hr.json
-- realms/lang/hu_hu.json
-- realms/lang/hy_am.json
-- realms/lang/id_id.json
-- realms/lang/ig_ng.json
-- realms/lang/io_en.json
-- realms/lang/is_is.json
-- realms/lang/isv.json
-- realms/lang/it_it.json
-- realms/lang/ja_jp.json
-- realms/lang/jbo_en.json
-- realms/lang/ka_ge.json
-- realms/lang/kk_kz.json
-- realms/lang/kn_in.json
-- realms/lang/ko_kr.json
-- realms/lang/ksh.json
-- realms/lang/kw_gb.json
-- realms/lang/la_la.json
-- realms/lang/lb_lu.json
-- realms/lang/li_li.json
-- realms/lang/lmo.json
-- realms/lang/lol_us.json
-- realms/lang/lt_lt.json
-- realms/lang/lv_lv.json
-- realms/lang/lzh.json
-- realms/lang/mk_mk.json
-- realms/lang/mn_mn.json
-- realms/lang/ms_my.json
-- realms/lang/mt_mt.json
-- realms/lang/nds_de.json
-- realms/lang/nl_be.json
-- realms/lang/nl_nl.json
-- realms/lang/nn_no.json
-- realms/lang/no_no.json
-- realms/lang/oc_fr.json
-- realms/lang/ovd.json
-- realms/lang/pl_pl.json
-- realms/lang/pt_br.json
-- realms/lang/pt_pt.json
-- realms/lang/qya_aa.json
-- realms/lang/ro_ro.json
-- realms/lang/rpr.json
-- realms/lang/ru_ru.json
-- realms/lang/ry_ua.json
-- realms/lang/se_no.json
-- realms/lang/sk_sk.json
-- realms/lang/sl_si.json
-- realms/lang/so_so.json
-- realms/lang/sq_al.json
-- realms/lang/sr_sp.json
-- realms/lang/sv_se.json
-- realms/lang/sxu.json
-- realms/lang/szl.json
-- realms/lang/ta_in.json
-- realms/lang/th_th.json
-- realms/lang/tl_ph.json
-- realms/lang/tlh_aa.json
-- realms/lang/tok.json
-- realms/lang/tr_tr.json
-- realms/lang/tt_ru.json
-- realms/lang/uk_ua.json
-- realms/lang/val_es.json
-- realms/lang/vec_it.json
-- realms/lang/vi_vn.json
-- realms/lang/yi_de.json
-- realms/lang/yo_ng.json
-- realms/lang/zh_cn.json
-- realms/lang/zh_hk.json
-- realms/lang/zh_tw.json
-- realms/lang/zlm_arab.json
-+ lo_la.json
-+ nah.json
-+ sah_sah.json
-+ sr_cs.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/acacia_hanging_sign.json
-+ blocks/bamboo_button.json
-+ blocks/bamboo_door.json
-+ blocks/bamboo_fence.json
-+ blocks/bamboo_fence_gate.json
-+ blocks/bamboo_hanging_sign.json
-+ blocks/bamboo_mosaic.json
-+ blocks/bamboo_mosaic_slab.json
-+ blocks/bamboo_mosaic_stairs.json
-+ blocks/bamboo_planks.json
-+ blocks/bamboo_pressure_plate.json
-+ blocks/bamboo_sign.json
-+ blocks/bamboo_slab.json
-+ blocks/bamboo_stairs.json
-+ blocks/bamboo_trapdoor.json
-+ blocks/birch_hanging_sign.json
-+ blocks/chiseled_bookshelf.json
-+ blocks/crimson_hanging_sign.json
-+ blocks/dark_oak_hanging_sign.json
-+ blocks/jungle_hanging_sign.json
-+ blocks/mangrove_hanging_sign.json
-+ blocks/oak_hanging_sign.json
-+ blocks/spruce_hanging_sign.json
-+ blocks/warped_hanging_sign.json
-+ entities/camel.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-- block.json
-- block_marker.json
-- elder_guardian.json
-- explosion_emitter.json
-- item.json
-- item_slime.json
-- item_snowball.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-- block/chest/close.ogg
-- block/wooden_door/close.ogg
-- block/wooden_door/close4.ogg
-- block/wooden_door/close5.ogg
-- block/wooden_door/close6.ogg
-- block/wooden_door/open.ogg
-- block/wooden_door/open3.ogg
-- block/wooden_door/open4.ogg
-+ block/bamboo_wood/break1.ogg
-+ block/bamboo_wood/break2.ogg
-+ block/bamboo_wood/break3.ogg
-+ block/bamboo_wood/break4.ogg
-+ block/bamboo_wood/break5.ogg
-+ block/bamboo_wood/step1.ogg
-+ block/bamboo_wood/step2.ogg
-+ block/bamboo_wood/step3.ogg
-+ block/bamboo_wood/step4.ogg
-+ block/bamboo_wood/step5.ogg
-+ block/bamboo_wood/step6.ogg
-+ block/bamboo_wood_button/bamboo_wood_button.ogg
-+ block/bamboo_wood_door/toggle1.ogg
-+ block/bamboo_wood_door/toggle2.ogg
-+ block/bamboo_wood_door/toggle3.ogg
-+ block/bamboo_wood_door/toggle4.ogg
-+ block/bamboo_wood_fence/toggle1.ogg
-+ block/bamboo_wood_fence/toggle2.ogg
-+ block/bamboo_wood_fence/toggle3.ogg
-+ block/bamboo_wood_fence/toggle4.ogg
-+ block/bamboo_wood_hanging_sign/break1.ogg
-+ block/bamboo_wood_hanging_sign/break2.ogg
-+ block/bamboo_wood_hanging_sign/break3.ogg
-+ block/bamboo_wood_hanging_sign/break4.ogg
-+ block/bamboo_wood_hanging_sign/step1.ogg
-+ block/bamboo_wood_hanging_sign/step2.ogg
-+ block/bamboo_wood_hanging_sign/step3.ogg
-+ block/bamboo_wood_hanging_sign/step4.ogg
-+ block/bamboo_wood_trapdoor/toggle1.ogg
-+ block/bamboo_wood_trapdoor/toggle2.ogg
-+ block/bamboo_wood_trapdoor/toggle3.ogg
-+ block/bamboo_wood_trapdoor/toggle4.ogg
-+ block/chest/close1.ogg
-+ block/chest/close_locked.ogg
-+ block/chest/open_locked.ogg
-+ block/chiseled_bookshelf/break1.ogg
-+ block/chiseled_bookshelf/break2.ogg
-+ block/chiseled_bookshelf/break3.ogg
-+ block/chiseled_bookshelf/break4.ogg
-+ block/chiseled_bookshelf/break5.ogg
-+ block/chiseled_bookshelf/break6.ogg
-+ block/chiseled_bookshelf/insert1.ogg
-+ block/chiseled_bookshelf/insert2.ogg
-+ block/chiseled_bookshelf/insert3.ogg
-+ block/chiseled_bookshelf/insert4.ogg
-+ block/chiseled_bookshelf/insert_enchanted1.ogg
-+ block/chiseled_bookshelf/insert_enchanted2.ogg
-+ block/chiseled_bookshelf/insert_enchanted3.ogg
-+ block/chiseled_bookshelf/insert_enchanted4.ogg
-+ block/chiseled_bookshelf/pickup1.ogg
-+ block/chiseled_bookshelf/pickup2.ogg
-+ block/chiseled_bookshelf/pickup3.ogg
-+ block/chiseled_bookshelf/pickup_enchanted1.ogg
-+ block/chiseled_bookshelf/pickup_enchanted2.ogg
-+ block/chiseled_bookshelf/pickup_enchanted3.ogg
-+ block/chiseled_bookshelf/step1.ogg
-+ block/chiseled_bookshelf/step2.ogg
-+ block/chiseled_bookshelf/step3.ogg
-+ block/chiseled_bookshelf/step4.ogg
-+ block/chiseled_bookshelf/step5.ogg
-+ block/hanging_sign/break1.ogg
-+ block/hanging_sign/break2.ogg
-+ block/hanging_sign/break3.ogg
-+ block/hanging_sign/break4.ogg
-+ block/hanging_sign/step1.ogg
-+ block/hanging_sign/step2.ogg
-+ block/hanging_sign/step3.ogg
-+ block/hanging_sign/step4.ogg
-+ block/nether_wood/break1.ogg
-+ block/nether_wood/break2.ogg
-+ block/nether_wood/break3.ogg
-+ block/nether_wood/break4.ogg
-+ block/nether_wood/step1.ogg
-+ block/nether_wood/step2.ogg
-+ block/nether_wood/step3.ogg
-+ block/nether_wood/step4.ogg
-+ block/nether_wood/step5.ogg
-+ block/nether_wood_button/nether_wood_button.ogg
-+ block/nether_wood_door/toggle1.ogg
-+ block/nether_wood_door/toggle2.ogg
-+ block/nether_wood_door/toggle3.ogg
-+ block/nether_wood_door/toggle4.ogg
-+ block/nether_wood_fence/toggle1.ogg
-+ block/nether_wood_fence/toggle2.ogg
-+ block/nether_wood_fence/toggle3.ogg
-+ block/nether_wood_fence/toggle4.ogg
-+ block/nether_wood_hanging_sign/break1.ogg
-+ block/nether_wood_hanging_sign/break2.ogg
-+ block/nether_wood_hanging_sign/break3.ogg
-+ block/nether_wood_hanging_sign/break4.ogg
-+ block/nether_wood_hanging_sign/step1.ogg
-+ block/nether_wood_hanging_sign/step2.ogg
-+ block/nether_wood_hanging_sign/step3.ogg
-+ block/nether_wood_hanging_sign/step4.ogg
-+ block/nether_wood_trapdoor/toggle1.ogg
-+ block/nether_wood_trapdoor/toggle2.ogg
-+ block/nether_wood_trapdoor/toggle3.ogg
-+ block/nether_wood_trapdoor/toggle4.ogg
-+ block/wooden_door/close1.ogg
-+ block/wooden_door/open1.ogg
-+ mob/camel/ambient1.ogg
-+ mob/camel/ambient2.ogg
-+ mob/camel/ambient3.ogg
-+ mob/camel/ambient4.ogg
-+ mob/camel/ambient5.ogg
-+ mob/camel/ambient6.ogg
-+ mob/camel/ambient7.ogg
-+ mob/camel/ambient8.ogg
-+ mob/camel/dash1.ogg
-+ mob/camel/dash2.ogg
-+ mob/camel/dash3.ogg
-+ mob/camel/dash4.ogg
-+ mob/camel/dash5.ogg
-+ mob/camel/dash6.ogg
-+ mob/camel/dash_ready1.ogg
-+ mob/camel/death1.ogg
-+ mob/camel/death2.ogg
-+ mob/camel/eat1.ogg
-+ mob/camel/eat2.ogg
-+ mob/camel/eat3.ogg
-+ mob/camel/eat4.ogg
-+ mob/camel/eat5.ogg
-+ mob/camel/hurt1.ogg
-+ mob/camel/hurt2.ogg
-+ mob/camel/hurt3.ogg
-+ mob/camel/hurt4.ogg
-+ mob/camel/sit1.ogg
-+ mob/camel/sit2.ogg
-+ mob/camel/sit3.ogg
-+ mob/camel/sit4.ogg
-+ mob/camel/stand1.ogg
-+ mob/camel/stand2.ogg
-+ mob/camel/stand3.ogg
-+ mob/camel/stand4.ogg
-+ mob/camel/stand5.ogg
-+ mob/camel/step1.ogg
-+ mob/camel/step2.ogg
-+ mob/camel/step3.ogg
-+ mob/camel/step4.ogg
-+ mob/camel/step5.ogg
-+ mob/camel/step6.ogg
-+ mob/camel/step_sand1.ogg
-+ mob/camel/step_sand2.ogg
-+ mob/camel/step_sand3.ogg
-+ mob/camel/step_sand4.ogg
-+ mob/camel/step_sand5.ogg
-+ mob/camel/step_sand6.ogg
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-+ village/desert/camel_spawn.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/invalid_spawn_inside.json
-+ blocks/stripped_logs.json
-+ items/stripped_logs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/bamboo_door_bottom.png
-+ block/bamboo_door_top.png
-+ block/bamboo_fence.png
-+ block/bamboo_fence_gate.png
-+ block/bamboo_fence_gate_particle.png
-+ block/bamboo_fence_particle.png
-+ block/bamboo_mosaic.png
-+ block/bamboo_planks.png
-+ block/bamboo_trapdoor.png
-+ block/chiseled_bookshelf_side.png
-+ block/chiseled_bookshelf_stage0.png
-+ block/chiseled_bookshelf_stage1.png
-+ block/chiseled_bookshelf_stage2.png
-+ block/chiseled_bookshelf_stage3.png
-+ block/chiseled_bookshelf_stage4.png
-+ block/chiseled_bookshelf_stage5.png
-+ block/chiseled_bookshelf_stage6.png
-+ block/chiseled_bookshelf_top.png
-+ entity/boat/bamboo.png
-+ entity/camel/camel.png
-+ entity/chest_boat/bamboo.png
-+ entity/signs/bamboo.png
-+ entity/signs/hanging/acacia.png
-+ entity/signs/hanging/bamboo.png
-+ entity/signs/hanging/birch.png
-+ entity/signs/hanging/crimson.png
-+ entity/signs/hanging/dark_oak.png
-+ entity/signs/hanging/jungle.png
-+ entity/signs/hanging/mangrove.png
-+ entity/signs/hanging/oak.png
-+ entity/signs/hanging/spruce.png
-+ entity/signs/hanging/warped.png
-+ gui/checkmark.png
-+ gui/hanging_signs/acacia.png
-+ gui/hanging_signs/bamboo.png
-+ gui/hanging_signs/birch.png
-+ gui/hanging_signs/crimson.png
-+ gui/hanging_signs/dark_oak.png
-+ gui/hanging_signs/jungle.png
-+ gui/hanging_signs/mangrove.png
-+ gui/hanging_signs/oak.png
-+ gui/hanging_signs/spruce.png
-+ gui/hanging_signs/warped.png
-+ item/acacia_hanging_sign.png
-+ item/bamboo_chest_raft.png
-+ item/bamboo_door.png
-+ item/bamboo_hanging_sign.png
-+ item/bamboo_raft.png
-+ item/bamboo_sign.png
-+ item/birch_hanging_sign.png
-+ item/crimson_hanging_sign.png
-+ item/dark_oak_hanging_sign.png
-+ item/jungle_hanging_sign.png
-+ item/mangrove_hanging_sign.png
-+ item/oak_hanging_sign.png
-+ item/spruce_hanging_sign.png
-+ item/warped_hanging_sign.png
-```
-
-</details>
-
-<details><summary>parsers.txt</summary>
-
-```diff
-- minecraft:entity_summon
-- minecraft:item_enchantment
-- minecraft:mob_effect
-+ minecraft:resource_key
-+ minecraft:resource_or_tag_key
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.11.49
-- com.mojang:javabridge:1.2.24
-+ com.mojang:authlib:3.13.56
-+ com.mojang:javabridge:2.0.25
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.MacosUtil</summary>
-
-```diff
-+ void loadIcon(IoSupplier)
-- void loadIcon(InputStream)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$NewsButton</summary>
-
-```diff
-+ void lambda$new$0(RealmsMainScreen,boolean)
-+ void lambda$new$1(Button)
-- void lambda$new$0(Button)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-- CompletableFuture failedFuture(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ Component DELETED_CHAT_MESSAGE
-+ int BOTTOM_MARGIN
-+ int TIME_BEFORE_MESSAGE_DELETION
-+ List messageDeletionQueue
-+ boolean lambda$processMessageDeletionQueue$0(ChatComponent$DelayedMessageDeletion)
-+ ChatComponent$DelayedMessageDeletion deleteMessageOrDelay(MessageSignature)
-+ GuiMessage createDeletedMarker(GuiMessage)
-+ int getMessageEndIndexAt(double,double)
-+ int getMessageLineIndexAt(double,double)
-+ void processMessageDeletionQueue()
-+ void render(PoseStack,int,int,int)
-+ void tick()
-- ChatScreen getFocusedChat()
-- int getMessageIndexAt(double)
-- void render(PoseStack,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.SystemToast$SystemToastIds</summary>
-
-```diff
-- SystemToast$SystemToastIds CHAT_PREVIEW_WARNING
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.FontManager$1</summary>
-
-```diff
-+ List lambda$prepare$0(ResourceLocation)
-+ void lambda$apply$2(List)
-+ void lambda$prepare$1(List,int)
-- boolean lambda$prepare$0(ResourceLocation)
-- List lambda$prepare$1(ResourceLocation)
-- void lambda$apply$3(List)
-- void lambda$prepare$2(List,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CraftingScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen</summary>
-
-```diff
-+ FeatureFlagSet enabledFeatures
-+ void <init>(FeatureFlagSet)
-- void <init>(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.PresetEditor</summary>
-
-```diff
-+ WorldCreationContext$DimensionsUpdater fixedBiomeConfigurator(Holder)
-+ WorldCreationContext$DimensionsUpdater flatWorldConfigurator(FlatLevelGeneratorSettings)
-+ WorldDimensions lambda$fixedBiomeConfigurator$5(WorldDimensions)
-+ WorldDimensions lambda$flatWorldConfigurator$4(WorldDimensions)
-- WorldCreationContext$Updater fixedBiomeConfigurator(Holder)
-- WorldCreationContext$Updater flatWorldConfigurator(FlatLevelGeneratorSettings)
-- WorldGenSettings lambda$fixedBiomeConfigurator$5(WorldGenSettings)
-- WorldGenSettings lambda$flatWorldConfigurator$4(WorldGenSettings)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldCreationContext</summary>
-
-```diff
-+ LayeredRegistryAccess worldgenRegistries
-+ Registry datapackDimensions
-+ WorldDataConfiguration dataConfiguration
-+ WorldDimensions selectedDimensions
-+ WorldOptions options
-- Lifecycle worldSettingsStability
-- RegistryAccess$Frozen registryAccess
-- WorldGenSettings worldGenSettings
-+ LayeredRegistryAccess worldgenRegistries()
-+ Registry datapackDimensions()
-+ RegistryAccess$Frozen worldgenLoadContext()
-+ void <init>(WorldDataConfiguration)
-+ void <init>(WorldDataConfiguration)
-+ void <init>(WorldDataConfiguration)
-+ WorldCreationContext withDimensions(WorldCreationContext$DimensionsUpdater)
-+ WorldCreationContext withOptions(WorldCreationContext$OptionsModifier)
-+ WorldCreationContext withSettings(WorldDimensions)
-+ WorldDataConfiguration dataConfiguration()
-+ WorldDimensions selectedDimensions()
-+ WorldOptions options()
-- Lifecycle worldSettingsStability()
-- RegistryAccess$Frozen registryAccess()
-- void <init>(ReloadableServerResources)
-- WorldCreationContext withSettings(WorldCreationContext$SimpleUpdater)
-- WorldCreationContext withSettings(WorldCreationContext$Updater)
-- WorldCreationContext withSettings(WorldGenSettings)
-- WorldGenSettings worldGenSettings()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldOpenFlows</summary>
-
-```diff
-+ Boolean lambda$doLoadLevel$6(Void)
-+ CompletionStage lambda$doLoadLevel$7(Throwable)
-+ Object loadWorldDataBlocking(WorldLoader$ResultFactory)
-+ Pair lambda$recreateWorldData$3(WorldOpenFlows$1Data)
-+ Pair recreateWorldData(LevelStorageSource$LevelStorageAccess)
-+ void createFreshLevel(Function)
-+ void createLevelFromExistingSettings(WorldData)
-+ void lambda$askForBackup$11(Runnable,boolean,boolean)
-+ void lambda$confirmWorldCreation$12(CreateWorldScreen,boolean)
-+ Void lambda$doLoadLevel$10(Throwable)
-+ void lambda$doLoadLevel$4(String,boolean)
-+ void lambda$doLoadLevel$5(String,boolean)
-+ void lambda$doLoadLevel$8(Screen)
-+ void lambda$doLoadLevel$9(Boolean)
-+ WorldLoader$DataLoadOutput lambda$createFreshLevel$0(WorldLoader$DataLoadContext)
-+ WorldLoader$DataLoadOutput lambda$loadWorldStem$1(WorldLoader$DataLoadContext)
-+ WorldLoader$DataLoadOutput lambda$recreateWorldData$2(WorldLoader$DataLoadContext)
-+ WorldLoader$PackConfig getPackConfigFromLevelData(PackRepository)
-- Boolean lambda$doLoadLevel$4(Void)
-- CompletionStage lambda$doLoadLevel$5(Throwable)
-- PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
-- Pair lambda$createFreshLevel$0(DataPackConfig)
-- Pair lambda$loadWorldStem$1(DataPackConfig)
-- void createFreshLevel(WorldGenSettings)
-- void createLevelFromExistingSettings(WorldData)
-- void lambda$askForBackup$9(Runnable,boolean,boolean)
-- void lambda$confirmWorldCreation$10(CreateWorldScreen,boolean)
-- void lambda$doLoadLevel$2(String,boolean)
-- void lambda$doLoadLevel$3(String,boolean)
-- void lambda$doLoadLevel$6(Screen)
-- void lambda$doLoadLevel$7(Boolean)
-- Void lambda$doLoadLevel$8(Throwable)
-- WorldStem loadWorldStem(WorldLoader$WorldDataSupplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
-
-```diff
-+ LocalChatSession chatSession
-+ ServerData serverData
-+ void <init>(Consumer)
-- void <init>(Consumer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener$1</summary>
-
-```diff
-+ int[] $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerInfoUpdatePacket$Action
-- int[] $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerInfoPacket$Action
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
-
-```diff
-+ ReportChatMessage buildReportedChatMessage(LoggedChatMessage$Player,boolean)
-+ void lambda$buildEvidence$0(LoggedChatMessage$Player)
-- boolean lambda$chainForPlayer$3(ChatLog$Entry)
-- boolean lambda$collectReferencedContext$4(LoggedChatMessage$Player)
-- ChatLog$Entry lambda$chainForPlayer$2(ChatLog$Entry)
-- ChatLog$Entry lambda$trailingContext$6(ChatLog$Entry)
-- Int2ObjectMap collectReferencedContext(AbuseReportLimits)
-- IntCollection messageReferences(PlayerChatMessage)
-- ReportChatMessage buildReportedChatHeader(LoggedChatMessageLink)
-- ReportChatMessage buildReportedChatMessage(LoggedChatMessage$Player)
-- ReportChatMessageBody$LastSeenSignature lambda$buildReportedChatMessage$7(LastSeenMessages$Entry)
-- Stream chainForPlayer(UUID)
-- Stream trailingContext(ChatLog,int,int)
-- String encodeComponent(Component)
-- void lambda$buildEvidence$0(ChatLog$Entry)
-- void lambda$buildEvidence$1(Int2ObjectSortedMap,int)
-- void lambda$collectReferencedContext$5(ChatLog$Entry)
-- void walkMessageReferenceGraph(ChatReportBuilder$ReferencedMessageVisitor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
-
-```diff
-+ FileToIdConverter PARTICLE_LISTER
-+ Logger LOGGER
-+ CompletionStage lambda$reload$3(Map)
-+ CompletionStage lambda$reload$5(Map)
-+ Map lambda$reload$0(ResourceManager)
-+ Map lambda$reload$4(ResourceManager)
-+ Optional loadParticleDescription(Resource)
-+ ParticleEngine$1ParticleDefinition lambda$reload$1(Resource)
-+ Queue lambda$tick$10(ParticleRenderType)
-+ ResourceLocation lambda$loadParticleDescription$8(ResourceLocation)
-+ void lambda$destroy$12(BlockState,double,double,double,double,double,double)
-+ void lambda$reload$2(Resource)
-+ void lambda$reload$6(ParticleEngine$1ParticleDefinition)
-+ void lambda$reload$7(Void)
-+ void lambda$tick$9(Queue)
-+ void lambda$tickParticleList$11(ParticleGroup)
-- CompletableFuture lambda$reload$1(ResourceLocation)
-- CompletableFuture[] lambda$reload$2(int)
-- Queue lambda$tick$8(ParticleRenderType)
-- ResourceLocation lambda$loadParticleDescription$6(ResourceLocation)
-- TextureAtlas$Preparations lambda$reload$3(Void)
-- void lambda$destroy$10(BlockState,double,double,double,double,double,double)
-- void lambda$reload$0(Map)
-- void lambda$reload$4(List)
-- void lambda$reload$5(TextureAtlas$Preparations)
-- void lambda$tick$7(Queue)
-- void lambda$tickParticleList$9(ParticleGroup)
-- void loadParticleDescription(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderers</summary>
-
-```diff
-+ EntityRenderer lambda$static$25(EntityRendererProvider$Context)
-+ void lambda$createEntityRenderers$26(EntityRendererProvider)
-+ void lambda$createPlayerRenderers$27(EntityRendererProvider)
-- void lambda$createEntityRenderers$25(EntityRendererProvider)
-- void lambda$createPlayerRenderers$26(EntityRendererProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.VillagerProfessionLayer</summary>
-
-```diff
-+ Optional lambda$getHatData$2(Resource)
-+ String lambda$getResourceLocation$1(String)
-+ VillagerMetaDataSection$Hat lambda$getHatData$3(Object)
-- Optional lambda$getHatData$1(Resource)
-- VillagerMetaDataSection$Hat lambda$getHatData$2(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.Stitcher$Region</summary>
-
-```diff
-+ void walk(Stitcher$SpriteLoader)
-- Stitcher$Holder getHolder()
-- void walk(Consumer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.texture.StitcherException</summary>
-
-```diff
-+ void <init>(Collection)
-- void <init>(Collection)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
-
-```diff
-+ BuiltInMetadata BUILT_IN_METADATA
-+ Component VANILLA_NAME
-+ Map SPECIAL_PACK_NAMES
-+ PackMetadataSection VERSION_METADATA_SECTION
-+ Path externalAssetDir
-+ ResourceLocation PACKS_DIR
-- AssetIndex assetIndex
-- CompletableFuture currentDownload
-- Component APPLYING_PACK_TEXT
-- File serverPackDir
-- int MAX_KEPT_PACKS
-- int MAX_PACK_SIZE_BYTES
-- Logger LOGGER
-- Pack serverPack
-- PackMetadataSection BUILT_IN
-- Pattern SHA1
-- ReentrantLock downloadLock
-- String PROGRAMMER_ART_ID
-- String PROGRAMMER_ART_NAME
-- String SERVER_ID
-- String VANILLA_ID
-- VanillaPackResources vanillaPack
-+ Component getPackTitle(String)
-+ Pack createBuiltinPack(Component)
-+ Pack createVanillaPack(PackResources)
-+ PackResources lambda$createVanillaPack$0(String)
-+ Path findExplodedAssetPacks(Path)
-+ VanillaPackResources createVanillaPackSource(Path)
-+ void <init>(Path)
-+ void populatePackList(BiConsumer)
-- boolean checkHash(File)
-- CompletableFuture clearServerPack()
-- CompletableFuture downloadAndSelectResourcePack(String,boolean)
-- CompletableFuture loadBundledResourcePack(LevelStorageSource$LevelStorageAccess)
-- CompletableFuture setServerPack(PackSource)
-- CompletionStage lambda$downloadAndSelectResourcePack$3(Object)
-- CompletionStage lambda$downloadAndSelectResourcePack$7(Throwable)
-- FolderPackResources createProgrammerArtDirPack(File)
-- Map getDownloadHeaders()
-- Pack createProgrammerArtPack(Pack$PackConstructor)
-- Pack createProgrammerArtPack(Supplier)
-- PackResources createProgrammerArtZipPack(File)
-- PackResources lambda$createProgrammerArtPack$10(File)
-- PackResources lambda$createProgrammerArtPack$11(File)
-- PackResources lambda$loadPacks$0()
-- PackResources lambda$setServerPack$9(File)
-- VanillaPackResources getVanillaPack()
-- void <init>(AssetIndex)
-- void clearOldDownloads()
-- void deleteQuietly(File)
-- void lambda$downloadAndSelectResourcePack$1(ProgressScreen)
-- void lambda$downloadAndSelectResourcePack$2(Minecraft)
-- void lambda$downloadAndSelectResourcePack$4(Void)
-- void lambda$downloadAndSelectResourcePack$5(Minecraft,boolean)
-- void lambda$downloadAndSelectResourcePack$6(Void)
-- void lambda$downloadAndSelectResourcePack$8(Void)
-- void loadPacks(Pack$PackConstructor)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.PaintingTextureManager</summary>
-
-```diff
-- Stream getResourcesToLoad()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.resources.TextureAtlasHolder</summary>
-
-```diff
-- Stream getResourcesToLoad()
-+ CompletableFuture reload(Executor)
-+ CompletionStage lambda$reload$1(Map)
-+ Map lambda$reload$0(ResourceManager)
-+ void apply(ProfilerFiller)
-+ void lambda$reload$2(SpriteLoader$Preparations)
-- Object prepare(ProfilerFiller)
-- TextureAtlas$Preparations prepare(ProfilerFiller)
-- void apply(ProfilerFiller)
-- void apply(ProfilerFiller)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
-
-```diff
-+ FrameSize calculateFrameSize(int,int)
-- boolean isDivisionInteger(int,int)
-- int getFrameHeight(int)
-- int getFrameWidth(int)
-- Pair calculateFrameSize(int,int)
-- Pair getFrameSize(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.SimpleSoundInstance</summary>
-
-```diff
-+ SimpleSoundInstance forRecord(Vec3)
-- SimpleSoundInstance forRecord(SoundEvent,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.LanServerDetection$LanServerList</summary>
-
-```diff
-+ List takeDirtyServers()
-- boolean isDirty()
-- List getServers()
-- void markClean()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.SoundBufferLibrary</summary>
-
-```diff
-+ ResourceProvider resourceManager
-- ResourceManager resourceManager
-+ void <init>(ResourceProvider)
-- void <init>(ResourceManager)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.sounds.SoundManager$Preparations</summary>
-
-```diff
-+ Map soundCache
-+ void apply(SoundEngine)
-+ void handleRegistration(SoundEventRegistration)
-+ void listResources(ResourceManager)
-- void apply(SoundEngine)
-- void handleRegistration(ResourceManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandBuildContext</summary>
-
-```diff
-+ FeatureFlagSet enabledFeatures
-+ void <init>(FeatureFlagSet)
-- void <init>(RegistryAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ArgumentSignatures</summary>
-
-```diff
-+ ArgumentSignatures signCommand(ArgumentSignatures$Signer)
-+ ArgumentSignatures$Entry lambda$signCommand$1(SignableCommand$Argument)
-- ArgumentSignatures signCommand(ArgumentSignatures$Signer)
-- ArgumentSignatures$Entry lambda$signCommand$2(Pair)
-- boolean hasSignableArguments(PreviewableCommand)
-- boolean lambda$hasSignableArguments$1(PreviewableCommand$Argument)
-- List collectPlainSignableArguments(PreviewableCommand)
-- String getSignableText(ParsedArgument)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.ArgumentSignatures$Signer</summary>
-
-```diff
-+ MessageSignature sign(java.lang.String)
-- MessageSignature sign(java.lang.String,java.lang.String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceKeyArgument</summary>
-
-```diff
-- DynamicCommandExceptionType ERROR_UNKNOWN_ATTRIBUTE
-+ CommandSyntaxException lambda$getRegistryKey$3(ResourceKey)
-+ CommandSyntaxException lambda$resolveKey$4(ResourceKey)
-+ Holder$Reference getConfiguredFeature(String)
-+ Holder$Reference getStructure(String)
-+ Holder$Reference getStructureTemplatePool(String)
-+ Holder$Reference resolveKey(DynamicCommandExceptionType)
-+ ResourceKey getRegistryKey(DynamicCommandExceptionType)
-- Attribute getAttribute(String)
-- CommandSyntaxException lambda$getAttribute$6(ResourceKey)
-- CommandSyntaxException lambda$getRegistryKeyType$5(ResourceKey)
-- CommandSyntaxException lambda$getRegistryType$4(ResourceKey)
-- Holder getConfiguredFeature(String)
-- Holder getRegistryKeyType(DynamicCommandExceptionType)
-- Holder getStructure(String)
-- Holder getStructureTemplatePool(String)
-- Message lambda$static$3(Object)
-- ResourceKey getRegistryType(DynamicCommandExceptionType)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.SignedArgument</summary>
-
-```diff
-- String getSignableText(java.lang.Object)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
-
-```diff
-+ BlockStateParser$BlockResult parseForBlock(String,boolean)
-+ Either parseForTesting(String,boolean)
-- BlockStateParser$BlockResult parseForBlock(String,boolean)
-- BlockStateParser$BlockResult parseForBlock(StringReader,boolean)
-- Either parseForTesting(String,boolean)
-- Either parseForTesting(StringReader,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
-
-```diff
-+ boolean lambda$findEntities$0(Entity)
-+ boolean lambda$getPredicate$1(Entity)
-+ boolean lambda$getPredicate$2(Entity)
-+ List findEntitiesRaw(CommandSourceStack)
-- boolean lambda$getPredicate$0(Entity)
-- boolean lambda$getPredicate$1(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Holder$Reference</summary>
-
-```diff
-+ void bindKey(ResourceKey)
-+ void bindValue(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.HolderLookup</summary>
-
-```diff
-+ HolderLookup$RegistryLookup forRegistry(Registry)
-- HolderLookup forRegistry(Registry)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ Map unregisteredIntrusiveHolders
-- Function customHolderProvider
-- Map intrusiveHolderCache
-+ boolean lambda$freeze$5(Map$Entry)
-+ Holder$Reference getOrCreateHolderOrThrow(ResourceKey)
-+ ResourceLocation lambda$freeze$6(Map$Entry)
-+ void <init>(Lifecycle,boolean)
-+ void <init>(Lifecycle)
-+ void lambda$freeze$4(Holder$Reference)
-+ void validateWrite()
-- boolean lambda$freeze$4(Map$Entry)
-- boolean lambda$freeze$6(Holder$Reference)
-- Holder getOrCreateHolderOrThrow(ResourceKey)
-- Holder registerMapping(Lifecycle,boolean)
-- Holder registerOrOverride(Lifecycle)
-- ResourceLocation lambda$freeze$5(Map$Entry)
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
-
-```diff
-+ Optional registry(net.minecraft.resources.ResourceKey)
-+ RegistryAccess$Frozen EMPTY
-+ Stream registries()
-- Codec NETWORK_CODEC
-- Map REGISTRIES
-- Optional ownedRegistry(net.minecraft.resources.ResourceKey)
-- Stream ownedRegistries()
-- Supplier BUILTIN
-+ IllegalStateException lambda$registryOrThrow$0(ResourceKey)
-+ Lifecycle lambda$allElementsLifecycle$1(RegistryAccess$RegistryEntry)
-- boolean lambda$ownedNetworkableRegistries$9(RegistryAccess$RegistryEntry)
-- Codec captureMap(UnboundedMapCodec)
-- Codec lambda$getNetworkCodec$10(RegistryAccess$RegistryData)
-- Codec lambda$makeNetworkCodec$4(Codec)
-- Codec makeNetworkCodec()
-- DataResult getNetworkCodec(ResourceKey)
-- DataResult lambda$getNetworkCodec$11(ResourceKey)
-- DataResult lambda$makeNetworkCodec$3(Registry)
-- DataResult lambda$makeNetworkCodec$5(ResourceKey)
-- IllegalStateException lambda$ownedRegistryOrThrow$0(ResourceKey)
-- IllegalStateException lambda$registryOrThrow$1(ResourceKey)
-- IllegalStateException lambda$retrieveRegistry$15(ResourceKey)
-- ImmutableMap lambda$static$2()
-- Iterable knownRegistries()
-- Lifecycle lambda$allElementsLifecycle$16(RegistryAccess$RegistryEntry)
-- Map createFreshRegistries()
-- Map lambda$captureMap$8(RegistryAccess)
-- Optional registry(ResourceKey)
-- Registry lambda$captureMap$7(RegistryAccess$RegistryEntry)
-- Registry lambda$readFromDisk$14(ResourceKey)
-- Registry ownedRegistryOrThrow(ResourceKey)
-- Registry retrieveRegistry(Dynamic)
-- RegistryAccess readFromDisk(Dynamic)
-- RegistryAccess$Frozen lambda$static$12()
-- RegistryAccess$Writable blankWriteable()
-- RegistryAccess$Writable builtinCopy()
-- ResourceKey lambda$captureMap$6(RegistryAccess$RegistryEntry)
-- Stream globalRegistries()
-- Stream networkSafeRegistries()
-- Stream ownedNetworkableRegistries()
-- Stream registries()
-- void addBuiltinElements(RegistryAccess$RegistryData)
-- void lambda$readRegistry$13(DataResult$PartialResult)
-- void load(RegistryLoader)
-- void put(Codec)
-- void put(Codec)
-- void readRegistry(RegistryAccess$RegistryData)
-- WritableRegistry createRegistry(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryCodecs</summary>
-
-```diff
-+ Codec fullCodec(Codec)
-+ Map lambda$fullCodec$5(Registry)
-+ Registry lambda$fullCodec$4(Map)
-+ void lambda$fullCodec$3(Object)
-- Codec dataPackAwareCodec(Codec)
-- Codec directCodec(Codec)
-- Decoder dataPackAwareDecoder(Lifecycle)
-- Map lambda$dataPackAwareCodec$3(Registry)
-- void lambda$dataPackAwareDecoder$4(Object)
-- WritableRegistry lambda$dataPackAwareDecoder$5(Map)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
-
-```diff
-+ List subProviders
-+ PackOutput$PathProvider pathProvider
-+ String name
-- DataGenerator$PathProvider pathProvider
-- List tabs
-+ void <init>(List)
-- void <init>(DataGenerator)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators$BlockFamilyProvider</summary>
-
-```diff
-+ BlockModelGenerators$BlockFamilyProvider customFence(Block)
-+ BlockModelGenerators$BlockFamilyProvider customFenceGate(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelLocationUtils</summary>
-
-```diff
-+ String lambda$getModelLocation$0(String)
-+ String lambda$getModelLocation$1(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate CHISELED_BOOKSHELF_BLOCK
-+ ModelTemplate CUSTOM_FENCE_GATE_CLOSED
-+ ModelTemplate CUSTOM_FENCE_GATE_OPEN
-+ ModelTemplate CUSTOM_FENCE_GATE_WALL_CLOSED
-+ ModelTemplate CUSTOM_FENCE_GATE_WALL_OPEN
-+ ModelTemplate CUSTOM_FENCE_INVENTORY
-+ ModelTemplate CUSTOM_FENCE_POST
-+ ModelTemplate CUSTOM_FENCE_SIDE_EAST
-+ ModelTemplate CUSTOM_FENCE_SIDE_NORTH
-+ ModelTemplate CUSTOM_FENCE_SIDE_SOUTH
-+ ModelTemplate CUSTOM_FENCE_SIDE_WEST
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ Map SHAPE_BUILDERS
-+ PackOutput$PathProvider advancementPathProvider
-+ PackOutput$PathProvider recipePathProvider
-+ void buildRecipes(java.util.function.Consumer)
-- DataGenerator$PathProvider advancementPathProvider
-- DataGenerator$PathProvider recipePathProvider
-- ImmutableList COAL_SMELTABLES
-- ImmutableList COPPER_SMELTABLES
-- ImmutableList DIAMOND_SMELTABLES
-- ImmutableList EMERALD_SMELTABLES
-- ImmutableList GOLD_SMELTABLES
-- ImmutableList IRON_SMELTABLES
-- ImmutableList LAPIS_SMELTABLES
-- ImmutableList REDSTONE_SMELTABLES
-- Map shapeBuilders
-+ boolean lambda$generateForEnabledBlockFamilies$1(BlockFamily)
-+ RecipeBuilder lambda$static$19(ItemLike)
-+ RecipeBuilder lambda$static$20(ItemLike)
-+ RecipeBuilder lambda$static$21(ItemLike)
-+ RecipeBuilder polishedBuilder(Ingredient)
-+ RecipeBuilder pressurePlateBuilder(Ingredient)
-+ RecipeBuilder slabBuilder(Ingredient)
-+ RecipeBuilder wallBuilder(Ingredient)
-+ ShapedRecipeBuilder chiseledBuilder(Ingredient)
-+ ShapedRecipeBuilder cutBuilder(Ingredient)
-+ String lambda$generateRecipes$5(ItemLike)
-+ void <init>(PackOutput)
-+ void buildAdvancement(Advancement$Builder)
-+ void chiseled(ItemLike)
-+ void cookRecipes(RecipeSerializer,int)
-+ void cut(ItemLike)
-+ void generateForEnabledBlockFamilies(FeatureFlagSet)
-+ void hangingSign(ItemLike,int)
-+ void hangingSign(ItemLike)
-+ void lambda$generateForEnabledBlockFamilies$2(BlockFamily)
-+ void lambda$generateRecipes$4(String)
-+ void lambda$generateRecipes$6(Block)
-+ void lambda$waxRecipes$3(Block)
-+ void mosaicBuilder(ItemLike)
-+ void netheriteSmithing(Item)
-+ void nineBlockStorageRecipes(ItemLike)
-+ void nineBlockStorageRecipes(String)
-+ void nineBlockStorageRecipesRecipesWithCustomUnpacking(String)
-+ void nineBlockStorageRecipesWithCustomPacking(String)
-+ void oreBlasting(String)
-+ void oreCooking(String)
-+ void oreSmelting(String)
-+ void polished(ItemLike)
-+ void simpleCookingRecipe(ItemLike,float)
-+ void slab(ItemLike)
-+ void stonecutterResultFromBase(ItemLike,int)
-+ void stonecutterResultFromBase(ItemLike)
-+ void twoByTwoPacker(ItemLike)
-+ void wall(ItemLike)
-- RecipeBuilder lambda$static$6(ItemLike)
-- RecipeBuilder polishedBuilder(Ingredient)
-- RecipeBuilder pressurePlateBuilder(Ingredient)
-- RecipeBuilder slabBuilder(Ingredient)
-- RecipeBuilder wallBuilder(Ingredient)
-- ShapedRecipeBuilder chiseledBuilder(Ingredient)
-- ShapedRecipeBuilder cutBuilder(Ingredient)
-- String getName()
-- String lambda$generateRecipes$4(ItemLike)
-- void <init>(DataGenerator)
-- void buildCraftingRecipes(Consumer)
-- void chiseled(ItemLike)
-- void cookRecipes(SimpleCookingSerializer,int)
-- void cut(ItemLike)
-- void lambda$buildCraftingRecipes$1(BlockFamily)
-- void lambda$generateRecipes$3(String)
-- void lambda$generateRecipes$5(Block)
-- void lambda$waxRecipes$2(Block)
-- void netheriteSmithing(Item)
-- void nineBlockStorageRecipes(ItemLike)
-- void nineBlockStorageRecipes(String)
-- void nineBlockStorageRecipesRecipesWithCustomUnpacking(String)
-- void nineBlockStorageRecipesWithCustomPacking(String)
-- void oreBlasting(String)
-- void oreCooking(String)
-- void oreSmelting(String)
-- void polished(ItemLike)
-- void simpleCookingRecipe(ItemLike,float)
-- void slab(ItemLike)
-- void stonecutterResultFromBase(ItemLike,int)
-- void stonecutterResultFromBase(ItemLike)
-- void wall(ItemLike)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
-
-```diff
-+ void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder$Result</summary>
-
-```diff
-+ void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder$Result</summary>
-
-```diff
-+ CookingBookCategory category
-+ void <init>(RecipeSerializer)
-- void <init>(RecipeSerializer)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.recipes.SpecialRecipeBuilder$1</summary>
-
-```diff
-+ void <init>(String)
-- void <init>(String)
-- void serializeRecipeData(JsonObject)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
-
-```diff
-+ Iterable inputFolders
-+ PackOutput output
-- DataGenerator generator
-+ void <init>(Collection)
-- void <init>(DataGenerator)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.tags.BiomeTagsProvider</summary>
-
-```diff
-+ void <init>(PackOutput)
-- void <init>(DataGenerator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
-
-```diff
-+ boolean lambda$assertBlockProperty$10(BlockState)
-+ boolean lambda$assertEntityInstancePresent$12(Entity)
-+ boolean lambda$assertEntityNotTouching$15(Entity)
-+ boolean lambda$assertEntityTouching$14(Entity)
-+ Exception lambda$failIf$22()
-+ GameTestAssertPosException lambda$assertEntityInstancePresent$13(BlockPos)
-+ ItemEntity spawnItem(BlockPos)
-+ Player makeMockSurvivalPlayer()
-+ String lambda$assertBlockProperty$11(String)
-+ Vec3 relativeVec(Vec3)
-+ void assertEntityPresent(Vec3)
-+ void assertTrue(String)
-+ void lambda$assertAtTickTimeContainerContains$17(Item)
-+ void lambda$assertAtTickTimeContainerEmpty$18(BlockPos)
-+ void lambda$assertSameBlockStates$16(BlockPos)
-+ void lambda$failIfEver$23(Runnable,long)
-+ void lambda$onEachTick$24(Runnable,long)
-+ void lambda$succeedWhenEntityData$19(Object)
-+ void lambda$succeedWhenEntityNotPresent$21(BlockPos)
-+ void lambda$succeedWhenEntityPresent$20(BlockPos)
-+ void useBlock(Player)
-- boolean lambda$assertBlockProperty$10(BlockState)
-- boolean lambda$assertBlockProperty$12(BlockState)
-- boolean lambda$assertEntityInstancePresent$14(Entity)
-- boolean lambda$assertEntityNotTouching$17(Entity)
-- boolean lambda$assertEntityTouching$16(Entity)
-- Exception lambda$failIf$24()
-- GameTestAssertPosException lambda$assertEntityInstancePresent$15(BlockPos)
-- String lambda$assertBlockProperty$11(Comparable)
-- String lambda$assertBlockProperty$13(String)
-- void lambda$assertAtTickTimeContainerContains$19(Item)
-- void lambda$assertAtTickTimeContainerEmpty$20(BlockPos)
-- void lambda$assertSameBlockStates$18(BlockPos)
-- void lambda$failIfEver$25(Runnable,long)
-- void lambda$onEachTick$26(Runnable,long)
-- void lambda$succeedWhenEntityData$21(Object)
-- void lambda$succeedWhenEntityNotPresent$23(BlockPos)
-- void lambda$succeedWhenEntityPresent$22(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.NbtUtils</summary>
-
-```diff
-+ BlockState readBlockState(CompoundTag)
-- BlockState readBlockState(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.FilterMask</summary>
-
-```diff
-+ Style FILTERED_STYLE
-+ Component applyWithFormatting(String)
-- Component apply(ChatMessageContent)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.LastSeenMessages</summary>
-
-```diff
-+ LastSeenMessages$Packed pack(MessageSignature$Packer)
-+ MessageSignature$Packed lambda$pack$0(MessageSignature)
-+ void updateSignature(SignatureUpdater$Output)
-- void <init>(FriendlyByteBuf)
-- void lambda$write$0(LastSeenMessages$Entry)
-- void updateHash(DataOutput)
-- void write(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.LastSeenMessages$Update</summary>
-
-```diff
-+ BitSet acknowledged
-+ int offset
-- LastSeenMessages lastSeen
-- Optional lastReceived
-+ BitSet acknowledged()
-+ int offset()
-+ void <init>(BitSet)
-- LastSeenMessages lastSeen()
-- Optional lastReceived()
-- void <init>(Optional)
-- void lambda$write$0(LastSeenMessages$Entry)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.MessageSignature</summary>
-
-```diff
-+ int BYTES
-- MessageSignature EMPTY
-+ boolean verify(SignatureUpdater)
-+ MessageSignature read(FriendlyByteBuf)
-+ MessageSignature$Packed pack(MessageSignature$Packer)
-+ void write(MessageSignature)
-- boolean isEmpty()
-- boolean verify(SignedMessageBody)
-- boolean verify(SignedMessageHeader,byte[])
-- void <clinit>()
-- void <init>(FriendlyByteBuf)
-- void lambda$verify$0(SignatureUpdater$Output)
-- void lambda$verify$1(SignatureUpdater$Output)
-- void write(FriendlyByteBuf)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SignedMessageChain</summary>
-
-```diff
-+ Logger LOGGER
-+ SignedMessageLink nextLink
-- MessageSignature previousSignature
-+ MessageSignature lambda$encoder$1(SignedMessageBody)
-+ PlayerChatMessage lambda$decoder$2(SignedMessageBody)
-+ SignedMessageChain$Decoder decoder(ProfilePublicKey)
-+ SignedMessageChain$Encoder encoder(Signer)
-+ SignedMessageLink advanceLink()
-+ void <clinit>()
-+ void <init>(UUID)
-+ void lambda$encoder$0(SignatureUpdater$Output)
-- MessageSignature pack(LastSeenMessages)
-- PlayerChatMessage unpack(LastSeenMessages)
-- PlayerChatMessage unpack(LastSeenMessages)
-- SignedMessageChain$Decoder decoder()
-- SignedMessageChain$Encoder encoder()
-- SignedMessageChain$Link pack(LastSeenMessages)
-- void <init>()
-- void lambda$pack$0(SignatureUpdater$Output)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
-
-```diff
-+ boolean isChainValid
-+ PlayerChatMessage lastMessage
-- boolean isChainConsistent
-- MessageSignature lastSignature
-+ boolean updateAndValidate(PlayerChatMessage)
-+ boolean validateChain(PlayerChatMessage)
-- boolean validateChain(MessageSignature,boolean)
-- boolean validateContents(MessageSignature,byte[],boolean)
-- SignedMessageValidator$State updateAndValidate(MessageSignature,byte[],boolean)
-- SignedMessageValidator$State validateHeader(MessageSignature,byte[])
-- SignedMessageValidator$State validateMessage(PlayerChatMessage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleDisguisedChat(net.minecraft.network.protocol.game.ClientboundDisguisedChatPacket)
-+ void handleEnabledFeatures(net.minecraft.network.protocol.game.ClientboundUpdateEnabledFeaturesPacket)
-+ void handlePlayerInfoRemove(net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket)
-+ void handlePlayerInfoUpdate(net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket)
-- void handleChatPreview(net.minecraft.network.protocol.game.ClientboundChatPreviewPacket)
-- void handlePlayerChatHeader(net.minecraft.network.protocol.game.ClientboundPlayerChatHeaderPacket)
-- void handlePlayerInfo(net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket)
-- void handleSetDisplayChatPreview(net.minecraft.network.protocol.game.ClientboundSetDisplayChatPreviewPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerGamePacketListener</summary>
-
-```diff
-- void handleChatPreview(net.minecraft.network.protocol.game.ServerboundChatPreviewPacket)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatCommandPacket</summary>
-
-```diff
-- boolean signedPreview
-+ void <init>(LastSeenMessages$Update)
-- boolean signedPreview()
-- void <init>(LastSeenMessages$Update)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.resources.RegistryOps</summary>
-
-```diff
-- DynamicOps asJson
-- Optional loader
-+ void <init>(RegistryAccess)
-- DynamicOps getAsJson()
-- Optional registryLoader()
-- RegistryOps createAndLoad(RegistryResourceAccess)
-- RegistryOps createAndLoad(ResourceManager)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.resources.ResourceLocation</summary>
-
-```diff
-+ ResourceLocation withPath(String)
-+ ResourceLocation withPath(UnaryOperator)
-+ ResourceLocation withPrefix(String)
-+ String assertValidNamespace(String)
-+ String assertValidPath(String)
-+ void <init>(ResourceLocation$Dummy)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
-
-```diff
-+ FileToIdConverter LISTER
-- int PATH_PREFIX_LENGTH
-- int PATH_SUFFIX_LENGTH
-- String FILE_EXTENSION
-+ CommandFunction lambda$reload$2(CommandSourceStack)
-+ CompletionStage lambda$reload$4(Map)
-+ Map lambda$reload$1(ResourceManager)
-+ Map lambda$reload$3(Throwable)
-+ Object lambda$reload$5(Throwable)
-+ void lambda$reload$6(CompletableFuture)
-+ void lambda$reload$7(Pair)
-- boolean lambda$reload$1(ResourceLocation)
-- CommandFunction lambda$reload$3(CommandSourceStack)
-- CompletionStage lambda$reload$5(Map)
-- Map lambda$reload$2(ResourceManager)
-- Map lambda$reload$4(Throwable)
-- Object lambda$reload$6(Throwable)
-- void lambda$reload$7(CompletableFuture)
-- void lambda$reload$8(Pair)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.WorldLoader</summary>
-
-```diff
-+ Logger LOGGER
-+ LayeredRegistryAccess loadAndReplaceLayer(List)
-+ Object lambda$load$1(ReloadableServerResources)
-+ RegistryAccess$Frozen loadLayer(List)
-+ void <clinit>()
-- Object lambda$load$1(ReloadableServerResources)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.WorldLoader$PackConfig</summary>
-
-```diff
-+ boolean initMode
-+ WorldDataConfiguration initialDataConfig
-- DataPackConfig initialDataPacks
-+ boolean initMode()
-+ void <init>(WorldDataConfiguration,boolean,boolean)
-+ WorldDataConfiguration initialDataConfig()
-- DataPackConfig initialDataPacks()
-- void <init>(DataPackConfig,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.WorldLoader$WorldDataSupplier</summary>
-
-```diff
-+ WorldLoader$DataLoadOutput get(net.minecraft.server.WorldLoader$DataLoadContext)
-- Pair get(net.minecraft.server.packs.resources.ResourceManager,net.minecraft.world.level.DataPackConfig)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.EffectCommands</summary>
-
-```diff
-+ int clearEffect(Holder)
-+ int giveEffect(Integer,int,boolean)
-+ void register(CommandBuildContext)
-- int clearEffect(MobEffect)
-- int giveEffect(Integer,int,boolean)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.commands.EnchantCommand</summary>
-
-```diff
-+ int enchant(Holder,int)
-+ void register(CommandBuildContext)
-- int enchant(Enchantment,int)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LocateCommand</summary>
-
-```diff
-- DynamicCommandExceptionType ERROR_BIOME_INVALID
-- DynamicCommandExceptionType ERROR_POI_INVALID
-+ boolean lambda$register$4(CommandSourceStack)
-+ CommandSyntaxException lambda$locateStructure$10(ResourceOrTagKeyArgument$Result)
-+ HolderSet$Direct lambda$getHolders$8(Holder)
-+ int lambda$register$5(CommandContext)
-+ int lambda$register$6(CommandContext)
-+ int locateBiome(ResourceOrTagArgument$Result)
-+ int locatePoi(ResourceOrTagArgument$Result)
-+ int locateStructure(ResourceOrTagKeyArgument$Result)
-+ int showLocateResult(String,boolean)
-+ int showLocateResult(String,boolean)
-+ int showLocateResult(String)
-+ Optional getHolders(Registry)
-+ Optional lambda$getHolders$9(ResourceKey)
-+ String getElementName(Pair)
-+ String lambda$getElementName$11(ResourceKey)
-+ String lambda$showLocateResult$12(Holder$Reference)
-+ String lambda$showLocateResult$13(HolderSet$Named)
-+ void register(CommandBuildContext)
-- boolean lambda$register$6(CommandSourceStack)
-- CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
-- HolderSet$Direct lambda$getHolders$10(Holder)
-- int lambda$register$8(CommandContext)
-- int lambda$register$9(CommandContext)
-- int locateBiome(ResourceOrTagLocationArgument$Result)
-- int locatePoi(ResourceOrTagLocationArgument$Result)
-- int locateStructure(ResourceOrTagLocationArgument$Result)
-- int showLocateResult(String,boolean)
-- Message lambda$static$4(Object)
-- Message lambda$static$5(Object)
-- Optional getHolders(Registry)
-- Optional lambda$getHolders$11(ResourceKey)
-- String lambda$showLocateResult$13(ResourceKey)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SummonCommand</summary>
-
-```diff
-+ int spawnEntity(CompoundTag,boolean)
-+ void register(CommandBuildContext)
-- int spawnEntity(CompoundTag,boolean)
-- void register(CommandDispatcher)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.WardenSpawnTrackerCommand</summary>
-
-```diff
-+ void lambda$setWarningLevel$3(WardenSpawnTracker)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-- boolean previewsChat()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ DataPackConfig initialDataPackConfiguration
-+ DedicatedServerProperties$WorldDimensionData worldDimensionData
-+ Splitter COMMA_SPLITTER
-+ WorldOptions worldOptions
-- boolean previewsChat
-- DedicatedServerProperties$WorldGenProperties worldGenProperties
-- WorldGenSettings worldGenSettings
-+ DataPackConfig getDatapackConfig(String)
-+ FeatureFlagSet getFeatures(String)
-+ void lambda$getFeatures$4(Consumer)
-+ WorldDimensions createDimensions(RegistryAccess)
-- WorldGenSettings getWorldGenSettings(RegistryAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ FeatureFlagSet enabledFeatures()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ Component CHAT_VALIDATION_FAILED
-+ int TRACKED_MESSAGE_DISCONNECT_THRESHOLD
-+ LastSeenMessagesValidator lastSeenMessages
-+ MessageSignature$Packer messageSignaturePacker
-+ MessageSignatureCache messageSignatureCache
-- ChatPreviewCache chatPreviewCache
-- ChatPreviewThrottler chatPreviewThrottler
-- int PENDING_MESSAGE_DISCONNECT_THRESHOLD
-- LastSeenMessagesValidator lastSeenMessagesValidator
-+ CompletableFuture lambda$handleChat$9(Executor)
-+ Map collectSignedArguments(LastSeenMessages)
-+ Optional tryHandleChat(LastSeenMessages$Update)
-+ Optional unpackAndApplyLastSeen(LastSeenMessages$Update)
-+ PlayerChatMessage getSignedMessage(LastSeenMessages)
-+ void handleMessageDecodeFailure(SignedMessageChain$DecodeException)
-+ void lambda$handleChat$10(Optional)
-+ void lambda$handleChat$8(Void)
-+ void lambda$handleChatCommand$11(Optional)
-+ void lambda$handlePlaceRecipe$13(Recipe)
-+ void lambda$handleSignUpdate$14(List)
-+ void performChatCommand(LastSeenMessages)
-+ void sendDisguisedChatMessage(ChatType$Bound)
-+ void sendPlayerChatMessage(ChatType$Bound)
-- boolean handlesPreviewRequests()
-- boolean tryHandleChat(LastSeenMessages$Update)
-- boolean verifyChatMessage(PlayerChatMessage)
-- ChatMessageContent getSignedContent(ServerboundChatPacket)
-- CompletableFuture getPreviewedArgument(PreviewableCommand)
-- CompletableFuture lambda$handleChat$9(PlayerChatMessage)
-- CompletableFuture lambda$handleChatPreview$14(ServerboundChatPreviewPacket)
-- CompletableFuture queryChatPreview(String)
-- CompletableFuture queryCommandPreview(String)
-- CompletableFuture queryPreview(String)
-- Component lambda$queryChatPreview$16(Component)
-- Map collectSignedArguments(PreviewableCommand)
-- Packet lambda$sendPreviewResponse$15(int)
-- PlayerChatMessage getSignedMessage(ServerboundChatPacket)
-- SignedMessageChain$Decoder signedMessageDecoder()
-- void handleChatPreview(ServerboundChatPreviewPacket)
-- void handleValidationFailure(Set)
-- void lambda$handleChat$10(ServerboundChatPacket)
-- void lambda$handleChat$8(Void)
-- void lambda$handleChatCommand$11(ServerboundChatCommandPacket)
-- void lambda$handleChatPreview$13(Component)
-- void lambda$handlePlaceRecipe$19(Recipe)
-- void lambda$handleSignUpdate$20(List)
-- void lambda$queryChatPreview$17(Component)
-- void lambda$queryCommandPreview$18(Component)
-- void performChatCommand(ServerboundChatCommandPacket)
-- void sendPreviewResponse(Component)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
-
-```diff
-+ RemoteChatSession$Data chatSessionData
-- ProfilePublicKey$Data profilePublicKeyData
-+ RemoteChatSession validateChatSession(SignatureValidator,boolean)
-- ProfilePublicKey validatePublicKey(SignatureValidator,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.FilePackResources</summary>
-
-```diff
-+ boolean failedToLoad
-+ File file
-+ IoSupplier getResource(ResourceLocation)
-+ IoSupplier getResource(String)
-+ IoSupplier getRootResource(String[])
-+ String getPathFromLocation(ResourceLocation)
-+ void <init>(File)
-+ void listResources(PackResources$ResourceOutput)
-- boolean hasResource(String)
-- Collection getResources(Predicate)
-- InputStream getResource(String)
-- void <init>(File)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
-
-```diff
-+ Logger LOGGER
-+ PackType packType
-+ Path folder
-- File folder
-- FileFilter RESOURCEPACK_FILTER
-+ Pack$ResourcesSupplier detectPackResources(Path)
-+ PackResources lambda$detectPackResources$1(String)
-+ PackResources lambda$detectPackResources$2(String)
-+ String nameFromPath(Path)
-+ void <init>(PackSource)
-+ void discoverPacks(BiConsumer)
-+ void lambda$loadPacks$0(Pack$ResourcesSupplier)
-+ void loadPacks(Consumer)
-- boolean lambda$static$0(File)
-- PackResources lambda$createSupplier$1(File)
-- PackResources lambda$createSupplier$2(File)
-- Supplier createSupplier(File)
-- void <init>(PackSource)
-- void loadPacks(Pack$PackConstructor)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
-
-```diff
-+ BuiltInMetadata BUILT_IN_METADATA
-+ Component VANILLA_NAME
-+ FeatureFlagsMetadataSection FEATURE_FLAGS_METADATA_SECTION
-+ PackMetadataSection VERSION_METADATA_SECTION
-+ ResourceLocation PACKS_DIR
-- PackMetadataSection BUILT_IN_METADATA
-- String VANILLA_ID
-- VanillaPackResources vanillaPack
-+ Component getPackTitle(String)
-+ Pack createBuiltinPack(Component)
-+ Pack createVanillaPack(PackResources)
-+ PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
-+ PackRepository createPackRepository(Path)
-+ PackResources lambda$createVanillaPack$0(String)
-+ VanillaPackResources createVanillaPackSource()
-- PackResources lambda$loadPacks$0()
-- void loadPacks(Pack$PackConstructor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.packs.resources.MultiPackResourceManager</summary>
-
-```diff
-+ void checkTrailingDirectoryPath(String)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ResourceProvider</summary>
-
-```diff
-+ Optional lambda$fromMap$1(ResourceLocation)
-+ ResourceProvider fromMap(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ LayeredRegistryAccess registries
-- RegistryAccess$Frozen registryHolder
-+ boolean verifyChatTrusted(PlayerChatMessage)
-+ ServerPlayer getPlayerForLogin(RemoteChatSession)
-+ void <init>(PlayerDataStorage,int)
-+ void broadcastChatMessage(ChatType$Bound)
-- boolean verifyChatTrusted(ChatSender)
-- ServerPlayer getPlayerForLogin(ProfilePublicKey)
-- void <init>(PlayerDataStorage,int)
-- void broadcastChatMessage(ChatType$Bound)
-- void broadcastMessageHeader(Set)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey BOOKSHELF_BOOKS
-+ TagKey HANGING_SIGNS
-+ TagKey STRIPPED_LOGS
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.TagNetworkSerialization</summary>
-
-```diff
-+ Map serializeTagsToNetwork(LayeredRegistryAccess)
-- Map serializeTagsToNetwork(RegistryAccess)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.Crypt</summary>
-
-```diff
-+ int SIGNATURE_BYTES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.FutureChain</summary>
-
-```diff
-+ boolean closed
-+ Executor checkedExecutor
-- Executor executor
-+ CompletionStage lambda$append$1(Object)
-+ Object lambda$append$2(Throwable)
-+ void close()
-+ void lambda$new$0(Runnable)
-- CompletionStage lambda$append$0(Object)
-- Object lambda$append$1(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.TaskChainer$DelayedTask</summary>
-
-```diff
-+ CompletableFuture submit(java.util.concurrent.Executor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AnimationState</summary>
-
-```diff
-+ void animateWhen(boolean,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-- Packet getAddEntityPacket()
-+ boolean allowsDismounting(Entity)
-+ Packet getAddEntityPacket()
-+ Vec3 getLeashOffset(float)
-+ void addDeltaMovement(Vec3)
-+ void checkSlowFallDistance()
-+ void teleportRelative(double,double,double)
-- ChatSender asChatSender()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean equipmentHasChanged(ItemStack)
-+ double getAttributeBaseValue(Holder)
-+ double getAttributeValue(Holder)
-- Packet getAddEntityPacket()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
-
-```diff
-+ int getJumpCooldown()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Saddleable</summary>
-
-```diff
-+ SoundEvent getSaddleSoundEvent()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeMap</summary>
-
-```diff
-+ AttributeInstance getInstance(Holder)
-+ boolean hasAttribute(Holder)
-+ boolean hasModifier(UUID)
-+ double getModifierValue(UUID)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BlockPosTracker</summary>
-
-```diff
-+ void <init>(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos</summary>
-
-```diff
-+ BiPredicate acceptableLandingSpot
-- Predicate acceptableLandingSpot
-+ boolean defaultAcceptableLandingSpot(BlockPos)
-+ boolean isClearTransition(Vec3)
-+ boolean lambda$start$0(BlockPos)
-+ LongJumpToRandomPos$PossibleJump lambda$start$1(BlockPos)
-+ void <init>(BiPredicate)
-- boolean isClearTransition(Vec3)
-- boolean lambda$new$0(BlockState)
-- boolean lambda$start$1(BlockPos)
-- LongJumpToRandomPos$PossibleJump lambda$start$2(BlockPos)
-- void <init>(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType GAZE_COOLDOWN_TICKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.TemptingSensor</summary>
-
-```diff
-+ boolean lambda$doTick$2(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiTypes</summary>
-
-```diff
-+ void registerBlockStates(Set)
-- void registerBlockStates(Holder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
-
-```diff
-+ int GIVE_ITEM_TIMEOUT_DURATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.SmeltingRecipe</summary>
-
-```diff
-+ void <init>(ItemStack,float,int)
-- void <init>(ItemStack,float,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.crafting.TippedArrowRecipe</summary>
-
-```diff
-+ void <init>(CraftingBookCategory)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
-
-```diff
-- RegistryAccess registryAccess()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelReader</summary>
-
-```diff
-+ FeatureFlagSet enabledFeatures()
-+ RegistryAccess registryAccess()
-+ HolderLookup holderLookup(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.StructureManager</summary>
-
-```diff
-+ WorldOptions worldOptions
-- WorldGenSettings worldGenSettings
-+ Boolean lambda$getStructureWithPieceAt$0(Holder$Reference)
-+ void <init>(StructureCheck)
-- Boolean lambda$getStructureWithPieceAt$0(Holder)
-- void <init>(StructureCheck)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SupportType$2</summary>
-
-```diff
-+ List OVERRIDE_TO_SUPPORT
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
-
-```diff
-+ SoundEvent closeSound
-+ SoundEvent openSound
-+ void <init>(SoundEvent)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
-
-```diff
-+ GameEventListenerRegistry getListenerRegistry(int)
-- GameEventDispatcher getEventDispatcher(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ Supplier possibleStructureSets
-+ boolean hasBiomesForStructureSet(StructureSet)
-+ boolean lambda$getMobsAt$20(StructureStart)
-+ boolean lambda$getMobsAt$21(StructureStart)
-+ boolean lambda$new$3(Holder)
-+ ChunkAccess lambda$createBiomes$12(RandomState)
-+ ChunkPos lambda$generateRingPositions$10(RandomState)
-+ Integer lambda$applyBiomeDecoration$14(Structure)
-+ List lambda$generatePositions$8(Structure)
-+ List lambda$generateRingPositions$11(List)
-+ List lambda$new$4(Registry)
-+ List lambda$new$5(Holder)
-+ List lambda$new$6(Function)
-+ List possibleStructureSets()
-+ Set lambda$findNearestMapStructure$13(StructurePlacement)
-+ Stream lambda$hasBiomesForStructureSet$7(StructureSet$StructureSelectionEntry)
-+ Stream lambda$new$2(Registry)
-+ String lambda$applyBiomeDecoration$16(Structure)
-+ String lambda$applyBiomeDecoration$19(PlacedFeature)
-+ String lambda$createReferences$24(Registry)
-+ String lambda$createReferences$25(StructureStart)
-+ String lambda$createReferences$26(StructureStart)
-+ String lambda$createReferences$27(StructureStart)
-+ void lambda$applyBiomeDecoration$15(ChunkPos)
-+ void lambda$applyBiomeDecoration$17(StructureStart)
-+ void lambda$applyBiomeDecoration$18(PlacedFeature)
-+ void lambda$createStructures$23(Holder)
-+ void lambda$generatePositions$9(Holder)
-+ void lambda$getMobsAt$22(StructureStart)
-- boolean lambda$getMobsAt$15(StructureStart)
-- boolean lambda$getMobsAt$16(StructureStart)
-- ChunkAccess lambda$createBiomes$7(RandomState)
-- Integer lambda$applyBiomeDecoration$9(Structure)
-- List lambda$generatePositions$4(Structure)
-- List lambda$generateRingPositions$6(Holder)
-- List lambda$new$2(Holder)
-- List lambda$new$3(Function)
-- Set lambda$findNearestMapStructure$8(StructurePlacement)
-- Stream possibleStructureSets()
-- String lambda$applyBiomeDecoration$11(Structure)
-- String lambda$applyBiomeDecoration$14(PlacedFeature)
-- String lambda$createReferences$19(Registry)
-- String lambda$createReferences$20(StructureStart)
-- String lambda$createReferences$21(StructureStart)
-- String lambda$createReferences$22(StructureStart)
-- void lambda$applyBiomeDecoration$10(ChunkPos)
-- void lambda$applyBiomeDecoration$12(StructureStart)
-- void lambda$applyBiomeDecoration$13(PlacedFeature)
-- void lambda$createStructures$18(Holder)
-- void lambda$generatePositions$5(Holder)
-- void lambda$getMobsAt$17(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEventDispatcher</summary>
-
-```diff
-+ ServerLevel level
-- boolean isEmpty()
-- boolean walkListeners(net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.phys.Vec3,net.minecraft.world.level.gameevent.GameEvent$Context,java.util.function.BiConsumer)
-- GameEventDispatcher NOOP
-- void register(net.minecraft.world.level.gameevent.GameEventListener)
-- void unregister(net.minecraft.world.level.gameevent.GameEventListener)
-+ void <init>(ServerLevel)
-+ void handleGameEventMessagesInQueue(List)
-+ void lambda$post$0(Vec3)
-+ void post(GameEvent$Context)
-- void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
-
-```diff
-+ Object2IntMap VIBRATION_FREQUENCY_FOR_EVENT
-+ VibrationInfo currentVibration
-+ VibrationSelector selectionStrategy
-- float receivingDistance
-- VibrationListener$ReceivingEvent receivingEvent
-+ boolean handleGameEvent(Vec3)
-+ boolean lambda$isOccluded$10(BlockState)
-+ int getGameEventFrequency(GameEvent)
-+ VibrationListener lambda$codec$5(Integer)
-+ VibrationSelector lambda$codec$3(VibrationListener)
-+ void <clinit>()
-+ void <init>(VibrationListener$VibrationListenerConfig)
-+ void <init>(VibrationSelector,int)
-+ void forceGameEvent(Vec3)
-+ void lambda$forceGameEvent$9(Vec3)
-+ void lambda$static$7(Object2IntOpenHashMap)
-+ void lambda$tick$8(VibrationInfo)
-+ void scheduleVibration(Vec3)
-- boolean handleGameEvent(GameEvent$Message)
-- boolean lambda$isOccluded$7(BlockState)
-- Float lambda$codec$3(VibrationListener)
-- VibrationListener lambda$codec$5(Integer)
-- void <init>(VibrationListener$ReceivingEvent,float,int)
-- void scheduleSignal(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
-
-```diff
-+ WorldDimensions createWorldDimensions()
-- IllegalStateException lambda$overworldOrThrow$3()
-- LevelStem overworldOrThrow()
-- WorldGenSettings createWorldGenSettings(long,boolean,boolean)
-- WorldGenSettings recreateWorldGenSettings(WorldGenSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
-
-```diff
-+ Consumer createStackSplitter(Consumer)
-+ void lambda$createStackSplitter$0(ItemStack)
-- Consumer createStackSplitter(Consumer)
-- void lambda$createStackSplitter$0(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.PngInfo
@@ -9664,20 +3217,25 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.platform.MacosUtil</summary>
+
+```diff
+- void loadIcon(InputStream)
++ void loadIcon(IoSupplier)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$NewsButton</summary>
 
+```diff
++ void lambda$new$0(RealmsMainScreen,boolean)
+- void lambda$new$0(RealmsMainScreen,Button)
++ void lambda$new$1(RealmsMainScreen,Button)
+```
 
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.Util</summary>
@@ -9689,745 +3247,906 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandBuildContext$1</summary>
+<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
 
 ```diff
-+ HolderSet$Named lambda$get$0(TagKey)
++ boolean lambda$processMessageDeletionQueue$0(int,ChatComponent$DelayedMessageDeletion)
++ ChatComponent$DelayedMessageDeletion deleteMessageOrDelay(MessageSignature)
+- ChatScreen getFocusedChat()
++ GuiMessage createDeletedMarker(GuiMessage)
++ int getMessageEndIndexAt(double,double)
+- int getMessageIndexAt(double)
++ int getMessageLineIndexAt(double,double)
++ void processMessageDeletionQueue()
++ void render(PoseStack,int,int,int)
+- void render(PoseStack,int)
++ void tick()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+<details><summary>net.minecraft.client.gui.font.FontManager$1</summary>
 
 ```diff
-+ FeatureFlagSet enabledFeatures()
-+ void sendChatMessage(ChatType$Bound)
-- ChatSender asChatSender()
-- void sendChatMessage(ChatType$Bound)
+- boolean lambda$prepare$0(ResourceLocation)
++ List lambda$prepare$0(ResourceLocation)
+- List lambda$prepare$1(ResourceLocation)
++ void lambda$apply$2(ResourceLocation,List)
+- void lambda$apply$3(ResourceLocation,List)
++ void lambda$prepare$1(List,int)
+- void lambda$prepare$2(List,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.CraftingScreen</summary>
 
 ```diff
-+ FeatureFlagSet enabledFeatures()
+- void removed()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.MessageArgument</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen</summary>
 
 ```diff
-- Logger LOGGER
-+ CompletableFuture filterPlainText(PlayerChatMessage)
-+ CompletableFuture lambda$resolveDisguisedMessage$3(Executor)
-+ CompletableFuture lambda$resolveSignedMessage$1(Executor)
-+ void lambda$resolveDisguisedMessage$2(Component)
-+ void lambda$resolveSignedMessage$0(Void)
-+ void resolveChatMessage(Consumer)
-+ void resolveDisguisedMessage(PlayerChatMessage)
-+ void resolveSignedMessage(PlayerChatMessage)
-- Class getValueType()
-- CompletableFuture resolvePreview(MessageArgument$Message)
-- CompletableFuture resolvePreview(Object)
-- MessageArgument$ChatMessage getChatMessage(String)
-- Object lambda$logResolutionFailure$0(Throwable)
-- String getSignableText(MessageArgument$Message)
-- String getSignableText(Object)
-- void logResolutionFailure(CompletableFuture)
++ void <init>(Player,FeatureFlagSet)
+- void <init>(Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ParticleArgument</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.PresetEditor</summary>
 
 ```diff
-+ HolderLookup particles
-+ CommandSyntaxException lambda$readParticleType$1(ResourceLocation)
-+ ParticleArgument particle(CommandBuildContext)
-+ ParticleOptions readParticle(HolderLookup)
-+ ParticleType readParticleType(HolderLookup)
-+ void <init>(CommandBuildContext)
-- CommandSyntaxException lambda$readParticle$1(ResourceLocation)
-- ParticleArgument particle()
-- ParticleOptions readParticle(StringReader)
-- void <init>()
++ WorldCreationContext$DimensionsUpdater fixedBiomeConfigurator(Holder)
++ WorldCreationContext$DimensionsUpdater flatWorldConfigurator(FlatLevelGeneratorSettings)
+- WorldCreationContext$Updater fixedBiomeConfigurator(Holder)
+- WorldCreationContext$Updater flatWorldConfigurator(FlatLevelGeneratorSettings)
++ WorldDimensions lambda$fixedBiomeConfigurator$5(Holder,RegistryAccess$Frozen,WorldDimensions)
++ WorldDimensions lambda$flatWorldConfigurator$4(FlatLevelGeneratorSettings,RegistryAccess$Frozen,WorldDimensions)
+- WorldGenSettings lambda$fixedBiomeConfigurator$5(Holder,RegistryAccess$Frozen,WorldGenSettings)
+- WorldGenSettings lambda$flatWorldConfigurator$4(FlatLevelGeneratorSettings,RegistryAccess$Frozen,WorldGenSettings)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions$Option</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldCreationContext</summary>
 
 ```diff
-+ Predicate canUse
-- Predicate predicate
-+ boolean equals(Object)
-+ Component description()
-+ EntitySelectorOptions$Modifier modifier()
-+ int hashCode()
-+ Predicate canUse()
-+ String toString()
++ LayeredRegistryAccess worldgenRegistries()
+- Lifecycle worldSettingsStability()
++ Registry datapackDimensions()
+- RegistryAccess$Frozen registryAccess()
++ RegistryAccess$Frozen worldgenLoadContext()
++ void <init>(WorldGenSettings,LayeredRegistryAccess,ReloadableServerResources,WorldDataConfiguration)
+- void <init>(WorldGenSettings,Lifecycle,RegistryAccess$Frozen,ReloadableServerResources)
++ void <init>(WorldOptions,Registry,WorldDimensions,LayeredRegistryAccess,ReloadableServerResources,WorldDataConfiguration)
++ void <init>(WorldOptions,WorldDimensions,LayeredRegistryAccess,ReloadableServerResources,WorldDataConfiguration)
++ WorldCreationContext withDimensions(WorldCreationContext$DimensionsUpdater)
++ WorldCreationContext withOptions(WorldCreationContext$OptionsModifier)
+- WorldCreationContext withSettings(WorldCreationContext$SimpleUpdater)
+- WorldCreationContext withSettings(WorldCreationContext$Updater)
+- WorldCreationContext withSettings(WorldGenSettings)
++ WorldCreationContext withSettings(WorldOptions,WorldDimensions)
++ WorldDataConfiguration dataConfiguration()
++ WorldDimensions selectedDimensions()
+- WorldGenSettings worldGenSettings()
++ WorldOptions options()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldOpenFlows</summary>
 
 ```diff
-+ boolean lambda$static$3(EntityType)
-+ CompletableFuture lambda$static$5(SuggestionsBuilder)
-+ Message lambda$static$4(EntityType)
-- CompletableFuture lambda$static$4(SuggestionsBuilder)
-- Message lambda$static$3(EntityType)
+- Boolean lambda$doLoadLevel$4(Void)
++ Boolean lambda$doLoadLevel$6(Void)
+- CompletionStage lambda$doLoadLevel$5(Throwable)
++ CompletionStage lambda$doLoadLevel$7(Throwable)
++ Object loadWorldDataBlocking(WorldLoader$PackConfig,WorldLoader$WorldDataSupplier,WorldLoader$ResultFactory)
+- PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
+- Pair lambda$createFreshLevel$0(LevelSettings,WorldGenSettings,RegistryAccess,ResourceManager,DataPackConfig)
+- Pair lambda$loadWorldStem$1(LevelStorageSource$LevelStorageAccess,ResourceManager,DataPackConfig)
++ Pair lambda$recreateWorldData$3(CloseableResourceManager,ReloadableServerResources,LayeredRegistryAccess,WorldOpenFlows$1Data)
++ Pair recreateWorldData(LevelStorageSource$LevelStorageAccess)
+- void createFreshLevel(String,LevelSettings,RegistryAccess,WorldGenSettings)
++ void createFreshLevel(String,LevelSettings,WorldOptions,Function)
++ void createLevelFromExistingSettings(LevelStorageSource$LevelStorageAccess,ReloadableServerResources,LayeredRegistryAccess,WorldData)
+- void createLevelFromExistingSettings(LevelStorageSource$LevelStorageAccess,ReloadableServerResources,RegistryAccess$Frozen,WorldData)
++ void lambda$askForBackup$11(String,Runnable,boolean,boolean)
+- void lambda$askForBackup$9(String,Runnable,boolean,boolean)
+- void lambda$confirmWorldCreation$10(Runnable,Minecraft,CreateWorldScreen,boolean)
++ void lambda$confirmWorldCreation$12(Runnable,Minecraft,CreateWorldScreen,boolean)
++ Void lambda$doLoadLevel$10(Throwable)
+- void lambda$doLoadLevel$2(Screen,String,boolean)
+- void lambda$doLoadLevel$3(Screen,String,boolean)
++ void lambda$doLoadLevel$4(Screen,String,boolean)
++ void lambda$doLoadLevel$5(Screen,String,boolean)
+- void lambda$doLoadLevel$6(Screen)
+- void lambda$doLoadLevel$7(String,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Screen,Boolean)
++ void lambda$doLoadLevel$8(Screen)
+- Void lambda$doLoadLevel$8(Throwable)
++ void lambda$doLoadLevel$9(String,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Screen,Boolean)
++ WorldLoader$DataLoadOutput lambda$createFreshLevel$0(Function,LevelSettings,WorldOptions,WorldLoader$DataLoadContext)
++ WorldLoader$DataLoadOutput lambda$loadWorldStem$1(LevelStorageSource$LevelStorageAccess,WorldLoader$DataLoadContext)
++ WorldLoader$DataLoadOutput lambda$recreateWorldData$2(LevelStorageSource$LevelStorageAccess,WorldLoader$DataLoadContext)
++ WorldLoader$PackConfig getPackConfigFromLevelData(LevelStorageSource$LevelStorageAccess,boolean,PackRepository)
+- WorldStem loadWorldStem(WorldLoader$PackConfig,WorldLoader$WorldDataSupplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
 
 ```diff
-+ void <init>(Lifecycle,boolean)
-- void <init>(Function)
++ void <init>(Connection,Minecraft,LocalChatSession,ServerData,Screen,Consumer)
+- void <init>(Connection,Minecraft,Screen,Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.HolderLookup$RegistryLookup</summary>
+<details><summary>net.minecraft.client.multiplayer.chat.report.ChatReportBuilder</summary>
 
 ```diff
-+ boolean lambda$filterFeatures$0(Object)
-+ HolderLookup filterElements(Predicate)
-+ HolderLookup filterFeatures(FeatureFlagSet)
+- boolean lambda$chainForPlayer$3(UUID,ChatLog$Entry)
+- boolean lambda$collectReferencedContext$4(Int2ObjectMap,int,int,LoggedChatMessage$Player)
+- ChatLog$Entry lambda$chainForPlayer$2(ChatLog$Entry)
+- ChatLog$Entry lambda$trailingContext$6(ChatLog$Entry)
+- Int2ObjectMap collectReferencedContext(ChatLog,int,AbuseReportLimits)
+- IntCollection messageReferences(ChatLog,int,PlayerChatMessage)
+- ReportChatMessage buildReportedChatHeader(LoggedChatMessageLink)
+- ReportChatMessage buildReportedChatMessage(int,LoggedChatMessage$Player)
++ ReportChatMessage buildReportedChatMessage(LoggedChatMessage$Player,boolean)
+- ReportChatMessageBody$LastSeenSignature lambda$buildReportedChatMessage$7(LastSeenMessages$Entry)
+- Stream chainForPlayer(ChatLog,Int2ObjectMap,UUID)
+- Stream trailingContext(ChatLog,int,int)
+- String encodeComponent(Component)
+- void lambda$buildEvidence$0(Int2ObjectSortedMap,ChatLog$Entry)
++ void lambda$buildEvidence$0(List,int,LoggedChatMessage$Player)
+- void lambda$buildEvidence$1(ChatLog,Int2ObjectSortedMap,int)
+- void lambda$collectReferencedContext$5(Int2ObjectMap,ChatLog$Entry)
+- void walkMessageReferenceGraph(ChatLog,int,ChatReportBuilder$ReferencedMessageVisitor)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>net.minecraft.client.particle.ParticleEngine</summary>
 
 ```diff
-+ Holder$Reference getOrCreateHolderOrThrow(net.minecraft.resources.ResourceKey)
-+ Lifecycle initialLifecycle
-- Holder getOrCreateHolderOrThrow(net.minecraft.resources.ResourceKey)
-- Lifecycle lifecycle
-+ DefaultedRegistry registerDefaultedWithIntrusiveHolders(Registry$RegistryBootstrap)
-+ DefaultedRegistry registerDefaultedWithIntrusiveHolders(Registry$RegistryBootstrap)
-+ Holder$Reference getHolderOrThrow(ResourceKey)
-+ ResourceKey levelStemToLevel(ResourceKey)
-+ ResourceKey levelToLevelStem(ResourceKey)
-- DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-- DefaultedRegistry registerDefaulted(Registry$RegistryBootstrap)
-- Holder getHolderOrThrow(ResourceKey)
-- Lifecycle lifecycle()
-- Registry registerSimple(Registry$RegistryBootstrap)
+- CompletableFuture lambda$reload$1(ResourceManager,Map,Executor,ResourceLocation)
+- CompletableFuture[] lambda$reload$2(int)
++ CompletionStage lambda$reload$3(Executor,Map)
++ CompletionStage lambda$reload$5(Executor,Map)
++ Map lambda$reload$0(ResourceManager)
++ Map lambda$reload$4(ResourceManager)
++ Optional loadParticleDescription(ResourceLocation,Resource)
++ ParticleEngine$1ParticleDefinition lambda$reload$1(ResourceLocation,Resource)
++ Queue lambda$tick$10(ParticleRenderType)
+- Queue lambda$tick$8(ParticleRenderType)
+- ResourceLocation lambda$loadParticleDescription$6(ResourceLocation)
++ ResourceLocation lambda$loadParticleDescription$8(ResourceLocation)
+- TextureAtlas$Preparations lambda$reload$3(ProfilerFiller,ResourceManager,Map,Void)
+- void lambda$destroy$10(BlockPos,BlockState,double,double,double,double,double,double)
++ void lambda$destroy$12(BlockPos,BlockState,double,double,double,double,double,double)
+- void lambda$reload$0(ResourceManager,ResourceLocation,Map)
++ void lambda$reload$2(List,Executor,ResourceLocation,Resource)
+- void lambda$reload$4(TextureAtlasSprite,ResourceLocation,List)
+- void lambda$reload$5(ProfilerFiller,Map,TextureAtlas$Preparations)
++ void lambda$reload$6(SpriteLoader$Preparations,Set,TextureAtlasSprite,ParticleEngine$1ParticleDefinition)
++ void lambda$reload$7(ProfilerFiller,CompletableFuture,CompletableFuture,Void)
+- void lambda$tick$7(ParticleRenderType,Queue)
++ void lambda$tick$9(ParticleRenderType,Queue)
++ void lambda$tickParticleList$11(ParticleGroup)
+- void lambda$tickParticleList$9(ParticleGroup)
+- void loadParticleDescription(ResourceManager,ResourceLocation,Map)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.core.RegistryAccess$1</summary>
+<details><summary>net.minecraft.client.renderer.entity.EntityRenderers</summary>
 
 ```diff
-+ Optional registry(ResourceKey)
-+ RegistryAccess$Frozen freeze()
-+ Stream registries()
-- Optional ownedRegistry(ResourceKey)
-- Stream ownedRegistries()
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryEntry</summary>
-
-```diff
-- RegistryAccess$RegistryEntry fromHolder(Holder$Reference)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ BlockStateGenerator createCustomFence(ResourceLocation)
-+ BlockStateGenerator createFenceGate(ResourceLocation,boolean)
-+ ResourceLocation lambda$createChiseledBookshelf$45(Integer)
-+ Variant lambda$createChiseledBookshelf$46(Integer)
-+ Variant lambda$createJigsaw$48(FrontAndTop)
-+ Variant lambda$createRespawnAnchor$47(Integer)
-+ void createChiseledBookshelf()
-+ void createHangingSign(Block)
-+ void lambda$run$49(BlockFamily)
-+ void lambda$run$50(SpawnEggItem)
-- BlockStateGenerator createFenceGate(ResourceLocation)
-- Variant lambda$createJigsaw$46(FrontAndTop)
-- Variant lambda$createRespawnAnchor$45(Integer)
-- void lambda$run$47(BlockFamily)
-- void lambda$run$48(SpawnEggItem)
++ EntityRenderer lambda$static$25(EntityRendererProvider$Context)
+- void lambda$createEntityRenderers$25(ImmutableMap$Builder,EntityRendererProvider$Context,EntityType,EntityRendererProvider)
++ void lambda$createEntityRenderers$26(ImmutableMap$Builder,EntityRendererProvider$Context,EntityType,EntityRendererProvider)
+- void lambda$createPlayerRenderers$26(ImmutableMap$Builder,EntityRendererProvider$Context,String,EntityRendererProvider)
++ void lambda$createPlayerRenderers$27(ImmutableMap$Builder,EntityRendererProvider$Context,String,EntityRendererProvider)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.models.ModelProvider</summary>
+<details><summary>net.minecraft.client.renderer.entity.layers.VillagerProfessionLayer</summary>
 
 ```diff
-+ PackOutput$PathProvider blockStatePathProvider
-+ PackOutput$PathProvider modelPathProvider
-- DataGenerator$PathProvider blockStatePathProvider
-- DataGenerator$PathProvider modelPathProvider
+- Optional lambda$getHatData$1(Resource)
++ Optional lambda$getHatData$2(Resource)
++ String lambda$getResourceLocation$1(String,String)
+- VillagerMetaDataSection$Hat lambda$getHatData$2(String,DefaultedRegistry,Object,Object)
++ VillagerMetaDataSection$Hat lambda$getHatData$3(String,DefaultedRegistry,Object,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.Stitcher$Region</summary>
+
+```diff
+- Stitcher$Holder getHolder()
+- void walk(Consumer)
++ void walk(Stitcher$SpriteLoader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.texture.StitcherException</summary>
+
+```diff
++ void <init>(Stitcher$Entry,Collection)
+- void <init>(TextureAtlasSprite$Info,Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
+
+```diff
+- boolean checkHash(String,File)
+- CompletableFuture clearServerPack()
+- CompletableFuture downloadAndSelectResourcePack(URL,String,boolean)
+- CompletableFuture loadBundledResourcePack(LevelStorageSource$LevelStorageAccess)
+- CompletableFuture setServerPack(File,PackSource)
+- CompletionStage lambda$downloadAndSelectResourcePack$3(String,File,Minecraft,boolean,Object)
+- CompletionStage lambda$downloadAndSelectResourcePack$7(File,Minecraft,Throwable)
++ Component getPackTitle(String)
+- FolderPackResources createProgrammerArtDirPack(File)
+- Map getDownloadHeaders()
++ Pack createBuiltinPack(String,Pack$ResourcesSupplier,Component)
+- Pack createProgrammerArtPack(Pack$PackConstructor,Supplier)
+- Pack createProgrammerArtPack(Pack$PackConstructor)
++ Pack createVanillaPack(PackResources)
+- PackResources createProgrammerArtZipPack(File)
+- PackResources lambda$createProgrammerArtPack$10(File)
+- PackResources lambda$createProgrammerArtPack$11(File)
++ PackResources lambda$createVanillaPack$0(PackResources,String)
+- PackResources lambda$loadPacks$0()
+- PackResources lambda$setServerPack$9(File)
++ Path findExplodedAssetPacks(Path)
++ VanillaPackResources createVanillaPackSource(Path)
+- VanillaPackResources getVanillaPack()
+- void <init>(File,AssetIndex)
++ void <init>(Path)
+- void clearOldDownloads()
+- void deleteQuietly(File)
+- void lambda$downloadAndSelectResourcePack$1(Minecraft,ProgressScreen)
+- void lambda$downloadAndSelectResourcePack$2(boolean,Minecraft)
+- void lambda$downloadAndSelectResourcePack$4(Throwable,File,Void)
+- void lambda$downloadAndSelectResourcePack$5(Minecraft,boolean)
+- void lambda$downloadAndSelectResourcePack$6(Minecraft,Void)
+- void lambda$downloadAndSelectResourcePack$8(Void)
+- void loadPacks(Consumer,Pack$PackConstructor)
++ void populatePackList(BiConsumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.PaintingTextureManager</summary>
+
+```diff
+- Stream getResourcesToLoad()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.TextureAtlasHolder</summary>
+
+```diff
++ CompletableFuture reload(PreparableReloadListener$PreparationBarrier,ResourceManager,ProfilerFiller,ProfilerFiller,Executor,Executor)
++ CompletionStage lambda$reload$1(Executor,Map)
++ Map lambda$reload$0(ResourceManager)
+- Object prepare(ResourceManager,ProfilerFiller)
+- TextureAtlas$Preparations prepare(ResourceManager,ProfilerFiller)
+- void apply(Object,ResourceManager,ProfilerFiller)
++ void apply(SpriteLoader$Preparations,ProfilerFiller)
+- void apply(TextureAtlas$Preparations,ResourceManager,ProfilerFiller)
++ void lambda$reload$2(ProfilerFiller,SpriteLoader$Preparations)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
+
+```diff
+- boolean isDivisionInteger(int,int)
++ FrameSize calculateFrameSize(int,int)
+- int getFrameHeight(int)
+- int getFrameWidth(int)
+- Pair calculateFrameSize(int,int)
+- Pair getFrameSize(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.sounds.SimpleSoundInstance</summary>
+
+```diff
+- SimpleSoundInstance forRecord(SoundEvent,double,double,double)
++ SimpleSoundInstance forRecord(SoundEvent,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.server.LanServerDetection$LanServerList</summary>
+
+```diff
+- boolean isDirty()
+- List getServers()
++ List takeDirtyServers()
+- void markClean()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.sounds.SoundBufferLibrary</summary>
+
+```diff
+- void <init>(ResourceManager)
++ void <init>(ResourceProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.sounds.SoundManager$Preparations</summary>
+
+```diff
++ void apply(Map,Map,SoundEngine)
+- void apply(Map,SoundEngine)
+- void handleRegistration(ResourceLocation,SoundEventRegistration,ResourceManager)
++ void handleRegistration(ResourceLocation,SoundEventRegistration)
++ void listResources(ResourceManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandBuildContext</summary>
+
+```diff
++ void <init>(RegistryAccess,FeatureFlagSet)
+- void <init>(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ArgumentSignatures</summary>
+
+```diff
+- ArgumentSignatures signCommand(PreviewableCommand,ArgumentSignatures$Signer)
++ ArgumentSignatures signCommand(SignableCommand,ArgumentSignatures$Signer)
++ ArgumentSignatures$Entry lambda$signCommand$1(ArgumentSignatures$Signer,SignableCommand$Argument)
+- ArgumentSignatures$Entry lambda$signCommand$2(ArgumentSignatures$Signer,Pair)
+- boolean hasSignableArguments(PreviewableCommand)
+- boolean lambda$hasSignableArguments$1(PreviewableCommand$Argument)
+- List collectPlainSignableArguments(PreviewableCommand)
+- String getSignableText(SignedArgument,ParsedArgument)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceKeyArgument</summary>
+
+```diff
+- Attribute getAttribute(CommandContext,String)
+- CommandSyntaxException lambda$getAttribute$6(ResourceKey)
++ CommandSyntaxException lambda$getRegistryKey$3(DynamicCommandExceptionType,ResourceKey)
+- CommandSyntaxException lambda$getRegistryKeyType$5(DynamicCommandExceptionType,ResourceKey)
+- CommandSyntaxException lambda$getRegistryType$4(DynamicCommandExceptionType,ResourceKey)
++ CommandSyntaxException lambda$resolveKey$4(DynamicCommandExceptionType,ResourceKey)
+- Holder getConfiguredFeature(CommandContext,String)
+- Holder getRegistryKeyType(CommandContext,String,ResourceKey,DynamicCommandExceptionType)
+- Holder getStructure(CommandContext,String)
+- Holder getStructureTemplatePool(CommandContext,String)
++ Holder$Reference getConfiguredFeature(CommandContext,String)
++ Holder$Reference getStructure(CommandContext,String)
++ Holder$Reference getStructureTemplatePool(CommandContext,String)
++ Holder$Reference resolveKey(CommandContext,String,ResourceKey,DynamicCommandExceptionType)
+- Message lambda$static$3(Object)
++ ResourceKey getRegistryKey(CommandContext,String,ResourceKey,DynamicCommandExceptionType)
+- ResourceKey getRegistryType(CommandContext,String,ResourceKey,DynamicCommandExceptionType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockStateParser</summary>
+
+```diff
++ BlockStateParser$BlockResult parseForBlock(HolderLookup,String,boolean)
+- BlockStateParser$BlockResult parseForBlock(Registry,String,boolean)
+- BlockStateParser$BlockResult parseForBlock(Registry,StringReader,boolean)
++ Either parseForTesting(HolderLookup,String,boolean)
+- Either parseForTesting(Registry,String,boolean)
+- Either parseForTesting(Registry,StringReader,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+
+```diff
++ boolean lambda$findEntities$0(CommandSourceStack,Entity)
+- boolean lambda$getPredicate$0(AABB,Entity)
++ boolean lambda$getPredicate$1(AABB,Entity)
+- boolean lambda$getPredicate$1(Vec3,Entity)
++ boolean lambda$getPredicate$2(Vec3,Entity)
++ List findEntitiesRaw(CommandSourceStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Holder$Reference</summary>
+
+```diff
++ void bindKey(ResourceKey)
++ void bindValue(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.HolderLookup</summary>
+
+```diff
+- HolderLookup forRegistry(Registry)
++ HolderLookup$RegistryLookup forRegistry(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
+- boolean lambda$freeze$4(Map$Entry)
++ boolean lambda$freeze$5(Map$Entry)
+- boolean lambda$freeze$6(Holder$Reference)
+- Holder getOrCreateHolderOrThrow(ResourceKey)
+- Holder registerMapping(int,ResourceKey,Object,Lifecycle,boolean)
+- Holder registerOrOverride(OptionalInt,ResourceKey,Object,Lifecycle)
++ Holder$Reference getOrCreateHolderOrThrow(ResourceKey)
+- ResourceLocation lambda$freeze$5(Map$Entry)
++ ResourceLocation lambda$freeze$6(Map$Entry)
++ void <init>(ResourceKey,Lifecycle,boolean)
+- void <init>(ResourceKey,Lifecycle,Function)
++ void <init>(ResourceKey,Lifecycle)
++ void lambda$freeze$4(Object,Holder$Reference)
++ void validateWrite()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess</summary>
+
+```diff
+- boolean lambda$ownedNetworkableRegistries$9(RegistryAccess$RegistryEntry)
+- Codec captureMap(UnboundedMapCodec)
+- Codec lambda$getNetworkCodec$10(RegistryAccess$RegistryData)
+- Codec lambda$makeNetworkCodec$4(ResourceKey,Codec)
+- Codec makeNetworkCodec()
+- DataResult getNetworkCodec(ResourceKey)
+- DataResult lambda$getNetworkCodec$11(ResourceKey)
+- DataResult lambda$makeNetworkCodec$3(Registry)
+- DataResult lambda$makeNetworkCodec$5(ResourceKey)
+- IllegalStateException lambda$ownedRegistryOrThrow$0(ResourceKey)
++ IllegalStateException lambda$registryOrThrow$0(ResourceKey)
+- IllegalStateException lambda$registryOrThrow$1(ResourceKey)
+- IllegalStateException lambda$retrieveRegistry$15(ResourceKey)
+- ImmutableMap lambda$static$2()
+- Iterable knownRegistries()
++ Lifecycle lambda$allElementsLifecycle$1(RegistryAccess$RegistryEntry)
+- Lifecycle lambda$allElementsLifecycle$16(RegistryAccess$RegistryEntry)
+- Map createFreshRegistries()
+- Map lambda$captureMap$8(RegistryAccess)
+- Optional registry(ResourceKey)
+- Registry lambda$captureMap$7(RegistryAccess$RegistryEntry)
+- Registry lambda$readFromDisk$14(Dynamic,ResourceKey)
+- Registry ownedRegistryOrThrow(ResourceKey)
+- Registry retrieveRegistry(ResourceKey,Dynamic)
+- RegistryAccess readFromDisk(Dynamic)
+- RegistryAccess$Frozen lambda$static$12()
+- RegistryAccess$Writable blankWriteable()
+- RegistryAccess$Writable builtinCopy()
+- ResourceKey lambda$captureMap$6(RegistryAccess$RegistryEntry)
+- Stream globalRegistries()
+- Stream networkSafeRegistries()
+- Stream ownedNetworkableRegistries()
+- Stream registries()
+- void addBuiltinElements(RegistryResourceAccess$InMemoryStorage,RegistryAccess$RegistryData)
+- void lambda$readRegistry$13(DataResult$PartialResult)
+- void load(RegistryAccess$Writable,DynamicOps,RegistryLoader)
+- void put(ImmutableMap$Builder,ResourceKey,Codec,Codec)
+- void put(ImmutableMap$Builder,ResourceKey,Codec)
+- void readRegistry(DynamicOps,RegistryLoader$Bound,RegistryAccess$RegistryData)
+- WritableRegistry createRegistry(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryCodecs</summary>
+
+```diff
+- Codec dataPackAwareCodec(ResourceKey,Lifecycle,Codec)
+- Codec directCodec(ResourceKey,Codec)
++ Codec fullCodec(ResourceKey,Lifecycle,Codec)
+- Decoder dataPackAwareDecoder(ResourceKey,Codec,Decoder,Lifecycle)
+- Map lambda$dataPackAwareCodec$3(Registry)
++ Map lambda$fullCodec$5(Registry)
++ Registry lambda$fullCodec$4(ResourceKey,Lifecycle,Map)
+- void lambda$dataPackAwareDecoder$4(WritableRegistry,Lifecycle,ResourceKey,Object)
++ void lambda$fullCodec$3(WritableRegistry,Lifecycle,ResourceKey,Object)
+- WritableRegistry lambda$dataPackAwareDecoder$5(ResourceKey,Lifecycle,Map)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+
+```diff
+- void <init>(DataGenerator)
++ void <init>(String,PackOutput,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators$BlockFamilyProvider</summary>
+
+```diff
++ BlockModelGenerators$BlockFamilyProvider customFence(Block)
++ BlockModelGenerators$BlockFamilyProvider customFenceGate(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.model.ModelLocationUtils</summary>
+
+```diff
++ String lambda$getModelLocation$0(String,String)
++ String lambda$getModelLocation$1(String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ boolean lambda$generateForEnabledBlockFamilies$1(FeatureFlagSet,BlockFamily)
++ RecipeBuilder lambda$static$19(ItemLike,ItemLike)
++ RecipeBuilder lambda$static$20(ItemLike,ItemLike)
++ RecipeBuilder lambda$static$21(ItemLike,ItemLike)
+- RecipeBuilder lambda$static$6(ItemLike,ItemLike)
+- RecipeBuilder polishedBuilder(ItemLike,Ingredient)
++ RecipeBuilder polishedBuilder(RecipeCategory,ItemLike,Ingredient)
+- RecipeBuilder pressurePlateBuilder(ItemLike,Ingredient)
++ RecipeBuilder pressurePlateBuilder(RecipeCategory,ItemLike,Ingredient)
+- RecipeBuilder slabBuilder(ItemLike,Ingredient)
++ RecipeBuilder slabBuilder(RecipeCategory,ItemLike,Ingredient)
+- RecipeBuilder wallBuilder(ItemLike,Ingredient)
++ RecipeBuilder wallBuilder(RecipeCategory,ItemLike,Ingredient)
+- ShapedRecipeBuilder chiseledBuilder(ItemLike,Ingredient)
++ ShapedRecipeBuilder chiseledBuilder(RecipeCategory,ItemLike,Ingredient)
+- ShapedRecipeBuilder cutBuilder(ItemLike,Ingredient)
++ ShapedRecipeBuilder cutBuilder(RecipeCategory,ItemLike,Ingredient)
+- String getName()
+- String lambda$generateRecipes$4(ItemLike)
++ String lambda$generateRecipes$5(ItemLike)
+- void <init>(DataGenerator)
 + void <init>(PackOutput)
++ void buildAdvancement(CachedOutput,ResourceLocation,Advancement$Builder)
+- void buildCraftingRecipes(Consumer)
+- void chiseled(Consumer,ItemLike,ItemLike)
++ void chiseled(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void cookRecipes(Consumer,String,RecipeSerializer,int)
+- void cookRecipes(Consumer,String,SimpleCookingSerializer,int)
+- void cut(Consumer,ItemLike,ItemLike)
++ void cut(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void generateForEnabledBlockFamilies(Consumer,FeatureFlagSet)
++ void hangingSign(Consumer,ItemLike,ItemLike,int)
++ void hangingSign(Consumer,ItemLike,ItemLike)
+- void lambda$buildCraftingRecipes$1(Consumer,BlockFamily)
++ void lambda$generateForEnabledBlockFamilies$2(Consumer,BlockFamily)
+- void lambda$generateRecipes$3(RecipeBuilder,BlockFamily$Variant,String)
++ void lambda$generateRecipes$4(RecipeBuilder,BlockFamily$Variant,String)
+- void lambda$generateRecipes$5(BlockFamily,Consumer,BlockFamily$Variant,Block)
++ void lambda$generateRecipes$6(BlockFamily,Consumer,BlockFamily$Variant,Block)
+- void lambda$waxRecipes$2(Consumer,Block,Block)
++ void lambda$waxRecipes$3(Consumer,Block,Block)
++ void mosaicBuilder(Consumer,RecipeCategory,ItemLike,ItemLike)
+- void netheriteSmithing(Consumer,Item,Item)
++ void netheriteSmithing(Consumer,Item,RecipeCategory,Item)
+- void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike,String,String,String,String)
+- void nineBlockStorageRecipes(Consumer,ItemLike,ItemLike)
++ void nineBlockStorageRecipes(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String,String,String)
++ void nineBlockStorageRecipes(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike)
+- void nineBlockStorageRecipesRecipesWithCustomUnpacking(Consumer,ItemLike,ItemLike,String,String)
++ void nineBlockStorageRecipesRecipesWithCustomUnpacking(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
+- void nineBlockStorageRecipesWithCustomPacking(Consumer,ItemLike,ItemLike,String,String)
++ void nineBlockStorageRecipesWithCustomPacking(Consumer,RecipeCategory,ItemLike,RecipeCategory,ItemLike,String,String)
+- void oreBlasting(Consumer,List,ItemLike,float,int,String)
++ void oreBlasting(Consumer,List,RecipeCategory,ItemLike,float,int,String)
++ void oreCooking(Consumer,RecipeSerializer,List,RecipeCategory,ItemLike,float,int,String,String)
+- void oreCooking(Consumer,SimpleCookingSerializer,List,ItemLike,float,int,String,String)
+- void oreSmelting(Consumer,List,ItemLike,float,int,String)
++ void oreSmelting(Consumer,List,RecipeCategory,ItemLike,float,int,String)
+- void polished(Consumer,ItemLike,ItemLike)
++ void polished(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void simpleCookingRecipe(Consumer,String,RecipeSerializer,int,ItemLike,ItemLike,float)
+- void simpleCookingRecipe(Consumer,String,SimpleCookingSerializer,int,ItemLike,ItemLike,float)
+- void slab(Consumer,ItemLike,ItemLike)
++ void slab(Consumer,RecipeCategory,ItemLike,ItemLike)
+- void stonecutterResultFromBase(Consumer,ItemLike,ItemLike,int)
+- void stonecutterResultFromBase(Consumer,ItemLike,ItemLike)
++ void stonecutterResultFromBase(Consumer,RecipeCategory,ItemLike,ItemLike,int)
++ void stonecutterResultFromBase(Consumer,RecipeCategory,ItemLike,ItemLike)
++ void twoByTwoPacker(Consumer,RecipeCategory,ItemLike,ItemLike)
+- void wall(Consumer,ItemLike,ItemLike)
++ void wall(Consumer,RecipeCategory,ItemLike,ItemLike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation)
+- void <init>(ResourceLocation,Item,int,String,List,Map,Advancement$Builder,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Advancement$Builder,ResourceLocation)
+- void <init>(ResourceLocation,Item,int,String,List,Advancement$Builder,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,String,CookingBookCategory,Ingredient,Item,float,int,Advancement$Builder,ResourceLocation,RecipeSerializer)
+- void <init>(ResourceLocation,String,Ingredient,Item,float,int,Advancement$Builder,ResourceLocation,RecipeSerializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SpecialRecipeBuilder$1</summary>
+
+```diff
++ void <init>(SpecialRecipeBuilder,CraftingBookCategory,String)
+- void <init>(SpecialRecipeBuilder,String)
+- void serializeRecipeData(JsonObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
+
+```diff
 - void <init>(DataGenerator)
++ void <init>(PackOutput,Collection)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
+<details><summary>net.minecraft.data.tags.BiomeTagsProvider</summary>
 
 ```diff
-+ String lambda$getBlockTexture$0(String)
-+ String lambda$getItemTexture$1(String)
-+ TextureMapping customParticle(Block)
-+ TextureMapping fence(Block)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
-
-```diff
-+ RecipeCategory category
-+ ShapedRecipeBuilder shaped(ItemLike,int)
-+ ShapedRecipeBuilder shaped(ItemLike)
-+ void <init>(ItemLike,int)
-- ShapedRecipeBuilder shaped(ItemLike,int)
-- ShapedRecipeBuilder shaped(ItemLike)
-- void <init>(ItemLike,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
-
-```diff
-+ RecipeCategory category
-+ ShapelessRecipeBuilder shapeless(ItemLike,int)
-+ ShapelessRecipeBuilder shapeless(ItemLike)
-+ void <init>(ItemLike,int)
-- ShapelessRecipeBuilder shapeless(ItemLike,int)
-- ShapelessRecipeBuilder shapeless(ItemLike)
-- void <init>(ItemLike,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
-
-```diff
-+ CookingBookCategory bookCategory
-+ RecipeCategory category
-+ RecipeSerializer serializer
-- SimpleCookingSerializer serializer
-+ CookingBookCategory determineBlastingRecipeCategory(ItemLike)
-+ CookingBookCategory determineRecipeCategory(ItemLike)
-+ CookingBookCategory determineSmeltingRecipeCategory(ItemLike)
-+ SimpleCookingRecipeBuilder blasting(ItemLike,float,int)
-+ SimpleCookingRecipeBuilder campfireCooking(ItemLike,float,int)
-+ SimpleCookingRecipeBuilder generic(RecipeSerializer)
-+ SimpleCookingRecipeBuilder smelting(ItemLike,float,int)
-+ SimpleCookingRecipeBuilder smoking(ItemLike,float,int)
-+ void <init>(RecipeSerializer)
-- SimpleCookingRecipeBuilder blasting(ItemLike,float,int)
-- SimpleCookingRecipeBuilder campfireCooking(ItemLike,float,int)
-- SimpleCookingRecipeBuilder cooking(SimpleCookingSerializer)
-- SimpleCookingRecipeBuilder smelting(ItemLike,float,int)
-- SimpleCookingRecipeBuilder smoking(ItemLike,float,int)
-- void <init>(SimpleCookingSerializer)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SingleItemRecipeBuilder</summary>
-
-```diff
-+ RecipeCategory category
-+ SingleItemRecipeBuilder stonecutting(ItemLike,int)
-+ SingleItemRecipeBuilder stonecutting(ItemLike)
-+ void <init>(ItemLike,int)
-- SingleItemRecipeBuilder stonecutting(ItemLike,int)
-- SingleItemRecipeBuilder stonecutting(ItemLike)
-- void <init>(ItemLike,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.SpecialRecipeBuilder</summary>
-
-```diff
-+ RecipeSerializer serializer
-- SimpleRecipeSerializer serializer
-+ SpecialRecipeBuilder special(RecipeSerializer)
-+ void <init>(RecipeSerializer)
-- SpecialRecipeBuilder special(SimpleRecipeSerializer)
-- void <init>(SimpleRecipeSerializer)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.recipes.UpgradeRecipeBuilder</summary>
-
-```diff
-+ RecipeCategory category
-+ UpgradeRecipeBuilder smithing(Item)
-+ void <init>(Item)
-- UpgradeRecipeBuilder smithing(Item)
-- void <init>(Item)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
-
-```diff
-+ Iterable inputFolders
-+ PackOutput output
-- DataGenerator generator
-+ void <init>(Iterable)
 - void <init>(DataGenerator)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.tags.BannerPatternTagsProvider</summary>
-
-```diff
 + void <init>(PackOutput)
-- void <init>(DataGenerator)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper$1</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
 
 ```diff
-+ void <init>(GameProfile)
-- void <init>(ProfilePublicKey)
++ boolean lambda$assertBlockProperty$10(Predicate,Property,BlockState)
+- boolean lambda$assertBlockProperty$10(Property,Comparable,BlockState)
+- boolean lambda$assertBlockProperty$12(Predicate,Property,BlockState)
++ boolean lambda$assertEntityInstancePresent$12(Entity,Entity)
+- boolean lambda$assertEntityInstancePresent$14(Entity,Entity)
++ boolean lambda$assertEntityNotTouching$15(Vec3,Entity)
+- boolean lambda$assertEntityNotTouching$17(Vec3,Entity)
++ boolean lambda$assertEntityTouching$14(Vec3,Entity)
+- boolean lambda$assertEntityTouching$16(Vec3,Entity)
++ Exception lambda$failIf$22()
+- Exception lambda$failIf$24()
++ GameTestAssertPosException lambda$assertEntityInstancePresent$13(Entity,BlockPos,BlockPos)
+- GameTestAssertPosException lambda$assertEntityInstancePresent$15(Entity,BlockPos,BlockPos)
++ ItemEntity spawnItem(Item,BlockPos)
++ Player makeMockSurvivalPlayer()
+- String lambda$assertBlockProperty$11(Property,Comparable)
++ String lambda$assertBlockProperty$11(String)
+- String lambda$assertBlockProperty$13(String)
++ Vec3 relativeVec(Vec3)
++ void assertEntityPresent(EntityType,Vec3,Vec3)
++ void assertTrue(boolean,String)
++ void lambda$assertAtTickTimeContainerContains$17(BlockPos,Item)
+- void lambda$assertAtTickTimeContainerContains$19(BlockPos,Item)
++ void lambda$assertAtTickTimeContainerEmpty$18(BlockPos)
+- void lambda$assertAtTickTimeContainerEmpty$20(BlockPos)
++ void lambda$assertSameBlockStates$16(BlockPos,BoundingBox,BlockPos)
+- void lambda$assertSameBlockStates$18(BlockPos,BoundingBox,BlockPos)
++ void lambda$failIfEver$23(Runnable,long)
+- void lambda$failIfEver$25(Runnable,long)
++ void lambda$onEachTick$24(Runnable,long)
+- void lambda$onEachTick$26(Runnable,long)
++ void lambda$succeedWhenEntityData$19(BlockPos,EntityType,Function,Object)
+- void lambda$succeedWhenEntityData$21(BlockPos,EntityType,Function,Object)
++ void lambda$succeedWhenEntityNotPresent$21(EntityType,BlockPos)
+- void lambda$succeedWhenEntityNotPresent$23(EntityType,BlockPos)
++ void lambda$succeedWhenEntityPresent$20(EntityType,BlockPos)
+- void lambda$succeedWhenEntityPresent$22(EntityType,BlockPos)
++ void useBlock(BlockPos,Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+<details><summary>net.minecraft.nbt.NbtUtils</summary>
 
 ```diff
-+ BitSet readFixedBitSet(int)
-+ EnumSet readEnumSet(Class)
-+ PropertyMap readGameProfileProperties()
-+ void lambda$readGameProfileProperties$6(FriendlyByteBuf)
-+ void writeEnumSet(Class)
-+ void writeFixedBitSet(BitSet,int)
-+ void writeGameProfileProperties(PropertyMap)
-- void lambda$readGameProfile$6(FriendlyByteBuf)
+- BlockState readBlockState(CompoundTag)
++ BlockState readBlockState(HolderLookup,CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
+<details><summary>net.minecraft.network.chat.FilterMask</summary>
 
 ```diff
-- CompletableFuture decorate(PlayerChatMessage)
-- PlayerChatMessage attachIfNotDecorated(Component)
+- Component apply(ChatMessageContent)
++ Component applyWithFormatting(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.LastSeenMessagesTracker</summary>
+<details><summary>net.minecraft.network.chat.LastSeenMessages</summary>
 
 ```diff
-+ int offset
-+ int tail
-+ LastSeenTrackedEntry[] trackedMessages
-+ MessageSignature lastTrackedMessage
-- int size
-- LastSeenMessages result
-- LastSeenMessages$Entry[] status
-+ boolean addPending(MessageSignature,boolean)
-+ int getAndClearOffset()
++ LastSeenMessages$Packed pack(MessageSignature$Packer)
++ MessageSignature$Packed lambda$pack$0(MessageSignature$Packer,MessageSignature)
+- void <init>(FriendlyByteBuf)
+- void lambda$write$0(FriendlyByteBuf,LastSeenMessages$Entry)
+- void updateHash(DataOutput)
++ void updateSignature(SignatureUpdater$Output)
+- void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.LastSeenMessages$Update</summary>
+
+```diff
++ BitSet acknowledged()
 + int offset()
-+ LastSeenMessagesTracker$Update generateAndApplyUpdate()
-+ void addEntry(LastSeenTrackedEntry)
-+ void ignorePending(MessageSignature)
-- LastSeenMessages get()
-- void push(LastSeenMessages$Entry)
+- LastSeenMessages lastSeen()
+- Optional lastReceived()
++ void <init>(int,BitSet)
+- void <init>(LastSeenMessages,Optional)
+- void lambda$write$0(FriendlyByteBuf,LastSeenMessages$Entry)
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.chat.SignedMessageValidator</summary>
+
+<details><summary>net.minecraft.network.chat.MessageSignature</summary>
 
 ```diff
-+ boolean updateAndValidate(net.minecraft.network.chat.PlayerChatMessage)
-+ SignedMessageValidator ACCEPT_UNSIGNED
-+ SignedMessageValidator REJECT_ALL
-- SignedMessageValidator$State validateHeader(net.minecraft.network.chat.SignedMessageHeader,net.minecraft.network.chat.MessageSignature,byte[])
-- SignedMessageValidator$State validateMessage(net.minecraft.network.chat.PlayerChatMessage)
-+ boolean lambda$static$0(PlayerChatMessage)
-+ boolean lambda$static$1(PlayerChatMessage)
+- boolean isEmpty()
++ boolean verify(SignatureValidator,SignatureUpdater)
+- boolean verify(SignatureValidator,SignedMessageHeader,byte[])
+- boolean verify(SignatureValidator,SignedMessageHeader,SignedMessageBody)
++ MessageSignature read(FriendlyByteBuf)
++ MessageSignature$Packed pack(MessageSignature$Packer)
+- void <clinit>()
+- void <init>(FriendlyByteBuf)
+- void lambda$verify$0(SignedMessageHeader,byte[],SignatureUpdater$Output)
+- void lambda$verify$1(SignedMessageHeader,byte[],SignatureUpdater$Output)
++ void write(FriendlyByteBuf,MessageSignature)
+- void write(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageChain</summary>
+
+```diff
++ MessageSignature lambda$encoder$1(Signer,SignedMessageBody)
+- MessageSignature pack(Signer,MessageSigner,MessageSignature,ChatMessageContent,LastSeenMessages)
++ PlayerChatMessage lambda$decoder$2(ProfilePublicKey,SignatureValidator,MessageSignature,SignedMessageBody)
+- PlayerChatMessage unpack(SignedMessageChain$Link,MessageSignature,MessageSigner,ChatMessageContent,LastSeenMessages)
+- PlayerChatMessage unpack(SignedMessageChain$Link,MessageSigner,ChatMessageContent,LastSeenMessages)
+- SignedMessageChain$Decoder decoder()
++ SignedMessageChain$Decoder decoder(ProfilePublicKey)
+- SignedMessageChain$Encoder encoder()
++ SignedMessageChain$Encoder encoder(Signer)
+- SignedMessageChain$Link pack(Signer,MessageSigner,ChatMessageContent,LastSeenMessages)
++ SignedMessageLink advanceLink()
 + void <clinit>()
-- SignedMessageValidator create(ProfilePublicKey,boolean)
+- void <init>()
++ void <init>(UUID,UUID)
++ void lambda$encoder$0(SignedMessageLink,SignedMessageBody,SignatureUpdater$Output)
+- void lambda$pack$0(SignedMessageHeader,byte[],SignatureUpdater$Output)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket$RelativeArgument</summary>
+<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
 
 ```diff
-+ Set ALL
-+ Set ROTATION
++ boolean updateAndValidate(PlayerChatMessage)
++ boolean validateChain(PlayerChatMessage)
+- boolean validateChain(SignedMessageHeader,MessageSignature,boolean)
+- boolean validateContents(SignedMessageHeader,MessageSignature,byte[],boolean)
+- SignedMessageValidator$State updateAndValidate(SignedMessageHeader,MessageSignature,byte[],boolean)
+- SignedMessageValidator$State validateHeader(SignedMessageHeader,MessageSignature,byte[])
+- SignedMessageValidator$State validateMessage(PlayerChatMessage)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundServerDataPacket</summary>
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatCommandPacket</summary>
 
 ```diff
-- boolean previewsChat
-+ void <init>(String,boolean)
-- boolean previewsChat()
-- void <init>(String,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatAckPacket</summary>
-
-```diff
-+ int offset
-- LastSeenMessages$Update lastSeenMessages
-+ int offset()
-+ void <init>(int)
-- LastSeenMessages$Update lastSeenMessages()
-- void <init>(LastSeenMessages$Update)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
-
-```diff
-- boolean signedPreview
-+ void <init>(LastSeenMessages$Update)
 - boolean signedPreview()
-- MessageSigner getSigner(ServerPlayer)
-- void <init>(LastSeenMessages$Update)
+- void <init>(String,Instant,long,ArgumentSignatures,boolean,LastSeenMessages$Update)
++ void <init>(String,Instant,long,ArgumentSignatures,LastSeenMessages$Update)
 ```
 
 </details>
@@ -10436,17 +4155,16 @@
 <details><summary>net.minecraft.resources.RegistryOps</summary>
 
 ```diff
-- DynamicOps asJson
-- Optional loader
-+ void <init>(RegistryAccess)
 - DynamicOps getAsJson()
 - Optional registryLoader()
-- RegistryOps createAndLoad(RegistryResourceAccess)
-- RegistryOps createAndLoad(ResourceManager)
-- void <init>(Optional)
+- RegistryOps createAndLoad(DynamicOps,RegistryAccess$Writable,RegistryResourceAccess)
+- RegistryOps createAndLoad(DynamicOps,RegistryAccess$Writable,ResourceManager)
+- void <init>(DynamicOps,RegistryAccess,Optional)
++ void <init>(DynamicOps,RegistryAccess)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.resources.ResourceLocation</summary>
 
@@ -10454,9 +4172,9 @@
 + ResourceLocation withPath(String)
 + ResourceLocation withPath(UnaryOperator)
 + ResourceLocation withPrefix(String)
-+ String assertValidNamespace(String)
-+ String assertValidPath(String)
-+ void <init>(ResourceLocation$Dummy)
++ String assertValidNamespace(String,String)
++ String assertValidPath(String,String)
++ void <init>(String,String,ResourceLocation$Dummy)
 ```
 
 </details>
@@ -10465,207 +4183,138 @@
 <details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
 
 ```diff
-+ FileToIdConverter LISTER
-- int PATH_PREFIX_LENGTH
-- int PATH_SUFFIX_LENGTH
-- String FILE_EXTENSION
-+ CommandFunction lambda$reload$2(CommandSourceStack)
-+ CompletionStage lambda$reload$4(Map)
-+ Map lambda$reload$1(ResourceManager)
-+ Map lambda$reload$3(Throwable)
-+ Object lambda$reload$5(Throwable)
-+ void lambda$reload$6(CompletableFuture)
-+ void lambda$reload$7(Pair)
 - boolean lambda$reload$1(ResourceLocation)
-- CommandFunction lambda$reload$3(CommandSourceStack)
-- CompletionStage lambda$reload$5(Map)
++ CommandFunction lambda$reload$2(Map$Entry,ResourceLocation,CommandSourceStack)
+- CommandFunction lambda$reload$3(Map$Entry,ResourceLocation,CommandSourceStack)
++ CompletionStage lambda$reload$4(Executor,Map)
+- CompletionStage lambda$reload$5(Executor,Map)
++ Map lambda$reload$1(ResourceManager)
 - Map lambda$reload$2(ResourceManager)
-- Map lambda$reload$4(Throwable)
-- Object lambda$reload$6(Throwable)
-- void lambda$reload$7(CompletableFuture)
++ Map lambda$reload$3(Map,Void,Throwable)
+- Map lambda$reload$4(Map,Void,Throwable)
++ Object lambda$reload$5(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
+- Object lambda$reload$6(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
++ void lambda$reload$6(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
+- void lambda$reload$7(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
++ void lambda$reload$7(Pair)
 - void lambda$reload$8(Pair)
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.server.WorldLoader</summary>
 
 ```diff
-+ Logger LOGGER
-+ LayeredRegistryAccess loadAndReplaceLayer(List)
-+ Object lambda$load$1(ReloadableServerResources)
-+ RegistryAccess$Frozen loadLayer(List)
++ LayeredRegistryAccess loadAndReplaceLayer(ResourceManager,LayeredRegistryAccess,RegistryLayer,List)
++ Object lambda$load$1(RegistryAccess$Frozen,WorldLoader$ResultFactory,CloseableResourceManager,LayeredRegistryAccess,WorldLoader$DataLoadOutput,ReloadableServerResources)
+- Object lambda$load$1(RegistryAccess$Frozen,WorldLoader$ResultFactory,CloseableResourceManager,Object,ReloadableServerResources)
++ RegistryAccess$Frozen loadLayer(ResourceManager,LayeredRegistryAccess,RegistryLayer,List)
 + void <clinit>()
-- Object lambda$load$1(ReloadableServerResources)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.server.WorldLoader$PackConfig</summary>
 
 ```diff
-+ boolean initMode
-+ WorldDataConfiguration initialDataConfig
-- DataPackConfig initialDataPacks
 + boolean initMode()
-+ void <init>(WorldDataConfiguration,boolean,boolean)
-+ WorldDataConfiguration initialDataConfig()
 - DataPackConfig initialDataPacks()
-- void <init>(DataPackConfig,boolean)
+- void <init>(PackRepository,DataPackConfig,boolean)
++ void <init>(PackRepository,WorldDataConfiguration,boolean,boolean)
++ WorldDataConfiguration initialDataConfig()
 ```
 
 </details>
-
-<details><summary>net.minecraft.server.WorldLoader$WorldDataSupplier</summary>
-
-```diff
-+ WorldLoader$DataLoadOutput get(net.minecraft.server.WorldLoader$DataLoadContext)
-- Pair get(net.minecraft.server.packs.resources.ResourceManager,net.minecraft.world.level.DataPackConfig)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.EffectCommands</summary>
 
 ```diff
-+ int clearEffect(Holder)
-+ int giveEffect(Integer,int,boolean)
-+ void register(CommandBuildContext)
-- int clearEffect(MobEffect)
-- int giveEffect(Integer,int,boolean)
++ int clearEffect(CommandSourceStack,Collection,Holder)
+- int clearEffect(CommandSourceStack,Collection,MobEffect)
++ int giveEffect(CommandSourceStack,Collection,Holder,Integer,int,boolean)
+- int giveEffect(CommandSourceStack,Collection,MobEffect,Integer,int,boolean)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.server.commands.EnchantCommand</summary>
 
 ```diff
-+ int enchant(Holder,int)
-+ void register(CommandBuildContext)
-- int enchant(Enchantment,int)
+- int enchant(CommandSourceStack,Collection,Enchantment,int)
++ int enchant(CommandSourceStack,Collection,Holder,int)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.LocateCommand</summary>
 
 ```diff
-- DynamicCommandExceptionType ERROR_BIOME_INVALID
-- DynamicCommandExceptionType ERROR_POI_INVALID
 + boolean lambda$register$4(CommandSourceStack)
+- boolean lambda$register$6(CommandSourceStack)
 + CommandSyntaxException lambda$locateStructure$10(ResourceOrTagKeyArgument$Result)
+- CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
+- HolderSet$Direct lambda$getHolders$10(Holder)
 + HolderSet$Direct lambda$getHolders$8(Holder)
 + int lambda$register$5(CommandContext)
 + int lambda$register$6(CommandContext)
-+ int locateBiome(ResourceOrTagArgument$Result)
-+ int locatePoi(ResourceOrTagArgument$Result)
-+ int locateStructure(ResourceOrTagKeyArgument$Result)
-+ int showLocateResult(String,boolean)
-+ int showLocateResult(String,boolean)
-+ int showLocateResult(String)
-+ Optional getHolders(Registry)
-+ Optional lambda$getHolders$9(ResourceKey)
-+ String getElementName(Pair)
-+ String lambda$getElementName$11(ResourceKey)
-+ String lambda$showLocateResult$12(Holder$Reference)
-+ String lambda$showLocateResult$13(HolderSet$Named)
-+ void register(CommandBuildContext)
-- boolean lambda$register$6(CommandSourceStack)
-- CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
-- HolderSet$Direct lambda$getHolders$10(Holder)
 - int lambda$register$8(CommandContext)
 - int lambda$register$9(CommandContext)
-- int locateBiome(ResourceOrTagLocationArgument$Result)
-- int locatePoi(ResourceOrTagLocationArgument$Result)
-- int locateStructure(ResourceOrTagLocationArgument$Result)
-- int showLocateResult(String,boolean)
++ int locateBiome(CommandSourceStack,ResourceOrTagArgument$Result)
+- int locateBiome(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locatePoi(CommandSourceStack,ResourceOrTagArgument$Result)
+- int locatePoi(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locateStructure(CommandSourceStack,ResourceOrTagKeyArgument$Result)
+- int locateStructure(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int showLocateResult(CommandSourceStack,BlockPos,Pair,String,boolean,String)
++ int showLocateResult(CommandSourceStack,ResourceOrTagArgument$Result,BlockPos,Pair,String,boolean)
++ int showLocateResult(CommandSourceStack,ResourceOrTagKeyArgument$Result,BlockPos,Pair,String,boolean)
+- int showLocateResult(CommandSourceStack,ResourceOrTagLocationArgument$Result,BlockPos,Pair,String,boolean)
 - Message lambda$static$4(Object)
 - Message lambda$static$5(Object)
-- Optional getHolders(Registry)
-- Optional lambda$getHolders$11(ResourceKey)
++ Optional getHolders(ResourceOrTagKeyArgument$Result,Registry)
+- Optional getHolders(ResourceOrTagLocationArgument$Result,Registry)
+- Optional lambda$getHolders$11(Registry,ResourceKey)
++ Optional lambda$getHolders$9(Registry,ResourceKey)
++ String getElementName(Pair)
++ String lambda$getElementName$11(ResourceKey)
++ String lambda$showLocateResult$12(ResourceOrTagArgument$Result,Holder$Reference)
 - String lambda$showLocateResult$13(ResourceKey)
++ String lambda$showLocateResult$13(ResourceOrTagArgument$Result,Pair,HolderSet$Named)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.commands.SummonCommand</summary>
 
 ```diff
-+ int spawnEntity(CompoundTag,boolean)
-+ void register(CommandBuildContext)
-- int spawnEntity(CompoundTag,boolean)
++ int spawnEntity(CommandSourceStack,Holder$Reference,Vec3,CompoundTag,boolean)
+- int spawnEntity(CommandSourceStack,ResourceLocation,Vec3,CompoundTag,boolean)
++ void register(CommandDispatcher,CommandBuildContext)
 - void register(CommandDispatcher)
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.server.commands.WardenSpawnTrackerCommand</summary>
 
 ```diff
-+ void lambda$setWarningLevel$3(WardenSpawnTracker)
++ void lambda$setWarningLevel$3(int,WardenSpawnTracker)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
@@ -10676,51 +4325,18 @@
 
 </details>
 
+
 <details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
 
 ```diff
-+ DataPackConfig initialDataPackConfiguration
-+ DedicatedServerProperties$WorldDimensionData worldDimensionData
-+ Splitter COMMA_SPLITTER
-+ WorldOptions worldOptions
-- boolean previewsChat
-- DedicatedServerProperties$WorldGenProperties worldGenProperties
-- WorldGenSettings worldGenSettings
-+ DataPackConfig getDatapackConfig(String)
++ DataPackConfig getDatapackConfig(String,String)
 + FeatureFlagSet getFeatures(String)
-+ void lambda$getFeatures$4(Consumer)
++ void lambda$getFeatures$4(String,Consumer)
 + WorldDimensions createDimensions(RegistryAccess)
 - WorldGenSettings getWorldGenSettings(RegistryAccess)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.level.WorldGenRegion</summary>
@@ -10732,154 +4348,117 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-+ Component CHAT_VALIDATION_FAILED
-+ int TRACKED_MESSAGE_DISCONNECT_THRESHOLD
-+ LastSeenMessagesValidator lastSeenMessages
-+ MessageSignature$Packer messageSignaturePacker
-+ MessageSignatureCache messageSignatureCache
-- ChatPreviewCache chatPreviewCache
-- ChatPreviewThrottler chatPreviewThrottler
-- int PENDING_MESSAGE_DISCONNECT_THRESHOLD
-- LastSeenMessagesValidator lastSeenMessagesValidator
-+ CompletableFuture lambda$handleChat$9(Executor)
-+ Map collectSignedArguments(LastSeenMessages)
-+ Optional tryHandleChat(LastSeenMessages$Update)
-+ Optional unpackAndApplyLastSeen(LastSeenMessages$Update)
-+ PlayerChatMessage getSignedMessage(LastSeenMessages)
-+ void handleMessageDecodeFailure(SignedMessageChain$DecodeException)
-+ void lambda$handleChat$10(Optional)
-+ void lambda$handleChat$8(Void)
-+ void lambda$handleChatCommand$11(Optional)
-+ void lambda$handlePlaceRecipe$13(Recipe)
-+ void lambda$handleSignUpdate$14(List)
-+ void performChatCommand(LastSeenMessages)
-+ void sendDisguisedChatMessage(ChatType$Bound)
-+ void sendPlayerChatMessage(ChatType$Bound)
 - boolean handlesPreviewRequests()
-- boolean tryHandleChat(LastSeenMessages$Update)
+- boolean tryHandleChat(String,Instant,LastSeenMessages$Update)
 - boolean verifyChatMessage(PlayerChatMessage)
 - ChatMessageContent getSignedContent(ServerboundChatPacket)
-- CompletableFuture getPreviewedArgument(PreviewableCommand)
+- CompletableFuture getPreviewedArgument(CommandSourceStack,PreviewableCommand)
++ CompletableFuture lambda$handleChat$9(CompletableFuture,CompletableFuture,PlayerChatMessage,Executor)
 - CompletableFuture lambda$handleChat$9(PlayerChatMessage)
 - CompletableFuture lambda$handleChatPreview$14(ServerboundChatPreviewPacket)
 - CompletableFuture queryChatPreview(String)
 - CompletableFuture queryCommandPreview(String)
 - CompletableFuture queryPreview(String)
-- Component lambda$queryChatPreview$16(Component)
-- Map collectSignedArguments(PreviewableCommand)
+- Component lambda$queryChatPreview$16(Component,Component)
+- Map collectSignedArguments(ServerboundChatCommandPacket,PreviewableCommand)
++ Map collectSignedArguments(ServerboundChatCommandPacket,SignableCommand,LastSeenMessages)
++ Optional tryHandleChat(String,Instant,LastSeenMessages$Update)
++ Optional unpackAndApplyLastSeen(LastSeenMessages$Update)
 - Packet lambda$sendPreviewResponse$15(int)
++ PlayerChatMessage getSignedMessage(ServerboundChatPacket,LastSeenMessages)
 - PlayerChatMessage getSignedMessage(ServerboundChatPacket)
 - SignedMessageChain$Decoder signedMessageDecoder()
 - void handleChatPreview(ServerboundChatPreviewPacket)
++ void handleMessageDecodeFailure(SignedMessageChain$DecodeException)
 - void handleValidationFailure(Set)
++ void lambda$handleChat$10(ServerboundChatPacket,Optional)
 - void lambda$handleChat$10(ServerboundChatPacket)
-- void lambda$handleChat$8(Void)
+- void lambda$handleChat$8(CompletableFuture,CompletableFuture,Void)
++ void lambda$handleChat$8(PlayerChatMessage,CompletableFuture,CompletableFuture,Void)
++ void lambda$handleChatCommand$11(ServerboundChatCommandPacket,Optional)
 - void lambda$handleChatCommand$11(ServerboundChatCommandPacket)
-- void lambda$handleChatPreview$13(Component)
-- void lambda$handlePlaceRecipe$19(Recipe)
-- void lambda$handleSignUpdate$20(List)
-- void lambda$queryChatPreview$17(Component)
-- void lambda$queryCommandPreview$18(Component)
+- void lambda$handleChatPreview$13(int,Component)
++ void lambda$handlePlaceRecipe$13(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handlePlaceRecipe$19(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handleSignUpdate$14(ServerboundSignUpdatePacket,List)
+- void lambda$handleSignUpdate$20(ServerboundSignUpdatePacket,List)
+- void lambda$queryChatPreview$17(String,Component)
+- void lambda$queryCommandPreview$18(String,Component)
++ void performChatCommand(ServerboundChatCommandPacket,LastSeenMessages)
 - void performChatCommand(ServerboundChatCommandPacket)
-- void sendPreviewResponse(Component)
++ void sendDisguisedChatMessage(Component,ChatType$Bound)
++ void sendPlayerChatMessage(PlayerChatMessage,ChatType$Bound)
+- void sendPreviewResponse(int,Component)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
 
 ```diff
-+ RemoteChatSession$Data chatSessionData
-- ProfilePublicKey$Data profilePublicKeyData
-+ RemoteChatSession validateChatSession(SignatureValidator,boolean)
-- ProfilePublicKey validatePublicKey(SignatureValidator,boolean)
+- ProfilePublicKey validatePublicKey(ProfilePublicKey$Data,UUID,SignatureValidator,boolean)
++ RemoteChatSession validateChatSession(RemoteChatSession$Data,GameProfile,SignatureValidator,boolean)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.packs.FilePackResources</summary>
 
 ```diff
-+ boolean failedToLoad
-+ File file
-+ IoSupplier getResource(ResourceLocation)
+- boolean hasResource(String)
+- Collection getResources(PackType,String,String,Predicate)
+- InputStream getResource(String)
++ IoSupplier getResource(PackType,ResourceLocation)
 + IoSupplier getResource(String)
 + IoSupplier getRootResource(String[])
-+ String getPathFromLocation(ResourceLocation)
-+ void <init>(File)
-+ void listResources(PackResources$ResourceOutput)
-- boolean hasResource(String)
-- Collection getResources(Predicate)
-- InputStream getResource(String)
++ String getPathFromLocation(PackType,ResourceLocation)
 - void <init>(File)
++ void <init>(String,File)
++ void listResources(PackType,String,String,PackResources$ResourceOutput)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
 
 ```diff
-+ Logger LOGGER
-+ PackType packType
-+ Path folder
-- File folder
-- FileFilter RESOURCEPACK_FILTER
-+ Pack$ResourcesSupplier detectPackResources(Path)
-+ PackResources lambda$detectPackResources$1(String)
-+ PackResources lambda$detectPackResources$2(String)
-+ String nameFromPath(Path)
-+ void <init>(PackSource)
-+ void discoverPacks(BiConsumer)
-+ void lambda$loadPacks$0(Pack$ResourcesSupplier)
-+ void loadPacks(Consumer)
 - boolean lambda$static$0(File)
++ Pack$ResourcesSupplier detectPackResources(Path)
 - PackResources lambda$createSupplier$1(File)
 - PackResources lambda$createSupplier$2(File)
++ PackResources lambda$detectPackResources$1(Path,String)
++ PackResources lambda$detectPackResources$2(File,String)
++ String nameFromPath(Path)
 - Supplier createSupplier(File)
-- void <init>(PackSource)
-- void loadPacks(Pack$PackConstructor)
+- void <init>(File,PackSource)
++ void <init>(Path,PackType,PackSource)
++ void discoverPacks(Path,BiConsumer)
++ void lambda$loadPacks$0(Consumer,Path,Pack$ResourcesSupplier)
+- void loadPacks(Consumer,Pack$PackConstructor)
++ void loadPacks(Consumer)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
 
 ```diff
-+ BuiltInMetadata BUILT_IN_METADATA
-+ Component VANILLA_NAME
-+ FeatureFlagsMetadataSection FEATURE_FLAGS_METADATA_SECTION
-+ PackMetadataSection VERSION_METADATA_SECTION
-+ ResourceLocation PACKS_DIR
-- PackMetadataSection BUILT_IN_METADATA
-- String VANILLA_ID
-- VanillaPackResources vanillaPack
 + Component getPackTitle(String)
-+ Pack createBuiltinPack(Component)
++ Pack createBuiltinPack(String,Pack$ResourcesSupplier,Component)
 + Pack createVanillaPack(PackResources)
 + PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
 + PackRepository createPackRepository(Path)
-+ PackResources lambda$createVanillaPack$0(String)
-+ VanillaPackResources createVanillaPackSource()
++ PackResources lambda$createVanillaPack$0(PackResources,String)
 - PackResources lambda$loadPacks$0()
-- void loadPacks(Pack$PackConstructor)
++ VanillaPackResources createVanillaPackSource()
+- void loadPacks(Consumer,Pack$PackConstructor)
 ```
 
 </details>
@@ -10894,84 +4473,31 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.server.packs.resources.ResourceProvider</summary>
 
 ```diff
-+ Optional lambda$fromMap$1(ResourceLocation)
++ Optional lambda$fromMap$1(Map,ResourceLocation)
 + ResourceProvider fromMap(Map)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.players.PlayerList</summary>
 
 ```diff
-+ LayeredRegistryAccess registries
-- RegistryAccess$Frozen registryHolder
+- boolean verifyChatTrusted(PlayerChatMessage,ChatSender)
 + boolean verifyChatTrusted(PlayerChatMessage)
-+ ServerPlayer getPlayerForLogin(RemoteChatSession)
-+ void <init>(PlayerDataStorage,int)
-+ void broadcastChatMessage(ChatType$Bound)
-- boolean verifyChatTrusted(ChatSender)
-- ServerPlayer getPlayerForLogin(ProfilePublicKey)
-- void <init>(PlayerDataStorage,int)
-- void broadcastChatMessage(ChatType$Bound)
-- void broadcastMessageHeader(Set)
+- ServerPlayer getPlayerForLogin(GameProfile,ProfilePublicKey)
++ ServerPlayer getPlayerForLogin(GameProfile,RemoteChatSession)
++ void <init>(MinecraftServer,LayeredRegistryAccess,PlayerDataStorage,int)
+- void <init>(MinecraftServer,RegistryAccess$Frozen,PlayerDataStorage,int)
+- void broadcastChatMessage(PlayerChatMessage,Predicate,ServerPlayer,ChatSender,ChatType$Bound)
++ void broadcastChatMessage(PlayerChatMessage,Predicate,ServerPlayer,ChatType$Bound)
+- void broadcastMessageHeader(PlayerChatMessage,Set)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey BOOKSHELF_BOOKS
-+ TagKey HANGING_SIGNS
-+ TagKey STRIPPED_LOGS
-```
-
-</details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.tags.TagNetworkSerialization</summary>
@@ -10984,244 +4510,18 @@
 </details>
 
 
-
-
-<details><summary>net.minecraft.util.Crypt</summary>
-
-```diff
-+ int SIGNATURE_BYTES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.util.FutureChain</summary>
 
 ```diff
-+ boolean closed
-+ Executor checkedExecutor
-- Executor executor
-+ CompletionStage lambda$append$1(Object)
+- CompletionStage lambda$append$0(TaskChainer$DelayedTask,Object)
++ CompletionStage lambda$append$1(TaskChainer$DelayedTask,Object)
+- Object lambda$append$1(Throwable)
 + Object lambda$append$2(Throwable)
 + void close()
-+ void lambda$new$0(Runnable)
-- CompletionStage lambda$append$0(Object)
-- Object lambda$append$1(Throwable)
++ void lambda$new$0(Executor,Runnable)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.TaskChainer$DelayedTask</summary>
-
-```diff
-+ CompletableFuture submit(java.util.concurrent.Executor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.AnimationState</summary>
@@ -11232,47 +4532,32 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-- Packet getAddEntityPacket()
 + boolean allowsDismounting(Entity)
+- ChatSender asChatSender()
 + Packet getAddEntityPacket()
 + Vec3 getLeashOffset(float)
 + void addDeltaMovement(Vec3)
 + void checkSlowFallDistance()
 + void teleportRelative(double,double,double)
-- ChatSender asChatSender()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ boolean equipmentHasChanged(ItemStack)
++ boolean equipmentHasChanged(ItemStack,ItemStack)
 + double getAttributeBaseValue(Holder)
 + double getAttributeValue(Holder)
 - Packet getAddEntityPacket()
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
@@ -11293,31 +4578,16 @@
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.attributes.AttributeMap</summary>
 
 ```diff
 + AttributeInstance getInstance(Holder)
 + boolean hasAttribute(Holder)
-+ boolean hasModifier(UUID)
-+ double getModifierValue(UUID)
++ boolean hasModifier(Holder,UUID)
++ double getModifierValue(Holder,UUID)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.BlockPosTracker</summary>
@@ -11329,215 +4599,48 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos</summary>
 
 ```diff
-+ BiPredicate acceptableLandingSpot
-- Predicate acceptableLandingSpot
-+ boolean defaultAcceptableLandingSpot(BlockPos)
-+ boolean isClearTransition(Vec3)
-+ boolean lambda$start$0(BlockPos)
-+ LongJumpToRandomPos$PossibleJump lambda$start$1(BlockPos)
-+ void <init>(BiPredicate)
-- boolean isClearTransition(Vec3)
++ boolean defaultAcceptableLandingSpot(Mob,BlockPos)
++ boolean isClearTransition(Mob,EntityDimensions,Vec3,Vec3)
+- boolean isClearTransition(Mob,Vec3,Vec3)
 - boolean lambda$new$0(BlockState)
-- boolean lambda$start$1(BlockPos)
-- LongJumpToRandomPos$PossibleJump lambda$start$2(BlockPos)
-- void <init>(Predicate)
++ boolean lambda$start$0(BlockPos,BlockPos)
+- boolean lambda$start$1(BlockPos,BlockPos)
++ LongJumpToRandomPos$PossibleJump lambda$start$1(BlockPos,BlockPos)
+- LongJumpToRandomPos$PossibleJump lambda$start$2(BlockPos,BlockPos)
++ void <init>(UniformInt,int,int,float,Function,BiPredicate)
+- void <init>(UniformInt,int,int,float,Function,Predicate)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType GAZE_COOLDOWN_TICKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.sensing.TemptingSensor</summary>
 
 ```diff
-+ boolean lambda$doTick$2(ServerPlayer)
++ boolean lambda$doTick$2(PathfinderMob,ServerPlayer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.village.poi.PoiTypes</summary>
 
 ```diff
-+ void registerBlockStates(Set)
++ void registerBlockStates(Holder,Set)
 - void registerBlockStates(Holder)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
-
-```diff
-+ int GIVE_ITEM_TIMEOUT_DURATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.crafting.SmeltingRecipe</summary>
 
 ```diff
-+ void <init>(ItemStack,float,int)
-- void <init>(ItemStack,float,int)
++ void <init>(ResourceLocation,String,CookingBookCategory,Ingredient,ItemStack,float,int)
+- void <init>(ResourceLocation,String,Ingredient,ItemStack,float,int)
 ```
 
 </details>
@@ -11546,431 +4649,167 @@
 <details><summary>net.minecraft.world.item.crafting.TippedArrowRecipe</summary>
 
 ```diff
-+ void <init>(CraftingBookCategory)
++ void <init>(ResourceLocation,CraftingBookCategory)
 - void <init>(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
-
-```diff
-- RegistryAccess registryAccess()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.LevelReader</summary>
 
 ```diff
-+ FeatureFlagSet enabledFeatures()
-+ RegistryAccess registryAccess()
 + HolderLookup holderLookup(ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.StructureManager</summary>
 
 ```diff
-+ WorldOptions worldOptions
-- WorldGenSettings worldGenSettings
-+ Boolean lambda$getStructureWithPieceAt$0(Holder$Reference)
-+ void <init>(StructureCheck)
-- Boolean lambda$getStructureWithPieceAt$0(Holder)
-- void <init>(StructureCheck)
+- Boolean lambda$getStructureWithPieceAt$0(TagKey,Holder)
++ Boolean lambda$getStructureWithPieceAt$0(TagKey,Holder$Reference)
+- void <init>(LevelAccessor,WorldGenSettings,StructureCheck)
++ void <init>(LevelAccessor,WorldOptions,StructureCheck)
 ```
 
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.SupportType$2</summary>
 
 ```diff
-+ List OVERRIDE_TO_SUPPORT
 + void <clinit>()
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
 
 ```diff
-+ SoundEvent closeSound
-+ SoundEvent openSound
-+ void <init>(SoundEvent)
++ void <init>(BlockBehaviour$Properties,SoundEvent,SoundEvent)
 - void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
 
 ```diff
-+ GameEventListenerRegistry getListenerRegistry(int)
 - GameEventDispatcher getEventDispatcher(int)
++ GameEventListenerRegistry getListenerRegistry(int)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
 
 ```diff
-+ Supplier possibleStructureSets
 + boolean hasBiomesForStructureSet(StructureSet)
-+ boolean lambda$getMobsAt$20(StructureStart)
-+ boolean lambda$getMobsAt$21(StructureStart)
+- boolean lambda$getMobsAt$15(StructureManager,BlockPos,StructureStart)
+- boolean lambda$getMobsAt$16(BlockPos,StructureStart)
++ boolean lambda$getMobsAt$20(StructureManager,BlockPos,StructureStart)
++ boolean lambda$getMobsAt$21(BlockPos,StructureStart)
 + boolean lambda$new$3(Holder)
-+ ChunkAccess lambda$createBiomes$12(RandomState)
-+ ChunkPos lambda$generateRingPositions$10(RandomState)
++ ChunkAccess lambda$createBiomes$12(ChunkAccess,RandomState)
+- ChunkAccess lambda$createBiomes$7(ChunkAccess,RandomState)
++ ChunkPos lambda$generateRingPositions$10(int,int,HolderSet,RandomSource,RandomState)
 + Integer lambda$applyBiomeDecoration$14(Structure)
-+ List lambda$generatePositions$8(Structure)
-+ List lambda$generateRingPositions$11(List)
-+ List lambda$new$4(Registry)
-+ List lambda$new$5(Holder)
-+ List lambda$new$6(Function)
-+ List possibleStructureSets()
-+ Set lambda$findNearestMapStructure$13(StructurePlacement)
-+ Stream lambda$hasBiomesForStructureSet$7(StructureSet$StructureSelectionEntry)
-+ Stream lambda$new$2(Registry)
-+ String lambda$applyBiomeDecoration$16(Structure)
-+ String lambda$applyBiomeDecoration$19(PlacedFeature)
-+ String lambda$createReferences$24(Registry)
-+ String lambda$createReferences$25(StructureStart)
-+ String lambda$createReferences$26(StructureStart)
-+ String lambda$createReferences$27(StructureStart)
-+ void lambda$applyBiomeDecoration$15(ChunkPos)
-+ void lambda$applyBiomeDecoration$17(StructureStart)
-+ void lambda$applyBiomeDecoration$18(PlacedFeature)
-+ void lambda$createStructures$23(Holder)
-+ void lambda$generatePositions$9(Holder)
-+ void lambda$getMobsAt$22(StructureStart)
-- boolean lambda$getMobsAt$15(StructureStart)
-- boolean lambda$getMobsAt$16(StructureStart)
-- ChunkAccess lambda$createBiomes$7(RandomState)
 - Integer lambda$applyBiomeDecoration$9(Structure)
 - List lambda$generatePositions$4(Structure)
-- List lambda$generateRingPositions$6(Holder)
-- List lambda$new$2(Holder)
-- List lambda$new$3(Function)
++ List lambda$generatePositions$8(Structure)
++ List lambda$generateRingPositions$11(Stopwatch,Holder,List)
+- List lambda$generateRingPositions$6(ConcentricRingsStructurePlacement,RandomState,Holder)
+- List lambda$new$2(Function,Holder)
+- List lambda$new$3(BiomeSource,Function)
++ List lambda$new$4(Optional,Registry)
++ List lambda$new$5(Function,Holder)
++ List lambda$new$6(BiomeSource,Function)
++ List possibleStructureSets()
++ Set lambda$findNearestMapStructure$13(StructurePlacement)
 - Set lambda$findNearestMapStructure$8(StructurePlacement)
++ Stream lambda$hasBiomesForStructureSet$7(StructureSet$StructureSelectionEntry)
++ Stream lambda$new$2(Registry)
 - Stream possibleStructureSets()
-- String lambda$applyBiomeDecoration$11(Structure)
-- String lambda$applyBiomeDecoration$14(PlacedFeature)
-- String lambda$createReferences$19(Registry)
-- String lambda$createReferences$20(StructureStart)
+- String lambda$applyBiomeDecoration$11(Registry,Structure)
+- String lambda$applyBiomeDecoration$14(Registry,PlacedFeature)
++ String lambda$applyBiomeDecoration$16(Registry,Structure)
++ String lambda$applyBiomeDecoration$19(Registry,PlacedFeature)
+- String lambda$createReferences$19(StructureStart,Registry)
+- String lambda$createReferences$20(Optional,StructureStart)
 - String lambda$createReferences$21(StructureStart)
 - String lambda$createReferences$22(StructureStart)
-- void lambda$applyBiomeDecoration$10(ChunkPos)
-- void lambda$applyBiomeDecoration$12(StructureStart)
-- void lambda$applyBiomeDecoration$13(PlacedFeature)
-- void lambda$createStructures$18(Holder)
-- void lambda$generatePositions$5(Holder)
-- void lambda$getMobsAt$17(StructureStart)
++ String lambda$createReferences$24(StructureStart,Registry)
++ String lambda$createReferences$25(Optional,StructureStart)
++ String lambda$createReferences$26(StructureStart)
++ String lambda$createReferences$27(StructureStart)
+- void lambda$applyBiomeDecoration$10(WorldGenLevel,Set,ChunkPos)
+- void lambda$applyBiomeDecoration$12(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
+- void lambda$applyBiomeDecoration$13(IntSet,FeatureSorter$StepFeatureData,PlacedFeature)
++ void lambda$applyBiomeDecoration$15(WorldGenLevel,Set,ChunkPos)
++ void lambda$applyBiomeDecoration$17(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
++ void lambda$applyBiomeDecoration$18(IntSet,FeatureSorter$StepFeatureData,PlacedFeature)
+- void lambda$createStructures$18(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
++ void lambda$createStructures$23(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
+- void lambda$generatePositions$5(Set,RandomState,Holder)
++ void lambda$generatePositions$9(Set,RandomState,Holder)
+- void lambda$getMobsAt$17(MutableBoolean,Predicate,StructureStart)
++ void lambda$getMobsAt$22(MutableBoolean,Predicate,StructureStart)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.gameevent.GameEventDispatcher</summary>
 
 ```diff
-+ ServerLevel level
-- boolean isEmpty()
-- boolean walkListeners(net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.phys.Vec3,net.minecraft.world.level.gameevent.GameEvent$Context,java.util.function.BiConsumer)
-- GameEventDispatcher NOOP
-- void register(net.minecraft.world.level.gameevent.GameEventListener)
-- void unregister(net.minecraft.world.level.gameevent.GameEventListener)
+- void <clinit>()
 + void <init>(ServerLevel)
 + void handleGameEventMessagesInQueue(List)
-+ void lambda$post$0(Vec3)
-+ void post(GameEvent$Context)
-- void <clinit>()
++ void lambda$post$0(List,GameEvent,Vec3,GameEvent$Context,GameEventListener,Vec3)
++ void post(GameEvent,Vec3,GameEvent$Context)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
 
 ```diff
-+ Object2IntMap VIBRATION_FREQUENCY_FOR_EVENT
-+ VibrationInfo currentVibration
-+ VibrationSelector selectionStrategy
-- float receivingDistance
-- VibrationListener$ReceivingEvent receivingEvent
-+ boolean handleGameEvent(Vec3)
++ boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
+- boolean handleGameEvent(ServerLevel,GameEvent$Message)
 + boolean lambda$isOccluded$10(BlockState)
-+ int getGameEventFrequency(GameEvent)
-+ VibrationListener lambda$codec$5(Integer)
-+ VibrationSelector lambda$codec$3(VibrationListener)
-+ void <clinit>()
-+ void <init>(VibrationListener$VibrationListenerConfig)
-+ void <init>(VibrationSelector,int)
-+ void forceGameEvent(Vec3)
-+ void lambda$forceGameEvent$9(Vec3)
-+ void lambda$static$7(Object2IntOpenHashMap)
-+ void lambda$tick$8(VibrationInfo)
-+ void scheduleVibration(Vec3)
-- boolean handleGameEvent(GameEvent$Message)
 - boolean lambda$isOccluded$7(BlockState)
 - Float lambda$codec$3(VibrationListener)
-- VibrationListener lambda$codec$5(Integer)
-- void <init>(VibrationListener$ReceivingEvent,float,int)
-- void scheduleSignal(Vec3)
++ int getGameEventFrequency(GameEvent)
+- VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,Float,Integer)
++ VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,VibrationSelector,Integer)
++ VibrationSelector lambda$codec$3(VibrationListener)
++ void <clinit>()
++ void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationInfo,VibrationSelector,int)
+- void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationListener$ReceivingEvent,float,int)
++ void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig)
++ void forceGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
++ void lambda$forceGameEvent$9(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
++ void lambda$static$7(Object2IntOpenHashMap)
++ void lambda$tick$8(ServerLevel,VibrationInfo)
+- void scheduleSignal(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
++ void scheduleVibration(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
 
 ```diff
-+ WorldDimensions createWorldDimensions()
 - IllegalStateException lambda$overworldOrThrow$3()
 - LevelStem overworldOrThrow()
++ WorldDimensions createWorldDimensions()
 - WorldGenSettings createWorldGenSettings(long,boolean,boolean)
 - WorldGenSettings recreateWorldGenSettings(WorldGenSettings)
 ```
@@ -11978,175 +4817,24 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
 
 ```diff
-+ Consumer createStackSplitter(Consumer)
-+ void lambda$createStackSplitter$0(ItemStack)
 - Consumer createStackSplitter(Consumer)
-- void lambda$createStackSplitter$0(ItemStack)
++ Consumer createStackSplitter(LootContext,Consumer)
+- void lambda$createStackSplitter$0(Consumer,ItemStack)
++ void lambda$createStackSplitter$0(LootContext,Consumer,ItemStack)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.GameProfileArgument
@@ -14534,13 +7222,4226 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
+- CompletableFuture failedFuture(Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandBuildContext$1</summary>
+
+```diff
++ HolderSet$Named lambda$get$0(TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+
+```diff
+- ChatSender asChatSender()
++ FeatureFlagSet enabledFeatures()
++ void sendChatMessage(OutgoingChatMessage,boolean,ChatType$Bound)
+- void sendChatMessage(OutgoingPlayerChatMessage,boolean,ChatType$Bound)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.MessageArgument</summary>
+
+```diff
+- Class getValueType()
++ CompletableFuture filterPlainText(CommandSourceStack,PlayerChatMessage)
++ CompletableFuture lambda$resolveDisguisedMessage$3(CompletableFuture,Consumer,PlayerChatMessage,Executor)
++ CompletableFuture lambda$resolveSignedMessage$1(CompletableFuture,CompletableFuture,PlayerChatMessage,Consumer,Executor)
+- CompletableFuture resolvePreview(CommandSourceStack,MessageArgument$Message)
+- CompletableFuture resolvePreview(CommandSourceStack,Object)
+- MessageArgument$ChatMessage getChatMessage(CommandContext,String)
+- Object lambda$logResolutionFailure$0(CommandSourceStack,Throwable)
+- String getSignableText(MessageArgument$Message)
+- String getSignableText(Object)
++ void lambda$resolveDisguisedMessage$2(Consumer,PlayerChatMessage,Component)
++ void lambda$resolveSignedMessage$0(PlayerChatMessage,CompletableFuture,CompletableFuture,Consumer,Void)
+- void logResolutionFailure(CommandSourceStack,CompletableFuture)
++ void resolveChatMessage(CommandContext,String,Consumer)
++ void resolveDisguisedMessage(Consumer,CommandSourceStack,PlayerChatMessage)
++ void resolveSignedMessage(Consumer,CommandSourceStack,PlayerChatMessage)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ParticleArgument</summary>
+
+```diff
+- CommandSyntaxException lambda$readParticle$1(ResourceLocation)
++ CommandSyntaxException lambda$readParticleType$1(ResourceLocation)
+- ParticleArgument particle()
++ ParticleArgument particle(CommandBuildContext)
++ ParticleOptions readParticle(StringReader,HolderLookup)
+- ParticleOptions readParticle(StringReader)
++ ParticleType readParticleType(StringReader,HolderLookup)
+- void <init>()
++ void <init>(CommandBuildContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.options.EntitySelectorOptions$Option</summary>
+
+```diff
++ boolean equals(Object)
++ Component description()
++ EntitySelectorOptions$Modifier modifier()
++ int hashCode()
++ Predicate canUse()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
+
+```diff
++ boolean lambda$static$3(CommandContext,EntityType)
+- CompletableFuture lambda$static$4(CommandContext,SuggestionsBuilder)
++ CompletableFuture lambda$static$5(CommandContext,SuggestionsBuilder)
+- Message lambda$static$3(EntityType)
++ Message lambda$static$4(EntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.DefaultedRegistry</summary>
+
+```diff
++ void <init>(String,ResourceKey,Lifecycle,boolean)
+- void <init>(String,ResourceKey,Lifecycle,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.HolderLookup$RegistryLookup</summary>
+
+```diff
++ boolean lambda$filterFeatures$0(FeatureFlagSet,Object)
++ HolderLookup filterElements(Predicate)
++ HolderLookup filterFeatures(FeatureFlagSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- DefaultedRegistry registerDefaulted(ResourceKey,String,Function,Registry$RegistryBootstrap)
+- DefaultedRegistry registerDefaulted(ResourceKey,String,Lifecycle,Function,Registry$RegistryBootstrap)
++ DefaultedRegistry registerDefaultedWithIntrusiveHolders(ResourceKey,String,Lifecycle,Registry$RegistryBootstrap)
++ DefaultedRegistry registerDefaultedWithIntrusiveHolders(ResourceKey,String,Registry$RegistryBootstrap)
+- Holder getHolderOrThrow(ResourceKey)
++ Holder$Reference getHolderOrThrow(ResourceKey)
+- Lifecycle lifecycle()
+- Registry registerSimple(ResourceKey,Lifecycle,Function,Registry$RegistryBootstrap)
++ ResourceKey levelStemToLevel(ResourceKey)
++ ResourceKey levelToLevelStem(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess$1</summary>
+
+```diff
+- Optional ownedRegistry(ResourceKey)
++ Optional registry(ResourceKey)
++ RegistryAccess$Frozen freeze()
+- Stream ownedRegistries()
++ Stream registries()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess$RegistryEntry</summary>
+
+```diff
+- RegistryAccess$RegistryEntry fromHolder(Holder$Reference)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ BlockStateGenerator createCustomFence(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
++ BlockStateGenerator createFenceGate(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation,boolean)
+- BlockStateGenerator createFenceGate(Block,ResourceLocation,ResourceLocation,ResourceLocation,ResourceLocation)
++ ResourceLocation lambda$createChiseledBookshelf$45(Integer)
++ Variant lambda$createChiseledBookshelf$46(List,Integer)
+- Variant lambda$createJigsaw$46(FrontAndTop)
++ Variant lambda$createJigsaw$48(FrontAndTop)
+- Variant lambda$createRespawnAnchor$45(ResourceLocation[],Integer)
++ Variant lambda$createRespawnAnchor$47(ResourceLocation[],Integer)
++ void createChiseledBookshelf()
++ void createHangingSign(Block,Block,Block)
+- void lambda$run$47(BlockFamily)
+- void lambda$run$48(SpawnEggItem)
++ void lambda$run$49(BlockFamily)
++ void lambda$run$50(SpawnEggItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.ModelProvider</summary>
+
+```diff
+- void <init>(DataGenerator)
++ void <init>(PackOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
+
+```diff
++ String lambda$getBlockTexture$0(String,String)
++ String lambda$getItemTexture$1(String,String)
++ TextureMapping customParticle(Block)
++ TextureMapping fence(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder</summary>
+
+```diff
+- ShapedRecipeBuilder shaped(ItemLike,int)
+- ShapedRecipeBuilder shaped(ItemLike)
++ ShapedRecipeBuilder shaped(RecipeCategory,ItemLike,int)
++ ShapedRecipeBuilder shaped(RecipeCategory,ItemLike)
+- void <init>(ItemLike,int)
++ void <init>(RecipeCategory,ItemLike,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapelessRecipeBuilder</summary>
+
+```diff
+- ShapelessRecipeBuilder shapeless(ItemLike,int)
+- ShapelessRecipeBuilder shapeless(ItemLike)
++ ShapelessRecipeBuilder shapeless(RecipeCategory,ItemLike,int)
++ ShapelessRecipeBuilder shapeless(RecipeCategory,ItemLike)
+- void <init>(ItemLike,int)
++ void <init>(RecipeCategory,ItemLike,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SimpleCookingRecipeBuilder</summary>
+
+```diff
++ CookingBookCategory determineBlastingRecipeCategory(ItemLike)
++ CookingBookCategory determineRecipeCategory(RecipeSerializer,ItemLike)
++ CookingBookCategory determineSmeltingRecipeCategory(ItemLike)
+- SimpleCookingRecipeBuilder blasting(Ingredient,ItemLike,float,int)
++ SimpleCookingRecipeBuilder blasting(Ingredient,RecipeCategory,ItemLike,float,int)
+- SimpleCookingRecipeBuilder campfireCooking(Ingredient,ItemLike,float,int)
++ SimpleCookingRecipeBuilder campfireCooking(Ingredient,RecipeCategory,ItemLike,float,int)
+- SimpleCookingRecipeBuilder cooking(Ingredient,ItemLike,float,int,SimpleCookingSerializer)
++ SimpleCookingRecipeBuilder generic(Ingredient,RecipeCategory,ItemLike,float,int,RecipeSerializer)
+- SimpleCookingRecipeBuilder smelting(Ingredient,ItemLike,float,int)
++ SimpleCookingRecipeBuilder smelting(Ingredient,RecipeCategory,ItemLike,float,int)
+- SimpleCookingRecipeBuilder smoking(Ingredient,ItemLike,float,int)
++ SimpleCookingRecipeBuilder smoking(Ingredient,RecipeCategory,ItemLike,float,int)
+- void <init>(ItemLike,Ingredient,float,int,SimpleCookingSerializer)
++ void <init>(RecipeCategory,CookingBookCategory,ItemLike,Ingredient,float,int,RecipeSerializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SingleItemRecipeBuilder</summary>
+
+```diff
+- SingleItemRecipeBuilder stonecutting(Ingredient,ItemLike,int)
+- SingleItemRecipeBuilder stonecutting(Ingredient,ItemLike)
++ SingleItemRecipeBuilder stonecutting(Ingredient,RecipeCategory,ItemLike,int)
++ SingleItemRecipeBuilder stonecutting(Ingredient,RecipeCategory,ItemLike)
++ void <init>(RecipeCategory,RecipeSerializer,Ingredient,ItemLike,int)
+- void <init>(RecipeSerializer,Ingredient,ItemLike,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.SpecialRecipeBuilder</summary>
+
+```diff
++ SpecialRecipeBuilder special(RecipeSerializer)
+- SpecialRecipeBuilder special(SimpleRecipeSerializer)
++ void <init>(RecipeSerializer)
+- void <init>(SimpleRecipeSerializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.UpgradeRecipeBuilder</summary>
+
+```diff
+- UpgradeRecipeBuilder smithing(Ingredient,Ingredient,Item)
++ UpgradeRecipeBuilder smithing(Ingredient,Ingredient,RecipeCategory,Item)
+- void <init>(RecipeSerializer,Ingredient,Ingredient,Item)
++ void <init>(RecipeSerializer,Ingredient,Ingredient,RecipeCategory,Item)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
+
+```diff
+- void <init>(DataGenerator)
++ void <init>(PackOutput,Iterable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.BannerPatternTagsProvider</summary>
+
+```diff
+- void <init>(DataGenerator)
++ void <init>(PackOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper$1</summary>
+
+```diff
+- void <init>(GameTestHelper,Level,BlockPos,float,GameProfile,ProfilePublicKey)
++ void <init>(GameTestHelper,Level,BlockPos,float,GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ BitSet readFixedBitSet(int)
++ EnumSet readEnumSet(Class)
++ PropertyMap readGameProfileProperties()
+- void lambda$readGameProfile$6(PropertyMap,FriendlyByteBuf)
++ void lambda$readGameProfileProperties$6(PropertyMap,FriendlyByteBuf)
++ void writeEnumSet(EnumSet,Class)
++ void writeFixedBitSet(BitSet,int)
++ void writeGameProfileProperties(PropertyMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
+
+```diff
+- CompletableFuture decorate(ServerPlayer,PlayerChatMessage)
+- PlayerChatMessage attachIfNotDecorated(PlayerChatMessage,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.LastSeenMessagesTracker</summary>
+
+```diff
++ boolean addPending(MessageSignature,boolean)
++ int getAndClearOffset()
++ int offset()
+- LastSeenMessages get()
++ LastSeenMessagesTracker$Update generateAndApplyUpdate()
++ void addEntry(LastSeenTrackedEntry)
++ void ignorePending(MessageSignature)
+- void push(LastSeenMessages$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageValidator</summary>
+
+```diff
++ boolean lambda$static$0(PlayerChatMessage)
++ boolean lambda$static$1(PlayerChatMessage)
+- SignedMessageValidator create(ProfilePublicKey,boolean)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundServerDataPacket</summary>
+
+```diff
+- boolean previewsChat()
+- void <init>(Component,String,boolean,boolean)
++ void <init>(Component,String,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatAckPacket</summary>
+
+```diff
++ int offset()
+- LastSeenMessages$Update lastSeenMessages()
++ void <init>(int)
+- void <init>(LastSeenMessages$Update)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
+
+```diff
+- boolean signedPreview()
+- MessageSigner getSigner(ServerPlayer)
+- void <init>(String,Instant,long,MessageSignature,boolean,LastSeenMessages$Update)
++ void <init>(String,Instant,long,MessageSignature,LastSeenMessages$Update)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryOps</summary>
+
+```diff
+- DynamicOps getAsJson()
+- Optional registryLoader()
+- RegistryOps createAndLoad(DynamicOps,RegistryAccess$Writable,RegistryResourceAccess)
+- RegistryOps createAndLoad(DynamicOps,RegistryAccess$Writable,ResourceManager)
+- void <init>(DynamicOps,RegistryAccess,Optional)
++ void <init>(DynamicOps,RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
+
+```diff
++ ResourceLocation withPath(String)
++ ResourceLocation withPath(UnaryOperator)
++ ResourceLocation withPrefix(String)
++ String assertValidNamespace(String,String)
++ String assertValidPath(String,String)
++ void <init>(String,String,ResourceLocation$Dummy)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+
+```diff
+- boolean lambda$reload$1(ResourceLocation)
++ CommandFunction lambda$reload$2(Map$Entry,ResourceLocation,CommandSourceStack)
+- CommandFunction lambda$reload$3(Map$Entry,ResourceLocation,CommandSourceStack)
++ CompletionStage lambda$reload$4(Executor,Map)
+- CompletionStage lambda$reload$5(Executor,Map)
++ Map lambda$reload$1(ResourceManager)
+- Map lambda$reload$2(ResourceManager)
++ Map lambda$reload$3(Map,Void,Throwable)
+- Map lambda$reload$4(Map,Void,Throwable)
++ Object lambda$reload$5(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
+- Object lambda$reload$6(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
++ void lambda$reload$6(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
+- void lambda$reload$7(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
++ void lambda$reload$7(Pair)
+- void lambda$reload$8(Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.WorldLoader</summary>
+
+```diff
++ LayeredRegistryAccess loadAndReplaceLayer(ResourceManager,LayeredRegistryAccess,RegistryLayer,List)
++ Object lambda$load$1(RegistryAccess$Frozen,WorldLoader$ResultFactory,CloseableResourceManager,LayeredRegistryAccess,WorldLoader$DataLoadOutput,ReloadableServerResources)
+- Object lambda$load$1(RegistryAccess$Frozen,WorldLoader$ResultFactory,CloseableResourceManager,Object,ReloadableServerResources)
++ RegistryAccess$Frozen loadLayer(ResourceManager,LayeredRegistryAccess,RegistryLayer,List)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.WorldLoader$PackConfig</summary>
+
+```diff
++ boolean initMode()
+- DataPackConfig initialDataPacks()
+- void <init>(PackRepository,DataPackConfig,boolean)
++ void <init>(PackRepository,WorldDataConfiguration,boolean,boolean)
++ WorldDataConfiguration initialDataConfig()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.EffectCommands</summary>
+
+```diff
++ int clearEffect(CommandSourceStack,Collection,Holder)
+- int clearEffect(CommandSourceStack,Collection,MobEffect)
++ int giveEffect(CommandSourceStack,Collection,Holder,Integer,int,boolean)
+- int giveEffect(CommandSourceStack,Collection,MobEffect,Integer,int,boolean)
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.EnchantCommand</summary>
+
+```diff
+- int enchant(CommandSourceStack,Collection,Enchantment,int)
++ int enchant(CommandSourceStack,Collection,Holder,int)
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.LocateCommand</summary>
+
+```diff
++ boolean lambda$register$4(CommandSourceStack)
+- boolean lambda$register$6(CommandSourceStack)
++ CommandSyntaxException lambda$locateStructure$10(ResourceOrTagKeyArgument$Result)
+- CommandSyntaxException lambda$locateStructure$12(ResourceOrTagLocationArgument$Result)
+- HolderSet$Direct lambda$getHolders$10(Holder)
++ HolderSet$Direct lambda$getHolders$8(Holder)
++ int lambda$register$5(CommandContext)
++ int lambda$register$6(CommandContext)
+- int lambda$register$8(CommandContext)
+- int lambda$register$9(CommandContext)
++ int locateBiome(CommandSourceStack,ResourceOrTagArgument$Result)
+- int locateBiome(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locatePoi(CommandSourceStack,ResourceOrTagArgument$Result)
+- int locatePoi(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int locateStructure(CommandSourceStack,ResourceOrTagKeyArgument$Result)
+- int locateStructure(CommandSourceStack,ResourceOrTagLocationArgument$Result)
++ int showLocateResult(CommandSourceStack,BlockPos,Pair,String,boolean,String)
++ int showLocateResult(CommandSourceStack,ResourceOrTagArgument$Result,BlockPos,Pair,String,boolean)
++ int showLocateResult(CommandSourceStack,ResourceOrTagKeyArgument$Result,BlockPos,Pair,String,boolean)
+- int showLocateResult(CommandSourceStack,ResourceOrTagLocationArgument$Result,BlockPos,Pair,String,boolean)
+- Message lambda$static$4(Object)
+- Message lambda$static$5(Object)
++ Optional getHolders(ResourceOrTagKeyArgument$Result,Registry)
+- Optional getHolders(ResourceOrTagLocationArgument$Result,Registry)
+- Optional lambda$getHolders$11(Registry,ResourceKey)
++ Optional lambda$getHolders$9(Registry,ResourceKey)
++ String getElementName(Pair)
++ String lambda$getElementName$11(ResourceKey)
++ String lambda$showLocateResult$12(ResourceOrTagArgument$Result,Holder$Reference)
+- String lambda$showLocateResult$13(ResourceKey)
++ String lambda$showLocateResult$13(ResourceOrTagArgument$Result,Pair,HolderSet$Named)
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SummonCommand</summary>
+
+```diff
++ int spawnEntity(CommandSourceStack,Holder$Reference,Vec3,CompoundTag,boolean)
+- int spawnEntity(CommandSourceStack,ResourceLocation,Vec3,CompoundTag,boolean)
++ void register(CommandDispatcher,CommandBuildContext)
+- void register(CommandDispatcher)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.WardenSpawnTrackerCommand</summary>
+
+```diff
++ void lambda$setWarningLevel$3(int,WardenSpawnTracker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
+- boolean previewsChat()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ DataPackConfig getDatapackConfig(String,String)
++ FeatureFlagSet getFeatures(String)
++ void lambda$getFeatures$4(String,Consumer)
++ WorldDimensions createDimensions(RegistryAccess)
+- WorldGenSettings getWorldGenSettings(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
++ FeatureFlagSet enabledFeatures()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
+- boolean handlesPreviewRequests()
+- boolean tryHandleChat(String,Instant,LastSeenMessages$Update)
+- boolean verifyChatMessage(PlayerChatMessage)
+- ChatMessageContent getSignedContent(ServerboundChatPacket)
+- CompletableFuture getPreviewedArgument(CommandSourceStack,PreviewableCommand)
++ CompletableFuture lambda$handleChat$9(CompletableFuture,CompletableFuture,PlayerChatMessage,Executor)
+- CompletableFuture lambda$handleChat$9(PlayerChatMessage)
+- CompletableFuture lambda$handleChatPreview$14(ServerboundChatPreviewPacket)
+- CompletableFuture queryChatPreview(String)
+- CompletableFuture queryCommandPreview(String)
+- CompletableFuture queryPreview(String)
+- Component lambda$queryChatPreview$16(Component,Component)
+- Map collectSignedArguments(ServerboundChatCommandPacket,PreviewableCommand)
++ Map collectSignedArguments(ServerboundChatCommandPacket,SignableCommand,LastSeenMessages)
++ Optional tryHandleChat(String,Instant,LastSeenMessages$Update)
++ Optional unpackAndApplyLastSeen(LastSeenMessages$Update)
+- Packet lambda$sendPreviewResponse$15(int)
++ PlayerChatMessage getSignedMessage(ServerboundChatPacket,LastSeenMessages)
+- PlayerChatMessage getSignedMessage(ServerboundChatPacket)
+- SignedMessageChain$Decoder signedMessageDecoder()
+- void handleChatPreview(ServerboundChatPreviewPacket)
++ void handleMessageDecodeFailure(SignedMessageChain$DecodeException)
+- void handleValidationFailure(Set)
++ void lambda$handleChat$10(ServerboundChatPacket,Optional)
+- void lambda$handleChat$10(ServerboundChatPacket)
+- void lambda$handleChat$8(CompletableFuture,CompletableFuture,Void)
++ void lambda$handleChat$8(PlayerChatMessage,CompletableFuture,CompletableFuture,Void)
++ void lambda$handleChatCommand$11(ServerboundChatCommandPacket,Optional)
+- void lambda$handleChatCommand$11(ServerboundChatCommandPacket)
+- void lambda$handleChatPreview$13(int,Component)
++ void lambda$handlePlaceRecipe$13(ServerboundPlaceRecipePacket,Recipe)
+- void lambda$handlePlaceRecipe$19(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handleSignUpdate$14(ServerboundSignUpdatePacket,List)
+- void lambda$handleSignUpdate$20(ServerboundSignUpdatePacket,List)
+- void lambda$queryChatPreview$17(String,Component)
+- void lambda$queryCommandPreview$18(String,Component)
++ void performChatCommand(ServerboundChatCommandPacket,LastSeenMessages)
+- void performChatCommand(ServerboundChatCommandPacket)
++ void sendDisguisedChatMessage(Component,ChatType$Bound)
++ void sendPlayerChatMessage(PlayerChatMessage,ChatType$Bound)
+- void sendPreviewResponse(int,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
+
+```diff
+- ProfilePublicKey validatePublicKey(ProfilePublicKey$Data,UUID,SignatureValidator,boolean)
++ RemoteChatSession validateChatSession(RemoteChatSession$Data,GameProfile,SignatureValidator,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.FilePackResources</summary>
+
+```diff
+- boolean hasResource(String)
+- Collection getResources(PackType,String,String,Predicate)
+- InputStream getResource(String)
++ IoSupplier getResource(PackType,ResourceLocation)
++ IoSupplier getResource(String)
++ IoSupplier getRootResource(String[])
++ String getPathFromLocation(PackType,ResourceLocation)
+- void <init>(File)
++ void <init>(String,File)
++ void listResources(PackType,String,String,PackResources$ResourceOutput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.FolderRepositorySource</summary>
+
+```diff
+- boolean lambda$static$0(File)
++ Pack$ResourcesSupplier detectPackResources(Path)
+- PackResources lambda$createSupplier$1(File)
+- PackResources lambda$createSupplier$2(File)
++ PackResources lambda$detectPackResources$1(Path,String)
++ PackResources lambda$detectPackResources$2(File,String)
++ String nameFromPath(Path)
+- Supplier createSupplier(File)
+- void <init>(File,PackSource)
++ void <init>(Path,PackType,PackSource)
++ void discoverPacks(Path,BiConsumer)
++ void lambda$loadPacks$0(Consumer,Path,Pack$ResourcesSupplier)
+- void loadPacks(Consumer,Pack$PackConstructor)
++ void loadPacks(Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.ServerPacksSource</summary>
+
+```diff
++ Component getPackTitle(String)
++ Pack createBuiltinPack(String,Pack$ResourcesSupplier,Component)
++ Pack createVanillaPack(PackResources)
++ PackRepository createPackRepository(LevelStorageSource$LevelStorageAccess)
++ PackRepository createPackRepository(Path)
++ PackResources lambda$createVanillaPack$0(PackResources,String)
+- PackResources lambda$loadPacks$0()
++ VanillaPackResources createVanillaPackSource()
+- void loadPacks(Consumer,Pack$PackConstructor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.MultiPackResourceManager</summary>
+
+```diff
++ void checkTrailingDirectoryPath(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.ResourceProvider</summary>
+
+```diff
++ Optional lambda$fromMap$1(Map,ResourceLocation)
++ ResourceProvider fromMap(Map)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- boolean verifyChatTrusted(PlayerChatMessage,ChatSender)
++ boolean verifyChatTrusted(PlayerChatMessage)
+- ServerPlayer getPlayerForLogin(GameProfile,ProfilePublicKey)
++ ServerPlayer getPlayerForLogin(GameProfile,RemoteChatSession)
++ void <init>(MinecraftServer,LayeredRegistryAccess,PlayerDataStorage,int)
+- void <init>(MinecraftServer,RegistryAccess$Frozen,PlayerDataStorage,int)
+- void broadcastChatMessage(PlayerChatMessage,Predicate,ServerPlayer,ChatSender,ChatType$Bound)
++ void broadcastChatMessage(PlayerChatMessage,Predicate,ServerPlayer,ChatType$Bound)
+- void broadcastMessageHeader(PlayerChatMessage,Set)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagNetworkSerialization</summary>
+
+```diff
++ Map serializeTagsToNetwork(LayeredRegistryAccess)
+- Map serializeTagsToNetwork(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.FutureChain</summary>
+
+```diff
+- CompletionStage lambda$append$0(TaskChainer$DelayedTask,Object)
++ CompletionStage lambda$append$1(TaskChainer$DelayedTask,Object)
+- Object lambda$append$1(Throwable)
++ Object lambda$append$2(Throwable)
++ void close()
++ void lambda$new$0(Executor,Runnable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.AnimationState</summary>
+
+```diff
++ void animateWhen(boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean allowsDismounting(Entity)
+- ChatSender asChatSender()
++ Packet getAddEntityPacket()
++ Vec3 getLeashOffset(float)
++ void addDeltaMovement(Vec3)
++ void checkSlowFallDistance()
++ void teleportRelative(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean equipmentHasChanged(ItemStack,ItemStack)
++ double getAttributeBaseValue(Holder)
++ double getAttributeValue(Holder)
+- Packet getAddEntityPacket()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.PlayerRideableJumping</summary>
+
+```diff
++ int getJumpCooldown()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Saddleable</summary>
+
+```diff
++ SoundEvent getSaddleSoundEvent()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeMap</summary>
+
+```diff
++ AttributeInstance getInstance(Holder)
++ boolean hasAttribute(Holder)
++ boolean hasModifier(Holder,UUID)
++ double getModifierValue(Holder,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BlockPosTracker</summary>
+
+```diff
++ void <init>(Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.LongJumpToRandomPos</summary>
+
+```diff
++ boolean defaultAcceptableLandingSpot(Mob,BlockPos)
++ boolean isClearTransition(Mob,EntityDimensions,Vec3,Vec3)
+- boolean isClearTransition(Mob,Vec3,Vec3)
+- boolean lambda$new$0(BlockState)
++ boolean lambda$start$0(BlockPos,BlockPos)
+- boolean lambda$start$1(BlockPos,BlockPos)
++ LongJumpToRandomPos$PossibleJump lambda$start$1(BlockPos,BlockPos)
+- LongJumpToRandomPos$PossibleJump lambda$start$2(BlockPos,BlockPos)
++ void <init>(UniformInt,int,int,float,Function,BiPredicate)
+- void <init>(UniformInt,int,int,float,Function,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.TemptingSensor</summary>
+
+```diff
++ boolean lambda$doTick$2(PathfinderMob,ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiTypes</summary>
+
+```diff
++ void registerBlockStates(Holder,Set)
+- void registerBlockStates(Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.SmeltingRecipe</summary>
+
+```diff
++ void <init>(ResourceLocation,String,CookingBookCategory,Ingredient,ItemStack,float,int)
+- void <init>(ResourceLocation,String,Ingredient,ItemStack,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.TippedArrowRecipe</summary>
+
+```diff
++ void <init>(ResourceLocation,CraftingBookCategory)
+- void <init>(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelReader</summary>
+
+```diff
++ HolderLookup holderLookup(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.StructureManager</summary>
+
+```diff
+- Boolean lambda$getStructureWithPieceAt$0(TagKey,Holder)
++ Boolean lambda$getStructureWithPieceAt$0(TagKey,Holder$Reference)
+- void <init>(LevelAccessor,WorldGenSettings,StructureCheck)
++ void <init>(LevelAccessor,WorldOptions,StructureCheck)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SupportType$2</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+```diff
++ void <init>(BlockBehaviour$Properties,SoundEvent,SoundEvent)
+- void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
+- GameEventDispatcher getEventDispatcher(int)
++ GameEventListenerRegistry getListenerRegistry(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
++ boolean hasBiomesForStructureSet(StructureSet)
+- boolean lambda$getMobsAt$15(StructureManager,BlockPos,StructureStart)
+- boolean lambda$getMobsAt$16(BlockPos,StructureStart)
++ boolean lambda$getMobsAt$20(StructureManager,BlockPos,StructureStart)
++ boolean lambda$getMobsAt$21(BlockPos,StructureStart)
++ boolean lambda$new$3(Holder)
++ ChunkAccess lambda$createBiomes$12(ChunkAccess,RandomState)
+- ChunkAccess lambda$createBiomes$7(ChunkAccess,RandomState)
++ ChunkPos lambda$generateRingPositions$10(int,int,HolderSet,RandomSource,RandomState)
++ Integer lambda$applyBiomeDecoration$14(Structure)
+- Integer lambda$applyBiomeDecoration$9(Structure)
+- List lambda$generatePositions$4(Structure)
++ List lambda$generatePositions$8(Structure)
++ List lambda$generateRingPositions$11(Stopwatch,Holder,List)
+- List lambda$generateRingPositions$6(ConcentricRingsStructurePlacement,RandomState,Holder)
+- List lambda$new$2(Function,Holder)
+- List lambda$new$3(BiomeSource,Function)
++ List lambda$new$4(Optional,Registry)
++ List lambda$new$5(Function,Holder)
++ List lambda$new$6(BiomeSource,Function)
++ List possibleStructureSets()
++ Set lambda$findNearestMapStructure$13(StructurePlacement)
+- Set lambda$findNearestMapStructure$8(StructurePlacement)
++ Stream lambda$hasBiomesForStructureSet$7(StructureSet$StructureSelectionEntry)
++ Stream lambda$new$2(Registry)
+- Stream possibleStructureSets()
+- String lambda$applyBiomeDecoration$11(Registry,Structure)
+- String lambda$applyBiomeDecoration$14(Registry,PlacedFeature)
++ String lambda$applyBiomeDecoration$16(Registry,Structure)
++ String lambda$applyBiomeDecoration$19(Registry,PlacedFeature)
+- String lambda$createReferences$19(StructureStart,Registry)
+- String lambda$createReferences$20(Optional,StructureStart)
+- String lambda$createReferences$21(StructureStart)
+- String lambda$createReferences$22(StructureStart)
++ String lambda$createReferences$24(StructureStart,Registry)
++ String lambda$createReferences$25(Optional,StructureStart)
++ String lambda$createReferences$26(StructureStart)
++ String lambda$createReferences$27(StructureStart)
+- void lambda$applyBiomeDecoration$10(WorldGenLevel,Set,ChunkPos)
+- void lambda$applyBiomeDecoration$12(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
+- void lambda$applyBiomeDecoration$13(IntSet,FeatureSorter$StepFeatureData,PlacedFeature)
++ void lambda$applyBiomeDecoration$15(WorldGenLevel,Set,ChunkPos)
++ void lambda$applyBiomeDecoration$17(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
++ void lambda$applyBiomeDecoration$18(IntSet,FeatureSorter$StepFeatureData,PlacedFeature)
+- void lambda$createStructures$18(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
++ void lambda$createStructures$23(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
+- void lambda$generatePositions$5(Set,RandomState,Holder)
++ void lambda$generatePositions$9(Set,RandomState,Holder)
+- void lambda$getMobsAt$17(MutableBoolean,Predicate,StructureStart)
++ void lambda$getMobsAt$22(MutableBoolean,Predicate,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.GameEventDispatcher</summary>
+
+```diff
+- void <clinit>()
++ void <init>(ServerLevel)
++ void handleGameEventMessagesInQueue(List)
++ void lambda$post$0(List,GameEvent,Vec3,GameEvent$Context,GameEventListener,Vec3)
++ void post(GameEvent,Vec3,GameEvent$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
+
+```diff
++ boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
+- boolean handleGameEvent(ServerLevel,GameEvent$Message)
++ boolean lambda$isOccluded$10(BlockState)
+- boolean lambda$isOccluded$7(BlockState)
+- Float lambda$codec$3(VibrationListener)
++ int getGameEventFrequency(GameEvent)
+- VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,Float,Integer)
++ VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,VibrationSelector,Integer)
++ VibrationSelector lambda$codec$3(VibrationListener)
++ void <clinit>()
++ void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationInfo,VibrationSelector,int)
+- void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationListener$ReceivingEvent,float,int)
++ void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig)
++ void forceGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
++ void lambda$forceGameEvent$9(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
++ void lambda$static$7(Object2IntOpenHashMap)
++ void lambda$tick$8(ServerLevel,VibrationInfo)
+- void scheduleSignal(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
++ void scheduleVibration(ServerLevel,GameEvent,GameEvent$Context,Vec3,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
+
+```diff
+- IllegalStateException lambda$overworldOrThrow$3()
+- LevelStem overworldOrThrow()
++ WorldDimensions createWorldDimensions()
+- WorldGenSettings createWorldGenSettings(long,boolean,boolean)
+- WorldGenSettings recreateWorldGenSettings(WorldGenSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootTable</summary>
+
+```diff
+- Consumer createStackSplitter(Consumer)
++ Consumer createStackSplitter(LootContext,Consumer)
+- void lambda$createStackSplitter$0(Consumer,ItemStack)
++ void lambda$createStackSplitter$0(LootContext,Consumer,ItemStack)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/chat_type/chat.json
++ minecraft/chat_type/emote_command.json
++ minecraft/chat_type/msg_command_incoming.json
++ minecraft/chat_type/msg_command_outgoing.json
++ minecraft/chat_type/say_command.json
++ minecraft/chat_type/team_msg_command_incoming.json
++ minecraft/chat_type/team_msg_command_outgoing.json
++ minecraft/datapacks/bundle/data/minecraft/advancements/recipes/tools/bundle.json
++ minecraft/datapacks/bundle/data/minecraft/recipes/bundle.json
++ minecraft/datapacks/bundle/pack.mcmeta
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_mosaic_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/bamboo_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/building_blocks/chiseled_bookshelf.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/acacia_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_mosaic.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/bamboo_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/crimson_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/dark_oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/jungle_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/mangrove_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/spruce_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/decorations/warped_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/redstone/bamboo_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_chest_raft.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/recipes/transportation/bamboo_raft.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/acacia_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_mosaic.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/bamboo_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/birch_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/chiseled_bookshelf.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/crimson_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/jungle_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/mangrove_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/spruce_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/warped_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/acacia_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_button.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_chest_raft.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_door.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence_gate.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_fence.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_mosaic.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_pressure_plate.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_raft.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_slab.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/bamboo_trapdoor.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/chiseled_bookshelf.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/crimson_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/dark_oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/jungle_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/mangrove_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/oak_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/spruce_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/recipes/warped_hanging_sign.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_hanging_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/ceiling_hanging_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/fence_gates.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/mineable/axe.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/standing_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_hanging_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wall_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_buttons.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_doors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_fences.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_pressure_plates.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_slabs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/wooden_trapdoors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/boats.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/bookshelf_books.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/buttons.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/chest_boats.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/doors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/fences.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/hanging_signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/planks.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/signs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/slabs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/trapdoors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_buttons.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_doors.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_fences.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_pressure_plates.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_slabs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_stairs.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/wooden_trapdoors.json
++ minecraft/datapacks/update_1_20/pack.mcmeta
++ minecraft/dimension_type/overworld_caves.json
++ minecraft/dimension_type/overworld.json
++ minecraft/dimension_type/the_end.json
++ minecraft/dimension_type/the_nether.json
++ minecraft/loot_tables/blocks/acacia_hanging_sign.json
++ minecraft/loot_tables/blocks/bamboo_button.json
++ minecraft/loot_tables/blocks/bamboo_door.json
++ minecraft/loot_tables/blocks/bamboo_fence_gate.json
++ minecraft/loot_tables/blocks/bamboo_fence.json
++ minecraft/loot_tables/blocks/bamboo_hanging_sign.json
++ minecraft/loot_tables/blocks/bamboo_mosaic_slab.json
++ minecraft/loot_tables/blocks/bamboo_mosaic_stairs.json
++ minecraft/loot_tables/blocks/bamboo_mosaic.json
++ minecraft/loot_tables/blocks/bamboo_planks.json
++ minecraft/loot_tables/blocks/bamboo_pressure_plate.json
++ minecraft/loot_tables/blocks/bamboo_sign.json
++ minecraft/loot_tables/blocks/bamboo_slab.json
++ minecraft/loot_tables/blocks/bamboo_stairs.json
++ minecraft/loot_tables/blocks/bamboo_trapdoor.json
++ minecraft/loot_tables/blocks/birch_hanging_sign.json
++ minecraft/loot_tables/blocks/chiseled_bookshelf.json
++ minecraft/loot_tables/blocks/crimson_hanging_sign.json
++ minecraft/loot_tables/blocks/dark_oak_hanging_sign.json
++ minecraft/loot_tables/blocks/jungle_hanging_sign.json
++ minecraft/loot_tables/blocks/mangrove_hanging_sign.json
++ minecraft/loot_tables/blocks/oak_hanging_sign.json
++ minecraft/loot_tables/blocks/spruce_hanging_sign.json
++ minecraft/loot_tables/blocks/warped_hanging_sign.json
++ minecraft/loot_tables/entities/camel.json
++ minecraft/structures/village/desert/camel_spawn.nbt
++ minecraft/tags/blocks/invalid_spawn_inside.json
++ minecraft/tags/blocks/stripped_logs.json
++ minecraft/tags/items/stripped_logs.json
++ minecraft/worldgen/biome/badlands.json
++ minecraft/worldgen/biome/bamboo_jungle.json
++ minecraft/worldgen/biome/basalt_deltas.json
++ minecraft/worldgen/biome/beach.json
++ minecraft/worldgen/biome/birch_forest.json
++ minecraft/worldgen/biome/cold_ocean.json
++ minecraft/worldgen/biome/crimson_forest.json
++ minecraft/worldgen/biome/dark_forest.json
++ minecraft/worldgen/biome/deep_cold_ocean.json
++ minecraft/worldgen/biome/deep_dark.json
++ minecraft/worldgen/biome/deep_frozen_ocean.json
++ minecraft/worldgen/biome/deep_lukewarm_ocean.json
++ minecraft/worldgen/biome/deep_ocean.json
++ minecraft/worldgen/biome/desert.json
++ minecraft/worldgen/biome/dripstone_caves.json
++ minecraft/worldgen/biome/end_barrens.json
++ minecraft/worldgen/biome/end_highlands.json
++ minecraft/worldgen/biome/end_midlands.json
++ minecraft/worldgen/biome/eroded_badlands.json
++ minecraft/worldgen/biome/flower_forest.json
++ minecraft/worldgen/biome/forest.json
++ minecraft/worldgen/biome/frozen_ocean.json
++ minecraft/worldgen/biome/frozen_peaks.json
++ minecraft/worldgen/biome/frozen_river.json
++ minecraft/worldgen/biome/grove.json
++ minecraft/worldgen/biome/ice_spikes.json
++ minecraft/worldgen/biome/jagged_peaks.json
++ minecraft/worldgen/biome/jungle.json
++ minecraft/worldgen/biome/lukewarm_ocean.json
++ minecraft/worldgen/biome/lush_caves.json
++ minecraft/worldgen/biome/mangrove_swamp.json
++ minecraft/worldgen/biome/meadow.json
++ minecraft/worldgen/biome/mushroom_fields.json
++ minecraft/worldgen/biome/nether_wastes.json
++ minecraft/worldgen/biome/ocean.json
++ minecraft/worldgen/biome/old_growth_birch_forest.json
++ minecraft/worldgen/biome/old_growth_pine_taiga.json
++ minecraft/worldgen/biome/old_growth_spruce_taiga.json
++ minecraft/worldgen/biome/plains.json
++ minecraft/worldgen/biome/river.json
++ minecraft/worldgen/biome/savanna_plateau.json
++ minecraft/worldgen/biome/savanna.json
++ minecraft/worldgen/biome/small_end_islands.json
++ minecraft/worldgen/biome/snowy_beach.json
++ minecraft/worldgen/biome/snowy_plains.json
++ minecraft/worldgen/biome/snowy_slopes.json
++ minecraft/worldgen/biome/snowy_taiga.json
++ minecraft/worldgen/biome/soul_sand_valley.json
++ minecraft/worldgen/biome/sparse_jungle.json
++ minecraft/worldgen/biome/stony_peaks.json
++ minecraft/worldgen/biome/stony_shore.json
++ minecraft/worldgen/biome/sunflower_plains.json
++ minecraft/worldgen/biome/swamp.json
++ minecraft/worldgen/biome/taiga.json
++ minecraft/worldgen/biome/the_end.json
++ minecraft/worldgen/biome/the_void.json
++ minecraft/worldgen/biome/warm_ocean.json
++ minecraft/worldgen/biome/warped_forest.json
++ minecraft/worldgen/biome/windswept_forest.json
++ minecraft/worldgen/biome/windswept_gravelly_hills.json
++ minecraft/worldgen/biome/windswept_hills.json
++ minecraft/worldgen/biome/windswept_savanna.json
++ minecraft/worldgen/biome/wooded_badlands.json
++ minecraft/worldgen/configured_carver/canyon.json
++ minecraft/worldgen/configured_carver/cave_extra_underground.json
++ minecraft/worldgen/configured_carver/cave.json
++ minecraft/worldgen/configured_carver/nether_cave.json
++ minecraft/worldgen/configured_feature/acacia.json
++ minecraft/worldgen/configured_feature/amethyst_geode.json
++ minecraft/worldgen/configured_feature/azalea_tree.json
++ minecraft/worldgen/configured_feature/bamboo_no_podzol.json
++ minecraft/worldgen/configured_feature/bamboo_some_podzol.json
++ minecraft/worldgen/configured_feature/bamboo_vegetation.json
++ minecraft/worldgen/configured_feature/basalt_blobs.json
++ minecraft/worldgen/configured_feature/basalt_pillar.json
++ minecraft/worldgen/configured_feature/birch_bees_0002.json
++ minecraft/worldgen/configured_feature/birch_bees_002.json
++ minecraft/worldgen/configured_feature/birch_bees_005.json
++ minecraft/worldgen/configured_feature/birch_tall.json
++ minecraft/worldgen/configured_feature/birch.json
++ minecraft/worldgen/configured_feature/blackstone_blobs.json
++ minecraft/worldgen/configured_feature/blue_ice.json
++ minecraft/worldgen/configured_feature/bonus_chest.json
++ minecraft/worldgen/configured_feature/cave_vine_in_moss.json
++ minecraft/worldgen/configured_feature/cave_vine.json
++ minecraft/worldgen/configured_feature/chorus_plant.json
++ minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
++ minecraft/worldgen/configured_feature/clay_with_dripleaves.json
++ minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
++ minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
++ minecraft/worldgen/configured_feature/crimson_fungus_planted.json
++ minecraft/worldgen/configured_feature/crimson_fungus.json
++ minecraft/worldgen/configured_feature/dark_forest_vegetation.json
++ minecraft/worldgen/configured_feature/dark_oak.json
++ minecraft/worldgen/configured_feature/delta.json
++ minecraft/worldgen/configured_feature/desert_well.json
++ minecraft/worldgen/configured_feature/disk_clay.json
++ minecraft/worldgen/configured_feature/disk_grass.json
++ minecraft/worldgen/configured_feature/disk_gravel.json
++ minecraft/worldgen/configured_feature/disk_sand.json
++ minecraft/worldgen/configured_feature/dripleaf.json
++ minecraft/worldgen/configured_feature/dripstone_cluster.json
++ minecraft/worldgen/configured_feature/end_gateway_delayed.json
++ minecraft/worldgen/configured_feature/end_gateway_return.json
++ minecraft/worldgen/configured_feature/end_island.json
++ minecraft/worldgen/configured_feature/end_spike.json
++ minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
++ minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
++ minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
++ minecraft/worldgen/configured_feature/fancy_oak_bees.json
++ minecraft/worldgen/configured_feature/fancy_oak.json
++ minecraft/worldgen/configured_feature/flower_default.json
++ minecraft/worldgen/configured_feature/flower_flower_forest.json
++ minecraft/worldgen/configured_feature/flower_meadow.json
++ minecraft/worldgen/configured_feature/flower_plain.json
++ minecraft/worldgen/configured_feature/flower_swamp.json
++ minecraft/worldgen/configured_feature/forest_flowers.json
++ minecraft/worldgen/configured_feature/forest_rock.json
++ minecraft/worldgen/configured_feature/fossil_coal.json
++ minecraft/worldgen/configured_feature/fossil_diamonds.json
++ minecraft/worldgen/configured_feature/freeze_top_layer.json
++ minecraft/worldgen/configured_feature/glow_lichen.json
++ minecraft/worldgen/configured_feature/glowstone_extra.json
++ minecraft/worldgen/configured_feature/huge_brown_mushroom.json
++ minecraft/worldgen/configured_feature/huge_red_mushroom.json
++ minecraft/worldgen/configured_feature/ice_patch.json
++ minecraft/worldgen/configured_feature/ice_spike.json
++ minecraft/worldgen/configured_feature/iceberg_blue.json
++ minecraft/worldgen/configured_feature/iceberg_packed.json
++ minecraft/worldgen/configured_feature/jungle_bush.json
++ minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
++ minecraft/worldgen/configured_feature/jungle_tree.json
++ minecraft/worldgen/configured_feature/kelp.json
++ minecraft/worldgen/configured_feature/lake_lava.json
++ minecraft/worldgen/configured_feature/large_basalt_columns.json
++ minecraft/worldgen/configured_feature/large_dripstone.json
++ minecraft/worldgen/configured_feature/lush_caves_clay.json
++ minecraft/worldgen/configured_feature/mangrove_vegetation.json
++ minecraft/worldgen/configured_feature/mangrove.json
++ minecraft/worldgen/configured_feature/meadow_trees.json
++ minecraft/worldgen/configured_feature/mega_jungle_tree.json
++ minecraft/worldgen/configured_feature/mega_pine.json
++ minecraft/worldgen/configured_feature/mega_spruce.json
++ minecraft/worldgen/configured_feature/monster_room.json
++ minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
++ minecraft/worldgen/configured_feature/moss_patch_ceiling.json
++ minecraft/worldgen/configured_feature/moss_patch.json
++ minecraft/worldgen/configured_feature/moss_vegetation.json
++ minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
++ minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
++ minecraft/worldgen/configured_feature/nether_sprouts.json
++ minecraft/worldgen/configured_feature/oak_bees_0002.json
++ minecraft/worldgen/configured_feature/oak_bees_002.json
++ minecraft/worldgen/configured_feature/oak_bees_005.json
++ minecraft/worldgen/configured_feature/oak.json
++ minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
++ minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
++ minecraft/worldgen/configured_feature/ore_andesite.json
++ minecraft/worldgen/configured_feature/ore_blackstone.json
++ minecraft/worldgen/configured_feature/ore_clay.json
++ minecraft/worldgen/configured_feature/ore_coal_buried.json
++ minecraft/worldgen/configured_feature/ore_coal.json
++ minecraft/worldgen/configured_feature/ore_copper_large.json
++ minecraft/worldgen/configured_feature/ore_copper_small.json
++ minecraft/worldgen/configured_feature/ore_diamond_buried.json
++ minecraft/worldgen/configured_feature/ore_diamond_large.json
++ minecraft/worldgen/configured_feature/ore_diamond_small.json
++ minecraft/worldgen/configured_feature/ore_diorite.json
++ minecraft/worldgen/configured_feature/ore_dirt.json
++ minecraft/worldgen/configured_feature/ore_emerald.json
++ minecraft/worldgen/configured_feature/ore_gold_buried.json
++ minecraft/worldgen/configured_feature/ore_gold.json
++ minecraft/worldgen/configured_feature/ore_granite.json
++ minecraft/worldgen/configured_feature/ore_gravel_nether.json
++ minecraft/worldgen/configured_feature/ore_gravel.json
++ minecraft/worldgen/configured_feature/ore_infested.json
++ minecraft/worldgen/configured_feature/ore_iron_small.json
++ minecraft/worldgen/configured_feature/ore_iron.json
++ minecraft/worldgen/configured_feature/ore_lapis_buried.json
++ minecraft/worldgen/configured_feature/ore_lapis.json
++ minecraft/worldgen/configured_feature/ore_magma.json
++ minecraft/worldgen/configured_feature/ore_nether_gold.json
++ minecraft/worldgen/configured_feature/ore_quartz.json
++ minecraft/worldgen/configured_feature/ore_redstone.json
++ minecraft/worldgen/configured_feature/ore_soul_sand.json
++ minecraft/worldgen/configured_feature/ore_tuff.json
++ minecraft/worldgen/configured_feature/patch_berry_bush.json
++ minecraft/worldgen/configured_feature/patch_brown_mushroom.json
++ minecraft/worldgen/configured_feature/patch_cactus.json
++ minecraft/worldgen/configured_feature/patch_crimson_roots.json
++ minecraft/worldgen/configured_feature/patch_dead_bush.json
++ minecraft/worldgen/configured_feature/patch_fire.json
++ minecraft/worldgen/configured_feature/patch_grass_jungle.json
++ minecraft/worldgen/configured_feature/patch_grass.json
++ minecraft/worldgen/configured_feature/patch_large_fern.json
++ minecraft/worldgen/configured_feature/patch_melon.json
++ minecraft/worldgen/configured_feature/patch_pumpkin.json
++ minecraft/worldgen/configured_feature/patch_red_mushroom.json
++ minecraft/worldgen/configured_feature/patch_soul_fire.json
++ minecraft/worldgen/configured_feature/patch_sugar_cane.json
++ minecraft/worldgen/configured_feature/patch_sunflower.json
++ minecraft/worldgen/configured_feature/patch_taiga_grass.json
++ minecraft/worldgen/configured_feature/patch_tall_grass.json
++ minecraft/worldgen/configured_feature/patch_waterlily.json
++ minecraft/worldgen/configured_feature/pile_hay.json
++ minecraft/worldgen/configured_feature/pile_ice.json
++ minecraft/worldgen/configured_feature/pile_melon.json
++ minecraft/worldgen/configured_feature/pile_pumpkin.json
++ minecraft/worldgen/configured_feature/pile_snow.json
++ minecraft/worldgen/configured_feature/pine.json
++ minecraft/worldgen/configured_feature/pointed_dripstone.json
++ minecraft/worldgen/configured_feature/rooted_azalea_tree.json
++ minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
++ minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
++ minecraft/worldgen/configured_feature/sculk_vein.json
++ minecraft/worldgen/configured_feature/sea_pickle.json
++ minecraft/worldgen/configured_feature/seagrass_mid.json
++ minecraft/worldgen/configured_feature/seagrass_short.json
++ minecraft/worldgen/configured_feature/seagrass_simple.json
++ minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
++ minecraft/worldgen/configured_feature/seagrass_tall.json
++ minecraft/worldgen/configured_feature/single_piece_of_grass.json
++ minecraft/worldgen/configured_feature/small_basalt_columns.json
++ minecraft/worldgen/configured_feature/spore_blossom.json
++ minecraft/worldgen/configured_feature/spring_lava_frozen.json
++ minecraft/worldgen/configured_feature/spring_lava_nether.json
++ minecraft/worldgen/configured_feature/spring_lava_overworld.json
++ minecraft/worldgen/configured_feature/spring_nether_closed.json
++ minecraft/worldgen/configured_feature/spring_nether_open.json
++ minecraft/worldgen/configured_feature/spring_water.json
++ minecraft/worldgen/configured_feature/spruce.json
++ minecraft/worldgen/configured_feature/super_birch_bees_0002.json
++ minecraft/worldgen/configured_feature/super_birch_bees.json
++ minecraft/worldgen/configured_feature/swamp_oak.json
++ minecraft/worldgen/configured_feature/tall_mangrove.json
++ minecraft/worldgen/configured_feature/trees_birch_and_oak.json
++ minecraft/worldgen/configured_feature/trees_flower_forest.json
++ minecraft/worldgen/configured_feature/trees_grove.json
++ minecraft/worldgen/configured_feature/trees_jungle.json
++ minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
++ minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
++ minecraft/worldgen/configured_feature/trees_plains.json
++ minecraft/worldgen/configured_feature/trees_savanna.json
++ minecraft/worldgen/configured_feature/trees_sparse_jungle.json
++ minecraft/worldgen/configured_feature/trees_taiga.json
++ minecraft/worldgen/configured_feature/trees_water.json
++ minecraft/worldgen/configured_feature/trees_windswept_hills.json
++ minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
++ minecraft/worldgen/configured_feature/twisting_vines.json
++ minecraft/worldgen/configured_feature/underwater_magma.json
++ minecraft/worldgen/configured_feature/vines.json
++ minecraft/worldgen/configured_feature/void_start_platform.json
++ minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
++ minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
++ minecraft/worldgen/configured_feature/warped_forest_vegetation.json
++ minecraft/worldgen/configured_feature/warped_fungus_planted.json
++ minecraft/worldgen/configured_feature/warped_fungus.json
++ minecraft/worldgen/configured_feature/weeping_vines.json
++ minecraft/worldgen/density_function/end/base_3d_noise.json
++ minecraft/worldgen/density_function/end/sloped_cheese.json
++ minecraft/worldgen/density_function/nether/base_3d_noise.json
++ minecraft/worldgen/density_function/overworld_amplified/depth.json
++ minecraft/worldgen/density_function/overworld_amplified/factor.json
++ minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
++ minecraft/worldgen/density_function/overworld_amplified/offset.json
++ minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
++ minecraft/worldgen/density_function/overworld_large_biomes/continents.json
++ minecraft/worldgen/density_function/overworld_large_biomes/depth.json
++ minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
++ minecraft/worldgen/density_function/overworld_large_biomes/factor.json
++ minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
++ minecraft/worldgen/density_function/overworld_large_biomes/offset.json
++ minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
++ minecraft/worldgen/density_function/overworld/base_3d_noise.json
++ minecraft/worldgen/density_function/overworld/caves/entrances.json
++ minecraft/worldgen/density_function/overworld/caves/noodle.json
++ minecraft/worldgen/density_function/overworld/caves/pillars.json
++ minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
++ minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
++ minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
++ minecraft/worldgen/density_function/overworld/continents.json
++ minecraft/worldgen/density_function/overworld/depth.json
++ minecraft/worldgen/density_function/overworld/erosion.json
++ minecraft/worldgen/density_function/overworld/factor.json
++ minecraft/worldgen/density_function/overworld/jaggedness.json
++ minecraft/worldgen/density_function/overworld/offset.json
++ minecraft/worldgen/density_function/overworld/ridges_folded.json
++ minecraft/worldgen/density_function/overworld/ridges.json
++ minecraft/worldgen/density_function/overworld/sloped_cheese.json
++ minecraft/worldgen/density_function/shift_x.json
++ minecraft/worldgen/density_function/shift_z.json
++ minecraft/worldgen/density_function/y.json
++ minecraft/worldgen/density_function/zero.json
++ minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
++ minecraft/worldgen/flat_level_generator_preset/classic_flat.json
++ minecraft/worldgen/flat_level_generator_preset/desert.json
++ minecraft/worldgen/flat_level_generator_preset/overworld.json
++ minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
++ minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
++ minecraft/worldgen/flat_level_generator_preset/the_void.json
++ minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
++ minecraft/worldgen/flat_level_generator_preset/water_world.json
++ minecraft/worldgen/noise_settings/amplified.json
++ minecraft/worldgen/noise_settings/caves.json
++ minecraft/worldgen/noise_settings/end.json
++ minecraft/worldgen/noise_settings/floating_islands.json
++ minecraft/worldgen/noise_settings/large_biomes.json
++ minecraft/worldgen/noise_settings/nether.json
++ minecraft/worldgen/noise_settings/overworld.json
++ minecraft/worldgen/noise/aquifer_barrier.json
++ minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
++ minecraft/worldgen/noise/aquifer_fluid_level_spread.json
++ minecraft/worldgen/noise/aquifer_lava.json
++ minecraft/worldgen/noise/badlands_pillar_roof.json
++ minecraft/worldgen/noise/badlands_pillar.json
++ minecraft/worldgen/noise/badlands_surface.json
++ minecraft/worldgen/noise/calcite.json
++ minecraft/worldgen/noise/cave_cheese.json
++ minecraft/worldgen/noise/cave_entrance.json
++ minecraft/worldgen/noise/cave_layer.json
++ minecraft/worldgen/noise/clay_bands_offset.json
++ minecraft/worldgen/noise/continentalness_large.json
++ minecraft/worldgen/noise/continentalness.json
++ minecraft/worldgen/noise/erosion_large.json
++ minecraft/worldgen/noise/erosion.json
++ minecraft/worldgen/noise/gravel_layer.json
++ minecraft/worldgen/noise/gravel.json
++ minecraft/worldgen/noise/ice.json
++ minecraft/worldgen/noise/iceberg_pillar_roof.json
++ minecraft/worldgen/noise/iceberg_pillar.json
++ minecraft/worldgen/noise/iceberg_surface.json
++ minecraft/worldgen/noise/jagged.json
++ minecraft/worldgen/noise/nether_state_selector.json
++ minecraft/worldgen/noise/nether_wart.json
++ minecraft/worldgen/noise/netherrack.json
++ minecraft/worldgen/noise/noodle_ridge_a.json
++ minecraft/worldgen/noise/noodle_ridge_b.json
++ minecraft/worldgen/noise/noodle_thickness.json
++ minecraft/worldgen/noise/noodle.json
++ minecraft/worldgen/noise/offset.json
++ minecraft/worldgen/noise/ore_gap.json
++ minecraft/worldgen/noise/ore_vein_a.json
++ minecraft/worldgen/noise/ore_vein_b.json
++ minecraft/worldgen/noise/ore_veininess.json
++ minecraft/worldgen/noise/packed_ice.json
++ minecraft/worldgen/noise/patch.json
++ minecraft/worldgen/noise/pillar_rareness.json
++ minecraft/worldgen/noise/pillar_thickness.json
++ minecraft/worldgen/noise/pillar.json
++ minecraft/worldgen/noise/powder_snow.json
++ minecraft/worldgen/noise/ridge.json
++ minecraft/worldgen/noise/soul_sand_layer.json
++ minecraft/worldgen/noise/spaghetti_2d_elevation.json
++ minecraft/worldgen/noise/spaghetti_2d_modulator.json
++ minecraft/worldgen/noise/spaghetti_2d_thickness.json
++ minecraft/worldgen/noise/spaghetti_2d.json
++ minecraft/worldgen/noise/spaghetti_3d_1.json
++ minecraft/worldgen/noise/spaghetti_3d_2.json
++ minecraft/worldgen/noise/spaghetti_3d_rarity.json
++ minecraft/worldgen/noise/spaghetti_3d_thickness.json
++ minecraft/worldgen/noise/spaghetti_roughness_modulator.json
++ minecraft/worldgen/noise/spaghetti_roughness.json
++ minecraft/worldgen/noise/surface_secondary.json
++ minecraft/worldgen/noise/surface_swamp.json
++ minecraft/worldgen/noise/surface.json
++ minecraft/worldgen/noise/temperature_large.json
++ minecraft/worldgen/noise/temperature.json
++ minecraft/worldgen/noise/vegetation_large.json
++ minecraft/worldgen/noise/vegetation.json
++ minecraft/worldgen/placed_feature/acacia_checked.json
++ minecraft/worldgen/placed_feature/acacia.json
++ minecraft/worldgen/placed_feature/amethyst_geode.json
++ minecraft/worldgen/placed_feature/bamboo_light.json
++ minecraft/worldgen/placed_feature/bamboo_vegetation.json
++ minecraft/worldgen/placed_feature/bamboo.json
++ minecraft/worldgen/placed_feature/basalt_blobs.json
++ minecraft/worldgen/placed_feature/basalt_pillar.json
++ minecraft/worldgen/placed_feature/birch_bees_0002.json
++ minecraft/worldgen/placed_feature/birch_bees_002.json
++ minecraft/worldgen/placed_feature/birch_checked.json
++ minecraft/worldgen/placed_feature/birch_tall.json
++ minecraft/worldgen/placed_feature/blackstone_blobs.json
++ minecraft/worldgen/placed_feature/blue_ice.json
++ minecraft/worldgen/placed_feature/brown_mushroom_nether.json
++ minecraft/worldgen/placed_feature/brown_mushroom_normal.json
++ minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
++ minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
++ minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
++ minecraft/worldgen/placed_feature/cave_vines.json
++ minecraft/worldgen/placed_feature/chorus_plant.json
++ minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
++ minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
++ minecraft/worldgen/placed_feature/crimson_fungi.json
++ minecraft/worldgen/placed_feature/dark_forest_vegetation.json
++ minecraft/worldgen/placed_feature/dark_oak_checked.json
++ minecraft/worldgen/placed_feature/delta.json
++ minecraft/worldgen/placed_feature/desert_well.json
++ minecraft/worldgen/placed_feature/disk_clay.json
++ minecraft/worldgen/placed_feature/disk_grass.json
++ minecraft/worldgen/placed_feature/disk_gravel.json
++ minecraft/worldgen/placed_feature/disk_sand.json
++ minecraft/worldgen/placed_feature/dripstone_cluster.json
++ minecraft/worldgen/placed_feature/end_gateway_return.json
++ minecraft/worldgen/placed_feature/end_island_decorated.json
++ minecraft/worldgen/placed_feature/end_spike.json
++ minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
++ minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
++ minecraft/worldgen/placed_feature/fancy_oak_bees.json
++ minecraft/worldgen/placed_feature/fancy_oak_checked.json
++ minecraft/worldgen/placed_feature/flower_default.json
++ minecraft/worldgen/placed_feature/flower_flower_forest.json
++ minecraft/worldgen/placed_feature/flower_forest_flowers.json
++ minecraft/worldgen/placed_feature/flower_meadow.json
++ minecraft/worldgen/placed_feature/flower_plain.json
++ minecraft/worldgen/placed_feature/flower_plains.json
++ minecraft/worldgen/placed_feature/flower_swamp.json
++ minecraft/worldgen/placed_feature/flower_warm.json
++ minecraft/worldgen/placed_feature/forest_flowers.json
++ minecraft/worldgen/placed_feature/forest_rock.json
++ minecraft/worldgen/placed_feature/fossil_lower.json
++ minecraft/worldgen/placed_feature/fossil_upper.json
++ minecraft/worldgen/placed_feature/freeze_top_layer.json
++ minecraft/worldgen/placed_feature/glow_lichen.json
++ minecraft/worldgen/placed_feature/glowstone_extra.json
++ minecraft/worldgen/placed_feature/glowstone.json
++ minecraft/worldgen/placed_feature/grass_bonemeal.json
++ minecraft/worldgen/placed_feature/ice_patch.json
++ minecraft/worldgen/placed_feature/ice_spike.json
++ minecraft/worldgen/placed_feature/iceberg_blue.json
++ minecraft/worldgen/placed_feature/iceberg_packed.json
++ minecraft/worldgen/placed_feature/jungle_bush.json
++ minecraft/worldgen/placed_feature/jungle_tree.json
++ minecraft/worldgen/placed_feature/kelp_cold.json
++ minecraft/worldgen/placed_feature/kelp_warm.json
++ minecraft/worldgen/placed_feature/lake_lava_surface.json
++ minecraft/worldgen/placed_feature/lake_lava_underground.json
++ minecraft/worldgen/placed_feature/large_basalt_columns.json
++ minecraft/worldgen/placed_feature/large_dripstone.json
++ minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
++ minecraft/worldgen/placed_feature/lush_caves_clay.json
++ minecraft/worldgen/placed_feature/lush_caves_vegetation.json
++ minecraft/worldgen/placed_feature/mangrove_checked.json
++ minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
++ minecraft/worldgen/placed_feature/mega_pine_checked.json
++ minecraft/worldgen/placed_feature/mega_spruce_checked.json
++ minecraft/worldgen/placed_feature/monster_room_deep.json
++ minecraft/worldgen/placed_feature/monster_room.json
++ minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
++ minecraft/worldgen/placed_feature/nether_sprouts.json
++ minecraft/worldgen/placed_feature/oak_bees_0002.json
++ minecraft/worldgen/placed_feature/oak_bees_002.json
++ minecraft/worldgen/placed_feature/oak_checked.json
++ minecraft/worldgen/placed_feature/oak.json
++ minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
++ minecraft/worldgen/placed_feature/ore_andesite_lower.json
++ minecraft/worldgen/placed_feature/ore_andesite_upper.json
++ minecraft/worldgen/placed_feature/ore_blackstone.json
++ minecraft/worldgen/placed_feature/ore_clay.json
++ minecraft/worldgen/placed_feature/ore_coal_lower.json
++ minecraft/worldgen/placed_feature/ore_coal_upper.json
++ minecraft/worldgen/placed_feature/ore_copper_large.json
++ minecraft/worldgen/placed_feature/ore_copper.json
++ minecraft/worldgen/placed_feature/ore_debris_small.json
++ minecraft/worldgen/placed_feature/ore_diamond_buried.json
++ minecraft/worldgen/placed_feature/ore_diamond_large.json
++ minecraft/worldgen/placed_feature/ore_diamond.json
++ minecraft/worldgen/placed_feature/ore_diorite_lower.json
++ minecraft/worldgen/placed_feature/ore_diorite_upper.json
++ minecraft/worldgen/placed_feature/ore_dirt.json
++ minecraft/worldgen/placed_feature/ore_emerald.json
++ minecraft/worldgen/placed_feature/ore_gold_deltas.json
++ minecraft/worldgen/placed_feature/ore_gold_extra.json
++ minecraft/worldgen/placed_feature/ore_gold_lower.json
++ minecraft/worldgen/placed_feature/ore_gold_nether.json
++ minecraft/worldgen/placed_feature/ore_gold.json
++ minecraft/worldgen/placed_feature/ore_granite_lower.json
++ minecraft/worldgen/placed_feature/ore_granite_upper.json
++ minecraft/worldgen/placed_feature/ore_gravel_nether.json
++ minecraft/worldgen/placed_feature/ore_gravel.json
++ minecraft/worldgen/placed_feature/ore_infested.json
++ minecraft/worldgen/placed_feature/ore_iron_middle.json
++ minecraft/worldgen/placed_feature/ore_iron_small.json
++ minecraft/worldgen/placed_feature/ore_iron_upper.json
++ minecraft/worldgen/placed_feature/ore_lapis_buried.json
++ minecraft/worldgen/placed_feature/ore_lapis.json
++ minecraft/worldgen/placed_feature/ore_magma.json
++ minecraft/worldgen/placed_feature/ore_quartz_deltas.json
++ minecraft/worldgen/placed_feature/ore_quartz_nether.json
++ minecraft/worldgen/placed_feature/ore_redstone_lower.json
++ minecraft/worldgen/placed_feature/ore_redstone.json
++ minecraft/worldgen/placed_feature/ore_soul_sand.json
++ minecraft/worldgen/placed_feature/ore_tuff.json
++ minecraft/worldgen/placed_feature/patch_berry_bush.json
++ minecraft/worldgen/placed_feature/patch_berry_common.json
++ minecraft/worldgen/placed_feature/patch_berry_rare.json
++ minecraft/worldgen/placed_feature/patch_cactus_decorated.json
++ minecraft/worldgen/placed_feature/patch_cactus_desert.json
++ minecraft/worldgen/placed_feature/patch_cactus.json
++ minecraft/worldgen/placed_feature/patch_crimson_roots.json
++ minecraft/worldgen/placed_feature/patch_dead_bush_2.json
++ minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
++ minecraft/worldgen/placed_feature/patch_dead_bush.json
++ minecraft/worldgen/placed_feature/patch_fire.json
++ minecraft/worldgen/placed_feature/patch_grass_badlands.json
++ minecraft/worldgen/placed_feature/patch_grass_forest.json
++ minecraft/worldgen/placed_feature/patch_grass_jungle.json
++ minecraft/worldgen/placed_feature/patch_grass_normal.json
++ minecraft/worldgen/placed_feature/patch_grass_plain.json
++ minecraft/worldgen/placed_feature/patch_grass_savanna.json
++ minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
++ minecraft/worldgen/placed_feature/patch_grass_taiga.json
++ minecraft/worldgen/placed_feature/patch_large_fern.json
++ minecraft/worldgen/placed_feature/patch_melon_sparse.json
++ minecraft/worldgen/placed_feature/patch_melon.json
++ minecraft/worldgen/placed_feature/patch_pumpkin.json
++ minecraft/worldgen/placed_feature/patch_soul_fire.json
++ minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
++ minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
++ minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
++ minecraft/worldgen/placed_feature/patch_sugar_cane.json
++ minecraft/worldgen/placed_feature/patch_sunflower.json
++ minecraft/worldgen/placed_feature/patch_taiga_grass.json
++ minecraft/worldgen/placed_feature/patch_tall_grass_2.json
++ minecraft/worldgen/placed_feature/patch_tall_grass.json
++ minecraft/worldgen/placed_feature/patch_waterlily.json
++ minecraft/worldgen/placed_feature/pile_hay.json
++ minecraft/worldgen/placed_feature/pile_ice.json
++ minecraft/worldgen/placed_feature/pile_melon.json
++ minecraft/worldgen/placed_feature/pile_pumpkin.json
++ minecraft/worldgen/placed_feature/pile_snow.json
++ minecraft/worldgen/placed_feature/pine_checked.json
++ minecraft/worldgen/placed_feature/pine_on_snow.json
++ minecraft/worldgen/placed_feature/pine.json
++ minecraft/worldgen/placed_feature/pointed_dripstone.json
++ minecraft/worldgen/placed_feature/red_mushroom_nether.json
++ minecraft/worldgen/placed_feature/red_mushroom_normal.json
++ minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
++ minecraft/worldgen/placed_feature/red_mushroom_swamp.json
++ minecraft/worldgen/placed_feature/red_mushroom_taiga.json
++ minecraft/worldgen/placed_feature/rooted_azalea_tree.json
++ minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
++ minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
++ minecraft/worldgen/placed_feature/sculk_vein.json
++ minecraft/worldgen/placed_feature/sea_pickle.json
++ minecraft/worldgen/placed_feature/seagrass_cold.json
++ minecraft/worldgen/placed_feature/seagrass_deep_cold.json
++ minecraft/worldgen/placed_feature/seagrass_deep_warm.json
++ minecraft/worldgen/placed_feature/seagrass_deep.json
++ minecraft/worldgen/placed_feature/seagrass_normal.json
++ minecraft/worldgen/placed_feature/seagrass_river.json
++ minecraft/worldgen/placed_feature/seagrass_simple.json
++ minecraft/worldgen/placed_feature/seagrass_swamp.json
++ minecraft/worldgen/placed_feature/seagrass_warm.json
++ minecraft/worldgen/placed_feature/small_basalt_columns.json
++ minecraft/worldgen/placed_feature/spore_blossom.json
++ minecraft/worldgen/placed_feature/spring_closed_double.json
++ minecraft/worldgen/placed_feature/spring_closed.json
++ minecraft/worldgen/placed_feature/spring_delta.json
++ minecraft/worldgen/placed_feature/spring_lava_frozen.json
++ minecraft/worldgen/placed_feature/spring_lava.json
++ minecraft/worldgen/placed_feature/spring_open.json
++ minecraft/worldgen/placed_feature/spring_water.json
++ minecraft/worldgen/placed_feature/spruce_checked.json
++ minecraft/worldgen/placed_feature/spruce_on_snow.json
++ minecraft/worldgen/placed_feature/spruce.json
++ minecraft/worldgen/placed_feature/super_birch_bees_0002.json
++ minecraft/worldgen/placed_feature/super_birch_bees.json
++ minecraft/worldgen/placed_feature/tall_mangrove_checked.json
++ minecraft/worldgen/placed_feature/trees_badlands.json
++ minecraft/worldgen/placed_feature/trees_birch_and_oak.json
++ minecraft/worldgen/placed_feature/trees_birch.json
++ minecraft/worldgen/placed_feature/trees_flower_forest.json
++ minecraft/worldgen/placed_feature/trees_grove.json
++ minecraft/worldgen/placed_feature/trees_jungle.json
++ minecraft/worldgen/placed_feature/trees_mangrove.json
++ minecraft/worldgen/placed_feature/trees_meadow.json
++ minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
++ minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
++ minecraft/worldgen/placed_feature/trees_plains.json
++ minecraft/worldgen/placed_feature/trees_savanna.json
++ minecraft/worldgen/placed_feature/trees_snowy.json
++ minecraft/worldgen/placed_feature/trees_sparse_jungle.json
++ minecraft/worldgen/placed_feature/trees_swamp.json
++ minecraft/worldgen/placed_feature/trees_taiga.json
++ minecraft/worldgen/placed_feature/trees_water.json
++ minecraft/worldgen/placed_feature/trees_windswept_forest.json
++ minecraft/worldgen/placed_feature/trees_windswept_hills.json
++ minecraft/worldgen/placed_feature/trees_windswept_savanna.json
++ minecraft/worldgen/placed_feature/twisting_vines.json
++ minecraft/worldgen/placed_feature/underwater_magma.json
++ minecraft/worldgen/placed_feature/vines.json
++ minecraft/worldgen/placed_feature/void_start_platform.json
++ minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
++ minecraft/worldgen/placed_feature/warped_forest_vegetation.json
++ minecraft/worldgen/placed_feature/warped_fungi.json
++ minecraft/worldgen/placed_feature/weeping_vines.json
++ minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
++ minecraft/worldgen/processor_list/ancient_city_start_degradation.json
++ minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
++ minecraft/worldgen/processor_list/bastion_generic_degradation.json
++ minecraft/worldgen/processor_list/bottom_rampart.json
++ minecraft/worldgen/processor_list/bridge.json
++ minecraft/worldgen/processor_list/empty.json
++ minecraft/worldgen/processor_list/entrance_replacement.json
++ minecraft/worldgen/processor_list/farm_desert.json
++ minecraft/worldgen/processor_list/farm_plains.json
++ minecraft/worldgen/processor_list/farm_savanna.json
++ minecraft/worldgen/processor_list/farm_snowy.json
++ minecraft/worldgen/processor_list/farm_taiga.json
++ minecraft/worldgen/processor_list/fossil_coal.json
++ minecraft/worldgen/processor_list/fossil_diamonds.json
++ minecraft/worldgen/processor_list/fossil_rot.json
++ minecraft/worldgen/processor_list/high_rampart.json
++ minecraft/worldgen/processor_list/high_wall.json
++ minecraft/worldgen/processor_list/housing.json
++ minecraft/worldgen/processor_list/mossify_10_percent.json
++ minecraft/worldgen/processor_list/mossify_20_percent.json
++ minecraft/worldgen/processor_list/mossify_70_percent.json
++ minecraft/worldgen/processor_list/outpost_rot.json
++ minecraft/worldgen/processor_list/rampart_degradation.json
++ minecraft/worldgen/processor_list/roof.json
++ minecraft/worldgen/processor_list/side_wall_degradation.json
++ minecraft/worldgen/processor_list/stable_degradation.json
++ minecraft/worldgen/processor_list/street_plains.json
++ minecraft/worldgen/processor_list/street_savanna.json
++ minecraft/worldgen/processor_list/street_snowy_or_taiga.json
++ minecraft/worldgen/processor_list/treasure_rooms.json
++ minecraft/worldgen/processor_list/zombie_desert.json
++ minecraft/worldgen/processor_list/zombie_plains.json
++ minecraft/worldgen/processor_list/zombie_savanna.json
++ minecraft/worldgen/processor_list/zombie_snowy.json
++ minecraft/worldgen/processor_list/zombie_taiga.json
++ minecraft/worldgen/structure_set/ancient_cities.json
++ minecraft/worldgen/structure_set/buried_treasures.json
++ minecraft/worldgen/structure_set/desert_pyramids.json
++ minecraft/worldgen/structure_set/end_cities.json
++ minecraft/worldgen/structure_set/igloos.json
++ minecraft/worldgen/structure_set/jungle_temples.json
++ minecraft/worldgen/structure_set/mineshafts.json
++ minecraft/worldgen/structure_set/nether_complexes.json
++ minecraft/worldgen/structure_set/nether_fossils.json
++ minecraft/worldgen/structure_set/ocean_monuments.json
++ minecraft/worldgen/structure_set/ocean_ruins.json
++ minecraft/worldgen/structure_set/pillager_outposts.json
++ minecraft/worldgen/structure_set/ruined_portals.json
++ minecraft/worldgen/structure_set/shipwrecks.json
++ minecraft/worldgen/structure_set/strongholds.json
++ minecraft/worldgen/structure_set/swamp_huts.json
++ minecraft/worldgen/structure_set/villages.json
++ minecraft/worldgen/structure_set/woodland_mansions.json
++ minecraft/worldgen/structure/ancient_city.json
++ minecraft/worldgen/structure/bastion_remnant.json
++ minecraft/worldgen/structure/buried_treasure.json
++ minecraft/worldgen/structure/desert_pyramid.json
++ minecraft/worldgen/structure/end_city.json
++ minecraft/worldgen/structure/fortress.json
++ minecraft/worldgen/structure/igloo.json
++ minecraft/worldgen/structure/jungle_pyramid.json
++ minecraft/worldgen/structure/mansion.json
++ minecraft/worldgen/structure/mineshaft_mesa.json
++ minecraft/worldgen/structure/mineshaft.json
++ minecraft/worldgen/structure/monument.json
++ minecraft/worldgen/structure/nether_fossil.json
++ minecraft/worldgen/structure/ocean_ruin_cold.json
++ minecraft/worldgen/structure/ocean_ruin_warm.json
++ minecraft/worldgen/structure/pillager_outpost.json
++ minecraft/worldgen/structure/ruined_portal_desert.json
++ minecraft/worldgen/structure/ruined_portal_jungle.json
++ minecraft/worldgen/structure/ruined_portal_mountain.json
++ minecraft/worldgen/structure/ruined_portal_nether.json
++ minecraft/worldgen/structure/ruined_portal_ocean.json
++ minecraft/worldgen/structure/ruined_portal_swamp.json
++ minecraft/worldgen/structure/ruined_portal.json
++ minecraft/worldgen/structure/shipwreck_beached.json
++ minecraft/worldgen/structure/shipwreck.json
++ minecraft/worldgen/structure/stronghold.json
++ minecraft/worldgen/structure/swamp_hut.json
++ minecraft/worldgen/structure/village_desert.json
++ minecraft/worldgen/structure/village_plains.json
++ minecraft/worldgen/structure/village_savanna.json
++ minecraft/worldgen/structure/village_snowy.json
++ minecraft/worldgen/structure/village_taiga.json
++ minecraft/worldgen/template_pool/ancient_city/city_center.json
++ minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
++ minecraft/worldgen/template_pool/ancient_city/city/entrance.json
++ minecraft/worldgen/template_pool/ancient_city/sculk.json
++ minecraft/worldgen/template_pool/ancient_city/structures.json
++ minecraft/worldgen/template_pool/ancient_city/walls.json
++ minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
++ minecraft/worldgen/template_pool/bastion/blocks/gold.json
++ minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
++ minecraft/worldgen/template_pool/bastion/bridge/connectors.json
++ minecraft/worldgen/template_pool/bastion/bridge/legs.json
++ minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
++ minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
++ minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
++ minecraft/worldgen/template_pool/bastion/bridge/walls.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
++ minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
++ minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
++ minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
++ minecraft/worldgen/template_pool/bastion/mobs/piglin.json
++ minecraft/worldgen/template_pool/bastion/starts.json
++ minecraft/worldgen/template_pool/bastion/treasure/bases.json
++ minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
++ minecraft/worldgen/template_pool/bastion/treasure/brains.json
++ minecraft/worldgen/template_pool/bastion/treasure/connectors.json
++ minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
++ minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
++ minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
++ minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
++ minecraft/worldgen/template_pool/bastion/treasure/entrances.json
++ minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
++ minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
++ minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
++ minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
++ minecraft/worldgen/template_pool/bastion/treasure/roofs.json
++ minecraft/worldgen/template_pool/bastion/treasure/stairs.json
++ minecraft/worldgen/template_pool/bastion/treasure/walls.json
++ minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
++ minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
++ minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
++ minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
++ minecraft/worldgen/template_pool/bastion/units/center_pieces.json
++ minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
++ minecraft/worldgen/template_pool/bastion/units/edges.json
++ minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
++ minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
++ minecraft/worldgen/template_pool/bastion/units/pathways.json
++ minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
++ minecraft/worldgen/template_pool/bastion/units/ramparts.json
++ minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
++ minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
++ minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
++ minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
++ minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
++ minecraft/worldgen/template_pool/bastion/units/wall_units.json
++ minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
++ minecraft/worldgen/template_pool/empty.json
++ minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
++ minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
++ minecraft/worldgen/template_pool/pillager_outpost/features.json
++ minecraft/worldgen/template_pool/pillager_outpost/towers.json
++ minecraft/worldgen/template_pool/village/common/animals.json
++ minecraft/worldgen/template_pool/village/common/butcher_animals.json
++ minecraft/worldgen/template_pool/village/common/cats.json
++ minecraft/worldgen/template_pool/village/common/iron_golem.json
++ minecraft/worldgen/template_pool/village/common/sheep.json
++ minecraft/worldgen/template_pool/village/common/well_bottoms.json
++ minecraft/worldgen/template_pool/village/desert/camel.json
++ minecraft/worldgen/template_pool/village/desert/decor.json
++ minecraft/worldgen/template_pool/village/desert/houses.json
++ minecraft/worldgen/template_pool/village/desert/streets.json
++ minecraft/worldgen/template_pool/village/desert/terminators.json
++ minecraft/worldgen/template_pool/village/desert/town_centers.json
++ minecraft/worldgen/template_pool/village/desert/villagers.json
++ minecraft/worldgen/template_pool/village/desert/zombie/decor.json
++ minecraft/worldgen/template_pool/village/desert/zombie/houses.json
++ minecraft/worldgen/template_pool/village/desert/zombie/streets.json
++ minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
++ minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
++ minecraft/worldgen/template_pool/village/plains/decor.json
++ minecraft/worldgen/template_pool/village/plains/houses.json
++ minecraft/worldgen/template_pool/village/plains/streets.json
++ minecraft/worldgen/template_pool/village/plains/terminators.json
++ minecraft/worldgen/template_pool/village/plains/town_centers.json
++ minecraft/worldgen/template_pool/village/plains/trees.json
++ minecraft/worldgen/template_pool/village/plains/villagers.json
++ minecraft/worldgen/template_pool/village/plains/zombie/decor.json
++ minecraft/worldgen/template_pool/village/plains/zombie/houses.json
++ minecraft/worldgen/template_pool/village/plains/zombie/streets.json
++ minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
++ minecraft/worldgen/template_pool/village/savanna/decor.json
++ minecraft/worldgen/template_pool/village/savanna/houses.json
++ minecraft/worldgen/template_pool/village/savanna/streets.json
++ minecraft/worldgen/template_pool/village/savanna/terminators.json
++ minecraft/worldgen/template_pool/village/savanna/town_centers.json
++ minecraft/worldgen/template_pool/village/savanna/trees.json
++ minecraft/worldgen/template_pool/village/savanna/villagers.json
++ minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
++ minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
++ minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
++ minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
++ minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
++ minecraft/worldgen/template_pool/village/snowy/decor.json
++ minecraft/worldgen/template_pool/village/snowy/houses.json
++ minecraft/worldgen/template_pool/village/snowy/streets.json
++ minecraft/worldgen/template_pool/village/snowy/terminators.json
++ minecraft/worldgen/template_pool/village/snowy/town_centers.json
++ minecraft/worldgen/template_pool/village/snowy/trees.json
++ minecraft/worldgen/template_pool/village/snowy/villagers.json
++ minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
++ minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
++ minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
++ minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
++ minecraft/worldgen/template_pool/village/taiga/decor.json
++ minecraft/worldgen/template_pool/village/taiga/houses.json
++ minecraft/worldgen/template_pool/village/taiga/streets.json
++ minecraft/worldgen/template_pool/village/taiga/terminators.json
++ minecraft/worldgen/template_pool/village/taiga/town_centers.json
++ minecraft/worldgen/template_pool/village/taiga/villagers.json
++ minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
++ minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
++ minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
++ minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
++ minecraft/worldgen/world_preset/amplified.json
++ minecraft/worldgen/world_preset/debug_all_block_states.json
++ minecraft/worldgen/world_preset/flat.json
++ minecraft/worldgen/world_preset/large_biomes.json
++ minecraft/worldgen/world_preset/normal.json
++ minecraft/worldgen/world_preset/single_biome_surface.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/acacia_hanging_sign.json
++ minecraft/blockstates/acacia_wall_hanging_sign.json
++ minecraft/blockstates/bamboo_button.json
++ minecraft/blockstates/bamboo_door.json
++ minecraft/blockstates/bamboo_fence_gate.json
++ minecraft/blockstates/bamboo_fence.json
++ minecraft/blockstates/bamboo_hanging_sign.json
++ minecraft/blockstates/bamboo_mosaic_slab.json
++ minecraft/blockstates/bamboo_mosaic_stairs.json
++ minecraft/blockstates/bamboo_mosaic.json
++ minecraft/blockstates/bamboo_planks.json
++ minecraft/blockstates/bamboo_pressure_plate.json
++ minecraft/blockstates/bamboo_sign.json
++ minecraft/blockstates/bamboo_slab.json
++ minecraft/blockstates/bamboo_stairs.json
++ minecraft/blockstates/bamboo_trapdoor.json
++ minecraft/blockstates/bamboo_wall_hanging_sign.json
++ minecraft/blockstates/bamboo_wall_sign.json
++ minecraft/blockstates/birch_hanging_sign.json
++ minecraft/blockstates/birch_wall_hanging_sign.json
++ minecraft/blockstates/chiseled_bookshelf.json
++ minecraft/blockstates/crimson_hanging_sign.json
++ minecraft/blockstates/crimson_wall_hanging_sign.json
++ minecraft/blockstates/dark_oak_hanging_sign.json
++ minecraft/blockstates/dark_oak_wall_hanging_sign.json
++ minecraft/blockstates/jungle_hanging_sign.json
++ minecraft/blockstates/jungle_wall_hanging_sign.json
++ minecraft/blockstates/mangrove_hanging_sign.json
++ minecraft/blockstates/mangrove_wall_hanging_sign.json
++ minecraft/blockstates/oak_hanging_sign.json
++ minecraft/blockstates/oak_wall_hanging_sign.json
++ minecraft/blockstates/spruce_hanging_sign.json
++ minecraft/blockstates/spruce_wall_hanging_sign.json
++ minecraft/blockstates/warped_hanging_sign.json
++ minecraft/blockstates/warped_wall_hanging_sign.json
++ minecraft/models/block/acacia_hanging_sign.json
++ minecraft/models/block/bamboo_button_inventory.json
++ minecraft/models/block/bamboo_button_pressed.json
++ minecraft/models/block/bamboo_button.json
++ minecraft/models/block/bamboo_door_bottom_left_open.json
++ minecraft/models/block/bamboo_door_bottom_left.json
++ minecraft/models/block/bamboo_door_bottom_right_open.json
++ minecraft/models/block/bamboo_door_bottom_right.json
++ minecraft/models/block/bamboo_door_top_left_open.json
++ minecraft/models/block/bamboo_door_top_left.json
++ minecraft/models/block/bamboo_door_top_right_open.json
++ minecraft/models/block/bamboo_door_top_right.json
++ minecraft/models/block/bamboo_fence_gate_open.json
++ minecraft/models/block/bamboo_fence_gate_wall_open.json
++ minecraft/models/block/bamboo_fence_gate_wall.json
++ minecraft/models/block/bamboo_fence_gate.json
++ minecraft/models/block/bamboo_fence_inventory.json
++ minecraft/models/block/bamboo_fence_post.json
++ minecraft/models/block/bamboo_fence_side_east.json
++ minecraft/models/block/bamboo_fence_side_north.json
++ minecraft/models/block/bamboo_fence_side_south.json
++ minecraft/models/block/bamboo_fence_side_west.json
++ minecraft/models/block/bamboo_hanging_sign.json
++ minecraft/models/block/bamboo_mosaic_slab_top.json
++ minecraft/models/block/bamboo_mosaic_slab.json
++ minecraft/models/block/bamboo_mosaic_stairs_inner.json
++ minecraft/models/block/bamboo_mosaic_stairs_outer.json
++ minecraft/models/block/bamboo_mosaic_stairs.json
++ minecraft/models/block/bamboo_mosaic.json
++ minecraft/models/block/bamboo_planks.json
++ minecraft/models/block/bamboo_pressure_plate_down.json
++ minecraft/models/block/bamboo_pressure_plate.json
++ minecraft/models/block/bamboo_sign.json
++ minecraft/models/block/bamboo_slab_top.json
++ minecraft/models/block/bamboo_slab.json
++ minecraft/models/block/bamboo_stairs_inner.json
++ minecraft/models/block/bamboo_stairs_outer.json
++ minecraft/models/block/bamboo_stairs.json
++ minecraft/models/block/bamboo_trapdoor_bottom.json
++ minecraft/models/block/bamboo_trapdoor_open.json
++ minecraft/models/block/bamboo_trapdoor_top.json
++ minecraft/models/block/birch_hanging_sign.json
++ minecraft/models/block/chiseled_bookshelf_stage0.json
++ minecraft/models/block/chiseled_bookshelf_stage1.json
++ minecraft/models/block/chiseled_bookshelf_stage2.json
++ minecraft/models/block/chiseled_bookshelf_stage3.json
++ minecraft/models/block/chiseled_bookshelf_stage4.json
++ minecraft/models/block/chiseled_bookshelf_stage5.json
++ minecraft/models/block/chiseled_bookshelf_stage6.json
++ minecraft/models/block/crimson_hanging_sign.json
++ minecraft/models/block/custom_fence_inventory.json
++ minecraft/models/block/custom_fence_post.json
++ minecraft/models/block/custom_fence_side_east.json
++ minecraft/models/block/custom_fence_side_north.json
++ minecraft/models/block/custom_fence_side_south.json
++ minecraft/models/block/custom_fence_side_west.json
++ minecraft/models/block/dark_oak_hanging_sign.json
++ minecraft/models/block/jungle_hanging_sign.json
++ minecraft/models/block/mangrove_hanging_sign.json
++ minecraft/models/block/oak_hanging_sign.json
++ minecraft/models/block/spruce_hanging_sign.json
++ minecraft/models/block/template_chiseled_bookshelf.json
++ minecraft/models/block/template_custom_fence_gate_open.json
++ minecraft/models/block/template_custom_fence_gate_wall_open.json
++ minecraft/models/block/template_custom_fence_gate_wall.json
++ minecraft/models/block/template_custom_fence_gate.json
++ minecraft/models/block/warped_hanging_sign.json
++ minecraft/models/item/acacia_hanging_sign.json
++ minecraft/models/item/bamboo_button.json
++ minecraft/models/item/bamboo_chest_raft.json
++ minecraft/models/item/bamboo_door.json
++ minecraft/models/item/bamboo_fence_gate.json
++ minecraft/models/item/bamboo_fence.json
++ minecraft/models/item/bamboo_hanging_sign.json
++ minecraft/models/item/bamboo_mosaic_slab.json
++ minecraft/models/item/bamboo_mosaic_stairs.json
++ minecraft/models/item/bamboo_mosaic.json
++ minecraft/models/item/bamboo_planks.json
++ minecraft/models/item/bamboo_pressure_plate.json
++ minecraft/models/item/bamboo_raft.json
++ minecraft/models/item/bamboo_sign.json
++ minecraft/models/item/bamboo_slab.json
++ minecraft/models/item/bamboo_stairs.json
++ minecraft/models/item/bamboo_trapdoor.json
++ minecraft/models/item/birch_hanging_sign.json
++ minecraft/models/item/camel_spawn_egg.json
++ minecraft/models/item/chiseled_bookshelf.json
++ minecraft/models/item/crimson_hanging_sign.json
++ minecraft/models/item/dark_oak_hanging_sign.json
++ minecraft/models/item/jungle_hanging_sign.json
++ minecraft/models/item/mangrove_hanging_sign.json
++ minecraft/models/item/oak_hanging_sign.json
++ minecraft/models/item/spruce_hanging_sign.json
++ minecraft/models/item/warped_hanging_sign.json
+- minecraft/particles/block_marker.json
+- minecraft/particles/block.json
+- minecraft/particles/elder_guardian.json
+- minecraft/particles/explosion_emitter.json
+- minecraft/particles/item_slime.json
+- minecraft/particles/item_snowball.json
+- minecraft/particles/item.json
++ minecraft/textures/block/bamboo_door_bottom.png
++ minecraft/textures/block/bamboo_door_top.png
++ minecraft/textures/block/bamboo_fence_gate_particle.png
++ minecraft/textures/block/bamboo_fence_gate.png
++ minecraft/textures/block/bamboo_fence_particle.png
++ minecraft/textures/block/bamboo_fence.png
++ minecraft/textures/block/bamboo_mosaic.png
++ minecraft/textures/block/bamboo_planks.png
++ minecraft/textures/block/bamboo_trapdoor.png
++ minecraft/textures/block/chiseled_bookshelf_side.png
++ minecraft/textures/block/chiseled_bookshelf_stage0.png
++ minecraft/textures/block/chiseled_bookshelf_stage1.png
++ minecraft/textures/block/chiseled_bookshelf_stage2.png
++ minecraft/textures/block/chiseled_bookshelf_stage3.png
++ minecraft/textures/block/chiseled_bookshelf_stage4.png
++ minecraft/textures/block/chiseled_bookshelf_stage5.png
++ minecraft/textures/block/chiseled_bookshelf_stage6.png
++ minecraft/textures/block/chiseled_bookshelf_top.png
++ minecraft/textures/entity/boat/bamboo.png
++ minecraft/textures/entity/camel/camel.png
++ minecraft/textures/entity/chest_boat/bamboo.png
++ minecraft/textures/entity/signs/bamboo.png
++ minecraft/textures/entity/signs/hanging/acacia.png
++ minecraft/textures/entity/signs/hanging/bamboo.png
++ minecraft/textures/entity/signs/hanging/birch.png
++ minecraft/textures/entity/signs/hanging/crimson.png
++ minecraft/textures/entity/signs/hanging/dark_oak.png
++ minecraft/textures/entity/signs/hanging/jungle.png
++ minecraft/textures/entity/signs/hanging/mangrove.png
++ minecraft/textures/entity/signs/hanging/oak.png
++ minecraft/textures/entity/signs/hanging/spruce.png
++ minecraft/textures/entity/signs/hanging/warped.png
++ minecraft/textures/gui/checkmark.png
++ minecraft/textures/gui/hanging_signs/acacia.png
++ minecraft/textures/gui/hanging_signs/bamboo.png
++ minecraft/textures/gui/hanging_signs/birch.png
++ minecraft/textures/gui/hanging_signs/crimson.png
++ minecraft/textures/gui/hanging_signs/dark_oak.png
++ minecraft/textures/gui/hanging_signs/jungle.png
++ minecraft/textures/gui/hanging_signs/mangrove.png
++ minecraft/textures/gui/hanging_signs/oak.png
++ minecraft/textures/gui/hanging_signs/spruce.png
++ minecraft/textures/gui/hanging_signs/warped.png
++ minecraft/textures/item/acacia_hanging_sign.png
++ minecraft/textures/item/bamboo_chest_raft.png
++ minecraft/textures/item/bamboo_door.png
++ minecraft/textures/item/bamboo_hanging_sign.png
++ minecraft/textures/item/bamboo_raft.png
++ minecraft/textures/item/bamboo_sign.png
++ minecraft/textures/item/birch_hanging_sign.png
++ minecraft/textures/item/crimson_hanging_sign.png
++ minecraft/textures/item/dark_oak_hanging_sign.png
++ minecraft/textures/item/jungle_hanging_sign.png
++ minecraft/textures/item/mangrove_hanging_sign.png
++ minecraft/textures/item/oak_hanging_sign.png
++ minecraft/textures/item/spruce_hanging_sign.png
++ minecraft/textures/item/warped_hanging_sign.png
+- realms/lang/en_us.json
+- realms/textures/gui/realms/checkmark.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
+- reports/minecraft/chat_type/chat.json
+- reports/minecraft/chat_type/emote_command.json
+- reports/minecraft/chat_type/msg_command_incoming.json
+- reports/minecraft/chat_type/msg_command_outgoing.json
+- reports/minecraft/chat_type/say_command.json
+- reports/minecraft/chat_type/team_msg_command_incoming.json
+- reports/minecraft/chat_type/team_msg_command_outgoing.json
+- reports/minecraft/dimension_type/overworld_caves.json
+- reports/minecraft/dimension_type/overworld.json
+- reports/minecraft/dimension_type/the_end.json
+- reports/minecraft/dimension_type/the_nether.json
+- reports/minecraft/worldgen/biome/badlands.json
+- reports/minecraft/worldgen/biome/bamboo_jungle.json
+- reports/minecraft/worldgen/biome/basalt_deltas.json
+- reports/minecraft/worldgen/biome/beach.json
+- reports/minecraft/worldgen/biome/birch_forest.json
+- reports/minecraft/worldgen/biome/cold_ocean.json
+- reports/minecraft/worldgen/biome/crimson_forest.json
+- reports/minecraft/worldgen/biome/dark_forest.json
+- reports/minecraft/worldgen/biome/deep_cold_ocean.json
+- reports/minecraft/worldgen/biome/deep_dark.json
+- reports/minecraft/worldgen/biome/deep_frozen_ocean.json
+- reports/minecraft/worldgen/biome/deep_lukewarm_ocean.json
+- reports/minecraft/worldgen/biome/deep_ocean.json
+- reports/minecraft/worldgen/biome/desert.json
+- reports/minecraft/worldgen/biome/dripstone_caves.json
+- reports/minecraft/worldgen/biome/end_barrens.json
+- reports/minecraft/worldgen/biome/end_highlands.json
+- reports/minecraft/worldgen/biome/end_midlands.json
+- reports/minecraft/worldgen/biome/eroded_badlands.json
+- reports/minecraft/worldgen/biome/flower_forest.json
+- reports/minecraft/worldgen/biome/forest.json
+- reports/minecraft/worldgen/biome/frozen_ocean.json
+- reports/minecraft/worldgen/biome/frozen_peaks.json
+- reports/minecraft/worldgen/biome/frozen_river.json
+- reports/minecraft/worldgen/biome/grove.json
+- reports/minecraft/worldgen/biome/ice_spikes.json
+- reports/minecraft/worldgen/biome/jagged_peaks.json
+- reports/minecraft/worldgen/biome/jungle.json
+- reports/minecraft/worldgen/biome/lukewarm_ocean.json
+- reports/minecraft/worldgen/biome/lush_caves.json
+- reports/minecraft/worldgen/biome/mangrove_swamp.json
+- reports/minecraft/worldgen/biome/meadow.json
+- reports/minecraft/worldgen/biome/mushroom_fields.json
+- reports/minecraft/worldgen/biome/nether_wastes.json
+- reports/minecraft/worldgen/biome/ocean.json
+- reports/minecraft/worldgen/biome/old_growth_birch_forest.json
+- reports/minecraft/worldgen/biome/old_growth_pine_taiga.json
+- reports/minecraft/worldgen/biome/old_growth_spruce_taiga.json
+- reports/minecraft/worldgen/biome/plains.json
+- reports/minecraft/worldgen/biome/river.json
+- reports/minecraft/worldgen/biome/savanna_plateau.json
+- reports/minecraft/worldgen/biome/savanna.json
+- reports/minecraft/worldgen/biome/small_end_islands.json
+- reports/minecraft/worldgen/biome/snowy_beach.json
+- reports/minecraft/worldgen/biome/snowy_plains.json
+- reports/minecraft/worldgen/biome/snowy_slopes.json
+- reports/minecraft/worldgen/biome/snowy_taiga.json
+- reports/minecraft/worldgen/biome/soul_sand_valley.json
+- reports/minecraft/worldgen/biome/sparse_jungle.json
+- reports/minecraft/worldgen/biome/stony_peaks.json
+- reports/minecraft/worldgen/biome/stony_shore.json
+- reports/minecraft/worldgen/biome/sunflower_plains.json
+- reports/minecraft/worldgen/biome/swamp.json
+- reports/minecraft/worldgen/biome/taiga.json
+- reports/minecraft/worldgen/biome/the_end.json
+- reports/minecraft/worldgen/biome/the_void.json
+- reports/minecraft/worldgen/biome/warm_ocean.json
+- reports/minecraft/worldgen/biome/warped_forest.json
+- reports/minecraft/worldgen/biome/windswept_forest.json
+- reports/minecraft/worldgen/biome/windswept_gravelly_hills.json
+- reports/minecraft/worldgen/biome/windswept_hills.json
+- reports/minecraft/worldgen/biome/windswept_savanna.json
+- reports/minecraft/worldgen/biome/wooded_badlands.json
+- reports/minecraft/worldgen/configured_carver/canyon.json
+- reports/minecraft/worldgen/configured_carver/cave_extra_underground.json
+- reports/minecraft/worldgen/configured_carver/cave.json
+- reports/minecraft/worldgen/configured_carver/nether_cave.json
+- reports/minecraft/worldgen/configured_feature/acacia.json
+- reports/minecraft/worldgen/configured_feature/amethyst_geode.json
+- reports/minecraft/worldgen/configured_feature/azalea_tree.json
+- reports/minecraft/worldgen/configured_feature/bamboo_no_podzol.json
+- reports/minecraft/worldgen/configured_feature/bamboo_some_podzol.json
+- reports/minecraft/worldgen/configured_feature/bamboo_vegetation.json
+- reports/minecraft/worldgen/configured_feature/basalt_blobs.json
+- reports/minecraft/worldgen/configured_feature/basalt_pillar.json
+- reports/minecraft/worldgen/configured_feature/birch_bees_0002.json
+- reports/minecraft/worldgen/configured_feature/birch_bees_002.json
+- reports/minecraft/worldgen/configured_feature/birch_bees_005.json
+- reports/minecraft/worldgen/configured_feature/birch_tall.json
+- reports/minecraft/worldgen/configured_feature/birch.json
+- reports/minecraft/worldgen/configured_feature/blackstone_blobs.json
+- reports/minecraft/worldgen/configured_feature/blue_ice.json
+- reports/minecraft/worldgen/configured_feature/bonus_chest.json
+- reports/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
+- reports/minecraft/worldgen/configured_feature/cave_vine.json
+- reports/minecraft/worldgen/configured_feature/chorus_plant.json
+- reports/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
+- reports/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
+- reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation_bonemeal.json
+- reports/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
+- reports/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
+- reports/minecraft/worldgen/configured_feature/crimson_fungus.json
+- reports/minecraft/worldgen/configured_feature/dark_forest_vegetation.json
+- reports/minecraft/worldgen/configured_feature/dark_oak.json
+- reports/minecraft/worldgen/configured_feature/delta.json
+- reports/minecraft/worldgen/configured_feature/desert_well.json
+- reports/minecraft/worldgen/configured_feature/disk_clay.json
+- reports/minecraft/worldgen/configured_feature/disk_grass.json
+- reports/minecraft/worldgen/configured_feature/disk_gravel.json
+- reports/minecraft/worldgen/configured_feature/disk_sand.json
+- reports/minecraft/worldgen/configured_feature/dripleaf.json
+- reports/minecraft/worldgen/configured_feature/dripstone_cluster.json
+- reports/minecraft/worldgen/configured_feature/end_gateway_delayed.json
+- reports/minecraft/worldgen/configured_feature/end_gateway_return.json
+- reports/minecraft/worldgen/configured_feature/end_island.json
+- reports/minecraft/worldgen/configured_feature/end_spike.json
+- reports/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
+- reports/minecraft/worldgen/configured_feature/fancy_oak_bees_002.json
+- reports/minecraft/worldgen/configured_feature/fancy_oak_bees_005.json
+- reports/minecraft/worldgen/configured_feature/fancy_oak_bees.json
+- reports/minecraft/worldgen/configured_feature/fancy_oak.json
+- reports/minecraft/worldgen/configured_feature/flower_default.json
+- reports/minecraft/worldgen/configured_feature/flower_flower_forest.json
+- reports/minecraft/worldgen/configured_feature/flower_meadow.json
+- reports/minecraft/worldgen/configured_feature/flower_plain.json
+- reports/minecraft/worldgen/configured_feature/flower_swamp.json
+- reports/minecraft/worldgen/configured_feature/forest_flowers.json
+- reports/minecraft/worldgen/configured_feature/forest_rock.json
+- reports/minecraft/worldgen/configured_feature/fossil_coal.json
+- reports/minecraft/worldgen/configured_feature/fossil_diamonds.json
+- reports/minecraft/worldgen/configured_feature/freeze_top_layer.json
+- reports/minecraft/worldgen/configured_feature/glow_lichen.json
+- reports/minecraft/worldgen/configured_feature/glowstone_extra.json
+- reports/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
+- reports/minecraft/worldgen/configured_feature/huge_red_mushroom.json
+- reports/minecraft/worldgen/configured_feature/ice_patch.json
+- reports/minecraft/worldgen/configured_feature/ice_spike.json
+- reports/minecraft/worldgen/configured_feature/iceberg_blue.json
+- reports/minecraft/worldgen/configured_feature/iceberg_packed.json
+- reports/minecraft/worldgen/configured_feature/jungle_bush.json
+- reports/minecraft/worldgen/configured_feature/jungle_tree_no_vine.json
+- reports/minecraft/worldgen/configured_feature/jungle_tree.json
+- reports/minecraft/worldgen/configured_feature/kelp.json
+- reports/minecraft/worldgen/configured_feature/lake_lava.json
+- reports/minecraft/worldgen/configured_feature/large_basalt_columns.json
+- reports/minecraft/worldgen/configured_feature/large_dripstone.json
+- reports/minecraft/worldgen/configured_feature/lush_caves_clay.json
+- reports/minecraft/worldgen/configured_feature/mangrove_vegetation.json
+- reports/minecraft/worldgen/configured_feature/mangrove.json
+- reports/minecraft/worldgen/configured_feature/meadow_trees.json
+- reports/minecraft/worldgen/configured_feature/mega_jungle_tree.json
+- reports/minecraft/worldgen/configured_feature/mega_pine.json
+- reports/minecraft/worldgen/configured_feature/mega_spruce.json
+- reports/minecraft/worldgen/configured_feature/monster_room.json
+- reports/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
+- reports/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
+- reports/minecraft/worldgen/configured_feature/moss_patch.json
+- reports/minecraft/worldgen/configured_feature/moss_vegetation.json
+- reports/minecraft/worldgen/configured_feature/mushroom_island_vegetation.json
+- reports/minecraft/worldgen/configured_feature/nether_sprouts_bonemeal.json
+- reports/minecraft/worldgen/configured_feature/nether_sprouts.json
+- reports/minecraft/worldgen/configured_feature/oak_bees_0002.json
+- reports/minecraft/worldgen/configured_feature/oak_bees_002.json
+- reports/minecraft/worldgen/configured_feature/oak_bees_005.json
+- reports/minecraft/worldgen/configured_feature/oak.json
+- reports/minecraft/worldgen/configured_feature/ore_ancient_debris_large.json
+- reports/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
+- reports/minecraft/worldgen/configured_feature/ore_andesite.json
+- reports/minecraft/worldgen/configured_feature/ore_blackstone.json
+- reports/minecraft/worldgen/configured_feature/ore_clay.json
+- reports/minecraft/worldgen/configured_feature/ore_coal_buried.json
+- reports/minecraft/worldgen/configured_feature/ore_coal.json
+- reports/minecraft/worldgen/configured_feature/ore_copper_large.json
+- reports/minecraft/worldgen/configured_feature/ore_copper_small.json
+- reports/minecraft/worldgen/configured_feature/ore_diamond_buried.json
+- reports/minecraft/worldgen/configured_feature/ore_diamond_large.json
+- reports/minecraft/worldgen/configured_feature/ore_diamond_small.json
+- reports/minecraft/worldgen/configured_feature/ore_diorite.json
+- reports/minecraft/worldgen/configured_feature/ore_dirt.json
+- reports/minecraft/worldgen/configured_feature/ore_emerald.json
+- reports/minecraft/worldgen/configured_feature/ore_gold_buried.json
+- reports/minecraft/worldgen/configured_feature/ore_gold.json
+- reports/minecraft/worldgen/configured_feature/ore_granite.json
+- reports/minecraft/worldgen/configured_feature/ore_gravel_nether.json
+- reports/minecraft/worldgen/configured_feature/ore_gravel.json
+- reports/minecraft/worldgen/configured_feature/ore_infested.json
+- reports/minecraft/worldgen/configured_feature/ore_iron_small.json
+- reports/minecraft/worldgen/configured_feature/ore_iron.json
+- reports/minecraft/worldgen/configured_feature/ore_lapis_buried.json
+- reports/minecraft/worldgen/configured_feature/ore_lapis.json
+- reports/minecraft/worldgen/configured_feature/ore_magma.json
+- reports/minecraft/worldgen/configured_feature/ore_nether_gold.json
+- reports/minecraft/worldgen/configured_feature/ore_quartz.json
+- reports/minecraft/worldgen/configured_feature/ore_redstone.json
+- reports/minecraft/worldgen/configured_feature/ore_soul_sand.json
+- reports/minecraft/worldgen/configured_feature/ore_tuff.json
+- reports/minecraft/worldgen/configured_feature/patch_berry_bush.json
+- reports/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
+- reports/minecraft/worldgen/configured_feature/patch_cactus.json
+- reports/minecraft/worldgen/configured_feature/patch_crimson_roots.json
+- reports/minecraft/worldgen/configured_feature/patch_dead_bush.json
+- reports/minecraft/worldgen/configured_feature/patch_fire.json
+- reports/minecraft/worldgen/configured_feature/patch_grass_jungle.json
+- reports/minecraft/worldgen/configured_feature/patch_grass.json
+- reports/minecraft/worldgen/configured_feature/patch_large_fern.json
+- reports/minecraft/worldgen/configured_feature/patch_melon.json
+- reports/minecraft/worldgen/configured_feature/patch_pumpkin.json
+- reports/minecraft/worldgen/configured_feature/patch_red_mushroom.json
+- reports/minecraft/worldgen/configured_feature/patch_soul_fire.json
+- reports/minecraft/worldgen/configured_feature/patch_sugar_cane.json
+- reports/minecraft/worldgen/configured_feature/patch_sunflower.json
+- reports/minecraft/worldgen/configured_feature/patch_taiga_grass.json
+- reports/minecraft/worldgen/configured_feature/patch_tall_grass.json
+- reports/minecraft/worldgen/configured_feature/patch_waterlily.json
+- reports/minecraft/worldgen/configured_feature/pile_hay.json
+- reports/minecraft/worldgen/configured_feature/pile_ice.json
+- reports/minecraft/worldgen/configured_feature/pile_melon.json
+- reports/minecraft/worldgen/configured_feature/pile_pumpkin.json
+- reports/minecraft/worldgen/configured_feature/pile_snow.json
+- reports/minecraft/worldgen/configured_feature/pine.json
+- reports/minecraft/worldgen/configured_feature/pointed_dripstone.json
+- reports/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
+- reports/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
+- reports/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
+- reports/minecraft/worldgen/configured_feature/sculk_vein.json
+- reports/minecraft/worldgen/configured_feature/sea_pickle.json
+- reports/minecraft/worldgen/configured_feature/seagrass_mid.json
+- reports/minecraft/worldgen/configured_feature/seagrass_short.json
+- reports/minecraft/worldgen/configured_feature/seagrass_simple.json
+- reports/minecraft/worldgen/configured_feature/seagrass_slightly_less_short.json
+- reports/minecraft/worldgen/configured_feature/seagrass_tall.json
+- reports/minecraft/worldgen/configured_feature/single_piece_of_grass.json
+- reports/minecraft/worldgen/configured_feature/small_basalt_columns.json
+- reports/minecraft/worldgen/configured_feature/spore_blossom.json
+- reports/minecraft/worldgen/configured_feature/spring_lava_frozen.json
+- reports/minecraft/worldgen/configured_feature/spring_lava_nether.json
+- reports/minecraft/worldgen/configured_feature/spring_lava_overworld.json
+- reports/minecraft/worldgen/configured_feature/spring_nether_closed.json
+- reports/minecraft/worldgen/configured_feature/spring_nether_open.json
+- reports/minecraft/worldgen/configured_feature/spring_water.json
+- reports/minecraft/worldgen/configured_feature/spruce.json
+- reports/minecraft/worldgen/configured_feature/super_birch_bees_0002.json
+- reports/minecraft/worldgen/configured_feature/super_birch_bees.json
+- reports/minecraft/worldgen/configured_feature/swamp_oak.json
+- reports/minecraft/worldgen/configured_feature/tall_mangrove.json
+- reports/minecraft/worldgen/configured_feature/trees_birch_and_oak.json
+- reports/minecraft/worldgen/configured_feature/trees_flower_forest.json
+- reports/minecraft/worldgen/configured_feature/trees_grove.json
+- reports/minecraft/worldgen/configured_feature/trees_jungle.json
+- reports/minecraft/worldgen/configured_feature/trees_old_growth_pine_taiga.json
+- reports/minecraft/worldgen/configured_feature/trees_old_growth_spruce_taiga.json
+- reports/minecraft/worldgen/configured_feature/trees_plains.json
+- reports/minecraft/worldgen/configured_feature/trees_savanna.json
+- reports/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
+- reports/minecraft/worldgen/configured_feature/trees_taiga.json
+- reports/minecraft/worldgen/configured_feature/trees_water.json
+- reports/minecraft/worldgen/configured_feature/trees_windswept_hills.json
+- reports/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
+- reports/minecraft/worldgen/configured_feature/twisting_vines.json
+- reports/minecraft/worldgen/configured_feature/underwater_magma.json
+- reports/minecraft/worldgen/configured_feature/vines.json
+- reports/minecraft/worldgen/configured_feature/void_start_platform.json
+- reports/minecraft/worldgen/configured_feature/warm_ocean_vegetation.json
+- reports/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
+- reports/minecraft/worldgen/configured_feature/warped_forest_vegetation.json
+- reports/minecraft/worldgen/configured_feature/warped_fungus_planted.json
+- reports/minecraft/worldgen/configured_feature/warped_fungus.json
+- reports/minecraft/worldgen/configured_feature/weeping_vines.json
+- reports/minecraft/worldgen/density_function/end/base_3d_noise.json
+- reports/minecraft/worldgen/density_function/end/sloped_cheese.json
+- reports/minecraft/worldgen/density_function/nether/base_3d_noise.json
+- reports/minecraft/worldgen/density_function/overworld_amplified/depth.json
+- reports/minecraft/worldgen/density_function/overworld_amplified/factor.json
+- reports/minecraft/worldgen/density_function/overworld_amplified/jaggedness.json
+- reports/minecraft/worldgen/density_function/overworld_amplified/offset.json
+- reports/minecraft/worldgen/density_function/overworld_amplified/sloped_cheese.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/jaggedness.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/offset.json
+- reports/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
+- reports/minecraft/worldgen/density_function/overworld/base_3d_noise.json
+- reports/minecraft/worldgen/density_function/overworld/caves/entrances.json
+- reports/minecraft/worldgen/density_function/overworld/caves/noodle.json
+- reports/minecraft/worldgen/density_function/overworld/caves/pillars.json
+- reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
+- reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
+- reports/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
+- reports/minecraft/worldgen/density_function/overworld/continents.json
+- reports/minecraft/worldgen/density_function/overworld/depth.json
+- reports/minecraft/worldgen/density_function/overworld/erosion.json
+- reports/minecraft/worldgen/density_function/overworld/factor.json
+- reports/minecraft/worldgen/density_function/overworld/jaggedness.json
+- reports/minecraft/worldgen/density_function/overworld/offset.json
+- reports/minecraft/worldgen/density_function/overworld/ridges_folded.json
+- reports/minecraft/worldgen/density_function/overworld/ridges.json
+- reports/minecraft/worldgen/density_function/overworld/sloped_cheese.json
+- reports/minecraft/worldgen/density_function/shift_x.json
+- reports/minecraft/worldgen/density_function/shift_z.json
+- reports/minecraft/worldgen/density_function/y.json
+- reports/minecraft/worldgen/density_function/zero.json
+- reports/minecraft/worldgen/flat_level_generator_preset/bottomless_pit.json
+- reports/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
+- reports/minecraft/worldgen/flat_level_generator_preset/desert.json
+- reports/minecraft/worldgen/flat_level_generator_preset/overworld.json
+- reports/minecraft/worldgen/flat_level_generator_preset/redstone_ready.json
+- reports/minecraft/worldgen/flat_level_generator_preset/snowy_kingdom.json
+- reports/minecraft/worldgen/flat_level_generator_preset/the_void.json
+- reports/minecraft/worldgen/flat_level_generator_preset/tunnelers_dream.json
+- reports/minecraft/worldgen/flat_level_generator_preset/water_world.json
+- reports/minecraft/worldgen/noise_settings/amplified.json
+- reports/minecraft/worldgen/noise_settings/caves.json
+- reports/minecraft/worldgen/noise_settings/end.json
+- reports/minecraft/worldgen/noise_settings/floating_islands.json
+- reports/minecraft/worldgen/noise_settings/large_biomes.json
+- reports/minecraft/worldgen/noise_settings/nether.json
+- reports/minecraft/worldgen/noise_settings/overworld.json
+- reports/minecraft/worldgen/noise/aquifer_barrier.json
+- reports/minecraft/worldgen/noise/aquifer_fluid_level_floodedness.json
+- reports/minecraft/worldgen/noise/aquifer_fluid_level_spread.json
+- reports/minecraft/worldgen/noise/aquifer_lava.json
+- reports/minecraft/worldgen/noise/badlands_pillar_roof.json
+- reports/minecraft/worldgen/noise/badlands_pillar.json
+- reports/minecraft/worldgen/noise/badlands_surface.json
+- reports/minecraft/worldgen/noise/calcite.json
+- reports/minecraft/worldgen/noise/cave_cheese.json
+- reports/minecraft/worldgen/noise/cave_entrance.json
+- reports/minecraft/worldgen/noise/cave_layer.json
+- reports/minecraft/worldgen/noise/clay_bands_offset.json
+- reports/minecraft/worldgen/noise/continentalness_large.json
+- reports/minecraft/worldgen/noise/continentalness.json
+- reports/minecraft/worldgen/noise/erosion_large.json
+- reports/minecraft/worldgen/noise/erosion.json
+- reports/minecraft/worldgen/noise/gravel_layer.json
+- reports/minecraft/worldgen/noise/gravel.json
+- reports/minecraft/worldgen/noise/ice.json
+- reports/minecraft/worldgen/noise/iceberg_pillar_roof.json
+- reports/minecraft/worldgen/noise/iceberg_pillar.json
+- reports/minecraft/worldgen/noise/iceberg_surface.json
+- reports/minecraft/worldgen/noise/jagged.json
+- reports/minecraft/worldgen/noise/nether_state_selector.json
+- reports/minecraft/worldgen/noise/nether_wart.json
+- reports/minecraft/worldgen/noise/netherrack.json
+- reports/minecraft/worldgen/noise/noodle_ridge_a.json
+- reports/minecraft/worldgen/noise/noodle_ridge_b.json
+- reports/minecraft/worldgen/noise/noodle_thickness.json
+- reports/minecraft/worldgen/noise/noodle.json
+- reports/minecraft/worldgen/noise/offset.json
+- reports/minecraft/worldgen/noise/ore_gap.json
+- reports/minecraft/worldgen/noise/ore_vein_a.json
+- reports/minecraft/worldgen/noise/ore_vein_b.json
+- reports/minecraft/worldgen/noise/ore_veininess.json
+- reports/minecraft/worldgen/noise/packed_ice.json
+- reports/minecraft/worldgen/noise/patch.json
+- reports/minecraft/worldgen/noise/pillar_rareness.json
+- reports/minecraft/worldgen/noise/pillar_thickness.json
+- reports/minecraft/worldgen/noise/pillar.json
+- reports/minecraft/worldgen/noise/powder_snow.json
+- reports/minecraft/worldgen/noise/ridge.json
+- reports/minecraft/worldgen/noise/soul_sand_layer.json
+- reports/minecraft/worldgen/noise/spaghetti_2d_elevation.json
+- reports/minecraft/worldgen/noise/spaghetti_2d_modulator.json
+- reports/minecraft/worldgen/noise/spaghetti_2d_thickness.json
+- reports/minecraft/worldgen/noise/spaghetti_2d.json
+- reports/minecraft/worldgen/noise/spaghetti_3d_1.json
+- reports/minecraft/worldgen/noise/spaghetti_3d_2.json
+- reports/minecraft/worldgen/noise/spaghetti_3d_rarity.json
+- reports/minecraft/worldgen/noise/spaghetti_3d_thickness.json
+- reports/minecraft/worldgen/noise/spaghetti_roughness_modulator.json
+- reports/minecraft/worldgen/noise/spaghetti_roughness.json
+- reports/minecraft/worldgen/noise/surface_secondary.json
+- reports/minecraft/worldgen/noise/surface_swamp.json
+- reports/minecraft/worldgen/noise/surface.json
+- reports/minecraft/worldgen/noise/temperature_large.json
+- reports/minecraft/worldgen/noise/temperature.json
+- reports/minecraft/worldgen/noise/vegetation_large.json
+- reports/minecraft/worldgen/noise/vegetation.json
+- reports/minecraft/worldgen/placed_feature/acacia_checked.json
+- reports/minecraft/worldgen/placed_feature/acacia.json
+- reports/minecraft/worldgen/placed_feature/amethyst_geode.json
+- reports/minecraft/worldgen/placed_feature/bamboo_light.json
+- reports/minecraft/worldgen/placed_feature/bamboo_vegetation.json
+- reports/minecraft/worldgen/placed_feature/bamboo.json
+- reports/minecraft/worldgen/placed_feature/basalt_blobs.json
+- reports/minecraft/worldgen/placed_feature/basalt_pillar.json
+- reports/minecraft/worldgen/placed_feature/birch_bees_0002.json
+- reports/minecraft/worldgen/placed_feature/birch_bees_002.json
+- reports/minecraft/worldgen/placed_feature/birch_checked.json
+- reports/minecraft/worldgen/placed_feature/birch_tall.json
+- reports/minecraft/worldgen/placed_feature/blackstone_blobs.json
+- reports/minecraft/worldgen/placed_feature/blue_ice.json
+- reports/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
+- reports/minecraft/worldgen/placed_feature/brown_mushroom_normal.json
+- reports/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
+- reports/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
+- reports/minecraft/worldgen/placed_feature/brown_mushroom_taiga.json
+- reports/minecraft/worldgen/placed_feature/cave_vines.json
+- reports/minecraft/worldgen/placed_feature/chorus_plant.json
+- reports/minecraft/worldgen/placed_feature/classic_vines_cave_feature.json
+- reports/minecraft/worldgen/placed_feature/crimson_forest_vegetation.json
+- reports/minecraft/worldgen/placed_feature/crimson_fungi.json
+- reports/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
+- reports/minecraft/worldgen/placed_feature/dark_oak_checked.json
+- reports/minecraft/worldgen/placed_feature/delta.json
+- reports/minecraft/worldgen/placed_feature/desert_well.json
+- reports/minecraft/worldgen/placed_feature/disk_clay.json
+- reports/minecraft/worldgen/placed_feature/disk_grass.json
+- reports/minecraft/worldgen/placed_feature/disk_gravel.json
+- reports/minecraft/worldgen/placed_feature/disk_sand.json
+- reports/minecraft/worldgen/placed_feature/dripstone_cluster.json
+- reports/minecraft/worldgen/placed_feature/end_gateway_return.json
+- reports/minecraft/worldgen/placed_feature/end_island_decorated.json
+- reports/minecraft/worldgen/placed_feature/end_spike.json
+- reports/minecraft/worldgen/placed_feature/fancy_oak_bees_0002.json
+- reports/minecraft/worldgen/placed_feature/fancy_oak_bees_002.json
+- reports/minecraft/worldgen/placed_feature/fancy_oak_bees.json
+- reports/minecraft/worldgen/placed_feature/fancy_oak_checked.json
+- reports/minecraft/worldgen/placed_feature/flower_default.json
+- reports/minecraft/worldgen/placed_feature/flower_flower_forest.json
+- reports/minecraft/worldgen/placed_feature/flower_forest_flowers.json
+- reports/minecraft/worldgen/placed_feature/flower_meadow.json
+- reports/minecraft/worldgen/placed_feature/flower_plain.json
+- reports/minecraft/worldgen/placed_feature/flower_plains.json
+- reports/minecraft/worldgen/placed_feature/flower_swamp.json
+- reports/minecraft/worldgen/placed_feature/flower_warm.json
+- reports/minecraft/worldgen/placed_feature/forest_flowers.json
+- reports/minecraft/worldgen/placed_feature/forest_rock.json
+- reports/minecraft/worldgen/placed_feature/fossil_lower.json
+- reports/minecraft/worldgen/placed_feature/fossil_upper.json
+- reports/minecraft/worldgen/placed_feature/freeze_top_layer.json
+- reports/minecraft/worldgen/placed_feature/glow_lichen.json
+- reports/minecraft/worldgen/placed_feature/glowstone_extra.json
+- reports/minecraft/worldgen/placed_feature/glowstone.json
+- reports/minecraft/worldgen/placed_feature/grass_bonemeal.json
+- reports/minecraft/worldgen/placed_feature/ice_patch.json
+- reports/minecraft/worldgen/placed_feature/ice_spike.json
+- reports/minecraft/worldgen/placed_feature/iceberg_blue.json
+- reports/minecraft/worldgen/placed_feature/iceberg_packed.json
+- reports/minecraft/worldgen/placed_feature/jungle_bush.json
+- reports/minecraft/worldgen/placed_feature/jungle_tree.json
+- reports/minecraft/worldgen/placed_feature/kelp_cold.json
+- reports/minecraft/worldgen/placed_feature/kelp_warm.json
+- reports/minecraft/worldgen/placed_feature/lake_lava_surface.json
+- reports/minecraft/worldgen/placed_feature/lake_lava_underground.json
+- reports/minecraft/worldgen/placed_feature/large_basalt_columns.json
+- reports/minecraft/worldgen/placed_feature/large_dripstone.json
+- reports/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
+- reports/minecraft/worldgen/placed_feature/lush_caves_clay.json
+- reports/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
+- reports/minecraft/worldgen/placed_feature/mangrove_checked.json
+- reports/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
+- reports/minecraft/worldgen/placed_feature/mega_pine_checked.json
+- reports/minecraft/worldgen/placed_feature/mega_spruce_checked.json
+- reports/minecraft/worldgen/placed_feature/monster_room_deep.json
+- reports/minecraft/worldgen/placed_feature/monster_room.json
+- reports/minecraft/worldgen/placed_feature/mushroom_island_vegetation.json
+- reports/minecraft/worldgen/placed_feature/nether_sprouts.json
+- reports/minecraft/worldgen/placed_feature/oak_bees_0002.json
+- reports/minecraft/worldgen/placed_feature/oak_bees_002.json
+- reports/minecraft/worldgen/placed_feature/oak_checked.json
+- reports/minecraft/worldgen/placed_feature/oak.json
+- reports/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
+- reports/minecraft/worldgen/placed_feature/ore_andesite_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_andesite_upper.json
+- reports/minecraft/worldgen/placed_feature/ore_blackstone.json
+- reports/minecraft/worldgen/placed_feature/ore_clay.json
+- reports/minecraft/worldgen/placed_feature/ore_coal_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_coal_upper.json
+- reports/minecraft/worldgen/placed_feature/ore_copper_large.json
+- reports/minecraft/worldgen/placed_feature/ore_copper.json
+- reports/minecraft/worldgen/placed_feature/ore_debris_small.json
+- reports/minecraft/worldgen/placed_feature/ore_diamond_buried.json
+- reports/minecraft/worldgen/placed_feature/ore_diamond_large.json
+- reports/minecraft/worldgen/placed_feature/ore_diamond.json
+- reports/minecraft/worldgen/placed_feature/ore_diorite_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_diorite_upper.json
+- reports/minecraft/worldgen/placed_feature/ore_dirt.json
+- reports/minecraft/worldgen/placed_feature/ore_emerald.json
+- reports/minecraft/worldgen/placed_feature/ore_gold_deltas.json
+- reports/minecraft/worldgen/placed_feature/ore_gold_extra.json
+- reports/minecraft/worldgen/placed_feature/ore_gold_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_gold_nether.json
+- reports/minecraft/worldgen/placed_feature/ore_gold.json
+- reports/minecraft/worldgen/placed_feature/ore_granite_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_granite_upper.json
+- reports/minecraft/worldgen/placed_feature/ore_gravel_nether.json
+- reports/minecraft/worldgen/placed_feature/ore_gravel.json
+- reports/minecraft/worldgen/placed_feature/ore_infested.json
+- reports/minecraft/worldgen/placed_feature/ore_iron_middle.json
+- reports/minecraft/worldgen/placed_feature/ore_iron_small.json
+- reports/minecraft/worldgen/placed_feature/ore_iron_upper.json
+- reports/minecraft/worldgen/placed_feature/ore_lapis_buried.json
+- reports/minecraft/worldgen/placed_feature/ore_lapis.json
+- reports/minecraft/worldgen/placed_feature/ore_magma.json
+- reports/minecraft/worldgen/placed_feature/ore_quartz_deltas.json
+- reports/minecraft/worldgen/placed_feature/ore_quartz_nether.json
+- reports/minecraft/worldgen/placed_feature/ore_redstone_lower.json
+- reports/minecraft/worldgen/placed_feature/ore_redstone.json
+- reports/minecraft/worldgen/placed_feature/ore_soul_sand.json
+- reports/minecraft/worldgen/placed_feature/ore_tuff.json
+- reports/minecraft/worldgen/placed_feature/patch_berry_bush.json
+- reports/minecraft/worldgen/placed_feature/patch_berry_common.json
+- reports/minecraft/worldgen/placed_feature/patch_berry_rare.json
+- reports/minecraft/worldgen/placed_feature/patch_cactus_decorated.json
+- reports/minecraft/worldgen/placed_feature/patch_cactus_desert.json
+- reports/minecraft/worldgen/placed_feature/patch_cactus.json
+- reports/minecraft/worldgen/placed_feature/patch_crimson_roots.json
+- reports/minecraft/worldgen/placed_feature/patch_dead_bush_2.json
+- reports/minecraft/worldgen/placed_feature/patch_dead_bush_badlands.json
+- reports/minecraft/worldgen/placed_feature/patch_dead_bush.json
+- reports/minecraft/worldgen/placed_feature/patch_fire.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_badlands.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_forest.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_jungle.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_normal.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_plain.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_savanna.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_taiga_2.json
+- reports/minecraft/worldgen/placed_feature/patch_grass_taiga.json
+- reports/minecraft/worldgen/placed_feature/patch_large_fern.json
+- reports/minecraft/worldgen/placed_feature/patch_melon_sparse.json
+- reports/minecraft/worldgen/placed_feature/patch_melon.json
+- reports/minecraft/worldgen/placed_feature/patch_pumpkin.json
+- reports/minecraft/worldgen/placed_feature/patch_soul_fire.json
+- reports/minecraft/worldgen/placed_feature/patch_sugar_cane_badlands.json
+- reports/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
+- reports/minecraft/worldgen/placed_feature/patch_sugar_cane_swamp.json
+- reports/minecraft/worldgen/placed_feature/patch_sugar_cane.json
+- reports/minecraft/worldgen/placed_feature/patch_sunflower.json
+- reports/minecraft/worldgen/placed_feature/patch_taiga_grass.json
+- reports/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
+- reports/minecraft/worldgen/placed_feature/patch_tall_grass.json
+- reports/minecraft/worldgen/placed_feature/patch_waterlily.json
+- reports/minecraft/worldgen/placed_feature/pile_hay.json
+- reports/minecraft/worldgen/placed_feature/pile_ice.json
+- reports/minecraft/worldgen/placed_feature/pile_melon.json
+- reports/minecraft/worldgen/placed_feature/pile_pumpkin.json
+- reports/minecraft/worldgen/placed_feature/pile_snow.json
+- reports/minecraft/worldgen/placed_feature/pine_checked.json
+- reports/minecraft/worldgen/placed_feature/pine_on_snow.json
+- reports/minecraft/worldgen/placed_feature/pine.json
+- reports/minecraft/worldgen/placed_feature/pointed_dripstone.json
+- reports/minecraft/worldgen/placed_feature/red_mushroom_nether.json
+- reports/minecraft/worldgen/placed_feature/red_mushroom_normal.json
+- reports/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
+- reports/minecraft/worldgen/placed_feature/red_mushroom_swamp.json
+- reports/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
+- reports/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
+- reports/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
+- reports/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
+- reports/minecraft/worldgen/placed_feature/sculk_vein.json
+- reports/minecraft/worldgen/placed_feature/sea_pickle.json
+- reports/minecraft/worldgen/placed_feature/seagrass_cold.json
+- reports/minecraft/worldgen/placed_feature/seagrass_deep_cold.json
+- reports/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
+- reports/minecraft/worldgen/placed_feature/seagrass_deep.json
+- reports/minecraft/worldgen/placed_feature/seagrass_normal.json
+- reports/minecraft/worldgen/placed_feature/seagrass_river.json
+- reports/minecraft/worldgen/placed_feature/seagrass_simple.json
+- reports/minecraft/worldgen/placed_feature/seagrass_swamp.json
+- reports/minecraft/worldgen/placed_feature/seagrass_warm.json
+- reports/minecraft/worldgen/placed_feature/small_basalt_columns.json
+- reports/minecraft/worldgen/placed_feature/spore_blossom.json
+- reports/minecraft/worldgen/placed_feature/spring_closed_double.json
+- reports/minecraft/worldgen/placed_feature/spring_closed.json
+- reports/minecraft/worldgen/placed_feature/spring_delta.json
+- reports/minecraft/worldgen/placed_feature/spring_lava_frozen.json
+- reports/minecraft/worldgen/placed_feature/spring_lava.json
+- reports/minecraft/worldgen/placed_feature/spring_open.json
+- reports/minecraft/worldgen/placed_feature/spring_water.json
+- reports/minecraft/worldgen/placed_feature/spruce_checked.json
+- reports/minecraft/worldgen/placed_feature/spruce_on_snow.json
+- reports/minecraft/worldgen/placed_feature/spruce.json
+- reports/minecraft/worldgen/placed_feature/super_birch_bees_0002.json
+- reports/minecraft/worldgen/placed_feature/super_birch_bees.json
+- reports/minecraft/worldgen/placed_feature/tall_mangrove_checked.json
+- reports/minecraft/worldgen/placed_feature/trees_badlands.json
+- reports/minecraft/worldgen/placed_feature/trees_birch_and_oak.json
+- reports/minecraft/worldgen/placed_feature/trees_birch.json
+- reports/minecraft/worldgen/placed_feature/trees_flower_forest.json
+- reports/minecraft/worldgen/placed_feature/trees_grove.json
+- reports/minecraft/worldgen/placed_feature/trees_jungle.json
+- reports/minecraft/worldgen/placed_feature/trees_mangrove.json
+- reports/minecraft/worldgen/placed_feature/trees_meadow.json
+- reports/minecraft/worldgen/placed_feature/trees_old_growth_pine_taiga.json
+- reports/minecraft/worldgen/placed_feature/trees_old_growth_spruce_taiga.json
+- reports/minecraft/worldgen/placed_feature/trees_plains.json
+- reports/minecraft/worldgen/placed_feature/trees_savanna.json
+- reports/minecraft/worldgen/placed_feature/trees_snowy.json
+- reports/minecraft/worldgen/placed_feature/trees_sparse_jungle.json
+- reports/minecraft/worldgen/placed_feature/trees_swamp.json
+- reports/minecraft/worldgen/placed_feature/trees_taiga.json
+- reports/minecraft/worldgen/placed_feature/trees_water.json
+- reports/minecraft/worldgen/placed_feature/trees_windswept_forest.json
+- reports/minecraft/worldgen/placed_feature/trees_windswept_hills.json
+- reports/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
+- reports/minecraft/worldgen/placed_feature/twisting_vines.json
+- reports/minecraft/worldgen/placed_feature/underwater_magma.json
+- reports/minecraft/worldgen/placed_feature/vines.json
+- reports/minecraft/worldgen/placed_feature/void_start_platform.json
+- reports/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
+- reports/minecraft/worldgen/placed_feature/warped_forest_vegetation.json
+- reports/minecraft/worldgen/placed_feature/warped_fungi.json
+- reports/minecraft/worldgen/placed_feature/weeping_vines.json
+- reports/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
+- reports/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
+- reports/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
+- reports/minecraft/worldgen/processor_list/bastion_generic_degradation.json
+- reports/minecraft/worldgen/processor_list/bottom_rampart.json
+- reports/minecraft/worldgen/processor_list/bridge.json
+- reports/minecraft/worldgen/processor_list/empty.json
+- reports/minecraft/worldgen/processor_list/entrance_replacement.json
+- reports/minecraft/worldgen/processor_list/farm_desert.json
+- reports/minecraft/worldgen/processor_list/farm_plains.json
+- reports/minecraft/worldgen/processor_list/farm_savanna.json
+- reports/minecraft/worldgen/processor_list/farm_snowy.json
+- reports/minecraft/worldgen/processor_list/farm_taiga.json
+- reports/minecraft/worldgen/processor_list/fossil_coal.json
+- reports/minecraft/worldgen/processor_list/fossil_diamonds.json
+- reports/minecraft/worldgen/processor_list/fossil_rot.json
+- reports/minecraft/worldgen/processor_list/high_rampart.json
+- reports/minecraft/worldgen/processor_list/high_wall.json
+- reports/minecraft/worldgen/processor_list/housing.json
+- reports/minecraft/worldgen/processor_list/mossify_10_percent.json
+- reports/minecraft/worldgen/processor_list/mossify_20_percent.json
+- reports/minecraft/worldgen/processor_list/mossify_70_percent.json
+- reports/minecraft/worldgen/processor_list/outpost_rot.json
+- reports/minecraft/worldgen/processor_list/rampart_degradation.json
+- reports/minecraft/worldgen/processor_list/roof.json
+- reports/minecraft/worldgen/processor_list/side_wall_degradation.json
+- reports/minecraft/worldgen/processor_list/stable_degradation.json
+- reports/minecraft/worldgen/processor_list/street_plains.json
+- reports/minecraft/worldgen/processor_list/street_savanna.json
+- reports/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
+- reports/minecraft/worldgen/processor_list/treasure_rooms.json
+- reports/minecraft/worldgen/processor_list/zombie_desert.json
+- reports/minecraft/worldgen/processor_list/zombie_plains.json
+- reports/minecraft/worldgen/processor_list/zombie_savanna.json
+- reports/minecraft/worldgen/processor_list/zombie_snowy.json
+- reports/minecraft/worldgen/processor_list/zombie_taiga.json
+- reports/minecraft/worldgen/structure_set/ancient_cities.json
+- reports/minecraft/worldgen/structure_set/buried_treasures.json
+- reports/minecraft/worldgen/structure_set/desert_pyramids.json
+- reports/minecraft/worldgen/structure_set/end_cities.json
+- reports/minecraft/worldgen/structure_set/igloos.json
+- reports/minecraft/worldgen/structure_set/jungle_temples.json
+- reports/minecraft/worldgen/structure_set/mineshafts.json
+- reports/minecraft/worldgen/structure_set/nether_complexes.json
+- reports/minecraft/worldgen/structure_set/nether_fossils.json
+- reports/minecraft/worldgen/structure_set/ocean_monuments.json
+- reports/minecraft/worldgen/structure_set/ocean_ruins.json
+- reports/minecraft/worldgen/structure_set/pillager_outposts.json
+- reports/minecraft/worldgen/structure_set/ruined_portals.json
+- reports/minecraft/worldgen/structure_set/shipwrecks.json
+- reports/minecraft/worldgen/structure_set/strongholds.json
+- reports/minecraft/worldgen/structure_set/swamp_huts.json
+- reports/minecraft/worldgen/structure_set/villages.json
+- reports/minecraft/worldgen/structure_set/woodland_mansions.json
+- reports/minecraft/worldgen/structure/ancient_city.json
+- reports/minecraft/worldgen/structure/bastion_remnant.json
+- reports/minecraft/worldgen/structure/buried_treasure.json
+- reports/minecraft/worldgen/structure/desert_pyramid.json
+- reports/minecraft/worldgen/structure/end_city.json
+- reports/minecraft/worldgen/structure/fortress.json
+- reports/minecraft/worldgen/structure/igloo.json
+- reports/minecraft/worldgen/structure/jungle_pyramid.json
+- reports/minecraft/worldgen/structure/mansion.json
+- reports/minecraft/worldgen/structure/mineshaft_mesa.json
+- reports/minecraft/worldgen/structure/mineshaft.json
+- reports/minecraft/worldgen/structure/monument.json
+- reports/minecraft/worldgen/structure/nether_fossil.json
+- reports/minecraft/worldgen/structure/ocean_ruin_cold.json
+- reports/minecraft/worldgen/structure/ocean_ruin_warm.json
+- reports/minecraft/worldgen/structure/pillager_outpost.json
+- reports/minecraft/worldgen/structure/ruined_portal_desert.json
+- reports/minecraft/worldgen/structure/ruined_portal_jungle.json
+- reports/minecraft/worldgen/structure/ruined_portal_mountain.json
+- reports/minecraft/worldgen/structure/ruined_portal_nether.json
+- reports/minecraft/worldgen/structure/ruined_portal_ocean.json
+- reports/minecraft/worldgen/structure/ruined_portal_swamp.json
+- reports/minecraft/worldgen/structure/ruined_portal.json
+- reports/minecraft/worldgen/structure/shipwreck_beached.json
+- reports/minecraft/worldgen/structure/shipwreck.json
+- reports/minecraft/worldgen/structure/stronghold.json
+- reports/minecraft/worldgen/structure/swamp_hut.json
+- reports/minecraft/worldgen/structure/village_desert.json
+- reports/minecraft/worldgen/structure/village_plains.json
+- reports/minecraft/worldgen/structure/village_savanna.json
+- reports/minecraft/worldgen/structure/village_snowy.json
+- reports/minecraft/worldgen/structure/village_taiga.json
+- reports/minecraft/worldgen/template_pool/ancient_city/city_center.json
+- reports/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
+- reports/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
+- reports/minecraft/worldgen/template_pool/ancient_city/sculk.json
+- reports/minecraft/worldgen/template_pool/ancient_city/structures.json
+- reports/minecraft/worldgen/template_pool/ancient_city/walls.json
+- reports/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
+- reports/minecraft/worldgen/template_pool/bastion/blocks/gold.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/bridge_pieces.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/connectors.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/legs.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/rampart_plates.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/ramparts.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/starting_pieces.json
+- reports/minecraft/worldgen/template_pool/bastion/bridge/walls.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/outer.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/mirrored_starting_pieces.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/posts.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/rampart_plates.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/ramparts.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/inner.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/small_stables/outer.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/stairs.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/starting_pieces.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/wall_bases.json
+- reports/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
+- reports/minecraft/worldgen/template_pool/bastion/mobs/hoglin.json
+- reports/minecraft/worldgen/template_pool/bastion/mobs/piglin_melee.json
+- reports/minecraft/worldgen/template_pool/bastion/mobs/piglin.json
+- reports/minecraft/worldgen/template_pool/bastion/starts.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/bases.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/bases/centers.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/brains.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/connectors.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/corners/bottom.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/corners/edges.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/corners/middle.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/corners/top.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/entrances.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/houses.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/large_pool.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/extensions/small_pool.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/ramparts.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/roofs.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/stairs.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/walls.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/walls/outer.json
+- reports/minecraft/worldgen/template_pool/bastion/treasure/walls/top.json
+- reports/minecraft/worldgen/template_pool/bastion/units/center_pieces.json
+- reports/minecraft/worldgen/template_pool/bastion/units/edge_wall_units.json
+- reports/minecraft/worldgen/template_pool/bastion/units/edges.json
+- reports/minecraft/worldgen/template_pool/bastion/units/fillers/stage_0.json
+- reports/minecraft/worldgen/template_pool/bastion/units/large_ramparts.json
+- reports/minecraft/worldgen/template_pool/bastion/units/pathways.json
+- reports/minecraft/worldgen/template_pool/bastion/units/rampart_plates.json
+- reports/minecraft/worldgen/template_pool/bastion/units/ramparts.json
+- reports/minecraft/worldgen/template_pool/bastion/units/stages/rot/stage_1.json
+- reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_0.json
+- reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_1.json
+- reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_2.json
+- reports/minecraft/worldgen/template_pool/bastion/units/stages/stage_3.json
+- reports/minecraft/worldgen/template_pool/bastion/units/wall_units.json
+- reports/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
+- reports/minecraft/worldgen/template_pool/empty.json
+- reports/minecraft/worldgen/template_pool/pillager_outpost/base_plates.json
+- reports/minecraft/worldgen/template_pool/pillager_outpost/feature_plates.json
+- reports/minecraft/worldgen/template_pool/pillager_outpost/features.json
+- reports/minecraft/worldgen/template_pool/pillager_outpost/towers.json
+- reports/minecraft/worldgen/template_pool/village/common/animals.json
+- reports/minecraft/worldgen/template_pool/village/common/butcher_animals.json
+- reports/minecraft/worldgen/template_pool/village/common/cats.json
+- reports/minecraft/worldgen/template_pool/village/common/iron_golem.json
+- reports/minecraft/worldgen/template_pool/village/common/sheep.json
+- reports/minecraft/worldgen/template_pool/village/common/well_bottoms.json
+- reports/minecraft/worldgen/template_pool/village/desert/decor.json
+- reports/minecraft/worldgen/template_pool/village/desert/houses.json
+- reports/minecraft/worldgen/template_pool/village/desert/streets.json
+- reports/minecraft/worldgen/template_pool/village/desert/terminators.json
+- reports/minecraft/worldgen/template_pool/village/desert/town_centers.json
+- reports/minecraft/worldgen/template_pool/village/desert/villagers.json
+- reports/minecraft/worldgen/template_pool/village/desert/zombie/decor.json
+- reports/minecraft/worldgen/template_pool/village/desert/zombie/houses.json
+- reports/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
+- reports/minecraft/worldgen/template_pool/village/desert/zombie/terminators.json
+- reports/minecraft/worldgen/template_pool/village/desert/zombie/villagers.json
+- reports/minecraft/worldgen/template_pool/village/plains/decor.json
+- reports/minecraft/worldgen/template_pool/village/plains/houses.json
+- reports/minecraft/worldgen/template_pool/village/plains/streets.json
+- reports/minecraft/worldgen/template_pool/village/plains/terminators.json
+- reports/minecraft/worldgen/template_pool/village/plains/town_centers.json
+- reports/minecraft/worldgen/template_pool/village/plains/trees.json
+- reports/minecraft/worldgen/template_pool/village/plains/villagers.json
+- reports/minecraft/worldgen/template_pool/village/plains/zombie/decor.json
+- reports/minecraft/worldgen/template_pool/village/plains/zombie/houses.json
+- reports/minecraft/worldgen/template_pool/village/plains/zombie/streets.json
+- reports/minecraft/worldgen/template_pool/village/plains/zombie/villagers.json
+- reports/minecraft/worldgen/template_pool/village/savanna/decor.json
+- reports/minecraft/worldgen/template_pool/village/savanna/houses.json
+- reports/minecraft/worldgen/template_pool/village/savanna/streets.json
+- reports/minecraft/worldgen/template_pool/village/savanna/terminators.json
+- reports/minecraft/worldgen/template_pool/village/savanna/town_centers.json
+- reports/minecraft/worldgen/template_pool/village/savanna/trees.json
+- reports/minecraft/worldgen/template_pool/village/savanna/villagers.json
+- reports/minecraft/worldgen/template_pool/village/savanna/zombie/decor.json
+- reports/minecraft/worldgen/template_pool/village/savanna/zombie/houses.json
+- reports/minecraft/worldgen/template_pool/village/savanna/zombie/streets.json
+- reports/minecraft/worldgen/template_pool/village/savanna/zombie/terminators.json
+- reports/minecraft/worldgen/template_pool/village/savanna/zombie/villagers.json
+- reports/minecraft/worldgen/template_pool/village/snowy/decor.json
+- reports/minecraft/worldgen/template_pool/village/snowy/houses.json
+- reports/minecraft/worldgen/template_pool/village/snowy/streets.json
+- reports/minecraft/worldgen/template_pool/village/snowy/terminators.json
+- reports/minecraft/worldgen/template_pool/village/snowy/town_centers.json
+- reports/minecraft/worldgen/template_pool/village/snowy/trees.json
+- reports/minecraft/worldgen/template_pool/village/snowy/villagers.json
+- reports/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
+- reports/minecraft/worldgen/template_pool/village/snowy/zombie/houses.json
+- reports/minecraft/worldgen/template_pool/village/snowy/zombie/streets.json
+- reports/minecraft/worldgen/template_pool/village/snowy/zombie/villagers.json
+- reports/minecraft/worldgen/template_pool/village/taiga/decor.json
+- reports/minecraft/worldgen/template_pool/village/taiga/houses.json
+- reports/minecraft/worldgen/template_pool/village/taiga/streets.json
+- reports/minecraft/worldgen/template_pool/village/taiga/terminators.json
+- reports/minecraft/worldgen/template_pool/village/taiga/town_centers.json
+- reports/minecraft/worldgen/template_pool/village/taiga/villagers.json
+- reports/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
+- reports/minecraft/worldgen/template_pool/village/taiga/zombie/houses.json
+- reports/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
+- reports/minecraft/worldgen/template_pool/village/taiga/zombie/villagers.json
+- reports/minecraft/worldgen/world_preset/amplified.json
+- reports/minecraft/worldgen/world_preset/debug_all_block_states.json
+- reports/minecraft/worldgen/world_preset/flat.json
+- reports/minecraft/worldgen/world_preset/large_biomes.json
+- reports/minecraft/worldgen/world_preset/normal.json
+- reports/minecraft/worldgen/world_preset/single_biome_surface.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:acacia_hanging_sign
++ minecraft:acacia_wall_hanging_sign
++ minecraft:bamboo_button
++ minecraft:bamboo_door
++ minecraft:bamboo_fence
++ minecraft:bamboo_fence_gate
++ minecraft:bamboo_hanging_sign
++ minecraft:bamboo_mosaic
++ minecraft:bamboo_mosaic_slab
++ minecraft:bamboo_mosaic_stairs
++ minecraft:bamboo_planks
++ minecraft:bamboo_pressure_plate
++ minecraft:bamboo_sign
++ minecraft:bamboo_slab
++ minecraft:bamboo_stairs
++ minecraft:bamboo_trapdoor
++ minecraft:bamboo_wall_hanging_sign
++ minecraft:bamboo_wall_sign
++ minecraft:birch_hanging_sign
++ minecraft:birch_wall_hanging_sign
++ minecraft:chiseled_bookshelf
++ minecraft:crimson_hanging_sign
++ minecraft:crimson_wall_hanging_sign
++ minecraft:dark_oak_hanging_sign
++ minecraft:dark_oak_wall_hanging_sign
++ minecraft:jungle_hanging_sign
++ minecraft:jungle_wall_hanging_sign
++ minecraft:mangrove_hanging_sign
++ minecraft:mangrove_wall_hanging_sign
++ minecraft:oak_hanging_sign
++ minecraft:oak_wall_hanging_sign
++ minecraft:spruce_hanging_sign
++ minecraft:spruce_wall_hanging_sign
++ minecraft:warped_hanging_sign
++ minecraft:warped_wall_hanging_sign
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:chiseled_bookshelf
++ minecraft:hanging_sign
+```
+
+</details>
+
+
+<details><summary>command_argument_type.txt</summary>
+
+```diff
+- minecraft:entity_summon
+- minecraft:item_enchantment
+- minecraft:mob_effect
++ minecraft:resource_key
++ minecraft:resource_or_tag_key
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:camel
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:acacia_hanging_sign
++ minecraft:bamboo_button
++ minecraft:bamboo_chest_raft
++ minecraft:bamboo_door
++ minecraft:bamboo_fence
++ minecraft:bamboo_fence_gate
++ minecraft:bamboo_hanging_sign
++ minecraft:bamboo_mosaic
++ minecraft:bamboo_mosaic_slab
++ minecraft:bamboo_mosaic_stairs
++ minecraft:bamboo_planks
++ minecraft:bamboo_pressure_plate
++ minecraft:bamboo_raft
++ minecraft:bamboo_sign
++ minecraft:bamboo_slab
++ minecraft:bamboo_stairs
++ minecraft:bamboo_trapdoor
++ minecraft:birch_hanging_sign
++ minecraft:camel_spawn_egg
++ minecraft:chiseled_bookshelf
++ minecraft:crimson_hanging_sign
++ minecraft:dark_oak_hanging_sign
++ minecraft:jungle_hanging_sign
++ minecraft:mangrove_hanging_sign
++ minecraft:oak_hanging_sign
++ minecraft:spruce_hanging_sign
++ minecraft:warped_hanging_sign
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:gaze_cooldown_ticks
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:camel_temptations
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.bamboo_wood_button.click_off
++ minecraft:block.bamboo_wood_button.click_on
++ minecraft:block.bamboo_wood_door.close
++ minecraft:block.bamboo_wood_door.open
++ minecraft:block.bamboo_wood_fence_gate.close
++ minecraft:block.bamboo_wood_fence_gate.open
++ minecraft:block.bamboo_wood_pressure_plate.click_off
++ minecraft:block.bamboo_wood_pressure_plate.click_on
++ minecraft:block.bamboo_wood_trapdoor.close
++ minecraft:block.bamboo_wood_trapdoor.open
++ minecraft:block.bamboo_wood.break
++ minecraft:block.bamboo_wood.fall
++ minecraft:block.bamboo_wood.hit
++ minecraft:block.bamboo_wood.place
++ minecraft:block.bamboo_wood.step
++ minecraft:block.hanging_sign.break
++ minecraft:block.hanging_sign.fall
++ minecraft:block.hanging_sign.hit
++ minecraft:block.hanging_sign.place
++ minecraft:block.hanging_sign.step
++ minecraft:block.nether_wood_button.click_off
++ minecraft:block.nether_wood_button.click_on
++ minecraft:block.nether_wood_door.close
++ minecraft:block.nether_wood_door.open
++ minecraft:block.nether_wood_fence_gate.close
++ minecraft:block.nether_wood_fence_gate.open
++ minecraft:block.nether_wood_pressure_plate.click_off
++ minecraft:block.nether_wood_pressure_plate.click_on
++ minecraft:block.nether_wood_trapdoor.close
++ minecraft:block.nether_wood_trapdoor.open
++ minecraft:block.nether_wood.break
++ minecraft:block.nether_wood.fall
++ minecraft:block.nether_wood.hit
++ minecraft:block.nether_wood.place
++ minecraft:block.nether_wood.step
++ minecraft:entity.camel.ambient
++ minecraft:entity.camel.dash
++ minecraft:entity.camel.dash_ready
++ minecraft:entity.camel.death
++ minecraft:entity.camel.eat
++ minecraft:entity.camel.hurt
++ minecraft:entity.camel.saddle
++ minecraft:entity.camel.sit
++ minecraft:entity.camel.stand
++ minecraft:entity.camel.step
++ minecraft:entity.camel.step_sand
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>effect.txt</summary>
+
+```diff
+- effect clear <targets: entity> <effect: mob_effect>
++ effect clear <targets: entity> <effect: resource>
+- effect give <targets: entity> <effect: mob_effect> <seconds: integer> <amplifier: integer> <hideParticles: bool>
++ effect give <targets: entity> <effect: resource> <seconds: integer> <amplifier: integer> <hideParticles: bool>
+```
+
+</details>
+
+
+<details><summary>enchant.txt</summary>
+
+```diff
+- enchant <targets: entity> <enchantment: item_enchantment> <level: integer>
++ enchant <targets: entity> <enchantment: resource> <level: integer>
+```
+
+</details>
+
+
+<details><summary>locate.txt</summary>
+
+```diff
++ locate structure <structure: resource_or_tag_key>
+- locate structure <structure: resource_or_tag>
+```
+
+</details>
+
+
+<details><summary>place.txt</summary>
+
+```diff
++ place feature <feature: resource_key> <pos: block_pos>
+- place feature <feature: resource> <pos: block_pos>
++ place jigsaw <pool: resource_key> <target: resource_location> <max_depth: integer> <position: block_pos>
+- place jigsaw <pool: resource> <target: resource_location> <max_depth: integer> <position: block_pos>
++ place structure <structure: resource_key> <pos: block_pos>
+- place structure <structure: resource> <pos: block_pos>
+```
+
+</details>
+
+
+<details><summary>summon.txt</summary>
+
+```diff
+- summon <entity: entity_summon> <pos: vec3> <nbt: nbt_compound_tag>
++ summon <entity: resource> <pos: vec3> <nbt: nbt_compound_tag>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/invalid_spawn_inside.json
++ blocks/stripped_logs.json
++ items/stripped_logs.json
+```
+
+</details>
+
+
+<details><summary>items/non_flammable_wood.json</summary>
+
+```diff
++ minecraft:crimson_hanging_sign
++ minecraft:warped_hanging_sign
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.resource_tag.invalid_type
++ argument.resource_tag.not_found
++ argument.resource.invalid_type
++ argument.resource.not_found
+- attribute.unknown
++ block.minecraft.acacia_hanging_sign
++ block.minecraft.acacia_wall_hanging_sign
++ block.minecraft.bamboo_button
++ block.minecraft.bamboo_door
++ block.minecraft.bamboo_fence
++ block.minecraft.bamboo_fence_gate
++ block.minecraft.bamboo_hanging_sign
++ block.minecraft.bamboo_mosaic
++ block.minecraft.bamboo_mosaic_slab
++ block.minecraft.bamboo_mosaic_stairs
++ block.minecraft.bamboo_planks
++ block.minecraft.bamboo_pressure_plate
++ block.minecraft.bamboo_sign
++ block.minecraft.bamboo_slab
++ block.minecraft.bamboo_stairs
++ block.minecraft.bamboo_trapdoor
++ block.minecraft.bamboo_wall_hanging_sign
++ block.minecraft.bamboo_wall_sign
++ block.minecraft.birch_hanging_sign
++ block.minecraft.birch_wall_hanging_sign
++ block.minecraft.chiseled_bookshelf
++ block.minecraft.crimson_hanging_sign
++ block.minecraft.crimson_wall_hanging_sign
++ block.minecraft.dark_oak_hanging_sign
++ block.minecraft.dark_oak_wall_hanging_sign
++ block.minecraft.jungle_hanging_sign
++ block.minecraft.jungle_wall_hanging_sign
++ block.minecraft.mangrove_hanging_sign
++ block.minecraft.mangrove_wall_hanging_sign
++ block.minecraft.oak_hanging_sign
++ block.minecraft.oak_wall_hanging_sign
++ block.minecraft.spruce_hanging_sign
++ block.minecraft.spruce_wall_hanging_sign
++ block.minecraft.warped_hanging_sign
++ block.minecraft.warped_wall_hanging_sign
++ chat.deleted_marker
++ chat.disabled.chain_broken
++ chat.filtered
+- chat.previewInput
+- chat.tag.filtered
+- chat.tag.modified.original
++ chat.tag.system
+- chatPreview.warning.check
+- chatPreview.warning.content
+- chatPreview.warning.title
+- chatPreview.warning.toast
+- chatPreview.warning.toast.title
++ commands.datapack.enable.failed.no_flags
+- commands.locate.biome.invalid
+- commands.locate.poi.invalid
++ dataPack.bundle.description
++ dataPack.update_1_20.description
++ dataPack.vanilla.name
+- effect.effectNotFound
+- enchantment.unknown
++ entity.minecraft.camel
++ entity.not_summonable
+- entity.notFound
++ hanging_sign.edit
++ item.disabled
++ item.minecraft.bamboo_chest_raft
++ item.minecraft.bamboo_raft
++ item.minecraft.camel_spawn_egg
+- itemGroup.brewing
++ itemGroup.consumables
++ itemGroup.crafting
+- itemGroup.decorations
+- itemGroup.food
++ itemGroup.functional
+- itemGroup.materials
+- itemGroup.misc
++ itemGroup.nature
++ itemGroup.spawnEggs
+- itemGroup.transportation
++ mco.account.privacy.info
++ mco.account.privacyinfo
++ mco.account.update
++ mco.activity.noactivity
++ mco.activity.title
++ mco.backup.button.download
++ mco.backup.button.reset
++ mco.backup.button.restore
++ mco.backup.button.upload
++ mco.backup.changes.tooltip
++ mco.backup.generate.world
++ mco.backup.nobackups
++ mco.backup.restoring
++ mco.brokenworld.download
++ mco.brokenworld.downloaded
++ mco.brokenworld.message.line1
++ mco.brokenworld.message.line2
++ mco.brokenworld.minigame.title
++ mco.brokenworld.nonowner.error
++ mco.brokenworld.nonowner.title
++ mco.brokenworld.play
++ mco.brokenworld.reset
++ mco.brokenworld.title
++ mco.client.incompatible.msg.line1
++ mco.client.incompatible.msg.line2
++ mco.client.incompatible.msg.line3
++ mco.client.incompatible.title
++ mco.configure.current.minigame
++ mco.configure.world.activityfeed.disabled
++ mco.configure.world.backup
++ mco.configure.world.buttons.activity
++ mco.configure.world.buttons.close
++ mco.configure.world.buttons.delete
++ mco.configure.world.buttons.done
++ mco.configure.world.buttons.edit
++ mco.configure.world.buttons.invite
++ mco.configure.world.buttons.moreoptions
++ mco.configure.world.buttons.open
++ mco.configure.world.buttons.options
++ mco.configure.world.buttons.players
++ mco.configure.world.buttons.resetworld
++ mco.configure.world.buttons.settings
++ mco.configure.world.buttons.subscription
++ mco.configure.world.buttons.switchminigame
++ mco.configure.world.close.question.line1
++ mco.configure.world.close.question.line2
++ mco.configure.world.closing
++ mco.configure.world.commandBlocks
++ mco.configure.world.delete.button
++ mco.configure.world.delete.question.line1
++ mco.configure.world.delete.question.line2
++ mco.configure.world.description
++ mco.configure.world.edit.slot.name
++ mco.configure.world.edit.subscreen.adventuremap
++ mco.configure.world.edit.subscreen.experience
++ mco.configure.world.edit.subscreen.inspiration
++ mco.configure.world.forceGameMode
++ mco.configure.world.invite.narration
++ mco.configure.world.invite.profile.name
++ mco.configure.world.invited
++ mco.configure.world.invites.normal.tooltip
++ mco.configure.world.invites.ops.tooltip
++ mco.configure.world.invites.remove.tooltip
++ mco.configure.world.leave.question.line1
++ mco.configure.world.leave.question.line2
++ mco.configure.world.location
++ mco.configure.world.name
++ mco.configure.world.opening
++ mco.configure.world.players.error
++ mco.configure.world.players.title
++ mco.configure.world.pvp
++ mco.configure.world.reset.question.line1
++ mco.configure.world.reset.question.line2
++ mco.configure.world.resourcepack.question.line1
++ mco.configure.world.resourcepack.question.line2
++ mco.configure.world.restore.download.question.line1
++ mco.configure.world.restore.download.question.line2
++ mco.configure.world.restore.question.line1
++ mco.configure.world.restore.question.line2
++ mco.configure.world.settings.title
++ mco.configure.world.slot
++ mco.configure.world.slot.empty
++ mco.configure.world.slot.switch.question.line1
++ mco.configure.world.slot.switch.question.line2
++ mco.configure.world.slot.tooltip
++ mco.configure.world.slot.tooltip.active
++ mco.configure.world.slot.tooltip.minigame
++ mco.configure.world.spawn_toggle.message
++ mco.configure.world.spawn_toggle.message.npc
++ mco.configure.world.spawn_toggle.title
++ mco.configure.world.spawnAnimals
++ mco.configure.world.spawnMonsters
++ mco.configure.world.spawnNPCs
++ mco.configure.world.spawnProtection
++ mco.configure.world.status
++ mco.configure.world.subscription.day
++ mco.configure.world.subscription.days
++ mco.configure.world.subscription.expired
++ mco.configure.world.subscription.extend
++ mco.configure.world.subscription.less_than_a_day
++ mco.configure.world.subscription.month
++ mco.configure.world.subscription.months
++ mco.configure.world.subscription.recurring.daysleft
++ mco.configure.world.subscription.start
++ mco.configure.world.subscription.timeleft
++ mco.configure.world.subscription.title
++ mco.configure.world.subscription.unknown
++ mco.configure.world.switch.slot
++ mco.configure.world.switch.slot.subtitle
++ mco.configure.world.title
++ mco.configure.world.uninvite.question
++ mco.configure.worlds.title
++ mco.connect.authorizing
++ mco.connect.connecting
++ mco.connect.failed
++ mco.connect.success
++ mco.create.world
++ mco.create.world.error
++ mco.create.world.reset.title
++ mco.create.world.skip
++ mco.create.world.subtitle
++ mco.create.world.wait
++ mco.download.cancelled
++ mco.download.confirmation.line1
++ mco.download.confirmation.line2
++ mco.download.done
++ mco.download.downloading
++ mco.download.extracting
++ mco.download.failed
++ mco.download.preparing
++ mco.download.title
++ mco.error.invalid.session.message
++ mco.error.invalid.session.title
++ mco.errorMessage.6001
++ mco.errorMessage.6002
++ mco.errorMessage.6003
++ mco.errorMessage.6004
++ mco.errorMessage.connectionFailure
++ mco.errorMessage.serviceBusy
++ mco.gui.button
++ mco.gui.ok
++ mco.invites.button.accept
++ mco.invites.button.reject
++ mco.invites.nopending
++ mco.invites.pending
++ mco.invites.title
++ mco.minigame.world.changeButton
++ mco.minigame.world.info.line1
++ mco.minigame.world.info.line2
++ mco.minigame.world.noSelection
++ mco.minigame.world.restore
++ mco.minigame.world.restore.question.line1
++ mco.minigame.world.restore.question.line2
++ mco.minigame.world.selected
++ mco.minigame.world.slot.screen.title
++ mco.minigame.world.startButton
++ mco.minigame.world.starting.screen.title
++ mco.minigame.world.stopButton
++ mco.minigame.world.switch.new
++ mco.minigame.world.switch.title
++ mco.minigame.world.title
++ mco.news
++ mco.reset.world.adventure
++ mco.reset.world.experience
++ mco.reset.world.generate
++ mco.reset.world.inspiration
++ mco.reset.world.resetting.screen.title
++ mco.reset.world.seed
++ mco.reset.world.template
++ mco.reset.world.title
++ mco.reset.world.upload
++ mco.reset.world.warning
++ mco.selectServer.buy
++ mco.selectServer.close
++ mco.selectServer.closed
++ mco.selectServer.closeserver
++ mco.selectServer.configure
++ mco.selectServer.create
++ mco.selectServer.expired
++ mco.selectServer.expiredList
++ mco.selectServer.expiredRenew
++ mco.selectServer.expiredSubscribe
++ mco.selectServer.expiredTrial
++ mco.selectServer.expires.day
++ mco.selectServer.expires.days
++ mco.selectServer.expires.soon
++ mco.selectServer.leave
++ mco.selectServer.mapOnlySupportedForVersion
++ mco.selectServer.minigame
++ mco.selectServer.minigameNotSupportedInVersion
++ mco.selectServer.note
++ mco.selectServer.open
++ mco.selectServer.openserver
++ mco.selectServer.play
++ mco.selectServer.popup
++ mco.selectServer.purchase
++ mco.selectServer.trial
++ mco.selectServer.uninitialized
++ mco.template.button.publisher
++ mco.template.button.select
++ mco.template.button.trailer
++ mco.template.default.name
++ mco.template.info.tooltip
++ mco.template.name
++ mco.template.select.failure
++ mco.template.select.narrate.authors
++ mco.template.select.narrate.version
++ mco.template.select.none
++ mco.template.select.none.linkTitle
++ mco.template.title
++ mco.template.title.minigame
++ mco.template.trailer.tooltip
++ mco.terms.buttons.agree
++ mco.terms.buttons.disagree
++ mco.terms.sentence.1
++ mco.terms.sentence.2
++ mco.terms.title
++ mco.trial.message.line1
++ mco.trial.message.line2
++ mco.upload.button.name
++ mco.upload.cancelled
++ mco.upload.close.failure
++ mco.upload.done
++ mco.upload.failed
++ mco.upload.hardcore
++ mco.upload.preparing
++ mco.upload.select.world.none
++ mco.upload.select.world.subtitle
++ mco.upload.select.world.title
++ mco.upload.size.failure.line1
++ mco.upload.size.failure.line2
++ mco.upload.uploading
++ mco.upload.verifying
++ options.accessibility.panorama_speed
+- options.chatPreview
+- options.chatPreview.confirm
+- options.chatPreview.live
+- options.chatPreview.tooltip.confirm
+- options.chatPreview.tooltip.live
+- options.chatPreview.tooltip.off
++ pack.source.feature
++ resourcePack.programmer_art.name
++ resourcePack.vanilla.name
++ selectWorld.experimental
++ selectWorld.experimental.details
++ selectWorld.experimental.details.entry
++ selectWorld.experimental.details.title
++ selectWorld.experimental.message
++ selectWorld.experimental.title
+- selectWorld.import_worldgen_settings.deprecated.question
+- selectWorld.import_worldgen_settings.deprecated.title
+- selectWorld.import_worldgen_settings.experimental.question
+- selectWorld.import_worldgen_settings.experimental.title
++ selectWorld.warning.deprecated.question
++ selectWorld.warning.deprecated.title
++ selectWorld.warning.experimental.question
++ selectWorld.warning.experimental.title
++ subtitles.entity.camel.ambient
++ subtitles.entity.camel.dash
++ subtitles.entity.camel.dash_ready
++ subtitles.entity.camel.death
++ subtitles.entity.camel.eat
++ subtitles.entity.camel.hurt
++ subtitles.entity.camel.saddle
++ subtitles.entity.camel.sit
++ subtitles.entity.camel.stand
++ subtitles.entity.camel.step
++ subtitles.entity.camel.step_sand
++ subtitles.entity.tadpole.grow_up
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>List</summary>
+
+```diff
++ chat_types.txt
++ datapacks.txt
++ dimension_types.txt
++ dimensions.txt
++ worldgen/biome.txt
++ worldgen/configured_carver.txt
++ worldgen/configured_feature.txt
++ worldgen/density_function.txt
++ worldgen/flat_level_generator_preset.txt
++ worldgen/noise_settings.txt
++ worldgen/noise.txt
++ worldgen/placed_feature.txt
++ worldgen/processor_list.txt
++ worldgen/structure_set.txt
++ worldgen/structure.txt
++ worldgen/template_pool.txt
++ worldgen/world_preset.txt
+```
+
+</details>
+
+
+<details><summary>languages.txt</summary>
+
+```diff
++ lo_la.json
++ nah.json
+- realms/lang/af_za.json
+- realms/lang/ar_sa.json
+- realms/lang/ast_es.json
+- realms/lang/az_az.json
+- realms/lang/ba_ru.json
+- realms/lang/bar.json
+- realms/lang/be_by.json
+- realms/lang/bg_bg.json
+- realms/lang/br_fr.json
+- realms/lang/brb.json
+- realms/lang/bs_ba.json
+- realms/lang/ca_es.json
+- realms/lang/cs_cz.json
+- realms/lang/cy_gb.json
+- realms/lang/da_dk.json
+- realms/lang/de_at.json
+- realms/lang/de_ch.json
+- realms/lang/de_de.json
+- realms/lang/el_gr.json
+- realms/lang/en_au.json
+- realms/lang/en_ca.json
+- realms/lang/en_gb.json
+- realms/lang/en_nz.json
+- realms/lang/en_pt.json
+- realms/lang/en_ud.json
+- realms/lang/enp.json
+- realms/lang/enws.json
+- realms/lang/eo_uy.json
+- realms/lang/es_ar.json
+- realms/lang/es_cl.json
+- realms/lang/es_ec.json
+- realms/lang/es_es.json
+- realms/lang/es_mx.json
+- realms/lang/es_uy.json
+- realms/lang/es_ve.json
+- realms/lang/esan.json
+- realms/lang/et_ee.json
+- realms/lang/eu_es.json
+- realms/lang/fa_ir.json
+- realms/lang/fi_fi.json
+- realms/lang/fil_ph.json
+- realms/lang/fo_fo.json
+- realms/lang/fr_ca.json
+- realms/lang/fr_fr.json
+- realms/lang/fra_de.json
+- realms/lang/fur_it.json
+- realms/lang/fy_nl.json
+- realms/lang/ga_ie.json
+- realms/lang/gd_gb.json
+- realms/lang/gl_es.json
+- realms/lang/haw_us.json
+- realms/lang/he_il.json
+- realms/lang/hi_in.json
+- realms/lang/hr_hr.json
+- realms/lang/hu_hu.json
+- realms/lang/hy_am.json
+- realms/lang/id_id.json
+- realms/lang/ig_ng.json
+- realms/lang/io_en.json
+- realms/lang/is_is.json
+- realms/lang/isv.json
+- realms/lang/it_it.json
+- realms/lang/ja_jp.json
+- realms/lang/jbo_en.json
+- realms/lang/ka_ge.json
+- realms/lang/kk_kz.json
+- realms/lang/kn_in.json
+- realms/lang/ko_kr.json
+- realms/lang/ksh.json
+- realms/lang/kw_gb.json
+- realms/lang/la_la.json
+- realms/lang/lb_lu.json
+- realms/lang/li_li.json
+- realms/lang/lmo.json
+- realms/lang/lol_us.json
+- realms/lang/lt_lt.json
+- realms/lang/lv_lv.json
+- realms/lang/lzh.json
+- realms/lang/mk_mk.json
+- realms/lang/mn_mn.json
+- realms/lang/ms_my.json
+- realms/lang/mt_mt.json
+- realms/lang/nds_de.json
+- realms/lang/nl_be.json
+- realms/lang/nl_nl.json
+- realms/lang/nn_no.json
+- realms/lang/no_no.json
+- realms/lang/oc_fr.json
+- realms/lang/ovd.json
+- realms/lang/pl_pl.json
+- realms/lang/pt_br.json
+- realms/lang/pt_pt.json
+- realms/lang/qya_aa.json
+- realms/lang/ro_ro.json
+- realms/lang/rpr.json
+- realms/lang/ru_ru.json
+- realms/lang/ry_ua.json
+- realms/lang/se_no.json
+- realms/lang/sk_sk.json
+- realms/lang/sl_si.json
+- realms/lang/so_so.json
+- realms/lang/sq_al.json
+- realms/lang/sr_sp.json
+- realms/lang/sv_se.json
+- realms/lang/sxu.json
+- realms/lang/szl.json
+- realms/lang/ta_in.json
+- realms/lang/th_th.json
+- realms/lang/tl_ph.json
+- realms/lang/tlh_aa.json
+- realms/lang/tok.json
+- realms/lang/tr_tr.json
+- realms/lang/tt_ru.json
+- realms/lang/uk_ua.json
+- realms/lang/val_es.json
+- realms/lang/vec_it.json
+- realms/lang/vi_vn.json
+- realms/lang/yi_de.json
+- realms/lang/yo_ng.json
+- realms/lang/zh_cn.json
+- realms/lang/zh_hk.json
+- realms/lang/zh_tw.json
+- realms/lang/zlm_arab.json
++ sah_sah.json
++ sr_cs.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/acacia_hanging_sign.json
++ blocks/bamboo_button.json
++ blocks/bamboo_door.json
++ blocks/bamboo_fence_gate.json
++ blocks/bamboo_fence.json
++ blocks/bamboo_hanging_sign.json
++ blocks/bamboo_mosaic_slab.json
++ blocks/bamboo_mosaic_stairs.json
++ blocks/bamboo_mosaic.json
++ blocks/bamboo_planks.json
++ blocks/bamboo_pressure_plate.json
++ blocks/bamboo_sign.json
++ blocks/bamboo_slab.json
++ blocks/bamboo_stairs.json
++ blocks/bamboo_trapdoor.json
++ blocks/birch_hanging_sign.json
++ blocks/chiseled_bookshelf.json
++ blocks/crimson_hanging_sign.json
++ blocks/dark_oak_hanging_sign.json
++ blocks/jungle_hanging_sign.json
++ blocks/mangrove_hanging_sign.json
++ blocks/oak_hanging_sign.json
++ blocks/spruce_hanging_sign.json
++ blocks/warped_hanging_sign.json
++ entities/camel.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
+- block_marker.json
+- block.json
+- elder_guardian.json
+- explosion_emitter.json
+- item_slime.json
+- item_snowball.json
+- item.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/bamboo_wood_button/bamboo_wood_button.ogg
++ block/bamboo_wood_door/toggle1.ogg
++ block/bamboo_wood_door/toggle2.ogg
++ block/bamboo_wood_door/toggle3.ogg
++ block/bamboo_wood_door/toggle4.ogg
++ block/bamboo_wood_fence/toggle1.ogg
++ block/bamboo_wood_fence/toggle2.ogg
++ block/bamboo_wood_fence/toggle3.ogg
++ block/bamboo_wood_fence/toggle4.ogg
++ block/bamboo_wood_hanging_sign/break1.ogg
++ block/bamboo_wood_hanging_sign/break2.ogg
++ block/bamboo_wood_hanging_sign/break3.ogg
++ block/bamboo_wood_hanging_sign/break4.ogg
++ block/bamboo_wood_hanging_sign/step1.ogg
++ block/bamboo_wood_hanging_sign/step2.ogg
++ block/bamboo_wood_hanging_sign/step3.ogg
++ block/bamboo_wood_hanging_sign/step4.ogg
++ block/bamboo_wood_trapdoor/toggle1.ogg
++ block/bamboo_wood_trapdoor/toggle2.ogg
++ block/bamboo_wood_trapdoor/toggle3.ogg
++ block/bamboo_wood_trapdoor/toggle4.ogg
++ block/bamboo_wood/break1.ogg
++ block/bamboo_wood/break2.ogg
++ block/bamboo_wood/break3.ogg
++ block/bamboo_wood/break4.ogg
++ block/bamboo_wood/break5.ogg
++ block/bamboo_wood/step1.ogg
++ block/bamboo_wood/step2.ogg
++ block/bamboo_wood/step3.ogg
++ block/bamboo_wood/step4.ogg
++ block/bamboo_wood/step5.ogg
++ block/bamboo_wood/step6.ogg
++ block/chest/close_locked.ogg
+- block/chest/close.ogg
++ block/chest/close1.ogg
++ block/chest/open_locked.ogg
++ block/chiseled_bookshelf/break1.ogg
++ block/chiseled_bookshelf/break2.ogg
++ block/chiseled_bookshelf/break3.ogg
++ block/chiseled_bookshelf/break4.ogg
++ block/chiseled_bookshelf/break5.ogg
++ block/chiseled_bookshelf/break6.ogg
++ block/chiseled_bookshelf/insert_enchanted1.ogg
++ block/chiseled_bookshelf/insert_enchanted2.ogg
++ block/chiseled_bookshelf/insert_enchanted3.ogg
++ block/chiseled_bookshelf/insert_enchanted4.ogg
++ block/chiseled_bookshelf/insert1.ogg
++ block/chiseled_bookshelf/insert2.ogg
++ block/chiseled_bookshelf/insert3.ogg
++ block/chiseled_bookshelf/insert4.ogg
++ block/chiseled_bookshelf/pickup_enchanted1.ogg
++ block/chiseled_bookshelf/pickup_enchanted2.ogg
++ block/chiseled_bookshelf/pickup_enchanted3.ogg
++ block/chiseled_bookshelf/pickup1.ogg
++ block/chiseled_bookshelf/pickup2.ogg
++ block/chiseled_bookshelf/pickup3.ogg
++ block/chiseled_bookshelf/step1.ogg
++ block/chiseled_bookshelf/step2.ogg
++ block/chiseled_bookshelf/step3.ogg
++ block/chiseled_bookshelf/step4.ogg
++ block/chiseled_bookshelf/step5.ogg
++ block/hanging_sign/break1.ogg
++ block/hanging_sign/break2.ogg
++ block/hanging_sign/break3.ogg
++ block/hanging_sign/break4.ogg
++ block/hanging_sign/step1.ogg
++ block/hanging_sign/step2.ogg
++ block/hanging_sign/step3.ogg
++ block/hanging_sign/step4.ogg
++ block/nether_wood_button/nether_wood_button.ogg
++ block/nether_wood_door/toggle1.ogg
++ block/nether_wood_door/toggle2.ogg
++ block/nether_wood_door/toggle3.ogg
++ block/nether_wood_door/toggle4.ogg
++ block/nether_wood_fence/toggle1.ogg
++ block/nether_wood_fence/toggle2.ogg
++ block/nether_wood_fence/toggle3.ogg
++ block/nether_wood_fence/toggle4.ogg
++ block/nether_wood_hanging_sign/break1.ogg
++ block/nether_wood_hanging_sign/break2.ogg
++ block/nether_wood_hanging_sign/break3.ogg
++ block/nether_wood_hanging_sign/break4.ogg
++ block/nether_wood_hanging_sign/step1.ogg
++ block/nether_wood_hanging_sign/step2.ogg
++ block/nether_wood_hanging_sign/step3.ogg
++ block/nether_wood_hanging_sign/step4.ogg
++ block/nether_wood_trapdoor/toggle1.ogg
++ block/nether_wood_trapdoor/toggle2.ogg
++ block/nether_wood_trapdoor/toggle3.ogg
++ block/nether_wood_trapdoor/toggle4.ogg
++ block/nether_wood/break1.ogg
++ block/nether_wood/break2.ogg
++ block/nether_wood/break3.ogg
++ block/nether_wood/break4.ogg
++ block/nether_wood/step1.ogg
++ block/nether_wood/step2.ogg
++ block/nether_wood/step3.ogg
++ block/nether_wood/step4.ogg
++ block/nether_wood/step5.ogg
+- block/wooden_door/close.ogg
++ block/wooden_door/close1.ogg
+- block/wooden_door/close4.ogg
+- block/wooden_door/close5.ogg
+- block/wooden_door/close6.ogg
+- block/wooden_door/open.ogg
++ block/wooden_door/open1.ogg
+- block/wooden_door/open3.ogg
+- block/wooden_door/open4.ogg
++ mob/camel/ambient1.ogg
++ mob/camel/ambient2.ogg
++ mob/camel/ambient3.ogg
++ mob/camel/ambient4.ogg
++ mob/camel/ambient5.ogg
++ mob/camel/ambient6.ogg
++ mob/camel/ambient7.ogg
++ mob/camel/ambient8.ogg
++ mob/camel/dash_ready1.ogg
++ mob/camel/dash1.ogg
++ mob/camel/dash2.ogg
++ mob/camel/dash3.ogg
++ mob/camel/dash4.ogg
++ mob/camel/dash5.ogg
++ mob/camel/dash6.ogg
++ mob/camel/death1.ogg
++ mob/camel/death2.ogg
++ mob/camel/eat1.ogg
++ mob/camel/eat2.ogg
++ mob/camel/eat3.ogg
++ mob/camel/eat4.ogg
++ mob/camel/eat5.ogg
++ mob/camel/hurt1.ogg
++ mob/camel/hurt2.ogg
++ mob/camel/hurt3.ogg
++ mob/camel/hurt4.ogg
++ mob/camel/sit1.ogg
++ mob/camel/sit2.ogg
++ mob/camel/sit3.ogg
++ mob/camel/sit4.ogg
++ mob/camel/stand1.ogg
++ mob/camel/stand2.ogg
++ mob/camel/stand3.ogg
++ mob/camel/stand4.ogg
++ mob/camel/stand5.ogg
++ mob/camel/step_sand1.ogg
++ mob/camel/step_sand2.ogg
++ mob/camel/step_sand3.ogg
++ mob/camel/step_sand4.ogg
++ mob/camel/step_sand5.ogg
++ mob/camel/step_sand6.ogg
++ mob/camel/step1.ogg
++ mob/camel/step2.ogg
++ mob/camel/step3.ogg
++ mob/camel/step4.ogg
++ mob/camel/step5.ogg
++ mob/camel/step6.ogg
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
++ village/desert/camel_spawn.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/invalid_spawn_inside.json
++ blocks/stripped_logs.json
++ items/stripped_logs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/bamboo_door_bottom.png
++ block/bamboo_door_top.png
++ block/bamboo_fence_gate_particle.png
++ block/bamboo_fence_gate.png
++ block/bamboo_fence_particle.png
++ block/bamboo_fence.png
++ block/bamboo_mosaic.png
++ block/bamboo_planks.png
++ block/bamboo_trapdoor.png
++ block/chiseled_bookshelf_side.png
++ block/chiseled_bookshelf_stage0.png
++ block/chiseled_bookshelf_stage1.png
++ block/chiseled_bookshelf_stage2.png
++ block/chiseled_bookshelf_stage3.png
++ block/chiseled_bookshelf_stage4.png
++ block/chiseled_bookshelf_stage5.png
++ block/chiseled_bookshelf_stage6.png
++ block/chiseled_bookshelf_top.png
++ entity/boat/bamboo.png
++ entity/camel/camel.png
++ entity/chest_boat/bamboo.png
++ entity/signs/bamboo.png
++ entity/signs/hanging/acacia.png
++ entity/signs/hanging/bamboo.png
++ entity/signs/hanging/birch.png
++ entity/signs/hanging/crimson.png
++ entity/signs/hanging/dark_oak.png
++ entity/signs/hanging/jungle.png
++ entity/signs/hanging/mangrove.png
++ entity/signs/hanging/oak.png
++ entity/signs/hanging/spruce.png
++ entity/signs/hanging/warped.png
++ gui/checkmark.png
++ gui/hanging_signs/acacia.png
++ gui/hanging_signs/bamboo.png
++ gui/hanging_signs/birch.png
++ gui/hanging_signs/crimson.png
++ gui/hanging_signs/dark_oak.png
++ gui/hanging_signs/jungle.png
++ gui/hanging_signs/mangrove.png
++ gui/hanging_signs/oak.png
++ gui/hanging_signs/spruce.png
++ gui/hanging_signs/warped.png
++ item/acacia_hanging_sign.png
++ item/bamboo_chest_raft.png
++ item/bamboo_door.png
++ item/bamboo_hanging_sign.png
++ item/bamboo_raft.png
++ item/bamboo_sign.png
++ item/birch_hanging_sign.png
++ item/crimson_hanging_sign.png
++ item/dark_oak_hanging_sign.png
++ item/jungle_hanging_sign.png
++ item/mangrove_hanging_sign.png
++ item/oak_hanging_sign.png
++ item/spruce_hanging_sign.png
++ item/warped_hanging_sign.png
+```
+
+</details>
+
+
+<details><summary>parsers.txt</summary>
+
+```diff
+- minecraft:entity_summon
+- minecraft:item_enchantment
+- minecraft:mob_effect
++ minecraft:resource_key
++ minecraft:resource_or_tag_key
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.11.49
++ com.mojang:authlib:3.13.56
+- com.mojang:javabridge:1.2.24
++ com.mojang:javabridge:2.0.25
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w48a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w48a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-11-25T15:42:24+00:00</td></tr>
@@ -10,1062 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb/server.txt">https://piston-data.mojang.com/v1/objects/a54f1c40e3b9a63a7a23fc268df7e79c2cb7e6cb/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar">https://piston-data.mojang.com/v1/objects/a894354496a03e4bce6fe6c03a68313f4660e482/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/55550d2717feb75a77920e211655a649708b859d/client.txt">https://piston-data.mojang.com/v1/objects/55550d2717feb75a77920e211655a649708b859d/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w46a">20w46a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
-+  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
-+  minecraft/loot_tables/blocks/dripstone_block.json
-+  minecraft/loot_tables/blocks/pointed_dripstone.json
-+  minecraft/recipes/waxed_cut_copper_slab.json
--  minecraft/recipes/waxed_cut_copper_slab_from_waxed_block.json
-+  minecraft/recipes/waxed_cut_copper_stairs.json
--  minecraft/recipes/waxed_cut_copper_stairs_from_waxed_block.json
-+  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
-+  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
-+  minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
-+  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
-+  minecraft/tags/blocks/inside_step_sound_blocks.json
--  minecraft/tags/blocks/snow_step_sound_blocks.json
-+  minecraft/tags/items/freeze_immune_wearables.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/dripstone_block.json
-+  minecraft/blockstates/pointed_dripstone.json
-+  minecraft/models/block/dripstone_block.json
-+  minecraft/models/block/pointed_dripstone.json
-+  minecraft/models/block/pointed_dripstone_down_base.json
-+  minecraft/models/block/pointed_dripstone_down_frustum.json
-+  minecraft/models/block/pointed_dripstone_down_middle.json
-+  minecraft/models/block/pointed_dripstone_down_tip.json
-+  minecraft/models/block/pointed_dripstone_down_tip_merge.json
-+  minecraft/models/block/pointed_dripstone_up_base.json
-+  minecraft/models/block/pointed_dripstone_up_frustum.json
-+  minecraft/models/block/pointed_dripstone_up_middle.json
-+  minecraft/models/block/pointed_dripstone_up_tip.json
-+  minecraft/models/block/pointed_dripstone_up_tip_merge.json
-+  minecraft/models/item/dripstone_block.json
-+  minecraft/models/item/pointed_dripstone.json
--  minecraft/models/item/spyglass_scoping.json
-+  minecraft/particles/dripping_dripstone_lava.json
-+  minecraft/particles/dripping_dripstone_water.json
-+  minecraft/particles/falling_dripstone_lava.json
-+  minecraft/particles/falling_dripstone_water.json
-+  minecraft/textures/block/dripstone_block.png
-+  minecraft/textures/block/pointed_dripstone_down_base.png
-+  minecraft/textures/block/pointed_dripstone_down_frustum.png
-+  minecraft/textures/block/pointed_dripstone_down_middle.png
-+  minecraft/textures/block/pointed_dripstone_down_tip.png
-+  minecraft/textures/block/pointed_dripstone_down_tip_merge.png
-+  minecraft/textures/block/pointed_dripstone_up_base.png
-+  minecraft/textures/block/pointed_dripstone_up_frustum.png
-+  minecraft/textures/block/pointed_dripstone_up_middle.png
-+  minecraft/textures/block/pointed_dripstone_up_tip.png
-+  minecraft/textures/block/pointed_dripstone_up_tip_merge.png
-+  minecraft/textures/item/pointed_dripstone.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:pointed_dripstone
-+ minecraft:dripstone_block
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:pointed_dripstone
-+ minecraft:dripstone_block
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:dripping_dripstone_lava
-+ minecraft:falling_dripstone_lava
-+ minecraft:dripping_dripstone_water
-+ minecraft:falling_dripstone_water
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.dripstone_block.break
-+ minecraft:block.dripstone_block.step
-+ minecraft:block.dripstone_block.place
-+ minecraft:block.dripstone_block.hit
-+ minecraft:block.dripstone_block.fall
-+ minecraft:block.pointed_dripstone.break
-+ minecraft:block.pointed_dripstone.step
-+ minecraft:block.pointed_dripstone.place
-+ minecraft:block.pointed_dripstone.hit
-+ minecraft:block.pointed_dripstone.fall
-+ minecraft:block.pointed_dripstone.land
-+ minecraft:block.pointed_dripstone.drip_lava
-+ minecraft:block.pointed_dripstone.drip_water
-+ minecraft:block.pointed_dripstone.drip_lava_into_cauldron
-+ minecraft:block.pointed_dripstone.drip_water_into_cauldron
-```
-
-</details>
-
-## Commands
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule freezeDamage <value: bool>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/snow_step_sound_blocks.json
-+ blocks/inside_step_sound_blocks.json
-+ items/freeze_immune_wearables.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block.json
-- recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
-+ recipes/building_blocks/waxed_cut_copper_slab.json
-+ recipes/building_blocks/waxed_cut_copper_stairs.json
-+ recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
-+ recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
-+ recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
-+ recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/dripstone_block.json
-+ blocks/pointed_dripstone.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ dripping_dripstone_lava.json
-+ dripping_dripstone_water.json
-+ falling_dripstone_lava.json
-+ falling_dripstone_water.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- waxed_cut_copper_slab_from_waxed_block.json
-- waxed_cut_copper_stairs_from_waxed_block.json
-- waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
-- waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
-- waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
-- waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
-+ waxed_cut_copper_slab.json
-+ waxed_cut_copper_stairs.json
-+ waxed_lightly_weathered_cut_copper_slab.json
-+ waxed_lightly_weathered_cut_copper_stairs.json
-+ waxed_semi_weathered_cut_copper_slab.json
-+ waxed_semi_weathered_cut_copper_stairs.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/snow_step_sound_blocks.json
-+ blocks/inside_step_sound_blocks.json
-+ items/freeze_immune_wearables.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/dripstone_block.png
-+ block/pointed_dripstone_down_base.png
-+ block/pointed_dripstone_down_frustum.png
-+ block/pointed_dripstone_down_middle.png
-+ block/pointed_dripstone_down_tip.png
-+ block/pointed_dripstone_down_tip_merge.png
-+ block/pointed_dripstone_up_base.png
-+ block/pointed_dripstone_up_frustum.png
-+ block/pointed_dripstone_up_middle.png
-+ block/pointed_dripstone_up_tip.png
-+ block/pointed_dripstone_up_tip_merge.png
-+ item/pointed_dripstone.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemOverride</summary>
-
-```diff
-+ boolean test(LivingEntity,int)
-- boolean test(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides</summary>
-
-```diff
-+ BakedModel resolve(LivingEntity,int)
-- BakedModel resolve(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context</summary>
-
-```diff
-+ ModelPart bakeLayer(ModelLayerLocation)
-- ModelPart getLayer(ModelLayerLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRendererProvider$Context</summary>
-
-```diff
-+ ModelPart bakeLayer(ModelLayerLocation)
-- ModelPart getLayer(ModelLayerLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.CustomHeadLayer</summary>
-
-```diff
-+ void translateToHead(PoseStack,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LavaCauldronBlock</summary>
-
-```diff
-+ boolean isFull(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
-
-```diff
-+ SoundType DRIPSTONE_BLOCK
-+ SoundType POINTED_DRIPSTONE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.screens.achievement.package-info
@@ -5499,2225 +4465,70 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.client.renderer.block.model.ItemOverride</summary>
 
 ```diff
-+ Variant createPointedDripstoneVariant(DripstoneThickness)
-+ void createPointedDripstone()
++ boolean test(ItemStack,ClientLevel,LivingEntity,int)
+- boolean test(ItemStack,ClientLevel,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides</summary>
 
 ```diff
-+ ShapedRecipeBuilder chiseledBuilder(ItemLike)
-+ ShapedRecipeBuilder pressurePlateBuilder(ItemLike[])
-+ ShapedRecipeBuilder slabBuilder(Ingredient)
-+ ShapedRecipeBuilder stairBuilder(Ingredient)
-+ String getHasName(ItemLike)
-+ void chiseled(ItemLike)
-+ void cut(ItemLike)
-+ void polished(ItemLike)
-+ void pressurePlate(ItemLike)
-+ void slab(ItemLike)
-+ void stair(ItemLike)
-+ void wall(ItemLike)
++ BakedModel resolve(BakedModel,ItemStack,ClientLevel,LivingEntity,int)
+- BakedModel resolve(BakedModel,ItemStack,ClientLevel,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+<details><summary>net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context</summary>
 
 ```diff
-+ GameType getForcedGameType()
-- boolean publishServer(GameType,boolean,int)
++ ModelPart bakeLayer(ModelLayerLocation)
+- ModelPart getLayer(ModelLayerLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
+<details><summary>net.minecraft.client.renderer.entity.EntityRendererProvider$Context</summary>
 
 ```diff
-- int access$700(ServerPlayer,boolean)
++ ModelPart bakeLayer(ModelLayerLocation)
+- ModelPart getLayer(ModelLayerLocation)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.server.level.DemoMode</summary>
+<details><summary>net.minecraft.client.renderer.entity.layers.CustomHeadLayer</summary>
 
 ```diff
-+ void <init>(ServerPlayer)
-- void <init>(ServerLevel)
++ void translateToHead(PoseStack,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.world.level.block.LavaCauldronBlock</summary>
 
 ```diff
-+ void addDuringTeleport(Entity)
-- void addAndForceLoad(Entity)
++ boolean isFull(BlockState)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.server.level.ServerPlayerGameMode</summary>
+### Server
 
-```diff
-+ boolean changeGameModeForPlayer(GameType)
-+ void <init>(ServerPlayer)
-- void <init>(ServerLevel)
-- void setGameModeForPlayer(GameType)
-- void updateGameMode(GameType)
-```
 
-</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named FREEZE_IMMUNE_WEARABLES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ double clampedMap(double,double,double,double,double)
-+ double map(double,double,double,double,double)
-+ float randomBetween(Random,float,float)
-+ int randomBetweenInclusive(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-- boolean forcedLoading
-- void setLevel(Level)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
-
-```diff
-+ void callOnBrokenAfterFall(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
-
-```diff
-- boolean consideredTheSameItem(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ boolean overrideOtherStackedOnMe(Inventory)
-+ boolean overrideStackedOnOther(Inventory)
-- boolean overrideOtherStackedOnMe(Inventory)
-- boolean overrideStackedOnOther(Inventory)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ boolean overrideOtherStackedOnMe(Inventory)
-+ boolean overrideStackedOnOther(Inventory)
-- boolean overrideOtherStackedOnMe(Inventory)
-- boolean overrideStackedOnOther(Inventory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.context.BlockPlaceContext</summary>
-
-```diff
-+ Direction getNearestLookingVerticalDirection()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
-
-```diff
-+ GameRules$Key RULE_FREEZE_DAMAGE
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameType</summary>
-
-```diff
-+ Component longName
-+ Component shortName
-+ GameType DEFAULT_MODE
-- GameType NOT_SET
-+ Component getLongDisplayName()
-+ Component getShortDisplayName()
-+ GameType byNullableId(int)
-+ int getNullableId(GameType)
-- Component getDisplayName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractCauldronBlock</summary>
-
-```diff
-+ boolean isFull(net.minecraft.world.level.block.state.BlockState)
-+ boolean canReceiveStalactiteDrip(Fluid)
-+ void receiveStalactiteDrip(Fluid)
-+ void tick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block DRIPSTONE_BLOCK
-+ Block POINTED_DRIPSTONE
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CandleBlock</summary>
-
-```diff
-+ boolean canSurvive(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
-
-```diff
-- int randomIntInclusive(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
@@ -8032,13 +4843,500 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ Variant createPointedDripstoneVariant(Direction,DripstoneThickness)
++ void createPointedDripstone()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ ShapedRecipeBuilder chiseledBuilder(ItemLike,ItemLike)
++ ShapedRecipeBuilder pressurePlateBuilder(ItemLike,ItemLike[])
++ ShapedRecipeBuilder slabBuilder(ItemLike,Ingredient)
++ ShapedRecipeBuilder stairBuilder(ItemLike,Ingredient)
++ String getHasName(ItemLike)
++ void chiseled(Consumer,ItemLike,ItemLike)
++ void cut(Consumer,ItemLike,ItemLike)
++ void polished(Consumer,ItemLike,ItemLike)
++ void pressurePlate(Consumer,ItemLike,ItemLike)
++ void slab(Consumer,ItemLike,ItemLike)
++ void stair(Consumer,ItemLike,ItemLike)
++ void wall(Consumer,ItemLike,ItemLike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
+- boolean publishServer(GameType,boolean,int)
++ GameType getForcedGameType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
+- int access$700(ChunkPos,ServerPlayer,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.DemoMode</summary>
+
+```diff
+- void <init>(ServerLevel)
++ void <init>(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- void addAndForceLoad(Entity)
++ void addDuringTeleport(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayerGameMode</summary>
+
+```diff
++ boolean changeGameModeForPlayer(GameType)
+- void <init>(ServerLevel)
++ void <init>(ServerPlayer)
+- void setGameModeForPlayer(GameType)
+- void updateGameMode(GameType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ double clampedMap(double,double,double,double,double)
++ double map(double,double,double,double,double)
++ float randomBetween(Random,float,float)
++ int randomBetweenInclusive(Random,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- void setLevel(Level)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
++ void callOnBrokenAfterFall(Block,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+
+```diff
+- boolean consideredTheSameItem(ItemStack,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item</summary>
+
+```diff
+- boolean overrideOtherStackedOnMe(ItemStack,ItemStack,ClickAction,Inventory)
++ boolean overrideOtherStackedOnMe(ItemStack,ItemStack,Slot,ClickAction,Inventory)
+- boolean overrideStackedOnOther(ItemStack,ItemStack,ClickAction,Inventory)
++ boolean overrideStackedOnOther(ItemStack,Slot,ClickAction,Inventory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
+- boolean overrideOtherStackedOnMe(ItemStack,ClickAction,Inventory)
++ boolean overrideOtherStackedOnMe(ItemStack,Slot,ClickAction,Inventory)
+- boolean overrideStackedOnOther(ItemStack,ClickAction,Inventory)
++ boolean overrideStackedOnOther(Slot,ClickAction,Inventory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.context.BlockPlaceContext</summary>
+
+```diff
++ Direction getNearestLookingVerticalDirection()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameType</summary>
+
+```diff
+- Component getDisplayName()
++ Component getLongDisplayName()
++ Component getShortDisplayName()
++ GameType byNullableId(int)
++ int getNullableId(GameType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractCauldronBlock</summary>
+
+```diff
++ boolean canReceiveStalactiteDrip(Fluid)
++ void receiveStalactiteDrip(BlockState,Level,BlockPos,Fluid)
++ void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CandleBlock</summary>
+
+```diff
++ boolean canSurvive(BlockState,LevelReader,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
+
+```diff
+- int randomIntInclusive(Random,int,int)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
++ minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
++ minecraft/loot_tables/blocks/dripstone_block.json
++ minecraft/loot_tables/blocks/pointed_dripstone.json
+- minecraft/recipes/waxed_cut_copper_slab_from_waxed_block.json
++ minecraft/recipes/waxed_cut_copper_slab.json
+- minecraft/recipes/waxed_cut_copper_stairs_from_waxed_block.json
++ minecraft/recipes/waxed_cut_copper_stairs.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
++ minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
++ minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
++ minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
++ minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
++ minecraft/tags/blocks/inside_step_sound_blocks.json
+- minecraft/tags/blocks/snow_step_sound_blocks.json
++ minecraft/tags/items/freeze_immune_wearables.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/dripstone_block.json
++ minecraft/blockstates/pointed_dripstone.json
++ minecraft/models/block/dripstone_block.json
++ minecraft/models/block/pointed_dripstone_down_base.json
++ minecraft/models/block/pointed_dripstone_down_frustum.json
++ minecraft/models/block/pointed_dripstone_down_middle.json
++ minecraft/models/block/pointed_dripstone_down_tip_merge.json
++ minecraft/models/block/pointed_dripstone_down_tip.json
++ minecraft/models/block/pointed_dripstone_up_base.json
++ minecraft/models/block/pointed_dripstone_up_frustum.json
++ minecraft/models/block/pointed_dripstone_up_middle.json
++ minecraft/models/block/pointed_dripstone_up_tip_merge.json
++ minecraft/models/block/pointed_dripstone_up_tip.json
++ minecraft/models/block/pointed_dripstone.json
++ minecraft/models/item/dripstone_block.json
++ minecraft/models/item/pointed_dripstone.json
+- minecraft/models/item/spyglass_scoping.json
++ minecraft/particles/dripping_dripstone_lava.json
++ minecraft/particles/dripping_dripstone_water.json
++ minecraft/particles/falling_dripstone_lava.json
++ minecraft/particles/falling_dripstone_water.json
++ minecraft/textures/block/dripstone_block.png
++ minecraft/textures/block/pointed_dripstone_down_base.png
++ minecraft/textures/block/pointed_dripstone_down_frustum.png
++ minecraft/textures/block/pointed_dripstone_down_middle.png
++ minecraft/textures/block/pointed_dripstone_down_tip_merge.png
++ minecraft/textures/block/pointed_dripstone_down_tip.png
++ minecraft/textures/block/pointed_dripstone_up_base.png
++ minecraft/textures/block/pointed_dripstone_up_frustum.png
++ minecraft/textures/block/pointed_dripstone_up_middle.png
++ minecraft/textures/block/pointed_dripstone_up_tip_merge.png
++ minecraft/textures/block/pointed_dripstone_up_tip.png
++ minecraft/textures/item/pointed_dripstone.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:dripstone_block
++ minecraft:pointed_dripstone
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:dripstone_block
++ minecraft:pointed_dripstone
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:dripping_dripstone_lava
++ minecraft:dripping_dripstone_water
++ minecraft:falling_dripstone_lava
++ minecraft:falling_dripstone_water
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.dripstone_block.break
++ minecraft:block.dripstone_block.fall
++ minecraft:block.dripstone_block.hit
++ minecraft:block.dripstone_block.place
++ minecraft:block.dripstone_block.step
++ minecraft:block.pointed_dripstone.break
++ minecraft:block.pointed_dripstone.drip_lava
++ minecraft:block.pointed_dripstone.drip_lava_into_cauldron
++ minecraft:block.pointed_dripstone.drip_water
++ minecraft:block.pointed_dripstone.drip_water_into_cauldron
++ minecraft:block.pointed_dripstone.fall
++ minecraft:block.pointed_dripstone.hit
++ minecraft:block.pointed_dripstone.land
++ minecraft:block.pointed_dripstone.place
++ minecraft:block.pointed_dripstone.step
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule freezeDamage <value: bool>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/inside_step_sound_blocks.json
+- blocks/snow_step_sound_blocks.json
++ items/freeze_immune_wearables.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.dripstone_block
++ block.minecraft.pointed_dripstone
++ gamerule.freezeDamage
++ item.minecraft.bundle.fullness
++ subtitles.block.pointed_dripstone.drip_lava
++ subtitles.block.pointed_dripstone.drip_lava_into_cauldron
++ subtitles.block.pointed_dripstone.drip_water
++ subtitles.block.pointed_dripstone.drip_water_into_cauldron
++ subtitles.block.pointed_dripstone.land
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block.json
++ recipes/building_blocks/waxed_cut_copper_slab.json
+- recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block.json
++ recipes/building_blocks/waxed_cut_copper_stairs.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
++ recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
++ recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
++ recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
++ recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/dripstone_block.json
++ blocks/pointed_dripstone.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ dripping_dripstone_lava.json
++ dripping_dripstone_water.json
++ falling_dripstone_lava.json
++ falling_dripstone_water.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- waxed_cut_copper_slab_from_waxed_block.json
++ waxed_cut_copper_slab.json
+- waxed_cut_copper_stairs_from_waxed_block.json
++ waxed_cut_copper_stairs.json
+- waxed_lightly_weathered_cut_copper_slab_from_waxed_block.json
++ waxed_lightly_weathered_cut_copper_slab.json
+- waxed_lightly_weathered_cut_copper_stairs_from_waxed_block.json
++ waxed_lightly_weathered_cut_copper_stairs.json
+- waxed_semi_weathered_cut_copper_slab_from_waxed_block.json
++ waxed_semi_weathered_cut_copper_slab.json
+- waxed_semi_weathered_cut_copper_stairs_from_waxed_block.json
++ waxed_semi_weathered_cut_copper_stairs.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/inside_step_sound_blocks.json
+- blocks/snow_step_sound_blocks.json
++ items/freeze_immune_wearables.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/dripstone_block.png
++ block/pointed_dripstone_down_base.png
++ block/pointed_dripstone_down_frustum.png
++ block/pointed_dripstone_down_middle.png
++ block/pointed_dripstone_down_tip_merge.png
++ block/pointed_dripstone_down_tip.png
++ block/pointed_dripstone_up_base.png
++ block/pointed_dripstone_up_frustum.png
++ block/pointed_dripstone_up_middle.png
++ block/pointed_dripstone_up_tip_merge.png
++ block/pointed_dripstone_up_tip.png
++ item/pointed_dripstone.png
+```
+
+</details>

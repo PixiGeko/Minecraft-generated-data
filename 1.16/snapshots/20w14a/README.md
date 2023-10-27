@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w14a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w14a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-04-02T14:28:06+00:00</td></tr>
@@ -10,3735 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1b2c98f855ef0f690e9d499d363fe5ee5969de62/server.txt">https://piston-data.mojang.com/v1/objects/1b2c98f855ef0f690e9d499d363fe5ee5969de62/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/cb36abdee528372522f52ae41ccc0609fd9c4038/client.jar">https://piston-data.mojang.com/v1/objects/cb36abdee528372522f52ae41ccc0609fd9c4038/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6316a9aa6af559b8f2c8760ebd2c55cf3d34277a/client.txt">https://piston-data.mojang.com/v1/objects/6316a9aa6af559b8f2c8760ebd2c55cf3d34277a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w13b">20w13b</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/entities/zoglin.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/zoglin_spawn_egg.json
-+  minecraft/textures/entity/hoglin/zoglin.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  tmp/world
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ attributes.txt
-+ trunk_placer_type.txt
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:zoglin
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-- minecraft:acacia_tree
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:zoglin_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-- minecraft:nearest_visible_adult_hoglin
-- minecraft:nearest_visible_zombified_piglin
-+ minecraft:nearest_visible_huntable_hoglin
-+ minecraft:nearest_visible_zombified
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.hoglin.converted_to_zombified
-+ minecraft:entity.zoglin.ambient
-+ minecraft:entity.zoglin.angry
-+ minecraft:entity.zoglin.attack
-+ minecraft:entity.zoglin.death
-+ minecraft:entity.zoglin.hurt
-+ minecraft:entity.zoglin.step
-```
-
-</details>
-
-## Tags
-
-<details><summary>blocks/hoglin_repellents.json</summary>
-
-```diff
-+ minecraft:nether_portal
-+ minecraft:respawn_anchor
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ entities/zoglin.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ entity/hoglin/zoglin.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
-
-```diff
-+ boolean lambda$trigger$0(FishingRodHookedTrigger$TriggerInstance)
-+ void trigger(Collection)
-- boolean lambda$trigger$0(FishingRodHookedTrigger$TriggerInstance)
-- void trigger(Collection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean shouldEntityAppearGlowing(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.SystemToast</summary>
-
-```diff
-+ void add(Component)
-+ void onWorldAccessFailure(String)
-+ void onWorldDeleteFailure(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
-
-```diff
-+ Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.OptimizeWorldScreen</summary>
-
-```diff
-+ OptimizeWorldScreen create(LevelStorageSource$LevelStorageAccess,boolean)
-+ void <init>(LevelData,boolean)
-+ void onClose()
-- void <init>(LevelStorageSource,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.CollisionBoxRenderer</summary>
-
-```diff
-+ boolean lambda$render$0(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ void <init>(ChunkProgressListenerFactory)
-+ void loadLevel(ChunkGeneratorProvider)
-- void <init>(ChunkProgressListenerFactory)
-- void loadLevel(ChunkGeneratorProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.FunctionArgument</summary>
-
-```diff
-+ Pair getFunctionOrTag(String)
-- Either getFunctionOrTag(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.item.FunctionArgument$2</summary>
-
-```diff
-+ Pair unwrap(CommandContext)
-- Either unwrap(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior</summary>
-
-```diff
-+ void setEntityPokingOutOfBlock(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.TextureSlot</summary>
-
-```diff
-- TextureSlot[] $VALUES
-+ String toString()
-+ TextureSlot create(String)
-+ TextureSlot create(TextureSlot)
-+ void <init>(TextureSlot)
-- TextureSlot valueOf(String)
-- TextureSlot[] values()
-- void <init>(String)
-- void <init>(TextureSlot)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.EntityTypeTagsProvider</summary>
-
-```diff
-- void useTags(TagCollection)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
-
-```diff
-+ Function blockTags
-- Logger LOGGER
-+ void <init>(BlockTagsProvider)
-+ void copy(Tag$Named)
-- Tag$Entry copy(Tag$Entry)
-- void <clinit>()
-- void <init>(DataGenerator)
-- void copy(Tag)
-- void useTags(TagCollection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ void <init>(BlockPos)
-- void <init>(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ boolean forceSynchronousWrites()
-+ String getLevelIdName()
-+ void <init>(ChunkProgressListenerFactory)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ ChunkPos firstPos
-+ ChunkPos lastPos
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent HOGLIN_CONVERTED_TO_ZOMBIFIED
-+ SoundEvent ZOGLIN_AMBIENT
-+ SoundEvent ZOGLIN_ANGRY
-+ SoundEvent ZOGLIN_ATTACK
-+ SoundEvent ZOGLIN_DEATH
-+ SoundEvent ZOGLIN_HURT
-+ SoundEvent ZOGLIN_STEP
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ StaticTagHelper HELPER
-+ Tag$Named ACACIA_LOGS
-+ Tag$Named ANVIL
-+ Tag$Named BAMBOO_PLANTABLE_ON
-+ Tag$Named BANNERS
-+ Tag$Named BEACON_BASE_BLOCKS
-+ Tag$Named BEDS
-+ Tag$Named BEE_GROWABLES
-+ Tag$Named BEEHIVES
-+ Tag$Named BIRCH_LOGS
-+ Tag$Named BUTTONS
-+ Tag$Named CARPETS
-+ Tag$Named CLIMBABLE
-+ Tag$Named CORAL_BLOCKS
-+ Tag$Named CORAL_PLANTS
-+ Tag$Named CORALS
-+ Tag$Named CRIMSON_STEMS
-+ Tag$Named CROPS
-+ Tag$Named DARK_OAK_LOGS
-+ Tag$Named DOORS
-+ Tag$Named DRAGON_IMMUNE
-+ Tag$Named ENDERMAN_HOLDABLE
-+ Tag$Named FENCES
-+ Tag$Named FIRE
-+ Tag$Named FLOWER_POTS
-+ Tag$Named FLOWERS
-+ Tag$Named GOLD_ORES
-+ Tag$Named HOGLIN_REPELLENTS
-+ Tag$Named ICE
-+ Tag$Named IMPERMEABLE
-+ Tag$Named JUNGLE_LOGS
-+ Tag$Named LEAVES
-+ Tag$Named LOGS
-+ Tag$Named LOGS_THAT_BURN
-+ Tag$Named NON_FLAMMABLE_WOOD
-+ Tag$Named NYLIUM
-+ Tag$Named OAK_LOGS
-+ Tag$Named PIGLIN_REPELLENTS
-+ Tag$Named PLANKS
-+ Tag$Named PORTALS
-+ Tag$Named RAILS
-+ Tag$Named SAND
-+ Tag$Named SAPLINGS
-+ Tag$Named SHULKER_BOXES
-+ Tag$Named SIGNS
-+ Tag$Named SLABS
-+ Tag$Named SMALL_FLOWERS
-+ Tag$Named SOUL_FIRE_BASE_BLOCKS
-+ Tag$Named SOUL_SPEED_BLOCKS
-+ Tag$Named SPRUCE_LOGS
-+ Tag$Named STAIRS
-+ Tag$Named STANDING_SIGNS
-+ Tag$Named STONE_BRICKS
-+ Tag$Named STRIDER_WARM_BLOCKS
-+ Tag$Named TALL_FLOWERS
-+ Tag$Named TRAPDOORS
-+ Tag$Named UNDERWATER_BONEMEALS
-+ Tag$Named VALID_SPAWN
-+ Tag$Named WALL_CORALS
-+ Tag$Named WALL_POST_OVERRIDE
-+ Tag$Named WALL_SIGNS
-+ Tag$Named WALLS
-+ Tag$Named WARPED_STEMS
-+ Tag$Named WART_BLOCKS
-+ Tag$Named WITHER_IMMUNE
-+ Tag$Named WITHER_SUMMON_BASE_BLOCKS
-+ Tag$Named WOODEN_BUTTONS
-+ Tag$Named WOODEN_DOORS
-+ Tag$Named WOODEN_FENCES
-+ Tag$Named WOODEN_PRESSURE_PLATES
-+ Tag$Named WOODEN_SLABS
-+ Tag$Named WOODEN_STAIRS
-+ Tag$Named WOODEN_TRAPDOORS
-+ Tag$Named WOOL
-- int resetCount
-- Tag ACACIA_LOGS
-- Tag ANVIL
-- Tag BAMBOO_PLANTABLE_ON
-- Tag BANNERS
-- Tag BEACON_BASE_BLOCKS
-- Tag BEDS
-- Tag BEE_GROWABLES
-- Tag BEEHIVES
-- Tag BIRCH_LOGS
-- Tag BUTTONS
-- Tag CARPETS
-- Tag CLIMBABLE
-- Tag CORAL_BLOCKS
-- Tag CORAL_PLANTS
-- Tag CORALS
-- Tag CRIMSON_STEMS
-- Tag CROPS
-- Tag DARK_OAK_LOGS
-- Tag DOORS
-- Tag DRAGON_IMMUNE
-- Tag ENDERMAN_HOLDABLE
-- Tag FENCES
-- Tag FIRE
-- Tag FLOWER_POTS
-- Tag FLOWERS
-- Tag GOLD_ORES
-- Tag HOGLIN_REPELLENTS
-- Tag ICE
-- Tag IMPERMEABLE
-- Tag JUNGLE_LOGS
-- Tag LEAVES
-- Tag LOGS
-- Tag LOGS_THAT_BURN
-- Tag NON_FLAMMABLE_WOOD
-- Tag NYLIUM
-- Tag OAK_LOGS
-- Tag PIGLIN_REPELLENTS
-- Tag PLANKS
-- Tag PORTALS
-- Tag RAILS
-- Tag SAND
-- Tag SAPLINGS
-- Tag SHULKER_BOXES
-- Tag SIGNS
-- Tag SLABS
-- Tag SMALL_FLOWERS
-- Tag SOUL_FIRE_BASE_BLOCKS
-- Tag SOUL_SPEED_BLOCKS
-- Tag SPRUCE_LOGS
-- Tag STAIRS
-- Tag STANDING_SIGNS
-- Tag STONE_BRICKS
-- Tag STRIDER_WARM_BLOCKS
-- Tag TALL_FLOWERS
-- Tag TRAPDOORS
-- Tag UNDERWATER_BONEMEALS
-- Tag VALID_SPAWN
-- Tag WALL_CORALS
-- Tag WALL_POST_OVERRIDE
-- Tag WALL_SIGNS
-- Tag WALLS
-- Tag WARPED_STEMS
-- Tag WART_BLOCKS
-- Tag WITHER_IMMUNE
-- Tag WITHER_SUMMON_BASE_BLOCKS
-- Tag WOODEN_BUTTONS
-- Tag WOODEN_DOORS
-- Tag WOODEN_FENCES
-- Tag WOODEN_PRESSURE_PLATES
-- Tag WOODEN_SLABS
-- Tag WOODEN_STAIRS
-- Tag WOODEN_TRAPDOORS
-- Tag WOOL
-- TagCollection source
-+ Tag$Named bind(String)
-- int access$000()
-- Optional lambda$static$0(ResourceLocation)
-- Tag bind(String)
-- TagCollection access$100()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.FluidTags</summary>
-
-```diff
-+ StaticTagHelper HELPER
-+ Tag$Named LAVA
-+ Tag$Named WATER
-- int resetCount
-- Tag LAVA
-- Tag WATER
-- TagCollection source
-+ Tag$Named bind(String)
-- int access$000()
-- Optional lambda$static$0(ResourceLocation)
-- Tag bind(String)
-- TagCollection access$100()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.Tag$Builder</summary>
-
-```diff
-+ Set entries
-- boolean ordered
-- Set values
-+ boolean lambda$getUnresolvedEntries$1(Tag$Entry)
-+ JsonObject serializeToJson()
-+ Optional build(Function)
-+ Stream getEntries()
-+ Stream getUnresolvedEntries(Function)
-+ Tag$Builder addElement(ResourceLocation)
-+ Tag$Builder addFromJson(JsonObject)
-+ void lambda$null$0(Object)
-- boolean canBuild(Function)
-- JsonParseException lambda$addFromJson$0(ResourceLocation)
-- Tag build(ResourceLocation)
-- Tag$Builder add(Collection)
-- Tag$Builder add(Object)
-- Tag$Builder add(Object[])
-- Tag$Builder addFromJson(JsonObject)
-- Tag$Builder addTag(Tag)
-- Tag$Builder keepOrder(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.Tag$TagEntry</summary>
-
-```diff
-- Tag tag
-+ boolean build(Consumer)
-+ String toString()
-+ void serializeTo(JsonArray)
-- boolean canBuild(Function)
-- ResourceLocation getId()
-- void <init>(Tag)
-- void build(Collection)
-- void serializeTo(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.TagCollection</summary>
-
-```diff
-+ BiMap tags
-+ Tag empty
-- boolean ordered
-- Map tags
-+ Map lambda$prepare$2(ResourceManager)
-+ Object lambda$load$3(ResourceLocation)
-+ ResourceLocation getId(Tag)
-+ ResourceLocation getId(Tag$Named)
-+ ResourceLocation getIdOrThrow(Tag)
-+ Tag$Builder lambda$null$1(ResourceLocation)
-+ void <init>(String)
-+ void lambda$load$4(Tag$Builder)
-- Map lambda$prepare$3(ResourceManager)
-- Tag$Builder lambda$null$2(ResourceLocation)
-- void <init>(String)
-- void lambda$load$4(Tag$Builder)
-- void lambda$load$5(Tag$Builder)
-- void lambda$null$1(Tag$Builder)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ double inverseLerp(double,double,double)
-- double pct(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier</summary>
-
-```diff
-+ Logger LOGGER
-- boolean serialize
-+ AttributeModifier load(CompoundTag)
-+ CompoundTag save()
-+ void <clinit>()
-- AttributeModifier setSerialize(boolean)
-- boolean isSerializable()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.attributes.RangedAttribute</summary>
-
-```diff
-- String importLegacyName
-+ void <init>(String,double,double,double)
-- RangedAttribute importLegacyName(String)
-- String getImportLegacyName()
-- void <init>(String,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LookAtTargetSink</summary>
-
-```diff
-+ boolean lambda$canStillUse$0(PositionTracker)
-+ void lambda$tick$1(PositionTracker)
-- boolean lambda$canStillUse$0(PositionWrapper)
-- void lambda$tick$1(PositionWrapper)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_VISIBLE_HUNTABLE_HOGLIN
-+ MemoryModuleType NEAREST_VISIBLE_ZOMBIFIED
-- MemoryModuleType NEAREST_VISIBLE_ADULT_HOGLIN
-- MemoryModuleType NEAREST_VISIBLE_ZOMBIFIED_PIGLIN
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.memory.WalkTarget</summary>
-
-```diff
-+ PositionTracker target
-- PositionWrapper target
-+ PositionTracker getTarget()
-+ void <init>(PositionTracker,float,int)
-- PositionWrapper getTarget()
-- void <init>(PositionWrapper,float,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
-
-```diff
-- AttributeInstance followRange
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Cow</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Pig</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Squid</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-- Attribute JUMP_STRENGTH
-+ AttributeSupplier$Builder createBaseHorseAttributes()
-+ void randomizeAttributes()
-- boolean hurt(DamageSource,float)
-- void registerAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
-
-```diff
-+ void randomizeAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-+ void randomizeAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-+ void randomizeAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Spider</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Witch</summary>
-
-```diff
-+ AttributeSupplier$Builder createAttributes()
-- void registerAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-- int flightTime
-+ boolean canHitEntity(Entity)
-- boolean lambda$findHitEntity$0(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
-
-```diff
-- int flightTime
-+ boolean canHitEntity(Entity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
-
-```diff
-- boolean lambda$tick$1(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
-
-```diff
-+ boolean leftOwner
-+ int ownerNetworkId
-+ boolean canHitEntity(Entity)
-+ boolean checkLeftOwner()
-+ boolean lambda$checkLeftOwner$0(Entity)
-+ float lerpRotation(float,float)
-+ void tick()
-+ void updateRotation()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
-
-```diff
-+ boolean canHitEntity(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
-
-```diff
-+ Multimap defaultModifiers
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DiggerItem</summary>
-
-```diff
-+ Multimap defaultModifiers
-- float attackSpeedBaseline
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ Component lambda$expandBlockState$2(Component)
-+ void addAttributeModifier(EquipmentSlot)
-+ void lambda$appendEnchantmentNames$1(Enchantment)
-+ void lambda$static$0(DecimalFormat)
-- Component lambda$expandBlockState$1(Component)
-- DecimalFormat getAttributeDecimalFormat()
-- void addAttributeModifier(EquipmentSlot)
-- void lambda$appendEnchantmentNames$0(Enchantment)
-- void lambda$getAttributeModifiers$2(AttributeModifier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
-
-```diff
-- Predicate NON_ALL_EMPTY
-+ boolean lambda$of$3(ItemStack)
-+ Ingredient of(Stream)
-+ Ingredient$ItemValue lambda$fromNetwork$5(FriendlyByteBuf)
-+ Ingredient$ItemValue lambda$of$4(ItemStack)
-+ Ingredient$Value lambda$fromJson$6(JsonElement)
-+ Ingredient$Value[] lambda$new$0(int)
-+ ItemStack[] lambda$dissolve$2(int)
-+ JsonSyntaxException lambda$valueFromJson$7(ResourceLocation)
-+ Stream lambda$dissolve$1(Ingredient$Value)
-- boolean lambda$static$0(Ingredient$Value)
-- Ingredient$ItemValue lambda$fromNetwork$6(FriendlyByteBuf)
-- Ingredient$ItemValue lambda$of$4(ItemLike)
-- Ingredient$ItemValue lambda$of$5(ItemStack)
-- Ingredient$Value lambda$fromJson$7(JsonElement)
-- Ingredient$Value[] lambda$new$1(int)
-- ItemStack[] lambda$dissolve$3(int)
-- JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
-- Stream lambda$dissolve$2(Ingredient$Value)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory</summary>
-
-```diff
-+ EnchantmentCategory VANISHABLE
-- EnchantmentCategory ALL
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory$14</summary>
-
-```diff
-+ boolean lambda$canEnchant$0(EnchantmentCategory)
-+ boolean lambda$canEnchant$1(EnchantmentCategory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelAccessor</summary>
-
-```diff
-+ Stream getEntityCollisions(Predicate)
-- Stream getEntityCollisions(Set)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
-
-```diff
-+ Direction getRandomOffset(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.grower.AbstractMegaTreeGrower</summary>
-
-```diff
-+ boolean growTree(Random)
-+ boolean placeMega(Random,int,int)
-- boolean growTree(Random)
-- boolean placeMega(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ void fillFromNoise(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkAccess)
-- void fillFromNoise(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkAccess)
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ List getMobsAt(BlockPos)
-+ void applyBiomeDecoration(StructureFeatureManager)
-+ void createReferences(ChunkAccess)
-+ void createStructures(StructureManager)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- List getMobsAt(BlockPos)
-- void applyBiomeDecoration(WorldGenRegion)
-- void createReferences(ChunkAccess)
-- void createStructures(StructureManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkStorage</summary>
-
-```diff
-+ void <init>(DataFixer,boolean)
-- void <init>(DataFixer)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.RegionFileStorage</summary>
-
-```diff
-+ boolean sync
-+ void <init>(File,boolean)
-+ void flush()
-- void <init>(File)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ void fillFromNoise(ChunkAccess)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- void fillFromNoise(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ void fillFromNoise(ChunkAccess)
-+ void lambda$fillFromNoise$1(StructureStart)
-- void fillFromNoise(ChunkAccess)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.OverworldLevelSource</summary>
-
-```diff
-+ List getMobsAt(BlockPos)
-- List getMobsAt(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
-
-```diff
-+ boolean place(FeatureConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractSmallTreeFeature</summary>
-
-```diff
-+ Optional getProjectedOrigin(SmallTreeConfiguration)
-- Optional getProjectedOrigin(SmallTreeConfiguration)
-- void placeTrunk(SmallTreeConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ConfiguredDecorator</summary>
-
-```diff
-+ boolean place(ConfiguredFeature)
-- boolean place(ConfiguredFeature)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
-
-```diff
-+ void postProcess(ChunkPos)
-- void postProcess(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
-
-```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
-
-```diff
-+ boolean convertLevel(ProgressListener)
-+ void makeMcrLevelDatBackup(File)
-- boolean convertLevel(ProgressListener)
-- void makeMcrLevelDatBackup(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction</summary>
-
-```diff
-+ SetAttributesFunction$ModifierBuilder modifier(RandomValueBounds)
-- SetAttributesFunction$ModifierBuilder modifier(RandomValueBounds)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$ModifierBuilder</summary>
-
-```diff
-+ Attribute attribute
-- String attribute
-+ void <init>(RandomValueBounds)
-- void <init>(RandomValueBounds)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.renderer.debug.HeightMapRenderer$1
@@ -4352,289 +645,114 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
 
 ```diff
-+ boolean lambda$trigger$0(FishingRodHookedTrigger$TriggerInstance)
-+ void trigger(Collection)
-- boolean lambda$trigger$0(FishingRodHookedTrigger$TriggerInstance)
-- void trigger(Collection)
++ boolean lambda$trigger$0(ServerPlayer,ItemStack,FishingHook,Collection,FishingRodHookedTrigger$TriggerInstance)
+- boolean lambda$trigger$0(ServerPlayer,ItemStack,FishingHook,Collection,FishingRodHookedTrigger$TriggerInstance)
++ void trigger(ServerPlayer,ItemStack,FishingHook,Collection)
+- void trigger(ServerPlayer,ItemStack,FishingHook,Collection)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.Minecraft</summary>
 
+```diff
++ boolean shouldEntityAppearGlowing(Entity)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.components.toasts.SystemToast</summary>
 
+```diff
++ void add(ToastComponent,SystemToast$SystemToastIds,Component,Component)
++ void onWorldAccessFailure(Minecraft,String)
++ void onWorldDeleteFailure(Minecraft,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.OptimizeWorldScreen</summary>
 
+```diff
++ OptimizeWorldScreen create(BooleanConsumer,LevelStorageSource$LevelStorageAccess,boolean)
++ void <init>(BooleanConsumer,LevelStorageSource$LevelStorageAccess,LevelData,boolean)
+- void <init>(BooleanConsumer,String,LevelStorageSource,boolean)
++ void onClose()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.debug.CollisionBoxRenderer</summary>
 
+```diff
++ boolean lambda$render$0(Entity)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.server.IntegratedServer</summary>
 
+```diff
++ void <init>(Minecraft,LevelStorageSource$LevelStorageAccess,String,LevelSettings,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void <init>(Minecraft,String,String,LevelSettings,YggdrasilAuthenticationService,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void loadLevel(String,long,ChunkGeneratorProvider)
+- void loadLevel(String,String,long,ChunkGeneratorProvider)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.commands.arguments.item.FunctionArgument</summary>
 
 ```diff
-+ Pair getFunctionOrTag(String)
-- Either getFunctionOrTag(String)
+- Either getFunctionOrTag(CommandContext,String)
++ Pair getFunctionOrTag(CommandContext,String)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.commands.arguments.item.FunctionArgument$2</summary>
 
 ```diff
-+ Pair unwrap(CommandContext)
 - Either unwrap(CommandContext)
++ Pair unwrap(CommandContext)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.core.dispenser.DispenseItemBehavior</summary>
 
 ```diff
-+ void setEntityPokingOutOfBlock(Direction)
++ void setEntityPokingOutOfBlock(BlockSource,Entity,Direction)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.models.model.TextureSlot</summary>
 
 ```diff
-- TextureSlot[] $VALUES
 + String toString()
++ TextureSlot create(String,TextureSlot)
 + TextureSlot create(String)
-+ TextureSlot create(TextureSlot)
-+ void <init>(TextureSlot)
 - TextureSlot valueOf(String)
 - TextureSlot[] values()
-- void <init>(String)
-- void <init>(TextureSlot)
+- void <init>(String,int,String,TextureSlot)
+- void <init>(String,int,String)
++ void <init>(String,TextureSlot)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.tags.EntityTypeTagsProvider</summary>
@@ -4645,272 +763,30 @@
 
 </details>
 
+
 <details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
 
 ```diff
-+ Function blockTags
-- Logger LOGGER
-+ void <init>(BlockTagsProvider)
-+ void copy(Tag$Named)
 - Tag$Entry copy(Tag$Entry)
 - void <clinit>()
++ void <init>(DataGenerator,BlockTagsProvider)
 - void <init>(DataGenerator)
-- void copy(Tag)
+- void copy(Tag,Tag)
++ void copy(Tag$Named,Tag$Named)
 - void useTags(TagCollection)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
 
 ```diff
-+ void <init>(BlockPos)
-- void <init>(BlockPos)
+- void <init>(File,String,Collection,BlockPos)
++ void <init>(LevelStorageSource$LevelStorageAccess,Collection,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
@@ -4918,371 +794,100 @@
 ```diff
 + boolean forceSynchronousWrites()
 + String getLevelIdName()
-+ void <init>(ChunkProgressListenerFactory)
-- void <init>(String)
+- void <init>(File,DedicatedServerSettings,DataFixer,YggdrasilAuthenticationService,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory,String)
++ void <init>(LevelStorageSource$LevelStorageAccess,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ ChunkPos firstPos
-+ ChunkPos lastPos
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent HOGLIN_CONVERTED_TO_ZOMBIFIED
-+ SoundEvent ZOGLIN_AMBIENT
-+ SoundEvent ZOGLIN_ANGRY
-+ SoundEvent ZOGLIN_ATTACK
-+ SoundEvent ZOGLIN_DEATH
-+ SoundEvent ZOGLIN_HURT
-+ SoundEvent ZOGLIN_STEP
-```
-
-</details>
-
-
-
-
 
 
 <details><summary>net.minecraft.tags.BlockTags</summary>
 
 ```diff
-+ StaticTagHelper HELPER
-+ Tag$Named ACACIA_LOGS
-+ Tag$Named ANVIL
-+ Tag$Named BAMBOO_PLANTABLE_ON
-+ Tag$Named BANNERS
-+ Tag$Named BEACON_BASE_BLOCKS
-+ Tag$Named BEDS
-+ Tag$Named BEE_GROWABLES
-+ Tag$Named BEEHIVES
-+ Tag$Named BIRCH_LOGS
-+ Tag$Named BUTTONS
-+ Tag$Named CARPETS
-+ Tag$Named CLIMBABLE
-+ Tag$Named CORAL_BLOCKS
-+ Tag$Named CORAL_PLANTS
-+ Tag$Named CORALS
-+ Tag$Named CRIMSON_STEMS
-+ Tag$Named CROPS
-+ Tag$Named DARK_OAK_LOGS
-+ Tag$Named DOORS
-+ Tag$Named DRAGON_IMMUNE
-+ Tag$Named ENDERMAN_HOLDABLE
-+ Tag$Named FENCES
-+ Tag$Named FIRE
-+ Tag$Named FLOWER_POTS
-+ Tag$Named FLOWERS
-+ Tag$Named GOLD_ORES
-+ Tag$Named HOGLIN_REPELLENTS
-+ Tag$Named ICE
-+ Tag$Named IMPERMEABLE
-+ Tag$Named JUNGLE_LOGS
-+ Tag$Named LEAVES
-+ Tag$Named LOGS
-+ Tag$Named LOGS_THAT_BURN
-+ Tag$Named NON_FLAMMABLE_WOOD
-+ Tag$Named NYLIUM
-+ Tag$Named OAK_LOGS
-+ Tag$Named PIGLIN_REPELLENTS
-+ Tag$Named PLANKS
-+ Tag$Named PORTALS
-+ Tag$Named RAILS
-+ Tag$Named SAND
-+ Tag$Named SAPLINGS
-+ Tag$Named SHULKER_BOXES
-+ Tag$Named SIGNS
-+ Tag$Named SLABS
-+ Tag$Named SMALL_FLOWERS
-+ Tag$Named SOUL_FIRE_BASE_BLOCKS
-+ Tag$Named SOUL_SPEED_BLOCKS
-+ Tag$Named SPRUCE_LOGS
-+ Tag$Named STAIRS
-+ Tag$Named STANDING_SIGNS
-+ Tag$Named STONE_BRICKS
-+ Tag$Named STRIDER_WARM_BLOCKS
-+ Tag$Named TALL_FLOWERS
-+ Tag$Named TRAPDOORS
-+ Tag$Named UNDERWATER_BONEMEALS
-+ Tag$Named VALID_SPAWN
-+ Tag$Named WALL_CORALS
-+ Tag$Named WALL_POST_OVERRIDE
-+ Tag$Named WALL_SIGNS
-+ Tag$Named WALLS
-+ Tag$Named WARPED_STEMS
-+ Tag$Named WART_BLOCKS
-+ Tag$Named WITHER_IMMUNE
-+ Tag$Named WITHER_SUMMON_BASE_BLOCKS
-+ Tag$Named WOODEN_BUTTONS
-+ Tag$Named WOODEN_DOORS
-+ Tag$Named WOODEN_FENCES
-+ Tag$Named WOODEN_PRESSURE_PLATES
-+ Tag$Named WOODEN_SLABS
-+ Tag$Named WOODEN_STAIRS
-+ Tag$Named WOODEN_TRAPDOORS
-+ Tag$Named WOOL
-- int resetCount
-- Tag ACACIA_LOGS
-- Tag ANVIL
-- Tag BAMBOO_PLANTABLE_ON
-- Tag BANNERS
-- Tag BEACON_BASE_BLOCKS
-- Tag BEDS
-- Tag BEE_GROWABLES
-- Tag BEEHIVES
-- Tag BIRCH_LOGS
-- Tag BUTTONS
-- Tag CARPETS
-- Tag CLIMBABLE
-- Tag CORAL_BLOCKS
-- Tag CORAL_PLANTS
-- Tag CORALS
-- Tag CRIMSON_STEMS
-- Tag CROPS
-- Tag DARK_OAK_LOGS
-- Tag DOORS
-- Tag DRAGON_IMMUNE
-- Tag ENDERMAN_HOLDABLE
-- Tag FENCES
-- Tag FIRE
-- Tag FLOWER_POTS
-- Tag FLOWERS
-- Tag GOLD_ORES
-- Tag HOGLIN_REPELLENTS
-- Tag ICE
-- Tag IMPERMEABLE
-- Tag JUNGLE_LOGS
-- Tag LEAVES
-- Tag LOGS
-- Tag LOGS_THAT_BURN
-- Tag NON_FLAMMABLE_WOOD
-- Tag NYLIUM
-- Tag OAK_LOGS
-- Tag PIGLIN_REPELLENTS
-- Tag PLANKS
-- Tag PORTALS
-- Tag RAILS
-- Tag SAND
-- Tag SAPLINGS
-- Tag SHULKER_BOXES
-- Tag SIGNS
-- Tag SLABS
-- Tag SMALL_FLOWERS
-- Tag SOUL_FIRE_BASE_BLOCKS
-- Tag SOUL_SPEED_BLOCKS
-- Tag SPRUCE_LOGS
-- Tag STAIRS
-- Tag STANDING_SIGNS
-- Tag STONE_BRICKS
-- Tag STRIDER_WARM_BLOCKS
-- Tag TALL_FLOWERS
-- Tag TRAPDOORS
-- Tag UNDERWATER_BONEMEALS
-- Tag VALID_SPAWN
-- Tag WALL_CORALS
-- Tag WALL_POST_OVERRIDE
-- Tag WALL_SIGNS
-- Tag WALLS
-- Tag WARPED_STEMS
-- Tag WART_BLOCKS
-- Tag WITHER_IMMUNE
-- Tag WITHER_SUMMON_BASE_BLOCKS
-- Tag WOODEN_BUTTONS
-- Tag WOODEN_DOORS
-- Tag WOODEN_FENCES
-- Tag WOODEN_PRESSURE_PLATES
-- Tag WOODEN_SLABS
-- Tag WOODEN_STAIRS
-- Tag WOODEN_TRAPDOORS
-- Tag WOOL
-- TagCollection source
-+ Tag$Named bind(String)
 - int access$000()
 - Optional lambda$static$0(ResourceLocation)
 - Tag bind(String)
++ Tag$Named bind(String)
 - TagCollection access$100()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.tags.FluidTags</summary>
 
 ```diff
-+ StaticTagHelper HELPER
-+ Tag$Named LAVA
-+ Tag$Named WATER
-- int resetCount
-- Tag LAVA
-- Tag WATER
-- TagCollection source
-+ Tag$Named bind(String)
 - int access$000()
 - Optional lambda$static$0(ResourceLocation)
 - Tag bind(String)
++ Tag$Named bind(String)
 - TagCollection access$100()
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.tags.Tag$Builder</summary>
 
 ```diff
-+ Set entries
-- boolean ordered
-- Set values
-+ boolean lambda$getUnresolvedEntries$1(Tag$Entry)
-+ JsonObject serializeToJson()
-+ Optional build(Function)
-+ Stream getEntries()
-+ Stream getUnresolvedEntries(Function)
-+ Tag$Builder addElement(ResourceLocation)
-+ Tag$Builder addFromJson(JsonObject)
-+ void lambda$null$0(Object)
 - boolean canBuild(Function)
++ boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$Entry)
++ JsonObject serializeToJson()
 - JsonParseException lambda$addFromJson$0(ResourceLocation)
++ Optional build(Function,Function)
++ Stream getEntries()
++ Stream getUnresolvedEntries(Function,Function)
 - Tag build(ResourceLocation)
 - Tag$Builder add(Collection)
 - Tag$Builder add(Object)
 - Tag$Builder add(Object[])
-- Tag$Builder addFromJson(JsonObject)
++ Tag$Builder addElement(ResourceLocation)
+- Tag$Builder addFromJson(Function,JsonObject)
++ Tag$Builder addFromJson(JsonObject)
 - Tag$Builder addTag(Tag)
 - Tag$Builder keepOrder(boolean)
++ void lambda$null$0(Object)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.tags.Tag$TagEntry</summary>
 
 ```diff
-- Tag tag
-+ boolean build(Consumer)
-+ String toString()
-+ void serializeTo(JsonArray)
++ boolean build(Function,Function,Consumer)
 - boolean canBuild(Function)
 - ResourceLocation getId()
++ String toString()
 - void <init>(Tag)
 - void build(Collection)
-- void serializeTo(Function)
+- void serializeTo(JsonArray,Function)
++ void serializeTo(JsonArray)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.tags.TagCollection</summary>
 
 ```diff
-+ BiMap tags
-+ Tag empty
-- boolean ordered
-- Map tags
 + Map lambda$prepare$2(ResourceManager)
+- Map lambda$prepare$3(ResourceManager)
 + Object lambda$load$3(ResourceLocation)
 + ResourceLocation getId(Tag)
 + ResourceLocation getId(Tag$Named)
 + ResourceLocation getIdOrThrow(Tag)
 + Tag$Builder lambda$null$1(ResourceLocation)
-+ void <init>(String)
-+ void lambda$load$4(Tag$Builder)
-- Map lambda$prepare$3(ResourceManager)
 - Tag$Builder lambda$null$2(ResourceLocation)
-- void <init>(String)
-- void lambda$load$4(Tag$Builder)
-- void lambda$load$5(Tag$Builder)
+- void <init>(Function,String,boolean,String)
++ void <init>(Function,String,String)
++ void lambda$load$4(Function,Function,ResourceLocation,Tag$Builder)
+- void lambda$load$4(ResourceLocation,Tag$Builder)
+- void lambda$load$5(Map,ResourceLocation,Tag$Builder)
 - void lambda$null$1(Tag$Builder)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.util.Mth</summary>
@@ -5295,272 +900,53 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier</summary>
 
 ```diff
-+ Logger LOGGER
-- boolean serialize
 + AttributeModifier load(CompoundTag)
-+ CompoundTag save()
-+ void <clinit>()
 - AttributeModifier setSerialize(boolean)
 - boolean isSerializable()
++ CompoundTag save()
++ void <clinit>()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.attributes.RangedAttribute</summary>
 
 ```diff
-- String importLegacyName
-+ void <init>(String,double,double,double)
 - RangedAttribute importLegacyName(String)
 - String getImportLegacyName()
-- void <init>(String,double,double,double)
+- void <init>(Attribute,String,double,double,double)
++ void <init>(String,double,double,double)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.LookAtTargetSink</summary>
 
 ```diff
-+ boolean lambda$canStillUse$0(PositionTracker)
-+ void lambda$tick$1(PositionTracker)
-- boolean lambda$canStillUse$0(PositionWrapper)
-- void lambda$tick$1(PositionWrapper)
++ boolean lambda$canStillUse$0(Mob,PositionTracker)
+- boolean lambda$canStillUse$0(Mob,PositionWrapper)
++ void lambda$tick$1(Mob,PositionTracker)
+- void lambda$tick$1(Mob,PositionWrapper)
 ```
 
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_VISIBLE_HUNTABLE_HOGLIN
-+ MemoryModuleType NEAREST_VISIBLE_ZOMBIFIED
-- MemoryModuleType NEAREST_VISIBLE_ADULT_HOGLIN
-- MemoryModuleType NEAREST_VISIBLE_ZOMBIFIED_PIGLIN
-```
-
-</details>
 
 <details><summary>net.minecraft.world.entity.ai.memory.WalkTarget</summary>
 
 ```diff
-+ PositionTracker target
-- PositionWrapper target
 + PositionTracker getTarget()
-+ void <init>(PositionTracker,float,int)
 - PositionWrapper getTarget()
++ void <init>(PositionTracker,float,int)
 - void <init>(PositionWrapper,float,int)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
-
-```diff
-- AttributeInstance followRange
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Bee</summary>
@@ -5571,11 +957,6 @@
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Cat</summary>
@@ -5597,6 +978,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Cow</summary>
 
 ```diff
@@ -5607,8 +989,6 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.entity.animal.Fox</summary>
 
 ```diff
@@ -5617,16 +997,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
@@ -5649,12 +1019,6 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Parrot</summary>
 
 ```diff
@@ -5664,6 +1028,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.Pig</summary>
 
 ```diff
@@ -5672,8 +1037,6 @@
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
@@ -5686,11 +1049,6 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.Squid</summary>
 
 ```diff
@@ -5699,8 +1057,6 @@
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.Turtle</summary>
@@ -5713,23 +1069,17 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
 
 ```diff
-- Attribute JUMP_STRENGTH
 + AttributeSupplier$Builder createBaseHorseAttributes()
-+ void randomizeAttributes()
 - boolean hurt(DamageSource,float)
++ void randomizeAttributes()
 - void registerAttributes()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
 
@@ -5740,6 +1090,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
 
 ```diff
@@ -5748,7 +1099,6 @@
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
@@ -5773,7 +1123,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
 
 ```diff
@@ -5784,14 +1133,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
 
 ```diff
@@ -5800,14 +1141,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
@@ -5829,9 +1162,6 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.entity.monster.Spider</summary>
 
 ```diff
@@ -5840,11 +1170,6 @@
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
@@ -5867,48 +1192,23 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
 
 ```diff
-- int flightTime
 + boolean canHitEntity(Entity)
 - boolean lambda$findHitEntity$0(Entity)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
 
 ```diff
-- int flightTime
 + boolean canHitEntity(Entity)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
@@ -5923,8 +1223,6 @@
 <details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
 
 ```diff
-+ boolean leftOwner
-+ int ownerNetworkId
 + boolean canHitEntity(Entity)
 + boolean checkLeftOwner()
 + boolean lambda$checkLeftOwner$0(Entity)
@@ -5935,6 +1233,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
 
 ```diff
@@ -5944,358 +1243,67 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ArmorItem</summary>
-
-```diff
-+ Multimap defaultModifiers
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DiggerItem</summary>
-
-```diff
-+ Multimap defaultModifiers
-- float attackSpeedBaseline
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.ItemStack</summary>
 
 ```diff
-+ Component lambda$expandBlockState$2(Component)
-+ void addAttributeModifier(EquipmentSlot)
-+ void lambda$appendEnchantmentNames$1(Enchantment)
-+ void lambda$static$0(DecimalFormat)
 - Component lambda$expandBlockState$1(Component)
++ Component lambda$expandBlockState$2(Component)
 - DecimalFormat getAttributeDecimalFormat()
-- void addAttributeModifier(EquipmentSlot)
-- void lambda$appendEnchantmentNames$0(Enchantment)
++ void addAttributeModifier(Attribute,AttributeModifier,EquipmentSlot)
+- void addAttributeModifier(String,AttributeModifier,EquipmentSlot)
+- void lambda$appendEnchantmentNames$0(List,CompoundTag,Enchantment)
++ void lambda$appendEnchantmentNames$1(List,CompoundTag,Enchantment)
 - void lambda$getAttributeModifiers$2(AttributeModifier)
++ void lambda$static$0(DecimalFormat)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
 
 ```diff
-- Predicate NON_ALL_EMPTY
 + boolean lambda$of$3(ItemStack)
+- boolean lambda$static$0(Ingredient$Value)
 + Ingredient of(Stream)
 + Ingredient$ItemValue lambda$fromNetwork$5(FriendlyByteBuf)
-+ Ingredient$ItemValue lambda$of$4(ItemStack)
-+ Ingredient$Value lambda$fromJson$6(JsonElement)
-+ Ingredient$Value[] lambda$new$0(int)
-+ ItemStack[] lambda$dissolve$2(int)
-+ JsonSyntaxException lambda$valueFromJson$7(ResourceLocation)
-+ Stream lambda$dissolve$1(Ingredient$Value)
-- boolean lambda$static$0(Ingredient$Value)
 - Ingredient$ItemValue lambda$fromNetwork$6(FriendlyByteBuf)
 - Ingredient$ItemValue lambda$of$4(ItemLike)
++ Ingredient$ItemValue lambda$of$4(ItemStack)
 - Ingredient$ItemValue lambda$of$5(ItemStack)
++ Ingredient$Value lambda$fromJson$6(JsonElement)
 - Ingredient$Value lambda$fromJson$7(JsonElement)
++ Ingredient$Value[] lambda$new$0(int)
 - Ingredient$Value[] lambda$new$1(int)
++ ItemStack[] lambda$dissolve$2(int)
 - ItemStack[] lambda$dissolve$3(int)
++ JsonSyntaxException lambda$valueFromJson$7(ResourceLocation)
 - JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
++ Stream lambda$dissolve$1(Ingredient$Value)
 - Stream lambda$dissolve$2(Ingredient$Value)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory</summary>
-
-```diff
-+ EnchantmentCategory VANISHABLE
-- EnchantmentCategory ALL
-```
-
-</details>
-
-
-
 <details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory$14</summary>
 
 ```diff
 + boolean lambda$canEnchant$0(EnchantmentCategory)
-+ boolean lambda$canEnchant$1(EnchantmentCategory)
++ boolean lambda$canEnchant$1(Item,EnchantmentCategory)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.LevelAccessor</summary>
 
 ```diff
-+ Stream getEntityCollisions(Predicate)
-- Stream getEntityCollisions(Set)
++ Stream getEntityCollisions(Entity,AABB,Predicate)
+- Stream getEntityCollisions(Entity,AABB,Set)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
@@ -6307,412 +1315,146 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.grower.AbstractMegaTreeGrower</summary>
 
 ```diff
-+ boolean growTree(Random)
-+ boolean placeMega(Random,int,int)
-- boolean growTree(Random)
-- boolean placeMega(Random,int,int)
+- boolean growTree(LevelAccessor,ChunkGenerator,BlockPos,BlockState,Random)
++ boolean growTree(ServerLevel,ChunkGenerator,BlockPos,BlockState,Random)
+- boolean placeMega(LevelAccessor,ChunkGenerator,BlockPos,BlockState,Random,int,int)
++ boolean placeMega(ServerLevel,ChunkGenerator,BlockPos,BlockState,Random,int,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
 
 ```diff
-+ void fillFromNoise(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkAccess)
-- void fillFromNoise(net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.chunk.ChunkAccess)
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ List getMobsAt(BlockPos)
-+ void applyBiomeDecoration(StructureFeatureManager)
-+ void createReferences(ChunkAccess)
-+ void createStructures(StructureManager)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- List getMobsAt(BlockPos)
+- BlockPos findNearestMapFeature(Level,String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
+- List getMobsAt(MobCategory,BlockPos)
++ List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
++ void applyBiomeDecoration(WorldGenRegion,StructureFeatureManager)
 - void applyBiomeDecoration(WorldGenRegion)
-- void createReferences(ChunkAccess)
-- void createStructures(StructureManager)
+- void createReferences(LevelAccessor,ChunkAccess)
++ void createReferences(LevelAccessor,StructureFeatureManager,ChunkAccess)
+- void createStructures(BiomeManager,ChunkAccess,ChunkGenerator,StructureManager)
++ void createStructures(StructureFeatureManager,BiomeManager,ChunkAccess,ChunkGenerator,StructureManager)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.storage.ChunkStorage</summary>
 
 ```diff
-+ void <init>(DataFixer,boolean)
-- void <init>(DataFixer)
++ void <init>(File,DataFixer,boolean)
+- void <init>(File,DataFixer)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.chunk.storage.RegionFileStorage</summary>
 
 ```diff
-+ boolean sync
 + void <init>(File,boolean)
-+ void flush()
 - void <init>(File)
++ void flush()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
 
 ```diff
-+ BlockPos findNearestMapFeature(BlockPos,int,boolean)
-+ void fillFromNoise(ChunkAccess)
-- BlockPos findNearestMapFeature(BlockPos,int,boolean)
-- void fillFromNoise(ChunkAccess)
+- BlockPos findNearestMapFeature(Level,String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
+- void fillFromNoise(LevelAccessor,ChunkAccess)
++ void fillFromNoise(LevelAccessor,StructureFeatureManager,ChunkAccess)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
 
 ```diff
-+ void fillFromNoise(ChunkAccess)
-+ void lambda$fillFromNoise$1(StructureStart)
-- void fillFromNoise(ChunkAccess)
+- void fillFromNoise(LevelAccessor,ChunkAccess)
++ void fillFromNoise(LevelAccessor,StructureFeatureManager,ChunkAccess)
++ void lambda$fillFromNoise$1(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.OverworldLevelSource</summary>
 
 ```diff
-+ List getMobsAt(BlockPos)
-- List getMobsAt(BlockPos)
+- List getMobsAt(MobCategory,BlockPos)
++ List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
 
 ```diff
-+ boolean place(FeatureConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.AbstractSmallTreeFeature</summary>
 
 ```diff
-+ Optional getProjectedOrigin(SmallTreeConfiguration)
-- Optional getProjectedOrigin(SmallTreeConfiguration)
-- void placeTrunk(SmallTreeConfiguration)
++ Optional getProjectedOrigin(LevelSimulatedRW,int,int,BlockPos,SmallTreeConfiguration)
+- Optional getProjectedOrigin(LevelSimulatedRW,int,int,int,BlockPos,SmallTreeConfiguration)
+- void placeTrunk(LevelSimulatedRW,Random,int,BlockPos,int,Set,BoundingBox,SmallTreeConfiguration)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.placement.ConfiguredDecorator</summary>
 
 ```diff
-+ boolean place(ConfiguredFeature)
-- boolean place(ConfiguredFeature)
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,ConfiguredFeature)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,ConfiguredFeature)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
@@ -6721,8 +1463,8 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
@@ -6731,53 +1473,58 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
@@ -6786,112 +1533,108 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
@@ -6900,237 +1643,80 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
 
 ```diff
-+ void postProcess(ChunkPos)
-- void postProcess(ChunkPos)
+- void postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
++ void postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
 
 ```diff
-+ boolean postProcess(BlockPos)
-- boolean postProcess(BlockPos)
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
 
 ```diff
-+ boolean convertLevel(ProgressListener)
++ boolean convertLevel(LevelStorageSource$LevelStorageAccess,ProgressListener)
+- boolean convertLevel(Path,DataFixer,String,ProgressListener)
 + void makeMcrLevelDatBackup(File)
-- boolean convertLevel(ProgressListener)
-- void makeMcrLevelDatBackup(String)
+- void makeMcrLevelDatBackup(Path,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction</summary>
 
 ```diff
-+ SetAttributesFunction$ModifierBuilder modifier(RandomValueBounds)
-- SetAttributesFunction$ModifierBuilder modifier(RandomValueBounds)
++ SetAttributesFunction$ModifierBuilder modifier(String,Attribute,AttributeModifier$Operation,RandomValueBounds)
+- SetAttributesFunction$ModifierBuilder modifier(String,String,AttributeModifier$Operation,RandomValueBounds)
 ```
 
 </details>
@@ -7139,93 +1725,19 @@
 <details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$ModifierBuilder</summary>
 
 ```diff
-+ Attribute attribute
-- String attribute
-+ void <init>(RandomValueBounds)
-- void <init>(RandomValueBounds)
++ void <init>(String,Attribute,AttributeModifier$Operation,RandomValueBounds)
+- void <init>(String,String,AttributeModifier$Operation,RandomValueBounds)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.tags.EntityTypeTags
@@ -7723,13 +2235,1243 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.FishingRodHookedTrigger</summary>
+
+```diff
++ boolean lambda$trigger$0(ServerPlayer,ItemStack,FishingHook,Collection,FishingRodHookedTrigger$TriggerInstance)
+- boolean lambda$trigger$0(ServerPlayer,ItemStack,FishingHook,Collection,FishingRodHookedTrigger$TriggerInstance)
++ void trigger(ServerPlayer,ItemStack,FishingHook,Collection)
+- void trigger(ServerPlayer,ItemStack,FishingHook,Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.FunctionArgument</summary>
+
+```diff
+- Either getFunctionOrTag(CommandContext,String)
++ Pair getFunctionOrTag(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.FunctionArgument$2</summary>
+
+```diff
+- Either unwrap(CommandContext)
++ Pair unwrap(CommandContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior</summary>
+
+```diff
++ void setEntityPokingOutOfBlock(BlockSource,Entity,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.model.TextureSlot</summary>
+
+```diff
++ String toString()
++ TextureSlot create(String,TextureSlot)
++ TextureSlot create(String)
+- TextureSlot valueOf(String)
+- TextureSlot[] values()
+- void <init>(String,int,String,TextureSlot)
+- void <init>(String,int,String)
++ void <init>(String,TextureSlot)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.EntityTypeTagsProvider</summary>
+
+```diff
+- void useTags(TagCollection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.ItemTagsProvider</summary>
+
+```diff
+- Tag$Entry copy(Tag$Entry)
+- void <clinit>()
++ void <init>(DataGenerator,BlockTagsProvider)
+- void <init>(DataGenerator)
+- void copy(Tag,Tag)
++ void copy(Tag$Named,Tag$Named)
+- void useTags(TagCollection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
+
+```diff
+- void <init>(File,String,Collection,BlockPos)
++ void <init>(LevelStorageSource$LevelStorageAccess,Collection,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
++ boolean forceSynchronousWrites()
++ String getLevelIdName()
+- void <init>(File,DedicatedServerSettings,DataFixer,YggdrasilAuthenticationService,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory,String)
++ void <init>(LevelStorageSource$LevelStorageAccess,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.BlockTags</summary>
+
+```diff
+- int access$000()
+- Optional lambda$static$0(ResourceLocation)
+- Tag bind(String)
++ Tag$Named bind(String)
+- TagCollection access$100()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.FluidTags</summary>
+
+```diff
+- int access$000()
+- Optional lambda$static$0(ResourceLocation)
+- Tag bind(String)
++ Tag$Named bind(String)
+- TagCollection access$100()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag$Builder</summary>
+
+```diff
+- boolean canBuild(Function)
++ boolean lambda$getUnresolvedEntries$1(Function,Function,Tag$Entry)
++ JsonObject serializeToJson()
+- JsonParseException lambda$addFromJson$0(ResourceLocation)
++ Optional build(Function,Function)
++ Stream getEntries()
++ Stream getUnresolvedEntries(Function,Function)
+- Tag build(ResourceLocation)
+- Tag$Builder add(Collection)
+- Tag$Builder add(Object)
+- Tag$Builder add(Object[])
++ Tag$Builder addElement(ResourceLocation)
+- Tag$Builder addFromJson(Function,JsonObject)
++ Tag$Builder addFromJson(JsonObject)
+- Tag$Builder addTag(Tag)
+- Tag$Builder keepOrder(boolean)
++ void lambda$null$0(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag$TagEntry</summary>
+
+```diff
++ boolean build(Function,Function,Consumer)
+- boolean canBuild(Function)
+- ResourceLocation getId()
++ String toString()
+- void <init>(Tag)
+- void build(Collection)
+- void serializeTo(JsonArray,Function)
++ void serializeTo(JsonArray)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagCollection</summary>
+
+```diff
++ Map lambda$prepare$2(ResourceManager)
+- Map lambda$prepare$3(ResourceManager)
++ Object lambda$load$3(ResourceLocation)
++ ResourceLocation getId(Tag)
++ ResourceLocation getId(Tag$Named)
++ ResourceLocation getIdOrThrow(Tag)
++ Tag$Builder lambda$null$1(ResourceLocation)
+- Tag$Builder lambda$null$2(ResourceLocation)
+- void <init>(Function,String,boolean,String)
++ void <init>(Function,String,String)
++ void lambda$load$4(Function,Function,ResourceLocation,Tag$Builder)
+- void lambda$load$4(ResourceLocation,Tag$Builder)
+- void lambda$load$5(Map,ResourceLocation,Tag$Builder)
+- void lambda$null$1(Tag$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ double inverseLerp(double,double,double)
+- double pct(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier</summary>
+
+```diff
++ AttributeModifier load(CompoundTag)
+- AttributeModifier setSerialize(boolean)
+- boolean isSerializable()
++ CompoundTag save()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.RangedAttribute</summary>
+
+```diff
+- RangedAttribute importLegacyName(String)
+- String getImportLegacyName()
+- void <init>(Attribute,String,double,double,double)
++ void <init>(String,double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.LookAtTargetSink</summary>
+
+```diff
++ boolean lambda$canStillUse$0(Mob,PositionTracker)
+- boolean lambda$canStillUse$0(Mob,PositionWrapper)
++ void lambda$tick$1(Mob,PositionTracker)
+- void lambda$tick$1(Mob,PositionWrapper)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.memory.WalkTarget</summary>
+
+```diff
++ PositionTracker getTarget()
+- PositionWrapper getTarget()
++ void <init>(PositionTracker,float,int)
+- void <init>(PositionWrapper,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cow</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Ocelot</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Pig</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Squid</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
++ AttributeSupplier$Builder createBaseHorseAttributes()
+- boolean hurt(DamageSource,float)
++ void randomizeAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
+
+```diff
++ void randomizeAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
++ void randomizeAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
++ void randomizeAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Slime</summary>
+
+```diff
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Spider</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Witch</summary>
+
+```diff
++ AttributeSupplier$Builder createAttributes()
+- void registerAttributes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
+
+```diff
++ boolean canHitEntity(Entity)
+- boolean lambda$findHitEntity$0(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+
+```diff
++ boolean canHitEntity(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.FireworkRocketEntity</summary>
+
+```diff
+- boolean lambda$tick$1(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.Projectile</summary>
+
+```diff
++ boolean canHitEntity(Entity)
++ boolean checkLeftOwner()
++ boolean lambda$checkLeftOwner$0(Entity)
++ float lerpRotation(float,float)
++ void tick()
++ void updateRotation()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
+
+```diff
++ boolean canHitEntity(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
+- Component lambda$expandBlockState$1(Component)
++ Component lambda$expandBlockState$2(Component)
+- DecimalFormat getAttributeDecimalFormat()
++ void addAttributeModifier(Attribute,AttributeModifier,EquipmentSlot)
+- void addAttributeModifier(String,AttributeModifier,EquipmentSlot)
+- void lambda$appendEnchantmentNames$0(List,CompoundTag,Enchantment)
++ void lambda$appendEnchantmentNames$1(List,CompoundTag,Enchantment)
+- void lambda$getAttributeModifiers$2(AttributeModifier)
++ void lambda$static$0(DecimalFormat)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
+
+```diff
++ boolean lambda$of$3(ItemStack)
+- boolean lambda$static$0(Ingredient$Value)
++ Ingredient of(Stream)
++ Ingredient$ItemValue lambda$fromNetwork$5(FriendlyByteBuf)
+- Ingredient$ItemValue lambda$fromNetwork$6(FriendlyByteBuf)
+- Ingredient$ItemValue lambda$of$4(ItemLike)
++ Ingredient$ItemValue lambda$of$4(ItemStack)
+- Ingredient$ItemValue lambda$of$5(ItemStack)
++ Ingredient$Value lambda$fromJson$6(JsonElement)
+- Ingredient$Value lambda$fromJson$7(JsonElement)
++ Ingredient$Value[] lambda$new$0(int)
+- Ingredient$Value[] lambda$new$1(int)
++ ItemStack[] lambda$dissolve$2(int)
+- ItemStack[] lambda$dissolve$3(int)
++ JsonSyntaxException lambda$valueFromJson$7(ResourceLocation)
+- JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
++ Stream lambda$dissolve$1(Ingredient$Value)
+- Stream lambda$dissolve$2(Ingredient$Value)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.enchantment.EnchantmentCategory$14</summary>
+
+```diff
++ boolean lambda$canEnchant$0(EnchantmentCategory)
++ boolean lambda$canEnchant$1(Item,EnchantmentCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelAccessor</summary>
+
+```diff
++ Stream getEntityCollisions(Entity,AABB,Predicate)
+- Stream getEntityCollisions(Entity,AABB,Set)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
+
+```diff
++ Direction getRandomOffset(Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.grower.AbstractMegaTreeGrower</summary>
+
+```diff
+- boolean growTree(LevelAccessor,ChunkGenerator,BlockPos,BlockState,Random)
++ boolean growTree(ServerLevel,ChunkGenerator,BlockPos,BlockState,Random)
+- boolean placeMega(LevelAccessor,ChunkGenerator,BlockPos,BlockState,Random,int,int)
++ boolean placeMega(ServerLevel,ChunkGenerator,BlockPos,BlockState,Random,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
+- BlockPos findNearestMapFeature(Level,String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
+- List getMobsAt(MobCategory,BlockPos)
++ List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
++ void applyBiomeDecoration(WorldGenRegion,StructureFeatureManager)
+- void applyBiomeDecoration(WorldGenRegion)
+- void createReferences(LevelAccessor,ChunkAccess)
++ void createReferences(LevelAccessor,StructureFeatureManager,ChunkAccess)
+- void createStructures(BiomeManager,ChunkAccess,ChunkGenerator,StructureManager)
++ void createStructures(StructureFeatureManager,BiomeManager,ChunkAccess,ChunkGenerator,StructureManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkStorage</summary>
+
+```diff
++ void <init>(File,DataFixer,boolean)
+- void <init>(File,DataFixer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.RegionFileStorage</summary>
+
+```diff
++ void <init>(File,boolean)
+- void <init>(File)
++ void flush()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
+- BlockPos findNearestMapFeature(Level,String,BlockPos,int,boolean)
++ BlockPos findNearestMapFeature(ServerLevel,String,BlockPos,int,boolean)
+- void fillFromNoise(LevelAccessor,ChunkAccess)
++ void fillFromNoise(LevelAccessor,StructureFeatureManager,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- void fillFromNoise(LevelAccessor,ChunkAccess)
++ void fillFromNoise(LevelAccessor,StructureFeatureManager,ChunkAccess)
++ void lambda$fillFromNoise$1(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.OverworldLevelSource</summary>
+
+```diff
+- List getMobsAt(MobCategory,BlockPos)
++ List getMobsAt(StructureFeatureManager,MobCategory,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
+
+```diff
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractSmallTreeFeature</summary>
+
+```diff
++ Optional getProjectedOrigin(LevelSimulatedRW,int,int,BlockPos,SmallTreeConfiguration)
+- Optional getProjectedOrigin(LevelSimulatedRW,int,int,int,BlockPos,SmallTreeConfiguration)
+- void placeTrunk(LevelSimulatedRW,Random,int,BlockPos,int,Set,BoundingBox,SmallTreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.ConfiguredDecorator</summary>
+
+```diff
+- boolean place(LevelAccessor,ChunkGenerator,Random,BlockPos,ConfiguredFeature)
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BlockPos,ConfiguredFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleXRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleYRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentDoubleZRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPenthouse</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentSimpleRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentWingRoom</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces$OceanRuinPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ShipwreckPieces$ShipwreckPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$LeftTurn</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
+- void postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos)
++ void postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.SwamplandHutPiece</summary>
+
+```diff
+- boolean postProcess(LevelAccessor,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
++ boolean postProcess(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
+
+```diff
++ boolean convertLevel(LevelStorageSource$LevelStorageAccess,ProgressListener)
+- boolean convertLevel(Path,DataFixer,String,ProgressListener)
++ void makeMcrLevelDatBackup(File)
+- void makeMcrLevelDatBackup(Path,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction</summary>
+
+```diff
++ SetAttributesFunction$ModifierBuilder modifier(String,Attribute,AttributeModifier$Operation,RandomValueBounds)
+- SetAttributesFunction$ModifierBuilder modifier(String,String,AttributeModifier$Operation,RandomValueBounds)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$ModifierBuilder</summary>
+
+```diff
++ void <init>(String,Attribute,AttributeModifier$Operation,RandomValueBounds)
+- void <init>(String,String,AttributeModifier$Operation,RandomValueBounds)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/entities/zoglin.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/zoglin_spawn_egg.json
++ minecraft/textures/entity/hoglin/zoglin.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ attributes.txt
++ trunk_placer_type.txt
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:zoglin
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
+- minecraft:acacia_tree
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:zoglin_spawn_egg
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
+- minecraft:nearest_visible_adult_hoglin
++ minecraft:nearest_visible_huntable_hoglin
++ minecraft:nearest_visible_zombified
+- minecraft:nearest_visible_zombified_piglin
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.hoglin.converted_to_zombified
++ minecraft:entity.zoglin.ambient
++ minecraft:entity.zoglin.angry
++ minecraft:entity.zoglin.attack
++ minecraft:entity.zoglin.death
++ minecraft:entity.zoglin.hurt
++ minecraft:entity.zoglin.step
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/hoglin_repellents.json</summary>
+
+```diff
++ minecraft:nether_portal
++ minecraft:respawn_anchor
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ attribute.name.generic.armor_toughness
+- attribute.name.generic.armorToughness
++ attribute.name.generic.attack_damage
++ attribute.name.generic.attack_knockback
++ attribute.name.generic.attack_speed
+- attribute.name.generic.attackDamage
+- attribute.name.generic.attackSpeed
++ attribute.name.generic.flying_speed
++ attribute.name.generic.follow_range
+- attribute.name.generic.followRange
++ attribute.name.generic.knockback_resistance
+- attribute.name.generic.knockbackResistance
++ attribute.name.generic.max_health
+- attribute.name.generic.maxHealth
++ attribute.name.generic.movement_speed
+- attribute.name.generic.movementSpeed
++ attribute.name.horse.jump_strength
+- attribute.name.horse.jumpStrength
++ attribute.name.zombie.spawn_reinforcements
+- attribute.name.zombie.spawnReinforcements
++ entity.minecraft.zoglin
++ item.minecraft.zoglin_spawn_egg
++ selectWorld.access_failure
++ selectWorld.delete_failure
++ selectWorld.locked
++ subtitles.block.beacon.activate
++ subtitles.block.beacon.ambient
++ subtitles.block.beacon.deactivate
++ subtitles.block.beacon.power_select
++ subtitles.block.conduit.activate
++ subtitles.block.conduit.ambient
++ subtitles.block.conduit.attack.target
++ subtitles.block.conduit.deactivate
++ subtitles.block.enchantment_table.use
++ subtitles.block.end_portal_frame.fill
++ subtitles.block.end_portal.spawn
++ subtitles.block.pumpkin.carve
++ subtitles.block.smithing_table.use
++ subtitles.entity.boat.paddle_land
++ subtitles.entity.boat.paddle_water
++ subtitles.entity.cat.beg_for_food
++ subtitles.entity.cat.eat
++ subtitles.entity.cat.hiss
++ subtitles.entity.drowned.ambient_water
++ subtitles.entity.ender_eye.death
++ subtitles.entity.fishing_bobber.retrieve
++ subtitles.entity.hoglin.converted_to_zombified
++ subtitles.entity.horse.land
++ subtitles.entity.parrot.fly
++ subtitles.entity.player.attack.crit
++ subtitles.entity.player.attack.knockback
++ subtitles.entity.player.attack.strong
++ subtitles.entity.player.attack.sweep
++ subtitles.entity.player.attack.weak
++ subtitles.entity.player.hurt_drown
++ subtitles.entity.player.hurt_on_fire
++ subtitles.entity.strider.death
++ subtitles.entity.strider.eat
++ subtitles.entity.strider.happy
++ subtitles.entity.strider.hurt
++ subtitles.entity.strider.idle
++ subtitles.entity.strider.retreat
++ subtitles.entity.tropical_fish.death
++ subtitles.entity.tropical_fish.flop
++ subtitles.entity.tropical_fish.hurt
++ subtitles.entity.wandering_trader.disappeared
++ subtitles.entity.wandering_trader.drink_milk
++ subtitles.entity.wandering_trader.drink_potion
++ subtitles.entity.wandering_trader.reappeared
++ subtitles.entity.zoglin.ambient
++ subtitles.entity.zoglin.angry
++ subtitles.entity.zoglin.attack
++ subtitles.entity.zoglin.death
++ subtitles.entity.zoglin.hurt
++ subtitles.entity.zoglin.step
++ subtitles.entity.zombie.destroy_egg
++ subtitles.item.bottle.empty
++ subtitles.item.bucket.fill_fish
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ entities/zoglin.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ entity/hoglin/zoglin.png
+```
+
+</details>

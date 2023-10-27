@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w07a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w07a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-02-17T16:35:40+00:00</td></tr>
@@ -10,2065 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/66ebacdeccfdf8f6439f7a90234fc76e8ef5c5a6/server.txt">https://piston-data.mojang.com/v1/objects/66ebacdeccfdf8f6439f7a90234fc76e8ef5c5a6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/e6886725265257d34b5e0d0661632c61800bded3/client.jar">https://piston-data.mojang.com/v1/objects/e6886725265257d34b5e0d0661632c61800bded3/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/bdcb712a65f1664ea4b2f28b2e88418817ead0d7/client.txt">https://piston-data.mojang.com/v1/objects/bdcb712a65f1664ea4b2f28b2e88418817ead0d7/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w06a">21w06a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/chiseled_grimstone.json
-+  minecraft/advancements/recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_brick_slab.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_slab.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_stairs.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_tile_slab.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs.json
-+  minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_grimstone.json
-+  minecraft/advancements/recipes/building_blocks/polished_grimstone_slab.json
-+  minecraft/advancements/recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs.json
-+  minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/grimstone_brick_wall.json
-+  minecraft/advancements/recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-+  minecraft/advancements/recipes/decorations/grimstone_tile_wall.json
-+  minecraft/advancements/recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-+  minecraft/advancements/recipes/decorations/grimstone_wall.json
-+  minecraft/advancements/recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
-+  minecraft/advancements/recipes/decorations/polished_grimstone_wall.json
-+  minecraft/advancements/recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-+  minecraft/loot_tables/blocks/chiseled_grimstone.json
-+  minecraft/loot_tables/blocks/grimstone.json
-+  minecraft/loot_tables/blocks/grimstone_brick_slab.json
-+  minecraft/loot_tables/blocks/grimstone_brick_stairs.json
-+  minecraft/loot_tables/blocks/grimstone_brick_wall.json
-+  minecraft/loot_tables/blocks/grimstone_bricks.json
-+  minecraft/loot_tables/blocks/grimstone_slab.json
-+  minecraft/loot_tables/blocks/grimstone_stairs.json
-+  minecraft/loot_tables/blocks/grimstone_tile_slab.json
-+  minecraft/loot_tables/blocks/grimstone_tile_stairs.json
-+  minecraft/loot_tables/blocks/grimstone_tile_wall.json
-+  minecraft/loot_tables/blocks/grimstone_tiles.json
-+  minecraft/loot_tables/blocks/grimstone_wall.json
-+  minecraft/loot_tables/blocks/polished_grimstone.json
-+  minecraft/loot_tables/blocks/polished_grimstone_slab.json
-+  minecraft/loot_tables/blocks/polished_grimstone_stairs.json
-+  minecraft/loot_tables/blocks/polished_grimstone_wall.json
-+  minecraft/recipes/chiseled_grimstone.json
-+  minecraft/recipes/chiseled_grimstone_from_grimstone_stonecutting.json
-+  minecraft/recipes/grimstone_brick_slab.json
-+  minecraft/recipes/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-+  minecraft/recipes/grimstone_brick_stairs.json
-+  minecraft/recipes/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-+  minecraft/recipes/grimstone_brick_wall.json
-+  minecraft/recipes/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-+  minecraft/recipes/grimstone_slab.json
-+  minecraft/recipes/grimstone_slab_from_grimstone_stonecutting.json
-+  minecraft/recipes/grimstone_stairs.json
-+  minecraft/recipes/grimstone_stairs_from_grimstone_stonecutting.json
-+  minecraft/recipes/grimstone_tile_slab.json
-+  minecraft/recipes/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-+  minecraft/recipes/grimstone_tile_stairs.json
-+  minecraft/recipes/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-+  minecraft/recipes/grimstone_tile_wall.json
-+  minecraft/recipes/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-+  minecraft/recipes/grimstone_wall.json
-+  minecraft/recipes/grimstone_wall_from_grimstone_stonecutting.json
-+  minecraft/recipes/polished_grimstone.json
-+  minecraft/recipes/polished_grimstone_slab.json
-+  minecraft/recipes/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-+  minecraft/recipes/polished_grimstone_stairs.json
-+  minecraft/recipes/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-+  minecraft/recipes/polished_grimstone_wall.json
-+  minecraft/recipes/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/chiseled_grimstone.json
-+  minecraft/blockstates/grimstone.json
-+  minecraft/blockstates/grimstone_brick_slab.json
-+  minecraft/blockstates/grimstone_brick_stairs.json
-+  minecraft/blockstates/grimstone_brick_wall.json
-+  minecraft/blockstates/grimstone_bricks.json
-+  minecraft/blockstates/grimstone_slab.json
-+  minecraft/blockstates/grimstone_stairs.json
-+  minecraft/blockstates/grimstone_tile_slab.json
-+  minecraft/blockstates/grimstone_tile_stairs.json
-+  minecraft/blockstates/grimstone_tile_wall.json
-+  minecraft/blockstates/grimstone_tiles.json
-+  minecraft/blockstates/grimstone_wall.json
-+  minecraft/blockstates/polished_grimstone.json
-+  minecraft/blockstates/polished_grimstone_slab.json
-+  minecraft/blockstates/polished_grimstone_stairs.json
-+  minecraft/blockstates/polished_grimstone_wall.json
-+  minecraft/models/block/chiseled_grimstone.json
-+  minecraft/models/block/grimstone.json
-+  minecraft/models/block/grimstone_brick_slab.json
-+  minecraft/models/block/grimstone_brick_slab_top.json
-+  minecraft/models/block/grimstone_brick_stairs.json
-+  minecraft/models/block/grimstone_brick_stairs_inner.json
-+  minecraft/models/block/grimstone_brick_stairs_outer.json
-+  minecraft/models/block/grimstone_brick_wall_inventory.json
-+  minecraft/models/block/grimstone_brick_wall_post.json
-+  minecraft/models/block/grimstone_brick_wall_side.json
-+  minecraft/models/block/grimstone_brick_wall_side_tall.json
-+  minecraft/models/block/grimstone_bricks.json
-+  minecraft/models/block/grimstone_mirrored.json
-+  minecraft/models/block/grimstone_slab.json
-+  minecraft/models/block/grimstone_slab_top.json
-+  minecraft/models/block/grimstone_stairs.json
-+  minecraft/models/block/grimstone_stairs_inner.json
-+  minecraft/models/block/grimstone_stairs_outer.json
-+  minecraft/models/block/grimstone_tile_slab.json
-+  minecraft/models/block/grimstone_tile_slab_top.json
-+  minecraft/models/block/grimstone_tile_stairs.json
-+  minecraft/models/block/grimstone_tile_stairs_inner.json
-+  minecraft/models/block/grimstone_tile_stairs_outer.json
-+  minecraft/models/block/grimstone_tile_wall_inventory.json
-+  minecraft/models/block/grimstone_tile_wall_post.json
-+  minecraft/models/block/grimstone_tile_wall_side.json
-+  minecraft/models/block/grimstone_tile_wall_side_tall.json
-+  minecraft/models/block/grimstone_tiles.json
-+  minecraft/models/block/grimstone_wall_inventory.json
-+  minecraft/models/block/grimstone_wall_post.json
-+  minecraft/models/block/grimstone_wall_side.json
-+  minecraft/models/block/grimstone_wall_side_tall.json
-+  minecraft/models/block/polished_grimstone.json
-+  minecraft/models/block/polished_grimstone_slab.json
-+  minecraft/models/block/polished_grimstone_slab_top.json
-+  minecraft/models/block/polished_grimstone_stairs.json
-+  minecraft/models/block/polished_grimstone_stairs_inner.json
-+  minecraft/models/block/polished_grimstone_stairs_outer.json
-+  minecraft/models/block/polished_grimstone_wall_inventory.json
-+  minecraft/models/block/polished_grimstone_wall_post.json
-+  minecraft/models/block/polished_grimstone_wall_side.json
-+  minecraft/models/block/polished_grimstone_wall_side_tall.json
-+  minecraft/models/item/chiseled_grimstone.json
-+  minecraft/models/item/grimstone.json
-+  minecraft/models/item/grimstone_brick_slab.json
-+  minecraft/models/item/grimstone_brick_stairs.json
-+  minecraft/models/item/grimstone_brick_wall.json
-+  minecraft/models/item/grimstone_bricks.json
-+  minecraft/models/item/grimstone_slab.json
-+  minecraft/models/item/grimstone_stairs.json
-+  minecraft/models/item/grimstone_tile_slab.json
-+  minecraft/models/item/grimstone_tile_stairs.json
-+  minecraft/models/item/grimstone_tile_wall.json
-+  minecraft/models/item/grimstone_tiles.json
-+  minecraft/models/item/grimstone_wall.json
-+  minecraft/models/item/polished_grimstone.json
-+  minecraft/models/item/polished_grimstone_slab.json
-+  minecraft/models/item/polished_grimstone_stairs.json
-+  minecraft/models/item/polished_grimstone_wall.json
-+  minecraft/textures/block/chiseled_grimstone.png
-+  minecraft/textures/block/grimstone.png
-+  minecraft/textures/block/grimstone_bricks.png
-+  minecraft/textures/block/grimstone_tiles.png
-+  minecraft/textures/block/polished_grimstone.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:grimstone
-+ minecraft:grimstone_stairs
-+ minecraft:grimstone_slab
-+ minecraft:grimstone_wall
-+ minecraft:polished_grimstone
-+ minecraft:polished_grimstone_stairs
-+ minecraft:polished_grimstone_slab
-+ minecraft:polished_grimstone_wall
-+ minecraft:grimstone_tiles
-+ minecraft:grimstone_tile_stairs
-+ minecraft:grimstone_tile_slab
-+ minecraft:grimstone_tile_wall
-+ minecraft:grimstone_bricks
-+ minecraft:grimstone_brick_stairs
-+ minecraft:grimstone_brick_slab
-+ minecraft:grimstone_brick_wall
-+ minecraft:chiseled_grimstone
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:grimstone
-+ minecraft:polished_grimstone
-+ minecraft:grimstone_bricks
-+ minecraft:grimstone_tiles
-+ minecraft:chiseled_grimstone
-+ minecraft:grimstone_wall
-+ minecraft:polished_grimstone_wall
-+ minecraft:grimstone_tile_wall
-+ minecraft:grimstone_brick_wall
-+ minecraft:grimstone_stairs
-+ minecraft:polished_grimstone_stairs
-+ minecraft:grimstone_tile_stairs
-+ minecraft:grimstone_brick_stairs
-+ minecraft:polished_grimstone_slab
-+ minecraft:grimstone_slab
-+ minecraft:grimstone_tile_slab
-+ minecraft:grimstone_brick_slab
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:range_biased
-- minecraft:range_very_biased
-- minecraft:fire
-- minecraft:magma
-- minecraft:emerald_ore
-- minecraft:water_lake
-- minecraft:end_island
-+ minecraft:range_biased_to_bottom
-+ minecraft:range_very_biased_to_bottom
-```
-
-</details>
-
-## Tags
-
-<details><summary>blocks/base_stone_overworld.json</summary>
-
-```diff
-+ minecraft:grimstone
-```
-
-</details>
-
-<details><summary>blocks/slabs.json</summary>
-
-```diff
-+ minecraft:grimstone_slab
-+ minecraft:polished_grimstone_slab
-+ minecraft:grimstone_tile_slab
-+ minecraft:grimstone_brick_slab
-```
-
-</details>
-
-<details><summary>blocks/stairs.json</summary>
-
-```diff
-+ minecraft:grimstone_stairs
-+ minecraft:polished_grimstone_stairs
-+ minecraft:grimstone_tile_stairs
-+ minecraft:grimstone_brick_stairs
-```
-
-</details>
-
-<details><summary>blocks/walls.json</summary>
-
-```diff
-+ minecraft:grimstone_wall
-+ minecraft:polished_grimstone_wall
-+ minecraft:grimstone_tile_wall
-+ minecraft:grimstone_brick_wall
-```
-
-</details>
-
-<details><summary>items/slabs.json</summary>
-
-```diff
-+ minecraft:grimstone_slab
-+ minecraft:polished_grimstone_slab
-+ minecraft:grimstone_tile_slab
-+ minecraft:grimstone_brick_slab
-```
-
-</details>
-
-<details><summary>items/stairs.json</summary>
-
-```diff
-+ minecraft:grimstone_stairs
-+ minecraft:polished_grimstone_stairs
-+ minecraft:grimstone_tile_stairs
-+ minecraft:grimstone_brick_stairs
-```
-
-</details>
-
-<details><summary>items/stone_crafting_materials.json</summary>
-
-```diff
-+ minecraft:grimstone
-```
-
-</details>
-
-<details><summary>items/stone_tool_materials.json</summary>
-
-```diff
-+ minecraft:grimstone
-```
-
-</details>
-
-<details><summary>items/walls.json</summary>
-
-```diff
-+ minecraft:grimstone_wall
-+ minecraft:polished_grimstone_wall
-+ minecraft:grimstone_tile_wall
-+ minecraft:grimstone_brick_wall
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/chiseled_grimstone.json
-+ recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
-+ recipes/building_blocks/grimstone_brick_slab.json
-+ recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-+ recipes/building_blocks/grimstone_brick_stairs.json
-+ recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-+ recipes/building_blocks/grimstone_slab.json
-+ recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
-+ recipes/building_blocks/grimstone_stairs.json
-+ recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
-+ recipes/building_blocks/grimstone_tile_slab.json
-+ recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-+ recipes/building_blocks/grimstone_tile_stairs.json
-+ recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-+ recipes/building_blocks/polished_grimstone.json
-+ recipes/building_blocks/polished_grimstone_slab.json
-+ recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-+ recipes/building_blocks/polished_grimstone_stairs.json
-+ recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-+ recipes/decorations/grimstone_brick_wall.json
-+ recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-+ recipes/decorations/grimstone_tile_wall.json
-+ recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-+ recipes/decorations/grimstone_wall.json
-+ recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
-+ recipes/decorations/polished_grimstone_wall.json
-+ recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/chiseled_grimstone.json
-+ blocks/grimstone.json
-+ blocks/grimstone_bricks.json
-+ blocks/grimstone_brick_slab.json
-+ blocks/grimstone_brick_stairs.json
-+ blocks/grimstone_brick_wall.json
-+ blocks/grimstone_slab.json
-+ blocks/grimstone_stairs.json
-+ blocks/grimstone_tiles.json
-+ blocks/grimstone_tile_slab.json
-+ blocks/grimstone_tile_stairs.json
-+ blocks/grimstone_tile_wall.json
-+ blocks/grimstone_wall.json
-+ blocks/polished_grimstone.json
-+ blocks/polished_grimstone_slab.json
-+ blocks/polished_grimstone_stairs.json
-+ blocks/polished_grimstone_wall.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ chiseled_grimstone.json
-+ chiseled_grimstone_from_grimstone_stonecutting.json
-+ grimstone_brick_slab.json
-+ grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
-+ grimstone_brick_stairs.json
-+ grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
-+ grimstone_brick_wall.json
-+ grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
-+ grimstone_slab.json
-+ grimstone_slab_from_grimstone_stonecutting.json
-+ grimstone_stairs.json
-+ grimstone_stairs_from_grimstone_stonecutting.json
-+ grimstone_tile_slab.json
-+ grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
-+ grimstone_tile_stairs.json
-+ grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
-+ grimstone_tile_wall.json
-+ grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
-+ grimstone_wall.json
-+ grimstone_wall_from_grimstone_stonecutting.json
-+ polished_grimstone.json
-+ polished_grimstone_slab.json
-+ polished_grimstone_slab_from_polished_grimstone_stonecutting.json
-+ polished_grimstone_stairs.json
-+ polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
-+ polished_grimstone_wall.json
-+ polished_grimstone_wall_from_polished_grimstone_stonecutting.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/chiseled_grimstone.png
-+ block/grimstone.png
-+ block/grimstone_bricks.png
-+ block/grimstone_tiles.png
-+ block/polished_grimstone.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.TextFilter</summary>
-
-```diff
-+ TextFilter DUMMY
-+ void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.network.TextFilterClient$PlayerContext</summary>
-
-```diff
-+ List lambda$processMessageBundle$1(Throwable)
-- Optional lambda$processMessageBundle$2(List)
-- Optional lambda$processMessageBundle$3(Throwable)
-- String lambda$null$1(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item CHISELED_GRIMSTONE
-+ Item GRIMSTONE
-+ Item GRIMSTONE_BRICK_SLAB
-+ Item GRIMSTONE_BRICK_STAIRS
-+ Item GRIMSTONE_BRICK_WALL
-+ Item GRIMSTONE_BRICKS
-+ Item GRIMSTONE_SLAB
-+ Item GRIMSTONE_STAIRS
-+ Item GRIMSTONE_TILE_SLAB
-+ Item GRIMSTONE_TILE_STAIRS
-+ Item GRIMSTONE_TILE_WALL
-+ Item GRIMSTONE_TILES
-+ Item GRIMSTONE_WALL
-+ Item POLISHED_GRIMSTONE
-+ Item POLISHED_GRIMSTONE_SLAB
-+ Item POLISHED_GRIMSTONE_STAIRS
-+ Item POLISHED_GRIMSTONE_WALL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.WrittenBookItem</summary>
-
-```diff
-+ String resolvePage(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block CHISELED_GRIMSTONE
-+ Block GRIMSTONE
-+ Block GRIMSTONE_BRICK_SLAB
-+ Block GRIMSTONE_BRICK_STAIRS
-+ Block GRIMSTONE_BRICK_WALL
-+ Block GRIMSTONE_BRICKS
-+ Block GRIMSTONE_SLAB
-+ Block GRIMSTONE_STAIRS
-+ Block GRIMSTONE_TILE_SLAB
-+ Block GRIMSTONE_TILE_STAIRS
-+ Block GRIMSTONE_TILE_WALL
-+ Block GRIMSTONE_TILES
-+ Block GRIMSTONE_WALL
-+ Block POLISHED_GRIMSTONE
-+ Block POLISHED_GRIMSTONE_SLAB
-+ Block POLISHED_GRIMSTONE_STAIRS
-+ Block POLISHED_GRIMSTONE_WALL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntity</summary>
-
-```diff
-- double getViewDistance()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
-
-```diff
-+ boolean renderMessagedFiltered
-+ Component[] filteredMessages
-+ String[] FILTERED_TEXT_FIELD_NAMES
-+ String[] RAW_TEXT_FIELD_NAMES
-+ boolean executeClickCommands(ServerPlayer)
-+ Component getMessage(int,boolean)
-+ Component loadLine(String)
-+ Component[] getMessages(boolean)
-+ FormattedCharSequence[] getRenderMessages(Function)
-+ void <clinit>()
-+ void setMessage(Component)
-- boolean executeClickCommands(Player)
-- Component getMessage(int)
-- FormattedCharSequence getRenderMessage(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
-
-```diff
-+ Object depthAverage(VerticalAnchor,int)
-+ Object range(RangeDecoratorConfiguration)
-+ Object range(VerticalAnchor)
-- Object range(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
-
-```diff
-+ BlockPos lambda$getPositions$0(ChunkPos,int)
-- BlockPos lambda$getPositions$1(ChunkPos,int)
-- boolean lambda$getPositions$0(CarvingMaskDecoratorConfiguration,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.ChanceDecorator</summary>
-
-```diff
-+ int count(BlockPos)
-+ int count(BlockPos)
-- Stream place(BlockPos)
-- Stream place(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CountNoiseDecorator</summary>
-
-```diff
-+ int count(BlockPos)
-+ int count(BlockPos)
-- BlockPos lambda$getPositions$0(BlockPos,int)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.DarkOakTreePlacementDecorator</summary>
-
-```diff
-+ BlockPos lambda$getPositions$0(BlockPos,int)
-- BlockPos lambda$getPositions$0(NoneDecoratorConfiguration,int)
-- Heightmap$Types type(DecoratorConfiguration)
-- Heightmap$Types type(NoneDecoratorConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ FeatureDecorator RANGE_BIASED_TO_BOTTOM
-+ FeatureDecorator RANGE_VERY_BIASED_TO_BOTTOM
-- FeatureDecorator EMERALD_ORE
-- FeatureDecorator END_ISLAND
-- FeatureDecorator FIRE
-- FeatureDecorator MAGMA
-- FeatureDecorator RANGE_BIASED
-- FeatureDecorator RANGE_VERY_BIASED
-- FeatureDecorator WATER_LAKE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
-
-```diff
-+ int count(BlockPos)
-+ int count(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ boolean canHangChainBelow(BlockState)
-+ void fillColumnBetween(BlockPos$MutableBlockPos,int,int)
-+ void fillPillarDownOrChainUp(BoundingBox)
-+ void placeDoubleLowerOrUpperSupport(BoundingBox,int,int,int)
-- boolean isEmptyOrWater(BlockPos)
-- void placeDoubleLowerSupport(BoundingBox,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
-
-```diff
-+ void setPlanksBlock(BlockState,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.color.block.BlockColor
@@ -5299,1213 +3262,164 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
+<details><summary>net.minecraft.server.network.TextFilter</summary>
 
 ```diff
-+ ConfiguredFeature ORE_COAL_LOWER
-+ ConfiguredFeature ORE_COAL_UPPER
-+ ConfiguredFeature ORE_IRON_LOWER
-+ ConfiguredFeature ORE_IRON_UPPER
-+ ConfiguredFeature ORE_LAPIS_BURIED
-+ ConfiguredFeature ORE_REDSTONE_LOWER
-- ConfiguredFeature ORE_COAL
-- ConfiguredFeature ORE_IRON
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features$Decorators</summary>
-
-```diff
-+ ConfiguredDecorator DARK_OAK_DECORATOR
-+ RangeDecoratorConfiguration FULL_RANGE
-+ RangeDecoratorConfiguration RANGE_10_10
-+ RangeDecoratorConfiguration RANGE_4_4
-+ RangeDecoratorConfiguration RANGE_8_8
-- ConfiguredDecorator RANGE_10_20_ROOFED
-- ConfiguredDecorator RANGE_4_8_ROOFED
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
+<details><summary>net.minecraft.server.network.TextFilterClient$PlayerContext</summary>
 
 ```diff
-+ boolean textFilteringEnabled
-+ boolean isTextFilteringEnabled()
-+ void <init>(HumanoidArm,boolean)
-- void <init>(HumanoidArm)
++ List lambda$processMessageBundle$1(Throwable)
+- Optional lambda$processMessageBundle$2(List)
+- Optional lambda$processMessageBundle$3(Throwable)
+- String lambda$null$1(Optional)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+<details><summary>net.minecraft.world.item.WrittenBookItem</summary>
 
 ```diff
-+ boolean textFilteringEnabled
-+ boolean acceptsChat(ChatType)
-+ boolean isTextFilteringEnabled()
-+ boolean shouldFilterMessageTo(ServerPlayer)
++ String resolvePage(CommandSourceStack,Player,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+<details><summary>net.minecraft.world.level.block.entity.BlockEntity</summary>
 
 ```diff
-+ double beardifyOrBury(int,int,int)
-+ double getBeardContribution(int,int,int)
-+ double getBuryContribution(int,int,int)
-- double beardify(int,int,int)
-- double getContribution(int,int,int)
+- double getViewDistance()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
 
 ```diff
-+ BaseStoneSource baseStoneSource
-- RandomSource random
-+ BlockState updateNoiseAndGenerateBaseState(BaseStoneSource,int,int,int,double)
-- BlockState updateNoiseAndGenerateBaseState(Aquifer,int,int,int,double)
+- boolean executeClickCommands(Player)
++ boolean executeClickCommands(ServerPlayer)
++ Component getMessage(int,boolean)
+- Component getMessage(int)
++ Component loadLine(String)
++ Component[] getMessages(boolean)
+- FormattedCharSequence getRenderMessage(int,Function)
++ FormattedCharSequence[] getRenderMessages(boolean,Function)
++ void <clinit>()
++ void setMessage(int,Component,Component)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
+<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
 
 ```diff
-+ long setBaseStoneSeed(long,int,int,int)
++ Object depthAverage(VerticalAnchor,int)
+- Object range(int,int)
++ Object range(RangeDecoratorConfiguration)
++ Object range(VerticalAnchor,VerticalAnchor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
 
 ```diff
-+ BlockPos access$600(BlockPos)
-- BlockPos access$800(BlockPos)
++ BlockPos lambda$getPositions$0(ChunkPos,int)
+- BlockPos lambda$getPositions$1(ChunkPos,int)
+- boolean lambda$getPositions$0(BitSet,Random,CarvingMaskDecoratorConfiguration,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RangeDecoratorConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.ChanceDecorator</summary>
 
 ```diff
-+ VerticalAnchor bottomInclusive
-+ VerticalAnchor topInclusive
-- int bottomOffset
-- int maximum
-- int topOffset
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ VerticalAnchor bottomInclusive()
-+ VerticalAnchor topInclusive()
-+ void <init>(VerticalAnchor)
-- App lambda$static$3(RecordCodecBuilder$Instance)
-- Integer lambda$null$0(RangeDecoratorConfiguration)
-- Integer lambda$null$1(RangeDecoratorConfiguration)
-- Integer lambda$null$2(RangeDecoratorConfiguration)
-- void <init>(int,int,int)
++ int count(Random,ChanceDecoratorConfiguration,BlockPos)
++ int count(Random,DecoratorConfiguration,BlockPos)
+- Stream place(Random,ChanceDecoratorConfiguration,BlockPos)
+- Stream place(Random,DecoratorConfiguration,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.Spread32Decorator</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.CountNoiseDecorator</summary>
 
 ```diff
-+ int y(DecoratorConfiguration,int)
-+ int y(NoneDecoratorConfiguration,int)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
+- BlockPos lambda$getPositions$0(BlockPos,int)
++ int count(Random,DecoratorConfiguration,BlockPos)
++ int count(Random,NoiseDependantDecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,NoiseDependantDecoratorConfiguration,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.DarkOakTreePlacementDecorator</summary>
 
 ```diff
-+ NoiseEffect getNoiseEffect()
+- BlockPos lambda$getPositions$0(Random,BlockPos,DecorationContext,NoneDecoratorConfiguration,int)
++ BlockPos lambda$getPositions$0(Random,BlockPos,int)
+- Heightmap$Types type(DecoratorConfiguration)
+- Heightmap$Types type(NoneDecoratorConfiguration)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
-
-```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.placement.LakeLavaPlacementDecorator</summary>
 
 ```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
-
-```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
-
-```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
-
-```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Turn</summary>
-
-```diff
-+ NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
-
-```diff
-+ boolean isReplaceableByStructures(BlockState)
-+ NoiseEffect getNoiseEffect()
++ int count(Random,ChanceDecoratorConfiguration,BlockPos)
++ int count(Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,ChanceDecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,DecoratorConfiguration,BlockPos)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
+```diff
++ boolean canHangChainBelow(LevelReader,BlockPos,BlockState)
+- boolean isEmptyOrWater(LevelReader,BlockPos)
++ void fillColumnBetween(WorldGenLevel,BlockState,BlockPos$MutableBlockPos,int,int)
++ void fillPillarDownOrChainUp(WorldGenLevel,BlockState,int,int,int,BoundingBox)
++ void placeDoubleLowerOrUpperSupport(WorldGenLevel,BoundingBox,int,int,int)
+- void placeDoubleLowerSupport(WorldGenLevel,BoundingBox,int,int,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
 
+```diff
++ void setPlanksBlock(WorldGenLevel,BoundingBox,BlockState,int,int,int)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.server.level.package-info
@@ -8880,13 +5794,648 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
+
+```diff
++ boolean isTextFilteringEnabled()
++ void <init>(String,int,ChatVisiblity,boolean,int,HumanoidArm,boolean)
+- void <init>(String,int,ChatVisiblity,boolean,int,HumanoidArm)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
++ boolean acceptsChat(ChatType)
++ boolean isTextFilteringEnabled()
++ boolean shouldFilterMessageTo(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
+- double beardify(int,int,int)
++ double beardifyOrBury(int,int,int)
++ double getBeardContribution(int,int,int)
++ double getBuryContribution(int,int,int)
+- double getContribution(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
++ BlockState updateNoiseAndGenerateBaseState(Beardifier,Aquifer,BaseStoneSource,int,int,int,double)
+- BlockState updateNoiseAndGenerateBaseState(Beardifier,Aquifer,int,int,int,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
+
+```diff
++ long setBaseStoneSeed(long,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
+
+```diff
++ BlockPos access$600(LargeDripstoneFeature$WindOffsetter,BlockPos)
+- BlockPos access$800(LargeDripstoneFeature$WindOffsetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.RangeDecoratorConfiguration</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- App lambda$static$3(RecordCodecBuilder$Instance)
+- Integer lambda$null$0(RangeDecoratorConfiguration)
+- Integer lambda$null$1(RangeDecoratorConfiguration)
+- Integer lambda$null$2(RangeDecoratorConfiguration)
++ VerticalAnchor bottomInclusive()
++ VerticalAnchor topInclusive()
+- void <init>(int,int,int)
++ void <init>(VerticalAnchor,VerticalAnchor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.Spread32Decorator</summary>
+
+```diff
++ int y(DecorationContext,Random,DecoratorConfiguration,int)
++ int y(DecorationContext,Random,NoneDecoratorConfiguration,int)
+- Stream getPositions(DecorationContext,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,NoneDecoratorConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$FillerCorridor</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$PrisonHall</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$RoomCrossing</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StairsDown</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Straight</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$StrongholdPiece</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StrongholdPieces$Turn</summary>
+
+```diff
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructurePiece</summary>
+
+```diff
++ boolean isReplaceableByStructures(BlockState)
++ NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/chiseled_grimstone.json
++ minecraft/advancements/recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_brick_slab.json
++ minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_brick_stairs.json
++ minecraft/advancements/recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_slab.json
++ minecraft/advancements/recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_stairs.json
++ minecraft/advancements/recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_tile_slab.json
++ minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/grimstone_tile_stairs.json
++ minecraft/advancements/recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_grimstone_slab.json
++ minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/polished_grimstone_stairs.json
++ minecraft/advancements/recipes/building_blocks/polished_grimstone.json
++ minecraft/advancements/recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
++ minecraft/advancements/recipes/decorations/grimstone_brick_wall.json
++ minecraft/advancements/recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
++ minecraft/advancements/recipes/decorations/grimstone_tile_wall.json
++ minecraft/advancements/recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/grimstone_wall.json
++ minecraft/advancements/recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
++ minecraft/advancements/recipes/decorations/polished_grimstone_wall.json
++ minecraft/loot_tables/blocks/chiseled_grimstone.json
++ minecraft/loot_tables/blocks/grimstone_brick_slab.json
++ minecraft/loot_tables/blocks/grimstone_brick_stairs.json
++ minecraft/loot_tables/blocks/grimstone_brick_wall.json
++ minecraft/loot_tables/blocks/grimstone_bricks.json
++ minecraft/loot_tables/blocks/grimstone_slab.json
++ minecraft/loot_tables/blocks/grimstone_stairs.json
++ minecraft/loot_tables/blocks/grimstone_tile_slab.json
++ minecraft/loot_tables/blocks/grimstone_tile_stairs.json
++ minecraft/loot_tables/blocks/grimstone_tile_wall.json
++ minecraft/loot_tables/blocks/grimstone_tiles.json
++ minecraft/loot_tables/blocks/grimstone_wall.json
++ minecraft/loot_tables/blocks/grimstone.json
++ minecraft/loot_tables/blocks/polished_grimstone_slab.json
++ minecraft/loot_tables/blocks/polished_grimstone_stairs.json
++ minecraft/loot_tables/blocks/polished_grimstone_wall.json
++ minecraft/loot_tables/blocks/polished_grimstone.json
++ minecraft/recipes/chiseled_grimstone_from_grimstone_stonecutting.json
++ minecraft/recipes/chiseled_grimstone.json
++ minecraft/recipes/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
++ minecraft/recipes/grimstone_brick_slab.json
++ minecraft/recipes/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
++ minecraft/recipes/grimstone_brick_stairs.json
++ minecraft/recipes/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
++ minecraft/recipes/grimstone_brick_wall.json
++ minecraft/recipes/grimstone_slab_from_grimstone_stonecutting.json
++ minecraft/recipes/grimstone_slab.json
++ minecraft/recipes/grimstone_stairs_from_grimstone_stonecutting.json
++ minecraft/recipes/grimstone_stairs.json
++ minecraft/recipes/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
++ minecraft/recipes/grimstone_tile_slab.json
++ minecraft/recipes/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
++ minecraft/recipes/grimstone_tile_stairs.json
++ minecraft/recipes/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
++ minecraft/recipes/grimstone_tile_wall.json
++ minecraft/recipes/grimstone_wall_from_grimstone_stonecutting.json
++ minecraft/recipes/grimstone_wall.json
++ minecraft/recipes/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
++ minecraft/recipes/polished_grimstone_slab.json
++ minecraft/recipes/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
++ minecraft/recipes/polished_grimstone_stairs.json
++ minecraft/recipes/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
++ minecraft/recipes/polished_grimstone_wall.json
++ minecraft/recipes/polished_grimstone.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/chiseled_grimstone.json
++ minecraft/blockstates/grimstone_brick_slab.json
++ minecraft/blockstates/grimstone_brick_stairs.json
++ minecraft/blockstates/grimstone_brick_wall.json
++ minecraft/blockstates/grimstone_bricks.json
++ minecraft/blockstates/grimstone_slab.json
++ minecraft/blockstates/grimstone_stairs.json
++ minecraft/blockstates/grimstone_tile_slab.json
++ minecraft/blockstates/grimstone_tile_stairs.json
++ minecraft/blockstates/grimstone_tile_wall.json
++ minecraft/blockstates/grimstone_tiles.json
++ minecraft/blockstates/grimstone_wall.json
++ minecraft/blockstates/grimstone.json
++ minecraft/blockstates/polished_grimstone_slab.json
++ minecraft/blockstates/polished_grimstone_stairs.json
++ minecraft/blockstates/polished_grimstone_wall.json
++ minecraft/blockstates/polished_grimstone.json
++ minecraft/models/block/chiseled_grimstone.json
++ minecraft/models/block/grimstone_brick_slab_top.json
++ minecraft/models/block/grimstone_brick_slab.json
++ minecraft/models/block/grimstone_brick_stairs_inner.json
++ minecraft/models/block/grimstone_brick_stairs_outer.json
++ minecraft/models/block/grimstone_brick_stairs.json
++ minecraft/models/block/grimstone_brick_wall_inventory.json
++ minecraft/models/block/grimstone_brick_wall_post.json
++ minecraft/models/block/grimstone_brick_wall_side_tall.json
++ minecraft/models/block/grimstone_brick_wall_side.json
++ minecraft/models/block/grimstone_bricks.json
++ minecraft/models/block/grimstone_mirrored.json
++ minecraft/models/block/grimstone_slab_top.json
++ minecraft/models/block/grimstone_slab.json
++ minecraft/models/block/grimstone_stairs_inner.json
++ minecraft/models/block/grimstone_stairs_outer.json
++ minecraft/models/block/grimstone_stairs.json
++ minecraft/models/block/grimstone_tile_slab_top.json
++ minecraft/models/block/grimstone_tile_slab.json
++ minecraft/models/block/grimstone_tile_stairs_inner.json
++ minecraft/models/block/grimstone_tile_stairs_outer.json
++ minecraft/models/block/grimstone_tile_stairs.json
++ minecraft/models/block/grimstone_tile_wall_inventory.json
++ minecraft/models/block/grimstone_tile_wall_post.json
++ minecraft/models/block/grimstone_tile_wall_side_tall.json
++ minecraft/models/block/grimstone_tile_wall_side.json
++ minecraft/models/block/grimstone_tiles.json
++ minecraft/models/block/grimstone_wall_inventory.json
++ minecraft/models/block/grimstone_wall_post.json
++ minecraft/models/block/grimstone_wall_side_tall.json
++ minecraft/models/block/grimstone_wall_side.json
++ minecraft/models/block/grimstone.json
++ minecraft/models/block/polished_grimstone_slab_top.json
++ minecraft/models/block/polished_grimstone_slab.json
++ minecraft/models/block/polished_grimstone_stairs_inner.json
++ minecraft/models/block/polished_grimstone_stairs_outer.json
++ minecraft/models/block/polished_grimstone_stairs.json
++ minecraft/models/block/polished_grimstone_wall_inventory.json
++ minecraft/models/block/polished_grimstone_wall_post.json
++ minecraft/models/block/polished_grimstone_wall_side_tall.json
++ minecraft/models/block/polished_grimstone_wall_side.json
++ minecraft/models/block/polished_grimstone.json
++ minecraft/models/item/chiseled_grimstone.json
++ minecraft/models/item/grimstone_brick_slab.json
++ minecraft/models/item/grimstone_brick_stairs.json
++ minecraft/models/item/grimstone_brick_wall.json
++ minecraft/models/item/grimstone_bricks.json
++ minecraft/models/item/grimstone_slab.json
++ minecraft/models/item/grimstone_stairs.json
++ minecraft/models/item/grimstone_tile_slab.json
++ minecraft/models/item/grimstone_tile_stairs.json
++ minecraft/models/item/grimstone_tile_wall.json
++ minecraft/models/item/grimstone_tiles.json
++ minecraft/models/item/grimstone_wall.json
++ minecraft/models/item/grimstone.json
++ minecraft/models/item/polished_grimstone_slab.json
++ minecraft/models/item/polished_grimstone_stairs.json
++ minecraft/models/item/polished_grimstone_wall.json
++ minecraft/models/item/polished_grimstone.json
++ minecraft/textures/block/chiseled_grimstone.png
++ minecraft/textures/block/grimstone_bricks.png
++ minecraft/textures/block/grimstone_tiles.png
++ minecraft/textures/block/grimstone.png
++ minecraft/textures/block/polished_grimstone.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:chiseled_grimstone
++ minecraft:grimstone
++ minecraft:grimstone_brick_slab
++ minecraft:grimstone_brick_stairs
++ minecraft:grimstone_brick_wall
++ minecraft:grimstone_bricks
++ minecraft:grimstone_slab
++ minecraft:grimstone_stairs
++ minecraft:grimstone_tile_slab
++ minecraft:grimstone_tile_stairs
++ minecraft:grimstone_tile_wall
++ minecraft:grimstone_tiles
++ minecraft:grimstone_wall
++ minecraft:polished_grimstone
++ minecraft:polished_grimstone_slab
++ minecraft:polished_grimstone_stairs
++ minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:chiseled_grimstone
++ minecraft:grimstone
++ minecraft:grimstone_brick_slab
++ minecraft:grimstone_brick_stairs
++ minecraft:grimstone_brick_wall
++ minecraft:grimstone_bricks
++ minecraft:grimstone_slab
++ minecraft:grimstone_stairs
++ minecraft:grimstone_tile_slab
++ minecraft:grimstone_tile_stairs
++ minecraft:grimstone_tile_wall
++ minecraft:grimstone_tiles
++ minecraft:grimstone_wall
++ minecraft:polished_grimstone
++ minecraft:polished_grimstone_slab
++ minecraft:polished_grimstone_stairs
++ minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
+- minecraft:emerald_ore
+- minecraft:end_island
+- minecraft:fire
+- minecraft:magma
+- minecraft:range_biased
++ minecraft:range_biased_to_bottom
+- minecraft:range_very_biased
++ minecraft:range_very_biased_to_bottom
+- minecraft:water_lake
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>blocks/base_stone_overworld.json</summary>
+
+```diff
++ minecraft:grimstone
+```
+
+</details>
+
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ minecraft:grimstone_brick_slab
++ minecraft:grimstone_slab
++ minecraft:grimstone_tile_slab
++ minecraft:polished_grimstone_slab
+```
+
+</details>
+
+
+<details><summary>blocks/stairs.json</summary>
+
+```diff
++ minecraft:grimstone_brick_stairs
++ minecraft:grimstone_stairs
++ minecraft:grimstone_tile_stairs
++ minecraft:polished_grimstone_stairs
+```
+
+</details>
+
+
+<details><summary>blocks/walls.json</summary>
+
+```diff
++ minecraft:grimstone_brick_wall
++ minecraft:grimstone_tile_wall
++ minecraft:grimstone_wall
++ minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ minecraft:grimstone_brick_slab
++ minecraft:grimstone_slab
++ minecraft:grimstone_tile_slab
++ minecraft:polished_grimstone_slab
+```
+
+</details>
+
+
+<details><summary>items/stairs.json</summary>
+
+```diff
++ minecraft:grimstone_brick_stairs
++ minecraft:grimstone_stairs
++ minecraft:grimstone_tile_stairs
++ minecraft:polished_grimstone_stairs
+```
+
+</details>
+
+
+<details><summary>items/stone_crafting_materials.json</summary>
+
+```diff
++ minecraft:grimstone
+```
+
+</details>
+
+
+<details><summary>items/stone_tool_materials.json</summary>
+
+```diff
++ minecraft:grimstone
+```
+
+</details>
+
+
+<details><summary>items/walls.json</summary>
+
+```diff
++ minecraft:grimstone_brick_wall
++ minecraft:grimstone_tile_wall
++ minecraft:grimstone_wall
++ minecraft:polished_grimstone_wall
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.chiseled_grimstone
++ block.minecraft.grimstone
++ block.minecraft.grimstone_brick_slab
++ block.minecraft.grimstone_brick_stairs
++ block.minecraft.grimstone_brick_wall
++ block.minecraft.grimstone_bricks
++ block.minecraft.grimstone_slab
++ block.minecraft.grimstone_stairs
++ block.minecraft.grimstone_tile_slab
++ block.minecraft.grimstone_tile_stairs
++ block.minecraft.grimstone_tile_wall
++ block.minecraft.grimstone_tiles
++ block.minecraft.grimstone_wall
++ block.minecraft.polished_grimstone
++ block.minecraft.polished_grimstone_slab
++ block.minecraft.polished_grimstone_stairs
++ block.minecraft.polished_grimstone_wall
++ chat.disabled.launcher
++ chat.disabled.options
++ chat.disabled.profile
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting.json
++ recipes/building_blocks/chiseled_grimstone.json
++ recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
++ recipes/building_blocks/grimstone_brick_slab.json
++ recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
++ recipes/building_blocks/grimstone_brick_stairs.json
++ recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting.json
++ recipes/building_blocks/grimstone_slab.json
++ recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting.json
++ recipes/building_blocks/grimstone_stairs.json
++ recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
++ recipes/building_blocks/grimstone_tile_slab.json
++ recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
++ recipes/building_blocks/grimstone_tile_stairs.json
++ recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting.json
++ recipes/building_blocks/polished_grimstone_slab.json
++ recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
++ recipes/building_blocks/polished_grimstone_stairs.json
++ recipes/building_blocks/polished_grimstone.json
++ recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
++ recipes/decorations/grimstone_brick_wall.json
++ recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
++ recipes/decorations/grimstone_tile_wall.json
++ recipes/decorations/grimstone_wall_from_grimstone_stonecutting.json
++ recipes/decorations/grimstone_wall.json
++ recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting.json
++ recipes/decorations/polished_grimstone_wall.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/chiseled_grimstone.json
++ blocks/grimstone_brick_slab.json
++ blocks/grimstone_brick_stairs.json
++ blocks/grimstone_brick_wall.json
++ blocks/grimstone_bricks.json
++ blocks/grimstone_slab.json
++ blocks/grimstone_stairs.json
++ blocks/grimstone_tile_slab.json
++ blocks/grimstone_tile_stairs.json
++ blocks/grimstone_tile_wall.json
++ blocks/grimstone_tiles.json
++ blocks/grimstone_wall.json
++ blocks/grimstone.json
++ blocks/polished_grimstone_slab.json
++ blocks/polished_grimstone_stairs.json
++ blocks/polished_grimstone_wall.json
++ blocks/polished_grimstone.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ chiseled_grimstone_from_grimstone_stonecutting.json
++ chiseled_grimstone.json
++ grimstone_brick_slab_from_grimstone_bricks_stonecutting.json
++ grimstone_brick_slab.json
++ grimstone_brick_stairs_from_grimstone_bricks_stonecutting.json
++ grimstone_brick_stairs.json
++ grimstone_brick_wall_from_grimstone_bricks_stonecutting.json
++ grimstone_brick_wall.json
++ grimstone_slab_from_grimstone_stonecutting.json
++ grimstone_slab.json
++ grimstone_stairs_from_grimstone_stonecutting.json
++ grimstone_stairs.json
++ grimstone_tile_slab_from_grimstone_tiles_stonecutting.json
++ grimstone_tile_slab.json
++ grimstone_tile_stairs_from_grimstone_tiles_stonecutting.json
++ grimstone_tile_stairs.json
++ grimstone_tile_wall_from_grimstone_tiles_stonecutting.json
++ grimstone_tile_wall.json
++ grimstone_wall_from_grimstone_stonecutting.json
++ grimstone_wall.json
++ polished_grimstone_slab_from_polished_grimstone_stonecutting.json
++ polished_grimstone_slab.json
++ polished_grimstone_stairs_from_polished_grimstone_stonecutting.json
++ polished_grimstone_stairs.json
++ polished_grimstone_wall_from_polished_grimstone_stonecutting.json
++ polished_grimstone_wall.json
++ polished_grimstone.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/chiseled_grimstone.png
++ block/grimstone_bricks.png
++ block/grimstone_tiles.png
++ block/grimstone.png
++ block/polished_grimstone.png
+```
+
+</details>

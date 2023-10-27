@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.17.1-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.17.1-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2021-06-18T12:24:40+00:00</td></tr>
@@ -10,14 +13,9 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/27b8583a59c3803db3155640257e83d5138c9b11/server.txt">https://piston-data.mojang.com/v1/objects/27b8583a59c3803db3155640257e83d5138c9b11/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/e2379ea3e1ff2ad1ab566e7fad78ce39eff3781f/client.jar">https://piston-data.mojang.com/v1/objects/e2379ea3e1ff2ad1ab566e7fad78ce39eff3781f/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/cd9dd46791ba48dc872d91b1e405dcc9dc542e85/client.txt">https://piston-data.mojang.com/v1/objects/cd9dd46791ba48dc872d91b1e405dcc9dc542e85/client.txt</a></td></tr>
-</table></html>
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
 <br/><img width="0" height="0"></td></tr>
 </table></html>
+
 <br/>

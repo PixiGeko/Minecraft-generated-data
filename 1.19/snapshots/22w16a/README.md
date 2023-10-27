@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w16a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w16a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-04-20T14:37:07+00:00</td></tr>
@@ -10,2799 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/09b27637ea134f570beaae2e61c54deb73333baf/server.txt">https://piston-data.mojang.com/v1/objects/09b27637ea134f570beaae2e61c54deb73333baf/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/4e8f686a40481690d16b006bbe571f5fdbc54d05/client.jar">https://piston-data.mojang.com/v1/objects/4e8f686a40481690d16b006bbe571f5fdbc54d05/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/bfe8eb3f33e792e2b0f49d870eda0de4f0eae02c/client.txt">https://piston-data.mojang.com/v1/objects/bfe8eb3f33e792e2b0f49d870eda0de4f0eae02c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w15a">22w15a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/misc/music_disc_5.json
-+  minecraft/recipes/music_disc_5.json
-+  minecraft/tags/blocks/frogs_spawnable_on.json
-+  minecraft/tags/painting_variant
-+  minecraft/tags/painting_variant/placeable.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/disc_fragment_5.json
-+  minecraft/models/item/music_disc_5.json
--  minecraft/particles/allay_dust.json
-+  minecraft/textures/item/disc_fragment_5.png
-+  minecraft/textures/item/music_disc_5.png
-+  minecraft/textures/painting/earth.png
-+  minecraft/textures/painting/fire.png
-+  minecraft/textures/painting/water.png
-+  minecraft/textures/painting/wind.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- motive.txt
-+ painting_variant.txt
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:music_disc_5
-+ minecraft:disc_fragment_5
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-- minecraft:allay_dust
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.allay.flap
-- minecraft:entity.tadpole.eat
-- minecraft:entity.tadpole.step
-+ minecraft:entity.allay.item_thrown
-+ minecraft:music_disc.5
-+ minecraft:music.overworld.swamp
-+ minecraft:music.overworld.jungle_and_forest
-+ minecraft:music.overworld.old_growth_taiga
-```
-
-</details>
-
-## Commands
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule doWardenSpawning <value: bool>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/frogs_spawnable_on.json
-+ painting_variant/placeable.json
-```
-
-</details>
-
-<details><summary>items/music_discs.json</summary>
-
-```diff
-+ minecraft:music_disc_5
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/misc/music_disc_5.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-- allay_dust.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ music_disc_5.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/frogs_spawnable_on.json
-+ painting_variant/placeable.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ item/disc_fragment_5.png
-+ item/music_disc_5.png
-+ painting/earth.png
-+ painting/fire.png
-+ painting/water.png
-+ painting/wind.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- org.lwjgl:lwjgl-glfw:3.2.1
-- org.lwjgl:lwjgl-glfw:3.2.1
-- org.lwjgl:lwjgl-glfw:3.2.2
-- org.lwjgl:lwjgl-glfw:3.2.2
-- org.lwjgl:lwjgl-jemalloc:3.2.1
-- org.lwjgl:lwjgl-jemalloc:3.2.1
-- org.lwjgl:lwjgl-jemalloc:3.2.2
-- org.lwjgl:lwjgl-jemalloc:3.2.2
-- org.lwjgl:lwjgl-openal:3.2.1
-- org.lwjgl:lwjgl-openal:3.2.1
-- org.lwjgl:lwjgl-openal:3.2.2
-- org.lwjgl:lwjgl-openal:3.2.2
-- org.lwjgl:lwjgl-opengl:3.2.1
-- org.lwjgl:lwjgl-opengl:3.2.1
-- org.lwjgl:lwjgl-opengl:3.2.2
-- org.lwjgl:lwjgl-opengl:3.2.2
-- org.lwjgl:lwjgl-stb:3.2.1
-- org.lwjgl:lwjgl-stb:3.2.1
-- org.lwjgl:lwjgl-stb:3.2.2
-- org.lwjgl:lwjgl-stb:3.2.2
-- org.lwjgl:lwjgl-tinyfd:3.2.1
-- org.lwjgl:lwjgl-tinyfd:3.2.1
-- org.lwjgl:lwjgl-tinyfd:3.2.2
-- org.lwjgl:lwjgl-tinyfd:3.2.2
-- org.lwjgl:lwjgl:3.2.1
-- org.lwjgl:lwjgl:3.2.1
-- org.lwjgl:lwjgl:3.2.2
-- org.lwjgl:lwjgl:3.2.2
-+ org.lwjgl:lwjgl-glfw:3.3.1
-+ org.lwjgl:lwjgl-glfw:3.3.1
-+ org.lwjgl:lwjgl-jemalloc:3.3.1
-+ org.lwjgl:lwjgl-jemalloc:3.3.1
-+ org.lwjgl:lwjgl-openal:3.3.1
-+ org.lwjgl:lwjgl-openal:3.3.1
-+ org.lwjgl:lwjgl-opengl:3.3.1
-+ org.lwjgl:lwjgl-opengl:3.3.1
-+ org.lwjgl:lwjgl-stb:3.3.1
-+ org.lwjgl:lwjgl-stb:3.3.1
-+ org.lwjgl:lwjgl-tinyfd:3.3.1
-+ org.lwjgl:lwjgl-tinyfd:3.3.1
-+ org.lwjgl:lwjgl:3.3.1
-+ org.lwjgl:lwjgl:3.3.1
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode)
-- RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode,int)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
-
-```diff
-+ boolean hasStorage(int)
-+ void bind(int)
-- int name()
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$DrawState</summary>
-
-```diff
-+ int indexBufferEnd()
-+ int indexBufferStart()
-+ int vertexBufferEnd()
-+ int vertexBufferStart()
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.BufferUploader</summary>
-
-```diff
-+ VertexBuffer lastImmediateBuffer
-- int lastIndexBufferObject
-- int lastVertexArrayObject
-- int lastVertexBufferObject
-- VertexFormat lastFormat
-+ VertexBuffer bindImmediateBuffer(VertexFormat)
-+ VertexBuffer upload(BufferBuilder)
-+ void _drawWithShader(BufferBuilder)
-+ void bindImmediateBuffer(VertexBuffer)
-+ void draw(BufferBuilder)
-+ void drawWithShader(BufferBuilder)
-+ void invalidate()
-+ void lambda$drawWithShader$0(BufferBuilder)
-- void _end(VertexFormat$IndexType,int,boolean)
-- void _endInternal(BufferBuilder)
-- void end(BufferBuilder)
-- void invalidateElementArrayBufferBinding()
-- void lambda$end$0(BufferBuilder)
-- void updateVertexSetup(VertexFormat)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexBuffer</summary>
-
-```diff
-+ int vertexBufferId
-+ RenderSystem$AutoStorageIndexBuffer sequentialIndices
-- boolean sequentialIndices
-- int vertextBufferId
-+ boolean isInvalid()
-+ RenderSystem$AutoStorageIndexBuffer uploadIndexBuffer(ByteBuffer)
-+ VertexFormat uploadVertexBuffer(ByteBuffer)
-+ VertexFormat$IndexType getIndexType()
-+ void lambda$drawWithShader$2(ShaderInstance)
-+ void lambda$uploadLater$0(BufferBuilder)
-+ void lambda$uploadLater$1(Runnable)
-+ void runDeferredUpload(BufferBuilder)
-+ void upload(ByteBuffer)
-- int lambda$bind$3()
-- int lambda$bind$4()
-- int lambda$bind$5()
-- int lambda$unbind$12()
-- int lambda$unbind$13()
-- Integer lambda$bindVertexArray$9()
-- Integer lambda$unbindVertexArray$10()
-- void bindVertexArray()
-- void drawChunkLayer()
-- void lambda$drawWithShader$11(ShaderInstance)
-- void lambda$new$0(Integer)
-- void lambda$new$1(Integer)
-- void lambda$new$2(Integer)
-- void lambda$upload$6(BufferBuilder)
-- void lambda$uploadLater$7(BufferBuilder)
-- void lambda$uploadLater$8(Runnable)
-- void unbindVertexArray()
-- void upload_(BufferBuilder)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.vertex.VertexFormat</summary>
-
-```diff
-+ VertexBuffer immediateDrawVertexBuffer
-- int indexBufferObject
-- int vertexArrayObject
-- int vertexBufferObject
-+ VertexBuffer getImmediateDrawVertexBuffer()
-- int getOrCreateIndexBufferObject()
-- int getOrCreateVertexArrayObject()
-- int getOrCreateVertexBufferObject()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
-
-```diff
-+ Path iconFile
-- File iconFile
-+ boolean isSelectable()
-+ void lambda$editWorld$4(String,boolean)
-+ void lambda$recreateWorld$5(Path,boolean)
-+ void lambda$recreateWorld$6()
-- String lambda$doDeleteWorld$4()
-- String lambda$editWorld$5()
-- String lambda$editWorld$7()
-- void lambda$editWorld$6(String,boolean)
-- void lambda$recreateWorld$8(Path,boolean)
-- void lambda$recreateWorld$9()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.AllayModel</summary>
-
-```diff
-+ float FLYING_ANIMATION_X_ROT
-+ float MAX_HAND_HOLDING_ITEM_X_ROT_RAD
-+ float MIN_HAND_HOLDING_ITEM_X_ROT_RAD
-- boolean isIdle(float)
-- void prepareMobModel(Allay,float,float,float)
-- void prepareMobModel(Entity,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-- void handleAddPainting(net.minecraft.network.protocol.game.ClientboundAddPaintingPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ boolean isChunkDataValid(CompoundTag)
-+ boolean lambda$scheduleChunkLoad$16(CompoundTag)
-+ ChunkAccess createEmptyChunk(ChunkPos)
-+ ChunkAccess lambda$protoChunkToFullChunk$32(ChunkAccess)
-+ ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$31(ChunkHolder)
-+ ChunkStatus lambda$prepareTickingChunk$35(int)
-+ ChunkStatus lambda$scheduleChunkGeneration$20(ChunkStatus,int)
-+ CompletableFuture lambda$scheduleChunkGeneration$23(ChunkAccess)
-+ CompletableFuture lambda$scheduleChunkGeneration$25(List)
-+ CompletableFuture lambda$scheduleChunkGeneration$26(ChunkHolder$ChunkLoadingFailure)
-+ CompletableFuture readChunk(ChunkPos)
-+ CompletionStage lambda$scheduleChunkGeneration$27(Either)
-+ CompoundTag upgradeChunkTag(CompoundTag)
-+ Either handleChunkLoadFailure(ChunkPos)
-+ Either lambda$prepareAccessibleChunk$46(Either)
-+ Either lambda$prepareTickingChunk$40(Either)
-+ Either lambda$protoChunkToFullChunk$33(Either)
-+ Either lambda$scheduleChunkLoad$18(Optional)
-+ Either lambda$scheduleChunkLoad$19(Throwable)
-+ Integer lambda$dumpChunks$50(LevelChunk)
-+ Integer lambda$dumpChunks$51(LevelChunk)
-+ Integer lambda$dumpChunks$52(LevelChunk)
-+ LevelChunk lambda$prepareAccessibleChunk$45(List)
-+ LevelChunk lambda$prepareTickingChunk$36(List)
-+ Optional lambda$dumpChunks$49(ChunkAccess)
-+ Optional lambda$readChunk$55(Optional)
-+ Optional lambda$scheduleChunkLoad$17(Optional)
-+ String lambda$printFuture$53(LevelChunk)
-+ String lambda$printFuture$54(ChunkHolder$ChunkLoadingFailure)
-+ String lambda$releaseLightTicket$29(ChunkPos)
-+ String lambda$scheduleChunkGeneration$21(ChunkStatus)
-+ void lambda$prepareAccessibleChunk$47(Runnable)
-+ void lambda$prepareTickingChunk$38(Runnable)
-+ void lambda$prepareTickingChunk$39(LevelChunk)
-+ void lambda$prepareTickingChunk$41(ServerPlayer)
-+ void lambda$prepareTickingChunk$42(LevelChunk)
-+ void lambda$prepareTickingChunk$43(Either)
-+ void lambda$prepareTickingChunk$44(Runnable)
-+ void lambda$protoChunkToFullChunk$30(LevelChunk)
-+ void lambda$protoChunkToFullChunk$34(Runnable)
-+ void lambda$releaseLightTicket$28(ChunkPos)
-+ void lambda$scheduleChunkGeneration$22(Runnable)
-+ void lambda$scheduleChunkGeneration$24(CrashReport)
-+ void lambda$setViewDistance$48(ServerPlayer)
-- ChunkAccess lambda$protoChunkToFullChunk$29(ChunkAccess)
-- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$28(ChunkHolder)
-- ChunkStatus lambda$prepareTickingChunk$32(int)
-- ChunkStatus lambda$scheduleChunkGeneration$17(ChunkStatus,int)
-- CompletableFuture lambda$scheduleChunkGeneration$20(ChunkAccess)
-- CompletableFuture lambda$scheduleChunkGeneration$22(List)
-- CompletableFuture lambda$scheduleChunkGeneration$23(ChunkHolder$ChunkLoadingFailure)
-- CompletionStage lambda$scheduleChunkGeneration$24(Either)
-- CompoundTag readChunk(ChunkPos)
-- Either lambda$prepareAccessibleChunk$43(Either)
-- Either lambda$prepareTickingChunk$34(Either)
-- Either lambda$protoChunkToFullChunk$30(Either)
-- Either lambda$scheduleChunkLoad$16(ChunkPos)
-- Integer lambda$dumpChunks$47(LevelChunk)
-- Integer lambda$dumpChunks$48(LevelChunk)
-- Integer lambda$dumpChunks$49(LevelChunk)
-- LevelChunk lambda$prepareAccessibleChunk$42(List)
-- LevelChunk lambda$prepareTickingChunk$33(List)
-- Optional lambda$dumpChunks$46(ChunkAccess)
-- String lambda$printFuture$50(LevelChunk)
-- String lambda$printFuture$51(ChunkHolder$ChunkLoadingFailure)
-- String lambda$releaseLightTicket$26(ChunkPos)
-- String lambda$scheduleChunkGeneration$18(ChunkStatus)
-- void lambda$prepareAccessibleChunk$44(Runnable)
-- void lambda$prepareTickingChunk$35(Runnable)
-- void lambda$prepareTickingChunk$36(LevelChunk)
-- void lambda$prepareTickingChunk$38(ServerPlayer)
-- void lambda$prepareTickingChunk$39(LevelChunk)
-- void lambda$prepareTickingChunk$40(Either)
-- void lambda$prepareTickingChunk$41(Runnable)
-- void lambda$protoChunkToFullChunk$27(LevelChunk)
-- void lambda$protoChunkToFullChunk$31(Runnable)
-- void lambda$releaseLightTicket$25(ChunkPos)
-- void lambda$scheduleChunkGeneration$19(Runnable)
-- void lambda$scheduleChunkGeneration$21(CrashReport)
-- void lambda$setViewDistance$45(ServerPlayer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey FROGS_SPAWNABLE_ON
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ VecDeltaCodec packetPositionCodec
-- Vec3 packetCoordinates
-+ Vec3 trackingPosition()
-+ VecDeltaCodec getPositionCodec()
-+ void syncPacketPositionCodec(double,double,double)
-- Vec3 getPacketCoordinates()
-- void setPacketCoordinates(double,double,double)
-- void setPacketCoordinates(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ int PRESERVE_ITEM_DROP_CHANCE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StayCloseToTarget</summary>
-
-```diff
-+ int tooFar
-+ void <init>(Function,int,int,float)
-- void <init>(Function,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.Frog$FrogPathNavigation</summary>
-
-```diff
-- boolean canUpdatePath()
-- boolean isStableDestination(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.EntityStorage</summary>
-
-```diff
-+ ChunkEntities lambda$loadEntities$0(Optional)
-- ChunkEntities lambda$loadEntities$0(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ boolean doesBlockHavePartialCollision(BlockPathTypes)
-+ Node getStartNode(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelResource</summary>
-
-```diff
-+ LevelResource ICON_FILE
-+ LevelResource LOCK_FILE
-+ LevelResource OLD_LEVEL_DATA_FILE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
-
-```diff
-- String ICON_FILENAME
-+ BiFunction levelSummaryReader(LevelStorageSource$LevelDirectory,boolean)
-+ boolean lambda$findLevelCandidates$1(Path)
-+ boolean lambda$findLevelCandidates$2(LevelStorageSource$LevelDirectory)
-+ CompletableFuture loadLevelSummaries(LevelStorageSource$LevelCandidates)
-+ DataPackConfig getDataPacks(DataFixer)
-+ LevelStorageSource$LevelCandidates findLevelCandidates()
-+ LevelSummary lambda$levelSummaryReader$5(DataFixer)
-+ LevelSummary lambda$loadLevelSummaries$3(LevelStorageSource$LevelDirectory)
-+ Object readLevelData(BiFunction)
-+ PrimaryLevelData lambda$getLevelData$4(DataFixer)
-+ Tag readLightweightData(Path)
-- BiFunction levelSummaryReader(File,boolean)
-- DataPackConfig getDataPacks(DataFixer)
-- LevelSummary lambda$levelSummaryReader$2(DataFixer)
-- List getLevelList()
-- Object readLevelData(BiFunction)
-- PrimaryLevelData lambda$getLevelData$1(DataFixer)
-- Tag readLightweightData(File)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
-
-```diff
-+ Path icon
-- File icon
-+ Path getIcon()
-+ void <init>(Path)
-- File getIcon()
-- void <init>(File)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.components.EditBox
@@ -4939,1028 +2168,323 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
 ```diff
-+ CompletableFuture fallibleSequence(Consumer)
-+ CompletableFuture sequenceFailFastAndCancel(List)
-+ List lambda$fallibleSequence$12(Void)
-+ String lambda$sanitizeName$14(CharPredicate,int)
-+ void lambda$fallibleSequence$10(Throwable)
-+ void lambda$fallibleSequence$11(CompletableFuture)
-+ void lambda$prefix$13(String)
-+ void lambda$sequenceFailFastAndCancel$9(Throwable)
-- List lambda$sequenceFailFast$11(Void)
-- String lambda$sanitizeName$13(CharPredicate,int)
-- void lambda$prefix$12(String)
-- void lambda$sequenceFailFast$10(CompletableFuture)
-- void lambda$sequenceFailFast$9(Throwable)
+- RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode,int)
++ RenderSystem$AutoStorageIndexBuffer getSequentialBuffer(VertexFormat$Mode)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>com.mojang.blaze3d.systems.RenderSystem$AutoStorageIndexBuffer</summary>
 
 ```diff
-+ DefaultedRegistry PAINTING_VARIANT
-+ ResourceKey PAINTING_VARIANT_REGISTRY
-- DefaultedRegistry MOTIVE
-- ResourceKey MOTIVE_REGISTRY
-+ Activity lambda$static$27(Registry)
-+ Attribute lambda$static$18(Registry)
-+ BlockPredicateType lambda$static$37(Registry)
-+ BlockStateProviderType lambda$static$44(Registry)
-+ CatVariant lambda$static$54(Registry)
-+ ChunkStatus lambda$static$12(Registry)
-+ Codec lambda$static$50(Registry)
-+ DataResult lambda$byNameCodec$60(ResourceLocation)
-+ DataResult lambda$byNameCodec$62(Object)
-+ DataResult lambda$holderByNameCodec$66(ResourceLocation)
-+ DataResult lambda$holderByNameCodec$68(Holder)
-+ Feature lambda$static$39(Registry)
-+ FeatureSizeType lambda$static$49(Registry)
-+ FloatProviderType lambda$static$34(Registry)
-+ FoliagePlacerType lambda$static$45(Registry)
-+ FrogVariant lambda$static$55(Registry)
-+ HeightProviderType lambda$static$36(Registry)
-+ IllegalStateException lambda$getHolderOrThrow$73(ResourceKey)
-+ int lambda$byNameCodec$64(Object)
-+ IntProviderType lambda$static$35(Registry)
-+ Lifecycle lambda$byNameCodec$65(Object)
-+ Lifecycle lambda$holderByNameCodec$70(Holder)
-+ LootItemConditionType lambda$static$30(Registry)
-+ LootItemFunctionType lambda$static$29(Registry)
-+ LootNbtProviderType lambda$static$32(Registry)
-+ LootNumberProviderType lambda$static$31(Registry)
-+ LootPoolEntryType lambda$static$28(Registry)
-+ LootScoreProviderType lambda$static$33(Registry)
-+ MemoryModuleType lambda$static$24(Registry)
-+ MenuType lambda$static$15(Registry)
-+ Object lambda$internalRegister$58(WritableRegistry)
-+ Object lambda$keys$72(ResourceLocation)
-+ PlacementModifierType lambda$static$43(Registry)
-+ PoiType lambda$static$23(Registry)
-+ PositionSourceType lambda$static$19(Registry)
-+ PosRuleTestType lambda$static$14(Registry)
-+ RecipeSerializer lambda$static$17(Registry)
-+ RecipeType lambda$static$16(Registry)
-+ ResourceLocation lambda$static$11(Registry)
-+ RootPlacerType lambda$static$47(Registry)
-+ RuleTestType lambda$static$13(Registry)
-+ Schedule lambda$static$26(Registry)
-+ SensorType lambda$static$25(Registry)
-+ StatType lambda$static$20(Registry)
-+ String lambda$new$59(ResourceKey)
-+ StructurePieceType lambda$static$41(Registry)
-+ StructurePlacementType lambda$static$40(Registry)
-+ StructurePoolElementType lambda$static$53(Registry)
-+ StructureProcessorType lambda$static$52(Registry)
-+ StructureType lambda$static$42(Registry)
-+ TreeDecoratorType lambda$static$48(Registry)
-+ TrunkPlacerType lambda$static$46(Registry)
-+ VillagerProfession lambda$static$22(Registry)
-+ VillagerType lambda$static$21(Registry)
-+ void lambda$checkRegistry$57(Registry)
-+ void lambda$static$56(Supplier)
-+ WorldCarver lambda$static$38(Registry)
-- Activity lambda$static$28(Registry)
-- Attribute lambda$static$19(Registry)
-- BlockPredicateType lambda$static$38(Registry)
-- BlockStateProviderType lambda$static$45(Registry)
-- CatVariant lambda$static$55(Registry)
-- ChunkStatus lambda$static$13(Registry)
-- Codec lambda$static$52(Registry)
-- DataResult lambda$byNameCodec$62(ResourceLocation)
-- DataResult lambda$byNameCodec$64(Object)
-- DataResult lambda$holderByNameCodec$68(ResourceLocation)
-- DataResult lambda$holderByNameCodec$70(Holder)
-- Feature lambda$static$40(Registry)
-- FeatureSizeType lambda$static$50(Registry)
-- FloatProviderType lambda$static$35(Registry)
-- FoliagePlacerType lambda$static$46(Registry)
-- FrogVariant lambda$static$56(Registry)
-- HeightProviderType lambda$static$37(Registry)
-- IllegalStateException lambda$getHolderOrThrow$74(ResourceKey)
-- int lambda$byNameCodec$65(Object)
-- IntProviderType lambda$static$36(Registry)
-- Lifecycle lambda$byNameCodec$66(Object)
-- Lifecycle lambda$holderByNameCodec$72(Holder)
-- LootItemConditionType lambda$static$31(Registry)
-- LootItemFunctionType lambda$static$30(Registry)
-- LootNbtProviderType lambda$static$33(Registry)
-- LootNumberProviderType lambda$static$32(Registry)
-- LootPoolEntryType lambda$static$29(Registry)
-- LootScoreProviderType lambda$static$34(Registry)
-- MemoryModuleType lambda$static$25(Registry)
-- MenuType lambda$static$16(Registry)
-- Motive lambda$static$11(Registry)
-- Object lambda$internalRegister$59(WritableRegistry)
-- Object lambda$keys$73(ResourceLocation)
-- PlacementModifierType lambda$static$44(Registry)
-- PoiType lambda$static$24(Registry)
-- PositionSourceType lambda$static$20(Registry)
-- PosRuleTestType lambda$static$15(Registry)
-- RecipeSerializer lambda$static$18(Registry)
-- RecipeType lambda$static$17(Registry)
-- ResourceLocation lambda$static$12(Registry)
-- RootPlacerType lambda$static$48(Registry)
-- RuleTestType lambda$static$14(Registry)
-- Schedule lambda$static$27(Registry)
-- SensorType lambda$static$26(Registry)
-- StatType lambda$static$21(Registry)
-- String lambda$new$60(ResourceKey)
-- StructurePieceType lambda$static$42(Registry)
-- StructurePlacementType lambda$static$41(Registry)
-- StructurePoolElementType lambda$static$54(Registry)
-- StructureProcessorType lambda$static$53(Registry)
-- StructureType lambda$static$43(Registry)
-- TreeDecoratorType lambda$static$49(Registry)
-- TrunkPlacerType lambda$static$47(Registry)
-- VillagerProfession lambda$static$23(Registry)
-- VillagerType lambda$static$22(Registry)
-- void lambda$checkRegistry$58(Registry)
-- void lambda$static$57(Supplier)
-- WorldCarver lambda$static$39(Registry)
++ boolean hasStorage(int)
+- int name()
++ void bind(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferBuilder$DrawState</summary>
 
 ```diff
-+ ComponentContents getContents()
-- MutableComponent copy()
-- MutableComponent plainCopy()
-- String getContents()
-+ MutableComponent copy()
-+ MutableComponent empty()
-+ MutableComponent keybind(String)
-+ MutableComponent literal(String)
-+ MutableComponent nbt(DataSource)
-+ MutableComponent plainCopy()
-+ MutableComponent score(String)
-+ MutableComponent selector(Optional)
-+ MutableComponent translatable(Object[])
-+ MutableComponent translatable(String)
-- Optional visitSelf(FormattedText$ContentConsumer)
-- Optional visitSelf(Style)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
-
-```diff
-+ boolean isTranslationResolvable(Component)
-+ Component replaceTranslatableKey(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.MutableComponent</summary>
-
-```diff
-+ ComponentContents contents
-+ FormattedCharSequence visualOrderText
-+ Language decomposedWith
-+ List siblings
-+ Style style
-- MutableComponent append(net.minecraft.network.chat.Component)
-- MutableComponent setStyle(net.minecraft.network.chat.Style)
-+ boolean equals(Object)
-+ ComponentContents getContents()
-+ FormattedCharSequence getVisualOrderText()
-+ int hashCode()
-+ List getSiblings()
-+ MutableComponent append(Component)
-+ MutableComponent create(ComponentContents)
-+ MutableComponent setStyle(Style)
-+ String toString()
-+ Style getStyle()
-+ void <init>(Style)
++ int indexBufferEnd()
++ int indexBufferStart()
++ int vertexBufferEnd()
++ int vertexBufferStart()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.RandomSource</summary>
+<details><summary>com.mojang.blaze3d.vertex.BufferUploader</summary>
 
 ```diff
-+ double GAUSSIAN_SPREAD_FACTOR
-+ double triangle(double,double)
++ VertexBuffer bindImmediateBuffer(VertexFormat)
++ VertexBuffer upload(BufferBuilder)
++ void _drawWithShader(BufferBuilder)
+- void _end(ByteBuffer,VertexFormat$Mode,VertexFormat,int,VertexFormat$IndexType,int,boolean)
+- void _endInternal(BufferBuilder)
++ void bindImmediateBuffer(VertexBuffer)
++ void draw(BufferBuilder)
++ void drawWithShader(BufferBuilder)
+- void end(BufferBuilder)
++ void invalidate()
+- void invalidateElementArrayBufferBinding()
++ void lambda$drawWithShader$0(BufferBuilder)
+- void lambda$end$0(BufferBuilder)
+- void updateVertexSetup(VertexFormat)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Turtle$TurtlePathNavigation</summary>
+<details><summary>com.mojang.blaze3d.vertex.VertexBuffer</summary>
+
+```diff
++ boolean isInvalid()
+- int lambda$bind$3()
+- int lambda$bind$4()
+- int lambda$bind$5()
+- int lambda$unbind$12()
+- int lambda$unbind$13()
+- Integer lambda$bindVertexArray$9()
+- Integer lambda$unbindVertexArray$10()
++ RenderSystem$AutoStorageIndexBuffer uploadIndexBuffer(BufferBuilder$DrawState,ByteBuffer)
++ VertexFormat uploadVertexBuffer(BufferBuilder$DrawState,ByteBuffer)
++ VertexFormat$IndexType getIndexType()
+- void bindVertexArray()
+- void drawChunkLayer()
+- void lambda$drawWithShader$11(Matrix4f,Matrix4f,ShaderInstance)
++ void lambda$drawWithShader$2(Matrix4f,Matrix4f,ShaderInstance)
+- void lambda$new$0(Integer)
+- void lambda$new$1(Integer)
+- void lambda$new$2(Integer)
+- void lambda$upload$6(BufferBuilder)
++ void lambda$uploadLater$0(BufferBuilder)
++ void lambda$uploadLater$1(Runnable)
+- void lambda$uploadLater$7(BufferBuilder)
+- void lambda$uploadLater$8(Runnable)
++ void runDeferredUpload(BufferBuilder)
+- void unbindVertexArray()
+- void upload_(BufferBuilder)
++ void upload(BufferBuilder$DrawState,ByteBuffer)
+```
+
+</details>
+
+
+<details><summary>com.mojang.blaze3d.vertex.VertexFormat</summary>
+
+```diff
+- int getOrCreateIndexBufferObject()
+- int getOrCreateVertexArrayObject()
+- int getOrCreateVertexBufferObject()
++ VertexBuffer getImmediateDrawVertexBuffer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry</summary>
+
+```diff
++ boolean isSelectable()
+- String lambda$doDeleteWorld$4()
+- String lambda$editWorld$5()
+- String lambda$editWorld$7()
++ void lambda$editWorld$4(LevelStorageSource$LevelStorageAccess,String,boolean)
+- void lambda$editWorld$6(LevelStorageSource$LevelStorageAccess,String,boolean)
++ void lambda$recreateWorld$5(WorldStem,Path,boolean)
++ void lambda$recreateWorld$6()
+- void lambda$recreateWorld$8(WorldStem,Path,boolean)
+- void lambda$recreateWorld$9()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.AllayModel</summary>
+
+```diff
+- boolean isIdle(float)
+- void prepareMobModel(Allay,float,float,float)
+- void prepareMobModel(Entity,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ boolean isChunkDataValid(CompoundTag)
++ boolean lambda$scheduleChunkLoad$16(ChunkPos,CompoundTag)
++ ChunkAccess createEmptyChunk(ChunkPos)
+- ChunkAccess lambda$protoChunkToFullChunk$29(ChunkHolder,ChunkAccess)
++ ChunkAccess lambda$protoChunkToFullChunk$32(ChunkHolder,ChunkAccess)
+- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$28(ChunkHolder)
++ ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$31(ChunkHolder)
+- ChunkStatus lambda$prepareTickingChunk$32(int)
++ ChunkStatus lambda$prepareTickingChunk$35(int)
+- ChunkStatus lambda$scheduleChunkGeneration$17(ChunkStatus,int)
++ ChunkStatus lambda$scheduleChunkGeneration$20(ChunkStatus,int)
+- CompletableFuture lambda$scheduleChunkGeneration$20(ChunkHolder,ChunkAccess)
+- CompletableFuture lambda$scheduleChunkGeneration$22(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)
++ CompletableFuture lambda$scheduleChunkGeneration$23(ChunkHolder,ChunkAccess)
+- CompletableFuture lambda$scheduleChunkGeneration$23(ChunkPos,ChunkHolder$ChunkLoadingFailure)
++ CompletableFuture lambda$scheduleChunkGeneration$25(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)
++ CompletableFuture lambda$scheduleChunkGeneration$26(ChunkPos,ChunkHolder$ChunkLoadingFailure)
++ CompletableFuture readChunk(ChunkPos)
+- CompletionStage lambda$scheduleChunkGeneration$24(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)
++ CompletionStage lambda$scheduleChunkGeneration$27(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)
+- CompoundTag readChunk(ChunkPos)
++ CompoundTag upgradeChunkTag(CompoundTag)
++ Either handleChunkLoadFailure(Throwable,ChunkPos)
+- Either lambda$prepareAccessibleChunk$43(Either)
++ Either lambda$prepareAccessibleChunk$46(Either)
+- Either lambda$prepareTickingChunk$34(Either)
++ Either lambda$prepareTickingChunk$40(Either)
+- Either lambda$protoChunkToFullChunk$30(ChunkHolder,Either)
++ Either lambda$protoChunkToFullChunk$33(ChunkHolder,Either)
+- Either lambda$scheduleChunkLoad$16(ChunkPos)
++ Either lambda$scheduleChunkLoad$18(ChunkPos,Optional)
++ Either lambda$scheduleChunkLoad$19(ChunkPos,Throwable)
+- Integer lambda$dumpChunks$47(LevelChunk)
+- Integer lambda$dumpChunks$48(LevelChunk)
+- Integer lambda$dumpChunks$49(LevelChunk)
++ Integer lambda$dumpChunks$50(LevelChunk)
++ Integer lambda$dumpChunks$51(LevelChunk)
++ Integer lambda$dumpChunks$52(LevelChunk)
+- LevelChunk lambda$prepareAccessibleChunk$42(List)
++ LevelChunk lambda$prepareAccessibleChunk$45(List)
+- LevelChunk lambda$prepareTickingChunk$33(List)
++ LevelChunk lambda$prepareTickingChunk$36(List)
+- Optional lambda$dumpChunks$46(ChunkAccess)
++ Optional lambda$dumpChunks$49(ChunkAccess)
++ Optional lambda$readChunk$55(Optional)
++ Optional lambda$scheduleChunkLoad$17(ChunkPos,Optional)
+- String lambda$printFuture$50(LevelChunk)
+- String lambda$printFuture$51(ChunkHolder$ChunkLoadingFailure)
++ String lambda$printFuture$53(LevelChunk)
++ String lambda$printFuture$54(ChunkHolder$ChunkLoadingFailure)
+- String lambda$releaseLightTicket$26(ChunkPos)
++ String lambda$releaseLightTicket$29(ChunkPos)
+- String lambda$scheduleChunkGeneration$18(ChunkStatus)
++ String lambda$scheduleChunkGeneration$21(ChunkStatus)
+- void lambda$prepareAccessibleChunk$44(ChunkHolder,Runnable)
++ void lambda$prepareAccessibleChunk$47(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$35(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$36(LevelChunk)
++ void lambda$prepareTickingChunk$38(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$38(MutableObject,LevelChunk,ServerPlayer)
+- void lambda$prepareTickingChunk$39(ChunkPos,LevelChunk)
++ void lambda$prepareTickingChunk$39(LevelChunk)
+- void lambda$prepareTickingChunk$40(ChunkPos,Either)
+- void lambda$prepareTickingChunk$41(ChunkHolder,Runnable)
++ void lambda$prepareTickingChunk$41(MutableObject,LevelChunk,ServerPlayer)
++ void lambda$prepareTickingChunk$42(ChunkPos,LevelChunk)
++ void lambda$prepareTickingChunk$43(ChunkPos,Either)
++ void lambda$prepareTickingChunk$44(ChunkHolder,Runnable)
+- void lambda$protoChunkToFullChunk$27(ProtoChunk,LevelChunk)
++ void lambda$protoChunkToFullChunk$30(ProtoChunk,LevelChunk)
+- void lambda$protoChunkToFullChunk$31(ChunkHolder,Runnable)
++ void lambda$protoChunkToFullChunk$34(ChunkHolder,Runnable)
+- void lambda$releaseLightTicket$25(ChunkPos)
++ void lambda$releaseLightTicket$28(ChunkPos)
+- void lambda$scheduleChunkGeneration$19(ChunkHolder,Runnable)
+- void lambda$scheduleChunkGeneration$21(CrashReport)
++ void lambda$scheduleChunkGeneration$22(ChunkHolder,Runnable)
++ void lambda$scheduleChunkGeneration$24(CrashReport)
+- void lambda$setViewDistance$45(ChunkPos,int,MutableObject,ServerPlayer)
++ void lambda$setViewDistance$48(ChunkPos,int,MutableObject,ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- Vec3 getPacketCoordinates()
++ Vec3 trackingPosition()
++ VecDeltaCodec getPositionCodec()
+- void setPacketCoordinates(double,double,double)
+- void setPacketCoordinates(Vec3)
++ void syncPacketPositionCodec(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StayCloseToTarget</summary>
+
+```diff
+- void <init>(Function,int,float)
++ void <init>(Function,int,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.frog.Frog$FrogPathNavigation</summary>
 
 ```diff
 - boolean canUpdatePath()
-- PathFinder createPathFinder(int)
+- boolean isStableDestination(BlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
+<details><summary>net.minecraft.world.level.chunk.storage.EntityStorage</summary>
 
 ```diff
-+ int CLOSE_ENOUGH_TO_TARGET
-+ int DISTANCE_TO_WANDER_ITEM
-+ int TOO_FAR_FROM_TARGET
-- int MAX_DISTANCE_FOLLOW_TARGET
+- ChunkEntities lambda$loadEntities$0(ChunkPos,CompoundTag)
++ ChunkEntities lambda$loadEntities$0(ChunkPos,Optional)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
 
 ```diff
-+ EntityDataAccessor DATA_PAINTING_VARIANT_ID
-+ ResourceKey DEFAULT_VARIANT
-- Motive motive
-+ boolean lambda$create$0(Holder)
-+ boolean lambda$create$1(Holder)
-+ Holder getDefaultVariant()
-+ Holder getVariant()
-+ int variantArea(Holder)
-+ Optional create(Direction)
-+ Vec3 trackingPosition()
-+ void <clinit>()
-+ void <init>(BlockPos)
-+ void <init>(Holder)
-+ void defineSynchedData()
-+ void onSyncedDataUpdated(EntityDataAccessor)
-+ void recreateFromPacket(ClientboundAddEntityPacket)
-+ void setVariant(Holder)
-- void <init>(Direction)
-- void <init>(Motive)
++ boolean doesBlockHavePartialCollision(BlockPathTypes)
++ Node getStartNode(BlockPos)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
 
+```diff
+- BiFunction levelSummaryReader(File,boolean)
++ BiFunction levelSummaryReader(LevelStorageSource$LevelDirectory,boolean)
++ boolean lambda$findLevelCandidates$1(Path)
++ boolean lambda$findLevelCandidates$2(LevelStorageSource$LevelDirectory)
++ CompletableFuture loadLevelSummaries(LevelStorageSource$LevelCandidates)
+- DataPackConfig getDataPacks(File,DataFixer)
++ DataPackConfig getDataPacks(Path,DataFixer)
++ LevelStorageSource$LevelCandidates findLevelCandidates()
+- LevelSummary lambda$levelSummaryReader$2(File,boolean,File,DataFixer)
++ LevelSummary lambda$levelSummaryReader$5(LevelStorageSource$LevelDirectory,boolean,Path,DataFixer)
++ LevelSummary lambda$loadLevelSummaries$3(LevelStorageSource$LevelDirectory)
+- List getLevelList()
+- Object readLevelData(File,BiFunction)
++ Object readLevelData(LevelStorageSource$LevelDirectory,BiFunction)
+- PrimaryLevelData lambda$getLevelData$1(DynamicOps,DataPackConfig,Lifecycle,File,DataFixer)
++ PrimaryLevelData lambda$getLevelData$4(DynamicOps,DataPackConfig,Lifecycle,Path,DataFixer)
+- Tag readLightweightData(File)
++ Tag readLightweightData(Path)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
 
+```diff
+- File getIcon()
++ Path getIcon()
+- void <init>(LevelSettings,LevelVersion,String,boolean,boolean,File)
++ void <init>(LevelSettings,LevelVersion,String,boolean,boolean,Path)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.tags.package-info
@@ -9350,13 +5874,471 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ CompletableFuture fallibleSequence(List,Consumer)
++ CompletableFuture sequenceFailFastAndCancel(List)
++ List lambda$fallibleSequence$12(List,Void)
+- List lambda$sequenceFailFast$11(List,Void)
+- String lambda$sanitizeName$13(CharPredicate,int)
++ String lambda$sanitizeName$14(CharPredicate,int)
++ void lambda$fallibleSequence$10(Consumer,List,int,Object,Throwable)
++ void lambda$fallibleSequence$11(List,CompletableFuture[],Consumer,CompletableFuture)
+- void lambda$prefix$12(Consumer,String,String)
++ void lambda$prefix$13(Consumer,String,String)
+- void lambda$sequenceFailFast$10(List,CompletableFuture[],CompletableFuture,CompletableFuture)
+- void lambda$sequenceFailFast$9(CompletableFuture,List,int,Object,Throwable)
++ void lambda$sequenceFailFastAndCancel$9(List,CompletableFuture,Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
++ Activity lambda$static$27(Registry)
+- Activity lambda$static$28(Registry)
++ Attribute lambda$static$18(Registry)
+- Attribute lambda$static$19(Registry)
++ BlockPredicateType lambda$static$37(Registry)
+- BlockPredicateType lambda$static$38(Registry)
++ BlockStateProviderType lambda$static$44(Registry)
+- BlockStateProviderType lambda$static$45(Registry)
++ CatVariant lambda$static$54(Registry)
+- CatVariant lambda$static$55(Registry)
++ ChunkStatus lambda$static$12(Registry)
+- ChunkStatus lambda$static$13(Registry)
++ Codec lambda$static$50(Registry)
+- Codec lambda$static$52(Registry)
++ DataResult lambda$byNameCodec$60(ResourceLocation)
++ DataResult lambda$byNameCodec$62(Object)
+- DataResult lambda$byNameCodec$62(ResourceLocation)
+- DataResult lambda$byNameCodec$64(Object)
++ DataResult lambda$holderByNameCodec$66(ResourceLocation)
++ DataResult lambda$holderByNameCodec$68(Holder)
+- DataResult lambda$holderByNameCodec$68(ResourceLocation)
+- DataResult lambda$holderByNameCodec$70(Holder)
++ Feature lambda$static$39(Registry)
+- Feature lambda$static$40(Registry)
++ FeatureSizeType lambda$static$49(Registry)
+- FeatureSizeType lambda$static$50(Registry)
++ FloatProviderType lambda$static$34(Registry)
+- FloatProviderType lambda$static$35(Registry)
++ FoliagePlacerType lambda$static$45(Registry)
+- FoliagePlacerType lambda$static$46(Registry)
++ FrogVariant lambda$static$55(Registry)
+- FrogVariant lambda$static$56(Registry)
++ HeightProviderType lambda$static$36(Registry)
+- HeightProviderType lambda$static$37(Registry)
++ IllegalStateException lambda$getHolderOrThrow$73(ResourceKey)
+- IllegalStateException lambda$getHolderOrThrow$74(ResourceKey)
++ int lambda$byNameCodec$64(Object)
+- int lambda$byNameCodec$65(Object)
++ IntProviderType lambda$static$35(Registry)
+- IntProviderType lambda$static$36(Registry)
++ Lifecycle lambda$byNameCodec$65(Object)
+- Lifecycle lambda$byNameCodec$66(Object)
++ Lifecycle lambda$holderByNameCodec$70(Holder)
+- Lifecycle lambda$holderByNameCodec$72(Holder)
++ LootItemConditionType lambda$static$30(Registry)
+- LootItemConditionType lambda$static$31(Registry)
++ LootItemFunctionType lambda$static$29(Registry)
+- LootItemFunctionType lambda$static$30(Registry)
++ LootNbtProviderType lambda$static$32(Registry)
+- LootNbtProviderType lambda$static$33(Registry)
++ LootNumberProviderType lambda$static$31(Registry)
+- LootNumberProviderType lambda$static$32(Registry)
++ LootPoolEntryType lambda$static$28(Registry)
+- LootPoolEntryType lambda$static$29(Registry)
++ LootScoreProviderType lambda$static$33(Registry)
+- LootScoreProviderType lambda$static$34(Registry)
++ MemoryModuleType lambda$static$24(Registry)
+- MemoryModuleType lambda$static$25(Registry)
++ MenuType lambda$static$15(Registry)
+- MenuType lambda$static$16(Registry)
+- Motive lambda$static$11(Registry)
++ Object lambda$internalRegister$58(Registry$RegistryBootstrap,WritableRegistry)
+- Object lambda$internalRegister$59(Registry$RegistryBootstrap,WritableRegistry)
++ Object lambda$keys$72(DynamicOps,ResourceLocation)
+- Object lambda$keys$73(DynamicOps,ResourceLocation)
++ PlacementModifierType lambda$static$43(Registry)
+- PlacementModifierType lambda$static$44(Registry)
++ PoiType lambda$static$23(Registry)
+- PoiType lambda$static$24(Registry)
++ PositionSourceType lambda$static$19(Registry)
+- PositionSourceType lambda$static$20(Registry)
++ PosRuleTestType lambda$static$14(Registry)
+- PosRuleTestType lambda$static$15(Registry)
++ RecipeSerializer lambda$static$17(Registry)
+- RecipeSerializer lambda$static$18(Registry)
++ RecipeType lambda$static$16(Registry)
+- RecipeType lambda$static$17(Registry)
++ ResourceLocation lambda$static$11(Registry)
+- ResourceLocation lambda$static$12(Registry)
++ RootPlacerType lambda$static$47(Registry)
+- RootPlacerType lambda$static$48(Registry)
++ RuleTestType lambda$static$13(Registry)
+- RuleTestType lambda$static$14(Registry)
++ Schedule lambda$static$26(Registry)
+- Schedule lambda$static$27(Registry)
++ SensorType lambda$static$25(Registry)
+- SensorType lambda$static$26(Registry)
++ StatType lambda$static$20(Registry)
+- StatType lambda$static$21(Registry)
++ String lambda$new$59(ResourceKey)
+- String lambda$new$60(ResourceKey)
++ StructurePieceType lambda$static$41(Registry)
+- StructurePieceType lambda$static$42(Registry)
++ StructurePlacementType lambda$static$40(Registry)
+- StructurePlacementType lambda$static$41(Registry)
++ StructurePoolElementType lambda$static$53(Registry)
+- StructurePoolElementType lambda$static$54(Registry)
++ StructureProcessorType lambda$static$52(Registry)
+- StructureProcessorType lambda$static$53(Registry)
++ StructureType lambda$static$42(Registry)
+- StructureType lambda$static$43(Registry)
++ TreeDecoratorType lambda$static$48(Registry)
+- TreeDecoratorType lambda$static$49(Registry)
++ TrunkPlacerType lambda$static$46(Registry)
+- TrunkPlacerType lambda$static$47(Registry)
++ VillagerProfession lambda$static$22(Registry)
+- VillagerProfession lambda$static$23(Registry)
++ VillagerType lambda$static$21(Registry)
+- VillagerType lambda$static$22(Registry)
++ void lambda$checkRegistry$57(Registry,Registry)
+- void lambda$checkRegistry$58(Registry,Registry)
++ void lambda$static$56(ResourceLocation,Supplier)
+- void lambda$static$57(ResourceLocation,Supplier)
++ WorldCarver lambda$static$38(Registry)
+- WorldCarver lambda$static$39(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Component</summary>
+
+```diff
++ MutableComponent copy()
++ MutableComponent empty()
++ MutableComponent keybind(String)
++ MutableComponent literal(String)
++ MutableComponent nbt(String,boolean,Optional,DataSource)
++ MutableComponent plainCopy()
++ MutableComponent score(String,String)
++ MutableComponent selector(String,Optional)
++ MutableComponent translatable(String,Object[])
++ MutableComponent translatable(String)
+- Optional visitSelf(FormattedText$ContentConsumer)
+- Optional visitSelf(FormattedText$StyledContentConsumer,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
+
+```diff
++ boolean isTranslationResolvable(Component)
++ Component replaceTranslatableKey(Component,String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.MutableComponent</summary>
+
+```diff
++ boolean equals(Object)
++ ComponentContents getContents()
++ FormattedCharSequence getVisualOrderText()
++ int hashCode()
++ List getSiblings()
++ MutableComponent append(Component)
++ MutableComponent create(ComponentContents)
++ MutableComponent setStyle(Style)
++ String toString()
++ Style getStyle()
++ void <init>(ComponentContents,List,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.RandomSource</summary>
+
+```diff
++ double triangle(double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Turtle$TurtlePathNavigation</summary>
+
+```diff
+- boolean canUpdatePath()
+- PathFinder createPathFinder(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.Painting</summary>
+
+```diff
++ boolean lambda$create$0(Painting,Holder)
++ boolean lambda$create$1(int,Holder)
++ Holder getDefaultVariant()
++ Holder getVariant()
++ int variantArea(Holder)
++ Optional create(Level,BlockPos,Direction)
++ Vec3 trackingPosition()
++ void <clinit>()
++ void <init>(Level,BlockPos,Direction,Holder)
+- void <init>(Level,BlockPos,Direction,Motive)
+- void <init>(Level,BlockPos,Direction)
++ void <init>(Level,BlockPos)
++ void defineSynchedData()
++ void onSyncedDataUpdated(EntityDataAccessor)
++ void recreateFromPacket(ClientboundAddEntityPacket)
++ void setVariant(Holder)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/misc/music_disc_5.json
++ minecraft/recipes/music_disc_5.json
++ minecraft/tags/blocks/frogs_spawnable_on.json
++ minecraft/tags/painting_variant/placeable.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/disc_fragment_5.json
++ minecraft/models/item/music_disc_5.json
+- minecraft/particles/allay_dust.json
++ minecraft/textures/item/disc_fragment_5.png
++ minecraft/textures/item/music_disc_5.png
++ minecraft/textures/painting/earth.png
++ minecraft/textures/painting/fire.png
++ minecraft/textures/painting/water.png
++ minecraft/textures/painting/wind.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- motive.txt
++ painting_variant.txt
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:disc_fragment_5
++ minecraft:music_disc_5
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
+- minecraft:allay_dust
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
+- minecraft:entity.allay.flap
++ minecraft:entity.allay.item_thrown
+- minecraft:entity.tadpole.eat
+- minecraft:entity.tadpole.step
++ minecraft:music_disc.5
++ minecraft:music.overworld.jungle_and_forest
++ minecraft:music.overworld.old_growth_taiga
++ minecraft:music.overworld.swamp
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule doWardenSpawning <value: bool>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/frogs_spawnable_on.json
++ painting_variant/placeable.json
+```
+
+</details>
+
+
+<details><summary>items/music_discs.json</summary>
+
+```diff
++ minecraft:music_disc_5
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ gamerule.doWardenSpawning
++ item.minecraft.disc_fragment_5
++ item.minecraft.disc_fragment_5.desc
++ item.minecraft.music_disc_5
++ item.minecraft.music_disc_5.desc
++ selectWorld.loading_list
++ subtitles.entity.allay.item_thrown
+- subtitles.entity.allay.throw
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/misc/music_disc_5.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
+- allay_dust.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ music_disc_5.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/frogs_spawnable_on.json
++ painting_variant/placeable.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ item/disc_fragment_5.png
++ item/music_disc_5.png
++ painting/earth.png
++ painting/fire.png
++ painting/water.png
++ painting/wind.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- org.lwjgl:lwjgl-glfw:3.2.1
+- org.lwjgl:lwjgl-glfw:3.2.1
+- org.lwjgl:lwjgl-glfw:3.2.2
+- org.lwjgl:lwjgl-glfw:3.2.2
++ org.lwjgl:lwjgl-glfw:3.3.1
++ org.lwjgl:lwjgl-glfw:3.3.1
+- org.lwjgl:lwjgl-jemalloc:3.2.1
+- org.lwjgl:lwjgl-jemalloc:3.2.1
+- org.lwjgl:lwjgl-jemalloc:3.2.2
+- org.lwjgl:lwjgl-jemalloc:3.2.2
++ org.lwjgl:lwjgl-jemalloc:3.3.1
++ org.lwjgl:lwjgl-jemalloc:3.3.1
+- org.lwjgl:lwjgl-openal:3.2.1
+- org.lwjgl:lwjgl-openal:3.2.1
+- org.lwjgl:lwjgl-openal:3.2.2
+- org.lwjgl:lwjgl-openal:3.2.2
++ org.lwjgl:lwjgl-openal:3.3.1
++ org.lwjgl:lwjgl-openal:3.3.1
+- org.lwjgl:lwjgl-opengl:3.2.1
+- org.lwjgl:lwjgl-opengl:3.2.1
+- org.lwjgl:lwjgl-opengl:3.2.2
+- org.lwjgl:lwjgl-opengl:3.2.2
++ org.lwjgl:lwjgl-opengl:3.3.1
++ org.lwjgl:lwjgl-opengl:3.3.1
+- org.lwjgl:lwjgl-stb:3.2.1
+- org.lwjgl:lwjgl-stb:3.2.1
+- org.lwjgl:lwjgl-stb:3.2.2
+- org.lwjgl:lwjgl-stb:3.2.2
++ org.lwjgl:lwjgl-stb:3.3.1
++ org.lwjgl:lwjgl-stb:3.3.1
+- org.lwjgl:lwjgl-tinyfd:3.2.1
+- org.lwjgl:lwjgl-tinyfd:3.2.1
+- org.lwjgl:lwjgl-tinyfd:3.2.2
+- org.lwjgl:lwjgl-tinyfd:3.2.2
++ org.lwjgl:lwjgl-tinyfd:3.3.1
++ org.lwjgl:lwjgl-tinyfd:3.3.1
+- org.lwjgl:lwjgl:3.2.1
+- org.lwjgl:lwjgl:3.2.1
+- org.lwjgl:lwjgl:3.2.2
+- org.lwjgl:lwjgl:3.2.2
++ org.lwjgl:lwjgl:3.3.1
++ org.lwjgl:lwjgl:3.3.1
+```
+
+</details>

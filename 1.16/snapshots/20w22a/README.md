@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w22a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w22a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-05-29T11:25:02+00:00</td></tr>
@@ -10,2009 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ec09047665c1afc3d444a051f02bf4f1c1093b76/server.txt">https://piston-data.mojang.com/v1/objects/ec09047665c1afc3d444a051f02bf4f1c1093b76/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/905dbb8972c73e2e62fbfa31b828ba299e136743/client.jar">https://piston-data.mojang.com/v1/objects/905dbb8972c73e2e62fbfa31b828ba299e136743/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b80a71e588c08da6c1317e72759e454c86f27752/client.txt">https://piston-data.mojang.com/v1/objects/b80a71e588c08da6c1317e72759e454c86f27752/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w21a">20w21a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/fence_gates.json
-+  minecraft/tags/blocks/unstable_bottom_center.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/shaders/post/transparency.json
-+  minecraft/shaders/program/screenquad.vsh
-+  minecraft/shaders/program/transparency.fsh
-+  minecraft/shaders/program/transparency.json
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ loot_condition_type.txt
-+ loot_function_type.txt
-+ loot_pool_entry_type.txt
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:potential_job_site
-+ minecraft:dancing
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/fence_gates.json
-+ blocks/unstable_bottom_center.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/fence_gates.json
-+ blocks/unstable_bottom_center.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
-
-```diff
-+ void copyDepthFrom(RenderTarget)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlStateManager$1</summary>
-
-```diff
-+ int[] $SwitchMap$com$mojang$blaze3d$platform$GlStateManager$FboBlitMode
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.DetectedVersion</summary>
-
-```diff
-+ GameVersion BUILT_IN
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ void loadSelectedResourcePacks(PackRepository)
-- void loadResourcePacks(PackRepository)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.StringDecomposer</summary>
-
-```diff
-+ boolean iterateFormatted(StringDecomposer$Output)
-- boolean iterateFormatted(StringDecomposer$Output)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter</summary>
-
-```diff
-+ float stringWidth(FormattedText)
-+ FormattedText headByWidth(Style)
-+ List splitLines(Style)
-+ Optional lambda$componentStyleAtWidth$3(String)
-+ Style componentStyleAtWidth(FormattedText,int)
-- Component componentAtWidth(Component,int)
-- float stringWidth(Component)
-- List splitLines(Style)
-- MutableComponent headByWidth(Style)
-- Optional lambda$componentAtWidth$3(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter$FlatComponents</summary>
-
-```diff
-+ FormattedText getRemainder()
-+ FormattedText splitAt(Style)
-- Component getRemainder()
-- Component splitAt(Style)
-- void lambda$getRemainder$1(StringSplitter$LineComponent)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.StringSplitter$LineComponent</summary>
-
-```diff
-+ Optional visit(FormattedText$ContentConsumer)
-+ Optional visit(Style)
-- MutableComponent toComponent()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ void blitOutlineBlack(BiConsumer)
-+ void drawCenteredString(FormattedText,int,int,int)
-+ void drawString(FormattedText,int,int,int)
-- void drawCenteredString(Component,int,int,int)
-- void drawString(Component,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ComponentRenderUtils</summary>
-
-```diff
-+ FormattedText INDENT
-+ List wrapComponents(Font)
-+ void <clinit>()
-- List wrapComponents(Font)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.advancements.AdvancementWidget</summary>
-
-```diff
-+ FormattedText title
-- Component title
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen</summary>
-
-```diff
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
-
-```diff
-+ boolean handleComponentClicked(Style)
-+ Style getClickedComponentStyleAt(double,double)
-- boolean handleComponentClicked(Component)
-- Component getClickedComponentAt(double,double)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen$BookAccess</summary>
-
-```diff
-+ FormattedText getPageRaw(int)
-- Component getPageRaw(int)
-+ FormattedText getPage(int)
-- Component getPage(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen$WrittenBookAccess</summary>
-
-```diff
-+ FormattedText getPageRaw(int)
-- Component getPageRaw(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CartographyTableScreen</summary>
-
-```diff
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CraftingScreen</summary>
-
-```diff
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.DispenserScreen</summary>
-
-```diff
-+ void init()
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.inventory.EnchantmentNames</summary>
-
-```diff
-+ FormattedText getRandomName(Font,int)
-- MutableComponent getRandomName(Font,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.HopperScreen</summary>
-
-```diff
-- void renderLabels(PoseStack,int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen</summary>
-
-```diff
-+ boolean keepJigsaws
-+ boolean access$100(JigsawBlockEditScreen)
-+ void lambda$init$0(String)
-+ void lambda$init$1(String)
-+ void lambda$init$3(Button)
-+ void lambda$init$4(Button)
-+ void lambda$init$7(Button)
-- void lambda$init$0(Button)
-- void lambda$init$1(Button)
-- void lambda$init$3(String)
-- void lambda$init$4(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ RenderType TRANSLUCENT_MOVING_BLOCK
-+ RenderType itemEntityTranslucentCull(ResourceLocation)
-+ RenderType translucentMovingBlock()
-+ RenderType$CompositeState translucentMovingBlockState()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
-
-```diff
-+ FormattedText lambda$render$0(FormattedText)
-- Component lambda$render$0(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.BrainDebugRenderer</summary>
-
-```diff
-+ boolean lambda$getPotentialTicketHolders$6(BrainDebugRenderer$BrainDump)
-+ Collection getPotentialTicketHolders(BlockPos)
-+ Set getPotentialTicketHolderNames(BrainDebugRenderer$PoiInfo)
-+ void lambda$updateLastLookedAtUuid$7(Entity)
-- void lambda$updateLastLookedAtUuid$6(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ void <init>(ChunkProgressListenerFactory)
-- void <init>(ChunkProgressListenerFactory)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.SharedSuggestionProvider</summary>
-
-```diff
-+ Set levels()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
-
-```diff
-+ BiFunction SUGGEST_NOTHING
-+ BiFunction suggestions
-- Function SUGGEST_NOTHING
-- Function suggestions
-+ CommandSyntaxException lambda$readItem$2(ResourceLocation)
-+ CompletableFuture fillSuggestions(TagCollection)
-+ CompletableFuture lambda$static$1(TagCollection)
-+ CompletableFuture suggestItemIdOrTag(TagCollection)
-+ CompletableFuture suggestOpenNbt(TagCollection)
-+ CompletableFuture suggestTag(TagCollection)
-- CommandSyntaxException lambda$readItem$1(ResourceLocation)
-- CompletableFuture fillSuggestions(SuggestionsBuilder)
-- CompletableFuture suggestItemIdOrTag(SuggestionsBuilder)
-- CompletableFuture suggestOpenNbt(SuggestionsBuilder)
-- CompletableFuture suggestTag(SuggestionsBuilder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestInfo</summary>
-
-```diff
-+ BlockPos structureBlockPos
-+ Rotation rotation
-- BlockPos testPos
-+ BlockPos getStructureBlockPos()
-+ Rotation getRotation()
-+ TestFunction getTestFunction()
-+ void <init>(ServerLevel)
-+ void setStructureBlockPos(BlockPos)
-+ void spawnStructure(BlockPos,int)
-- BlockPos getTestPos()
-- void <init>(ServerLevel)
-- void <init>(ServerLevel)
-- void assignPosition(BlockPos)
-- void spawnStructure(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.GameTestRegistry</summary>
-
-```diff
-+ Collection lastFailedTests
-+ Collection getLastFailedTests()
-+ void forgetFailedTests()
-+ void rememberFailedTest(TestFunction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
-
-```diff
-+ FormattedText TEXT_NULL
-+ FormattedText TEXT_PERCENT
-+ Language decomposedWith
-- Language DEFAULT_LANGUAGE
-- Language LANGUAGE
-- long decomposedLanguageTime
-- TextComponent TEXT_NULL
-- TextComponent TEXT_PERCENT
-+ FormattedText getArgument(Language)
-+ Optional visitSelf(FormattedText$ContentConsumer)
-+ Optional visitSelf(Style)
-+ void decomposeTemplate(Language)
-- Component getComponent(int)
-- Optional visitSelf(Component$ContentConsumer)
-- Optional visitSelf(Style)
-- void decomposeTemplate(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ ServerFunctionManager functionManager
-+ ServerResources resources
-- Commands commands
-- CompletableFuture DATA_RELOAD_INITIAL_TASK
-- FolderRepositorySource folderPackSource
-- LootTables lootTables
-- PredicateManager predicateManager
-- RecipeManager recipes
-- ReloadableResourceManager resources
-- ServerAdvancementManager advancements
-- ServerFunctionManager functions
-- TagManager tags
-+ boolean lambda$storeSelectedPacks$10(String)
-+ CompletableFuture reloadResources(Collection)
-+ CompletionStage lambda$reloadResources$8(ImmutableList)
-+ ImmutableList lambda$reloadResources$7(Collection)
-+ PackRepository createPackRepository(WorldData,boolean)
-+ Set levelKeys()
-+ void <init>(ChunkProgressListenerFactory)
-+ void lambda$reloadResources$9(ServerResources)
-+ void storeSelectedPacks(WorldData)
-- BlockGetter getCommandSenderWorld()
-- Entity getEntityByUUID(UUID)
-- FolderRepositorySource getFolderPackSource()
-- GameProfile[] getPlayerGameProfiles()
-- ReloadableResourceManager getResources()
-- UnopenedPack lambda$updateSelectedPacks$7(UnopenedPack)
-- void <init>(ChunkProgressListenerFactory)
-- void lambda$updateSelectedPacks$10(UnopenedPack)
-- void lambda$updateSelectedPacks$8(UnopenedPack)
-- void lambda$updateSelectedPacks$9(UnopenedPack)
-- void loadDataPacks()
-- void refreshRegistries()
-- void reloadResources()
-- void updateSelectedPacks()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.ServerAdvancementManager</summary>
-
-```diff
-+ void lambda$apply$0(JsonElement)
-- void lambda$apply$0(JsonObject)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.bossevents.CustomBossEvents</summary>
-
-```diff
-- MinecraftServer server
-+ void <init>()
-- void <init>(MinecraftServer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.ReloadCommand</summary>
-
-```diff
-+ Logger LOGGER
-+ boolean lambda$register$1(CommandSourceStack)
-+ Collection discoverNewPacks(Collection)
-+ int lambda$register$2(CommandContext)
-+ void <clinit>()
-+ Void lambda$reloadPacks$0(Throwable)
-+ void reloadPacks(CommandSourceStack)
-- boolean lambda$register$0(CommandSourceStack)
-- int lambda$register$1(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.TagManager</summary>
-
-```diff
-+ String lambda$null$0(Map$Entry)
-+ void bindToGlobal()
-+ void lambda$reload$1(Void)
-- void lambda$reload$0(Void)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.HarvestFarmland</summary>
-
-```diff
-- boolean canPlantStuff
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
-
-```diff
-+ void removeAllGoals()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType DANCING
-+ MemoryModuleType POTENTIAL_JOB_SITE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.PlayerSensor</summary>
-
-```diff
-+ TargetingConditions TARGETING
-+ boolean lambda$doTick$1(Player)
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiType</summary>
-
-```diff
-+ Set ALL_STATES
-+ Supplier ALL_JOB_POI_TYPES
-+ boolean lambda$new$5(PoiType)
-+ boolean lambda$static$2(PoiType)
-+ boolean lambda$static$4(BlockState)
-+ Set lambda$static$0()
-+ Stream lambda$static$3(Block)
-+ void lambda$registerBlockStates$6(BlockState)
-- boolean lambda$new$4(PoiType)
-- boolean lambda$static$0(PoiType)
-- boolean lambda$static$3(BlockState)
-- Stream allPoiStates()
-- Stream lambda$static$2(Block)
-- void lambda$registerBlockStates$5(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-- double getRideHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ ItemEntity copy()
-+ void <init>(ItemEntity)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
-
-```diff
-+ double getMyRidingOffset()
-- double getRidingHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Endermite</summary>
-
-```diff
-+ double getMyRidingOffset()
-- double getRidingHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-- double getRideHeight()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
-
-```diff
-+ double getMyRidingOffset()
-- double getRidingHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Spider</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-- double getRideHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ double getPassengersRidingOffset()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin$PiglinArmPose</summary>
-
-```diff
-+ Piglin$PiglinArmPose ATTACKING_WITH_MELEE_WEAPON
-+ Piglin$PiglinArmPose DANCING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Inventory</summary>
-
-```diff
-+ int clearOrCountMatchingItems(Container)
-- boolean canDestroy(BlockState)
-- int clearInventory(Predicate,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTables</summary>
-
-```diff
-+ void lambda$apply$0(JsonElement)
-- void lambda$apply$0(JsonObject)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
-
-```diff
-+ LootPoolEntryContainer$Serializer createSerializer(CompositeEntryBase$CompositeEntryConstructor)
-- CompositeEntryBase$Serializer createSerializer(CompositeEntryBase$CompositeEntryConstructor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer</summary>
-
-```diff
-+ LootPoolEntryType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer</summary>
-
-```diff
-+ LootPoolEntryContainer deserializeCustom(com.google.gson.JsonObject,com.google.gson.JsonDeserializationContext,net.minecraft.world.level.storage.loot.predicates.LootItemCondition[])
-+ void serializeCustom(com.google.gson.JsonObject,net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer,com.google.gson.JsonSerializationContext)
-- Class clazz
-- LootPoolEntryContainer deserialize(com.google.gson.JsonObject,com.google.gson.JsonDeserializationContext,net.minecraft.world.level.storage.loot.predicates.LootItemCondition[])
-- ResourceLocation name
-- void serialize(com.google.gson.JsonObject,net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer,com.google.gson.JsonSerializationContext)
-+ LootPoolEntryContainer deserialize(JsonDeserializationContext)
-+ Object deserialize(JsonDeserializationContext)
-+ void <init>()
-+ void serialize(JsonSerializationContext)
-+ void serialize(JsonSerializationContext)
-- Class getContainerClass()
-- ResourceLocation getName()
-- void <init>(Class)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemCountFunction</summary>
-
-```diff
-+ LootItemFunctionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemCountFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetLoreFunction</summary>
-
-```diff
-+ LootItemFunctionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetNbtFunction</summary>
-
-```diff
-+ LootItemFunctionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetNbtFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
-
-```diff
-+ LootItemConditionType getType()
-+ void <init>(ConditionReference$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LocationCheck$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- String valueToString(Object)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemConditions</summary>
-
-```diff
-+ LootItemConditionType ALTERNATIVE
-+ LootItemConditionType BLOCK_STATE_PROPERTY
-+ LootItemConditionType DAMAGE_SOURCE_PROPERTIES
-+ LootItemConditionType ENTITY_PROPERTIES
-+ LootItemConditionType ENTITY_SCORES
-+ LootItemConditionType INVERTED
-+ LootItemConditionType KILLED_BY_PLAYER
-+ LootItemConditionType LOCATION_CHECK
-+ LootItemConditionType MATCH_TOOL
-+ LootItemConditionType RANDOM_CHANCE
-+ LootItemConditionType RANDOM_CHANCE_WITH_LOOTING
-+ LootItemConditionType REFERENCE
-+ LootItemConditionType SURVIVES_EXPLOSION
-+ LootItemConditionType TABLE_BONUS
-+ LootItemConditionType TIME_CHECK
-+ LootItemConditionType WEATHER_CHECK
-- Map CONDITIONS_BY_CLASS
-- Map CONDITIONS_BY_NAME
-+ LootItemConditionType register(Serializer)
-+ Object createGsonAdapter()
-- LootItemCondition$Serializer getSerializer(LootItemCondition)
-- LootItemCondition$Serializer getSerializer(ResourceLocation)
-- void register(LootItemCondition$Serializer)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.platform.GlStateManager$FboBlitMode
@@ -5282,1742 +3301,591 @@
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.DetectedVersion</summary>
+<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
 
 ```diff
-+ GameVersion BUILT_IN
++ void copyDepthFrom(RenderTarget)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component</summary>
+<details><summary>net.minecraft.client.Options</summary>
 
 ```diff
-- Optional STOP_ITERATION
+- void loadResourcePacks(PackRepository)
++ void loadSelectedResourcePacks(PackRepository)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringDecomposer</summary>
+
+```diff
+- boolean iterateFormatted(Component,Style,StringDecomposer$Output)
++ boolean iterateFormatted(FormattedText,Style,StringDecomposer$Output)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter</summary>
+
+```diff
+- Component componentAtWidth(Component,int)
+- float stringWidth(Component)
++ float stringWidth(FormattedText)
++ FormattedText headByWidth(FormattedText,int,Style)
+- List splitLines(Component,int,Style)
++ List splitLines(FormattedText,int,Style)
+- MutableComponent headByWidth(Component,int,Style)
+- Optional lambda$componentAtWidth$3(StringSplitter$WidthLimitedCharSink,Style,String)
++ Optional lambda$componentStyleAtWidth$3(StringSplitter$WidthLimitedCharSink,Style,String)
++ Style componentStyleAtWidth(FormattedText,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter$FlatComponents</summary>
+
+```diff
+- Component getRemainder()
+- Component splitAt(int,int,Style)
++ FormattedText getRemainder()
++ FormattedText splitAt(int,int,Style)
+- void lambda$getRemainder$1(ComponentCollector,StringSplitter$LineComponent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.StringSplitter$LineComponent</summary>
+
+```diff
+- MutableComponent toComponent()
 + Optional visit(FormattedText$ContentConsumer)
-+ Optional visit(Style)
-+ Optional visitSelf(FormattedText$ContentConsumer)
-+ Optional visitSelf(Style)
-- Optional visit(Component$ContentConsumer)
-- Optional visit(Style)
++ Optional visit(FormattedText$StyledContentConsumer,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
+
+```diff
++ void blitOutlineBlack(int,int,BiConsumer)
+- void drawCenteredString(PoseStack,Font,Component,int,int,int)
++ void drawCenteredString(PoseStack,Font,FormattedText,int,int,int)
+- void drawString(PoseStack,Font,Component,int,int,int)
++ void drawString(PoseStack,Font,FormattedText,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.ComponentRenderUtils</summary>
+
+```diff
+- List wrapComponents(Component,int,Font)
++ List wrapComponents(FormattedText,int,Font)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractFurnaceScreen</summary>
+
+```diff
+- void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
+
+```diff
+- boolean handleComponentClicked(Component)
++ boolean handleComponentClicked(Style)
+- Component getClickedComponentAt(double,double)
++ Style getClickedComponentStyleAt(double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen$BookAccess</summary>
+
+```diff
+- Component getPage(int)
++ FormattedText getPage(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen$WrittenBookAccess</summary>
+
+```diff
+- Component getPageRaw(int)
++ FormattedText getPageRaw(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.CartographyTableScreen</summary>
+
+```diff
+- void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.CraftingScreen</summary>
+
+```diff
+- void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.DispenserScreen</summary>
+
+```diff
++ void init()
+- void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.EnchantmentNames</summary>
+
+```diff
++ FormattedText getRandomName(Font,int)
+- MutableComponent getRandomName(Font,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.HopperScreen</summary>
+
+```diff
+- void renderLabels(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen</summary>
+
+```diff
++ boolean access$100(JigsawBlockEditScreen)
+- void lambda$init$0(Button)
++ void lambda$init$0(String)
+- void lambda$init$1(Button)
++ void lambda$init$1(String)
++ void lambda$init$3(Button)
+- void lambda$init$3(String)
++ void lambda$init$4(Button)
+- void lambda$init$4(String)
++ void lambda$init$7(Button)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
+
+```diff
++ RenderType itemEntityTranslucentCull(ResourceLocation)
++ RenderType translucentMovingBlock()
++ RenderType$CompositeState translucentMovingBlockState()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
+
+```diff
+- Component lambda$render$0(Font,Component)
++ FormattedText lambda$render$0(Font,FormattedText)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.debug.BrainDebugRenderer</summary>
+
+```diff
++ boolean lambda$getPotentialTicketHolders$6(BlockPos,BrainDebugRenderer$BrainDump)
++ Collection getPotentialTicketHolders(BlockPos)
++ Set getPotentialTicketHolderNames(BrainDebugRenderer$PoiInfo)
+- void lambda$updateLastLookedAtUuid$6(Entity)
++ void lambda$updateLastLookedAtUuid$7(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.server.IntegratedServer</summary>
+
+```diff
++ void <init>(Minecraft,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void <init>(Minecraft,LevelStorageSource$LevelStorageAccess,WorldData,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.item.ItemParser</summary>
+
+```diff
+- CommandSyntaxException lambda$readItem$1(int,ResourceLocation)
++ CommandSyntaxException lambda$readItem$2(int,ResourceLocation)
++ CompletableFuture fillSuggestions(SuggestionsBuilder,TagCollection)
+- CompletableFuture fillSuggestions(SuggestionsBuilder)
++ CompletableFuture lambda$static$1(SuggestionsBuilder,TagCollection)
++ CompletableFuture suggestItemIdOrTag(SuggestionsBuilder,TagCollection)
+- CompletableFuture suggestItemIdOrTag(SuggestionsBuilder)
++ CompletableFuture suggestOpenNbt(SuggestionsBuilder,TagCollection)
+- CompletableFuture suggestOpenNbt(SuggestionsBuilder)
++ CompletableFuture suggestTag(SuggestionsBuilder,TagCollection)
+- CompletableFuture suggestTag(SuggestionsBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestInfo</summary>
+
+```diff
++ BlockPos getStructureBlockPos()
+- BlockPos getTestPos()
++ Rotation getRotation()
++ TestFunction getTestFunction()
+- void <init>(TestFunction,BlockPos,ServerLevel)
++ void <init>(TestFunction,Rotation,ServerLevel)
+- void <init>(TestFunction,ServerLevel)
+- void assignPosition(BlockPos)
++ void setStructureBlockPos(BlockPos)
++ void spawnStructure(BlockPos,int)
+- void spawnStructure(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestRegistry</summary>
+
+```diff
++ Collection getLastFailedTests()
++ void forgetFailedTests()
++ void rememberFailedTest(TestFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
+
+```diff
+- Component getComponent(int)
++ FormattedText getArgument(int,Language)
 - Optional visitSelf(Component$ContentConsumer)
-- Optional visitSelf(Style)
-- void <clinit>()
+- Optional visitSelf(Component$StyledContentConsumer,Style)
++ Optional visitSelf(FormattedText$ContentConsumer)
++ Optional visitSelf(FormattedText$StyledContentConsumer,Style)
++ void decomposeTemplate(String,Language)
+- void decomposeTemplate(String)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+<details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-+ ServerFunctionLibrary library
-- int PATH_PREFIX_LENGTH
-- int PATH_SUFFIX_LENGTH
-- Logger LOGGER
-- Map functions
-- TagCollection tags
-+ Iterable getFunctionNames()
-+ Iterable getTagNames()
-+ Tag getTag(ResourceLocation)
-+ void <init>(ServerFunctionLibrary)
-+ void executeTagFunctions(ResourceLocation)
-+ void replaceLibrary(ServerFunctionLibrary)
-- boolean lambda$onResourceManagerReload$0(String)
-- CommandFunction addFunction(ResourceLocation)
-- CommandFunction lambda$onResourceManagerReload$2(List)
-- CommandFunction lambda$onResourceManagerReload$3(Throwable)
-- CommandSourceStack getCompilationContext()
-- List lambda$onResourceManagerReload$1(ResourceLocation)
-- List readLinesAsync(ResourceLocation)
-- Map getFunctions()
-- TagCollection getTags()
-- void <init>(MinecraftServer)
-- void onResourceManagerReload(ResourceManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkHolder</summary>
-
-```diff
-+ boolean forceSendLight
-- int sectionsToForceSendLightFor
-+ void blockChanged(ServerChunkCache,int,int,int)
-+ void forceSendLight()
-- void blockChanged(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ void moveTo(double,double,double)
-- void forceMove(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
-
-```diff
-+ boolean isAvailable(String)
-+ Collection getAvailableIds()
-+ Collection getAvailablePacks()
-+ Collection getSelectedIds()
-+ Collection getSelectedPacks()
-+ List openAllSelected()
-+ List rebuildSelected(Collection)
-+ Map discoverAvailable()
-+ Stream getAvailablePacks(Collection)
-+ void <init>(RepositorySource[])
-- Collection getAvailable()
-- Collection getSelected()
-- Collection getUnselected()
-- void <init>(UnopenedPack$UnopenedPackConstructor)
-- void addSource(RepositorySource)
-- void lambda$sortAvailable$0(Map$Entry)
-- void sortAvailable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
-
-```diff
-+ List packs
-- Thread mainThread
-+ Stream listPacks()
-+ void <init>(PackType)
-- CompletableFuture reload(CompletableFuture)
-- void <init>(Thread)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
+- BlockGetter getCommandSenderWorld()
++ boolean lambda$storeSelectedPacks$10(Set,String)
++ CompletableFuture reloadResources(Collection)
++ CompletionStage lambda$reloadResources$8(ImmutableList)
+- Entity getEntityByUUID(UUID)
+- FolderRepositorySource getFolderPackSource()
 - GameProfile[] getPlayerGameProfiles()
-- String getPlayerNames(boolean)
++ ImmutableList lambda$reloadResources$7(Collection)
++ PackRepository createPackRepository(Path,WorldData,boolean)
+- ReloadableResourceManager getResources()
++ Set levelKeys()
+- UnopenedPack lambda$updateSelectedPacks$7(UnopenedPack)
++ void <init>(LevelStorageSource$LevelStorageAccess,WorldData,PackRepository,Proxy,DataFixer,ServerResources,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
+- void <init>(LevelStorageSource$LevelStorageAccess,WorldData,Proxy,DataFixer,Commands,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void lambda$reloadResources$9(Collection,ServerResources)
+- void lambda$updateSelectedPacks$10(UnopenedPack)
+- void lambda$updateSelectedPacks$8(List,UnopenedPack)
+- void lambda$updateSelectedPacks$9(UnopenedPack)
+- void loadDataPacks()
+- void refreshRegistries()
+- void reloadResources()
++ void storeSelectedPacks(PackRepository,WorldData)
+- void updateSelectedPacks()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.ServerRecipeBook</summary>
+<details><summary>net.minecraft.server.ServerAdvancementManager</summary>
 
 ```diff
-- RecipeManager manager
++ void lambda$apply$0(Map,ResourceLocation,JsonElement)
+- void lambda$apply$0(Map,ResourceLocation,JsonObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.bossevents.CustomBossEvents</summary>
+
+```diff
 + void <init>()
-+ void fromNbt(RecipeManager)
-+ void loadRecipes(RecipeManager)
-- void <init>(RecipeManager)
-- void fromNbt(CompoundTag)
-- void loadRecipes(Consumer)
+- void <init>(MinecraftServer)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
+<details><summary>net.minecraft.server.commands.ReloadCommand</summary>
 
 ```diff
-+ Tag$Named FENCE_GATES
-+ Tag$Named UNSTABLE_BOTTOM_CENTER
-+ Set getMissingTags(TagCollection)
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.FluidTags</summary>
-
-```diff
-+ Set getMissingTags(TagCollection)
+- boolean lambda$register$0(CommandSourceStack)
++ boolean lambda$register$1(CommandSourceStack)
++ Collection discoverNewPacks(PackRepository,WorldData,Collection)
+- int lambda$register$1(CommandContext)
++ int lambda$register$2(CommandContext)
++ void <clinit>()
++ Void lambda$reloadPacks$0(CommandSourceStack,Throwable)
++ void reloadPacks(Collection,CommandSourceStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.InteractionResultHolder</summary>
+<details><summary>net.minecraft.tags.TagManager</summary>
 
 ```diff
-+ InteractionResultHolder sidedSuccess(Object,boolean)
++ String lambda$null$0(Map$Entry)
++ void bindToGlobal()
+- void lambda$reload$0(CompletableFuture,CompletableFuture,CompletableFuture,CompletableFuture,Void)
++ void lambda$reload$1(CompletableFuture,CompletableFuture,CompletableFuture,CompletableFuture,Void)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
 
 ```diff
-+ DamageSource fireball(Entity)
-+ DamageSource witherSkull(Entity)
-- DamageSource fireball(Entity)
++ void removeAllGoals()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.world.entity.ai.sensing.PlayerSensor</summary>
 
 ```diff
-+ boolean forceChunkAddition
-+ boolean movedSinceLastChunkCheck
-- boolean teleported
-+ boolean checkAndResetForcedChunkAdditionFlag()
-+ boolean checkAndResetUpdateChunkPos()
-+ double getFluidJumpThreshold()
-+ double getMyRidingOffset()
++ boolean lambda$doTick$1(LivingEntity,Player)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiType</summary>
+
+```diff
+- boolean lambda$new$4(PoiType)
++ boolean lambda$new$5(PoiType)
+- boolean lambda$static$0(PoiType)
++ boolean lambda$static$2(PoiType)
+- boolean lambda$static$3(BlockState)
++ boolean lambda$static$4(BlockState)
++ Set lambda$static$0()
+- Stream allPoiStates()
+- Stream lambda$static$2(Block)
++ Stream lambda$static$3(Block)
+- void lambda$registerBlockStates$5(PoiType,BlockState)
++ void lambda$registerBlockStates$6(PoiType,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
 + double getPassengersRidingOffset()
-+ void moveTo(double,double,double)
-+ void positionRider(Entity$MoveFunction)
-+ void removeVehicle()
-- boolean checkAndResetTeleportedFlag()
-- boolean isUnderLiquid(Tag,boolean)
 - double getRideHeight()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
++ ItemEntity copy()
++ void <init>(ItemEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
+
+```diff
++ double getMyRidingOffset()
 - double getRidingHeight()
-- void forceMove(double,double,double)
-- void positionRider(Entity$MoveCallback)
-- void repositionDirectPassengers(Entity$MoveCallback)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.Brain</summary>
+<details><summary>net.minecraft.world.entity.monster.Endermite</summary>
 
 ```diff
-+ void removeAllBehaviors()
++ double getMyRidingOffset()
+- double getRidingHeight()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
+<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
 
 ```diff
-+ boolean lambda$null$5(LivingEntity)
-+ Stream getNearbyVillagersWithCondition(Predicate)
-+ Stream lambda$getNearbyVillagersWithCondition$7(List)
-+ Villager lambda$null$6(LivingEntity)
++ double getPassengersRidingOffset()
+- double getRideHeight()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.PickaxeItem</summary>
+<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
 
 ```diff
-+ boolean isCorrectToolForDrops(BlockState)
-- boolean canDestroySpecial(BlockState)
++ double getMyRidingOffset()
+- double getRidingHeight()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.item.ShearsItem</summary>
+<details><summary>net.minecraft.world.entity.monster.Spider</summary>
 
 ```diff
-+ boolean isCorrectToolForDrops(BlockState)
-- boolean canDestroySpecial(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.ShovelItem</summary>
-
-```diff
-+ boolean isCorrectToolForDrops(BlockState)
-- boolean canDestroySpecial(BlockState)
++ double getPassengersRidingOffset()
+- double getRideHeight()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeDefaultFeatures</summary>
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
 
 ```diff
-+ void addFossilDecoration(Biome)
-- void addSwampExtraDecoration(Biome)
++ double getPassengersRidingOffset()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
+<details><summary>net.minecraft.world.entity.player.Inventory</summary>
 
 ```diff
-+ SoundType LILY_PAD
+- boolean canDestroy(BlockState)
+- int clearInventory(Predicate,int)
++ int clearOrCountMatchingItems(Predicate,int,Container)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
+<details><summary>net.minecraft.world.level.storage.loot.LootTables</summary>
 
 ```diff
-+ boolean releaseOccupant(BeehiveBlockEntity$BeeReleaseStatus)
-- boolean releaseOccupant(BeehiveBlockEntity$BeeReleaseStatus)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeData</summary>
-
-```diff
-+ CompoundTag access$100(BeehiveBlockEntity$BeeData)
-+ int access$208(BeehiveBlockEntity$BeeData)
-+ int access$300(BeehiveBlockEntity$BeeData)
-- CompoundTag access$300(BeehiveBlockEntity$BeeData)
-- int access$100(BeehiveBlockEntity$BeeData)
-- int access$108(BeehiveBlockEntity$BeeData)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.BellBlockEntity</summary>
-
-```diff
-+ void lambda$showBellParticles$1(LivingEntity)
-- void lambda$showBellParticles$1(LivingEntity)
++ void lambda$apply$0(ImmutableMap$Builder,ResourceLocation,JsonElement)
+- void lambda$apply$0(ImmutableMap$Builder,ResourceLocation,JsonObject)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
 
 ```diff
-+ void generate(ServerLevel,int,boolean)
-- void generate(ServerLevel,int)
+- CompositeEntryBase$Serializer createSerializer(ResourceLocation,Class,CompositeEntryBase$CompositeEntryConstructor)
++ LootPoolEntryContainer$Serializer createSerializer(CompositeEntryBase$CompositeEntryConstructor)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer</summary>
 
 ```diff
-+ FormattedText[] renderMessages
-- Component[] renderMessages
-+ FormattedText getRenderMessage(UnaryOperator)
-- Component getRenderMessage(UnaryOperator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ boolean requiresCorrectToolForDrops
-+ boolean requiresCorrectToolForDrops()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.FeatureAccess</summary>
-
-```diff
-+ LongSet getReferencesForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature)
-+ StructureStart getStartForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature)
-+ void addReferenceForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature,long)
-+ void setStartForFeature(net.minecraft.world.level.levelgen.feature.StructureFeature,net.minecraft.world.level.levelgen.structure.StructureStart)
-- LongSet getReferencesForFeature(java.lang.String)
-- StructureStart getStartForFeature(java.lang.String)
-- void addReferenceForFeature(java.lang.String,long)
-- void setStartForFeature(java.lang.String,net.minecraft.world.level.levelgen.structure.StructureStart)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.HashMapPalette</summary>
-
-```diff
-+ boolean maybeHas(Predicate)
-- boolean maybeHas(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
-
-```diff
-+ LongSet getReferencesForFeature(StructureFeature)
-+ LongSet lambda$addReferenceForFeature$8(StructureFeature)
-+ LongSet lambda$getReferencesForFeature$7(StructureFeature)
-+ StructureStart getStartForFeature(StructureFeature)
-+ void addReferenceForFeature(StructureFeature,long)
-+ void setStartForFeature(StructureStart)
-- LongSet getReferencesForFeature(String)
-- LongSet lambda$addReferenceForFeature$8(String)
-- LongSet lambda$getReferencesForFeature$7(String)
-- StructureStart getStartForFeature(String)
-- void addReferenceForFeature(String,long)
-- void setStartForFeature(StructureStart)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
-
-```diff
-+ boolean maybeHas(Predicate)
-- boolean maybeHas(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.LinearPalette</summary>
-
-```diff
-+ boolean maybeHas(Predicate)
-- boolean maybeHas(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.Palette</summary>
-
-```diff
-+ boolean maybeHas(java.util.function.Predicate)
-- boolean maybeHas(java.lang.Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
-
-```diff
-+ boolean maybeHas(Predicate)
-- boolean maybeHas(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
-+ LongSet getReferencesForFeature(StructureFeature)
-+ LongSet lambda$addReferenceForFeature$4(StructureFeature)
-+ LongSet lambda$getReferencesForFeature$3(StructureFeature)
-+ StructureStart getStartForFeature(StructureFeature)
-+ void addReferenceForFeature(StructureFeature,long)
-+ void setStartForFeature(StructureStart)
-- LongSet getReferencesForFeature(String)
-- LongSet lambda$addReferenceForFeature$4(String)
-- LongSet lambda$getReferencesForFeature$3(String)
-- StructureStart getStartForFeature(String)
-- void addReferenceForFeature(String,long)
-- void setStartForFeature(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-- DimensionType DEFAULT_END
-- DimensionType DEFAULT_NETHER
-- DimensionType DEFAULT_OVERWORLD
-+ DimensionType makeDefaultEnd()
-+ DimensionType makeDefaultNether()
-+ DimensionType makeDefaultOverworld()
-- DimensionType defaultOverworld()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
-
-```diff
-+ GenerationStep$Decoration LAKES
-+ GenerationStep$Decoration STRONGHOLDS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSamplingSettings</summary>
-
-```diff
-+ Codec SCALE_RANGE
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(AtomicBoolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(AtomicBoolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(AtomicBoolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(BoundingBox)
-- void createFoliage(Set,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(BoundingBox)
-- void createFoliage(Set,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(BoundingBox)
-- void createFoliage(Set,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(BoundingBox)
-- void createFoliage(Set,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
-
-```diff
-+ void createFoliage(BoundingBox)
-- void createFoliage(Set,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$Placer</summary>
-
-```diff
-+ void access$800(MutableObject,int,int,boolean)
-+ void tryPlacingChildren(MutableObject,int,int,boolean)
-- void access$800(AtomicReference,int,int,boolean)
-- void tryPlacingChildren(AtomicReference,int,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ void lambda$placeFeature$2(BlockPos)
-- void lambda$placeFeature$2(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.LegacyStructureDataHandler</summary>
-
-```diff
-+ LegacyStructureDataHandler getLegacyStructureHandler(DimensionDataStorage)
-- LegacyStructureDataHandler getLegacyStructureHandler(DimensionDataStorage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
-
-```diff
-+ ResourceManager resourceManager
-- MinecraftServer server
-+ void <init>(DataFixer)
-- void <init>(DataFixer)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
-
-```diff
-+ boolean placeInWorld(Random,int)
-+ void placeInWorld(Random)
-+ void placeInWorldChunk(Random)
-- boolean placeInWorld(StructurePlaceSettings,int)
-- void placeInWorld(StructurePlaceSettings)
-- void placeInWorldChunk(StructurePlaceSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.Material$Builder</summary>
-
-```diff
-- boolean isAlwaysDestroyable
-- Material$Builder notAlwaysDestroyable()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
-
-```diff
-+ Node currentNode()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ Long2ObjectMap pathTypesByPosCache
-+ Object2BooleanMap collisionCache
-+ BlockPathTypes getCachedBlockType(Mob,int,int,int)
-+ BlockPathTypes lambda$getCachedBlockType$1(Mob,long)
-+ boolean hasCollisions(AABB)
-+ Boolean lambda$hasCollisions$0(AABB)
-- BlockPathTypes getBlockPathType(Mob,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
-
-```diff
-+ LootPoolEntryType getType()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntries</summary>
-
-```diff
-+ LootPoolEntryType ALTERNATIVES
-+ LootPoolEntryType DYNAMIC
-+ LootPoolEntryType EMPTY
-+ LootPoolEntryType GROUP
-+ LootPoolEntryType ITEM
-+ LootPoolEntryType REFERENCE
-+ LootPoolEntryType SEQUENCE
-+ LootPoolEntryType TAG
-- Map CLASS_TO_SERIALIZER
-- Map ID_TO_SERIALIZER
-+ LootPoolEntryType register(Serializer)
-+ Object createGsonAdapter()
-- Map access$000()
-- Map access$100()
-- void register(LootPoolEntryContainer$Serializer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer</summary>
-
-```diff
-+ LootPoolEntryContainer deserializeCustom(LootItemCondition[])
-+ LootPoolSingletonContainer deserializeCustom(LootItemCondition[])
+- Class getContainerClass()
++ LootPoolEntryContainer deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- ResourceLocation getName()
 + void <init>()
-+ void serializeCustom(JsonSerializationContext)
-+ void serializeCustom(JsonSerializationContext)
-- LootPoolEntryContainer deserialize(LootItemCondition[])
-- LootPoolSingletonContainer deserialize(LootItemCondition[])
-- void <init>(Class)
-- void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
+- void <init>(ResourceLocation,Class)
++ void serialize(JsonObject,LootPoolEntryContainer,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.SequentialEntry</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction$Serializer</summary>
 
 ```diff
-+ LootPoolEntryType getType()
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Serializer</summary>
 
 ```diff
-+ LootPoolEntryType getType()
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer</summary>
 
 ```diff
-+ void serializeCustom(JsonSerializationContext)
-+ void serializeCustom(JsonSerializationContext)
-+ void serializeCustom(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemCountFunction</summary>
 
 ```diff
 + LootItemFunctionType getType()
@@ -7026,17 +3894,17 @@
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Serializer</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemCountFunction$Serializer</summary>
 
 ```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetLoreFunction</summary>
 
 ```diff
 + LootItemFunctionType getType()
@@ -7045,79 +3913,17 @@
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyBlockState$Serializer</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Serializer</summary>
 
 ```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.FillPlayerHead$Serializer</summary>
-
-```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetNbtFunction</summary>
 
 ```diff
 + LootItemFunctionType getType()
@@ -7125,223 +3931,93 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount$Serializer</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetNbtFunction$Serializer</summary>
 
 ```diff
-+ void serialize(JsonSerializationContext)
-- void serialize(JsonSerializationContext)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Serializer</summary>
 
 ```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void <init>()
-+ void serialize(JsonSerializationContext)
-- LootItemFunction deserialize(JsonDeserializationContext)
-- void <init>(Class)
-- void serialize(JsonSerializationContext)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctions</summary>
+<details><summary>net.minecraft.world.level.storage.loot.predicates.AlternativeLootItemCondition$Serializer</summary>
 
 ```diff
-+ LootItemFunctionType APPLY_BONUS
-+ LootItemFunctionType COPY_NAME
-+ LootItemFunctionType COPY_NBT
-+ LootItemFunctionType COPY_STATE
-+ LootItemFunctionType ENCHANT_RANDOMLY
-+ LootItemFunctionType ENCHANT_WITH_LEVELS
-+ LootItemFunctionType EXPLORATION_MAP
-+ LootItemFunctionType EXPLOSION_DECAY
-+ LootItemFunctionType FILL_PLAYER_HEAD
-+ LootItemFunctionType FURNACE_SMELT
-+ LootItemFunctionType LIMIT_COUNT
-+ LootItemFunctionType LOOTING_ENCHANT
-+ LootItemFunctionType SET_ATTRIBUTES
-+ LootItemFunctionType SET_CONTENTS
-+ LootItemFunctionType SET_COUNT
-+ LootItemFunctionType SET_DAMAGE
-+ LootItemFunctionType SET_LOOT_TABLE
-+ LootItemFunctionType SET_LORE
-+ LootItemFunctionType SET_NAME
-+ LootItemFunctionType SET_NBT
-+ LootItemFunctionType SET_STEW_EFFECT
-- Map FUNCTIONS_BY_CLASS
-- Map FUNCTIONS_BY_NAME
-+ LootItemFunctionType register(Serializer)
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
+
+```diff
++ LootItemConditionType getType()
++ void <init>(ResourceLocation,ConditionReference$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LocationCheck$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- String valueToString(Property,Object)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemConditions</summary>
+
+```diff
+- LootItemCondition$Serializer getSerializer(LootItemCondition)
+- LootItemCondition$Serializer getSerializer(ResourceLocation)
++ LootItemConditionType register(String,Serializer)
 + Object createGsonAdapter()
-- LootItemFunction$Serializer getSerializer(LootItemFunction)
-- LootItemFunction$Serializer getSerializer(ResourceLocation)
-- void register(LootItemFunction$Serializer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
+- void register(LootItemCondition$Serializer)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Serializer</summary>
+### Server
 
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
 
-</details>
 
-<details><summary>net.minecraft.world.level.storage.loot.predicates.ExplosionCondition$Serializer</summary>
 
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LocationCheck</summary>
-
-```diff
-+ LootItemConditionType getType()
-+ void <init>(LocationCheck$1)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition$Serializer</summary>
-
-```diff
-+ Object deserialize(JsonDeserializationContext)
-+ void serialize(JsonSerializationContext)
-- LootItemCondition deserialize(JsonDeserializationContext)
-- void serialize(JsonSerializationContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.MatchTool</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.TimeCheck</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck</summary>
-
-```diff
-+ LootItemConditionType getType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.BlockHitResult</summary>
-
-```diff
-+ BlockHitResult withPosition(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.Advancement
@@ -9132,13 +5808,1005 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.network.chat.Component</summary>
+
+```diff
+- Optional visit(Component$ContentConsumer)
+- Optional visit(Component$StyledContentConsumer,Style)
++ Optional visit(FormattedText$ContentConsumer)
++ Optional visit(FormattedText$StyledContentConsumer,Style)
+- Optional visitSelf(Component$ContentConsumer)
+- Optional visitSelf(Component$StyledContentConsumer,Style)
++ Optional visitSelf(FormattedText$ContentConsumer)
++ Optional visitSelf(FormattedText$StyledContentConsumer,Style)
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+
+```diff
+- boolean lambda$onResourceManagerReload$0(String)
+- CommandFunction addFunction(CommandFunction,Throwable,ResourceLocation)
+- CommandFunction lambda$onResourceManagerReload$2(ResourceLocation,List)
+- CommandFunction lambda$onResourceManagerReload$3(ResourceLocation,CommandFunction,Throwable)
+- CommandSourceStack getCompilationContext()
++ Iterable getFunctionNames()
++ Iterable getTagNames()
+- List lambda$onResourceManagerReload$1(ResourceManager,ResourceLocation)
+- List readLinesAsync(ResourceManager,ResourceLocation)
+- Map getFunctions()
++ Tag getTag(ResourceLocation)
+- TagCollection getTags()
++ void <init>(MinecraftServer,ServerFunctionLibrary)
+- void <init>(MinecraftServer)
++ void executeTagFunctions(Collection,ResourceLocation)
+- void onResourceManagerReload(ResourceManager)
++ void replaceLibrary(ServerFunctionLibrary)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkHolder</summary>
+
+```diff
+- void blockChanged(int,int,int)
++ void blockChanged(ServerChunkCache,int,int,int)
++ void forceSendLight()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
+- void forceMove(double,double,double)
++ void moveTo(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.repository.PackRepository</summary>
+
+```diff
++ boolean isAvailable(String)
+- Collection getAvailable()
++ Collection getAvailableIds()
++ Collection getAvailablePacks()
+- Collection getSelected()
++ Collection getSelectedIds()
++ Collection getSelectedPacks()
+- Collection getUnselected()
++ List openAllSelected()
++ List rebuildSelected(Collection)
++ Map discoverAvailable()
++ Stream getAvailablePacks(Collection)
++ void <init>(UnopenedPack$UnopenedPackConstructor,RepositorySource[])
+- void <init>(UnopenedPack$UnopenedPackConstructor)
+- void addSource(RepositorySource)
+- void lambda$sortAvailable$0(Map$Entry)
+- void sortAvailable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
+
+```diff
+- CompletableFuture reload(Executor,Executor,List,CompletableFuture)
++ Stream listPacks()
+- void <init>(PackType,Thread)
++ void <init>(PackType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- GameProfile[] getPlayerGameProfiles()
+- String getPlayerNames(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.stats.ServerRecipeBook</summary>
+
+```diff
++ void <init>()
+- void <init>(RecipeManager)
++ void fromNbt(CompoundTag,RecipeManager)
+- void fromNbt(CompoundTag)
++ void loadRecipes(ListTag,Consumer,RecipeManager)
+- void loadRecipes(ListTag,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.BlockTags</summary>
+
+```diff
++ Set getMissingTags(TagCollection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.FluidTags</summary>
+
+```diff
++ Set getMissingTags(TagCollection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.InteractionResultHolder</summary>
+
+```diff
++ InteractionResultHolder sidedSuccess(Object,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
+
+```diff
+- DamageSource fireball(AbstractHurtingProjectile,Entity)
++ DamageSource fireball(Fireball,Entity)
++ DamageSource witherSkull(WitherSkull,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean checkAndResetForcedChunkAdditionFlag()
+- boolean checkAndResetTeleportedFlag()
++ boolean checkAndResetUpdateChunkPos()
+- boolean isUnderLiquid(Tag,boolean)
++ double getFluidJumpThreshold()
++ double getMyRidingOffset()
++ double getPassengersRidingOffset()
+- double getRideHeight()
+- double getRidingHeight()
+- void forceMove(double,double,double)
++ void moveTo(double,double,double)
+- void positionRider(Entity,Entity$MoveCallback)
++ void positionRider(Entity,Entity$MoveFunction)
++ void removeVehicle()
+- void repositionDirectPassengers(Entity$MoveCallback)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.Brain</summary>
+
+```diff
++ void removeAllBehaviors()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
+
+```diff
++ boolean lambda$null$5(Villager,LivingEntity)
++ Stream getNearbyVillagersWithCondition(Villager,Predicate)
++ Stream lambda$getNearbyVillagersWithCondition$7(Villager,Predicate,List)
++ Villager lambda$null$6(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.PickaxeItem</summary>
+
+```diff
+- boolean canDestroySpecial(BlockState)
++ boolean isCorrectToolForDrops(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ShearsItem</summary>
+
+```diff
+- boolean canDestroySpecial(BlockState)
++ boolean isCorrectToolForDrops(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ShovelItem</summary>
+
+```diff
+- boolean canDestroySpecial(BlockState)
++ boolean isCorrectToolForDrops(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeDefaultFeatures</summary>
+
+```diff
++ void addFossilDecoration(Biome)
+- void addSwampExtraDecoration(Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
+
+```diff
++ boolean releaseOccupant(BlockState,BeehiveBlockEntity$BeeData,List,BeehiveBlockEntity$BeeReleaseStatus)
+- boolean releaseOccupant(BlockState,CompoundTag,List,BeehiveBlockEntity$BeeReleaseStatus)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity$BeeData</summary>
+
+```diff
++ CompoundTag access$100(BeehiveBlockEntity$BeeData)
+- CompoundTag access$300(BeehiveBlockEntity$BeeData)
+- int access$100(BeehiveBlockEntity$BeeData)
+- int access$108(BeehiveBlockEntity$BeeData)
++ int access$208(BeehiveBlockEntity$BeeData)
++ int access$300(BeehiveBlockEntity$BeeData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BellBlockEntity</summary>
+
+```diff
+- void lambda$showBellParticles$1(BlockPos,int,AtomicInteger,Level,LivingEntity)
++ void lambda$showBellParticles$1(BlockPos,int,MutableInt,Level,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
+
+```diff
++ void generate(ServerLevel,int,boolean)
+- void generate(ServerLevel,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SignBlockEntity</summary>
+
+```diff
+- Component getRenderMessage(int,UnaryOperator)
++ FormattedText getRenderMessage(int,UnaryOperator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+```diff
++ boolean requiresCorrectToolForDrops()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.HashMapPalette</summary>
+
+```diff
+- boolean maybeHas(Object)
++ boolean maybeHas(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
+
+```diff
+- LongSet getReferencesForFeature(String)
++ LongSet getReferencesForFeature(StructureFeature)
+- LongSet lambda$addReferenceForFeature$8(String)
++ LongSet lambda$addReferenceForFeature$8(StructureFeature)
+- LongSet lambda$getReferencesForFeature$7(String)
++ LongSet lambda$getReferencesForFeature$7(StructureFeature)
+- StructureStart getStartForFeature(String)
++ StructureStart getStartForFeature(StructureFeature)
+- void addReferenceForFeature(String,long)
++ void addReferenceForFeature(StructureFeature,long)
+- void setStartForFeature(String,StructureStart)
++ void setStartForFeature(StructureFeature,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
+
+```diff
+- boolean maybeHas(BlockState)
++ boolean maybeHas(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.LinearPalette</summary>
+
+```diff
+- boolean maybeHas(Object)
++ boolean maybeHas(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
+
+```diff
+- boolean maybeHas(Object)
++ boolean maybeHas(Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
+- LongSet getReferencesForFeature(String)
++ LongSet getReferencesForFeature(StructureFeature)
+- LongSet lambda$addReferenceForFeature$4(String)
++ LongSet lambda$addReferenceForFeature$4(StructureFeature)
+- LongSet lambda$getReferencesForFeature$3(String)
++ LongSet lambda$getReferencesForFeature$3(StructureFeature)
+- StructureStart getStartForFeature(String)
++ StructureStart getStartForFeature(StructureFeature)
+- void addReferenceForFeature(String,long)
++ void addReferenceForFeature(StructureFeature,long)
+- void setStartForFeature(String,StructureStart)
++ void setStartForFeature(StructureFeature,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+
+```diff
+- DimensionType defaultOverworld()
++ DimensionType makeDefaultEnd()
++ DimensionType makeDefaultNether()
++ DimensionType makeDefaultOverworld()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
+
+```diff
+- boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,AtomicBoolean)
++ boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,MutableBoolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.UnderwaterCanyonWorldCarver</summary>
+
+```diff
+- boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,AtomicBoolean)
++ boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,MutableBoolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
+
+```diff
+- boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,AtomicBoolean)
++ boolean carveBlock(ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,int,int,int,int,int,int,int,MutableBoolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
+
+```diff
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
+
+```diff
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
+
+```diff
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
+
+```diff
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
+
+```diff
++ void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$Placer</summary>
+
+```diff
+- void access$800(JigsawPlacement$Placer,PoolElementStructurePiece,AtomicReference,int,int,boolean)
++ void access$800(JigsawPlacement$Placer,PoolElementStructurePiece,MutableObject,int,int,boolean)
+- void tryPlacingChildren(PoolElementStructurePiece,AtomicReference,int,int,boolean)
++ void tryPlacingChildren(PoolElementStructurePiece,MutableObject,int,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
+
+```diff
+- void lambda$placeFeature$2(ConfiguredFeature,WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,AtomicBoolean,BlockPos)
++ void lambda$placeFeature$2(ConfiguredFeature,WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,MutableBoolean,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.LegacyStructureDataHandler</summary>
+
+```diff
+- LegacyStructureDataHandler getLegacyStructureHandler(DimensionType,DimensionDataStorage)
++ LegacyStructureDataHandler getLegacyStructureHandler(ResourceKey,DimensionDataStorage)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
+
+```diff
+- void <init>(MinecraftServer,LevelStorageSource$LevelStorageAccess,DataFixer)
++ void <init>(ResourceManager,LevelStorageSource$LevelStorageAccess,DataFixer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
+
+```diff
+- boolean placeInWorld(LevelAccessor,BlockPos,BlockPos,StructurePlaceSettings,int)
++ boolean placeInWorld(LevelAccessor,BlockPos,BlockPos,StructurePlaceSettings,Random,int)
++ void placeInWorld(LevelAccessor,BlockPos,StructurePlaceSettings,Random)
+- void placeInWorld(LevelAccessor,BlockPos,StructurePlaceSettings)
++ void placeInWorldChunk(LevelAccessor,BlockPos,StructurePlaceSettings,Random)
+- void placeInWorldChunk(LevelAccessor,BlockPos,StructurePlaceSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.Material$Builder</summary>
+
+```diff
+- Material$Builder notAlwaysDestroyable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
+
+```diff
++ Node currentNode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
+
+```diff
+- BlockPathTypes getBlockPathType(Mob,int,int,int)
++ BlockPathTypes getCachedBlockType(Mob,int,int,int)
++ BlockPathTypes lambda$getCachedBlockType$1(int,int,int,Mob,long)
++ boolean hasCollisions(AABB)
++ Boolean lambda$hasCollisions$0(AABB,AABB)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
+
+```diff
++ LootPoolEntryType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntries</summary>
+
+```diff
++ LootPoolEntryType register(String,Serializer)
+- Map access$000()
+- Map access$100()
++ Object createGsonAdapter()
+- void register(LootPoolEntryContainer$Serializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer</summary>
+
+```diff
+- LootPoolEntryContainer deserialize(JsonObject,JsonDeserializationContext,LootItemCondition[])
++ LootPoolEntryContainer deserializeCustom(JsonObject,JsonDeserializationContext,LootItemCondition[])
+- LootPoolSingletonContainer deserialize(JsonObject,JsonDeserializationContext,LootItemCondition[])
++ LootPoolSingletonContainer deserializeCustom(JsonObject,JsonDeserializationContext,LootItemCondition[])
++ void <init>()
+- void <init>(ResourceLocation,Class)
+- void serialize(JsonObject,LootPoolEntryContainer,JsonSerializationContext)
+- void serialize(JsonObject,LootPoolSingletonContainer,JsonSerializationContext)
++ void serializeCustom(JsonObject,LootPoolEntryContainer,JsonSerializationContext)
++ void serializeCustom(JsonObject,LootPoolSingletonContainer,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.SequentialEntry</summary>
+
+```diff
++ LootPoolEntryType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry</summary>
+
+```diff
++ LootPoolEntryType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootPoolEntryContainer,JsonSerializationContext)
+- void serialize(JsonObject,LootPoolSingletonContainer,JsonSerializationContext)
+- void serialize(JsonObject,TagEntry,JsonSerializationContext)
++ void serializeCustom(JsonObject,LootPoolEntryContainer,JsonSerializationContext)
++ void serializeCustom(JsonObject,LootPoolSingletonContainer,JsonSerializationContext)
++ void serializeCustom(JsonObject,TagEntry,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount</summary>
+
+```diff
++ LootItemFunctionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
+
+```diff
++ LootItemFunctionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyBlockState$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNbtFunction$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.FillPlayerHead$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount</summary>
+
+```diff
++ LootItemFunctionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount$Serializer</summary>
+
+```diff
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer</summary>
+
+```diff
+- LootItemFunction deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
++ void <init>()
+- void <init>(ResourceLocation,Class)
+- void serialize(JsonObject,LootItemFunction,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctions</summary>
+
+```diff
+- LootItemFunction$Serializer getSerializer(LootItemFunction)
+- LootItemFunction$Serializer getSerializer(ResourceLocation)
++ LootItemFunctionType register(String,Serializer)
++ Object createGsonAdapter()
+- void register(LootItemFunction$Serializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.DamageSourceCondition$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.ExplosionCondition$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LocationCheck</summary>
+
+```diff
++ LootItemConditionType getType()
++ void <init>(LocationPredicate,BlockPos,LocationCheck$1)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition$Serializer</summary>
+
+```diff
+- LootItemCondition deserialize(JsonObject,JsonDeserializationContext)
++ Object deserialize(JsonObject,JsonDeserializationContext)
+- void serialize(JsonObject,LootItemCondition,JsonSerializationContext)
++ void serialize(JsonObject,Object,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.MatchTool</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.TimeCheck</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck</summary>
+
+```diff
++ LootItemConditionType getType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.BlockHitResult</summary>
+
+```diff
++ BlockHitResult withPosition(BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/fence_gates.json
++ minecraft/tags/blocks/unstable_bottom_center.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/shaders/post/transparency.json
++ minecraft/shaders/program/screenquad.vsh
++ minecraft/shaders/program/transparency.fsh
++ minecraft/shaders/program/transparency.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ loot_condition_type.txt
++ loot_function_type.txt
++ loot_pool_entry_type.txt
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:dancing
++ minecraft:potential_job_site
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/fence_gates.json
++ blocks/unstable_bottom_center.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.reload.failure
++ datapackFailure.safeMode
++ datapackFailure.title
++ death.attack.witherSkull
++ jigsaw_block.keep_jigsaws
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/fence_gates.json
++ blocks/unstable_bottom_center.json
+```
+
+</details>

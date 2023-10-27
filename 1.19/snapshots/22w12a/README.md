@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w12a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w12a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-03-24T16:15:02+00:00</td></tr>
@@ -10,2294 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/66958fd7cba81700445786fd72af15d7163c0d4a/server.txt">https://piston-data.mojang.com/v1/objects/66958fd7cba81700445786fd72af15d7163c0d4a/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/9638f6997fd59545585242eadab1e5039356e77a/client.jar">https://piston-data.mojang.com/v1/objects/9638f6997fd59545585242eadab1e5039356e77a/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b439349831e52fb3231c4e6dda4980b105cd8159/client.txt">https://piston-data.mojang.com/v1/objects/b439349831e52fb3231c4e6dda4980b105cd8159/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w11a">22w11a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
--  minecraft/advancements/recipes/building_blocks/mangrove_fence.json
--  minecraft/advancements/recipes/building_blocks/mangrove_fence_gate.json
-+  minecraft/advancements/recipes/decorations/mangrove_fence.json
-+  minecraft/advancements/recipes/redstone/mangrove_fence_gate.json
-+  minecraft/advancements/recipes/transportation/acacia_chest_boat.json
-+  minecraft/advancements/recipes/transportation/birch_chest_boat.json
-+  minecraft/advancements/recipes/transportation/dark_oak_chest_boat.json
-+  minecraft/advancements/recipes/transportation/jungle_chest_boat.json
-+  minecraft/advancements/recipes/transportation/mangrove_chest_boat.json
-+  minecraft/advancements/recipes/transportation/oak_chest_boat.json
-+  minecraft/advancements/recipes/transportation/spruce_chest_boat.json
-+  minecraft/loot_tables/blocks/frogspawn.json
-+  minecraft/loot_tables/entities/warden.json
-+  minecraft/recipes/acacia_chest_boat.json
-+  minecraft/recipes/birch_chest_boat.json
-+  minecraft/recipes/dark_oak_chest_boat.json
-+  minecraft/recipes/jungle_chest_boat.json
-+  minecraft/recipes/mangrove_chest_boat.json
-+  minecraft/recipes/oak_chest_boat.json
-+  minecraft/recipes/spruce_chest_boat.json
-+  minecraft/tags/game_events/warden_events_can_listen.json
-+  minecraft/tags/items/chest_boats.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/acacia_chest_boat.json
-+  minecraft/models/item/birch_chest_boat.json
-+  minecraft/models/item/dark_oak_chest_boat.json
-+  minecraft/models/item/jungle_chest_boat.json
-+  minecraft/models/item/mangrove_chest_boat.json
-+  minecraft/models/item/oak_chest_boat.json
-+  minecraft/models/item/spruce_chest_boat.json
-+  minecraft/models/item/warden_spawn_egg.json
-+  minecraft/particles/shriek.json
-+  minecraft/shaders/core/rendertype_entity_translucent_emissive.fsh
-+  minecraft/shaders/core/rendertype_entity_translucent_emissive.json
-+  minecraft/shaders/core/rendertype_entity_translucent_emissive.vsh
-+  minecraft/textures/entity/chest_boat
-+  minecraft/textures/entity/chest_boat/acacia.png
-+  minecraft/textures/entity/chest_boat/birch.png
-+  minecraft/textures/entity/chest_boat/dark_oak.png
-+  minecraft/textures/entity/chest_boat/jungle.png
-+  minecraft/textures/entity/chest_boat/mangrove.png
-+  minecraft/textures/entity/chest_boat/oak.png
-+  minecraft/textures/entity/chest_boat/spruce.png
-+  minecraft/textures/entity/warden
-+  minecraft/textures/entity/warden/warden.png
-+  minecraft/textures/entity/warden/warden_bioluminescent_layer.png
-+  minecraft/textures/entity/warden/warden_ears.png
-+  minecraft/textures/entity/warden/warden_heart.png
-+  minecraft/textures/entity/warden/warden_pulsating_spots_1.png
-+  minecraft/textures/entity/warden/warden_pulsating_spots_2.png
-+  minecraft/textures/item/acacia_chest_boat.png
-+  minecraft/textures/item/birch_chest_boat.png
-+  minecraft/textures/item/dark_oak_chest_boat.png
-+  minecraft/textures/item/jungle_chest_boat.png
-+  minecraft/textures/item/mangrove_chest_boat.png
-+  minecraft/textures/item/oak_chest_boat.png
-+  minecraft/textures/item/spruce_chest_boat.png
-+  minecraft/textures/mob_effect/darkness.png
-+  minecraft/textures/particle/shriek.png
--  realms/textures/gui/realms/questionmark.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/worldgen/minecraft/worldgen/density_function/end/base_3d_noise.json
-+  reports/worldgen/minecraft/worldgen/density_function/nether
-+  reports/worldgen/minecraft/worldgen/density_function/nether/base_3d_noise.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:sniff
-+ minecraft:investigate
-+ minecraft:roar
-+ minecraft:emerge
-+ minecraft:dig
-```
-
-</details>
-
-<details><summary>enchantment.txt</summary>
-
-```diff
-+ minecraft:swift_sneak
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:chest_boat
-+ minecraft:warden
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-+ minecraft:sculk_sensor_tendrils_clicking
-+ minecraft:shriek
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:oak_chest_boat
-+ minecraft:spruce_chest_boat
-+ minecraft:birch_chest_boat
-+ minecraft:jungle_chest_boat
-+ minecraft:acacia_chest_boat
-+ minecraft:dark_oak_chest_boat
-+ minecraft:mangrove_chest_boat
-+ minecraft:warden_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:roar_target
-+ minecraft:disturbance_location
-+ minecraft:recent_projectile
-+ minecraft:is_sniffing
-+ minecraft:is_emerging
-+ minecraft:roar_sound_delay
-+ minecraft:dig_cooldown
-+ minecraft:roar_sound_cooldown
-+ minecraft:sniff_cooldown
-+ minecraft:touch_cooldown
-+ minecraft:vibration_cooldown
-```
-
-</details>
-
-<details><summary>mob_effect.txt</summary>
-
-```diff
-+ minecraft:darkness
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:shriek
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:warden_entity_sensor
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.parrot.imitate.warden
-+ minecraft:block.sculk_shrieker.shriek
-+ minecraft:entity.warden.agitated
-+ minecraft:entity.warden.ambient
-+ minecraft:entity.warden.angry
-+ minecraft:entity.warden.attack_impact
-+ minecraft:entity.warden.death
-+ minecraft:entity.warden.dig
-+ minecraft:entity.warden.emerge
-+ minecraft:entity.warden.heartbeat
-+ minecraft:entity.warden.hurt
-+ minecraft:entity.warden.listening
-+ minecraft:entity.warden.listening_angry
-+ minecraft:entity.warden.nearby_close
-+ minecraft:entity.warden.nearby_closer
-+ minecraft:entity.warden.nearby_closest
-+ minecraft:entity.warden.roar
-+ minecraft:entity.warden.sniff
-+ minecraft:entity.warden.step
-+ minecraft:entity.warden.tendril_clicks
-```
-
-</details>
-
-<details><summary>worldgen/density_function_type.txt</summary>
-
-```diff
-- minecraft:slide
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ game_events/warden_events_can_listen.json
-+ items/chest_boats.json
-```
-
-</details>
-
-<details><summary>blocks/mineable/hoe.json</summary>
-
-```diff
-+ minecraft:mangrove_leaves
-```
-
-</details>
-
-<details><summary>items/boats.json</summary>
-
-```diff
-+ minecraft:mangrove_boat
-+ #minecraft:chest_boats
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/mangrove_fence.json
-- recipes/building_blocks/mangrove_fence_gate.json
-+ recipes/decorations/mangrove_fence.json
-+ recipes/redstone/mangrove_fence_gate.json
-+ recipes/transportation/acacia_chest_boat.json
-+ recipes/transportation/birch_chest_boat.json
-+ recipes/transportation/dark_oak_chest_boat.json
-+ recipes/transportation/jungle_chest_boat.json
-+ recipes/transportation/mangrove_chest_boat.json
-+ recipes/transportation/oak_chest_boat.json
-+ recipes/transportation/spruce_chest_boat.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/frogspawn.json
-+ entities/warden.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ shriek.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ acacia_chest_boat.json
-+ birch_chest_boat.json
-+ dark_oak_chest_boat.json
-+ jungle_chest_boat.json
-+ mangrove_chest_boat.json
-+ oak_chest_boat.json
-+ spruce_chest_boat.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ game_events/warden_events_can_listen.json
-+ items/chest_boats.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ entity/chest_boat/acacia.png
-+ entity/chest_boat/birch.png
-+ entity/chest_boat/dark_oak.png
-+ entity/chest_boat/jungle.png
-+ entity/chest_boat/mangrove.png
-+ entity/chest_boat/oak.png
-+ entity/chest_boat/spruce.png
-+ entity/warden/warden.png
-+ entity/warden/warden_bioluminescent_layer.png
-+ entity/warden/warden_ears.png
-+ entity/warden/warden_heart.png
-+ entity/warden/warden_pulsating_spots_1.png
-+ entity/warden/warden_pulsating_spots_2.png
-+ item/acacia_chest_boat.png
-+ item/birch_chest_boat.png
-+ item/dark_oak_chest_boat.png
-+ item/jungle_chest_boat.png
-+ item/mangrove_chest_boat.png
-+ item/oak_chest_boat.png
-+ item/spruce_chest_boat.png
-+ mob_effect/darkness.png
-+ particle/shriek.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-- Component SERVER_INFO_TOOLTIP
-- ResourceLocation QUESTIONMARK_LOCATION
-+ boolean lambda$removeServer$13(RealmsMainScreen$Entry)
-+ boolean lambda$updateTeaserImages$16(ResourceLocation)
-+ void lambda$addButtons$10(Button)
-+ void lambda$charTyped$14(KeyCombo)
-+ void lambda$leaveClicked$12(RealmsServer,boolean)
-+ void lambda$pingRegions$11()
-- boolean lambda$removeServer$12(RealmsMainScreen$Entry)
-- boolean lambda$updateTeaserImages$14(ResourceLocation)
-- void lambda$charTyped$13(KeyCombo)
-- void lambda$leaveClicked$11(RealmsServer,boolean)
-- void lambda$pingRegions$10()
-- void renderMoreInfo(PoseStack,int,int,int,int,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.OptionInstance</summary>
-
-```diff
-+ Codec codec
-+ Component caption
-+ OptionInstance$Enum BOOLEAN_VALUES
-+ Codec codec()
-+ Component getCaption()
-+ Component lambda$createBoolean$2(Boolean)
-+ Function noTooltip()
-+ List lambda$noTooltip$3(Object)
-+ Object lambda$set$5(Object)
-+ OptionInstance createBoolean(String,boolean)
-+ OptionInstance$TooltipSupplier lambda$noTooltip$4(Minecraft)
-+ OptionInstance$ValueSet clampingLazyMax(IntSupplier)
-+ String toString()
-+ void <init>(Consumer)
-+ void lambda$createBoolean$1(Boolean)
-- Component lambda$createBoolean$1(Boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.OptionInstance$UnitDouble</summary>
-
-```diff
-+ AbstractWidget lambda$createButton$0(OptionInstance)
-+ Codec codec()
-+ Double lambda$codec$1(Double)
-+ Double lambda$codec$2(Boolean)
-+ Double lambda$codec$3(Either)
-+ Function createButton(Options,int,int,int)
-+ Optional validateValue(Double)
-+ Optional validateValue(Object)
-+ OptionInstance$SliderableValueSet xmap(ToDoubleFunction)
-- AbstractWidget lambda$createButton$0(OptionInstance)
-- boolean validValue(Double)
-- boolean validValue(Object)
-- Function createButton(Options,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
-
-```diff
-+ OptionInstance[] options(Options)
-- Option[] options(Options)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
-
-```diff
-+ OptionInstance[] lambda$init$0(int)
-+ OptionInstance[] options(Options)
-- Option[] lambda$init$0(int)
-- Option[] options(Options)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldOpenFlows</summary>
-
-```diff
-+ void askForBackup(Runnable)
-+ void doLoadLevel(String,boolean,boolean)
-+ void lambda$doLoadLevel$2(String,boolean)
-+ void lambda$doLoadLevel$3(String,boolean)
-+ void loadLevel(String)
-- void askForBackup(Runnable)
-- void doLoadLevel(String,boolean,boolean)
-- void lambda$doLoadLevel$2(String,boolean)
-- void lambda$doLoadLevel$3(String,boolean)
-- void loadLevel(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.BoatModel</summary>
-
-```diff
-+ String CHEST_BOTTOM
-+ String CHEST_LID
-+ String CHEST_LOCK
-+ LayerDefinition createBodyModel(boolean)
-+ void <init>(ModelPart,boolean)
-- LayerDefinition createBodyModel()
-- void <init>(ModelPart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.SectionPos</summary>
-
-```diff
-+ int blockToSectionCoord(double)
-+ SectionPos of(EntityAccess)
-+ SectionPos of(Position)
-- SectionPos of(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ ParticleType SHRIEK
-+ Codec lambda$static$4(ParticleType)
-+ ParticleType register(Function)
-- ParticleType register(Function,boolean)
-- ParticleType register(Function)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.particles.VibrationParticleOption</summary>
-
-```diff
-+ int arrivalInTicks
-+ PositionSource destination
-- VibrationPath vibrationPath
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ int getArrivalInTicks()
-+ Integer lambda$static$1(VibrationParticleOption)
-+ PositionSource getDestination()
-+ PositionSource lambda$static$0(VibrationParticleOption)
-+ void <init>(PositionSource,int)
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- VibrationPath getVibrationPath()
-- VibrationPath lambda$static$0(VibrationParticleOption)
-- void <init>(VibrationPath)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.GameEventTagsProvider</summary>
-
-```diff
-+ GameEvent[] MOST_VIBRATIONS
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.TextFilterClient</summary>
-
-```diff
-+ String DEFAULT_ENDPOINT
-+ TextFilterClient$JoinOrLeaveEncoder joinEncoder
-+ TextFilterClient$JoinOrLeaveEncoder leaveEncoder
-+ TextFilterClient$MessageEncoder chatEncoder
-- int ruleId
-- String roomId
-- String serverId
-+ JsonObject lambda$createFromConfig$1(GameProfile)
-+ JsonObject lambda$createFromConfig$2(String)
-+ JsonObject lambda$createFromConfig$3(String)
-+ String getEndpointFromConfig(String)
-+ TextFilter$FilteredText lambda$requestMessageProcessing$5(TextFilterClient$IgnoreStrategy)
-+ void <init>(TextFilterClient$IgnoreStrategy,int)
-+ void lambda$processJoinOrLeave$4(URL)
-+ void processJoinOrLeave(Executor)
-- TextFilter$FilteredText lambda$requestMessageProcessing$2(TextFilterClient$IgnoreStrategy)
-- void <init>(TextFilterClient$IgnoreStrategy,int)
-- void lambda$processJoinOrLeave$1(GameProfile)
-- void processJoinOrLeave(Executor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent PARROT_IMITATE_WARDEN
-+ SoundEvent SCULK_SHRIEKER_SHRIEK
-+ SoundEvent WARDEN_AGITATED
-+ SoundEvent WARDEN_AMBIENT
-+ SoundEvent WARDEN_ANGRY
-+ SoundEvent WARDEN_ATTACK_IMPACT
-+ SoundEvent WARDEN_DEATH
-+ SoundEvent WARDEN_DIG
-+ SoundEvent WARDEN_EMERGE
-+ SoundEvent WARDEN_HEARTBEAT
-+ SoundEvent WARDEN_HURT
-+ SoundEvent WARDEN_LISTENING
-+ SoundEvent WARDEN_LISTENING_ANGRY
-+ SoundEvent WARDEN_NEARBY_CLOSE
-+ SoundEvent WARDEN_NEARBY_CLOSER
-+ SoundEvent WARDEN_NEARBY_CLOSEST
-+ SoundEvent WARDEN_ROAR
-+ SoundEvent WARDEN_SNIFF
-+ SoundEvent WARDEN_STEP
-+ SoundEvent WARDEN_TENDRIL_CLICKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey CHEST_BOATS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ Codec UUID
-+ Codec catchDecoderException(Codec)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ boolean lambda$outFromOrigin$1(int,int,int,int)
-+ int lambda$outFromOrigin$2(int,int,int,int,int)
-+ IntStream outFromOrigin(int,int,int,int)
-+ IntStream outFromOrigin(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffects</summary>
-
-```diff
-+ int DARKNESS_EFFECT_FACTOR_PADDING_DURATION
-+ MobEffect DARKNESS
-+ MobEffectInstance$FactorData lambda$static$0()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType CHEST_BOAT
-+ EntityType WARDEN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StartAttacking</summary>
-
-```diff
-+ void <init>(Function,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
-
-```diff
-+ BiConsumer onTargetErased
-+ boolean canGrowTiredOfTryingToReachTarget
-- Consumer onTargetErased
-+ void <init>(BiConsumer,boolean)
-+ void <init>(BiConsumer)
-+ void <init>(BiConsumer)
-+ void lambda$new$0(LivingEntity)
-+ void lambda$new$3(LivingEntity)
-- void <init>(Consumer)
-- void <init>(Consumer)
-- void lambda$new$0(Mob)
-- void lambda$new$3(Mob)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ Logger LOGGER
-+ WardenSpawnTracker wardenSpawnTracker
-+ Style lambda$decorateDisplayNameComponent$6(Style)
-+ void lambda$addAdditionalSaveData$3(Tag)
-+ void lambda$hurtCurrentlyUsedShield$4(Player)
-+ void lambda$readAdditionalSaveData$2(WardenSpawnTracker)
-+ void lambda$respawnEntityOnShoulder$5(Entity)
-+ WardenSpawnTracker getWardenSpawnTracker()
-- Style lambda$decorateDisplayNameComponent$4(Style)
-- void lambda$hurtCurrentlyUsedShield$2(Player)
-- void lambda$respawnEntityOnShoulder$3(Entity)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
-
-```diff
-+ float getLightLevelDependentMagicValue()
-- float getBrightness()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
-
-```diff
-+ float getLightLevelDependentMagicValue()
-- float getBrightness()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
-
-```diff
-+ float getLightLevelDependentMagicValue()
-- float getBrightness()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
-
-```diff
-+ Activity DIG
-+ Activity EMERGE
-+ Activity INVESTIGATE
-+ Activity ROAR
-+ Activity SNIFF
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
-
-```diff
-+ long getLootTableSeed()
-+ NonNullList getItemStacks()
-+ ResourceLocation getLootTable()
-+ void clearItemStacks()
-+ void setLootTable(ResourceLocation)
-+ void setLootTableSeed(long)
-- boolean isEmpty()
-- void unpackLootTable(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelReader</summary>
-
-```diff
-+ float getLightLevelDependentMagicValue(BlockPos)
-+ float getPathfindingCostFromLightLevels(BlockPos)
-- float getBrightness(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ Pair findClosestBiome3d(LevelReader)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
-
-```diff
-+ Pair findClosestBiome3d(LevelReader)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
-
-```diff
-+ BooleanProperty WATERLOGGED
-+ boolean decaying(BlockState)
-+ FluidState getFluidState(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
-
-```diff
-+ GameEventListener getListener(BlockEntity)
-- GameEventListener getListener(BlockEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-+ double TOP_Y
-+ int SHRIEKING_TICKS
-+ VoxelShape COLLIDER
-- VoxelShape OCCLUDER
-+ BlockEntityTicker getTicker(BlockEntityType)
-+ boolean canShriek(BlockState)
-+ Boolean lambda$canShriek$1(WardenSpawnTracker)
-+ boolean lambda$shriek$2(WardenSpawnTracker)
-+ GameEventListener getListener(BlockEntity)
-+ Optional getWardenSpawnTracker(BlockPos)
-+ void lambda$getTicker$4(SculkShriekerBlockEntity)
-+ void lambda$shriek$3(WardenSpawnTracker)
-+ void lambda$tick$0(WardenSpawnTracker)
-+ void neighborChanged(BlockPos,boolean)
-+ void shriek(BlockPos)
-+ void stepOn(Entity)
-+ void tick(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
-
-```diff
-+ float getShadeBrightness(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
-
-```diff
-+ float getShadeBrightness(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.CampfireBlockEntity</summary>
-
-```diff
-+ RecipeManager$CachedCheck quickCheck
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
-
-```diff
-+ Logger LOGGER
-+ boolean shouldListen(Entity)
-+ void <clinit>()
-+ void lambda$load$0(VibrationListener)
-+ void lambda$saveAdditional$1(Tag)
-+ void onSignalReceive(Entity,int)
-- boolean shouldListen(Entity)
-- void onSignalReceive(GameEvent,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ BlockBehaviour$Properties noLootTable()
-- BlockBehaviour$Properties noDrops()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
-
-```diff
-+ BlockPos pos
-- Optional pos
-+ BlockPos lambda$static$0(BlockPositionSource)
-- Optional lambda$static$0(BlockPositionSource)
-- void <init>(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunction</summary>
-
-```diff
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
-
-```diff
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction</summary>
-
-```diff
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler</summary>
-
-```diff
-+ DensityFunction$NoiseHolder noise
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-- Holder noiseData
-- NormalNoise noise
-+ DensityFunction$NoiseHolder noise()
-+ KeyDispatchDataCodec codec()
-+ void <init>(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
-- Codec codec()
-- DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
-- Holder noiseData()
-- NormalNoise noise()
-- void <init>(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$YClampedGradient</summary>
-
-```diff
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$BlendAlpha</summary>
-
-```diff
-+ DensityFunction mapAll(DensityFunction$Visitor)
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate</summary>
-
-```diff
-+ boolean runNext(Level)
-- boolean runNext(ServerLevel)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.redstone.NeighborUpdater</summary>
-
-```diff
-+ void shapeUpdate(net.minecraft.core.Direction,net.minecraft.world.level.block.state.BlockState,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,int,int)
-- NeighborUpdater NOOP
-+ void executeShapeUpdate(BlockPos,int,int)
-+ void executeUpdate(BlockPos,boolean)
-- void executeUpdate(BlockPos,boolean)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.font.GlyphProvider
@@ -6049,617 +3783,198 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-- void handleAddVibrationSignal(net.minecraft.network.protocol.game.ClientboundAddVibrationSignalPacket)
+- boolean lambda$removeServer$12(RealmsServer,RealmsMainScreen$Entry)
++ boolean lambda$removeServer$13(RealmsServer,RealmsMainScreen$Entry)
+- boolean lambda$updateTeaserImages$14(ResourceLocation)
++ boolean lambda$updateTeaserImages$16(ResourceLocation)
++ void lambda$addButtons$10(Button)
+- void lambda$charTyped$13(char,KeyCombo)
++ void lambda$charTyped$14(char,KeyCombo)
+- void lambda$leaveClicked$11(RealmsServer,boolean)
++ void lambda$leaveClicked$12(RealmsServer,boolean)
+- void lambda$pingRegions$10()
++ void lambda$pingRegions$11()
+- void renderMoreInfo(PoseStack,int,int,int,int,boolean)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.OptionInstance</summary>
+
+```diff
++ Codec codec()
++ Component getCaption()
+- Component lambda$createBoolean$1(Boolean)
++ Component lambda$createBoolean$2(Boolean)
++ Function noTooltip()
++ List lambda$noTooltip$3(Object)
++ Object lambda$set$5(Object)
++ OptionInstance createBoolean(String,boolean)
++ OptionInstance$TooltipSupplier lambda$noTooltip$4(Minecraft)
++ OptionInstance$ValueSet clampingLazyMax(int,IntSupplier)
++ String toString()
++ void <init>(String,Function,Function,OptionInstance$ValueSet,Codec,Object,Consumer)
++ void lambda$createBoolean$1(Boolean)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.OptionInstance$UnitDouble</summary>
+
+```diff
+- AbstractWidget lambda$createButton$0(Options,int,int,int,Option$TooltipSupplier,OptionInstance)
++ AbstractWidget lambda$createButton$0(Options,int,int,int,OptionInstance$TooltipSupplier,OptionInstance)
+- boolean validValue(Double)
+- boolean validValue(Object)
++ Codec codec()
++ Double lambda$codec$1(Double)
++ Double lambda$codec$2(Boolean)
++ Double lambda$codec$3(Either)
+- Function createButton(Option$TooltipSupplier,Options,int,int,int)
++ Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)
++ Optional validateValue(Double)
++ Optional validateValue(Object)
++ OptionInstance$SliderableValueSet xmap(DoubleFunction,ToDoubleFunction)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
+
+```diff
+- Option[] options(Options)
++ OptionInstance[] options(Options)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.MouseSettingsScreen</summary>
+
+```diff
+- Option[] lambda$init$0(int)
+- Option[] options(Options)
++ OptionInstance[] lambda$init$0(int)
++ OptionInstance[] options(Options)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldOpenFlows</summary>
+
+```diff
++ void askForBackup(Screen,String,boolean,Runnable)
+- void askForBackup(String,boolean,Runnable)
++ void doLoadLevel(Screen,String,boolean,boolean)
+- void doLoadLevel(String,boolean,boolean)
++ void lambda$doLoadLevel$2(Screen,String,boolean)
+- void lambda$doLoadLevel$2(String,boolean)
++ void lambda$doLoadLevel$3(Screen,String,boolean)
+- void lambda$doLoadLevel$3(String,boolean)
++ void loadLevel(Screen,String)
+- void loadLevel(String)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.model.BoatModel</summary>
+
+```diff
+- LayerDefinition createBodyModel()
++ LayerDefinition createBodyModel(boolean)
++ void <init>(ModelPart,boolean)
+- void <init>(ModelPart)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.core.SectionPos</summary>
+
+```diff
++ int blockToSectionCoord(double)
+- SectionPos of(Entity)
++ SectionPos of(EntityAccess)
++ SectionPos of(Position)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
+
+```diff
++ Codec lambda$static$4(ParticleType)
++ ParticleType register(String,boolean,ParticleOptions$Deserializer,Function)
+- ParticleType register(String,ParticleOptions$Deserializer,Function,boolean)
+- ParticleType register(String,ParticleOptions$Deserializer,Function)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.core.particles.VibrationParticleOption</summary>
+
+```diff
+- App lambda$static$1(RecordCodecBuilder$Instance)
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ int getArrivalInTicks()
++ Integer lambda$static$1(VibrationParticleOption)
++ PositionSource getDestination()
++ PositionSource lambda$static$0(VibrationParticleOption)
+- VibrationPath getVibrationPath()
+- VibrationPath lambda$static$0(VibrationParticleOption)
++ void <init>(PositionSource,int)
+- void <init>(VibrationPath)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.tags.GameEventTagsProvider</summary>
 
+```diff
++ void <clinit>()
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.server.network.TextFilterClient</summary>
 
 ```diff
-+ String DEFAULT_ENDPOINT
-+ TextFilterClient$JoinOrLeaveEncoder joinEncoder
-+ TextFilterClient$JoinOrLeaveEncoder leaveEncoder
-+ TextFilterClient$MessageEncoder chatEncoder
-- int ruleId
-- String roomId
-- String serverId
-+ JsonObject lambda$createFromConfig$1(GameProfile)
-+ JsonObject lambda$createFromConfig$2(String)
-+ JsonObject lambda$createFromConfig$3(String)
-+ String getEndpointFromConfig(String)
-+ TextFilter$FilteredText lambda$requestMessageProcessing$5(TextFilterClient$IgnoreStrategy)
-+ void <init>(TextFilterClient$IgnoreStrategy,int)
-+ void lambda$processJoinOrLeave$4(URL)
-+ void processJoinOrLeave(Executor)
-- TextFilter$FilteredText lambda$requestMessageProcessing$2(TextFilterClient$IgnoreStrategy)
-- void <init>(TextFilterClient$IgnoreStrategy,int)
-- void lambda$processJoinOrLeave$1(GameProfile)
-- void processJoinOrLeave(Executor)
++ JsonObject lambda$createFromConfig$1(String,String,GameProfile)
++ JsonObject lambda$createFromConfig$2(int,String,String,GameProfile,String)
++ JsonObject lambda$createFromConfig$3(String,String,String,GameProfile,String)
++ String getEndpointFromConfig(JsonObject,String,String)
+- TextFilter$FilteredText lambda$requestMessageProcessing$2(JsonObject,String,TextFilterClient$IgnoreStrategy)
++ TextFilter$FilteredText lambda$requestMessageProcessing$5(GameProfile,String,TextFilterClient$IgnoreStrategy)
++ void <init>(URL,TextFilterClient$MessageEncoder,URL,TextFilterClient$JoinOrLeaveEncoder,URL,TextFilterClient$JoinOrLeaveEncoder,String,TextFilterClient$IgnoreStrategy,int)
+- void <init>(URL,URL,URL,String,int,String,String,TextFilterClient$IgnoreStrategy,int)
+- void lambda$processJoinOrLeave$1(JsonObject,URL,GameProfile)
++ void lambda$processJoinOrLeave$4(TextFilterClient$JoinOrLeaveEncoder,GameProfile,URL)
+- void processJoinOrLeave(GameProfile,URL,Executor)
++ void processJoinOrLeave(GameProfile,URL,TextFilterClient$JoinOrLeaveEncoder,Executor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent PARROT_IMITATE_WARDEN
-+ SoundEvent SCULK_SHRIEKER_SHRIEK
-+ SoundEvent WARDEN_AGITATED
-+ SoundEvent WARDEN_AMBIENT
-+ SoundEvent WARDEN_ANGRY
-+ SoundEvent WARDEN_ATTACK_IMPACT
-+ SoundEvent WARDEN_DEATH
-+ SoundEvent WARDEN_DIG
-+ SoundEvent WARDEN_EMERGE
-+ SoundEvent WARDEN_HEARTBEAT
-+ SoundEvent WARDEN_HURT
-+ SoundEvent WARDEN_LISTENING
-+ SoundEvent WARDEN_LISTENING_ANGRY
-+ SoundEvent WARDEN_NEARBY_CLOSE
-+ SoundEvent WARDEN_NEARBY_CLOSER
-+ SoundEvent WARDEN_NEARBY_CLOSEST
-+ SoundEvent WARDEN_ROAR
-+ SoundEvent WARDEN_SNIFF
-+ SoundEvent WARDEN_STEP
-+ SoundEvent WARDEN_TENDRIL_CLICKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey CHEST_BOATS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.util.ExtraCodecs</summary>
 
 ```diff
-+ Codec UUID
 + Codec catchDecoderException(Codec)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.util.Mth</summary>
@@ -6674,186 +3989,63 @@
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.world.effect.MobEffects</summary>
 
 ```diff
-+ int DARKNESS_EFFECT_FACTOR_PADDING_DURATION
-+ MobEffect DARKNESS
 + MobEffectInstance$FactorData lambda$static$0()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType CHEST_BOAT
-+ EntityType WARDEN
-```
-
-</details>
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.StartAttacking</summary>
 
 ```diff
-+ void <init>(Function,int)
++ void <init>(Predicate,Function,int)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
 
 ```diff
-+ BiConsumer onTargetErased
-+ boolean canGrowTiredOfTryingToReachTarget
-- Consumer onTargetErased
-+ void <init>(BiConsumer,boolean)
 + void <init>(BiConsumer)
-+ void <init>(BiConsumer)
-+ void lambda$new$0(LivingEntity)
-+ void lambda$new$3(LivingEntity)
 - void <init>(Consumer)
-- void <init>(Consumer)
++ void <init>(Predicate,BiConsumer,boolean)
++ void <init>(Predicate,BiConsumer)
+- void <init>(Predicate,Consumer)
++ void lambda$new$0(Mob,LivingEntity)
 - void lambda$new$0(Mob)
++ void lambda$new$3(Mob,LivingEntity)
 - void lambda$new$3(Mob)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ Logger LOGGER
-+ WardenSpawnTracker wardenSpawnTracker
-+ Style lambda$decorateDisplayNameComponent$6(Style)
-+ void lambda$addAdditionalSaveData$3(Tag)
-+ void lambda$hurtCurrentlyUsedShield$4(Player)
+- Style lambda$decorateDisplayNameComponent$4(String,Style)
++ Style lambda$decorateDisplayNameComponent$6(String,Style)
++ void lambda$addAdditionalSaveData$3(CompoundTag,Tag)
+- void lambda$hurtCurrentlyUsedShield$2(InteractionHand,Player)
++ void lambda$hurtCurrentlyUsedShield$4(InteractionHand,Player)
 + void lambda$readAdditionalSaveData$2(WardenSpawnTracker)
+- void lambda$respawnEntityOnShoulder$3(Entity)
 + void lambda$respawnEntityOnShoulder$5(Entity)
 + WardenSpawnTracker getWardenSpawnTracker()
-- Style lambda$decorateDisplayNameComponent$4(Style)
-- void lambda$hurtCurrentlyUsedShield$2(Player)
-- void lambda$respawnEntityOnShoulder$3(Entity)
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
 
 ```diff
-+ float getLightLevelDependentMagicValue()
 - float getBrightness()
++ float getLightLevelDependentMagicValue()
 ```
 
 </details>
@@ -6862,247 +4054,71 @@
 <details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
 
 ```diff
-+ float getLightLevelDependentMagicValue()
 - float getBrightness()
++ float getLightLevelDependentMagicValue()
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
 
 ```diff
-+ float getLightLevelDependentMagicValue()
 - float getBrightness()
++ float getLightLevelDependentMagicValue()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
-
-```diff
-+ Activity DIG
-+ Activity EMERGE
-+ Activity INVESTIGATE
-+ Activity ROAR
-+ Activity SNIFF
-```
-
-</details>
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
 
 ```diff
+- boolean isEmpty()
 + long getLootTableSeed()
 + NonNullList getItemStacks()
 + ResourceLocation getLootTable()
 + void clearItemStacks()
 + void setLootTable(ResourceLocation)
 + void setLootTableSeed(long)
-- boolean isEmpty()
 - void unpackLootTable(Player)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.LevelReader</summary>
 
 ```diff
+- float getBrightness(BlockPos)
 + float getLightLevelDependentMagicValue(BlockPos)
 + float getPathfindingCostFromLightLevels(BlockPos)
-- float getBrightness(BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
 
 ```diff
-+ Pair findClosestBiome3d(LevelReader)
++ Pair findClosestBiome3d(BlockPos,int,int,int,Predicate,Climate$Sampler,LevelReader)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
 
 ```diff
-+ Pair findClosestBiome3d(LevelReader)
++ Pair findClosestBiome3d(BlockPos,int,int,int,Predicate,Climate$Sampler,LevelReader)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
 
 ```diff
-+ BooleanProperty WATERLOGGED
 + boolean decaying(BlockState)
 + FluidState getFluidState(BlockState)
 ```
@@ -7110,92 +4126,41 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
 
 ```diff
-+ GameEventListener getListener(BlockEntity)
-- GameEventListener getListener(BlockEntity)
+- GameEventListener getListener(Level,BlockEntity)
++ GameEventListener getListener(ServerLevel,BlockEntity)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
 
 ```diff
-+ double TOP_Y
-+ int SHRIEKING_TICKS
-+ VoxelShape COLLIDER
-- VoxelShape OCCLUDER
-+ BlockEntityTicker getTicker(BlockEntityType)
-+ boolean canShriek(BlockState)
-+ Boolean lambda$canShriek$1(WardenSpawnTracker)
-+ boolean lambda$shriek$2(WardenSpawnTracker)
-+ GameEventListener getListener(BlockEntity)
-+ Optional getWardenSpawnTracker(BlockPos)
-+ void lambda$getTicker$4(SculkShriekerBlockEntity)
-+ void lambda$shriek$3(WardenSpawnTracker)
-+ void lambda$tick$0(WardenSpawnTracker)
-+ void neighborChanged(BlockPos,boolean)
-+ void shriek(BlockPos)
-+ void stepOn(Entity)
-+ void tick(Random)
++ BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
++ boolean canShriek(ServerLevel,BlockPos,BlockState)
++ Boolean lambda$canShriek$1(ServerLevel,BlockPos,WardenSpawnTracker)
++ boolean lambda$shriek$2(ServerLevel,BlockPos,WardenSpawnTracker)
++ GameEventListener getListener(ServerLevel,BlockEntity)
++ Optional getWardenSpawnTracker(ServerLevel,BlockPos)
++ void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
++ void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)
++ void lambda$tick$0(ServerLevel,BlockPos,WardenSpawnTracker)
++ void neighborChanged(BlockState,Level,BlockPos,Block,BlockPos,boolean)
++ void shriek(ServerLevel,BlockState,BlockPos)
++ void stepOn(Level,BlockPos,BlockState,Entity)
++ void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
 
 ```diff
-+ float getShadeBrightness(BlockPos)
++ float getShadeBrightness(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
@@ -7204,206 +4169,40 @@
 <details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
 
 ```diff
-+ float getShadeBrightness(BlockPos)
++ float getShadeBrightness(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.CampfireBlockEntity</summary>
-
-```diff
-+ RecipeManager$CachedCheck quickCheck
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
 
 ```diff
-+ Logger LOGGER
-+ boolean shouldListen(Entity)
+- boolean shouldListen(Level,GameEventListener,BlockPos,GameEvent,Entity)
++ boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity)
 + void <clinit>()
 + void lambda$load$0(VibrationListener)
-+ void lambda$saveAdditional$1(Tag)
-+ void onSignalReceive(Entity,int)
-- boolean shouldListen(Entity)
-- void onSignalReceive(GameEvent,int)
++ void lambda$saveAdditional$1(CompoundTag,Tag)
+- void onSignalReceive(Level,GameEventListener,GameEvent,int)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
 
 ```diff
-+ BlockBehaviour$Properties noLootTable()
 - BlockBehaviour$Properties noDrops()
++ BlockBehaviour$Properties noLootTable()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
 
 ```diff
-+ BlockPos pos
-- Optional pos
 + BlockPos lambda$static$0(BlockPositionSource)
 - Optional lambda$static$0(BlockPositionSource)
 - void <init>(Optional)
@@ -7412,32 +4211,11 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DensityFunction</summary>
-
-```diff
-+ KeyDispatchDataCodec codec()
-- Codec codec()
-```
-
-</details>
-
-
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
 
 ```diff
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-+ KeyDispatchDataCodec codec()
 - Codec codec()
++ KeyDispatchDataCodec codec()
 ```
 
 </details>
@@ -7446,65 +4224,48 @@
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction</summary>
 
 ```diff
-+ KeyDispatchDataCodec codec()
 - Codec codec()
++ KeyDispatchDataCodec codec()
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler</summary>
 
 ```diff
-+ DensityFunction$NoiseHolder noise
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-- Holder noiseData
-- NormalNoise noise
-+ DensityFunction$NoiseHolder noise()
-+ KeyDispatchDataCodec codec()
-+ void <init>(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
 - Codec codec()
-- DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
++ DensityFunction$NoiseHolder noise()
+- DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunction,Holder,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
 - Holder noiseData()
++ KeyDispatchDataCodec codec()
 - NormalNoise noise()
-- void <init>(DensityFunctions$WeirdScaledSampler$RarityValueMapper)
++ void <init>(DensityFunction,DensityFunction$NoiseHolder,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
+- void <init>(DensityFunction,Holder,NormalNoise,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.DensityFunctions$YClampedGradient</summary>
 
 ```diff
-+ KeyDispatchDataCodec CODEC
-- Codec CODEC
-+ KeyDispatchDataCodec codec()
 - Codec codec()
++ KeyDispatchDataCodec codec()
 ```
 
 </details>
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.NoiseChunk$BlendAlpha</summary>
 
 ```diff
+- Codec codec()
 + DensityFunction mapAll(DensityFunction$Visitor)
 + KeyDispatchDataCodec codec()
-- Codec codec()
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate</summary>
@@ -7516,19 +4277,24 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.redstone.NeighborUpdater</summary>
 
 ```diff
-+ void shapeUpdate(net.minecraft.core.Direction,net.minecraft.world.level.block.state.BlockState,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,int,int)
-- NeighborUpdater NOOP
-+ void executeShapeUpdate(BlockPos,int,int)
-+ void executeUpdate(BlockPos,boolean)
-- void executeUpdate(BlockPos,boolean)
++ void executeShapeUpdate(LevelAccessor,Direction,BlockState,BlockPos,BlockPos,int,int)
++ void executeUpdate(Level,BlockState,BlockPos,Block,BlockPos,boolean)
+- void executeUpdate(ServerLevel,BlockState,BlockPos,Block,BlockPos,boolean)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.particles.ShriekParticleOption$1
@@ -10227,13 +6993,742 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.server.network.TextFilterClient</summary>
+
+```diff
++ JsonObject lambda$createFromConfig$1(String,String,GameProfile)
++ JsonObject lambda$createFromConfig$2(int,String,String,GameProfile,String)
++ JsonObject lambda$createFromConfig$3(String,String,String,GameProfile,String)
++ String getEndpointFromConfig(JsonObject,String,String)
+- TextFilter$FilteredText lambda$requestMessageProcessing$2(JsonObject,String,TextFilterClient$IgnoreStrategy)
++ TextFilter$FilteredText lambda$requestMessageProcessing$5(GameProfile,String,TextFilterClient$IgnoreStrategy)
++ void <init>(URL,TextFilterClient$MessageEncoder,URL,TextFilterClient$JoinOrLeaveEncoder,URL,TextFilterClient$JoinOrLeaveEncoder,String,TextFilterClient$IgnoreStrategy,int)
+- void <init>(URL,URL,URL,String,int,String,String,TextFilterClient$IgnoreStrategy,int)
+- void lambda$processJoinOrLeave$1(JsonObject,URL,GameProfile)
++ void lambda$processJoinOrLeave$4(TextFilterClient$JoinOrLeaveEncoder,GameProfile,URL)
+- void processJoinOrLeave(GameProfile,URL,Executor)
++ void processJoinOrLeave(GameProfile,URL,TextFilterClient$JoinOrLeaveEncoder,Executor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
++ Codec catchDecoderException(Codec)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ boolean lambda$outFromOrigin$1(int,int,int,int)
++ int lambda$outFromOrigin$2(int,int,int,int,int)
++ IntStream outFromOrigin(int,int,int,int)
++ IntStream outFromOrigin(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.effect.MobEffects</summary>
+
+```diff
++ MobEffectInstance$FactorData lambda$static$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StartAttacking</summary>
+
+```diff
++ void <init>(Predicate,Function,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
+
+```diff
++ void <init>(BiConsumer)
+- void <init>(Consumer)
++ void <init>(Predicate,BiConsumer,boolean)
++ void <init>(Predicate,BiConsumer)
+- void <init>(Predicate,Consumer)
++ void lambda$new$0(Mob,LivingEntity)
+- void lambda$new$0(Mob)
++ void lambda$new$3(Mob,LivingEntity)
+- void lambda$new$3(Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
+- Style lambda$decorateDisplayNameComponent$4(String,Style)
++ Style lambda$decorateDisplayNameComponent$6(String,Style)
++ void lambda$addAdditionalSaveData$3(CompoundTag,Tag)
+- void lambda$hurtCurrentlyUsedShield$2(InteractionHand,Player)
++ void lambda$hurtCurrentlyUsedShield$4(InteractionHand,Player)
++ void lambda$readAdditionalSaveData$2(WardenSpawnTracker)
+- void lambda$respawnEntityOnShoulder$3(Entity)
++ void lambda$respawnEntityOnShoulder$5(Entity)
++ WardenSpawnTracker getWardenSpawnTracker()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+
+```diff
+- float getBrightness()
++ float getLightLevelDependentMagicValue()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
+
+```diff
+- float getBrightness()
++ float getLightLevelDependentMagicValue()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
+
+```diff
+- float getBrightness()
++ float getLightLevelDependentMagicValue()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecartContainer</summary>
+
+```diff
+- boolean isEmpty()
++ long getLootTableSeed()
++ NonNullList getItemStacks()
++ ResourceLocation getLootTable()
++ void clearItemStacks()
++ void setLootTable(ResourceLocation)
++ void setLootTableSeed(long)
+- void unpackLootTable(Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelReader</summary>
+
+```diff
+- float getBrightness(BlockPos)
++ float getLightLevelDependentMagicValue(BlockPos)
++ float getPathfindingCostFromLightLevels(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
+
+```diff
++ Pair findClosestBiome3d(BlockPos,int,int,int,Predicate,Climate$Sampler,LevelReader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.FixedBiomeSource</summary>
+
+```diff
++ Pair findClosestBiome3d(BlockPos,int,int,int,Predicate,Climate$Sampler,LevelReader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
+
+```diff
++ boolean decaying(BlockState)
++ FluidState getFluidState(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkCatalystBlock</summary>
+
+```diff
+- GameEventListener getListener(Level,BlockEntity)
++ GameEventListener getListener(ServerLevel,BlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
++ BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
++ boolean canShriek(ServerLevel,BlockPos,BlockState)
++ Boolean lambda$canShriek$1(ServerLevel,BlockPos,WardenSpawnTracker)
++ boolean lambda$shriek$2(ServerLevel,BlockPos,WardenSpawnTracker)
++ GameEventListener getListener(ServerLevel,BlockEntity)
++ Optional getWardenSpawnTracker(ServerLevel,BlockPos)
++ void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
++ void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)
++ void lambda$tick$0(ServerLevel,BlockPos,WardenSpawnTracker)
++ void neighborChanged(BlockState,Level,BlockPos,Block,BlockPos,boolean)
++ void shriek(ServerLevel,BlockState,BlockPos)
++ void stepOn(Level,BlockPos,BlockState,Entity)
++ void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
+
+```diff
++ float getShadeBrightness(BlockState,BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
+
+```diff
++ float getShadeBrightness(BlockState,BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+
+```diff
+- boolean shouldListen(Level,GameEventListener,BlockPos,GameEvent,Entity)
++ boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity)
++ void <clinit>()
++ void lambda$load$0(VibrationListener)
++ void lambda$saveAdditional$1(CompoundTag,Tag)
+- void onSignalReceive(Level,GameEventListener,GameEvent,int)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
+
+```diff
+- BlockBehaviour$Properties noDrops()
++ BlockBehaviour$Properties noLootTable()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.BlockPositionSource</summary>
+
+```diff
++ BlockPos lambda$static$0(BlockPositionSource)
+- Optional lambda$static$0(BlockPositionSource)
+- void <init>(Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$Spline</summary>
+
+```diff
+- Codec codec()
++ KeyDispatchDataCodec codec()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction</summary>
+
+```diff
+- Codec codec()
++ KeyDispatchDataCodec codec()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler</summary>
+
+```diff
+- Codec codec()
++ DensityFunction$NoiseHolder noise()
+- DensityFunctions$WeirdScaledSampler createUnseeded(DensityFunction,Holder,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
+- Holder noiseData()
++ KeyDispatchDataCodec codec()
+- NormalNoise noise()
++ void <init>(DensityFunction,DensityFunction$NoiseHolder,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
+- void <init>(DensityFunction,Holder,NormalNoise,DensityFunctions$WeirdScaledSampler$RarityValueMapper)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DensityFunctions$YClampedGradient</summary>
+
+```diff
+- Codec codec()
++ KeyDispatchDataCodec codec()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseChunk$BlendAlpha</summary>
+
+```diff
+- Codec codec()
++ DensityFunction mapAll(DensityFunction$Visitor)
++ KeyDispatchDataCodec codec()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.redstone.CollectingNeighborUpdater$SimpleNeighborUpdate</summary>
+
+```diff
++ boolean runNext(Level)
+- boolean runNext(ServerLevel)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.redstone.NeighborUpdater</summary>
+
+```diff
++ void executeShapeUpdate(LevelAccessor,Direction,BlockState,BlockPos,BlockPos,int,int)
++ void executeUpdate(Level,BlockState,BlockPos,Block,BlockPos,boolean)
+- void executeUpdate(ServerLevel,BlockState,BlockPos,Block,BlockPos,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/building_blocks/mangrove_fence_gate.json
+- minecraft/advancements/recipes/building_blocks/mangrove_fence.json
++ minecraft/advancements/recipes/decorations/mangrove_fence.json
++ minecraft/advancements/recipes/redstone/mangrove_fence_gate.json
++ minecraft/advancements/recipes/transportation/acacia_chest_boat.json
++ minecraft/advancements/recipes/transportation/birch_chest_boat.json
++ minecraft/advancements/recipes/transportation/dark_oak_chest_boat.json
++ minecraft/advancements/recipes/transportation/jungle_chest_boat.json
++ minecraft/advancements/recipes/transportation/mangrove_chest_boat.json
++ minecraft/advancements/recipes/transportation/oak_chest_boat.json
++ minecraft/advancements/recipes/transportation/spruce_chest_boat.json
++ minecraft/loot_tables/blocks/frogspawn.json
++ minecraft/loot_tables/entities/warden.json
++ minecraft/recipes/acacia_chest_boat.json
++ minecraft/recipes/birch_chest_boat.json
++ minecraft/recipes/dark_oak_chest_boat.json
++ minecraft/recipes/jungle_chest_boat.json
++ minecraft/recipes/mangrove_chest_boat.json
++ minecraft/recipes/oak_chest_boat.json
++ minecraft/recipes/spruce_chest_boat.json
++ minecraft/tags/game_events/warden_events_can_listen.json
++ minecraft/tags/items/chest_boats.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/acacia_chest_boat.json
++ minecraft/models/item/birch_chest_boat.json
++ minecraft/models/item/dark_oak_chest_boat.json
++ minecraft/models/item/jungle_chest_boat.json
++ minecraft/models/item/mangrove_chest_boat.json
++ minecraft/models/item/oak_chest_boat.json
++ minecraft/models/item/spruce_chest_boat.json
++ minecraft/models/item/warden_spawn_egg.json
++ minecraft/particles/shriek.json
++ minecraft/shaders/core/rendertype_entity_translucent_emissive.fsh
++ minecraft/shaders/core/rendertype_entity_translucent_emissive.json
++ minecraft/shaders/core/rendertype_entity_translucent_emissive.vsh
++ minecraft/textures/entity/chest_boat/acacia.png
++ minecraft/textures/entity/chest_boat/birch.png
++ minecraft/textures/entity/chest_boat/dark_oak.png
++ minecraft/textures/entity/chest_boat/jungle.png
++ minecraft/textures/entity/chest_boat/mangrove.png
++ minecraft/textures/entity/chest_boat/oak.png
++ minecraft/textures/entity/chest_boat/spruce.png
++ minecraft/textures/entity/warden/warden_bioluminescent_layer.png
++ minecraft/textures/entity/warden/warden_ears.png
++ minecraft/textures/entity/warden/warden_heart.png
++ minecraft/textures/entity/warden/warden_pulsating_spots_1.png
++ minecraft/textures/entity/warden/warden_pulsating_spots_2.png
++ minecraft/textures/entity/warden/warden.png
++ minecraft/textures/item/acacia_chest_boat.png
++ minecraft/textures/item/birch_chest_boat.png
++ minecraft/textures/item/dark_oak_chest_boat.png
++ minecraft/textures/item/jungle_chest_boat.png
++ minecraft/textures/item/mangrove_chest_boat.png
++ minecraft/textures/item/oak_chest_boat.png
++ minecraft/textures/item/spruce_chest_boat.png
++ minecraft/textures/mob_effect/darkness.png
++ minecraft/textures/particle/shriek.png
+- realms/textures/gui/realms/questionmark.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/worldgen/minecraft/worldgen/density_function/end/base_3d_noise.json
++ reports/worldgen/minecraft/worldgen/density_function/nether/base_3d_noise.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:dig
++ minecraft:emerge
++ minecraft:investigate
++ minecraft:roar
++ minecraft:sniff
+```
+
+</details>
+
+
+<details><summary>enchantment.txt</summary>
+
+```diff
++ minecraft:swift_sneak
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:chest_boat
++ minecraft:warden
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:sculk_sensor_tendrils_clicking
++ minecraft:shriek
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:acacia_chest_boat
++ minecraft:birch_chest_boat
++ minecraft:dark_oak_chest_boat
++ minecraft:jungle_chest_boat
++ minecraft:mangrove_chest_boat
++ minecraft:oak_chest_boat
++ minecraft:spruce_chest_boat
++ minecraft:warden_spawn_egg
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:dig_cooldown
++ minecraft:disturbance_location
++ minecraft:is_emerging
++ minecraft:is_sniffing
++ minecraft:recent_projectile
++ minecraft:roar_sound_cooldown
++ minecraft:roar_sound_delay
++ minecraft:roar_target
++ minecraft:sniff_cooldown
++ minecraft:touch_cooldown
++ minecraft:vibration_cooldown
+```
+
+</details>
+
+
+<details><summary>mob_effect.txt</summary>
+
+```diff
++ minecraft:darkness
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:shriek
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:warden_entity_sensor
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sculk_shrieker.shriek
++ minecraft:entity.parrot.imitate.warden
++ minecraft:entity.warden.agitated
++ minecraft:entity.warden.ambient
++ minecraft:entity.warden.angry
++ minecraft:entity.warden.attack_impact
++ minecraft:entity.warden.death
++ minecraft:entity.warden.dig
++ minecraft:entity.warden.emerge
++ minecraft:entity.warden.heartbeat
++ minecraft:entity.warden.hurt
++ minecraft:entity.warden.listening
++ minecraft:entity.warden.listening_angry
++ minecraft:entity.warden.nearby_close
++ minecraft:entity.warden.nearby_closer
++ minecraft:entity.warden.nearby_closest
++ minecraft:entity.warden.roar
++ minecraft:entity.warden.sniff
++ minecraft:entity.warden.step
++ minecraft:entity.warden.tendril_clicks
+```
+
+</details>
+
+
+<details><summary>worldgen/density_function_type.txt</summary>
+
+```diff
+- minecraft:slide
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ game_events/warden_events_can_listen.json
++ items/chest_boats.json
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/hoe.json</summary>
+
+```diff
++ minecraft:mangrove_leaves
+```
+
+</details>
+
+
+<details><summary>items/boats.json</summary>
+
+```diff
++ #minecraft:chest_boats
++ minecraft:mangrove_boat
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- debug.cycle_renderdistance.help
+- debug.cycle_renderdistance.message
++ effect.minecraft.darkness
++ enchantment.minecraft.swift_sneak
++ entity.minecraft.chest_boat
++ entity.minecraft.warden
++ item.minecraft.acacia_chest_boat
++ item.minecraft.birch_chest_boat
++ item.minecraft.dark_oak_chest_boat
++ item.minecraft.jungle_chest_boat
++ item.minecraft.mangrove_chest_boat
++ item.minecraft.oak_chest_boat
++ item.minecraft.spruce_chest_boat
++ item.minecraft.warden_spawn_egg
++ options.darknessEffectScale
++ options.darknessEffectScale.tooltip
++ subtitles.entity.parrot.imitate.warden
++ subtitles.entity.warden.agitated
++ subtitles.entity.warden.ambient
++ subtitles.entity.warden.angry
++ subtitles.entity.warden.attack_impact
++ subtitles.entity.warden.death
++ subtitles.entity.warden.dig
++ subtitles.entity.warden.emerge
++ subtitles.entity.warden.heartbeat
++ subtitles.entity.warden.hurt
++ subtitles.entity.warden.listening
++ subtitles.entity.warden.listening_angry
++ subtitles.entity.warden.nearby_close
++ subtitles.entity.warden.nearby_closer
++ subtitles.entity.warden.nearby_closest
++ subtitles.entity.warden.roar
++ subtitles.entity.warden.sniff
++ subtitles.entity.warden.step
++ subtitles.entity.warden.tendril_clicks
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/building_blocks/mangrove_fence_gate.json
+- recipes/building_blocks/mangrove_fence.json
++ recipes/decorations/mangrove_fence.json
++ recipes/redstone/mangrove_fence_gate.json
++ recipes/transportation/acacia_chest_boat.json
++ recipes/transportation/birch_chest_boat.json
++ recipes/transportation/dark_oak_chest_boat.json
++ recipes/transportation/jungle_chest_boat.json
++ recipes/transportation/mangrove_chest_boat.json
++ recipes/transportation/oak_chest_boat.json
++ recipes/transportation/spruce_chest_boat.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/frogspawn.json
++ entities/warden.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ shriek.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ acacia_chest_boat.json
++ birch_chest_boat.json
++ dark_oak_chest_boat.json
++ jungle_chest_boat.json
++ mangrove_chest_boat.json
++ oak_chest_boat.json
++ spruce_chest_boat.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ game_events/warden_events_can_listen.json
++ items/chest_boats.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ entity/chest_boat/acacia.png
++ entity/chest_boat/birch.png
++ entity/chest_boat/dark_oak.png
++ entity/chest_boat/jungle.png
++ entity/chest_boat/mangrove.png
++ entity/chest_boat/oak.png
++ entity/chest_boat/spruce.png
++ entity/warden/warden_bioluminescent_layer.png
++ entity/warden/warden_ears.png
++ entity/warden/warden_heart.png
++ entity/warden/warden_pulsating_spots_1.png
++ entity/warden/warden_pulsating_spots_2.png
++ entity/warden/warden.png
++ item/acacia_chest_boat.png
++ item/birch_chest_boat.png
++ item/dark_oak_chest_boat.png
++ item/jungle_chest_boat.png
++ item/mangrove_chest_boat.png
++ item/oak_chest_boat.png
++ item/spruce_chest_boat.png
++ mob_effect/darkness.png
++ particle/shriek.png
+```
+
+</details>

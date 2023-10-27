@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w18a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w18a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-05-04T14:41:35+00:00</td></tr>
@@ -10,1533 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/001ab71a16b49623990eaecbb02ac43140cf7827/server.txt">https://piston-data.mojang.com/v1/objects/001ab71a16b49623990eaecbb02ac43140cf7827/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/85ab5e9725b6fa8078c6bd9df2697221fbe34b40/client.jar">https://piston-data.mojang.com/v1/objects/85ab5e9725b6fa8078c6bd9df2697221fbe34b40/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/798b951eeff3b86e5a0cd4a81f415b5f465808f2/client.txt">https://piston-data.mojang.com/v1/objects/798b951eeff3b86e5a0cd4a81f415b5f465808f2/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w17a">22w17a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/banner_pattern
-+  minecraft/tags/banner_pattern/pattern_item
-+  minecraft/tags/banner_pattern/pattern_item/creeper.json
-+  minecraft/tags/banner_pattern/pattern_item/flower.json
-+  minecraft/tags/banner_pattern/pattern_item/globe.json
-+  minecraft/tags/banner_pattern/pattern_item/mojang.json
-+  minecraft/tags/banner_pattern/pattern_item/piglin.json
-+  minecraft/tags/banner_pattern/pattern_item/skull.json
-+  minecraft/tags/banner_pattern/no_item_required.json
-+  minecraft/tags/blocks/snow_layer_can_survive_on.json
-+  minecraft/tags/blocks/snow_layer_cannot_survive_on.json
-+  minecraft/tags/instrument
-+  minecraft/tags/instrument/goat_horns.json
-+  minecraft/tags/instrument/regular_goat_horns.json
-+  minecraft/tags/instrument/screaming_goat_horns.json
-```
+### Client
 
-</details>
 
-<details><summary>minecraft-generated/</summary>
 
-```diff
-+  reports/worldgen/minecraft/chat_type
-+  reports/worldgen/minecraft/chat_type/chat.json
-+  reports/worldgen/minecraft/chat_type/emote_command.json
-+  reports/worldgen/minecraft/chat_type/game_info.json
-+  reports/worldgen/minecraft/chat_type/msg_command.json
-+  reports/worldgen/minecraft/chat_type/say_command.json
-+  reports/worldgen/minecraft/chat_type/system.json
-+  reports/worldgen/minecraft/chat_type/team_msg_command.json
-+  reports/worldgen/minecraft/chat_type/tellraw_command.json
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ banner_pattern.txt
-+ chat_type.txt
-+ instrument.txt
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-- minecraft:set_goat_horn_sound
-+ minecraft:set_instrument
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-- placefeature.txt
-+ place.txt
-```
-
-</details>
-
-<details><summary>me.txt</summary>
-
-```diff
-- me <action: string>
-+ me <action: message>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ banner_pattern/no_item_required.json
-+ banner_pattern/pattern_item/creeper.json
-+ banner_pattern/pattern_item/flower.json
-+ banner_pattern/pattern_item/globe.json
-+ banner_pattern/pattern_item/mojang.json
-+ banner_pattern/pattern_item/piglin.json
-+ banner_pattern/pattern_item/skull.json
-+ blocks/snow_layer_cannot_survive_on.json
-+ blocks/snow_layer_can_survive_on.json
-+ instrument/goat_horns.json
-+ instrument/regular_goat_horns.json
-+ instrument/screaming_goat_horns.json
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-- minecraft:flap
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ banner_pattern/no_item_required.json
-+ banner_pattern/pattern_item/creeper.json
-+ banner_pattern/pattern_item/flower.json
-+ banner_pattern/pattern_item/globe.json
-+ banner_pattern/pattern_item/mojang.json
-+ banner_pattern/pattern_item/piglin.json
-+ banner_pattern/pattern_item/skull.json
-+ blocks/snow_layer_cannot_survive_on.json
-+ blocks/snow_layer_can_survive_on.json
-+ instrument/goat_horns.json
-+ instrument/regular_goat_horns.json
-+ instrument/screaming_goat_horns.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:text2speech:1.13.9
-- com.mojang:text2speech:1.13.9
-- io.netty:netty-all:4.1.68.Final
-+ com.mojang:text2speech:1.16.7
-+ io.netty:netty-buffer:4.1.77.Final
-+ io.netty:netty-codec:4.1.77.Final
-+ io.netty:netty-common:4.1.77.Final
-+ io.netty:netty-handler:4.1.77.Final
-+ io.netty:netty-resolver:4.1.77.Final
-+ io.netty:netty-transport-classes-epoll:4.1.77.Final
-+ io.netty:netty-transport-native-epoll:4.1.77.Final
-+ io.netty:netty-transport-native-unix-common:4.1.77.Final
-+ io.netty:netty-transport:4.1.77.Final
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64
-+ org.lwjgl:lwjgl:3.3.1:natives-windows-arm64
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
-
-```diff
-+ Component SPAWN_WARNING_TITLE
-+ String defaultSlotName
-+ String worldName
-- int activeSlot
-+ CycleButton$OnValueChange confirmDangerousOption(Consumer)
-+ void lambda$confirmDangerousOption$10(Consumer,boolean)
-+ void lambda$confirmDangerousOption$11(Boolean)
-+ void lambda$init$2(Boolean)
-+ void lambda$init$3(Boolean)
-+ void lambda$init$5(Boolean)
-+ void setWorldName(String)
-- String getSlotName()
-- void lambda$init$2(Boolean)
-- void lambda$init$3(Boolean)
-- void lambda$init$5(Boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.ChatFormatting</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ ToIntFunction createIndexLookup(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
-
-```diff
-+ void lambda$serializeToNetwork$1(DisplayInfo)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean lambda$createSearchTrees$13(String)
-+ boolean lambda$tick$35()
-+ ChunkProgressListener lambda$doWorldLoad$36(int)
-+ CompletionStage lambda$delayTextureReload$47(CompletableFuture)
-+ CrashReport lambda$delayCrash$18(CrashReport)
-+ CrashReport lambda$delayCrashRaw$19(CrashReport)
-+ IntegratedServer lambda$doWorldLoad$37(Thread)
-+ PackResources lambda$adaptV3$51(Supplier)
-+ PackResources lambda$adaptV4$52(Supplier)
-+ RefreshableSearchTree lambda$createSearchTrees$10(List)
-+ RefreshableSearchTree lambda$createSearchTrees$17(List)
-+ RefreshableSearchTree lambda$createSearchTrees$8(List)
-+ ResourceLocation lambda$createSearchTrees$15(Recipe)
-+ SearchTree getSearchTree(SearchRegistry$Key)
-+ Stream lambda$createSearchTrees$11(Recipe)
-+ Stream lambda$createSearchTrees$14(RecipeCollection)
-+ Stream lambda$createSearchTrees$16(RecipeCollection)
-+ Stream lambda$createSearchTrees$9(ItemStack)
-+ String lambda$createSearchTrees$12(Component)
-+ String lambda$doWorldLoad$38(WorldStem)
-+ String lambda$fillSystemReport$40(String)
-+ String lambda$fillSystemReport$41(Minecraft)
-+ String lambda$fillSystemReport$43()
-+ String lambda$fillSystemReport$44()
-+ String lambda$fillSystemReport$45(Options)
-+ String lambda$fillSystemReport$46(LanguageManager)
-+ Style lambda$debugClientMetricsStart$26(Style)
-+ Style lambda$grabHugeScreenshot$50(Style)
-+ Style lambda$grabPanoramixScreenshot$49(Style)
-+ void lambda$debugClientMetricsStart$24(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$25(ProfileResults)
-+ void lambda$debugClientMetricsStart$27(Component)
-+ void lambda$debugClientMetricsStart$29(List)
-+ void lambda$debugClientMetricsStart$30(Path)
-+ void lambda$debugClientMetricsStart$31(CompletableFuture)
-+ void lambda$debugClientMetricsStart$32(ProfileResults)
-+ void lambda$debugClientMetricsStart$33(ProfileResults)
-+ void lambda$doWorldLoad$39(Component)
-+ void lambda$grabPanoramixScreenshot$48(Component)
-+ void lambda$reloadResourcePacks$20(CompletableFuture)
-+ void lambda$reloadResourcePacks$21(Optional)
-+ void lambda$runTick$22(CompletableFuture)
-+ void lambda$runTick$23(TimerQuery)
-+ void lambda$tick$34()
-+ void populateSearchTree(List)
-- boolean lambda$createSearchTrees$12(String)
-- boolean lambda$tick$33()
-- ChunkProgressListener lambda$doWorldLoad$34(int)
-- CompletionStage lambda$delayTextureReload$45(CompletableFuture)
-- CrashReport lambda$delayCrash$16(CrashReport)
-- CrashReport lambda$delayCrashRaw$17(CrashReport)
-- IntegratedServer lambda$doWorldLoad$35(Thread)
-- MutableSearchTree getSearchTree(SearchRegistry$Key)
-- PackResources lambda$adaptV3$49(Supplier)
-- PackResources lambda$adaptV4$50(Supplier)
-- ResourceLocation lambda$createSearchTrees$14(Recipe)
-- Stream lambda$createSearchTrees$10(Recipe)
-- Stream lambda$createSearchTrees$13(RecipeCollection)
-- Stream lambda$createSearchTrees$15(RecipeCollection)
-- Stream lambda$createSearchTrees$8(ItemStack)
-- String lambda$createSearchTrees$11(Component)
-- String lambda$doWorldLoad$36(WorldStem)
-- String lambda$fillSystemReport$38(String)
-- String lambda$fillSystemReport$39(Minecraft)
-- String lambda$fillSystemReport$40()
-- String lambda$fillSystemReport$41()
-- String lambda$fillSystemReport$43(Options)
-- String lambda$fillSystemReport$44(LanguageManager)
-- Style lambda$debugClientMetricsStart$24(Style)
-- Style lambda$grabHugeScreenshot$48(Style)
-- Style lambda$grabPanoramixScreenshot$47(Style)
-- void lambda$createSearchTrees$9(ItemStack)
-- void lambda$debugClientMetricsStart$22(Consumer,double,int)
-- void lambda$debugClientMetricsStart$23(ProfileResults)
-- void lambda$debugClientMetricsStart$25(Component)
-- void lambda$debugClientMetricsStart$26(Path)
-- void lambda$debugClientMetricsStart$27(List)
-- void lambda$debugClientMetricsStart$29(CompletableFuture)
-- void lambda$debugClientMetricsStart$30(ProfileResults)
-- void lambda$debugClientMetricsStart$31(ProfileResults)
-- void lambda$doWorldLoad$37(Component)
-- void lambda$grabPanoramixScreenshot$46(Component)
-- void lambda$reloadResourcePacks$18(CompletableFuture)
-- void lambda$reloadResourcePacks$19(Optional)
-- void lambda$runTick$20(CompletableFuture)
-- void lambda$runTick$21(TimerQuery)
-- void lambda$tick$32()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.NarratorStatus</summary>
-
-```diff
-+ boolean shouldNarrate(ChatType$Narration$Priority)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.MessageArgument</summary>
-
-```diff
-+ Component getPlainSignableComponent(MessageArgument$Message)
-+ Component getPlainSignableComponent(Object)
-+ Component resolveComponent(MessageArgument$Message)
-+ SignedMessage getSignedMessage(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ChatSender</summary>
-
-```diff
-+ Component teamName
-+ ChatSender system(Component)
-+ ChatSender withTeamName(Component)
-+ Component teamName()
-+ void <init>(Component)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.Style</summary>
-
-```diff
-+ Codec FORMATTING_CODEC
-+ App lambda$static$8(RecordCodecBuilder$Instance)
-+ Optional lambda$static$0(Style)
-+ Optional lambda$static$1(Style)
-+ Optional lambda$static$2(Style)
-+ Optional lambda$static$3(Style)
-+ Optional lambda$static$4(Style)
-+ Optional lambda$static$5(Style)
-+ Optional lambda$static$6(Style)
-+ Optional lambda$static$7(Style)
-+ Style create(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket</summary>
-
-```diff
-+ void lambda$write$1(Message)
-+ void lambda$write$2(Suggestion)
-- void lambda$write$1(Suggestion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundMapItemDataPacket</summary>
-
-```diff
-+ List lambda$new$1(FriendlyByteBuf)
-+ void lambda$write$2(MapDecoration)
-+ void lambda$write$3(List)
-- void lambda$write$1(MapDecoration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate</summary>
-
-```diff
-+ ProfilePublicKey$Data profilePublicKey
-+ ProfilePublicKey$Data getProfilePublicKey()
-+ void <init>(ProfilePublicKey$Data)
-- void <init>(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerGamePacketListener</summary>
-
-```diff
-+ void handleChatCommand(net.minecraft.network.protocol.game.ServerboundChatCommandPacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.ResourceLocation</summary>
-
-```diff
-+ ResourceLocation tryBuild(String)
-+ String toShortLanguageKey()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AnimationState</summary>
-
-```diff
-+ long accumulatedTime
-+ long lastTime
-- long startTime
-+ long getAccumulatedTime()
-+ void updateTime(boolean,float)
-- long startTime()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ ChatSender asChatSender()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.PathfinderMob</summary>
-
-```diff
-+ boolean shouldStayCloseToLeashHolder()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.AllayAi</summary>
-
-```diff
-+ float SPEED_MULTIPLIER_WHEN_PANICKING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
-
-```diff
-+ ItemStack createHorn()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.AngerLevel</summary>
-
-```diff
-+ boolean isAngry()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
-
-```diff
-+ ResourceKey pool
-- ResourceLocation pool
-+ ResourceKey getPool()
-+ void setPool(ResourceKey)
-- boolean lambda$generate$1(Holder)
-- ResourceLocation getPool()
-- void setPool(ResourceLocation)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
-
-```diff
-+ boolean handleEventsImmediately()
-+ boolean handleGameEvent(GameEvent$Message)
-- boolean handleGameEvent(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.animation.AnimationChannel
@@ -6085,28 +4580,32 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.ChatFormatting</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
 
 ```diff
-+ Codec CODEC
-+ String getSerializedName()
++ CycleButton$OnValueChange confirmDangerousOption(Component,Consumer)
+- String getSlotName()
++ void lambda$confirmDangerousOption$10(Consumer,boolean)
++ void lambda$confirmDangerousOption$11(Consumer,Component,CycleButton,Boolean)
++ void lambda$init$2(Boolean)
+- void lambda$init$2(CycleButton,Boolean)
++ void lambda$init$3(Boolean)
+- void lambda$init$3(CycleButton,Boolean)
++ void lambda$init$5(Boolean)
+- void lambda$init$5(CycleButton,Boolean)
++ void setWorldName(String)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.ChatFormatting</summary>
 
+```diff
++ String getSerializedName()
+```
 
-
-
+</details>
 
 
 <details><summary>net.minecraft.Util</summary>
@@ -6118,2129 +4617,282 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.Advancement$Builder</summary>
 
 ```diff
-+ void lambda$serializeToNetwork$1(DisplayInfo)
++ void lambda$serializeToNetwork$1(FriendlyByteBuf,DisplayInfo)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ Registry BANNER_PATTERN
-+ Registry CHAT_TYPE
-+ Registry INSTRUMENT
-+ ResourceKey BANNER_PATTERN_REGISTRY
-+ ResourceKey CHAT_TYPE_REGISTRY
-+ ResourceKey INSTRUMENT_REGISTRY
+- boolean lambda$createSearchTrees$12(String)
++ boolean lambda$createSearchTrees$13(String)
+- boolean lambda$tick$33()
++ boolean lambda$tick$35()
+- ChunkProgressListener lambda$doWorldLoad$34(int)
++ ChunkProgressListener lambda$doWorldLoad$36(int)
+- CompletionStage lambda$delayTextureReload$45(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$47(CompletableFuture)
+- CrashReport lambda$delayCrash$16(CrashReport)
++ CrashReport lambda$delayCrash$18(CrashReport)
+- CrashReport lambda$delayCrashRaw$17(CrashReport)
++ CrashReport lambda$delayCrashRaw$19(CrashReport)
+- IntegratedServer lambda$doWorldLoad$35(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
++ IntegratedServer lambda$doWorldLoad$37(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
+- MutableSearchTree getSearchTree(SearchRegistry$Key)
+- PackResources lambda$adaptV3$49(Supplier)
++ PackResources lambda$adaptV3$51(Supplier)
+- PackResources lambda$adaptV4$50(Supplier)
++ PackResources lambda$adaptV4$52(Supplier)
++ RefreshableSearchTree lambda$createSearchTrees$10(List)
++ RefreshableSearchTree lambda$createSearchTrees$17(List)
++ RefreshableSearchTree lambda$createSearchTrees$8(List)
+- ResourceLocation lambda$createSearchTrees$14(Recipe)
++ ResourceLocation lambda$createSearchTrees$15(Recipe)
++ SearchTree getSearchTree(SearchRegistry$Key)
+- Stream lambda$createSearchTrees$10(Recipe)
++ Stream lambda$createSearchTrees$11(Recipe)
+- Stream lambda$createSearchTrees$13(RecipeCollection)
++ Stream lambda$createSearchTrees$14(RecipeCollection)
+- Stream lambda$createSearchTrees$15(RecipeCollection)
++ Stream lambda$createSearchTrees$16(RecipeCollection)
+- Stream lambda$createSearchTrees$8(ItemStack)
++ Stream lambda$createSearchTrees$9(ItemStack)
+- String lambda$createSearchTrees$11(Component)
++ String lambda$createSearchTrees$12(Component)
+- String lambda$doWorldLoad$36(WorldStem)
++ String lambda$doWorldLoad$38(WorldStem)
+- String lambda$fillSystemReport$38(String)
+- String lambda$fillSystemReport$39(Minecraft)
+- String lambda$fillSystemReport$40()
++ String lambda$fillSystemReport$40(String)
+- String lambda$fillSystemReport$41()
++ String lambda$fillSystemReport$41(Minecraft)
++ String lambda$fillSystemReport$43()
+- String lambda$fillSystemReport$43(Options)
++ String lambda$fillSystemReport$44()
+- String lambda$fillSystemReport$44(LanguageManager)
++ String lambda$fillSystemReport$45(Options)
++ String lambda$fillSystemReport$46(LanguageManager)
+- Style lambda$debugClientMetricsStart$24(Path,Style)
++ Style lambda$debugClientMetricsStart$26(Path,Style)
+- Style lambda$grabHugeScreenshot$48(File,Style)
++ Style lambda$grabHugeScreenshot$50(File,Style)
+- Style lambda$grabPanoramixScreenshot$47(File,Style)
++ Style lambda$grabPanoramixScreenshot$49(File,Style)
+- void lambda$createSearchTrees$9(ReloadableSearchTree,ReloadableIdSearchTree,ItemStack)
+- void lambda$debugClientMetricsStart$22(Consumer,double,int)
+- void lambda$debugClientMetricsStart$23(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$24(Consumer,double,int)
+- void lambda$debugClientMetricsStart$25(Consumer,Component)
++ void lambda$debugClientMetricsStart$25(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$26(Consumer,Path)
++ void lambda$debugClientMetricsStart$27(Consumer,Component)
+- void lambda$debugClientMetricsStart$27(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$29(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$29(SystemReport,Consumer,List)
++ void lambda$debugClientMetricsStart$30(Consumer,Path)
+- void lambda$debugClientMetricsStart$30(ProfileResults)
++ void lambda$debugClientMetricsStart$31(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$31(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$32(ProfileResults)
++ void lambda$debugClientMetricsStart$33(Consumer,ProfileResults)
+- void lambda$doWorldLoad$37(Component)
++ void lambda$doWorldLoad$39(Component)
+- void lambda$grabPanoramixScreenshot$46(Component)
++ void lambda$grabPanoramixScreenshot$48(Component)
+- void lambda$reloadResourcePacks$18(CompletableFuture)
+- void lambda$reloadResourcePacks$19(CompletableFuture,Optional)
++ void lambda$reloadResourcePacks$20(CompletableFuture)
++ void lambda$reloadResourcePacks$21(CompletableFuture,Optional)
+- void lambda$runTick$20(CompletableFuture)
+- void lambda$runTick$21(TimerQuery)
++ void lambda$runTick$22(CompletableFuture)
++ void lambda$runTick$23(TimerQuery)
+- void lambda$tick$32()
++ void lambda$tick$34()
++ void populateSearchTree(SearchRegistry$Key,List)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.HashCache$ProviderCache</summary>
+<details><summary>net.minecraft.client.NarratorStatus</summary>
 
 ```diff
-+ HashCode get(Path)
-+ void put(HashCode)
-- String get(Path)
-- void put(String)
++ boolean shouldNarrate(ChatType$Narration$Priority)
 ```
 
 </details>
 
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+
+<details><summary>net.minecraft.commands.arguments.MessageArgument</summary>
 
 ```diff
-- Gson GSON
++ Component getPlainSignableComponent(MessageArgument$Message)
++ Component getPlainSignableComponent(Object)
++ Component resolveComponent(CommandSourceStack,MessageArgument$Message)
++ SignedMessage getSignedMessage(CommandContext,String)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.info.BlockListReport</summary>
+<details><summary>net.minecraft.network.chat.ChatSender</summary>
 
 ```diff
-- Gson GSON
-- void <clinit>()
++ ChatSender system(Component)
++ ChatSender withTeamName(Component)
++ Component teamName()
++ void <init>(UUID,Component,Component)
 ```
 
 </details>
 
-<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
+
+<details><summary>net.minecraft.network.chat.Style</summary>
 
 ```diff
-- Gson GSON
-- void <clinit>()
++ App lambda$static$8(RecordCodecBuilder$Instance)
++ Optional lambda$static$0(Style)
++ Optional lambda$static$1(Style)
++ Optional lambda$static$2(Style)
++ Optional lambda$static$3(Style)
++ Optional lambda$static$4(Style)
++ Optional lambda$static$5(Style)
++ Optional lambda$static$6(Style)
++ Optional lambda$static$7(Style)
++ Style create(Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandSuggestionsPacket</summary>
 
 ```diff
-- Gson GSON
++ void lambda$write$1(FriendlyByteBuf,Message)
+- void lambda$write$1(FriendlyByteBuf,Suggestion)
++ void lambda$write$2(FriendlyByteBuf,Suggestion)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundMapItemDataPacket</summary>
 
 ```diff
-- Gson GSON
++ List lambda$new$1(FriendlyByteBuf)
+- void lambda$write$1(FriendlyByteBuf,MapDecoration)
++ void lambda$write$2(FriendlyByteBuf,MapDecoration)
++ void lambda$write$3(FriendlyByteBuf,List)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerInfoPacket$PlayerUpdate</summary>
 
 ```diff
-+ HashCode hash
-- String hash
-+ boolean equals(Object)
-+ byte[] payload()
-+ HashCode hash()
-+ int hashCode()
-+ String name()
-+ String snbtPayload()
-+ String toString()
-+ void <init>(HashCode)
-- void <init>(String)
++ ProfilePublicKey$Data getProfilePublicKey()
++ void <init>(GameProfile,int,GameType,Component,ProfilePublicKey$Data)
+- void <init>(GameProfile,int,GameType,Component)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper$1</summary>
+<details><summary>net.minecraft.resources.ResourceLocation</summary>
 
 ```diff
-+ void <init>(ProfilePublicKey)
-- void <init>(GameProfile)
++ ResourceLocation tryBuild(String,String)
++ String toShortLanguageKey()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+<details><summary>net.minecraft.world.entity.AnimationState</summary>
 
 ```diff
-+ Collection readCollection(FriendlyByteBuf$Reader)
-+ Either readEither(FriendlyByteBuf$Reader)
-+ List readList(FriendlyByteBuf$Reader)
-+ Map readMap(FriendlyByteBuf$Reader)
-+ Map readMap(FriendlyByteBuf$Reader)
-+ Object readNullable(FriendlyByteBuf$Reader)
-+ Optional readOptional(FriendlyByteBuf$Reader)
-+ void lambda$writeEither$4(Object)
-+ void lambda$writeEither$5(Object)
-+ void lambda$writeMap$3(Object)
-+ void writeCollection(FriendlyByteBuf$Writer)
-+ void writeEither(FriendlyByteBuf$Writer)
-+ void writeMap(FriendlyByteBuf$Writer)
-+ void writeNullable(FriendlyByteBuf$Writer)
-+ void writeOptional(FriendlyByteBuf$Writer)
-- Collection readCollection(Function)
-- Either readEither(Function)
-- List readList(Function)
-- Map readMap(Function)
-- Map readMap(Function)
-- Optional readOptional(Function)
-- void lambda$writeEither$4(Object)
-- void lambda$writeEither$5(Object)
-- void lambda$writeMap$3(Object)
-- void writeCollection(BiConsumer)
-- void writeEither(BiConsumer)
-- void writeMap(BiConsumer)
-- void writeOptional(BiConsumer)
++ long getAccumulatedTime()
+- long startTime()
++ void updateTime(boolean,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ String toStableJson(Component)
++ ChatSender asChatSender()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundCustomQueryPacket</summary>
+<details><summary>net.minecraft.world.entity.PathfinderMob</summary>
 
 ```diff
-+ FriendlyByteBuf lambda$new$0(FriendlyByteBuf)
-+ void lambda$write$1(FriendlyByteBuf)
++ boolean shouldStayCloseToLeashHolder()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+
+<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
 
 ```diff
-+ boolean isChallengeSignatureValid(ProfilePublicKey)
-+ Boolean lambda$isChallengeSignatureValid$2(Crypt$SaltSignaturePair)
-- boolean isChallengeSignatureValid(ProfilePublicKey$Trusted)
-- Boolean lambda$isChallengeSignatureValid$2(Crypt$SaltSignaturePair)
++ ItemStack createHorn()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.syncher.EntityDataSerializer$1</summary>
+<details><summary>net.minecraft.world.entity.monster.warden.AngerLevel</summary>
 
 ```diff
-+ FriendlyByteBuf$Reader val$reader
-+ FriendlyByteBuf$Writer val$writer
-- BiConsumer val$writer
-- Function val$reader
-+ void <init>(FriendlyByteBuf$Reader)
-- void <init>(Function)
++ boolean isAngry()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
+<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
 
 ```diff
-+ int lambda$register$1(CommandContext)
-+ void lambda$register$0(TextFilter$FilteredText)
-- Component createMessage(String)
-- Component lambda$register$0(ServerPlayer)
-- int lambda$register$2(CommandContext)
-- void lambda$register$1(TextFilter$FilteredText)
+- boolean lambda$generate$1(Holder)
++ ResourceKey getPool()
+- ResourceLocation getPool()
++ void setPool(ResourceKey)
+- void setPool(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
 
 ```diff
-- Component resourcePackPrompt
-- Pattern SHA1
-+ Optional getServerResourcePack()
-- boolean isResourcePackRequired()
-- Component getResourcePackPrompt()
-- Component parseResourcePackPrompt(DedicatedServerSettings)
-- String getPackHash()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-+ Optional serverResourcePackInfo
-+ Pattern SHA1
-- boolean requireResourcePack
-- String resourcePack
-- String resourcePackHash
-- String resourcePackPrompt
-- String resourcePackSha1
-+ Component parseResourcePackPrompt(String)
-+ Optional getServerPackInfo(String)
++ boolean handleEventsImmediately()
+- boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
++ boolean handleGameEvent(ServerLevel,GameEvent$Message)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ boolean resetLastActionTime()
-+ void detectRateSpam()
-+ void handleChatCommand(ServerboundChatCommandPacket)
-+ void lambda$handlePlaceRecipe$9(Recipe)
-+ void lambda$handleSignUpdate$10(List)
-- Component lambda$handleChat$9(ServerPlayer)
-- void handleCommand(String)
-- void lambda$handlePlaceRecipe$10(Recipe)
-- void lambda$handleSignUpdate$11(List)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
-
-```diff
-+ ProfilePublicKey playerProfilePublicKey
-- ProfilePublicKey$Trusted playerProfilePublicKey
-+ ProfilePublicKey validatePublicKey(MinecraftSessionService,boolean)
-- ProfilePublicKey$Trusted validatePublicKey(MinecraftSessionService,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.FilePackResources</summary>
-
-```diff
-+ Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ Component lambda$broadcastSystemMessage$3(ServerPlayer)
-+ Entity lambda$placeNewPlayer$1(Entity)
-+ ServerPlayer getPlayerForLogin(ProfilePublicKey)
-+ SignedMessage lambda$broadcastChatMessage$4(ServerPlayer)
-+ SignedMessage lambda$broadcastChatMessage$5(ServerPlayer)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastSystemMessage(ResourceKey)
-+ void broadcastSystemMessage(ResourceKey)
-+ void broadcastSystemToAllExceptTeam(Component)
-+ void broadcastSystemToTeam(Component)
-+ void lambda$placeNewPlayer$0(MinecraftServer$ServerResourcePackInfo)
-+ void lambda$remove$2(Entity)
-- Component lambda$broadcastSystemMessage$2(ServerPlayer)
-- Entity lambda$placeNewPlayer$0(Entity)
-- ServerPlayer getPlayerForLogin(GameProfile)
-- void broadcastPlayerMessage(Crypt$SaltSignaturePair)
-- void broadcastSystemMessage(ChatType)
-- void broadcastSystemMessage(ChatType)
-- void broadcastToAllExceptTeam(Component)
-- void broadcastToTeam(Component)
-- void broadcastUnsignedMessage(UUID)
-- void lambda$remove$1(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.StringUtil</summary>
-
-```diff
-+ String trimChatMessage(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-+ int ON_HURT_ANGER_BOOST
-+ boolean canTriggerAvoidVibration()
-- boolean lambda$increaseAngerAt$4(LivingEntity)
-- Boolean lambda$onSignalReceive$5(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ ProfilePublicKey profilePublicKey
-+ ProfilePublicKey getProfilePublicKey()
-+ void <init>(ProfilePublicKey)
-- ChatSender asChatSender()
-- void <init>(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.LoomMenu</summary>
-
-```diff
-+ int PATTERN_NOT_SET
-+ List selectablePatterns
-+ List getSelectablePatterns()
-+ List getSelectablePatterns(ItemStack)
-+ void setupResultSlot(Holder)
-- void setupResultSlot()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BannerItem</summary>
-
-```diff
-+ String lambda$appendHoverTextFromBannerBlockEntityTag$0(ResourceKey)
-+ void lambda$appendHoverTextFromBannerBlockEntityTag$1(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ boolean allowedIn(CreativeModeTab)
-- boolean allowdedIn(CreativeModeTab)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.trading.MerchantOffers</summary>
-
-```diff
-+ MerchantOffer lambda$createFromStream$1(FriendlyByteBuf)
-+ void <init>(int)
-+ void lambda$writeToStream$0(MerchantOffer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.FoliageColor</summary>
-
-```diff
-+ int getMangroveColor()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BannerPattern</summary>
-
-```diff
-- BannerPattern BASE
-- BannerPattern BORDER
-- BannerPattern BRICKS
-- BannerPattern CIRCLE_MIDDLE
-- BannerPattern CREEPER
-- BannerPattern CROSS
-- BannerPattern CURLY_BORDER
-- BannerPattern DIAGONAL_LEFT
-- BannerPattern DIAGONAL_LEFT_MIRROR
-- BannerPattern DIAGONAL_RIGHT
-- BannerPattern DIAGONAL_RIGHT_MIRROR
-- BannerPattern FLOWER
-- BannerPattern GLOBE
-- BannerPattern GRADIENT
-- BannerPattern GRADIENT_UP
-- BannerPattern HALF_HORIZONTAL
-- BannerPattern HALF_HORIZONTAL_MIRROR
-- BannerPattern HALF_VERTICAL
-- BannerPattern HALF_VERTICAL_MIRROR
-- BannerPattern MOJANG
-- BannerPattern PIGLIN
-- BannerPattern RHOMBUS_MIDDLE
-- BannerPattern SKULL
-- BannerPattern SQUARE_BOTTOM_LEFT
-- BannerPattern SQUARE_BOTTOM_RIGHT
-- BannerPattern SQUARE_TOP_LEFT
-- BannerPattern SQUARE_TOP_RIGHT
-- BannerPattern STRAIGHT_CROSS
-- BannerPattern STRIPE_BOTTOM
-- BannerPattern STRIPE_CENTER
-- BannerPattern STRIPE_DOWNLEFT
-- BannerPattern STRIPE_DOWNRIGHT
-- BannerPattern STRIPE_LEFT
-- BannerPattern STRIPE_MIDDLE
-- BannerPattern STRIPE_RIGHT
-- BannerPattern STRIPE_SMALL
-- BannerPattern STRIPE_TOP
-- BannerPattern TRIANGLE_BOTTOM
-- BannerPattern TRIANGLE_TOP
-- BannerPattern TRIANGLES_BOTTOM
-- BannerPattern TRIANGLES_TOP
-- BannerPattern[] $VALUES
-- BannerPattern[] VALUES
-- boolean hasPatternItem
-- int AVAILABLE_PATTERNS
-- int COUNT
-- int PATTERN_ITEM_COUNT
-- String filename
-+ boolean lambda$byHash$0(Holder$Reference)
-+ Holder byHash(String)
-+ ResourceLocation location(ResourceKey,boolean)
-+ void <init>(String)
-- BannerPattern byFilename(String)
-- BannerPattern byHash(String)
-- BannerPattern valueOf(String)
-- BannerPattern[] $values()
-- BannerPattern[] values()
-- boolean lambda$static$0(BannerPattern)
-- ResourceLocation location(boolean)
-- String getFilename()
-- void <clinit>()
-- void <init>(String,boolean)
-- void <init>(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.gameevent.GameEventDispatcher$1</summary>
-
-```diff
-+ boolean walkListeners(BiConsumer)
-- void post(GameEvent$Context)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
-
-```diff
-+ boolean generateJigsaw(BlockPos,boolean)
-+ boolean lambda$generateJigsaw$1(Holder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTable$Builder</summary>
-
-```diff
-+ FunctionUserBuilder apply(LootItemFunction$Builder)
-+ FunctionUserBuilder unwrap()
-- Object apply(LootItemFunction$Builder)
-- Object unwrap()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.AlternativesEntry</summary>
-
-```diff
-+ AlternativesEntry$Builder alternatives(Function)
-+ LootPoolEntryContainer$Builder[] lambda$alternatives$1(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder</summary>
-
-```diff
-+ FunctionUserBuilder apply(LootItemFunction$Builder)
-+ FunctionUserBuilder unwrap()
-- Object apply(LootItemFunction$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder</summary>
-
-```diff
-+ SetBannerPatternFunction$Builder addPattern(DyeColor)
-+ SetBannerPatternFunction$Builder addPattern(DyeColor)
-- SetBannerPatternFunction$Builder addPattern(DyeColor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.ArgumentSignatures
@@ -9838,13 +6490,634 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.ChatFormatting</summary>
+
+```diff
++ String getSerializedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ ToIntFunction createIndexLookup(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.Advancement$Builder</summary>
+
+```diff
++ void lambda$serializeToNetwork$1(FriendlyByteBuf,DisplayInfo)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.HashCache$ProviderCache</summary>
+
+```diff
++ HashCode get(Path)
+- String get(Path)
++ void put(Path,HashCode)
+- void put(Path,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.BlockListReport</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.SnbtToNbt$TaskResult</summary>
+
+```diff
++ boolean equals(Object)
++ byte[] payload()
++ HashCode hash()
++ int hashCode()
++ String name()
++ String snbtPayload()
++ String toString()
++ void <init>(String,byte[],String,HashCode)
+- void <init>(String,byte[],String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper$1</summary>
+
+```diff
++ void <init>(GameTestHelper,Level,BlockPos,float,GameProfile,ProfilePublicKey)
+- void <init>(GameTestHelper,Level,BlockPos,float,GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
+
+```diff
++ Collection readCollection(IntFunction,FriendlyByteBuf$Reader)
+- Collection readCollection(IntFunction,Function)
++ Either readEither(FriendlyByteBuf$Reader,FriendlyByteBuf$Reader)
+- Either readEither(Function,Function)
++ List readList(FriendlyByteBuf$Reader)
+- List readList(Function)
++ Map readMap(FriendlyByteBuf$Reader,FriendlyByteBuf$Reader)
+- Map readMap(Function,Function)
++ Map readMap(IntFunction,FriendlyByteBuf$Reader,FriendlyByteBuf$Reader)
+- Map readMap(IntFunction,Function,Function)
++ Object readNullable(FriendlyByteBuf$Reader)
++ Optional readOptional(FriendlyByteBuf$Reader)
+- Optional readOptional(Function)
+- void lambda$writeEither$4(BiConsumer,Object)
++ void lambda$writeEither$4(FriendlyByteBuf$Writer,Object)
+- void lambda$writeEither$5(BiConsumer,Object)
++ void lambda$writeEither$5(FriendlyByteBuf$Writer,Object)
+- void lambda$writeMap$3(BiConsumer,BiConsumer,Object,Object)
++ void lambda$writeMap$3(FriendlyByteBuf$Writer,FriendlyByteBuf$Writer,Object,Object)
+- void writeCollection(Collection,BiConsumer)
++ void writeCollection(Collection,FriendlyByteBuf$Writer)
+- void writeEither(Either,BiConsumer,BiConsumer)
++ void writeEither(Either,FriendlyByteBuf$Writer,FriendlyByteBuf$Writer)
+- void writeMap(Map,BiConsumer,BiConsumer)
++ void writeMap(Map,FriendlyByteBuf$Writer,FriendlyByteBuf$Writer)
++ void writeNullable(Object,FriendlyByteBuf$Writer)
+- void writeOptional(Optional,BiConsumer)
++ void writeOptional(Optional,FriendlyByteBuf$Writer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
+
+```diff
++ String toStableJson(Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundCustomQueryPacket</summary>
+
+```diff
++ FriendlyByteBuf lambda$new$0(FriendlyByteBuf)
++ void lambda$write$1(FriendlyByteBuf,FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+
+```diff
++ boolean isChallengeSignatureValid(byte[],ProfilePublicKey)
+- boolean isChallengeSignatureValid(byte[],ProfilePublicKey$Trusted)
++ Boolean lambda$isChallengeSignatureValid$2(ProfilePublicKey,byte[],Crypt$SaltSignaturePair)
+- Boolean lambda$isChallengeSignatureValid$2(ProfilePublicKey$Trusted,byte[],Crypt$SaltSignaturePair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.syncher.EntityDataSerializer$1</summary>
+
+```diff
+- void <init>(BiConsumer,Function)
++ void <init>(FriendlyByteBuf$Writer,FriendlyByteBuf$Reader)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.EmoteCommands</summary>
+
+```diff
+- Component createMessage(CommandContext,String)
+- Component lambda$register$0(ServerPlayer,Component,Component,ServerPlayer)
++ int lambda$register$1(CommandContext)
+- int lambda$register$2(CommandContext)
++ void lambda$register$0(CommandSourceStack,SignedMessage,ServerPlayer,TextFilter$FilteredText)
+- void lambda$register$1(CommandContext,MinecraftServer,ServerPlayer,TextFilter$FilteredText)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
+
+```diff
+- boolean isResourcePackRequired()
+- Component getResourcePackPrompt()
+- Component parseResourcePackPrompt(DedicatedServerSettings)
++ Optional getServerResourcePack()
+- String getPackHash()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
+
+```diff
++ Component parseResourcePackPrompt(String)
++ Optional getServerPackInfo(String,String,String,boolean,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
++ boolean resetLastActionTime()
+- Component lambda$handleChat$9(Component,Component,ServerPlayer)
++ void detectRateSpam()
++ void handleChatCommand(ServerboundChatCommandPacket)
+- void handleCommand(String)
+- void lambda$handlePlaceRecipe$10(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handlePlaceRecipe$9(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handleSignUpdate$10(ServerboundSignUpdatePacket,List)
+- void lambda$handleSignUpdate$11(ServerboundSignUpdatePacket,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerLoginPacketListenerImpl</summary>
+
+```diff
++ ProfilePublicKey validatePublicKey(ServerboundHelloPacket,MinecraftSessionService,boolean)
+- ProfilePublicKey$Trusted validatePublicKey(ServerboundHelloPacket,MinecraftSessionService,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- Component lambda$broadcastSystemMessage$2(Component,ServerPlayer)
++ Component lambda$broadcastSystemMessage$3(Component,ServerPlayer)
+- Entity lambda$placeNewPlayer$0(ServerLevel,Entity)
++ Entity lambda$placeNewPlayer$1(ServerLevel,Entity)
++ ServerPlayer getPlayerForLogin(GameProfile,ProfilePublicKey)
+- ServerPlayer getPlayerForLogin(GameProfile)
++ SignedMessage lambda$broadcastChatMessage$4(ServerPlayer,SignedMessage,SignedMessage,ServerPlayer)
++ SignedMessage lambda$broadcastChatMessage$5(SignedMessage,ServerPlayer)
++ void broadcastChatMessage(SignedMessage,ChatSender,ResourceKey)
++ void broadcastChatMessage(SignedMessage,Function,ChatSender,ResourceKey)
++ void broadcastChatMessage(SignedMessage,TextFilter$FilteredText,ServerPlayer,ResourceKey)
+- void broadcastPlayerMessage(Component,Function,ChatType,ChatSender,Instant,Crypt$SaltSignaturePair)
+- void broadcastSystemMessage(Component,ChatType)
+- void broadcastSystemMessage(Component,Function,ChatType)
++ void broadcastSystemMessage(Component,Function,ResourceKey)
++ void broadcastSystemMessage(Component,ResourceKey)
++ void broadcastSystemToAllExceptTeam(Player,Component)
++ void broadcastSystemToTeam(Player,Component)
+- void broadcastToAllExceptTeam(Player,Component)
+- void broadcastToTeam(Player,Component)
+- void broadcastUnsignedMessage(Component,ChatType,UUID)
++ void lambda$placeNewPlayer$0(ServerPlayer,MinecraftServer$ServerResourcePackInfo)
+- void lambda$remove$1(Entity)
++ void lambda$remove$2(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.StringUtil</summary>
+
+```diff
++ String trimChatMessage(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
+
+```diff
++ boolean canTriggerAvoidVibration()
+- boolean lambda$increaseAngerAt$4(LivingEntity)
+- Boolean lambda$onSignalReceive$5(Entity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
+- ChatSender asChatSender()
++ ProfilePublicKey getProfilePublicKey()
++ void <init>(Level,BlockPos,float,GameProfile,ProfilePublicKey)
+- void <init>(Level,BlockPos,float,GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.LoomMenu</summary>
+
+```diff
++ List getSelectablePatterns()
++ List getSelectablePatterns(ItemStack)
+- void setupResultSlot()
++ void setupResultSlot(Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BannerItem</summary>
+
+```diff
++ String lambda$appendHoverTextFromBannerBlockEntityTag$0(ResourceKey)
++ void lambda$appendHoverTextFromBannerBlockEntityTag$1(List,DyeColor,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item</summary>
+
+```diff
+- boolean allowdedIn(CreativeModeTab)
++ boolean allowedIn(CreativeModeTab)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.trading.MerchantOffers</summary>
+
+```diff
++ MerchantOffer lambda$createFromStream$1(FriendlyByteBuf)
++ void <init>(int)
++ void lambda$writeToStream$0(FriendlyByteBuf,MerchantOffer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.FoliageColor</summary>
+
+```diff
++ int getMangroveColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BannerPattern</summary>
+
+```diff
+- BannerPattern byFilename(String)
+- BannerPattern byHash(String)
+- BannerPattern valueOf(String)
+- BannerPattern[] $values()
+- BannerPattern[] values()
++ boolean lambda$byHash$0(String,Holder$Reference)
+- boolean lambda$static$0(BannerPattern)
++ Holder byHash(String)
+- ResourceLocation location(boolean)
++ ResourceLocation location(ResourceKey,boolean)
+- String getFilename()
+- void <clinit>()
+- void <init>(String,int,String,String,boolean)
+- void <init>(String,int,String,String)
++ void <init>(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.GameEventDispatcher$1</summary>
+
+```diff
++ boolean walkListeners(GameEvent,Vec3,GameEvent$Context,BiConsumer)
+- void post(GameEvent,Vec3,GameEvent$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement</summary>
+
+```diff
++ boolean generateJigsaw(ServerLevel,Holder,ResourceLocation,int,BlockPos,boolean)
++ boolean lambda$generateJigsaw$1(Holder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootTable$Builder</summary>
+
+```diff
++ FunctionUserBuilder apply(LootItemFunction$Builder)
++ FunctionUserBuilder unwrap()
+- Object apply(LootItemFunction$Builder)
+- Object unwrap()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.AlternativesEntry</summary>
+
+```diff
++ AlternativesEntry$Builder alternatives(Collection,Function)
++ LootPoolEntryContainer$Builder[] lambda$alternatives$1(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder</summary>
+
+```diff
++ FunctionUserBuilder apply(LootItemFunction$Builder)
++ FunctionUserBuilder unwrap()
+- Object apply(LootItemFunction$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction$Builder</summary>
+
+```diff
+- SetBannerPatternFunction$Builder addPattern(BannerPattern,DyeColor)
++ SetBannerPatternFunction$Builder addPattern(Holder,DyeColor)
++ SetBannerPatternFunction$Builder addPattern(ResourceKey,DyeColor)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/banner_pattern/no_item_required.json
++ minecraft/tags/banner_pattern/pattern_item/creeper.json
++ minecraft/tags/banner_pattern/pattern_item/flower.json
++ minecraft/tags/banner_pattern/pattern_item/globe.json
++ minecraft/tags/banner_pattern/pattern_item/mojang.json
++ minecraft/tags/banner_pattern/pattern_item/piglin.json
++ minecraft/tags/banner_pattern/pattern_item/skull.json
++ minecraft/tags/blocks/snow_layer_can_survive_on.json
++ minecraft/tags/blocks/snow_layer_cannot_survive_on.json
++ minecraft/tags/instrument/goat_horns.json
++ minecraft/tags/instrument/regular_goat_horns.json
++ minecraft/tags/instrument/screaming_goat_horns.json
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/worldgen/minecraft/chat_type/chat.json
++ reports/worldgen/minecraft/chat_type/emote_command.json
++ reports/worldgen/minecraft/chat_type/game_info.json
++ reports/worldgen/minecraft/chat_type/msg_command.json
++ reports/worldgen/minecraft/chat_type/say_command.json
++ reports/worldgen/minecraft/chat_type/system.json
++ reports/worldgen/minecraft/chat_type/team_msg_command.json
++ reports/worldgen/minecraft/chat_type/tellraw_command.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ banner_pattern.txt
++ chat_type.txt
++ instrument.txt
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
+- minecraft:set_goat_horn_sound
++ minecraft:set_instrument
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ place.txt
+- placefeature.txt
+```
+
+</details>
+
+
+<details><summary>me.txt</summary>
+
+```diff
++ me <action: message>
+- me <action: string>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ banner_pattern/no_item_required.json
++ banner_pattern/pattern_item/creeper.json
++ banner_pattern/pattern_item/flower.json
++ banner_pattern/pattern_item/globe.json
++ banner_pattern/pattern_item/mojang.json
++ banner_pattern/pattern_item/piglin.json
++ banner_pattern/pattern_item/skull.json
++ blocks/snow_layer_can_survive_on.json
++ blocks/snow_layer_cannot_survive_on.json
++ instrument/goat_horns.json
++ instrument/regular_goat_horns.json
++ instrument/screaming_goat_horns.json
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
+- minecraft:flap
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.place.feature.failed
++ commands.place.feature.invalid
++ commands.place.feature.success
++ commands.place.jigsaw.failed
++ commands.place.jigsaw.invalid
++ commands.place.jigsaw.success
++ commands.place.structure.failed
++ commands.place.structure.invalid
++ commands.place.structure.success
+- commands.placefeature.failed
+- commands.placefeature.invalid
+- commands.placefeature.success
++ instrument.minecraft.admire_goat_horn
++ instrument.minecraft.call_goat_horn
++ instrument.minecraft.dream_goat_horn
++ instrument.minecraft.feel_goat_horn
++ instrument.minecraft.ponder_goat_horn
++ instrument.minecraft.seek_goat_horn
++ instrument.minecraft.sing_goat_horn
++ instrument.minecraft.yearn_goat_horn
+- item.minecraft.goat_horn.sound.0
+- item.minecraft.goat_horn.sound.1
+- item.minecraft.goat_horn.sound.2
+- item.minecraft.goat_horn.sound.3
+- item.minecraft.goat_horn.sound.4
+- item.minecraft.goat_horn.sound.5
+- item.minecraft.goat_horn.sound.6
+- item.minecraft.goat_horn.sound.7
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ banner_pattern/no_item_required.json
++ banner_pattern/pattern_item/creeper.json
++ banner_pattern/pattern_item/flower.json
++ banner_pattern/pattern_item/globe.json
++ banner_pattern/pattern_item/mojang.json
++ banner_pattern/pattern_item/piglin.json
++ banner_pattern/pattern_item/skull.json
++ blocks/snow_layer_can_survive_on.json
++ blocks/snow_layer_cannot_survive_on.json
++ instrument/goat_horns.json
++ instrument/regular_goat_horns.json
++ instrument/screaming_goat_horns.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:text2speech:1.13.9
+- com.mojang:text2speech:1.13.9
++ com.mojang:text2speech:1.16.7
+- io.netty:netty-all:4.1.68.Final
++ io.netty:netty-buffer:4.1.77.Final
++ io.netty:netty-codec:4.1.77.Final
++ io.netty:netty-common:4.1.77.Final
++ io.netty:netty-handler:4.1.77.Final
++ io.netty:netty-resolver:4.1.77.Final
++ io.netty:netty-transport-classes-epoll:4.1.77.Final
++ io.netty:netty-transport-native-epoll:4.1.77.Final
++ io.netty:netty-transport-native-unix-common:4.1.77.Final
++ io.netty:netty-transport:4.1.77.Final
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl-openal:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl-stb:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-arm64
++ org.lwjgl:lwjgl:3.3.1:natives-windows-arm64
+```
+
+</details>

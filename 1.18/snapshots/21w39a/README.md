@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w39a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w39a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-09-29T16:27:05+00:00</td></tr>
@@ -10,2012 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5f6f035a96f6d68bb79adbc0c001e0e332383181/server.txt">https://piston-data.mojang.com/v1/objects/5f6f035a96f6d68bb79adbc0c001e0e332383181/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/2b2b97d9ca6d50669096016f0da959879afe3203/client.jar">https://piston-data.mojang.com/v1/objects/2b2b97d9ca6d50669096016f0da959879afe3203/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/bae4d018259bbfc2d74153c1347da160adb95daf/client.txt">https://piston-data.mojang.com/v1/objects/bae4d018259bbfc2d74153c1347da160adb95daf/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w38a">21w38a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/caves_and_cliffs.json
-+  minecraft/advancements/adventure/ride_strider_in_overworld_lava.json
-+  minecraft/advancements/adventure/trade_at_world_height.json
-+  minecraft/advancements/husbandry/play_jukebox_in_meadows.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>list</summary>
 
-```diff
-- worldgen/block_placer_type.txt
-+ block_predicate_type.txt
-```
-
-</details>
-
-<details><summary>int_provider_type.txt</summary>
-
-```diff
-+ minecraft:weighted_list
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-+ minecraft:set_potion
-```
-
-</details>
-
-<details><summary>worldgen/carver.txt</summary>
-
-```diff
-- minecraft:underwater_canyon
-- minecraft:underwater_cave
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:heightmap_spread_double
-- minecraft:spread_32_above
-+ minecraft:environment_scan
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:growing_plant
-+ minecraft:block_column
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/caves_and_cliffs.json
-+ adventure/ride_strider_in_overworld_lava.json
-+ adventure/trade_at_world_height.json
-+ husbandry/play_jukebox_in_meadows.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:3.0.35
-+ com.mojang:authlib:3.1.36
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.client.Ping</summary>
-
-```diff
-- void close(Socket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
-
-```diff
-+ LocationPredicate atYLocation(MinMaxBounds$Doubles)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen</summary>
-
-```diff
-- boolean doRenderEffects
-+ boolean canSeeEffects()
-+ Component getEffectName(MobEffectInstance)
-+ void renderBackgrounds(Iterable,boolean)
-+ void renderEffects(PoseStack,int,int)
-+ void renderIcons(Iterable,boolean)
-- void checkEffectRendering()
-- void init()
-- void renderBackgrounds(Iterable)
-- void renderEffects(PoseStack)
-- void renderIcons(Iterable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip</summary>
-
-```diff
-+ void blit(ClientBundleTooltip$Texture)
-+ void drawBorder(PoseStack,int)
-+ void renderImage(ItemRenderer,int)
-+ void renderSlot(ItemRenderer,int)
-- void blit(ClientBundleTooltip$Texture)
-- void drawBorder(TextureManager)
-- void renderImage(TextureManager)
-- void renderSlot(TextureManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.SoundEngine</summary>
-
-```diff
-+ AtomicReference devicePoolState
-+ long DEFAULT_DEVICE_CHECK_INTERVAL_MS
-- long DEFAULT_DEVICE_CHECK_INTERVAL
-+ void lambda$pause$10(Stream)
-+ void lambda$play$5(Channel)
-+ void lambda$play$6(Channel)
-+ void lambda$play$7(SoundBuffer)
-+ void lambda$play$8(Channel)
-+ void lambda$play$9(AudioStream)
-+ void lambda$resume$11(Stream)
-+ void lambda$shouldChangeDevice$3(String)
-+ void lambda$tickNonPaused$4(Channel)
-+ void lambda$updateSource$12(Vector3f)
-- void lambda$pause$9(Stream)
-- void lambda$play$4(Channel)
-- void lambda$play$5(Channel)
-- void lambda$play$6(SoundBuffer)
-- void lambda$play$7(Channel)
-- void lambda$play$8(AudioStream)
-- void lambda$resume$10(Stream)
-- void lambda$tickNonPaused$3(Channel)
-- void lambda$updateSource$11(Vector3f)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.FishingLoot</summary>
-
-```diff
-- void lambda$accept$0(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ BlockPredicate SNOW_TREE_PREDICATE
-+ ConfiguredDecorator SNOW_TREE_FILTER_DECORATOR
-+ ConfiguredFeature FANCY_OAK_BEES
-+ ConfiguredFeature GRASS_BONEMEAL
-+ ConfiguredFeature SUPER_BIRCH_BEES
-- ConfiguredFeature FANCY_OAK_BEES_05
-- ConfiguredFeature SUPER_BIRCH_BEES_05
-+ ConfiguredFeature lambda$grassPatch$28(BlockStateProvider)
-+ ConfiguredFeature lambda$simplePatchConfiguration$0(ConfiguredFeature)
-+ ConfiguredFeature lambda$static$21()
-+ ConfiguredFeature lambda$static$22()
-+ ConfiguredFeature lambda$static$23()
-+ ConfiguredFeature lambda$static$24()
-+ ConfiguredFeature lambda$static$25()
-+ ConfiguredFeature lambda$static$26()
-+ ConfiguredFeature lambda$static$27()
-+ RandomPatchConfiguration grassPatch(BlockStateProvider,int)
-+ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature)
-+ RandomPatchConfiguration simplePatchConfiguration(Set,int)
-+ RandomPatchConfiguration simplePatchConfiguration(Set)
-- ConfiguredFeature lambda$static$0()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features$Decorators</summary>
-
-```diff
-+ BeehiveDecorator BEEHIVE
-- BeehiveDecorator BEEHIVE_05
-- ConfiguredDecorator ADD_32
-- ConfiguredDecorator HEIGHTMAP_DOUBLE
-- ConfiguredDecorator HEIGHTMAP_DOUBLE_SQUARE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ boolean anyPlayerCloseEnoughForSpawning(ChunkPos)
-+ boolean playerIsCloseEnoughForSpawning(ChunkPos)
-+ List getPlayers(ChunkPos,boolean)
-+ List getPlayersCloseForSpawning(ChunkPos)
-+ void lambda$packTicks$46(LevelChunk)
-- boolean lambda$getPlayers$47(ServerPlayer)
-- boolean lambda$getPlayersCloseForSpawning$46(ServerPlayer)
-- boolean noPlayersCloseForSpawning(ChunkPos)
-- Stream getPlayers(ChunkPos,boolean)
-- Stream getPlayersCloseForSpawning(ChunkPos)
-- void lambda$packTicks$48(LevelChunk)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.PlayerMap</summary>
-
-```diff
-+ Set getPlayers(long)
-- Stream getPlayers(long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
-
-```diff
-+ void lambda$onLightUpdate$6(LightLayer)
-+ void lambda$tickChunks$5(ServerChunkCache$ChunkAndHolder)
-- void lambda$onLightUpdate$7(LightLayer)
-- void lambda$tickChunks$5(ChunkHolder)
-- void lambda$tickChunks$6(ChunkHolder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ void resetFallDistance()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ int UPDATE_GOAL_SELECTOR_EVERY_N_TICKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.FloatGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.Goal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-+ int adjustedTickDelay(int)
-+ int reducedTickDelay(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
-
-```diff
-+ void tickRunningGoals(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.MoveToBlockGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.RandomLookAroundGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.RangedBowAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.SwellGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.ZombieAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox$SleepGoal</summary>
-
-```diff
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Panda$PandaBreedGoal</summary>
-
-```diff
-- Panda this$0
-+ void <init>(Panda,double)
-- void <init>(Panda,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit$RabbitJumpControl</summary>
-
-```diff
-- Rabbit this$0
-+ void <init>(Rabbit)
-- void <init>(Rabbit)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Blaze$BlazeAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime$SlimeAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex$VexChargeAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raider$HoldGroundAttackGoal</summary>
-
-```diff
-+ boolean requiresUpdateEveryTick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemCooldowns$CooldownInstance</summary>
-
-```diff
-- ItemCooldowns this$0
-+ void <init>(int,int)
-- void <init>(ItemCooldowns,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
-
-```diff
-+ CubicSpline jaggednessSampler
-- CubicSpline peakNoiseBlockAmplitudeSampler
-+ CubicSpline buildErosionJaggednessSpline(float,float,float,float)
-+ CubicSpline buildRidgeJaggednessSpline(float,float)
-+ CubicSpline buildWeirdnessJaggednessSpline(float)
-+ float jaggedness(TerrainShaper$Point)
-- float peaks(TerrainShaper$Point)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.StateDefinition</summary>
-
-```diff
-+ Pair lambda$appendPropertyCodec$7(StateHolder)
-+ Property$Value lambda$appendPropertyCodec$5(Supplier)
-+ StateHolder lambda$appendPropertyCodec$6(Pair)
-+ void lambda$appendPropertyCodec$4(String)
-- Pair lambda$appendPropertyCodec$6(StateHolder)
-- Property$Value lambda$appendPropertyCodec$4(Supplier)
-- StateHolder lambda$appendPropertyCodec$5(Pair)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.pattern.BlockPatternBuilder</summary>
-
-```diff
-+ boolean lambda$new$0(BlockInWorld)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature BLOCK_COLUMN
-+ Feature FLOWER
-+ Feature NO_BONEMEAL_FLOWER
-- AbstractFlowerFeature FLOWER
-- AbstractFlowerFeature NO_BONEMEAL_FLOWER
-- Feature GROWING_PLANT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.BlockFilterDecorator</summary>
-
-```diff
-+ boolean shouldPlace(BlockPos)
-+ boolean shouldPlace(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
-
-```diff
-- BlockPos lambda$getPositions$0(ChunkPos,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.DecorationContext</summary>
-
-```diff
-+ CarvingMask getCarvingMask(GenerationStep$Carving)
-- BitSet getCarvingMask(GenerationStep$Carving)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.placement.FeatureDecorator</summary>
-
-```diff
-+ FeatureDecorator ENVIRONMENT_SCAN
-- FeatureDecorator HEIGHTMAP_SPREAD_DOUBLE
-- FeatureDecorator SPREAD_32_ABOVE
-```
-
-</details>
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.DistanceTrigger
@@ -5129,73 +3145,13 @@
 </details>
 
 
+<details><summary>com.mojang.realmsclient.client.Ping</summary>
 
+```diff
+- void close(Socket)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
@@ -5207,1287 +3163,372 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen</summary>
 
 ```diff
-+ Codec VERTICAL_CODEC
-+ DataResult verifyVertical(Direction)
++ boolean canSeeEffects()
++ Component getEffectName(MobEffectInstance)
+- void checkEffectRendering()
+- void init()
++ void renderBackgrounds(PoseStack,int,int,Iterable,boolean)
+- void renderBackgrounds(PoseStack,int,int,Iterable)
++ void renderEffects(PoseStack,int,int)
+- void renderEffects(PoseStack)
++ void renderIcons(PoseStack,int,int,Iterable,boolean)
+- void renderIcons(PoseStack,int,int,Iterable)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.chase.ChaseServer</summary>
+<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip</summary>
 
 ```diff
-+ ChaseServer$PlayerPosition getPlayerPosition()
-- String formatPlayerPositionMessage()
++ void blit(PoseStack,int,int,int,ClientBundleTooltip$Texture)
+- void blit(PoseStack,int,int,int,TextureManager,ClientBundleTooltip$Texture)
+- void drawBorder(int,int,int,int,PoseStack,int,TextureManager)
++ void drawBorder(int,int,int,int,PoseStack,int)
+- void renderImage(Font,int,int,PoseStack,ItemRenderer,int,TextureManager)
++ void renderImage(Font,int,int,PoseStack,ItemRenderer,int)
+- void renderSlot(int,int,int,boolean,Font,PoseStack,ItemRenderer,int,TextureManager)
++ void renderSlot(int,int,int,boolean,Font,PoseStack,ItemRenderer,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.client.sounds.SoundEngine</summary>
 
 ```diff
-+ List startsForFeature(StructureFeature)
-- Stream startsForFeature(StructureFeature)
++ void lambda$pause$10(Stream)
+- void lambda$pause$9(Stream)
+- void lambda$play$4(float,float,SoundInstance$Attenuation,float,boolean,boolean,Vec3,boolean,Channel)
++ void lambda$play$5(float,float,SoundInstance$Attenuation,float,boolean,boolean,Vec3,boolean,Channel)
+- void lambda$play$5(SoundBuffer,Channel)
+- void lambda$play$6(ChannelAccess$ChannelHandle,SoundBuffer)
++ void lambda$play$6(SoundBuffer,Channel)
+- void lambda$play$7(AudioStream,Channel)
++ void lambda$play$7(ChannelAccess$ChannelHandle,SoundBuffer)
++ void lambda$play$8(AudioStream,Channel)
+- void lambda$play$8(ChannelAccess$ChannelHandle,AudioStream)
++ void lambda$play$9(ChannelAccess$ChannelHandle,AudioStream)
+- void lambda$resume$10(Stream)
++ void lambda$resume$11(Stream)
++ void lambda$shouldChangeDevice$3(String)
+- void lambda$tickNonPaused$3(float,float,Vec3,Channel)
++ void lambda$tickNonPaused$4(float,float,Vec3,Channel)
+- void lambda$updateSource$11(Vec3,Vector3f,Vector3f)
++ void lambda$updateSource$12(Vec3,Vector3f,Vector3f)
 ```
 
 </details>
 
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+<details><summary>net.minecraft.data.loot.FishingLoot</summary>
 
 ```diff
-+ Vec3 enteredLavaOnVehiclePosition
-+ Vec3 startingToFallPosition
+- void lambda$accept$0(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.Features</summary>
+
+```diff
++ ConfiguredFeature lambda$grassPatch$28(BlockStateProvider)
++ ConfiguredFeature lambda$simplePatchConfiguration$0(ConfiguredFeature)
+- ConfiguredFeature lambda$static$0()
++ ConfiguredFeature lambda$static$21()
++ ConfiguredFeature lambda$static$22()
++ ConfiguredFeature lambda$static$23()
++ ConfiguredFeature lambda$static$24()
++ ConfiguredFeature lambda$static$25()
++ ConfiguredFeature lambda$static$26()
++ ConfiguredFeature lambda$static$27()
++ RandomPatchConfiguration grassPatch(BlockStateProvider,int)
++ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,Set,int)
++ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature,Set)
++ RandomPatchConfiguration simplePatchConfiguration(ConfiguredFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ boolean anyPlayerCloseEnoughForSpawning(ChunkPos)
+- boolean lambda$getPlayers$47(boolean,ChunkPos,ServerPlayer)
+- boolean lambda$getPlayersCloseForSpawning$46(ChunkPos,ServerPlayer)
+- boolean noPlayersCloseForSpawning(ChunkPos)
++ boolean playerIsCloseEnoughForSpawning(ServerPlayer,ChunkPos)
++ List getPlayers(ChunkPos,boolean)
++ List getPlayersCloseForSpawning(ChunkPos)
+- Stream getPlayers(ChunkPos,boolean)
+- Stream getPlayersCloseForSpawning(ChunkPos)
++ void lambda$packTicks$46(LevelChunk)
+- void lambda$packTicks$48(LevelChunk)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.PlayerMap</summary>
+
+```diff
++ Set getPlayers(long)
+- Stream getPlayers(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+
+```diff
++ void lambda$onLightUpdate$6(SectionPos,LightLayer)
+- void lambda$onLightUpdate$7(SectionPos,LightLayer)
+- void lambda$tickChunks$5(long,boolean,NaturalSpawner$SpawnState,boolean,int,ChunkHolder)
++ void lambda$tickChunks$5(ServerChunkCache$ChunkAndHolder)
+- void lambda$tickChunks$6(ChunkHolder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
 + void resetFallDistance()
-+ void trackEnteredOrExitedLavaOnVehicle()
-+ void trackStartFallingPosition()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.FloatGoal</summary>
 
 ```diff
-+ List startsForFeature(StructureFeature)
-- Stream startsForFeature(StructureFeature)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.MissingDimensionFix</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.Goal</summary>
 
 ```diff
-+ Type flatType(Schema)
++ boolean requiresUpdateEveryTick()
++ int adjustedTickDelay(int)
++ int reducedTickDelay(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.thread.StrictQueue$FixedPriorityQueue</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
 
 ```diff
-+ AtomicInteger size
-+ Queue[] queues
-- List queueList
-- ConcurrentLinkedQueue lambda$new$0(int)
++ void tickRunningGoals(boolean)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.IntProviderType</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.MoveToBlockGoal</summary>
 
 ```diff
-+ IntProviderType WEIGHTED_LIST
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.RandomLookAroundGoal</summary>
 
 ```diff
-+ boolean hasAnyStructureReferences()
-+ void incrementInhabitedTime(long)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.RangedBowAttackGoal</summary>
 
 ```diff
-+ CarvingMask getCarvingMask(GenerationStep$Carving)
-+ CarvingMask getOrCreateCarvingMask(GenerationStep$Carving)
-+ CarvingMask lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
-+ void setCarvingMask(CarvingMask)
-- BitSet getCarvingMask(GenerationStep$Carving)
-- BitSet getOrCreateCarvingMask(GenerationStep$Carving)
-- BitSet lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
-- void setCarvingMask(BitSet)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.SwellGoal</summary>
 
 ```diff
-+ Object onlyWhenEmpty()
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
+<details><summary>net.minecraft.world.entity.ai.goal.ZombieAttackGoal</summary>
 
 ```diff
-+ ResourceKey LARGE_BIOMES
-+ NoiseGeneratorSettings overworld(StructureSettings,boolean,boolean)
-- NoiseGeneratorSettings overworld(StructureSettings,boolean)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
+
+<details><summary>net.minecraft.world.entity.animal.Fox$SleepGoal</summary>
 
 ```diff
-+ NormalNoise jaggedNoise
-- NormalNoise mountainPeakNoise
-+ double sampleJaggedNoise(double,double,double)
-- double samplePeakNoise(double,double,double)
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
+<details><summary>net.minecraft.world.entity.animal.Panda$PandaBreedGoal</summary>
 
 ```diff
-+ boolean carve(CarvingMask)
-+ boolean carve(CarvingMask)
-+ void createRoom(WorldCarver$CarveSkipChecker)
-+ void createTunnel(WorldCarver$CarveSkipChecker)
-- boolean carve(BitSet)
-- boolean carve(BitSet)
-- void createRoom(WorldCarver$CarveSkipChecker)
-- void createTunnel(WorldCarver$CarveSkipChecker)
++ void <init>(Panda,double)
+- void <init>(Panda,Panda,double)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit$RabbitJumpControl</summary>
 
 ```diff
-+ boolean carveBlock(MutableBoolean)
-+ boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
-- boolean carveBlock(MutableBoolean)
+- void <init>(Rabbit,Rabbit)
++ void <init>(Rabbit)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RandomPatchFeature</summary>
+<details><summary>net.minecraft.world.entity.monster.Blaze$BlazeAttackGoal</summary>
 
 ```diff
-+ boolean isValid(RandomPatchConfiguration)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration</summary>
+<details><summary>net.minecraft.world.entity.monster.Slime$SlimeAttackGoal</summary>
 
 ```diff
-- List placeIn
-- List placeOn
-- List placeUnder
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ BlockStateProvider toPlace()
-+ boolean equals(Object)
-+ int hashCode()
-+ String toString()
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- List lambda$static$1(SimpleBlockConfiguration)
-- List lambda$static$2(SimpleBlockConfiguration)
-- List lambda$static$3(SimpleBlockConfiguration)
-- void <init>(List)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.WaterDepthThresholdDecorator</summary>
+<details><summary>net.minecraft.world.entity.monster.Vex$VexChargeAttackGoal</summary>
 
 ```diff
-+ boolean shouldPlace(BlockPos)
-+ boolean shouldPlace(BlockPos)
-- Stream getPositions(BlockPos)
-- Stream getPositions(BlockPos)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.DataVersion</summary>
+<details><summary>net.minecraft.world.entity.raid.Raider$HoldGroundAttackGoal</summary>
 
 ```diff
-- boolean isInExtendedWorldHeightSegment()
-- boolean isSameSeries(DataVersion)
++ boolean requiresUpdateEveryTick()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
+<details><summary>net.minecraft.world.item.ItemCooldowns$CooldownInstance</summary>
 
 ```diff
-- boolean isIncompatibleWorldHeight()
++ void <init>(int,int)
+- void <init>(ItemCooldowns,int,int)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
 
+```diff
++ CubicSpline buildErosionJaggednessSpline(float,float,float,float)
++ CubicSpline buildRidgeJaggednessSpline(float,float)
++ CubicSpline buildWeirdnessJaggednessSpline(float)
++ float jaggedness(TerrainShaper$Point)
+- float peaks(TerrainShaper$Point)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.state.StateDefinition</summary>
 
+```diff
+- Pair lambda$appendPropertyCodec$6(Property,StateHolder)
++ Pair lambda$appendPropertyCodec$7(Property,StateHolder)
+- Property$Value lambda$appendPropertyCodec$4(Property,Supplier)
++ Property$Value lambda$appendPropertyCodec$5(Property,Supplier)
+- StateHolder lambda$appendPropertyCodec$5(Property,Pair)
++ StateHolder lambda$appendPropertyCodec$6(Property,Pair)
++ void lambda$appendPropertyCodec$4(String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.state.pattern.BlockPatternBuilder</summary>
 
+```diff
++ boolean lambda$new$0(BlockInWorld)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.placement.BlockFilterDecorator</summary>
 
+```diff
++ boolean shouldPlace(DecorationContext,Random,BlockFilterConfiguration,BlockPos)
++ boolean shouldPlace(DecorationContext,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,BlockFilterConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,DecoratorConfiguration,BlockPos)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.placement.CarvingMaskDecorator</summary>
 
+```diff
+- BlockPos lambda$getPositions$0(ChunkPos,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.placement.DecorationContext</summary>
 
+```diff
+- BitSet getCarvingMask(ChunkPos,GenerationStep$Carving)
++ CarvingMask getCarvingMask(ChunkPos,GenerationStep$Carving)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.DistanceTrigger
@@ -8718,13 +5759,341 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
+
+```diff
++ LocationPredicate atYLocation(MinMaxBounds$Doubles)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction</summary>
+
+```diff
++ DataResult verifyVertical(Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.chase.ChaseServer</summary>
+
+```diff
++ ChaseServer$PlayerPosition getPlayerPosition()
+- String formatPlayerPositionMessage()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ List startsForFeature(SectionPos,StructureFeature)
+- Stream startsForFeature(SectionPos,StructureFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
++ void resetFallDistance()
++ void trackEnteredOrExitedLavaOnVehicle()
++ void trackStartFallingPosition()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
++ List startsForFeature(SectionPos,StructureFeature)
+- Stream startsForFeature(SectionPos,StructureFeature)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.MissingDimensionFix</summary>
+
+```diff
++ Type flatType(Schema)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.thread.StrictQueue$FixedPriorityQueue</summary>
+
+```diff
+- ConcurrentLinkedQueue lambda$new$0(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
++ boolean hasAnyStructureReferences()
++ void incrementInhabitedTime(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
+- BitSet getCarvingMask(GenerationStep$Carving)
+- BitSet getOrCreateCarvingMask(GenerationStep$Carving)
+- BitSet lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
++ CarvingMask getCarvingMask(GenerationStep$Carving)
++ CarvingMask getOrCreateCarvingMask(GenerationStep$Carving)
++ CarvingMask lambda$getOrCreateCarvingMask$2(GenerationStep$Carving)
+- void setCarvingMask(GenerationStep$Carving,BitSet)
++ void setCarvingMask(GenerationStep$Carving,CarvingMask)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
+
+```diff
++ Object onlyWhenEmpty()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseGeneratorSettings</summary>
+
+```diff
++ NoiseGeneratorSettings overworld(StructureSettings,boolean,boolean)
+- NoiseGeneratorSettings overworld(StructureSettings,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
+
+```diff
++ double sampleJaggedNoise(double,double,double)
+- double samplePeakNoise(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
+
+```diff
+- boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
++ boolean carve(CarvingContext,CarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,CarvingMask)
+- boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,BitSet)
++ boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,Aquifer,ChunkPos,CarvingMask)
++ void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Aquifer,double,double,double,float,double,CarvingMask,WorldCarver$CarveSkipChecker)
+- void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)
+- void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)
++ void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,Aquifer,double,double,double,double,double,float,float,float,int,int,double,CarvingMask,WorldCarver$CarveSkipChecker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
+
+```diff
+- boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
++ boolean carveBlock(CarvingContext,CarverConfiguration,ChunkAccess,Function,CarvingMask,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+- boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
++ boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,CarvingMask,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,Aquifer,MutableBoolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RandomPatchFeature</summary>
+
+```diff
++ boolean isValid(LevelAccessor,BlockPos,RandomPatchConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- App lambda$static$4(RecordCodecBuilder$Instance)
++ BlockStateProvider toPlace()
++ boolean equals(Object)
++ int hashCode()
+- List lambda$static$1(SimpleBlockConfiguration)
+- List lambda$static$2(SimpleBlockConfiguration)
+- List lambda$static$3(SimpleBlockConfiguration)
++ String toString()
+- void <init>(BlockStateProvider,List,List,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.placement.WaterDepthThresholdDecorator</summary>
+
+```diff
++ boolean shouldPlace(DecorationContext,Random,DecoratorConfiguration,BlockPos)
++ boolean shouldPlace(DecorationContext,Random,WaterDepthThresholdConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,DecoratorConfiguration,BlockPos)
+- Stream getPositions(DecorationContext,Random,WaterDepthThresholdConfiguration,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.DataVersion</summary>
+
+```diff
+- boolean isInExtendedWorldHeightSegment()
+- boolean isSameSeries(DataVersion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
+
+```diff
+- boolean isIncompatibleWorldHeight()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/caves_and_cliffs.json
++ minecraft/advancements/adventure/ride_strider_in_overworld_lava.json
++ minecraft/advancements/adventure/trade_at_world_height.json
++ minecraft/advancements/husbandry/play_jukebox_in_meadows.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ block_predicate_type.txt
+- worldgen/block_placer_type.txt
+```
+
+</details>
+
+
+<details><summary>int_provider_type.txt</summary>
+
+```diff
++ minecraft:weighted_list
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
++ minecraft:set_potion
+```
+
+</details>
+
+
+<details><summary>worldgen/carver.txt</summary>
+
+```diff
+- minecraft:underwater_canyon
+- minecraft:underwater_cave
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
++ minecraft:environment_scan
+- minecraft:heightmap_spread_double
+- minecraft:spread_32_above
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:block_column
+- minecraft:growing_plant
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.fall_from_world_height.description
++ advancements.adventure.fall_from_world_height.title
++ advancements.adventure.trade_at_world_height.description
++ advancements.adventure.trade_at_world_height.title
++ advancements.husbandry.play_jukebox_in_meadows.description
++ advancements.husbandry.play_jukebox_in_meadows.title
++ advancements.nether.ride_strider_in_overworld_lava.description
++ advancements.nether.ride_strider_in_overworld_lava.title
++ options.gamma.default
+- selectWorld.pre_worldheight
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/caves_and_cliffs.json
++ adventure/ride_strider_in_overworld_lava.json
++ adventure/trade_at_world_height.json
++ husbandry/play_jukebox_in_meadows.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:3.0.35
++ com.mojang:authlib:3.1.36
+```
+
+</details>

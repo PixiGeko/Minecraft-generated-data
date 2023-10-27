@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w09a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w09a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-02-26T16:43:08+00:00</td></tr>
@@ -10,1799 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/317f57a3064ab3b57210c830b91e7c66c0dee3ab/server.txt">https://piston-data.mojang.com/v1/objects/317f57a3064ab3b57210c830b91e7c66c0dee3ab/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/d62a517011a3ec66b053a8eae703779555227204/client.jar">https://piston-data.mojang.com/v1/objects/d62a517011a3ec66b053a8eae703779555227204/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5353b6fe55e0b65e1f72336932fd267dd51ef134/client.txt">https://piston-data.mojang.com/v1/objects/5353b6fe55e0b65e1f72336932fd267dd51ef134/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w08a">20w08a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/bullseye.json
-+  minecraft/advancements/recipes/decorations/crimson_sign.json
-+  minecraft/advancements/recipes/decorations/warped_sign.json
-+  minecraft/advancements/recipes/redstone/target.json
--  minecraft/loot_tables/blocks/crimson_fungi.json
-+  minecraft/loot_tables/blocks/crimson_fungus.json
-+  minecraft/loot_tables/blocks/crying_obsidian.json
-+  minecraft/loot_tables/blocks/potted_crimson_fungus.json
-+  minecraft/loot_tables/blocks/potted_crimson_roots.json
-+  minecraft/loot_tables/blocks/potted_warped_fungus.json
-+  minecraft/loot_tables/blocks/potted_warped_roots.json
-+  minecraft/loot_tables/blocks/target.json
--  minecraft/loot_tables/blocks/warped_fungi.json
-+  minecraft/loot_tables/blocks/warped_fungus.json
--  minecraft/loot_tables/entities/zombie_pigman.json
-+  minecraft/loot_tables/entities/zombified_piglin.json
-+  minecraft/recipes/crimson_sign.json
-+  minecraft/recipes/target.json
-+  minecraft/recipes/warped_sign.json
-+  minecraft/tags/blocks/climbable.json
-+  minecraft/tags/entity_types/impact_projectiles.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/blockstates/crimson_fungi.json
-+  minecraft/blockstates/crimson_fungus.json
-+  minecraft/blockstates/crying_obsidian.json
-+  minecraft/blockstates/potted_crimson_fungus.json
-+  minecraft/blockstates/potted_crimson_roots.json
-+  minecraft/blockstates/potted_warped_fungus.json
-+  minecraft/blockstates/potted_warped_roots.json
-+  minecraft/blockstates/target.json
--  minecraft/blockstates/warped_fungi.json
-+  minecraft/blockstates/warped_fungus.json
--  minecraft/models/block/crimson_fungi.json
-+  minecraft/models/block/crimson_fungus.json
-+  minecraft/models/block/crying_obsidian.json
-+  minecraft/models/block/potted_crimson_fungus.json
-+  minecraft/models/block/potted_crimson_roots.json
-+  minecraft/models/block/potted_warped_fungus.json
-+  minecraft/models/block/potted_warped_roots.json
-+  minecraft/models/block/target.json
--  minecraft/models/block/warped_fungi.json
-+  minecraft/models/block/warped_fungus.json
--  minecraft/models/item/crimson_fungi.json
-+  minecraft/models/item/crimson_fungus.json
-+  minecraft/models/item/crying_obsidian.json
-+  minecraft/models/item/target.json
--  minecraft/models/item/warped_fungi.json
-+  minecraft/models/item/warped_fungus.json
--  minecraft/models/item/zombie_pigman_spawn_egg.json
-+  minecraft/models/item/zombified_piglin_spawn_egg.json
-+  minecraft/particles/dripping_obsidian_tear.json
-+  minecraft/particles/falling_obsidian_tear.json
-+  minecraft/particles/landing_obsidian_tear.json
--  minecraft/textures/block/crimson_fungi.png
-+  minecraft/textures/block/crimson_fungus.png
-+  minecraft/textures/block/crimson_roots_pot.png
-+  minecraft/textures/block/crying_obsidian.png
-+  minecraft/textures/block/target_side.png
-+  minecraft/textures/block/target_top.png
--  minecraft/textures/block/warped_fungi.png
-+  minecraft/textures/block/warped_fungus.png
-+  minecraft/textures/block/warped_roots_pot.png
--  minecraft/textures/block/warped_stripped_log_side.png
--  minecraft/textures/block/warped_stripped_log_top.png
--  minecraft/textures/entity/piglin/zombie_piglin.png
-+  minecraft/textures/entity/piglin/zombified_piglin.png
--  minecraft/textures/entity/zombie_pigman.png
-+  minecraft/textures/models/armor/piglin_leather_layer_1.png
-+  minecraft/textures/models/armor/piglin_leather_layer_1_overlay.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:warped_fungi
-- minecraft:crimson_fungi
-+ minecraft:warped_fungus
-+ minecraft:crimson_fungus
-+ minecraft:target
-+ minecraft:crying_obsidian
-+ minecraft:potted_crimson_fungus
-+ minecraft:potted_warped_fungus
-+ minecraft:potted_crimson_roots
-+ minecraft:potted_warped_roots
-```
-
-</details>
-
-<details><summary>custom_stat.txt</summary>
-
-```diff
-+ minecraft:target_hit
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-- minecraft:zombie_pigman
-+ minecraft:zombified_piglin
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-- minecraft:huge_fungi
-+ minecraft:huge_fungus
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:crimson_fungi
-- minecraft:warped_fungi
-- minecraft:zombie_pigman_spawn_egg
-+ minecraft:crimson_fungus
-+ minecraft:warped_fungus
-+ minecraft:zombified_piglin_spawn_egg
-+ minecraft:target
-+ minecraft:crying_obsidian
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-- minecraft:nearest_visible_warped_fungi
-+ minecraft:nearest_visible_warped_fungus
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:dripping_obsidian_tear
-+ minecraft:falling_obsidian_tear
-+ minecraft:landing_obsidian_tear
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:block.fungi.break
-- minecraft:block.fungi.step
-- minecraft:block.fungi.place
-- minecraft:block.fungi.hit
-- minecraft:block.fungi.fall
-- minecraft:block.soul_sand_break
-- minecraft:block.soul_sand_step
-- minecraft:block.soul_sand_place
-- minecraft:block.soul_sand_hit
-- minecraft:block.soul_sand_fall
-- minecraft:block.soul_soil_break
-- minecraft:block.soul_soil_step
-- minecraft:block.soul_soil_place
-- minecraft:block.soul_soil_hit
-- minecraft:block.soul_soil_fall
-- minecraft:entity.zombie_pigman.ambient
-- minecraft:entity.zombie_pigman.angry
-- minecraft:entity.zombie_pigman.death
-- minecraft:entity.zombie_pigman.hurt
-+ minecraft:block.fungus.break
-+ minecraft:block.fungus.step
-+ minecraft:block.fungus.place
-+ minecraft:block.fungus.hit
-+ minecraft:block.fungus.fall
-+ minecraft:block.soul_sand.break
-+ minecraft:block.soul_sand.step
-+ minecraft:block.soul_sand.place
-+ minecraft:block.soul_sand.hit
-+ minecraft:block.soul_sand.fall
-+ minecraft:block.soul_soil.break
-+ minecraft:block.soul_soil.step
-+ minecraft:block.soul_soil.place
-+ minecraft:block.soul_soil.hit
-+ minecraft:block.soul_soil.fall
-+ minecraft:entity.zombified_piglin.ambient
-+ minecraft:entity.zombified_piglin.angry
-+ minecraft:entity.zombified_piglin.death
-+ minecraft:entity.zombified_piglin.hurt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/climbable.json
-+ entity_types/impact_projectiles.json
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:crimson_fungi
-- minecraft:warped_fungi
-+ minecraft:crimson_fungus
-+ minecraft:warped_fungus
-```
-
-</details>
-
-<details><summary>blocks/flower_pots.json</summary>
-
-```diff
-+ minecraft:potted_crimson_fungus
-+ minecraft:potted_warped_fungus
-+ minecraft:potted_crimson_roots
-+ minecraft:potted_warped_roots
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/bullseye.json
-+ recipes/decorations/crimson_sign.json
-+ recipes/decorations/warped_sign.json
-+ recipes/redstone/target.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/crimson_fungi.json
-- blocks/warped_fungi.json
-- entities/zombie_pigman.json
-+ blocks/crimson_fungus.json
-+ blocks/crying_obsidian.json
-+ blocks/potted_crimson_fungus.json
-+ blocks/potted_crimson_roots.json
-+ blocks/potted_warped_fungus.json
-+ blocks/potted_warped_roots.json
-+ blocks/target.json
-+ blocks/warped_fungus.json
-+ entities/zombified_piglin.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ dripping_obsidian_tear.json
-+ falling_obsidian_tear.json
-+ landing_obsidian_tear.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ crimson_sign.json
-+ target.json
-+ warped_sign.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/climbable.json
-+ entity_types/impact_projectiles.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/crimson_fungi.png
-- block/warped_fungi.png
-- block/warped_stripped_log_side.png
-- block/warped_stripped_log_top.png
-- entity/piglin/zombie_piglin.png
-- entity/zombie_pigman.png
-+ block/crimson_fungus.png
-+ block/crimson_roots_pot.png
-+ block/crying_obsidian.png
-+ block/target_side.png
-+ block/target_top.png
-+ block/warped_fungus.png
-+ block/warped_roots_pot.png
-+ entity/piglin/zombified_piglin.png
-+ models/armor/piglin_leather_layer_1.png
-+ models/armor/piglin_leather_layer_1_overlay.png
-```
-
-</details>
-
-## Mappings
-
-
-<details><summary>com.mojang.blaze3d.audio.Library</summary>
-
-```diff
-+ Logger access$000()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Options$1</summary>
-
-```diff
-- Type getOwnerType()
-- Type getRawType()
-- Type[] getActualTypeArguments()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.PiglinModel</summary>
-
-```diff
-+ void setupAnim(Mob,float,float,float,float,float)
-- void setupAnim(Piglin,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-+ float getShade(Direction,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.FaceBakery</summary>
-
-```diff
-+ void fillVertex(BlockFaceUV)
-- float getShade(Direction)
-- int getShadeValue(Direction)
-- void fillVertex(BlockFaceUV)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-+ boolean access$100(Slime)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FireBlock</summary>
-
-```diff
-+ BlockState getStateWithAge(BlockPos,int)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.Dimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(net.minecraft.world.phys.Vec3,float)
-- Vec3 getBrightnessDependentFogColor(int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(Vec3,float)
-- Vec3 getBrightnessDependentFogColor(int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(Vec3,float)
-- Vec3 getBrightnessDependentFogColor(int,float)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
-
-```diff
-+ Vec3 getBrightnessDependentFogColor(Vec3,float)
-- Vec3 getBrightnessDependentFogColor(int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.TargetBlockTrigger$TriggerInstance
@@ -4591,504 +2820,37 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriteriaTriggers</summary>
+<details><summary>com.mojang.blaze3d.audio.Library</summary>
 
 ```diff
-+ TargetBlockTrigger TARGET_BLOCK_HIT
++ Logger access$000()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
+<details><summary>net.minecraft.client.Options$1</summary>
 
 ```diff
-+ SimpleParticleType DRIPPING_OBSIDIAN_TEAR
-+ SimpleParticleType FALLING_OBSIDIAN_TEAR
-+ SimpleParticleType LANDING_OBSIDIAN_TEAR
+- Type getOwnerType()
+- Type getRawType()
+- Type[] getActualTypeArguments()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.model.PiglinModel</summary>
 
+```diff
++ void setupAnim(Mob,float,float,float,float,float)
+- void setupAnim(Piglin,float,float,float,float,float)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
 
 ```diff
 + float getShade(Direction,boolean)
@@ -5097,1040 +2859,73 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.StoredUserList</summary>
+<details><summary>net.minecraft.client.renderer.block.model.FaceBakery</summary>
 
 ```diff
-+ Gson GSON
-+ StoredUserEntry createEntry(com.google.gson.JsonObject)
-- Gson gson
-- ParameterizedType USERLIST_ENTRY_TYPE
-- StoredUserEntry createEntry(JsonObject)
+- float getShade(Direction)
+- int getShadeValue(Direction)
+- void fillVertex(int[],int,Vector3f,int,TextureAtlasSprite,BlockFaceUV)
++ void fillVertex(int[],int,Vector3f,TextureAtlasSprite,BlockFaceUV)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.Stats</summary>
+<details><summary>net.minecraft.world.entity.monster.Slime</summary>
 
 ```diff
-+ ResourceLocation TARGET_HIT
++ boolean access$100(Slime)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.DataFixers</summary>
+<details><summary>net.minecraft.world.level.block.FireBlock</summary>
 
 ```diff
-+ String lambda$addFixers$28(String)
-+ String lambda$addFixers$29(String)
-+ String lambda$addFixers$30(String)
+- BlockState getStateForPlacement(BlockPlaceContext)
++ BlockState getStateWithAge(LevelAccessor,BlockPos,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.SimpleContainer</summary>
+<details><summary>net.minecraft.world.level.dimension.NetherDimension</summary>
 
 ```diff
-+ boolean isSameItem(ItemStack)
+- Vec3 getBrightnessDependentFogColor(int,float)
++ Vec3 getBrightnessDependentFogColor(Vec3,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
+<details><summary>net.minecraft.world.level.dimension.NormalDimension</summary>
 
 ```diff
-+ EntityType ZOMBIFIED_PIGLIN
-- EntityType ZOMBIE_PIGMAN
+- Vec3 getBrightnessDependentFogColor(int,float)
++ Vec3 getBrightnessDependentFogColor(Vec3,float)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+<details><summary>net.minecraft.world.level.dimension.end.TheEndDimension</summary>
 
 ```diff
-+ Optional lastLadderPos
-+ AABB getLocalBoundsForPose(Pose)
-+ ImmutableList getDismountPoses()
-+ Optional lastLadderPos()
-+ void dismountVehicle(Entity)
-+ void setOnGround(boolean)
-- void findStandUpPosition(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ void setItemSlotAndDropWhenKilled(ItemStack)
+- Vec3 getBrightnessDependentFogColor(int,float)
++ Vec3 getBrightnessDependentFogColor(Vec3,float)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StopHoldingItemIfNoLongerAdmiring</summary>
-
-```diff
-+ boolean checkExtraStartConditions(LivingEntity)
-+ boolean checkExtraStartConditions(Piglin)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_WARPED_FUNGUS
-- MemoryModuleType NEAREST_WARPED_FUNGI
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ boolean access$1700(Fox)
-+ boolean access$2000(Fox)
-+ float access$1902(Fox,float)
-- float access$1702(Fox,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
-
-```diff
-+ boolean access$100(Rabbit)
-+ boolean access$300(Rabbit)
-+ int access$402(Rabbit,int)
-+ JumpControl access$200(Rabbit)
-- boolean access$200(Rabbit)
-- int access$302(Rabbit,int)
-- JumpControl access$100(Rabbit)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
-
-```diff
-+ boolean access$1400(Turtle)
-+ boolean isPushedByFluid()
-- boolean isPushedByWater()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.WaterAnimal</summary>
-
-```diff
-+ boolean isPushedByFluid()
-- boolean isPushedByWater()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ Vec3 getDismountLocationForPassenger(LivingEntity)
-- boolean canBeLeashed(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Drowned</summary>
-
-```diff
-+ boolean access$300(Drowned)
-+ boolean isPushedByFluid()
-- boolean isPushedByWater()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ boolean mobInteract(InteractionHand)
-- void playHurtSound()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-+ EntityDataAccessor DATA_IMMUNE_TO_ZOMBIFICATION
-+ boolean canReplaceCurrentItem(ItemStack)
-+ boolean isImmuneToZombification()
-+ void holdInMainHand(ItemStack)
-+ void holdInOffHand(ItemStack)
-+ void setImmuneToZombification(boolean)
-- boolean isOffHandEmpty()
-- void playHurtSound()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-- Set BARTER_RESPONSE_ITEMS_WEIGHTED
-- Set PICK_UP_ITEMS
-+ boolean isNotHoldingLovedItemInOffHand(Piglin)
-+ boolean wantsToPickup(ItemStack)
-+ ItemStack removeOneItemFromItemEntity(ItemEntity)
-+ void putInInventory(ItemStack)
-+ void stopHoldingOffHandItem(Piglin,boolean)
-+ void throwItem(ItemStack)
-+ void throwItemTowardPlayer(ItemStack)
-+ void throwItemTowardPos(Vec3)
-+ void throwItemTowardRandomPos(ItemStack)
-- boolean isBetterThanCurrentItem(ItemStack)
-- boolean seesAdultPiglins(Piglin)
-- boolean wantsToPickUp(ItemStack)
-- void stopHoldingOffHandItem(Piglin)
-- void throwBarterItem(Piglin)
-- void throwBarterItemAtPlayer(Player)
-- void throwBarterItemAtRandomPos(Piglin)
-- void throwItemStack(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoeItem</summary>
-
-```diff
-+ boolean mineBlock(LivingEntity)
-+ float getDestroySpeed(BlockState)
-+ void lambda$hurtEnemy$2(LivingEntity)
-+ void lambda$mineBlock$0(LivingEntity)
-+ void lambda$useOn$1(Player)
-- void lambda$hurtEnemy$1(LivingEntity)
-- void lambda$useOn$0(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BlockAndTintGetter</summary>
-
-```diff
-+ float getShade(net.minecraft.core.Direction,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-- int getHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
-
-```diff
-+ Biome getNoiseBiome(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SoundType</summary>
-
-```diff
-+ SoundType FUNGUS
-- SoundType FUNGI
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.TargetBlockTrigger
@@ -7499,13 +4294,606 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ float getShade(Direction,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.StoredUserList</summary>
+
+```diff
+- StoredUserEntry createEntry(JsonObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.DataFixers</summary>
+
+```diff
++ String lambda$addFixers$28(String)
++ String lambda$addFixers$29(String)
++ String lambda$addFixers$30(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.SimpleContainer</summary>
+
+```diff
++ boolean isSameItem(ItemStack,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ AABB getLocalBoundsForPose(Pose)
++ ImmutableList getDismountPoses()
++ Optional lastLadderPos()
++ void dismountVehicle(Entity)
+- void findStandUpPosition(Entity)
++ void setOnGround(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
++ void setItemSlotAndDropWhenKilled(EquipmentSlot,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StopHoldingItemIfNoLongerAdmiring</summary>
+
+```diff
++ boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean checkExtraStartConditions(ServerLevel,Piglin)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
++ boolean access$1700(Fox)
++ boolean access$2000(Fox)
+- float access$1702(Fox,float)
++ float access$1902(Fox,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Rabbit</summary>
+
+```diff
++ boolean access$100(Rabbit)
+- boolean access$200(Rabbit)
++ boolean access$300(Rabbit)
+- int access$302(Rabbit,int)
++ int access$402(Rabbit,int)
+- JumpControl access$100(Rabbit)
++ JumpControl access$200(Rabbit)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Turtle</summary>
+
+```diff
++ boolean access$1400(Turtle)
++ boolean isPushedByFluid()
+- boolean isPushedByWater()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.WaterAnimal</summary>
+
+```diff
++ boolean isPushedByFluid()
+- boolean isPushedByWater()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- boolean canBeLeashed(Player)
++ Vec3 getDismountLocationForPassenger(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Drowned</summary>
+
+```diff
++ boolean access$300(Drowned)
++ boolean isPushedByFluid()
+- boolean isPushedByWater()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
++ boolean mobInteract(Player,InteractionHand)
+- void playHurtSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ boolean canReplaceCurrentItem(ItemStack)
++ boolean isImmuneToZombification()
+- boolean isOffHandEmpty()
++ void holdInMainHand(ItemStack)
++ void holdInOffHand(ItemStack)
+- void playHurtSound()
++ void setImmuneToZombification(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
+
+```diff
+- boolean isBetterThanCurrentItem(Piglin,ItemStack)
++ boolean isNotHoldingLovedItemInOffHand(Piglin)
+- boolean seesAdultPiglins(Piglin)
++ boolean wantsToPickup(Piglin,ItemStack)
+- boolean wantsToPickUp(Piglin,ItemStack)
++ ItemStack removeOneItemFromItemEntity(ItemEntity)
++ void putInInventory(Piglin,ItemStack)
++ void stopHoldingOffHandItem(Piglin,boolean)
+- void stopHoldingOffHandItem(Piglin)
+- void throwBarterItem(Piglin)
+- void throwBarterItemAtPlayer(Piglin,Player)
+- void throwBarterItemAtRandomPos(Piglin)
++ void throwItem(Piglin,ItemStack)
+- void throwItemStack(Piglin,ItemStack,Vec3)
++ void throwItemTowardPlayer(Piglin,Player,ItemStack)
++ void throwItemTowardPos(Piglin,ItemStack,Vec3)
++ void throwItemTowardRandomPos(Piglin,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.HoeItem</summary>
+
+```diff
++ boolean mineBlock(ItemStack,Level,BlockState,BlockPos,LivingEntity)
++ float getDestroySpeed(ItemStack,BlockState)
+- void lambda$hurtEnemy$1(LivingEntity)
++ void lambda$hurtEnemy$2(LivingEntity)
++ void lambda$mineBlock$0(LivingEntity)
+- void lambda$useOn$0(UseOnContext,Player)
++ void lambda$useOn$1(UseOnContext,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
+- int getHeight()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+
+```diff
++ Biome getNoiseBiome(int,int,int)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/bullseye.json
++ minecraft/advancements/recipes/decorations/crimson_sign.json
++ minecraft/advancements/recipes/decorations/warped_sign.json
++ minecraft/advancements/recipes/redstone/target.json
+- minecraft/loot_tables/blocks/crimson_fungi.json
++ minecraft/loot_tables/blocks/crimson_fungus.json
++ minecraft/loot_tables/blocks/crying_obsidian.json
++ minecraft/loot_tables/blocks/potted_crimson_fungus.json
++ minecraft/loot_tables/blocks/potted_crimson_roots.json
++ minecraft/loot_tables/blocks/potted_warped_fungus.json
++ minecraft/loot_tables/blocks/potted_warped_roots.json
++ minecraft/loot_tables/blocks/target.json
+- minecraft/loot_tables/blocks/warped_fungi.json
++ minecraft/loot_tables/blocks/warped_fungus.json
+- minecraft/loot_tables/entities/zombie_pigman.json
++ minecraft/loot_tables/entities/zombified_piglin.json
++ minecraft/recipes/crimson_sign.json
++ minecraft/recipes/target.json
++ minecraft/recipes/warped_sign.json
++ minecraft/tags/blocks/climbable.json
++ minecraft/tags/entity_types/impact_projectiles.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/blockstates/crimson_fungi.json
++ minecraft/blockstates/crimson_fungus.json
++ minecraft/blockstates/crying_obsidian.json
++ minecraft/blockstates/potted_crimson_fungus.json
++ minecraft/blockstates/potted_crimson_roots.json
++ minecraft/blockstates/potted_warped_fungus.json
++ minecraft/blockstates/potted_warped_roots.json
++ minecraft/blockstates/target.json
+- minecraft/blockstates/warped_fungi.json
++ minecraft/blockstates/warped_fungus.json
+- minecraft/models/block/crimson_fungi.json
++ minecraft/models/block/crimson_fungus.json
++ minecraft/models/block/crying_obsidian.json
++ minecraft/models/block/potted_crimson_fungus.json
++ minecraft/models/block/potted_crimson_roots.json
++ minecraft/models/block/potted_warped_fungus.json
++ minecraft/models/block/potted_warped_roots.json
++ minecraft/models/block/target.json
+- minecraft/models/block/warped_fungi.json
++ minecraft/models/block/warped_fungus.json
+- minecraft/models/item/crimson_fungi.json
++ minecraft/models/item/crimson_fungus.json
++ minecraft/models/item/crying_obsidian.json
++ minecraft/models/item/target.json
+- minecraft/models/item/warped_fungi.json
++ minecraft/models/item/warped_fungus.json
+- minecraft/models/item/zombie_pigman_spawn_egg.json
++ minecraft/models/item/zombified_piglin_spawn_egg.json
++ minecraft/particles/dripping_obsidian_tear.json
++ minecraft/particles/falling_obsidian_tear.json
++ minecraft/particles/landing_obsidian_tear.json
+- minecraft/textures/block/crimson_fungi.png
++ minecraft/textures/block/crimson_fungus.png
++ minecraft/textures/block/crimson_roots_pot.png
++ minecraft/textures/block/crying_obsidian.png
++ minecraft/textures/block/target_side.png
++ minecraft/textures/block/target_top.png
+- minecraft/textures/block/warped_fungi.png
++ minecraft/textures/block/warped_fungus.png
++ minecraft/textures/block/warped_roots_pot.png
+- minecraft/textures/block/warped_stripped_log_side.png
+- minecraft/textures/block/warped_stripped_log_top.png
+- minecraft/textures/entity/piglin/zombie_piglin.png
++ minecraft/textures/entity/piglin/zombified_piglin.png
+- minecraft/textures/entity/zombie_pigman.png
++ minecraft/textures/models/armor/piglin_leather_layer_1_overlay.png
++ minecraft/textures/models/armor/piglin_leather_layer_1.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
+- minecraft:crimson_fungi
++ minecraft:crimson_fungus
++ minecraft:crying_obsidian
++ minecraft:potted_crimson_fungus
++ minecraft:potted_crimson_roots
++ minecraft:potted_warped_fungus
++ minecraft:potted_warped_roots
++ minecraft:target
+- minecraft:warped_fungi
++ minecraft:warped_fungus
+```
+
+</details>
+
+
+<details><summary>custom_stat.txt</summary>
+
+```diff
++ minecraft:target_hit
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
+- minecraft:zombie_pigman
++ minecraft:zombified_piglin
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
+- minecraft:huge_fungi
++ minecraft:huge_fungus
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
+- minecraft:crimson_fungi
++ minecraft:crimson_fungus
++ minecraft:crying_obsidian
++ minecraft:target
+- minecraft:warped_fungi
++ minecraft:warped_fungus
+- minecraft:zombie_pigman_spawn_egg
++ minecraft:zombified_piglin_spawn_egg
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
+- minecraft:nearest_visible_warped_fungi
++ minecraft:nearest_visible_warped_fungus
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:dripping_obsidian_tear
++ minecraft:falling_obsidian_tear
++ minecraft:landing_obsidian_tear
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
+- minecraft:block.fungi.break
+- minecraft:block.fungi.fall
+- minecraft:block.fungi.hit
+- minecraft:block.fungi.place
+- minecraft:block.fungi.step
++ minecraft:block.fungus.break
++ minecraft:block.fungus.fall
++ minecraft:block.fungus.hit
++ minecraft:block.fungus.place
++ minecraft:block.fungus.step
+- minecraft:block.soul_sand_break
+- minecraft:block.soul_sand_fall
+- minecraft:block.soul_sand_hit
+- minecraft:block.soul_sand_place
+- minecraft:block.soul_sand_step
++ minecraft:block.soul_sand.break
++ minecraft:block.soul_sand.fall
++ minecraft:block.soul_sand.hit
++ minecraft:block.soul_sand.place
++ minecraft:block.soul_sand.step
+- minecraft:block.soul_soil_break
+- minecraft:block.soul_soil_fall
+- minecraft:block.soul_soil_hit
+- minecraft:block.soul_soil_place
+- minecraft:block.soul_soil_step
++ minecraft:block.soul_soil.break
++ minecraft:block.soul_soil.fall
++ minecraft:block.soul_soil.hit
++ minecraft:block.soul_soil.place
++ minecraft:block.soul_soil.step
+- minecraft:entity.zombie_pigman.ambient
+- minecraft:entity.zombie_pigman.angry
+- minecraft:entity.zombie_pigman.death
+- minecraft:entity.zombie_pigman.hurt
++ minecraft:entity.zombified_piglin.ambient
++ minecraft:entity.zombified_piglin.angry
++ minecraft:entity.zombified_piglin.death
++ minecraft:entity.zombified_piglin.hurt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/climbable.json
++ entity_types/impact_projectiles.json
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
+- minecraft:crimson_fungi
++ minecraft:crimson_fungus
+- minecraft:warped_fungi
++ minecraft:warped_fungus
+```
+
+</details>
+
+
+<details><summary>blocks/flower_pots.json</summary>
+
+```diff
++ minecraft:potted_crimson_fungus
++ minecraft:potted_crimson_roots
++ minecraft:potted_warped_fungus
++ minecraft:potted_warped_roots
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.bullseye.description
++ advancements.adventure.bullseye.title
+- block.minecraft.crimson_fungi
++ block.minecraft.crimson_fungus
++ block.minecraft.crying_obsidian
++ block.minecraft.potted_crimson_fungus
++ block.minecraft.potted_crimson_roots
++ block.minecraft.potted_warped_fungus
++ block.minecraft.potted_warped_roots
++ block.minecraft.target
+- block.minecraft.warped_fungi
++ block.minecraft.warped_fungus
++ death.fell.accident.other_climbable
++ death.fell.accident.weeping_vines
+- entity.minecraft.zombie_pigman
++ entity.minecraft.zombified_piglin
+- item.minecraft.zombie_pigman_spawn_egg
++ item.minecraft.zombified_piglin_spawn_egg
++ stat.minecraft.target_hit
+- subtitles.entity.zombie_pigman.ambient
+- subtitles.entity.zombie_pigman.angry
+- subtitles.entity.zombie_pigman.death
+- subtitles.entity.zombie_pigman.hurt
++ subtitles.entity.zombified_piglin.ambient
++ subtitles.entity.zombified_piglin.angry
++ subtitles.entity.zombified_piglin.death
++ subtitles.entity.zombified_piglin.hurt
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/bullseye.json
++ recipes/decorations/crimson_sign.json
++ recipes/decorations/warped_sign.json
++ recipes/redstone/target.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
+- blocks/crimson_fungi.json
++ blocks/crimson_fungus.json
++ blocks/crying_obsidian.json
++ blocks/potted_crimson_fungus.json
++ blocks/potted_crimson_roots.json
++ blocks/potted_warped_fungus.json
++ blocks/potted_warped_roots.json
++ blocks/target.json
+- blocks/warped_fungi.json
++ blocks/warped_fungus.json
+- entities/zombie_pigman.json
++ entities/zombified_piglin.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ dripping_obsidian_tear.json
++ falling_obsidian_tear.json
++ landing_obsidian_tear.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ crimson_sign.json
++ target.json
++ warped_sign.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/climbable.json
++ entity_types/impact_projectiles.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/crimson_fungi.png
++ block/crimson_fungus.png
++ block/crimson_roots_pot.png
++ block/crying_obsidian.png
++ block/target_side.png
++ block/target_top.png
+- block/warped_fungi.png
++ block/warped_fungus.png
++ block/warped_roots_pot.png
+- block/warped_stripped_log_side.png
+- block/warped_stripped_log_top.png
+- entity/piglin/zombie_piglin.png
++ entity/piglin/zombified_piglin.png
+- entity/zombie_pigman.png
++ models/armor/piglin_leather_layer_1_overlay.png
++ models/armor/piglin_leather_layer_1.png
+```
+
+</details>

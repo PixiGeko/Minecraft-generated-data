@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w15a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w15a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-04-13T15:41:17+00:00</td></tr>
@@ -10,2708 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/496416e9ac476347b47655089b7819877977f737/server.txt">https://piston-data.mojang.com/v1/objects/496416e9ac476347b47655089b7819877977f737/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/b5b14c791de1b44ce2d6de13dfd18b9ced843618/client.jar">https://piston-data.mojang.com/v1/objects/b5b14c791de1b44ce2d6de13dfd18b9ced843618/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5ca2f62eacc890b09b9b9b45cd1edfe36cdee34a/client.txt">https://piston-data.mojang.com/v1/objects/5ca2f62eacc890b09b9b9b45cd1edfe36cdee34a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w14a">22w14a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/avoid_vibration.json
-+  minecraft/advancements/husbandry/allay_deliver_cake_to_note_block.json
--  minecraft/advancements/husbandry/allay_deliver_cake_to_noteblock.json
-+  minecraft/advancements/husbandry/leash_all_frog_variants.json
-+  minecraft/tags/blocks/completes_find_tree_tutorial.json
-+  minecraft/tags/blocks/dampens_vibrations.json
-+  minecraft/tags/blocks/nether_carver_replaceables.json
-+  minecraft/tags/blocks/overworld_carver_replaceables.json
-+  minecraft/tags/game_events/dampenable_vibrations.json
--  minecraft/tags/game_events/ignore_vibrations_on_occluding_block.json
-+  minecraft/tags/items/completes_find_tree_tutorial.json
-+  minecraft/tags/items/dampens_vibrations.json
--  minecraft/tags/items/occludes_vibration_signals.json
-+  minecraft/tags/items/wart_blocks.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/particles/sonic_boom.json
-+  minecraft/textures/particle/sonic_boom_0.png
-+  minecraft/textures/particle/sonic_boom_1.png
-+  minecraft/textures/particle/sonic_boom_10.png
-+  minecraft/textures/particle/sonic_boom_11.png
-+  minecraft/textures/particle/sonic_boom_12.png
-+  minecraft/textures/particle/sonic_boom_13.png
-+  minecraft/textures/particle/sonic_boom_14.png
-+  minecraft/textures/particle/sonic_boom_15.png
-+  minecraft/textures/particle/sonic_boom_2.png
-+  minecraft/textures/particle/sonic_boom_3.png
-+  minecraft/textures/particle/sonic_boom_4.png
-+  minecraft/textures/particle/sonic_boom_5.png
-+  minecraft/textures/particle/sonic_boom_6.png
-+  minecraft/textures/particle/sonic_boom_7.png
-+  minecraft/textures/particle/sonic_boom_8.png
-+  minecraft/textures/particle/sonic_boom_9.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:sonic_boom_cooldown
-+ minecraft:sonic_boom_sound_cooldown
-+ minecraft:sonic_boom_sound_delay
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:sonic_boom
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.warden.sonic_boom
-+ minecraft:entity.warden.sonic_charge
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:surface_disk
-- minecraft:ice_patch
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- game_events/ignore_vibrations_on_occluding_block.json
-- items/occludes_vibration_signals.json
-+ blocks/completes_find_tree_tutorial.json
-+ blocks/dampens_vibrations.json
-+ blocks/nether_carver_replaceables.json
-+ blocks/overworld_carver_replaceables.json
-+ game_events/dampenable_vibrations.json
-+ items/completes_find_tree_tutorial.json
-+ items/dampens_vibrations.json
-+ items/wart_blocks.json
-```
-
-</details>
-
-<details><summary>blocks/dead_bush_may_place_on.json</summary>
-
-```diff
-- minecraft:mud
-```
-
-</details>
-
-<details><summary>blocks/dirt.json</summary>
-
-```diff
-+ minecraft:mud
-+ minecraft:muddy_mangrove_roots
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:mud
-```
-
-</details>
-
-<details><summary>blocks/mangrove_logs_can_grow_through.json</summary>
-
-```diff
-+ minecraft:moss_carpet
-+ minecraft:vine
-```
-
-</details>
-
-<details><summary>blocks/mangrove_roots_can_grow_through.json</summary>
-
-```diff
-+ minecraft:moss_carpet
-+ minecraft:vine
-+ minecraft:mangrove_propagule
-+ minecraft:snow
-```
-
-</details>
-
-<details><summary>items/dirt.json</summary>
-
-```diff
-+ minecraft:mud
-+ minecraft:muddy_mangrove_roots
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- husbandry/allay_deliver_cake_to_noteblock.json
-+ adventure/avoid_vibration.json
-+ husbandry/allay_deliver_cake_to_note_block.json
-+ husbandry/leash_all_frog_variants.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ sonic_boom.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- game_events/ignore_vibrations_on_occluding_block.json
-- items/occludes_vibration_signals.json
-+ blocks/completes_find_tree_tutorial.json
-+ blocks/dampens_vibrations.json
-+ blocks/nether_carver_replaceables.json
-+ blocks/overworld_carver_replaceables.json
-+ game_events/dampenable_vibrations.json
-+ items/completes_find_tree_tutorial.json
-+ items/dampens_vibrations.json
-+ items/wart_blocks.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ particle/sonic_boom_0.png
-+ particle/sonic_boom_1.png
-+ particle/sonic_boom_10.png
-+ particle/sonic_boom_11.png
-+ particle/sonic_boom_12.png
-+ particle/sonic_boom_13.png
-+ particle/sonic_boom_14.png
-+ particle/sonic_boom_15.png
-+ particle/sonic_boom_2.png
-+ particle/sonic_boom_3.png
-+ particle/sonic_boom_4.png
-+ particle/sonic_boom_5.png
-+ particle/sonic_boom_6.png
-+ particle/sonic_boom_7.png
-+ particle/sonic_boom_8.png
-+ particle/sonic_boom_9.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:datafixerupper:4.1.27
-+ com.mojang:datafixerupper:5.0.28
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ DataFixerOptimizationOption DATAFIXER_OPTIMIZATION_OPTION
-+ void enableDataFixerOptimizations()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.DataGenerator</summary>
-
-```diff
-+ boolean alwaysGenerate
-+ List allProviders
-+ List providersToRun
-+ WorldVersion version
-- List providers
-+ void <init>(WorldVersion,boolean)
-+ void addProvider(DataProvider)
-- void <init>(Collection)
-- void addProvider(DataProvider)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.HashCache</summary>
-
-```diff
-+ int initialCount
-+ Map cachesToWrite
-+ Map existingCaches
-+ Path cacheDir
-+ Path rootDir
-+ Set cachePaths
-+ String HEADER_MARKER
-+ String versionId
-- int hits
-- Map newCache
-- Map oldCache
-- Path cachePath
-- Path path
-- Set keep
-+ boolean shouldRunInThisVersion(DataProvider)
-+ CachedOutput getUpdater(DataProvider)
-+ HashCache$CacheUpdater lambda$getUpdater$0(DataProvider)
-+ HashCache$ProviderCache readCache(Path)
-+ Path getProviderCachePath(DataProvider)
-+ void <init>(WorldVersion)
-+ void lambda$purgeStaleAndWrite$1(HashCache$CacheUpdater)
-+ void lambda$purgeStaleAndWrite$2(HashCache$ProviderCache)
-+ void lambda$purgeStaleAndWrite$3(Path)
-- boolean had(Path)
-- boolean lambda$walkOutputFiles$4(Path)
-- Stream walkOutputFiles()
-- String getHash(Path)
-- String lambda$purgeStaleAndWrite$2(Map$Entry)
-- void <init>(String)
-- void keep(Path)
-- void lambda$new$0(Path)
-- void lambda$new$1(String)
-- void lambda$removeStale$3(Path)
-- void putNew(String)
-- void removeStale()
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
-
-```diff
-+ void lambda$run$0(Advancement)
-+ void run(CachedOutput)
-- void lambda$run$0(Advancement)
-- void run(HashCache)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
-
-```diff
-+ Advancement$Builder addLeashedFrogVariants(Advancement$Builder)
-+ void lambda$addCatVariants$1(Map$Entry)
-+ void lambda$addLeashedFrogVariants$0(Holder$Reference)
-- void lambda$addCatVariants$0(Map$Entry)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.info.BlockListReport</summary>
-
-```diff
-+ void run(CachedOutput)
-- void run(HashCache)
-```
-
-</details>
-
-<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
-
-```diff
-+ void run(CachedOutput)
-- void run(HashCache)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
-
-```diff
-+ void lambda$run$5(LootTable)
-+ void run(CachedOutput)
-- void lambda$run$5(LootTable)
-- void run(HashCache)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ void lambda$run$0(FinishedRecipe)
-+ void run(CachedOutput)
-+ void saveAdvancement(Path)
-+ void saveRecipe(Path)
-- void lambda$run$0(FinishedRecipe)
-- void run(HashCache)
-- void saveAdvancement(Path)
-- void saveRecipe(Path)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
-
-```diff
-+ void run(CachedOutput)
-- void run(HashCache)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ void lambda$run$1(Tag$Builder)
-+ void run(CachedOutput)
-- void lambda$run$1(Tag$Builder)
-- void run(HashCache)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.features.TreeFeatures</summary>
-
-```diff
-+ BeehiveDecorator BEEHIVE_001
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ void gameEvent(GameEvent$Context)
-- void gameEvent(Vec3)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ void onItemPickup(ItemEntity)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ void gameEvent(GameEvent$Context)
-- void gameEvent(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey COMPLETES_FIND_TREE_TUTORIAL
-+ TagKey DAMPENS_VIBRATIONS
-+ TagKey NETHER_CARVER_REPLACEABLES
-+ TagKey OVERWORLD_CARVER_REPLACEABLES
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey COMPLETES_FIND_TREE_TUTORIAL
-+ TagKey DAMPENS_VIBRATIONS
-+ TagKey WART_BLOCKS
-- TagKey OCCLUDES_VIBRATION_SIGNALS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.HttpUtil</summary>
-
-```diff
-+ CompletableFuture downloadTo(Proxy)
-+ Object lambda$downloadTo$0(File,int)
-- CompletableFuture downloadTo(Proxy)
-- Object lambda$downloadTo$0(File,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Container</summary>
-
-```diff
-+ boolean hasAnyMatching(Predicate)
-+ boolean lambda$hasAnyOf$0(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffect</summary>
-
-```diff
-+ int getIdFromNullable(MobEffect)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ BlockPos getOnPos(float)
-+ BlockPos getOnPosLegacy()
-+ BlockState getBlockStateOnLegacy()
-+ boolean closerThan(Entity,double,double)
-+ boolean dampensVibrations()
-- boolean occludesVibrations()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.EntityEvent</summary>
-
-```diff
-+ byte SONIC_CHARGE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ void enchantSpawnedArmor(EquipmentSlot)
-+ void enchantSpawnedWeapon(RandomSource,float)
-+ void populateDefaultEquipmentEnchantments(DifficultyInstance)
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void enchantSpawnedArmor(EquipmentSlot)
-- void enchantSpawnedWeapon(float)
-- void populateDefaultEquipmentEnchantments(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Cat</summary>
-
-```diff
-+ Optional lambda$finalizeSpawn$0(HolderSet$Named)
-- Optional lambda$finalizeSpawn$0(HolderSet$Named)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-+ boolean handleGameEvent(Vec3)
-- boolean handleGameEvent(Vec3)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
-
-```diff
-+ void randomizeAttributes(RandomSource)
-- void randomizeAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
-```diff
-+ void setRandomStrength(RandomSource)
-- void setRandomStrength()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
-
-```diff
-+ void randomizeAttributes(RandomSource)
-- void randomizeAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ boolean hasFramedMap()
-+ OptionalInt getFramedMapId()
-+ void lambda$removeFramedMap$0(int)
-+ void onItemChanged(ItemStack)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ boolean dampensVibrations()
-- boolean occludesVibrations()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.WitherSkeleton</summary>
-
-```diff
-+ void populateDefaultEquipmentEnchantments(DifficultyInstance)
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentEnchantments(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-+ void initMemories(RandomSource)
-- void initMemories(Piglin)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinBrute</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-+ AnimationState sonicBoomAnimationState
-+ int TIME_TO_USE_MELEE_UNTIL_SONIC_BOOM
-+ boolean dampensVibrations()
-+ boolean removeWhenFarAway(double)
-+ boolean shouldListen(GameEvent$Context)
-+ void setAttackTarget(LivingEntity)
-- boolean isWithinMeleeAttackRange(LivingEntity)
-- boolean occludesVibrations()
-- boolean shouldListen(Entity)
-- double getMeleeAttackRangeSqr(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
-
-```diff
-- int MAX_LOOK_DIST
-+ boolean lambda$initFightActivity$0(LivingEntity)
-+ boolean lambda$isTarget$2(LivingEntity)
-- boolean lambda$initFightActivity$2(LivingEntity)
-- boolean lambda$initRoarActivity$0(Warden)
-- boolean lambda$isTarget$3(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-- String UUID_PREFIX_OFFLINE_PLAYER
-- UUID createPlayerUUID(GameProfile)
-- UUID createPlayerUUID(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-- RandomSource random
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Explosion</summary>
-
-```diff
-+ ObjectArrayList toBlow
-- List toBlow
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FlowerBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HangingRootsBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NetherSproutsBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RootsBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SmallDripleafBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
-
-```diff
-- BlockBehaviour$OffsetType getOffsetType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
-
-```diff
-+ boolean handleGameEvent(Vec3)
-- boolean handleGameEvent(Vec3)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
-
-```diff
-+ boolean shouldListen(GameEvent$Context)
-- boolean shouldListen(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ Function offsetType
-+ BlockBehaviour$OffsetType lambda$new$6(BlockState)
-+ BlockBehaviour$OffsetType lambda$offsetType$9(BlockState)
-+ BlockBehaviour$Properties offsetType(BlockBehaviour$OffsetType)
-+ BlockBehaviour$Properties offsetType(Function)
-+ MaterialColor lambda$color$8(BlockState)
-+ MaterialColor lambda$new$7(BlockState)
-- MaterialColor lambda$color$7(BlockState)
-- MaterialColor lambda$new$6(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacer</summary>
-
-```diff
-+ boolean placeRoots(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-+ IntProvider trunkOffsetY
-+ Optional aboveRootPlacement
-- Optional placeRoots(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,net.minecraft.util.RandomSource,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-+ BlockPos getTrunkOrigin(RandomSource)
-+ BlockStateProvider lambda$rootPlacerParts$1(RootPlacer)
-+ boolean lambda$getPotentiallyWaterloggedState$3(FluidState)
-+ IntProvider lambda$rootPlacerParts$0(RootPlacer)
-+ Optional lambda$rootPlacerParts$2(RootPlacer)
-+ Products$P3 rootPlacerParts(RecordCodecBuilder$Instance)
-+ void <init>(Optional)
-- BlockStateProvider lambda$rootPlacerParts$0(RootPlacer)
-- boolean lambda$getPotentiallyWaterloggedState$1(FluidState)
-- Products$P1 rootPlacerParts(RecordCodecBuilder$Instance)
-- void <init>(BlockStateProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AttachedToLeavesDecorator</summary>
-
-```diff
-+ boolean hasRequiredEmptyBlocks(Direction)
-+ void place(TreeDecorator$Context)
-- boolean hasRequiredEmptyBlocks(Direction)
-- void place(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator</summary>
-
-```diff
-+ void lambda$place$2(BlockPos)
-+ void place(TreeDecorator$Context)
-- void lambda$place$2(BlockPos)
-- void place(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator</summary>
-
-```diff
-+ void place(net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator$Context)
-- void place(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,net.minecraft.util.RandomSource,java.util.List,java.util.List,java.util.List)
-- void placeVine(BooleanProperty)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.Advancement
@@ -5521,101 +2841,78 @@
 </details>
 
 
+<details><summary>net.minecraft.SharedConstants</summary>
 
+```diff
++ void enableDataFixerOptimizations()
+```
 
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.data.DataGenerator</summary>
 
 ```diff
-+ boolean alwaysGenerate
-+ List allProviders
-+ List providersToRun
-+ WorldVersion version
-- List providers
-+ void <init>(WorldVersion,boolean)
-+ void addProvider(DataProvider)
-- void <init>(Collection)
++ void <init>(Path,Collection,WorldVersion,boolean)
+- void <init>(Path,Collection)
++ void addProvider(boolean,DataProvider)
 - void addProvider(DataProvider)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.data.HashCache</summary>
 
 ```diff
-+ int initialCount
-+ Map cachesToWrite
-+ Map existingCaches
-+ Path cacheDir
-+ Path rootDir
-+ Set cachePaths
-+ String HEADER_MARKER
-+ String versionId
-- int hits
-- Map newCache
-- Map oldCache
-- Path cachePath
-- Path path
-- Set keep
+- boolean had(Path)
+- boolean lambda$walkOutputFiles$4(Path)
 + boolean shouldRunInThisVersion(DataProvider)
 + CachedOutput getUpdater(DataProvider)
 + HashCache$CacheUpdater lambda$getUpdater$0(DataProvider)
-+ HashCache$ProviderCache readCache(Path)
++ HashCache$ProviderCache readCache(Path,Path)
 + Path getProviderCachePath(DataProvider)
-+ void <init>(WorldVersion)
-+ void lambda$purgeStaleAndWrite$1(HashCache$CacheUpdater)
-+ void lambda$purgeStaleAndWrite$2(HashCache$ProviderCache)
-+ void lambda$purgeStaleAndWrite$3(Path)
-- boolean had(Path)
-- boolean lambda$walkOutputFiles$4(Path)
 - Stream walkOutputFiles()
 - String getHash(Path)
 - String lambda$purgeStaleAndWrite$2(Map$Entry)
-- void <init>(String)
++ void <init>(Path,List,WorldVersion)
+- void <init>(Path,String)
 - void keep(Path)
 - void lambda$new$0(Path)
-- void lambda$new$1(String)
+- void lambda$new$1(Path,String)
++ void lambda$purgeStaleAndWrite$1(MutableInt,DataProvider,HashCache$CacheUpdater)
++ void lambda$purgeStaleAndWrite$2(Set,HashCache$ProviderCache)
++ void lambda$purgeStaleAndWrite$3(MutableInt,Set,MutableInt,Path)
 - void lambda$removeStale$3(Path)
-- void putNew(String)
+- void putNew(Path,String)
 - void removeStale()
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
 
 ```diff
-+ void lambda$run$0(Advancement)
++ void lambda$run$0(Set,Path,CachedOutput,Advancement)
+- void lambda$run$0(Set,Path,HashCache,Advancement)
 + void run(CachedOutput)
-- void lambda$run$0(Advancement)
 - void run(HashCache)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
 
 ```diff
 + Advancement$Builder addLeashedFrogVariants(Advancement$Builder)
-+ void lambda$addCatVariants$1(Map$Entry)
-+ void lambda$addLeashedFrogVariants$0(Holder$Reference)
-- void lambda$addCatVariants$0(Map$Entry)
+- void lambda$addCatVariants$0(Advancement$Builder,Map$Entry)
++ void lambda$addCatVariants$1(Advancement$Builder,Map$Entry)
++ void lambda$addLeashedFrogVariants$0(Advancement$Builder,Holder$Reference)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.data.info.BlockListReport</summary>
@@ -5627,6 +2924,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
 
 ```diff
@@ -5637,62 +2935,32 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.data.loot.LootTableProvider</summary>
 
 ```diff
-+ void lambda$run$5(LootTable)
++ void lambda$run$5(Path,CachedOutput,ResourceLocation,LootTable)
+- void lambda$run$5(Path,HashCache,ResourceLocation,LootTable)
 + void run(CachedOutput)
-- void lambda$run$5(LootTable)
 - void run(HashCache)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
 
 ```diff
-+ void lambda$run$0(FinishedRecipe)
++ void lambda$run$0(Set,CachedOutput,Path,FinishedRecipe)
+- void lambda$run$0(Set,HashCache,Path,FinishedRecipe)
 + void run(CachedOutput)
-+ void saveAdvancement(Path)
-+ void saveRecipe(Path)
-- void lambda$run$0(FinishedRecipe)
 - void run(HashCache)
-- void saveAdvancement(Path)
-- void saveRecipe(Path)
++ void saveAdvancement(CachedOutput,JsonObject,Path)
+- void saveAdvancement(HashCache,JsonObject,Path)
++ void saveRecipe(CachedOutput,JsonObject,Path)
+- void saveRecipe(HashCache,JsonObject,Path)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
@@ -5705,1519 +2973,292 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.data.tags.TagsProvider</summary>
 
 ```diff
-+ void lambda$run$1(Tag$Builder)
++ void lambda$run$1(CachedOutput,ResourceLocation,Tag$Builder)
+- void lambda$run$1(HashCache,ResourceLocation,Tag$Builder)
 + void run(CachedOutput)
-- void lambda$run$1(Tag$Builder)
 - void run(HashCache)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.features.TreeFeatures</summary>
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
 
 ```diff
-+ BeehiveDecorator BEEHIVE_001
+- void gameEvent(Entity,GameEvent,Vec3)
++ void gameEvent(GameEvent,Vec3,GameEvent$Context)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
 
 ```diff
-- String LEVEL_STORAGE_PROTOCOL
-- String LEVEL_STORAGE_SCHEMA
-- String MAP_RESOURCE_FILE
-- void detectBundledResources()
++ void onItemPickup(ItemEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
 
 ```diff
-+ SoundEvent WARDEN_SONIC_BOOM
-+ SoundEvent WARDEN_SONIC_CHARGE
+- void gameEvent(Entity,GameEvent,Vec3)
++ void gameEvent(GameEvent,Vec3,GameEvent$Context)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.GameEventTags</summary>
+<details><summary>net.minecraft.util.HttpUtil</summary>
 
 ```diff
-+ TagKey DAMPENABLE_VIBRATIONS
-- TagKey IGNORE_VIBRATIONS_ON_OCCLUDING_BLOCK
+- CompletableFuture downloadTo(File,String,Map,int,ProgressListener,Proxy)
++ CompletableFuture downloadTo(File,URL,Map,int,ProgressListener,Proxy)
+- Object lambda$downloadTo$0(ProgressListener,String,Proxy,Map,File,int)
++ Object lambda$downloadTo$0(ProgressListener,URL,Proxy,Map,File,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.BlendingDataFix</summary>
+<details><summary>net.minecraft.world.Container</summary>
 
 ```diff
-+ void <init>(Schema)
-- void <init>(String)
++ boolean hasAnyMatching(Predicate)
++ boolean lambda$hasAnyOf$0(Set,ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
+<details><summary>net.minecraft.world.effect.MobEffect</summary>
 
 ```diff
-+ MemoryModuleType SONIC_BOOM_COOLDOWN
-+ MemoryModuleType SONIC_BOOM_SOUND_COOLDOWN
-+ MemoryModuleType SONIC_BOOM_SOUND_DELAY
++ int getIdFromNullable(MobEffect)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.WardenEntitySensor</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ int radiusY()
++ BlockPos getOnPos(float)
++ BlockPos getOnPosLegacy()
++ BlockState getBlockStateOnLegacy()
++ boolean closerThan(Entity,double,double)
++ boolean dampensVibrations()
+- boolean occludesVibrations()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+<details><summary>net.minecraft.world.entity.Mob</summary>
 
 ```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.FrogAi</summary>
-
-```diff
-+ void initMemories(RandomSource)
-- void initMemories(Frog)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.GoatAi</summary>
-
-```diff
-+ void initMemories(RandomSource)
-- void initMemories(Goat)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
-
-```diff
-+ void randomizeAttributes(RandomSource)
-- void randomizeAttributes()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ double generateRandomJumpStrength(RandomSource)
-+ double generateRandomSpeed(RandomSource)
-+ float generateRandomMaxHealth(RandomSource)
-+ void randomizeAttributes(RandomSource)
-- double generateRandomJumpStrength()
-- double generateRandomSpeed()
-- float generateRandomMaxHealth()
-- void randomizeAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
-
-```diff
-+ void randomizeAttributes(RandomSource)
-- void randomizeAttributes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Drowned</summary>
-
-```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void populateDefaultEquipmentSlots(DifficultyInstance)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
-
-```diff
-+ void enchantSpawnedWeapon(RandomSource,float)
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
+- void enchantSpawnedArmor(float,EquipmentSlot)
++ void enchantSpawnedArmor(RandomSource,float,EquipmentSlot)
 - void enchantSpawnedWeapon(float)
++ void enchantSpawnedWeapon(RandomSource,float)
+- void populateDefaultEquipmentEnchantments(DifficultyInstance)
++ void populateDefaultEquipmentEnchantments(RandomSource,DifficultyInstance)
 - void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
+<details><summary>net.minecraft.world.entity.animal.Cat</summary>
 
 ```diff
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
+- Optional lambda$finalizeSpawn$0(HolderSet$Named)
++ Optional lambda$finalizeSpawn$0(ServerLevelAccessor,HolderSet$Named)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
+
+```diff
+- boolean handleGameEvent(ServerLevel,GameEvent,Entity,Vec3)
++ boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Horse</summary>
+
+```diff
+- void randomizeAttributes()
++ void randomizeAttributes(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
+- void setRandomStrength()
++ void setRandomStrength(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
+
+```diff
+- void randomizeAttributes()
++ void randomizeAttributes(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
+
+```diff
++ boolean hasFramedMap()
++ OptionalInt getFramedMapId()
++ void lambda$removeFramedMap$0(int)
++ void onItemChanged(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
++ boolean dampensVibrations()
+- boolean occludesVibrations()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
+
+```diff
 - void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
 
 ```diff
-+ void maybeWearArmor(RandomSource)
-+ void populateDefaultEquipmentSlots(DifficultyInstance)
-- void maybeWearArmor(ItemStack)
 - void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
+<details><summary>net.minecraft.world.entity.monster.WitherSkeleton</summary>
 
 ```diff
-+ void updateEffects(Optional)
-- void updateEffects(MobEffect)
+- void populateDefaultEquipmentEnchantments(DifficultyInstance)
++ void populateDefaultEquipmentEnchantments(RandomSource,DifficultyInstance)
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
 
 ```diff
-+ RandomSource threadSafeRandom
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.LevelAccessor</summary>
+
+<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
 
 ```diff
-+ void gameEvent(net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.phys.Vec3,net.minecraft.world.level.gameevent.GameEvent$Context)
-- void gameEvent(net.minecraft.world.entity.Entity,net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.phys.Vec3)
-+ void gameEvent(GameEvent$Context)
-+ void gameEvent(Vec3)
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
+
+```diff
++ void initMemories(Piglin,RandomSource)
+- void initMemories(Piglin)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.piglin.PiglinBrute</summary>
+
+```diff
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
+
+```diff
++ boolean dampensVibrations()
+- boolean isWithinMeleeAttackRange(LivingEntity)
+- boolean occludesVibrations()
++ boolean removeWhenFarAway(double)
+- boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity)
++ boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,GameEvent$Context)
+- double getMeleeAttackRangeSqr(LivingEntity)
++ void setAttackTarget(LivingEntity)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
+
+```diff
++ boolean lambda$initFightActivity$0(Warden,LivingEntity)
+- boolean lambda$initFightActivity$2(Warden,LivingEntity)
+- boolean lambda$initRoarActivity$0(Warden)
++ boolean lambda$isTarget$2(LivingEntity,LivingEntity)
+- boolean lambda$isTarget$3(LivingEntity,LivingEntity)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
+- UUID createPlayerUUID(GameProfile)
+- UUID createPlayerUUID(String)
+```
+
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
 
 ```diff
 - BlockBehaviour$OffsetType getOffsetType()
@@ -7226,54 +3267,7 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoublePlantBlock</summary>
+<details><summary>net.minecraft.world.level.block.FlowerBlock</summary>
 
 ```diff
 - BlockBehaviour$OffsetType getOffsetType()
@@ -7282,41 +3276,7 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.MangrovePropaguleBlock</summary>
+<details><summary>net.minecraft.world.level.block.HangingRootsBlock</summary>
 
 ```diff
 - BlockBehaviour$OffsetType getOffsetType()
@@ -7325,158 +3285,7 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SculkSpreader$ChargeCursor</summary>
-
-```diff
-+ ObjectArrayList NON_CORNER_NEIGHBOURS
-- List NON_CORNER_NEIGHBOURS
-+ void lambda$static$1(ObjectArrayList)
-- void lambda$static$1(ArrayList)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
-
-```diff
-+ boolean shouldListen(GameEvent$Context)
-- boolean shouldListen(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
+<details><summary>net.minecraft.world.level.block.NetherSproutsBlock</summary>
 
 ```diff
 - BlockBehaviour$OffsetType getOffsetType()
@@ -7484,303 +3293,137 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
 
 ```diff
-+ BlockBehaviour$OffsetType offsetType
-+ BlockBehaviour$OffsetType getOffsetType()
+- BlockBehaviour$OffsetType getOffsetType()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.EndDragonFight</summary>
+<details><summary>net.minecraft.world.level.block.RootsBlock</summary>
 
 ```diff
-+ ObjectArrayList gateways
-- List gateways
+- BlockBehaviour$OffsetType getOffsetType()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
+<details><summary>net.minecraft.world.level.block.SmallDripleafBlock</summary>
 
 ```diff
-+ boolean postToListener(GameEventListener)
-+ void post(GameEvent$Context)
-- boolean postToListener(GameEventListener)
-- void post(Vec3)
+- BlockBehaviour$OffsetType getOffsetType()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
 
 ```diff
-- Feature ICE_PATCH
-- Feature SURFACE_DISK
-- boolean isAir(BlockPos)
+- BlockBehaviour$OffsetType getOffsetType()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+<details><summary>net.minecraft.world.level.block.entity.SculkCatalystBlockEntity</summary>
 
 ```diff
-+ BlockPos lambda$doPlace$4(RootPlacer)
-+ Boolean lambda$place$11(BoundingBox)
-+ void lambda$doPlace$5(FoliagePlacer$FoliageAttachment)
-+ void lambda$place$10(TreeDecorator)
-+ void lambda$place$9(BlockState)
-- Boolean lambda$place$10(BoundingBox)
-- void lambda$doPlace$4(FoliagePlacer$FoliageAttachment)
-- void lambda$place$5(BlockState)
-- void lambda$place$9(TreeDecorator)
+- boolean handleGameEvent(ServerLevel,GameEvent,Entity,Vec3)
++ boolean handleGameEvent(ServerLevel,GameEvent,GameEvent$Context,Vec3)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+<details><summary>net.minecraft.world.level.block.entity.SculkShriekerBlockEntity</summary>
 
 ```diff
-+ BlockPredicate target
-+ RuleBasedBlockStateProvider stateProvider
-- BlockState state
-- HolderSet canOriginReplace
-- List targets
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ BlockPredicate target()
-+ RuleBasedBlockStateProvider stateProvider()
-+ void <init>(IntProvider,int)
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- BlockState state()
-- HolderSet canOriginReplace()
-- HolderSet lambda$static$0(DiskConfiguration)
-- List targets()
-- void <init>(HolderSet)
+- boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity)
++ boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,GameEvent$Context)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MultifaceGrowthConfiguration</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
 
 ```diff
-+ ObjectArrayList validDirections
-- List validDirections
-+ boolean lambda$getShuffledDirectionsExcept$8(Direction)
-+ List getShuffledDirections(RandomSource)
-+ List getShuffledDirectionsExcept(Direction)
++ BlockBehaviour$OffsetType lambda$new$6(BlockState)
++ BlockBehaviour$OffsetType lambda$offsetType$9(BlockBehaviour$OffsetType,BlockState)
++ BlockBehaviour$Properties offsetType(BlockBehaviour$OffsetType)
++ BlockBehaviour$Properties offsetType(Function)
+- MaterialColor lambda$color$7(MaterialColor,BlockState)
++ MaterialColor lambda$color$8(MaterialColor,BlockState)
+- MaterialColor lambda$new$6(MaterialColor,BlockState)
++ MaterialColor lambda$new$7(MaterialColor,BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.MangroveRootPlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacer</summary>
 
 ```diff
-+ MangroveRootPlacement mangroveRootPlacement
-- BlockStateProvider muddyRootsProvider
-- float randomSkewChance
-- HolderSet canGrowThrough
-- HolderSet muddyRootsIn
-- int maxRootLength
-- int maxRootWidth
-- IntProvider yOffset
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ boolean lambda$canPlaceRoot$2(BlockState)
-+ boolean lambda$placeRoot$3(BlockState)
-+ boolean placeRoots(TreeConfiguration)
-+ MangroveRootPlacement lambda$static$0(MangroveRootPlacer)
-+ void <init>(MangroveRootPlacement)
-- App lambda$static$7(RecordCodecBuilder$Instance)
-- BlockStateProvider lambda$static$2(MangroveRootPlacer)
-- boolean lambda$canPlaceRoot$8(BlockState)
-- boolean lambda$placeRoot$9(BlockState)
-- Float lambda$static$6(MangroveRootPlacer)
-- HolderSet lambda$static$0(MangroveRootPlacer)
-- HolderSet lambda$static$1(MangroveRootPlacer)
-- Integer lambda$static$3(MangroveRootPlacer)
-- Integer lambda$static$4(MangroveRootPlacer)
-- IntProvider lambda$static$5(MangroveRootPlacer)
-- Optional placeRoots(TreeConfiguration)
-- void <init>(IntProvider,float)
++ BlockPos getTrunkOrigin(BlockPos,RandomSource)
+- BlockStateProvider lambda$rootPlacerParts$0(RootPlacer)
++ BlockStateProvider lambda$rootPlacerParts$1(RootPlacer)
+- boolean lambda$getPotentiallyWaterloggedState$1(FluidState)
++ boolean lambda$getPotentiallyWaterloggedState$3(FluidState)
++ IntProvider lambda$rootPlacerParts$0(RootPlacer)
++ Optional lambda$rootPlacerParts$2(RootPlacer)
+- Products$P1 rootPlacerParts(RecordCodecBuilder$Instance)
++ Products$P3 rootPlacerParts(RecordCodecBuilder$Instance)
+- void <init>(BlockStateProvider)
++ void <init>(IntProvider,BlockStateProvider,Optional)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AttachedToLeavesDecorator</summary>
 
 ```diff
-+ void lambda$place$2(BlockPos)
+- boolean hasRequiredEmptyBlocks(LevelSimulatedReader,BlockPos,Direction)
++ boolean hasRequiredEmptyBlocks(TreeDecorator$Context,BlockPos,Direction)
+- void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
 + void place(TreeDecorator$Context)
-+ void placeBlockAt(BlockPos)
-+ void placeCircle(BlockPos)
-- void lambda$place$2(BlockPos)
-- void place(List)
-- void placeBlockAt(BlockPos)
-- void placeCircle(BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator</summary>
 
 ```diff
-+ boolean lambda$place$5(BlockPos)
+- void lambda$place$2(RandomSource,LevelSimulatedReader,BiConsumer,BlockPos)
++ void lambda$place$2(RandomSource,TreeDecorator$Context,BlockPos)
+- void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
 + void place(TreeDecorator$Context)
-- boolean lambda$place$5(BlockPos)
-- void place(List)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator</summary>
 
 ```diff
-+ void addHangingVine(TreeDecorator$Context)
-+ void lambda$place$1(BlockPos)
-+ void place(TreeDecorator$Context)
-- void addHangingVine(BiConsumer)
-- void lambda$place$1(BlockPos)
-- void place(List)
+- void placeVine(BiConsumer,BlockPos,BooleanProperty)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.Advancement
@@ -9204,13 +4847,772 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.DataGenerator</summary>
+
+```diff
++ void <init>(Path,Collection,WorldVersion,boolean)
+- void <init>(Path,Collection)
++ void addProvider(boolean,DataProvider)
+- void addProvider(DataProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.HashCache</summary>
+
+```diff
+- boolean had(Path)
+- boolean lambda$walkOutputFiles$4(Path)
++ boolean shouldRunInThisVersion(DataProvider)
++ CachedOutput getUpdater(DataProvider)
++ HashCache$CacheUpdater lambda$getUpdater$0(DataProvider)
++ HashCache$ProviderCache readCache(Path,Path)
++ Path getProviderCachePath(DataProvider)
+- Stream walkOutputFiles()
+- String getHash(Path)
+- String lambda$purgeStaleAndWrite$2(Map$Entry)
++ void <init>(Path,List,WorldVersion)
+- void <init>(Path,String)
+- void keep(Path)
+- void lambda$new$0(Path)
+- void lambda$new$1(Path,String)
++ void lambda$purgeStaleAndWrite$1(MutableInt,DataProvider,HashCache$CacheUpdater)
++ void lambda$purgeStaleAndWrite$2(Set,HashCache$ProviderCache)
++ void lambda$purgeStaleAndWrite$3(MutableInt,Set,MutableInt,Path)
+- void lambda$removeStale$3(Path)
+- void putNew(Path,String)
+- void removeStale()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
+
+```diff
++ void lambda$run$0(Set,Path,CachedOutput,Advancement)
+- void lambda$run$0(Set,Path,HashCache,Advancement)
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
+
+```diff
++ Advancement$Builder addLeashedFrogVariants(Advancement$Builder)
+- void lambda$addCatVariants$0(Advancement$Builder,Map$Entry)
++ void lambda$addCatVariants$1(Advancement$Builder,Map$Entry)
++ void lambda$addLeashedFrogVariants$0(Advancement$Builder,Holder$Reference)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.BlockListReport</summary>
+
+```diff
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.info.RegistryDumpReport</summary>
+
+```diff
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.LootTableProvider</summary>
+
+```diff
++ void lambda$run$5(Path,CachedOutput,ResourceLocation,LootTable)
+- void lambda$run$5(Path,HashCache,ResourceLocation,LootTable)
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ void lambda$run$0(Set,CachedOutput,Path,FinishedRecipe)
+- void lambda$run$0(Set,HashCache,Path,FinishedRecipe)
++ void run(CachedOutput)
+- void run(HashCache)
++ void saveAdvancement(CachedOutput,JsonObject,Path)
+- void saveAdvancement(HashCache,JsonObject,Path)
++ void saveRecipe(CachedOutput,JsonObject,Path)
+- void saveRecipe(HashCache,JsonObject,Path)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
+
+```diff
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
+
+```diff
++ void lambda$run$1(CachedOutput,ResourceLocation,Tag$Builder)
+- void lambda$run$1(HashCache,ResourceLocation,Tag$Builder)
++ void run(CachedOutput)
+- void run(HashCache)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
+- void detectBundledResources()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.BlendingDataFix</summary>
+
+```diff
+- void <init>(Schema,String)
++ void <init>(Schema)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.WardenEntitySensor</summary>
+
+```diff
++ int radiusY()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
+
+```diff
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.frog.FrogAi</summary>
+
+```diff
++ void initMemories(Frog,RandomSource)
+- void initMemories(Frog)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.goat.GoatAi</summary>
+
+```diff
++ void initMemories(Goat,RandomSource)
+- void initMemories(Goat)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
+
+```diff
+- void randomizeAttributes()
++ void randomizeAttributes(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- double generateRandomJumpStrength()
++ double generateRandomJumpStrength(RandomSource)
+- double generateRandomSpeed()
++ double generateRandomSpeed(RandomSource)
+- float generateRandomMaxHealth()
++ float generateRandomMaxHealth(RandomSource)
+- void randomizeAttributes()
++ void randomizeAttributes(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.ZombieHorse</summary>
+
+```diff
+- void randomizeAttributes()
++ void randomizeAttributes(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Drowned</summary>
+
+```diff
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
+
+```diff
+- void enchantSpawnedWeapon(float)
++ void enchantSpawnedWeapon(RandomSource,float)
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
+
+```diff
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
++ void maybeWearArmor(EquipmentSlot,ItemStack,RandomSource)
+- void maybeWearArmor(EquipmentSlot,ItemStack)
+- void populateDefaultEquipmentSlots(DifficultyInstance)
++ void populateDefaultEquipmentSlots(RandomSource,DifficultyInstance)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
+
+```diff
+- void updateEffects(MobEffect,MobEffect)
++ void updateEffects(Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelAccessor</summary>
+
+```diff
++ void gameEvent(Entity,GameEvent,Vec3)
++ void gameEvent(GameEvent,BlockPos,GameEvent$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+
+```diff
+- BlockBehaviour$OffsetType getOffsetType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoublePlantBlock</summary>
+
+```diff
+- BlockBehaviour$OffsetType getOffsetType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MangrovePropaguleBlock</summary>
+
+```diff
+- BlockBehaviour$OffsetType getOffsetType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkSpreader$ChargeCursor</summary>
+
+```diff
+- void lambda$static$1(ArrayList)
++ void lambda$static$1(ObjectArrayList)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+
+```diff
+- boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity)
++ boolean shouldListen(ServerLevel,GameEventListener,BlockPos,GameEvent,GameEvent$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
+
+```diff
+- BlockBehaviour$OffsetType getOffsetType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+```diff
++ BlockBehaviour$OffsetType getOffsetType()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.EuclideanGameEventDispatcher</summary>
+
+```diff
+- boolean postToListener(ServerLevel,GameEvent,Entity,Vec3,GameEventListener)
++ boolean postToListener(ServerLevel,GameEvent,GameEvent$Context,Vec3,GameEventListener)
+- void post(GameEvent,Entity,Vec3)
++ void post(GameEvent,Vec3,GameEvent$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
+
+```diff
+- boolean isAir(LevelSimulatedReader,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ BlockPos lambda$doPlace$4(BlockPos,RandomSource,RootPlacer)
+- Boolean lambda$place$10(WorldGenLevel,Set,Set,BoundingBox)
++ Boolean lambda$place$11(WorldGenLevel,Set,Set,BoundingBox)
+- void lambda$doPlace$4(TreeConfiguration,WorldGenLevel,BiConsumer,RandomSource,int,int,int,FoliagePlacer$FoliageAttachment)
++ void lambda$doPlace$5(TreeConfiguration,WorldGenLevel,BiConsumer,RandomSource,int,int,int,FoliagePlacer$FoliageAttachment)
++ void lambda$place$10(TreeDecorator$Context,TreeDecorator)
+- void lambda$place$5(Set,WorldGenLevel,BlockPos,BlockState)
++ void lambda$place$9(Set,WorldGenLevel,BlockPos,BlockState)
+- void lambda$place$9(WorldGenLevel,BiConsumer,RandomSource,List,List,List,TreeDecorator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- App lambda$static$1(RecordCodecBuilder$Instance)
++ BlockPredicate target()
+- BlockState state()
+- HolderSet canOriginReplace()
+- HolderSet lambda$static$0(DiskConfiguration)
+- List targets()
++ RuleBasedBlockStateProvider stateProvider()
+- void <init>(BlockState,IntProvider,int,List,HolderSet)
++ void <init>(RuleBasedBlockStateProvider,BlockPredicate,IntProvider,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.MultifaceGrowthConfiguration</summary>
+
+```diff
++ boolean lambda$getShuffledDirectionsExcept$8(Direction,Direction)
++ List getShuffledDirections(RandomSource)
++ List getShuffledDirectionsExcept(RandomSource,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.rootplacers.MangroveRootPlacer</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- App lambda$static$7(RecordCodecBuilder$Instance)
+- BlockStateProvider lambda$static$2(MangroveRootPlacer)
++ boolean lambda$canPlaceRoot$2(BlockState)
+- boolean lambda$canPlaceRoot$8(BlockState)
++ boolean lambda$placeRoot$3(BlockState)
+- boolean lambda$placeRoot$9(BlockState)
++ boolean placeRoots(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos,BlockPos,TreeConfiguration)
+- Float lambda$static$6(MangroveRootPlacer)
+- HolderSet lambda$static$0(MangroveRootPlacer)
+- HolderSet lambda$static$1(MangroveRootPlacer)
+- Integer lambda$static$3(MangroveRootPlacer)
+- Integer lambda$static$4(MangroveRootPlacer)
+- IntProvider lambda$static$5(MangroveRootPlacer)
++ MangroveRootPlacement lambda$static$0(MangroveRootPlacer)
+- Optional placeRoots(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos,TreeConfiguration)
+- void <init>(BlockStateProvider,HolderSet,HolderSet,BlockStateProvider,int,int,IntProvider,float)
++ void <init>(IntProvider,BlockStateProvider,Optional,MangroveRootPlacement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator</summary>
+
+```diff
+- void lambda$place$2(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos)
++ void lambda$place$2(TreeDecorator$Context,BlockPos)
+- void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
++ void place(TreeDecorator$Context)
+- void placeBlockAt(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos)
++ void placeBlockAt(TreeDecorator$Context,BlockPos)
+- void placeCircle(LevelSimulatedReader,BiConsumer,RandomSource,BlockPos)
++ void placeCircle(TreeDecorator$Context,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
+
+```diff
+- boolean lambda$place$5(LevelSimulatedReader,BlockPos)
++ boolean lambda$place$5(TreeDecorator$Context,BlockPos)
+- void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
++ void place(TreeDecorator$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
+
+```diff
++ void addHangingVine(BlockPos,BooleanProperty,TreeDecorator$Context)
+- void addHangingVine(LevelSimulatedReader,BlockPos,BooleanProperty,BiConsumer)
+- void lambda$place$1(RandomSource,LevelSimulatedReader,BiConsumer,BlockPos)
++ void lambda$place$1(RandomSource,TreeDecorator$Context,BlockPos)
+- void place(LevelSimulatedReader,BiConsumer,RandomSource,List,List,List)
++ void place(TreeDecorator$Context)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/avoid_vibration.json
++ minecraft/advancements/husbandry/allay_deliver_cake_to_note_block.json
+- minecraft/advancements/husbandry/allay_deliver_cake_to_noteblock.json
++ minecraft/advancements/husbandry/leash_all_frog_variants.json
++ minecraft/tags/blocks/completes_find_tree_tutorial.json
++ minecraft/tags/blocks/dampens_vibrations.json
++ minecraft/tags/blocks/nether_carver_replaceables.json
++ minecraft/tags/blocks/overworld_carver_replaceables.json
++ minecraft/tags/game_events/dampenable_vibrations.json
+- minecraft/tags/game_events/ignore_vibrations_on_occluding_block.json
++ minecraft/tags/items/completes_find_tree_tutorial.json
++ minecraft/tags/items/dampens_vibrations.json
+- minecraft/tags/items/occludes_vibration_signals.json
++ minecraft/tags/items/wart_blocks.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/particles/sonic_boom.json
++ minecraft/textures/particle/sonic_boom_0.png
++ minecraft/textures/particle/sonic_boom_1.png
++ minecraft/textures/particle/sonic_boom_10.png
++ minecraft/textures/particle/sonic_boom_11.png
++ minecraft/textures/particle/sonic_boom_12.png
++ minecraft/textures/particle/sonic_boom_13.png
++ minecraft/textures/particle/sonic_boom_14.png
++ minecraft/textures/particle/sonic_boom_15.png
++ minecraft/textures/particle/sonic_boom_2.png
++ minecraft/textures/particle/sonic_boom_3.png
++ minecraft/textures/particle/sonic_boom_4.png
++ minecraft/textures/particle/sonic_boom_5.png
++ minecraft/textures/particle/sonic_boom_6.png
++ minecraft/textures/particle/sonic_boom_7.png
++ minecraft/textures/particle/sonic_boom_8.png
++ minecraft/textures/particle/sonic_boom_9.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:sonic_boom_cooldown
++ minecraft:sonic_boom_sound_cooldown
++ minecraft:sonic_boom_sound_delay
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:sonic_boom
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.warden.sonic_boom
++ minecraft:entity.warden.sonic_charge
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
+- minecraft:ice_patch
+- minecraft:surface_disk
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/completes_find_tree_tutorial.json
++ blocks/dampens_vibrations.json
++ blocks/nether_carver_replaceables.json
++ blocks/overworld_carver_replaceables.json
++ game_events/dampenable_vibrations.json
+- game_events/ignore_vibrations_on_occluding_block.json
++ items/completes_find_tree_tutorial.json
++ items/dampens_vibrations.json
+- items/occludes_vibration_signals.json
++ items/wart_blocks.json
+```
+
+</details>
+
+
+<details><summary>blocks/dead_bush_may_place_on.json</summary>
+
+```diff
+- minecraft:mud
+```
+
+</details>
+
+
+<details><summary>blocks/dirt.json</summary>
+
+```diff
++ minecraft:mud
++ minecraft:muddy_mangrove_roots
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
+- minecraft:mud
+```
+
+</details>
+
+
+<details><summary>blocks/mangrove_logs_can_grow_through.json</summary>
+
+```diff
++ minecraft:moss_carpet
++ minecraft:vine
+```
+
+</details>
+
+
+<details><summary>blocks/mangrove_roots_can_grow_through.json</summary>
+
+```diff
++ minecraft:mangrove_propagule
++ minecraft:moss_carpet
++ minecraft:snow
++ minecraft:vine
+```
+
+</details>
+
+
+<details><summary>items/dirt.json</summary>
+
+```diff
++ minecraft:mud
++ minecraft:muddy_mangrove_roots
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.avoid_vibration.description
++ advancements.adventure.avoid_vibration.title
++ advancements.husbandry.allay_deliver_cake_to_note_block.description
++ advancements.husbandry.allay_deliver_cake_to_note_block.title
+- advancements.husbandry.allay_deliver_cake_to_noteblock.description
+- advancements.husbandry.allay_deliver_cake_to_noteblock.title
++ advancements.husbandry.leash_all_frog_variants.description
++ advancements.husbandry.leash_all_frog_variants.title
++ subtitles.entity.warden.sonic_boom
++ subtitles.entity.warden.sonic_charge
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/avoid_vibration.json
++ husbandry/allay_deliver_cake_to_note_block.json
+- husbandry/allay_deliver_cake_to_noteblock.json
++ husbandry/leash_all_frog_variants.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ sonic_boom.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/completes_find_tree_tutorial.json
++ blocks/dampens_vibrations.json
++ blocks/nether_carver_replaceables.json
++ blocks/overworld_carver_replaceables.json
++ game_events/dampenable_vibrations.json
+- game_events/ignore_vibrations_on_occluding_block.json
++ items/completes_find_tree_tutorial.json
++ items/dampens_vibrations.json
+- items/occludes_vibration_signals.json
++ items/wart_blocks.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ particle/sonic_boom_0.png
++ particle/sonic_boom_1.png
++ particle/sonic_boom_10.png
++ particle/sonic_boom_11.png
++ particle/sonic_boom_12.png
++ particle/sonic_boom_13.png
++ particle/sonic_boom_14.png
++ particle/sonic_boom_15.png
++ particle/sonic_boom_2.png
++ particle/sonic_boom_3.png
++ particle/sonic_boom_4.png
++ particle/sonic_boom_5.png
++ particle/sonic_boom_6.png
++ particle/sonic_boom_7.png
++ particle/sonic_boom_8.png
++ particle/sonic_boom_9.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:datafixerupper:4.1.27
++ com.mojang:datafixerupper:5.0.28
+```
+
+</details>

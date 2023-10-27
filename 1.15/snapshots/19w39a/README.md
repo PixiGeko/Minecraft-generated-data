@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w39a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w39a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-09-27T10:13:33+00:00</td></tr>
@@ -10,2181 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e20f6847acc26e62d276b1dbaa39309b92b055a3/server.txt">https://piston-data.mojang.com/v1/objects/e20f6847acc26e62d276b1dbaa39309b92b055a3/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/a0b9a2c6cceb77d4dcf601eeef1ffc7dc882b48a/client.jar">https://piston-data.mojang.com/v1/objects/a0b9a2c6cceb77d4dcf601eeef1ffc7dc882b48a/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f59403b9136adffcf6fc80e09ba3158336429c71/client.txt">https://piston-data.mojang.com/v1/objects/f59403b9136adffcf6fc80e09ba3158336429c71/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w38b">19w38b</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GLX</summary>
-
-```diff
-- void _pollEvents()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexFormat</summary>
-
-```diff
-+ IntList offsets
-- int colorOffset
-- int normalOffset
-- List offsets
-- List texOffset
-- boolean hasColor()
-- boolean hasNormal()
-- boolean hasUv(int)
-- int getColorOffset()
-- int getNormalOffset()
-- int getOffset(int)
-- int getUvOffset(int)
-```
-
-</details>
-
-
-<details><summary>com.mojang.math.Vector4f</summary>
-
-```diff
-+ boolean normalize()
-+ float dot(Vector4f)
-+ void perspectiveDivide()
-- float w()
-- void set(float,float,float,float)
-- void transform(Quaternion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.KeyboardHandler</summary>
-
-```diff
-- void handleModelDebugHotkeys(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.Font</summary>
-
-```diff
-+ float renderText(MultiBufferSource,boolean,int,int)
-+ int drawInBatch(MultiBufferSource,boolean,int,int)
-+ int drawInternal(Matrix4f,boolean)
-+ int drawInternal(MultiBufferSource,boolean,int,int)
-+ void renderChar(VertexConsumer,float,float,float,float,int)
-- float renderText(String,float,float,int,boolean)
-- int drawInternal(String,float,float,int,boolean)
-- void renderChar(BufferBuilder,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ void fill(Matrix4f,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.FontSet</summary>
-
-```diff
-+ BakedGlyph whiteGlyph
-+ BakedGlyph whiteGlyph()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ArmorStandArmorModel</summary>
-
-```diff
-- void <init>()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.BatModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Bat,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.BlazeModel</summary>
-
-```diff
-+ ImmutableList parts
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.BookModel</summary>
-
-```diff
-+ void lambda$render$0(ModelPart)
-+ void render(TextureAtlasSprite)
-- void lambda$render$0(ModelPart)
-- void lambda$render$1(ModelPart)
-- void render(float)
-- void render(TextureAtlasSprite)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ChestedHorseModel</summary>
-
-```diff
-+ void setupAnim(AbstractChestedHorse,float,float,float,float,float,float)
-+ void setupAnim(AbstractHorse,float,float,float,float,float,float)
-+ void setupAnim(Entity,float,float,float,float,float,float)
-- void render(AbstractChestedHorse,float,float,float,float,float,float)
-- void render(AbstractHorse,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.CodModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.CreeperModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.HumanoidHeadModel</summary>
-
-```diff
-+ void render(VertexConsumer,float,float,float,float,int)
-- void render(float,float,float,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.IllagerModel</summary>
-
-```diff
-- ModelPart nose
-+ Iterable parts()
-+ void translateToHand(PoseStack)
-- void render(AbstractIllager,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float)
-- void translateToHand(HumanoidArm)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.LavaSlimeModel</summary>
-
-```diff
-+ ImmutableList parts
-+ ImmutableList parts()
-+ Iterable parts()
-+ void setupAnim(Entity,float,float,float,float,float,float)
-+ void setupAnim(Slime,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float)
-- void render(Slime,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.PolarBearModel</summary>
-
-```diff
-- void render(Entity,float,float,float,float,float,float)
-- void render(PolarBear,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.PufferfishMidModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.QuadrupedModel</summary>
-
-```diff
-- float yHeadOffs
-- float zHeadOffs
-+ Iterable bodyParts()
-+ Iterable headParts()
-+ void <init>(int,float,boolean,float,float,float,float,int)
-- void <init>(int,float)
-- void render(Entity,float,float,float,float,float,float)
-- void render(QuadrupedModel,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.RavagerModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-- void render(Ravager,float,float,float,float,float,float)
-- void render(RavagerModel,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.ShieldModel</summary>
-
-```diff
-+ void render(VertexConsumer,int)
-- void render()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ShulkerModel</summary>
-
-```diff
-+ Iterable parts()
-- void render(Entity,float,float,float,float,float,float)
-- void render(Shulker,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.VexModel</summary>
-
-```diff
-+ Iterable bodyParts()
-- void render(Entity,float,float,float,float,float,float)
-- void render(LivingEntity,float,float,float,float,float,float)
-- void render(Vex,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.ItemInHandRenderer</summary>
-
-```diff
-- ResourceLocation UNDERWATER_LOCATION
-+ void applyEatTransform(ItemStack)
-+ void applyItemArmAttackTransform(HumanoidArm,float)
-+ void applyItemArmTransform(HumanoidArm,float)
-+ void renderArmWithItem(MultiBufferSource)
-+ void renderHandsWithItems(MultiBufferSource$BufferSource)
-+ void renderItem(MultiBufferSource)
-+ void renderMap(ItemStack)
-+ void renderMapHand(HumanoidArm)
-+ void renderOneHandedMap(ItemStack)
-+ void renderPlayerArm(HumanoidArm)
-+ void renderTwoHandedMap(MultiBufferSource,float,float,float)
-- void applyEatTransform(ItemStack)
-- void applyItemArmAttackTransform(HumanoidArm,float)
-- void applyItemArmTransform(HumanoidArm,float)
-- void enableLight(float,float)
-- void render(float)
-- void renderArmWithItem(ItemStack,float)
-- void renderFire()
-- void renderItem(ItemTransforms$TransformType,boolean)
-- void renderItem(ItemTransforms$TransformType)
-- void renderMap(ItemStack)
-- void renderMapHand(HumanoidArm)
-- void renderMapHands()
-- void renderOneHandedMap(ItemStack)
-- void renderPlayerArm(HumanoidArm)
-- void renderScreenEffect(float)
-- void renderTex(TextureAtlasSprite)
-- void renderTwoHandedMap(float,float,float)
-- void renderWater(float)
-- void setLightValue()
-- void setPlayerBob(float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.LightTexture</summary>
-
-```diff
-+ void <init>(Minecraft)
-- void <init>(GameRenderer)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.ModelBlockRenderer</summary>
-
-```diff
-+ boolean tesselateBlock(Random,long)
-+ boolean tesselateWithAO(Random,long)
-+ boolean tesselateWithoutAO(Random,long)
-+ void putQuadData(BakedQuad,float,float,float,float,int,int,int,int)
-+ void renderModel(BakedModel,float,float,float,int)
-+ void renderModelFaceAO(ModelBlockRenderer$AmbientOcclusionFace)
-+ void renderModelFaceFlat(BitSet)
-+ void renderQuadList(List,int)
-- boolean tesselateBlock(Random,long)
-- boolean tesselateWithAO(Random,long)
-- boolean tesselateWithoutAO(Random,long)
-- void renderModel(BakedModel,float,float,float,float)
-- void renderModel(BakedModel,float,float,float,float)
-- void renderModelFaceAO(ModelBlockRenderer$AmbientOcclusionFace)
-- void renderModelFaceFlat(BitSet)
-- void renderQuadList(List)
-- void renderSingleBlock(BlockState,float,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.BlockModel</summary>
-
-```diff
-+ BakedModel bake(ResourceLocation)
-+ BakedModel bake(ResourceLocation)
-+ BakedQuad bakeFace(ResourceLocation)
-- BakedModel bake(ModelState)
-- BakedModel bake(ModelState)
-- BakedQuad bakeFace(ModelState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemTransform</summary>
-
-```diff
-+ void apply(PoseStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemTransforms</summary>
-
-```diff
-- float rotX
-- float rotY
-- float rotZ
-- float scaleX
-- float scaleY
-- float scaleZ
-- float transX
-- float transY
-- float transZ
-- void apply(ItemTransform,boolean)
-- void apply(ItemTransforms$TransformType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.block.model.MultiVariant</summary>
-
-```diff
-+ BakedModel bake(ResourceLocation)
-- BakedModel bake(ModelState)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.block.model.Variant</summary>
-
-```diff
-+ Transformation rotation
-- BlockModelRotation rotation
-+ Transformation getRotation()
-+ void <init>(Transformation,boolean,int)
-- BlockModelRotation getRotation()
-- void <init>(BlockModelRotation,boolean,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.BannerRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-- void <init>()
-- void renderToBuffer(BufferBuilder,int,int)
-- void renderToBuffer(BufferBuilder,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.SkullBlockRenderer</summary>
-
-```diff
-- SkullBlockRenderer instance
-+ void <init>(BlockEntityRenderDispatcher)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void renderSkull(MultiBufferSource,int)
-- void <init>()
-- void init(BlockEntityRenderDispatcher)
-- void render(RenderType)
-- void render(RenderType)
-- void renderSkull(GameProfile,int,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.SpawnerRenderer</summary>
-
-```diff
-+ void <init>(BlockEntityRenderDispatcher)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-- void <init>()
-- void render(BaseSpawner,double,double,double,float)
-- void render(RenderType)
-- void render(RenderType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.TheEndPortalRenderer</summary>
-
-```diff
-- FloatBuffer buffer
-- FloatBuffer MODELVIEW
-- FloatBuffer PROJECTION
-+ void <init>(BlockEntityRenderDispatcher)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void renderCube(VertexConsumer)
-+ void renderFace(Direction,double,double,double,double,double,double,double,double,float,float,float)
-- FloatBuffer getBuffer(float,float,float,float)
-- void <init>()
-- void render(RenderType)
-- void render(RenderType)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
-
-```diff
-+ int freeBufferCount
-+ int toBatchCount
-+ PriorityQueue toBatch
-+ Queue freeBuffers
-+ Queue toUpload
-- PriorityBlockingQueue chunksToBatch
-- Queue availableChunkBuffers
-- Queue pendingUploads
-+ ChunkBufferBuilderPack fixedBuffers()
-+ CompletionStage lambda$uploadChunkLayer$6(Void)
-+ void <init>(ChunkBufferBuilderPack)
-+ void lambda$schedule$4(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
-+ void lambda$uploadChunkLayer$5()
-- CompletionStage lambda$uploadChunkLayer$5(Void)
-- void <init>(Executor,boolean)
-- void lambda$uploadChunkLayer$4()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.AbstractZombieRenderer</summary>
-
-```diff
-+ void setupRotations(PoseStack,float,float,float)
-+ void setupRotations(PoseStack,float,float,float)
-- void setupRotations(LivingEntity,float,float,float)
-- void setupRotations(Zombie,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EndermanRenderer</summary>
-
-```diff
-+ Vec3 getRenderOffset(EnderMan,double,double,double,float)
-+ Vec3 getRenderOffset(Entity,double,double,double,float)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(EnderMan,double,double,double,float,float)
-- void render(Entity,double,double,double,float,float)
-- void render(LivingEntity,double,double,double,float,float)
-- void render(Mob,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderDispatcher</summary>
-
-```diff
-+ ResourceLocation SHADOW_LOCATION
-- boolean solidRender
-- double xOff
-- double yOff
-- double zOff
-+ boolean shouldRender(Frustum,double,double,double)
-+ double distanceToSqr(Entity)
-+ void <clinit>()
-+ void <init>(Options)
-+ void fireVertex(VertexConsumer,float,float,float,float,float)
-+ void prepare(Entity)
-+ void register(EntityRenderer)
-+ void registerRenderers(ReloadableResourceManager)
-+ void render(Entity,float)
-+ void render(MultiBufferSource)
-+ void renderBlockShadow(BlockPos,double,double,double,float,float)
-+ void renderBox(Entity,float,float,float)
-+ void renderFlame(Entity)
-+ void renderHitbox(Entity,float)
-+ void renderShadow(LevelReader,float)
-+ void shadowVertex(VertexConsumer,float,float,float,float,float,float)
-- boolean hasSecondPass(Entity)
-- boolean shouldRender(Culler,double,double,double)
-- boolean shouldRenderShadow()
-- EntityRenderer getRenderer(Class)
-- void <init>(ReloadableResourceManager)
-- void prepare(Options)
-- void register(EntityRenderer)
-- void render(Entity,double,double,double,float,float,boolean)
-- void render(Entity,float,boolean)
-- void renderHitbox(Entity,double,double,double,float,float)
-- void renderSecondPass(Entity,float)
-- void setPosition(double,double,double)
-- void setSolidRendering(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EvokerFangsRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(EvokerFangs,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EvokerRenderer$1</summary>
-
-```diff
-+ void render(Entity,float,float,float,float,float,float,float)
-+ void render(LivingEntity,float,float,float,float,float,float,float)
-+ void render(SpellcasterIllager,float,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(LivingEntity,float,float,float,float,float,float,float)
-- void render(SpellcasterIllager,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.FallingBlockRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(FallingBlockEntity,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.FishingHookRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void stringVertex(Matrix4f,float)
-- void render(Entity,double,double,double,float,float)
-- void render(FishingHook,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.GhastRenderer</summary>
-
-```diff
-+ void scale(PoseStack,float)
-+ void scale(PoseStack,float)
-- void scale(Ghast,float)
-- void scale(LivingEntity,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.GuardianRenderer</summary>
-
-```diff
-+ boolean shouldRender(Frustum,double,double,double)
-+ boolean shouldRender(Frustum,double,double,double)
-+ boolean shouldRender(Frustum,double,double,double)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void vertex(Matrix4f,float,float,float,int,int,int,float,float)
-- boolean shouldRender(Culler,double,double,double)
-- boolean shouldRender(Culler,double,double,double)
-- boolean shouldRender(Culler,double,double,double)
-- void render(Entity,double,double,double,float,float)
-- void render(Guardian,double,double,double,float,float)
-- void render(LivingEntity,double,double,double,float,float)
-- void render(Mob,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.LightningBoltRenderer</summary>
-
-```diff
-+ void quad(VertexConsumer,float,float,int,float,float,float,float,float,float,float,boolean,boolean,boolean,boolean)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(LightningBolt,double,double,double,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.LlamaSpitRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(LlamaSpit,double,double,double,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.SlimeRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void scale(PoseStack,float)
-+ void scale(PoseStack,float)
-- void render(Entity,double,double,double,float,float)
-- void render(LivingEntity,double,double,double,float,float)
-- void render(Mob,double,double,double,float,float)
-- void render(Slime,double,double,double,float,float)
-- void scale(LivingEntity,float)
-- void scale(Slime,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.SquidRenderer</summary>
-
-```diff
-+ void setupRotations(PoseStack,float,float,float)
-+ void setupRotations(PoseStack,float,float,float)
-- void setupRotations(LivingEntity,float,float,float)
-- void setupRotations(Squid,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.ThrownItemRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.TntRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(PrimedTnt,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.TurtleRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- void render(Entity,double,double,double,float,float)
-- void render(LivingEntity,double,double,double,float,float)
-- void render(Mob,double,double,double,float,float)
-- void render(Turtle,double,double,double,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.VexRenderer</summary>
-
-```diff
-+ void scale(PoseStack,float)
-+ void scale(PoseStack,float)
-- void scale(LivingEntity,float)
-- void scale(Vex,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.WanderingTraderRenderer</summary>
-
-```diff
-+ void scale(PoseStack,float)
-+ void scale(PoseStack,float)
-- void scale(LivingEntity,float)
-- void scale(WanderingTrader,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.WitherBossRenderer</summary>
-
-```diff
-+ void scale(PoseStack,float)
-+ void scale(PoseStack,float)
-- void scale(LivingEntity,float)
-- void scale(WitherBoss,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.WitherSkullRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource)
-+ void render(MultiBufferSource)
-- float rotlerp(float,float,float)
-- void render(Entity,double,double,double,float,float)
-- void render(WitherSkull,double,double,double,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.AbstractArmorLayer</summary>
-
-```diff
-- boolean colorized
-- float alpha
-- float blue
-- float green
-- float red
-- ResourceLocation ENCHANT_GLINT_LOCATION
-+ void render(Entity,float,float,float,float,float,float,float)
-+ void render(LivingEntity,float,float,float,float,float,float,float)
-+ void renderArmorPiece(EquipmentSlot,int)
-+ void renderModel(String)
-- boolean colorsOnDamage()
-- ResourceLocation getArmorLocation(ArmorItem,boolean)
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(LivingEntity,float,float,float,float,float,float,float)
-- void renderArmorPiece(EquipmentSlot)
-- void renderFoil(EntityModel,float,float,float,float,float,float,float)
-- void resetColor()
-- void setColor(float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.BeeStingerLayer</summary>
-
-```diff
-+ void renderStuckItem(Entity,float,float,float,float)
-- boolean colorsOnDamage()
-- void postRenderStuckItem()
-- void preRenderStuckItem(LivingEntity)
-- void renderStuckItem(Entity,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.CarriedBlockLayer</summary>
-
-```diff
-+ void render(EnderMan,float,float,float,float,float,float,float)
-+ void render(Entity,float,float,float,float,float,float,float)
-- boolean colorsOnDamage()
-- void render(EnderMan,float,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.CreeperPowerLayer</summary>
-
-```diff
-+ EntityModel model()
-+ float xOffset(float)
-+ ResourceLocation getTextureLocation()
-- boolean colorsOnDamage()
-- void render(Creeper,float,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.Deadmau5EarsLayer</summary>
-
-```diff
-+ void render(AbstractClientPlayer,float,float,float,float,float,float,float)
-+ void render(Entity,float,float,float,float,float,float,float)
-- boolean colorsOnDamage()
-- void render(AbstractClientPlayer,float,float,float,float,float,float,float)
-- void render(Entity,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.DrownedOuterLayer</summary>
-
-```diff
-+ void render(Entity,float,float,float,float,float,float,float)
-+ void render(Zombie,float,float,float,float,float,float,float)
-- boolean colorsOnDamage()
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(Zombie,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.EnderEyesLayer</summary>
-
-```diff
-+ ResourceLocation getTextureLocation()
-- boolean colorsOnDamage()
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(LivingEntity,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.WitchItemLayer</summary>
-
-```diff
-+ void render(Entity,float,float,float,float,float,float,float)
-+ void render(LivingEntity,float,float,float,float,float,float,float)
-- boolean colorsOnDamage()
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(LivingEntity,float,float,float,float,float,float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.WolfCollarLayer</summary>
-
-```diff
-+ void render(Entity,float,float,float,float,float,float,float)
-+ void render(Wolf,float,float,float,float,float,float,float)
-- boolean colorsOnDamage()
-- void render(Entity,float,float,float,float,float,float,float)
-- void render(Wolf,float,float,float,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.BlockModelRotation</summary>
-
-```diff
-+ BlockModelRotation lambda$static$1(BlockModelRotation)
-+ Integer lambda$static$0(BlockModelRotation)
-+ Transformation getRotation()
-- BlockModelRotation getRotation()
-- BlockModelRotation lambda$static$2(BlockModelRotation)
-- Direction rotate(Direction)
-- int lambda$static$0(BlockModelRotation)
-- int rotateVertexIndex(Direction,int)
-- Integer lambda$static$1(BlockModelRotation)
-- Quaternion getRotationQuaternion()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.model.ModelBakery</summary>
-
-```diff
-+ List BREAKING_LOCATIONS
-+ ResourceLocation ACACIA_SIGN_TEXTURE
-+ ResourceLocation BIRCH_SIGN_TEXTURE
-+ ResourceLocation DARK_OAK_SIGN_TEXTURE
-+ ResourceLocation JUNGLE_SIGN_TEXTURE
-+ ResourceLocation OAK_SIGN_TEXTURE
-+ ResourceLocation SPRUCE_SIGN_TEXTURE
-+ boolean lambda$null$20(Map$Entry)
-+ boolean lambda$predicate$12(BlockState)
-+ ModelBakery$ModelGroupKey lambda$loadModel$15(ModelBakery$ModelGroupKey)
-+ ModelBakery$ModelGroupKey lambda$null$17(List)
-+ ModelBakery$ModelGroupKey lambda$null$19(List)
-+ Pair lambda$loadModel$16(Resource)
-+ ResourceLocation lambda$static$1(ResourceLocation)
-+ Set lambda$null$23(ModelBakery$ModelGroupKey)
-+ StateDefinition lambda$loadModel$13(ResourceLocation)
-+ Stream lambda$new$9(UnbakedModel)
-+ void lambda$loadModel$14(BlockState)
-+ void lambda$loadModel$18(BlockState)
-+ void lambda$loadModel$22(MultiVariant)
-+ void lambda$loadModel$24(BlockState)
-+ void lambda$loadModel$25(Set)
-+ void lambda$new$10(String)
-+ void lambda$new$5(Object2IntOpenHashMap)
-+ void lambda$new$7(StateDefinition)
-+ void lambda$new$8(BlockState)
-+ void lambda$null$21(BlockState)
-+ void lambda$null$6(BlockState)
-+ void lambda$registerModelGroup$26(BlockState)
-+ void lambda$static$2(HashSet)
-+ void lambda$static$4(BlockModel)
-+ void lambda$uploadTextures$11(ResourceLocation)
-- boolean lambda$null$19(Map$Entry)
-- boolean lambda$predicate$11(BlockState)
-- ModelBakery$ModelGroupKey lambda$loadModel$14(ModelBakery$ModelGroupKey)
-- ModelBakery$ModelGroupKey lambda$null$16(List)
-- ModelBakery$ModelGroupKey lambda$null$18(List)
-- Pair lambda$loadModel$15(Resource)
-- Set lambda$null$22(ModelBakery$ModelGroupKey)
-- StateDefinition lambda$loadModel$12(ResourceLocation)
-- Stream lambda$new$8(UnbakedModel)
-- void lambda$loadModel$13(BlockState)
-- void lambda$loadModel$17(BlockState)
-- void lambda$loadModel$21(MultiVariant)
-- void lambda$loadModel$23(BlockState)
-- void lambda$loadModel$24(Set)
-- void lambda$new$4(Object2IntOpenHashMap)
-- void lambda$new$6(StateDefinition)
-- void lambda$new$7(BlockState)
-- void lambda$new$9(String)
-- void lambda$null$20(BlockState)
-- void lambda$null$5(BlockState)
-- void lambda$registerModelGroup$25(BlockState)
-- void lambda$static$1(HashSet)
-- void lambda$static$2(BlockModel)
-- void lambda$uploadTextures$10(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.UnbakedModel</summary>
-
-```diff
-+ BakedModel bake(net.minecraft.client.resources.model.ModelBakery,java.util.function.Function,net.minecraft.client.resources.model.ModelState,net.minecraft.resources.ResourceLocation)
-- BakedModel bake(net.minecraft.client.resources.model.ModelBakery,java.util.function.Function,net.minecraft.client.resources.model.ModelState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ByteTag</summary>
-
-```diff
-+ ByteTag ONE
-+ ByteTag ZERO
-+ TagType TYPE
-+ ByteTag valueOf(boolean)
-+ ByteTag valueOf(byte)
-+ TagType getType()
-+ void <clinit>()
-+ void <init>(ByteTag$1)
-- void <init>()
-- void load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
-
-```diff
-+ TagType TYPE
-+ byte access$000(NbtAccounter)
-+ CrashReport createReport(ClassCastException)
-+ String access$100(NbtAccounter)
-+ Tag access$200(NbtAccounter)
-+ Tag readNamedTagData(NbtAccounter)
-+ TagType getType()
-+ void <init>(CompoundTag$1)
-+ void <init>(Map)
-- CrashReport createReport(ClassCastException)
-- String lambda$createReport$1(int)
-- Tag readNamedTagData(NbtAccounter)
-- void load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.EndTag</summary>
-
-```diff
-+ EndTag INSTANCE
-+ TagType TYPE
-+ TagType getType()
-+ void <clinit>()
-- boolean equals(Object)
-- int hashCode()
-- void load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntArrayTag</summary>
-
-```diff
-+ TagType TYPE
-+ TagType getType()
-+ void <clinit>()
-- void <init>()
-- void load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.TagParser</summary>
-
-```diff
-+ List readArray(TagType)
-- List readArray(byte,byte)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.RealmsVertexFormat</summary>
-
-```diff
-- boolean hasColor()
-- boolean hasNormal()
-- boolean hasUv(int)
-- int getColorOffset()
-- int getElementCount()
-- int getIntegerSize()
-- int getNormalOffset()
-- int getOffset(int)
-- int getUvOffset(int)
-- int getVertexSize()
-- RealmsVertexFormatElement getElement(int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.realms.Tezzelator</summary>
-
-```diff
-+ Tezzelator color(int,int,int,int)
-+ Tezzelator tex(float,float)
-- BufferBuilder color(int,int,int,int)
-- Tezzelator tex(double,double)
-- void color(float,float,float,float)
-- void normal(float,float,float)
-- void offset(double,double,double)
-- void tex2(short,short)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.BlockDestructionProgress</summary>
-
-```diff
-+ boolean equals(Object)
-+ int compareTo(BlockDestructionProgress)
-+ int compareTo(Object)
-+ int hashCode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ float fastInvSqrt(float)
-+ float rotlerp(float,float,float)
-+ float rotWrap(double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ int getTeamColor()
-+ void setPosAndOldPos(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-- float yRotA
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.blaze3d.platform.ClipboardManager
@@ -5245,373 +3092,1089 @@
 
 </details>
 
-<details><summary>com.mojang.math.Quaternion</summary>
+
+<details><summary>com.mojang.blaze3d.platform.GLX</summary>
 
 ```diff
-+ void mul(float)
-+ void normalize()
+- void _pollEvents()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.LongArrayTag</summary>
+<details><summary>com.mojang.blaze3d.vertex.VertexFormat</summary>
 
 ```diff
-+ TagType TYPE
+- boolean hasColor()
+- boolean hasNormal()
+- boolean hasUv(int)
+- int getColorOffset()
+- int getNormalOffset()
+- int getOffset(int)
+- int getUvOffset(int)
+```
+
+</details>
+
+
+<details><summary>com.mojang.math.Vector4f</summary>
+
+```diff
++ boolean normalize()
++ float dot(Vector4f)
+- float w()
++ void perspectiveDivide()
+- void set(float,float,float,float)
+- void transform(Quaternion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.KeyboardHandler</summary>
+
+```diff
+- void handleModelDebugHotkeys(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.Font</summary>
+
+```diff
++ float renderText(String,float,float,int,boolean,Matrix4f,MultiBufferSource,boolean,int,int)
+- float renderText(String,float,float,int,boolean)
++ int drawInBatch(String,float,float,int,boolean,Matrix4f,MultiBufferSource,boolean,int,int)
++ int drawInternal(String,float,float,int,boolean,Matrix4f,MultiBufferSource,boolean,int,int)
+- int drawInternal(String,float,float,int,boolean)
++ int drawInternal(String,float,float,int,Matrix4f,boolean)
+- void renderChar(BakedGlyph,boolean,boolean,float,float,float,BufferBuilder,float,float,float,float)
++ void renderChar(BakedGlyph,boolean,boolean,float,float,float,Matrix4f,VertexConsumer,float,float,float,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
+
+```diff
++ void fill(Matrix4f,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.font.FontSet</summary>
+
+```diff
++ BakedGlyph whiteGlyph()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ArmorStandArmorModel</summary>
+
+```diff
+- void <init>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.BatModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Bat,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.BlazeModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.BookModel</summary>
+
+```diff
+- void lambda$render$0(float,ModelPart)
++ void lambda$render$0(PoseStack,VertexConsumer,float,int,TextureAtlasSprite,ModelPart)
+- void lambda$render$1(BufferBuilder,float,int,int,TextureAtlasSprite,ModelPart)
+- void render(BufferBuilder,float,int,int,TextureAtlasSprite)
+- void render(float)
++ void render(PoseStack,VertexConsumer,float,int,TextureAtlasSprite)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ChestedHorseModel</summary>
+
+```diff
+- void render(AbstractChestedHorse,float,float,float,float,float,float)
+- void render(AbstractHorse,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float)
++ void setupAnim(AbstractChestedHorse,float,float,float,float,float,float)
++ void setupAnim(AbstractHorse,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.CodModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.CreeperModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.HumanoidHeadModel</summary>
+
+```diff
+- void render(float,float,float,float,float,float)
++ void render(PoseStack,VertexConsumer,float,float,float,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.IllagerModel</summary>
+
+```diff
++ Iterable parts()
+- void render(AbstractIllager,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float)
++ void translateToHand(float,HumanoidArm,PoseStack)
+- void translateToHand(float,HumanoidArm)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.LavaSlimeModel</summary>
+
+```diff
++ ImmutableList parts()
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+- void render(Slime,float,float,float,float,float,float)
++ void setupAnim(Entity,float,float,float,float,float,float)
++ void setupAnim(Slime,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.PolarBearModel</summary>
+
+```diff
+- void render(Entity,float,float,float,float,float,float)
+- void render(PolarBear,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.PufferfishMidModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.QuadrupedModel</summary>
+
+```diff
++ Iterable bodyParts()
++ Iterable headParts()
++ void <init>(int,float,boolean,float,float,float,float,int)
+- void <init>(int,float)
+- void render(Entity,float,float,float,float,float,float)
+- void render(QuadrupedModel,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.RavagerModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+- void render(Ravager,float,float,float,float,float,float)
+- void render(RavagerModel,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ShieldModel</summary>
+
+```diff
+- void render()
++ void render(PoseStack,VertexConsumer,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.ShulkerModel</summary>
+
+```diff
++ Iterable parts()
+- void render(Entity,float,float,float,float,float,float)
+- void render(Shulker,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.model.VexModel</summary>
+
+```diff
++ Iterable bodyParts()
+- void render(Entity,float,float,float,float,float,float)
+- void render(LivingEntity,float,float,float,float,float,float)
+- void render(Vex,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.ItemInHandRenderer</summary>
+
+```diff
+- void applyEatTransform(float,HumanoidArm,ItemStack)
++ void applyEatTransform(PoseStack,float,HumanoidArm,ItemStack)
+- void applyItemArmAttackTransform(HumanoidArm,float)
++ void applyItemArmAttackTransform(PoseStack,HumanoidArm,float)
+- void applyItemArmTransform(HumanoidArm,float)
++ void applyItemArmTransform(PoseStack,HumanoidArm,float)
+- void enableLight(float,float)
+- void render(float)
++ void renderArmWithItem(AbstractClientPlayer,float,float,InteractionHand,float,ItemStack,float,PoseStack,MultiBufferSource)
+- void renderArmWithItem(AbstractClientPlayer,float,float,InteractionHand,float,ItemStack,float)
+- void renderFire()
++ void renderHandsWithItems(float,PoseStack,MultiBufferSource$BufferSource)
++ void renderItem(LivingEntity,ItemStack,ItemTransforms$TransformType,boolean,PoseStack,MultiBufferSource)
+- void renderItem(LivingEntity,ItemStack,ItemTransforms$TransformType,boolean)
+- void renderItem(LivingEntity,ItemStack,ItemTransforms$TransformType)
+- void renderMap(ItemStack)
++ void renderMap(PoseStack,MultiBufferSource,ItemStack)
+- void renderMapHand(HumanoidArm)
++ void renderMapHand(PoseStack,MultiBufferSource,HumanoidArm)
+- void renderMapHands()
+- void renderOneHandedMap(float,HumanoidArm,float,ItemStack)
++ void renderOneHandedMap(PoseStack,MultiBufferSource,float,HumanoidArm,float,ItemStack)
+- void renderPlayerArm(float,float,HumanoidArm)
++ void renderPlayerArm(PoseStack,MultiBufferSource,float,float,HumanoidArm)
+- void renderScreenEffect(float)
+- void renderTex(TextureAtlasSprite)
+- void renderTwoHandedMap(float,float,float)
++ void renderTwoHandedMap(PoseStack,MultiBufferSource,float,float,float)
+- void renderWater(float)
+- void setLightValue()
+- void setPlayerBob(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.LightTexture</summary>
+
+```diff
++ void <init>(GameRenderer,Minecraft)
+- void <init>(GameRenderer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.ModelBlockRenderer</summary>
+
+```diff
+- boolean tesselateBlock(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,BufferBuilder,boolean,Random,long)
++ boolean tesselateBlock(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,PoseStack,VertexConsumer,boolean,Random,long)
+- boolean tesselateWithAO(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,BufferBuilder,boolean,Random,long)
++ boolean tesselateWithAO(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,PoseStack,VertexConsumer,boolean,Random,long)
+- boolean tesselateWithoutAO(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,BufferBuilder,boolean,Random,long)
++ boolean tesselateWithoutAO(BlockAndBiomeGetter,BakedModel,BlockState,BlockPos,PoseStack,VertexConsumer,boolean,Random,long)
++ void putQuadData(BlockAndBiomeGetter,BlockState,BlockPos,VertexConsumer,Matrix4f,BakedQuad,float,float,float,float,int,int,int,int)
+- void renderModel(BakedModel,float,float,float,float)
+- void renderModel(BlockState,BakedModel,float,float,float,float)
++ void renderModel(Matrix4f,VertexConsumer,BlockState,BakedModel,float,float,float,int)
+- void renderModelFaceAO(BlockAndBiomeGetter,BlockState,BlockPos,BufferBuilder,List,float[],BitSet,ModelBlockRenderer$AmbientOcclusionFace)
++ void renderModelFaceAO(BlockAndBiomeGetter,BlockState,BlockPos,PoseStack,VertexConsumer,List,float[],BitSet,ModelBlockRenderer$AmbientOcclusionFace)
+- void renderModelFaceFlat(BlockAndBiomeGetter,BlockState,BlockPos,int,boolean,BufferBuilder,List,BitSet)
++ void renderModelFaceFlat(BlockAndBiomeGetter,BlockState,BlockPos,int,boolean,PoseStack,VertexConsumer,List,BitSet)
+- void renderQuadList(float,float,float,float,List)
++ void renderQuadList(Matrix4f,VertexConsumer,float,float,float,List,int)
+- void renderSingleBlock(BakedModel,BlockState,float,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.BlockModel</summary>
+
+```diff
++ BakedModel bake(ModelBakery,BlockModel,Function,ModelState,ResourceLocation)
+- BakedModel bake(ModelBakery,BlockModel,Function,ModelState)
++ BakedModel bake(ModelBakery,Function,ModelState,ResourceLocation)
+- BakedModel bake(ModelBakery,Function,ModelState)
++ BakedQuad bakeFace(BlockElement,BlockElementFace,TextureAtlasSprite,Direction,ModelState,ResourceLocation)
+- BakedQuad bakeFace(BlockElement,BlockElementFace,TextureAtlasSprite,Direction,ModelState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.ItemTransform</summary>
+
+```diff
++ void apply(boolean,PoseStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.ItemTransforms</summary>
+
+```diff
+- void apply(ItemTransform,boolean)
+- void apply(ItemTransforms$TransformType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.MultiVariant</summary>
+
+```diff
++ BakedModel bake(ModelBakery,Function,ModelState,ResourceLocation)
+- BakedModel bake(ModelBakery,Function,ModelState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.block.model.Variant</summary>
+
+```diff
+- BlockModelRotation getRotation()
++ Transformation getRotation()
+- void <init>(ResourceLocation,BlockModelRotation,boolean,int)
++ void <init>(ResourceLocation,Transformation,boolean,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.BannerRenderer</summary>
+
+```diff
+- void <init>()
++ void <init>(BlockEntityRenderDispatcher)
++ void render(BannerBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+- void renderToBuffer(BannerBlockEntity,double,double,double,float,int,RenderType,BufferBuilder,int,int)
+- void renderToBuffer(BlockEntity,double,double,double,float,int,RenderType,BufferBuilder,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.SkullBlockRenderer</summary>
+
+```diff
+- void <init>()
++ void <init>(BlockEntityRenderDispatcher)
+- void init(BlockEntityRenderDispatcher)
+- void render(BlockEntity,double,double,double,float,int,RenderType)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+- void render(SkullBlockEntity,double,double,double,float,int,RenderType)
++ void render(SkullBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void renderSkull(Direction,float,SkullBlock$Type,GameProfile,float,PoseStack,MultiBufferSource,int)
+- void renderSkull(float,float,float,Direction,float,SkullBlock$Type,GameProfile,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.SpawnerRenderer</summary>
+
+```diff
+- void <init>()
++ void <init>(BlockEntityRenderDispatcher)
+- void render(BaseSpawner,double,double,double,float)
+- void render(BlockEntity,double,double,double,float,int,RenderType)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+- void render(SpawnerBlockEntity,double,double,double,float,int,RenderType)
++ void render(SpawnerBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.blockentity.TheEndPortalRenderer</summary>
+
+```diff
+- FloatBuffer getBuffer(float,float,float,float)
+- void <init>()
++ void <init>(BlockEntityRenderDispatcher)
+- void render(BlockEntity,double,double,double,float,int,RenderType)
++ void render(BlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
+- void render(TheEndPortalBlockEntity,double,double,double,float,int,RenderType)
++ void render(TheEndPortalBlockEntity,double,double,double,float,PoseStack,MultiBufferSource,int)
++ void renderCube(TheEndPortalBlockEntity,double,double,double,float,float,VertexConsumer)
++ void renderFace(TheEndPortalBlockEntity,VertexConsumer,Direction,double,double,double,double,double,double,double,double,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
+
+```diff
++ ChunkBufferBuilderPack fixedBuffers()
+- CompletionStage lambda$uploadChunkLayer$5(BufferBuilder,VertexBuffer,Void)
++ CompletionStage lambda$uploadChunkLayer$6(BufferBuilder,VertexBuffer,Void)
++ void <init>(Level,LevelRenderer,Executor,boolean,ChunkBufferBuilderPack)
+- void <init>(Level,LevelRenderer,Executor,boolean)
++ void lambda$schedule$4(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask)
+- void lambda$uploadChunkLayer$4()
++ void lambda$uploadChunkLayer$5()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.AbstractZombieRenderer</summary>
+
+```diff
+- void setupRotations(LivingEntity,float,float,float)
++ void setupRotations(LivingEntity,PoseStack,float,float,float)
+- void setupRotations(Zombie,float,float,float)
++ void setupRotations(Zombie,PoseStack,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EndermanRenderer</summary>
+
+```diff
++ Vec3 getRenderOffset(EnderMan,double,double,double,float)
++ Vec3 getRenderOffset(Entity,double,double,double,float)
++ void render(EnderMan,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(EnderMan,double,double,double,float,float)
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(LivingEntity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LivingEntity,double,double,double,float,float)
++ void render(Mob,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Mob,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EntityRenderDispatcher</summary>
+
+```diff
+- boolean hasSecondPass(Entity)
+- boolean shouldRender(Entity,Culler,double,double,double)
++ boolean shouldRender(Entity,Frustum,double,double,double)
+- boolean shouldRenderShadow()
++ double distanceToSqr(Entity)
+- EntityRenderer getRenderer(Class)
++ void <clinit>()
++ void <init>(TextureManager,ItemRenderer,ReloadableResourceManager,Font,Options)
+- void <init>(TextureManager,ItemRenderer,ReloadableResourceManager)
++ void fireVertex(Matrix4f,VertexConsumer,float,float,float,float,float)
++ void prepare(Level,Camera,Entity)
+- void prepare(Level,Font,Camera,Entity,Options)
+- void register(Class,EntityRenderer)
++ void register(EntityType,EntityRenderer)
++ void registerRenderers(ItemRenderer,ReloadableResourceManager)
+- void render(Entity,double,double,double,float,float,boolean)
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,float,boolean)
++ void render(Entity,float)
++ void renderBlockShadow(Matrix4f,VertexConsumer,LevelReader,BlockPos,double,double,double,float,float)
++ void renderBox(PoseStack,VertexConsumer,Entity,float,float,float)
++ void renderFlame(PoseStack,MultiBufferSource,Entity)
+- void renderHitbox(Entity,double,double,double,float,float)
++ void renderHitbox(PoseStack,VertexConsumer,Entity,float)
+- void renderSecondPass(Entity,float)
++ void renderShadow(PoseStack,MultiBufferSource,Entity,float,float,LevelReader,float)
+- void setPosition(double,double,double)
+- void setSolidRendering(boolean)
++ void shadowVertex(Matrix4f,VertexConsumer,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EvokerFangsRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(EvokerFangs,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(EvokerFangs,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EvokerRenderer$1</summary>
+
+```diff
+- void render(Entity,float,float,float,float,float,float,float)
+- void render(LivingEntity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,LivingEntity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,SpellcasterIllager,float,float,float,float,float,float,float)
+- void render(SpellcasterIllager,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.FallingBlockRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(FallingBlockEntity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(FallingBlockEntity,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.FishingHookRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(FishingHook,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(FishingHook,double,double,double,float,float)
++ void stringVertex(float,float,float,VertexConsumer,Matrix4f,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.GhastRenderer</summary>
+
+```diff
+- void scale(Ghast,float)
++ void scale(Ghast,PoseStack,float)
+- void scale(LivingEntity,float)
++ void scale(LivingEntity,PoseStack,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.GuardianRenderer</summary>
+
+```diff
+- boolean shouldRender(Entity,Culler,double,double,double)
++ boolean shouldRender(Entity,Frustum,double,double,double)
+- boolean shouldRender(Guardian,Culler,double,double,double)
++ boolean shouldRender(Guardian,Frustum,double,double,double)
+- boolean shouldRender(Mob,Culler,double,double,double)
++ boolean shouldRender(Mob,Frustum,double,double,double)
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(Guardian,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Guardian,double,double,double,float,float)
++ void render(LivingEntity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LivingEntity,double,double,double,float,float)
++ void render(Mob,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Mob,double,double,double,float,float)
++ void vertex(VertexConsumer,Matrix4f,float,float,float,int,int,int,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.LightningBoltRenderer</summary>
+
+```diff
++ void quad(Matrix4f,VertexConsumer,float,float,int,float,float,float,float,float,float,float,boolean,boolean,boolean,boolean)
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(LightningBolt,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LightningBolt,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.LlamaSpitRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(LlamaSpit,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LlamaSpit,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.SlimeRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(LivingEntity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LivingEntity,double,double,double,float,float)
++ void render(Mob,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Mob,double,double,double,float,float)
++ void render(Slime,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Slime,double,double,double,float,float)
+- void scale(LivingEntity,float)
++ void scale(LivingEntity,PoseStack,float)
+- void scale(Slime,float)
++ void scale(Slime,PoseStack,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.SquidRenderer</summary>
+
+```diff
+- void setupRotations(LivingEntity,float,float,float)
++ void setupRotations(LivingEntity,PoseStack,float,float,float)
+- void setupRotations(Squid,float,float,float)
++ void setupRotations(Squid,PoseStack,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.ThrownItemRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.TntRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(PrimedTnt,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(PrimedTnt,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.TurtleRenderer</summary>
+
+```diff
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(LivingEntity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(LivingEntity,double,double,double,float,float)
++ void render(Mob,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Mob,double,double,double,float,float)
++ void render(Turtle,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Turtle,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.VexRenderer</summary>
+
+```diff
+- void scale(LivingEntity,float)
++ void scale(LivingEntity,PoseStack,float)
+- void scale(Vex,float)
++ void scale(Vex,PoseStack,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.WanderingTraderRenderer</summary>
+
+```diff
+- void scale(LivingEntity,float)
++ void scale(LivingEntity,PoseStack,float)
+- void scale(WanderingTrader,float)
++ void scale(WanderingTrader,PoseStack,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.WitherBossRenderer</summary>
+
+```diff
+- void scale(LivingEntity,float)
++ void scale(LivingEntity,PoseStack,float)
+- void scale(WitherBoss,float)
++ void scale(WitherBoss,PoseStack,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.WitherSkullRenderer</summary>
+
+```diff
+- float rotlerp(float,float,float)
++ void render(Entity,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(Entity,double,double,double,float,float)
++ void render(WitherSkull,double,double,double,float,float,PoseStack,MultiBufferSource)
+- void render(WitherSkull,double,double,double,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.AbstractArmorLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- ResourceLocation getArmorLocation(ArmorItem,boolean)
+- void render(Entity,float,float,float,float,float,float,float)
+- void render(LivingEntity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,LivingEntity,float,float,float,float,float,float,float)
+- void renderArmorPiece(LivingEntity,float,float,float,float,float,float,float,EquipmentSlot)
++ void renderArmorPiece(PoseStack,MultiBufferSource,LivingEntity,float,float,float,float,float,float,float,EquipmentSlot,int)
+- void renderFoil(Consumer,Entity,EntityModel,float,float,float,float,float,float,float)
++ void renderModel(PoseStack,MultiBufferSource,int,ArmorItem,boolean,HumanoidModel,boolean,float,float,float,String)
+- void resetColor()
+- void setColor(float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.BeeStingerLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void postRenderStuckItem()
+- void preRenderStuckItem(LivingEntity)
+- void renderStuckItem(Entity,float,float,float,float)
++ void renderStuckItem(PoseStack,MultiBufferSource,Entity,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.CarriedBlockLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void render(EnderMan,float,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,EnderMan,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.CreeperPowerLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
++ EntityModel model()
++ float xOffset(float)
++ ResourceLocation getTextureLocation()
+- void render(Creeper,float,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.Deadmau5EarsLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void render(AbstractClientPlayer,float,float,float,float,float,float,float)
+- void render(Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,AbstractClientPlayer,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.DrownedOuterLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void render(Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Zombie,float,float,float,float,float,float,float)
+- void render(Zombie,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.EnderEyesLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
++ ResourceLocation getTextureLocation()
+- void render(Entity,float,float,float,float,float,float,float)
+- void render(LivingEntity,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.WitchItemLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void render(Entity,float,float,float,float,float,float,float)
+- void render(LivingEntity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,LivingEntity,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.layers.WolfCollarLayer</summary>
+
+```diff
+- boolean colorsOnDamage()
+- void render(Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Entity,float,float,float,float,float,float,float)
++ void render(PoseStack,MultiBufferSource,int,Wolf,float,float,float,float,float,float,float)
+- void render(Wolf,float,float,float,float,float,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.model.BlockModelRotation</summary>
+
+```diff
+- BlockModelRotation getRotation()
++ BlockModelRotation lambda$static$1(BlockModelRotation)
+- BlockModelRotation lambda$static$2(BlockModelRotation)
+- Direction rotate(Direction)
+- int lambda$static$0(BlockModelRotation)
+- int rotateVertexIndex(Direction,int)
++ Integer lambda$static$0(BlockModelRotation)
+- Integer lambda$static$1(BlockModelRotation)
+- Quaternion getRotationQuaternion()
++ Transformation getRotation()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.model.ModelBakery</summary>
+
+```diff
+- boolean lambda$null$19(Pair,Map$Entry)
++ boolean lambda$null$20(Pair,Map$Entry)
+- boolean lambda$predicate$11(Block,Map,BlockState)
++ boolean lambda$predicate$12(Block,Map,BlockState)
+- ModelBakery$ModelGroupKey lambda$loadModel$14(ModelBakery$ModelGroupKey)
++ ModelBakery$ModelGroupKey lambda$loadModel$15(ModelBakery$ModelGroupKey)
+- ModelBakery$ModelGroupKey lambda$null$16(BlockState,MultiPart,List)
++ ModelBakery$ModelGroupKey lambda$null$17(BlockState,MultiPart,List)
+- ModelBakery$ModelGroupKey lambda$null$18(BlockState,MultiVariant,List)
++ ModelBakery$ModelGroupKey lambda$null$19(BlockState,MultiVariant,List)
+- Pair lambda$loadModel$15(Resource)
++ Pair lambda$loadModel$16(Resource)
++ ResourceLocation lambda$static$1(ResourceLocation)
+- Set lambda$null$22(ModelBakery$ModelGroupKey)
++ Set lambda$null$23(ModelBakery$ModelGroupKey)
+- StateDefinition lambda$loadModel$12(ResourceLocation)
++ StateDefinition lambda$loadModel$13(ResourceLocation)
+- Stream lambda$new$8(Set,UnbakedModel)
++ Stream lambda$new$9(Set,UnbakedModel)
+- void lambda$loadModel$13(Map,ResourceLocation,BlockState)
++ void lambda$loadModel$14(Map,ResourceLocation,BlockState)
+- void lambda$loadModel$17(Map,MultiPart,List,BlockState)
++ void lambda$loadModel$18(Map,MultiPart,List,BlockState)
+- void lambda$loadModel$21(ImmutableList,StateDefinition,Map,List,MultiPart,Pair,BlockModelDefinition,ResourceLocation,Pair,String,MultiVariant)
++ void lambda$loadModel$22(ImmutableList,StateDefinition,Map,List,MultiPart,Pair,BlockModelDefinition,ResourceLocation,Pair,String,MultiVariant)
+- void lambda$loadModel$23(Map,ResourceLocation,Pair,Map,ModelResourceLocation,BlockState)
++ void lambda$loadModel$24(Map,ResourceLocation,Pair,Map,ModelResourceLocation,BlockState)
+- void lambda$loadModel$24(ModelBakery$ModelGroupKey,Set)
++ void lambda$loadModel$25(ModelBakery$ModelGroupKey,Set)
++ void lambda$new$10(String)
+- void lambda$new$4(Object2IntOpenHashMap)
++ void lambda$new$5(Object2IntOpenHashMap)
+- void lambda$new$6(ResourceLocation,StateDefinition)
+- void lambda$new$7(BlockState)
++ void lambda$new$7(ResourceLocation,StateDefinition)
++ void lambda$new$8(BlockState)
+- void lambda$new$9(String)
+- void lambda$null$20(Map,MultiVariant,List,MultiPart,Pair,BlockModelDefinition,BlockState)
++ void lambda$null$21(Map,MultiVariant,List,MultiPart,Pair,BlockModelDefinition,BlockState)
+- void lambda$null$5(ResourceLocation,BlockState)
++ void lambda$null$6(ResourceLocation,BlockState)
+- void lambda$registerModelGroup$25(int,BlockState)
++ void lambda$registerModelGroup$26(int,BlockState)
+- void lambda$static$1(HashSet)
+- void lambda$static$2(BlockModel)
++ void lambda$static$2(HashSet)
++ void lambda$static$4(BlockModel)
+- void lambda$uploadTextures$10(ResourceLocation)
++ void lambda$uploadTextures$11(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.ByteTag</summary>
+
+```diff
++ ByteTag valueOf(boolean)
++ ByteTag valueOf(byte)
 + TagType getType()
 + void <clinit>()
 - void <init>()
-- void load(NbtAccounter)
++ void <init>(byte,ByteTag$1)
+- void load(DataInput,int,NbtAccounter)
 ```
 
 </details>
 
-<details><summary>net.minecraft.nbt.Tag</summary>
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
++ byte access$000(DataInput,NbtAccounter)
+- CrashReport createReport(String,int,ClassCastException)
++ CrashReport createReport(String,TagType,ClassCastException)
++ String access$100(DataInput,NbtAccounter)
+- String lambda$createReport$1(int)
++ Tag access$200(TagType,String,DataInput,int,NbtAccounter)
+- Tag readNamedTagData(byte,String,DataInput,int,NbtAccounter)
++ Tag readNamedTagData(TagType,String,DataInput,int,NbtAccounter)
++ TagType getType()
++ void <init>(Map,CompoundTag$1)
++ void <init>(Map)
+- void load(DataInput,int,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.EndTag</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
++ TagType getType()
++ void <clinit>()
+- void load(DataInput,int,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.IntArrayTag</summary>
 
 ```diff
 + TagType getType()
-- String[] TAG_NAMES
-- void load(java.io.DataInput,int,net.minecraft.nbt.NbtAccounter)
-- String getTagTypeName(int)
-- Tag newTag(byte)
++ void <clinit>()
+- void <init>()
+- void load(DataInput,int,NbtAccounter)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details><summary>net.minecraft.nbt.TagParser</summary>
+
+```diff
+- List readArray(byte,byte)
++ List readArray(TagType,TagType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.RealmsVertexFormat</summary>
+
+```diff
+- boolean hasColor()
+- boolean hasNormal()
+- boolean hasUv(int)
+- int getColorOffset()
+- int getElementCount()
+- int getIntegerSize()
+- int getNormalOffset()
+- int getOffset(int)
+- int getUvOffset(int)
+- int getVertexSize()
+- RealmsVertexFormatElement getElement(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.Tezzelator</summary>
+
+```diff
+- BufferBuilder color(int,int,int,int)
++ Tezzelator color(int,int,int,int)
+- Tezzelator tex(double,double)
++ Tezzelator tex(float,float)
+- void color(float,float,float,float)
+- void normal(float,float,float)
+- void offset(double,double,double)
+- void tex2(short,short)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.server.level.BlockDestructionProgress</summary>
@@ -5626,101 +4189,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
@@ -5730,133 +4198,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.Entity</summary>
@@ -5869,26 +4210,12 @@
 </details>
 
 
+### Server
 
 
 
 
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-- float yRotA
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.Matrix3f
@@ -8535,13 +6862,67 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Quaternion</summary>
+
+```diff
++ void mul(float)
++ void normalize()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.LongArrayTag</summary>
+
+```diff
++ TagType getType()
++ void <clinit>()
+- void <init>()
+- void load(DataInput,int,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.Tag</summary>
+
+```diff
+- String getTagTypeName(int)
+- Tag newTag(byte)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.BlockDestructionProgress</summary>
+
+```diff
++ boolean equals(Object)
++ int compareTo(BlockDestructionProgress)
++ int compareTo(Object)
++ int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float fastInvSqrt(float)
++ float rotlerp(float,float,float)
++ float rotWrap(double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ int getTeamColor()
++ void setPosAndOldPos(double,double,double)
+```
+
+</details>

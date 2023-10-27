@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.19-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2022-05-18T13:51:54+00:00</td></tr>
@@ -10,2643 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a165b38df827030571e6e37b4a6c78ab3bef26e0/server.txt">https://piston-data.mojang.com/v1/objects/a165b38df827030571e6e37b4a6c78ab3bef26e0/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/044bbfdb7e166590395e632cccf6d3728363472f/client.jar">https://piston-data.mojang.com/v1/objects/044bbfdb7e166590395e632cccf6d3728363472f/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/2dfc7fd4e5a4c7e3a23639689783f24806bfe9da/client.txt">https://piston-data.mojang.com/v1/objects/2dfc7fd4e5a4c7e3a23639689783f24806bfe9da/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w19a">22w19a</a>
-## Registries
 
-<details><summary>cat_variant.txt</summary>
+# Mappings
 
-```diff
-- minecraft:british
-+ minecraft:british_shorthair
-```
+### Client
 
-</details>
 
-<details><summary>game_event.txt</summary>
 
-```diff
-+ minecraft:instrument_play
-```
 
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:is_panicking
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.frog.tounge
-+ minecraft:entity.frog.tongue
-```
-
-</details>
-
-## Tags
-
-<details><summary>cat_variant/default_spawns.json</summary>
-
-```diff
-- minecraft:british
-+ minecraft:british_shorthair
-```
-
-</details>
-
-<details><summary>game_events/ignore_vibrations_sneaking.json</summary>
-
-```diff
-+ minecraft:item_interact_start
-+ minecraft:item_interact_finish
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-+ minecraft:instrument_play
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-+ minecraft:instrument_play
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- io.netty:netty-transport-native-epoll:4.1.77.Final
-+ io.netty:netty-transport-native-epoll:4.1.77.Final:linux-aarch_64
-+ io.netty:netty-transport-native-epoll:4.1.77.Final:linux-x86_64
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-openal:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-stb:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-linux
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows
-+ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-x86
-+ org.lwjgl:lwjgl:3.3.1:natives-linux
-+ org.lwjgl:lwjgl:3.3.1:natives-macos
-+ org.lwjgl:lwjgl:3.3.1:natives-macos-arm64
-+ org.lwjgl:lwjgl:3.3.1:natives-windows
-+ org.lwjgl:lwjgl:3.3.1:natives-windows-x86
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$1</summary>
-
-```diff
-+ void lambda$run$2(RealmsServiceException)
-- void lambda$run$2()
-- void lambda$run$3(RealmsServiceException)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ ToIntFunction createIndexLookup(IntFunction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ SignatureValidator serviceSignatureValidator
-+ YggdrasilAuthenticationService authenticationService
-+ IntegratedServer lambda$doWorldLoad$37(Thread)
-+ SignatureValidator getServiceSignatureValidator()
-- IntegratedServer lambda$doWorldLoad$37(Thread)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.MessageArgument$Message</summary>
-
-```diff
-+ CompletableFuture resolveComponent(CommandSourceStack)
-+ Component resolvePlainChat(CommandSourceStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.MessageSignature</summary>
-
-```diff
-+ boolean verify(Component)
-+ boolean verify(String)
-+ void lambda$verify$0(SignatureUpdater$Output)
-+ void updateSignature(Instant,long)
-- boolean verify(Component)
-- boolean verify(String)
-- void updateSignature(Instant,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-- ChatDecorator chatDecorator
-+ void <init>(ChunkProgressListenerFactory)
-- ChatDecorator getChatDecorator()
-- void <init>(ChunkProgressListenerFactory)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServerProperties</summary>
-
-```diff
-- boolean testRainbowChat
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ PlayerChatMessage lambda$broadcastChatMessage$4(ServerPlayer)
-+ void broadcastChatMessage(ResourceKey)
-+ void broadcastChatMessage(ResourceKey)
-- PlayerChatMessage getFilteredMessage(TextFilter$FilteredText)
-- PlayerChatMessage lambda$broadcastChatMessage$4(ServerPlayer)
-- void broadcastChatMessage(ResourceKey)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.OminousBannerRenameFix</summary>
-
-```diff
-+ boolean lambda$new$0(String)
-+ Dynamic fixItemStackTag(Dynamic)
-+ void <init>(Schema)
-- Dynamic fixTag(Dynamic)
-- Typed lambda$makeRule$0(Typed)
-- TypeRewriteRule makeRule()
-- void <init>(Schema,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AnimationState</summary>
-
-```diff
-- long STARTED
-+ void start(int)
-+ void startIfStopped(int)
-- void start()
-- void startIfStopped()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean wasKilled(LivingEntity)
-- void killed(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean doesEmitEquipEvent(EquipmentSlot)
-+ void onEquipItem(ItemStack)
-+ void playEquipSound(ItemStack)
-- void equipEventAndSound(ItemStack,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AnimalPanic</summary>
-
-```diff
-+ void stop(LivingEntity,long)
-+ void stop(PathfinderMob,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.CatVariant</summary>
-
-```diff
-+ CatVariant BRITISH_SHORTHAIR
-- CatVariant BRITISH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-+ void onSignalReceive(Entity,float)
-- void onSignalReceive(Entity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.Tadpole</summary>
-
-```diff
-+ boolean shouldDropExperience()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ boolean wasKilled(LivingEntity)
-- void killed(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.ProfilePublicKey</summary>
-
-```diff
-- String PROFILE_PROPERTY_KEY
-+ ProfilePublicKey createValidated(ProfilePublicKey$Data)
-+ SignatureValidator createSignatureValidator()
-- ProfilePublicKey createValidated(ProfilePublicKey$Data)
-- Signature verifySignature()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
-
-```diff
-+ Player val$owner
-+ void <init>(EquipmentSlot)
-+ void set(ItemStack)
-- void <init>(EquipmentSlot)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome$ClimateSettings</summary>
-
-```diff
-+ Biome$Precipitation precipitation()
-+ Biome$TemperatureModifier temperatureModifier()
-+ boolean equals(Object)
-+ float downfall()
-+ float temperature()
-+ int hashCode()
-+ String toString()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-- Supplier featuresPerStep
-- boolean lambda$buildFeaturesPerStep$3(BiomeSource$1FeatureData)
-- int lambda$buildFeaturesPerStep$1(Object)
-- List buildFeaturesPerStep(List,boolean)
-- List featuresPerStep()
-- List lambda$new$0(List)
-- Set lambda$buildFeaturesPerStep$2(BiomeSource$1FeatureData)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
-
-```diff
-+ int getRedstoneStrengthForDistance(float,int)
-+ void onSignalReceive(Entity,float)
-+ void setLastVibrationFrequency(int)
-- int getRedstoneStrengthForDistance(int,int)
-- void onSignalReceive(Entity,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ void setup(Executor)
-- void setup(Executor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
-
-```diff
-+ BiomeGenerationSettings carverBiomeSettings
-- Holder carverBiome
-+ BiomeGenerationSettings carverBiome(Supplier)
-- Holder carverBiome(Supplier)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ Function generationSettingsGetter
-+ Supplier featuresPerStep
-- BiomeSource runtimeBiomeSource
-+ BiomeGenerationSettings getBiomeGenerationSettings(Holder)
-+ BiomeGenerationSettings lambda$new$1(Holder)
-+ boolean lambda$getMobsAt$15(StructureStart)
-+ boolean lambda$getMobsAt$16(StructureStart)
-+ ChunkAccess lambda$createBiomes$7(RandomState)
-+ Integer lambda$applyBiomeDecoration$9(Structure)
-+ List lambda$generatePositions$4(Structure)
-+ List lambda$generateRingPositions$6(Holder)
-+ List lambda$new$2(Holder)
-+ List lambda$new$3(Function)
-+ Set lambda$findNearestMapStructure$8(StructurePlacement)
-+ String lambda$applyBiomeDecoration$11(Structure)
-+ String lambda$applyBiomeDecoration$14(PlacedFeature)
-+ String lambda$createReferences$19(Registry)
-+ String lambda$createReferences$20(StructureStart)
-+ String lambda$createReferences$22(StructureStart)
-+ void <init>(Function)
-+ void lambda$applyBiomeDecoration$10(ChunkPos)
-+ void lambda$applyBiomeDecoration$12(StructureStart)
-+ void lambda$applyBiomeDecoration$13(PlacedFeature)
-+ void lambda$createStructures$18(Holder)
-+ void lambda$generatePositions$5(Holder)
-+ void lambda$getMobsAt$17(StructureStart)
-- boolean lambda$getMobsAt$13(StructureStart)
-- boolean lambda$getMobsAt$14(StructureStart)
-- boolean lambda$tryGenerateStructure$17(Holder)
-- ChunkAccess lambda$createBiomes$4(RandomState)
-- Holder adjustBiome(Holder)
-- Integer lambda$applyBiomeDecoration$6(Structure)
-- List lambda$generatePositions$1(Structure)
-- List lambda$generateRingPositions$3(Holder)
-- Set lambda$findNearestMapStructure$5(StructurePlacement)
-- String lambda$applyBiomeDecoration$12(PlacedFeature)
-- String lambda$applyBiomeDecoration$9(Structure)
-- String lambda$createReferences$18(Registry)
-- String lambda$createReferences$19(StructureStart)
-- String lambda$createReferences$20(StructureStart)
-- void <init>(BiomeSource)
-- void lambda$applyBiomeDecoration$10(StructureStart)
-- void lambda$applyBiomeDecoration$11(PlacedFeature)
-- void lambda$applyBiomeDecoration$7(Holder)
-- void lambda$applyBiomeDecoration$8(ChunkPos)
-- void lambda$createStructures$16(Holder)
-- void lambda$generatePositions$2(Holder)
-- void lambda$getMobsAt$15(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
-
-```diff
-+ float receivingDistance
-- int receivingDistance
-+ Float lambda$codec$3(VibrationListener)
-+ VibrationListener lambda$codec$5(Integer)
-+ void <init>(VibrationListener$ReceivingEvent,float,int)
-- Integer lambda$codec$3(VibrationListener)
-- VibrationListener lambda$codec$5(Integer)
-- void <init>(VibrationListener$ReceivingEvent,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener$VibrationListenerConfig</summary>
-
-```diff
-+ void onSignalReceive(net.minecraft.server.level.ServerLevel,net.minecraft.world.level.gameevent.GameEventListener,net.minecraft.core.BlockPos,net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.entity.Entity,net.minecraft.world.entity.Entity,float)
-- void onSignalReceive(net.minecraft.server.level.ServerLevel,net.minecraft.world.level.gameevent.GameEventListener,net.minecraft.core.BlockPos,net.minecraft.world.level.gameevent.GameEvent,net.minecraft.world.entity.Entity,net.minecraft.world.entity.Entity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-- Holder adjustBiome(Holder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.chat.ChatPreviewRequests
@@ -4989,763 +2374,342 @@
 </details>
 
 
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$1</summary>
 
+```diff
+- void lambda$run$2()
++ void lambda$run$2(RealmsServiceException)
+- void lambda$run$3(RealmsServiceException)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.Util</summary>
 
 ```diff
-+ ToIntFunction createIndexLookup(IntFunction)
++ ToIntFunction createIndexLookup(List,IntFunction)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ boolean lambda$createValidator$6(String)
-+ boolean lambda$fillUsableCommands$4(SharedSuggestionProvider)
-+ boolean lambda$validate$8(ArgumentType)
-+ int lambda$fillUsableCommands$5(CommandContext)
-+ int performPrefixedCommand(String)
-+ String lambda$performCommand$1(String)
-+ String lambda$validate$9(ArgumentType)
-+ Style lambda$performCommand$2(Style)
-+ Style lambda$performCommand$3(Style)
-+ void lambda$validate$7(Collection)
-- boolean lambda$createValidator$5(String)
-- boolean lambda$fillUsableCommands$3(SharedSuggestionProvider)
-- boolean lambda$validate$7(ArgumentType)
-- int lambda$fillUsableCommands$4(CommandContext)
-- String lambda$validate$8(ArgumentType)
-- Style lambda$performCommand$1(Style)
-- Style lambda$performCommand$2(Style)
-- void lambda$validate$6(Collection)
+- IntegratedServer lambda$doWorldLoad$37(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,MinecraftSessionService,GameProfileRepository,GameProfileCache,Thread)
++ IntegratedServer lambda$doWorldLoad$37(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ SignatureValidator getServiceSignatureValidator()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.commands.arguments.ArgumentSignatures</summary>
+<details><summary>net.minecraft.commands.arguments.MessageArgument$Message</summary>
 
 ```diff
-+ int MAX_ARGUMENT_COUNT
++ CompletableFuture resolveComponent(CommandSourceStack)
++ Component resolvePlainChat(CommandSourceStack)
 ```
 
 </details>
 
-<details><summary>net.minecraft.commands.arguments.ComponentArgument</summary>
+
+<details><summary>net.minecraft.network.chat.MessageSignature</summary>
 
 ```diff
-- Component getPlainSignableComponent(Component)
-- Component getPlainSignableComponent(Object)
+- boolean verify(Signature,Component)
+- boolean verify(Signature,String)
++ boolean verify(SignatureValidator,Component)
++ boolean verify(SignatureValidator,String)
++ void lambda$verify$0(Component,SignatureUpdater$Output)
+- void updateSignature(Signature,Component,UUID,Instant,long)
++ void updateSignature(SignatureUpdater$Output,Component,UUID,Instant,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
+<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
 
 ```diff
-+ DataResult getOrCreateHolder(ResourceKey)
-+ Holder getOrCreateHolderOrThrow(ResourceKey)
-+ Holder$Reference lambda$getOrCreateHolderOrThrow$2(ResourceKey)
-- Holder getOrCreateHolder(ResourceKey)
-- Holder$Reference lambda$getOrCreateHolder$2(ResourceKey)
+- ChatDecorator getChatDecorator()
+- void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,DedicatedServerSettings,DataFixer,MinecraftSessionService,GameProfileRepository,GameProfileCache,ChunkProgressListenerFactory)
++ void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,DedicatedServerSettings,DataFixer,Services,ChunkProgressListenerFactory)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
+<details><summary>net.minecraft.server.players.PlayerList</summary>
 
 ```diff
-+ Path convertStructure(Path)
-+ void lambda$run$1(Path)
-+ void writeSnbt(String)
-- Path convertStructure(Path)
-- void lambda$run$1(Path)
-- void writeSnbt(String)
+- PlayerChatMessage getFilteredMessage(ServerPlayer,PlayerChatMessage,TextFilter$FilteredText)
++ PlayerChatMessage lambda$broadcastChatMessage$4(FilteredText,ServerPlayer,ServerPlayer)
+- PlayerChatMessage lambda$broadcastChatMessage$4(ServerPlayer,PlayerChatMessage,PlayerChatMessage,ServerPlayer)
++ void broadcastChatMessage(FilteredText,CommandSourceStack,ResourceKey)
++ void broadcastChatMessage(FilteredText,ServerPlayer,ResourceKey)
+- void broadcastChatMessage(PlayerChatMessage,TextFilter$FilteredText,ServerPlayer,ResourceKey)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ Services NO_SERVICES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
-
-```diff
-+ CompletableFuture decorate(net.minecraft.server.level.ServerPlayer,net.minecraft.network.chat.Component)
-- Component decorate(net.minecraft.server.level.ServerPlayer,net.minecraft.network.chat.Component)
-+ CompletableFuture decorateChat(MessageSignature,boolean)
-+ CompletableFuture decorateFiltered(FilteredText)
-+ CompletableFuture lambda$static$0(Component)
-+ FilteredText lambda$decorateChat$2(FilteredText)
-+ FilteredText lambda$decorateFiltered$1(Void)
-- ChatDecorator testRainbowChat()
-- Component lambda$static$0(Component)
-- Component lambda$testRainbowChat$1(Component)
-- PlayerChatMessage decorate(MessageSignature,boolean)
-- PlayerChatMessage decorate(PlayerChatMessage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
-
-```diff
-+ Instant getTimeStamp()
-- boolean hasExpired(Instant)
-- Instant getExpiresAt()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
-
-```diff
-+ Boolean lambda$isChallengeSignatureValid$2(Crypt$SaltSignaturePair)
-+ void lambda$isChallengeSignatureValid$1(SignatureUpdater$Output)
-- Boolean lambda$isChallengeSignatureValid$1(Crypt$SaltSignaturePair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryFixedCodec</summary>
-
-```diff
-+ DataResult lambda$decode$3(Pair)
-+ Pair lambda$decode$2(Holder)
-- Holder lambda$decode$2(ResourceLocation)
-- Pair lambda$decode$3(Pair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.DataFixers</summary>
-
-```diff
-+ String lambda$addFixers$6(String)
-+ String lambda$createRenamer$7(String)
-+ String lambda$createRenamer$8(String)
-- String lambda$createRenamer$6(String)
-- String lambda$createRenamer$7(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.GoatHornIdFix</summary>
+<details><summary>net.minecraft.util.datafix.fixes.OminousBannerRenameFix</summary>
 
 ```diff
 + boolean lambda$new$0(String)
 + Dynamic fixItemStackTag(Dynamic)
-- Dynamic lambda$makeRule$0(Dynamic)
-- Typed lambda$makeRule$1(Typed)
-- Typed lambda$makeRule$2(Typed)
+- Dynamic fixTag(Dynamic)
+- Typed lambda$makeRule$0(OpticFinder,OpticFinder,Typed)
 - TypeRewriteRule makeRule()
+- void <init>(Schema,boolean)
++ void <init>(Schema)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.entity.AnimationState</summary>
+
+```diff
+- void start()
++ void start(int)
+- void startIfStopped()
++ void startIfStopped(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean wasKilled(ServerLevel,LivingEntity)
+- void killed(ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean doesEmitEquipEvent(EquipmentSlot)
+- void equipEventAndSound(ItemStack,boolean)
++ void onEquipItem(EquipmentSlot,ItemStack)
++ void playEquipSound(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.AnimalPanic</summary>
+
+```diff
++ void stop(ServerLevel,LivingEntity,long)
++ void stop(ServerLevel,PathfinderMob,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
+
+```diff
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,float)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.frog.Tadpole</summary>
+
+```diff
++ boolean shouldDropExperience()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
+
+```diff
++ boolean wasKilled(ServerLevel,LivingEntity)
+- void killed(ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.ProfilePublicKey</summary>
+
+```diff
+- ProfilePublicKey createValidated(MinecraftSessionService,ProfilePublicKey$Data)
++ ProfilePublicKey createValidated(SignatureValidator,ProfilePublicKey$Data)
+- Signature verifySignature()
++ SignatureValidator createSignatureValidator()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
+
+```diff
+- void <init>(InventoryMenu,Container,int,int,int,EquipmentSlot)
++ void <init>(InventoryMenu,Container,int,int,int,Player,EquipmentSlot)
++ void set(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome$ClimateSettings</summary>
+
+```diff
++ Biome$Precipitation precipitation()
++ Biome$TemperatureModifier temperatureModifier()
++ boolean equals(Object)
++ float downfall()
++ float temperature()
++ int hashCode()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
+
+```diff
+- boolean lambda$buildFeaturesPerStep$3(int,BiomeSource$1FeatureData)
+- int lambda$buildFeaturesPerStep$1(MutableInt,Object)
+- List buildFeaturesPerStep(List,boolean)
+- List featuresPerStep()
+- List lambda$new$0(List)
+- Set lambda$buildFeaturesPerStep$2(Comparator,BiomeSource$1FeatureData)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+
+```diff
++ int getRedstoneStrengthForDistance(float,int)
+- int getRedstoneStrengthForDistance(int,int)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,float)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
++ void setLastVibrationFrequency(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
+- void setup(GameProfileCache,MinecraftSessionService,Executor)
++ void setup(Services,Executor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
++ BiomeGenerationSettings carverBiome(Supplier)
+- Holder carverBiome(Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
++ BiomeGenerationSettings getBiomeGenerationSettings(Holder)
++ BiomeGenerationSettings lambda$new$1(Holder)
+- boolean lambda$getMobsAt$13(StructureManager,BlockPos,StructureStart)
+- boolean lambda$getMobsAt$14(BlockPos,StructureStart)
++ boolean lambda$getMobsAt$15(StructureManager,BlockPos,StructureStart)
++ boolean lambda$getMobsAt$16(BlockPos,StructureStart)
+- boolean lambda$tryGenerateStructure$17(HolderSet,Holder)
+- ChunkAccess lambda$createBiomes$4(ChunkAccess,RandomState)
++ ChunkAccess lambda$createBiomes$7(ChunkAccess,RandomState)
+- Holder adjustBiome(Holder)
+- Integer lambda$applyBiomeDecoration$6(Structure)
++ Integer lambda$applyBiomeDecoration$9(Structure)
+- List lambda$generatePositions$1(Structure)
++ List lambda$generatePositions$4(Structure)
+- List lambda$generateRingPositions$3(ConcentricRingsStructurePlacement,RandomState,Holder)
++ List lambda$generateRingPositions$6(ConcentricRingsStructurePlacement,RandomState,Holder)
++ List lambda$new$2(Function,Holder)
++ List lambda$new$3(BiomeSource,Function)
+- Set lambda$findNearestMapStructure$5(StructurePlacement)
++ Set lambda$findNearestMapStructure$8(StructurePlacement)
++ String lambda$applyBiomeDecoration$11(Registry,Structure)
+- String lambda$applyBiomeDecoration$12(Registry,PlacedFeature)
++ String lambda$applyBiomeDecoration$14(Registry,PlacedFeature)
+- String lambda$applyBiomeDecoration$9(Registry,Structure)
+- String lambda$createReferences$18(StructureStart,Registry)
+- String lambda$createReferences$19(Optional,StructureStart)
++ String lambda$createReferences$19(StructureStart,Registry)
++ String lambda$createReferences$20(Optional,StructureStart)
+- String lambda$createReferences$20(StructureStart)
++ String lambda$createReferences$22(StructureStart)
+- void <init>(Registry,Optional,BiomeSource,BiomeSource)
++ void <init>(Registry,Optional,BiomeSource,Function)
++ void lambda$applyBiomeDecoration$10(WorldGenLevel,Set,ChunkPos)
+- void lambda$applyBiomeDecoration$10(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
+- void lambda$applyBiomeDecoration$11(IntSet,BiomeSource$StepFeatureData,PlacedFeature)
++ void lambda$applyBiomeDecoration$12(WorldGenLevel,StructureManager,WorldgenRandom,ChunkAccess,ChunkPos,StructureStart)
++ void lambda$applyBiomeDecoration$13(IntSet,FeatureSorter$StepFeatureData,PlacedFeature)
+- void lambda$applyBiomeDecoration$7(Set,Holder)
+- void lambda$applyBiomeDecoration$8(WorldGenLevel,Set,ChunkPos)
+- void lambda$createStructures$16(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
++ void lambda$createStructures$18(StructureManager,SectionPos,ChunkAccess,RandomState,long,ChunkPos,RegistryAccess,StructureTemplateManager,Holder)
+- void lambda$generatePositions$2(Set,RandomState,Holder)
++ void lambda$generatePositions$5(Set,RandomState,Holder)
+- void lambda$getMobsAt$15(MutableBoolean,Predicate,StructureStart)
++ void lambda$getMobsAt$17(MutableBoolean,Predicate,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
+
+```diff
++ Float lambda$codec$3(VibrationListener)
+- Integer lambda$codec$3(VibrationListener)
++ VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,Float,Integer)
+- VibrationListener lambda$codec$5(VibrationListener$VibrationListenerConfig,PositionSource,Integer,Optional,Integer,Integer)
++ void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationListener$ReceivingEvent,float,int)
+- void <init>(PositionSource,int,VibrationListener$VibrationListenerConfig,VibrationListener$ReceivingEvent,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
+- Holder adjustBiome(Holder)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.MessageArgument$ChatMessage
@@ -9525,13 +6489,296 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ ToIntFunction createIndexLookup(List,IntFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
+- boolean lambda$createValidator$5(Commands$ParseFunction,String)
++ boolean lambda$createValidator$6(Commands$ParseFunction,String)
+- boolean lambda$fillUsableCommands$3(SharedSuggestionProvider)
++ boolean lambda$fillUsableCommands$4(SharedSuggestionProvider)
+- boolean lambda$validate$7(ArgumentType)
++ boolean lambda$validate$8(ArgumentType)
+- int lambda$fillUsableCommands$4(CommandContext)
++ int lambda$fillUsableCommands$5(CommandContext)
++ int performPrefixedCommand(CommandSourceStack,String)
++ String lambda$performCommand$1(String)
+- String lambda$validate$8(ArgumentType)
++ String lambda$validate$9(ArgumentType)
+- Style lambda$performCommand$1(String,Style)
+- Style lambda$performCommand$2(MutableComponent,Style)
++ Style lambda$performCommand$2(String,Style)
++ Style lambda$performCommand$3(MutableComponent,Style)
+- void lambda$validate$6(CommandDispatcher,CommandNode,CommandNode,CommandNode,Collection)
++ void lambda$validate$7(CommandDispatcher,CommandNode,CommandNode,CommandNode,Collection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ComponentArgument</summary>
+
+```diff
+- Component getPlainSignableComponent(Component)
+- Component getPlainSignableComponent(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
++ DataResult getOrCreateHolder(ResourceKey)
+- Holder getOrCreateHolder(ResourceKey)
++ Holder getOrCreateHolderOrThrow(ResourceKey)
+- Holder$Reference lambda$getOrCreateHolder$2(ResourceKey)
++ Holder$Reference lambda$getOrCreateHolderOrThrow$2(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.NbtToSnbt</summary>
+
+```diff
++ Path convertStructure(CachedOutput,Path,String,Path)
+- Path convertStructure(Path,String,Path)
++ void lambda$run$1(CachedOutput,Path,Path,Path)
+- void lambda$run$1(Path,Path,Path)
++ void writeSnbt(CachedOutput,Path,String)
+- void writeSnbt(Path,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ChatDecorator</summary>
+
+```diff
+- ChatDecorator testRainbowChat()
++ CompletableFuture decorateChat(ServerPlayer,FilteredText,MessageSignature,boolean)
++ CompletableFuture decorateFiltered(ServerPlayer,FilteredText)
++ CompletableFuture lambda$static$0(ServerPlayer,Component)
+- Component lambda$static$0(ServerPlayer,Component)
+- Component lambda$testRainbowChat$1(ServerPlayer,Component)
++ FilteredText lambda$decorateChat$2(FilteredText,MessageSignature,boolean,FilteredText)
++ FilteredText lambda$decorateFiltered$1(CompletableFuture,CompletableFuture,Void)
+- PlayerChatMessage decorate(ServerPlayer,Component,MessageSignature,boolean)
+- PlayerChatMessage decorate(ServerPlayer,PlayerChatMessage)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
+
+```diff
+- boolean hasExpired(Instant)
+- Instant getExpiresAt()
++ Instant getTimeStamp()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.login.ServerboundKeyPacket</summary>
+
+```diff
+- Boolean lambda$isChallengeSignatureValid$1(ProfilePublicKey,byte[],Crypt$SaltSignaturePair)
++ Boolean lambda$isChallengeSignatureValid$2(ProfilePublicKey,byte[],Crypt$SaltSignaturePair)
++ void lambda$isChallengeSignatureValid$1(byte[],Crypt$SaltSignaturePair,SignatureUpdater$Output)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.resources.RegistryFixedCodec</summary>
+
+```diff
++ DataResult lambda$decode$3(Optional,Pair)
+- Holder lambda$decode$2(Optional,ResourceLocation)
++ Pair lambda$decode$2(Pair,Holder)
+- Pair lambda$decode$3(Optional,Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.DataFixers</summary>
+
+```diff
++ String lambda$addFixers$6(Map,String)
+- String lambda$createRenamer$6(Map,String)
++ String lambda$createRenamer$7(Map,String)
+- String lambda$createRenamer$7(String,String,String)
++ String lambda$createRenamer$8(String,String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.GoatHornIdFix</summary>
+
+```diff
++ boolean lambda$new$0(String)
++ Dynamic fixItemStackTag(Dynamic)
+- Dynamic lambda$makeRule$0(Dynamic)
+- Typed lambda$makeRule$1(Typed)
+- Typed lambda$makeRule$2(OpticFinder,OpticFinder,Typed)
+- TypeRewriteRule makeRule()
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>cat_variant.txt</summary>
+
+```diff
+- minecraft:british
++ minecraft:british_shorthair
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:instrument_play
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:is_panicking
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.frog.tongue
+- minecraft:entity.frog.tounge
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>cat_variant/default_spawns.json</summary>
+
+```diff
+- minecraft:british
++ minecraft:british_shorthair
+```
+
+</details>
+
+
+<details><summary>game_events/ignore_vibrations_sneaking.json</summary>
+
+```diff
++ minecraft:item_interact_finish
++ minecraft:item_interact_start
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
++ minecraft:instrument_play
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
++ minecraft:instrument_play
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ options.onlyShowSecureChat
++ options.onlyShowSecureChat.tooltip
+- options.onlyShowSignedChat
+- options.onlyShowSignedChat.tooltip
++ subtitles.item.bucket.fill_tadpole
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- io.netty:netty-transport-native-epoll:4.1.77.Final
++ io.netty:netty-transport-native-epoll:4.1.77.Final:linux-aarch_64
++ io.netty:netty-transport-native-epoll:4.1.77.Final:linux-x86_64
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-linux
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-macos
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows
++ org.lwjgl:lwjgl-glfw:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-linux
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows
++ org.lwjgl:lwjgl-jemalloc:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-openal:3.3.1:natives-linux
++ org.lwjgl:lwjgl-openal:3.3.1:natives-macos
++ org.lwjgl:lwjgl-openal:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-openal:3.3.1:natives-windows
++ org.lwjgl:lwjgl-openal:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-linux
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-macos
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows
++ org.lwjgl:lwjgl-opengl:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-stb:3.3.1:natives-linux
++ org.lwjgl:lwjgl-stb:3.3.1:natives-macos
++ org.lwjgl:lwjgl-stb:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-stb:3.3.1:natives-windows
++ org.lwjgl:lwjgl-stb:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-linux
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows
++ org.lwjgl:lwjgl-tinyfd:3.3.1:natives-windows-x86
++ org.lwjgl:lwjgl:3.3.1:natives-linux
++ org.lwjgl:lwjgl:3.3.1:natives-macos
++ org.lwjgl:lwjgl:3.3.1:natives-macos-arm64
++ org.lwjgl:lwjgl:3.3.1:natives-windows
++ org.lwjgl:lwjgl:3.3.1:natives-windows-x86
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.16.2-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.16.2-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2020-07-29T13:19:05+00:00</td></tr>
@@ -10,2011 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/0407f48a292041e85131466cdac8158bc25f3061/server.txt">https://piston-data.mojang.com/v1/objects/0407f48a292041e85131466cdac8158bc25f3061/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/18caa7718c665b6d8597f7979bbdcb078ea117a0/client.jar">https://piston-data.mojang.com/v1/objects/18caa7718c665b6d8597f7979bbdcb078ea117a0/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6999dc55e6158404dc7988edde98ca19781156b5/client.txt">https://piston-data.mojang.com/v1/objects/6999dc55e6158404dc7988edde98ca19781156b5/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w30a">20w30a</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
-+  minecraft/textures/misc/nausea.png
-```
+### Client
 
-</details>
 
-## Misc
 
-<details><summary>textures.txt</summary>
 
-```diff
-+ misc/nausea.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
-
-```diff
-- AbstractWidget narratorButton
-- void init()
-- void lambda$init$0(Button)
-- void render(PoseStack,int,int,float)
-- void updateNarratorButton()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
-
-```diff
-- AbstractWidget narratorButton
-- void init()
-- void lambda$init$0(Button)
-- void render(PoseStack,int,int,float)
-- void updateNarratorButton()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
-
-```diff
-+ List tooltipAt(OptionsList,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-- boolean containsId(int)
-- boolean persistent(net.minecraft.resources.ResourceKey)
-+ boolean containsId(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryData</summary>
-
-```diff
-+ Codec codec
-+ Codec networkCodec
-- boolean sendToClient
-- MapCodec codec
-+ Codec codec()
-+ Codec networkCodec()
-+ void <init>(Codec)
-- MapCodec codec()
-- void <init>(MapCodec,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
-
-```diff
-+ StructureProcessorList lambda$static$4()
-- ImmutableList lambda$static$4()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ void createAxisAlignedPillarBlockCustomModel(ResourceLocation)
-+ void createRotatableColumn(Block)
-- void createEndRod()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
-
-```diff
-+ void addAncientDebris(BiomeGenerationSettings$Builder)
-+ void addBadlandExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addBadlandGrass(BiomeGenerationSettings$Builder)
-+ void addBadlandsTrees(BiomeGenerationSettings$Builder)
-+ void addBambooVegetation(BiomeGenerationSettings$Builder)
-+ void addBerryBushes(BiomeGenerationSettings$Builder)
-+ void addBirchTrees(BiomeGenerationSettings$Builder)
-+ void addBlueIce(BiomeGenerationSettings$Builder)
-+ void addColdOceanExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addDefaultCarvers(BiomeGenerationSettings$Builder)
-+ void addDefaultExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addDefaultFlowers(BiomeGenerationSettings$Builder)
-+ void addDefaultGrass(BiomeGenerationSettings$Builder)
-+ void addDefaultLakes(BiomeGenerationSettings$Builder)
-+ void addDefaultMonsterRoom(BiomeGenerationSettings$Builder)
-+ void addDefaultMushrooms(BiomeGenerationSettings$Builder)
-+ void addDefaultOres(BiomeGenerationSettings$Builder)
-+ void addDefaultOverworldLandMesaStructures(BiomeGenerationSettings$Builder)
-+ void addDefaultOverworldLandStructures(BiomeGenerationSettings$Builder)
-+ void addDefaultOverworldOceanStructures(BiomeGenerationSettings$Builder)
-+ void addDefaultSeagrass(BiomeGenerationSettings$Builder)
-+ void addDefaultSoftDisks(BiomeGenerationSettings$Builder)
-+ void addDefaultSprings(BiomeGenerationSettings$Builder)
-+ void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder)
-+ void addDesertExtraDecoration(BiomeGenerationSettings$Builder)
-+ void addDesertExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addDesertLakes(BiomeGenerationSettings$Builder)
-+ void addDesertVegetation(BiomeGenerationSettings$Builder)
-+ void addExtraEmeralds(BiomeGenerationSettings$Builder)
-+ void addExtraGold(BiomeGenerationSettings$Builder)
-+ void addFerns(BiomeGenerationSettings$Builder)
-+ void addForestFlowers(BiomeGenerationSettings$Builder)
-+ void addForestGrass(BiomeGenerationSettings$Builder)
-+ void addFossilDecoration(BiomeGenerationSettings$Builder)
-+ void addGiantTaigaVegetation(BiomeGenerationSettings$Builder)
-+ void addIcebergs(BiomeGenerationSettings$Builder)
-+ void addInfestedStone(BiomeGenerationSettings$Builder)
-+ void addJungleEdgeTrees(BiomeGenerationSettings$Builder)
-+ void addJungleExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addJungleGrass(BiomeGenerationSettings$Builder)
-+ void addJungleTrees(BiomeGenerationSettings$Builder)
-+ void addLightBambooVegetation(BiomeGenerationSettings$Builder)
-+ void addLukeWarmKelp(BiomeGenerationSettings$Builder)
-+ void addMossyStoneBlock(BiomeGenerationSettings$Builder)
-+ void addMountainEdgeTrees(BiomeGenerationSettings$Builder)
-+ void addMountainTrees(BiomeGenerationSettings$Builder)
-+ void addMushroomFieldVegetation(BiomeGenerationSettings$Builder)
-+ void addNetherDefaultOres(BiomeGenerationSettings$Builder)
-+ void addOceanCarvers(BiomeGenerationSettings$Builder)
-+ void addOtherBirchTrees(BiomeGenerationSettings$Builder)
-+ void addPlainGrass(BiomeGenerationSettings$Builder)
-+ void addPlainVegetation(BiomeGenerationSettings$Builder)
-+ void addSavannaExtraGrass(BiomeGenerationSettings$Builder)
-+ void addSavannaGrass(BiomeGenerationSettings$Builder)
-+ void addSavannaTrees(BiomeGenerationSettings$Builder)
-+ void addShatteredSavannaGrass(BiomeGenerationSettings$Builder)
-+ void addShatteredSavannaTrees(BiomeGenerationSettings$Builder)
-+ void addSnowyTrees(BiomeGenerationSettings$Builder)
-+ void addSparseBerryBushes(BiomeGenerationSettings$Builder)
-+ void addSurfaceFreezing(BiomeGenerationSettings$Builder)
-+ void addSwampClayDisk(BiomeGenerationSettings$Builder)
-+ void addSwampExtraVegetation(BiomeGenerationSettings$Builder)
-+ void addSwampVegetation(BiomeGenerationSettings$Builder)
-+ void addTaigaGrass(BiomeGenerationSettings$Builder)
-+ void addTaigaTrees(BiomeGenerationSettings$Builder)
-+ void addTallBirchTrees(BiomeGenerationSettings$Builder)
-+ void addWarmFlowers(BiomeGenerationSettings$Builder)
-+ void addWaterTrees(BiomeGenerationSettings$Builder)
-+ void ambientSpawns(MobSpawnSettings$Builder)
-+ void baseJungleSpawns(MobSpawnSettings$Builder)
-+ void commonSpawns(MobSpawnSettings$Builder)
-+ void desertSpawns(MobSpawnSettings$Builder)
-+ void endSpawns(MobSpawnSettings$Builder)
-+ void farmAnimals(MobSpawnSettings$Builder)
-+ void monsters(MobSpawnSettings$Builder,int,int,int)
-+ void mooshroomSpawns(MobSpawnSettings$Builder)
-+ void oceanSpawns(MobSpawnSettings$Builder,int,int,int)
-+ void plainsSpawns(MobSpawnSettings$Builder)
-+ void snowySpawns(MobSpawnSettings$Builder)
-+ void warmOceanSpawns(MobSpawnSettings$Builder,int,int)
-- void addAncientDebris(Biome)
-- void addBadlandExtraVegetation(Biome)
-- void addBadlandGrass(Biome)
-- void addBadlandsTrees(Biome)
-- void addBambooVegetation(Biome)
-- void addBerryBushes(Biome)
-- void addBirchTrees(Biome)
-- void addBlueIce(Biome)
-- void addColdOceanExtraVegetation(Biome)
-- void addDefaultCarvers(Biome)
-- void addDefaultExtraVegetation(Biome)
-- void addDefaultFlowers(Biome)
-- void addDefaultGrass(Biome)
-- void addDefaultLakes(Biome)
-- void addDefaultMonsterRoom(Biome)
-- void addDefaultMushrooms(Biome)
-- void addDefaultOres(Biome)
-- void addDefaultOverworldLandMesaStructures(Biome)
-- void addDefaultOverworldLandStructures(Biome)
-- void addDefaultOverworldOceanStructures(Biome)
-- void addDefaultSeagrass(Biome)
-- void addDefaultSoftDisks(Biome)
-- void addDefaultSprings(Biome)
-- void addDefaultUndergroundVariety(Biome)
-- void addDesertExtraDecoration(Biome)
-- void addDesertExtraVegetation(Biome)
-- void addDesertLakes(Biome)
-- void addDesertVegetation(Biome)
-- void addExtraEmeralds(Biome)
-- void addExtraGold(Biome)
-- void addFerns(Biome)
-- void addForestFlowers(Biome)
-- void addForestGrass(Biome)
-- void addFossilDecoration(Biome)
-- void addGiantTaigaVegetation(Biome)
-- void addIcebergs(Biome)
-- void addInfestedStone(Biome)
-- void addJungleEdgeTrees(Biome)
-- void addJungleExtraVegetation(Biome)
-- void addJungleGrass(Biome)
-- void addJungleTrees(Biome)
-- void addLightBambooVegetation(Biome)
-- void addLukeWarmKelp(Biome)
-- void addMossyStoneBlock(Biome)
-- void addMountainEdgeTrees(Biome)
-- void addMountainTrees(Biome)
-- void addMushroomFieldVegetation(Biome)
-- void addNetherDefaultOres(Biome)
-- void addOceanCarvers(Biome)
-- void addOtherBirchTrees(Biome)
-- void addPlainGrass(Biome)
-- void addPlainVegetation(Biome)
-- void addSavannaExtraGrass(Biome)
-- void addSavannaGrass(Biome)
-- void addSavannaTrees(Biome)
-- void addShatteredSavannaGrass(Biome)
-- void addShatteredSavannaTrees(Biome)
-- void addSnowyTrees(Biome)
-- void addSparseBerryBushes(Biome)
-- void addSurfaceFreezing(Biome)
-- void addSwampClayDisk(Biome)
-- void addSwampExtraVegetation(Biome)
-- void addSwampVegetation(Biome)
-- void addTaigaGrass(Biome)
-- void addTaigaTrees(Biome)
-- void addTallBirchTrees(Biome)
-- void addWarmFlowers(Biome)
-- void addWaterTrees(Biome)
-- void ambientSpawns(Biome)
-- void baseJungleSpawns(Biome)
-- void commonSpawns(Biome)
-- void desertSpawns(Biome)
-- void endSpawns(Biome)
-- void farmAnimals(Biome)
-- void monsters(Biome,int,int,int)
-- void mooshroomSpawns(Biome)
-- void oceanSpawns(Biome,int,int,int)
-- void plainsSpawns(Biome)
-- void snowySpawns(Biome)
-- void warmOceanSpawns(Biome,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
-
-```diff
-+ StructureProcessorList BASTION_GENERIC_DEGRADATION
-+ StructureProcessorList BOTTOM_RAMPART
-+ StructureProcessorList BRIDGE
-+ StructureProcessorList EMPTY
-+ StructureProcessorList ENTRANCE_REPLACEMENT
-+ StructureProcessorList FARM_DESERT
-+ StructureProcessorList FARM_PLAINS
-+ StructureProcessorList FARM_SAVANNA
-+ StructureProcessorList FARM_SNOWY
-+ StructureProcessorList FARM_TAIGA
-+ StructureProcessorList HIGH_RAMPART
-+ StructureProcessorList HIGH_WALL
-+ StructureProcessorList HOUSING
-+ StructureProcessorList MOSSIFY_10_PERCENT
-+ StructureProcessorList MOSSIFY_20_PERCENT
-+ StructureProcessorList MOSSIFY_70_PERCENT
-+ StructureProcessorList OUTPOST_ROT
-+ StructureProcessorList RAMPART_DEGRADATION
-+ StructureProcessorList ROOF
-+ StructureProcessorList SIDE_WALL_DEGRADATION
-+ StructureProcessorList STABLE_DEGRADATION
-+ StructureProcessorList STREET_PLAINS
-+ StructureProcessorList STREET_SAVANNA
-+ StructureProcessorList STREET_SNOWY_OR_TAIGA
-+ StructureProcessorList TREASURE_ROOMS
-+ StructureProcessorList ZOMBIE_DESERT
-+ StructureProcessorList ZOMBIE_PLAINS
-+ StructureProcessorList ZOMBIE_SAVANNA
-+ StructureProcessorList ZOMBIE_SNOWY
-+ StructureProcessorList ZOMBIE_TAIGA
-- ImmutableList BASTION_GENERIC_DEGRADATION
-- ImmutableList BOTTOM_RAMPART
-- ImmutableList BRIDGE
-- ImmutableList ENTRANCE_REPLACEMENT
-- ImmutableList FARM_DESERT
-- ImmutableList FARM_PLAINS
-- ImmutableList FARM_SAVANNA
-- ImmutableList FARM_SNOWY
-- ImmutableList FARM_TAIGA
-- ImmutableList HIGH_RAMPART
-- ImmutableList HIGH_WALL
-- ImmutableList HOUSING
-- ImmutableList MOSSIFY_10_PERCENT
-- ImmutableList MOSSIFY_20_PERCENT
-- ImmutableList MOSSIFY_70_PERCENT
-- ImmutableList RAMPART_DEGRADATION
-- ImmutableList ROOF
-- ImmutableList SIDE_WALL_DEGRADATION
-- ImmutableList STABLE_DEGRADATION
-- ImmutableList STREET_PLAINS
-- ImmutableList STREET_SAVANNA
-- ImmutableList STREET_SNOWY_OR_TAIGA
-- ImmutableList TREASURE_ROOMS
-- ImmutableList ZOMBIE_DESERT
-- ImmutableList ZOMBIE_PLAINS
-- ImmutableList ZOMBIE_SAVANNA
-- ImmutableList ZOMBIE_SNOWY
-- ImmutableList ZOMBIE_TAIGA
-+ StructureProcessorList register(ImmutableList)
-- ImmutableList register(ImmutableList)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
-
-```diff
-+ Biome baseEndBiome(BiomeGenerationSettings$Builder)
-+ Biome baseForestBiome(MobSpawnSettings$Builder)
-+ Biome baseJungleBiome(MobSpawnSettings$Builder)
-+ Biome baseOceanBiome(BiomeGenerationSettings$Builder)
-+ Biome baseSavannaBiome(MobSpawnSettings$Builder)
-+ BiomeGenerationSettings$Builder baseOceanGeneration(ConfiguredSurfaceBuilder,boolean,boolean,boolean)
-+ MobSpawnSettings$Builder defaultSpawns()
-+ MobSpawnSettings$Builder savannaMobs()
-- Biome baseForestBiome(String,float,float,boolean)
-- Biome baseJungleBiome(String,float,float,float,boolean,boolean,boolean)
-- Biome baseOceanBiome(ConfiguredSurfaceBuilder,int,int,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.resources.RegistryFileCodec</summary>
-
-```diff
-+ Codec elementCodec
-- MapCodec elementCodec
-+ RegistryFileCodec create(Codec)
-+ void <init>(Codec)
-- RegistryFileCodec create(MapCodec)
-- void <init>(MapCodec)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.resources.RegistryWriteOps</summary>
-
-```diff
-+ DataResult encode(Codec)
-- DataResult encode(MapCodec)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.FallbackResourceManager</summary>
-
-```diff
-- Collection listResources(Predicate)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ResourceManager</summary>
-
-```diff
-- Collection listResources(net.minecraft.resources.ResourceLocation,java.util.function.Predicate)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
-
-```diff
-- Collection listResources(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromBlockMemory</summary>
-
-```diff
-+ boolean tooFar(GlobalPos)
-+ boolean wrongDimension(GlobalPos)
-- boolean tooFar(GlobalPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.DoorInteractGoal</summary>
-
-```diff
-- boolean hasGroundPathNavigation()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.MoveToBlockGoal</summary>
-
-```diff
-+ BlockPos getMoveToTarget()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestLivingEntitySensor</summary>
-
-```diff
-- TargetingConditions TARGETING
-- void <clinit>()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.Sensor</summary>
-
-```diff
-+ TargetingConditions TARGET_CONDITIONS
-+ TargetingConditions TARGET_CONDITIONS_IGNORE_INVISIBILITY_TESTING
-+ boolean isEntityTargetable(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonHeadBlock</summary>
-
-```diff
-+ VoxelShape[] SHAPES_LONG
-+ VoxelShape[] SHAPES_SHORT
-+ VoxelShape calculateShape(Direction,boolean)
-+ VoxelShape lambda$makeShapes$0(Direction)
-+ VoxelShape[] lambda$makeShapes$1(int)
-+ VoxelShape[] makeShapes(boolean)
-- VoxelShape getArmShape(BlockState)
-- VoxelShape getBaseShape(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ Codec DIRECT_CODEC
-- MapCodec DIRECT_CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredFeature</summary>
-
-```diff
-+ Codec DIRECT_CODEC
-- MapCodec DIRECT_CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
-
-```diff
-+ ConfiguredFeature lambda$null$9(ConfiguredFeature)
-+ FeaturePoolElement lambda$feature$10(StructureTemplatePool$Projection)
-+ Function legacy(StructureProcessorList)
-+ Function single(StructureProcessorList)
-+ LegacySinglePoolElement lambda$legacy$2(StructureTemplatePool$Projection)
-+ LegacySinglePoolElement lambda$legacy$4(StructureTemplatePool$Projection)
-+ ListPoolElement lambda$list$12(StructureTemplatePool$Projection)
-+ SinglePoolElement lambda$single$6(StructureTemplatePool$Projection)
-+ SinglePoolElement lambda$single$8(StructureTemplatePool$Projection)
-+ StructurePoolElement lambda$null$11(Function)
-+ StructureProcessorList lambda$null$1()
-+ StructureProcessorList lambda$null$3(StructureProcessorList)
-+ StructureProcessorList lambda$null$5()
-+ StructureProcessorList lambda$null$7(StructureProcessorList)
-- ConfiguredFeature lambda$null$7(ConfiguredFeature)
-- FeaturePoolElement lambda$feature$8(StructureTemplatePool$Projection)
-- Function legacy(ImmutableList)
-- Function single(ImmutableList)
-- ImmutableList lambda$null$2(ImmutableList)
-- ImmutableList lambda$null$5(ImmutableList)
-- LegacySinglePoolElement lambda$legacy$1(StructureTemplatePool$Projection)
-- LegacySinglePoolElement lambda$legacy$3(StructureTemplatePool$Projection)
-- ListPoolElement lambda$list$10(StructureTemplatePool$Projection)
-- SinglePoolElement lambda$single$4(StructureTemplatePool$Projection)
-- SinglePoolElement lambda$single$6(StructureTemplatePool$Projection)
-- StructurePoolElement lambda$null$9(Function)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructureTemplatePool</summary>
-
-```diff
-+ Codec DIRECT_CODEC
-- MapCodec DIRECT_CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.CameraType
@@ -4723,962 +2740,420 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+<details><summary>net.minecraft.client.gui.screens.AccessibilityOptionsScreen</summary>
 
 ```diff
-+ Vec3 getLeashOffset()
+- void init()
+- void lambda$init$0(Button)
+- void render(PoseStack,int,int,float)
+- void updateNarratorButton()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+<details><summary>net.minecraft.client.gui.screens.ChatOptionsScreen</summary>
 
 ```diff
-+ Vec3 getRopeHoldPosition(float)
+- void init()
+- void lambda$init$0(Button)
+- void render(PoseStack,int,int,float)
+- void updateNarratorButton()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ItemCombinerMenu</summary>
+<details><summary>net.minecraft.client.gui.screens.OptionsSubScreen</summary>
 
 ```diff
-+ ResultContainer resultSlots
-- Container resultSlots
++ List tooltipAt(OptionsList,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+<details><summary>net.minecraft.core.Registry</summary>
 
 ```diff
-+ boolean canTakeItemForPickAll(Slot)
++ boolean containsId(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
+<details><summary>net.minecraft.core.RegistryAccess$RegistryData</summary>
 
 ```diff
-+ boolean canSpawnMobAt(BlockPos)
-+ boolean isValidSpawnPostitionForType(BlockPos$MutableBlockPos,double)
-+ MobSpawnSettings$SpawnerData getRandomSpawnMobAt(BlockPos)
-- Biome$SpawnerData getRandomSpawnMobAt(BlockPos)
-- boolean canSpawnMobAt(BlockPos)
-- boolean isValidSpawnPostitionForType(BlockPos$MutableBlockPos,double)
++ Codec codec()
++ Codec networkCodec()
+- MapCodec codec()
++ void <init>(ResourceKey,Codec,Codec)
+- void <init>(ResourceKey,MapCodec,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.ConfiguredSurfaceBuilder</summary>
+<details><summary>net.minecraft.data.BuiltinRegistries</summary>
 
 ```diff
-+ Codec DIRECT_CODEC
-- MapCodec DIRECT_CODEC
+- ImmutableList lambda$static$4()
++ StructureProcessorList lambda$static$4()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.Node</summary>
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
 
 ```diff
-+ Node cloneAndMove(int,int,int)
-- Node cloneMove(int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
-
-```diff
-+ int nextNodeIndex
-- int index
-+ BlockPos getNextNodePos()
-+ BlockPos getNodePos(int)
-+ int getNextNodeIndex()
-+ int getNodeCount()
-+ Node getEndNode()
-+ Node getNextNode()
-+ Node getNode(int)
-+ Node getPreviousNode()
-+ Vec3 getEntityPosAtNode(Entity,int)
-+ Vec3 getNextEntityPos(Entity)
-+ void advance()
-+ void replaceNode(Node)
-+ void setNextNodeIndex(int)
-+ void truncateNodes(int)
-- int getIndex()
-- int getSize()
-- List getNodes()
-- Node currentNode()
-- Node get(int)
-- Node last()
-- Node previousNode()
-- String toDetailedString()
-- Vec3 currentPos(Entity)
-- Vec3 getPos(Entity,int)
-- Vec3i currentPos()
-- void next()
-- void set(Node)
-- void setIndex(int)
-- void truncate(int)
++ void createAxisAlignedPillarBlockCustomModel(Block,ResourceLocation)
+- void createEndRod()
++ void createRotatableColumn(Block)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
+- void addAncientDebris(Biome)
++ void addAncientDebris(BiomeGenerationSettings$Builder)
+- void addBadlandExtraVegetation(Biome)
++ void addBadlandExtraVegetation(BiomeGenerationSettings$Builder)
+- void addBadlandGrass(Biome)
++ void addBadlandGrass(BiomeGenerationSettings$Builder)
+- void addBadlandsTrees(Biome)
++ void addBadlandsTrees(BiomeGenerationSettings$Builder)
+- void addBambooVegetation(Biome)
++ void addBambooVegetation(BiomeGenerationSettings$Builder)
+- void addBerryBushes(Biome)
++ void addBerryBushes(BiomeGenerationSettings$Builder)
+- void addBirchTrees(Biome)
++ void addBirchTrees(BiomeGenerationSettings$Builder)
+- void addBlueIce(Biome)
++ void addBlueIce(BiomeGenerationSettings$Builder)
+- void addColdOceanExtraVegetation(Biome)
++ void addColdOceanExtraVegetation(BiomeGenerationSettings$Builder)
+- void addDefaultCarvers(Biome)
++ void addDefaultCarvers(BiomeGenerationSettings$Builder)
+- void addDefaultExtraVegetation(Biome)
++ void addDefaultExtraVegetation(BiomeGenerationSettings$Builder)
+- void addDefaultFlowers(Biome)
++ void addDefaultFlowers(BiomeGenerationSettings$Builder)
+- void addDefaultGrass(Biome)
++ void addDefaultGrass(BiomeGenerationSettings$Builder)
+- void addDefaultLakes(Biome)
++ void addDefaultLakes(BiomeGenerationSettings$Builder)
+- void addDefaultMonsterRoom(Biome)
++ void addDefaultMonsterRoom(BiomeGenerationSettings$Builder)
+- void addDefaultMushrooms(Biome)
++ void addDefaultMushrooms(BiomeGenerationSettings$Builder)
+- void addDefaultOres(Biome)
++ void addDefaultOres(BiomeGenerationSettings$Builder)
+- void addDefaultOverworldLandMesaStructures(Biome)
++ void addDefaultOverworldLandMesaStructures(BiomeGenerationSettings$Builder)
+- void addDefaultOverworldLandStructures(Biome)
++ void addDefaultOverworldLandStructures(BiomeGenerationSettings$Builder)
+- void addDefaultOverworldOceanStructures(Biome)
++ void addDefaultOverworldOceanStructures(BiomeGenerationSettings$Builder)
+- void addDefaultSeagrass(Biome)
++ void addDefaultSeagrass(BiomeGenerationSettings$Builder)
+- void addDefaultSoftDisks(Biome)
++ void addDefaultSoftDisks(BiomeGenerationSettings$Builder)
+- void addDefaultSprings(Biome)
++ void addDefaultSprings(BiomeGenerationSettings$Builder)
+- void addDefaultUndergroundVariety(Biome)
++ void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder)
+- void addDesertExtraDecoration(Biome)
++ void addDesertExtraDecoration(BiomeGenerationSettings$Builder)
+- void addDesertExtraVegetation(Biome)
++ void addDesertExtraVegetation(BiomeGenerationSettings$Builder)
+- void addDesertLakes(Biome)
++ void addDesertLakes(BiomeGenerationSettings$Builder)
+- void addDesertVegetation(Biome)
++ void addDesertVegetation(BiomeGenerationSettings$Builder)
+- void addExtraEmeralds(Biome)
++ void addExtraEmeralds(BiomeGenerationSettings$Builder)
+- void addExtraGold(Biome)
++ void addExtraGold(BiomeGenerationSettings$Builder)
+- void addFerns(Biome)
++ void addFerns(BiomeGenerationSettings$Builder)
+- void addForestFlowers(Biome)
++ void addForestFlowers(BiomeGenerationSettings$Builder)
+- void addForestGrass(Biome)
++ void addForestGrass(BiomeGenerationSettings$Builder)
+- void addFossilDecoration(Biome)
++ void addFossilDecoration(BiomeGenerationSettings$Builder)
+- void addGiantTaigaVegetation(Biome)
++ void addGiantTaigaVegetation(BiomeGenerationSettings$Builder)
+- void addIcebergs(Biome)
++ void addIcebergs(BiomeGenerationSettings$Builder)
+- void addInfestedStone(Biome)
++ void addInfestedStone(BiomeGenerationSettings$Builder)
+- void addJungleEdgeTrees(Biome)
++ void addJungleEdgeTrees(BiomeGenerationSettings$Builder)
+- void addJungleExtraVegetation(Biome)
++ void addJungleExtraVegetation(BiomeGenerationSettings$Builder)
+- void addJungleGrass(Biome)
++ void addJungleGrass(BiomeGenerationSettings$Builder)
+- void addJungleTrees(Biome)
++ void addJungleTrees(BiomeGenerationSettings$Builder)
+- void addLightBambooVegetation(Biome)
++ void addLightBambooVegetation(BiomeGenerationSettings$Builder)
+- void addLukeWarmKelp(Biome)
++ void addLukeWarmKelp(BiomeGenerationSettings$Builder)
+- void addMossyStoneBlock(Biome)
++ void addMossyStoneBlock(BiomeGenerationSettings$Builder)
+- void addMountainEdgeTrees(Biome)
++ void addMountainEdgeTrees(BiomeGenerationSettings$Builder)
+- void addMountainTrees(Biome)
++ void addMountainTrees(BiomeGenerationSettings$Builder)
+- void addMushroomFieldVegetation(Biome)
++ void addMushroomFieldVegetation(BiomeGenerationSettings$Builder)
+- void addNetherDefaultOres(Biome)
++ void addNetherDefaultOres(BiomeGenerationSettings$Builder)
+- void addOceanCarvers(Biome)
++ void addOceanCarvers(BiomeGenerationSettings$Builder)
+- void addOtherBirchTrees(Biome)
++ void addOtherBirchTrees(BiomeGenerationSettings$Builder)
+- void addPlainGrass(Biome)
++ void addPlainGrass(BiomeGenerationSettings$Builder)
+- void addPlainVegetation(Biome)
++ void addPlainVegetation(BiomeGenerationSettings$Builder)
+- void addSavannaExtraGrass(Biome)
++ void addSavannaExtraGrass(BiomeGenerationSettings$Builder)
+- void addSavannaGrass(Biome)
++ void addSavannaGrass(BiomeGenerationSettings$Builder)
+- void addSavannaTrees(Biome)
++ void addSavannaTrees(BiomeGenerationSettings$Builder)
+- void addShatteredSavannaGrass(Biome)
++ void addShatteredSavannaGrass(BiomeGenerationSettings$Builder)
+- void addShatteredSavannaTrees(Biome)
++ void addShatteredSavannaTrees(BiomeGenerationSettings$Builder)
+- void addSnowyTrees(Biome)
++ void addSnowyTrees(BiomeGenerationSettings$Builder)
+- void addSparseBerryBushes(Biome)
++ void addSparseBerryBushes(BiomeGenerationSettings$Builder)
+- void addSurfaceFreezing(Biome)
++ void addSurfaceFreezing(BiomeGenerationSettings$Builder)
+- void addSwampClayDisk(Biome)
++ void addSwampClayDisk(BiomeGenerationSettings$Builder)
+- void addSwampExtraVegetation(Biome)
++ void addSwampExtraVegetation(BiomeGenerationSettings$Builder)
+- void addSwampVegetation(Biome)
++ void addSwampVegetation(BiomeGenerationSettings$Builder)
+- void addTaigaGrass(Biome)
++ void addTaigaGrass(BiomeGenerationSettings$Builder)
+- void addTaigaTrees(Biome)
++ void addTaigaTrees(BiomeGenerationSettings$Builder)
+- void addTallBirchTrees(Biome)
++ void addTallBirchTrees(BiomeGenerationSettings$Builder)
+- void addWarmFlowers(Biome)
++ void addWarmFlowers(BiomeGenerationSettings$Builder)
+- void addWaterTrees(Biome)
++ void addWaterTrees(BiomeGenerationSettings$Builder)
+- void ambientSpawns(Biome)
++ void ambientSpawns(MobSpawnSettings$Builder)
+- void baseJungleSpawns(Biome)
++ void baseJungleSpawns(MobSpawnSettings$Builder)
+- void commonSpawns(Biome)
++ void commonSpawns(MobSpawnSettings$Builder)
+- void desertSpawns(Biome)
++ void desertSpawns(MobSpawnSettings$Builder)
+- void endSpawns(Biome)
++ void endSpawns(MobSpawnSettings$Builder)
+- void farmAnimals(Biome)
++ void farmAnimals(MobSpawnSettings$Builder)
+- void monsters(Biome,int,int,int)
++ void monsters(MobSpawnSettings$Builder,int,int,int)
+- void mooshroomSpawns(Biome)
++ void mooshroomSpawns(MobSpawnSettings$Builder)
+- void oceanSpawns(Biome,int,int,int)
++ void oceanSpawns(MobSpawnSettings$Builder,int,int,int)
+- void plainsSpawns(Biome)
++ void plainsSpawns(MobSpawnSettings$Builder)
+- void snowySpawns(Biome)
++ void snowySpawns(MobSpawnSettings$Builder)
+- void warmOceanSpawns(Biome,int,int)
++ void warmOceanSpawns(MobSpawnSettings$Builder,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
+
+```diff
+- ImmutableList register(String,ImmutableList)
++ StructureProcessorList register(String,ImmutableList)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
+
+```diff
++ Biome baseEndBiome(BiomeGenerationSettings$Builder)
++ Biome baseForestBiome(String,float,float,boolean,MobSpawnSettings$Builder)
+- Biome baseForestBiome(String,float,float,boolean)
++ Biome baseJungleBiome(String,float,float,float,boolean,boolean,boolean,MobSpawnSettings$Builder)
+- Biome baseJungleBiome(String,float,float,float,boolean,boolean,boolean)
+- Biome baseOceanBiome(ConfiguredSurfaceBuilder,int,int,boolean,boolean,boolean)
++ Biome baseOceanBiome(MobSpawnSettings$Builder,int,int,boolean,BiomeGenerationSettings$Builder)
++ Biome baseSavannaBiome(String,float,float,float,boolean,boolean,MobSpawnSettings$Builder)
++ BiomeGenerationSettings$Builder baseOceanGeneration(ConfiguredSurfaceBuilder,boolean,boolean,boolean)
++ MobSpawnSettings$Builder defaultSpawns()
++ MobSpawnSettings$Builder savannaMobs()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.resources.RegistryFileCodec</summary>
 
+```diff
++ RegistryFileCodec create(ResourceKey,Codec)
+- RegistryFileCodec create(ResourceKey,MapCodec)
++ void <init>(ResourceKey,Codec)
+- void <init>(ResourceKey,MapCodec)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.resources.RegistryWriteOps</summary>
+
+```diff
++ DataResult encode(Object,Object,ResourceKey,Codec)
+- DataResult encode(Object,Object,ResourceKey,MapCodec)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.FallbackResourceManager</summary>
+
+```diff
+- Collection listResources(ResourceLocation,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
+
+```diff
+- Collection listResources(ResourceLocation,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromBlockMemory</summary>
+
+```diff
+- boolean tooFar(ServerLevel,Villager,GlobalPos)
++ boolean tooFar(Villager,GlobalPos)
++ boolean wrongDimension(ServerLevel,GlobalPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.DoorInteractGoal</summary>
+
+```diff
+- boolean hasGroundPathNavigation()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.MoveToBlockGoal</summary>
+
+```diff
++ BlockPos getMoveToTarget()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.NearestLivingEntitySensor</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.sensing.Sensor</summary>
+
+```diff
++ boolean isEntityTargetable(LivingEntity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.PistonHeadBlock</summary>
+
+```diff
++ VoxelShape calculateShape(Direction,boolean)
+- VoxelShape getArmShape(BlockState)
+- VoxelShape getBaseShape(BlockState)
++ VoxelShape lambda$makeShapes$0(boolean,Direction)
++ VoxelShape[] lambda$makeShapes$1(int)
++ VoxelShape[] makeShapes(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
+
+```diff
+- ConfiguredFeature lambda$null$7(ConfiguredFeature)
++ ConfiguredFeature lambda$null$9(ConfiguredFeature)
++ FeaturePoolElement lambda$feature$10(ConfiguredFeature,StructureTemplatePool$Projection)
+- FeaturePoolElement lambda$feature$8(ConfiguredFeature,StructureTemplatePool$Projection)
+- Function legacy(String,ImmutableList)
++ Function legacy(String,StructureProcessorList)
+- Function single(String,ImmutableList)
++ Function single(String,StructureProcessorList)
+- ImmutableList lambda$null$2(ImmutableList)
+- ImmutableList lambda$null$5(ImmutableList)
+- LegacySinglePoolElement lambda$legacy$1(String,StructureTemplatePool$Projection)
++ LegacySinglePoolElement lambda$legacy$2(String,StructureTemplatePool$Projection)
+- LegacySinglePoolElement lambda$legacy$3(String,ImmutableList,StructureTemplatePool$Projection)
++ LegacySinglePoolElement lambda$legacy$4(String,StructureProcessorList,StructureTemplatePool$Projection)
+- ListPoolElement lambda$list$10(List,StructureTemplatePool$Projection)
++ ListPoolElement lambda$list$12(List,StructureTemplatePool$Projection)
+- SinglePoolElement lambda$single$4(String,StructureTemplatePool$Projection)
+- SinglePoolElement lambda$single$6(String,ImmutableList,StructureTemplatePool$Projection)
++ SinglePoolElement lambda$single$6(String,StructureTemplatePool$Projection)
++ SinglePoolElement lambda$single$8(String,StructureProcessorList,StructureTemplatePool$Projection)
++ StructurePoolElement lambda$null$11(StructureTemplatePool$Projection,Function)
+- StructurePoolElement lambda$null$9(StructureTemplatePool$Projection,Function)
++ StructureProcessorList lambda$null$1()
++ StructureProcessorList lambda$null$3(StructureProcessorList)
++ StructureProcessorList lambda$null$5()
++ StructureProcessorList lambda$null$7(StructureProcessorList)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.dispenser.AbstractProjectileDispenseBehavior
@@ -8125,13 +5600,128 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+
+```diff
++ Vec3 getRopeHoldPosition(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.SmithingMenu</summary>
+
+```diff
++ boolean canTakeItemForPickAll(ItemStack,Slot)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
+
+```diff
+- Biome$SpawnerData getRandomSpawnMobAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,Random,BlockPos)
+- boolean canSpawnMobAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,Biome$SpawnerData,BlockPos)
++ boolean canSpawnMobAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,MobSpawnSettings$SpawnerData,BlockPos)
+- boolean isValidSpawnPostitionForType(ServerLevel,MobCategory,StructureFeatureManager,ChunkGenerator,Biome$SpawnerData,BlockPos$MutableBlockPos,double)
++ boolean isValidSpawnPostitionForType(ServerLevel,MobCategory,StructureFeatureManager,ChunkGenerator,MobSpawnSettings$SpawnerData,BlockPos$MutableBlockPos,double)
++ MobSpawnSettings$SpawnerData getRandomSpawnMobAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,Random,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.Node</summary>
+
+```diff
++ Node cloneAndMove(int,int,int)
+- Node cloneMove(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
+
+```diff
++ BlockPos getNextNodePos()
++ BlockPos getNodePos(int)
+- int getIndex()
++ int getNextNodeIndex()
++ int getNodeCount()
+- int getSize()
+- List getNodes()
+- Node currentNode()
+- Node get(int)
++ Node getEndNode()
++ Node getNextNode()
++ Node getNode(int)
++ Node getPreviousNode()
+- Node last()
+- Node previousNode()
+- String toDetailedString()
+- Vec3 currentPos(Entity)
++ Vec3 getEntityPosAtNode(Entity,int)
++ Vec3 getNextEntityPos(Entity)
+- Vec3 getPos(Entity,int)
+- Vec3i currentPos()
++ void advance()
+- void next()
++ void replaceNode(int,Node)
+- void set(int,Node)
+- void setIndex(int)
++ void setNextNodeIndex(int)
+- void truncate(int)
++ void truncateNodes(int)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/textures/misc/nausea.png
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ options.fovEffectScale
++ options.fovEffectScale.off
++ options.fovEffectScale.tooltip
++ options.screenEffectScale
++ options.screenEffectScale.off
++ options.screenEffectScale.tooltip
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>textures.txt</summary>
+
+```diff
++ misc/nausea.png
+```
+
+</details>

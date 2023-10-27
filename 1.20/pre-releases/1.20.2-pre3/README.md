@@ -1,2200 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.20.2-pre3 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.20.2-pre3</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2023-09-12T12:15:08+00:00</td></tr>
-<tr><th>SHA1</th><td>bb2aac168b04bb083cf7febd8ca074b0ac711a55</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/bb2aac168b04bb083cf7febd8ca074b0ac711a55/1.20.2-pre3.json">https://piston-meta.mojang.com/v1/packages/bb2aac168b04bb083cf7febd8ca074b0ac711a55/1.20.2-pre3.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/1bb22b3104344727de426d77df14522bd7aa9339/8.json">https://piston-meta.mojang.com/v1/packages/1bb22b3104344727de426d77df14522bd7aa9339/8.json</a></td></tr>
+<tr><th>SHA1</th><td>e85f4491e2cf66f586d522452c9f97e0c943cc44</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/e85f4491e2cf66f586d522452c9f97e0c943cc44/1.20.2-pre3.json">https://piston-meta.mojang.com/v1/packages/e85f4491e2cf66f586d522452c9f97e0c943cc44/1.20.2-pre3.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json">https://piston-meta.mojang.com/v1/packages/79da1aecbd32bff245e75ce6bc45ed9a6b293537/8.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4/server.jar">https://piston-data.mojang.com/v1/objects/3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/50ac8afe2f57a8595fd553bfe914da9e6a99618d/server.txt">https://piston-data.mojang.com/v1/objects/50ac8afe2f57a8595fd553bfe914da9e6a99618d/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/b04c6a6bd4c7360779f32571058452198136d805/client.jar">https://piston-data.mojang.com/v1/objects/b04c6a6bd4c7360779f32571058452198136d805/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ebc9e6d93393d8a3973bb30bd318ca12dae515ff/client.txt">https://piston-data.mojang.com/v1/objects/ebc9e6d93393d8a3973bb30bd318ca12dae515ff/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.20.2-pre2">1.20.2-pre2</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ButtonEntry</summary>
-
-```diff
-- int xPos
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.RealmsDataFetcher</summary>
-
-```diff
-- DataFetcher$Task liveStatsTask
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
-
-```diff
-- RealmsMainScreen mainScreen
-+ void <init>(RealmsServer)
-- void <init>(RealmsServer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
-
-```diff
-- RealmsMainScreen mainScreen
-- ReentrantLock connectLock
-+ void <init>(RealmsServer)
-- void <init>(ReentrantLock)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.task.OpenServerTask</summary>
-
-```diff
-- RealmsMainScreen mainScreen
-+ void <init>(Minecraft)
-- void <init>(Minecraft)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.TextureAtlas</summary>
-
-```diff
-+ TextureAtlasSprite missingSprite
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
-
-```diff
-+ Tag readNamedTagData(NbtAccounter)
-- byte readNamedTagType(NbtAccounter)
-- String readNamedTagName(NbtAccounter)
-- Tag readNamedTagData(NbtAccounter)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.DoubleTag$1</summary>
-
-```diff
-+ double readAccounted(NbtAccounter)
-+ DoubleTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- DoubleTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.EndTag$1</summary>
-
-```diff
-+ EndTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-+ void skip(NbtAccounter)
-- EndTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-- void skip(DataInput,int)
-- void skip(DataInput)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.FloatTag$1</summary>
-
-```diff
-+ float readAccounted(NbtAccounter)
-+ FloatTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- FloatTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntArrayTag$1</summary>
-
-```diff
-+ int[] readAccounted(NbtAccounter)
-+ IntArrayTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- IntArrayTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-- void skip(DataInput)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntTag$1</summary>
-
-```diff
-+ int readAccounted(NbtAccounter)
-+ IntTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- IntTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.nbt.LongArrayTag$1</summary>
-
-```diff
-+ long[] readAccounted(NbtAccounter)
-+ LongArrayTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- LongArrayTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-- void skip(DataInput)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongTag$1</summary>
-
-```diff
-+ long readAccounted(NbtAccounter)
-+ LongTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- LongTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.NbtAccounter</summary>
-
-```diff
-+ int depth
-+ int MAX_STACK_DEPTH
-+ int maxDepth
-- NbtAccounter UNLIMITED
-+ int getDepth()
-+ NbtAccounter create(long)
-+ NbtAccounter unlimitedHeap()
-+ void <init>(long,int)
-+ void popDepth()
-+ void pushDepth()
-- void <clinit>()
-- void <init>(long)
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.NbtIo</summary>
-
-```diff
-+ Tag readTagSafe(NbtAccounter,byte)
-+ Tag readUnnamedTag(NbtAccounter)
-+ void parse(NbtAccounter)
-+ void parseCompressed(NbtAccounter)
-+ void parseCompressed(NbtAccounter)
-- Tag readTagSafe(NbtAccounter,byte)
-- Tag readUnnamedTag(NbtAccounter)
-- void parse(StreamTagVisitor)
-- void parseCompressed(StreamTagVisitor)
-- void parseCompressed(StreamTagVisitor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.StringTag$1</summary>
-
-```diff
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ String readAccounted(NbtAccounter)
-+ StringTag load(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- StringTag load(NbtAccounter)
-- Tag load(NbtAccounter)
-- void skip(DataInput)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.TagType</summary>
-
-```diff
-+ StreamTagVisitor$ValueResult parse(java.io.DataInput,net.minecraft.nbt.StreamTagVisitor,net.minecraft.nbt.NbtAccounter)
-+ Tag load(java.io.DataInput,net.minecraft.nbt.NbtAccounter)
-+ void skip(java.io.DataInput,int,net.minecraft.nbt.NbtAccounter)
-+ void skip(java.io.DataInput,net.minecraft.nbt.NbtAccounter)
-- StreamTagVisitor$ValueResult parse(java.io.DataInput,net.minecraft.nbt.StreamTagVisitor)
-- Tag load(java.io.DataInput,int,net.minecraft.nbt.NbtAccounter)
-- void skip(java.io.DataInput,int)
-- void skip(java.io.DataInput)
-+ void parseRoot(NbtAccounter)
-- void parseRoot(StreamTagVisitor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.TagType$VariableSize</summary>
-
-```diff
-+ void skip(NbtAccounter)
-- void skip(DataInput,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.util.datafix.DataFixers
@@ -5845,416 +3682,43 @@
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
 
+```diff
+- void <init>(Screen,RealmsMainScreen,RealmsServer)
++ void <init>(Screen,RealmsServer)
+```
 
+</details>
 
 
+<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
 
+```diff
+- void <init>(RealmsMainScreen,Screen,RealmsServer,ReentrantLock)
++ void <init>(Screen,RealmsServer)
+```
 
+</details>
 
 
+<details><summary>com.mojang.realmsclient.util.task.OpenServerTask</summary>
 
+```diff
++ void <init>(RealmsServer,Screen,boolean,Minecraft)
+- void <init>(RealmsServer,Screen,RealmsMainScreen,boolean,Minecraft)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.nbt.CompoundTag</summary>
 
 ```diff
-+ Tag readNamedTagData(NbtAccounter)
-- byte readNamedTagType(NbtAccounter)
-- String readNamedTagName(NbtAccounter)
-- Tag readNamedTagData(NbtAccounter)
+- byte readNamedTagType(DataInput,NbtAccounter)
+- String readNamedTagName(DataInput,NbtAccounter)
+- Tag readNamedTagData(TagType,String,DataInput,int,NbtAccounter)
++ Tag readNamedTagData(TagType,String,DataInput,NbtAccounter)
 ```
 
 </details>
@@ -6263,167 +3727,160 @@
 <details><summary>net.minecraft.nbt.DoubleTag$1</summary>
 
 ```diff
-+ double readAccounted(NbtAccounter)
-+ DoubleTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- DoubleTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ double readAccounted(DataInput,NbtAccounter)
+- DoubleTag load(DataInput,int,NbtAccounter)
++ DoubleTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.nbt.EndTag$1</summary>
 
 ```diff
-+ EndTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-+ void skip(NbtAccounter)
-- EndTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
+- EndTag load(DataInput,int,NbtAccounter)
++ EndTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,int,NbtAccounter)
 - void skip(DataInput,int)
++ void skip(DataInput,NbtAccounter)
 - void skip(DataInput)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.nbt.FloatTag$1</summary>
 
 ```diff
-+ float readAccounted(NbtAccounter)
-+ FloatTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- FloatTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ float readAccounted(DataInput,NbtAccounter)
+- FloatTag load(DataInput,int,NbtAccounter)
++ FloatTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.nbt.IntArrayTag$1</summary>
 
 ```diff
-+ int[] readAccounted(NbtAccounter)
-+ IntArrayTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- IntArrayTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ int[] readAccounted(DataInput,NbtAccounter)
+- IntArrayTag load(DataInput,int,NbtAccounter)
++ IntArrayTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
 - void skip(DataInput)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.nbt.IntTag$1</summary>
 
 ```diff
-+ int readAccounted(NbtAccounter)
-+ IntTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- IntTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ int readAccounted(DataInput,NbtAccounter)
+- IntTag load(DataInput,int,NbtAccounter)
++ IntTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.nbt.LongArrayTag$1</summary>
 
 ```diff
-+ long[] readAccounted(NbtAccounter)
-+ LongArrayTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- LongArrayTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ long[] readAccounted(DataInput,NbtAccounter)
+- LongArrayTag load(DataInput,int,NbtAccounter)
++ LongArrayTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
 - void skip(DataInput)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.nbt.LongTag$1</summary>
 
 ```diff
-+ long readAccounted(NbtAccounter)
-+ LongTag load(NbtAccounter)
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ Tag load(NbtAccounter)
-- LongTag load(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- Tag load(NbtAccounter)
++ long readAccounted(DataInput,NbtAccounter)
+- LongTag load(DataInput,int,NbtAccounter)
++ LongTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.nbt.NbtAccounter</summary>
 
 ```diff
-+ int depth
-+ int MAX_STACK_DEPTH
-+ int maxDepth
-- NbtAccounter UNLIMITED
 + int getDepth()
 + NbtAccounter create(long)
 + NbtAccounter unlimitedHeap()
+- void <clinit>()
 + void <init>(long,int)
+- void <init>(long)
 + void popDepth()
 + void pushDepth()
-- void <clinit>()
-- void <init>(long)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.nbt.NbtIo</summary>
 
 ```diff
-+ Tag readTagSafe(NbtAccounter,byte)
-+ Tag readUnnamedTag(NbtAccounter)
-+ void parse(NbtAccounter)
-+ void parseCompressed(NbtAccounter)
-+ void parseCompressed(NbtAccounter)
-- Tag readTagSafe(NbtAccounter,byte)
-- Tag readUnnamedTag(NbtAccounter)
-- void parse(StreamTagVisitor)
-- void parseCompressed(StreamTagVisitor)
-- void parseCompressed(StreamTagVisitor)
+- Tag readTagSafe(DataInput,int,NbtAccounter,byte)
++ Tag readTagSafe(DataInput,NbtAccounter,byte)
+- Tag readUnnamedTag(DataInput,int,NbtAccounter)
++ Tag readUnnamedTag(DataInput,NbtAccounter)
++ void parse(DataInput,StreamTagVisitor,NbtAccounter)
+- void parse(DataInput,StreamTagVisitor)
++ void parseCompressed(File,StreamTagVisitor,NbtAccounter)
+- void parseCompressed(File,StreamTagVisitor)
++ void parseCompressed(InputStream,StreamTagVisitor,NbtAccounter)
+- void parseCompressed(InputStream,StreamTagVisitor)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.nbt.StringTag$1</summary>
 
 ```diff
-+ StreamTagVisitor$ValueResult parse(NbtAccounter)
-+ String readAccounted(NbtAccounter)
-+ StringTag load(NbtAccounter)
-+ Tag load(NbtAccounter)
-+ void skip(NbtAccounter)
-- StreamTagVisitor$ValueResult parse(StreamTagVisitor)
-- StringTag load(NbtAccounter)
-- Tag load(NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
++ String readAccounted(DataInput,NbtAccounter)
+- StringTag load(DataInput,int,NbtAccounter)
++ StringTag load(DataInput,NbtAccounter)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
 - void skip(DataInput)
 ```
 
@@ -6433,16 +3890,8 @@
 <details><summary>net.minecraft.nbt.TagType</summary>
 
 ```diff
-+ StreamTagVisitor$ValueResult parse(java.io.DataInput,net.minecraft.nbt.StreamTagVisitor,net.minecraft.nbt.NbtAccounter)
-+ Tag load(java.io.DataInput,net.minecraft.nbt.NbtAccounter)
-+ void skip(java.io.DataInput,int,net.minecraft.nbt.NbtAccounter)
-+ void skip(java.io.DataInput,net.minecraft.nbt.NbtAccounter)
-- StreamTagVisitor$ValueResult parse(java.io.DataInput,net.minecraft.nbt.StreamTagVisitor)
-- Tag load(java.io.DataInput,int,net.minecraft.nbt.NbtAccounter)
-- void skip(java.io.DataInput,int)
-- void skip(java.io.DataInput)
-+ void parseRoot(NbtAccounter)
-- void parseRoot(StreamTagVisitor)
++ void parseRoot(DataInput,StreamTagVisitor,NbtAccounter)
+- void parseRoot(DataInput,StreamTagVisitor)
 ```
 
 </details>
@@ -6451,514 +3900,19 @@
 <details><summary>net.minecraft.nbt.TagType$VariableSize</summary>
 
 ```diff
-+ void skip(NbtAccounter)
++ void skip(DataInput,int,NbtAccounter)
 - void skip(DataInput,int)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.util.datafix.DataFixers
@@ -10607,13 +7561,197 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
+- byte readNamedTagType(DataInput,NbtAccounter)
+- String readNamedTagName(DataInput,NbtAccounter)
+- Tag readNamedTagData(TagType,String,DataInput,int,NbtAccounter)
++ Tag readNamedTagData(TagType,String,DataInput,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.DoubleTag$1</summary>
+
+```diff
++ double readAccounted(DataInput,NbtAccounter)
+- DoubleTag load(DataInput,int,NbtAccounter)
++ DoubleTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.EndTag$1</summary>
+
+```diff
+- EndTag load(DataInput,int,NbtAccounter)
++ EndTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,int,NbtAccounter)
+- void skip(DataInput,int)
++ void skip(DataInput,NbtAccounter)
+- void skip(DataInput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.FloatTag$1</summary>
+
+```diff
++ float readAccounted(DataInput,NbtAccounter)
+- FloatTag load(DataInput,int,NbtAccounter)
++ FloatTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.IntArrayTag$1</summary>
+
+```diff
++ int[] readAccounted(DataInput,NbtAccounter)
+- IntArrayTag load(DataInput,int,NbtAccounter)
++ IntArrayTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
+- void skip(DataInput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.IntTag$1</summary>
+
+```diff
++ int readAccounted(DataInput,NbtAccounter)
+- IntTag load(DataInput,int,NbtAccounter)
++ IntTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.LongArrayTag$1</summary>
+
+```diff
++ long[] readAccounted(DataInput,NbtAccounter)
+- LongArrayTag load(DataInput,int,NbtAccounter)
++ LongArrayTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
+- void skip(DataInput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.LongTag$1</summary>
+
+```diff
++ long readAccounted(DataInput,NbtAccounter)
+- LongTag load(DataInput,int,NbtAccounter)
++ LongTag load(DataInput,NbtAccounter)
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtAccounter</summary>
+
+```diff
++ int getDepth()
++ NbtAccounter create(long)
++ NbtAccounter unlimitedHeap()
+- void <clinit>()
++ void <init>(long,int)
+- void <init>(long)
++ void popDepth()
++ void pushDepth()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.NbtIo</summary>
+
+```diff
+- Tag readTagSafe(DataInput,int,NbtAccounter,byte)
++ Tag readTagSafe(DataInput,NbtAccounter,byte)
+- Tag readUnnamedTag(DataInput,int,NbtAccounter)
++ Tag readUnnamedTag(DataInput,NbtAccounter)
++ void parse(DataInput,StreamTagVisitor,NbtAccounter)
+- void parse(DataInput,StreamTagVisitor)
++ void parseCompressed(File,StreamTagVisitor,NbtAccounter)
+- void parseCompressed(File,StreamTagVisitor)
++ void parseCompressed(InputStream,StreamTagVisitor,NbtAccounter)
+- void parseCompressed(InputStream,StreamTagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.StringTag$1</summary>
+
+```diff
++ StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor,NbtAccounter)
+- StreamTagVisitor$ValueResult parse(DataInput,StreamTagVisitor)
++ String readAccounted(DataInput,NbtAccounter)
+- StringTag load(DataInput,int,NbtAccounter)
++ StringTag load(DataInput,NbtAccounter)
+- Tag load(DataInput,int,NbtAccounter)
++ Tag load(DataInput,NbtAccounter)
++ void skip(DataInput,NbtAccounter)
+- void skip(DataInput)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.TagType</summary>
+
+```diff
++ void parseRoot(DataInput,StreamTagVisitor,NbtAccounter)
+- void parseRoot(DataInput,StreamTagVisitor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.TagType$VariableSize</summary>
+
+```diff
++ void skip(DataInput,int,NbtAccounter)
+- void skip(DataInput,int)
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.15-pre1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>1.15-pre1</td></tr>
 <tr><th>Type</th><td>pre-releases</td></tr>
 <tr><th>Release time</th><td>2019-11-21T17:01:17+00:00</td></tr>
@@ -10,1090 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/722bdf029839d25a21dff78b1f15ff8e91fe5ff0/server.txt">https://piston-data.mojang.com/v1/objects/722bdf029839d25a21dff78b1f15ff8e91fe5ff0/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/6e9fe5ad18470fd1b3318f337fca18cd94d7b9e6/client.jar">https://piston-data.mojang.com/v1/objects/6e9fe5ad18470fd1b3318f337fca18cd94d7b9e6/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6750b3efa65689a0424116fb0671c5a67060e86a/client.txt">https://piston-data.mojang.com/v1/objects/6750b3efa65689a0424116fb0671c5a67060e86a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w46b">19w46b</a>
-## Mappings
 
+# Mappings
 
+### Client
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
-
-```diff
-+ Logger LOGGER
-+ long size
-- int size
-+ boolean writeToChannel(WritableByteChannel)
-+ byte[] asByteArray()
-+ int combine(int,int,int,int)
-+ int getA(int)
-+ int getB(int)
-+ int getG(int)
-+ int getR(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexConsumer</summary>
-
-```diff
-+ void defaultColor(int,int,int,int)
-+ void unsetDefaultColor()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.VertexMultiConsumer</summary>
-
-```diff
-- Iterable delegates
-+ VertexConsumer create(VertexConsumer)
-- VertexConsumer color(int,int,int,int)
-- VertexConsumer normal(float,float,float)
-- VertexConsumer overlayCoords(int,int)
-- VertexConsumer uv(float,float)
-- VertexConsumer uv2(int,int)
-- VertexConsumer vertex(double,double,double)
-- void <init>(ImmutableList)
-- void endVertex()
-- void lambda$color$1(VertexConsumer)
-- void lambda$normal$5(VertexConsumer)
-- void lambda$overlayCoords$3(VertexConsumer)
-- void lambda$uv$2(VertexConsumer)
-- void lambda$uv2$4(VertexConsumer)
-- void lambda$vertex$0(VertexConsumer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.ConduitRenderer</summary>
-
-```diff
-+ Material ACTIVE_SHELL_TEXTURE
-+ Material CLOSED_EYE_TEXTURE
-+ Material OPEN_EYE_TEXTURE
-+ Material SHELL_TEXTURE
-+ Material VERTICAL_WIND_TEXTURE
-+ Material WIND_TEXTURE
-- ResourceLocation ACTIVE_SHELL_TEXTURE
-- ResourceLocation CLOSED_EYE_TEXTURE
-- ResourceLocation OPEN_EYE_TEXTURE
-- ResourceLocation SHELL_TEXTURE
-- ResourceLocation VERTICAL_WIND_TEXTURE
-- ResourceLocation WIND_TEXTURE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer$SignModel</summary>
-
-```diff
-+ void renderToBuffer(VertexConsumer,int,int,float,float,float,float)
-- void renderToBuffer(VertexConsumer,int,int,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.BeeDebugRenderer</summary>
-
-```diff
-+ boolean lambda$getHiveMembers$10(BeeDebugRenderer$BeeInfo)
-+ Map createHiveBlacklistMap()
-+ String getBeeUuidsAsString(Collection)
-+ void addBeeToSetInMap(BlockPos)
-+ void lambda$createHiveBlacklistMap$7(BeeDebugRenderer$BeeInfo)
-+ void lambda$doRender$4(BeeDebugRenderer$HiveInfo)
-+ void lambda$null$6(BlockPos)
-+ void lambda$renderFlowerInfos$8(BeeDebugRenderer$BeeInfo)
-+ void lambda$renderFlowerInfos$9(Map$Entry)
-+ void lambda$updateLastLookedAtUuid$11(Entity)
-+ void renderHiveInfo(Collection)
-- boolean lambda$getHiveMembers$8(BeeDebugRenderer$BeeInfo)
-- void lambda$doRender$4(BeeDebugRenderer$HiveInfo)
-- void lambda$renderFlowerInfos$6(BeeDebugRenderer$BeeInfo)
-- void lambda$renderFlowerInfos$7(Map$Entry)
-- void lambda$updateLastLookedAtUuid$9(Entity)
-- void renderHiveInfo(BeeDebugRenderer$HiveInfo)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EndCrystalRenderer</summary>
-
-```diff
-+ RenderType RENDER_TYPE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.EnderDragonRenderer$DragonModel</summary>
-
-```diff
-+ void renderToBuffer(VertexConsumer,int,int,float,float,float,float)
-- void renderToBuffer(VertexConsumer,int,int,float,float,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderer</summary>
-
-```diff
-+ int getBlockLightLevel(Entity,float)
-+ int getPackedLightCoords(Entity,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.entity.ExperienceOrbRenderer</summary>
-
-```diff
-+ RenderType RENDER_TYPE
-+ int getBlockLightLevel(Entity,float)
-+ int getBlockLightLevel(ExperienceOrb,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.MagmaCubeRenderer</summary>
-
-```diff
-+ int getBlockLightLevel(Entity,float)
-+ int getBlockLightLevel(MagmaCube,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
-
-```diff
-+ ResourceLocation lambda$static$0(Material)
-- ResourceLocation lambda$static$0(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.EnderEyesLayer</summary>
-
-```diff
-+ RenderType ENDERMAN_EYES
-- ResourceLocation ENDERMAN_EYES_LOCATION
-+ RenderType renderType()
-- ResourceLocation getTextureLocation()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.entity.layers.EyesLayer</summary>
-
-```diff
-+ RenderType renderType()
-- ResourceLocation getTextureLocation()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.layers.PhantomEyesLayer</summary>
-
-```diff
-+ RenderType PHANTOM_EYES
-- ResourceLocation PHANTOM_EYES_LOCATION
-+ RenderType renderType()
-- ResourceLocation getTextureLocation()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.texture.Stitcher</summary>
-
-```diff
-+ TextureAtlasSprite$Info lambda$stitch$3(Stitcher$Holder)
-+ void gatherSprites(Stitcher$SpriteLoader)
-+ void lambda$gatherSprites$4(Stitcher$Region)
-+ void registerSprite(TextureAtlasSprite$Info)
-- List gatherSprites()
-- TextureAtlasSprite lambda$stitch$3(Stitcher$Holder)
-- void lambda$gatherSprites$4(Stitcher$Region)
-- void registerSprite(TextureAtlasSprite)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.MobEffectTextureManager</summary>
-
-```diff
-+ Stream getResourcesToLoad()
-- Iterable getResourcesToLoad()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee$BeeGoToKnownFlowerGoal</summary>
-
-```diff
-+ int travellingTicks
-+ boolean wantsToGoToKnownFlower()
-+ int access$400(Bee$BeeGoToKnownFlowerGoal)
-+ void start()
-- BlockPos getTargetPos()
-- void cantPathfindToTarget()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ boolean areMergable(ItemStack)
-+ ItemStack merge(ItemStack,int)
-+ void merge(ItemStack)
-+ void tryToMerge(ItemEntity)
-- void merge(ItemEntity)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
-
-```diff
-- int getBlockLightLevel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.PigZombie</summary>
-
-```diff
-- boolean mobInteract(InteractionHand)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
-
-```diff
-+ Pair getNoItemIcon()
-- String getNoItemIcon()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.ChunkPos</summary>
-
-```diff
-+ int getChessboardDistance(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Explosion</summary>
-
-```diff
-+ void addBlockDrops(ItemStack)
-+ void lambda$finalizeExplosion$0(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SignBlock</summary>
-
-```diff
-+ WoodType type
-+ void <init>(WoodType)
-+ WoodType type()
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StandingSignBlock</summary>
-
-```diff
-+ void <init>(WoodType)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.Matrix3f
@@ -4891,739 +3829,203 @@
 
 </details>
 
-<details><summary>com.mojang.math.Matrix3f</summary>
+
+<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
 
 ```diff
-+ float m00
-+ float m01
-+ float m02
-+ float m10
-+ float m11
-+ float m12
-+ float m20
-+ float m21
-+ float m22
-- float[] values
-- float get(int,int)
-- void <init>(float[])
-- void set(int,int,float)
-- void swap(int,int)
++ boolean writeToChannel(WritableByteChannel)
++ byte[] asByteArray()
++ int combine(int,int,int,int)
++ int getA(int)
++ int getB(int)
++ int getG(int)
++ int getR(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
+<details><summary>com.mojang.blaze3d.vertex.VertexMultiConsumer</summary>
 
 ```diff
-+ void throwAsRuntime(Throwable)
+- VertexConsumer color(int,int,int,int)
++ VertexConsumer create(VertexConsumer,VertexConsumer)
+- VertexConsumer normal(float,float,float)
+- VertexConsumer overlayCoords(int,int)
+- VertexConsumer uv(float,float)
+- VertexConsumer uv2(int,int)
+- VertexConsumer vertex(double,double,double)
+- void <init>(ImmutableList)
+- void endVertex()
+- void lambda$color$1(int,int,int,int,VertexConsumer)
+- void lambda$normal$5(float,float,float,VertexConsumer)
+- void lambda$overlayCoords$3(int,int,VertexConsumer)
+- void lambda$uv$2(float,float,VertexConsumer)
+- void lambda$uv2$4(int,int,VertexConsumer)
+- void lambda$vertex$0(double,double,double,VertexConsumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer$SignModel</summary>
 
 ```diff
-+ void assertEntityPresent(BlockPos,double)
++ void renderToBuffer(PoseStack,VertexConsumer,int,int,float,float,float,float)
+- void renderToBuffer(PoseStack,VertexConsumer,int,int,float,float,float)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.renderer.debug.BeeDebugRenderer</summary>
 
+```diff
++ boolean lambda$getHiveMembers$10(BlockPos,BeeDebugRenderer$BeeInfo)
+- boolean lambda$getHiveMembers$8(BlockPos,BeeDebugRenderer$BeeInfo)
++ Map createHiveBlacklistMap()
++ String getBeeUuidsAsString(Collection)
++ void addBeeToSetInMap(Map,BeeDebugRenderer$BeeInfo,BlockPos)
++ void lambda$createHiveBlacklistMap$7(Map,BeeDebugRenderer$BeeInfo)
+- void lambda$doRender$4(BlockPos,BeeDebugRenderer$HiveInfo)
++ void lambda$doRender$4(BlockPos,Map,BeeDebugRenderer$HiveInfo)
++ void lambda$null$6(Map,BeeDebugRenderer$BeeInfo,BlockPos)
+- void lambda$renderFlowerInfos$6(Map,BeeDebugRenderer$BeeInfo)
+- void lambda$renderFlowerInfos$7(Map$Entry)
++ void lambda$renderFlowerInfos$8(Map,BeeDebugRenderer$BeeInfo)
++ void lambda$renderFlowerInfos$9(Map$Entry)
++ void lambda$updateLastLookedAtUuid$11(Entity)
+- void lambda$updateLastLookedAtUuid$9(Entity)
++ void renderHiveInfo(BeeDebugRenderer$HiveInfo,Collection)
+- void renderHiveInfo(BeeDebugRenderer$HiveInfo)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.EnderDragonRenderer$DragonModel</summary>
 
+```diff
++ void renderToBuffer(PoseStack,VertexConsumer,int,int,float,float,float,float)
+- void renderToBuffer(PoseStack,VertexConsumer,int,int,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.EntityRenderer</summary>
 
+```diff
++ int getBlockLightLevel(Entity,float)
++ int getPackedLightCoords(Entity,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.ExperienceOrbRenderer</summary>
 
+```diff
++ int getBlockLightLevel(Entity,float)
++ int getBlockLightLevel(ExperienceOrb,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.MagmaCubeRenderer</summary>
 
+```diff
++ int getBlockLightLevel(Entity,float)
++ int getBlockLightLevel(MagmaCube,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.ShulkerRenderer</summary>
 
+```diff
++ ResourceLocation lambda$static$0(Material)
+- ResourceLocation lambda$static$0(ResourceLocation)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.layers.EnderEyesLayer</summary>
 
+```diff
++ RenderType renderType()
+- ResourceLocation getTextureLocation()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.entity.layers.PhantomEyesLayer</summary>
 
+```diff
++ RenderType renderType()
+- ResourceLocation getTextureLocation()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.renderer.texture.Stitcher</summary>
 
+```diff
+- List gatherSprites()
+- TextureAtlasSprite lambda$stitch$3(Stitcher$Holder)
++ TextureAtlasSprite$Info lambda$stitch$3(Stitcher$Holder)
++ void gatherSprites(Stitcher$SpriteLoader)
+- void lambda$gatherSprites$4(List,Stitcher$Region)
++ void lambda$gatherSprites$4(Stitcher$SpriteLoader,Stitcher$Region)
+- void registerSprite(TextureAtlasSprite)
++ void registerSprite(TextureAtlasSprite$Info)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.resources.MobEffectTextureManager</summary>
 
+```diff
+- Iterable getResourcesToLoad()
++ Stream getResourcesToLoad()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.animal.Bee$BeeGoToKnownFlowerGoal</summary>
 
+```diff
+- BlockPos getTargetPos()
++ boolean wantsToGoToKnownFlower()
++ int access$400(Bee$BeeGoToKnownFlowerGoal)
+- void cantPathfindToTarget()
++ void start()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
 
+```diff
++ boolean areMergable(ItemStack,ItemStack)
++ ItemStack merge(ItemStack,ItemStack,int)
++ void merge(ItemEntity,ItemStack,ItemStack)
+- void merge(ItemEntity)
++ void tryToMerge(ItemEntity)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
+<details><summary>net.minecraft.world.entity.monster.Blaze</summary>
 
 ```diff
 - int getBlockLightLevel()
@@ -5632,746 +4034,71 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.util.RandomPos</summary>
+<details><summary>net.minecraft.world.entity.monster.PigZombie</summary>
 
 ```diff
-+ BlockPos moveUpToAboveSolid(Predicate)
-+ boolean lambda$generateRandomPos$0(BlockPos)
-+ Vec3 generateRandomPos(ToDoubleFunction,boolean,int,int,boolean)
-+ Vec3 getAboveLandPos(Vec3,float,int,int)
-+ Vec3 getAirPosTowards(Vec3,double)
-- BlockPos moveAboveSolid(Predicate)
-- boolean isWaterDestination(PathfinderMob)
-- boolean lambda$generateRandomPos$2(BlockPos)
-- boolean lambda$getAirPos$1(BlockPos)
-- boolean lambda$getPosAboveSolid$0(BlockPos)
-- Vec3 generateRandomPos(Predicate,int,int,boolean)
-- Vec3 generateRandomPos(ToDoubleFunction)
-- Vec3 generateRandomPos(Vec3,boolean)
-- Vec3 generateRandomPos(Vec3)
-- Vec3 getPosAboveSolid(Vec3,float,int,int)
-- Vec3 getPosTowards(Direction,double)
-- Vec3 getPosTowards(Vec3,boolean)
-- Vec3 getPosTowards(Vec3,double,boolean)
+- boolean mobInteract(Player,InteractionHand)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+<details><summary>net.minecraft.world.inventory.InventoryMenu$1</summary>
 
 ```diff
-+ Bee$BeeGoToHiveGoal goToHiveGoal
-+ Bee$BeeGoToKnownFlowerGoal goToKnownFlowerGoal
-+ int remainingCooldownBeforeLocatingNewFlower
-+ int remainingCooldownBeforeLocatingNewHive
-+ int stayOutOfHiveCountdown
-+ int ticksWithoutNectarSinceExitingHive
-- int cannotEnterHiveTicks
-- int ticksSincePollination
-+ Bee$BeeGoToHiveGoal access$4800(Bee)
-+ Bee$BeePollinateGoal access$700(Bee)
-+ BlockPos access$1500(Bee)
-+ BlockPos access$1502(BlockPos)
-+ BlockPos access$3200(Bee)
-+ BlockPos access$3202(BlockPos)
-+ boolean access$1400(Bee)
-+ boolean access$1600(BlockPos,int)
-+ boolean access$1800(Bee)
-+ boolean access$2400(BlockPos)
-+ boolean access$3300(BlockPos)
-+ boolean access$5100(BlockPos)
-+ boolean closerThan(BlockPos,int)
-+ boolean doesHiveHaveSpace(BlockPos)
-+ boolean isFlowerValid(BlockPos)
-+ boolean isHiveNearFire()
-+ boolean isTiredOfLookingForNectar()
-+ boolean isTooFarAway(BlockPos)
-+ boolean wantsToEnterHive()
-+ float getWalkTargetValue(LevelReader)
-+ int access$3000(Bee)
-+ int access$3002(Bee,int)
-+ int access$3700(Bee)
-+ int access$3800(Bee)
-+ int access$3802(Bee,int)
-+ int access$5200(Bee)
-+ int getTravellingTicks()
-+ List getBlacklistedHives()
-+ PathNavigation access$1100(Bee)
-+ PathNavigation access$1200(Bee)
-+ PathNavigation access$1300(Bee)
-+ PathNavigation access$1900(Bee)
-+ PathNavigation access$2000(Bee)
-+ PathNavigation access$2100(Bee)
-+ PathNavigation access$2200(Bee)
-+ PathNavigation access$2300(Bee)
-+ PathNavigation access$2600(Bee)
-+ PathNavigation access$2700(Bee)
-+ PathNavigation access$2800(Bee)
-+ PathNavigation access$2900(Bee)
-+ PathNavigation access$3100(Bee)
-+ PathNavigation access$3400(Bee)
-+ PathNavigation access$3500(Bee)
-+ PathNavigation access$3600(Bee)
-+ PathNavigation access$4000(Bee)
-+ PathNavigation access$4300(Bee)
-+ PathNavigation access$4500(Bee)
-+ PathNavigation access$900(Bee)
-+ Random access$1000(Bee)
-+ Random access$3900(Bee)
-+ Random access$4100(Bee)
-+ Random access$4400(Bee)
-+ Random access$4600(Bee)
-+ Random access$4700(Bee)
-+ Random access$5300(Bee)
-+ Random access$5400(Bee)
-+ void access$2500(BlockPos)
-+ void access$4200(Bee,boolean)
-+ void access$5500(Bee)
-+ void pathfindRandomlyTowards(BlockPos)
-+ void resetTicksWithoutNectarSinceExitingHive()
-+ void setStayOutOfHiveCountdown(int)
-- Bee$BeePollinateGoal access$300(Bee)
-- BlockPos access$1100(Bee)
-- BlockPos access$1102(BlockPos)
-- BlockPos access$800(Bee)
-- BlockPos access$802(BlockPos)
-- boolean access$1000(Bee)
-- boolean access$700(Bee)
-- boolean canEnterHive()
-- int access$1200(Bee)
-- int access$1800(Bee)
-- Random access$1300(Bee)
-- Random access$1400(Bee)
-- Random access$1500(Bee)
-- Random access$1600(Bee)
-- Random access$1700(Bee)
-- Random access$1900(Bee)
-- Random access$2000(Bee)
-- Random access$600(Bee)
-- void access$2100(Bee)
-- void resetTicksSincePollination()
-- void setCannotEnterHiveTicks(int)
++ Pair getNoItemIcon()
+- String getNoItemIcon()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+<details><summary>net.minecraft.world.level.ChunkPos</summary>
 
 ```diff
-+ boolean lambda$unpackStructureReferences$5(String,long)
-+ Map unpackStructureReferences(CompoundTag)
-- Map unpackStructureReferences(CompoundTag)
++ int getChessboardDistance(ChunkPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
+<details><summary>net.minecraft.world.level.Explosion</summary>
 
 ```diff
-+ Path findPath(Map,float,int,float)
-+ Path findPath(Set,float,int,float)
-- Path findPath(Map,float,int)
-- Path findPath(Set,float,int)
-- void setNodeEvaluator(NodeEvaluator)
++ void addBlockDrops(ObjectArrayList,ItemStack)
++ void lambda$finalizeExplosion$0(ObjectArrayList,ItemStack)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.block.SignBlock</summary>
 
+```diff
++ void <init>(Block$Properties,WoodType)
+- void <init>(Block$Properties)
++ WoodType type()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.StandingSignBlock</summary>
 
+```diff
++ void <init>(Block$Properties,WoodType)
+- void <init>(Block$Properties)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.world.entity.animal.Bee$BeeGoToBlockGoal
@@ -7628,13 +5355,182 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Matrix3f</summary>
+
+```diff
+- float get(int,int)
+- void <init>(float[])
+- void set(int,int,float)
+- void swap(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ void throwAsRuntime(Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
++ void assertEntityPresent(EntityType,BlockPos,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
+
+```diff
+- int getBlockLightLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.util.RandomPos</summary>
+
+```diff
+- BlockPos moveAboveSolid(BlockPos,int,int,Predicate)
++ BlockPos moveUpToAboveSolid(BlockPos,int,int,Predicate)
+- boolean isWaterDestination(BlockPos,PathfinderMob)
++ boolean lambda$generateRandomPos$0(PathfinderMob,BlockPos)
+- boolean lambda$generateRandomPos$2(PathfinderMob,BlockPos)
+- boolean lambda$getAirPos$1(BlockPos)
+- boolean lambda$getPosAboveSolid$0(PathfinderMob,BlockPos)
++ Vec3 generateRandomPos(PathfinderMob,int,int,int,Vec3,boolean,double,ToDoubleFunction,boolean,int,int,boolean)
+- Vec3 generateRandomPos(PathfinderMob,int,int,int,Vec3,boolean,double,ToDoubleFunction,boolean,Predicate,int,int,boolean)
+- Vec3 generateRandomPos(PathfinderMob,int,int,Vec3,boolean,double,ToDoubleFunction)
+- Vec3 generateRandomPos(PathfinderMob,int,int,Vec3,boolean)
+- Vec3 generateRandomPos(PathfinderMob,int,int,Vec3)
++ Vec3 getAboveLandPos(PathfinderMob,int,int,Vec3,float,int,int)
++ Vec3 getAirPosTowards(PathfinderMob,int,int,int,Vec3,double)
+- Vec3 getPosAboveSolid(PathfinderMob,int,int,Vec3,float,int,int)
+- Vec3 getPosTowards(PathfinderMob,int,int,Direction,double)
+- Vec3 getPosTowards(PathfinderMob,int,int,Vec3,boolean)
+- Vec3 getPosTowards(PathfinderMob,int,int,Vec3,double,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Bee</summary>
+
+```diff
++ Bee$BeeGoToHiveGoal access$4800(Bee)
+- Bee$BeePollinateGoal access$300(Bee)
++ Bee$BeePollinateGoal access$700(Bee)
+- BlockPos access$1100(Bee)
+- BlockPos access$1102(Bee,BlockPos)
++ BlockPos access$1500(Bee)
++ BlockPos access$1502(Bee,BlockPos)
++ BlockPos access$3200(Bee)
++ BlockPos access$3202(Bee,BlockPos)
+- BlockPos access$800(Bee)
+- BlockPos access$802(Bee,BlockPos)
+- boolean access$1000(Bee)
++ boolean access$1400(Bee)
++ boolean access$1600(Bee,BlockPos,int)
++ boolean access$1800(Bee)
++ boolean access$2400(Bee,BlockPos)
++ boolean access$3300(Bee,BlockPos)
++ boolean access$5100(Bee,BlockPos)
+- boolean access$700(Bee)
+- boolean canEnterHive()
++ boolean closerThan(BlockPos,int)
++ boolean doesHiveHaveSpace(BlockPos)
++ boolean isFlowerValid(BlockPos)
++ boolean isHiveNearFire()
++ boolean isTiredOfLookingForNectar()
++ boolean isTooFarAway(BlockPos)
++ boolean wantsToEnterHive()
++ float getWalkTargetValue(BlockPos,LevelReader)
+- int access$1200(Bee)
+- int access$1800(Bee)
++ int access$3000(Bee)
++ int access$3002(Bee,int)
++ int access$3700(Bee)
++ int access$3800(Bee)
++ int access$3802(Bee,int)
++ int access$5200(Bee)
++ int getTravellingTicks()
++ List getBlacklistedHives()
++ PathNavigation access$1100(Bee)
++ PathNavigation access$1200(Bee)
++ PathNavigation access$1300(Bee)
++ PathNavigation access$1900(Bee)
++ PathNavigation access$2000(Bee)
++ PathNavigation access$2100(Bee)
++ PathNavigation access$2200(Bee)
++ PathNavigation access$2300(Bee)
++ PathNavigation access$2600(Bee)
++ PathNavigation access$2700(Bee)
++ PathNavigation access$2800(Bee)
++ PathNavigation access$2900(Bee)
++ PathNavigation access$3100(Bee)
++ PathNavigation access$3400(Bee)
++ PathNavigation access$3500(Bee)
++ PathNavigation access$3600(Bee)
++ PathNavigation access$4000(Bee)
++ PathNavigation access$4300(Bee)
++ PathNavigation access$4500(Bee)
++ PathNavigation access$900(Bee)
++ Random access$1000(Bee)
+- Random access$1300(Bee)
+- Random access$1400(Bee)
+- Random access$1500(Bee)
+- Random access$1600(Bee)
+- Random access$1700(Bee)
+- Random access$1900(Bee)
+- Random access$2000(Bee)
++ Random access$3900(Bee)
++ Random access$4100(Bee)
++ Random access$4400(Bee)
++ Random access$4600(Bee)
++ Random access$4700(Bee)
++ Random access$5300(Bee)
++ Random access$5400(Bee)
+- Random access$600(Bee)
+- void access$2100(Bee)
++ void access$2500(Bee,BlockPos)
++ void access$4200(Bee,boolean)
++ void access$5500(Bee)
++ void pathfindRandomlyTowards(BlockPos)
+- void resetTicksSincePollination()
++ void resetTicksWithoutNectarSinceExitingHive()
+- void setCannotEnterHiveTicks(int)
++ void setStayOutOfHiveCountdown(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
+
+```diff
++ boolean lambda$unpackStructureReferences$5(ChunkPos,String,long)
++ Map unpackStructureReferences(ChunkPos,CompoundTag)
+- Map unpackStructureReferences(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
+
+```diff
++ Path findPath(Node,Map,float,int,float)
+- Path findPath(Node,Map,float,int)
++ Path findPath(PathNavigationRegion,Mob,Set,float,int,float)
+- Path findPath(PathNavigationRegion,Mob,Set,float,int)
+- void setNodeEvaluator(NodeEvaluator)
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w13a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w13a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-03-31T16:17:46+00:00</td></tr>
@@ -10,6523 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/13ef5a693f7437b18c322654749db3ec895ba97e/server.txt">https://piston-data.mojang.com/v1/objects/13ef5a693f7437b18c322654749db3ec895ba97e/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/507be109a1902b7c3b30c1e900299344c7c0bee6/client.jar">https://piston-data.mojang.com/v1/objects/507be109a1902b7c3b30c1e900299344c7c0bee6/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/be3ba1ca24543ecd73f240c36a3aa61916fa4d0c/client.txt">https://piston-data.mojang.com/v1/objects/be3ba1ca24543ecd73f240c36a3aa61916fa4d0c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w11a">21w11a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/entities/goat.json
-+  minecraft/tags/blocks/dirt.json
-+  minecraft/tags/blocks/snow.json
-+  minecraft/tags/entity_types/axolotl_hunt_targets.json
--  minecraft/tags/entity_types/axolotl_tempted_hostiles.json
-+  minecraft/tags/entity_types/freeze_hurts_extra_types.json
-+  minecraft/tags/entity_types/freeze_immune_entity_types.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/light.json
-+  minecraft/models/block/light.json
-+  minecraft/models/item/goat_spawn_egg.json
-+  minecraft/models/item/light.json
-+  minecraft/models/item/light_00.json
-+  minecraft/models/item/light_01.json
-+  minecraft/models/item/light_02.json
-+  minecraft/models/item/light_03.json
-+  minecraft/models/item/light_04.json
-+  minecraft/models/item/light_05.json
-+  minecraft/models/item/light_06.json
-+  minecraft/models/item/light_07.json
-+  minecraft/models/item/light_08.json
-+  minecraft/models/item/light_09.json
-+  minecraft/models/item/light_10.json
-+  minecraft/models/item/light_11.json
-+  minecraft/models/item/light_12.json
-+  minecraft/models/item/light_13.json
-+  minecraft/models/item/light_14.json
-+  minecraft/models/item/light_15.json
-+  minecraft/particles/light.json
--  minecraft/textures/block/calibrated_sculk_sensor_side.png
--  minecraft/textures/block/calibrated_sculk_sensor_top.png
-+  minecraft/textures/entity/goat
-+  minecraft/textures/entity/goat/goat.png
--  minecraft/textures/entity/zombie/zombie_villager.png
--  minecraft/textures/entity/arrow.png
-+  minecraft/textures/item/light.png
-+  minecraft/textures/item/light_00.png
-+  minecraft/textures/item/light_01.png
-+  minecraft/textures/item/light_02.png
-+  minecraft/textures/item/light_03.png
-+  minecraft/textures/item/light_04.png
-+  minecraft/textures/item/light_05.png
-+  minecraft/textures/item/light_06.png
-+  minecraft/textures/item/light_07.png
-+  minecraft/textures/item/light_08.png
-+  minecraft/textures/item/light_09.png
-+  minecraft/textures/item/light_10.png
-+  minecraft/textures/item/light_11.png
-+  minecraft/textures/item/light_12.png
-+  minecraft/textures/item/light_13.png
-+  minecraft/textures/item/light_14.png
-+  minecraft/textures/item/light_15.png
--  minecraft/textures/item/ruby.png
--  minecraft/textures/models/armor/piglin_leather_layer_1.png
--  minecraft/textures/models/armor/piglin_leather_layer_1_overlay.png
--  minecraft/textures/particle/footprint.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-- worldgen/float_provider_type.txt
-+ float_provider_type.txt
-+ height_provider_type.txt
-+ int_provider_type.txt
-```
-
-</details>
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:long_jump
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:light
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:goat
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:light
-+ minecraft:goat_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:nearest_attackable
-+ minecraft:long_jump_cooling_down
-+ minecraft:long_jump_mid_jump
-+ minecraft:has_hunting_cooldown
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:light
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-- minecraft:axolotl_hostiles
-+ minecraft:axolotl_attackables
-+ minecraft:goat_temptations
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.goat.ambient
-+ minecraft:entity.goat.death
-+ minecraft:entity.goat.hurt
-+ minecraft:entity.goat.milk
-+ minecraft:entity.goat.prepare_ram
-+ minecraft:entity.goat.screaming.ambient
-+ minecraft:entity.goat.screaming.death
-+ minecraft:entity.goat.screaming.hurt
-+ minecraft:entity.goat.screaming.milk
-+ minecraft:entity.goat.screaming.ram
-+ minecraft:entity.goat.step
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- entity_types/axolotl_tempted_hostiles.json
-+ blocks/dirt.json
-+ blocks/snow.json
-+ entity_types/axolotl_hunt_targets.json
-+ entity_types/freeze_hurts_extra_types.json
-+ entity_types/freeze_immune_entity_types.json
-```
-
-</details>
-
-<details><summary>blocks/bamboo_plantable_on.json</summary>
-
-```diff
-- minecraft:dirt
-- minecraft:podzol
-- minecraft:coarse_dirt
-+ #minecraft:dirt
-```
-
-</details>
-
-<details><summary>blocks/enderman_holdable.json</summary>
-
-```diff
-- minecraft:dirt
-- minecraft:coarse_dirt
-- minecraft:podzol
-+ #minecraft:dirt
-```
-
-</details>
-
-<details><summary>blocks/slabs.json</summary>
-
-```diff
-+ minecraft:waxed_weathered_cut_copper_slab
-+ minecraft:waxed_exposed_cut_copper_slab
-+ minecraft:waxed_cut_copper_slab
-+ minecraft:oxidized_cut_copper_slab
-+ minecraft:weathered_cut_copper_slab
-+ minecraft:exposed_cut_copper_slab
-+ minecraft:cut_copper_slab
-```
-
-</details>
-
-<details><summary>blocks/small_flowers.json</summary>
-
-```diff
-+ minecraft:azalea_leaves_flowers
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>blocks/stairs.json</summary>
-
-```diff
-+ minecraft:oxidized_cut_copper_stairs
-+ minecraft:weathered_cut_copper_stairs
-+ minecraft:exposed_cut_copper_stairs
-+ minecraft:cut_copper_stairs
-+ minecraft:waxed_weathered_cut_copper_stairs
-+ minecraft:waxed_exposed_cut_copper_stairs
-+ minecraft:waxed_cut_copper_stairs
-```
-
-</details>
-
-<details><summary>entity_types/axolotl_always_hostiles.json</summary>
-
-```diff
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:salmon
-- minecraft:cod
-- minecraft:squid
-- minecraft:glow_squid
-+ minecraft:drowned
-+ minecraft:guardian
-+ minecraft:elder_guardian
-```
-
-</details>
-
-<details><summary>items/freeze_immune_wearables.json</summary>
-
-```diff
-+ minecraft:leather_horse_armor
-```
-
-</details>
-
-<details><summary>items/slabs.json</summary>
-
-```diff
-+ minecraft:waxed_weathered_cut_copper_slab
-+ minecraft:waxed_exposed_cut_copper_slab
-+ minecraft:waxed_cut_copper_slab
-+ minecraft:oxidized_cut_copper_slab
-+ minecraft:weathered_cut_copper_slab
-+ minecraft:exposed_cut_copper_slab
-+ minecraft:cut_copper_slab
-```
-
-</details>
-
-<details><summary>items/small_flowers.json</summary>
-
-```diff
-+ minecraft:azalea_leaves_flowers
-+ minecraft:flowering_azalea
-```
-
-</details>
-
-<details><summary>items/stairs.json</summary>
-
-```diff
-+ minecraft:oxidized_cut_copper_stairs
-+ minecraft:weathered_cut_copper_stairs
-+ minecraft:exposed_cut_copper_stairs
-+ minecraft:cut_copper_stairs
-+ minecraft:waxed_weathered_cut_copper_stairs
-+ minecraft:waxed_exposed_cut_copper_stairs
-+ minecraft:waxed_cut_copper_stairs
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ entities/goat.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ light.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- entity_types/axolotl_tempted_hostiles.json
-+ blocks/dirt.json
-+ blocks/snow.json
-+ entity_types/axolotl_hunt_targets.json
-+ entity_types/freeze_hurts_extra_types.json
-+ entity_types/freeze_immune_entity_types.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/calibrated_sculk_sensor_side.png
-- block/calibrated_sculk_sensor_top.png
-- entity/arrow.png
-- entity/zombie/zombie_villager.png
-- item/ruby.png
-- models/armor/piglin_leather_layer_1.png
-- models/armor/piglin_leather_layer_1_overlay.png
-- particle/footprint.png
-+ entity/goat/goat.png
-+ item/light.png
-+ item/light_00.png
-+ item/light_01.png
-+ item/light_02.png
-+ item/light_03.png
-+ item/light_04.png
-+ item/light_05.png
-+ item/light_06.png
-+ item/light_07.png
-+ item/light_08.png
-+ item/light_09.png
-+ item/light_10.png
-+ item/light_11.png
-+ item/light_12.png
-+ item/light_13.png
-+ item/light_14.png
-+ item/light_15.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:brigadier:1.0.17
-+ com.mojang:brigadier:1.0.18
-```
-
-</details>
-
-## Mappings
-
-<details><summary>com.mojang.blaze3d.Blaze3D</summary>
-
-```diff
-+ void <init>()
-+ void process(RenderPipeline,float)
-+ void render(RenderPipeline,float)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.font.GlyphInfo</summary>
-
-```diff
-+ float getBearingY()
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
-
-```diff
-+ int ALPHA_CHANNEL
-+ int BLUE_CHANNEL
-+ int GREEN_CHANNEL
-+ int RED_CHANNEL
-+ void bindRead()
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.GlStateManager</summary>
-
-```diff
-+ int TEXTURE_COUNT
-+ int getBoundFramebuffer()
-+ int glGenRenderbuffers()
-+ void _glBindRenderbuffer(int,int)
-+ void _glCopyTexSubImage2D(int,int,int,int,int,int,int,int)
-+ void _glDeleteRenderbuffers(int)
-+ void _glDrawPixels(int,int,int,int,long)
-+ void _glFramebufferRenderbuffer(int,int,int,int)
-+ void _glRenderbufferStorage(int,int,int,int)
-+ void _readPixels(int,int,int,int,int,int,long)
-+ void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlStateManager$Viewport</summary>
-
-```diff
-+ int height()
-+ int width()
-+ int x()
-+ int y()
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.InputConstants</summary>
-
-```diff
-+ int CURSOR
-+ int CURSOR_DISABLED
-+ int CURSOR_NORMAL
-+ int KEY_0
-+ int KEY_1
-+ int KEY_2
-+ int KEY_3
-+ int KEY_4
-+ int KEY_5
-+ int KEY_6
-+ int KEY_7
-+ int KEY_8
-+ int KEY_9
-+ int KEY_A
-+ int KEY_ADD
-+ int KEY_APOSTROPHE
-+ int KEY_B
-+ int KEY_BACKSLASH
-+ int KEY_BACKSPACE
-+ int KEY_C
-+ int KEY_CAPSLOCK
-+ int KEY_COMMA
-+ int KEY_D
-+ int KEY_DELETE
-+ int KEY_DOWN
-+ int KEY_E
-+ int KEY_END
-+ int KEY_EQUALS
-+ int KEY_ESCAPE
-+ int KEY_F
-+ int KEY_F1
-+ int KEY_F10
-+ int KEY_F11
-+ int KEY_F12
-+ int KEY_F13
-+ int KEY_F14
-+ int KEY_F15
-+ int KEY_F16
-+ int KEY_F17
-+ int KEY_F18
-+ int KEY_F19
-+ int KEY_F2
-+ int KEY_F20
-+ int KEY_F21
-+ int KEY_F22
-+ int KEY_F23
-+ int KEY_F24
-+ int KEY_F25
-+ int KEY_F3
-+ int KEY_F4
-+ int KEY_F5
-+ int KEY_F6
-+ int KEY_F7
-+ int KEY_F8
-+ int KEY_F9
-+ int KEY_G
-+ int KEY_GRAVE
-+ int KEY_H
-+ int KEY_HOME
-+ int KEY_I
-+ int KEY_INSERT
-+ int KEY_J
-+ int KEY_K
-+ int KEY_L
-+ int KEY_LALT
-+ int KEY_LBRACKET
-+ int KEY_LCONTROL
-+ int KEY_LEFT
-+ int KEY_LSHIFT
-+ int KEY_LWIN
-+ int KEY_M
-+ int KEY_MINUS
-+ int KEY_MULTIPLY
-+ int KEY_N
-+ int KEY_NUMLOCK
-+ int KEY_NUMPAD0
-+ int KEY_NUMPAD1
-+ int KEY_NUMPAD2
-+ int KEY_NUMPAD3
-+ int KEY_NUMPAD4
-+ int KEY_NUMPAD5
-+ int KEY_NUMPAD6
-+ int KEY_NUMPAD7
-+ int KEY_NUMPAD8
-+ int KEY_NUMPAD9
-+ int KEY_NUMPADCOMMA
-+ int KEY_NUMPADENTER
-+ int KEY_NUMPADEQUALS
-+ int KEY_O
-+ int KEY_P
-+ int KEY_PAGEDOWN
-+ int KEY_PAGEUP
-+ int KEY_PAUSE
-+ int KEY_PERIOD
-+ int KEY_PRINTSCREEN
-+ int KEY_Q
-+ int KEY_R
-+ int KEY_RALT
-+ int KEY_RBRACKET
-+ int KEY_RCONTROL
-+ int KEY_RETURN
-+ int KEY_RIGHT
-+ int KEY_RSHIFT
-+ int KEY_RWIN
-+ int KEY_S
-+ int KEY_SCROLLLOCK
-+ int KEY_SEMICOLON
-+ int KEY_SLASH
-+ int KEY_SPACE
-+ int KEY_T
-+ int KEY_TAB
-+ int KEY_U
-+ int KEY_UP
-+ int KEY_V
-+ int KEY_W
-+ int KEY_X
-+ int KEY_Y
-+ int KEY_Z
-+ int MOD_CONTROL
-+ int MOUSE_BUTTON_LEFT
-+ int MOUSE_BUTTON_MIDDLE
-+ int MOUSE_BUTTON_RIGHT
-+ int PRESS
-+ int RELEASE
-+ int REPEAT
-+ void <init>()
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.platform.Lighting</summary>
-
-```diff
-+ void <init>()
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
-
-```diff
-+ int OFFSET_A
-+ int OFFSET_B
-+ int OFFSET_G
-+ int OFFSET_R
-+ byte getBlueOrLuminance(int,int)
-+ byte getGreenOrLuminance(int,int)
-+ byte getRedOrLuminance(int,int)
-+ void blendPixel(int,int,int)
-+ void downloadDepthBuffer(float)
-+ void drawPixels()
-+ void setPixelLuminance(int,int,byte)
-+ void writeToFile(String)
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage$Format</summary>
-
-```diff
-+ boolean hasBlue()
-+ boolean hasGreen()
-+ boolean hasLuminance()
-+ boolean hasLuminanceOrBlue()
-+ boolean hasLuminanceOrGreen()
-+ boolean hasLuminanceOrRed()
-+ boolean hasRed()
-+ int blueOffset()
-+ int greenOffset()
-+ int luminanceOffset()
-+ int luminanceOrBlueOffset()
-+ int luminanceOrGreenOffset()
-+ int luminanceOrRedOffset()
-+ int redOffset()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.blaze3d.platform.PngInfo$StbReaderBufferedChannel</summary>
-
-```diff
-+ int START_BUFFER_SIZE
-```
-
-</details>
-
-
-<details><summary>com.mojang.blaze3d.platform.TextureUtil</summary>
-
-```diff
-+ int DEFAULT_IMAGE_BUFFER_SIZE
-+ int MIN_MIPMAP_LEVEL
-+ void <init>()
-+ void writeAsPNG(String,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.math.OctahedralGroup</summary>
-
-```diff
-+ Matrix3f transformation()
-+ OctahedralGroup inverse()
-```
-
-</details>
-
-<details><summary>com.mojang.math.Quaternion</summary>
-
-```diff
-+ Quaternion fromXYZ(float,float,float)
-+ Quaternion fromXYZ(Vector3f)
-+ Quaternion fromXYZDegrees(Vector3f)
-+ Quaternion fromYXZ(float,float,float)
-+ Vector3f toXYZ()
-+ Vector3f toXYZDegrees()
-+ Vector3f toYXZ()
-+ Vector3f toYXZDegrees()
-+ void slerp(Quaternion,float)
-```
-
-</details>
-
-<details><summary>com.mojang.math.Transformation</summary>
-
-```diff
-+ Quaternion getRightRotation()
-+ Transformation slerp(Transformation,float)
-+ Vector3f getScale()
-+ Vector3f getTranslation()
-```
-
-</details>
-
-<details><summary>com.mojang.math.Vector3f</summary>
-
-```diff
-+ DataResult lambda$static$1(List)
-+ List lambda$static$2(Vector3f)
-+ Vector3f lambda$null$0(List)
-+ void clamp(Vector3f)
-+ void load(Vector3f)
-- DataResult lambda$static$1(DoubleStream)
-- DoubleStream lambda$static$2(Vector3f)
-- Vector3f lambda$null$0(double[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.RealmsWorldOptions</summary>
-
-```diff
-+ boolean DEFAULT_COMMAND_BLOCKS
-+ boolean DEFAULT_FORCE_GAME_MODE
-+ boolean DEFAULT_PVP
-+ boolean DEFAULT_SPAWN_ANIMALS
-+ boolean DEFAULT_SPAWN_MONSTERS
-+ boolean DEFAULT_SPAWN_NPCS
-+ int DEFAULT_DIFFICULTY
-+ int DEFAULT_GAME_MODE
-+ int DEFAULT_SPAWN_PROTECTION
-+ long DEFAULT_TEMPLATE_ID
-+ String DEFAULT_SLOT_NAME
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.dto.UploadInfo</summary>
-
-```diff
-+ int DEFAULT_PORT
-+ String DEFAULT_SCHEMA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
-
-```diff
-+ int DAYS
-+ int HOURS
-+ int MINUTES
-+ void <init>()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.util.TextRenderingUtils$Line</summary>
-
-```diff
-+ void <init>(TextRenderingUtils$LineSegment[])
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.util.UploadTokenCache</summary>
-
-```diff
-+ void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.FileUtil</summary>
-
-```diff
-+ int MAX_FILE_NAME
-```
-
-</details>
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean COMMAND_STACK_TRACES
-+ boolean DEBUG_BEES
-+ boolean DEBUG_BLOCK_BREAK
-+ boolean DEBUG_BRAIN
-+ boolean DEBUG_CARVERS
-+ boolean DEBUG_CHUNKS
-+ boolean DEBUG_COLLISION
-+ boolean DEBUG_DISABLE_AQUIFERS
-+ boolean DEBUG_DISABLE_CARVERS
-+ boolean DEBUG_DISABLE_FEATURES
-+ boolean DEBUG_DISABLE_LIQUID_SPREADING
-+ boolean DEBUG_DISABLE_NOISE_CAVES
-+ boolean DEBUG_DISABLE_STRUCTURES
-+ boolean DEBUG_DISABLE_SURFACE
-+ boolean DEBUG_DISABLE_WATER_GENERATION
-+ boolean DEBUG_DONT_SAVE_WORLD
-+ boolean DEBUG_DUMP_INTERPOLATED_TEXTURE_FRAMES
-+ boolean DEBUG_DUMP_TEXTURE_ATLAS
-+ boolean DEBUG_GAME_EVENT_LISTENERS
-+ boolean DEBUG_GOAL_SELECTOR
-+ boolean DEBUG_HEIGHTMAP
-+ boolean DEBUG_HOTKEYS
-+ boolean DEBUG_KEEP_JIGSAW_BLOCKS_DURING_STRUCTURE_GEN
-+ boolean DEBUG_LARGE_DRIPSTONE
-+ boolean DEBUG_LIGHT
-+ boolean DEBUG_MONITOR_TICK_TIMES
-+ boolean DEBUG_NAMED_RUNNABLES
-+ boolean DEBUG_NEIGHBORSUPDATE
-+ boolean DEBUG_ONLY_GENERATE_HALF_THE_WORLD
-+ boolean DEBUG_PACKET_SERIALIZATION
-+ boolean DEBUG_PATHFINDING
-+ boolean DEBUG_RAIDS
-+ boolean DEBUG_RENDER
-+ boolean DEBUG_RESOURCE_LOAD_TIMES
-+ boolean DEBUG_SAVE_STRUCTURES_AS_SNBT
-+ boolean DEBUG_SHAPES
-+ boolean DEBUG_SHOW_SERVER_DEBUG_VALUES
-+ boolean DEBUG_SMALL_SPAWN
-+ boolean DEBUG_SOLID_FACE
-+ boolean DEBUG_STORE_CHUNK_STACKTRACES
-+ boolean DEBUG_STRUCTURE_EDIT_MODE
-+ boolean DEBUG_STRUCTURES
-+ boolean DEBUG_SUBTITLES
-+ boolean DEBUG_SYNCHRONOUS_GL_LOGS
-+ boolean DEBUG_VERBOSE_SERVER_EVENTS
-+ boolean DEBUG_VILLAGE_SECTIONS
-+ boolean DEBUG_WATER
-+ boolean DEBUG_WORLD_RECREATE
-+ boolean DEBUG_WORLDGENATTEMPT
-+ boolean ENABLE_SNOOPER
-+ boolean EXTENDED_WORLD_HEIGHT
-+ boolean FIX_TNT_DUPE
-+ boolean INGAME_DEBUG_OUTPUT
-+ boolean MULTITHREADED_RENDERING
-+ boolean NEW_WORLD_GENERATION
-+ boolean SNAPSHOT
-+ boolean USE_DEBUG_FEATURES
-+ boolean USE_NEW_RENDERSYSTEM
-+ float AVERAGE_GAME_TICKS_PER_RANDOM_TICK_PER_BLOCK
-+ float AVERAGE_RANDOM_TICKS_PER_BLOCK_PER_GAME_DAY
-+ float AVERAGE_RANDOM_TICKS_PER_BLOCK_PER_MINUTE
-+ float RAIN_THRESHOLD
-+ int DATA_PACK_FORMAT
-+ int DEFAULT_MINECRAFT_PORT
-+ int FAKE_MS_JITTER
-+ int FAKE_MS_LATENCY
-+ int MAX_CHAT_LENGTH
-+ int MAX_COMMAND_LENGTH
-+ int RELEASE_NETWORK_PROTOCOL_VERSION
-+ int RESOURCE_PACK_FORMAT
-+ int SNAPSHOT_NETWORK_PROTOCOL_VERSION
-+ int SNAPSHOT_PROTOCOL_BIT
-+ int SNBT_NAG_VERSION
-+ int TICKS_PER_GAME_DAY
-+ int TICKS_PER_MINUTE
-+ int TICKS_PER_SECOND
-+ int WORLD_RESOLUTION
-+ int WORLD_VERSION
-+ String DATA_VERSION_TAG
-+ String RELEASE_TARGET
-+ String VERSION_STRING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Camera</summary>
-
-```diff
-+ float FOG_DISTANCE_SCALE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.ClientBrandRetriever</summary>
-
-```diff
-+ String VANILLA_NAME
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.KeyMapping</summary>
-
-```diff
-+ String CATEGORY_CREATIVE
-+ String CATEGORY_GAMEPLAY
-+ String CATEGORY_INTERFACE
-+ String CATEGORY_INVENTORY
-+ String CATEGORY_MISC
-+ String CATEGORY_MOVEMENT
-+ String CATEGORY_MULTIPLAYER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ int MAX_TICKS_PER_UPDATE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.color.block.BlockColors</summary>
-
-```diff
-+ int DEFAULT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.color.item.ItemColors</summary>
-
-```diff
-+ int DEFAULT
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.Font</summary>
-
-```diff
-+ float EFFECT_DEPTH
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.Gui</summary>
-
-```diff
-+ float MIN_CROSSHAIR_ATTACK_SPEED
-+ float PORTAL_OVERLAY_ALPHA_MIN
-+ int COLOR_WHITE
-+ int LINE_HEIGHT
-+ int NUM_HEARTS_PER_ROW
-+ String SPACER
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.MapRenderer</summary>
-
-```diff
-+ int HEIGHT
-+ int WIDTH
-+ RenderType access$300()
-+ TextureManager access$200(MapRenderer)
-- MapItemSavedData retrieveMapFromRenderer(int)
-- RenderType access$400()
-- TextureManager access$300(MapRenderer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.MapRenderer$MapInstance</summary>
-
-```diff
-- MapItemSavedData access$200(MapRenderer$MapInstance)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractWidget</summary>
-
-```diff
-+ int NARRATE_DELAY_FOCUS
-+ int NARRATE_DELAY_MOUSE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ int MAX_CHAT_HISTORY
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.DebugScreenOverlay</summary>
-
-```diff
-+ int COLOR_GREY
-+ int GREEN
-+ int MARGIN_LEFT
-+ int MARGIN_RIGHT
-+ int MARGIN_TOP
-+ int RED
-+ int YELLOW
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.EditBox</summary>
-
-```diff
-+ int BACKGROUND_COLOR
-+ int BACKWARDS
-+ int BORDER_COLOR
-+ int BORDER_COLOR_FOCUSED
-+ int CURSOR_INSERT_COLOR
-+ int CURSOR_INSERT_WIDTH
-+ int DEFAULT_TEXT_COLOR
-+ int FORWARDS
-+ long NARRATE_DELAY_TYPING_MS
-+ String CURSOR_APPEND_CHARACTER
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.components.LerpingBossEvent</summary>
-
-```diff
-+ long LERP_MILLISECONDS
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.SubtitleOverlay</summary>
-
-```diff
-+ long DISPLAY_TIME
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.RecipeToast</summary>
-
-```diff
-+ long DISPLAY_TIME
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.TutorialToast</summary>
-
-```diff
-+ int PROGRESS_BAR_HEIGHT
-+ int PROGRESS_BAR_WIDTH
-+ int PROGRESS_BAR_X
-+ int PROGRESS_BAR_Y
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.font.FontManager</summary>
-
-```diff
-+ String FONTS_PATH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.glyphs.MissingGlyph</summary>
-
-```diff
-+ int MISSING_IMAGE_HEIGHT
-+ int MISSING_IMAGE_WIDTH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.font.providers.LegacyUnicodeBitmapsProvider</summary>
-
-```diff
-+ int CHARS_PER_SHEET
-+ int TEXTURE_SIZE
-+ int UNICODE_SHEETS
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ChatScreen</summary>
-
-```diff
-+ int MOUSE_SCROLL_SPEED
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
-
-```diff
-+ long NARRATION_DELAY_MS
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
-
-```diff
-+ int SLOT_BG_SIZE
-+ int SLOT_BG_X
-+ int SLOT_BG_Y
-+ int SLOT_FG_X
-+ int SLOT_FG_Y
-+ int SLOT_STAT_HEIGHT
-+ int SLOT_TEX_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.LevelLoadingScreen</summary>
-
-```diff
-+ long NARRATION_DELAY_MS
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.PauseScreen</summary>
-
-```diff
-+ String URL_BUGS
-+ String URL_FEEDBACK_RELEASE
-+ String URL_FEEDBACK_SNAPSHOT
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
-
-```diff
-+ String COPYRIGHT_TEXT
-+ String DEMO_LEVEL_ID
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.WinScreen</summary>
-
-```diff
-+ String CENTERED_PREFIX
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen</summary>
-
-```diff
-+ int HELP_TIPS_OFFSET_Y
-+ int SLOT_AREA
-+ int SLOT_AREA_PADDED
-+ int SLOT_PADDING
-+ int SPRITE_SHEET_HEIGHT
-+ int SPRITE_SHEET_WIDTH
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.debug.GameModeSwitcherScreen$GameModeIcon</summary>
-
-```diff
-+ int ICON_AREA
-+ int ICON_TOP_LEFT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractContainerScreen</summary>
-
-```diff
-+ float SNAPBACK_SPEED
-+ int DOUBLECLICK_SPEED
-+ int HOVER_ITEM_BLIT_OFFSET
-+ int QUICKDROP_DELAY
-+ int SLOT_ITEM_BLIT_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip</summary>
-
-```diff
-+ int BORDER_WIDTH
-+ int MARGIN_Y
-+ int SLOT_SIZE_X
-+ int SLOT_SIZE_Y
-+ int TEX_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.categories.SpectatorPage</summary>
-
-```diff
-+ int NO_SELECTION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.GuardianModel</summary>
-
-```diff
-+ String EYE
-+ String TAIL_0
-+ String TAIL_1
-+ String TAIL_2
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.HorseModel</summary>
-
-```diff
-+ float DEG_125
-+ float DEG_15
-+ float DEG_30
-+ float DEG_45
-+ float DEG_60
-+ String HEAD_PARTS
-+ String HEAD_SADDLE
-+ String LEFT_FRONT_BABY_LEG
-+ String LEFT_HIND_BABY_LEG
-+ String LEFT_SADDLE_LINE
-+ String LEFT_SADDLE_MOUTH
-+ String MOUTH_SADDLE_WRAP
-+ String RIGHT_FRONT_BABY_LEG
-+ String RIGHT_HIND_BABY_LEG
-+ String RIGHT_SADDLE_LINE
-+ String RIGHT_SADDLE_MOUTH
-+ String SADDLE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.LavaSlimeModel</summary>
-
-```diff
-+ int SEGMENT_COUNT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.LlamaSpitModel</summary>
-
-```diff
-+ String MAIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.OcelotModel</summary>
-
-```diff
-+ float BACK_LEG_Y
-+ float BACK_LEG_Z
-+ float BODY_WALK_Y
-+ float BODY_WALK_Z
-+ float FRONT_LEG_Y
-+ float FRONT_LEG_Z
-+ float HEAD_WALK_Y
-+ float HEAD_WALK_Z
-+ float TAIL_1_WALK_Y
-+ float TAIL_1_WALK_Z
-+ float TAIL_2_WALK_Y
-+ float TAIL_2_WALK_Z
-+ float XO
-+ float YO
-+ float ZO
-+ int CROUCH_STATE
-+ int SITTING_STATE
-+ int SPRINT_STATE
-+ int WALK_STATE
-+ String TAIL_1
-+ String TAIL_2
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.ParrotModel</summary>
-
-```diff
-+ String FEATHER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.PlayerModel</summary>
-
-```diff
-+ String CLOAK
-+ String EAR
-+ String LEFT_PANTS
-+ String LEFT_SLEEVE
-+ String RIGHT_PANTS
-+ String RIGHT_SLEEVE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.RabbitModel</summary>
-
-```diff
-+ float FRONT_JUMP_ANGLE
-+ float NEW_SCALE
-+ float REAR_JUMP_ANGLE
-+ String LEFT_HAUNCH
-+ String RIGHT_HAUNCH
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SalmonModel</summary>
-
-```diff
-+ String BODY_BACK
-+ String BODY_FRONT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.ShulkerBulletModel</summary>
-
-```diff
-+ String MAIN
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.SilverfishModel</summary>
-
-```diff
-+ int BODY_COUNT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.SpiderModel</summary>
-
-```diff
-+ String BODY_0
-+ String BODY_1
-+ String LEFT_MIDDLE_FRONT_LEG
-+ String LEFT_MIDDLE_HIND_LEG
-+ String RIGHT_MIDDLE_FRONT_LEG
-+ String RIGHT_MIDDLE_HIND_LEG
-```
-
-</details>
-
-<details><summary>net.minecraft.client.model.StriderModel</summary>
-
-```diff
-+ String LEFT_BOTTOM_BRISTLE
-+ String LEFT_MIDDLE_BRISTLE
-+ String LEFT_TOP_BRISTLE
-+ String RIGHT_BOTTOM_BRISTLE
-+ String RIGHT_MIDDLE_BRISTLE
-+ String RIGHT_TOP_BRISTLE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.model.TurtleModel</summary>
-
-```diff
-+ String EGG_BELLY
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.WolfModel</summary>
-
-```diff
-+ int LEG_SIZE
-+ String REAL_HEAD
-+ String REAL_TAIL
-+ String UPPER_BODY
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.model.geom.ModelLayers</summary>
-
-```diff
-+ ModelLayerLocation GOAT
-+ String DEFAULT_LAYER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.model.geom.PartNames</summary>
-
-```diff
-+ String ARMS
-+ String BACK_FIN
-+ String BEAK
-+ String BODY
-+ String BOTTOM_FIN
-+ String CUBE
-+ String HAT
-+ String HAT_RIM
-+ String HEAD
-+ String JACKET
-+ String JAW
-+ String LEFT_ARM
-+ String LEFT_BLUE_FIN
-+ String LEFT_CHEST
-+ String LEFT_EAR
-+ String LEFT_EYE
-+ String LEFT_FIN
-+ String LEFT_FRONT_FOOT
-+ String LEFT_FRONT_LEG
-+ String LEFT_FRONT_LEG_TIP
-+ String LEFT_GILLS
-+ String LEFT_HIND_FOOT
-+ String LEFT_HIND_LEG
-+ String LEFT_HIND_LEG_TIP
-+ String LEFT_HORN
-+ String LEFT_LEG
-+ String LEFT_LID
-+ String LEFT_WING
-+ String LEFT_WING_BASE
-+ String LEFT_WING_TIP
-+ String MANE
-+ String MOUTH
-+ String NECK
-+ String NOSE
-+ String RIGHT_ARM
-+ String RIGHT_BLUE_FIN
-+ String RIGHT_CHEST
-+ String RIGHT_EAR
-+ String RIGHT_EYE
-+ String RIGHT_FIN
-+ String RIGHT_FRONT_FOOT
-+ String RIGHT_FRONT_LEG
-+ String RIGHT_FRONT_LEG_TIP
-+ String RIGHT_GILLS
-+ String RIGHT_HIND_FOOT
-+ String RIGHT_HIND_LEG
-+ String RIGHT_HIND_LEG_TIP
-+ String RIGHT_HORN
-+ String RIGHT_LEG
-+ String RIGHT_LID
-+ String RIGHT_WING
-+ String RIGHT_WING_BASE
-+ String RIGHT_WING_TIP
-+ String TAIL
-+ String TAIL_FIN
-+ String TOP_FIN
-+ String TOP_GILLS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.DragonBreathParticle</summary>
-
-```diff
-+ float COLOR_MAX_BLUE
-+ float COLOR_MAX_GREEN
-+ float COLOR_MAX_RED
-+ float COLOR_MIN_BLUE
-+ float COLOR_MIN_GREEN
-+ float COLOR_MIN_RED
-+ int COLOR_MAX
-+ int COLOR_MIN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.ItemPickupParticle</summary>
-
-```diff
-+ int LIFE_TIME
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.AbstractClientPlayer</summary>
-
-```diff
-+ int SKIN_HAT_HEIGHT
-+ int SKIN_HAT_U
-+ int SKIN_HAT_V
-+ int SKIN_HAT_WIDTH
-+ int SKIN_HEAD_HEIGHT
-+ int SKIN_HEAD_U
-+ int SKIN_HEAD_V
-+ int SKIN_HEAD_WIDTH
-+ int SKIN_TEX_HEIGHT
-+ int SKIN_TEX_WIDTH
-+ String SKIN_URL_TEMPLATE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.player.KeyboardInput</summary>
-
-```diff
-+ double MOVING_SLOW_FACTOR
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.profiling.ActiveClientMetricsLogger</summary>
-
-```diff
-+ int PROFILING_MAX_DURATION_SECONDS
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.profiling.storage.MetricsPersister</summary>
-
-```diff
-+ String DEVIATIONS_DIR_NAME
-+ String METRICS_DIR_NAME
-+ String PROFILING_RESULT_FILENAME
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.FogRenderer</summary>
-
-```diff
-+ float BIOME_FOG_TRANSITION_TIME
-+ int WATER_FOG_DISTANCE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
-
-```diff
-+ boolean DEPTH_BUFFER_DEBUG
-+ float PROJECTION_Z_NEAR
-+ int ITEM_ACTIVATION_ANIMATION_LENGTH
-+ boolean isPanoramicMode()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.LightTexture</summary>
-
-```diff
-+ int FULL_BLOCK
-+ int FULL_BRIGHT
-+ int FULL_SKY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ int BIG_BUFFER_SIZE
-+ int BYTES_IN_INT
-+ int MEDIUM_BUFFER_SIZE
-+ int MEGABYTE
-+ int SMALL_BUFFER_SIZE
-+ int TRANSIENT_BUFFER_SIZE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.ShaderInstance</summary>
-
-```diff
-+ boolean ALWAYS_REAPPLY
-+ String SHADER_INCLUDE_PATH
-+ String SHADER_PATH
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.BeaconRenderer</summary>
-
-```diff
-+ int MAX_RENDER_Y
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.blockentity.BellRenderer</summary>
-
-```diff
-+ String BELL_BODY
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.ChestRenderer</summary>
-
-```diff
-+ String BOTTOM
-+ String LID
-+ String LOCK
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.SignRenderer</summary>
-
-```diff
-+ int LINE_HEIGHT
-+ int MAX_LINE_WIDTH
-+ String STICK
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
-
-```diff
-+ float getOffsetDown()
-+ float getOffsetUp()
-- float getOffset()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.chunk.VisGraph</summary>
-
-```diff
-+ int INVALID_INDEX
-+ int LEN
-+ int MASK
-+ int SIZE
-+ int SIZE_IN_BITS
-+ int X_SHIFT
-+ int Y_SHIFT
-+ int Z_SHIFT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.BeeDebugRenderer</summary>
-
-```diff
-+ boolean SHOW_BLACKLISTS
-+ boolean SHOW_FLOWER_POS_FOR_ALL_BEES
-+ boolean SHOW_FLOWER_POS_FOR_SELECTED_BEE
-+ boolean SHOW_GOAL_FOR_ALL_BEES
-+ boolean SHOW_GOAL_FOR_SELECTED_BEE
-+ boolean SHOW_HIVE_FOR_ALL_BEES
-+ boolean SHOW_HIVE_FOR_SELECTED_BEE
-+ boolean SHOW_HIVE_MEMBERS
-+ boolean SHOW_NAME_FOR_ALL_BEES
-+ boolean SHOW_NAME_FOR_SELECTED_BEE
-+ boolean SHOW_PATH_FOR_ALL_BEES
-+ boolean SHOW_PATH_FOR_SELECTED_BEE
-+ boolean SHOW_TRAVEL_TICKS_FOR_ALL_BEES
-+ boolean SHOW_TRAVEL_TICKS_FOR_SELECTED_BEE
-+ float TEXT_SCALE
-+ int GRAY
-+ int GREEN
-+ int HIVE_TIMEOUT
-+ int MAX_RENDER_DIST_FOR_BEE_OVERLAY
-+ int MAX_RENDER_DIST_FOR_HIVE_OVERLAY
-+ int MAX_TARGETING_DIST
-+ int ORANGE
-+ int PINK
-+ int RED
-+ int WHITE
-+ int YELLOW
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.debug.GameTestDebugRenderer</summary>
-
-```diff
-+ float PADDING
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.debug.GoalSelectorDebugRenderer</summary>
-
-```diff
-+ int MAX_RENDER_DIST
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.debug.HeightMapRenderer</summary>
-
-```diff
-+ float BOX_HEIGHT
-+ int CHUNK_DIST
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.debug.LightDebugRenderer</summary>
-
-```diff
-+ int MAX_RENDER_DIST
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.debug.PathfindingRenderer</summary>
-
-```diff
-+ boolean SHOW_GROUND_LABELS
-+ boolean SHOW_OPEN_CLOSED
-+ boolean SHOW_OPEN_CLOSED_COST_MALUS
-+ boolean SHOW_OPEN_CLOSED_NODE_TYPE_WITH_BOX
-+ boolean SHOW_OPEN_CLOSED_NODE_TYPE_WITH_TEXT
-+ float MAX_RENDER_DIST
-+ float TEXT_SCALE
-+ long TIMEOUT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.debug.VillageSectionsDebugRenderer</summary>
-
-```diff
-+ int MAX_RENDER_DIST_FOR_VILLAGE_SECTIONS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderers</summary>
-
-```diff
-+ String DEFAULT_PLAYER_MODEL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.BeeSoundInstance</summary>
-
-```diff
-+ float PITCH_MIN
-+ float VOLUME_MAX
-+ float VOLUME_MIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.resources.sounds.ElytraOnPlayerSoundInstance</summary>
-
-```diff
-+ int DELAY
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.sounds.GuardianAttackSoundInstance</summary>
-
-```diff
-+ float PITCH_MIN
-+ float PITCH_SCALE
-+ float VOLUME_MIN
-+ float VOLUME_SCALE
-```
-
-</details>
-
-<details><summary>net.minecraft.client.resources.sounds.RidingMinecartSoundInstance</summary>
-
-```diff
-+ float VOLUME_MAX
-+ float VOLUME_MIN
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.UnderwaterAmbientSoundInstances$UnderwaterAmbientSoundInstance</summary>
-
-```diff
-+ int FADE_DURATION
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.searchtree.SuffixArray</summary>
-
-```diff
-+ int END_OF_DATA
-+ int END_OF_TEXT_MARKER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ int CLIENT_VIEW_DISTANCE_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.synchronization.brigadier.BrigadierArgumentSerializers</summary>
-
-```diff
-+ byte NUMBER_FLAG_MAX
-+ byte NUMBER_FLAG_MIN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ int Y_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.FrontAndTop</summary>
-
-```diff
-+ void lambda$static$0(Int2ObjectOpenHashMap)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-+ Registry HEIGHT_PROVIDER_TYPES
-+ Registry INT_PROVIDER_TYPES
-+ ResourceKey HEIGHT_PROVIDER_TYPE_REGISTRY
-+ ResourceKey INT_PROVIDER_TYPE_REGISTRY
-+ BlockPlacerType lambda$static$45()
-+ BlockStateProviderType lambda$static$44()
-+ Codec lambda$static$50()
-+ Codec lambda$static$51()
-+ DataResult lambda$decode$56(Number)
-+ DataResult lambda$decode$58(Pair)
-+ Feature lambda$static$40()
-+ FeatureDecorator lambda$static$43()
-+ FeatureSizeType lambda$static$49()
-+ FloatProviderType lambda$static$35()
-+ FoliagePlacerType lambda$static$46()
-+ HeightProviderType lambda$static$37()
-+ IntProviderType lambda$static$36()
-+ Object lambda$keys$59(ResourceLocation)
-+ Pair lambda$decode$57(Object)
-+ StructureFeature lambda$static$41()
-+ StructurePieceType lambda$static$42()
-+ StructurePoolElementType lambda$static$53()
-+ StructureProcessorType lambda$static$52()
-+ SurfaceBuilder lambda$static$38()
-+ TreeDecoratorType lambda$static$48()
-+ TrunkPlacerType lambda$static$47()
-+ void lambda$checkRegistry$55(WritableRegistry)
-+ void lambda$static$54(Supplier)
-+ WorldCarver lambda$static$39()
-- BlockPlacerType lambda$static$43()
-- BlockStateProviderType lambda$static$42()
-- Codec lambda$static$48()
-- Codec lambda$static$49()
-- DataResult lambda$decode$54(Number)
-- DataResult lambda$decode$56(Pair)
-- Feature lambda$static$38()
-- FeatureDecorator lambda$static$41()
-- FeatureSizeType lambda$static$47()
-- FloatProviderType lambda$static$36()
-- FoliagePlacerType lambda$static$44()
-- Object lambda$keys$57(ResourceLocation)
-- Pair lambda$decode$55(Object)
-- StructureFeature lambda$static$39()
-- StructurePieceType lambda$static$40()
-- StructurePoolElementType lambda$static$51()
-- StructureProcessorType lambda$static$50()
-- SurfaceBuilder lambda$static$35()
-- TreeDecoratorType lambda$static$46()
-- TrunkPlacerType lambda$static$45()
-- void lambda$checkRegistry$53(WritableRegistry)
-- void lambda$static$52(Supplier)
-- WorldCarver lambda$static$37()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.DustParticleOptionsBase</summary>
-
-```diff
-+ float MAX_SCALE
-+ float MIN_SCALE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BlockFamilies</summary>
-
-```diff
-+ String RECIPE_GROUP_PREFIX_WOODEN
-+ String RECIPE_UNLOCKED_BY_HAS_PLANKS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
-
-```diff
-+ ConfiguredWorldCarver OLD_CANYON
-+ ConfiguredWorldCarver OLD_CAVE
-+ ConfiguredWorldCarver OLD_OCEAN_CAVE
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature OLD_FOSSIL
-+ ConfiguredFeature OLD_GLOW_LICHEN
-+ ConfiguredFeature OLD_ORE_ANDESITE
-+ ConfiguredFeature OLD_ORE_COAL
-+ ConfiguredFeature OLD_ORE_COPPER
-+ ConfiguredFeature OLD_ORE_DIAMOND
-+ ConfiguredFeature OLD_ORE_DIORITE
-+ ConfiguredFeature OLD_ORE_DIRT
-+ ConfiguredFeature OLD_ORE_EMERALD
-+ ConfiguredFeature OLD_ORE_GOLD
-+ ConfiguredFeature OLD_ORE_GRANITE
-+ ConfiguredFeature OLD_ORE_GRAVEL
-+ ConfiguredFeature OLD_ORE_INFESTED
-+ ConfiguredFeature OLD_ORE_IRON
-+ ConfiguredFeature OLD_ORE_LAPIS
-+ ConfiguredFeature OLD_ORE_REDSTONE
-+ ConfiguredFeature OLD_SPRING_WATER
-+ ConfiguredFeature OLD_VINES
-+ ConfiguredFeature ORE_DEEPSLATE
-+ ConfiguredFeature ORE_DIAMOND_LARGE
-+ ConfiguredFeature RARE_DRIPSTONE_CLUSTER_FEATURE
-+ ConfiguredFeature RARE_SMALL_DRIPSTONE_FEATURE
-+ SimpleWeightedRandomList$Builder access$000()
-+ SimpleWeightedRandomList$Builder weightedBlockStateBuilder()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestBatch</summary>
-
-```diff
-+ String DEFAULT_BATCH_NAME
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestRunner</summary>
-
-```diff
-+ int DEFAULT_TESTS_PER_ROW
-+ int MAX_TESTS_PER_BATCH
-+ int PADDING_AROUND_EACH_STRUCTURE
-+ int SPACE_BETWEEN_COLUMNS
-+ int SPACE_BETWEEN_ROWS
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.GameTestSequence$Condition</summary>
-
-```diff
-+ long NOT_TRIGGERED
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.MultipleTestTracker</summary>
-
-```diff
-+ char FAILED_OPTIONAL_TEST_CHAR
-+ char FAILED_REQUIRED_TEST_CHAR
-+ char NOT_STARTED_TEST_CHAR
-+ char ONGOING_TEST_CHAR
-+ char SUCCESSFUL_TEST_CHAR
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ByteArrayTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.ByteTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
-
-```diff
-+ int MAP_ENTRY_SIZE_IN_BITS
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.DoubleTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.EndTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.FloatTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntArrayTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.IntTag$Cache</summary>
-
-```diff
-+ int HIGH
-+ int LOW
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtUtils</summary>
-
-```diff
-+ char KEY_VALUE_SEPARATOR
-+ char PROPERTIES_END
-+ char PROPERTIES_START
-+ int INDENT
-+ int NOT_FOUND
-+ String ELEMENT_SEPARATOR
-+ String SNBT_DATA_TAG
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.ShortTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.ShortTag$Cache</summary>
-
-```diff
-+ int HIGH
-+ int LOW
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.StringTag</summary>
-
-```diff
-+ char DOUBLE_QUOTE
-+ char ESCAPE
-+ char NOT_SET
-+ char SINGLE_QUOTE
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.TagParser</summary>
-
-```diff
-+ char ELEMENT_SEPARATOR
-+ char LIST_CLOSE
-+ char LIST_OPEN
-+ char NAME_VALUE_SEPARATOR
-+ char STRUCT_CLOSE
-+ char STRUCT_OPEN
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.CompressionDecoder</summary>
-
-```diff
-+ int MAXIMUM_DECOMPRESSED_LENGTH
-```
-
-</details>
-
-<details><summary>net.minecraft.network.Connection</summary>
-
-```diff
-+ float AVERAGE_PACKETS_SMOOTHING
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.ConnectionProtocol</summary>
-
-```diff
-+ int MAX_PROTOCOL_ID
-+ int MIN_PROTOCOL_ID
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.FriendlyByteBuf</summary>
-
-```diff
-+ int DEFAULT_NBT_QUOTA
-+ int MAX_COMPONENT_STRING_LENGTH
-+ int MAX_VARINT_SIZE
-+ int MAX_VARLONG_SIZE
-+ short MAX_STRING_LENGTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.NbtComponent</summary>
-
-```diff
-+ String SEPARATOR
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.chat.ScoreComponent</summary>
-
-```diff
-+ String SCORER_PLACEHOLDER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.chat.TextColor</summary>
-
-```diff
-+ String CUSTOM_COLOR_PREFIX
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAddEntityPacket</summary>
-
-```diff
-+ double LIMIT
-+ double MAGICAL_QUANTIZATION
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundAnimatePacket</summary>
-
-```diff
-+ int CRITICAL_HIT
-+ int HURT
-+ int MAGIC_CRITICAL_HIT
-+ int SWING_MAIN_HAND
-+ int SWING_OFF_HAND
-+ int WAKE_UP
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
-
-```diff
-+ int TYPE_ADV_COMMAND
-+ int TYPE_BANNER
-+ int TYPE_BEACON
-+ int TYPE_BED
-+ int TYPE_BEEHIVE
-+ int TYPE_CAMPFIRE
-+ int TYPE_CONDUIT
-+ int TYPE_END_GATEWAY
-+ int TYPE_JIGSAW
-+ int TYPE_MOB_SPAWNER
-+ int TYPE_SIGN
-+ int TYPE_SKULL
-+ int TYPE_STRUCT_COMMAND
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCustomSoundPacket</summary>
-
-```diff
-+ float LOCATION_ACCURACY
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLevelChunkPacket</summary>
-
-```diff
-+ int TWO_MEGABYTES
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLoginPacket</summary>
-
-```diff
-+ int HARDCORE_FLAG
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket</summary>
-
-```diff
-+ int FLAG_CAN_FLY
-+ int FLAG_FLYING
-+ int FLAG_INSTABUILD
-+ int FLAG_INVULNERABLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundResourcePackPacket</summary>
-
-```diff
-+ int MAX_HASH_LENGTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSetEquipmentPacket</summary>
-
-```diff
-+ byte CONTINUE_MASK
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSoundPacket</summary>
-
-```diff
-+ float LOCATION_ACCURACY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundChatPacket</summary>
-
-```diff
-+ int MAX_MESSAGE_LENGTH
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket</summary>
-
-```diff
-+ int MAX_PAYLOAD_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundPlayerAbilitiesPacket</summary>
-
-```diff
-+ int FLAG_FLYING
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket</summary>
-
-```diff
-+ int FLAG_AUTOMATIC
-+ int FLAG_CONDITIONAL
-+ int FLAG_TRACK_OUTPUT
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSetStructureBlockPacket</summary>
-
-```diff
-+ int FLAG_IGNORE_ENTITIES
-+ int FLAG_SHOW_AIR
-+ int FLAG_SHOW_BOUNDING_BOX
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.FrameTimer</summary>
-
-```diff
-+ int LOGGING_LENGTH
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ double ONE_SIXTH
-+ float BIG_ENOUGH_FLOAT
-+ float DEG_TO_RAD
-+ float EPSILON
-+ float HALF_PI
-+ float PI
-+ float RAD_TO_DEG
-+ float SIN_SCALE
-+ float TWO_PI
-+ int BIG_ENOUGH_INT
-+ int FRAC_EXP
-+ int LUT_SIZE
-+ long UUID_VARIANT
-+ long UUID_VARIANT_2
-+ long UUID_VERSION
-+ long UUID_VERSION_TYPE_4
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.SortedArraySet</summary>
-
-```diff
-+ int DEFAULT_INITIAL_CAPACITY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.DifficultyInstance</summary>
-
-```diff
-+ float DIFFICULTY_TIME_GLOBAL_OFFSET
-+ float MAX_DIFFICULTY_TIME_GLOBAL
-+ float MAX_DIFFICULTY_TIME_LOCAL
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.LockCode</summary>
-
-```diff
-+ String TAG_LOCK
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.CombatRules</summary>
-
-```diff
-+ float ARMOR_PROTECTION_DIVIDER
-+ float BASE_ARMOR_TOUGHNESS
-+ float MAX_ARMOR
-+ float MIN_ARMOR_RATIO
-+ int NUM_ARMOR_ITEMS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ double DELTA_AFFECTED_BY_BLOCKS_BELOW
-+ double LAVA_FAST_FLOW_SCALE
-+ double LAVA_SLOW_FLOW_SCALE
-+ double WATER_FLOW_SCALE
-+ float BREATHING_DISTANCE_BELOW_EYES
-+ float DEFAULT_BB_HEIGHT
-+ float DEFAULT_BB_WIDTH
-+ int BASE_TICKS_REQUIRED_TO_FREEZE
-+ int BOARDING_COOLDOWN
-+ int FLAG_FALL_FLYING
-+ int FLAG_GLOWING
-+ int FLAG_INVISIBLE
-+ int FLAG_ONFIRE
-+ int FLAG_SHIFT_KEY_DOWN
-+ int FLAG_SPRINTING
-+ int FLAG_SWIMMING
-+ int FREEZE_HURT_FREQUENCY
-+ int MAX_ENTITY_TAG_COUNT
-+ int TOTAL_AIR_SUPPLY
-+ String ID_TAG
-+ String PASSENGERS_TAG
-+ String UUID_TAG
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.EntityEvent</summary>
-
-```diff
-+ byte ARMORSTAND_WOBBLE
-+ byte ATTACK_BLOCKED
-+ byte BAD_OMEN_TRIGGERED
-+ byte BURNED
-+ byte CANCEL_SHAKE_WETNESS
-+ byte CHEST_BREAK
-+ byte DEATH
-+ byte DOLPHIN_LOOKING_FOR_TREASURE
-+ byte DROWNED
-+ byte EAT_GRASS
-+ byte FEET_BREAK
-+ byte FIREWORKS_EXPLODE
-+ byte FISHING_ROD_REEL_IN
-+ byte FOX_EAT
-+ byte FROZEN
-+ byte FULL_DEBUG_INFO
-+ byte GUARDIAN_ATTACK_SOUND
-+ byte HEAD_BREAK
-+ byte HONEY_JUMP
-+ byte HONEY_SLIDE
-+ byte HURT
-+ byte IN_LOVE_HEARTS
-+ byte JUMP
-+ byte LEGS_BREAK
-+ byte LOVE_HEARTS
-+ byte MAINHAND_BREAK
-+ byte OFFER_FLOWER
-+ byte OFFHAND_BREAK
-+ byte PERMISSION_LEVEL_ADMINS
-+ byte PERMISSION_LEVEL_ALL
-+ byte PERMISSION_LEVEL_GAMEMASTERS
-+ byte PERMISSION_LEVEL_MODERATORS
-+ byte PERMISSION_LEVEL_OWNERS
-+ byte POKED
-+ byte RAVAGER_STUNNED
-+ byte REDUCED_DEBUG_INFO
-+ byte SHAKE_WETNESS
-+ byte SHIELD_DISABLED
-+ byte SILVERFISH_MERGE_ANIM
-+ byte SQUID_ANIM_SYNCH
-+ byte START_ATTACKING
-+ byte STOP_ATTACKING
-+ byte STOP_OFFER_FLOWER
-+ byte SWAP_HANDS
-+ byte TALISMAN_ACTIVATE
-+ byte TAMING_FAILED
-+ byte TAMING_SUCCEEDED
-+ byte TELEPORT
-+ byte THORNED
-+ byte TRUSTING_FAILED
-+ byte TRUSTING_SUCCEEDED
-+ byte USE_ITEM_COMPLETE
-+ byte VILLAGER_ANGRY
-+ byte VILLAGER_HAPPY
-+ byte VILLAGER_SWEAT
-+ byte WITCH_HAT_MAGIC
-+ byte ZOMBIE_CONVERTING
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean discardFriction
-+ double DEFAULT_BASE_GRAVITY
-+ double MIN_MOVEMENT_DISTANCE
-+ float DEFAULT_EYE_HEIGHT
-+ float EXTRA_RENDER_CULLING_SIZE_WITH_BIG_HAT
-+ int ARMOR_SLOT_OFFSET
-+ int ARMOR_SLOTS
-+ int DAMAGE_SOURCE_TIMEOUT
-+ int DEATH_DURATION
-+ int EQUIPMENT_SLOT_OFFSET
-+ int FREE_FALL_EVENTS_PER_ELYTRA_BREAK
-+ int HAND_SLOTS
-+ int LIVING_ENTITY_FLAG_IS_USING
-+ int LIVING_ENTITY_FLAG_OFF_HAND
-+ int LIVING_ENTITY_FLAG_SPIN_ATTACK
-+ int PLAYER_HURT_EXPERIENCE_TIME
-+ int SWING_DURATION
-+ int TICKS_PER_ELYTRA_FREE_FALL_EVENT
-+ int USE_ITEM_INTERVAL
-+ int WAIT_TICKS_BEFORE_ITEM_USE_EFFECTS
-+ boolean shouldDiscardFriction()
-+ void setDiscardFriction(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ float MAX_ENCHANTED_ARMOR_CHANCE
-+ float MAX_ENCHANTED_WEAPON_CHANCE
-+ float MAX_PICKUP_LOOT_CHANCE
-+ float MAX_WEARING_ARMOR_CHANCE
-+ int MOB_FLAG_AGGRESSIVE
-+ int MOB_FLAG_LEFTHANDED
-+ int MOB_FLAG_NO_AI
-+ int PICKUP_REACH
-+ String LEASH_TAG
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.MobCategory</summary>
-
-```diff
-+ MobCategory UNDERGROUND_WATER_CREATURE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.NeutralMob</summary>
-
-```diff
-+ String TAG_ANGER_TIME
-+ String TAG_ANGRY_AT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.Brain</summary>
-
-```diff
-+ int SCHEDULE_UPDATE_DELAY
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.Attribute</summary>
-
-```diff
-+ int MAX_NAME_LENGTH
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi$JitteredLinearRetry</summary>
-
-```diff
-+ int MAX_INTERVAL_INCREASE
-+ int MAX_RETRY_PATHFINDING_INTERVAL
-+ int MIN_INTERVAL_INCREASE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.Mount</summary>
-
-```diff
-+ int CLOSE_ENOUGH_TO_START_RIDING_DIST
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToTargetSink</summary>
-
-```diff
-+ int MAX_COOLDOWN_BEFORE_RETRYING
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
-
-```diff
-+ int MAX_XZ_DIST
-+ int MAX_Y_DIST
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RunSometimes</summary>
-
-```diff
-+ UniformInt interval
-- IntRange interval
-+ void <init>(UniformInt)
-+ void <init>(UniformInt)
-- void <init>(IntRange)
-- void <init>(IntRange)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.ShowTradesToPlayer</summary>
-
-```diff
-+ int MAX_LOOK_TIME
-+ int STARTING_LOOK_TIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SocializeAtBell</summary>
-
-```diff
-+ float SPEED_MODIFIER
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.UseBonemeal</summary>
-
-```diff
-+ int BONEMEALING_DURATION
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerCalmDown</summary>
-
-```diff
-+ int SAFE_DISTANCE_FROM_DANGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerMakeLove</summary>
-
-```diff
-+ float SPEED_MODIFIER
-+ int INTERACT_DIST_SQR
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.WorkAtPoi</summary>
-
-```diff
-+ double DISTANCE
-+ int CHECK_COOLDOWN
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.control.MoveControl</summary>
-
-```diff
-+ float MIN_SPEED
-+ float MIN_SPEED_SQR
-+ int MAX_TURN
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.control.SmoothSwimmingLookControl</summary>
-
-```diff
-+ int HEAD_TILT_X
-+ int HEAD_TILT_Y
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.BreakDoorGoal</summary>
-
-```diff
-+ int DEFAULT_DOOR_BREAK_TIME
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.FollowParentGoal</summary>
-
-```diff
-+ int DONT_FOLLOW_IF_CLOSER_THAN
-+ int HORIZONTAL_SCAN_RANGE
-+ int VERTICAL_SCAN_RANGE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.GolemRandomStrollInVillageGoal</summary>
-
-```diff
-+ int POI_SECTION_SCAN_RADIUS
-+ int RANDOM_POS_XY_DISTANCE
-+ int RANDOM_POS_Y_DISTANCE
-+ int VILLAGER_SCAN_RADIUS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.MeleeAttackGoal</summary>
-
-```diff
-+ long COOLDOWN_BETWEEN_CAN_USE_CHECKS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.goal.RandomStrollGoal</summary>
-
-```diff
-+ int DEFAULT_INTERVAL
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.RangedCrossbowAttackGoal</summary>
-
-```diff
-+ UniformInt PATHFINDING_DELAY_RANGE
-- IntRange PATHFINDING_DELAY_RANGE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.goal.RemoveBlockGoal</summary>
-
-```diff
-+ int WAIT_AFTER_BLOCK_FOUND
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.StrollThroughVillageGoal</summary>
-
-```diff
-+ int DISTANCE_THRESHOLD
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestBedSensor</summary>
-
-```diff
-+ int BATCH_SIZE
-+ int CACHE_TIMEOUT
-+ int RATE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
-
-```diff
-+ int INV_CHEST_COUNT
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ int CHEST_SLOT_OFFSET
-+ int EQUIPMENT_SLOT_OFFSET
-+ int FLAG_BRED
-+ int FLAG_EATING
-+ int FLAG_OPEN_MOUTH
-+ int FLAG_SADDLE
-+ int FLAG_STANDING
-+ int FLAG_TAME
-+ int INV_BASE_COUNT
-+ int INV_SLOT_ARMOR
-+ int INV_SLOT_SADDLE
-+ int INVENTORY_SLOT_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.SkeletonHorse</summary>
-
-```diff
-+ int TRAP_MAX_LIFE
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ float SITTING_ALLOWED_DAMAGE_PERCENTAGE
-+ int GROWL_INTERVAL_MAX
-+ int GROWL_INTERVAL_MIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.DragonChargePlayerPhase</summary>
-
-```diff
-+ int CHARGE_RECOVERY_TIME
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.DragonSittingFlamingPhase</summary>
-
-```diff
-+ int FLAME_DURATION
-+ int SITTING_FLAME_ATTACKS_COUNT
-+ int WARMUP_TIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.DragonStrafePlayerPhase</summary>
-
-```diff
-+ int FIREBALL_CHARGE_AMOUNT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-+ int INVULNERABLE_TICKS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ int NUM_ROTATIONS
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ int INFINITE_LIFETIME
-+ int INFINITE_PICKUP_DELAY
-+ int LIFETIME
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
-
-```diff
-+ boolean isShaking()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Endermite</summary>
-
-```diff
-+ int MAX_LIFE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
-
-```diff
-+ int ATTACK_TIME
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.PatrollingMonster$LongDistancePatrolGoal</summary>
-
-```diff
-+ int NAVIGATION_FAILED_COOLDOWN
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
-
-```diff
-+ float CROSSBOW_POWER
-+ int INVENTORY_SIZE
-+ int SLOT_OFFSET
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-+ double ATTACK_MOVEMENT_SPEED
-+ double BASE_MOVEMENT_SPEED
-+ double STUNNED_COLOR_BLUE
-+ double STUNNED_COLOR_GREEN
-+ double STUNNED_COLOR_RED
-+ int ATTACK_DURATION
-+ int STUN_DURATION
-+ int STUNNED_COLOR
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Slime</summary>
-
-```diff
-+ int MAX_SIZE
-+ int MIN_SIZE
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Spider</summary>
-
-```diff
-+ float SPIDER_SPECIAL_EFFECT_CHANCE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vindicator</summary>
-
-```diff
-+ String TAG_JOHNNY
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
-
-```diff
-+ float BABY_ATTACK_DAMAGE
-+ float KNOCKBACK_RESISTANCE
-+ float MOVEMENT_SPEED_WHEN_FIGHTING
-+ float SPEED_MULTIPLIER_WHEN_IDLING
-+ int ATTACK_DAMAGE
-+ int ATTACK_DURATION
-+ int ATTACK_INTERVAL
-+ int ATTACK_KNOCKBACK
-+ int BABY_ATTACK_INTERVAL
-+ int MAX_HEALTH
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
-
-```diff
-+ int MAX_SPECIAL_BLOCKS_COUNT
-+ int SPECIAL_BLOCK_RADIUS
-+ int VILLAGER_CONVERSION_WAIT_MAX
-+ int VILLAGER_CONVERSION_WAIT_MIN
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-+ float BABY_ATTACK_DAMAGE
-+ float KNOCKBACK_RESISTANCE
-+ float MOVEMENT_SPEED_WHEN_FIGHTING
-+ float PROBABILITY_OF_SPAWNING_AS_BABY
-+ int ATTACK_DAMAGE
-+ int ATTACK_KNOCKBACK
-+ int CONVERSION_TIME
-+ int MAX_HEALTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinBase</summary>
-
-```diff
-+ int ATTACK_ANIMATION_DURATION
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-+ double PROBABILITY_OF_SPAWNING_WITH_CROSSBOW_INSTEAD_OF_SWORD
-+ float BABY_EYE_HEIGHT_ADJUSTMENT
-+ float CHANCE_OF_WEARING_EACH_ARMOUR_ITEM
-+ float CROSSBOW_POWER
-+ float MOVEMENT_SPEED_WHEN_FIGHTING
-+ float PROBABILITY_OF_SPAWNING_AS_BABY
-+ int ATTACK_DAMAGE
-+ int MAX_HEALTH
-+ int MAX_PASSENGERS_ON_ONE_HOGLIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinBruteAi</summary>
-
-```diff
-+ double ACTIVITY_SOUND_LIKELIHOOD_PER_TICK
-+ double TARGETING_RANGE
-+ float SPEED_MULTIPLIER_WHEN_IDLING
-+ int ANGER_DURATION
-+ int HOME_CLOSE_ENOUGH_DISTANCE
-+ int HOME_STROLL_AROUND_DISTANCE
-+ int HOME_TOO_FAR_DISTANCE
-+ int INTERACTION_RANGE
-+ int MAX_LOOK_DIST
-+ int MELEE_ATTACK_COOLDOWN
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
-
-```diff
-+ int VILLAGER_INVENTORY_SIZE
-+ int VILLAGER_SLOT_OFFSET
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerData</summary>
-
-```diff
-+ int MAX_VILLAGER_LEVEL
-+ int MIN_VILLAGER_LEVEL
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTrader</summary>
-
-```diff
-+ int NUMBER_OF_TRADE_OFFERS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.WanderingTraderSpawner</summary>
-
-```diff
-+ int DEFAULT_SPAWN_DELAY
-+ int DEFAULT_TICK_DELAY
-+ int MAX_SPAWN_CHANCE
-+ int MIN_SPAWN_CHANCE
-+ int NUMBER_OF_SPAWN_ATTEMPTS
-+ int SPAWN_CHANCE_INCREASE
-+ int SPAWN_ONE_IN_X_CHANCE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ float CROUCH_BB_HEIGHT
-+ float DEFAULT_EYE_HEIGHT
-+ float SWIMMING_BB_HEIGHT
-+ float SWIMMING_BB_WIDTH
-+ int ENDER_SLOT_OFFSET
-+ int FLY_ACHIEVEMENT_SPEED
-+ int MAX_HEALTH
-+ int MAX_NAME_LENGTH
-+ int SLEEP_DURATION
-+ int WAKE_UP_DURATION
-+ String UUID_PREFIX_OFFLINE_PLAYER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.player.StackedContents</summary>
-
-```diff
-+ int EMPTY
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.DragonFireball</summary>
-
-```diff
-+ float SPLASH_RANGE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ShulkerBullet</summary>
-
-```diff
-+ double SPEED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raids</summary>
-
-```diff
-+ String RAID_FILE_ID
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
-
-```diff
-+ Activity LONG_JUMP
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.schedule.Schedule</summary>
-
-```diff
-+ int TOTAL_WORK_TIME
-+ int WORK_START_TIME
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
-
-```diff
-+ double PADDLE_SOUND_TIME
-+ double PADDLE_SPEED
-+ int BUBBLE_TIME
-+ int PADDLE_LEFT
-+ int PADDLE_RIGHT
-+ int TIME_TO_EJECT
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
-
-```diff
-+ int MOVE_ITEM_SPEED
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.food.Foods</summary>
-
-```diff
-+ FoodProperties$Builder stew(int)
-- FoodProperties stew(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
-
-```diff
-+ int CARRIED_SLOT_SIZE
-+ int QUICKCRAFT_HEADER_CONTINUE
-+ int QUICKCRAFT_HEADER_END
-+ int QUICKCRAFT_HEADER_START
-+ int QUICKCRAFT_TYPE_CHARITABLE
-+ int QUICKCRAFT_TYPE_CLONE
-+ int QUICKCRAFT_TYPE_GREEDY
-+ int SLOT_CLICKED_OUTSIDE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
-
-```diff
-+ int DATA_COUNT
-+ int FUEL_SLOT
-+ int INGREDIENT_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int RESULT_SLOT
-+ int SLOT_COUNT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.DispenserMenu</summary>
-
-```diff
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int SLOT_COUNT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.inventory.GrindstoneMenu</summary>
-
-```diff
-+ int ADDITIONAL_SLOT
-+ int INPUT_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int MAX_NAME_LENGTH
-+ int RESULT_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ItemCombinerMenu</summary>
-
-```diff
-+ int ADDITIONAL_SLOT
-+ int INPUT_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int RESULT_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.MerchantMenu</summary>
-
-```diff
-+ int BUYSLOT_X
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int PAYMENT1_SLOT
-+ int PAYMENT2_SLOT
-+ int RESULT_SLOT
-+ int ROW_Y
-+ int SELLSLOT1_X
-+ int SELLSLOT2_X
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.inventory.ShulkerBoxMenu</summary>
-
-```diff
-+ int CONTAINER_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BannerItem</summary>
-
-```diff
-+ String PATTERN_PREFIX
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.BowItem</summary>
-
-```diff
-+ int DEFAULT_RANGE
-+ int MAX_DRAW_DURATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CrossbowItem</summary>
-
-```diff
-+ float ARROW_POWER
-+ float FIREWORK_POWER
-+ float MID_SOUND_PERCENT
-+ float START_SOUND_PERCENT
-+ int DEFAULT_RANGE
-+ int MAX_CHARGE_DURATION
-+ String TAG_CHARGED
-+ String TAG_CHARGED_PROJECTILES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.FireworkRocketItem</summary>
-
-```diff
-+ double ROCKET_PLACEMENT_OFFSET
-+ String TAG_EXPLOSION
-+ String TAG_EXPLOSION_COLORS
-+ String TAG_EXPLOSION_FADECOLORS
-+ String TAG_EXPLOSION_FLICKER
-+ String TAG_EXPLOSION_TRAIL
-+ String TAG_EXPLOSION_TYPE
-+ String TAG_EXPLOSIONS
-+ String TAG_FIREWORKS
-+ String TAG_FLIGHT
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ int EAT_DURATION
-+ int MAX_BAR_WIDTH
-+ int MAX_STACK_SIZE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ int DONT_HIDE_TOOLTIP
-+ String TAG_CAN_DESTROY_BLOCK_LIST
-+ String TAG_CAN_PLACE_ON_BLOCK_LIST
-+ String TAG_COLOR
-+ String TAG_DAMAGE
-+ String TAG_DISPLAY
-+ String TAG_DISPLAY_NAME
-+ String TAG_ENCH
-+ String TAG_ENCH_ID
-+ String TAG_ENCH_LEVEL
-+ String TAG_HIDE_FLAGS
-+ String TAG_LORE
-+ String TAG_REPAIR_COST
-+ String TAG_UNBREAKABLE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.ItemUtils</summary>
-
-```diff
-- Optional bucketMobPickup(Supplier)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.KnowledgeBookItem</summary>
-
-```diff
-+ String RECIPE_TAG
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.MilkBucketItem</summary>
-
-```diff
-+ int DRINK_DURATION
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.PlayerHeadItem</summary>
-
-```diff
-+ String TAG_SKULL_OWNER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.SpyglassItem</summary>
-
-```diff
-+ float ZOOM_FOV_MODIFIER
-+ int USE_DURATION
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.SuspiciousStewItem</summary>
-
-```diff
-+ String EFFECT_DURATION_TAG
-+ String EFFECT_ID_TAG
-+ String EFFECTS_TAG
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
-
-```diff
-- JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.ThornsEnchantment</summary>
-
-```diff
-+ float CHANCE_PER_LEVEL
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-+ int EVENT_SPAWN
-+ WeightedRandomList EMPTY_POTENTIALS
-+ WeightedRandomList spawnPotentials
-- List spawnPotentials
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.ChunkPos</summary>
-
-```diff
-+ int HASH_A
-+ int HASH_C
-+ int HASH_Z_XOR
-+ int REGION_BITS
-+ int REGION_MASK
-+ long COORD_BITS
-+ long COORD_MASK
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Explosion</summary>
-
-```diff
-+ int MAX_DROPS_PER_COMBINED_STACK
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.ForcedChunksSavedData</summary>
-
-```diff
-+ String FILE_ID
-+ String TAG_FORCED
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ int LONG_PARTICLE_CLIP_RANGE
-+ int MAX_BRIGHTNESS
-+ int MAX_ENTITY_SPAWN_Y
-+ int MAX_LEVEL_SIZE
-+ int MIN_ENTITY_SPAWN_Y
-+ int SHORT_PARTICLE_CLIP_RANGE
-+ int TICKS_PER_DAY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.ServerTickList</summary>
-
-```diff
-+ int MAX_TICK_BLOCKS_PER_TICK
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
-
-```diff
-+ boolean lambda$getStructureAt$4(StructureStart)
-+ boolean lambda$null$3(StructurePiece)
-- boolean lambda$getStructureAt$3(StructureStart)
-- boolean lambda$getStructureAt$5(StructureStart)
-- boolean lambda$null$4(StructurePiece)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ int TEMPERATURE_CACHE_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
-
-```diff
-+ int LIGHT_PER_CANDLE
-+ boolean canBeLit(BlockState)
-+ boolean isLit(BlockState)
-+ void lambda$extinguish$1(Vec3)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ float FALL_DAMAGE_PER_DISTANCE
-+ int FALL_DAMAGE_MAX
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
-
-```diff
-+ VoxelShape SUPPORT_SHAPE
-+ void <clinit>()
-+ VoxelShape getBlockSupportShape(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BambooSaplingBlock</summary>
-
-```diff
-+ float SAPLING_AABB_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BeetrootBlock</summary>
-
-```diff
-+ int MAX_AGE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BigDripleafStemBlock</summary>
-
-```diff
-+ int STEM_WIDTH
-+ ItemStack getCloneItemStack(BlockState)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BubbleColumnBlock</summary>
-
-```diff
-+ int CHECK_PERIOD
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BuddingAmethystBlock</summary>
-
-```diff
-+ int GROWTH_CHANCE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
-
-```diff
-+ int HALF_AABB_HEIGHT
-+ int HALF_AABB_WIDTH
-+ int PRESSED_DEPTH
-+ int UNPRESSED_DEPTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CactusBlock</summary>
-
-```diff
-+ int AABB_OFFSET
-+ int MAX_AGE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
-
-```diff
-+ int SMOKE_DISTANCE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CandleCakeBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChestBlock</summary>
-
-```diff
-+ int AABB_HEIGHT
-+ int AABB_OFFSET
-+ int EVENT_SET_OPEN_COUNT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusFlowerBlock</summary>
-
-```diff
-+ int DEAD_AGE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CocoaBlock</summary>
-
-```diff
-+ int AGE_0_HALFWIDTH
-+ int AGE_0_HEIGHT
-+ int AGE_0_WIDTH
-+ int AGE_1_HALFWIDTH
-+ int AGE_1_HEIGHT
-+ int AGE_1_WIDTH
-+ int AGE_2_HALFWIDTH
-+ int AGE_2_HEIGHT
-+ int AGE_2_WIDTH
-+ int MAX_AGE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
-
-```diff
-+ int AABB_SIDE_THICKNESS
-+ int MAX_LEVEL
-+ int MIN_LEVEL
-+ int READY
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CoralPlantBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DeadBushBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
-
-```diff
-+ int TRIGGER_DURATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
-
-```diff
-+ float AABB_SIZE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FungusBlock</summary>
-
-```diff
-+ double BONEMEAL_SUCCESS_PROBABILITY
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
-
-```diff
-+ int MAX_AGE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.HoneyBlock</summary>
-
-```diff
-+ double MIN_FALL_SPEED_TO_BE_CONSIDERED_SLIDING
-+ double SLIDE_STARTS_WHEN_VERTICAL_SPEED_IS_AT_LEAST
-+ double THROTTLE_SLIDE_SPEED_TO
-+ int SLIDE_ADVANCEMENT_CHECK_INTERVAL
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
-
-```diff
-+ double GROW_PER_TICK_PROBABILITY
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LadderBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LayeredCauldronBlock</summary>
-
-```diff
-+ double HEIGHT_PER_LEVEL
-+ int BASE_CONTENT_HEIGHT
-+ int MAX_FILL_LEVEL
-+ int MIN_FILL_LEVEL
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
-
-```diff
-+ int PAGE_CHANGE_IMPULSE_TICKS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LevelEvent</summary>
-
-```diff
-+ int ANIMATION_DRAGON_SUMMON_ROAR
-+ int ANIMATION_END_GATEWAY_SPAWN
-+ int COMPOSTER_FILL
-+ int DRIPSTONE_DRIP
-+ int END_PORTAL_FRAME_FILL
-+ int LAVA_FIZZ
-+ int PARTICLES_AND_SOUND_WAX_ON
-+ int PARTICLES_DESTROY_BLOCK
-+ int PARTICLES_DRAGON_BLOCK_BREAK
-+ int PARTICLES_DRAGON_FIREBALL_SPLASH
-+ int PARTICLES_ELECTRIC_SPARK
-+ int PARTICLES_EYE_OF_ENDER_DEATH
-+ int PARTICLES_INSTANT_POTION_SPLASH
-+ int PARTICLES_MOBBLOCK_SPAWN
-+ int PARTICLES_PLANT_GROWTH
-+ int PARTICLES_SCRAPE
-+ int PARTICLES_SHOOT
-+ int PARTICLES_SPELL_POTION_SPLASH
-+ int PARTICLES_WATER_EVAPORATING
-+ int PARTICLES_WAX_OFF
-+ int REDSTONE_TORCH_BURNOUT
-+ int SOUND_ANVIL_BROKEN
-+ int SOUND_ANVIL_LAND
-+ int SOUND_ANVIL_USED
-+ int SOUND_BAT_LIFTOFF
-+ int SOUND_BLAZE_FIREBALL
-+ int SOUND_BREWING_STAND_BREW
-+ int SOUND_CHORUS_DEATH
-+ int SOUND_CHORUS_GROW
-+ int SOUND_CLOSE_FENCE_GATE
-+ int SOUND_CLOSE_IRON_DOOR
-+ int SOUND_CLOSE_IRON_TRAP_DOOR
-+ int SOUND_CLOSE_WOODEN_DOOR
-+ int SOUND_CLOSE_WOODEN_TRAP_DOOR
-+ int SOUND_DISPENSER_DISPENSE
-+ int SOUND_DISPENSER_FAIL
-+ int SOUND_DISPENSER_PROJECTILE_LAUNCH
-+ int SOUND_DRAGON_DEATH
-+ int SOUND_DRAGON_FIREBALL
-+ int SOUND_DRIP_LAVA_INTO_CAULDRON
-+ int SOUND_DRIP_WATER_INTO_CAULDRON
-+ int SOUND_END_PORTAL_SPAWN
-+ int SOUND_ENDER_EYE_LAUNCH
-+ int SOUND_EXTINGUISH_FIRE
-+ int SOUND_FIREWORK_SHOOT
-+ int SOUND_GHAST_FIREBALL
-+ int SOUND_GHAST_WARNING
-+ int SOUND_GRINDSTONE_USED
-+ int SOUND_HUSK_TO_ZOMBIE
-+ int SOUND_OPEN_FENCE_GATE
-+ int SOUND_OPEN_IRON_DOOR
-+ int SOUND_OPEN_IRON_TRAP_DOOR
-+ int SOUND_OPEN_WOODEN_DOOR
-+ int SOUND_OPEN_WOODEN_TRAP_DOOR
-+ int SOUND_PAGE_TURN
-+ int SOUND_PHANTOM_BITE
-+ int SOUND_PLAY_RECORDING
-+ int SOUND_POINTED_DRIPSTONE_LAND
-+ int SOUND_PORTAL_TRAVEL
-+ int SOUND_SKELETON_TO_STRAY
-+ int SOUND_SMITHING_TABLE_USED
-+ int SOUND_WITHER_BLOCK_BREAK
-+ int SOUND_WITHER_BOSS_SHOOT
-+ int SOUND_WITHER_BOSS_SPAWN
-+ int SOUND_ZOMBIE_CONVERTED
-+ int SOUND_ZOMBIE_DOOR_CRASH
-+ int SOUND_ZOMBIE_INFECTED
-+ int SOUND_ZOMBIE_IRON_DOOR
-+ int SOUND_ZOMBIE_TO_DROWNED
-+ int SOUND_ZOMBIE_WOODEN_DOOR
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Cavifier</summary>
-
-```diff
-+ int CHEESE_NOISE_RANGE
-+ int SURFACE_DENSITY_THRESHOLD
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ int BARRIER_HEIGHT
-+ int BLOCK_MARGIN
-+ int HEIGHT
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.DepthBasedReplacingBaseStoneSource</summary>
-
-```diff
-+ int ALWAYS_REPLACE_BELOW_Y
-+ int NEVER_REPLACE_ABOVE_Y
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SimpleRandomSource</summary>
-
-```diff
-+ double DOUBLE_MULTIPLIER
-+ float FLOAT_MULTIPLIER
-+ int MODULUS_BITS
-+ long INCREMENT
-+ long MODULUS_MASK
-+ long MULTIPLIER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$Absolute</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
-
-```diff
-+ boolean carve(BitSet)
-+ boolean isStartChunk(Random)
-+ void createRoom(WorldCarver$CarveSkipChecker)
-+ void createTunnel(WorldCarver$CarveSkipChecker)
-- int getCaveY(Random)
-- void createRoom(WorldCarver$CarveSkipChecker)
-- void createTunnel(WorldCarver$CarveSkipChecker)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
-
-```diff
-+ boolean carveBlock(MutableBoolean)
-- int getCaveY(Random)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
-
-```diff
-+ int BASTION_SPAWN_HEIGHT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DeltaFeature</summary>
-
-```diff
-+ double RIM_SPAWN_CHANCE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature$EndCityStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature</summary>
-
-```diff
-+ StructureStart lambda$getStartFactory$0(ChunkPos,int,long)
-- StructureStart lambda$getStartFactory$0(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
-
-```diff
-+ LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider)
-- LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
-
-```diff
-- boolean isCreated
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-- void generatePieces(ChunkPos)
-- void placeInChunk(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
-
-```diff
-+ WeightedRandomList OUTPOST_ENEMIES
-- List OUTPOST_ENEMIES
-+ WeightedRandomList getSpecialEnemies()
-- List getSpecialEnemies()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ScatteredOreFeature</summary>
-
-```diff
-+ int MAX_DIST_FROM_ORIGIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ int MAX_STRUCTURE_RANGE
-+ StructureStart createStart(ChunkPos,int,long)
-+ WeightedRandomList getSpecialAnimals()
-+ WeightedRandomList getSpecialEnemies()
-- List getSpecialAnimals()
-- List getSpecialEnemies()
-- StructureStart createStart(BoundingBox,int,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
-
-```diff
-+ IntProvider height
-+ IntProvider reach
-- UniformInt height
-- UniformInt reach
-+ IntProvider height()
-+ IntProvider lambda$null$0(ColumnFeatureConfiguration)
-+ IntProvider lambda$null$1(ColumnFeatureConfiguration)
-+ IntProvider reach()
-+ void <init>(IntProvider)
-- UniformInt height()
-- UniformInt lambda$null$0(ColumnFeatureConfiguration)
-- UniformInt lambda$null$1(ColumnFeatureConfiguration)
-- UniformInt reach()
-- void <init>(UniformInt)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
-
-```diff
-+ IntProvider rimSize
-+ IntProvider size
-- UniformInt rimSize
-- UniformInt size
-+ IntProvider lambda$null$2(DeltaFeatureConfiguration)
-+ IntProvider lambda$null$3(DeltaFeatureConfiguration)
-+ IntProvider rimSize()
-+ IntProvider size()
-+ void <init>(IntProvider)
-- UniformInt lambda$null$2(DeltaFeatureConfiguration)
-- UniformInt lambda$null$3(DeltaFeatureConfiguration)
-- UniformInt rimSize()
-- UniformInt size()
-- void <init>(UniformInt)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DripstoneClusterConfiguration</summary>
-
-```diff
-+ FloatProvider density
-+ FloatProvider wetness
-+ IntProvider dripstoneBlockLayerThickness
-+ IntProvider height
-+ IntProvider radius
-- FloatProvider density
-- FloatProvider wetness
-- UniformInt dripstoneBlockLayerThickness
-- UniformInt height
-- UniformInt radius
-+ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
-+ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
-+ IntProvider lambda$null$1(DripstoneClusterConfiguration)
-+ IntProvider lambda$null$2(DripstoneClusterConfiguration)
-+ IntProvider lambda$null$5(DripstoneClusterConfiguration)
-+ void <init>(FloatProvider,float,int,int)
-- FloatProvider lambda$null$6(DripstoneClusterConfiguration)
-- FloatProvider lambda$null$7(DripstoneClusterConfiguration)
-- UniformInt lambda$null$1(DripstoneClusterConfiguration)
-- UniformInt lambda$null$2(DripstoneClusterConfiguration)
-- UniformInt lambda$null$5(DripstoneClusterConfiguration)
-- void <init>(FloatProvider,float,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceSphereConfiguration</summary>
-
-```diff
-+ IntProvider radius
-- UniformInt radius
-+ IntProvider lambda$null$2(ReplaceSphereConfiguration)
-+ IntProvider radius()
-+ void <init>(IntProvider)
-- UniformInt lambda$null$2(ReplaceSphereConfiguration)
-- UniformInt radius()
-- void <init>(UniformInt)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration</summary>
-
-```diff
-+ IntProvider depth
-+ IntProvider xzRadius
-- UniformInt depth
-- UniformInt xzRadius
-+ IntProvider lambda$null$4(VegetationPatchConfiguration)
-+ IntProvider lambda$null$8(VegetationPatchConfiguration)
-+ void <init>(IntProvider,float)
-- UniformInt lambda$null$4(VegetationPatchConfiguration)
-- UniformInt lambda$null$8(VegetationPatchConfiguration)
-- void <init>(UniformInt,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.featuresize.FeatureSize</summary>
-
-```diff
-+ int MAX_WIDTH
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
-
-```diff
-+ void <init>(IntProvider,int)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt,int)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
-
-```diff
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
-
-```diff
-+ IntProvider offset
-+ IntProvider radius
-+ void createFoliage(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration,int,net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment,int,int,int)
-- UniformInt offset
-- UniformInt radius
-- void createFoliage(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration,int,net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment,int,int,java.util.Set,int,net.minecraft.world.level.levelgen.structure.BoundingBox)
-+ IntProvider lambda$foliagePlacerParts$0(FoliagePlacer)
-+ IntProvider lambda$foliagePlacerParts$1(FoliagePlacer)
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int)
-+ void placeLeavesRow(BlockPos,int,int,boolean)
-+ void tryPlaceLeaf(BlockPos)
-- UniformInt lambda$foliagePlacerParts$0(FoliagePlacer)
-- UniformInt lambda$foliagePlacerParts$1(FoliagePlacer)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
-- void placeLeavesRow(BoundingBox)
-- void tryPlaceLeaf(BlockPos$MutableBlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
-
-```diff
-+ IntProvider crownHeight
-- UniformInt crownHeight
-+ IntProvider lambda$null$0(MegaPineFoliagePlacer)
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- UniformInt lambda$null$0(MegaPineFoliagePlacer)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer</summary>
-
-```diff
-+ IntProvider foliageHeight
-- UniformInt foliageHeight
-+ IntProvider lambda$null$0(RandomSpreadFoliagePlacer)
-+ void <init>(IntProvider,int)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- UniformInt lambda$null$0(RandomSpreadFoliagePlacer)
-- void <init>(UniformInt,int)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider</summary>
-
-```diff
-+ IntProvider values
-- UniformInt values
-+ IntProvider lambda$null$2(RandomizedIntStateProvider)
-+ void <init>(IntProvider)
-+ void <init>(IntProvider)
-- UniformInt lambda$null$2(RandomizedIntStateProvider)
-- void <init>(UniformInt)
-- void <init>(UniformInt)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement</summary>
-
-```diff
-+ void addPieces(LevelHeightAccessor)
-- void addPieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
-
-```diff
-+ boolean lambda$getBoundingBox$2(StructurePoolElement)
-+ BoundingBox lambda$getBoundingBox$3(StructurePoolElement)
-+ IllegalStateException lambda$getBoundingBox$4()
-+ void lambda$setProjectionOnEachElement$5(StructurePoolElement)
-- void lambda$setProjectionOnEachElement$2(StructurePoolElement)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructureTemplatePool</summary>
-
-```diff
-+ int SIZE_UNSET
-+ boolean lambda$getMaxSize$2(StructurePoolElement)
-+ int lambda$getMaxSize$3(StructurePoolElement)
-- int lambda$getMaxSize$2(StructurePoolElement)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
-
-```diff
-+ void lambda$place$2(BeehiveBlockEntity)
-+ void place(List)
-- void place(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
-
-```diff
-+ void addHangingVine(BiConsumer)
-+ void lambda$place$1(BlockPos)
-+ void place(List)
-- void addHangingVine(BoundingBox)
-- void lambda$place$1(BlockPos)
-- void place(BoundingBox)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-+ void placeLogIfFreeWithOffset(BlockPos,int,int,int)
-- List placeTrunk(TreeConfiguration)
-- void placeLogIfFreeWithOffset(BlockPos,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
-
-```diff
-+ int maxX
-+ int maxY
-+ int maxZ
-+ int minX
-+ int minY
-+ int minZ
-+ Logger LOGGER
-- int x0
-- int x1
-- int y0
-- int y1
-- int z0
-- int z1
-+ BoundingBox encapsulate(BoundingBox)
-+ BoundingBox fromCorners(Vec3i)
-+ BoundingBox inflate(int)
-+ int maxX()
-+ int maxY()
-+ int maxZ()
-+ int minX()
-+ int minY()
-+ int minZ()
-+ Optional encapsulatingBoxes(Iterable)
-+ Optional encapsulatingPositions(Iterable)
-- BoundingBox createProper(int,int,int,int,int,int)
-- BoundingBox createProper(Vec3i)
-- BoundingBox getUnknownBox()
-- void expand(BoundingBox)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
-
-```diff
-- boolean overwrite
-- Rotation rotation
-- String templateName
-+ ResourceLocation makeResourceLocation(String)
-+ ResourceLocation makeTemplateLocation()
-+ StructurePlaceSettings lambda$new$0(ResourceLocation)
-+ StructurePlaceSettings makeSettings(Rotation)
-- void loadTemplate(StructureManager)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces</summary>
-
-```diff
-+ int GENERATION_HEIGHT
-+ void addPieces(Random)
-- void addPieces(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
-
-```diff
-+ int DEFAULT_SHAFT_HEIGHT
-+ int DEFAULT_SHAFT_LENGTH
-+ int DEFAULT_SHAFT_WIDTH
-+ int MAX_CHAIN_HEIGHT
-+ int MAX_DEPTH
-+ int MAX_PILLAR_HEIGHT
-+ MineShaftPieces$MineShaftPiece access$100(Direction,int)
-+ MineShaftPieces$MineShaftPiece createRandomShaftPiece(MineshaftFeature$Type)
-+ MineShaftPieces$MineShaftPiece generateAndAddPiece(Direction,int)
-- MineShaftPieces$MineShaftPiece access$100(Direction,int)
-- MineShaftPieces$MineShaftPiece createRandomShaftPiece(MineshaftFeature$Type)
-- MineShaftPieces$MineShaftPiece generateAndAddPiece(Direction,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
-
-```diff
-+ BoundingBox findCorridorSize(Direction)
-+ void addChildren(Random)
-- BoundingBox findCorridorSize(Direction)
-- void addChildren(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
-
-```diff
-+ void <init>(BoundingBox)
-- void <init>(MineshaftFeature$Type)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
-
-```diff
-+ BoundingBox findStairs(Direction)
-+ void addChildren(Random)
-- BoundingBox findStairs(Direction)
-- void addChildren(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$BridgeEndFiller createPiece(Direction,int)
-- NetherBridgePieces$BridgeEndFiller createPiece(Direction,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleCorridorStairsPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleCorridorStairsPiece createPiece(Direction,int)
-- void addChildren(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleEntrance createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleEntrance createPiece(Direction,int)
-- void addChildren(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleSmallCorridorLeftTurnPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleSmallCorridorLeftTurnPiece createPiece(Direction,int)
-- void addChildren(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleSmallCorridorRightTurnPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleSmallCorridorRightTurnPiece createPiece(Direction,int)
-- void addChildren(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$MonsterThrone createPiece(Direction)
-- NetherBridgePieces$MonsterThrone createPiece(Direction)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$StairsRoom createPiece(Direction)
-+ void addChildren(Random)
-- NetherBridgePieces$StairsRoom createPiece(Direction)
-- void addChildren(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces</summary>
-
-```diff
-+ void addPieces(BlockPos)
-- void addPieces(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart</summary>
-
-```diff
-+ BoundingBox getBoundingBox()
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-- void calculateBoundingBox()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$MonumentBuilding</summary>
-
-```diff
-+ int BIOME_RANGE_CHECK
-+ int DEPTH
-+ int HEIGHT
-+ int TOP_POSITION
-+ int WIDTH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece</summary>
-
-```diff
-+ boolean DO_FILL
-+ int GRID_DEPTH
-+ int GRID_FLOOR_COUNT
-+ int GRID_HEIGHT
-+ int GRID_SIZE
-+ int GRID_WIDTH
-+ int GRIDROOM_DEPTH
-+ int GRIDROOM_HEIGHT
-+ int GRIDROOM_WIDTH
-+ int LEFTWING_INDEX
-+ int PENTHOUSE_INDEX
-+ int RIGHTWING_INDEX
-+ BoundingBox makeBoundingBox(OceanMonumentPieces$RoomDefinition,int,int,int)
-+ void <init>(BoundingBox)
-- void <init>(BoundingBox)
-- void <init>(StructurePieceType,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces</summary>
-
-```diff
-+ List allPositions(BlockPos)
-+ void addClusterRuins(StructurePieceAccessor)
-+ void addPiece(OceanRuinConfiguration,boolean,float)
-+ void addPieces(OceanRuinConfiguration)
-- List allPositions(Random,int,int)
-- void addClusterRuins(List)
-- void addPiece(OceanRuinConfiguration,boolean,float)
-- void addPieces(OceanRuinConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
-
-```diff
-+ boolean isValid()
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.TemplateStructurePiece</summary>
-
-```diff
-+ String templateName
-+ ResourceLocation makeTemplateLocation()
-+ void <init>(BlockPos)
-+ void <init>(Function)
-- void <init>(CompoundTag)
-- void <init>(StructurePieceType,int)
-- void setup(StructurePlaceSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.BlockAgeProcessor</summary>
-
-```diff
-+ float PROBABILITY_OF_REPLACING_FULL_BLOCK
-+ float PROBABILITY_OF_REPLACING_OBSIDIAN
-+ float PROBABILITY_OF_REPLACING_STAIRS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
-
-```diff
-+ int CHUNK_SIZE
-+ String BLOCK_TAG_NBT
-+ String BLOCK_TAG_POS
-+ String BLOCK_TAG_STATE
-+ String BLOCKS_TAG
-+ String ENTITIES_TAG
-+ String ENTITY_TAG_BLOCKPOS
-+ String ENTITY_TAG_NBT
-+ String ENTITY_TAG_POS
-+ String PALETTE_LIST_TAG
-+ String PALETTE_TAG
-+ String SIZE_TAG
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.BadlandsSurfaceBuilder</summary>
-
-```diff
-+ int MAX_CLAY_DEPTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.ImprovedNoise</summary>
-
-```diff
-+ float SHIFT_UP_EPSILON
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
-
-```diff
-+ double INPUT_FACTOR
-+ double TARGET_DEVIATION
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint</summary>
-
-```diff
-+ int NO_COMPUTED_LEVEL
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.lighting.LayerLightEngine</summary>
-
-```diff
-+ int CACHE_SIZE
-+ long SELF_SOURCE
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.SpatialLongSet$InternalMap</summary>
-
-```diff
-+ int Y_OFFSET
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.material.FluidState</summary>
-
-```diff
-+ int AMOUNT_FULL
-+ int AMOUNT_MAX
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.material.Material</summary>
-
-```diff
-+ Material MOSS
-- Material CORAL
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.newbiome.context.LazyAreaContext</summary>
-
-```diff
-+ int MAX_CACHE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.newbiome.layer.LayerBiomes</summary>
-
-```diff
-+ int BADLANDS
-+ int BADLANDS_PLATEAU
-+ int BAMBOO_JUNGLE
-+ int BAMBOO_JUNGLE_HILLS
-+ int BEACH
-+ int BIRCH_FOREST
-+ int BIRCH_FOREST_HILLS
-+ int COLD_OCEAN
-+ int DARK_FOREST
-+ int DARK_FOREST_HILLS
-+ int DEEP_COLD_OCEAN
-+ int DEEP_FROZEN_OCEAN
-+ int DEEP_LUKEWARM_OCEAN
-+ int DEEP_OCEAN
-+ int DEEP_WARM_OCEAN
-+ int DESERT
-+ int DESERT_HILLS
-+ int DESERT_LAKES
-+ int ERODED_BADLANDS
-+ int FLOWER_FOREST
-+ int FOREST
-+ int FROZEN_OCEAN
-+ int FROZEN_RIVER
-+ int GIANT_SPRUCE_TAIGA
-+ int GIANT_SPRUCE_TAIGA_HILLS
-+ int GIANT_TREE_TAIGA
-+ int GIANT_TREE_TAIGA_HILLS
-+ int GRAVELLY_MOUNTAINS
-+ int ICE_SPIKES
-+ int JUNGLE
-+ int JUNGLE_EDGE
-+ int JUNGLE_HILLS
-+ int LUKEWARM_OCEAN
-+ int MODIFIED_BADLANDS_PLATEAU
-+ int MODIFIED_GRAVELLY_MOUNTAINS
-+ int MODIFIED_JUNGLE
-+ int MODIFIED_JUNGLE_EDGE
-+ int MODIFIED_WOODED_BADLANDS_PLATEAU
-+ int MOUNTAIN_EDGE
-+ int MOUNTAINS
-+ int MUSHROOM_FIELD_SHORE
-+ int MUSHROOM_FIELDS
-+ int OCEAN
-+ int PLAINS
-+ int RIVER
-+ int SAVANNA
-+ int SAVANNA_PLATEAU
-+ int SHATTERED_SAVANNA
-+ int SHATTERED_SAVANNA_PLATEAU
-+ int SNOWY_BEACH
-+ int SNOWY_MOUNTAINS
-+ int SNOWY_TAIGA
-+ int SNOWY_TAIGA_HILLS
-+ int SNOWY_TAIGA_MOUNTAINS
-+ int SNOWY_TUNDRA
-+ int STONE_SHORE
-+ int SUNFLOWER_PLAINS
-+ int SWAMP
-+ int SWAMP_HILLS
-+ int TAIGA
-+ int TAIGA_HILLS
-+ int TAIGA_MOUNTAINS
-+ int TALL_BIRCH_FOREST
-+ int TALL_BIRCH_HILLS
-+ int WARM_OCEAN
-+ int WOODED_BADLANDS_PLATEAU
-+ int WOODED_HILLS
-+ int WOODED_MOUNTAINS
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.newbiome.layer.ZoomLayer</summary>
-
-```diff
-+ int ZOOM_BITS
-+ int ZOOM_MASK
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.PathFinder</summary>
-
-```diff
-+ boolean DEBUG
-+ float FUDGING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapItemSavedData</summary>
-
-```diff
-+ int HALF_MAP_SIZE
-+ int MAP_SIZE
-+ int MAX_SCALE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.CommandStorage</summary>
-
-```diff
-+ String ID_PREFIX
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.CommandStorage$Container</summary>
-
-```diff
-+ String TAG_CONTENTS
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
-
-```diff
-+ String ICON_FILENAME
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer</summary>
-
-```diff
-+ int DEFAULT_QUALITY
-+ int DEFAULT_WEIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
-
-```diff
-+ boolean DEFAULT_SKIP_EXISTING
-+ byte DEFAULT_ZOOM
-+ int DEFAULT_SEARCH_RADIUS
-+ String DEFAULT_DECORATION_NAME
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
-
-```diff
-+ int NO_LIMIT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.audio.Channel
@@ -8665,2843 +2170,434 @@
 
 </details>
 
-<details><summary>com.mojang.math.Matrix3f</summary>
 
-```diff
-+ int ORDER
-+ boolean invert()
-+ float adjugateAndDet()
-+ float determinant()
-+ float trace()
-+ int bufferIndex(int,int)
-+ Matrix3f createScaleMatrix(float,float,float)
-+ void add(Matrix3f)
-+ void load(FloatBuffer,boolean)
-+ void load(FloatBuffer)
-+ void loadTransposed(FloatBuffer)
-+ void mul(float)
-+ void mul(Quaternion)
-+ void sortSingularValues(Quaternion)
-+ void store(FloatBuffer,boolean)
-+ void store(FloatBuffer)
-+ void storeTransposed(FloatBuffer)
-+ void sub(Matrix3f)
-```
-
-</details>
-
-<details><summary>com.mojang.math.Vector4f</summary>
-
-```diff
-+ boolean normalize()
-+ float dot(Vector4f)
-+ float w()
-+ void <init>(Vector3f)
-+ void add(float,float,float,float)
-+ void lerp(Vector4f,float)
-+ void mul(float)
-+ void mul(Vector3f)
-+ void perspectiveDivide()
-+ void set(float,float,float,float)
-+ void transform(Quaternion)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Cursor3D</summary>
-
-```diff
-+ int TYPE_CORNER
-+ int TYPE_EDGE
-+ int TYPE_FACE
-+ int TYPE_INSIDE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.IdMapper</summary>
-
-```diff
-+ int DEFAULT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.QuartPos</summary>
-
-```diff
-+ int BITS
-+ int SECTION_TO_QUARTS_BITS
-+ int SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.SectionPos</summary>
-
-```diff
-+ int PACKED_X_LENGTH
-+ int PACKED_Y_LENGTH
-+ int PACKED_Z_LENGTH
-+ int RELATIVE_X_SHIFT
-+ int RELATIVE_Y_SHIFT
-+ int RELATIVE_Z_SHIFT
-+ int SECTION_BITS
-+ int SECTION_HALF_SIZE
-+ int SECTION_MASK
-+ int SECTION_MAX_INDEX
-+ int SECTION_SIZE
-+ int X_OFFSET
-+ int Y_OFFSET
-+ int Z_OFFSET
-+ long PACKED_X_MASK
-+ long PACKED_Y_MASK
-+ long PACKED_Z_MASK
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ SimpleParticleType LIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ void createLightBlockItems()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
-
-```diff
-+ void caveSpawns(MobSpawnSettings$Builder)
-+ void caveWaterSpawns(MobSpawnSettings$Builder)
-- void ambientSpawns(MobSpawnSettings$Builder)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features$States</summary>
-
-```diff
-+ BlockState DEEPSLATE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ int PROGRESS_REPORT_INTERVAL
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.StructureUtils</summary>
-
-```diff
-+ int HOW_MANY_CHUNKS_TO_LOAD_IN_EACH_DIRECTION_OF_STRUCTURE
-+ String DEFAULT_TEST_STRUCTURES_DIR
-```
-
-</details>
-
-
-<details><summary>net.minecraft.gametest.framework.TestCommand</summary>
-
-```diff
-+ int DEFAULT_CLEAR_RADIUS
-+ int DEFAULT_X_SIZE
-+ int DEFAULT_Y_SIZE
-+ int DEFAULT_Z_SIZE
-+ int MAX_CLEAR_RADIUS
-+ int SHOW_POS_DURATION_MS
-+ int STRUCTURE_BLOCK_FULL_SEARCH_RADIUS
-+ int STRUCTURE_BLOCK_NEARBY_SEARCH_RADIUS
-+ int TEST_POS_Z_OFFSET_FROM_PLAYER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.locale.Language</summary>
-
-```diff
-+ String DEFAULT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ListTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongArrayTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongTag</summary>
-
-```diff
-+ int SELF_SIZE_IN_BITS
-```
-
-</details>
-
-<details><summary>net.minecraft.nbt.LongTag$Cache</summary>
-
-```diff
-+ int HIGH
-+ int LOW
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.SnbtPrinterTagVisitor</summary>
-
-```diff
-+ String ELEMENT_SPACING
-+ String LIST_CLOSE
-+ String LIST_OPEN
-+ String LIST_TYPE_SEPARATOR
-+ String NEWLINE
-+ String STRUCT_CLOSE
-+ String STRUCT_OPEN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.nbt.Tag</summary>
-
-```diff
-+ byte TAG_ANY_NUMERIC
-+ byte TAG_BYTE
-+ byte TAG_BYTE_ARRAY
-+ byte TAG_COMPOUND
-+ byte TAG_DOUBLE
-+ byte TAG_END
-+ byte TAG_FLOAT
-+ byte TAG_INT
-+ byte TAG_INT_ARRAY
-+ byte TAG_LIST
-+ byte TAG_LONG
-+ byte TAG_LONG_ARRAY
-+ byte TAG_SHORT
-+ byte TAG_STRING
-+ int ARRAY_HEADER
-+ int MAX_DEPTH
-+ int OBJECT_HEADER
-+ int OBJECT_REFERENCE
-+ int STRING_SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.nbt.TextComponentTagVisitor</summary>
-
-```diff
-+ int INLINE_LIST_THRESHOLD
-+ String ELEMENT_SPACING
-+ String LIST_CLOSE
-+ String LIST_OPEN
-+ String LIST_TYPE_SEPARATOR
-+ String NEWLINE
-+ String STRUCT_CLOSE
-+ String STRUCT_OPEN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.Varint21LengthFieldPrepender</summary>
-
-```diff
-+ int MAX_BYTES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket</summary>
-
-```diff
-+ int FLAG_DARKEN
-+ int FLAG_FOG
-+ int FLAG_MUSIC
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket</summary>
-
-```diff
-+ byte FLAG_CUSTOM_SUGGESTIONS
-+ byte FLAG_EXECUTABLE
-+ byte FLAG_REDIRECT
-+ byte MASK_TYPE
-+ byte TYPE_ARGUMENT
-+ byte TYPE_LITERAL
-+ byte TYPE_ROOT
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket</summary>
-
-```diff
-+ int CARRIED_ITEM
-+ int PLAYER_INVENTORY
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCustomPayloadPacket</summary>
-
-```diff
-+ int MAX_PAYLOAD_SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundGameEventPacket</summary>
-
-```diff
-+ int DEMO_PARAM_HINT_1
-+ int DEMO_PARAM_HINT_2
-+ int DEMO_PARAM_HINT_3
-+ int DEMO_PARAM_HINT_4
-+ int DEMO_PARAM_INTRO
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundMoveEntityPacket</summary>
-
-```diff
-+ double TRUNCATION_STEPS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket</summary>
-
-```diff
-+ int POS_IN_SECTION_BITS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSetObjectivePacket</summary>
-
-```diff
-+ int METHOD_ADD
-+ int METHOD_CHANGE
-+ int METHOD_REMOVE
-```
-
-</details>
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket</summary>
-
-```diff
-+ int MAX_COLLISION_LENGTH
-+ int MAX_VISIBILITY_LENGTH
-+ int METHOD_ADD
-+ int METHOD_CHANGE
-+ int METHOD_JOIN
-+ int METHOD_LEAVE
-+ int METHOD_REMOVE
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundStopSoundPacket</summary>
-
-```diff
-+ int HAS_SOUND
-+ int HAS_SOURCE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket</summary>
-
-```diff
-+ int FLAG_AMBIENT
-+ int FLAG_SHOW_ICON
-+ int FLAG_VISIBLE
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundClientInformationPacket</summary>
-
-```diff
-+ int MAX_LANGUAGE_LENGTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundPlayerInputPacket</summary>
-
-```diff
-+ int FLAG_JUMPING
-+ int FLAG_SHIFT_KEY_DOWN
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ServerboundSignUpdatePacket</summary>
-
-```diff
-+ int MAX_STRING_LENGTH
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.handshake.ClientIntentionPacket</summary>
-
-```diff
-+ int MAX_HOST_LENGTH
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.login.ClientboundCustomQueryPacket</summary>
-
-```diff
-+ int MAX_PAYLOAD_SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.network.protocol.login.ServerboundCustomQueryPacket</summary>
-
-```diff
-+ int MAX_PAYLOAD_SIZE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.protocol.status.ServerStatus</summary>
-
-```diff
-+ int FAVICON_HEIGHT
-+ int FAVICON_WIDTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.syncher.SynchedEntityData</summary>
-
-```diff
-+ int EOF_MARKER
-+ int MAX_ID_VALUE
-```
-
-</details>
-
-
-
-
-
+<details><summary>com.mojang.blaze3d.Blaze3D</summary>
 
-<details><summary>net.minecraft.util.LinearCongruentialGenerator</summary>
-
-```diff
-+ long INCREMENT
-+ long MULTIPLIER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.ParticleUtils</summary>
-
-```diff
-+ void spawnParticlesAlongAxis(UniformInt)
-+ void spawnParticlesOnBlockFaces(UniformInt)
-- void spawnParticlesAlongAxis(IntRange)
-- void spawnParticlesOnBlockFaces(IntRange)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.StringDecomposer</summary>
-
-```diff
-+ char REPLACEMENT_CHAR
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.TimeUtil</summary>
-
-```diff
-+ UniformInt rangeOfSeconds(int,int)
-- IntRange rangeOfSeconds(int,int)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Container</summary>
-
-```diff
-+ int LARGE_MAX_STACK_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Snooper</summary>
-
-```diff
-+ int SNOOPER_VERSION
-+ long DATA_SEND_FREQUENCY
-+ String POLL_HOST
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.CombatTracker</summary>
-
-```diff
-+ int RESET_COMBAT_STATUS_TIME
-+ int RESET_DAMAGE_STATUS_TIME
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AgeableMob</summary>
-
-```diff
-+ int BABY_START_AGE
-+ int FORCED_AGE_PARTICLE_TICKS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
-
-```diff
-+ float MAX_RADIUS
-+ int TIME_BETWEEN_APPLICATIONS
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType GOAT
-+ float MAGIC_HORSE_WIDTH
-+ String ENTITY_TAG
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
-
-```diff
-+ double ORB_MERGE_DISTANCE
-+ int ENTITY_SCAN_PERIOD
-+ int LIFETIME
-+ int MAX_FOLLOW_DIST
-+ int ORB_GROUPS_PER_AREA
-+ int repairPlayerItems(Player,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ItemBasedSteering</summary>
-
-```diff
-+ int MAX_BOOST_TIME
-+ int MIN_BOOST_TIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.LightningBolt</summary>
-
-```diff
-+ int START_LIFE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Pose</summary>
-
-```diff
-+ Pose LONG_JUMPING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
-
-```diff
-+ int BATCH_SIZE
-+ int RATE
-+ int SCAN_RANGE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AnimalMakeLove</summary>
-
-```diff
-+ int BREED_RANGE
-+ int MAX_DURATION
-+ int MIN_DURATION
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.PlayTagWithOtherKids</summary>
-
-```diff
-+ float CHASE_SPEED_MODIFIER
-+ float FLEE_SPEED_MODIFIER
-+ int AVERAGE_WAIT_TIME_BETWEEN_RUNS
-+ int MAX_CHASERS_PER_TARGET
-+ int MAX_FLEE_XZ_DIST
-+ int MAX_FLEE_Y_DIST
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RingBell</summary>
-
 ```diff
-+ float BELL_RING_CHANCE
-+ int RING_BELL_FROM_DISTANCE
++ void <init>()
++ void process(RenderPipeline,float)
++ void render(RenderPipeline,float)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
-
-```diff
-+ int BATCH_SIZE
-+ int CACHE_TIMEOUT
-+ int OK_DISTANCE_SQR
-+ int RATE
-```
 
-</details>
 
-<details><summary>net.minecraft.world.entity.ai.behavior.SetHiddenState</summary>
+<details><summary>com.mojang.blaze3d.font.GlyphInfo</summary>
 
 ```diff
-+ int HIDE_TIMEOUT
++ float getBearingY()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
+<details><summary>com.mojang.blaze3d.pipeline.RenderTarget</summary>
 
 ```diff
-+ int PROJECTILE_ATTACK_RANGE_BUFFER
++ void bindRead()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.behavior.SleepInBed</summary>
+<details><summary>com.mojang.blaze3d.platform.GlStateManager</summary>
 
 ```diff
-+ int COOLDOWN_AFTER_BEING_WOKEN
++ int getBoundFramebuffer()
++ int glGenRenderbuffers()
++ void _glBindRenderbuffer(int,int)
++ void _glCopyTexSubImage2D(int,int,int,int,int,int,int,int)
++ void _glDeleteRenderbuffers(int)
++ void _glDrawPixels(int,int,int,int,long)
++ void _glFramebufferRenderbuffer(int,int,int,int)
++ void _glRenderbufferStorage(int,int,int,int)
++ void _readPixels(int,int,int,int,int,int,long)
++ void <init>()
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
-
-```diff
-+ Consumer onTargetErased
-+ int TIMEOUT_TO_GET_WITHIN_ATTACK_RANGE
-+ boolean lambda$new$1(LivingEntity)
-+ boolean lambda$new$2(LivingEntity)
-+ void <init>(Consumer)
-+ void <init>(Consumer)
-+ void lambda$new$0(Mob)
-+ void lambda$new$3(Mob)
-- boolean lambda$new$0(LivingEntity)
-```
 
-</details>
 
-<details><summary>net.minecraft.world.entity.ai.behavior.StrollAroundPoi</summary>
+<details><summary>com.mojang.blaze3d.platform.GlStateManager$Viewport</summary>
 
 ```diff
-+ int MIN_TIME_BETWEEN_STROLLS
-+ int STROLL_MAX_XZ_DIST
-+ int STROLL_MAX_Y_DIST
++ int height()
++ int width()
++ int x()
++ int y()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.behavior.TradeWithVillager</summary>
+<details><summary>com.mojang.blaze3d.platform.InputConstants</summary>
 
 ```diff
-+ float SPEED_MODIFIER
-+ int INTERACT_DIST_SQR
++ void <init>()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.behavior.ValidateNearbyPoi</summary>
+<details><summary>com.mojang.blaze3d.platform.Lighting</summary>
 
 ```diff
-+ int MAX_DISTANCE
++ void <init>()
 ```
 
 </details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillageBoundRandomStroll</summary>
 
-```diff
-+ int MAX_XZ_DIST
-+ int MAX_Y_DIST
-```
-
-</details>
 
-<details><summary>net.minecraft.world.entity.ai.behavior.VillagerGoalPackages</summary>
+<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
 
 ```diff
-+ float STROLL_SPEED_MODIFIER
++ byte getBlueOrLuminance(int,int)
++ byte getGreenOrLuminance(int,int)
++ byte getRedOrLuminance(int,int)
++ void blendPixel(int,int,int)
++ void downloadDepthBuffer(float)
++ void drawPixels()
++ void setPixelLuminance(int,int,byte)
++ void writeToFile(String)
 ```
 
 </details>
 
 
+<details><summary>com.mojang.blaze3d.platform.NativeImage$Format</summary>
 
-
-<details><summary>net.minecraft.world.entity.ai.control.BodyRotationControl</summary>
-
 ```diff
-+ int DELAY_UNTIL_STARTING_TO_FACE_FORWARD
-+ int HEAD_STABLE_ANGLE
-+ int HOW_LONG_IT_TAKES_TO_FACE_FORWARD
++ boolean hasBlue()
++ boolean hasGreen()
++ boolean hasLuminance()
++ boolean hasLuminanceOrBlue()
++ boolean hasLuminanceOrGreen()
++ boolean hasLuminanceOrRed()
++ boolean hasRed()
++ int blueOffset()
++ int greenOffset()
++ int luminanceOffset()
++ int luminanceOrBlueOffset()
++ int luminanceOrGreenOffset()
++ int luminanceOrRedOffset()
++ int redOffset()
 ```
 
 </details>
-
-
 
 
+<details><summary>com.mojang.blaze3d.platform.TextureUtil</summary>
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.EatBlockGoal</summary>
-
 ```diff
-+ int EAT_ANIMATION_TICKS
++ void <init>()
++ void writeAsPNG(String,int,int,int,int)
 ```
 
 </details>
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.FollowFlockLeaderGoal</summary>
 
-```diff
-+ int INTERVAL_TICKS
-```
-
-</details>
 
-<details><summary>net.minecraft.world.entity.ai.goal.FollowOwnerGoal</summary>
+<details><summary>com.mojang.math.OctahedralGroup</summary>
 
 ```diff
-+ int MAX_HORIZONTAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING
-+ int MAX_VERTICAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING
-+ int MIN_HORIZONTAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING
-+ int TELEPORT_WHEN_DISTANCE_IS
++ Matrix3f transformation()
++ OctahedralGroup inverse()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
+<details><summary>com.mojang.math.Quaternion</summary>
 
 ```diff
-+ int tickCount
++ Quaternion fromXYZ(float,float,float)
++ Quaternion fromXYZ(Vector3f)
++ Quaternion fromXYZDegrees(Vector3f)
++ Quaternion fromYXZ(float,float,float)
++ Vector3f toXYZ()
++ Vector3f toXYZDegrees()
++ Vector3f toYXZ()
++ Vector3f toYXZDegrees()
++ void slerp(Quaternion,float)
 ```
 
 </details>
 
 
+<details><summary>com.mojang.math.Transformation</summary>
 
-
-<details><summary>net.minecraft.world.entity.ai.goal.LlamaFollowCaravanGoal</summary>
-
 ```diff
-+ int CARAVAN_LIMIT
++ Quaternion getRightRotation()
++ Transformation slerp(Transformation,float)
++ Vector3f getScale()
++ Vector3f getTranslation()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal</summary>
+<details><summary>com.mojang.math.Vector3f</summary>
 
 ```diff
-+ int MAX_XZ_DIST
-+ int MAX_Y_DIST
+- DataResult lambda$static$1(DoubleStream)
++ DataResult lambda$static$1(List)
+- DoubleStream lambda$static$2(Vector3f)
++ List lambda$static$2(Vector3f)
+- Vector3f lambda$null$0(double[])
++ Vector3f lambda$null$0(List)
++ void clamp(Vector3f,Vector3f)
++ void load(Vector3f)
 ```
 
 </details>
-
-
 
 
+<details><summary>com.mojang.realmsclient.util.RealmsUtil</summary>
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.NearestItemSensor</summary>
-
 ```diff
-+ int MAX_DISTANCE_TO_WANTED_ITEM
-+ long XZ_RANGE
-+ long Y_RANGE
++ void <init>()
 ```
 
 </details>
-
 
 
+<details><summary>com.mojang.realmsclient.util.TextRenderingUtils$Line</summary>
 
-<details><summary>net.minecraft.world.entity.animal.horse.Llama</summary>
-
 ```diff
-+ int MAX_STRENGTH
-+ int VARIANTS
++ void <init>(TextRenderingUtils$LineSegment[])
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.DragonSittingAttackingPhase</summary>
-
-```diff
-+ int ROAR_DURATION
-```
 
-</details>
 
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.DragonSittingScanningPhase</summary>
+<details><summary>com.mojang.realmsclient.util.UploadTokenCache</summary>
 
 ```diff
-+ int SITTING_ATTACK_VIEW_RANGE
-+ int SITTING_ATTACK_Y_VIEW_RANGE
-+ int SITTING_CHARGE_VIEW_RANGE
-+ int SITTING_SCANNING_IDLE_TICKS
++ void <init>()
 ```
 
 </details>
-
-
-
 
 
-<details><summary>net.minecraft.world.entity.decoration.ArmorStand</summary>
+<details><summary>net.minecraft.client.gui.MapRenderer</summary>
 
 ```diff
-+ boolean ENABLE_ARMS
-+ double CHEST_OFFSET
-+ double FEET_OFFSET
-+ double HEAD_OFFSET
-+ double LEGS_OFFSET
-+ int CLIENT_FLAG_MARKER
-+ int CLIENT_FLAG_NO_BASEPLATE
-+ int CLIENT_FLAG_SHOW_ARMS
-+ int CLIENT_FLAG_SMALL
-+ int DISABLE_PUTTING_OFFSET
-+ int DISABLE_TAKING_OFFSET
-+ int WOBBLE_TIME
+- MapItemSavedData retrieveMapFromRenderer(int)
++ RenderType access$300()
+- RenderType access$400()
++ TextureManager access$200(MapRenderer)
+- TextureManager access$300(MapRenderer)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.MapRenderer$MapInstance</summary>
 
-
-<details><summary>net.minecraft.world.entity.decoration.LeashFenceKnotEntity</summary>
-
 ```diff
-+ double OFFSET_Y
+- MapItemSavedData access$200(MapRenderer$MapInstance)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
 
-<details><summary>net.minecraft.world.entity.item.PrimedTnt</summary>
-
 ```diff
-+ int DEFAULT_FUSE_TIME
++ boolean isPanoramicMode()
 ```
 
 </details>
-
 
 
+<details><summary>net.minecraft.client.renderer.blockentity.TheEndGatewayRenderer</summary>
 
-
-
-<details><summary>net.minecraft.world.entity.monster.Drowned</summary>
-
 ```diff
-+ float NAUTILUS_SHELL_CHANCE
+- float getOffset()
++ float getOffsetDown()
++ float getOffsetUp()
 ```
 
 </details>
-
 
 
+<details><summary>net.minecraft.core.FrontAndTop</summary>
 
-<details><summary>net.minecraft.world.entity.monster.EnderMan</summary>
-
 ```diff
-+ int DELAY_BETWEEN_CREEPY_STARE_SOUND
-+ int MIN_DEAGGRESSION_TIME
-+ UniformInt PERSISTENT_ANGER_TIME
-- IntRange PERSISTENT_ANGER_TIME
++ void lambda$static$0(Int2ObjectOpenHashMap)
 ```
 
 </details>
-
 
 
-<details><summary>net.minecraft.world.entity.monster.Enemy</summary>
+<details><summary>net.minecraft.core.Registry</summary>
 
 ```diff
-+ int XP_REWARD_BOSS
-+ int XP_REWARD_HUGE
-+ int XP_REWARD_LARGE
-+ int XP_REWARD_MEDIUM
-+ int XP_REWARD_NONE
-+ int XP_REWARD_SMALL
+- BlockPlacerType lambda$static$43()
++ BlockPlacerType lambda$static$45()
+- BlockStateProviderType lambda$static$42()
++ BlockStateProviderType lambda$static$44()
+- Codec lambda$static$48()
+- Codec lambda$static$49()
++ Codec lambda$static$50()
++ Codec lambda$static$51()
+- DataResult lambda$decode$54(Number)
++ DataResult lambda$decode$56(Number)
+- DataResult lambda$decode$56(Pair)
++ DataResult lambda$decode$58(Pair)
+- Feature lambda$static$38()
++ Feature lambda$static$40()
+- FeatureDecorator lambda$static$41()
++ FeatureDecorator lambda$static$43()
+- FeatureSizeType lambda$static$47()
++ FeatureSizeType lambda$static$49()
++ FloatProviderType lambda$static$35()
+- FloatProviderType lambda$static$36()
+- FoliagePlacerType lambda$static$44()
++ FoliagePlacerType lambda$static$46()
++ HeightProviderType lambda$static$37()
++ IntProviderType lambda$static$36()
+- Object lambda$keys$57(DynamicOps,ResourceLocation)
++ Object lambda$keys$59(DynamicOps,ResourceLocation)
+- Pair lambda$decode$55(DynamicOps,Object)
++ Pair lambda$decode$57(DynamicOps,Object)
+- StructureFeature lambda$static$39()
++ StructureFeature lambda$static$41()
+- StructurePieceType lambda$static$40()
++ StructurePieceType lambda$static$42()
+- StructurePoolElementType lambda$static$51()
++ StructurePoolElementType lambda$static$53()
+- StructureProcessorType lambda$static$50()
++ StructureProcessorType lambda$static$52()
+- SurfaceBuilder lambda$static$35()
++ SurfaceBuilder lambda$static$38()
+- TreeDecoratorType lambda$static$46()
++ TreeDecoratorType lambda$static$48()
+- TrunkPlacerType lambda$static$45()
++ TrunkPlacerType lambda$static$47()
+- void lambda$checkRegistry$53(WritableRegistry,WritableRegistry)
++ void lambda$checkRegistry$55(WritableRegistry,WritableRegistry)
+- void lambda$static$52(ResourceLocation,Supplier)
++ void lambda$static$54(ResourceLocation,Supplier)
+- WorldCarver lambda$static$37()
++ WorldCarver lambda$static$39()
 ```
 
 </details>
-
-
 
 
+<details><summary>net.minecraft.data.worldgen.Features</summary>
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Illusioner</summary>
-
 ```diff
-+ int ILLUSION_SPREAD
-+ int ILLUSION_TRANSITION_TICKS
-+ int NUM_ILLUSIONS
++ SimpleWeightedRandomList$Builder access$000()
++ SimpleWeightedRandomList$Builder weightedBlockStateBuilder()
 ```
 
 </details>
-
 
 
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
-<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
-
 ```diff
-+ float FLAP_DEGREES_PER_TICK
++ boolean shouldDiscardFriction()
++ void setDiscardFriction(boolean)
 ```
 
 </details>
-
 
 
+<details><summary>net.minecraft.world.entity.ai.behavior.RunSometimes</summary>
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
 ```diff
-+ byte DEFAULT_COLOR
-+ byte NO_COLOR
-+ float MAX_LID_OPEN
-+ float PEEK_PER_TICK
-+ int MAX_TELEPORT_DISTANCE
-+ int OTHER_SHULKER_LIMIT
-+ int OTHER_SHULKER_SCAN_RADIUS
-+ int TELEPORT_STEPS
-+ void onSyncedDataUpdated(EntityDataAccessor)
-+ void setAttachFace(Direction)
+- void <init>(Behavior,boolean,IntRange)
++ void <init>(Behavior,boolean,UniformInt)
+- void <init>(Behavior,IntRange)
++ void <init>(Behavior,UniformInt)
 ```
 
 </details>
-
-
-
 
 
-<details><summary>net.minecraft.world.entity.monster.Skeleton</summary>
+<details><summary>net.minecraft.world.entity.monster.AbstractSkeleton</summary>
 
 ```diff
-+ String CONVERSION_TAG
 + boolean isShaking()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.food.Foods</summary>
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Strider</summary>
-
-```diff
-+ float STEERING_MODIFIER
-+ float SUFFOCATE_SPEED_MODIFIER
-+ float SUFFOCATE_STEERING_MODIFIER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
-
-```diff
-+ float FLAP_DEGREES_PER_TICK
-+ int FLAG_IS_CHARGING
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ float BREAK_DOOR_CHANCE
-+ float ZOMBIE_LEADER_CHANCE
-+ int REINFORCEMENT_ATTEMPTS
-+ int REINFORCEMENT_RANGE_MAX
-+ int REINFORCEMENT_RANGE_MIN
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombifiedPiglin</summary>
-
-```diff
-+ int ALERT_RANGE_Y
-+ UniformInt ALERT_INTERVAL
-+ UniformInt FIRST_ANGER_SOUND_DELAY
-+ UniformInt PERSISTENT_ANGER_TIME
-- IntRange ALERT_INTERVAL
-- IntRange FIRST_ANGER_SOUND_DELAY
-- IntRange PERSISTENT_ANGER_TIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.HoglinAi</summary>
-
-```diff
-+ float SPEED_MULTIPLIER_WHEN_AVOIDING_REPELLENT
-+ float SPEED_MULTIPLIER_WHEN_FOLLOWING_ADULT
-+ float SPEED_MULTIPLIER_WHEN_IDLING
-+ float SPEED_MULTIPLIER_WHEN_MAKING_LOVE
-+ float SPEED_MULTIPLIER_WHEN_RETREATING
-+ int ATTACK_DURATION
-+ int ATTACK_INTERVAL
-+ int BABY_ATTACK_INTERVAL
-+ int DESIRED_DISTANCE_FROM_PIGLIN_WHEN_IDLING
-+ int DESIRED_DISTANCE_FROM_PIGLIN_WHEN_RETREATING
-+ int REPELLENT_DETECTION_RANGE_HORIZONTAL
-+ int REPELLENT_DETECTION_RANGE_VERTICAL
-+ int REPELLENT_PACIFY_TIME
-+ UniformInt ADULT_FOLLOW_RANGE
-+ UniformInt RETREAT_DURATION
-- IntRange ADULT_FOLLOW_RANGE
-- IntRange RETREAT_DURATION
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
-
-```diff
-+ int CONVERSION_TIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinAi</summary>
-
-```diff
-+ float PROBABILITY_OF_CELEBRATION_DANCE
-+ float SPEED_MULTIPLIER_WHEN_AVOIDING
-+ float SPEED_MULTIPLIER_WHEN_DANCING
-+ float SPEED_MULTIPLIER_WHEN_GOING_TO_CELEBRATE_LOCATION
-+ float SPEED_MULTIPLIER_WHEN_GOING_TO_WANTED_ITEM
-+ float SPEED_MULTIPLIER_WHEN_IDLING
-+ float SPEED_MULTIPLIER_WHEN_MOUNTING
-+ float SPEED_MULTIPLIER_WHEN_RETREATING
-+ float SPEED_WHEN_STRAFING_BACK_FROM_TARGET
-+ int ADMIRE_DURATION
-+ int ANGER_DURATION
-+ int BABY_FLEE_DURATION_AFTER_GETTING_HIT
-+ int CELEBRATION_TIME
-+ int DESIRED_DISTANCE_FROM_ENTITY_WHEN_AVOIDING
-+ int DESIRED_DISTANCE_FROM_ZOMBIFIED
-+ int EAT_COOLDOWN
-+ int HIT_BY_PLAYER_MEMORY_TIMEOUT
-+ int HOW_LONG_TIME_TO_DISABLE_ADMIRE_WALKING_IF_CANT_REACH_ITEM
-+ int INTERACTION_RANGE
-+ int MAX_DISTANCE_TO_WALK_TO_ITEM
-+ int MAX_LOOK_DIST
-+ int MAX_LOOK_DIST_FOR_PLAYER_HOLDING_LOVED_ITEM
-+ int MAX_TIME_TO_WALK_TO_ITEM
-+ int MAX_WALK_DISTANCE_TO_START_RIDING
-+ int MELEE_ATTACK_COOLDOWN
-+ int MIN_DESIRED_DIST_FROM_TARGET_WHEN_HOLDING_CROSSBOW
-+ int PLAYER_ANGER_RANGE
-+ int REPELLENT_DETECTION_RANGE_HORIZONTAL
-+ int REPELLENT_DETECTION_RANGE_VERTICAL
-+ UniformInt AVOID_ZOMBIFIED_DURATION
-+ UniformInt BABY_AVOID_NEMESIS_DURATION
-+ UniformInt RETREAT_DURATION
-+ UniformInt RIDE_DURATION
-+ UniformInt RIDE_START_INTERVAL
-+ UniformInt TIME_BETWEEN_HUNTS
-- IntRange AVOID_ZOMBIFIED_DURATION
-- IntRange BABY_AVOID_NEMESIS_DURATION
-- IntRange RETREAT_DURATION
-- IntRange RIDE_DURATION
-- IntRange RIDE_START_INTERVAL
-- IntRange TIME_BETWEEN_HUNTS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.piglin.PiglinBrute</summary>
-
-```diff
-+ float MOVEMENT_SPEED_WHEN_FIGHTING
-+ int ATTACK_DAMAGE
-+ int MAX_HEALTH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.CatSpawner</summary>
-
-```diff
-+ int TICK_DELAY
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.npc.Villager</summary>
-
-```diff
-+ float SPEED_MODIFIER
-+ int BREEDING_FOOD_THRESHOLD
-+ int GOSSIP_COOLDOWN
-+ int GOSSIP_DECAY_INTERVAL
-+ int HOW_FAR_AWAY_TO_TALK_TO_OTHER_VILLAGERS_ABOUT_GOLEMS
-+ int HOW_MANY_VILLAGERS_NEED_TO_AGREE_TO_SPAWN_A_GOLEM
-+ int MAX_GOSSIP_TOPICS
-+ int REPUTATION_CHANGE_PER_EVENT
-+ int TRADES_PER_LEVEL
-+ long TIME_SINCE_SLEEPING_FOR_GOLEM_SPAWNING
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades</summary>
-
-```diff
-+ float HIGH_TIER_PRICE_MULTIPLIER
-+ float LOW_TIER_PRICE_MULTIPLIER
-+ int COMMON_ITEMS_SUPPLY
-+ int DEFAULT_SUPPLY
-+ int UNCOMMON_ITEMS_SUPPLY
-+ int XP_LEVEL_1_BUY
-+ int XP_LEVEL_1_SELL
-+ int XP_LEVEL_2_BUY
-+ int XP_LEVEL_2_SELL
-+ int XP_LEVEL_3_BUY
-+ int XP_LEVEL_3_SELL
-+ int XP_LEVEL_4_BUY
-+ int XP_LEVEL_4_SELL
-+ int XP_LEVEL_5_TRADE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Inventory</summary>
-
-```diff
-+ int INVENTORY_SIZE
-+ int NOT_FOUND_INDEX
-+ int POP_TIME_DURATION
-+ int SELECTION_SIZE
-+ int SLOT_OFFHAND
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
-
-```diff
-+ double ARROW_BASE_DAMAGE
-+ int FLAG_CRIT
-+ int FLAG_CROSSBOW
-+ int FLAG_NOPHYSICS
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.Arrow</summary>
-
-```diff
-+ byte EVENT_POTION_PUFF
-+ int EXPOSED_POTION_DECAY_TIME
-+ int NO_EFFECT_COLOR
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.projectile.EvokerFangs</summary>
-
-```diff
-+ int ATTACK_DURATION
-+ int ATTACK_TRIGGER_TICKS
-+ int LIFE_OFFSET
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.projectile.FishingHook</summary>
-
-```diff
-+ int MAX_OUT_OF_WATER_TIME
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrownPotion</summary>
-
-```diff
-+ double SPLASH_RANGE
-+ double SPLASH_RANGE_SQ
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.raid.Raid</summary>
-
-```diff
-+ int ATTEMPT_RAID_CLOSE
-+ int ATTEMPT_RAID_FARTHEST
-+ int ATTEMPT_RAID_INSIDE
-+ int DEFAULT_MAX_BAD_OMEN_LEVEL
-+ int DEFAULT_PRE_RAID_TICKS
-+ int HERO_OF_THE_VILLAGE_DURATION
-+ int LOW_MOB_THRESHOLD
-+ int MAX_CELEBRATION_TICKS
-+ int MAX_NO_ACTION_TIME
-+ int NUM_SPAWN_ATTEMPTS
-+ int OUTSIDE_RAID_BOUNDS_TIMEOUT
-+ int POST_RAID_TICK_LIMIT
-+ int RAID_REMOVAL_THRESHOLD_SQR
-+ int RAID_TIMEOUT_TICKS
-+ int SECTION_RADIUS_FOR_FINDING_NEW_VILLAGE_CENTER
-+ int TICKS_PER_DAY
-+ int VALID_RAID_RADIUS_SQR
-+ int VILLAGE_RADIUS_BUFFER
-+ int VILLAGE_SEARCH_RADIUS
-+ String OMINOUS_BANNER_PATTERN_NAME
-+ String RAIDERS_REMAINING
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecart</summary>
-
-```diff
-+ float WATER_SLOWDOWN_FACTOR
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
-
-```diff
-+ int ACTIVATION_DELAY
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
-
-```diff
-+ byte EVENT_PRIME
-```
-
-</details>
-
-<details><summary>net.minecraft.world.food.FoodConstants</summary>
-
-```diff
-+ float EXHAUSTION_ATTACK
-+ float EXHAUSTION_CROUCH
-+ float EXHAUSTION_DAMAGE
-+ float EXHAUSTION_DROP
-+ float EXHAUSTION_HEAL
-+ float EXHAUSTION_JUMP
-+ float EXHAUSTION_MINE
-+ float EXHAUSTION_SPRINT
-+ float EXHAUSTION_SPRINT_JUMP
-+ float EXHAUSTION_SWIM
-+ float EXHAUSTION_WALK
-+ float FOOD_SATURATION_GOOD
-+ float FOOD_SATURATION_LOW
-+ float FOOD_SATURATION_MAX
-+ float FOOD_SATURATION_NORMAL
-+ float FOOD_SATURATION_POOR
-+ float FOOD_SATURATION_SUPERNATURAL
-+ float MAX_SATURATION
-+ float SATURATION_FLOOR
-+ float START_SATURATION
-+ int HEAL_LEVEL
-+ int HEALTH_TICK_COUNT
-+ int HEALTH_TICK_COUNT_SATURATED
-+ int MAX_FOOD
-+ int SPRINT_LEVEL
-+ int STARVE_LEVEL
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
-
-```diff
-+ boolean DEBUG_COST
-+ int COST_ADDED_BASE
-+ int COST_BASE
-+ int COST_FAIL
-+ int COST_INCOMPATIBLE_PENALTY
-+ int COST_RENAME
-+ int COST_REPAIR_MATERIAL
-+ int COST_REPAIR_SACRIFICE
-+ int MAX_NAME_LENGTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
-
-```diff
-+ int DATA_COUNT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int PAYMENT_SLOT
-+ int SLOT_COUNT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.inventory.BrewingStandMenu</summary>
-
-```diff
-+ int BOTTLE_SLOT_END
-+ int BOTTLE_SLOT_START
-+ int DATA_COUNT
-+ int FUEL_SLOT
-+ int INGREDIENT_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int SLOT_COUNT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.inventory.CartographyTableMenu</summary>
-
-```diff
-+ int ADDITIONAL_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int MAP_SLOT
-+ int RESULT_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.ChestMenu</summary>
-
-```diff
-+ int SLOTS_PER_ROW
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.CraftingMenu</summary>
-
-```diff
-+ int CRAFT_SLOT_END
-+ int CRAFT_SLOT_START
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int RESULT_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.HopperMenu</summary>
-
-```diff
-+ int CONTAINER_SIZE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.inventory.InventoryMenu</summary>
-
-```diff
-+ int ARMOR_SLOT_END
-+ int ARMOR_SLOT_START
-+ int CONTAINER_ID
-+ int CRAFT_SLOT_END
-+ int CRAFT_SLOT_START
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int RESULT_SLOT
-+ int SHIELD_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.inventory.LecternMenu</summary>
-
-```diff
-+ int BUTTON_NEXT_PAGE
-+ int BUTTON_PAGE_JUMP_RANGE_START
-+ int BUTTON_PREV_PAGE
-+ int BUTTON_TAKE_BOOK
-+ int DATA_COUNT
-+ int SLOT_COUNT
-```
-
-</details>
-
-<details><summary>net.minecraft.world.inventory.LoomMenu</summary>
-
-```diff
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.StonecutterMenu</summary>
-
-```diff
-+ int INPUT_SLOT
-+ int INV_SLOT_END
-+ int INV_SLOT_START
-+ int RESULT_SLOT
-+ int USE_ROW_SLOT_END
-+ int USE_ROW_SLOT_START
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BlockItem</summary>
-
-```diff
-+ String BLOCK_ENTITY_TAG
-+ String BLOCK_STATE_TAG
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.BoneMealItem</summary>
-
-```diff
-+ int GRASS_COUNT_MULTIPLIER
-+ int GRASS_SPREAD_HEIGHT
-+ int GRASS_SPREAD_WIDTH
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.BundleItem</summary>
-
-```diff
-+ int BUNDLE_IN_BUNDLE_WEIGHT
-+ int MAX_WEIGHT
-+ String TAG_ITEMS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
-
-```diff
-+ String TAG_LODESTONE_DIMENSION
-+ String TAG_LODESTONE_POS
-+ String TAG_LODESTONE_TRACKED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeableLeatherItem</summary>
-
-```diff
-+ int DEFAULT_LEATHER_COLOR
-+ String TAG_COLOR
-+ String TAG_DISPLAY
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.EnchantedBookItem</summary>
-
-```diff
-+ String TAG_STORED_ENCHANTMENTS
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.HoneyBottleItem</summary>
-
-```diff
-+ int DRINK_DURATION
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.HorseArmorItem</summary>
-
-```diff
-+ String TEX_FOLDER
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item GOAT_SPAWN_EGG
-+ Item LIGHT
-+ Item registerBlock(Block[])
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.MapItem</summary>
-
-```diff
-+ int DEFAULT_MAP_COLOR
-+ int IMAGE_HEIGHT
-+ int IMAGE_WIDTH
-+ String TAG_MAP
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.PickaxeItem</summary>
-
-```diff
-+ int MISSING_LEVEL
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.PotionItem</summary>
-
-```diff
-+ int DRINK_DURATION
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.ShieldItem</summary>
-
-```diff
-+ float MINIMUM_DURABILITY_DAMAGE
-+ int EFFECTIVE_BLOCK_DELAY
-+ String TAG_BASE_COLOR
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.TridentItem</summary>
-
-```diff
-+ float BASE_DAMAGE
-+ float SHOOT_POWER
-+ int THROW_THRESHOLD_TIME
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.WrittenBookItem</summary>
-
-```diff
-+ int MAX_GENERATION
-+ int MAX_PAGES
-+ int PAGE_EDIT_LENGTH
-+ int PAGE_LENGTH
-+ int TITLE_LENGTH
-+ int TITLE_MAX_LENGTH
-+ String TAG_AUTHOR
-+ String TAG_FILTERED_PAGES
-+ String TAG_FILTERED_TITLE
-+ String TAG_GENERATION
-+ String TAG_PAGES
-+ String TAG_RESOLVED
-+ String TAG_TITLE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.alchemy.PotionBrewing</summary>
-
-```diff
-+ int BREWING_TIME_SECONDS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.alchemy.PotionUtils</summary>
-
-```diff
-+ int EMPTY_COLOR
-+ String TAG_CUSTOM_POTION_COLOR
-+ String TAG_CUSTOM_POTION_EFFECTS
-+ String TAG_POTION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
-
-```diff
-+ Item itemFromJson(JsonObject)
-+ ItemStack itemStackFromJson(JsonObject)
-- ItemStack itemFromJson(JsonObject)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.DamageEnchantment</summary>
-
-```diff
-+ int ALL
-+ int ARTHROPODS
-+ int UNDEAD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BlockGetter</summary>
-
-```diff
-+ Optional getBlockEntity(BlockEntityType)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
-
-```diff
-+ Optional getBlockEntity(BlockEntityType)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
-
-```diff
-+ int DEFAULT_RANDOM_TICK_SPEED
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameType</summary>
-
-```diff
-+ int NOT_SET
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.LevelSimulatedReader</summary>
-
-```diff
-+ Optional getBlockEntity(net.minecraft.core.BlockPos,net.minecraft.world.level.block.entity.BlockEntityType)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
-
-```diff
-+ int MIN_SPAWN_DISTANCE
-+ int SPAWN_DISTANCE_BLOCK
-+ int SPAWN_DISTANCE_CHUNK
-+ WeightedRandomList mobsAt(Biome)
-- List mobsAt(Biome)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.SpawnData</summary>
-
-```diff
-+ int DEFAULT_WEIGHT
-+ String DEFAULT_TYPE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.FuzzyOffsetBiomeZoomer</summary>
-
-```diff
-+ int ZOOM
-+ int ZOOM_BITS
-+ int ZOOM_MASK
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.MobSpawnSettings</summary>
-
-```diff
-+ float DEFAULT_CREATURE_SPAWN_PROBABILITY
-+ WeightedRandomList EMPTY_MOB_LIST
-+ WeightedRandomList getMobs(MobCategory)
-+ WeightedRandomList lambda$static$1(MobCategory)
-- List getMobs(MobCategory)
-- List lambda$static$1(MobCategory)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$Builder</summary>
-
-```diff
-+ WeightedRandomList lambda$build$2(Map$Entry)
-- List lambda$build$2(Map$Entry)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData</summary>
-
-```diff
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ void <init>(Weight,int,int)
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- Integer lambda$null$3(MobSpawnSettings$SpawnerData)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.TheEndBiomeSource</summary>
-
-```diff
-+ float ISLAND_THRESHOLD
-+ int ISLAND_CHUNK_DISTANCE
-+ long ISLAND_CHUNK_DISTANCE_SQR
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.AbstractCauldronBlock</summary>
-
-```diff
-+ int FLOOR_LEVEL
-+ int LEG_DEPTH
-+ int LEG_HEIGHT
-+ int LEG_WIDTH
-+ int SIDE_THICKNESS
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AttachedStemBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
-
-```diff
-+ float COLLISION_AABB_OFFSET
-+ float LARGE_LEAVES_AABB_OFFSET
-+ float SMALL_LEAVES_AABB_OFFSET
-+ int AGE_THICK_BAMBOO
-+ int AGE_THIN_BAMBOO
-+ int MAX_HEIGHT
-+ int STAGE_DONE_GROWING
-+ int STAGE_GROWING
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.BaseCoralPlantBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-+ int SECONDS_ON_FIRE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ int HEIGHT
-+ int LEG_WIDTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
-
 ```diff
-+ int MAX_HONEY_LEVELS
-+ int SHEARED_HONEYCOMB_COUNT
+- FoodProperties stew(int)
++ FoodProperties$Builder stew(int)
 ```
 
 </details>
-
-<details><summary>net.minecraft.world.level.block.BellBlock</summary>
 
-```diff
-+ int EVENT_BELL_RING
-```
-
-</details>
 
-<details><summary>net.minecraft.world.level.block.BigDripleafBlock</summary>
+<details><summary>net.minecraft.world.item.ItemUtils</summary>
 
 ```diff
-+ int ENTITY_DETECTION_MIN_Y
-+ int LOWEST_LEAF_TOP
-+ int MAX_GEN_HEIGHT
-+ int NO_TICK
-+ int STEM_WIDTH
-+ VoxelShape STEM_SLICER
-- VoxelShape getLeafShape(BlockState)
-- VoxelShape getStemShape(BlockState)
+- Optional bucketMobPickup(Player,InteractionHand,LivingEntity,SoundEvent,Supplier)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.Block</summary>
+<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
 
 ```diff
-+ float INDESTRUCTIBLE
-+ float INSTANT
-+ int CACHE_SIZE
-+ int UPDATE_ALL
-+ int UPDATE_ALL_IMMEDIATE
-+ int UPDATE_CLIENTS
-+ int UPDATE_IMMEDIATE
-+ int UPDATE_INVISIBLE
-+ int UPDATE_KNOWN_SHAPE
-+ int UPDATE_LIMIT
-+ int UPDATE_MOVE_BY_PISTON
-+ int UPDATE_NEIGHBORS
-+ int UPDATE_NONE
-+ int UPDATE_SUPPRESS_DROPS
-+ int UPDATE_SUPPRESS_LIGHT
+- JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
+<details><summary>net.minecraft.world.level.StructureFeatureManager</summary>
 
 ```diff
-+ Block LIGHT
+- boolean lambda$getStructureAt$3(BlockPos,StructureStart)
++ boolean lambda$getStructureAt$4(boolean,BlockPos,StructureStart)
+- boolean lambda$getStructureAt$5(boolean,BlockPos,StructureStart)
++ boolean lambda$null$3(BlockPos,StructurePiece)
+- boolean lambda$null$4(BlockPos,StructurePiece)
 ```
 
 </details>
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CakeBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-+ float AABB_SIZE_PER_BITE
-+ int MAX_BITES
-```
-
-</details>
 
-<details><summary>net.minecraft.world.level.block.CandleBlock</summary>
+<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
 
 ```diff
-+ int MAX_CANDLES
-+ int MIN_CANDLES
 + boolean canBeLit(BlockState)
++ boolean isLit(BlockState)
++ void lambda$extinguish$1(LevelAccessor,BlockPos,Vec3)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.CaveVinesBlock</summary>
+<details><summary>net.minecraft.world.level.block.AzaleaBlock</summary>
 
 ```diff
-+ float CHANCE_OF_BERRIES_ON_GROWTH
++ void <clinit>()
++ VoxelShape getBlockSupportShape(BlockState,BlockGetter,BlockPos)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.BigDripleafStemBlock</summary>
 
 ```diff
-+ float AABB_MAX
-+ float AABB_MIN
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ChangeOverTimeBlock</summary>
-
-```diff
-+ int SCAN_DISTANCE
++ ItemStack getCloneItemStack(BlockGetter,BlockPos,BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
-
-```diff
-+ int SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.CropBlock</summary>
-
-```diff
-+ int MAX_AGE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.DetectorRailBlock</summary>
-
-```diff
-+ int PRESSED_CHECK_PERIOD
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
-
-```diff
-+ float AABB_DOOR_THICKNESS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FarmBlock</summary>
-
-```diff
-+ int MAX_MOISTURE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FireBlock</summary>
-
-```diff
-+ int BURN_EASY
-+ int BURN_HARD
-+ int BURN_INSTANT
-+ int BURN_MEDIUM
-+ int FLAME_EASY
-+ int FLAME_HARD
-+ int FLAME_INSTANT
-+ int FLAME_MEDIUM
-+ int MAX_AGE
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FlowerBlock</summary>
-
-```diff
-+ float AABB_OFFSET
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FrostedIceBlock</summary>
-
-```diff
-+ int MAX_AGE
-+ int NEIGHBORS_TO_AGE
-+ int NEIGHBORS_TO_MELT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
-
-```diff
-+ int DECAY_DISTANCE
-+ int TICK_DELAY
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
-
-```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ int MOON_PHASES
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.EndDragonFight</summary>
-
-```diff
-+ int ARENA_SIZE_CHUNKS
-+ int ARENA_TICKET_LEVEL
-+ int DRAGON_SPAWN_Y
-+ int GATEWAY_COUNT
-+ int GATEWAY_DISTANCE
-+ int MAX_TICKS_BEFORE_DRAGON_RESPAWN
-+ int TIME_BETWEEN_CRYSTAL_SCANS
-+ int TIME_BETWEEN_PLAYER_SCANS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ int DEFAULT_NOTIFICATION_RADIUS
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Aquifer</summary>
-
-```diff
-+ int ALWAYS_LAVA_BELOW_Y_INDEX
-+ int ALWAYS_USE_SEA_LEVEL_WHEN_ABOVE
-+ int X_RANGE
-+ int X_SEPARATION
-+ int X_SPACING
-+ int Y_RANGE
-+ int Y_SEPARATION
-+ int Y_SPACING
-+ int Z_RANGE
-+ int Z_SEPARATION
-+ int Z_SPACING
-+ boolean isLavaLevel(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
-
-```diff
-+ int BEARD_KERNEL_RADIUS
-+ int BEARD_KERNEL_SIZE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
-
-```diff
-+ Object count(IntProvider)
-- Object count(UniformInt)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ WeightedRandomList getMobsAt(BlockPos)
-- List getMobsAt(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
-
-```diff
-+ int OLD_CELL_COUNT_Y
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom</summary>
-
-```diff
-+ String toString()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop</summary>
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$Absolute</summary>
 
 ```diff
 + String toString()
@@ -11510,1352 +2606,693 @@
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.carver.CaveWorldCarver</summary>
 
 ```diff
-+ CanyonCarverConfiguration$CanyonShapeConfiguration shape
-+ FloatProvider verticalRotation
-- float verticalRadiusCenterFactor
-- float verticalRadiusDefaultFactor
-- FloatProvider distanceFactor
-- FloatProvider horizontalRadiusFactor
-- FloatProvider thickness
-- FloatProvider verticalRotation
-- int widthSmoothness
-- UniformInt yScale
-- VerticalAnchor bottomInclusive
-- VerticalAnchor topInclusive
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ CanyonCarverConfiguration$CanyonShapeConfiguration lambda$null$2(CanyonCarverConfiguration)
-+ CarverConfiguration lambda$null$0(CanyonCarverConfiguration)
-+ FloatProvider lambda$null$1(CanyonCarverConfiguration)
-+ void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-+ void <init>(CanyonCarverConfiguration$CanyonShapeConfiguration)
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- float getVerticalRadiusCenterFactor()
-- float getVerticalRadiusDefaultFactor()
-- Float lambda$null$0(CanyonCarverConfiguration)
-- FloatProvider getDistanceFactor()
-- FloatProvider getHorizontalRadiusFactor()
-- FloatProvider getThickness()
-- FloatProvider getVerticalRotation()
-- int getWidthSmoothness()
-- UniformInt getYScale()
-- VerticalAnchor getBottomInclusive()
-- VerticalAnchor getTopInclusive()
-- void <init>(FloatProvider,float,float)
++ boolean carve(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,Random,int,ChunkPos,BitSet)
++ boolean isStartChunk(CaveCarverConfiguration,Random)
+- int getCaveY(CarvingContext,Random)
+- void createRoom(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)
++ void createRoom(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,float,double,BitSet,WorldCarver$CarveSkipChecker)
+- void createTunnel(CarvingContext,CarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)
++ void createTunnel(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,long,int,double,double,double,double,double,float,float,float,int,int,double,BitSet,WorldCarver$CarveSkipChecker)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltColumnsFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.carver.NetherWorldCarver</summary>
 
 ```diff
-+ int CLUSTERED_REACH
-+ int CLUSTERED_SIZE
-+ int UNCLUSTERED_REACH
-+ int UNCLUSTERED_SIZE
++ boolean carveBlock(CarvingContext,CaveCarverConfiguration,ChunkAccess,Function,BitSet,Random,BlockPos$MutableBlockPos,BlockPos$MutableBlockPos,int,MutableBoolean)
+- int getCaveY(CarvingContext,Random)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
 
 ```diff
-+ int RANDOM_SALT
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature$FeatureStart</summary>
 
 ```diff
-+ int RANDOM_SALT
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.EndPodiumFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature$EndCityStart</summary>
 
 ```diff
-+ float CORNER_ROUNDING
-+ int PODIUM_PILLAR_HEIGHT
-+ int PODIUM_RADIUS
-+ int RIM_RADIUS
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.HugeFungusFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature</summary>
 
 ```diff
-+ float HUGE_PROBABILITY
+- StructureStart lambda$getStartFactory$0(StructureFeature,ChunkPos,BoundingBox,int,long)
++ StructureStart lambda$getStartFactory$0(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
 
 ```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
++ LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,Random,int,FloatProvider,FloatProvider)
+- LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,Random,int,FloatProvider,FloatProvider)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
-
-```diff
-+ void <init>(FloatProvider)
-+ void <init>(LargeDripstoneFeature$1)
-- void <init>(FloatProvider)
-- void <init>(LargeDripstoneFeature$1)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature$MineShaftStart</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
 
 ```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
 
 ```diff
-+ WeightedRandomList FORTRESS_ENEMIES
-- List FORTRESS_ENEMIES
-+ WeightedRandomList getSpecialEnemies()
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+- void generatePieces(ChunkPos)
+- void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
+
+```diff
 - List getSpecialEnemies()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
-
-```diff
-+ WeightedRandomList MONUMENT_ENEMIES
-- List MONUMENT_ENEMIES
 + WeightedRandomList getSpecialEnemies()
-- List getSpecialEnemies()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
 
 ```diff
-+ float JUNGLE_MOSSINESS
-+ float PROBABILITY_OF_AIR_POCKET
-+ float PROBABILITY_OF_GIANT_PORTAL
-+ float PROBABILITY_OF_UNDERGROUND
-+ float SWAMP_MOSSINESS
-+ float UNDERWATER_MOSSINESS
-+ int MIN_Y
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SpikeFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
 
 ```diff
-+ int NUMBER_OF_SPIKES
-+ int SPIKE_DISTANCE
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
-
-```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature$StructureStartFactory</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
 ```diff
-+ StructureStart create(net.minecraft.world.level.levelgen.feature.StructureFeature,net.minecraft.world.level.ChunkPos,int,long)
-- StructureStart create(net.minecraft.world.level.levelgen.feature.StructureFeature,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.levelgen.structure.BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
-
-```diff
-+ WeightedRandomList SWAMPHUT_ANIMALS
-+ WeightedRandomList SWAMPHUT_ENEMIES
-- List SWAMPHUT_ANIMALS
-- List SWAMPHUT_ENEMIES
-+ WeightedRandomList getSpecialAnimals()
-+ WeightedRandomList getSpecialEnemies()
 - List getSpecialAnimals()
 - List getSpecialEnemies()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ int BLOCK_UPDATE_FLAGS
-+ boolean doPlace(TreeConfiguration)
-+ Boolean lambda$place$11(BoundingBox)
-+ void lambda$doPlace$6(FoliagePlacer$FoliageAttachment)
-+ void lambda$place$10(TreeDecorator)
-+ void lambda$place$7(BlockState)
-+ void lambda$place$8(BlockState)
-+ void lambda$place$9(BlockState)
-- boolean doPlace(TreeConfiguration)
-- void lambda$doPlace$6(FoliagePlacer$FoliageAttachment)
-- void lambda$place$7(TreeDecorator)
+- StructureStart createStart(ChunkPos,BoundingBox,int,long)
++ StructureStart createStart(ChunkPos,int,long)
++ WeightedRandomList getSpecialAnimals()
++ WeightedRandomList getSpecialEnemies()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VoidStartPlatformFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature$FeatureStart</summary>
 
 ```diff
-+ int PLATFORM_RADIUS
-+ int PLATFORM_RADIUS_CHUNKS
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature$WoodlandMansionStart</summary>
 
 ```diff
-+ IntProvider count
-- UniformInt count
-+ IntProvider count()
-+ void <init>(IntProvider)
-- UniformInt count()
-- void <init>(UniformInt)
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
 
 ```diff
-+ IntProvider radius
-- UniformInt radius
-+ IntProvider lambda$null$1(DiskConfiguration)
-+ void <init>(List)
-- UniformInt lambda$null$1(DiskConfiguration)
-- void <init>(List)
++ IntProvider height()
++ IntProvider lambda$null$0(ColumnFeatureConfiguration)
++ IntProvider lambda$null$1(ColumnFeatureConfiguration)
++ IntProvider reach()
+- UniformInt height()
+- UniformInt lambda$null$0(ColumnFeatureConfiguration)
+- UniformInt lambda$null$1(ColumnFeatureConfiguration)
+- UniformInt reach()
++ void <init>(IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GrowingPlantConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
 
 ```diff
-+ SimpleWeightedRandomList heightDistribution
-- WeightedList heightDistribution
-+ SimpleWeightedRandomList lambda$null$0(GrowingPlantConfiguration)
-+ void <init>(BlockStateProvider,boolean)
-- void <init>(BlockStateProvider,boolean)
-- void <init>(BlockStateProvider,boolean)
-- WeightedList lambda$null$0(GrowingPlantConfiguration)
++ IntProvider lambda$null$2(DeltaFeatureConfiguration)
++ IntProvider lambda$null$3(DeltaFeatureConfiguration)
++ IntProvider rimSize()
++ IntProvider size()
+- UniformInt lambda$null$2(DeltaFeatureConfiguration)
+- UniformInt lambda$null$3(DeltaFeatureConfiguration)
+- UniformInt rimSize()
+- UniformInt size()
++ void <init>(BlockState,BlockState,IntProvider,IntProvider)
+- void <init>(BlockState,BlockState,UniformInt,UniformInt)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DripstoneClusterConfiguration</summary>
 
 ```diff
-+ FloatProvider heightScale
-+ FloatProvider stalactiteBluntness
-+ FloatProvider stalagmiteBluntness
-+ FloatProvider windSpeed
-+ IntProvider columnRadius
-- FloatProvider heightScale
-- FloatProvider stalactiteBluntness
-- FloatProvider stalagmiteBluntness
-- FloatProvider windSpeed
-- UniformInt columnRadius
-+ FloatProvider lambda$null$2(LargeDripstoneConfiguration)
-+ FloatProvider lambda$null$4(LargeDripstoneConfiguration)
-+ FloatProvider lambda$null$5(LargeDripstoneConfiguration)
-+ FloatProvider lambda$null$6(LargeDripstoneConfiguration)
-+ IntProvider lambda$null$1(LargeDripstoneConfiguration)
-+ void <init>(FloatProvider,int,float)
-- FloatProvider lambda$null$2(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$4(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$5(LargeDripstoneConfiguration)
-- FloatProvider lambda$null$6(LargeDripstoneConfiguration)
-- UniformInt lambda$null$1(LargeDripstoneConfiguration)
-- void <init>(FloatProvider,int,float)
++ FloatProvider lambda$null$6(DripstoneClusterConfiguration)
+- FloatProvider lambda$null$6(DripstoneClusterConfiguration)
++ FloatProvider lambda$null$7(DripstoneClusterConfiguration)
+- FloatProvider lambda$null$7(DripstoneClusterConfiguration)
++ IntProvider lambda$null$1(DripstoneClusterConfiguration)
++ IntProvider lambda$null$2(DripstoneClusterConfiguration)
++ IntProvider lambda$null$5(DripstoneClusterConfiguration)
+- UniformInt lambda$null$1(DripstoneClusterConfiguration)
+- UniformInt lambda$null$2(DripstoneClusterConfiguration)
+- UniformInt lambda$null$5(DripstoneClusterConfiguration)
++ void <init>(int,IntProvider,IntProvider,int,int,IntProvider,FloatProvider,FloatProvider,float,int,int)
+- void <init>(int,UniformInt,UniformInt,int,int,UniformInt,FloatProvider,FloatProvider,float,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ReplaceSphereConfiguration</summary>
 
 ```diff
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
-
-```diff
-+ void <init>(IntProvider,int)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt,int)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
-
-```diff
-+ void <init>(IntProvider,int)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt,int)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment</summary>
-
-```diff
-+ BlockPos pos
-- BlockPos foliagePos
-+ BlockPos pos()
-- BlockPos foliagePos()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
-
-```diff
-+ void <init>(IntProvider,int)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- void <init>(UniformInt,int)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
-
-```diff
-+ IntProvider height
-- UniformInt height
-+ IntProvider lambda$null$0(PineFoliagePlacer)
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- UniformInt lambda$null$0(PineFoliagePlacer)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
-
-```diff
-+ IntProvider trunkHeight
-- UniformInt trunkHeight
-+ IntProvider lambda$null$0(SpruceFoliagePlacer)
-+ void <init>(IntProvider)
-+ void createFoliage(FoliagePlacer$FoliageAttachment,int,int,int)
-- UniformInt lambda$null$0(SpruceFoliagePlacer)
-- void <init>(UniformInt)
-- void createFoliage(BoundingBox)
++ IntProvider lambda$null$2(ReplaceSphereConfiguration)
++ IntProvider radius()
+- UniformInt lambda$null$2(ReplaceSphereConfiguration)
+- UniformInt radius()
++ void <init>(BlockState,BlockState,IntProvider)
+- void <init>(BlockState,BlockState,UniformInt)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration</summary>
 
 ```diff
-+ SimpleWeightedRandomList weightedList
-- WeightedList weightedList
-+ DataResult create(SimpleWeightedRandomList)
-+ SimpleWeightedRandomList lambda$static$0(WeightedStateProvider)
-+ void <init>(SimpleWeightedRandomList)
-+ void <init>(SimpleWeightedRandomList$Builder)
-- DataResult create(WeightedList)
-- void <init>()
-- void <init>(WeightedList)
-- WeightedList lambda$static$0(WeightedStateProvider)
-- WeightedStateProvider add(BlockState,int)
++ IntProvider lambda$null$4(VegetationPatchConfiguration)
++ IntProvider lambda$null$8(VegetationPatchConfiguration)
+- UniformInt lambda$null$4(VegetationPatchConfiguration)
+- UniformInt lambda$null$8(VegetationPatchConfiguration)
++ void <init>(ResourceLocation,BlockStateProvider,Supplier,CaveSurface,IntProvider,float,int,float,IntProvider,float)
+- void <init>(ResourceLocation,BlockStateProvider,Supplier,CaveSurface,UniformInt,float,int,float,UniformInt,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer</summary>
 
 ```diff
-+ void lambda$place$2(BlockPos)
-+ void place(List)
-+ void placeBlockAt(BlockPos)
-+ void placeCircle(BlockPos)
-- void lambda$place$2(BlockPos)
-- void place(BoundingBox)
-- void placeBlockAt(BlockPos)
-- void placeCircle(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator</summary>
-
-```diff
-+ void lambda$place$2(BlockPos)
-+ void place(List)
-- void lambda$place$2(BlockPos)
-- void place(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator</summary>
-
-```diff
-+ void place(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,java.util.Random,java.util.List,java.util.List)
-- void place(net.minecraft.world.level.WorldGenLevel,java.util.Random,java.util.List,java.util.List,java.util.Set,net.minecraft.world.level.levelgen.structure.BoundingBox)
-+ void placeVine(BooleanProperty)
-- void placeVine(BoundingBox)
-- void setBlock(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator</summary>
-
-```diff
-+ void lambda$place$1(BlockPos)
-+ void place(List)
-- void lambda$place$1(BlockPos)
-- void place(BoundingBox)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.BendingTrunkPlacer</summary>
-
-```diff
-+ IntProvider bendLength
-- UniformInt bendLength
-+ IntProvider lambda$null$1(BendingTrunkPlacer)
-+ List placeTrunk(TreeConfiguration)
-+ void <init>(IntProvider)
-- List placeTrunk(TreeConfiguration)
-- UniformInt lambda$null$1(BendingTrunkPlacer)
-- void <init>(UniformInt)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer</summary>
-
-```diff
-+ double BRANCH_LENGTH_MAGIC
-+ double BRANCH_SLOPE
-+ double CLUSTER_DENSITY_MAGIC
-+ double TRUNK_HEIGHT_SCALE
-+ BlockState lambda$makeLimb$1(BlockState)
-+ boolean makeLimb(TreeConfiguration)
-+ List placeTrunk(TreeConfiguration)
-+ void makeBranches(TreeConfiguration)
-- boolean makeLimb(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
-- void makeBranches(TreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer</summary>
-
-```diff
-+ List placeTrunk(TreeConfiguration)
-- List placeTrunk(TreeConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
-
-```diff
-+ int MAX_BASE_HEIGHT
-+ int MAX_HEIGHT
-+ int MAX_RAND
-+ List placeTrunk(net.minecraft.world.level.LevelSimulatedReader,java.util.function.BiConsumer,java.util.Random,int,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-- List placeTrunk(net.minecraft.world.level.LevelSimulatedRW,java.util.Random,int,net.minecraft.core.BlockPos,java.util.Set,net.minecraft.world.level.levelgen.structure.BoundingBox,net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration)
-+ boolean placeLog(Function)
-+ boolean placeLog(TreeConfiguration)
-+ void placeLogIfFree(TreeConfiguration)
-+ void setDirtAt(TreeConfiguration)
-- boolean placeLog(TreeConfiguration)
-- void placeLogIfFree(TreeConfiguration)
-- void setBlock(BoundingBox)
-- void setDirtAt(TreeConfiguration)
++ void <init>(IntProvider,IntProvider,int)
+- void <init>(UniformInt,UniformInt,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer</summary>
 
 ```diff
-+ int MAX_GEN_DEPTH
-- StructurePlaceSettings INSERT
-- StructurePlaceSettings OVERWRITE
-+ boolean access$300(Random)
-+ EndCityPieces$EndCityPiece access$000(Rotation,boolean)
-+ EndCityPieces$EndCityPiece access$100(EndCityPieces$EndCityPiece)
-+ EndCityPieces$SectionGenerator access$200()
-+ EndCityPieces$SectionGenerator access$500()
-+ EndCityPieces$SectionGenerator access$600()
-+ List access$400()
-+ List access$800()
-- boolean access$500(Random)
-- EndCityPieces$EndCityPiece access$200(Rotation,boolean)
-- EndCityPieces$EndCityPiece access$300(EndCityPieces$EndCityPiece)
-- EndCityPieces$SectionGenerator access$400()
-- EndCityPieces$SectionGenerator access$800()
-- EndCityPieces$SectionGenerator access$900()
-- List access$1000()
-- List access$600()
-- StructurePlaceSettings access$000()
-- StructurePlaceSettings access$100()
++ void <init>(IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer</summary>
 
 ```diff
-- ResourceLocation templateLocation
-- Rotation rotation
-+ BlockPos makePosition(BlockPos,int)
-+ StructurePlaceSettings lambda$new$0(ResourceLocation)
-+ StructurePlaceSettings makeSettings(ResourceLocation)
++ IntProvider lambda$foliagePlacerParts$0(FoliagePlacer)
++ IntProvider lambda$foliagePlacerParts$1(FoliagePlacer)
+- UniformInt lambda$foliagePlacerParts$0(FoliagePlacer)
+- UniformInt lambda$foliagePlacerParts$1(FoliagePlacer)
++ void <init>(IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,BoundingBox)
++ void placeLeavesRow(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,BlockPos,int,int,boolean)
+- void placeLeavesRow(LevelSimulatedRW,Random,TreeConfiguration,BlockPos,int,Set,int,boolean,BoundingBox)
++ void tryPlaceLeaf(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,BlockPos)
+- void tryPlaceLeaf(LevelSimulatedRW,Random,TreeConfiguration,Set,BoundingBox,BlockPos$MutableBlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer</summary>
+
+```diff
++ IntProvider lambda$null$0(MegaPineFoliagePlacer)
+- UniformInt lambda$null$0(MegaPineFoliagePlacer)
++ void <init>(IntProvider,IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.RandomSpreadFoliagePlacer</summary>
+
+```diff
++ IntProvider lambda$null$0(RandomSpreadFoliagePlacer)
+- UniformInt lambda$null$0(RandomSpreadFoliagePlacer)
++ void <init>(IntProvider,IntProvider,IntProvider,int)
+- void <init>(UniformInt,UniformInt,UniformInt,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider</summary>
+
+```diff
++ IntProvider lambda$null$2(RandomizedIntStateProvider)
+- UniformInt lambda$null$2(RandomizedIntStateProvider)
++ void <init>(BlockStateProvider,IntegerProperty,IntProvider)
+- void <init>(BlockStateProvider,IntegerProperty,UniformInt)
++ void <init>(BlockStateProvider,String,IntProvider)
+- void <init>(BlockStateProvider,String,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement</summary>
+
+```diff
+- void addPieces(RegistryAccess,JigsawConfiguration,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,BlockPos,List,Random,boolean,boolean,LevelHeightAccessor)
++ void addPieces(RegistryAccess,JigsawConfiguration,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,BlockPos,StructurePieceAccessor,Random,boolean,boolean,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
+
+```diff
++ boolean lambda$getBoundingBox$2(StructurePoolElement)
++ BoundingBox lambda$getBoundingBox$3(StructureManager,BlockPos,Rotation,StructurePoolElement)
++ IllegalStateException lambda$getBoundingBox$4()
+- void lambda$setProjectionOnEachElement$2(StructureTemplatePool$Projection,StructurePoolElement)
++ void lambda$setProjectionOnEachElement$5(StructureTemplatePool$Projection,StructurePoolElement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructureTemplatePool</summary>
+
+```diff
++ boolean lambda$getMaxSize$2(StructurePoolElement)
+- int lambda$getMaxSize$2(StructureManager,StructurePoolElement)
++ int lambda$getMaxSize$3(StructureManager,StructurePoolElement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator</summary>
+
+```diff
++ void lambda$place$2(Random,BeehiveBlockEntity)
++ void place(LevelSimulatedReader,BiConsumer,Random,List,List)
+- void place(WorldGenLevel,Random,List,List,Set,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator</summary>
+
+```diff
++ void addHangingVine(LevelSimulatedReader,BlockPos,BooleanProperty,BiConsumer)
+- void addHangingVine(LevelSimulatedRW,BlockPos,BooleanProperty,Set,BoundingBox)
++ void lambda$place$1(Random,LevelSimulatedReader,BiConsumer,BlockPos)
+- void lambda$place$1(Random,WorldGenLevel,Set,BoundingBox,BlockPos)
++ void place(LevelSimulatedReader,BiConsumer,Random,List,List)
+- void place(WorldGenLevel,Random,List,List,Set,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
++ void placeLogIfFreeWithOffset(LevelSimulatedReader,BiConsumer,Random,BlockPos$MutableBlockPos,TreeConfiguration,BlockPos,int,int,int)
+- void placeLogIfFreeWithOffset(LevelSimulatedRW,Random,BlockPos$MutableBlockPos,Set,BoundingBox,TreeConfiguration,BlockPos,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
+
+```diff
+- BoundingBox createProper(int,int,int,int,int,int)
+- BoundingBox createProper(Vec3i,Vec3i)
++ BoundingBox encapsulate(BoundingBox)
++ BoundingBox fromCorners(Vec3i,Vec3i)
+- BoundingBox getUnknownBox()
++ BoundingBox inflate(int)
++ int maxX()
++ int maxY()
++ int maxZ()
++ int minX()
++ int minY()
++ int minZ()
++ Optional encapsulatingBoxes(Iterable)
++ Optional encapsulatingPositions(Iterable)
+- void expand(BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces$EndCityPiece</summary>
+
+```diff
++ ResourceLocation makeResourceLocation(String)
++ ResourceLocation makeTemplateLocation()
++ StructurePlaceSettings lambda$new$0(CompoundTag,ResourceLocation)
++ StructurePlaceSettings makeSettings(boolean,Rotation)
 - void loadTemplate(StructureManager)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces</summary>
 
 ```diff
-+ BoundingBox findCrossing(Direction)
-+ void addChildren(Random)
-- BoundingBox findCrossing(Direction)
-- void addChildren(Random)
+- void addPieces(StructureManager,BlockPos,Rotation,List,Random)
++ void addPieces(StructureManager,BlockPos,Rotation,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces</summary>
 
 ```diff
-+ void addChildren(Random)
-- void addChildren(Random)
+- MineShaftPieces$MineShaftPiece access$100(StructurePiece,List,Random,int,int,int,Direction,int)
++ MineShaftPieces$MineShaftPiece access$100(StructurePiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
+- MineShaftPieces$MineShaftPiece createRandomShaftPiece(List,Random,int,int,int,Direction,int,MineshaftFeature$Type)
++ MineShaftPieces$MineShaftPiece createRandomShaftPiece(StructurePieceAccessor,Random,int,int,int,Direction,int,MineshaftFeature$Type)
+- MineShaftPieces$MineShaftPiece generateAndAddPiece(StructurePiece,List,Random,int,int,int,Direction,int)
++ MineShaftPieces$MineShaftPiece generateAndAddPiece(StructurePiece,StructurePieceAccessor,Random,int,int,int,Direction,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCorridor</summary>
 
 ```diff
-+ int LOWEST_Y_POSITION
-+ int MAX_DEPTH
-+ NetherBridgePieces$NetherBridgePiece access$000(Direction,int)
-+ NetherBridgePieces$NetherBridgePiece findAndCreateBridgePieceFactory(Direction,int)
-- NetherBridgePieces$NetherBridgePiece access$000(Direction,int)
-- NetherBridgePieces$NetherBridgePiece findAndCreateBridgePieceFactory(Direction,int)
+- BoundingBox findCorridorSize(List,Random,int,int,int,Direction)
++ BoundingBox findCorridorSize(StructurePieceAccessor,Random,int,int,int,Direction)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftPiece</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$BridgeCrossing createPiece(Direction,int)
-+ void <init>(Direction)
-+ void addChildren(Random)
-- NetherBridgePieces$BridgeCrossing createPiece(Direction,int)
-- void <init>(Random,int,int)
-- void addChildren(Random)
++ void <init>(StructurePieceType,int,MineshaftFeature$Type,BoundingBox)
+- void <init>(StructurePieceType,int,MineshaftFeature$Type)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftStairs</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$BridgeStraight createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$BridgeStraight createPiece(Direction,int)
-- void addChildren(Random)
+- BoundingBox findStairs(List,Random,int,int,int,Direction)
++ BoundingBox findStairs(StructurePieceAccessor,Random,int,int,int,Direction)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeEndFiller</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleCorridorTBalconyPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleCorridorTBalconyPiece createPiece(Direction,int)
-- void addChildren(Random)
+- NetherBridgePieces$BridgeEndFiller createPiece(List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$BridgeEndFiller createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorStairsPiece</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleSmallCorridorCrossingPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleSmallCorridorCrossingPiece createPiece(Direction,int)
-- void addChildren(Random)
+- NetherBridgePieces$CastleCorridorStairsPiece createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$CastleCorridorStairsPiece createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleEntrance</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleSmallCorridorPiece createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleSmallCorridorPiece createPiece(Direction,int)
-- void addChildren(Random)
+- NetherBridgePieces$CastleEntrance createPiece(List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$CastleEntrance createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorLeftTurnPiece</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$CastleStalkRoom createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$CastleStalkRoom createPiece(Direction,int)
-- void addChildren(Random)
+- NetherBridgePieces$CastleSmallCorridorLeftTurnPiece createPiece(List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$CastleSmallCorridorLeftTurnPiece createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorRightTurnPiece</summary>
 
 ```diff
-+ NetherBridgePieces$NetherBridgePiece generatePiece(Direction,int)
-+ StructurePiece generateAndAddPiece(Direction,int,boolean)
-+ StructurePiece generateChildForward(Random,int,int,boolean)
-+ StructurePiece generateChildLeft(Random,int,int,boolean)
-+ StructurePiece generateChildRight(Random,int,int,boolean)
-+ void <init>(BoundingBox)
-- NetherBridgePieces$NetherBridgePiece generatePiece(Direction,int)
-- StructurePiece generateAndAddPiece(Direction,int,boolean)
-- StructurePiece generateChildForward(Random,int,int,boolean)
-- StructurePiece generateChildLeft(Random,int,int,boolean)
-- StructurePiece generateChildRight(Random,int,int,boolean)
+- NetherBridgePieces$CastleSmallCorridorRightTurnPiece createPiece(List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$CastleSmallCorridorRightTurnPiece createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$MonsterThrone</summary>
+
+```diff
+- NetherBridgePieces$MonsterThrone createPiece(List,int,int,int,int,Direction)
++ NetherBridgePieces$MonsterThrone createPiece(StructurePieceAccessor,int,int,int,int,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$StairsRoom</summary>
+
+```diff
+- NetherBridgePieces$StairsRoom createPiece(List,int,int,int,int,Direction)
++ NetherBridgePieces$StairsRoom createPiece(StructurePieceAccessor,int,int,int,int,Direction)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces</summary>
+
+```diff
+- void addPieces(StructureManager,List,Random,BlockPos)
++ void addPieces(StructureManager,StructurePieceAccessor,Random,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NoiseAffectingStructureStart</summary>
+
+```diff
++ BoundingBox getBoundingBox()
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+- void calculateBoundingBox()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanMonumentPieces$OceanMonumentPiece</summary>
+
+```diff
++ BoundingBox makeBoundingBox(Direction,OceanMonumentPieces$RoomDefinition,int,int,int)
+- void <init>(StructurePieceType,Direction,BoundingBox)
++ void <init>(StructurePieceType,Direction,int,BoundingBox)
 - void <init>(StructurePieceType,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
 
 ```diff
-+ int DEPTH
-+ int HEIGHT
-+ int WIDTH
-+ NetherBridgePieces$RoomCrossing createPiece(Direction,int)
-+ void addChildren(Random)
-- NetherBridgePieces$RoomCrossing createPiece(Direction,int)
-- void addChildren(Random)
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinPieces</summary>
 
 ```diff
-+ void <init>(ChunkPos,int,long)
-- void <init>(BoundingBox,int,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
-
-```diff
-- ResourceLocation templateLocation
-- Rotation rotation
-+ StructurePlaceSettings lambda$new$0(ResourceLocation)
-+ StructurePlaceSettings makeSettings(Rotation)
-- void loadTemplate(StructureManager)
++ List allPositions(Random,BlockPos)
+- List allPositions(Random,int,int)
+- void addClusterRuins(StructureManager,Random,Rotation,BlockPos,OceanRuinConfiguration,List)
++ void addClusterRuins(StructureManager,Random,Rotation,BlockPos,OceanRuinConfiguration,StructurePieceAccessor)
+- void addPiece(StructureManager,BlockPos,Rotation,List,Random,OceanRuinConfiguration,boolean,float)
++ void addPiece(StructureManager,BlockPos,Rotation,StructurePieceAccessor,Random,OceanRuinConfiguration,boolean,float)
+- void addPieces(StructureManager,BlockPos,Rotation,List,Random,OceanRuinConfiguration)
++ void addPieces(StructureManager,BlockPos,Rotation,StructurePieceAccessor,Random,OceanRuinConfiguration)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
 
 ```diff
-+ BoundingBox cachedBoundingBox
-+ String INVALID_START_ID
-- BoundingBox boundingBox
-+ boolean hasNoPieces()
-+ boolean isInsidePiece(BlockPos)
-+ IllegalStateException lambda$getBoundingBox$0()
-+ StructurePiece findCollisionPiece(BoundingBox)
-+ StructurePiece findCollisionPiece(BoundingBox)
-+ void <init>(ChunkPos,int,long)
-+ void addPiece(StructurePiece)
-+ void clearPieces()
-+ void invalidateCache()
-+ void offsetPiecesVertically(int)
-- void <init>(BoundingBox,int,long)
-- void calculateBoundingBox()
-- void lambda$createTag$0(Tag)
++ boolean isValid()
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$MansionGrid</summary>
+<details><summary>net.minecraft.world.level.levelgen.structure.TemplateStructurePiece</summary>
 
 ```diff
-+ int BLOCKED
-+ int CLEAR
-+ int CORRIDOR
-+ int DEFAULT_SIZE
-+ int ROOM
-+ int ROOM_1x1
-+ int ROOM_1x2
-+ int ROOM_2x2
-+ int ROOM_CORRIDOR_FLAG
-+ int ROOM_DOOR_FLAG
-+ int ROOM_ID_MASK
-+ int ROOM_ORIGIN_FLAG
-+ int ROOM_STAIRS_FLAG
-+ int ROOM_TYPE_MASK
-+ int START_ROOM
-+ int TEST_ROOM
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece</summary>
-
-```diff
-- Mirror mirror
-- Rotation rotation
-- String templateName
-+ ResourceLocation makeLocation(String)
 + ResourceLocation makeTemplateLocation()
-+ StructurePlaceSettings lambda$new$0(ResourceLocation)
-+ StructurePlaceSettings makeSettings(Rotation)
-- void loadTemplate(StructureManager)
++ void <init>(StructurePieceType,CompoundTag,ServerLevel,Function)
+- void <init>(StructurePieceType,CompoundTag)
++ void <init>(StructurePieceType,int,StructureManager,ResourceLocation,String,StructurePlaceSettings,BlockPos)
+- void <init>(StructurePieceType,int)
+- void setup(StructureTemplate,BlockPos,StructurePlaceSettings)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
-
-```diff
-+ String STRUCTURE_DIRECTORY_NAME
-+ String STRUCTURE_FILE_EXTENSION
-+ String STRUCTURE_TEXT_FILE_EXTENSION
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.DefaultSurfaceBuilder</summary>
-
-```diff
-+ int LOWEST_Y_TO_BUILD_SURFACE_ON
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
-
-```diff
-+ int ROUND_OFF
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.lighting.DataLayerStorageMap</summary>
-
-```diff
-+ int CACHE_SIZE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.lighting.FlatDataLayer</summary>
-
-```diff
-+ int SIZE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.lighting.LayerLightSectionStorage</summary>
-
-```diff
-+ int EMPTY
-+ int LIGHT_AND_DATA
-+ int LIGHT_ONLY
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.lighting.LevelLightEngine</summary>
-
-```diff
-+ int LIGHT_SECTION_PADDING
-+ int MAX_SOURCE_LEVEL
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.FlowingFluid</summary>
-
-```diff
-+ int CACHE_SIZE
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.material.LavaFluid</summary>
-
-```diff
-+ float MIN_LEVEL_CUTOFF
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.newbiome.layer.Layers</summary>
-
-```diff
-+ int COLD_ID
-+ int ICE_ID
-+ int MEDIUM_ID
-+ int SPECIAL_MASK
-+ int SPECIAL_SHIFT
-+ int WARM_ID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ double SPACE_BETWEEN_WALL_POSTS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.portal.PortalForcer</summary>
-
-```diff
-+ int CREATE_RADIUS
-+ int FRAME_BOX
-+ int FRAME_BOX_END
-+ int FRAME_BOX_START
-+ int FRAME_HEIGHT
-+ int FRAME_HEIGHT_END
-+ int FRAME_HEIGHT_START
-+ int FRAME_WIDTH
-+ int FRAME_WIDTH_END
-+ int FRAME_WIDTH_START
-+ int NOTHING_FOUND
-+ int SEARCH_RADIUS
-+ int TICKET_RADIUS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.portal.PortalShape</summary>
-
-```diff
-+ int MAX_HEIGHT
-+ int MAX_WIDTH
-+ int MIN_HEIGHT
-+ int MIN_WIDTH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.redstone.Redstone</summary>
-
-```diff
-+ int SIGNAL_MAX
-+ int SIGNAL_MIN
-+ int SIGNAL_NONE
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.maps.MapIndex</summary>
-
-```diff
-+ String FILE_NAME
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
-
-```diff
-+ String MCREGION_EXTENSION
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
-
-```diff
-+ String WORLD_GEN_SETTINGS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.WorldData</summary>
-
-```diff
-+ int ANVIL_VERSION_ID
-+ int MCREGION_VERSION_ID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider</summary>
-
-```diff
-+ String BLOCK_ENTITY_ID
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.math.Constants
@@ -14575,13 +5012,1342 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>com.mojang.math.Matrix3f</summary>
+
+```diff
++ boolean invert()
++ float adjugateAndDet()
++ float determinant()
++ float trace()
++ int bufferIndex(int,int)
++ Matrix3f createScaleMatrix(float,float,float)
++ void add(Matrix3f)
++ void load(FloatBuffer,boolean)
++ void load(FloatBuffer)
++ void loadTransposed(FloatBuffer)
++ void mul(float)
++ void mul(Quaternion)
++ void sortSingularValues(Matrix3f,Quaternion)
++ void store(FloatBuffer,boolean)
++ void store(FloatBuffer)
++ void storeTransposed(FloatBuffer)
++ void sub(Matrix3f)
+```
+
+</details>
+
+
+<details><summary>com.mojang.math.Vector4f</summary>
+
+```diff
++ boolean normalize()
++ float dot(Vector4f)
++ float w()
++ void <init>(Vector3f)
++ void add(float,float,float,float)
++ void lerp(Vector4f,float)
++ void mul(float)
++ void mul(Vector3f)
++ void perspectiveDivide()
++ void set(float,float,float,float)
++ void transform(Quaternion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createLightBlockItems()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
+- void ambientSpawns(MobSpawnSettings$Builder)
++ void caveSpawns(MobSpawnSettings$Builder)
++ void caveWaterSpawns(MobSpawnSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ParticleUtils</summary>
+
+```diff
+- void spawnParticlesAlongAxis(Direction$Axis,Level,BlockPos,double,ParticleOptions,IntRange)
++ void spawnParticlesAlongAxis(Direction$Axis,Level,BlockPos,double,ParticleOptions,UniformInt)
+- void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,IntRange)
++ void spawnParticlesOnBlockFaces(Level,BlockPos,ParticleOptions,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.TimeUtil</summary>
+
+```diff
+- IntRange rangeOfSeconds(int,int)
++ UniformInt rangeOfSeconds(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ExperienceOrb</summary>
+
+```diff
++ int repairPlayerItems(Player,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.StopAttackingIfTargetInvalid</summary>
+
+```diff
+- boolean lambda$new$0(LivingEntity)
++ boolean lambda$new$1(LivingEntity)
++ boolean lambda$new$2(LivingEntity)
++ void <init>(Consumer)
++ void <init>(Predicate,Consumer)
++ void lambda$new$0(Mob)
++ void lambda$new$3(Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
+
+```diff
++ void onSyncedDataUpdated(EntityDataAccessor)
++ void setAttachFace(Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Skeleton</summary>
+
+```diff
++ boolean isShaking()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Items</summary>
+
+```diff
++ Item registerBlock(Block,CreativeModeTab,Block[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.ShapedRecipe</summary>
+
+```diff
++ Item itemFromJson(JsonObject)
+- ItemStack itemFromJson(JsonObject)
++ ItemStack itemStackFromJson(JsonObject)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BlockGetter</summary>
+
+```diff
++ Optional getBlockEntity(BlockPos,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
+
+```diff
++ Optional getBlockEntity(BlockPos,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NaturalSpawner</summary>
+
+```diff
+- List mobsAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,BlockPos,Biome)
++ WeightedRandomList mobsAt(ServerLevel,StructureFeatureManager,ChunkGenerator,MobCategory,BlockPos,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MobSpawnSettings</summary>
+
+```diff
+- List getMobs(MobCategory)
+- List lambda$static$1(MobCategory)
++ WeightedRandomList getMobs(MobCategory)
++ WeightedRandomList lambda$static$1(MobCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$Builder</summary>
+
+```diff
+- List lambda$build$2(Map$Entry)
++ WeightedRandomList lambda$build$2(Map$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
+- App lambda$static$4(RecordCodecBuilder$Instance)
+- Integer lambda$null$3(MobSpawnSettings$SpawnerData)
++ void <init>(EntityType,Weight,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BigDripleafBlock</summary>
+
+```diff
+- VoxelShape getLeafShape(BlockState)
+- VoxelShape getStemShape(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CandleBlock</summary>
+
+```diff
++ boolean canBeLit(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Aquifer</summary>
+
+```diff
++ boolean isLavaLevel(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Decoratable</summary>
+
+```diff
++ Object count(IntProvider)
+- Object count(UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- List getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
++ WeightedRandomList getMobsAt(Biome,StructureFeatureManager,MobCategory,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$AboveBottom</summary>
+
+```diff
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.VerticalAnchor$BelowTop</summary>
+
+```diff
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration</summary>
+
+```diff
+- App lambda$static$1(RecordCodecBuilder$Instance)
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ CanyonCarverConfiguration$CanyonShapeConfiguration lambda$null$2(CanyonCarverConfiguration)
++ CarverConfiguration lambda$null$0(CanyonCarverConfiguration)
+- float getVerticalRadiusCenterFactor()
+- float getVerticalRadiusDefaultFactor()
+- Float lambda$null$0(CanyonCarverConfiguration)
+- FloatProvider getDistanceFactor()
+- FloatProvider getHorizontalRadiusFactor()
+- FloatProvider getThickness()
+- FloatProvider getVerticalRotation()
++ FloatProvider lambda$null$1(CanyonCarverConfiguration)
+- int getWidthSmoothness()
+- UniformInt getYScale()
+- VerticalAnchor getBottomInclusive()
+- VerticalAnchor getTopInclusive()
++ void <init>(CarverConfiguration,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
+- void <init>(float,CarverDebugSettings,VerticalAnchor,VerticalAnchor,UniformInt,FloatProvider,FloatProvider,FloatProvider,int,FloatProvider,float,float)
++ void <init>(float,HeightProvider,FloatProvider,VerticalAnchor,CarverDebugSettings,FloatProvider,CanyonCarverConfiguration$CanyonShapeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
+
+```diff
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
+
+```diff
+- void <init>(JigsawFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(JigsawFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
+
+```diff
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature$WindOffsetter</summary>
+
+```diff
++ void <init>(int,Random,FloatProvider,LargeDripstoneFeature$1)
+- void <init>(int,Random,FloatProvider,LargeDripstoneFeature$1)
++ void <init>(int,Random,FloatProvider)
+- void <init>(int,Random,FloatProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature$MineShaftStart</summary>
+
+```diff
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
+
+```diff
+- List getSpecialEnemies()
++ WeightedRandomList getSpecialEnemies()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
+
+```diff
+- List getSpecialEnemies()
++ WeightedRandomList getSpecialEnemies()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
+
+```diff
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SwamplandHutFeature</summary>
+
+```diff
+- List getSpecialAnimals()
+- List getSpecialEnemies()
++ WeightedRandomList getSpecialAnimals()
++ WeightedRandomList getSpecialEnemies()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ boolean doPlace(WorldGenLevel,Random,BlockPos,BiConsumer,BiConsumer,TreeConfiguration)
+- boolean doPlace(WorldGenLevel,Random,BlockPos,Set,Set,BoundingBox,TreeConfiguration)
++ Boolean lambda$place$11(WorldGenLevel,Set,Set,BoundingBox)
++ void lambda$doPlace$6(TreeConfiguration,WorldGenLevel,BiConsumer,Random,int,int,int,FoliagePlacer$FoliageAttachment)
+- void lambda$doPlace$6(TreeConfiguration,WorldGenLevel,Random,int,int,int,Set,BoundingBox,FoliagePlacer$FoliageAttachment)
++ void lambda$place$10(WorldGenLevel,BiConsumer,Random,List,List,TreeDecorator)
++ void lambda$place$7(Set,WorldGenLevel,BlockPos,BlockState)
+- void lambda$place$7(WorldGenLevel,Random,List,List,Set,BoundingBox,TreeDecorator)
++ void lambda$place$8(Set,WorldGenLevel,BlockPos,BlockState)
++ void lambda$place$9(Set,WorldGenLevel,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.CountConfiguration</summary>
+
+```diff
++ IntProvider count()
+- UniformInt count()
++ void <init>(IntProvider)
+- void <init>(UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DiskConfiguration</summary>
+
+```diff
++ IntProvider lambda$null$1(DiskConfiguration)
+- UniformInt lambda$null$1(DiskConfiguration)
++ void <init>(BlockState,IntProvider,int,List)
+- void <init>(BlockState,UniformInt,int,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.GrowingPlantConfiguration</summary>
+
+```diff
++ SimpleWeightedRandomList lambda$null$0(GrowingPlantConfiguration)
++ void <init>(SimpleWeightedRandomList,Direction,BlockStateProvider,BlockStateProvider,boolean)
+- void <init>(UniformInt,Direction,BlockStateProvider,BlockStateProvider,boolean)
+- void <init>(WeightedList,Direction,BlockStateProvider,BlockStateProvider,boolean)
+- WeightedList lambda$null$0(GrowingPlantConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.LargeDripstoneConfiguration</summary>
+
+```diff
++ FloatProvider lambda$null$2(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$2(LargeDripstoneConfiguration)
++ FloatProvider lambda$null$4(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$4(LargeDripstoneConfiguration)
++ FloatProvider lambda$null$5(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$5(LargeDripstoneConfiguration)
++ FloatProvider lambda$null$6(LargeDripstoneConfiguration)
+- FloatProvider lambda$null$6(LargeDripstoneConfiguration)
++ IntProvider lambda$null$1(LargeDripstoneConfiguration)
+- UniformInt lambda$null$1(LargeDripstoneConfiguration)
++ void <init>(int,IntProvider,FloatProvider,float,FloatProvider,FloatProvider,FloatProvider,int,float)
+- void <init>(int,UniformInt,FloatProvider,float,FloatProvider,FloatProvider,FloatProvider,int,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer</summary>
+
+```diff
++ void <init>(IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.BushFoliagePlacer</summary>
+
+```diff
++ void <init>(IntProvider,IntProvider,int)
+- void <init>(UniformInt,UniformInt,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FancyFoliagePlacer</summary>
+
+```diff
++ void <init>(IntProvider,IntProvider,int)
+- void <init>(UniformInt,UniformInt,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.FoliagePlacer$FoliageAttachment</summary>
+
+```diff
+- BlockPos foliagePos()
++ BlockPos pos()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer</summary>
+
+```diff
++ void <init>(IntProvider,IntProvider,int)
+- void <init>(UniformInt,UniformInt,int)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.PineFoliagePlacer</summary>
+
+```diff
++ IntProvider lambda$null$0(PineFoliagePlacer)
+- UniformInt lambda$null$0(PineFoliagePlacer)
++ void <init>(IntProvider,IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.foliageplacers.SpruceFoliagePlacer</summary>
+
+```diff
++ IntProvider lambda$null$0(SpruceFoliagePlacer)
+- UniformInt lambda$null$0(SpruceFoliagePlacer)
++ void <init>(IntProvider,IntProvider,IntProvider)
+- void <init>(UniformInt,UniformInt,UniformInt)
++ void createFoliage(LevelSimulatedReader,BiConsumer,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,int)
+- void createFoliage(LevelSimulatedRW,Random,TreeConfiguration,int,FoliagePlacer$FoliageAttachment,int,int,Set,int,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider</summary>
+
+```diff
++ DataResult create(SimpleWeightedRandomList)
+- DataResult create(WeightedList)
++ SimpleWeightedRandomList lambda$static$0(WeightedStateProvider)
+- void <init>()
++ void <init>(SimpleWeightedRandomList)
++ void <init>(SimpleWeightedRandomList$Builder)
+- void <init>(WeightedList)
+- WeightedList lambda$static$0(WeightedStateProvider)
+- WeightedStateProvider add(BlockState,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator</summary>
+
+```diff
++ void lambda$place$2(LevelSimulatedReader,BiConsumer,Random,BlockPos)
+- void lambda$place$2(WorldGenLevel,Random,BlockPos)
++ void place(LevelSimulatedReader,BiConsumer,Random,List,List)
+- void place(WorldGenLevel,Random,List,List,Set,BoundingBox)
++ void placeBlockAt(LevelSimulatedReader,BiConsumer,Random,BlockPos)
+- void placeBlockAt(LevelSimulatedRW,Random,BlockPos)
++ void placeCircle(LevelSimulatedReader,BiConsumer,Random,BlockPos)
+- void placeCircle(LevelSimulatedRW,Random,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator</summary>
+
+```diff
++ void lambda$place$2(Random,LevelSimulatedReader,BiConsumer,BlockPos)
+- void lambda$place$2(Random,WorldGenLevel,Set,BoundingBox,BlockPos)
++ void place(LevelSimulatedReader,BiConsumer,Random,List,List)
+- void place(WorldGenLevel,Random,List,List,Set,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator</summary>
+
+```diff
++ void placeVine(BiConsumer,BlockPos,BooleanProperty)
+- void placeVine(LevelWriter,BlockPos,BooleanProperty,Set,BoundingBox)
+- void setBlock(LevelWriter,BlockPos,BlockState,Set,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator</summary>
+
+```diff
++ void lambda$place$1(Random,LevelSimulatedReader,BiConsumer,BlockPos)
+- void lambda$place$1(Random,WorldGenLevel,Set,BoundingBox,BlockPos)
++ void place(LevelSimulatedReader,BiConsumer,Random,List,List)
+- void place(WorldGenLevel,Random,List,List,Set,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.BendingTrunkPlacer</summary>
+
+```diff
++ IntProvider lambda$null$1(BendingTrunkPlacer)
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+- UniformInt lambda$null$1(BendingTrunkPlacer)
++ void <init>(int,int,int,int,IntProvider)
+- void <init>(int,int,int,int,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.FancyTrunkPlacer</summary>
+
+```diff
++ BlockState lambda$makeLimb$1(BlockPos,BlockPos,BlockState)
++ boolean makeLimb(LevelSimulatedReader,BiConsumer,Random,BlockPos,BlockPos,boolean,TreeConfiguration)
+- boolean makeLimb(LevelSimulatedRW,Random,BlockPos,BlockPos,boolean,Set,BoundingBox,TreeConfiguration)
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
++ void makeBranches(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,List,TreeConfiguration)
+- void makeBranches(LevelSimulatedRW,Random,int,BlockPos,List,Set,BoundingBox,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.ForkingTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer</summary>
+
+```diff
++ List placeTrunk(LevelSimulatedReader,BiConsumer,Random,int,BlockPos,TreeConfiguration)
+- List placeTrunk(LevelSimulatedRW,Random,int,BlockPos,Set,BoundingBox,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer</summary>
+
+```diff
++ boolean placeLog(LevelSimulatedReader,BiConsumer,Random,BlockPos,TreeConfiguration,Function)
++ boolean placeLog(LevelSimulatedReader,BiConsumer,Random,BlockPos,TreeConfiguration)
+- boolean placeLog(LevelSimulatedRW,Random,BlockPos,Set,BoundingBox,TreeConfiguration)
++ void placeLogIfFree(LevelSimulatedReader,BiConsumer,Random,BlockPos$MutableBlockPos,TreeConfiguration)
+- void placeLogIfFree(LevelSimulatedRW,Random,BlockPos$MutableBlockPos,Set,BoundingBox,TreeConfiguration)
+- void setBlock(LevelWriter,BlockPos,BlockState,BoundingBox)
++ void setDirtAt(LevelSimulatedReader,BiConsumer,Random,BlockPos,TreeConfiguration)
+- void setDirtAt(LevelSimulatedRW,Random,BlockPos,TreeConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.EndCityPieces</summary>
+
+```diff
++ boolean access$300(StructureManager,EndCityPieces$SectionGenerator,int,EndCityPieces$EndCityPiece,BlockPos,List,Random)
+- boolean access$500(StructureManager,EndCityPieces$SectionGenerator,int,EndCityPieces$EndCityPiece,BlockPos,List,Random)
++ EndCityPieces$EndCityPiece access$000(StructureManager,EndCityPieces$EndCityPiece,BlockPos,String,Rotation,boolean)
++ EndCityPieces$EndCityPiece access$100(List,EndCityPieces$EndCityPiece)
+- EndCityPieces$EndCityPiece access$200(StructureManager,EndCityPieces$EndCityPiece,BlockPos,String,Rotation,boolean)
+- EndCityPieces$EndCityPiece access$300(List,EndCityPieces$EndCityPiece)
++ EndCityPieces$SectionGenerator access$200()
+- EndCityPieces$SectionGenerator access$400()
++ EndCityPieces$SectionGenerator access$500()
++ EndCityPieces$SectionGenerator access$600()
+- EndCityPieces$SectionGenerator access$800()
+- EndCityPieces$SectionGenerator access$900()
+- List access$1000()
++ List access$400()
+- List access$600()
++ List access$800()
+- StructurePlaceSettings access$000()
+- StructurePlaceSettings access$100()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.IglooPieces$IglooPiece</summary>
+
+```diff
++ BlockPos makePosition(ResourceLocation,BlockPos,int)
++ StructurePlaceSettings lambda$new$0(CompoundTag,ResourceLocation)
++ StructurePlaceSettings makeSettings(Rotation,ResourceLocation)
+- void loadTemplate(StructureManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftCrossing</summary>
+
+```diff
+- BoundingBox findCrossing(List,Random,int,int,int,Direction)
++ BoundingBox findCrossing(StructurePieceAccessor,Random,int,int,int,Direction)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.MineShaftPieces$MineShaftRoom</summary>
+
+```diff
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces</summary>
+
+```diff
+- NetherBridgePieces$NetherBridgePiece access$000(NetherBridgePieces$PieceWeight,List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$NetherBridgePiece access$000(NetherBridgePieces$PieceWeight,StructurePieceAccessor,Random,int,int,int,Direction,int)
+- NetherBridgePieces$NetherBridgePiece findAndCreateBridgePieceFactory(NetherBridgePieces$PieceWeight,List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$NetherBridgePiece findAndCreateBridgePieceFactory(NetherBridgePieces$PieceWeight,StructurePieceAccessor,Random,int,int,int,Direction,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeCrossing</summary>
+
+```diff
+- NetherBridgePieces$BridgeCrossing createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$BridgeCrossing createPiece(StructurePieceAccessor,int,int,int,Direction,int)
++ void <init>(int,int,Direction)
+- void <init>(Random,int,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$BridgeStraight</summary>
+
+```diff
+- NetherBridgePieces$BridgeStraight createPiece(List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$BridgeStraight createPiece(StructurePieceAccessor,Random,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleCorridorTBalconyPiece</summary>
+
+```diff
+- NetherBridgePieces$CastleCorridorTBalconyPiece createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$CastleCorridorTBalconyPiece createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorCrossingPiece</summary>
+
+```diff
+- NetherBridgePieces$CastleSmallCorridorCrossingPiece createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$CastleSmallCorridorCrossingPiece createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleSmallCorridorPiece</summary>
+
+```diff
+- NetherBridgePieces$CastleSmallCorridorPiece createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$CastleSmallCorridorPiece createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$CastleStalkRoom</summary>
+
+```diff
+- NetherBridgePieces$CastleStalkRoom createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$CastleStalkRoom createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$NetherBridgePiece</summary>
+
+```diff
+- NetherBridgePieces$NetherBridgePiece generatePiece(NetherBridgePieces$StartPiece,List,List,Random,int,int,int,Direction,int)
++ NetherBridgePieces$NetherBridgePiece generatePiece(NetherBridgePieces$StartPiece,List,StructurePieceAccessor,Random,int,int,int,Direction,int)
+- StructurePiece generateAndAddPiece(NetherBridgePieces$StartPiece,List,Random,int,int,int,Direction,int,boolean)
++ StructurePiece generateAndAddPiece(NetherBridgePieces$StartPiece,StructurePieceAccessor,Random,int,int,int,Direction,int,boolean)
+- StructurePiece generateChildForward(NetherBridgePieces$StartPiece,List,Random,int,int,boolean)
++ StructurePiece generateChildForward(NetherBridgePieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
+- StructurePiece generateChildLeft(NetherBridgePieces$StartPiece,List,Random,int,int,boolean)
++ StructurePiece generateChildLeft(NetherBridgePieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
+- StructurePiece generateChildRight(NetherBridgePieces$StartPiece,List,Random,int,int,boolean)
++ StructurePiece generateChildRight(NetherBridgePieces$StartPiece,StructurePieceAccessor,Random,int,int,boolean)
++ void <init>(StructurePieceType,int,BoundingBox)
+- void <init>(StructurePieceType,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces$RoomCrossing</summary>
+
+```diff
+- NetherBridgePieces$RoomCrossing createPiece(List,int,int,int,Direction,int)
++ NetherBridgePieces$RoomCrossing createPiece(StructurePieceAccessor,int,int,int,Direction,int)
+- void addChildren(StructurePiece,List,Random)
++ void addChildren(StructurePiece,StructurePieceAccessor,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
+
+```diff
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilPieces$NetherFossilPiece</summary>
+
+```diff
++ StructurePlaceSettings lambda$new$0(CompoundTag,ResourceLocation)
++ StructurePlaceSettings makeSettings(Rotation)
+- void loadTemplate(StructureManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
++ boolean hasNoPieces()
++ boolean isInsidePiece(BlockPos)
++ IllegalStateException lambda$getBoundingBox$0()
++ StructurePiece findCollisionPiece(BoundingBox)
++ StructurePiece findCollisionPiece(List,BoundingBox)
+- void <init>(StructureFeature,ChunkPos,BoundingBox,int,long)
++ void <init>(StructureFeature,ChunkPos,int,long)
++ void addPiece(StructurePiece)
+- void calculateBoundingBox()
++ void clearPieces()
++ void invalidateCache()
+- void lambda$createTag$0(CompoundTag,Tag)
++ void offsetPiecesVertically(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.WoodlandMansionPieces$WoodlandMansionPiece</summary>
+
+```diff
++ ResourceLocation makeLocation(String)
++ ResourceLocation makeTemplateLocation()
++ StructurePlaceSettings lambda$new$0(CompoundTag,ResourceLocation)
++ StructurePlaceSettings makeSettings(Mirror,Rotation)
+- void loadTemplate(StructureManager)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/entities/goat.json
++ minecraft/tags/blocks/dirt.json
++ minecraft/tags/blocks/snow.json
++ minecraft/tags/entity_types/axolotl_hunt_targets.json
+- minecraft/tags/entity_types/axolotl_tempted_hostiles.json
++ minecraft/tags/entity_types/freeze_hurts_extra_types.json
++ minecraft/tags/entity_types/freeze_immune_entity_types.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/light.json
++ minecraft/models/block/light.json
++ minecraft/models/item/goat_spawn_egg.json
++ minecraft/models/item/light_00.json
++ minecraft/models/item/light_01.json
++ minecraft/models/item/light_02.json
++ minecraft/models/item/light_03.json
++ minecraft/models/item/light_04.json
++ minecraft/models/item/light_05.json
++ minecraft/models/item/light_06.json
++ minecraft/models/item/light_07.json
++ minecraft/models/item/light_08.json
++ minecraft/models/item/light_09.json
++ minecraft/models/item/light_10.json
++ minecraft/models/item/light_11.json
++ minecraft/models/item/light_12.json
++ minecraft/models/item/light_13.json
++ minecraft/models/item/light_14.json
++ minecraft/models/item/light_15.json
++ minecraft/models/item/light.json
++ minecraft/particles/light.json
+- minecraft/textures/block/calibrated_sculk_sensor_side.png
+- minecraft/textures/block/calibrated_sculk_sensor_top.png
+- minecraft/textures/entity/arrow.png
++ minecraft/textures/entity/goat/goat.png
+- minecraft/textures/entity/zombie/zombie_villager.png
++ minecraft/textures/item/light_00.png
++ minecraft/textures/item/light_01.png
++ minecraft/textures/item/light_02.png
++ minecraft/textures/item/light_03.png
++ minecraft/textures/item/light_04.png
++ minecraft/textures/item/light_05.png
++ minecraft/textures/item/light_06.png
++ minecraft/textures/item/light_07.png
++ minecraft/textures/item/light_08.png
++ minecraft/textures/item/light_09.png
++ minecraft/textures/item/light_10.png
++ minecraft/textures/item/light_11.png
++ minecraft/textures/item/light_12.png
++ minecraft/textures/item/light_13.png
++ minecraft/textures/item/light_14.png
++ minecraft/textures/item/light_15.png
++ minecraft/textures/item/light.png
+- minecraft/textures/item/ruby.png
+- minecraft/textures/models/armor/piglin_leather_layer_1_overlay.png
+- minecraft/textures/models/armor/piglin_leather_layer_1.png
+- minecraft/textures/particle/footprint.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ float_provider_type.txt
++ height_provider_type.txt
++ int_provider_type.txt
+- worldgen/float_provider_type.txt
+```
+
+</details>
+
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:long_jump
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:light
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:goat
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:goat_spawn_egg
++ minecraft:light
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:has_hunting_cooldown
++ minecraft:long_jump_cooling_down
++ minecraft:long_jump_mid_jump
++ minecraft:nearest_attackable
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:light
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:axolotl_attackables
+- minecraft:axolotl_hostiles
++ minecraft:goat_temptations
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.goat.ambient
++ minecraft:entity.goat.death
++ minecraft:entity.goat.hurt
++ minecraft:entity.goat.milk
++ minecraft:entity.goat.prepare_ram
++ minecraft:entity.goat.screaming.ambient
++ minecraft:entity.goat.screaming.death
++ minecraft:entity.goat.screaming.hurt
++ minecraft:entity.goat.screaming.milk
++ minecraft:entity.goat.screaming.ram
++ minecraft:entity.goat.step
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/dirt.json
++ blocks/snow.json
++ entity_types/axolotl_hunt_targets.json
+- entity_types/axolotl_tempted_hostiles.json
++ entity_types/freeze_hurts_extra_types.json
++ entity_types/freeze_immune_entity_types.json
+```
+
+</details>
+
+
+<details><summary>blocks/bamboo_plantable_on.json</summary>
+
+```diff
++ #minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:dirt
+- minecraft:podzol
+```
+
+</details>
+
+
+<details><summary>blocks/enderman_holdable.json</summary>
+
+```diff
++ #minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:dirt
+- minecraft:podzol
+```
+
+</details>
+
+
+<details><summary>blocks/slabs.json</summary>
+
+```diff
++ minecraft:cut_copper_slab
++ minecraft:exposed_cut_copper_slab
++ minecraft:oxidized_cut_copper_slab
++ minecraft:waxed_cut_copper_slab
++ minecraft:waxed_exposed_cut_copper_slab
++ minecraft:waxed_weathered_cut_copper_slab
++ minecraft:weathered_cut_copper_slab
+```
+
+</details>
+
+
+<details><summary>blocks/small_flowers.json</summary>
+
+```diff
++ minecraft:azalea_leaves_flowers
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>blocks/stairs.json</summary>
+
+```diff
++ minecraft:cut_copper_stairs
++ minecraft:exposed_cut_copper_stairs
++ minecraft:oxidized_cut_copper_stairs
++ minecraft:waxed_cut_copper_stairs
++ minecraft:waxed_exposed_cut_copper_stairs
++ minecraft:waxed_weathered_cut_copper_stairs
++ minecraft:weathered_cut_copper_stairs
+```
+
+</details>
+
+
+<details><summary>entity_types/axolotl_always_hostiles.json</summary>
+
+```diff
+- minecraft:cod
++ minecraft:drowned
++ minecraft:elder_guardian
+- minecraft:glow_squid
++ minecraft:guardian
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:squid
+- minecraft:tropical_fish
+```
+
+</details>
+
+
+<details><summary>items/freeze_immune_wearables.json</summary>
+
+```diff
++ minecraft:leather_horse_armor
+```
+
+</details>
+
+
+<details><summary>items/slabs.json</summary>
+
+```diff
++ minecraft:cut_copper_slab
++ minecraft:exposed_cut_copper_slab
++ minecraft:oxidized_cut_copper_slab
++ minecraft:waxed_cut_copper_slab
++ minecraft:waxed_exposed_cut_copper_slab
++ minecraft:waxed_weathered_cut_copper_slab
++ minecraft:weathered_cut_copper_slab
+```
+
+</details>
+
+
+<details><summary>items/small_flowers.json</summary>
+
+```diff
++ minecraft:azalea_leaves_flowers
++ minecraft:flowering_azalea
+```
+
+</details>
+
+
+<details><summary>items/stairs.json</summary>
+
+```diff
++ minecraft:cut_copper_stairs
++ minecraft:exposed_cut_copper_stairs
++ minecraft:oxidized_cut_copper_stairs
++ minecraft:waxed_cut_copper_stairs
++ minecraft:waxed_exposed_cut_copper_stairs
++ minecraft:waxed_weathered_cut_copper_stairs
++ minecraft:weathered_cut_copper_stairs
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.light
++ entity.minecraft.goat
++ item.minecraft.goat_spawn_egg
++ options.darkMojangStudiosBackgroundColor
++ options.darkMojangStudiosBackgroundColor.tooltip
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ entities/goat.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ light.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/dirt.json
++ blocks/snow.json
++ entity_types/axolotl_hunt_targets.json
+- entity_types/axolotl_tempted_hostiles.json
++ entity_types/freeze_hurts_extra_types.json
++ entity_types/freeze_immune_entity_types.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/calibrated_sculk_sensor_side.png
+- block/calibrated_sculk_sensor_top.png
+- entity/arrow.png
++ entity/goat/goat.png
+- entity/zombie/zombie_villager.png
++ item/light_00.png
++ item/light_01.png
++ item/light_02.png
++ item/light_03.png
++ item/light_04.png
++ item/light_05.png
++ item/light_06.png
++ item/light_07.png
++ item/light_08.png
++ item/light_09.png
++ item/light_10.png
++ item/light_11.png
++ item/light_12.png
++ item/light_13.png
++ item/light_14.png
++ item/light_15.png
++ item/light.png
+- item/ruby.png
+- models/armor/piglin_leather_layer_1_overlay.png
+- models/armor/piglin_leather_layer_1.png
+- particle/footprint.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:brigadier:1.0.17
++ com.mojang:brigadier:1.0.18
+```
+
+</details>

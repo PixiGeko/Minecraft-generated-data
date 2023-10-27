@@ -1,2823 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w46a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w46a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-11-16T13:32:50+00:00</td></tr>
-<tr><th>SHA1</th><td>f57f3c12ed2382af5ecefef34c38fe7981d62e15</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/f57f3c12ed2382af5ecefef34c38fe7981d62e15/22w46a.json">https://piston-meta.mojang.com/v1/packages/f57f3c12ed2382af5ecefef34c38fe7981d62e15/22w46a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>6ccd7aeed07b3e24bdc50226e5a8384aa1edffaf</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/6ccd7aeed07b3e24bdc50226e5a8384aa1edffaf/22w46a.json">https://piston-meta.mojang.com/v1/packages/6ccd7aeed07b3e24bdc50226e5a8384aa1edffaf/22w46a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/302ae4acba96e733fdbe144ebe2ba575b2bbf969/server.jar">https://piston-data.mojang.com/v1/objects/302ae4acba96e733fdbe144ebe2ba575b2bbf969/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f27522d1a43b80942bc5c66a8fcad51a0dc0fe18/server.txt">https://piston-data.mojang.com/v1/objects/f27522d1a43b80942bc5c66a8fcad51a0dc0fe18/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/fcb3e5462fb4cf29da933005ddac269dd31087ff/client.jar">https://piston-data.mojang.com/v1/objects/fcb3e5462fb4cf29da933005ddac269dd31087ff/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/01efd7b592dfa3650f41ca2190c4d59e929642f4/client.txt">https://piston-data.mojang.com/v1/objects/01efd7b592dfa3650f41ca2190c4d59e929642f4/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w45a">22w45a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/bred_all_animals.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/breed_an_animal.json
-+  minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/root.json
-+  minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/piglin_head.json
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_signs.json
-+  minecraft/loot_tables/blocks/piglin_head.json
-+  minecraft/tags/blocks/all_signs.json
--  minecraft/tags/blocks/stripped_logs.json
--  minecraft/tags/items/stripped_logs.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/atlases
-+  minecraft/atlases/banner_patterns.json
-+  minecraft/atlases/beds.json
-+  minecraft/atlases/blocks.json
-+  minecraft/atlases/chests.json
-+  minecraft/atlases/mob_effects.json
-+  minecraft/atlases/paintings.json
-+  minecraft/atlases/particles.json
-+  minecraft/atlases/shield_patterns.json
-+  minecraft/atlases/shulker_boxes.json
-+  minecraft/atlases/signs.json
-+  minecraft/blockstates/piglin_head.json
-+  minecraft/blockstates/piglin_wall_head.json
-+  minecraft/models/block/chiseled_bookshelf.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_left.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_mid.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_right.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_top_left.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_top_mid.json
-+  minecraft/models/block/chiseled_bookshelf_empty_slot_top_right.json
-+  minecraft/models/block/chiseled_bookshelf_inventory.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_left.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_mid.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_right.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_top_left.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_top_mid.json
-+  minecraft/models/block/chiseled_bookshelf_occupied_slot_top_right.json
--  minecraft/models/block/chiseled_bookshelf_stage0.json
--  minecraft/models/block/chiseled_bookshelf_stage1.json
--  minecraft/models/block/chiseled_bookshelf_stage2.json
--  minecraft/models/block/chiseled_bookshelf_stage3.json
--  minecraft/models/block/chiseled_bookshelf_stage4.json
--  minecraft/models/block/chiseled_bookshelf_stage5.json
--  minecraft/models/block/chiseled_bookshelf_stage6.json
--  minecraft/models/block/template_chiseled_bookshelf.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_bottom_left.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_bottom_mid.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_bottom_right.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_top_left.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_top_mid.json
-+  minecraft/models/block/template_chiseled_bookshelf_slot_top_right.json
-+  minecraft/models/item/piglin_head.json
-+  minecraft/textures/block/chiseled_bookshelf_empty.png
-+  minecraft/textures/block/chiseled_bookshelf_occupied.png
--  minecraft/textures/block/chiseled_bookshelf_stage0.png
--  minecraft/textures/block/chiseled_bookshelf_stage1.png
--  minecraft/textures/block/chiseled_bookshelf_stage2.png
--  minecraft/textures/block/chiseled_bookshelf_stage3.png
--  minecraft/textures/block/chiseled_bookshelf_stage4.png
--  minecraft/textures/block/chiseled_bookshelf_stage5.png
--  minecraft/textures/block/chiseled_bookshelf_stage6.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:piglin_head
-+ minecraft:piglin_wall_head
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:piglin_head
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ fillbiome.txt
-```
-
-</details>
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute if biome <pos: block_pos> <biome: resource_or_tag>
-+ execute unless biome <pos: block_pos> <biome: resource_or_tag>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/stripped_logs.json
-- items/stripped_logs.json
-+ blocks/all_signs.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>list</summary>
-
-```diff
-+ atlases.txt
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w45a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\22w46a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/piglin_head.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/stripped_logs.json
-- items/stripped_logs.json
-+ blocks/all_signs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/chiseled_bookshelf_stage0.png
-- block/chiseled_bookshelf_stage1.png
-- block/chiseled_bookshelf_stage2.png
-- block/chiseled_bookshelf_stage3.png
-- block/chiseled_bookshelf_stage4.png
-- block/chiseled_bookshelf_stage5.png
-- block/chiseled_bookshelf_stage6.png
-+ block/chiseled_bookshelf_empty.png
-+ block/chiseled_bookshelf_occupied.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.google.code.gson:gson:2.9.1
-- com.mojang:authlib:3.13.56
-+ com.google.code.gson:gson:2.10
-+ com.mojang:authlib:3.15.28
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
-
-```diff
-+ void copyRect(NativeImage,int,int,int,int,int,int,boolean,boolean)
-- void writeToFile(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBrokenWorldScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSubscriptionInfoScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
-
-```diff
-- void removed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_FORCE_TELEMETRY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
-
-```diff
-+ OptionalLong seed
-- long seed
-+ String toString(OptionalLong)
-+ void <init>(OptionalLong)
-- void <init>(Optional,long)
-- void <init>(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.FrogModel</summary>
-
-```diff
-+ float MIN_WALK_ANIMATION_SPEED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.model.ModelManager</summary>
-
-```diff
-+ AtlasSet$StitchResult lambda$reload$2(Map$Entry)
-+ CompletableFuture[] lambda$loadModels$19(int)
-+ CompletableFuture[] lambda$reload$1(int)
-+ CompletionStage lambda$loadBlockModels$10(Map)
-+ CompletionStage lambda$loadBlockStates$14(Map)
-+ CompletionStage lambda$reload$5(ModelManager$ReloadState)
-+ Map lambda$loadBlockModels$7(ResourceManager)
-+ Map lambda$loadBlockModels$9(List)
-+ Map lambda$loadBlockStates$11(ResourceManager)
-+ Map lambda$loadBlockStates$13(List)
-+ ModelBakery lambda$reload$0(Map)
-+ ModelManager$ReloadState lambda$reload$3(Void)
-+ ModelManager$ReloadState lambda$reload$4(Void)
-+ Pair lambda$loadBlockModels$8(Map$Entry)
-+ Pair lambda$loadBlockStates$12(Map$Entry)
-+ String lambda$loadModels$16(Material)
-+ TextureAtlasSprite lambda$loadModels$15(Material)
-+ void lambda$loadModels$17(Collection)
-+ void lambda$loadModels$18(BlockState)
-+ void lambda$reload$6(ModelManager$ReloadState)
-- AtlasSet$StitchResult lambda$reload$10(Map$Entry)
-- CompletableFuture[] lambda$loadModels$27(int)
-- CompletableFuture[] lambda$reload$9(int)
-- CompletionStage lambda$loadBlockModels$18(Map)
-- CompletionStage lambda$loadBlockStates$22(Map)
-- CompletionStage lambda$reload$13(ModelManager$ReloadState)
-- Map lambda$loadBlockModels$15(ResourceManager)
-- Map lambda$loadBlockModels$17(List)
-- Map lambda$loadBlockStates$19(ResourceManager)
-- Map lambda$loadBlockStates$21(List)
-- Map lambda$static$0(ResourceManager)
-- Map lambda$static$1(ResourceManager)
-- Map lambda$static$2(ResourceManager)
-- Map lambda$static$3(ResourceManager)
-- Map lambda$static$4(ResourceManager)
-- Map lambda$static$5(ResourceManager)
-- Map lambda$static$6(ResourceManager)
-- Map lambda$static$7(ResourceManager)
-- ModelBakery lambda$reload$8(Map)
-- ModelManager$ReloadState lambda$reload$11(Void)
-- ModelManager$ReloadState lambda$reload$12(Void)
-- Pair lambda$loadBlockModels$16(Map$Entry)
-- Pair lambda$loadBlockStates$20(Map$Entry)
-- String lambda$loadModels$24(Material)
-- TextureAtlasSprite lambda$loadModels$23(Material)
-- void lambda$loadModels$25(Collection)
-- void lambda$loadModels$26(BlockState)
-- void lambda$reload$14(ModelManager$ReloadState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.UUIDUtil</summary>
-
-```diff
-+ Codec STRING_CODEC
-+ DataResult lambda$static$3(String)
-+ UUID lambda$static$5(UUID)
-+ UUID lambda$static$6(Either)
-- UUID lambda$static$3(UUID)
-- UUID lambda$static$5(Either)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ void resendChunk(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ AbortableIterationConsumer$Continuation lambda$getEntities$11(Entity)
-+ List getPlayers(Predicate,int)
-+ void getEntities(List,int)
-+ void getEntities(List)
-- void lambda$getEntities$11(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
-
-```diff
-- boolean noCounter
-- boolean isNoCounter()
-- void setNoCounter(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CreativeModeTab</summary>
-
-```diff
-+ Collection displayItems
-+ Set displayItemsSearchTab
-- ItemStackLinkedSet displayItems
-- ItemStackLinkedSet displayItemsSearchTab
-+ Collection getDisplayItems()
-+ Collection getSearchTabDisplayItems()
-- ItemStackLinkedSet getDisplayItems()
-- ItemStackLinkedSet getSearchTabDisplayItems()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.CreativeModeTab$ItemDisplayBuilder</summary>
-
-```diff
-+ Collection tabContents
-+ Set searchTabContents
-- ItemStackLinkedSet searchTabContents
-- ItemStackLinkedSet tabContents
-- ItemStackLinkedSet getSearchTabContents()
-- ItemStackLinkedSet getTabContents()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStackLinkedSet</summary>
-
-```diff
-+ Hash$Strategy TYPE_AND_TAG
-- Hash$Strategy STRATEGY
-+ int hashStackAndTag(ItemStack)
-+ Set createTypeAndTagSet()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ AbortableIterationConsumer$Continuation lambda$getEntities$2(Entity)
-+ void getEntities(List,int)
-+ void getEntities(List)
-- void lambda$getEntities$2(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ Optional findStandUpPosition(Direction,float)
-- Optional findStandUpPosition(BlockPos,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block PIGLIN_HEAD
-+ Block PIGLIN_WALL_HEAD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChiseledBookShelfBlock</summary>
-
-```diff
-+ int BOOKS_PER_ROW
-+ int MAX_BOOKS_IN_STORAGE
-+ List SLOT_OCCUPIED_PROPERTIES
-- IntegerProperty BOOKS_STORED
-- IntegerProperty LAST_INTERACTION_BOOK_SLOT
-+ int getHitSlot(Vec2)
-+ int getSection(float)
-+ InteractionResult tryAddBook(ItemStack,int)
-+ InteractionResult tryRemoveBook(ChiseledBookShelfBlockEntity,int)
-+ Optional getRelativeHitCoordinatesForBlockFace(Direction)
-+ void lambda$createBlockStateDefinition$0(Property)
-- InteractionResult tryAddBook(ItemStack)
-- InteractionResult tryRemoveBook(ChiseledBookShelfBlockEntity)
-- void lambda$onRemove$0(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity</summary>
-
-```diff
-+ NonNullList items
-- StackInventory books
-+ ClientboundBlockEntityDataPacket getUpdatePacket()
-+ CompoundTag getUpdateTag()
-+ int count()
-+ Packet getUpdatePacket()
-+ void updateState(int)
-- boolean addBook(ItemStack)
-- boolean hasAnyMatching(Predicate)
-- boolean hasAnyOf(Set)
-- boolean isFull()
-- boolean lambda$countItem$0(ItemStack)
-- boolean lambda$hasAnyOf$1(ItemStack)
-- int bookCount()
-- int countItem(Item)
-- ItemStack removeBook()
-- List removeAllBooksWithoutBlockStateUpdate()
-- NonNullList asNonNullList(StackInventory)
-- void setChanged()
-- void updateBlockState()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ boolean isAnimating
-+ int animationTickCount
-- boolean isMovingMouth
-- int mouthTickCount
-+ float getAnimation(float)
-+ void animation(SkullBlockEntity)
-- float getMouthAnimation(float)
-- void dragonHeadAnimation(SkullBlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_0_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_1_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_2_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_3_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_4_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_5_OCCUPIED
-+ IntegerProperty CHISELED_BOOKSHELF_LAST_INTERACTION_BOOK_SLOT
-- IntegerProperty BOOKS_STORED
-- IntegerProperty LAST_INTERACTION_BOOK_SLOT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.EntityLookup</summary>
-
-```diff
-+ void getEntities(AbortableIterationConsumer)
-- void getEntities(Consumer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.entity.EntitySection</summary>
-
-```diff
-+ AbortableIterationConsumer$Continuation getEntities(AbortableIterationConsumer)
-+ AbortableIterationConsumer$Continuation getEntities(AbortableIterationConsumer)
-- void getEntities(Consumer)
-- void getEntities(Consumer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.entity.LevelEntityGetter</summary>
-
-```diff
-+ void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.util.AbortableIterationConsumer)
-+ void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.world.phys.AABB,net.minecraft.util.AbortableIterationConsumer)
-- void get(net.minecraft.world.level.entity.EntityTypeTest,java.util.function.Consumer)
-- void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.world.phys.AABB,java.util.function.Consumer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.animation.AnimationChannel
@@ -5424,428 +2638,176 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
+<details><summary>com.mojang.blaze3d.platform.NativeImage</summary>
 
 ```diff
-+ boolean DEBUG_FORCE_TELEMETRY
++ void copyRect(NativeImage,int,int,int,int,int,int,boolean,boolean)
+- void writeToFile(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-+ BiConsumer ORDER_ARBITRARY
-+ boolean lambda$findEntities$1(Entity)
-+ boolean lambda$getPredicate$2(Entity)
-+ boolean lambda$getPredicate$3(Entity)
-+ int getResultLimit()
-+ void lambda$static$0(List)
-- boolean lambda$findEntities$0(Entity)
-- boolean lambda$getPredicate$1(Entity)
-- boolean lambda$getPredicate$2(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
-
-```diff
-- BiConsumer ORDER_ARBITRARY
-+ boolean lambda$createRotationPredicate$12(Entity)
-+ boolean lambda$finalizePredicates$11(Entity)
-+ boolean lambda$new$8(Entity)
-+ CompletableFuture lambda$static$7(Consumer)
-+ int lambda$static$2(Entity)
-+ int lambda$static$4(Entity)
-+ Vec3 lambda$getSelector$9(Vec3)
-+ void lambda$static$3(List)
-+ void lambda$static$5(List)
-- boolean lambda$createRotationPredicate$13(Entity)
-- boolean lambda$finalizePredicates$12(Entity)
-- boolean lambda$new$9(Entity)
-- CompletableFuture lambda$static$8(Consumer)
-- int lambda$static$3(Entity)
-- int lambda$static$5(Entity)
-- Vec3 lambda$getSelector$11(Vec3)
-- void lambda$static$2(List)
-- void lambda$static$4(List)
-- void lambda$static$7(List)
+- void removed()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBrokenWorldScreen</summary>
 
 ```diff
-+ Advancement createBreedAllAnimalsAdvancement(Consumer)
-+ Advancement createBreedAnAnimalAdvancement(Consumer)
-+ Advancement createRoot(Consumer)
-+ EntityType[] getBreedableAnimals()
-+ EntityType[] getIndirectlyBreedableAnimals()
+- void removed()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
 
 ```diff
-+ Map CHISELED_BOOKSHELF_SLOT_MODEL_CACHE
-+ ResourceLocation lambda$addBookSlotModel$47(BlockModelGenerators$BookSlotModelCacheKey)
-+ Variant lambda$createJigsaw$49(FrontAndTop)
-+ Variant lambda$createRespawnAnchor$48(Integer)
-+ void addBookSlotModel(ModelTemplate,boolean)
-+ void addSlotStateAndRotationVariants(VariantProperties$Rotation)
-+ void lambda$addSlotStateAndRotationVariants$46(ModelTemplate)
-+ void lambda$createChiseledBookshelf$45(VariantProperties$Rotation)
-+ void lambda$run$50(BlockFamily)
-+ void lambda$run$51(SpawnEggItem)
-- ResourceLocation lambda$createChiseledBookshelf$45(Integer)
-- Variant lambda$createChiseledBookshelf$46(Integer)
-- Variant lambda$createJigsaw$48(FrontAndTop)
-- Variant lambda$createRespawnAnchor$47(Integer)
-- void lambda$run$49(BlockFamily)
-- void lambda$run$50(SpawnEggItem)
+- void removed()
 ```
 
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSlotOptionsScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSubscriptionInfoScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsTermsScreen</summary>
+
+```diff
+- void removed()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
+
+```diff
++ String toString(OptionalLong)
+- void <init>(WorldCreationContext,Optional,long)
++ void <init>(WorldCreationContext,Optional,OptionalLong)
+- void <init>(WorldCreationContext,Optional)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.client.resources.model.ModelManager</summary>
+
+```diff
+- AtlasSet$StitchResult lambda$reload$10(Map$Entry)
++ AtlasSet$StitchResult lambda$reload$2(Map$Entry)
++ CompletableFuture[] lambda$loadModels$19(int)
+- CompletableFuture[] lambda$loadModels$27(int)
++ CompletableFuture[] lambda$reload$1(int)
+- CompletableFuture[] lambda$reload$9(int)
++ CompletionStage lambda$loadBlockModels$10(Executor,Map)
+- CompletionStage lambda$loadBlockModels$18(Executor,Map)
++ CompletionStage lambda$loadBlockStates$14(Executor,Map)
+- CompletionStage lambda$loadBlockStates$22(Executor,Map)
+- CompletionStage lambda$reload$13(ModelManager$ReloadState)
++ CompletionStage lambda$reload$5(ModelManager$ReloadState)
+- Map lambda$loadBlockModels$15(ResourceManager)
+- Map lambda$loadBlockModels$17(List)
++ Map lambda$loadBlockModels$7(ResourceManager)
++ Map lambda$loadBlockModels$9(List)
++ Map lambda$loadBlockStates$11(ResourceManager)
++ Map lambda$loadBlockStates$13(List)
+- Map lambda$loadBlockStates$19(ResourceManager)
+- Map lambda$loadBlockStates$21(List)
+- Map lambda$static$0(ResourceManager)
+- Map lambda$static$1(ResourceManager)
+- Map lambda$static$2(ResourceManager)
+- Map lambda$static$3(ResourceManager)
+- Map lambda$static$4(ResourceManager)
+- Map lambda$static$5(ResourceManager)
+- Map lambda$static$6(ResourceManager)
+- Map lambda$static$7(ResourceManager)
++ ModelBakery lambda$reload$0(ProfilerFiller,Map,Map)
+- ModelBakery lambda$reload$8(ProfilerFiller,Map,Map)
+- ModelManager$ReloadState lambda$reload$11(ProfilerFiller,Map,CompletableFuture,Void)
+- ModelManager$ReloadState lambda$reload$12(ModelManager$ReloadState,Void)
++ ModelManager$ReloadState lambda$reload$3(ProfilerFiller,Map,CompletableFuture,Void)
++ ModelManager$ReloadState lambda$reload$4(ModelManager$ReloadState,Void)
+- Pair lambda$loadBlockModels$16(Map$Entry)
++ Pair lambda$loadBlockModels$8(Map$Entry)
++ Pair lambda$loadBlockStates$12(Map$Entry)
+- Pair lambda$loadBlockStates$20(Map$Entry)
++ String lambda$loadModels$16(Material)
+- String lambda$loadModels$24(Material)
++ TextureAtlasSprite lambda$loadModels$15(Map,Multimap,ResourceLocation,Material)
+- TextureAtlasSprite lambda$loadModels$23(Map,Multimap,ResourceLocation,Material)
++ void lambda$loadModels$17(ResourceLocation,Collection)
++ void lambda$loadModels$18(Map,BakedModel,Map,BlockState)
+- void lambda$loadModels$25(ResourceLocation,Collection)
+- void lambda$loadModels$26(Map,BakedModel,Map,BlockState)
+- void lambda$reload$14(ProfilerFiller,ModelManager$ReloadState)
++ void lambda$reload$6(ProfilerFiller,ModelManager$ReloadState)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.core.UUIDUtil</summary>
 
+```diff
++ DataResult lambda$static$3(String)
+- UUID lambda$static$3(UUID)
+- UUID lambda$static$5(Either)
++ UUID lambda$static$5(UUID)
++ UUID lambda$static$6(Either)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.server.level.ChunkMap</summary>
@@ -5857,179 +2819,22 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.server.level.ServerLevel</summary>
 
 ```diff
-+ AbortableIterationConsumer$Continuation lambda$getEntities$11(Entity)
++ AbortableIterationConsumer$Continuation lambda$getEntities$11(Predicate,List,int,Entity)
 + List getPlayers(Predicate,int)
-+ void getEntities(List,int)
-+ void getEntities(List)
-- void lambda$getEntities$11(Entity)
++ void getEntities(EntityTypeTest,Predicate,List,int)
++ void getEntities(EntityTypeTest,Predicate,List)
+- void lambda$getEntities$11(Predicate,List,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
 
 ```diff
-- boolean noCounter
 - boolean isNoCounter()
 - void setNoCounter(boolean)
 ```
@@ -6037,503 +2842,9 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.CreativeModeTab</summary>
 
 ```diff
-+ Collection displayItems
-+ Set displayItemsSearchTab
-- ItemStackLinkedSet displayItems
-- ItemStackLinkedSet displayItemsSearchTab
 + Collection getDisplayItems()
 + Collection getSearchTabDisplayItems()
 - ItemStackLinkedSet getDisplayItems()
@@ -6546,10 +2857,6 @@
 <details><summary>net.minecraft.world.item.CreativeModeTab$ItemDisplayBuilder</summary>
 
 ```diff
-+ Collection tabContents
-+ Set searchTabContents
-- ItemStackLinkedSet searchTabContents
-- ItemStackLinkedSet tabContents
 - ItemStackLinkedSet getSearchTabContents()
 - ItemStackLinkedSet getTabContents()
 ```
@@ -6557,35 +2864,9 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.item.ItemStackLinkedSet</summary>
 
 ```diff
-+ Hash$Strategy TYPE_AND_TAG
-- Hash$Strategy STRATEGY
 + int hashStackAndTag(ItemStack)
 + Set createTypeAndTagSet()
 ```
@@ -6593,1071 +2874,111 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.Level</summary>
 
 ```diff
-+ AbortableIterationConsumer$Continuation lambda$getEntities$2(Entity)
-+ void getEntities(List,int)
-+ void getEntities(List)
-- void lambda$getEntities$2(Entity)
++ AbortableIterationConsumer$Continuation lambda$getEntities$2(Predicate,List,int,EntityTypeTest,Entity)
++ void getEntities(EntityTypeTest,AABB,Predicate,List,int)
++ void getEntities(EntityTypeTest,AABB,Predicate,List)
+- void lambda$getEntities$2(Predicate,List,EntityTypeTest,Entity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.BedBlock</summary>
 
 ```diff
-+ Optional findStandUpPosition(Direction,float)
-- Optional findStandUpPosition(BlockPos,float)
++ Optional findStandUpPosition(EntityType,CollisionGetter,BlockPos,Direction,float)
+- Optional findStandUpPosition(EntityType,CollisionGetter,BlockPos,float)
 ```
 
 </details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block PIGLIN_HEAD
-+ Block PIGLIN_WALL_HEAD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.ChiseledBookShelfBlock</summary>
 
 ```diff
-+ int BOOKS_PER_ROW
-+ int MAX_BOOKS_IN_STORAGE
-+ List SLOT_OCCUPIED_PROPERTIES
-- IntegerProperty BOOKS_STORED
-- IntegerProperty LAST_INTERACTION_BOOK_SLOT
 + int getHitSlot(Vec2)
 + int getSection(float)
-+ InteractionResult tryAddBook(ItemStack,int)
-+ InteractionResult tryRemoveBook(ChiseledBookShelfBlockEntity,int)
-+ Optional getRelativeHitCoordinatesForBlockFace(Direction)
-+ void lambda$createBlockStateDefinition$0(Property)
-- InteractionResult tryAddBook(ItemStack)
-- InteractionResult tryRemoveBook(ChiseledBookShelfBlockEntity)
-- void lambda$onRemove$0(ItemStack)
++ InteractionResult tryAddBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack,int)
+- InteractionResult tryAddBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack)
++ InteractionResult tryRemoveBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,int)
+- InteractionResult tryRemoveBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity)
++ Optional getRelativeHitCoordinatesForBlockFace(BlockHitResult,Direction)
++ void lambda$createBlockStateDefinition$0(StateDefinition$Builder,Property)
+- void lambda$onRemove$0(Level,BlockPos,ItemStack)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity</summary>
 
 ```diff
-+ NonNullList items
-- StackInventory books
-+ ClientboundBlockEntityDataPacket getUpdatePacket()
-+ CompoundTag getUpdateTag()
-+ int count()
-+ Packet getUpdatePacket()
-+ void updateState(int)
 - boolean addBook(ItemStack)
 - boolean hasAnyMatching(Predicate)
 - boolean hasAnyOf(Set)
 - boolean isFull()
-- boolean lambda$countItem$0(ItemStack)
-- boolean lambda$hasAnyOf$1(ItemStack)
+- boolean lambda$countItem$0(Item,ItemStack)
+- boolean lambda$hasAnyOf$1(Set,ItemStack)
++ ClientboundBlockEntityDataPacket getUpdatePacket()
++ CompoundTag getUpdateTag()
 - int bookCount()
++ int count()
 - int countItem(Item)
 - ItemStack removeBook()
 - List removeAllBooksWithoutBlockStateUpdate()
 - NonNullList asNonNullList(StackInventory)
++ Packet getUpdatePacket()
 - void setChanged()
 - void updateBlockState()
++ void updateState(int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
 
 ```diff
-+ boolean isAnimating
-+ int animationTickCount
-- boolean isMovingMouth
-- int mouthTickCount
 + float getAnimation(float)
-+ void animation(SkullBlockEntity)
 - float getMouthAnimation(float)
-- void dragonHeadAnimation(SkullBlockEntity)
++ void animation(Level,BlockPos,BlockState,SkullBlockEntity)
+- void dragonHeadAnimation(Level,BlockPos,BlockState,SkullBlockEntity)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_0_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_1_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_2_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_3_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_4_OCCUPIED
-+ BooleanProperty CHISELED_BOOKSHELF_SLOT_5_OCCUPIED
-+ IntegerProperty CHISELED_BOOKSHELF_LAST_INTERACTION_BOOK_SLOT
-- IntegerProperty BOOKS_STORED
-- IntegerProperty LAST_INTERACTION_BOOK_SLOT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.entity.EntityLookup</summary>
 
 ```diff
-+ void getEntities(AbortableIterationConsumer)
-- void getEntities(Consumer)
++ void getEntities(EntityTypeTest,AbortableIterationConsumer)
+- void getEntities(EntityTypeTest,Consumer)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.entity.EntitySection</summary>
 
 ```diff
-+ AbortableIterationConsumer$Continuation getEntities(AbortableIterationConsumer)
-+ AbortableIterationConsumer$Continuation getEntities(AbortableIterationConsumer)
-- void getEntities(Consumer)
-- void getEntities(Consumer)
++ AbortableIterationConsumer$Continuation getEntities(AABB,AbortableIterationConsumer)
++ AbortableIterationConsumer$Continuation getEntities(EntityTypeTest,AABB,AbortableIterationConsumer)
+- void getEntities(AABB,Consumer)
+- void getEntities(EntityTypeTest,AABB,Consumer)
 ```
 
 </details>
 
 
+### Server
 
-<details><summary>net.minecraft.world.level.entity.LevelEntityGetter</summary>
 
-```diff
-+ void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.util.AbortableIterationConsumer)
-+ void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.world.phys.AABB,net.minecraft.util.AbortableIterationConsumer)
-- void get(net.minecraft.world.level.entity.EntityTypeTest,java.util.function.Consumer)
-- void get(net.minecraft.world.level.entity.EntityTypeTest,net.minecraft.world.phys.AABB,java.util.function.Consumer)
-```
 
-</details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.advancements.packs.UpdateOneTwentyAdvancements
@@ -8982,13 +4303,496 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+
+```diff
+- boolean lambda$findEntities$0(CommandSourceStack,Entity)
++ boolean lambda$findEntities$1(CommandSourceStack,Entity)
+- boolean lambda$getPredicate$1(AABB,Entity)
++ boolean lambda$getPredicate$2(AABB,Entity)
+- boolean lambda$getPredicate$2(Vec3,Entity)
++ boolean lambda$getPredicate$3(Vec3,Entity)
++ int getResultLimit()
++ void lambda$static$0(Vec3,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
+
+```diff
++ boolean lambda$createRotationPredicate$12(ToDoubleFunction,double,double,Entity)
+- boolean lambda$createRotationPredicate$13(ToDoubleFunction,double,double,Entity)
++ boolean lambda$finalizePredicates$11(Entity)
+- boolean lambda$finalizePredicates$12(Entity)
++ boolean lambda$new$8(Entity)
+- boolean lambda$new$9(Entity)
++ CompletableFuture lambda$static$7(SuggestionsBuilder,Consumer)
+- CompletableFuture lambda$static$8(SuggestionsBuilder,Consumer)
++ int lambda$static$2(Vec3,Entity,Entity)
+- int lambda$static$3(Vec3,Entity,Entity)
++ int lambda$static$4(Vec3,Entity,Entity)
+- int lambda$static$5(Vec3,Entity,Entity)
+- Vec3 lambda$getSelector$11(Vec3)
++ Vec3 lambda$getSelector$9(Vec3)
+- void lambda$static$2(Vec3,List)
++ void lambda$static$3(Vec3,List)
+- void lambda$static$4(Vec3,List)
++ void lambda$static$5(Vec3,List)
+- void lambda$static$7(Vec3,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.packs.VanillaHusbandryAdvancements</summary>
+
+```diff
++ Advancement createBreedAllAnimalsAdvancement(Advancement,Consumer)
++ Advancement createBreedAnAnimalAdvancement(Advancement,Consumer)
++ Advancement createRoot(Consumer)
++ EntityType[] getBreedableAnimals()
++ EntityType[] getIndirectlyBreedableAnimals()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ ResourceLocation lambda$addBookSlotModel$47(ModelTemplate,String,TextureMapping,BlockModelGenerators$BookSlotModelCacheKey)
+- ResourceLocation lambda$createChiseledBookshelf$45(Integer)
+- Variant lambda$createChiseledBookshelf$46(List,Integer)
+- Variant lambda$createJigsaw$48(FrontAndTop)
++ Variant lambda$createJigsaw$49(FrontAndTop)
+- Variant lambda$createRespawnAnchor$47(ResourceLocation[],Integer)
++ Variant lambda$createRespawnAnchor$48(ResourceLocation[],Integer)
++ void addBookSlotModel(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate,boolean)
++ void addSlotStateAndRotationVariants(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation)
++ void lambda$addSlotStateAndRotationVariants$46(MultiPartGenerator,Condition$TerminalCondition,VariantProperties$Rotation,BooleanProperty,ModelTemplate)
++ void lambda$createChiseledBookshelf$45(MultiPartGenerator,ResourceLocation,Direction,VariantProperties$Rotation)
+- void lambda$run$49(BlockFamily)
++ void lambda$run$50(BlockFamily)
+- void lambda$run$50(SpawnEggItem)
++ void lambda$run$51(SpawnEggItem)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ void resendChunk(ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ AbortableIterationConsumer$Continuation lambda$getEntities$11(Predicate,List,int,Entity)
++ List getPlayers(Predicate,int)
++ void getEntities(EntityTypeTest,Predicate,List,int)
++ void getEntities(EntityTypeTest,Predicate,List)
+- void lambda$getEntities$11(Predicate,List,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
+
+```diff
+- boolean isNoCounter()
+- void setNoCounter(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CreativeModeTab</summary>
+
+```diff
++ Collection getDisplayItems()
++ Collection getSearchTabDisplayItems()
+- ItemStackLinkedSet getDisplayItems()
+- ItemStackLinkedSet getSearchTabDisplayItems()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CreativeModeTab$ItemDisplayBuilder</summary>
+
+```diff
+- ItemStackLinkedSet getSearchTabContents()
+- ItemStackLinkedSet getTabContents()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStackLinkedSet</summary>
+
+```diff
++ int hashStackAndTag(ItemStack)
++ Set createTypeAndTagSet()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.Level</summary>
+
+```diff
++ AbortableIterationConsumer$Continuation lambda$getEntities$2(Predicate,List,int,EntityTypeTest,Entity)
++ void getEntities(EntityTypeTest,AABB,Predicate,List,int)
++ void getEntities(EntityTypeTest,AABB,Predicate,List)
+- void lambda$getEntities$2(Predicate,List,EntityTypeTest,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+
+```diff
++ Optional findStandUpPosition(EntityType,CollisionGetter,BlockPos,Direction,float)
+- Optional findStandUpPosition(EntityType,CollisionGetter,BlockPos,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChiseledBookShelfBlock</summary>
+
+```diff
++ int getHitSlot(Vec2)
++ int getSection(float)
++ InteractionResult tryAddBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack,int)
+- InteractionResult tryAddBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,ItemStack)
++ InteractionResult tryRemoveBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity,int)
+- InteractionResult tryRemoveBook(Level,BlockPos,Player,ChiseledBookShelfBlockEntity)
++ Optional getRelativeHitCoordinatesForBlockFace(BlockHitResult,Direction)
++ void lambda$createBlockStateDefinition$0(StateDefinition$Builder,Property)
+- void lambda$onRemove$0(Level,BlockPos,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity</summary>
+
+```diff
+- boolean addBook(ItemStack)
+- boolean hasAnyMatching(Predicate)
+- boolean hasAnyOf(Set)
+- boolean isFull()
+- boolean lambda$countItem$0(Item,ItemStack)
+- boolean lambda$hasAnyOf$1(Set,ItemStack)
++ ClientboundBlockEntityDataPacket getUpdatePacket()
++ CompoundTag getUpdateTag()
+- int bookCount()
++ int count()
+- int countItem(Item)
+- ItemStack removeBook()
+- List removeAllBooksWithoutBlockStateUpdate()
+- NonNullList asNonNullList(StackInventory)
++ Packet getUpdatePacket()
+- void setChanged()
+- void updateBlockState()
++ void updateState(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
++ float getAnimation(float)
+- float getMouthAnimation(float)
++ void animation(Level,BlockPos,BlockState,SkullBlockEntity)
+- void dragonHeadAnimation(Level,BlockPos,BlockState,SkullBlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.entity.EntityLookup</summary>
+
+```diff
++ void getEntities(EntityTypeTest,AbortableIterationConsumer)
+- void getEntities(EntityTypeTest,Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.entity.EntitySection</summary>
+
+```diff
++ AbortableIterationConsumer$Continuation getEntities(AABB,AbortableIterationConsumer)
++ AbortableIterationConsumer$Continuation getEntities(EntityTypeTest,AABB,AbortableIterationConsumer)
+- void getEntities(AABB,Consumer)
+- void getEntities(EntityTypeTest,AABB,Consumer)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/bred_all_animals.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/breed_an_animal.json
++ minecraft/datapacks/update_1_20/data/minecraft/advancements/husbandry/root.json
++ minecraft/datapacks/update_1_20/data/minecraft/loot_tables/blocks/piglin_head.json
++ minecraft/datapacks/update_1_20/data/minecraft/tags/blocks/all_signs.json
++ minecraft/loot_tables/blocks/piglin_head.json
++ minecraft/tags/blocks/all_signs.json
+- minecraft/tags/blocks/stripped_logs.json
+- minecraft/tags/items/stripped_logs.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/atlases/banner_patterns.json
++ minecraft/atlases/beds.json
++ minecraft/atlases/blocks.json
++ minecraft/atlases/chests.json
++ minecraft/atlases/mob_effects.json
++ minecraft/atlases/paintings.json
++ minecraft/atlases/particles.json
++ minecraft/atlases/shield_patterns.json
++ minecraft/atlases/shulker_boxes.json
++ minecraft/atlases/signs.json
++ minecraft/blockstates/piglin_head.json
++ minecraft/blockstates/piglin_wall_head.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_left.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_mid.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_bottom_right.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_top_left.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_top_mid.json
++ minecraft/models/block/chiseled_bookshelf_empty_slot_top_right.json
++ minecraft/models/block/chiseled_bookshelf_inventory.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_left.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_mid.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_bottom_right.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_top_left.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_top_mid.json
++ minecraft/models/block/chiseled_bookshelf_occupied_slot_top_right.json
+- minecraft/models/block/chiseled_bookshelf_stage0.json
+- minecraft/models/block/chiseled_bookshelf_stage1.json
+- minecraft/models/block/chiseled_bookshelf_stage2.json
+- minecraft/models/block/chiseled_bookshelf_stage3.json
+- minecraft/models/block/chiseled_bookshelf_stage4.json
+- minecraft/models/block/chiseled_bookshelf_stage5.json
+- minecraft/models/block/chiseled_bookshelf_stage6.json
++ minecraft/models/block/chiseled_bookshelf.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_bottom_left.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_bottom_mid.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_bottom_right.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_top_left.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_top_mid.json
++ minecraft/models/block/template_chiseled_bookshelf_slot_top_right.json
+- minecraft/models/block/template_chiseled_bookshelf.json
++ minecraft/models/item/piglin_head.json
++ minecraft/textures/block/chiseled_bookshelf_empty.png
++ minecraft/textures/block/chiseled_bookshelf_occupied.png
+- minecraft/textures/block/chiseled_bookshelf_stage0.png
+- minecraft/textures/block/chiseled_bookshelf_stage1.png
+- minecraft/textures/block/chiseled_bookshelf_stage2.png
+- minecraft/textures/block/chiseled_bookshelf_stage3.png
+- minecraft/textures/block/chiseled_bookshelf_stage4.png
+- minecraft/textures/block/chiseled_bookshelf_stage5.png
+- minecraft/textures/block/chiseled_bookshelf_stage6.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:piglin_head
++ minecraft:piglin_wall_head
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:piglin_head
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ fillbiome.txt
+```
+
+</details>
+
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute if biome <pos: block_pos> <biome: resource_or_tag>
++ execute unless biome <pos: block_pos> <biome: resource_or_tag>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/all_signs.json
+- blocks/stripped_logs.json
+- items/stripped_logs.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.piglin_head
++ block.minecraft.piglin_wall_head
++ commands.fillbiome.success
++ commands.fillbiome.toobig
++ options.telemetry
++ options.telemetry.button
++ options.telemetry.button.tooltip
++ options.telemetry.state.all
++ options.telemetry.state.minimal
++ options.telemetry.state.none
++ telemetry_info.button.give_feedback
++ telemetry_info.button.show_data
++ telemetry_info.property_title
++ telemetry_info.screen.description
++ telemetry_info.screen.title
++ telemetry.event.optional
++ telemetry.event.performance_metrics.description
++ telemetry.event.performance_metrics.title
++ telemetry.event.required
++ telemetry.event.world_load_times.description
++ telemetry.event.world_load_times.title
++ telemetry.event.world_loaded.description
++ telemetry.event.world_loaded.title
++ telemetry.event.world_unloaded.description
++ telemetry.event.world_unloaded.title
++ telemetry.property.client_id.title
++ telemetry.property.client_modded.title
++ telemetry.property.dedicated_memory_kb.title
++ telemetry.property.event_timestamp_utc.title
++ telemetry.property.frame_rate_samples.title
++ telemetry.property.game_mode.title
++ telemetry.property.game_version.title
++ telemetry.property.minecraft_session_id.title
++ telemetry.property.new_world.title
++ telemetry.property.number_of_samples.title
++ telemetry.property.operating_system.title
++ telemetry.property.opt_in.title
++ telemetry.property.platform.title
++ telemetry.property.render_distance.title
++ telemetry.property.render_time_samples.title
++ telemetry.property.seconds_since_load.title
++ telemetry.property.server_modded.title
++ telemetry.property.server_type.title
++ telemetry.property.ticks_since_load.title
++ telemetry.property.used_memory_samples.title
++ telemetry.property.user_id.title
++ telemetry.property.world_load_time_ms.title
++ telemetry.property.world_session_id.title
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>List</summary>
+
+```diff
++ atlases.txt
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/piglin_head.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/all_signs.json
+- blocks/stripped_logs.json
+- items/stripped_logs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/chiseled_bookshelf_empty.png
++ block/chiseled_bookshelf_occupied.png
+- block/chiseled_bookshelf_stage0.png
+- block/chiseled_bookshelf_stage1.png
+- block/chiseled_bookshelf_stage2.png
+- block/chiseled_bookshelf_stage3.png
+- block/chiseled_bookshelf_stage4.png
+- block/chiseled_bookshelf_stage5.png
+- block/chiseled_bookshelf_stage6.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
++ com.google.code.gson:gson:2.10
+- com.google.code.gson:gson:2.9.1
+- com.mojang:authlib:3.13.56
++ com.mojang:authlib:3.15.28
+```
+
+</details>

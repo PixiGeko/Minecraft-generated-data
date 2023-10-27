@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w12a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w12a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-03-18T16:42:06+00:00</td></tr>
@@ -10,2540 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1a0824596acf68312f70522a164508dd037a9415/server.txt">https://piston-data.mojang.com/v1/objects/1a0824596acf68312f70522a164508dd037a9415/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/8ffb3d6807ede557ca7e114b4b6c3fb797d6e432/client.jar">https://piston-data.mojang.com/v1/objects/8ffb3d6807ede557ca7e114b4b6c3fb797d6e432/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3ddfd87b8b995611a078dc8742b2383d82784d8a/client.txt">https://piston-data.mojang.com/v1/objects/3ddfd87b8b995611a078dc8742b2383d82784d8a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w11a">20w11a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/polished_basalt.json
-+  minecraft/advancements/recipes/decorations/respawn_anchor.json
-+  minecraft/loot_tables/blocks/polished_basalt.json
-+  minecraft/loot_tables/blocks/respawn_anchor.json
-+  minecraft/recipes/polished_basalt.json
-+  minecraft/recipes/respawn_anchor.json
-+  minecraft/tags/blocks/soul_fire_base_blocks.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/polished_basalt.json
-+  minecraft/blockstates/respawn_anchor.json
-+  minecraft/models/block/polished_basalt.json
-+  minecraft/models/block/respawn_anchor_0.json
-+  minecraft/models/block/respawn_anchor_1.json
-+  minecraft/models/block/respawn_anchor_2.json
-+  minecraft/models/block/respawn_anchor_3.json
-+  minecraft/models/block/respawn_anchor_4.json
-+  minecraft/models/item/polished_basalt.json
-+  minecraft/models/item/respawn_anchor.json
-+  minecraft/particles/reverse_portal.json
-+  minecraft/textures/block/polished_basalt_side.png
-+  minecraft/textures/block/polished_basalt_top.png
-+  minecraft/textures/block/respawn_anchor_bottom.png
-+  minecraft/textures/block/respawn_anchor_side0.png
-+  minecraft/textures/block/respawn_anchor_side1.png
-+  minecraft/textures/block/respawn_anchor_side2.png
-+  minecraft/textures/block/respawn_anchor_side3.png
-+  minecraft/textures/block/respawn_anchor_side4.png
-+  minecraft/textures/block/respawn_anchor_top.png
-+  minecraft/textures/block/respawn_anchor_top.png.mcmeta
-+  minecraft/textures/block/respawn_anchor_top_off.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:polished_basalt
-+ minecraft:respawn_anchor
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:polished_basalt
-+ minecraft:respawn_anchor
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:reverse_portal
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.respawn_anchor.ambient
-+ minecraft:block.respawn_anchor.charge
-+ minecraft:block.respawn_anchor.deplete
-+ minecraft:block.respawn_anchor.set_spawn
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/soul_fire_base_blocks.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/polished_basalt.json
-+ recipes/decorations/respawn_anchor.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/polished_basalt.json
-+ blocks/respawn_anchor.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ reverse_portal.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ polished_basalt.json
-+ respawn_anchor.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/soul_fire_base_blocks.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/polished_basalt_side.png
-+ block/polished_basalt_top.png
-+ block/respawn_anchor_bottom.png
-+ block/respawn_anchor_side0.png
-+ block/respawn_anchor_side1.png
-+ block/respawn_anchor_side2.png
-+ block/respawn_anchor_side3.png
-+ block/respawn_anchor_side4.png
-+ block/respawn_anchor_top.png
-+ block/respawn_anchor_top_off.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-- boolean collision
-- double getDismountTargetFloorHeight(CollisionContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AnimalMakeLove</summary>
-
-```diff
-+ float speedModifier
-+ void <init>(EntityType,float)
-- void <init>(EntityType)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
-
-```diff
-+ void lockGazeAndWalkToEachOther(LivingEntity,float)
-+ void setWalkAndLookTargetMemories(BlockPos,float,int)
-+ void setWalkAndLookTargetMemories(Entity,float,int)
-+ void setWalkAndLookTargetMemories(PositionWrapper,float,int)
-+ void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,float)
-- void lockGazeAndWalkToEachOther(LivingEntity)
-- void setWalkAndLookTargetMemories(BlockPos,int)
-- void setWalkAndLookTargetMemories(Entity,int)
-- void setWalkAndLookTargetMemories(PositionWrapper,int)
-- void setWalkAndLookTargetMemoriesToEachOther(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GoToCelebrateLocation</summary>
-
-```diff
-+ float speedModifier
-+ void <init>(int,float)
-- void <init>(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.GoToWantedItem</summary>
-
-```diff
-+ float speedModifier
-+ void <init>(float,boolean,int)
-+ void <init>(Predicate,float,boolean,int)
-- void <init>(int,boolean)
-- void <init>(Predicate,int,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.InsideBrownianWalk</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LocateHidingPlace</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LookAndFollowTradingPlayerSink</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StrollToPoiList</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillageBoundRandomStroll</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.fishing.FishingHook</summary>
-
-```diff
-+ boolean openWater
-+ boolean calculateOpenWater(BlockPos)
-+ boolean isOpenWaterFishing()
-+ boolean validOpenWaterBlockAt(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ Optional getAmbientAdditions()
-+ Optional getAmbientLoop()
-+ Optional getAmbientMood()
-- Optional getAmbientAdditionsSoundEvent()
-- Optional getAmbientLoopSoundEvent()
-- Optional getAmbientMoodSoundEvent()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
-
-```diff
-+ Optional ambientAdditionsSettings
-+ Optional ambientMoodSettings
-- Optional ambientAdditionsSoundEvent
-- Optional ambientMoodSoundEvent
-+ Optional getAmbientAdditionsSettings()
-+ Optional getAmbientMoodSettings()
-- Optional getAmbientAdditionsSoundEvent()
-- Optional getAmbientMoodSoundEvent()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
-
-```diff
-+ Optional ambientAdditionsSettings
-+ Optional ambientMoodSettings
-- Optional ambientAdditionsSoundEvent
-- Optional ambientMoodSoundEvent
-+ BiomeSpecialEffects$Builder ambientAdditionsSound(AmbientAdditionsSettings)
-+ BiomeSpecialEffects$Builder ambientMoodSound(AmbientMoodSettings)
-- BiomeSpecialEffects$Builder ambientAdditionsSound(SoundEvent)
-- BiomeSpecialEffects$Builder ambientMoodSound(SoundEvent)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractBannerBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- int getLightEmission(BlockState)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.AbstractSkullBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ void onBroken(FallingBlockEntity)
-+ void onLand(FallingBlockEntity)
-- int getDustColor(BlockState)
-- void <init>(Block$Properties)
-- void onBroken(BlockPos)
-- void onLand(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
-
-```diff
-+ BlockBehaviour$OffsetType getOffsetType()
-+ boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- Block$OffsetType getOffsetType()
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BannerBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isValidSpawn(EntityType)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseCoralPlantBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties,float)
-- void <init>(Block$Properties,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isRedstoneConductor(BlockPos)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block POLISHED_BASALT
-+ Block RESPAWN_ANCHOR
-+ BedBlock bed(DyeColor)
-+ Block stem(MaterialColor)
-+ BlockEntityType lambda$static$11()
-+ boolean always(BlockPos)
-+ Boolean always(EntityType)
-+ boolean lambda$pistonBase$4(BlockPos)
-+ boolean lambda$static$12(EntityType)
-+ boolean lambda$static$27(EntityType)
-+ boolean lambda$static$29(EntityType)
-+ boolean never(BlockPos)
-+ Boolean never(EntityType)
-+ Boolean ocelotOrParrot(EntityType)
-+ ConfiguredFeature lambda$static$34()
-+ ConfiguredFeature lambda$static$35()
-+ int lambda$litBlockEmission$0(BlockState)
-+ int lambda$static$10(BlockState)
-+ int lambda$static$13(BlockState)
-+ int lambda$static$14(BlockState)
-+ int lambda$static$15(BlockState)
-+ int lambda$static$16(BlockState)
-+ int lambda$static$17(BlockState)
-+ int lambda$static$18(BlockState)
-+ int lambda$static$19(BlockState)
-+ int lambda$static$20(BlockState)
-+ int lambda$static$21(BlockState)
-+ int lambda$static$22(BlockState)
-+ int lambda$static$23(BlockState)
-+ int lambda$static$24(BlockState)
-+ int lambda$static$25(BlockState)
-+ int lambda$static$26(BlockState)
-+ int lambda$static$28(BlockState)
-+ int lambda$static$30(BlockState)
-+ int lambda$static$31(BlockState)
-+ int lambda$static$32(BlockState)
-+ int lambda$static$33(BlockState)
-+ int lambda$static$36(BlockState)
-+ int lambda$static$37(BlockState)
-+ int lambda$static$38(BlockState)
-+ int lambda$static$5(BlockState)
-+ int lambda$static$6(BlockState)
-+ int lambda$static$7(BlockState)
-+ int lambda$static$8(BlockState)
-+ int lambda$static$9(BlockState)
-+ LeavesBlock leaves()
-+ MaterialColor lambda$bed$1(BlockState)
-+ MaterialColor lambda$log$2(BlockState)
-+ MaterialColor lambda$stem$3(BlockState)
-+ PistonBaseBlock pistonBase(boolean)
-+ RotatedPillarBlock log(MaterialColor)
-+ ShulkerBoxBlock shulkerBox(BlockBehaviour$Properties)
-+ StainedGlassBlock stainedGlass(DyeColor)
-+ ToIntFunction litBlockEmission(int)
-- BlockEntityType lambda$static$0()
-- ConfiguredFeature lambda$static$1()
-- ConfiguredFeature lambda$static$2()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
-
-```diff
-+ int getPressDuration()
-+ void <init>(BlockBehaviour$Properties)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CactusBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- int getLightEmission(BlockState)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CartographyTableBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CauldronBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.ComparatorBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CoralFanBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CoralWallFanBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.CropBlock</summary>
-
-```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.DaylightDetectorBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.DetectorRailBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
-
-```diff
-+ int getDelayAfterPlace()
-+ void <init>(BlockBehaviour$Properties)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EndPortalBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FallingBlock</summary>
-
-```diff
-+ int getDelayAfterPlace()
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ void onBroken(FallingBlockEntity)
-+ void onLand(FallingBlockEntity)
-- int getDustColor(BlockState)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-- void onBroken(BlockPos)
-- void onLand(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FletchingTableBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FungusBlock</summary>
-
-```diff
-+ void <init>(Supplier)
-- void <init>(Supplier)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GlassBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GoldBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GrassPathBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isViewBlocking(BlockPos)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GrindstoneBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
-
-```diff
-+ void <init>(VoxelShape,boolean)
-- void <init>(VoxelShape,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
-
-```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void <init>(VoxelShape,boolean,double)
-+ void randomTick(Random)
-- void <init>(VoxelShape,boolean,double)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.HayBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.HorizontalDirectionalBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.IceBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- boolean isValidSpawn(EntityType)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isSuffocating(BlockPos)
-- boolean isValidSpawn(EntityType)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
-
-```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.RotatedPillarBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.SandBlock</summary>
-
-```diff
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-- int getDustColor(BlockState)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ScaffoldingBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.Seagrass</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isSuffocating(BlockPos)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SignBlock</summary>
-
-```diff
-+ void <init>(WoodType)
-- void <init>(WoodType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SkullBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.SmithingTableBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-+ VoxelShape getVisualShape(CollisionContext)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SnowyDirtBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
-
-```diff
-+ BlockState updateShape(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
-- boolean isRedstoneConductor(BlockPos)
-- boolean isValidSpawn(EntityType)
-- boolean isViewBlocking(BlockPos)
-- int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
-- void neighborChanged(BlockPos,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SpreadingSnowyDirtBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.StemBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.StoneButtonBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.StructureVoidBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
-
-```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
-
-```diff
-+ BlockBehaviour$OffsetType getOffsetType()
-+ void <init>(BlockBehaviour$Properties)
-- Block$OffsetType getOffsetType()
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TargetBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TorchBlock</summary>
-
-```diff
-+ void <init>(ParticleOptions)
-- void <init>(ParticleOptions)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.TripWireBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.TwistingVinesPlant</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.WallBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WallSignBlock</summary>
-
-```diff
-+ void <init>(WoodType)
-- void <init>(WoodType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
-
-```diff
-+ void <init>(ParticleOptions)
-- void <init>(ParticleOptions)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WebBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WetSpongeBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WitherSkullBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.WoodButtonBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
-
-```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isRedstoneConductor(BlockPos)
-- boolean isSuffocating(BlockPos)
-- void <init>(Block$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ IntegerProperty RESPAWN_ANCHOR_CHARGES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-+ BlockState generateBaseState(double,int)
-+ int iterateNoiseColumn(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherForestVegetationFeature</summary>
-
-```diff
-+ boolean place(BlockPileConfiguration,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
-
-```diff
-+ boolean lambda$run$0(Enchantment)
-+ ItemStack enchantItem(Random)
-+ LootItemFunction lambda$randomApplicableEnchantment$1(LootItemCondition[])
-- LootItemFunction lambda$randomApplicableEnchantment$0(LootItemCondition[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.FishingHookPredicate
@@ -5464,189 +2952,18 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-- boolean collision
-- double getDismountTargetFloorHeight(CollisionContext)
+- double getDismountTargetFloorHeight(Level,BlockPos,CollisionContext)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.AnimalMakeLove</summary>
 
 ```diff
-+ float speedModifier
 + void <init>(EntityType,float)
 - void <init>(EntityType)
 ```
@@ -5654,326 +2971,49 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
 
 ```diff
-+ void lockGazeAndWalkToEachOther(LivingEntity,float)
-+ void setWalkAndLookTargetMemories(BlockPos,float,int)
-+ void setWalkAndLookTargetMemories(Entity,float,int)
-+ void setWalkAndLookTargetMemories(PositionWrapper,float,int)
-+ void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,float)
-- void lockGazeAndWalkToEachOther(LivingEntity)
-- void setWalkAndLookTargetMemories(BlockPos,int)
-- void setWalkAndLookTargetMemories(Entity,int)
-- void setWalkAndLookTargetMemories(PositionWrapper,int)
-- void setWalkAndLookTargetMemoriesToEachOther(LivingEntity)
++ void lockGazeAndWalkToEachOther(LivingEntity,LivingEntity,float)
+- void lockGazeAndWalkToEachOther(LivingEntity,LivingEntity)
++ void setWalkAndLookTargetMemories(LivingEntity,BlockPos,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,BlockPos,int)
++ void setWalkAndLookTargetMemories(LivingEntity,Entity,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,Entity,int)
++ void setWalkAndLookTargetMemories(LivingEntity,PositionWrapper,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,PositionWrapper,int)
++ void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,LivingEntity,float)
+- void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.ai.behavior.GoToCelebrateLocation</summary>
 
 ```diff
-+ float speedModifier
 + void <init>(int,float)
 - void <init>(int)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.ai.behavior.GoToWantedItem</summary>
 
 ```diff
-+ float speedModifier
 + void <init>(float,boolean,int)
-+ void <init>(Predicate,float,boolean,int)
 - void <init>(int,boolean)
++ void <init>(Predicate,float,boolean,int)
 - void <init>(Predicate,int,boolean)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.entity.ai.behavior.InsideBrownianWalk</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LocateHidingPlace</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.LookAndFollowTradingPlayerSink</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.MoveToSkySeeingSpot</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromAttackTargetIfTargetOutOfReach</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.ai.behavior.SetWalkTargetFromLookTarget</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.StrollToPoiList</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.VillageBoundRandomStroll</summary>
-
-```diff
-+ float speedModifier
-- float speed
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <details><summary>net.minecraft.world.entity.fishing.FishingHook</summary>
 
 ```diff
-+ boolean openWater
 + boolean calculateOpenWater(BlockPos)
 + boolean isOpenWaterFishing()
 + boolean validOpenWaterBlockAt(BlockPos)
@@ -5982,278 +3022,172 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.biome.Biome</summary>
 
 ```diff
 + Optional getAmbientAdditions()
-+ Optional getAmbientLoop()
-+ Optional getAmbientMood()
 - Optional getAmbientAdditionsSoundEvent()
++ Optional getAmbientLoop()
 - Optional getAmbientLoopSoundEvent()
++ Optional getAmbientMood()
 - Optional getAmbientMoodSoundEvent()
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
 
 ```diff
-+ Optional ambientAdditionsSettings
-+ Optional ambientMoodSettings
-- Optional ambientAdditionsSoundEvent
-- Optional ambientMoodSoundEvent
 + Optional getAmbientAdditionsSettings()
-+ Optional getAmbientMoodSettings()
 - Optional getAmbientAdditionsSoundEvent()
++ Optional getAmbientMoodSettings()
 - Optional getAmbientMoodSoundEvent()
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
 
 ```diff
-+ Optional ambientAdditionsSettings
-+ Optional ambientMoodSettings
-- Optional ambientAdditionsSoundEvent
-- Optional ambientMoodSoundEvent
 + BiomeSpecialEffects$Builder ambientAdditionsSound(AmbientAdditionsSettings)
-+ BiomeSpecialEffects$Builder ambientMoodSound(AmbientMoodSettings)
 - BiomeSpecialEffects$Builder ambientAdditionsSound(SoundEvent)
++ BiomeSpecialEffects$Builder ambientMoodSound(AmbientMoodSettings)
 - BiomeSpecialEffects$Builder ambientMoodSound(SoundEvent)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.AbstractBannerBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - int getLightEmission(BlockState)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.AbstractSkullBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(SkullBlock$Type,Block$Properties)
++ void <init>(SkullBlock$Type,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
 
 ```diff
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ void onBroken(FallingBlockEntity)
-+ void onLand(FallingBlockEntity)
++ int getDustColor(BlockState,BlockGetter,BlockPos)
 - int getDustColor(BlockState)
 - void <init>(Block$Properties)
-- void onBroken(BlockPos)
-- void onLand(BlockState)
++ void <init>(BlockBehaviour$Properties)
++ void onBroken(Level,BlockPos,FallingBlockEntity)
+- void onBroken(Level,BlockPos)
++ void onLand(Level,BlockPos,BlockState,BlockState,FallingBlockEntity)
+- void onLand(Level,BlockPos,BlockState,BlockState)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BambooBlock</summary>
 
 ```diff
+- Block$OffsetType getOffsetType()
 + BlockBehaviour$OffsetType getOffsetType()
 + boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- Block$OffsetType getOffsetType()
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BannerBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isValidSpawn(EntityType)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BaseCoralPlantBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties,float)
 - void <init>(Block$Properties,float)
++ void <init>(BlockBehaviour$Properties,float)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(boolean,Block$Properties)
++ void <init>(boolean,BlockBehaviour$Properties)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isRedstoneConductor(BlockPos)
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6262,23 +3196,24 @@
 <details><summary>net.minecraft.world.level.block.Blocks</summary>
 
 ```diff
-+ Block POLISHED_BASALT
-+ Block RESPAWN_ANCHOR
 + BedBlock bed(DyeColor)
 + Block stem(MaterialColor)
+- BlockEntityType lambda$static$0()
 + BlockEntityType lambda$static$11()
-+ boolean always(BlockPos)
-+ Boolean always(EntityType)
-+ boolean lambda$pistonBase$4(BlockPos)
-+ boolean lambda$static$12(EntityType)
-+ boolean lambda$static$27(EntityType)
-+ boolean lambda$static$29(EntityType)
-+ boolean never(BlockPos)
-+ Boolean never(EntityType)
-+ Boolean ocelotOrParrot(EntityType)
++ Boolean always(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean always(BlockState,BlockGetter,BlockPos)
++ boolean lambda$pistonBase$4(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$12(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$27(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$29(BlockState,BlockGetter,BlockPos,EntityType)
++ Boolean never(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean never(BlockState,BlockGetter,BlockPos)
++ Boolean ocelotOrParrot(BlockState,BlockGetter,BlockPos,EntityType)
+- ConfiguredFeature lambda$static$1()
+- ConfiguredFeature lambda$static$2()
 + ConfiguredFeature lambda$static$34()
 + ConfiguredFeature lambda$static$35()
-+ int lambda$litBlockEmission$0(BlockState)
++ int lambda$litBlockEmission$0(int,BlockState)
 + int lambda$static$10(BlockState)
 + int lambda$static$13(BlockState)
 + int lambda$static$14(BlockState)
@@ -6308,26 +3243,24 @@
 + int lambda$static$8(BlockState)
 + int lambda$static$9(BlockState)
 + LeavesBlock leaves()
-+ MaterialColor lambda$bed$1(BlockState)
-+ MaterialColor lambda$log$2(BlockState)
-+ MaterialColor lambda$stem$3(BlockState)
++ MaterialColor lambda$bed$1(DyeColor,BlockState)
++ MaterialColor lambda$log$2(MaterialColor,MaterialColor,BlockState)
++ MaterialColor lambda$stem$3(MaterialColor,BlockState)
 + PistonBaseBlock pistonBase(boolean)
-+ RotatedPillarBlock log(MaterialColor)
-+ ShulkerBoxBlock shulkerBox(BlockBehaviour$Properties)
++ RotatedPillarBlock log(MaterialColor,MaterialColor)
++ ShulkerBoxBlock shulkerBox(DyeColor,BlockBehaviour$Properties)
 + StainedGlassBlock stainedGlass(DyeColor)
 + ToIntFunction litBlockEmission(int)
-- BlockEntityType lambda$static$0()
-- ConfiguredFeature lambda$static$1()
-- ConfiguredFeature lambda$static$2()
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6337,59 +3270,61 @@
 
 ```diff
 + int getPressDuration()
-+ void <init>(BlockBehaviour$Properties)
 - int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
+- void <init>(boolean,Block$Properties)
++ void <init>(boolean,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CactusBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - int getLightEmission(BlockState)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CartographyTableBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CauldronBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6398,49 +3333,51 @@
 <details><summary>net.minecraft.world.level.block.ComparatorBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CoralFanBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CoralWallFanBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.CropBlock</summary>
 
 ```diff
 + boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
@@ -6449,124 +3386,131 @@
 <details><summary>net.minecraft.world.level.block.DaylightDetectorBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.DetectorRailBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - int getTickDelay(LevelReader)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - int getTickDelay(LevelReader)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
 
 ```diff
 + int getDelayAfterPlace()
-+ void <init>(BlockBehaviour$Properties)
 - int getTickDelay(LevelReader)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.EndPortalBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.FallingBlock</summary>
 
 ```diff
 + int getDelayAfterPlace()
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ void onBroken(FallingBlockEntity)
-+ void onLand(FallingBlockEntity)
++ int getDustColor(BlockState,BlockGetter,BlockPos)
 - int getDustColor(BlockState)
 - int getTickDelay(LevelReader)
 - void <init>(Block$Properties)
-- void onBroken(BlockPos)
-- void onLand(BlockState)
++ void <init>(BlockBehaviour$Properties)
++ void onBroken(Level,BlockPos,FallingBlockEntity)
+- void onBroken(Level,BlockPos)
++ void onLand(Level,BlockPos,BlockState,BlockState,FallingBlockEntity)
+- void onLand(Level,BlockPos,BlockState,BlockState)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.FenceBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
@@ -6575,150 +3519,165 @@
 <details><summary>net.minecraft.world.level.block.FletchingTableBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.FungusBlock</summary>
 
 ```diff
-+ void <init>(Supplier)
-- void <init>(Supplier)
+- void <init>(Block$Properties,Supplier)
++ void <init>(BlockBehaviour$Properties,Supplier)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GlassBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GoldBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GrassPathBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isViewBlocking(BlockPos)
+- boolean isViewBlocking(BlockState,BlockGetter,BlockPos)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GrindstoneBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
 
 ```diff
-+ void <init>(VoxelShape,boolean)
-- void <init>(VoxelShape,boolean)
+- void <init>(Block$Properties,Direction,VoxelShape,boolean)
++ void <init>(BlockBehaviour$Properties,Direction,VoxelShape,boolean)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
 
 ```diff
 + boolean isRandomlyTicking(BlockState)
-+ void <init>(VoxelShape,boolean,double)
-+ void randomTick(Random)
-- void <init>(VoxelShape,boolean,double)
+- void <init>(Block$Properties,Direction,VoxelShape,boolean,double)
++ void <init>(BlockBehaviour$Properties,Direction,VoxelShape,boolean,double)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.HayBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.HopperBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.HorizontalDirectionalBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.IceBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- boolean isValidSpawn(EntityType)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6727,10 +3686,10 @@
 <details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isSuffocating(BlockPos)
-- boolean isValidSpawn(EntityType)
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6739,28 +3698,30 @@
 <details><summary>net.minecraft.world.level.block.LeverBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
 
 ```diff
 + boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
 - int getTickDelay(LevelReader)
-- void <init>(Block$Properties)
+- void <init>(FlowingFluid,Block$Properties)
++ void <init>(FlowingFluid,BlockBehaviour$Properties)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.RotatedPillarBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6769,133 +3730,143 @@
 <details><summary>net.minecraft.world.level.block.SandBlock</summary>
 
 ```diff
-+ int getDustColor(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
++ int getDustColor(BlockState,BlockGetter,BlockPos)
 - int getDustColor(BlockState)
-- void <init>(Block$Properties)
+- void <init>(int,Block$Properties)
++ void <init>(int,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.ScaffoldingBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.Seagrass</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isSuffocating(BlockPos)
-- void <init>(Block$Properties)
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SignBlock</summary>
 
 ```diff
-+ void <init>(WoodType)
-- void <init>(WoodType)
+- void <init>(Block$Properties,WoodType)
++ void <init>(BlockBehaviour$Properties,WoodType)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SkullBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(SkullBlock$Type,Block$Properties)
++ void <init>(SkullBlock$Type,BlockBehaviour$Properties)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.block.SmithingTableBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-+ VoxelShape getVisualShape(CollisionContext)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SnowyDirtBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
 
 ```diff
-+ BlockState updateShape(BlockPos)
-+ void <init>(BlockBehaviour$Properties)
-+ VoxelShape getVisualShape(CollisionContext)
-- boolean isRedstoneConductor(BlockPos)
-- boolean isValidSpawn(EntityType)
-- boolean isViewBlocking(BlockPos)
++ BlockState updateShape(BlockState,Direction,BlockState,LevelAccessor,BlockPos,BlockPos)
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean isViewBlocking(BlockState,BlockGetter,BlockPos)
 - int getTickDelay(LevelReader)
 - void <init>(Block$Properties)
-- void neighborChanged(BlockPos,boolean)
++ void <init>(BlockBehaviour$Properties)
+- void neighborChanged(BlockState,Level,BlockPos,Block,BlockPos,boolean)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SpreadingSnowyDirtBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
 ```
 
 </details>
@@ -6904,78 +3875,85 @@
 <details><summary>net.minecraft.world.level.block.StemBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
-- void <init>(Block$Properties)
-- void tick(Random)
+- void <init>(StemGrownBlock,Block$Properties)
++ void <init>(StemGrownBlock,BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.StoneButtonBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.StructureBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.StructureVoidBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
 
 ```diff
 + boolean isRandomlyTicking(BlockState)
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
 
 ```diff
-+ BlockBehaviour$OffsetType getOffsetType()
-+ void <init>(BlockBehaviour$Properties)
 - Block$OffsetType getOffsetType()
++ BlockBehaviour$OffsetType getOffsetType()
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.TargetBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.TorchBlock</summary>
 
 ```diff
-+ void <init>(ParticleOptions)
-- void <init>(ParticleOptions)
+- void <init>(Block$Properties,ParticleOptions)
++ void <init>(BlockBehaviour$Properties,ParticleOptions)
 ```
 
 </details>
@@ -6984,37 +3962,40 @@
 <details><summary>net.minecraft.world.level.block.TripWireBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- void <init>(Block$Properties)
+- void <init>(TripWireHookBlock,Block$Properties)
++ void <init>(TripWireHookBlock,BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-+ void randomTick(Random)
 - void <init>(Block$Properties)
-- void tick(Random)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.TwistingVinesPlant</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
@@ -7023,202 +4004,93 @@
 <details><summary>net.minecraft.world.level.block.WallBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WallSignBlock</summary>
 
 ```diff
-+ void <init>(WoodType)
-- void <init>(WoodType)
+- void <init>(Block$Properties,WoodType)
++ void <init>(BlockBehaviour$Properties,WoodType)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
 
 ```diff
-+ void <init>(ParticleOptions)
-- void <init>(ParticleOptions)
+- void <init>(Block$Properties,ParticleOptions)
++ void <init>(BlockBehaviour$Properties,ParticleOptions)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WebBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WetSpongeBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WitherSkullBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.WoodButtonBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
 
 ```diff
-+ void <init>(BlockBehaviour$Properties)
-- boolean isRedstoneConductor(BlockPos)
-- boolean isSuffocating(BlockPos)
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
 - void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ IntegerProperty RESPAWN_ANCHOR_CHARGES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ BlockGetter getBaseColumn(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
@@ -7230,471 +4102,44 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
 
 ```diff
 + BlockGetter getBaseColumn(int,int)
 + BlockState generateBaseState(double,int)
-+ int iterateNoiseColumn(Predicate)
++ int iterateNoiseColumn(int,int,BlockState[],Predicate)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.NetherForestVegetationFeature</summary>
 
 ```diff
-+ boolean place(BlockPileConfiguration,int,int)
++ boolean place(LevelAccessor,Random,BlockPos,BlockPileConfiguration,int,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
 
 ```diff
-+ boolean lambda$run$0(Enchantment)
-+ ItemStack enchantItem(Random)
-+ LootItemFunction lambda$randomApplicableEnchantment$1(LootItemCondition[])
++ boolean lambda$run$0(boolean,ItemStack,Enchantment)
++ ItemStack enchantItem(ItemStack,Enchantment,Random)
 - LootItemFunction lambda$randomApplicableEnchantment$0(LootItemCondition[])
++ LootItemFunction lambda$randomApplicableEnchantment$1(LootItemCondition[])
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.advancements.critereon.FishingHookPredicate
@@ -9419,13 +5864,1374 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- double getDismountTargetFloorHeight(Level,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.AnimalMakeLove</summary>
+
+```diff
++ void <init>(EntityType,float)
+- void <init>(EntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
+
+```diff
++ void lockGazeAndWalkToEachOther(LivingEntity,LivingEntity,float)
+- void lockGazeAndWalkToEachOther(LivingEntity,LivingEntity)
++ void setWalkAndLookTargetMemories(LivingEntity,BlockPos,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,BlockPos,int)
++ void setWalkAndLookTargetMemories(LivingEntity,Entity,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,Entity,int)
++ void setWalkAndLookTargetMemories(LivingEntity,PositionWrapper,float,int)
+- void setWalkAndLookTargetMemories(LivingEntity,PositionWrapper,int)
++ void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,LivingEntity,float)
+- void setWalkAndLookTargetMemoriesToEachOther(LivingEntity,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GoToCelebrateLocation</summary>
+
+```diff
++ void <init>(int,float)
+- void <init>(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.GoToWantedItem</summary>
+
+```diff
++ void <init>(float,boolean,int)
+- void <init>(int,boolean)
++ void <init>(Predicate,float,boolean,int)
+- void <init>(Predicate,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.fishing.FishingHook</summary>
+
+```diff
++ boolean calculateOpenWater(BlockPos)
++ boolean isOpenWaterFishing()
++ boolean validOpenWaterBlockAt(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
+
+```diff
++ Optional getAmbientAdditions()
+- Optional getAmbientAdditionsSoundEvent()
++ Optional getAmbientLoop()
+- Optional getAmbientLoopSoundEvent()
++ Optional getAmbientMood()
+- Optional getAmbientMoodSoundEvent()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
+
+```diff
++ Optional getAmbientAdditionsSettings()
+- Optional getAmbientAdditionsSoundEvent()
++ Optional getAmbientMoodSettings()
+- Optional getAmbientMoodSoundEvent()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
+
+```diff
++ BiomeSpecialEffects$Builder ambientAdditionsSound(AmbientAdditionsSettings)
+- BiomeSpecialEffects$Builder ambientAdditionsSound(SoundEvent)
++ BiomeSpecialEffects$Builder ambientMoodSound(AmbientMoodSettings)
+- BiomeSpecialEffects$Builder ambientMoodSound(SoundEvent)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractBannerBlock</summary>
+
+```diff
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
+
+```diff
+- int getLightEmission(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractSkullBlock</summary>
+
+```diff
+- void <init>(SkullBlock$Type,Block$Properties)
++ void <init>(SkullBlock$Type,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
+
+```diff
++ int getDustColor(BlockState,BlockGetter,BlockPos)
+- int getDustColor(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void onBroken(Level,BlockPos,FallingBlockEntity)
+- void onBroken(Level,BlockPos)
++ void onLand(Level,BlockPos,BlockState,BlockState,FallingBlockEntity)
+- void onLand(Level,BlockPos,BlockState,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+
+```diff
+- Block$OffsetType getOffsetType()
++ BlockBehaviour$OffsetType getOffsetType()
++ boolean isRandomlyTicking(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BannerBlock</summary>
+
+```diff
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrierBlock</summary>
+
+```diff
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseCoralPlantBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
+
+```diff
+- void <init>(Block$Properties,float)
++ void <init>(BlockBehaviour$Properties,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
+
+```diff
+- void <init>(boolean,Block$Properties)
++ void <init>(boolean,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
+
+```diff
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ BedBlock bed(DyeColor)
++ Block stem(MaterialColor)
+- BlockEntityType lambda$static$0()
++ BlockEntityType lambda$static$11()
++ Boolean always(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean always(BlockState,BlockGetter,BlockPos)
++ boolean lambda$pistonBase$4(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$12(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$27(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$29(BlockState,BlockGetter,BlockPos,EntityType)
++ Boolean never(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean never(BlockState,BlockGetter,BlockPos)
++ Boolean ocelotOrParrot(BlockState,BlockGetter,BlockPos,EntityType)
+- ConfiguredFeature lambda$static$1()
+- ConfiguredFeature lambda$static$2()
++ ConfiguredFeature lambda$static$34()
++ ConfiguredFeature lambda$static$35()
++ int lambda$litBlockEmission$0(int,BlockState)
++ int lambda$static$10(BlockState)
++ int lambda$static$13(BlockState)
++ int lambda$static$14(BlockState)
++ int lambda$static$15(BlockState)
++ int lambda$static$16(BlockState)
++ int lambda$static$17(BlockState)
++ int lambda$static$18(BlockState)
++ int lambda$static$19(BlockState)
++ int lambda$static$20(BlockState)
++ int lambda$static$21(BlockState)
++ int lambda$static$22(BlockState)
++ int lambda$static$23(BlockState)
++ int lambda$static$24(BlockState)
++ int lambda$static$25(BlockState)
++ int lambda$static$26(BlockState)
++ int lambda$static$28(BlockState)
++ int lambda$static$30(BlockState)
++ int lambda$static$31(BlockState)
++ int lambda$static$32(BlockState)
++ int lambda$static$33(BlockState)
++ int lambda$static$36(BlockState)
++ int lambda$static$37(BlockState)
++ int lambda$static$38(BlockState)
++ int lambda$static$5(BlockState)
++ int lambda$static$6(BlockState)
++ int lambda$static$7(BlockState)
++ int lambda$static$8(BlockState)
++ int lambda$static$9(BlockState)
++ LeavesBlock leaves()
++ MaterialColor lambda$bed$1(DyeColor,BlockState)
++ MaterialColor lambda$log$2(MaterialColor,MaterialColor,BlockState)
++ MaterialColor lambda$stem$3(MaterialColor,BlockState)
++ PistonBaseBlock pistonBase(boolean)
++ RotatedPillarBlock log(MaterialColor,MaterialColor)
++ ShulkerBoxBlock shulkerBox(DyeColor,BlockBehaviour$Properties)
++ StainedGlassBlock stainedGlass(DyeColor)
++ ToIntFunction litBlockEmission(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
+
+```diff
++ int getPressDuration()
+- int getTickDelay(LevelReader)
+- void <init>(boolean,Block$Properties)
++ void <init>(boolean,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CactusBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
+
+```diff
+- int getLightEmission(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CartographyTableBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CauldronBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ComparatorBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CoralFanBlock</summary>
+
+```diff
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CoralWallFanBlock</summary>
+
+```diff
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CropBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DaylightDetectorBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DetectorRailBlock</summary>
+
+```diff
+- int getTickDelay(LevelReader)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
+
+```diff
+- int getTickDelay(LevelReader)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
+
+```diff
++ int getDelayAfterPlace()
+- int getTickDelay(LevelReader)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndPortalBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FallingBlock</summary>
+
+```diff
++ int getDelayAfterPlace()
++ int getDustColor(BlockState,BlockGetter,BlockPos)
+- int getDustColor(BlockState)
+- int getTickDelay(LevelReader)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void onBroken(Level,BlockPos,FallingBlockEntity)
+- void onBroken(Level,BlockPos)
++ void onLand(Level,BlockPos,BlockState,BlockState,FallingBlockEntity)
+- void onLand(Level,BlockPos,BlockState,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FletchingTableBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
+
+```diff
+- void <init>(Block,Block$Properties)
++ void <init>(Block,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FungusBlock</summary>
+
+```diff
+- void <init>(Block$Properties,Supplier)
++ void <init>(BlockBehaviour$Properties,Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GlassBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GoldBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrassPathBlock</summary>
+
+```diff
+- boolean isViewBlocking(BlockState,BlockGetter,BlockPos)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrindstoneBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantBlock</summary>
+
+```diff
+- void <init>(Block$Properties,Direction,VoxelShape,boolean)
++ void <init>(BlockBehaviour$Properties,Direction,VoxelShape,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
+- void <init>(Block$Properties,Direction,VoxelShape,boolean,double)
++ void <init>(BlockBehaviour$Properties,Direction,VoxelShape,boolean,double)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HayBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HorizontalDirectionalBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.IceBlock</summary>
+
+```diff
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpPlantBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeavesBlock</summary>
+
+```diff
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
+- int getTickDelay(LevelReader)
+- void <init>(FlowingFluid,Block$Properties)
++ void <init>(FlowingFluid,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RotatedPillarBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SandBlock</summary>
+
+```diff
++ int getDustColor(BlockState,BlockGetter,BlockPos)
+- int getDustColor(BlockState)
+- void <init>(int,Block$Properties)
++ void <init>(int,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ScaffoldingBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Seagrass</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
+
+```diff
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SignBlock</summary>
+
+```diff
+- void <init>(Block$Properties,WoodType)
++ void <init>(BlockBehaviour$Properties,WoodType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SkullBlock</summary>
+
+```diff
+- void <init>(SkullBlock$Type,Block$Properties)
++ void <init>(SkullBlock$Type,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SmithingTableBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnowLayerBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SnowyDirtBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SoulSandBlock</summary>
+
+```diff
++ BlockState updateShape(BlockState,Direction,BlockState,LevelAccessor,BlockPos,BlockPos)
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
+- boolean isValidSpawn(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean isViewBlocking(BlockState,BlockGetter,BlockPos)
+- int getTickDelay(LevelReader)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+- void neighborChanged(BlockState,Level,BlockPos,Block,BlockPos,boolean)
++ VoxelShape getVisualShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SpawnerBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SpreadingSnowyDirtBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
+
+```diff
+- void <init>(DyeColor,Block$Properties)
++ void <init>(DyeColor,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StemBlock</summary>
+
+```diff
+- void <init>(StemGrownBlock,Block$Properties)
++ void <init>(StemGrownBlock,BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StoneButtonBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StructureVoidBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TallGrassBlock</summary>
+
+```diff
+- Block$OffsetType getOffsetType()
++ BlockBehaviour$OffsetType getOffsetType()
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TargetBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TorchBlock</summary>
+
+```diff
+- void <init>(Block$Properties,ParticleOptions)
++ void <init>(BlockBehaviour$Properties,ParticleOptions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TripWireBlock</summary>
+
+```diff
+- void <init>(TripWireHookBlock,Block$Properties)
++ void <init>(TripWireHookBlock,BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
++ void randomTick(BlockState,ServerLevel,BlockPos,Random)
+- void tick(BlockState,ServerLevel,BlockPos,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TwistingVinesPlant</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallSignBlock</summary>
+
+```diff
+- void <init>(Block$Properties,WoodType)
++ void <init>(BlockBehaviour$Properties,WoodType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WallTorchBlock</summary>
+
+```diff
+- void <init>(Block$Properties,ParticleOptions)
++ void <init>(BlockBehaviour$Properties,ParticleOptions)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WebBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WeepingVinesPlant</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WetSpongeBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WitherSkullBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.WoodButtonBlock</summary>
+
+```diff
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+
+```diff
+- boolean isRedstoneConductor(BlockState,BlockGetter,BlockPos)
+- boolean isSuffocating(BlockState,BlockGetter,BlockPos)
+- void <init>(Block$Properties)
++ void <init>(BlockBehaviour$Properties)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
++ BlockGetter getBaseColumn(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
++ BlockGetter getBaseColumn(int,int)
++ BlockState generateBaseState(double,int)
++ int iterateNoiseColumn(int,int,BlockState[],Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherForestVegetationFeature</summary>
+
+```diff
++ boolean place(LevelAccessor,Random,BlockPos,BlockPileConfiguration,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
+
+```diff
++ boolean lambda$run$0(boolean,ItemStack,Enchantment)
++ ItemStack enchantItem(ItemStack,Enchantment,Random)
+- LootItemFunction lambda$randomApplicableEnchantment$0(LootItemCondition[])
++ LootItemFunction lambda$randomApplicableEnchantment$1(LootItemCondition[])
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/polished_basalt.json
++ minecraft/advancements/recipes/decorations/respawn_anchor.json
++ minecraft/loot_tables/blocks/polished_basalt.json
++ minecraft/loot_tables/blocks/respawn_anchor.json
++ minecraft/recipes/polished_basalt.json
++ minecraft/recipes/respawn_anchor.json
++ minecraft/tags/blocks/soul_fire_base_blocks.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/polished_basalt.json
++ minecraft/blockstates/respawn_anchor.json
++ minecraft/models/block/polished_basalt.json
++ minecraft/models/block/respawn_anchor_0.json
++ minecraft/models/block/respawn_anchor_1.json
++ minecraft/models/block/respawn_anchor_2.json
++ minecraft/models/block/respawn_anchor_3.json
++ minecraft/models/block/respawn_anchor_4.json
++ minecraft/models/item/polished_basalt.json
++ minecraft/models/item/respawn_anchor.json
++ minecraft/particles/reverse_portal.json
++ minecraft/textures/block/polished_basalt_side.png
++ minecraft/textures/block/polished_basalt_top.png
++ minecraft/textures/block/respawn_anchor_bottom.png
++ minecraft/textures/block/respawn_anchor_side0.png
++ minecraft/textures/block/respawn_anchor_side1.png
++ minecraft/textures/block/respawn_anchor_side2.png
++ minecraft/textures/block/respawn_anchor_side3.png
++ minecraft/textures/block/respawn_anchor_side4.png
++ minecraft/textures/block/respawn_anchor_top_off.png
++ minecraft/textures/block/respawn_anchor_top.png
++ minecraft/textures/block/respawn_anchor_top.png.mcmeta
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:polished_basalt
++ minecraft:respawn_anchor
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:polished_basalt
++ minecraft:respawn_anchor
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:reverse_portal
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.respawn_anchor.ambient
++ minecraft:block.respawn_anchor.charge
++ minecraft:block.respawn_anchor.deplete
++ minecraft:block.respawn_anchor.set_spawn
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/soul_fire_base_blocks.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
+- block.minecraft.bed.not_valid
+- block.minecraft.bed.set_spawn
++ block.minecraft.polished_basalt
++ block.minecraft.respawn_anchor
++ block.minecraft.set_spawn
++ block.minecraft.spawn.not_valid
+- death.fell.accident.water
++ subtitles.block.respawn_anchor.ambient
++ subtitles.block.respawn_anchor.charge
++ subtitles.block.respawn_anchor.deplete
++ subtitles.block.respawn_anchor.set_spawn
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/polished_basalt.json
++ recipes/decorations/respawn_anchor.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/polished_basalt.json
++ blocks/respawn_anchor.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ reverse_portal.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ polished_basalt.json
++ respawn_anchor.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/soul_fire_base_blocks.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/polished_basalt_side.png
++ block/polished_basalt_top.png
++ block/respawn_anchor_bottom.png
++ block/respawn_anchor_side0.png
++ block/respawn_anchor_side1.png
++ block/respawn_anchor_side2.png
++ block/respawn_anchor_side3.png
++ block/respawn_anchor_side4.png
++ block/respawn_anchor_top_off.png
++ block/respawn_anchor_top.png
+```
+
+</details>

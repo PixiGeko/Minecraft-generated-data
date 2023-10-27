@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w15a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w15a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-04-14T13:41:34+00:00</td></tr>
@@ -10,2422 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d5ac0492465e6abc2e980504f7d6ca1e07248d24/server.txt">https://piston-data.mojang.com/v1/objects/d5ac0492465e6abc2e980504f7d6ca1e07248d24/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar">https://piston-data.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/168453c06a67e83d6544f2d02b0c6ce756269f95/client.txt">https://piston-data.mojang.com/v1/objects/168453c06a67e83d6544f2d02b0c6ce756269f95/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w14a">21w14a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/raw_copper_block.json
-+  minecraft/advancements/recipes/building_blocks/raw_gold_block.json
-+  minecraft/advancements/recipes/building_blocks/raw_iron_block.json
-+  minecraft/advancements/recipes/misc/gold_ingot_from_blasting_nether_gold_ore.json
-+  minecraft/advancements/recipes/misc/gold_ingot_from_smelting_nether_gold_ore.json
-+  minecraft/advancements/recipes/misc/raw_copper.json
-+  minecraft/advancements/recipes/misc/raw_gold.json
-+  minecraft/advancements/recipes/misc/raw_iron.json
-+  minecraft/loot_tables/blocks/raw_copper_block.json
-+  minecraft/loot_tables/blocks/raw_gold_block.json
-+  minecraft/loot_tables/blocks/raw_iron_block.json
-+  minecraft/recipes/gold_ingot_from_blasting_nether_gold_ore.json
-+  minecraft/recipes/gold_ingot_from_smelting_nether_gold_ore.json
-+  minecraft/recipes/raw_copper.json
-+  minecraft/recipes/raw_copper_block.json
-+  minecraft/recipes/raw_gold.json
-+  minecraft/recipes/raw_gold_block.json
-+  minecraft/recipes/raw_iron.json
-+  minecraft/recipes/raw_iron_block.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/raw_copper_block.json
-+  minecraft/blockstates/raw_gold_block.json
-+  minecraft/blockstates/raw_iron_block.json
-+  minecraft/models/block/raw_copper_block.json
-+  minecraft/models/block/raw_gold_block.json
-+  minecraft/models/block/raw_iron_block.json
-+  minecraft/models/item/raw_copper_block.json
-+  minecraft/models/item/raw_gold_block.json
-+  minecraft/models/item/raw_iron_block.json
-+  minecraft/textures/block/raw_copper_block.png
-+  minecraft/textures/block/raw_gold_block.png
-+  minecraft/textures/block/raw_iron_block.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:ram
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:raw_iron_block
-+ minecraft:raw_copper_block
-+ minecraft:raw_gold_block
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:marker
-```
-
-</details>
-
-<details><summary>height_provider_type.txt</summary>
-
-```diff
-+ minecraft:very_biased_to_bottom
-+ minecraft:trapezoid
-```
-
-</details>
-
-<details><summary>int_provider_type.txt</summary>
-
-```diff
-+ minecraft:biased_to_bottom
-+ minecraft:clamped
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:raw_iron_block
-+ minecraft:raw_copper_block
-+ minecraft:raw_gold_block
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:ram_cooldown_ticks
-+ minecraft:ram_target
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.goat.screaming.ram
-+ minecraft:item.bone_meal.use
-+ minecraft:entity.goat.eat
-+ minecraft:entity.goat.long_jump
-+ minecraft:entity.goat.ram_impact
-+ minecraft:entity.goat.screaming.eat
-+ minecraft:entity.goat.screaming.long_jump
-+ minecraft:entity.goat.screaming.prepare_ram
-+ minecraft:entity.goat.screaming.ram_impact
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-- minecraft:glowstone
-- minecraft:range_biased_to_bottom
-- minecraft:range_very_biased_to_bottom
-- minecraft:depth_average
-```
-
-</details>
-
-## Commands
-
-<details><summary>debug.txt</summary>
-
-```diff
-+ debug function <name: function>
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/building_blocks/raw_copper_block.json
-+ recipes/building_blocks/raw_gold_block.json
-+ recipes/building_blocks/raw_iron_block.json
-+ recipes/misc/gold_ingot_from_blasting_nether_gold_ore.json
-+ recipes/misc/gold_ingot_from_smelting_nether_gold_ore.json
-+ recipes/misc/raw_copper.json
-+ recipes/misc/raw_gold.json
-+ recipes/misc/raw_iron.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/raw_copper_block.json
-+ blocks/raw_gold_block.json
-+ blocks/raw_iron_block.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ gold_ingot_from_blasting_nether_gold_ore.json
-+ gold_ingot_from_smelting_nether_gold_ore.json
-+ raw_copper.json
-+ raw_copper_block.json
-+ raw_gold.json
-+ raw_gold_block.json
-+ raw_iron.json
-+ raw_iron_block.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/raw_copper_block.png
-+ block/raw_gold_block.png
-+ block/raw_iron_block.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ Component preparePackPrompt(Component)
-+ void lambda$handleResourcePack$7(ClientboundResourcePackPacket)
-- void lambda$handleResourcePack$7(String,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
-
-```diff
-+ PackResources lambda$createProgrammerArtPack$7(File)
-+ PackResources lambda$createProgrammerArtPack$8(File)
-+ PackResources lambda$setServerPack$6(File)
-+ void lambda$downloadAndSelectResourcePack$5(Throwable)
-+ void lambda$null$3(Minecraft,boolean)
-+ void lambda$null$4(Minecraft)
-- PackResources lambda$createProgrammerArtPack$5(File)
-- PackResources lambda$createProgrammerArtPack$6(File)
-- PackResources lambda$setServerPack$4(File)
-- void lambda$downloadAndSelectResourcePack$3(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandFunction$Entry</summary>
-
-```diff
-+ void execute(net.minecraft.server.ServerFunctionManager,net.minecraft.commands.CommandSourceStack,java.util.Deque,int,int,net.minecraft.server.ServerFunctionManager$TraceCallbacks)
-- void execute(net.minecraft.server.ServerFunctionManager,net.minecraft.commands.CommandSourceStack,java.util.Deque,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Carvers</summary>
-
-```diff
-+ ConfiguredWorldCarver PROTOTYPE_CANYON
-+ ConfiguredWorldCarver PROTOTYPE_CAVE
-+ ConfiguredWorldCarver PROTOTYPE_CRACK
-+ ConfiguredWorldCarver PROTOTYPE_OCEAN_CAVE
-+ ConfiguredWorldCarver UNDERWATER_CANYON
-+ ConfiguredWorldCarver UNDERWATER_CAVE
-- ConfiguredWorldCarver CRACK
-- ConfiguredWorldCarver OLD_CANYON
-- ConfiguredWorldCarver OLD_CAVE
-- ConfiguredWorldCarver OLD_OCEAN_CAVE
-- ConfiguredWorldCarver OLD_UNDERWATER_CANYON
-- ConfiguredWorldCarver OLD_UNDERWATER_CAVE
-```
-
-</details>
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature FOSSIL
-+ ConfiguredFeature ORE_COAL
-+ ConfiguredFeature ORE_IRON
-+ ConfiguredFeature PROTOTYPE_FOSSIL_LOWER
-+ ConfiguredFeature PROTOTYPE_FOSSIL_UPPER
-+ ConfiguredFeature PROTOTYPE_GLOW_LICHEN
-+ ConfiguredFeature PROTOTYPE_ORE_ANDESITE
-+ ConfiguredFeature PROTOTYPE_ORE_COAL_LOWER
-+ ConfiguredFeature PROTOTYPE_ORE_COAL_UPPER
-+ ConfiguredFeature PROTOTYPE_ORE_COPPER
-+ ConfiguredFeature PROTOTYPE_ORE_DIAMOND
-+ ConfiguredFeature PROTOTYPE_ORE_DIAMOND_LARGE
-+ ConfiguredFeature PROTOTYPE_ORE_DIORITE
-+ ConfiguredFeature PROTOTYPE_ORE_DIRT
-+ ConfiguredFeature PROTOTYPE_ORE_EMERALD
-+ ConfiguredFeature PROTOTYPE_ORE_GOLD
-+ ConfiguredFeature PROTOTYPE_ORE_GRANITE
-+ ConfiguredFeature PROTOTYPE_ORE_GRAVEL
-+ ConfiguredFeature PROTOTYPE_ORE_INFESTED
-+ ConfiguredFeature PROTOTYPE_ORE_IRON_LOWER
-+ ConfiguredFeature PROTOTYPE_ORE_IRON_MIDDLE
-+ ConfiguredFeature PROTOTYPE_ORE_IRON_UPPER
-+ ConfiguredFeature PROTOTYPE_ORE_LAPIS
-+ ConfiguredFeature PROTOTYPE_ORE_LAPIS_BURIED
-+ ConfiguredFeature PROTOTYPE_ORE_REDSTONE
-+ ConfiguredFeature PROTOTYPE_ORE_REDSTONE_LOWER
-+ ConfiguredFeature PROTOTYPE_ORE_TUFF
-+ ConfiguredFeature PROTOTYPE_SPRING_WATER
-+ ConfiguredFeature PROTOTYPE_UNDERWATER_MAGMA
-+ ConfiguredFeature PROTOTYPE_VINES
-- ConfiguredFeature FOSSIL_LOWER
-- ConfiguredFeature FOSSIL_UPPER
-- ConfiguredFeature OLD_FOSSIL
-- ConfiguredFeature OLD_GLOW_LICHEN
-- ConfiguredFeature OLD_ORE_ANDESITE
-- ConfiguredFeature OLD_ORE_COAL
-- ConfiguredFeature OLD_ORE_COPPER
-- ConfiguredFeature OLD_ORE_DIAMOND
-- ConfiguredFeature OLD_ORE_DIORITE
-- ConfiguredFeature OLD_ORE_DIRT
-- ConfiguredFeature OLD_ORE_EMERALD
-- ConfiguredFeature OLD_ORE_GOLD
-- ConfiguredFeature OLD_ORE_GRANITE
-- ConfiguredFeature OLD_ORE_GRAVEL
-- ConfiguredFeature OLD_ORE_INFESTED
-- ConfiguredFeature OLD_ORE_IRON
-- ConfiguredFeature OLD_ORE_LAPIS
-- ConfiguredFeature OLD_ORE_REDSTONE
-- ConfiguredFeature OLD_SPRING_WATER
-- ConfiguredFeature OLD_TUFF
-- ConfiguredFeature OLD_VINES
-- ConfiguredFeature ORE_COAL_LOWER
-- ConfiguredFeature ORE_COAL_UPPER
-- ConfiguredFeature ORE_DIAMOND_LARGE
-- ConfiguredFeature ORE_IRON_LOWER
-- ConfiguredFeature ORE_IRON_MIDDLE
-- ConfiguredFeature ORE_IRON_UPPER
-- ConfiguredFeature ORE_LAPIS_BURIED
-- ConfiguredFeature ORE_REDSTONE_LOWER
-- ConfiguredFeature UNDERWATER_MAGMA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
-
-```diff
-+ Optional parseSeparator(JsonObject)
-+ void lambda$serializeSeparator$3(Component)
-+ void serializeSeparator(Optional)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.NbtComponent</summary>
-
-```diff
-+ Optional separator
-- String SEPARATOR
-+ MutableComponent lambda$null$4(String)
-+ MutableComponent lambda$null$5(MutableComponent)
-+ MutableComponent lambda$null$6()
-+ MutableComponent lambda$resolve$2(MutableComponent)
-+ MutableComponent lambda$resolve$3()
-+ MutableComponent lambda$resolve$7(MutableComponent)
-+ MutableComponent lambda$resolve$8(Stream)
-+ void <init>(Optional)
-+ void <init>(Optional)
-- MutableComponent lambda$resolve$2(MutableComponent)
-- void <init>(NbtPathArgument$NbtPath,boolean)
-- void <init>(String,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
-
-```diff
-+ void <init>(Optional)
-+ void <init>(Optional)
-- void <init>(EntitySelector)
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundResourcePackPacket</summary>
-
-```diff
-+ Component prompt
-+ Component getPrompt()
-+ void <init>(Component)
-- void <init>(String,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ Component getResourcePackPrompt()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager</summary>
-
-```diff
-+ Component NO_RECURSIVE_TRACES
-+ ServerFunctionManager$ExecutionContext context
-- ArrayDeque commandQueue
-- boolean isInFunction
-- List nestedCalls
-+ int execute(ServerFunctionManager$TraceCallbacks)
-+ MinecraftServer access$300(ServerFunctionManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.ConstantFloat</summary>
-
-```diff
-- boolean equals(Object)
-- int hashCode()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.valueproviders.IntProvider</summary>
-
-```diff
-+ Codec NON_NEGATIVE_CODEC
-+ Codec POSITIVE_CODEC
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.TrapezoidFloat</summary>
-
-```diff
-- boolean equals(Object)
-- int hashCode()
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.UniformInt</summary>
-
-```diff
-- boolean equals(Object)
-- int hashCode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityEvent</summary>
-
-```diff
-+ byte END_RAM
-+ byte START_RAM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.placement.RangeDecorator</summary>
-
-```diff
-+ int y(DecoratorConfiguration,int)
-+ int y(RangeDecoratorConfiguration,int)
-- int y(Random,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.MaterialColor</summary>
-
-```diff
-+ MaterialColor DEEPSLATE
-+ MaterialColor RAW_IRON
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.BlockPathTypes</summary>
-
-```diff
-+ BlockPathTypes POWDER_SNOW
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.renderer.entity.AreaEffectCloudRenderer
@@ -4754,652 +2360,109 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.CommandFunction$CommandEntry</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
 ```diff
-+ int execute(CommandSourceStack)
-+ void execute(ServerFunctionManager$TraceCallbacks)
-- void execute(Deque,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.CommandFunction$FunctionEntry</summary>
-
-```diff
-+ void execute(ServerFunctionManager$TraceCallbacks)
-+ void lambda$execute$0(CommandFunction)
-+ void lambda$execute$1(ServerFunctionManager$TraceCallbacks,int)
-- void execute(Deque,int)
-- void lambda$execute$0(CommandFunction)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.CommandSource</summary>
-
-```diff
-+ boolean alwaysAccepts()
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.CommandSourceStack</summary>
-
-```diff
-+ CommandSourceStack withSource(CommandSource)
++ Component preparePackPrompt(Component,Component)
++ void lambda$handleResourcePack$7(String,String,boolean,ClientboundResourcePackPacket)
+- void lambda$handleResourcePack$7(String,String,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+<details><summary>net.minecraft.client.resources.ClientPackSource</summary>
 
 ```diff
-+ Component joinNames(List)
-- MutableComponent joinNames(List)
+- PackResources lambda$createProgrammerArtPack$5(File)
+- PackResources lambda$createProgrammerArtPack$6(File)
++ PackResources lambda$createProgrammerArtPack$7(File)
++ PackResources lambda$createProgrammerArtPack$8(File)
+- PackResources lambda$setServerPack$4(File)
++ PackResources lambda$setServerPack$6(File)
+- void lambda$downloadAndSelectResourcePack$3(File,Void,Throwable)
++ void lambda$downloadAndSelectResourcePack$5(File,Void,Throwable)
++ void lambda$null$3(Minecraft,boolean)
++ void lambda$null$4(Minecraft)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.network.chat.Component$Serializer</summary>
 
 ```diff
-+ void compactMaterialRecipes(ItemLike)
++ Optional parseSeparator(Type,JsonDeserializationContext,JsonObject)
++ void lambda$serializeSeparator$3(JsonObject,JsonSerializationContext,Component)
++ void serializeSeparator(JsonSerializationContext,JsonObject,Optional)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
+<details><summary>net.minecraft.network.chat.NbtComponent</summary>
 
 ```diff
-+ Component DEFAULT_NO_STYLE_SEPARATOR
-+ Component DEFAULT_SEPARATOR
-+ String DEFAULT_SEPARATOR_TEXT
-+ Component formatList(Function)
-+ MutableComponent formatList(Function)
-+ MutableComponent formatList(Function)
-+ Optional updateForEntity(Entity,int)
-+ void <clinit>()
-- MutableComponent formatList(Function)
++ MutableComponent lambda$null$4(String)
++ MutableComponent lambda$null$5(MutableComponent,MutableComponent,MutableComponent)
++ MutableComponent lambda$null$6()
++ MutableComponent lambda$resolve$2(Component,MutableComponent,MutableComponent)
+- MutableComponent lambda$resolve$2(MutableComponent,MutableComponent)
++ MutableComponent lambda$resolve$3()
++ MutableComponent lambda$resolve$7(Stream,MutableComponent)
++ MutableComponent lambda$resolve$8(Stream)
++ void <init>(String,boolean,Optional)
+- void <init>(String,boolean)
++ void <init>(String,NbtPathArgument$NbtPath,boolean,Optional)
+- void <init>(String,NbtPathArgument$NbtPath,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
+<details><summary>net.minecraft.network.chat.NbtComponent$EntityNbtComponent</summary>
 
 ```diff
-+ void <init>(Optional)
-+ void <init>(Optional)
-- void <init>(Coordinates)
-- void <init>(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
-
-```diff
-+ void <init>(Optional)
-+ void <init>(Optional)
-- void <init>(ResourceLocation)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
-
-```diff
-+ Optional separator
-+ Optional getSeparator()
-+ void <init>(Optional)
-- void <init>(String)
++ void <init>(String,boolean,String,Optional)
+- void <init>(String,boolean,String)
++ void <init>(String,NbtPathArgument$NbtPath,boolean,String,EntitySelector,Optional)
+- void <init>(String,NbtPathArgument$NbtPath,boolean,String,EntitySelector)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager$QueuedCommand</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundResourcePackPacket</summary>
 
 ```diff
-+ int depth
-- ServerFunctionManager manager
-+ int access$400(ServerFunctionManager$QueuedCommand)
-+ void <init>(CommandFunction$Entry)
-+ void execute(ServerFunctionManager$TraceCallbacks)
-- void <init>(CommandFunction$Entry)
-- void execute(ArrayDeque,int)
++ Component getPrompt()
++ void <init>(String,String,boolean,Component)
+- void <init>(String,String,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.ClampedNormalFloat</summary>
+<details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-- boolean equals(Object)
-- int hashCode()
++ Component getResourcePackPrompt()
 ```
 
 </details>
 
-<details><summary>net.minecraft.util.valueproviders.ConstantInt</summary>
+
+<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+
+```diff
++ int execute(CommandFunction,CommandSourceStack,ServerFunctionManager$TraceCallbacks)
++ MinecraftServer access$300(ServerFunctionManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ConstantFloat</summary>
 
 ```diff
 - boolean equals(Object)
@@ -5409,16 +2472,7 @@
 </details>
 
 
-<details><summary>net.minecraft.util.valueproviders.IntProviderType</summary>
-
-```diff
-+ IntProviderType BIASED_TO_BOTTOM
-+ IntProviderType CLAMPED
-```
-
-</details>
-
-<details><summary>net.minecraft.util.valueproviders.UniformFloat</summary>
+<details><summary>net.minecraft.util.valueproviders.TrapezoidFloat</summary>
 
 ```diff
 - boolean equals(Object)
@@ -5428,345 +2482,7 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType MARKER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType NEAREST_LIVING_ENTITIES
-+ MemoryModuleType NEAREST_VISIBLE_LIVING_ENTITIES
-+ MemoryModuleType RAM_COOLDOWN_TICKS
-+ MemoryModuleType RAM_TARGET
-- MemoryModuleType LIVING_ENTITIES
-- MemoryModuleType VISIBLE_LIVING_ENTITIES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
-
-```diff
-+ int REHYDRATE_AIR_SUPPLY
-+ void rehydrate()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
-
-```diff
-+ boolean isLoweringHead
-+ EntityDataAccessor DATA_IS_SCREAMING_GOAT
-+ int lowerHeadTick
-- boolean isScreamingGoat
-+ boolean isScreamingGoat()
-+ float getRammingXHeadRot()
-+ PathNavigation createNavigation(Level)
-+ SoundEvent getEatingSound(ItemStack)
-+ void aiStep()
-+ void defineSynchedData()
-+ void handleEntityEvent(byte)
-+ void setScreamingGoat(boolean)
-- boolean getIsScreaming()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.ColumnPlacer</summary>
-
-```diff
-+ IntProvider size
-- int extraSize
-- int minSize
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ IntProvider lambda$null$0(ColumnPlacer)
-+ void <init>(IntProvider)
-- App lambda$static$2(RecordCodecBuilder$Instance)
-- Integer lambda$null$0(ColumnPlacer)
-- Integer lambda$null$1(ColumnPlacer)
-- void <init>(int,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.UniformHeight</summary>
+<details><summary>net.minecraft.util.valueproviders.UniformInt</summary>
 
 ```diff
 - boolean equals(Object)
@@ -5776,347 +2492,23 @@
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.placement.RangeDecorator</summary>
 
+```diff
++ int y(DecorationContext,Random,DecoratorConfiguration,int)
++ int y(DecorationContext,Random,RangeDecoratorConfiguration,int)
+- int y(Random,int,int)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.server.bossevents.CustomBossEvent
@@ -8378,13 +4770,455 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.CommandFunction$CommandEntry</summary>
+
+```diff
++ int execute(ServerFunctionManager,CommandSourceStack)
++ void execute(ServerFunctionManager,CommandSourceStack,Deque,int,int,ServerFunctionManager$TraceCallbacks)
+- void execute(ServerFunctionManager,CommandSourceStack,Deque,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandFunction$FunctionEntry</summary>
+
+```diff
++ void execute(ServerFunctionManager,CommandSourceStack,Deque,int,int,ServerFunctionManager$TraceCallbacks)
+- void execute(ServerFunctionManager,CommandSourceStack,Deque,int)
+- void lambda$execute$0(int,Deque,ServerFunctionManager,CommandSourceStack,CommandFunction)
++ void lambda$execute$0(ServerFunctionManager$TraceCallbacks,int,int,Deque,CommandSourceStack,CommandFunction)
++ void lambda$execute$1(ServerFunctionManager$TraceCallbacks,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSource</summary>
+
+```diff
++ boolean alwaysAccepts()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.CommandSourceStack</summary>
+
+```diff
++ CommandSourceStack withSource(CommandSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelector</summary>
+
+```diff
++ Component joinNames(List)
+- MutableComponent joinNames(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ void compactMaterialRecipes(Consumer,ItemLike,ItemLike)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.ComponentUtils</summary>
+
+```diff
++ Component formatList(Collection,Function)
++ MutableComponent formatList(Collection,Component,Function)
+- MutableComponent formatList(Collection,Function)
++ MutableComponent formatList(Collection,Optional,Function)
++ Optional updateForEntity(CommandSourceStack,Optional,Entity,int)
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent$BlockNbtComponent</summary>
+
+```diff
++ void <init>(String,boolean,String,Optional)
+- void <init>(String,boolean,String)
++ void <init>(String,NbtPathArgument$NbtPath,boolean,String,Coordinates,Optional)
+- void <init>(String,NbtPathArgument$NbtPath,boolean,String,Coordinates)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.NbtComponent$StorageNbtComponent</summary>
+
+```diff
++ void <init>(String,boolean,ResourceLocation,Optional)
+- void <init>(String,boolean,ResourceLocation)
++ void <init>(String,NbtPathArgument$NbtPath,boolean,ResourceLocation,Optional)
+- void <init>(String,NbtPathArgument$NbtPath,boolean,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
+
+```diff
++ Optional getSeparator()
++ void <init>(String,Optional)
+- void <init>(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionManager$QueuedCommand</summary>
+
+```diff
++ int access$400(ServerFunctionManager$QueuedCommand)
++ void <init>(CommandSourceStack,int,CommandFunction$Entry)
+- void <init>(ServerFunctionManager,CommandSourceStack,CommandFunction$Entry)
+- void execute(ArrayDeque,int)
++ void execute(ServerFunctionManager,Deque,int,ServerFunctionManager$TraceCallbacks)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ClampedNormalFloat</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.ConstantInt</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.valueproviders.UniformFloat</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
+
+```diff
++ void rehydrate()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.goat.Goat</summary>
+
+```diff
+- boolean getIsScreaming()
++ boolean isScreamingGoat()
++ float getRammingXHeadRot()
++ PathNavigation createNavigation(Level)
++ SoundEvent getEatingSound(ItemStack)
++ void aiStep()
++ void defineSynchedData()
++ void handleEntityEvent(byte)
++ void setScreamingGoat(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.blockplacers.ColumnPlacer</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- App lambda$static$2(RecordCodecBuilder$Instance)
+- Integer lambda$null$0(ColumnPlacer)
+- Integer lambda$null$1(ColumnPlacer)
++ IntProvider lambda$null$0(ColumnPlacer)
+- void <init>(int,int)
++ void <init>(IntProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.heightproviders.UniformHeight</summary>
+
+```diff
+- boolean equals(Object)
+- int hashCode()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/raw_copper_block.json
++ minecraft/advancements/recipes/building_blocks/raw_gold_block.json
++ minecraft/advancements/recipes/building_blocks/raw_iron_block.json
++ minecraft/advancements/recipes/misc/gold_ingot_from_blasting_nether_gold_ore.json
++ minecraft/advancements/recipes/misc/gold_ingot_from_smelting_nether_gold_ore.json
++ minecraft/advancements/recipes/misc/raw_copper.json
++ minecraft/advancements/recipes/misc/raw_gold.json
++ minecraft/advancements/recipes/misc/raw_iron.json
++ minecraft/loot_tables/blocks/raw_copper_block.json
++ minecraft/loot_tables/blocks/raw_gold_block.json
++ minecraft/loot_tables/blocks/raw_iron_block.json
++ minecraft/recipes/gold_ingot_from_blasting_nether_gold_ore.json
++ minecraft/recipes/gold_ingot_from_smelting_nether_gold_ore.json
++ minecraft/recipes/raw_copper_block.json
++ minecraft/recipes/raw_copper.json
++ minecraft/recipes/raw_gold_block.json
++ minecraft/recipes/raw_gold.json
++ minecraft/recipes/raw_iron_block.json
++ minecraft/recipes/raw_iron.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/raw_copper_block.json
++ minecraft/blockstates/raw_gold_block.json
++ minecraft/blockstates/raw_iron_block.json
++ minecraft/models/block/raw_copper_block.json
++ minecraft/models/block/raw_gold_block.json
++ minecraft/models/block/raw_iron_block.json
++ minecraft/models/item/raw_copper_block.json
++ minecraft/models/item/raw_gold_block.json
++ minecraft/models/item/raw_iron_block.json
++ minecraft/textures/block/raw_copper_block.png
++ minecraft/textures/block/raw_gold_block.png
++ minecraft/textures/block/raw_iron_block.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:ram
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:raw_copper_block
++ minecraft:raw_gold_block
++ minecraft:raw_iron_block
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:marker
+```
+
+</details>
+
+
+<details><summary>height_provider_type.txt</summary>
+
+```diff
++ minecraft:trapezoid
++ minecraft:very_biased_to_bottom
+```
+
+</details>
+
+
+<details><summary>int_provider_type.txt</summary>
+
+```diff
++ minecraft:biased_to_bottom
++ minecraft:clamped
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:raw_copper_block
++ minecraft:raw_gold_block
++ minecraft:raw_iron_block
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:ram_cooldown_ticks
++ minecraft:ram_target
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.goat.eat
++ minecraft:entity.goat.long_jump
++ minecraft:entity.goat.ram_impact
++ minecraft:entity.goat.screaming.eat
++ minecraft:entity.goat.screaming.long_jump
++ minecraft:entity.goat.screaming.prepare_ram
+- minecraft:entity.goat.screaming.ram
++ minecraft:entity.goat.screaming.ram_impact
++ minecraft:item.bone_meal.use
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
+- minecraft:depth_average
+- minecraft:glowstone
+- minecraft:range_biased_to_bottom
+- minecraft:range_very_biased_to_bottom
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>debug.txt</summary>
+
+```diff
++ debug function <name: function>
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.raw_copper_block
++ block.minecraft.raw_gold_block
++ block.minecraft.raw_iron_block
++ commands.debug.function.noRecursion
++ commands.debug.function.success.multiple
++ commands.debug.function.success.single
++ commands.debug.function.traceFailed
++ entity.minecraft.marker
++ multiplayer.texturePrompt.failure.line1
++ multiplayer.texturePrompt.failure.line2
++ multiplayer.texturePrompt.serverPrompt
++ subtitles.entity.goat.ambient
++ subtitles.entity.goat.death
++ subtitles.entity.goat.eat
++ subtitles.entity.goat.hurt
++ subtitles.entity.goat.long_jump
++ subtitles.entity.goat.milk
++ subtitles.entity.goat.prepare_ram
++ subtitles.entity.goat.ram_impact
++ subtitles.entity.goat.screaming.ambient
++ subtitles.entity.goat.step
++ subtitles.item.bone_meal.use
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/raw_copper_block.json
++ recipes/building_blocks/raw_gold_block.json
++ recipes/building_blocks/raw_iron_block.json
++ recipes/misc/gold_ingot_from_blasting_nether_gold_ore.json
++ recipes/misc/gold_ingot_from_smelting_nether_gold_ore.json
++ recipes/misc/raw_copper.json
++ recipes/misc/raw_gold.json
++ recipes/misc/raw_iron.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/raw_copper_block.json
++ blocks/raw_gold_block.json
++ blocks/raw_iron_block.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ gold_ingot_from_blasting_nether_gold_ore.json
++ gold_ingot_from_smelting_nether_gold_ore.json
++ raw_copper_block.json
++ raw_copper.json
++ raw_gold_block.json
++ raw_gold.json
++ raw_iron_block.json
++ raw_iron.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/raw_copper_block.png
++ block/raw_gold_block.png
++ block/raw_iron_block.png
+```
+
+</details>

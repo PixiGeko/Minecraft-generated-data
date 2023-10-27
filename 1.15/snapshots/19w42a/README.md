@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 19w42a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>19w42a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2019-10-16T15:30:39+00:00</td></tr>
@@ -10,2590 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e168ede1839b96e5ddf1334ab7d7ef20d7f69956/server.txt">https://piston-data.mojang.com/v1/objects/e168ede1839b96e5ddf1334ab7d7ef20d7f69956/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/6c40e373f7811321fef635c87b14686ef024b484/client.jar">https://piston-data.mojang.com/v1/objects/6c40e373f7811321fef635c87b14686ef024b484/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d8dbd51040b461216e266c4e1b41a5e0ac54b8bb/client.txt">https://piston-data.mojang.com/v1/objects/d8dbd51040b461216e266c4e1b41a5e0ac54b8bb/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/19w41a">19w41a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/items/lectern_books.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
--  minecraft/textures/block/wax_block.png
--  minecraft/textures/entity/chest/christmas_double.png
-+  minecraft/textures/entity/chest/christmas_left.png
-+  minecraft/textures/entity/chest/christmas_right.png
--  minecraft/textures/entity/chest/normal_double.png
-+  minecraft/textures/entity/chest/normal_left.png
-+  minecraft/textures/entity/chest/normal_right.png
--  minecraft/textures/entity/chest/trapped_double.png
-+  minecraft/textures/entity/chest/trapped_left.png
-+  minecraft/textures/entity/chest/trapped_right.png
--  minecraft/textures/item/crystallized_honey.png
-```
 
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ items/lectern_books.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ items/lectern_books.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/wax_block.png
-- entity/chest/christmas_double.png
-- entity/chest/normal_double.png
-- entity/chest/trapped_double.png
-- item/crystallized_honey.png
-+ entity/chest/christmas_left.png
-+ entity/chest/christmas_right.png
-+ entity/chest/normal_left.png
-+ entity/chest/normal_right.png
-+ entity/chest/trapped_left.png
-+ entity/chest/trapped_right.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.vertex.DefaultVertexFormat</summary>
-
-```diff
-+ VertexFormat POSITION_COLOR_LIGHTMAP
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.math.Quaternion</summary>
-
-```diff
-- Quaternion copy()
-```
-
-</details>
-
-
-<details><summary>com.mojang.math.Vector4f</summary>
-
-```diff
-+ float w
-+ float x
-+ float y
-+ float z
-- float[] values
-+ float multiplyRow(Matrix4f,float,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
-
-```diff
-+ boolean isChatVisible()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ColorableListModel</summary>
-
-```diff
-+ void <init>()
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ListModel</summary>
-
-```diff
-- void <init>(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ZombieModel</summary>
-
-```diff
-+ void <init>(float,boolean)
-+ void <init>(float,float,int,int)
-- void <init>(Function,float,boolean)
-- void <init>(Function,float,float,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$11</summary>
-
-```diff
-- void lambda$execute$0(SmallFireball)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$20</summary>
-
-```diff
-- DefaultDispenseItemBehavior defaultDispenseItemBehavior
-- ItemStack takeLiquid(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.InteractionResultHolder</summary>
-
-```diff
-- boolean swingOnSuccess
-+ InteractionResultHolder consume(Object)
-+ void <init>(Object)
-- boolean shouldSwingOnSuccess()
-- InteractionResultHolder successNoSwing(Object)
-- void <init>(Object,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean tryToStartFallFlying()
-+ void startFallFlying()
-+ void stopFallFlying()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.LeadItem</summary>
-
-```diff
-+ InteractionResult bindPlayerMobs(BlockPos)
-- boolean bindPlayerMobs(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CakeBlock</summary>
-
-```diff
-+ InteractionResult eat(Player)
-+ InteractionResult use(BlockHitResult)
-- boolean eat(Player)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.ChestBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CommandBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CraftingTableBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.DaylightDetectorBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FletchingTableBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GrindstoneBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LoomBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PumpkinBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.SignBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SmithingTableBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StairBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.StonecutterBlock</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonMath</summary>
-
-```diff
-+ AABB getMovementArea(Direction,double)
-- AABB getEntityMovementAreaInFront(Direction,double)
-- AABB getEntityMovementAreaOnTop(AABB)
-- List getEntityMovementAreas(Direction,double)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.piston.PistonMovingBlockEntity</summary>
-
-```diff
-+ boolean isStickyForEntities()
-+ boolean lambda$moveStuckEntities$1(Entity)
-+ boolean matchesStickyCritera(Entity)
-+ void moveEntityByPiston(Direction)
-+ void moveStuckEntities(float)
-- AABB findIntersectingAABB(List)
-- boolean entitiesOnSurfaceMoveWithBlock()
-- boolean isStickyForEntitities(Block)
-- double getDeltaX(AABB)
-- double getDeltaY(AABB)
-- double getDeltaZ(AABB)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.piston.PistonStructureResolver</summary>
-
-```diff
-+ boolean canStickToEachOther(Block)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockState</summary>
-
-```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.renderer.banner.BannerTextures
@@ -3683,1729 +1121,444 @@
 </details>
 
 
-
-<details><summary>com.mojang.math.Vector3f</summary>
+<details><summary>com.mojang.math.Quaternion</summary>
 
 ```diff
-+ float x
-+ float y
-+ float z
-- float[] values
+- Quaternion copy()
 ```
 
 </details>
 
 
+<details><summary>com.mojang.math.Vector4f</summary>
 
+```diff
++ float multiplyRow(int,Matrix4f,float,float,float,float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.components.ChatComponent</summary>
 
+```diff
++ boolean isChatVisible()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ColorableListModel</summary>
 
+```diff
++ void <init>()
+- void <init>(Function)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ListModel</summary>
 
+```diff
+- void <init>(Function)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.model.ZombieModel</summary>
 
+```diff
++ void <init>(float,boolean)
++ void <init>(float,float,int,int)
+- void <init>(Function,float,boolean)
+- void <init>(Function,float,float,int,int)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$11</summary>
 
 ```diff
-- void lambda$execute$0(SmallFireball)
+- void lambda$execute$0(ItemStack,SmallFireball)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$20</summary>
 
 ```diff
-- DefaultDispenseItemBehavior defaultDispenseItemBehavior
-- ItemStack takeLiquid(ItemStack)
+- ItemStack takeLiquid(BlockSource,ItemStack,ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.InteractionResult</summary>
+<details><summary>net.minecraft.world.InteractionResultHolder</summary>
 
 ```diff
-+ InteractionResult CONSUME
-+ boolean consumesAction()
-+ boolean shouldSwing()
+- boolean shouldSwingOnSuccess()
++ InteractionResultHolder consume(Object)
+- InteractionResultHolder successNoSwing(Object)
+- void <init>(InteractionResult,Object,boolean)
++ void <init>(InteractionResult,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ float getBlockJumpFactor()
-+ float getBlockSpeedFactor()
-+ void reapplyPosition()
-- float getJumpFactor()
-- float getSpeedFactor()
-- void refreshBoundingBox()
++ boolean tryToStartFallFlying()
++ void startFallFlying()
++ void stopFallFlying()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+<details><summary>net.minecraft.world.item.LeadItem</summary>
 
 ```diff
-+ void swing(InteractionHand,boolean)
+- boolean bindPlayerMobs(Player,Level,BlockPos)
++ InteractionResult bindPlayerMobs(Player,Level,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
 
 ```diff
-- void onHit(net.minecraft.world.phys.HitResult)
-+ void onHit(HitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
+<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
+<details><summary>net.minecraft.world.level.block.Block</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.BellBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.CakeBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean eat(LevelAccessor,BlockPos,BlockState,Player)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult eat(LevelAccessor,BlockPos,BlockState,Player)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
+<details><summary>net.minecraft.world.level.block.ChestBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
+<details><summary>net.minecraft.world.level.block.CommandBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
+<details><summary>net.minecraft.world.level.block.ComposterBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.CartographyTableBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.CraftingTableBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.CauldronBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.DaylightDetectorBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ComparatorBlock</summary>
+<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+<details><summary>net.minecraft.world.level.block.DragonEggBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FenceGateBlock</summary>
+<details><summary>net.minecraft.world.level.block.EnchantmentTableBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
+<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
+<details><summary>net.minecraft.world.level.block.FletchingTableBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+<details><summary>net.minecraft.world.level.block.FlowerPotBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
+<details><summary>net.minecraft.world.level.block.GrindstoneBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.RepeaterBlock</summary>
+<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
+<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
+<details><summary>net.minecraft.world.level.block.LoomBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.TntBlock</summary>
+<details><summary>net.minecraft.world.level.block.PumpkinBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+<details><summary>net.minecraft.world.level.block.ShulkerBoxBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+<details><summary>net.minecraft.world.level.block.SignBlock</summary>
 
 ```diff
-+ InteractionResult use(BlockHitResult)
-- boolean use(BlockHitResult)
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonMovingBlockEntity$1</summary>
+<details><summary>net.minecraft.world.level.block.SmithingTableBlock</summary>
 
 ```diff
-+ int[] $SwitchMap$net$minecraft$core$Direction
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+<details><summary>net.minecraft.world.level.block.StairBlock</summary>
 
 ```diff
-+ int getReferences()
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.block.StonecutterBlock</summary>
 
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.piston.PistonMath</summary>
 
+```diff
+- AABB getEntityMovementAreaInFront(AABB,Direction,double)
+- AABB getEntityMovementAreaOnTop(AABB)
++ AABB getMovementArea(AABB,Direction,double)
+- List getEntityMovementAreas(boolean,AABB,Direction,double)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.piston.PistonMovingBlockEntity</summary>
 
+```diff
+- AABB findIntersectingAABB(AABB,List)
+- boolean entitiesOnSurfaceMoveWithBlock()
++ boolean isStickyForEntities()
+- boolean isStickyForEntitities(Block)
++ boolean lambda$moveStuckEntities$1(AABB,Entity)
++ boolean matchesStickyCritera(AABB,Entity)
+- double getDeltaX(AABB,Direction,AABB)
+- double getDeltaY(AABB,Direction,AABB)
+- double getDeltaZ(AABB,Direction,AABB)
++ void moveEntityByPiston(Direction,Entity,double,Direction)
++ void moveStuckEntities(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.piston.PistonStructureResolver</summary>
 
+```diff
++ boolean canStickToEachOther(Block,Block)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.state.BlockState</summary>
 
+```diff
+- boolean use(Level,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(Level,Player,InteractionHand,BlockHitResult)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.core.dispenser.DispenseItemBehavior$22
@@ -6313,13 +2466,383 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$11</summary>
+
+```diff
+- void lambda$execute$0(ItemStack,SmallFireball)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.dispenser.DispenseItemBehavior$20</summary>
+
+```diff
+- ItemStack takeLiquid(BlockSource,ItemStack,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.InteractionResult</summary>
+
+```diff
++ boolean consumesAction()
++ boolean shouldSwing()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ float getBlockJumpFactor()
++ float getBlockSpeedFactor()
+- float getJumpFactor()
+- float getSpeedFactor()
++ void reapplyPosition()
+- void refreshBoundingBox()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ void swing(InteractionHand,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractHurtingProjectile</summary>
+
+```diff
++ void onHit(HitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BarrelBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeaconBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BellBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BrewingStandBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CampfireBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CartographyTableBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CauldronBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ComparatorBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FenceGateBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HopperBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.JukeboxBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RepeaterBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StructureBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SweetBerryBushBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TntBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+
+```diff
+- boolean use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
++ InteractionResult use(BlockState,Level,BlockPos,Player,InteractionHand,BlockHitResult)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
++ int getReferences()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/items/lectern_books.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/textures/block/wax_block.png
+- minecraft/textures/entity/chest/christmas_double.png
++ minecraft/textures/entity/chest/christmas_left.png
++ minecraft/textures/entity/chest/christmas_right.png
+- minecraft/textures/entity/chest/normal_double.png
++ minecraft/textures/entity/chest/normal_left.png
++ minecraft/textures/entity/chest/normal_right.png
+- minecraft/textures/entity/chest/trapped_double.png
++ minecraft/textures/entity/chest/trapped_left.png
++ minecraft/textures/entity/chest/trapped_right.png
+- minecraft/textures/item/crystallized_honey.png
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ items/lectern_books.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ chat.copy.click
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ items/lectern_books.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
+- block/wax_block.png
+- entity/chest/christmas_double.png
++ entity/chest/christmas_left.png
++ entity/chest/christmas_right.png
+- entity/chest/normal_double.png
++ entity/chest/normal_left.png
++ entity/chest/normal_right.png
+- entity/chest/trapped_double.png
++ entity/chest/trapped_left.png
++ entity/chest/trapped_right.png
+- item/crystallized_honey.png
+```
+
+</details>

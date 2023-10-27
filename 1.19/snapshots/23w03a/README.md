@@ -1,3673 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w03a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w03a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-01-18T13:10:31+00:00</td></tr>
-<tr><th>SHA1</th><td>4b89119ef0ae599e68a4860137dca882cea633ac</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/4b89119ef0ae599e68a4860137dca882cea633ac/23w03a.json">https://piston-meta.mojang.com/v1/packages/4b89119ef0ae599e68a4860137dca882cea633ac/23w03a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json">https://piston-meta.mojang.com/v1/packages/a6c6685c661934ba5227cd8bcb484347119aea75/2.json</a></td></tr>
+<tr><th>SHA1</th><td>89a61564aa8a6e327a078a8c1d997658c0dcc2b8</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/89a61564aa8a6e327a078a8c1d997658c0dcc2b8/23w03a.json">https://piston-meta.mojang.com/v1/packages/89a61564aa8a6e327a078a8c1d997658c0dcc2b8/23w03a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json">https://piston-meta.mojang.com/v1/packages/74d3793f18d13d323c17240cc1d7962af605bd88/2.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/b033d57035b293a9eda548db0615c1c89c21ea28/server.jar">https://piston-data.mojang.com/v1/objects/b033d57035b293a9eda548db0615c1c89c21ea28/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/030aa6a26885d62a55864b16e1a2000ba91de726/server.txt">https://piston-data.mojang.com/v1/objects/030aa6a26885d62a55864b16e1a2000ba91de726/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/dd6cb06d65063769f7581ac2f5f800fe9531e28a/client.jar">https://piston-data.mojang.com/v1/objects/dd6cb06d65063769f7581ac2f5f800fe9531e28a/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f7de4f767c3d8d9c5c4779933f175eeb738d7f65/client.txt">https://piston-data.mojang.com/v1/objects/f7de4f767c3d8d9c5c4779933f175eeb738d7f65/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19.3">1.19.3</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/datapacks/update_1_20/data/minecraft/tags/items/noteblock_top_instruments.json
-+  minecraft/tags/worldgen/biome/increased_fire_burnout.json
--  minecraft/tags/worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+  minecraft/tags/worldgen/biome/snow_golem_melts.json
-+  minecraft/tags/worldgen/biome/spawns_gold_rabbits.json
-+  minecraft/tags/worldgen/biome/spawns_snow_foxes.json
-+  minecraft/tags/worldgen/biome/spawns_white_rabbits.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/textures/gui/slider.png
-```
 
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ ride.txt
-```
-
-</details>
-
-<details><summary>clone.txt</summary>
-
-```diff
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
-+ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
-+ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
-```
-
-</details>
-
-<details><summary>data.txt</summary>
-
-```diff
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify entity <target: entity> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
-+ data modify storage <target: resource_location> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
-```
-
-</details>
-
-<details><summary>execute.txt</summary>
-
-```diff
-+ execute if dimension <dimension: dimension>
-+ execute if loaded <pos: block_pos>
-+ execute on attacker
-+ execute on controller
-+ execute on leasher
-+ execute on owner
-+ execute on passengers
-+ execute on target
-+ execute on vehicle
-+ execute unless dimension <dimension: dimension>
-+ execute unless loaded <pos: block_pos>
-```
-
-</details>
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule commandModificationBlockLimit <value: integer>
-```
-
-</details>
-
-<details><summary>title.txt</summary>
-
-```diff
-- title <targets: entity> times <fadeIn: integer> <stay: integer> <fadeOut: integer>
-+ title <targets: entity> times <fadeIn: time> <stay: time> <fadeOut: time>
-```
-
-</details>
-
-<details><summary>weather.txt</summary>
-
-```diff
-- weather clear <duration: integer>
-- weather rain <duration: integer>
-- weather thunder <duration: integer>
-+ weather clear <duration: time>
-+ weather rain <duration: time>
-+ weather thunder <duration: time>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+ worldgen/biome/increased_fire_burnout.json
-+ worldgen/biome/snow_golem_melts.json
-+ worldgen/biome/spawns_gold_rabbits.json
-+ worldgen/biome/spawns_snow_foxes.json
-+ worldgen/biome/spawns_white_rabbits.json
-```
-
-</details>
-
-<details><summary>blocks/goats_spawnable_on.json</summary>
-
-```diff
-+ #minecraft:animals_spawnable_on
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.19\releases\1.19.3\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.19\snapshots\23w03a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- worldgen/biome/only_allows_snow_and_gold_rabbits.json
-+ worldgen/biome/increased_fire_burnout.json
-+ worldgen/biome/snow_golem_melts.json
-+ worldgen/biome/spawns_gold_rabbits.json
-+ worldgen/biome/spawns_snow_foxes.json
-+ worldgen/biome/spawns_white_rabbits.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/slider.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:javabridge:2.0.25
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-- int getTextureId(int)
-- void disableTexture()
-- void enableTexture()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ void addBottomButtons()
-+ void addMiddleButtons()
-+ void addTopButtons()
-+ void lambda$addBottomButtons$10(Button)
-+ void lambda$addBottomButtons$6(Button)
-+ void lambda$addBottomButtons$7(Button)
-+ void lambda$addBottomButtons$8(Button)
-+ void lambda$addBottomButtons$9(Button)
-+ void lambda$addMiddleButtons$4(Button)
-+ void lambda$addMiddleButtons$5(Button)
-+ void lambda$addTopButtons$3(Button)
-- void addButtons()
-- void lambda$addButtons$10(Button)
-- void lambda$addButtons$3(Button)
-- void lambda$addButtons$4(Button)
-- void lambda$addButtons$5(Button)
-- void lambda$addButtons$6(Button)
-- void lambda$addButtons$7(Button)
-- void lambda$addButtons$8(Button)
-- void lambda$addButtons$9(Button)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsDownloadLatestWorldScreen</summary>
-
-```diff
-+ int BAR_BORDER
-+ int BAR_BOTTOM
-+ int BAR_TOP
-+ int BAR_WIDTH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-+ boolean lambda$loadLevelList$1(LevelSummary)
-+ Style lambda$static$0(Style)
-+ void lambda$init$3(Button)
-- boolean lambda$loadLevelList$0(LevelSummary)
-- void lambda$init$1(Button)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$WorldSelectionList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.DetectedVersion</summary>
-
-```diff
-+ int getPackVersion(PackType)
-- int getPackVersion(PackType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.Advancement</summary>
-
-```diff
-+ Advancement getRoot()
-+ Advancement getRoot(Advancement)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSelectionList$Entry</summary>
-
-```diff
-+ boolean isFocused()
-+ void setFocused(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.ContainerObjectSelectionList</summary>
-
-```diff
-- boolean hasFocus
-+ boolean lambda$nextFocusPath$0(ContainerObjectSelectionList$Entry)
-+ ComponentPath nextFocusPath(FocusNavigationEvent)
-+ void setFocused(GuiEventListener)
-- boolean changeFocus(boolean)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.events.ContainerEventHandler</summary>
-
-```diff
-+ boolean isFocused()
-+ ComponentPath getCurrentFocusPath()
-+ ComponentPath handleArrowNavigation(FocusNavigationEvent$ArrowNavigation)
-+ ComponentPath handleTabNavigation(FocusNavigationEvent$TabNavigation)
-+ ComponentPath nextFocusPath(FocusNavigationEvent)
-+ ComponentPath nextFocusPathInDirection(FocusNavigationEvent)
-+ ComponentPath nextFocusPathVaguelyInDirection(FocusNavigationEvent)
-+ Integer lambda$nextFocusPathInDirection$2(GuiEventListener)
-+ Integer lambda$nextFocusPathInDirection$3(GuiEventListener)
-+ void setFocused(boolean)
-- boolean changeFocus(boolean)
-- void setInitialFocus(GuiEventListener)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.AdvancementToast</summary>
-
-```diff
-+ int DISPLAY_TIME
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent</summary>
-
-```diff
-+ double getNotificationDisplayTimeMultiplier()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
-
-```diff
-+ Component language
-+ String code
-- LanguageInfo language
-+ void <init>(LanguageInfo)
-- void <init>(LanguageInfo)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ReceivingLevelScreen</summary>
-
-```diff
-+ boolean shouldNarrateNavigation()
-+ void onClose()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
-
-```diff
-+ LogoRenderer logoRenderer
-- boolean minceraftEasterEgg
-- ResourceLocation MINECRAFT_EDITION
-- ResourceLocation MINECRAFT_LOGO
-+ LogoRenderer lambda$new$0()
-+ void <init>(LogoRenderer)
-+ void lambda$createDemoMenuOptions$10(Button)
-+ void lambda$createDemoMenuOptions$9(Button)
-+ void lambda$createNormalMenuOptions$8(Button)
-+ void lambda$init$5(Button)
-- void lambda$createDemoMenuOptions$8(Button)
-- void lambda$createDemoMenuOptions$9(Button)
-- void lambda$createNormalMenuOptions$5(Button)
-- void lambda$init$0(Button)
-- void lambda$render$10(Integer)
-- void lambda$render$11(Integer)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList</summary>
-
-```diff
-+ void renderHeader(PoseStack,int,int)
-- void renderHeader(Tesselator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry</summary>
-
-```diff
-+ ComponentPath nextFocusPath(FocusNavigationEvent)
-+ void onMappingChanged()
-- boolean changeFocus(boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$Entry</summary>
-
-```diff
-+ void onMappingChanged()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsScreen</summary>
-
-```diff
-+ void resetMappingAndUpdateButtons()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList</summary>
-
-```diff
-+ Component INCOMPATIBLE_STATUS
-+ Component NO_CONNECTION_STATUS
-+ Component ONLINE_STATUS
-+ Component PINGING_STATUS
-- Component INCOMPATIBLE_TOOLTIP
-- Component NO_CONNECTION_TOOLTIP
-- Component PINGING_TOOLTIP
-+ Style lambda$static$0(Style)
-+ Style lambda$static$1(Style)
-+ void lambda$refreshEntries$2(AbstractSelectionList$Entry)
-+ void lambda$refreshEntries$3(AbstractSelectionList$Entry)
-- boolean isFocused()
-- boolean lambda$moveSelection$2(ServerSelectionList$Entry)
-- void lambda$refreshEntries$0(AbstractSelectionList$Entry)
-- void lambda$refreshEntries$1(AbstractSelectionList$Entry)
-- void moveSelection(AbstractSelectionList$SelectionDirection)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry</summary>
-
-```diff
-+ boolean isCompatible()
-+ boolean pingCompleted()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel$EntryBase</summary>
-
-```diff
-+ String getId()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
-
-```diff
-- Screen screen
-+ String getPackId()
-+ void <init>(PackSelectionModel$Entry)
-+ void keyboardMoveDown()
-+ void keyboardMoveUp()
-+ void keyboardSelection()
-- void <init>(PackSelectionModel$Entry)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
-
-```diff
-+ boolean isFocused()
-+ void setFocused(boolean)
-- boolean changeFocus(boolean)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
-
-```diff
-+ boolean isFocused()
-+ void setFocused(boolean)
-- boolean changeFocus(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.telemetry.TelemetryEventWidget$Content</summary>
-
-```diff
-+ GridLayout container
-- GridWidget container
-+ GridLayout container()
-+ void <init>(Component)
-- GridWidget container()
-- void <init>(Component)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen</summary>
-
-```diff
-+ GridLayout twoButtonContainer(AbstractWidget)
-+ void lambda$createTelemetryButton$2(Boolean)
-+ void lambda$init$1(GuiEventListener)
-+ void lambda$openFeedbackLink$3(boolean)
-- GridWidget twoButtonContainer(AbstractWidget)
-- void lambda$createTelemetryButton$1(Boolean)
-- void lambda$openFeedbackLink$2(boolean)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.ConfirmExperimentalFeaturesScreen$DetailsScreen$PackList</summary>
-
-```diff
-- boolean isFocused()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
-
-```diff
-+ boolean lambda$init$13(Path)
-+ DataResult lambda$init$9(JsonElement)
-+ void lambda$init$0(Button)
-+ void lambda$init$1(String)
-+ void lambda$init$10(DataResult$PartialResult)
-+ void lambda$init$12(Button)
-+ void lambda$init$2(Path)
-+ void lambda$init$5(Button)
-+ void lambda$init$7(boolean,boolean)
-+ void lambda$init$8(Button)
-- boolean lambda$init$12(Path)
-- DataResult lambda$init$7(JsonElement)
-- void lambda$init$0(Path)
-- void lambda$init$1(Button)
-- void lambda$init$10(Button)
-- void lambda$init$13(String)
-- void lambda$init$2(Button)
-- void lambda$init$5(boolean,boolean)
-- void lambda$init$8(DataResult$PartialResult)
-- void lambda$init$9(Button)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList</summary>
-
-```diff
-- boolean isFocused()
-- void moveSelection(AbstractSelectionList$SelectionDirection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
-
-```diff
-+ boolean isAcceptingMessages()
-- Connection getConnection()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ServerData</summary>
-
-```diff
-+ ServerStatus$Players players
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$1</summary>
-
-```diff
-+ boolean isAcceptingMessages()
-- Connection getConnection()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
-
-```diff
-- void fillRect(BufferBuilder,int,int,int,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.MagmaCubeRenderer</summary>
-
-```diff
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.language.LanguageInfo</summary>
-
-```diff
-+ Codec CODEC
-- String code
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean bidirectional()
-+ Component toComponent()
-+ String name()
-+ String region()
-+ void <clinit>()
-+ void <init>(String,boolean)
-- boolean isBidirectional()
-- int compareTo(LanguageInfo)
-- int compareTo(Object)
-- String getCode()
-- String getName()
-- String getRegion()
-- void <init>(String,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.PlayerAdvancements</summary>
-
-```diff
-+ Map progress
-+ Path playerSavePath
-+ Set rootsToUpdate
-- File file
-- int VISIBILITY_DEPTH
-- Map advancements
-- Set visibilityChanged
-+ boolean lambda$updateTreeVisibility$1(Advancement)
-+ void <init>(ServerPlayer)
-+ void lambda$load$0(Map$Entry)
-+ void lambda$updateTreeVisibility$2(Advancement,boolean)
-+ void markForVisibilityUpdate(Advancement)
-+ void updateTreeVisibility(Set)
-- boolean hasCompletedChildrenOrSelf(Advancement)
-- boolean shouldBeVisible(Advancement)
-- void <init>(ServerPlayer)
-- void ensureAllVisible()
-- void ensureVisibility(Advancement)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.BanIpCommands</summary>
-
-```diff
-- Pattern IP_ADDRESS_PATTERN
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.commands.CloneCommands</summary>
-
-```diff
-- int MAX_CLONE_AREA
-+ ArgumentBuilder beginEndDestinationAndModeSuffix(CloneCommands$CommandFunction)
-+ ArgumentBuilder destinationAndModeSuffix(CloneCommands$CommandFunction)
-+ ArgumentBuilder wrapWithCloneMode(ArgumentBuilder)
-+ boolean lambda$destinationAndModeSuffix$10(BlockInWorld)
-+ boolean lambda$destinationAndModeSuffix$12(BlockInWorld)
-+ boolean lambda$destinationAndModeSuffix$14(BlockInWorld)
-+ CloneCommands$DimensionAndPosition getLoadedDimensionAndPosition(String)
-+ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$7(CommandContext)
-+ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$8(CommandContext)
-+ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$9(CommandContext)
-+ int clone(CloneCommands$Mode)
-+ int lambda$destinationAndModeSuffix$11(CommandContext)
-+ int lambda$destinationAndModeSuffix$15(CommandContext)
-+ int lambda$destinationAndModeSuffix$17(CommandContext)
-+ int lambda$destinationAndModeSuffix$19(CommandContext)
-+ int lambda$wrapWithCloneMode$20(CommandContext)
-+ int lambda$wrapWithCloneMode$21(CommandContext)
-+ int lambda$wrapWithCloneMode$22(CommandContext)
-+ Predicate lambda$destinationAndModeSuffix$13(CommandContext)
-+ Predicate lambda$destinationAndModeSuffix$16(CommandContext)
-+ Predicate lambda$destinationAndModeSuffix$18(CommandContext)
-+ ServerLevel lambda$beginEndDestinationAndModeSuffix$5(CommandContext)
-+ ServerLevel lambda$beginEndDestinationAndModeSuffix$6(CommandContext)
-+ ServerLevel lambda$register$3(CommandContext)
-+ ServerLevel lambda$register$4(CommandContext)
-- boolean lambda$register$11(BlockInWorld)
-- boolean lambda$register$3(BlockInWorld)
-- boolean lambda$register$5(BlockInWorld)
-- boolean lambda$register$7(BlockInWorld)
-- boolean lambda$register$9(BlockInWorld)
-- int clone(CloneCommands$Mode)
-- int lambda$register$10(CommandContext)
-- int lambda$register$12(CommandContext)
-- int lambda$register$13(CommandContext)
-- int lambda$register$14(CommandContext)
-- int lambda$register$15(CommandContext)
-- int lambda$register$16(CommandContext)
-- int lambda$register$17(CommandContext)
-- int lambda$register$18(CommandContext)
-- int lambda$register$19(CommandContext)
-- int lambda$register$20(CommandContext)
-- int lambda$register$4(CommandContext)
-- int lambda$register$6(CommandContext)
-- int lambda$register$8(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.FillBiomeCommand</summary>
-
-```diff
-- int MAX_FILL_AREA
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ Codec NON_EMPTY_STRING
-+ Codec sizeLimitedString(int,int)
-+ Codec validate(Function)
-+ DataResult lambda$floatRangeMinExclusiveWithMessage$29(Float)
-+ DataResult lambda$intRangeWithMessage$26(Integer)
-+ DataResult lambda$nonEmptyHolderSet$32(HolderSet)
-+ DataResult lambda$nonEmptyList$31(List)
-+ DataResult lambda$sizeLimitedString$59(String)
-+ DataResult lambda$static$58(String)
-- DataResult lambda$checkRangeMinExclusiveWithMessage$29(Number)
-- DataResult lambda$checkRangeWithMessage$26(Number)
-- DataResult lambda$nonEmptyHolderSetCheck$32(HolderSet)
-- DataResult lambda$nonEmptyListCheck$31(List)
-- Function checkRangeMinExclusiveWithMessage(Function)
-- Function checkRangeWithMessage(Function)
-- Function nonEmptyHolderSetCheck()
-- Function nonEmptyListCheck()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-- float BIG_ENOUGH_FLOAT
-- int BIG_ENOUGH_INT
-+ boolean isMultipleOf(int,int)
-+ double invSqrt(double)
-+ float invSqrt(float)
-+ int floorDiv(int,int)
-- boolean isDivisionInteger(int,int)
-- byte clamp(byte,byte,byte)
-- double average(long[])
-- double getDouble(String,double,double)
-- double getDouble(String,double)
-- double[] binBiModalNormalDistribution(double,double,double,double,double,double,int,int)
-- double[] binLogDistribution(double,double,int,int)
-- double[] binNormalDistribution(double,double,double,int,int)
-- double[] cumulativeSum(double[])
-- float cube(float)
-- float diffuseLight(float,float,float)
-- float fastInvSqrt(float)
-- float rotlerp(float,float,float)
-- float rotWrap(double)
-- float truncate(float,float)
-- int absFloor(double)
-- int color(int,int,int)
-- int colorMultiply(int,float,float,float)
-- int colorMultiply(int,int)
-- int fastFloor(double)
-- int getInt(String,int,int)
-- int getRandomForDistributionIntegral(RandomSource,double[])
-- int intFloorDiv(int,int)
-- long clamp(long,long,long)
-- long murmurHash3Mixer(long)
-- Vec3 catmullRomSplinePos(Vec3,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V1801</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V2502</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V2509</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V2522</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V2568</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V2688</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-+ TypeTemplate lambda$registerEntities$1(String)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V2707</summary>
-
-```diff
-- TypeTemplate lambda$registerEntity$0(Schema)
-- void registerEntity(String)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V3081</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- TypeTemplate lambda$registerMob$1(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V3203</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.datafix.schemas.V501</summary>
-
-```diff
-+ TypeTemplate lambda$registerEntities$0(Schema)
-- TypeTemplate lambda$registerMob$0(Schema)
-- void registerMob(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean addPassenger(Entity)
-+ boolean canSprint()
-+ boolean teleportTo(Set,float,float)
-+ void animateHurt(float)
-- boolean allowsDismounting(Entity)
-- void addPassenger(Entity)
-- void animateHurt()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-- float hurtDir
-+ boolean canChangeDimensions()
-+ float getHurtDir()
-+ void animateHurt(float)
-- void animateHurt()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-- boolean canCutCorner(BlockPathTypes)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
-
-```diff
-- boolean canCutCorner(BlockPathTypes)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
-
-```diff
-+ float getClientSideAttackTime()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
-
-```diff
-- PathNavigation createNavigation(Level)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecart</summary>
-
-```diff
-+ void animateHurt(float)
-- void animateHurt()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
-
-```diff
-+ void animateHurt(float)
-- void animateHurt()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
-
-```diff
-- BlockPos lastPosition
-- int cooldownTime
-- int MOVE_ITEM_SPEED
-- boolean isOnCooldown()
-- void setCooldown(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ Biome$Precipitation getPrecipitationAt(BlockPos)
-+ boolean hasPrecipitation()
-- Biome$Precipitation getPrecipitation()
-- boolean isHumid()
-- boolean shouldSnowGolemBurn(BlockPos)
-- float getDownfall()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
-
-```diff
-+ boolean hasPrecipitation
-- Biome$Precipitation precipitation
-+ Biome$BiomeBuilder hasPrecipitation(boolean)
-- Biome$BiomeBuilder precipitation(Biome$Precipitation)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome$Precipitation</summary>
-
-```diff
-- Codec CODEC
-- String name
-+ void <init>(String,int)
-- String getName()
-- String getSerializedName()
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.RotationSegment</summary>
-
-```diff
-+ SegmentedAnglePrecision SEGMENTED_ANGLE16
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.FlyNodeEvaluator</summary>
-
-```diff
-+ BlockPathTypes getBlockPathType(Mob)
-- BlockPathTypes getBlockPathType(Mob,int,int,int,boolean,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.pathfinder.NodeEvaluator</summary>
-
-```diff
-+ BlockPathTypes getBlockPathType(net.minecraft.world.level.BlockGetter,int,int,int,net.minecraft.world.entity.Mob)
-- BlockPathTypes getBlockPathType(net.minecraft.world.level.BlockGetter,int,int,int,net.minecraft.world.entity.Mob,int,int,int,boolean,boolean)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.pathfinder.SwimNodeEvaluator</summary>
-
-```diff
-+ BlockPathTypes getBlockPathType(Mob)
-- BlockPathTypes getBlockPathType(Mob,int,int,int,boolean,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ BlockPathTypes evaluateBlockPathType(BlockPathTypes)
-+ BlockPathTypes getBlockPathType(Mob)
-+ BlockPathTypes getBlockPathTypes(BlockPos)
-- BlockPathTypes evaluateBlockPathType(BlockPathTypes)
-- BlockPathTypes getBlockPathType(Mob,int,int,int,boolean,boolean)
-- BlockPathTypes getBlockPathTypes(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
-
-```diff
-+ Style lambda$createInfo$0(Style)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
-
-```diff
-+ Dynamic lambda$parse$0(Dynamic)
-- Tag lambda$parse$0(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.ticks.LevelTicks</summary>
-
-```diff
-+ boolean lambda$copyAreaFrom$5(ScheduledTick)
-+ void copyAreaFrom(Vec3i)
-+ void lambda$copyAreaFrom$6(LevelChunkTicks)
-+ void lambda$copyAreaFrom$7(ScheduledTick)
-- boolean lambda$copyArea$5(ScheduledTick)
-- void lambda$copyArea$6(LevelChunkTicks)
-- void lambda$copyArea$7(ScheduledTick)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.Game$Metrics
@@ -5717,14 +2081,92 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
+
+```diff
+- int getTextureId(int)
+- void disableTexture()
+- void enableTexture()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
+
+```diff
++ void addBottomButtons()
+- void addButtons()
++ void addMiddleButtons()
++ void addTopButtons()
++ void lambda$addBottomButtons$10(Button)
++ void lambda$addBottomButtons$6(Button)
++ void lambda$addBottomButtons$7(Button)
++ void lambda$addBottomButtons$8(Button)
++ void lambda$addBottomButtons$9(Button)
+- void lambda$addButtons$10(Button)
+- void lambda$addButtons$3(Button)
+- void lambda$addButtons$4(Button)
+- void lambda$addButtons$5(Button)
+- void lambda$addButtons$6(Button)
+- void lambda$addButtons$7(Button)
+- void lambda$addButtons$8(Button)
+- void lambda$addButtons$9(Button)
++ void lambda$addMiddleButtons$4(Button)
++ void lambda$addMiddleButtons$5(Button)
++ void lambda$addTopButtons$3(Button)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$BackupObjectSelectionList</summary>
+
+```diff
+- boolean isFocused()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
+
+```diff
+- boolean isFocused()
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
+
+```diff
+- boolean lambda$loadLevelList$0(LevelSummary)
++ boolean lambda$loadLevelList$1(LevelSummary)
++ Style lambda$static$0(Style)
+- void lambda$init$1(Button)
++ void lambda$init$3(Button)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen$WorldSelectionList</summary>
+
+```diff
+- boolean isFocused()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen$WorldTemplateObjectSelectionList</summary>
+
+```diff
+- boolean isFocused()
+```
+
+</details>
 
 
 <details><summary>net.minecraft.DetectedVersion</summary>
@@ -5737,16 +2179,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.advancements.Advancement</summary>
 
 ```diff
@@ -5757,482 +2189,283 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.TimeArgument</summary>
+<details><summary>net.minecraft.client.gui.components.AbstractSelectionList$Entry</summary>
 
 ```diff
-+ Dynamic2CommandExceptionType ERROR_TICK_COUNT_TOO_LOW
-+ int minimum
-- DynamicCommandExceptionType ERROR_INVALID_TICK_COUNT
-+ Message lambda$static$0(Object)
-+ TimeArgument time(int)
-+ void <init>(int)
-- Message lambda$static$0(Object)
-- void <init>()
++ boolean isFocused()
++ void setFocused(boolean)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.coordinates.BlockPosArgument</summary>
+<details><summary>net.minecraft.client.gui.components.ContainerObjectSelectionList</summary>
 
 ```diff
-+ BlockPos getBlockPos(String)
-+ BlockPos getLoadedBlockPos(String)
+- boolean changeFocus(boolean)
++ boolean lambda$nextFocusPath$0(ContainerObjectSelectionList$Entry)
++ ComponentPath nextFocusPath(FocusNavigationEvent)
++ void setFocused(GuiEventListener)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Vec3i</summary>
+<details><summary>net.minecraft.client.gui.components.events.ContainerEventHandler</summary>
 
 ```diff
-+ DataResult lambda$offsetCodec$3(Vec3i)
-- DataResult lambda$checkOffsetAxes$3(Vec3i)
-- Function checkOffsetAxes(int)
+- boolean changeFocus(boolean)
++ boolean isFocused()
++ ComponentPath getCurrentFocusPath()
++ ComponentPath handleArrowNavigation(FocusNavigationEvent$ArrowNavigation)
++ ComponentPath handleTabNavigation(FocusNavigationEvent$TabNavigation)
++ ComponentPath nextFocusPath(FocusNavigationEvent)
++ ComponentPath nextFocusPathInDirection(ScreenRectangle,ScreenDirection,GuiEventListener,FocusNavigationEvent)
++ ComponentPath nextFocusPathVaguelyInDirection(ScreenRectangle,ScreenDirection,GuiEventListener,FocusNavigationEvent)
++ Integer lambda$nextFocusPathInDirection$2(ScreenDirection,GuiEventListener)
++ Integer lambda$nextFocusPathInDirection$3(ScreenDirection,GuiEventListener)
++ void setFocused(boolean)
+- void setInitialFocus(GuiEventListener)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
+<details><summary>net.minecraft.client.gui.components.toasts.ToastComponent</summary>
 
 ```diff
-- CompoundTag patchVersion(CompoundTag)
-- CompoundTag updateStructure(CompoundTag)
++ double getNotificationDisplayTimeMultiplier()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.locale.Language</summary>
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen$DetailsList</summary>
 
 ```diff
-+ String getOrDefault(java.lang.String,java.lang.String)
-- String getOrDefault(java.lang.String)
-+ String getOrDefault(String)
+- boolean isFocused()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
+<details><summary>net.minecraft.client.gui.screens.LanguageSelectScreen$LanguageSelectionList$Entry</summary>
 
 ```diff
-+ BundlerInfo bundlerInfo
-+ Set extraClasses
-+ boolean lambda$listAllPackets$2(Class)
-+ BundleDelimiterPacket lambda$withBundlePacket$1(FriendlyByteBuf)
-+ BundlerInfo bundlerInfo()
-+ ConnectionProtocol$PacketSet withBundlePacket(Function)
-+ int getId(Class)
-+ void listAllPackets(Consumer)
-- Integer getId(Class)
-- Iterable getAllPackets()
+- void <init>(LanguageSelectScreen$LanguageSelectionList,LanguageInfo)
++ void <init>(LanguageSelectScreen$LanguageSelectionList,String,LanguageInfo)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ReceivingLevelScreen</summary>
+
+```diff
++ boolean shouldNarrateNavigation()
++ void onClose()
+```
+
+</details>
 
 
-<details><summary>net.minecraft.network.PacketListener</summary>
+<details><summary>net.minecraft.client.gui.screens.TitleScreen</summary>
+
+```diff
++ LogoRenderer lambda$new$0()
++ void <init>(boolean,LogoRenderer)
++ void lambda$createDemoMenuOptions$10(Button)
+- void lambda$createDemoMenuOptions$8(boolean,Button)
++ void lambda$createDemoMenuOptions$9(boolean,Button)
+- void lambda$createDemoMenuOptions$9(Button)
+- void lambda$createNormalMenuOptions$5(Button)
++ void lambda$createNormalMenuOptions$8(Button)
+- void lambda$init$0(Button)
++ void lambda$init$5(Button)
+- void lambda$render$10(PoseStack,Integer,Integer)
+- void lambda$render$11(PoseStack,Integer,Integer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.achievement.StatsScreen$ItemStatisticsList</summary>
+
+```diff
+- void renderHeader(PoseStack,int,int,Tesselator)
++ void renderHeader(PoseStack,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsList$CategoryEntry</summary>
+
+```diff
+- boolean changeFocus(boolean)
++ ComponentPath nextFocusPath(FocusNavigationEvent)
++ void onMappingChanged()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.controls.KeyBindsScreen</summary>
+
+```diff
++ void resetMappingAndUpdateButtons()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList</summary>
+
+```diff
+- boolean isFocused()
+- boolean lambda$moveSelection$2(ServerSelectionList$Entry)
++ Style lambda$static$0(Style)
++ Style lambda$static$1(Style)
+- void lambda$refreshEntries$0(ServerSelectionList,AbstractSelectionList$Entry)
+- void lambda$refreshEntries$1(ServerSelectionList,AbstractSelectionList$Entry)
++ void lambda$refreshEntries$2(ServerSelectionList,AbstractSelectionList$Entry)
++ void lambda$refreshEntries$3(ServerSelectionList,AbstractSelectionList$Entry)
+- void moveSelection(AbstractSelectionList$SelectionDirection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$OnlineServerEntry</summary>
+
+```diff
++ boolean isCompatible()
++ boolean pingCompleted()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.PackSelectionModel$EntryBase</summary>
+
+```diff
++ String getId()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.packs.TransferableSelectionList$PackEntry</summary>
+
+```diff
++ String getPackId()
++ void <init>(Minecraft,TransferableSelectionList,PackSelectionModel$Entry)
+- void <init>(Minecraft,TransferableSelectionList,Screen,PackSelectionModel$Entry)
++ void keyboardMoveDown()
++ void keyboardMoveUp()
++ void keyboardSelection()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.OverlayRecipeComponent</summary>
+
+```diff
+- boolean changeFocus(boolean)
++ boolean isFocused()
++ void setFocused(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.recipebook.RecipeBookComponent</summary>
+
+```diff
+- boolean changeFocus(boolean)
++ boolean isFocused()
++ void setFocused(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.telemetry.TelemetryEventWidget$Content</summary>
+
+```diff
++ GridLayout container()
+- GridWidget container()
++ void <init>(GridLayout,Component)
+- void <init>(GridWidget,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen</summary>
+
+```diff
++ GridLayout twoButtonContainer(AbstractWidget,AbstractWidget)
+- GridWidget twoButtonContainer(AbstractWidget,AbstractWidget)
+- void lambda$createTelemetryButton$1(Boolean)
++ void lambda$createTelemetryButton$2(Boolean)
++ void lambda$init$1(TelemetryInfoScreen,GuiEventListener)
+- void lambda$openFeedbackLink$2(boolean)
++ void lambda$openFeedbackLink$3(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.ConfirmExperimentalFeaturesScreen$DetailsScreen$PackList</summary>
+
+```diff
+- boolean isFocused()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditWorldScreen</summary>
+
+```diff
+- boolean lambda$init$12(Path)
++ boolean lambda$init$13(Path)
+- DataResult lambda$init$7(JsonElement)
++ DataResult lambda$init$9(JsonElement)
++ void lambda$init$0(Button)
+- void lambda$init$0(Path)
+- void lambda$init$1(Button)
++ void lambda$init$1(String)
+- void lambda$init$10(Button)
++ void lambda$init$10(DataResult$PartialResult)
++ void lambda$init$12(Button)
+- void lambda$init$13(String)
+- void lambda$init$2(Button)
++ void lambda$init$2(Path)
+- void lambda$init$5(boolean,boolean)
++ void lambda$init$5(Button)
++ void lambda$init$7(boolean,boolean)
++ void lambda$init$8(Button)
+- void lambda$init$8(DataResult$PartialResult)
+- void lambda$init$9(Button)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldSelectionList</summary>
+
+```diff
+- boolean isFocused()
+- void moveSelection(AbstractSelectionList$SelectionDirection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl</summary>
 
 ```diff
 + boolean isAcceptingMessages()
@@ -6242,726 +2475,513 @@
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+<details><summary>net.minecraft.client.multiplayer.ServerStatusPinger$1</summary>
 
 ```diff
-+ Component GUI_CONTINUE
-+ Component SPACE
-+ MutableComponent space()
++ boolean isAcceptingMessages()
+- Connection getConnection()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.contents.TranslatableContents</summary>
+<details><summary>net.minecraft.client.renderer.entity.ItemRenderer</summary>
 
 ```diff
-+ String fallback
-+ String getFallback()
-+ void <init>(Object[])
-- void <init>(Object[])
-- void <init>(String)
+- void fillRect(BufferBuilder,int,int,int,int,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
+<details><summary>net.minecraft.client.renderer.entity.MagmaCubeRenderer</summary>
 
 ```diff
-+ void handleBundlePacket(net.minecraft.network.protocol.game.ClientboundBundlePacket)
-+ void handleHurtAnimation(net.minecraft.network.protocol.game.ClientboundHurtAnimationPacket)
++ void render(Entity,float,float,PoseStack,MultiBufferSource,int)
++ void render(LivingEntity,float,float,PoseStack,MultiBufferSource,int)
++ void render(MagmaCube,float,float,PoseStack,MultiBufferSource,int)
++ void render(Mob,float,float,PoseStack,MultiBufferSource,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.network.protocol.game.ClientboundAnimatePacket</summary>
+<details><summary>net.minecraft.client.resources.language.LanguageInfo</summary>
 
 ```diff
-- int HURT
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean bidirectional()
+- boolean isBidirectional()
++ Component toComponent()
+- int compareTo(LanguageInfo)
+- int compareTo(Object)
+- String getCode()
+- String getName()
+- String getRegion()
++ String name()
++ String region()
++ void <clinit>()
++ void <init>(String,String,boolean)
+- void <init>(String,String,String,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.WeatherCommand</summary>
+<details><summary>net.minecraft.server.PlayerAdvancements</summary>
 
 ```diff
-+ int getDuration(IntProvider)
+- boolean hasCompletedChildrenOrSelf(Advancement)
++ boolean lambda$updateTreeVisibility$1(Advancement)
+- boolean shouldBeVisible(Advancement)
+- void <init>(DataFixer,PlayerList,ServerAdvancementManager,File,ServerPlayer)
++ void <init>(DataFixer,PlayerList,ServerAdvancementManager,Path,ServerPlayer)
+- void ensureAllVisible()
+- void ensureVisibility(Advancement)
++ void lambda$load$0(ServerAdvancementManager,Map$Entry)
++ void lambda$updateTreeVisibility$2(Set,Set,Advancement,boolean)
++ void markForVisibilityUpdate(Advancement)
++ void updateTreeVisibility(Advancement,Set,Set)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.server.commands.data.DataCommands</summary>
+<details><summary>net.minecraft.server.commands.CloneCommands</summary>
 
 ```diff
-+ DynamicCommandExceptionType ERROR_EXPECTED_VALUE
-+ ArgumentBuilder lambda$decorateModification$23(ArgumentBuilder)
-+ ArgumentBuilder lambda$decorateModification$24(DataCommands$DataManipulator)
-+ ArgumentBuilder lambda$decorateModification$33(ArgumentBuilder)
-+ ArgumentBuilder lambda$decorateModification$34(DataCommands$DataManipulator)
-+ ArgumentBuilder lambda$decorateModification$36(DataCommands$DataManipulator)
-+ ArgumentBuilder lambda$decorateModification$37(ArgumentBuilder)
-+ ArgumentBuilder lambda$register$12(ArgumentBuilder)
-+ ArgumentBuilder lambda$register$14(ArgumentBuilder)
-+ ArgumentBuilder lambda$register$8(ArgumentBuilder)
-+ boolean lambda$register$6(CommandSourceStack)
-+ DataCommands$DataProvider lambda$static$5(Function)
-+ int lambda$decorateModification$21(CommandContext)
-+ int lambda$decorateModification$22(CommandContext)
-+ int lambda$decorateModification$26(CommandContext)
-+ int lambda$decorateModification$28(CommandContext)
-+ int lambda$decorateModification$30(CommandContext)
-+ int lambda$decorateModification$32(CommandContext)
-+ int lambda$decorateModification$35(CommandContext)
-+ int lambda$register$11(CommandContext)
-+ int lambda$register$13(CommandContext)
-+ int lambda$register$19(List)
-+ int lambda$register$7(CommandContext)
-+ List getSingletonSource(DataCommands$DataProvider)
-+ List resolveSourcePath(DataCommands$DataProvider)
-+ List stringifyTagList(Function)
-+ Message lambda$static$3(Object)
-+ String getAsText(Tag)
-+ String lambda$decorateModification$25(String)
-+ String lambda$decorateModification$27(String)
-+ String lambda$decorateModification$29(String)
-+ String lambda$decorateModification$31(String)
-+ void lambda$register$20(DataCommands$DataManipulatorDecorator)
-- ArgumentBuilder lambda$decorateModification$22(ArgumentBuilder)
-- ArgumentBuilder lambda$decorateModification$23(DataCommands$DataManipulator)
-- ArgumentBuilder lambda$decorateModification$25(DataCommands$DataManipulator)
-- ArgumentBuilder lambda$decorateModification$26(ArgumentBuilder)
-- ArgumentBuilder lambda$register$11(ArgumentBuilder)
-- ArgumentBuilder lambda$register$13(ArgumentBuilder)
-- ArgumentBuilder lambda$register$7(ArgumentBuilder)
-- boolean lambda$register$5(CommandSourceStack)
-- DataCommands$DataProvider lambda$static$3(Function)
-- int lambda$decorateModification$20(CommandContext)
-- int lambda$decorateModification$21(CommandContext)
-- int lambda$decorateModification$24(CommandContext)
++ ArgumentBuilder beginEndDestinationAndModeSuffix(CommandBuildContext,CloneCommands$CommandFunction)
++ ArgumentBuilder destinationAndModeSuffix(CommandBuildContext,CloneCommands$CommandFunction,CloneCommands$CommandFunction)
++ ArgumentBuilder wrapWithCloneMode(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,ArgumentBuilder)
++ boolean lambda$destinationAndModeSuffix$10(BlockInWorld)
++ boolean lambda$destinationAndModeSuffix$12(BlockInWorld)
++ boolean lambda$destinationAndModeSuffix$14(BlockInWorld)
+- boolean lambda$register$11(BlockInWorld)
+- boolean lambda$register$3(BlockInWorld)
+- boolean lambda$register$5(BlockInWorld)
+- boolean lambda$register$7(BlockInWorld)
+- boolean lambda$register$9(BlockInWorld)
++ CloneCommands$DimensionAndPosition getLoadedDimensionAndPosition(CommandContext,ServerLevel,String)
++ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$7(CloneCommands$CommandFunction,CommandContext)
++ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$8(CloneCommands$CommandFunction,CommandContext)
++ CloneCommands$DimensionAndPosition lambda$destinationAndModeSuffix$9(CloneCommands$CommandFunction,CommandContext)
+- int clone(CommandSourceStack,BlockPos,BlockPos,BlockPos,Predicate,CloneCommands$Mode)
++ int clone(CommandSourceStack,CloneCommands$DimensionAndPosition,CloneCommands$DimensionAndPosition,CloneCommands$DimensionAndPosition,Predicate,CloneCommands$Mode)
++ int lambda$destinationAndModeSuffix$11(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ int lambda$destinationAndModeSuffix$15(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ int lambda$destinationAndModeSuffix$17(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ int lambda$destinationAndModeSuffix$19(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
+- int lambda$register$10(CommandContext)
 - int lambda$register$12(CommandContext)
-- int lambda$register$14(List)
+- int lambda$register$13(CommandContext)
+- int lambda$register$14(CommandContext)
+- int lambda$register$15(CommandContext)
+- int lambda$register$16(CommandContext)
+- int lambda$register$17(CommandContext)
+- int lambda$register$18(CommandContext)
+- int lambda$register$19(CommandContext)
+- int lambda$register$20(CommandContext)
+- int lambda$register$4(CommandContext)
 - int lambda$register$6(CommandContext)
 - int lambda$register$8(CommandContext)
-- void lambda$register$19(DataCommands$DataManipulatorDecorator)
++ int lambda$wrapWithCloneMode$20(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ int lambda$wrapWithCloneMode$21(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ int lambda$wrapWithCloneMode$22(CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CloneCommands$CommandFunction,CommandContext)
++ Predicate lambda$destinationAndModeSuffix$13(CommandContext)
++ Predicate lambda$destinationAndModeSuffix$16(CommandContext)
++ Predicate lambda$destinationAndModeSuffix$18(CommandContext)
++ ServerLevel lambda$beginEndDestinationAndModeSuffix$5(CommandContext)
++ ServerLevel lambda$beginEndDestinationAndModeSuffix$6(CommandContext)
++ ServerLevel lambda$register$3(CommandContext)
++ ServerLevel lambda$register$4(CommandContext)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
 
 ```diff
-+ IntProvider RAIN_DELAY
-+ IntProvider RAIN_DURATION
-+ IntProvider THUNDER_DELAY
-+ IntProvider THUNDER_DURATION
-- int MAX_RAIN_DELAY_TIME
-- int MAX_RAIN_TIME
-- int MAX_THUNDER_DELAY_TIME
-- int MAX_THUNDER_TIME
-- int MIN_RAIN_DELAY_TIME
-- int MIN_RAIN_TIME
-- int MIN_THUNDER_DELAY_TIME
-- int MIN_THUNDER_TIME
++ Codec sizeLimitedString(int,int)
++ Codec validate(Codec,Function)
+- DataResult lambda$checkRangeMinExclusiveWithMessage$29(Number,Number,Function,Number)
+- DataResult lambda$checkRangeWithMessage$26(Number,Number,Function,Number)
++ DataResult lambda$floatRangeMinExclusiveWithMessage$29(float,float,Function,Float)
++ DataResult lambda$intRangeWithMessage$26(int,int,Function,Integer)
++ DataResult lambda$nonEmptyHolderSet$32(HolderSet)
+- DataResult lambda$nonEmptyHolderSetCheck$32(HolderSet)
++ DataResult lambda$nonEmptyList$31(List)
+- DataResult lambda$nonEmptyListCheck$31(List)
++ DataResult lambda$sizeLimitedString$59(int,int,String)
++ DataResult lambda$static$58(String)
+- Function checkRangeMinExclusiveWithMessage(Number,Number,Function)
+- Function checkRangeWithMessage(Number,Number,Function)
+- Function nonEmptyHolderSetCheck()
+- Function nonEmptyListCheck()
 ```
 
 </details>
 
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+<details><summary>net.minecraft.util.Mth</summary>
 
 ```diff
-+ boolean teleportTo(Set,float,float)
-+ void knockback(double,double,double)
+- boolean isDivisionInteger(int,int)
++ boolean isMultipleOf(int,int)
+- byte clamp(byte,byte,byte)
+- double average(long[])
+- double getDouble(String,double,double)
+- double getDouble(String,double)
++ double invSqrt(double)
+- double[] binBiModalNormalDistribution(double,double,double,double,double,double,int,int)
+- double[] binLogDistribution(double,double,int,int)
+- double[] binNormalDistribution(double,double,double,int,int)
+- double[] cumulativeSum(double[])
+- float cube(float)
+- float diffuseLight(float,float,float)
+- float fastInvSqrt(float)
++ float invSqrt(float)
+- float rotlerp(float,float,float)
+- float rotWrap(double)
+- float truncate(float,float)
+- int absFloor(double)
+- int color(int,int,int)
+- int colorMultiply(int,float,float,float)
+- int colorMultiply(int,int)
+- int fastFloor(double)
++ int floorDiv(int,int)
+- int getInt(String,int,int)
+- int getRandomForDistributionIntegral(RandomSource,double[])
+- int intFloorDiv(int,int)
+- long clamp(long,long,long)
+- long murmurHash3Mixer(long)
+- Vec3 catmullRomSplinePos(Vec3,Vec3,Vec3,Vec3,double)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.PackType</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V1801</summary>
 
 ```diff
-- PackType bridgeType
-+ void <init>(String)
-- int getVersion(GameVersion)
-- void <init>(PackType)
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BiomeTags</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V2502</summary>
 
 ```diff
-+ TagKey INCREASED_FIRE_BURNOUT
-+ TagKey SNOW_GOLEM_MELTS
-+ TagKey SPAWNS_GOLD_RABBITS
-+ TagKey SPAWNS_SNOW_FOXES
-+ TagKey SPAWNS_WHITE_RABBITS
-- TagKey ONLY_ALLOWS_SNOW_AND_GOLD_RABBITS
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V2509</summary>
 
 ```diff
-+ TagKey NOTE_BLOCK_TOP_INSTRUMENTS
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.DataFixTypes</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V2522</summary>
 
 ```diff
-+ CompoundTag update(CompoundTag,int,int)
-+ CompoundTag updateToCurrentVersion(CompoundTag,int)
-+ Dynamic update(Dynamic,int,int)
-+ Dynamic updateToCurrentVersion(Dynamic,int)
-+ int currentVersion()
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
+<details><summary>net.minecraft.util.datafix.schemas.V2568</summary>
 
 ```diff
-+ boolean canCutCorner(BlockPathTypes)
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.util.datafix.schemas.V2688</summary>
 
+```diff
++ TypeTemplate lambda$registerEntities$0(Schema)
++ TypeTemplate lambda$registerEntities$1(Schema,String)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.util.datafix.schemas.V2707</summary>
 
+```diff
+- TypeTemplate lambda$registerEntity$0(Schema)
+- void registerEntity(Schema,Map,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.util.datafix.schemas.V3081</summary>
 
+```diff
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- TypeTemplate lambda$registerMob$1(Schema)
+- void registerMob(Schema,Map,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.util.datafix.schemas.V3203</summary>
 
+```diff
++ TypeTemplate lambda$registerEntities$0(Schema)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.util.datafix.schemas.V501</summary>
 
+```diff
++ TypeTemplate lambda$registerEntities$0(Schema)
+- TypeTemplate lambda$registerMob$0(Schema)
+- void registerMob(Schema,Map,String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
+```diff
++ boolean addPassenger(Entity)
+- boolean allowsDismounting(Entity)
++ boolean canSprint()
++ boolean teleportTo(ServerLevel,double,double,double,Set,float,float)
+- void addPassenger(Entity)
+- void animateHurt()
++ void animateHurt(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
+```diff
++ boolean canChangeDimensions()
++ float getHurtDir()
+- void animateHurt()
++ void animateHurt(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.Mob</summary>
 
+```diff
+- boolean canCutCorner(BlockPathTypes)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.animal.frog.Frog</summary>
 
+```diff
+- boolean canCutCorner(BlockPathTypes)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.Guardian</summary>
 
+```diff
++ float getClientSideAttackTime()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.monster.Ravager</summary>
 
+```diff
+- PathNavigation createNavigation(Level)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecart</summary>
 
+```diff
+- void animateHurt()
++ void animateHurt(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
 
+```diff
+- void animateHurt()
++ void animateHurt(float)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
 
+```diff
+- boolean isOnCooldown()
+- void setCooldown(int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
 
+```diff
+- Biome$Precipitation getPrecipitation()
++ Biome$Precipitation getPrecipitationAt(BlockPos)
++ boolean hasPrecipitation()
+- boolean isHumid()
+- boolean shouldSnowGolemBurn(BlockPos)
+- float getDownfall()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
 
+```diff
++ Biome$BiomeBuilder hasPrecipitation(boolean)
+- Biome$BiomeBuilder precipitation(Biome$Precipitation)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.biome.Biome$Precipitation</summary>
 
+```diff
+- String getName()
+- String getSerializedName()
+- void <init>(String,int,String)
++ void <init>(String,int)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.state.properties.RotationSegment</summary>
 
+```diff
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.pathfinder.FlyNodeEvaluator</summary>
 
+```diff
+- BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob,int,int,int,boolean,boolean)
++ BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.pathfinder.SwimNodeEvaluator</summary>
 
+```diff
+- BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob,int,int,int,boolean,boolean)
++ BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
 
+```diff
++ BlockPathTypes evaluateBlockPathType(BlockGetter,BlockPos,BlockPathTypes)
+- BlockPathTypes evaluateBlockPathType(BlockGetter,boolean,boolean,BlockPos,BlockPathTypes)
+- BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob,int,int,int,boolean,boolean)
++ BlockPathTypes getBlockPathType(BlockGetter,int,int,int,Mob)
++ BlockPathTypes getBlockPathTypes(BlockGetter,int,int,int,EnumSet,BlockPathTypes,BlockPos)
+- BlockPathTypes getBlockPathTypes(BlockGetter,int,int,int,int,int,int,boolean,boolean,EnumSet,BlockPathTypes,BlockPos)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
 
+```diff
++ Style lambda$createInfo$0(Style)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
 
+```diff
++ Dynamic lambda$parse$0(Dynamic)
+- Tag lambda$parse$0(Dynamic)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.world.ticks.LevelTicks</summary>
 
+```diff
+- boolean lambda$copyArea$5(BoundingBox,ScheduledTick)
++ boolean lambda$copyAreaFrom$5(BoundingBox,ScheduledTick)
++ void copyAreaFrom(LevelTicks,BoundingBox,Vec3i)
+- void lambda$copyArea$6(Predicate,List,long,LevelChunkTicks)
+- void lambda$copyArea$7(Vec3i,long,long,ScheduledTick)
++ void lambda$copyAreaFrom$6(Predicate,List,long,LevelChunkTicks)
++ void lambda$copyAreaFrom$7(Vec3i,long,long,ScheduledTick)
+```
 
+</details>
 
 
+### Server
 
-<details><summary>Added and removed classes</summary>
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.TimeArgument$Info$Template
@@ -10268,13 +6288,494 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.DetectedVersion</summary>
+
+```diff
++ int getPackVersion(PackType)
+- int getPackVersion(PackType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.Advancement</summary>
+
+```diff
++ Advancement getRoot()
++ Advancement getRoot(Advancement)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.TimeArgument</summary>
+
+```diff
++ Message lambda$static$0(Object,Object)
+- Message lambda$static$0(Object)
++ TimeArgument time(int)
+- void <init>()
++ void <init>(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.coordinates.BlockPosArgument</summary>
+
+```diff
++ BlockPos getBlockPos(CommandContext,String)
++ BlockPos getLoadedBlockPos(CommandContext,ServerLevel,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Vec3i</summary>
+
+```diff
+- DataResult lambda$checkOffsetAxes$3(int,Vec3i)
++ DataResult lambda$offsetCodec$3(int,Vec3i)
+- Function checkOffsetAxes(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
+
+```diff
+- CompoundTag patchVersion(CompoundTag)
+- CompoundTag updateStructure(String,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.locale.Language</summary>
+
+```diff
++ String getOrDefault(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.ConnectionProtocol$PacketSet</summary>
+
+```diff
++ boolean lambda$listAllPackets$2(Class)
++ BundleDelimiterPacket lambda$withBundlePacket$1(BundleDelimiterPacket,FriendlyByteBuf)
++ BundlerInfo bundlerInfo()
++ ConnectionProtocol$PacketSet withBundlePacket(Class,Function)
++ int getId(Class)
+- Integer getId(Class)
+- Iterable getAllPackets()
++ void listAllPackets(Consumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+
+```diff
++ MutableComponent space()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.contents.TranslatableContents</summary>
+
+```diff
++ String getFallback()
+- void <init>(String,Object[])
++ void <init>(String,String,Object[])
+- void <init>(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.WeatherCommand</summary>
+
+```diff
++ int getDuration(CommandSourceStack,int,IntProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.data.DataCommands</summary>
+
+```diff
+- ArgumentBuilder lambda$decorateModification$22(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,ArgumentBuilder)
++ ArgumentBuilder lambda$decorateModification$23(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,ArgumentBuilder)
+- ArgumentBuilder lambda$decorateModification$23(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator)
++ ArgumentBuilder lambda$decorateModification$24(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator)
+- ArgumentBuilder lambda$decorateModification$25(DataCommands$DataProvider,DataCommands$DataManipulator)
+- ArgumentBuilder lambda$decorateModification$26(BiConsumer,DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$decorateModification$33(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$decorateModification$34(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator)
++ ArgumentBuilder lambda$decorateModification$36(DataCommands$DataProvider,DataCommands$DataManipulator)
++ ArgumentBuilder lambda$decorateModification$37(BiConsumer,DataCommands$DataProvider,ArgumentBuilder)
+- ArgumentBuilder lambda$register$11(DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$register$12(DataCommands$DataProvider,ArgumentBuilder)
+- ArgumentBuilder lambda$register$13(DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$register$14(DataCommands$DataProvider,ArgumentBuilder)
+- ArgumentBuilder lambda$register$7(DataCommands$DataProvider,ArgumentBuilder)
++ ArgumentBuilder lambda$register$8(DataCommands$DataProvider,ArgumentBuilder)
+- boolean lambda$register$5(CommandSourceStack)
++ boolean lambda$register$6(CommandSourceStack)
+- DataCommands$DataProvider lambda$static$3(Function)
++ DataCommands$DataProvider lambda$static$5(Function)
+- int lambda$decorateModification$20(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)
++ int lambda$decorateModification$21(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
+- int lambda$decorateModification$21(DataCommands$DataProvider,DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)
++ int lambda$decorateModification$22(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
+- int lambda$decorateModification$24(DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)
++ int lambda$decorateModification$26(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
++ int lambda$decorateModification$28(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
++ int lambda$decorateModification$30(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
++ int lambda$decorateModification$32(DataCommands$DataProvider,DataCommands$DataManipulator,DataCommands$DataProvider,CommandContext)
++ int lambda$decorateModification$35(DataCommands$DataProvider,DataCommands$DataManipulator,CommandContext)
++ int lambda$register$11(DataCommands$DataProvider,CommandContext)
+- int lambda$register$12(DataCommands$DataProvider,CommandContext)
++ int lambda$register$13(DataCommands$DataProvider,CommandContext)
+- int lambda$register$14(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)
++ int lambda$register$19(CommandContext,CompoundTag,NbtPathArgument$NbtPath,List)
+- int lambda$register$6(DataCommands$DataProvider,CommandContext)
++ int lambda$register$7(DataCommands$DataProvider,CommandContext)
+- int lambda$register$8(DataCommands$DataProvider,CommandContext)
++ List getSingletonSource(CommandContext,DataCommands$DataProvider)
++ List resolveSourcePath(CommandContext,DataCommands$DataProvider)
++ List stringifyTagList(List,Function)
++ Message lambda$static$3(Object)
++ String getAsText(Tag)
++ String lambda$decorateModification$25(String)
++ String lambda$decorateModification$27(String)
++ String lambda$decorateModification$29(CommandContext,String)
++ String lambda$decorateModification$31(CommandContext,String)
+- void lambda$register$19(ArgumentBuilder,DataCommands$DataManipulatorDecorator)
++ void lambda$register$20(ArgumentBuilder,DataCommands$DataManipulatorDecorator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
++ boolean teleportTo(ServerLevel,double,double,double,Set,float,float)
++ void knockback(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.PackType</summary>
+
+```diff
+- int getVersion(GameVersion)
+- void <init>(String,int,String,PackType)
++ void <init>(String,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.DataFixTypes</summary>
+
+```diff
++ CompoundTag update(DataFixer,CompoundTag,int,int)
++ CompoundTag updateToCurrentVersion(DataFixer,CompoundTag,int)
++ Dynamic update(DataFixer,Dynamic,int,int)
++ Dynamic updateToCurrentVersion(DataFixer,Dynamic,int)
++ int currentVersion()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.navigation.PathNavigation</summary>
+
+```diff
++ boolean canCutCorner(BlockPathTypes)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/datapacks/update_1_20/data/minecraft/tags/items/noteblock_top_instruments.json
++ minecraft/tags/worldgen/biome/increased_fire_burnout.json
+- minecraft/tags/worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ minecraft/tags/worldgen/biome/snow_golem_melts.json
++ minecraft/tags/worldgen/biome/spawns_gold_rabbits.json
++ minecraft/tags/worldgen/biome/spawns_snow_foxes.json
++ minecraft/tags/worldgen/biome/spawns_white_rabbits.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/textures/gui/slider.png
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ ride.txt
+```
+
+</details>
+
+
+<details><summary>clone.txt</summary>
+
+```diff
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
++ clone <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> filtered <filter: block_predicate> normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> masked normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> <destination: block_pos> replace normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> filtered <filter: block_predicate> normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> masked normal
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace force
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace move
++ clone from <sourceDimension: dimension> <begin: block_pos> <end: block_pos> to <targetDimension: dimension> <destination: block_pos> replace normal
+```
+
+</details>
+
+
+<details><summary>data.txt</summary>
+
+```diff
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify block <targetPos: block_pos> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify entity <target: entity> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> append string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> merge string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> prepend string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set string block <sourcePos: block_pos> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set string entity <source: entity> <sourcePath: nbt_path> <start: integer> <end: integer>
++ data modify storage <target: resource_location> <targetPath: nbt_path> set string storage <source: resource_location> <sourcePath: nbt_path> <start: integer> <end: integer>
+```
+
+</details>
+
+
+<details><summary>execute.txt</summary>
+
+```diff
++ execute if dimension <dimension: dimension>
++ execute if loaded <pos: block_pos>
++ execute on attacker
++ execute on controller
++ execute on leasher
++ execute on owner
++ execute on passengers
++ execute on target
++ execute on vehicle
++ execute unless dimension <dimension: dimension>
++ execute unless loaded <pos: block_pos>
+```
+
+</details>
+
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule commandModificationBlockLimit <value: integer>
+```
+
+</details>
+
+
+<details><summary>title.txt</summary>
+
+```diff
+- title <targets: entity> times <fadeIn: integer> <stay: integer> <fadeOut: integer>
++ title <targets: entity> times <fadeIn: time> <stay: time> <fadeOut: time>
+```
+
+</details>
+
+
+<details><summary>weather.txt</summary>
+
+```diff
+- weather clear <duration: integer>
++ weather clear <duration: time>
+- weather rain <duration: integer>
++ weather rain <duration: time>
+- weather thunder <duration: integer>
++ weather thunder <duration: time>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ worldgen/biome/increased_fire_burnout.json
+- worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/snow_golem_melts.json
++ worldgen/biome/spawns_gold_rabbits.json
++ worldgen/biome/spawns_snow_foxes.json
++ worldgen/biome/spawns_white_rabbits.json
+```
+
+</details>
+
+
+<details><summary>blocks/goats_spawnable_on.json</summary>
+
+```diff
++ #minecraft:animals_spawnable_on
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ accessibility.onboarding.screen.narrator
++ accessibility.onboarding.screen.title
++ argument.time.tick_count_too_low
++ commands.data.modify.expected_value
++ commands.ride.already_riding
++ commands.ride.dismount.success
++ commands.ride.mount.failure.cant_ride_players
++ commands.ride.mount.failure.generic
++ commands.ride.mount.failure.loop
++ commands.ride.mount.success
++ commands.ride.not_riding
++ gamerule.commandModificationBlockLimit
++ gamerule.commandModificationBlockLimit.description
++ gui.continue
++ multiplayer.lan.server_found
++ multiplayer.player.list.narration
++ multiplayer.status.motd.narration
++ multiplayer.status.online
++ multiplayer.status.ping.narration
++ multiplayer.status.player_count.narration
++ multiplayer.status.version.narration
++ narrator.ready_to_play
++ options.multiplier
++ options.notifications.display_time
++ options.notifications.display_time.tooltip
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ worldgen/biome/increased_fire_burnout.json
+- worldgen/biome/only_allows_snow_and_gold_rabbits.json
++ worldgen/biome/snow_golem_melts.json
++ worldgen/biome/spawns_gold_rabbits.json
++ worldgen/biome/spawns_snow_foxes.json
++ worldgen/biome/spawns_white_rabbits.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/slider.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:javabridge:2.0.25
+```
+
+</details>

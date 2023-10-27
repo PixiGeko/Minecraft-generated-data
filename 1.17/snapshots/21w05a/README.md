@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w05a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w05a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-02-03T15:56:54+00:00</td></tr>
@@ -10,2837 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/9a9e43e4ebb1387b0843ace8babd975ea563c218/server.txt">https://piston-data.mojang.com/v1/objects/9a9e43e4ebb1387b0843ace8babd975ea563c218/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/225bda6c3721a464e9f772a1ca96db2d5df246b9/client.jar">https://piston-data.mojang.com/v1/objects/225bda6c3721a464e9f772a1ca96db2d5df246b9/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ff8c347ba40523b6d15610a3b1eb43358e00c926/client.txt">https://piston-data.mojang.com/v1/objects/ff8c347ba40523b6d15610a3b1eb43358e00c926/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w03a">21w03a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/building_blocks/cut_copper_from_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
-+  minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
-+  minecraft/advancements/recipes/decorations/moss_carpet.json
-+  minecraft/loot_tables/blocks/azalea.json
-+  minecraft/loot_tables/blocks/azalea_leaves.json
-+  minecraft/loot_tables/blocks/azalea_leaves_flowers.json
-+  minecraft/loot_tables/blocks/big_dripleaf.json
-+  minecraft/loot_tables/blocks/big_dripleaf_stem.json
-+  minecraft/loot_tables/blocks/cave_vines_body.json
-+  minecraft/loot_tables/blocks/cave_vines_head.json
-+  minecraft/loot_tables/blocks/exposed_copper_block.json
-+  minecraft/loot_tables/blocks/exposed_cut_copper.json
-+  minecraft/loot_tables/blocks/exposed_cut_copper_slab.json
-+  minecraft/loot_tables/blocks/exposed_cut_copper_stairs.json
-+  minecraft/loot_tables/blocks/flowering_azalea.json
-+  minecraft/loot_tables/blocks/hanging_roots.json
--  minecraft/loot_tables/blocks/lightly_weathered_copper_block.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/lightly_weathered_cut_copper_stairs.json
-+  minecraft/loot_tables/blocks/moss_block.json
-+  minecraft/loot_tables/blocks/moss_carpet.json
-+  minecraft/loot_tables/blocks/oxidized_copper_block.json
-+  minecraft/loot_tables/blocks/oxidized_cut_copper.json
-+  minecraft/loot_tables/blocks/oxidized_cut_copper_slab.json
-+  minecraft/loot_tables/blocks/oxidized_cut_copper_stairs.json
-+  minecraft/loot_tables/blocks/rooted_dirt.json
--  minecraft/loot_tables/blocks/semi_weathered_copper_block.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/semi_weathered_cut_copper_stairs.json
-+  minecraft/loot_tables/blocks/small_dripleaf.json
-+  minecraft/loot_tables/blocks/spore_blossom.json
-+  minecraft/loot_tables/blocks/waxed_exposed_copper.json
-+  minecraft/loot_tables/blocks/waxed_exposed_cut_copper.json
-+  minecraft/loot_tables/blocks/waxed_exposed_cut_copper_slab.json
-+  minecraft/loot_tables/blocks/waxed_exposed_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_copper.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_copper.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_stairs.json
-+  minecraft/loot_tables/blocks/waxed_weathered_copper.json
-+  minecraft/loot_tables/blocks/waxed_weathered_cut_copper.json
-+  minecraft/loot_tables/blocks/waxed_weathered_cut_copper_slab.json
-+  minecraft/loot_tables/blocks/waxed_weathered_cut_copper_stairs.json
-+  minecraft/recipes/cut_copper_from_copper_block_stonecutting.json
-+  minecraft/recipes/cut_copper_slab_from_copper_block_stonecutting.json
-+  minecraft/recipes/cut_copper_slab_from_cut_copper_stonecutting.json
-+  minecraft/recipes/cut_copper_stairs_from_copper_block_stonecutting.json
-+  minecraft/recipes/cut_copper_stairs_from_cut_copper_stonecutting.json
-+  minecraft/recipes/exposed_cut_copper.json
-+  minecraft/recipes/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
-+  minecraft/recipes/exposed_cut_copper_slab.json
-+  minecraft/recipes/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
-+  minecraft/recipes/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
-+  minecraft/recipes/exposed_cut_copper_stairs.json
-+  minecraft/recipes/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
-+  minecraft/recipes/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
--  minecraft/recipes/lightly_weathered_cut_copper.json
--  minecraft/recipes/lightly_weathered_cut_copper_slab.json
--  minecraft/recipes/lightly_weathered_cut_copper_stairs.json
-+  minecraft/recipes/moss_carpet.json
-+  minecraft/recipes/oxidized_cut_copper.json
-+  minecraft/recipes/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
-+  minecraft/recipes/oxidized_cut_copper_slab.json
-+  minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
-+  minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
-+  minecraft/recipes/oxidized_cut_copper_stairs.json
-+  minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
-+  minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
--  minecraft/recipes/semi_weathered_cut_copper.json
--  minecraft/recipes/semi_weathered_cut_copper_slab.json
--  minecraft/recipes/semi_weathered_cut_copper_stairs.json
-+  minecraft/recipes/waxed_cut_copper_from_waxed_copper_stonecutting.json
-+  minecraft/recipes/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
-+  minecraft/recipes/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
-+  minecraft/recipes/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
-+  minecraft/recipes/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
-+  minecraft/recipes/waxed_exposed_copper.json
-+  minecraft/recipes/waxed_exposed_cut_copper.json
-+  minecraft/recipes/waxed_exposed_cut_copper_from_honeycomb.json
-+  minecraft/recipes/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/recipes/waxed_exposed_cut_copper_slab.json
-+  minecraft/recipes/waxed_exposed_cut_copper_slab_from_honeycomb.json
-+  minecraft/recipes/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/recipes/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
-+  minecraft/recipes/waxed_exposed_cut_copper_stairs.json
-+  minecraft/recipes/waxed_exposed_cut_copper_stairs_from_honeycomb.json
-+  minecraft/recipes/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
-+  minecraft/recipes/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
--  minecraft/recipes/waxed_lightly_weathered_copper.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_from_honeycomb.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_copper.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
--  minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-+  minecraft/recipes/waxed_weathered_copper.json
-+  minecraft/recipes/waxed_weathered_cut_copper.json
-+  minecraft/recipes/waxed_weathered_cut_copper_from_honeycomb.json
-+  minecraft/recipes/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/recipes/waxed_weathered_cut_copper_slab.json
-+  minecraft/recipes/waxed_weathered_cut_copper_slab_from_honeycomb.json
-+  minecraft/recipes/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/recipes/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
-+  minecraft/recipes/waxed_weathered_cut_copper_stairs.json
-+  minecraft/recipes/waxed_weathered_cut_copper_stairs_from_honeycomb.json
-+  minecraft/recipes/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
-+  minecraft/recipes/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
-+  minecraft/recipes/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
-+  minecraft/recipes/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
-+  minecraft/recipes/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
-+  minecraft/recipes/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
-+  minecraft/recipes/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
-+  minecraft/tags/blocks/azalea_log_replaceable.json
-+  minecraft/tags/blocks/cave_vines.json
-+  minecraft/tags/blocks/lush_plants_replaceable.json
-+  minecraft/tags/game_events/ignore_vibrations_sneaking.json
--  minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
-+  minecraft/tags/items/fox_food.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/azalea.json
-+  minecraft/blockstates/azalea_leaves.json
-+  minecraft/blockstates/azalea_leaves_flowers.json
-+  minecraft/blockstates/big_dripleaf.json
-+  minecraft/blockstates/big_dripleaf_stem.json
-+  minecraft/blockstates/cave_vines_body.json
-+  minecraft/blockstates/cave_vines_head.json
-+  minecraft/blockstates/exposed_copper_block.json
-+  minecraft/blockstates/exposed_cut_copper.json
-+  minecraft/blockstates/exposed_cut_copper_slab.json
-+  minecraft/blockstates/exposed_cut_copper_stairs.json
-+  minecraft/blockstates/flowering_azalea.json
-+  minecraft/blockstates/hanging_roots.json
--  minecraft/blockstates/lightly_weathered_copper_block.json
--  minecraft/blockstates/lightly_weathered_cut_copper.json
--  minecraft/blockstates/lightly_weathered_cut_copper_slab.json
--  minecraft/blockstates/lightly_weathered_cut_copper_stairs.json
-+  minecraft/blockstates/moss_block.json
-+  minecraft/blockstates/moss_carpet.json
-+  minecraft/blockstates/oxidized_copper_block.json
-+  minecraft/blockstates/oxidized_cut_copper.json
-+  minecraft/blockstates/oxidized_cut_copper_slab.json
-+  minecraft/blockstates/oxidized_cut_copper_stairs.json
-+  minecraft/blockstates/rooted_dirt.json
--  minecraft/blockstates/semi_weathered_copper_block.json
--  minecraft/blockstates/semi_weathered_cut_copper.json
--  minecraft/blockstates/semi_weathered_cut_copper_slab.json
--  minecraft/blockstates/semi_weathered_cut_copper_stairs.json
-+  minecraft/blockstates/small_dripleaf.json
-+  minecraft/blockstates/spore_blossom.json
-+  minecraft/blockstates/waxed_exposed_copper.json
-+  minecraft/blockstates/waxed_exposed_cut_copper.json
-+  minecraft/blockstates/waxed_exposed_cut_copper_slab.json
-+  minecraft/blockstates/waxed_exposed_cut_copper_stairs.json
--  minecraft/blockstates/waxed_lightly_weathered_copper.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/blockstates/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/blockstates/waxed_semi_weathered_copper.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/blockstates/waxed_semi_weathered_cut_copper_stairs.json
-+  minecraft/blockstates/waxed_weathered_copper.json
-+  minecraft/blockstates/waxed_weathered_cut_copper.json
-+  minecraft/blockstates/waxed_weathered_cut_copper_slab.json
-+  minecraft/blockstates/waxed_weathered_cut_copper_stairs.json
-+  minecraft/models/block/azalea.json
-+  minecraft/models/block/azalea_leaves.json
-+  minecraft/models/block/azalea_leaves_flowers.json
-+  minecraft/models/block/big_dripleaf.json
-+  minecraft/models/block/big_dripleaf_full_tilt.json
-+  minecraft/models/block/big_dripleaf_partial_tilt.json
-+  minecraft/models/block/big_dripleaf_stem.json
-+  minecraft/models/block/cave_vines_body.json
-+  minecraft/models/block/cave_vines_body_lit.json
-+  minecraft/models/block/cave_vines_head.json
-+  minecraft/models/block/cave_vines_head_lit.json
-+  minecraft/models/block/exposed_copper_block.json
-+  minecraft/models/block/exposed_cut_copper.json
-+  minecraft/models/block/exposed_cut_copper_slab.json
-+  minecraft/models/block/exposed_cut_copper_slab_top.json
-+  minecraft/models/block/exposed_cut_copper_stairs.json
-+  minecraft/models/block/exposed_cut_copper_stairs_inner.json
-+  minecraft/models/block/exposed_cut_copper_stairs_outer.json
-+  minecraft/models/block/flowering_azalea.json
-+  minecraft/models/block/hanging_roots.json
--  minecraft/models/block/lightly_weathered_copper_block.json
--  minecraft/models/block/lightly_weathered_cut_copper.json
--  minecraft/models/block/lightly_weathered_cut_copper_slab.json
--  minecraft/models/block/lightly_weathered_cut_copper_slab_top.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs_inner.json
--  minecraft/models/block/lightly_weathered_cut_copper_stairs_outer.json
-+  minecraft/models/block/moss_block.json
-+  minecraft/models/block/moss_carpet.json
-+  minecraft/models/block/oxidized_copper_block.json
-+  minecraft/models/block/oxidized_cut_copper.json
-+  minecraft/models/block/oxidized_cut_copper_slab.json
-+  minecraft/models/block/oxidized_cut_copper_slab_top.json
-+  minecraft/models/block/oxidized_cut_copper_stairs.json
-+  minecraft/models/block/oxidized_cut_copper_stairs_inner.json
-+  minecraft/models/block/oxidized_cut_copper_stairs_outer.json
-+  minecraft/models/block/rooted_dirt.json
--  minecraft/models/block/semi_weathered_copper_block.json
--  minecraft/models/block/semi_weathered_cut_copper.json
--  minecraft/models/block/semi_weathered_cut_copper_slab.json
--  minecraft/models/block/semi_weathered_cut_copper_slab_top.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs_inner.json
--  minecraft/models/block/semi_weathered_cut_copper_stairs_outer.json
-+  minecraft/models/block/small_dripleaf_bottom.json
-+  minecraft/models/block/small_dripleaf_top.json
-+  minecraft/models/block/spore_blossom.json
-+  minecraft/models/block/template_azalea.json
-+  minecraft/models/item/azalea.json
-+  minecraft/models/item/azalea_leaves.json
-+  minecraft/models/item/azalea_leaves_flowers.json
-+  minecraft/models/item/big_dripleaf.json
-+  minecraft/models/item/exposed_copper_block.json
-+  minecraft/models/item/exposed_cut_copper.json
-+  minecraft/models/item/exposed_cut_copper_slab.json
-+  minecraft/models/item/exposed_cut_copper_stairs.json
-+  minecraft/models/item/flowering_azalea.json
-+  minecraft/models/item/glow_berries.json
-+  minecraft/models/item/hanging_roots.json
--  minecraft/models/item/lightly_weathered_copper_block.json
--  minecraft/models/item/lightly_weathered_cut_copper.json
--  minecraft/models/item/lightly_weathered_cut_copper_slab.json
--  minecraft/models/item/lightly_weathered_cut_copper_stairs.json
-+  minecraft/models/item/moss_block.json
-+  minecraft/models/item/moss_carpet.json
-+  minecraft/models/item/oxidized_copper_block.json
-+  minecraft/models/item/oxidized_cut_copper.json
-+  minecraft/models/item/oxidized_cut_copper_slab.json
-+  minecraft/models/item/oxidized_cut_copper_stairs.json
-+  minecraft/models/item/rooted_dirt.json
--  minecraft/models/item/semi_weathered_copper_block.json
--  minecraft/models/item/semi_weathered_cut_copper.json
--  minecraft/models/item/semi_weathered_cut_copper_slab.json
--  minecraft/models/item/semi_weathered_cut_copper_stairs.json
-+  minecraft/models/item/small_dripleaf.json
-+  minecraft/models/item/spore_blossom.json
-+  minecraft/models/item/waxed_exposed_copper.json
-+  minecraft/models/item/waxed_exposed_cut_copper.json
-+  minecraft/models/item/waxed_exposed_cut_copper_slab.json
-+  minecraft/models/item/waxed_exposed_cut_copper_stairs.json
--  minecraft/models/item/waxed_lightly_weathered_copper.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper_slab.json
--  minecraft/models/item/waxed_lightly_weathered_cut_copper_stairs.json
--  minecraft/models/item/waxed_semi_weathered_copper.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper_slab.json
--  minecraft/models/item/waxed_semi_weathered_cut_copper_stairs.json
-+  minecraft/models/item/waxed_weathered_copper.json
-+  minecraft/models/item/waxed_weathered_cut_copper.json
-+  minecraft/models/item/waxed_weathered_cut_copper_slab.json
-+  minecraft/models/item/waxed_weathered_cut_copper_stairs.json
-+  minecraft/particles/falling_spore_blossom.json
-+  minecraft/particles/spore_blossom_air.json
-+  minecraft/textures/block/azalea_leaves.png
-+  minecraft/textures/block/azalea_leaves_flowers.png
-+  minecraft/textures/block/azalea_plant.png
-+  minecraft/textures/block/azalea_side.png
-+  minecraft/textures/block/azalea_top.png
-+  minecraft/textures/block/big_dripleaf_side.png
-+  minecraft/textures/block/big_dripleaf_stem.png
-+  minecraft/textures/block/big_dripleaf_tip.png
-+  minecraft/textures/block/big_dripleaf_top.png
-+  minecraft/textures/block/cave_vines_body.png
-+  minecraft/textures/block/cave_vines_body_lit.png
-+  minecraft/textures/block/cave_vines_head.png
-+  minecraft/textures/block/cave_vines_head_lit.png
-+  minecraft/textures/block/exposed_copper_block.png
-+  minecraft/textures/block/exposed_cut_copper.png
-+  minecraft/textures/block/flowering_azalea_side.png
-+  minecraft/textures/block/flowering_azalea_top.png
-+  minecraft/textures/block/hanging_roots.png
--  minecraft/textures/block/lightly_weathered_copper_block.png
--  minecraft/textures/block/lightly_weathered_cut_copper.png
-+  minecraft/textures/block/moss_block.png
-+  minecraft/textures/block/oxidized_copper_block.png
-+  minecraft/textures/block/oxidized_cut_copper.png
-+  minecraft/textures/block/root_vines_head.png
-+  minecraft/textures/block/rooted_dirt.png
--  minecraft/textures/block/semi_weathered_copper_block.png
--  minecraft/textures/block/semi_weathered_cut_copper.png
-+  minecraft/textures/block/small_dripleaf_side.png
-+  minecraft/textures/block/small_dripleaf_top.png
-+  minecraft/textures/block/spore_blossom.png
-+  minecraft/textures/block/spore_blossom_base.png
-+  minecraft/textures/item/glow_berries.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-- minecraft:semi_weathered_copper_block
-- minecraft:lightly_weathered_copper_block
-- minecraft:semi_weathered_cut_copper
-- minecraft:lightly_weathered_cut_copper
-- minecraft:semi_weathered_cut_copper_stairs
-- minecraft:lightly_weathered_cut_copper_stairs
-- minecraft:semi_weathered_cut_copper_slab
-- minecraft:lightly_weathered_cut_copper_slab
-- minecraft:waxed_semi_weathered_copper
-- minecraft:waxed_lightly_weathered_copper
-- minecraft:waxed_semi_weathered_cut_copper
-- minecraft:waxed_lightly_weathered_cut_copper
-- minecraft:waxed_semi_weathered_cut_copper_stairs
-- minecraft:waxed_lightly_weathered_cut_copper_stairs
-- minecraft:waxed_semi_weathered_cut_copper_slab
-- minecraft:waxed_lightly_weathered_cut_copper_slab
-+ minecraft:azalea_leaves
-+ minecraft:azalea_leaves_flowers
-+ minecraft:oxidized_copper_block
-+ minecraft:exposed_copper_block
-+ minecraft:oxidized_cut_copper
-+ minecraft:exposed_cut_copper
-+ minecraft:oxidized_cut_copper_stairs
-+ minecraft:exposed_cut_copper_stairs
-+ minecraft:oxidized_cut_copper_slab
-+ minecraft:exposed_cut_copper_slab
-+ minecraft:waxed_weathered_copper
-+ minecraft:waxed_exposed_copper
-+ minecraft:waxed_weathered_cut_copper
-+ minecraft:waxed_exposed_cut_copper
-+ minecraft:waxed_weathered_cut_copper_stairs
-+ minecraft:waxed_exposed_cut_copper_stairs
-+ minecraft:waxed_weathered_cut_copper_slab
-+ minecraft:waxed_exposed_cut_copper_slab
-+ minecraft:cave_vines_head
-+ minecraft:cave_vines_body
-+ minecraft:spore_blossom
-+ minecraft:azalea
-+ minecraft:flowering_azalea
-+ minecraft:moss_carpet
-+ minecraft:moss_block
-+ minecraft:big_dripleaf
-+ minecraft:big_dripleaf_stem
-+ minecraft:small_dripleaf
-+ minecraft:rooted_dirt
-+ minecraft:hanging_roots
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-- minecraft:entity_hit
-- minecraft:armor_stand_add_item
-- minecraft:flint_and_steel_use
-- minecraft:eating_finish
-+ minecraft:block_change
-+ minecraft:drinking_finish
-+ minecraft:eat
-+ minecraft:entity_damaged
-+ minecraft:entity_killed
-+ minecraft:entity_place
-+ minecraft:equip
-+ minecraft:mob_interact
-+ minecraft:minecart_moving
-+ minecraft:prime_fuse
-+ minecraft:ravager_roar
-+ minecraft:ring_bell
-+ minecraft:shear
-+ minecraft:shulker_close
-+ minecraft:shulker_open
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-- minecraft:lightly_weathered_copper_block
-- minecraft:semi_weathered_copper_block
-- minecraft:lightly_weathered_cut_copper
-- minecraft:semi_weathered_cut_copper
-- minecraft:lightly_weathered_cut_copper_stairs
-- minecraft:semi_weathered_cut_copper_stairs
-- minecraft:lightly_weathered_cut_copper_slab
-- minecraft:semi_weathered_cut_copper_slab
-- minecraft:waxed_lightly_weathered_copper
-- minecraft:waxed_semi_weathered_copper
-- minecraft:waxed_lightly_weathered_cut_copper
-- minecraft:waxed_semi_weathered_cut_copper
-- minecraft:waxed_lightly_weathered_cut_copper_stairs
-- minecraft:waxed_semi_weathered_cut_copper_stairs
-- minecraft:waxed_lightly_weathered_cut_copper_slab
-- minecraft:waxed_semi_weathered_cut_copper_slab
-+ minecraft:azalea_leaves
-+ minecraft:azalea_leaves_flowers
-+ minecraft:azalea
-+ minecraft:flowering_azalea
-+ minecraft:spore_blossom
-+ minecraft:moss_carpet
-+ minecraft:moss_block
-+ minecraft:rooted_dirt
-+ minecraft:hanging_roots
-+ minecraft:big_dripleaf
-+ minecraft:small_dripleaf
-+ minecraft:glow_berries
-+ minecraft:exposed_copper_block
-+ minecraft:oxidized_copper_block
-+ minecraft:exposed_cut_copper
-+ minecraft:oxidized_cut_copper
-+ minecraft:exposed_cut_copper_stairs
-+ minecraft:oxidized_cut_copper_stairs
-+ minecraft:exposed_cut_copper_slab
-+ minecraft:oxidized_cut_copper_slab
-+ minecraft:waxed_exposed_copper
-+ minecraft:waxed_weathered_copper
-+ minecraft:waxed_exposed_cut_copper
-+ minecraft:waxed_weathered_cut_copper
-+ minecraft:waxed_exposed_cut_copper_stairs
-+ minecraft:waxed_weathered_cut_copper_stairs
-+ minecraft:waxed_exposed_cut_copper_slab
-+ minecraft:waxed_weathered_cut_copper_slab
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:falling_spore_blossom
-+ minecraft:spore_blossom_air
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.azalea.break
-+ minecraft:block.azalea.fall
-+ minecraft:block.azalea.hit
-+ minecraft:block.azalea.place
-+ minecraft:block.azalea.step
-+ minecraft:block.azalea_leaves.break
-+ minecraft:block.azalea_leaves.fall
-+ minecraft:block.azalea_leaves.hit
-+ minecraft:block.azalea_leaves.place
-+ minecraft:block.azalea_leaves.step
-+ minecraft:block.big_dripleaf.break
-+ minecraft:block.big_dripleaf.fall
-+ minecraft:block.big_dripleaf.hit
-+ minecraft:block.big_dripleaf.place
-+ minecraft:block.big_dripleaf.step
-+ minecraft:block.cave_vines.break
-+ minecraft:block.cave_vines.fall
-+ minecraft:block.cave_vines.hit
-+ minecraft:block.cave_vines.place
-+ minecraft:block.cave_vines.step
-+ minecraft:block.cave_vines.pick_berries
-+ minecraft:block.big_dripleaf.tilt_down
-+ minecraft:block.big_dripleaf.tilt_up
-+ minecraft:block.flowering_azalea.break
-+ minecraft:block.flowering_azalea.fall
-+ minecraft:block.flowering_azalea.hit
-+ minecraft:block.flowering_azalea.place
-+ minecraft:block.flowering_azalea.step
-+ minecraft:block.hanging_roots.break
-+ minecraft:block.hanging_roots.fall
-+ minecraft:block.hanging_roots.hit
-+ minecraft:block.hanging_roots.place
-+ minecraft:block.hanging_roots.step
-+ minecraft:block.moss_carpet.break
-+ minecraft:block.moss_carpet.fall
-+ minecraft:block.moss_carpet.hit
-+ minecraft:block.moss_carpet.place
-+ minecraft:block.moss_carpet.step
-+ minecraft:block.moss.break
-+ minecraft:block.moss.fall
-+ minecraft:block.moss.hit
-+ minecraft:block.moss.place
-+ minecraft:block.moss.step
-+ minecraft:block.rooted_dirt.break
-+ minecraft:block.rooted_dirt.fall
-+ minecraft:block.rooted_dirt.hit
-+ minecraft:block.rooted_dirt.place
-+ minecraft:block.rooted_dirt.step
-+ minecraft:entity.skeleton.converted_to_stray
-+ minecraft:block.small_dripleaf.break
-+ minecraft:block.small_dripleaf.fall
-+ minecraft:block.small_dripleaf.hit
-+ minecraft:block.small_dripleaf.place
-+ minecraft:block.small_dripleaf.step
-+ minecraft:block.spore_blossom.break
-+ minecraft:block.spore_blossom.fall
-+ minecraft:block.spore_blossom.hit
-+ minecraft:block.spore_blossom.place
-+ minecraft:block.spore_blossom.step
-+ minecraft:block.vine.break
-+ minecraft:block.vine.fall
-+ minecraft:block.vine.hit
-+ minecraft:block.vine.place
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- game_events/ignore_vibrations_stepping_carefully.json
-+ blocks/azalea_log_replaceable.json
-+ blocks/cave_vines.json
-+ blocks/lush_plants_replaceable.json
-+ game_events/ignore_vibrations_sneaking.json
-+ items/fox_food.json
-```
-
-</details>
-
-<details><summary>blocks/leaves.json</summary>
-
-```diff
-+ minecraft:azalea_leaves
-+ minecraft:azalea_leaves_flowers
-```
-
-</details>
-
-<details><summary>entity_types/powder_snow_walkable_mobs.json</summary>
-
-```diff
-+ minecraft:fox
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-- minecraft:entity_hit
-- minecraft:armor_stand_add_item
-- minecraft:flint_and_steel_use
-- minecraft:eating_finish
-+ minecraft:block_change
-+ minecraft:drinking_finish
-+ minecraft:eat
-+ minecraft:entity_damaged
-+ minecraft:entity_killed
-+ minecraft:entity_place
-+ minecraft:equip
-+ minecraft:mob_interact
-+ minecraft:minecart_moving
-+ minecraft:prime_fuse
-+ minecraft:ravager_roar
-+ minecraft:ring_bell
-+ minecraft:shear
-+ minecraft:shulker_close
-+ minecraft:shulker_open
-```
-
-</details>
-
-<details><summary>items/leaves.json</summary>
-
-```diff
-+ minecraft:azalea_leaves
-+ minecraft:azalea_leaves_flowers
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/building_blocks/lightly_weathered_cut_copper.json
-- recipes/building_blocks/lightly_weathered_cut_copper_slab.json
-- recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
-- recipes/building_blocks/semi_weathered_cut_copper.json
-- recipes/building_blocks/semi_weathered_cut_copper_slab.json
-- recipes/building_blocks/semi_weathered_cut_copper_stairs.json
-- recipes/building_blocks/waxed_lightly_weathered_copper.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
-- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_copper.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
-- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-+ recipes/building_blocks/cut_copper_from_copper_block_stonecutting.json
-+ recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting.json
-+ recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting.json
-+ recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting.json
-+ recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting.json
-+ recipes/building_blocks/exposed_cut_copper.json
-+ recipes/building_blocks/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
-+ recipes/building_blocks/exposed_cut_copper_slab.json
-+ recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
-+ recipes/building_blocks/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
-+ recipes/building_blocks/exposed_cut_copper_stairs.json
-+ recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
-+ recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
-+ recipes/building_blocks/oxidized_cut_copper.json
-+ recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
-+ recipes/building_blocks/oxidized_cut_copper_slab.json
-+ recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
-+ recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
-+ recipes/building_blocks/oxidized_cut_copper_stairs.json
-+ recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
-+ recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_cut_copper_from_waxed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_exposed_copper.json
-+ recipes/building_blocks/waxed_exposed_cut_copper.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_slab.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_stairs.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_honeycomb.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
-+ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_weathered_copper.json
-+ recipes/building_blocks/waxed_weathered_cut_copper.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_from_honeycomb.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_slab.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_honeycomb.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_stairs.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
-+ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
-+ recipes/building_blocks/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
-+ recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
-+ recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
-+ recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
-+ recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
-+ recipes/decorations/moss_carpet.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-- blocks/lightly_weathered_copper_block.json
-- blocks/lightly_weathered_cut_copper.json
-- blocks/lightly_weathered_cut_copper_slab.json
-- blocks/lightly_weathered_cut_copper_stairs.json
-- blocks/semi_weathered_copper_block.json
-- blocks/semi_weathered_cut_copper.json
-- blocks/semi_weathered_cut_copper_slab.json
-- blocks/semi_weathered_cut_copper_stairs.json
-- blocks/waxed_lightly_weathered_copper.json
-- blocks/waxed_lightly_weathered_cut_copper.json
-- blocks/waxed_lightly_weathered_cut_copper_slab.json
-- blocks/waxed_lightly_weathered_cut_copper_stairs.json
-- blocks/waxed_semi_weathered_copper.json
-- blocks/waxed_semi_weathered_cut_copper.json
-- blocks/waxed_semi_weathered_cut_copper_slab.json
-- blocks/waxed_semi_weathered_cut_copper_stairs.json
-+ blocks/azalea.json
-+ blocks/azalea_leaves.json
-+ blocks/azalea_leaves_flowers.json
-+ blocks/big_dripleaf.json
-+ blocks/big_dripleaf_stem.json
-+ blocks/cave_vines_body.json
-+ blocks/cave_vines_head.json
-+ blocks/exposed_copper_block.json
-+ blocks/exposed_cut_copper.json
-+ blocks/exposed_cut_copper_slab.json
-+ blocks/exposed_cut_copper_stairs.json
-+ blocks/flowering_azalea.json
-+ blocks/hanging_roots.json
-+ blocks/moss_block.json
-+ blocks/moss_carpet.json
-+ blocks/oxidized_copper_block.json
-+ blocks/oxidized_cut_copper.json
-+ blocks/oxidized_cut_copper_slab.json
-+ blocks/oxidized_cut_copper_stairs.json
-+ blocks/rooted_dirt.json
-+ blocks/small_dripleaf.json
-+ blocks/spore_blossom.json
-+ blocks/waxed_exposed_copper.json
-+ blocks/waxed_exposed_cut_copper.json
-+ blocks/waxed_exposed_cut_copper_slab.json
-+ blocks/waxed_exposed_cut_copper_stairs.json
-+ blocks/waxed_weathered_copper.json
-+ blocks/waxed_weathered_cut_copper.json
-+ blocks/waxed_weathered_cut_copper_slab.json
-+ blocks/waxed_weathered_cut_copper_stairs.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ falling_spore_blossom.json
-+ spore_blossom_air.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- lightly_weathered_cut_copper.json
-- lightly_weathered_cut_copper_slab.json
-- lightly_weathered_cut_copper_stairs.json
-- semi_weathered_cut_copper.json
-- semi_weathered_cut_copper_slab.json
-- semi_weathered_cut_copper_stairs.json
-- waxed_lightly_weathered_copper.json
-- waxed_lightly_weathered_cut_copper.json
-- waxed_lightly_weathered_cut_copper_from_honeycomb.json
-- waxed_lightly_weathered_cut_copper_slab.json
-- waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
-- waxed_lightly_weathered_cut_copper_stairs.json
-- waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
-- waxed_semi_weathered_copper.json
-- waxed_semi_weathered_cut_copper.json
-- waxed_semi_weathered_cut_copper_from_honeycomb.json
-- waxed_semi_weathered_cut_copper_slab.json
-- waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
-- waxed_semi_weathered_cut_copper_stairs.json
-- waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
-+ cut_copper_from_copper_block_stonecutting.json
-+ cut_copper_slab_from_copper_block_stonecutting.json
-+ cut_copper_slab_from_cut_copper_stonecutting.json
-+ cut_copper_stairs_from_copper_block_stonecutting.json
-+ cut_copper_stairs_from_cut_copper_stonecutting.json
-+ exposed_cut_copper.json
-+ exposed_cut_copper_from_exposed_copper_block_stonecutting.json
-+ exposed_cut_copper_slab.json
-+ exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
-+ exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
-+ exposed_cut_copper_stairs.json
-+ exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
-+ exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
-+ moss_carpet.json
-+ oxidized_cut_copper.json
-+ oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
-+ oxidized_cut_copper_slab.json
-+ oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
-+ oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
-+ oxidized_cut_copper_stairs.json
-+ oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
-+ oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
-+ waxed_cut_copper_from_waxed_copper_stonecutting.json
-+ waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
-+ waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
-+ waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
-+ waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
-+ waxed_exposed_copper.json
-+ waxed_exposed_cut_copper.json
-+ waxed_exposed_cut_copper_from_honeycomb.json
-+ waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
-+ waxed_exposed_cut_copper_slab.json
-+ waxed_exposed_cut_copper_slab_from_honeycomb.json
-+ waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
-+ waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
-+ waxed_exposed_cut_copper_stairs.json
-+ waxed_exposed_cut_copper_stairs_from_honeycomb.json
-+ waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
-+ waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
-+ waxed_weathered_copper.json
-+ waxed_weathered_cut_copper.json
-+ waxed_weathered_cut_copper_from_honeycomb.json
-+ waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
-+ waxed_weathered_cut_copper_slab.json
-+ waxed_weathered_cut_copper_slab_from_honeycomb.json
-+ waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
-+ waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
-+ waxed_weathered_cut_copper_stairs.json
-+ waxed_weathered_cut_copper_stairs_from_honeycomb.json
-+ waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
-+ waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
-+ weathered_cut_copper_from_weathered_copper_block_stonecutting.json
-+ weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
-+ weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
-+ weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
-+ weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- game_events/ignore_vibrations_stepping_carefully.json
-+ blocks/azalea_log_replaceable.json
-+ blocks/cave_vines.json
-+ blocks/lush_plants_replaceable.json
-+ game_events/ignore_vibrations_sneaking.json
-+ items/fox_food.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- block/lightly_weathered_copper_block.png
-- block/lightly_weathered_cut_copper.png
-- block/semi_weathered_copper_block.png
-- block/semi_weathered_cut_copper.png
-+ block/azalea_leaves.png
-+ block/azalea_leaves_flowers.png
-+ block/azalea_plant.png
-+ block/azalea_side.png
-+ block/azalea_top.png
-+ block/big_dripleaf_side.png
-+ block/big_dripleaf_stem.png
-+ block/big_dripleaf_tip.png
-+ block/big_dripleaf_top.png
-+ block/cave_vines_body.png
-+ block/cave_vines_body_lit.png
-+ block/cave_vines_head.png
-+ block/cave_vines_head_lit.png
-+ block/exposed_copper_block.png
-+ block/exposed_cut_copper.png
-+ block/flowering_azalea_side.png
-+ block/flowering_azalea_top.png
-+ block/hanging_roots.png
-+ block/moss_block.png
-+ block/oxidized_copper_block.png
-+ block/oxidized_cut_copper.png
-+ block/rooted_dirt.png
-+ block/root_vines_head.png
-+ block/small_dripleaf_side.png
-+ block/small_dripleaf_top.png
-+ block/spore_blossom.png
-+ block/spore_blossom_base.png
-+ item/glow_berries.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.HeartParticle</summary>
-
-```diff
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.NoteParticle</summary>
-
-```diff
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.particle.RisingParticle</summary>
-
-```diff
-- void tick()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides</summary>
-
-```diff
-+ ItemOverrides$BakedOverride[] overrides
-+ ResourceLocation[] properties
-- List overrideModels
-- List overrides
-+ BakedModel bakeModel(ItemOverride)
-+ ItemOverrides$PropertyMatcher lambda$new$1(ItemOverride$Predicate)
-+ ItemOverrides$PropertyMatcher[] lambda$new$2(int)
-+ ResourceLocation[] lambda$new$0(int)
-- BakedModel lambda$new$0(ItemOverride)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BlockFamilies</summary>
-
-```diff
-+ BlockFamily EXPOSED_CUT_COPPER
-+ BlockFamily OXIDIZED_CUT_COPPER
-+ BlockFamily WAXED_EXPOSED_CUT_COPPER
-+ BlockFamily WAXED_WEATHERED_CUT_COPPER
-- BlockFamily LIGHTLY_WEATHERED_CUT_COPPER
-- BlockFamily SEMI_WEATHERED_CUT_COPPER
-- BlockFamily WAXED_LIGHTLY_WEATHERED_CUT_COPPER
-- BlockFamily WAXED_SEMI_WEATHERED_CUT_COPPER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate AZALEA
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ String getBlockName(ItemLike)
-+ String getFromName(ItemLike)
-+ void carpet(ItemLike)
-+ void stonecutterResultFromBase(ItemLike,int)
-+ void stonecutterResultFromBase(ItemLike)
-- void carpetFromWool(ItemLike)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket</summary>
-
-```diff
-+ boolean dismountVehicle
-+ boolean requestDismountVehicle()
-+ void <init>(Set,int,boolean)
-- void <init>(Set,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ void setInitialSpawn(ServerLevelData,boolean,boolean)
-- void setInitialSpawn(ServerLevelData,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ void dismountTo(double,double,double)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ ChunkPos center
-- int x
-- int z
-+ ChunkPos getCenter()
-- int getCenterX()
-- int getCenterZ()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ void dismount(double,double,double,float,float)
-+ void teleport(Set,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent AZALEA_BREAK
-+ SoundEvent AZALEA_FALL
-+ SoundEvent AZALEA_HIT
-+ SoundEvent AZALEA_LEAVES_BREAK
-+ SoundEvent AZALEA_LEAVES_FALL
-+ SoundEvent AZALEA_LEAVES_HIT
-+ SoundEvent AZALEA_LEAVES_PLACE
-+ SoundEvent AZALEA_LEAVES_STEP
-+ SoundEvent AZALEA_PLACE
-+ SoundEvent AZALEA_STEP
-+ SoundEvent BIG_DRIPLEAF_BREAK
-+ SoundEvent BIG_DRIPLEAF_FALL
-+ SoundEvent BIG_DRIPLEAF_HIT
-+ SoundEvent BIG_DRIPLEAF_PLACE
-+ SoundEvent BIG_DRIPLEAF_STEP
-+ SoundEvent BIG_DRIPLEAF_TILT_DOWN
-+ SoundEvent BIG_DRIPLEAF_TILT_UP
-+ SoundEvent CAVE_VINES_BREAK
-+ SoundEvent CAVE_VINES_FALL
-+ SoundEvent CAVE_VINES_HIT
-+ SoundEvent CAVE_VINES_PICK_BERRIES
-+ SoundEvent CAVE_VINES_PLACE
-+ SoundEvent CAVE_VINES_STEP
-+ SoundEvent FLOWERING_AZALEA_BREAK
-+ SoundEvent FLOWERING_AZALEA_FALL
-+ SoundEvent FLOWERING_AZALEA_HIT
-+ SoundEvent FLOWERING_AZALEA_PLACE
-+ SoundEvent FLOWERING_AZALEA_STEP
-+ SoundEvent HANGING_ROOTS_BREAK
-+ SoundEvent HANGING_ROOTS_FALL
-+ SoundEvent HANGING_ROOTS_HIT
-+ SoundEvent HANGING_ROOTS_PLACE
-+ SoundEvent HANGING_ROOTS_STEP
-+ SoundEvent MOSS_BREAK
-+ SoundEvent MOSS_CARPET_BREAK
-+ SoundEvent MOSS_CARPET_FALL
-+ SoundEvent MOSS_CARPET_HIT
-+ SoundEvent MOSS_CARPET_PLACE
-+ SoundEvent MOSS_CARPET_STEP
-+ SoundEvent MOSS_FALL
-+ SoundEvent MOSS_HIT
-+ SoundEvent MOSS_PLACE
-+ SoundEvent MOSS_STEP
-+ SoundEvent ROOTED_DIRT_BREAK
-+ SoundEvent ROOTED_DIRT_FALL
-+ SoundEvent ROOTED_DIRT_HIT
-+ SoundEvent ROOTED_DIRT_PLACE
-+ SoundEvent ROOTED_DIRT_STEP
-+ SoundEvent SKELETON_CONVERTED_TO_STRAY
-+ SoundEvent SMALL_DRIPLEAF_BREAK
-+ SoundEvent SMALL_DRIPLEAF_FALL
-+ SoundEvent SMALL_DRIPLEAF_HIT
-+ SoundEvent SMALL_DRIPLEAF_PLACE
-+ SoundEvent SMALL_DRIPLEAF_STEP
-+ SoundEvent SPORE_BLOSSOM_BREAK
-+ SoundEvent SPORE_BLOSSOM_FALL
-+ SoundEvent SPORE_BLOSSOM_HIT
-+ SoundEvent SPORE_BLOSSOM_PLACE
-+ SoundEvent SPORE_BLOSSOM_STEP
-+ SoundEvent VINE_BREAK
-+ SoundEvent VINE_FALL
-+ SoundEvent VINE_HIT
-+ SoundEvent VINE_PLACE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named AZALEA_LOG_REPLACEABLE
-+ Tag$Named CAVE_VINES
-+ Tag$Named LUSH_PLANTS_REPLACEABLE
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named FOX_FOOD
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean isInPowderSnow
-+ boolean wasInPowderSnow
-+ boolean wasOnFire
-+ float flyDist
-- boolean bodyIsInPowderSnow
-- float nextFlap
-+ BlockPos eyeBlockPosition()
-+ boolean isFlapping()
-+ Entity$MovementEmission getMovementEmission()
-+ Vec3 getEyePosition()
-+ void dismountTo(double,double,double)
-+ void gameEvent(BlockPos)
-+ void gameEvent(BlockPos)
-+ void gameEvent(Entity)
-+ void lambda$refreshDimensions$12(Vec3)
-+ void onFlap()
-+ void processFlappingMovement()
-+ void setIsInPowderSnow(boolean)
-+ void setPos(Vec3)
-+ void setSharedFlagOnFire(boolean)
-- boolean isMovementNoisy()
-- boolean lambda$refreshDimensions$12(BlockPos)
-- boolean makeFlySound()
-- float playFlySound(float)
-- void gameEvent(GameEvent)
-- void resetPos()
-- void setBodyIsInPowderSnow(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
-
-```diff
-+ void spawnDestroyParticles(BlockState)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BellBlock</summary>
-
-```diff
-+ boolean attemptToRing(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
-
-```diff
-+ BlockState updateHeadAfterConvertedFromBody(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
-
-```diff
-+ void lambda$count$1(Int2IntMap,int)
-+ void lambda$count$2(Int2IntMap$Entry)
-- String lambda$acquire$1(Thread)
-- void lambda$count$2(Int2IntMap,int)
-- void lambda$count$3(Int2IntMap$Entry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
-
-```diff
-+ boolean outsideStoredRange(long)
-+ long getKey(ChunkPos,int)
-- boolean outsideStoredRange(SectionPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ GameEvent BLOCK_CHANGE
-+ GameEvent DRINKING_FINISH
-+ GameEvent EAT
-+ GameEvent ENTITY_DAMAGED
-+ GameEvent ENTITY_KILLED
-+ GameEvent ENTITY_PLACE
-+ GameEvent EQUIP
-+ GameEvent MINECART_MOVING
-+ GameEvent MOB_INTERACT
-+ GameEvent PRIME_FUSE
-+ GameEvent RAVAGER_ROAR
-+ GameEvent RING_BELL
-+ GameEvent SHEAR
-+ GameEvent SHULKER_CLOSE
-+ GameEvent SHULKER_OPEN
-- GameEvent ARMOR_STAND_ADD_ITEM
-- GameEvent EATING_FINISH
-- GameEvent ENTITY_HIT
-- GameEvent FLINT_AND_STEEL_USE
-+ String toString()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BambooFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(ProbabilityFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(FeatureConfiguration)
-- boolean isFeatureChunk(JigsawConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(BlockPileConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BonusChestFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
-
-```diff
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(ProbabilityFeatureConfiguration)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DecoratedFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-+ void lambda$place$0(BlockPos)
-- boolean place(DecoratedFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-- void lambda$place$0(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DeltaFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(DeltaFeatureConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DiskReplaceFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(DiskConfiguration)
-- boolean place(FeatureConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature$EndCityStart</summary>
-
-```diff
-+ void generatePieces(LevelHeightAccessor)
-+ void generatePieces(LevelHeightAccessor)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndIslandFeature</summary>
-
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ boolean place(net.minecraft.world.level.levelgen.feature.FeaturePlaceContext)
-- boolean place(net.minecraft.world.level.WorldGenLevel,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,net.minecraft.core.BlockPos,net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
-
-```diff
-+ NormalNoise create(DoubleList)
-+ NormalNoise create(RandomSource,int,double[])
-+ void <init>(DoubleList)
-- NormalNoise create(DoubleList)
-- NormalNoise create(WorldgenRandom,int,double[])
-- void <init>(DoubleList)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise</summary>
-
-```diff
-+ void <init>(IntSortedSet)
-+ void <init>(IntStream)
-+ void <init>(List)
-- void <init>(IntSortedSet)
-- void <init>(IntStream)
-- void <init>(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.FluidState</summary>
-
-```diff
-+ boolean isSourceOfType(Fluid)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.AABB</summary>
-
-```diff
-+ AABB ofSize(Vec3,double,double,double)
-- AABB ofSize(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.color.block.BlockColor
@@ -6089,1469 +3280,401 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.SectionPos</summary>
+<details><summary>net.minecraft.client.particle.HeartParticle</summary>
 
 ```diff
-+ long asLong(BlockPos)
-+ SectionPos bottomOf(ChunkAccess)
+- void tick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
+<details><summary>net.minecraft.client.particle.NoteParticle</summary>
 
 ```diff
-+ SimpleParticleType FALLING_SPORE_BLOSSOM
-+ SimpleParticleType SPORE_BLOSSOM_AIR
+- void tick()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.client.particle.RisingParticle</summary>
 
 ```diff
-+ LootTable$Builder createCaveVinesDrop(Block)
-+ LootTable$Builder lambda$accept$74(Block)
-+ LootTable$Builder lambda$accept$75(Block)
-+ LootTable$Builder lambda$dropPottedContents$76(Block)
-- LootTable$Builder lambda$dropPottedContents$74(Block)
+- void tick()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.client.renderer.block.model.ItemOverrides</summary>
 
 ```diff
-+ void createAzalea(Block)
-+ void createBigDripLeafBlock()
-+ void createCaveVines()
-+ void createFullAndCarpetBlocks(Block)
-+ void createSmallDripleaf()
-- void createWoolBlocks(Block)
++ BakedModel bakeModel(ModelBakery,BlockModel,Function,ItemOverride)
+- BakedModel lambda$new$0(Function,BlockModel,ModelBakery,ItemOverride)
++ ItemOverrides$PropertyMatcher lambda$new$1(Object2IntMap,ItemOverride$Predicate)
++ ItemOverrides$PropertyMatcher[] lambda$new$2(int)
++ ResourceLocation[] lambda$new$0(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.GameEventTags</summary>
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
 
 ```diff
-+ Tag$Named IGNORE_VIBRATIONS_SNEAKING
-- Tag$Named IGNORE_VIBRATIONS_STEPPING_CAREFULLY
++ String getBlockName(ItemLike)
++ String getFromName(ItemLike,ItemLike)
++ void carpet(Consumer,ItemLike,ItemLike)
+- void carpetFromWool(Consumer,ItemLike,ItemLike)
++ void stonecutterResultFromBase(Consumer,ItemLike,ItemLike,int)
++ void stonecutterResultFromBase(Consumer,ItemLike,ItemLike)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.LazyLoadedValue</summary>
+<details><summary>net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket</summary>
 
 ```diff
-- Object value
++ boolean requestDismountVehicle()
++ void <init>(double,double,double,float,float,Set,int,boolean)
+- void <init>(double,double,double,float,float,Set,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.util.Mth</summary>
+<details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-+ double smoothstepDerivative(double)
+- void setInitialSpawn(ServerLevel,ServerLevelData,boolean,boolean,boolean)
++ void setInitialSpawn(ServerLevel,ServerLevelData,boolean,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
 
 ```diff
-+ BlockState getGrowIntoState(Random)
-+ BlockState updateBodyAfterConvertedFromHead(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
-
-```diff
-- ImmutableMap getShapes(StateDefinition)
++ void dismountTo(double,double,double)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
 
 ```diff
-+ int getBaseHeight(int,int,net.minecraft.world.level.levelgen.Heightmap$Types,net.minecraft.world.level.LevelHeightAccessor)
-+ NoiseColumn getBaseColumn(int,int,net.minecraft.world.level.LevelHeightAccessor)
-- int getBaseHeight(int,int,net.minecraft.world.level.levelgen.Heightmap$Types)
-- NoiseColumn getBaseColumn(int,int)
-+ int getFirstFreeHeight(LevelHeightAccessor)
-+ int getFirstOccupiedHeight(LevelHeightAccessor)
-+ void createStructure(Biome)
-- int getFirstFreeHeight(Heightmap$Types)
-- int getFirstOccupiedHeight(Heightmap$Types)
-- void createStructure(Biome)
++ ChunkPos getCenter()
+- int getCenterX()
+- int getCenterZ()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.EntitySectionStorage</summary>
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-- long entityPosToSectionKey(BlockPos)
++ void dismount(double,double,double,float,float)
++ void teleport(double,double,double,float,float,Set,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ int count
-+ int getCount()
-+ int next(int)
-- void consumeCount(int)
++ BlockPos eyeBlockPosition()
++ boolean isFlapping()
+- boolean isMovementNoisy()
+- boolean lambda$refreshDimensions$12(BlockState,BlockPos)
+- boolean makeFlySound()
++ Entity$MovementEmission getMovementEmission()
+- float playFlySound(float)
++ Vec3 getEyePosition()
++ void dismountTo(double,double,double)
+- void gameEvent(Entity,GameEvent)
++ void gameEvent(GameEvent,BlockPos)
++ void gameEvent(GameEvent,Entity,BlockPos)
++ void gameEvent(GameEvent,Entity)
++ void lambda$refreshDimensions$12(EntityDimensions,Vec3)
++ void onFlap()
++ void processFlappingMovement()
+- void resetPos()
+- void setBodyIsInPowderSnow(boolean)
++ void setIsInPowderSnow(boolean)
++ void setPos(Vec3)
++ void setSharedFlagOnFire(boolean)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
+
+```diff
++ void spawnDestroyParticles(Level,Player,BlockPos,BlockState)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.level.block.BellBlock</summary>
+
+```diff
++ boolean attemptToRing(Entity,Level,BlockPos,Direction)
+```
+
+</details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.AbstractHugeMushroomFeature</summary>
+<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
+
+```diff
++ BlockState updateHeadAfterConvertedFromBody(BlockState,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.PalettedContainer</summary>
+
+```diff
+- String lambda$acquire$1(Thread)
++ void lambda$count$1(Int2IntMap,int)
+- void lambda$count$2(Int2IntMap,int)
++ void lambda$count$2(PalettedContainer$CountConsumer,Int2IntMap$Entry)
+- void lambda$count$3(PalettedContainer$CountConsumer,Int2IntMap$Entry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.SectionStorage</summary>
+
+```diff
++ boolean outsideStoredRange(long)
+- boolean outsideStoredRange(SectionPos)
++ long getKey(ChunkPos,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
+
+```diff
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractFlowerFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(HugeMushroomFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BasaltColumnsFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BambooFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(ColumnFeatureConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,ProbabilityFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BaseDiskFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BasaltPillarFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(DiskConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BlockBlobFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlockPileFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(BlockStateConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,BlockPileConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BlueIceFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BonusChestFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature$BuriedTreasureStart</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(FeatureConfiguration)
-- boolean isFeatureChunk(ProbabilityFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ProbabilityFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ProbabilityFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
 
-```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
-
-```diff
-+ StructureStart generate(LevelHeightAccessor)
-- StructureStart generate(StructureFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.DecoratedFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,DecoratedFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
++ void lambda$place$0(ConfiguredFeature,WorldGenLevel,ChunkGenerator,Random,MutableBoolean,BlockPos)
+- void lambda$place$0(DecoratedFeatureConfiguration,WorldGenLevel,ChunkGenerator,Random,MutableBoolean,BlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertWellFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.DeltaFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,DeltaFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.DripstoneClusterFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature$FeatureStart</summary>
+
+```diff
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DiskReplaceFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(DripstoneClusterConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,DiskConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature$EndCityStart</summary>
 
 ```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ int access$000(LevelHeightAccessor)
-+ int getYPositionForFeature(LevelHeightAccessor)
-- boolean isFeatureChunk(FeatureConfiguration)
-- boolean isFeatureChunk(NoneFeatureConfiguration)
-- int access$000(ChunkGenerator)
-- int getYPositionForFeature(ChunkGenerator)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.EndGatewayFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndIslandFeature</summary>
 
 ```diff
 + boolean place(FeaturePlaceContext)
-- boolean place(EndGatewayConfiguration)
-- boolean place(FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.feature.EndPodiumFeature</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
 
 ```diff
-+ boolean place(FeaturePlaceContext)
-- boolean place(FeatureConfiguration)
-- boolean place(NoneFeatureConfiguration)
++ NormalNoise create(RandomSource,int,double[])
++ NormalNoise create(RandomSource,int,DoubleList)
+- NormalNoise create(WorldgenRandom,int,double[])
+- NormalNoise create(WorldgenRandom,int,DoubleList)
++ void <init>(RandomSource,int,DoubleList)
+- void <init>(WorldgenRandom,int,DoubleList)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.synth.ImprovedNoise</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise</summary>
 
 ```diff
-+ double noise(double,double,double)
-+ double noiseWithDerivative(double,double,double,double[])
-+ double sampleAndLerp(int,int,int,double,double,double,double)
-+ double sampleWithDerivative(int,int,int,double,double,double,double[])
-+ void <init>(RandomSource)
-- double sampleAndLerp(int,int,int,double,double,double,double,double,double)
-- void <init>(Random)
++ void <init>(RandomSource,IntSortedSet)
++ void <init>(RandomSource,IntStream)
++ void <init>(RandomSource,List)
+- void <init>(WorldgenRandom,IntSortedSet)
+- void <init>(WorldgenRandom,IntStream)
+- void <init>(WorldgenRandom,List)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+<details><summary>net.minecraft.world.level.material.FluidState</summary>
 
 ```diff
-+ PerlinNoise create(DoubleList)
-+ PerlinNoise create(RandomSource,int,double[])
-+ void <init>(IntSortedSet)
-+ void <init>(IntStream)
-+ void <init>(List)
-+ void <init>(Pair)
-- PerlinNoise create(DoubleList)
-- PerlinNoise create(WorldgenRandom,int,double[])
-- void <init>(IntSortedSet)
-- void <init>(IntStream)
-- void <init>(List)
-- void <init>(Pair)
++ boolean isSourceOfType(Fluid)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.synth.SimplexNoise</summary>
+
+<details><summary>net.minecraft.world.phys.AABB</summary>
 
 ```diff
-+ void <init>(RandomSource)
-- void <init>(Random)
+- AABB ofSize(double,double,double)
++ AABB ofSize(Vec3,double,double,double)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.VoxelShape</summary>
-
-```diff
-+ Optional closestPointTo(Vec3)
-+ void lambda$closestPointTo$5(Vec3[],double,double,double,double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.util.datafix.DataFixers
@@ -9624,13 +5747,1351 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.SectionPos</summary>
+
+```diff
++ long asLong(BlockPos)
++ SectionPos bottomOf(ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder createCaveVinesDrop(Block)
++ LootTable$Builder lambda$accept$74(Block)
++ LootTable$Builder lambda$accept$75(Block)
+- LootTable$Builder lambda$dropPottedContents$74(Block)
++ LootTable$Builder lambda$dropPottedContents$76(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createAzalea(Block)
++ void createBigDripLeafBlock()
++ void createCaveVines()
++ void createFullAndCarpetBlocks(Block,Block)
++ void createSmallDripleaf()
+- void createWoolBlocks(Block,Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ double smoothstepDerivative(double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantHeadBlock</summary>
+
+```diff
++ BlockState getGrowIntoState(BlockState,Random)
++ BlockState updateBodyAfterConvertedFromHead(BlockState,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MultifaceBlock</summary>
+
+```diff
+- ImmutableMap getShapes(StateDefinition)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
++ int getFirstFreeHeight(int,int,Heightmap$Types,LevelHeightAccessor)
+- int getFirstFreeHeight(int,int,Heightmap$Types)
++ int getFirstOccupiedHeight(int,int,Heightmap$Types,LevelHeightAccessor)
+- int getFirstOccupiedHeight(int,int,Heightmap$Types)
++ void createStructure(ConfiguredStructureFeature,RegistryAccess,StructureFeatureManager,ChunkAccess,StructureManager,long,Biome)
+- void createStructure(ConfiguredStructureFeature,RegistryAccess,StructureFeatureManager,ChunkAccess,StructureManager,long,ChunkPos,Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.entity.EntitySectionStorage</summary>
+
+```diff
+- long entityPosToSectionKey(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
+
+```diff
++ int getCount()
++ int next(int)
+- void consumeCount(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.AbstractHugeMushroomFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,HugeMushroomFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BasaltColumnsFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,ColumnFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BaseDiskFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,DiskConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlockBlobFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,BlockStateConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BlueIceFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,ProbabilityFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ChorusPlantFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
+
+```diff
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,Biome,int,StructureFeatureConfiguration,LevelHeightAccessor)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,Biome,int,StructureFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertWellFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DripstoneClusterFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,DripstoneClusterConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,FeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration)
++ int access$000(int,int,ChunkGenerator,LevelHeightAccessor)
+- int access$000(int,int,ChunkGenerator)
++ int getYPositionForFeature(int,int,ChunkGenerator,LevelHeightAccessor)
+- int getYPositionForFeature(int,int,ChunkGenerator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndGatewayFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,EndGatewayConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.EndPodiumFeature</summary>
+
+```diff
++ boolean place(FeaturePlaceContext)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.ImprovedNoise</summary>
+
+```diff
++ double noise(double,double,double)
++ double noiseWithDerivative(double,double,double,double[])
+- double sampleAndLerp(int,int,int,double,double,double,double,double,double)
++ double sampleAndLerp(int,int,int,double,double,double,double)
++ double sampleWithDerivative(int,int,int,double,double,double,double[])
+- void <init>(Random)
++ void <init>(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+```diff
++ PerlinNoise create(RandomSource,int,double[])
++ PerlinNoise create(RandomSource,int,DoubleList)
+- PerlinNoise create(WorldgenRandom,int,double[])
+- PerlinNoise create(WorldgenRandom,int,DoubleList)
++ void <init>(RandomSource,IntSortedSet)
++ void <init>(RandomSource,IntStream)
++ void <init>(RandomSource,List)
++ void <init>(RandomSource,Pair)
+- void <init>(WorldgenRandom,IntSortedSet)
+- void <init>(WorldgenRandom,IntStream)
+- void <init>(WorldgenRandom,List)
+- void <init>(WorldgenRandom,Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.SimplexNoise</summary>
+
+```diff
+- void <init>(Random)
++ void <init>(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.VoxelShape</summary>
+
+```diff
++ Optional closestPointTo(Vec3)
++ void lambda$closestPointTo$5(Vec3,Vec3[],double,double,double,double,double,double)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/building_blocks/cut_copper_from_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_slab.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper_stairs.json
++ minecraft/advancements/recipes/building_blocks/exposed_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/lightly_weathered_cut_copper.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_slab.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper_stairs.json
++ minecraft/advancements/recipes/building_blocks/oxidized_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/semi_weathered_cut_copper.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_from_waxed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_copper.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_slab.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper_stairs.json
++ minecraft/advancements/recipes/building_blocks/waxed_exposed_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_lightly_weathered_cut_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_copper.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/advancements/recipes/building_blocks/waxed_semi_weathered_cut_copper.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_copper.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_slab.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper_stairs.json
++ minecraft/advancements/recipes/building_blocks/waxed_weathered_cut_copper.json
++ minecraft/advancements/recipes/building_blocks/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
++ minecraft/advancements/recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
++ minecraft/advancements/recipes/decorations/moss_carpet.json
++ minecraft/loot_tables/blocks/azalea_leaves_flowers.json
++ minecraft/loot_tables/blocks/azalea_leaves.json
++ minecraft/loot_tables/blocks/azalea.json
++ minecraft/loot_tables/blocks/big_dripleaf_stem.json
++ minecraft/loot_tables/blocks/big_dripleaf.json
++ minecraft/loot_tables/blocks/cave_vines_body.json
++ minecraft/loot_tables/blocks/cave_vines_head.json
++ minecraft/loot_tables/blocks/exposed_copper_block.json
++ minecraft/loot_tables/blocks/exposed_cut_copper_slab.json
++ minecraft/loot_tables/blocks/exposed_cut_copper_stairs.json
++ minecraft/loot_tables/blocks/exposed_cut_copper.json
++ minecraft/loot_tables/blocks/flowering_azalea.json
++ minecraft/loot_tables/blocks/hanging_roots.json
+- minecraft/loot_tables/blocks/lightly_weathered_copper_block.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/lightly_weathered_cut_copper.json
++ minecraft/loot_tables/blocks/moss_block.json
++ minecraft/loot_tables/blocks/moss_carpet.json
++ minecraft/loot_tables/blocks/oxidized_copper_block.json
++ minecraft/loot_tables/blocks/oxidized_cut_copper_slab.json
++ minecraft/loot_tables/blocks/oxidized_cut_copper_stairs.json
++ minecraft/loot_tables/blocks/oxidized_cut_copper.json
++ minecraft/loot_tables/blocks/rooted_dirt.json
+- minecraft/loot_tables/blocks/semi_weathered_copper_block.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/semi_weathered_cut_copper.json
++ minecraft/loot_tables/blocks/small_dripleaf.json
++ minecraft/loot_tables/blocks/spore_blossom.json
++ minecraft/loot_tables/blocks/waxed_exposed_copper.json
++ minecraft/loot_tables/blocks/waxed_exposed_cut_copper_slab.json
++ minecraft/loot_tables/blocks/waxed_exposed_cut_copper_stairs.json
++ minecraft/loot_tables/blocks/waxed_exposed_cut_copper.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_copper.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/waxed_lightly_weathered_cut_copper.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_copper.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/loot_tables/blocks/waxed_semi_weathered_cut_copper.json
++ minecraft/loot_tables/blocks/waxed_weathered_copper.json
++ minecraft/loot_tables/blocks/waxed_weathered_cut_copper_slab.json
++ minecraft/loot_tables/blocks/waxed_weathered_cut_copper_stairs.json
++ minecraft/loot_tables/blocks/waxed_weathered_cut_copper.json
++ minecraft/recipes/cut_copper_from_copper_block_stonecutting.json
++ minecraft/recipes/cut_copper_slab_from_copper_block_stonecutting.json
++ minecraft/recipes/cut_copper_slab_from_cut_copper_stonecutting.json
++ minecraft/recipes/cut_copper_stairs_from_copper_block_stonecutting.json
++ minecraft/recipes/cut_copper_stairs_from_cut_copper_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_slab.json
++ minecraft/recipes/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
++ minecraft/recipes/exposed_cut_copper_stairs.json
++ minecraft/recipes/exposed_cut_copper.json
+- minecraft/recipes/lightly_weathered_cut_copper_slab.json
+- minecraft/recipes/lightly_weathered_cut_copper_stairs.json
+- minecraft/recipes/lightly_weathered_cut_copper.json
++ minecraft/recipes/moss_carpet.json
++ minecraft/recipes/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
++ minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
++ minecraft/recipes/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
++ minecraft/recipes/oxidized_cut_copper_slab.json
++ minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
++ minecraft/recipes/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
++ minecraft/recipes/oxidized_cut_copper_stairs.json
++ minecraft/recipes/oxidized_cut_copper.json
+- minecraft/recipes/semi_weathered_cut_copper_slab.json
+- minecraft/recipes/semi_weathered_cut_copper_stairs.json
+- minecraft/recipes/semi_weathered_cut_copper.json
++ minecraft/recipes/waxed_cut_copper_from_waxed_copper_stonecutting.json
++ minecraft/recipes/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
++ minecraft/recipes/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
++ minecraft/recipes/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_copper.json
++ minecraft/recipes/waxed_exposed_cut_copper_from_honeycomb.json
++ minecraft/recipes/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_cut_copper_slab_from_honeycomb.json
++ minecraft/recipes/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_cut_copper_slab.json
++ minecraft/recipes/waxed_exposed_cut_copper_stairs_from_honeycomb.json
++ minecraft/recipes/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_exposed_cut_copper_stairs.json
++ minecraft/recipes/waxed_exposed_cut_copper.json
+- minecraft/recipes/waxed_lightly_weathered_copper.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/recipes/waxed_lightly_weathered_cut_copper.json
+- minecraft/recipes/waxed_semi_weathered_copper.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/recipes/waxed_semi_weathered_cut_copper.json
++ minecraft/recipes/waxed_weathered_copper.json
++ minecraft/recipes/waxed_weathered_cut_copper_from_honeycomb.json
++ minecraft/recipes/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
++ minecraft/recipes/waxed_weathered_cut_copper_slab_from_honeycomb.json
++ minecraft/recipes/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
++ minecraft/recipes/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_weathered_cut_copper_slab.json
++ minecraft/recipes/waxed_weathered_cut_copper_stairs_from_honeycomb.json
++ minecraft/recipes/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
++ minecraft/recipes/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
++ minecraft/recipes/waxed_weathered_cut_copper_stairs.json
++ minecraft/recipes/waxed_weathered_cut_copper.json
++ minecraft/recipes/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
++ minecraft/recipes/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
++ minecraft/recipes/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
++ minecraft/recipes/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
++ minecraft/recipes/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
++ minecraft/tags/blocks/azalea_log_replaceable.json
++ minecraft/tags/blocks/cave_vines.json
++ minecraft/tags/blocks/lush_plants_replaceable.json
++ minecraft/tags/game_events/ignore_vibrations_sneaking.json
+- minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
++ minecraft/tags/items/fox_food.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/azalea_leaves_flowers.json
++ minecraft/blockstates/azalea_leaves.json
++ minecraft/blockstates/azalea.json
++ minecraft/blockstates/big_dripleaf_stem.json
++ minecraft/blockstates/big_dripleaf.json
++ minecraft/blockstates/cave_vines_body.json
++ minecraft/blockstates/cave_vines_head.json
++ minecraft/blockstates/exposed_copper_block.json
++ minecraft/blockstates/exposed_cut_copper_slab.json
++ minecraft/blockstates/exposed_cut_copper_stairs.json
++ minecraft/blockstates/exposed_cut_copper.json
++ minecraft/blockstates/flowering_azalea.json
++ minecraft/blockstates/hanging_roots.json
+- minecraft/blockstates/lightly_weathered_copper_block.json
+- minecraft/blockstates/lightly_weathered_cut_copper_slab.json
+- minecraft/blockstates/lightly_weathered_cut_copper_stairs.json
+- minecraft/blockstates/lightly_weathered_cut_copper.json
++ minecraft/blockstates/moss_block.json
++ minecraft/blockstates/moss_carpet.json
++ minecraft/blockstates/oxidized_copper_block.json
++ minecraft/blockstates/oxidized_cut_copper_slab.json
++ minecraft/blockstates/oxidized_cut_copper_stairs.json
++ minecraft/blockstates/oxidized_cut_copper.json
++ minecraft/blockstates/rooted_dirt.json
+- minecraft/blockstates/semi_weathered_copper_block.json
+- minecraft/blockstates/semi_weathered_cut_copper_slab.json
+- minecraft/blockstates/semi_weathered_cut_copper_stairs.json
+- minecraft/blockstates/semi_weathered_cut_copper.json
++ minecraft/blockstates/small_dripleaf.json
++ minecraft/blockstates/spore_blossom.json
++ minecraft/blockstates/waxed_exposed_copper.json
++ minecraft/blockstates/waxed_exposed_cut_copper_slab.json
++ minecraft/blockstates/waxed_exposed_cut_copper_stairs.json
++ minecraft/blockstates/waxed_exposed_cut_copper.json
+- minecraft/blockstates/waxed_lightly_weathered_copper.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/blockstates/waxed_lightly_weathered_cut_copper.json
+- minecraft/blockstates/waxed_semi_weathered_copper.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/blockstates/waxed_semi_weathered_cut_copper.json
++ minecraft/blockstates/waxed_weathered_copper.json
++ minecraft/blockstates/waxed_weathered_cut_copper_slab.json
++ minecraft/blockstates/waxed_weathered_cut_copper_stairs.json
++ minecraft/blockstates/waxed_weathered_cut_copper.json
++ minecraft/models/block/azalea_leaves_flowers.json
++ minecraft/models/block/azalea_leaves.json
++ minecraft/models/block/azalea.json
++ minecraft/models/block/big_dripleaf_full_tilt.json
++ minecraft/models/block/big_dripleaf_partial_tilt.json
++ minecraft/models/block/big_dripleaf_stem.json
++ minecraft/models/block/big_dripleaf.json
++ minecraft/models/block/cave_vines_body_lit.json
++ minecraft/models/block/cave_vines_body.json
++ minecraft/models/block/cave_vines_head_lit.json
++ minecraft/models/block/cave_vines_head.json
++ minecraft/models/block/exposed_copper_block.json
++ minecraft/models/block/exposed_cut_copper_slab_top.json
++ minecraft/models/block/exposed_cut_copper_slab.json
++ minecraft/models/block/exposed_cut_copper_stairs_inner.json
++ minecraft/models/block/exposed_cut_copper_stairs_outer.json
++ minecraft/models/block/exposed_cut_copper_stairs.json
++ minecraft/models/block/exposed_cut_copper.json
++ minecraft/models/block/flowering_azalea.json
++ minecraft/models/block/hanging_roots.json
+- minecraft/models/block/lightly_weathered_copper_block.json
+- minecraft/models/block/lightly_weathered_cut_copper_slab_top.json
+- minecraft/models/block/lightly_weathered_cut_copper_slab.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs_inner.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs_outer.json
+- minecraft/models/block/lightly_weathered_cut_copper_stairs.json
+- minecraft/models/block/lightly_weathered_cut_copper.json
++ minecraft/models/block/moss_block.json
++ minecraft/models/block/moss_carpet.json
++ minecraft/models/block/oxidized_copper_block.json
++ minecraft/models/block/oxidized_cut_copper_slab_top.json
++ minecraft/models/block/oxidized_cut_copper_slab.json
++ minecraft/models/block/oxidized_cut_copper_stairs_inner.json
++ minecraft/models/block/oxidized_cut_copper_stairs_outer.json
++ minecraft/models/block/oxidized_cut_copper_stairs.json
++ minecraft/models/block/oxidized_cut_copper.json
++ minecraft/models/block/rooted_dirt.json
+- minecraft/models/block/semi_weathered_copper_block.json
+- minecraft/models/block/semi_weathered_cut_copper_slab_top.json
+- minecraft/models/block/semi_weathered_cut_copper_slab.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs_inner.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs_outer.json
+- minecraft/models/block/semi_weathered_cut_copper_stairs.json
+- minecraft/models/block/semi_weathered_cut_copper.json
++ minecraft/models/block/small_dripleaf_bottom.json
++ minecraft/models/block/small_dripleaf_top.json
++ minecraft/models/block/spore_blossom.json
++ minecraft/models/block/template_azalea.json
++ minecraft/models/item/azalea_leaves_flowers.json
++ minecraft/models/item/azalea_leaves.json
++ minecraft/models/item/azalea.json
++ minecraft/models/item/big_dripleaf.json
++ minecraft/models/item/exposed_copper_block.json
++ minecraft/models/item/exposed_cut_copper_slab.json
++ minecraft/models/item/exposed_cut_copper_stairs.json
++ minecraft/models/item/exposed_cut_copper.json
++ minecraft/models/item/flowering_azalea.json
++ minecraft/models/item/glow_berries.json
++ minecraft/models/item/hanging_roots.json
+- minecraft/models/item/lightly_weathered_copper_block.json
+- minecraft/models/item/lightly_weathered_cut_copper_slab.json
+- minecraft/models/item/lightly_weathered_cut_copper_stairs.json
+- minecraft/models/item/lightly_weathered_cut_copper.json
++ minecraft/models/item/moss_block.json
++ minecraft/models/item/moss_carpet.json
++ minecraft/models/item/oxidized_copper_block.json
++ minecraft/models/item/oxidized_cut_copper_slab.json
++ minecraft/models/item/oxidized_cut_copper_stairs.json
++ minecraft/models/item/oxidized_cut_copper.json
++ minecraft/models/item/rooted_dirt.json
+- minecraft/models/item/semi_weathered_copper_block.json
+- minecraft/models/item/semi_weathered_cut_copper_slab.json
+- minecraft/models/item/semi_weathered_cut_copper_stairs.json
+- minecraft/models/item/semi_weathered_cut_copper.json
++ minecraft/models/item/small_dripleaf.json
++ minecraft/models/item/spore_blossom.json
++ minecraft/models/item/waxed_exposed_copper.json
++ minecraft/models/item/waxed_exposed_cut_copper_slab.json
++ minecraft/models/item/waxed_exposed_cut_copper_stairs.json
++ minecraft/models/item/waxed_exposed_cut_copper.json
+- minecraft/models/item/waxed_lightly_weathered_copper.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper_slab.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper_stairs.json
+- minecraft/models/item/waxed_lightly_weathered_cut_copper.json
+- minecraft/models/item/waxed_semi_weathered_copper.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper_slab.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper_stairs.json
+- minecraft/models/item/waxed_semi_weathered_cut_copper.json
++ minecraft/models/item/waxed_weathered_copper.json
++ minecraft/models/item/waxed_weathered_cut_copper_slab.json
++ minecraft/models/item/waxed_weathered_cut_copper_stairs.json
++ minecraft/models/item/waxed_weathered_cut_copper.json
++ minecraft/particles/falling_spore_blossom.json
++ minecraft/particles/spore_blossom_air.json
++ minecraft/textures/block/azalea_leaves_flowers.png
++ minecraft/textures/block/azalea_leaves.png
++ minecraft/textures/block/azalea_plant.png
++ minecraft/textures/block/azalea_side.png
++ minecraft/textures/block/azalea_top.png
++ minecraft/textures/block/big_dripleaf_side.png
++ minecraft/textures/block/big_dripleaf_stem.png
++ minecraft/textures/block/big_dripleaf_tip.png
++ minecraft/textures/block/big_dripleaf_top.png
++ minecraft/textures/block/cave_vines_body_lit.png
++ minecraft/textures/block/cave_vines_body.png
++ minecraft/textures/block/cave_vines_head_lit.png
++ minecraft/textures/block/cave_vines_head.png
++ minecraft/textures/block/exposed_copper_block.png
++ minecraft/textures/block/exposed_cut_copper.png
++ minecraft/textures/block/flowering_azalea_side.png
++ minecraft/textures/block/flowering_azalea_top.png
++ minecraft/textures/block/hanging_roots.png
+- minecraft/textures/block/lightly_weathered_copper_block.png
+- minecraft/textures/block/lightly_weathered_cut_copper.png
++ minecraft/textures/block/moss_block.png
++ minecraft/textures/block/oxidized_copper_block.png
++ minecraft/textures/block/oxidized_cut_copper.png
++ minecraft/textures/block/root_vines_head.png
++ minecraft/textures/block/rooted_dirt.png
+- minecraft/textures/block/semi_weathered_copper_block.png
+- minecraft/textures/block/semi_weathered_cut_copper.png
++ minecraft/textures/block/small_dripleaf_side.png
++ minecraft/textures/block/small_dripleaf_top.png
++ minecraft/textures/block/spore_blossom_base.png
++ minecraft/textures/block/spore_blossom.png
++ minecraft/textures/item/glow_berries.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:azalea
++ minecraft:azalea_leaves
++ minecraft:azalea_leaves_flowers
++ minecraft:big_dripleaf
++ minecraft:big_dripleaf_stem
++ minecraft:cave_vines_body
++ minecraft:cave_vines_head
++ minecraft:exposed_copper_block
++ minecraft:exposed_cut_copper
++ minecraft:exposed_cut_copper_slab
++ minecraft:exposed_cut_copper_stairs
++ minecraft:flowering_azalea
++ minecraft:hanging_roots
+- minecraft:lightly_weathered_copper_block
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
++ minecraft:moss_block
++ minecraft:moss_carpet
++ minecraft:oxidized_copper_block
++ minecraft:oxidized_cut_copper
++ minecraft:oxidized_cut_copper_slab
++ minecraft:oxidized_cut_copper_stairs
++ minecraft:rooted_dirt
+- minecraft:semi_weathered_copper_block
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
++ minecraft:small_dripleaf
++ minecraft:spore_blossom
++ minecraft:waxed_exposed_copper
++ minecraft:waxed_exposed_cut_copper
++ minecraft:waxed_exposed_cut_copper_slab
++ minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper
+- minecraft:waxed_lightly_weathered_cut_copper_slab
+- minecraft:waxed_lightly_weathered_cut_copper_stairs
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper
+- minecraft:waxed_semi_weathered_cut_copper_slab
+- minecraft:waxed_semi_weathered_cut_copper_stairs
++ minecraft:waxed_weathered_copper
++ minecraft:waxed_weathered_cut_copper
++ minecraft:waxed_weathered_cut_copper_slab
++ minecraft:waxed_weathered_cut_copper_stairs
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
+- minecraft:armor_stand_add_item
++ minecraft:block_change
++ minecraft:drinking_finish
++ minecraft:eat
+- minecraft:eating_finish
++ minecraft:entity_damaged
+- minecraft:entity_hit
++ minecraft:entity_killed
++ minecraft:entity_place
++ minecraft:equip
+- minecraft:flint_and_steel_use
++ minecraft:minecart_moving
++ minecraft:mob_interact
++ minecraft:prime_fuse
++ minecraft:ravager_roar
++ minecraft:ring_bell
++ minecraft:shear
++ minecraft:shulker_close
++ minecraft:shulker_open
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:azalea
++ minecraft:azalea_leaves
++ minecraft:azalea_leaves_flowers
++ minecraft:big_dripleaf
++ minecraft:exposed_copper_block
++ minecraft:exposed_cut_copper
++ minecraft:exposed_cut_copper_slab
++ minecraft:exposed_cut_copper_stairs
++ minecraft:flowering_azalea
++ minecraft:glow_berries
++ minecraft:hanging_roots
+- minecraft:lightly_weathered_copper_block
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
++ minecraft:moss_block
++ minecraft:moss_carpet
++ minecraft:oxidized_copper_block
++ minecraft:oxidized_cut_copper
++ minecraft:oxidized_cut_copper_slab
++ minecraft:oxidized_cut_copper_stairs
++ minecraft:rooted_dirt
+- minecraft:semi_weathered_copper_block
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
++ minecraft:small_dripleaf
++ minecraft:spore_blossom
++ minecraft:waxed_exposed_copper
++ minecraft:waxed_exposed_cut_copper
++ minecraft:waxed_exposed_cut_copper_slab
++ minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper
+- minecraft:waxed_lightly_weathered_cut_copper_slab
+- minecraft:waxed_lightly_weathered_cut_copper_stairs
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper
+- minecraft:waxed_semi_weathered_cut_copper_slab
+- minecraft:waxed_semi_weathered_cut_copper_stairs
++ minecraft:waxed_weathered_copper
++ minecraft:waxed_weathered_cut_copper
++ minecraft:waxed_weathered_cut_copper_slab
++ minecraft:waxed_weathered_cut_copper_stairs
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:falling_spore_blossom
++ minecraft:spore_blossom_air
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.azalea_leaves.break
++ minecraft:block.azalea_leaves.fall
++ minecraft:block.azalea_leaves.hit
++ minecraft:block.azalea_leaves.place
++ minecraft:block.azalea_leaves.step
++ minecraft:block.azalea.break
++ minecraft:block.azalea.fall
++ minecraft:block.azalea.hit
++ minecraft:block.azalea.place
++ minecraft:block.azalea.step
++ minecraft:block.big_dripleaf.break
++ minecraft:block.big_dripleaf.fall
++ minecraft:block.big_dripleaf.hit
++ minecraft:block.big_dripleaf.place
++ minecraft:block.big_dripleaf.step
++ minecraft:block.big_dripleaf.tilt_down
++ minecraft:block.big_dripleaf.tilt_up
++ minecraft:block.cave_vines.break
++ minecraft:block.cave_vines.fall
++ minecraft:block.cave_vines.hit
++ minecraft:block.cave_vines.pick_berries
++ minecraft:block.cave_vines.place
++ minecraft:block.cave_vines.step
++ minecraft:block.flowering_azalea.break
++ minecraft:block.flowering_azalea.fall
++ minecraft:block.flowering_azalea.hit
++ minecraft:block.flowering_azalea.place
++ minecraft:block.flowering_azalea.step
++ minecraft:block.hanging_roots.break
++ minecraft:block.hanging_roots.fall
++ minecraft:block.hanging_roots.hit
++ minecraft:block.hanging_roots.place
++ minecraft:block.hanging_roots.step
++ minecraft:block.moss_carpet.break
++ minecraft:block.moss_carpet.fall
++ minecraft:block.moss_carpet.hit
++ minecraft:block.moss_carpet.place
++ minecraft:block.moss_carpet.step
++ minecraft:block.moss.break
++ minecraft:block.moss.fall
++ minecraft:block.moss.hit
++ minecraft:block.moss.place
++ minecraft:block.moss.step
++ minecraft:block.rooted_dirt.break
++ minecraft:block.rooted_dirt.fall
++ minecraft:block.rooted_dirt.hit
++ minecraft:block.rooted_dirt.place
++ minecraft:block.rooted_dirt.step
++ minecraft:block.small_dripleaf.break
++ minecraft:block.small_dripleaf.fall
++ minecraft:block.small_dripleaf.hit
++ minecraft:block.small_dripleaf.place
++ minecraft:block.small_dripleaf.step
++ minecraft:block.spore_blossom.break
++ minecraft:block.spore_blossom.fall
++ minecraft:block.spore_blossom.hit
++ minecraft:block.spore_blossom.place
++ minecraft:block.spore_blossom.step
++ minecraft:block.vine.break
++ minecraft:block.vine.fall
++ minecraft:block.vine.hit
++ minecraft:block.vine.place
++ minecraft:entity.skeleton.converted_to_stray
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/azalea_log_replaceable.json
++ blocks/cave_vines.json
++ blocks/lush_plants_replaceable.json
++ game_events/ignore_vibrations_sneaking.json
+- game_events/ignore_vibrations_stepping_carefully.json
++ items/fox_food.json
+```
+
+</details>
+
+
+<details><summary>blocks/leaves.json</summary>
+
+```diff
++ minecraft:azalea_leaves
++ minecraft:azalea_leaves_flowers
+```
+
+</details>
+
+
+<details><summary>entity_types/powder_snow_walkable_mobs.json</summary>
+
+```diff
++ minecraft:fox
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
+- minecraft:armor_stand_add_item
++ minecraft:block_change
++ minecraft:drinking_finish
++ minecraft:eat
+- minecraft:eating_finish
++ minecraft:entity_damaged
+- minecraft:entity_hit
++ minecraft:entity_killed
++ minecraft:entity_place
++ minecraft:equip
+- minecraft:flint_and_steel_use
++ minecraft:minecart_moving
++ minecraft:mob_interact
++ minecraft:prime_fuse
++ minecraft:ravager_roar
++ minecraft:ring_bell
++ minecraft:shear
++ minecraft:shulker_close
++ minecraft:shulker_open
+```
+
+</details>
+
+
+<details><summary>items/leaves.json</summary>
+
+```diff
++ minecraft:azalea_leaves
++ minecraft:azalea_leaves_flowers
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.azalea
++ block.minecraft.azalea_leaves
++ block.minecraft.azalea_leaves_flowers
++ block.minecraft.big_dripleaf
++ block.minecraft.big_dripleaf_stem
++ block.minecraft.cave_vines_body
++ block.minecraft.cave_vines_head
++ block.minecraft.exposed_copper_block
++ block.minecraft.exposed_cut_copper
++ block.minecraft.exposed_cut_copper_slab
++ block.minecraft.exposed_cut_copper_stairs
++ block.minecraft.flowering_azalea
++ block.minecraft.hanging_roots
+- block.minecraft.lightly_weathered_copper_block
+- block.minecraft.lightly_weathered_cut_copper
+- block.minecraft.lightly_weathered_cut_copper_slab
+- block.minecraft.lightly_weathered_cut_copper_stairs
++ block.minecraft.moss_block
++ block.minecraft.moss_carpet
++ block.minecraft.oxidized_copper_block
++ block.minecraft.oxidized_cut_copper
++ block.minecraft.oxidized_cut_copper_slab
++ block.minecraft.oxidized_cut_copper_stairs
++ block.minecraft.rooted_dirt
+- block.minecraft.semi_weathered_copper_block
+- block.minecraft.semi_weathered_cut_copper
+- block.minecraft.semi_weathered_cut_copper_slab
+- block.minecraft.semi_weathered_cut_copper_stairs
++ block.minecraft.small_dripleaf
++ block.minecraft.spore_blossom
++ block.minecraft.waxed_exposed_copper
++ block.minecraft.waxed_exposed_copper_block
++ block.minecraft.waxed_exposed_cut_copper
++ block.minecraft.waxed_exposed_cut_copper_slab
++ block.minecraft.waxed_exposed_cut_copper_stairs
+- block.minecraft.waxed_lightly_weathered_copper
+- block.minecraft.waxed_lightly_weathered_copper_block
+- block.minecraft.waxed_lightly_weathered_cut_copper
+- block.minecraft.waxed_lightly_weathered_cut_copper_slab
+- block.minecraft.waxed_lightly_weathered_cut_copper_stairs
+- block.minecraft.waxed_semi_weathered_copper
+- block.minecraft.waxed_semi_weathered_copper_block
+- block.minecraft.waxed_semi_weathered_cut_copper
+- block.minecraft.waxed_semi_weathered_cut_copper_slab
+- block.minecraft.waxed_semi_weathered_cut_copper_stairs
++ block.minecraft.waxed_weathered_copper
++ block.minecraft.waxed_weathered_copper_block
++ block.minecraft.waxed_weathered_cut_copper
++ block.minecraft.waxed_weathered_cut_copper_slab
++ block.minecraft.waxed_weathered_cut_copper_stairs
++ item.minecraft.glow_berries
++ subtitles.block.big_dripleaf.tilt_down
++ subtitles.block.big_dripleaf.tilt_up
++ subtitles.entity.skeleton.converted_to_stray
++ tutorial.bundleInsert.description
++ tutorial.bundleInsert.title
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/building_blocks/cut_copper_from_copper_block_stonecutting.json
++ recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting.json
++ recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting.json
++ recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting.json
++ recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_from_exposed_copper_block_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_slab.json
++ recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
++ recipes/building_blocks/exposed_cut_copper_stairs.json
++ recipes/building_blocks/exposed_cut_copper.json
+- recipes/building_blocks/lightly_weathered_cut_copper_slab.json
+- recipes/building_blocks/lightly_weathered_cut_copper_stairs.json
+- recipes/building_blocks/lightly_weathered_cut_copper.json
++ recipes/building_blocks/oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
++ recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
++ recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
++ recipes/building_blocks/oxidized_cut_copper_slab.json
++ recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
++ recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
++ recipes/building_blocks/oxidized_cut_copper_stairs.json
++ recipes/building_blocks/oxidized_cut_copper.json
+- recipes/building_blocks/semi_weathered_cut_copper_slab.json
+- recipes/building_blocks/semi_weathered_cut_copper_stairs.json
+- recipes/building_blocks/semi_weathered_cut_copper.json
++ recipes/building_blocks/waxed_cut_copper_from_waxed_copper_stonecutting.json
++ recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
++ recipes/building_blocks/waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
++ recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_copper.json
++ recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb.json
++ recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb.json
++ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_cut_copper_slab.json
++ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_honeycomb.json
++ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_exposed_cut_copper_stairs.json
++ recipes/building_blocks/waxed_exposed_cut_copper.json
+- recipes/building_blocks/waxed_lightly_weathered_copper.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- recipes/building_blocks/waxed_lightly_weathered_cut_copper.json
+- recipes/building_blocks/waxed_semi_weathered_copper.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_slab.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs.json
+- recipes/building_blocks/waxed_semi_weathered_cut_copper.json
++ recipes/building_blocks/waxed_weathered_copper.json
++ recipes/building_blocks/waxed_weathered_cut_copper_from_honeycomb.json
++ recipes/building_blocks/waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
++ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_honeycomb.json
++ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
++ recipes/building_blocks/waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_weathered_cut_copper_slab.json
++ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_honeycomb.json
++ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
++ recipes/building_blocks/waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
++ recipes/building_blocks/waxed_weathered_cut_copper_stairs.json
++ recipes/building_blocks/waxed_weathered_cut_copper.json
++ recipes/building_blocks/weathered_cut_copper_from_weathered_copper_block_stonecutting.json
++ recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
++ recipes/building_blocks/weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
++ recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
++ recipes/building_blocks/weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
++ recipes/decorations/moss_carpet.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/azalea_leaves_flowers.json
++ blocks/azalea_leaves.json
++ blocks/azalea.json
++ blocks/big_dripleaf_stem.json
++ blocks/big_dripleaf.json
++ blocks/cave_vines_body.json
++ blocks/cave_vines_head.json
++ blocks/exposed_copper_block.json
++ blocks/exposed_cut_copper_slab.json
++ blocks/exposed_cut_copper_stairs.json
++ blocks/exposed_cut_copper.json
++ blocks/flowering_azalea.json
++ blocks/hanging_roots.json
+- blocks/lightly_weathered_copper_block.json
+- blocks/lightly_weathered_cut_copper_slab.json
+- blocks/lightly_weathered_cut_copper_stairs.json
+- blocks/lightly_weathered_cut_copper.json
++ blocks/moss_block.json
++ blocks/moss_carpet.json
++ blocks/oxidized_copper_block.json
++ blocks/oxidized_cut_copper_slab.json
++ blocks/oxidized_cut_copper_stairs.json
++ blocks/oxidized_cut_copper.json
++ blocks/rooted_dirt.json
+- blocks/semi_weathered_copper_block.json
+- blocks/semi_weathered_cut_copper_slab.json
+- blocks/semi_weathered_cut_copper_stairs.json
+- blocks/semi_weathered_cut_copper.json
++ blocks/small_dripleaf.json
++ blocks/spore_blossom.json
++ blocks/waxed_exposed_copper.json
++ blocks/waxed_exposed_cut_copper_slab.json
++ blocks/waxed_exposed_cut_copper_stairs.json
++ blocks/waxed_exposed_cut_copper.json
+- blocks/waxed_lightly_weathered_copper.json
+- blocks/waxed_lightly_weathered_cut_copper_slab.json
+- blocks/waxed_lightly_weathered_cut_copper_stairs.json
+- blocks/waxed_lightly_weathered_cut_copper.json
+- blocks/waxed_semi_weathered_copper.json
+- blocks/waxed_semi_weathered_cut_copper_slab.json
+- blocks/waxed_semi_weathered_cut_copper_stairs.json
+- blocks/waxed_semi_weathered_cut_copper.json
++ blocks/waxed_weathered_copper.json
++ blocks/waxed_weathered_cut_copper_slab.json
++ blocks/waxed_weathered_cut_copper_stairs.json
++ blocks/waxed_weathered_cut_copper.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ falling_spore_blossom.json
++ spore_blossom_air.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ cut_copper_from_copper_block_stonecutting.json
++ cut_copper_slab_from_copper_block_stonecutting.json
++ cut_copper_slab_from_cut_copper_stonecutting.json
++ cut_copper_stairs_from_copper_block_stonecutting.json
++ cut_copper_stairs_from_cut_copper_stonecutting.json
++ exposed_cut_copper_from_exposed_copper_block_stonecutting.json
++ exposed_cut_copper_slab_from_exposed_copper_block_stonecutting.json
++ exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting.json
++ exposed_cut_copper_slab.json
++ exposed_cut_copper_stairs_from_exposed_copper_block_stonecutting.json
++ exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting.json
++ exposed_cut_copper_stairs.json
++ exposed_cut_copper.json
+- lightly_weathered_cut_copper_slab.json
+- lightly_weathered_cut_copper_stairs.json
+- lightly_weathered_cut_copper.json
++ moss_carpet.json
++ oxidized_cut_copper_from_oxidized_copper_block_stonecutting.json
++ oxidized_cut_copper_slab_from_oxidized_copper_block_stonecutting.json
++ oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting.json
++ oxidized_cut_copper_slab.json
++ oxidized_cut_copper_stairs_from_oxidized_copper_block_stonecutting.json
++ oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting.json
++ oxidized_cut_copper_stairs.json
++ oxidized_cut_copper.json
+- semi_weathered_cut_copper_slab.json
+- semi_weathered_cut_copper_stairs.json
+- semi_weathered_cut_copper.json
++ waxed_cut_copper_from_waxed_copper_stonecutting.json
++ waxed_cut_copper_slab_from_waxed_copper_stonecutting.json
++ waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting.json
++ waxed_cut_copper_stairs_from_waxed_copper_stonecutting.json
++ waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting.json
++ waxed_exposed_copper.json
++ waxed_exposed_cut_copper_from_honeycomb.json
++ waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting.json
++ waxed_exposed_cut_copper_slab_from_honeycomb.json
++ waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting.json
++ waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting.json
++ waxed_exposed_cut_copper_slab.json
++ waxed_exposed_cut_copper_stairs_from_honeycomb.json
++ waxed_exposed_cut_copper_stairs_from_waxed_exposed_copper_stonecutting.json
++ waxed_exposed_cut_copper_stairs_from_waxed_exposed_cut_copper_stonecutting.json
++ waxed_exposed_cut_copper_stairs.json
++ waxed_exposed_cut_copper.json
+- waxed_lightly_weathered_copper.json
+- waxed_lightly_weathered_cut_copper_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_slab_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_slab.json
+- waxed_lightly_weathered_cut_copper_stairs_from_honeycomb.json
+- waxed_lightly_weathered_cut_copper_stairs.json
+- waxed_lightly_weathered_cut_copper.json
+- waxed_semi_weathered_copper.json
+- waxed_semi_weathered_cut_copper_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_slab_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_slab.json
+- waxed_semi_weathered_cut_copper_stairs_from_honeycomb.json
+- waxed_semi_weathered_cut_copper_stairs.json
+- waxed_semi_weathered_cut_copper.json
++ waxed_weathered_copper.json
++ waxed_weathered_cut_copper_from_honeycomb.json
++ waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting.json
++ waxed_weathered_cut_copper_slab_from_honeycomb.json
++ waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting.json
++ waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting.json
++ waxed_weathered_cut_copper_slab.json
++ waxed_weathered_cut_copper_stairs_from_honeycomb.json
++ waxed_weathered_cut_copper_stairs_from_waxed_weathered_copper_stonecutting.json
++ waxed_weathered_cut_copper_stairs_from_waxed_weathered_cut_copper_stonecutting.json
++ waxed_weathered_cut_copper_stairs.json
++ waxed_weathered_cut_copper.json
++ weathered_cut_copper_from_weathered_copper_block_stonecutting.json
++ weathered_cut_copper_slab_from_weathered_copper_block_stonecutting.json
++ weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting.json
++ weathered_cut_copper_stairs_from_weathered_copper_block_stonecutting.json
++ weathered_cut_copper_stairs_from_weathered_cut_copper_stonecutting.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/azalea_log_replaceable.json
++ blocks/cave_vines.json
++ blocks/lush_plants_replaceable.json
++ game_events/ignore_vibrations_sneaking.json
+- game_events/ignore_vibrations_stepping_carefully.json
++ items/fox_food.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/azalea_leaves_flowers.png
++ block/azalea_leaves.png
++ block/azalea_plant.png
++ block/azalea_side.png
++ block/azalea_top.png
++ block/big_dripleaf_side.png
++ block/big_dripleaf_stem.png
++ block/big_dripleaf_tip.png
++ block/big_dripleaf_top.png
++ block/cave_vines_body_lit.png
++ block/cave_vines_body.png
++ block/cave_vines_head_lit.png
++ block/cave_vines_head.png
++ block/exposed_copper_block.png
++ block/exposed_cut_copper.png
++ block/flowering_azalea_side.png
++ block/flowering_azalea_top.png
++ block/hanging_roots.png
+- block/lightly_weathered_copper_block.png
+- block/lightly_weathered_cut_copper.png
++ block/moss_block.png
++ block/oxidized_copper_block.png
++ block/oxidized_cut_copper.png
++ block/root_vines_head.png
++ block/rooted_dirt.png
+- block/semi_weathered_copper_block.png
+- block/semi_weathered_cut_copper.png
++ block/small_dripleaf_side.png
++ block/small_dripleaf_top.png
++ block/spore_blossom_base.png
++ block/spore_blossom.png
++ item/glow_berries.png
+```
+
+</details>

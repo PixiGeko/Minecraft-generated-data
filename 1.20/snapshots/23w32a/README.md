@@ -1,3826 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w32a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w32a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-08-09T12:14:25+00:00</td></tr>
-<tr><th>SHA1</th><td>62fedbc2978dc723907f3d1c5c118da903d98bee</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/62fedbc2978dc723907f3d1c5c118da903d98bee/23w32a.json">https://piston-meta.mojang.com/v1/packages/62fedbc2978dc723907f3d1c5c118da903d98bee/23w32a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json">https://piston-meta.mojang.com/v1/packages/bebcc57ec5d1cf6d557b9641db3b6de6a0bea3e5/7.json</a></td></tr>
+<tr><th>SHA1</th><td>d2e93a582be7520bc37b15a2c676831de80ae6fb</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/d2e93a582be7520bc37b15a2c676831de80ae6fb/23w32a.json">https://piston-meta.mojang.com/v1/packages/d2e93a582be7520bc37b15a2c676831de80ae6fb/23w32a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json">https://piston-meta.mojang.com/v1/packages/0b3deeac1d93cbc065d9b6df3aa62e9708e066c0/7.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/bfe1a408d8d809b206369fceab0e8a883226d0a6/server.jar">https://piston-data.mojang.com/v1/objects/bfe1a408d8d809b206369fceab0e8a883226d0a6/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e949295085435bb727c816fd5cd99188b57a3a16/server.txt">https://piston-data.mojang.com/v1/objects/e949295085435bb727c816fd5cd99188b57a3a16/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/08314fae8fbff190e056a8ae4b9fc9cd603436f6/client.jar">https://piston-data.mojang.com/v1/objects/08314fae8fbff190e056a8ae4b9fc9cd603436f6/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/537ce3a73b6a75008e5d0a8a0afe26d58f27fe3f/client.txt">https://piston-data.mojang.com/v1/objects/537ce3a73b6a75008e5d0a8a0afe26d58f27fe3f/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w31a">23w31a</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
--  minecraft/textures/gui/sprites/bundle
--  minecraft/textures/gui/sprites/bundle/background.png.mcmeta
-+  minecraft/textures/gui/sprites/container/bundle/background.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/scroller.png
-+  minecraft/textures/gui/sprites/widget/scroller.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/text_field.png
-+  minecraft/textures/gui/sprites/widget/text_field.png.mcmeta
-+  minecraft/textures/gui/sprites/widget/text_field_highlighted.png
-+  minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>game_event.txt</summary>
 
-```diff
-+ minecraft:unequip
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-+ minecraft:sequence
-```
-
-</details>
-
-## Tags
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-+ minecraft:unequip
-```
-
-</details>
-
-<details><summary>game_events/warden_can_listen.json</summary>
-
-```diff
-+ minecraft:unequip
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w31a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w32a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-+ block/sponge/absorb1.ogg
-+ block/sponge/absorb2.ogg
-+ block/sponge/absorb3.ogg
-+ block/sponge/break1.ogg
-+ block/sponge/break2.ogg
-+ block/sponge/break3.ogg
-+ block/sponge/break4.ogg
-+ block/sponge/step1.ogg
-+ block/sponge/step2.ogg
-+ block/sponge/step3.ogg
-+ block/sponge/step4.ogg
-+ block/sponge/step5.ogg
-+ block/sponge/step6.ogg
-+ block/sponge/wet_sponge/break1.ogg
-+ block/sponge/wet_sponge/break2.ogg
-+ block/sponge/wet_sponge/break3.ogg
-+ block/sponge/wet_sponge/break4.ogg
-+ block/sponge/wet_sponge/step1.ogg
-+ block/sponge/wet_sponge/step2.ogg
-+ block/sponge/wet_sponge/step3.ogg
-+ block/sponge/wet_sponge/step4.ogg
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/sprites/widget/scroller.png
-+ gui/sprites/widget/text_field.png
-+ gui/sprites/widget/text_field_highlighted.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-+ Component lambda$renderStatusLights$0()
-+ Component lambda$renderStatusLights$1()
-+ Component lambda$renderStatusLights$2(RealmsServer)
-+ Component lambda$renderStatusLights$3()
-+ void drawRealmStatus(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
-
-```diff
-+ Component lambda$drawServerStatus$24()
-+ Component lambda$drawServerStatus$25()
-+ Component lambda$drawServerStatus$26()
-+ Component lambda$drawServerStatus$27()
-+ void drawRealmStatus(Supplier)
-- void drawClose(GuiGraphics,int,int,int,int)
-- void drawExpired(GuiGraphics,int,int,int,int)
-- void drawExpiring(GuiGraphics,int,int,int,int,int)
-- void drawOpen(GuiGraphics,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
-
-```diff
-+ void lambda$init$0(LevelType)
-+ void lambda$init$1(Boolean)
-+ void lambda$init$2(Button)
-+ void lambda$init$4(GuiEventListener)
-- void lambda$init$0(LayoutSettings)
-- void lambda$init$1(LevelType)
-- void lambda$init$2(Boolean)
-- void lambda$init$4(Button)
-- void lambda$init$5(GuiEventListener)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.AbstractCriterionTriggerInstance</summary>
-
-```diff
-+ Optional player
-- ContextAwarePredicate player
-+ JsonObject serializeToJson()
-+ Optional getPlayerPredicate()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-- ContextAwarePredicate getPlayerPredicate()
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(MinMaxBounds$Ints)
-+ void lambda$serializeToJson$0(ItemPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate$Builder</summary>
-
-```diff
-+ Optional blocks
-+ Optional nbt
-+ Optional properties
-+ Optional tag
-- NbtPredicate nbt
-- Set blocks
-- StatePropertiesPredicate properties
-- TagKey tag
-+ BlockPredicate$Builder of(Collection)
-+ BlockPredicate$Builder setProperties(StatePropertiesPredicate$Builder)
-+ Optional build()
-- BlockPredicate build()
-- BlockPredicate$Builder of(Iterable)
-- BlockPredicate$Builder setProperties(StatePropertiesPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional child
-+ Optional parent
-+ Optional partner
-- ContextAwarePredicate child
-- ContextAwarePredicate parent
-- ContextAwarePredicate partner
-+ boolean matches(LootContext)
-+ BredAnimalsTrigger$TriggerInstance bredAnimals(Optional)
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-+ void lambda$serializeToJson$1(ContextAwarePredicate)
-+ void lambda$serializeToJson$2(ContextAwarePredicate)
-- BredAnimalsTrigger$TriggerInstance bredAnimals(EntityPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ void <init>(Potion)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(Potion)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ void <init>(ResourceKey)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger$TriggerInstance</summary>
-
-```diff
-+ List victims
-- ContextAwarePredicate[] victims
-+ ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate$Builder[])
-+ JsonObject serializeToJson()
-+ void <init>(List)
-- ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate[])
-- ContextAwarePredicate[] lambda$channeledLightning$0(int)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate[])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ void <init>(MinMaxBounds$Ints)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ItemPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ CuredZombieVillagerTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- CuredZombieVillagerTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
-
-```diff
-+ Optional blocked
-+ Optional sourceEntity
-+ Optional type
-- Boolean blocked
-- DamagePredicate ANY
-- DamageSourcePredicate type
-- EntityPredicate sourceEntity
-+ boolean equals(Object)
-+ int hashCode()
-+ MinMaxBounds$Doubles dealtDamage()
-+ MinMaxBounds$Doubles takenDamage()
-+ Optional blocked()
-+ Optional fromJson(JsonElement)
-+ Optional of(Optional)
-+ Optional sourceEntity()
-+ Optional type()
-+ String toString()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(EntityPredicate)
-+ void lambda$serializeToJson$1(DamageSourcePredicate)
-+ void lambda$serializeToJson$2(Boolean)
-- DamagePredicate fromJson(JsonElement)
-- void <clinit>()
-- void <init>()
-- void <init>(DamageSourcePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Optional directEntity
-+ Optional sourceEntity
-- DamageSourcePredicate ANY
-- EntityPredicate directEntity
-- EntityPredicate sourceEntity
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ List tags()
-+ Optional directEntity()
-+ Optional fromJson(JsonElement)
-+ Optional of(Optional)
-+ Optional sourceEntity()
-+ String toString()
-+ void <init>(Optional)
-- DamageSourcePredicate fromJson(JsonElement)
-- void <init>(EntityPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DeserializationContext</summary>
-
-```diff
-- Gson predicateGson
-+ List deserializeConditions(LootContextParamSet)
-- LootItemCondition[] deserializeConditions(LootContextParamSet)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DistanceTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ DistanceTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- DistanceTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ EffectsChangedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- EffectsChangedTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ EnchantedItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- EnchantedItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnchantmentPredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Optional enchantment
-- Enchantment enchantment
-- EnchantmentPredicate ANY
-- EnchantmentPredicate[] NONE
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ MinMaxBounds$Ints level()
-+ Optional enchantment()
-+ String toString()
-+ void <init>(MinMaxBounds$Ints)
-- EnchantmentPredicate fromJson(JsonElement)
-- EnchantmentPredicate[] fromJsonArray(JsonElement)
-- JsonElement serializeToJson()
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-- void <init>()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional state
-- StatePropertiesPredicate state
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(StatePropertiesPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(StatePropertiesPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate$Builder</summary>
-
-```diff
-+ Optional chest
-+ Optional feet
-+ Optional head
-+ Optional legs
-+ Optional mainhand
-+ Optional offhand
-- ItemPredicate chest
-- ItemPredicate feet
-- ItemPredicate head
-- ItemPredicate legs
-- ItemPredicate mainhand
-- ItemPredicate offhand
-+ EntityEquipmentPredicate$Builder chest(ItemPredicate$Builder)
-+ EntityEquipmentPredicate$Builder feet(ItemPredicate$Builder)
-+ EntityEquipmentPredicate$Builder head(ItemPredicate$Builder)
-+ EntityEquipmentPredicate$Builder legs(ItemPredicate$Builder)
-+ EntityEquipmentPredicate$Builder mainhand(ItemPredicate$Builder)
-+ EntityEquipmentPredicate$Builder offhand(ItemPredicate$Builder)
-+ Optional build()
-- EntityEquipmentPredicate build()
-- EntityEquipmentPredicate$Builder chest(ItemPredicate)
-- EntityEquipmentPredicate$Builder feet(ItemPredicate)
-- EntityEquipmentPredicate$Builder head(ItemPredicate)
-- EntityEquipmentPredicate$Builder legs(ItemPredicate)
-- EntityEquipmentPredicate$Builder mainhand(ItemPredicate)
-- EntityEquipmentPredicate$Builder offhand(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate$Builder</summary>
-
-```diff
-+ Optional isBaby
-+ Optional isCrouching
-+ Optional isOnFire
-+ Optional isSprinting
-+ Optional isSwimming
-- Boolean isBaby
-- Boolean isCrouching
-- Boolean isOnFire
-- Boolean isSprinting
-- Boolean isSwimming
-+ Optional build()
-- EntityFlagsPredicate build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional damage
-- DamagePredicate damage
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(DamagePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(DamagePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
-
-```diff
-+ Optional distanceToPlayer
-+ Optional effects
-+ Optional entityType
-+ Optional equipment
-+ Optional flags
-+ Optional location
-+ Optional nbt
-+ Optional passenger
-+ Optional steppingOnLocation
-+ Optional subPredicate
-+ Optional targetedEntity
-+ Optional team
-+ Optional vehicle
-- DistancePredicate distanceToPlayer
-- EntityEquipmentPredicate equipment
-- EntityFlagsPredicate flags
-- EntityPredicate passenger
-- EntityPredicate targetedEntity
-- EntityPredicate vehicle
-- EntitySubPredicate subPredicate
-- EntityTypePredicate entityType
-- LocationPredicate location
-- LocationPredicate steppingOnLocation
-- MobEffectsPredicate effects
-- NbtPredicate nbt
-- String team
-+ EntityPredicate$Builder effects(MobEffectsPredicate$Builder)
-+ EntityPredicate$Builder equipment(EntityEquipmentPredicate$Builder)
-+ EntityPredicate$Builder flags(EntityFlagsPredicate$Builder)
-+ EntityPredicate$Builder located(LocationPredicate$Builder)
-+ EntityPredicate$Builder passenger(EntityPredicate$Builder)
-+ EntityPredicate$Builder steppingOn(LocationPredicate$Builder)
-+ EntityPredicate$Builder targetedEntity(EntityPredicate$Builder)
-+ EntityPredicate$Builder vehicle(EntityPredicate$Builder)
-+ Optional build()
-- EntityPredicate build()
-- EntityPredicate$Builder effects(MobEffectsPredicate)
-- EntityPredicate$Builder flags(EntityFlagsPredicate)
-- EntityPredicate$Builder located(LocationPredicate)
-- EntityPredicate$Builder passenger(EntityPredicate)
-- EntityPredicate$Builder steppingOn(LocationPredicate)
-- EntityPredicate$Builder targetedEntity(EntityPredicate)
-- EntityPredicate$Builder vehicle(EntityPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.LootTableTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ void <init>(ResourceLocation)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$BoundsFactory</summary>
-
-```diff
-+ MinMaxBounds create(java.util.Optional,java.util.Optional)
-- MinMaxBounds create(java.lang.Number,java.lang.Number)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$Doubles</summary>
-
-```diff
-+ Codec CODEC
-+ Optional max
-+ Optional maxSq
-+ Optional min
-+ Optional minSq
-- Double maxSq
-- Double minSq
-+ boolean equals(Object)
-+ Double lambda$fromReader$1(Double)
-+ Double lambda$squareOpt$0(Double)
-+ int hashCode()
-+ JsonElement serializeToJson()
-+ MinMaxBounds$Doubles create(Optional)
-+ Optional max()
-+ Optional maxSq()
-+ Optional min()
-+ Optional minSq()
-+ Optional squareOpt(Optional)
-+ String toString()
-+ void <init>(Optional)
-+ void <init>(Optional)
-- Double lambda$fromReader$0(Double)
-- Double squareOpt(Double)
-- MinMaxBounds$Doubles create(Double)
-- void <init>(Double)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MobEffectsPredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Map effectMap
-- Map effects
-- MobEffectsPredicate ANY
-+ boolean equals(Object)
-+ int hashCode()
-+ Map effectMap()
-+ Optional fromJson(JsonElement)
-+ String toString()
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-- MobEffectsPredicate and(MobEffect)
-- MobEffectsPredicate and(MobEffectsPredicate$MobEffectInstancePredicate)
-- MobEffectsPredicate effects()
-- MobEffectsPredicate fromJson(JsonElement)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ PlayerTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- PlayerTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ RecipeCraftedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- RecipeCraftedTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ RecipeUnlockedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- RecipeUnlockedTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ SummonedEntityTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- SummonedEntityTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TagPredicate</summary>
-
-```diff
-+ App lambda$codec$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ boolean expected()
-+ Codec codec(ResourceKey)
-+ int hashCode()
-+ String toString()
-+ TagKey tag()
-- JsonElement serializeToJson()
-- TagPredicate fromJson(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional entity
-- ContextAwarePredicate entity
-+ JsonObject serializeToJson()
-+ TameAnimalTrigger$TriggerInstance tamedAnimal(Optional)
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- TameAnimalTrigger$TriggerInstance tamedAnimal(EntityPredicate)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional projectile
-- ContextAwarePredicate projectile
-+ JsonObject serializeToJson()
-+ TargetBlockTrigger$TriggerInstance targetHit(Optional)
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- TargetBlockTrigger$TriggerInstance targetHit(ContextAwarePredicate)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TradeTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-+ Optional villager
-- ContextAwarePredicate villager
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ItemPredicate)
-+ void lambda$serializeToJson$1(ContextAwarePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger$TriggerInstance</summary>
-
-```diff
-+ void <init>(MinMaxBounds$Doubles)
-- void <init>(MinMaxBounds$Doubles)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ItemPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ItemPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ boolean gameLoadFinished
-+ CompletableFuture profileFuture
-+ SampleLogger bandwidthLogger
-+ SampleLogger frameTimeLogger
-+ SampleLogger pingLogger
-- boolean connectedToRealms
-- FrameTimer frameTimer
-- PropertyMap profileProperties
-+ boolean isGameLoadFinished()
-+ boolean lambda$createSearchTrees$15(String)
-+ boolean lambda$createSearchTrees$7(String)
-+ boolean lambda$tick$40()
-+ ChunkProgressListener lambda$doWorldLoad$41(int)
-+ CompletionStage lambda$delayTextureReload$52(CompletableFuture)
-+ CrashReport lambda$delayCrash$21(CrashReport)
-+ CrashReport lambda$delayCrashRaw$22(CrashReport)
-+ GameProfile getGameProfile()
-+ GameProfile lambda$new$1()
-+ IntegratedServer lambda$doWorldLoad$42(Thread)
-+ RefreshableSearchTree lambda$createSearchTrees$10(List)
-+ RefreshableSearchTree lambda$createSearchTrees$12(List)
-+ RefreshableSearchTree lambda$createSearchTrees$19(List)
-+ ResourceLocation lambda$createSearchTrees$17(Recipe)
-+ SampleLogger getFrameTimeLogger()
-+ Stream lambda$createSearchTrees$11(ItemStack)
-+ Stream lambda$createSearchTrees$13(Recipe)
-+ Stream lambda$createSearchTrees$16(RecipeCollection)
-+ Stream lambda$createSearchTrees$18(RecipeCollection)
-+ Stream lambda$createSearchTrees$9(ItemStack)
-+ String lambda$createSearchTrees$14(Component)
-+ String lambda$createSearchTrees$6(Component)
-+ String lambda$doWorldLoad$43(WorldStem)
-+ String lambda$fillSystemReport$45(String)
-+ String lambda$fillSystemReport$46(Minecraft)
-+ String lambda$fillSystemReport$49()
-+ String lambda$fillSystemReport$50(Options)
-+ String lambda$fillSystemReport$51(LanguageManager)
-+ Style lambda$debugClientMetricsStart$31(Style)
-+ Style lambda$grabHugeScreenshot$55(Style)
-+ Style lambda$grabPanoramixScreenshot$54(Style)
-+ void lambda$clearResourcePacksOnError$5(Component)
-+ void lambda$createSearchTrees$20(List)
-+ void lambda$debugClientMetricsStart$29(Consumer,double,int)
-+ void lambda$debugClientMetricsStart$30(ProfileResults)
-+ void lambda$debugClientMetricsStart$32(Component)
-+ void lambda$debugClientMetricsStart$33(Path)
-+ void lambda$debugClientMetricsStart$34(List)
-+ void lambda$debugClientMetricsStart$35(Path)
-+ void lambda$debugClientMetricsStart$36(CompletableFuture)
-+ void lambda$debugClientMetricsStart$37(ProfileResults)
-+ void lambda$debugClientMetricsStart$38(ProfileResults)
-+ void lambda$doWorldLoad$44(Component)
-+ void lambda$grabPanoramixScreenshot$53(Component)
-+ void lambda$new$2()
-+ void lambda$new$3(Optional)
-+ void lambda$new$4(GameConfig,boolean)
-+ void lambda$openChatScreen$26(boolean)
-+ void lambda$reloadResourcePacks$23(Throwable)
-+ void lambda$reloadResourcePacks$24(CompletableFuture)
-+ void lambda$reloadResourcePacks$25(Optional)
-+ void lambda$runTick$27(CompletableFuture)
-+ void lambda$runTick$28(TimerQuery)
-+ void lambda$tick$39()
-+ void onResourceLoadFinished()
-- boolean lambda$createSearchTrees$14(String)
-- boolean lambda$createSearchTrees$6(String)
-- boolean lambda$tick$39()
-- ChunkProgressListener lambda$doWorldLoad$40(int)
-- CompletionStage lambda$delayTextureReload$51(CompletableFuture)
-- CrashReport lambda$delayCrash$20(CrashReport)
-- CrashReport lambda$delayCrashRaw$21(CrashReport)
-- FrameTimer getFrameTimer()
-- IntegratedServer lambda$doWorldLoad$41(Thread)
-- PropertyMap getProfileProperties()
-- RefreshableSearchTree lambda$createSearchTrees$11(List)
-- RefreshableSearchTree lambda$createSearchTrees$18(List)
-- RefreshableSearchTree lambda$createSearchTrees$9(List)
-- ResourceLocation lambda$createSearchTrees$16(Recipe)
-- Stream lambda$createSearchTrees$10(ItemStack)
-- Stream lambda$createSearchTrees$12(Recipe)
-- Stream lambda$createSearchTrees$15(RecipeCollection)
-- Stream lambda$createSearchTrees$17(RecipeCollection)
-- Stream lambda$createSearchTrees$7(ItemStack)
-- String lambda$createSearchTrees$13(Component)
-- String lambda$createSearchTrees$5(Component)
-- String lambda$doWorldLoad$42(WorldStem)
-- String lambda$fillSystemReport$44(String)
-- String lambda$fillSystemReport$45(Minecraft)
-- String lambda$fillSystemReport$46()
-- String lambda$fillSystemReport$49(Options)
-- String lambda$fillSystemReport$50(LanguageManager)
-- Style lambda$debugClientMetricsStart$30(Style)
-- Style lambda$grabHugeScreenshot$54(Style)
-- Style lambda$grabPanoramixScreenshot$53(Style)
-- void lambda$clearResourcePacksOnError$4(Component)
-- void lambda$createSearchTrees$19(List)
-- void lambda$debugClientMetricsStart$28(Consumer,double,int)
-- void lambda$debugClientMetricsStart$29(ProfileResults)
-- void lambda$debugClientMetricsStart$31(Component)
-- void lambda$debugClientMetricsStart$32(Path)
-- void lambda$debugClientMetricsStart$33(List)
-- void lambda$debugClientMetricsStart$34(Path)
-- void lambda$debugClientMetricsStart$35(CompletableFuture)
-- void lambda$debugClientMetricsStart$36(ProfileResults)
-- void lambda$debugClientMetricsStart$37(ProfileResults)
-- void lambda$doWorldLoad$43(Component)
-- void lambda$grabPanoramixScreenshot$52(Component)
-- void lambda$new$1()
-- void lambda$new$2(Optional)
-- void lambda$new$3(GameConfig,boolean)
-- void lambda$openChatScreen$25(boolean)
-- void lambda$reloadResourcePacks$22(Throwable)
-- void lambda$reloadResourcePacks$23(CompletableFuture)
-- void lambda$reloadResourcePacks$24(Optional)
-- void lambda$runTick$26(CompletableFuture)
-- void lambda$runTick$27(TimerQuery)
-- void lambda$tick$38()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.User</summary>
-
-```diff
-- GameProfile getGameProfile()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSelectionList</summary>
-
-```diff
-+ int SCROLLBAR_WIDTH
-+ ResourceLocation SCROLLER_SPRITE
-+ void <clinit>()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.components.AbstractSliderButton</summary>
-
-```diff
-- int HEIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.EditBox</summary>
-
-```diff
-+ WidgetSprites SPRITES
-- int BACKGROUND_COLOR
-- int BORDER_COLOR
-- int BORDER_COLOR_FOCUSED
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.PlayerInfo</summary>
-
-```diff
-- CompletableFuture loadSkin(MinecraftSessionService)
-- GameProfile fillProfileProperties(MinecraftSessionService)
-- GameProfile lambda$loadSkin$3(MinecraftSessionService)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.chat.ChatListener</summary>
-
-```diff
-+ Component CHAT_VALIDATION_ERROR
-+ boolean lambda$handleChatMessageError$2(ChatType$Bound)
-+ boolean lambda$handleDisguisedChatMessage$3(Instant)
-+ void <clinit>()
-+ void handleChatMessageError(ChatType$Bound)
-- boolean lambda$handleDisguisedChatMessage$2(Instant)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.RenderType</summary>
-
-```diff
-+ RenderType createArmorDecalCutoutNoCull(ResourceLocation)
-+ RenderType$CompositeRenderType createArmorCutoutNoCull(ResourceLocation,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.SkinManager</summary>
-
-```diff
-- boolean hasSecureTextureData(GameProfile)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.metadata.gui.GuiSpriteScaling$NineSlice</summary>
-
-```diff
-+ DataResult validate(GuiSpriteScaling$NineSlice)
-+ String lambda$validate$1(GuiSpriteScaling$NineSlice)
-+ String lambda$validate$2(GuiSpriteScaling$NineSlice)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.HolderSet</summary>
-
-```diff
-+ HolderSet$Direct direct(Collection)
-- HolderSet$Direct direct(List)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-- Object registerMapping(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.registries.BuiltInRegistries</summary>
-
-```diff
-+ Registry registerSimpleWithIntrusiveHolders(BuiltInRegistries$RegistryBootstrap)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate$Builder[])
-+ ItemPredicate[] lambda$inventoryTrigger$25(int)
-+ Stream lambda$inventoryTrigger$24(ItemPredicate$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.TagParser</summary>
-
-```diff
-+ Codec AS_CODEC
-+ DataResult lambda$static$3(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.Connection</summary>
-
-```diff
-+ BandwidthDebugMonitor bandwidthDebugMonitor
-+ Connection connectToServer(SampleLogger)
-+ void configureSerialization(BandwidthDebugMonitor)
-+ void setBandwidthLogger(SampleLogger)
-- Connection connectToServer(InetSocketAddress,boolean)
-- void configureSerialization(PacketFlow)
-- void sendNoFlush(Packet)
-- void sendNoFlush(PacketSendListener)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
-
-```diff
-+ boolean lambda$createMessageValidator$0(Duration)
-+ SignedMessageValidator createMessageValidator(Duration)
-- SignedMessageValidator createMessageValidator()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
-
-```diff
-+ BooleanSupplier expired
-+ boolean validate(PlayerChatMessage)
-+ void <init>(BooleanSupplier)
-- void <init>(SignatureValidator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
-
-```diff
-+ String TAG_AMBIENT
-+ String TAG_AMPLIFIER
-+ String TAG_DURATION
-+ String TAG_FACTOR_CALCULATION_DATA
-+ String TAG_HIDDEN_EFFECT
-+ String TAG_ID
-+ String TAG_SHOW_ICON
-+ String TAG_SHOW_PARTICLES
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.AreaEffectCloud</summary>
-
-```diff
-+ String TAG_EFFECTS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ boolean is(HolderSet)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
-
-```diff
-+ StringRepresentable$EnumCodec CODEC
-+ String getSerializedName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald</summary>
-
-```diff
-+ List effects
-- int duration
-- MobEffect effect
-+ void <init>(List,int,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.ProfilePublicKey</summary>
-
-```diff
-+ ProfilePublicKey createValidated(ProfilePublicKey$Data)
-- ProfilePublicKey createValidated(Duration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
-
-```diff
-+ int NO_EFFECT
-+ int encodeEffect(MobEffect)
-+ MobEffect decodeEffect(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.SuspiciousStewItem</summary>
-
-```diff
-- String EFFECT_DURATION_TAG
-- String EFFECT_ID_TAG
-+ void appendMobEffects(List)
-+ void lambda$appendHoverText$3(SuspiciousEffectHolder$EffectEntry)
-+ void lambda$appendMobEffects$1(Tag)
-+ void lambda$finishUsingItem$4(SuspiciousEffectHolder$EffectEntry)
-+ void lambda$listPotionEffects$2(List)
-+ void lambda$saveMobEffects$0(Tag)
-+ void saveMobEffects(List)
-- void saveMobEffect(MobEffect,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.alchemy.Potion</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ Holder$Reference builtInRegistryHolder()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.enchantment.Enchantment</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ Holder$Reference builtInRegistryHolder()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FlowerBlock</summary>
-
-```diff
-+ List suspiciousStewEffects
-- int effectDuration
-- MobEffect suspiciousStewEffect
-+ List getSuspiciousEffects()
-- int getEffectDuration()
-- MobEffect getSuspiciousEffect()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SuspiciousEffectHolder</summary>
-
-```diff
-+ List getSuspiciousEffects()
-- int getEffectDuration()
-- MobEffect getSuspiciousEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.IntRange</summary>
-
-```diff
-+ Codec CODEC
-+ Codec RECORD_CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ boolean lambda$new$10(LootContext,int)
-+ boolean lambda$new$12(LootContext,int)
-+ boolean lambda$new$6(LootContext,int)
-+ boolean lambda$new$8(LootContext,int)
-+ Either lambda$static$4(IntRange)
-+ int lambda$new$11(LootContext,int)
-+ int lambda$new$5(LootContext,int)
-+ int lambda$new$7(LootContext,int)
-+ int lambda$new$9(LootContext,int)
-+ IntRange lambda$static$3(Either)
-+ Optional lambda$static$0(IntRange)
-+ Optional lambda$static$1(IntRange)
-+ OptionalInt unpackExact()
-+ void <clinit>()
-+ void <init>(Optional)
-- boolean lambda$new$1(LootContext,int)
-- boolean lambda$new$3(LootContext,int)
-- boolean lambda$new$5(LootContext,int)
-- boolean lambda$new$7(LootContext,int)
-- int lambda$new$0(LootContext,int)
-- int lambda$new$2(LootContext,int)
-- int lambda$new$4(LootContext,int)
-- int lambda$new$6(LootContext,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootDataType</summary>
-
-```diff
-+ Codec codec
-- BiFunction topDeserializer
-- Gson parser
-+ void <init>(LootDataType$Validator)
-+ void lambda$createLootTableValidator$2(LootTable)
-+ void lambda$createSimpleValidator$1(LootContextUser)
-+ void lambda$deserialize$0(DataResult$PartialResult)
-- BiFunction createSingleDeserialiser(Class)
-- BiFunction createSingleOrMultipleDeserialiser(Function)
-- BiFunction lambda$createSingleDeserialiser$1(String)
-- BiFunction lambda$createSingleOrMultipleDeserialiser$3(String)
-- Gson parser()
-- Optional lambda$createSingleDeserialiser$0(JsonElement)
-- Optional lambda$createSingleOrMultipleDeserialiser$2(JsonElement)
-- void <init>(LootDataType$Validator)
-- void lambda$createLootTableValidator$5(LootTable)
-- void lambda$createSimpleValidator$4(LootContextUser)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
-
-```diff
-+ ImmutableList$Builder conditions
-+ ImmutableList$Builder entries
-+ ImmutableList$Builder functions
-- List conditions
-- List entries
-- List functions
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.AlternativesEntry</summary>
-
-```diff
-+ Codec CODEC
-+ boolean lambda$compose$0(Consumer)
-+ ComposableEntryContainer compose(List)
-+ void <clinit>()
-+ void <init>(List)
-- boolean lambda$compose$0(Consumer)
-- ComposableEntryContainer compose(ComposableEntryContainer[])
-- void <init>(LootItemCondition[])
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ void <clinit>()
-+ void <init>(List)
-- void <init>(LootItemFunction[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntries</summary>
-
-```diff
-+ Codec CODEC
-+ LootPoolEntryType register(Codec)
-- LootPoolEntryType register(Serializer)
-- Object createGsonAdapter()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer</summary>
-
-```diff
-+ List conditions
-- LootItemCondition[] conditions
-+ List lambda$commonFields$0(LootPoolEntryContainer)
-+ Products$P1 commonFields(RecordCodecBuilder$Instance)
-+ void <init>(List)
-- void <init>(LootItemCondition[])
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ void <clinit>()
-+ void <init>(List)
-- void <init>(LootItemCondition[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction$NameSource</summary>
-
-```diff
-+ Codec CODEC
-+ String getSerializedName()
-- CopyNameFunction$NameSource getByName(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ IntRange lambda$static$0(LimitCount)
-+ LootItemFunction lambda$limitCount$2(List)
-+ void <clinit>()
-+ void <init>(IntRange)
-- LootItemFunction lambda$limitCount$0(LootItemCondition[])
-- void <init>(IntRange)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctionType</summary>
-
-```diff
-+ Codec codec
-+ boolean equals(Object)
-+ Codec codec()
-+ int hashCode()
-+ String toString()
-+ void <init>(Codec)
-- void <init>(Serializer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Integer lambda$static$1(LootingEnchantFunction)
-+ NumberProvider lambda$static$0(LootingEnchantFunction)
-+ void <clinit>()
-+ void <init>(NumberProvider,int)
-- void <init>(NumberProvider,int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetInstrumentFunction</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ LootItemFunction lambda$setInstrumentOptions$2(List)
-+ TagKey lambda$static$0(SetInstrumentFunction)
-+ void <clinit>()
-+ void <init>(TagKey)
-- LootItemFunction lambda$setInstrumentOptions$0(LootItemCondition[])
-- void <init>(TagKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Boolean lambda$static$1(SetItemDamageFunction)
-+ LootItemFunction lambda$setDamage$3(List)
-+ LootItemFunction lambda$setDamage$4(List)
-+ NumberProvider lambda$static$0(SetItemDamageFunction)
-+ void <init>(NumberProvider,boolean)
-- LootItemFunction lambda$setDamage$0(LootItemCondition[])
-- LootItemFunction lambda$setDamage$1(LootItemCondition[])
-- void <init>(NumberProvider,boolean)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.AllOfCondition</summary>
-
-```diff
-+ Codec CODEC
-+ Codec INLINE_CODEC
-+ AllOfCondition allOf(List)
-+ void <clinit>()
-+ void <init>(List)
-- void <init>(LootItemCondition[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition</summary>
-
-```diff
-+ Codec CODEC
-+ Holder enchantment
-+ List values
-- Enchantment enchantment
-- float[] values
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ Holder enchantment()
-+ int hashCode()
-+ List values()
-+ LootItemCondition lambda$bonusLevelFlatChance$1(List)
-+ String toString()
-+ void <clinit>()
-+ void <init>(List)
-- LootItemCondition lambda$bonusLevelFlatChance$0(Enchantment,float[])
-- void <init>(Enchantment,float[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ LootContext$EntityTarget entityTarget()
-+ Map scores()
-+ Stream lambda$getReferencedContextParams$1(IntRange)
-+ String toString()
-+ void <clinit>()
-- Stream lambda$getReferencedContextParams$0(IntRange)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Builder</summary>
-
-```diff
-+ Holder block
-+ Optional properties
-- Block block
-- StatePropertiesPredicate properties
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemKilledByPlayerCondition</summary>
-
-```diff
-+ Codec CODEC
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ float lootingMultiplier()
-+ float percent()
-+ int hashCode()
-+ LootItemCondition lambda$randomChanceAndLootingBoost$1(float,float)
-+ String toString()
-+ void <clinit>()
-- LootItemCondition lambda$randomChanceAndLootingBoost$0(float,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.TimeCheck</summary>
-
-```diff
-+ Codec CODEC
-+ Optional period
-- Long period
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ IntRange value()
-+ Optional period()
-+ String toString()
-+ void <clinit>()
-+ void <init>(IntRange)
-- void <init>(IntRange)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder</summary>
-
-```diff
-+ Optional isRaining
-+ Optional isThundering
-- Boolean isRaining
-- Boolean isThundering
-+ WeatherCheck$Builder setRaining(boolean)
-+ WeatherCheck$Builder setThundering(boolean)
-- WeatherCheck$Builder setRaining(Boolean)
-- WeatherCheck$Builder setThundering(Boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.critereon.EntitySubPredicate$1
@@ -6656,959 +2867,809 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
 
 ```diff
-+ long NANOS_PER_MILLI
++ Component lambda$renderStatusLights$0()
++ Component lambda$renderStatusLights$1()
++ Component lambda$renderStatusLights$2(RealmsServer)
++ Component lambda$renderStatusLights$3()
++ void drawRealmStatus(GuiGraphics,int,int,int,int,ResourceLocation,Supplier)
 ```
 
 </details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
+
+```diff
++ Component lambda$drawServerStatus$24()
++ Component lambda$drawServerStatus$25()
++ Component lambda$drawServerStatus$26()
++ Component lambda$drawServerStatus$27()
+- void drawClose(GuiGraphics,int,int,int,int)
+- void drawExpired(GuiGraphics,int,int,int,int)
+- void drawExpiring(GuiGraphics,int,int,int,int,int)
+- void drawOpen(GuiGraphics,int,int,int,int)
++ void drawRealmStatus(GuiGraphics,int,int,int,int,ResourceLocation,Supplier)
+```
+
+</details>
 
 
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen</summary>
+
+```diff
++ void lambda$init$0(CycleButton,LevelType)
+- void lambda$init$0(LayoutSettings)
++ void lambda$init$1(CycleButton,Boolean)
+- void lambda$init$1(CycleButton,LevelType)
++ void lambda$init$2(Button)
+- void lambda$init$2(CycleButton,Boolean)
+- void lambda$init$4(Button)
++ void lambda$init$4(RealmsResetNormalWorldScreen,GuiEventListener)
+- void lambda$init$5(RealmsResetNormalWorldScreen,GuiEventListener)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.AbstractCriterionTriggerInstance</summary>
+
+```diff
+- ContextAwarePredicate getPlayerPredicate()
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
++ Optional getPlayerPredicate()
+- void <init>(ResourceLocation,ContextAwarePredicate)
++ void <init>(ResourceLocation,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
+```
+
+</details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriterionTriggerInstance</summary>
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger$TriggerInstance</summary>
 
 ```diff
 + JsonObject serializeToJson()
-- JsonObject serializeToJson(net.minecraft.advancements.critereon.SerializationContext)
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,Block,ItemPredicate,MinMaxBounds$Ints)
++ void <init>(Optional,Block,Optional,MinMaxBounds$Ints)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate$Builder</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BeeNestDestroyedTrigger$TriggerInstance createInstance(DeserializationContext)
+- BlockPredicate build()
++ BlockPredicate$Builder of(Collection)
+- BlockPredicate$Builder of(Iterable)
+- BlockPredicate$Builder setProperties(StatePropertiesPredicate)
++ BlockPredicate$Builder setProperties(StatePropertiesPredicate$Builder)
++ Optional build()
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger$TriggerInstance</summary>
 
 ```diff
-+ Codec BLOCKS_CODEC
-+ Codec CODEC
-+ Optional blocks
-+ Optional nbt
-+ Optional properties
-+ Optional tag
-- BlockPredicate ANY
-- NbtPredicate nbt
-- Set blocks
-- StatePropertiesPredicate properties
-- TagKey tag
-+ App lambda$static$1(RecordCodecBuilder$Instance)
++ boolean matches(Optional,LootContext)
+- BredAnimalsTrigger$TriggerInstance bredAnimals(EntityPredicate,EntityPredicate,EntityPredicate)
++ BredAnimalsTrigger$TriggerInstance bredAnimals(Optional,Optional,Optional)
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate,ContextAwarePredicate,ContextAwarePredicate)
++ void <init>(Optional,Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
++ void lambda$serializeToJson$1(JsonObject,ContextAwarePredicate)
++ void lambda$serializeToJson$2(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,Potion)
++ void <init>(Optional,Potion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ResourceKey,ResourceKey)
++ void <init>(Optional,ResourceKey,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger$TriggerInstance</summary>
+
+```diff
+- ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate[])
++ ChanneledLightningTrigger$TriggerInstance channeledLightning(EntityPredicate$Builder[])
+- ContextAwarePredicate[] lambda$channeledLightning$0(int)
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate[])
++ void <init>(Optional,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,MinMaxBounds$Ints)
++ void <init>(Optional,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ItemPredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- CuredZombieVillagerTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ CuredZombieVillagerTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate</summary>
+
+```diff
 + boolean equals(Object)
+- DamagePredicate fromJson(JsonElement)
 + int hashCode()
-+ List lambda$static$0(HolderSet)
-+ Optional blocks()
-+ Optional nbt()
-+ Optional of(Optional)
-+ Optional properties()
-+ Optional tag()
++ MinMaxBounds$Doubles dealtDamage()
++ MinMaxBounds$Doubles takenDamage()
++ Optional blocked()
++ Optional fromJson(JsonElement)
++ Optional of(MinMaxBounds$Doubles,MinMaxBounds$Doubles,Optional,Optional,Optional)
++ Optional sourceEntity()
++ Optional type()
 + String toString()
-+ void <init>(Optional)
-- BlockPredicate fromJson(JsonElement)
-- JsonElement serializeToJson()
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
-- void <init>(NbtPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BredAnimalsTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- BrewedPotionTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChangeDimensionTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ChanneledLightningTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConstructBeaconTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- ConsumeItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.ContextAwarePredicate</summary>
-
-```diff
-+ List conditions
-- ContextAwarePredicate ANY
-- LootItemCondition[] conditions
-+ JsonElement toJson()
-+ JsonElement toJson(List)
-+ Optional fromElement(LootContextParamSet)
-+ void <init>(List)
-- ContextAwarePredicate fromElement(LootContextParamSet)
-- JsonElement toJson(SerializationContext)
-- JsonElement toJson(SerializationContext)
 - void <clinit>()
-- void <init>(LootItemCondition[])
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional villager
-+ Optional zombie
-- ContextAwarePredicate villager
-- ContextAwarePredicate zombie
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-+ void lambda$serializeToJson$1(ContextAwarePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamagePredicate$Builder</summary>
-
-```diff
-+ Optional blocked
-+ Optional sourceEntity
-+ Optional type
-- Boolean blocked
-- DamageSourcePredicate type
-- EntityPredicate sourceEntity
-+ Optional build()
-- DamagePredicate build()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
-
-```diff
-+ Optional directEntity
-+ Optional sourceEntity
-- EntityPredicate directEntity
-- EntityPredicate sourceEntity
-+ Optional build()
-- DamageSourcePredicate build()
-- DamageSourcePredicate$Builder direct(EntityPredicate)
-- DamageSourcePredicate$Builder source(EntityPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DistancePredicate</summary>
-
-```diff
-+ Codec CODEC
-- DistancePredicate ANY
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ MinMaxBounds$Doubles absolute()
-+ MinMaxBounds$Doubles horizontal()
-+ MinMaxBounds$Doubles x()
-+ MinMaxBounds$Doubles y()
-+ MinMaxBounds$Doubles z()
-+ Optional fromJson(JsonElement)
-+ String toString()
-- DistancePredicate fromJson(JsonElement)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.DistanceTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional distance
-+ Optional startPosition
-- DistancePredicate distance
-- LocationPredicate startPosition
-+ DistanceTrigger$TriggerInstance fallFromHeight(LocationPredicate$Builder)
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(LocationPredicate)
-+ void lambda$serializeToJson$1(DistancePredicate)
-- DistanceTrigger$TriggerInstance fallFromHeight(LocationPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(DistancePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional effects
-+ Optional source
-- ContextAwarePredicate source
-- MobEffectsPredicate effects
-+ EffectsChangedTrigger$TriggerInstance gotEffectsFrom(Optional)
-+ EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate$Builder)
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(MobEffectsPredicate)
-+ void lambda$serializeToJson$1(ContextAwarePredicate)
-- EffectsChangedTrigger$TriggerInstance gotEffectsFrom(EntityPredicate)
-- EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional item
-- ItemPredicate item
-+ JsonObject serializeToJson()
-+ void <init>(MinMaxBounds$Ints)
-+ void lambda$serializeToJson$0(ItemPredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(MinMaxBounds$Ints)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ boolean lambda$trigger$3(EnterBlockTrigger$TriggerInstance)
-+ EnterBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-+ JsonSyntaxException lambda$deserializeBlock$2(ResourceLocation)
-+ void lambda$createInstance$1(StatePropertiesPredicate)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- boolean lambda$trigger$2(EnterBlockTrigger$TriggerInstance)
-- EnterBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-- JsonSyntaxException lambda$deserializeBlock$1(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Optional chest
-+ Optional feet
-+ Optional head
-+ Optional legs
-+ Optional mainhand
-+ Optional offhand
-- EntityEquipmentPredicate ANY
-- ItemPredicate chest
-- ItemPredicate feet
-- ItemPredicate head
-- ItemPredicate legs
-- ItemPredicate mainhand
-- ItemPredicate offhand
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ Optional chest()
-+ Optional feet()
-+ Optional head()
-+ Optional legs()
-+ Optional mainhand()
-+ Optional of(Optional)
-+ Optional offhand()
-+ String toString()
-+ void <init>(Optional)
-- EntityEquipmentPredicate fromJson(JsonElement)
-- JsonElement serializeToJson()
-- void <init>(ItemPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Optional isBaby
-+ Optional isCrouching
-+ Optional isOnFire
-+ Optional isSprinting
-+ Optional isSwimming
-- Boolean isBaby
-- Boolean isCrouching
-- Boolean isOnFire
-- Boolean isSprinting
-- Boolean isSwimming
-- EntityFlagsPredicate ANY
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ Optional isBaby()
-+ Optional isCrouching()
-+ Optional isOnFire()
-+ Optional isSprinting()
-+ Optional isSwimming()
-+ Optional of(Optional)
-+ String toString()
-+ void <init>(Optional)
-- Boolean getOptionalBoolean(String)
-- EntityFlagsPredicate fromJson(JsonElement)
-- JsonElement serializeToJson()
-- void <init>(Boolean)
-- void addOptionalBoolean(Boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ EntityHurtPlayerTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- EntityHurtPlayerTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
-
-```diff
-+ Codec CODEC
-+ Optional distanceToPlayer
-+ Optional effects
-+ Optional entityType
-+ Optional equipment
-+ Optional flags
-+ Optional location
-+ Optional nbt
-+ Optional passenger
-+ Optional steppingOnLocation
-+ Optional subPredicate
-+ Optional targetedEntity
-+ Optional team
-+ Optional vehicle
-- DistancePredicate distanceToPlayer
-- EntityEquipmentPredicate equipment
-- EntityFlagsPredicate flags
-- EntityPredicate ANY
-- EntityPredicate passenger
-- EntityPredicate targetedEntity
-- EntityPredicate vehicle
-- EntitySubPredicate subPredicate
-- EntityTypePredicate entityType
-- LocationPredicate location
-- LocationPredicate steppingOnLocation
-- MobEffectsPredicate effects
-- NbtPredicate nbt
-- String team
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ boolean lambda$matches$3(Entity)
-+ Codec lambda$static$1(Codec)
-+ int hashCode()
-+ List fromJsonArray(DeserializationContext)
-+ List wrap(EntityPredicate$Builder[])
-+ Optional distanceToPlayer()
-+ Optional effects()
-+ Optional entityType()
-+ Optional equipment()
-+ Optional flags()
-+ Optional fromElement(JsonElement)
-+ Optional fromJson(DeserializationContext)
-+ Optional fromJson(JsonElement)
-+ Optional location()
-+ Optional nbt()
-+ Optional of(Optional)
-+ Optional passenger()
-+ Optional steppingOnLocation()
-+ Optional subPredicate()
-+ Optional targetedEntity()
-+ Optional team()
-+ Optional vehicle()
-+ Optional wrap(EntityPredicate$Builder)
-+ Optional wrap(Optional)
-+ Stream lambda$wrap$2(EntityPredicate$Builder)
-+ String toString()
-+ void <init>(Optional)
-- boolean lambda$matches$0(Entity)
-- ContextAwarePredicate fromElement(JsonElement)
-- ContextAwarePredicate fromJson(DeserializationContext)
-- ContextAwarePredicate[] fromJsonArray(DeserializationContext)
-- EntityPredicate fromJson(JsonElement)
-- void <init>(String)
-- void <init>(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntitySubPredicate</summary>
-
-```diff
-+ Codec CODEC
-- EntitySubPredicate ANY
-- JsonObject serializeCustomData()
-+ Codec lambda$static$0(EntitySubPredicate$Type)
-- EntitySubPredicate fromJson(JsonElement)
-- JsonElement serialize()
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
-
-```diff
-+ Codec CODEC
-+ HolderSet types
-- boolean matches(net.minecraft.world.entity.EntityType)
-- EntityTypePredicate ANY
-- Joiner COMMA_JOINER
-- JsonElement serializeToJson()
-+ boolean equals(Object)
-+ boolean matches(EntityType)
-+ DataResult lambda$static$4(EntityTypePredicate)
-+ EntityTypePredicate lambda$static$0(TagKey)
-+ EntityTypePredicate lambda$static$1(Holder)
-+ EntityTypePredicate lambda$static$2(Either)
-+ HolderSet types()
-+ int hashCode()
-+ String lambda$static$3(HolderSet)
-+ String toString()
-+ void <init>(HolderSet)
-- EntityTypePredicate fromJson(JsonElement)
-- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
 - void <init>()
+- void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,EntityPredicate,Boolean,DamageSourcePredicate)
++ void <init>(MinMaxBounds$Doubles,MinMaxBounds$Doubles,Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,EntityPredicate)
++ void lambda$serializeToJson$1(JsonObject,DamageSourcePredicate)
++ void lambda$serializeToJson$2(JsonObject,Boolean)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
+
+<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate</summary>
 
 ```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- LootTableTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MinMaxBounds</summary>
-
-```diff
-+ Optional max()
-+ Optional min()
-- Number max
-- Number min
-+ App lambda$createCodec$0(RecordCodecBuilder$Instance)
-+ Codec createCodec(MinMaxBounds$BoundsFactory)
-+ Either lambda$createCodec$4(MinMaxBounds)
-+ MinMaxBounds lambda$createCodec$1(MinMaxBounds)
-+ MinMaxBounds lambda$createCodec$2(Number)
-+ MinMaxBounds lambda$createCodec$3(Either)
-+ Optional readNumber(Supplier)
-+ Optional unwrapPoint()
-- JsonElement serializeToJson()
-- MinMaxBounds fromJson(MinMaxBounds$BoundsFactory)
-- Number getMax()
-- Number getMin()
-- Number readNumber(Supplier)
-- Object optionallyFormat(Function)
-- void <init>(Number)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$BoundsFromReaderFactory</summary>
-
-```diff
-+ MinMaxBounds create(com.mojang.brigadier.StringReader,java.util.Optional,java.util.Optional)
-- MinMaxBounds create(com.mojang.brigadier.StringReader,java.lang.Number,java.lang.Number)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$Ints</summary>
-
-```diff
-+ Codec CODEC
-+ Optional max
-+ Optional maxSq
-+ Optional min
-+ Optional minSq
-- Long maxSq
-- Long minSq
++ App lambda$static$0(RecordCodecBuilder$Instance)
 + boolean equals(Object)
+- DamageSourcePredicate fromJson(JsonElement)
 + int hashCode()
-+ Integer lambda$fromReader$2(Integer)
++ List tags()
++ Optional directEntity()
++ Optional fromJson(JsonElement)
++ Optional of(List,Optional,Optional)
++ Optional sourceEntity()
++ String toString()
+- void <init>(List,EntityPredicate,EntityPredicate)
++ void <init>(List,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DeserializationContext</summary>
+
+```diff
++ List deserializeConditions(JsonArray,String,LootContextParamSet)
+- LootItemCondition[] deserializeConditions(JsonArray,String,LootContextParamSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DistanceTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- DistanceTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ DistanceTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- EffectsChangedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ EffectsChangedTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- EnchantedItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ EnchantedItemTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnchantmentPredicate</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
+- EnchantmentPredicate fromJson(JsonElement)
+- EnchantmentPredicate[] fromJsonArray(JsonElement)
++ int hashCode()
+- JsonElement serializeToJson()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ MinMaxBounds$Ints level()
++ Optional enchantment()
++ String toString()
+- void <init>()
++ void <init>(Optional,MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,Block,StatePropertiesPredicate)
++ void <init>(Optional,Block,Optional)
++ void lambda$serializeToJson$0(JsonObject,StatePropertiesPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate$Builder</summary>
+
+```diff
+- EntityEquipmentPredicate build()
+- EntityEquipmentPredicate$Builder chest(ItemPredicate)
++ EntityEquipmentPredicate$Builder chest(ItemPredicate$Builder)
+- EntityEquipmentPredicate$Builder feet(ItemPredicate)
++ EntityEquipmentPredicate$Builder feet(ItemPredicate$Builder)
+- EntityEquipmentPredicate$Builder head(ItemPredicate)
++ EntityEquipmentPredicate$Builder head(ItemPredicate$Builder)
+- EntityEquipmentPredicate$Builder legs(ItemPredicate)
++ EntityEquipmentPredicate$Builder legs(ItemPredicate$Builder)
+- EntityEquipmentPredicate$Builder mainhand(ItemPredicate)
++ EntityEquipmentPredicate$Builder mainhand(ItemPredicate$Builder)
+- EntityEquipmentPredicate$Builder offhand(ItemPredicate)
++ EntityEquipmentPredicate$Builder offhand(ItemPredicate$Builder)
++ Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate$Builder</summary>
+
+```diff
+- EntityFlagsPredicate build()
++ Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,DamagePredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,DamagePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate$Builder</summary>
+
+```diff
+- EntityPredicate build()
+- EntityPredicate$Builder effects(MobEffectsPredicate)
++ EntityPredicate$Builder effects(MobEffectsPredicate$Builder)
++ EntityPredicate$Builder equipment(EntityEquipmentPredicate$Builder)
+- EntityPredicate$Builder flags(EntityFlagsPredicate)
++ EntityPredicate$Builder flags(EntityFlagsPredicate$Builder)
+- EntityPredicate$Builder located(LocationPredicate)
++ EntityPredicate$Builder located(LocationPredicate$Builder)
+- EntityPredicate$Builder passenger(EntityPredicate)
++ EntityPredicate$Builder passenger(EntityPredicate$Builder)
+- EntityPredicate$Builder steppingOn(LocationPredicate)
++ EntityPredicate$Builder steppingOn(LocationPredicate$Builder)
+- EntityPredicate$Builder targetedEntity(EntityPredicate)
++ EntityPredicate$Builder targetedEntity(EntityPredicate$Builder)
+- EntityPredicate$Builder vehicle(EntityPredicate)
++ EntityPredicate$Builder vehicle(EntityPredicate$Builder)
++ Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LootTableTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ResourceLocation)
++ void <init>(Optional,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$Doubles</summary>
+
+```diff
++ boolean equals(Object)
+- Double lambda$fromReader$0(Double)
++ Double lambda$fromReader$1(Double)
++ Double lambda$squareOpt$0(Double)
+- Double squareOpt(Double)
++ int hashCode()
 + JsonElement serializeToJson()
-+ Long lambda$new$1(Integer)
-+ Long lambda$squareOpt$0(Integer)
-+ MinMaxBounds$Ints create(Optional)
+- MinMaxBounds$Doubles create(StringReader,Double,Double)
++ MinMaxBounds$Doubles create(StringReader,Optional,Optional)
 + Optional max()
 + Optional maxSq()
 + Optional min()
 + Optional minSq()
 + Optional squareOpt(Optional)
 + String toString()
-+ void <init>(Optional)
-+ void <init>(Optional)
-- Integer lambda$fromReader$0(Integer)
-- Long squareOpt(Integer)
-- MinMaxBounds$Ints create(Integer)
-- void <init>(Integer)
+- void <init>(Double,Double)
++ void <init>(Optional,Optional,Optional,Optional)
++ void <init>(Optional,Optional)
 ```
 
 </details>
 
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
 
-```diff
-+ PlayerTrigger$TriggerInstance located(LocationPredicate$Builder)
-+ PlayerTrigger$TriggerInstance located(Optional)
-+ void <init>(Optional)
-- PlayerTrigger$TriggerInstance located(EntityPredicate)
-- PlayerTrigger$TriggerInstance located(LocationPredicate)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ Stream lambda$craftedItem$0(ItemPredicate$Builder)
-+ void <init>(List)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
-
-```diff
-+ JsonObject serializeToJson()
-+ void <init>(ResourceLocation)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance</summary>
-
-```diff
-+ Optional entity
-- ContextAwarePredicate entity
-+ JsonObject serializeToJson()
-+ void <init>(Optional)
-+ void lambda$serializeToJson$0(ContextAwarePredicate)
-- JsonObject serializeToJson(SerializationContext)
-- void <init>(ContextAwarePredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TameAnimalTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TargetBlockTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.TradeTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ TradeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- TradeTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedEnderEyeTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsedTotemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger</summary>
-
-```diff
-+ AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-+ UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
-- AbstractCriterionTriggerInstance createInstance(DeserializationContext)
-- UsingItemTrigger$TriggerInstance createInstance(DeserializationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.WrappedMinMaxBounds</summary>
+<details><summary>net.minecraft.advancements.critereon.MobEffectsPredicate</summary>
 
 ```diff
 + boolean equals(Object)
-+ Float max()
-+ Float min()
 + int hashCode()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ Map effectMap()
+- MobEffectsPredicate and(MobEffect,MobEffectsPredicate$MobEffectInstancePredicate)
+- MobEffectsPredicate and(MobEffect)
+- MobEffectsPredicate effects()
+- MobEffectsPredicate fromJson(JsonElement)
++ Optional fromJson(JsonElement)
 + String toString()
-- Float getMax()
-- Float getMin()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- PlayerTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ PlayerTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- RecipeCraftedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ RecipeCraftedTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- RecipeUnlockedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ RecipeUnlockedTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger</summary>
 
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- SummonedEntityTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ SummonedEntityTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.TagPredicate</summary>
 
+```diff
++ App lambda$codec$0(ResourceKey,RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ boolean expected()
++ Codec codec(ResourceKey)
++ int hashCode()
+- JsonElement serializeToJson()
++ String toString()
++ TagKey tag()
+- TagPredicate fromJson(JsonElement,ResourceKey)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger$TriggerInstance</summary>
 
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- TameAnimalTrigger$TriggerInstance tamedAnimal(EntityPredicate)
++ TameAnimalTrigger$TriggerInstance tamedAnimal(Optional)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- TargetBlockTrigger$TriggerInstance targetHit(MinMaxBounds$Ints,ContextAwarePredicate)
++ TargetBlockTrigger$TriggerInstance targetHit(MinMaxBounds$Ints,Optional)
+- void <init>(ContextAwarePredicate,MinMaxBounds$Ints,ContextAwarePredicate)
++ void <init>(Optional,MinMaxBounds$Ints,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TradeTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate,ItemPredicate)
++ void <init>(Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
++ void lambda$serializeToJson$1(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger$TriggerInstance</summary>
+
+```diff
+- void <init>(ContextAwarePredicate,MinMaxBounds$Doubles)
++ void <init>(Optional,MinMaxBounds$Doubles)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ItemPredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ItemPredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Minecraft</summary>
+
+```diff
++ boolean isGameLoadFinished()
+- boolean lambda$createSearchTrees$14(String)
++ boolean lambda$createSearchTrees$15(String)
+- boolean lambda$createSearchTrees$6(String)
++ boolean lambda$createSearchTrees$7(String)
+- boolean lambda$tick$39()
++ boolean lambda$tick$40()
+- ChunkProgressListener lambda$doWorldLoad$40(int)
++ ChunkProgressListener lambda$doWorldLoad$41(int)
+- CompletionStage lambda$delayTextureReload$51(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$52(CompletableFuture)
+- CrashReport lambda$delayCrash$20(CrashReport)
++ CrashReport lambda$delayCrash$21(CrashReport)
+- CrashReport lambda$delayCrashRaw$21(CrashReport)
++ CrashReport lambda$delayCrashRaw$22(CrashReport)
+- FrameTimer getFrameTimer()
++ GameProfile getGameProfile()
++ GameProfile lambda$new$1()
+- IntegratedServer lambda$doWorldLoad$41(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ IntegratedServer lambda$doWorldLoad$42(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
+- PropertyMap getProfileProperties()
++ RefreshableSearchTree lambda$createSearchTrees$10(List)
+- RefreshableSearchTree lambda$createSearchTrees$11(List)
++ RefreshableSearchTree lambda$createSearchTrees$12(List)
+- RefreshableSearchTree lambda$createSearchTrees$18(List)
++ RefreshableSearchTree lambda$createSearchTrees$19(List)
+- RefreshableSearchTree lambda$createSearchTrees$9(List)
+- ResourceLocation lambda$createSearchTrees$16(RecipeCollection,Recipe)
++ ResourceLocation lambda$createSearchTrees$17(RecipeCollection,Recipe)
++ SampleLogger getFrameTimeLogger()
+- Stream lambda$createSearchTrees$10(ItemStack)
++ Stream lambda$createSearchTrees$11(ItemStack)
+- Stream lambda$createSearchTrees$12(RecipeCollection,Recipe)
++ Stream lambda$createSearchTrees$13(RecipeCollection,Recipe)
+- Stream lambda$createSearchTrees$15(RecipeCollection)
++ Stream lambda$createSearchTrees$16(RecipeCollection)
+- Stream lambda$createSearchTrees$17(RecipeCollection)
++ Stream lambda$createSearchTrees$18(RecipeCollection)
+- Stream lambda$createSearchTrees$7(ItemStack)
++ Stream lambda$createSearchTrees$9(ItemStack)
+- String lambda$createSearchTrees$13(Component)
++ String lambda$createSearchTrees$14(Component)
+- String lambda$createSearchTrees$5(Component)
++ String lambda$createSearchTrees$6(Component)
+- String lambda$doWorldLoad$42(WorldStem)
++ String lambda$doWorldLoad$43(WorldStem)
+- String lambda$fillSystemReport$44(String)
+- String lambda$fillSystemReport$45(Minecraft)
++ String lambda$fillSystemReport$45(String)
+- String lambda$fillSystemReport$46()
++ String lambda$fillSystemReport$46(Minecraft)
++ String lambda$fillSystemReport$49()
+- String lambda$fillSystemReport$49(Options)
+- String lambda$fillSystemReport$50(LanguageManager)
++ String lambda$fillSystemReport$50(Options)
++ String lambda$fillSystemReport$51(LanguageManager)
+- Style lambda$debugClientMetricsStart$30(Path,Style)
++ Style lambda$debugClientMetricsStart$31(Path,Style)
+- Style lambda$grabHugeScreenshot$54(File,Style)
++ Style lambda$grabHugeScreenshot$55(File,Style)
+- Style lambda$grabPanoramixScreenshot$53(File,Style)
++ Style lambda$grabPanoramixScreenshot$54(File,Style)
+- void lambda$clearResourcePacksOnError$4(Component)
++ void lambda$clearResourcePacksOnError$5(Component)
+- void lambda$createSearchTrees$19(List)
++ void lambda$createSearchTrees$20(List)
+- void lambda$debugClientMetricsStart$28(Consumer,double,int)
++ void lambda$debugClientMetricsStart$29(Consumer,double,int)
+- void lambda$debugClientMetricsStart$29(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$30(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$31(Consumer,Component)
++ void lambda$debugClientMetricsStart$32(Consumer,Component)
+- void lambda$debugClientMetricsStart$32(Consumer,Path)
++ void lambda$debugClientMetricsStart$33(Consumer,Path)
+- void lambda$debugClientMetricsStart$33(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$34(Consumer,Path)
++ void lambda$debugClientMetricsStart$34(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$35(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$35(Consumer,Path)
++ void lambda$debugClientMetricsStart$36(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$36(ProfileResults)
+- void lambda$debugClientMetricsStart$37(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$37(ProfileResults)
++ void lambda$debugClientMetricsStart$38(Consumer,ProfileResults)
+- void lambda$doWorldLoad$43(Component)
++ void lambda$doWorldLoad$44(Component)
+- void lambda$grabPanoramixScreenshot$52(Component)
++ void lambda$grabPanoramixScreenshot$53(Component)
+- void lambda$new$1()
++ void lambda$new$2()
+- void lambda$new$2(Optional)
++ void lambda$new$3(Optional)
+- void lambda$new$3(RealmsClient,ReloadInstance,GameConfig,boolean)
++ void lambda$new$4(RealmsClient,ReloadInstance,GameConfig,boolean)
+- void lambda$openChatScreen$25(boolean)
++ void lambda$openChatScreen$26(boolean)
+- void lambda$reloadResourcePacks$22(boolean,Throwable)
++ void lambda$reloadResourcePacks$23(boolean,Throwable)
+- void lambda$reloadResourcePacks$23(CompletableFuture)
+- void lambda$reloadResourcePacks$24(boolean,CompletableFuture,Optional)
++ void lambda$reloadResourcePacks$24(CompletableFuture)
++ void lambda$reloadResourcePacks$25(boolean,CompletableFuture,Optional)
+- void lambda$runTick$26(CompletableFuture)
++ void lambda$runTick$27(CompletableFuture)
+- void lambda$runTick$27(TimerQuery)
++ void lambda$runTick$28(TimerQuery)
+- void lambda$tick$38()
++ void lambda$tick$39()
++ void onResourceLoadFinished()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.User</summary>
+
+```diff
+- GameProfile getGameProfile()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.AbstractSelectionList</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.EditBox</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.PlayerInfo</summary>
+
+```diff
+- CompletableFuture loadSkin(GameProfile,SkinManager,MinecraftSessionService)
+- GameProfile fillProfileProperties(GameProfile,MinecraftSessionService)
+- GameProfile lambda$loadSkin$3(GameProfile,MinecraftSessionService)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.multiplayer.chat.ChatListener</summary>
+
+```diff
++ boolean lambda$handleChatMessageError$2(UUID,ChatType$Bound)
+- boolean lambda$handleDisguisedChatMessage$2(ChatType$Bound,Component,Instant)
++ boolean lambda$handleDisguisedChatMessage$3(ChatType$Bound,Component,Instant)
++ void <clinit>()
++ void handleChatMessageError(UUID,ChatType$Bound)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.RenderType</summary>
+
+```diff
++ RenderType createArmorDecalCutoutNoCull(ResourceLocation)
++ RenderType$CompositeRenderType createArmorCutoutNoCull(String,ResourceLocation,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.SkinManager</summary>
+
+```diff
+- boolean hasSecureTextureData(GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.resources.metadata.gui.GuiSpriteScaling$NineSlice</summary>
+
+```diff
++ DataResult validate(GuiSpriteScaling$NineSlice)
++ String lambda$validate$1(GuiSpriteScaling$NineSlice$Border,GuiSpriteScaling$NineSlice)
++ String lambda$validate$2(GuiSpriteScaling$NineSlice$Border,GuiSpriteScaling$NineSlice)
+```
+
+</details>
 
 
 <details><summary>net.minecraft.core.HolderSet</summary>
 
 ```diff
-+ HolderSet$Direct direct(Collection)
-- HolderSet$Direct direct(List)
++ HolderSet$Direct direct(Function,Collection)
+- HolderSet$Direct direct(Function,List)
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.core.Registry</summary>
 
 ```diff
-- Object registerMapping(Object)
+- Object registerMapping(Registry,int,String,Object)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.core.registries.BuiltInRegistries</summary>
 
 ```diff
-+ Registry registerSimpleWithIntrusiveHolders(BuiltInRegistries$RegistryBootstrap)
++ Registry registerSimpleWithIntrusiveHolders(ResourceKey,BuiltInRegistries$RegistryBootstrap)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
@@ -7622,1077 +3683,53 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.nbt.TagParser</summary>
 
 ```diff
-+ Codec AS_CODEC
 + DataResult lambda$static$3(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.network.Connection</summary>
 
 ```diff
-+ BandwidthDebugMonitor bandwidthDebugMonitor
-+ Connection connectToServer(SampleLogger)
-+ void configureSerialization(BandwidthDebugMonitor)
-+ void setBandwidthLogger(SampleLogger)
++ Connection connectToServer(InetSocketAddress,boolean,SampleLogger)
 - Connection connectToServer(InetSocketAddress,boolean)
-- void configureSerialization(PacketFlow)
++ void configureSerialization(ChannelPipeline,PacketFlow,BandwidthDebugMonitor)
+- void configureSerialization(ChannelPipeline,PacketFlow)
+- void sendNoFlush(Packet,PacketSendListener)
 - void sendNoFlush(Packet)
-- void sendNoFlush(PacketSendListener)
++ void setBandwidthLogger(SampleLogger)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
 
 ```diff
 + boolean lambda$createMessageValidator$0(Duration)
-+ SignedMessageValidator createMessageValidator(Duration)
 - SignedMessageValidator createMessageValidator()
++ SignedMessageValidator createMessageValidator(Duration)
 ```
 
 </details>
 
 
-
-
-
-
 <details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
 
 ```diff
-+ BooleanSupplier expired
 + boolean validate(PlayerChatMessage)
-+ void <init>(BooleanSupplier)
++ void <init>(SignatureValidator,BooleanSupplier)
 - void <init>(SignatureValidator)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffect</summary>
-
-```diff
-+ Holder$Reference builtInRegistryHolder
-+ Holder$Reference builtInRegistryHolder()
-- int getId(MobEffect)
-- int getIdFromNullable(MobEffect)
-- MobEffect byId(int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffects</summary>
-
-```diff
-+ MobEffect register(MobEffect)
-- MobEffect register(MobEffect)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ String TAG_ACTIVE_EFFECTS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation</summary>
-
-```diff
-+ Codec CODEC
-+ String name
-+ String getSerializedName()
-+ void <init>(String,int)
-- void <init>(String,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
-
-```diff
-+ List stewEffects
-+ String TAG_STEW_EFFECTS
-- int effectDuration
-- MobEffect effect
-+ Optional getEffectsFromItemStack(ItemStack)
-+ void lambda$addAdditionalSaveData$1(Tag)
-+ void lambda$readAdditionalSaveData$2(List)
-- Optional getEffectFromItemStack(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
-
-```diff
-+ float getBurnProgress()
-+ float getLitProgress()
-- int getBurnProgress()
-- int getLitProgress()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
+<details><summary>net.minecraft.world.entity.EntityType</summary>
 
 ```diff
 + boolean is(HolderSet)
@@ -8701,790 +3738,233 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootDataManager</summary>
+<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
 
 ```diff
-+ Gson GSON
-- LootItemCondition createComposite(LootItemCondition[])
-- LootItemFunction createComposite(LootItemFunction[])
++ String getSerializedName()
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+<details><summary>net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald</summary>
 
 ```diff
-+ Codec CODEC
-+ List conditions
-+ List entries
-+ List functions
-- LootItemCondition[] conditions
-- LootItemFunction[] functions
-- LootPoolEntryContainer[] entries
-+ App lambda$static$5(RecordCodecBuilder$Instance)
-+ List lambda$static$0(LootPool)
-+ List lambda$static$1(LootPool)
-+ List lambda$static$2(LootPool)
-+ NumberProvider lambda$static$3(LootPool)
-+ NumberProvider lambda$static$4(LootPool)
-+ void <clinit>()
-+ void <init>(NumberProvider)
-+ void lambda$addRandomItem$6(LootPoolEntry)
-- void <init>(NumberProvider)
-- void lambda$addRandomItem$0(LootPoolEntry)
++ void <init>(List,int,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.AlternativesEntry$Builder</summary>
+<details><summary>net.minecraft.world.entity.player.ProfilePublicKey</summary>
 
 ```diff
-+ ImmutableList$Builder entries
-- List entries
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
-
-```diff
-+ ComposableEntryContainer compose(java.util.List)
-+ List children
-- ComposableEntryContainer compose(net.minecraft.world.level.storage.loot.entries.ComposableEntryContainer[])
-- LootPoolEntryContainer[] children
-+ App lambda$createCodec$1(RecordCodecBuilder$Instance)
-+ Codec createCodec(CompositeEntryBase$CompositeEntryConstructor)
-+ List lambda$createCodec$0(CompositeEntryBase)
-+ void <init>(List)
-- LootPoolEntryContainer$Serializer createSerializer(CompositeEntryBase$CompositeEntryConstructor)
-- void <init>(LootItemCondition[])
+- ProfilePublicKey createValidated(SignatureValidator,UUID,ProfilePublicKey$Data,Duration)
++ ProfilePublicKey createValidated(SignatureValidator,UUID,ProfilePublicKey$Data)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Builder</summary>
+<details><summary>net.minecraft.world.inventory.BeaconMenu</summary>
 
 ```diff
-+ ImmutableList$Builder conditions
-- List conditions
-+ List getConditions()
-- LootItemCondition[] getConditions()
++ int encodeEffect(MobEffect)
++ MobEffect decodeEffect(int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
+
+<details><summary>net.minecraft.world.item.SuspiciousStewItem</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ LootPoolSingletonContainer lambda$lootTableReference$4(List)
-+ ResourceLocation lambda$static$0(LootTableReference)
-+ void <clinit>()
-+ void <init>(List)
-+ void lambda$validate$2(LootTable)
-+ void lambda$validate$3(ValidationContext)
-- LootPoolSingletonContainer lambda$lootTableReference$2(LootItemFunction[])
-- void <init>(LootItemFunction[])
-- void lambda$validate$0(LootTable)
-- void lambda$validate$1(ValidationContext)
++ void appendMobEffects(ItemStack,List)
++ void lambda$appendHoverText$3(List,SuspiciousEffectHolder$EffectEntry)
++ void lambda$appendMobEffects$1(CompoundTag,Tag)
++ void lambda$finishUsingItem$4(LivingEntity,SuspiciousEffectHolder$EffectEntry)
++ void lambda$listPotionEffects$2(Consumer,List)
++ void lambda$saveMobEffects$0(CompoundTag,Tag)
+- void saveMobEffect(ItemStack,MobEffect,int)
++ void saveMobEffects(ItemStack,List)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount</summary>
+
+<details><summary>net.minecraft.world.item.alchemy.Potion</summary>
 
 ```diff
-+ Codec CODEC
-+ Codec FORMULA_TYPE_CODEC
-+ Holder enchantment
-+ MapCodec FORMULA_CODEC
-- Enchantment enchantment
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ ApplyBonusCount$Formula lambda$static$3(ApplyBonusCount)
-+ DataResult lambda$static$1(ResourceLocation)
-+ Holder lambda$static$2(ApplyBonusCount)
-+ LootItemFunction lambda$addBonusBinomialDistributionCount$5(List)
-+ LootItemFunction lambda$addOreBonusCount$6(List)
-+ LootItemFunction lambda$addUniformBonusCount$7(List)
-+ LootItemFunction lambda$addUniformBonusCount$8(List)
-+ String lambda$static$0(ResourceLocation)
-+ void <init>(ApplyBonusCount$Formula)
-- LootItemFunction lambda$addBonusBinomialDistributionCount$0(LootItemCondition[])
-- LootItemFunction lambda$addOreBonusCount$1(LootItemCondition[])
-- LootItemFunction lambda$addUniformBonusCount$2(LootItemCondition[])
-- LootItemFunction lambda$addUniformBonusCount$3(LootItemCondition[])
-- void <init>(ApplyBonusCount$Formula)
++ Holder$Reference builtInRegistryHolder()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount</summary>
+
+<details><summary>net.minecraft.world.item.enchantment.Enchantment</summary>
 
 ```diff
-+ ApplyBonusCount$FormulaType TYPE
-+ Codec CODEC
-- ResourceLocation TYPE
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ ApplyBonusCount$FormulaType getType()
-+ boolean equals(Object)
-+ int bonusMultiplier()
-+ int hashCode()
-+ String toString()
-- ApplyBonusCount$Formula deserialize(JsonDeserializationContext)
-- ResourceLocation getType()
-- void serializeParams(JsonSerializationContext)
++ Holder$Reference builtInRegistryHolder()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction</summary>
+
+<details><summary>net.minecraft.world.level.block.FlowerBlock</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ CopyNameFunction$NameSource lambda$static$0(CopyNameFunction)
-+ LootItemFunction lambda$copyName$2(List)
-+ void <clinit>()
-+ void <init>(CopyNameFunction$NameSource)
-- LootItemFunction lambda$copyName$0(LootItemCondition[])
-- void <init>(CopyNameFunction$NameSource)
+- int getEffectDuration()
++ List getSuspiciousEffects()
+- MobEffect getSuspiciousEffect()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.IntRange</summary>
 
 ```diff
-+ Codec CODEC
 + App lambda$static$2(RecordCodecBuilder$Instance)
-+ Boolean lambda$static$1(EnchantWithLevelsFunction)
-+ NumberProvider lambda$static$0(EnchantWithLevelsFunction)
+- boolean lambda$new$1(LootContext,int)
++ boolean lambda$new$10(NumberProvider,LootContext,int)
++ boolean lambda$new$12(NumberProvider,NumberProvider,LootContext,int)
+- boolean lambda$new$3(NumberProvider,LootContext,int)
+- boolean lambda$new$5(NumberProvider,LootContext,int)
++ boolean lambda$new$6(LootContext,int)
+- boolean lambda$new$7(NumberProvider,NumberProvider,LootContext,int)
++ boolean lambda$new$8(NumberProvider,LootContext,int)
++ Either lambda$static$4(IntRange)
+- int lambda$new$0(LootContext,int)
++ int lambda$new$11(NumberProvider,NumberProvider,LootContext,int)
+- int lambda$new$2(NumberProvider,LootContext,int)
+- int lambda$new$4(NumberProvider,LootContext,int)
++ int lambda$new$5(LootContext,int)
+- int lambda$new$6(NumberProvider,NumberProvider,LootContext,int)
++ int lambda$new$7(NumberProvider,LootContext,int)
++ int lambda$new$9(NumberProvider,LootContext,int)
++ IntRange lambda$static$3(Either)
++ Optional lambda$static$0(IntRange)
++ Optional lambda$static$1(IntRange)
++ OptionalInt unpackExact()
 + void <clinit>()
-+ void <init>(NumberProvider,boolean)
-- void <init>(NumberProvider,boolean)
++ void <init>(Optional,Optional)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.FillPlayerHead</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.LootDataType</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ LootContext$EntityTarget lambda$static$0(FillPlayerHead)
-+ LootItemFunction lambda$fillPlayerHead$2(List)
-+ void <clinit>()
-+ void <init>(LootContext$EntityTarget)
-- LootItemFunction lambda$fillPlayerHead$0(LootItemCondition[])
-- void <init>(LootContext$EntityTarget)
+- BiFunction createSingleDeserialiser(Class)
+- BiFunction createSingleOrMultipleDeserialiser(Class,Function)
+- BiFunction lambda$createSingleDeserialiser$1(Class,Gson,String)
+- BiFunction lambda$createSingleOrMultipleDeserialiser$3(Class,Function,Class,Gson,String)
+- Gson parser()
+- Optional lambda$createSingleDeserialiser$0(Gson,Class,String,ResourceLocation,JsonElement)
+- Optional lambda$createSingleOrMultipleDeserialiser$2(Gson,Class,Function,Class,String,ResourceLocation,JsonElement)
++ void <init>(Codec,String,LootDataType$Validator)
+- void <init>(Gson,BiFunction,String,LootDataType$Validator)
++ void lambda$createLootTableValidator$2(ValidationContext,LootDataId,LootTable)
+- void lambda$createLootTableValidator$5(ValidationContext,LootDataId,LootTable)
++ void lambda$createSimpleValidator$1(ValidationContext,LootDataId,LootContextUser)
+- void lambda$createSimpleValidator$4(ValidationContext,LootDataId,LootContextUser)
++ void lambda$deserialize$0(ResourceLocation,DataResult$PartialResult)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctions</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.AlternativesEntry</summary>
 
 ```diff
-+ Codec CODEC
-+ Codec TYPED_CODEC
-+ LootItemFunctionType SEQUENCE
-+ BiFunction compose(List)
-+ Codec lambda$static$1()
-+ ItemStack lambda$compose$2(LootContext)
-+ ItemStack lambda$compose$3(LootContext)
-+ LootItemFunctionType register(Codec)
-- BiFunction compose(BiFunction[])
-- ItemStack lambda$compose$1(LootContext)
-- ItemStack lambda$compose$2(LootContext)
-- LootItemFunctionType register(Serializer)
+- boolean lambda$compose$0(ComposableEntryContainer[],LootContext,Consumer)
++ boolean lambda$compose$0(List,LootContext,Consumer)
+- ComposableEntryContainer compose(ComposableEntryContainer[])
++ ComposableEntryContainer compose(List)
++ void <clinit>()
++ void <init>(List,List)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.EmptyLootItem</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ void <clinit>()
++ void <init>(int,int,List,List)
+- void <init>(int,int,LootItemCondition[],LootItemFunction[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntries</summary>
+
+```diff
++ LootPoolEntryType register(String,Codec)
+- LootPoolEntryType register(String,Serializer)
 - Object createGsonAdapter()
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction</summary>
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer</summary>
 
 ```diff
-+ Codec CODEC
-+ App lambda$static$1(RecordCodecBuilder$Instance)
-+ List lambda$static$0(SetAttributesFunction)
-+ SetAttributesFunction$ModifierBuilder modifier(NumberProvider)
-+ Stream lambda$getReferencedContextParams$2(SetAttributesFunction$Modifier)
++ List lambda$commonFields$0(LootPoolEntryContainer)
++ Products$P1 commonFields(RecordCodecBuilder$Instance)
++ void <init>(List)
+- void <init>(LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
 + void <clinit>()
 + void <init>(List)
-- SetAttributesFunction$ModifierBuilder modifier(NumberProvider)
-- Stream lambda$getReferencedContextParams$0(SetAttributesFunction$Modifier)
-- void <init>(List)
+- void <init>(LootItemCondition[])
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction$NameSource</summary>
 
 ```diff
-+ Codec CODEC
-+ Codec PATTERN_CODEC
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Boolean lambda$static$1(SetBannerPatternFunction)
-+ List lambda$static$0(SetBannerPatternFunction)
-+ void <clinit>()
-+ void <init>(List,boolean)
-- void <init>(List,boolean)
+- CopyNameFunction$NameSource getByName(String)
++ String getSerializedName()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerLootTable</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LimitCount</summary>
 
 ```diff
-+ Codec CODEC
-+ Holder type
-- BlockEntityType type
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ Holder lambda$static$2(SetContainerLootTable)
-+ Long lambda$static$1(SetContainerLootTable)
-+ LootItemFunction lambda$withLootTable$4(List)
-+ LootItemFunction lambda$withLootTable$5(List)
-+ ResourceLocation lambda$static$0(SetContainerLootTable)
-+ void <clinit>()
-+ void <init>(Holder)
-- LootItemFunction lambda$withLootTable$0(LootItemCondition[])
-- LootItemFunction lambda$withLootTable$1(LootItemCondition[])
-- void <init>(BlockEntityType)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetNameFunction</summary>
-
-```diff
-+ Codec CODEC
-+ Optional name
-+ Optional resolutionContext
-- Component name
-- LootContext$EntityTarget resolutionContext
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Component lambda$createResolver$4(Component)
-+ Component lambda$createResolver$5(Component)
-+ LootItemFunction lambda$setName$7(List)
-+ LootItemFunction lambda$setName$8(List)
-+ Optional lambda$static$0(SetNameFunction)
-+ Optional lambda$static$1(SetNameFunction)
-+ Set lambda$getReferencedContextParams$3(LootContext$EntityTarget)
-+ void <init>(Optional)
-+ void lambda$run$6(Component)
-- Component lambda$createResolver$0(Component)
-- Component lambda$createResolver$1(Component)
-- LootItemFunction lambda$setName$2(LootItemCondition[])
-- LootItemFunction lambda$setName$3(LootItemCondition[])
-- void <init>(LootContext$EntityTarget)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetPotionFunction</summary>
-
-```diff
-+ Codec CODEC
-+ Holder potion
-- Potion potion
 + App lambda$static$1(RecordCodecBuilder$Instance)
-+ Holder lambda$static$0(SetPotionFunction)
-+ LootItemFunction lambda$setPotion$2(List)
++ IntRange lambda$static$0(LimitCount)
+- LootItemFunction lambda$limitCount$0(IntRange,LootItemCondition[])
++ LootItemFunction lambda$limitCount$2(IntRange,List)
 + void <clinit>()
-+ void <init>(Holder)
-- LootItemFunction lambda$setPotion$0(LootItemCondition[])
-- void <init>(Potion)
++ void <init>(List,IntRange)
+- void <init>(LootItemCondition[],IntRange)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
-
-```diff
-+ Codec CODEC
-+ DataResult lambda$static$1(ResourceLocation)
-+ DataResult lambda$static$2(ResourceLocation)
-+ String lambda$static$0(ResourceLocation)
-+ void lambda$static$14(LootContextParamSet$Builder)
-+ void lambda$static$15(LootContextParamSet$Builder)
-+ void lambda$static$16(LootContextParamSet$Builder)
-- LootContextParamSet get(ResourceLocation)
-- ResourceLocation getKey(LootContextParamSet)
-- void lambda$static$0(LootContextParamSet$Builder)
-- void lambda$static$1(LootContextParamSet$Builder)
-- void lambda$static$2(LootContextParamSet$Builder)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.AllOfCondition$Builder</summary>
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctionType</summary>
 
 ```diff
-+ LootItemCondition create(List)
-- LootItemCondition create(LootItemCondition[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ LootItemCondition lambda$conditionReference$3(ResourceLocation)
-+ ResourceLocation name()
-+ String toString()
-+ void lambda$validate$1(LootItemCondition)
-+ void lambda$validate$2(ValidationContext)
-- LootItemCondition lambda$conditionReference$2(ResourceLocation)
-- void lambda$validate$0(LootItemCondition)
-- void lambda$validate$1(ValidationContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition$Builder</summary>
-
-```diff
-+ ImmutableMap$Builder scores
-- Map scores
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ LootItemCondition lambda$invert$1(InvertedLootItemCondition)
-+ LootItemCondition term()
-+ String toString()
-+ void <clinit>()
-- LootItemCondition lambda$invert$0(InvertedLootItemCondition)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition</summary>
-
-```diff
-+ Codec CODEC
-+ Holder block
-+ Optional properties
-- Block block
-- StatePropertiesPredicate properties
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ DataResult lambda$validate$3(String)
-+ DataResult validate(LootItemBlockStatePropertyCondition)
-+ Holder block()
-+ int hashCode()
-+ Optional lambda$validate$1(StatePropertiesPredicate)
-+ Optional properties()
-+ String lambda$validate$2(String)
-+ String toString()
-+ void <clinit>()
-+ void <init>(Optional)
-- void <init>(StatePropertiesPredicate)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.TimeCheck$Builder</summary>
-
-```diff
-+ Optional period
-- Long period
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck</summary>
-
-```diff
-+ Codec CODEC
-+ Optional isRaining
-+ Optional isThundering
-- Boolean isRaining
-- Boolean isThundering
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ Optional isRaining()
-+ Optional isThundering()
-+ String toString()
-+ void <clinit>()
-+ void <init>(Optional)
-- void <init>(Boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ NumberProvider n()
-+ NumberProvider p()
-+ String toString()
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.providers.number.UniformGenerator</summary>
-
-```diff
-+ Codec CODEC
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ boolean equals(Object)
-+ int hashCode()
-+ NumberProvider max()
-+ NumberProvider min()
-+ String toString()
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.providers.score.LootScoreProviderType</summary>
-
-```diff
-+ Codec codec
 + boolean equals(Object)
 + Codec codec()
 + int hashCode()
@@ -9495,65 +3975,153 @@
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProviders</summary>
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootingEnchantFunction</summary>
 
 ```diff
-+ Codec CODEC
-+ Codec TYPED_CODEC
-+ Codec lambda$static$2()
-+ Either lambda$static$1(ScoreboardNameProvider)
-+ LootScoreProviderType register(Codec)
-+ ScoreboardNameProvider lambda$static$0(Either)
-- LootScoreProviderType register(Serializer)
-- Object createGsonAdapter()
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Integer lambda$static$1(LootingEnchantFunction)
++ NumberProvider lambda$static$0(LootingEnchantFunction)
++ void <clinit>()
++ void <init>(List,NumberProvider,int)
+- void <init>(LootItemCondition[],NumberProvider,int)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetInstrumentFunction</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- LootItemFunction lambda$setInstrumentOptions$0(TagKey,LootItemCondition[])
++ LootItemFunction lambda$setInstrumentOptions$2(TagKey,List)
++ TagKey lambda$static$0(SetInstrumentFunction)
++ void <clinit>()
++ void <init>(List,TagKey)
+- void <init>(LootItemCondition[],TagKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Boolean lambda$static$1(SetItemDamageFunction)
+- LootItemFunction lambda$setDamage$0(NumberProvider,LootItemCondition[])
+- LootItemFunction lambda$setDamage$1(NumberProvider,boolean,LootItemCondition[])
++ LootItemFunction lambda$setDamage$3(NumberProvider,List)
++ LootItemFunction lambda$setDamage$4(NumberProvider,boolean,List)
++ NumberProvider lambda$static$0(SetItemDamageFunction)
++ void <init>(List,NumberProvider,boolean)
+- void <init>(LootItemCondition[],NumberProvider,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.AllOfCondition</summary>
+
+```diff
++ AllOfCondition allOf(List)
++ void <clinit>()
++ void <init>(List)
+- void <init>(LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ Holder enchantment()
++ int hashCode()
++ List values()
+- LootItemCondition lambda$bonusLevelFlatChance$0(Enchantment,float[])
++ LootItemCondition lambda$bonusLevelFlatChance$1(Enchantment,List)
++ String toString()
++ void <clinit>()
+- void <init>(Enchantment,float[])
++ void <init>(Holder,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.EntityHasScoreCondition</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
++ LootContext$EntityTarget entityTarget()
++ Map scores()
+- Stream lambda$getReferencedContextParams$0(IntRange)
++ Stream lambda$getReferencedContextParams$1(IntRange)
++ String toString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceWithLootingCondition</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ float lootingMultiplier()
++ float percent()
++ int hashCode()
+- LootItemCondition lambda$randomChanceAndLootingBoost$0(float,float)
++ LootItemCondition lambda$randomChanceAndLootingBoost$1(float,float)
++ String toString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.TimeCheck</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
++ IntRange value()
++ Optional period()
++ String toString()
++ void <clinit>()
+- void <init>(Long,IntRange)
++ void <init>(Optional,IntRange)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder</summary>
+
+```diff
++ WeatherCheck$Builder setRaining(boolean)
+- WeatherCheck$Builder setRaining(Boolean)
++ WeatherCheck$Builder setThundering(boolean)
+- WeatherCheck$Builder setThundering(Boolean)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.critereon.EntitySubPredicate$Type
@@ -11773,13 +6341,1267 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.BeeNestDestroyedTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ BeeNestDestroyedTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- BlockPredicate fromJson(JsonElement)
++ boolean equals(Object)
++ int hashCode()
+- JsonElement serializeToJson()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ List lambda$static$0(HolderSet)
++ Optional blocks()
++ Optional nbt()
++ Optional of(Optional,Optional,Optional,Optional)
++ Optional properties()
++ Optional tag()
++ String toString()
++ void <init>(Optional,Optional,Optional,Optional)
+- void <init>(TagKey,Set,StatePropertiesPredicate,NbtPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BredAnimalsTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ BredAnimalsTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.BrewedPotionTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ BrewedPotionTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChangeDimensionTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ ChangeDimensionTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ChanneledLightningTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ ChanneledLightningTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConstructBeaconTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ ConstructBeaconTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ConsumeItemTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ ConsumeItemTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ContextAwarePredicate</summary>
+
+```diff
+- ContextAwarePredicate fromElement(String,DeserializationContext,JsonElement,LootContextParamSet)
++ JsonElement toJson()
+- JsonElement toJson(ContextAwarePredicate[],SerializationContext)
++ JsonElement toJson(List)
+- JsonElement toJson(SerializationContext)
++ Optional fromElement(String,DeserializationContext,JsonElement,LootContextParamSet)
+- void <clinit>()
++ void <init>(List)
+- void <init>(LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.CuredZombieVillagerTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate,ContextAwarePredicate)
++ void <init>(Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
++ void lambda$serializeToJson$1(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamagePredicate$Builder</summary>
+
+```diff
+- DamagePredicate build()
++ Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DamageSourcePredicate$Builder</summary>
+
+```diff
+- DamageSourcePredicate build()
+- DamageSourcePredicate$Builder direct(EntityPredicate)
+- DamageSourcePredicate$Builder source(EntityPredicate)
++ Optional build()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DistancePredicate</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
+- DistancePredicate fromJson(JsonElement)
++ int hashCode()
++ MinMaxBounds$Doubles absolute()
++ MinMaxBounds$Doubles horizontal()
++ MinMaxBounds$Doubles x()
++ MinMaxBounds$Doubles y()
++ MinMaxBounds$Doubles z()
++ Optional fromJson(JsonElement)
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.DistanceTrigger$TriggerInstance</summary>
+
+```diff
+- DistanceTrigger$TriggerInstance fallFromHeight(EntityPredicate$Builder,DistancePredicate,LocationPredicate)
++ DistanceTrigger$TriggerInstance fallFromHeight(EntityPredicate$Builder,DistancePredicate,LocationPredicate$Builder)
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ResourceLocation,ContextAwarePredicate,LocationPredicate,DistancePredicate)
++ void <init>(ResourceLocation,Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,LocationPredicate)
++ void lambda$serializeToJson$1(JsonObject,DistancePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EffectsChangedTrigger$TriggerInstance</summary>
+
+```diff
+- EffectsChangedTrigger$TriggerInstance gotEffectsFrom(EntityPredicate)
++ EffectsChangedTrigger$TriggerInstance gotEffectsFrom(Optional)
+- EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate)
++ EffectsChangedTrigger$TriggerInstance hasEffects(MobEffectsPredicate$Builder)
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,MobEffectsPredicate,ContextAwarePredicate)
++ void <init>(Optional,Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,MobEffectsPredicate)
++ void lambda$serializeToJson$1(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnchantedItemTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ItemPredicate,MinMaxBounds$Ints)
++ void <init>(Optional,Optional,MinMaxBounds$Ints)
++ void lambda$serializeToJson$0(JsonObject,ItemPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EnterBlockTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- boolean lambda$trigger$2(BlockState,EnterBlockTrigger$TriggerInstance)
++ boolean lambda$trigger$3(BlockState,EnterBlockTrigger$TriggerInstance)
+- EnterBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ EnterBlockTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- JsonSyntaxException lambda$deserializeBlock$1(ResourceLocation)
++ JsonSyntaxException lambda$deserializeBlock$2(ResourceLocation)
++ void lambda$createInstance$1(Block,StatePropertiesPredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityEquipmentPredicate</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
+- EntityEquipmentPredicate fromJson(JsonElement)
++ int hashCode()
+- JsonElement serializeToJson()
++ Optional chest()
++ Optional feet()
++ Optional head()
++ Optional legs()
++ Optional mainhand()
++ Optional of(Optional,Optional,Optional,Optional,Optional,Optional)
++ Optional offhand()
++ String toString()
+- void <init>(ItemPredicate,ItemPredicate,ItemPredicate,ItemPredicate,ItemPredicate,ItemPredicate)
++ void <init>(Optional,Optional,Optional,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityFlagsPredicate</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
+- Boolean getOptionalBoolean(JsonObject,String)
+- EntityFlagsPredicate fromJson(JsonElement)
++ int hashCode()
+- JsonElement serializeToJson()
++ Optional isBaby()
++ Optional isCrouching()
++ Optional isOnFire()
++ Optional isSprinting()
++ Optional isSwimming()
++ Optional of(Optional,Optional,Optional,Optional,Optional)
++ String toString()
+- void <init>(Boolean,Boolean,Boolean,Boolean,Boolean)
++ void <init>(Optional,Optional,Optional,Optional,Optional)
+- void addOptionalBoolean(JsonObject,String,Boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityHurtPlayerTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- EntityHurtPlayerTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ EntityHurtPlayerTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityPredicate</summary>
+
+```diff
++ App lambda$static$0(Codec,RecordCodecBuilder$Instance)
++ boolean equals(Object)
+- boolean lambda$matches$0(ServerLevel,Vec3,Entity)
++ boolean lambda$matches$3(ServerLevel,Vec3,Entity)
++ Codec lambda$static$1(Codec)
+- ContextAwarePredicate fromElement(String,DeserializationContext,JsonElement)
+- ContextAwarePredicate fromJson(JsonObject,String,DeserializationContext)
+- ContextAwarePredicate[] fromJsonArray(JsonObject,String,DeserializationContext)
+- EntityPredicate fromJson(JsonElement)
++ int hashCode()
++ List fromJsonArray(JsonObject,String,DeserializationContext)
++ List wrap(EntityPredicate$Builder[])
++ Optional distanceToPlayer()
++ Optional effects()
++ Optional entityType()
++ Optional equipment()
++ Optional flags()
++ Optional fromElement(String,DeserializationContext,JsonElement)
++ Optional fromJson(JsonElement)
++ Optional fromJson(JsonObject,String,DeserializationContext)
++ Optional location()
++ Optional nbt()
++ Optional of(Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional)
++ Optional passenger()
++ Optional steppingOnLocation()
++ Optional subPredicate()
++ Optional targetedEntity()
++ Optional team()
++ Optional vehicle()
++ Optional wrap(EntityPredicate$Builder)
++ Optional wrap(Optional)
++ Stream lambda$wrap$2(EntityPredicate$Builder)
++ String toString()
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,EntitySubPredicate,EntityPredicate,EntityPredicate,EntityPredicate,String)
+- void <init>(EntityTypePredicate,DistancePredicate,LocationPredicate,LocationPredicate,MobEffectsPredicate,NbtPredicate,EntityFlagsPredicate,EntityEquipmentPredicate,EntitySubPredicate,String)
++ void <init>(Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntitySubPredicate</summary>
+
+```diff
++ Codec lambda$static$0(EntitySubPredicate$Type)
+- EntitySubPredicate fromJson(JsonElement)
+- JsonElement serialize()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
+
+```diff
++ boolean equals(Object)
++ boolean matches(EntityType)
++ DataResult lambda$static$4(EntityTypePredicate)
+- EntityTypePredicate fromJson(JsonElement)
++ EntityTypePredicate lambda$static$0(TagKey)
++ EntityTypePredicate lambda$static$1(Holder)
++ EntityTypePredicate lambda$static$2(Either)
++ HolderSet types()
++ int hashCode()
+- JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ String lambda$static$3(HolderSet)
++ String toString()
+- void <init>()
++ void <init>(HolderSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.LootTableTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- LootTableTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ LootTableTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.MinMaxBounds</summary>
+
+```diff
++ App lambda$createCodec$0(Codec,MinMaxBounds$BoundsFactory,RecordCodecBuilder$Instance)
++ Codec createCodec(Codec,MinMaxBounds$BoundsFactory)
++ Either lambda$createCodec$4(MinMaxBounds)
+- JsonElement serializeToJson()
+- MinMaxBounds fromJson(JsonElement,MinMaxBounds,BiFunction,MinMaxBounds$BoundsFactory)
++ MinMaxBounds lambda$createCodec$1(MinMaxBounds)
++ MinMaxBounds lambda$createCodec$2(MinMaxBounds$BoundsFactory,Number)
++ MinMaxBounds lambda$createCodec$3(MinMaxBounds$BoundsFactory,Either)
+- Number getMax()
+- Number getMin()
+- Number readNumber(StringReader,Function,Supplier)
+- Object optionallyFormat(Object,Function)
++ Optional readNumber(StringReader,Function,Supplier)
++ Optional unwrapPoint()
+- void <init>(Number,Number)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.MinMaxBounds$Ints</summary>
+
+```diff
++ boolean equals(Object)
++ int hashCode()
+- Integer lambda$fromReader$0(Integer)
++ Integer lambda$fromReader$2(Integer)
++ JsonElement serializeToJson()
++ Long lambda$new$1(Integer)
++ Long lambda$squareOpt$0(Integer)
+- Long squareOpt(Integer)
+- MinMaxBounds$Ints create(StringReader,Integer,Integer)
++ MinMaxBounds$Ints create(StringReader,Optional,Optional)
++ Optional max()
++ Optional maxSq()
++ Optional min()
++ Optional minSq()
++ Optional squareOpt(Optional)
++ String toString()
+- void <init>(Integer,Integer)
++ void <init>(Optional,Optional,Optional,Optional)
++ void <init>(Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
+
+```diff
+- PlayerTrigger$TriggerInstance located(EntityPredicate)
+- PlayerTrigger$TriggerInstance located(LocationPredicate)
++ PlayerTrigger$TriggerInstance located(LocationPredicate$Builder)
++ PlayerTrigger$TriggerInstance located(Optional)
+- void <init>(ResourceLocation,ContextAwarePredicate)
++ void <init>(ResourceLocation,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeCraftedTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
++ Stream lambda$craftedItem$0(ItemPredicate$Builder)
+- void <init>(ContextAwarePredicate,ResourceLocation,List)
++ void <init>(Optional,ResourceLocation,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.RecipeUnlockedTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ResourceLocation)
++ void <init>(Optional,ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.SummonedEntityTrigger$TriggerInstance</summary>
+
+```diff
++ JsonObject serializeToJson()
+- JsonObject serializeToJson(SerializationContext)
+- void <init>(ContextAwarePredicate,ContextAwarePredicate)
++ void <init>(Optional,Optional)
++ void lambda$serializeToJson$0(JsonObject,ContextAwarePredicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TameAnimalTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- TameAnimalTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ TameAnimalTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TargetBlockTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- TargetBlockTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ TargetBlockTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.TradeTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- TradeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ TradeTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedEnderEyeTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ UsedEnderEyeTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsedTotemTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- UsedTotemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ UsedTotemTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.UsingItemTrigger</summary>
+
+```diff
+- AbstractCriterionTriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ AbstractCriterionTriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+- UsingItemTrigger$TriggerInstance createInstance(JsonObject,ContextAwarePredicate,DeserializationContext)
++ UsingItemTrigger$TriggerInstance createInstance(JsonObject,Optional,DeserializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.WrappedMinMaxBounds</summary>
+
+```diff
++ boolean equals(Object)
+- Float getMax()
+- Float getMin()
++ Float max()
++ Float min()
++ int hashCode()
++ String toString()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.HolderSet</summary>
+
+```diff
++ HolderSet$Direct direct(Function,Collection)
+- HolderSet$Direct direct(Function,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Registry</summary>
+
+```diff
+- Object registerMapping(Registry,int,String,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.registries.BuiltInRegistries</summary>
+
+```diff
++ Registry registerSimpleWithIntrusiveHolders(ResourceKey,BuiltInRegistries$RegistryBootstrap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ InventoryChangeTrigger$TriggerInstance inventoryTrigger(ItemPredicate$Builder[])
++ ItemPredicate[] lambda$inventoryTrigger$25(int)
++ Stream lambda$inventoryTrigger$24(ItemPredicate$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.TagParser</summary>
+
+```diff
++ DataResult lambda$static$3(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.Connection</summary>
+
+```diff
++ Connection connectToServer(InetSocketAddress,boolean,SampleLogger)
+- Connection connectToServer(InetSocketAddress,boolean)
++ void configureSerialization(ChannelPipeline,PacketFlow,BandwidthDebugMonitor)
+- void configureSerialization(ChannelPipeline,PacketFlow)
+- void sendNoFlush(Packet,PacketSendListener)
+- void sendNoFlush(Packet)
++ void setBandwidthLogger(SampleLogger)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.RemoteChatSession</summary>
+
+```diff
++ boolean lambda$createMessageValidator$0(Duration)
+- SignedMessageValidator createMessageValidator()
++ SignedMessageValidator createMessageValidator(Duration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.SignedMessageValidator$KeyBased</summary>
+
+```diff
++ boolean validate(PlayerChatMessage)
++ void <init>(SignatureValidator,BooleanSupplier)
+- void <init>(SignatureValidator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.effect.MobEffect</summary>
+
+```diff
++ Holder$Reference builtInRegistryHolder()
+- int getId(MobEffect)
+- int getIdFromNullable(MobEffect)
+- MobEffect byId(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.effect.MobEffects</summary>
+
+```diff
+- MobEffect register(int,String,MobEffect)
++ MobEffect register(String,MobEffect)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation</summary>
+
+```diff
++ String getSerializedName()
+- void <init>(String,int,int)
++ void <init>(String,int,String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.MushroomCow</summary>
+
+```diff
+- Optional getEffectFromItemStack(ItemStack)
++ Optional getEffectsFromItemStack(ItemStack)
++ void lambda$addAdditionalSaveData$1(CompoundTag,Tag)
++ void lambda$readAdditionalSaveData$2(List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractFurnaceMenu</summary>
+
+```diff
++ float getBurnProgress()
++ float getLitProgress()
+- int getBurnProgress()
+- int getLitProgress()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
++ boolean is(HolderSet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootDataManager</summary>
+
+```diff
+- LootItemCondition createComposite(LootItemCondition[])
+- LootItemFunction createComposite(LootItemFunction[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+
+```diff
++ App lambda$static$5(RecordCodecBuilder$Instance)
++ List lambda$static$0(LootPool)
++ List lambda$static$1(LootPool)
++ List lambda$static$2(LootPool)
++ NumberProvider lambda$static$3(LootPool)
++ NumberProvider lambda$static$4(LootPool)
++ void <clinit>()
++ void <init>(List,List,List,NumberProvider,NumberProvider)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider)
+- void lambda$addRandomItem$0(LootContext,List,MutableInt,LootPoolEntry)
++ void lambda$addRandomItem$6(LootContext,List,MutableInt,LootPoolEntry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.CompositeEntryBase</summary>
+
+```diff
++ App lambda$createCodec$1(CompositeEntryBase$CompositeEntryConstructor,RecordCodecBuilder$Instance)
++ Codec createCodec(CompositeEntryBase$CompositeEntryConstructor)
++ List lambda$createCodec$0(CompositeEntryBase)
+- LootPoolEntryContainer$Serializer createSerializer(CompositeEntryBase$CompositeEntryConstructor)
++ void <init>(List,List)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Builder</summary>
+
+```diff
++ List getConditions()
+- LootItemCondition[] getConditions()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
+- LootPoolSingletonContainer lambda$lootTableReference$2(ResourceLocation,int,int,LootItemCondition[],LootItemFunction[])
++ LootPoolSingletonContainer lambda$lootTableReference$4(ResourceLocation,int,int,List,List)
++ ResourceLocation lambda$static$0(LootTableReference)
++ void <clinit>()
++ void <init>(ResourceLocation,int,int,List,List)
+- void <init>(ResourceLocation,int,int,LootItemCondition[],LootItemFunction[])
+- void lambda$validate$0(ValidationContext,LootDataId,LootTable)
+- void lambda$validate$1(ValidationContext)
++ void lambda$validate$2(ValidationContext,LootDataId,LootTable)
++ void lambda$validate$3(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
++ ApplyBonusCount$Formula lambda$static$3(ApplyBonusCount)
++ DataResult lambda$static$1(ResourceLocation)
++ Holder lambda$static$2(ApplyBonusCount)
+- LootItemFunction lambda$addBonusBinomialDistributionCount$0(Enchantment,int,float,LootItemCondition[])
++ LootItemFunction lambda$addBonusBinomialDistributionCount$5(Enchantment,int,float,List)
+- LootItemFunction lambda$addOreBonusCount$1(Enchantment,LootItemCondition[])
++ LootItemFunction lambda$addOreBonusCount$6(Enchantment,List)
+- LootItemFunction lambda$addUniformBonusCount$2(Enchantment,LootItemCondition[])
+- LootItemFunction lambda$addUniformBonusCount$3(Enchantment,int,LootItemCondition[])
++ LootItemFunction lambda$addUniformBonusCount$7(Enchantment,List)
++ LootItemFunction lambda$addUniformBonusCount$8(Enchantment,int,List)
++ String lambda$static$0(ResourceLocation)
++ void <init>(List,Holder,ApplyBonusCount$Formula)
+- void <init>(LootItemCondition[],Enchantment,ApplyBonusCount$Formula)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.ApplyBonusCount$UniformBonusCount</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- ApplyBonusCount$Formula deserialize(JsonObject,JsonDeserializationContext)
++ ApplyBonusCount$FormulaType getType()
++ boolean equals(Object)
++ int bonusMultiplier()
++ int hashCode()
+- ResourceLocation getType()
++ String toString()
+- void serializeParams(JsonObject,JsonSerializationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.CopyNameFunction</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ CopyNameFunction$NameSource lambda$static$0(CopyNameFunction)
+- LootItemFunction lambda$copyName$0(CopyNameFunction$NameSource,LootItemCondition[])
++ LootItemFunction lambda$copyName$2(CopyNameFunction$NameSource,List)
++ void <clinit>()
++ void <init>(List,CopyNameFunction$NameSource)
+- void <init>(LootItemCondition[],CopyNameFunction$NameSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Boolean lambda$static$1(EnchantWithLevelsFunction)
++ NumberProvider lambda$static$0(EnchantWithLevelsFunction)
++ void <clinit>()
++ void <init>(List,NumberProvider,boolean)
+- void <init>(LootItemCondition[],NumberProvider,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.FillPlayerHead</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ LootContext$EntityTarget lambda$static$0(FillPlayerHead)
+- LootItemFunction lambda$fillPlayerHead$0(LootContext$EntityTarget,LootItemCondition[])
++ LootItemFunction lambda$fillPlayerHead$2(LootContext$EntityTarget,List)
++ void <clinit>()
++ void <init>(List,LootContext$EntityTarget)
+- void <init>(LootItemCondition[],LootContext$EntityTarget)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctions</summary>
+
+```diff
+- BiFunction compose(BiFunction[])
++ BiFunction compose(List)
++ Codec lambda$static$1()
+- ItemStack lambda$compose$1(BiFunction,BiFunction,ItemStack,LootContext)
++ ItemStack lambda$compose$2(BiFunction,BiFunction,ItemStack,LootContext)
+- ItemStack lambda$compose$2(BiFunction[],ItemStack,LootContext)
++ ItemStack lambda$compose$3(List,ItemStack,LootContext)
++ LootItemFunctionType register(String,Codec)
+- LootItemFunctionType register(String,Serializer)
+- Object createGsonAdapter()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetAttributesFunction</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ List lambda$static$0(SetAttributesFunction)
+- SetAttributesFunction$ModifierBuilder modifier(String,Attribute,AttributeModifier$Operation,NumberProvider)
++ SetAttributesFunction$ModifierBuilder modifier(String,Holder,AttributeModifier$Operation,NumberProvider)
+- Stream lambda$getReferencedContextParams$0(SetAttributesFunction$Modifier)
++ Stream lambda$getReferencedContextParams$2(SetAttributesFunction$Modifier)
++ void <clinit>()
++ void <init>(List,List)
+- void <init>(LootItemCondition[],List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetBannerPatternFunction</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
++ Boolean lambda$static$1(SetBannerPatternFunction)
++ List lambda$static$0(SetBannerPatternFunction)
++ void <clinit>()
++ void <init>(List,List,boolean)
+- void <init>(LootItemCondition[],List,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerLootTable</summary>
+
+```diff
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ Holder lambda$static$2(SetContainerLootTable)
++ Long lambda$static$1(SetContainerLootTable)
+- LootItemFunction lambda$withLootTable$0(ResourceLocation,BlockEntityType,LootItemCondition[])
+- LootItemFunction lambda$withLootTable$1(ResourceLocation,long,BlockEntityType,LootItemCondition[])
++ LootItemFunction lambda$withLootTable$4(ResourceLocation,BlockEntityType,List)
++ LootItemFunction lambda$withLootTable$5(ResourceLocation,long,BlockEntityType,List)
++ ResourceLocation lambda$static$0(SetContainerLootTable)
++ void <clinit>()
++ void <init>(List,ResourceLocation,long,Holder)
+- void <init>(LootItemCondition[],ResourceLocation,long,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetNameFunction</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- Component lambda$createResolver$0(CommandSourceStack,Entity,Component)
+- Component lambda$createResolver$1(Component)
++ Component lambda$createResolver$4(CommandSourceStack,Entity,Component)
++ Component lambda$createResolver$5(Component)
+- LootItemFunction lambda$setName$2(Component,LootItemCondition[])
+- LootItemFunction lambda$setName$3(Component,LootContext$EntityTarget,LootItemCondition[])
++ LootItemFunction lambda$setName$7(Component,List)
++ LootItemFunction lambda$setName$8(Component,LootContext$EntityTarget,List)
++ Optional lambda$static$0(SetNameFunction)
++ Optional lambda$static$1(SetNameFunction)
++ Set lambda$getReferencedContextParams$3(LootContext$EntityTarget)
++ void <init>(List,Optional,Optional)
+- void <init>(LootItemCondition[],Component,LootContext$EntityTarget)
++ void lambda$run$6(ItemStack,LootContext,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetPotionFunction</summary>
+
+```diff
++ App lambda$static$1(RecordCodecBuilder$Instance)
++ Holder lambda$static$0(SetPotionFunction)
+- LootItemFunction lambda$setPotion$0(Potion,LootItemCondition[])
++ LootItemFunction lambda$setPotion$2(Potion,List)
++ void <clinit>()
++ void <init>(List,Holder)
+- void <init>(LootItemCondition[],Potion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.parameters.LootContextParamSets</summary>
+
+```diff
++ DataResult lambda$static$1(ResourceLocation)
++ DataResult lambda$static$2(ResourceLocation)
+- LootContextParamSet get(ResourceLocation)
+- ResourceLocation getKey(LootContextParamSet)
++ String lambda$static$0(ResourceLocation)
+- void lambda$static$0(LootContextParamSet$Builder)
+- void lambda$static$1(LootContextParamSet$Builder)
++ void lambda$static$14(LootContextParamSet$Builder)
++ void lambda$static$15(LootContextParamSet$Builder)
++ void lambda$static$16(LootContextParamSet$Builder)
+- void lambda$static$2(LootContextParamSet$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.AllOfCondition$Builder</summary>
+
+```diff
++ LootItemCondition create(List)
+- LootItemCondition create(LootItemCondition[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
+- LootItemCondition lambda$conditionReference$2(ResourceLocation)
++ LootItemCondition lambda$conditionReference$3(ResourceLocation)
++ ResourceLocation name()
++ String toString()
+- void lambda$validate$0(ValidationContext,LootDataId,LootItemCondition)
++ void lambda$validate$1(ValidationContext,LootDataId,LootItemCondition)
+- void lambda$validate$1(ValidationContext)
++ void lambda$validate$2(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.InvertedLootItemCondition</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
+- LootItemCondition lambda$invert$0(InvertedLootItemCondition)
++ LootItemCondition lambda$invert$1(InvertedLootItemCondition)
++ LootItemCondition term()
++ String toString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ DataResult lambda$validate$3(LootItemBlockStatePropertyCondition,String)
++ DataResult validate(LootItemBlockStatePropertyCondition)
++ Holder block()
++ int hashCode()
++ Optional lambda$validate$1(LootItemBlockStatePropertyCondition,StatePropertiesPredicate)
++ Optional properties()
++ String lambda$validate$2(LootItemBlockStatePropertyCondition,String)
++ String toString()
++ void <clinit>()
+- void <init>(Block,StatePropertiesPredicate)
++ void <init>(Holder,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.WeatherCheck</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
++ Optional isRaining()
++ Optional isThundering()
++ String toString()
++ void <clinit>()
+- void <init>(Boolean,Boolean)
++ void <init>(Optional,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
++ NumberProvider n()
++ NumberProvider p()
++ String toString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.providers.number.UniformGenerator</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
++ boolean equals(Object)
++ int hashCode()
++ NumberProvider max()
++ NumberProvider min()
++ String toString()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.providers.score.LootScoreProviderType</summary>
+
+```diff
++ boolean equals(Object)
++ Codec codec()
++ int hashCode()
++ String toString()
++ void <init>(Codec)
+- void <init>(Serializer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.providers.score.ScoreboardNameProviders</summary>
+
+```diff
++ Codec lambda$static$2()
++ Either lambda$static$1(ScoreboardNameProvider)
++ LootScoreProviderType register(String,Codec)
+- LootScoreProviderType register(String,Serializer)
+- Object createGsonAdapter()
++ ScoreboardNameProvider lambda$static$0(Either)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
+- minecraft/textures/gui/sprites/bundle/background.png.mcmeta
++ minecraft/textures/gui/sprites/container/bundle/background.png.mcmeta
++ minecraft/textures/gui/sprites/widget/scroller.png
++ minecraft/textures/gui/sprites/widget/scroller.png.mcmeta
++ minecraft/textures/gui/sprites/widget/text_field_highlighted.png
++ minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta
++ minecraft/textures/gui/sprites/widget/text_field.png
++ minecraft/textures/gui/sprites/widget/text_field.png.mcmeta
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:unequip
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
++ minecraft:sequence
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
++ minecraft:unequip
+```
+
+</details>
+
+
+<details><summary>game_events/warden_can_listen.json</summary>
+
+```diff
++ minecraft:unequip
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ chat.tag.error
++ chat.validation_error
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ block/sponge/absorb1.ogg
++ block/sponge/absorb2.ogg
++ block/sponge/absorb3.ogg
++ block/sponge/break1.ogg
++ block/sponge/break2.ogg
++ block/sponge/break3.ogg
++ block/sponge/break4.ogg
++ block/sponge/step1.ogg
++ block/sponge/step2.ogg
++ block/sponge/step3.ogg
++ block/sponge/step4.ogg
++ block/sponge/step5.ogg
++ block/sponge/step6.ogg
++ block/sponge/wet_sponge/break1.ogg
++ block/sponge/wet_sponge/break2.ogg
++ block/sponge/wet_sponge/break3.ogg
++ block/sponge/wet_sponge/break4.ogg
++ block/sponge/wet_sponge/step1.ogg
++ block/sponge/wet_sponge/step2.ogg
++ block/sponge/wet_sponge/step3.ogg
++ block/sponge/wet_sponge/step4.ogg
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/sprites/widget/scroller.png
++ gui/sprites/widget/text_field_highlighted.png
++ gui/sprites/widget/text_field.png
+```
+
+</details>

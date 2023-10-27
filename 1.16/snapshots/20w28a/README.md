@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w28a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w28a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-07-08T15:10:40+00:00</td></tr>
@@ -10,3010 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/8bd6b43def4ac843bbc51deff5829b43284e3a35/server.txt">https://piston-data.mojang.com/v1/objects/8bd6b43def4ac843bbc51deff5829b43284e3a35/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/1af89d3bb666c848e5640715b6aaa4c0fc5ae7d0/client.jar">https://piston-data.mojang.com/v1/objects/1af89d3bb666c848e5640715b6aaa4c0fc5ae7d0/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f978d5352a639f12294248871e3418b5533bab09/client.txt">https://piston-data.mojang.com/v1/objects/f978d5352a639f12294248871e3418b5533bab09/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w27a">20w27a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/base_stone_nether.json
-+  minecraft/tags/blocks/base_stone_overworld.json
--  minecraft/tags/items/furnace_materials.json
-+  minecraft/tags/items/stone_crafting_materials.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>list</summary>
 
-```diff
-- biome.txt
-- biome_source.txt
-- block_placer_type.txt
-- block_state_provider_type.txt
-- carver.txt
-- chunk_generator.txt
-- decorator.txt
-- feature.txt
-- feature_size_type.txt
-- foliage_placer_type.txt
-- structure_feature.txt
-- structure_piece.txt
-- structure_pool_element.txt
-- structure_processor.txt
-- surface_builder.txt
-- tree_decorator_type.txt
-- trunk_placer_type.txt
-+ worldgen/biome_source.txt
-+ worldgen/block_placer_type.txt
-+ worldgen/block_state_provider_type.txt
-+ worldgen/carver.txt
-+ worldgen/chunk_generator.txt
-+ worldgen/decorator.txt
-+ worldgen/feature.txt
-+ worldgen/feature_size_type.txt
-+ worldgen/foliage_placer_type.txt
-+ worldgen/structure_feature.txt
-+ worldgen/structure_piece.txt
-+ worldgen/structure_pool_element.txt
-+ worldgen/structure_processor.txt
-+ worldgen/surface_builder.txt
-+ worldgen/tree_decorator_type.txt
-+ worldgen/trunk_placer_type.txt
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:time_trying_to_reach_admire_item
-+ minecraft:disable_walk_to_admire_item
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- items/furnace_materials.json
-+ blocks/base_stone_nether.json
-+ blocks/base_stone_overworld.json
-+ items/stone_crafting_materials.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-- items/furnace_materials.json
-+ blocks/base_stone_nether.json
-+ blocks/base_stone_overworld.json
-+ items/stone_crafting_materials.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:datafixerupper:3.0.25
-+ com.mojang:datafixerupper:4.0.26
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ boolean executeInSequence(BooleanSupplier[])
-+ boolean runWithRetries(BooleanSupplier[])
-+ BooleanSupplier createDeleter(Path)
-+ BooleanSupplier createFileCreatedCheck(Path)
-+ BooleanSupplier createFileDeletedCheck(Path)
-+ BooleanSupplier createRenamer(Path)
-+ String lambda$sanitizeName$7(CharPredicate,int)
-+ String sanitizeName(CharPredicate)
-+ void safeReplaceFile(Path)
-- String lambda$sanitizeResourceName$7(int)
-- String sanitizeResourceName(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.Util$3</summary>
-
-```diff
-+ Path val$from
-+ Path val$to
-+ boolean getAsBoolean()
-+ String toString()
-+ void <init>(Path)
-- void <init>(String)
-- void run()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Option</summary>
-
-```diff
-+ Component caption
-- String captionId
-+ Component genericValueLabel(Component)
-+ Component genericValueLabel(int)
-+ Component getCaption()
-+ Component percentAddValueLabel(int)
-+ Component percentValueLabel(double)
-+ Component pixelValueLabel(int)
-- MutableComponent createCaption()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
-
-```diff
-+ WritableRegistry biomes
-+ Biome access$202(Biome)
-+ void <init>(Biome)
-+ void access$400(CreateBuffetWorldScreen)
-+ WritableRegistry access$100(CreateBuffetWorldScreen)
-- Biome access$102(Biome)
-- void <init>(Biome)
-- void access$300(CreateBuffetWorldScreen)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
-
-```diff
-+ String lambda$new$0(Map$Entry)
-+ void lambda$new$1(Map$Entry)
-- String lambda$new$0(Biome)
-- void lambda$new$1(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
-
-```diff
-+ CreateWorldScreen parent
-- Screen parent
-+ void <init>(FlatLevelGeneratorSettings)
-- void <init>(FlatLevelGeneratorSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
-
-```diff
-+ Component ALLOW_COMMANDS_LABEL
-+ Component GAME_MODE_LABEL
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen</summary>
-
-```diff
-+ FormattedText BLACK_CURSOR
-+ FormattedText EDIT_TITLE_LABEL
-+ FormattedText FINALIZE_WARNING_LABEL
-+ FormattedText GRAY_CURSOR
-+ FormattedText ownerText
-+ FormattedText pageMsg
-+ void <clinit>()
-- int strWidth(String)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
-
-```diff
-+ FormattedText pageMsg
-- int strWidth(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$SelectedGameMode</summary>
-
-```diff
-+ GameType access$800(CreateWorldScreen$SelectedGameMode)
-+ String access$300(CreateWorldScreen$SelectedGameMode)
-- GameType access$700(CreateWorldScreen$SelectedGameMode)
-- String access$200(CreateWorldScreen$SelectedGameMode)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$BooleanRuleEntry</summary>
-
-```diff
-- MutableComponent access$500(Component,boolean)
-- MutableComponent createFullMessage(Component,boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$RuleEntry</summary>
-
-```diff
-+ List access$1000(EditGameRulesScreen$RuleEntry)
-- List access$1100(EditGameRulesScreen$RuleEntry)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
-
-```diff
-+ OptionalLong seed
-- String initSeed
-+ OptionalLong parseSeed()
-+ String toString(OptionalLong)
-+ void <init>(OptionalLong)
-+ void setRegistryHolder(RegistryAccess$RegistryHolder)
-- void <init>()
-- void <init>(WorldGenSettings)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ void handleChunkBlocksUpdate(ClientboundSectionBlocksUpdatePacket)
-- void handleChunkBlocksUpdate(ClientboundChunkBlocksUpdatePacket)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-+ int getRateLimitPacketsPerSecond()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
-
-```diff
-+ Codec NETWORK_CODEC
-+ Map registries
-- Codec CODEC
-- MappedRegistry dimensionTypes
-+ boolean lambda$null$3(Map$Entry)
-+ Codec captureMap(UnboundedMapCodec)
-+ Codec lambda$null$1(MapCodec)
-+ Codec makeDirectCodec()
-+ DataResult getCodec(ResourceKey)
-+ DataResult lambda$getCodec$5(RegistryAccess$RegistryData)
-+ DataResult lambda$getCodec$6(ResourceKey)
-+ DataResult lambda$makeDirectCodec$0(MappedRegistry)
-+ DataResult lambda$makeDirectCodec$2(ResourceKey)
-+ Map access$000(RegistryAccess$RegistryHolder)
-+ Map lambda$captureMap$4(RegistryAccess$RegistryHolder)
-+ MappedRegistry createRegistry(ResourceKey)
-+ void <init>(Map)
-+ WritableRegistry lambda$registry$7(MappedRegistry)
-- MappedRegistry lambda$static$0(RegistryAccess$RegistryHolder)
-- Registry dimensionTypes()
-- void <init>(MappedRegistry)
-- void registerDimension(DimensionType)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.SectionPos</summary>
-
-```diff
-+ BlockPos relativeToBlockPos(short)
-+ int relativeToBlockX(short)
-+ int relativeToBlockY(short)
-+ int relativeToBlockZ(short)
-+ int sectionRelativeX(short)
-+ int sectionRelativeY(short)
-+ int sectionRelativeZ(short)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
-
-```diff
-+ MutableComponent optionStatus(Component,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleChunkBlocksUpdate(net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket)
-- void handleChunkBlocksUpdate(net.minecraft.network.protocol.game.ClientboundChunkBlocksUpdatePacket)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
-
-```diff
-+ void <init>(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLevelChunkPacket</summary>
-
-```diff
-+ int[] biomes
-- ChunkBiomeContainer biomes
-+ int[] getBiomes()
-- ChunkBiomeContainer getBiomes()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
-
-```diff
-+ Optional onPoiAcquisitionEvent
-+ AcquirePoi$JitteredLinearRetry lambda$start$5(PathfinderMob,long,long)
-+ void <init>(Optional)
-+ void <init>(Optional)
-+ void lambda$null$3(Byte)
-+ void lambda$start$4(PoiType)
-- AcquirePoi$JitteredLinearRetry lambda$start$4(PathfinderMob,long,long)
-- void <init>(MemoryModuleType,boolean)
-- void <init>(MemoryModuleType,boolean)
-- void lambda$start$3(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType DISABLE_WALK_TO_ADMIRE_ITEM
-+ MemoryModuleType TIME_TRYING_TO_REACH_ADMIRE_ITEM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.EnderMan$EndermanLookForPlayerGoal</summary>
-
-```diff
-+ void <init>(Predicate)
-- void <init>(EnderMan)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
-
-```diff
-- EntityDataAccessor DATA_IMMUNE_TO_ZOMBIFICATION
-- int timeInOverworld
-- void sendDebugPackets()
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BoneMealItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-- InteractionResult useOn(UseOnContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.EndCrystalItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-- InteractionResult useOn(UseOnContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.item.FireChargeItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-- InteractionResult useOn(UseOnContext)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.FlintAndSteelItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-+ void lambda$useOn$0(Player)
-+ void lambda$useOn$1(Player)
-- InteractionResult useOn(UseOnContext)
-- void lambda$useOn$0(Player)
-- void lambda$useOn$1(Player)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.GameMasterBlockItem</summary>
-
-```diff
-+ BlockState getPlacementState(BlockPlaceContext)
-- BlockState getPlacementState(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.HoeItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-+ void lambda$useOn$0(Player)
-- InteractionResult useOn(UseOnContext)
-- void lambda$useOn$0(Player)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.LeadItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-- InteractionResult useOn(UseOnContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.MapItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-+ void lockMap(ItemStack)
-- InteractionResult useOn(UseOnContext)
-- ItemStack lockMap(ItemStack)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.MinecartItem</summary>
-
-```diff
-+ InteractionResult useOn(UseOnContext)
-- InteractionResult useOn(UseOnContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.StandingAndWallBlockItem</summary>
-
-```diff
-+ BlockState getPlacementState(BlockPlaceContext)
-- BlockState getPlacementState(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BlockGetter</summary>
-
-```diff
-+ double getBlockFloorHeight(BlockPos)
-+ double getBlockFloorHeight(Supplier)
-+ VoxelShape lambda$getBlockFloorHeight$2(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
-
-```diff
-+ Biome lambda$defaultNether$10()
-+ Biome lambda$defaultNether$11()
-+ Biome lambda$defaultNether$12()
-+ Biome lambda$defaultNether$13()
-+ Biome lambda$defaultNether$9()
-+ Float lambda$getNoiseBiome$14(Pair)
-- Float lambda$getNoiseBiome$11(Pair)
-- Pair lambda$null$9(Biome$ClimateParameters)
-- Stream lambda$defaultNether$10(Biome)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BannerBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-+ boolean canBePlacedAt(Direction)
-+ boolean inPortalDimension(Level)
-+ boolean isPortal(Direction)
-- BlockState getStateForPlacement(BlockPlaceContext)
-- boolean canBePlacedAt(BlockPos)
-- boolean isPortal(BlockPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.BellBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
-
-```diff
-+ boolean canBeReplaced(BlockPlaceContext)
-- boolean canBeReplaced(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HugeMushroomBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LadderBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.Lantern</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
-
-```diff
-- BlockPattern$BlockPatternMatch getPortalShape(BlockPos)
-- boolean trySpawnPortal(BlockPos)
-- NetherPortalBlock$PortalShape isPortal(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-- BlockState getStateForPlacement(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
-
-```diff
-+ boolean canBeReplaced(BlockPlaceContext)
-- boolean canBeReplaced(BlockPlaceContext)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ boolean canBeReplaced(BlockPlaceContext)
-+ boolean isFaceSturdy(SupportType)
-- boolean canBeReplaced(BlockPlaceContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.pattern.BlockPattern$BlockPatternMatch</summary>
-
-```diff
-- BlockPattern$PortalInfo getPortalOutput(Vec3,double)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
-
-```diff
-- Codec CODEC
-- Map BY_NAME
-- String name
-+ void <init>(String,int)
-- GenerationStep$Decoration byName(String)
-- GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
-- String getName()
-- String getSerializedName()
-- void <init>(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-+ ConfiguredWorldCarver configured(CarverConfiguration)
-- CarverConfiguration lambda$new$1(ConfiguredWorldCarver)
-- ConfiguredWorldCarver lambda$new$0(CarverConfiguration)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(JigsawConfiguration)
-- boolean isFeatureChunk(MultiJigsawConfiguration)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(JigsawConfiguration)
-- boolean isFeatureChunk(NoneFeatureConfiguration)
-- StructureFeature$StructureStartFactory getStartFactory()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.SeagrassFeature</summary>
-
-```diff
-+ boolean place(ProbabilityFeatureConfiguration)
-- boolean place(SeagrassFeatureConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(ShipwreckConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(ShipwreckConfiguration)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
-
-```diff
-+ UniformInt height
-+ UniformInt reach
-- int maximumHeight
-- int maximumReach
-- int minimumHeight
-- int minimumReach
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ UniformInt height()
-+ UniformInt lambda$null$0(ColumnFeatureConfiguration)
-+ UniformInt lambda$null$1(ColumnFeatureConfiguration)
-+ UniformInt reach()
-+ void <init>(UniformInt)
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- Integer lambda$null$0(ColumnFeatureConfiguration)
-- Integer lambda$null$1(ColumnFeatureConfiguration)
-- Integer lambda$null$2(ColumnFeatureConfiguration)
-- Integer lambda$null$3(ColumnFeatureConfiguration)
-- void <init>(int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratedFeatureConfiguration</summary>
-
-```diff
-+ Supplier feature
-- ConfiguredFeature feature
-+ Supplier lambda$null$0(DecoratedFeatureConfiguration)
-+ void <init>(ConfiguredDecorator)
-- ConfiguredFeature lambda$null$0(DecoratedFeatureConfiguration)
-- void <init>(ConfiguredDecorator)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
-
-```diff
-+ UniformInt rimSize
-+ UniformInt size
-- int maximumRadius
-- int maximumRimSize
-- int minimumRadius
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ BlockState contents()
-+ BlockState rim()
-+ UniformInt lambda$null$2(DeltaFeatureConfiguration)
-+ UniformInt lambda$null$3(DeltaFeatureConfiguration)
-+ UniformInt rimSize()
-+ UniformInt size()
-+ void <init>(UniformInt)
-- App lambda$static$5(RecordCodecBuilder$Instance)
-- Integer lambda$null$2(DeltaFeatureConfiguration)
-- Integer lambda$null$3(DeltaFeatureConfiguration)
-- Integer lambda$null$4(DeltaFeatureConfiguration)
-- void <init>(BlockState,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(OceanRuinConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(OceanRuinConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
-
-```diff
-+ void <init>(BoundingBox)
-+ void <init>(CompoundTag)
-- void <init>(BoundingBox)
-- void <init>(StructurePieceType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
-
-```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(MineshaftConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(MineshaftConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType</summary>
-
-```diff
-+ Codec LIST_CODEC
-+ Codec SINGLE_CODEC
-+ MapCodec DIRECT_CODEC
-- Codec CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilder</summary>
-
-```diff
-- BlockState AIR
-- SurfaceBuilderBaseConfiguration CONFIG_DIRT
-- SurfaceBuilderBaseConfiguration CONFIG_EMPTY
-+ ConfiguredSurfaceBuilder configured(SurfaceBuilderConfiguration)
-- ConfiguredSurfaceBuilder lambda$new$0(SurfaceBuilderConfiguration)
-- SurfaceBuilderConfiguration lambda$new$1(ConfiguredSurfaceBuilder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
-
-```diff
-+ void convertRegion(ProgressListener)
-+ void convertRegions(ProgressListener)
-- void convertRegion(ProgressListener)
-- void convertRegions(ProgressListener)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.BlockUtil
@@ -4730,173 +1748,189 @@
 </details>
 
 
+<details><summary>net.minecraft.Util</summary>
 
+```diff
++ boolean executeInSequence(BooleanSupplier[])
++ boolean runWithRetries(int,String,BooleanSupplier[])
++ BooleanSupplier createDeleter(Path)
++ BooleanSupplier createFileCreatedCheck(Path)
++ BooleanSupplier createFileDeletedCheck(Path)
++ BooleanSupplier createRenamer(Path,Path)
++ String lambda$sanitizeName$7(CharPredicate,int)
+- String lambda$sanitizeResourceName$7(int)
++ String sanitizeName(String,CharPredicate)
+- String sanitizeResourceName(String)
++ void safeReplaceFile(Path,Path,Path)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.Util$3</summary>
 
+```diff
++ boolean getAsBoolean()
++ String toString()
++ void <init>(Path,Path)
+- void <init>(String)
+- void run()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.Option</summary>
 
+```diff
++ Component genericValueLabel(Component)
++ Component genericValueLabel(int)
++ Component getCaption()
++ Component percentAddValueLabel(int)
++ Component percentValueLabel(double)
++ Component pixelValueLabel(int)
+- MutableComponent createCaption()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen</summary>
 
+```diff
+- Biome access$102(CreateBuffetWorldScreen,Biome)
++ Biome access$202(CreateBuffetWorldScreen,Biome)
+- void <init>(Screen,Consumer,Biome)
++ void <init>(Screen,RegistryAccess,Consumer,Biome)
+- void access$300(CreateBuffetWorldScreen)
++ void access$400(CreateBuffetWorldScreen)
++ WritableRegistry access$100(CreateBuffetWorldScreen)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateBuffetWorldScreen$BiomeList</summary>
 
+```diff
+- String lambda$new$0(Biome)
++ String lambda$new$0(Map$Entry)
+- void lambda$new$1(Biome)
++ void lambda$new$1(Map$Entry)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.CreateFlatWorldScreen</summary>
 
+```diff
++ void <init>(CreateWorldScreen,Consumer,FlatLevelGeneratorSettings)
+- void <init>(Screen,Consumer,FlatLevelGeneratorSettings)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
 
+```diff
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.BookEditScreen</summary>
 
+```diff
+- int strWidth(String)
++ void <clinit>()
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.inventory.BookViewScreen</summary>
 
+```diff
+- int strWidth(String)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen$SelectedGameMode</summary>
 
+```diff
+- GameType access$700(CreateWorldScreen$SelectedGameMode)
++ GameType access$800(CreateWorldScreen$SelectedGameMode)
+- String access$200(CreateWorldScreen$SelectedGameMode)
++ String access$300(CreateWorldScreen$SelectedGameMode)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$BooleanRuleEntry</summary>
 
+```diff
+- MutableComponent access$500(EditGameRulesScreen$BooleanRuleEntry,Component,boolean)
+- MutableComponent createFullMessage(Component,boolean)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen$RuleEntry</summary>
 
+```diff
++ List access$1000(EditGameRulesScreen$RuleEntry)
+- List access$1100(EditGameRulesScreen$RuleEntry)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldGenSettingsComponent</summary>
 
+```diff
++ OptionalLong parseSeed()
++ String toString(OptionalLong)
+- void <init>()
++ void <init>(RegistryAccess$RegistryHolder,WorldGenSettings,Optional,OptionalLong)
+- void <init>(RegistryAccess$RegistryHolder,WorldGenSettings)
++ void setRegistryHolder(RegistryAccess$RegistryHolder)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
+```diff
+- void handleChunkBlocksUpdate(ClientboundChunkBlocksUpdatePacket)
++ void handleChunkBlocksUpdate(ClientboundSectionBlocksUpdatePacket)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.client.server.IntegratedServer</summary>
 
+```diff
++ int getRateLimitPacketsPerSecond()
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
 
 ```diff
-+ Codec NETWORK_CODEC
-+ Map registries
-- Codec CODEC
-- MappedRegistry dimensionTypes
 + boolean lambda$null$3(Map$Entry)
 + Codec captureMap(UnboundedMapCodec)
-+ Codec lambda$null$1(MapCodec)
++ Codec lambda$null$1(ResourceKey,MapCodec)
 + Codec makeDirectCodec()
 + DataResult getCodec(ResourceKey)
 + DataResult lambda$getCodec$5(RegistryAccess$RegistryData)
@@ -4906,15 +1940,16 @@
 + Map access$000(RegistryAccess$RegistryHolder)
 + Map lambda$captureMap$4(RegistryAccess$RegistryHolder)
 + MappedRegistry createRegistry(ResourceKey)
-+ void <init>(Map)
-+ WritableRegistry lambda$registry$7(MappedRegistry)
 - MappedRegistry lambda$static$0(RegistryAccess$RegistryHolder)
 - Registry dimensionTypes()
++ void <init>(Map)
 - void <init>(MappedRegistry)
-- void registerDimension(DimensionType)
+- void registerDimension(ResourceKey,DimensionType)
++ WritableRegistry lambda$registry$7(MappedRegistry)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.core.SectionPos</summary>
 
@@ -4931,35 +1966,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.network.chat.CommonComponents</summary>
 
 ```diff
@@ -4969,527 +1975,59 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleChunkBlocksUpdate(net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket)
-- void handleChunkBlocksUpdate(net.minecraft.network.protocol.game.ClientboundChunkBlocksUpdatePacket)
-```
-
-</details>
-
-
-
-
-
-
 <details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
 
 ```diff
-+ void <init>(BlockState)
++ void <init>(BlockPos,BlockState)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundLevelChunkPacket</summary>
 
 ```diff
-+ int[] biomes
-- ChunkBiomeContainer biomes
-+ int[] getBiomes()
 - ChunkBiomeContainer getBiomes()
++ int[] getBiomes()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
 
 ```diff
-+ Optional onPoiAcquisitionEvent
-+ AcquirePoi$JitteredLinearRetry lambda$start$5(PathfinderMob,long,long)
-+ void <init>(Optional)
-+ void <init>(Optional)
-+ void lambda$null$3(Byte)
-+ void lambda$start$4(PoiType)
 - AcquirePoi$JitteredLinearRetry lambda$start$4(PathfinderMob,long,long)
-- void <init>(MemoryModuleType,boolean)
-- void <init>(MemoryModuleType,boolean)
-- void lambda$start$3(PoiType)
++ AcquirePoi$JitteredLinearRetry lambda$start$5(PathfinderMob,long,long)
++ void <init>(PoiType,MemoryModuleType,boolean,Optional)
+- void <init>(PoiType,MemoryModuleType,boolean)
++ void <init>(PoiType,MemoryModuleType,MemoryModuleType,boolean,Optional)
+- void <init>(PoiType,MemoryModuleType,MemoryModuleType,boolean)
++ void lambda$null$3(ServerLevel,PathfinderMob,Byte)
+- void lambda$start$3(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
++ void lambda$start$4(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.memory.MemoryModuleType</summary>
-
-```diff
-+ MemoryModuleType DISABLE_WALK_TO_ADMIRE_ITEM
-+ MemoryModuleType TIME_TRYING_TO_REACH_ADMIRE_ITEM
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.EnderMan$EndermanLookForPlayerGoal</summary>
 
 ```diff
-+ void <init>(Predicate)
++ void <init>(EnderMan,Predicate)
 - void <init>(EnderMan)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
 
 ```diff
-- EntityDataAccessor DATA_IMMUNE_TO_ZOMBIFICATION
-- int timeInOverworld
 - void sendDebugPackets()
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.item.BoneMealItem</summary>
@@ -5500,22 +2038,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.EndCrystalItem</summary>
@@ -5538,19 +2060,19 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.item.FlintAndSteelItem</summary>
 
 ```diff
 + InteractionResult useOn(UseOnContext)
-+ void lambda$useOn$0(Player)
-+ void lambda$useOn$1(Player)
 - InteractionResult useOn(UseOnContext)
-- void lambda$useOn$0(Player)
-- void lambda$useOn$1(Player)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$0(UseOnContext,Player)
++ void lambda$useOn$1(UseOnContext,Player)
+- void lambda$useOn$1(UseOnContext,Player)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.item.GameMasterBlockItem</summary>
 
@@ -5561,22 +2083,17 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.item.HoeItem</summary>
 
 ```diff
 + InteractionResult useOn(UseOnContext)
-+ void lambda$useOn$0(Player)
 - InteractionResult useOn(UseOnContext)
-- void lambda$useOn$0(Player)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$0(UseOnContext,Player)
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.LeadItem</summary>
@@ -5588,16 +2105,18 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.item.MapItem</summary>
 
 ```diff
 + InteractionResult useOn(UseOnContext)
-+ void lockMap(ItemStack)
 - InteractionResult useOn(UseOnContext)
-- ItemStack lockMap(ItemStack)
+- ItemStack lockMap(Level,ItemStack)
++ void lockMap(Level,ItemStack)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.item.MinecartItem</summary>
 
@@ -5607,15 +2126,6 @@
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.StandingAndWallBlockItem</summary>
@@ -5628,89 +2138,15 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.BlockGetter</summary>
 
 ```diff
 + double getBlockFloorHeight(BlockPos)
-+ double getBlockFloorHeight(Supplier)
++ double getBlockFloorHeight(VoxelShape,Supplier)
 + VoxelShape lambda$getBlockFloorHeight$2(BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
@@ -5721,15 +2157,13 @@
 + Biome lambda$defaultNether$12()
 + Biome lambda$defaultNether$13()
 + Biome lambda$defaultNether$9()
-+ Float lambda$getNoiseBiome$14(Pair)
-- Float lambda$getNoiseBiome$11(Pair)
-- Pair lambda$null$9(Biome$ClimateParameters)
+- Float lambda$getNoiseBiome$11(Biome$ClimateParameters,Pair)
++ Float lambda$getNoiseBiome$14(Biome$ClimateParameters,Pair)
+- Pair lambda$null$9(Biome,Biome$ClimateParameters)
 - Stream lambda$defaultNether$10(Biome)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
@@ -5751,6 +2185,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.BambooBlock</summary>
 
 ```diff
@@ -5759,6 +2194,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BannerBlock</summary>
 
@@ -5770,7 +2206,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
 
 ```diff
@@ -5780,19 +2215,21 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
 
 ```diff
 + BlockState getStateForPlacement(BlockPlaceContext)
-+ boolean canBePlacedAt(Direction)
-+ boolean inPortalDimension(Level)
-+ boolean isPortal(Direction)
 - BlockState getStateForPlacement(BlockPlaceContext)
-- boolean canBePlacedAt(BlockPos)
-- boolean isPortal(BlockPos)
++ boolean canBePlacedAt(Level,BlockPos,Direction)
+- boolean canBePlacedAt(LevelAccessor,BlockPos)
++ boolean inPortalDimension(Level)
++ boolean isPortal(Level,BlockPos,Direction)
+- boolean isPortal(LevelAccessor,BlockPos)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
 
@@ -5813,6 +2250,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
 
 ```diff
@@ -5821,6 +2259,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.BellBlock</summary>
 
@@ -5832,14 +2271,6 @@
 </details>
 
 
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
 
 ```diff
@@ -5849,6 +2280,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.ChainBlock</summary>
 
 ```diff
@@ -5857,8 +2289,6 @@
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
@@ -5871,9 +2301,6 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
 
 ```diff
@@ -5882,11 +2309,6 @@
 ```
 
 </details>
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
@@ -5898,6 +2320,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
 
 ```diff
@@ -5906,12 +2329,6 @@
 ```
 
 </details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
@@ -5923,6 +2340,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
 
 ```diff
@@ -5931,6 +2349,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
 
@@ -5952,23 +2371,14 @@
 </details>
 
 
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
 
 ```diff
-+ boolean canBeReplaced(BlockPlaceContext)
-- boolean canBeReplaced(BlockPlaceContext)
++ boolean canBeReplaced(BlockState,BlockPlaceContext)
+- boolean canBeReplaced(BlockState,BlockPlaceContext)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.block.HugeMushroomBlock</summary>
@@ -5990,6 +2400,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.KelpBlock</summary>
 
 ```diff
@@ -5998,6 +2409,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.LadderBlock</summary>
 
@@ -6008,6 +2420,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.block.Lantern</summary>
 
 ```diff
@@ -6016,6 +2429,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.LecternBlock</summary>
 
@@ -6027,35 +2441,15 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
 
 ```diff
-- BlockPattern$BlockPatternMatch getPortalShape(BlockPos)
-- boolean trySpawnPortal(BlockPos)
-- NetherPortalBlock$PortalShape isPortal(BlockPos)
+- BlockPattern$BlockPatternMatch getPortalShape(LevelAccessor,BlockPos)
+- boolean trySpawnPortal(LevelAccessor,BlockPos)
+- NetherPortalBlock$PortalShape isPortal(LevelAccessor,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
@@ -6068,39 +2462,31 @@
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
 
 ```diff
-+ boolean canBeReplaced(BlockPlaceContext)
-- boolean canBeReplaced(BlockPlaceContext)
++ boolean canBeReplaced(BlockState,BlockPlaceContext)
+- boolean canBeReplaced(BlockState,BlockPlaceContext)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
 
 ```diff
 + boolean canBeReplaced(BlockPlaceContext)
-+ boolean isFaceSturdy(SupportType)
 - boolean canBeReplaced(BlockPlaceContext)
++ boolean isFaceSturdy(BlockGetter,BlockPos,Direction,SupportType)
 ```
 
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.state.pattern.BlockPattern$BlockPatternMatch</summary>
 
 ```diff
-- BlockPattern$PortalInfo getPortalOutput(Vec3,double)
+- BlockPattern$PortalInfo getPortalOutput(Direction,BlockPos,double,Vec3,double)
 ```
 
 </details>
@@ -6109,75 +2495,46 @@
 <details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
 
 ```diff
-- Codec CODEC
-- Map BY_NAME
-- String name
-+ void <init>(String,int)
 - GenerationStep$Decoration byName(String)
 - GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
 - String getName()
 - String getSerializedName()
-- void <init>(String)
+- void <init>(String,int,String)
++ void <init>(String,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
 
 ```diff
-+ ConfiguredWorldCarver configured(CarverConfiguration)
 - CarverConfiguration lambda$new$1(ConfiguredWorldCarver)
++ ConfiguredWorldCarver configured(CarverConfiguration)
 - ConfiguredWorldCarver lambda$new$0(CarverConfiguration)
 ```
 
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(JigsawConfiguration)
-- boolean isFeatureChunk(MultiJigsawConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,MultiJigsawConfiguration)
 - StructureFeature$StructureStartFactory getStartFactory()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
 ```
 
 </details>
@@ -6186,19 +2543,20 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(JigsawConfiguration)
-- boolean isFeatureChunk(NoneFeatureConfiguration)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration)
 - StructureFeature$StructureStartFactory getStartFactory()
 ```
 
@@ -6208,161 +2566,97 @@
 <details><summary>net.minecraft.world.level.levelgen.feature.SeagrassFeature</summary>
 
 ```diff
-+ boolean place(ProbabilityFeatureConfiguration)
-- boolean place(SeagrassFeatureConfiguration)
++ boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,ProbabilityFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,SeagrassFeatureConfiguration)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(ShipwreckConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(ShipwreckConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
 
 ```diff
-+ UniformInt height
-+ UniformInt reach
-- int maximumHeight
-- int maximumReach
-- int minimumHeight
-- int minimumReach
 + App lambda$static$2(RecordCodecBuilder$Instance)
-+ UniformInt height()
-+ UniformInt lambda$null$0(ColumnFeatureConfiguration)
-+ UniformInt lambda$null$1(ColumnFeatureConfiguration)
-+ UniformInt reach()
-+ void <init>(UniformInt)
 - App lambda$static$4(RecordCodecBuilder$Instance)
 - Integer lambda$null$0(ColumnFeatureConfiguration)
 - Integer lambda$null$1(ColumnFeatureConfiguration)
 - Integer lambda$null$2(ColumnFeatureConfiguration)
 - Integer lambda$null$3(ColumnFeatureConfiguration)
++ UniformInt height()
++ UniformInt lambda$null$0(ColumnFeatureConfiguration)
++ UniformInt lambda$null$1(ColumnFeatureConfiguration)
++ UniformInt reach()
 - void <init>(int,int,int,int)
++ void <init>(UniformInt,UniformInt)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratedFeatureConfiguration</summary>
 
 ```diff
-+ Supplier feature
-- ConfiguredFeature feature
-+ Supplier lambda$null$0(DecoratedFeatureConfiguration)
-+ void <init>(ConfiguredDecorator)
 - ConfiguredFeature lambda$null$0(DecoratedFeatureConfiguration)
-- void <init>(ConfiguredDecorator)
++ Supplier lambda$null$0(DecoratedFeatureConfiguration)
+- void <init>(ConfiguredFeature,ConfiguredDecorator)
++ void <init>(Supplier,ConfiguredDecorator)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
 
 ```diff
-+ UniformInt rimSize
-+ UniformInt size
-- int maximumRadius
-- int maximumRimSize
-- int minimumRadius
 + App lambda$static$4(RecordCodecBuilder$Instance)
+- App lambda$static$5(RecordCodecBuilder$Instance)
 + BlockState contents()
 + BlockState rim()
+- Integer lambda$null$2(DeltaFeatureConfiguration)
+- Integer lambda$null$3(DeltaFeatureConfiguration)
+- Integer lambda$null$4(DeltaFeatureConfiguration)
 + UniformInt lambda$null$2(DeltaFeatureConfiguration)
 + UniformInt lambda$null$3(DeltaFeatureConfiguration)
 + UniformInt rimSize()
 + UniformInt size()
-+ void <init>(UniformInt)
-- App lambda$static$5(RecordCodecBuilder$Instance)
-- Integer lambda$null$2(DeltaFeatureConfiguration)
-- Integer lambda$null$3(DeltaFeatureConfiguration)
-- Integer lambda$null$4(DeltaFeatureConfiguration)
-- void <init>(BlockState,int,int,int)
+- void <init>(BlockState,BlockState,int,int,int)
++ void <init>(BlockState,BlockState,UniformInt,UniformInt)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(NoneFeatureConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(NoneFeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(OceanRuinConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(OceanRuinConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration)
 ```
 
 </details>
@@ -6371,88 +2665,30 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
 
 ```diff
-+ void <init>(BoundingBox)
-+ void <init>(CompoundTag)
-- void <init>(BoundingBox)
-- void <init>(StructurePieceType)
+- void <init>(StructureManager,CompoundTag,StructurePieceType)
++ void <init>(StructureManager,CompoundTag)
++ void <init>(StructureManager,StructurePoolElement,BlockPos,int,Rotation,BoundingBox)
+- void <init>(StructurePieceType,StructureManager,StructurePoolElement,BlockPos,int,Rotation,BoundingBox)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
 
 ```diff
-+ void generatePieces(FeatureConfiguration)
-+ void generatePieces(MineshaftConfiguration)
-- void generatePieces(FeatureConfiguration)
-- void generatePieces(MineshaftConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType</summary>
-
-```diff
-+ Codec LIST_CODEC
-+ Codec SINGLE_CODEC
-+ MapCodec DIRECT_CODEC
-- Codec CODEC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilder</summary>
 
 ```diff
-- BlockState AIR
-- SurfaceBuilderBaseConfiguration CONFIG_DIRT
-- SurfaceBuilderBaseConfiguration CONFIG_EMPTY
 + ConfiguredSurfaceBuilder configured(SurfaceBuilderConfiguration)
 - ConfiguredSurfaceBuilder lambda$new$0(SurfaceBuilderConfiguration)
 - SurfaceBuilderConfiguration lambda$new$1(ConfiguredSurfaceBuilder)
@@ -6461,238 +2697,24 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
 
 ```diff
-+ void convertRegion(ProgressListener)
-+ void convertRegions(ProgressListener)
-- void convertRegion(ProgressListener)
-- void convertRegions(ProgressListener)
+- void convertRegion(File,File,BiomeSource,int,int,ProgressListener)
++ void convertRegion(RegistryAccess$RegistryHolder,File,File,BiomeSource,int,int,ProgressListener)
+- void convertRegions(File,Iterable,BiomeSource,int,int,ProgressListener)
++ void convertRegions(RegistryAccess$RegistryHolder,File,Iterable,BiomeSource,int,int,ProgressListener)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.BlockUtil$FoundRectangle
@@ -8396,13 +4418,918 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
+
+```diff
++ boolean lambda$null$3(Map$Entry)
++ Codec captureMap(UnboundedMapCodec)
++ Codec lambda$null$1(ResourceKey,MapCodec)
++ Codec makeDirectCodec()
++ DataResult getCodec(ResourceKey)
++ DataResult lambda$getCodec$5(RegistryAccess$RegistryData)
++ DataResult lambda$getCodec$6(ResourceKey)
++ DataResult lambda$makeDirectCodec$0(MappedRegistry)
++ DataResult lambda$makeDirectCodec$2(ResourceKey)
++ Map access$000(RegistryAccess$RegistryHolder)
++ Map lambda$captureMap$4(RegistryAccess$RegistryHolder)
++ MappedRegistry createRegistry(ResourceKey)
+- MappedRegistry lambda$static$0(RegistryAccess$RegistryHolder)
+- Registry dimensionTypes()
++ void <init>(Map)
+- void <init>(MappedRegistry)
+- void registerDimension(ResourceKey,DimensionType)
++ WritableRegistry lambda$registry$7(MappedRegistry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.SectionPos</summary>
+
+```diff
++ BlockPos relativeToBlockPos(short)
++ int relativeToBlockX(short)
++ int relativeToBlockY(short)
++ int relativeToBlockZ(short)
++ int sectionRelativeX(short)
++ int sectionRelativeY(short)
++ int sectionRelativeZ(short)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+
+```diff
++ MutableComponent optionStatus(Component,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket</summary>
+
+```diff
++ void <init>(BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundLevelChunkPacket</summary>
+
+```diff
+- ChunkBiomeContainer getBiomes()
++ int[] getBiomes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.AcquirePoi</summary>
+
+```diff
+- AcquirePoi$JitteredLinearRetry lambda$start$4(PathfinderMob,long,long)
++ AcquirePoi$JitteredLinearRetry lambda$start$5(PathfinderMob,long,long)
++ void <init>(PoiType,MemoryModuleType,boolean,Optional)
+- void <init>(PoiType,MemoryModuleType,boolean)
++ void <init>(PoiType,MemoryModuleType,MemoryModuleType,boolean,Optional)
+- void <init>(PoiType,MemoryModuleType,MemoryModuleType,boolean)
++ void lambda$null$3(ServerLevel,PathfinderMob,Byte)
+- void lambda$start$3(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
++ void lambda$start$4(PoiManager,BlockPos,PathfinderMob,ServerLevel,PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.EnderMan$EndermanLookForPlayerGoal</summary>
+
+```diff
++ void <init>(EnderMan,Predicate)
+- void <init>(EnderMan)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
+- void sendDebugPackets()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BoneMealItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.EndCrystalItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.FireChargeItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.FlintAndSteelItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$0(UseOnContext,Player)
++ void lambda$useOn$1(UseOnContext,Player)
+- void lambda$useOn$1(UseOnContext,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.GameMasterBlockItem</summary>
+
+```diff
++ BlockState getPlacementState(BlockPlaceContext)
+- BlockState getPlacementState(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.HoeItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
++ void lambda$useOn$0(UseOnContext,Player)
+- void lambda$useOn$0(UseOnContext,Player)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.LeadItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.MapItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+- ItemStack lockMap(Level,ItemStack)
++ void lockMap(Level,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.MinecartItem</summary>
+
+```diff
++ InteractionResult useOn(UseOnContext)
+- InteractionResult useOn(UseOnContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.StandingAndWallBlockItem</summary>
+
+```diff
++ BlockState getPlacementState(BlockPlaceContext)
+- BlockState getPlacementState(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BlockGetter</summary>
+
+```diff
++ double getBlockFloorHeight(BlockPos)
++ double getBlockFloorHeight(VoxelShape,Supplier)
++ VoxelShape lambda$getBlockFloorHeight$2(BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+
+```diff
++ Biome lambda$defaultNether$10()
++ Biome lambda$defaultNether$11()
++ Biome lambda$defaultNether$12()
++ Biome lambda$defaultNether$13()
++ Biome lambda$defaultNether$9()
+- Float lambda$getNoiseBiome$11(Biome$ClimateParameters,Pair)
++ Float lambda$getNoiseBiome$14(Biome$ClimateParameters,Pair)
+- Pair lambda$null$9(Biome,Biome$ClimateParameters)
+- Stream lambda$defaultNether$10(Biome)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BambooBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BannerBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseCoralWallFanBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseFireBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
++ boolean canBePlacedAt(Level,BlockPos,Direction)
+- boolean canBePlacedAt(LevelAccessor,BlockPos)
++ boolean inPortalDimension(Level)
++ boolean isPortal(Level,BlockPos,Direction)
+- boolean isPortal(LevelAccessor,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BaseRailBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BeehiveBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BellBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChorusPlantBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ConduitBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DiodeBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DispenserBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EnderChestBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.FenceBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.GrowingPlantBodyBlock</summary>
+
+```diff
++ boolean canBeReplaced(BlockState,BlockPlaceContext)
+- boolean canBeReplaced(BlockState,BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HugeMushroomBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.JigsawBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.KelpBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LadderBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Lantern</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LecternBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
+
+```diff
+- BlockPattern$BlockPatternMatch getPortalShape(LevelAccessor,BlockPos)
+- boolean trySpawnPortal(LevelAccessor,BlockPos)
+- NetherPortalBlock$PortalShape isPortal(LevelAccessor,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
+- BlockState getStateForPlacement(BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
+
+```diff
++ boolean canBeReplaced(BlockState,BlockPlaceContext)
+- boolean canBeReplaced(BlockState,BlockPlaceContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+```diff
++ boolean canBeReplaced(BlockPlaceContext)
+- boolean canBeReplaced(BlockPlaceContext)
++ boolean isFaceSturdy(BlockGetter,BlockPos,Direction,SupportType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.pattern.BlockPattern$BlockPatternMatch</summary>
+
+```diff
+- BlockPattern$PortalInfo getPortalOutput(Direction,BlockPos,double,Vec3,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
+
+```diff
+- GenerationStep$Decoration byName(String)
+- GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
+- String getName()
+- String getSerializedName()
+- void <init>(String,int,String)
++ void <init>(String,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
+
+```diff
+- CarverConfiguration lambda$new$1(ConfiguredWorldCarver)
++ ConfiguredWorldCarver configured(CarverConfiguration)
+- ConfiguredWorldCarver lambda$new$0(CarverConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.BastionFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,MultiJigsawConfiguration)
+- StructureFeature$StructureStartFactory getStartFactory()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
+
+```diff
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,JigsawConfiguration)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,int,int,Biome,ChunkPos,NoneFeatureConfiguration)
+- StructureFeature$StructureStartFactory getStartFactory()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.SeagrassFeature</summary>
+
+```diff
++ boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,ProbabilityFeatureConfiguration)
+- boolean place(WorldGenLevel,ChunkGenerator,Random,BlockPos,SeagrassFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,ShipwreckConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.ColumnFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- App lambda$static$4(RecordCodecBuilder$Instance)
+- Integer lambda$null$0(ColumnFeatureConfiguration)
+- Integer lambda$null$1(ColumnFeatureConfiguration)
+- Integer lambda$null$2(ColumnFeatureConfiguration)
+- Integer lambda$null$3(ColumnFeatureConfiguration)
++ UniformInt height()
++ UniformInt lambda$null$0(ColumnFeatureConfiguration)
++ UniformInt lambda$null$1(ColumnFeatureConfiguration)
++ UniformInt reach()
+- void <init>(int,int,int,int)
++ void <init>(UniformInt,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DecoratedFeatureConfiguration</summary>
+
+```diff
+- ConfiguredFeature lambda$null$0(DecoratedFeatureConfiguration)
++ Supplier lambda$null$0(DecoratedFeatureConfiguration)
+- void <init>(ConfiguredFeature,ConfiguredDecorator)
++ void <init>(Supplier,ConfiguredDecorator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.configurations.DeltaFeatureConfiguration</summary>
+
+```diff
++ App lambda$static$4(RecordCodecBuilder$Instance)
+- App lambda$static$5(RecordCodecBuilder$Instance)
++ BlockState contents()
++ BlockState rim()
+- Integer lambda$null$2(DeltaFeatureConfiguration)
+- Integer lambda$null$3(DeltaFeatureConfiguration)
+- Integer lambda$null$4(DeltaFeatureConfiguration)
++ UniformInt lambda$null$2(DeltaFeatureConfiguration)
++ UniformInt lambda$null$3(DeltaFeatureConfiguration)
++ UniformInt rimSize()
++ UniformInt size()
+- void <init>(BlockState,BlockState,int,int,int)
++ void <init>(BlockState,BlockState,UniformInt,UniformInt)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,NoneFeatureConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature$OceanRuinStart</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,OceanRuinConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+```diff
+- void <init>(StructureManager,CompoundTag,StructurePieceType)
++ void <init>(StructureManager,CompoundTag)
++ void <init>(StructureManager,StructurePoolElement,BlockPos,int,Rotation,BoundingBox)
+- void <init>(StructurePieceType,StructureManager,StructurePoolElement,BlockPos,int,Rotation,BoundingBox)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart$1</summary>
+
+```diff
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
+- void generatePieces(ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,FeatureConfiguration)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,int,int,Biome,MineshaftConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilder</summary>
+
+```diff
++ ConfiguredSurfaceBuilder configured(SurfaceBuilderConfiguration)
+- ConfiguredSurfaceBuilder lambda$new$0(SurfaceBuilderConfiguration)
+- SurfaceBuilderConfiguration lambda$new$1(ConfiguredSurfaceBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.McRegionUpgrader</summary>
+
+```diff
+- void convertRegion(File,File,BiomeSource,int,int,ProgressListener)
++ void convertRegion(RegistryAccess$RegistryHolder,File,File,BiomeSource,int,int,ProgressListener)
+- void convertRegions(File,Iterable,BiomeSource,int,int,ProgressListener)
++ void convertRegions(RegistryAccess$RegistryHolder,File,Iterable,BiomeSource,int,int,ProgressListener)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/base_stone_nether.json
++ minecraft/tags/blocks/base_stone_overworld.json
+- minecraft/tags/items/furnace_materials.json
++ minecraft/tags/items/stone_crafting_materials.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
+- biome_source.txt
+- biome.txt
+- block_placer_type.txt
+- block_state_provider_type.txt
+- carver.txt
+- chunk_generator.txt
+- decorator.txt
+- feature_size_type.txt
+- feature.txt
+- foliage_placer_type.txt
+- structure_feature.txt
+- structure_piece.txt
+- structure_pool_element.txt
+- structure_processor.txt
+- surface_builder.txt
+- tree_decorator_type.txt
+- trunk_placer_type.txt
++ worldgen/biome_source.txt
++ worldgen/block_placer_type.txt
++ worldgen/block_state_provider_type.txt
++ worldgen/carver.txt
++ worldgen/chunk_generator.txt
++ worldgen/decorator.txt
++ worldgen/feature_size_type.txt
++ worldgen/feature.txt
++ worldgen/foliage_placer_type.txt
++ worldgen/structure_feature.txt
++ worldgen/structure_piece.txt
++ worldgen/structure_pool_element.txt
++ worldgen/structure_processor.txt
++ worldgen/surface_builder.txt
++ worldgen/tree_decorator_type.txt
++ worldgen/trunk_placer_type.txt
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:disable_walk_to_admire_item
++ minecraft:time_trying_to_reach_admire_item
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/base_stone_nether.json
++ blocks/base_stone_overworld.json
+- items/furnace_materials.json
++ items/stone_crafting_materials.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ chat.square_brackets
++ command.context.parse_error
++ commands.list.nameAndId
++ disconnect.exceeded_packet_rate
+- options.entityDistancePercent
++ options.generic_value
++ options.off.composed
++ options.on.composed
++ options.percent_add_value
++ options.percent_value
++ options.pixel_value
++ potion.withAmplifier
++ potion.withDuration
+- selectWorld.hardcoreMode
+- selectWorld.hardcoreMode.info
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/base_stone_nether.json
++ blocks/base_stone_overworld.json
+- items/furnace_materials.json
++ items/stone_crafting_materials.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:datafixerupper:3.0.25
++ com.mojang:datafixerupper:4.0.26
+```
+
+</details>

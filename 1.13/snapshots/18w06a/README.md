@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 18w06a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>18w06a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2018-02-09T12:09:55+00:00</td></tr>
@@ -8,127 +11,135 @@
 <tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/2175b85e150c64f7ed285e7624b87c18cd992497/1.13.json">https://piston-meta.mojang.com/v1/packages/2175b85e150c64f7ed285e7624b87c18cd992497/1.13.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/4e47158fd42d966884a7ffb7440b35d86c038049/server.jar">https://piston-data.mojang.com/v1/objects/4e47158fd42d966884a7ffb7440b35d86c038049/server.jar</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/78ed8d3359453614d8f69bd982111e8aa6c8f612/client.jar">https://piston-data.mojang.com/v1/objects/78ed8d3359453614d8f69bd982111e8aa6c8f612/client.jar</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/18w05a">18w05a</a>
-## File structure
+
+# Folder structure
 
 <details><summary>data/</summary>
 
 ```diff
-+  minecraft/advancements/recipes/building_blocks/cracked_stone_bricks.json
-+  minecraft/advancements/recipes/building_blocks/glass.json
-+  minecraft/advancements/recipes/building_blocks/sponge.json
-+  minecraft/advancements/recipes/building_blocks/stone.json
-+  minecraft/advancements/recipes/building_blocks/terracotta.json
-+  minecraft/advancements/recipes/decorations/black_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/blue_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/brown_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/cyan_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/gray_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/green_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/light_blue_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/light_gray_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/lime_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/magenta_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/orange_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/pink_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/purple_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/red_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/white_glazed_terracotta.json
-+  minecraft/advancements/recipes/decorations/yellow_glazed_terracotta.json
-+  minecraft/advancements/recipes/food/baked_potato.json
-+  minecraft/advancements/recipes/food/cooked_beef.json
-+  minecraft/advancements/recipes/food/cooked_chicken.json
-+  minecraft/advancements/recipes/food/cooked_cod.json
-+  minecraft/advancements/recipes/food/cooked_mutton.json
-+  minecraft/advancements/recipes/food/cooked_porkchop.json
-+  minecraft/advancements/recipes/food/cooked_rabbit.json
-+  minecraft/advancements/recipes/food/cooked_salmon.json
-+  minecraft/advancements/recipes/misc/brick.json
-+  minecraft/advancements/recipes/misc/charcoal.json
-+  minecraft/advancements/recipes/misc/chorus_fruit_popped.json
-+  minecraft/advancements/recipes/misc/coal_from_smelting.json
-+  minecraft/advancements/recipes/misc/diamond_from_smelting.json
-+  minecraft/advancements/recipes/misc/emerald_from_smelting.json
-+  minecraft/advancements/recipes/misc/gold_ingot.json
-+  minecraft/advancements/recipes/misc/gold_nugget_from_smelting.json
-+  minecraft/advancements/recipes/misc/iron_ingot.json
-+  minecraft/advancements/recipes/misc/iron_nugget_from_smelting.json
-+  minecraft/advancements/recipes/misc/lapis_from_smelting.json
-+  minecraft/advancements/recipes/misc/nether_brick.json
-+  minecraft/advancements/recipes/misc/quartz.json
-+  minecraft/advancements/recipes/redstone/redstone_from_smelting.json
-+  minecraft/recipes/baked_potato.json
-+  minecraft/recipes/black_glazed_terracotta.json
-+  minecraft/recipes/blue_glazed_terracotta.json
-+  minecraft/recipes/brick.json
-+  minecraft/recipes/brown_glazed_terracotta.json
-+  minecraft/recipes/charcoal.json
-+  minecraft/recipes/chorus_fruit_popped.json
-+  minecraft/recipes/coal_from_smelting.json
-+  minecraft/recipes/cooked_beef.json
-+  minecraft/recipes/cooked_chicken.json
-+  minecraft/recipes/cooked_cod.json
-+  minecraft/recipes/cooked_mutton.json
-+  minecraft/recipes/cooked_porkchop.json
-+  minecraft/recipes/cooked_rabbit.json
-+  minecraft/recipes/cooked_salmon.json
-+  minecraft/recipes/cracked_stone_bricks.json
-+  minecraft/recipes/cyan_glazed_terracotta.json
-+  minecraft/recipes/diamond_from_smelting.json
-+  minecraft/recipes/emerald_from_smelting.json
-+  minecraft/recipes/glass.json
-+  minecraft/recipes/gold_ingot.json
-+  minecraft/recipes/gold_nugget_from_smelting.json
-+  minecraft/recipes/gray_glazed_terracotta.json
-+  minecraft/recipes/green_glazed_terracotta.json
-+  minecraft/recipes/iron_ingot.json
-+  minecraft/recipes/iron_nugget_from_smelting.json
-+  minecraft/recipes/lapis_from_smelting.json
-+  minecraft/recipes/light_blue_glazed_terracotta.json
-+  minecraft/recipes/light_gray_glazed_terracotta.json
-+  minecraft/recipes/lime_glazed_terracotta.json
-+  minecraft/recipes/magenta_glazed_terracotta.json
-+  minecraft/recipes/nether_brick.json
-+  minecraft/recipes/orange_glazed_terracotta.json
-+  minecraft/recipes/pink_glazed_terracotta.json
-+  minecraft/recipes/purple_glazed_terracotta.json
-+  minecraft/recipes/quartz.json
-+  minecraft/recipes/red_glazed_terracotta.json
-+  minecraft/recipes/redstone_from_smelting.json
-+  minecraft/recipes/sponge.json
-+  minecraft/recipes/stone.json
-+  minecraft/recipes/terracotta.json
-+  minecraft/recipes/white_glazed_terracotta.json
-+  minecraft/recipes/yellow_glazed_terracotta.json
-+  minecraft/tags/blocks/banners.json
-+  minecraft/tags/blocks/wooden_pressure_plates.json
-+  minecraft/tags/blocks/wooden_slabs.json
-+  minecraft/tags/blocks/wooden_stairs.json
-+  minecraft/tags/items/banners.json
-+  minecraft/tags/items/boats.json
-+  minecraft/tags/items/wooden_pressure_plates.json
-+  minecraft/tags/items/wooden_slabs.json
-+  minecraft/tags/items/wooden_stairs.json
++ minecraft/advancements/recipes/building_blocks/cracked_stone_bricks.json
++ minecraft/advancements/recipes/building_blocks/glass.json
++ minecraft/advancements/recipes/building_blocks/sponge.json
++ minecraft/advancements/recipes/building_blocks/stone.json
++ minecraft/advancements/recipes/building_blocks/terracotta.json
++ minecraft/advancements/recipes/decorations/black_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/blue_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/brown_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/cyan_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/gray_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/green_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/light_blue_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/light_gray_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/lime_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/magenta_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/orange_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/pink_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/purple_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/red_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/white_glazed_terracotta.json
++ minecraft/advancements/recipes/decorations/yellow_glazed_terracotta.json
++ minecraft/advancements/recipes/food/baked_potato.json
++ minecraft/advancements/recipes/food/cooked_beef.json
++ minecraft/advancements/recipes/food/cooked_chicken.json
++ minecraft/advancements/recipes/food/cooked_cod.json
++ minecraft/advancements/recipes/food/cooked_mutton.json
++ minecraft/advancements/recipes/food/cooked_porkchop.json
++ minecraft/advancements/recipes/food/cooked_rabbit.json
++ minecraft/advancements/recipes/food/cooked_salmon.json
++ minecraft/advancements/recipes/misc/brick.json
++ minecraft/advancements/recipes/misc/charcoal.json
++ minecraft/advancements/recipes/misc/chorus_fruit_popped.json
++ minecraft/advancements/recipes/misc/coal_from_smelting.json
++ minecraft/advancements/recipes/misc/diamond_from_smelting.json
++ minecraft/advancements/recipes/misc/emerald_from_smelting.json
++ minecraft/advancements/recipes/misc/gold_ingot.json
++ minecraft/advancements/recipes/misc/gold_nugget_from_smelting.json
++ minecraft/advancements/recipes/misc/iron_ingot.json
++ minecraft/advancements/recipes/misc/iron_nugget_from_smelting.json
++ minecraft/advancements/recipes/misc/lapis_from_smelting.json
++ minecraft/advancements/recipes/misc/nether_brick.json
++ minecraft/advancements/recipes/misc/quartz.json
++ minecraft/advancements/recipes/redstone/redstone_from_smelting.json
++ minecraft/recipes/baked_potato.json
++ minecraft/recipes/black_glazed_terracotta.json
++ minecraft/recipes/blue_glazed_terracotta.json
++ minecraft/recipes/brick.json
++ minecraft/recipes/brown_glazed_terracotta.json
++ minecraft/recipes/charcoal.json
++ minecraft/recipes/chorus_fruit_popped.json
++ minecraft/recipes/coal_from_smelting.json
++ minecraft/recipes/cooked_beef.json
++ minecraft/recipes/cooked_chicken.json
++ minecraft/recipes/cooked_cod.json
++ minecraft/recipes/cooked_mutton.json
++ minecraft/recipes/cooked_porkchop.json
++ minecraft/recipes/cooked_rabbit.json
++ minecraft/recipes/cooked_salmon.json
++ minecraft/recipes/cracked_stone_bricks.json
++ minecraft/recipes/cyan_glazed_terracotta.json
++ minecraft/recipes/diamond_from_smelting.json
++ minecraft/recipes/emerald_from_smelting.json
++ minecraft/recipes/glass.json
++ minecraft/recipes/gold_ingot.json
++ minecraft/recipes/gold_nugget_from_smelting.json
++ minecraft/recipes/gray_glazed_terracotta.json
++ minecraft/recipes/green_glazed_terracotta.json
++ minecraft/recipes/iron_ingot.json
++ minecraft/recipes/iron_nugget_from_smelting.json
++ minecraft/recipes/lapis_from_smelting.json
++ minecraft/recipes/light_blue_glazed_terracotta.json
++ minecraft/recipes/light_gray_glazed_terracotta.json
++ minecraft/recipes/lime_glazed_terracotta.json
++ minecraft/recipes/magenta_glazed_terracotta.json
++ minecraft/recipes/nether_brick.json
++ minecraft/recipes/orange_glazed_terracotta.json
++ minecraft/recipes/pink_glazed_terracotta.json
++ minecraft/recipes/purple_glazed_terracotta.json
++ minecraft/recipes/quartz.json
++ minecraft/recipes/red_glazed_terracotta.json
++ minecraft/recipes/redstone_from_smelting.json
++ minecraft/recipes/sponge.json
++ minecraft/recipes/stone.json
++ minecraft/recipes/terracotta.json
++ minecraft/recipes/white_glazed_terracotta.json
++ minecraft/recipes/yellow_glazed_terracotta.json
++ minecraft/tags/blocks/banners.json
++ minecraft/tags/blocks/wooden_pressure_plates.json
++ minecraft/tags/blocks/wooden_slabs.json
++ minecraft/tags/blocks/wooden_stairs.json
++ minecraft/tags/items/banners.json
++ minecraft/tags/items/boats.json
++ minecraft/tags/items/wooden_pressure_plates.json
++ minecraft/tags/items/wooden_slabs.json
++ minecraft/tags/items/wooden_stairs.json
 ```
 
 </details>
+
 
 <details><summary>assets/</summary>
 
 ```diff
--  minecraft/textures/gui/container/recipe_background.png
-+  minecraft/textures/gui/recipe_button.png
+- minecraft/textures/gui/container/recipe_background.png
++ minecraft/textures/gui/recipe_button.png
 ```
 
 </details>
 
-## Commands
 
-<details><summary>list</summary>
+# Commands
+
+<details><summary>List</summary>
 
 ```diff
 + enchant.txt
@@ -136,21 +147,23 @@
 
 </details>
 
+
 <details><summary>locate.txt</summary>
 
 ```diff
-- locate Temple
 + locate Desert_Pyramid
 + locate Igloo
 + locate Jungle_Pyramid
 + locate Swamp_Hut
+- locate Temple
 ```
 
 </details>
 
-## Tags
 
-<details><summary>list</summary>
+# Tags
+
+<details><summary>List</summary>
 
 ```diff
 + blocks/banners.json
@@ -166,7 +179,53 @@
 
 </details>
 
-## Misc
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ argument.entity.options.advancements.description
++ argument.entity.options.distance.description
++ argument.entity.options.dx.description
++ argument.entity.options.dy.description
++ argument.entity.options.dz.description
++ argument.entity.options.gamemode.description
++ argument.entity.options.level.description
++ argument.entity.options.limit.description
++ argument.entity.options.name.description
++ argument.entity.options.nbt.description
++ argument.entity.options.scores.description
++ argument.entity.options.sort.description
++ argument.entity.options.tag.description
++ argument.entity.options.team.description
++ argument.entity.options.type.description
++ argument.entity.options.x_rotation.description
++ argument.entity.options.x.description
++ argument.entity.options.y_rotation.description
++ argument.entity.options.y.description
++ argument.entity.options.z.description
++ argument.entity.selector.allEntities
++ argument.entity.selector.allPlayers
++ argument.entity.selector.nearestPlayer
++ argument.entity.selector.randomPlayer
++ argument.entity.selector.self
++ block.minecraft.cave_air
++ block.minecraft.void_air
++ commands.enchant.success.multiple
++ commands.enchant.success.single
++ entity.minecraft.fishing_bobber
++ entity.minecraft.lightning_bolt
++ entity.minecraft.player
++ selectWorld.tooltip.unsupported
++ selectWorld.unsupported.customized.text
++ selectWorld.unsupported.customized.title
+```
+
+</details>
+
+
+# Misc
 
 <details><summary>advancements.txt</summary>
 
@@ -218,6 +277,7 @@
 
 </details>
 
+
 <details><summary>recipes.txt</summary>
 
 ```diff
@@ -257,8 +317,8 @@
 + pink_glazed_terracotta.json
 + purple_glazed_terracotta.json
 + quartz.json
-+ redstone_from_smelting.json
 + red_glazed_terracotta.json
++ redstone_from_smelting.json
 + sponge.json
 + stone.json
 + terracotta.json
@@ -267,6 +327,7 @@
 ```
 
 </details>
+
 
 <details><summary>tags.txt</summary>
 
@@ -284,6 +345,7 @@
 
 </details>
 
+
 <details><summary>textures.txt</summary>
 
 ```diff
@@ -293,6 +355,7 @@
 
 </details>
 
+
 <details><summary>parsers.txt</summary>
 
 ```diff
@@ -301,7 +364,8 @@
 
 </details>
 
-## Version data
+
+# Version data
 
 <details><summary>libraries.txt</summary>
 
@@ -311,14 +375,3 @@
 ```
 
 </details>
-
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w03a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w03a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-01-19T16:04:59+00:00</td></tr>
@@ -10,791 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e6bb23276072ada7b95a5f0b3cf172d1458c1ee6/server.txt">https://piston-data.mojang.com/v1/objects/e6bb23276072ada7b95a5f0b3cf172d1458c1ee6/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/813b1bfe9158a3b553e44e33c8ba0a6babc6fff2/client.jar">https://piston-data.mojang.com/v1/objects/813b1bfe9158a3b553e44e33c8ba0a6babc6fff2/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5617ef79eb0bbe6977f7c49346e54a6eb6b0f11c/client.txt">https://piston-data.mojang.com/v1/objects/5617ef79eb0bbe6977f7c49346e54a6eb6b0f11c/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.18.1">1.18.1</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/fall_damage_resetting.json
-```
+### Client
 
-</details>
 
-## Commands
 
-<details><summary>list</summary>
 
-```diff
-+ placefeature.txt
-```
-
-</details>
-
-<details><summary>locate.txt</summary>
-
-```diff
-- locate pillager_outpost
-- locate mineshaft
-- locate mansion
-- locate jungle_pyramid
-- locate desert_pyramid
-- locate igloo
-- locate ruined_portal
-- locate shipwreck
-- locate swamp_hut
-- locate stronghold
-- locate monument
-- locate ocean_ruin
-- locate fortress
-- locate endcity
-- locate buried_treasure
-- locate village
-- locate nether_fossil
-- locate bastion_remnant
-+ locate <structure: resource_location>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/fall_damage_resetting.json
-```
-
-</details>
-
-<details><summary>blocks/azalea_root_replaceable.json</summary>
-
-```diff
-+ minecraft:snow_block
-+ minecraft:powder_snow
-```
-
-</details>
-
-<details><summary>blocks/goats_spawnable_on.json</summary>
-
-```diff
-- minecraft:powder_snow
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/fall_damage_resetting.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.github.oshi:oshi-core:5.8.2
-- com.google.code.gson:gson:2.8.8
-- com.ibm.icu:icu4j:69.1
-- com.mojang:authlib:3.2.38
-- com.mojang:blocklist:1.0.6
-- com.mojang:datafixerupper:4.0.26
-- com.mojang:patchy:2.1.6
-- com.mojang:text2speech:1.11.3
-- com.mojang:text2speech:1.11.3
-- net.java.dev.jna:jna-platform:5.9.0
-- net.java.dev.jna:jna:5.9.0
-- org.apache.logging.log4j:log4j-api:2.14.1
-- org.apache.logging.log4j:log4j-core:2.14.1
-- org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1
-+ com.github.oshi:oshi-core:5.8.5
-+ com.google.code.gson:gson:2.8.9
-+ com.ibm.icu:icu4j:70.1
-+ com.mojang:authlib:3.3.39
-+ com.mojang:blocklist:1.0.10
-+ com.mojang:datafixerupper:4.1.27
-+ com.mojang:logging:1.0.0
-+ com.mojang:patchy:2.2.10
-+ com.mojang:text2speech:1.12.4
-+ com.mojang:text2speech:1.12.4
-+ net.java.dev.jna:jna-platform:5.10.0
-+ net.java.dev.jna:jna:5.10.0
-+ org.apache.logging.log4j:log4j-api:2.17.0
-+ org.apache.logging.log4j:log4j-core:2.17.0
-+ org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0
-```
-
-</details>
-
-## Mappings
-
-
-
-<details><summary>com.mojang.blaze3d.audio.Channel</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GLX</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.GlDebug</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.TextureUtil</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>com.mojang.blaze3d.platform.Window</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
-
-```diff
-+ SuggestionProvider AVAILABLE_FEATURES
-+ SuggestionProvider AVAILABLE_STRUCTURES
-+ CompletableFuture lambda$static$4(SuggestionsBuilder)
-+ CompletableFuture lambda$static$7(SuggestionsBuilder)
-+ Message lambda$static$6(EntityType)
-- Message lambda$static$4(EntityType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.BlockPos</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.DataGenerator</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.data.HashCache</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.data.advancements.AdvancementProvider</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.info.WorldgenRegistryDumpReport</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.ModelProvider</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.structures.SnbtToNbt</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.structures.StructureUpdater</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.gametest.framework.LogTestReporter</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.gametest.framework.StructureUtils</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.gametest.framework.TeamcityTestReporter</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.locale.Language</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.NbtUtils</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.syncher.SynchedEntityData</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.recipebook.ServerPlaceRecipe</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.DebugLoggedPrintStream</summary>
-
-```diff
-+ Logger LOGGER
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.LoggedPrintStream</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerAdvancementManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.chase.ChaseClient</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.server.chase.ChaseServer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.LocateCommand</summary>
-
-```diff
-+ DynamicCommandExceptionType ERROR_FAILED
-- SimpleCommandExceptionType ERROR_FAILED
-+ boolean lambda$register$1(CommandSourceStack)
-+ int lambda$register$2(CommandContext)
-+ int locate(ResourceLocationArgument$LocatedResource)
-+ Message lambda$static$0(Object)
-+ Style lambda$showLocateResult$3(Style)
-- boolean lambda$register$0(CommandSourceStack)
-- int lambda$register$1(CommandContext)
-- int locate(StructureFeature)
-- Style lambda$showLocateResult$2(Style)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.PerfCommand</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.shaders.FogShape
@@ -6335,2961 +5572,50 @@
 </details>
 
 
+<details><summary>net.minecraft.commands.synchronization.SuggestionProviders</summary>
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.DefaultUncaughtExceptionHandlerWithName</summary>
-
-```diff
-+ Logger logger
-- Logger logger
-+ void <init>(Logger)
-- void <init>(Logger)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.SystemReport</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.DeserializationContext</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.LocationPredicate</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
-
-```diff
-+ DynamicCommandExceptionType ERROR_INVALID_BIOME
-+ DynamicCommandExceptionType ERROR_INVALID_FEATURE
-+ DynamicCommandExceptionType ERROR_INVALID_STRUCTURE
-+ CommandSyntaxException lambda$getAttribute$9(ResourceLocation)
-+ CommandSyntaxException lambda$getRecipe$8(ResourceLocation)
-+ CommandSyntaxException lambda$getRegistryType$10(ResourceLocation)
-+ Message lambda$static$5(Object)
-+ Message lambda$static$6(Object)
-+ Message lambda$static$7(Object)
-+ ResourceLocationArgument$LocatedResource getBiome(String)
-+ ResourceLocationArgument$LocatedResource getConfiguredFeature(String)
-+ ResourceLocationArgument$LocatedResource getRegistryType(DynamicCommandExceptionType)
-+ ResourceLocationArgument$LocatedResource getStructureFeature(String)
-- CommandSyntaxException lambda$getAttribute$6(ResourceLocation)
-- CommandSyntaxException lambda$getRecipe$5(ResourceLocation)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.Connection</summary>
-
-```diff
-+ Logger LOGGER
-+ Marker PACKET_MARKER
-+ Marker PACKET_RECEIVED_MARKER
-+ Marker PACKET_SENT_MARKER
-+ Marker ROOT_MARKER
-- Logger LOGGER
-- Marker PACKET_MARKER
-- Marker ROOT_MARKER
-+ DefaultEventLoopGroup lambda$static$5()
-+ EpollEventLoopGroup lambda$static$4()
-+ NioEventLoopGroup lambda$static$3()
-+ void lambda$exceptionCaught$6(Future)
-+ void lambda$sendPacket$7(ConnectionProtocol)
-+ void lambda$static$0(Marker)
-+ void lambda$static$1(Marker)
-+ void lambda$static$2(Marker)
-- DefaultEventLoopGroup lambda$static$2()
-- EpollEventLoopGroup lambda$static$1()
-- NioEventLoopGroup lambda$static$0()
-- void lambda$exceptionCaught$3(Future)
-- void lambda$sendPacket$4(ConnectionProtocol)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.network.PacketDecoder</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-- Marker MARKER
-```
-
-</details>
-
-<details><summary>net.minecraft.network.PacketListener</summary>
-
-```diff
-+ boolean shouldPropagateHandlingExceptions()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.SelectorComponent</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.DebugPackets</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.commands.ResetChunksCommand</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.dedicated.DedicatedServer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.dedicated.ServerWatchdog</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.server.dedicated.Settings</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean hasWork()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.level.ChunkTaskPriorityQueueSorter</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean hasWork()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.level.DistanceManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean hasTickets()
-+ void removeTicketsOnClosing()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
-
-```diff
-- Logger LOGGER
-+ void removeTicketsOnClosing()
-+ void tick(BooleanSupplier,boolean)
-- void tick(BooleanSupplier)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean isNaturalSpawningAllowed(BlockPos)
-+ boolean isNaturalSpawningAllowed(ChunkPos)
-- boolean isPositionEntityTicking(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.level.ServerPlayerGameMode</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.level.progress.LoggerChunkProgressListener</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.network.LegacyQueryHandler</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.server.network.ServerConnectionListener</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.repository.Pack</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.OldUsersConverter</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.thread.QueryThreadGs4</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.server.rcon.thread.RconClient</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.ServerRecipeBook</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named FALL_DAMAGE_RESETTING
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.tags.Tag</summary>
-
-```diff
-+ Optional getRandomElement(Random)
-- Object getRandomElement(Random)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.TagContainer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.TagLoader</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.FileZipper</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.HttpUtil</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.util.NativeModuleLister</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.AbstractUUIDFix</summary>
-
-```diff
-- Logger LOGGER
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.fixes.EntityUUIDFix</summary>
-
-```diff
-+ Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.datafix.schemas.V99</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.JvmProfiler$NoOpProfiler</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.jfr.SummaryReporter</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ void infoWithFallback(Supplier)
-+ void warnWithFallback(Throwable)
-- boolean log4jIsActive()
-- void infoWithFallback(Supplier)
-- void warnWithFallback(Throwable)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.metrics.profiling.ServerMetricsSamplersProvider</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.util.profiling.metrics.storage.MetricsPersister</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.random.Weight</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.thread.NamedThreadFactory</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffectInstance</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean verticalCollisionBelow
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean lambda$isInWall$1(BlockPos)
-- boolean lambda$isInWall$1(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.attributes.AttributeModifier</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.InteractWithDoor</summary>
-
-```diff
-+ boolean lambda$areOtherMobsComingThroughDoor$3(LivingEntity)
-+ boolean lambda$areOtherMobsComingThroughDoor$4(LivingEntity)
-+ boolean lambda$areOtherMobsComingThroughDoor$5(LivingEntity)
-+ boolean lambda$closeDoorsThatIHaveOpenedOrPassedThrough$2(BlockBehaviour$BlockStateBase)
-+ boolean lambda$start$0(BlockBehaviour$BlockStateBase)
-+ boolean lambda$start$1(BlockBehaviour$BlockStateBase)
-- boolean lambda$areOtherMobsComingThroughDoor$0(LivingEntity)
-- boolean lambda$areOtherMobsComingThroughDoor$1(LivingEntity)
-- boolean lambda$areOtherMobsComingThroughDoor$2(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.poi.PoiSection</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ PoiRecord lambda$refresh$7(PoiType,short)
-+ Set lambda$add$6(PoiType)
-+ void lambda$refresh$8(PoiType)
-- Object lambda$add$6(PoiType)
-- Object lambda$add$7(BlockPos)
-- PoiRecord lambda$refresh$9(PoiType,short)
-- Set lambda$add$8(PoiType)
-- void lambda$refresh$10(PoiType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
-
-```diff
-+ Logger LOGGER
-+ FallingBlockEntity fall(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.ZombieVillager</summary>
-
-```diff
-+ Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AnvilMenu</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.RecipeManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.ClipContext$Fluid</summary>
-
-```diff
-+ ClipContext$Fluid WATER
-+ boolean lambda$static$2(FluidState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MobSpawnSettings</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CommandBlock</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
-
-```diff
-+ VoxelShape REQUIRED_SPACE_TO_DRIP_THROUGH_NON_SOLID_BLOCK
-+ boolean canDripThrough(BlockState)
-+ boolean lambda$findFillableCauldronBelowStalactiteTip$8(BlockState)
-+ boolean lambda$findRootBlock$5(BlockState)
-+ boolean lambda$findStalactiteTipAboveCauldron$9(BlockState)
-+ boolean lambda$findTip$3(BlockState)
-+ Fluid lambda$getFluidAboveStalactite$10(BlockPos)
-+ Optional findBlockVertical(Predicate,int)
-- boolean lambda$findRootBlock$5(BlockState)
-- boolean lambda$findTip$3(BlockState)
-- Fluid lambda$getFluidAboveStalactite$8(BlockPos)
-- Optional findBlockVertical(Predicate,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
-
-```diff
-+ boolean lambda$releaseOccupant$2(BlockBehaviour$BlockStateBase)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntity</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntityType</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.UpgradeData</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.ChunkSerializer</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.storage.EntityStorage</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.end.EndDragonFight</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.EntityLookup</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.entity.EntitySection</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.PersistentEntitySectionManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-+ boolean canPositionTick(BlockPos)
-+ boolean canPositionTick(ChunkPos)
-- boolean isPositionTicking(BlockPos)
-- boolean isPositionTicking(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Heightmap</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules</summary>
-
-```diff
-+ SurfaceRules$ConditionSource DEEP_UNDER_FLOOR
-+ SurfaceRules$ConditionSource VERY_DEEP_UNDER_FLOOR
-+ SurfaceRules$ConditionSource stoneDepthCheck(CaveSurface)
-+ SurfaceRules$ConditionSource stoneDepthCheck(CaveSurface)
-- SurfaceRules$ConditionSource stoneDepthCheck(CaveSurface)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
-
-```diff
-+ double surfaceSecondary
-- int surfaceSecondaryDepth
-+ double getSurfaceSecondary()
-- int getSurfaceSecondaryDepth()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck</summary>
-
-```diff
-+ int secondaryDepthRange
-- boolean addSurfaceSecondaryDepth
-+ int secondaryDepthRange()
-+ void <init>(CaveSurface)
-- boolean addSurfaceSecondaryDepth()
-- void <init>(CaveSurface)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
-
-```diff
-+ double getSurfaceSecondary(int,int)
-- int getSurfaceDepth(NormalNoise,int,int)
-- int getSurfaceSecondaryDepth(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.blending.Blender</summary>
-
-```diff
-+ Long2ObjectOpenHashMap blendingData
-+ Long2ObjectOpenHashMap blendingDataForDensityBlending
-- List densityData
-- List heightData
-- WorldGenRegion region
-+ Biome blendBiome(int,int)
-+ Biome lambda$getBiomeResolver$4(Climate$Sampler)
-+ boolean lambda$addAroundOldChunksCarvingMaskFilter$7(Blender$DistanceGetter,int,int,int)
-+ double lambda$makeOffsetOldChunkDistanceGetter$11(double,double,double,double,double)
-+ double lambda$makeOldChunkDistanceGetter$10(List,double,double,double)
-+ void <init>(Long2ObjectOpenHashMap)
-+ void lambda$addAroundOldChunksCarvingMaskFilter$8(CarvingMask)
-+ void lambda$blendBiome$5(Biome)
-+ void lambda$blendBiome$6(BlendingData)
-+ void lambda$blendDensity$2(MutableDouble,int,int,int,double)
-+ void lambda$blendDensity$3(BlendingData)
-+ void lambda$blendOffsetAndFactor$1(BlendingData)
-+ void lambda$makeOldChunkDistanceGetter$9(Direction8)
-- Biome blendBiome(int,int,int)
-- Biome lambda$getBiomeResolver$2(Climate$Sampler)
-- boolean lambda$addAroundOldChunksCarvingMaskFilter$4(Blender$DistanceGetter,int,int,int)
-- double lambda$makeOffsetOldChunkDistanceGetter$8(double,double,double,double,double)
-- double lambda$makeOldChunkDistanceGetter$7(List,double,double,double)
-- void <init>(List)
-- void lambda$addAroundOldChunksCarvingMaskFilter$5(CarvingMask)
-- void lambda$blendBiome$3(BlockPos$MutableBlockPos,int,int,double)
-- void lambda$blendDensity$1(MutableDouble,int,int,int,double)
-- void lambda$makeOldChunkDistanceGetter$6(Direction8)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
-
-```diff
-+ void lambda$placeCoralBlock$0(Block)
-+ void lambda$placeCoralBlock$1(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FeatureCountTracker</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.TrapezoidHeight</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.heightproviders.VeryBiasedToBottomHeight</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.RuinedPortalPiece</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureCheck</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.saveddata.SavedData</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.DimensionDataStorage</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
-
-```diff
-+ Logger LOGGER
-+ String TAG_DATA
-- Logger LOGGER
-+ Tag readLightweightData(File)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.PrimaryLevelData</summary>
-
-```diff
-+ Logger LOGGER
-+ String PLAYER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.ItemModifierManager</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootTables</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction</summary>
-
-```diff
-+ Logger LOGGER
-- Logger LOGGER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetItemDamageFunction</summary>
-
 ```diff
-+ Logger LOGGER
-- Logger LOGGER
++ CompletableFuture lambda$static$4(CommandContext,SuggestionsBuilder)
++ CompletableFuture lambda$static$7(CommandContext,SuggestionsBuilder)
+- Message lambda$static$4(EntityType)
++ Message lambda$static$6(EntityType)
 ```
 
 </details>
-
-
 
 
+<details><summary>net.minecraft.server.DebugLoggedPrintStream</summary>
 
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SmeltItemFunction</summary>
-
 ```diff
-+ Logger LOGGER
-- Logger LOGGER
++ void <clinit>()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
 
 
+<details><summary>net.minecraft.server.commands.LocateCommand</summary>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.timers.TimerCallbacks</summary>
-
 ```diff
-+ Logger LOGGER
-- Logger LOGGER
+- boolean lambda$register$0(CommandSourceStack)
++ boolean lambda$register$1(CommandSourceStack)
+- int lambda$register$1(Map$Entry,CommandContext)
++ int lambda$register$2(CommandContext)
++ int locate(CommandSourceStack,ResourceLocationArgument$LocatedResource)
+- int locate(CommandSourceStack,StructureFeature)
++ Message lambda$static$0(Object)
+- Style lambda$showLocateResult$2(BlockPos,Style)
++ Style lambda$showLocateResult$3(BlockPos,Style)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
+### Server
 
 
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockInput
@@ -9964,13 +6290,483 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.DefaultUncaughtExceptionHandlerWithName</summary>
+
+```diff
++ void <init>(Logger)
+- void <init>(Logger)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ResourceLocationArgument</summary>
+
+```diff
+- CommandSyntaxException lambda$getAttribute$6(ResourceLocation)
++ CommandSyntaxException lambda$getAttribute$9(ResourceLocation)
+- CommandSyntaxException lambda$getRecipe$5(ResourceLocation)
++ CommandSyntaxException lambda$getRecipe$8(ResourceLocation)
++ CommandSyntaxException lambda$getRegistryType$10(DynamicCommandExceptionType,ResourceLocation)
++ Message lambda$static$5(Object)
++ Message lambda$static$6(Object)
++ Message lambda$static$7(Object)
++ ResourceLocationArgument$LocatedResource getBiome(CommandContext,String)
++ ResourceLocationArgument$LocatedResource getConfiguredFeature(CommandContext,String)
++ ResourceLocationArgument$LocatedResource getRegistryType(CommandContext,String,ResourceKey,DynamicCommandExceptionType)
++ ResourceLocationArgument$LocatedResource getStructureFeature(CommandContext,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.Connection</summary>
+
+```diff
+- DefaultEventLoopGroup lambda$static$2()
++ DefaultEventLoopGroup lambda$static$5()
+- EpollEventLoopGroup lambda$static$1()
++ EpollEventLoopGroup lambda$static$4()
+- NioEventLoopGroup lambda$static$0()
++ NioEventLoopGroup lambda$static$3()
+- void lambda$exceptionCaught$3(Component,Future)
++ void lambda$exceptionCaught$6(Component,Future)
+- void lambda$sendPacket$4(Packet,GenericFutureListener,ConnectionProtocol,ConnectionProtocol)
++ void lambda$sendPacket$7(Packet,GenericFutureListener,ConnectionProtocol,ConnectionProtocol)
++ void lambda$static$0(Marker)
++ void lambda$static$1(Marker)
++ void lambda$static$2(Marker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.PacketListener</summary>
+
+```diff
++ boolean shouldPropagateHandlingExceptions()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ boolean hasWork()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkTaskPriorityQueueSorter</summary>
+
+```diff
++ boolean hasWork()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.DistanceManager</summary>
+
+```diff
++ boolean hasTickets()
++ void removeTicketsOnClosing()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+
+```diff
++ void removeTicketsOnClosing()
++ void tick(BooleanSupplier,boolean)
+- void tick(BooleanSupplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ boolean isNaturalSpawningAllowed(BlockPos)
++ boolean isNaturalSpawningAllowed(ChunkPos)
+- boolean isPositionEntityTicking(ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.Tag</summary>
+
+```diff
+- Object getRandomElement(Random)
++ Optional getRandomElement(Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.datafix.fixes.AbstractUUIDFix</summary>
+
+```diff
+- void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.SummaryReporter</summary>
+
+```diff
+- boolean log4jIsActive()
++ void infoWithFallback(Supplier)
+- void infoWithFallback(Supplier)
++ void warnWithFallback(Supplier,Throwable)
+- void warnWithFallback(Supplier,Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean lambda$isInWall$1(AABB,BlockPos)
+- boolean lambda$isInWall$1(Vec3,AABB,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.InteractWithDoor</summary>
+
+```diff
+- boolean lambda$areOtherMobsComingThroughDoor$0(LivingEntity,LivingEntity)
+- boolean lambda$areOtherMobsComingThroughDoor$1(BlockPos,LivingEntity)
+- boolean lambda$areOtherMobsComingThroughDoor$2(ServerLevel,BlockPos,LivingEntity)
++ boolean lambda$areOtherMobsComingThroughDoor$3(LivingEntity,LivingEntity)
++ boolean lambda$areOtherMobsComingThroughDoor$4(BlockPos,LivingEntity)
++ boolean lambda$areOtherMobsComingThroughDoor$5(ServerLevel,BlockPos,LivingEntity)
++ boolean lambda$closeDoorsThatIHaveOpenedOrPassedThrough$2(BlockBehaviour$BlockStateBase)
++ boolean lambda$start$0(BlockBehaviour$BlockStateBase)
++ boolean lambda$start$1(BlockBehaviour$BlockStateBase)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.poi.PoiSection</summary>
+
+```diff
+- Object lambda$add$6(PoiType)
+- Object lambda$add$7(BlockPos)
++ PoiRecord lambda$refresh$7(BlockPos,PoiType,short)
+- PoiRecord lambda$refresh$9(BlockPos,PoiType,short)
++ Set lambda$add$6(PoiType)
+- Set lambda$add$8(PoiType)
+- void lambda$refresh$10(Short2ObjectMap,BlockPos,PoiType)
++ void lambda$refresh$8(Short2ObjectMap,BlockPos,PoiType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
++ FallingBlockEntity fall(Level,BlockPos,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.ClipContext$Fluid</summary>
+
+```diff
++ boolean lambda$static$2(FluidState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+
+```diff
++ boolean canDripThrough(BlockGetter,BlockPos,BlockState)
++ boolean lambda$findFillableCauldronBelowStalactiteTip$8(Level,BlockPos,BlockState)
++ boolean lambda$findRootBlock$5(Direction,BlockPos,BlockState)
+- boolean lambda$findRootBlock$5(Direction,BlockState)
++ boolean lambda$findStalactiteTipAboveCauldron$9(Level,BlockPos,BlockState)
++ boolean lambda$findTip$3(Direction,BlockPos,BlockState)
+- boolean lambda$findTip$3(Direction,BlockState)
++ Fluid lambda$getFluidAboveStalactite$10(Level,BlockPos)
+- Fluid lambda$getFluidAboveStalactite$8(Level,BlockPos)
++ Optional findBlockVertical(LevelAccessor,BlockPos,Direction$AxisDirection,BiPredicate,Predicate,int)
+- Optional findBlockVertical(LevelAccessor,BlockPos,Direction$AxisDirection,Predicate,Predicate,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BeehiveBlockEntity</summary>
+
+```diff
++ boolean lambda$releaseOccupant$2(BlockBehaviour$BlockStateBase)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.entity.PersistentEntitySectionManager</summary>
+
+```diff
++ boolean canPositionTick(BlockPos)
++ boolean canPositionTick(ChunkPos)
+- boolean isPositionTicking(BlockPos)
+- boolean isPositionTicking(ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules</summary>
+
+```diff
+- SurfaceRules$ConditionSource stoneDepthCheck(int,boolean,boolean,CaveSurface)
++ SurfaceRules$ConditionSource stoneDepthCheck(int,boolean,CaveSurface)
++ SurfaceRules$ConditionSource stoneDepthCheck(int,boolean,int,CaveSurface)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
+
+```diff
++ double getSurfaceSecondary()
+- int getSurfaceSecondaryDepth()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$StoneDepthCheck</summary>
+
+```diff
+- boolean addSurfaceSecondaryDepth()
++ int secondaryDepthRange()
+- void <init>(int,boolean,boolean,CaveSurface)
++ void <init>(int,boolean,int,CaveSurface)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+
+```diff
++ double getSurfaceSecondary(int,int)
+- int getSurfaceDepth(NormalNoise,int,int)
+- int getSurfaceSecondaryDepth(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.blending.Blender</summary>
+
+```diff
+- Biome blendBiome(int,int,int)
++ Biome blendBiome(int,int)
+- Biome lambda$getBiomeResolver$2(BiomeResolver,int,int,int,Climate$Sampler)
++ Biome lambda$getBiomeResolver$4(BiomeResolver,int,int,int,Climate$Sampler)
+- boolean lambda$addAroundOldChunksCarvingMaskFilter$4(Blender$DistanceGetter,int,int,int)
++ boolean lambda$addAroundOldChunksCarvingMaskFilter$7(Blender$DistanceGetter,int,int,int)
++ double lambda$makeOffsetOldChunkDistanceGetter$11(double,double,double,double,double)
+- double lambda$makeOffsetOldChunkDistanceGetter$8(double,double,double,double,double)
++ double lambda$makeOldChunkDistanceGetter$10(List,double,double,double)
+- double lambda$makeOldChunkDistanceGetter$7(List,double,double,double)
++ void <init>(Long2ObjectOpenHashMap,Long2ObjectOpenHashMap)
+- void <init>(WorldGenRegion,List,List)
+- void lambda$addAroundOldChunksCarvingMaskFilter$5(CarvingMask$Mask,CarvingMask)
++ void lambda$addAroundOldChunksCarvingMaskFilter$8(CarvingMask$Mask,CarvingMask)
+- void lambda$blendBiome$3(double,double,MutableDouble,MutableObject,Blender$PositionedBlendingData,BlockPos$MutableBlockPos,int,int,double)
++ void lambda$blendBiome$5(double,double,MutableDouble,MutableObject,int,int,Biome)
++ void lambda$blendBiome$6(double,double,MutableDouble,MutableObject,Long,BlendingData)
+- void lambda$blendDensity$1(int,int,int,MutableDouble,MutableDouble,MutableDouble,int,int,int,double)
++ void lambda$blendDensity$2(int,int,int,MutableDouble,MutableDouble,MutableDouble,int,int,int,double)
++ void lambda$blendDensity$3(int,int,int,MutableDouble,MutableDouble,MutableDouble,Long,BlendingData)
++ void lambda$blendOffsetAndFactor$1(int,int,MutableDouble,MutableDouble,MutableDouble,Long,BlendingData)
+- void lambda$makeOldChunkDistanceGetter$6(List,Direction8)
++ void lambda$makeOldChunkDistanceGetter$9(List,Direction8)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.CoralFeature</summary>
+
+```diff
++ void lambda$placeCoralBlock$0(LevelAccessor,BlockPos,Block)
++ void lambda$placeCoralBlock$1(Direction,LevelAccessor,BlockPos,Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
+
+```diff
++ Tag readLightweightData(File)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/fall_damage_resetting.json
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ placefeature.txt
+```
+
+</details>
+
+
+<details><summary>locate.txt</summary>
+
+```diff
++ locate <structure: resource_location>
+- locate bastion_remnant
+- locate buried_treasure
+- locate desert_pyramid
+- locate endcity
+- locate fortress
+- locate igloo
+- locate jungle_pyramid
+- locate mansion
+- locate mineshaft
+- locate monument
+- locate nether_fossil
+- locate ocean_ruin
+- locate pillager_outpost
+- locate ruined_portal
+- locate shipwreck
+- locate stronghold
+- locate swamp_hut
+- locate village
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/fall_damage_resetting.json
+```
+
+</details>
+
+
+<details><summary>blocks/azalea_root_replaceable.json</summary>
+
+```diff
++ minecraft:powder_snow
++ minecraft:snow_block
+```
+
+</details>
+
+
+<details><summary>blocks/goats_spawnable_on.json</summary>
+
+```diff
+- minecraft:powder_snow
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.locate.invalid
++ commands.placefeature.failed
++ commands.placefeature.invalid
++ commands.placefeature.success
++ commands.spreadplayers.failed.invalid.height
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/fall_damage_resetting.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.github.oshi:oshi-core:5.8.2
++ com.github.oshi:oshi-core:5.8.5
+- com.google.code.gson:gson:2.8.8
++ com.google.code.gson:gson:2.8.9
+- com.ibm.icu:icu4j:69.1
++ com.ibm.icu:icu4j:70.1
+- com.mojang:authlib:3.2.38
++ com.mojang:authlib:3.3.39
++ com.mojang:blocklist:1.0.10
+- com.mojang:blocklist:1.0.6
+- com.mojang:datafixerupper:4.0.26
++ com.mojang:datafixerupper:4.1.27
++ com.mojang:logging:1.0.0
+- com.mojang:patchy:2.1.6
++ com.mojang:patchy:2.2.10
+- com.mojang:text2speech:1.11.3
+- com.mojang:text2speech:1.11.3
++ com.mojang:text2speech:1.12.4
++ com.mojang:text2speech:1.12.4
++ net.java.dev.jna:jna-platform:5.10.0
+- net.java.dev.jna:jna-platform:5.9.0
++ net.java.dev.jna:jna:5.10.0
+- net.java.dev.jna:jna:5.9.0
+- org.apache.logging.log4j:log4j-api:2.14.1
++ org.apache.logging.log4j:log4j-api:2.17.0
+- org.apache.logging.log4j:log4j-core:2.14.1
++ org.apache.logging.log4j:log4j-core:2.17.0
+- org.apache.logging.log4j:log4j-slf4j18-impl:2.14.1
++ org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0
+```
+
+</details>

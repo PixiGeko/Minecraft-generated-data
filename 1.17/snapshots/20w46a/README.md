@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w46a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w46a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-11-11T15:30:32+00:00</td></tr>
@@ -10,2551 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5de650acd5894cf687a911fb9affb3b294de4dd2/server.txt">https://piston-data.mojang.com/v1/objects/5de650acd5894cf687a911fb9affb3b294de4dd2/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/f4c56c2b7218599b78074a500ab2a89a04db5b36/client.jar">https://piston-data.mojang.com/v1/objects/f4c56c2b7218599b78074a500ab2a89a04db5b36/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d3687dd62798b403141db1fe7272607c53b6e9f0/client.txt">https://piston-data.mojang.com/v1/objects/d3687dd62798b403141db1fe7272607c53b6e9f0/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w45a">20w45a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/blocks/powder_snow.json
-+  minecraft/loot_tables/blocks/powder_snow_cauldron.json
-+  minecraft/tags/blocks/snow_step_sound_blocks.json
-+  minecraft/tags/entity_types/powder_snow_walkable_mobs.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/powder_snow.json
-+  minecraft/blockstates/powder_snow_cauldron.json
-+  minecraft/models/block/powder_snow.json
-+  minecraft/models/block/powder_snow_cauldron_full.json
-+  minecraft/models/block/powder_snow_cauldron_level1.json
-+  minecraft/models/block/powder_snow_cauldron_level2.json
-+  minecraft/models/block/template_cauldron_level1.json
-+  minecraft/models/block/template_cauldron_level2.json
--  minecraft/models/block/water_cauldron.json
-+  minecraft/models/block/water_cauldron_full.json
-+  minecraft/models/item/powder_snow_bucket.json
--  minecraft/models/item/spyglass_in_use.json
-+  minecraft/models/item/spyglass_scoping.json
-+  minecraft/particles/snowflake.json
-+  minecraft/textures/block/powder_snow.png
-+  minecraft/textures/item/powder_snow_bucket.png
-+  minecraft/textures/misc/powder_snow_outline.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ loot_nbt_provider_type.txt
-+ loot_number_provider_type.txt
-+ loot_score_provider_type.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:powder_snow_cauldron
-+ minecraft:powder_snow
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:powder_snow_bucket
-```
-
-</details>
-
-<details><summary>loot_condition_type.txt</summary>
-
-```diff
-+ minecraft:value_check
-```
-
-</details>
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-+ minecraft:set_enchantments
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:snowflake
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:item.bucket.empty_powder_snow
-+ minecraft:item.bucket.fill_powder_snow
-+ minecraft:entity.player.hurt_freeze
-+ minecraft:block.powder_snow.break
-+ minecraft:block.powder_snow.fall
-+ minecraft:block.powder_snow.hit
-+ minecraft:block.powder_snow.place
-+ minecraft:block.powder_snow.step
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-- replaceitem.txt
-+ item.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/snow_step_sound_blocks.json
-+ entity_types/powder_snow_walkable_mobs.json
-```
-
-</details>
-
-<details><summary>blocks/cauldrons.json</summary>
-
-```diff
-+ minecraft:powder_snow_cauldron
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/powder_snow.json
-+ blocks/powder_snow_cauldron.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ snowflake.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/snow_step_sound_blocks.json
-+ entity_types/powder_snow_walkable_mobs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/powder_snow.png
-+ item/powder_snow_bucket.png
-+ misc/powder_snow_outline.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-+ boolean access$8000(RealmsMainScreen)
-+ boolean access$8002(RealmsMainScreen,boolean)
-+ Component access$7600()
-+ Component access$7700()
-+ int access$8400(RealmsMainScreen)
-+ int access$8500(RealmsMainScreen)
-+ Minecraft access$8700(RealmsMainScreen)
-+ ResourceLocation access$8600()
-+ String access$8200(RealmsMainScreen)
-+ void access$7800(PoseStack,int,int,int,int,boolean,boolean)
-+ void access$7900(Button)
-+ void access$8100(PoseStack,int,int,boolean,int,int,boolean,boolean)
-+ void access$8300(PoseStack,int,int,int,int,boolean)
-+ void access$8800(RealmsMainScreen)
-- boolean access$7800(RealmsMainScreen)
-- boolean access$7802(RealmsMainScreen,boolean)
-- int access$8200(RealmsMainScreen)
-- int access$8300(RealmsMainScreen)
-- Minecraft access$8500(RealmsMainScreen)
-- ResourceLocation access$8400()
-- String access$8000(RealmsMainScreen)
-- void access$7600(PoseStack,int,int,int,int,boolean,boolean)
-- void access$7700(Button)
-- void access$7900(PoseStack,int,int,boolean,int,int,boolean,boolean)
-- void access$8100(PoseStack,int,int,int,int,boolean)
-- void access$8600(RealmsMainScreen)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-+ RealmsServer access$8900(RealmsMainScreen$ServerEntry)
-- RealmsServer access$8700(RealmsMainScreen$ServerEntry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
-
-```diff
-+ Component TEXT_UNKNOWN
-+ void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
-
-```diff
-- RealmsResetWorldScreen$ResetType typeToReset
-- RealmsResetWorldScreen$ResetWorldInfo worldInfoToReset
-- WorldTemplate worldTemplateToReset
-+ void access$600(ResourceLocation,boolean,boolean)
-+ void generationSelectionCallback(WorldGenerationInfo)
-+ void lambda$generationSelectionCallback$8(WorldGenerationInfo)
-+ void lambda$templateSelectionCallback$7(WorldTemplate)
-+ void resetWorld(Runnable)
-+ void startTask(LongRunningTask)
-+ void templateSelectionCallback(WorldTemplate)
-- void access$900(ResourceLocation,boolean,boolean)
-- void callback(WorldTemplate)
-- void lambda$switchSlot$7()
-- void resetWorld(RealmsResetWorldScreen$ResetWorldInfo)
-- void resetWorld(WorldTemplate,int,boolean)
-- void resetWorldWithTemplate(WorldTemplate)
-- void switchSlot()
-- void triggerResetWorld(RealmsResetWorldScreen$ResetWorldInfo)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
-
-```diff
-+ Consumer callback
-- RealmsScreenWithCallback lastScreen
-+ void <init>(RealmsServer$WorldType)
-+ void <init>(WorldTemplatePaginatedList)
-+ void onClose()
-- boolean keyPressed(int,int,int)
-- void <init>(RealmsServer$WorldType)
-- void <init>(WorldTemplatePaginatedList)
-- void backButtonClicked()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
-
-```diff
-+ CompletableFuture scheduleResourcePackDownload(RealmsServerAddress)
-+ RealmsLongConfirmationScreen resourcePackDownloadConfirmationScreen(Function)
-+ RealmsLongRunningMcoTaskScreen connectScreen(RealmsServerAddress)
-+ RealmsServerAddress fetchServerAddress()
-+ void lambda$null$0(RealmsServerAddress)
-+ Void lambda$null$1(Throwable)
-+ void lambda$resourcePackDownloadConfirmationScreen$2(Function,boolean)
-- Void lambda$null$0(Throwable)
-- void lambda$null$1(RealmsServerAddress)
-- void lambda$run$2(RealmsServerAddress,boolean)
-- void sleep(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.LerpingBossEvent</summary>
-
-```diff
-+ float getProgress()
-+ void setProgress(float)
-- float getPercent()
-- void setPercent(float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
-
-```diff
-+ SelectedGameMode gameMode
-- Button commandsButton
-- Button modeButton
-- String gameModeName
-+ void lambda$init$0(SelectedGameMode)
-+ void lambda$init$1(Boolean)
-- void lambda$init$0(Button)
-- void lambda$init$1(Button)
-- void updateSelectionStrings()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
-
-```diff
-+ void lambda$init$0(Boolean)
-- Component getMessage(PlayerModelPart)
-- void lambda$init$0(Button)
-- void lambda$init$2(Button)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen</summary>
-
-```diff
-+ CycleButton outputButton
-- Button outputButton
-+ void lambda$init$2(Boolean)
-+ void updatePreviousOutput(boolean)
-- void lambda$init$2(Button)
-- void updateCommandOutput()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.inventory.CommandBlockEditScreen</summary>
-
-```diff
-+ CycleButton autoexecButton
-+ CycleButton conditionalButton
-+ CycleButton modeButton
-- Button autoexecButton
-- Button conditionalButton
-- Button modeButton
-+ Component lambda$init$0(CommandBlockEntity$Mode)
-+ void enableControls(boolean)
-+ void lambda$init$1(CommandBlockEntity$Mode)
-+ void lambda$init$2(Boolean)
-+ void lambda$init$3(Boolean)
-- void lambda$init$0(Button)
-- void lambda$init$1(Button)
-- void lambda$init$2(Button)
-- void nextMode()
-- void updateAutoexec()
-- void updateConditional()
-- void updateMode()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
-
-```diff
-+ boolean worldGenSettingsVisible
-+ CycleButton commandsButton
-+ CycleButton difficultyButton
-+ CycleButton modeButton
-+ Difficulty difficulty
-- boolean displayOptions
-- Button commandsButton
-- Button difficultyButton
-- Button modeButton
-- Difficulty effectiveDifficulty
-- Difficulty selectedDifficulty
-+ boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
-+ boolean lambda$createTempDataPackDirFromExistingWorld$22(Path)
-+ boolean lambda$tryApplyNewDataPacks$13(String)
-+ Difficulty getEffectiveDifficulty()
-+ MutableComponent lambda$init$1(CycleButton)
-+ MutableComponent lambda$init$4(CycleButton)
-+ Object lambda$tryApplyNewDataPacks$18(Throwable)
-+ void lambda$copyTempDataPackDirToNewWorld$21(Path)
-+ void lambda$createTempDataPackDirFromExistingWorld$23(Path)
-+ void lambda$init$11(Button)
-+ void lambda$init$12(Button)
-+ void lambda$init$2(CreateWorldScreen$SelectedGameMode)
-+ void lambda$init$3(Difficulty)
-+ void lambda$init$5(Boolean)
-+ void lambda$init$6(Button)
-+ void lambda$null$15(boolean)
-+ void lambda$null$16()
-+ void lambda$null$17(ServerResources)
-+ void lambda$null$7(GameRules)
-+ void lambda$null$8(Optional)
-+ void lambda$removeTempDataPackDir$19(Path)
-+ void lambda$tryApplyNewDataPacks$14()
-+ void refreshWorldGenSettingsVisibility()
-+ void setWorldGenSettingsVisible(boolean)
-+ void toggleWorldGenSettingsVisibility()
-- boolean access$700(CreateWorldScreen)
-- boolean lambda$copyTempDataPackDirToNewWorld$18(Path)
-- boolean lambda$createTempDataPackDirFromExistingWorld$20(Path)
-- boolean lambda$tryApplyNewDataPacks$11(String)
-- Component access$100()
-- Component access$400(CreateWorldScreen)
-- Component access$500(CreateWorldScreen)
-- CreateWorldScreen$SelectedGameMode access$200(CreateWorldScreen)
-- Difficulty access$600(CreateWorldScreen)
-- Object lambda$tryApplyNewDataPacks$16(Throwable)
-- void lambda$copyTempDataPackDirToNewWorld$19(Path)
-- void lambda$createTempDataPackDirFromExistingWorld$21(Path)
-- void lambda$init$1(Button)
-- void lambda$init$2(Button)
-- void lambda$init$3(Button)
-- void lambda$init$4(Button)
-- void lambda$init$7(Button)
-- void lambda$init$8(Button)
-- void lambda$null$13(boolean)
-- void lambda$null$14()
-- void lambda$null$15(ServerResources)
-- void lambda$null$5(GameRules)
-- void lambda$null$6(Optional)
-- void lambda$removeTempDataPackDir$17(Path)
-- void lambda$tryApplyNewDataPacks$12()
-- void setDisplayOptions(boolean)
-- void toggleDisplayOptions()
-- void updateDisplayOptions()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.PlayerMenuItem</summary>
-
-```diff
-+ Component name
-- TextComponent name
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
-
-```diff
-+ LootTable$Builder createSingleItemTable(NumberProvider)
-+ LootTable$Builder createSingleItemTableWithSilkTouch(NumberProvider)
-- LootTable$Builder createSingleItemTable(RandomIntGenerator)
-- LootTable$Builder createSingleItemTableWithSilkTouch(RandomIntGenerator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
-
-```diff
-+ TextureMapping cauldron(ResourceLocation)
-- TextureMapping cauldron(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.chat.CommonComponents</summary>
-
-```diff
-+ MutableComponent optionNameValue(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$Operation</summary>
-
-```diff
-+ ClientboundBossEventPacket$Operation UPDATE_PROGRESS
-- ClientboundBossEventPacket$Operation UPDATE_PCT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundMapItemDataPacket</summary>
-
-```diff
-+ MapItemSavedData$MapPatch colorPatch
-- boolean trackingPosition
-- byte[] mapColors
-- int height
-- int startX
-- int startY
-- int width
-+ boolean isLocked()
-+ void <init>(MapItemSavedData$MapPatch)
-- void <init>(Collection,byte[],int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.recipebook.ServerPlaceRecipe</summary>
-
-```diff
-+ void clearGrid(boolean)
-- void clearGrid()
-- void moveItemToInventory(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
-
-```diff
-+ Component RCON_COMPONENT
-- TextComponent RCON_COMPONENT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-+ Tag$Named POWDER_SNOW_WALKABLE_MOBS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.Difficulty</summary>
-
-```diff
-- Difficulty nextById()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-+ DamageSource FREEZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean bodyIsInPowderSnow
-+ EntityDataAccessor DATA_TICKS_FROZEN
-+ boolean canFreeze()
-+ boolean isFullyFrozen()
-+ float getPercentFrozen()
-+ int getTicksFrozen()
-+ int getTicksRequiredToFreeze()
-+ SlotAccess getSlot(int)
-+ void setBodyIsInPowderSnow(boolean)
-+ void setTicksFrozen(int)
-- boolean setSlot(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
-
-```diff
-+ int getIndex(int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ UUID SPEED_MODIFIER_POWDER_SNOW_UUID
-+ boolean canFreeze()
-+ boolean lambda$createEquipmentSlotAccess$11(ItemStack)
-+ EquipmentSlot getEquipmentSlot(int)
-+ EquipmentSlot getEquipmentSlotForItem(ItemStack)
-+ SlotAccess createEquipmentSlotAccess(EquipmentSlot)
-+ SlotAccess getSlot(int)
-+ void removeFrost()
-+ void tryAddFrost()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-- boolean isValidSlotForItem(ItemStack)
-- boolean setSlot(ItemStack)
-- EquipmentSlot getEquipmentSlotForItem(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame$1</summary>
-
-```diff
-+ ItemFrame this$0
-- int[] $SwitchMap$net$minecraft$core$Direction$Axis
-+ boolean set(ItemStack)
-+ ItemStack get()
-+ void <init>(ItemFrame)
-- void <clinit>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Item</summary>
-
-```diff
-+ Optional getTooltipImage(ItemStack)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.ItemStack</summary>
-
-```diff
-+ Optional getTooltipImage()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Mirror</summary>
-
-```diff
-+ Component symbol
-+ Component symbol()
-+ void <init>(OctahedralGroup)
-- void <init>(OctahedralGroup)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity$JointType</summary>
-
-```diff
-+ Component getTranslatedName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.LavaFluid</summary>
-
-```diff
-+ Optional getPickupSound()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
-
-```diff
-+ NumberProvider bonusRolls
-+ NumberProvider rolls
-- RandomIntGenerator rolls
-- RandomValueBounds bonusRolls
-+ LootPoolEntryContainer[] access$300(LootPool)
-+ NumberProvider access$100(LootPool)
-+ NumberProvider access$200(LootPool)
-+ void <init>(LootPool$1)
-+ void <init>(NumberProvider)
-- LootPoolEntryContainer[] access$200(LootPool)
-- RandomIntGenerator access$100(LootPool)
-- RandomValueBounds access$300(LootPool)
-- void <init>(LootPool$1)
-- void <init>(RandomValueBounds)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
-
-```diff
-+ NumberProvider bonusRolls
-+ NumberProvider rolls
-- RandomIntGenerator rolls
-- RandomValueBounds bonusRolls
-+ LootPool$Builder setBonusRolls(NumberProvider)
-+ LootPool$Builder setRolls(NumberProvider)
-- LootPool$Builder setBonusRolls(RandomValueBounds)
-- LootPool$Builder setRolls(RandomIntGenerator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen$2
@@ -4672,765 +2149,297 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
+
+```diff
+- boolean access$7800(RealmsMainScreen)
+- boolean access$7802(RealmsMainScreen,boolean)
++ boolean access$8000(RealmsMainScreen)
++ boolean access$8002(RealmsMainScreen,boolean)
++ Component access$7600()
++ Component access$7700()
+- int access$8200(RealmsMainScreen)
+- int access$8300(RealmsMainScreen)
++ int access$8400(RealmsMainScreen)
++ int access$8500(RealmsMainScreen)
+- Minecraft access$8500(RealmsMainScreen)
++ Minecraft access$8700(RealmsMainScreen)
+- ResourceLocation access$8400()
++ ResourceLocation access$8600()
+- String access$8000(RealmsMainScreen)
++ String access$8200(RealmsMainScreen)
+- void access$7600(RealmsMainScreen,PoseStack,int,int,int,int,boolean,boolean)
+- void access$7700(RealmsMainScreen,Button)
++ void access$7800(RealmsMainScreen,PoseStack,int,int,int,int,boolean,boolean)
++ void access$7900(RealmsMainScreen,Button)
+- void access$7900(RealmsMainScreen,PoseStack,int,int,boolean,int,int,boolean,boolean)
++ void access$8100(RealmsMainScreen,PoseStack,int,int,boolean,int,int,boolean,boolean)
+- void access$8100(RealmsMainScreen,PoseStack,int,int,int,int,boolean)
++ void access$8300(RealmsMainScreen,PoseStack,int,int,int,int,boolean)
+- void access$8600(RealmsMainScreen)
++ void access$8800(RealmsMainScreen)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
+
+```diff
+- RealmsServer access$8700(RealmsMainScreen$ServerEntry)
++ RealmsServer access$8900(RealmsMainScreen$ServerEntry)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupInfoScreen</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsResetWorldScreen</summary>
+
+```diff
++ void access$600(RealmsResetWorldScreen,PoseStack,int,int,Component,ResourceLocation,boolean,boolean)
+- void access$900(RealmsResetWorldScreen,PoseStack,int,int,Component,ResourceLocation,boolean,boolean)
+- void callback(WorldTemplate)
++ void generationSelectionCallback(WorldGenerationInfo)
++ void lambda$generationSelectionCallback$8(WorldGenerationInfo)
+- void lambda$switchSlot$7()
++ void lambda$templateSelectionCallback$7(WorldTemplate)
+- void resetWorld(RealmsResetWorldScreen$ResetWorldInfo)
++ void resetWorld(Runnable)
+- void resetWorld(String,WorldTemplate,int,boolean)
+- void resetWorldWithTemplate(WorldTemplate)
++ void startTask(LongRunningTask)
+- void switchSlot()
++ void templateSelectionCallback(WorldTemplate)
+- void triggerResetWorld(RealmsResetWorldScreen$ResetWorldInfo)
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectWorldTemplateScreen</summary>
+
+```diff
+- boolean keyPressed(int,int,int)
++ void <init>(Consumer,RealmsServer$WorldType,WorldTemplatePaginatedList)
++ void <init>(Consumer,RealmsServer$WorldType)
+- void <init>(RealmsScreenWithCallback,RealmsServer$WorldType,WorldTemplatePaginatedList)
+- void <init>(RealmsScreenWithCallback,RealmsServer$WorldType)
+- void backButtonClicked()
++ void onClose()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.util.task.GetServerDetailsTask</summary>
+
+```diff
++ CompletableFuture scheduleResourcePackDownload(RealmsServerAddress)
++ RealmsLongConfirmationScreen resourcePackDownloadConfirmationScreen(RealmsServerAddress,Function)
++ RealmsLongRunningMcoTaskScreen connectScreen(RealmsServerAddress)
++ RealmsServerAddress fetchServerAddress()
++ void lambda$null$0(Function,RealmsServerAddress)
+- Void lambda$null$0(Throwable)
+- void lambda$null$1(RealmsServerAddress)
++ Void lambda$null$1(Throwable)
++ void lambda$resourcePackDownloadConfirmationScreen$2(RealmsServerAddress,Function,boolean)
+- void lambda$run$2(RealmsServerAddress,boolean)
+- void sleep(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.components.LerpingBossEvent</summary>
+
+```diff
+- float getPercent()
++ float getProgress()
+- void setPercent(float)
++ void setProgress(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ShareToLanScreen</summary>
+
+```diff
+- void lambda$init$0(Button)
++ void lambda$init$0(CycleButton,SelectedGameMode)
+- void lambda$init$1(Button)
++ void lambda$init$1(CycleButton,Boolean)
+- void updateSelectionStrings()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.SkinCustomizationScreen</summary>
+
+```diff
+- Component getMessage(PlayerModelPart)
+- void lambda$init$0(PlayerModelPart,Button)
++ void lambda$init$0(PlayerModelPart,CycleButton,Boolean)
+- void lambda$init$2(Button)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.AbstractCommandBlockEditScreen</summary>
+
+```diff
+- void lambda$init$2(Button)
++ void lambda$init$2(CycleButton,Boolean)
+- void updateCommandOutput()
++ void updatePreviousOutput(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.inventory.CommandBlockEditScreen</summary>
+
+```diff
++ Component lambda$init$0(CommandBlockEntity$Mode)
++ void enableControls(boolean)
+- void lambda$init$0(Button)
+- void lambda$init$1(Button)
++ void lambda$init$1(CycleButton,CommandBlockEntity$Mode)
+- void lambda$init$2(Button)
++ void lambda$init$2(CycleButton,Boolean)
++ void lambda$init$3(CycleButton,Boolean)
+- void nextMode()
+- void updateAutoexec()
+- void updateConditional()
+- void updateMode()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.worldselection.CreateWorldScreen</summary>
+
+```diff
+- boolean access$700(CreateWorldScreen)
+- boolean lambda$copyTempDataPackDirToNewWorld$18(Path)
++ boolean lambda$copyTempDataPackDirToNewWorld$20(Path)
+- boolean lambda$createTempDataPackDirFromExistingWorld$20(Path,Path)
++ boolean lambda$createTempDataPackDirFromExistingWorld$22(Path,Path)
+- boolean lambda$tryApplyNewDataPacks$11(List,String)
++ boolean lambda$tryApplyNewDataPacks$13(List,String)
+- Component access$100()
+- Component access$400(CreateWorldScreen)
+- Component access$500(CreateWorldScreen)
+- CreateWorldScreen$SelectedGameMode access$200(CreateWorldScreen)
+- Difficulty access$600(CreateWorldScreen)
++ Difficulty getEffectiveDifficulty()
++ MutableComponent lambda$init$1(CycleButton)
++ MutableComponent lambda$init$4(CycleButton)
+- Object lambda$tryApplyNewDataPacks$16(DataPackConfig,ServerResources,Throwable)
++ Object lambda$tryApplyNewDataPacks$18(DataPackConfig,ServerResources,Throwable)
+- void lambda$copyTempDataPackDirToNewWorld$19(Path,Path)
++ void lambda$copyTempDataPackDirToNewWorld$21(Path,Path)
+- void lambda$createTempDataPackDirFromExistingWorld$21(MutableObject,Path,Path)
++ void lambda$createTempDataPackDirFromExistingWorld$23(MutableObject,Path,Path)
+- void lambda$init$1(Button)
++ void lambda$init$11(Button)
++ void lambda$init$12(Button)
+- void lambda$init$2(Button)
++ void lambda$init$2(CycleButton,CreateWorldScreen$SelectedGameMode)
+- void lambda$init$3(Button)
++ void lambda$init$3(CycleButton,Difficulty)
+- void lambda$init$4(Button)
++ void lambda$init$5(CycleButton,Boolean)
++ void lambda$init$6(Button)
+- void lambda$init$7(Button)
+- void lambda$init$8(Button)
+- void lambda$null$13(boolean)
+- void lambda$null$14()
++ void lambda$null$15(boolean)
+- void lambda$null$15(DataPackConfig,ServerResources)
++ void lambda$null$16()
++ void lambda$null$17(DataPackConfig,ServerResources)
+- void lambda$null$5(GameRules)
+- void lambda$null$6(Optional)
++ void lambda$null$7(GameRules)
++ void lambda$null$8(Optional)
+- void lambda$removeTempDataPackDir$17(Path)
++ void lambda$removeTempDataPackDir$19(Path)
+- void lambda$tryApplyNewDataPacks$12()
++ void lambda$tryApplyNewDataPacks$14()
++ void refreshWorldGenSettingsVisibility()
+- void setDisplayOptions(boolean)
++ void setWorldGenSettingsVisible(boolean)
+- void toggleDisplayOptions()
++ void toggleWorldGenSettingsVisibility()
+- void updateDisplayOptions()
+```
+
+</details>
 
 
 <details><summary>net.minecraft.data.loot.BlockLoot</summary>
 
 ```diff
-+ LootTable$Builder createSingleItemTable(NumberProvider)
-+ LootTable$Builder createSingleItemTableWithSilkTouch(NumberProvider)
-- LootTable$Builder createSingleItemTable(RandomIntGenerator)
-- LootTable$Builder createSingleItemTableWithSilkTouch(RandomIntGenerator)
++ LootTable$Builder createSingleItemTable(ItemLike,NumberProvider)
+- LootTable$Builder createSingleItemTable(ItemLike,RandomIntGenerator)
++ LootTable$Builder createSingleItemTableWithSilkTouch(Block,ItemLike,NumberProvider)
+- LootTable$Builder createSingleItemTableWithSilkTouch(Block,ItemLike,RandomIntGenerator)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.models.model.TextureMapping</summary>
 
 ```diff
-+ TextureMapping cauldron(ResourceLocation)
 - TextureMapping cauldron(Block)
++ TextureMapping cauldron(ResourceLocation)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.chat.CommonComponents</summary>
 
 ```diff
-+ MutableComponent optionNameValue(Component)
++ MutableComponent optionNameValue(Component,Component)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBossEventPacket$Operation</summary>
-
-```diff
-+ ClientboundBossEventPacket$Operation UPDATE_PROGRESS
-- ClientboundBossEventPacket$Operation UPDATE_PCT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.network.protocol.game.ClientboundMapItemDataPacket</summary>
 
 ```diff
-+ MapItemSavedData$MapPatch colorPatch
-- boolean trackingPosition
-- byte[] mapColors
-- int height
-- int startX
-- int startY
-- int width
 + boolean isLocked()
-+ void <init>(MapItemSavedData$MapPatch)
-- void <init>(Collection,byte[],int,int,int,int)
+- void <init>(int,byte,boolean,boolean,Collection,byte[],int,int,int,int)
++ void <init>(int,byte,boolean,Collection,MapItemSavedData$MapPatch)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.recipebook.ServerPlaceRecipe</summary>
 
 ```diff
-+ void clearGrid(boolean)
 - void clearGrid()
++ void clearGrid(boolean)
 - void moveItemToInventory(int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.RconConsoleSource</summary>
-
-```diff
-+ Component RCON_COMPONENT
-- TextComponent RCON_COMPONENT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
-
-```diff
-+ Tag$Named POWDER_SNOW_WALKABLE_MOBS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.Difficulty</summary>
@@ -5442,51 +2451,21 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSource</summary>
-
-```diff
-+ DamageSource FREEZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ boolean bodyIsInPowderSnow
-+ EntityDataAccessor DATA_TICKS_FROZEN
 + boolean canFreeze()
 + boolean isFullyFrozen()
+- boolean setSlot(int,ItemStack)
 + float getPercentFrozen()
 + int getTicksFrozen()
 + int getTicksRequiredToFreeze()
 + SlotAccess getSlot(int)
 + void setBodyIsInPowderSnow(boolean)
 + void setTicksFrozen(int)
-- boolean setSlot(ItemStack)
 ```
 
 </details>
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
@@ -5498,17 +2477,14 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ UUID SPEED_MODIFIER_POWDER_SNOW_UUID
 + boolean canFreeze()
-+ boolean lambda$createEquipmentSlotAccess$11(ItemStack)
++ boolean lambda$createEquipmentSlotAccess$11(EquipmentSlot,ItemStack)
 + EquipmentSlot getEquipmentSlot(int)
 + EquipmentSlot getEquipmentSlotForItem(ItemStack)
-+ SlotAccess createEquipmentSlotAccess(EquipmentSlot)
++ SlotAccess createEquipmentSlotAccess(LivingEntity,EquipmentSlot)
 + SlotAccess getSlot(int)
 + void removeFrost()
 + void tryAddFrost()
@@ -5516,322 +2492,28 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.Mob</summary>
 
 ```diff
-- boolean isValidSlotForItem(ItemStack)
-- boolean setSlot(ItemStack)
+- boolean isValidSlotForItem(EquipmentSlot,ItemStack)
+- boolean setSlot(int,ItemStack)
 - EquipmentSlot getEquipmentSlotForItem(ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.decoration.ItemFrame$1</summary>
 
 ```diff
-+ ItemFrame this$0
-- int[] $SwitchMap$net$minecraft$core$Direction$Axis
 + boolean set(ItemStack)
 + ItemStack get()
-+ void <init>(ItemFrame)
 - void <clinit>()
++ void <init>(ItemFrame)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.item.Item</summary>
@@ -5843,8 +2525,6 @@
 </details>
 
 
-
-
 <details><summary>net.minecraft.world.item.ItemStack</summary>
 
 ```diff
@@ -5854,69 +2534,15 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.Mirror</summary>
 
 ```diff
-+ Component symbol
 + Component symbol()
-+ void <init>(OctahedralGroup)
-- void <init>(OctahedralGroup)
++ void <init>(String,int,Component,OctahedralGroup)
+- void <init>(String,int,OctahedralGroup)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity$JointType</summary>
@@ -5928,12 +2554,6 @@
 </details>
 
 
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.material.LavaFluid</summary>
 
 ```diff
@@ -5943,136 +2563,42 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
 
 ```diff
-+ NumberProvider bonusRolls
-+ NumberProvider rolls
-- RandomIntGenerator rolls
-- RandomValueBounds bonusRolls
+- LootPoolEntryContainer[] access$200(LootPool)
 + LootPoolEntryContainer[] access$300(LootPool)
 + NumberProvider access$100(LootPool)
 + NumberProvider access$200(LootPool)
-+ void <init>(LootPool$1)
-+ void <init>(NumberProvider)
-- LootPoolEntryContainer[] access$200(LootPool)
 - RandomIntGenerator access$100(LootPool)
 - RandomValueBounds access$300(LootPool)
-- void <init>(LootPool$1)
-- void <init>(RandomValueBounds)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider,LootPool$1)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds,LootPool$1)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds)
 ```
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
 
 ```diff
-+ NumberProvider bonusRolls
-+ NumberProvider rolls
-- RandomIntGenerator rolls
-- RandomValueBounds bonusRolls
 + LootPool$Builder setBonusRolls(NumberProvider)
-+ LootPool$Builder setRolls(NumberProvider)
 - LootPool$Builder setBonusRolls(RandomValueBounds)
++ LootPool$Builder setRolls(NumberProvider)
 - LootPool$Builder setRolls(RandomIntGenerator)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.recipebook.package-info
@@ -8011,13 +4537,453 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder createSingleItemTable(ItemLike,NumberProvider)
+- LootTable$Builder createSingleItemTable(ItemLike,RandomIntGenerator)
++ LootTable$Builder createSingleItemTableWithSilkTouch(Block,ItemLike,NumberProvider)
+- LootTable$Builder createSingleItemTableWithSilkTouch(Block,ItemLike,RandomIntGenerator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
+
+```diff
+- TextureMapping cauldron(Block)
++ TextureMapping cauldron(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.CommonComponents</summary>
+
+```diff
++ MutableComponent optionNameValue(Component,Component)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundMapItemDataPacket</summary>
+
+```diff
++ boolean isLocked()
+- void <init>(int,byte,boolean,boolean,Collection,byte[],int,int,int,int)
++ void <init>(int,byte,boolean,Collection,MapItemSavedData$MapPatch)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.recipebook.ServerPlaceRecipe</summary>
+
+```diff
+- void clearGrid()
++ void clearGrid(boolean)
+- void moveItemToInventory(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.Difficulty</summary>
+
+```diff
+- Difficulty nextById()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean canFreeze()
++ boolean isFullyFrozen()
+- boolean setSlot(int,ItemStack)
++ float getPercentFrozen()
++ int getTicksFrozen()
++ int getTicksRequiredToFreeze()
++ SlotAccess getSlot(int)
++ void setBodyIsInPowderSnow(boolean)
++ void setTicksFrozen(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.EquipmentSlot</summary>
+
+```diff
++ int getIndex(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
+
+```diff
++ boolean canFreeze()
++ boolean lambda$createEquipmentSlotAccess$11(EquipmentSlot,ItemStack)
++ EquipmentSlot getEquipmentSlot(int)
++ EquipmentSlot getEquipmentSlotForItem(ItemStack)
++ SlotAccess createEquipmentSlotAccess(LivingEntity,EquipmentSlot)
++ SlotAccess getSlot(int)
++ void removeFrost()
++ void tryAddFrost()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Mob</summary>
+
+```diff
+- boolean isValidSlotForItem(EquipmentSlot,ItemStack)
+- boolean setSlot(int,ItemStack)
+- EquipmentSlot getEquipmentSlotForItem(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame$1</summary>
+
+```diff
++ boolean set(ItemStack)
++ ItemStack get()
+- void <clinit>()
++ void <init>(ItemFrame)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.Item</summary>
+
+```diff
++ Optional getTooltipImage(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.ItemStack</summary>
+
+```diff
++ Optional getTooltipImage()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Mirror</summary>
+
+```diff
++ Component symbol()
++ void <init>(String,int,Component,OctahedralGroup)
+- void <init>(String,int,OctahedralGroup)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity$JointType</summary>
+
+```diff
++ Component getTranslatedName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.LavaFluid</summary>
+
+```diff
++ Optional getPickupSound()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool</summary>
+
+```diff
+- LootPoolEntryContainer[] access$200(LootPool)
++ LootPoolEntryContainer[] access$300(LootPool)
++ NumberProvider access$100(LootPool)
++ NumberProvider access$200(LootPool)
+- RandomIntGenerator access$100(LootPool)
+- RandomValueBounds access$300(LootPool)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider,LootPool$1)
++ void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],NumberProvider,NumberProvider)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds,LootPool$1)
+- void <init>(LootPoolEntryContainer[],LootItemCondition[],LootItemFunction[],RandomIntGenerator,RandomValueBounds)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.LootPool$Builder</summary>
+
+```diff
++ LootPool$Builder setBonusRolls(NumberProvider)
+- LootPool$Builder setBonusRolls(RandomValueBounds)
++ LootPool$Builder setRolls(NumberProvider)
+- LootPool$Builder setRolls(RandomIntGenerator)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/blocks/powder_snow_cauldron.json
++ minecraft/loot_tables/blocks/powder_snow.json
++ minecraft/tags/blocks/snow_step_sound_blocks.json
++ minecraft/tags/entity_types/powder_snow_walkable_mobs.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/powder_snow_cauldron.json
++ minecraft/blockstates/powder_snow.json
++ minecraft/models/block/powder_snow_cauldron_full.json
++ minecraft/models/block/powder_snow_cauldron_level1.json
++ minecraft/models/block/powder_snow_cauldron_level2.json
++ minecraft/models/block/powder_snow.json
++ minecraft/models/block/template_cauldron_level1.json
++ minecraft/models/block/template_cauldron_level2.json
++ minecraft/models/block/water_cauldron_full.json
+- minecraft/models/block/water_cauldron.json
++ minecraft/models/item/powder_snow_bucket.json
+- minecraft/models/item/spyglass_in_use.json
++ minecraft/models/item/spyglass_scoping.json
++ minecraft/particles/snowflake.json
++ minecraft/textures/block/powder_snow.png
++ minecraft/textures/item/powder_snow_bucket.png
++ minecraft/textures/misc/powder_snow_outline.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ loot_nbt_provider_type.txt
++ loot_number_provider_type.txt
++ loot_score_provider_type.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:powder_snow
++ minecraft:powder_snow_cauldron
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:powder_snow_bucket
+```
+
+</details>
+
+
+<details><summary>loot_condition_type.txt</summary>
+
+```diff
++ minecraft:value_check
+```
+
+</details>
+
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
++ minecraft:set_enchantments
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:snowflake
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.powder_snow.break
++ minecraft:block.powder_snow.fall
++ minecraft:block.powder_snow.hit
++ minecraft:block.powder_snow.place
++ minecraft:block.powder_snow.step
++ minecraft:entity.player.hurt_freeze
++ minecraft:item.bucket.empty_powder_snow
++ minecraft:item.bucket.fill_powder_snow
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ item.txt
+- replaceitem.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/snow_step_sound_blocks.json
++ entity_types/powder_snow_walkable_mobs.json
+```
+
+</details>
+
+
+<details><summary>blocks/cauldrons.json</summary>
+
+```diff
++ minecraft:powder_snow_cauldron
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advMode.mode
++ advMode.trackOutput
++ advMode.triggering
++ advMode.type
++ block.minecraft.banner.base.black
++ block.minecraft.banner.base.blue
++ block.minecraft.banner.base.brown
++ block.minecraft.banner.base.cyan
++ block.minecraft.banner.base.gray
++ block.minecraft.banner.base.green
++ block.minecraft.banner.base.light_blue
++ block.minecraft.banner.base.light_gray
++ block.minecraft.banner.base.lime
++ block.minecraft.banner.base.magenta
++ block.minecraft.banner.base.orange
++ block.minecraft.banner.base.pink
++ block.minecraft.banner.base.purple
++ block.minecraft.banner.base.red
++ block.minecraft.banner.base.white
++ block.minecraft.banner.base.yellow
++ block.minecraft.powder_snow
++ block.minecraft.powder_snow_cauldron
++ commands.item.block.set.success
++ commands.item.entity.set.success.multiple
++ commands.item.entity.set.success.single
++ commands.item.source.no_such_slot
++ commands.item.source.not_a_container
++ commands.item.target.no_changed.known_item
++ commands.item.target.no_changes
++ commands.item.target.no_such_slot
++ commands.item.target.not_a_container
+- commands.replaceitem.block.failed
+- commands.replaceitem.block.success
+- commands.replaceitem.entity.failed
+- commands.replaceitem.entity.success.multiple
+- commands.replaceitem.entity.success.single
+- commands.replaceitem.slot.inapplicable
++ death.attack.freeze
++ death.attack.freeze.player
++ item_modifier.unknown
++ item.minecraft.powder_snow_bucket
++ mirror.front_back
++ mirror.left_right
++ mirror.none
+- options.fovEffectScale.off
+- options.screenEffectScale.off
+- options.vbo
++ subtitles.entity.player.freeze_hurt
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/powder_snow_cauldron.json
++ blocks/powder_snow.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ snowflake.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/snow_step_sound_blocks.json
++ entity_types/powder_snow_walkable_mobs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/powder_snow.png
++ item/powder_snow_bucket.png
++ misc/powder_snow_outline.png
+```
+
+</details>

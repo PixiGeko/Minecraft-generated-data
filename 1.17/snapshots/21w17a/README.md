@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w17a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w17a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-04-28T13:54:05+00:00</td></tr>
@@ -10,2986 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/993c616af95fb18c76524dbb190fcd425b60fc48/server.txt">https://piston-data.mojang.com/v1/objects/993c616af95fb18c76524dbb190fcd425b60fc48/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/6f0597c8dfef133d59cdce2c629a37f0e259512b/client.jar">https://piston-data.mojang.com/v1/objects/6f0597c8dfef133d59cdce2c629a37f0e259512b/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/ef21afb3f08a213441012c16455210cd35e52a2a/client.txt">https://piston-data.mojang.com/v1/objects/ef21afb3f08a213441012c16455210cd35e52a2a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w16a">21w16a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/misc/copper_ingot.json
--  minecraft/advancements/recipes/misc/copper_ingot_from_copper_block.json
-+  minecraft/recipes/copper_ingot.json
--  minecraft/recipes/copper_ingot_from_copper_block.json
-+  minecraft/tags/blocks/small_dripleaf_placeable.json
-```
+### Client
 
-</details>
 
-## Commands
 
-<details><summary>worldborder.txt</summary>
 
-```diff
-- worldborder add <distance: float> <time: integer>
-- worldborder set <distance: float> <time: integer>
-+ worldborder add <distance: double> <time: integer>
-+ worldborder set <distance: double> <time: integer>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/small_dripleaf_placeable.json
-```
-
-</details>
-
-<details><summary>entity_types/freeze_immune_entity_types.json</summary>
-
-```diff
-+ minecraft:wither
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-- recipes/misc/copper_ingot_from_copper_block.json
-+ recipes/misc/copper_ingot.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-- copper_ingot_from_copper_block.json
-+ copper_ingot.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/small_dripleaf_placeable.json
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:authlib:2.1.28
-+ com.mojang:authlib:2.1.29
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_DISABLE_NOODLE_CAVES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Minecraft</summary>
-
-```diff
-+ CompletionStage lambda$delayTextureReload$38(CompletableFuture)
-+ PackResources lambda$adaptV3$42(Supplier)
-+ PackResources lambda$adaptV4$43(Supplier)
-+ String lambda$fillReport$35()
-+ String lambda$fillReport$36(Options)
-+ String lambda$fillReport$37(LanguageManager)
-+ Style lambda$grabHugeScreenshot$41(Style)
-+ Style lambda$grabPanoramixScreenshot$40(Style)
-+ void lambda$grabPanoramixScreenshot$39(Component)
-- CompletionStage lambda$delayTextureReload$37(CompletableFuture)
-- PackResources lambda$adaptV3$41(Supplier)
-- PackResources lambda$adaptV4$42(Supplier)
-- String lambda$fillReport$35(Options)
-- String lambda$fillReport$36(LanguageManager)
-- Style lambda$grabHugeScreenshot$40(Style)
-- Style lambda$grabPanoramixScreenshot$39(Style)
-- void lambda$grabPanoramixScreenshot$38(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
-+ void handleRemoveEntity(ClientboundRemoveEntityPacket)
-+ void lambda$downloadCallback$7()
-+ Void lambda$downloadCallback$8(Throwable)
-+ void lambda$handleAddOrRemoveRecipes$3(Recipe)
-+ void lambda$handleAddOrRemoveRecipes$4(RecipeCollection)
-+ void lambda$handleChunkBlocksUpdate$0(BlockState)
-+ void lambda$handleGameEvent$2()
-+ void lambda$handlePlaceRecipe$11(Recipe)
-+ void lambda$handleResourcePack$6(ClientboundResourcePackPacket)
-+ void lambda$handleSetEquipment$1(Pair)
-+ void lambda$handleSetPlayerTeamPacket$10(ClientboundSetPlayerTeamPacket$Parameters)
-+ void lambda$null$5(String,boolean,boolean)
-- IllegalArgumentException lambda$handleCustomPayload$10(ResourceLocation)
-- void handleRemoveEntity(ClientboundRemoveEntitiesPacket)
-- void lambda$downloadCallback$8()
-- Void lambda$downloadCallback$9(Throwable)
-- void lambda$handleAddOrRemoveRecipes$4(Recipe)
-- void lambda$handleAddOrRemoveRecipes$5(RecipeCollection)
-- void lambda$handleChunkBlocksUpdate$1(BlockState)
-- void lambda$handleGameEvent$3()
-- void lambda$handlePlaceRecipe$12(Recipe)
-- void lambda$handleRemoveEntity$0(int)
-- void lambda$handleResourcePack$7(ClientboundResourcePackPacket)
-- void lambda$handleSetEquipment$2(Pair)
-- void lambda$handleSetPlayerTeamPacket$11(ClientboundSetPlayerTeamPacket$Parameters)
-- void lambda$null$6(String,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
-
-```diff
-+ boolean lambda$pick$56(Entity)
-+ String lambda$render$57()
-+ String lambda$render$58()
-+ String lambda$render$59(int,int)
-+ String lambda$render$60()
-+ void lambda$reloadShaders$0(ShaderInstance)
-+ void lambda$reloadShaders$1(ShaderInstance)
-+ void lambda$reloadShaders$10(ShaderInstance)
-+ void lambda$reloadShaders$11(ShaderInstance)
-+ void lambda$reloadShaders$12(ShaderInstance)
-+ void lambda$reloadShaders$13(ShaderInstance)
-+ void lambda$reloadShaders$14(ShaderInstance)
-+ void lambda$reloadShaders$15(ShaderInstance)
-+ void lambda$reloadShaders$16(ShaderInstance)
-+ void lambda$reloadShaders$17(ShaderInstance)
-+ void lambda$reloadShaders$18(ShaderInstance)
-+ void lambda$reloadShaders$19(ShaderInstance)
-+ void lambda$reloadShaders$2(ShaderInstance)
-+ void lambda$reloadShaders$20(ShaderInstance)
-+ void lambda$reloadShaders$21(ShaderInstance)
-+ void lambda$reloadShaders$22(ShaderInstance)
-+ void lambda$reloadShaders$23(ShaderInstance)
-+ void lambda$reloadShaders$24(ShaderInstance)
-+ void lambda$reloadShaders$25(ShaderInstance)
-+ void lambda$reloadShaders$26(ShaderInstance)
-+ void lambda$reloadShaders$27(ShaderInstance)
-+ void lambda$reloadShaders$28(ShaderInstance)
-+ void lambda$reloadShaders$29(ShaderInstance)
-+ void lambda$reloadShaders$3(ShaderInstance)
-+ void lambda$reloadShaders$30(ShaderInstance)
-+ void lambda$reloadShaders$31(ShaderInstance)
-+ void lambda$reloadShaders$32(ShaderInstance)
-+ void lambda$reloadShaders$33(ShaderInstance)
-+ void lambda$reloadShaders$34(ShaderInstance)
-+ void lambda$reloadShaders$35(ShaderInstance)
-+ void lambda$reloadShaders$36(ShaderInstance)
-+ void lambda$reloadShaders$37(ShaderInstance)
-+ void lambda$reloadShaders$38(ShaderInstance)
-+ void lambda$reloadShaders$39(ShaderInstance)
-+ void lambda$reloadShaders$4(ShaderInstance)
-+ void lambda$reloadShaders$40(ShaderInstance)
-+ void lambda$reloadShaders$41(ShaderInstance)
-+ void lambda$reloadShaders$42(ShaderInstance)
-+ void lambda$reloadShaders$43(ShaderInstance)
-+ void lambda$reloadShaders$44(ShaderInstance)
-+ void lambda$reloadShaders$45(ShaderInstance)
-+ void lambda$reloadShaders$46(ShaderInstance)
-+ void lambda$reloadShaders$47(ShaderInstance)
-+ void lambda$reloadShaders$48(ShaderInstance)
-+ void lambda$reloadShaders$49(ShaderInstance)
-+ void lambda$reloadShaders$5(ShaderInstance)
-+ void lambda$reloadShaders$50(ShaderInstance)
-+ void lambda$reloadShaders$51(ShaderInstance)
-+ void lambda$reloadShaders$52(ShaderInstance)
-+ void lambda$reloadShaders$53(ShaderInstance)
-+ void lambda$reloadShaders$54(Pair)
-+ void lambda$reloadShaders$55(Pair)
-+ void lambda$reloadShaders$6(ShaderInstance)
-+ void lambda$reloadShaders$7(ShaderInstance)
-+ void lambda$reloadShaders$8(ShaderInstance)
-+ void lambda$reloadShaders$9(ShaderInstance)
-+ void lambda$takeAutoScreenshot$61(NativeImage)
-- boolean lambda$pick$0(Entity)
-- String lambda$render$1()
-- String lambda$render$2()
-- String lambda$render$3(int,int)
-- String lambda$render$4()
-- void lambda$takeAutoScreenshot$5(NativeImage)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BlockFamilies</summary>
-
-```diff
-+ BlockFamily COPPER_BLOCK
-+ BlockFamily EXPOSED_COPPER
-+ BlockFamily OXIDIZED_COPPER
-+ BlockFamily WAXED_COPPER_BLOCK
-+ BlockFamily WAXED_EXPOSED_COPPER
-+ BlockFamily WAXED_OXIDIZED_COPPER
-+ BlockFamily WAXED_WEATHERED_COPPER
-+ BlockFamily WEATHERED_COPPER
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.BlockFamily$Variant</summary>
-
-```diff
-+ BlockFamily$Variant CUT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
-
-```diff
-- IntList entitiesToRemove
-- void cancelRemoveEntity(Entity)
-- void sendRemoveEntity(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named SMALL_DRIPLEAF_PLACEABLE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ float getXRot()
-+ float getYRot()
-+ void setXRot(float)
-+ void setYRot(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BedBlock</summary>
-
-```diff
-+ void fallOn(Entity,float)
-- void fallOn(Entity,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ void fallOn(Entity,float)
-+ void stepOn(Entity)
-- void fallOn(Entity,float)
-- void stepOn(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ boolean lambda$static$54(BlockPos)
-+ int lambda$static$50(BlockState)
-+ int lambda$static$51(BlockState)
-+ int lambda$static$52(BlockState)
-+ int lambda$static$53(BlockState)
-- boolean lambda$static$50(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.FarmBlock</summary>
-
-```diff
-+ void fallOn(Entity,float)
-- void fallOn(Entity,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HayBlock</summary>
-
-```diff
-+ void fallOn(Entity,float)
-- void fallOn(Entity,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.MagmaBlock</summary>
-
-```diff
-+ void stepOn(Entity)
-- void stepOn(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.border.WorldBorder</summary>
-
-```diff
-+ double MAX_SIZE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Cavifier</summary>
-
-```diff
-+ double modifyNoise(double,int,int,int)
-- double cavify(int,int,int,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
-
-```diff
-+ NoiseModifier caveNoiseModifier
-- Cavifier cavifier
-+ void <init>(NoiseModifier)
-- double cavify(int,int,int,double)
-- void <init>(Cavifier)
-```
-
-</details>
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.blaze3d.platform.GlDebug$1
@@ -4002,1944 +1044,257 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
+<details><summary>net.minecraft.client.Minecraft</summary>
 
 ```diff
-+ boolean lambda$createRotationPredicate$13(Entity)
-+ boolean lambda$finalizePredicates$12(Entity)
-- boolean lambda$createRotationPredicate$15(Entity)
-- boolean lambda$finalizePredicates$14(Entity)
-- double lambda$finalizePredicates$12(Entity)
-- double lambda$finalizePredicates$13(Entity)
+- CompletionStage lambda$delayTextureReload$37(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$38(CompletableFuture)
+- PackResources lambda$adaptV3$41(Supplier)
++ PackResources lambda$adaptV3$42(Supplier)
+- PackResources lambda$adaptV4$42(Supplier)
++ PackResources lambda$adaptV4$43(Supplier)
++ String lambda$fillReport$35()
+- String lambda$fillReport$35(Options)
+- String lambda$fillReport$36(LanguageManager)
++ String lambda$fillReport$36(Options)
++ String lambda$fillReport$37(LanguageManager)
+- Style lambda$grabHugeScreenshot$40(File,Style)
++ Style lambda$grabHugeScreenshot$41(File,Style)
+- Style lambda$grabPanoramixScreenshot$39(File,Style)
++ Style lambda$grabPanoramixScreenshot$40(File,Style)
+- void lambda$grabPanoramixScreenshot$38(Component)
++ void lambda$grabPanoramixScreenshot$39(Component)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
 ```diff
-+ Logger LOGGER
-+ void <clinit>()
+- IllegalArgumentException lambda$handleCustomPayload$10(ResourceLocation)
++ IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
+- void handleRemoveEntity(ClientboundRemoveEntitiesPacket)
++ void handleRemoveEntity(ClientboundRemoveEntityPacket)
++ void lambda$downloadCallback$7()
+- void lambda$downloadCallback$8()
++ Void lambda$downloadCallback$8(Throwable)
+- Void lambda$downloadCallback$9(Throwable)
++ void lambda$handleAddOrRemoveRecipes$3(ClientRecipeBook,Recipe)
+- void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,Recipe)
++ void lambda$handleAddOrRemoveRecipes$4(ClientRecipeBook,RecipeCollection)
+- void lambda$handleAddOrRemoveRecipes$5(ClientRecipeBook,RecipeCollection)
++ void lambda$handleChunkBlocksUpdate$0(int,BlockPos,BlockState)
+- void lambda$handleChunkBlocksUpdate$1(int,BlockPos,BlockState)
++ void lambda$handleGameEvent$2()
+- void lambda$handleGameEvent$3()
++ void lambda$handlePlaceRecipe$11(AbstractContainerMenu,Recipe)
+- void lambda$handlePlaceRecipe$12(AbstractContainerMenu,Recipe)
+- void lambda$handleRemoveEntity$0(int)
++ void lambda$handleResourcePack$6(String,String,boolean,ClientboundResourcePackPacket)
+- void lambda$handleResourcePack$7(String,String,boolean,ClientboundResourcePackPacket)
++ void lambda$handleSetEquipment$1(Entity,Pair)
+- void lambda$handleSetEquipment$2(Entity,Pair)
++ void lambda$handleSetPlayerTeamPacket$10(PlayerTeam,ClientboundSetPlayerTeamPacket$Parameters)
+- void lambda$handleSetPlayerTeamPacket$11(PlayerTeam,ClientboundSetPlayerTeamPacket$Parameters)
++ void lambda$null$5(String,String,boolean,boolean)
+- void lambda$null$6(String,String,boolean,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BlockFamily$Builder</summary>
+<details><summary>net.minecraft.client.renderer.GameRenderer</summary>
 
 ```diff
-+ BlockFamily$Builder cut(Block)
+- boolean lambda$pick$0(Entity)
++ boolean lambda$pick$56(Entity)
+- String lambda$render$1()
+- String lambda$render$2()
+- String lambda$render$3(int,int)
+- String lambda$render$4()
++ String lambda$render$57()
++ String lambda$render$58()
++ String lambda$render$59(int,int)
++ String lambda$render$60()
++ void lambda$reloadShaders$0(ShaderInstance)
++ void lambda$reloadShaders$1(ShaderInstance)
++ void lambda$reloadShaders$10(ShaderInstance)
++ void lambda$reloadShaders$11(ShaderInstance)
++ void lambda$reloadShaders$12(ShaderInstance)
++ void lambda$reloadShaders$13(ShaderInstance)
++ void lambda$reloadShaders$14(ShaderInstance)
++ void lambda$reloadShaders$15(ShaderInstance)
++ void lambda$reloadShaders$16(ShaderInstance)
++ void lambda$reloadShaders$17(ShaderInstance)
++ void lambda$reloadShaders$18(ShaderInstance)
++ void lambda$reloadShaders$19(ShaderInstance)
++ void lambda$reloadShaders$2(ShaderInstance)
++ void lambda$reloadShaders$20(ShaderInstance)
++ void lambda$reloadShaders$21(ShaderInstance)
++ void lambda$reloadShaders$22(ShaderInstance)
++ void lambda$reloadShaders$23(ShaderInstance)
++ void lambda$reloadShaders$24(ShaderInstance)
++ void lambda$reloadShaders$25(ShaderInstance)
++ void lambda$reloadShaders$26(ShaderInstance)
++ void lambda$reloadShaders$27(ShaderInstance)
++ void lambda$reloadShaders$28(ShaderInstance)
++ void lambda$reloadShaders$29(ShaderInstance)
++ void lambda$reloadShaders$3(ShaderInstance)
++ void lambda$reloadShaders$30(ShaderInstance)
++ void lambda$reloadShaders$31(ShaderInstance)
++ void lambda$reloadShaders$32(ShaderInstance)
++ void lambda$reloadShaders$33(ShaderInstance)
++ void lambda$reloadShaders$34(ShaderInstance)
++ void lambda$reloadShaders$35(ShaderInstance)
++ void lambda$reloadShaders$36(ShaderInstance)
++ void lambda$reloadShaders$37(ShaderInstance)
++ void lambda$reloadShaders$38(ShaderInstance)
++ void lambda$reloadShaders$39(ShaderInstance)
++ void lambda$reloadShaders$4(ShaderInstance)
++ void lambda$reloadShaders$40(ShaderInstance)
++ void lambda$reloadShaders$41(ShaderInstance)
++ void lambda$reloadShaders$42(ShaderInstance)
++ void lambda$reloadShaders$43(ShaderInstance)
++ void lambda$reloadShaders$44(ShaderInstance)
++ void lambda$reloadShaders$45(ShaderInstance)
++ void lambda$reloadShaders$46(ShaderInstance)
++ void lambda$reloadShaders$47(ShaderInstance)
++ void lambda$reloadShaders$48(ShaderInstance)
++ void lambda$reloadShaders$49(ShaderInstance)
++ void lambda$reloadShaders$5(ShaderInstance)
++ void lambda$reloadShaders$50(ShaderInstance)
++ void lambda$reloadShaders$51(ShaderInstance)
++ void lambda$reloadShaders$52(ShaderInstance)
++ void lambda$reloadShaders$53(ShaderInstance)
++ void lambda$reloadShaders$54(Pair)
++ void lambda$reloadShaders$55(Pair)
++ void lambda$reloadShaders$6(ShaderInstance)
++ void lambda$reloadShaders$7(ShaderInstance)
++ void lambda$reloadShaders$8(ShaderInstance)
++ void lambda$reloadShaders$9(ShaderInstance)
+- void lambda$takeAutoScreenshot$5(NativeImage)
++ void lambda$takeAutoScreenshot$61(NativeImage)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
 
 ```diff
-+ LootTable$Builder createCopperOreDrops(Block)
-+ LootTable$Builder lambda$dropPottedContents$82(Block)
-- LootTable$Builder lambda$accept$82(Block)
-- LootTable$Builder lambda$accept$83(Block)
-- LootTable$Builder lambda$dropPottedContents$84(Block)
+- void cancelRemoveEntity(Entity)
+- void sendRemoveEntity(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ RecipeBuilder lambda$static$18(ItemLike)
-+ ShapedRecipeBuilder cutBuilder(Ingredient)
-+ void oreBlasting(String)
-+ void oreCooking(String)
-+ void oreSmelting(String)
-- void oreBlasting(ItemLike,float,int)
-- void oreCooking(String)
-- void oreSmelting(ItemLike,float,int)
++ float getXRot()
++ float getYRot()
++ void setXRot(float)
++ void setYRot(float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
+<details><summary>net.minecraft.world.level.block.BedBlock</summary>
 
 ```diff
-+ void handleRemoveEntity(net.minecraft.network.protocol.game.ClientboundRemoveEntityPacket)
-- void handleRemoveEntity(net.minecraft.network.protocol.game.ClientboundRemoveEntitiesPacket)
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AmethystClusterBlock</summary>
+<details><summary>net.minecraft.world.level.block.Block</summary>
 
 ```diff
-- BooleanProperty LIT
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HangingRootsBlock</summary>
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
 
 ```diff
-+ BooleanProperty WATERLOGGED
-+ BlockState getStateForPlacement(BlockPlaceContext)
-+ FluidState getFluidState(BlockState)
-+ void createBlockStateDefinition(StateDefinition$Builder)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.HoneyBlock</summary>
-
-```diff
-+ void fallOn(Entity,float)
-- void fallOn(Entity,float)
+- boolean lambda$static$50(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$54(BlockState,BlockGetter,BlockPos)
++ int lambda$static$50(BlockState)
++ int lambda$static$51(BlockState)
++ int lambda$static$52(BlockState)
++ int lambda$static$53(BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+<details><summary>net.minecraft.world.level.block.FarmBlock</summary>
 
 ```diff
-+ void fallOn(Entity,float)
-- void fallOn(Entity,float)
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
+<details><summary>net.minecraft.world.level.block.HayBlock</summary>
 
 ```diff
-+ void stepOn(Entity)
-- void stepOn(Entity)
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SlimeBlock</summary>
+<details><summary>net.minecraft.world.level.block.MagmaBlock</summary>
 
 ```diff
-+ void fallOn(Entity,float)
-+ void stepOn(Entity)
-- void fallOn(Entity,float)
-- void stepOn(Entity)
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StairBlock</summary>
+<details><summary>net.minecraft.world.level.levelgen.Cavifier</summary>
 
 ```diff
-+ void stepOn(Entity)
-- void stepOn(Entity)
+- double cavify(int,int,int,double)
++ double modifyNoise(double,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
+<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
 
 ```diff
-+ void destroyEgg(Entity,int)
-+ void fallOn(Entity,float)
-+ void stepOn(Entity)
-- void destroyEgg(Entity,int)
-- void fallOn(Entity,float)
-- void stepOn(Entity)
+- double cavify(int,int,int,double)
+- void <init>(BiomeSource,int,int,int,NoiseSettings,BlendedNoise,SimplexNoise,PerlinNoise,Cavifier)
++ void <init>(BiomeSource,int,int,int,NoiseSettings,BlendedNoise,SimplexNoise,PerlinNoise,NoiseModifier)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-+ NoodleCavifier noodleCavifier
-+ BaseStoneSource lambda$createBaseStoneSource$11(double)
-+ BaseStoneSource lambda$createBaseStoneSource$13(BaseStoneSource,double)
-+ BlockState lambda$createBaseStoneSource$12(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
-+ BlockState updateNoiseAndGenerateBaseState(NoiseModifier,int,int,int,double)
-+ DoubleFunction createBaseStoneSource(Consumer)
-+ DoubleFunction createCaveNoiseModifier(Consumer)
-+ NoiseModifier lambda$createCaveNoiseModifier$10(double)
-+ NoodleCavifier access$400(NoiseBasedChunkGenerator)
-- BlockState lambda$createBaseStoneSource$11(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
-- BlockState updateNoiseAndGenerateBaseState(BaseStoneSource,int,int,int,double)
-- Pair createBaseStoneSource(Consumer)
-- void lambda$createBaseStoneSource$10(double)
-```
-
-</details>
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.world.level.levelgen.carver.CanyonCarverConfiguration
@@ -6947,13 +2302,268 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.commands.arguments.selector.EntitySelectorParser</summary>
+
+```diff
++ boolean lambda$createRotationPredicate$13(ToDoubleFunction,double,double,Entity)
+- boolean lambda$createRotationPredicate$15(ToDoubleFunction,double,double,Entity)
++ boolean lambda$finalizePredicates$12(Entity)
+- boolean lambda$finalizePredicates$14(Entity)
+- double lambda$finalizePredicates$12(Entity)
+- double lambda$finalizePredicates$13(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.dispenser.ShulkerBoxDispenseBehavior</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.BlockFamily$Builder</summary>
+
+```diff
++ BlockFamily$Builder cut(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder createCopperOreDrops(Block)
+- LootTable$Builder lambda$accept$82(Block)
+- LootTable$Builder lambda$accept$83(Block)
++ LootTable$Builder lambda$dropPottedContents$82(Block)
+- LootTable$Builder lambda$dropPottedContents$84(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
+
+```diff
++ RecipeBuilder lambda$static$18(ItemLike,ItemLike)
++ ShapedRecipeBuilder cutBuilder(ItemLike,Ingredient)
++ void oreBlasting(Consumer,List,ItemLike,float,int,String)
+- void oreBlasting(Consumer,List,ItemLike,float,int)
++ void oreCooking(Consumer,SimpleCookingSerializer,List,ItemLike,float,int,String,String)
+- void oreCooking(Consumer,SimpleCookingSerializer,List,ItemLike,float,int,String)
++ void oreSmelting(Consumer,List,ItemLike,float,int,String)
+- void oreSmelting(Consumer,List,ItemLike,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HangingRootsBlock</summary>
+
+```diff
++ BlockState getStateForPlacement(BlockPlaceContext)
++ FluidState getFluidState(BlockState)
++ void createBlockStateDefinition(StateDefinition$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HoneyBlock</summary>
+
+```diff
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+
+```diff
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RedStoneOreBlock</summary>
+
+```diff
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SlimeBlock</summary>
+
+```diff
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.StairBlock</summary>
+
+```diff
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TurtleEggBlock</summary>
+
+```diff
+- void destroyEgg(Level,BlockPos,Entity,int)
++ void destroyEgg(Level,BlockState,BlockPos,Entity,int)
+- void fallOn(Level,BlockPos,Entity,float)
++ void fallOn(Level,BlockState,BlockPos,Entity,float)
++ void stepOn(Level,BlockPos,BlockState,Entity)
+- void stepOn(Level,BlockPos,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
++ BaseStoneSource lambda$createBaseStoneSource$11(double)
++ BaseStoneSource lambda$createBaseStoneSource$13(NoiseBasedChunkGenerator$OreVeinNoiseSource,BaseStoneSource,double)
+- BlockState lambda$createBaseStoneSource$11(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
++ BlockState lambda$createBaseStoneSource$12(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
+- BlockState updateNoiseAndGenerateBaseState(Beardifier,Aquifer,BaseStoneSource,int,int,int,double)
++ BlockState updateNoiseAndGenerateBaseState(Beardifier,Aquifer,BaseStoneSource,NoiseModifier,int,int,int,double)
++ DoubleFunction createBaseStoneSource(int,ChunkPos,Consumer)
++ DoubleFunction createCaveNoiseModifier(int,ChunkPos,Consumer)
++ NoiseModifier lambda$createCaveNoiseModifier$10(double)
++ NoodleCavifier access$400(NoiseBasedChunkGenerator)
+- Pair createBaseStoneSource(int,ChunkPos,Consumer)
+- void lambda$createBaseStoneSource$10(double)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
+- minecraft/advancements/recipes/misc/copper_ingot_from_copper_block.json
++ minecraft/advancements/recipes/misc/copper_ingot.json
+- minecraft/recipes/copper_ingot_from_copper_block.json
++ minecraft/recipes/copper_ingot.json
++ minecraft/tags/blocks/small_dripleaf_placeable.json
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>worldborder.txt</summary>
+
+```diff
++ worldborder add <distance: double> <time: integer>
+- worldborder add <distance: float> <time: integer>
++ worldborder set <distance: double> <time: integer>
+- worldborder set <distance: float> <time: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/small_dripleaf_placeable.json
+```
+
+</details>
+
+
+<details><summary>entity_types/freeze_immune_entity_types.json</summary>
+
+```diff
++ minecraft:wither
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.worldborder.set.failed.big
+- commands.worldborder.set.failed.big.
++ commands.worldborder.set.failed.small
+- commands.worldborder.set.failed.small.
++ multiplayer.disconnect.invalid_packet
++ multiplayer.disconnect.invalid_player_data
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
+- recipes/misc/copper_ingot_from_copper_block.json
++ recipes/misc/copper_ingot.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
+- copper_ingot_from_copper_block.json
++ copper_ingot.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/small_dripleaf_placeable.json
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:authlib:2.1.28
++ com.mojang:authlib:2.1.29
+```
+
+</details>

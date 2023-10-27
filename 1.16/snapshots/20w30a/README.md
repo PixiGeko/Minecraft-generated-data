@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w30a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w30a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-07-22T15:05:15+00:00</td></tr>
@@ -10,1783 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6cf94216ade9636c69a278a8cf64e9dac2c69e13/server.txt">https://piston-data.mojang.com/v1/objects/6cf94216ade9636c69a278a8cf64e9dac2c69e13/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/60762a56f1552578d27b91df594ba2a8953dabcc/client.jar">https://piston-data.mojang.com/v1/objects/60762a56f1552578d27b91df594ba2a8953dabcc/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/e78e82553dce286d06e697bd01bcf9f7d6227eab/client.txt">https://piston-data.mojang.com/v1/objects/e78e82553dce286d06e697bd01bcf9f7d6227eab/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w29a">20w29a</a>
-## Registries
 
-<details><summary>memory_module_type.txt</summary>
+# Mappings
 
-```diff
-- minecraft:opened_doors
-+ minecraft:doors_to_close
-```
+### Client
 
-</details>
 
-<details><summary>sensor_type.txt</summary>
 
-```diff
-- minecraft:interactable_doors
-```
 
-</details>
-
-## Commands
-
-<details><summary>setworldspawn.txt</summary>
-
-```diff
-- setworldspawn <pos: block_pos> <angle>
-+ setworldspawn <pos: block_pos> <angle: angle>
-```
-
-</details>
-
-<details><summary>spawnpoint.txt</summary>
-
-```diff
-- spawnpoint <targets: entity> <pos: block_pos> <angle>
-+ spawnpoint <targets: entity> <pos: block_pos> <angle: angle>
-```
-
-</details>
-
-## Misc
-
-<details><summary>parsers.txt</summary>
-
-```diff
-+ minecraft:angle
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.client.RealmsClient</summary>
-
-```diff
-+ UploadInfo requestUploadInfo(String)
-+ WorldDownload requestDownloadInfo(long,int)
-- UploadInfo upload(String)
-- WorldDownload download(long,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.client.UploadStatus</summary>
-
-```diff
-+ long bytesWritten
-+ long totalBytes
-- Long bytesWritten
-- Long totalBytes
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.dto.UploadInfo</summary>
-
-```diff
-+ Pattern URI_SCHEMA_PATTERN
-+ URI uploadEndpoint
-- int port
-- String uploadEndpoint
-+ int selectPortOrDefault(int,int)
-+ String createRequest(String)
-+ String ensureEndpointSchema(Matcher)
-+ URI assembleUri(String,int)
-+ URI getUploadEndpoint()
-+ void <init>(URI)
-- int getPort()
-- String getUploadEndpoint()
-- void <init>()
-- void setToken(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen</summary>
-
-```diff
-+ Component HAS_CHANGES_TOOLTIP
-+ Component NO_BACKUPS_LABEL
-+ Component RESTORE_TOOLTIP
-+ Component TITLE
-+ Component toolTip
-- String toolTip
-+ Component access$1502(Component)
-+ Component access$1600()
-+ Component access$1900()
-+ Minecraft access$1800(RealmsBackupScreen)
-+ ResourceLocation access$1700()
-+ void renderMousehoverTooltip(Component,int,int)
-- Minecraft access$1700(RealmsBackupScreen)
-- ResourceLocation access$1600()
-- String access$1502(String)
-- void renderMousehoverTooltip(String,int,int)
-```
-
-</details>
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsConfigureWorldScreen</summary>
-
-```diff
-+ Component MINIGAME_PREFIX
-+ Component SERVER_CLOSED_TOOLTIP
-+ Component SERVER_EXPIRED_TOOLTIP
-+ Component SERVER_EXPIRING_IN_DAY_TOOLTIP
-+ Component SERVER_EXPIRING_SOON_TOOLTIP
-+ Component SERVER_OPEN_TOOLTIP
-+ Component TITLE
-+ Component WORLD_TITLE
-```
-
-</details>
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongRunningMcoTaskScreen</summary>
-
-```diff
-+ Component title
-- boolean error
-- String title
-+ void setTitle(Component)
-- void setTitle(String)
-```
-
-</details>
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen</summary>
-
-```diff
-+ Component ACCEPT_INVITE_TOOLTIP
-+ Component NO_PENDING_INVITES_TEXT
-+ Component REJECT_INVITE_TOOLTIP
-+ Component toolTip
-- String toolTip
-+ Component access$1202(Component)
-+ Component access$1300()
-+ Component access$1700()
-+ Font access$2000(RealmsPendingInvitesScreen)
-+ Font access$2100(RealmsPendingInvitesScreen)
-+ Minecraft access$1600(RealmsPendingInvitesScreen)
-+ ResourceLocation access$1500()
-+ void access$1400(RealmsPendingInvitesScreen,int)
-+ void access$1800(RealmsPendingInvitesScreen,int)
-+ void renderMousehoverTooltip(Component,int,int)
-- Font access$1700(RealmsPendingInvitesScreen)
-- Font access$1800(RealmsPendingInvitesScreen)
-- Minecraft access$1500(RealmsPendingInvitesScreen)
-- ResourceLocation access$1400()
-- String access$1202(String)
-- void access$1300(RealmsPendingInvitesScreen,int)
-- void access$1600(RealmsPendingInvitesScreen,int)
-- void renderMousehoverTooltip(String,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-+ Component DISABLED_ACTIVITY_FEED_LABEL
-+ Component INVITED_LABEL
-+ Component NORMAL_USER_TOOLTIP
-+ Component OP_TOOLTIP
-+ Component REMOVE_ENTRY_TOOLTIP
-+ Component toolTip
-+ RealmsPlayerScreen$UserAction hoveredUserAction
-- String toolTip
-+ Component access$1600()
-+ Font access$1900(RealmsPlayerScreen)
-+ int access$1700(RealmsPlayerScreen)
-+ int access$1800(int)
-+ RealmsPlayerScreen$UserAction access$600(RealmsPlayerScreen)
-+ void renderMousehoverTooltip(Component,int,int)
-- Font access$1800(RealmsPlayerScreen)
-- int access$1600(RealmsPlayerScreen)
-- int access$1700(int)
-- String access$600(RealmsPlayerScreen)
-- void renderMousehoverTooltip(String,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
-
-```diff
-+ int calculateSkyColor(float)
-```
-
-</details>
-
-<details><summary>net.minecraft.network.chat.TextComponent</summary>
-
-```diff
-- Language decomposedWith
-- String reorderedText
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
-
-```diff
-+ Component title
-+ MultiLineLabel message
-- List lines
-- String title
-+ void <init>(Component)
-+ void onClose()
-- boolean keyPressed(int,int,int)
-- void <init>(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
-
-```diff
-+ boolean tryAddFreshEntityWithPassengers(Entity)
-+ Entity findAddedOrPendingEntity(UUID)
-+ ServerLevel getLevel()
-- Level getLevel()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.thread.QueryThreadGs4</summary>
-
-```diff
-+ boolean start()
-+ QueryThreadGs4 create(ServerInterface)
-+ void <init>(ServerInterface,int)
-- void <init>(ServerInterface)
-- void start()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.StatType</summary>
-
-```diff
-+ Component displayName
-+ Component getDisplayName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.Tag$Builder</summary>
-
-```diff
-+ Tag$Builder addOptionalElement(String)
-+ Tag$Builder addOptionalTag(String)
-+ Tag$Entry parseEntry(JsonElement)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
-
-```diff
-+ double getMyRidingOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ Optional findRespawnPositionAndUseSpawnBlock(BlockPos,float,boolean,boolean)
-- Optional findRespawnPositionAndUseSpawnBlock(BlockPos,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.raid.Raid</summary>
-
-```diff
-+ Component DEFEAT
-+ Component RAID_NAME_COMPONENT
-+ Component VICTORY
-- TranslatableComponent DEFEAT
-- TranslatableComponent RAID_NAME_COMPONENT
-- TranslatableComponent VICTORY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.DismountHelper</summary>
-
-```diff
-+ Vec3 findSafeDismountLocation(BlockPos,boolean)
-+ VoxelShape lambda$findSafeDismountLocation$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CreativeModeTab</summary>
-
-```diff
-+ Component displayName
-+ Component getDisplayName()
-- String getLangId()
-- String getName()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-- void addWithPassengers(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ Biome$ClimateSettings climateSettings
-+ Biome$MobSettings mobSettings
-+ Biome$WorldGenerationSettings worldGenerationSettings
-+ PerlinSimplexNoise FROZEN_TEMPERATURE_NOISE
-- Biome$Precipitation precipitation
-- float downfall
-- float temperature
-- int skyColor
-- List features
-- List structureStarts
-- Map carvers
-- Map mobSpawnCosts
-- Map spawners
-- Supplier surfaceBuilder
-+ App lambda$static$8(RecordCodecBuilder$Instance)
-+ Biome$ClimateSettings lambda$null$0(Biome)
-+ Biome$MobSettings lambda$null$6(Biome)
-+ Biome$WorldGenerationSettings lambda$null$5(Biome)
-+ BiomeSpecialEffects lambda$null$4(Biome)
-+ boolean lambda$addFeature$13(ConfiguredFeature)
-+ boolean lambda$isValidStart$17(Supplier)
-+ boolean lambda$new$11(ConfiguredFeature)
-+ boolean lambda$withBiomeConfig$18(ConfiguredStructureFeature)
-+ ConfiguredFeature lambda$addFeature$12(ConfiguredFeature)
-+ ConfiguredStructureFeature lambda$addStructureStart$16(ConfiguredStructureFeature)
-+ ConfiguredWorldCarver lambda$addCarver$15(ConfiguredWorldCarver)
-+ float getBaseTemperature()
-+ float getHeightAdjustedTemperature(BlockPos)
-+ int getFoliageColorFromTexture()
-+ int getGrassColorFromTexture()
-+ List lambda$addCarver$14(GenerationStep$Carving)
-+ Long2FloatLinkedOpenHashMap lambda$new$10()
-+ Long2FloatLinkedOpenHashMap lambda$null$9()
-+ Optional lambda$null$7(Biome)
-+ PerlinSimplexNoise access$100()
-+ String lambda$generate$20(StructureFeature)
-+ String lambda$generate$21(ConfiguredFeature)
-+ void <init>(Optional)
-+ void addFeatureStepsUpTo(int)
-+ void lambda$generate$19(StructureStart)
-- App lambda$static$15(RecordCodecBuilder$Instance)
-- Biome$Precipitation lambda$null$0(Biome)
-- BiomeSpecialEffects lambda$null$6(Biome)
-- boolean lambda$addFeature$20(ConfiguredFeature)
-- boolean lambda$isValidStart$24(Supplier)
-- boolean lambda$new$18(ConfiguredFeature)
-- boolean lambda$withBiomeConfig$25(ConfiguredStructureFeature)
-- ConfiguredFeature lambda$addFeature$19(ConfiguredFeature)
-- ConfiguredStructureFeature lambda$addStructureStart$23(ConfiguredStructureFeature)
-- ConfiguredWorldCarver lambda$addCarver$22(ConfiguredWorldCarver)
-- float getTemperature()
-- float getTemperatureNoCache(BlockPos)
-- Float lambda$null$4(Biome)
-- Float lambda$null$5(Biome)
-- int calculateSkyColor()
-- Integer lambda$null$7(Biome)
-- List lambda$addCarver$21(GenerationStep$Carving)
-- List lambda$null$10(Biome)
-- List lambda$null$11(Biome)
-- Long2FloatLinkedOpenHashMap lambda$new$17()
-- Long2FloatLinkedOpenHashMap lambda$null$16()
-- Map lambda$null$12(Biome)
-- Map lambda$null$14(Biome)
-- Map lambda$null$9(Biome)
-- Optional lambda$null$13(Biome)
-- String lambda$generate$27(StructureFeature)
-- String lambda$generate$28(ConfiguredFeature)
-- Supplier lambda$null$8(Biome)
-- void <init>(Map)
-- void lambda$generate$26(StructureStart)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
-
-```diff
-+ Biome$TemperatureModifier temperatureModifier
-+ float creatureGenerationProbability
-- Integer skyColor
-+ Biome$BiomeBuilder creatureGenerationProbability(float)
-+ Biome$BiomeBuilder temperatureAdjustment(Biome$TemperatureModifier)
-+ Biome$BiomeCategory access$400(Biome$BiomeBuilder)
-+ Biome$Precipitation access$300(Biome$BiomeBuilder)
-+ Biome$TemperatureModifier access$1000(Biome$BiomeBuilder)
-+ BiomeSpecialEffects access$900(Biome$BiomeBuilder)
-+ float access$1300(Biome$BiomeBuilder)
-+ Float access$700(Biome$BiomeBuilder)
-+ Float access$800(Biome$BiomeBuilder)
-+ String access$1200(Biome$BiomeBuilder)
-+ Supplier access$200(Biome$BiomeBuilder)
-- Biome$BiomeBuilder skyColor(int)
-- Biome$BiomeCategory access$200(Biome$BiomeBuilder)
-- Biome$Precipitation access$100(Biome$BiomeBuilder)
-- BiomeSpecialEffects access$700(Biome$BiomeBuilder)
-- Float access$300(Biome$BiomeBuilder)
-- Float access$400(Biome$BiomeBuilder)
-- Integer access$800(Biome$BiomeBuilder)
-- String access$900(Biome$BiomeBuilder)
-- Supplier access$000(Biome$BiomeBuilder)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
-
-```diff
-+ BiomeSpecialEffects$GrassColorModifier grassColorModifier
-+ int skyColor
-+ Optional foliageColorOverride
-+ Optional grassColorOverride
-+ App lambda$static$12(RecordCodecBuilder$Instance)
-+ BiomeSpecialEffects$GrassColorModifier getGrassColorModifier()
-+ BiomeSpecialEffects$GrassColorModifier lambda$null$6(BiomeSpecialEffects)
-+ int getSkyColor()
-+ Integer lambda$null$3(BiomeSpecialEffects)
-+ Optional getFoliageColorOverride()
-+ Optional getGrassColorOverride()
-+ Optional lambda$null$10(BiomeSpecialEffects)
-+ Optional lambda$null$11(BiomeSpecialEffects)
-+ Optional lambda$null$8(BiomeSpecialEffects)
-+ Optional lambda$null$9(BiomeSpecialEffects)
-+ void <init>(BiomeSpecialEffects$1)
-+ void <init>(Optional)
-- App lambda$static$8(RecordCodecBuilder$Instance)
-- Optional lambda$null$3(BiomeSpecialEffects)
-- Optional lambda$null$6(BiomeSpecialEffects)
-- void <init>(BiomeSpecialEffects$1)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
-
-```diff
-+ BiomeSpecialEffects$GrassColorModifier grassColorModifier
-+ Optional foliageColorOverride
-+ Optional grassColorOverride
-+ OptionalInt skyColor
-+ BiomeSpecialEffects$Builder foliageColorOverride(int)
-+ BiomeSpecialEffects$Builder grassColorModifier(BiomeSpecialEffects$GrassColorModifier)
-+ BiomeSpecialEffects$Builder grassColorOverride(int)
-+ BiomeSpecialEffects$Builder skyColor(int)
-+ IllegalStateException lambda$build$3()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
-
-```diff
-+ double lowestFreqInputFactor
-+ double lowestFreqValueFactor
-+ DoubleList amplitudes
-- double highestFreqInputFactor
-- double highestFreqValueFactor
-+ Pair makeAmplitudes(IntSortedSet)
-+ PerlinNoise create(DoubleList)
-+ PerlinNoise create(WorldgenRandom,int,double[])
-+ void <init>(Pair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + com.mojang.realmsclient.gui.screens.RealmsResetNormalWorldScreen
@@ -4904,477 +3149,148 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.FrameType</summary>
+<details><summary>com.mojang.realmsclient.client.RealmsClient</summary>
 
 ```diff
-+ Component displayName
-+ Component getDisplayName()
++ UploadInfo requestUploadInfo(long,String)
+- UploadInfo upload(long,String)
+- WorldDownload download(long,int)
++ WorldDownload requestDownloadInfo(long,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.Commands</summary>
+<details><summary>com.mojang.realmsclient.dto.UploadInfo</summary>
 
 ```diff
-+ boolean lambda$validate$7(ArgumentType)
-+ String lambda$validate$8(ArgumentType)
-+ void validate()
-- void serializeTreeToFile(File)
+- int getPort()
++ int selectPortOrDefault(int,int)
++ String createRequest(String)
++ String ensureEndpointSchema(String,Matcher)
+- String getUploadEndpoint()
++ URI assembleUri(String,int)
++ URI getUploadEndpoint()
+- void <init>()
++ void <init>(boolean,String,URI)
+- void setToken(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.RangeArgument</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen</summary>
 
 ```diff
-+ RangeArgument$Floats floatRange()
-- RangeArgument$Floats doubleRange()
++ Component access$1502(RealmsBackupScreen,Component)
++ Component access$1600()
++ Component access$1900()
+- Minecraft access$1700(RealmsBackupScreen)
++ Minecraft access$1800(RealmsBackupScreen)
+- ResourceLocation access$1600()
++ ResourceLocation access$1700()
+- String access$1502(RealmsBackupScreen,String)
++ void renderMousehoverTooltip(PoseStack,Component,int,int)
+- void renderMousehoverTooltip(PoseStack,String,int,int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsLongRunningMcoTaskScreen</summary>
 
 ```diff
-+ FormattedText getArgument(int)
-+ void decomposeTemplate(String)
-- FormattedText getArgument(Language)
-- void decomposeTemplate(Language)
++ void setTitle(Component)
+- void setTitle(String)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen</summary>
 
 ```diff
-+ boolean lambda$resolveEntries$0(ClientboundCommandsPacket$Entry)
-+ CommandNode[] getNodesInIdOrder(Object2IntMap)
-+ Object2IntMap enumerateNodes(RootCommandNode)
-+ void resolveEntries(ClientboundCommandsPacket$Entry[])
++ Component access$1202(RealmsPendingInvitesScreen,Component)
++ Component access$1300()
++ Component access$1700()
+- Font access$1700(RealmsPendingInvitesScreen)
+- Font access$1800(RealmsPendingInvitesScreen)
++ Font access$2000(RealmsPendingInvitesScreen)
++ Font access$2100(RealmsPendingInvitesScreen)
+- Minecraft access$1500(RealmsPendingInvitesScreen)
++ Minecraft access$1600(RealmsPendingInvitesScreen)
+- ResourceLocation access$1400()
++ ResourceLocation access$1500()
+- String access$1202(RealmsPendingInvitesScreen,String)
+- void access$1300(RealmsPendingInvitesScreen,int)
++ void access$1400(RealmsPendingInvitesScreen,int)
+- void access$1600(RealmsPendingInvitesScreen,int)
++ void access$1800(RealmsPendingInvitesScreen,int)
++ void renderMousehoverTooltip(PoseStack,Component,int,int)
+- void renderMousehoverTooltip(PoseStack,String,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.SummonCommand</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
 
 ```diff
-+ SimpleCommandExceptionType ERROR_DUPLICATE_UUID
-+ Entity lambda$spawnEntity$4(Entity)
-- Entity lambda$spawnEntity$4(Entity)
++ Component access$1600()
+- Font access$1800(RealmsPlayerScreen)
++ Font access$1900(RealmsPlayerScreen)
+- int access$1600(RealmsPlayerScreen)
+- int access$1700(int)
++ int access$1700(RealmsPlayerScreen)
++ int access$1800(int)
++ RealmsPlayerScreen$UserAction access$600(RealmsPlayerScreen)
+- String access$600(RealmsPlayerScreen)
++ void renderMousehoverTooltip(PoseStack,Component,int,int)
+- void renderMousehoverTooltip(PoseStack,String,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
 
 ```diff
++ int calculateSkyColor(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.realms.DisconnectedRealmsScreen</summary>
+
+```diff
+- boolean keyPressed(int,int,int)
++ void <init>(Screen,Component,Component)
+- void <init>(Screen,String,Component)
++ void onClose()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ boolean tryAddFreshEntityWithPassengers(Entity)
++ Entity findAddedOrPendingEntity(UUID)
 - Level getLevel()
++ ServerLevel getLevel()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.thread.GenericThread</summary>
+<details><summary>net.minecraft.server.rcon.thread.QueryThreadGs4</summary>
 
 ```diff
 + boolean start()
-- void start()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.rcon.thread.RconThread</summary>
-
-```diff
-- int port
-- String serverIp
-+ RconThread create(ServerInterface)
-+ void <init>(String)
++ QueryThreadGs4 create(ServerInterface)
++ void <init>(ServerInterface,int)
 - void <init>(ServerInterface)
 - void start()
 ```
@@ -5382,936 +3298,224 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.SensorType</summary>
+<details><summary>net.minecraft.stats.StatType</summary>
 
 ```diff
-- SensorType INTERACTABLE_DOORS
++ Component getDisplayName()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.entity.ai.village.VillageSiege</summary>
+<details><summary>net.minecraft.tags.Tag$Builder</summary>
 
 ```diff
-+ Logger LOGGER
-+ void <clinit>()
++ Tag$Builder addOptionalElement(ResourceLocation,String)
++ Tag$Builder addOptionalTag(ResourceLocation,String)
++ Tag$Entry parseEntry(JsonElement)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.SkeletonTrapGoal</summary>
+<details><summary>net.minecraft.world.entity.monster.piglin.AbstractPiglin</summary>
 
 ```diff
-+ ItemStack disenchant(ItemStack)
++ double getMyRidingOffset()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ void enchantSpawnedWeapon(float)
+- Optional findRespawnPositionAndUseSpawnBlock(ServerLevel,BlockPos,boolean,boolean)
++ Optional findRespawnPositionAndUseSpawnBlock(ServerLevel,BlockPos,float,boolean,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
+<details><summary>net.minecraft.world.entity.vehicle.DismountHelper</summary>
 
 ```diff
-+ double getPassengersRidingOffset()
++ Vec3 findSafeDismountLocation(EntityType,CollisionGetter,BlockPos,boolean)
++ VoxelShape lambda$findSafeDismountLocation$0(CollisionGetter,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+<details><summary>net.minecraft.world.item.CreativeModeTab</summary>
 
 ```diff
-- double getMyRidingOffset()
++ Component getDisplayName()
+- String getLangId()
+- String getName()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.ServerLevelAccessor</summary>
+<details><summary>net.minecraft.world.level.BaseSpawner</summary>
 
 ```diff
-+ ServerLevel getLevel()
-- Level getLevel()
-+ void addFreshEntityWithPassengers(Entity)
+- void addWithPassengers(Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
 
 ```diff
-+ MultiNoiseBiomeSource$NoiseParameters altitudeParams
-+ MultiNoiseBiomeSource$NoiseParameters DEFAULT_NOISE_PARAMETERS
-+ MultiNoiseBiomeSource$NoiseParameters humidityParams
-+ MultiNoiseBiomeSource$NoiseParameters temperatureParams
-+ MultiNoiseBiomeSource$NoiseParameters weirdnessParams
-+ App lambda$static$7(RecordCodecBuilder$Instance)
-+ Biome lambda$defaultNether$14()
-+ Biome lambda$defaultNether$15()
-+ Biome lambda$defaultNether$16()
-+ Biome lambda$defaultNether$17()
-+ Either lambda$null$10(MultiNoiseBiomeSource$Preset)
-+ Either lambda$null$11(MultiNoiseBiomeSource)
-+ Either lambda$static$12(MultiNoiseBiomeSource)
-+ Float lambda$getNoiseBiome$18(Pair)
-+ MultiNoiseBiomeSource lambda$null$8(Pair)
-+ MultiNoiseBiomeSource lambda$static$9(Either)
-+ MultiNoiseBiomeSource$NoiseParameters lambda$null$3(MultiNoiseBiomeSource)
-+ MultiNoiseBiomeSource$NoiseParameters lambda$null$4(MultiNoiseBiomeSource)
-+ MultiNoiseBiomeSource$NoiseParameters lambda$null$5(MultiNoiseBiomeSource)
-+ MultiNoiseBiomeSource$NoiseParameters lambda$null$6(MultiNoiseBiomeSource)
-+ void <init>(MultiNoiseBiomeSource$NoiseParameters)
-+ void <init>(Optional)
-- App lambda$static$3(RecordCodecBuilder$Instance)
-- Biome lambda$defaultNether$10()
-- Biome lambda$defaultNether$11()
-- Biome lambda$defaultNether$12()
-- Biome lambda$defaultNether$9()
-- Either lambda$null$6(MultiNoiseBiomeSource$Preset)
-- Either lambda$null$7(MultiNoiseBiomeSource)
-- Either lambda$static$8(MultiNoiseBiomeSource)
-- Float lambda$getNoiseBiome$14(Pair)
-- MultiNoiseBiomeSource lambda$null$4(Pair)
-- MultiNoiseBiomeSource lambda$static$5(Either)
+- App lambda$static$15(RecordCodecBuilder$Instance)
++ App lambda$static$8(RecordCodecBuilder$Instance)
++ Biome$ClimateSettings lambda$null$0(Biome)
++ Biome$MobSettings lambda$null$6(Biome)
+- Biome$Precipitation lambda$null$0(Biome)
++ Biome$WorldGenerationSettings lambda$null$5(Biome)
++ BiomeSpecialEffects lambda$null$4(Biome)
+- BiomeSpecialEffects lambda$null$6(Biome)
++ boolean lambda$addFeature$13(ConfiguredFeature)
+- boolean lambda$addFeature$20(ConfiguredFeature)
++ boolean lambda$isValidStart$17(StructureFeature,Supplier)
+- boolean lambda$isValidStart$24(StructureFeature,Supplier)
++ boolean lambda$new$11(ConfiguredFeature)
+- boolean lambda$new$18(ConfiguredFeature)
++ boolean lambda$withBiomeConfig$18(ConfiguredStructureFeature,ConfiguredStructureFeature)
+- boolean lambda$withBiomeConfig$25(ConfiguredStructureFeature,ConfiguredStructureFeature)
++ ConfiguredFeature lambda$addFeature$12(ConfiguredFeature)
+- ConfiguredFeature lambda$addFeature$19(ConfiguredFeature)
++ ConfiguredStructureFeature lambda$addStructureStart$16(ConfiguredStructureFeature)
+- ConfiguredStructureFeature lambda$addStructureStart$23(ConfiguredStructureFeature)
++ ConfiguredWorldCarver lambda$addCarver$15(ConfiguredWorldCarver)
+- ConfiguredWorldCarver lambda$addCarver$22(ConfiguredWorldCarver)
++ float getBaseTemperature()
++ float getHeightAdjustedTemperature(BlockPos)
+- float getTemperature()
+- float getTemperatureNoCache(BlockPos)
+- Float lambda$null$4(Biome)
+- Float lambda$null$5(Biome)
+- int calculateSkyColor()
++ int getFoliageColorFromTexture()
++ int getGrassColorFromTexture()
+- Integer lambda$null$7(Biome)
++ List lambda$addCarver$14(GenerationStep$Carving)
+- List lambda$addCarver$21(GenerationStep$Carving)
+- List lambda$null$10(Biome)
+- List lambda$null$11(Biome)
++ Long2FloatLinkedOpenHashMap lambda$new$10()
+- Long2FloatLinkedOpenHashMap lambda$new$17()
+- Long2FloatLinkedOpenHashMap lambda$null$16()
++ Long2FloatLinkedOpenHashMap lambda$null$9()
+- Map lambda$null$12(Biome)
+- Map lambda$null$14(Biome)
+- Map lambda$null$9(Biome)
+- Optional lambda$null$13(Biome)
++ Optional lambda$null$7(Biome)
++ PerlinSimplexNoise access$100()
++ String lambda$generate$20(StructureFeature)
++ String lambda$generate$21(ConfiguredFeature)
+- String lambda$generate$27(StructureFeature)
+- String lambda$generate$28(ConfiguredFeature)
+- Supplier lambda$null$8(Biome)
++ void <init>(Biome$ClimateSettings,Biome$BiomeCategory,float,float,BiomeSpecialEffects,Biome$WorldGenerationSettings,Biome$MobSettings,Optional)
+- void <init>(Biome$Precipitation,Biome$BiomeCategory,float,float,float,float,BiomeSpecialEffects,int,Supplier,Map,List,List,Map,Optional,Map)
++ void addFeatureStepsUpTo(int)
++ void lambda$generate$19(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,StructureStart)
+- void lambda$generate$26(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,StructureStart)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
+<details><summary>net.minecraft.world.level.biome.Biome$BiomeBuilder</summary>
 
 ```diff
-+ NormalNoise create(DoubleList)
-+ NormalNoise create(WorldgenRandom,int,double[])
-+ void <init>(DoubleList)
-- void <init>(IntStream)
-- void <init>(List)
++ Biome$BiomeBuilder creatureGenerationProbability(float)
+- Biome$BiomeBuilder skyColor(int)
++ Biome$BiomeBuilder temperatureAdjustment(Biome$TemperatureModifier)
+- Biome$BiomeCategory access$200(Biome$BiomeBuilder)
++ Biome$BiomeCategory access$400(Biome$BiomeBuilder)
+- Biome$Precipitation access$100(Biome$BiomeBuilder)
++ Biome$Precipitation access$300(Biome$BiomeBuilder)
++ Biome$TemperatureModifier access$1000(Biome$BiomeBuilder)
+- BiomeSpecialEffects access$700(Biome$BiomeBuilder)
++ BiomeSpecialEffects access$900(Biome$BiomeBuilder)
++ float access$1300(Biome$BiomeBuilder)
+- Float access$300(Biome$BiomeBuilder)
+- Float access$400(Biome$BiomeBuilder)
++ Float access$700(Biome$BiomeBuilder)
++ Float access$800(Biome$BiomeBuilder)
+- Integer access$800(Biome$BiomeBuilder)
++ String access$1200(Biome$BiomeBuilder)
+- String access$900(Biome$BiomeBuilder)
+- Supplier access$000(Biome$BiomeBuilder)
++ Supplier access$200(Biome$BiomeBuilder)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.BlockPathTypes</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects</summary>
 
 ```diff
-+ BlockPathTypes WALKABLE_DOOR
++ App lambda$static$12(RecordCodecBuilder$Instance)
+- App lambda$static$8(RecordCodecBuilder$Instance)
++ BiomeSpecialEffects$GrassColorModifier getGrassColorModifier()
++ BiomeSpecialEffects$GrassColorModifier lambda$null$6(BiomeSpecialEffects)
++ int getSkyColor()
++ Integer lambda$null$3(BiomeSpecialEffects)
++ Optional getFoliageColorOverride()
++ Optional getGrassColorOverride()
++ Optional lambda$null$10(BiomeSpecialEffects)
++ Optional lambda$null$11(BiomeSpecialEffects)
+- Optional lambda$null$3(BiomeSpecialEffects)
+- Optional lambda$null$6(BiomeSpecialEffects)
++ Optional lambda$null$8(BiomeSpecialEffects)
++ Optional lambda$null$9(BiomeSpecialEffects)
++ void <init>(int,int,int,int,Optional,Optional,BiomeSpecialEffects$GrassColorModifier,Optional,Optional,Optional,Optional,Optional,BiomeSpecialEffects$1)
++ void <init>(int,int,int,int,Optional,Optional,BiomeSpecialEffects$GrassColorModifier,Optional,Optional,Optional,Optional,Optional)
+- void <init>(int,int,int,Optional,Optional,Optional,Optional,Optional,BiomeSpecialEffects$1)
+- void <init>(int,int,int,Optional,Optional,Optional,Optional,Optional)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSpecialEffects$Builder</summary>
 
 ```diff
-+ boolean notStarted()
-+ Node previousNode()
++ BiomeSpecialEffects$Builder foliageColorOverride(int)
++ BiomeSpecialEffects$Builder grassColorModifier(BiomeSpecialEffects$GrassColorModifier)
++ BiomeSpecialEffects$Builder grassColorOverride(int)
++ BiomeSpecialEffects$Builder skyColor(int)
++ IllegalStateException lambda$build$3()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
 
+```diff
++ Pair makeAmplitudes(IntSortedSet)
++ PerlinNoise create(WorldgenRandom,int,double[])
++ PerlinNoise create(WorldgenRandom,int,DoubleList)
++ void <init>(WorldgenRandom,Pair)
+```
 
+</details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.commands.arguments.blocks.BlockInput
@@ -8056,13 +5260,277 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.FrameType</summary>
+
+```diff
++ Component getDisplayName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.Commands</summary>
+
+```diff
++ boolean lambda$validate$7(ArgumentType)
++ String lambda$validate$8(ArgumentType)
+- void serializeTreeToFile(File)
++ void validate()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.RangeArgument</summary>
+
+```diff
+- RangeArgument$Floats doubleRange()
++ RangeArgument$Floats floatRange()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.chat.TranslatableComponent</summary>
+
+```diff
+- FormattedText getArgument(int,Language)
++ FormattedText getArgument(int)
+- void decomposeTemplate(String,Language)
++ void decomposeTemplate(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundCommandsPacket</summary>
+
+```diff
++ boolean lambda$resolveEntries$0(ClientboundCommandsPacket$Entry[],ClientboundCommandsPacket$Entry)
++ CommandNode[] getNodesInIdOrder(Object2IntMap)
++ Object2IntMap enumerateNodes(RootCommandNode)
++ void resolveEntries(ClientboundCommandsPacket$Entry[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.SummonCommand</summary>
+
+```diff
++ Entity lambda$spawnEntity$4(Vec3,Entity)
+- Entity lambda$spawnEntity$4(Vec3,ServerLevel,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
+- Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.rcon.thread.GenericThread</summary>
+
+```diff
++ boolean start()
+- void start()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.rcon.thread.RconThread</summary>
+
+```diff
++ RconThread create(ServerInterface)
++ void <init>(ServerInterface,ServerSocket,String)
+- void <init>(ServerInterface)
+- void start()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.village.VillageSiege</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.SkeletonTrapGoal</summary>
+
+```diff
++ ItemStack disenchant(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
+
+```diff
++ void enchantSpawnedWeapon(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
+
+```diff
++ double getPassengersRidingOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.piglin.Piglin</summary>
+
+```diff
+- double getMyRidingOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.ServerLevelAccessor</summary>
+
+```diff
++ void addFreshEntityWithPassengers(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+
+```diff
+- App lambda$static$3(RecordCodecBuilder$Instance)
++ App lambda$static$7(RecordCodecBuilder$Instance)
+- Biome lambda$defaultNether$10()
+- Biome lambda$defaultNether$11()
+- Biome lambda$defaultNether$12()
++ Biome lambda$defaultNether$14()
++ Biome lambda$defaultNether$15()
++ Biome lambda$defaultNether$16()
++ Biome lambda$defaultNether$17()
+- Biome lambda$defaultNether$9()
++ Either lambda$null$10(MultiNoiseBiomeSource,MultiNoiseBiomeSource$Preset)
++ Either lambda$null$11(MultiNoiseBiomeSource)
+- Either lambda$null$6(MultiNoiseBiomeSource,MultiNoiseBiomeSource$Preset)
+- Either lambda$null$7(MultiNoiseBiomeSource)
++ Either lambda$static$12(MultiNoiseBiomeSource)
+- Either lambda$static$8(MultiNoiseBiomeSource)
+- Float lambda$getNoiseBiome$14(Biome$ClimateParameters,Pair)
++ Float lambda$getNoiseBiome$18(Biome$ClimateParameters,Pair)
+- MultiNoiseBiomeSource lambda$null$4(Pair)
++ MultiNoiseBiomeSource lambda$null$8(Pair)
+- MultiNoiseBiomeSource lambda$static$5(Either)
++ MultiNoiseBiomeSource lambda$static$9(Either)
++ MultiNoiseBiomeSource$NoiseParameters lambda$null$3(MultiNoiseBiomeSource)
++ MultiNoiseBiomeSource$NoiseParameters lambda$null$4(MultiNoiseBiomeSource)
++ MultiNoiseBiomeSource$NoiseParameters lambda$null$5(MultiNoiseBiomeSource)
++ MultiNoiseBiomeSource$NoiseParameters lambda$null$6(MultiNoiseBiomeSource)
++ void <init>(long,List,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,Optional)
++ void <init>(long,List,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
+
+```diff
++ NormalNoise create(WorldgenRandom,int,double[])
++ NormalNoise create(WorldgenRandom,int,DoubleList)
++ void <init>(WorldgenRandom,int,DoubleList)
+- void <init>(WorldgenRandom,IntStream)
+- void <init>(WorldgenRandom,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.Path</summary>
+
+```diff
++ boolean notStarted()
++ Node previousNode()
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:doors_to_close
+- minecraft:opened_doors
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
+- minecraft:interactable_doors
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>setworldspawn.txt</summary>
+
+```diff
++ setworldspawn <pos: block_pos> <angle: angle>
+- setworldspawn <pos: block_pos> <angle>
+```
+
+</details>
+
+
+<details><summary>spawnpoint.txt</summary>
+
+```diff
++ spawnpoint <targets: entity> <pos: block_pos> <angle: angle>
+- spawnpoint <targets: entity> <pos: block_pos> <angle>
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.sad_label
++ commands.summon.failed.uuid
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>parsers.txt</summary>
+
+```diff
++ minecraft:angle
+```
+
+</details>

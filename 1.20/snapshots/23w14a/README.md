@@ -1,2509 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w14a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w14a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-04-05T12:05:17+00:00</td></tr>
-<tr><th>SHA1</th><td>dd1839a2173bea5a7a85b5d60c8f8b242f267f17</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/dd1839a2173bea5a7a85b5d60c8f8b242f267f17/23w14a.json">https://piston-meta.mojang.com/v1/packages/dd1839a2173bea5a7a85b5d60c8f8b242f267f17/23w14a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/00eafe1437319718264a794107ea06b623963be6/4.json">https://piston-meta.mojang.com/v1/packages/00eafe1437319718264a794107ea06b623963be6/4.json</a></td></tr>
+<tr><th>SHA1</th><td>846b025d08049ff3a115737de295c8317d4059d2</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/846b025d08049ff3a115737de295c8317d4059d2/23w14a.json">https://piston-meta.mojang.com/v1/packages/846b025d08049ff3a115737de295c8317d4059d2/23w14a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/8520c56192bb1a597c42067f9969dbab9a0badd9/4.json">https://piston-meta.mojang.com/v1/packages/8520c56192bb1a597c42067f9969dbab9a0badd9/4.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/cb67d34c44013759bca77085ae42e3a7b37f265d/server.jar">https://piston-data.mojang.com/v1/objects/cb67d34c44013759bca77085ae42e3a7b37f265d/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3cc39a9df8b488da0e409fed8cf028a3d4c94f52/server.txt">https://piston-data.mojang.com/v1/objects/3cc39a9df8b488da0e409fed8cf028a3d4c94f52/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ed6e937ba9966c09b65a7d22016f25149542774e/client.jar">https://piston-data.mojang.com/v1/objects/ed6e937ba9966c09b65a7d22016f25149542774e/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/bc18287836559896a92ee7c55b14e6db1abfa39a/client.txt">https://piston-data.mojang.com/v1/objects/bc18287836559896a92ee7c55b14e6db1abfa39a/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w13a">23w13a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/enchantment_power_provider.json
-+  minecraft/tags/blocks/enchantment_power_transmitter.json
-+  minecraft/tags/blocks/replaceable.json
-+  minecraft/tags/blocks/replaceable_by_trees.json
--  minecraft/tags/blocks/replaceable_plants.json
-+  minecraft/tags/blocks/sword_efficient.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/template_music_disc.json
-+  minecraft/textures/gui/title/edition.png.mcmeta
-+  minecraft/textures/gui/title/minceraft.png
-+  minecraft/textures/gui/title/minceraft.png.mcmeta
-+  minecraft/textures/gui/title/minecraft.png.mcmeta
-+  realms/textures/gui/title/realms.png.mcmeta
-```
 
-</details>
-
-## Registries
-
-<details><summary>loot_function_type.txt</summary>
-
-```diff
-+ minecraft:reference
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:sniffer_temptations
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-- minecraft:entity.sniffer.egg_crack
-- minecraft:entity.sniffer.egg_hatch
-+ minecraft:block.sniffer.egg_crack
-+ minecraft:block.sniffer.egg_hatch
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/replaceable_plants.json
-+ blocks/enchantment_power_provider.json
-+ blocks/enchantment_power_transmitter.json
-+ blocks/replaceable.json
-+ blocks/replaceable_by_trees.json
-+ blocks/sword_efficient.json
-```
-
-</details>
-
-<details><summary>blocks/bamboo_plantable_on.json</summary>
-
-```diff
-+ minecraft:suspicious_gravel
-```
-
-</details>
-
-<details><summary>blocks/mineable/shovel.json</summary>
-
-```diff
-+ minecraft:suspicious_sand
-+ minecraft:suspicious_gravel
-```
-
-</details>
-
-<details><summary>blocks/overworld_carver_replaceables.json</summary>
-
-```diff
-+ minecraft:suspicious_gravel
-```
-
-</details>
-
-<details><summary>blocks/sculk_replaceable.json</summary>
-
-```diff
-- #minecraft:sand
-+ minecraft:sand
-+ minecraft:red_sand
-```
-
-</details>
-
-## Misc
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w14a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-+ music/game/a_familiar_room.ogg
-+ music/game/bromeliad.ogg
-+ music/game/crescent_dunes.ogg
-+ music/game/echo_in_the_wind.ogg
-+ records/relic.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/replaceable_plants.json
-+ blocks/enchantment_power_provider.json
-+ blocks/enchantment_power_transmitter.json
-+ blocks/replaceable.json
-+ blocks/replaceable_by_trees.json
-+ blocks/sword_efficient.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ gui/title/minceraft.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:brigadier:1.0.18
-+ com.mojang:brigadier:1.1.8
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$RealmSelectionList</summary>
-
-```diff
-- boolean keyPressed(int,int,int)
-- boolean mouseClicked(double,double,int)
-- void itemClicked(int,int,double,double,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-+ boolean keyPressed(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
-
-```diff
-+ ImageButton changesButton
-+ ImageButton restoreButton
-+ int X_PADDING
-+ int Y_PADDING
-+ List children
-+ boolean mouseClicked(double,double,int)
-+ void addChangesButton()
-+ void addRestoreButton()
-+ void addToChangeList(String)
-+ void lambda$addChangesButton$0(Button)
-+ void lambda$addRestoreButton$1(Button)
-+ void lambda$render$2(AbstractWidget)
-+ void populateChangeList(Backup)
-- void drawInfo(PoseStack,int,int,int,int)
-- void drawRestore(PoseStack,int,int,int,int)
-- void renderBackupItem(Backup,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen</summary>
-
-```diff
-+ void <init>(Component)
-- void <init>(Screen)
-```
-
-</details>
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
-
-```diff
-+ int NO_ENTRY_SELECTED
-+ int playerIndex
-- Component toolTip
-- int column2X
-- int player
-- int selectedInvitedIndex
-- RealmsPlayerScreen$UserAction hoveredUserAction
-- String selectedInvited
-+ void lambda$uninvite$4(PlayerInfo,boolean)
-- void deleteFromInvitedList(int)
-- void drawNormal(PoseStack,int,int,int,int)
-- void drawOpped(PoseStack,int,int,int,int)
-- void drawRemoveIcon(PoseStack,int,int,int,int)
-- void lambda$uninvite$4(boolean)
-- void renderMousehoverTooltip(Component,int,int)
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
-
-```diff
-+ void updateButtons()
-- boolean mouseClicked(double,double,int)
-- void itemClicked(int,int,double,double,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
-
-```diff
-+ Component connectFailedTitle
-+ void <init>(Component)
-+ void startConnecting(ServerData,boolean)
-- void <init>(Screen)
-- void startConnecting(ServerData)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.DisconnectedScreen</summary>
-
-```diff
-+ Component buttonText
-+ Component TO_SERVER_LIST
-+ Component TO_TITLE
-+ GridLayout layout
-- int textHeight
-- MultiLineLabel message
-+ Component getNarrationMessage()
-+ void <clinit>()
-+ void <init>(Component)
-+ void lambda$init$1(Button)
-+ void repositionElements()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen</summary>
-
-```diff
-- boolean mouseClicked(double,double,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate MUSIC_DISC
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.VanillaBlockTagsProvider</summary>
-
-```diff
-+ boolean lambda$addTags$1(Block)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-+ LootDataManager getLootData()
-- ItemModifierManager getItemModifierManager()
-- LootTables getLootTables()
-- PredicateManager getPredicateManager()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener</summary>
-
-```diff
-+ void scanDirectory(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey ENCHANTMENT_POWER_PROVIDER
-+ TagKey ENCHANTMENT_POWER_TRANSMITTER
-+ TagKey REPLACEABLE
-+ TagKey REPLACEABLE_BY_TREES
-+ TagKey SWORD_EFFICIENT
-- TagKey REPLACEABLE_PLANTS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PitcherCropBlock</summary>
-
-```diff
-+ VoxelShape FULL_LOWER_SHAPE
-+ VoxelShape FULL_UPPER_SHAPE
-+ VoxelShape[] LOWER_SHAPE_BY_AGE
-+ VoxelShape[] UPPER_SHAPE_BY_AGE
-- VoxelShape LOWER_SHAPE
-- VoxelShape UPPER_SHAPE
-+ boolean isLower(BlockState)
-+ void entityInside(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SnifferEggBlock</summary>
-
-```diff
-+ int MAX_HATCH_LEVEL
-+ IntegerProperty HATCH
-- int MAX_AGE
-- IntegerProperty AGE
-+ boolean isPathfindable(PathComputationType)
-+ int getHatchLevel(BlockState)
-- int getAge(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TorchflowerCropBlock</summary>
-
-```diff
-+ int BONEMEAL_INCREASE
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WallHangingSignBlock</summary>
-
-```diff
-+ BlockEntityTicker getTicker(BlockEntityType)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.CalibratedSculkSensorBlockEntity$VibrationConfig</summary>
-
-```diff
-+ int getListenerRadius()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ boolean liquid
-+ boolean liquid()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
-
-```diff
-+ boolean liquid
-+ BlockBehaviour$Properties liquid()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.SculkSensorPhase</summary>
-
-```diff
-- SculkSensorPhase COOLDOWN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
-
-```diff
-+ float distanceBetweenInBlocks(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
-
-```diff
-+ BlockPos lambda$doPlace$3(RootPlacer)
-+ boolean lambda$isAirOrLeaves$1(BlockState)
-+ Boolean lambda$place$9(BoundingBox)
-+ boolean lambda$validTreePos$2(BlockState)
-+ void lambda$doPlace$4(FoliagePlacer$FoliageAttachment)
-+ void lambda$place$5(BlockState)
-+ void lambda$place$8(TreeDecorator)
-- BlockPos lambda$doPlace$4(RootPlacer)
-- boolean isBlockWater(BlockPos)
-- boolean isReplaceablePlant(BlockPos)
-- boolean lambda$isAirOrLeaves$2(BlockState)
-- boolean lambda$isBlockWater$1(BlockState)
-- boolean lambda$isReplaceablePlant$3(BlockState)
-- Boolean lambda$place$10(BoundingBox)
-- void lambda$doPlace$5(FoliagePlacer$FoliageAttachment)
-- void lambda$place$8(BlockState)
-- void lambda$place$9(TreeDecorator)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure</summary>
-
-```diff
-+ void lambda$placeSuspiciousSand$0(BrushableBlockEntity)
-+ void placeSuspiciousSand(BlockPos)
-- void lambda$afterPlace$0(BrushableBlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.Material$Builder</summary>
-
-```diff
-- boolean liquid
-- Material$Builder liquid()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.ValidationContext</summary>
-
-```diff
-+ LootDataResolver resolver
-+ Set visitedElements
-- Function conditionResolver
-- Function tableResolver
-- Set visitedConditions
-- Set visitedTables
-+ boolean hasVisitedElement(LootDataId)
-+ LootDataResolver resolver()
-+ String lambda$enterElement$2(String)
-+ ValidationContext enterElement(LootDataId)
-+ void <init>(LootDataResolver)
-+ void <init>(Set)
-- boolean hasVisitedCondition(ResourceLocation)
-- boolean hasVisitedTable(ResourceLocation)
-- LootItemCondition resolveCondition(ResourceLocation)
-- LootTable resolveLootTable(ResourceLocation)
-- String lambda$enterCondition$3(String)
-- String lambda$enterTable$2(String)
-- ValidationContext enterCondition(ResourceLocation)
-- ValidationContext enterTable(ResourceLocation)
-- void <init>(Function)
-- void <init>(Set)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
-
-```diff
-+ LootPoolSingletonContainer lambda$lootTableReference$2(LootItemFunction[])
-+ void lambda$validate$0(LootTable)
-+ void lambda$validate$1(ValidationContext)
-- LootPoolSingletonContainer lambda$lootTableReference$0(LootItemFunction[])
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.LootItemFunctions</summary>
-
-```diff
-+ LootItemFunctionType REFERENCE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
-
-```diff
-+ LootItemCondition lambda$conditionReference$2(ResourceLocation)
-+ void lambda$validate$0(LootItemCondition)
-+ void lambda$validate$1(ValidationContext)
-- LootItemCondition lambda$conditionReference$0(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.gui.screens.package-info
@@ -5885,1325 +3413,310 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.DeserializationContext</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$RealmSelectionList</summary>
 
 ```diff
-+ LootDataManager lootData
-- PredicateManager predicateManager
-+ void <init>(LootDataManager)
-+ void lambda$deserializeConditions$0(String)
-- LootTable lambda$deserializeConditions$0(ResourceLocation)
-- void <init>(PredicateManager)
-- void lambda$deserializeConditions$1(String)
+- boolean keyPressed(int,int,int)
+- boolean mouseClicked(double,double,int)
+- void itemClicked(int,int,double,double,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
 
 ```diff
-+ boolean killedEntity(LivingEntity)
-+ float getNameTagOffsetY()
-- boolean wasKilled(LivingEntity)
++ boolean keyPressed(int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsBackupScreen$Entry</summary>
 
 ```diff
-+ boolean canSniff()
-+ boolean isTempted()
-+ boolean lambda$calculateDigPosition$1(BlockPos)
-+ boolean lambda$canDig$2(GlobalPos)
-+ float getNameTagOffsetY()
-+ Sniffer onScentingStart()
++ boolean mouseClicked(double,double,int)
++ void addChangesButton()
++ void addRestoreButton()
++ void addToChangeList(String)
+- void drawInfo(PoseStack,int,int,int,int)
+- void drawRestore(PoseStack,int,int,int,int)
++ void lambda$addChangesButton$0(Button)
++ void lambda$addRestoreButton$1(Button)
++ void lambda$render$2(int,PoseStack,int,int,float,AbstractWidget)
++ void populateChangeList(Backup)
+- void renderBackupItem(PoseStack,Backup,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.animal.sniffer.SnifferAi$Scenting</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPendingInvitesScreen</summary>
 
 ```diff
-+ boolean checkExtraStartConditions(LivingEntity)
-+ boolean checkExtraStartConditions(Sniffer)
++ void <init>(Screen,Component)
+- void <init>(Screen)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen</summary>
 
 ```diff
-+ boolean killedEntity(LivingEntity)
-- boolean wasKilled(LivingEntity)
+- void deleteFromInvitedList(int)
+- void drawNormal(PoseStack,int,int,int,int)
+- void drawOpped(PoseStack,int,int,int,int)
+- void drawRemoveIcon(PoseStack,int,int,int,int)
+- void lambda$uninvite$4(boolean)
++ void lambda$uninvite$4(PlayerInfo,boolean)
+- void renderMousehoverTooltip(PoseStack,Component,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsPlayerScreen$InvitedObjectSelectionList</summary>
 
 ```diff
-+ boolean killedEntity(LivingEntity)
-- boolean wasKilled(LivingEntity)
+- boolean mouseClicked(double,double,int)
+- void itemClicked(int,int,double,double,int,int)
++ void updateButtons()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
+<details><summary>net.minecraft.client.gui.screens.ConnectScreen</summary>
 
 ```diff
-- void lambda$setItem$0(ItemStack)
++ void <init>(Screen,Component)
+- void <init>(Screen)
++ void startConnecting(Screen,Minecraft,ServerAddress,ServerData,boolean)
+- void startConnecting(Screen,Minecraft,ServerAddress,ServerData)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.ThrowableItemProjectile</summary>
+<details><summary>net.minecraft.client.gui.screens.DisconnectedScreen</summary>
 
 ```diff
-- void lambda$setItem$0(ItemStack)
++ Component getNarrationMessage()
++ void <clinit>()
++ void <init>(Screen,Component,Component,Component)
++ void lambda$init$1(Button)
++ void repositionElements()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+<details><summary>net.minecraft.client.gui.screens.social.SocialInteractionsScreen</summary>
 
 ```diff
-+ int getQuickCraftPlaceCount(ItemStack)
-- void getQuickCraftSlotCount(ItemStack,int)
+- boolean mouseClicked(double,double,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BrushItem</summary>
+<details><summary>net.minecraft.data.tags.VanillaBlockTagsProvider</summary>
 
 ```diff
-+ void lambda$onUseTick$0(LivingEntity)
-- void lambda$onUseTick$0(LivingEntity)
++ boolean lambda$addTags$1(Block)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
+<details><summary>net.minecraft.server.MinecraftServer</summary>
 
 ```diff
-+ ItemStack findFilledMap(CraftingContainer)
+- ItemModifierManager getItemModifierManager()
++ LootDataManager getLootData()
+- LootTables getLootTables()
+- PredicateManager getPredicateManager()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+<details><summary>net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener</summary>
 
 ```diff
-+ boolean isPossibleToRespawnInThis(BlockState)
-- boolean isPossibleToRespawnInThis()
++ void scanDirectory(ResourceManager,String,Gson,Map)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
+<details><summary>net.minecraft.world.level.block.PitcherCropBlock</summary>
 
 ```diff
-+ boolean lambda$getOrCreateIronGolemBase$1(BlockInWorld)
-+ boolean lambda$getOrCreateIronGolemFull$2(BlockInWorld)
++ boolean isLower(BlockState)
++ void entityInside(BlockState,Level,BlockPos,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+<details><summary>net.minecraft.world.level.block.SnifferEggBlock</summary>
 
 ```diff
-+ BlockSetType type()
++ boolean isPathfindable(BlockState,BlockGetter,BlockPos,PathComputationType)
+- int getAge(BlockState)
++ int getHatchLevel(BlockState)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.block.WallHangingSignBlock</summary>
+
+```diff
++ BlockEntityTicker getTicker(Level,BlockState,BlockEntityType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.CalibratedSculkSensorBlockEntity$VibrationConfig</summary>
+
+```diff
++ int getListenerRadius()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
+
+```diff
++ boolean liquid()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$Properties</summary>
+
+```diff
++ BlockBehaviour$Properties liquid()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener</summary>
+
+```diff
++ float distanceBetweenInBlocks(BlockPos,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.TreeFeature</summary>
+
+```diff
++ BlockPos lambda$doPlace$3(BlockPos,RandomSource,RootPlacer)
+- BlockPos lambda$doPlace$4(BlockPos,RandomSource,RootPlacer)
+- boolean isBlockWater(LevelSimulatedReader,BlockPos)
+- boolean isReplaceablePlant(LevelSimulatedReader,BlockPos)
++ boolean lambda$isAirOrLeaves$1(BlockState)
+- boolean lambda$isAirOrLeaves$2(BlockState)
+- boolean lambda$isBlockWater$1(BlockState)
+- boolean lambda$isReplaceablePlant$3(BlockState)
+- Boolean lambda$place$10(WorldGenLevel,Set,Set,Set,BoundingBox)
++ Boolean lambda$place$9(WorldGenLevel,Set,Set,Set,BoundingBox)
++ boolean lambda$validTreePos$2(BlockState)
++ void lambda$doPlace$4(TreeConfiguration,WorldGenLevel,FoliagePlacer$FoliageSetter,RandomSource,int,int,int,FoliagePlacer$FoliageAttachment)
+- void lambda$doPlace$5(TreeConfiguration,WorldGenLevel,FoliagePlacer$FoliageSetter,RandomSource,int,int,int,FoliagePlacer$FoliageAttachment)
++ void lambda$place$5(Set,WorldGenLevel,BlockPos,BlockState)
+- void lambda$place$8(Set,WorldGenLevel,BlockPos,BlockState)
++ void lambda$place$8(TreeDecorator$Context,TreeDecorator)
+- void lambda$place$9(TreeDecorator$Context,TreeDecorator)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.DesertPyramidStructure</summary>
+
+```diff
+- void lambda$afterPlace$0(BlockPos,BrushableBlockEntity)
++ void lambda$placeSuspiciousSand$0(BlockPos,BrushableBlockEntity)
++ void placeSuspiciousSand(BoundingBox,WorldGenLevel,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.Material$Builder</summary>
+
+```diff
+- Material$Builder liquid()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.ValidationContext</summary>
+
+```diff
+- boolean hasVisitedCondition(ResourceLocation)
++ boolean hasVisitedElement(LootDataId)
+- boolean hasVisitedTable(ResourceLocation)
++ LootDataResolver resolver()
+- LootItemCondition resolveCondition(ResourceLocation)
+- LootTable resolveLootTable(ResourceLocation)
+- String lambda$enterCondition$3(String)
++ String lambda$enterElement$2(String)
+- String lambda$enterTable$2(String)
+- ValidationContext enterCondition(String,ResourceLocation)
++ ValidationContext enterElement(String,LootDataId)
+- ValidationContext enterTable(String,ResourceLocation)
+- void <init>(LootContextParamSet,Function,Function)
++ void <init>(LootContextParamSet,LootDataResolver)
+- void <init>(Multimap,Supplier,LootContextParamSet,Function,Set,Function,Set)
++ void <init>(Multimap,Supplier,LootContextParamSet,LootDataResolver,Set)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.entries.LootTableReference</summary>
+
+```diff
+- LootPoolSingletonContainer lambda$lootTableReference$0(ResourceLocation,int,int,LootItemCondition[],LootItemFunction[])
++ LootPoolSingletonContainer lambda$lootTableReference$2(ResourceLocation,int,int,LootItemCondition[],LootItemFunction[])
++ void lambda$validate$0(ValidationContext,LootDataId,LootTable)
++ void lambda$validate$1(ValidationContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.predicates.ConditionReference</summary>
+
+```diff
+- LootItemCondition lambda$conditionReference$0(ResourceLocation)
++ LootItemCondition lambda$conditionReference$2(ResourceLocation)
++ void lambda$validate$0(ValidationContext,LootDataId,LootItemCondition)
++ void lambda$validate$1(ValidationContext)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.loot.LootTableProvider$1
@@ -10216,13 +6729,334 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.DeserializationContext</summary>
+
+```diff
+- LootTable lambda$deserializeConditions$0(ResourceLocation)
++ void <init>(ResourceLocation,LootDataManager)
+- void <init>(ResourceLocation,PredicateManager)
++ void lambda$deserializeConditions$0(String,String,String)
+- void lambda$deserializeConditions$1(String,String,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean killedEntity(ServerLevel,LivingEntity)
+- boolean wasKilled(ServerLevel,LivingEntity)
++ float getNameTagOffsetY()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.Sniffer</summary>
+
+```diff
++ boolean canSniff()
++ boolean isTempted()
++ boolean lambda$calculateDigPosition$1(BlockPos)
++ boolean lambda$canDig$2(BlockPos,GlobalPos)
++ float getNameTagOffsetY()
++ Sniffer onScentingStart()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.sniffer.SnifferAi$Scenting</summary>
+
+```diff
++ boolean checkExtraStartConditions(ServerLevel,LivingEntity)
++ boolean checkExtraStartConditions(ServerLevel,Sniffer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
+
+```diff
++ boolean killedEntity(ServerLevel,LivingEntity)
+- boolean wasKilled(ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.player.Player</summary>
+
+```diff
++ boolean killedEntity(ServerLevel,LivingEntity)
+- boolean wasKilled(ServerLevel,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.EyeOfEnder</summary>
+
+```diff
+- void lambda$setItem$0(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.ThrowableItemProjectile</summary>
+
+```diff
+- void lambda$setItem$0(ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+
+```diff
++ int getQuickCraftPlaceCount(Set,int,ItemStack)
+- void getQuickCraftSlotCount(Set,int,ItemStack,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BrushItem</summary>
+
+```diff
++ void lambda$onUseTick$0(EquipmentSlot,LivingEntity)
+- void lambda$onUseTick$0(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
+
+```diff
++ ItemStack findFilledMap(CraftingContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+
+```diff
+- boolean isPossibleToRespawnInThis()
++ boolean isPossibleToRespawnInThis(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CarvedPumpkinBlock</summary>
+
+```diff
++ boolean lambda$getOrCreateIronGolemBase$1(BlockInWorld)
++ boolean lambda$getOrCreateIronGolemFull$2(BlockInWorld)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+
+```diff
++ BlockSetType type()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/enchantment_power_provider.json
++ minecraft/tags/blocks/enchantment_power_transmitter.json
++ minecraft/tags/blocks/replaceable_by_trees.json
+- minecraft/tags/blocks/replaceable_plants.json
++ minecraft/tags/blocks/replaceable.json
++ minecraft/tags/blocks/sword_efficient.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/template_music_disc.json
++ minecraft/textures/gui/title/edition.png.mcmeta
++ minecraft/textures/gui/title/minceraft.png
++ minecraft/textures/gui/title/minceraft.png.mcmeta
++ minecraft/textures/gui/title/minecraft.png.mcmeta
++ realms/textures/gui/title/realms.png.mcmeta
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>loot_function_type.txt</summary>
+
+```diff
++ minecraft:reference
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:sniffer_temptations
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sniffer.egg_crack
++ minecraft:block.sniffer.egg_hatch
+- minecraft:entity.sniffer.egg_crack
+- minecraft:entity.sniffer.egg_hatch
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/enchantment_power_provider.json
++ blocks/enchantment_power_transmitter.json
++ blocks/replaceable_by_trees.json
+- blocks/replaceable_plants.json
++ blocks/replaceable.json
++ blocks/sword_efficient.json
+```
+
+</details>
+
+
+<details><summary>blocks/bamboo_plantable_on.json</summary>
+
+```diff
++ minecraft:suspicious_gravel
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/shovel.json</summary>
+
+```diff
++ minecraft:suspicious_gravel
++ minecraft:suspicious_sand
+```
+
+</details>
+
+
+<details><summary>blocks/overworld_carver_replaceables.json</summary>
+
+```diff
++ minecraft:suspicious_gravel
+```
+
+</details>
+
+
+<details><summary>blocks/sculk_replaceable.json</summary>
+
+```diff
+- #minecraft:sand
++ minecraft:red_sand
++ minecraft:sand
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ gui.toRealms
++ gui.toWorld
++ quickplay.error.invalid_identifier
++ quickplay.error.realm_connect
++ quickplay.error.realm_permission
++ quickplay.error.title
++ subtitles.block.sign.waxed_interact_fail
++ subtitles.block.sniffer.egg_crack
++ subtitles.block.sniffer.egg_hatch
+- subtitles.entity.sniffer.egg_crack
+- subtitles.entity.sniffer.egg_hatch
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ music/game/a_familiar_room.ogg
++ music/game/bromeliad.ogg
++ music/game/crescent_dunes.ogg
++ music/game/echo_in_the_wind.ogg
++ records/relic.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/enchantment_power_provider.json
++ blocks/enchantment_power_transmitter.json
++ blocks/replaceable_by_trees.json
+- blocks/replaceable_plants.json
++ blocks/replaceable.json
++ blocks/sword_efficient.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ gui/title/minceraft.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:brigadier:1.0.18
++ com.mojang:brigadier:1.1.8
+```
+
+</details>

@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 18w02a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>18w02a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2018-01-10T11:54:55+00:00</td></tr>
@@ -8,74 +11,84 @@
 <tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/2175b85e150c64f7ed285e7624b87c18cd992497/1.13.json">https://piston-meta.mojang.com/v1/packages/2175b85e150c64f7ed285e7624b87c18cd992497/1.13.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/950b737e9cefc9f91f286190166f062d6b0e0105/server.jar">https://piston-data.mojang.com/v1/objects/950b737e9cefc9f91f286190166f062d6b0e0105/server.jar</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/05932046cbefd34e42ba21530b96986435163bda/client.jar">https://piston-data.mojang.com/v1/objects/05932046cbefd34e42ba21530b96986435163bda/client.jar</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/18w01a">18w01a</a>
-## File structure
+
+# Folder structure
 
 <details><summary>data/</summary>
 
 ```diff
-+  minecraft/tags/blocks/enderman_holdable.json
++ minecraft/tags/blocks/enderman_holdable.json
 ```
 
 </details>
+
 
 <details><summary>assets/</summary>
 
 ```diff
-+  minecraft/lang/en_us.json
--  minecraft/lang/en_us.lang
++ minecraft/lang/en_us.json
+- minecraft/lang/en_us.lang
 ```
 
 </details>
 
-## Commands
+
+# Commands
 
 <details><summary>execute.txt</summary>
 
 ```diff
-- execute offset <pos: vec3>
 + execute anchored <anchor: entity_anchor>
-+ execute facing entity <targets: entity> <anchor: entity_anchor>
 + execute facing <pos: vec3>
++ execute facing entity <targets: entity> <anchor: entity_anchor>
 + execute if score <target: score_holder> <targetObjective: objective> matches <range: range>
 + execute in overworld
 + execute in the_end
 + execute in the_nether
-+ execute positioned as <entities: entity>
+- execute offset <pos: vec3>
 + execute positioned <pos: vec3>
-+ execute rotated as <entities: entity>
++ execute positioned as <entities: entity>
 + execute rotated <rot: rotation>
++ execute rotated as <entities: entity>
 + execute unless score <target: score_holder> <targetObjective: objective> matches <range: range>
 ```
 
 </details>
 
+
 <details><summary>teleport.txt</summary>
 
 ```diff
++ teleport <destination: entity>
 - teleport <destination: entity> facing <facingEntity: entity>
 - teleport <destination: entity> facing <facingLocation: vec3>
++ teleport <location: vec3>
+- teleport <location: vec3> <rotation: rotation>
 - teleport <location: vec3> facing <facingEntity: entity>
 - teleport <location: vec3> facing <facingLocation: vec3>
-- teleport <location: vec3> <rotation: rotation>
++ teleport <targets: entity> <destination: entity>
 - teleport <targets: entity> <destination: entity> facing <facingEntity: entity>
 - teleport <targets: entity> <destination: entity> facing <facingLocation: vec3>
 - teleport <targets: entity> <location: vec3> facing <facingEntity: entity>
-+ teleport <destination: entity>
-+ teleport <location: vec3>
-+ teleport <targets: entity> <destination: entity>
 + teleport <targets: entity> <location: vec3> facing entity <facingEntity: entity> <facingAnchor: entity_anchor>
 ```
 
 </details>
 
-## Tags
 
-<details><summary>list</summary>
+# Tags
+
+<details><summary>List</summary>
 
 ```diff
 + blocks/enderman_holdable.json
@@ -83,15 +96,17 @@
 
 </details>
 
-## Misc
 
-<details><summary>list</summary>
+# Misc
+
+<details><summary>List</summary>
 
 ```diff
 + languages.txt
 ```
 
 </details>
+
 
 <details><summary>sounds.txt</summary>
 
@@ -260,12 +275,6 @@
 + mob/dolphin/hurt1.ogg
 + mob/dolphin/hurt2.ogg
 + mob/dolphin/hurt3.ogg
-+ mob/dolphin/idle1.ogg
-+ mob/dolphin/idle2.ogg
-+ mob/dolphin/idle3.ogg
-+ mob/dolphin/idle4.ogg
-+ mob/dolphin/idle5.ogg
-+ mob/dolphin/idle6.ogg
 + mob/dolphin/idle_water1.ogg
 + mob/dolphin/idle_water10.ogg
 + mob/dolphin/idle_water2.ogg
@@ -276,6 +285,12 @@
 + mob/dolphin/idle_water7.ogg
 + mob/dolphin/idle_water8.ogg
 + mob/dolphin/idle_water9.ogg
++ mob/dolphin/idle1.ogg
++ mob/dolphin/idle2.ogg
++ mob/dolphin/idle3.ogg
++ mob/dolphin/idle4.ogg
++ mob/dolphin/idle5.ogg
++ mob/dolphin/idle6.ogg
 + mob/dolphin/jump1.ogg
 + mob/dolphin/jump2.ogg
 + mob/dolphin/jump3.ogg
@@ -421,6 +436,7 @@
 
 </details>
 
+
 <details><summary>tags.txt</summary>
 
 ```diff
@@ -428,6 +444,7 @@
 ```
 
 </details>
+
 
 <details><summary>parsers.txt</summary>
 
@@ -437,14 +454,3 @@
 ```
 
 </details>
-
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>

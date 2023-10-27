@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w49a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w49a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-12-02T16:47:20+00:00</td></tr>
@@ -10,2521 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/0b30deba62ef6c2064dfd12f4f46b9d6388d9c8c/server.txt">https://piston-data.mojang.com/v1/objects/0b30deba62ef6c2064dfd12f4f46b9d6388d9c8c/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/818705401f58ee4df2267bf97fa2e0fb6e78ce28/client.jar">https://piston-data.mojang.com/v1/objects/818705401f58ee4df2267bf97fa2e0fb6e78ce28/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/141219c3dd05268d559a5e17e8b8f1f0bf982598/client.txt">https://piston-data.mojang.com/v1/objects/141219c3dd05268d559a5e17e8b8f1f0bf982598/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w48a">20w48a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/blocks/sculk_sensor.json
-+  minecraft/tags/blocks/dripstone_replaceable_blocks.json
-+  minecraft/tags/blocks/occludes_vibration_signals.json
-+  minecraft/tags/game_events
-+  minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
-+  minecraft/tags/game_events/vibrations.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/sculk_sensor.json
-+  minecraft/models/block/sculk_sensor.json
-+  minecraft/models/block/sculk_sensor_active.json
-+  minecraft/models/block/sculk_sensor_inactive.json
-+  minecraft/models/item/sculk_sensor.json
-+  minecraft/particles/dust_color_transition.json
-+  minecraft/particles/vibration.json
-+  minecraft/textures/block/calibrated_sculk_sensor_side.png
-+  minecraft/textures/block/calibrated_sculk_sensor_top.png
-+  minecraft/textures/block/sculk_sensor_bottom.png
-+  minecraft/textures/block/sculk_sensor_side.png
-+  minecraft/textures/block/sculk_sensor_tendril_active.png
-+  minecraft/textures/block/sculk_sensor_tendril_active.png.mcmeta
-+  minecraft/textures/block/sculk_sensor_tendril_inactive.png
-+  minecraft/textures/block/sculk_sensor_tendril_inactive.png.mcmeta
-+  minecraft/textures/block/sculk_sensor_top.png
-+  minecraft/textures/particle/vibration.png
-+  minecraft/textures/particle/vibration.png.mcmeta
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/biomes/dripstone_caves.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ game_event.txt
-+ position_source_type.txt
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:sculk_sensor
-```
-
-</details>
-
-<details><summary>block_entity_type.txt</summary>
-
-```diff
-+ minecraft:sculk_sensor
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:sculk_sensor
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:dust_color_transition
-+ minecraft:vibration
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:block.sculk_sensor.clicking
-+ minecraft:block.sculk_sensor.clicking_stop
-+ minecraft:block.sculk_sensor.break
-+ minecraft:block.sculk_sensor.fall
-+ minecraft:block.sculk_sensor.hit
-+ minecraft:block.sculk_sensor.place
-+ minecraft:block.sculk_sensor.step
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-+ minecraft:dripstone_cluster
-+ minecraft:large_dripstone
-+ minecraft:small_dripstone
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/dripstone_replaceable_blocks.json
-+ blocks/occludes_vibration_signals.json
-+ game_events/ignore_vibrations_stepping_carefully.json
-+ game_events/vibrations.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/sculk_sensor.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ dust_color_transition.json
-+ vibration.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/dripstone_replaceable_blocks.json
-+ blocks/occludes_vibration_signals.json
-+ game_events/ignore_vibrations_stepping_carefully.json
-+ game_events/vibrations.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/calibrated_sculk_sensor_side.png
-+ block/calibrated_sculk_sensor_top.png
-+ block/sculk_sensor_bottom.png
-+ block/sculk_sensor_side.png
-+ block/sculk_sensor_tendril_active.png
-+ block/sculk_sensor_tendril_inactive.png
-+ block/sculk_sensor_top.png
-+ particle/vibration.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ DataResult fixedSize(DoubleStream,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
-
-```diff
-- boolean hasBoss()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.EditServerScreen</summary>
-
-```diff
-- Component createServerButtonText(ServerData$ServerPackStatus)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.Screen</summary>
-
-```diff
-- void setSize(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.spectator.categories.SpectatorPage</summary>
-
-```diff
-- SpectatorMenuCategory category
-+ void <init>(List,int)
-- SpectatorMenuCategory getCategory()
-- void <init>(List,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
-
-```diff
-- Map getProgress()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
-
-```diff
-- boolean isEntityTickingChunk(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
-
-```diff
-+ void gameEvent(BlockPos)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
-
-```diff
-+ IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
-+ void handleAddVibrationSignal(ClientboundAddVibrationSignalPacket)
-+ void lambda$handlePlaceRecipe$10(Recipe)
-+ void readSectionList(Iterator,boolean)
-- void lambda$handlePlaceRecipe$9(Recipe)
-- void readSectionList(Iterator,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
-
-```diff
-- boolean hasCustomFrameTime(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
-
-```diff
-- boolean priority
-- boolean hasPriority()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.LanServer</summary>
-
-```diff
-- boolean isUpToDate()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-+ DefaultedRegistry GAME_EVENT
-+ Registry POSITION_SOURCE_TYPE
-+ ResourceKey GAME_EVENT_REGISTRY
-+ ResourceKey POSITION_SOURCE_TYPE_REGISTRY
-+ Activity lambda$static$28()
-+ Attribute lambda$static$19()
-+ Block lambda$static$4()
-+ BlockEntityType lambda$static$10()
-+ BlockPlacerType lambda$static$42()
-+ BlockStateProviderType lambda$static$41()
-+ ChunkStatus lambda$static$13()
-+ Codec lambda$static$47()
-+ Codec lambda$static$48()
-+ DataResult lambda$decode$53(Number)
-+ DataResult lambda$decode$55(Pair)
-+ Enchantment lambda$static$5()
-+ EntityType lambda$static$6()
-+ Feature lambda$static$37()
-+ FeatureDecorator lambda$static$40()
-+ FeatureSizeType lambda$static$46()
-+ Fluid lambda$static$2()
-+ FoliagePlacerType lambda$static$43()
-+ GameEvent lambda$static$0()
-+ Item lambda$static$7()
-+ LootItemConditionType lambda$static$31()
-+ LootItemFunctionType lambda$static$30()
-+ LootNbtProviderType lambda$static$33()
-+ LootNumberProviderType lambda$static$32()
-+ LootPoolEntryType lambda$static$29()
-+ LootScoreProviderType lambda$static$34()
-+ MemoryModuleType lambda$static$25()
-+ MenuType lambda$static$16()
-+ MobEffect lambda$static$3()
-+ Motive lambda$static$11()
-+ Object lambda$keys$56(ResourceLocation)
-+ Pair lambda$decode$54(Object)
-+ ParticleType lambda$static$9()
-+ PoiType lambda$static$24()
-+ PositionSourceType lambda$static$20()
-+ PosRuleTestType lambda$static$15()
-+ Potion lambda$static$8()
-+ RecipeSerializer lambda$static$18()
-+ RecipeType lambda$static$17()
-+ ResourceLocation lambda$static$12()
-+ RuleTestType lambda$static$14()
-+ Schedule lambda$static$27()
-+ SensorType lambda$static$26()
-+ SoundEvent lambda$static$1()
-+ StatType lambda$static$21()
-+ StructureFeature lambda$static$38()
-+ StructurePieceType lambda$static$39()
-+ StructurePoolElementType lambda$static$50()
-+ StructureProcessorType lambda$static$49()
-+ SurfaceBuilder lambda$static$35()
-+ TreeDecoratorType lambda$static$45()
-+ TrunkPlacerType lambda$static$44()
-+ VillagerProfession lambda$static$23()
-+ VillagerType lambda$static$22()
-+ void lambda$checkRegistry$52(WritableRegistry)
-+ void lambda$static$51(Supplier)
-+ WorldCarver lambda$static$36()
-- Activity lambda$static$26()
-- Attribute lambda$static$18()
-- Block lambda$static$3()
-- BlockEntityType lambda$static$9()
-- BlockPlacerType lambda$static$40()
-- BlockStateProviderType lambda$static$39()
-- ChunkStatus lambda$static$12()
-- Codec lambda$static$45()
-- Codec lambda$static$46()
-- DataResult lambda$decode$51(Number)
-- DataResult lambda$decode$53(Pair)
-- Enchantment lambda$static$4()
-- EntityType lambda$static$5()
-- Feature lambda$static$35()
-- FeatureDecorator lambda$static$38()
-- FeatureSizeType lambda$static$44()
-- Fluid lambda$static$1()
-- FoliagePlacerType lambda$static$41()
-- Item lambda$static$6()
-- LootItemConditionType lambda$static$29()
-- LootItemFunctionType lambda$static$28()
-- LootNbtProviderType lambda$static$31()
-- LootNumberProviderType lambda$static$30()
-- LootPoolEntryType lambda$static$27()
-- LootScoreProviderType lambda$static$32()
-- MemoryModuleType lambda$static$23()
-- MenuType lambda$static$15()
-- MobEffect lambda$static$2()
-- Motive lambda$static$10()
-- Object lambda$keys$54(ResourceLocation)
-- Pair lambda$decode$52(Object)
-- ParticleType lambda$static$8()
-- PoiType lambda$static$22()
-- PosRuleTestType lambda$static$14()
-- Potion lambda$static$7()
-- RecipeSerializer lambda$static$17()
-- RecipeType lambda$static$16()
-- ResourceLocation lambda$static$11()
-- RuleTestType lambda$static$13()
-- Schedule lambda$static$25()
-- SensorType lambda$static$24()
-- SoundEvent lambda$static$0()
-- StatType lambda$static$19()
-- StructureFeature lambda$static$36()
-- StructurePieceType lambda$static$37()
-- StructurePoolElementType lambda$static$48()
-- StructureProcessorType lambda$static$47()
-- SurfaceBuilder lambda$static$33()
-- TreeDecoratorType lambda$static$43()
-- TrunkPlacerType lambda$static$42()
-- VillagerProfession lambda$static$21()
-- VillagerType lambda$static$20()
-- void lambda$checkRegistry$50(WritableRegistry)
-- void lambda$static$49(Supplier)
-- WorldCarver lambda$static$34()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.core.Vec3i</summary>
-
-```diff
-+ double distSqr(Vec3i,boolean)
-+ Vec3i setX(int)
-+ Vec3i setY(int)
-+ Vec3i setZ(int)
-- void setX(int)
-- void setY(int)
-- void setZ(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.tags.TagsProvider</summary>
-
-```diff
-+ boolean lambda$null$0(Tag$BuilderEntry)
-+ Tag$Builder lambda$getOrCreateRawBuilder$2(ResourceLocation)
-+ void lambda$run$1(Tag$Builder)
-- Object lambda$run$1(ResourceLocation)
-- Tag lambda$run$0(ResourceLocation)
-- Tag$Builder lambda$getOrCreateRawBuilder$3(ResourceLocation)
-- void lambda$run$2(Tag$Builder)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
-
-```diff
-+ void addDripstone(BiomeGenerationSettings$Builder)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
-
-```diff
-+ AABB getRelativeBounds()
-+ BlockEntity getBlockEntity(BlockPos)
-+ void destroyBlock(BlockPos)
-+ void forEveryBlockInStructure(Consumer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.ListTag</summary>
-
-```diff
-- void stripEmptyChildren()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.Tag</summary>
-
-```diff
-- boolean isEmpty()
-- void stripEmptyChildren()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientGamePacketListener</summary>
-
-```diff
-+ void handleAddVibrationSignal(net.minecraft.network.protocol.game.ClientboundAddVibrationSignalPacket)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
-
-```diff
-- int maxBuildHeight
-- Executor getBackgroundTaskExecutor()
-- int getMaxBuildHeight()
-- void setMaxBuildHeight(int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionManager</summary>
-
-```diff
-- MinecraftServer getServer()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.ServerScoreboard</summary>
-
-```diff
-- MinecraftServer getServer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
-
-```diff
-+ int getHeight()
-+ int getMinBuildHeight()
-+ void gameEvent(BlockPos)
-- int getMinSection()
-- int getSectionsCount()
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-- void info(String)
-- void warn(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.ReloadableResourceManager</summary>
-
-```diff
-+ ReloadInstance createReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-- ReloadInstance createFullReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture,java.util.List)
-- ReloadInstance createQueuedReload(java.util.concurrent.Executor,java.util.concurrent.Executor,java.util.concurrent.CompletableFuture)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
-
-```diff
-- List recentlyRegistered
-+ Object lambda$createReload$0(List)
-+ ReloadInstance createReload(List)
-- Object lambda$createFullReload$0(List)
-- ReloadInstance createFullReload(List)
-- ReloadInstance createQueuedReload(CompletableFuture)
-- ReloadInstance createReload(CompletableFuture)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-- void blackList(GameProfile)
-- void whiteList(GameProfile)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.players.ServerOpList</summary>
-
-```diff
-+ String[] lambda$getUserList$0(int)
-- GameProfile find(String)
-- int getOpLevel(GameProfile)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.server.players.UserBanList</summary>
-
-```diff
-+ String[] lambda$getUserList$0(int)
-- GameProfile find(String)
-```
-
-</details>
-
-<details><summary>net.minecraft.server.players.UserWhiteList</summary>
-
-```diff
-+ String[] lambda$getUserList$0(int)
-- GameProfile find(String)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent SCULK_CLICKING
-+ SoundEvent SCULK_CLICKING_STOP
-+ SoundEvent SCULK_SENSOR_BREAK
-+ SoundEvent SCULK_SENSOR_FALL
-+ SoundEvent SCULK_SENSOR_HIT
-+ SoundEvent SCULK_SENSOR_PLACE
-+ SoundEvent SCULK_SENSOR_STEP
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.stats.StatType</summary>
-
-```diff
-- int size()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ Tag$Named DRIPSTONE_REPLACEABLE
-+ Tag$Named OCCLUDES_VIBRATION_SIGNALS
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.UniformInt</summary>
-
-```diff
-+ int getBaseValue()
-+ int getMaxValue()
-+ int getSpread()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-- void burn(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
-
-```diff
-+ Container getInventory()
-- SimpleContainer getInventory()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
-
-```diff
-- float getMovementSpeed()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.ClientSideMerchant</summary>
-
-```diff
-- MerchantContainer container
-- Container getContainer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.HopperMenu</summary>
-
-```diff
-- Container getContainer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.Slot</summary>
-
-```diff
-- boolean isAt(Container,int)
-- void swap(Slot)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.DyeColor</summary>
-
-```diff
-- int textureDiffuseColor
-- int textureDiffuseColorBGR
-- int getTextureDiffuseColorBGR()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item SCULK_SENSOR
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.EmptyBlockGetter</summary>
-
-```diff
-+ int getHeight()
-+ int getMinBuildHeight()
-- int getMinSection()
-- int getSectionsCount()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.Level</summary>
-
-```diff
-+ void postGameEventInRadius(BlockPos,int)
-- BlockState getTopBlockState(BlockPos)
-- int getMinSection()
-- int getSectionsCount()
-- void onBlockEntityAdd(BlockEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.LevelAccessor</summary>
-
-```diff
-+ void gameEvent(net.minecraft.world.entity.Entity,net.minecraft.world.level.gameevent.GameEvent,net.minecraft.core.BlockPos)
-+ void gameEvent(BlockPos)
-+ void gameEvent(Entity)
-+ void gameEvent(Entity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.LevelReader</summary>
-
-```diff
-+ int getHeight()
-+ int getMinBuildHeight()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.PathNavigationRegion</summary>
-
-```diff
-+ int getHeight()
-+ int getMinBuildHeight()
-- int getMinSection()
-- int getSectionsCount()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome</summary>
-
-```diff
-+ void lambda$generate$18(StructureStart)
-- void lambda$generate$18(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
-
-```diff
-+ ResourceKey DRIPSTONE_CAVES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
-
-```diff
-+ DamageSource getFallDamageSource()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
-
-```diff
-+ void setOpen(BlockPos,boolean)
-- void setOpen(BlockPos,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Fallable</summary>
-
-```diff
-+ DamageSource getFallDamageSource()
-+ Predicate getHurtsEntitySelector()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock$DripType</summary>
-
-```diff
-+ DimensionType dimensionType
-+ void <init>(DimensionType)
-- void <init>(Fluid)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.pattern.BlockInWorld</summary>
-
-```diff
-- boolean lambda$hasState$1(BlockInWorld)
-- Predicate hasState(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
-
-```diff
-+ Int2ObjectMap gameEventDispatcherSections
-+ Block lambda$unpackTicks$8(BlockPos)
-+ boolean lambda$getLights$5(BlockPos)
-+ boolean lambda$replaceWithPacketData$4(BlockEntity)
-+ Fluid lambda$unpackTicks$9(BlockPos)
-+ GameEventDispatcher getEventDispatcher(int)
-+ GameEventDispatcher lambda$getEventDispatcher$0(int)
-+ Heightmap lambda$getOrCreateHeightmapUnprimed$1(Heightmap$Types)
-+ int getHeight()
-+ int getMinBuildHeight()
-+ LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$11(LevelChunk$RebindableTickingBlockEntityWrapper)
-+ LongSet lambda$addReferenceForFeature$7(StructureFeature)
-+ LongSet lambda$getReferencesForFeature$6(StructureFeature)
-+ String lambda$getBlockState$2(int,int,int)
-+ String lambda$getFluidState$3(int,int,int)
-+ void addGameEventListener(BlockEntity)
-+ void lambda$registerAllBlockEntitiesAfterLevelLoad$10(BlockEntity)
-+ void removeGameEventListener(BlockEntity)
-- Block lambda$unpackTicks$7(BlockPos)
-- boolean lambda$getLights$4(BlockPos)
-- boolean lambda$replaceWithPacketData$3(BlockEntity)
-- Fluid lambda$unpackTicks$8(BlockPos)
-- Heightmap lambda$getOrCreateHeightmapUnprimed$0(Heightmap$Types)
-- int getMinSection()
-- int getSectionsCount()
-- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$9(LevelChunk$RebindableTickingBlockEntityWrapper)
-- LevelLightEngine getLightEngine()
-- LongSet lambda$addReferenceForFeature$6(StructureFeature)
-- LongSet lambda$getReferencesForFeature$5(StructureFeature)
-- String lambda$getBlockState$1(int,int,int)
-- String lambda$getFluidState$2(int,int,int)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.OldDataLayer</summary>
-
-```diff
-- boolean isValid()
-- void set(int,int,int,int)
-- void setAll(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSettings</summary>
-
-```diff
-+ int minY
-+ DataResult guardY(NoiseSettings)
-+ int minY()
-+ NoiseSettings create(NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
-+ void <init>(NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
-+ void lambda$create$1(DataResult$PartialResult)
-- void <init>(NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
-
-```diff
-- int count
-- int getCount()
-- int next(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.particle.DustColorTransitionParticle$Provider
@@ -5122,350 +2629,63 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
+<details><summary>net.minecraft.Util</summary>
 
 ```diff
-+ Vec3 REDSTONE_PARTICLE_COLOR
-- float b
-- float g
-- float r
-- float scale
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Vec3 lambda$null$0(DustParticleOptions)
-+ void <init>(Vec3,float)
-- App lambda$static$4(RecordCodecBuilder$Instance)
-- float getB()
-- float getG()
-- float getR()
-- float getScale()
-- Float lambda$null$0(DustParticleOptions)
-- Float lambda$null$2(DustParticleOptions)
-- Float lambda$null$3(DustParticleOptions)
-- String writeToString()
-- void <init>(float,float,float,float)
-- void writeToNetwork(FriendlyByteBuf)
++ DataResult fixedSize(DoubleStream,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
+<details><summary>net.minecraft.client.gui.components.BossHealthOverlay</summary>
 
 ```diff
-+ ConfiguredFeature DRIPSTONE_CLUSTER_FEATURE
-+ ConfiguredFeature LARGE_DRIPSTONE_FEATURE
-+ ConfiguredFeature SMALL_DRIPSTONE_FEATURE
+- boolean hasBoss()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
+<details><summary>net.minecraft.client.gui.screens.EditServerScreen</summary>
 
 ```diff
-+ Biome dripstoneCaves()
+- Component createServerButtonText(ServerData$ServerPackStatus)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.CompoundTag</summary>
+<details><summary>net.minecraft.client.gui.screens.Screen</summary>
 
 ```diff
-- Pattern SIMPLE_VALUE
-- String handleEscape(String)
-- void stripEmptyChildren()
+- void setSize(int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.nbt.StringTag</summary>
+<details><summary>net.minecraft.client.gui.spectator.categories.SpectatorPage</summary>
 
 ```diff
-- boolean isEmpty()
+- SpectatorMenuCategory getCategory()
++ void <init>(List,int)
+- void <init>(SpectatorMenuCategory,List,int)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.client.multiplayer.ClientAdvancements</summary>
 
+```diff
+- Map getProgress()
+```
 
+</details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientChunkCache</summary>
 
 ```diff
 - boolean isEntityTickingChunk(Entity)
@@ -5474,440 +2694,402 @@
 </details>
 
 
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientLevel</summary>
 
 ```diff
-+ boolean lambda$clearBlockEvents$19(BlockEventData)
-+ boolean lambda$findNearestBiome$14(Biome)
-+ int getLogicalHeight()
-+ String lambda$getTypeCount$21(Object2IntMap$Entry)
-+ String lambda$getWatchdogStats$20(Entity)
-+ void gameEvent(BlockPos)
-+ void lambda$makeObsidianPlatform$23(BlockPos)
-+ void lambda$null$15(BlockPos)
-+ void lambda$null$17(PoiType)
-+ void lambda$onBlockStateChange$16(PoiType)
-+ void lambda$onBlockStateChange$18(PoiType)
-+ void lambda$sendVibrationParticle$13(ServerPlayer)
-+ void sendVibrationParticle(VibrationPath)
-- boolean lambda$clearBlockEvents$18(BlockEventData)
-- boolean lambda$findNearestBiome$13(Biome)
-- String lambda$getTypeCount$20(Object2IntMap$Entry)
-- String lambda$getWatchdogStats$19(Entity)
-- void lambda$makeObsidianPlatform$21(BlockPos)
-- void lambda$null$14(BlockPos)
-- void lambda$null$16(PoiType)
-- void lambda$onBlockStateChange$15(PoiType)
-- void lambda$onBlockStateChange$17(PoiType)
++ void gameEvent(Entity,GameEvent,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.thread.GenericThread</summary>
+<details><summary>net.minecraft.client.multiplayer.ClientPacketListener</summary>
 
 ```diff
-- void run()
++ IllegalArgumentException lambda$handleCustomPayload$9(ResourceLocation)
++ void handleAddVibrationSignal(ClientboundAddVibrationSignalPacket)
++ void lambda$handlePlaceRecipe$10(AbstractContainerMenu,Recipe)
+- void lambda$handlePlaceRecipe$9(AbstractContainerMenu,Recipe)
++ void readSectionList(int,int,LevelLightEngine,LightLayer,BitSet,BitSet,Iterator,boolean)
+- void readSectionList(int,int,LevelLightEngine,LightLayer,long,long,Iterator,boolean)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.sounds.SoundSource</summary>
+<details><summary>net.minecraft.client.resources.metadata.animation.AnimationMetadataSection</summary>
 
 ```diff
-- Map BY_NAME
-- Set getNames()
-- SoundSource byName(String)
+- boolean hasCustomFrameTime(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+<details><summary>net.minecraft.client.resources.sounds.AbstractSoundInstance</summary>
 
 ```diff
-+ float fallDamagePerDistance
-- float fallDamageAmount
-+ void lambda$causeFallDamage$0(Entity)
-+ void setHurtsEntities(float,int)
-- void setHurtsEntities(boolean)
+- boolean hasPriority()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
+<details><summary>net.minecraft.client.server.LanServer</summary>
 
 ```diff
-- Vec3 getMovementTarget()
+- boolean isUpToDate()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
+<details><summary>net.minecraft.core.Registry</summary>
 
 ```diff
-- void setDefaultColor()
+- Activity lambda$static$26()
++ Activity lambda$static$28()
+- Attribute lambda$static$18()
++ Attribute lambda$static$19()
+- Block lambda$static$3()
++ Block lambda$static$4()
++ BlockEntityType lambda$static$10()
+- BlockEntityType lambda$static$9()
+- BlockPlacerType lambda$static$40()
++ BlockPlacerType lambda$static$42()
+- BlockStateProviderType lambda$static$39()
++ BlockStateProviderType lambda$static$41()
+- ChunkStatus lambda$static$12()
++ ChunkStatus lambda$static$13()
+- Codec lambda$static$45()
+- Codec lambda$static$46()
++ Codec lambda$static$47()
++ Codec lambda$static$48()
+- DataResult lambda$decode$51(Number)
++ DataResult lambda$decode$53(Number)
+- DataResult lambda$decode$53(Pair)
++ DataResult lambda$decode$55(Pair)
+- Enchantment lambda$static$4()
++ Enchantment lambda$static$5()
+- EntityType lambda$static$5()
++ EntityType lambda$static$6()
+- Feature lambda$static$35()
++ Feature lambda$static$37()
+- FeatureDecorator lambda$static$38()
++ FeatureDecorator lambda$static$40()
+- FeatureSizeType lambda$static$44()
++ FeatureSizeType lambda$static$46()
+- Fluid lambda$static$1()
++ Fluid lambda$static$2()
+- FoliagePlacerType lambda$static$41()
++ FoliagePlacerType lambda$static$43()
++ GameEvent lambda$static$0()
+- Item lambda$static$6()
++ Item lambda$static$7()
+- LootItemConditionType lambda$static$29()
++ LootItemConditionType lambda$static$31()
+- LootItemFunctionType lambda$static$28()
++ LootItemFunctionType lambda$static$30()
+- LootNbtProviderType lambda$static$31()
++ LootNbtProviderType lambda$static$33()
+- LootNumberProviderType lambda$static$30()
++ LootNumberProviderType lambda$static$32()
+- LootPoolEntryType lambda$static$27()
++ LootPoolEntryType lambda$static$29()
+- LootScoreProviderType lambda$static$32()
++ LootScoreProviderType lambda$static$34()
+- MemoryModuleType lambda$static$23()
++ MemoryModuleType lambda$static$25()
+- MenuType lambda$static$15()
++ MenuType lambda$static$16()
+- MobEffect lambda$static$2()
++ MobEffect lambda$static$3()
+- Motive lambda$static$10()
++ Motive lambda$static$11()
+- Object lambda$keys$54(DynamicOps,ResourceLocation)
++ Object lambda$keys$56(DynamicOps,ResourceLocation)
+- Pair lambda$decode$52(DynamicOps,Object)
++ Pair lambda$decode$54(DynamicOps,Object)
+- ParticleType lambda$static$8()
++ ParticleType lambda$static$9()
+- PoiType lambda$static$22()
++ PoiType lambda$static$24()
++ PositionSourceType lambda$static$20()
+- PosRuleTestType lambda$static$14()
++ PosRuleTestType lambda$static$15()
+- Potion lambda$static$7()
++ Potion lambda$static$8()
+- RecipeSerializer lambda$static$17()
++ RecipeSerializer lambda$static$18()
+- RecipeType lambda$static$16()
++ RecipeType lambda$static$17()
+- ResourceLocation lambda$static$11()
++ ResourceLocation lambda$static$12()
+- RuleTestType lambda$static$13()
++ RuleTestType lambda$static$14()
+- Schedule lambda$static$25()
++ Schedule lambda$static$27()
+- SensorType lambda$static$24()
++ SensorType lambda$static$26()
+- SoundEvent lambda$static$0()
++ SoundEvent lambda$static$1()
+- StatType lambda$static$19()
++ StatType lambda$static$21()
+- StructureFeature lambda$static$36()
++ StructureFeature lambda$static$38()
+- StructurePieceType lambda$static$37()
++ StructurePieceType lambda$static$39()
+- StructurePoolElementType lambda$static$48()
++ StructurePoolElementType lambda$static$50()
+- StructureProcessorType lambda$static$47()
++ StructureProcessorType lambda$static$49()
+- SurfaceBuilder lambda$static$33()
++ SurfaceBuilder lambda$static$35()
+- TreeDecoratorType lambda$static$43()
++ TreeDecoratorType lambda$static$45()
+- TrunkPlacerType lambda$static$42()
++ TrunkPlacerType lambda$static$44()
+- VillagerProfession lambda$static$21()
++ VillagerProfession lambda$static$23()
+- VillagerType lambda$static$20()
++ VillagerType lambda$static$22()
+- void lambda$checkRegistry$50(WritableRegistry,WritableRegistry)
++ void lambda$checkRegistry$52(WritableRegistry,WritableRegistry)
+- void lambda$static$49(ResourceLocation,Supplier)
++ void lambda$static$51(ResourceLocation,Supplier)
+- WorldCarver lambda$static$34()
++ WorldCarver lambda$static$36()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
+<details><summary>net.minecraft.core.Vec3i</summary>
 
 ```diff
-- boolean isInGround()
++ double distSqr(Vec3i,boolean)
++ Vec3i setX(int)
++ Vec3i setY(int)
++ Vec3i setZ(int)
+- void setX(int)
+- void setY(int)
+- void setZ(int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+<details><summary>net.minecraft.data.tags.TagsProvider</summary>
 
 ```diff
-- Slot getSlotFor(Container,int)
-- void addItem(ItemStack)
++ boolean lambda$null$0(Tag$BuilderEntry)
+- Object lambda$run$1(ResourceLocation)
+- Tag lambda$run$0(Tag,ResourceLocation)
++ Tag$Builder lambda$getOrCreateRawBuilder$2(ResourceLocation)
+- Tag$Builder lambda$getOrCreateRawBuilder$3(ResourceLocation)
++ void lambda$run$1(HashCache,ResourceLocation,Tag$Builder)
+- void lambda$run$2(Function,Function,HashCache,ResourceLocation,Tag$Builder)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.CraftingContainer</summary>
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
 
 ```diff
-- ItemStack getItem(int,int)
++ void addDripstone(BiomeGenerationSettings$Builder)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
++ AABB getRelativeBounds()
++ BlockEntity getBlockEntity(BlockPos)
++ void destroyBlock(BlockPos)
++ void forEveryBlockInStructure(Consumer)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.nbt.ListTag</summary>
+
+```diff
+- void stripEmptyChildren()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.nbt.Tag</summary>
+
+```diff
+- boolean isEmpty()
+- void stripEmptyChildren()
+```
+
+</details>
 
 
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
+- Executor getBackgroundTaskExecutor()
+- int getMaxBuildHeight()
+- void setMaxBuildHeight(int)
+```
+
+</details>
 
 
-<details><summary>net.minecraft.world.inventory.HorseInventoryMenu</summary>
+<details><summary>net.minecraft.server.ServerFunctionManager</summary>
+
+```diff
+- MinecraftServer getServer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerScoreboard</summary>
+
+```diff
+- MinecraftServer getServer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.WorldGenRegion</summary>
+
+```diff
++ int getHeight()
++ int getMinBuildHeight()
+- int getMinSection()
+- int getSectionsCount()
++ void gameEvent(Entity,GameEvent,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
+- void info(String)
+- void warn(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.packs.resources.SimpleReloadableResourceManager</summary>
+
+```diff
+- Object lambda$createFullReload$0(List)
++ Object lambda$createReload$0(List)
+- ReloadInstance createFullReload(Executor,Executor,CompletableFuture,List)
+- ReloadInstance createQueuedReload(Executor,Executor,CompletableFuture)
++ ReloadInstance createReload(Executor,Executor,CompletableFuture,List)
+- ReloadInstance createReload(Executor,Executor,List,CompletableFuture)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
+- void blackList(GameProfile)
+- void whiteList(GameProfile)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.ServerOpList</summary>
+
+```diff
+- GameProfile find(String)
+- int getOpLevel(GameProfile)
++ String[] lambda$getUserList$0(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.UserBanList</summary>
+
+```diff
+- GameProfile find(String)
++ String[] lambda$getUserList$0(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.UserWhiteList</summary>
+
+```diff
+- GameProfile find(String)
++ String[] lambda$getUserList$0(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.stats.StatType</summary>
+
+```diff
+- int size()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.UniformInt</summary>
+
+```diff
++ int getBaseValue()
++ int getMaxValue()
++ int getSpread()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
+- void burn(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Pillager</summary>
+
+```diff
++ Container getInventory()
+- SimpleContainer getInventory()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
+- float getMovementSpeed()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.ClientSideMerchant</summary>
 
 ```diff
 - Container getContainer()
@@ -5916,572 +3098,230 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
+<details><summary>net.minecraft.world.inventory.HopperMenu</summary>
 
 ```diff
-- void <init>(MinecraftServer)
+- Container getContainer()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.inventory.Slot</summary>
+
+```diff
+- boolean isAt(Container,int)
+- void swap(Slot)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.world.item.DyeColor</summary>
+
+```diff
+- int getTextureDiffuseColorBGR()
+```
+
+</details>
 
 
-
-
-<details><summary>net.minecraft.world.level.LevelHeightAccessor</summary>
+<details><summary>net.minecraft.world.level.EmptyBlockGetter</summary>
 
 ```diff
 + int getHeight()
 + int getMinBuildHeight()
 - int getMinSection()
 - int getSectionsCount()
-+ int getMinSection()
-+ int getSectionsCount()
-- int getHeight()
-- int getMinBuildHeight()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.NoiseColumn</summary>
+<details><summary>net.minecraft.world.level.Level</summary>
 
 ```diff
-+ int minY
-+ void <init>(BlockState[])
-- BlockEntity getBlockEntity(BlockPos)
-- FluidState getFluidState(BlockPos)
+- BlockState getTopBlockState(BlockPos)
 - int getMinSection()
 - int getSectionsCount()
-- void <init>(BlockState[])
+- void onBlockEntityAdd(BlockEntity)
++ void postGameEventInRadius(Entity,GameEvent,BlockPos,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+<details><summary>net.minecraft.world.level.LevelAccessor</summary>
 
 ```diff
-+ int CHUNK_CENTER_QUART
-+ int access$000()
-+ void <clinit>()
++ void gameEvent(Entity,GameEvent,Entity)
++ void gameEvent(GameEvent,BlockPos)
++ void gameEvent(GameEvent,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.AbstractFurnaceBlock</summary>
+<details><summary>net.minecraft.world.level.LevelReader</summary>
 
 ```diff
-- void animateTick(net.minecraft.world.level.block.state.BlockState,net.minecraft.world.level.Level,net.minecraft.core.BlockPos,java.util.Random)
++ int getHeight()
++ int getMinBuildHeight()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+<details><summary>net.minecraft.world.level.PathNavigationRegion</summary>
 
 ```diff
-+ void checkPressed(BlockState,int)
-- void checkPressed(BlockState,int)
++ int getHeight()
++ int getMinBuildHeight()
+- int getMinSection()
+- int getSectionsCount()
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
+<details><summary>net.minecraft.world.level.biome.Biome</summary>
 
 ```diff
-- void handleRain(BlockPos)
-- void prepareRender(BlockPos)
++ void lambda$generate$18(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,int,StructureStart)
+- void lambda$generate$18(WorldGenRegion,StructureFeatureManager,ChunkGenerator,WorldgenRandom,int,int,int,int,StructureStart)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
+<details><summary>net.minecraft.world.level.block.AnvilBlock</summary>
 
 ```diff
-+ Block SCULK_SENSOR
-+ boolean lambda$static$48(BlockPos)
-+ int lambda$static$47(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EntityBlock</summary>
-
-```diff
-+ GameEventListener getListener(BlockEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
-
-```diff
-+ BlockPos findRootBlock(BlockState,int)
-+ BlockPos findTip(BlockPos,int)
-+ BlockState getAirOrWater(BlockState)
 + DamageSource getFallDamageSource()
-+ float getMaxHorizontalOffset()
-+ int getStalactiteSizeFromTip(BlockPos,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+
+```diff
++ void setOpen(Entity,Level,BlockState,BlockPos,boolean)
+- void setOpen(Level,BlockState,BlockPos,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Fallable</summary>
+
+```diff
++ DamageSource getFallDamageSource()
 + Predicate getHurtsEntitySelector()
-+ void spawnDripParticle(PointedDripstoneBlock$DripType)
-- BlockPos findRootBlock(BlockState)
-- BlockPos findTip(BlockPos)
-- boolean isUnderLiquidSource(BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.RedStoneWireBlock</summary>
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock$DripType</summary>
 
 ```diff
-+ Vec3[] COLORS
-- Vector3f[] COLORS
-+ void lambda$static$0(Vec3[])
-+ void spawnParticlesAlongLine(Direction,float,float)
-- void lambda$static$0(Vector3f[])
-- void spawnParticlesAlongLine(Direction,float,float)
++ void <init>(Fluid,DimensionType)
+- void <init>(Fluid)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+<details><summary>net.minecraft.world.level.block.state.pattern.BlockInWorld</summary>
 
 ```diff
-- Component getDisplayName()
+- boolean lambda$hasState$1(BlockState,BlockInWorld)
+- Predicate hasState(BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
+<details><summary>net.minecraft.world.level.chunk.LevelChunk</summary>
 
 ```diff
-+ float getMaxHorizontalOffset()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.state.predicate.BlockStatePredicate</summary>
-
-```diff
-- BlockStatePredicate forDefinition(StateDefinition)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.state.properties.BlockStateProperties</summary>
-
-```diff
-+ EnumProperty SCULK_SENSOR_PHASE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-- LevelLightEngine getLightEngine()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
+- Block lambda$unpackTicks$7(BlockPos)
++ Block lambda$unpackTicks$8(BlockPos)
+- boolean lambda$getLights$4(BlockPos)
++ boolean lambda$getLights$5(BlockPos)
+- boolean lambda$replaceWithPacketData$3(int,BlockEntity)
++ boolean lambda$replaceWithPacketData$4(int,BlockEntity)
+- Fluid lambda$unpackTicks$8(BlockPos)
++ Fluid lambda$unpackTicks$9(BlockPos)
++ GameEventDispatcher getEventDispatcher(int)
++ GameEventDispatcher lambda$getEventDispatcher$0(int)
+- Heightmap lambda$getOrCreateHeightmapUnprimed$0(Heightmap$Types)
++ Heightmap lambda$getOrCreateHeightmapUnprimed$1(Heightmap$Types)
 + int getHeight()
 + int getMinBuildHeight()
 - int getMinSection()
 - int getSectionsCount()
++ LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$11(BlockEntity,BlockEntityTicker,BlockPos,LevelChunk$RebindableTickingBlockEntityWrapper)
+- LevelChunk$RebindableTickingBlockEntityWrapper lambda$updateBlockEntityTicker$9(BlockEntity,BlockEntityTicker,BlockPos,LevelChunk$RebindableTickingBlockEntityWrapper)
 - LevelLightEngine getLightEngine()
+- LongSet lambda$addReferenceForFeature$6(StructureFeature)
++ LongSet lambda$addReferenceForFeature$7(StructureFeature)
+- LongSet lambda$getReferencesForFeature$5(StructureFeature)
++ LongSet lambda$getReferencesForFeature$6(StructureFeature)
+- String lambda$getBlockState$1(int,int,int)
++ String lambda$getBlockState$2(int,int,int)
+- String lambda$getFluidState$2(int,int,int)
++ String lambda$getFluidState$3(int,int,int)
++ void addGameEventListener(BlockEntity)
++ void lambda$registerAllBlockEntitiesAfterLevelLoad$10(BlockEntity)
++ void removeGameEventListener(BlockEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.storage.OldChunkStorage</summary>
+<details><summary>net.minecraft.world.level.chunk.OldDataLayer</summary>
 
 ```diff
-+ LevelHeightAccessor OLD_LEVEL_HEIGHT
-+ void <clinit>()
+- boolean isValid()
+- void set(int,int,int,int)
+- void setAll(int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseSettings</summary>
 
 ```diff
-+ NoiseColumn getBaseColumn(int,int)
-- BlockGetter getBaseColumn(int,int)
++ DataResult guardY(NoiseSettings)
++ int minY()
++ NoiseSettings create(int,int,NoiseSamplingSettings,NoiseSlideSettings,NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
++ void <init>(int,int,NoiseSamplingSettings,NoiseSlideSettings,NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
+- void <init>(int,NoiseSamplingSettings,NoiseSlideSettings,NoiseSlideSettings,int,int,double,double,boolean,boolean,boolean,boolean)
++ void lambda$create$1(DataResult$PartialResult)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.WorldgenRandom</summary>
 
 ```diff
-+ NoiseColumn getBaseColumn(int,int)
-- BlockGetter getBaseColumn(int,int)
+- int getCount()
+- int next(int)
 ```
 
 </details>
 
 
+### Server
 
 
 
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
 
-```diff
-+ NoiseColumn getBaseColumn(int,int)
-- BlockGetter getBaseColumn(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature DRIPSTONE_CLUSTER
-+ Feature LARGE_DRIPSTONE
-+ Feature SMALL_DRIPSTONE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
-
-```diff
-+ NoiseColumn lambda$findSuitableY$0(BlockPos)
-- BlockGetter lambda$findSuitableY$0(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.commands.arguments.blocks.BlockInput
@@ -8855,13 +5695,584 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.particles.DustParticleOptions</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- App lambda$static$4(RecordCodecBuilder$Instance)
+- float getB()
+- float getG()
+- float getR()
+- float getScale()
+- Float lambda$null$0(DustParticleOptions)
+- Float lambda$null$2(DustParticleOptions)
+- Float lambda$null$3(DustParticleOptions)
+- String writeToString()
++ Vec3 lambda$null$0(DustParticleOptions)
+- void <init>(float,float,float,float)
++ void <init>(Vec3,float)
+- void writeToNetwork(FriendlyByteBuf)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.biome.VanillaBiomes</summary>
+
+```diff
++ Biome dripstoneCaves()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.CompoundTag</summary>
+
+```diff
+- String handleEscape(String)
+- void stripEmptyChildren()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.nbt.StringTag</summary>
+
+```diff
+- boolean isEmpty()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+
+```diff
+- boolean isEntityTickingChunk(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
+- boolean lambda$clearBlockEvents$18(BoundingBox,BlockEventData)
++ boolean lambda$clearBlockEvents$19(BoundingBox,BlockEventData)
+- boolean lambda$findNearestBiome$13(Biome,Biome)
++ boolean lambda$findNearestBiome$14(Biome,Biome)
++ int getLogicalHeight()
+- String lambda$getTypeCount$20(Object2IntMap$Entry)
++ String lambda$getTypeCount$21(Object2IntMap$Entry)
+- String lambda$getWatchdogStats$19(Entity)
++ String lambda$getWatchdogStats$20(Entity)
++ void gameEvent(Entity,GameEvent,BlockPos)
+- void lambda$makeObsidianPlatform$21(ServerLevel,BlockPos)
++ void lambda$makeObsidianPlatform$23(ServerLevel,BlockPos)
+- void lambda$null$14(BlockPos)
++ void lambda$null$15(BlockPos)
+- void lambda$null$16(BlockPos,PoiType)
++ void lambda$null$17(BlockPos,PoiType)
+- void lambda$onBlockStateChange$15(BlockPos,PoiType)
++ void lambda$onBlockStateChange$16(BlockPos,PoiType)
+- void lambda$onBlockStateChange$17(BlockPos,PoiType)
++ void lambda$onBlockStateChange$18(BlockPos,PoiType)
++ void lambda$sendVibrationParticle$13(BlockPos,ClientboundAddVibrationSignalPacket,ServerPlayer)
++ void sendVibrationParticle(VibrationPath)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.sounds.SoundSource</summary>
+
+```diff
+- Set getNames()
+- SoundSource byName(String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
++ void lambda$causeFallDamage$0(DamageSource,float,Entity)
+- void setHurtsEntities(boolean)
++ void setHurtsEntities(float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Phantom</summary>
+
+```diff
+- Vec3 getMovementTarget()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
+
+```diff
+- void setDefaultColor()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.projectile.AbstractArrow</summary>
+
+```diff
+- boolean isInGround()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.AbstractContainerMenu</summary>
+
+```diff
+- Slot getSlotFor(Container,int)
+- void addItem(int,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.CraftingContainer</summary>
+
+```diff
+- ItemStack getItem(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.inventory.HorseInventoryMenu</summary>
+
+```diff
+- Container getContainer()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.GameRules</summary>
+
+```diff
+- void <init>(GameRules,MinecraftServer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.LevelHeightAccessor</summary>
+
+```diff
+- int getHeight()
+- int getMinBuildHeight()
++ int getMinSection()
++ int getSectionsCount()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.NoiseColumn</summary>
+
+```diff
+- BlockEntity getBlockEntity(BlockPos)
+- FluidState getFluidState(BlockPos)
+- int getMinSection()
+- int getSectionsCount()
+- void <init>(BlockState[])
++ void <init>(int,BlockState[])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
+
+```diff
++ int access$000()
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.BasePressurePlateBlock</summary>
+
+```diff
++ void checkPressed(Entity,Level,BlockPos,BlockState,int)
+- void checkPressed(Level,BlockPos,BlockState,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
+- void handleRain(BlockState,Level,BlockPos)
+- void prepareRender(BlockGetter,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
++ boolean lambda$static$48(BlockState,BlockGetter,BlockPos)
++ int lambda$static$47(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EntityBlock</summary>
+
+```diff
++ GameEventListener getListener(Level,BlockEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+
+```diff
++ BlockPos findRootBlock(Level,BlockPos,BlockState,int)
+- BlockPos findRootBlock(Level,BlockPos,BlockState)
++ BlockPos findTip(BlockState,LevelAccessor,BlockPos,int)
+- BlockPos findTip(BlockState,LevelAccessor,BlockPos)
++ BlockState getAirOrWater(BlockState)
+- boolean isUnderLiquidSource(Level,BlockPos)
++ DamageSource getFallDamageSource()
++ float getMaxHorizontalOffset()
++ int getStalactiteSizeFromTip(ServerLevel,BlockPos,int)
++ Predicate getHurtsEntitySelector()
++ void spawnDripParticle(Level,BlockPos,BlockState,PointedDripstoneBlock$DripType)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.RedStoneWireBlock</summary>
+
+```diff
++ void lambda$static$0(Vec3[])
+- void lambda$static$0(Vector3f[])
++ void spawnParticlesAlongLine(Level,Random,BlockPos,Vec3,Direction,Direction,float,float)
+- void spawnParticlesAlongLine(Level,Random,BlockPos,Vector3f,Direction,Direction,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
+- Component getDisplayName()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
+
+```diff
++ float getMaxHorizontalOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.state.predicate.BlockStatePredicate</summary>
+
+```diff
+- BlockStatePredicate forDefinition(StateDefinition)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
+
+```diff
+- LevelLightEngine getLightEngine()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
++ int getHeight()
++ int getMinBuildHeight()
+- int getMinSection()
+- int getSectionsCount()
+- LevelLightEngine getLightEngine()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.storage.OldChunkStorage</summary>
+
+```diff
++ void <clinit>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
+- BlockGetter getBaseColumn(int,int)
++ NoiseColumn getBaseColumn(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
+- BlockGetter getBaseColumn(int,int)
++ NoiseColumn getBaseColumn(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- BlockGetter getBaseColumn(int,int)
++ NoiseColumn getBaseColumn(int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature</summary>
+
+```diff
+- BlockGetter lambda$findSuitableY$0(ChunkGenerator,BlockPos)
++ NoiseColumn lambda$findSuitableY$0(ChunkGenerator,BlockPos)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/blocks/sculk_sensor.json
++ minecraft/tags/blocks/dripstone_replaceable_blocks.json
++ minecraft/tags/blocks/occludes_vibration_signals.json
++ minecraft/tags/game_events/ignore_vibrations_stepping_carefully.json
++ minecraft/tags/game_events/vibrations.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/sculk_sensor.json
++ minecraft/models/block/sculk_sensor_active.json
++ minecraft/models/block/sculk_sensor_inactive.json
++ minecraft/models/block/sculk_sensor.json
++ minecraft/models/item/sculk_sensor.json
++ minecraft/particles/dust_color_transition.json
++ minecraft/particles/vibration.json
++ minecraft/textures/block/calibrated_sculk_sensor_side.png
++ minecraft/textures/block/calibrated_sculk_sensor_top.png
++ minecraft/textures/block/sculk_sensor_bottom.png
++ minecraft/textures/block/sculk_sensor_side.png
++ minecraft/textures/block/sculk_sensor_tendril_active.png
++ minecraft/textures/block/sculk_sensor_tendril_active.png.mcmeta
++ minecraft/textures/block/sculk_sensor_tendril_inactive.png
++ minecraft/textures/block/sculk_sensor_tendril_inactive.png.mcmeta
++ minecraft/textures/block/sculk_sensor_top.png
++ minecraft/textures/particle/vibration.png
++ minecraft/textures/particle/vibration.png.mcmeta
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/biomes/dripstone_caves.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ game_event.txt
++ position_source_type.txt
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:sculk_sensor
+```
+
+</details>
+
+
+<details><summary>block_entity_type.txt</summary>
+
+```diff
++ minecraft:sculk_sensor
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:sculk_sensor
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:dust_color_transition
++ minecraft:vibration
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:block.sculk_sensor.break
++ minecraft:block.sculk_sensor.clicking
++ minecraft:block.sculk_sensor.clicking_stop
++ minecraft:block.sculk_sensor.fall
++ minecraft:block.sculk_sensor.hit
++ minecraft:block.sculk_sensor.place
++ minecraft:block.sculk_sensor.step
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:dripstone_cluster
++ minecraft:large_dripstone
++ minecraft:small_dripstone
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/dripstone_replaceable_blocks.json
++ blocks/occludes_vibration_signals.json
++ game_events/ignore_vibrations_stepping_carefully.json
++ game_events/vibrations.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ biome.minecraft.dripstone_caves
++ block.minecraft.sculk_sensor
++ death.attack.fallingStalactite
++ death.attack.fallingStalactite.player
++ subtitles.block.sculk_sensor.clicking
++ subtitles.block.sculk_sensor.clicking_stop
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/sculk_sensor.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ dust_color_transition.json
++ vibration.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/dripstone_replaceable_blocks.json
++ blocks/occludes_vibration_signals.json
++ game_events/ignore_vibrations_stepping_carefully.json
++ game_events/vibrations.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/calibrated_sculk_sensor_side.png
++ block/calibrated_sculk_sensor_top.png
++ block/sculk_sensor_bottom.png
++ block/sculk_sensor_side.png
++ block/sculk_sensor_tendril_active.png
++ block/sculk_sensor_tendril_inactive.png
++ block/sculk_sensor_top.png
++ particle/vibration.png
+```
+
+</details>

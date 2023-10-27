@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w37a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w37a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-09-15T16:04:30+00:00</td></tr>
@@ -10,2942 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/b8bfb658eb0229d74f7d36c004d6bc71b6d2d63c/server.txt">https://piston-data.mojang.com/v1/objects/b8bfb658eb0229d74f7d36c004d6bc71b6d2d63c/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/be41b4e18f4a600365fd7a2b8eeac49232304ced/client.jar">https://piston-data.mojang.com/v1/objects/be41b4e18f4a600365fd7a2b8eeac49232304ced/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7761b416aed2c0c449f7f879c184fe56372fd226/client.txt">https://piston-data.mojang.com/v1/objects/7761b416aed2c0c449f7f879c184fe56372fd226/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.17.1">1.17.1</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/lava_pool_stone_cannot_replace.json
--  minecraft/tags/blocks/lava_pool_stone_replaceables.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/font/illageralt.json
-+  minecraft/textures/font/asciillager.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
-+  reports/biomes/grove.json
-+  reports/biomes/lofty_peaks.json
-+  reports/biomes/meadow.json
-+  reports/biomes/snowcapped_peaks.json
-+  reports/biomes/snowy_slopes.json
-+  reports/biomes/stony_peaks.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:item.bundle.drop_contents
-+ minecraft:item.bundle.insert
-+ minecraft:item.bundle.remove_one
-```
-
-</details>
-
-<details><summary>worldgen/biome_source.txt</summary>
-
-```diff
-- minecraft:vanilla_layered
-```
-
-</details>
-
-<details><summary>worldgen/block_state_provider_type.txt</summary>
-
-```diff
-- minecraft:plain_flower_provider
-- minecraft:forest_flower_provider
-+ minecraft:noise_2d_cutoff_provider
-+ minecraft:noise_2d_provider
-+ minecraft:dual_noise_2d_provider
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-+ minecraft:surface_relative_threshold
-```
-
-</details>
-
-<details><summary>worldgen/surface_builder.txt</summary>
-
-```diff
-+ minecraft:grove
-+ minecraft:snowcapped_peaks
-+ minecraft:snowy_slopes
-+ minecraft:lofty_peaks
-+ minecraft:stony_peaks
-+ minecraft:stone_shore
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ jfr.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/lava_pool_stone_replaceables.json
-+ blocks/lava_pool_stone_cannot_replace.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>languages.txt</summary>
-
-```diff
-+ ry_ua.json
-+ realms/lang/ry_ua.json
-```
-
-</details>
-
-<details><summary>sounds.txt</summary>
-
-```diff
-+ item/bundle/drop_contents1.ogg
-+ item/bundle/drop_contents2.ogg
-+ item/bundle/drop_contents3.ogg
-+ item/bundle/insert1.ogg
-+ item/bundle/insert2.ogg
-+ item/bundle/insert3.ogg
-+ item/bundle/remove_one1.ogg
-+ item/bundle/remove_one2.ogg
-+ item/bundle/remove_one3.ogg
-+ music/game/an_ordinary_day.ogg
-+ music/game/comforting_memories.ogg
-+ music/game/floating_dream.ogg
-+ music/game/infinite_amethyst.ogg
-+ music/game/left_to_bloom.ogg
-+ music/game/one_more_day.ogg
-+ music/game/stand_tall.ogg
-+ music/game/wending.ogg
-+ records/otherside.ogg
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/lava_pool_stone_replaceables.json
-+ blocks/lava_pool_stone_cannot_replace.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ font/asciillager.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.mojang:javabridge:1.1.23
-+ com.mojang:javabridge:1.2.24
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
-
-```diff
-- long selectedServerId
-+ boolean lambda$removeServer$12(RealmsMainScreen$Entry)
-+ boolean lambda$updateTeaserImages$14(String)
-+ boolean lambda$updateTeaserImages$15(ResourceLocation)
-+ RealmsServer getSelectedServer()
-+ void lambda$charTyped$13(KeyCombo)
-+ void lambda$leaveClicked$11(RealmsServer,boolean)
-+ void leaveServer(RealmsServer)
-+ void onRenew(RealmsServer)
-+ void resetScreen()
-- boolean lambda$removeServer$11(RealmsMainScreen$Entry)
-- boolean lambda$updateTeaserImages$13(String)
-- boolean lambda$updateTeaserImages$14(ResourceLocation)
-- RealmsServer findServer(long)
-- void checkUnreadNews()
-- void closePopup()
-- void lambda$charTyped$12(KeyCombo)
-- void leaveServer(boolean)
-- void onRenew()
-- void removeSelection()
-- void setTooltip(Iterable)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
-
-```diff
-+ RealmsServer getServer()
-```
-
-</details>
-
-<details><summary>com.mojang.realmsclient.RealmsMainScreen$TrialEntry</summary>
-
-```diff
-+ RealmsServer getServer()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
-
-```diff
-- Component REQUIRES_CONVERSION_TEXT
-+ boolean lambda$loadLevelList$0(LevelSummary)
-+ int lambda$loadLevelList$1(LevelSummary)
-+ void lambda$init$3(Button)
-- int lambda$loadLevelList$0(LevelSummary)
-- void lambda$init$1(Button)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.color.block.BlockTintCache$LatestCacheInfo</summary>
-
-```diff
-+ BlockTintCache$CacheData cache
-- int[] cache
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.InBedChatScreen</summary>
-
-```diff
-+ void onPlayerWokeUp()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
-
-```diff
-+ CompletableFuture lambda$runTask$0(ChunkBufferBuilderPack)
-+ CompletionStage lambda$runTask$1(CompletableFuture)
-+ void uploadAllPendingUploads()
-- boolean uploadAllPendingUploads()
-- CompletionStage lambda$runTask$1(Void)
-- void lambda$runTask$0()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
-
-```diff
-- int lastFrame
-- boolean setFrame(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask</summary>
-
-```diff
-+ String name()
-```
-
-</details>
-
-<details><summary>net.minecraft.client.renderer.chunk.RenderChunkRegion</summary>
-
-```diff
-- BlockPos start
-- BlockState[] blockStates
-- int xLength
-- int yLength
-- int zLength
-+ void <init>(LevelChunk[][])
-- int index(BlockPos)
-- int index(int,int,int)
-- void <init>(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
-
-```diff
-+ boolean isEntityUpsideDown(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.server.IntegratedServer</summary>
-
-```diff
-- int CLIENT_VIEW_DISTANCE_OFFSET
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.sounds.SoundManager</summary>
-
-```diff
-+ List getAvailableSoundDevices()
-+ void reload()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.ObjectiveArgument</summary>
-
-```diff
-- DynamicCommandExceptionType ERROR_OBJECTIVE_NAME_TOO_LONG
-- Message lambda$static$2(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
-
-```diff
-- CommandSyntaxException lambda$parse$2(ResourceLocation)
-- Predicate lambda$parse$1(TagContainer)
-- Predicate lambda$parse$3(TagContainer)
-```
-
-</details>
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument$Result</summary>
-
-```diff
-+ boolean requiresNbt()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.IdMap</summary>
-
-```diff
-+ int DEFAULT
-+ int size()
-```
-
-</details>
-
-<details><summary>net.minecraft.core.MappedRegistry</summary>
-
-```diff
-+ int size()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
-
-```diff
-+ Biome lambda$static$4()
-+ Object registerMapping(Object)
-+ StructureProcessorList lambda$static$3()
-+ void lambda$static$5(Supplier)
-- Biome lambda$static$5()
-- ConfiguredStructureFeature lambda$static$3()
-- Object registerMapping(Object)
-- StructureProcessorList lambda$static$4()
-- void lambda$static$6(Supplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
-
-```diff
-+ void addDefaultOres(BiomeGenerationSettings$Builder,boolean)
-+ void addLavaLakes(BiomeGenerationSettings$Builder)
-+ void addMeadowVegetation(BiomeGenerationSettings$Builder)
-- void addDefaultOverworldLandMesaStructures(BiomeGenerationSettings$Builder)
-- void addDefaultOverworldLandStructures(BiomeGenerationSettings$Builder)
-- void addDefaultOverworldOceanStructures(BiomeGenerationSettings$Builder)
-- void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder,boolean)
-- void addDesertLakes(BiomeGenerationSettings$Builder)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.data.worldgen.Features$Configs</summary>
-
-```diff
-+ BlockPileConfiguration CRIMSON_FOREST
-+ BlockPileConfiguration NETHER_SPROUTS
-+ BlockPileConfiguration WARPED_FOREST
-+ RandomPatchConfiguration DEAD_BUSH
-+ RandomPatchConfiguration DEFAULT_FLOWER
-+ RandomPatchConfiguration DEFAULT_GRASS
-+ RandomPatchConfiguration JUNGLE_GRASS
-+ RandomPatchConfiguration SUGAR_CANE
-+ RandomPatchConfiguration SWEET_BERRY_BUSH
-+ RandomPatchConfiguration TAIGA_GRASS
-+ RandomPatchConfiguration TALL_GRASS
-+ SpringConfiguration CLOSED_NETHER_SPRING
-+ SpringConfiguration LAVA_SPRING
-- BlockPileConfiguration CRIMSON_FOREST_CONFIG
-- BlockPileConfiguration NETHER_SPROUTS_CONFIG
-- BlockPileConfiguration WARPED_FOREST_CONFIG
-- RandomPatchConfiguration DEAD_BUSH_CONFIG
-- RandomPatchConfiguration DEFAULT_FLOWER_CONFIG
-- RandomPatchConfiguration DEFAULT_GRASS_CONFIG
-- RandomPatchConfiguration JUNGLE_GRASS_CONFIG
-- RandomPatchConfiguration SUGAR_CANE_CONFIG
-- RandomPatchConfiguration SWEET_BERRY_BUSH_CONFIG
-- RandomPatchConfiguration TAIGA_GRASS_CONFIG
-- RandomPatchConfiguration TALL_GRASS_CONFIG
-- SpringConfiguration CLOSED_NETHER_SPRING_CONFIG
-- SpringConfiguration LAVA_SPRING_CONFIG
-```
-
-</details>
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundLightUpdatePacket</summary>
-
-```diff
-+ ClientboundLightUpdatePacketData lightData
-- BitSet blockYMask
-- BitSet emptyBlockYMask
-- BitSet emptySkyYMask
-- BitSet skyYMask
-- boolean trustEdges
-- List blockUpdates
-- List skyUpdates
-+ ClientboundLightUpdatePacketData getLightData()
-- BitSet getBlockYMask()
-- BitSet getEmptyBlockYMask()
-- BitSet getEmptySkyYMask()
-- BitSet getSkyYMask()
-- boolean getTrustEdges()
-- byte[] lambda$new$0(FriendlyByteBuf)
-- byte[] lambda$new$1(FriendlyByteBuf)
-- List getBlockUpdates()
-- List getSkyUpdates()
-- void prepareSectionData(List)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ChunkMap</summary>
-
-```diff
-+ boolean isChunkInEuclideanRange(ChunkPos,int,int,int)
-+ boolean isChunkInEuclideanRange(int,int,int,int,int)
-+ boolean isChunkInEuclideanRange(ServerPlayer,boolean,int)
-+ boolean isChunkOnEuclideanBorder(int,int,int,int,int)
-+ boolean isChunkOnEuclideanBorder(ServerPlayer,boolean,int)
-+ boolean lambda$getPlayers$47(ServerPlayer)
-+ boolean lambda$getPlayersCloseForSpawning$46(ServerPlayer)
-+ boolean lambda$saveAllChunks$10()
-+ boolean lambda$saveAllChunks$8(ChunkAccess)
-+ ChunkAccess lambda$protoChunkToFullChunk$27(ChunkAccess)
-+ ChunkAccess lambda$saveAllChunks$7(ChunkHolder)
-+ ChunkGenerator generator()
-+ ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$26(ChunkHolder)
-+ ChunkStatus lambda$prepareEntityTickingChunk$4(int)
-+ ChunkStatus lambda$prepareTickingChunk$30(int)
-+ ChunkStatus lambda$scheduleChunkGeneration$16(ChunkStatus,int)
-+ CompletableFuture lambda$schedule$14(ChunkAccess)
-+ CompletableFuture lambda$scheduleChunkGeneration$19(ChunkAccess)
-+ CompletableFuture lambda$scheduleChunkGeneration$20(List)
-+ CompletableFuture lambda$scheduleChunkGeneration$21(ChunkHolder$ChunkLoadingFailure)
-+ CompletionStage lambda$scheduleChunkGeneration$22(Either)
-+ DataResult lambda$debugReloadGenerator$0(JsonElement)
-+ Either lambda$getChunkRangeFuture$3(List)
-+ Either lambda$prepareAccessibleChunk$39(Either)
-+ Either lambda$prepareEntityTickingChunk$6(Either)
-+ Either lambda$prepareTickingChunk$31(List)
-+ Either lambda$prepareTickingChunk$32(Either)
-+ Either lambda$protoChunkToFullChunk$28(Either)
-+ Either lambda$scheduleChunkLoad$15(ChunkPos)
-+ int lambda$getChunkQueueLevel$2(long)
-+ Integer lambda$dumpChunks$43(LevelChunk)
-+ LevelChunk lambda$prepareAccessibleChunk$38(List)
-+ LevelChunk lambda$prepareEntityTickingChunk$5(List)
-+ Optional lambda$dumpChunks$42(ChunkAccess)
-+ Stream getPlayersCloseForSpawning(ChunkPos)
-+ String lambda$printFuture$44(LevelChunk)
-+ String lambda$printFuture$45(ChunkHolder$ChunkLoadingFailure)
-+ String lambda$releaseLightTicket$24(ChunkPos)
-+ String lambda$scheduleChunkGeneration$17(ChunkStatus)
-+ void debugReloadGenerator()
-+ void lambda$debugReloadGenerator$1(ChunkGenerator)
-+ void lambda$packTicks$48(LevelChunk)
-+ void lambda$prepareAccessibleChunk$40(Runnable)
-+ void lambda$prepareTickingChunk$33(Runnable)
-+ void lambda$prepareTickingChunk$34(ServerPlayer)
-+ void lambda$prepareTickingChunk$35(LevelChunk)
-+ void lambda$prepareTickingChunk$36(Either)
-+ void lambda$prepareTickingChunk$37(Runnable)
-+ void lambda$protoChunkToFullChunk$25(LevelChunk)
-+ void lambda$protoChunkToFullChunk$29(Runnable)
-+ void lambda$releaseLightTicket$23(ChunkPos)
-+ void lambda$saveAllChunks$11(ChunkHolder)
-+ void lambda$saveAllChunks$9(ChunkAccess)
-+ void lambda$scheduleChunkGeneration$18(Runnable)
-+ void lambda$scheduleUnload$12(ChunkAccess)
-+ void lambda$scheduleUnload$13(Throwable)
-+ void lambda$setViewDistance$41(ServerPlayer)
-+ void playerLoadedChunk(LevelChunk)
-+ void updateChunkTracking(MutableObject,boolean,boolean)
-- boolean lambda$getPlayers$45(ServerPlayer)
-- boolean lambda$noPlayersCloseForSpawning$44(ServerPlayer)
-- boolean lambda$saveAllChunks$6(ChunkAccess)
-- boolean lambda$saveAllChunks$8()
-- ChunkAccess lambda$protoChunkToFullChunk$25(ChunkAccess)
-- ChunkAccess lambda$saveAllChunks$5(ChunkHolder)
-- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$24(ChunkHolder)
-- ChunkStatus lambda$prepareEntityTickingChunk$2(int)
-- ChunkStatus lambda$prepareTickingChunk$28(int)
-- ChunkStatus lambda$scheduleChunkGeneration$14(ChunkStatus,int)
-- CompletableFuture lambda$schedule$12(ChunkAccess)
-- CompletableFuture lambda$scheduleChunkGeneration$17(ChunkAccess)
-- CompletableFuture lambda$scheduleChunkGeneration$18(List)
-- CompletableFuture lambda$scheduleChunkGeneration$19(ChunkHolder$ChunkLoadingFailure)
-- CompletionStage lambda$scheduleChunkGeneration$20(Either)
-- Either lambda$getChunkRangeFuture$1(List)
-- Either lambda$prepareAccessibleChunk$37(Either)
-- Either lambda$prepareEntityTickingChunk$4(Either)
-- Either lambda$prepareTickingChunk$29(List)
-- Either lambda$prepareTickingChunk$30(Either)
-- Either lambda$protoChunkToFullChunk$26(Either)
-- Either lambda$scheduleChunkLoad$13(ChunkPos)
-- int checkerboardDistance(ChunkPos,int,int)
-- int checkerboardDistance(Entity)
-- int checkerboardDistance(ServerPlayer,boolean)
-- int lambda$getChunkQueueLevel$0(long)
-- Integer lambda$dumpChunks$41(LevelChunk)
-- LevelChunk lambda$prepareAccessibleChunk$36(List)
-- LevelChunk lambda$prepareEntityTickingChunk$3(List)
-- Optional lambda$dumpChunks$40(ChunkAccess)
-- String lambda$printFuture$42(LevelChunk)
-- String lambda$printFuture$43(ChunkHolder$ChunkLoadingFailure)
-- String lambda$releaseLightTicket$22(ChunkPos)
-- String lambda$scheduleChunkGeneration$15(ChunkStatus)
-- void lambda$packTicks$46(LevelChunk)
-- void lambda$prepareAccessibleChunk$38(Runnable)
-- void lambda$prepareTickingChunk$31(Runnable)
-- void lambda$prepareTickingChunk$32(ServerPlayer)
-- void lambda$prepareTickingChunk$33(LevelChunk)
-- void lambda$prepareTickingChunk$34(Either)
-- void lambda$prepareTickingChunk$35(Runnable)
-- void lambda$protoChunkToFullChunk$23(LevelChunk)
-- void lambda$protoChunkToFullChunk$27(Runnable)
-- void lambda$releaseLightTicket$21(ChunkPos)
-- void lambda$saveAllChunks$7(ChunkAccess)
-- void lambda$saveAllChunks$9(ChunkHolder)
-- void lambda$scheduleChunkGeneration$16(Runnable)
-- void lambda$scheduleUnload$10(ChunkAccess)
-- void lambda$scheduleUnload$11(Throwable)
-- void lambda$setViewDistance$39(ServerPlayer)
-- void playerLoadedChunk(LevelChunk)
-- void updateChunkTracking(Packet[],boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
-
-```diff
-- ChunkGenerator generator
-- boolean checkChunkFuture(Function)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean lambda$isInWall$2(BlockState)
-+ Level getLevel()
-- boolean lambda$isInWall$2(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.MobCategory</summary>
-
-```diff
-+ MobCategory AXOLOTLS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
-
-```diff
-+ boolean goalCanBeReplacedForAllFlags(Map)
-+ boolean goalContainsAnyFlags(EnumSet)
-- boolean lambda$tick$2(WrappedGoal)
-- boolean lambda$tick$4(WrappedGoal)
-- boolean lambda$tick$5(WrappedGoal)
-- boolean lambda$tick$6(Goal$Flag)
-- boolean lambda$tick$7(WrappedGoal)
-- void lambda$tick$3(WrappedGoal)
-- void lambda$tick$8(Goal$Flag)
-- void lambda$tick$9(WrappedGoal)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.navigation.GroundPathNavigation</summary>
-
-```diff
-- boolean canMoveDirectly(Vec3,int,int,int)
-- boolean canWalkAbove(Vec3,double,double)
-- boolean canWalkOn(Vec3,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.Items</summary>
-
-```diff
-+ Item FLOWERING_AZALEA_LEAVES
-+ Item GLOBE_BANNER_PATTERN
-- Item AZALEA_LEAVES_FLOWERS
-- Item GLOBE_BANNER_PATTER
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.BaseSpawner</summary>
-
-```diff
-+ SimpleWeightedRandomList spawnPotentials
-- WeightedRandomList EMPTY_POTENTIALS
-- WeightedRandomList spawnPotentials
-+ CompoundTag save(CompoundTag)
-+ IllegalStateException lambda$save$6()
-+ void lambda$delay$1(WeightedEntry$Wrapper)
-+ void lambda$load$2(String)
-+ void lambda$load$3(String)
-+ void lambda$load$4(String)
-+ void lambda$load$5(WeightedEntry$Wrapper)
-- CompoundTag save(CompoundTag)
-- ResourceLocation getEntityId(BlockPos)
-- void lambda$delay$1(SpawnData)
-- void lambda$load$2(SpawnData)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.BlockEventData</summary>
-
-```diff
-+ Block block()
-+ BlockPos pos()
-+ int paramA()
-+ int paramB()
-- Block getBlock()
-- BlockPos getPos()
-- int getParamA()
-- int getParamB()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.NaturalSpawner$SpawnState</summary>
-
-```diff
-+ LocalMobCapCalculator localMobCapCalculator
-+ boolean canSpawnForCategory(ChunkPos)
-+ void <init>(LocalMobCapCalculator)
-- boolean canSpawnForCategory(MobCategory)
-- void <init>(PotentialCalculator)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
-
-```diff
-+ Set featureSet
-- List structureStarts
-+ App lambda$static$4(RecordCodecBuilder$Instance)
-+ boolean hasFeature(ConfiguredFeature)
-+ boolean lambda$new$5(ConfiguredFeature)
-+ void <init>(List)
-- App lambda$static$5(RecordCodecBuilder$Instance)
-- boolean isValidStart(StructureFeature)
-- boolean lambda$isValidStart$7(Supplier)
-- boolean lambda$new$6(ConfiguredFeature)
-- boolean lambda$withBiomeConfig$8(ConfiguredStructureFeature)
-- Collection structures()
-- ConfiguredStructureFeature withBiomeConfig(ConfiguredStructureFeature)
-- List lambda$static$4(BiomeGenerationSettings)
-- void <init>(List)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
-
-```diff
-+ int ZOOM
-+ int ZOOM_BITS
-+ int ZOOM_MASK
-- BiomeZoomer zoomer
-+ BiomeManager withDifferentSource(BiomeManager$NoiseBiomeSource)
-+ double getFiddle(long)
-+ double getFiddledDistance(long,int,int,int,double,double,double)
-+ void <init>(BiomeManager$NoiseBiomeSource,long)
-- Biome getPrimaryBiomeAtChunk(ChunkPos)
-- BiomeManager withDifferentSource(BiomeSource)
-- void <init>(BiomeZoomer)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
-
-```diff
-+ Biome getNoiseBiome(int,int,int,net.minecraft.world.level.biome.Climate$Sampler)
-+ ImmutableList featuresPerStep
-+ ImmutableSet surfaceBlocks
-- Map supportedStructures
-- Set surfaceBlocks
-+ BlockPos findBiomeHorizontal(Climate$Sampler)
-+ BlockPos findBiomeHorizontal(Climate$Sampler)
-+ BlockState lambda$new$0(Biome)
-+ boolean hasSurfaceBlock(BlockState)
-+ boolean lambda$new$2(BiomeSource$1FeatureData)
-+ ImmutableList featuresPerStep()
-+ Set getBiomesWithin(Climate$Sampler)
-+ Set lambda$new$1(BiomeSource$1FeatureData)
-+ void addMultinoiseDebugInfo(Climate$Sampler)
-- BlockPos findBiomeHorizontal(Random,boolean)
-- BlockPos findBiomeHorizontal(Random)
-- boolean canGenerateStructure(StructureFeature)
-- boolean lambda$canGenerateStructure$0(Biome)
-- Boolean lambda$canGenerateStructure$1(StructureFeature)
-- Set getBiomesWithin(int,int,int,int)
-- Set getSurfaceBlocks()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.Biomes</summary>
-
-```diff
-+ ResourceKey GROVE
-+ ResourceKey LOFTY_PEAKS
-+ ResourceKey MEADOW
-+ ResourceKey SNOWCAPPED_PEAKS
-+ ResourceKey SNOWY_SLOPES
-+ ResourceKey STONY_PEAKS
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance</summary>
-
-```diff
-- long seed
-+ void <init>(Registry)
-- long seed()
-- void <init>(Registry,long)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.chunk.GlobalPalette</summary>
-
-```diff
-+ IdMap registry
-- IdMapper registry
-- Object defaultValue
-+ Palette create(PaletteResize)
-+ void <init>(IdMap)
-- void <init>(Object)
-- void read(ListTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
-
-```diff
-+ boolean allowWrites
-+ Biome getNoiseBiome(int,int,int)
-+ Heightmap getOrCreateHeightmapUnprimed(Heightmap$Types)
-+ LevelChunkSection getSection(int)
-+ void <init>(LevelChunk,boolean)
-+ void fillBiomesFromNoise(Climate$Sampler)
-- ChunkBiomeContainer getBiomes()
-- ProtoTickList getBlockTicks()
-- ProtoTickList getLiquidTicks()
-- void <init>(LevelChunk)
-- void setBiomes(ChunkBiomeContainer)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
-
-```diff
-+ int BIOME_CONTAINER_BITS
-+ PalettedContainer biomes
-- Palette GLOBAL_BLOCKSTATE_PALETTE
-+ Biome getNoiseBiome(int,int,int)
-+ boolean hasOnlyAir()
-+ PalettedContainer getBiomes()
-+ void <init>(PalettedContainer)
-+ void <init>(Registry)
-+ void fillBiomesFromNoise(Climate$Sampler,int,int)
-- boolean isEmpty()
-- boolean isEmpty(LevelChunkSection)
-- void <clinit>()
-- void <init>(int,short,short,short)
-- void <init>(int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.LinearPalette</summary>
-
-```diff
-+ IdMap registry
-- Function reader
-- IdMapper registry
-+ Palette create(PaletteResize)
-+ void <init>(PaletteResize)
-- void <init>(Function)
-- void read(ListTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.Palette</summary>
-
-```diff
-- void read(net.minecraft.nbt.ListTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ Climate$Sampler climateSampler()
-+ Climate$TargetPoint lambda$climateSampler$1(int,int,int)
-+ int getGenDepth()
-+ int getMinY()
-+ int getSeaLevel()
-+ void applyBiomeDecoration(StructureFeatureManager)
-+ void applyCarvers(GenerationStep$Carving)
-+ void buildSurfaceAndBedrock(ChunkAccess)
-+ void spawnOriginalMobs(WorldGenRegion)
-- void applyBiomeDecoration(StructureFeatureManager)
-- void applyCarvers(GenerationStep$Carving)
-- void buildSurfaceAndBedrock(ChunkAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
-
-```diff
-- BaseStoneSource STONE_SOURCE
-- boolean canReplaceBlock(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
-
-```diff
-+ StructureStart generate(Predicate)
-- StructureStart generate(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.FeaturePlaceContext</summary>
-
-```diff
-+ Optional topFeature
-+ Optional topFeature()
-+ void <init>(FeatureConfiguration)
-- void <init>(FeatureConfiguration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
-
-```diff
-+ void generatePieces(ChunkPos)
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-+ void placeInChunk(ChunkPos)
-- void generatePieces(ChunkPos)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-- void placeInChunk(ChunkPos)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(LevelHeightAccessor)
-+ boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
-
-```diff
-- boolean isFeatureChunk(LevelHeightAccessor)
-- boolean isFeatureChunk(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider</summary>
-
-```diff
-+ SimpleStateProvider simple(Block)
-+ SimpleStateProvider simple(BlockState)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement</summary>
-
-```diff
-+ void addPieces(Predicate)
-- void addPieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
-
-```diff
-- Map STRUCTURE_FEATURES
-+ Biome lambda$getDefault$8(Registry)
-+ Biome lambda$new$5(Registry)
-+ boolean lambda$updateLayers$7(BlockState)
-- Biome lambda$getDefault$9(Registry)
-- Biome lambda$new$7(Registry)
-- boolean lambda$updateLayers$8(BlockState)
-- void lambda$static$5(HashMap)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
-
-```diff
-+ BoundingBox inflatedBy(int)
-- BoundingBox inflate(int)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.DesertPyramidPiece</summary>
-
-```diff
-+ int DEPTH
-+ int WIDTH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.JunglePyramidPiece</summary>
-
-```diff
-+ int DEPTH
-+ int WIDTH
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherBridgePieces</summary>
-
-```diff
-+ int MAGIC_START_Y
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
-
-```diff
-+ void generatePieces(Predicate)
-+ void generatePieces(Predicate)
-- void generatePieces(LevelHeightAccessor)
-- void generatePieces(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
-
-```diff
-+ boolean access$000(Heightmap$Types,int,int)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
-
-```diff
-+ boolean updateHeightPositionToLowestGroundHeight(LevelAccessor,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
-
-```diff
-+ void generatePieces(net.minecraft.core.RegistryAccess,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration,net.minecraft.world.level.LevelHeightAccessor,java.util.function.Predicate)
-- void generatePieces(net.minecraft.core.RegistryAccess,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.ChunkPos,net.minecraft.world.level.biome.Biome,net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration,net.minecraft.world.level.LevelHeightAccessor)
-+ void placeInChunk(ChunkPos)
-- void placeInChunk(ChunkPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.DefaultSurfaceBuilder</summary>
-
-```diff
-+ BlockState maybeReplaceState(BlockColumn,int,int)
-+ boolean isEmptyBelow(BlockColumn,int)
-+ void apply(BlockState,int,int)
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(BlockState,int,int)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder</summary>
-
-```diff
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder</summary>
-
-```diff
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.NetherCappedSurfaceBuilder</summary>
-
-```diff
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.NetherSurfaceBuilder</summary>
-
-```diff
-- BlockState AIR
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.ShatteredSavanaSurfaceBuilder</summary>
-
-```diff
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilder</summary>
-
-```diff
-+ BlockState SNOW_BLOCK
-+ SurfaceBuilder GROVE
-+ SurfaceBuilder LOFTY_PEAKS
-+ SurfaceBuilder SNOWCAPPED_PEAKS
-+ SurfaceBuilder SNOWY_SLOPES
-+ SurfaceBuilder STONE_SHORE
-+ SurfaceBuilder STONY_PEAKS
-+ SurfaceBuilderBaseConfiguration CONFIG_GROVE
-+ SurfaceBuilderBaseConfiguration CONFIG_LOFTY_PEAKS
-+ SurfaceBuilderBaseConfiguration CONFIG_SNOWCAPPED_PEAKS
-+ SurfaceBuilderBaseConfiguration CONFIG_SNOWY_SLOPES
-+ void apply(java.util.Random,net.minecraft.world.level.chunk.BlockColumn,net.minecraft.world.level.biome.Biome,int,int,int,double,net.minecraft.world.level.block.state.BlockState,net.minecraft.world.level.block.state.BlockState,int,int,long,net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilderConfiguration)
-- void apply(java.util.Random,net.minecraft.world.level.chunk.ChunkAccess,net.minecraft.world.level.biome.Biome,int,int,int,double,net.minecraft.world.level.block.state.BlockState,net.minecraft.world.level.block.state.BlockState,int,int,long,net.minecraft.world.level.levelgen.surfacebuilders.SurfaceBuilderConfiguration)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.WoodedBadlandsSurfaceBuilder</summary>
-
-```diff
-+ void apply(SurfaceBuilderBaseConfiguration)
-+ void apply(SurfaceBuilderConfiguration)
-- void apply(SurfaceBuilderBaseConfiguration)
-- void apply(SurfaceBuilderConfiguration)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.BlendedNoise</summary>
-
-```diff
-+ double xzMainScale
-+ double xzScale
-+ double yMainScale
-+ double yScale
-+ int cellHeight
-+ int cellWidth
-+ double calculateNoise(int,int,int)
-+ void <init>(NoiseSamplingSettings,int,int)
-+ void <init>(NoiseSamplingSettings,int,int)
-- double sampleAndClampNoise(int,int,int,double,double,double,double)
-- void <init>(PerlinNoise)
-- void <init>(RandomSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
-
-```diff
-+ boolean requiresManualConversion
-- boolean requiresConversion
-+ boolean isCompatible()
-+ boolean requiresManualConversion()
-- boolean isRequiresConversion()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.storage.LevelVersion</summary>
-
-```diff
-+ DataVersion minecraftVersion
-- int minecraftVersion
-+ DataVersion minecraftVersion()
-+ void <init>(String,boolean)
-- int minecraftVersion()
-- void <init>(String,int,boolean)
-```
-
-</details>
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - com.mojang.realmsclient.util.package-info
@@ -5662,1587 +2748,989 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.SurfaceBuilders</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen</summary>
 
 ```diff
-+ ConfiguredSurfaceBuilder GROVE
-+ ConfiguredSurfaceBuilder LOFTY_PEAKS
-+ ConfiguredSurfaceBuilder SNOWCAPPED_PEAKS
-+ ConfiguredSurfaceBuilder SNOWY_SLOPES
-+ ConfiguredSurfaceBuilder STONE_SHORE
-+ ConfiguredSurfaceBuilder STONY_PEAKS
+- boolean lambda$removeServer$11(RealmsMainScreen$Entry)
++ boolean lambda$removeServer$12(RealmsServer,RealmsMainScreen$Entry)
+- boolean lambda$updateTeaserImages$13(String)
+- boolean lambda$updateTeaserImages$14(ResourceLocation)
++ boolean lambda$updateTeaserImages$14(String)
++ boolean lambda$updateTeaserImages$15(ResourceLocation)
+- RealmsServer findServer(long)
++ RealmsServer getSelectedServer()
+- void checkUnreadNews()
+- void closePopup()
+- void lambda$charTyped$12(char,KeyCombo)
++ void lambda$charTyped$13(char,KeyCombo)
++ void lambda$leaveClicked$11(RealmsServer,boolean)
++ void leaveServer(boolean,RealmsServer)
+- void leaveServer(boolean)
+- void onRenew()
++ void onRenew(RealmsServer)
+- void removeSelection()
++ void resetScreen()
+- void setTooltip(Iterable)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.worldgen.biome.Biomes</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$ServerEntry</summary>
 
 ```diff
-- Int2ObjectMap TO_NAME
-+ Biome register(Biome)
-- Biome register(Biome)
-- ResourceKey byId(int)
++ RealmsServer getServer()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket</summary>
+<details><summary>com.mojang.realmsclient.RealmsMainScreen$TrialEntry</summary>
 
 ```diff
-+ BlockPos pos()
-+ BlockState state()
-+ boolean equals(Object)
-+ int hashCode()
-+ String toString()
-+ void <init>(ServerboundPlayerActionPacket$Action,boolean)
++ RealmsServer getServer()
+```
+
+</details>
+
+
+<details><summary>com.mojang.realmsclient.gui.screens.RealmsSelectFileToUploadScreen</summary>
+
+```diff
++ boolean lambda$loadLevelList$0(LevelSummary)
+- int lambda$loadLevelList$0(LevelSummary,LevelSummary)
++ int lambda$loadLevelList$1(LevelSummary,LevelSummary)
+- void lambda$init$1(Button)
++ void lambda$init$3(Button)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.InBedChatScreen</summary>
+
+```diff
++ void onPlayerWokeUp()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher</summary>
+
+```diff
+- boolean uploadAllPendingUploads()
++ CompletableFuture lambda$runTask$0(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask,ChunkBufferBuilderPack)
+- CompletionStage lambda$runTask$1(ChunkRenderDispatcher$RenderChunk$ChunkCompileTask,ChunkBufferBuilderPack,Void)
++ CompletionStage lambda$runTask$1(CompletableFuture)
+- void lambda$runTask$0()
++ void uploadAllPendingUploads()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk</summary>
+
+```diff
+- boolean setFrame(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.ChunkRenderDispatcher$RenderChunk$RebuildTask</summary>
+
+```diff
++ String name()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.chunk.RenderChunkRegion</summary>
+
+```diff
+- int index(BlockPos)
+- int index(int,int,int)
+- void <init>(Level,int,int,LevelChunk[][],BlockPos,BlockPos)
++ void <init>(Level,int,int,LevelChunk[][])
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
+
+```diff
++ boolean isEntityUpsideDown(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.sounds.SoundManager</summary>
+
+```diff
++ List getAvailableSoundDevices()
++ void reload()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.ObjectiveArgument</summary>
+
+```diff
+- Message lambda$static$2(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
+
+```diff
+- CommandSyntaxException lambda$parse$2(ResourceLocation)
+- Predicate lambda$parse$1(BlockPredicateArgument$BlockPredicate,TagContainer)
+- Predicate lambda$parse$3(ResourceLocation,BlockStateParser,TagContainer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.MappedRegistry</summary>
+
+```diff
++ int size()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.BuiltinRegistries</summary>
+
+```diff
++ Biome lambda$static$4()
+- Biome lambda$static$5()
+- ConfiguredStructureFeature lambda$static$3()
+- Object registerMapping(Registry,int,ResourceKey,Object)
++ Object registerMapping(Registry,ResourceKey,Object)
++ StructureProcessorList lambda$static$3()
+- StructureProcessorList lambda$static$4()
++ void lambda$static$5(ResourceLocation,Supplier)
+- void lambda$static$6(ResourceLocation,Supplier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.BiomeDefaultFeatures</summary>
+
+```diff
++ void addDefaultOres(BiomeGenerationSettings$Builder,boolean)
+- void addDefaultOverworldLandMesaStructures(BiomeGenerationSettings$Builder)
+- void addDefaultOverworldLandStructures(BiomeGenerationSettings$Builder)
+- void addDefaultOverworldOceanStructures(BiomeGenerationSettings$Builder)
+- void addDefaultUndergroundVariety(BiomeGenerationSettings$Builder,boolean)
+- void addDesertLakes(BiomeGenerationSettings$Builder)
++ void addLavaLakes(BiomeGenerationSettings$Builder)
++ void addMeadowVegetation(BiomeGenerationSettings$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundLightUpdatePacket</summary>
+
+```diff
+- BitSet getBlockYMask()
+- BitSet getEmptyBlockYMask()
+- BitSet getEmptySkyYMask()
+- BitSet getSkyYMask()
+- boolean getTrustEdges()
+- byte[] lambda$new$0(FriendlyByteBuf)
+- byte[] lambda$new$1(FriendlyByteBuf)
++ ClientboundLightUpdatePacketData getLightData()
+- List getBlockUpdates()
+- List getSkyUpdates()
+- void prepareSectionData(ChunkPos,LevelLightEngine,LightLayer,int,BitSet,BitSet,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ChunkMap</summary>
+
+```diff
++ boolean isChunkInEuclideanRange(ChunkPos,int,int,int)
++ boolean isChunkInEuclideanRange(ChunkPos,ServerPlayer,boolean,int)
++ boolean isChunkInEuclideanRange(int,int,int,int,int)
++ boolean isChunkOnEuclideanBorder(ChunkPos,ServerPlayer,boolean,int)
++ boolean isChunkOnEuclideanBorder(int,int,int,int,int)
+- boolean lambda$getPlayers$45(ChunkPos,boolean,ServerPlayer)
++ boolean lambda$getPlayers$47(boolean,ChunkPos,ServerPlayer)
++ boolean lambda$getPlayersCloseForSpawning$46(ChunkPos,ServerPlayer)
+- boolean lambda$noPlayersCloseForSpawning$44(ChunkPos,ServerPlayer)
++ boolean lambda$saveAllChunks$10()
+- boolean lambda$saveAllChunks$6(ChunkAccess)
+- boolean lambda$saveAllChunks$8()
++ boolean lambda$saveAllChunks$8(ChunkAccess)
+- ChunkAccess lambda$protoChunkToFullChunk$25(ChunkHolder,ChunkAccess)
++ ChunkAccess lambda$protoChunkToFullChunk$27(ChunkHolder,ChunkAccess)
+- ChunkAccess lambda$saveAllChunks$5(ChunkHolder)
++ ChunkAccess lambda$saveAllChunks$7(ChunkHolder)
++ ChunkGenerator generator()
+- ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$24(ChunkHolder)
++ ChunkHolder$FullChunkStatus lambda$protoChunkToFullChunk$26(ChunkHolder)
+- ChunkStatus lambda$prepareEntityTickingChunk$2(int)
++ ChunkStatus lambda$prepareEntityTickingChunk$4(int)
+- ChunkStatus lambda$prepareTickingChunk$28(int)
++ ChunkStatus lambda$prepareTickingChunk$30(int)
+- ChunkStatus lambda$scheduleChunkGeneration$14(ChunkStatus,int)
++ ChunkStatus lambda$scheduleChunkGeneration$16(ChunkStatus,int)
+- CompletableFuture lambda$schedule$12(ChunkHolder,ChunkAccess)
++ CompletableFuture lambda$schedule$14(ChunkHolder,ChunkAccess)
+- CompletableFuture lambda$scheduleChunkGeneration$17(ChunkHolder,ChunkAccess)
+- CompletableFuture lambda$scheduleChunkGeneration$18(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)
++ CompletableFuture lambda$scheduleChunkGeneration$19(ChunkHolder,ChunkAccess)
+- CompletableFuture lambda$scheduleChunkGeneration$19(ChunkPos,ChunkHolder$ChunkLoadingFailure)
++ CompletableFuture lambda$scheduleChunkGeneration$20(ChunkPos,ChunkHolder,ChunkStatus,Executor,List)
++ CompletableFuture lambda$scheduleChunkGeneration$21(ChunkPos,ChunkHolder$ChunkLoadingFailure)
+- CompletionStage lambda$scheduleChunkGeneration$20(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)
++ CompletionStage lambda$scheduleChunkGeneration$22(ChunkPos,ChunkHolder,ChunkStatus,Executor,Either)
++ DataResult lambda$debugReloadGenerator$0(JsonElement)
+- Either lambda$getChunkRangeFuture$1(int,int,int,List)
++ Either lambda$getChunkRangeFuture$3(int,int,int,List)
+- Either lambda$prepareAccessibleChunk$37(Either)
++ Either lambda$prepareAccessibleChunk$39(Either)
+- Either lambda$prepareEntityTickingChunk$4(Either)
++ Either lambda$prepareEntityTickingChunk$6(Either)
+- Either lambda$prepareTickingChunk$29(List)
+- Either lambda$prepareTickingChunk$30(Either)
++ Either lambda$prepareTickingChunk$31(List)
++ Either lambda$prepareTickingChunk$32(Either)
+- Either lambda$protoChunkToFullChunk$26(ChunkHolder,Either)
++ Either lambda$protoChunkToFullChunk$28(ChunkHolder,Either)
+- Either lambda$scheduleChunkLoad$13(ChunkPos)
++ Either lambda$scheduleChunkLoad$15(ChunkPos)
+- int checkerboardDistance(ChunkPos,Entity)
+- int checkerboardDistance(ChunkPos,int,int)
+- int checkerboardDistance(ChunkPos,ServerPlayer,boolean)
+- int lambda$getChunkQueueLevel$0(long)
++ int lambda$getChunkQueueLevel$2(long)
+- Integer lambda$dumpChunks$41(LevelChunk)
++ Integer lambda$dumpChunks$43(LevelChunk)
+- LevelChunk lambda$prepareAccessibleChunk$36(List)
++ LevelChunk lambda$prepareAccessibleChunk$38(List)
+- LevelChunk lambda$prepareEntityTickingChunk$3(List)
++ LevelChunk lambda$prepareEntityTickingChunk$5(List)
+- Optional lambda$dumpChunks$40(ChunkAccess)
++ Optional lambda$dumpChunks$42(ChunkAccess)
++ Stream getPlayersCloseForSpawning(ChunkPos)
+- String lambda$printFuture$42(LevelChunk)
+- String lambda$printFuture$43(ChunkHolder$ChunkLoadingFailure)
++ String lambda$printFuture$44(LevelChunk)
++ String lambda$printFuture$45(ChunkHolder$ChunkLoadingFailure)
+- String lambda$releaseLightTicket$22(ChunkPos)
++ String lambda$releaseLightTicket$24(ChunkPos)
+- String lambda$scheduleChunkGeneration$15(ChunkStatus)
++ String lambda$scheduleChunkGeneration$17(ChunkStatus)
++ void debugReloadGenerator()
++ void lambda$debugReloadGenerator$1(ChunkGenerator)
+- void lambda$packTicks$46(LevelChunk)
++ void lambda$packTicks$48(LevelChunk)
+- void lambda$prepareAccessibleChunk$38(ChunkHolder,Runnable)
++ void lambda$prepareAccessibleChunk$40(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$31(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$32(Packet[],LevelChunk,ServerPlayer)
++ void lambda$prepareTickingChunk$33(ChunkHolder,Runnable)
+- void lambda$prepareTickingChunk$33(ChunkPos,LevelChunk)
+- void lambda$prepareTickingChunk$34(ChunkPos,Either)
++ void lambda$prepareTickingChunk$34(MutableObject,LevelChunk,ServerPlayer)
+- void lambda$prepareTickingChunk$35(ChunkHolder,Runnable)
++ void lambda$prepareTickingChunk$35(ChunkPos,LevelChunk)
++ void lambda$prepareTickingChunk$36(ChunkPos,Either)
++ void lambda$prepareTickingChunk$37(ChunkHolder,Runnable)
+- void lambda$protoChunkToFullChunk$23(ProtoChunk,LevelChunk)
++ void lambda$protoChunkToFullChunk$25(ProtoChunk,LevelChunk)
+- void lambda$protoChunkToFullChunk$27(ChunkHolder,Runnable)
++ void lambda$protoChunkToFullChunk$29(ChunkHolder,Runnable)
+- void lambda$releaseLightTicket$21(ChunkPos)
++ void lambda$releaseLightTicket$23(ChunkPos)
++ void lambda$saveAllChunks$11(ChunkHolder)
+- void lambda$saveAllChunks$7(MutableBoolean,ChunkAccess)
+- void lambda$saveAllChunks$9(ChunkHolder)
++ void lambda$saveAllChunks$9(MutableBoolean,ChunkAccess)
+- void lambda$scheduleChunkGeneration$16(ChunkHolder,Runnable)
++ void lambda$scheduleChunkGeneration$18(ChunkHolder,Runnable)
+- void lambda$scheduleUnload$10(ChunkHolder,CompletableFuture,long,ChunkAccess)
+- void lambda$scheduleUnload$11(ChunkHolder,Void,Throwable)
++ void lambda$scheduleUnload$12(ChunkHolder,CompletableFuture,long,ChunkAccess)
++ void lambda$scheduleUnload$13(ChunkHolder,Void,Throwable)
+- void lambda$setViewDistance$39(ChunkPos,int,Packet[],ServerPlayer)
++ void lambda$setViewDistance$41(ChunkPos,int,MutableObject,ServerPlayer)
++ void playerLoadedChunk(ServerPlayer,MutableObject,LevelChunk)
+- void playerLoadedChunk(ServerPlayer,Packet[],LevelChunk)
++ void updateChunkTracking(ServerPlayer,ChunkPos,MutableObject,boolean,boolean)
+- void updateChunkTracking(ServerPlayer,ChunkPos,Packet[],boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerChunkCache</summary>
+
+```diff
+- boolean checkChunkFuture(long,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
+- boolean lambda$isInWall$2(BlockState,BlockPos)
++ boolean lambda$isInWall$2(Vec3,AABB,BlockState)
++ Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.goal.GoalSelector</summary>
+
+```diff
++ boolean goalCanBeReplacedForAllFlags(WrappedGoal,Map)
++ boolean goalContainsAnyFlags(WrappedGoal,EnumSet)
+- boolean lambda$tick$2(WrappedGoal)
+- boolean lambda$tick$4(WrappedGoal)
+- boolean lambda$tick$5(WrappedGoal)
+- boolean lambda$tick$6(WrappedGoal,Goal$Flag)
+- boolean lambda$tick$7(WrappedGoal)
+- void lambda$tick$3(Goal$Flag,WrappedGoal)
+- void lambda$tick$8(WrappedGoal,Goal$Flag)
+- void lambda$tick$9(WrappedGoal)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.navigation.GroundPathNavigation</summary>
+
+```diff
+- boolean canMoveDirectly(Vec3,Vec3,int,int,int)
+- boolean canWalkAbove(int,int,int,int,int,int,Vec3,double,double)
+- boolean canWalkOn(int,int,int,int,int,int,Vec3,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BaseSpawner</summary>
+
+```diff
++ CompoundTag save(CompoundTag)
+- CompoundTag save(Level,BlockPos,CompoundTag)
++ IllegalStateException lambda$save$6()
+- ResourceLocation getEntityId(Level,BlockPos)
+- void lambda$delay$1(Level,BlockPos,SpawnData)
++ void lambda$delay$1(Level,BlockPos,WeightedEntry$Wrapper)
+- void lambda$load$2(Level,BlockPos,SpawnData)
++ void lambda$load$2(String)
++ void lambda$load$3(String)
++ void lambda$load$4(String)
++ void lambda$load$5(Level,BlockPos,WeightedEntry$Wrapper)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.BlockEventData</summary>
+
+```diff
++ Block block()
+- Block getBlock()
 - BlockPos getPos()
-- BlockState getState()
++ BlockPos pos()
+- int getParamA()
+- int getParamB()
++ int paramA()
++ int paramB()
 ```
 
 </details>
 
-<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
+
+<details><summary>net.minecraft.world.level.NaturalSpawner$SpawnState</summary>
 
 ```diff
-+ BlockEntityType type
-- int type
-- int TYPE_ADV_COMMAND
-- int TYPE_BANNER
-- int TYPE_BEACON
-- int TYPE_BED
-- int TYPE_BEEHIVE
-- int TYPE_CAMPFIRE
-- int TYPE_CONDUIT
-- int TYPE_END_GATEWAY
-- int TYPE_JIGSAW
-- int TYPE_MOB_SPAWNER
-- int TYPE_SIGN
-- int TYPE_SKULL
-- int TYPE_STRUCT_COMMAND
-+ BlockEntityType getType()
-+ ClientboundBlockEntityDataPacket create(BlockEntity)
-+ void <init>(CompoundTag)
-- int getType()
-- void <init>(CompoundTag)
++ boolean canSpawnForCategory(MobCategory,ChunkPos)
+- boolean canSpawnForCategory(MobCategory)
++ void <init>(int,Object2IntOpenHashMap,PotentialCalculator,LocalMobCapCalculator)
+- void <init>(int,Object2IntOpenHashMap,PotentialCalculator)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer$1</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeGenerationSettings</summary>
 
 ```diff
-+ GameRules val$gameRules
-+ List val$entries
-+ MinecraftServer this$0
-- long timeStamp
-+ void <init>(GameRules)
-+ void visit(GameRules$Type)
-- void <init>()
-- void progressStage(Component)
-- void progressStagePercentage(int)
-- void progressStart(Component)
-- void progressStartNoAbort(Component)
-- void stop()
++ App lambda$static$4(RecordCodecBuilder$Instance)
+- App lambda$static$5(RecordCodecBuilder$Instance)
++ boolean hasFeature(ConfiguredFeature)
+- boolean isValidStart(StructureFeature)
+- boolean lambda$isValidStart$7(StructureFeature,Supplier)
++ boolean lambda$new$5(ConfiguredFeature)
+- boolean lambda$new$6(ConfiguredFeature)
+- boolean lambda$withBiomeConfig$8(ConfiguredStructureFeature,ConfiguredStructureFeature)
+- Collection structures()
+- ConfiguredStructureFeature withBiomeConfig(ConfiguredStructureFeature)
+- List lambda$static$4(BiomeGenerationSettings)
+- void <init>(Supplier,Map,List,List)
++ void <init>(Supplier,Map,List)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeManager</summary>
 
 ```diff
-- Level getLevel()
+- Biome getPrimaryBiomeAtChunk(ChunkPos)
++ BiomeManager withDifferentSource(BiomeManager$NoiseBiomeSource)
+- BiomeManager withDifferentSource(BiomeSource)
++ double getFiddle(long)
++ double getFiddledDistance(long,int,int,int,double,double,double)
+- void <init>(BiomeManager$NoiseBiomeSource,long,BiomeZoomer)
++ void <init>(BiomeManager$NoiseBiomeSource,long)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.entity.monster.AbstractIllager</summary>
+<details><summary>net.minecraft.world.level.biome.BiomeSource</summary>
 
 ```diff
-+ boolean canAttack(LivingEntity)
++ BlockPos findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean,Climate$Sampler)
+- BlockPos findBiomeHorizontal(int,int,int,int,int,Predicate,Random,boolean)
++ BlockPos findBiomeHorizontal(int,int,int,int,Predicate,Random,Climate$Sampler)
+- BlockPos findBiomeHorizontal(int,int,int,int,Predicate,Random)
++ BlockState lambda$new$0(Biome)
+- boolean canGenerateStructure(StructureFeature)
++ boolean hasSurfaceBlock(BlockState)
+- boolean lambda$canGenerateStructure$0(StructureFeature,Biome)
+- Boolean lambda$canGenerateStructure$1(StructureFeature)
++ boolean lambda$new$2(int,BiomeSource$1FeatureData)
++ ImmutableList featuresPerStep()
++ Set getBiomesWithin(int,int,int,int,Climate$Sampler)
+- Set getBiomesWithin(int,int,int,int)
+- Set getSurfaceBlocks()
++ Set lambda$new$1(BiomeSource$1FeatureData)
++ void addMultinoiseDebugInfo(List,BlockPos,Climate$Sampler)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.EnderMan</summary>
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource$PresetInstance</summary>
 
 ```diff
-+ boolean hurtWithCleanWater(ThrownPotion,float)
+- long seed()
+- void <init>(MultiNoiseBiomeSource$Preset,Registry,long)
++ void <init>(MultiNoiseBiomeSource$Preset,Registry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+<details><summary>net.minecraft.world.level.chunk.GlobalPalette</summary>
 
 ```diff
-+ boolean isClientSide()
-- Level getLevel()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.npc.ClientSideMerchant</summary>
-
-```diff
-+ boolean isClientSide()
-- Level getLevel()
++ Palette create(int,IdMap,PaletteResize)
++ void <init>(IdMap)
+- void <init>(IdMapper,Object)
+- void read(ListTag)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome$BiomeCategory</summary>
-
-```diff
-+ Biome$BiomeCategory MOUNTAIN
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
-
-```diff
-+ Climate$ParameterList parameters
-- boolean useY
-- List parameters
-- long seed
-- MultiNoiseBiomeSource$NoiseParameters altitudeParams
-- MultiNoiseBiomeSource$NoiseParameters DEFAULT_NOISE_PARAMETERS
-- MultiNoiseBiomeSource$NoiseParameters humidityParams
-- MultiNoiseBiomeSource$NoiseParameters temperatureParams
-- MultiNoiseBiomeSource$NoiseParameters weirdnessParams
-- NormalNoise altitudeNoise
-- NormalNoise humidityNoise
-- NormalNoise temperatureNoise
-- NormalNoise weirdnessNoise
-+ App lambda$static$0(RecordCodecBuilder$Instance)
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Biome getNoiseBiome(Climate$Sampler)
-+ Biome getNoiseBiome(Climate$TargetPoint)
-+ Biome lambda$getNoiseBiome$7()
-+ boolean stable(MultiNoiseBiomeSource$Preset)
-+ Climate$ParameterList lambda$static$1(MultiNoiseBiomeSource)
-+ Either lambda$static$4(MultiNoiseBiomeSource)
-+ Either lambda$static$5(MultiNoiseBiomeSource)
-+ MultiNoiseBiomeSource lambda$static$3(Either)
-+ MultiNoiseBiomeSource$PresetInstance lambda$preset$6(Pair)
-+ void <init>(Climate$ParameterList)
-+ void <init>(Optional)
-+ void addMultinoiseDebugInfo(Climate$Sampler)
-- App lambda$static$1(RecordCodecBuilder$Instance)
-- App lambda$static$7(RecordCodecBuilder$Instance)
-- Biome getNoiseBiome(int,int,int)
-- Biome lambda$parameters$13(Registry)
-- boolean stable(long)
-- Either lambda$static$10(MultiNoiseBiomeSource)
-- Either lambda$static$9(MultiNoiseBiomeSource)
-- Float lambda$getNoiseBiome$12(Pair)
-- ImmutableList parameters(Registry)
-- List lambda$static$2(MultiNoiseBiomeSource)
-- Long lambda$static$0(MultiNoiseBiomeSource)
-- MultiNoiseBiomeSource lambda$static$8(Either)
-- MultiNoiseBiomeSource overworld(Registry,long)
-- MultiNoiseBiomeSource$NoiseParameters lambda$static$3(MultiNoiseBiomeSource)
-- MultiNoiseBiomeSource$NoiseParameters lambda$static$4(MultiNoiseBiomeSource)
-- MultiNoiseBiomeSource$NoiseParameters lambda$static$5(MultiNoiseBiomeSource)
-- MultiNoiseBiomeSource$NoiseParameters lambda$static$6(MultiNoiseBiomeSource)
-- MultiNoiseBiomeSource$PresetInstance lambda$preset$11(Pair)
-- void <init>(List)
-- void <init>(MultiNoiseBiomeSource$NoiseParameters)
-- void <init>(Optional)
-- void <init>(Optional)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.biome.TheEndBiomeSource</summary>
-
-```diff
-+ Biome getNoiseBiome(Climate$Sampler)
-- Biome getNoiseBiome(int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ boolean lambda$static$36(EntityType)
-+ boolean lambda$static$38(EntityType)
-+ boolean lambda$static$53(BlockPos)
-+ ConfiguredFeature lambda$static$44()
-+ int lambda$static$35(BlockState)
-+ int lambda$static$37(BlockState)
-+ int lambda$static$42(BlockState)
-+ int lambda$static$52(BlockState)
-- boolean lambda$static$35(EntityType)
-- boolean lambda$static$37(EntityType)
-- boolean lambda$static$52(BlockPos)
-- ConfiguredFeature lambda$static$42()
-- int lambda$static$36(BlockState)
-- int lambda$static$38(BlockState)
-- int lambda$static$44(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BarrelBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.BaseContainerBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.BedBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BrewingStandBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.CampfireBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-- CompoundTag saveMetadataAndItems(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.CommandBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.ConduitBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.HopperBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.LecternBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
-
-```diff
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-- CompoundTag saveToTag(CompoundTag)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.entity.TheEndGatewayBlockEntity</summary>
-
-```diff
-+ Packet getUpdatePacket()
-+ void saveAdditional(CompoundTag)
-- CompoundTag save(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ Climate$Sampler climateSampler()
-+ int getGenDepth()
-+ int getMinY()
-+ int getSeaLevel()
-+ void applyCarvers(net.minecraft.server.level.WorldGenRegion,long,net.minecraft.world.level.biome.BiomeManager,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkAccess,net.minecraft.world.level.levelgen.GenerationStep$Carving)
-+ void buildSurfaceAndBedrock(net.minecraft.server.level.WorldGenRegion,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkAccess)
-+ void spawnOriginalMobs(net.minecraft.server.level.WorldGenRegion)
-- BaseStoneSource defaultBaseStoneSource
-- void buildSurfaceAndBedrock(net.minecraft.server.level.WorldGenRegion,net.minecraft.world.level.chunk.ChunkAccess)
-+ Biome getNoiseBiome(int,int,int)
-+ boolean canGenerateStructure(StructureFeature)
-+ boolean lambda$applyBiomeDecoration$4(Biome)
-+ boolean lambda$createStructures$7(Biome)
-+ boolean validBiome(Biome)
-+ boolean validStrongholdBiome(Biome)
-+ ChunkAccess lambda$createBiomes$0(ChunkAccess)
-+ CompletableFuture createBiomes(ChunkAccess)
-+ int fetchReferences(StructureFeature)
-+ Integer lambda$applyBiomeDecoration$2(StructureFeature)
-+ Stream lambda$canGenerateStructure$1(Biome)
-+ String lambda$applyBiomeDecoration$3(StructureFeature)
-+ String lambda$applyBiomeDecoration$6(ConfiguredFeature)
-+ String lambda$createReferences$10(StructureStart)
-+ String lambda$createReferences$8(StructureStart)
-+ String lambda$createReferences$9(StructureStart)
-+ void applyBiomeDecoration(StructureFeatureManager)
-+ void lambda$applyBiomeDecoration$5(StructureStart)
-- Aquifer createAquifer(ChunkAccess)
-- BaseStoneSource getBaseStoneSource()
-- int getGenDepth()
-- int getMinY()
-- int getSeaLevel()
-- String lambda$createReferences$0(StructureStart)
-- String lambda$createReferences$1(StructureStart)
-- String lambda$createReferences$2(StructureStart)
-- void applyBiomeDecoration(StructureFeatureManager)
-- void applyCarvers(GenerationStep$Carving)
-- void createBiomes(ChunkAccess)
-- void createStructure(Biome)
-- void spawnOriginalMobs(WorldGenRegion)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
-
-```diff
-+ CompletableFuture generate(List,boolean)
-+ CompletableFuture lambda$static$11(ChunkAccess,boolean)
-+ CompletableFuture lambda$static$12(ChunkAccess,boolean)
-+ CompletableFuture lambda$static$13(ChunkAccess)
-+ CompletableFuture lambda$static$16(ChunkAccess,boolean)
-+ CompletableFuture lambda$static$17(ChunkAccess)
-+ CompletableFuture lambda$static$2(ChunkAccess,boolean)
-+ CompletableFuture lambda$static$5(ChunkAccess,boolean)
-+ CompletableFuture lambda$static$7(ChunkAccess,boolean)
-+ Either lambda$generate$20(Either)
-+ Either lambda$static$4(ChunkAccess)
-+ Either lambda$static$6(ChunkAccess)
-+ void lambda$generate$19(ChunkAccess)
-+ void lambda$static$10(ChunkAccess)
-+ void lambda$static$15(ChunkAccess)
-+ void lambda$static$18(IntArrayList)
-- CompletableFuture generate(List)
-- CompletableFuture lambda$static$10(ChunkAccess)
-- CompletableFuture lambda$static$11(ChunkAccess)
-- CompletableFuture lambda$static$12(ChunkAccess)
-- CompletableFuture lambda$static$15(ChunkAccess)
-- CompletableFuture lambda$static$16(ChunkAccess)
-- CompletableFuture lambda$static$2(ChunkAccess)
-- CompletableFuture lambda$static$6(ChunkAccess)
-- Either lambda$static$5(ChunkAccess)
-- void lambda$static$13(ChunkAccess)
-- void lambda$static$17(IntArrayList)
-- void lambda$static$4(ChunkAccess)
-- void lambda$static$7(ChunkAccess)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus$GenerationTask</summary>
-
-```diff
-+ CompletableFuture doWork(net.minecraft.world.level.chunk.ChunkStatus,java.util.concurrent.Executor,net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.server.level.ThreadedLevelLightEngine,java.util.function.Function,java.util.List,net.minecraft.world.level.chunk.ChunkAccess,boolean)
-- CompletableFuture doWork(net.minecraft.world.level.chunk.ChunkStatus,java.util.concurrent.Executor,net.minecraft.server.level.ServerLevel,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.server.level.ThreadedLevelLightEngine,java.util.function.Function,java.util.List,net.minecraft.world.level.chunk.ChunkAccess)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask</summary>
-
-```diff
-+ CompletableFuture doWork(ChunkAccess,boolean)
-- CompletableFuture doWork(ChunkAccess)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.chunk.EmptyLevelChunk</summary>
+<details><summary>net.minecraft.world.level.chunk.ImposterProtoChunk</summary>
 
 ```diff
 + Biome getNoiseBiome(int,int,int)
-- void markUnsaved()
+- ChunkBiomeContainer getBiomes()
++ Heightmap getOrCreateHeightmapUnprimed(Heightmap$Types)
++ LevelChunkSection getSection(int)
+- ProtoTickList getBlockTicks()
+- ProtoTickList getLiquidTicks()
++ void <init>(LevelChunk,boolean)
+- void <init>(LevelChunk)
++ void fillBiomesFromNoise(BiomeSource,Climate$Sampler)
+- void setBiomes(ChunkBiomeContainer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Aquifer$1</summary>
+<details><summary>net.minecraft.world.level.chunk.LevelChunkSection</summary>
 
 ```diff
-+ Aquifer$FluidPicker val$fluidRule
-- BlockState val$defaultFluidType
-- int val$seaLevel
-+ BlockState computeSubstance(int,int,int,double,double)
-+ void <init>(Aquifer$FluidPicker)
-- BlockState computeState(BaseStoneSource,int,int,int,double)
-- void <init>(BlockState)
++ Biome getNoiseBiome(int,int,int)
++ boolean hasOnlyAir()
+- boolean isEmpty()
+- boolean isEmpty(LevelChunkSection)
++ PalettedContainer getBiomes()
+- void <clinit>()
++ void <init>(int,PalettedContainer,PalettedContainer)
++ void <init>(int,Registry)
+- void <init>(int,short,short,short)
+- void <init>(int)
++ void fillBiomesFromNoise(BiomeSource,Climate$Sampler,int,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+<details><summary>net.minecraft.world.level.chunk.LinearPalette</summary>
 
 ```diff
-- Beardifier NO_BEARDS
-+ double calculateNoise(int,int,int)
-- double beardifyOrBury(int,int,int)
-- void <init>()
++ Palette create(int,IdMap,PaletteResize)
++ void <init>(IdMap,int,PaletteResize)
+- void <init>(IdMapper,int,PaletteResize,Function)
+- void read(ListTag)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
 
 ```diff
-+ boolean validBiome(Biome)
 + Climate$Sampler climateSampler()
-+ Climate$TargetPoint lambda$climateSampler$2(int,int,int)
++ Climate$TargetPoint lambda$climateSampler$1(int,int,int)
 + int getGenDepth()
 + int getMinY()
 + int getSeaLevel()
-+ void applyCarvers(GenerationStep$Carving)
-+ void buildSurfaceAndBedrock(ChunkAccess)
++ void applyBiomeDecoration(WorldGenLevel,ChunkPos,StructureFeatureManager)
+- void applyBiomeDecoration(WorldGenRegion,StructureFeatureManager)
+- void applyCarvers(long,BiomeManager,ChunkAccess,GenerationStep$Carving)
++ void applyCarvers(WorldGenRegion,long,BiomeManager,StructureFeatureManager,ChunkAccess,GenerationStep$Carving)
+- void buildSurfaceAndBedrock(WorldGenRegion,ChunkAccess)
++ void buildSurfaceAndBedrock(WorldGenRegion,StructureFeatureManager,ChunkAccess)
 + void spawnOriginalMobs(WorldGenRegion)
-- void buildSurfaceAndBedrock(ChunkAccess)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+<details><summary>net.minecraft.world.level.levelgen.carver.WorldCarver</summary>
 
 ```diff
-+ Aquifer$FluidPicker globalFluidPicker
-+ int HOW_FAR_BELOW_PRELIMINARY_SURFACE_LEVEL_TO_BUILD_SURFACE
-+ WorldGenMaterialRule materialRule
-- BaseStoneSource baseStoneSource
-- BlockState defaultFluid
-- NoodleCavifier noodleCavifier
-- NormalNoise barrierNoise
-- NormalNoise lavaNoise
-- NormalNoise waterLevelNoise
-- OreVeinifier oreVeinifier
-- SurfaceNoise surfaceNoise
-+ Aquifer$FluidStatus lambda$new$4(Aquifer$FluidStatus,int,int,int)
-+ Biome lambda$applyCarvers$10(int,int,int)
-+ Biome lambda$applyCarvers$12(ChunkPos)
-+ BlockState debugPreliminarySurfaceLevel(BlockState)
-+ ChunkAccess lambda$createBiomes$5(ChunkAccess)
-+ ChunkAccess lambda$fillFromNoise$13(ChunkAccess,int,int)
-+ Climate$Sampler climateSampler()
-+ Climate$TargetPoint lambda$doCreateBiomes$7(NoiseChunk,int,int,int)
-+ CompletableFuture createBiomes(ChunkAccess)
-+ double lambda$iterateNoiseColumn$8(int,int,int)
-+ NoiseChunk$NoiseFiller lambda$applyCarvers$11(ChunkAccess)
-+ NoiseChunk$NoiseFiller lambda$buildSurfaceAndBedrock$9(ChunkAccess)
-+ NoiseChunk$NoiseFiller lambda$doCreateBiomes$6(ChunkAccess)
-+ NoiseChunk$NoiseFiller lambda$doFill$15(ChunkAccess)
-+ void applyCarvers(GenerationStep$Carving)
-+ void buildSurfaceAndBedrock(ChunkAccess)
-+ void doCreateBiomes(ChunkAccess)
-+ void lambda$fillFromNoise$14(Throwable)
-- Aquifer createAquifer(ChunkAccess)
-- Aquifer getAquifer(ChunkPos)
-- BaseStoneSource getBaseStoneSource()
-- BaseStoneSource lambda$createBaseStoneSource$10(double)
-- BaseStoneSource lambda$createBaseStoneSource$12(BaseStoneSource,double)
-- BlockState lambda$createBaseStoneSource$11(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
-- BlockState updateNoiseAndGenerateBaseState(NoiseModifier,int,int,int,double)
-- boolean isAquifersEnabled()
-- ChunkAccess lambda$fillFromNoise$4(StructureFeatureManager,int,int)
-- double[] makeAndFillNoiseColumn(int,int,int,int)
-- DoubleFunction createBaseStoneSource(Consumer)
-- DoubleFunction createCaveNoiseModifier(Consumer)
-- NoiseModifier lambda$createCaveNoiseModifier$9(double)
-- void buildSurfaceAndBedrock(ChunkAccess)
-- void fillNoiseColumn(double[],int,int,int,int)
-- void lambda$doFill$5(NoiseInterpolator)
-- void lambda$doFill$6(NoiseInterpolator)
-- void lambda$doFill$7(NoiseInterpolator)
-- void lambda$doFill$8(NoiseInterpolator)
+- boolean canReplaceBlock(BlockState,BlockState)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.RandomSource</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.BuriedTreasureFeature</summary>
 
 ```diff
-+ RandomSource fork()
-+ PositionalRandomFactory forkPositional()
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,ProbabilityFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.SwimNodeEvaluator</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.ConfiguredStructureFeature</summary>
 
 ```diff
-+ Long2ObjectMap pathTypesByPosCache
-+ BlockPathTypes getCachedBlockType(int,int,int)
-+ BlockPathTypes lambda$getCachedBlockType$0(int,int,int,long)
-+ boolean isDiagonalNodeValid(Node)
-+ boolean isNodeValid(Node)
-+ void done()
-+ void prepare(Mob)
-- BlockPathTypes isFree(int,int,int)
-- Node getWaterNode(int,int,int)
+- StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,Biome,int,StructureFeatureConfiguration,LevelHeightAccessor)
++ StructureStart generate(RegistryAccess,ChunkGenerator,BiomeSource,StructureManager,long,ChunkPos,int,StructureFeatureConfiguration,LevelHeightAccessor,Predicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.EndCityFeature</summary>
 
 ```diff
-+ BlockEntityType type
-+ SetContainerContents$Builder setContents(BlockEntityType)
-+ void <init>(List)
-- SetContainerContents$Builder setContents()
-- void <init>(List)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.FeaturePlaceContext</summary>
 
 ```diff
-+ JsonSyntaxException lambda$deserialize$0(ResourceLocation)
++ Optional topFeature()
++ void <init>(Optional,WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
+- void <init>(WorldGenLevel,ChunkGenerator,Random,BlockPos,FeatureConfiguration)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerLootTable$Serializer</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature$FeatureStart</summary>
 
 ```diff
-+ JsonSyntaxException lambda$deserialize$0(ResourceLocation)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor,Predicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.scores.Objective</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.JigsawFeature$FeatureStart</summary>
 
 ```diff
-- int MAX_NAME_LENGTH
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,JigsawConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,JigsawConfiguration,LevelHeightAccessor,Predicate)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.MineshaftFeature</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,MineshaftConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,MineshaftConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature$NetherBridgeStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature$OceanMonumentStart</summary>
+
+```diff
++ void generatePieces(ChunkGenerator,LevelHeightAccessor,Predicate,ChunkPos)
+- void generatePieces(ChunkPos)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor,Predicate)
+- void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
++ void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,Predicate,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.PillagerOutpostFeature</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
++ boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,ChunkPos,JigsawConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.RuinedPortalFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,RuinedPortalConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,RuinedPortalConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,ShipwreckConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,ShipwreckConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature$StrongholdStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,NoneFeatureConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
+
+```diff
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,FeatureConfiguration,LevelHeightAccessor)
+- boolean isFeatureChunk(ChunkGenerator,BiomeSource,long,WorldgenRandom,ChunkPos,Biome,ChunkPos,NoneFeatureConfiguration,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider</summary>
+
+```diff
++ SimpleStateProvider simple(Block)
++ SimpleStateProvider simple(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement</summary>
+
+```diff
++ void addPieces(RegistryAccess,JigsawConfiguration,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,BlockPos,StructurePieceAccessor,Random,boolean,boolean,LevelHeightAccessor,Predicate)
+- void addPieces(RegistryAccess,JigsawConfiguration,JigsawPlacement$PieceFactory,ChunkGenerator,StructureManager,BlockPos,StructurePieceAccessor,Random,boolean,boolean,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+
+```diff
++ Biome lambda$getDefault$8(Registry)
+- Biome lambda$getDefault$9(Registry)
++ Biome lambda$new$5(Registry)
+- Biome lambda$new$7(Registry)
++ boolean lambda$updateLayers$7(BlockState)
+- boolean lambda$updateLayers$8(BlockState)
+- void lambda$static$5(HashMap)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.BoundingBox</summary>
+
+```diff
+- BoundingBox inflate(int)
++ BoundingBox inflatedBy(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.NetherFossilFeature$FeatureStart</summary>
+
+```diff
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,FeatureConfiguration,LevelHeightAccessor)
+- void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,Biome,RangeDecoratorConfiguration,LevelHeightAccessor)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,FeatureConfiguration,LevelHeightAccessor,Predicate)
++ void generatePieces(RegistryAccess,ChunkGenerator,StructureManager,ChunkPos,RangeDecoratorConfiguration,LevelHeightAccessor,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.OceanRuinFeature</summary>
+
+```diff
++ boolean access$000(ChunkGenerator,LevelHeightAccessor,Predicate,Heightmap$Types,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece</summary>
+
+```diff
++ boolean updateHeightPositionToLowestGroundHeight(LevelAccessor,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureStart</summary>
+
+```diff
+- void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,ChunkPos)
++ void placeInChunk(WorldGenLevel,StructureFeatureManager,ChunkGenerator,Random,Predicate,BoundingBox,ChunkPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.DefaultSurfaceBuilder</summary>
+
+```diff
++ BlockState maybeReplaceState(BlockState,BlockColumn,int,int)
++ boolean isEmptyBelow(BlockColumn,int)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,BlockState,BlockState,BlockState,int,int)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,BlockState,BlockState,BlockState,int,int)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.FrozenOceanSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.GravellyMountainSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.NetherCappedSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.NetherSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.ShatteredSavanaSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.surfacebuilders.WoodedBadlandsSurfaceBuilder</summary>
+
+```diff
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
++ void apply(Random,BlockColumn,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderBaseConfiguration)
+- void apply(Random,ChunkAccess,Biome,int,int,int,double,BlockState,BlockState,int,int,long,SurfaceBuilderConfiguration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.BlendedNoise</summary>
+
+```diff
++ double calculateNoise(int,int,int)
+- double sampleAndClampNoise(int,int,int,double,double,double,double)
++ void <init>(PerlinNoise,PerlinNoise,PerlinNoise,NoiseSamplingSettings,int,int)
+- void <init>(PerlinNoise,PerlinNoise,PerlinNoise)
++ void <init>(RandomSource,NoiseSamplingSettings,int,int)
+- void <init>(RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelSummary</summary>
+
+```diff
++ boolean isCompatible()
+- boolean isRequiresConversion()
++ boolean requiresManualConversion()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelVersion</summary>
+
+```diff
++ DataVersion minecraftVersion()
+- int minecraftVersion()
+- void <init>(int,long,String,int,boolean)
++ void <init>(int,long,String,int,String,boolean)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.advancements.Advancement
@@ -9759,13 +6247,785 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.worldgen.biome.Biomes</summary>
+
+```diff
+- Biome register(int,ResourceKey,Biome)
++ Biome register(ResourceKey,Biome)
+- ResourceKey byId(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockBreakAckPacket</summary>
+
+```diff
+- BlockPos getPos()
++ BlockPos pos()
+- BlockState getState()
++ BlockState state()
++ boolean equals(Object)
++ int hashCode()
++ String toString()
++ void <init>(BlockPos,BlockState,ServerboundPlayerActionPacket$Action,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket</summary>
+
+```diff
++ BlockEntityType getType()
++ ClientboundBlockEntityDataPacket create(BlockEntity)
+- int getType()
++ void <init>(BlockPos,BlockEntityType,CompoundTag)
+- void <init>(BlockPos,int,CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer$1</summary>
+
+```diff
+- void <init>()
++ void <init>(MinecraftServer,List,GameRules)
+- void progressStage(Component)
+- void progressStagePercentage(int)
+- void progressStart(Component)
+- void progressStartNoAbort(Component)
+- void stop()
++ void visit(GameRules$Key,GameRules$Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.FallingBlockEntity</summary>
+
+```diff
+- Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.AbstractIllager</summary>
+
+```diff
++ boolean canAttack(LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.EnderMan</summary>
+
+```diff
++ boolean hurtWithCleanWater(DamageSource,ThrownPotion,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.AbstractVillager</summary>
+
+```diff
++ boolean isClientSide()
+- Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.npc.ClientSideMerchant</summary>
+
+```diff
++ boolean isClientSide()
+- Level getLevel()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.MultiNoiseBiomeSource</summary>
+
+```diff
++ App lambda$static$0(RecordCodecBuilder$Instance)
+- App lambda$static$1(RecordCodecBuilder$Instance)
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- App lambda$static$7(RecordCodecBuilder$Instance)
++ Biome getNoiseBiome(Climate$TargetPoint)
++ Biome getNoiseBiome(int,int,int,Climate$Sampler)
+- Biome getNoiseBiome(int,int,int)
++ Biome lambda$getNoiseBiome$7()
+- Biome lambda$parameters$13(Registry)
+- boolean stable(long)
++ boolean stable(MultiNoiseBiomeSource$Preset)
++ Climate$ParameterList lambda$static$1(MultiNoiseBiomeSource)
+- Either lambda$static$10(MultiNoiseBiomeSource)
++ Either lambda$static$4(MultiNoiseBiomeSource)
++ Either lambda$static$5(MultiNoiseBiomeSource)
+- Either lambda$static$9(MultiNoiseBiomeSource)
+- Float lambda$getNoiseBiome$12(Biome$ClimateParameters,Pair)
+- ImmutableList parameters(Registry)
+- List lambda$static$2(MultiNoiseBiomeSource)
+- Long lambda$static$0(MultiNoiseBiomeSource)
++ MultiNoiseBiomeSource lambda$static$3(Either)
+- MultiNoiseBiomeSource lambda$static$8(Either)
+- MultiNoiseBiomeSource overworld(Registry,long)
+- MultiNoiseBiomeSource$NoiseParameters lambda$static$3(MultiNoiseBiomeSource)
+- MultiNoiseBiomeSource$NoiseParameters lambda$static$4(MultiNoiseBiomeSource)
+- MultiNoiseBiomeSource$NoiseParameters lambda$static$5(MultiNoiseBiomeSource)
+- MultiNoiseBiomeSource$NoiseParameters lambda$static$6(MultiNoiseBiomeSource)
+- MultiNoiseBiomeSource$PresetInstance lambda$preset$11(Pair)
++ MultiNoiseBiomeSource$PresetInstance lambda$preset$6(Pair)
++ void <init>(Climate$ParameterList,Optional)
++ void <init>(Climate$ParameterList)
+- void <init>(long,List,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,Optional)
+- void <init>(long,List,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters,MultiNoiseBiomeSource$NoiseParameters)
+- void <init>(long,List,Optional)
+- void <init>(long,List)
++ void addMultinoiseDebugInfo(List,BlockPos,Climate$Sampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.TheEndBiomeSource</summary>
+
+```diff
++ Biome getNoiseBiome(int,int,int,Climate$Sampler)
+- Biome getNoiseBiome(int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
+- boolean lambda$static$35(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$36(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$37(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$38(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$52(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$53(BlockState,BlockGetter,BlockPos)
+- ConfiguredFeature lambda$static$42()
++ ConfiguredFeature lambda$static$44()
++ int lambda$static$35(BlockState)
+- int lambda$static$36(BlockState)
++ int lambda$static$37(BlockState)
+- int lambda$static$38(BlockState)
++ int lambda$static$42(BlockState)
+- int lambda$static$44(BlockState)
++ int lambda$static$52(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BarrelBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BaseContainerBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BedBlockEntity</summary>
+
+```diff
++ Packet getUpdatePacket()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BrewingStandBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.CampfireBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
+- CompoundTag saveMetadataAndItems(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.CommandBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ConduitBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.HopperBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.LecternBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
+- CompoundTag saveToTag(CompoundTag)
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SkullBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SpawnerBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.TheEndGatewayBlockEntity</summary>
+
+```diff
+- CompoundTag save(CompoundTag)
++ Packet getUpdatePacket()
++ void saveAdditional(CompoundTag)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
+
+```diff
+- Aquifer createAquifer(ChunkAccess)
+- BaseStoneSource getBaseStoneSource()
++ Biome getNoiseBiome(int,int,int)
++ boolean canGenerateStructure(ServerLevel,StructureFeature)
++ boolean lambda$applyBiomeDecoration$4(Registry,ImmutableMultimap,Biome)
++ boolean lambda$createStructures$7(Registry,Map$Entry,Biome)
++ boolean validBiome(Registry,Predicate,Biome)
++ boolean validStrongholdBiome(Biome)
++ ChunkAccess lambda$createBiomes$0(ChunkAccess)
++ CompletableFuture createBiomes(Executor,Registry,StructureFeatureManager,ChunkAccess)
++ int fetchReferences(StructureFeatureManager,ChunkAccess,SectionPos,StructureFeature)
+- int getGenDepth()
+- int getMinY()
+- int getSeaLevel()
++ Integer lambda$applyBiomeDecoration$2(StructureFeature)
++ Stream lambda$canGenerateStructure$1(Registry,Biome)
++ String lambda$applyBiomeDecoration$3(Registry,StructureFeature)
++ String lambda$applyBiomeDecoration$6(Registry,ConfiguredFeature)
+- String lambda$createReferences$0(StructureStart)
+- String lambda$createReferences$1(StructureStart)
++ String lambda$createReferences$10(StructureStart)
+- String lambda$createReferences$2(StructureStart)
++ String lambda$createReferences$8(StructureStart)
++ String lambda$createReferences$9(StructureStart)
++ void applyBiomeDecoration(WorldGenLevel,ChunkPos,StructureFeatureManager)
+- void applyBiomeDecoration(WorldGenRegion,StructureFeatureManager)
+- void applyCarvers(long,BiomeManager,ChunkAccess,GenerationStep$Carving)
+- void createBiomes(Registry,ChunkAccess)
+- void createStructure(ConfiguredStructureFeature,RegistryAccess,StructureFeatureManager,ChunkAccess,StructureManager,long,Biome)
++ void lambda$applyBiomeDecoration$5(WorldGenLevel,StructureFeatureManager,WorldgenRandom,Predicate,int,int,int,int,int,int,StructureStart)
+- void spawnOriginalMobs(WorldGenRegion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkStatus</summary>
+
+```diff
++ CompletableFuture generate(Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,boolean)
+- CompletableFuture generate(Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List)
+- CompletableFuture lambda$static$10(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
++ CompletableFuture lambda$static$11(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture lambda$static$11(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
++ CompletableFuture lambda$static$12(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture lambda$static$12(ChunkStatus,ServerLevel,StructureManager,ThreadedLevelLightEngine,Function,ChunkAccess)
++ CompletableFuture lambda$static$13(ChunkStatus,ServerLevel,StructureManager,ThreadedLevelLightEngine,Function,ChunkAccess)
+- CompletableFuture lambda$static$15(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
++ CompletableFuture lambda$static$16(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture lambda$static$16(ChunkStatus,ServerLevel,StructureManager,ThreadedLevelLightEngine,Function,ChunkAccess)
++ CompletableFuture lambda$static$17(ChunkStatus,ServerLevel,StructureManager,ThreadedLevelLightEngine,Function,ChunkAccess)
++ CompletableFuture lambda$static$2(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture lambda$static$2(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
++ CompletableFuture lambda$static$5(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture lambda$static$6(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
++ CompletableFuture lambda$static$7(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
++ Either lambda$generate$20(ChunkGenerationEvent,Either)
++ Either lambda$static$4(ChunkStatus,ChunkAccess)
+- Either lambda$static$5(ChunkStatus,ChunkAccess)
++ Either lambda$static$6(ChunkStatus,ChunkAccess)
++ void lambda$generate$19(ChunkGenerationEvent,ChunkAccess)
++ void lambda$static$10(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$13(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
++ void lambda$static$15(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$17(IntArrayList)
++ void lambda$static$18(IntArrayList)
+- void lambda$static$4(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+- void lambda$static$7(ChunkStatus,ServerLevel,ChunkGenerator,List,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask</summary>
+
+```diff
++ CompletableFuture doWork(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess,boolean)
+- CompletableFuture doWork(ChunkStatus,Executor,ServerLevel,ChunkGenerator,StructureManager,ThreadedLevelLightEngine,Function,List,ChunkAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.EmptyLevelChunk</summary>
+
+```diff
++ Biome getNoiseBiome(int,int,int)
+- void markUnsaved()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Aquifer$1</summary>
+
+```diff
+- BlockState computeState(BaseStoneSource,int,int,int,double)
++ BlockState computeSubstance(int,int,int,double,double)
++ void <init>(Aquifer$FluidPicker)
+- void <init>(int,BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
+- double beardifyOrBury(int,int,int)
++ double calculateNoise(int,int,int)
+- void <init>()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.FlatLevelSource</summary>
+
+```diff
++ boolean validBiome(Registry,Predicate,Biome)
++ Climate$Sampler climateSampler()
++ Climate$TargetPoint lambda$climateSampler$2(int,int,int)
++ int getGenDepth()
++ int getMinY()
++ int getSeaLevel()
++ void applyCarvers(WorldGenRegion,long,BiomeManager,StructureFeatureManager,ChunkAccess,GenerationStep$Carving)
+- void buildSurfaceAndBedrock(WorldGenRegion,ChunkAccess)
++ void buildSurfaceAndBedrock(WorldGenRegion,StructureFeatureManager,ChunkAccess)
++ void spawnOriginalMobs(WorldGenRegion)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- Aquifer createAquifer(ChunkAccess)
+- Aquifer getAquifer(int,int,ChunkPos)
++ Aquifer$FluidStatus lambda$new$4(Aquifer$FluidStatus,Aquifer$FluidStatus,Aquifer$FluidStatus,int,int,int)
+- BaseStoneSource getBaseStoneSource()
+- BaseStoneSource lambda$createBaseStoneSource$10(double)
+- BaseStoneSource lambda$createBaseStoneSource$12(NoiseBasedChunkGenerator$OreVeinNoiseSource,BaseStoneSource,double)
++ Biome lambda$applyCarvers$10(int,int,int)
++ Biome lambda$applyCarvers$12(ChunkPos)
++ BlockState debugPreliminarySurfaceLevel(int,int,int,BlockState)
+- BlockState lambda$createBaseStoneSource$11(NoiseBasedChunkGenerator$OreVeinNoiseSource,int,int,int)
+- BlockState updateNoiseAndGenerateBaseState(Beardifier,Aquifer,BaseStoneSource,NoiseModifier,int,int,int,double)
+- boolean isAquifersEnabled()
++ ChunkAccess lambda$createBiomes$5(Registry,StructureFeatureManager,ChunkAccess)
++ ChunkAccess lambda$fillFromNoise$13(StructureFeatureManager,ChunkAccess,int,int)
+- ChunkAccess lambda$fillFromNoise$4(int,int,ChunkAccess,StructureFeatureManager,int,int)
++ Climate$Sampler climateSampler()
++ Climate$TargetPoint lambda$doCreateBiomes$7(NoiseChunk,int,int,int)
++ CompletableFuture createBiomes(Executor,Registry,StructureFeatureManager,ChunkAccess)
++ double lambda$iterateNoiseColumn$8(int,int,int)
+- double[] makeAndFillNoiseColumn(int,int,int,int)
+- DoubleFunction createBaseStoneSource(int,ChunkPos,Consumer)
+- DoubleFunction createCaveNoiseModifier(int,ChunkPos,Consumer)
++ NoiseChunk$NoiseFiller lambda$applyCarvers$11(StructureFeatureManager,ChunkAccess)
++ NoiseChunk$NoiseFiller lambda$buildSurfaceAndBedrock$9(StructureFeatureManager,ChunkAccess)
++ NoiseChunk$NoiseFiller lambda$doCreateBiomes$6(StructureFeatureManager,ChunkAccess)
++ NoiseChunk$NoiseFiller lambda$doFill$15(StructureFeatureManager,ChunkAccess)
+- NoiseModifier lambda$createCaveNoiseModifier$9(double)
++ void applyCarvers(WorldGenRegion,long,BiomeManager,StructureFeatureManager,ChunkAccess,GenerationStep$Carving)
+- void buildSurfaceAndBedrock(WorldGenRegion,ChunkAccess)
++ void buildSurfaceAndBedrock(WorldGenRegion,StructureFeatureManager,ChunkAccess)
++ void doCreateBiomes(Registry,StructureFeatureManager,ChunkAccess)
+- void fillNoiseColumn(double[],int,int,int,int)
+- void lambda$doFill$5(int,NoiseInterpolator)
+- void lambda$doFill$6(int,int,NoiseInterpolator)
+- void lambda$doFill$7(double,NoiseInterpolator)
+- void lambda$doFill$8(double,NoiseInterpolator)
++ void lambda$fillFromNoise$14(Set,ChunkAccess,Throwable)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.RandomSource</summary>
+
+```diff
++ PositionalRandomFactory forkPositional()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.SwimNodeEvaluator</summary>
+
+```diff
++ BlockPathTypes getCachedBlockType(int,int,int)
+- BlockPathTypes isFree(int,int,int)
++ BlockPathTypes lambda$getCachedBlockType$0(int,int,int,long)
++ boolean isDiagonalNodeValid(Node,Node,Node)
++ boolean isNodeValid(Node)
+- Node getWaterNode(int,int,int)
++ void done()
++ void prepare(PathNavigationRegion,Mob)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents</summary>
+
+```diff
+- SetContainerContents$Builder setContents()
++ SetContainerContents$Builder setContents(BlockEntityType)
++ void <init>(LootItemCondition[],BlockEntityType,List)
+- void <init>(LootItemCondition[],List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerContents$Serializer</summary>
+
+```diff
++ JsonSyntaxException lambda$deserialize$0(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.loot.functions.SetContainerLootTable$Serializer</summary>
+
+```diff
++ JsonSyntaxException lambda$deserialize$0(ResourceLocation)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/lava_pool_stone_cannot_replace.json
+- minecraft/tags/blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/font/illageralt.json
++ minecraft/textures/font/asciillager.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/biomes/grove.json
++ reports/biomes/lofty_peaks.json
++ reports/biomes/meadow.json
++ reports/biomes/snowcapped_peaks.json
++ reports/biomes/snowy_slopes.json
++ reports/biomes/stony_peaks.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:item.bundle.drop_contents
++ minecraft:item.bundle.insert
++ minecraft:item.bundle.remove_one
+```
+
+</details>
+
+
+<details><summary>worldgen/biome_source.txt</summary>
+
+```diff
+- minecraft:vanilla_layered
+```
+
+</details>
+
+
+<details><summary>worldgen/block_state_provider_type.txt</summary>
+
+```diff
++ minecraft:dual_noise_2d_provider
+- minecraft:forest_flower_provider
++ minecraft:noise_2d_cutoff_provider
++ minecraft:noise_2d_provider
+- minecraft:plain_flower_provider
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
++ minecraft:surface_relative_threshold
+```
+
+</details>
+
+
+<details><summary>worldgen/surface_builder.txt</summary>
+
+```diff
++ minecraft:grove
++ minecraft:lofty_peaks
++ minecraft:snowcapped_peaks
++ minecraft:snowy_slopes
++ minecraft:stone_shore
++ minecraft:stony_peaks
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ jfr.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/lava_pool_stone_cannot_replace.json
+- blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ commands.jfr.dump.failed
++ commands.jfr.start.failed
++ commands.jfr.started
++ commands.jfr.stopped
+- commands.scoreboard.objectives.add.longName
+- commands.team.add.longName
++ controls.keybinds
++ controls.keybinds.title
+- generator.amplified.info
++ options.audioDevice
++ options.audioDevice.default
++ options.hideLightningFlashes
++ options.hideLightningFlashes.tooltip
++ options.prioritizeChunkUpdates
++ options.prioritizeChunkUpdates.byPlayer
++ options.prioritizeChunkUpdates.nearby
++ options.prioritizeChunkUpdates.none
++ selectWorld.conversion.tooltip
++ selectWorld.incompatible_series
++ subtitles.item.bundle.drop_contents
++ subtitles.item.bundle.insert
++ subtitles.item.bundle.remove_one
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>languages.txt</summary>
+
+```diff
++ realms/lang/ry_ua.json
++ ry_ua.json
+```
+
+</details>
+
+
+<details><summary>sounds.txt</summary>
+
+```diff
++ item/bundle/drop_contents1.ogg
++ item/bundle/drop_contents2.ogg
++ item/bundle/drop_contents3.ogg
++ item/bundle/insert1.ogg
++ item/bundle/insert2.ogg
++ item/bundle/insert3.ogg
++ item/bundle/remove_one1.ogg
++ item/bundle/remove_one2.ogg
++ item/bundle/remove_one3.ogg
++ music/game/an_ordinary_day.ogg
++ music/game/comforting_memories.ogg
++ music/game/floating_dream.ogg
++ music/game/infinite_amethyst.ogg
++ music/game/left_to_bloom.ogg
++ music/game/one_more_day.ogg
++ music/game/stand_tall.ogg
++ music/game/wending.ogg
++ records/otherside.ogg
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/lava_pool_stone_cannot_replace.json
+- blocks/lava_pool_stone_replaceables.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ font/asciillager.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.mojang:javabridge:1.1.23
++ com.mojang:javabridge:1.2.24
+```
+
+</details>

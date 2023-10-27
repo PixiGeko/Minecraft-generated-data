@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w51a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w51a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-12-16T16:27:57+00:00</td></tr>
@@ -10,2376 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/204c6e7852f82489bed28825a58b4d8acbf386cc/server.txt">https://piston-data.mojang.com/v1/objects/204c6e7852f82489bed28825a58b4d8acbf386cc/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/ab0d1d122bc2c99daad33befe50a16a07d3b3bf7/client.jar">https://piston-data.mojang.com/v1/objects/ab0d1d122bc2c99daad33befe50a16a07d3b3bf7/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/1f4859972a54e7aeae1a35c76895f6e8ade33283/client.txt">https://piston-data.mojang.com/v1/objects/1f4859972a54e7aeae1a35c76895f6e8ade33283/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w49a">20w49a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/loot_tables/entities/axolotl.json
-+  minecraft/tags/entity_types/axolotl_always_hostiles.json
-+  minecraft/tags/entity_types/axolotl_tempted_hostiles.json
-+  minecraft/tags/items/axolotl_tempt_items.json
-+  minecraft/tags/items/occludes_vibration_signals.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/models/item/axolotl_bucket.json
-+  minecraft/models/item/axolotl_spawn_egg.json
-+  minecraft/textures/entity/axolotl
-+  minecraft/textures/entity/axolotl/axolotl_blue.png
-+  minecraft/textures/entity/axolotl/axolotl_cyan.png
-+  minecraft/textures/entity/axolotl/axolotl_gold.png
-+  minecraft/textures/entity/axolotl/axolotl_lucy.png
-+  minecraft/textures/entity/axolotl/axolotl_wild.png
-+  minecraft/textures/gui/container/bundle.png
-+  minecraft/textures/item/axolotl_bucket.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>activity.txt</summary>
-
-```diff
-+ minecraft:play_dead
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:axolotl
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-- minecraft:eating_start
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:axolotl_bucket
-+ minecraft:axolotl_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:play_dead_ticks
-+ minecraft:tempting_player
-+ minecraft:temptation_cooldown_ticks
-+ minecraft:is_tempted
-```
-
-</details>
-
-<details><summary>sensor_type.txt</summary>
-
-```diff
-+ minecraft:axolotl_hostiles
-+ minecraft:axolotl_temptations
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.axolotl.attack
-+ minecraft:entity.axolotl.death
-+ minecraft:entity.axolotl.hurt
-+ minecraft:entity.axolotl.idle_air
-+ minecraft:entity.axolotl.idle_water
-+ minecraft:entity.axolotl.splash
-+ minecraft:entity.axolotl.swim
-+ minecraft:item.bucket.empty_axolotl
-+ minecraft:item.bucket.fill_axolotl
-```
-
-</details>
-
-## Commands
-
-<details><summary>gamerule.txt</summary>
-
-```diff
-+ gamerule playersSleepingPercentage <value: integer>
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ entity_types/axolotl_always_hostiles.json
-+ entity_types/axolotl_tempted_hostiles.json
-+ items/axolotl_tempt_items.json
-+ items/occludes_vibration_signals.json
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-- minecraft:eating_start
-```
-
-</details>
-
-## Misc
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ entities/axolotl.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ entity_types/axolotl_always_hostiles.json
-+ entity_types/axolotl_tempted_hostiles.json
-+ items/axolotl_tempt_items.json
-+ items/occludes_vibration_signals.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ entity/axolotl/axolotl_blue.png
-+ entity/axolotl/axolotl_cyan.png
-+ entity/axolotl/axolotl_gold.png
-+ entity/axolotl/axolotl_lucy.png
-+ entity/axolotl/axolotl_wild.png
-+ gui/container/bundle.png
-+ item/axolotl_bucket.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
-
-```diff
-+ JsonSyntaxException lambda$fromJson$1(ResourceLocation)
-```
-
-</details>
-
-<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
-
-```diff
-+ IllegalStateException lambda$serializeToJson$0()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.GuiComponent</summary>
-
-```diff
-+ void fillGradient(PoseStack,int,int,int,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.ModelUtils</summary>
-
-```diff
-+ void setRotation(ModelPart,float,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
-
-```diff
-+ CommandSyntaxException lambda$null$2(ResourceLocation)
-+ Predicate lambda$parse$3(TagContainer)
-- Predicate lambda$parse$2(TagContainer)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
-
-```diff
-+ CommandSyntaxException lambda$null$2(ResourceLocation)
-+ Predicate lambda$parse$3(CommandContext)
-- Predicate lambda$parse$2(CommandContext)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
-
-```diff
-+ GameTestInfo lambda$null$0(TestFunction)
-+ Pair lambda$new$1(GameTestBatch)
-+ Stream lambda$new$2(Pair)
-+ void lambda$runBatch$3(GameTestInfo)
-- void lambda$new$0(GameTestBatch)
-- void lambda$runBatch$1(GameTestInfo)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestInfo</summary>
-
-```diff
-+ void lambda$tick$0(GameTestListener)
-+ void lambda$tick$1(GameTestListener)
-+ void lambda$tickInternal$2(GameTestSequence)
-+ void lambda$tickInternal$3(GameTestSequence)
-+ void tickInternal()
-- void lambda$fail$3(GameTestListener)
-- void lambda$succeed$2(GameTestListener)
-- void lambda$tick$0(GameTestSequence)
-- void lambda$tick$1(GameTestSequence)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
-
-```diff
-+ void <init>(Registry)
-- void <init>(WritableRegistry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent AXOLOTL_ATTACK
-+ SoundEvent AXOLOTL_DEATH
-+ SoundEvent AXOLOTL_HURT
-+ SoundEvent AXOLOTL_IDLE_AIR
-+ SoundEvent AXOLOTL_IDLE_WATER
-+ SoundEvent AXOLOTL_SPLASH
-+ SoundEvent AXOLOTL_SWIM
-+ SoundEvent BUCKET_EMPTY_AXOLOTL
-+ SoundEvent BUCKET_FILL_AXOLOTL
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-- List getWrappers()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.FluidTags</summary>
-
-```diff
-+ List KNOWN_TAGS
-+ List getStaticTags()
-- List getWrappers()
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ Tag$Named AXOLOTL_TEMPT_ITEMS
-+ Tag$Named OCCLUDES_VIBRATION_SIGNALS
-- List getWrappers()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.StaticTags</summary>
-
-```diff
-+ List HELPERS
-+ Set HELPERS_IDS
-- Map HELPERS
-+ Set getAllKnownHelpers()
-+ StaticTagHelper create(String)
-+ TagContainer createCollection()
-+ void lambda$createCollection$2(StaticTagHelper)
-+ void lambda$getAllMissingTags$1(StaticTagHelper)
-+ void makeSureAllKnownHelpersAreLoaded()
-+ void visitHelpers(Consumer)
-- boolean lambda$bootStrap$2(StaticTagHelper)
-- StaticTagHelper create(Function)
-- void lambda$getAllMissingTags$1(StaticTagHelper)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ boolean occludesVibrations()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType AXOLOTL
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.LivingEntity</summary>
-
-```diff
-+ boolean canBeTargeted()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.Mob</summary>
-
-```diff
-+ double getMeleeAttackRangeSqr(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
-
-```diff
-+ boolean isWithinMeleeAttackRange(LivingEntity)
-+ Vec3 getRandomSwimmablePos(PathfinderMob,int,int)
-- boolean isWithinMeleeAttackRange(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
-
-```diff
-+ Vec3 getTargetPos(PathfinderMob)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor</summary>
-
-```diff
-+ Optional lambda$getNearestHostile$1(List)
-- int compareMobDistance(LivingEntity)
-- int lambda$null$1(LivingEntity)
-- Optional getVisibleEntities(LivingEntity)
-- Optional lambda$getNearestHostile$2(List)
-- Set requires()
-- void doTick(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ void usePlayerItem(ItemStack)
-- void usePlayerItem(ItemStack)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ boolean occludesVibrations()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.player.Player</summary>
-
-```diff
-+ boolean canBeTargeted()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.inventory.tooltip.BundleTooltip</summary>
-
-```diff
-+ int weight
-- boolean showEmptySlot
-+ int getWeight()
-+ void <init>(NonNullList,int)
-- boolean showEmptySlot()
-- void <init>(NonNullList,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.BlockItem</summary>
-
-```diff
-+ void onDestroyed(ItemEntity)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.item.BundleItem</summary>
-
-```diff
-+ void onDestroyed(ItemEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
-
-```diff
-+ JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip$Texture
@@ -4502,1589 +2154,286 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate</summary>
 
 ```diff
-+ IllegalStateException lambda$serializeToJson$1()
-+ JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ JsonSyntaxException lambda$fromJson$1(ResourceLocation)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
+<details><summary>net.minecraft.advancements.critereon.EntityTypePredicate$TagPredicate</summary>
 
 ```diff
-+ IllegalStateException lambda$serializeToJson$1()
-+ JsonSyntaxException lambda$fromJson$0(ResourceLocation)
++ IllegalStateException lambda$serializeToJson$0()
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
+<details><summary>net.minecraft.client.gui.GuiComponent</summary>
 
 ```diff
-+ IllegalStateException lambda$serializeToJson$3()
-+ JsonSyntaxException lambda$fromJson$2(ResourceLocation)
++ void fillGradient(PoseStack,int,int,int,int,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess</summary>
+<details><summary>net.minecraft.client.model.ModelUtils</summary>
 
 ```diff
-+ Optional ownedRegistry(net.minecraft.resources.ResourceKey)
-- Optional registry(net.minecraft.resources.ResourceKey)
-+ boolean lambda$null$3(ResourceKey)
-+ IllegalStateException lambda$ownedRegistryOrThrow$0(ResourceKey)
-+ IllegalStateException lambda$registryOrThrow$1(ResourceKey)
-+ ImmutableMap lambda$static$2()
-+ Optional registry(ResourceKey)
-+ Registry registryOrThrow(ResourceKey)
-+ RegistryAccess$RegistryHolder lambda$static$5()
-+ void lambda$null$4(ResourceKey)
-+ WritableRegistry ownedRegistryOrThrow(ResourceKey)
-- boolean lambda$null$2(ResourceKey)
-- IllegalStateException lambda$copy$5(Registry)
-- IllegalStateException lambda$registryOrThrow$0(ResourceKey)
-- ImmutableMap lambda$static$1()
-- Registry dimensionTypes()
-- RegistryAccess$RegistryHolder lambda$static$4()
-- void lambda$null$3(ResourceKey)
-- WritableRegistry registryOrThrow(ResourceKey)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
-
-```diff
-+ Optional ownedRegistry(ResourceKey)
-+ WritableRegistry lambda$ownedRegistry$7(MappedRegistry)
-- Optional registry(ResourceKey)
-- WritableRegistry lambda$registry$7(MappedRegistry)
++ void setRotation(ModelPart,float,float,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestRunner</summary>
+<details><summary>net.minecraft.commands.arguments.blocks.BlockPredicateArgument</summary>
 
 ```diff
-+ boolean lambda$clearAllTests$2(BlockPos)
-+ GameTestBatch lambda$null$0(List)
-+ Stream lambda$groupTestsIntoBatches$1(Map$Entry)
-+ void lambda$clearAllTests$3(BlockPos)
-- boolean lambda$clearAllTests$4(BlockPos)
-- Collection lambda$null$0(String)
-- GameTestBatch lambda$null$2(List)
-- Stream lambda$groupTestsIntoBatches$3(String)
-- void lambda$clearAllTests$5(BlockPos)
-- void lambda$groupTestsIntoBatches$1(TestFunction)
++ CommandSyntaxException lambda$null$2(ResourceLocation)
+- Predicate lambda$parse$2(ResourceLocation,BlockStateParser,TagContainer)
++ Predicate lambda$parse$3(ResourceLocation,BlockStateParser,TagContainer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket</summary>
+<details><summary>net.minecraft.commands.arguments.item.ItemPredicateArgument</summary>
 
 ```diff
-+ Map tags
-- TagContainer tags
-+ Map getTags()
-+ void <init>(Map)
-+ void lambda$write$0(TagCollection$NetworkPayload)
-- TagContainer getTags()
-- void <init>(TagContainer)
++ CommandSyntaxException lambda$null$2(ResourceLocation)
+- Predicate lambda$parse$2(ResourceLocation,ItemParser,CommandContext)
++ Predicate lambda$parse$3(ResourceLocation,ItemParser,CommandContext)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestBatchRunner</summary>
 
 ```diff
-+ boolean lambda$null$1(String)
-+ Collection lambda$reload$2(ResourceManager)
-+ CommandFunction lambda$null$3(CommandSourceStack)
-+ CompletionStage lambda$reload$5(Collection)
-+ Map lambda$null$4(Throwable)
-+ Map lambda$reload$0(ResourceManager)
-+ Object lambda$null$6(Throwable)
-+ void lambda$null$7(CompletableFuture)
-+ void lambda$reload$8(Pair)
-- boolean lambda$null$0(String)
-- Collection lambda$reload$1(ResourceManager)
-- CommandFunction lambda$null$2(CommandSourceStack)
-- CompletionStage lambda$reload$4(Collection)
-- Map lambda$null$3(Throwable)
-- Object lambda$null$5(Throwable)
-- void lambda$null$6(CompletableFuture)
-- void lambda$reload$7(Pair)
++ GameTestInfo lambda$null$0(Rotation,ServerLevel,TestFunction)
++ Pair lambda$new$1(Rotation,ServerLevel,GameTestBatch)
++ Stream lambda$new$2(Pair)
+- void lambda$new$0(Rotation,ServerLevel,GameTestBatch)
+- void lambda$runBatch$1(Map,GameTestInfo)
++ void lambda$runBatch$3(Map,GameTestInfo)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.server.ServerResources</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestInfo</summary>
 
 ```diff
-+ CompletableFuture loadResources(Executor)
-+ void <init>(Commands$CommandSelection,int)
-- CompletableFuture loadResources(Executor)
-- void <init>(Commands$CommandSelection,int)
+- void lambda$fail$3(GameTestListener)
+- void lambda$succeed$2(GameTestListener)
++ void lambda$tick$0(GameTestListener)
+- void lambda$tick$0(GameTestSequence)
++ void lambda$tick$1(GameTestListener)
+- void lambda$tick$1(GameTestSequence)
++ void lambda$tickInternal$2(GameTestSequence)
++ void lambda$tickInternal$3(GameTestSequence)
++ void tickInternal()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerLevel</summary>
+<details><summary>net.minecraft.gametest.framework.GameTestServer</summary>
 
 ```diff
-+ float percentageSleepingPlayers
-- boolean allPlayersSleeping
-+ boolean canSleepThroughNights()
-+ boolean lambda$clearBlockEvents$18(BlockEventData)
-+ boolean lambda$findLightningRod$7(PoiType)
-+ boolean lambda$findLightningTargetAround$8(LivingEntity)
-+ boolean lambda$findNearestBiome$13(Biome)
-+ float getPercentSleepingPlayers(boolean)
-+ String lambda$getTypeCount$20(Object2IntMap$Entry)
-+ String lambda$getWatchdogStats$19(Entity)
-+ String lambda$tickNonPassenger$9(Entity)
-+ String lambda$tickPassenger$10(Entity)
-+ void announceSleepStatus()
-+ void lambda$getEntities$11(Entity)
-+ void lambda$makeObsidianPlatform$21(BlockPos)
-+ void lambda$null$14(BlockPos)
-+ void lambda$null$16(PoiType)
-+ void lambda$onBlockStateChange$15(PoiType)
-+ void lambda$onBlockStateChange$17(PoiType)
-+ void lambda$sendVibrationParticle$12(ServerPlayer)
-+ void lambda$tick$5(Entity)
-+ void lambda$wakeUpAllPlayers$6(ServerPlayer)
-- boolean lambda$clearBlockEvents$19(BlockEventData)
-- boolean lambda$findLightningRod$8(PoiType)
-- boolean lambda$findLightningTargetAround$9(LivingEntity)
-- boolean lambda$findNearestBiome$14(Biome)
-- boolean lambda$tick$5(ServerPlayer)
-- String lambda$getTypeCount$21(Object2IntMap$Entry)
-- String lambda$getWatchdogStats$20(Entity)
-- String lambda$tickNonPassenger$10(Entity)
-- String lambda$tickPassenger$11(Entity)
-- void lambda$getEntities$12(Entity)
-- void lambda$makeObsidianPlatform$23(BlockPos)
-- void lambda$null$15(BlockPos)
-- void lambda$null$17(PoiType)
-- void lambda$onBlockStateChange$16(PoiType)
-- void lambda$onBlockStateChange$18(PoiType)
-- void lambda$sendVibrationParticle$13(ServerPlayer)
-- void lambda$tick$6(Entity)
-- void lambda$wakeUpAllPlayers$7(ServerPlayer)
++ void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,Collection,BlockPos,RegistryAccess$RegistryHolder,Registry,Registry)
+- void <init>(Thread,LevelStorageSource$LevelStorageAccess,PackRepository,ServerResources,Collection,BlockPos,RegistryAccess$RegistryHolder,Registry,WritableRegistry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.EntityTypeTags</summary>
+<details><summary>net.minecraft.tags.BlockTags</summary>
 
 ```diff
-+ Tag$Named AXOLOTL_ALWAYS_HOSTILES
-+ Tag$Named AXOLOTL_TEMPTED_HOSTILES
+- List getWrappers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.FluidTags</summary>
+
+```diff
++ List getStaticTags()
 - List getWrappers()
 ```
 
 </details>
 
-<details><summary>net.minecraft.tags.GameEventTags</summary>
+
+<details><summary>net.minecraft.tags.ItemTags</summary>
 
 ```diff
 - List getWrappers()
-- void resetToEmpty()
 ```
 
 </details>
 
-<details><summary>net.minecraft.tags.SerializationTags</summary>
+
+<details><summary>net.minecraft.tags.StaticTags</summary>
 
 ```diff
-- Tag lambda$static$0(Tag$Named)
-- Tag lambda$static$1(Tag$Named)
-- Tag lambda$static$2(Tag$Named)
-- Tag lambda$static$3(Tag$Named)
-- Tag lambda$static$4(Tag$Named)
+- boolean lambda$bootStrap$2(StaticTagHelper)
++ Set getAllKnownHelpers()
++ StaticTagHelper create(ResourceKey,String)
+- StaticTagHelper create(ResourceLocation,Function)
++ TagContainer createCollection()
++ void lambda$createCollection$2(TagContainer$Builder,StaticTagHelper)
+- void lambda$getAllMissingTags$1(Multimap,TagContainer,ResourceLocation,StaticTagHelper)
++ void lambda$getAllMissingTags$1(Multimap,TagContainer,StaticTagHelper)
++ void makeSureAllKnownHelpersAreLoaded()
++ void visitHelpers(Consumer)
 ```
 
 </details>
 
-<details><summary>net.minecraft.tags.StaticTagHelper</summary>
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
 
 ```diff
-+ ResourceKey key
-+ String directory
-- Function collectionGetter
-+ ResourceKey getKey()
-+ String getDirectory()
-+ Tag lambda$addToCollection$3(StaticTagHelper$Wrapper)
-+ void <init>(String)
-+ void addToCollection(TagContainer$Builder)
-- List getWrappers()
-- void <init>(Function)
++ boolean occludesVibrations()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.tags.TagCollection</summary>
+<details><summary>net.minecraft.world.entity.LivingEntity</summary>
 
 ```diff
-+ TagCollection createFromNetwork(Registry)
-+ TagCollection$NetworkPayload serializeToNetwork(Registry)
-+ void lambda$createFromNetwork$1(IntList)
-+ void lambda$serializeToNetwork$0(Tag)
-- ResourceLocation getIdOrThrow(Tag)
-- TagCollection loadFromNetwork(Registry)
-- void serializeToNetwork(DefaultedRegistry)
++ boolean canBeTargeted()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
+<details><summary>net.minecraft.world.entity.Mob</summary>
 
 ```diff
-+ Function speedModifier
-- float speedModifier
-+ Float lambda$new$0(LivingEntity)
-+ void <init>(Function)
++ double getMeleeAttackRangeSqr(LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.AbstractFish</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
 
 ```diff
-+ ItemStack lambda$mobInteract$0()
+- boolean isWithinMeleeAttackRange(LivingEntity,LivingEntity)
++ boolean isWithinMeleeAttackRange(Mob,LivingEntity)
++ Vec3 getRandomSwimmablePos(PathfinderMob,int,int)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.entity.animal.Animal</summary>
+<details><summary>net.minecraft.world.entity.ai.behavior.RandomStroll</summary>
 
 ```diff
-+ void usePlayerItem(ItemStack)
-- void usePlayerItem(ItemStack)
++ Vec3 getTargetPos(PathfinderMob)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.schedule.Activity</summary>
+<details><summary>net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor</summary>
 
 ```diff
-+ Activity PLAY_DEAD
+- int compareMobDistance(LivingEntity,LivingEntity,LivingEntity)
+- int lambda$null$1(LivingEntity,LivingEntity,LivingEntity)
+- Optional getVisibleEntities(LivingEntity)
++ Optional lambda$getNearestHostile$1(LivingEntity,List)
+- Optional lambda$getNearestHostile$2(LivingEntity,List)
+- Set requires()
+- void doTick(ServerLevel,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.Ingredient$TagValue</summary>
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
 
 ```diff
-+ IllegalStateException lambda$serialize$0()
++ void usePlayerItem(Player,InteractionHand,ItemStack)
+- void usePlayerItem(Player,ItemStack)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.GameRules</summary>
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
 
 ```diff
-+ GameRules$Key RULE_PLAYERS_SLEEPING_PERCENTAGE
++ boolean occludesVibrations()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+<details><summary>net.minecraft.world.entity.player.Player</summary>
 
 ```diff
-+ boolean canFillCauldron(Fluid)
-+ boolean lambda$animateTick$0(Fluid)
-+ boolean lambda$findFillableCauldronBelowStalactiteTip$6(BlockState)
-+ boolean lambda$findRootBlock$4(BlockState)
-+ boolean lambda$findRootBlock$5(BlockState)
-+ boolean lambda$findTip$3(BlockState)
-+ Fluid getDripFluid(Fluid)
-+ Fluid lambda$getFluidAboveStalactite$7(BlockPos)
-+ Optional findBlockVertical(Predicate,int)
-+ Optional findRootBlock(BlockState,int)
-+ Optional getFluidAboveStalactite(BlockState)
-+ void lambda$animateTick$1(Fluid)
-+ void lambda$spawnDripParticle$2(Fluid)
-+ void spawnDripParticle(Fluid)
-- BlockPos findRootBlock(BlockState,int)
-- PointedDripstoneBlock$DripType getDripType(BlockState)
-- void spawnDripParticle(PointedDripstoneBlock$DripType)
++ boolean canBeTargeted()
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.inventory.tooltip.BundleTooltip</summary>
+
+```diff
+- boolean showEmptySlot()
++ int getWeight()
+- void <init>(NonNullList,boolean)
++ void <init>(NonNullList,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BlockItem</summary>
+
+```diff
++ void onDestroyed(ItemEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.BundleItem</summary>
+
+```diff
++ void onDestroyed(ItemEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.Ingredient</summary>
+
+```diff
++ JsonSyntaxException lambda$valueFromJson$8(ResourceLocation)
+```
+
+</details>
+
+
+### Server
 
 
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.tags.package-info
@@ -7895,13 +4244,516 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.advancements.critereon.BlockPredicate</summary>
+
+```diff
++ IllegalStateException lambda$serializeToJson$1()
++ JsonSyntaxException lambda$fromJson$0(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.FluidPredicate</summary>
+
+```diff
++ IllegalStateException lambda$serializeToJson$1()
++ JsonSyntaxException lambda$fromJson$0(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.ItemPredicate</summary>
+
+```diff
++ IllegalStateException lambda$serializeToJson$3()
++ JsonSyntaxException lambda$fromJson$2(ResourceLocation)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess</summary>
+
+```diff
+- boolean lambda$null$2(ResourceKey)
++ boolean lambda$null$3(ResourceKey)
+- IllegalStateException lambda$copy$5(Registry)
++ IllegalStateException lambda$ownedRegistryOrThrow$0(ResourceKey)
+- IllegalStateException lambda$registryOrThrow$0(ResourceKey)
++ IllegalStateException lambda$registryOrThrow$1(ResourceKey)
+- ImmutableMap lambda$static$1()
++ ImmutableMap lambda$static$2()
++ Optional registry(ResourceKey)
+- Registry dimensionTypes()
++ Registry registryOrThrow(ResourceKey)
+- RegistryAccess$RegistryHolder lambda$static$4()
++ RegistryAccess$RegistryHolder lambda$static$5()
+- void lambda$null$3(RegistryAccess$RegistryHolder,ResourceKey)
++ void lambda$null$4(RegistryAccess$RegistryHolder,ResourceKey)
++ WritableRegistry ownedRegistryOrThrow(ResourceKey)
+- WritableRegistry registryOrThrow(ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
+
+```diff
++ Optional ownedRegistry(ResourceKey)
+- Optional registry(ResourceKey)
++ WritableRegistry lambda$ownedRegistry$7(MappedRegistry)
+- WritableRegistry lambda$registry$7(MappedRegistry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestRunner</summary>
+
+```diff
++ boolean lambda$clearAllTests$2(ServerLevel,BlockPos)
+- boolean lambda$clearAllTests$4(ServerLevel,BlockPos)
+- Collection lambda$null$0(String)
++ GameTestBatch lambda$null$0(String,MutableInt,Consumer,Consumer,List)
+- GameTestBatch lambda$null$2(String,MutableInt,Consumer,Consumer,List)
++ Stream lambda$groupTestsIntoBatches$1(Map$Entry)
+- Stream lambda$groupTestsIntoBatches$3(Map,String)
++ void lambda$clearAllTests$3(ServerLevel,BlockPos)
+- void lambda$clearAllTests$5(ServerLevel,BlockPos)
+- void lambda$groupTestsIntoBatches$1(Map,TestFunction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundUpdateTagsPacket</summary>
+
+```diff
++ Map getTags()
+- TagContainer getTags()
++ void <init>(Map)
+- void <init>(TagContainer)
++ void lambda$write$0(FriendlyByteBuf,ResourceKey,TagCollection$NetworkPayload)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerFunctionLibrary</summary>
+
+```diff
+- boolean lambda$null$0(String)
++ boolean lambda$null$1(String)
+- Collection lambda$reload$1(ResourceManager)
++ Collection lambda$reload$2(ResourceManager)
+- CommandFunction lambda$null$2(ResourceManager,ResourceLocation,ResourceLocation,CommandSourceStack)
++ CommandFunction lambda$null$3(ResourceManager,ResourceLocation,ResourceLocation,CommandSourceStack)
+- CompletionStage lambda$reload$4(ResourceManager,Executor,Collection)
++ CompletionStage lambda$reload$5(ResourceManager,Executor,Collection)
+- Map lambda$null$3(Map,Void,Throwable)
++ Map lambda$null$4(Map,Void,Throwable)
++ Map lambda$reload$0(ResourceManager)
+- Object lambda$null$5(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
++ Object lambda$null$6(ResourceLocation,ImmutableMap$Builder,CommandFunction,Throwable)
+- void lambda$null$6(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
++ void lambda$null$7(ImmutableMap$Builder,ResourceLocation,CompletableFuture)
+- void lambda$reload$7(Pair)
++ void lambda$reload$8(Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.ServerResources</summary>
+
+```diff
+- CompletableFuture loadResources(List,Commands$CommandSelection,int,Executor,Executor)
++ CompletableFuture loadResources(List,RegistryAccess,Commands$CommandSelection,int,Executor,Executor)
+- void <init>(Commands$CommandSelection,int)
++ void <init>(RegistryAccess,Commands$CommandSelection,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerLevel</summary>
+
+```diff
++ boolean canSleepThroughNights()
++ boolean lambda$clearBlockEvents$18(BoundingBox,BlockEventData)
+- boolean lambda$clearBlockEvents$19(BoundingBox,BlockEventData)
++ boolean lambda$findLightningRod$7(PoiType)
+- boolean lambda$findLightningRod$8(PoiType)
++ boolean lambda$findLightningTargetAround$8(LivingEntity)
+- boolean lambda$findLightningTargetAround$9(LivingEntity)
++ boolean lambda$findNearestBiome$13(Biome,Biome)
+- boolean lambda$findNearestBiome$14(Biome,Biome)
+- boolean lambda$tick$5(ServerPlayer)
++ float getPercentSleepingPlayers(boolean)
++ String lambda$getTypeCount$20(Object2IntMap$Entry)
+- String lambda$getTypeCount$21(Object2IntMap$Entry)
++ String lambda$getWatchdogStats$19(Entity)
+- String lambda$getWatchdogStats$20(Entity)
+- String lambda$tickNonPassenger$10(Entity)
++ String lambda$tickNonPassenger$9(Entity)
++ String lambda$tickPassenger$10(Entity)
+- String lambda$tickPassenger$11(Entity)
++ void announceSleepStatus()
++ void lambda$getEntities$11(Predicate,List,Entity)
+- void lambda$getEntities$12(Predicate,List,Entity)
++ void lambda$makeObsidianPlatform$21(ServerLevel,BlockPos)
+- void lambda$makeObsidianPlatform$23(ServerLevel,BlockPos)
++ void lambda$null$14(BlockPos)
+- void lambda$null$15(BlockPos)
++ void lambda$null$16(BlockPos,PoiType)
+- void lambda$null$17(BlockPos,PoiType)
++ void lambda$onBlockStateChange$15(BlockPos,PoiType)
+- void lambda$onBlockStateChange$16(BlockPos,PoiType)
++ void lambda$onBlockStateChange$17(BlockPos,PoiType)
+- void lambda$onBlockStateChange$18(BlockPos,PoiType)
++ void lambda$sendVibrationParticle$12(BlockPos,ClientboundAddVibrationSignalPacket,ServerPlayer)
+- void lambda$sendVibrationParticle$13(BlockPos,ClientboundAddVibrationSignalPacket,ServerPlayer)
++ void lambda$tick$5(ProfilerFiller,Entity)
+- void lambda$tick$6(ProfilerFiller,Entity)
++ void lambda$wakeUpAllPlayers$6(ServerPlayer)
+- void lambda$wakeUpAllPlayers$7(ServerPlayer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.EntityTypeTags</summary>
+
+```diff
+- List getWrappers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.GameEventTags</summary>
+
+```diff
+- List getWrappers()
+- void resetToEmpty()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.SerializationTags</summary>
+
+```diff
+- Tag lambda$static$0(Tag$Named)
+- Tag lambda$static$1(Tag$Named)
+- Tag lambda$static$2(Tag$Named)
+- Tag lambda$static$3(Tag$Named)
+- Tag lambda$static$4(Tag$Named)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.StaticTagHelper</summary>
+
+```diff
+- List getWrappers()
++ ResourceKey getKey()
++ String getDirectory()
++ Tag lambda$addToCollection$3(StaticTagHelper$Wrapper)
+- void <init>(Function)
++ void <init>(ResourceKey,String)
++ void addToCollection(TagContainer$Builder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.tags.TagCollection</summary>
+
+```diff
+- ResourceLocation getIdOrThrow(Tag)
++ TagCollection createFromNetwork(TagCollection$NetworkPayload,Registry)
+- TagCollection loadFromNetwork(FriendlyByteBuf,Registry)
++ TagCollection$NetworkPayload serializeToNetwork(Registry)
++ void lambda$createFromNetwork$1(Registry,Map,ResourceLocation,IntList)
++ void lambda$serializeToNetwork$0(Registry,Map,ResourceLocation,Tag)
+- void serializeToNetwork(FriendlyByteBuf,DefaultedRegistry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BabyFollowAdult</summary>
+
+```diff
++ Float lambda$new$0(float,LivingEntity)
++ void <init>(IntRange,Function)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.AbstractFish</summary>
+
+```diff
++ ItemStack lambda$mobInteract$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Animal</summary>
+
+```diff
++ void usePlayerItem(Player,InteractionHand,ItemStack)
+- void usePlayerItem(Player,ItemStack)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.Ingredient$TagValue</summary>
+
+```diff
++ IllegalStateException lambda$serialize$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.PointedDripstoneBlock</summary>
+
+```diff
+- BlockPos findRootBlock(Level,BlockPos,BlockState,int)
++ boolean canFillCauldron(Fluid)
++ boolean lambda$animateTick$0(float,Fluid)
++ boolean lambda$findFillableCauldronBelowStalactiteTip$6(Fluid,BlockState)
++ boolean lambda$findRootBlock$4(Direction,BlockState)
++ boolean lambda$findRootBlock$5(BlockState)
++ boolean lambda$findTip$3(Direction,BlockState)
++ Fluid getDripFluid(Level,Fluid)
++ Fluid lambda$getFluidAboveStalactite$7(Level,BlockPos)
++ Optional findBlockVertical(LevelAccessor,BlockPos,Direction$AxisDirection,Predicate,Predicate,int)
++ Optional findRootBlock(Level,BlockPos,BlockState,int)
++ Optional getFluidAboveStalactite(Level,BlockPos,BlockState)
+- PointedDripstoneBlock$DripType getDripType(Level,BlockPos,BlockState)
++ void lambda$animateTick$1(Level,BlockPos,BlockState,Fluid)
++ void lambda$spawnDripParticle$2(Level,BlockPos,BlockState,Fluid)
++ void spawnDripParticle(Level,BlockPos,BlockState,Fluid)
+- void spawnDripParticle(Level,BlockPos,BlockState,PointedDripstoneBlock$DripType)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/loot_tables/entities/axolotl.json
++ minecraft/tags/entity_types/axolotl_always_hostiles.json
++ minecraft/tags/entity_types/axolotl_tempted_hostiles.json
++ minecraft/tags/items/axolotl_tempt_items.json
++ minecraft/tags/items/occludes_vibration_signals.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/item/axolotl_bucket.json
++ minecraft/models/item/axolotl_spawn_egg.json
++ minecraft/textures/entity/axolotl/axolotl_blue.png
++ minecraft/textures/entity/axolotl/axolotl_cyan.png
++ minecraft/textures/entity/axolotl/axolotl_gold.png
++ minecraft/textures/entity/axolotl/axolotl_lucy.png
++ minecraft/textures/entity/axolotl/axolotl_wild.png
++ minecraft/textures/gui/container/bundle.png
++ minecraft/textures/item/axolotl_bucket.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>activity.txt</summary>
+
+```diff
++ minecraft:play_dead
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:axolotl
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
+- minecraft:eating_start
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:axolotl_bucket
++ minecraft:axolotl_spawn_egg
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:is_tempted
++ minecraft:play_dead_ticks
++ minecraft:temptation_cooldown_ticks
++ minecraft:tempting_player
+```
+
+</details>
+
+
+<details><summary>sensor_type.txt</summary>
+
+```diff
++ minecraft:axolotl_hostiles
++ minecraft:axolotl_temptations
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.axolotl.attack
++ minecraft:entity.axolotl.death
++ minecraft:entity.axolotl.hurt
++ minecraft:entity.axolotl.idle_air
++ minecraft:entity.axolotl.idle_water
++ minecraft:entity.axolotl.splash
++ minecraft:entity.axolotl.swim
++ minecraft:item.bucket.empty_axolotl
++ minecraft:item.bucket.fill_axolotl
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>gamerule.txt</summary>
+
+```diff
++ gamerule playersSleepingPercentage <value: integer>
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ entity_types/axolotl_always_hostiles.json
++ entity_types/axolotl_tempted_hostiles.json
++ items/axolotl_tempt_items.json
++ items/occludes_vibration_signals.json
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
+- minecraft:eating_start
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ entity.minecraft.axolotl
++ gamerule.playersSleepingPercentage
++ gamerule.playersSleepingPercentage.description
++ item.minecraft.axolotl_bucket
++ item.minecraft.axolotl_spawn_egg
++ sleep.not_possible
++ sleep.players_sleeping
++ sleep.skipping_night
++ subtitles.entity.axolotl.attack
++ subtitles.entity.axolotl.death
++ subtitles.entity.axolotl.hurt
++ subtitles.entity.axolotl.idle_air
++ subtitles.entity.axolotl.idle_water
++ subtitles.entity.axolotl.splash
++ subtitles.entity.axolotl.swim
++ subtitles.item.bucket.fill_axolotl
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ entities/axolotl.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ entity_types/axolotl_always_hostiles.json
++ entity_types/axolotl_tempted_hostiles.json
++ items/axolotl_tempt_items.json
++ items/occludes_vibration_signals.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ entity/axolotl/axolotl_blue.png
++ entity/axolotl/axolotl_cyan.png
++ entity/axolotl/axolotl_gold.png
++ entity/axolotl/axolotl_lucy.png
++ entity/axolotl/axolotl_wild.png
++ gui/container/bundle.png
++ item/axolotl_bucket.png
+```
+
+</details>

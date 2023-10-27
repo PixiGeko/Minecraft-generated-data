@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w44a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w44a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-11-03T16:14:34+00:00</td></tr>
@@ -10,2128 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/122dd671c989bd1f0247c0d2924f45ea41595c71/server.txt">https://piston-data.mojang.com/v1/objects/122dd671c989bd1f0247c0d2924f45ea41595c71/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/6bf2feca56785edfddf308cbeef0fc3331155685/client.jar">https://piston-data.mojang.com/v1/objects/6bf2feca56785edfddf308cbeef0fc3331155685/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/7e7ead13deb9d525c9764f933fb11cd76b7b79ae/client.txt">https://piston-data.mojang.com/v1/objects/7e7ead13deb9d525c9764f933fb11cd76b7b79ae/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w43a">21w43a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/tags/blocks/animals_spawnable_on.json
-+  minecraft/tags/blocks/axolotls_spawnable_on.json
-+  minecraft/tags/blocks/foxes_spawnable_on.json
-+  minecraft/tags/blocks/goats_spawnable_on.json
-+  minecraft/tags/blocks/mooshrooms_spawnable_on.json
-+  minecraft/tags/blocks/parrots_spawnable_on.json
-+  minecraft/tags/blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-+  minecraft/tags/blocks/rabbits_spawnable_on.json
-+  minecraft/tags/blocks/wolves_spawnable_on.json
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>worldgen/material_condition.txt</summary>
 
-```diff
-+ minecraft:vertical_gradient
-+ minecraft:above_preliminary_surface
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ blocks/animals_spawnable_on.json
-+ blocks/axolotls_spawnable_on.json
-+ blocks/foxes_spawnable_on.json
-+ blocks/goats_spawnable_on.json
-+ blocks/mooshrooms_spawnable_on.json
-+ blocks/parrots_spawnable_on.json
-+ blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-+ blocks/rabbits_spawnable_on.json
-+ blocks/wolves_spawnable_on.json
-```
-
-</details>
-
-## Misc
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ blocks/animals_spawnable_on.json
-+ blocks/axolotls_spawnable_on.json
-+ blocks/foxes_spawnable_on.json
-+ blocks/goats_spawnable_on.json
-+ blocks/mooshrooms_spawnable_on.json
-+ blocks/parrots_spawnable_on.json
-+ blocks/polar_bears_spawnable_on_in_frozen_ocean.json
-+ blocks/rabbits_spawnable_on.json
-+ blocks/wolves_spawnable_on.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_ALLOW_LOW_SIM_DISTANCE
-+ boolean debugVoidTerrain(ChunkPos)
-- boolean debugVoidTerrain(int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.event.PacketEvent$Fields</summary>
-
-```diff
-+ String PACKET_ID
-+ String PROTOCOL_ID
-- String PACKET_NAME
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.jfr.event.PacketSentEvent</summary>
-
-```diff
-+ void <init>(SocketAddress,int)
-- void <init>(SocketAddress,int)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.parse.JfrStatsParser</summary>
-
-```diff
-+ Map receivedPackets
-+ Map sentPackets
-- List receivedPackets
-- List sentPackets
-+ JfrStatsParser$MutableCountAndSize lambda$incrementPacket$1(NetworkPacketSummary$PacketIdentification)
-+ NetworkPacketSummary collectPacketStats(Map)
-+ Pair lambda$collectPacketStats$2(Map$Entry)
-+ void incrementPacket(Map)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntitySelector</summary>
-
-```diff
-+ Predicate CAN_BE_COLLIDED_WITH
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ Entity lambda$create$0(EntityType)
-+ Entity lambda$loadEntityRecursive$3(Entity)
-+ void lambda$create$1(Entity)
-+ void lambda$create$2(CompoundTag)
-- boolean lambda$getYOffset$0(Entity)
-- Entity lambda$create$1(EntityType)
-- Entity lambda$loadEntityRecursive$4(Entity)
-- void lambda$create$2(Entity)
-- void lambda$create$3(CompoundTag)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Animal</summary>
-
-```diff
-+ boolean isBrightEnoughToSpawn(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Fox</summary>
-
-```diff
-+ boolean checkFoxSpawnRules(Random)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
-
-```diff
-+ List getEntityCollisions(AABB)
-- Stream getEntityCollisions(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.PathNavigationRegion</summary>
-
-```diff
-+ List getEntityCollisions(AABB)
-- Stream getCollisions(Predicate)
-- Stream getEntityCollisions(Predicate)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
-
-```diff
-+ TerrainShaper overworld()
-- void <init>()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.border.WorldBorder</summary>
-
-```diff
-+ boolean isInsideCloseToBorder(AABB)
-+ boolean isWithinBounds(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
-
-```diff
-+ LevelHeightAccessor getHeightAccessorForGeneration()
-+ void setStartForFeature(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.entity.EntitySectionStorage</summary>
-
-```diff
-+ void forEachAccessibleNonEmptySection(Consumer)
-+ void lambda$getEntities$1(EntitySection)
-+ void lambda$getEntities$2(EntitySection)
-- boolean lambda$createBoundingBoxCheck$1(EntityAccess)
-- Predicate createBoundingBoxCheck(AABB)
-- void forEachAccessibleSection(Consumer)
-- void lambda$getEntities$2(EntitySection)
-- void lambda$getEntities$3(EntitySection)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition</summary>
-
-```diff
-+ SurfaceRules$Context val$ruleContext
-+ boolean compute()
-+ void <init>(Set)
-- boolean compute(Object)
-- boolean compute(ResourceKey)
-- void <init>(Set)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
-
-```diff
-+ BlockPos$MutableBlockPos pos
-+ ChunkAccess chunk
-+ Function biomeGetter
-+ int blockX
-+ int blockY
-+ int blockZ
-+ int minSurfaceLevel
-+ int runDepth
-+ int stoneDepthAbove
-+ int stoneDepthBelow
-+ int waterHeight
-+ long lastUpdateXZ
-+ long lastUpdateY
-+ Registry biomes
-+ Supplier biome
-+ Supplier biomeKey
-+ SurfaceRules$Condition abovePreliminarySurface
-+ SurfaceRules$Condition hole
-+ SurfaceRules$Condition steep
-+ SurfaceRules$Condition temperature
-- List biomeConditions
-- List noiseThresholdConditions
-- List yConditions
-- SurfaceRules$UpdatableCondition hole
-- SurfaceRules$UpdatableCondition steep
-- SurfaceRules$UpdatableCondition temperature
-+ Biome lambda$updateY$0(int,int,int)
-+ IllegalStateException lambda$updateY$1()
-+ ResourceKey lambda$updateY$2()
-+ void <init>(WorldGenerationContext)
-+ void updateXZ(int,int,int)
-+ void updateY(int,int,int,int,int,int,int)
-- void <init>(WorldGenerationContext)
-- void updateXZ(ChunkAccess,int,int,int)
-- void updateY(Biome,int,int,int,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition</summary>
-
-```diff
-+ boolean compute()
-+ void <init>(SurfaceRules$Context)
-- boolean compute(Object)
-- boolean compute(SurfaceRules$Context$TemperatureHelperCondition$State)
-- void <init>()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$LazyCondition</summary>
-
-```diff
-+ boolean compute()
-+ long getContextLastUpdate()
-+ long lastUpdate
-+ SurfaceRules$Context context
-- boolean compute(java.lang.Object)
-- Object state
-+ void <init>(SurfaceRules$Context)
-- void <init>()
-- void update(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition</summary>
-
-```diff
-+ SurfaceRules$Context val$ruleContext
-+ boolean compute()
-+ void <init>(NormalNoise)
-- boolean compute(Object)
-- boolean compute(SurfaceRules$NoiseThresholdConditionState)
-- void <init>(NormalNoise)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
-
-```diff
-+ Optional topMaterial(BlockPos,boolean)
-- Optional topMaterial(BlockPos,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
-
-```diff
-+ LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider,int)
-- LargeDripstoneFeature$LargeDripstone makeDripstone(FloatProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$Placer</summary>
-
-```diff
-+ void tryPlacingChildren(LevelHeightAccessor)
-- void tryPlacingChildren(LevelHeightAccessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.EntityCollisionContext</summary>
-
-```diff
-+ Entity entity
-- Optional entity
-+ Entity getEntity()
-+ void <init>(Entity)
-- Optional getEntity()
-- void <init>(Optional)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
-
-```diff
-+ double collide(Iterable,double)
-+ double collide(Iterable)
-+ double collide(Iterable)
-- double collide(Stream,double)
-- double collide(Stream)
-- double collide(Stream)
-- void lambda$collide$4(VoxelShape)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.gui.screens.achievement.package-info
@@ -4829,1090 +2729,270 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.SectionPos</summary>
+<details><summary>net.minecraft.SharedConstants</summary>
 
 ```diff
-+ void aroundAndAtBlockPos(LongConsumer)
-+ void aroundAndAtBlockPos(LongConsumer)
-+ void aroundAndAtBlockPos(LongConsumer)
++ boolean debugVoidTerrain(ChunkPos)
+- boolean debugVoidTerrain(int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+<details><summary>net.minecraft.util.profiling.jfr.event.PacketSentEvent</summary>
 
 ```diff
-- List EXPLORABLE_BIOMES
-+ List getAllOverworldBiomes()
++ void <init>(int,int,SocketAddress,int)
+- void <init>(String,SocketAddress,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
+<details><summary>net.minecraft.util.profiling.jfr.parse.JfrStatsParser</summary>
 
 ```diff
-+ void registerBiomeNoises(ResourceKey)
++ JfrStatsParser$MutableCountAndSize lambda$incrementPacket$1(NetworkPacketSummary$PacketIdentification)
++ NetworkPacketSummary collectPacketStats(Duration,Map)
++ Pair lambda$collectPacketStats$2(Map$Entry)
++ void incrementPacket(RecordedEvent,int,Map)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.data.worldgen.SurfaceRuleData</summary>
+<details><summary>net.minecraft.world.entity.EntityType</summary>
 
 ```diff
-+ SurfaceRules$RuleSource BEDROCK
-+ SurfaceRules$RuleSource DEEPSLATE
+- boolean lambda$getYOffset$0(Entity)
++ Entity lambda$create$0(Level,EntityType)
+- Entity lambda$create$1(Level,EntityType)
++ Entity lambda$loadEntityRecursive$3(CompoundTag,Level,Function,Entity)
+- Entity lambda$loadEntityRecursive$4(CompoundTag,Level,Function,Entity)
++ void lambda$create$1(CompoundTag,Entity)
+- void lambda$create$2(CompoundTag,Entity)
++ void lambda$create$2(CompoundTag)
+- void lambda$create$3(CompoundTag)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.network.PacketEncoder</summary>
+<details><summary>net.minecraft.world.entity.animal.Animal</summary>
 
 ```diff
-- String lambda$encode$0(Packet)
++ boolean isBrightEnoughToSpawn(BlockAndTintGetter,BlockPos)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.MinecraftServer</summary>
+<details><summary>net.minecraft.world.entity.animal.Fox</summary>
 
 ```diff
-+ GameProfile ANONYMOUS_PLAYER_PROFILE
-+ boolean hidesOnlinePlayers()
++ boolean checkFoxSpawnRules(EntityType,LevelAccessor,MobSpawnType,BlockPos,Random)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.commands.JfrCommand</summary>
+<details><summary>net.minecraft.world.level.CommonLevelAccessor</summary>
 
 ```diff
-+ Style lambda$stopJfr$4(Style)
++ List getEntityCollisions(Entity,AABB)
+- Stream getEntityCollisions(Entity,AABB,Predicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+<details><summary>net.minecraft.world.level.PathNavigationRegion</summary>
 
 ```diff
-+ Component lambda$handleChat$8(ServerPlayer)
-+ String lambda$send$7(Packet)
-+ void lambda$handlePlaceRecipe$9(Recipe)
-+ void lambda$handleSignUpdate$10(List)
-- boolean lambda$isPlayerCollidingWithAnythingNew$7(Entity)
-- boolean lambda$isPlayerCollidingWithAnythingNew$8(VoxelShape)
-- Component lambda$handleChat$10(ServerPlayer)
-- String lambda$send$9(Packet)
-- void lambda$handlePlaceRecipe$11(Recipe)
-- void lambda$handleSignUpdate$12(List)
++ List getEntityCollisions(Entity,AABB)
+- Stream getCollisions(Entity,AABB,Predicate)
+- Stream getEntityCollisions(Entity,AABB,Predicate)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.CubicSpline</summary>
+<details><summary>net.minecraft.world.level.biome.TerrainShaper</summary>
 
 ```diff
-+ CubicSpline constant(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.profiling.jfr.JfrProfiler</summary>
-
-```diff
-+ float currentAverageTickTime
-+ JfrProfiler INSTANCE
-+ Map networkTrafficByAddress
-- long nextTickTimeReport
-+ JfrProfiler getInstance()
-+ NetworkSummaryEvent$SumAggregation networkStatFor(SocketAddress)
-+ void lambda$new$0()
-+ void lambda$new$1()
-+ void lambda$start$2(Recording)
-+ void onPacketReceived(SocketAddress,int)
-+ void onPacketSent(SocketAddress,int)
-- void initialize()
-- void lambda$start$0(Recording)
-- void onPacketReceived(SocketAddress,int)
-- void onPacketSent(SocketAddress,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.util.profiling.jfr.JvmProfiler</summary>
-
-```diff
-+ void onPacketReceived(int,int,java.net.SocketAddress,int)
-+ void onPacketSent(int,int,java.net.SocketAddress,int)
-- void initialize()
-- void onPacketReceived(java.util.function.Supplier,java.net.SocketAddress,int)
-- void onPacketSent(java.util.function.Supplier,java.net.SocketAddress,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.CollisionGetter</summary>
-
-```diff
-+ List getEntityCollisions(net.minecraft.world.entity.Entity,net.minecraft.world.phys.AABB)
-- Stream getEntityCollisions(net.minecraft.world.entity.Entity,net.minecraft.world.phys.AABB,java.util.function.Predicate)
-+ AABB lambda$findFreePosition$3(AABB)
-+ boolean collidesWithSuffocatingBlock(AABB)
-+ boolean lambda$findFreePosition$1(VoxelShape)
-+ Iterable getBlockCollisions(AABB)
-+ Iterable getCollisions(AABB)
-+ Iterator lambda$getBlockCollisions$0(AABB)
-+ Stream lambda$findFreePosition$2(VoxelShape)
-+ VoxelShape borderCollision(AABB)
-- AABB lambda$findFreePosition$4(AABB)
-- boolean hasBlockCollision(BiPredicate)
-- boolean lambda$noCollision$0(Entity)
-- boolean lambda$noCollision$1(Entity)
-- boolean lambda$noCollision$2(Entity)
-- boolean noCollision(Predicate)
-- Stream getBlockCollisions(AABB)
-- Stream getBlockCollisions(BiPredicate)
-- Stream getCollisions(Predicate)
-- Stream lambda$findFreePosition$3(VoxelShape)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
-
-```diff
-+ void applyBiomeDecoration(StructureFeatureManager)
-- void applyBiomeDecoration(StructureFeatureManager)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
-
-```diff
-- int BEDROCK_LAYER_HEIGHT
-+ Optional topMaterial(BlockPos,boolean)
-- IllegalStateException lambda$topMaterial$17(Biome)
-- Optional topMaterial(BlockPos,boolean)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.NoiseSampler</summary>
-
-```diff
-+ boolean amplified
-- double dimensionDensityFactor
-- double dimensionDensityOffset
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules</summary>
-
-```diff
-+ SurfaceRules$ConditionSource abovePreliminarySurface()
-+ SurfaceRules$ConditionSource verticalGradient(VerticalAnchor)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context$HoleCondition</summary>
-
-```diff
-+ boolean compute()
-+ void <init>(SurfaceRules$Context)
-- boolean compute(Integer)
-- boolean compute(Object)
++ TerrainShaper overworld()
 - void <init>()
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+<details><summary>net.minecraft.world.level.border.WorldBorder</summary>
 
 ```diff
-+ Map positionalRandoms
-+ Optional topMaterial(BlockPos,boolean)
-+ PositionalRandomFactory getOrCreateRandomFactory(ResourceLocation)
-+ PositionalRandomFactory lambda$getOrCreateRandomFactory$1(ResourceLocation)
-+ void erodedBadlandsExtension(LevelHeightAccessor)
-+ void frozenOceanExtension(BlockPos$MutableBlockPos,int,int,int)
-- IllegalStateException lambda$buildSurface$1(Biome)
-- Optional topMaterial(BlockPos,boolean)
-- void erodedBadlandsExtension(LevelHeightAccessor)
-- void frozenOceanExtension(BlockPos$MutableBlockPos,int,int,int)
++ boolean isInsideCloseToBorder(Entity,AABB)
++ boolean isWithinBounds(double,double,double)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.level.chunk.ProtoChunk</summary>
+
+```diff
++ LevelHeightAccessor getHeightAccessorForGeneration()
++ void setStartForFeature(StructureFeature,StructureStart)
+```
+
+</details>
 
 
-<details><summary>Added and removed classes</summary>
+<details><summary>net.minecraft.world.level.entity.EntitySectionStorage</summary>
+
+```diff
+- boolean lambda$createBoundingBoxCheck$1(AABB,EntityAccess)
+- Predicate createBoundingBoxCheck(AABB)
++ void forEachAccessibleNonEmptySection(AABB,Consumer)
+- void forEachAccessibleSection(AABB,Consumer)
++ void lambda$getEntities$1(AABB,Consumer,EntitySection)
+- void lambda$getEntities$2(AABB,Consumer,EntitySection)
++ void lambda$getEntities$2(EntityTypeTest,AABB,Consumer,EntitySection)
+- void lambda$getEntities$3(EntityTypeTest,AABB,Consumer,EntitySection)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$BiomeConditionSource$1BiomeCondition</summary>
+
+```diff
++ boolean compute()
+- boolean compute(Object)
+- boolean compute(ResourceKey)
+- void <init>(SurfaceRules$BiomeConditionSource,Set)
++ void <init>(SurfaceRules$BiomeConditionSource,SurfaceRules$Context,Set)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context</summary>
+
+```diff
++ Biome lambda$updateY$0(int,int,int)
++ IllegalStateException lambda$updateY$1()
++ ResourceKey lambda$updateY$2()
++ void <init>(SurfaceSystem,ChunkAccess,Function,Registry,WorldGenerationContext)
+- void <init>(SurfaceSystem,WorldGenerationContext)
+- void updateXZ(ChunkAccess,int,int,int)
++ void updateXZ(int,int,int)
++ void updateY(int,int,int,int,int,int,int)
+- void updateY(ResourceKey,Biome,int,int,int,int,int,int,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context$TemperatureHelperCondition</summary>
+
+```diff
++ boolean compute()
+- boolean compute(Object)
+- boolean compute(SurfaceRules$Context$TemperatureHelperCondition$State)
+- void <init>()
++ void <init>(SurfaceRules$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$LazyCondition</summary>
+
+```diff
+- void <init>()
++ void <init>(SurfaceRules$Context)
+- void update(Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$NoiseThresholdConditionSource$1NoiseThresholdCondition</summary>
+
+```diff
++ boolean compute()
+- boolean compute(Object)
+- boolean compute(SurfaceRules$NoiseThresholdConditionState)
+- void <init>(SurfaceRules$NoiseThresholdConditionSource,NormalNoise)
++ void <init>(SurfaceRules$NoiseThresholdConditionSource,SurfaceRules$Context,NormalNoise)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.carver.CarvingContext</summary>
+
+```diff
+- Optional topMaterial(Biome,ChunkAccess,BlockPos,boolean)
++ Optional topMaterial(Function,ChunkAccess,BlockPos,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.LargeDripstoneFeature</summary>
+
+```diff
++ LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,Random,int,FloatProvider,FloatProvider,int)
+- LargeDripstoneFeature$LargeDripstone makeDripstone(BlockPos,boolean,Random,int,FloatProvider,FloatProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$Placer</summary>
+
+```diff
++ void tryPlacingChildren(PoolElementStructurePiece,MutableObject,int,boolean,LevelHeightAccessor)
+- void tryPlacingChildren(PoolElementStructurePiece,MutableObject,int,int,boolean,LevelHeightAccessor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.EntityCollisionContext</summary>
+
+```diff
++ Entity getEntity()
+- Optional getEntity()
++ void <init>(boolean,double,ItemStack,ItemStack,Predicate,Entity)
+- void <init>(boolean,double,ItemStack,ItemStack,Predicate,Optional)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.phys.shapes.Shapes</summary>
+
+```diff
++ double collide(AABB,LevelReader,double,CollisionContext,AxisCycle,Iterable)
+- double collide(AABB,LevelReader,double,CollisionContext,AxisCycle,Stream)
++ double collide(Direction$Axis,AABB,Iterable,double)
++ double collide(Direction$Axis,AABB,LevelReader,double,CollisionContext,Iterable)
+- double collide(Direction$Axis,AABB,LevelReader,double,CollisionContext,Stream)
+- double collide(Direction$Axis,AABB,Stream,double)
+- void lambda$collide$4(double[],Direction$Axis,AABB,VoxelShape)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.util.profiling.jfr.event.NetworkSummaryEvent
@@ -8758,13 +5838,275 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.SectionPos</summary>
+
+```diff
++ void aroundAndAtBlockPos(BlockPos,LongConsumer)
++ void aroundAndAtBlockPos(int,int,int,LongConsumer)
++ void aroundAndAtBlockPos(long,LongConsumer)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.advancements.AdventureAdvancements</summary>
+
+```diff
++ List getAllOverworldBiomes()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.NoiseData</summary>
+
+```diff
++ void registerBiomeNoises(int,ResourceKey,ResourceKey,ResourceKey,ResourceKey,ResourceKey,ResourceKey)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.network.PacketEncoder</summary>
+
+```diff
+- String lambda$encode$0(int,Integer,Packet)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.MinecraftServer</summary>
+
+```diff
++ boolean hidesOnlinePlayers()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.commands.JfrCommand</summary>
+
+```diff
++ Style lambda$stopJfr$4(File,Style)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
+
+```diff
+- boolean lambda$isPlayerCollidingWithAnythingNew$7(Entity)
+- boolean lambda$isPlayerCollidingWithAnythingNew$8(VoxelShape,VoxelShape)
+- Component lambda$handleChat$10(Component,Component,ServerPlayer)
++ Component lambda$handleChat$8(Component,Component,ServerPlayer)
++ String lambda$send$7(Packet)
+- String lambda$send$9(Packet)
+- void lambda$handlePlaceRecipe$11(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handlePlaceRecipe$9(ServerboundPlaceRecipePacket,Recipe)
++ void lambda$handleSignUpdate$10(ServerboundSignUpdatePacket,List)
+- void lambda$handleSignUpdate$12(ServerboundSignUpdatePacket,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.CubicSpline</summary>
+
+```diff
++ CubicSpline constant(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.profiling.jfr.JfrProfiler</summary>
+
+```diff
++ JfrProfiler getInstance()
++ NetworkSummaryEvent$SumAggregation networkStatFor(SocketAddress)
+- void initialize()
++ void lambda$new$0()
++ void lambda$new$1()
+- void lambda$start$0(Environment,String,Recording)
++ void lambda$start$2(Environment,String,Recording)
++ void onPacketReceived(int,int,SocketAddress,int)
+- void onPacketReceived(Supplier,SocketAddress,int)
++ void onPacketSent(int,int,SocketAddress,int)
+- void onPacketSent(Supplier,SocketAddress,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.CollisionGetter</summary>
+
+```diff
++ AABB lambda$findFreePosition$3(double,double,double,AABB)
+- AABB lambda$findFreePosition$4(double,double,double,AABB)
++ boolean collidesWithSuffocatingBlock(Entity,AABB)
+- boolean hasBlockCollision(Entity,AABB,BiPredicate)
++ boolean lambda$findFreePosition$1(VoxelShape)
+- boolean lambda$noCollision$0(Entity)
+- boolean lambda$noCollision$1(Entity)
+- boolean lambda$noCollision$2(Entity)
+- boolean noCollision(Entity,AABB,Predicate)
++ Iterable getBlockCollisions(Entity,AABB)
++ Iterable getCollisions(Entity,AABB)
++ Iterator lambda$getBlockCollisions$0(Entity,AABB)
+- Stream getBlockCollisions(Entity,AABB,BiPredicate)
+- Stream getBlockCollisions(Entity,AABB)
+- Stream getCollisions(Entity,AABB,Predicate)
++ Stream lambda$findFreePosition$2(VoxelShape)
+- Stream lambda$findFreePosition$3(VoxelShape)
++ VoxelShape borderCollision(Entity,AABB)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.DebugLevelSource</summary>
+
+```diff
++ void applyBiomeDecoration(WorldGenLevel,ChunkAccess,StructureFeatureManager)
+- void applyBiomeDecoration(WorldGenLevel,ChunkPos,StructureFeatureManager)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator</summary>
+
+```diff
+- IllegalStateException lambda$topMaterial$17(Biome)
+- Optional topMaterial(CarvingContext,Biome,ChunkAccess,BlockPos,boolean)
++ Optional topMaterial(CarvingContext,Function,ChunkAccess,BlockPos,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules</summary>
+
+```diff
++ SurfaceRules$ConditionSource abovePreliminarySurface()
++ SurfaceRules$ConditionSource verticalGradient(String,VerticalAnchor,VerticalAnchor)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceRules$Context$HoleCondition</summary>
+
+```diff
++ boolean compute()
+- boolean compute(Integer)
+- boolean compute(Object)
+- void <init>()
++ void <init>(SurfaceRules$Context)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.SurfaceSystem</summary>
+
+```diff
+- IllegalStateException lambda$buildSurface$1(Biome)
+- Optional topMaterial(SurfaceRules$RuleSource,CarvingContext,Biome,ResourceKey,ChunkAccess,BlockPos,boolean)
++ Optional topMaterial(SurfaceRules$RuleSource,CarvingContext,Function,ChunkAccess,BlockPos,boolean)
++ PositionalRandomFactory getOrCreateRandomFactory(ResourceLocation)
++ PositionalRandomFactory lambda$getOrCreateRandomFactory$1(ResourceLocation,ResourceLocation)
++ void erodedBadlandsExtension(BlockColumn,int,int,int,LevelHeightAccessor)
+- void erodedBadlandsExtension(int,double,BlockColumn,int,int,int,LevelHeightAccessor)
++ void frozenOceanExtension(int,Biome,BlockColumn,BlockPos$MutableBlockPos,int,int,int)
+- void frozenOceanExtension(int,Biome,double,BlockColumn,BlockPos$MutableBlockPos,int,int,int)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/tags/blocks/animals_spawnable_on.json
++ minecraft/tags/blocks/axolotls_spawnable_on.json
++ minecraft/tags/blocks/foxes_spawnable_on.json
++ minecraft/tags/blocks/goats_spawnable_on.json
++ minecraft/tags/blocks/mooshrooms_spawnable_on.json
++ minecraft/tags/blocks/parrots_spawnable_on.json
++ minecraft/tags/blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ minecraft/tags/blocks/rabbits_spawnable_on.json
++ minecraft/tags/blocks/wolves_spawnable_on.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>worldgen/material_condition.txt</summary>
+
+```diff
++ minecraft:above_preliminary_surface
++ minecraft:vertical_gradient
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/animals_spawnable_on.json
++ blocks/axolotls_spawnable_on.json
++ blocks/foxes_spawnable_on.json
++ blocks/goats_spawnable_on.json
++ blocks/mooshrooms_spawnable_on.json
++ blocks/parrots_spawnable_on.json
++ blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ blocks/rabbits_spawnable_on.json
++ blocks/wolves_spawnable_on.json
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ options.allowServerListing
++ options.allowServerListing.tooltip
++ options.difficulty.online
++ options.online
++ options.online.title
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/animals_spawnable_on.json
++ blocks/axolotls_spawnable_on.json
++ blocks/foxes_spawnable_on.json
++ blocks/goats_spawnable_on.json
++ blocks/mooshrooms_spawnable_on.json
++ blocks/parrots_spawnable_on.json
++ blocks/polar_bears_spawnable_on_in_frozen_ocean.json
++ blocks/rabbits_spawnable_on.json
++ blocks/wolves_spawnable_on.json
+```
+
+</details>

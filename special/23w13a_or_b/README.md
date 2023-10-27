@@ -1,3769 +1,37 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 23w13a_or_b ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>23w13a_or_b</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2023-04-01T12:52:18+00:00</td></tr>
-<tr><th>SHA1</th><td>cef97ed8f539b412ff643ad7ef54010ff05eb2a0</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/cef97ed8f539b412ff643ad7ef54010ff05eb2a0/23w13a_or_b.json">https://piston-meta.mojang.com/v1/packages/cef97ed8f539b412ff643ad7ef54010ff05eb2a0/23w13a_or_b.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json">https://piston-meta.mojang.com/v1/packages/6866ec229f3cf6345772bb60d0bb951f85d5c107/3.json</a></td></tr>
+<tr><th>SHA1</th><td>f513e94323433245efcbeb46ae78b34e800ecf38</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/f513e94323433245efcbeb46ae78b34e800ecf38/23w13a_or_b.json">https://piston-meta.mojang.com/v1/packages/f513e94323433245efcbeb46ae78b34e800ecf38/23w13a_or_b.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json">https://piston-meta.mojang.com/v1/packages/3cb24cc5123384f5edf4698ea16ad8ce3fbbc1ba/3.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/6241fc14ce7a659f371683a72aa24c155f60cce1/server.jar">https://piston-data.mojang.com/v1/objects/6241fc14ce7a659f371683a72aa24c155f60cce1/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/370d31c1b7d700ee65ddeb25f975a2e67d1d13d0/server.txt">https://piston-data.mojang.com/v1/objects/370d31c1b7d700ee65ddeb25f975a2e67d1d13d0/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/8ebf103ef3c48ff40d4d002f44c5f7bc5d90e7e2/client.jar">https://piston-data.mojang.com/v1/objects/8ebf103ef3c48ff40d4d002f44c5f7bc5d90e7e2/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/89796dd1e08c190821ecdd31e3c43709a66b010b/client.txt">https://piston-data.mojang.com/v1/objects/89796dd1e08c190821ecdd31e3c43709a66b010b/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/23w13a">23w13a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/vote_1.json
-+  minecraft/advancements/adventure/vote_256.json
-+  minecraft/advancements/recipes/brewing/copper_sink.json
-+  minecraft/advancements/recipes/building_blocks/air_block.json
-+  minecraft/advancements/recipes/building_blocks/packed_air.json
-+  minecraft/advancements/recipes/combat/diamond_drows.json
-+  minecraft/advancements/recipes/combat/wob.json
-+  minecraft/advancements/recipes/misc/m_banner_pattern.json
-+  minecraft/advancements/recipes/misc/string_concatenation.json
-+  minecraft/advancements/recipes/redstone/bit_from_name_stonecutting.json
-+  minecraft/advancements/recipes/redstone/bit_from_tag_stonecutting.json
-+  minecraft/advancements/recipes/redstone/left_curly.json
-+  minecraft/advancements/recipes/redstone/left_square.json
-+  minecraft/advancements/recipes/redstone/name_from_name_tag_stonecutting.json
-+  minecraft/advancements/recipes/redstone/pickaxe_block.json
-+  minecraft/advancements/recipes/redstone/place_block.json
-+  minecraft/advancements/recipes/redstone/right_curly.json
-+  minecraft/advancements/recipes/redstone/right_square.json
-+  minecraft/advancements/recipes/redstone/tag_from_name_tag_stonecutting.json
-+  minecraft/damage_type/midas_curse.json
-+  minecraft/damage_type/on_moon.json
-+  minecraft/dimension_type/the_moon.json
-+  minecraft/loot_tables/blocks/cheese.json
-+  minecraft/loot_tables/blocks/copper_sink.json
-+  minecraft/loot_tables/blocks/copper_spleaves.json
-+  minecraft/loot_tables/blocks/filled_copper_sink.json
-+  minecraft/loot_tables/blocks/other_portal.json
-+  minecraft/loot_tables/blocks/pickaxe_block.json
-+  minecraft/loot_tables/blocks/place_block.json
-+  minecraft/loot_tables/chests/moon_lab.json
-+  minecraft/loot_tables/chests/moon_resuply.json
-+  minecraft/loot_tables/entities/moon_cow.json
-+  minecraft/loot_tables/entities/ray_tracing.json
-+  minecraft/loot_tables/gameplay/dream_piglin_bartering.json
-+  minecraft/recipes/air_block.json
-+  minecraft/recipes/bit_from_name_stonecutting.json
-+  minecraft/recipes/bit_from_tag_stonecutting.json
-+  minecraft/recipes/copper_sink.json
-+  minecraft/recipes/diamond_drows.json
-+  minecraft/recipes/dupe_hack.json
-+  minecraft/recipes/left_curly.json
-+  minecraft/recipes/left_square.json
-+  minecraft/recipes/m_banner_pattern.json
-+  minecraft/recipes/name_from_name_tag_stonecutting.json
-+  minecraft/recipes/nbt_crafting.json
-+  minecraft/recipes/packed_air.json
-+  minecraft/recipes/pickaxe_block.json
-+  minecraft/recipes/place_block.json
-+  minecraft/recipes/right_curly.json
-+  minecraft/recipes/right_square.json
-+  minecraft/recipes/string_concatenation.json
-+  minecraft/recipes/tag_from_name_tag_stonecutting.json
-+  minecraft/recipes/wob.json
-+  minecraft/tags/banner_pattern/pattern_item/m.json
-+  minecraft/tags/blocks/cordycep_block.json
-+  minecraft/tags/items/copper.json
-+  minecraft/tags/items/heavy.json
-+  minecraft/worldgen/biome/the_moon.json
-+  minecraft/worldgen/configured_feature/large_crater.json
-+  minecraft/worldgen/configured_feature/lunar_base.json
-+  minecraft/worldgen/configured_feature/mega_crater.json
-+  minecraft/worldgen/configured_feature/small_crater.json
-+  minecraft/worldgen/noise_settings/moon.json
-+  minecraft/worldgen/placed_feature/crater_large.json
-+  minecraft/worldgen/placed_feature/crater_mega.json
-+  minecraft/worldgen/placed_feature/crater_small.json
-+  minecraft/worldgen/placed_feature/lunar_base.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/cheese.json
-+  minecraft/blockstates/copper_sink.json
-+  minecraft/blockstates/copper_spleaves.json
-+  minecraft/blockstates/filled_copper_sink.json
-+  minecraft/blockstates/other_portal.json
-+  minecraft/blockstates/packed_air.json
-+  minecraft/blockstates/pickaxe_block.json
-+  minecraft/blockstates/place_block.json
-+  minecraft/models/block/cheese_1.json
-+  minecraft/models/block/cheese_10.json
-+  minecraft/models/block/cheese_100.json
-+  minecraft/models/block/cheese_1000.json
-+  minecraft/models/block/cheese_10000.json
-+  minecraft/models/block/cheese_100000.json
-+  minecraft/models/block/cheese_1000000.json
-+  minecraft/models/block/cheese_10000000.json
-+  minecraft/models/block/cheese_10000001.json
-+  minecraft/models/block/cheese_1000001.json
-+  minecraft/models/block/cheese_10000010.json
-+  minecraft/models/block/cheese_10000011.json
-+  minecraft/models/block/cheese_100001.json
-+  minecraft/models/block/cheese_1000010.json
-+  minecraft/models/block/cheese_10000100.json
-+  minecraft/models/block/cheese_10000101.json
-+  minecraft/models/block/cheese_1000011.json
-+  minecraft/models/block/cheese_10000110.json
-+  minecraft/models/block/cheese_10000111.json
-+  minecraft/models/block/cheese_10001.json
-+  minecraft/models/block/cheese_100010.json
-+  minecraft/models/block/cheese_1000100.json
-+  minecraft/models/block/cheese_10001000.json
-+  minecraft/models/block/cheese_10001001.json
-+  minecraft/models/block/cheese_1000101.json
-+  minecraft/models/block/cheese_10001010.json
-+  minecraft/models/block/cheese_10001011.json
-+  minecraft/models/block/cheese_100011.json
-+  minecraft/models/block/cheese_1000110.json
-+  minecraft/models/block/cheese_10001100.json
-+  minecraft/models/block/cheese_10001101.json
-+  minecraft/models/block/cheese_1000111.json
-+  minecraft/models/block/cheese_10001110.json
-+  minecraft/models/block/cheese_10001111.json
-+  minecraft/models/block/cheese_1001.json
-+  minecraft/models/block/cheese_10010.json
-+  minecraft/models/block/cheese_100100.json
-+  minecraft/models/block/cheese_1001000.json
-+  minecraft/models/block/cheese_10010000.json
-+  minecraft/models/block/cheese_10010001.json
-+  minecraft/models/block/cheese_1001001.json
-+  minecraft/models/block/cheese_10010010.json
-+  minecraft/models/block/cheese_10010011.json
-+  minecraft/models/block/cheese_100101.json
-+  minecraft/models/block/cheese_1001010.json
-+  minecraft/models/block/cheese_10010100.json
-+  minecraft/models/block/cheese_10010101.json
-+  minecraft/models/block/cheese_1001011.json
-+  minecraft/models/block/cheese_10010110.json
-+  minecraft/models/block/cheese_10010111.json
-+  minecraft/models/block/cheese_10011.json
-+  minecraft/models/block/cheese_100110.json
-+  minecraft/models/block/cheese_1001100.json
-+  minecraft/models/block/cheese_10011000.json
-+  minecraft/models/block/cheese_10011001.json
-+  minecraft/models/block/cheese_1001101.json
-+  minecraft/models/block/cheese_10011010.json
-+  minecraft/models/block/cheese_10011011.json
-+  minecraft/models/block/cheese_100111.json
-+  minecraft/models/block/cheese_1001110.json
-+  minecraft/models/block/cheese_10011100.json
-+  minecraft/models/block/cheese_10011101.json
-+  minecraft/models/block/cheese_1001111.json
-+  minecraft/models/block/cheese_10011110.json
-+  minecraft/models/block/cheese_10011111.json
-+  minecraft/models/block/cheese_101.json
-+  minecraft/models/block/cheese_1010.json
-+  minecraft/models/block/cheese_10100.json
-+  minecraft/models/block/cheese_101000.json
-+  minecraft/models/block/cheese_1010000.json
-+  minecraft/models/block/cheese_10100000.json
-+  minecraft/models/block/cheese_10100001.json
-+  minecraft/models/block/cheese_1010001.json
-+  minecraft/models/block/cheese_10100010.json
-+  minecraft/models/block/cheese_10100011.json
-+  minecraft/models/block/cheese_101001.json
-+  minecraft/models/block/cheese_1010010.json
-+  minecraft/models/block/cheese_10100100.json
-+  minecraft/models/block/cheese_10100101.json
-+  minecraft/models/block/cheese_1010011.json
-+  minecraft/models/block/cheese_10100110.json
-+  minecraft/models/block/cheese_10100111.json
-+  minecraft/models/block/cheese_10101.json
-+  minecraft/models/block/cheese_101010.json
-+  minecraft/models/block/cheese_1010100.json
-+  minecraft/models/block/cheese_10101000.json
-+  minecraft/models/block/cheese_10101001.json
-+  minecraft/models/block/cheese_1010101.json
-+  minecraft/models/block/cheese_10101010.json
-+  minecraft/models/block/cheese_10101011.json
-+  minecraft/models/block/cheese_101011.json
-+  minecraft/models/block/cheese_1010110.json
-+  minecraft/models/block/cheese_10101100.json
-+  minecraft/models/block/cheese_10101101.json
-+  minecraft/models/block/cheese_1010111.json
-+  minecraft/models/block/cheese_10101110.json
-+  minecraft/models/block/cheese_10101111.json
-+  minecraft/models/block/cheese_1011.json
-+  minecraft/models/block/cheese_10110.json
-+  minecraft/models/block/cheese_101100.json
-+  minecraft/models/block/cheese_1011000.json
-+  minecraft/models/block/cheese_10110000.json
-+  minecraft/models/block/cheese_10110001.json
-+  minecraft/models/block/cheese_1011001.json
-+  minecraft/models/block/cheese_10110010.json
-+  minecraft/models/block/cheese_10110011.json
-+  minecraft/models/block/cheese_101101.json
-+  minecraft/models/block/cheese_1011010.json
-+  minecraft/models/block/cheese_10110100.json
-+  minecraft/models/block/cheese_10110101.json
-+  minecraft/models/block/cheese_1011011.json
-+  minecraft/models/block/cheese_10110110.json
-+  minecraft/models/block/cheese_10110111.json
-+  minecraft/models/block/cheese_10111.json
-+  minecraft/models/block/cheese_101110.json
-+  minecraft/models/block/cheese_1011100.json
-+  minecraft/models/block/cheese_10111000.json
-+  minecraft/models/block/cheese_10111001.json
-+  minecraft/models/block/cheese_1011101.json
-+  minecraft/models/block/cheese_10111010.json
-+  minecraft/models/block/cheese_10111011.json
-+  minecraft/models/block/cheese_101111.json
-+  minecraft/models/block/cheese_1011110.json
-+  minecraft/models/block/cheese_10111100.json
-+  minecraft/models/block/cheese_10111101.json
-+  minecraft/models/block/cheese_1011111.json
-+  minecraft/models/block/cheese_10111110.json
-+  minecraft/models/block/cheese_10111111.json
-+  minecraft/models/block/cheese_11.json
-+  minecraft/models/block/cheese_110.json
-+  minecraft/models/block/cheese_1100.json
-+  minecraft/models/block/cheese_11000.json
-+  minecraft/models/block/cheese_110000.json
-+  minecraft/models/block/cheese_1100000.json
-+  minecraft/models/block/cheese_11000000.json
-+  minecraft/models/block/cheese_11000001.json
-+  minecraft/models/block/cheese_1100001.json
-+  minecraft/models/block/cheese_11000010.json
-+  minecraft/models/block/cheese_11000011.json
-+  minecraft/models/block/cheese_110001.json
-+  minecraft/models/block/cheese_1100010.json
-+  minecraft/models/block/cheese_11000100.json
-+  minecraft/models/block/cheese_11000101.json
-+  minecraft/models/block/cheese_1100011.json
-+  minecraft/models/block/cheese_11000110.json
-+  minecraft/models/block/cheese_11000111.json
-+  minecraft/models/block/cheese_11001.json
-+  minecraft/models/block/cheese_110010.json
-+  minecraft/models/block/cheese_1100100.json
-+  minecraft/models/block/cheese_11001000.json
-+  minecraft/models/block/cheese_11001001.json
-+  minecraft/models/block/cheese_1100101.json
-+  minecraft/models/block/cheese_11001010.json
-+  minecraft/models/block/cheese_11001011.json
-+  minecraft/models/block/cheese_110011.json
-+  minecraft/models/block/cheese_1100110.json
-+  minecraft/models/block/cheese_11001100.json
-+  minecraft/models/block/cheese_11001101.json
-+  minecraft/models/block/cheese_1100111.json
-+  minecraft/models/block/cheese_11001110.json
-+  minecraft/models/block/cheese_11001111.json
-+  minecraft/models/block/cheese_1101.json
-+  minecraft/models/block/cheese_11010.json
-+  minecraft/models/block/cheese_110100.json
-+  minecraft/models/block/cheese_1101000.json
-+  minecraft/models/block/cheese_11010000.json
-+  minecraft/models/block/cheese_11010001.json
-+  minecraft/models/block/cheese_1101001.json
-+  minecraft/models/block/cheese_11010010.json
-+  minecraft/models/block/cheese_11010011.json
-+  minecraft/models/block/cheese_110101.json
-+  minecraft/models/block/cheese_1101010.json
-+  minecraft/models/block/cheese_11010100.json
-+  minecraft/models/block/cheese_11010101.json
-+  minecraft/models/block/cheese_1101011.json
-+  minecraft/models/block/cheese_11010110.json
-+  minecraft/models/block/cheese_11010111.json
-+  minecraft/models/block/cheese_11011.json
-+  minecraft/models/block/cheese_110110.json
-+  minecraft/models/block/cheese_1101100.json
-+  minecraft/models/block/cheese_11011000.json
-+  minecraft/models/block/cheese_11011001.json
-+  minecraft/models/block/cheese_1101101.json
-+  minecraft/models/block/cheese_11011010.json
-+  minecraft/models/block/cheese_11011011.json
-+  minecraft/models/block/cheese_110111.json
-+  minecraft/models/block/cheese_1101110.json
-+  minecraft/models/block/cheese_11011100.json
-+  minecraft/models/block/cheese_11011101.json
-+  minecraft/models/block/cheese_1101111.json
-+  minecraft/models/block/cheese_11011110.json
-+  minecraft/models/block/cheese_11011111.json
-+  minecraft/models/block/cheese_111.json
-+  minecraft/models/block/cheese_1110.json
-+  minecraft/models/block/cheese_11100.json
-+  minecraft/models/block/cheese_111000.json
-+  minecraft/models/block/cheese_1110000.json
-+  minecraft/models/block/cheese_11100000.json
-+  minecraft/models/block/cheese_11100001.json
-+  minecraft/models/block/cheese_1110001.json
-+  minecraft/models/block/cheese_11100010.json
-+  minecraft/models/block/cheese_11100011.json
-+  minecraft/models/block/cheese_111001.json
-+  minecraft/models/block/cheese_1110010.json
-+  minecraft/models/block/cheese_11100100.json
-+  minecraft/models/block/cheese_11100101.json
-+  minecraft/models/block/cheese_1110011.json
-+  minecraft/models/block/cheese_11100110.json
-+  minecraft/models/block/cheese_11100111.json
-+  minecraft/models/block/cheese_11101.json
-+  minecraft/models/block/cheese_111010.json
-+  minecraft/models/block/cheese_1110100.json
-+  minecraft/models/block/cheese_11101000.json
-+  minecraft/models/block/cheese_11101001.json
-+  minecraft/models/block/cheese_1110101.json
-+  minecraft/models/block/cheese_11101010.json
-+  minecraft/models/block/cheese_11101011.json
-+  minecraft/models/block/cheese_111011.json
-+  minecraft/models/block/cheese_1110110.json
-+  minecraft/models/block/cheese_11101100.json
-+  minecraft/models/block/cheese_11101101.json
-+  minecraft/models/block/cheese_1110111.json
-+  minecraft/models/block/cheese_11101110.json
-+  minecraft/models/block/cheese_11101111.json
-+  minecraft/models/block/cheese_1111.json
-+  minecraft/models/block/cheese_11110.json
-+  minecraft/models/block/cheese_111100.json
-+  minecraft/models/block/cheese_1111000.json
-+  minecraft/models/block/cheese_11110000.json
-+  minecraft/models/block/cheese_11110001.json
-+  minecraft/models/block/cheese_1111001.json
-+  minecraft/models/block/cheese_11110010.json
-+  minecraft/models/block/cheese_11110011.json
-+  minecraft/models/block/cheese_111101.json
-+  minecraft/models/block/cheese_1111010.json
-+  minecraft/models/block/cheese_11110100.json
-+  minecraft/models/block/cheese_11110101.json
-+  minecraft/models/block/cheese_1111011.json
-+  minecraft/models/block/cheese_11110110.json
-+  minecraft/models/block/cheese_11110111.json
-+  minecraft/models/block/cheese_11111.json
-+  minecraft/models/block/cheese_111110.json
-+  minecraft/models/block/cheese_1111100.json
-+  minecraft/models/block/cheese_11111000.json
-+  minecraft/models/block/cheese_11111001.json
-+  minecraft/models/block/cheese_1111101.json
-+  minecraft/models/block/cheese_11111010.json
-+  minecraft/models/block/cheese_11111011.json
-+  minecraft/models/block/cheese_111111.json
-+  minecraft/models/block/cheese_1111110.json
-+  minecraft/models/block/cheese_11111100.json
-+  minecraft/models/block/cheese_11111101.json
-+  minecraft/models/block/cheese_1111111.json
-+  minecraft/models/block/cheese_11111110.json
-+  minecraft/models/block/cheese_11111111.json
-+  minecraft/models/block/copper_sink.json
-+  minecraft/models/block/copper_spleaves.json
-+  minecraft/models/block/copper_spleaves_broken.json
-+  minecraft/models/block/filled_copper_sink.json
-+  minecraft/models/block/other_portal_ew.json
-+  minecraft/models/block/other_portal_ns.json
-+  minecraft/models/block/packed_air.json
-+  minecraft/models/block/pickaxe_block.json
-+  minecraft/models/block/place_block.json
-+  minecraft/models/block/spleaves.json
-+  minecraft/models/block/template_copper_sink_full.json
-+  minecraft/models/item/air_block.json
-+  minecraft/models/item/bit.json
-+  minecraft/models/item/bottle_of_entity.json
-+  minecraft/models/item/bottle_of_void.json
-+  minecraft/models/item/byte_tag.json
-+  minecraft/models/item/cheese.json
-+  minecraft/models/item/compound_tag.json
-+  minecraft/models/item/copper_sink.json
-+  minecraft/models/item/copper_spleaves.json
-+  minecraft/models/item/double_tag.json
-+  minecraft/models/item/dupe_hack.json
-+  minecraft/models/item/float_tag.json
-+  minecraft/models/item/int_tag.json
-+  minecraft/models/item/la_baguette.json
-+  minecraft/models/item/le_tricolore.json
-+  minecraft/models/item/left_curly.json
-+  minecraft/models/item/left_square.json
-+  minecraft/models/item/list_tag.json
-+  minecraft/models/item/long_tag.json
-+  minecraft/models/item/m_banner_pattern.json
-+  minecraft/models/item/moon_cow_spawn_egg.json
-+  minecraft/models/item/name.json
-+  minecraft/models/item/packed_air.json
-+  minecraft/models/item/pickaxe_block.json
-+  minecraft/models/item/place_block.json
-+  minecraft/models/item/right_curly.json
-+  minecraft/models/item/right_square.json
-+  minecraft/models/item/ruby.json
-+  minecraft/models/item/short_tag.json
-+  minecraft/models/item/splash_bottle_of_entity.json
-+  minecraft/models/item/string2.json
-+  minecraft/models/item/string_tag.json
-+  minecraft/models/item/syntax_error.json
-+  minecraft/models/item/tag.json
-+  minecraft/particles/footstep.json
-+  minecraft/shaders/core/position_tex_funky.fsh
-+  minecraft/shaders/core/position_tex_funky.json
-+  minecraft/shaders/post/bloom.json
-+  minecraft/shaders/program/brightness_threshold.fsh
-+  minecraft/shaders/program/brightness_threshold.json
-+  minecraft/shaders/program/merge_bloom.fsh
-+  minecraft/shaders/program/merge_bloom.json
-+  minecraft/textures/block/cheese.png
-+  minecraft/textures/block/copper_sink_bottom.png
-+  minecraft/textures/block/copper_sink_inner.png
-+  minecraft/textures/block/copper_sink_side.png
-+  minecraft/textures/block/copper_sink_top.png
-+  minecraft/textures/block/copper_spleaves.png
-+  minecraft/textures/block/copper_spleaves_broken.png
-+  minecraft/textures/block/other_portal.png
-+  minecraft/textures/block/other_portal.png.mcmeta
-+  minecraft/textures/block/packed_air.png
-+  minecraft/textures/block/packed_air_alt.png
-+  minecraft/textures/block/pickaxe_block_back.png
-+  minecraft/textures/block/pickaxe_block_front.png
-+  minecraft/textures/block/pickaxe_block_side.png
-+  minecraft/textures/block/place_block_back.png
-+  minecraft/textures/block/place_block_front.png
-+  minecraft/textures/block/place_block_side.png
-+  minecraft/textures/effect/crown.png
-+  minecraft/textures/effect/mustache.png
-+  minecraft/textures/entity/banner/m.png
-+  minecraft/textures/entity/chest/gold.png
-+  minecraft/textures/entity/cow/moon_cow.png
-+  minecraft/textures/entity/player/caeps
-+  minecraft/textures/entity/player/caeps/awesom.png
-+  minecraft/textures/entity/player/caeps/blonk.png
-+  minecraft/textures/entity/player/caeps/no_circle.png
-+  minecraft/textures/entity/player/caeps/nyan.png
-+  minecraft/textures/entity/player/caeps/squid.png
-+  minecraft/textures/entity/player/caeps/veterinarian.png
-+  minecraft/textures/entity/player/tails
-+  minecraft/textures/entity/player/tails/alex.png
-+  minecraft/textures/entity/player/tails/ari.png
-+  minecraft/textures/entity/player/tails/black_fox.png
-+  minecraft/textures/entity/player/tails/brown_bear.png
-+  minecraft/textures/entity/player/tails/earthern.png
-+  minecraft/textures/entity/player/tails/efe.png
-+  minecraft/textures/entity/player/tails/fire_fox.png
-+  minecraft/textures/entity/player/tails/kai.png
-+  minecraft/textures/entity/player/tails/makena.png
-+  minecraft/textures/entity/player/tails/noor.png
-+  minecraft/textures/entity/player/tails/red_fox.png
-+  minecraft/textures/entity/player/tails/snow_fox.png
-+  minecraft/textures/entity/player/tails/steve.png
-+  minecraft/textures/entity/player/tails/striped.png
-+  minecraft/textures/entity/player/tails/sunny.png
-+  minecraft/textures/entity/player/tails/zuri.png
-+  minecraft/textures/entity/player/wide/ray.png
-+  minecraft/textures/entity/shield/m.png
-+  minecraft/textures/environment/earth.png
-+  minecraft/textures/environment/earth_1.png
-+  minecraft/textures/environment/earth_a.png
-+  minecraft/textures/environment/earth_prime.png
-+  minecraft/textures/font/checkmark.png
-+  minecraft/textures/gui/tvpi.png
-+  minecraft/textures/gui/votes.png
-+  minecraft/textures/gui/voting.png
-+  minecraft/textures/item/air_block.png
-+  minecraft/textures/item/bit.png
-+  minecraft/textures/item/bottle_of_entity.png
-+  minecraft/textures/item/bottle_of_void.png
-+  minecraft/textures/item/byte_tag.png
-+  minecraft/textures/item/compound_tag.png
-+  minecraft/textures/item/double_tag.png
-+  minecraft/textures/item/end_tag.png
-+  minecraft/textures/item/float_tag.png
-+  minecraft/textures/item/int_tag.png
-+  minecraft/textures/item/la_baguette.png
-+  minecraft/textures/item/le_tricolore.png
-+  minecraft/textures/item/left_curly.png
-+  minecraft/textures/item/left_square.png
-+  minecraft/textures/item/list_tag.png
-+  minecraft/textures/item/long_tag.png
-+  minecraft/textures/item/m_banner_pattern.png
-+  minecraft/textures/item/name.png
-+  minecraft/textures/item/right_curly.png
-+  minecraft/textures/item/right_square.png
-+  minecraft/textures/item/ruby.png
-+  minecraft/textures/item/short_tag.png
-+  minecraft/textures/item/skis.png
-+  minecraft/textures/item/splash_bottle_of_entity.png
-+  minecraft/textures/item/string2.png
-+  minecraft/textures/item/string_tag.png
-+  minecraft/textures/item/syntax_error.png
-+  minecraft/textures/item/tag.png
-+  minecraft/textures/misc/enchanted_glint_gold.png
-+  minecraft/textures/mob_effect/big.png
-+  minecraft/textures/mob_effect/small.png
-+  minecraft/textures/models/armor/beret.png
-+  minecraft/textures/particle/footprint.png
-+  /nothingtoseeheremovealong
-+  nothingtoseeheremovealong/lang
-+  nothingtoseeheremovealong/lang/fr_fr.json
-+  nothingtoseeheremovealong/sounds
-+  nothingtoseeheremovealong/sounds/the_joke
-+  nothingtoseeheremovealong/sounds/the_joke/sad1.ogg
-+  nothingtoseeheremovealong/sounds/the_joke/sad2.ogg
-+  nothingtoseeheremovealong/sounds/the_joke/sad3.ogg
-+  nothingtoseeheremovealong/sounds/the_joke/sad4.ogg
-+  nothingtoseeheremovealong/sounds.json
-```
 
-</details>
-
-## Registries
-
-<details><summary>list</summary>
-
-```diff
-+ rules.txt
-```
-
-</details>
-
-<details><summary>attribute.txt</summary>
-
-```diff
-+ minecraft:generic.scale
-```
-
-</details>
-
-<details><summary>banner_pattern.txt</summary>
-
-```diff
-+ minecraft:m
-```
-
-</details>
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:cheese
-+ minecraft:copper_sink
-+ minecraft:copper_spleaves
-+ minecraft:filled_copper_sink
-+ minecraft:other_portal
-+ minecraft:packed_air
-+ minecraft:pickaxe_block
-+ minecraft:place_block
-```
-
-</details>
-
-<details><summary>custom_stat.txt</summary>
-
-```diff
-+ minecraft:votes
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:moon_cow
-+ minecraft:ray_tracing
-+ minecraft:stencil_display
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:air_block
-+ minecraft:bit
-+ minecraft:bottle_of_entity
-+ minecraft:bottle_of_void
-+ minecraft:byte_tag
-+ minecraft:cheese
-+ minecraft:compound_tag
-+ minecraft:copper_sink
-+ minecraft:copper_spleaves
-+ minecraft:double_tag
-+ minecraft:dupe_hack
-+ minecraft:float_tag
-+ minecraft:int_tag
-+ minecraft:la_baguette
-+ minecraft:le_tricolore
-+ minecraft:left_curly
-+ minecraft:left_square
-+ minecraft:list_tag
-+ minecraft:long_tag
-+ minecraft:m_banner_pattern
-+ minecraft:moon_cow_spawn_egg
-+ minecraft:name
-+ minecraft:packed_air
-+ minecraft:pickaxe_block
-+ minecraft:place_block
-+ minecraft:right_curly
-+ minecraft:right_square
-+ minecraft:short_tag
-+ minecraft:splash_bottle_of_entity
-+ minecraft:string2
-+ minecraft:string_tag
-+ minecraft:syntax_error
-+ minecraft:tag
-```
-
-</details>
-
-<details><summary>mob_effect.txt</summary>
-
-```diff
-+ minecraft:big
-+ minecraft:small
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:footstep
-```
-
-</details>
-
-<details><summary>potion.txt</summary>
-
-```diff
-+ minecraft:big
-+ minecraft:long_big
-+ minecraft:long_small
-+ minecraft:small
-+ minecraft:strong_big
-+ minecraft:strong_small
-```
-
-</details>
-
-<details><summary>recipe_serializer.txt</summary>
-
-```diff
-+ minecraft:crafting_special_dupehack
-+ minecraft:nbt_crafting_recipe
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:the_joke
-```
-
-</details>
-
-<details><summary>worldgen/biome_source.txt</summary>
-
-```diff
-+ minecraft:the_moon
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-+ minecraft:crater
-+ minecraft:lunar_base
-```
-
-</details>
-
-## Commands
-
-<details><summary>list</summary>
-
-```diff
-+ transform.txt
-+ vote.txt
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ banner_pattern/pattern_item/m.json
-+ blocks/cordycep_block.json
-+ items/copper.json
-+ items/heavy.json
-```
-
-</details>
-
-<details><summary>blocks/mineable/pickaxe.json</summary>
-
-```diff
-+ minecraft:pickaxe_block
-+ minecraft:place_block
-```
-
-</details>
-
-<details><summary>blocks/sculk_replaceable.json</summary>
-
-```diff
-+ minecraft:cheese
-```
-
-</details>
-
-<details><summary>damage_type/bypasses_armor.json</summary>
-
-```diff
-+ minecraft:on_moon
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/vote_1.json
-+ adventure/vote_256.json
-+ recipes/brewing/copper_sink.json
-+ recipes/building_blocks/air_block.json
-+ recipes/building_blocks/packed_air.json
-+ recipes/combat/diamond_drows.json
-+ recipes/combat/wob.json
-+ recipes/misc/m_banner_pattern.json
-+ recipes/misc/string_concatenation.json
-+ recipes/redstone/bit_from_name_stonecutting.json
-+ recipes/redstone/bit_from_tag_stonecutting.json
-+ recipes/redstone/left_curly.json
-+ recipes/redstone/left_square.json
-+ recipes/redstone/name_from_name_tag_stonecutting.json
-+ recipes/redstone/pickaxe_block.json
-+ recipes/redstone/place_block.json
-+ recipes/redstone/right_curly.json
-+ recipes/redstone/right_square.json
-+ recipes/redstone/tag_from_name_tag_stonecutting.json
-```
-
-</details>
-
-<details><summary>damage_types.txt</summary>
-
-```diff
-+ midas_curse.json
-+ on_moon.json
-```
-
-</details>
-
-<details><summary>dimensions.txt</summary>
-
-```diff
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\flat.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\normal.json
-- C:\Users\pixig\Minecraft-generated-data\1.20\snapshots\23w13a\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\amplified.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\debug_all_block_states.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\flat.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\large_biomes.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\normal.json
-+ C:\Users\pixig\Minecraft-generated-data\special\23w13a_or_b\.data\server\data\minecraft\worldgen\world_preset\single_biome_surface.json
-```
-
-</details>
-
-<details><summary>dimension_types.txt</summary>
-
-```diff
-+ the_moon.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/cheese.json
-+ blocks/copper_sink.json
-+ blocks/copper_spleaves.json
-+ blocks/filled_copper_sink.json
-+ blocks/other_portal.json
-+ blocks/pickaxe_block.json
-+ blocks/place_block.json
-+ chests/moon_lab.json
-+ chests/moon_resuply.json
-+ entities/moon_cow.json
-+ entities/ray_tracing.json
-+ gameplay/dream_piglin_bartering.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ footstep.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ air_block.json
-+ bit_from_name_stonecutting.json
-+ bit_from_tag_stonecutting.json
-+ copper_sink.json
-+ diamond_drows.json
-+ dupe_hack.json
-+ left_curly.json
-+ left_square.json
-+ m_banner_pattern.json
-+ name_from_name_tag_stonecutting.json
-+ nbt_crafting.json
-+ packed_air.json
-+ pickaxe_block.json
-+ place_block.json
-+ right_curly.json
-+ right_square.json
-+ string_concatenation.json
-+ tag_from_name_tag_stonecutting.json
-+ wob.json
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ banner_pattern/pattern_item/m.json
-+ blocks/cordycep_block.json
-+ items/copper.json
-+ items/heavy.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/cheese.png
-+ block/copper_sink_bottom.png
-+ block/copper_sink_inner.png
-+ block/copper_sink_side.png
-+ block/copper_sink_top.png
-+ block/copper_spleaves.png
-+ block/copper_spleaves_broken.png
-+ block/other_portal.png
-+ block/packed_air.png
-+ block/packed_air_alt.png
-+ block/pickaxe_block_back.png
-+ block/pickaxe_block_front.png
-+ block/pickaxe_block_side.png
-+ block/place_block_back.png
-+ block/place_block_front.png
-+ block/place_block_side.png
-+ effect/crown.png
-+ effect/mustache.png
-+ entity/banner/m.png
-+ entity/chest/gold.png
-+ entity/cow/moon_cow.png
-+ entity/player/caeps/awesom.png
-+ entity/player/caeps/blonk.png
-+ entity/player/caeps/no_circle.png
-+ entity/player/caeps/nyan.png
-+ entity/player/caeps/squid.png
-+ entity/player/caeps/veterinarian.png
-+ entity/player/tails/alex.png
-+ entity/player/tails/ari.png
-+ entity/player/tails/black_fox.png
-+ entity/player/tails/brown_bear.png
-+ entity/player/tails/earthern.png
-+ entity/player/tails/efe.png
-+ entity/player/tails/fire_fox.png
-+ entity/player/tails/kai.png
-+ entity/player/tails/makena.png
-+ entity/player/tails/noor.png
-+ entity/player/tails/red_fox.png
-+ entity/player/tails/snow_fox.png
-+ entity/player/tails/steve.png
-+ entity/player/tails/striped.png
-+ entity/player/tails/sunny.png
-+ entity/player/tails/zuri.png
-+ entity/player/wide/ray.png
-+ entity/shield/m.png
-+ environment/earth.png
-+ environment/earth_1.png
-+ environment/earth_a.png
-+ environment/earth_prime.png
-+ font/checkmark.png
-+ gui/tvpi.png
-+ gui/votes.png
-+ gui/voting.png
-+ item/air_block.png
-+ item/bit.png
-+ item/bottle_of_entity.png
-+ item/bottle_of_void.png
-+ item/byte_tag.png
-+ item/compound_tag.png
-+ item/double_tag.png
-+ item/end_tag.png
-+ item/float_tag.png
-+ item/int_tag.png
-+ item/la_baguette.png
-+ item/left_curly.png
-+ item/left_square.png
-+ item/le_tricolore.png
-+ item/list_tag.png
-+ item/long_tag.png
-+ item/m_banner_pattern.png
-+ item/name.png
-+ item/right_curly.png
-+ item/right_square.png
-+ item/ruby.png
-+ item/short_tag.png
-+ item/skis.png
-+ item/splash_bottle_of_entity.png
-+ item/string2.png
-+ item/string_tag.png
-+ item/syntax_error.png
-+ item/tag.png
-+ misc/enchanted_glint_gold.png
-+ mob_effect/big.png
-+ mob_effect/small.png
-+ models/armor/beret.png
-+ particle/footprint.png
-```
-
-</details>
-
-<details><summary>worldgen/biome.txt</summary>
-
-```diff
-+ the_moon.json
-```
-
-</details>
-
-<details><summary>worldgen/configured_feature.txt</summary>
-
-```diff
-+ large_crater.json
-+ lunar_base.json
-+ mega_crater.json
-+ small_crater.json
-```
-
-</details>
-
-<details><summary>worldgen/noise_settings.txt</summary>
-
-```diff
-+ moon.json
-```
-
-</details>
-
-<details><summary>worldgen/placed_feature.txt</summary>
-
-```diff
-+ crater_large.json
-+ crater_mega.json
-+ crater_small.json
-+ lunar_base.json
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.platform.GlConst</summary>
-
-```diff
-+ int GL_BACK
-+ int GL_DEPTH_STENCIL
-+ int GL_DEPTH_STENCIL_ATTACHMENT
-+ int GL_DEPTH24_STENCIL8
-+ int GL_STENCIL_BUFFER_BIT
-+ int GL_UNSIGNED_INT_24_8
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
-
-```diff
-+ void cullFace(int)
-+ void lambda$activeTexture$14(int)
-+ void lambda$applyModelViewMatrix$70(Matrix4f)
-+ void lambda$backupProjectionMatrix$71()
-+ void lambda$bindTexture$17(int)
-+ void lambda$clear$26(int,boolean)
-+ void lambda$clearColor$24(float,float,float,float)
-+ void lambda$clearDepth$23(double)
-+ void lambda$clearStencil$25(int)
-+ void lambda$colorMask$19(boolean,boolean,boolean,boolean)
-+ void lambda$cullFace$10(int)
-+ void lambda$deleteTexture$16(int)
-+ void lambda$drawElements$34(int,int,int)
-+ void lambda$getString$38(Consumer)
-+ void lambda$glBindBuffer$40(IntSupplier)
-+ void lambda$glBindVertexArray$41(Supplier)
-+ void lambda$glDeleteBuffers$42(int)
-+ void lambda$glDeleteVertexArrays$43(int)
-+ void lambda$glGenBuffers$61(Consumer)
-+ void lambda$glGenVertexArrays$62(Consumer)
-+ void lambda$glUniform1$45(IntBuffer)
-+ void lambda$glUniform1$49(FloatBuffer)
-+ void lambda$glUniform1i$44(int,int)
-+ void lambda$glUniform2$46(IntBuffer)
-+ void lambda$glUniform2$50(FloatBuffer)
-+ void lambda$glUniform3$47(IntBuffer)
-+ void lambda$glUniform3$51(FloatBuffer)
-+ void lambda$glUniform4$48(IntBuffer)
-+ void lambda$glUniform4$52(FloatBuffer)
-+ void lambda$glUniformMatrix2$53(FloatBuffer)
-+ void lambda$glUniformMatrix3$54(FloatBuffer)
-+ void lambda$glUniformMatrix4$55(FloatBuffer)
-+ void lambda$lineWidth$35(float)
-+ void lambda$logicOp$13(GlStateManager$LogicOp)
-+ void lambda$pixelStore$36(int,int)
-+ void lambda$polygonMode$11(int,int)
-+ void lambda$polygonOffset$12(float,float)
-+ void lambda$readPixels$37(ByteBuffer)
-+ void lambda$renderCrosshair$39(int)
-+ void lambda$resetTextureMatrix$69()
-+ void lambda$restoreProjectionMatrix$72()
-+ void lambda$setInverseViewRotationMatrix$67(Matrix3f)
-+ void lambda$setProjectionMatrix$66(VertexSorting)
-+ void lambda$setShader$63(Supplier)
-+ void lambda$setShaderColor$33(float,float,float,float)
-+ void lambda$setShaderFogColor$30(float,float,float,float)
-+ void lambda$setShaderFogEnd$29(float)
-+ void lambda$setShaderFogShape$31(FogShape)
-+ void lambda$setShaderFogStart$27(float)
-+ void lambda$setShaderGameTime$73(float)
-+ void lambda$setShaderGlintAlpha$28(float)
-+ void lambda$setShaderLights$32(Vector3f)
-+ void lambda$setShaderTexture$64(ResourceLocation)
-+ void lambda$setShaderTexture$65(int,int)
-+ void lambda$setTextureMatrix$68(Matrix4f)
-+ void lambda$setupGui3DDiffuseLighting$60(Vector3f)
-+ void lambda$setupGuiFlatDiffuseLighting$59(Vector3f)
-+ void lambda$setupLevelDiffuseLighting$58(Matrix4f)
-+ void lambda$setupOverlayColor$56(IntSupplier)
-+ void lambda$stencilFunc$20(int,int,int)
-+ void lambda$stencilMask$21(int)
-+ void lambda$stencilOp$22(int,int,int)
-+ void lambda$teardownOverlayColor$57()
-+ void lambda$texParameter$15(int,int,int)
-+ void lambda$viewport$18(int,int,int,int)
-- void lambda$activeTexture$13(int)
-- void lambda$applyModelViewMatrix$69(Matrix4f)
-- void lambda$backupProjectionMatrix$70()
-- void lambda$bindTexture$16(int)
-- void lambda$clear$25(int,boolean)
-- void lambda$clearColor$23(float,float,float,float)
-- void lambda$clearDepth$22(double)
-- void lambda$clearStencil$24(int)
-- void lambda$colorMask$18(boolean,boolean,boolean,boolean)
-- void lambda$deleteTexture$15(int)
-- void lambda$drawElements$33(int,int,int)
-- void lambda$getString$37(Consumer)
-- void lambda$glBindBuffer$39(IntSupplier)
-- void lambda$glBindVertexArray$40(Supplier)
-- void lambda$glDeleteBuffers$41(int)
-- void lambda$glDeleteVertexArrays$42(int)
-- void lambda$glGenBuffers$60(Consumer)
-- void lambda$glGenVertexArrays$61(Consumer)
-- void lambda$glUniform1$44(IntBuffer)
-- void lambda$glUniform1$48(FloatBuffer)
-- void lambda$glUniform1i$43(int,int)
-- void lambda$glUniform2$45(IntBuffer)
-- void lambda$glUniform2$49(FloatBuffer)
-- void lambda$glUniform3$46(IntBuffer)
-- void lambda$glUniform3$50(FloatBuffer)
-- void lambda$glUniform4$47(IntBuffer)
-- void lambda$glUniform4$51(FloatBuffer)
-- void lambda$glUniformMatrix2$52(FloatBuffer)
-- void lambda$glUniformMatrix3$53(FloatBuffer)
-- void lambda$glUniformMatrix4$54(FloatBuffer)
-- void lambda$lineWidth$34(float)
-- void lambda$logicOp$12(GlStateManager$LogicOp)
-- void lambda$pixelStore$35(int,int)
-- void lambda$polygonMode$10(int,int)
-- void lambda$polygonOffset$11(float,float)
-- void lambda$readPixels$36(ByteBuffer)
-- void lambda$renderCrosshair$38(int)
-- void lambda$resetTextureMatrix$68()
-- void lambda$restoreProjectionMatrix$71()
-- void lambda$setInverseViewRotationMatrix$66(Matrix3f)
-- void lambda$setProjectionMatrix$65(VertexSorting)
-- void lambda$setShader$62(Supplier)
-- void lambda$setShaderColor$32(float,float,float,float)
-- void lambda$setShaderFogColor$29(float,float,float,float)
-- void lambda$setShaderFogEnd$28(float)
-- void lambda$setShaderFogShape$30(FogShape)
-- void lambda$setShaderFogStart$26(float)
-- void lambda$setShaderGameTime$72(float)
-- void lambda$setShaderGlintAlpha$27(float)
-- void lambda$setShaderLights$31(Vector3f)
-- void lambda$setShaderTexture$63(ResourceLocation)
-- void lambda$setShaderTexture$64(int,int)
-- void lambda$setTextureMatrix$67(Matrix4f)
-- void lambda$setupGui3DDiffuseLighting$59(Vector3f)
-- void lambda$setupGuiFlatDiffuseLighting$58(Vector3f)
-- void lambda$setupLevelDiffuseLighting$57(Matrix4f)
-- void lambda$setupOverlayColor$55(IntSupplier)
-- void lambda$stencilFunc$19(int,int,int)
-- void lambda$stencilMask$20(int)
-- void lambda$stencilOp$21(int,int,int)
-- void lambda$teardownOverlayColor$56()
-- void lambda$texParameter$14(int,int,int)
-- void lambda$viewport$17(int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.ChatFormatting</summary>
-
-```diff
-+ List COLORS
-+ List FORMAT
-+ boolean lambda$static$2(ChatFormatting)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_PACKED_AIR
-```
-
-</details>
-
-<details><summary>net.minecraft.Util</summary>
-
-```diff
-+ int calculatePrefixSize(Iterable)
-+ void shuffle(RandomSource)
-- void shuffle(RandomSource)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
-
-```diff
-+ PlayerTrigger$TriggerInstance vote(MinMaxBounds$Ints)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ boolean hasSeenVotingScreen
-+ KeyMapping keyVoting
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.Font</summary>
-
-```diff
-+ void renderChar(VertexConsumer,float,float,float,float,int)
-- void renderChar(VertexConsumer,float,float,float,float,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.model.PiglinModel</summary>
-
-```diff
-+ boolean miniMe()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.player.RemotePlayer</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.client.renderer.BiomeColors</summary>
-
-```diff
-+ int lambda$static$0(Holder,double,double)
-+ int lambda$static$1(Holder,double,double)
-+ int lambda$static$2(Holder,double,double)
-- int lambda$static$0(Biome,double,double)
-- int lambda$static$1(Biome,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.EntityRenderDispatcher</summary>
-
-```diff
-+ StencilRenderer$Triangle[] SHADOW_VOLUME
-+ boolean shouldRender0(Frustum,double,double,double)
-+ void render0(MultiBufferSource,int)
-+ void renderDynamicShadow(MultiBufferSource,float,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.GlowSquidRenderer</summary>
-
-```diff
-+ StencilRenderer$Triangle[] FACES
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-+ void render(MultiBufferSource,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
-
-```diff
-+ ResourceLocation GOLD_BLOCK
-+ VertexConsumer getVertexConsumer(MultiBufferSource,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
-
-```diff
-+ Direction[] HORIZONTALS
-+ Direction[] X_ORTHOGONALS
-+ Direction[] Z_ORTHOGONALS
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction$Axis</summary>
-
-```diff
-+ Direction[] getOrthogonalDirections()
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction$Axis$2</summary>
-
-```diff
-+ Direction[] getOrthogonalDirections()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ SimpleParticleType FOOTSTEP
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
-
-```diff
-+ LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$239(Integer)
-+ LootTable$Builder lambda$generate$238(Block)
-- LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
-
-```diff
-+ boolean isOnEdge(Direction)
-+ JsonElement lambda$createCheeseBlock$58(VoxelShape)
-+ JsonObject buildModelFromShape(VoxelShape)
-+ void createCheeseBlock()
-+ void createFacing(Block)
-+ void createNetherPortalBlock(Block)
-+ void createPackedAir()
-+ void createSpleaves(Block)
-+ void lambda$buildModelFromShape$59(JsonArray)
-+ void lambda$buildModelFromShape$60(JsonArray)
-+ void lambda$buildModelFromShape$61(JsonArray,double,double,double,double,double,double)
-- void createNetherPortalBlock()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate COPPER_SINK_FULL
-+ ModelTemplate MISSING
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
-
-```diff
-+ boolean canXflip
-+ boolean wob
-+ void <init>(ResourceLocation,boolean,boolean,boolean)
-- void <init>(ResourceLocation,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.SurfaceRuleData</summary>
-
-```diff
-+ SurfaceRules$RuleSource CHEESE
-+ SurfaceRules$RuleSource moon()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
-
-```diff
-+ Component VOTE_NO_RESOURCES
-+ Component VOTE_NO_VOTES
-+ double vehicleSpeedSqr
-+ float MAX_INTERACTION_DISTANCE
-- double MAX_INTERACTION_DISTANCE
-+ CompletableFuture lambda$resetPlayerChatState$16(Executor)
-+ float maxInteractionDistanceSq()
-+ int lambda$fireworksYay$15(RandomSource)
-+ void fireworksYay()
-+ void handleCrashVehicle(ServerboundCrashVehiclePacket)
-+ void handleVoteCast(ServerboundVoteCastPacket)
-- CompletableFuture lambda$resetPlayerChatState$15(Executor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent THE_JOKE
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BannerPatternTags</summary>
-
-```diff
-+ TagKey PATTERN_ITEM_M
-```
-
-</details>
-
-<details><summary>net.minecraft.tags.BlockTags</summary>
-
-```diff
-+ TagKey CORDYCEP_BLOCK
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey COPPER
-+ TagKey HEAVY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.StringUtil</summary>
-
-```diff
-+ String formatTickDuration(long)
-- String formatTickDuration(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DeathMessageType</summary>
-
-```diff
-+ DeathMessageType MIDAS_CURSE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Panda</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Squid</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-+ void transformedTick(LivingEntity)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.WaterAnimal</summary>
-
-```diff
-+ boolean canTransformBreatheInAir()
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
-
-```diff
-+ boolean canTransformFly()
-+ boolean hurtInternal(DamageSource,float)
-+ void tickAnimation()
-+ void transformedTick(LivingEntity)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
-
-```diff
-+ InteractionResult transformInteract(InteractionHand)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.EnderDragonPart</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
-
-```diff
-+ boolean canTransformFly()
-+ boolean hurtInternal(DamageSource,float)
-+ void transformedTick(LivingEntity)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.HangingEntity</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Strider</summary>
-
-```diff
-+ InteractionResult transformInteract(InteractionHand)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Witch</summary>
-
-```diff
-+ boolean isItAwkwardToMilk()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecart</summary>
-
-```diff
-+ double MAX_COLLISION_SPEED
-+ double MAX_COLLISION_SPEED_SQR
-+ double MAX_SPEED
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
-
-```diff
-+ double MAX_COLLISION_SPEED
-+ double MAX_COLLISION_SPEED_SQR
-+ double MAX_SPEED
-+ boolean hurtInternal(DamageSource,float)
-+ float maxUpStep()
-+ void handleCrash(float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartHopper</summary>
-
-```diff
-+ BlockPos lastPosition
-+ int cooldownTime
-```
-
-</details>
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.food.FoodProperties$Builder</summary>
-
-```diff
-+ BiConsumer onEaten
-+ FoodProperties$Builder withMagic(BiConsumer)
-+ void lambda$new$0(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.item.DyeColor</summary>
-
-```diff
-+ IntFunction BY_ID_WRAP
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.FireworkStarFadeRecipe</summary>
-
-```diff
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack assembleRaw(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.item.crafting.MapCloningRecipe</summary>
-
-```diff
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack assembleRaw(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Block</summary>
-
-```diff
-+ void playerStepOn(Entity)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block CHEESE
-+ Block COPPER_SINK
-+ Block COPPER_SPLEAVES
-+ Block FILLED_COPPER_SINK
-+ Block OTHER_PORTAL
-+ Block PACKED_AIR
-+ Block PICKAXE_BLOCK
-+ Block PLACE_BLOCK
-+ boolean lambda$static$37(EntityType)
-+ boolean lambda$static$39(EntityType)
-+ boolean lambda$static$53(BlockPos)
-+ int lambda$static$21(BlockState)
-+ int lambda$static$36(BlockState)
-+ int lambda$static$38(BlockState)
-+ int lambda$static$51(BlockState)
-+ int lambda$static$56(BlockState)
-+ int lambda$static$57(BlockState)
-+ Item lambda$static$25()
-- boolean lambda$static$36(EntityType)
-- boolean lambda$static$38(EntityType)
-- boolean lambda$static$51(BlockPos)
-- int lambda$static$25(BlockState)
-- int lambda$static$37(BlockState)
-- int lambda$static$39(BlockState)
-- int lambda$static$53(BlockState)
-- Item lambda$static$21()
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
-
-```diff
-+ BlockState getValidAttachedState(Direction)
-+ boolean isRandomlyTicking(BlockState)
-+ void randomTick(RandomSource)
-+ VoxelShape getCollisionShape(CollisionContext)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.CarpetBlock</summary>
-
-```diff
-+ boolean isStickyToNeighbour(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.HoneyBlock</summary>
-
-```diff
-+ boolean canStickToStuff(BlockState)
-+ boolean isStickyToNeighbour(Direction)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
-
-```diff
-+ boolean canAirPass(Direction)
-+ boolean canAirPassThroughGlassPane(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
-
-```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void randomTick(RandomSource)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
-
-```diff
-+ boolean canAirPass(Direction)
-+ boolean canStickToStuff(BlockState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
-
-```diff
-+ boolean otherPortal
-+ void <init>(BlockBehaviour$Properties,boolean)
-- void <init>(BlockBehaviour$Properties)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
-
-```diff
-+ boolean canAirPass(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TntBlock</summary>
-
-```diff
-+ BlockState getStateForPlacement(BlockPlaceContext)
-+ void explode(BlockState)
-+ void explode(BlockState)
-- void explode(LivingEntity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.WeightedPressurePlateBlock</summary>
-
-```diff
-+ void entityInside(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.ChestBlockEntity</summary>
-
-```diff
-+ boolean gold
-+ boolean isGold()
-+ ClientboundBlockEntityDataPacket getUpdatePacket()
-+ CompoundTag getUpdateTag()
-+ Packet getUpdatePacket()
-+ void setGold(boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.DropperBlockEntity</summary>
-
-```diff
-+ boolean isLunar
-+ boolean isLunar()
-+ void load(CompoundTag)
-+ void saveAdditional(CompoundTag)
-+ void setLunar()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
-
-```diff
-+ boolean isStickyToNeighbour(Direction)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.PistonMovingBlockEntity</summary>
-
-```diff
-+ BlockEntity renderBlockEntity
-+ BlockEntity getRenderBlockEntity()
-+ void setCarriedBlockEntity(Level)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.piston.PistonStructureResolver</summary>
-
-```diff
-+ boolean canStickToEachOther(Direction)
-- boolean canStickToEachOther(BlockState)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
-
-```diff
-+ boolean canAirPass(Direction)
-+ boolean canStickToStuff(BlockState)
-+ boolean isStickyToNeighbour(Direction)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
-
-```diff
-+ boolean canAirPass(Direction)
-+ boolean canStickToStuff()
-+ boolean isStickyToNeighbour(Direction)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature CRATER
-+ Feature LUNAR_BASE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.portal.PortalShape</summary>
-
-```diff
-+ Block portalBlock
-+ Block triggerBlock
-+ BlockBehaviour$StatePredicate frame
-+ BlockBehaviour$StatePredicate NORMAL_FRAME
-+ BlockBehaviour$StatePredicate OTHER_FRAME
-- BlockBehaviour$StatePredicate FRAME
-+ boolean lambda$findEmptyPortalShape$2(PortalShape)
-+ boolean lambda$static$1(BlockPos)
-+ Optional findEmptyPortalShape(Direction$Axis,boolean)
-+ Optional findPortalShape(Direction$Axis,boolean)
-+ Vec3 lambda$findCollisionFreePosition$4(Vec3)
-+ void <init>(Direction$Axis,boolean)
-+ void lambda$createPortalBlocks$3(BlockPos)
-- boolean lambda$findEmptyPortalShape$1(PortalShape)
-- Optional findEmptyPortalShape(Direction$Axis)
-- Optional findPortalShape(Direction$Axis)
-- Vec3 lambda$findCollisionFreePosition$3(Vec3)
-- void <init>(Direction$Axis)
-- void lambda$createPortalBlocks$2(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelResource</summary>
-
-```diff
-+ LevelResource OLD_VOTES
-+ LevelResource VOTES
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.phys.AABB</summary>
-
-```diff
-+ AABB scale(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.components.AbstractButton
@@ -7330,114 +3598,160 @@
 </details>
 
 
+<details><summary>com.mojang.blaze3d.systems.RenderSystem</summary>
 
+```diff
++ void cullFace(int)
+- void lambda$activeTexture$13(int)
++ void lambda$activeTexture$14(int)
+- void lambda$applyModelViewMatrix$69(Matrix4f)
++ void lambda$applyModelViewMatrix$70(Matrix4f)
+- void lambda$backupProjectionMatrix$70()
++ void lambda$backupProjectionMatrix$71()
+- void lambda$bindTexture$16(int)
++ void lambda$bindTexture$17(int)
+- void lambda$clear$25(int,boolean)
++ void lambda$clear$26(int,boolean)
+- void lambda$clearColor$23(float,float,float,float)
++ void lambda$clearColor$24(float,float,float,float)
+- void lambda$clearDepth$22(double)
++ void lambda$clearDepth$23(double)
+- void lambda$clearStencil$24(int)
++ void lambda$clearStencil$25(int)
+- void lambda$colorMask$18(boolean,boolean,boolean,boolean)
++ void lambda$colorMask$19(boolean,boolean,boolean,boolean)
++ void lambda$cullFace$10(int)
+- void lambda$deleteTexture$15(int)
++ void lambda$deleteTexture$16(int)
+- void lambda$drawElements$33(int,int,int)
++ void lambda$drawElements$34(int,int,int)
+- void lambda$getString$37(int,Consumer)
++ void lambda$getString$38(int,Consumer)
+- void lambda$glBindBuffer$39(int,IntSupplier)
++ void lambda$glBindBuffer$40(int,IntSupplier)
+- void lambda$glBindVertexArray$40(Supplier)
++ void lambda$glBindVertexArray$41(Supplier)
+- void lambda$glDeleteBuffers$41(int)
++ void lambda$glDeleteBuffers$42(int)
+- void lambda$glDeleteVertexArrays$42(int)
++ void lambda$glDeleteVertexArrays$43(int)
+- void lambda$glGenBuffers$60(Consumer)
++ void lambda$glGenBuffers$61(Consumer)
+- void lambda$glGenVertexArrays$61(Consumer)
++ void lambda$glGenVertexArrays$62(Consumer)
+- void lambda$glUniform1$44(int,IntBuffer)
++ void lambda$glUniform1$45(int,IntBuffer)
+- void lambda$glUniform1$48(int,FloatBuffer)
++ void lambda$glUniform1$49(int,FloatBuffer)
+- void lambda$glUniform1i$43(int,int)
++ void lambda$glUniform1i$44(int,int)
+- void lambda$glUniform2$45(int,IntBuffer)
++ void lambda$glUniform2$46(int,IntBuffer)
+- void lambda$glUniform2$49(int,FloatBuffer)
++ void lambda$glUniform2$50(int,FloatBuffer)
+- void lambda$glUniform3$46(int,IntBuffer)
++ void lambda$glUniform3$47(int,IntBuffer)
+- void lambda$glUniform3$50(int,FloatBuffer)
++ void lambda$glUniform3$51(int,FloatBuffer)
+- void lambda$glUniform4$47(int,IntBuffer)
++ void lambda$glUniform4$48(int,IntBuffer)
+- void lambda$glUniform4$51(int,FloatBuffer)
++ void lambda$glUniform4$52(int,FloatBuffer)
+- void lambda$glUniformMatrix2$52(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix2$53(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix3$53(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix3$54(int,boolean,FloatBuffer)
+- void lambda$glUniformMatrix4$54(int,boolean,FloatBuffer)
++ void lambda$glUniformMatrix4$55(int,boolean,FloatBuffer)
+- void lambda$lineWidth$34(float)
++ void lambda$lineWidth$35(float)
+- void lambda$logicOp$12(GlStateManager$LogicOp)
++ void lambda$logicOp$13(GlStateManager$LogicOp)
+- void lambda$pixelStore$35(int,int)
++ void lambda$pixelStore$36(int,int)
+- void lambda$polygonMode$10(int,int)
++ void lambda$polygonMode$11(int,int)
+- void lambda$polygonOffset$11(float,float)
++ void lambda$polygonOffset$12(float,float)
+- void lambda$readPixels$36(int,int,int,int,int,int,ByteBuffer)
++ void lambda$readPixels$37(int,int,int,int,int,int,ByteBuffer)
+- void lambda$renderCrosshair$38(int)
++ void lambda$renderCrosshair$39(int)
+- void lambda$resetTextureMatrix$68()
++ void lambda$resetTextureMatrix$69()
+- void lambda$restoreProjectionMatrix$71()
++ void lambda$restoreProjectionMatrix$72()
+- void lambda$setInverseViewRotationMatrix$66(Matrix3f)
++ void lambda$setInverseViewRotationMatrix$67(Matrix3f)
+- void lambda$setProjectionMatrix$65(Matrix4f,VertexSorting)
++ void lambda$setProjectionMatrix$66(Matrix4f,VertexSorting)
+- void lambda$setShader$62(Supplier)
++ void lambda$setShader$63(Supplier)
+- void lambda$setShaderColor$32(float,float,float,float)
++ void lambda$setShaderColor$33(float,float,float,float)
+- void lambda$setShaderFogColor$29(float,float,float,float)
++ void lambda$setShaderFogColor$30(float,float,float,float)
+- void lambda$setShaderFogEnd$28(float)
++ void lambda$setShaderFogEnd$29(float)
+- void lambda$setShaderFogShape$30(FogShape)
++ void lambda$setShaderFogShape$31(FogShape)
+- void lambda$setShaderFogStart$26(float)
++ void lambda$setShaderFogStart$27(float)
+- void lambda$setShaderGameTime$72(float)
++ void lambda$setShaderGameTime$73(float)
+- void lambda$setShaderGlintAlpha$27(float)
++ void lambda$setShaderGlintAlpha$28(float)
+- void lambda$setShaderLights$31(Vector3f,Vector3f)
++ void lambda$setShaderLights$32(Vector3f,Vector3f)
+- void lambda$setShaderTexture$63(int,ResourceLocation)
+- void lambda$setShaderTexture$64(int,int)
++ void lambda$setShaderTexture$64(int,ResourceLocation)
++ void lambda$setShaderTexture$65(int,int)
+- void lambda$setTextureMatrix$67(Matrix4f)
++ void lambda$setTextureMatrix$68(Matrix4f)
+- void lambda$setupGui3DDiffuseLighting$59(Vector3f,Vector3f)
++ void lambda$setupGui3DDiffuseLighting$60(Vector3f,Vector3f)
+- void lambda$setupGuiFlatDiffuseLighting$58(Vector3f,Vector3f)
++ void lambda$setupGuiFlatDiffuseLighting$59(Vector3f,Vector3f)
+- void lambda$setupLevelDiffuseLighting$57(Vector3f,Vector3f,Matrix4f)
++ void lambda$setupLevelDiffuseLighting$58(Vector3f,Vector3f,Matrix4f)
+- void lambda$setupOverlayColor$55(IntSupplier)
++ void lambda$setupOverlayColor$56(IntSupplier)
+- void lambda$stencilFunc$19(int,int,int)
++ void lambda$stencilFunc$20(int,int,int)
+- void lambda$stencilMask$20(int)
++ void lambda$stencilMask$21(int)
+- void lambda$stencilOp$21(int,int,int)
++ void lambda$stencilOp$22(int,int,int)
+- void lambda$teardownOverlayColor$56()
++ void lambda$teardownOverlayColor$57()
+- void lambda$texParameter$14(int,int,int)
++ void lambda$texParameter$15(int,int,int)
+- void lambda$viewport$17(int,int,int,int)
++ void lambda$viewport$18(int,int,int,int)
+```
 
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.ChatFormatting</summary>
 
 ```diff
-+ List COLORS
-+ List FORMAT
 + boolean lambda$static$2(ChatFormatting)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.SharedConstants</summary>
-
-```diff
-+ boolean DEBUG_PACKED_AIR
-```
-
-</details>
-
 <details><summary>net.minecraft.Util</summary>
 
 ```diff
 + int calculatePrefixSize(Iterable)
-+ void shuffle(RandomSource)
-- void shuffle(RandomSource)
++ void shuffle(List,RandomSource)
+- void shuffle(ObjectArrayList,RandomSource)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
@@ -7449,131 +3763,79 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
+<details><summary>net.minecraft.client.gui.Font</summary>
 
 ```diff
-+ Direction[] HORIZONTALS
-+ Direction[] X_ORTHOGONALS
-+ Direction[] Z_ORTHOGONALS
++ void renderChar(BakedGlyph,boolean,boolean,boolean,float,float,float,Matrix4f,VertexConsumer,float,float,float,float,int)
+- void renderChar(BakedGlyph,boolean,boolean,float,float,float,Matrix4f,VertexConsumer,float,float,float,float,int)
 ```
 
 </details>
 
-<details><summary>net.minecraft.core.Direction$Axis</summary>
+
+<details><summary>net.minecraft.client.model.PiglinModel</summary>
 
 ```diff
-+ Direction[] getOrthogonalDirections()
++ boolean miniMe()
 ```
 
 </details>
+
+
+<details><summary>net.minecraft.client.player.RemotePlayer</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.BiomeColors</summary>
+
+```diff
+- int lambda$static$0(Biome,double,double)
++ int lambda$static$0(Holder,double,double)
+- int lambda$static$1(Biome,double,double)
++ int lambda$static$1(Holder,double,double)
++ int lambda$static$2(Holder,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.EntityRenderDispatcher</summary>
+
+```diff
++ boolean shouldRender0(Entity,Frustum,double,double,double)
++ void render0(Entity,float,double,double,double,float,float,PoseStack,MultiBufferSource,int)
++ void renderDynamicShadow(PoseStack,MultiBufferSource,float,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.GlowSquidRenderer</summary>
+
+```diff
++ void render(Entity,float,float,PoseStack,MultiBufferSource,int)
++ void render(GlowSquid,float,float,PoseStack,MultiBufferSource,int)
++ void render(LivingEntity,float,float,PoseStack,MultiBufferSource,int)
++ void render(Mob,float,float,PoseStack,MultiBufferSource,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.renderer.entity.LivingEntityRenderer</summary>
+
+```diff
++ VertexConsumer getVertexConsumer(LivingEntity,PoseStack,MultiBufferSource,boolean,boolean,boolean)
+```
+
+</details>
+
 
 <details><summary>net.minecraft.core.Direction$Axis$2</summary>
 
@@ -7584,2101 +3846,527 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ SimpleParticleType FOOTSTEP
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
 
 ```diff
+- LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
 + LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$239(Integer)
 + LootTable$Builder lambda$generate$238(Block)
-- LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
 ```
 
 </details>
-
-
-
 
 
 <details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
 
 ```diff
-+ boolean isOnEdge(Direction)
-+ JsonElement lambda$createCheeseBlock$58(VoxelShape)
-+ JsonObject buildModelFromShape(VoxelShape)
++ boolean isOnEdge(double,double,double,double,double,double,Direction)
++ JsonElement lambda$createCheeseBlock$58(ResourceLocation,VoxelShape)
++ JsonObject buildModelFromShape(ResourceLocation,VoxelShape)
 + void createCheeseBlock()
 + void createFacing(Block)
+- void createNetherPortalBlock()
 + void createNetherPortalBlock(Block)
 + void createPackedAir()
 + void createSpleaves(Block)
-+ void lambda$buildModelFromShape$59(JsonArray)
-+ void lambda$buildModelFromShape$60(JsonArray)
++ void lambda$buildModelFromShape$59(double,double,double,JsonArray)
++ void lambda$buildModelFromShape$60(double,double,double,JsonArray)
 + void lambda$buildModelFromShape$61(JsonArray,double,double,double,double,double,double)
-- void createNetherPortalBlock()
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate COPPER_SINK_FULL
-+ ModelTemplate MISSING
-```
-
-</details>
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
 
 ```diff
-+ boolean canXflip
-+ boolean wob
-+ void <init>(ResourceLocation,boolean,boolean,boolean)
-- void <init>(ResourceLocation,boolean)
++ void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation,boolean,boolean,boolean)
+- void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation,boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.data.worldgen.SurfaceRuleData</summary>
 
 ```diff
-+ SurfaceRules$RuleSource CHEESE
 + SurfaceRules$RuleSource moon()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+<details><summary>net.minecraft.server.network.ServerGamePacketListenerImpl</summary>
 
 ```diff
-+ boolean canTurnIntoGold
-+ int blipsSinceBlop
-+ int lastSentThirst
-+ boolean hurtInternal(DamageSource,float)
-+ boolean isInvertedHealAndHarm()
-+ boolean lambda$startSleepInBed$10(Monster)
-+ boolean lambda$tellNeutralMobsThatIDied$8(Mob)
-+ boolean lambda$tick$3(ServerPlayer)
-+ double lambda$tick$4(ServerPlayer)
-+ Entity teleportTo(Set,float,float)
-+ MobType getMobType()
-+ Packet lambda$die$7(Component)
-+ Packet lambda$sendSystemMessage$13(Component)
-+ Style lambda$die$6(Style)
-+ void lambda$awardStat$12(Score)
-+ void lambda$drop$14(Inventory,int)
-+ void lambda$startSleepInBed$11(Unit)
-+ void lambda$tellNeutralMobsThatIDied$9(Mob)
-+ void lambda$updateScoreForCriteria$5(Score)
-+ void stepOnBlock(Block)
-+ void summonLightning(Vec3)
-+ void turnIntoGold()
+- CompletableFuture lambda$resetPlayerChatState$15(RemoteChatSession,Executor)
++ CompletableFuture lambda$resetPlayerChatState$16(RemoteChatSession,Executor)
++ float maxInteractionDistanceSq()
++ int lambda$fireworksYay$15(RandomSource)
++ void fireworksYay()
++ void handleCrashVehicle(ServerboundCrashVehiclePacket)
++ void handleVoteCast(ServerboundVoteCastPacket)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.StringUtil</summary>
+
+```diff
+- String formatTickDuration(int)
++ String formatTickDuration(long)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Panda</summary>
+
+```diff
 - boolean hurt(DamageSource,float)
-- boolean lambda$startSleepInBed$8(Monster)
-- boolean lambda$tellNeutralMobsThatIDied$6(Mob)
-- boolean teleportTo(Set,float,float)
-- Packet lambda$die$5(Component)
-- Packet lambda$sendSystemMessage$11(Component)
-- Style lambda$die$4(Style)
-- void lambda$awardStat$10(Score)
-- void lambda$drop$12(Inventory,int)
-- void lambda$startSleepInBed$9(Unit)
-- void lambda$tellNeutralMobsThatIDied$7(Mob)
-- void lambda$updateScoreForCriteria$3(Score)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.players.PlayerList</summary>
-
-```diff
-+ ClientboundBulkVoteInfoPacket createVoteReloadPacket(UUID)
-+ Component lambda$broadcastSystemMessage$5(ServerPlayer)
-+ void lambda$createVoteReloadPacket$2(ServerVote)
-+ void lambda$createVoteReloadPacket$3(Voter)
-+ void lambda$remove$4(Entity)
-- Component lambda$broadcastSystemMessage$3(ServerPlayer)
-- void lambda$remove$2(Entity)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.stats.Stats</summary>
-
-```diff
-+ ResourceLocation VOTED
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.ExtraCodecs</summary>
-
-```diff
-+ App lambda$static$74(RecordCodecBuilder$Instance)
-+ App lambda$static$84(RecordCodecBuilder$Instance)
-+ BitSet lambda$static$70(LongStream)
-+ Codec floatRange(float,float)
-+ DataResult lambda$ensureHomogenous$58(Collection)
-+ DataResult lambda$floatRangeMinExclusiveWithMessage$51(Float)
-+ DataResult lambda$instantCodec$61(String)
-+ DataResult lambda$nonEmptyHolderSet$56(HolderSet)
-+ DataResult lambda$nonEmptyList$54(List)
-+ DataResult lambda$sizeLimitedString$89(String)
-+ DataResult lambda$static$60(String)
-+ DataResult lambda$static$63(String)
-+ DataResult lambda$static$67(String)
-+ DataResult lambda$static$86(String)
-+ Either lambda$static$79(PropertyMap)
-+ ExtraCodecs$TagOrElementLocation lambda$static$66(ResourceLocation)
-+ GameProfile lambda$static$83(PropertyMap)
-+ LongStream lambda$static$71(BitSet)
-+ Optional lambda$static$69(OptionalLong)
-+ Optional lambda$static$72(Property)
-+ OptionalLong lambda$static$68(Optional)
-+ Property lambda$static$73(Optional)
-+ PropertyMap lambda$static$78(Either)
-+ String lambda$ensureHomogenous$57(Object)
-+ String lambda$floatRange$49(Float)
-+ String lambda$floatRangeMinExclusiveWithMessage$50(Float)
-+ String lambda$nonEmptyHolderSet$55()
-+ String lambda$nonEmptyList$53()
-+ String lambda$sizeLimitedString$88(String,int,int,int)
-+ String lambda$static$52(Float)
-+ String lambda$static$59(PatternSyntaxException)
-+ String lambda$static$62()
-+ String lambda$static$64(byte[])
-+ String lambda$static$81(Optional)
-+ String lambda$static$85()
-+ UUID lambda$static$80(Optional)
-+ void lambda$static$75(List)
-+ void lambda$static$76(Map)
-+ void lambda$static$77(List)
-+ void lambda$static$82(Property)
-- App lambda$static$73(RecordCodecBuilder$Instance)
-- App lambda$static$83(RecordCodecBuilder$Instance)
-- BitSet lambda$static$69(LongStream)
-- DataResult lambda$ensureHomogenous$57(Collection)
-- DataResult lambda$floatRangeMinExclusiveWithMessage$50(Float)
-- DataResult lambda$instantCodec$60(String)
-- DataResult lambda$nonEmptyHolderSet$55(HolderSet)
-- DataResult lambda$nonEmptyList$53(List)
-- DataResult lambda$sizeLimitedString$88(String)
-- DataResult lambda$static$59(String)
-- DataResult lambda$static$62(String)
-- DataResult lambda$static$66(String)
-- DataResult lambda$static$85(String)
-- Either lambda$static$78(PropertyMap)
-- ExtraCodecs$TagOrElementLocation lambda$static$64(ResourceLocation)
-- GameProfile lambda$static$82(PropertyMap)
-- LongStream lambda$static$70(BitSet)
-- Optional lambda$static$68(OptionalLong)
-- Optional lambda$static$71(Property)
-- OptionalLong lambda$static$67(Optional)
-- Property lambda$static$72(Optional)
-- PropertyMap lambda$static$77(Either)
-- String lambda$ensureHomogenous$56(Object)
-- String lambda$floatRangeMinExclusiveWithMessage$49(Float)
-- String lambda$nonEmptyHolderSet$54()
-- String lambda$nonEmptyList$52()
-- String lambda$sizeLimitedString$86(String,int,int,int)
-- String lambda$static$51(Float)
-- String lambda$static$58(PatternSyntaxException)
-- String lambda$static$61()
-- String lambda$static$63(byte[])
-- String lambda$static$80(Optional)
-- String lambda$static$84()
-- UUID lambda$static$79(Optional)
-- void lambda$static$74(List)
-- void lambda$static$75(Map)
-- void lambda$static$76(List)
-- void lambda$static$81(Property)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.damagesource.DamageSources</summary>
-
-```diff
-+ DamageSource midasTouch
-+ DamageSource onMoon
-+ DamageSource midasTouch()
-+ DamageSource onMoon()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.damagesource.DamageTypes</summary>
-
-```diff
-+ ResourceKey MIDAS_CURSE
-+ ResourceKey ON_MOON
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.effect.MobEffects</summary>
-
-```diff
-+ MobEffect BIG
-+ MobEffect SMALL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.Entity</summary>
-
-```diff
-+ Component transformDisplayName
-+ double deltaYLastTick
-+ Entity$InPortal inPortal
-+ EquipmentSlot[] COPY_SLOTS
-+ int FLY_ME_TO_THE_MOON_BUT_PLEASE_NOT_EVERY_TICK_BACK_AND_FORTH_TIME_LIMIT
-+ int MOON_HEIGHT
-+ int timeSinceLastMoonTeleport
-- boolean isInsidePortal
-+ boolean canSpawnFootprintParticle()
-+ boolean canTransformFly()
 + boolean hurtInternal(DamageSource,float)
-+ boolean noCulling()
-+ Entity effectiveEntity()
-+ Entity teleportTo(Set,float,float)
-+ EntityDimensions getCurrentDimensions()
-+ float getEffectiveGravity()
-+ float getGravity()
-+ String getSkinName()
-+ void copyTransformedProperties(LivingEntity)
-+ void handleInsidePortal(BlockPos,boolean)
-+ void postTick()
-+ void setNoCulling(boolean)
-+ void spawnFootprintParticle()
-+ void stepOnBlock(Block)
-+ void transformedTick(LivingEntity)
-+ void turnIntoGold()
-- boolean teleportTo(Set,float,float)
-- void handleInsidePortal(BlockPos)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
+<details><summary>net.minecraft.world.entity.animal.Squid</summary>
 
 ```diff
-+ IntProvider EGG_TIME
-+ void lambda$aiStep$0(Holder$Reference)
-+ void tickFlapping()
-+ void transformedTick(LivingEntity)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.Cow</summary>
-
-```diff
-+ boolean exploded
-+ EntityDataAccessor BLOAT_LEVEL
-+ int bloatCount
-+ boolean isBaloonCowEnabled()
-+ boolean lambda$registerGoals$0()
-+ double getPassengersRidingOffset()
-+ EntityDimensions getDimensions(Pose)
-+ float getBloatScale()
-+ int getBloatLevel()
-+ LivingEntity getControllingPassenger()
-+ void <clinit>()
-+ void addAdditionalSaveData(CompoundTag)
-+ void aiStep()
-+ void defineSynchedData()
-+ void dropAllDeathLoot(DamageSource)
-+ void explode()
-+ void liftOff()
-+ void onDonePathing()
-+ void onSyncedDataUpdated(EntityDataAccessor)
-+ void readAdditionalSaveData(CompoundTag)
-+ void setBloatLevel(int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
 - boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ void transformedTick(EntityTransform,LivingEntity)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.world.entity.animal.WaterAnimal</summary>
+
+```diff
++ boolean canTransformBreatheInAir()
+```
+
+</details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
 
 ```diff
 + boolean canTransformFly()
-+ boolean hurtInternal(DamageSource,float)
 - boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.entity.animal.Pig</summary>
-
-```diff
-+ InteractionResult transformInteract(InteractionHand)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Sheep</summary>
-
-```diff
-+ DyeColor shiftColor(DyeColor,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
-
-```diff
 + boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
++ void tickAnimation()
++ void transformedTick(EntityTransform,LivingEntity)
 ```
 
 </details>
 
 
-
-
-<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
+<details><summary>net.minecraft.world.entity.animal.camel.Camel</summary>
 
 ```diff
++ InteractionResult transformInteract(Player,LivingEntity,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.EnderDragonPart</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
 + boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
-
-```diff
-+ void dropCustomDeathLoot(DamageSource,int,boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-+ InteractionResult transformInteract(InteractionHand)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.boss.enderdragon.EndCrystal</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.decoration.ArmorStand</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
-
-```diff
-+ boolean thrownIntentionally
-+ boolean hurtInternal(DamageSource,float)
-+ boolean isThrownIntentionally()
-+ void setThrower(UUID,boolean)
-+ void turnIntoGold()
-- boolean hurt(DamageSource,float)
-- void setThrower(UUID)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-- boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EnderDragon</summary>
 
 ```diff
 + boolean canTransformFly()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
-
-```diff
-+ boolean hurtInternal(DamageSource,float)
-+ boolean lambda$addBehaviourGoals$1(Entity)
-+ float adjustDamage(float)
-+ float getSpeed()
-+ void burnInSun(LivingEntity)
-+ void transformedTick(LivingEntity)
 - boolean hurt(DamageSource,float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
-
-```diff
 + boolean hurtInternal(DamageSource,float)
++ void transformedTick(EntityTransform,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.wither.WitherBoss</summary>
+
+```diff
 - boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.food.FoodProperties</summary>
+<details><summary>net.minecraft.world.entity.decoration.HangingEntity</summary>
 
 ```diff
-+ BiConsumer onEaten
-+ BiConsumer getOnEaten()
-+ void <init>(BiConsumer)
-- void <init>(List)
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.food.Foods</summary>
+
+<details><summary>net.minecraft.world.entity.decoration.ItemFrame</summary>
 
 ```diff
-+ FoodProperties AIR
-+ void lambda$static$0(LivingEntity)
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.alchemy.Potions</summary>
+<details><summary>net.minecraft.world.entity.monster.Shulker</summary>
 
 ```diff
-+ Potion BIG
-+ Potion LONG_BIG
-+ Potion LONG_SMALL
-+ Potion SMALL
-+ Potion STRONG_BIG
-+ Potion STRONG_SMALL
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.item.crafting.FireworkRocketRecipe</summary>
+<details><summary>net.minecraft.world.entity.monster.Strider</summary>
 
 ```diff
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack getResultItemRaw(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack getResultItem(RegistryAccess)
++ InteractionResult transformInteract(Player,LivingEntity,InteractionHand)
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.item.crafting.FireworkStarRecipe</summary>
+
+<details><summary>net.minecraft.world.entity.monster.Witch</summary>
 
 ```diff
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack getResultItemRaw(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack getResultItem(RegistryAccess)
++ boolean isItAwkwardToMilk()
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
+<details><summary>net.minecraft.world.entity.monster.Zoglin</summary>
 
 ```diff
-+ ItemStack assembleRaw(RegistryAccess)
-+ ItemStack assembleRaw(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
-- ItemStack assemble(RegistryAccess)
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
+<details><summary>net.minecraft.world.entity.vehicle.AbstractMinecart</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.Boat</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ float maxUpStep()
++ void handleCrash(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.food.FoodProperties$Builder</summary>
+
+```diff
++ FoodProperties$Builder withMagic(BiConsumer)
++ void lambda$new$0(ItemStack,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.FireworkStarFadeRecipe</summary>
+
+```diff
+- ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(CraftingContainer,RegistryAccess)
++ ItemStack assembleRaw(Container,RegistryAccess)
++ ItemStack assembleRaw(CraftingContainer,RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.MapCloningRecipe</summary>
+
+```diff
+- ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(CraftingContainer,RegistryAccess)
++ ItemStack assembleRaw(Container,RegistryAccess)
++ ItemStack assembleRaw(CraftingContainer,RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Block</summary>
+
+```diff
++ void playerStepOn(Level,BlockPos,BlockState,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.Blocks</summary>
+
+```diff
+- boolean lambda$static$36(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$37(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$38(BlockState,BlockGetter,BlockPos,EntityType)
++ boolean lambda$static$39(BlockState,BlockGetter,BlockPos,EntityType)
+- boolean lambda$static$51(BlockState,BlockGetter,BlockPos)
++ boolean lambda$static$53(BlockState,BlockGetter,BlockPos)
++ int lambda$static$21(BlockState)
+- int lambda$static$25(BlockState)
++ int lambda$static$36(BlockState)
+- int lambda$static$37(BlockState)
++ int lambda$static$38(BlockState)
+- int lambda$static$39(BlockState)
++ int lambda$static$51(BlockState)
+- int lambda$static$53(BlockState)
++ int lambda$static$56(BlockState)
++ int lambda$static$57(BlockState)
+- Item lambda$static$21()
++ Item lambda$static$25()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ButtonBlock</summary>
+
+```diff
++ BlockState getValidAttachedState(BlockState,Direction,Direction)
++ boolean isRandomlyTicking(BlockState)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
++ VoxelShape getCollisionShape(BlockState,BlockGetter,BlockPos,CollisionContext)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CarpetBlock</summary>
+
+```diff
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.HoneyBlock</summary>
+
+```diff
++ boolean canStickToStuff(BlockState)
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.IronBarsBlock</summary>
+
+```diff
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
++ boolean canAirPassThroughGlassPane(BlockState,ServerLevel,BlockPos,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.LeverBlock</summary>
 
 ```diff
 + boolean isRandomlyTicking(BlockState)
-+ void randomTick(RandomSource)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.world.level.block.AirBlock</summary>
+<details><summary>net.minecraft.world.level.block.LiquidBlock</summary>
 
 ```diff
-+ boolean canAirPass(Direction)
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
 + boolean canStickToStuff(BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+<details><summary>net.minecraft.world.level.block.NetherPortalBlock</summary>
 
 ```diff
-+ boolean isStickyToNeighbour(Direction)
++ void <init>(BlockBehaviour$Properties,boolean)
+- void <init>(BlockBehaviour$Properties)
 ```
 
 </details>
 
 
-
-
-
-<details><summary>net.minecraft.world.level.block.CrossCollisionBlock</summary>
+<details><summary>net.minecraft.world.level.block.StainedGlassPaneBlock</summary>
 
 ```diff
-+ boolean isStickyToNeighbour(Direction)
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+<details><summary>net.minecraft.world.level.block.TntBlock</summary>
 
 ```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void randomTick(RandomSource)
++ BlockState getStateForPlacement(BlockPlaceContext)
++ void explode(Level,BlockPos,BlockState)
++ void explode(Level,BlockPos,LivingEntity,BlockState)
+- void explode(Level,BlockPos,LivingEntity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+<details><summary>net.minecraft.world.level.block.WeightedPressurePlateBlock</summary>
 
 ```diff
-+ void spawnAfterBreak(ItemStack,boolean)
++ void entityInside(BlockState,Level,BlockPos,Entity)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.LevelEvent</summary>
+<details><summary>net.minecraft.world.level.block.entity.ChestBlockEntity</summary>
 
 ```diff
-+ int PARTICLES_EAT_CHEESE
-+ int THE_JOKE_HAPPENED
++ boolean isGold()
++ ClientboundBlockEntityDataPacket getUpdatePacket()
++ CompoundTag getUpdateTag()
++ Packet getUpdatePacket()
++ void setGold(boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.MudBlock</summary>
+<details><summary>net.minecraft.world.level.block.entity.DropperBlockEntity</summary>
 
 ```diff
-+ boolean canAirPass(Direction)
++ boolean isLunar()
++ void load(CompoundTag)
++ void saveAdditional(CompoundTag)
++ void setLunar()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+<details><summary>net.minecraft.world.level.block.piston.PistonBaseBlock</summary>
 
 ```diff
-+ boolean isRandomlyTicking(BlockState)
-+ void randomTick(RandomSource)
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BannerPatterns</summary>
+<details><summary>net.minecraft.world.level.block.piston.PistonMovingBlockEntity</summary>
 
 ```diff
-+ ResourceKey NEW_MOJANG
++ BlockEntity getRenderBlockEntity()
++ void setCarriedBlockEntity(BlockEntity,Level)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.HopperBlockEntity</summary>
+<details><summary>net.minecraft.world.level.block.piston.PistonStructureResolver</summary>
 
 ```diff
-+ int ALTERNATE_MOVE_ITEM_SPEED
++ boolean canStickToEachOther(BlockPos,BlockState,BlockPos,BlockState,Direction)
+- boolean canStickToEachOther(BlockState,BlockState)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour</summary>
 
 ```diff
-+ boolean canAirPass(Direction)
-+ PistonMovingBlockEntity newMovingBlockEntity(Direction,boolean,boolean)
-- BlockEntity newMovingBlockEntity(Direction,boolean,boolean)
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
++ boolean canStickToStuff(BlockState)
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+<details><summary>net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase</summary>
 
 ```diff
-+ boolean lightsOut
-+ boolean isLightsOut()
-+ void setLightsOut(boolean)
++ boolean canAirPass(ServerLevel,BlockPos,Direction)
++ boolean canStickToStuff()
++ boolean isStickyToNeighbour(Level,BlockPos,BlockPos,BlockState,Direction,Direction)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.BuiltinDimensionTypes</summary>
+<details><summary>net.minecraft.world.level.portal.PortalShape</summary>
 
 ```diff
-+ ResourceKey MOON
-+ ResourceLocation MOON_EFFECTS
+- boolean lambda$findEmptyPortalShape$1(PortalShape)
++ boolean lambda$findEmptyPortalShape$2(PortalShape)
++ boolean lambda$static$1(BlockState,BlockGetter,BlockPos)
++ Optional findEmptyPortalShape(LevelAccessor,BlockPos,Direction$Axis,boolean)
+- Optional findEmptyPortalShape(LevelAccessor,BlockPos,Direction$Axis)
++ Optional findPortalShape(LevelAccessor,BlockPos,Predicate,Direction$Axis,boolean)
+- Optional findPortalShape(LevelAccessor,BlockPos,Predicate,Direction$Axis)
+- Vec3 lambda$findCollisionFreePosition$3(double,Vec3)
++ Vec3 lambda$findCollisionFreePosition$4(double,Vec3)
++ void <init>(LevelAccessor,BlockPos,Direction$Axis,boolean)
+- void <init>(LevelAccessor,BlockPos,Direction$Axis)
+- void lambda$createPortalBlocks$2(BlockState,BlockPos)
++ void lambda$createPortalBlocks$3(BlockState,BlockPos)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.dimension.LevelStem</summary>
+<details><summary>net.minecraft.world.phys.AABB</summary>
 
 ```diff
-+ ResourceKey MOON
++ AABB scale(float)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.presets.WorldPresets$Bootstrap</summary>
-
-```diff
-+ LevelStem moonStem
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
-
-```diff
-+ void saveVotes(VoteStorage)
-+ VoteStorage loadVotes()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.BuiltInLootTables</summary>
-
-```diff
-+ ResourceLocation DREAM_PIGLIN_BARTERING
-+ ResourceLocation MOON_LAB
-+ ResourceLocation MOON_RESUPLY
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.worldgen.biome.NetherBiomes
@@ -11895,13 +6583,2116 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.ChatFormatting</summary>
+
+```diff
++ boolean lambda$static$2(ChatFormatting)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.Util</summary>
+
+```diff
++ int calculatePrefixSize(Iterable)
++ void shuffle(List,RandomSource)
+- void shuffle(ObjectArrayList,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.advancements.critereon.PlayerTrigger$TriggerInstance</summary>
+
+```diff
++ PlayerTrigger$TriggerInstance vote(MinMaxBounds$Ints)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.core.Direction$Axis$2</summary>
+
+```diff
++ Direction[] getOrthogonalDirections()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.loot.packs.VanillaBlockLoot</summary>
+
+```diff
+- LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$238(Integer)
++ LootPoolEntryContainer$Builder lambda$createPitcherCropLoot$239(Integer)
++ LootTable$Builder lambda$generate$238(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ boolean isOnEdge(double,double,double,double,double,double,Direction)
++ JsonElement lambda$createCheeseBlock$58(ResourceLocation,VoxelShape)
++ JsonObject buildModelFromShape(ResourceLocation,VoxelShape)
++ void createCheeseBlock()
++ void createFacing(Block)
+- void createNetherPortalBlock()
++ void createNetherPortalBlock(Block)
++ void createPackedAir()
++ void createSpleaves(Block)
++ void lambda$buildModelFromShape$59(double,double,double,JsonArray)
++ void lambda$buildModelFromShape$60(double,double,double,JsonArray)
++ void lambda$buildModelFromShape$61(JsonArray,double,double,double,double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.recipes.ShapedRecipeBuilder$Result</summary>
+
+```diff
++ void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation,boolean,boolean,boolean)
+- void <init>(ResourceLocation,Item,int,String,CraftingBookCategory,List,Map,Advancement$Builder,ResourceLocation,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.SurfaceRuleData</summary>
+
+```diff
++ SurfaceRules$RuleSource moon()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.level.ServerPlayer</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ boolean isInvertedHealAndHarm()
++ boolean lambda$startSleepInBed$10(Monster)
+- boolean lambda$startSleepInBed$8(Monster)
+- boolean lambda$tellNeutralMobsThatIDied$6(Mob)
++ boolean lambda$tellNeutralMobsThatIDied$8(Mob)
++ boolean lambda$tick$3(ServerPlayer)
+- boolean teleportTo(ServerLevel,double,double,double,Set,float,float)
++ double lambda$tick$4(ServerPlayer)
++ Entity teleportTo(ServerLevel,double,double,double,Set,float,float)
++ MobType getMobType()
+- Packet lambda$die$5(Component)
++ Packet lambda$die$7(Component)
+- Packet lambda$sendSystemMessage$11(Component)
++ Packet lambda$sendSystemMessage$13(Component)
+- Style lambda$die$4(Component,Style)
++ Style lambda$die$6(Component,Style)
+- void lambda$awardStat$10(int,Score)
++ void lambda$awardStat$12(int,Score)
+- void lambda$drop$12(Inventory,int)
++ void lambda$drop$14(Inventory,int)
++ void lambda$startSleepInBed$11(Unit)
+- void lambda$startSleepInBed$9(Unit)
+- void lambda$tellNeutralMobsThatIDied$7(Mob)
++ void lambda$tellNeutralMobsThatIDied$9(Mob)
+- void lambda$updateScoreForCriteria$3(int,Score)
++ void lambda$updateScoreForCriteria$5(int,Score)
++ void stepOnBlock(BlockPos,BlockState,Block)
++ void summonLightning(Vec3)
++ void turnIntoGold()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.server.players.PlayerList</summary>
+
+```diff
++ ClientboundBulkVoteInfoPacket createVoteReloadPacket(UUID)
+- Component lambda$broadcastSystemMessage$3(Component,ServerPlayer)
++ Component lambda$broadcastSystemMessage$5(Component,ServerPlayer)
++ void lambda$createVoteReloadPacket$2(Map,UUID,ServerVote)
++ void lambda$createVoteReloadPacket$3(Map,UUID,OptionId,Voter)
+- void lambda$remove$2(Entity)
++ void lambda$remove$4(Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.ExtraCodecs</summary>
+
+```diff
+- App lambda$static$73(RecordCodecBuilder$Instance)
++ App lambda$static$74(RecordCodecBuilder$Instance)
+- App lambda$static$83(RecordCodecBuilder$Instance)
++ App lambda$static$84(RecordCodecBuilder$Instance)
+- BitSet lambda$static$69(LongStream)
++ BitSet lambda$static$70(LongStream)
++ Codec floatRange(float,float)
+- DataResult lambda$ensureHomogenous$57(Function,Collection)
++ DataResult lambda$ensureHomogenous$58(Function,Collection)
+- DataResult lambda$floatRangeMinExclusiveWithMessage$50(float,float,Function,Float)
++ DataResult lambda$floatRangeMinExclusiveWithMessage$51(float,float,Function,Float)
+- DataResult lambda$instantCodec$60(DateTimeFormatter,String)
++ DataResult lambda$instantCodec$61(DateTimeFormatter,String)
+- DataResult lambda$nonEmptyHolderSet$55(HolderSet)
++ DataResult lambda$nonEmptyHolderSet$56(HolderSet)
+- DataResult lambda$nonEmptyList$53(List)
++ DataResult lambda$nonEmptyList$54(List)
+- DataResult lambda$sizeLimitedString$88(int,int,String)
++ DataResult lambda$sizeLimitedString$89(int,int,String)
+- DataResult lambda$static$59(String)
++ DataResult lambda$static$60(String)
+- DataResult lambda$static$62(String)
++ DataResult lambda$static$63(String)
+- DataResult lambda$static$66(String)
++ DataResult lambda$static$67(String)
+- DataResult lambda$static$85(String)
++ DataResult lambda$static$86(String)
+- Either lambda$static$78(PropertyMap)
++ Either lambda$static$79(PropertyMap)
+- ExtraCodecs$TagOrElementLocation lambda$static$64(ResourceLocation)
++ ExtraCodecs$TagOrElementLocation lambda$static$66(ResourceLocation)
+- GameProfile lambda$static$82(GameProfile,PropertyMap)
++ GameProfile lambda$static$83(GameProfile,PropertyMap)
+- LongStream lambda$static$70(BitSet)
++ LongStream lambda$static$71(BitSet)
+- Optional lambda$static$68(OptionalLong)
++ Optional lambda$static$69(OptionalLong)
+- Optional lambda$static$71(Property)
++ Optional lambda$static$72(Property)
+- OptionalLong lambda$static$67(Optional)
++ OptionalLong lambda$static$68(Optional)
+- Property lambda$static$72(String,String,Optional)
++ Property lambda$static$73(String,String,Optional)
+- PropertyMap lambda$static$77(Either)
++ PropertyMap lambda$static$78(Either)
+- String lambda$ensureHomogenous$56(Object,Object,Object)
++ String lambda$ensureHomogenous$57(Object,Object,Object)
++ String lambda$floatRange$49(float,float,Float)
+- String lambda$floatRangeMinExclusiveWithMessage$49(Function,Float)
++ String lambda$floatRangeMinExclusiveWithMessage$50(Function,Float)
+- String lambda$nonEmptyHolderSet$54()
++ String lambda$nonEmptyHolderSet$55()
+- String lambda$nonEmptyList$52()
++ String lambda$nonEmptyList$53()
+- String lambda$sizeLimitedString$86(String,int,int,int)
++ String lambda$sizeLimitedString$88(String,int,int,int)
+- String lambda$static$51(Float)
++ String lambda$static$52(Float)
+- String lambda$static$58(String,PatternSyntaxException)
++ String lambda$static$59(String,PatternSyntaxException)
+- String lambda$static$61()
++ String lambda$static$62()
+- String lambda$static$63(byte[])
++ String lambda$static$64(byte[])
+- String lambda$static$80(Optional)
++ String lambda$static$81(Optional)
+- String lambda$static$84()
++ String lambda$static$85()
+- UUID lambda$static$79(Optional)
++ UUID lambda$static$80(Optional)
+- void lambda$static$74(PropertyMap,String,List)
+- void lambda$static$75(PropertyMap,Map)
++ void lambda$static$75(PropertyMap,String,List)
+- void lambda$static$76(PropertyMap,List)
++ void lambda$static$76(PropertyMap,Map)
++ void lambda$static$77(PropertyMap,List)
+- void lambda$static$81(GameProfile,String,Property)
++ void lambda$static$82(GameProfile,String,Property)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.damagesource.DamageSources</summary>
+
+```diff
++ DamageSource midasTouch()
++ DamageSource onMoon()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.Entity</summary>
+
+```diff
++ boolean canSpawnFootprintParticle()
++ boolean canTransformFly()
++ boolean hurtInternal(DamageSource,float)
++ boolean noCulling()
+- boolean teleportTo(ServerLevel,double,double,double,Set,float,float)
++ Entity effectiveEntity()
++ Entity teleportTo(ServerLevel,double,double,double,Set,float,float)
++ EntityDimensions getCurrentDimensions()
++ float getEffectiveGravity()
++ float getGravity()
++ String getSkinName()
++ void copyTransformedProperties(LivingEntity)
++ void handleInsidePortal(BlockPos,boolean)
+- void handleInsidePortal(BlockPos)
++ void postTick()
++ void setNoCulling(boolean)
++ void spawnFootprintParticle()
++ void stepOnBlock(BlockPos,BlockState,Block)
++ void transformedTick(EntityTransform,LivingEntity)
++ void turnIntoGold()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Chicken</summary>
+
+```diff
++ void lambda$aiStep$0(Holder$Reference)
++ void tickFlapping()
++ void transformedTick(EntityTransform,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Cow</summary>
+
+```diff
++ boolean isBaloonCowEnabled()
++ boolean lambda$registerGoals$0()
++ double getPassengersRidingOffset()
++ EntityDimensions getDimensions(Pose)
++ float getBloatScale()
++ int getBloatLevel()
++ LivingEntity getControllingPassenger()
++ void <clinit>()
++ void addAdditionalSaveData(CompoundTag)
++ void aiStep()
++ void defineSynchedData()
++ void dropAllDeathLoot(DamageSource)
++ void explode()
++ void liftOff()
++ void onDonePathing()
++ void onSyncedDataUpdated(EntityDataAccessor)
++ void readAdditionalSaveData(CompoundTag)
++ void setBloatLevel(int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.IronGolem</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Parrot</summary>
+
+```diff
++ boolean canTransformFly()
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Pig</summary>
+
+```diff
++ InteractionResult transformInteract(Player,LivingEntity,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Sheep</summary>
+
+```diff
++ DyeColor shiftColor(DyeColor,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.Wolf</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.axolotl.Axolotl</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractChestedHorse</summary>
+
+```diff
++ void dropCustomDeathLoot(DamageSource,int,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.horse.AbstractHorse</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ InteractionResult transformInteract(Player,LivingEntity,InteractionHand)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.boss.enderdragon.EndCrystal</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.decoration.ArmorStand</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.item.ItemEntity</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ boolean isThrownIntentionally()
++ void setThrower(UUID,boolean)
+- void setThrower(UUID)
++ void turnIntoGold()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Silverfish</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Vex</summary>
+
+```diff
++ boolean canTransformFly()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.Zombie</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
++ boolean lambda$addBehaviourGoals$1(Entity)
++ float adjustDamage(float)
++ float getSpeed()
++ void burnInSun(LivingEntity)
++ void transformedTick(EntityTransform,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
+
+```diff
+- boolean hurt(DamageSource,float)
++ boolean hurtInternal(DamageSource,float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.food.FoodProperties</summary>
+
+```diff
++ BiConsumer getOnEaten()
++ void <init>(int,float,boolean,boolean,boolean,List,BiConsumer)
+- void <init>(int,float,boolean,boolean,boolean,List)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.food.Foods</summary>
+
+```diff
++ void lambda$static$0(ItemStack,LivingEntity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.FireworkRocketRecipe</summary>
+
+```diff
+- ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(CraftingContainer,RegistryAccess)
++ ItemStack assembleRaw(Container,RegistryAccess)
++ ItemStack assembleRaw(CraftingContainer,RegistryAccess)
+- ItemStack getResultItem(RegistryAccess)
++ ItemStack getResultItemRaw(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.FireworkStarRecipe</summary>
+
+```diff
+- ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(CraftingContainer,RegistryAccess)
++ ItemStack assembleRaw(Container,RegistryAccess)
++ ItemStack assembleRaw(CraftingContainer,RegistryAccess)
+- ItemStack getResultItem(RegistryAccess)
++ ItemStack getResultItemRaw(RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.crafting.MapExtendingRecipe</summary>
+
+```diff
+- ItemStack assemble(Container,RegistryAccess)
+- ItemStack assemble(CraftingContainer,RegistryAccess)
++ ItemStack assembleRaw(Container,RegistryAccess)
++ ItemStack assembleRaw(CraftingContainer,RegistryAccess)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AbstractCandleBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.AirBlock</summary>
+
+```diff
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
++ boolean canStickToStuff(BlockState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.ChainBlock</summary>
+
+```diff
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.CrossCollisionBlock</summary>
+
+```diff
++ boolean isStickyToNeighbour(Level,BlockPos,BlockState,BlockPos,BlockState,Direction,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.DoorBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.EndRodBlock</summary>
+
+```diff
++ void spawnAfterBreak(BlockState,ServerLevel,BlockPos,ItemStack,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.MudBlock</summary>
+
+```diff
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TrapDoorBlock</summary>
+
+```diff
++ boolean isRandomlyTicking(BlockState)
++ void randomTick(BlockState,ServerLevel,BlockPos,RandomSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.piston.MovingPistonBlock</summary>
+
+```diff
+- BlockEntity newMovingBlockEntity(BlockPos,BlockState,BlockState,Direction,boolean,boolean)
++ boolean canAirPass(BlockState,ServerLevel,BlockPos,Direction)
++ PistonMovingBlockEntity newMovingBlockEntity(BlockPos,BlockState,BlockState,Direction,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.chunk.ChunkAccess</summary>
+
+```diff
++ boolean isLightsOut()
++ void setLightsOut(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess</summary>
+
+```diff
++ void saveVotes(VoteStorage)
++ VoteStorage loadVotes()
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/vote_1.json
++ minecraft/advancements/adventure/vote_256.json
++ minecraft/advancements/recipes/brewing/copper_sink.json
++ minecraft/advancements/recipes/building_blocks/air_block.json
++ minecraft/advancements/recipes/building_blocks/packed_air.json
++ minecraft/advancements/recipes/combat/diamond_drows.json
++ minecraft/advancements/recipes/combat/wob.json
++ minecraft/advancements/recipes/misc/m_banner_pattern.json
++ minecraft/advancements/recipes/misc/string_concatenation.json
++ minecraft/advancements/recipes/redstone/bit_from_name_stonecutting.json
++ minecraft/advancements/recipes/redstone/bit_from_tag_stonecutting.json
++ minecraft/advancements/recipes/redstone/left_curly.json
++ minecraft/advancements/recipes/redstone/left_square.json
++ minecraft/advancements/recipes/redstone/name_from_name_tag_stonecutting.json
++ minecraft/advancements/recipes/redstone/pickaxe_block.json
++ minecraft/advancements/recipes/redstone/place_block.json
++ minecraft/advancements/recipes/redstone/right_curly.json
++ minecraft/advancements/recipes/redstone/right_square.json
++ minecraft/advancements/recipes/redstone/tag_from_name_tag_stonecutting.json
++ minecraft/damage_type/midas_curse.json
++ minecraft/damage_type/on_moon.json
++ minecraft/dimension_type/the_moon.json
++ minecraft/loot_tables/blocks/cheese.json
++ minecraft/loot_tables/blocks/copper_sink.json
++ minecraft/loot_tables/blocks/copper_spleaves.json
++ minecraft/loot_tables/blocks/filled_copper_sink.json
++ minecraft/loot_tables/blocks/other_portal.json
++ minecraft/loot_tables/blocks/pickaxe_block.json
++ minecraft/loot_tables/blocks/place_block.json
++ minecraft/loot_tables/chests/moon_lab.json
++ minecraft/loot_tables/chests/moon_resuply.json
++ minecraft/loot_tables/entities/moon_cow.json
++ minecraft/loot_tables/entities/ray_tracing.json
++ minecraft/loot_tables/gameplay/dream_piglin_bartering.json
++ minecraft/recipes/air_block.json
++ minecraft/recipes/bit_from_name_stonecutting.json
++ minecraft/recipes/bit_from_tag_stonecutting.json
++ minecraft/recipes/copper_sink.json
++ minecraft/recipes/diamond_drows.json
++ minecraft/recipes/dupe_hack.json
++ minecraft/recipes/left_curly.json
++ minecraft/recipes/left_square.json
++ minecraft/recipes/m_banner_pattern.json
++ minecraft/recipes/name_from_name_tag_stonecutting.json
++ minecraft/recipes/nbt_crafting.json
++ minecraft/recipes/packed_air.json
++ minecraft/recipes/pickaxe_block.json
++ minecraft/recipes/place_block.json
++ minecraft/recipes/right_curly.json
++ minecraft/recipes/right_square.json
++ minecraft/recipes/string_concatenation.json
++ minecraft/recipes/tag_from_name_tag_stonecutting.json
++ minecraft/recipes/wob.json
++ minecraft/tags/banner_pattern/pattern_item/m.json
++ minecraft/tags/blocks/cordycep_block.json
++ minecraft/tags/items/copper.json
++ minecraft/tags/items/heavy.json
++ minecraft/worldgen/biome/the_moon.json
++ minecraft/worldgen/configured_feature/large_crater.json
++ minecraft/worldgen/configured_feature/lunar_base.json
++ minecraft/worldgen/configured_feature/mega_crater.json
++ minecraft/worldgen/configured_feature/small_crater.json
++ minecraft/worldgen/noise_settings/moon.json
++ minecraft/worldgen/placed_feature/crater_large.json
++ minecraft/worldgen/placed_feature/crater_mega.json
++ minecraft/worldgen/placed_feature/crater_small.json
++ minecraft/worldgen/placed_feature/lunar_base.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/cheese.json
++ minecraft/blockstates/copper_sink.json
++ minecraft/blockstates/copper_spleaves.json
++ minecraft/blockstates/filled_copper_sink.json
++ minecraft/blockstates/other_portal.json
++ minecraft/blockstates/packed_air.json
++ minecraft/blockstates/pickaxe_block.json
++ minecraft/blockstates/place_block.json
++ minecraft/models/block/cheese_1.json
++ minecraft/models/block/cheese_10.json
++ minecraft/models/block/cheese_100.json
++ minecraft/models/block/cheese_1000.json
++ minecraft/models/block/cheese_10000.json
++ minecraft/models/block/cheese_100000.json
++ minecraft/models/block/cheese_1000000.json
++ minecraft/models/block/cheese_10000000.json
++ minecraft/models/block/cheese_10000001.json
++ minecraft/models/block/cheese_1000001.json
++ minecraft/models/block/cheese_10000010.json
++ minecraft/models/block/cheese_10000011.json
++ minecraft/models/block/cheese_100001.json
++ minecraft/models/block/cheese_1000010.json
++ minecraft/models/block/cheese_10000100.json
++ minecraft/models/block/cheese_10000101.json
++ minecraft/models/block/cheese_1000011.json
++ minecraft/models/block/cheese_10000110.json
++ minecraft/models/block/cheese_10000111.json
++ minecraft/models/block/cheese_10001.json
++ minecraft/models/block/cheese_100010.json
++ minecraft/models/block/cheese_1000100.json
++ minecraft/models/block/cheese_10001000.json
++ minecraft/models/block/cheese_10001001.json
++ minecraft/models/block/cheese_1000101.json
++ minecraft/models/block/cheese_10001010.json
++ minecraft/models/block/cheese_10001011.json
++ minecraft/models/block/cheese_100011.json
++ minecraft/models/block/cheese_1000110.json
++ minecraft/models/block/cheese_10001100.json
++ minecraft/models/block/cheese_10001101.json
++ minecraft/models/block/cheese_1000111.json
++ minecraft/models/block/cheese_10001110.json
++ minecraft/models/block/cheese_10001111.json
++ minecraft/models/block/cheese_1001.json
++ minecraft/models/block/cheese_10010.json
++ minecraft/models/block/cheese_100100.json
++ minecraft/models/block/cheese_1001000.json
++ minecraft/models/block/cheese_10010000.json
++ minecraft/models/block/cheese_10010001.json
++ minecraft/models/block/cheese_1001001.json
++ minecraft/models/block/cheese_10010010.json
++ minecraft/models/block/cheese_10010011.json
++ minecraft/models/block/cheese_100101.json
++ minecraft/models/block/cheese_1001010.json
++ minecraft/models/block/cheese_10010100.json
++ minecraft/models/block/cheese_10010101.json
++ minecraft/models/block/cheese_1001011.json
++ minecraft/models/block/cheese_10010110.json
++ minecraft/models/block/cheese_10010111.json
++ minecraft/models/block/cheese_10011.json
++ minecraft/models/block/cheese_100110.json
++ minecraft/models/block/cheese_1001100.json
++ minecraft/models/block/cheese_10011000.json
++ minecraft/models/block/cheese_10011001.json
++ minecraft/models/block/cheese_1001101.json
++ minecraft/models/block/cheese_10011010.json
++ minecraft/models/block/cheese_10011011.json
++ minecraft/models/block/cheese_100111.json
++ minecraft/models/block/cheese_1001110.json
++ minecraft/models/block/cheese_10011100.json
++ minecraft/models/block/cheese_10011101.json
++ minecraft/models/block/cheese_1001111.json
++ minecraft/models/block/cheese_10011110.json
++ minecraft/models/block/cheese_10011111.json
++ minecraft/models/block/cheese_101.json
++ minecraft/models/block/cheese_1010.json
++ minecraft/models/block/cheese_10100.json
++ minecraft/models/block/cheese_101000.json
++ minecraft/models/block/cheese_1010000.json
++ minecraft/models/block/cheese_10100000.json
++ minecraft/models/block/cheese_10100001.json
++ minecraft/models/block/cheese_1010001.json
++ minecraft/models/block/cheese_10100010.json
++ minecraft/models/block/cheese_10100011.json
++ minecraft/models/block/cheese_101001.json
++ minecraft/models/block/cheese_1010010.json
++ minecraft/models/block/cheese_10100100.json
++ minecraft/models/block/cheese_10100101.json
++ minecraft/models/block/cheese_1010011.json
++ minecraft/models/block/cheese_10100110.json
++ minecraft/models/block/cheese_10100111.json
++ minecraft/models/block/cheese_10101.json
++ minecraft/models/block/cheese_101010.json
++ minecraft/models/block/cheese_1010100.json
++ minecraft/models/block/cheese_10101000.json
++ minecraft/models/block/cheese_10101001.json
++ minecraft/models/block/cheese_1010101.json
++ minecraft/models/block/cheese_10101010.json
++ minecraft/models/block/cheese_10101011.json
++ minecraft/models/block/cheese_101011.json
++ minecraft/models/block/cheese_1010110.json
++ minecraft/models/block/cheese_10101100.json
++ minecraft/models/block/cheese_10101101.json
++ minecraft/models/block/cheese_1010111.json
++ minecraft/models/block/cheese_10101110.json
++ minecraft/models/block/cheese_10101111.json
++ minecraft/models/block/cheese_1011.json
++ minecraft/models/block/cheese_10110.json
++ minecraft/models/block/cheese_101100.json
++ minecraft/models/block/cheese_1011000.json
++ minecraft/models/block/cheese_10110000.json
++ minecraft/models/block/cheese_10110001.json
++ minecraft/models/block/cheese_1011001.json
++ minecraft/models/block/cheese_10110010.json
++ minecraft/models/block/cheese_10110011.json
++ minecraft/models/block/cheese_101101.json
++ minecraft/models/block/cheese_1011010.json
++ minecraft/models/block/cheese_10110100.json
++ minecraft/models/block/cheese_10110101.json
++ minecraft/models/block/cheese_1011011.json
++ minecraft/models/block/cheese_10110110.json
++ minecraft/models/block/cheese_10110111.json
++ minecraft/models/block/cheese_10111.json
++ minecraft/models/block/cheese_101110.json
++ minecraft/models/block/cheese_1011100.json
++ minecraft/models/block/cheese_10111000.json
++ minecraft/models/block/cheese_10111001.json
++ minecraft/models/block/cheese_1011101.json
++ minecraft/models/block/cheese_10111010.json
++ minecraft/models/block/cheese_10111011.json
++ minecraft/models/block/cheese_101111.json
++ minecraft/models/block/cheese_1011110.json
++ minecraft/models/block/cheese_10111100.json
++ minecraft/models/block/cheese_10111101.json
++ minecraft/models/block/cheese_1011111.json
++ minecraft/models/block/cheese_10111110.json
++ minecraft/models/block/cheese_10111111.json
++ minecraft/models/block/cheese_11.json
++ minecraft/models/block/cheese_110.json
++ minecraft/models/block/cheese_1100.json
++ minecraft/models/block/cheese_11000.json
++ minecraft/models/block/cheese_110000.json
++ minecraft/models/block/cheese_1100000.json
++ minecraft/models/block/cheese_11000000.json
++ minecraft/models/block/cheese_11000001.json
++ minecraft/models/block/cheese_1100001.json
++ minecraft/models/block/cheese_11000010.json
++ minecraft/models/block/cheese_11000011.json
++ minecraft/models/block/cheese_110001.json
++ minecraft/models/block/cheese_1100010.json
++ minecraft/models/block/cheese_11000100.json
++ minecraft/models/block/cheese_11000101.json
++ minecraft/models/block/cheese_1100011.json
++ minecraft/models/block/cheese_11000110.json
++ minecraft/models/block/cheese_11000111.json
++ minecraft/models/block/cheese_11001.json
++ minecraft/models/block/cheese_110010.json
++ minecraft/models/block/cheese_1100100.json
++ minecraft/models/block/cheese_11001000.json
++ minecraft/models/block/cheese_11001001.json
++ minecraft/models/block/cheese_1100101.json
++ minecraft/models/block/cheese_11001010.json
++ minecraft/models/block/cheese_11001011.json
++ minecraft/models/block/cheese_110011.json
++ minecraft/models/block/cheese_1100110.json
++ minecraft/models/block/cheese_11001100.json
++ minecraft/models/block/cheese_11001101.json
++ minecraft/models/block/cheese_1100111.json
++ minecraft/models/block/cheese_11001110.json
++ minecraft/models/block/cheese_11001111.json
++ minecraft/models/block/cheese_1101.json
++ minecraft/models/block/cheese_11010.json
++ minecraft/models/block/cheese_110100.json
++ minecraft/models/block/cheese_1101000.json
++ minecraft/models/block/cheese_11010000.json
++ minecraft/models/block/cheese_11010001.json
++ minecraft/models/block/cheese_1101001.json
++ minecraft/models/block/cheese_11010010.json
++ minecraft/models/block/cheese_11010011.json
++ minecraft/models/block/cheese_110101.json
++ minecraft/models/block/cheese_1101010.json
++ minecraft/models/block/cheese_11010100.json
++ minecraft/models/block/cheese_11010101.json
++ minecraft/models/block/cheese_1101011.json
++ minecraft/models/block/cheese_11010110.json
++ minecraft/models/block/cheese_11010111.json
++ minecraft/models/block/cheese_11011.json
++ minecraft/models/block/cheese_110110.json
++ minecraft/models/block/cheese_1101100.json
++ minecraft/models/block/cheese_11011000.json
++ minecraft/models/block/cheese_11011001.json
++ minecraft/models/block/cheese_1101101.json
++ minecraft/models/block/cheese_11011010.json
++ minecraft/models/block/cheese_11011011.json
++ minecraft/models/block/cheese_110111.json
++ minecraft/models/block/cheese_1101110.json
++ minecraft/models/block/cheese_11011100.json
++ minecraft/models/block/cheese_11011101.json
++ minecraft/models/block/cheese_1101111.json
++ minecraft/models/block/cheese_11011110.json
++ minecraft/models/block/cheese_11011111.json
++ minecraft/models/block/cheese_111.json
++ minecraft/models/block/cheese_1110.json
++ minecraft/models/block/cheese_11100.json
++ minecraft/models/block/cheese_111000.json
++ minecraft/models/block/cheese_1110000.json
++ minecraft/models/block/cheese_11100000.json
++ minecraft/models/block/cheese_11100001.json
++ minecraft/models/block/cheese_1110001.json
++ minecraft/models/block/cheese_11100010.json
++ minecraft/models/block/cheese_11100011.json
++ minecraft/models/block/cheese_111001.json
++ minecraft/models/block/cheese_1110010.json
++ minecraft/models/block/cheese_11100100.json
++ minecraft/models/block/cheese_11100101.json
++ minecraft/models/block/cheese_1110011.json
++ minecraft/models/block/cheese_11100110.json
++ minecraft/models/block/cheese_11100111.json
++ minecraft/models/block/cheese_11101.json
++ minecraft/models/block/cheese_111010.json
++ minecraft/models/block/cheese_1110100.json
++ minecraft/models/block/cheese_11101000.json
++ minecraft/models/block/cheese_11101001.json
++ minecraft/models/block/cheese_1110101.json
++ minecraft/models/block/cheese_11101010.json
++ minecraft/models/block/cheese_11101011.json
++ minecraft/models/block/cheese_111011.json
++ minecraft/models/block/cheese_1110110.json
++ minecraft/models/block/cheese_11101100.json
++ minecraft/models/block/cheese_11101101.json
++ minecraft/models/block/cheese_1110111.json
++ minecraft/models/block/cheese_11101110.json
++ minecraft/models/block/cheese_11101111.json
++ minecraft/models/block/cheese_1111.json
++ minecraft/models/block/cheese_11110.json
++ minecraft/models/block/cheese_111100.json
++ minecraft/models/block/cheese_1111000.json
++ minecraft/models/block/cheese_11110000.json
++ minecraft/models/block/cheese_11110001.json
++ minecraft/models/block/cheese_1111001.json
++ minecraft/models/block/cheese_11110010.json
++ minecraft/models/block/cheese_11110011.json
++ minecraft/models/block/cheese_111101.json
++ minecraft/models/block/cheese_1111010.json
++ minecraft/models/block/cheese_11110100.json
++ minecraft/models/block/cheese_11110101.json
++ minecraft/models/block/cheese_1111011.json
++ minecraft/models/block/cheese_11110110.json
++ minecraft/models/block/cheese_11110111.json
++ minecraft/models/block/cheese_11111.json
++ minecraft/models/block/cheese_111110.json
++ minecraft/models/block/cheese_1111100.json
++ minecraft/models/block/cheese_11111000.json
++ minecraft/models/block/cheese_11111001.json
++ minecraft/models/block/cheese_1111101.json
++ minecraft/models/block/cheese_11111010.json
++ minecraft/models/block/cheese_11111011.json
++ minecraft/models/block/cheese_111111.json
++ minecraft/models/block/cheese_1111110.json
++ minecraft/models/block/cheese_11111100.json
++ minecraft/models/block/cheese_11111101.json
++ minecraft/models/block/cheese_1111111.json
++ minecraft/models/block/cheese_11111110.json
++ minecraft/models/block/cheese_11111111.json
++ minecraft/models/block/copper_sink.json
++ minecraft/models/block/copper_spleaves_broken.json
++ minecraft/models/block/copper_spleaves.json
++ minecraft/models/block/filled_copper_sink.json
++ minecraft/models/block/other_portal_ew.json
++ minecraft/models/block/other_portal_ns.json
++ minecraft/models/block/packed_air.json
++ minecraft/models/block/pickaxe_block.json
++ minecraft/models/block/place_block.json
++ minecraft/models/block/spleaves.json
++ minecraft/models/block/template_copper_sink_full.json
++ minecraft/models/item/air_block.json
++ minecraft/models/item/bit.json
++ minecraft/models/item/bottle_of_entity.json
++ minecraft/models/item/bottle_of_void.json
++ minecraft/models/item/byte_tag.json
++ minecraft/models/item/cheese.json
++ minecraft/models/item/compound_tag.json
++ minecraft/models/item/copper_sink.json
++ minecraft/models/item/copper_spleaves.json
++ minecraft/models/item/double_tag.json
++ minecraft/models/item/dupe_hack.json
++ minecraft/models/item/float_tag.json
++ minecraft/models/item/int_tag.json
++ minecraft/models/item/la_baguette.json
++ minecraft/models/item/le_tricolore.json
++ minecraft/models/item/left_curly.json
++ minecraft/models/item/left_square.json
++ minecraft/models/item/list_tag.json
++ minecraft/models/item/long_tag.json
++ minecraft/models/item/m_banner_pattern.json
++ minecraft/models/item/moon_cow_spawn_egg.json
++ minecraft/models/item/name.json
++ minecraft/models/item/packed_air.json
++ minecraft/models/item/pickaxe_block.json
++ minecraft/models/item/place_block.json
++ minecraft/models/item/right_curly.json
++ minecraft/models/item/right_square.json
++ minecraft/models/item/ruby.json
++ minecraft/models/item/short_tag.json
++ minecraft/models/item/splash_bottle_of_entity.json
++ minecraft/models/item/string_tag.json
++ minecraft/models/item/string2.json
++ minecraft/models/item/syntax_error.json
++ minecraft/models/item/tag.json
++ minecraft/particles/footstep.json
++ minecraft/shaders/core/position_tex_funky.fsh
++ minecraft/shaders/core/position_tex_funky.json
++ minecraft/shaders/post/bloom.json
++ minecraft/shaders/program/brightness_threshold.fsh
++ minecraft/shaders/program/brightness_threshold.json
++ minecraft/shaders/program/merge_bloom.fsh
++ minecraft/shaders/program/merge_bloom.json
++ minecraft/textures/block/cheese.png
++ minecraft/textures/block/copper_sink_bottom.png
++ minecraft/textures/block/copper_sink_inner.png
++ minecraft/textures/block/copper_sink_side.png
++ minecraft/textures/block/copper_sink_top.png
++ minecraft/textures/block/copper_spleaves_broken.png
++ minecraft/textures/block/copper_spleaves.png
++ minecraft/textures/block/other_portal.png
++ minecraft/textures/block/other_portal.png.mcmeta
++ minecraft/textures/block/packed_air_alt.png
++ minecraft/textures/block/packed_air.png
++ minecraft/textures/block/pickaxe_block_back.png
++ minecraft/textures/block/pickaxe_block_front.png
++ minecraft/textures/block/pickaxe_block_side.png
++ minecraft/textures/block/place_block_back.png
++ minecraft/textures/block/place_block_front.png
++ minecraft/textures/block/place_block_side.png
++ minecraft/textures/effect/crown.png
++ minecraft/textures/effect/mustache.png
++ minecraft/textures/entity/banner/m.png
++ minecraft/textures/entity/chest/gold.png
++ minecraft/textures/entity/cow/moon_cow.png
++ minecraft/textures/entity/player/caeps/awesom.png
++ minecraft/textures/entity/player/caeps/blonk.png
++ minecraft/textures/entity/player/caeps/no_circle.png
++ minecraft/textures/entity/player/caeps/nyan.png
++ minecraft/textures/entity/player/caeps/squid.png
++ minecraft/textures/entity/player/caeps/veterinarian.png
++ minecraft/textures/entity/player/tails/alex.png
++ minecraft/textures/entity/player/tails/ari.png
++ minecraft/textures/entity/player/tails/black_fox.png
++ minecraft/textures/entity/player/tails/brown_bear.png
++ minecraft/textures/entity/player/tails/earthern.png
++ minecraft/textures/entity/player/tails/efe.png
++ minecraft/textures/entity/player/tails/fire_fox.png
++ minecraft/textures/entity/player/tails/kai.png
++ minecraft/textures/entity/player/tails/makena.png
++ minecraft/textures/entity/player/tails/noor.png
++ minecraft/textures/entity/player/tails/red_fox.png
++ minecraft/textures/entity/player/tails/snow_fox.png
++ minecraft/textures/entity/player/tails/steve.png
++ minecraft/textures/entity/player/tails/striped.png
++ minecraft/textures/entity/player/tails/sunny.png
++ minecraft/textures/entity/player/tails/zuri.png
++ minecraft/textures/entity/player/wide/ray.png
++ minecraft/textures/entity/shield/m.png
++ minecraft/textures/environment/earth_1.png
++ minecraft/textures/environment/earth_a.png
++ minecraft/textures/environment/earth_prime.png
++ minecraft/textures/environment/earth.png
++ minecraft/textures/font/checkmark.png
++ minecraft/textures/gui/tvpi.png
++ minecraft/textures/gui/votes.png
++ minecraft/textures/gui/voting.png
++ minecraft/textures/item/air_block.png
++ minecraft/textures/item/bit.png
++ minecraft/textures/item/bottle_of_entity.png
++ minecraft/textures/item/bottle_of_void.png
++ minecraft/textures/item/byte_tag.png
++ minecraft/textures/item/compound_tag.png
++ minecraft/textures/item/double_tag.png
++ minecraft/textures/item/end_tag.png
++ minecraft/textures/item/float_tag.png
++ minecraft/textures/item/int_tag.png
++ minecraft/textures/item/la_baguette.png
++ minecraft/textures/item/le_tricolore.png
++ minecraft/textures/item/left_curly.png
++ minecraft/textures/item/left_square.png
++ minecraft/textures/item/list_tag.png
++ minecraft/textures/item/long_tag.png
++ minecraft/textures/item/m_banner_pattern.png
++ minecraft/textures/item/name.png
++ minecraft/textures/item/right_curly.png
++ minecraft/textures/item/right_square.png
++ minecraft/textures/item/ruby.png
++ minecraft/textures/item/short_tag.png
++ minecraft/textures/item/skis.png
++ minecraft/textures/item/splash_bottle_of_entity.png
++ minecraft/textures/item/string_tag.png
++ minecraft/textures/item/string2.png
++ minecraft/textures/item/syntax_error.png
++ minecraft/textures/item/tag.png
++ minecraft/textures/misc/enchanted_glint_gold.png
++ minecraft/textures/mob_effect/big.png
++ minecraft/textures/mob_effect/small.png
++ minecraft/textures/models/armor/beret.png
++ minecraft/textures/particle/footprint.png
++ nothingtoseeheremovealong/lang/fr_fr.json
++ nothingtoseeheremovealong/sounds.json
++ nothingtoseeheremovealong/sounds/the_joke/sad1.ogg
++ nothingtoseeheremovealong/sounds/the_joke/sad2.ogg
++ nothingtoseeheremovealong/sounds/the_joke/sad3.ogg
++ nothingtoseeheremovealong/sounds/the_joke/sad4.ogg
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>List</summary>
+
+```diff
++ rules.txt
+```
+
+</details>
+
+
+<details><summary>attribute.txt</summary>
+
+```diff
++ minecraft:generic.scale
+```
+
+</details>
+
+
+<details><summary>banner_pattern.txt</summary>
+
+```diff
++ minecraft:m
+```
+
+</details>
+
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:cheese
++ minecraft:copper_sink
++ minecraft:copper_spleaves
++ minecraft:filled_copper_sink
++ minecraft:other_portal
++ minecraft:packed_air
++ minecraft:pickaxe_block
++ minecraft:place_block
+```
+
+</details>
+
+
+<details><summary>custom_stat.txt</summary>
+
+```diff
++ minecraft:votes
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:moon_cow
++ minecraft:ray_tracing
++ minecraft:stencil_display
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:air_block
++ minecraft:bit
++ minecraft:bottle_of_entity
++ minecraft:bottle_of_void
++ minecraft:byte_tag
++ minecraft:cheese
++ minecraft:compound_tag
++ minecraft:copper_sink
++ minecraft:copper_spleaves
++ minecraft:double_tag
++ minecraft:dupe_hack
++ minecraft:float_tag
++ minecraft:int_tag
++ minecraft:la_baguette
++ minecraft:le_tricolore
++ minecraft:left_curly
++ minecraft:left_square
++ minecraft:list_tag
++ minecraft:long_tag
++ minecraft:m_banner_pattern
++ minecraft:moon_cow_spawn_egg
++ minecraft:name
++ minecraft:packed_air
++ minecraft:pickaxe_block
++ minecraft:place_block
++ minecraft:right_curly
++ minecraft:right_square
++ minecraft:short_tag
++ minecraft:splash_bottle_of_entity
++ minecraft:string_tag
++ minecraft:string2
++ minecraft:syntax_error
++ minecraft:tag
+```
+
+</details>
+
+
+<details><summary>mob_effect.txt</summary>
+
+```diff
++ minecraft:big
++ minecraft:small
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:footstep
+```
+
+</details>
+
+
+<details><summary>potion.txt</summary>
+
+```diff
++ minecraft:big
++ minecraft:long_big
++ minecraft:long_small
++ minecraft:small
++ minecraft:strong_big
++ minecraft:strong_small
+```
+
+</details>
+
+
+<details><summary>recipe_serializer.txt</summary>
+
+```diff
++ minecraft:crafting_special_dupehack
++ minecraft:nbt_crafting_recipe
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:the_joke
+```
+
+</details>
+
+
+<details><summary>worldgen/biome_source.txt</summary>
+
+```diff
++ minecraft:the_moon
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:crater
++ minecraft:lunar_base
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>List</summary>
+
+```diff
++ transform.txt
++ vote.txt
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ banner_pattern/pattern_item/m.json
++ blocks/cordycep_block.json
++ items/copper.json
++ items/heavy.json
+```
+
+</details>
+
+
+<details><summary>blocks/mineable/pickaxe.json</summary>
+
+```diff
++ minecraft:pickaxe_block
++ minecraft:place_block
+```
+
+</details>
+
+
+<details><summary>blocks/sculk_replaceable.json</summary>
+
+```diff
++ minecraft:cheese
+```
+
+</details>
+
+
+<details><summary>damage_type/bypasses_armor.json</summary>
+
+```diff
++ minecraft:on_moon
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ action.approve
++ action.repeal
++ advancements.adventure.vote_1.description
++ advancements.adventure.vote_1.title
++ advancements.adventure.vote_256.description
++ advancements.adventure.vote_256.title
++ attribute.name.generic.scale
++ block.minecraft.banner.m.black
++ block.minecraft.banner.m.blue
++ block.minecraft.banner.m.brown
++ block.minecraft.banner.m.cyan
++ block.minecraft.banner.m.gray
++ block.minecraft.banner.m.green
++ block.minecraft.banner.m.light_blue
++ block.minecraft.banner.m.light_gray
++ block.minecraft.banner.m.lime
++ block.minecraft.banner.m.magenta
++ block.minecraft.banner.m.orange
++ block.minecraft.banner.m.pink
++ block.minecraft.banner.m.purple
++ block.minecraft.banner.m.red
++ block.minecraft.banner.m.white
++ block.minecraft.banner.m.yellow
++ block.minecraft.bed.no_sleep_v2
++ block.minecraft.cheese
++ block.minecraft.chest.lab
++ block.minecraft.chest.moon
++ block.minecraft.copper_sink
++ block.minecraft.copper_spleaves
++ block.minecraft.dropper.lunar
++ block.minecraft.filled_copper_sink
++ block.minecraft.other_portal
++ block.minecraft.packed_air
++ block.minecraft.pickaxe_block
++ block.minecraft.place_block
++ death.attack.onMoon
++ death.midas.turned_into_gold
++ effect.minecraft.big
++ effect.minecraft.small
++ entity.minecraft.moon_cow
++ entity.minecraft.ray_tracing
++ entity.minecraft.stencil_display
++ gui.pending_votes.title
++ gui.voting.do_it
++ gui.voting.next
++ gui.voting.prev
++ gui.voting.title
++ item.minecraft.air_block
++ item.minecraft.bit
++ item.minecraft.bottle_of_entity
++ item.minecraft.bottle_of_entity.specific
++ item.minecraft.bottle_of_void
++ item.minecraft.byte_tag
++ item.minecraft.compound_tag
++ item.minecraft.double_tag
++ item.minecraft.dupe_hack
++ item.minecraft.float_tag
++ item.minecraft.glass_bottle_air
++ item.minecraft.int_tag
++ item.minecraft.la_baguette
++ item.minecraft.le_tricolore
++ item.minecraft.left_curly
++ item.minecraft.left_square
++ item.minecraft.lingering_potion.effect.big
++ item.minecraft.lingering_potion.effect.small
++ item.minecraft.list_tag
++ item.minecraft.long_tag
++ item.minecraft.m_banner_pattern
++ item.minecraft.m_banner_pattern.desc
++ item.minecraft.moon_cow_spawn_egg
++ item.minecraft.name
++ item.minecraft.potion.effect.big
++ item.minecraft.potion.effect.small
++ item.minecraft.right_curly
++ item.minecraft.right_square
++ item.minecraft.ruby
++ item.minecraft.short_tag
++ item.minecraft.splash_bottle_of_entity
++ item.minecraft.splash_bottle_of_entity.specific
++ item.minecraft.splash_potion.effect.big
++ item.minecraft.splash_potion.effect.small
++ item.minecraft.string_tag
++ item.minecraft.string2
++ item.minecraft.syntax_error
++ item.minecraft.tag
++ item.minecraft.tipped_arrow.effect.big
++ item.minecraft.tipped_arrow.effect.small
++ key.voting
++ rule.ai_attack
++ rule.ai_attack.decorate
++ rule.air_blocks
++ rule.always_flying
++ rule.anonymize_skins
++ rule.attack_knockback
++ rule.autoJump.also_default_vanilla_to_true
++ rule.autoJump.of_course
++ rule.autojump.off
++ rule.autoJump.on
++ rule.autoJump.true
++ rule.autoJump.yes
++ rule.bed_pvp
++ rule.bed_pvp.tooltip
++ rule.bedrock_shadows
++ rule.beds_on_banners
++ rule.beeloons
++ rule.beta_entity_ids
++ rule.big_heads
++ rule.biome_color.fog
++ rule.biome_color.foliage
++ rule.biome_color.grass
++ rule.biome_color.sky
++ rule.biome_color.water
++ rule.biome_color.water_fog
++ rule.boat_collisions.break
++ rule.boat_collisions.explode
++ rule.boat_collisions.none
++ rule.bouncy_castle
++ rule.buff_fishing
++ rule.buttons_on_things
++ rule.caep.awesom
++ rule.caep.no_circle
++ rule.caep.nyan
++ rule.caep.squid
++ rule.caep.veterinarian
++ rule.change_integer_gamerule
++ rule.change_world_shape
++ rule.charged_creepers
++ rule.codepoint_replace
++ rule.colored_light
++ rule.connector
++ rule.copper_sink
++ rule.copy_skin
++ rule.damage_modifier
++ rule.day_beds
++ rule.day_length.change
++ rule.day_length.set
++ rule.dead_bush_renewability
++ rule.decrease_scale
++ rule.default_sheep_color
++ rule.dinnerbonize
++ rule.disable_item_tooltips
++ rule.disable_shield
++ rule.dream_mode
++ rule.drink_air
++ rule.dupe_hack_break_chance
++ rule.dupe_hack_occurrence_chance
++ rule.egg_free.item
++ rule.egg_free.seed
++ rule.egg_free.seed_reshuffle
++ rule.endermen_block_update
++ rule.endermen_pick_up_anything
++ rule.entity_collisions
++ rule.evil_eye
++ rule.exploding_phantoms
++ rule.explosion_power.change
++ rule.explosion_power.set
++ rule.fast_hoppers
++ rule.fire_sponge
++ rule.fish_anything
++ rule.fix_piston
++ rule.fix_qc
++ rule.flailing.extreme
++ rule.flailing.mild
++ rule.flailing.none
++ rule.flailing.normal
++ rule.flailing.wild
++ rule.flailing.windmill
++ rule.flammability.high
++ rule.flammability.low
++ rule.flammability.medium
++ rule.flammability.very_high
++ rule.flintsploder
++ rule.flip_binary_gamerule
++ rule.floating_heads
++ rule.fog_off
++ rule.food_restriction.any
++ rule.food_restriction.apple
++ rule.food_restriction.baked_potato
++ rule.food_restriction.beef
++ rule.food_restriction.beetroot
++ rule.food_restriction.beetroot_soup
++ rule.food_restriction.bread
++ rule.food_restriction.cake
++ rule.food_restriction.carrot
++ rule.food_restriction.chicken
++ rule.food_restriction.chorus_fruit
++ rule.food_restriction.cod
++ rule.food_restriction.cooked_beef
++ rule.food_restriction.cooked_chicken
++ rule.food_restriction.cooked_cod
++ rule.food_restriction.cooked_mutton
++ rule.food_restriction.cooked_porkchop
++ rule.food_restriction.cooked_rabbit
++ rule.food_restriction.cooked_salmon
++ rule.food_restriction.cookie
++ rule.food_restriction.dried_kelp
++ rule.food_restriction.edible
++ rule.food_restriction.enchanted_golden_apple
++ rule.food_restriction.glow_berries
++ rule.food_restriction.golden_apple
++ rule.food_restriction.golden_carrot
++ rule.food_restriction.honey_bottle
++ rule.food_restriction.inedible.apple
++ rule.food_restriction.inedible.baked_potato
++ rule.food_restriction.inedible.beef
++ rule.food_restriction.inedible.beetroot
++ rule.food_restriction.inedible.beetroot_soup
++ rule.food_restriction.inedible.bread
++ rule.food_restriction.inedible.cake
++ rule.food_restriction.inedible.carrot
++ rule.food_restriction.inedible.chicken
++ rule.food_restriction.inedible.chorus_fruit
++ rule.food_restriction.inedible.cod
++ rule.food_restriction.inedible.cooked_beef
++ rule.food_restriction.inedible.cooked_chicken
++ rule.food_restriction.inedible.cooked_cod
++ rule.food_restriction.inedible.cooked_mutton
++ rule.food_restriction.inedible.cooked_porkchop
++ rule.food_restriction.inedible.cooked_rabbit
++ rule.food_restriction.inedible.cooked_salmon
++ rule.food_restriction.inedible.cookie
++ rule.food_restriction.inedible.dried_kelp
++ rule.food_restriction.inedible.enchanted_golden_apple
++ rule.food_restriction.inedible.glow_berries
++ rule.food_restriction.inedible.golden_apple
++ rule.food_restriction.inedible.golden_carrot
++ rule.food_restriction.inedible.honey_bottle
++ rule.food_restriction.inedible.melon_slice
++ rule.food_restriction.inedible.mushroom_stew
++ rule.food_restriction.inedible.mutton
++ rule.food_restriction.inedible.poisonous_potato
++ rule.food_restriction.inedible.porkchop
++ rule.food_restriction.inedible.potato
++ rule.food_restriction.inedible.pufferfish
++ rule.food_restriction.inedible.pumpkin_pie
++ rule.food_restriction.inedible.rabbit
++ rule.food_restriction.inedible.rabbit_stew
++ rule.food_restriction.inedible.rotten_flesh
++ rule.food_restriction.inedible.salmon
++ rule.food_restriction.inedible.spider_eye
++ rule.food_restriction.inedible.suspicious_stew
++ rule.food_restriction.inedible.sweet_berries
++ rule.food_restriction.inedible.tropical_fish
++ rule.food_restriction.maybe_edible
++ rule.food_restriction.melon_slice
++ rule.food_restriction.mushroom_stew
++ rule.food_restriction.mutton
++ rule.food_restriction.poisonous_potato
++ rule.food_restriction.porkchop
++ rule.food_restriction.potato
++ rule.food_restriction.pufferfish
++ rule.food_restriction.pumpkin_pie
++ rule.food_restriction.rabbit
++ rule.food_restriction.rabbit_stew
++ rule.food_restriction.rotten_flesh
++ rule.food_restriction.salmon
++ rule.food_restriction.spider_eye
++ rule.food_restriction.suspicious_stew
++ rule.food_restriction.sweet_berries
++ rule.food_restriction.tropical_fish
++ rule.footprint
++ rule.footprint.0
++ rule.footprint.1
++ rule.footprint.10
++ rule.footprint.11
++ rule.footprint.2
++ rule.footprint.3
++ rule.footprint.4
++ rule.footprint.5
++ rule.footprint.6
++ rule.footprint.7
++ rule.footprint.8
++ rule.footprint.9
++ rule.french_mode
++ rule.give_effect
++ rule.give_items
++ rule.global_pitch
++ rule.glow_bees
++ rule.glowing_glow_squids
++ rule.god_of_lightning
++ rule.grappling_fishing_rods
++ rule.grummize
++ rule.haunted_world
++ rule.increase_scale
++ rule.infinite_cakes
++ rule.instacheese
++ rule.invisible_armor
++ rule.item_despawn_time.change
++ rule.item_despawn_time.set
++ rule.item_despawn.despawn_all
++ rule.item_despawn.despawn_none
++ rule.item_despawn.keep_player_drops
++ rule.item_use_speed
++ rule.item.disabled
++ rule.keep_friends_close
++ rule.lava_blue_ice_replace
++ rule.lava_spread_tick_delay
++ rule.lava_water_replace
++ rule.less_gravity
++ rule.less_interaction_updates
++ rule.loot_double_or_half
++ rule.mbe
++ rule.midas_touch
++ rule.milk_every_mob
++ rule.minecart_collisions.break
++ rule.minecart_collisions.explode
++ rule.minecart_collisions.none
++ rule.minecart_lies
++ rule.mini_players
++ rule.moon.0
++ rule.moon.1
++ rule.moon.2
++ rule.moon.3
++ rule.morrowind_power_player_movement
++ rule.name_visibility.none
++ rule.name_visibility.normal
++ rule.name_visibility.see_through
++ rule.natural_spawn_disable
++ rule.natural_spawn_replace
++ rule.nbt_crafting
++ rule.new_vote_approve_option_count
++ rule.new_vote_chance_per_tick
++ rule.new_vote_cost
++ rule.new_vote_disable_opt_out
++ rule.new_vote_duration_minutes
++ rule.new_vote_extra_effect_chance
++ rule.new_vote_extra_effect_max_count
++ rule.new_vote_max_approve_vote_count
++ rule.new_vote_max_repeal_vote_count
++ rule.new_vote_repeal_option_count
++ rule.new_vote_repeal_vote_chance
++ rule.normal_name_visibility
++ rule.nothing
++ rule.obfuscate_player_names
++ rule.only_mending_trades
++ rule.optimize_light_engine.always_light
++ rule.optimize_light_engine.loadshedding
++ rule.optimize_light_engine.never_light
++ rule.optimize_light_engine.none
++ rule.optimize.change
++ rule.optimize.set
++ rule.other_portal
++ rule.other_portal.oops
++ rule.parent_trap
++ rule.payment.item
++ rule.payment.seed
++ rule.payment.seed_reshuffle
++ rule.persistent_parrots
++ rule.phantom_phantom
++ rule.pickaxe_block
++ rule.place_block
++ rule.player_head_drop
++ rule.pot_gems
++ rule.potions_of_big
++ rule.potions_of_small
++ rule.president
++ rule.president.tag
++ rule.prevent_floating_trees
++ rule.proposal
++ rule.push_limit
++ rule.quorum_percent
++ rule.random_tnt_fuse
++ rule.ray_tracing
++ rule.recipe_double_or_half
++ rule.recipe_flip.both
++ rule.recipe_flip.flipped_only
++ rule.recipe_flip.normal_only
++ rule.recipe.minecraft.diamond_drows
++ rule.recipe.minecraft.m_banner_pattern
++ rule.recipe.minecraft.string_concatenation
++ rule.recipe.minecraft.wob
++ rule.remove_phantoms
++ rule.replace_block_model
++ rule.replace_item_model
++ rule.replace_items
++ rule.replace_loot_drop
++ rule.replace_recipe_output
++ rule.replace_sound
++ rule.reset_entity_transform
++ rule.reset_scale
++ rule.reset_skin
++ rule.rideable_entities
++ rule.rowing_up_that_hill
++ rule.rubies
++ rule.silent_vote
++ rule.sneaking_name_visibility
++ rule.snitch
++ rule.snitch.msg
++ rule.spawn_egg_chance
++ rule.stack_size_double_or_half
++ rule.sticky
++ rule.swap_skies
++ rule.text_style.aqua
++ rule.text_style.black
++ rule.text_style.blank
++ rule.text_style.blue
++ rule.text_style.bold
++ rule.text_style.dark_aqua
++ rule.text_style.dark_blue
++ rule.text_style.dark_gray
++ rule.text_style.dark_green
++ rule.text_style.dark_purple
++ rule.text_style.dark_red
++ rule.text_style.gold
++ rule.text_style.gray
++ rule.text_style.green
++ rule.text_style.hide
++ rule.text_style.illager
++ rule.text_style.italic
++ rule.text_style.light_purple
++ rule.text_style.obfuscated
++ rule.text_style.red
++ rule.text_style.sga
++ rule.text_style.strikethrough
++ rule.text_style.thin
++ rule.text_style.underline
++ rule.text_style.white
++ rule.text_style.yellow
++ rule.the_joke
++ rule.tie_strategy.fail
++ rule.tie_strategy.pick_all
++ rule.tie_strategy.pick_high
++ rule.tie_strategy.pick_low
++ rule.tie_strategy.pick_none
++ rule.tie_strategy.pick_random
++ rule.tnt_tennis
++ rule.trails_and_tails
++ rule.transform_entity
++ rule.transparent_players
++ rule.ultra_realistic_mode
++ rule.uncontrolable_lave
++ rule.undead_players
++ rule.universal_jeb
++ rule.unstable_tnt
++ rule.vote_max_results
++ rule.vote_result_pass_without_voters
++ rule.vote_result_pass_without_votes
++ rule.vote_result_pick_random_if_vote_fails
++ rule.vote_result_reverse_counts
++ rule.vote_result_show_options
++ rule.vote_result_show_voters
++ rule.votes_to_win_percent
++ rule.voting_fireworks
++ rule.weather.rain.always
++ rule.weather.rain.default
++ rule.weather.rain.never
++ rule.weather.thunder.always
++ rule.weather.thunder.default
++ rule.weather.thunder.never
++ rule.wheels_on_minecarts
++ rule.world_of_giants
++ rule.zombie_apocalypse
++ selectWorld.edit.resetVotes
++ selectWorld.edit.resetVotes.msg
++ stat.minecraft.votes
++ tooltip.more_like_cooltip
++ tooltip.too_long
++ vote.cost
++ vote.cost_diplay
++ vote.cost.health
++ vote.cost.xp
++ vote.count_per_option.description
++ vote.count_per_option.limit
++ vote.count_per_option.no_limit
++ vote.count_per_proposal.description
++ vote.count_per_proposal.limit
++ vote.count_per_proposal.no_limit
++ vote.current_rules
++ vote.failed
++ vote.finished
++ vote.no_change
++ vote.no_more_votes
++ vote.no_option
++ vote.no_option.random
++ vote.no_resources
++ vote.option_count
++ vote.option_display
++ vote.option_no_count
++ vote.option_vote_title
++ vote.option_won
++ vote.option_won.no_effect
++ vote.quorum.not_reached
++ vote.quorum.passed
++ vote.show_current_rules
++ vote.started
++ vote.tie
++ vote.total_count
++ vote.vote_count.minimum
++ vote.voted
++ vote.voter
++ vote.voters
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/vote_1.json
++ adventure/vote_256.json
++ recipes/brewing/copper_sink.json
++ recipes/building_blocks/air_block.json
++ recipes/building_blocks/packed_air.json
++ recipes/combat/diamond_drows.json
++ recipes/combat/wob.json
++ recipes/misc/m_banner_pattern.json
++ recipes/misc/string_concatenation.json
++ recipes/redstone/bit_from_name_stonecutting.json
++ recipes/redstone/bit_from_tag_stonecutting.json
++ recipes/redstone/left_curly.json
++ recipes/redstone/left_square.json
++ recipes/redstone/name_from_name_tag_stonecutting.json
++ recipes/redstone/pickaxe_block.json
++ recipes/redstone/place_block.json
++ recipes/redstone/right_curly.json
++ recipes/redstone/right_square.json
++ recipes/redstone/tag_from_name_tag_stonecutting.json
+```
+
+</details>
+
+
+<details><summary>damage_types.txt</summary>
+
+```diff
++ midas_curse.json
++ on_moon.json
+```
+
+</details>
+
+
+<details><summary>dimensions.txt</summary>
+
+```diff
++ minecraft:the_moon
+```
+
+</details>
+
+
+<details><summary>dimension_types.txt</summary>
+
+```diff
++ the_moon.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/cheese.json
++ blocks/copper_sink.json
++ blocks/copper_spleaves.json
++ blocks/filled_copper_sink.json
++ blocks/other_portal.json
++ blocks/pickaxe_block.json
++ blocks/place_block.json
++ chests/moon_lab.json
++ chests/moon_resuply.json
++ entities/moon_cow.json
++ entities/ray_tracing.json
++ gameplay/dream_piglin_bartering.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ footstep.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ air_block.json
++ bit_from_name_stonecutting.json
++ bit_from_tag_stonecutting.json
++ copper_sink.json
++ diamond_drows.json
++ dupe_hack.json
++ left_curly.json
++ left_square.json
++ m_banner_pattern.json
++ name_from_name_tag_stonecutting.json
++ nbt_crafting.json
++ packed_air.json
++ pickaxe_block.json
++ place_block.json
++ right_curly.json
++ right_square.json
++ string_concatenation.json
++ tag_from_name_tag_stonecutting.json
++ wob.json
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ banner_pattern/pattern_item/m.json
++ blocks/cordycep_block.json
++ items/copper.json
++ items/heavy.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/cheese.png
++ block/copper_sink_bottom.png
++ block/copper_sink_inner.png
++ block/copper_sink_side.png
++ block/copper_sink_top.png
++ block/copper_spleaves_broken.png
++ block/copper_spleaves.png
++ block/other_portal.png
++ block/packed_air_alt.png
++ block/packed_air.png
++ block/pickaxe_block_back.png
++ block/pickaxe_block_front.png
++ block/pickaxe_block_side.png
++ block/place_block_back.png
++ block/place_block_front.png
++ block/place_block_side.png
++ effect/crown.png
++ effect/mustache.png
++ entity/banner/m.png
++ entity/chest/gold.png
++ entity/cow/moon_cow.png
++ entity/player/caeps/awesom.png
++ entity/player/caeps/blonk.png
++ entity/player/caeps/no_circle.png
++ entity/player/caeps/nyan.png
++ entity/player/caeps/squid.png
++ entity/player/caeps/veterinarian.png
++ entity/player/tails/alex.png
++ entity/player/tails/ari.png
++ entity/player/tails/black_fox.png
++ entity/player/tails/brown_bear.png
++ entity/player/tails/earthern.png
++ entity/player/tails/efe.png
++ entity/player/tails/fire_fox.png
++ entity/player/tails/kai.png
++ entity/player/tails/makena.png
++ entity/player/tails/noor.png
++ entity/player/tails/red_fox.png
++ entity/player/tails/snow_fox.png
++ entity/player/tails/steve.png
++ entity/player/tails/striped.png
++ entity/player/tails/sunny.png
++ entity/player/tails/zuri.png
++ entity/player/wide/ray.png
++ entity/shield/m.png
++ environment/earth_1.png
++ environment/earth_a.png
++ environment/earth_prime.png
++ environment/earth.png
++ font/checkmark.png
++ gui/tvpi.png
++ gui/votes.png
++ gui/voting.png
++ item/air_block.png
++ item/bit.png
++ item/bottle_of_entity.png
++ item/bottle_of_void.png
++ item/byte_tag.png
++ item/compound_tag.png
++ item/double_tag.png
++ item/end_tag.png
++ item/float_tag.png
++ item/int_tag.png
++ item/la_baguette.png
++ item/le_tricolore.png
++ item/left_curly.png
++ item/left_square.png
++ item/list_tag.png
++ item/long_tag.png
++ item/m_banner_pattern.png
++ item/name.png
++ item/right_curly.png
++ item/right_square.png
++ item/ruby.png
++ item/short_tag.png
++ item/skis.png
++ item/splash_bottle_of_entity.png
++ item/string_tag.png
++ item/string2.png
++ item/syntax_error.png
++ item/tag.png
++ misc/enchanted_glint_gold.png
++ mob_effect/big.png
++ mob_effect/small.png
++ models/armor/beret.png
++ particle/footprint.png
+```
+
+</details>
+
+
+<details><summary>worldgen/biome.txt</summary>
+
+```diff
++ the_moon.json
+```
+
+</details>
+
+
+<details><summary>worldgen/configured_feature.txt</summary>
+
+```diff
++ large_crater.json
++ lunar_base.json
++ mega_crater.json
++ small_crater.json
+```
+
+</details>
+
+
+<details><summary>worldgen/noise_settings.txt</summary>
+
+```diff
++ moon.json
+```
+
+</details>
+
+
+<details><summary>worldgen/placed_feature.txt</summary>
+
+```diff
++ crater_large.json
++ crater_mega.json
++ crater_small.json
++ lunar_base.json
+```
+
+</details>

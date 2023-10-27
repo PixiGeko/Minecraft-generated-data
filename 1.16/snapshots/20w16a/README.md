@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 20w16a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>20w16a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2020-04-15T14:13:01+00:00</td></tr>
@@ -10,2146 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3295bd48a4fe95afa0755f0060c42611738896a0/server.txt">https://piston-data.mojang.com/v1/objects/3295bd48a4fe95afa0755f0060c42611738896a0/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/5edab2c289420b7201b8f780c2dc4669b77fcd1e/client.jar">https://piston-data.mojang.com/v1/objects/5edab2c289420b7201b8f780c2dc4669b77fcd1e/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/a1c59dc09cea2be5c4fdca30106d0e4ec1749652/client.txt">https://piston-data.mojang.com/v1/objects/a1c59dc09cea2be5c4fdca30106d0e4ec1749652/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/20w15a">20w15a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/recipes/decorations/chain.json
-+  minecraft/loot_tables/blocks/chain.json
-+  minecraft/loot_tables/chests/bastion_bridge.json
-+  minecraft/loot_tables/chests/bastion_hoglin_stable.json
-+  minecraft/loot_tables/chests/bastion_other.json
-+  minecraft/loot_tables/chests/bastion_treasure.json
-+  minecraft/loot_tables/chests/ruined_portal.json
-+  minecraft/recipes/chain.json
-+  minecraft/structures/bastion
-+  minecraft/structures/bastion/blocks
-+  minecraft/structures/bastion/blocks/air.nbt
-+  minecraft/structures/bastion/blocks/gold.nbt
-+  minecraft/structures/bastion/bridge
-+  minecraft/structures/bastion/bridge/bridge_pieces
-+  minecraft/structures/bastion/bridge/bridge_pieces/bridge.nbt
-+  minecraft/structures/bastion/bridge/connectors
-+  minecraft/structures/bastion/bridge/connectors/back_bridge_bottom.nbt
-+  minecraft/structures/bastion/bridge/connectors/back_bridge_top.nbt
-+  minecraft/structures/bastion/bridge/legs
-+  minecraft/structures/bastion/bridge/legs/leg_0.nbt
-+  minecraft/structures/bastion/bridge/legs/leg_1.nbt
-+  minecraft/structures/bastion/bridge/rampart_plates
-+  minecraft/structures/bastion/bridge/rampart_plates/plate_0.nbt
-+  minecraft/structures/bastion/bridge/ramparts
-+  minecraft/structures/bastion/bridge/ramparts/rampart_0.nbt
-+  minecraft/structures/bastion/bridge/ramparts/rampart_1.nbt
-+  minecraft/structures/bastion/bridge/starting_pieces
-+  minecraft/structures/bastion/bridge/starting_pieces/entrance.nbt
-+  minecraft/structures/bastion/bridge/starting_pieces/entrance_base.nbt
-+  minecraft/structures/bastion/bridge/starting_pieces/entrance_face.nbt
-+  minecraft/structures/bastion/bridge/walls
-+  minecraft/structures/bastion/bridge/walls/wall_base_0.nbt
-+  minecraft/structures/bastion/bridge/walls/wall_base_1.nbt
-+  minecraft/structures/bastion/hoglin_stable
-+  minecraft/structures/bastion/hoglin_stable/connectors
-+  minecraft/structures/bastion/hoglin_stable/connectors/end_post_connector.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables
-+  minecraft/structures/bastion/hoglin_stable/large_stables/inner_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/inner_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/inner_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/inner_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/inner_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/outer_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/outer_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/outer_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/outer_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/large_stables/outer_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/posts
-+  minecraft/structures/bastion/hoglin_stable/posts/end_post.nbt
-+  minecraft/structures/bastion/hoglin_stable/posts/stair_post.nbt
-+  minecraft/structures/bastion/hoglin_stable/rampart_plates
-+  minecraft/structures/bastion/hoglin_stable/rampart_plates/rampart_plate_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/ramparts
-+  minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables
-+  minecraft/structures/bastion/hoglin_stable/small_stables/inner_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/inner_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/inner_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/inner_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/outer_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/outer_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/outer_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/small_stables/outer_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_0_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_1_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_2_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_3_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_4_mirrored.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_2.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_3.nbt
-+  minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_4.nbt
-+  minecraft/structures/bastion/hoglin_stable/walls
-+  minecraft/structures/bastion/hoglin_stable/walls/side_wall_0.nbt
-+  minecraft/structures/bastion/hoglin_stable/walls/side_wall_1.nbt
-+  minecraft/structures/bastion/hoglin_stable/walls/wall_base.nbt
-+  minecraft/structures/bastion/hoglin_stable/air_base.nbt
-+  minecraft/structures/bastion/mobs
-+  minecraft/structures/bastion/mobs/crossbow_piglin.nbt
-+  minecraft/structures/bastion/mobs/empty.nbt
-+  minecraft/structures/bastion/mobs/hoglin.nbt
-+  minecraft/structures/bastion/mobs/melee_piglin.nbt
-+  minecraft/structures/bastion/mobs/melee_piglin_always.nbt
-+  minecraft/structures/bastion/mobs/sword_piglin.nbt
-+  minecraft/structures/bastion/treasure
-+  minecraft/structures/bastion/treasure/bases
-+  minecraft/structures/bastion/treasure/bases/centers
-+  minecraft/structures/bastion/treasure/bases/centers/center_0.nbt
-+  minecraft/structures/bastion/treasure/bases/centers/center_1.nbt
-+  minecraft/structures/bastion/treasure/bases/centers/center_2.nbt
-+  minecraft/structures/bastion/treasure/bases/centers/center_3.nbt
-+  minecraft/structures/bastion/treasure/bases/lava_basin.nbt
-+  minecraft/structures/bastion/treasure/brains
-+  minecraft/structures/bastion/treasure/brains/center_brain.nbt
-+  minecraft/structures/bastion/treasure/connectors
-+  minecraft/structures/bastion/treasure/connectors/center_to_wall_middle.nbt
-+  minecraft/structures/bastion/treasure/connectors/center_to_wall_top.nbt
-+  minecraft/structures/bastion/treasure/connectors/center_to_wall_top_entrance.nbt
-+  minecraft/structures/bastion/treasure/corners
-+  minecraft/structures/bastion/treasure/corners/bottom
-+  minecraft/structures/bastion/treasure/corners/bottom/corner_0.nbt
-+  minecraft/structures/bastion/treasure/corners/bottom/corner_1.nbt
-+  minecraft/structures/bastion/treasure/corners/edges
-+  minecraft/structures/bastion/treasure/corners/edges/bottom.nbt
-+  minecraft/structures/bastion/treasure/corners/edges/middle.nbt
-+  minecraft/structures/bastion/treasure/corners/edges/top.nbt
-+  minecraft/structures/bastion/treasure/corners/middle
-+  minecraft/structures/bastion/treasure/corners/middle/corner_0.nbt
-+  minecraft/structures/bastion/treasure/corners/middle/corner_1.nbt
-+  minecraft/structures/bastion/treasure/corners/top
-+  minecraft/structures/bastion/treasure/corners/top/corner_0.nbt
-+  minecraft/structures/bastion/treasure/corners/top/corner_1.nbt
-+  minecraft/structures/bastion/treasure/entrances
-+  minecraft/structures/bastion/treasure/entrances/entrance_0.nbt
-+  minecraft/structures/bastion/treasure/extensions
-+  minecraft/structures/bastion/treasure/extensions/empty.nbt
-+  minecraft/structures/bastion/treasure/extensions/fire_room.nbt
-+  minecraft/structures/bastion/treasure/extensions/house_0.nbt
-+  minecraft/structures/bastion/treasure/extensions/house_1.nbt
-+  minecraft/structures/bastion/treasure/extensions/large_bridge_0.nbt
-+  minecraft/structures/bastion/treasure/extensions/large_bridge_1.nbt
-+  minecraft/structures/bastion/treasure/extensions/large_bridge_2.nbt
-+  minecraft/structures/bastion/treasure/extensions/large_bridge_3.nbt
-+  minecraft/structures/bastion/treasure/extensions/roofed_bridge.nbt
-+  minecraft/structures/bastion/treasure/extensions/small_bridge_0.nbt
-+  minecraft/structures/bastion/treasure/extensions/small_bridge_1.nbt
-+  minecraft/structures/bastion/treasure/extensions/small_bridge_2.nbt
-+  minecraft/structures/bastion/treasure/extensions/small_bridge_3.nbt
-+  minecraft/structures/bastion/treasure/ramparts
-+  minecraft/structures/bastion/treasure/ramparts/bottom_wall_0.nbt
-+  minecraft/structures/bastion/treasure/ramparts/lava_basin_main.nbt
-+  minecraft/structures/bastion/treasure/ramparts/lava_basin_side.nbt
-+  minecraft/structures/bastion/treasure/ramparts/mid_wall_main.nbt
-+  minecraft/structures/bastion/treasure/ramparts/mid_wall_side.nbt
-+  minecraft/structures/bastion/treasure/ramparts/top_wall.nbt
-+  minecraft/structures/bastion/treasure/roofs
-+  minecraft/structures/bastion/treasure/roofs/center_roof.nbt
-+  minecraft/structures/bastion/treasure/roofs/corner_roof.nbt
-+  minecraft/structures/bastion/treasure/roofs/wall_roof.nbt
-+  minecraft/structures/bastion/treasure/stairs
-+  minecraft/structures/bastion/treasure/stairs/lower_stairs.nbt
-+  minecraft/structures/bastion/treasure/walls
-+  minecraft/structures/bastion/treasure/walls/bottom
-+  minecraft/structures/bastion/treasure/walls/bottom/wall_0.nbt
-+  minecraft/structures/bastion/treasure/walls/bottom/wall_1.nbt
-+  minecraft/structures/bastion/treasure/walls/bottom/wall_2.nbt
-+  minecraft/structures/bastion/treasure/walls/bottom/wall_3.nbt
-+  minecraft/structures/bastion/treasure/walls/mid
-+  minecraft/structures/bastion/treasure/walls/mid/wall_0.nbt
-+  minecraft/structures/bastion/treasure/walls/mid/wall_1.nbt
-+  minecraft/structures/bastion/treasure/walls/mid/wall_2.nbt
-+  minecraft/structures/bastion/treasure/walls/outer
-+  minecraft/structures/bastion/treasure/walls/outer/bottom_corner.nbt
-+  minecraft/structures/bastion/treasure/walls/outer/medium_outer_wall.nbt
-+  minecraft/structures/bastion/treasure/walls/outer/mid_corner.nbt
-+  minecraft/structures/bastion/treasure/walls/outer/outer_wall.nbt
-+  minecraft/structures/bastion/treasure/walls/outer/tall_outer_wall.nbt
-+  minecraft/structures/bastion/treasure/walls/outer/top_corner.nbt
-+  minecraft/structures/bastion/treasure/walls/top
-+  minecraft/structures/bastion/treasure/walls/top/main_entrance.nbt
-+  minecraft/structures/bastion/treasure/walls/top/wall_0.nbt
-+  minecraft/structures/bastion/treasure/walls/top/wall_1.nbt
-+  minecraft/structures/bastion/treasure/walls/entrance_wall.nbt
-+  minecraft/structures/bastion/treasure/walls/lava_wall.nbt
-+  minecraft/structures/bastion/treasure/big_air_full.nbt
-+  minecraft/structures/bastion/units
-+  minecraft/structures/bastion/units/center_pieces
-+  minecraft/structures/bastion/units/center_pieces/center_0.nbt
-+  minecraft/structures/bastion/units/center_pieces/center_1.nbt
-+  minecraft/structures/bastion/units/center_pieces/center_2.nbt
-+  minecraft/structures/bastion/units/edges
-+  minecraft/structures/bastion/units/edges/edge_0.nbt
-+  minecraft/structures/bastion/units/fillers
-+  minecraft/structures/bastion/units/fillers/stage_0.nbt
-+  minecraft/structures/bastion/units/pathways
-+  minecraft/structures/bastion/units/pathways/pathway_0.nbt
-+  minecraft/structures/bastion/units/pathways/pathway_wall_0.nbt
-+  minecraft/structures/bastion/units/rampart_plates
-+  minecraft/structures/bastion/units/rampart_plates/plate_0.nbt
-+  minecraft/structures/bastion/units/ramparts
-+  minecraft/structures/bastion/units/ramparts/ramparts_0.nbt
-+  minecraft/structures/bastion/units/ramparts/ramparts_1.nbt
-+  minecraft/structures/bastion/units/ramparts/ramparts_2.nbt
-+  minecraft/structures/bastion/units/stages
-+  minecraft/structures/bastion/units/stages/rot
-+  minecraft/structures/bastion/units/stages/rot/stage_1_0.nbt
-+  minecraft/structures/bastion/units/stages/stage_0_0.nbt
-+  minecraft/structures/bastion/units/stages/stage_0_1.nbt
-+  minecraft/structures/bastion/units/stages/stage_0_2.nbt
-+  minecraft/structures/bastion/units/stages/stage_0_3.nbt
-+  minecraft/structures/bastion/units/stages/stage_1_0.nbt
-+  minecraft/structures/bastion/units/stages/stage_1_1.nbt
-+  minecraft/structures/bastion/units/stages/stage_1_2.nbt
-+  minecraft/structures/bastion/units/stages/stage_1_3.nbt
-+  minecraft/structures/bastion/units/stages/stage_2_0.nbt
-+  minecraft/structures/bastion/units/stages/stage_2_1.nbt
-+  minecraft/structures/bastion/units/stages/stage_3_0.nbt
-+  minecraft/structures/bastion/units/stages/stage_3_1.nbt
-+  minecraft/structures/bastion/units/stages/stage_3_2.nbt
-+  minecraft/structures/bastion/units/stages/stage_3_3.nbt
-+  minecraft/structures/bastion/units/wall_units
-+  minecraft/structures/bastion/units/wall_units/edge_0_large.nbt
-+  minecraft/structures/bastion/units/wall_units/unit_0.nbt
-+  minecraft/structures/bastion/units/walls
-+  minecraft/structures/bastion/units/walls/connected_wall.nbt
-+  minecraft/structures/bastion/units/walls/wall_base.nbt
-+  minecraft/structures/bastion/units/air_base.nbt
-+  minecraft/structures/ruined_portal
-+  minecraft/structures/ruined_portal/giant_portal_1.nbt
-+  minecraft/structures/ruined_portal/giant_portal_2.nbt
-+  minecraft/structures/ruined_portal/giant_portal_3.nbt
-+  minecraft/structures/ruined_portal/portal_1.nbt
-+  minecraft/structures/ruined_portal/portal_10.nbt
-+  minecraft/structures/ruined_portal/portal_2.nbt
-+  minecraft/structures/ruined_portal/portal_3.nbt
-+  minecraft/structures/ruined_portal/portal_4.nbt
-+  minecraft/structures/ruined_portal/portal_5.nbt
-+  minecraft/structures/ruined_portal/portal_6.nbt
-+  minecraft/structures/ruined_portal/portal_7.nbt
-+  minecraft/structures/ruined_portal/portal_8.nbt
-+  minecraft/structures/ruined_portal/portal_9.nbt
-+  minecraft/tags/items/creeper_drop_music_discs.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/chain.json
-+  minecraft/models/block/chain.json
-+  minecraft/models/item/chain.json
-+  minecraft/models/item/music_disc_pigstep.json
-+  minecraft/textures/block/chain.png
-+  minecraft/textures/item/chain.png
-+  minecraft/textures/item/music_disc_pigstep.png
-```
 
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:chain
-```
-
-</details>
-
-<details><summary>feature.txt</summary>
-
-```diff
-+ minecraft:ruined_portal
-+ minecraft:bastion_remnant
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:chain
-+ minecraft:music_disc_pigstep
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:music_disc.pigstep
-```
-
-</details>
-
-<details><summary>structure_feature.txt</summary>
-
-```diff
-+ minecraft:ruined_portal
-+ minecraft:bastion_remnant
-```
-
-</details>
-
-<details><summary>structure_piece.txt</summary>
-
-```diff
-+ minecraft:rupo
-+ minecraft:bastionremnant
-+ minecraft:runtime
-```
-
-</details>
-
-<details><summary>structure_pool_element.txt</summary>
-
-```diff
-+ minecraft:legacy_single_pool_element
-```
-
-</details>
-
-<details><summary>structure_processor.txt</summary>
-
-```diff
-+ minecraft:block_age
-+ minecraft:blackstone_replace
-```
-
-</details>
-
-## Commands
-
-<details><summary>locate.txt</summary>
-
-```diff
-+ locate Bastion_Remnant
-+ locate Ruined_Portal
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-+ items/creeper_drop_music_discs.json
-```
-
-</details>
-
-<details><summary>items/music_discs.json</summary>
-
-```diff
-- minecraft:music_disc_13
-- minecraft:music_disc_cat
-- minecraft:music_disc_blocks
-- minecraft:music_disc_chirp
-- minecraft:music_disc_far
-- minecraft:music_disc_mall
-- minecraft:music_disc_mellohi
-- minecraft:music_disc_stal
-- minecraft:music_disc_strad
-- minecraft:music_disc_ward
-- minecraft:music_disc_11
-- minecraft:music_disc_wait
-+ #minecraft:creeper_drop_music_discs
-+ minecraft:music_disc_pigstep
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ recipes/decorations/chain.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/chain.json
-+ chests/bastion_bridge.json
-+ chests/bastion_hoglin_stable.json
-+ chests/bastion_other.json
-+ chests/bastion_treasure.json
-+ chests/ruined_portal.json
-```
-
-</details>
-
-<details><summary>recipes.txt</summary>
-
-```diff
-+ chain.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-+ bastion/blocks/air.nbt
-+ bastion/blocks/gold.nbt
-+ bastion/bridge/bridge_pieces/bridge.nbt
-+ bastion/bridge/connectors/back_bridge_bottom.nbt
-+ bastion/bridge/connectors/back_bridge_top.nbt
-+ bastion/bridge/legs/leg_0.nbt
-+ bastion/bridge/legs/leg_1.nbt
-+ bastion/bridge/ramparts/rampart_0.nbt
-+ bastion/bridge/ramparts/rampart_1.nbt
-+ bastion/bridge/rampart_plates/plate_0.nbt
-+ bastion/bridge/starting_pieces/entrance.nbt
-+ bastion/bridge/starting_pieces/entrance_base.nbt
-+ bastion/bridge/starting_pieces/entrance_face.nbt
-+ bastion/bridge/walls/wall_base_0.nbt
-+ bastion/bridge/walls/wall_base_1.nbt
-+ bastion/hoglin_stable/air_base.nbt
-+ bastion/hoglin_stable/connectors/end_post_connector.nbt
-+ bastion/hoglin_stable/large_stables/inner_0.nbt
-+ bastion/hoglin_stable/large_stables/inner_1.nbt
-+ bastion/hoglin_stable/large_stables/inner_2.nbt
-+ bastion/hoglin_stable/large_stables/inner_3.nbt
-+ bastion/hoglin_stable/large_stables/inner_4.nbt
-+ bastion/hoglin_stable/large_stables/outer_0.nbt
-+ bastion/hoglin_stable/large_stables/outer_1.nbt
-+ bastion/hoglin_stable/large_stables/outer_2.nbt
-+ bastion/hoglin_stable/large_stables/outer_3.nbt
-+ bastion/hoglin_stable/large_stables/outer_4.nbt
-+ bastion/hoglin_stable/posts/end_post.nbt
-+ bastion/hoglin_stable/posts/stair_post.nbt
-+ bastion/hoglin_stable/ramparts/ramparts_1.nbt
-+ bastion/hoglin_stable/ramparts/ramparts_2.nbt
-+ bastion/hoglin_stable/ramparts/ramparts_3.nbt
-+ bastion/hoglin_stable/rampart_plates/rampart_plate_1.nbt
-+ bastion/hoglin_stable/small_stables/inner_0.nbt
-+ bastion/hoglin_stable/small_stables/inner_1.nbt
-+ bastion/hoglin_stable/small_stables/inner_2.nbt
-+ bastion/hoglin_stable/small_stables/inner_3.nbt
-+ bastion/hoglin_stable/small_stables/outer_0.nbt
-+ bastion/hoglin_stable/small_stables/outer_1.nbt
-+ bastion/hoglin_stable/small_stables/outer_2.nbt
-+ bastion/hoglin_stable/small_stables/outer_3.nbt
-+ bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
-+ bastion/hoglin_stable/stairs/stairs_1_0.nbt
-+ bastion/hoglin_stable/stairs/stairs_1_1.nbt
-+ bastion/hoglin_stable/stairs/stairs_1_2.nbt
-+ bastion/hoglin_stable/stairs/stairs_1_3.nbt
-+ bastion/hoglin_stable/stairs/stairs_1_4.nbt
-+ bastion/hoglin_stable/stairs/stairs_2.nbt
-+ bastion/hoglin_stable/stairs/stairs_2_0.nbt
-+ bastion/hoglin_stable/stairs/stairs_2_1.nbt
-+ bastion/hoglin_stable/stairs/stairs_2_2.nbt
-+ bastion/hoglin_stable/stairs/stairs_2_3.nbt
-+ bastion/hoglin_stable/stairs/stairs_2_4.nbt
-+ bastion/hoglin_stable/stairs/stairs_3.nbt
-+ bastion/hoglin_stable/stairs/stairs_3_0.nbt
-+ bastion/hoglin_stable/stairs/stairs_3_1.nbt
-+ bastion/hoglin_stable/stairs/stairs_3_2.nbt
-+ bastion/hoglin_stable/stairs/stairs_3_3.nbt
-+ bastion/hoglin_stable/stairs/stairs_3_4.nbt
-+ bastion/hoglin_stable/starting_pieces/stairs_0_mirrored.nbt
-+ bastion/hoglin_stable/starting_pieces/stairs_1_mirrored.nbt
-+ bastion/hoglin_stable/starting_pieces/stairs_2_mirrored.nbt
-+ bastion/hoglin_stable/starting_pieces/stairs_3_mirrored.nbt
-+ bastion/hoglin_stable/starting_pieces/stairs_4_mirrored.nbt
-+ bastion/hoglin_stable/starting_pieces/starting_stairs_0.nbt
-+ bastion/hoglin_stable/starting_pieces/starting_stairs_1.nbt
-+ bastion/hoglin_stable/starting_pieces/starting_stairs_2.nbt
-+ bastion/hoglin_stable/starting_pieces/starting_stairs_3.nbt
-+ bastion/hoglin_stable/starting_pieces/starting_stairs_4.nbt
-+ bastion/hoglin_stable/walls/side_wall_0.nbt
-+ bastion/hoglin_stable/walls/side_wall_1.nbt
-+ bastion/hoglin_stable/walls/wall_base.nbt
-+ bastion/mobs/crossbow_piglin.nbt
-+ bastion/mobs/empty.nbt
-+ bastion/mobs/hoglin.nbt
-+ bastion/mobs/melee_piglin.nbt
-+ bastion/mobs/melee_piglin_always.nbt
-+ bastion/mobs/sword_piglin.nbt
-+ bastion/treasure/bases/centers/center_0.nbt
-+ bastion/treasure/bases/centers/center_1.nbt
-+ bastion/treasure/bases/centers/center_2.nbt
-+ bastion/treasure/bases/centers/center_3.nbt
-+ bastion/treasure/bases/lava_basin.nbt
-+ bastion/treasure/big_air_full.nbt
-+ bastion/treasure/brains/center_brain.nbt
-+ bastion/treasure/connectors/center_to_wall_middle.nbt
-+ bastion/treasure/connectors/center_to_wall_top.nbt
-+ bastion/treasure/connectors/center_to_wall_top_entrance.nbt
-+ bastion/treasure/corners/bottom/corner_0.nbt
-+ bastion/treasure/corners/bottom/corner_1.nbt
-+ bastion/treasure/corners/edges/bottom.nbt
-+ bastion/treasure/corners/edges/middle.nbt
-+ bastion/treasure/corners/edges/top.nbt
-+ bastion/treasure/corners/middle/corner_0.nbt
-+ bastion/treasure/corners/middle/corner_1.nbt
-+ bastion/treasure/corners/top/corner_0.nbt
-+ bastion/treasure/corners/top/corner_1.nbt
-+ bastion/treasure/entrances/entrance_0.nbt
-+ bastion/treasure/extensions/empty.nbt
-+ bastion/treasure/extensions/fire_room.nbt
-+ bastion/treasure/extensions/house_0.nbt
-+ bastion/treasure/extensions/house_1.nbt
-+ bastion/treasure/extensions/large_bridge_0.nbt
-+ bastion/treasure/extensions/large_bridge_1.nbt
-+ bastion/treasure/extensions/large_bridge_2.nbt
-+ bastion/treasure/extensions/large_bridge_3.nbt
-+ bastion/treasure/extensions/roofed_bridge.nbt
-+ bastion/treasure/extensions/small_bridge_0.nbt
-+ bastion/treasure/extensions/small_bridge_1.nbt
-+ bastion/treasure/extensions/small_bridge_2.nbt
-+ bastion/treasure/extensions/small_bridge_3.nbt
-+ bastion/treasure/ramparts/bottom_wall_0.nbt
-+ bastion/treasure/ramparts/lava_basin_main.nbt
-+ bastion/treasure/ramparts/lava_basin_side.nbt
-+ bastion/treasure/ramparts/mid_wall_main.nbt
-+ bastion/treasure/ramparts/mid_wall_side.nbt
-+ bastion/treasure/ramparts/top_wall.nbt
-+ bastion/treasure/roofs/center_roof.nbt
-+ bastion/treasure/roofs/corner_roof.nbt
-+ bastion/treasure/roofs/wall_roof.nbt
-+ bastion/treasure/stairs/lower_stairs.nbt
-+ bastion/treasure/walls/bottom/wall_0.nbt
-+ bastion/treasure/walls/bottom/wall_1.nbt
-+ bastion/treasure/walls/bottom/wall_2.nbt
-+ bastion/treasure/walls/bottom/wall_3.nbt
-+ bastion/treasure/walls/entrance_wall.nbt
-+ bastion/treasure/walls/lava_wall.nbt
-+ bastion/treasure/walls/mid/wall_0.nbt
-+ bastion/treasure/walls/mid/wall_1.nbt
-+ bastion/treasure/walls/mid/wall_2.nbt
-+ bastion/treasure/walls/outer/bottom_corner.nbt
-+ bastion/treasure/walls/outer/medium_outer_wall.nbt
-+ bastion/treasure/walls/outer/mid_corner.nbt
-+ bastion/treasure/walls/outer/outer_wall.nbt
-+ bastion/treasure/walls/outer/tall_outer_wall.nbt
-+ bastion/treasure/walls/outer/top_corner.nbt
-+ bastion/treasure/walls/top/main_entrance.nbt
-+ bastion/treasure/walls/top/wall_0.nbt
-+ bastion/treasure/walls/top/wall_1.nbt
-+ bastion/units/air_base.nbt
-+ bastion/units/center_pieces/center_0.nbt
-+ bastion/units/center_pieces/center_1.nbt
-+ bastion/units/center_pieces/center_2.nbt
-+ bastion/units/edges/edge_0.nbt
-+ bastion/units/fillers/stage_0.nbt
-+ bastion/units/pathways/pathway_0.nbt
-+ bastion/units/pathways/pathway_wall_0.nbt
-+ bastion/units/ramparts/ramparts_0.nbt
-+ bastion/units/ramparts/ramparts_1.nbt
-+ bastion/units/ramparts/ramparts_2.nbt
-+ bastion/units/rampart_plates/plate_0.nbt
-+ bastion/units/stages/rot/stage_1_0.nbt
-+ bastion/units/stages/stage_0_0.nbt
-+ bastion/units/stages/stage_0_1.nbt
-+ bastion/units/stages/stage_0_2.nbt
-+ bastion/units/stages/stage_0_3.nbt
-+ bastion/units/stages/stage_1_0.nbt
-+ bastion/units/stages/stage_1_1.nbt
-+ bastion/units/stages/stage_1_2.nbt
-+ bastion/units/stages/stage_1_3.nbt
-+ bastion/units/stages/stage_2_0.nbt
-+ bastion/units/stages/stage_2_1.nbt
-+ bastion/units/stages/stage_3_0.nbt
-+ bastion/units/stages/stage_3_1.nbt
-+ bastion/units/stages/stage_3_2.nbt
-+ bastion/units/stages/stage_3_3.nbt
-+ bastion/units/walls/connected_wall.nbt
-+ bastion/units/walls/wall_base.nbt
-+ bastion/units/wall_units/edge_0_large.nbt
-+ bastion/units/wall_units/unit_0.nbt
-+ ruined_portal/giant_portal_1.nbt
-+ ruined_portal/giant_portal_2.nbt
-+ ruined_portal/giant_portal_3.nbt
-+ ruined_portal/portal_1.nbt
-+ ruined_portal/portal_10.nbt
-+ ruined_portal/portal_2.nbt
-+ ruined_portal/portal_3.nbt
-+ ruined_portal/portal_4.nbt
-+ ruined_portal/portal_5.nbt
-+ ruined_portal/portal_6.nbt
-+ ruined_portal/portal_7.nbt
-+ ruined_portal/portal_8.nbt
-+ ruined_portal/portal_9.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-+ items/creeper_drop_music_discs.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ block/chain.png
-+ item/chain.png
-+ item/music_disc_pigstep.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.server.rcon.thread.QueryThreadGs4</summary>
-
-```diff
-+ Logger LOGGER
-+ ServerInterface serverInterface
-- DatagramPacket request
-- long lastChallengeClean
-- Map idents
-+ boolean lambda$pruneChallenges$0(QueryThreadGs4$RequestChallenge)
-+ void <clinit>()
-```
-
-</details>
-
-<details><summary>net.minecraft.server.rcon.thread.RconClient</summary>
-
-```diff
-+ ServerInterface serverInterface
-```
-
-</details>
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent MUSIC_DISC_PIGSTEP
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.Blocks</summary>
-
-```diff
-+ Block CHAIN
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
-
-```diff
-+ double getViewDistance()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
-
-```diff
-+ DimensionType getDimensionType()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature</summary>
-
-```diff
-+ int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- int getRandomSalt()
-- int getSeparation(ChunkGenerator)
-- int getSpacing(ChunkGenerator)
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
-
-```diff
-+ boolean featureChunk(Biome)
-+ boolean isFeatureChunk(ChunkPos)
-- boolean isFeatureChunk(Biome)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
-
-```diff
-- boolean isFeatureChunk(net.minecraft.world.level.biome.BiomeManager,net.minecraft.world.level.chunk.ChunkGenerator,java.util.Random,int,int,net.minecraft.world.level.biome.Biome)
-+ boolean featureChunk(Biome)
-+ boolean isFeatureChunk(ChunkPos)
-+ boolean linearSeparation()
-+ ChunkPos getPotentialFeatureChunk(WorldgenRandom,int,int)
-+ int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(Random,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.StructurePieceType</summary>
-
-```diff
-+ StructurePieceType BASTION_REMNANT
-+ StructurePieceType RUINED_PORTAL
-+ StructurePieceType RUNTIME
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature</summary>
-
-```diff
-+ int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- boolean isFeatureChunk(Biome)
-- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(Random,int,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.VillagePieces</summary>
-
-```diff
-+ void addPieces(JigsawConfiguration)
-+ void bootstrap()
-- void addPieces(VillageConfiguration)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
-
-```diff
-+ boolean isFeatureChunk(ChunkPos)
-+ boolean linearSeparation()
-+ int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- boolean isFeatureChunk(Biome)
-- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(Random,int,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.EmptyPoolElement</summary>
-
-```diff
-+ boolean place(Random,boolean)
-- boolean place(Random)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$PieceState</summary>
-
-```diff
-+ AtomicReference access$500(JigsawPlacement$PieceState)
-+ int access$600(JigsawPlacement$PieceState)
-+ int access$700(JigsawPlacement$PieceState)
-+ PoolElementStructurePiece access$400(JigsawPlacement$PieceState)
-- AtomicReference access$200(JigsawPlacement$PieceState)
-- int access$300(JigsawPlacement$PieceState)
-- int access$400(JigsawPlacement$PieceState)
-- PoolElementStructurePiece access$100(JigsawPlacement$PieceState)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureFeatureIO</summary>
-
-```diff
-+ StructureFeature BASTION_REMNANT
-+ StructureFeature RUINED_PORTAL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
-
-```diff
-+ BoundingBox getBoundingBox(Mirror)
-+ void lambda$placeEntities$2(Entity)
-+ void placeEntities(BoundingBox,boolean)
-- void lambda$placeEntities$2(Entity)
-- void placeEntities(BoundingBox)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.loot.BuiltInLootTables</summary>
-
-```diff
-+ ResourceLocation BASTION_BRIDGE
-+ ResourceLocation BASTION_HOGLIN_STABLE
-+ ResourceLocation BASTION_OTHER
-+ ResourceLocation BASTION_TREASURE
-+ ResourceLocation RUINED_PORTAL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.gui.screens.inventory.JigsawBlockEditScreen$1
@@ -5072,1224 +2954,159 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.HarvestFarmland</summary>
+<details><summary>net.minecraft.server.rcon.thread.QueryThreadGs4</summary>
 
 ```diff
-- boolean wantsToReapStuff
++ boolean lambda$pruneChallenges$0(long,QueryThreadGs4$RequestChallenge)
++ void <clinit>()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+<details><summary>net.minecraft.world.level.block.entity.StructureBlockEntity</summary>
 
 ```diff
-- int createCounter
-- int dieCounter
-- int killedByPiglinCounter
-- int removeCounter
-- Logger LOGGER
-- void die(DamageSource)
-- void remove()
++ double getViewDistance()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.item.CompassItem</summary>
+<details><summary>net.minecraft.world.level.chunk.ChunkGenerator</summary>
 
 ```diff
-+ BlockPos access$200(CompoundTag)
-+ BlockPos access$300(Level)
-+ boolean access$100(CompoundTag)
-+ double access$400(ItemFrame)
-+ double access$500(Entity)
-- BlockPos access$100(CompoundTag)
-- BlockPos access$200(Level)
-- boolean access$000(CompoundTag)
-- double access$300(ItemFrame)
-- double access$400(Entity)
++ DimensionType getDimensionType()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.BlockEntity</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.ShipwreckFeature</summary>
 
 ```diff
-- double distanceToSqr(double,double,double)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
-
-```diff
-+ void generate(ServerLevel,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature</summary>
-
-```diff
-+ int getRandomSalt(ChunkGeneratorSettings)
 - int getRandomSalt()
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ StructureFeature BASTION_REMNANT
-+ StructureFeature RUINED_PORTAL
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature</summary>
-
-```diff
 + int getRandomSalt(ChunkGeneratorSettings)
-- int getRandomSalt()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature</summary>
-
-```diff
-+ int getRandomSalt(ChunkGeneratorSettings)
-- int getRandomSalt()
+- int getSeparation(ChunkGenerator)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
+- int getSpacing(ChunkGenerator)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
 ```
 
 </details>
 
 
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.StrongholdFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(ChunkPos)
-+ int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- boolean isFeatureChunk(Biome)
++ boolean featureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,Random,int,int,Biome)
++ boolean isFeatureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome,ChunkPos)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.StructureFeature</summary>
 
 ```diff
-+ boolean isFeatureChunk(ChunkPos)
++ boolean featureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome)
++ boolean isFeatureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome,ChunkPos)
 + boolean linearSeparation()
++ ChunkPos getPotentialFeatureChunk(ChunkGenerator,WorldgenRandom,int,int)
+- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(ChunkGenerator,Random,int,int,int,int)
 + int getRandomSalt(ChunkGeneratorSettings)
-+ int getSeparation(ChunkGeneratorSettings)
-+ int getSpacing(ChunkGeneratorSettings)
-- boolean isFeatureChunk(Biome)
-- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(Random,int,int,int,int)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.VillageFeature</summary>
 
 ```diff
-+ boolean place(Random,boolean)
-- boolean place(Random)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.feature.structures.StructurePoolElement</summary>
-
-```diff
-+ boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random,boolean)
-- boolean place(net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager,net.minecraft.world.level.LevelAccessor,net.minecraft.world.level.StructureFeatureManager,net.minecraft.world.level.chunk.ChunkGenerator,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos,net.minecraft.world.level.block.Rotation,net.minecraft.world.level.levelgen.structure.BoundingBox,java.util.Random)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,Random,int,int,Biome)
+- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(ChunkGenerator,Random,int,int,int,int)
++ int getRandomSalt(ChunkGeneratorSettings)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorSettings</summary>
+<details><summary>net.minecraft.world.level.levelgen.feature.VillagePieces</summary>
 
 ```diff
-+ ConfiguredFeature RUINED_PORTAL_COMPOSITE_FEATURE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.PillagerOutpostPieces</summary>
-
-```diff
++ void addPieces(ChunkGenerator,StructureManager,BlockPos,List,WorldgenRandom,JigsawConfiguration)
+- void addPieces(ChunkGenerator,StructureManager,BlockPos,List,WorldgenRandom,VillageConfiguration)
 + void bootstrap()
 ```
 
 </details>
 
-<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.WoodlandMansionFeature</summary>
 
 ```diff
-+ boolean place(BlockPos,boolean)
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,Random,int,int,Biome)
++ boolean isFeatureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean linearSeparation()
+- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(ChunkGenerator,Random,int,int,int,int)
++ int getRandomSalt(ChunkGeneratorSettings)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
 ```
 
 </details>
 
-<details><summary>Added and removed classes</summary>
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.EmptyPoolElement</summary>
+
+```diff
++ boolean place(StructureManager,LevelAccessor,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- boolean place(StructureManager,LevelAccessor,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.JigsawPlacement$PieceState</summary>
+
+```diff
+- AtomicReference access$200(JigsawPlacement$PieceState)
++ AtomicReference access$500(JigsawPlacement$PieceState)
+- int access$300(JigsawPlacement$PieceState)
+- int access$400(JigsawPlacement$PieceState)
++ int access$600(JigsawPlacement$PieceState)
++ int access$700(JigsawPlacement$PieceState)
+- PoolElementStructurePiece access$100(JigsawPlacement$PieceState)
++ PoolElementStructurePiece access$400(JigsawPlacement$PieceState)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate</summary>
+
+```diff
++ BoundingBox getBoundingBox(BlockPos,Rotation,BlockPos,Mirror)
++ void lambda$placeEntities$2(Mirror,Rotation,Vec3,boolean,LevelAccessor,CompoundTag,Entity)
+- void lambda$placeEntities$2(Mirror,Rotation,Vec3,LevelAccessor,Entity)
++ void placeEntities(LevelAccessor,BlockPos,Mirror,Rotation,BlockPos,BoundingBox,boolean)
+- void placeEntities(LevelAccessor,BlockPos,Mirror,Rotation,BlockPos,BoundingBox)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.network.protocol.game.package-info
@@ -8246,13 +5063,736 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.world.entity.monster.hoglin.Hoglin</summary>
+
+```diff
+- void die(DamageSource)
+- void remove()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.item.CompassItem</summary>
+
+```diff
+- BlockPos access$100(CompassItem,Level,CompoundTag)
++ BlockPos access$200(CompassItem,Level,CompoundTag)
+- BlockPos access$200(CompassItem,Level)
++ BlockPos access$300(CompassItem,Level)
+- boolean access$000(CompoundTag)
++ boolean access$100(CompoundTag)
+- double access$300(ItemFrame)
++ double access$400(ItemFrame)
+- double access$400(Vec3,Entity)
++ double access$500(Vec3,Entity)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.BlockEntity</summary>
+
+```diff
+- double distanceToSqr(double,double,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.JigsawBlockEntity</summary>
+
+```diff
++ void generate(ServerLevel,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.DesertPyramidFeature</summary>
+
+```diff
+- int getRandomSalt()
++ int getRandomSalt(ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.IglooFeature</summary>
+
+```diff
+- int getRandomSalt()
++ int getRandomSalt(ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.JunglePyramidFeature</summary>
+
+```diff
+- int getRandomSalt()
++ int getRandomSalt(ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.NetherFortressFeature</summary>
+
+```diff
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,Random,int,int,Biome)
++ boolean isFeatureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome,ChunkPos)
++ int getRandomSalt(ChunkGeneratorSettings)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.OceanMonumentFeature</summary>
+
+```diff
+- boolean isFeatureChunk(BiomeManager,ChunkGenerator,Random,int,int,Biome)
++ boolean isFeatureChunk(BiomeManager,ChunkGenerator,WorldgenRandom,int,int,Biome,ChunkPos)
++ boolean linearSeparation()
+- ChunkPos getPotentialFeatureChunkFromLocationWithOffset(ChunkGenerator,Random,int,int,int,int)
++ int getRandomSalt(ChunkGeneratorSettings)
++ int getSeparation(DimensionType,ChunkGeneratorSettings)
++ int getSpacing(DimensionType,ChunkGeneratorSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.feature.structures.ListPoolElement</summary>
+
+```diff
++ boolean place(StructureManager,LevelAccessor,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random,boolean)
+- boolean place(StructureManager,LevelAccessor,StructureFeatureManager,ChunkGenerator,BlockPos,BlockPos,Rotation,BoundingBox,Random)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PillagerOutpostPieces</summary>
+
+```diff
++ void bootstrap()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece</summary>
+
+```diff
++ boolean place(LevelAccessor,StructureFeatureManager,ChunkGenerator,Random,BoundingBox,BlockPos,boolean)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/recipes/decorations/chain.json
++ minecraft/loot_tables/blocks/chain.json
++ minecraft/loot_tables/chests/bastion_bridge.json
++ minecraft/loot_tables/chests/bastion_hoglin_stable.json
++ minecraft/loot_tables/chests/bastion_other.json
++ minecraft/loot_tables/chests/bastion_treasure.json
++ minecraft/loot_tables/chests/ruined_portal.json
++ minecraft/recipes/chain.json
++ minecraft/structures/bastion/blocks/air.nbt
++ minecraft/structures/bastion/blocks/gold.nbt
++ minecraft/structures/bastion/bridge/bridge_pieces/bridge.nbt
++ minecraft/structures/bastion/bridge/connectors/back_bridge_bottom.nbt
++ minecraft/structures/bastion/bridge/connectors/back_bridge_top.nbt
++ minecraft/structures/bastion/bridge/legs/leg_0.nbt
++ minecraft/structures/bastion/bridge/legs/leg_1.nbt
++ minecraft/structures/bastion/bridge/rampart_plates/plate_0.nbt
++ minecraft/structures/bastion/bridge/ramparts/rampart_0.nbt
++ minecraft/structures/bastion/bridge/ramparts/rampart_1.nbt
++ minecraft/structures/bastion/bridge/starting_pieces/entrance_base.nbt
++ minecraft/structures/bastion/bridge/starting_pieces/entrance_face.nbt
++ minecraft/structures/bastion/bridge/starting_pieces/entrance.nbt
++ minecraft/structures/bastion/bridge/walls/wall_base_0.nbt
++ minecraft/structures/bastion/bridge/walls/wall_base_1.nbt
++ minecraft/structures/bastion/hoglin_stable/air_base.nbt
++ minecraft/structures/bastion/hoglin_stable/connectors/end_post_connector.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/inner_0.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/inner_1.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/inner_2.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/inner_3.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/inner_4.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/outer_0.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/outer_1.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/outer_2.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/outer_3.nbt
++ minecraft/structures/bastion/hoglin_stable/large_stables/outer_4.nbt
++ minecraft/structures/bastion/hoglin_stable/posts/end_post.nbt
++ minecraft/structures/bastion/hoglin_stable/posts/stair_post.nbt
++ minecraft/structures/bastion/hoglin_stable/rampart_plates/rampart_plate_1.nbt
++ minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_1.nbt
++ minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_2.nbt
++ minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_3.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/inner_0.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/inner_1.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/inner_2.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/inner_3.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/outer_0.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/outer_1.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/outer_2.nbt
++ minecraft/structures/bastion/hoglin_stable/small_stables/outer_3.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_0.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_1.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_2.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_3.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_1_4.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_0.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_1.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_2.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_3.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2_4.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_2.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_0.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_1.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_2.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_3.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3_4.nbt
++ minecraft/structures/bastion/hoglin_stable/stairs/stairs_3.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_0_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_1_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_2_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_3_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/stairs_4_mirrored.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_0.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_1.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_2.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_3.nbt
++ minecraft/structures/bastion/hoglin_stable/starting_pieces/starting_stairs_4.nbt
++ minecraft/structures/bastion/hoglin_stable/walls/side_wall_0.nbt
++ minecraft/structures/bastion/hoglin_stable/walls/side_wall_1.nbt
++ minecraft/structures/bastion/hoglin_stable/walls/wall_base.nbt
++ minecraft/structures/bastion/mobs/crossbow_piglin.nbt
++ minecraft/structures/bastion/mobs/empty.nbt
++ minecraft/structures/bastion/mobs/hoglin.nbt
++ minecraft/structures/bastion/mobs/melee_piglin_always.nbt
++ minecraft/structures/bastion/mobs/melee_piglin.nbt
++ minecraft/structures/bastion/mobs/sword_piglin.nbt
++ minecraft/structures/bastion/treasure/bases/centers/center_0.nbt
++ minecraft/structures/bastion/treasure/bases/centers/center_1.nbt
++ minecraft/structures/bastion/treasure/bases/centers/center_2.nbt
++ minecraft/structures/bastion/treasure/bases/centers/center_3.nbt
++ minecraft/structures/bastion/treasure/bases/lava_basin.nbt
++ minecraft/structures/bastion/treasure/big_air_full.nbt
++ minecraft/structures/bastion/treasure/brains/center_brain.nbt
++ minecraft/structures/bastion/treasure/connectors/center_to_wall_middle.nbt
++ minecraft/structures/bastion/treasure/connectors/center_to_wall_top_entrance.nbt
++ minecraft/structures/bastion/treasure/connectors/center_to_wall_top.nbt
++ minecraft/structures/bastion/treasure/corners/bottom/corner_0.nbt
++ minecraft/structures/bastion/treasure/corners/bottom/corner_1.nbt
++ minecraft/structures/bastion/treasure/corners/edges/bottom.nbt
++ minecraft/structures/bastion/treasure/corners/edges/middle.nbt
++ minecraft/structures/bastion/treasure/corners/edges/top.nbt
++ minecraft/structures/bastion/treasure/corners/middle/corner_0.nbt
++ minecraft/structures/bastion/treasure/corners/middle/corner_1.nbt
++ minecraft/structures/bastion/treasure/corners/top/corner_0.nbt
++ minecraft/structures/bastion/treasure/corners/top/corner_1.nbt
++ minecraft/structures/bastion/treasure/entrances/entrance_0.nbt
++ minecraft/structures/bastion/treasure/extensions/empty.nbt
++ minecraft/structures/bastion/treasure/extensions/fire_room.nbt
++ minecraft/structures/bastion/treasure/extensions/house_0.nbt
++ minecraft/structures/bastion/treasure/extensions/house_1.nbt
++ minecraft/structures/bastion/treasure/extensions/large_bridge_0.nbt
++ minecraft/structures/bastion/treasure/extensions/large_bridge_1.nbt
++ minecraft/structures/bastion/treasure/extensions/large_bridge_2.nbt
++ minecraft/structures/bastion/treasure/extensions/large_bridge_3.nbt
++ minecraft/structures/bastion/treasure/extensions/roofed_bridge.nbt
++ minecraft/structures/bastion/treasure/extensions/small_bridge_0.nbt
++ minecraft/structures/bastion/treasure/extensions/small_bridge_1.nbt
++ minecraft/structures/bastion/treasure/extensions/small_bridge_2.nbt
++ minecraft/structures/bastion/treasure/extensions/small_bridge_3.nbt
++ minecraft/structures/bastion/treasure/ramparts/bottom_wall_0.nbt
++ minecraft/structures/bastion/treasure/ramparts/lava_basin_main.nbt
++ minecraft/structures/bastion/treasure/ramparts/lava_basin_side.nbt
++ minecraft/structures/bastion/treasure/ramparts/mid_wall_main.nbt
++ minecraft/structures/bastion/treasure/ramparts/mid_wall_side.nbt
++ minecraft/structures/bastion/treasure/ramparts/top_wall.nbt
++ minecraft/structures/bastion/treasure/roofs/center_roof.nbt
++ minecraft/structures/bastion/treasure/roofs/corner_roof.nbt
++ minecraft/structures/bastion/treasure/roofs/wall_roof.nbt
++ minecraft/structures/bastion/treasure/stairs/lower_stairs.nbt
++ minecraft/structures/bastion/treasure/walls/bottom/wall_0.nbt
++ minecraft/structures/bastion/treasure/walls/bottom/wall_1.nbt
++ minecraft/structures/bastion/treasure/walls/bottom/wall_2.nbt
++ minecraft/structures/bastion/treasure/walls/bottom/wall_3.nbt
++ minecraft/structures/bastion/treasure/walls/entrance_wall.nbt
++ minecraft/structures/bastion/treasure/walls/lava_wall.nbt
++ minecraft/structures/bastion/treasure/walls/mid/wall_0.nbt
++ minecraft/structures/bastion/treasure/walls/mid/wall_1.nbt
++ minecraft/structures/bastion/treasure/walls/mid/wall_2.nbt
++ minecraft/structures/bastion/treasure/walls/outer/bottom_corner.nbt
++ minecraft/structures/bastion/treasure/walls/outer/medium_outer_wall.nbt
++ minecraft/structures/bastion/treasure/walls/outer/mid_corner.nbt
++ minecraft/structures/bastion/treasure/walls/outer/outer_wall.nbt
++ minecraft/structures/bastion/treasure/walls/outer/tall_outer_wall.nbt
++ minecraft/structures/bastion/treasure/walls/outer/top_corner.nbt
++ minecraft/structures/bastion/treasure/walls/top/main_entrance.nbt
++ minecraft/structures/bastion/treasure/walls/top/wall_0.nbt
++ minecraft/structures/bastion/treasure/walls/top/wall_1.nbt
++ minecraft/structures/bastion/units/air_base.nbt
++ minecraft/structures/bastion/units/center_pieces/center_0.nbt
++ minecraft/structures/bastion/units/center_pieces/center_1.nbt
++ minecraft/structures/bastion/units/center_pieces/center_2.nbt
++ minecraft/structures/bastion/units/edges/edge_0.nbt
++ minecraft/structures/bastion/units/fillers/stage_0.nbt
++ minecraft/structures/bastion/units/pathways/pathway_0.nbt
++ minecraft/structures/bastion/units/pathways/pathway_wall_0.nbt
++ minecraft/structures/bastion/units/rampart_plates/plate_0.nbt
++ minecraft/structures/bastion/units/ramparts/ramparts_0.nbt
++ minecraft/structures/bastion/units/ramparts/ramparts_1.nbt
++ minecraft/structures/bastion/units/ramparts/ramparts_2.nbt
++ minecraft/structures/bastion/units/stages/rot/stage_1_0.nbt
++ minecraft/structures/bastion/units/stages/stage_0_0.nbt
++ minecraft/structures/bastion/units/stages/stage_0_1.nbt
++ minecraft/structures/bastion/units/stages/stage_0_2.nbt
++ minecraft/structures/bastion/units/stages/stage_0_3.nbt
++ minecraft/structures/bastion/units/stages/stage_1_0.nbt
++ minecraft/structures/bastion/units/stages/stage_1_1.nbt
++ minecraft/structures/bastion/units/stages/stage_1_2.nbt
++ minecraft/structures/bastion/units/stages/stage_1_3.nbt
++ minecraft/structures/bastion/units/stages/stage_2_0.nbt
++ minecraft/structures/bastion/units/stages/stage_2_1.nbt
++ minecraft/structures/bastion/units/stages/stage_3_0.nbt
++ minecraft/structures/bastion/units/stages/stage_3_1.nbt
++ minecraft/structures/bastion/units/stages/stage_3_2.nbt
++ minecraft/structures/bastion/units/stages/stage_3_3.nbt
++ minecraft/structures/bastion/units/wall_units/edge_0_large.nbt
++ minecraft/structures/bastion/units/wall_units/unit_0.nbt
++ minecraft/structures/bastion/units/walls/connected_wall.nbt
++ minecraft/structures/bastion/units/walls/wall_base.nbt
++ minecraft/structures/ruined_portal/giant_portal_1.nbt
++ minecraft/structures/ruined_portal/giant_portal_2.nbt
++ minecraft/structures/ruined_portal/giant_portal_3.nbt
++ minecraft/structures/ruined_portal/portal_1.nbt
++ minecraft/structures/ruined_portal/portal_10.nbt
++ minecraft/structures/ruined_portal/portal_2.nbt
++ minecraft/structures/ruined_portal/portal_3.nbt
++ minecraft/structures/ruined_portal/portal_4.nbt
++ minecraft/structures/ruined_portal/portal_5.nbt
++ minecraft/structures/ruined_portal/portal_6.nbt
++ minecraft/structures/ruined_portal/portal_7.nbt
++ minecraft/structures/ruined_portal/portal_8.nbt
++ minecraft/structures/ruined_portal/portal_9.nbt
++ minecraft/tags/items/creeper_drop_music_discs.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/chain.json
++ minecraft/models/block/chain.json
++ minecraft/models/item/chain.json
++ minecraft/models/item/music_disc_pigstep.json
++ minecraft/textures/block/chain.png
++ minecraft/textures/item/chain.png
++ minecraft/textures/item/music_disc_pigstep.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:chain
+```
+
+</details>
+
+
+<details><summary>feature.txt</summary>
+
+```diff
++ minecraft:bastion_remnant
++ minecraft:ruined_portal
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:chain
++ minecraft:music_disc_pigstep
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:music_disc.pigstep
+```
+
+</details>
+
+
+<details><summary>structure_feature.txt</summary>
+
+```diff
++ minecraft:bastion_remnant
++ minecraft:ruined_portal
+```
+
+</details>
+
+
+<details><summary>structure_piece.txt</summary>
+
+```diff
++ minecraft:bastionremnant
++ minecraft:runtime
++ minecraft:rupo
+```
+
+</details>
+
+
+<details><summary>structure_pool_element.txt</summary>
+
+```diff
++ minecraft:legacy_single_pool_element
+```
+
+</details>
+
+
+<details><summary>structure_processor.txt</summary>
+
+```diff
++ minecraft:blackstone_replace
++ minecraft:block_age
+```
+
+</details>
+
+
+# Commands
+
+<details><summary>locate.txt</summary>
+
+```diff
++ locate Bastion_Remnant
++ locate Ruined_Portal
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ items/creeper_drop_music_discs.json
+```
+
+</details>
+
+
+<details><summary>items/music_discs.json</summary>
+
+```diff
++ #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_11
+- minecraft:music_disc_13
+- minecraft:music_disc_blocks
+- minecraft:music_disc_cat
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
++ minecraft:music_disc_pigstep
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_wait
+- minecraft:music_disc_ward
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ block.minecraft.chain
++ item.minecraft.music_disc_pigstep
++ item.minecraft.music_disc_pigstep.desc
++ jigsaw_block.generate
++ jigsaw_block.levels
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ recipes/decorations/chain.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/chain.json
++ chests/bastion_bridge.json
++ chests/bastion_hoglin_stable.json
++ chests/bastion_other.json
++ chests/bastion_treasure.json
++ chests/ruined_portal.json
+```
+
+</details>
+
+
+<details><summary>recipes.txt</summary>
+
+```diff
++ chain.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
++ bastion/blocks/air.nbt
++ bastion/blocks/gold.nbt
++ bastion/bridge/bridge_pieces/bridge.nbt
++ bastion/bridge/connectors/back_bridge_bottom.nbt
++ bastion/bridge/connectors/back_bridge_top.nbt
++ bastion/bridge/legs/leg_0.nbt
++ bastion/bridge/legs/leg_1.nbt
++ bastion/bridge/rampart_plates/plate_0.nbt
++ bastion/bridge/ramparts/rampart_0.nbt
++ bastion/bridge/ramparts/rampart_1.nbt
++ bastion/bridge/starting_pieces/entrance_base.nbt
++ bastion/bridge/starting_pieces/entrance_face.nbt
++ bastion/bridge/starting_pieces/entrance.nbt
++ bastion/bridge/walls/wall_base_0.nbt
++ bastion/bridge/walls/wall_base_1.nbt
++ bastion/hoglin_stable/air_base.nbt
++ bastion/hoglin_stable/connectors/end_post_connector.nbt
++ bastion/hoglin_stable/large_stables/inner_0.nbt
++ bastion/hoglin_stable/large_stables/inner_1.nbt
++ bastion/hoglin_stable/large_stables/inner_2.nbt
++ bastion/hoglin_stable/large_stables/inner_3.nbt
++ bastion/hoglin_stable/large_stables/inner_4.nbt
++ bastion/hoglin_stable/large_stables/outer_0.nbt
++ bastion/hoglin_stable/large_stables/outer_1.nbt
++ bastion/hoglin_stable/large_stables/outer_2.nbt
++ bastion/hoglin_stable/large_stables/outer_3.nbt
++ bastion/hoglin_stable/large_stables/outer_4.nbt
++ bastion/hoglin_stable/posts/end_post.nbt
++ bastion/hoglin_stable/posts/stair_post.nbt
++ bastion/hoglin_stable/rampart_plates/rampart_plate_1.nbt
++ bastion/hoglin_stable/ramparts/ramparts_1.nbt
++ bastion/hoglin_stable/ramparts/ramparts_2.nbt
++ bastion/hoglin_stable/ramparts/ramparts_3.nbt
++ bastion/hoglin_stable/small_stables/inner_0.nbt
++ bastion/hoglin_stable/small_stables/inner_1.nbt
++ bastion/hoglin_stable/small_stables/inner_2.nbt
++ bastion/hoglin_stable/small_stables/inner_3.nbt
++ bastion/hoglin_stable/small_stables/outer_0.nbt
++ bastion/hoglin_stable/small_stables/outer_1.nbt
++ bastion/hoglin_stable/small_stables/outer_2.nbt
++ bastion/hoglin_stable/small_stables/outer_3.nbt
++ bastion/hoglin_stable/stairs/stairs_0_mirrored.nbt
++ bastion/hoglin_stable/stairs/stairs_1_0.nbt
++ bastion/hoglin_stable/stairs/stairs_1_1.nbt
++ bastion/hoglin_stable/stairs/stairs_1_2.nbt
++ bastion/hoglin_stable/stairs/stairs_1_3.nbt
++ bastion/hoglin_stable/stairs/stairs_1_4.nbt
++ bastion/hoglin_stable/stairs/stairs_2_0.nbt
++ bastion/hoglin_stable/stairs/stairs_2_1.nbt
++ bastion/hoglin_stable/stairs/stairs_2_2.nbt
++ bastion/hoglin_stable/stairs/stairs_2_3.nbt
++ bastion/hoglin_stable/stairs/stairs_2_4.nbt
++ bastion/hoglin_stable/stairs/stairs_2.nbt
++ bastion/hoglin_stable/stairs/stairs_3_0.nbt
++ bastion/hoglin_stable/stairs/stairs_3_1.nbt
++ bastion/hoglin_stable/stairs/stairs_3_2.nbt
++ bastion/hoglin_stable/stairs/stairs_3_3.nbt
++ bastion/hoglin_stable/stairs/stairs_3_4.nbt
++ bastion/hoglin_stable/stairs/stairs_3.nbt
++ bastion/hoglin_stable/starting_pieces/stairs_0_mirrored.nbt
++ bastion/hoglin_stable/starting_pieces/stairs_1_mirrored.nbt
++ bastion/hoglin_stable/starting_pieces/stairs_2_mirrored.nbt
++ bastion/hoglin_stable/starting_pieces/stairs_3_mirrored.nbt
++ bastion/hoglin_stable/starting_pieces/stairs_4_mirrored.nbt
++ bastion/hoglin_stable/starting_pieces/starting_stairs_0.nbt
++ bastion/hoglin_stable/starting_pieces/starting_stairs_1.nbt
++ bastion/hoglin_stable/starting_pieces/starting_stairs_2.nbt
++ bastion/hoglin_stable/starting_pieces/starting_stairs_3.nbt
++ bastion/hoglin_stable/starting_pieces/starting_stairs_4.nbt
++ bastion/hoglin_stable/walls/side_wall_0.nbt
++ bastion/hoglin_stable/walls/side_wall_1.nbt
++ bastion/hoglin_stable/walls/wall_base.nbt
++ bastion/mobs/crossbow_piglin.nbt
++ bastion/mobs/empty.nbt
++ bastion/mobs/hoglin.nbt
++ bastion/mobs/melee_piglin_always.nbt
++ bastion/mobs/melee_piglin.nbt
++ bastion/mobs/sword_piglin.nbt
++ bastion/treasure/bases/centers/center_0.nbt
++ bastion/treasure/bases/centers/center_1.nbt
++ bastion/treasure/bases/centers/center_2.nbt
++ bastion/treasure/bases/centers/center_3.nbt
++ bastion/treasure/bases/lava_basin.nbt
++ bastion/treasure/big_air_full.nbt
++ bastion/treasure/brains/center_brain.nbt
++ bastion/treasure/connectors/center_to_wall_middle.nbt
++ bastion/treasure/connectors/center_to_wall_top_entrance.nbt
++ bastion/treasure/connectors/center_to_wall_top.nbt
++ bastion/treasure/corners/bottom/corner_0.nbt
++ bastion/treasure/corners/bottom/corner_1.nbt
++ bastion/treasure/corners/edges/bottom.nbt
++ bastion/treasure/corners/edges/middle.nbt
++ bastion/treasure/corners/edges/top.nbt
++ bastion/treasure/corners/middle/corner_0.nbt
++ bastion/treasure/corners/middle/corner_1.nbt
++ bastion/treasure/corners/top/corner_0.nbt
++ bastion/treasure/corners/top/corner_1.nbt
++ bastion/treasure/entrances/entrance_0.nbt
++ bastion/treasure/extensions/empty.nbt
++ bastion/treasure/extensions/fire_room.nbt
++ bastion/treasure/extensions/house_0.nbt
++ bastion/treasure/extensions/house_1.nbt
++ bastion/treasure/extensions/large_bridge_0.nbt
++ bastion/treasure/extensions/large_bridge_1.nbt
++ bastion/treasure/extensions/large_bridge_2.nbt
++ bastion/treasure/extensions/large_bridge_3.nbt
++ bastion/treasure/extensions/roofed_bridge.nbt
++ bastion/treasure/extensions/small_bridge_0.nbt
++ bastion/treasure/extensions/small_bridge_1.nbt
++ bastion/treasure/extensions/small_bridge_2.nbt
++ bastion/treasure/extensions/small_bridge_3.nbt
++ bastion/treasure/ramparts/bottom_wall_0.nbt
++ bastion/treasure/ramparts/lava_basin_main.nbt
++ bastion/treasure/ramparts/lava_basin_side.nbt
++ bastion/treasure/ramparts/mid_wall_main.nbt
++ bastion/treasure/ramparts/mid_wall_side.nbt
++ bastion/treasure/ramparts/top_wall.nbt
++ bastion/treasure/roofs/center_roof.nbt
++ bastion/treasure/roofs/corner_roof.nbt
++ bastion/treasure/roofs/wall_roof.nbt
++ bastion/treasure/stairs/lower_stairs.nbt
++ bastion/treasure/walls/bottom/wall_0.nbt
++ bastion/treasure/walls/bottom/wall_1.nbt
++ bastion/treasure/walls/bottom/wall_2.nbt
++ bastion/treasure/walls/bottom/wall_3.nbt
++ bastion/treasure/walls/entrance_wall.nbt
++ bastion/treasure/walls/lava_wall.nbt
++ bastion/treasure/walls/mid/wall_0.nbt
++ bastion/treasure/walls/mid/wall_1.nbt
++ bastion/treasure/walls/mid/wall_2.nbt
++ bastion/treasure/walls/outer/bottom_corner.nbt
++ bastion/treasure/walls/outer/medium_outer_wall.nbt
++ bastion/treasure/walls/outer/mid_corner.nbt
++ bastion/treasure/walls/outer/outer_wall.nbt
++ bastion/treasure/walls/outer/tall_outer_wall.nbt
++ bastion/treasure/walls/outer/top_corner.nbt
++ bastion/treasure/walls/top/main_entrance.nbt
++ bastion/treasure/walls/top/wall_0.nbt
++ bastion/treasure/walls/top/wall_1.nbt
++ bastion/units/air_base.nbt
++ bastion/units/center_pieces/center_0.nbt
++ bastion/units/center_pieces/center_1.nbt
++ bastion/units/center_pieces/center_2.nbt
++ bastion/units/edges/edge_0.nbt
++ bastion/units/fillers/stage_0.nbt
++ bastion/units/pathways/pathway_0.nbt
++ bastion/units/pathways/pathway_wall_0.nbt
++ bastion/units/rampart_plates/plate_0.nbt
++ bastion/units/ramparts/ramparts_0.nbt
++ bastion/units/ramparts/ramparts_1.nbt
++ bastion/units/ramparts/ramparts_2.nbt
++ bastion/units/stages/rot/stage_1_0.nbt
++ bastion/units/stages/stage_0_0.nbt
++ bastion/units/stages/stage_0_1.nbt
++ bastion/units/stages/stage_0_2.nbt
++ bastion/units/stages/stage_0_3.nbt
++ bastion/units/stages/stage_1_0.nbt
++ bastion/units/stages/stage_1_1.nbt
++ bastion/units/stages/stage_1_2.nbt
++ bastion/units/stages/stage_1_3.nbt
++ bastion/units/stages/stage_2_0.nbt
++ bastion/units/stages/stage_2_1.nbt
++ bastion/units/stages/stage_3_0.nbt
++ bastion/units/stages/stage_3_1.nbt
++ bastion/units/stages/stage_3_2.nbt
++ bastion/units/stages/stage_3_3.nbt
++ bastion/units/wall_units/edge_0_large.nbt
++ bastion/units/wall_units/unit_0.nbt
++ bastion/units/walls/connected_wall.nbt
++ bastion/units/walls/wall_base.nbt
++ ruined_portal/giant_portal_1.nbt
++ ruined_portal/giant_portal_2.nbt
++ ruined_portal/giant_portal_3.nbt
++ ruined_portal/portal_1.nbt
++ ruined_portal/portal_10.nbt
++ ruined_portal/portal_2.nbt
++ ruined_portal/portal_3.nbt
++ ruined_portal/portal_4.nbt
++ ruined_portal/portal_5.nbt
++ ruined_portal/portal_6.nbt
++ ruined_portal/portal_7.nbt
++ ruined_portal/portal_8.nbt
++ ruined_portal/portal_9.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ items/creeper_drop_music_discs.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/chain.png
++ item/chain.png
++ item/music_disc_pigstep.png
+```
+
+</details>

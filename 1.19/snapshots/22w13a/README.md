@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 22w13a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>22w13a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2022-03-31T14:53:25+00:00</td></tr>
@@ -10,3938 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/5712fbabd1d65667551df47b3f22e72e58158136/server.txt">https://piston-data.mojang.com/v1/objects/5712fbabd1d65667551df47b3f22e72e58158136/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/1156e606bb7272bb1972e3f2ee7c3a498e1bfb6c/client.jar">https://piston-data.mojang.com/v1/objects/1156e606bb7272bb1972e3f2ee7c3a498e1bfb6c/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/6c24f90a6b2653803072e82d26814aec59b79eb1/client.txt">https://piston-data.mojang.com/v1/objects/6c24f90a6b2653803072e82d26814aec59b79eb1/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/22w12a">22w12a</a>
-## File structure
 
-<details><summary>data/</summary>
+# Mappings
 
-```diff
-+  minecraft/advancements/adventure/kill_mob_near_sculk_catalyst.json
-+  minecraft/advancements/husbandry/froglights.json
-+  minecraft/advancements/husbandry/tadpole_in_a_bucket.json
-+  minecraft/loot_tables/blocks/reinforced_deepslate.json
-+  minecraft/loot_tables/chests/ancient_city.json
-+  minecraft/loot_tables/chests/ancient_city_ice_box.json
-+  minecraft/loot_tables/entities/allay.json
-+  minecraft/structures/ancient_city
-+  minecraft/structures/ancient_city/city
-+  minecraft/structures/ancient_city/city/entrance
-+  minecraft/structures/ancient_city/city/entrance/bottom_piece.nbt
-+  minecraft/structures/ancient_city/city/entrance/bottom_piece_1.nbt
-+  minecraft/structures/ancient_city/city/entrance/bottom_piece_2.nbt
-+  minecraft/structures/ancient_city/city/entrance/bottom_piece_3.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_connector.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_path_1.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_path_2.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_path_3.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_path_4.nbt
-+  minecraft/structures/ancient_city/city/entrance/entrance_path_5.nbt
-+  minecraft/structures/ancient_city/city/entrance/top_piece.nbt
-+  minecraft/structures/ancient_city/city_center
-+  minecraft/structures/ancient_city/city_center/walls
-+  minecraft/structures/ancient_city/city_center/walls/bottom_1.nbt
-+  minecraft/structures/ancient_city/city_center/walls/bottom_2.nbt
-+  minecraft/structures/ancient_city/city_center/walls/bottom_left_corner.nbt
-+  minecraft/structures/ancient_city/city_center/walls/bottom_right_corner.nbt
-+  minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_1.nbt
-+  minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_2.nbt
-+  minecraft/structures/ancient_city/city_center/walls/left.nbt
-+  minecraft/structures/ancient_city/city_center/walls/right.nbt
-+  minecraft/structures/ancient_city/city_center/walls/top.nbt
-+  minecraft/structures/ancient_city/city_center/walls/top_left_corner.nbt
-+  minecraft/structures/ancient_city/city_center/walls/top_right_corner.nbt
-+  minecraft/structures/ancient_city/city_center/city_center_1.nbt
-+  minecraft/structures/ancient_city/city_center/city_center_2.nbt
-+  minecraft/structures/ancient_city/city_center/city_center_3.nbt
-+  minecraft/structures/ancient_city/structures
-+  minecraft/structures/ancient_city/structures/barracks.nbt
-+  minecraft/structures/ancient_city/structures/camp_1.nbt
-+  minecraft/structures/ancient_city/structures/camp_2.nbt
-+  minecraft/structures/ancient_city/structures/camp_3.nbt
-+  minecraft/structures/ancient_city/structures/chamber_1.nbt
-+  minecraft/structures/ancient_city/structures/chamber_2.nbt
-+  minecraft/structures/ancient_city/structures/chamber_3.nbt
-+  minecraft/structures/ancient_city/structures/ice_box_1.nbt
-+  minecraft/structures/ancient_city/structures/large_pillar_1.nbt
-+  minecraft/structures/ancient_city/structures/large_ruin_1.nbt
-+  minecraft/structures/ancient_city/structures/medium_pillar_1.nbt
-+  minecraft/structures/ancient_city/structures/medium_ruin_1.nbt
-+  minecraft/structures/ancient_city/structures/medium_ruin_2.nbt
-+  minecraft/structures/ancient_city/structures/sauna_1.nbt
-+  minecraft/structures/ancient_city/structures/small_portal_statue.nbt
-+  minecraft/structures/ancient_city/structures/small_ruin_1.nbt
-+  minecraft/structures/ancient_city/structures/small_ruin_2.nbt
-+  minecraft/structures/ancient_city/structures/small_statue.nbt
-+  minecraft/structures/ancient_city/structures/tall_ruin_1.nbt
-+  minecraft/structures/ancient_city/structures/tall_ruin_2.nbt
-+  minecraft/structures/ancient_city/structures/tall_ruin_3.nbt
-+  minecraft/structures/ancient_city/structures/tall_ruin_4.nbt
-+  minecraft/structures/ancient_city/walls
-+  minecraft/structures/ancient_city/walls/intact_corner_wall_1.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_1.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_2.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_bridge.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_passage_1.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_1.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_2.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_3.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_4.nbt
-+  minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
-+  minecraft/structures/ancient_city/walls/intact_intersection_wall_1.nbt
-+  minecraft/structures/ancient_city/walls/intact_lshape_wall_1.nbt
-+  minecraft/structures/ancient_city/walls/ruined_corner_wall_1.nbt
-+  minecraft/structures/ancient_city/walls/ruined_corner_wall_2.nbt
-+  minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_1.nbt
-+  minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_2.nbt
-+  minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_3.nbt
-+  minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_4.nbt
-+  minecraft/structures/pillager_outpost/feature_cage_with_allays.nbt
-+  minecraft/tags/blocks/ancient_city_center_replaceable.json
-+  minecraft/tags/blocks/ancient_city_replaceable.json
--  minecraft/tags/blocks/carpets.json
-+  minecraft/tags/blocks/wool_carpets.json
-+  minecraft/tags/game_events/ignore_vibrations_on_occluding_block.json
--  minecraft/tags/items/carpets.json
-+  minecraft/tags/items/wool_carpets.json
-+  minecraft/tags/worldgen/biome/has_structure/ancient_city.json
-```
+### Client
 
-</details>
 
-<details><summary>assets/</summary>
 
-```diff
-+  minecraft/blockstates/reinforced_deepslate.json
-+  minecraft/models/block/reinforced_deepslate.json
-+  minecraft/models/block/sculk_shrieker_can_summon.json
-+  minecraft/models/block/template_sculk_shrieker.json
-+  minecraft/models/item/allay_spawn_egg.json
-+  minecraft/models/item/reinforced_deepslate.json
-+  minecraft/particles/allay_dust.json
-+  minecraft/textures/block/reinforced_deepslate_bottom.png
-+  minecraft/textures/block/reinforced_deepslate_side.png
-+  minecraft/textures/block/reinforced_deepslate_top.png
-+  minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png
-+  minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png.mcmeta
-+  minecraft/textures/entity/allay
-+  minecraft/textures/entity/allay/allay.png
--  minecraft/textures/entity/warden/warden_ears.png
-```
 
-</details>
-
-<details><summary>minecraft-generated/</summary>
-
-```diff
--  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
-+  reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
--  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
-+  reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
-+  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
-+  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
-+  reports/worldgen/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
-+  reports/worldgen/minecraft/worldgen/structure/ancient_city.json
-+  reports/worldgen/minecraft/worldgen/structure_set/ancient_cities.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/sculk.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/structures.json
-+  reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls.json
-```
-
-</details>
-
-## Registries
-
-<details><summary>block.txt</summary>
-
-```diff
-+ minecraft:reinforced_deepslate
-```
-
-</details>
-
-<details><summary>entity_type.txt</summary>
-
-```diff
-+ minecraft:allay
-```
-
-</details>
-
-<details><summary>game_event.txt</summary>
-
-```diff
-- minecraft:block_press
-- minecraft:block_switch
-- minecraft:block_unpress
-- minecraft:block_unswitch
-- minecraft:drinking_finish
-- minecraft:elytra_free_fall
-- minecraft:entity_damaged
-- minecraft:entity_dying
-- minecraft:entity_killed
-- minecraft:fishing_rod_cast
-- minecraft:fishing_rod_reel_in
-- minecraft:mob_interact
-- minecraft:minecart_moving
-- minecraft:ravager_roar
-- minecraft:ring_bell
-- minecraft:shulker_close
-- minecraft:shulker_open
-- minecraft:wolf_shaking
-+ minecraft:block_activate
-+ minecraft:block_deactivate
-+ minecraft:drink
-+ minecraft:elytra_glide
-+ minecraft:entity_damage
-+ minecraft:entity_die
-+ minecraft:entity_interact
-+ minecraft:entity_roar
-+ minecraft:entity_shake
-+ minecraft:item_interact_finish
-+ minecraft:item_interact_start
-+ minecraft:note_block_play
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:reinforced_deepslate
-+ minecraft:allay_spawn_egg
-```
-
-</details>
-
-<details><summary>memory_module_type.txt</summary>
-
-```diff
-+ minecraft:liked_player
-+ minecraft:liked_noteblock
-+ minecraft:liked_noteblock_cooldown_ticks
-+ minecraft:item_pickup_cooldown_ticks
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-+ minecraft:allay_dust
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:entity.allay.ambient_with_item
-+ minecraft:entity.allay.ambient_without_item
-+ minecraft:entity.allay.death
-+ minecraft:entity.allay.flap
-+ minecraft:entity.allay.hurt
-+ minecraft:entity.allay.item_given
-+ minecraft:entity.allay.item_taken
-```
-
-</details>
-
-## Tags
-
-<details><summary>list</summary>
-
-```diff
-- blocks/carpets.json
-- items/carpets.json
-+ blocks/ancient_city_center_replaceable.json
-+ blocks/ancient_city_replaceable.json
-+ blocks/wool_carpets.json
-+ game_events/ignore_vibrations_on_occluding_block.json
-+ items/wool_carpets.json
-+ worldgen/biome/has_structure/ancient_city.json
-```
-
-</details>
-
-<details><summary>blocks/dragon_immune.json</summary>
-
-```diff
-+ minecraft:reinforced_deepslate
-```
-
-</details>
-
-<details><summary>blocks/features_cannot_replace.json</summary>
-
-```diff
-+ minecraft:reinforced_deepslate
-```
-
-</details>
-
-<details><summary>blocks/wither_immune.json</summary>
-
-```diff
-+ minecraft:reinforced_deepslate
-```
-
-</details>
-
-<details><summary>game_events/vibrations.json</summary>
-
-```diff
-- minecraft:block_press
-- minecraft:block_switch
-- minecraft:block_unpress
-- minecraft:block_unswitch
-- minecraft:drinking_finish
-- minecraft:elytra_free_fall
-- minecraft:entity_damaged
-- minecraft:entity_killed
-- minecraft:fishing_rod_cast
-- minecraft:fishing_rod_reel_in
-- minecraft:minecart_moving
-- minecraft:mob_interact
-- minecraft:ravager_roar
-- minecraft:ring_bell
-- minecraft:shulker_close
-- minecraft:shulker_open
-- minecraft:wolf_shaking
-+ minecraft:block_activate
-+ minecraft:block_deactivate
-+ minecraft:drink
-+ minecraft:elytra_glide
-+ minecraft:entity_damage
-+ minecraft:entity_die
-+ minecraft:entity_interact
-+ minecraft:entity_roar
-+ minecraft:entity_shake
-+ minecraft:item_interact_finish
-+ minecraft:item_interact_start
-+ minecraft:note_block_play
-```
-
-</details>
-
-<details><summary>game_events/warden_events_can_listen.json</summary>
-
-```diff
-- minecraft:block_press
-- minecraft:block_switch
-- minecraft:block_unpress
-- minecraft:block_unswitch
-- minecraft:drinking_finish
-- minecraft:elytra_free_fall
-- minecraft:entity_damaged
-- minecraft:entity_killed
-- minecraft:fishing_rod_cast
-- minecraft:fishing_rod_reel_in
-- minecraft:minecart_moving
-- minecraft:mob_interact
-- minecraft:ravager_roar
-- minecraft:ring_bell
-- minecraft:shulker_close
-- minecraft:shulker_open
-- minecraft:wolf_shaking
-+ minecraft:block_activate
-+ minecraft:block_deactivate
-+ minecraft:drink
-+ minecraft:elytra_glide
-+ minecraft:entity_damage
-+ minecraft:entity_die
-+ minecraft:entity_interact
-+ minecraft:entity_roar
-+ minecraft:entity_shake
-+ minecraft:flap
-+ minecraft:item_interact_finish
-+ minecraft:item_interact_start
-+ minecraft:note_block_play
-```
-
-</details>
-
-<details><summary>worldgen/biome/spawns_cold_variant_frogs.json</summary>
-
-```diff
-- #minecraft:is_mountain
-+ minecraft:frozen_peaks
-+ minecraft:jagged_peaks
-+ minecraft:snowy_slopes
-+ minecraft:frozen_ocean
-+ minecraft:deep_frozen_ocean
-+ minecraft:grove
-+ minecraft:deep_dark
-+ minecraft:frozen_river
-+ minecraft:snowy_taiga
-+ minecraft:snowy_beach
-```
-
-</details>
-
-<details><summary>worldgen/biome/spawns_warm_variant_frogs.json</summary>
-
-```diff
-+ minecraft:warm_ocean
-```
-
-</details>
-
-## Misc
-
-<details><summary>advancements.txt</summary>
-
-```diff
-+ adventure/kill_mob_near_sculk_catalyst.json
-+ husbandry/froglights.json
-+ husbandry/tadpole_in_a_bucket.json
-```
-
-</details>
-
-<details><summary>loot_tables.txt</summary>
-
-```diff
-+ blocks/reinforced_deepslate.json
-+ chests/ancient_city.json
-+ chests/ancient_city_ice_box.json
-+ entities/allay.json
-```
-
-</details>
-
-<details><summary>particles.txt</summary>
-
-```diff
-+ allay_dust.json
-```
-
-</details>
-
-<details><summary>structures.txt</summary>
-
-```diff
-+ ancient_city/city/entrance/bottom_piece.nbt
-+ ancient_city/city/entrance/bottom_piece_1.nbt
-+ ancient_city/city/entrance/bottom_piece_2.nbt
-+ ancient_city/city/entrance/bottom_piece_3.nbt
-+ ancient_city/city/entrance/entrance_connector.nbt
-+ ancient_city/city/entrance/entrance_path_1.nbt
-+ ancient_city/city/entrance/entrance_path_2.nbt
-+ ancient_city/city/entrance/entrance_path_3.nbt
-+ ancient_city/city/entrance/entrance_path_4.nbt
-+ ancient_city/city/entrance/entrance_path_5.nbt
-+ ancient_city/city/entrance/top_piece.nbt
-+ ancient_city/city_center/city_center_1.nbt
-+ ancient_city/city_center/city_center_2.nbt
-+ ancient_city/city_center/city_center_3.nbt
-+ ancient_city/city_center/walls/bottom_1.nbt
-+ ancient_city/city_center/walls/bottom_2.nbt
-+ ancient_city/city_center/walls/bottom_left_corner.nbt
-+ ancient_city/city_center/walls/bottom_right_corner.nbt
-+ ancient_city/city_center/walls/bottom_right_corner_1.nbt
-+ ancient_city/city_center/walls/bottom_right_corner_2.nbt
-+ ancient_city/city_center/walls/left.nbt
-+ ancient_city/city_center/walls/right.nbt
-+ ancient_city/city_center/walls/top.nbt
-+ ancient_city/city_center/walls/top_left_corner.nbt
-+ ancient_city/city_center/walls/top_right_corner.nbt
-+ ancient_city/structures/barracks.nbt
-+ ancient_city/structures/camp_1.nbt
-+ ancient_city/structures/camp_2.nbt
-+ ancient_city/structures/camp_3.nbt
-+ ancient_city/structures/chamber_1.nbt
-+ ancient_city/structures/chamber_2.nbt
-+ ancient_city/structures/chamber_3.nbt
-+ ancient_city/structures/ice_box_1.nbt
-+ ancient_city/structures/large_pillar_1.nbt
-+ ancient_city/structures/large_ruin_1.nbt
-+ ancient_city/structures/medium_pillar_1.nbt
-+ ancient_city/structures/medium_ruin_1.nbt
-+ ancient_city/structures/medium_ruin_2.nbt
-+ ancient_city/structures/sauna_1.nbt
-+ ancient_city/structures/small_portal_statue.nbt
-+ ancient_city/structures/small_ruin_1.nbt
-+ ancient_city/structures/small_ruin_2.nbt
-+ ancient_city/structures/small_statue.nbt
-+ ancient_city/structures/tall_ruin_1.nbt
-+ ancient_city/structures/tall_ruin_2.nbt
-+ ancient_city/structures/tall_ruin_3.nbt
-+ ancient_city/structures/tall_ruin_4.nbt
-+ ancient_city/walls/intact_corner_wall_1.nbt
-+ ancient_city/walls/intact_horizontal_wall_1.nbt
-+ ancient_city/walls/intact_horizontal_wall_2.nbt
-+ ancient_city/walls/intact_horizontal_wall_bridge.nbt
-+ ancient_city/walls/intact_horizontal_wall_passage_1.nbt
-+ ancient_city/walls/intact_horizontal_wall_stairs_1.nbt
-+ ancient_city/walls/intact_horizontal_wall_stairs_2.nbt
-+ ancient_city/walls/intact_horizontal_wall_stairs_3.nbt
-+ ancient_city/walls/intact_horizontal_wall_stairs_4.nbt
-+ ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
-+ ancient_city/walls/intact_intersection_wall_1.nbt
-+ ancient_city/walls/intact_lshape_wall_1.nbt
-+ ancient_city/walls/ruined_corner_wall_1.nbt
-+ ancient_city/walls/ruined_corner_wall_2.nbt
-+ ancient_city/walls/ruined_horizontal_wall_stairs_1.nbt
-+ ancient_city/walls/ruined_horizontal_wall_stairs_2.nbt
-+ ancient_city/walls/ruined_horizontal_wall_stairs_3.nbt
-+ ancient_city/walls/ruined_horizontal_wall_stairs_4.nbt
-+ pillager_outpost/feature_cage_with_allays.nbt
-```
-
-</details>
-
-<details><summary>tags.txt</summary>
-
-```diff
-- blocks/carpets.json
-- items/carpets.json
-+ blocks/ancient_city_center_replaceable.json
-+ blocks/ancient_city_replaceable.json
-+ blocks/wool_carpets.json
-+ game_events/ignore_vibrations_on_occluding_block.json
-+ items/wool_carpets.json
-+ worldgen/biome/has_structure/ancient_city.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-- entity/warden/warden_ears.png
-+ block/reinforced_deepslate_bottom.png
-+ block/reinforced_deepslate_side.png
-+ block/reinforced_deepslate_top.png
-+ block/sculk_shrieker_can_summon_inner_top.png
-+ entity/allay/allay.png
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
-
-```diff
-+ KilledTrigger$TriggerInstance playerKilledEntityNearSculkCatalyst()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.OptionInstance</summary>
-
-```diff
-+ int TOOLTIP_WIDTH
-+ OptionInstance$TooltipSupplierFactory tooltip
-- Function tooltip
-+ Component lambda$createBoolean$2(Boolean)
-+ Component lambda$forOptionEnum$8(OptionEnum)
-+ Component lambda$new$3(Object)
-+ List lambda$cachedConstantTooltip$6(Object)
-+ List lambda$noTooltip$4(Object)
-+ List splitTooltip(Component)
-+ Object lambda$set$9(Object)
-+ OptionInstance createBoolean(Consumer)
-+ OptionInstance createBoolean(OptionInstance$TooltipSupplierFactory,boolean)
-+ OptionInstance$CaptionBasedToString forOptionEnum()
-+ OptionInstance$TooltipSupplier lambda$cachedConstantTooltip$7(Minecraft)
-+ OptionInstance$TooltipSupplier lambda$noTooltip$5(Minecraft)
-+ OptionInstance$TooltipSupplierFactory cachedConstantTooltip(Component)
-+ OptionInstance$TooltipSupplierFactory noTooltip()
-+ void <init>(Consumer)
-+ void <init>(Consumer)
-- Component getCaption()
-- Component lambda$createBoolean$2(Boolean)
-- Function noTooltip()
-- List lambda$noTooltip$3(Object)
-- Object lambda$set$5(Object)
-- OptionInstance createBoolean(Consumer)
-- OptionInstance createBoolean(Function,boolean)
-- OptionInstance$TooltipSupplier lambda$noTooltip$4(Minecraft)
-- OptionInstance$ValueSet clampingLazyMax(IntSupplier)
-- void <init>(Consumer)
-- void <init>(Consumer)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.OptionInstance$Enum</summary>
-
-```diff
-+ CycleButton$ValueListSupplier valueListSupplier()
-- AbstractWidget lambda$createButton$1(OptionInstance)
-- Function createButton(Options,int,int,int)
-- void lambda$createButton$0(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.OptionInstance$IntRangeBase</summary>
-
-```diff
-- AbstractWidget lambda$createButton$0(OptionInstance)
-- Function createButton(Options,int,int,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.OptionInstance$LazyEnum</summary>
-
-```diff
-+ CycleButton$ValueListSupplier valueListSupplier()
-- AbstractWidget lambda$createButton$1(OptionInstance)
-- Function createButton(Options,int,int,int)
-- void lambda$createButton$0(Object)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.OptionInstance$UnitDouble</summary>
-
-```diff
-+ Double lambda$codec$0(Double)
-+ Double lambda$codec$1(Boolean)
-+ Double lambda$codec$2(Either)
-- AbstractWidget lambda$createButton$0(OptionInstance)
-- Double lambda$codec$1(Double)
-- Double lambda$codec$2(Boolean)
-- Double lambda$codec$3(Either)
-- Function createButton(Options,int,int,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.components.CycleButton$Builder</summary>
-
-```diff
-+ CycleButton$Builder withValues(CycleButton$ValueListSupplier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Direction</summary>
-
-```diff
-+ StringRepresentable$EnumCodec CODEC
-- Codec CODEC
-- Map BY_NAME
-+ boolean lambda$static$2(Direction)
-+ Direction lambda$static$6(Direction)
-+ Direction lambda$static$7(Direction)
-+ Direction[] lambda$static$1(int)
-+ Direction[] lambda$static$4(int)
-+ int lambda$static$0(Direction)
-+ int lambda$static$3(Direction)
-+ Long lambda$static$5(Direction)
-- boolean lambda$static$3(Direction)
-- Direction lambda$static$0(Direction)
-- Direction lambda$static$7(Direction)
-- Direction lambda$static$8(Direction)
-- Direction[] lambda$static$2(int)
-- Direction[] lambda$static$5(int)
-- int lambda$static$1(Direction)
-- int lambda$static$4(Direction)
-- Long lambda$static$6(Direction)
-```
-
-</details>
-
-<details><summary>net.minecraft.core.Direction$Axis</summary>
-
-```diff
-+ StringRepresentable$EnumCodec CODEC
-- Codec CODEC
-- Map BY_NAME
-- Direction$Axis lambda$static$0(Direction$Axis)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.dispenser.BoatDispenseItemBehavior</summary>
-
-```diff
-+ boolean isChestBoat
-+ void <init>(Boat$Type,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ SimpleParticleType ALLAY_DUST
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.advancements.HusbandryAdvancements</summary>
-
-```diff
-+ EntityType[] INDIRECTLY_BREEDABLE_ANIMALS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.ModelTemplates</summary>
-
-```diff
-+ ModelTemplate SCULK_SHRIEKER
-```
-
-</details>
-
-<details><summary>net.minecraft.data.models.model.TextureSlot</summary>
-
-```diff
-+ TextureSlot INNER_TOP
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
-
-```diff
-+ void chestBoat(ItemLike)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.StructureSets</summary>
-
-```diff
-+ Holder ANCIENT_CITIES
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.features.CaveFeatures</summary>
-
-```diff
-+ Holder SCULK_PATCH_ANCIENT_CITY
-+ Holder SCULK_PATCH_DEEP_DARK
-- Holder SCULK_PATCH
-```
-
-</details>
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.placement.CavePlacements</summary>
-
-```diff
-+ Holder SCULK_PATCH_ANCIENT_CITY
-+ Holder SCULK_PATCH_DEEP_DARK
-- Holder SCULK_PATCH
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
-
-```diff
-+ SoundEvent ALLAY_AMBIENT_WITH_ITEM
-+ SoundEvent ALLAY_AMBIENT_WITHOUT_ITEM
-+ SoundEvent ALLAY_DEATH
-+ SoundEvent ALLAY_FLAP
-+ SoundEvent ALLAY_HURT
-+ SoundEvent ALLAY_ITEM_GIVEN
-+ SoundEvent ALLAY_ITEM_TAKEN
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.tags.BiomeTags</summary>
-
-```diff
-+ TagKey HAS_ANCIENT_CITY
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
-
-```diff
-+ TagKey WOOL_CARPETS
-- TagKey CARPETS
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.Mth</summary>
-
-```diff
-+ float cube(float)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType ALLAY
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
-
-```diff
-+ int id
-+ String name
-- Component name
-+ int getId()
-+ String getKey()
-+ void <init>(String)
-- Component getName()
-- String toString()
-- void <init>(Component)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
-
-```diff
-+ void setWalkAndLookTargetMemories(PositionTracker,float,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue</summary>
-
-```diff
-+ int CATCH_ANIMATION_DURATION
-- boolean finishedEating
-+ void eatEntity(Frog)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue$State</summary>
-
-```diff
-+ ShootTongue$State CATCH_ANIMATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.AngerManagement</summary>
-
-```diff
-+ boolean lambda$getActiveEntity$3(Entity)
-+ Integer lambda$addAnger$2(Integer)
-+ LivingEntity lambda$getActiveEntity$4(Entity)
-- boolean lambda$getActiveEntity$5(Entity)
-- Integer lambda$addAnger$4(Integer)
-- Integer lambda$tick$2(Integer)
-- LivingEntity lambda$getActiveEntity$6(Entity)
-- void lambda$tick$3(UUID)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
-
-```diff
-- List MEMORY_TYPES
-- List SENSOR_TYPES
-+ boolean lambda$increaseAngerAt$4(LivingEntity)
-+ Boolean lambda$onSignalReceive$5(LivingEntity)
-+ float getTendrilAnimation(float)
-+ void lambda$addAdditionalSaveData$1(Tag)
-+ void lambda$readAdditionalSaveData$2(AngerManagement)
-+ void lambda$readAdditionalSaveData$3(VibrationListener)
-+ void onSignalReceive(Entity,int)
-- boolean lambda$increaseAngerAt$2(LivingEntity)
-- Boolean lambda$onSignalReceive$3(LivingEntity)
-- Brain$Provider brainProvider()
-- float getEarAnimation(float)
-- void lambda$readAdditionalSaveData$1(AngerManagement)
-- void onSignalReceive(Entity,int)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
-
-```diff
-+ List MEMORY_TYPES
-+ List SENSOR_TYPES
-+ Brain makeBrain(Dynamic)
-- Brain makeBrain(Brain)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.vehicle.Minecart</summary>
-
-```diff
-+ Item getDropItem()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
-
-```diff
-+ Item getDropItem()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartFurnace</summary>
-
-```diff
-+ Item getDropItem()
-- void destroy(DamageSource)
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner</summary>
-
-```diff
-+ Item getDropItem()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
-
-```diff
-+ Item getDropItem()
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.StructureManager</summary>
-
-```diff
-+ List startsForStructure(Predicate)
-- List startsForStructure(Predicate)
-```
-
-</details>
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Biome$TemperatureModifier</summary>
-
-```diff
-- Map BY_NAME
-- Biome$TemperatureModifier byName(String)
-- Biome$TemperatureModifier lambda$static$0(Biome$TemperatureModifier)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
-
-```diff
-+ void playNote(BlockPos)
-- void playNote(BlockPos)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
-
-```diff
-+ BooleanProperty CAN_SUMMON
-+ void lambda$getTicker$3(SculkShriekerBlockEntity)
-- void lambda$getTicker$4(SculkShriekerBlockEntity)
-- void lambda$shriek$3(WardenSpawnTracker)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
-
-```diff
-+ void emitState(BlockPos,boolean,boolean,boolean,boolean)
-- void playSound(BlockPos,boolean,boolean,boolean,boolean)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
-
-```diff
-+ void onSignalReceive(Entity,int)
-+ void onSignalSchedule()
-- void onSignalReceive(Entity,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ GameEvent BLOCK_ACTIVATE
-+ GameEvent BLOCK_DEACTIVATE
-+ GameEvent DRINK
-+ GameEvent ELYTRA_GLIDE
-+ GameEvent ENTITY_DAMAGE
-+ GameEvent ENTITY_DIE
-+ GameEvent ENTITY_INTERACT
-+ GameEvent ENTITY_ROAR
-+ GameEvent ENTITY_SHAKE
-+ GameEvent ITEM_INTERACT_FINISH
-+ GameEvent ITEM_INTERACT_START
-+ GameEvent NOTE_BLOCK_PLAY
-- GameEvent BLOCK_PRESS
-- GameEvent BLOCK_SWITCH
-- GameEvent BLOCK_UNPRESS
-- GameEvent BLOCK_UNSWITCH
-- GameEvent DRINKING_FINISH
-- GameEvent ELYTRA_FREE_FALL
-- GameEvent ENTITY_DAMAGED
-- GameEvent ENTITY_DYING
-- GameEvent ENTITY_KILLED
-- GameEvent FISHING_ROD_CAST
-- GameEvent FISHING_ROD_REEL_IN
-- GameEvent MINECART_MOVING
-- GameEvent MOB_INTERACT
-- GameEvent RAVAGER_ROAR
-- GameEvent RING_BELL
-- GameEvent SHULKER_CLOSE
-- GameEvent SHULKER_OPEN
-- GameEvent WOLF_SHAKING
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener$ReceivingEvent</summary>
-
-```diff
-+ UUID projectileOwnerUuid
-+ App lambda$static$3(RecordCodecBuilder$Instance)
-+ boolean lambda$getProjectileOwner$5(Entity)
-+ Optional getProjectileOwner(ServerLevel)
-+ Optional lambda$getEntity$4(ServerLevel)
-+ Optional lambda$getProjectileOwner$7(ServerLevel)
-+ Optional lambda$static$0(VibrationListener$ReceivingEvent)
-+ Optional lambda$static$1(VibrationListener$ReceivingEvent)
-+ Projectile lambda$getProjectileOwner$6(Entity)
-+ UUID getProjectileOwner(Entity)
-+ UUID projectileOwnerUuid()
-+ VibrationListener$ReceivingEvent lambda$static$2(Optional)
-+ void <init>(Entity)
-+ void <init>(UUID)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- Optional lambda$getEntity$1(ServerLevel)
-- void <init>(Entity)
-- void <init>(UUID)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
-
-```diff
-- ObjectList junctions
-- ObjectList rigids
-+ Beardifier forStructuresInChunk(ChunkPos)
-+ boolean isInKernelRange(int)
-+ boolean lambda$forStructuresInChunk$1(Structure)
-+ double computeBeardContribution(int,double,int)
-+ double getBeardContribution(int,int,int,int)
-+ void <init>(ObjectListIterator)
-+ void lambda$forStructuresInChunk$2(StructureStart)
-- double getBeardContribution(int,int,int)
-- void <init>(ChunkAccess)
-- void lambda$new$1(StructureStart)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
-
-```diff
-- Map BY_NAME
-- GenerationStep$Decoration byName(String)
-- GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType</summary>
-
-```diff
-- StructureSpawnOverride$BoundingBoxType[] VALUES
-- StructureSpawnOverride$BoundingBoxType byName(String)
-- StructureSpawnOverride$BoundingBoxType[] lambda$static$0()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.JungleTempleStructure</summary>
-
-```diff
-+ void <init>(Structure$StructureSettings)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- void <init>(GenerationStep$Decoration,boolean)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure</summary>
-
-```diff
-+ void <init>(MineshaftStructure$Type)
-- void <init>(MineshaftStructure$Type)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFossilStructure</summary>
-
-```diff
-+ void <init>(HeightProvider)
-- void <init>(HeightProvider)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure$Type</summary>
-
-```diff
-- Map BY_NAME
-- OceanRuinStructure$Type byName(String)
-- OceanRuinStructure$Type lambda$static$0(OceanRuinStructure$Type)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure</summary>
-
-```diff
-+ void <init>(List)
-+ void <init>(RuinedPortalStructure$Setup)
-- void <init>(List)
-- void <init>(RuinedPortalStructure$Setup)
-```
-
-</details>
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.ShipwreckStructure</summary>
-
-```diff
-+ void <init>(Structure$StructureSettings,boolean)
-- void <init>(GenerationStep$Decoration,boolean,boolean)
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Turn</summary>
-
-```diff
-- NoiseEffect getNoiseEffect()
-```
-
-</details>
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure</summary>
-
-```diff
-+ void <init>(Structure$StructureSettings)
-+ void lambda$findGenerationPoint$0(StructurePiecesBuilder)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- void <init>(GenerationStep$Decoration,boolean)
-- void lambda$findGenerationPoint$1(StructurePiecesBuilder)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor</summary>
-
-```diff
-+ Optional rottableBlocks
-+ App lambda$static$2(RecordCodecBuilder$Instance)
-+ Float lambda$static$1(BlockRotProcessor)
-+ Optional lambda$static$0(BlockRotProcessor)
-+ void <init>(Optional,float)
-+ void <init>(TagKey,float)
-- Float lambda$static$0(BlockRotProcessor)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.client.model.AllayModel
@@ -4985,837 +1075,159 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.advancements.CriteriaTriggers</summary>
+<details><summary>net.minecraft.advancements.critereon.KilledTrigger$TriggerInstance</summary>
 
 ```diff
-+ KilledTrigger KILL_MOB_NEAR_SCULK_CATALYST
++ KilledTrigger$TriggerInstance playerKilledEntityNearSculkCatalyst()
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+<details><summary>net.minecraft.client.OptionInstance</summary>
 
 ```diff
-+ float[] NORMAL_LEAVES_STICK_CHANCES
-+ LootTable$Builder createMangroveLeavesDrops(Block)
+- Component getCaption()
+- Component lambda$createBoolean$2(Boolean)
++ Component lambda$createBoolean$2(Component,Boolean)
++ Component lambda$forOptionEnum$8(Component,OptionEnum)
++ Component lambda$new$3(OptionInstance$CaptionBasedToString,Object)
+- Function noTooltip()
++ List lambda$cachedConstantTooltip$6(List,Object)
+- List lambda$noTooltip$3(Object)
++ List lambda$noTooltip$4(Object)
++ List splitTooltip(Minecraft,Component)
+- Object lambda$set$5(Object)
++ Object lambda$set$9(Object)
+- OptionInstance createBoolean(String,Function,boolean,Consumer)
+- OptionInstance createBoolean(String,Function,boolean)
++ OptionInstance createBoolean(String,OptionInstance$TooltipSupplierFactory,boolean,Consumer)
++ OptionInstance createBoolean(String,OptionInstance$TooltipSupplierFactory,boolean)
++ OptionInstance$CaptionBasedToString forOptionEnum()
++ OptionInstance$TooltipSupplier lambda$cachedConstantTooltip$7(Component,Minecraft)
+- OptionInstance$TooltipSupplier lambda$noTooltip$4(Minecraft)
++ OptionInstance$TooltipSupplier lambda$noTooltip$5(Minecraft)
++ OptionInstance$TooltipSupplierFactory cachedConstantTooltip(Component)
++ OptionInstance$TooltipSupplierFactory noTooltip()
+- OptionInstance$ValueSet clampingLazyMax(int,IntSupplier)
+- void <init>(String,Function,Function,OptionInstance$ValueSet,Codec,Object,Consumer)
+- void <init>(String,Function,Function,OptionInstance$ValueSet,Object,Consumer)
++ void <init>(String,OptionInstance$TooltipSupplierFactory,OptionInstance$CaptionBasedToString,OptionInstance$ValueSet,Codec,Object,Consumer)
++ void <init>(String,OptionInstance$TooltipSupplierFactory,OptionInstance$CaptionBasedToString,OptionInstance$ValueSet,Object,Consumer)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
+<details><summary>net.minecraft.client.OptionInstance$Enum</summary>
 
 ```diff
-+ TextureMapping sculkShrieker(boolean)
+- AbstractWidget lambda$createButton$1(OptionInstance$TooltipSupplier,int,int,int,Options,OptionInstance)
++ CycleButton$ValueListSupplier valueListSupplier()
+- Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)
+- void lambda$createButton$0(OptionInstance,Options,CycleButton,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.ProcessorLists</summary>
+<details><summary>net.minecraft.client.OptionInstance$IntRangeBase</summary>
 
 ```diff
-+ Holder ANCIENT_CITY_GENERIC_DEGRADATION
-+ Holder ANCIENT_CITY_START_DEGRADATION
-+ Holder ANCIENT_CITY_WALLS_DEGRADATION
+- AbstractWidget lambda$createButton$0(Options,int,int,int,OptionInstance$TooltipSupplier,OptionInstance)
+- Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)
 ```
 
 </details>
 
 
-<details><summary>net.minecraft.data.worldgen.Structures</summary>
+<details><summary>net.minecraft.client.OptionInstance$LazyEnum</summary>
 
 ```diff
-+ Holder ANCIENT_CITY
-+ MobCategory lambda$static$0(MobCategory)
-+ Structure$StructureSettings structure(TerrainAdjustment)
-+ Structure$StructureSettings structure(TerrainAdjustment)
-+ Structure$StructureSettings structure(TerrainAdjustment)
-+ StructureSpawnOverride lambda$static$1(MobCategory)
+- AbstractWidget lambda$createButton$1(OptionInstance$TooltipSupplier,int,int,int,Options,OptionInstance)
++ CycleButton$ValueListSupplier valueListSupplier()
+- Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)
+- void lambda$createButton$0(OptionInstance,Options,CycleButton,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+<details><summary>net.minecraft.client.OptionInstance$UnitDouble</summary>
 
 ```diff
-+ void assertItemEntityNotPresent(BlockPos,double)
+- AbstractWidget lambda$createButton$0(Options,int,int,int,OptionInstance$TooltipSupplier,OptionInstance)
++ Double lambda$codec$0(Double)
++ Double lambda$codec$1(Boolean)
+- Double lambda$codec$1(Double)
+- Double lambda$codec$2(Boolean)
++ Double lambda$codec$2(Either)
+- Double lambda$codec$3(Either)
+- Function createButton(OptionInstance$TooltipSupplier,Options,int,int,int)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.sounds.SoundEvents</summary>
+<details><summary>net.minecraft.client.gui.components.CycleButton$Builder</summary>
 
 ```diff
-+ SoundEvent ALLAY_AMBIENT_WITH_ITEM
-+ SoundEvent ALLAY_AMBIENT_WITHOUT_ITEM
-+ SoundEvent ALLAY_DEATH
-+ SoundEvent ALLAY_FLAP
-+ SoundEvent ALLAY_HURT
-+ SoundEvent ALLAY_ITEM_GIVEN
-+ SoundEvent ALLAY_ITEM_TAKEN
++ CycleButton$Builder withValues(CycleButton$ValueListSupplier)
 ```
 
 </details>
 
 
-
-
-
-
-
-<details><summary>net.minecraft.tags.BiomeTags</summary>
+<details><summary>net.minecraft.core.Direction</summary>
 
 ```diff
-+ TagKey HAS_ANCIENT_CITY
++ boolean lambda$static$2(Direction)
+- boolean lambda$static$3(Direction)
+- Direction lambda$static$0(Direction)
++ Direction lambda$static$6(Direction)
++ Direction lambda$static$7(Direction,Direction)
+- Direction lambda$static$7(Direction)
+- Direction lambda$static$8(Direction,Direction)
++ Direction[] lambda$static$1(int)
+- Direction[] lambda$static$2(int)
++ Direction[] lambda$static$4(int)
+- Direction[] lambda$static$5(int)
++ int lambda$static$0(Direction)
+- int lambda$static$1(Direction)
++ int lambda$static$3(Direction)
+- int lambda$static$4(Direction)
++ Long lambda$static$5(Direction)
+- Long lambda$static$6(Direction)
 ```
 
 </details>
 
 
-
-<details><summary>net.minecraft.tags.ItemTags</summary>
+<details><summary>net.minecraft.core.Direction$Axis</summary>
 
 ```diff
-+ TagKey WOOL_CARPETS
-- TagKey CARPETS
+- Direction$Axis lambda$static$0(Direction$Axis)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.core.dispenser.BoatDispenseItemBehavior</summary>
+
+```diff
++ void <init>(Boat$Type,boolean)
+```
+
+</details>
 
 
+<details><summary>net.minecraft.data.recipes.RecipeProvider</summary>
 
+```diff
++ void chestBoat(Consumer,ItemLike,ItemLike)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.util.Mth</summary>
@@ -5827,415 +1239,47 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.entity.EntityType</summary>
-
-```diff
-+ EntityType ALLAY
-```
-
-</details>
-
-
-
-
-
 <details><summary>net.minecraft.world.entity.HumanoidArm</summary>
 
 ```diff
-+ int id
-+ String name
-- Component name
+- Component getName()
 + int getId()
 + String getKey()
-+ void <init>(String)
-- Component getName()
 - String toString()
-- void <init>(Component)
+- void <init>(String,int,Component)
++ void <init>(String,int,int,String)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
 
 ```diff
-+ void setWalkAndLookTargetMemories(PositionTracker,float,int)
++ void setWalkAndLookTargetMemories(LivingEntity,PositionTracker,float,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.animal.frog.ShootTongue</summary>
 
 ```diff
-+ int CATCH_ANIMATION_DURATION
-- boolean finishedEating
-+ void eatEntity(Frog)
++ void eatEntity(ServerLevel,Frog)
 ```
 
 </details>
-
-<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue$State</summary>
-
-```diff
-+ ShootTongue$State CATCH_ANIMATION
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.monster.warden.AngerManagement</summary>
 
 ```diff
 + boolean lambda$getActiveEntity$3(Entity)
-+ Integer lambda$addAnger$2(Integer)
-+ LivingEntity lambda$getActiveEntity$4(Entity)
 - boolean lambda$getActiveEntity$5(Entity)
-- Integer lambda$addAnger$4(Integer)
-- Integer lambda$tick$2(Integer)
++ Integer lambda$addAnger$2(int,UUID,Integer)
+- Integer lambda$addAnger$4(int,UUID,Integer)
+- Integer lambda$tick$2(UUID,Integer)
++ LivingEntity lambda$getActiveEntity$4(Entity)
 - LivingEntity lambda$getActiveEntity$6(Entity)
 - void lambda$tick$3(UUID)
 ```
@@ -6243,89 +1287,35 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
 
 ```diff
-- List MEMORY_TYPES
-- List SENSOR_TYPES
-+ boolean lambda$increaseAngerAt$4(LivingEntity)
-+ Boolean lambda$onSignalReceive$5(LivingEntity)
-+ float getTendrilAnimation(float)
-+ void lambda$addAdditionalSaveData$1(Tag)
-+ void lambda$readAdditionalSaveData$2(AngerManagement)
-+ void lambda$readAdditionalSaveData$3(VibrationListener)
-+ void onSignalReceive(Entity,int)
 - boolean lambda$increaseAngerAt$2(LivingEntity)
-- Boolean lambda$onSignalReceive$3(LivingEntity)
++ boolean lambda$increaseAngerAt$4(LivingEntity)
+- Boolean lambda$onSignalReceive$3(Entity,LivingEntity)
++ Boolean lambda$onSignalReceive$5(Entity,LivingEntity)
 - Brain$Provider brainProvider()
 - float getEarAnimation(float)
++ float getTendrilAnimation(float)
++ void lambda$addAdditionalSaveData$1(CompoundTag,Tag)
 - void lambda$readAdditionalSaveData$1(AngerManagement)
-- void onSignalReceive(Entity,int)
++ void lambda$readAdditionalSaveData$2(AngerManagement)
++ void lambda$readAdditionalSaveData$3(VibrationListener)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
 
 ```diff
-+ List MEMORY_TYPES
-+ List SENSOR_TYPES
-+ Brain makeBrain(Dynamic)
-- Brain makeBrain(Brain)
+- Brain makeBrain(Warden,Brain)
++ Brain makeBrain(Warden,Dynamic)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.entity.vehicle.Minecart</summary>
@@ -6336,6 +1326,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
 
 ```diff
@@ -6343,6 +1334,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.vehicle.MinecartFurnace</summary>
 
@@ -6353,6 +1345,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner</summary>
 
 ```diff
@@ -6360,6 +1353,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
 
@@ -6370,224 +1364,19 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.StructureManager</summary>
 
 ```diff
-+ List startsForStructure(Predicate)
-- List startsForStructure(Predicate)
++ List startsForStructure(ChunkPos,Predicate)
+- List startsForStructure(SectionPos,Predicate)
 ```
 
 </details>
 
 
-
-
-
 <details><summary>net.minecraft.world.level.biome.Biome$TemperatureModifier</summary>
 
 ```diff
-- Map BY_NAME
 - Biome$TemperatureModifier byName(String)
 - Biome$TemperatureModifier lambda$static$0(Biome$TemperatureModifier)
 ```
@@ -6595,413 +1384,56 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.block.NoteBlock</summary>
 
 ```diff
-+ void playNote(BlockPos)
-- void playNote(BlockPos)
++ void playNote(Entity,Level,BlockPos)
+- void playNote(Level,BlockPos)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
 
 ```diff
-+ BooleanProperty CAN_SUMMON
-+ void lambda$getTicker$3(SculkShriekerBlockEntity)
-- void lambda$getTicker$4(SculkShriekerBlockEntity)
-- void lambda$shriek$3(WardenSpawnTracker)
++ void lambda$getTicker$3(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
+- void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
+- void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
 
 ```diff
-+ void emitState(BlockPos,boolean,boolean,boolean,boolean)
-- void playSound(BlockPos,boolean,boolean,boolean,boolean)
++ void emitState(Level,BlockPos,boolean,boolean,boolean,boolean)
+- void playSound(Level,BlockPos,boolean,boolean,boolean,boolean)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
 
 ```diff
-+ void onSignalReceive(Entity,int)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
 + void onSignalSchedule()
-- void onSignalReceive(Entity,int)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.gameevent.GameEvent</summary>
-
-```diff
-+ GameEvent BLOCK_ACTIVATE
-+ GameEvent BLOCK_DEACTIVATE
-+ GameEvent DRINK
-+ GameEvent ELYTRA_GLIDE
-+ GameEvent ENTITY_DAMAGE
-+ GameEvent ENTITY_DIE
-+ GameEvent ENTITY_INTERACT
-+ GameEvent ENTITY_ROAR
-+ GameEvent ENTITY_SHAKE
-+ GameEvent ITEM_INTERACT_FINISH
-+ GameEvent ITEM_INTERACT_START
-+ GameEvent NOTE_BLOCK_PLAY
-- GameEvent BLOCK_PRESS
-- GameEvent BLOCK_SWITCH
-- GameEvent BLOCK_UNPRESS
-- GameEvent BLOCK_UNSWITCH
-- GameEvent DRINKING_FINISH
-- GameEvent ELYTRA_FREE_FALL
-- GameEvent ENTITY_DAMAGED
-- GameEvent ENTITY_DYING
-- GameEvent ENTITY_KILLED
-- GameEvent FISHING_ROD_CAST
-- GameEvent FISHING_ROD_REEL_IN
-- GameEvent MINECART_MOVING
-- GameEvent MOB_INTERACT
-- GameEvent RAVAGER_ROAR
-- GameEvent RING_BELL
-- GameEvent SHULKER_CLOSE
-- GameEvent SHULKER_OPEN
-- GameEvent WOLF_SHAKING
-```
-
-</details>
-
-
 
 
 <details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener$ReceivingEvent</summary>
 
 ```diff
-+ UUID projectileOwnerUuid
+- App lambda$static$0(RecordCodecBuilder$Instance)
 + App lambda$static$3(RecordCodecBuilder$Instance)
 + boolean lambda$getProjectileOwner$5(Entity)
 + Optional getProjectileOwner(ServerLevel)
+- Optional lambda$getEntity$1(ServerLevel)
 + Optional lambda$getEntity$4(ServerLevel)
 + Optional lambda$getProjectileOwner$7(ServerLevel)
 + Optional lambda$static$0(VibrationListener$ReceivingEvent)
@@ -7009,70 +1441,37 @@
 + Projectile lambda$getProjectileOwner$6(Entity)
 + UUID getProjectileOwner(Entity)
 + UUID projectileOwnerUuid()
-+ VibrationListener$ReceivingEvent lambda$static$2(Optional)
-+ void <init>(Entity)
-+ void <init>(UUID)
-- App lambda$static$0(RecordCodecBuilder$Instance)
-- Optional lambda$getEntity$1(ServerLevel)
-- void <init>(Entity)
-- void <init>(UUID)
++ VibrationListener$ReceivingEvent lambda$static$2(GameEvent,Integer,Vec3,Optional,Optional)
+- void <init>(GameEvent,int,Vec3,UUID,Entity)
++ void <init>(GameEvent,int,Vec3,UUID,UUID,Entity)
++ void <init>(GameEvent,int,Vec3,UUID,UUID)
+- void <init>(GameEvent,int,Vec3,UUID)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
 
 ```diff
-- ObjectList junctions
-- ObjectList rigids
-+ Beardifier forStructuresInChunk(ChunkPos)
++ Beardifier forStructuresInChunk(StructureManager,ChunkPos)
 + boolean isInKernelRange(int)
 + boolean lambda$forStructuresInChunk$1(Structure)
 + double computeBeardContribution(int,double,int)
 + double getBeardContribution(int,int,int,int)
-+ void <init>(ObjectListIterator)
-+ void lambda$forStructuresInChunk$2(StructureStart)
 - double getBeardContribution(int,int,int)
-- void <init>(ChunkAccess)
-- void lambda$new$1(StructureStart)
++ void <init>(ObjectListIterator,ObjectListIterator)
+- void <init>(StructureManager,ChunkAccess)
++ void lambda$forStructuresInChunk$2(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)
+- void lambda$new$1(ChunkPos,int,int,StructureStart)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
 
 ```diff
-- Map BY_NAME
 - GenerationStep$Decoration byName(String)
 - GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
 ```
@@ -7080,105 +1479,9 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType</summary>
 
 ```diff
-- StructureSpawnOverride$BoundingBoxType[] VALUES
 - StructureSpawnOverride$BoundingBoxType byName(String)
 - StructureSpawnOverride$BoundingBoxType[] lambda$static$0()
 ```
@@ -7186,67 +1489,40 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.JungleTempleStructure</summary>
 
 ```diff
-+ void <init>(Structure$StructureSettings)
 - App lambda$static$0(RecordCodecBuilder$Instance)
-- void <init>(GenerationStep$Decoration,boolean)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)
++ void <init>(Structure$StructureSettings)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure</summary>
 
 ```diff
-+ void <init>(MineshaftStructure$Type)
-- void <init>(MineshaftStructure$Type)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,MineshaftStructure$Type)
++ void <init>(Structure$StructureSettings,MineshaftStructure$Type)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFossilStructure</summary>
 
 ```diff
-+ void <init>(HeightProvider)
-- void <init>(HeightProvider)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,HeightProvider)
++ void <init>(Structure$StructureSettings,HeightProvider)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure$Type</summary>
 
 ```diff
-- Map BY_NAME
 - OceanRuinStructure$Type byName(String)
 - OceanRuinStructure$Type lambda$static$0(OceanRuinStructure$Type)
 ```
@@ -7257,10 +1533,10 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure</summary>
 
 ```diff
-+ void <init>(List)
-+ void <init>(RuinedPortalStructure$Setup)
-- void <init>(List)
-- void <init>(RuinedPortalStructure$Setup)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,List)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,RuinedPortalStructure$Setup)
++ void <init>(Structure$StructureSettings,List)
++ void <init>(Structure$StructureSettings,RuinedPortalStructure$Setup)
 ```
 
 </details>
@@ -7269,12 +1545,11 @@
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.ShipwreckStructure</summary>
 
 ```diff
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,boolean)
 + void <init>(Structure$StructureSettings,boolean)
-- void <init>(GenerationStep$Decoration,boolean,boolean)
 ```
 
 </details>
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor</summary>
@@ -7286,7 +1561,6 @@
 </details>
 
 
-
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall</summary>
 
 ```diff
@@ -7294,6 +1568,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing</summary>
 
@@ -7303,6 +1578,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown</summary>
 
 ```diff
@@ -7310,6 +1586,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight</summary>
 
@@ -7319,6 +1596,7 @@
 
 </details>
 
+
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece</summary>
 
 ```diff
@@ -7326,6 +1604,7 @@
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Turn</summary>
 
@@ -7336,265 +1615,39 @@
 </details>
 
 
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure</summary>
 
 ```diff
-+ void <init>(Structure$StructureSettings)
-+ void lambda$findGenerationPoint$0(StructurePiecesBuilder)
 - App lambda$static$0(RecordCodecBuilder$Instance)
-- void <init>(GenerationStep$Decoration,boolean)
-- void lambda$findGenerationPoint$1(StructurePiecesBuilder)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)
++ void <init>(Structure$StructureSettings)
++ void lambda$findGenerationPoint$0(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)
+- void lambda$findGenerationPoint$1(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)
 ```
 
 </details>
-
-
 
 
 <details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor</summary>
 
 ```diff
-+ Optional rottableBlocks
 + App lambda$static$2(RecordCodecBuilder$Instance)
+- Float lambda$static$0(BlockRotProcessor)
 + Float lambda$static$1(BlockRotProcessor)
 + Optional lambda$static$0(BlockRotProcessor)
 + void <init>(Optional,float)
 + void <init>(TagKey,float)
-- Float lambda$static$0(BlockRotProcessor)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 + net.minecraft.data.worldgen.AncientCityStructurePieces
@@ -8243,13 +2296,1009 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.data.loot.BlockLoot</summary>
+
+```diff
++ LootTable$Builder createMangroveLeavesDrops(Block)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.model.TextureMapping</summary>
+
+```diff
++ TextureMapping sculkShrieker(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.worldgen.Structures</summary>
+
+```diff
++ MobCategory lambda$static$0(MobCategory)
++ Structure$StructureSettings structure(TagKey,GenerationStep$Decoration,TerrainAdjustment)
++ Structure$StructureSettings structure(TagKey,Map,GenerationStep$Decoration,TerrainAdjustment)
++ Structure$StructureSettings structure(TagKey,TerrainAdjustment)
++ StructureSpawnOverride lambda$static$1(MobCategory)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.gametest.framework.GameTestHelper</summary>
+
+```diff
++ void assertItemEntityNotPresent(Item,BlockPos,double)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.util.Mth</summary>
+
+```diff
++ float cube(float)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.HumanoidArm</summary>
+
+```diff
+- Component getName()
++ int getId()
++ String getKey()
+- String toString()
+- void <init>(String,int,Component)
++ void <init>(String,int,int,String)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.ai.behavior.BehaviorUtils</summary>
+
+```diff
++ void setWalkAndLookTargetMemories(LivingEntity,PositionTracker,float,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.frog.ShootTongue</summary>
+
+```diff
++ void eatEntity(ServerLevel,Frog)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.AngerManagement</summary>
+
+```diff
++ boolean lambda$getActiveEntity$3(Entity)
+- boolean lambda$getActiveEntity$5(Entity)
++ Integer lambda$addAnger$2(int,UUID,Integer)
+- Integer lambda$addAnger$4(int,UUID,Integer)
+- Integer lambda$tick$2(UUID,Integer)
++ LivingEntity lambda$getActiveEntity$4(Entity)
+- LivingEntity lambda$getActiveEntity$6(Entity)
+- void lambda$tick$3(UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.Warden</summary>
+
+```diff
+- boolean lambda$increaseAngerAt$2(LivingEntity)
++ boolean lambda$increaseAngerAt$4(LivingEntity)
+- Boolean lambda$onSignalReceive$3(Entity,LivingEntity)
++ Boolean lambda$onSignalReceive$5(Entity,LivingEntity)
+- Brain$Provider brainProvider()
+- float getEarAnimation(float)
++ float getTendrilAnimation(float)
++ void lambda$addAdditionalSaveData$1(CompoundTag,Tag)
+- void lambda$readAdditionalSaveData$1(AngerManagement)
++ void lambda$readAdditionalSaveData$2(AngerManagement)
++ void lambda$readAdditionalSaveData$3(VibrationListener)
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.monster.warden.WardenAi</summary>
+
+```diff
+- Brain makeBrain(Warden,Brain)
++ Brain makeBrain(Warden,Dynamic)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.Minecart</summary>
+
+```diff
++ Item getDropItem()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartCommandBlock</summary>
+
+```diff
++ Item getDropItem()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartFurnace</summary>
+
+```diff
++ Item getDropItem()
+- void destroy(DamageSource)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartSpawner</summary>
+
+```diff
++ Item getDropItem()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.vehicle.MinecartTNT</summary>
+
+```diff
++ Item getDropItem()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.StructureManager</summary>
+
+```diff
++ List startsForStructure(ChunkPos,Predicate)
+- List startsForStructure(SectionPos,Predicate)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Biome$TemperatureModifier</summary>
+
+```diff
+- Biome$TemperatureModifier byName(String)
+- Biome$TemperatureModifier lambda$static$0(Biome$TemperatureModifier)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.NoteBlock</summary>
+
+```diff
++ void playNote(Entity,Level,BlockPos)
+- void playNote(Level,BlockPos)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.SculkShriekerBlock</summary>
+
+```diff
++ void lambda$getTicker$3(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
+- void lambda$getTicker$4(Level,BlockPos,BlockState,SculkShriekerBlockEntity)
+- void lambda$shriek$3(ServerLevel,BlockPos,BlockState,WardenSpawnTracker)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.TripWireHookBlock</summary>
+
+```diff
++ void emitState(Level,BlockPos,boolean,boolean,boolean,boolean)
+- void playSound(Level,BlockPos,boolean,boolean,boolean,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.block.entity.SculkSensorBlockEntity</summary>
+
+```diff
++ void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,Entity,int)
+- void onSignalReceive(ServerLevel,GameEventListener,BlockPos,GameEvent,Entity,int)
++ void onSignalSchedule()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.gameevent.vibrations.VibrationListener$ReceivingEvent</summary>
+
+```diff
+- App lambda$static$0(RecordCodecBuilder$Instance)
++ App lambda$static$3(RecordCodecBuilder$Instance)
++ boolean lambda$getProjectileOwner$5(Entity)
++ Optional getProjectileOwner(ServerLevel)
+- Optional lambda$getEntity$1(ServerLevel)
++ Optional lambda$getEntity$4(ServerLevel)
++ Optional lambda$getProjectileOwner$7(ServerLevel)
++ Optional lambda$static$0(VibrationListener$ReceivingEvent)
++ Optional lambda$static$1(VibrationListener$ReceivingEvent)
++ Projectile lambda$getProjectileOwner$6(Entity)
++ UUID getProjectileOwner(Entity)
++ UUID projectileOwnerUuid()
++ VibrationListener$ReceivingEvent lambda$static$2(GameEvent,Integer,Vec3,Optional,Optional)
+- void <init>(GameEvent,int,Vec3,UUID,Entity)
++ void <init>(GameEvent,int,Vec3,UUID,UUID,Entity)
++ void <init>(GameEvent,int,Vec3,UUID,UUID)
+- void <init>(GameEvent,int,Vec3,UUID)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.Beardifier</summary>
+
+```diff
++ Beardifier forStructuresInChunk(StructureManager,ChunkPos)
++ boolean isInKernelRange(int)
++ boolean lambda$forStructuresInChunk$1(Structure)
++ double computeBeardContribution(int,double,int)
++ double getBeardContribution(int,int,int,int)
+- double getBeardContribution(int,int,int)
++ void <init>(ObjectListIterator,ObjectListIterator)
+- void <init>(StructureManager,ChunkAccess)
++ void lambda$forStructuresInChunk$2(ChunkPos,ObjectList,int,int,ObjectList,StructureStart)
+- void lambda$new$1(ChunkPos,int,int,StructureStart)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.GenerationStep$Decoration</summary>
+
+```diff
+- GenerationStep$Decoration byName(String)
+- GenerationStep$Decoration lambda$static$0(GenerationStep$Decoration)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.StructureSpawnOverride$BoundingBoxType</summary>
+
+```diff
+- StructureSpawnOverride$BoundingBoxType byName(String)
+- StructureSpawnOverride$BoundingBoxType[] lambda$static$0()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.JungleTempleStructure</summary>
+
+```diff
+- App lambda$static$0(RecordCodecBuilder$Instance)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)
++ void <init>(Structure$StructureSettings)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure</summary>
+
+```diff
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,MineshaftStructure$Type)
++ void <init>(Structure$StructureSettings,MineshaftStructure$Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.NetherFossilStructure</summary>
+
+```diff
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,HeightProvider)
++ void <init>(Structure$StructureSettings,HeightProvider)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure$Type</summary>
+
+```diff
+- OceanRuinStructure$Type byName(String)
+- OceanRuinStructure$Type lambda$static$0(OceanRuinStructure$Type)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.RuinedPortalStructure</summary>
+
+```diff
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,List)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,RuinedPortalStructure$Setup)
++ void <init>(Structure$StructureSettings,List)
++ void <init>(Structure$StructureSettings,RuinedPortalStructure$Setup)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.ShipwreckStructure</summary>
+
+```diff
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean,boolean)
++ void <init>(Structure$StructureSettings,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$FillerCorridor</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PrisonHall</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$RoomCrossing</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Straight</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StrongholdPiece</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$Turn</summary>
+
+```diff
+- NoiseEffect getNoiseEffect()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure</summary>
+
+```diff
+- App lambda$static$0(RecordCodecBuilder$Instance)
+- void <init>(HolderSet,Map,GenerationStep$Decoration,boolean)
++ void <init>(Structure$StructureSettings)
++ void lambda$findGenerationPoint$0(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)
+- void lambda$findGenerationPoint$1(Structure$GenerationContext,BlockPos,Rotation,StructurePiecesBuilder)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.structure.templatesystem.BlockRotProcessor</summary>
+
+```diff
++ App lambda$static$2(RecordCodecBuilder$Instance)
+- Float lambda$static$0(BlockRotProcessor)
++ Float lambda$static$1(BlockRotProcessor)
++ Optional lambda$static$0(BlockRotProcessor)
++ void <init>(Optional,float)
++ void <init>(TagKey,float)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>data/</summary>
+
+```diff
++ minecraft/advancements/adventure/kill_mob_near_sculk_catalyst.json
++ minecraft/advancements/husbandry/froglights.json
++ minecraft/advancements/husbandry/tadpole_in_a_bucket.json
++ minecraft/loot_tables/blocks/reinforced_deepslate.json
++ minecraft/loot_tables/chests/ancient_city_ice_box.json
++ minecraft/loot_tables/chests/ancient_city.json
++ minecraft/loot_tables/entities/allay.json
++ minecraft/structures/ancient_city/city_center/city_center_1.nbt
++ minecraft/structures/ancient_city/city_center/city_center_2.nbt
++ minecraft/structures/ancient_city/city_center/city_center_3.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_1.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_2.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_left_corner.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_1.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_right_corner_2.nbt
++ minecraft/structures/ancient_city/city_center/walls/bottom_right_corner.nbt
++ minecraft/structures/ancient_city/city_center/walls/left.nbt
++ minecraft/structures/ancient_city/city_center/walls/right.nbt
++ minecraft/structures/ancient_city/city_center/walls/top_left_corner.nbt
++ minecraft/structures/ancient_city/city_center/walls/top_right_corner.nbt
++ minecraft/structures/ancient_city/city_center/walls/top.nbt
++ minecraft/structures/ancient_city/city/entrance/bottom_piece_1.nbt
++ minecraft/structures/ancient_city/city/entrance/bottom_piece_2.nbt
++ minecraft/structures/ancient_city/city/entrance/bottom_piece_3.nbt
++ minecraft/structures/ancient_city/city/entrance/bottom_piece.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_connector.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_path_1.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_path_2.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_path_3.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_path_4.nbt
++ minecraft/structures/ancient_city/city/entrance/entrance_path_5.nbt
++ minecraft/structures/ancient_city/city/entrance/top_piece.nbt
++ minecraft/structures/ancient_city/structures/barracks.nbt
++ minecraft/structures/ancient_city/structures/camp_1.nbt
++ minecraft/structures/ancient_city/structures/camp_2.nbt
++ minecraft/structures/ancient_city/structures/camp_3.nbt
++ minecraft/structures/ancient_city/structures/chamber_1.nbt
++ minecraft/structures/ancient_city/structures/chamber_2.nbt
++ minecraft/structures/ancient_city/structures/chamber_3.nbt
++ minecraft/structures/ancient_city/structures/ice_box_1.nbt
++ minecraft/structures/ancient_city/structures/large_pillar_1.nbt
++ minecraft/structures/ancient_city/structures/large_ruin_1.nbt
++ minecraft/structures/ancient_city/structures/medium_pillar_1.nbt
++ minecraft/structures/ancient_city/structures/medium_ruin_1.nbt
++ minecraft/structures/ancient_city/structures/medium_ruin_2.nbt
++ minecraft/structures/ancient_city/structures/sauna_1.nbt
++ minecraft/structures/ancient_city/structures/small_portal_statue.nbt
++ minecraft/structures/ancient_city/structures/small_ruin_1.nbt
++ minecraft/structures/ancient_city/structures/small_ruin_2.nbt
++ minecraft/structures/ancient_city/structures/small_statue.nbt
++ minecraft/structures/ancient_city/structures/tall_ruin_1.nbt
++ minecraft/structures/ancient_city/structures/tall_ruin_2.nbt
++ minecraft/structures/ancient_city/structures/tall_ruin_3.nbt
++ minecraft/structures/ancient_city/structures/tall_ruin_4.nbt
++ minecraft/structures/ancient_city/walls/intact_corner_wall_1.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_1.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_2.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_bridge.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_passage_1.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_1.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_2.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_3.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_4.nbt
++ minecraft/structures/ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
++ minecraft/structures/ancient_city/walls/intact_intersection_wall_1.nbt
++ minecraft/structures/ancient_city/walls/intact_lshape_wall_1.nbt
++ minecraft/structures/ancient_city/walls/ruined_corner_wall_1.nbt
++ minecraft/structures/ancient_city/walls/ruined_corner_wall_2.nbt
++ minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_1.nbt
++ minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_2.nbt
++ minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_3.nbt
++ minecraft/structures/ancient_city/walls/ruined_horizontal_wall_stairs_4.nbt
++ minecraft/structures/pillager_outpost/feature_cage_with_allays.nbt
++ minecraft/tags/blocks/ancient_city_center_replaceable.json
++ minecraft/tags/blocks/ancient_city_replaceable.json
+- minecraft/tags/blocks/carpets.json
++ minecraft/tags/blocks/wool_carpets.json
++ minecraft/tags/game_events/ignore_vibrations_on_occluding_block.json
+- minecraft/tags/items/carpets.json
++ minecraft/tags/items/wool_carpets.json
++ minecraft/tags/worldgen/biome/has_structure/ancient_city.json
+```
+
+</details>
+
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/blockstates/reinforced_deepslate.json
++ minecraft/models/block/reinforced_deepslate.json
++ minecraft/models/block/sculk_shrieker_can_summon.json
++ minecraft/models/block/template_sculk_shrieker.json
++ minecraft/models/item/allay_spawn_egg.json
++ minecraft/models/item/reinforced_deepslate.json
++ minecraft/particles/allay_dust.json
++ minecraft/textures/block/reinforced_deepslate_bottom.png
++ minecraft/textures/block/reinforced_deepslate_side.png
++ minecraft/textures/block/reinforced_deepslate_top.png
++ minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png
++ minecraft/textures/block/sculk_shrieker_can_summon_inner_top.png.mcmeta
++ minecraft/textures/entity/allay/allay.png
+- minecraft/textures/entity/warden/warden_ears.png
+```
+
+</details>
+
+
+<details><summary>minecraft-generated/</summary>
+
+```diff
++ reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_ancient_city.json
++ reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch_deep_dark.json
+- reports/worldgen/minecraft/worldgen/configured_feature/sculk_patch.json
++ reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_ancient_city.json
++ reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch_deep_dark.json
+- reports/worldgen/minecraft/worldgen/placed_feature/sculk_patch.json
++ reports/worldgen/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/ancient_city_start_degradation.json
++ reports/worldgen/minecraft/worldgen/processor_list/ancient_city_walls_degradation.json
++ reports/worldgen/minecraft/worldgen/structure_set/ancient_cities.json
++ reports/worldgen/minecraft/worldgen/structure/ancient_city.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/sculk.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/structures.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls.json
++ reports/worldgen/minecraft/worldgen/template_pool/ancient_city/walls/no_corners.json
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>block.txt</summary>
+
+```diff
++ minecraft:reinforced_deepslate
+```
+
+</details>
+
+
+<details><summary>entity_type.txt</summary>
+
+```diff
++ minecraft:allay
+```
+
+</details>
+
+
+<details><summary>game_event.txt</summary>
+
+```diff
++ minecraft:block_activate
++ minecraft:block_deactivate
+- minecraft:block_press
+- minecraft:block_switch
+- minecraft:block_unpress
+- minecraft:block_unswitch
++ minecraft:drink
+- minecraft:drinking_finish
+- minecraft:elytra_free_fall
++ minecraft:elytra_glide
++ minecraft:entity_damage
+- minecraft:entity_damaged
++ minecraft:entity_die
+- minecraft:entity_dying
++ minecraft:entity_interact
+- minecraft:entity_killed
++ minecraft:entity_roar
++ minecraft:entity_shake
+- minecraft:fishing_rod_cast
+- minecraft:fishing_rod_reel_in
++ minecraft:item_interact_finish
++ minecraft:item_interact_start
+- minecraft:minecart_moving
+- minecraft:mob_interact
++ minecraft:note_block_play
+- minecraft:ravager_roar
+- minecraft:ring_bell
+- minecraft:shulker_close
+- minecraft:shulker_open
+- minecraft:wolf_shaking
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:allay_spawn_egg
++ minecraft:reinforced_deepslate
+```
+
+</details>
+
+
+<details><summary>memory_module_type.txt</summary>
+
+```diff
++ minecraft:item_pickup_cooldown_ticks
++ minecraft:liked_noteblock
++ minecraft:liked_noteblock_cooldown_ticks
++ minecraft:liked_player
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
++ minecraft:allay_dust
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:entity.allay.ambient_with_item
++ minecraft:entity.allay.ambient_without_item
++ minecraft:entity.allay.death
++ minecraft:entity.allay.flap
++ minecraft:entity.allay.hurt
++ minecraft:entity.allay.item_given
++ minecraft:entity.allay.item_taken
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>List</summary>
+
+```diff
++ blocks/ancient_city_center_replaceable.json
++ blocks/ancient_city_replaceable.json
+- blocks/carpets.json
++ blocks/wool_carpets.json
++ game_events/ignore_vibrations_on_occluding_block.json
+- items/carpets.json
++ items/wool_carpets.json
++ worldgen/biome/has_structure/ancient_city.json
+```
+
+</details>
+
+
+<details><summary>blocks/dragon_immune.json</summary>
+
+```diff
++ minecraft:reinforced_deepslate
+```
+
+</details>
+
+
+<details><summary>blocks/features_cannot_replace.json</summary>
+
+```diff
++ minecraft:reinforced_deepslate
+```
+
+</details>
+
+
+<details><summary>blocks/wither_immune.json</summary>
+
+```diff
++ minecraft:reinforced_deepslate
+```
+
+</details>
+
+
+<details><summary>game_events/vibrations.json</summary>
+
+```diff
++ minecraft:block_activate
++ minecraft:block_deactivate
+- minecraft:block_press
+- minecraft:block_switch
+- minecraft:block_unpress
+- minecraft:block_unswitch
++ minecraft:drink
+- minecraft:drinking_finish
+- minecraft:elytra_free_fall
++ minecraft:elytra_glide
++ minecraft:entity_damage
+- minecraft:entity_damaged
++ minecraft:entity_die
++ minecraft:entity_interact
+- minecraft:entity_killed
++ minecraft:entity_roar
++ minecraft:entity_shake
+- minecraft:fishing_rod_cast
+- minecraft:fishing_rod_reel_in
++ minecraft:item_interact_finish
++ minecraft:item_interact_start
+- minecraft:minecart_moving
+- minecraft:mob_interact
++ minecraft:note_block_play
+- minecraft:ravager_roar
+- minecraft:ring_bell
+- minecraft:shulker_close
+- minecraft:shulker_open
+- minecraft:wolf_shaking
+```
+
+</details>
+
+
+<details><summary>game_events/warden_events_can_listen.json</summary>
+
+```diff
++ minecraft:block_activate
++ minecraft:block_deactivate
+- minecraft:block_press
+- minecraft:block_switch
+- minecraft:block_unpress
+- minecraft:block_unswitch
++ minecraft:drink
+- minecraft:drinking_finish
+- minecraft:elytra_free_fall
++ minecraft:elytra_glide
++ minecraft:entity_damage
+- minecraft:entity_damaged
++ minecraft:entity_die
++ minecraft:entity_interact
+- minecraft:entity_killed
++ minecraft:entity_roar
++ minecraft:entity_shake
+- minecraft:fishing_rod_cast
+- minecraft:fishing_rod_reel_in
++ minecraft:flap
++ minecraft:item_interact_finish
++ minecraft:item_interact_start
+- minecraft:minecart_moving
+- minecraft:mob_interact
++ minecraft:note_block_play
+- minecraft:ravager_roar
+- minecraft:ring_bell
+- minecraft:shulker_close
+- minecraft:shulker_open
+- minecraft:wolf_shaking
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/spawns_cold_variant_frogs.json</summary>
+
+```diff
+- #minecraft:is_mountain
++ minecraft:deep_dark
++ minecraft:deep_frozen_ocean
++ minecraft:frozen_ocean
++ minecraft:frozen_peaks
++ minecraft:frozen_river
++ minecraft:grove
++ minecraft:jagged_peaks
++ minecraft:snowy_beach
++ minecraft:snowy_slopes
++ minecraft:snowy_taiga
+```
+
+</details>
+
+
+<details><summary>worldgen/biome/spawns_warm_variant_frogs.json</summary>
+
+```diff
++ minecraft:warm_ocean
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ advancements.adventure.kill_mob_near_sculk_catalyst.description
++ advancements.adventure.kill_mob_near_sculk_catalyst.title
++ advancements.husbandry.froglights.description
++ advancements.husbandry.froglights.title
++ advancements.husbandry.tadpole_in_a_bucket.description
++ advancements.husbandry.tadpole_in_a_bucket.title
++ block.minecraft.reinforced_deepslate
++ entity.minecraft.allay
++ item.minecraft.allay_spawn_egg
++ subtitles.entity.allay.ambient_with_item
++ subtitles.entity.allay.ambient_without_item
++ subtitles.entity.allay.death
++ subtitles.entity.allay.hurt
++ subtitles.entity.allay.item_given
++ subtitles.entity.allay.item_taken
++ subtitles.entity.allay.throw
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>advancements.txt</summary>
+
+```diff
++ adventure/kill_mob_near_sculk_catalyst.json
++ husbandry/froglights.json
++ husbandry/tadpole_in_a_bucket.json
+```
+
+</details>
+
+
+<details><summary>loot_tables.txt</summary>
+
+```diff
++ blocks/reinforced_deepslate.json
++ chests/ancient_city_ice_box.json
++ chests/ancient_city.json
++ entities/allay.json
+```
+
+</details>
+
+
+<details><summary>particles.txt</summary>
+
+```diff
++ allay_dust.json
+```
+
+</details>
+
+
+<details><summary>structures.txt</summary>
+
+```diff
++ ancient_city/city_center/city_center_1.nbt
++ ancient_city/city_center/city_center_2.nbt
++ ancient_city/city_center/city_center_3.nbt
++ ancient_city/city_center/walls/bottom_1.nbt
++ ancient_city/city_center/walls/bottom_2.nbt
++ ancient_city/city_center/walls/bottom_left_corner.nbt
++ ancient_city/city_center/walls/bottom_right_corner_1.nbt
++ ancient_city/city_center/walls/bottom_right_corner_2.nbt
++ ancient_city/city_center/walls/bottom_right_corner.nbt
++ ancient_city/city_center/walls/left.nbt
++ ancient_city/city_center/walls/right.nbt
++ ancient_city/city_center/walls/top_left_corner.nbt
++ ancient_city/city_center/walls/top_right_corner.nbt
++ ancient_city/city_center/walls/top.nbt
++ ancient_city/city/entrance/bottom_piece_1.nbt
++ ancient_city/city/entrance/bottom_piece_2.nbt
++ ancient_city/city/entrance/bottom_piece_3.nbt
++ ancient_city/city/entrance/bottom_piece.nbt
++ ancient_city/city/entrance/entrance_connector.nbt
++ ancient_city/city/entrance/entrance_path_1.nbt
++ ancient_city/city/entrance/entrance_path_2.nbt
++ ancient_city/city/entrance/entrance_path_3.nbt
++ ancient_city/city/entrance/entrance_path_4.nbt
++ ancient_city/city/entrance/entrance_path_5.nbt
++ ancient_city/city/entrance/top_piece.nbt
++ ancient_city/structures/barracks.nbt
++ ancient_city/structures/camp_1.nbt
++ ancient_city/structures/camp_2.nbt
++ ancient_city/structures/camp_3.nbt
++ ancient_city/structures/chamber_1.nbt
++ ancient_city/structures/chamber_2.nbt
++ ancient_city/structures/chamber_3.nbt
++ ancient_city/structures/ice_box_1.nbt
++ ancient_city/structures/large_pillar_1.nbt
++ ancient_city/structures/large_ruin_1.nbt
++ ancient_city/structures/medium_pillar_1.nbt
++ ancient_city/structures/medium_ruin_1.nbt
++ ancient_city/structures/medium_ruin_2.nbt
++ ancient_city/structures/sauna_1.nbt
++ ancient_city/structures/small_portal_statue.nbt
++ ancient_city/structures/small_ruin_1.nbt
++ ancient_city/structures/small_ruin_2.nbt
++ ancient_city/structures/small_statue.nbt
++ ancient_city/structures/tall_ruin_1.nbt
++ ancient_city/structures/tall_ruin_2.nbt
++ ancient_city/structures/tall_ruin_3.nbt
++ ancient_city/structures/tall_ruin_4.nbt
++ ancient_city/walls/intact_corner_wall_1.nbt
++ ancient_city/walls/intact_horizontal_wall_1.nbt
++ ancient_city/walls/intact_horizontal_wall_2.nbt
++ ancient_city/walls/intact_horizontal_wall_bridge.nbt
++ ancient_city/walls/intact_horizontal_wall_passage_1.nbt
++ ancient_city/walls/intact_horizontal_wall_stairs_1.nbt
++ ancient_city/walls/intact_horizontal_wall_stairs_2.nbt
++ ancient_city/walls/intact_horizontal_wall_stairs_3.nbt
++ ancient_city/walls/intact_horizontal_wall_stairs_4.nbt
++ ancient_city/walls/intact_horizontal_wall_stairs_upward.nbt
++ ancient_city/walls/intact_intersection_wall_1.nbt
++ ancient_city/walls/intact_lshape_wall_1.nbt
++ ancient_city/walls/ruined_corner_wall_1.nbt
++ ancient_city/walls/ruined_corner_wall_2.nbt
++ ancient_city/walls/ruined_horizontal_wall_stairs_1.nbt
++ ancient_city/walls/ruined_horizontal_wall_stairs_2.nbt
++ ancient_city/walls/ruined_horizontal_wall_stairs_3.nbt
++ ancient_city/walls/ruined_horizontal_wall_stairs_4.nbt
++ pillager_outpost/feature_cage_with_allays.nbt
+```
+
+</details>
+
+
+<details><summary>tags.txt</summary>
+
+```diff
++ blocks/ancient_city_center_replaceable.json
++ blocks/ancient_city_replaceable.json
+- blocks/carpets.json
++ blocks/wool_carpets.json
++ game_events/ignore_vibrations_on_occluding_block.json
+- items/carpets.json
++ items/wool_carpets.json
++ worldgen/biome/has_structure/ancient_city.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ block/reinforced_deepslate_bottom.png
++ block/reinforced_deepslate_side.png
++ block/reinforced_deepslate_top.png
++ block/sculk_shrieker_can_summon_inner_top.png
++ entity/allay/allay.png
+- entity/warden/warden_ears.png
+```
+
+</details>

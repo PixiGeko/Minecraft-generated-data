@@ -1,5 +1,8 @@
 <html><table>
 <tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 21w42a ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
 <tr><th>Id</th><td>21w42a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2021-10-20T12:41:25+00:00</td></tr>
@@ -10,2697 +13,25 @@
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/873b38fc13155fa3d2eb7b7f167fdbab5651ad0d/server.txt">https://piston-data.mojang.com/v1/objects/873b38fc13155fa3d2eb7b7f167fdbab5651ad0d/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/05781f1ce3749ee0958be1de939d15b8aff1910b/client.jar">https://piston-data.mojang.com/v1/objects/05781f1ce3749ee0958be1de939d15b8aff1910b/client.jar</a></td></tr>
 <tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/3941c7f2f5cb768dd16610ec9f834cc01dc1d32b/client.txt">https://piston-data.mojang.com/v1/objects/3941c7f2f5cb768dd16610ec9f834cc01dc1d32b/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
 </table></html>
+
+<br/>
 
 <hr/>
 
 # Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/21w41a">21w41a</a>
-## File structure
 
-<details><summary>assets/</summary>
+# Mappings
 
-```diff
--  minecraft/models/block/light.json
-+  minecraft/models/block/light_00.json
-+  minecraft/models/block/light_01.json
-+  minecraft/models/block/light_02.json
-+  minecraft/models/block/light_03.json
-+  minecraft/models/block/light_04.json
-+  minecraft/models/block/light_05.json
-+  minecraft/models/block/light_06.json
-+  minecraft/models/block/light_07.json
-+  minecraft/models/block/light_08.json
-+  minecraft/models/block/light_09.json
-+  minecraft/models/block/light_10.json
-+  minecraft/models/block/light_11.json
-+  minecraft/models/block/light_12.json
-+  minecraft/models/block/light_13.json
-+  minecraft/models/block/light_14.json
-+  minecraft/models/block/light_15.json
-+  minecraft/models/item/music_disc_otherside.json
--  minecraft/particles/barrier.json
-+  minecraft/particles/block_marker.json
--  minecraft/particles/light.json
-+  minecraft/textures/item/music_disc_otherside.png
-```
+### Client
 
-</details>
 
-## Registries
 
-<details><summary>int_provider_type.txt</summary>
 
-```diff
-+ minecraft:clamped_normal
-```
-
-</details>
-
-<details><summary>item.txt</summary>
-
-```diff
-+ minecraft:music_disc_otherside
-```
-
-</details>
-
-<details><summary>particle_type.txt</summary>
-
-```diff
-- minecraft:barrier
-- minecraft:light
-+ minecraft:block_marker
-```
-
-</details>
-
-<details><summary>sound_event.txt</summary>
-
-```diff
-+ minecraft:music_disc.otherside
-+ minecraft:music.overworld.dripstone_caves
-+ minecraft:music.overworld.grove
-+ minecraft:music.overworld.jagged_peaks
-+ minecraft:music.overworld.lush_caves
-+ minecraft:music.overworld.meadow
-+ minecraft:music.overworld.frozen_peaks
-+ minecraft:music.overworld.snowy_slopes
-+ minecraft:music.overworld.stony_peaks
-```
-
-</details>
-
-<details><summary>worldgen/decorator.txt</summary>
-
-```diff
-+ minecraft:scatter
-```
-
-</details>
-
-<details><summary>worldgen/feature.txt</summary>
-
-```diff
-- minecraft:small_dripstone
-+ minecraft:pointed_dripstone
-```
-
-</details>
-
-## Tags
-
-<details><summary>items/music_discs.json</summary>
-
-```diff
-+ minecraft:music_disc_otherside
-```
-
-</details>
-
-## Misc
-
-<details><summary>particles.txt</summary>
-
-```diff
-- barrier.json
-- light.json
-+ block_marker.json
-```
-
-</details>
-
-<details><summary>textures.txt</summary>
-
-```diff
-+ item/music_disc_otherside.png
-```
-
-</details>
-
-## Version data
-
-<details><summary>libraries.txt</summary>
-
-```diff
-- com.github.oshi:oshi-core:5.7.5
-- com.google.code.gson:gson:2.8.0
-- com.google.guava:guava:21.0
-- com.ibm.icu:icu4j:66.1
-- com.mojang:blocklist:1.0.5
-- commons-io:commons-io:2.5
-- commons-logging:commons-logging:1.1.3
-- io.netty:netty-all:4.1.25.Final
-- it.unimi.dsi:fastutil:8.2.1
-- net.java.dev.jna:jna-platform:5.8.0
-- net.java.dev.jna:jna:5.8.0
-- net.java.jinput:jinput:2.0.5
-- net.java.jutils:jutils:1.0.0
-- net.sf.jopt-simple:jopt-simple:5.0.3
-- org.apache.commons:commons-compress:1.8.1
-- org.apache.commons:commons-lang3:3.5
-- org.apache.httpcomponents:httpclient:4.3.3
-- org.apache.httpcomponents:httpcore:4.3.2
-+ com.github.oshi:oshi-core:5.8.2
-+ com.google.code.gson:gson:2.8.8
-+ com.google.guava:failureaccess:1.0.1
-+ com.google.guava:guava:31.0.1-jre
-+ com.ibm.icu:icu4j:69.1
-+ com.mojang:blocklist:1.0.6
-+ commons-io:commons-io:2.11.0
-+ commons-logging:commons-logging:1.2
-+ io.netty:netty-all:4.1.68.Final
-+ it.unimi.dsi:fastutil:8.5.6
-+ net.java.dev.jna:jna-platform:5.9.0
-+ net.java.dev.jna:jna:5.9.0
-+ net.sf.jopt-simple:jopt-simple:5.0.4
-+ org.apache.commons:commons-compress:1.21
-+ org.apache.commons:commons-lang3:3.12.0
-+ org.apache.httpcomponents:httpclient:4.5.13
-+ org.apache.httpcomponents:httpcore:4.4.14
-```
-
-</details>
-
-## Mappings
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.Option</summary>
-
-```diff
-+ CycleOption AUTOSAVE_INDICATOR
-+ Boolean lambda$static$148(Options)
-+ void lambda$static$149(Boolean)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.Options</summary>
-
-```diff
-+ boolean showAutosaveIndicator
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.Font</summary>
-
-```diff
-+ int ALPHA_CUTOFF
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$1</summary>
-
-```diff
-+ ChunkGenerator generator(RegistryAccess,long)
-- ChunkGenerator generator(Registry,long)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$3</summary>
-
-```diff
-+ ChunkGenerator generator(RegistryAccess,long)
-- ChunkGenerator generator(Registry,long)
-- NoiseGeneratorSettings lambda$generator$0(Registry)
-```
-
-</details>
-
-<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$5</summary>
-
-```diff
-+ ChunkGenerator generator(RegistryAccess,long)
-- ChunkGenerator generator(Registry,long)
-- NoiseGeneratorSettings lambda$generator$0(Registry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.Registry</summary>
-
-```diff
-+ ResourceKey NOISE_REGISTRY
-+ Lifecycle lifecycle()
-+ Object register(Object)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.particles.ParticleTypes</summary>
-
-```diff
-+ ParticleType BLOCK_MARKER
-- SimpleParticleType BARRIER
-- SimpleParticleType LIGHT
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.worldgen.Features</summary>
-
-```diff
-+ ConfiguredFeature POINTED_DRIPSTONE_FEATURE
-- ConfiguredFeature SMALL_DRIPSTONE_FEATURE
-+ ConfiguredFeature lambda$grassPatch$30(BlockStateProvider)
-+ ConfiguredFeature lambda$static$28()
-+ ConfiguredFeature lambda$static$29()
-- ConfiguredFeature lambda$grassPatch$28(BlockStateProvider)
-```
-
-</details>
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.IntProviderType</summary>
-
-```diff
-+ IntProviderType CLAMPED_NORMAL
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.biome.Climate</summary>
-
-```diff
-+ float QUANTIZATION_FACTOR
-+ BlockPos findSpawnPosition(NoiseSampler)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
-
-```diff
-+ DimensionType lambda$defaultDimensions$8(Registry)
-+ MappedRegistry defaultDimensions(RegistryAccess,long)
-+ NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
-+ NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
-- ChunkGenerator defaultEndGenerator(Registry,long)
-- ChunkGenerator defaultNetherGenerator(Registry,long)
-- DimensionType lambda$defaultDimensions$11(Registry)
-- MappedRegistry defaultDimensions(Registry,long)
-- NoiseGeneratorSettings lambda$defaultEndGenerator$8(Registry)
-- NoiseGeneratorSettings lambda$defaultNetherGenerator$9(Registry)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature POINTED_DRIPSTONE
-- Feature SMALL_DRIPSTONE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
-
-```diff
-+ NormalNoise createLegacyNetherBiome(NormalNoise$NoiseParameters)
-- NormalNoise createLegacy(DoubleList)
-- NormalNoise createLegacy(NormalNoise$NoiseParameters)
-- NormalNoise createLegacy(RandomSource,int,double[])
-```
-
-</details>
-
-<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
-
-```diff
-+ PerlinNoise createLegacyForBlendedNoise(IntStream)
-+ PerlinNoise createLegacyForLegacyNormalNoise(DoubleList)
-- PerlinNoise createLegacy(DoubleList)
-- PerlinNoise createLegacy(RandomSource,int,double,double[])
-- void <init>(IntSortedSet)
-- void <init>(IntStream)
-- void <init>(List)
-- void <init>(Pair)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.material.FlowingFluid</summary>
-
-```diff
-+ boolean lambda$getSlopeDistance$2(BlockState,short)
-+ boolean lambda$getSpread$4(BlockState,short)
-+ Pair lambda$getSlopeDistance$1(BlockPos,short)
-+ Pair lambda$getSpread$3(BlockPos,short)
-- boolean lambda$getSlopeDistance$2(BlockState,int)
-- boolean lambda$getSpread$4(BlockState,int)
-- Pair lambda$getSlopeDistance$1(BlockPos,int)
-- Pair lambda$getSpread$3(BlockPos,int)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
-
-```diff
-+ boolean lambda$hasCollisions$0(Object)
-- Boolean lambda$hasCollisions$0(AABB)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
-
-```diff
-+ LevelSummary lambda$levelSummaryReader$2(DataFixer)
-+ PrimaryLevelData lambda$getLevelData$1(DataFixer)
-+ WorldGenSettings lambda$readWorldGenSettings$0(Dynamic)
-- IllegalStateException lambda$readWorldGenSettings$0()
-- IllegalStateException lambda$readWorldGenSettings$1()
-- IllegalStateException lambda$readWorldGenSettings$2()
-- LevelSummary lambda$levelSummaryReader$5(DataFixer)
-- PrimaryLevelData lambda$getLevelData$4(DataFixer)
-- WorldGenSettings lambda$readWorldGenSettings$3(Dynamic)
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.client.multiplayer.ClientPacketListener
@@ -4254,1238 +1585,90 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
+<details><summary>net.minecraft.client.Option</summary>
 
 ```diff
-+ IllegalStateException lambda$parseRegistry$8(ResourceKey)
-+ MappedRegistry lambda$readFromDisk$7(ResourceKey)
-+ MappedRegistry parseRegistry(Dynamic)
-+ RegistryAccess readFromDisk(Dynamic)
-+ WritableRegistry lambda$ownedRegistry$9(MappedRegistry)
-- WritableRegistry lambda$ownedRegistry$7(MappedRegistry)
++ Boolean lambda$static$148(Options)
++ void lambda$static$149(Options,Option,Boolean)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.BuiltinRegistries</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$1</summary>
 
 ```diff
-+ Registry NOISE
-+ Object register(Object)
+- ChunkGenerator generator(Registry,Registry,long)
++ ChunkGenerator generator(RegistryAccess,long)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$3</summary>
 
 ```diff
-+ void createLightBlock()
-- void createLightBlockItems()
+- ChunkGenerator generator(Registry,Registry,long)
++ ChunkGenerator generator(RegistryAccess,long)
+- NoiseGeneratorSettings lambda$generator$0(Registry)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.util.valueproviders.IntProviderType</summary>
+<details><summary>net.minecraft.client.gui.screens.worldselection.WorldPreset$5</summary>
 
 ```diff
-+ IntProviderType CLAMPED_NORMAL
+- ChunkGenerator generator(Registry,Registry,long)
++ ChunkGenerator generator(RegistryAccess,long)
+- NoiseGeneratorSettings lambda$generator$0(Registry)
 ```
 
 </details>
 
 
+<details><summary>net.minecraft.core.Registry</summary>
 
+```diff
++ Lifecycle lifecycle()
++ Object register(Registry,ResourceKey,Object)
+```
 
+</details>
 
 
+<details><summary>net.minecraft.data.worldgen.Features</summary>
 
+```diff
+- ConfiguredFeature lambda$grassPatch$28(BlockStateProvider)
++ ConfiguredFeature lambda$grassPatch$30(BlockStateProvider)
++ ConfiguredFeature lambda$static$28()
++ ConfiguredFeature lambda$static$29()
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
 
 
 <details><summary>net.minecraft.world.level.biome.Climate</summary>
 
 ```diff
-+ float QUANTIZATION_FACTOR
-+ BlockPos findSpawnPosition(NoiseSampler)
++ BlockPos findSpawnPosition(List,NoiseSampler)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
 
 ```diff
+- ChunkGenerator defaultEndGenerator(Registry,Registry,long)
+- ChunkGenerator defaultNetherGenerator(Registry,Registry,long)
+- DimensionType lambda$defaultDimensions$11(Registry)
 + DimensionType lambda$defaultDimensions$8(Registry)
+- MappedRegistry defaultDimensions(Registry,Registry,Registry,long)
 + MappedRegistry defaultDimensions(RegistryAccess,long)
 + NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
 + NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
-- ChunkGenerator defaultEndGenerator(Registry,long)
-- ChunkGenerator defaultNetherGenerator(Registry,long)
-- DimensionType lambda$defaultDimensions$11(Registry)
-- MappedRegistry defaultDimensions(Registry,long)
 - NoiseGeneratorSettings lambda$defaultEndGenerator$8(Registry)
 - NoiseGeneratorSettings lambda$defaultNetherGenerator$9(Registry)
 ```
@@ -5493,502 +1676,83 @@
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>net.minecraft.world.level.levelgen.feature.Feature</summary>
-
-```diff
-+ Feature POINTED_DRIPSTONE
-- Feature SMALL_DRIPSTONE
-```
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
 
 ```diff
-+ NormalNoise createLegacyNetherBiome(NormalNoise$NoiseParameters)
-- NormalNoise createLegacy(DoubleList)
-- NormalNoise createLegacy(NormalNoise$NoiseParameters)
 - NormalNoise createLegacy(RandomSource,int,double[])
+- NormalNoise createLegacy(RandomSource,int,DoubleList)
+- NormalNoise createLegacy(RandomSource,NormalNoise$NoiseParameters)
++ NormalNoise createLegacyNetherBiome(RandomSource,NormalNoise$NoiseParameters)
 ```
 
 </details>
+
 
 <details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
 
 ```diff
-+ PerlinNoise createLegacyForBlendedNoise(IntStream)
-+ PerlinNoise createLegacyForLegacyNormalNoise(DoubleList)
-- PerlinNoise createLegacy(DoubleList)
 - PerlinNoise createLegacy(RandomSource,int,double,double[])
-- void <init>(IntSortedSet)
-- void <init>(IntStream)
-- void <init>(List)
-- void <init>(Pair)
+- PerlinNoise createLegacy(RandomSource,int,DoubleList)
++ PerlinNoise createLegacyForBlendedNoise(RandomSource,IntStream)
++ PerlinNoise createLegacyForLegacyNormalNoise(RandomSource,int,DoubleList)
+- void <init>(RandomSource,IntSortedSet)
+- void <init>(RandomSource,IntStream)
+- void <init>(RandomSource,List)
+- void <init>(RandomSource,Pair)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.material.FlowingFluid</summary>
 
 ```diff
-+ boolean lambda$getSlopeDistance$2(BlockState,short)
-+ boolean lambda$getSpread$4(BlockState,short)
-+ Pair lambda$getSlopeDistance$1(BlockPos,short)
-+ Pair lambda$getSpread$3(BlockPos,short)
-- boolean lambda$getSlopeDistance$2(BlockState,int)
-- boolean lambda$getSpread$4(BlockState,int)
-- Pair lambda$getSlopeDistance$1(BlockPos,int)
-- Pair lambda$getSpread$3(BlockPos,int)
+- boolean lambda$getSlopeDistance$2(BlockPos,LevelReader,BlockState,int)
++ boolean lambda$getSlopeDistance$2(BlockPos,LevelReader,BlockState,short)
+- boolean lambda$getSpread$4(LevelReader,BlockPos,BlockPos,BlockState,int)
++ boolean lambda$getSpread$4(LevelReader,BlockPos,BlockPos,BlockState,short)
+- Pair lambda$getSlopeDistance$1(LevelReader,BlockPos,int)
++ Pair lambda$getSlopeDistance$1(LevelReader,BlockPos,short)
+- Pair lambda$getSpread$3(LevelReader,BlockPos,int)
++ Pair lambda$getSpread$3(LevelReader,BlockPos,short)
 ```
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
 
 ```diff
-+ boolean lambda$hasCollisions$0(Object)
-- Boolean lambda$hasCollisions$0(AABB)
+- Boolean lambda$hasCollisions$0(AABB,AABB)
++ boolean lambda$hasCollisions$0(AABB,Object)
 ```
 
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
 
 ```diff
-+ LevelSummary lambda$levelSummaryReader$2(DataFixer)
-+ PrimaryLevelData lambda$getLevelData$1(DataFixer)
-+ WorldGenSettings lambda$readWorldGenSettings$0(Dynamic)
 - IllegalStateException lambda$readWorldGenSettings$0()
 - IllegalStateException lambda$readWorldGenSettings$1()
 - IllegalStateException lambda$readWorldGenSettings$2()
-- LevelSummary lambda$levelSummaryReader$5(DataFixer)
-- PrimaryLevelData lambda$getLevelData$4(DataFixer)
++ LevelSummary lambda$levelSummaryReader$2(File,boolean,File,DataFixer)
+- LevelSummary lambda$levelSummaryReader$5(File,boolean,File,DataFixer)
++ PrimaryLevelData lambda$getLevelData$1(DynamicOps,DataPackConfig,File,DataFixer)
+- PrimaryLevelData lambda$getLevelData$4(DynamicOps,DataPackConfig,File,DataFixer)
++ WorldGenSettings lambda$readWorldGenSettings$0(Dynamic)
 - WorldGenSettings lambda$readWorldGenSettings$3(Dynamic)
 ```
 
 </details>
 
 
+### Server
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details><summary>Added and removed classes</summary>
+<details><summary>Classes</summary>
 
 ```diff
 - net.minecraft.data.worldgen.biome.BiomeReport
@@ -7368,13 +3132,323 @@
 
 </details>
 
-<br/>
-<html><table>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-<a href="https://github.com/PixiGeko/Minecraft-generated-data">Minecraft-generated-data</a>
-<br/><img width="0" height="0"></td></tr>
-<tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr>
-</table></html>
-<br/>
+
+<details><summary>net.minecraft.core.RegistryAccess$RegistryHolder</summary>
+
+```diff
++ IllegalStateException lambda$parseRegistry$8(ResourceKey)
++ MappedRegistry lambda$readFromDisk$7(Dynamic,ResourceKey)
++ MappedRegistry parseRegistry(ResourceKey,Dynamic)
++ RegistryAccess readFromDisk(Dynamic)
+- WritableRegistry lambda$ownedRegistry$7(MappedRegistry)
++ WritableRegistry lambda$ownedRegistry$9(MappedRegistry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.BuiltinRegistries</summary>
+
+```diff
++ Object register(Registry,ResourceKey,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.data.models.BlockModelGenerators</summary>
+
+```diff
++ void createLightBlock()
+- void createLightBlockItems()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.biome.Climate</summary>
+
+```diff
++ BlockPos findSpawnPosition(List,NoiseSampler)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.dimension.DimensionType</summary>
+
+```diff
+- ChunkGenerator defaultEndGenerator(Registry,Registry,long)
+- ChunkGenerator defaultNetherGenerator(Registry,Registry,long)
+- DimensionType lambda$defaultDimensions$11(Registry)
++ DimensionType lambda$defaultDimensions$8(Registry)
+- MappedRegistry defaultDimensions(Registry,Registry,Registry,long)
++ MappedRegistry defaultDimensions(RegistryAccess,long)
++ NoiseGeneratorSettings lambda$defaultDimensions$11(Registry)
++ NoiseGeneratorSettings lambda$defaultDimensions$9(Registry)
+- NoiseGeneratorSettings lambda$defaultEndGenerator$8(Registry)
+- NoiseGeneratorSettings lambda$defaultNetherGenerator$9(Registry)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.NormalNoise</summary>
+
+```diff
+- NormalNoise createLegacy(RandomSource,int,double[])
+- NormalNoise createLegacy(RandomSource,int,DoubleList)
+- NormalNoise createLegacy(RandomSource,NormalNoise$NoiseParameters)
++ NormalNoise createLegacyNetherBiome(RandomSource,NormalNoise$NoiseParameters)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.synth.PerlinNoise</summary>
+
+```diff
+- PerlinNoise createLegacy(RandomSource,int,double,double[])
+- PerlinNoise createLegacy(RandomSource,int,DoubleList)
++ PerlinNoise createLegacyForBlendedNoise(RandomSource,IntStream)
++ PerlinNoise createLegacyForLegacyNormalNoise(RandomSource,int,DoubleList)
+- void <init>(RandomSource,IntSortedSet)
+- void <init>(RandomSource,IntStream)
+- void <init>(RandomSource,List)
+- void <init>(RandomSource,Pair)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.material.FlowingFluid</summary>
+
+```diff
+- boolean lambda$getSlopeDistance$2(BlockPos,LevelReader,BlockState,int)
++ boolean lambda$getSlopeDistance$2(BlockPos,LevelReader,BlockState,short)
+- boolean lambda$getSpread$4(LevelReader,BlockPos,BlockPos,BlockState,int)
++ boolean lambda$getSpread$4(LevelReader,BlockPos,BlockPos,BlockState,short)
+- Pair lambda$getSlopeDistance$1(LevelReader,BlockPos,int)
++ Pair lambda$getSlopeDistance$1(LevelReader,BlockPos,short)
+- Pair lambda$getSpread$3(LevelReader,BlockPos,int)
++ Pair lambda$getSpread$3(LevelReader,BlockPos,short)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.pathfinder.WalkNodeEvaluator</summary>
+
+```diff
+- Boolean lambda$hasCollisions$0(AABB,AABB)
++ boolean lambda$hasCollisions$0(AABB,Object)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.storage.LevelStorageSource</summary>
+
+```diff
+- IllegalStateException lambda$readWorldGenSettings$0()
+- IllegalStateException lambda$readWorldGenSettings$1()
+- IllegalStateException lambda$readWorldGenSettings$2()
++ LevelSummary lambda$levelSummaryReader$2(File,boolean,File,DataFixer)
+- LevelSummary lambda$levelSummaryReader$5(File,boolean,File,DataFixer)
++ PrimaryLevelData lambda$getLevelData$1(DynamicOps,DataPackConfig,File,DataFixer)
+- PrimaryLevelData lambda$getLevelData$4(DynamicOps,DataPackConfig,File,DataFixer)
++ WorldGenSettings lambda$readWorldGenSettings$0(Dynamic)
+- WorldGenSettings lambda$readWorldGenSettings$3(Dynamic)
+```
+
+</details>
+
+
+# Folder structure
+
+<details><summary>assets/</summary>
+
+```diff
++ minecraft/models/block/light_00.json
++ minecraft/models/block/light_01.json
++ minecraft/models/block/light_02.json
++ minecraft/models/block/light_03.json
++ minecraft/models/block/light_04.json
++ minecraft/models/block/light_05.json
++ minecraft/models/block/light_06.json
++ minecraft/models/block/light_07.json
++ minecraft/models/block/light_08.json
++ minecraft/models/block/light_09.json
++ minecraft/models/block/light_10.json
++ minecraft/models/block/light_11.json
++ minecraft/models/block/light_12.json
++ minecraft/models/block/light_13.json
++ minecraft/models/block/light_14.json
++ minecraft/models/block/light_15.json
+- minecraft/models/block/light.json
++ minecraft/models/item/music_disc_otherside.json
+- minecraft/particles/barrier.json
++ minecraft/particles/block_marker.json
+- minecraft/particles/light.json
++ minecraft/textures/item/music_disc_otherside.png
+```
+
+</details>
+
+
+# Registries
+
+<details><summary>int_provider_type.txt</summary>
+
+```diff
++ minecraft:clamped_normal
+```
+
+</details>
+
+
+<details><summary>item.txt</summary>
+
+```diff
++ minecraft:music_disc_otherside
+```
+
+</details>
+
+
+<details><summary>particle_type.txt</summary>
+
+```diff
+- minecraft:barrier
++ minecraft:block_marker
+- minecraft:light
+```
+
+</details>
+
+
+<details><summary>sound_event.txt</summary>
+
+```diff
++ minecraft:music_disc.otherside
++ minecraft:music.overworld.dripstone_caves
++ minecraft:music.overworld.frozen_peaks
++ minecraft:music.overworld.grove
++ minecraft:music.overworld.jagged_peaks
++ minecraft:music.overworld.lush_caves
++ minecraft:music.overworld.meadow
++ minecraft:music.overworld.snowy_slopes
++ minecraft:music.overworld.stony_peaks
+```
+
+</details>
+
+
+<details><summary>worldgen/decorator.txt</summary>
+
+```diff
++ minecraft:scatter
+```
+
+</details>
+
+
+<details><summary>worldgen/feature.txt</summary>
+
+```diff
++ minecraft:pointed_dripstone
+- minecraft:small_dripstone
+```
+
+</details>
+
+
+# Tags
+
+<details><summary>items/music_discs.json</summary>
+
+```diff
++ minecraft:music_disc_otherside
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ item.minecraft.music_disc_otherside
++ item.minecraft.music_disc_otherside.desc
++ options.autosaveIndicator
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>particles.txt</summary>
+
+```diff
+- barrier.json
++ block_marker.json
+- light.json
+```
+
+</details>
+
+
+<details><summary>textures.txt</summary>
+
+```diff
++ item/music_disc_otherside.png
+```
+
+</details>
+
+
+# Version data
+
+<details><summary>libraries.txt</summary>
+
+```diff
+- com.github.oshi:oshi-core:5.7.5
++ com.github.oshi:oshi-core:5.8.2
+- com.google.code.gson:gson:2.8.0
++ com.google.code.gson:gson:2.8.8
++ com.google.guava:failureaccess:1.0.1
+- com.google.guava:guava:21.0
++ com.google.guava:guava:31.0.1-jre
+- com.ibm.icu:icu4j:66.1
++ com.ibm.icu:icu4j:69.1
+- com.mojang:blocklist:1.0.5
++ com.mojang:blocklist:1.0.6
++ commons-io:commons-io:2.11.0
+- commons-io:commons-io:2.5
+- commons-logging:commons-logging:1.1.3
++ commons-logging:commons-logging:1.2
+- io.netty:netty-all:4.1.25.Final
++ io.netty:netty-all:4.1.68.Final
+- it.unimi.dsi:fastutil:8.2.1
++ it.unimi.dsi:fastutil:8.5.6
+- net.java.dev.jna:jna-platform:5.8.0
++ net.java.dev.jna:jna-platform:5.9.0
+- net.java.dev.jna:jna:5.8.0
++ net.java.dev.jna:jna:5.9.0
+- net.java.jinput:jinput:2.0.5
+- net.java.jutils:jutils:1.0.0
+- net.sf.jopt-simple:jopt-simple:5.0.3
++ net.sf.jopt-simple:jopt-simple:5.0.4
++ org.apache.commons:commons-compress:1.21
+- org.apache.commons:commons-compress:1.8.1
++ org.apache.commons:commons-lang3:3.12.0
+- org.apache.commons:commons-lang3:3.5
+- org.apache.httpcomponents:httpclient:4.3.3
++ org.apache.httpcomponents:httpclient:4.5.13
+- org.apache.httpcomponents:httpcore:4.3.2
++ org.apache.httpcomponents:httpcore:4.4.14
+```
+
+</details>
