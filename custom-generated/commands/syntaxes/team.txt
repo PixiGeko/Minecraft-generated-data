@@ -1,0 +1,24 @@
+team list <team: team>
+team add <team: string> <displayName: component>
+team remove <team: team>
+team empty <team: team>
+team join <team: team> <members: score_holder>
+team leave <members: score_holder>
+team modify <team: team> displayName <displayName: component>
+team modify <team: team> color <value: color>
+team modify <team: team> friendlyFire <allowed: bool>
+team modify <team: team> seeFriendlyInvisibles <allowed: bool>
+team modify <team: team> nametagVisibility never
+team modify <team: team> nametagVisibility hideForOtherTeams
+team modify <team: team> nametagVisibility hideForOwnTeam
+team modify <team: team> nametagVisibility always
+team modify <team: team> deathMessageVisibility never
+team modify <team: team> deathMessageVisibility hideForOtherTeams
+team modify <team: team> deathMessageVisibility hideForOwnTeam
+team modify <team: team> deathMessageVisibility always
+team modify <team: team> collisionRule never
+team modify <team: team> collisionRule pushOwnTeam
+team modify <team: team> collisionRule pushOtherTeams
+team modify <team: team> collisionRule always
+team modify <team: team> prefix <prefix: component>
+team modify <team: team> suffix <suffix: component>
