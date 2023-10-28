@@ -1,0 +1,21 @@
+team add <team: string> <displayName: string>
+team empty <team: team>
+team join <team: team> <members: score_holder>
+team leave <members: score_holder>
+team list <team: team>
+team option <team: team> collisionRule always
+team option <team: team> collisionRule never
+team option <team: team> collisionRule pushOtherTeams
+team option <team: team> collisionRule pushOwnTeam
+team option <team: team> color <value: color>
+team option <team: team> deathMessageVisibility always
+team option <team: team> deathMessageVisibility hideForOtherTeams
+team option <team: team> deathMessageVisibility hideForOwnTeam
+team option <team: team> deathMessageVisibility never
+team option <team: team> friendlyfire <allowed: bool>
+team option <team: team> nametagVisibility always
+team option <team: team> nametagVisibility hideForOtherTeams
+team option <team: team> nametagVisibility hideForOwnTeam
+team option <team: team> nametagVisibility never
+team option <team: team> seeFriendlyInvisibles <allowed: bool>
+team remove <team: team>
