@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "half": [
+      "upper",
+      "lower"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "18891": {
+      "half": "upper",
+      "waterlogged": true
+    },
+    "18892": {
+      "half": "upper",
+      "waterlogged": true
+    },
+    "18893": {
+      "half": "lower",
+      "waterlogged": true
+    },
+    "18894": {
+      "half": "lower",
+      "waterlogged": true
+    },
+    "default": 18894
+  }
+}
