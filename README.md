@@ -1,15 +1,25 @@
-<div align="center"><table>
-<tbody>
-<td align="center">
-<img width="5000" height="0">
- <h1>Minecraft-generated-data</h1>
- <br/>
- <i>Original idea by <a href="https://www.planetminecraft.com/member/awhikax/">Awhikax</a>, from <a href="https://discord.gg/3gXea6q">DataWorld Discord server</a></i>
-<img width="5000" height="0">
-</td>
-</tbody>
+<h1 align="center">Minecraft-generated-data</h1>
+<br/>
+<br/>
+
+<table>
+    <tr>
+        <td align="center">
+            <img width="5000" height="0">
+            <i>Original idea by <a href="https://www.planetminecraft.com/member/awhikax/">Awhikax</a>, from <a href="https://discord.gg/3gXea6q">DataWorld Discord server</a></i>
+            <img width="5000" height="0">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <img width="5000" height="0">
+            <br/>
+            :warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+            <br/>
+            <img width="0" height="0">
+        </td>
+    </tr>
 </table>
-</div>
 
 <br/>
 
@@ -58,9 +68,3 @@ Credits are always appreciated (:heart:), but not required.
   <td>Default <code>assets</code> folder for each version since 18w01a</td>
  </tr>
 </table>
-
-<br/>
-<html><table><tr><td colspan="2" align="center"><img width="5000" height="0"><br/>
-:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
-<br/><img width="0" height="0"></td></tr></table></html>
-<br/>
