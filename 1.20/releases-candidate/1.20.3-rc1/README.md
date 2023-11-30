@@ -1,0 +1,54 @@
+<html><table>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.20.3-rc1 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
+<tr><th>Id</th><td>1.20.3-rc1</td></tr>
+<tr><th>Type</th><td>releases-candidate</td></tr>
+<tr><th>Release time</th><td>2023-11-30T13:41:45+00:00</td></tr>
+<tr><th>SHA1</th><td>aab035e11ff6ee2e9822bb87191f232aed7d5ec3</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/aab035e11ff6ee2e9822bb87191f232aed7d5ec3/1.20.3-rc1.json">https://piston-meta.mojang.com/v1/packages/aab035e11ff6ee2e9822bb87191f232aed7d5ec3/1.20.3-rc1.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/0a5e93fc313d14367f0a3050957612930eca9d16/12.json">https://piston-meta.mojang.com/v1/packages/0a5e93fc313d14367f0a3050957612930eca9d16/12.json</a></td></tr>
+<tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/64cab4e87f8c2cad74d8bfc23df2cd193b4a615e/server.jar">https://piston-data.mojang.com/v1/objects/64cab4e87f8c2cad74d8bfc23df2cd193b4a615e/server.jar</a></td></tr>
+<tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/78e8a00e0ec3aff675cdc6ece32659a8adf3abbd/server.txt">https://piston-data.mojang.com/v1/objects/78e8a00e0ec3aff675cdc6ece32659a8adf3abbd/server.txt</a></td></tr>
+<tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/224c056f3cc6c6e1b5b90e63a0c621811f6a0681/client.jar">https://piston-data.mojang.com/v1/objects/224c056f3cc6c6e1b5b90e63a0c621811f6a0681/client.jar</a></td></tr>
+<tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/61fb5bb8c0fccdf059113cd47a597734fef59c5b/client.txt">https://piston-data.mojang.com/v1/objects/61fb5bb8c0fccdf059113cd47a597734fef59c5b/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
+</table></html>
+
+<br/>
+
+<hr/>
+
+# Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.20.3-pre4">1.20.3-pre4</a>
+
+# Mappings
+
+### Client
+
+
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundExplodePacket</summary>
+
+```diff
++ void writeParticle(FriendlyByteBuf,ParticleOptions)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>net.minecraft.network.protocol.game.ClientboundExplodePacket</summary>
+
+```diff
++ void writeParticle(FriendlyByteBuf,ParticleOptions)
+```
+
+</details>
