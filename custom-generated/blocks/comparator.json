@@ -1,0 +1,101 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "mode": [
+      "compare",
+      "subtract"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9035": {
+      "facing": "north",
+      "mode": "compare",
+      "powered": true
+    },
+    "9036": {
+      "facing": "north",
+      "mode": "compare",
+      "powered": true
+    },
+    "9037": {
+      "facing": "north",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9038": {
+      "facing": "north",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9039": {
+      "facing": "south",
+      "mode": "compare",
+      "powered": true
+    },
+    "9040": {
+      "facing": "south",
+      "mode": "compare",
+      "powered": true
+    },
+    "9041": {
+      "facing": "south",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9042": {
+      "facing": "south",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9043": {
+      "facing": "west",
+      "mode": "compare",
+      "powered": true
+    },
+    "9044": {
+      "facing": "west",
+      "mode": "compare",
+      "powered": true
+    },
+    "9045": {
+      "facing": "west",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9046": {
+      "facing": "west",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9047": {
+      "facing": "east",
+      "mode": "compare",
+      "powered": true
+    },
+    "9048": {
+      "facing": "east",
+      "mode": "compare",
+      "powered": true
+    },
+    "9049": {
+      "facing": "east",
+      "mode": "subtract",
+      "powered": true
+    },
+    "9050": {
+      "facing": "east",
+      "mode": "subtract",
+      "powered": true
+    },
+    "default": 9036
+  }
+}
