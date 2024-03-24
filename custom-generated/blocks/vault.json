@@ -1,0 +1,83 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "vault_state": [
+      "inactive",
+      "active",
+      "unlocking",
+      "ejecting"
+    ]
+  },
+  "states": {
+    "26644": {
+      "facing": "north",
+      "vault_state": "inactive"
+    },
+    "26645": {
+      "facing": "north",
+      "vault_state": "active"
+    },
+    "26646": {
+      "facing": "north",
+      "vault_state": "unlocking"
+    },
+    "26647": {
+      "facing": "north",
+      "vault_state": "ejecting"
+    },
+    "26648": {
+      "facing": "south",
+      "vault_state": "inactive"
+    },
+    "26649": {
+      "facing": "south",
+      "vault_state": "active"
+    },
+    "26650": {
+      "facing": "south",
+      "vault_state": "unlocking"
+    },
+    "26651": {
+      "facing": "south",
+      "vault_state": "ejecting"
+    },
+    "26652": {
+      "facing": "west",
+      "vault_state": "inactive"
+    },
+    "26653": {
+      "facing": "west",
+      "vault_state": "active"
+    },
+    "26654": {
+      "facing": "west",
+      "vault_state": "unlocking"
+    },
+    "26655": {
+      "facing": "west",
+      "vault_state": "ejecting"
+    },
+    "26656": {
+      "facing": "east",
+      "vault_state": "inactive"
+    },
+    "26657": {
+      "facing": "east",
+      "vault_state": "active"
+    },
+    "26658": {
+      "facing": "east",
+      "vault_state": "unlocking"
+    },
+    "26659": {
+      "facing": "east",
+      "vault_state": "ejecting"
+    },
+    "default": 26644
+  }
+}
