@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:jack_o_lantern",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "5870": {
+      "facing": "north"
+    },
+    "5871": {
+      "facing": "south"
+    },
+    "5872": {
+      "facing": "west"
+    },
+    "5873": {
+      "facing": "east"
+    },
+    "default": 5870
+  }
+}
