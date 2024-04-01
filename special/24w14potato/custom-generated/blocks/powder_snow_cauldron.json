@@ -1,0 +1,27 @@
+{
+  "definition": {
+    "type": "minecraft:layered_cauldron",
+    "interactions": "powder_snow",
+    "precipitation": "snow",
+    "properties": {}
+  },
+  "properties": {
+    "level": [
+      1,
+      2,
+      3
+    ]
+  },
+  "states": {
+    "9586": {
+      "level": 1
+    },
+    "9587": {
+      "level": 2
+    },
+    "9588": {
+      "level": 3
+    },
+    "default": 9586
+  }
+}
