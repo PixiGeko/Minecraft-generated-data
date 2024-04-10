@@ -1,0 +1,126 @@
+{
+  "definition": {
+    "type": "minecraft:pointed_dripstone",
+    "properties": {}
+  },
+  "properties": {
+    "thickness": [
+      "tip_merge",
+      "tip",
+      "frustum",
+      "middle",
+      "base"
+    ],
+    "vertical_direction": [
+      "up",
+      "down"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "24748": {
+      "thickness": "tip_merge",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24749": {
+      "thickness": "tip_merge",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24750": {
+      "thickness": "tip_merge",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24751": {
+      "thickness": "tip_merge",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24752": {
+      "thickness": "tip",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24753": {
+      "thickness": "tip",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24754": {
+      "thickness": "tip",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24755": {
+      "thickness": "tip",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24756": {
+      "thickness": "frustum",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24757": {
+      "thickness": "frustum",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24758": {
+      "thickness": "frustum",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24759": {
+      "thickness": "frustum",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24760": {
+      "thickness": "middle",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24761": {
+      "thickness": "middle",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24762": {
+      "thickness": "middle",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24763": {
+      "thickness": "middle",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24764": {
+      "thickness": "base",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24765": {
+      "thickness": "base",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "24766": {
+      "thickness": "base",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "24767": {
+      "thickness": "base",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "default": 24753
+  }
+}
