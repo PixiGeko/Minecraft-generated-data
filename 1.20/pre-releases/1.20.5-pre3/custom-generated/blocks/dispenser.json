@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:dispenser",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "triggered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "523": {
+      "facing": "north",
+      "triggered": true
+    },
+    "524": {
+      "facing": "north",
+      "triggered": true
+    },
+    "525": {
+      "facing": "east",
+      "triggered": true
+    },
+    "526": {
+      "facing": "east",
+      "triggered": true
+    },
+    "527": {
+      "facing": "south",
+      "triggered": true
+    },
+    "528": {
+      "facing": "south",
+      "triggered": true
+    },
+    "529": {
+      "facing": "west",
+      "triggered": true
+    },
+    "530": {
+      "facing": "west",
+      "triggered": true
+    },
+    "531": {
+      "facing": "up",
+      "triggered": true
+    },
+    "532": {
+      "facing": "up",
+      "triggered": true
+    },
+    "533": {
+      "facing": "down",
+      "triggered": true
+    },
+    "534": {
+      "facing": "down",
+      "triggered": true
+    },
+    "default": 524
+  }
+}
