@@ -19,3 +19,18 @@
 </table></html>
 
 <br/>
+
+<hr/>
+
+# Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.17-rc2">1.17-rc2</a>
+
+# Mappings
+
+### Client
+
+
+
+
+### Server
+
+
