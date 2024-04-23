@@ -1,6 +1,6 @@
 {
-  "latest": "1.20.5-rc3",
-  "latest_release": "1.17",
+  "latest": "1.20.5",
+  "latest_release": "1.20.5",
   "versions": {
     "18w01a": {
       "id": "18w01a",
@@ -2681,6 +2681,13 @@
       "type": "releases-candidate",
       "path": "1.20/releases-candidate/1.20.5-rc3",
       "comparison": "1.20.5-rc2"
+    },
+    "1.20.5": {
+      "id": "1.20.5",
+      "version": "1.20",
+      "type": "releases",
+      "path": "1.20/releases/1.20.5",
+      "comparison": "1.20.5-rc3"
     }
   }
 }
