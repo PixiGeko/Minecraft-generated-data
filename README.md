@@ -1,0 +1,197 @@
+<html><table>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>⌈ PixiGeko | 1.19-pre5 ⌋<br/><img width="0" height="0"></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+:warning: This repository is not official, approved, endorsed, associated or connected with Mojang :warning:
+<br/><img width="0" height="0"></td></tr>
+<tr><th>Id</th><td>1.19-pre5</td></tr>
+<tr><th>Type</th><td>pre-releases</td></tr>
+<tr><th>Release time</th><td>2022-06-01T10:56:23+00:00</td></tr>
+<tr><th>SHA1</th><td>800c849fe1e8694e8023920e01174e3d2f73065b</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/800c849fe1e8694e8023920e01174e3d2f73065b/1.19-pre5.json">https://piston-meta.mojang.com/v1/packages/800c849fe1e8694e8023920e01174e3d2f73065b/1.19-pre5.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json">https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json</a></td></tr>
+<tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/1ba1b6389f00fa40a10af047fd7a76a9c68dba72/server.jar">https://piston-data.mojang.com/v1/objects/1ba1b6389f00fa40a10af047fd7a76a9c68dba72/server.jar</a></td></tr>
+<tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/d85139118898f70c27d6cd69fabd8f55246f684a/server.txt">https://piston-data.mojang.com/v1/objects/d85139118898f70c27d6cd69fabd8f55246f684a/server.txt</a></td></tr>
+<tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/6534d0a953161da304a5e2c2e343bd10e275f96c/client.jar">https://piston-data.mojang.com/v1/objects/6534d0a953161da304a5e2c2e343bd10e275f96c/client.jar</a></td></tr>
+<tr><th>Client mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/f91429881ca1ba1a971d52aa3fdb24ec421a2d90/client.txt">https://piston-data.mojang.com/v1/objects/f91429881ca1ba1a971d52aa3fdb24ec421a2d90/client.txt</a></td></tr>
+<tr><td colspan="2" align="center"><img width="0" height="0"><br/>
+<i>Go to the README.md file to make sure you see the full comparison</i>
+<br/><img width="0" height="0"></td></tr>
+</table></html>
+
+<br/>
+
+<hr/>
+
+# Comparison with <a href="https://github.com/PixiGeko/Minecraft-generated-data/tree/1.19-pre4">1.19-pre4</a>
+
+# Mappings
+
+### Client
+
+
+
+
+<details><summary>Classes</summary>
+
+```diff
+- net.minecraft.world.level.chunk.PalettedContainer$Strategy
++ net.minecraft.world.level.chunk.PalettedContainer$Strategy$1
+- net.minecraft.world.level.chunk.PalettedContainer$Strategy$2
++ net.minecraft.world.level.chunk.PalettedContainerRO
++ net.minecraft.world.level.chunk.PalettedContainerRO$Unpacker
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.Minecraft</summary>
+
+```diff
+- boolean lambda$tick$35()
++ boolean lambda$tick$36()
+- ChunkProgressListener lambda$doWorldLoad$36(int)
++ ChunkProgressListener lambda$doWorldLoad$37(int)
+- CompletionStage lambda$delayTextureReload$47(CompletableFuture)
++ CompletionStage lambda$delayTextureReload$48(CompletableFuture)
+- IntegratedServer lambda$doWorldLoad$37(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
++ IntegratedServer lambda$doWorldLoad$38(LevelStorageSource$LevelStorageAccess,PackRepository,WorldStem,Services,Thread)
+- PackResources lambda$adaptV3$51(Supplier)
++ PackResources lambda$adaptV3$52(Supplier)
+- PackResources lambda$adaptV4$52(Supplier)
++ PackResources lambda$adaptV4$53(Supplier)
+- String lambda$doWorldLoad$38(WorldStem)
++ String lambda$doWorldLoad$39(WorldStem)
+- String lambda$fillSystemReport$40(String)
+- String lambda$fillSystemReport$41(Minecraft)
++ String lambda$fillSystemReport$41(String)
+- String lambda$fillSystemReport$42()
++ String lambda$fillSystemReport$42(Minecraft)
++ String lambda$fillSystemReport$45()
+- String lambda$fillSystemReport$45(Options)
+- String lambda$fillSystemReport$46(LanguageManager)
++ String lambda$fillSystemReport$46(Options)
++ String lambda$fillSystemReport$47(LanguageManager)
+- Style lambda$debugClientMetricsStart$26(Path,Style)
++ Style lambda$debugClientMetricsStart$27(Path,Style)
+- Style lambda$grabHugeScreenshot$50(File,Style)
++ Style lambda$grabHugeScreenshot$51(File,Style)
+- Style lambda$grabPanoramixScreenshot$49(File,Style)
++ Style lambda$grabPanoramixScreenshot$50(File,Style)
+- void lambda$debugClientMetricsStart$24(Consumer,double,int)
++ void lambda$debugClientMetricsStart$25(Consumer,double,int)
+- void lambda$debugClientMetricsStart$25(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$26(Consumer,ProfileResults)
+- void lambda$debugClientMetricsStart$27(Consumer,Component)
++ void lambda$debugClientMetricsStart$28(Consumer,Component)
+- void lambda$debugClientMetricsStart$28(Consumer,Path)
++ void lambda$debugClientMetricsStart$29(Consumer,Path)
+- void lambda$debugClientMetricsStart$29(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$30(Consumer,Path)
++ void lambda$debugClientMetricsStart$30(SystemReport,Consumer,List)
+- void lambda$debugClientMetricsStart$31(Consumer,CompletableFuture,CompletableFuture)
++ void lambda$debugClientMetricsStart$31(Consumer,Path)
++ void lambda$debugClientMetricsStart$32(Consumer,CompletableFuture,CompletableFuture)
+- void lambda$debugClientMetricsStart$32(ProfileResults)
+- void lambda$debugClientMetricsStart$33(Consumer,ProfileResults)
++ void lambda$debugClientMetricsStart$33(ProfileResults)
++ void lambda$debugClientMetricsStart$34(Consumer,ProfileResults)
+- void lambda$doWorldLoad$39(Component)
++ void lambda$doWorldLoad$40(Component)
+- void lambda$grabPanoramixScreenshot$48(Component)
++ void lambda$grabPanoramixScreenshot$49(Component)
++ void lambda$openChatScreen$22(boolean)
+- void lambda$runTick$22(CompletableFuture)
++ void lambda$runTick$23(CompletableFuture)
+- void lambda$runTick$23(TimerQuery)
++ void lambda$runTick$24(TimerQuery)
+- void lambda$tick$34()
++ void lambda$tick$35()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.Gui</summary>
+
+```diff
++ boolean isShowingChatDisabledByPlayer()
++ void setChatDisabledByPlayerShown(boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.client.gui.screens.ConfirmLinkScreen</summary>
+
+```diff
++ void <init>(BooleanConsumer,Component,String,boolean)
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
+
+```diff
++ DataResult requireOverworld(WorldPreset)
+```
+
+</details>
+
+
+### Server
+
+
+
+
+<details><summary>Classes</summary>
+
+```diff
+- net.minecraft.world.level.chunk.PalettedContainer$Strategy
++ net.minecraft.world.level.chunk.PalettedContainer$Strategy$1
+- net.minecraft.world.level.chunk.PalettedContainer$Strategy$2
++ net.minecraft.world.level.chunk.PalettedContainerRO
++ net.minecraft.world.level.chunk.PalettedContainerRO$Unpacker
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.entity.animal.allay.Allay</summary>
+
+```diff
++ Vec3 getLeashOffset()
+```
+
+</details>
+
+
+<details><summary>net.minecraft.world.level.levelgen.presets.WorldPreset</summary>
+
+```diff
++ DataResult requireOverworld(WorldPreset)
+```
+
+</details>
+
+
+# Translations
+
+<details><summary>Keys</summary>
+
+```diff
++ chat.disabled.profile.moreInfo
++ subtitles.block.sculk.charge
++ subtitles.block.sculk.spread
+```
+
+</details>
