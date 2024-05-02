@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "12003": {
+      "facing": "north"
+    },
+    "12004": {
+      "facing": "east"
+    },
+    "12005": {
+      "facing": "south"
+    },
+    "12006": {
+      "facing": "west"
+    },
+    "12007": {
+      "facing": "up"
+    },
+    "12008": {
+      "facing": "down"
+    },
+    "default": 12007
+  }
+}
