@@ -1,0 +1,83 @@
+{
+  "properties": {
+    "attachment": [
+      "floor",
+      "ceiling",
+      "single_wall",
+      "double_wall"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "10886": {
+      "attachment": "floor",
+      "facing": "north"
+    },
+    "10887": {
+      "attachment": "floor",
+      "facing": "south"
+    },
+    "10888": {
+      "attachment": "floor",
+      "facing": "west"
+    },
+    "10889": {
+      "attachment": "floor",
+      "facing": "east"
+    },
+    "10890": {
+      "attachment": "ceiling",
+      "facing": "north"
+    },
+    "10891": {
+      "attachment": "ceiling",
+      "facing": "south"
+    },
+    "10892": {
+      "attachment": "ceiling",
+      "facing": "west"
+    },
+    "10893": {
+      "attachment": "ceiling",
+      "facing": "east"
+    },
+    "10894": {
+      "attachment": "single_wall",
+      "facing": "north"
+    },
+    "10895": {
+      "attachment": "single_wall",
+      "facing": "south"
+    },
+    "10896": {
+      "attachment": "single_wall",
+      "facing": "west"
+    },
+    "10897": {
+      "attachment": "single_wall",
+      "facing": "east"
+    },
+    "10898": {
+      "attachment": "double_wall",
+      "facing": "north"
+    },
+    "10899": {
+      "attachment": "double_wall",
+      "facing": "south"
+    },
+    "10900": {
+      "attachment": "double_wall",
+      "facing": "west"
+    },
+    "10901": {
+      "attachment": "double_wall",
+      "facing": "east"
+    },
+    "default": 10886
+  }
+}
