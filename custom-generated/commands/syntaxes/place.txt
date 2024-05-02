@@ -1,0 +1,4 @@
+place feature <feature: resource_key> <pos: block_pos>
+place jigsaw <pool: resource_key> <target: resource_location> <max_depth: integer> <position: block_pos>
+place structure <structure: resource_key> <pos: block_pos>
+place template <template: resource_location> <pos: block_pos> <rotation: template_rotation> <mirror: template_mirror> <integrity: float> <seed: integer>
