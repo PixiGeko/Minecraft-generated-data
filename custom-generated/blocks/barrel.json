@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:barrel",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "open": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "20870": {
+      "facing": "north",
+      "open": true
+    },
+    "20871": {
+      "facing": "north",
+      "open": true
+    },
+    "20872": {
+      "facing": "east",
+      "open": true
+    },
+    "20873": {
+      "facing": "east",
+      "open": true
+    },
+    "20874": {
+      "facing": "south",
+      "open": true
+    },
+    "20875": {
+      "facing": "south",
+      "open": true
+    },
+    "20876": {
+      "facing": "west",
+      "open": true
+    },
+    "20877": {
+      "facing": "west",
+      "open": true
+    },
+    "20878": {
+      "facing": "up",
+      "open": true
+    },
+    "20879": {
+      "facing": "up",
+      "open": true
+    },
+    "20880": {
+      "facing": "down",
+      "open": true
+    },
+    "20881": {
+      "facing": "down",
+      "open": true
+    },
+    "default": 20871
+  }
+}

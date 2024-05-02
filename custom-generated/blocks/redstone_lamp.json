@@ -1,0 +1,21 @@
+{
+  "definition": {
+    "type": "minecraft:redstone_lamp",
+    "properties": {}
+  },
+  "properties": {
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9600": {
+      "lit": true
+    },
+    "9601": {
+      "lit": true
+    },
+    "default": 9601
+  }
+}

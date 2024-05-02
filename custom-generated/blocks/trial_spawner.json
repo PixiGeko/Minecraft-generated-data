@@ -1,0 +1,37 @@
+{
+  "definition": {
+    "type": "minecraft:trial_spawner",
+    "properties": {}
+  },
+  "properties": {
+    "trial_spawner_state": [
+      "inactive",
+      "waiting_for_players",
+      "active",
+      "waiting_for_reward_ejection",
+      "ejecting_reward",
+      "cooldown"
+    ]
+  },
+  "states": {
+    "29555": {
+      "trial_spawner_state": "inactive"
+    },
+    "29556": {
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "29557": {
+      "trial_spawner_state": "active"
+    },
+    "29558": {
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "29559": {
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "29560": {
+      "trial_spawner_state": "cooldown"
+    },
+    "default": 29555
+  }
+}
