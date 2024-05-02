@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "11829": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "11830": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "11831": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "11832": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "11833": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "11834": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "11835": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "11836": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 11829
+  }
+}
