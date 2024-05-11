@@ -6,9 +6,9 @@
 <tr><th>Id</th><td>24w14a</td></tr>
 <tr><th>Type</th><td>snapshots</td></tr>
 <tr><th>Release time</th><td>2024-04-03T11:49:39+00:00</td></tr>
-<tr><th>SHA1</th><td>a94582cfc901697fcaf93f5d5b88b25272128bae</td></tr>
-<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/a94582cfc901697fcaf93f5d5b88b25272128bae/24w14a.json">https://piston-meta.mojang.com/v1/packages/a94582cfc901697fcaf93f5d5b88b25272128bae/24w14a.json</a></td></tr>
-<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/d57c295a9d76a449c65cfb3b281fe61854f2f070/16.json">https://piston-meta.mojang.com/v1/packages/d57c295a9d76a449c65cfb3b281fe61854f2f070/16.json</a></td></tr>
+<tr><th>SHA1</th><td>b8440fe3e55eb9d07e999be0442937c5123e209c</td></tr>
+<tr><th>Url</th><td><a href="https://piston-meta.mojang.com/v1/packages/b8440fe3e55eb9d07e999be0442937c5123e209c/24w14a.json">https://piston-meta.mojang.com/v1/packages/b8440fe3e55eb9d07e999be0442937c5123e209c/24w14a.json</a></td></tr>
+<tr><th>Asset index</th><td><a href="https://piston-meta.mojang.com/v1/packages/da80773f66c9e9c3829e29fdf80ef6dcb5aa27eb/16.json">https://piston-meta.mojang.com/v1/packages/da80773f66c9e9c3829e29fdf80ef6dcb5aa27eb/16.json</a></td></tr>
 <tr><th>Server</th><td><a href="https://piston-data.mojang.com/v1/objects/960cb0e5c794b02abdbcdbdc15b4de058b222118/server.jar">https://piston-data.mojang.com/v1/objects/960cb0e5c794b02abdbcdbdc15b4de058b222118/server.jar</a></td></tr>
 <tr><th>Server mappings</th><td><a href="https://piston-data.mojang.com/v1/objects/375430dd45c973a929c12c5090552e48f4511d2d/server.txt">https://piston-data.mojang.com/v1/objects/375430dd45c973a929c12c5090552e48f4511d2d/server.txt</a></td></tr>
 <tr><th>Client</th><td><a href="https://piston-data.mojang.com/v1/objects/d563d2e57a0347e112be17c6bc1b437ad27b67fa/client.jar">https://piston-data.mojang.com/v1/objects/d563d2e57a0347e112be17c6bc1b437ad27b67fa/client.jar</a></td></tr>
@@ -7628,6 +7628,27 @@
 + Stream lambda$getReferencedContextParams$3(SetAttributesFunction$Modifier)
 + void <init>(List,List,boolean)
 - void <init>(List,List)
+```
+
+</details>
+
+
+# Misc
+
+<details><summary>languages.txt</summary>
+
+```diff
++ vp_vl.json
+```
+
+</details>
+
+
+<details><summary>splashes.txt</summary>
+
+```diff
++ Java 16 + 1 + 4 = 21!
+- Java 16 + 1 = 17!
 ```
 
 </details>
