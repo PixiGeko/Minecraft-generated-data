@@ -1,0 +1,5 @@
+fill <from: block_pos> <to: block_pos> <block: block_state> destroy
+fill <from: block_pos> <to: block_pos> <block: block_state> hollow
+fill <from: block_pos> <to: block_pos> <block: block_state> keep
+fill <from: block_pos> <to: block_pos> <block: block_state> outline
+fill <from: block_pos> <to: block_pos> <block: block_state> replace <filter: block_predicate>
