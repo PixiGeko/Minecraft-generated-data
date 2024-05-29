@@ -1,5 +1,5 @@
 {
-  "latest": "24w21b",
+  "latest": "1.21-pre1",
   "latest_release": "1.20.6",
   "versions": {
     "18w01a": {
@@ -2744,6 +2744,13 @@
       "type": "snapshots",
       "path": "1.21/snapshots/24w21b",
       "comparison": "24w21a"
+    },
+    "1.21-pre1": {
+      "id": "1.21-pre1",
+      "version": "1.21",
+      "type": "pre-releases",
+      "path": "1.21/pre-releases/1.21-pre1",
+      "comparison": "24w21b"
     }
   }
 }
