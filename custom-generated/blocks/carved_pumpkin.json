@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:carved_pumpkin",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "8041": {
+      "facing": "north"
+    },
+    "8042": {
+      "facing": "south"
+    },
+    "8043": {
+      "facing": "west"
+    },
+    "8044": {
+      "facing": "east"
+    },
+    "default": 8041
+  }
+}

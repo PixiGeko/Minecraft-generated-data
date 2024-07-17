@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "acacia"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7727": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7728": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7729": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7730": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7731": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7732": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7733": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7734": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7728
+  }
+}

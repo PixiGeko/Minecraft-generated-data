@@ -1,0 +1,21 @@
+{
+  "definition": {
+    "type": "minecraft:tall_seagrass",
+    "properties": {}
+  },
+  "properties": {
+    "half": [
+      "upper",
+      "lower"
+    ]
+  },
+  "states": {
+    "4101": {
+      "half": "upper"
+    },
+    "4102": {
+      "half": "lower"
+    },
+    "default": 4102
+  }
+}

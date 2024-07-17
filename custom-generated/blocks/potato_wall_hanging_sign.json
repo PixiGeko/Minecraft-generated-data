@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "potato"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7783": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7784": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7785": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7786": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7787": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7788": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7789": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7790": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7784
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "definition": {
+    "type": "minecraft:vault",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "vault_state": [
+      "inactive",
+      "active",
+      "unlocking",
+      "ejecting"
+    ]
+  },
+  "states": {
+    "29561": {
+      "facing": "north",
+      "vault_state": "inactive"
+    },
+    "29562": {
+      "facing": "north",
+      "vault_state": "active"
+    },
+    "29563": {
+      "facing": "north",
+      "vault_state": "unlocking"
+    },
+    "29564": {
+      "facing": "north",
+      "vault_state": "ejecting"
+    },
+    "29565": {
+      "facing": "south",
+      "vault_state": "inactive"
+    },
+    "29566": {
+      "facing": "south",
+      "vault_state": "active"
+    },
+    "29567": {
+      "facing": "south",
+      "vault_state": "unlocking"
+    },
+    "29568": {
+      "facing": "south",
+      "vault_state": "ejecting"
+    },
+    "29569": {
+      "facing": "west",
+      "vault_state": "inactive"
+    },
+    "29570": {
+      "facing": "west",
+      "vault_state": "active"
+    },
+    "29571": {
+      "facing": "west",
+      "vault_state": "unlocking"
+    },
+    "29572": {
+      "facing": "west",
+      "vault_state": "ejecting"
+    },
+    "29573": {
+      "facing": "east",
+      "vault_state": "inactive"
+    },
+    "29574": {
+      "facing": "east",
+      "vault_state": "active"
+    },
+    "29575": {
+      "facing": "east",
+      "vault_state": "unlocking"
+    },
+    "29576": {
+      "facing": "east",
+      "vault_state": "ejecting"
+    },
+    "default": 29561
+  }
+}

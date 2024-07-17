@@ -1,0 +1,147 @@
+{
+  "definition": {
+    "type": "minecraft:detector_rail",
+    "properties": {}
+  },
+  "properties": {
+    "powered": [
+      true,
+      true
+    ],
+    "shape": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "4060": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "4061": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "4062": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "4063": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "4064": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "4065": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "4066": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "4067": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "4068": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "4069": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "4070": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "4071": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "4072": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "4073": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "4074": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "4075": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "4076": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "4077": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "4078": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "4079": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "4080": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "4081": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "4082": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "4083": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "default": 4073
+  }
+}
