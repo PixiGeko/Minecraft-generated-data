@@ -1,0 +1,22 @@
+{
+  "definition": {
+    "type": "minecraft:candle_cake",
+    "candle": "minecraft:orange_candle",
+    "properties": {}
+  },
+  "properties": {
+    "lit": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "21001": {
+      "lit": true
+    },
+    "21002": {
+      "lit": true
+    },
+    "default": 21002
+  }
+}
