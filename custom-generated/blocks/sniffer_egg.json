@@ -1,0 +1,25 @@
+{
+  "definition": {
+    "type": "minecraft:sniffer_egg",
+    "properties": {}
+  },
+  "properties": {
+    "hatch": [
+      0,
+      1,
+      2
+    ]
+  },
+  "states": {
+    "12800": {
+      "hatch": 0
+    },
+    "12801": {
+      "hatch": 1
+    },
+    "12802": {
+      "hatch": 2
+    },
+    "default": 12800
+  }
+}
