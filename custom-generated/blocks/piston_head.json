@@ -1,0 +1,143 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "short": [
+      true,
+      true
+    ],
+    "type": [
+      "normal",
+      "sticky"
+    ]
+  },
+  "states": {
+    "1001": {
+      "facing": "north",
+      "short": true,
+      "type": "normal"
+    },
+    "1002": {
+      "facing": "north",
+      "short": true,
+      "type": "sticky"
+    },
+    "1003": {
+      "facing": "north",
+      "short": true,
+      "type": "normal"
+    },
+    "1004": {
+      "facing": "north",
+      "short": true,
+      "type": "sticky"
+    },
+    "1005": {
+      "facing": "east",
+      "short": true,
+      "type": "normal"
+    },
+    "1006": {
+      "facing": "east",
+      "short": true,
+      "type": "sticky"
+    },
+    "1007": {
+      "facing": "east",
+      "short": true,
+      "type": "normal"
+    },
+    "1008": {
+      "facing": "east",
+      "short": true,
+      "type": "sticky"
+    },
+    "1009": {
+      "facing": "south",
+      "short": true,
+      "type": "normal"
+    },
+    "1010": {
+      "facing": "south",
+      "short": true,
+      "type": "sticky"
+    },
+    "1011": {
+      "facing": "south",
+      "short": true,
+      "type": "normal"
+    },
+    "1012": {
+      "facing": "south",
+      "short": true,
+      "type": "sticky"
+    },
+    "1013": {
+      "facing": "west",
+      "short": true,
+      "type": "normal"
+    },
+    "1014": {
+      "facing": "west",
+      "short": true,
+      "type": "sticky"
+    },
+    "1015": {
+      "facing": "west",
+      "short": true,
+      "type": "normal"
+    },
+    "1016": {
+      "facing": "west",
+      "short": true,
+      "type": "sticky"
+    },
+    "1017": {
+      "facing": "up",
+      "short": true,
+      "type": "normal"
+    },
+    "1018": {
+      "facing": "up",
+      "short": true,
+      "type": "sticky"
+    },
+    "1019": {
+      "facing": "up",
+      "short": true,
+      "type": "normal"
+    },
+    "1020": {
+      "facing": "up",
+      "short": true,
+      "type": "sticky"
+    },
+    "1021": {
+      "facing": "down",
+      "short": true,
+      "type": "normal"
+    },
+    "1022": {
+      "facing": "down",
+      "short": true,
+      "type": "sticky"
+    },
+    "1023": {
+      "facing": "down",
+      "short": true,
+      "type": "normal"
+    },
+    "1024": {
+      "facing": "down",
+      "short": true,
+      "type": "sticky"
+    },
+    "default": 1003
+  }
+}
