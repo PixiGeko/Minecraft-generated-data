@@ -1,0 +1,80 @@
+{
+  "properties": {
+    "age": [
+      0,
+      1
+    ],
+    "leaves": [
+      "none",
+      "small",
+      "large"
+    ],
+    "stage": [
+      0,
+      1
+    ]
+  },
+  "states": {
+    "10102": {
+      "age": 0,
+      "leaves": "none",
+      "stage": 0
+    },
+    "10103": {
+      "age": 0,
+      "leaves": "none",
+      "stage": 1
+    },
+    "10104": {
+      "age": 0,
+      "leaves": "small",
+      "stage": 0
+    },
+    "10105": {
+      "age": 0,
+      "leaves": "small",
+      "stage": 1
+    },
+    "10106": {
+      "age": 0,
+      "leaves": "large",
+      "stage": 0
+    },
+    "10107": {
+      "age": 0,
+      "leaves": "large",
+      "stage": 1
+    },
+    "10108": {
+      "age": 1,
+      "leaves": "none",
+      "stage": 0
+    },
+    "10109": {
+      "age": 1,
+      "leaves": "none",
+      "stage": 1
+    },
+    "10110": {
+      "age": 1,
+      "leaves": "small",
+      "stage": 0
+    },
+    "10111": {
+      "age": 1,
+      "leaves": "small",
+      "stage": 1
+    },
+    "10112": {
+      "age": 1,
+      "leaves": "large",
+      "stage": 0
+    },
+    "10113": {
+      "age": 1,
+      "leaves": "large",
+      "stage": 1
+    },
+    "default": 10102
+  }
+}
