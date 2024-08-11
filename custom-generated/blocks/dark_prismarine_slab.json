@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "type": [
+      "top",
+      "bottom",
+      "double"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "8074": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "8075": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "8076": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "8077": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "8078": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "8079": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "default": 8077
+  }
+}
