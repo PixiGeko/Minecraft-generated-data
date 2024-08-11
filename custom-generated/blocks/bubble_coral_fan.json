@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "10010": {
+      "waterlogged": true
+    },
+    "10011": {
+      "waterlogged": true
+    },
+    "default": 10010
+  }
+}
