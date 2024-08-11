@@ -1,0 +1,10 @@
+teleport <destination: entity> facing <facingEntity: entity>
+teleport <destination: entity> facing <facingLocation: vec3>
+teleport <location: vec3> facing <facingEntity: entity>
+teleport <location: vec3> facing <facingLocation: vec3>
+teleport <location: vec3> <rotation: rotation>
+teleport <targets: entity> <destination: entity> facing <facingEntity: entity>
+teleport <targets: entity> <destination: entity> facing <facingLocation: vec3>
+teleport <targets: entity> <location: vec3> facing <facingEntity: entity>
+teleport <targets: entity> <location: vec3> facing <facingLocation: vec3>
+teleport <targets: entity> <location: vec3> <rotation: rotation>
