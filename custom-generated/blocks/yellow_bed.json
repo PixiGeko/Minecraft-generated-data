@@ -1,0 +1,101 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "1112": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1113": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1114": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1115": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1116": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1117": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1118": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1119": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1120": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1121": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1122": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1123": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1124": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1125": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1126": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1127": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 1115
+  }
+}
