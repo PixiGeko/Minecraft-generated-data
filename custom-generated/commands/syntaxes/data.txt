@@ -1,0 +1,69 @@
+data get block <targetPos: block_pos> <path: nbt_path> <scale: double>
+data get entity <target: entity> <path: nbt_path> <scale: double>
+data get storage <target: resource_location> <path: nbt_path> <scale: double>
+data merge block <targetPos: block_pos> <nbt: nbt_compound_tag>
+data merge entity <target: entity> <nbt: nbt_compound_tag>
+data merge storage <target: resource_location> <nbt: nbt_compound_tag>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> append from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> append value <value: nbt_tag>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> merge from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> merge value <value: nbt_tag>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> prepend value <value: nbt_tag>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> set from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+data modify block <targetPos: block_pos> <targetPath: nbt_path> set value <value: nbt_tag>
+data modify entity <target: entity> <targetPath: nbt_path> append from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> append value <value: nbt_tag>
+data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+data modify entity <target: entity> <targetPath: nbt_path> merge from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> merge value <value: nbt_tag>
+data modify entity <target: entity> <targetPath: nbt_path> prepend from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> prepend value <value: nbt_tag>
+data modify entity <target: entity> <targetPath: nbt_path> set from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+data modify entity <target: entity> <targetPath: nbt_path> set value <value: nbt_tag>
+data modify storage <target: resource_location> <targetPath: nbt_path> append from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> append from entity <source: entity> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> append from storage <source: resource_location> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> append value <value: nbt_tag>
+data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from entity <source: entity> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> from storage <source: resource_location> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> insert <index: integer> value <value: nbt_tag>
+data modify storage <target: resource_location> <targetPath: nbt_path> merge from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> merge from entity <source: entity> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> merge from storage <source: resource_location> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> merge value <value: nbt_tag>
+data modify storage <target: resource_location> <targetPath: nbt_path> prepend from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> prepend from entity <source: entity> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> prepend from storage <source: resource_location> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> prepend value <value: nbt_tag>
+data modify storage <target: resource_location> <targetPath: nbt_path> set from block <sourcePos: block_pos> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> set from entity <source: entity> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> set from storage <source: resource_location> <sourcePath: nbt_path>
+data modify storage <target: resource_location> <targetPath: nbt_path> set value <value: nbt_tag>
+data remove block <targetPos: block_pos> <path: nbt_path>
+data remove entity <target: entity> <path: nbt_path>
+data remove storage <target: resource_location> <path: nbt_path>
