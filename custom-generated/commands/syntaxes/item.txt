@@ -1,0 +1,8 @@
+item replace block <pos: block_pos> <slot: item_slot> with <item: item_stack> <count: integer>
+item replace block <pos: block_pos> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+item replace block <pos: block_pos> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
+item replace entity <targets: entity> <slot: item_slot> with <item: item_stack> <count: integer>
+item replace entity <targets: entity> <slot: item_slot> from block <source: block_pos> <sourceSlot: item_slot> <modifier: resource_location>
+item replace entity <targets: entity> <slot: item_slot> from entity <source: entity> <sourceSlot: item_slot> <modifier: resource_location>
+item modify block <pos: block_pos> <slot: item_slot> <modifier: resource_location>
+item modify entity <targets: entity> <slot: item_slot> <modifier: resource_location>
