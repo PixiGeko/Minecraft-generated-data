@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "8205": {
+      "facing": "north"
+    },
+    "8206": {
+      "facing": "south"
+    },
+    "8207": {
+      "facing": "west"
+    },
+    "8208": {
+      "facing": "east"
+    },
+    "default": 8205
+  }
+}
