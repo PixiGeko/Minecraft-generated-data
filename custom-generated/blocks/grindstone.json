@@ -1,0 +1,66 @@
+{
+  "properties": {
+    "face": [
+      "floor",
+      "wall",
+      "ceiling"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "19296": {
+      "face": "floor",
+      "facing": "north"
+    },
+    "19297": {
+      "face": "floor",
+      "facing": "south"
+    },
+    "19298": {
+      "face": "floor",
+      "facing": "west"
+    },
+    "19299": {
+      "face": "floor",
+      "facing": "east"
+    },
+    "19300": {
+      "face": "wall",
+      "facing": "north"
+    },
+    "19301": {
+      "face": "wall",
+      "facing": "south"
+    },
+    "19302": {
+      "face": "wall",
+      "facing": "west"
+    },
+    "19303": {
+      "face": "wall",
+      "facing": "east"
+    },
+    "19304": {
+      "face": "ceiling",
+      "facing": "north"
+    },
+    "19305": {
+      "face": "ceiling",
+      "facing": "south"
+    },
+    "19306": {
+      "face": "ceiling",
+      "facing": "west"
+    },
+    "19307": {
+      "face": "ceiling",
+      "facing": "east"
+    },
+    "default": 19300
+  }
+}
