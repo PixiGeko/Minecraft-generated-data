@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_hanging_sign",
+    "properties": {},
+    "wood_type": "mangrove"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "7759": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7760": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "7761": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7762": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "7763": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7764": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "7765": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "7766": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 7760
+  }
+}

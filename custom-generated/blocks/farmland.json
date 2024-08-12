@@ -1,0 +1,45 @@
+{
+  "definition": {
+    "type": "minecraft:farm",
+    "properties": {}
+  },
+  "properties": {
+    "moisture": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "states": {
+    "6379": {
+      "moisture": 0
+    },
+    "6380": {
+      "moisture": 1
+    },
+    "6381": {
+      "moisture": 2
+    },
+    "6382": {
+      "moisture": 3
+    },
+    "6383": {
+      "moisture": 4
+    },
+    "6384": {
+      "moisture": 5
+    },
+    "6385": {
+      "moisture": 6
+    },
+    "6386": {
+      "moisture": 7
+    },
+    "default": 6379
+  }
+}

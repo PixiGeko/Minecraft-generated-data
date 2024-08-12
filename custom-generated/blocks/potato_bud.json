@@ -1,0 +1,127 @@
+{
+  "definition": {
+    "type": "minecraft:pointed_dripstone",
+    "organic": true,
+    "properties": {}
+  },
+  "properties": {
+    "thickness": [
+      "tip_merge",
+      "tip",
+      "frustum",
+      "middle",
+      "base"
+    ],
+    "vertical_direction": [
+      "up",
+      "down"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "27611": {
+      "thickness": "tip_merge",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27612": {
+      "thickness": "tip_merge",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27613": {
+      "thickness": "tip_merge",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27614": {
+      "thickness": "tip_merge",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27615": {
+      "thickness": "tip",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27616": {
+      "thickness": "tip",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27617": {
+      "thickness": "tip",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27618": {
+      "thickness": "tip",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27619": {
+      "thickness": "frustum",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27620": {
+      "thickness": "frustum",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27621": {
+      "thickness": "frustum",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27622": {
+      "thickness": "frustum",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27623": {
+      "thickness": "middle",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27624": {
+      "thickness": "middle",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27625": {
+      "thickness": "middle",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27626": {
+      "thickness": "middle",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27627": {
+      "thickness": "base",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27628": {
+      "thickness": "base",
+      "vertical_direction": "up",
+      "waterlogged": true
+    },
+    "27629": {
+      "thickness": "base",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "27630": {
+      "thickness": "base",
+      "vertical_direction": "down",
+      "waterlogged": true
+    },
+    "default": 27616
+  }
+}

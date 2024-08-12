@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:frosted_ice",
+    "properties": {}
+  },
+  "properties": {
+    "age": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "states": {
+    "15001": {
+      "age": 0
+    },
+    "15002": {
+      "age": 1
+    },
+    "15003": {
+      "age": 2
+    },
+    "15004": {
+      "age": 3
+    },
+    "default": 15001
+  }
+}

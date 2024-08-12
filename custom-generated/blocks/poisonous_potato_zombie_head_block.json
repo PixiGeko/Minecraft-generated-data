@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:poisonous_potato_zombie_head_block",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "8049": {
+      "facing": "north"
+    },
+    "8050": {
+      "facing": "south"
+    },
+    "8051": {
+      "facing": "west"
+    },
+    "8052": {
+      "facing": "east"
+    },
+    "default": 8049
+  }
+}

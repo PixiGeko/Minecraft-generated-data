@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:ender_chest",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9696": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "9697": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "9698": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "9699": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "9700": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "9701": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "9702": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "9703": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 9697
+  }
+}

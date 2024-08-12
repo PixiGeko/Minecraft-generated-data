@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:floatater",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "triggered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "2089": {
+      "facing": "north",
+      "triggered": true
+    },
+    "2090": {
+      "facing": "north",
+      "triggered": true
+    },
+    "2091": {
+      "facing": "east",
+      "triggered": true
+    },
+    "2092": {
+      "facing": "east",
+      "triggered": true
+    },
+    "2093": {
+      "facing": "south",
+      "triggered": true
+    },
+    "2094": {
+      "facing": "south",
+      "triggered": true
+    },
+    "2095": {
+      "facing": "west",
+      "triggered": true
+    },
+    "2096": {
+      "facing": "west",
+      "triggered": true
+    },
+    "2097": {
+      "facing": "up",
+      "triggered": true
+    },
+    "2098": {
+      "facing": "up",
+      "triggered": true
+    },
+    "2099": {
+      "facing": "down",
+      "triggered": true
+    },
+    "2100": {
+      "facing": "down",
+      "triggered": true
+    },
+    "default": 2090
+  }
+}
