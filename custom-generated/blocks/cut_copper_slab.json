@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "type": [
+      "top",
+      "bottom",
+      "double"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "21912": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "21913": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "21914": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "21915": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "21916": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "21917": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "default": 21915
+  }
+}
