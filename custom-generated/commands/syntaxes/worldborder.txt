@@ -1,0 +1,8 @@
+worldborder add <distance: double> <time: integer>
+worldborder set <distance: double> <time: integer>
+worldborder center <pos: vec2>
+worldborder damage amount <damagePerBlock: float>
+worldborder damage buffer <distance: float>
+worldborder get
+worldborder warning distance <distance: integer>
+worldborder warning time <time: integer>
