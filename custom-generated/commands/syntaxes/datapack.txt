@@ -1,0 +1,7 @@
+datapack disable <name: string>
+datapack enable <name: string> after <existing: string>
+datapack enable <name: string> before <existing: string>
+datapack enable <name: string> first
+datapack enable <name: string> last
+datapack list available
+datapack list enabled
