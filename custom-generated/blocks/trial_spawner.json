@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "trial_spawner_state": [
+      "inactive",
+      "waiting_for_players",
+      "active",
+      "waiting_for_reward_ejection",
+      "ejecting_reward",
+      "cooldown"
+    ]
+  },
+  "states": {
+    "26630": {
+      "trial_spawner_state": "inactive"
+    },
+    "26631": {
+      "trial_spawner_state": "waiting_for_players"
+    },
+    "26632": {
+      "trial_spawner_state": "active"
+    },
+    "26633": {
+      "trial_spawner_state": "waiting_for_reward_ejection"
+    },
+    "26634": {
+      "trial_spawner_state": "ejecting_reward"
+    },
+    "26635": {
+      "trial_spawner_state": "cooldown"
+    },
+    "default": 26630
+  }
+}
