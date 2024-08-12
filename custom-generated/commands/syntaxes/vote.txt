@@ -1,0 +1,19 @@
+vote dump_all long
+vote dump_all short
+vote io flush
+vote io reload
+vote pending discard *
+vote pending discard <id: uuid>
+vote pending finish *
+vote pending finish <id: uuid>
+vote pending repeal
+vote pending start <rule: resource>
+vote pending vote <id: uuid> <option: integer> <count: integer>
+vote rule * repeal
+vote rule ? approve
+vote rule ? repeal
+vote rule <rule: resource> approve ?
+vote rule <rule: resource> approve <value: nbt_tag>
+vote rule <rule: resource> repeal *
+vote rule <rule: resource> repeal ?
+vote rule <rule: resource> repeal <value: nbt_tag>
