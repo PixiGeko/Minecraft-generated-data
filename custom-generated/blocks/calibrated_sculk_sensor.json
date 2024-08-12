@@ -1,0 +1,2344 @@
+{
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "power": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "sculk_sensor_phase": [
+      "inactive",
+      "active",
+      "cooldown"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "21041": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21042": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21043": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21044": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21045": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21046": {
+      "facing": "north",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21047": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21048": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21049": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21050": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21051": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21052": {
+      "facing": "north",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21053": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21054": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21055": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21056": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21057": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21058": {
+      "facing": "north",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21059": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21060": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21061": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21062": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21063": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21064": {
+      "facing": "north",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21065": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21066": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21067": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21068": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21069": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21070": {
+      "facing": "north",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21071": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21072": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21073": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21074": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21075": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21076": {
+      "facing": "north",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21077": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21078": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21079": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21080": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21081": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21082": {
+      "facing": "north",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21083": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21084": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21085": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21086": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21087": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21088": {
+      "facing": "north",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21089": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21090": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21091": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21092": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21093": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21094": {
+      "facing": "north",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21095": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21096": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21097": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21098": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21099": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21100": {
+      "facing": "north",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21101": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21102": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21103": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21104": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21105": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21106": {
+      "facing": "north",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21107": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21108": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21109": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21110": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21111": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21112": {
+      "facing": "north",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21113": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21114": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21115": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21116": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21117": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21118": {
+      "facing": "north",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21119": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21120": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21121": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21122": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21123": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21124": {
+      "facing": "north",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21125": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21126": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21127": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21128": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21129": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21130": {
+      "facing": "north",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21131": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21132": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21133": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21134": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21135": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21136": {
+      "facing": "north",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21137": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21138": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21139": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21140": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21141": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21142": {
+      "facing": "south",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21143": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21144": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21145": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21146": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21147": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21148": {
+      "facing": "south",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21149": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21150": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21151": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21152": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21153": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21154": {
+      "facing": "south",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21155": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21156": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21157": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21158": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21159": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21160": {
+      "facing": "south",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21161": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21162": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21163": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21164": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21165": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21166": {
+      "facing": "south",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21167": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21168": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21169": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21170": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21171": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21172": {
+      "facing": "south",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21173": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21174": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21175": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21176": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21177": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21178": {
+      "facing": "south",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21179": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21180": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21181": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21182": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21183": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21184": {
+      "facing": "south",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21185": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21186": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21187": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21188": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21189": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21190": {
+      "facing": "south",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21191": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21192": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21193": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21194": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21195": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21196": {
+      "facing": "south",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21197": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21198": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21199": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21200": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21201": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21202": {
+      "facing": "south",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21203": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21204": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21205": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21206": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21207": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21208": {
+      "facing": "south",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21209": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21210": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21211": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21212": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21213": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21214": {
+      "facing": "south",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21215": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21216": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21217": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21218": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21219": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21220": {
+      "facing": "south",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21221": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21222": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21223": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21224": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21225": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21226": {
+      "facing": "south",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21227": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21228": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21229": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21230": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21231": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21232": {
+      "facing": "south",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21233": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21234": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21235": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21236": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21237": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21238": {
+      "facing": "west",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21239": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21240": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21241": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21242": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21243": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21244": {
+      "facing": "west",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21245": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21246": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21247": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21248": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21249": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21250": {
+      "facing": "west",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21251": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21252": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21253": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21254": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21255": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21256": {
+      "facing": "west",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21257": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21258": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21259": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21260": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21261": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21262": {
+      "facing": "west",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21263": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21264": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21265": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21266": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21267": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21268": {
+      "facing": "west",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21269": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21270": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21271": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21272": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21273": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21274": {
+      "facing": "west",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21275": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21276": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21277": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21278": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21279": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21280": {
+      "facing": "west",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21281": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21282": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21283": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21284": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21285": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21286": {
+      "facing": "west",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21287": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21288": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21289": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21290": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21291": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21292": {
+      "facing": "west",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21293": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21294": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21295": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21296": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21297": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21298": {
+      "facing": "west",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21299": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21300": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21301": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21302": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21303": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21304": {
+      "facing": "west",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21305": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21306": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21307": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21308": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21309": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21310": {
+      "facing": "west",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21311": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21312": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21313": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21314": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21315": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21316": {
+      "facing": "west",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21317": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21318": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21319": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21320": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21321": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21322": {
+      "facing": "west",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21323": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21324": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21325": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21326": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21327": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21328": {
+      "facing": "west",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21329": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21330": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21331": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21332": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21333": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21334": {
+      "facing": "east",
+      "power": 0,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21335": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21336": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21337": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21338": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21339": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21340": {
+      "facing": "east",
+      "power": 1,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21341": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21342": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21343": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21344": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21345": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21346": {
+      "facing": "east",
+      "power": 2,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21347": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21348": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21349": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21350": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21351": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21352": {
+      "facing": "east",
+      "power": 3,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21353": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21354": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21355": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21356": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21357": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21358": {
+      "facing": "east",
+      "power": 4,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21359": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21360": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21361": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21362": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21363": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21364": {
+      "facing": "east",
+      "power": 5,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21365": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21366": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21367": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21368": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21369": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21370": {
+      "facing": "east",
+      "power": 6,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21371": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21372": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21373": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21374": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21375": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21376": {
+      "facing": "east",
+      "power": 7,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21377": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21378": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21379": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21380": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21381": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21382": {
+      "facing": "east",
+      "power": 8,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21383": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21384": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21385": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21386": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21387": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21388": {
+      "facing": "east",
+      "power": 9,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21389": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21390": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21391": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21392": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21393": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21394": {
+      "facing": "east",
+      "power": 10,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21395": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21396": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21397": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21398": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21399": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21400": {
+      "facing": "east",
+      "power": 11,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21401": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21402": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21403": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21404": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21405": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21406": {
+      "facing": "east",
+      "power": 12,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21407": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21408": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21409": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21410": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21411": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21412": {
+      "facing": "east",
+      "power": 13,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21413": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21414": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21415": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21416": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21417": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21418": {
+      "facing": "east",
+      "power": 14,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21419": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21420": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "inactive",
+      "waterlogged": true
+    },
+    "21421": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21422": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "active",
+      "waterlogged": true
+    },
+    "21423": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "21424": {
+      "facing": "east",
+      "power": 15,
+      "sculk_sensor_phase": "cooldown",
+      "waterlogged": true
+    },
+    "default": 21042
+  }
+}
