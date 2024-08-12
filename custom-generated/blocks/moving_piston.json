@@ -1,0 +1,71 @@
+{
+  "definition": {
+    "type": "minecraft:moving_piston",
+    "properties": {}
+  },
+  "properties": {
+    "type": [
+      "normal",
+      "sticky"
+    ],
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "2063": {
+      "type": "normal",
+      "facing": "north"
+    },
+    "2064": {
+      "type": "sticky",
+      "facing": "north"
+    },
+    "2065": {
+      "type": "normal",
+      "facing": "east"
+    },
+    "2066": {
+      "type": "sticky",
+      "facing": "east"
+    },
+    "2067": {
+      "type": "normal",
+      "facing": "south"
+    },
+    "2068": {
+      "type": "sticky",
+      "facing": "south"
+    },
+    "2069": {
+      "type": "normal",
+      "facing": "west"
+    },
+    "2070": {
+      "type": "sticky",
+      "facing": "west"
+    },
+    "2071": {
+      "type": "normal",
+      "facing": "up"
+    },
+    "2072": {
+      "type": "sticky",
+      "facing": "up"
+    },
+    "2073": {
+      "type": "normal",
+      "facing": "down"
+    },
+    "2074": {
+      "type": "sticky",
+      "facing": "down"
+    },
+    "default": 2063
+  }
+}
