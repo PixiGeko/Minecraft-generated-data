@@ -1,0 +1,28 @@
+{
+  "config": {
+    "half_height": 2,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Properties": {
+          "snowy": "false"
+        },
+        "Name": "minecraft:grass_block"
+      }
+    ],
+    "can_origin_replace": "minecraft:water",
+    "state": {
+      "Name": "minecraft:sand"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 6
+      }
+    }
+  },
+  "type": "minecraft:disk"
+}
