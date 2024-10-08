@@ -1,0 +1,32 @@
+{
+  "definition": {
+    "type": "minecraft:attached_stem",
+    "fruit": "minecraft:melon",
+    "properties": {},
+    "seed": "minecraft:melon_seeds",
+    "stem": "minecraft:melon_stem"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "7047": {
+      "facing": "north"
+    },
+    "7048": {
+      "facing": "south"
+    },
+    "7049": {
+      "facing": "west"
+    },
+    "7050": {
+      "facing": "east"
+    },
+    "default": 7047
+  }
+}
