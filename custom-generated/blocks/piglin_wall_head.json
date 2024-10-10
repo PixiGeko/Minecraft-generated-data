@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:piglinwallskull",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9354": {
+      "facing": "north",
+      "powered": true
+    },
+    "9355": {
+      "facing": "north",
+      "powered": true
+    },
+    "9356": {
+      "facing": "south",
+      "powered": true
+    },
+    "9357": {
+      "facing": "south",
+      "powered": true
+    },
+    "9358": {
+      "facing": "west",
+      "powered": true
+    },
+    "9359": {
+      "facing": "west",
+      "powered": true
+    },
+    "9360": {
+      "facing": "east",
+      "powered": true
+    },
+    "9361": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 9355
+  }
+}

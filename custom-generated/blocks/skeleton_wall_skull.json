@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_skull",
+    "kind": "skeleton",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9114": {
+      "facing": "north",
+      "powered": true
+    },
+    "9115": {
+      "facing": "north",
+      "powered": true
+    },
+    "9116": {
+      "facing": "south",
+      "powered": true
+    },
+    "9117": {
+      "facing": "south",
+      "powered": true
+    },
+    "9118": {
+      "facing": "west",
+      "powered": true
+    },
+    "9119": {
+      "facing": "west",
+      "powered": true
+    },
+    "9120": {
+      "facing": "east",
+      "powered": true
+    },
+    "9121": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 9115
+  }
+}
