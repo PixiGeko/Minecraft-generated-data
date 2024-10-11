@@ -1,0 +1,72 @@
+{
+  "definition": {
+    "type": "minecraft:command",
+    "automatic": false,
+    "properties": {}
+  },
+  "properties": {
+    "conditional": [
+      true,
+      true
+    ],
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "8136": {
+      "conditional": true,
+      "facing": "north"
+    },
+    "8137": {
+      "conditional": true,
+      "facing": "east"
+    },
+    "8138": {
+      "conditional": true,
+      "facing": "south"
+    },
+    "8139": {
+      "conditional": true,
+      "facing": "west"
+    },
+    "8140": {
+      "conditional": true,
+      "facing": "up"
+    },
+    "8141": {
+      "conditional": true,
+      "facing": "down"
+    },
+    "8142": {
+      "conditional": true,
+      "facing": "north"
+    },
+    "8143": {
+      "conditional": true,
+      "facing": "east"
+    },
+    "8144": {
+      "conditional": true,
+      "facing": "south"
+    },
+    "8145": {
+      "conditional": true,
+      "facing": "west"
+    },
+    "8146": {
+      "conditional": true,
+      "facing": "up"
+    },
+    "8147": {
+      "conditional": true,
+      "facing": "down"
+    },
+    "default": 8142
+  }
+}
