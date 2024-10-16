@@ -1,0 +1,95 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.2-pre4",
+        "currentLabel": "1.21.2-pre5",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4076",
+            "current": "4077"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742040",
+            "current": "1073742041"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.animal.allay.Allay \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.SculkSpreader$ChargeCursor \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkSpreader$ChargeCursor",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isPosUnreasonable(BlockPos)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.animal.allay.Allay \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.SculkSpreader$ChargeCursor \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkSpreader$ChargeCursor",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isPosUnreasonable(BlockPos)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
