@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:big_dripleaf_stem",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "25345": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "25346": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "25347": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "25348": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "25349": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "25350": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "25351": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "25352": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 25346
+  }
+}
