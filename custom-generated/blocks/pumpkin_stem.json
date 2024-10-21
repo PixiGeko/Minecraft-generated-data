@@ -1,0 +1,48 @@
+{
+  "definition": {
+    "type": "minecraft:stem",
+    "attached_stem": "minecraft:attached_pumpkin_stem",
+    "fruit": "minecraft:pumpkin",
+    "properties": {},
+    "seed": "minecraft:pumpkin_seeds"
+  },
+  "properties": {
+    "age": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "states": {
+    "7051": {
+      "age": 0
+    },
+    "7052": {
+      "age": 1
+    },
+    "7053": {
+      "age": 2
+    },
+    "7054": {
+      "age": 3
+    },
+    "7055": {
+      "age": 4
+    },
+    "7056": {
+      "age": 5
+    },
+    "7057": {
+      "age": 6
+    },
+    "7058": {
+      "age": 7
+    },
+    "default": 7051
+  }
+}

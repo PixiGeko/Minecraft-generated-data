@@ -1,0 +1,153 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.2-rc1",
+        "currentLabel": "1.21.2-rc2",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4078",
+            "current": "4079"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742042",
+            "current": "1073742043"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ChunkMap \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.level.ServerChunkCache \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.AbstractMinecart \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkMap",
+        "differences": {
+          "added": [
+            "void onChunkReadyToSend(LevelChunk)",
+            "void lambda$prepareTickingChunk$24(LevelChunk,Object)"
+          ],
+          "removed": [
+            "void onChunkReadyToSend(ChunkHolder,LevelChunk)",
+            "void lambda$prepareTickingChunk$24(ChunkHolder,LevelChunk,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerChunkCache",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onChunkReadyToSend(ChunkHolder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.AbstractMinecart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void applyEffectsFromBlocks()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.server.level.ChunkMap \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.level.ServerChunkCache \u001b[2;32m+1M\u001b[0m",
+          "XXX.entity.vehicle.AbstractMinecart \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ChunkMap",
+        "differences": {
+          "added": [
+            "void onChunkReadyToSend(LevelChunk)",
+            "void lambda$prepareTickingChunk$24(LevelChunk,Object)"
+          ],
+          "removed": [
+            "void onChunkReadyToSend(ChunkHolder,LevelChunk)",
+            "void lambda$prepareTickingChunk$24(ChunkHolder,LevelChunk,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerChunkCache",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void onChunkReadyToSend(ChunkHolder)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.vehicle.AbstractMinecart",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void applyEffectsFromBlocks()"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
