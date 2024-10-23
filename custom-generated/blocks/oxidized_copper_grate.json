@@ -1,0 +1,22 @@
+{
+  "definition": {
+    "type": "minecraft:weathering_copper_grate",
+    "properties": {},
+    "weathering_state": "oxidized"
+  },
+  "properties": {
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "25151": {
+      "waterlogged": true
+    },
+    "25152": {
+      "waterlogged": true
+    },
+    "default": 25152
+  }
+}
