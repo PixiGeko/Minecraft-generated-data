@@ -1,0 +1,45 @@
+{
+  "definition": {
+    "type": "minecraft:weathering_copper_slab",
+    "properties": {},
+    "weathering_state": "unaffected"
+  },
+  "properties": {
+    "type": [
+      "top",
+      "bottom",
+      "double"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "24243": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "24244": {
+      "type": "top",
+      "waterlogged": true
+    },
+    "24245": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "24246": {
+      "type": "bottom",
+      "waterlogged": true
+    },
+    "24247": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "24248": {
+      "type": "double",
+      "waterlogged": true
+    },
+    "default": 24246
+  }
+}

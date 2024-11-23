@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:stonecutter",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "19416": {
+      "facing": "north"
+    },
+    "19417": {
+      "facing": "south"
+    },
+    "19418": {
+      "facing": "west"
+    },
+    "19419": {
+      "facing": "east"
+    },
+    "default": 19416
+  }
+}
