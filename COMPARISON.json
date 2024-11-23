@@ -1,0 +1,2541 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "24w45a",
+        "currentLabel": "24w46a",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "59",
+            "current": "60"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "44",
+            "current": "45"
+          },
+          {
+            "key": "World version",
+            "previous": "4177",
+            "current": "4178"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742045",
+            "current": "1073742046"
+          }
+        ]
+      }
+    }
+  ],
+  "registries": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "entity_type",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:creaking_transient"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "sound_event",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:block.resin.hit"
+          ]
+        }
+      }
+    }
+  ],
+  "tags": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_entities_without_drop.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:creaking_transient"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "all_living_entities_without_drop.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:creaking_transient"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/entity_type.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:creaking_transient"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "universal_tags/sound_event.json",
+        "differences": {
+          "added": [],
+          "removed": [
+            "minecraft:block.resin.hit"
+          ]
+        }
+      }
+    }
+  ],
+  "file_structure": [
+    {
+      "type": "entries",
+      "value": {
+        "name": "data",
+        "differences": {
+          "added": [
+            "minecraft/tags/item/drowned_preferred_weapons.json",
+            "minecraft/tags/item/piglin_preferred_weapons.json",
+            "minecraft/tags/item/pillager_preferred_weapons.json",
+            "minecraft/tags/item/skeleton_preferred_weapons.json",
+            "minecraft/tags/item/wither_skeleton_disliked_weapons.json"
+          ],
+          "removed": [
+            "minecraft/loot_table/entities/creaking_transient.json",
+            "minecraft/tags/item/drowned_preferred_weapon.json",
+            "minecraft/tags/item/piglin_preferred_weapon.json",
+            "minecraft/tags/item/pillager_preferred_weapon.json",
+            "minecraft/tags/item/skeleton_preferred_weapon.json",
+            "minecraft/tags/item/trim_templates.json"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "assets",
+        "differences": {
+          "added": [
+            "minecraft/textures/gui/sprites/container/bundle/slot_background.png.mcmeta"
+          ],
+          "removed": []
+        }
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.packs.metadata.MetadataSectionType",
+            "XXX.monster.creaking.CreakingTransient",
+            "XXX.monster.creaking.CreakingTransient$HomeNodeEvaluator",
+            "XXX.monster.hoglin.Hoglin",
+            "XXX.monster.hoglin.HoglinBase",
+            "XXX.entity.monster.package-info",
+            "XXX.monster.piglin.Piglin",
+            "XXX.monster.piglin.PiglinArmPose",
+            "XXX.monster.piglin.PiglinBruteAi",
+            "XXX.monster.piglin.StartAdmiringItemIfSeen",
+            "XXX.monster.piglin.StopAdmiringIfItemTooFarAway",
+            "XXX.monster.piglin.StopHoldingItemIfNoLongerAdmiring",
+            "XXX.monster.warden.AngerLevel",
+            "XXX.monster.warden.AngerManagement$1",
+            "XXX.monster.warden.Warden",
+            "XXX.monster.warden.Warden$1$1",
+            "XXX.monster.warden.Warden$VibrationUser",
+            "XXX.monster.warden.WardenSpawnTracker",
+            "XXX.entity.npc.AbstractVillager",
+            "XXX.entity.npc.ClientSideMerchant",
+            "XXX.entity.npc.Npc",
+            "XXX.entity.npc.VillagerData",
+            "XXX.entity.npc.VillagerProfession",
+            "XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds",
+            "XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem",
+            "XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds",
+            "XXX.entity.npc.VillagerTrades$ItemListing",
+            "XXX.entity.npc.VillagerTrades$ItemsForEmeralds",
+            "XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds",
+            "XXX.entity.npc.VillagerTrades$TypeSpecificTrade",
+            "XXX.entity.npc.WanderingTrader",
+            "XXX.entity.npc.WanderingTraderSpawner",
+            "XXX.world.entity.package-info",
+            "XXX.entity.player.ChatVisiblity",
+            "XXX.entity.player.Input$1",
+            "XXX.entity.player.Player",
+            "XXX.entity.player.Player$2",
+            "XXX.entity.player.PlayerModelPart",
+            "XXX.entity.player.ProfilePublicKey",
+            "XXX.entity.player.ProfilePublicKey$ValidationException",
+            "XXX.entity.player.StackedContents$IngredientInfo",
+            "XXX.entity.player.StackedContents$RecipePicker",
+            "XXX.entity.player.package-info",
+            "XXX.entity.projectile.AbstractArrow$Pickup",
+            "XXX.entity.projectile.Arrow",
+            "XXX.entity.projectile.EvokerFangs",
+            "XXX.entity.projectile.Fireball",
+            "XXX.entity.projectile.FishingHook",
+            "XXX.entity.projectile.FishingHook$OpenWaterType",
+            "XXX.entity.projectile.LargeFireball",
+            "XXX.entity.projectile.Projectile",
+            "XXX.entity.projectile.ProjectileDeflection",
+            "XXX.entity.projectile.ShulkerBullet",
+            "XXX.entity.projectile.Snowball",
+            "XXX.entity.projectile.ThrowableItemProjectile",
+            "XXX.entity.projectile.ThrownEgg",
+            "XXX.entity.projectile.ThrownExperienceBottle",
+            "XXX.entity.projectile.ThrownTrident",
+            "XXX.entity.projectile.package-info",
+            "XXX.projectile.windcharge.BreezeWindCharge",
+            "XXX.projectile.windcharge.package-info",
+            "XXX.entity.raid.Raid$1",
+            "XXX.entity.raid.Raid$RaiderType",
+            "XXX.entity.raid.Raider$HoldGroundAttackGoal",
+            "XXX.entity.raid.Raider$RaiderCelebration",
+            "XXX.entity.raid.Raids",
+            "XXX.entity.schedule.Activity",
+            "XXX.entity.schedule.Schedule",
+            "XXX.entity.schedule.ScheduleBuilder$ActivityTransition",
+            "XXX.entity.schedule.package-info",
+            "XXX.entity.vehicle.AbstractBoat$Status",
+            "XXX.entity.vehicle.AbstractMinecart",
+            "XXX.entity.vehicle.Boat",
+            "XXX.entity.vehicle.ChestRaft",
+            "XXX.entity.vehicle.ContainerEntity$1",
+            "XXX.entity.vehicle.Minecart",
+            "XXX.entity.vehicle.MinecartChest",
+            "XXX.entity.vehicle.MinecartCommandBlock$MinecartCommandBase",
+            "XXX.entity.vehicle.MinecartHopper",
+            "XXX.entity.vehicle.MinecartSpawner$1",
+            "XXX.entity.vehicle.NewMinecartBehavior",
+            "XXX.entity.vehicle.NewMinecartBehavior$MinecartStep",
+            "XXX.entity.vehicle.NewMinecartBehavior$TrackIteration",
+            "XXX.entity.vehicle.OldMinecartBehavior$1",
+            "XXX.entity.vehicle.VehicleEntity",
+            "XXX.world.flag.FeatureElement",
+            "XXX.world.flag.FeatureFlagRegistry",
+            "XXX.world.flag.FeatureFlagSet",
+            "XXX.world.flag.FeatureFlags",
+            "XXX.world.food.FoodConstants",
+            "XXX.world.food.FoodProperties",
+            "XXX.world.food.Foods",
+            "XXX.world.inventory.AbstractContainerMenu",
+            "XXX.world.inventory.AbstractCraftingMenu",
+            "XXX.world.inventory.AbstractFurnaceMenu",
+            "XXX.world.inventory.AnvilMenu",
+            "XXX.world.inventory.BeaconMenu",
+            "XXX.world.inventory.BeaconMenu$PaymentSlot",
+            "XXX.world.inventory.BrewingStandMenu",
+            "XXX.world.inventory.BrewingStandMenu$IngredientsSlot",
+            "XXX.world.inventory.CartographyTableMenu",
+            "XXX.world.inventory.CartographyTableMenu$2",
+            "XXX.world.inventory.CartographyTableMenu$4",
+            "XXX.world.inventory.ChestMenu",
+            "XXX.world.inventory.ClickType",
+            "XXX.world.inventory.ContainerLevelAccess",
+            "XXX.world.inventory.ContainerLevelAccess$2",
+            "XXX.world.inventory.ContainerSynchronizer",
+            "XXX.world.inventory.CrafterSlot",
+            "XXX.world.inventory.CraftingMenu",
+            "XXX.world.inventory.DataSlot$1",
+            "XXX.world.inventory.DataSlot$3",
+            "XXX.world.inventory.EnchantmentMenu",
+            "XXX.world.inventory.EnchantmentMenu$2",
+            "XXX.world.inventory.FurnaceFuelSlot",
+            "XXX.world.inventory.FurnaceResultSlot",
+            "XXX.world.inventory.GrindstoneMenu$1",
+            "XXX.world.inventory.GrindstoneMenu$3",
+            "XXX.world.inventory.HopperMenu",
+            "XXX.world.inventory.HorseInventoryMenu$1",
+            "XXX.world.inventory.InventoryMenu",
+            "XXX.world.inventory.ItemCombinerMenu",
+            "XXX.world.inventory.ItemCombinerMenu$2",
+            "XXX.world.inventory.ItemCombinerMenu$4",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition$Builder",
+            "XXX.world.inventory.LecternMenu",
+            "XXX.world.inventory.LoomMenu",
+            "XXX.world.inventory.LoomMenu$2",
+            "XXX.world.inventory.LoomMenu$4",
+            "XXX.world.inventory.LoomMenu$6",
+            "XXX.world.inventory.MenuType",
+            "XXX.world.inventory.MerchantContainer",
+            "XXX.world.inventory.MerchantResultSlot",
+            "XXX.world.inventory.PlayerEnderChestContainer",
+            "XXX.world.inventory.RecipeBookMenu$PostPlaceAction",
+            "XXX.world.inventory.RecipeCraftingHolder",
+            "XXX.world.inventory.ResultSlot",
+            "XXX.world.inventory.ShulkerBoxSlot",
+            "XXX.world.inventory.Slot",
+            "XXX.world.inventory.SlotRange$1",
+            "XXX.world.inventory.SmithingMenu",
+            "XXX.world.inventory.StackedContentsCompatible",
+            "XXX.world.inventory.StonecutterMenu$1",
+            "XXX.world.inventory.TransientCraftingContainer",
+            "XXX.inventory.tooltip.BundleTooltip",
+            "XXX.inventory.tooltip.package-info",
+            "XXX.world.item.AirItem",
+            "XXX.world.item.AnimalArmorItem$BodyType",
+            "XXX.world.item.ArmorStandItem",
+            "XXX.world.item.AxeItem",
+            "XXX.world.item.BannerPatternItem",
+            "XXX.world.item.BlockItem",
+            "XXX.world.item.BoneMealItem",
+            "XXX.world.item.BottleItem",
+            "XXX.world.item.BrushItem",
+            "XXX.world.item.BrushItem$DustParticlesDelta",
+            "XXX.world.item.BundleItem",
+            "XXX.world.item.CompassItem",
+            "XXX.world.item.CreativeModeTab$Builder",
+            "XXX.world.item.CreativeModeTab$ItemDisplayBuilder",
+            "XXX.world.item.CreativeModeTab$Output",
+            "XXX.world.item.CreativeModeTab$TabVisibility",
+            "XXX.world.item.CreativeModeTabs",
+            "XXX.world.item.CrossbowItem$ChargeType",
+            "XXX.world.item.DebugStickItem",
+            "XXX.world.item.DiscFragmentItem",
+            "XXX.world.item.DoubleHighBlockItem",
+            "XXX.world.item.DyeItem",
+            "XXX.world.item.EitherHolder",
+            "XXX.world.item.EndCrystalItem",
+            "XXX.world.item.EnderpearlItem",
+            "XXX.world.item.FireChargeItem",
+            "XXX.world.item.FireworkStarItem",
+            "XXX.world.item.FlintAndSteelItem",
+            "XXX.world.item.GameMasterBlockItem",
+            "XXX.world.item.HangingEntityItem",
+            "XXX.world.item.HoeItem",
+            "XXX.world.item.InkSacItem",
+            "XXX.world.item.InstrumentItem",
+            "XXX.world.item.Item",
+            "XXX.world.item.Item$TooltipContext",
+            "XXX.world.item.Item$TooltipContext$2",
+            "XXX.world.item.ItemCooldowns",
+            "XXX.world.item.ItemDisplayContext",
+            "XXX.world.item.ItemStack",
+            "XXX.world.item.ItemStack$2",
+            "XXX.world.item.ItemStack$4",
+            "XXX.world.item.ItemStackLinkedSet$1",
+            "XXX.world.item.ItemUtils",
+            "XXX.world.item.JukeboxPlayable",
+            "XXX.world.item.JukeboxSongPlayer",
+            "XXX.world.item.JukeboxSongs",
+            "XXX.world.item.LeadItem",
+            "XXX.world.item.MaceItem",
+            "XXX.world.item.MapItem$1",
+            "XXX.world.item.MobBucketItem",
+            "XXX.world.item.PickaxeItem",
+            "XXX.world.item.PlayerHeadItem",
+            "XXX.world.item.ProjectileItem",
+            "XXX.world.item.ProjectileItem$DispenseConfig$Builder",
+            "XXX.world.item.ProjectileWeaponItem",
+            "XXX.world.item.SaddleItem",
+            "XXX.world.item.ServerItemCooldowns",
+            "XXX.world.item.ShieldItem",
+            "XXX.world.item.SignApplicator",
+            "XXX.world.item.SmithingTemplateItem",
+            "XXX.world.item.SolidBucketItem",
+            "XXX.world.item.SpectralArrowItem",
+            "XXX.world.item.SpyglassItem",
+            "XXX.world.item.SwordItem",
+            "XXX.world.item.TippedArrowItem",
+            "XXX.world.item.TooltipFlag",
+            "XXX.world.item.TridentItem",
+            "XXX.world.item.WritableBookItem",
+            "XXX.item.alchemy.Potion",
+            "XXX.item.alchemy.PotionBrewing$Builder",
+            "XXX.item.alchemy.PotionContents",
+            "XXX.item.alchemy.package-info",
+            "XXX.item.component.BookContent",
+            "XXX.item.component.BundleContents$Mutable",
+            "XXX.item.component.Consumable",
+            "XXX.item.component.Consumable$OverrideConsumeSound",
+            "XXX.item.component.Consumables",
+            "XXX.item.component.CustomModelData",
+            "XXX.item.component.DeathProtection",
+            "XXX.item.component.DyedItemColor",
+            "XXX.item.component.FireworkExplosion$Shape",
+            "XXX.item.component.ItemAttributeModifiers",
+            "XXX.item.component.ItemAttributeModifiers$Builder",
+            "XXX.item.component.ItemContainerContents",
+            "XXX.item.component.ItemLore",
+            "XXX.item.component.MapDecorations",
+            "XXX.item.component.MapItemColor",
+            "XXX.item.component.OminousBottleAmplifier",
+            "XXX.item.component.SeededContainerLoot",
+            "XXX.item.component.SuspiciousStewEffects$Entry",
+            "XXX.item.component.Tool$Rule",
+            "XXX.item.component.Unbreakable",
+            "XXX.item.component.UseRemainder",
+            "XXX.item.component.WritableBookContent",
+            "XXX.item.component.package-info",
+            "XXX.item.consume_effects.ClearAllStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.ConsumeEffect$Type",
+            "XXX.item.consume_effects.RemoveStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.package-info",
+            "XXX.item.context.DirectionalPlaceContext",
+            "XXX.item.context.UseOnContext",
+            "XXX.item.crafting.AbstractCookingRecipe",
+            "XXX.item.crafting.AbstractCookingRecipe$Serializer",
+            "XXX.item.crafting.BannerDuplicateRecipe",
+            "XXX.item.crafting.BlastingRecipe$1",
+            "XXX.item.crafting.CampfireCookingRecipe",
+            "XXX.item.crafting.CraftingBookCategory",
+            "XXX.item.crafting.CraftingInput$Positioned",
+            "XXX.item.crafting.CraftingRecipe$1",
+            "XXX.item.crafting.CustomRecipe$Serializer",
+            "XXX.item.crafting.DecoratedPotRecipe",
+            "XXX.item.crafting.FireworkRocketRecipe",
+            "XXX.item.crafting.FireworkStarRecipe",
+            "XXX.item.crafting.MapCloningRecipe",
+            "XXX.item.crafting.PlacementInfo"
+          ],
+          "removed": [
+            "XXX.monster.creaking.Creaking$CreakingPathNavigation",
+            "XXX.monster.creaking.package-info",
+            "XXX.monster.hoglin.HoglinAi",
+            "XXX.monster.hoglin.package-info",
+            "XXX.monster.piglin.AbstractPiglin",
+            "XXX.monster.piglin.PiglinAi",
+            "XXX.monster.piglin.PiglinBrute",
+            "XXX.monster.piglin.RememberIfHoglinWasKilled",
+            "XXX.monster.piglin.StartHuntingHoglin",
+            "XXX.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem",
+            "XXX.monster.piglin.package-info",
+            "XXX.monster.warden.AngerManagement",
+            "XXX.monster.warden.AngerManagement$Sorter",
+            "XXX.monster.warden.Warden$1",
+            "XXX.monster.warden.Warden$2",
+            "XXX.monster.warden.WardenAi",
+            "XXX.monster.warden.package-info",
+            "XXX.entity.npc.CatSpawner",
+            "XXX.entity.npc.InventoryCarrier",
+            "XXX.entity.npc.Villager",
+            "XXX.entity.npc.VillagerDataHolder",
+            "XXX.entity.npc.VillagerTrades",
+            "XXX.entity.npc.VillagerTrades$EmeraldForItems",
+            "XXX.entity.npc.VillagerTrades$EnchantBookForEmeralds",
+            "XXX.entity.npc.VillagerTrades$FailureItemListing",
+            "XXX.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems",
+            "XXX.entity.npc.VillagerTrades$SuspiciousStewForEmerald",
+            "XXX.entity.npc.VillagerTrades$TreasureMapForEmeralds",
+            "XXX.entity.npc.VillagerType",
+            "XXX.entity.npc.WanderingTrader$WanderToPositionGoal",
+            "XXX.entity.npc.package-info",
+            "XXX.entity.player.Abilities",
+            "XXX.entity.player.Input",
+            "XXX.entity.player.Inventory",
+            "XXX.entity.player.Player$1",
+            "XXX.entity.player.Player$BedSleepingProblem",
+            "XXX.entity.player.ProfileKeyPair",
+            "XXX.entity.player.ProfilePublicKey$Data",
+            "XXX.entity.player.StackedContents",
+            "XXX.entity.player.StackedContents$Output",
+            "XXX.entity.player.StackedItemContents",
+            "XXX.entity.projectile.AbstractArrow",
+            "XXX.entity.projectile.AbstractHurtingProjectile",
+            "XXX.entity.projectile.DragonFireball",
+            "XXX.entity.projectile.EyeOfEnder",
+            "XXX.entity.projectile.FireworkRocketEntity",
+            "XXX.entity.projectile.FishingHook$FishHookState",
+            "XXX.entity.projectile.ItemSupplier",
+            "XXX.entity.projectile.LlamaSpit",
+            "XXX.entity.projectile.Projectile$ProjectileFactory",
+            "XXX.entity.projectile.ProjectileUtil",
+            "XXX.entity.projectile.SmallFireball",
+            "XXX.entity.projectile.SpectralArrow",
+            "XXX.entity.projectile.ThrowableProjectile",
+            "XXX.entity.projectile.ThrownEnderpearl",
+            "XXX.entity.projectile.ThrownPotion",
+            "XXX.entity.projectile.WitherSkull",
+            "XXX.projectile.windcharge.AbstractWindCharge",
+            "XXX.projectile.windcharge.WindCharge",
+            "XXX.entity.raid.Raid",
+            "XXX.entity.raid.Raid$RaidStatus",
+            "XXX.entity.raid.Raider",
+            "XXX.entity.raid.Raider$ObtainRaidLeaderBannerGoal",
+            "XXX.entity.raid.Raider$RaiderMoveThroughVillageGoal",
+            "XXX.entity.raid.package-info",
+            "XXX.entity.schedule.Keyframe",
+            "XXX.entity.schedule.ScheduleBuilder",
+            "XXX.entity.schedule.Timeline",
+            "XXX.entity.vehicle.AbstractBoat",
+            "XXX.entity.vehicle.AbstractChestBoat",
+            "XXX.entity.vehicle.AbstractMinecartContainer",
+            "XXX.entity.vehicle.ChestBoat",
+            "XXX.entity.vehicle.ContainerEntity",
+            "XXX.entity.vehicle.DismountHelper",
+            "XXX.entity.vehicle.MinecartBehavior",
+            "XXX.entity.vehicle.MinecartCommandBlock",
+            "XXX.entity.vehicle.MinecartFurnace",
+            "XXX.entity.vehicle.MinecartSpawner",
+            "XXX.entity.vehicle.MinecartTNT",
+            "XXX.entity.vehicle.NewMinecartBehavior$1",
+            "XXX.entity.vehicle.NewMinecartBehavior$StepPartialTicks",
+            "XXX.entity.vehicle.OldMinecartBehavior",
+            "XXX.entity.vehicle.Raft",
+            "XXX.entity.vehicle.package-info",
+            "XXX.world.flag.FeatureFlag",
+            "XXX.world.flag.FeatureFlagRegistry$Builder",
+            "XXX.world.flag.FeatureFlagUniverse",
+            "XXX.world.flag.package-info",
+            "XXX.world.food.FoodData",
+            "XXX.world.food.FoodProperties$Builder",
+            "XXX.world.food.package-info",
+            "XXX.world.inventory.AbstractContainerMenu$1",
+            "XXX.world.inventory.AbstractCraftingMenu$1",
+            "XXX.world.inventory.AbstractFurnaceMenu$1",
+            "XXX.world.inventory.ArmorSlot",
+            "XXX.world.inventory.BeaconMenu$1",
+            "XXX.world.inventory.BlastFurnaceMenu",
+            "XXX.world.inventory.BrewingStandMenu$FuelSlot",
+            "XXX.world.inventory.BrewingStandMenu$PotionSlot",
+            "XXX.world.inventory.CartographyTableMenu$1",
+            "XXX.world.inventory.CartographyTableMenu$3",
+            "XXX.world.inventory.CartographyTableMenu$5",
+            "XXX.world.inventory.ClickAction",
+            "XXX.world.inventory.ContainerData",
+            "XXX.world.inventory.ContainerLevelAccess$1",
+            "XXX.world.inventory.ContainerListener",
+            "XXX.world.inventory.CrafterMenu",
+            "XXX.world.inventory.CraftingContainer",
+            "XXX.world.inventory.DataSlot",
+            "XXX.world.inventory.DataSlot$2",
+            "XXX.world.inventory.DispenserMenu",
+            "XXX.world.inventory.EnchantmentMenu$1",
+            "XXX.world.inventory.EnchantmentMenu$3",
+            "XXX.world.inventory.FurnaceMenu",
+            "XXX.world.inventory.GrindstoneMenu",
+            "XXX.world.inventory.GrindstoneMenu$2",
+            "XXX.world.inventory.GrindstoneMenu$4",
+            "XXX.world.inventory.HorseInventoryMenu",
+            "XXX.world.inventory.HorseInventoryMenu$2",
+            "XXX.world.inventory.InventoryMenu$1",
+            "XXX.world.inventory.ItemCombinerMenu$1",
+            "XXX.world.inventory.ItemCombinerMenu$3",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition$SlotDefinition",
+            "XXX.world.inventory.LecternMenu$1",
+            "XXX.world.inventory.LoomMenu$1",
+            "XXX.world.inventory.LoomMenu$3",
+            "XXX.world.inventory.LoomMenu$5",
+            "XXX.world.inventory.MenuConstructor",
+            "XXX.world.inventory.MenuType$MenuSupplier",
+            "XXX.world.inventory.MerchantMenu",
+            "XXX.world.inventory.NonInteractiveResultSlot",
+            "XXX.world.inventory.RecipeBookMenu",
+            "XXX.world.inventory.RecipeBookType",
+            "XXX.world.inventory.ResultContainer",
+            "XXX.world.inventory.ShulkerBoxMenu",
+            "XXX.world.inventory.SimpleContainerData",
+            "XXX.world.inventory.SlotRange",
+            "XXX.world.inventory.SlotRanges",
+            "XXX.world.inventory.SmokerMenu",
+            "XXX.world.inventory.StonecutterMenu",
+            "XXX.world.inventory.StonecutterMenu$2",
+            "XXX.world.inventory.package-info",
+            "XXX.inventory.tooltip.TooltipComponent",
+            "XXX.world.item.AdventureModePredicate",
+            "XXX.world.item.AnimalArmorItem",
+            "XXX.world.item.ArmorItem",
+            "XXX.world.item.ArrowItem",
+            "XXX.world.item.BannerItem",
+            "XXX.world.item.BedItem",
+            "XXX.world.item.BoatItem",
+            "XXX.world.item.BoneMealItem$1",
+            "XXX.world.item.BowItem",
+            "XXX.world.item.BrushItem$1",
+            "XXX.world.item.BucketItem",
+            "XXX.world.item.BundleItem$1",
+            "XXX.world.item.CreativeModeTab",
+            "XXX.world.item.CreativeModeTab$DisplayItemsGenerator",
+            "XXX.world.item.CreativeModeTab$ItemDisplayParameters",
+            "XXX.world.item.CreativeModeTab$Row",
+            "XXX.world.item.CreativeModeTab$Type",
+            "XXX.world.item.CrossbowItem",
+            "XXX.world.item.CrossbowItem$ChargingSounds",
+            "XXX.world.item.DiggerItem",
+            "XXX.world.item.DispensibleContainerItem",
+            "XXX.world.item.DyeColor",
+            "XXX.world.item.EggItem",
+            "XXX.world.item.EmptyMapItem",
+            "XXX.world.item.EnderEyeItem",
+            "XXX.world.item.ExperienceBottleItem",
+            "XXX.world.item.FireworkRocketItem",
+            "XXX.world.item.FishingRodItem",
+            "XXX.world.item.FoodOnAStickItem",
+            "XXX.world.item.GlowInkSacItem",
+            "XXX.world.item.HangingSignItem",
+            "XXX.world.item.HoneycombItem",
+            "XXX.world.item.Instrument",
+            "XXX.world.item.Instruments",
+            "XXX.world.item.Item$Properties",
+            "XXX.world.item.Item$TooltipContext$1",
+            "XXX.world.item.Item$TooltipContext$3",
+            "XXX.world.item.ItemCooldowns$CooldownInstance",
+            "XXX.world.item.ItemFrameItem",
+            "XXX.world.item.ItemStack$1",
+            "XXX.world.item.ItemStack$3",
+            "XXX.world.item.ItemStackLinkedSet",
+            "XXX.world.item.ItemUseAnimation",
+            "XXX.world.item.Items",
+            "XXX.world.item.JukeboxSong",
+            "XXX.world.item.JukeboxSongPlayer$OnSongChanged",
+            "XXX.world.item.KnowledgeBookItem",
+            "XXX.world.item.LingeringPotionItem",
+            "XXX.world.item.MapItem",
+            "XXX.world.item.MinecartItem",
+            "XXX.world.item.NameTagItem",
+            "XXX.world.item.PlaceOnWaterBlockItem",
+            "XXX.world.item.PotionItem",
+            "XXX.world.item.ProjectileItem$DispenseConfig",
+            "XXX.world.item.ProjectileItem$PositionFunction",
+            "XXX.world.item.Rarity",
+            "XXX.world.item.ScaffoldingBlockItem",
+            "XXX.world.item.ShearsItem",
+            "XXX.world.item.ShovelItem",
+            "XXX.world.item.SignItem",
+            "XXX.world.item.SnowballItem",
+            "XXX.world.item.SpawnEggItem",
+            "XXX.world.item.SplashPotionItem",
+            "XXX.world.item.StandingAndWallBlockItem",
+            "XXX.world.item.ThrowablePotionItem",
+            "XXX.world.item.ToolMaterial",
+            "XXX.world.item.TooltipFlag$Default",
+            "XXX.world.item.WindChargeItem",
+            "XXX.world.item.WrittenBookItem",
+            "XXX.item.alchemy.PotionBrewing",
+            "XXX.item.alchemy.PotionBrewing$Mix",
+            "XXX.item.alchemy.Potions",
+            "XXX.item.component.BlockItemStateProperties",
+            "XXX.item.component.BundleContents",
+            "XXX.item.component.ChargedProjectiles",
+            "XXX.item.component.Consumable$Builder",
+            "XXX.item.component.ConsumableListener",
+            "XXX.item.component.CustomData",
+            "XXX.item.component.DamageResistant",
+            "XXX.item.component.DebugStickState",
+            "XXX.item.component.FireworkExplosion",
+            "XXX.item.component.Fireworks",
+            "XXX.item.component.ItemAttributeModifiers$1",
+            "XXX.item.component.ItemAttributeModifiers$Entry",
+            "XXX.item.component.ItemContainerContents$Slot",
+            "XXX.item.component.LodestoneTracker",
+            "XXX.item.component.MapDecorations$Entry",
+            "XXX.item.component.MapPostProcessing",
+            "XXX.item.component.ResolvableProfile",
+            "XXX.item.component.SuspiciousStewEffects",
+            "XXX.item.component.Tool",
+            "XXX.item.component.TooltipProvider",
+            "XXX.item.component.UseCooldown",
+            "XXX.item.component.UseRemainder$OnExtraCreatedRemainder",
+            "XXX.item.component.WrittenBookContent",
+            "XXX.item.consume_effects.ApplyStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.ConsumeEffect",
+            "XXX.item.consume_effects.PlaySoundConsumeEffect",
+            "XXX.item.consume_effects.TeleportRandomlyConsumeEffect",
+            "XXX.item.context.BlockPlaceContext",
+            "XXX.item.context.DirectionalPlaceContext$1",
+            "XXX.item.context.package-info",
+            "XXX.item.crafting.AbstractCookingRecipe$Factory",
+            "XXX.item.crafting.ArmorDyeRecipe",
+            "XXX.item.crafting.BlastingRecipe",
+            "XXX.item.crafting.BookCloningRecipe",
+            "XXX.item.crafting.CookingBookCategory",
+            "XXX.item.crafting.CraftingInput",
+            "XXX.item.crafting.CraftingRecipe",
+            "XXX.item.crafting.CustomRecipe",
+            "XXX.item.crafting.CustomRecipe$Serializer$Factory",
+            "XXX.item.crafting.ExtendedRecipeBookCategory",
+            "XXX.item.crafting.FireworkStarFadeRecipe",
+            "XXX.item.crafting.Ingredient",
+            "XXX.item.crafting.MapExtendingRecipe"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.core.component.PatchedDataComponentMap \u001b[2;32m+1M\u001b[0m",
+          "XXX.data.tags.VanillaItemTagsProvider \u001b[2;32m+1M\u001b[0m",
+          "XXX.server.packs.BuiltInMetadata \u001b[2;32m+3M\u001b[0m \u001b[2;31m-3M\u001b[0m",
+          "XXX.packs.resources.ResourceMetadata$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.packs.resources.ResourceMetadata$Builder \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.entity.EntityType \u001b[2;31m-1P\u001b[0m",
+          "XXX.entity.monster.WitherSkeleton \u001b[2;32m+2M\u001b[0m",
+          "XXX.level.block.AbstractFurnaceBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BarrelBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BaseEntityBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BedBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BeehiveBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BellBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BrushableBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CampfireBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CommandBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CreakingHeartBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EnchantingTableBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EndPortalBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.EyeblossomBlock$Type \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.HopperBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.LecternBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.MultifaceBlock \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.level.block.SculkSensorBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SculkVeinBlock \u001b[2;31m-4M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.ShulkerBoxBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SkullBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SpawnerBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.StonecutterBlock \u001b[2;31m-1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.core.component.PatchedDataComponentMap",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean hasNonDefault(DataComponentType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.data.tags.VanillaItemTagsProvider",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void lambda$addTags$0(Holder$Reference)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.BuiltInMetadata",
+        "differences": {
+          "added": [
+            "Object get(MetadataSectionSerializer)",
+            "BuiltInMetadata of(MetadataSectionSerializer,Object)",
+            "BuiltInMetadata of(MetadataSectionSerializer,Object,MetadataSectionSerializer,Object)"
+          ],
+          "removed": [
+            "Object get(MetadataSectionType)",
+            "BuiltInMetadata of(MetadataSectionType,Object)",
+            "BuiltInMetadata of(MetadataSectionType,Object,MetadataSectionType,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.resources.ResourceMetadata$1",
+        "differences": {
+          "added": [
+            "Optional getSection(MetadataSectionSerializer)"
+          ],
+          "removed": [
+            "Optional getSection(MetadataSectionType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.resources.ResourceMetadata$Builder",
+        "differences": {
+          "added": [
+            "ResourceMetadata$Builder put(MetadataSectionSerializer,Object)"
+          ],
+          "removed": [
+            "ResourceMetadata$Builder put(MetadataSectionType,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.WitherSkeleton",
+        "differences": {
+          "added": [],
+          "removed": [
+            "TagKey getPreferredWeaponType()",
+            "boolean canHoldItem(ItemStack)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.AbstractFurnaceBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BarrelBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BaseEntityBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BedBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BeehiveBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BellBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BrushableBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CampfireBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CommandBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CreakingHeartBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EnchantingTableBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EndPortalBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "RenderShape getRenderShape(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EyeblossomBlock$Type",
+        "differences": {
+          "added": [
+            "BlockState oppositeState()"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.HopperBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.LecternBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.MultifaceBlock",
+        "differences": {
+          "added": [
+            "boolean isWaterloggable()"
+          ],
+          "removed": [
+            "FluidState getFluidState(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkSensorBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkVeinBlock",
+        "differences": {
+          "added": [
+            "BlockState updateShape(BlockState,LevelReader,ScheduledTickAccess,BlockPos,Direction,BlockPos,BlockState,RandomSource)",
+            "void createBlockStateDefinition(StateDefinition$Builder)",
+            "boolean canBeReplaced(BlockState,BlockPlaceContext)",
+            "FluidState getFluidState(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ShulkerBoxBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SkullBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SpawnerBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StonecutterBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "Classes",
+        "differences": {
+          "added": [
+            "XXX.renderer.block.BlockRenderDispatcher$1",
+            "XXX.renderer.block.LiquidBlockRenderer$1",
+            "XXX.renderer.block.ModelBlockRenderer$1",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientOcclusionFace",
+            "XXX.renderer.block.ModelBlockRenderer$Cache",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$2",
+            "XXX.block.model.BakedQuad",
+            "XXX.block.model.BlockElement$1",
+            "XXX.block.model.BlockElementFace",
+            "XXX.block.model.BlockElementRotation",
+            "XXX.block.model.BlockFaceUV$Deserializer",
+            "XXX.block.model.BlockModel$Deserializer",
+            "XXX.block.model.BlockModelDefinition$Deserializer",
+            "XXX.block.model.FaceBakery",
+            "XXX.block.model.ItemModelGenerator",
+            "XXX.block.model.ItemModelGenerator$SpanFacing",
+            "XXX.block.model.ItemTransform$Deserializer",
+            "XXX.block.model.ItemTransforms$1",
+            "XXX.block.model.MultiVariant",
+            "XXX.block.model.TextureSlots",
+            "XXX.block.model.TextureSlots$Data$Builder",
+            "XXX.block.model.TextureSlots$Resolver",
+            "XXX.block.model.TextureSlots$Value",
+            "XXX.block.model.Variant",
+            "XXX.block.model.VariantSelector",
+            "XXX.model.multipart.Condition",
+            "XXX.model.multipart.MultiPart",
+            "XXX.model.multipart.MultiPart$Definition",
+            "XXX.model.multipart.MultiPart$InstantiatedSelector",
+            "XXX.model.multipart.Selector",
+            "XXX.model.multipart.package-info",
+            "XXX.renderer.block.package-info",
+            "XXX.properties.conditional.FishingRodCast",
+            "XXX.properties.conditional.IsCarried",
+            "XXX.properties.conditional.IsShiftDown",
+            "XXX.properties.conditional.IsXmas",
+            "XXX.properties.select.ItemBlockState",
+            "XXX.renderer.texture.MipmapGenerator",
+            "XXX.renderer.texture.OverlayTexture",
+            "XXX.renderer.texture.SimpleTexture",
+            "XXX.renderer.texture.SpriteContents",
+            "XXX.renderer.texture.SpriteContents$FrameInfo",
+            "XXX.renderer.texture.SpriteContents$Ticker",
+            "XXX.renderer.texture.SpriteLoader$Preparations",
+            "XXX.renderer.texture.Stitcher",
+            "XXX.renderer.texture.Stitcher$Holder",
+            "XXX.renderer.texture.Stitcher$SpriteLoader",
+            "XXX.renderer.texture.TextureAtlas",
+            "XXX.renderer.texture.TextureAtlasSprite$1",
+            "XXX.texture.atlas.SpriteResourceLoader",
+            "XXX.texture.atlas.SpriteSource$Output",
+            "XXX.texture.atlas.SpriteSourceList",
+            "XXX.texture.atlas.SpriteSourceType",
+            "XXX.texture.atlas.package-info",
+            "XXX.atlas.sources.LazyLoadedImage",
+            "XXX.atlas.sources.PalettedPermutations$PalettedSpriteSupplier",
+            "XXX.atlas.sources.SourceFilter",
+            "XXX.atlas.sources.Unstitcher$Region",
+            "XXX.atlas.sources.package-info",
+            "XXX.client.resources.ClientPackSource",
+            "XXX.client.resources.FoliageColorReloadListener",
+            "XXX.client.resources.IndexedAssetSource",
+            "XXX.client.resources.MapDecorationTextureManager",
+            "XXX.client.resources.MapTextureManager$MapInstance",
+            "XXX.client.resources.PaintingTextureManager",
+            "XXX.client.resources.PlayerSkin$Model",
+            "XXX.client.resources.SkinManager$1",
+            "XXX.client.resources.SkinManager$CacheKey",
+            "XXX.client.resources.SplashManager",
+            "XXX.resources.language.ClientLanguage",
+            "XXX.resources.language.I18n",
+            "XXX.resources.language.LanguageManager",
+            "XXX.metadata.animation.AnimationFrame",
+            "XXX.metadata.animation.AnimationMetadataSection$1",
+            "XXX.metadata.animation.AnimationMetadataSectionSerializer",
+            "XXX.metadata.animation.VillagerMetaDataSection",
+            "XXX.metadata.animation.VillagerMetadataSectionSerializer",
+            "XXX.metadata.gui.GuiMetadataSection",
+            "XXX.metadata.gui.GuiSpriteScaling$NineSlice",
+            "XXX.metadata.gui.GuiSpriteScaling$Stretch",
+            "XXX.metadata.gui.GuiSpriteScaling$Type",
+            "XXX.metadata.language.LanguageMetadataSection",
+            "XXX.resources.metadata.package-info",
+            "XXX.metadata.texture.TextureMetadataSectionSerializer",
+            "XXX.packs.metadata.MetadataSectionSerializer",
+            "XXX.packs.metadata.MetadataSectionType$1",
+            "XXX.monster.creaking.CreakingTransient$CreakingPathNavigation",
+            "XXX.monster.creaking.package-info",
+            "XXX.monster.hoglin.HoglinAi",
+            "XXX.monster.hoglin.package-info",
+            "XXX.monster.piglin.AbstractPiglin",
+            "XXX.monster.piglin.PiglinAi",
+            "XXX.monster.piglin.PiglinBrute",
+            "XXX.monster.piglin.RememberIfHoglinWasKilled",
+            "XXX.monster.piglin.StartHuntingHoglin",
+            "XXX.monster.piglin.StopAdmiringIfTiredOfTryingToReachItem",
+            "XXX.monster.piglin.package-info",
+            "XXX.monster.warden.AngerManagement",
+            "XXX.monster.warden.AngerManagement$Sorter",
+            "XXX.monster.warden.Warden$1",
+            "XXX.monster.warden.Warden$2",
+            "XXX.monster.warden.WardenAi",
+            "XXX.monster.warden.package-info",
+            "XXX.entity.npc.CatSpawner",
+            "XXX.entity.npc.InventoryCarrier",
+            "XXX.entity.npc.Villager",
+            "XXX.entity.npc.VillagerDataHolder",
+            "XXX.entity.npc.VillagerTrades",
+            "XXX.entity.npc.VillagerTrades$EmeraldForItems",
+            "XXX.entity.npc.VillagerTrades$EnchantBookForEmeralds",
+            "XXX.entity.npc.VillagerTrades$FailureItemListing",
+            "XXX.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems",
+            "XXX.entity.npc.VillagerTrades$SuspiciousStewForEmerald",
+            "XXX.entity.npc.VillagerTrades$TreasureMapForEmeralds",
+            "XXX.entity.npc.VillagerType",
+            "XXX.entity.npc.WanderingTrader$WanderToPositionGoal",
+            "XXX.entity.npc.package-info",
+            "XXX.entity.player.Abilities",
+            "XXX.entity.player.Input",
+            "XXX.entity.player.Inventory",
+            "XXX.entity.player.Player$1",
+            "XXX.entity.player.Player$BedSleepingProblem",
+            "XXX.entity.player.ProfileKeyPair",
+            "XXX.entity.player.ProfilePublicKey$Data",
+            "XXX.entity.player.StackedContents",
+            "XXX.entity.player.StackedContents$Output",
+            "XXX.entity.player.StackedItemContents",
+            "XXX.entity.projectile.AbstractArrow",
+            "XXX.entity.projectile.AbstractHurtingProjectile",
+            "XXX.entity.projectile.DragonFireball",
+            "XXX.entity.projectile.EyeOfEnder",
+            "XXX.entity.projectile.FireworkRocketEntity",
+            "XXX.entity.projectile.FishingHook$FishHookState",
+            "XXX.entity.projectile.ItemSupplier",
+            "XXX.entity.projectile.LlamaSpit",
+            "XXX.entity.projectile.Projectile$ProjectileFactory",
+            "XXX.entity.projectile.ProjectileUtil",
+            "XXX.entity.projectile.SmallFireball",
+            "XXX.entity.projectile.SpectralArrow",
+            "XXX.entity.projectile.ThrowableProjectile",
+            "XXX.entity.projectile.ThrownEnderpearl",
+            "XXX.entity.projectile.ThrownPotion",
+            "XXX.entity.projectile.WitherSkull",
+            "XXX.projectile.windcharge.AbstractWindCharge",
+            "XXX.projectile.windcharge.WindCharge",
+            "XXX.entity.raid.Raid",
+            "XXX.entity.raid.Raid$RaidStatus",
+            "XXX.entity.raid.Raider",
+            "XXX.entity.raid.Raider$ObtainRaidLeaderBannerGoal",
+            "XXX.entity.raid.Raider$RaiderMoveThroughVillageGoal",
+            "XXX.entity.raid.package-info",
+            "XXX.entity.schedule.Keyframe",
+            "XXX.entity.schedule.ScheduleBuilder",
+            "XXX.entity.schedule.Timeline",
+            "XXX.entity.vehicle.AbstractBoat",
+            "XXX.entity.vehicle.AbstractChestBoat",
+            "XXX.entity.vehicle.AbstractMinecartContainer",
+            "XXX.entity.vehicle.ChestBoat",
+            "XXX.entity.vehicle.ContainerEntity",
+            "XXX.entity.vehicle.DismountHelper",
+            "XXX.entity.vehicle.MinecartBehavior",
+            "XXX.entity.vehicle.MinecartCommandBlock",
+            "XXX.entity.vehicle.MinecartFurnace",
+            "XXX.entity.vehicle.MinecartSpawner",
+            "XXX.entity.vehicle.MinecartTNT",
+            "XXX.entity.vehicle.NewMinecartBehavior$1",
+            "XXX.entity.vehicle.NewMinecartBehavior$StepPartialTicks",
+            "XXX.entity.vehicle.OldMinecartBehavior",
+            "XXX.entity.vehicle.Raft",
+            "XXX.entity.vehicle.package-info",
+            "XXX.world.flag.FeatureFlag",
+            "XXX.world.flag.FeatureFlagRegistry$Builder",
+            "XXX.world.flag.FeatureFlagUniverse",
+            "XXX.world.flag.package-info",
+            "XXX.world.food.FoodData",
+            "XXX.world.food.FoodProperties$Builder",
+            "XXX.world.food.package-info",
+            "XXX.world.inventory.AbstractContainerMenu$1",
+            "XXX.world.inventory.AbstractCraftingMenu$1",
+            "XXX.world.inventory.AbstractFurnaceMenu$1",
+            "XXX.world.inventory.ArmorSlot",
+            "XXX.world.inventory.BeaconMenu$1",
+            "XXX.world.inventory.BlastFurnaceMenu",
+            "XXX.world.inventory.BrewingStandMenu$FuelSlot",
+            "XXX.world.inventory.BrewingStandMenu$PotionSlot",
+            "XXX.world.inventory.CartographyTableMenu$1",
+            "XXX.world.inventory.CartographyTableMenu$3",
+            "XXX.world.inventory.CartographyTableMenu$5",
+            "XXX.world.inventory.ClickAction",
+            "XXX.world.inventory.ContainerData",
+            "XXX.world.inventory.ContainerLevelAccess$1",
+            "XXX.world.inventory.ContainerListener",
+            "XXX.world.inventory.CrafterMenu",
+            "XXX.world.inventory.CraftingContainer",
+            "XXX.world.inventory.DataSlot",
+            "XXX.world.inventory.DataSlot$2",
+            "XXX.world.inventory.DispenserMenu",
+            "XXX.world.inventory.EnchantmentMenu$1",
+            "XXX.world.inventory.EnchantmentMenu$3",
+            "XXX.world.inventory.FurnaceMenu",
+            "XXX.world.inventory.GrindstoneMenu",
+            "XXX.world.inventory.GrindstoneMenu$2",
+            "XXX.world.inventory.GrindstoneMenu$4",
+            "XXX.world.inventory.HorseInventoryMenu",
+            "XXX.world.inventory.HorseInventoryMenu$2",
+            "XXX.world.inventory.InventoryMenu$1",
+            "XXX.world.inventory.ItemCombinerMenu$1",
+            "XXX.world.inventory.ItemCombinerMenu$3",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition$SlotDefinition",
+            "XXX.world.inventory.LecternMenu$1",
+            "XXX.world.inventory.LoomMenu$1",
+            "XXX.world.inventory.LoomMenu$3",
+            "XXX.world.inventory.LoomMenu$5",
+            "XXX.world.inventory.MenuConstructor",
+            "XXX.world.inventory.MenuType$MenuSupplier",
+            "XXX.world.inventory.MerchantMenu",
+            "XXX.world.inventory.NonInteractiveResultSlot",
+            "XXX.world.inventory.RecipeBookMenu",
+            "XXX.world.inventory.RecipeBookType",
+            "XXX.world.inventory.ResultContainer",
+            "XXX.world.inventory.ShulkerBoxMenu",
+            "XXX.world.inventory.SimpleContainerData",
+            "XXX.world.inventory.SlotRange",
+            "XXX.world.inventory.SlotRanges",
+            "XXX.world.inventory.SmokerMenu",
+            "XXX.world.inventory.StonecutterMenu",
+            "XXX.world.inventory.StonecutterMenu$2",
+            "XXX.world.inventory.package-info",
+            "XXX.inventory.tooltip.TooltipComponent",
+            "XXX.world.item.AdventureModePredicate",
+            "XXX.world.item.AnimalArmorItem",
+            "XXX.world.item.ArmorItem",
+            "XXX.world.item.ArrowItem",
+            "XXX.world.item.BannerItem",
+            "XXX.world.item.BedItem",
+            "XXX.world.item.BoatItem",
+            "XXX.world.item.BoneMealItem$1",
+            "XXX.world.item.BowItem",
+            "XXX.world.item.BrushItem$1",
+            "XXX.world.item.BucketItem",
+            "XXX.world.item.BundleItem$1",
+            "XXX.world.item.CreativeModeTab",
+            "XXX.world.item.CreativeModeTab$DisplayItemsGenerator",
+            "XXX.world.item.CreativeModeTab$ItemDisplayParameters",
+            "XXX.world.item.CreativeModeTab$Row",
+            "XXX.world.item.CreativeModeTab$Type",
+            "XXX.world.item.CrossbowItem",
+            "XXX.world.item.CrossbowItem$ChargingSounds",
+            "XXX.world.item.DiggerItem",
+            "XXX.world.item.DispensibleContainerItem",
+            "XXX.world.item.DyeColor",
+            "XXX.world.item.EggItem",
+            "XXX.world.item.EmptyMapItem",
+            "XXX.world.item.EnderEyeItem",
+            "XXX.world.item.ExperienceBottleItem",
+            "XXX.world.item.FireworkRocketItem",
+            "XXX.world.item.FishingRodItem",
+            "XXX.world.item.FoodOnAStickItem",
+            "XXX.world.item.GlowInkSacItem",
+            "XXX.world.item.HangingSignItem",
+            "XXX.world.item.HoneycombItem",
+            "XXX.world.item.Instrument",
+            "XXX.world.item.Instruments",
+            "XXX.world.item.Item$Properties",
+            "XXX.world.item.Item$TooltipContext$1",
+            "XXX.world.item.Item$TooltipContext$3",
+            "XXX.world.item.ItemCooldowns$CooldownInstance",
+            "XXX.world.item.ItemFrameItem",
+            "XXX.world.item.ItemStack$1",
+            "XXX.world.item.ItemStack$3",
+            "XXX.world.item.ItemStackLinkedSet",
+            "XXX.world.item.ItemUseAnimation",
+            "XXX.world.item.Items",
+            "XXX.world.item.JukeboxSong",
+            "XXX.world.item.JukeboxSongPlayer$OnSongChanged",
+            "XXX.world.item.KnowledgeBookItem",
+            "XXX.world.item.LingeringPotionItem",
+            "XXX.world.item.MapItem",
+            "XXX.world.item.MinecartItem",
+            "XXX.world.item.NameTagItem",
+            "XXX.world.item.PlaceOnWaterBlockItem",
+            "XXX.world.item.PotionItem",
+            "XXX.world.item.ProjectileItem$DispenseConfig",
+            "XXX.world.item.ProjectileItem$PositionFunction",
+            "XXX.world.item.Rarity",
+            "XXX.world.item.ScaffoldingBlockItem",
+            "XXX.world.item.ShearsItem",
+            "XXX.world.item.ShovelItem",
+            "XXX.world.item.SignItem",
+            "XXX.world.item.SnowballItem",
+            "XXX.world.item.SpawnEggItem",
+            "XXX.world.item.SplashPotionItem",
+            "XXX.world.item.StandingAndWallBlockItem",
+            "XXX.world.item.ThrowablePotionItem",
+            "XXX.world.item.ToolMaterial",
+            "XXX.world.item.TooltipFlag$Default",
+            "XXX.world.item.WindChargeItem",
+            "XXX.world.item.WrittenBookItem",
+            "XXX.item.alchemy.PotionBrewing",
+            "XXX.item.alchemy.PotionBrewing$Mix",
+            "XXX.item.alchemy.Potions",
+            "XXX.item.component.BlockItemStateProperties",
+            "XXX.item.component.BundleContents",
+            "XXX.item.component.ChargedProjectiles",
+            "XXX.item.component.Consumable$Builder",
+            "XXX.item.component.ConsumableListener",
+            "XXX.item.component.CustomData",
+            "XXX.item.component.DamageResistant",
+            "XXX.item.component.DebugStickState",
+            "XXX.item.component.FireworkExplosion",
+            "XXX.item.component.Fireworks",
+            "XXX.item.component.ItemAttributeModifiers$1",
+            "XXX.item.component.ItemAttributeModifiers$Entry",
+            "XXX.item.component.ItemContainerContents$Slot",
+            "XXX.item.component.LodestoneTracker",
+            "XXX.item.component.MapDecorations$Entry",
+            "XXX.item.component.MapPostProcessing",
+            "XXX.item.component.ResolvableProfile",
+            "XXX.item.component.SuspiciousStewEffects",
+            "XXX.item.component.Tool",
+            "XXX.item.component.TooltipProvider",
+            "XXX.item.component.UseCooldown",
+            "XXX.item.component.UseRemainder$OnExtraCreatedRemainder",
+            "XXX.item.component.WrittenBookContent",
+            "XXX.item.consume_effects.ApplyStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.ConsumeEffect",
+            "XXX.item.consume_effects.PlaySoundConsumeEffect",
+            "XXX.item.consume_effects.TeleportRandomlyConsumeEffect",
+            "XXX.item.context.BlockPlaceContext",
+            "XXX.item.context.DirectionalPlaceContext$1",
+            "XXX.item.context.package-info",
+            "XXX.item.crafting.AbstractCookingRecipe$Factory",
+            "XXX.item.crafting.ArmorDyeRecipe",
+            "XXX.item.crafting.BlastingRecipe",
+            "XXX.item.crafting.BookCloningRecipe",
+            "XXX.item.crafting.CookingBookCategory",
+            "XXX.item.crafting.CraftingInput",
+            "XXX.item.crafting.CraftingRecipe",
+            "XXX.item.crafting.CustomRecipe",
+            "XXX.item.crafting.CustomRecipe$Serializer$Factory",
+            "XXX.item.crafting.ExtendedRecipeBookCategory",
+            "XXX.item.crafting.FireworkStarFadeRecipe",
+            "XXX.item.crafting.Ingredient",
+            "XXX.item.crafting.MapExtendingRecipe",
+            "XXX.item.crafting.PlacementInfo$SlotInfo"
+          ],
+          "removed": [
+            "XXX.renderer.block.LiquidBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer",
+            "XXX.renderer.block.ModelBlockRenderer$AdjacencyInfo",
+            "XXX.renderer.block.ModelBlockRenderer$AmbientVertexRemap",
+            "XXX.renderer.block.ModelBlockRenderer$Cache$1",
+            "XXX.renderer.block.ModelBlockRenderer$SizeInfo",
+            "XXX.block.model.BlockElement",
+            "XXX.block.model.BlockElement$Deserializer",
+            "XXX.block.model.BlockElementFace$Deserializer",
+            "XXX.block.model.BlockFaceUV",
+            "XXX.block.model.BlockModel",
+            "XXX.block.model.BlockModelDefinition",
+            "XXX.block.model.BlockModelDefinition$MissingVariantException",
+            "XXX.block.model.FaceBakery$1",
+            "XXX.block.model.ItemModelGenerator$Span",
+            "XXX.block.model.ItemTransform",
+            "XXX.block.model.ItemTransforms",
+            "XXX.block.model.ItemTransforms$Deserializer",
+            "XXX.block.model.MultiVariant$Deserializer",
+            "XXX.block.model.TextureSlots$Data",
+            "XXX.block.model.TextureSlots$Reference",
+            "XXX.block.model.TextureSlots$SlotContents",
+            "XXX.block.model.UnbakedBlockStateModel",
+            "XXX.block.model.Variant$Deserializer",
+            "XXX.model.multipart.AndCondition",
+            "XXX.model.multipart.KeyValueCondition",
+            "XXX.model.multipart.MultiPart$1Key",
+            "XXX.model.multipart.MultiPart$Deserializer",
+            "XXX.model.multipart.OrCondition",
+            "XXX.model.multipart.Selector$Deserializer",
+            "XXX.block.model.package-info",
+            "XXX.renderer.blockentity.AbstractSignRenderer",
+            "XXX.properties.conditional.ExtendedView",
+            "XXX.properties.conditional.HasComponent",
+            "XXX.properties.conditional.IsKeybindDown",
+            "XXX.properties.conditional.IsUsingItem",
+            "XXX.properties.select.HolderType",
+            "XXX.properties.select.LocalTime",
+            "XXX.renderer.special.HangingSignSpecialRenderer",
+            "XXX.renderer.special.StandingSignSpecialRenderer",
+            "XXX.renderer.texture.MissingTextureAtlasSprite",
+            "XXX.renderer.texture.ReloadableTexture",
+            "XXX.renderer.texture.SkinTextureDownloader",
+            "XXX.renderer.texture.SpriteContents$AnimatedTexture",
+            "XXX.renderer.texture.SpriteContents$InterpolationData",
+            "XXX.renderer.texture.SpriteLoader",
+            "XXX.renderer.texture.SpriteTicker",
+            "XXX.renderer.texture.Stitcher$Entry",
+            "XXX.renderer.texture.Stitcher$Region",
+            "XXX.renderer.texture.StitcherException",
+            "XXX.renderer.texture.TextureAtlasSprite",
+            "XXX.renderer.texture.TextureAtlasSprite$Ticker",
+            "XXX.renderer.texture.Tickable",
+            "XXX.texture.atlas.SpriteSource",
+            "XXX.texture.atlas.SpriteSource$SpriteSupplier",
+            "XXX.texture.atlas.SpriteSourceList$1",
+            "XXX.texture.atlas.SpriteSources",
+            "XXX.atlas.sources.DirectoryLister",
+            "XXX.atlas.sources.PalettedPermutations",
+            "XXX.atlas.sources.SingleFile",
+            "XXX.atlas.sources.Unstitcher",
+            "XXX.atlas.sources.Unstitcher$RegionInstance",
+            "XXX.renderer.texture.package-info",
+            "XXX.client.resources.DefaultPlayerSkin",
+            "XXX.client.resources.GrassColorReloadListener",
+            "XXX.client.resources.LegacyStuffWrapper",
+            "XXX.client.resources.MapTextureManager",
+            "XXX.client.resources.MobEffectTextureManager",
+            "XXX.client.resources.PlayerSkin",
+            "XXX.client.resources.SkinManager",
+            "XXX.client.resources.SkinManager$2",
+            "XXX.client.resources.SkinManager$TextureCache",
+            "XXX.client.resources.TextureAtlasHolder",
+            "XXX.resources.language.FormattedBidiReorder",
+            "XXX.resources.language.LanguageInfo",
+            "XXX.resources.language.package-info",
+            "XXX.metadata.animation.AnimationMetadataSection",
+            "XXX.metadata.animation.VillagerMetadataSection",
+            "XXX.metadata.animation.package-info",
+            "XXX.metadata.gui.GuiSpriteScaling",
+            "XXX.metadata.gui.GuiSpriteScaling$NineSlice$Border",
+            "XXX.metadata.gui.GuiSpriteScaling$Tile",
+            "XXX.metadata.gui.package-info",
+            "XXX.metadata.language.package-info",
+            "XXX.metadata.texture.TextureMetadataSection",
+            "XXX.packs.metadata.MetadataSectionType",
+            "XXX.monster.creaking.Creaking$HomeNodeEvaluator",
+            "XXX.monster.hoglin.Hoglin",
+            "XXX.monster.hoglin.HoglinBase",
+            "XXX.entity.monster.package-info",
+            "XXX.monster.piglin.Piglin",
+            "XXX.monster.piglin.PiglinArmPose",
+            "XXX.monster.piglin.PiglinBruteAi",
+            "XXX.monster.piglin.StartAdmiringItemIfSeen",
+            "XXX.monster.piglin.StopAdmiringIfItemTooFarAway",
+            "XXX.monster.piglin.StopHoldingItemIfNoLongerAdmiring",
+            "XXX.monster.warden.AngerLevel",
+            "XXX.monster.warden.AngerManagement$1",
+            "XXX.monster.warden.Warden",
+            "XXX.monster.warden.Warden$1$1",
+            "XXX.monster.warden.Warden$VibrationUser",
+            "XXX.monster.warden.WardenSpawnTracker",
+            "XXX.entity.npc.AbstractVillager",
+            "XXX.entity.npc.ClientSideMerchant",
+            "XXX.entity.npc.Npc",
+            "XXX.entity.npc.VillagerData",
+            "XXX.entity.npc.VillagerProfession",
+            "XXX.entity.npc.VillagerTrades$DyedArmorForEmeralds",
+            "XXX.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem",
+            "XXX.entity.npc.VillagerTrades$EnchantedItemForEmeralds",
+            "XXX.entity.npc.VillagerTrades$ItemListing",
+            "XXX.entity.npc.VillagerTrades$ItemsForEmeralds",
+            "XXX.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds",
+            "XXX.entity.npc.VillagerTrades$TypeSpecificTrade",
+            "XXX.entity.npc.WanderingTrader",
+            "XXX.entity.npc.WanderingTraderSpawner",
+            "XXX.world.entity.package-info",
+            "XXX.entity.player.ChatVisiblity",
+            "XXX.entity.player.Input$1",
+            "XXX.entity.player.Player",
+            "XXX.entity.player.Player$2",
+            "XXX.entity.player.PlayerModelPart",
+            "XXX.entity.player.ProfilePublicKey",
+            "XXX.entity.player.ProfilePublicKey$ValidationException",
+            "XXX.entity.player.StackedContents$IngredientInfo",
+            "XXX.entity.player.StackedContents$RecipePicker",
+            "XXX.entity.player.package-info",
+            "XXX.entity.projectile.AbstractArrow$Pickup",
+            "XXX.entity.projectile.Arrow",
+            "XXX.entity.projectile.EvokerFangs",
+            "XXX.entity.projectile.Fireball",
+            "XXX.entity.projectile.FishingHook",
+            "XXX.entity.projectile.FishingHook$OpenWaterType",
+            "XXX.entity.projectile.LargeFireball",
+            "XXX.entity.projectile.Projectile",
+            "XXX.entity.projectile.ProjectileDeflection",
+            "XXX.entity.projectile.ShulkerBullet",
+            "XXX.entity.projectile.Snowball",
+            "XXX.entity.projectile.ThrowableItemProjectile",
+            "XXX.entity.projectile.ThrownEgg",
+            "XXX.entity.projectile.ThrownExperienceBottle",
+            "XXX.entity.projectile.ThrownTrident",
+            "XXX.entity.projectile.package-info",
+            "XXX.projectile.windcharge.BreezeWindCharge",
+            "XXX.projectile.windcharge.package-info",
+            "XXX.entity.raid.Raid$1",
+            "XXX.entity.raid.Raid$RaiderType",
+            "XXX.entity.raid.Raider$HoldGroundAttackGoal",
+            "XXX.entity.raid.Raider$RaiderCelebration",
+            "XXX.entity.raid.Raids",
+            "XXX.entity.schedule.Activity",
+            "XXX.entity.schedule.Schedule",
+            "XXX.entity.schedule.ScheduleBuilder$ActivityTransition",
+            "XXX.entity.schedule.package-info",
+            "XXX.entity.vehicle.AbstractBoat$Status",
+            "XXX.entity.vehicle.AbstractMinecart",
+            "XXX.entity.vehicle.Boat",
+            "XXX.entity.vehicle.ChestRaft",
+            "XXX.entity.vehicle.ContainerEntity$1",
+            "XXX.entity.vehicle.Minecart",
+            "XXX.entity.vehicle.MinecartChest",
+            "XXX.entity.vehicle.MinecartCommandBlock$MinecartCommandBase",
+            "XXX.entity.vehicle.MinecartHopper",
+            "XXX.entity.vehicle.MinecartSpawner$1",
+            "XXX.entity.vehicle.NewMinecartBehavior",
+            "XXX.entity.vehicle.NewMinecartBehavior$MinecartStep",
+            "XXX.entity.vehicle.NewMinecartBehavior$TrackIteration",
+            "XXX.entity.vehicle.OldMinecartBehavior$1",
+            "XXX.entity.vehicle.VehicleEntity",
+            "XXX.world.flag.FeatureElement",
+            "XXX.world.flag.FeatureFlagRegistry",
+            "XXX.world.flag.FeatureFlagSet",
+            "XXX.world.flag.FeatureFlags",
+            "XXX.world.food.FoodConstants",
+            "XXX.world.food.FoodProperties",
+            "XXX.world.food.Foods",
+            "XXX.world.inventory.AbstractContainerMenu",
+            "XXX.world.inventory.AbstractCraftingMenu",
+            "XXX.world.inventory.AbstractFurnaceMenu",
+            "XXX.world.inventory.AnvilMenu",
+            "XXX.world.inventory.BeaconMenu",
+            "XXX.world.inventory.BeaconMenu$PaymentSlot",
+            "XXX.world.inventory.BrewingStandMenu",
+            "XXX.world.inventory.BrewingStandMenu$IngredientsSlot",
+            "XXX.world.inventory.CartographyTableMenu",
+            "XXX.world.inventory.CartographyTableMenu$2",
+            "XXX.world.inventory.CartographyTableMenu$4",
+            "XXX.world.inventory.ChestMenu",
+            "XXX.world.inventory.ClickType",
+            "XXX.world.inventory.ContainerLevelAccess",
+            "XXX.world.inventory.ContainerLevelAccess$2",
+            "XXX.world.inventory.ContainerSynchronizer",
+            "XXX.world.inventory.CrafterSlot",
+            "XXX.world.inventory.CraftingMenu",
+            "XXX.world.inventory.DataSlot$1",
+            "XXX.world.inventory.DataSlot$3",
+            "XXX.world.inventory.EnchantmentMenu",
+            "XXX.world.inventory.EnchantmentMenu$2",
+            "XXX.world.inventory.FurnaceFuelSlot",
+            "XXX.world.inventory.FurnaceResultSlot",
+            "XXX.world.inventory.GrindstoneMenu$1",
+            "XXX.world.inventory.GrindstoneMenu$3",
+            "XXX.world.inventory.HopperMenu",
+            "XXX.world.inventory.HorseInventoryMenu$1",
+            "XXX.world.inventory.InventoryMenu",
+            "XXX.world.inventory.ItemCombinerMenu",
+            "XXX.world.inventory.ItemCombinerMenu$2",
+            "XXX.world.inventory.ItemCombinerMenu$4",
+            "XXX.world.inventory.ItemCombinerMenuSlotDefinition$Builder",
+            "XXX.world.inventory.LecternMenu",
+            "XXX.world.inventory.LoomMenu",
+            "XXX.world.inventory.LoomMenu$2",
+            "XXX.world.inventory.LoomMenu$4",
+            "XXX.world.inventory.LoomMenu$6",
+            "XXX.world.inventory.MenuType",
+            "XXX.world.inventory.MerchantContainer",
+            "XXX.world.inventory.MerchantResultSlot",
+            "XXX.world.inventory.PlayerEnderChestContainer",
+            "XXX.world.inventory.RecipeBookMenu$PostPlaceAction",
+            "XXX.world.inventory.RecipeCraftingHolder",
+            "XXX.world.inventory.ResultSlot",
+            "XXX.world.inventory.ShulkerBoxSlot",
+            "XXX.world.inventory.Slot",
+            "XXX.world.inventory.SlotRange$1",
+            "XXX.world.inventory.SmithingMenu",
+            "XXX.world.inventory.StackedContentsCompatible",
+            "XXX.world.inventory.StonecutterMenu$1",
+            "XXX.world.inventory.TransientCraftingContainer",
+            "XXX.inventory.tooltip.BundleTooltip",
+            "XXX.inventory.tooltip.package-info",
+            "XXX.world.item.AirItem",
+            "XXX.world.item.AnimalArmorItem$BodyType",
+            "XXX.world.item.ArmorStandItem",
+            "XXX.world.item.AxeItem",
+            "XXX.world.item.BannerPatternItem",
+            "XXX.world.item.BlockItem",
+            "XXX.world.item.BoneMealItem",
+            "XXX.world.item.BottleItem",
+            "XXX.world.item.BrushItem",
+            "XXX.world.item.BrushItem$DustParticlesDelta",
+            "XXX.world.item.BundleItem",
+            "XXX.world.item.CompassItem",
+            "XXX.world.item.CreativeModeTab$Builder",
+            "XXX.world.item.CreativeModeTab$ItemDisplayBuilder",
+            "XXX.world.item.CreativeModeTab$Output",
+            "XXX.world.item.CreativeModeTab$TabVisibility",
+            "XXX.world.item.CreativeModeTabs",
+            "XXX.world.item.CrossbowItem$ChargeType",
+            "XXX.world.item.DebugStickItem",
+            "XXX.world.item.DiscFragmentItem",
+            "XXX.world.item.DoubleHighBlockItem",
+            "XXX.world.item.DyeItem",
+            "XXX.world.item.EitherHolder",
+            "XXX.world.item.EndCrystalItem",
+            "XXX.world.item.EnderpearlItem",
+            "XXX.world.item.FireChargeItem",
+            "XXX.world.item.FireworkStarItem",
+            "XXX.world.item.FlintAndSteelItem",
+            "XXX.world.item.GameMasterBlockItem",
+            "XXX.world.item.HangingEntityItem",
+            "XXX.world.item.HoeItem",
+            "XXX.world.item.InkSacItem",
+            "XXX.world.item.InstrumentItem",
+            "XXX.world.item.Item",
+            "XXX.world.item.Item$TooltipContext",
+            "XXX.world.item.Item$TooltipContext$2",
+            "XXX.world.item.ItemCooldowns",
+            "XXX.world.item.ItemDisplayContext",
+            "XXX.world.item.ItemStack",
+            "XXX.world.item.ItemStack$2",
+            "XXX.world.item.ItemStack$4",
+            "XXX.world.item.ItemStackLinkedSet$1",
+            "XXX.world.item.ItemUtils",
+            "XXX.world.item.JukeboxPlayable",
+            "XXX.world.item.JukeboxSongPlayer",
+            "XXX.world.item.JukeboxSongs",
+            "XXX.world.item.LeadItem",
+            "XXX.world.item.MaceItem",
+            "XXX.world.item.MapItem$1",
+            "XXX.world.item.MobBucketItem",
+            "XXX.world.item.PickaxeItem",
+            "XXX.world.item.PlayerHeadItem",
+            "XXX.world.item.ProjectileItem",
+            "XXX.world.item.ProjectileItem$DispenseConfig$Builder",
+            "XXX.world.item.ProjectileWeaponItem",
+            "XXX.world.item.SaddleItem",
+            "XXX.world.item.ServerItemCooldowns",
+            "XXX.world.item.ShieldItem",
+            "XXX.world.item.SignApplicator",
+            "XXX.world.item.SmithingTemplateItem",
+            "XXX.world.item.SolidBucketItem",
+            "XXX.world.item.SpectralArrowItem",
+            "XXX.world.item.SpyglassItem",
+            "XXX.world.item.SwordItem",
+            "XXX.world.item.TippedArrowItem",
+            "XXX.world.item.TooltipFlag",
+            "XXX.world.item.TridentItem",
+            "XXX.world.item.WritableBookItem",
+            "XXX.item.alchemy.Potion",
+            "XXX.item.alchemy.PotionBrewing$Builder",
+            "XXX.item.alchemy.PotionContents",
+            "XXX.item.alchemy.package-info",
+            "XXX.item.component.BookContent",
+            "XXX.item.component.BundleContents$Mutable",
+            "XXX.item.component.Consumable",
+            "XXX.item.component.Consumable$OverrideConsumeSound",
+            "XXX.item.component.Consumables",
+            "XXX.item.component.CustomModelData",
+            "XXX.item.component.DeathProtection",
+            "XXX.item.component.DyedItemColor",
+            "XXX.item.component.FireworkExplosion$Shape",
+            "XXX.item.component.ItemAttributeModifiers",
+            "XXX.item.component.ItemAttributeModifiers$Builder",
+            "XXX.item.component.ItemContainerContents",
+            "XXX.item.component.ItemLore",
+            "XXX.item.component.MapDecorations",
+            "XXX.item.component.MapItemColor",
+            "XXX.item.component.OminousBottleAmplifier",
+            "XXX.item.component.SeededContainerLoot",
+            "XXX.item.component.SuspiciousStewEffects$Entry",
+            "XXX.item.component.Tool$Rule",
+            "XXX.item.component.Unbreakable",
+            "XXX.item.component.UseRemainder",
+            "XXX.item.component.WritableBookContent",
+            "XXX.item.component.package-info",
+            "XXX.item.consume_effects.ClearAllStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.ConsumeEffect$Type",
+            "XXX.item.consume_effects.RemoveStatusEffectsConsumeEffect",
+            "XXX.item.consume_effects.package-info",
+            "XXX.item.context.DirectionalPlaceContext",
+            "XXX.item.context.UseOnContext",
+            "XXX.item.crafting.AbstractCookingRecipe",
+            "XXX.item.crafting.AbstractCookingRecipe$Serializer",
+            "XXX.item.crafting.BannerDuplicateRecipe",
+            "XXX.item.crafting.BlastingRecipe$1",
+            "XXX.item.crafting.CampfireCookingRecipe",
+            "XXX.item.crafting.CraftingBookCategory",
+            "XXX.item.crafting.CraftingInput$Positioned",
+            "XXX.item.crafting.CraftingRecipe$1",
+            "XXX.item.crafting.CustomRecipe$Serializer",
+            "XXX.item.crafting.DecoratedPotRecipe",
+            "XXX.item.crafting.FireworkRocketRecipe",
+            "XXX.item.crafting.FireworkStarRecipe",
+            "XXX.item.crafting.MapCloningRecipe",
+            "XXX.item.crafting.PlacementInfo"
+          ]
+        }
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.minecraft.client.KeyMapping \u001b[2;32m+1M\u001b[0m",
+          "XXX.models.model.ItemModelUtils \u001b[2;32m+1M\u001b[0m",
+          "XXX.gui.font.FontTexture \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.LoadingOverlay \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gui.screens.TitleScreen \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.screens.recipebook.RecipeButton \u001b[2;32m+2M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.screens.recipebook.RecipeCollection \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.client.renderer.Sheets \u001b[2;32m+2M\u001b[0m",
+          "XXX.renderer.blockentity.HangingSignRenderer \u001b[2;32m+4M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.renderer.entity.AbstractSkeletonRenderer \u001b[2;32m+2M\u001b[0m",
+          "XXX.properties.conditional.Broken \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.properties.conditional.CustomModelDataProperty \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.special.SkullSpecialRenderer$Unbaked \u001b[2;32m+4M\u001b[0m | \u001b[2;32m+1P\u001b[0m",
+          "XXX.renderer.texture.AbstractTexture \u001b[2;31m-1M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.renderer.texture.DynamicTexture \u001b[2;31m-1M\u001b[0m",
+          "XXX.renderer.texture.TextureManager \u001b[2;32m+10M\u001b[0m \u001b[2;31m-13M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.recipebook.ServerPlaceRecipe \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.packs.AbstractPackResources \u001b[2;32m+3M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.packs.CompositePackResources \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.server.packs.PackResources \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.server.packs.VanillaPackResources \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.packs.resources.ResourceMetadata \u001b[2;32m+2M\u001b[0m \u001b[2;31m-2M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.packs.resources.ResourceMetadata$2 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.packs.resources.ResourceMetadata$Builder$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.minecraft.sounds.SoundEvents \u001b[2;31m-1P\u001b[0m",
+          "XXX.minecraft.tags.ItemTags \u001b[2;32m+5P\u001b[0m \u001b[2;31m-5P\u001b[0m",
+          "XXX.monster.creaking.Creaking \u001b[2;32m+20M\u001b[0m | \u001b[2;32m+9P\u001b[0m",
+          "XXX.item.crafting.RecipePropertySet \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BannerBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BeaconBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.BrewingStandBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ChestBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ChiseledBookShelfBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.ConduitBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.CrafterBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DaylightDetectorBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DecoratedPotBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.DispenserBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.EndGatewayBlock \u001b[2;32m+1M\u001b[0m",
+          "XXX.level.block.EnderChestBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.GlowLichenBlock \u001b[2;31m-4M\u001b[0m | \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.GrindstoneBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.JukeboxBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.RenderShape \u001b[2;31m-1P\u001b[0m",
+          "XXX.level.block.SculkCatalystBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.SculkShriekerBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.StructureBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.TrialSpawnerBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.level.block.VaultBlock \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.entity.BeehiveBlockEntity \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.block.entity.CreakingHeartBlockEntity \u001b[2;32m+12M\u001b[0m \u001b[2;31m-4M\u001b[0m | \u001b[2;32m+5P\u001b[0m \u001b[2;31m-1P\u001b[0m",
+          "XXX.block.piston.MovingPistonBlock \u001b[2;32m+1M\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.KeyMapping",
+        "differences": {
+          "added": [],
+          "removed": [
+            "KeyMapping get(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.data.models.model.ItemModelUtils",
+        "differences": {
+          "added": [],
+          "removed": [
+            "ItemModel$Unbaked isXmas(ItemModel$Unbaked,ItemModel$Unbaked)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.font.FontTexture",
+        "differences": {
+          "added": [
+            "void load(ResourceManager)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.LoadingOverlay",
+        "differences": {
+          "added": [
+            "void registerTextures(Minecraft)"
+          ],
+          "removed": [
+            "void registerTextures(TextureManager)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.TitleScreen",
+        "differences": {
+          "added": [
+            "CompletableFuture preloadResources(TextureManager,Executor)"
+          ],
+          "removed": [
+            "void registerTextures(TextureManager)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.recipebook.RecipeButton",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean allRecipesHaveSameResultDisplay(List)",
+            "Stream lambda$allRecipesHaveSameResultDisplay$1(RecipeButton$ResolvedEntry)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.gui.screens.recipebook.RecipeCollection",
+        "differences": {
+          "added": [
+            "boolean allRecipesHaveSameResult(List)",
+            "boolean hasSingleResultItem()"
+          ],
+          "removed": [
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.Sheets",
+        "differences": {
+          "added": [],
+          "removed": [
+            "Material createSignMaterial(ResourceLocation)",
+            "Material createHangingSignMaterial(ResourceLocation)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.blockentity.HangingSignRenderer",
+        "differences": {
+          "added": [
+            "void render(SignBlockEntity,float,PoseStack,MultiBufferSource,int,int)",
+            "void render(BlockEntity,float,PoseStack,MultiBufferSource,int,int)"
+          ],
+          "removed": [
+            "Model createSignModel(EntityModelSet,WoodType,HangingSignRenderer$AttachmentType)",
+            "void translateBase(PoseStack,float)",
+            "Model getSignModel(BlockState,WoodType)",
+            "void renderInHand(PoseStack,MultiBufferSource,int,int,Model,Material)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.entity.AbstractSkeletonRenderer",
+        "differences": {
+          "added": [],
+          "removed": [
+            "HumanoidModel$ArmPose getArmPose(AbstractSkeleton,HumanoidArm)",
+            "HumanoidModel$ArmPose getArmPose(Mob,HumanoidArm)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.item.properties.conditional.Broken",
+        "differences": {
+          "added": [
+            "boolean get(ItemStack,ClientLevel,LivingEntity,int)"
+          ],
+          "removed": [
+            "boolean get(ItemStack,ClientLevel,LivingEntity,int,ItemDisplayContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.item.properties.conditional.CustomModelDataProperty",
+        "differences": {
+          "added": [
+            "boolean get(ItemStack,ClientLevel,LivingEntity,int)"
+          ],
+          "removed": [
+            "boolean get(ItemStack,ClientLevel,LivingEntity,int,ItemDisplayContext)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.special.SkullSpecialRenderer$Unbaked",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void <init>(SkullBlock$Type,Optional)",
+            "Optional textureOverride()",
+            "ResourceLocation lambda$bake$2(ResourceLocation)",
+            "String lambda$bake$1(String)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.texture.AbstractTexture",
+        "differences": {
+          "added": [
+            "void reset(TextureManager,ResourceManager,ResourceLocation,Executor)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.texture.DynamicTexture",
+        "differences": {
+          "added": [
+            "void load(ResourceManager)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.renderer.texture.TextureManager",
+        "differences": {
+          "added": [
+            "AbstractTexture loadTexture(ResourceLocation,AbstractTexture)",
+            "AbstractTexture getTexture(ResourceLocation,AbstractTexture)",
+            "ResourceLocation register(String,DynamicTexture)",
+            "CompletableFuture preload(ResourceLocation,Executor)",
+            "void execute(Runnable)",
+            "void lambda$_dumpAllSheets$7(Path,ResourceLocation,AbstractTexture)",
+            "void lambda$dumpAllSheets$6(Path)",
+            "void lambda$reload$5(Runnable)",
+            "void lambda$reload$4(ResourceManager,Executor,CompletableFuture,Void)",
+            "void lambda$reload$3(CompletableFuture)",
+            "void lambda$execute$2(Runnable)",
+            "void lambda$preload$1(ResourceLocation,PreloadedTexture)",
+            "String lambda$loadTexture$0(AbstractTexture)"
+          ],
+          "removed": [
+            "void registerAndLoad(ResourceLocation,ReloadableTexture)",
+            "void registerForNextReload(ResourceLocation)",
+            "TextureContents loadContents(ResourceManager,ResourceLocation,ReloadableTexture)",
+            "TextureManager$PendingReload scheduleLoad(ResourceManager,ResourceLocation,ReloadableTexture,Executor)",
+            "TextureContents lambda$scheduleLoad$5(ResourceManager,ResourceLocation,ReloadableTexture)",
+            "void lambda$_dumpAllSheets$4(Path,ResourceLocation,AbstractTexture)",
+            "void lambda$dumpAllSheets$3(Path)",
+            "void lambda$reload$2(List,Void)",
+            "CompletableFuture[] lambda$reload$1(int)",
+            "void lambda$reload$0(List,ResourceManager,Executor,ResourceLocation,AbstractTexture)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.recipebook.ServerPlaceRecipe",
+        "differences": {
+          "added": [
+            "void lambda$placeRecipe$1(int,List,Optional,int,int,int)",
+            "int lambda$placeRecipe$0(Holder)"
+          ],
+          "removed": [
+            "int clampToMaxStackSize(int,List)",
+            "void lambda$placeRecipe$0(List,int,Integer,int,int,int)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.AbstractPackResources",
+        "differences": {
+          "added": [
+            "Object getMetadataSection(MetadataSectionSerializer)",
+            "Object getMetadataFromStream(MetadataSectionSerializer,InputStream)"
+          ],
+          "removed": [
+            "Object getMetadataSection(MetadataSectionType)",
+            "Object getMetadataFromStream(MetadataSectionType,InputStream)",
+            "void lambda$getMetadataFromStream$0(MetadataSectionType,DataResult$Error)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.CompositePackResources",
+        "differences": {
+          "added": [
+            "Object getMetadataSection(MetadataSectionSerializer)"
+          ],
+          "removed": [
+            "Object getMetadataSection(MetadataSectionType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.VanillaPackResources",
+        "differences": {
+          "added": [
+            "Object getMetadataSection(MetadataSectionSerializer)"
+          ],
+          "removed": [
+            "Object getMetadataSection(MetadataSectionType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.resources.ResourceMetadata",
+        "differences": {
+          "added": [
+            "void copySection(ResourceMetadata$Builder,MetadataSectionSerializer)",
+            "void lambda$copySection$1(ResourceMetadata$Builder,MetadataSectionSerializer,Object)"
+          ],
+          "removed": [
+            "void copySection(ResourceMetadata$Builder,MetadataSectionType)",
+            "void lambda$copySection$1(ResourceMetadata$Builder,MetadataSectionType,Object)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.resources.ResourceMetadata$2",
+        "differences": {
+          "added": [
+            "Optional getSection(MetadataSectionSerializer)"
+          ],
+          "removed": [
+            "Optional getSection(MetadataSectionType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.packs.resources.ResourceMetadata$Builder$1",
+        "differences": {
+          "added": [
+            "Optional getSection(MetadataSectionSerializer)"
+          ],
+          "removed": [
+            "Optional getSection(MetadataSectionType)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.monster.creaking.Creaking",
+        "differences": {
+          "added": [],
+          "removed": [
+            "void setTransient(BlockPos)",
+            "boolean isTransient()",
+            "boolean hurtServer(ServerLevel,DamageSource,float)",
+            "Player blameSourceForDamage(DamageSource)",
+            "void tickDeath()",
+            "void tearDown()",
+            "void creakingDeathEffects(DamageSource)",
+            "boolean fireImmune()",
+            "boolean canAddPassenger(Entity)",
+            "boolean couldAcceptPassenger()",
+            "void addPassenger(Entity)",
+            "boolean canUsePortal(boolean)",
+            "PathNavigation createNavigation(Level)",
+            "boolean playerIsStuckInYou()",
+            "void readAdditionalSaveData(CompoundTag)",
+            "void addAdditionalSaveData(CompoundTag)",
+            "void setTearingDown()",
+            "boolean isTearingDown()",
+            "boolean hasGlowingEyes()",
+            "void checkEyeBlink()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.crafting.RecipePropertySet",
+        "differences": {
+          "added": [
+            "Stream lambda$create$2(Ingredient)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BannerBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BeaconBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.BrewingStandBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ChestBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ChiseledBookShelfBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.ConduitBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.CrafterBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DaylightDetectorBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DecoratedPotBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.DispenserBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EndGatewayBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "RenderShape getRenderShape(BlockState)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.EnderChestBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.GlowLichenBlock",
+        "differences": {
+          "added": [
+            "void createBlockStateDefinition(StateDefinition$Builder)",
+            "BlockState updateShape(BlockState,LevelReader,ScheduledTickAccess,BlockPos,Direction,BlockPos,BlockState,RandomSource)",
+            "boolean canBeReplaced(BlockState,BlockPlaceContext)",
+            "FluidState getFluidState(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.GrindstoneBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.JukeboxBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkCatalystBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.SculkShriekerBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.StructureBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.TrialSpawnerBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.VaultBlock",
+        "differences": {
+          "added": [
+            "RenderShape getRenderShape(BlockState)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.BeehiveBlockEntity",
+        "differences": {
+          "added": [
+            "void addOccupant(Entity)"
+          ],
+          "removed": [
+            "void addOccupant(Bee)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.entity.CreakingHeartBlockEntity",
+        "differences": {
+          "added": [
+            "CreakingTransient spawnProtector(ServerLevel,CreakingHeartBlockEntity)",
+            "BlockPos$TraversalNodeStatus lambda$spreadResin$2(Mutable,BlockPos)",
+            "void lambda$spreadResin$1(BlockPos,Consumer)",
+            "void lambda$creakingHurt$0(BlockPos)"
+          ],
+          "removed": [
+            "Optional getCreakingProtector()",
+            "Creaking spawnProtector(ServerLevel,CreakingHeartBlockEntity)",
+            "void loadAdditional(CompoundTag,HolderLookup$Provider)",
+            "void saveAdditional(CompoundTag,HolderLookup$Provider)",
+            "UUID lambda$saveAdditional$6(UUID)",
+            "Boolean lambda$isProtector$5(Creaking,Creaking)",
+            "BlockPos$TraversalNodeStatus lambda$spreadResin$4(Mutable,BlockPos)",
+            "void lambda$spreadResin$3(BlockPos,Consumer)",
+            "void lambda$creakingHurt$2(BlockPos)",
+            "Double lambda$distanceToCreaking$1(Creaking)",
+            "void lambda$serverTick$0(CreakingHeartBlockEntity,Creaking)",
+            "void <clinit>()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.level.block.piston.MovingPistonBlock",
+        "differences": {
+          "added": [],
+          "removed": [
+            "RenderShape getRenderShape(BlockState)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
