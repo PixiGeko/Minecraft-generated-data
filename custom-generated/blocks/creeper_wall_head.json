@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_skull",
+    "kind": "creeper",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "powered": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "9754": {
+      "facing": "north",
+      "powered": true
+    },
+    "9755": {
+      "facing": "north",
+      "powered": true
+    },
+    "9756": {
+      "facing": "south",
+      "powered": true
+    },
+    "9757": {
+      "facing": "south",
+      "powered": true
+    },
+    "9758": {
+      "facing": "west",
+      "powered": true
+    },
+    "9759": {
+      "facing": "west",
+      "powered": true
+    },
+    "9760": {
+      "facing": "east",
+      "powered": true
+    },
+    "9761": {
+      "facing": "east",
+      "powered": true
+    },
+    "default": 9755
+  }
+}

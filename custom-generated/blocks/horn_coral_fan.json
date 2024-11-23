@@ -1,0 +1,22 @@
+{
+  "definition": {
+    "type": "minecraft:coral_fan",
+    "dead": "minecraft:dead_horn_coral_fan",
+    "properties": {}
+  },
+  "properties": {
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "13800": {
+      "waterlogged": true
+    },
+    "13801": {
+      "waterlogged": true
+    },
+    "default": 13800
+  }
+}

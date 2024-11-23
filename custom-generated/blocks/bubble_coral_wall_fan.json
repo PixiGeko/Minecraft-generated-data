@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:coral_wall_fan",
+    "dead": "minecraft:dead_bubble_coral_wall_fan",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "13858": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "13859": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "13860": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "13861": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "13862": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "13863": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "13864": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "13865": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 13858
+  }
+}
