@@ -1,0 +1,23 @@
+scoreboard objectives add <objective: string> <criteria: objective_criteria> <displayName: component>
+scoreboard objectives list
+scoreboard objectives modify <objective: objective> displayautoupdate <value: bool>
+scoreboard objectives modify <objective: objective> displayname <displayName: component>
+scoreboard objectives modify <objective: objective> numberformat blank
+scoreboard objectives modify <objective: objective> numberformat fixed <contents: component>
+scoreboard objectives modify <objective: objective> numberformat styled <style: style>
+scoreboard objectives modify <objective: objective> rendertype hearts
+scoreboard objectives modify <objective: objective> rendertype integer
+scoreboard objectives remove <objective: objective>
+scoreboard objectives setdisplay <slot: scoreboard_slot> <objective: objective>
+scoreboard players add <targets: score_holder> <objective: objective> <score: integer>
+scoreboard players display name <targets: score_holder> <objective: objective> <name: component>
+scoreboard players display numberformat <targets: score_holder> <objective: objective> blank
+scoreboard players display numberformat <targets: score_holder> <objective: objective> fixed <contents: component>
+scoreboard players display numberformat <targets: score_holder> <objective: objective> styled <style: style>
+scoreboard players enable <targets: score_holder> <objective: objective>
+scoreboard players get <target: score_holder> <objective: objective>
+scoreboard players list <target: score_holder>
+scoreboard players operation <targets: score_holder> <targetObjective: objective> <operation: operation> <source: score_holder> <sourceObjective: objective>
+scoreboard players remove <targets: score_holder> <objective: objective> <score: integer>
+scoreboard players reset <targets: score_holder> <objective: objective>
+scoreboard players set <targets: score_holder> <objective: objective> <score: integer>
