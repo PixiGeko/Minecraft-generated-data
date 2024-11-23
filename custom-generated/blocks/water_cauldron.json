@@ -1,0 +1,27 @@
+{
+  "definition": {
+    "type": "minecraft:layered_cauldron",
+    "interactions": "water",
+    "precipitation": "rain",
+    "properties": {}
+  },
+  "properties": {
+    "level": [
+      1,
+      2,
+      3
+    ]
+  },
+  "states": {
+    "7629": {
+      "level": 1
+    },
+    "7630": {
+      "level": 2
+    },
+    "7631": {
+      "level": 3
+    },
+    "default": 7629
+  }
+}
