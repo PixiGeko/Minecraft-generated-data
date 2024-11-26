@@ -1,0 +1,53 @@
+{
+  "definition": {
+    "type": "minecraft:end_portal_frame",
+    "properties": {}
+  },
+  "properties": {
+    "eye": [
+      true,
+      true
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "8181": {
+      "eye": true,
+      "facing": "north"
+    },
+    "8182": {
+      "eye": true,
+      "facing": "south"
+    },
+    "8183": {
+      "eye": true,
+      "facing": "west"
+    },
+    "8184": {
+      "eye": true,
+      "facing": "east"
+    },
+    "8185": {
+      "eye": true,
+      "facing": "north"
+    },
+    "8186": {
+      "eye": true,
+      "facing": "south"
+    },
+    "8187": {
+      "eye": true,
+      "facing": "west"
+    },
+    "8188": {
+      "eye": true,
+      "facing": "east"
+    },
+    "default": 8185
+  }
+}
