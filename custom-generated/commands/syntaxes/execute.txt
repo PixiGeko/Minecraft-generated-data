@@ -1,0 +1,49 @@
+execute align <axes: swizzle>
+execute as <targets: entity>
+execute at <targets: entity>
+execute if block <pos: block_pos> <block: block_predicate>
+execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+execute if blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
+execute if entity <entities: entity>
+execute if score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+execute if score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
+execute offset <pos: vec3>
+execute run
+execute store result block <pos: block_pos> <path: nbt_path> byte <scale: double>
+execute store result block <pos: block_pos> <path: nbt_path> double <scale: double>
+execute store result block <pos: block_pos> <path: nbt_path> float <scale: double>
+execute store result block <pos: block_pos> <path: nbt_path> int <scale: double>
+execute store result block <pos: block_pos> <path: nbt_path> long <scale: double>
+execute store result block <pos: block_pos> <path: nbt_path> short <scale: double>
+execute store result entity <target: entity> <path: nbt_path> byte <scale: double>
+execute store result entity <target: entity> <path: nbt_path> double <scale: double>
+execute store result entity <target: entity> <path: nbt_path> float <scale: double>
+execute store result entity <target: entity> <path: nbt_path> int <scale: double>
+execute store result entity <target: entity> <path: nbt_path> long <scale: double>
+execute store result entity <target: entity> <path: nbt_path> short <scale: double>
+execute store result score <targets: score_holder> <objective: objective>
+execute store success block <pos: block_pos> <path: nbt_path> byte <scale: double>
+execute store success block <pos: block_pos> <path: nbt_path> double <scale: double>
+execute store success block <pos: block_pos> <path: nbt_path> float <scale: double>
+execute store success block <pos: block_pos> <path: nbt_path> int <scale: double>
+execute store success block <pos: block_pos> <path: nbt_path> long <scale: double>
+execute store success block <pos: block_pos> <path: nbt_path> short <scale: double>
+execute store success entity <target: entity> <path: nbt_path> byte <scale: double>
+execute store success entity <target: entity> <path: nbt_path> double <scale: double>
+execute store success entity <target: entity> <path: nbt_path> float <scale: double>
+execute store success entity <target: entity> <path: nbt_path> int <scale: double>
+execute store success entity <target: entity> <path: nbt_path> long <scale: double>
+execute store success entity <target: entity> <path: nbt_path> short <scale: double>
+execute store success score <targets: score_holder> <objective: objective>
+execute unless block <pos: block_pos> <block: block_predicate>
+execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> all
+execute unless blocks <start: block_pos> <end: block_pos> <destination: block_pos> masked
+execute unless entity <entities: entity>
+execute unless score <target: score_holder> <targetObjective: objective> < <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> <= <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> = <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> > <source: score_holder> <sourceObjective: objective>
+execute unless score <target: score_holder> <targetObjective: objective> >= <source: score_holder> <sourceObjective: objective>
