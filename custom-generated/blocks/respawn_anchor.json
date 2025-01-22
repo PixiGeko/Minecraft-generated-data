@@ -1,0 +1,33 @@
+{
+  "definition": {
+    "type": "minecraft:respawn_anchor",
+    "properties": {}
+  },
+  "properties": {
+    "charges": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "states": {
+    "20474": {
+      "charges": 0
+    },
+    "20475": {
+      "charges": 1
+    },
+    "20476": {
+      "charges": 2
+    },
+    "20477": {
+      "charges": 3
+    },
+    "20478": {
+      "charges": 4
+    },
+    "default": 20474
+  }
+}
