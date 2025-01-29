@@ -1,0 +1,70 @@
+{
+  "definition": {
+    "type": "minecraft:grindstone",
+    "properties": {}
+  },
+  "properties": {
+    "face": [
+      "floor",
+      "wall",
+      "ceiling"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "19458": {
+      "face": "floor",
+      "facing": "north"
+    },
+    "19459": {
+      "face": "floor",
+      "facing": "south"
+    },
+    "19460": {
+      "face": "floor",
+      "facing": "west"
+    },
+    "19461": {
+      "face": "floor",
+      "facing": "east"
+    },
+    "19462": {
+      "face": "wall",
+      "facing": "north"
+    },
+    "19463": {
+      "face": "wall",
+      "facing": "south"
+    },
+    "19464": {
+      "face": "wall",
+      "facing": "west"
+    },
+    "19465": {
+      "face": "wall",
+      "facing": "east"
+    },
+    "19466": {
+      "face": "ceiling",
+      "facing": "north"
+    },
+    "19467": {
+      "face": "ceiling",
+      "facing": "south"
+    },
+    "19468": {
+      "face": "ceiling",
+      "facing": "west"
+    },
+    "19469": {
+      "face": "ceiling",
+      "facing": "east"
+    },
+    "default": 19462
+  }
+}

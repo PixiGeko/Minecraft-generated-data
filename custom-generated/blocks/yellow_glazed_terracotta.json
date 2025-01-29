@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:glazed_terracotta",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "13700": {
+      "facing": "north"
+    },
+    "13701": {
+      "facing": "south"
+    },
+    "13702": {
+      "facing": "west"
+    },
+    "13703": {
+      "facing": "east"
+    },
+    "default": 13700
+  }
+}
