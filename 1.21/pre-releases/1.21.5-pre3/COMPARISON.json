@@ -1,0 +1,278 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.5-pre2",
+        "currentLabel": "1.21.5-pre3",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4321",
+            "current": "4322"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742064",
+            "current": "1073742065"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "net.minecraft.SharedConstants \u001b[2;32m+1P\u001b[0m",
+          "XXX.selector.options.EntitySelectorOptions \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.level.ServerPlayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.world.inventory.CraftingMenu \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.MapItem \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.world.level.Level \u001b[2;31m-2P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.selector.options.EntitySelectorOptions",
+        "differences": {
+          "added": [
+            "boolean lambda$bootStrap$34(boolean,GameType,Entity)"
+          ],
+          "removed": [
+            "boolean lambda$bootStrap$34(GameType,boolean,Entity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper$1",
+        "differences": {
+          "added": [
+            "boolean isSpectator()",
+            "boolean isCreative()"
+          ],
+          "removed": [
+            "GameType gameMode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerPlayer",
+        "differences": {
+          "added": [
+            "boolean isSpectator()",
+            "boolean isCreative()"
+          ],
+          "removed": [
+            "GameType gameMode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isSpectator()",
+            "boolean isCreative()",
+            "String debugInfo()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.inventory.CraftingMenu",
+        "differences": {
+          "added": [
+            "void lambda$quickMoveStack$2(ItemStack,Player,Level,BlockPos)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.MapItem",
+        "differences": {
+          "added": [
+            "ItemStack create(Level,int,int,byte,boolean,boolean)",
+            "MapId createNewSavedData(Level,int,int,int,boolean,boolean,ResourceKey)",
+            "void scaleMap(ItemStack,Level)",
+            "void lockMap(Level,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack create(ServerLevel,int,int,byte,boolean,boolean)",
+            "MapId createNewSavedData(ServerLevel,int,int,int,boolean,boolean,ResourceKey)",
+            "void scaleMap(ItemStack,ServerLevel)",
+            "void lockMap(ItemStack,ServerLevel)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.player.AbstractClientPlayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.selector.options.EntitySelectorOptions \u001b[2;32m+1M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.gametest.framework.GameTestHelper$1 \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.server.level.ServerPlayer \u001b[2;32m+1M\u001b[0m \u001b[2;31m-2M\u001b[0m",
+          "XXX.entity.player.Player \u001b[2;32m+3M\u001b[0m | \u001b[2;32m+1P\u001b[0m \u001b[2;31m-2P\u001b[0m",
+          "XXX.world.inventory.CraftingMenu \u001b[2;31m-1M\u001b[0m",
+          "XXX.world.item.MapItem \u001b[2;32m+4M\u001b[0m \u001b[2;31m-4M\u001b[0m",
+          "XXX.world.level.Level \u001b[2;31m-2P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.player.AbstractClientPlayer",
+        "differences": {
+          "added": [
+            "boolean isSpectator()",
+            "boolean isCreative()"
+          ],
+          "removed": [
+            "GameType gameMode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.commands.arguments.selector.options.EntitySelectorOptions",
+        "differences": {
+          "added": [
+            "boolean lambda$bootStrap$34(boolean,GameType,Entity)"
+          ],
+          "removed": [
+            "boolean lambda$bootStrap$34(GameType,boolean,Entity)"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.gametest.framework.GameTestHelper$1",
+        "differences": {
+          "added": [
+            "boolean isSpectator()",
+            "boolean isCreative()"
+          ],
+          "removed": [
+            "GameType gameMode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.server.level.ServerPlayer",
+        "differences": {
+          "added": [
+            "boolean isSpectator()",
+            "boolean isCreative()"
+          ],
+          "removed": [
+            "GameType gameMode()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.entity.player.Player",
+        "differences": {
+          "added": [],
+          "removed": [
+            "boolean isSpectator()",
+            "boolean isCreative()",
+            "String debugInfo()"
+          ]
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.inventory.CraftingMenu",
+        "differences": {
+          "added": [
+            "void lambda$quickMoveStack$2(ItemStack,Player,Level,BlockPos)"
+          ],
+          "removed": []
+        }
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.world.item.MapItem",
+        "differences": {
+          "added": [
+            "ItemStack create(Level,int,int,byte,boolean,boolean)",
+            "MapId createNewSavedData(Level,int,int,int,boolean,boolean,ResourceKey)",
+            "void scaleMap(ItemStack,Level)",
+            "void lockMap(Level,ItemStack)"
+          ],
+          "removed": [
+            "ItemStack create(ServerLevel,int,int,byte,boolean,boolean)",
+            "MapId createNewSavedData(ServerLevel,int,int,int,boolean,boolean,ResourceKey)",
+            "void scaleMap(ItemStack,ServerLevel)",
+            "void lockMap(ItemStack,ServerLevel)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
