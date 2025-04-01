@@ -1,0 +1,62 @@
+{
+  "definition": {
+    "type": "minecraft:hopper",
+    "properties": {}
+  },
+  "properties": {
+    "enabled": [
+      true,
+      true
+    ],
+    "facing": [
+      "down",
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "10025": {
+      "enabled": true,
+      "facing": "down"
+    },
+    "10026": {
+      "enabled": true,
+      "facing": "north"
+    },
+    "10027": {
+      "enabled": true,
+      "facing": "south"
+    },
+    "10028": {
+      "enabled": true,
+      "facing": "west"
+    },
+    "10029": {
+      "enabled": true,
+      "facing": "east"
+    },
+    "10030": {
+      "enabled": true,
+      "facing": "down"
+    },
+    "10031": {
+      "enabled": true,
+      "facing": "north"
+    },
+    "10032": {
+      "enabled": true,
+      "facing": "south"
+    },
+    "10033": {
+      "enabled": true,
+      "facing": "west"
+    },
+    "10034": {
+      "enabled": true,
+      "facing": "east"
+    },
+    "default": 10025
+  }
+}
