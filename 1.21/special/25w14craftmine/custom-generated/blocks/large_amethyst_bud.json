@@ -1,0 +1,73 @@
+{
+  "definition": {
+    "type": "minecraft:amethyst_cluster",
+    "height": 5,
+    "properties": {},
+    "width": 10
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "22068": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "22069": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "22070": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "22071": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "22072": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "22073": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "22074": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "22075": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "22076": {
+      "facing": "up",
+      "waterlogged": true
+    },
+    "22077": {
+      "facing": "up",
+      "waterlogged": true
+    },
+    "22078": {
+      "facing": "down",
+      "waterlogged": true
+    },
+    "22079": {
+      "facing": "down",
+      "waterlogged": true
+    },
+    "default": 22077
+  }
+}

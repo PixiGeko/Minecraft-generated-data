@@ -1,0 +1,70 @@
+{
+  "definition": {
+    "type": "minecraft:trophy",
+    "properties": {}
+  },
+  "properties": {
+    "type": [
+      "gold",
+      "mega_spud",
+      "no_medal"
+    ],
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "27974": {
+      "type": "gold",
+      "facing": "north"
+    },
+    "27975": {
+      "type": "mega_spud",
+      "facing": "north"
+    },
+    "27976": {
+      "type": "no_medal",
+      "facing": "north"
+    },
+    "27977": {
+      "type": "gold",
+      "facing": "south"
+    },
+    "27978": {
+      "type": "mega_spud",
+      "facing": "south"
+    },
+    "27979": {
+      "type": "no_medal",
+      "facing": "south"
+    },
+    "27980": {
+      "type": "gold",
+      "facing": "west"
+    },
+    "27981": {
+      "type": "mega_spud",
+      "facing": "west"
+    },
+    "27982": {
+      "type": "no_medal",
+      "facing": "west"
+    },
+    "27983": {
+      "type": "gold",
+      "facing": "east"
+    },
+    "27984": {
+      "type": "mega_spud",
+      "facing": "east"
+    },
+    "27985": {
+      "type": "no_medal",
+      "facing": "east"
+    },
+    "default": 27974
+  }
+}
