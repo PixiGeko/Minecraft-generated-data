@@ -1,0 +1,106 @@
+{
+  "definition": {
+    "type": "minecraft:bed",
+    "color": "blue",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "occupied": [
+      true,
+      true
+    ],
+    "part": [
+      "head",
+      "foot"
+    ]
+  },
+  "states": {
+    "1907": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1908": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1909": {
+      "facing": "north",
+      "occupied": true,
+      "part": "head"
+    },
+    "1910": {
+      "facing": "north",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1911": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1912": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1913": {
+      "facing": "south",
+      "occupied": true,
+      "part": "head"
+    },
+    "1914": {
+      "facing": "south",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1915": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1916": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1917": {
+      "facing": "west",
+      "occupied": true,
+      "part": "head"
+    },
+    "1918": {
+      "facing": "west",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1919": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1920": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "1921": {
+      "facing": "east",
+      "occupied": true,
+      "part": "head"
+    },
+    "1922": {
+      "facing": "east",
+      "occupied": true,
+      "part": "foot"
+    },
+    "default": 1910
+  }
+}
