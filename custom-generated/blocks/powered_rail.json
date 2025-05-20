@@ -1,0 +1,147 @@
+{
+  "definition": {
+    "type": "minecraft:powered_rail",
+    "properties": {}
+  },
+  "properties": {
+    "powered": [
+      true,
+      true
+    ],
+    "shape": [
+      "north_south",
+      "east_west",
+      "ascending_east",
+      "ascending_west",
+      "ascending_north",
+      "ascending_south"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "1987": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "1988": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "1989": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "1990": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "1991": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "1992": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "1993": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "1994": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "1995": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "1996": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "1997": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "1998": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "1999": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2000": {
+      "powered": true,
+      "shape": "north_south",
+      "waterlogged": true
+    },
+    "2001": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2002": {
+      "powered": true,
+      "shape": "east_west",
+      "waterlogged": true
+    },
+    "2003": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2004": {
+      "powered": true,
+      "shape": "ascending_east",
+      "waterlogged": true
+    },
+    "2005": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2006": {
+      "powered": true,
+      "shape": "ascending_west",
+      "waterlogged": true
+    },
+    "2007": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2008": {
+      "powered": true,
+      "shape": "ascending_north",
+      "waterlogged": true
+    },
+    "2009": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "2010": {
+      "powered": true,
+      "shape": "ascending_south",
+      "waterlogged": true
+    },
+    "default": 2000
+  }
+}
