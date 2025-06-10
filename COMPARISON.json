@@ -1,0 +1,76 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.6-pre3",
+        "currentLabel": "1.21.6-pre4",
+        "values": [
+          {
+            "key": "World version",
+            "previous": "4432",
+            "current": "4433"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742078",
+            "current": "1073742079"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "ansi",
+      "value": {
+        "title": "Changes",
+        "lines": [
+          "XXX.client.sounds.SoundEngine \u001b[2;32m+2M\u001b[0m \u001b[2;31m-1M\u001b[0m",
+          "XXX.entity.animal.HappyGhast \u001b[2;32m+1P\u001b[0m \u001b[2;31m-1P\u001b[0m"
+        ]
+      }
+    },
+    {
+      "type": "entries",
+      "value": {
+        "name": "net.minecraft.client.sounds.SoundEngine",
+        "differences": {
+          "added": [
+            "void updateCategoryVolume(SoundSource)"
+          ],
+          "removed": [
+            "float getVolume(SoundSource)",
+            "void updateCategoryVolume(SoundSource,float)"
+          ]
+        }
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
