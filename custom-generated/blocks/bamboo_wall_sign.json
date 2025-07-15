@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "type": "minecraft:wall_sign",
+    "properties": {},
+    "wood_type": "bamboo"
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "waterlogged": [
+      true,
+      true
+    ]
+  },
+  "states": {
+    "4928": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "4929": {
+      "facing": "north",
+      "waterlogged": true
+    },
+    "4930": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "4931": {
+      "facing": "south",
+      "waterlogged": true
+    },
+    "4932": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "4933": {
+      "facing": "west",
+      "waterlogged": true
+    },
+    "4934": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "4935": {
+      "facing": "east",
+      "waterlogged": true
+    },
+    "default": 4929
+  }
+}
