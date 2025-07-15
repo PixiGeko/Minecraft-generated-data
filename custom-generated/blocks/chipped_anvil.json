@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "type": "minecraft:anvil",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  "states": {
+    "9920": {
+      "facing": "north"
+    },
+    "9921": {
+      "facing": "south"
+    },
+    "9922": {
+      "facing": "west"
+    },
+    "9923": {
+      "facing": "east"
+    },
+    "default": 9920
+  }
+}
