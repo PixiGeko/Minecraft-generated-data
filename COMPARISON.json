@@ -1,0 +1,61 @@
+{
+  "version_data": [
+    {
+      "type": "table",
+      "value": {
+        "previousLabel": "1.21.7-rc1",
+        "currentLabel": "1.21.7",
+        "values": [
+          {
+            "key": "DataPack version",
+            "previous": "80",
+            "current": "81"
+          },
+          {
+            "key": "ResourcePack version",
+            "previous": "63",
+            "current": "64"
+          },
+          {
+            "key": "World version",
+            "previous": "4436",
+            "current": "4438"
+          },
+          {
+            "key": "Protocol version",
+            "previous": "1073742081",
+            "current": "772"
+          }
+        ]
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "type": "title",
+      "value": {
+        "title": "Server",
+        "id": "server-mappings",
+        "size": 2
+      }
+    },
+    {
+      "type": "title",
+      "value": {
+        "title": "Client",
+        "id": "client-mappings",
+        "size": 2
+      }
+    }
+  ],
+  "custom": [
+    {
+      "type": "title",
+      "value": {
+        "title": "datapacks.json",
+        "id": "custom-datapacks-json",
+        "size": 2
+      }
+    }
+  ]
+}
