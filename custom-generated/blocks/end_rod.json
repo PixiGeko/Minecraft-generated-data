@@ -1,0 +1,37 @@
+{
+  "definition": {
+    "type": "minecraft:end_rod",
+    "properties": {}
+  },
+  "properties": {
+    "facing": [
+      "north",
+      "east",
+      "south",
+      "west",
+      "up",
+      "down"
+    ]
+  },
+  "states": {
+    "13347": {
+      "facing": "north"
+    },
+    "13348": {
+      "facing": "east"
+    },
+    "13349": {
+      "facing": "south"
+    },
+    "13350": {
+      "facing": "west"
+    },
+    "13351": {
+      "facing": "up"
+    },
+    "13352": {
+      "facing": "down"
+    },
+    "default": 13351
+  }
+}
